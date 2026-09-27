@@ -1,0 +1,8 @@
+.gcloudignore
+.git
+.gitignore
+node_modules
+public
+.quartz-cache
+.obsidian
+.DS_Store
