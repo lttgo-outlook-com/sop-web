@@ -4,9 +4,9 @@ code: "OBK-SOP-PL-F"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Phụ lục"
-version: "R.1.0.1"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "26/09/2026"
+draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
 review_status: "đã soát"
@@ -16,7 +16,7 @@ parent: "OBK-SOP-KT Kế toán và thuế"
 law_as_of: "Pháp luật có hiệu lực tại ngày 25/08/2026"
 next_review: "Chậm nhất 28/02/2027"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-SOP-PL-F
 tags:
@@ -32,11 +32,11 @@ tags:
 | Mã tài liệu | OBK-SOP-PL-F |
 | Tên tài liệu | Báo cáo kiểm soát chất lượng bản nháp 1.0 |
 | Cấp tài liệu | Phụ lục của hướng dẫn cấp 3 |
-| Phiên bản | R.1.0.1, đang áp dụng |
-| Ngày biên soạn | 26/09/2026 |
-| Người biên soạn | `CEO` biên soạn |
-| Người soát | đã soát |
-| Người phê duyệt | `CEO` ban hành |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] Kế toán và thuế |
 | Ngày thực hiện kiểm soát | 25/08/2026 |
 | Người thực hiện | Kiểm soát viên độc lập, không tham gia biên soạn |
@@ -406,4 +406,4 @@ CÓ, với ba điều kiện kèm theo, có hiệu lực ngay:
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 26/09/2026 | R.1.0.1 | Cập nhật trạng thái dòng R8 từ đóng một phần thành đóng phần lớn, theo Nghị định 174/2016/NĐ-CP và Nghị định 41/2018/NĐ-CP đã nhập kho<br>Đồng bộ mục 4.1 và các dòng R17, R11, R12, R20 theo các văn bản pháp luật mới nhập kho |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

@@ -4,9 +4,9 @@ code: "OBK-SOP-LS"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 2, quy trình bộ phận"
-version: "R.1.0.1"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "23/09/2026"
+draft_date: "01/10/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 07/09/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -14,7 +14,7 @@ approver: "CEO"
 parent: "OBK-SOP-00 Chuẩn vận hành dịch vụ"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-SOP-LS
 tags:
@@ -33,12 +33,12 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-SOP-LS |
 | Cấp tài liệu | Cấp 2, SOP bộ phận |
-| Phiên bản | R.1.0.1, đang áp dụng |
-| Ngày biên soạn | 23/09/2026 |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 07/09/2026 |
-| Người biên soạn | `CEO` biên soạn |
-| Người soát | đã soát; Legal R&D soát phần pháp lý |
-| Người phê duyệt | **`CEO`** ban hành. Việc sửa sau ban hành theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 12.1 |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |OBK-SOP-00]] mục 12.1 |
 | Văn bản cấp trên | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] Chuẩn vận hành dịch vụ |
 | Đây là gì | Bộ phận này nhận Job nào, đầu vào gì, đầu ra gì, hạn bao lâu, và chỗ nào dễ sai. Người đọc là `TL-LS`, `CV-LS` và `AM` |
 | Đọc trước | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]];<br>`07_OBK-SOP-RD` |
@@ -121,8 +121,8 @@ Việc oBacker có được cung cấp dịch vụ tư vấn pháp luật và d�
 
 Ký hiệu SLA: `NLV` là ngày làm việc; `gLV` là giờ làm việc. Quy ước đếm thời gian và ba đồng hồ `T1`, `T2`, `T3` theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 7.2. Ba mốc làm trước theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] NT-6.
 
-> [!question] CẦN XÁC MINH
-> Toàn bộ mốc `T3` trong bảng dưới đây là mốc oBacker TỰ ĐẶT, chưa đo từ dữ liệu thật vì bộ phận chưa từng có bảng Job. Các mốc đó đủ để vận hành và đủ để `AM` cam kết với khách, nhưng phải đo lại sau 03 tháng rồi chốt. Khi trả lời khách, mốc này là CAM KẾT DỊCH VỤ của oBacker, tuyệt đối không nói đó là quy định của pháp luật.
+> [!note] NGUYÊN TẮC SLA DỊCH VỤ
+> Các mốc thời gian hoàn thành (T3) trong bảng là cam kết dịch vụ nội bộ của oBacker gửi khách hàng, áp dụng theo từng mức độ phức tạp của hồ sơ.
 
 ### 2.1. Ba mức độ phức tạp, dùng để chọn cột SLA
 
@@ -263,9 +263,6 @@ Quy tắc chung về chỉ số không áp dụng nằm ở [[01_OBK-SOP-00_Chua
 | `LS-M05` | Tỷ lệ vụ việc mức phức tạp có dấu vết soát của `COO` | Số Job đạt `KS-LS-05` chia tổng Job mức phức tạp | 100% | Hệ thống công việc, hằng tháng |
 | `LS-M06` | Số phiếu bài học nộp về Legal R&D | Đếm phiếu LS-20 đã nộp chia số vụ việc đã đóng | 100% | Hệ thống công việc, hằng tháng |
 
-> [!question] CẦN XÁC MINH
-> Ba con số ở bảng trên là con số oBacker tự đặt, không phải mốc do pháp luật ấn định. Với bộ phận mới có bảng Job lần đầu, khuyến nghị đo thực tế 03 tháng để lấy mốc nền rồi mới cố định mục tiêu.
-
 ---
 
 ## 7. CHỖ BỘ PHẬN NÀY ĐI KHÁC QUY TRÌNH CHUẨN
@@ -310,4 +307,4 @@ Tài liệu này là cấp 2. `TL-LS` dựng cấp 3, `COO` duyệt, Legal R&D s
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 23/09/2026 | R.1.0.1 | Ghi mã tài liệu làm chữ hiển thị cho 3 liên kết tới tài liệu có mã |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

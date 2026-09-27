@@ -4,19 +4,19 @@ code: "OBK-HB-51"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.2.0.0"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "27/09/2026"
+draft_date: "01/10/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 27/09/2026"
-author: "TL-LD"
+author: "CEO"
 reviewer: "CEO"
 review_status: "đã soát"
-approver: "COO"
+approver: "CEO"
 approval_status: "đã phê duyệt"
 parent: "OBK-SOP-LD Lao động và tiền lương"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-HB-51
 tags:
@@ -31,12 +31,12 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-HB-51 |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.2.0.0, đang áp dụng |
-| Ngày biên soạn | 27/09/2026 |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 27/09/2026 |
-| Người biên soạn | `TL-LD` |
-| Người soát | `CEO` |
-| Người phê duyệt | `COO` |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[05_OBK-SOP-LD_Lao_dong_va_tien_luong\|OBK-SOP-LD]] Lao động và tiền lương |
 | Đây là gì | Hướng dẫn chi tiết phương pháp đối soát dữ liệu chấm công, công thức tính tiền lương làm thêm giờ, làm việc vào ban đêm theo Điều 98 Bộ luật Lao động, trích nộp bảo hiểm xã hội theo mức tham chiếu và quy trình lập tờ khai biến động lao động |
 | Đọc trước | [[05_OBK-SOP-LD_Lao_dong_va_tien_luong\|OBK-SOP-LD]]; [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] |
@@ -300,4 +300,4 @@ Toàn bộ quy định về "mức lương cơ sở" trước đây được bã
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.2.0.0 | Cập nhật quy định chuyển đổi số định danh cá nhân / CCCD thay thế mã số bảo hiểm xã hội theo Thông báo 6877/TB-BHXH và hướng dẫn nộp kinh phí công đoàn theo Công văn 1363/LĐLĐ. |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

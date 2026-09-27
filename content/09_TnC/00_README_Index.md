@@ -5,7 +5,7 @@ folder: "09_TnC"
 version: "R.1.0.0"
 status: "đang áp dụng"
 distribution: "Khách hàng"
-previous_version: ""
+previous_version: "R.1.0.0"
 tags:
   - loai/tnc
 ---
@@ -50,4 +50,4 @@ tags:
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 21/09/2026 | R.1.0.0 | Ban hành. |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

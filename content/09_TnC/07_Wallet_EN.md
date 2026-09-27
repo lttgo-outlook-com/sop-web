@@ -6,7 +6,7 @@ version: "R.1.0.0"
 status: "đang áp dụng"
 language: "en"
 distribution: "Khách hàng"
-previous_version: ""
+previous_version: "R.1.0.0"
 tags:
   - loai/tnc
 ---
@@ -16,7 +16,7 @@ tags:
 *Specific terms supplementing the Master Terms & Conditions of Service (Master T&C); oBacker Joint Stock Company*
 Tax code: 0402298185 · contact@obacker.com · https://obacker.com
 
-**Version:** R.1.0.0 · **Updated:** 21/09/2026
+**Version:** R.1.0.0 (VI-EN) · **Updated:** 01/10/2026
 
 ---
 

@@ -4,7 +4,7 @@ code: "OBK-INDEX"
 type: "sop"
 folder: "goc"
 level: "Mục lục"
-version: "R.1.2.1"
+version: "R.1.0.0"
 status: "đang áp dụng"
 author: "CEO"
 reviewer: "CEO"
@@ -12,11 +12,11 @@ review_status: "đã soát"
 approver: "CEO"
 approval_status: "đã phê duyệt"
 parent: ""
-draft_date: "23/09/2026"
+draft_date: "01/10/2026"
 law_as_of: ""
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-INDEX
 tags:
@@ -27,8 +27,8 @@ tags:
 
 | Hạng mục | Nội dung |
 | --- | --- |
-| Người biên soạn | `CEO` soạn bản đầu. Bản sau do `CEO` phân công |
-| Ngày sắp xếp lại gần nhất | 23/09/2026 |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Ngày sắp xếp lại gần nhất | 01/10/2026 |
 | Mốc pháp luật | Mỗi tài liệu ghi riêng tại trường `law_as_of` ở frontmatter; không dùng một mốc chung cho cả kho |
 | Trạng thái | Toàn bộ đang áp dụng. Bản hiện hành của từng tài liệu tại mục 3 |
 
@@ -285,7 +285,7 @@ Thư mục `11_NhanSu`. Nhóm này áp dụng cho quan hệ lao động giữa o
 | [[01_Khung_nhan_su_tong_hop\|OBK-QCNS-01]] | [[01_Khung_nhan_su_tong_hop]] | KHUNG NHÂN SỰ TỔNG HỢP. LỘ TRÌNH THĂNG TIẾN VÀ CHÍNH SÁCH LƯƠNG THƯỞNG | Cấp 2 |
 | [[02_Chuong_trinh_tang_luong_dinh_ky\|OBK-QCNS-02]] | [[02_Chuong_trinh_tang_luong_dinh_ky]] | CHƯƠNG TRÌNH TĂNG LƯƠNG ĐỊNH KỲ | Cấp 2 |
 | [[02_Quy_che_tien_luong_va_tien_thuong_noi_bo\|OBK-QCNS-02]] | [[02_Quy_che_tien_luong_va_tien_thuong_noi_bo]] | QUY CHẾ TIỀN LƯƠNG VÀ TIỀN THƯỞNG NỘI BỘ | Cấp 1 |
-| [[03_Mo_hinh_van_hanh_bon_muc_kiem_soat_va_ma_tran_RACI\|OBK-QCNS-03]] | [[03_Mo_hinh_van_hanh_bon_muc_kiem_soat_va_ma_tran_RACI]] | MÔ HÌNH VẬN HÀNH BỐN MỨC KIỂM SOÁT VÀ MA TRẬN RACI CỦA PHÒNG DỊCH VỤ | Cấp 2 |
+| [[03_Mo_hinh_van_hanh_bon_muc_kiem_soat_va_ma_tran_RACI\|OBK-QCNS-03]] | [[03_Mo_hinh_van_hanh_bon_muc_kiem_soat_va_ma_tran_RACI]] | MÔ HÌNH VẬN HÀNH HAI CẤP KIỂM SOÁT VÀ MA TRẬN RACI CỦA PHÒNG DỊCH VỤ | Cấp 2 |
 | [[06_Chinh_sach_thuong_khong_dinh_ky\|OBK-QCNS-06]] | [[06_Chinh_sach_thuong_khong_dinh_ky]] | CHÍNH SÁCH THƯỞNG KHÔNG ĐỊNH KỲ | Cấp 2 |
 | [[07_Chinh_sach_cong_chuan_va_cham_cong\|OBK-QCNS-07]] | [[07_Chinh_sach_cong_chuan_va_cham_cong]] | CHÍNH SÁCH CÔNG CHUẨN VÀ CHẤM CÔNG | Cấp 2 |
 | [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] | [[08_Khung_danh_gia_hieu_suat]] | KHUNG ĐÁNH GIÁ HIỆU SUẤT | Cấp 2 |
@@ -295,52 +295,31 @@ Thư mục `11_NhanSu`. Nhóm này áp dụng cho quan hệ lao động giữa o
 | [[08_PL_D_Van_hanh_viec_cham\|OBK-QCNS-08-PL-D]] | [[08_PL_D_Van_hanh_viec_cham]] | Vận hành việc chấm | Phụ lục |
 | [[08_PL_E_Phieu_vi_tri\|OBK-QCNS-08-PL-E]] | [[08_PL_E_Phieu_vi_tri]] | Phiếu vị trí | Phụ lục |
 | [[Noi_quy_lao_dong\|OBK-NQLD]] | [[Noi_quy_lao_dong]] | NỘI QUY LAO ĐỘNG | Cấp 1 |
-## 2. TRẬT TỰ ƯU TIÊN. KHI HAI VĂN BẢN KHÁC NHAU THÌ CÁI NÀO ĐÚNG
+## 2. NGUYÊN TẮC PHÂN ĐỊNH HIỆU LỰC BA CẤP VÀ SINGLE SOURCE OF TRUTH (SSOT)
 
-Đọc theo thứ tự, gặp câu trả lời ở dòng nào thì dừng ở đó.
+Hệ thống tài liệu vận hành oBacker được xây dựng và thực thi triệt để theo nguyên tắc **Single Source of Truth (Một sự thật duy nhất tại một văn bản gốc)**. Mọi định mức tài chính, hạn mức chi tiêu, thẩm quyền nhân sự hoặc tiêu chuẩn dịch vụ chỉ được quy định tại đúng một văn bản ban hành gốc. Toàn bộ các mâu thuẫn văn bản (nếu có) được giải quyết triệt để theo trật tự phân định hiệu lực ba cấp dưới đây:
 
-| Nội dung đang tranh chấp | Bản gốc đặt ở đâu |
-| --- | --- |
-| Cơ cấu tổ chức, danh mục đơn vị, vai trò, ký hiệu vai trò, quan hệ báo cáo | `01_ToChuc/OBK-QCTC-02` và `PL_Tu_dien_vai.md` |
-| Ai quyết một loại việc, ai phải được hỏi, ai được thông báo | [[PL_Ma_tran_phan_quyen\|OBK-QCTC-02-PL-B]] |
-| Việc chuyển lên cấp trên đi đường nào, xử xung đột giữa hai nhánh, quy tắc giao tiếp | [[PL_Chuyen_len_cap_tren\|OBK-QCTC-02-PL-C]] |
-| Ai đang giữ vai trò nào, kiêm nhiệm ở đâu | [[PL_Anh_xa_nhan_su\|OBK-QCTC-02-PL-D]] |
-| Ba điều cấm của Luật Kế toán khi bố trí nhân sự kế toán | `01_ToChuc/OBK-QCTC-02` Điều 19 |
-| Hạn mức tiền, thẩm quyền chi, mốc thẩm quyền theo giá trị tài sản | `02_NoiBo/OBK-QCTC-01` mục 12.3 |
-| Sửa số tiền hoặc người nhận sau khi đã ký thì chữ ký còn giá trị không | `02_NoiBo/OBK-QCTC-01` mục 12.3b;<br>cách làm ở [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] mục 6.0a.3 |
-| Hồ sơ chi tiền đang ở đâu, ai đang giữ, dừng thì hỏi ai | `02_NoiBo/OBK-SOP-NB-01` mục 6.0a |
-| Hồ sơ mua sắm đang ở đâu, và sáu điều kiện phải đủ trước khi ký hợp đồng | `02_NoiBo/OBK-SOP-NB-01` mục 6.0b |
-| Ai là Thủ quỹ, và tại sao oBacker chưa chi tiền mặt được | [[PL_Tu_dien_vai\|OBK-QCTC-02-PL-A]] mục 4;<br>`02_NoiBo/OBK-QCTC-03` mục 4.1;<br>[[OBK-SOP-NB-03_Quan_ly_tien\|OBK-SOP-NB-03]] mục 6.2.2 |
-| Khoản khách chuyển trước gọi là đặt cọc hay tạm ứng, và ai quyết | `02_NoiBo/OBK-SOP-NB-02` mục 6.3.3 |
-| Người lao động xin ứng trước một phần tiền lương thì được bao nhiêu, mấy lần, ai duyệt | `02_NoiBo/OBK-QCTC-01` Điều 26a;<br>quy trình ở [[OBK-SOP-NB-04_Cong_va_tien_luong_noi_bo\|OBK-SOP-NB-04]] mục 6.6;<br>biểu mẫu `BM-08` |
-| Ba trường hợp oBacker bắt buộc phải cho tạm ứng tiền lương theo pháp luật lao động | `02_NoiBo/OBK-QCTC-01` mục 26a.1 |
-| Có được trừ vào lương để thu hồi khoản tạm ứng hay khoản nợ của người lao động không | `02_NoiBo/OBK-QCTC-01` mục 38.2a bảng ba cơ chế, và mục 26a.6 |
-| Chu kỳ tính công, mẫu số tiền lương ngày, cách tính ngày nghỉ lễ, tết, kỳ nối, thiếu giờ chấm | [[07_Chinh_sach_cong_chuan_va_cham_cong\|OBK-QCNS-07]] mục 1.2, 1.2a, 2.5, 3.5, 3.6 |
-| Ai tổng hợp, xác nhận, chốt, duyệt bảng công; lịch từ ngày 16 đến ngày trả lương; ai tính, duyệt và chi lương | [[OBK-SOP-NB-04_Cong_va_tien_luong_noi_bo\|OBK-SOP-NB-04]] mục 6.1 tới 6.4 |
-| Ai xét đơn nghỉ phép, đơn cập nhật công, đơn làm việc từ xa | [[OBK-SOP-NB-04_Cong_va_tien_luong_noi_bo\|OBK-SOP-NB-04]] mục 6.3;<br>[[Noi_quy_lao_dong\|OBK-NQLD]] Điều 7.5.2 và Điều 11.2 |
-| Trả thừa tiền lương thì xử thế nào; có được trừ vào lương kỳ sau không | [[OBK-SOP-NB-04_Cong_va_tien_luong_noi_bo\|OBK-SOP-NB-04]] mục 6.5 |
-| Nghĩa vụ của oBacker với tư cách người sử dụng lao động: bảo hiểm xã hội, sổ quản lý lao động, báo cáo sử dụng lao động | [[OBK-SOP-NB-04_Cong_va_tien_luong_noi_bo\|OBK-SOP-NB-04]] mục 6.7;<br>thời hạn tại [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo\|OBK-SOP-NB-00]] mục 5, Job NB-39 tới NB-48 |
-| [[07_Chinh_sach_cong_chuan_va_cham_cong\|OBK-QCNS-07]] và [[OBK-SOP-NB-04_Cong_va_tien_luong_noi_bo\|OBK-SOP-NB-04]] khác nhau thì văn bản nào đúng | [[00_Bo_tai_lieu_quan_tri_nhan_su\|OBK-QCNS-00]] mục 4: con số theo [[07_Chinh_sach_cong_chuan_va_cham_cong\|OBK-QCNS-07]]; vai trò và trình tự bước theo [[OBK-SOP-NB-04_Cong_va_tien_luong_noi_bo\|OBK-SOP-NB-04]] |
-| Bảng chấm công là chứng từ gì, ai lập, ai duyệt | [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-QCTC-03]] Điều 5 và mục 6.6b, biểu mẫu `BM-09`;<br>[[OBK-SOP-NB-04_Cong_va_tien_luong_noi_bo\|OBK-SOP-NB-04]] mục 6.2 |
-| Khoản lương, thưởng nào ghi điều kiện và mức hưởng ở văn bản nào | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 25.2 và 25.2a |
-| Bao lâu phải xuất hóa đơn sau khi hoàn thành dịch vụ | `02_NoiBo/OBK-SOP-NB-02` mục 6.4.1 bước I3 |
-| Khoản phải thu đang ở đâu, và ai quyết việc dừng dịch vụ hay xóa nợ | `02_NoiBo/OBK-SOP-NB-02` mục 6.0.2 và 6.5.3 |
-| Tần suất kiểm quỹ, đối chiếu sao kê và rà soát phân quyền ngân hàng | `02_NoiBo/OBK-SOP-NB-03` mục 6.1 |
-| Chênh lệch tiền thật so với sổ thì xử thế nào | `02_NoiBo/OBK-SOP-NB-03` mục 6.7 |
-| Đổi nhà cung cấp hoặc đổi bậc sau khi đã duyệt nhu cầu thì sao | `02_NoiBo/OBK-QCTC-01` mục 12.3c |
-| Công cụ nộp đề nghị phải chặn được cái gì | `OBK-SOP-NB-PL-DT` mục 12 và `OBK-SOP-NB-PL-DM` mục 10 |
-| Danh mục biểu mẫu chứng từ oBacker tự thiết kế, và lý do từng cái | `02_NoiBo/OBK-QCTC-03` Điều 5 và Điều 6 |
-| Chế độ kế toán áp dụng, có sửa hệ thống tài khoản hay sổ kế toán hay không | `02_NoiBo/OBK-QCTC-03` Điều 3 |
-| Kênh chính thống và kênh liên lạc với khách | `03_DichVu/01_OBK-SOP-00` mục 7.2.1a |
-| Việc pháp lý thuộc bộ phận nào: giữ hồ sơ, dịch vụ pháp lý có thu, hay đặt chuẩn | `03_DichVu/01_OBK-SOP-00` mục 5.5, quy tắc ba lớp |
-| Bộ phận này được đáp trong bao lâu khi hỏi Legal R&D một câu pháp lý | `03_DichVu/07_OBK-SOP-RD` mục 2, Job `RD-09` tới `RD-12`. Quy tắc chống SLA không có chủ mốc ở `01_OBK-SOP-00` mục 7.4a |
-| Mốc đánh giá tác động khi có văn bản pháp luật mới, bốn mức ưu tiên | `03_DichVu/01_OBK-SOP-00` mục 12.3a |
-| Sáu đồng hồ thời gian, quy ước đếm, giờ làm việc | `03_DichVu/01_OBK-SOP-00` mục 7 |
-| SLA của một Job cụ thể | Bảng Job trong SOP cấp 2 của bộ phận đó. `PL_2` chỉ là bản tra cứu sinh tự động |
-| Điều khoản pháp luật, số hiệu văn bản, mức xác minh, nguyên văn điều khoản | [[OBK-CC]], sinh từ `08_SoCanCu/du_lieu/`.<br>Đây là bản gốc từ 05/09/2026.<br>[[PL_1_Can_cu_phap_ly\|OBK-SOP-PL1]] là bản đối chiếu; hai bên khác nhau thì sổ căn cứ đúng |
-| Thao tác nghiệp vụ kế toán và thuế chi tiết | `04_Handbook_KeToan/` |
+### 2.1. Cấp 1: Quy chế khung toàn công ty (Governance Framework)
 
-**Quy tắc chung:** cấp 1 thắng cấp 2, cấp 2 thắng cấp 3. Ngoại lệ giữa [[07_Chinh_sach_cong_chuan_va_cham_cong|OBK-QCNS-07]] và [[OBK-SOP-NB-04_Cong_va_tien_luong_noi_bo|OBK-SOP-NB-04]] theo [[00_Bo_tai_lieu_quan_tri_nhan_su|OBK-QCNS-00]] mục 4. Riêng cơ cấu tổ chức thì `01_ToChuc/OBK-QCTC-02` thắng mọi văn bản khác.
+- **Cơ cấu tổ chức, chức danh, phân quyền nhân sự:** Căn cứ duy nhất tại [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen\|OBK-QCTC-02]].
+- **Hạn mức tài chính, thẩm quyền chi tiêu, định mức mua sắm:** Căn cứ duy nhất tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 12.3.
+- **Kỷ luật lao động, thời giờ làm việc, quyền và nghĩa vụ lao động:** Căn cứ duy nhất tại [[Noi_quy_lao_dong\|OBK-NQLD]].
+- **Chế độ kế toán, hệ thống tài khoản, nguyên tắc ghi sổ:** Căn cứ duy nhất tại [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-QCTC-03]].
+
+> [!important] HIỆU LỰC PHÁP LÝ TUYỆT ĐỐI
+> Mọi quy định tại các quy trình Cấp 2 và hướng dẫn Cấp 3 trái với Quy chế khung Cấp 1 đều đương nhiên vô hiệu. Khi có sự khác biệt, Quy chế Cấp 1 tự động được ưu tiên áp dụng.
+
+### 2.2. Cấp 2: Quy trình bộ phận (Departmental SOPs)
+
+- Quy định trình tự luân chuyển hồ sơ, sự phối hợp giữa các bộ phận chuyên môn, biểu mẫu áp dụng và cam kết tiến độ đầu ra dịch vụ.
+- Quy trình bộ phận chỉ cụ thể hóa các bước thực hiện, tuyệt đối không được quyền tự đặt thêm thẩm quyền phê duyệt mới hoặc thay đổi các định mức chi tiêu/chính sách đã chốt tại Cấp 1.
+
+### 2.3. Cấp 3: Hướng dẫn thao tác nghiệp vụ và Bảng kiểm (Work Instructions & Checklists)
+
+- Quy định chi tiết các thao tác thực hành, nhập liệu phần mềm, đối chiếu từng dòng chứng từ/hồ sơ cho chuyên viên nghiệp vụ hằng ngày.
+- Không chứa đựng quy định về thẩm quyền, chế tài kỷ luật hoặc chính sách tiền lương.
+
+**Quy tắc tra cứu chung cho nhân sự:** Nội dung nào thuộc phạm vi của Quy chế Cấp 1 thì mở đúng Quy chế Cấp 1 đó để đọc và tuân thủ; các văn bản cấp dưới chỉ là tài liệu hướng dẫn trình tự thi hành.
 
 ---
 
@@ -352,4 +331,4 @@ Bản hiện hành, cấp tài liệu và trạng thái ban hành của từng t
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 23/09/2026 | R.1.2.1 | Mục 2 hàng Bảng chấm công dẫn về OBK-QCTC-03 Điều 5, mục 6.6b và OBK-SOP-NB-04 mục 6.2; hàng lương, thưởng ghi liên kết tới OBK-QCTC-01.<br>Quy tắc chung ghi ngoại lệ giữa OBK-QCNS-07 và OBK-SOP-NB-04 theo OBK-QCNS-00 mục 4.<br>Bỏ hàng dẫn tới thư mục chuẩn soạn thảo |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

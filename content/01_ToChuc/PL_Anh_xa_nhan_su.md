@@ -4,9 +4,9 @@ code: "OBK-QCTC-02-PL-D"
 type: "sop"
 folder: "01_ToChuc"
 level: "Phụ lục"
-version: "R.1.0.4"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "23/09/2026"
+draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
 review_status: "đã soát"
@@ -16,7 +16,7 @@ parent: "OBK-QCTC-02 Quy chế tổ chức và phân quyền"
 law_as_of: ""
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-QCTC-02-PL-D
 tags:
@@ -29,11 +29,11 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-QCTC-02-PL-D |
 | Cấp tài liệu | Phụ lục |
-| Phiên bản | R.1.0.4, đang áp dụng |
-| Ngày biên soạn | 23/09/2026 |
-| Người biên soạn | `CEO` |
-| Người soát | đã soát |
-| Người phê duyệt | đã phê duyệt |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen\|OBK-QCTC-02]] Quy chế tổ chức và phân quyền |
 
 
@@ -93,11 +93,10 @@ Kiêm nhiệm không phải một trạng thái. Một người giữ nhiều va
 > CHỐT NGÀY 07/09/2026. HAI NGƯỜI TẠO LỆNH, HAI NGƯỜI XÁC NHẬN, MỘT NGƯỜI ĐỐI CHIẾU
 > Thao tác **TẠO** lệnh chuyển tiền do `KTV` và `KTT` thực hiện, mỗi người một tài khoản người dùng riêng. Thao tác **XÁC NHẬN** lệnh do `TGĐ` và `Chủ tịch HĐQT` thực hiện, một trong hai là đủ, không chia theo bậc giá trị. Hai thao tác này không phải hai lần phê duyệt; việc phê duyệt khoản chi xảy ra đúng một lần theo ma trận tại `02_NoiBo/OBK-QCTC-01 mục 12.3`. `AD-KT` không có quyền nào trên ngân hàng điện tử và không hạch toán sổ nội bộ; đó là điều kiện để `AD-KT` làm được lớp đối chiếu độc lập. Xem `02_NoiBo/OBK-QCTC-01` mục 35.1a, mục 47.3a và Điều 48 chốt số 1.
 
-> [!note] `TQ` ĐÃ ĐĂNG KÝ LÀ MỘT VAI TRÒ
-> NGƯỜI GIỮ VAI TRÒ CHƯA GÁN
-> `TGĐ` chốt ngày 07/09/2026. Ba điều cấm phải kiểm khi gán người ghi tại `PL_Tu_dien_vai.md` mục 4: không gán cho `KTT`, `KTV`, `AD-KT`, và không gán cho người quản lý điều hành. Trong lúc chưa gán, oBacker không được nhập quỹ hoặc xuất quỹ tiền mặt, vì hai mẫu phiếu thu và phiếu chi của chế độ kế toán đều có chữ ký của Thủ quỹ; xem `02_NoiBo/OBK-QCTC-03` mục 4.1.
->
-> **Việc `KTV` được TẠO lệnh là ngoại lệ của quy tắc tách quyền 47.3**, đã được ghi lý do và hai kiểm soát bù tại mục 47.3a của quy chế. Mỗi lần đổi người ở `KTV`, `KTT` hoặc `AD-KT` thì kiểm lại ngoại lệ này còn đủ hai kiểm soát bù hay không.
+> [!note] VAI TRÒ THỦ QUỸ (TQ)
+> Vai trò Thủ quỹ do nhân sự được TGĐ phân công đảm nhiệm, tuân thủ ba điều cấm tại `PL_Tu_dien_vai.md` mục 4: không kiêm kế toán, không kiêm quản lý điều hành và không đối chiếu sao kê. Khi chưa bố trí nhân sự giữ vai trò TQ, công ty không thực hiện thu chi tiền mặt.
+
+**Việc `KTV` được TẠO lệnh là ngoại lệ của quy tắc tách quyền 47.3**, đã được ghi lý do và hai kiểm soát bù tại mục 47.3a của quy chế. Mỗi lần đổi người ở `KTV`, `KTT` hoặc `AD-KT` thì kiểm lại ngoại lệ này còn đủ hai kiểm soát bù hay không.
 
 ### Legal R&D Team
 
@@ -221,4 +220,4 @@ Tổng: 41 dòng vai trò có người giữ, 24 người, 3 vị trí đang tuy
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 23/09/2026 | R.1.0.4 | Mục D ghi ký hiệu CV-CN cho vị trí Product Owner |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

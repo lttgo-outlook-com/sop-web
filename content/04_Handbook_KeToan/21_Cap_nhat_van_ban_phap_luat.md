@@ -4,9 +4,9 @@ code: "OBK-SOP-21"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.2.0.2"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "27/09/2026"
+draft_date: "01/10/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 25/08/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -16,7 +16,7 @@ parent: "OBK-SOP-KT Kế toán và thuế"
 next_review: "Định kỳ hằng quý"
 chapter: "Theo dõi và cập nhật văn bản pháp luật"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-SOP-21
 tags:
@@ -33,12 +33,12 @@ tags:
 | Mã tài liệu | OBK-SOP-21 |
 | Tên chương | Theo dõi và cập nhật văn bản pháp luật |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.2.0.2, đang áp dụng |
-| Ngày biên soạn | 27/09/2026 |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
-| Người biên soạn | `CEO` biên soạn |
-| Người soát | đã soát |
-| Người phê duyệt | `CEO` ban hành |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] Kế toán và thuế |
 | Tính chất nội dung | HỖN HỢP. Phần dẫn chứng ví dụ thay đổi pháp luật có có ghi mức chắc chắn của căn cứ và là quy định pháp luật.<br>Phần quy trình theo dõi, quy trình đánh giá tác động, quy tắc phiên bản, quy trình đào tạo là QUY ĐỊNH NỘI BỘ oBacker |
 | Lần rà soát tiếp theo | Hằng quý, chậm nhất ngày cuối cùng của tháng đầu quý tiếp theo.<br>Rà soát đột xuất ngay khi có văn bản mới thuộc nhóm ưu tiên 1 tại mục 6.2.3.<br>MỐC BẮT BUỘC RIÊNG: rà soát chính sách giảm thuế GTGT trước 01/12/2026, xem mục 6.5.5 |
@@ -802,7 +802,7 @@ Quy tắc ghi:
 4. Không xóa dòng cũ. Nhật ký chỉ thêm, không sửa, không xóa.
 5. Dòng đầu tiên ghi phiên bản gốc, để có mốc so sánh.
 
-| Phiên bản | Ngày | Chương thay đổi | Nội dung thay đổi | Lý do | Người thực hiện | Người duyệt |
+| Phiên bản | R.1.0.0, đang áp dụng | Chương thay đổi | Nội dung thay đổi | Lý do | Người thực hiện | Người duyệt |
 | --- | --- | --- | --- | --- | --- | --- |
 | R.1.0.0 | 21/09/2026 | Toàn bộ | Ban hành toàn bộ Handbook ở bản R.1.0.0 | Ban hành mới | `CEO` | `CEO` |
 
@@ -832,4 +832,4 @@ Quy tắc ghi:
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.2.0.2 | Dong dong T8 do Thong tu 41/2026/TT-BTC ve thi truong tai san ma hoa da co ban goc trong kho |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

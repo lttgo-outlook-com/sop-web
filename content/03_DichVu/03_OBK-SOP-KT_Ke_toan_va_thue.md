@@ -4,9 +4,9 @@ code: "OBK-SOP-KT"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 2, quy trình bộ phận"
-version: "R.1.1.0"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "27/09/2026"
+draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
 approver: "CEO"
@@ -14,7 +14,7 @@ parent: "OBK-SOP-00 Chuẩn vận hành dịch vụ"
 law_as_of: "Pháp luật có hiệu lực tại ngày 25/08/2026"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-SOP-KT
 tags:
@@ -32,11 +32,11 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-SOP-KT |
 | Cấp tài liệu | Cấp 2, SOP bộ phận |
-| Phiên bản | R.1.1.0, đang áp dụng |
-| Ngày biên soạn | 27/09/2026 |
-| Người biên soạn | `CEO` biên soạn |
-| Người soát | đã soát; Legal R&D soát phần pháp lý |
-| Người phê duyệt | **`CEO`** ban hành. Việc sửa sau ban hành theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 12.1 |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |OBK-SOP-00]] mục 12.1 |
 | Văn bản cấp trên | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] Chuẩn vận hành dịch vụ |
 | Hướng dẫn cấp 3 | `04_Handbook_KeToan/`, 22 chương và 7 phụ lục |
 
@@ -252,4 +252,4 @@ Cho tới khi ba việc này xong, khi Handbook và tài liệu này khác nhau 
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.1.1.0 | Bổ sung thuế nhà thầu nước ngoài vào phạm vi dịch vụ thuế định kỳ tại mục 1.2 |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

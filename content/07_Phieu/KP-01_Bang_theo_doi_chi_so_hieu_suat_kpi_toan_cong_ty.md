@@ -4,9 +4,9 @@ code: "KP-01"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.1.0"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "27/09/2026"
+draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
 review_status: "đã soát"
@@ -16,7 +16,7 @@ parent: "OBK-TTT-05 Cách làm phiếu thao tác"
 law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - KP-01
 tags:
@@ -29,11 +29,11 @@ tags:
 | --- | --- |
 | Mã tài liệu | KP-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.1.0, đang áp dụng |
-| Ngày biên soạn | 27/09/2026 |
-| Người biên soạn | `CEO` soạn bản đầu. Bản sau do `CEO` phân công |
-| Người soát | đã soát |
-| Người phê duyệt | đã phê duyệt |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | `OBK-TTT-05` Cách làm phiếu thao tác |
 | **Mã phiếu** | KP-01 |
 | **Màu** | ĐỎ, bảng điều khiển tổng hợp chỉ số hiệu suất, SLA và KPI toàn công ty |
@@ -175,7 +175,7 @@ Bảng tổng hợp chỉ số năng suất và tận dụng năng lực nhân s
 
 Bảng theo dõi định kỳ được lập thành trang tính quản trị, mở định kỳ ngày làm việc đầu tiên của mỗi tháng và chốt số liệu trước ngày mùng 05 hằng tháng:
 
-| STT | Mã số | Tên chỉ số hiệu suất | Đơn vị tính | Chu kỳ | Người lập | Người soát | Người duyệt | Mục tiêu kế hoạch | Số thực hiện kỳ này | Tỷ lệ hoàn thành (%) | Trạng thái tín hiệu | Phân tích nguyên nhân chênh lệch | Hành động khắc phục / Người phụ trách / Hạn chót |
+| STT | Mã số | Tên chỉ số hiệu suất | Đơn vị tính | Chu kỳ | Người lập | Người soát | CEO (Lê Trọng Tuấn) | Mục tiêu kế hoạch | Số thực hiện kỳ này | Tỷ lệ hoàn thành (%) | Trạng thái tín hiệu | Phân tích nguyên nhân chênh lệch | Hành động khắc phục / Người phụ trách / Hạn chót |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | `KG-01` | Tỷ lệ chuyển đổi khách hàng tiềm năng | % | Tháng | `AM` | `TP Thương mại` | `CEO` | `>= 25,0%` | | | | | |
 | 2 | `KG-02` | Thời gian hoàn tất Onboarding | Ngày | Tháng | `AM` | `COO` | `CEO` | `< 05 ngày` | | | | | |
@@ -239,4 +239,4 @@ Khi một chỉ số rơi vào vùng cảnh báo Vàng hoặc vùng nguy hại �
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.1.1.0 | Bổ sung nhóm chỉ số tận dụng năng lực NS-M01, tải công suất NS-M02 và định mức làm thêm giờ NS-M04 trích xuất từ TS-02. |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

@@ -4,9 +4,9 @@ code: "OBK-QCNS-08"
 type: "sop"
 folder: "11_NhanSu"
 level: "Cấp 2, quy trình bộ phận"
-version: "R.1.1.0"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "23/09/2026"
+draft_date: "01/10/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 23/09/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -16,7 +16,7 @@ approval_status: "đã phê duyệt"
 parent: "OBK-QCNS-00 Bộ tài liệu quản trị nhân sự và vận hành"
 next_review: "Không quá 06 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-QCNS-08
 tags:
@@ -31,12 +31,12 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-QCNS-08 |
 | Cấp tài liệu | Cấp 2 |
-| Phiên bản | R.1.1.0, đang áp dụng |
-| Ngày biên soạn | 23/09/2026 |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 23/09/2026 |
-| Người biên soạn | `CEO` |
-| Người soát | `CEO` |
-| Người phê duyệt | `CEO`, ký với chức danh Tổng giám đốc |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[00_Bo_tai_lieu_quan_tri_nhan_su\|OBK-QCNS-00]] Bộ tài liệu quản trị nhân sự và vận hành |
 | Bộ tài liệu | OBK-QCNS, Bộ tài liệu quản trị nhân sự và vận hành |
 | Lần rà soát tiếp theo | Không quá 06 tháng kể từ ngày ban hành |
@@ -212,15 +212,14 @@ Nhãn xếp loại cả kỳ và mức thành thạo một kỹ năng là hai kh
 
 Quy tắc quy đổi giữa hai thang đặt tại [[08_PL_C_Ky_nang_chuyen_mon|OBK-QCNS-08-PL-C]] mục 3, không đặt lại ở đây.
 
-### 1.1. Năm mức xếp loại
+### 1.1. Bốn mức xếp loại minh bạch
 
-| Điểm tổng của kỳ | Nhãn xếp loại |
-| --- | --- |
-| Từ 100% trở lên | Xuất sắc |
-| Từ 90% đến dưới 100% | Vượt yêu cầu |
-| Từ 80% đến dưới 90% | Đạt |
-| Từ 70% đến dưới 80% | Cần cải thiện |
-| Dưới 70% | Không đạt |
+| Mức xếp loại | Tên gọi | Tiêu chí công việc (OTD và chất lượng) |
+| --- | --- | --- |
+| **A** | Xuất sắc (Vượt kỳ vọng) | OTD $\ge 98\%$, vượt định mức khối lượng công việc, không có lỗi chuyên môn nặng |
+| **B** | Tốt (Đạt yêu cầu) | OTD từ $90\%$ đến dưới $98\%$, hoàn thành đúng định mức, xử lý tốt công việc hằng ngày |
+| **C** | Cần cải thiện | OTD từ $80\%$ đến dưới $90\%$, phát sinh sai sót phải chỉnh sửa hoặc chậm tiến độ không có lý do chính đáng |
+| **D** | Không đạt | OTD $< 80\%$ hoặc để xảy ra sự cố nghiêm trọng gây thiệt hại tài chính/pháp lý cho khách hàng hoặc công ty |
 
 Dãy mức trên phủ kín mọi giá trị và không có giá trị nào thuộc hai mức. Cách đọc mốc số theo quy ước chung: "từ N" gồm N, "dưới N" không gồm N.
 
@@ -228,80 +227,41 @@ Dãy mức trên phủ kín mọi giá trị và không có giá trị nào thu�
 
 ---
 
-## 2. MƯỜI HAI TIÊU CHÍ CHUNG
+## 2. BA NHÓM TIÊU CHÍ HIỆU SUẤT CỐT LÕI
 
-Mười hai tiêu chí dưới đây áp cho mọi vị trí trong phạm vi tại mục 0a. Mỗi tiêu chí có nguồn bằng chứng xác định.
+Toàn bộ các tiêu chí phức tạp được tinh giản thành ba nhóm chỉ số cốt lõi, áp dụng thống nhất cho toàn bộ nhân sự chuyên môn:
 
-Chín tiêu chí phần A lấy thẳng từ số liệu. Ba tiêu chí phần B chấm bằng ý kiến người.
+### 2.1. Tiêu chí 1: Chất lượng và Tiến độ công việc hoàn thành (Tỷ trọng 70%)
 
-### 2.1. Phần A, chín tiêu chí đo được từ hệ thống vận hành và kế toán
+- **Tỷ lệ hoàn thành công việc đúng hạn (OTD %):** Đo lường tỷ lệ đầu ra, hồ sơ khách hàng hoàn thành đúng hạn cam kết trên hệ thống. Đạt từ 95% trở lên là điểm tối đa.
+- **Tỷ lệ hồ sơ đạt chất lượng ngay lần đầu (RFT %):** Tỷ lệ hồ sơ được duyệt phát hành ngay lần đầu, không bị cơ quan nhà nước từ chối hoặc khách hàng khiếu nại do lỗi chủ quan của chuyên viên.
 
-Chín tiêu chí dưới đây được trích xuất hoàn toàn tự động từ dữ liệu vận hành (SLA, chất lượng, thời giờ làm việc, khiếu nại), không qua đánh giá chủ quan của bất kỳ cá nhân nào:
+### 2.2. Tiêu chí 2: Khối lượng công việc đảm nhiệm (Tỷ trọng 20%)
 
-| Mã | Tiêu chí | Công thức tính toán định lượng | Nguồn bằng chứng trích xuất |
-| --- | --- | --- | --- |
-| A-01 | Đúng ngay lần đầu (`RFT`) | $\frac{\text{Số đầu ra được duyệt ngay lần đầu}}{\text{Tổng số đầu ra giao nộp trong kỳ}} \times 100\%$ | Bảng theo dõi công việc [[CV-01_Bang_theo_doi_trang_thai_cong_viec_sla_va_kpi\|CV-01]] và Sổ kiểm soát chất lượng [[CL-01_So_theo_doi_kiem_soat_chat_luong_va_nhat_ky_sai_sot_capa\|CL-01]] |
-| A-02 | Lỗi đầu ra lọt ra ngoài | Đếm số lỗi vượt qua Biên 2 (Lỗi M5 tính hệ số 1, Lỗi M6 tính hệ số 2) | Sổ theo dõi kiểm soát chất lượng và CAPA [[CL-01_So_theo_doi_kiem_soat_chat_luong_va_nhat_ky_sai_sot_capa\|CL-01]] |
-| A-03 | Đúng thời hạn SLA | $\frac{\text{Số Job hoàn thành đúng hoặc trước hạn SLA}}{\text{Tổng số Job đến hạn cam kết trong kỳ}} \times 100\%$ | Bảng tra SLA [[PL_2_Bang_tra_SLA\|OBK-SOP-PL2]] và Bảng theo dõi tiến độ công việc [[CV-01_Bang_theo_doi_trang_thai_cong_viec_sla_va_kpi\|CV-01]] |
-| A-04 | Tận dụng năng lực và năng suất | $\text{Utilization Rate} = \frac{\text{Giờ phục vụ khách hàng (Billable)}}{\text{Tổng giờ làm việc thực tế}} \times 100\%$ (mục tiêu $\ge 75\%$ cho P1–P4, $\ge 50\%$ cho M1) | Bảng theo dõi giờ làm việc, năng suất và công suất [[TS-02_Bang_theo_doi_gio_lam_viec_nang_suat_va_cong_suat_nhan_su\|TS-02]] |
-| A-05 | Sửa lỗi trong thời hạn cam kết | $\frac{\text{Số lỗi khắc phục đúng thời hạn CAPA}}{\text{Tổng số lỗi phát sinh trong kỳ}} \times 100\%$ | Cột thời hạn khắc phục sai sót trên Sổ [[CL-01_So_theo_doi_kiem_soat_chat_luong_va_nhat_ky_sai_sot_capa\|CL-01]] |
-| A-06 | Khiếu nại của khách hàng | Đếm số vụ khiếu nại quy kết trách nhiệm cho cá nhân trong kỳ (mục tiêu = 0 vụ) | Sổ tiếp nhận và xử lý khiếu nại khách hàng [[KN-01_So_tiep_nhan_va_xu_ly_khieu_nai_khach_hang\|KN-01]] |
-| A-07 | Vi phạm quy trình và bảng kiểm | Đếm số lần vi phạm bảng kiểm nghiệp vụ (lỗi M1, M2) hoặc biên bản kỷ luật | Sổ kiểm soát chất lượng [[CL-01_So_theo_doi_kiem_soat_chat_luong_va_nhat_ky_sai_sot_capa\|CL-01]] và Biên bản vi phạm [[NS-08_Bien_ban_vi_pham_ky_luat_lao_dong\|NS-08]] |
-| A-08 | Lỗi cùng loại lặp lại | Đếm số lỗi cùng loại xuất hiện từ lần thứ hai trở đi trong vòng 06 tháng | Sổ kiểm soát chất lượng và CAPA [[CL-01_So_theo_doi_kiem_soat_chat_luong_va_nhat_ky_sai_sot_capa\|CL-01]] |
-| A-09 | Đề xuất cải tiến được chấp thuận | Đếm số đề xuất cải tiến quy trình, mẫu biểu được phê duyệt áp dụng chính thức | Lịch sử cập nhật tài liệu SOP và Quyết định ban hành cải tiến |
+- Đo lường số lượng hồ sơ, hợp đồng, hoặc số lượng khách hàng kế toán phụ trách thực tế trong kỳ so với định mức tiêu chuẩn của vị trí.
+- Nhân sự vượt định mức khối lượng được cộng điểm thưởng hiệu suất tương ứng.
 
-Ngưỡng đếm của tiêu chí A-08 là lần thứ hai. Ngưỡng nâng mức lỗi tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 11.2b quy tắc 4 là lần thứ ba. Hai ngưỡng dùng cho hai việc khác nhau và áp độc lập.
+### 2.3. Tiêu chí 3: Kỷ luật tuân thủ và Tinh thần phối hợp (Tỷ trọng 10%)
 
-**Công thức quy đổi điểm số Phần A ra thang điểm 100:**
-Điểm số Phần A của từng nhân sự được tổng hợp theo công thức bình quân gia quyền:
-$$\text{Điểm Phần A} = \sum_{i=1}^{9} \left( W_i \times S_i \right)$$
-Trong đó:
-- $W_i$ là trọng số của tiêu chí thứ $i$ được quy định chi tiết cho từng bậc ngạch vị trí tại [[08_PL_A_Thang_cham_tieu_chi_chung|OBK-QCNS-08-PL-A]] (tổng các trọng số bằng 100%);
-- $S_i$ là điểm số đạt được của tiêu chí thứ $i$ (tính trên thang điểm 100) được trích xuất trực tiếp từ các Sổ [[CV-01_Bang_theo_doi_trang_thai_cong_viec_sla_va_kpi|CV-01]], [[CL-01_So_theo_doi_kiem_soat_chat_luong_va_nhat_ky_sai_sot_capa|CL-01]], [[TS-02_Bang_theo_doi_gio_lam_viec_nang_suat_va_cong_suat_nhan_su|TS-02]], [[KN-01_So_tiep_nhan_va_xu_ly_khieu_nai_khach_hang|KN-01]]. Kết quả Điểm Phần A tự động đồng bộ sang Phiếu tổng hợp điểm cuối kỳ [[NS-03_Phieu_tong_hop_diem_cuoi_ky|NS-03]] làm căn cứ xét thưởng hiệu suất và xếp loại lao động theo [[OBK-SOP-NB-04_Cong_va_tien_luong_noi_bo|OBK-SOP-NB-04]].
-
-### 2.2. Phần B, ba tiêu chí định tính
-
-| Mã | Tiêu chí | Chấm cái gì |
-| --- | --- | --- |
-| B-01 | Xử lý độc lập và độ sâu chuyên môn | Số loại việc tự xử lý được mà không cần người khác chốt hộ; chất lượng phần xét đoán nghiệp vụ |
-| B-02 | Phối hợp và trách nhiệm | Chủ động hỏi khi vướng; phối hợp với bộ phận khác; chuyển lên cấp trên đúng chuẩn NT-7 tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]]; không đổ lỗi |
-| B-03 | Kèm cặp và chia sẻ kiến thức | Kèm cặp người cấp dưới; chia sẻ nội dung dùng lại được cho bộ phận |
-
-Tiêu chí B-03 không áp cho cấp P1 của mọi vị trí. Phiếu vị trí ghi rõ việc cấp P1 không áp tiêu chí B-03 kèm lý do, theo quy tắc tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 11.1a. Trọng số của B-03 ở cấp P1 chia theo [[08_PL_A_Thang_cham_tieu_chi_chung|OBK-QCNS-08-PL-A]] mục 4.
+- Chấp hành nghiêm túc giờ giấc làm việc và nội quy lao động của công ty.
+- Tuân thủ tuyệt đối quy chế bảo mật thông tin và dữ liệu khách hàng.
+- Tinh thần trách nhiệm, chủ động phối hợp với đồng đội và sẵn sàng hỗ trợ khi có đợt cao điểm dịch vụ.
 
 ---
 
-## 3. CÁCH TÍNH ĐIỂM VÀ TRỌNG SỐ NGƯỜI CHẤM
+## 3. CÁCH TÍNH ĐIỂM VÀ THẨM QUYỀN ĐÁNH GIÁ
 
-### 3.1. Hai phần tính riêng
+### 3.1. Phân bổ trọng số ba nhóm tiêu chí
 
-| Phần | Trọng số trong điểm tổng | Cách ra điểm |
-| --- | --- | --- |
-| Phần A, chín tiêu chí đo được | 75% | Lấy thẳng từ số liệu hệ thống. Trọng số ý kiến của mọi người chấm bằng 0. Không ai chấm phần A, kể cả Team Lead |
-| Phần B, ba tiêu chí định tính | 25% | Chấm bằng ý kiến người, theo trọng số tại mục 3.2 |
+$$\text{Điểm Tổng} = (\text{Chất lượng \& Tiến độ} \times 70\%) + (\text{Khối lượng công việc} \times 20\%) + (\text{Kỷ luật \& Phối hợp} \times 10\%)$$
 
-Trọng số 75% và 25% là con số oBacker tự đặt. Trọng số từng tiêu chí đặt tại [[08_PL_A_Thang_cham_tieu_chi_chung|OBK-QCNS-08-PL-A]].
+### 3.2. Bãi bỏ đánh giá chéo ngang hàng
 
-### 3.2. Trọng số người chấm, chỉ áp cho phần B
+oBacker bãi bỏ toàn bộ việc đánh giá chéo ngang hàng giữa các đồng nghiệp (bãi bỏ biểu mẫu `NS-02`). Đánh giá hiệu suất là trách nhiệm quản trị thuộc về Trưởng bộ phận chuyên môn (`TL`) dựa trên dữ liệu vận hành thực tế và quan sát công việc.
 
-Phần B có bốn suất chấm: một suất tự đánh giá, hai suất đánh giá chéo, một suất quản lý trực tiếp. Trọng số phụ thuộc số đồng nghiệp đủ điều kiện đánh giá chéo trong kỳ:
-
-| Người chấm | Có từ 02 đồng nghiệp đủ điều kiện | Có đúng 01 đồng nghiệp đủ điều kiện | Không có đồng nghiệp đủ điều kiện |
-| --- | --- | --- | --- |
-| Người tự đánh giá | 20% | 20% | 20% |
-| Đồng nghiệp đánh giá chéo thứ nhất | 20% | 20% | Không có |
-| Đồng nghiệp đánh giá chéo thứ hai | 20% | Không có | Không có |
-| Quản lý trực tiếp | 40% | 60% | 80% |
-| Tổng | 100% | 100% | 100% |
-
-Quy tắc thay thế: suất đánh giá chéo nào không có người thì quản lý trực tiếp đánh giá thay, và trọng số của suất đó cộng vào trọng số của quản lý trực tiếp. Quy tắc thay thế giữ nguyên danh sách người chấm. Kỳ có 0 suất đánh giá chéo thì bỏ bước 4 tại mục 6; các bước còn lại giữ nguyên. Số suất đánh giá chéo tối đa là 02; có từ 03 đồng nghiệp đủ điều kiện trở lên thì chọn 02 người theo quy tắc chọn tại mục 6.
-
-Đồng nghiệp đủ điều kiện đánh giá chéo phải đạt đồng thời bốn điều kiện:
-
-1. Đã làm việc chung với người được chấm trong kỳ đang chấm. Đồng nghiệp không bắt buộc cùng vị trí hoặc cùng đơn vị với người được chấm. Với vị trí thuộc Phòng Dịch vụ, người đánh giá chéo thuộc Phòng Dịch vụ.
-2. Không phải quản lý trực tiếp của người được chấm trong kỳ đó, xác định theo mục 6.1 sau khi áp quy tắc 2 tại mục 0a.1.
-3. Không là bên của một khiếu nại nội bộ hoặc một lỗi đang mở mà người được chấm là bên còn lại, trong kỳ đó.
-4. Không phải chính người được chấm ở một vai trò kiêm nhiệm khác.
+Quy trình đánh giá chỉ bao gồm hai thành phần:
+1. **Người lao động tự nhận xét (`NS-01`):** Tự rà soát kết quả công việc, nêu các khó khăn và đề xuất cải tiến.
+2. **Trưởng bộ phận đánh giá và chấm điểm:** Dựa trên số liệu OTD %, khối lượng thực tế và ý thức tuân thủ để chấm điểm khách quan.
 
 Kỳ không có phiếu đánh giá chéo nào thì mốc lệch từ 2 mức trở lên tại mục 3.4 so điểm tự đánh giá với điểm của quản lý trực tiếp.
 
@@ -371,21 +331,15 @@ Ba quy tắc đọc bảng trên:
 
 ## 6. QUY TRÌNH CHẤM
 
-Mỗi kỳ chấm gồm bảy bước dưới đây. Ngày làm việc tính từ đầu tháng kế tiếp kỳ được chấm.
+Mỗi kỳ chấm gồm năm bước tinh gọn dưới đây. Ngày làm việc tính từ đầu tháng kế tiếp kỳ được chấm.
 
 | Bước | Ngày làm việc | Ai làm | Nội dung | Đầu ra |
 | --- | --- | --- | --- | --- |
-| 1 | 1 đến 2 | Quản lý trực tiếp | Trích xuất số liệu chín tiêu chí phần A từ các sổ theo dõi [[CV-01_Bang_theo_doi_trang_thai_cong_viec_sla_va_kpi\|CV-01]], [[CL-01_So_theo_doi_kiem_soat_chat_luong_va_nhat_ky_sai_sot_capa\|CL-01]], [[TS-02_Bang_theo_doi_gio_lam_viec_nang_suat_va_cong_suat_nhan_su\|TS-02]], [[KN-01_So_tiep_nhan_va_xu_ly_khieu_nai_khach_hang\|KN-01]] | Bảng số liệu phần A |
-| 2 | 2 đến 3 | Người được chấm | Đọc bảng số liệu phần A và nêu ý kiến nếu thấy sai, kèm bằng chứng. Tự chấm ba tiêu chí phần B, kèm diễn giải. Đề xuất tối đa 02 đồng nghiệp đủ điều kiện theo mục 3.2; không có đồng nghiệp nào đủ điều kiện thì ghi rõ trên phiếu | Phiếu tự đánh giá [[NS-01_Phieu_tu_danh_gia_hieu_suat\|NS-01]] |
-| 3 | 3 đến 4 | Quản lý trực tiếp | Duyệt bảng số liệu phần A, kiểm tra xác suất 20% số bản ghi. Xác nhận hoặc thay đồng nghiệp đánh giá chéo, và ghi số suất đánh giá chéo có người của kỳ: 02, 01 hoặc 0 | Bảng số liệu phần A đã duyệt; số suất đánh giá chéo của kỳ |
-| 4 | 4 đến 6 | Đồng nghiệp đã xác nhận ở bước 3 | Chấm độc lập ba tiêu chí phần B dựa trên quan sát thực tế trong kỳ. Kỳ có 0 suất đánh giá chéo thì bước 4 không chạy | Từ 0 đến 02 phiếu đánh giá chéo [[NS-02_Phieu_danh_gia_cheo_hieu_suat\|NS-02]] |
-| 5 | 6 đến 7 | Quản lý trực tiếp | Chấm ba tiêu chí phần B. Tính điểm tổng. Áp quy tắc chặn điểm | Điểm tổng và nhãn xếp loại |
-| 6 | 7 đến 9 | Quản lý trực tiếp | Gặp riêng người được chấm, làm rõ mọi chỗ lệch từ 2 mức trở lên, chốt mục tiêu kỳ sau | Biên bản phản hồi |
-| 7 | 9 đến 10 | `COO` với Phòng Dịch vụ, `CEO` với mọi đơn vị ngoài Phòng Dịch vụ | Phê duyệt và lưu hồ sơ | Phiếu tổng hợp điểm cuối kỳ [[NS-03_Phieu_tong_hop_diem_cuoi_ky\|NS-03]] |
-
-Bước 1 đứng trước bước 2: người được chấm đọc bảng số liệu phần A trước khi tự chấm phần B.
-
-Quy tắc chọn người đánh giá chéo: chọn người đã làm việc chung trong kỳ; xoay vòng giữa các kỳ; ưu tiên người không cùng nhóm trực tiếp; quản lý trực tiếp có quyền thay khi người được đề xuất không phù hợp, và ghi lý do thay. Cách chọn và giữ kín đánh giá chéo đặt tại [[08_PL_D_Van_hanh_viec_cham|OBK-QCNS-08-PL-D]] mục 1.
+| 1 | 1 đến 2 | Quản lý trực tiếp | Trích xuất số liệu OTD %, khối lượng thực tế và vi phạm quy trình từ hệ thống | Bảng số liệu hiệu suất |
+| 2 | 2 đến 3 | Người được chấm | Rà soát số liệu, tự nhận xét kết quả và nêu đề xuất cải tiến | Phiếu tự đánh giá [[NS-01_Phieu_tu_danh_gia_hieu_suat\|NS-01]] |
+| 3 | 3 đến 5 | Quản lý trực tiếp | Đánh giá ba nhóm tiêu chí, tính điểm tổng và xếp loại tạm tính | Điểm tổng và mức xếp loại tạm tính |
+| 4 | 5 đến 7 | Quản lý trực tiếp | Gặp trao đổi phản hồi trực tiếp với người được chấm, chốt mục tiêu kỳ sau | Biên bản phản hồi |
+| 5 | 8 đến 10 | `COO` với Phòng Dịch vụ, `CEO` với đơn vị ngoài Phòng Dịch vụ | Phê duyệt kết quả chính thức và lưu hồ sơ | Phiếu tổng hợp điểm cuối kỳ [[NS-03_Phieu_tong_hop_diem_cuoi_ky\|NS-03]] |
 
 ### 6.1. Quản lý trực tiếp của từng vị trí
 
@@ -481,11 +435,10 @@ Mức thành thạo theo [[08_PL_C_Ky_nang_chuyen_mon|OBK-QCNS-08-PL-C]] chỉ r
 | Mã | Biểu mẫu | Người điền | Bước tại mục 6 |
 | --- | --- | --- | --- |
 | [[NS-01_Phieu_tu_danh_gia_hieu_suat\|NS-01]] | Phiếu tự đánh giá hiệu suất | Người được chấm | Bước 2 |
-| [[NS-02_Phieu_danh_gia_cheo_hieu_suat\|NS-02]] | Phiếu đánh giá chéo hiệu suất | Đồng nghiệp đã xác nhận ở bước 3 | Bước 4 |
-| [[NS-03_Phieu_tong_hop_diem_cuoi_ky\|NS-03]] | Phiếu tổng hợp điểm cuối kỳ | `COO` với Phòng Dịch vụ, `CEO` với mọi đơn vị ngoài Phòng Dịch vụ | Bước 7 |
+| [[NS-03_Phieu_tong_hop_diem_cuoi_ky\|NS-03]] | Phiếu tổng hợp điểm cuối kỳ | `COO` với Phòng Dịch vụ, `CEO` với đơn vị ngoài Phòng Dịch vụ | Bước 5 |
 | [[TS-02_Bang_theo_doi_gio_lam_viec_nang_suat_va_cong_suat_nhan_su\|TS-02]] | Bảng theo dõi giờ làm việc, năng suất và công suất | Toàn bộ nhân sự chuyên môn | Chấm hằng ngày, chốt số liệu cung cấp cho bước 1 |
 
-Ba phiếu trên dùng chung cho mọi vị trí trong phạm vi tại mục 0a, gồm cả tháng thử việc đầu tiên tại mục 0b.3.
+Các phiếu trên dùng chung cho mọi vị trí trong phạm vi tại mục 0a, gồm cả tháng thử việc đầu tiên tại mục 0b.3. Biểu mẫu đánh giá chéo `NS-02` đã chính thức bãi bỏ.
 
 ---
 
@@ -493,4 +446,4 @@ Ba phiếu trên dùng chung cho mọi vị trí trong phạm vi tại mục 0a,
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.1.1.0 | Bổ sung liên kết Bảng theo dõi giờ làm việc, năng suất và công suất nhân sự TS-02 cung cấp dữ liệu định lượng cho tiêu chí phần A. |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

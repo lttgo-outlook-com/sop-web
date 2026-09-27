@@ -2,11 +2,11 @@
 title: "ĐIỀU KHOẢN DỊCH VỤ XIN GIẤY PHÉP (PL-GP)"
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.1.0"
+version: "R.1.0.0"
 status: "đang áp dụng"
 language: "vi"
 distribution: "Khách hàng"
-previous_version: ""
+previous_version: "R.1.0.0"
 tags:
   - loai/tnc
 ---
@@ -16,7 +16,7 @@ tags:
 *Điều Khoản Dịch Vụ Cụ Thể, bộ phận không tách rời của Bản Điều Khoản Chung; Công ty Cổ phần oBacker*
 MST: 0402298185 · Tầng 2, 06 Trần Phú, Phường Hải Châu, Thành phố Đà Nẵng · contact@obacker.com
 
-**Phiên bản:** R.1.0.0 · **Cập nhật:** 21/09/2026
+**Phiên bản:** R.1.0.0 (VI-EN) · **Cập nhật:** 01/10/2026
 
 > Tài liệu này là Điều Khoản Dịch Vụ Cụ Thể cho Dịch Vụ Xin Giấy Phép ("**Dịch Vụ**"), áp dụng khi Dịch Vụ được ghi nhận tại Đơn Đặt Hàng. **Nếu có khác biệt giữa Bản Điều Khoản Chung và tài liệu này, tài liệu này được ưu tiên áp dụng cho Dịch Vụ.** Những nội dung không quy định riêng tại đây áp dụng theo Bản Điều Khoản Chung.
 
@@ -118,5 +118,4 @@ Phí Dịch Vụ được xác định theo Đơn Đặt Hàng đã được Qu�
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.1.1.0 | Chuẩn hóa địa chỉ trụ sở chính duy nhất tại Đà Nẵng.<br>Bổ sung quy định nghiêm cấm và loại trừ dịch vụ người đứng tên hộ (Nominee) tại Điều 3.6 |
-| 21/09/2026 | R.1.0.0 | Ban hành. |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

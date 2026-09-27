@@ -4,9 +4,9 @@ code: "OBK-QCNS-07"
 type: "sop"
 folder: "11_NhanSu"
 level: "Cấp 2, quy trình bộ phận"
-version: "R.5.1.0"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "26/09/2026"
+draft_date: "01/10/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 22/09/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -16,7 +16,7 @@ approval_status: "đã phê duyệt"
 parent: "OBK-QCNS-00 Bộ tài liệu quản trị nhân sự và vận hành"
 next_review: "Không quá 06 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-QCNS-07
 tags:
@@ -33,12 +33,12 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-QCNS-07 |
 | Cấp tài liệu | Cấp 2 |
-| Phiên bản | R.5.1.0, đang áp dụng |
-| Ngày biên soạn | 26/09/2026 |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 22/09/2026 |
-| Người biên soạn | `CEO` |
-| Người soát | `CEO` |
-| Người phê duyệt | `CEO`, ký với chức danh Tổng giám đốc |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[00_Bo_tai_lieu_quan_tri_nhan_su\|OBK-QCNS-00]] Bộ tài liệu quản trị nhân sự và vận hành |
 | Bộ tài liệu | OBK-QCNS, Bộ tài liệu quản trị nhân sự và vận hành |
 | Lần rà soát tiếp theo | Không quá 06 tháng kể từ ngày ban hành |
@@ -287,4 +287,4 @@ Nhân viên được phép:
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.5.1.0 | Bo sung quy dinh Bang ke lam them gio va dieu kien mien thue TNCN tien lam them gio theo Nghi dinh 253/2026/ND-CP |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

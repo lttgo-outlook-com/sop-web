@@ -4,18 +4,18 @@ code: "OBK-HB-35"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.1"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "23/09/2026"
+draft_date: "01/10/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 07/09/2026"
 author: "CEO"
 reviewer: "CEO"
 review_status: "đã soát"
-approver: "TP Thương mại"
+approver: "CEO"
 parent: "OBK-SOP-AM Quản lý khách hàng"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-HB-35
 tags:
@@ -31,12 +31,12 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-HB-35 |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.1.0.1, đang áp dụng |
-| Ngày biên soạn | 23/09/2026 |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 07/09/2026 |
-| Người biên soạn | `CEO` soạn bản đầu. Bản sau do `CEO` phân công |
-| Người soát | đã soát |
-| Người phê duyệt | TP Thương mại. `CEO` duyệt khi bản này chạm giá hoặc chạm phạm vi |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] Quản lý khách hàng |
 | Đây là gì | Người đọc là `AM`, mỗi ngày.<br>Hướng dẫn này trả lời: nhận một yêu cầu thì làm gì trong 15 phút đầu, chuyển đi đâu, và ai chịu trách nhiệm cuối khi việc đi qua nhiều bộ phận |
 | Đọc trước | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] mục 3 Job AM-10, AM-11, AM-25 và AM-26;<br>[[PL_Chuyen_len_cap_tren\|OBK-QCTC-02-PL-C]] mục 2a;<br>[[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 5.5 |
@@ -216,4 +216,4 @@ Thiếu chốt nào thì trả lại bộ phận. `AM` có quyền từ chối g
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 23/09/2026 | R.1.0.1 | Ghi mã tài liệu làm chữ hiển thị cho 3 liên kết tới tài liệu có mã |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

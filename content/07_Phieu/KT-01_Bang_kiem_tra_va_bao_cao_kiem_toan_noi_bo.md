@@ -6,17 +6,17 @@ folder: "07_Phieu"
 level: "Phiếu thao tác"
 version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "27/09/2026"
-author: ""
+draft_date: "01/10/2026"
+author: "CEO"
 reviewer: "CEO"
 review_status: "đã soát"
-approver: "HĐQT"
+approver: "CEO"
 approval_status: "đã phê duyệt"
 parent: "OBK-TTT-05 Cách làm phiếu thao tác"
 law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - KT-01
 tags:
@@ -30,10 +30,10 @@ tags:
 | Mã tài liệu | KT-01 |
 | Cấp tài liệu | Phiếu thao tác |
 | Phiên bản | R.1.0.0, đang áp dụng |
-| Ngày biên soạn | 27/09/2026 |
-| Người biên soạn | không ghi |
-| Người soát | `CEO` |
-| Người phê duyệt | `HĐQT` |
+| Ngày biên soạn | 01/10/2026 |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | `OBK-TTT-05` Cách làm phiếu thao tác |
 | **Mã phiếu** | KT-01 |
 | **Màu** | ĐỎ, kiểm soát tuân thủ và kiểm toán độc lập cấp Hội đồng quản trị |
@@ -186,4 +186,4 @@ Bảng kiến nghị chấn chỉnh và cam kết khắc phục:
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.1.0.0 | Ban hành biểu mẫu bảng kiểm tra và báo cáo kiểm toán nội bộ độc lập theo bốn phân hệ trọng yếu, thang đánh giá rủi ro và mẫu báo cáo phát hiện trình Hội đồng quản trị |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

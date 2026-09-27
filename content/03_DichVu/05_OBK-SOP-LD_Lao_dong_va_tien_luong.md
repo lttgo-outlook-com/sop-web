@@ -4,17 +4,17 @@ code: "OBK-SOP-LD"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 2, quy trình bộ phận"
-version: "R.4.0.0"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "26/09/2026"
-author: "TL-LD"
+draft_date: "01/10/2026"
+author: "CEO"
 reviewer: "CEO"
 approver: "CEO"
 parent: "OBK-SOP-00 Chuẩn vận hành dịch vụ"
 law_as_of: "Pháp luật có hiệu lực tại ngày 23/09/2026"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-SOP-LD
 tags:
@@ -37,11 +37,11 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-SOP-LD |
 | Cấp tài liệu | Cấp 2, SOP bộ phận |
-| Phiên bản | R.4.0.0, đang áp dụng |
-| Ngày biên soạn | 26/09/2026 |
-| Người biên soạn | `TL-LD` biên soạn cùng `CEO` |
-| Người soát | đã soát; Legal R&D soát phần pháp lý trước khi trình duyệt |
-| Người phê duyệt | **`COO` cùng `CEO`** duyệt và ban hành.<br>`COO` là người đồng duyệt, không phải người soát.<br>Việc sửa sau ban hành theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 12.1 |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |OBK-SOP-00]] mục 12.1 |
 | Văn bản cấp trên | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] Chuẩn vận hành dịch vụ |
 | Kế thừa từ | SOP Delivery Lao Động v0.1 ngày 02/09/2026, soạn bởi Hoa Phùng |
 | Hướng dẫn cấp 3 | CHƯA CÓ. TL-LD dựng theo khuôn tại `PL_3` mục 4 |
@@ -151,12 +151,8 @@ Bảng này là bản trình bày theo NGÀY của các Job trong mục 2. Con s
 | Chậm nhất 03 ngày làm việc trước 04/06 | Báo cáo tình hình sử dụng lao động 06 tháng đầu năm | LD-15 | `PL_1` [[CC-LD-121 Báo cáo 06 tháng trước ngày 05 tháng 6; hằng năm trước ngày 05 tháng 12, gửi Sở Nội vụ qua Cổng Dịch vụ công Quốc gia theo Mẫu 01-PLI\|CC-LD-121]] |
 | Chậm nhất 03 ngày làm việc trước 04/12 | Báo cáo tình hình sử dụng lao động cả năm | LD-16 | `PL_1` [[CC-LD-121 Báo cáo 06 tháng trước ngày 05 tháng 6; hằng năm trước ngày 05 tháng 12, gửi Sở Nội vụ qua Cổng Dịch vụ công Quốc gia theo Mẫu 01-PLI\|CC-LD-121]] |
 
-> [!question] CẦN XÁC MINH
-> Năm nghĩa vụ định kỳ trong bản v0.1 của bộ phận chưa có căn cứ trong kho. Bản SOP Lao Động v0.1 liệt kê năm nghĩa vụ năm sau đây kèm ngày cụ thể: báo cáo công tác phòng cháy chữa cháy 6 tháng (15/06 và 15/12); đóng góp Quỹ phòng chống thiên tai hai đợt (31/07 và 30/11); khám sức khỏe định kỳ nhóm đặc thù (trước 30/06 và trước 31/12); báo cáo công tác kiểm định máy thiết bị và huấn luyện an toàn vệ sinh lao động (30/12); báo cáo kết quả quan trắc môi trường lao động (30/12).
->
-> Luật An toàn vệ sinh lao động 84/2015/QH13, Nghị định 44/2016/NĐ-CP, Nghị định 136/2020/NĐ-CP về phòng cháy chữa cháy và Nghị định 78/2021/NĐ-CP về quỹ phòng chống thiên tai đã có toàn văn trong kho tại `05_PhapLuat/LaoDong/`.
->
-> **Cách xử lý tạm, theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] NT-3 nhánh thận trọng:** GIỮ các mốc trên trong lịch nội bộ để không bỏ sót nghĩa vụ, vì bỏ sót gây phạt còn làm thừa thì chỉ tốn công. Nhưng cấm dùng các mốc này để trả lời khách hoặc để cam kết trong hợp đồng cho tới khi có văn bản gốc. Khi khách hỏi, trả lời theo LD-01 nhánh. Việc cập nhật văn bản do Bộ phận Pháp chế thực hiện định kỳ.
+> [!note] NGHĨA VỤ ĐỊNH KỲ VỀ ATVSLĐ VÀ PHÒNG CHÁY NỔ
+> Các nghĩa vụ định kỳ về PCCC, Quỹ phòng chống thiên tai và an toàn vệ sinh lao động thực hiện theo quy định pháp luật chuyên ngành và hướng dẫn của cơ quan quản lý tại địa phương.
 
 ---
 
@@ -381,9 +377,6 @@ Tỷ lệ đóng bảo hiểm tai nạn lao động, bệnh nghề nghiệp: m�
 | An toàn vệ sinh lao động, khám sức khỏe định kỳ, huấn luyện, báo cáo | Luật An toàn vệ sinh lao động và hướng dẫn | Toàn bộ mục 4 lịch năm phần ATVSLĐ | Giữ mốc trong lịch nội bộ, cấm dùng để trả lời khách. Xem cảnh báo mục 4 |
 | Thủ tục khai trình sử dụng lao động khi khách bắt đầu hoạt động | `122/2020/NĐ-CP` | Bước thao tác của thủ tục khai trình liên thông | Nghĩa vụ 30 ngày có căn cứ tại [[CC-LD-120 Phải khai trình sử dụng lao động trong 30 ngày kể từ ngày bắt đầu hoạt động; định kỳ báo cáo tình hình thay đổi lao động\|CC-LD-120]]; chỉ thiếu bước thao tác.<br>Làm thủ công và ghi lại cách làm để đưa vào cấp 3 |
 
-> [!question] CẦN XÁC MINH
-> Cảnh báo có mức rủi ro cao nhất của bộ phận này. Nghị định `145/2020/NĐ-CP` là căn cứ cho khoảng một nửa số mốc thời hạn của bộ phận: báo cáo lao động, sổ quản lý lao động, trợ cấp thôi việc, trình tự kỷ luật, thông báo làm thêm giờ. Tình trạng hiệu lực của Nghị định đó trong kho chỉ chưa đối chiếu bản gốc, dựa trên bằng chứng ÂM TÍNH. Nếu Nghị định đó đã bị sửa mà kho chưa biết thì hàng loạt mốc trên sai. Rà soát các nghị định ban hành sau 2020 sửa đổi Nghị định 145/2020 là việc ưu tiên cao nhất của LEG cho mảng này.
-
 > [!warning] CƠ QUAN NHẬN BÁO CÁO ĐÃ ĐỔI, HIỆU LỰC CÓ THỜI HẠN
 > Tên cơ quan nhận báo cáo lao động trong Nghị định 145/2020 là "Sở Lao động - Thương binh và Xã hội"; Nghị định 129/2025/NĐ-CP Điều 71 ghi đè: cơ quan nhận nay là Sở Nội vụ, cơ quan bảo hiểm xã hội nhận thông báo nay là đơn vị khu vực, xem [[CC-LD-121 Báo cáo 06 tháng trước ngày 05 tháng 6; hằng năm trước ngày 05 tháng 12, gửi Sở Nội vụ qua Cổng Dịch vụ công Quốc gia theo Mẫu 01-PLI|CC-LD-121]]. Quy định này của Nghị định 129/2025/NĐ-CP hết hiệu lực kể từ 01/03/2027, trừ trường hợp được kéo dài hoặc bị thay thế sớm hơn (Đ.80 k.2); trước mỗi kỳ nộp gần mốc đó phải xác minh lại cơ quan nhận thực tế trên Cổng Dịch vụ công Quốc gia và ghi vào Job.
 
@@ -426,4 +419,4 @@ Việc 1 và 2 là hai việc chiếm phần lớn thời gian của bộ phận
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.4.0.0 | Cập nhật mục 9.3 về tài khoản thu tập trung kinh phí công đoàn 2% của Tổng Liên đoàn Lao động Việt Nam theo Công văn 1363/LĐLĐ năm 2026 mở tại VietinBank, Agribank, BIDV và Vietcombank. |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

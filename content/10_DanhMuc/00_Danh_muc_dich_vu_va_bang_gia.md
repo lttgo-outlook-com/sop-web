@@ -6,14 +6,14 @@ folder: "10_DanhMuc"
 level: "Danh mục"
 version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "15/09/2026"
+draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
 review_status: "đã soát"
 approver: "CEO"
 approval_status: "đã phê duyệt"
 parent: "OBK-SOP-00 Chuẩn vận hành dịch vụ"
-previous_version: ""
+previous_version: "R.1.0.0"
 law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
@@ -34,10 +34,10 @@ tags:
 | Mã tài liệu | OBK-DM-00 |
 | Cấp tài liệu | Danh mục |
 | Phiên bản | R.1.0.0, đang áp dụng |
-| Ngày biên soạn | 15/09/2026 |
-| Người biên soạn | `CEO` |
-| Người soát | đã soát |
-| Người phê duyệt | đã phê duyệt |
+| Ngày biên soạn | 01/10/2026 |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] Chuẩn vận hành dịch vụ |
 | Tổng số bản ghi | 361 |
 | Số mã dịch vụ trong danh mục | 256 |
@@ -98,4 +98,4 @@ Hai cột giá lấy nguyên giá trị của hệ thống danh mục sản ph�
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 21/09/2026 | R.1.0.0 | Ban hành. |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

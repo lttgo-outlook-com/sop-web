@@ -4,9 +4,9 @@ code: "OBK-HB-13"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.2.0"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "27/09/2026"
+draft_date: "01/10/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 25/08/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -16,7 +16,7 @@ parent: "OBK-SOP-KT Kế toán và thuế"
 next_review: "Chậm nhất 25/10/2026"
 chapter: "Lịch tuân thủ và quy trình khai nộp thuế định kỳ"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-HB-13
 tags:
@@ -33,12 +33,12 @@ tags:
 | Mã tài liệu | OBK-HB-13 |
 | Tên chương | Lịch tuân thủ và quy trình khai nộp thuế định kỳ |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.1.2.0, đang áp dụng |
-| Ngày biên soạn | 27/09/2026 |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
-| Người biên soạn | `CEO` biên soạn |
-| Người soát | đã soát |
-| Người phê duyệt | `CEO` ban hành |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] Kế toán và thuế |
 | Lần rà soát tiếp theo | 25/10/2026;<br>sau đó rà soát định kỳ mỗi 06 tháng |
 
@@ -902,7 +902,7 @@ Bảng này là công cụ trung tâm của chương. Duy trì trên `[HỆ TH�
 | 22 | Ngày nhận đủ chứng từ | Ngày |  |
 | 23 | Trạng thái lập tờ khai | Danh mục | Chưa lập, Đang lập, Đã lập |
 | 24 | Trạng thái soát | Danh mục | Chưa soát, Đã soát, Trả lại sửa |
-| 25 | Người soát | Chuỗi |  |
+| 25 | Người soát | CEO (Lê Trọng Tuấn) |  |
 | 26 | Trạng thái duyệt của khách | Danh mục | Chưa gửi, Đã gửi, Khách đã duyệt, Khách yêu cầu sửa |
 | 27 | Ngày ký gửi | Ngày |  |
 | 28 | Số Thông báo tiếp nhận hồ sơ thuế điện tử | Chuỗi | **Bắt buộc**, là bằng chứng thời điểm nộp `[TT 89/2026 Đ.11 k.1 đ.b]` |
@@ -1361,4 +1361,4 @@ Doanh nghiệp Việt Nam phải đăng ký để được cấp mã số thuế
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.1.2.0 | Cập nhật căn cứ pháp lý dòng 43, 45 và bổ sung mục K quy trình tác nghiệp kê khai thuế nhà thầu nước ngoài |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

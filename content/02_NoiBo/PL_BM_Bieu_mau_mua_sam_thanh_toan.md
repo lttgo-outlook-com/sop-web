@@ -4,11 +4,11 @@ code: "OBK-SOP-NB-PL-BM"
 type: "sop"
 folder: "02_NoiBo"
 level: "Phụ lục"
-version: "R.1.0.2"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "23/09/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 29/08/2026"
-author: ""
+draft_date: "01/10/2026"
+law_as_of: "Pháp luật có hiệu lực tại ngày 01/10/2026"
+author: "CEO"
 reviewer: "CEO"
 review_status: "đã soát"
 approver: "CEO"
@@ -17,7 +17,7 @@ parent: "OBK-SOP-NB-00 Chuẩn vận hành nội bộ"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 appendix: "Biểu mẫu mua sắm nội bộ và thanh toán"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-SOP-NB-PL-BM
 tags:
@@ -33,12 +33,12 @@ tags:
 | Mã tài liệu | OBK-SOP-NB-PL-BM |
 | Tên phụ lục | Biểu mẫu mua sắm nội bộ và thanh toán |
 | Cấp tài liệu | Cấp 3, biểu mẫu của [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]], nằm dưới [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] |
-| Phiên bản | R.1.0.2, đang áp dụng |
-| Ngày biên soạn | 23/09/2026 |
-| Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 29/08/2026 |
-| Người biên soạn | (để trống) |
-| Người soát | (để trống) |
-| Người phê duyệt | (để trống) |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
+| Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 01/10/2026 |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo\|OBK-SOP-NB-00]] Chuẩn vận hành nội bộ |
 | Tài liệu khung | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Quy chế tài chính nội bộ |
 | Tài liệu nguồn | OBK-SOP-NB-01 Mua sắm nội bộ và đề nghị thanh toán |
@@ -90,19 +90,7 @@ tags:
 | 02-TT | Phiếu chi | Mục `BM-PC`, chép nguyên văn kèm dòng ghi nguồn | Dùng được ngay |
 | 09-TT | Bảng kê chi tiền | Mục `BM-K`, đúng cấu trúc và đúng ba chữ ký theo chức danh của mẫu | Dùng được ngay |
 
-**Vì sao hai mẫu 01-TT và 02-TT phải có ở đây.** `[Thông tư 99/2025/TT-BTC, Tài khoản 111]` mục 1 điểm b buộc mọi khoản tiền mặt nhập quỹ và xuất quỹ đều phải có phiếu thu, phiếu chi và có đủ chữ ký theo quy định. Bộ biểu mẫu BM-01 tới BM-07 **không có phiếu nào làm hai việc đó**: BM-02 là đề nghị thanh toán, tức đề nghị trước khi chi, không phải chứng từ xuất quỹ. Chỗ thiếu này được tìm ra ngày 07/09/2026 khi dựng [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]], và cách bổ sung rẻ nhất là áp nguyên hai mẫu có sẵn của chế độ thay vì thiết kế thêm hai biểu mẫu mới. Chốt tương ứng tại [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]] Điều 4. **Quy tắc kèm theo: chép nguyên văn thì dùng được ngay; sửa một trường thì phiếu chuyển sang nhóm tự thiết kế và phải bổ sung vào Điều 5 và Điều 6 của [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]] trước khi dùng.**
-
-> [!note] BM-G VÀ BM-K CÓ HAI THÂN PHẬN KHÁC NHAU TRƯỚC PHÁP LUẬT, ĐỌC KỸ
->
-> **BM-K là mẫu của chế độ kế toán**, dựng theo đúng cấu trúc và đúng ba chữ ký của Bảng kê chi tiền mẫu số 09-TT tại `[Thông tư 99/2025/TT-BTC, Phụ lục I]`. Dùng mẫu có sẵn thì không kích hoạt nghĩa vụ nào thêm, dùng được ngay.
->
-> **BM-G là mẫu oBacker tự thiết kế.** `[Thông tư 99/2025/TT-BTC Đ.9 k.2]` cho phép tự thiết kế, nhưng kèm điều kiện: doanh nghiệp **có trách nhiệm ban hành Quy chế hạch toán kế toán hoặc tài liệu tương đương** về các nội dung sửa đổi, và quy chế đó phải nêu rõ **sự cần thiết** của việc sửa đổi và **trách nhiệm của doanh nghiệp trước pháp luật** về nội dung đã sửa.
->
-> **Trạng thái ngày 07/09/2026: dự thảo [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]] Quy chế hạch toán kế toán ĐÃ CÓ.** BM-G nằm ở Điều 5 danh mục biểu mẫu tự thiết kế và lý do của BM-G ở mục 6.6. BM-G có căn cứ **từ ngày [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]] được Tổng giám đốc ký ban hành**, không phải từ ngày dự thảo được viết, vì điều luật đòi doanh nghiệp **ban hành** chứ không đòi doanh nghiệp soạn. Trình tự thẩm quyền tại [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]] mục 10.2.
->
-> **Năm biểu mẫu khác cũng thuộc nhóm tự thiết kế**, gồm BM-01, BM-02, BM-03, BM-04 và BM-06, và năm biểu mẫu đó cũng nằm trong danh mục tại Điều 5 của [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]] vì lý do y hệt. Khác biệt duy nhất là năm biểu mẫu đó đã được dùng trước ngày dự thảo tồn tại, còn BM-G thì chưa; nghĩa là việc ký ban hành [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]] không chỉ mở đường cho BM-G mà còn bổ sung căn cứ cho cả năm biểu mẫu kia.
->
-> **BM-05 và BM-07 không thuộc nhóm này** và không cần căn cứ tại `Đ.9 k.2`: hai phiếu đó không phản ánh một nghiệp vụ kinh tế, tài chính phát sinh và không dùng để ghi sổ, nên không phải chứng từ kế toán theo `[Thông tư 99/2025/TT-BTC Đ.3 k.2]`. Lý do đầy đủ tại [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]] mục 5.1.
+**Quy định áp dụng mẫu 01-TT và 02-TT.** `[Thông tư 99/2025/TT-BTC, Tài khoản 111]` mục 1 điểm b quy định mọi khoản tiền mặt nhập quỹ và xuất quỹ đều phải có phiếu thu, phiếu chi đầy đủ chữ ký theo quy định. Phiếu thu và phiếu chi áp dụng nguyên bản theo mẫu của chế độ kế toán; trường hợp sửa đổi, bổ sung chỉ tiêu thực hiện theo Quy chế hạch toán kế toán [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]].
 
 ---
 
@@ -453,10 +441,10 @@ Dự toán chi tiết:
 | --- | --- | --- | --- | --- |
 | Kế toán viên nội bộ | | Đã xác minh đủ sáu nội dung, số liệu đúng như ghi nhận | | |
 | Người phụ trách kế toán | | Soát nội dung xác minh và số liệu | | |
-| Tổng giám đốc hoặc Chủ tịch Hội đồng quản trị | | Đã đọc phiếu này trước khi xác nhận lệnh chi đầu tiên tới số tài khoản nêu trên | | |
+|| Tổng giám đốc hoặc Chủ tịch Hội đồng quản trị | | Đã đọc phiếu này trước khi xác nhận lệnh chi đầu tiên tới số tài khoản nêu trên | | |
 
-> [!note] VÌ SAO CÓ CHỮ KÝ THỨ BA
-> `KTV` và `KTT` đều giữ quyền LẬP lệnh chuyển tiền, nên hai chữ ký đầu đều thuộc người lập lệnh. Chữ ký thứ ba do người xác nhận lệnh trên hệ thống ký, là lớp độc lập duy nhất còn lại ở khâu xác minh nhà cung cấp trong lúc Danh mục nhà cung cấp chưa tồn tại. Khi danh mục được lập và giao cho một vai trò không có quyền trên ngân hàng thì chữ ký này chuyển về người quản lý danh mục. Xem [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 35.3a và [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]] mục 6.4.2.
+> [!note] CHỮ KÝ THỨ BA XÁC NHẬN NHÀ CUNG CẤP
+> Chữ ký thứ ba của Tổng giám đốc hoặc Chủ tịch Hội đồng quản trị xác nhận việc hoàn tất đối soát danh mục trước khi thực hiện lệnh chuyển tiền đầu tiên.
 
 ---
 
@@ -749,11 +737,7 @@ Theo cấu trúc Bảng kê chi tiền mẫu số 09-TT của chế độ kế t
 
 ## BM-G. PHIẾU CHI GỌN
 
-> [!note] CHƯA DÙNG ĐƯỢC HÔM NAY
-> DÙNG ĐƯỢC TỪ NGÀY CÓ NGHỊ QUYẾT
-> BM-G là mẫu oBacker tự thiết kế, nên căn cứ của BM-G là [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]] Quy chế hạch toán kế toán, theo `[Thông tư 99/2025/TT-BTC Đ.9 k.2]`. Dự thảo [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]] đã có từ ngày 07/09/2026; BM-G dùng được **từ ngày Tổng giám đốc ký ban hành văn bản đó**. Trong lúc chờ, khoản thuộc phạm vi Luồng G nhánh G-2 đi Luồng B đầy đủ.
-
-Gộp BM-01, BM-02, BM-06 và BM-07. Chỉ dùng cho khoản thuộc bậc B2 và không thuộc bảy trường hợp loại trừ tại [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]] mục 6.5a.2.
+BM-G là biểu mẫu rút gọn của oBacker áp dụng theo Quy chế hạch toán kế toán [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]]. Gộp BM-01, BM-02, BM-06 và BM-07. Chỉ dùng cho khoản thuộc bậc B2 và không thuộc bảy trường hợp loại trừ tại [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]] mục 6.5a.2.
 
 ### Phần đầu. Thông tin định danh
 
@@ -895,4 +879,4 @@ Sau bước 4, `NTT` tạo lệnh và người xác nhận lệnh xác nhận tr
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 23/09/2026 | R.1.0.2 | Đổi nhãn Nghị định 19/VBHN-BTC thành Văn bản hợp nhất 19/VBHN-BTC tại 5 chỗ<br>Đổi nhãn Nghị định 18/VBHN-BTC thành Văn bản hợp nhất 18/VBHN-BTC tại 6 chỗ |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

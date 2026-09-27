@@ -4,9 +4,9 @@ code: "OBK-QCNS-00"
 type: "sop"
 folder: "11_NhanSu"
 level: "Cấp 1, văn bản KHUNG toàn công ty"
-version: "R.2.0.0"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "23/09/2026"
+draft_date: "01/10/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 22/09/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -16,7 +16,7 @@ approval_status: "đã phê duyệt"
 parent: "OBK-QCTC-02 Quy chế tổ chức và phân quyền"
 next_review: "Không quá 06 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-QCNS-00
 tags:
@@ -34,12 +34,12 @@ tags:
 | Mã tài liệu | OBK-QCNS-00 |
 | Tên tài liệu | Bộ tài liệu quản trị nhân sự và vận hành của Công ty cổ phần oBacker. Tài liệu đọc trước |
 | Cấp tài liệu | Cấp 1, văn bản KHUNG của bộ |
-| Phiên bản | R.2.0.0, đang áp dụng |
-| Ngày biên soạn | 23/09/2026 |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 22/09/2026 |
-| Người biên soạn | `CEO` |
-| Người soát | `CEO` |
-| Người phê duyệt | `CEO`, ký với chức danh Tổng giám đốc |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen\|OBK-QCTC-02]] Quy chế tổ chức và phân quyền |
 | Bộ tài liệu | OBK-QCNS, Bộ tài liệu quản trị nhân sự và vận hành |
 | Lần rà soát tiếp theo | Không quá 06 tháng kể từ ngày ban hành |
@@ -187,4 +187,4 @@ Một người mang ký hiệu `CV-KT` có thể ở cấp P1 hoặc ở cấp P
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 23/09/2026 | R.2.0.0 | Mục 1 thay hai khung đánh giá hiệu suất theo bộ phận bằng OBK-QCNS-08 cùng năm phụ lục PL-A tới PL-E; phiếu đánh giá còn NS-01 tới NS-03 dùng chung toàn công ty<br>Mục 3 giao toàn thể nhân viên đọc OBK-QCNS-01 phần I và phần II cùng OBK-QCNS-08; bỏ hàng riêng của Bộ phận Công nghệ và Sản phẩm<br>Mục 5 thêm tám thay đổi CEO chốt ngày 23/09/2026: một thang cấp bậc P1 tới P4 và M1 cho toàn công ty; Công nghệ và Sản phẩm một vị trí Product Owner; một khung đánh giá toàn công ty; bỏ tiêu chí khối lượng; mức lương khởi điểm P4 14.950.000 đồng; một bảng mức lương khởi điểm cho toàn công ty; bỏ đường P4 lên M1; không rút ngắn thời gian tại cấp<br>Mục 6 ghi CV-CN là Product Owner<br>Mục 7 dẫn thang cấp bậc P1 tới P4 và M1 tại OBK-QCNS-01 mục I.1 |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

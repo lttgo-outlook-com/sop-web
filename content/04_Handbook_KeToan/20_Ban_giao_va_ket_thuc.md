@@ -4,9 +4,9 @@ code: "OBK-SOP-20"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.2.0.1"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "27/09/2026"
+draft_date: "01/10/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 25/08/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -16,7 +16,7 @@ parent: "OBK-SOP-KT Kế toán và thuế"
 next_review: "Chậm nhất 28/02/2027"
 chapter: "Bàn giao nội bộ và kết thúc hợp đồng dịch vụ"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-SOP-20
 tags:
@@ -33,12 +33,12 @@ tags:
 | Mã tài liệu | OBK-SOP-20 |
 | Tên chương | Bàn giao nội bộ và kết thúc hợp đồng dịch vụ |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.2.0.1, đang áp dụng |
-| Ngày biên soạn | 27/09/2026 |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
-| Người biên soạn | `CEO` biên soạn |
-| Người soát | đã soát |
-| Người phê duyệt | `CEO` ban hành |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] Kế toán và thuế |
 | Tính chất nội dung | QUY ĐỊNH NỘI BỘ oBacker. Các bảng kiểm, mốc thời gian, quy trình trong chương này là chính sách do oBacker tự ban hành.<br>Riêng mục 6.4.6 về chữ ký báo cáo tài chính và mục 6.6.5 về lưu trữ tài liệu kế toán là nội dung PHÁP LUẬT, có dẫn Điều khoản điểm cụ thể tại mục 3.4 |
 | Lần rà soát tiếp theo | 6 tháng một lần, chậm nhất 28/02/2027. Rà soát đột xuất sau mỗi lần kết thúc hợp đồng có tranh chấp |
@@ -1006,4 +1006,4 @@ Nội dung tối thiểu:
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.2.0.1 | Chuẩn hóa câu chữ: loại bỏ danh từ hóa và thay thuật ngữ rủi ro danh tiếng |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

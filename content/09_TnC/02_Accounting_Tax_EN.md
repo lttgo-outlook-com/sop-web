@@ -2,11 +2,11 @@
 title: "ACCOUNTING & TAX SERVICE TERMS (PL-KT)"
 type: "tnc"
 folder: "09_TnC"
-version: "R.2.1.0"
+version: "R.1.0.0"
 status: "đang áp dụng"
 language: "en"
 distribution: "Khách hàng"
-previous_version: ""
+previous_version: "R.1.0.0"
 tags:
   - loai/tnc
 ---
@@ -16,7 +16,7 @@ tags:
 *Service-Specific Terms, an integral part of the Master T&C; oBacker Joint Stock Company*
 Tax code: 0402298185 · Floor 2, 06 Tran Phu Street, Hai Chau Ward, Da Nang, Vietnam · contact@obacker.com
 
-**Version:** R.2.1.0 · **Updated:** 27 September 2026
+**Version:** R.1.0.0 (VI-EN) · **Updated:** 27 September 2026
 
 > These are the Service-Specific Terms for the Accounting & Tax Services (the "**Services**"), covering two components: (A) Accounting and (B) Corporate Tax (VAT, CIT, Foreign Contractor Tax (FCT), and e-invoices). They apply where the Services are recorded in the Order Form. **If these Terms differ from the Master T&C, these Terms prevail for the Services.**
 >
@@ -188,7 +188,7 @@ The Service Fees are set in the Order Form (by package or by number of Transacti
 
 ## REVISION LOG
 
-| Date | Version | Summary of changes |
+| Date | Version | R.1.0.0, currently applicable |
 | --- | --- | --- |
 | 27/09/2026 | R.2.1.0 | Replaced Circular No. 133/2016/TT-BTC with Circular No. 58/2026/TT-BTC for micro-enterprises in Article 2.1.<br>Added management and authorization policy for dedicated back-office USB Token hardware in Article 3.4.<br>Expanded monthly bookkeeping buffer to Days 6-12 in Article 5.1 |
 

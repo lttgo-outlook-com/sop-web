@@ -6,7 +6,7 @@ version: "R.1.0.0"
 status: "đang áp dụng"
 language: "en"
 distribution: "Khách hàng"
-previous_version: ""
+previous_version: "R.1.0.0"
 tags:
   - loai/tnc
 ---
@@ -14,7 +14,7 @@ tags:
 ### Including a dedicated section on Sensitive Personal Data
 
 **Applies to:** oBacker Joint Stock Company
-**Version:** R.1.0.0 (consolidated) · **Issue date:** 21 September 2026 · **Effective Date:** 21 September 2026
+**Version:** R.1.0.0 (VI-EN) · **Issue date:** 21 September 2026 · **Effective Date:** 21 September 2026
 
 ---
 

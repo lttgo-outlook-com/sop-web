@@ -4,9 +4,9 @@ code: "OBK-QCNS-06"
 type: "sop"
 folder: "11_NhanSu"
 level: "Cấp 2, quy trình bộ phận"
-version: "R.4.1.0"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "23/09/2026"
+draft_date: "01/10/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 22/09/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -16,7 +16,7 @@ approval_status: "đã phê duyệt"
 parent: "OBK-QCNS-00 Bộ tài liệu quản trị nhân sự và vận hành"
 next_review: "Không quá 06 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-QCNS-06
 tags:
@@ -32,12 +32,12 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-QCNS-06 |
 | Cấp tài liệu | Cấp 2 |
-| Phiên bản | R.4.1.0, đang áp dụng |
-| Ngày biên soạn | 23/09/2026 |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 22/09/2026 |
-| Người biên soạn | `CEO` |
-| Người soát | `CEO` |
-| Người phê duyệt | `CEO`, ký với chức danh Tổng giám đốc |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[00_Bo_tai_lieu_quan_tri_nhan_su\|OBK-QCNS-00]] Bộ tài liệu quản trị nhân sự và vận hành |
 | Bộ tài liệu | OBK-QCNS, Bộ tài liệu quản trị nhân sự và vận hành |
 | Lần rà soát tiếp theo | Không quá 06 tháng kể từ ngày ban hành |
@@ -91,7 +91,7 @@ Trước khi áp dụng chính sách này, oBacker tham khảo ý kiến công �
 | Tiêu chí | Đề xuất chỉ ra được thành tích hoặc đóng góp nào làm phát sinh khoản thưởng, theo mục 2.2 |
 | Người được xét | Người làm việc theo hợp đồng lao động với oBacker, kể cả người làm việc không trọn thời gian, là thành viên trong bộ phận của Trưởng bộ phận lập đề xuất, theo mục 2.1.<br>Cộng tác viên không thuộc đối tượng xét; khoản trả cho cộng tác viên là thù lao theo hợp đồng dịch vụ |
 | Người đề xuất | Trưởng bộ phận |
-| Người phê duyệt | `BOM`, theo mục 2.3 bước 2 |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Mức được hưởng | Mức `BOM` phê duyệt, bằng tiền, bằng hiện vật, bằng điểm đánh giá hiệu suất, hoặc bằng hình thức thưởng hợp lý khác |
 | Kỳ chi | Ngày 15 của tháng liền sau tháng phê duyệt, theo mục 3.2 |
 
@@ -142,4 +142,4 @@ Ngoài người được đề xuất thưởng theo mục 2.2, mỗi đề xu�
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 23/09/2026 | R.4.1.0 | Mục 1 thêm nghĩa vụ tham khảo ý kiến công đoàn cơ sở và công bố công khai quy chế thưởng tại nơi làm việc trước khi áp dụng, theo khoản 2 Điều 104 Bộ luật Lao động |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

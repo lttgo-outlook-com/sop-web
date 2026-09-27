@@ -4,9 +4,9 @@ code: "OBK-SOP-15"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.1.0"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "27/09/2026"
+draft_date: "01/10/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 25/08/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -16,7 +16,7 @@ parent: "OBK-SOP-KT Kế toán và thuế"
 next_review: "Chậm nhất 31/12/2026"
 chapter: "Xử lý sai sót và khai bổ sung"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-SOP-15
 tags:
@@ -33,12 +33,12 @@ tags:
 | Mã tài liệu | OBK-SOP-15 |
 | Tên chương | Xử lý sai sót và khai bổ sung |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.1.1.0, đang áp dụng |
-| Ngày biên soạn | 27/09/2026 |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
-| Người biên soạn | `CEO` biên soạn |
-| Người soát | đã soát |
-| Người phê duyệt | `CEO` ban hành |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] Kế toán và thuế |
 | Lần rà soát tiếp theo | Chậm nhất 31/12/2026. Đã đối chiếu bản gốc Luật Quản lý thuế 108/2025/QH15, Nghị định 252/2026/NĐ-CP, Nghị định 254/2026/NĐ-CP, Phụ lục I Thông tư 89/2026/TT-BTC và Thông tư 91/2026/TT-BTC đủ 05 Phụ lục tại lần rà soát ngày 26/08/2026 |
 
@@ -881,4 +881,4 @@ Về thời hạn lưu: xem chỗ CẦN XÁC MINH tại Chương 14 mục 9.2. M
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.1.1.0 | Bổ sung quy tắc kê khai thuế theo kỳ gốc và kỳ phát sinh khi điều chỉnh hoặc thay thế hóa đơn |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

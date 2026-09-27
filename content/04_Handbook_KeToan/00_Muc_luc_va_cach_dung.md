@@ -4,9 +4,9 @@ code: "OBK-HB-00"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Mục lục"
-version: "R.1.0.2"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "26/09/2026"
+draft_date: "01/10/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 25/08/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -15,7 +15,7 @@ approver: "CEO"
 parent: "OBK-SOP-KT Kế toán và thuế"
 next_review: "Không quá 06 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-HB-00
 tags:
@@ -50,14 +50,14 @@ tags:
 | Hạng mục | Nội dung |
 | --- | --- |
 | Mã tài liệu | OBK-HB-00 |
-| Phiên bản | R.1.0.2, đang áp dụng |
+| Phiên bản | R.1.0.0, đang áp dụng |
 | Cấp tài liệu | Mục lục của Handbook cấp 3 |
-| Ngày biên soạn | 26/09/2026 |
+| Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
-| Người biên soạn | `CEO` biên soạn |
-| Người soát | đã soát |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] Kế toán và thuế |
-| Người phê duyệt | `CEO` ban hành |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Lần rà soát tiếp theo | Không quá 06 tháng |
 | Phạm vi phát hành | Nội bộ oBacker. Không phát hành cho khách hàng. |
 
@@ -66,6 +66,15 @@ tags:
 ## 1. TÀI LIỆU NÀY LÀ GÌ VÀ KHÔNG LÀ GÌ
 
 **Là gì.** Đây là quy trình làm việc chuẩn của oBacker khi cung cấp dịch vụ kế toán và thuế cho khách hàng. Handbook trả lời ba câu hỏi: một nghiệp vụ làm theo trình tự nào, ai chịu trách nhiệm ở bước nào, và chỗ nào dễ sai thì phải kiểm gì.
+
+**Cấu trúc hai khối tài liệu:**
+Handbook Kế toán được tổ chức thành hai khối tài liệu độc lập:
+1. **Khối Bảng kiểm thao tác nghiệp vụ chuẩn:** Là công cụ làm việc thực hành cốt lõi, cô đọng toàn bộ quy trình thực hiện thành 04 Bảng kiểm theo chu kỳ:
+   - Bảng kiểm 1: Tiếp nhận và thiết lập ban đầu (Onboarding)
+   - Bảng kiểm 2: Vận hành định kỳ hằng tháng
+   - Bảng kiểm 3: Báo cáo và kê khai định kỳ hằng quý
+   - Bảng kiểm 4: Khóa sổ và quyết toán năm
+2. **Khối Tri thức tham khảo pháp lý và tình huống (Chương 01, 08, 16, 17, 18, 21):** Phục vụ đào tạo, tra cứu chuyên sâu và xử lý tình huống bất thường, không xem là quy trình vận hành bắt buộc hằng ngày.
 
 **Không là gì.**
 
@@ -267,7 +276,7 @@ Hai việc dưới đây là phát hiện trong quá trình biên soạn, có �
 
 ## 10. Nhật ký phiên bản Handbook
 
-| Phiên bản | Ngày | Chương thay đổi | Nội dung thay đổi | Lý do | Người thực hiện | Người duyệt |
+| Phiên bản | R.1.0.0, đang áp dụng | Chương thay đổi | Nội dung thay đổi | Lý do | Người thực hiện | Người duyệt |
 | --- | --- | --- | --- | --- | --- | --- |
 | R.1.0.0 | 21/09/2026 | Toàn bộ | Ban hành toàn bộ Handbook ở bản R.1.0.0 | Ban hành mới | `CEO` | `CEO` |
 
@@ -277,4 +286,4 @@ Quy tắc đánh phiên bản và quy trình cập nhật: xem Chương 21.
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 26/09/2026 | R.1.0.2 | Cập nhật bốn việc đã đóng tại Chương 21 theo các văn bản pháp luật mới |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

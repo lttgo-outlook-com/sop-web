@@ -6,7 +6,7 @@ folder: "07_Phieu"
 level: "Phiếu thao tác"
 version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "27/09/2026"
+draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
 review_status: "đã soát"
@@ -16,7 +16,7 @@ parent: "OBK-TTT-05 Cách làm phiếu thao tác"
 law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - BC-01
 tags:
@@ -30,10 +30,10 @@ tags:
 | Mã tài liệu | BC-01 |
 | Cấp tài liệu | Phiếu thao tác |
 | Phiên bản | R.1.0.0, đang áp dụng |
-| Ngày biên soạn | 27/09/2026 |
-| Người biên soạn | `CEO` soạn bản đầu. Bản sau do `CEO` phân công |
-| Người soát | đã soát |
-| Người phê duyệt | đã phê duyệt |
+| Ngày biên soạn | 01/10/2026 |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | `OBK-TTT-05` Cách làm phiếu thao tác |
 | **Mã phiếu** | BC-01 |
 | **Màu** | CAM, kiểm soát an toàn dữ liệu và phục hồi thảm họa |
@@ -182,4 +182,4 @@ Trong hoạt động cung ứng dịch vụ kế toán, thuế và pháp lý doa
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.1.0.0 | Ban hành bản đầu phiếu kiểm tra sao lưu dữ liệu và ứng phó sự cố BCP theo OBK-SOP-NB-15. |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

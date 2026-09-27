@@ -4,11 +4,11 @@ code: "OBK-SOP-NB-01"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.4.0.0"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "26/09/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 29/08/2026"
-author: ""
+draft_date: "01/10/2026"
+law_as_of: "Pháp luật có hiệu lực tại ngày 01/10/2026"
+author: "CEO"
 reviewer: "CEO"
 review_status: "đã soát"
 approver: "CEO"
@@ -16,7 +16,7 @@ approval_status: "đã phê duyệt"
 parent: "OBK-SOP-NB-00 Chuẩn vận hành nội bộ"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-SOP-NB-01
 tags:
@@ -35,12 +35,12 @@ tags:
 | Mã tài liệu | OBK-SOP-NB-01 |
 | Tên tài liệu | Quy trình mua sắm nội bộ và đề nghị thanh toán |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ. Thi hành Chương 4 và Chương 7 của [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Quy chế tài chính nội bộ |
-| Phiên bản | R.4.0.0, đang áp dụng |
-| Ngày biên soạn | 26/09/2026 |
-| Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 29/08/2026, đối chiếu kho bản 137 tệp |
-| Người biên soạn | (để trống) |
-| Người soát | (để trống) |
-| Người phê duyệt | (để trống) |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
+| Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 01/10/2026 |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo\|OBK-SOP-NB-00]] Chuẩn vận hành nội bộ |
 | Bộ tài liệu | OBK-SOP-NB, Sổ tay quy trình nội bộ oBacker |
 | Lần rà soát tiếp theo | Không quá 12 tháng kể từ ngày ban hành;<br>rà soát đột xuất khi có văn bản mới theo Chương 21 của Handbook Kế toán |
@@ -158,7 +158,7 @@ Toàn bộ căn cứ dưới đây đã đối chiếu bản gốc trong kho vă
 | **TL** | Team Lead | Trưởng bộ phận quản lý dòng ngân sách chứa khoản chi.<br>Người xác nhận nhu cầu là cần thiết và nằm trong ngân sách đã duyệt. |
 | **KTV** | Kế toán viên nội bộ | Người KIỂM. Kiểm tính hợp lệ của chứng từ, kiểm điều kiện thuế, kiểm khoản trùng, TẠO lệnh chi, hạch toán, lưu hồ sơ.<br>**không phê duyệt chi, không xác nhận lệnh trên hệ thống ngân hàng, không là người đối chiếu sao kê, không giữ quỹ tiền mặt.** Việc `KTV` được TẠO lệnh là ngoại lệ của quy tắc tách quyền, xem [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 47.3a. |
 | **KTT** | Người phụ trách kế toán của oBacker | Người CHỐT KỸ THUẬT. Ký chứng từ chi tiền theo `[Luật Kế toán 41/VBHN-VPQH Đ.19 k.3]`.<br>Quyết định cách xử lý khi hồ sơ có vấn đề về thuế hoặc kế toán.<br>Cũng là một trong hai người TẠO lệnh chi.<br>không xác nhận lệnh trên hệ thống ngân hàng và không phê duyệt chi ở bất kỳ bậc nào, xem [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 12.3. |
-| **NDC** | Người duyệt chi | Người có thẩm quyền **phê duyệt trong quy trình** theo ma trận tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 12.3.<br>Tùy bậc là `TL` ở B1 và B2, `TGĐ` ở B3 và B4, `HĐQT` cùng `ĐHĐCĐ` ở B5.<br>**`KTT` không phải NDC ở bất kỳ bậc nào**, vì `KTT` tạo lệnh chi; một người vừa duyệt chi vừa tạo lệnh là vi phạm [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 47.2.<br>Việc xác nhận lệnh trên hệ thống ngân hàng điện tử không phải một lần phê duyệt riêng; đó là thao tác thực hiện, xem mục 6.5.1 bước B6. |
+| **NDC** | Người duyệt chi | Người có thẩm quyền **phê duyệt trong quy trình** theo ma trận tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 12.3.<br>Tùy bậc là `TL` ở B1; `COO` hoặc `KTT` ở B2; `TGĐ` ở B3 (ngoại lệ luật định từ 35% tổng tài sản do `HĐQT` và `ĐHĐCĐ` quyết định, hoặc theo Điều 12a đối với người có liên quan).<br>**`KTT` không phải NDC khi tự mình lập đề nghị hoặc tạo lệnh chi**; một người vừa duyệt chi vừa tạo lệnh là vi phạm [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 47.2.<br>Việc xác nhận lệnh trên hệ thống ngân hàng điện tử không phải một lần phê duyệt riêng; đó là thao tác thực hiện, xem mục 6.5.1 bước B6. |
 | **NTT** | Người thực hiện thanh toán | Người TẠO lệnh chuyển tiền hoặc chi tiền mặt.<br>Chỉ thực hiện, không được sửa nội dung lệnh, và không phê duyệt.<br>Vai trò này do `KTV` và `KTT` cùng giữ, mỗi người một tài khoản người dùng riêng trên hệ thống ngân hàng điện tử.<br>Người xác nhận lệnh trên hệ thống là `TGĐ` hoặc `Chủ tịch HĐQT`, một trong hai là đủ; đó là thao tác, không phải một lần phê duyệt riêng.<br>Xem [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 35.1a. |
 | **AD-KT** | Hành chính Kế toán | Người ĐỐI CHIẾU. Đối chiếu sao kê ngân hàng với sổ kế toán theo chốt số 1 tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 48.<br>không hạch toán sổ nội bộ và không có quyền nào trên hệ thống ngân hàng điện tử.<br>Đây là lớp kiểm soát độc lập bắt buộc của ngoại lệ tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 47.3a. |
 
@@ -465,9 +465,9 @@ Bốn lượt duyệt đi nối tiếp. Ba lượt duyệt đầu áp cho mọi 
 > [!note] LƯỢT DUYỆT 3 VÀ LƯỢT DUYỆT 4 KHÁC LOẠI, KHÔNG PHẢI HAI CẤP CỦA CÙNG MỘT THANG
 > Lượt duyệt 3 là điều kiện để chứng từ hợp pháp. Lượt duyệt 4 là quyết định cho phép chi. Bỏ lượt duyệt 3 là vi phạm pháp luật; bỏ lượt duyệt 4 là vượt thẩm quyền nội bộ.
 
-> [!note] Ở BẬC B4
+> [!note] Ở BẬC B3
 > KẾ TOÁN TRƯỞNG KÝ HAI LẦN CHO HAI VIỆC KHÁC NHAU
-> Mục 12.3 của [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] ghi bậc B4 là "TGĐ, sau khi TL và KTT cùng duyệt nhu cầu". Chữ "duyệt nhu cầu" ở đó là việc của Luồng A, tức duyệt việc mua. Chữ ký đó không thay cho chữ ký ở lượt duyệt 3 của Luồng B. Hai chữ ký, hai chứng từ.
+> Mục 12.3 của [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] ghi bậc B3 là "TGĐ, sau khi TL và KTT cùng duyệt nhu cầu". Chữ "duyệt nhu cầu" ở đó là việc của Luồng A, tức duyệt việc mua. Chữ ký đó không thay cho chữ ký ở lượt duyệt 3 của Luồng B. Hai chữ ký, hai chứng từ.
 
 #### 6.0a.3. Bốn quy tắc bắt buộc của cả chu trình chi
 
@@ -477,7 +477,7 @@ Bốn lượt duyệt đi nối tiếp. Ba lượt duyệt đầu áp cho mọi 
 
 > [!note] VÌ SAO QUY TẮC NÀY TỒN TẠI
 > MỘT VÍ DỤ BẰNG SỐ
-> Một đề nghị 8.000.000 đồng là bậc B2, Team Lead duyệt. Hồ sơ đã đủ chữ ký. Sau đó số tiền được sửa thành 60.000.000 đồng, và 60 triệu là bậc B4 thuộc Tổng giám đốc. Nếu chữ ký cũ vẫn còn giá trị thì khoản 60 triệu ra khỏi tài khoản mà chưa từng được người có thẩm quyền duyệt.
+> Một đề nghị 4.000.000 đồng là bậc B1, Team Lead duyệt. Hồ sơ đã đủ chữ ký. Sau đó số tiền được sửa thành 25.000.000 đồng, và 25 triệu là bậc B3 thuộc Tổng giám đốc. Nếu chữ ký cũ vẫn còn giá trị thì khoản 25 triệu ra khỏi tài khoản mà chưa từng được người có thẩm quyền duyệt.
 >
 > **Đổi người nhận cũng thuộc quy tắc này dù bậc không đổi**, vì đổi số tài khoản người nhận là đúng kịch bản gian lận ở mục 6.4.2. Nếu chữ ký còn giá trị sau khi đổi số tài khoản thì chốt gọi điện xác minh và chốt chuyển khoản thử mất tác dụng: kẻ gian chỉ cần đợi hồ sơ ký đủ rồi đổi số tài khoản.
 >
@@ -520,7 +520,7 @@ Sau khi xác minh bằng cách gọi số gốc lấy từ hợp đồng đã k�
 | Chờ duyệt, lượt duyệt 1 | Team Lead | Khoản chi ngoài ngân sách nên Team Lead chưa dám ký, xem mục 6.2.2 |
 | Chờ duyệt, lượt duyệt 2 | Kế toán viên | Đối chiếu ba chiều lệch, hoặc nhà cung cấp mới chưa xác minh đủ sáu nội dung, hoặc một điều kiện thuế chưa đạt |
 | Chờ duyệt, lượt duyệt 3 | Kế toán trưởng | Kế toán trưởng vắng mặt mà chưa có văn bản ủy quyền |
-| Chờ duyệt, lượt duyệt 4 | Người duyệt chi của bậc đó | Bậc bị tính sai nên phiếu tới sai người, hoặc khoản thuộc bậc B5 phải trình Hội đồng quản trị |
+| Chờ duyệt, lượt duyệt 4 | Người duyệt chi của bậc đó | Bậc bị tính sai nên phiếu tới sai người, hoặc khoản chạm mốc 35% tổng tài sản phải trình Hội đồng quản trị / Đại hội đồng cổ đông |
 | Trong hàng chờ chu kỳ chi | Không ai. Chờ tới ngày | Nếu quá ngày chi mà chưa đi thì một trong bốn điều kiện ở mục 6.5.5 chưa đủ |
 | Đã gửi lệnh, chờ xác nhận | Tổng giám đốc hoặc Chủ tịch Hội đồng quản trị | Người xác nhận thấy thiếu chữ ký nên chưa bấm |
 | Ngân hàng trả về | Kế toán viên | Chưa xác định xong nguyên nhân, xem Quy tắc 2 |
@@ -532,16 +532,13 @@ Sau khi xác minh bằng cách gọi số gốc lấy từ hợp đồng đã k�
 
 #### 6.0a.5. Luồng G đi qua đúng bốn lượt duyệt và đúng bốn quy tắc trên
 
-Mục 6.5a.4 tuyên bố Luồng G cắt số lần mở phiếu chứ không cắt số lớp kiểm soát. Tuyên bố đó kiểm được: Luồng G nhánh G-2 vẫn qua cả bốn lượt duyệt, chỉ là bốn lượt duyệt cùng nằm trên một phiếu `BM-G` thay vì bốn phiếu; và cả bốn quy tắc ở mục 6.0a.3 áp y nguyên. Bảng đối chiếu từng dòng ở `PL_DT_Mo_hinh_trang_thai_chi_tien.md` mục 11.
+Luồng G nhánh G-2 vẫn đi qua bốn lượt duyệt, các lượt duyệt được tích hợp trên cùng một phiếu `BM-G` thay vì mở nhiều phiếu riêng biệt; các quy tắc kiểm soát tại mục 6.0a.3 được áp dụng nhất quán.
 
 ---
 
 ### 6.0b. ĐỀ NGHỊ MUA SẮM ĐANG Ở ĐÂU. BẢNG TRA TRẠNG THÁI VÀ CÁC QUY TẮC BẮT BUỘC
 
-> [!note] `ĐỀ NGHỊ MUA SẮM` VÀ `ĐỀ NGHỊ THANH TOÁN` LÀ HAI HỒ SƠ RIÊNG, KHÔNG PHẢI HAI GIAI ĐOẠN CỦA MỘT HỒ SƠ
-> `TGĐ` chốt ngày 07/09/2026. Lý do vận hành: một hợp đồng trả nhiều đợt thì mỗi đợt nghiệm thu mở một đề nghị thanh toán riêng, còn hồ sơ mua sắm vẫn đang chạy. Hai hồ sơ nối nhau bằng **số hợp đồng**.
->
-> Mục này tra trạng thái của hồ sơ MUA SẮM. Trạng thái của hồ sơ THANH TOÁN tra ở mục 6.0a. Bản đặc tả đầy đủ cho công cụ ở `PL_DM_Mo_hinh_trang_thai_mua_sam.md`; không ai phải đọc tệp đó để làm việc.
+Đề nghị mua sắm và Đề nghị thanh toán là hai hồ sơ độc lập, liên kết với nhau bằng số hợp đồng. Mục này phục vụ tra cứu trạng thái của hồ sơ mua sắm. Trạng thái của hồ sơ thanh toán tra cứu tại mục 6.0a.
 
 #### 6.0b.1. Bảng tra trạng thái
 
@@ -571,12 +568,12 @@ Mục 6.5a.4 tuyên bố Luồng G cắt số lần mở phiếu chứ không c�
 | Lượt duyệt | Ai ký | Ký cái gì | Áp cho |
 | --- | --- | --- | --- |
 | 1 | Team Lead | Nhu cầu có thật, và đúng ngân sách của bộ phận | Mọi khoản |
-| 2 | Kế toán trưởng | Duyệt nhu cầu | **Chỉ bậc B4 và B5** |
+| 2 | Kế toán trưởng | Duyệt nhu cầu | **Chỉ bậc B3** |
 
-Ở bậc B1 tới B3 hồ sơ ra khỏi trạng thái này ngay sau lượt duyệt 1. Bậc và người duyệt lấy theo mục 6.2.1; ngưỡng giá trị của từng bậc ở [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 12.3 và mức tối đa của bậc B4 ở mục 12.3a.
+Ở bậc B1 và B2 hồ sơ ra khỏi trạng thái này ngay sau lượt duyệt 1. Bậc và người duyệt lấy theo mục 6.2.1; ngưỡng giá trị của từng bậc ở [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 12.3 và mức tối đa của bậc B3 ở mục 12.3a.
 
 > [!note] HỘI ĐỒNG QUẢN TRỊ KHÔNG XUẤT HIỆN Ở HAI LƯỢT DUYỆT NÀY, VÀ ĐÓ LÀ ĐÚNG
-> Ở bậc B5, Hội đồng quản trị thông qua và Đại hội đồng cổ đông quyết định nếu chạm mốc 35% tổng giá trị tài sản. Nhưng theo mục 6.2.1 thì đó là cột **Người duyệt chi**, tức người ký hợp đồng ở bước A6. Vậy lượt duyệt của Hội đồng quản trị nằm ở bước ký hợp đồng, không nằm ở bước duyệt nhu cầu. Đây là chỗ dễ đặt sai nhất của cả luồng.
+> Ở giao dịch chạm mốc 35% tổng giá trị tài sản, Hội đồng quản trị thông qua và Đại hội đồng cổ đông quyết định theo luật định. Nhưng theo mục 6.2.1 thì đó là cột **Người duyệt chi**, tức người ký hợp đồng ở bước A6. Vậy lượt duyệt của Hội đồng quản trị nằm ở bước ký hợp đồng, không nằm ở bước duyệt nhu cầu. Đây là chỗ dễ đặt sai nhất của cả luồng.
 
 > [!note] LƯỢT DUYỆT NÀO BÁC BỎ THÌ DỪNG NGAY
 > Cùng quy tắc như mục 6.0a.2. Bác bỏ khác với kết luận `BM-01` thiếu hoặc sai: thiếu hoặc sai thì hồ sơ về "Đang soạn" để sửa.
@@ -588,18 +585,18 @@ Mục 6.5a.4 tuyên bố Luồng G cắt số lần mở phiếu chứ không c�
 Bản gốc là [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 12.3c.
 
 > [!note] QUY TẮC NÀY CHẠY NHIỀU LẦN HƠN QUY TẮC 1 CỦA MỤC 6.0a.3, NÊN PHẢI BIẾT TRƯỚC
-> Giá trị dự kiến lúc lập `BM-01` gần như luôn khác giá trị báo giá thật về ở bước A3. Một phiếu duyệt nhu cầu ở bậc B2 do Team Lead rất dễ thành bậc B4 sau khi báo giá về, mà bậc B4 đòi Team Lead và Kế toán trưởng cùng duyệt nhu cầu. Nếu chữ ký cũ vẫn còn giá trị thì hợp đồng bậc B4 được ký mà Kế toán trưởng chưa từng duyệt nhu cầu.
+> Giá trị dự kiến lúc lập `BM-01` gần như luôn khác giá trị báo giá thật về ở bước A3. Một phiếu duyệt nhu cầu ở bậc B1 do Team Lead rất dễ thành bậc B3 sau khi báo giá về, mà bậc B3 đòi Team Lead và Kế toán trưởng cùng duyệt nhu cầu. Nếu chữ ký cũ vẫn còn giá trị thì hợp đồng bậc B3 được ký mà Kế toán trưởng chưa từng duyệt nhu cầu.
 >
 > **Cách làm đúng ở bước A3:** khi báo giá về, người đề nghị tính lại bậc theo giá trị báo giá cao nhất trong nhóm đang xét, rồi ghi bậc đó vào `BM-01`. Nếu bậc đổi thì xin duyệt nhu cầu lại trước khi làm bước A4, không để tới lúc trình ký hợp đồng mới phát hiện.
 >
-> **Đổi nhà cung cấp cũng thuộc quy tắc này dù giá trị không đổi**, vì hai trong năm trường hợp nâng một bậc ở mục 6.2.2 phụ thuộc vào việc nhà cung cấp có phải lần đầu giao dịch và có phải bên có liên quan hay không. Đổi nhà cung cấp là đổi hai dữ kiện đó.
+> **Đổi nhà cung cấp cũng thuộc quy tắc này dù giá trị không đổi**, vì nếu đối tác là bên có liên quan thì phải chuyển sang Điều 12a.
 
 **Quy tắc 2. Mọi việc kiểm phải xong trước khi ký hợp đồng. Sáu điều kiện, đủ cả sáu mới được ký.**
 
 | # | Điều kiện | Nguồn | Bỏ qua thì sao |
 | --- | --- | --- | --- |
-| 1 | Nhà cung cấp đã xác minh đủ sáu nội dung, và `BM-05` có trong hồ sơ | mục 6.4.1 | Mất tiền cho một bên không tồn tại hoặc đang bị cảnh báo hóa đơn |
-| 2 | Người ký đúng bậc theo giá trị | mục 6.2.1;<br>[[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 12.3 và 12.3a | Vượt thẩm quyền;<br>hợp đồng bậc B5 mà không qua Hội đồng quản trị |
+| 1 | Nhà cung cấp đã xác minh đủ sáu nội dung, và `BM-05` có trong hồ sơ (khoản dưới 20 triệu đồng tra cứu trực tuyến MST) | mục 6.4.1 | Mất tiền cho một bên không tồn tại hoặc đang bị cảnh báo hóa đơn |
+| 2 | Người ký đúng bậc theo giá trị | mục 6.2.1;<br>[[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 12.3 và 12.3a | Vượt thẩm quyền;<br>hợp đồng từ 35% tổng tài sản mà không qua Hội đồng quản trị / Đại hội đồng cổ đông |
 | 3 | Đã đọc ba điều khoản: thanh toán, hóa đơn, gia hạn tự động | mục 6.3.3 | Không đòi được hóa đơn, hoặc hợp đồng tự gia hạn mà không ai biết |
 | 4 | Nếu thuộc bốn việc `TGĐ` giữ quyền duy nhất thì phải `TGĐ` ký, không ủy quyền | mục 6.2.3 | Người không có quyền ký một cam kết dài hạn hoặc có điều khoản phạt |
 | 5 | Nếu đối tác là **người có liên quan** thì đã đi [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 12a, không đi bảng 6.2.1 | `[Luật Doanh nghiệp 67/VBHN-VPQH Đ.167]` | **Giao dịch bị xử lý kèm bồi thường**, xem ghi chú dưới |
@@ -614,10 +611,7 @@ Bản gốc là [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 12.3c
 
 **Quy tắc 3. Nhà cung cấp không phải lần đầu vẫn phải có `BM-05` trong hồ sơ trước khi ký.**
 
-Bảng bảy bước ở mục 6.3.1 cho hồ sơ đi thẳng từ A4 sang A6 khi nhà cung cấp đã từng giao dịch, và đó là đúng: không cần xác minh lại. Nhưng "đã từng giao dịch" phải **kiểm được bằng bằng chứng**, tức có `BM-05` trong hồ sơ nhà cung cấp, không phải bằng việc người đề nghị nói là đã từng.
-
-> [!note] ĐÂY LÀ CHỖ THIẾU KIỂM SOÁT TÌM ĐƯỢC NGÀY 07/09/2026
-> Đường đi thẳng từ A4 sang A6 không có bước nào kiểm lại kết quả xác minh đó, nên một nhà cung cấp chưa từng được xác minh có thể vào bằng cách khai là bên cũ. Cách sửa không phải thêm bước, mà là thêm một mục kiểm ở bước A6: người ký hỏi `BM-05` của bên này ở đâu. Trong lúc oBacker chưa có Danh mục nhà cung cấp, xem mục 6.4.3, thì `BM-05` trong thư mục hồ sơ nhà cung cấp là bằng chứng duy nhất.
+Bảng bảy bước ở mục 6.3.1 cho hồ sơ đi thẳng từ A4 sang A6 khi nhà cung cấp đã từng giao dịch. Người ký hợp đồng kiểm tra `BM-05` trong hồ sơ nhà cung cấp để xác nhận điều kiện này trước khi ký.
 
 **Quy tắc 4. Mỗi đợt nghiệm thu mở một đề nghị thanh toán riêng, và hồ sơ mua sắm chưa đóng.**
 
@@ -633,7 +627,7 @@ Chưa ký thì Team Lead quyết, hồ sơ sang "Đã huỷ", không mất gì. 
 | --- | --- | --- |
 | Đang soạn | Chính người đề nghị | Chưa phân loại nhóm, hoặc chưa ghi giá trị dự kiến nên không tính được bậc |
 | Chờ duyệt nhu cầu, lượt duyệt 1 | Team Lead | Nhu cầu ngoài ngân sách nên Team Lead chưa dám ký, xem mục 6.2.2 |
-| Chờ duyệt nhu cầu, lượt duyệt 2 | Kế toán trưởng | Hồ sơ tới lượt duyệt 2 mà chưa ai nói cho Kế toán trưởng biết bậc đã lên B4 |
+| Chờ duyệt nhu cầu, lượt duyệt 2 | Kế toán trưởng | Hồ sơ tới lượt duyệt 2 mà chưa ai nói cho Kế toán trưởng biết bậc đã lên B3 |
 | Đang lấy báo giá | Người đề nghị | Chưa đủ số báo giá của bậc, hoặc có bên không xuất được hóa đơn hợp pháp nên bị loại |
 | Chờ chọn nhà cung cấp | Team Lead | Chưa ghi lý do chọn trên `BM-01`;<br>không ghi thì không được đi tiếp |
 | Chờ xác minh nhà cung cấp | Kế toán viên | Chưa tra được mã số thuế, hoặc chưa gọi được số điện thoại gốc |
@@ -672,44 +666,19 @@ Phân loại sai dẫn tới đi sai luồng và thiếu chứng từ. Bảng n�
 
 **Ngưỡng giá trị của từng bậc xem [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 12.3.**
 
-| Bậc | Người duyệt nhu cầu | Người duyệt chi | Số báo giá tối thiểu |
-| --- | --- | --- | --- |
-| B1 | TL | TL | Không yêu cầu **ĐÃ CHỐT 07/09/2026** |
-| B2 | TL | TL, sau khi KTV xác nhận đủ hồ sơ | **02 báo giá** **ĐÃ CHỐT 07/09/2026** |
-| B3 | TL | **TGĐ** | **03 báo giá** **ĐÃ CHỐT 07/09/2026** |
-| B4 | TL và KTT | TGĐ | **03 báo giá** **ĐÃ CHỐT 07/09/2026** |
-| **B5** | TL và KTT | **HĐQT thông qua**, và **ĐHĐCĐ quyết định** nếu chạm mốc 35% | 03 báo giá |
+| Bậc | Ngưỡng giá trị (VNĐ) | Người duyệt nhu cầu | Người duyệt chi | Yêu cầu báo giá | Chứng từ bắt buộc kèm theo |
+| --- | --- | --- | --- | --- | --- |
+| B1 | Dưới 5.000.000 | TL | TL | Không yêu cầu báo giá | Hóa đơn điện tử hoặc phiếu thu/chứng từ bán hàng hợp pháp |
+| B2 | Từ 5.000.000 đến dưới 20.000.000 | TL | COO hoặc KTT | 01 báo giá chính thức từ nhà cung cấp được chọn | Hợp đồng (hoặc đơn đặt hàng), Hóa đơn điện tử, Ủy nhiệm chi |
+| B3 | Từ 20.000.000 trở lên | TL và KTT | TGĐ | Tối thiểu 02 báo giá đối với mua sắm tài sản mới; không áp dụng cho gia hạn dịch vụ cũ | Tờ trình phê duyệt mua sắm, Hợp đồng kinh tế, Hóa đơn điện tử, Ủy nhiệm chi |
 
-> [!note] BẬC B2 TỪ 07/09/2026 CẦN 02 BÁO GIÁ, TRƯỚC ĐÓ KHÔNG YÊU CẦU
-> Đây là chỗ siết duy nhất trong bảng này khi TGĐ chốt dòng B36. Hệ quả vận hành: bậc B2 là bậc có nhiều lượt nhất trong tháng, nên yêu cầu 02 báo giá làm tăng công việc của người đề nghị chứ không tăng công việc của kế toán. Người đề nghị phải biết yêu cầu đó trước khi lập `BM-01`, nếu không thì phiếu bị trả lại ở bước A3.
->
-> **Khoản đi Luồng G nhánh G-2 là bậc B2, và Luồng G CẮT yêu cầu báo giá** theo mục 6.5a.4 điểm 4. Hai điều này không mâu thuẫn: yêu cầu 02 báo giá áp cho bậc B2 đi Luồng B đầy đủ; khoản nào đủ điều kiện đi Luồng G thì theo mục 6.5a.
+*Quy định ngoại lệ luật định:* Giao dịch có giá trị từ 35% tổng giá trị tài sản công ty, hoặc giao dịch với người có liên quan theo Điều 167 Luật Doanh nghiệp 2020 bắt buộc phải thông qua Hội đồng quản trị hoặc Đại hội đồng cổ đông theo luật định và [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] Điều 12a, không phụ thuộc vào thang hạn mức nội bộ.
 
-> [!note] CỘT SỐ BÁO GIÁ TỐI THIỂU ĐẶT TẠI MỤC NÀY
-> Đây là con số riêng của quy trình mua sắm, [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] không có con số này, nên bản gốc của năm giá trị đó là bảng trên. Tài liệu khác cần số báo giá tối thiểu thì dẫn chiếu về mục 6.2.1 này.
+#### 6.2.2. Bãi bỏ cơ chế tự động nâng bậc
 
-> [!note] HAI ĐIỂM CỦA BẢNG BẬC, ĐỌC KỸ
->
-> **Một, người duyệt chi của bậc B3 là TGĐ, không phải KTT.** KTT là người LẬP lệnh chuyển tiền trên ngân hàng điện tử, nên KTT duyệt chi là vi phạm quy tắc tách quyền tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 47.2. Xem [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 35.1a.
->
-> **Hai, bậc B5.** Một hợp đồng vượt mốc 35% tổng giá trị tài sản không do TGĐ ký một mình. Mốc này thuộc ĐHĐCĐ theo `[Luật Doanh nghiệp 67/VBHN-VPQH Đ.138 k.2 đ.d]` và thuộc HĐQT theo `[Luật Doanh nghiệp 67/VBHN-VPQH Đ.153 k.2 đ.h]`; hai điều chồng nhau nên trình cả hai, xem [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 12.3. Giá trị tuyệt đối của mốc B5 do KTV tính và công bố sau mỗi lần lập báo cáo tài chính, theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 8.1b; tỷ lệ của mốc đặt tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 12.3 và ở Điều lệ. **Không có con số đó thì không ai biết khi nào chạm bậc B5.**
+Bãi bỏ cơ chế tự động nâng thêm 1 bậc khi gặp nhà cung cấp mới, mua trả trước trên 50%, hoặc hợp đồng trên 12 tháng. Đơn vị cung cấp chỉ cần có mã số thuế đang hoạt động bình thường trên cổng thông tin Tổng cục Thuế và phát hành hóa đơn điện tử hợp pháp thì áp dụng đúng hạn mức theo số tiền.
 
-#### 6.2.2. Năm trường hợp NÂNG MỘT BẬC duyệt, không phụ thuộc số tiền
-
-Nâng bậc nghĩa là chuyển lên người duyệt chi của bậc kế tiếp.
-
-- Khoản chi ngoài ngân sách đã duyệt của bộ phận.
-- Nhà cung cấp LẦN ĐẦU giao dịch với oBacker.
-- Yêu cầu TRẢ TRƯỚC từ 50% giá trị trở lên.
-- Hợp đồng có thời hạn từ 12 tháng trở lên hoặc tự động gia hạn.
-- Nhà cung cấp là bên có liên quan tới bất kỳ nhân sự nào của oBacker. Quan hệ phải được khai báo, xem mục 6.4.4.
-
-> [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
-> TRƯỜNG HỢP THỨ NĂM CÓ THỂ KHÔNG XỬ LÝ ĐƯỢC BẰNG CÁCH NÂNG MỘT BẬC
->
-> Nếu đối tác thuộc nhóm **người có liên quan theo pháp luật doanh nghiệp**, tức cổ đông sở hữu trên 10% tổng số cổ phần phổ thông, thành viên HĐQT, người đại diện theo pháp luật, TGĐ, hoặc người có liên quan của những người đó, thì thẩm quyền chấp thuận thuộc **HĐQT hoặc ĐHĐCĐ** và không phụ thuộc thang hạn mức nội bộ `[Luật Doanh nghiệp 67/VBHN-VPQH Đ.167]`. Nâng một bậc là kiểm soát nội bộ; đây là **điều kiện hiệu lực của giao dịch**, làm sai thì giao dịch bị xử lý theo `[Luật Doanh nghiệp 67/VBHN-VPQH Đ.167 k.5]` kèm bồi thường.
->
-> Vì vậy: khi khai báo tại mục 6.4.4 cho thấy đối tác thuộc nhóm này, chuyển sang **[[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] Điều 12a**, không đi tiếp bảng 6.2.1. Áp dụng quy định đối với giao dịch **vay, cho vay, bán tài sản** với cổ đông lớn: ngưỡng chỉ là **lớn hơn 10% tổng giá trị tài sản** và thẩm quyền là ĐHĐCĐ `[Luật Doanh nghiệp 67/VBHN-VPQH Đ.167 k.3 đ.b]`.
+Đối với trường hợp nhà cung cấp là bên có liên quan theo pháp luật doanh nghiệp thì chuyển sang thực hiện theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] Điều 12a theo thẩm quyền luật định, không áp dụng nâng bậc cơ học.
 
 #### 6.2.3. Bốn việc TGĐ giữ quyền duy nhất, không ủy quyền
 
@@ -728,9 +697,9 @@ Nâng bậc nghĩa là chuyển lên người duyệt chi của bậc kế tiế
 | --- | --- | --- | --- | --- |
 | A1 | Xác định nhu cầu, phân loại theo mục 6.1 | NĐN | Biểu mẫu **BM-01 Đề nghị mua sắm** |  |
 | A2 | Xác nhận nhu cầu và ngân sách | TL | Ký duyệt trên BM-01 | 02 ngày làm việc |
-| A3 | Lấy báo giá theo số lượng tối thiểu ở bậc tương ứng | NĐN | Các báo giá đính kèm BM-01 | 05 ngày làm việc |
+| A3 | Lấy báo giá theo yêu cầu ở bậc tương ứng (B1: không yêu cầu; B2: 01 báo giá; B3: tối thiểu 02 báo giá mua mới) | NĐN | Báo giá đính kèm BM-01 | 05 ngày làm việc |
 | A4 | So sánh và chọn nhà cung cấp | NĐN đề xuất, TL quyết | Lý do chọn ghi trên BM-01 |  |
-| A5 | Xác minh nhà cung cấp nếu là lần đầu | KTV | Biểu mẫu **BM-05 Phiếu xác minh nhà cung cấp** | 03 ngày làm việc |
+| A5 | Xác minh nhà cung cấp nếu là lần đầu. Khoản dưới 20 triệu đồng chỉ tra cứu nhanh trực tuyến MST; khoản từ 20 triệu đồng trở lên lập BM-05 | KTV | Kết quả tra cứu trực tuyến hoặc BM-05 | 01 ngày (tra cứu) / 03 ngày (BM-05) |
 | A6 | Ký hợp đồng hoặc gửi đơn đặt hàng | NDC theo hạn mức | Hợp đồng hoặc đơn đặt hàng có số |  |
 | A7 | Nhận hàng hoặc nghiệm thu dịch vụ | NĐN | Biểu mẫu **BM-06 Biên bản nghiệm thu** hoặc phiếu giao hàng có ký nhận | Trong 02 ngày kể từ khi nhận |
 
@@ -751,7 +720,11 @@ Không chọn theo giá thấp nhất một cách máy móc. Ghi rõ trên BM-01
 
 ### 6.4. XÁC MINH VÀ QUẢN LÝ NHÀ CUNG CẤP
 
-#### 6.4.1. Sáu nội dung phải xác minh trước lần thanh toán đầu tiên
+#### 6.4.1. Sáu nội dung xác minh nhà cung cấp trước lần thanh toán đầu tiên
+
+Khoản chi dưới 20.000.000 đồng (Bậc B1, B2) chỉ cần tra cứu nhanh trực tuyến trạng thái mã số thuế của nhà cung cấp trên cổng thông tin Tổng cục Thuế trong vòng 01 phút, không lập biên bản xác minh sáu bước.
+
+Biểu mẫu `BM-05` chỉ áp dụng bắt buộc đối với nhà cung cấp lần đầu có giá trị giao dịch từ 20.000.000 đồng trở lên (Bậc B3), bao gồm sáu nội dung:
 
 | # | Nội dung | Cách xác minh | Bằng chứng lưu |
 | --- | --- | --- | --- |
@@ -1036,8 +1009,6 @@ Luồng C là khoản tiền giao trước để thực hiện một nhiệm v�
 ---
 
 ### 6.8. CHI HỘ BỞI NGƯỜI LAO ĐỘNG VÀ CÔNG TÁC PHÍ
-
-> [!note] ĐÂY LÀ MỤC CÓ GIÁ TRỊ CAO NHẤT TRONG TOÀN BỘ TÀI LIỆU. ĐỌC KỸ
 
 #### 6.8.1. Vì sao oBacker bắt buộc phải có văn bản quy chế nội bộ này
 
@@ -1349,7 +1320,7 @@ Tài liệu viết độc lập với phần mềm. Khi triển khai, thay các 
 
 ## Liên kết với tài liệu khác
 
-- Biểu mẫu BM-01 tới BM-07: xem `PL_BM_Bieu_mau_mua_sam_thanh_toan.md`.
+- Biểu mẫu BM-01 tới BM-07: xem [[PL_BM_Bieu_mau_mua_sam_thanh_toan|PL_BM]].
 - Nguyên tắc tra cứu và trích dẫn pháp luật, quy ước ghi mức chắc chắn của căn cứ: xem [[00_Muc_luc_va_cach_dung|OBK-HB-00]] mục 3, và `05_PhapLuat/00_MUC_LUC_KHO.md`.
 - Quy trình cập nhật khi có văn bản pháp luật mới: xem [[21_Cap_nhat_van_ban_phap_luat|OBK-SOP-21]].
 - Nội dung bắt buộc và kiểm tra tính hợp lệ của chứng từ, phần chuyên sâu: xem [[04_Quan_ly_chung_tu|OBK-SOP-04]].
@@ -1363,4 +1334,4 @@ Tài liệu viết độc lập với phần mềm. Khi triển khai, thay các 
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 26/09/2026 | R.4.0.0 | Điền tỷ lệ phần trăm thuế nhà thầu nước ngoài theo từng loại dịch vụ, căn cứ Thông tư 69/2025/TT-BTC Điều 9, thay cho cảnh báo chưa có thông tư<br>Đồng bộ callout đầu mục 6.10 với tỷ lệ đã điền, gỡ câu "tỷ lệ cụ thể chưa tra được" còn sót |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

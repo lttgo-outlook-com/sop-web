@@ -2,11 +2,11 @@
 title: "ĐIỀU KHOẢN DỊCH VỤ NHÂN SỰ (PL-NS)"
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.0.2"
+version: "R.1.0.0"
 status: "đang áp dụng"
 language: "vi"
 distribution: "Khách hàng"
-previous_version: ""
+previous_version: "R.1.0.0"
 tags:
   - loai/tnc
 ---
@@ -16,7 +16,7 @@ tags:
 *Điều Khoản Dịch Vụ Cụ Thể, bộ phận không tách rời của Bản Điều Khoản Chung; Công ty Cổ phần oBacker*
 MST: 0402298185 · Tầng 2, 06 Trần Phú, Phường Hải Châu, TP Đà Nẵng, Việt Nam · contact@obacker.com
 
-**Phiên bản:** R.1.0.2 · **Cập nhật:** 27/09/2026
+**Phiên bản:** R.1.0.0 (VI-EN) · **Cập nhật:** 01/10/2026
 
 > Tài liệu này là Điều Khoản Dịch Vụ Cụ Thể cho Dịch Vụ Nhân Sự ("**Dịch Vụ**"): tiền lương, thuế TNCN từ tiền lương, bảo hiểm bắt buộc (BHXH-BHYT-BHTN), hợp đồng và báo cáo lao động. Tài liệu áp dụng khi Dịch Vụ được ghi tại Đơn Đặt Hàng. **Nếu tài liệu này khác với Bản Điều Khoản Chung, tài liệu này được ưu tiên áp dụng đối với Dịch Vụ.**
 
@@ -162,5 +162,4 @@ Phí Dịch Vụ được xác định theo Đơn Đặt Hàng (thường theo �
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.1.0.2 | Chuẩn hóa địa chỉ trụ sở chính duy nhất tại Đà Nẵng |
-| 26/09/2026 | R.1.0.1 | Sửa cơ sở pháp lý xử phạt vi phạm lao động, bảo hiểm xã hội từ Nghị định 12/2022/NĐ-CP đã hết hiệu lực từ 10/09/2026 thành Nghị định 283/2026/NĐ-CP |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

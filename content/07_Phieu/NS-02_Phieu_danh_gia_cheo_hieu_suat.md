@@ -4,9 +4,9 @@ code: "NS-02"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.2.0.0"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "23/09/2026"
+draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
 review_status: "đã soát"
@@ -16,7 +16,7 @@ parent: "OBK-QCNS-08 Khung đánh giá hiệu suất"
 law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: "NS-02_Phieu_danh_gia_cheo_hieu_suat_Phong_Dich_vu.md"
+previous_version: "R.1.0.0"
 aliases:
   - NS-02
 tags:
@@ -29,15 +29,19 @@ tags:
 | --- | --- |
 | Mã tài liệu | NS-02 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.2.0.0, đang áp dụng |
-| Ngày biên soạn | 23/09/2026 |
-| Người biên soạn | `CEO` |
-| Người soát | đã soát |
-| Người phê duyệt | đã phê duyệt |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] |
 | **Mã phiếu** | NS-02 |
-| **Ai dùng** | Đồng nghiệp đánh giá chéo đã được quản lý trực tiếp xác nhận tại bước 3; tối đa 02 người mỗi kỳ, mỗi người một bản |
-| **Sinh từ** | [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] mục 6 bước 4 |
+| **Tình trạng** | ĐÃ BÃI BỎ THEO KẾ HOẠCH TINH GIẢN VÀ CHUẨN HÓA SOP |
+| **Ai dùng** | Không còn áp dụng (đã hủy bỏ đánh giá chéo ngang hàng) |
+| **Sinh từ** | [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] mục 3.2 |
+
+> [!note] ĐÃ BÃI BỎ ĐÁNH GIÁ CHÉO NGANG HÀNG
+> Theo Kế hoạch tinh giản và chuẩn hóa SOP oBacker và [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] mục 3.2, oBacker chính thức bãi bỏ việc đánh giá chéo ngang hàng giữa các đồng nghiệp và bãi bỏ biểu mẫu `NS-02`. Thẩm quyền đánh giá hiệu suất thuộc về Trưởng bộ phận chuyên môn (`TL`) dựa trên dữ liệu thực tế và quan sát trực tiếp, kết hợp bản tự nhận xét của nhân sự ([[NS-01_Phieu_tu_danh_gia_hieu_suat|NS-01]]). Giữ lại trang này làm tài liệu dẫn chiếu lịch sử và đảm bảo tính toàn vẹn liên kết.
 
 ---
 
@@ -104,4 +108,4 @@ Một điều kiện ghi "không" thì người đánh giá chéo báo quản l�
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 23/09/2026 | R.2.0.0 | Phiếu dùng chung cho mọi vị trí trong phạm vi Khung đánh giá hiệu suất OBK-QCNS-08, thay phiếu riêng của Phòng Dịch vụ<br>Đồng nghiệp chấm độc lập ba tiêu chí phần B theo thang chấm tại OBK-QCNS-08-PL-A<br>Đổi tên tệp, bỏ chữ Phòng Dịch vụ khỏi tên phiếu |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

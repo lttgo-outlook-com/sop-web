@@ -4,18 +4,18 @@ code: "OBK-SOP-NB-00"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 1, văn bản KHUNG toàn công ty"
-version: "R.2.2.2"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "27/09/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 02/09/2026"
-author: "KTT nội bộ"
-reviewer: "LEG"
+draft_date: "01/10/2026"
+law_as_of: "Pháp luật có hiệu lực tại ngày 01/10/2026"
+author: "CEO"
+reviewer: "CEO"
 review_status: "đã soát"
-approver: "HĐQT"
+approver: "CEO"
 parent: "OBK-QCTC-01 Quy chế tài chính nội bộ"
 distribution: "Nội bộ oBacker"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-SOP-NB-00
 tags:
@@ -37,12 +37,12 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-SOP-NB-00 |
 | Cấp tài liệu | Cấp 1 của mảng nội bộ |
-| Phiên bản | R.2.2.2, đang áp dụng |
-| Ngày biên soạn | 27/09/2026 |
-| Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 02/09/2026 |
-| Người biên soạn | `KTT` nội bộ, LEG soát phần pháp lý |
-| Người soát | đã soát |
-| Người phê duyệt | HĐQT (vì có nội dung chạm thẩm quyền tài chính) |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
+| Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 01/10/2026 |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Quy chế tài chính nội bộ |
 | Quan hệ với QCTC-01 | Không thay thế. [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] giữ nguyên vai trò quy chế tài chính khung |
 | Phạm vi phát hành | Nội bộ oBacker |
@@ -103,33 +103,12 @@ CẤP 3   |  Handbook Kế toán, hướng dẫn LIC, LD|  |  OBK-SOP-NB-01 mua 
         |                                     |  |  PL_BM biểu mẫu: BM-01 tới     |
         |                                     |  |  BM-08, BM-G, BM-K, BM-PT,    |
         |                                     |  |  BM-PC                        |
-        |                                     |  |  PL_DT, PL_DM đặc tả máy      |
-        |                                     |  |  trạng thái, KHÔNG phải       |
-        |                                     |  |  quy trình                    |
         +-------------------------------------+  +-------------------------------+
 ```
 
-**Quan hệ với [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]].** [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]] Quy chế hạch toán kế toán cũng là văn bản cấp 1, phủ KỸ THUẬT KẾ TOÁN: danh mục biểu mẫu chứng từ oBacker tự thiết kế, hệ thống tài khoản, biểu mẫu sổ. Khi tài liệu này và [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]] mâu thuẫn về một biểu mẫu chứng từ hoặc về nội dung bắt buộc của chứng từ, **lấy [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]]**. Người ban hành [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]] là `TGĐ` theo ủy quyền `HĐQT`, xem mục 10.2 của văn bản đó.
+**Quan hệ với [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]].** [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]] Quy chế hạch toán kế toán cũng là văn bản cấp 1, phủ KỸ THUẬT KẾ TOÁN: danh mục biểu mẫu chứng từ oBacker tự thiết kế, hệ thống tài khoản, biểu mẫu sổ. Khi tài liệu này và [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]] mâu thuẫn về một biểu mẫu chứng từ hoặc về nội dung bắt buộc của chứng từ, **lấy [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]]**. Người ban hành [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]] là `TGĐ`.
 
-**Quan hệ với `PL_DT` và `PL_DM`, hai phụ lục đặc tả mô hình trạng thái.** Hai tệp này **không phải quy trình và không ai phải đọc hai tệp đó để làm việc**. Người đọc là người chọn hoặc người xây `[HỆ THỐNG NỘP ĐỀ NGHỊ]`; nội dung là danh mục trạng thái có mã, bảng luật chuyển, điều kiện bắt buộc và bảng yêu cầu tối thiểu với công cụ. `PL_DT` phủ chủ thể `Đề nghị chi`, `PL_DM` phủ chủ thể `Đề nghị mua sắm`.
-
-Ba vai trò của ba tệp, và bên nào là bản gốc của cái gì:
-
-| Câu hỏi | Bản gốc |
-| --- | --- |
-| Người vận hành phải làm gì, theo thứ tự nào | [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] mục 6.3 và 6.5 |
-| Hồ sơ đang ở đâu, gọi trạng thái đó là gì bằng tiếng Việt | [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] mục 6.0a và 6.0b |
-| Chuyển được từ trạng thái nào sang trạng thái nào, với điều kiện gì | `PL_DT` mục 9 và `PL_DM` mục 8 |
-| Công cụ phải chặn được cái gì | `PL_DT` mục 12 và `PL_DM` mục 10 |
-
-> [!note] QUY TẮC CHIA TÀI LIỆU
-> ÁP CHO CẢ MẢNG NỘI BỘ TỪ NGÀY 07/09/2026: CHIA THEO NGƯỜI ĐỌC, KHÔNG CHIA THEO GÓC NHÌN
->
-> **Cách chia đã chốt.** Tài liệu vận hành giữ bảng tra trạng thái gọi bằng tiếng Việt thường, các lượt duyệt, và các quy tắc bắt buộc viết thành câu. Phần đặc tả gồm mã trạng thái, mã sự kiện, mã điều kiện bắt buộc, bảng luật chuyển và sơ đồ trạng thái thì chuyển ra phụ lục đặc tả.
->
-> **Phép thử trước khi thêm một phần vào tài liệu vận hành:** nhân sự vận hành có phải áp dụng nội dung này để thực hiện nhiệm vụ hay không. Nếu không thì phần đó thuộc một phụ lục, và phụ lục đó phải ghi rõ ở dòng Cấp tài liệu rằng phụ lục đó không phải quy trình.
->
-> Đích của tài liệu vận hành là **đầy đủ cho người vận hành, không có phần đặc tả mô hình**: bảng tra phải có cột cần gì để đi tiếp, phải có các quy tắc bắt buộc kèm hệ quả, và phải có bảng hồ sơ dừng ở đâu thì hỏi ai.
+**Đặc tả mô hình trạng thái cho hệ thống nộp đề nghị.** Hồ sơ kỹ thuật của mô hình trạng thái (danh mục mã trạng thái, bảng luật chuyển, điều kiện chuyển trạng thái cho đề nghị mua sắm và chi tiền) được lưu trữ độc lập tại tài liệu đặc tả kỹ thuật hệ thống, phục vụ cấu hình công cụ nộp đề nghị và không thuộc phạm vi thao tác trực tiếp của nhân sự vận hành hằng ngày.
 
 **Quan hệ giữa [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo|OBK-SOP-NB-00]] và [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]].** Hai văn bản cùng cấp 1 nhưng khác vai trò: QCTC-01 đặt NGUYÊN TẮC, THẨM QUYỀN, ĐỊNH MỨC và CHẾ TÀI; tài liệu này đặt DANH MỤC JOB, QUY TRÌNH CHUẨN, VAI TRÒ THỐNG NHẤT và LỊCH. Khi hai văn bản mâu thuẫn về một con số hoặc một thẩm quyền, **lấy QCTC-01**, vì con số và thẩm quyền là địa hạt của quy chế. Khi mâu thuẫn về vai trò hoặc về trình tự bước, **lấy tài liệu này**.
 
@@ -336,9 +315,7 @@ Bốn quyền dưới đây phải thuộc bốn người khác nhau ở mức t
 | **GHI SỔ** | `KTV` | Không đồng thời là `TQ`, không đồng thời phê duyệt chi hoặc xác nhận lệnh, và không đồng thời là người đối chiếu sao kê |
 | **ĐỐI CHIẾU** sao kê với sổ | `AD-KT` | Không đồng thời là người ghi sổ và không có quyền nào trên ngân hàng điện tử |
 
-> **RỦI RO BỊ XỬ PHẠT và rủi ro thất thoát:** người LẬP lệnh và người DUYỆT lệnh trên ngân hàng điện tử phải là hai người khác nhau. Đây là điểm kiểm soát quan trọng nhất của toàn mảng nội bộ vì đây là chốt duy nhất đứng giữa oBacker và việc một người chuyển được tiền ra ngoài mà không ai biết. NB-19 rà soát hằng quý chính là để kiểm chốt này không bị nới lỏng theo thời gian.
->
-> **Bảng trên có SÁU dòng, không phải bốn, từ ngày 07/09/2026.** Việc ĐỐI CHIẾU được tách khỏi việc GHI SỔ, và việc XÁC NHẬN LỆNH được ghi thành một dòng riêng để nhìn ra ai làm thao tác đó. Nhưng xác nhận lệnh không phải một quyền phê duyệt: việc phê duyệt xảy ra đúng một lần ở dòng DUYỆT chi, xem [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 35.1a. Lý do: `KTV` là người ghi sổ mà nay cũng LẬP lệnh, nên nếu `KTV` vẫn đối chiếu sao kê thì cả ba lớp nằm trên một người. Đây là kiểm soát bù bắt buộc của ngoại lệ tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 47.3a, không phải một thay đổi tùy chọn. Tiêu đề mục vẫn giữ chữ "bốn quy tắc" vì tiêu đề đó trỏ tới bốn quy tắc tại Điều 47 của quy chế; bảng này là bảng phân quyền, không phải danh sách quy tắc.
+> **RỦI RO BỊ XỬ PHẠT VÀ THẤT THOÁT:** Người LẬP lệnh và người XÁC NHẬN lệnh trên hệ thống ngân hàng điện tử bắt buộc phải là hai nhân sự khác nhau. Việc xác nhận lệnh là thao tác thực hiện lệnh chi đã được phê duyệt, không thay thế việc phê duyệt chi theo quy định.
 
 ### 7.2. Sáu bước
 
@@ -414,4 +391,4 @@ Mốc của kỳ lương rơi vào ngày nghỉ hằng tuần hoặc ngày ngh�
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.2.2.2 | Chuẩn hóa câu chữ: diễn đạt rõ cơ chế xác nhận bảng công tạm |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

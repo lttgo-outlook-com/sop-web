@@ -4,9 +4,9 @@ code: "OBK-HB-09"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.2.0"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "26/09/2026"
+draft_date: "01/10/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 25/08/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -16,7 +16,7 @@ parent: "OBK-SOP-KT Kế toán và thuế"
 next_review: "01/12/2026"
 chapter: "Thuế giá trị gia tăng"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-HB-09
 tags:
@@ -33,12 +33,12 @@ tags:
 | Mã tài liệu | OBK-HB-09 |
 | Tên chương | Thuế giá trị gia tăng |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.1.2.0, đang áp dụng |
-| Ngày biên soạn | 26/09/2026 |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
-| Người biên soạn | `CEO` biên soạn |
-| Người soát | đã soát |
-| Người phê duyệt | `CEO` ban hành |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] Kế toán và thuế |
 | Lần rà soát tiếp theo | Trước ngày 01/12/2026, bắt buộc, do chính sách giảm thuế GTGT còn 8% và giảm 20% mức tỷ lệ phần trăm hết hiệu lực sau ngày 31/12/2026 |
 | Chương liên quan | Chương 10 (Thuế TNDN);<br>chương về hóa đơn điện tử;<br>chương về quản lý thuế và thời hạn |
@@ -1483,4 +1483,4 @@ Các điểm đã được gỡ trong lần rà soát này, không còn là chư
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.1.2.0 | Bổ sung mục 6.2.2b phân định nghĩa vụ thuế cho nhóm công nghệ số, phần mềm, `SaaS` và điện toán đám mây |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

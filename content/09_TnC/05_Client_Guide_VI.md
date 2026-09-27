@@ -2,18 +2,18 @@
 title: "CẨM NANG LÀM VIỆC VỚI OBACKER"
 type: "tnc"
 folder: "09_TnC"
-version: "R.2.1.0"
+version: "R.1.0.0"
 status: "đang áp dụng"
 language: "vi"
 distribution: "Khách hàng"
-previous_version: ""
+previous_version: "R.1.0.0"
 tags:
   - loai/tnc
 ---
 # CẨM NANG LÀM VIỆC VỚI OBACKER
 ### Hướng dẫn dành cho Quý Khách
 
-**Phiên bản:** R.2.0.2 · **Cập nhật:** 27/09/2026 · Áp dụng cho gói Starter, Scale và Premium
+**Phiên bản:** R.1.0.0 (VI-EN) · **Cập nhật:** 01/10/2026 · Áp dụng cho gói Starter, Scale và Premium
 
 > Tài liệu này là cẩm nang hướng dẫn nhằm giúp Quý Khách phối hợp với oBacker thuận lợi. Đây không phải là hợp đồng. Trường hợp có khác biệt giữa cẩm nang này và Hợp Đồng dịch vụ (Điều Khoản & Điều Kiện, Đơn Đặt Hàng và các Điều Khoản Dịch Vụ Cụ Thể), nội dung Hợp Đồng được áp dụng.
 
@@ -298,4 +298,4 @@ oBacker bàn giao toàn bộ sổ sách, hồ sơ và thông tin đăng nhập h
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.2.1.0 | Chuẩn hóa địa chỉ trụ sở chính duy nhất tại Đà Nẵng, loại bỏ thông tin chi nhánh không có thật.<br>Bổ sung chính sách trang bị và ủy quyền sử dụng thiết bị USB Token chuyên dụng cho back-office.<br>Bổ sung quy định nghiêm cấm dịch vụ Nominee và làm rõ phạm vi đăng ký sở hữu trí tuệ ngoài gói |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

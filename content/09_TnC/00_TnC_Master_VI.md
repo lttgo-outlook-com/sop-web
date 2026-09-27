@@ -2,11 +2,11 @@
 title: "ĐIỀU KHOẢN VÀ ĐIỀU KIỆN DỊCH VỤ (BẢN ĐIỀU KHOẢN CHUNG)"
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.2.0"
+version: "R.1.0.0"
 status: "đang áp dụng"
 language: "vi"
 distribution: "Khách hàng"
-previous_version: ""
+previous_version: "R.1.0.0"
 tags:
   - loai/tnc
 ---
@@ -19,7 +19,7 @@ Trụ sở chính: Tầng 2, 06 Trần Phú, Phường Hải Châu, TP Đà Nẵ
 Văn phòng TP.HCM: 15 Hoàng Kế Viêm, Phường Bảy Hiền, TP. Hồ Chí Minh, Việt Nam
 Văn phòng Đà Nẵng: Số 54 đường Khuê Mỹ Đông 7, Phường Ngũ Hành Sơn, TP Đà Nẵng, Việt Nam
 
-**Phiên bản:** R.1.2.0 (VI-EN) · **Cập nhật:** 27/09/2026
+**Phiên bản:** R.1.0.0 (VI-EN) · **Cập nhật:** 01/10/2026
 
 ---
 
@@ -332,4 +332,4 @@ Khi oBacker xử lý dữ liệu của người lao động/cổ đông của Qu
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.1.2.0 | Chuẩn hóa địa chỉ trụ sở chính duy nhất tại Đà Nẵng, loại bỏ thông tin chi nhánh không có thật.<br>Bổ sung quy định nghiêm cấm và loại trừ dịch vụ người đứng tên hộ (Nominee) tại Điều 12.<br>Cập nhật chế độ kế toán Thông tư 58/2026/TT-BTC thay thế Thông tư 133/2016/TT-BTC tại Điều 16.<br>Bổ sung phạm vi đăng ký sở hữu trí tuệ tại Điều 19 |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

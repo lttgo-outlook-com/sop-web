@@ -4,9 +4,9 @@ code: "OBK-SOP-PL-E"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Phụ lục"
-version: "R.1.3.0"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "27/09/2026"
+draft_date: "01/10/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 25/08/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -16,7 +16,7 @@ parent: "OBK-SOP-KT Kế toán và thuế"
 next_review: "Định kỳ hằng quý"
 appendix: "Danh mục văn bản pháp luật áp dụng"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-SOP-PL-E
 tags:
@@ -32,12 +32,12 @@ tags:
 | Mã tài liệu | OBK-SOP-PL-E |
 | Tên phụ lục | Danh mục văn bản pháp luật áp dụng |
 | Cấp tài liệu | Phụ lục của hướng dẫn cấp 3 |
-| Phiên bản | R.1.3.0, đang áp dụng |
-| Ngày biên soạn | 27/09/2026 |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
-| Người biên soạn | `CEO` biên soạn |
-| Người soát | đã soát |
-| Người phê duyệt | `CEO` ban hành |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] Kế toán và thuế |
 | Lần rà soát tiếp theo | Hằng quý, chậm nhất ngày cuối cùng của tháng đầu quý tiếp theo.<br>Rà soát đột xuất khi có văn bản mới ảnh hưởng tới bốn chương 14, 15, 16, 17.<br>RÀ SOÁT BẮT BUỘC trước 01/12/2026 cho chính sách giảm thuế giá trị gia tăng, vì chính sách hết hiệu lực 31/12/2026 |
 
@@ -394,4 +394,4 @@ Quy tắc vận hành Bảng C:
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.1.3.0 | Bổ sung Nghị định 342/2026/NĐ-CP, Thông tư 38/2026/TT-NHNN, Thông tư 121/2026/TT-BTC vào Bảng A; chuyển Nghị định 09/2018/NĐ-CP và Thông tư 06/2019/TT-NHNN sang Bảng B. |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

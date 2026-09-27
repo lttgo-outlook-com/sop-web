@@ -4,19 +4,19 @@ code: "OBK-SOP-DV-00"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 1, văn bản KHUNG toàn công ty"
-version: "R.1.0.2"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "23/09/2026"
+draft_date: "01/10/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 07/09/2026"
-author: "COO"
-reviewer: "Legal R&D"
+author: "CEO"
+reviewer: "CEO"
 review_status: "đã soát"
 approver: "CEO"
 approval_status: "đã phê duyệt"
 parent: "OBK-SOP-00 Chuẩn vận hành dịch vụ"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-SOP-DV-00
 tags:
@@ -29,12 +29,12 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-SOP-README |
 | Cấp tài liệu | Tài liệu dẫn nhập của bộ |
-| Phiên bản | R.1.0.2, đang áp dụng |
-| Ngày biên soạn | 23/09/2026 |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 07/09/2026 |
-| Người biên soạn | COO |
-| Người soát | Legal R&D |
-| Người phê duyệt | đã phê duyệt |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] |
 
 ## Quy mô của bộ tại ngày 07/09/2026
@@ -178,4 +178,4 @@ Nhánh thương mại và Phòng Dịch vụ thuộc hai nhánh khác nhau và c
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 23/09/2026 | R.1.0.2 | Mục 4 bỏ dẫn chiếu tới Điều 20 của OBK-QCTC-02, vì Điều 20 không còn trong quy chế; giữ dữ kiện việc đổi ký hiệu đã hoàn tất ngày 02/09/2026 |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

@@ -4,17 +4,17 @@ code: "OBK-SOP-LIC"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 2, quy trình bộ phận"
-version: "R.1.0.1"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "26/09/2026"
-author: "TL-LIC"
+draft_date: "01/10/2026"
+author: "CEO"
 reviewer: "CEO"
 approver: "CEO"
 parent: "OBK-SOP-00 Chuẩn vận hành dịch vụ"
 law_as_of: "Pháp luật có hiệu lực tại ngày 26/09/2026"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-SOP-LIC
 tags:
@@ -39,11 +39,11 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-SOP-LIC |
 | Cấp tài liệu | Cấp 2, SOP bộ phận |
-| Phiên bản | R.1.0.1, đang áp dụng |
-| Ngày biên soạn | 26/09/2026 |
-| Người biên soạn | `TL-LIC` biên soạn cùng `CEO` |
-| Người soát | đã soát; Legal R&D soát phần pháp lý trước khi trình duyệt |
-| Người phê duyệt | **`COO` cùng `CEO`** duyệt và ban hành.<br>`COO` là người đồng duyệt, không phải người soát.<br>Việc sửa sau ban hành theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 12.1 |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |OBK-SOP-00]] mục 12.1 |
 | Văn bản cấp trên | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] Chuẩn vận hành dịch vụ |
 | Kế thừa từ | SOP Licensing v0.1 ngày 20/08/2026, soạn bởi Linh Đào |
 | Hướng dẫn cấp 3 | CHƯA CÓ. TL-LIC dựng theo khuôn tại `PL_3` mục 4 |
@@ -93,8 +93,8 @@ tags:
 
 ## 2. DANH MỤC JOB
 
-> [!question] CẦN XÁC MINH
-> Cột "Thời hạn theo pháp luật" là thời hạn GIẢI QUYẾT của cơ quan nhà nước hoặc thời hạn NGHĨA VỤ của khách, tùy loại. Cột "SLA nội bộ oBacker" là phần oBacker kiểm soát được. oBacker không cam kết ngày có kết quả với khách vì đó là việc của cơ quan; oBacker cam kết ngày NỘP ĐƯỢC hồ sơ hợp lệ.
+> [!note] NGUYÊN TẮC SLA DỊCH VỤ
+> Cột "Thời hạn theo pháp luật" là thời hạn giải quyết của cơ quan nhà nước hoặc thời hạn nghĩa vụ của khách hàng. Cột "SLA nội bộ oBacker" là cam kết nội bộ của oBacker về ngày nộp đủ hồ sơ hợp lệ.
 
 %%JOBTABLE:LIC%%
 
@@ -284,4 +284,4 @@ Ba hướng dẫn đầu là điều kiện để đóng ba rủi ro tại mục
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 26/09/2026 | R.1.0.1 | Gỡ câu nói kho không có bản hợp nhất Nghị định 168/2025 và Nghị định 296/2026 tại mục lỗi thường gặp về đăng ký doanh nghiệp, vì bản hợp nhất 29/2026/VBHN-NĐ-BTC đã có trong kho |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

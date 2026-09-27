@@ -4,9 +4,9 @@ code: "OBK-QCTC-02-PL-B"
 type: "sop"
 folder: "01_ToChuc"
 level: "Phụ lục"
-version: "R.2.1.2"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "27/09/2026"
+draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
 review_status: "đã soát"
@@ -16,7 +16,7 @@ parent: "OBK-QCTC-02 Quy chế tổ chức và phân quyền"
 law_as_of: ""
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-QCTC-02-PL-B
 tags:
@@ -29,11 +29,11 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-QCTC-02-PL-B |
 | Cấp tài liệu | Phụ lục |
-| Phiên bản | R.2.1.2, đang áp dụng |
-| Ngày biên soạn | 27/09/2026 |
-| Người biên soạn | `CEO` soạn bản đầu. Bản sau do `CEO` phân công |
-| Người soát | đã soát |
-| Người phê duyệt | đã phê duyệt |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen\|OBK-QCTC-02]] Quy chế tổ chức và phân quyền |
 
 
@@ -75,8 +75,8 @@ Ba việc không ai được tự quyết, xem mục 7 cuối tài liệu.
 
 | Việc | Đề xuất | Quyết | Phải được hỏi | Phải được thông báo |
 | --- | --- | --- | --- | --- |
-| Chi trong hạn mức từng bậc | `TL` chủ dòng ngân sách | theo ma trận hạn mức tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 12.3 | | `KTT` |
-| Chi vượt hạn mức bậc cao nhất của quy trình | `TL` | `TGĐ` | `KTT` về nguồn | `HĐQT` khi chạm mốc Điều lệ |
+| Chi trong hạn mức từng bậc | `TL` chủ dòng ngân sách | theo ba bậc hạn mức tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 12.3 (B1: `TL`; B2: `COO` hoặc `KTT`; B3: `TGĐ`) | | `KTT` |
+| Chi chạm mốc Điều lệ và luật định (từ 35% tổng tài sản) | `TGĐ` | `HĐQT` thông qua, `ĐHĐCĐ` quyết định | Legal R&D | `ĐHĐCĐ` |
 | Giao dịch mua, bán, vay, cho vay từ mốc tại `Điều lệ Đ.25 k.2 đ.h` | `TGĐ` | `HĐQT` | Legal R&D | `ĐHĐCĐ` |
 | Đầu tư hoặc bán tài sản từ mốc tại `Điều lệ Đ.24 k.2 đ.d` | `HĐQT` | `ĐHĐCĐ` | Legal R&D | |
 | Giao dịch với người có liên quan | `TGĐ` | theo `Điều lệ` và Luật Doanh nghiệp về giao dịch với người có liên quan | Legal R&D BẮT BUỘC | `HĐQT` |
@@ -92,18 +92,21 @@ Ba việc không ai được tự quyết, xem mục 7 cuối tài liệu.
 
 | Việc | Đề xuất | Quyết | Phải được hỏi | Phải được thông báo |
 | --- | --- | --- | --- | --- |
-| Nhận khách mới | `AM` | `CEO` | `COO` về năng lực đáp ứng | TP Thương mại |
+| Nhận khách mới áp dụng Bảng giá chuẩn và Mẫu hợp đồng chuẩn | `AM` | TP Thương mại (ký hợp đồng trực tiếp) | | `CEO` (qua báo cáo CRM) |
+| Nhận khách có chiết khấu ngoài khung hoặc yêu cầu chỉnh sửa điều khoản hợp đồng cốt lõi | TP Thương mại | `CEO` | `KTT` về biên lợi nhuận;<br>Legal R&D về rủi ro pháp lý | `AM` |
 | Từ chối khách | `AM` hoặc `COO` | `CEO` | | TP Thương mại |
 | Giá trong khung đã duyệt | `AM` | TP Thương mại | | `CEO` |
 | Giá ngoài khung, chiết khấu đặc biệt | TP Thương mại | `CEO` | `KTT` về biên lợi nhuận | `AM` |
-| Phạm vi dịch vụ trong hợp đồng | `AM` | `CEO` | `COO` về năng lực;<br>Legal R&D về phạm vi được phép | `TL` bộ phận liên quan |
+| Phạm vi dịch vụ trong hợp đồng chuẩn | `AM` | TP Thương mại | `TL` bộ phận liên quan | `COO` |
+| Phạm vi dịch vụ đặc biệt hoặc ngoài chuẩn | `AM` | `CEO` | `COO` về năng lực;<br>Legal R&D về phạm vi được phép | `TL` bộ phận liên quan |
 | Cam kết mốc với khách | `AM` | `AM`, CHỈ SAU KHI có xác nhận bằng văn bản của `TL` bộ phận trên Job | `TL` bộ phận, BẮT BUỘC | `COO` |
 | Kết luận việc có làm được trong mốc khách muốn hay không | `TL` bộ phận | `COO` | | `AM`, TP Thương mại, `CEO` |
 | Bổ sung nguồn lực để đáp ứng mốc khách muốn | `COO` đề xuất phương án | `CEO` quyết chi | `KTT` về nguồn | `AM` |
-| Gia hạn hợp đồng | `AM` | `CEO` | `COO` nếu phạm vi đổi | TP Thương mại |
-| Chấm dứt hợp đồng với khách | `AM` hoặc `COO` | `CEO` | Legal R&D về hậu quả pháp lý | TP Thương mại, `TL` liên quan |
+| Gia hạn hợp đồng dịch vụ định kỳ (giữ nguyên phạm vi hoặc theo phụ lục chuẩn) | `AM` | Tự động gia hạn theo hợp đồng hoặc `AM` chốt khi khách xác nhận bằng email và thanh toán kỳ mới | | TP Thương mại |
+| Gia hạn hợp đồng có thay đổi phạm vi hoặc điều khoản đặc biệt | `AM` | `CEO` | `COO` nếu phạm vi đổi | TP Thương mại |
+| Chấm dứt hợp đồng trước hạn do lỗi vi phạm nghĩa vụ | `AM` hoặc `COO` | `CEO` | Legal R&D về hậu quả pháp lý | TP Thương mại, `TL` liên quan |
 | Xử lý khiếu nại về chất lượng | `TL` bộ phận | `TL` bộ phận, chuyển lên `COO` nếu không đủ thẩm quyền | `AM` | `CEO` khi có rủi ro pháp lý hoặc tiền phạt |
-| Xử lý khiếu nại thương mại | `AM` | `CEO` | | `COO` |
+| Xử lý khiếu nại thương mại | `AM` | `CEO` khi có nguy cơ tranh chấp pháp lý hoặc đòi bồi thường tiền mặt;<br>TP Thương mại trong các trường hợp khác | | `COO` |
 | Chương trình hợp tác với đối tác | `PM` | TP Thương mại trong khung đã duyệt;<br>`CEO` nếu ngoài khung | Legal R&D nếu có cam kết ràng buộc | `CEO` |
 | Ký hợp đồng giới thiệu khách hàng với đối tác | `PM` | `TGĐ` ký | Legal R&D nếu có cam kết ràng buộc | `CEO` |
 | Quyết nguồn hưởng hoa hồng khi nhiều nguồn giới thiệu cùng một khách | `PM` | `CEO` | | |
@@ -188,4 +191,4 @@ Hai tư cách của oBacker phải phân biệt, vì nghĩa vụ khác nhau:
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.2.1.2 | Chuẩn hóa định dạng danh sách phân công vai trò Đề xuất, Quyết, Hỏi và Thông báo |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

@@ -6,17 +6,17 @@ folder: "07_Phieu"
 level: "Phiếu thao tác"
 version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "24/09/2026"
+draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: ""
+review_status: "đã soát"
 approver: "CEO"
-approval_status: ""
+approval_status: "đã phê duyệt"
 parent: "OBK-TTT-05 Cách làm phiếu thao tác"
 law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - HH-01
 tags:
@@ -30,10 +30,10 @@ tags:
 | Mã tài liệu | HH-01 |
 | Cấp tài liệu | Phiếu thao tác |
 | Phiên bản | R.1.0.0, đang áp dụng |
-| Ngày biên soạn | 24/09/2026 |
-| Người biên soạn | `CEO` soạn bản đầu. Bản sau do `CEO` phân công |
-| Người soát | `CEO` |
-| Người phê duyệt | `CEO` |
+| Ngày biên soạn | 01/10/2026 |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | `OBK-TTT-05` Cách làm phiếu thao tác |
 | **Mã phiếu** | HH-01 |
 | **Màu** | - |
@@ -165,4 +165,4 @@ Phiếu này không tự đặt con số nào. Mốc 03 ngày làm việc, mốc
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 24/09/2026 | R.1.0.0 | Dựng bản đầu |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

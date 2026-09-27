@@ -4,18 +4,18 @@ code: "OBK-HB-31"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.2.0.0"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "24/09/2026"
+draft_date: "01/10/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 07/09/2026"
 author: "CEO"
 reviewer: "CEO"
 review_status: "đã soát"
-approver: "TP Thương mại"
+approver: "CEO"
 parent: "OBK-SOP-AM Quản lý khách hàng"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-HB-31
 tags:
@@ -30,12 +30,12 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-HB-31 |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.2.0.0, đang áp dụng |
-| Ngày biên soạn | 24/09/2026 |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 07/09/2026 |
-| Người biên soạn | `CEO` soạn bản đầu. Bản sau do `CEO` phân công |
-| Người soát | đã soát |
-| Người phê duyệt | TP Thương mại. `CEO` duyệt khi bản này chạm giá hoặc chạm phạm vi |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] Quản lý khách hàng |
 | Đây là gì | Người đọc là `AM`, lúc một lead vừa vào.<br>Hướng dẫn này trả lời: làm gì trong 15 phút đầu, hỏi gì, và khi nào phải dừng lại chuyển `CEO` |
 | Đọc trước | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] mục 3 Job AM-01 và AM-22;<br>[[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 7.2.3 và mục 9 |
@@ -183,4 +183,4 @@ Chỉ làm sau khi bước 5 kết luận NHẬN, hoặc sau khi `CEO` đã quy�
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 24/09/2026 | R.2.0.0 | Mục Phạm vi: khách do đối tác giới thiệu được đăng ký và tra trùng theo Job PM-02, PM-03 của OBK-SOP-PM, bàn giao cho AM theo Job PM-05, từ lúc bàn giao áp dụng như lead khác.<br>Bước 2 thêm ghi nguồn khách và tra sổ đăng ký giới thiệu.<br>Đổi bảy hành vi thành tám hành vi oBacker nghiêm cấm |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

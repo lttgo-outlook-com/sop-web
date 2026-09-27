@@ -2,11 +2,11 @@
 title: "ĐIỀU KHOẢN DỊCH VỤ KẾ TOÁN & THUẾ (PL-KT)"
 type: "tnc"
 folder: "09_TnC"
-version: "R.2.1.0"
+version: "R.1.0.0"
 status: "đang áp dụng"
 language: "vi"
 distribution: "Khách hàng"
-previous_version: ""
+previous_version: "R.1.0.0"
 tags:
   - loai/tnc
 ---
@@ -16,7 +16,7 @@ tags:
 *Điều Khoản Dịch Vụ Cụ Thể, bộ phận không tách rời của Bản Điều Khoản Chung; Công ty Cổ phần oBacker*
 MST: 0402298185 · Tầng 2, 06 Trần Phú, Phường Hải Châu, Thành phố Đà Nẵng · contact@obacker.com
 
-**Phiên bản:** R.2.0.2 · **Cập nhật:** 27/09/2026
+**Phiên bản:** R.1.0.0 (VI-EN) · **Cập nhật:** 01/10/2026
 
 > Tài liệu này là Điều Khoản Dịch Vụ Cụ Thể cho Dịch Vụ Kế toán & Thuế ("**Dịch Vụ**"), gồm hai hợp phần: (A) Kế toán và (B) Thuế doanh nghiệp (GTGT, TNDN, thuế nhà thầu nước ngoài (FCT), hóa đơn điện tử). Tài liệu áp dụng khi Dịch Vụ được ghi tại Đơn Đặt Hàng. **Nếu tài liệu này khác với Bản Điều Khoản Chung, tài liệu này được ưu tiên áp dụng đối với Dịch Vụ.**
 >
@@ -198,4 +198,4 @@ Phí Dịch Vụ được xác định theo Đơn Đặt Hàng (theo gói hoặc
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.2.1.0 | Cập nhật Chế độ kế toán doanh nghiệp siêu nhỏ theo Thông tư 58/2026/TT-BTC thay thế Thông tư 133/2016/TT-BTC tại Điều 2.1.<br>Bổ sung quy định quản lý, ủy quyền giới hạn sử dụng thiết bị USB Token chuyên dụng cho back-office tại Điều 3.4.<br>Điều chỉnh thời gian xử lý số liệu ghi sổ hàng tháng từ Ngày 6-12 tại Điều 5.1 |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

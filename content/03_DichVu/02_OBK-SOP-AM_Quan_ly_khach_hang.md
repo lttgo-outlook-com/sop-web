@@ -4,9 +4,9 @@ code: "OBK-SOP-AM"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 2, quy trình bộ phận"
-version: "R.1.1.1"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "27/09/2026"
+draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
 approver: "CEO"
@@ -14,7 +14,7 @@ parent: "OBK-SOP-00 Chuẩn vận hành dịch vụ"
 distribution: "Nội bộ oBacker"
 law_as_of: "Pháp luật có hiệu lực tại ngày 23/09/2026"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-SOP-AM
 tags:
@@ -30,11 +30,11 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-SOP-AM |
 | Cấp tài liệu | Cấp 2, SOP bộ phận |
-| Phiên bản | R.1.1.1, đang áp dụng |
-| Ngày biên soạn | 27/09/2026 |
-| Người biên soạn | `CEO` biên soạn |
-| Người soát | chưa soát. Legal R&D soát phần pháp lý |
-| Người phê duyệt | **`CEO`** ban hành. Việc sửa sau ban hành theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 12.1 |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |OBK-SOP-00]] mục 12.1 |
 | Văn bản cấp trên | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] Chuẩn vận hành dịch vụ |
 | Kế thừa từ | SOP Customer Handling v1.4 ngày 09/07/2026 |
 | Lead của bộ phận | TP Thương mại, hiện do CEO kiêm |
@@ -73,7 +73,8 @@ oBacker không có vai trò Sales riêng. AM là đầu mối TOÀN TRÌNH: cùn
 | Nghiệp vụ chưa có chuẩn, kết luận dùng cho mọi khách về sau, văn bản pháp luật mới | Legal R&D, xem [[07_OBK-SOP-RD_Nghien_cuu_phap_ly\|OBK-SOP-RD]]. Quy tắc phân ba lớp tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 5.5 |
 | Soát mẫu hợp đồng dịch vụ của oBacker và bộ điều khoản trong đó | Legal R&D, Job `RD-18` |
 | Xuất hóa đơn, đối soát công nợ, thu hồi nợ | Miền nội bộ, `KTT` nội bộ. Xem [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo\|OBK-SOP-NB-00]] mục 6 |
-| Quyết định nhận khách, từ chối khách, chấm dứt hợp đồng;<br>duyệt giá và phạm vi ngoài chuẩn | CEO, hiện kiêm TP Thương mại |
+| Ký hợp đồng dịch vụ chuẩn và duyệt giá trong khung | TP Thương mại |
+| Quyết định nhận khách rủi ro, duyệt chiết khấu ngoài khung, chỉnh sửa điều khoản cốt lõi, từ chối khách, hoặc chấm dứt hợp đồng trước hạn | CEO |
 | Chương trình đối tác giới thiệu khách hàng | Phụ trách Đối tác và Chương trình. Xem [[08_OBK-SOP-PM_Chuong_trinh_doi_tac_gioi_thieu_khach_hang\|OBK-SOP-PM]] |
 
 **Nguyên tắc ranh giới, một câu:** AM sở hữu QUAN HỆ và LỜI HỨA; bộ phận nghiệp vụ sở hữu NỘI DUNG. AM không được tự trả lời nội dung chuyên môn, kể cả khi biết câu trả lời.
@@ -192,7 +193,7 @@ Bộ phận này chạy HAI loại Job khác nhau về người chịu trách nh
 | B9 Theo dõi tới khi có kết quả | R | A | N/A | N/A | I |
 | B10 Đóng Job và cập nhật | R | A | N/A | I | I |
 
-Ba nhóm việc mà ô A là `CEO` chứ không phải TP Thương mại, không có ngoại lệ: nhận khách có yếu tố rủi ro theo `AM-22`; giá hoặc phạm vi ngoài khung theo `AM-23`; và chấm dứt hợp đồng trước hạn theo `AM-19`. Bản gốc tại [[PL_Chuyen_len_cap_tren|OBK-QCTC-02-PL-C]] mục 5.
+Bốn nhóm việc ngoại lệ thương mại mà ô A là `CEO` chứ không phải TP Thương mại, không có ngoại lệ: (1) Khách hàng yêu cầu mức chiết khấu ngoài khung quy định; (2) Khách hàng yêu cầu chỉnh sửa các điều khoản cốt lõi trong hợp đồng khung (giới hạn trách nhiệm bồi thường, điều khoản bảo vệ dữ liệu, điều khoản thanh toán) theo `RD-18`; (3) Khách hàng khiếu nại dịch vụ có nguy cơ tranh chấp pháp lý hoặc đòi bồi thường tiền mặt; (4) Chấm dứt hợp đồng trước hạn do lỗi vi phạm nghĩa vụ theo `AM-19`. Các trường hợp áp dụng Bảng giá chuẩn và Mẫu hợp đồng chuẩn do TP Thương mại ký kết trực tiếp. Bản gốc tại [[PL_Chuyen_len_cap_tren|OBK-QCTC-02-PL-C]] mục 5.
 
 Tại ngày 07/09/2026 `CEO` đang kiêm TP Thương mại, nên bảng 2 và ba nhóm việc trên là cùng một người. Bảng ghi theo position để khi tách vai trò không phải sửa lại.
 
@@ -329,14 +330,11 @@ Năm nhóm, mỗi nhóm 20 điểm, tổng 100. Trọng số và ba ngưỡng l�
 
 Ba nhóm rủi ro: từ 80 điểm là bình thường; 60 tới 79 là cần theo; dưới 60 là rủi ro cao. Nhóm Tuân thủ về 0 thì khách vào nhóm rủi ro cao bất kể tổng điểm.
 
-> [!question] CẦN XÁC MINH
-> Mọi con số ở mục 9 là con số oBacker tự đặt, không phải mốc do pháp luật ấn định. Với chỉ số mới, khuyến nghị đo thực tế 3 tháng để lấy mốc nền trước khi cố định mục tiêu.
-
 ---
 
 ## 10. NGHỈ PHÉP VÀ NGƯỜI THAY THẾ
 
-Ba việc dưới đây thuộc cấp 2 của nhánh thương mại, tức TP Thương mại, chứ không thuộc `CEO`. Tại ngày 07/09/2026 `CEO` đang kiêm TP Thương mại nên vẫn là một người, nhưng tài liệu ghi theo position để khi tách vai trò thì không phải sửa lại. Bản gốc của thang dọc nhánh thương mại tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 8.2.
+Quy định phân công người thay thế thực hiện theo vị trí công việc, không phụ thuộc vào nhân sự kiêm nhiệm tại từng thời điểm. Bản gốc của thang dọc nhánh thương mại tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 8.2.
 
 | Tình huống | Xử lý |
 | --- | --- |
@@ -372,4 +370,4 @@ Thao tác trên `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]` và `[HỆ THỐNG CHAT
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.1.1.1 | Chuẩn hóa câu chữ: chỉnh định nghĩa tiếp xúc khách của người ký hợp đồng |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

@@ -4,11 +4,11 @@ code: "OBK-SOP-NB-02"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.1.0"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "24/09/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 07/09/2026"
-author: ""
+draft_date: "01/10/2026"
+law_as_of: "Pháp luật có hiệu lực tại ngày 01/10/2026"
+author: "CEO"
 reviewer: "CEO"
 review_status: "đã soát"
 approver: "CEO"
@@ -16,7 +16,7 @@ approval_status: "đã phê duyệt"
 parent: "OBK-SOP-NB-00 Chuẩn vận hành nội bộ"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-SOP-NB-02
 tags:
@@ -32,12 +32,12 @@ tags:
 | Mã tài liệu | OBK-SOP-NB-02 |
 | Tên tài liệu | Quy trình thu tiền và quản lý công nợ phải thu |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ. Thi hành Chương 4 của [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Quy chế tài chính nội bộ |
-| Phiên bản | R.1.1.0, đang áp dụng |
-| Ngày biên soạn | 24/09/2026 |
-| Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 07/09/2026 |
-| Người biên soạn | (để trống) |
-| Người soát | (để trống) |
-| Người phê duyệt | (để trống) |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
+| Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 01/10/2026 |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo\|OBK-SOP-NB-00]] Chuẩn vận hành nội bộ |
 | Bộ tài liệu | OBK-SOP-NB, Sổ tay quy trình nội bộ oBacker |
 | Tài liệu song hành | [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] mua sắm và thanh toán;<br>[[OBK-SOP-NB-03_Quan_ly_tien\|OBK-SOP-NB-03]] quản lý tiền |
@@ -167,8 +167,6 @@ Một khoản phải thu bằng một hóa đơn. Sinh khi xuất hóa đơn, đ
 
 > [!note] "ĐÃ XÓA NỢ" KHÔNG PHẢI KẾT THÚC HOÀN TOÀN
 > Xóa sổ kế toán không có nghĩa là xóa quyền đòi nợ. Sau khi xóa, khoản nợ tiếp tục được theo dõi trên một sổ chi tiết ngoài hệ thống sổ kế toán chính, theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 17.1d.
->
-> **Bản đặc tả mô hình trạng thái cho công cụ CHƯA DỰNG.** Hai bảng trên là bảng tra cho người vận hành. Khi oBacker chọn công cụ thì dựng thêm hai tệp phụ lục đặc tả, cùng khuôn với `PL_DT` và `PL_DM` của chu trình chi. Việc dựng hai tệp đó ghi ở Phụ lục 1.
 
 ### 6.1. PHÂN LOẠI KHOẢN THU, LÀM TRƯỚC MỌI VIỆC KHÁC
 
@@ -197,11 +195,8 @@ Một khoản phải thu bằng một hóa đơn. Sinh khi xuất hóa đơn, đ
 | Khách hàng **mới**: ba kỳ dịch vụ đầu | Thu trước, không bán chịu. Không ai duyệt ngoại lệ ở bước này | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 15.3 |
 | Khách là **người có liên quan** | Theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 12a, không theo bảng này | `[Luật Doanh nghiệp 67/VBHN-VPQH Đ.167]` |
 
-> [!note] TRẢ TRƯỚC TOÀN BỘ LÀ ĐIỀU KHOẢN CHUẨN TỪ NGÀY 07/09/2026, VÀ ĐÂY LÀ THAY ĐỔI HƯỚNG
-> Trước đó trả sau là cách làm thông lệ. Hệ quả vận hành rơi vào `AM`, không rơi vào kế toán: `AM` phải bán được điều khoản trả trước, và mỗi lần khách đòi trả sau thì đó là một hồ sơ trình `TGĐ`, không phải một việc `AM` tự quyết. Đổi lại, chu trình nhắc nợ chỉ còn chạy cho nhóm H3.
-
 > [!note] HẠN MỨC BÁN CHỊU CHỈ ÁP CHO KHÁCH ĐÃ ĐƯỢC DUYỆT TRẢ SAU
-> Khách trả trước toàn bộ thì không có dư nợ nên không có hạn mức nào để kiểm. Đây là chỗ dễ đọc sai mục 15.2.
+> Khách trả trước toàn bộ thì không có dư nợ nên không có hạn mức nào để kiểm.
 
 ### 6.3. LUỒNG H, KÝ HỢP ĐỒNG DỊCH VỤ
 
@@ -279,9 +274,6 @@ Nguyên văn: thời điểm lập hóa đơn với dịch vụ là thời đi�
 | 4 | Quá hạn từ 91 ngày trở lên |
 | **5** | **Đang tranh chấp**, đếm riêng, không gộp vào bốn nhóm trên |
 
-> [!note] NHÓM 5 LÀ NHÓM [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] MỤC 15.4 KHÔNG CÓ, VÀ TÀI LIỆU NÀY THÊM VÀO
-> Lý do ở ghi chú tại mục 6.0.2. Nhóm này không dùng để trích dự phòng theo tuổi nợ, vì nguyên nhân không trả là tranh chấp về dịch vụ, không phải mất khả năng trả. Khi khiếu nại xử xong thì khoản nợ quay về đúng nhóm tuổi của khoản nợ đó, và tuổi nợ đếm từ ngày đến hạn gốc, không đếm lại từ ngày xử xong khiếu nại.
-
 #### 6.5.2. Nhắc nợ. BẢN GỐC KHÔNG Ở ĐÂY
 
 **Tám mốc nhắc, nội dung từng mốc, kênh gửi và người thực hiện: bản gốc duy nhất là [[19_Giao_tiep_khach_hang|OBK-SOP-19]] mục 6.8.2.** Văn bản này không ghi lại bảng đó.
@@ -318,14 +310,9 @@ Khách chuyển vào tài khoản của oBacker trong Danh mục tài khoản t�
 
 Tiền về được xác nhận qua đối chiếu sao kê ở [[OBK-SOP-NB-03_Quan_ly_tien|OBK-SOP-NB-03]], không xác nhận bằng ảnh chụp màn hình khách gửi. Ảnh chụp chỉ dùng để tra soát, không dùng để ghi sổ.
 
-#### 6.6.2. Tiền mặt. CHƯA DÙNG ĐƯỢC
+#### 6.6.2. Thu tiền mặt
 
-> [!note] oBacker CHƯA NHẬN TIỀN MẶT TỪ KHÁCH, VÌ VAI TRÒ `TQ` CHƯA CÓ NGƯỜI GIỮ
-> Mỗi lần tiền mặt vào quỹ phải có phiếu thu mẫu 01-TT đủ năm chữ ký theo chức danh, trong đó có chữ ký của Thủ quỹ, theo [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]] mục 4.1 và Job `NB-31`. Vai trò `TQ` đã đăng ký ngày 07/09/2026 nhưng `TGĐ` chưa gán người, nên chưa lập được phiếu thu đủ chữ ký.
->
-> **Cách xử trong lúc chờ:** `AM` báo khách chuyển khoản. Nếu khách đã đưa tiền mặt rồi thì không nhập quỹ, mà `AM` hoặc người nhận nộp ngay vào tài khoản ngân hàng của oBacker trong ngày, và khoản đó ghi nhận là tiền về qua tài khoản. Cách này không phát sinh phiếu thu, nên không vướng chữ ký còn thiếu.
->
-> Khi `TGĐ` gán người giữ vai trò `TQ` thì mục này có hiệu lực đầy đủ và bỏ đoạn cách xử tạm.
+Tiền mặt chỉ được thu khi có đầy đủ phiếu thu mẫu 01-TT theo chức danh, có chữ ký của Thủ quỹ theo [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]] mục 4.1. Trường hợp khách hàng thanh toán tiền mặt trực tiếp mà chưa thể lập phiếu thu theo quy định, người nhận nộp ngay vào tài khoản ngân hàng của oBacker trong ngày để hạch toán qua ngân hàng.
 
 ### 6.7. DỰ PHÒNG VÀ XÓA NỢ
 
@@ -375,9 +362,6 @@ Nguồn phát sinh: khách yêu cầu hoàn tiền hoặc hủy dịch vụ; ho�
 | `KS-NB-T5` | Mọi khoản tiền về tài khoản đều đã khớp với một hóa đơn hoặc đã được `KTT` gọi tên | Mỗi kỳ đối chiếu nhanh | `AD-KT` | `KTT` |
 | `KS-NB-T6` | Không cung cấp thêm dịch vụ cho khách trả sau đã vượt hạn mức bán chịu, khi chưa có phê duyệt của `TGĐ` | Trước mỗi kỳ dịch vụ tiếp | `KTV` | `TGĐ` |
 | `KS-NB-T7` | Mọi lần nhắc nợ có bằng chứng đã gửi trong hồ sơ khách | Sau mỗi mốc | `KTV` | `KTT` |
-
-> [!note] `KS-NB-T4` VÀ `KS-NB-T5` LÀ HAI CHỐT MỚI, KHÔNG CÓ TRONG KHUNG TẠI `06_OBK-SOP-NB-00` MỤC 6.2
-> Khung chỉ có ba chốt, và cả ba đều nằm trước bước ký hợp đồng. Nghĩa là sau khi hợp đồng đã ký thì khung không có chốt nào: hóa đơn trễ không ai bắt, và tiền về không có hóa đơn cũng không ai bắt. Hai chốt này bổ sung chỗ thiếu kiểm soát đó. `KS-NB-T5` chạy trên chính lượt đối chiếu nhanh của [[OBK-SOP-NB-03_Quan_ly_tien|OBK-SOP-NB-03]], nên không tạo thêm việc mới.
 
 ## 8. Lỗi thường gặp và cách xử lý
 
@@ -444,4 +428,4 @@ Chỉ số chưa đặt ngưỡng thì người lập báo cáo ghi số đo và
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 24/09/2026 | R.1.1.0 | Thêm mục 6.8 Job NB-49 chốt doanh thu tính hoa hồng theo khách được giới thiệu.<br>Thêm mục 6.9 Luồng L năm bước hoàn tiền cho khách hoặc hủy dịch vụ, gắn Job NB-51, bước cuối thông báo người giữ Job PM-09 khi khách thuộc sổ đăng ký giới thiệu; người làm từng bước do CEO chốt khi ban hành |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

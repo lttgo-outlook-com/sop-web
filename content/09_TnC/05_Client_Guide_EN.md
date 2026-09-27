@@ -2,18 +2,18 @@
 title: "CLIENT WORKING GUIDE; WORKING WITH OBACKER"
 type: "tnc"
 folder: "09_TnC"
-version: "R.2.1.0"
+version: "R.1.0.0"
 status: "đang áp dụng"
 language: "en"
 distribution: "Khách hàng"
-previous_version: ""
+previous_version: "R.1.0.0"
 tags:
   - loai/tnc
 ---
 # CLIENT WORKING GUIDE; WORKING WITH OBACKER
 ### A guide for the Client
 
-**Version:** R.2.1.0 · **Updated:** 27 September 2026 · Applies to the Starter, Scale and Premium packages
+**Version:** R.1.0.0 (VI-EN) · **Updated:** 27 September 2026 · Applies to the Starter, Scale and Premium packages
 
 > This guide is intended to help the Client work smoothly with oBacker. It is not a contract. If anything in this guide differs from the service Agreement (Master T&C, Order Form and the Service-Specific Terms), the Agreement prevails.
 
@@ -288,7 +288,7 @@ oBacker hands over all books, records and system login details to the Client or 
 
 ## REVISION LOG
 
-| Date | Version | Summary of changes |
+| Date | Version | R.1.0.0, currently applicable |
 | --- | --- | --- |
 | 27/09/2026 | R.2.1.0 | Standardized sole Da Nang head office address, removing unverified branch references.<br>Added dedicated back-office USB Token policy and authorization model.<br>Added strict prohibition of nominee arrangements and clarified intellectual-property out-of-package scope |
 

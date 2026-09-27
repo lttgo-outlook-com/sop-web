@@ -4,9 +4,9 @@ code: "OBK-HB-08"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.2.1.0"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "26/09/2026"
+draft_date: "01/10/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 26/09/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -15,7 +15,7 @@ approver: "CEO"
 parent: "OBK-SOP-KT Kế toán và thuế"
 next_review: "31/10/2026"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-HB-08
 tags:
@@ -30,12 +30,12 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-HB-08 |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.2.1.0, đang áp dụng |
-| Ngày biên soạn | 26/09/2026 |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 26/09/2026 |
-| Người biên soạn | `CEO` biên soạn |
-| Người soát | đã soát |
-| Người phê duyệt | `CEO` ban hành |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] Kế toán và thuế |
 | Lần rà soát tiếp theo | 31/10/2026, bắt buộc rà trước khi tư vấn chế độ kế toán cho năm tài chính 2027 |
 
@@ -828,4 +828,4 @@ Kết luận cho nhân viên: Không có trường hợp nào đổi chế độ
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.2.1.0 | Cap nhat chinh sach ap dung che do ke toan: noi bo ap dung TT 99/2025; huong dan khach hang ap dung TT 99 hoac TT 58 tuy tinh trang onboard; cap nhat trang thai TT 133 con hieu luc mot phan tren vbpl.vn |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

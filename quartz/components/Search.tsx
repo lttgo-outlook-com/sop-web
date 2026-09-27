@@ -32,15 +32,27 @@ export default ((userOpts?: Partial<SearchOptions>) => {
         </button>
         <div class="search-container">
           <div class="search-space">
-            <input
-              autocomplete="off"
-              class="search-bar"
-              name="search"
-              type="text"
-              aria-label={searchPlaceholder}
-              placeholder={searchPlaceholder}
-            />
+            <div class="search-bar-header">
+              <svg class="search-bar-icon" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+              <input
+                autocomplete="off"
+                class="search-bar"
+                name="search"
+                type="text"
+                aria-label={searchPlaceholder}
+                placeholder="Tìm kiếm quy trình, căn cứ, SLA..."
+              />
+              <span class="search-esc-hint"><kbd>Esc</kbd></span>
+            </div>
             <div class="search-layout" data-preview={opts.enablePreview}></div>
+            <div class="search-footer-bar">
+              <span class="footer-hint"><kbd>↑</kbd><kbd>↓</kbd> Di chuyển</span>
+              <span class="footer-hint"><kbd>↵</kbd> Xem tài liệu</span>
+              <span class="footer-hint"><kbd>Esc</kbd> Đóng</span>
+            </div>
           </div>
         </div>
       </div>

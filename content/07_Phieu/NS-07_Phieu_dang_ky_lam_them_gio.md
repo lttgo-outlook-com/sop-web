@@ -6,7 +6,7 @@ folder: "07_Phieu"
 level: "Phiếu thao tác"
 version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "27/09/2026"
+draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
 review_status: "đã soát"
@@ -16,7 +16,7 @@ parent: "OBK-TTT-05 Cách làm phiếu thao tác"
 law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - NS-07
 tags:
@@ -32,10 +32,10 @@ tags:
 | Mã tài liệu | NS-07 |
 | Cấp tài liệu | Phiếu thao tác |
 | Phiên bản | R.1.0.0, đang áp dụng |
-| Ngày biên soạn | 27/09/2026 |
-| Người biên soạn | `CEO` |
-| Người soát | `CEO` |
-| Người phê duyệt | `CEO`, ký với chức danh Tổng giám đốc |
+| Ngày biên soạn | 01/10/2026 |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | `OBK-TTT-05` Cách làm phiếu thao tác |
 | **Mã phiếu** | NS-07 |
 | **Màu** | VÀNG, phiếu kiểm tra điều kiện trước khi thực hiện |
@@ -146,4 +146,4 @@ Làm thêm giờ tác động trực tiếp đến thời gian nghỉ ngơi, s�
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.1.0.0 | Ban hành bản đầu biểu mẫu phiếu đăng ký làm thêm giờ. |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

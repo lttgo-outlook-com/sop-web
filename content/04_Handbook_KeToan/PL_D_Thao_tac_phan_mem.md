@@ -4,9 +4,9 @@ code: "OBK-SOP-PL-D"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Phụ lục"
-version: "R.1.0.1"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "27/09/2026"
+draft_date: "01/10/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 25/08/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -16,7 +16,7 @@ parent: "OBK-SOP-KT Kế toán và thuế"
 next_review: "Chậm nhất 28/02/2027"
 appendix: "Thao tác trên phần mềm và công cụ"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-SOP-PL-D
 tags:
@@ -32,12 +32,12 @@ tags:
 | Mã tài liệu | OBK-SOP-PL-D |
 | Tên phụ lục | Thao tác trên phần mềm và công cụ |
 | Cấp tài liệu | Phụ lục của hướng dẫn cấp 3 |
-| Phiên bản | R.1.0.1, đang áp dụng |
-| Ngày biên soạn | 27/09/2026 |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
-| Người biên soạn | `CEO` biên soạn |
-| Người soát | đã soát |
-| Người phê duyệt | `CEO` ban hành |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] Kế toán và thuế |
 | Tính chất nội dung | QUY ĐỊNH NỘI BỘ oBacker. Phụ lục này là KHUNG TRỐNG, do oBacker tự điền theo công cụ thực tế đang dùng.<br>Không có nội dung pháp lý trong phụ lục này |
 | Trạng thái | Khung chưa triển khai. Tỷ lệ hoàn thành: chưa xác định |
@@ -104,7 +104,7 @@ Quy định nội bộ oBacker. Bảng này là bảng gốc, mọi nội dung k
 
 Dùng khi khách hàng yêu cầu oBacker làm việc trên hệ thống của chính họ.
 
-| # | Khách hàng | Placeholder tương ứng | Tên công cụ của khách | Phiên bản | Ai cấp quyền | Có tài liệu hướng dẫn riêng | Nơi lưu tài liệu |
+| # | Khách hàng | Placeholder tương ứng | Tên công cụ của khách | Phiên bản | R.1.0.0, đang áp dụng | Có tài liệu hướng dẫn riêng | Nơi lưu tài liệu |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | (để trống) | | | | | | |
 | 2 | (để trống) | | | | | | |
@@ -521,4 +521,4 @@ Quy định nội bộ oBacker.
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.1.0.1 | Chuẩn hóa câu chữ: chỉnh cách diễn đạt mức độ thay đổi giao diện phần mềm |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

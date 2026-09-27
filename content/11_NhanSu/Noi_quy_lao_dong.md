@@ -6,7 +6,7 @@ folder: "11_NhanSu"
 level: "Cấp 1, văn bản KHUNG toàn công ty"
 version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "03/09/2026"
+draft_date: "01/10/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 03/09/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -16,7 +16,7 @@ approval_status: "đã phê duyệt"
 parent: "OBK-QCTC-02 Quy chế tổ chức và phân quyền"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-NQLD
   - Nội quy lao động
@@ -37,11 +37,11 @@ tags:
 | Cấp tài liệu | Cấp 1, văn bản KHUNG toàn công ty |
 | Phiên bản | R.1.0.0, đang áp dụng |
 | Văn bản ban hành | Quyết định số 01/2026/QĐ-NQLĐ ngày 03/09/2026 của Tổng giám đốc |
-| Ngày biên soạn | 03/09/2026 |
+| Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 03/09/2026 |
-| Người biên soạn | `CEO` |
-| Người soát | `CEO` |
-| Người phê duyệt | `CEO`, ký với chức danh Tổng giám đốc |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen\|OBK-QCTC-02]] Quy chế tổ chức và phân quyền |
 | Bộ tài liệu | Nhân sự nội bộ oBacker |
 | Lần rà soát tiếp theo | Không quá 12 tháng kể từ ngày ban hành;<br>rà soát đột xuất khi pháp luật lao động thay đổi |
@@ -917,4 +917,4 @@ Bảng này KHÔNG thuộc văn bản đã ký. Bảng dẫn tới nguyên văn 
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 22/09/2026 | R.1.0.0 | Đưa Nội quy lao động ban hành kèm Quyết định 01/2026/QĐ-NQLĐ ngày 03/09/2026 vào kho.<br>Chép nguyên văn 10 chương và 50 điều, không sửa chữ nào.<br>Thêm mục CĂN CỨ PHÁP LÝ dẫn tới 24 mã căn cứ, đặt ngoài phần văn bản đã ký. |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

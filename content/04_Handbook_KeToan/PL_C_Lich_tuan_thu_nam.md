@@ -4,9 +4,9 @@ code: "OBK-SOP-PL-C"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Phụ lục"
-version: "R.1.1.0"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "26/09/2026"
+draft_date: "01/10/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 25/08/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -16,7 +16,7 @@ parent: "OBK-SOP-KT Kế toán và thuế"
 next_review: "Chậm nhất 31/12/2026"
 appendix: "Lịch tuân thủ cả năm"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-SOP-PL-C
 tags:
@@ -33,12 +33,12 @@ tags:
 | Mã tài liệu | OBK-SOP-PL-C |
 | Tên phụ lục | Lịch tuân thủ cả năm |
 | Cấp tài liệu | Phụ lục của hướng dẫn cấp 3 |
-| Phiên bản | R.1.1.0, đang áp dụng |
-| Ngày biên soạn | 26/09/2026 |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
-| Người biên soạn | `CEO` biên soạn |
-| Người soát | đã soát |
-| Người phê duyệt | `CEO` ban hành |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] Kế toán và thuế |
 | Lần rà soát tiếp theo | Đã đối chiếu toàn văn Luật Quản lý thuế 108/2025/QH15 và Nghị định 252/2026/NĐ-CP.<br>BẮT BUỘC rà soát chính sách giảm thuế giá trị gia tăng trước ngày 01/12/2026, vì chính sách hết hiệu lực 31/12/2026; rà soát tổng thể chậm nhất 31/12/2026 |
 
@@ -1371,4 +1371,4 @@ Khoản 2 còn ba hành vi nữa về thông báo chấm dứt hoạt động v�
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.1.1.0 | Cap nhat can cu Luat Kiem toan doc lap 67/2011/QH12 va Nghi dinh 17/2012/ND-CP Dieu 15 cho danh muc doi tuong bat buoc kiem toan BCTC |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

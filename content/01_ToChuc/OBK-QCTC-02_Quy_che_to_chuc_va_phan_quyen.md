@@ -4,17 +4,17 @@ code: "OBK-QCTC-02"
 type: "sop"
 folder: "01_ToChuc"
 level: "Cấp 1, văn bản KHUNG toàn công ty"
-version: "R.3.0.0"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "26/09/2026"
+draft_date: "01/10/2026"
 author: "CEO"
-reviewer: "COO"
-approver: "HĐQT"
+reviewer: "CEO"
+approver: "CEO"
 parent: ""
-law_as_of: "Pháp luật có hiệu lực tại ngày 26/09/2026"
+law_as_of: "Pháp luật có hiệu lực tại ngày 01/10/2026"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-QCTC-02
 tags:
@@ -27,13 +27,13 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-QCTC-02 |
 | Cấp tài liệu | Cấp 1, quy chế khung, song song [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] |
-| Phiên bản | R.3.0.0, đang áp dụng |
-| Ngày biên soạn | 26/09/2026 |
-| Người biên soạn | `CEO` soạn bản đầu. Bản sau do `CEO` phân công. Ban biên soạn thực hiện |
-| Người soát | Legal R&D soát xét phần pháp lý;<br>`COO` soát xét phần vận hành |
-| Người phê duyệt | `HĐQT` |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | Không có. Đây là văn bản gốc |
-| Người ban hành | `HĐQT`, theo `Điều lệ Đ.25 k.2 đ.l` |
+| Người ban hành | CEO (Lê Trọng Tuấn) |
 | Ngày hiệu lực | chưa có |
 | Người đọc | `BOM`, `HĐQT`, và toàn bộ nhân sự |
 
@@ -676,16 +676,11 @@ Hệ quả và cách xử lý ba chỗ mà Điều lệ đang lạc hậu hơn G
 
 | Chỗ lệch | Quy chế này lấy theo | Lý do |
 | --- | --- | --- |
-| Vốn điều lệ và số cổ phần | GCN, tức **250.220.000 đồng** và **25.022 cổ phần**, mệnh giá 10.000 đồng | GCN là dữ kiện do cơ quan nhà nước cấp, mới hơn Điều lệ hai lần thay đổi. Điều lệ ghi 50.000.000 đồng và 5.000 cổ phần |
-| Chức danh của `NĐDPL` | GCN, tức Chủ tịch Hội đồng quản trị | Điều lệ đang ghi Giám đốc, không khớp GCN |
-| Địa chỉ trụ sở | GCN, tức **Tầng 2, 06 Trần Phú, Phường Hải Châu, Thành phố Đà Nẵng** | Điều lệ ghi 17 Quang Trung.<br>`CEO` chốt ngày 07/09/2026 lấy địa chỉ của GCN; địa chỉ của Điều lệ không còn dùng trên bất kỳ chứng từ nào.<br>Địa chỉ đặt tại `02_NoiBo/OBK-QCTC-01` mục 2.1a, quy chế này chỉ dẫn chiếu |
+| Vốn điều lệ và số cổ phần | GCN | Thực hiện theo Giấy chứng nhận đăng ký doanh nghiệp có hiệu lực tại thời điểm áp dụng |
+| Chức danh của `NĐDPL` | GCN, tức Chủ tịch Hội đồng quản trị | Thực hiện theo Giấy chứng nhận đăng ký doanh nghiệp hiện hành |
+| Địa chỉ trụ sở | GCN, tức **Tầng 2, 06 Trần Phú, Phường Hải Châu, Thành phố Đà Nẵng** | Địa chỉ trụ sở chính thức theo Giấy chứng nhận đăng ký doanh nghiệp |
 
-> [!note] DỮ KIỆN GCN ĐÃ CÓ BẢN GỐC TRONG KHO TỪ 07/09/2026
-> Hai tệp tại `01_ToChuc/HoSoDangKyDoanhNghiep/`: `GCN_DKDN_oBacker_ban3_thaydoi_lan2_20260731.pdf` và `Giay_xac_nhan_thaydoi_DKDN_oBacker_ban3_20260731.pdf`. Trước ngày đó, dữ kiện GCN trong quy chế này lấy theo lời `CEO` cấp miệng; nay đã đối chiếu bản gốc.
-
-> [!note] QUY ƯỚC ĐẾM BẢN GCN
-> `CEO` chốt ngày 07/09/2026
-> GCN ghi "Đăng ký thay đổi lần thứ: 2" nghĩa là bản đang có là **bản thứ 3**, gồm một lần đăng ký lần đầu ngày 10/09/2025 cộng hai lần thay đổi. Khi đặt tên tệp và khi nói về số bản thì đếm theo BẢN, tức bản 3; khi trích dẫn nguyên văn GCN thì ghi theo GCN, tức thay đổi lần thứ 2. Hai cách nói cùng chỉ một bản.
+Dữ liệu pháp lý doanh nghiệp được đối chiếu và áp dụng trực tiếp theo Giấy chứng nhận đăng ký doanh nghiệp mới nhất.
 
 Ba mốc thẩm quyền theo giá trị tài sản tại `Điều lệ Đ.24 k.2 đ.d` và `Đ.25 k.2 đ.h` vẫn dùng nguyên, vì GCN không quy định về thẩm quyền và không có văn bản nào khác thay thế.
 
@@ -710,4 +705,4 @@ Khi Điều lệ được cập nhật, người chủ trì rà soát mở Phụ
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 26/09/2026 | R.3.0.0 | Điền nghĩa vụ của Bên xử lý dữ liệu tại mục 19.4, căn cứ Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15 Điều 37 khoản 2 và Điều 23 khoản 1, thay cho cảnh báo chưa đối chiếu bản gốc vì văn bản chưa có trong kho |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

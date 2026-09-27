@@ -4,9 +4,9 @@ code: "OBK-SOP-PL-G"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Phụ lục"
-version: "R.1.0.3"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "27/09/2026"
+draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
 review_status: "đã soát"
@@ -16,7 +16,7 @@ next_review: "Định kỳ hằng năm"
 appendix: "Mốc công việc và đầu ra dịch vụ"
 law_as_of: "Pháp luật có hiệu lực tại ngày 25/08/2026"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-SOP-PL-G
 tags:
@@ -33,11 +33,11 @@ tags:
 | Mã tài liệu | OBK-SOP-PL-G |
 | Tên phụ lục | Mốc công việc và đầu ra dịch vụ |
 | Cấp tài liệu | Phụ lục của hướng dẫn cấp 3 |
-| Phiên bản | R.1.0.3, đang áp dụng |
-| Ngày biên soạn | 27/09/2026 |
-| Người biên soạn | `CEO` biên soạn |
-| Người soát | đã soát |
-| Người phê duyệt | `CEO` ban hành |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] Kế toán và thuế |
 | Phạm vi | Toàn bộ khách hàng dịch vụ kế toán, cả bốn gói G1, G2, G3, G4 |
 | Lần rà soát tiếp theo | Hằng năm, cùng đợt rà soát Chương 02;<br>rà soát đột xuất khi thay đổi khung gói dịch vụ hoặc mẫu hợp đồng |
@@ -805,4 +805,4 @@ Tiêu chí ở đây là NHỊ PHÂN: đạt hoặc không đạt, không có "g
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.1.0.3 | Chuẩn hóa câu chữ: chỉnh phân biệt hạn nộp báo cáo và tiêu chí chấp nhận chỉ số SLA |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

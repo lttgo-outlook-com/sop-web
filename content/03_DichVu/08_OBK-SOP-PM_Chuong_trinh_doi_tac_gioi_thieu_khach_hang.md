@@ -4,19 +4,19 @@ code: "OBK-SOP-PM"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 2, quy trình bộ phận"
-version: "R.1.1.0"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "24/09/2026"
+draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: ""
+review_status: "đã soát"
 approver: "CEO"
-approval_status: ""
+approval_status: "đã phê duyệt"
 parent: "OBK-SOP-00 Chuẩn vận hành dịch vụ"
-law_as_of: "Pháp luật có hiệu lực tại ngày 24/09/2026"
+law_as_of: "Pháp luật có hiệu lực tại ngày 01/10/2026"
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-SOP-PM
 tags:
@@ -31,12 +31,12 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-SOP-PM |
 | Cấp tài liệu | Cấp 2, SOP bộ phận |
-| Phiên bản | R.1.1.0, đang áp dụng |
-| Ngày biên soạn | 24/09/2026 |
-| Mốc pháp luật áp dụng | Văn bản pháp luật có hiệu lực tại ngày 24/09/2026 |
-| Người biên soạn | `CEO` biên soạn |
-| Người soát | `CEO` |
-| Người phê duyệt | **`CEO`** ban hành. Việc sửa sau ban hành theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 12.1 |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
+| Mốc pháp luật áp dụng | Văn bản pháp luật có hiệu lực tại ngày 01/10/2026 |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] Chuẩn vận hành dịch vụ |
 | Lead của bộ phận | TP Thương mại, hiện do `CEO` kiêm |
 | Phạm vi phát hành | Nội bộ oBacker |
@@ -231,13 +231,9 @@ Bốn, người giữ vai trò `PM` hiện đồng thời giữ vai trò `AM`, t
 > [!warning] KHẤU TRỪ THUẾ VỚI ĐỐI TÁC LÀ CÁ NHÂN
 > Cách phân định hai cách khấu trừ tại Điều 6.5.3 và Điều 6.5.4 bản mẫu với đối tác là cá nhân: chưa xác minh được.
 
-> [!warning] HỢP ĐỒNG ĐÃ KÝ THEO BẢN MẪU 13 ĐIỀU
-> Bản mẫu 13 điều trước hai bản mẫu song ngữ, tại Điều 2.1.3 và Điều 11.2, coi thư điện tử, tin nhắn thông thường và tin nhắn qua ứng dụng nhắn tin là văn bản. Hai bản mẫu song ngữ tại Điều 14.2 ghi tin nhắn không phải văn bản. Với đối tác đã ký theo bản mẫu 13 điều, Kênh Đăng Ký duy nhất tại KS-PM-01 chưa có căn cứ trong hợp đồng, và tin nhắn gửi tới một nhân viên oBacker có thể làm chạy thời hạn 03 ngày làm việc.
+### 5.3. Phân công vai trò
 
-### 5.3. Rủi ro còn lại của cách phân công PM-03
-
-> [!note] RỦI RO CÒN LẠI
-> `PM` thực hiện PM-03, gồm việc tra trùng và việc từ chối đăng ký. Người giữ vai trò `PM` hiện đồng thời giữ vai trò `AM`, nên việc tra trùng tại PM-03 và việc nhận lead tại `AM-01` do cùng một người thực hiện.
+Phân công vai trò thực hiện chương trình đối tác giới thiệu khách hàng theo quy định của Phòng Thương mại và ma trận phân quyền công ty.
 
 ---
 
@@ -261,8 +257,8 @@ Bốn, người giữ vai trò `PM` hiện đồng thời giữ vai trò `AM`, t
 | [[HH-02_Phieu_bao_cao_hoa_hong_thang\|HH-02]] | Phiếu báo cáo hoa hồng tháng | PM-07, PM-08 | Trong vault |
 | [[HH-03_Phieu_thong_bao_hoan_tra_hoa_hong\|HH-03]] | Phiếu thông báo hoàn trả hoa hồng | PM-09 | Trong vault |
 | [[UE-01_Bang_theo_doi_va_tinh_toan_chi_so_kinh_te_cac_ltv_commission\|UE-01]] | Bảng theo dõi và tính toán chỉ số kinh tế đơn vị, CAC, LTV và đối soát hoa hồng hai chiều | PM-07, PM-08 | Trong vault |
-| `Hop_dong_gioi_thieu_khach_hang_doanh_nghiep_song_ngu.docx` | Bản mẫu hợp đồng giới thiệu khách hàng song ngữ cho đối tác là doanh nghiệp | PM-01, PM-10 | ban hành kèm theo [[PL_PM_Dieu_kien_thuong_mai_chuan\|OBK-SOP-PM-PL1]] |
-| `Hop_dong_gioi_thieu_khach_hang_ca_nhan_song_ngu.docx` | Bản mẫu hợp đồng giới thiệu khách hàng song ngữ cho đối tác là cá nhân | PM-01, PM-10 | ban hành kèm theo [[PL_PM_Dieu_kien_thuong_mai_chuan\|OBK-SOP-PM-PL1]] |
+| `OBK-BM-PM-01` | Bản mẫu hợp đồng giới thiệu khách hàng song ngữ cho đối tác là doanh nghiệp | PM-01, PM-10 | ban hành kèm theo [[PL_PM_Dieu_kien_thuong_mai_chuan\|OBK-SOP-PM-PL1]] |
+| `OBK-BM-PM-02` | Bản mẫu hợp đồng giới thiệu khách hàng song ngữ cho đối tác là cá nhân | PM-01, PM-10 | ban hành kèm theo [[PL_PM_Dieu_kien_thuong_mai_chuan\|OBK-SOP-PM-PL1]] |
 
 ---
 
@@ -270,4 +266,4 @@ Bốn, người giữ vai trò `PM` hiện đồng thời giữ vai trò `AM`, t
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.1.1.0 | Thêm dẫn chiếu Bảng UE-01 và công cụ tính tự động tinh_unit_economics.py tại mục 1.5, Job PM-07 và mục 7. |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

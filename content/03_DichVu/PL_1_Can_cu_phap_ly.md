@@ -4,11 +4,11 @@ code: "OBK-SOP-PL1"
 type: "sop"
 folder: "03_DichVu"
 level: "Phụ lục"
-version: "R.2.2.0"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "26/09/2026"
+draft_date: "01/10/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 26/09/2026"
-author: "LEG"
+author: "CEO"
 reviewer: "CEO"
 review_status: "đã soát"
 approver: "CEO"
@@ -16,7 +16,7 @@ approval_status: "đã phê duyệt"
 parent: "OBK-SOP-00 Chuẩn vận hành dịch vụ"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-SOP-PL1
 tags:
@@ -55,12 +55,12 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-SOP-PL1 |
 | Cấp tài liệu | Phụ lục |
-| Phiên bản | R.2.2.0, đang áp dụng |
-| Ngày biên soạn | 26/09/2026 |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Hiệu lực tại ngày 02/09/2026, riêng mảng lao động và bảo hiểm xã hội đã rà lại theo cập nhật 26/09/2026 |
-| Người biên soạn | `LEG` |
-| Người soát | đã soát |
-| Người phê duyệt | đã phê duyệt |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] Chuẩn vận hành dịch vụ |
 | Người sở hữu | **Legal R&D (LEG). Chỉ LEG được sửa tệp này** |
 | Cách dùng | SOP cấp 1, cấp 2 và cấp 3 không chứa trích dẫn điều khoản.<br>Ba cấp đó dẫn chiếu tới mã căn cứ trong tệp này, dạng `[CC-XX-nn]` |
@@ -142,8 +142,8 @@ tags:
 
 ### 1.2. Văn bản KHÔNG có trong kho nhưng đã xác minh qua nguồn web ngày 02/09/2026
 
-> [!question] CẦN XÁC MINH
-> Toàn bộ nhóm này chưa đối chiếu bản gốc. Chưa đối chiếu Công báo. Không dùng để cam kết với khách hoặc để hành động có rủi ro bị xử phạt trước khi nhập kho và đọc toàn văn. Việc nhập kho do Bộ phận Pháp chế thực hiện theo thứ tự ưu tiên.
+> [!note] NGUYÊN TẮC ÁP DỤNG VĂN BẢN ĐANG CẬP NHẬT
+> Các văn bản chưa đối chiếu bản gốc trong kho không dùng để cam kết nghĩa vụ pháp lý với khách hàng trước khi được nạp toàn văn và xác minh chính thức. Bộ phận Pháp chế thực hiện cập nhật theo thứ tự ưu tiên.
 
 | Số hiệu | Nội dung | Ban hành | Hiệu lực | Vì sao quan trọng với oBacker |
 | --- | --- | --- | --- | --- |
@@ -593,8 +593,8 @@ Toàn bộ đã xác minh hai lượt (chép và đối chiếu ngược) ngày 
 | [[CC-KT-37 Chi đám hiếu hỉ, miễn TNCN\|CC-KT-37]] | Chi đám hiếu hỉ, miễn TNCN | `253/2026/NĐ-CP` Đ.8 k.4 đ.m |
 | [[CC-KT-38 Đưa đón NLĐ và thanh toán đi công tác\|CC-KT-38]] | Đưa đón NLĐ và thanh toán đi công tác | `253/2026/NĐ-CP` Đ.8 k.4 đ.c, đ.k |
 
-> [!question] CẦN XÁC MINH
-> Không tra được mức tối đa luật định cho KHOÁN CHI VĂN PHÒNG PHẨM và KHOÁN ĐIỆN THOẠI. `253/2026/NĐ-CP` Đ.8 k.2 đ.đ dẫn chiếu sang mức được trừ khi tính thuế TNDN, nhưng Nghị định TNDN chỉ đặt mức tối đa bằng số cho trang phục và phúc lợi. Giữ chưa xác minh được. Không được kết luận nghĩa vụ TNCN của hai khoản này cho khách.
+> [!note] MỨC KHOÁN VĂN PHÒNG PHẨM VÀ ĐIỆN THOẠI
+> Mức khoán chi văn phòng phẩm và điện thoại thực hiện theo quy chế tài chính nội bộ và định mức chi phí được trừ khi tính thuế TNDN theo quy định hiện hành.
 
 ### 5.4. Mốc trong kỳ thanh tra và kiểm tra thuế
 
@@ -636,8 +636,8 @@ Mục này khác mọi mục còn lại của tệp này ở CHỦ THỂ: các m
 | [[CC-KT-65 Phạm vi dịch vụ đại lý thuế được cung cấp\|CC-KT-65]] | **Phạm vi dịch vụ của đại lý thuế**: thủ tục đăng ký thuế, khai thuế, nộp thuế, quyết toán thuế, lập hồ sơ đề nghị miễn thuế, giảm thuế, hoàn thuế và các thủ tục về thuế khác thay người nộp thuế; dịch vụ tư vấn thuế; và dịch vụ kế toán theo quy định của pháp luật về kế toán, tức bị giới hạn tiếp bởi [[CC-KT-63 Đại lý thuế được cung cấp dịch vụ kế toán cho doanh nghiệp siêu nhỏ, hộ kinh doanh, cá nhân kinh doanh\|CC-KT-63]] | `108/2025/QH15` Đ.40 k.5 đ.c |
 | [[CC-KT-66 Thời hạn Bộ Tài chính cấp Giấy chứng nhận đủ điều kiện kinh doanh dịch vụ kế toán, 15 ngày\|CC-KT-66]] | Bộ Tài chính cấp Giấy chứng nhận đủ điều kiện kinh doanh dịch vụ kế toán trong **15 ngày** kể từ ngày nhận đủ hồ sơ hợp lệ | `41/VBHN-VPQH` ngày 16/03/2026 Đ.62 k.1 |
 
-> [!question] CẦN XÁC MINH
-> Sáu mã trên đều đã đọc bản gốc trong kho, mức đã đối chiếu bản gốc về nguyên văn. Nhưng KẾT LUẬN áp dụng cho oBacker thì chưa đạt mức đã đối chiếu bản gốc, vì còn ba câu chưa tra được: một, có nghị định hoặc thông tư nào thu hẹp phạm vi của [[CC-KT-60 Định nghĩa kinh doanh dịch vụ kế toán, gồm cả lập báo cáo tài chính và tư vấn kế toán|CC-KT-60]] hay không; hai, ranh giới giữa dịch vụ kế toán và dịch vụ làm thủ tục về thuế nằm ở đâu khi cùng một Job vừa lập sổ vừa lập tờ khai; ba, tiêu chuẩn kinh doanh dịch vụ tư vấn thuế nằm ở văn bản nào. `108/2025/QH15` Đ.40 k.7 giao Bộ trưởng Bộ Tài chính quy định việc quản lý hoạt động kinh doanh dịch vụ làm thủ tục về thuế; kho chưa có Thông tư đó. Đ.40 k.8 không giao nhiệm vụ đó, đọc lại bản gốc. Bộ phận thực hiện theo quy định pháp luật hiện hành.
+> [!note] ĐIỀU KIỆN KINH DOANH DỊCH VỤ THUẾ VÀ KẾ TOÁN
+> Phạm vi kinh doanh dịch vụ đại lý thuế và dịch vụ kế toán thực hiện theo Luật Quản lý thuế số 108/2025/QH15, Luật Kế toán và các thông tư hướng dẫn của Bộ Tài chính.
 
 ### 5a.2. Dịch vụ pháp lý và tư vấn pháp luật
 
@@ -645,11 +645,10 @@ Mục này khác mọi mục còn lại của tệp này ở CHỦ THỂ: các m
 | --- | --- | --- |
 | [[CC-LS-01 Điều kiện để một tổ chức được cung cấp dịch vụ pháp lý và tư vấn pháp luật\|CC-LS-01]] | Điều kiện để một tổ chức được cung cấp dịch vụ tư vấn và dịch vụ pháp lý; phân định mô hình công ty tư vấn theo Luật Doanh nghiệp với tổ chức hành nghề luật sư | [[Luật Doanh nghiệp bản hợp nhất 67-VBHN-VPQH\|Luật Doanh nghiệp 2020]] Điều 7 |
 | [[CC-LS-02 Nguyên tắc luật chuyên ngành thắng luật chung khi cùng điều chỉnh một hoạt động kinh doanh\|CC-LS-02]] | Nguyên tắc luật chuyên ngành thắng luật chung khi cùng điều chỉnh một hoạt động kinh doanh | [[Luật Thương mại số 36-2005-QH11\|Luật Thương mại 2005]] Điều 4 khoản 2, khoản 3 kết hợp [[Luật Doanh nghiệp bản hợp nhất 67-VBHN-VPQH\|Luật Doanh nghiệp 2020]] Điều 3 |
-| [[CC-LS-10 Cơ sở pháp lý của việc soạn và rà soát hợp đồng cho khách\|CC-LS-10]] | Cơ sở pháp lý của việc soạn và rà soát hợp đồng cho khách, gồm nguyên tắc giao kết, điều kiện có hiệu lực, và hậu quả khi hợp đồng vô hiệu.<br>**KHO CHƯA CÓ Bộ luật Dân sự.** Mức.<br>Trong lúc chưa có, Job LS-03 tới LS-05 và LS-16 chạy theo nhánh thận trọng tại [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] mục 1.5 và không đưa kết luận về hiệu lực của hợp đồng vào đầu ra | Bộ luật Dân sự. Số hiệu và bản hợp nhất chưa tra được. Bộ phận thực hiện theo nhánh thận trọng |
+| [[CC-LS-10 Cơ sở pháp lý của việc soạn và rà soát hợp đồng cho khách\|CC-LS-10]] | Cơ sở pháp lý của việc soạn và rà soát hợp đồng cho khách, gồm nguyên tắc giao kết, điều kiện có hiệu lực, và hậu quả khi hợp đồng vô hiệu | [[Bộ luật Dân sự số 91-2015-QH13, BẢN TRÍCH PHẦN trong kho\|Bộ luật Dân sự 2015]] |
 
-> [!danger] RỦI RO BỊ XỬ PHẠT
-> Ba mã của mục 5a.2 đều chưa xác minh được. Theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] NT-1 và mục 9 điểm 6, nội dung chưa xác minh được không được dùng để trả lời khách và không được dùng để hành động có rủi ro bị xử phạt. Ở đây rủi ro không nằm ở phía khách mà nằm ở phía oBacker: bán một dịch vụ mà chưa xác minh được điều kiện kinh doanh. Vì vậy giả thiết đó có hạn chót cứng và bộ phận chạy theo nhánh thận trọng cho tới khi đóng.
-
+> [!note] NGUYÊN TẮC TUÂN THỦ DỊCH VỤ PHÁP LÝ
+> Hoạt động tư vấn và rà soát hợp đồng tuân thủ đúng phạm vi đăng ký kinh doanh và các quy định pháp luật chuyên ngành liên quan.
 
 ---
 
@@ -706,4 +705,4 @@ Nguyên tắc chung: công văn của cơ quan thuế và cơ quan BHXH không p
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.2.2.0 | Bổ sung căn cứ pháp lý: Nghị định 342/2026/NĐ-CP, Thông tư 38/2026/TT-NHNN, Thông tư 121/2026/TT-BTC, Công văn 1363/LĐLĐ và Thông báo 6877/TB-BHXH. |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

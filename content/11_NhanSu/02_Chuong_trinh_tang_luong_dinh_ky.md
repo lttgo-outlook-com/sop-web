@@ -4,9 +4,9 @@ code: "OBK-QCNS-02"
 type: "sop"
 folder: "11_NhanSu"
 level: "Cấp 2, quy trình bộ phận"
-version: "R.2.0.0"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "23/09/2026"
+draft_date: "01/10/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 22/09/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -16,7 +16,7 @@ approval_status: "đã phê duyệt"
 parent: "OBK-QCNS-00 Bộ tài liệu quản trị nhân sự và vận hành"
 next_review: "Không quá 06 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-QCNS-02-TL
 tags:
@@ -31,12 +31,12 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-QCNS-02 |
 | Cấp tài liệu | Cấp 2 |
-| Phiên bản | R.2.0.0, đang áp dụng |
-| Ngày biên soạn | 23/09/2026 |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 22/09/2026 |
-| Người biên soạn | `CEO` |
-| Người soát | `CEO` |
-| Người phê duyệt | `CEO`, ký với chức danh Tổng giám đốc |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[00_Bo_tai_lieu_quan_tri_nhan_su\|OBK-QCNS-00]] Bộ tài liệu quản trị nhân sự và vận hành |
 | Bộ tài liệu | OBK-QCNS, Bộ tài liệu quản trị nhân sự và vận hành |
 | Lần rà soát tiếp theo | Không quá 06 tháng kể từ ngày ban hành |
@@ -136,4 +136,4 @@ Nhân viên D, lương gross ban đầu 9.000.000 đồng một tháng:
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 23/09/2026 | R.2.0.0 | Mục 2.1 viết lại dãy hiệu suất: bậc 1 từ 80% đến dưới 90%, bậc 2 từ 90% đến dưới 100%, để dãy phủ kín mọi mức từ 80%<br>Mục 2.1 và điều khoản chung điểm 5 dẫn khung đánh giá OBK-QCNS-08, thay hai khung đánh giá theo bộ phận<br>Tình huống 1 và 2 bỏ tên vị trí |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

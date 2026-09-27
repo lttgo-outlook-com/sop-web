@@ -4,9 +4,9 @@ code: "OBK-QCTC-02-PL-A"
 type: "sop"
 folder: "01_ToChuc"
 level: "Phụ lục"
-version: "R.3.0.0"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "23/09/2026"
+draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
 review_status: "đã soát"
@@ -16,7 +16,7 @@ parent: "OBK-QCTC-02 Quy chế tổ chức và phân quyền"
 law_as_of: ""
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-QCTC-02-PL-A
 tags:
@@ -29,11 +29,11 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-QCTC-02-PL-A |
 | Cấp tài liệu | Phụ lục |
-| Phiên bản | R.3.0.0, đang áp dụng |
-| Ngày biên soạn | 23/09/2026 |
-| Người biên soạn | `CEO` soạn bản đầu. Bản sau do `CEO` phân công |
-| Người soát | đã soát |
-| Người phê duyệt | đã phê duyệt |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen\|OBK-QCTC-02]] Quy chế tổ chức và phân quyền |
 
 
@@ -92,13 +92,10 @@ Nghĩa của các vai trò này đặt tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi
 | `TQ` | Thủ quỹ, người giữ quỹ tiền mặt | Cashier | Finance |
 | `HR` | Nhân sự nội bộ | HR Generalist | HR |
 
-> [!note] `TQ` LÀ VAI TRÒ MỚI ĐĂNG KÝ NGÀY 07/09/2026, NGƯỜI GIỮ VAI TRÒ CHƯA GÁN
-> `TGĐ` chốt Thủ quỹ là một vai trò riêng, việc gán người để sau. Trước ngày này bộ tài liệu dùng chữ "thủ quỹ" ở bảy chỗ mà không có ký hiệu và không có ai giữ, nên hai mẫu phiếu thu và phiếu chi thiếu một chữ ký theo chức danh và khung chu trình TIỀN có ba bước không có người làm.
->
-> **Ba điều cấm phải kiểm khi gán người:** `TQ` không được là `KTT` hoặc `KTV` theo `[Luật Kế toán 41/VBHN-VPQH Đ.52 k.4]`; `TQ` không được là người quản lý, điều hành theo `[Luật Kế toán 41/VBHN-VPQH Đ.13 k.7]`, nên không gán cho `TGĐ`, `COO`, `CMO` hay thành viên `HĐQT`; và `TQ` không được là người đối chiếu sao kê, tức không gán cho `AD-KT`. Ba điều cấm này thu hẹp danh sách ứng viên xuống nhân sự không thuộc Finance và không thuộc ban điều hành.
+> [!note] ĐIỀU KIỆN PHÂN CÔNG THỦ QUỸ (TQ)
+> **Ba điều cấm khi phân công vai trò TQ:** `TQ` không được là `KTT` hoặc `KTV` theo `[Luật Kế toán 41/VBHN-VPQH Đ.52 k.4]`; `TQ` không được là người quản lý, điều hành theo `[Luật Kế toán 41/VBHN-VPQH Đ.13 k.7]`, không gán cho `TGĐ`, `COO`, `CMO` hay thành viên `HĐQT`; và `TQ` không được là người đối chiếu sao kê (`AD-KT`). Vai trò do nhân sự ngoài Finance và ngoài ban điều hành đảm nhiệm theo quyết định của TGĐ.
 
-> [!note] `HR` LÀ VAI TRÒ MỚI ĐĂNG KÝ NGÀY 23/09/2026
-> Ký hiệu `HR` đồng thời là nhãn đơn vị tại mục 7. Quy tắc phân định giữa hai cách dùng đặt tại mục 6.
+Ký hiệu `HR` đồng thời là nhãn đơn vị tại mục 7. Quy tắc phân định giữa hai cách dùng đặt tại mục 6.
 
 ## 5. Miền dịch vụ
 
@@ -157,12 +154,11 @@ Bộ tài liệu quản trị nhân sự [[00_Bo_tai_lieu_quan_tri_nhan_su|OBK-Q
 | Account Manager | `AM` và `AE` | Chọn theo người thực tế phụ trách khách đó |
 | Sales Executive | `AM` và `AE` | oBacker KHÔNG có vai trò Sales riêng, xem mục 9. Thưởng doanh thu phân biệt theo HÀNH VI, ký hợp đồng lần đầu hay chăm sóc khách, không phân biệt theo chức danh |
 | Ban Lãnh đạo, BOD | `BOM` | Hai cụm này trong bộ quản trị nhân sự chỉ cơ quan điều hành duyệt mức thưởng, tức `BOM`. KHÔNG đọc BOD thành `HĐQT` |
-| CTO | `CEO` | Vị trí CTO đã bỏ ngày 22/09/2026. Mọi thẩm quyền ghi cho CTO chuyển về `CEO` |
+| CTO | `CEO` | Vị trí CTO đã bỏ; thẩm quyền chuyển về `CEO` |
 
-> [!note] HAI KÝ HIỆU MỚI CỦA CÔNG NGHỆ VÀ SẢN PHẨM
-> `TL-CN` và `CV-CN` đăng ký ngày 22/09/2026 khi đưa bộ quản trị nhân sự vào kho. Người giữ `COO` kiêm `TL-CN`. `CV-CN` là ký hiệu của Product Owner. Người giữ `CV-CN` ghi tại [[PL_Anh_xa_nhan_su|OBK-QCTC-02-PL-D]].
->
-> Mô hình vận hành bốn mức kiểm soát đặt QC Tổng ở mức 3 và Service Lead ở mức 4. Kho không đặt vai trò riêng cho mức 3; việc của mức 3 và mức 4 đều do `COO` làm.
+> [!note] VAI TRÒ CỦA CÔNG NGHỆ VÀ SẢN PHẨM
+> `COO` kiêm `TL-CN`. `CV-CN` là ký hiệu của Product Owner, theo dõi phân công tại [[PL_Anh_xa_nhan_su|OBK-QCTC-02-PL-D]].
+> Mô hình kiểm soát bốn mức: việc của mức 3 và mức 4 do `COO` trực tiếp đảm nhiệm.
 
 ## 6. Ký hiệu trùng nghĩa, quy tắc phân định
 
@@ -257,4 +253,4 @@ Ba nhãn ghi sai tên đơn vị, lấy tên chuẩn ở mục 7:
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 23/09/2026 | R.3.0.0 | CV-CN là ký hiệu của Product Owner, vị trí chuyên môn duy nhất của Bộ phận Công nghệ và Sản phẩm<br>Mục 9 ghi ký hiệu Tech Lead TL-CN và Product Owner CV-CN<br>Mục 5a bỏ hàng Developer, Business Analyst, Tester và QA; thêm hàng Product Owner<br>Mục 5a dẫn thang cấp bậc P1 tới P4 và M1 tại OBK-QCNS-01 mục I.1, thay thang P1 tới P5 và M1 tới M3 |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

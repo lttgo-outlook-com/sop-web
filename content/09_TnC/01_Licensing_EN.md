@@ -2,11 +2,11 @@
 title: "LICENSING SERVICES; SPECIFIC TERMS (PL-GP)"
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.1.0"
+version: "R.1.0.0"
 status: "đang áp dụng"
 language: "en"
 distribution: "Khách hàng"
-previous_version: ""
+previous_version: "R.1.0.0"
 tags:
   - loai/tnc
 ---
@@ -16,7 +16,7 @@ tags:
 *Service-Specific Terms forming an integral part of the Master Terms & Conditions of Service (Master T&C); oBacker Joint Stock Company*
 Tax code: 0402298185 · Floor 2, 06 Tran Phu Street, Hai Chau Ward, Da Nang, Vietnam · contact@obacker.com
 
-**Version:** R.1.1.0 · **Updated:** 27/09/2026
+**Version:** R.1.0.0 (VI-EN) · **Updated:** 01/10/2026
 
 > These are the Service-Specific Terms for Licensing Services (the "**Services**") and apply when the Services are recorded in an Order Form. **If there is any conflict between the Master T&C and this document, this document prevails in respect of the Services.** Matters not specifically addressed here are governed by the Master T&C.
 
@@ -114,7 +114,7 @@ The Service Fees are set out in the Order Form approved by the Client. State fee
 
 ## REVISION LOG
 
-| Date | Version | Summary of changes |
+| Date | Version | R.1.0.0, currently applicable |
 | --- | --- | --- |
 | 27/09/2026 | R.1.1.0 | Added strict prohibition and exclusion of nominee arrangements in Article 3.6.<br>Standardized sole Da Nang head office address |
 | 21/09/2026 | R.1.0.0 | Initial release. |

@@ -2,11 +2,11 @@
 title: "ĐIỀU KHOẢN DỊCH VỤ PHÁP LÝ (PL-PL)"
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.1.0"
+version: "R.1.0.0"
 status: "đang áp dụng"
 language: "vi"
 distribution: "Khách hàng"
-previous_version: ""
+previous_version: "R.1.0.0"
 tags:
   - loai/tnc
 ---
@@ -16,7 +16,7 @@ tags:
 *Điều Khoản Dịch Vụ Cụ Thể, là bộ phận không tách rời của Bản Điều Khoản Chung; Công ty Cổ phần oBacker*
 MST: 0402298185 · Tầng 2, 06 Trần Phú, Phường Hải Châu, Thành phố Đà Nẵng · contact@obacker.com
 
-**Phiên bản:** R.1.0.0 · **Cập nhật:** 21/09/2026
+**Phiên bản:** R.1.0.0 (VI-EN) · **Cập nhật:** 01/10/2026
 
 > Đây là Điều Khoản Dịch Vụ Cụ Thể áp dụng cho Dịch Vụ Pháp Lý ("**Dịch Vụ**"), gồm bốn nhóm: (A) Tư vấn pháp lý và tư vấn thuế; (B) Rà soát và soạn thảo hợp đồng/văn bản; (C) Nghiên cứu theo yêu cầu; (D) Đăng ký quyền sở hữu trí tuệ (nhãn hiệu, bản quyền tác giả). Tài liệu áp dụng khi Dịch Vụ được ghi nhận tại Đơn Đặt Hàng; theo vụ việc, theo giờ, hoặc theo số lượt rà soát trong gói. **Nếu có khác biệt giữa Bản Điều Khoản Chung và tài liệu này, tài liệu này được ưu tiên áp dụng cho Dịch Vụ.**
 
@@ -134,5 +134,4 @@ Phí Dịch Vụ được xác định theo Đơn Đặt Hàng; theo giờ, theo
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.1.1.0 | Bổ sung dịch vụ đăng ký quyền sở hữu trí tuệ (nhãn hiệu, bản quyền tác giả) tại Điều 2.5, Điều 5 và Điều 6.<br>Quy định rõ thời hạn thẩm định thực tế của Cục Sở hữu trí tuệ từ 12-16 tháng và nguyên tắc nộp đơn đầu tiên (first-to-file).<br>Bổ sung quy định nghiêm cấm và loại trừ dịch vụ Nominee tại Điều 3.<br>Điều chỉnh thời hạn soát xét hợp đồng (03-04 ngày làm việc) tại Điều 6 |
-| 21/09/2026 | R.1.0.0 | Ban hành. |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

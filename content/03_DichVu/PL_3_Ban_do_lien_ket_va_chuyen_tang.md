@@ -4,10 +4,10 @@ code: "OBK-SOP-PL3"
 type: "sop"
 folder: "03_DichVu"
 level: "Phụ lục"
-version: "R.1.1.1"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "27/09/2026"
-author: "COO"
+draft_date: "01/10/2026"
+author: "CEO"
 reviewer: "CEO"
 review_status: "đã soát"
 approver: "CEO"
@@ -16,7 +16,7 @@ parent: "OBK-SOP-00 Chuẩn vận hành dịch vụ"
 law_as_of: ""
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-SOP-PL3
 tags:
@@ -29,11 +29,11 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-SOP-PL3 |
 | Cấp tài liệu | Phụ lục |
-| Phiên bản | R.1.1.1, đang áp dụng |
-| Ngày biên soạn | 27/09/2026 |
-| Người biên soạn | `COO` |
-| Người soát | đã soát |
-| Người phê duyệt | đã phê duyệt |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] Chuẩn vận hành dịch vụ |
 | Người sở hữu | COO. LEG sở hữu phần nội dung pháp lý |
 | Đọc khi nào | Mỗi lần sửa bất kỳ tài liệu nào trong bộ. Và khi Team Lead dựng hướng dẫn cấp 3 |
@@ -258,4 +258,4 @@ Bảng kiểm này áp cho mỗi lần thêm một tài liệu mới vào bộ.
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.1.1.1 | Chuẩn hóa định dạng danh sách chuyển cấp và tiêu đề mục 3.2 |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

@@ -6,16 +6,16 @@ folder: "03_DichVu"
 level: "Phụ lục"
 version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "07/09/2026"
+draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
 review_status: "đã soát"
-approver: "TP Thương mại"
+approver: "CEO"
 parent: "OBK-SOP-AM Quản lý khách hàng"
 law_as_of: ""
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-HB-31-PL-A
 tags:
@@ -29,10 +29,10 @@ tags:
 | Mã tài liệu | OBK-HB-31-PL-A |
 | Cấp tài liệu | Phụ lục |
 | Phiên bản | R.1.0.0, đang áp dụng |
-| Ngày biên soạn | 07/09/2026 |
-| Người biên soạn | `CEO` soạn bản đầu. Bản sau do `CEO` phân công |
-| Người soát | đã soát |
-| Người phê duyệt | TP Thương mại |
+| Ngày biên soạn | 01/10/2026 |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] Quản lý khách hàng |
 | Đây là gì | Toàn bộ câu chữ mẫu của tám hướng dẫn cấp 3, gom một chỗ. Sửa một lần thì cả tám hướng dẫn đổi theo |
 
@@ -93,4 +93,4 @@ Cách sửa: sửa ở bảng mục 2, giữ nguyên SỐ MỤC. Số mục là 
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 21/09/2026 | R.1.0.0 | Ban hành. |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

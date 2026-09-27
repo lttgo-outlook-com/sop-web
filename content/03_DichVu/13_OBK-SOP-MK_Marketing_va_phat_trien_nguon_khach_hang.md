@@ -6,7 +6,7 @@ folder: "03_DichVu"
 level: "Cấp 2, quy trình bộ phận"
 version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "27/09/2026"
+draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
 review_status: "đã soát"
@@ -16,7 +16,7 @@ parent: "OBK-SOP-00 Chuẩn vận hành dịch vụ"
 law_as_of: "Pháp luật có hiệu lực tại ngày 27/09/2026"
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-SOP-MK
 tags:
@@ -32,11 +32,11 @@ tags:
 | Mã tài liệu | OBK-SOP-MK |
 | Cấp tài liệu | Cấp 2, SOP bộ phận |
 | Phiên bản | R.1.0.0, đang áp dụng |
-| Ngày biên soạn | 27/09/2026 |
+| Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Văn bản pháp luật có hiệu lực tại ngày 27/09/2026 |
-| Người biên soạn | `CEO` biên soạn |
-| Người soát | `CEO` |
-| Người phê duyệt | **`CEO`** ban hành. Việc sửa sau ban hành theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 12.1 |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |OBK-SOP-00]] mục 12.1 |
 | Văn bản cấp trên | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] Chuẩn vận hành dịch vụ |
 | Lead của bộ phận | `CMO` trực tiếp phụ trách |
 | Phạm vi phát hành | Nội bộ oBacker |
@@ -275,4 +275,4 @@ Bộ phận Marketing theo dõi và đánh giá hiệu quả vận hành thông 
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.1.0.0 | Ban hành quy trình vận hành hoạt động Marketing và phát triển nguồn khách hàng tự thân |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

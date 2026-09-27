@@ -2,11 +2,11 @@
 title: "HR SERVICE TERMS (PL-NS)"
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.0.2"
+version: "R.1.0.0"
 status: "đang áp dụng"
 language: "en"
 distribution: "Khách hàng"
-previous_version: ""
+previous_version: "R.1.0.0"
 tags:
   - loai/tnc
 ---
@@ -16,7 +16,7 @@ tags:
 *Service-Specific Terms, an integral part of the Master T&C; oBacker Joint Stock Company*
 Tax code: 0402298185 · Floor 2, 06 Tran Phu Street, Hai Chau Ward, Da Nang, Vietnam · contact@obacker.com
 
-**Version:** R.1.0.2 · **Updated:** 27 September 2026
+**Version:** R.1.0.0 (VI-EN) · **Updated:** 27 September 2026
 
 > These are the Service-Specific Terms for the HR Services (the "**Services**"): payroll, PIT on salaries, mandatory insurance (social insurance (SI), health insurance (HI), and unemployment insurance (UI)), and labour contracts and reports. They apply where the Services are recorded in the Order Form. **If these Terms differ from the Master T&C, these Terms prevail for the Services.**
 
@@ -158,7 +158,7 @@ The Service Fees are set in the Order Form (usually per head/month or by package
 
 ## REVISION LOG
 
-| Date | Version | Summary of changes |
+| Date | Version | R.1.0.0, currently applicable |
 | --- | --- | --- |
 | 27/09/2026 | R.1.0.2 | Standardized sole Da Nang head office address |
 | 26/09/2026 | R.1.0.1 | Updated legal basis for labour/social insurance non-compliance penalties to Decree No. 283/2026/ND-CP |

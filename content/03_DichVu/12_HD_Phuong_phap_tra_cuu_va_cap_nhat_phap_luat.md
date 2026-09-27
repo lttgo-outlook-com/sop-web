@@ -4,11 +4,11 @@ code: "OBK-HB-71"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.1"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "27/09/2026"
+draft_date: "01/10/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 27/09/2026"
-author: "TL-RD"
+author: "CEO"
 reviewer: "CEO"
 review_status: "đã soát"
 approver: "CEO"
@@ -16,7 +16,7 @@ approval_status: "đã phê duyệt"
 parent: "OBK-SOP-RD Nghiên cứu pháp lý"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-HB-71
 tags:
@@ -31,12 +31,12 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-HB-71 |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.1.0.1, đang áp dụng |
-| Ngày biên soạn | 27/09/2026 |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 27/09/2026 |
-| Người biên soạn | `TL-RD` |
-| Người soát | `CEO` |
-| Người phê duyệt | `CEO` |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[07_OBK-SOP-RD_Nghien_cuu_phap_ly\|OBK-SOP-RD]] Nghiên cứu pháp lý |
 | Đây là gì | Hướng dẫn phương pháp tra cứu văn bản quy phạm pháp luật, xác minh tình trạng hiệu lực, đối chiếu điều khoản chuyển tiếp và lập Báo cáo đánh giá tác động pháp luật độc lập công cụ phần mềm |
 | Đọc trước | [[07_OBK-SOP-RD_Nghien_cuu_phap_ly\|OBK-SOP-RD]]; [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 12.3 và 12.3a |
@@ -243,4 +243,4 @@ Quy trình thực hiện bao gồm 5 bước tiêu chuẩn:
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.1.0.1 | Chuẩn hóa tiêu đề phân cấp mục bảng kiểm tác nghiệp tra cứu và cập nhật pháp luật theo quy chuẩn khung viết K4. |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

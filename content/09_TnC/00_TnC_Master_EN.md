@@ -2,11 +2,11 @@
 title: "MASTER TERMS & CONDITIONS OF SERVICE (MASTER T&C)"
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.2.0"
+version: "R.1.0.0"
 status: "đang áp dụng"
 language: "en"
 distribution: "Khách hàng"
-previous_version: ""
+previous_version: "R.1.0.0"
 tags:
   - loai/tnc
 ---
@@ -19,7 +19,7 @@ Head office: Floor 2, 06 Tran Phu Street, Hai Chau Ward, Da Nang, Vietnam
 HCMC office: 15 Hoang Ke Viem, Bay Hien Ward, Ho Chi Minh City, Vietnam
 Da Nang office: No. 54 Khue My Dong 7 Street, Ngu Hanh Son Ward, Da Nang, Vietnam
 
-**Version:** R.1.2.0 (VI-EN) · **Updated:** 27 September 2026
+**Version:** R.1.0.0 (VI-EN) · **Updated:** 27 September 2026
 
 ---
 

@@ -4,7 +4,7 @@ code: "OBK-CC"
 type: "sop"
 folder: "08_SoCanCu"
 level: "Sổ căn cứ"
-version: "R.1.0.4"
+version: "R.1.0.0"
 status: "đang áp dụng"
 draft_date: "26/09/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 11/09/2026"
@@ -16,7 +16,7 @@ approval_status: "đã phê duyệt"
 parent: "OBK-SOP-00 Chuẩn vận hành dịch vụ"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-CC
 tags:
@@ -53,7 +53,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-CC |
 | Cấp tài liệu | Sổ căn cứ |
-| Phiên bản | R.1.0.4, đang áp dụng |
+| Phiên bản | R.1.0.0, đang áp dụng |
 | Ngày biên soạn | 26/09/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 11/09/2026 |
 | Người biên soạn | `LEG` |
@@ -747,4 +747,4 @@ Bảng đầy đủ được sinh lại từ dữ liệu nguồn tại `08_SoCan
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 26/09/2026 | R.1.0.4 | Đồng bộ dòng CC-LD-121 với trang căn cứ: gửi Sở Nội vụ và thông báo cơ quan bảo hiểm xã hội khu vực |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

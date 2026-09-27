@@ -4,9 +4,9 @@ code: "OBK-SOP-14"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.2.0.0"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "26/09/2026"
+draft_date: "01/10/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 25/08/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -16,7 +16,7 @@ parent: "OBK-SOP-KT Kế toán và thuế"
 next_review: "Chậm nhất 31/12/2026"
 chapter: "Quyết toán thuế năm"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-SOP-14
 tags:
@@ -33,12 +33,12 @@ tags:
 | Mã tài liệu | OBK-SOP-14 |
 | Tên chương | Quyết toán thuế năm |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.2.0.0, đang áp dụng |
-| Ngày biên soạn | 26/09/2026 |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
-| Người biên soạn | `CEO` biên soạn |
-| Người soát | đã soát |
-| Người phê duyệt | `CEO` ban hành |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] Kế toán và thuế |
 | Lần rà soát tiếp theo | Chậm nhất 31/12/2026, hoặc ngay khi có Nghị định của Chính phủ về lưu trữ tài liệu kế toán và nghị định xử phạt lĩnh vực kế toán.<br>Bản gốc Luật Quản lý thuế 108/2025/QH15 và Nghị định 252/2026/NĐ-CP đã có và đã đối chiếu |
 
@@ -812,4 +812,4 @@ Quy tắc báo cáo: TL-KT tổng hợp chỉ số theo tuần trong kỳ quyế
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 26/09/2026 | R.2.0.0 | Gỡ lệnh cấm nêu mức phạt cho hành vi bố trí hoặc thuê kế toán trưởng không đủ tiêu chuẩn, điền mức phạt căn cứ Nghị định 41/2018/NĐ-CP sửa đổi bởi Nghị định 132/2026/NĐ-CP |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

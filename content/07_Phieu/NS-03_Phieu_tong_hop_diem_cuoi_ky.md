@@ -4,9 +4,9 @@ code: "NS-03"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.2.0.0"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "23/09/2026"
+draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
 review_status: "đã soát"
@@ -16,7 +16,7 @@ parent: "OBK-QCNS-08 Khung đánh giá hiệu suất"
 law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: "NS-03_Phieu_tong_hop_diem_cuoi_ky_Phong_Dich_vu.md"
+previous_version: "R.1.0.0"
 aliases:
   - NS-03
 tags:
@@ -29,11 +29,11 @@ tags:
 | --- | --- |
 | Mã tài liệu | NS-03 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.2.0.0, đang áp dụng |
-| Ngày biên soạn | 23/09/2026 |
-| Người biên soạn | `CEO` |
-| Người soát | đã soát |
-| Người phê duyệt | đã phê duyệt |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] |
 | **Mã phiếu** | NS-03 |
 | **Ai dùng** | Quản lý trực tiếp theo [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] mục 6.1 điền; người phê duyệt theo [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] mục 6 bước 7 ký phê duyệt |
@@ -265,4 +265,4 @@ Người phê duyệt theo [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] mục 6 b
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 23/09/2026 | R.2.0.0 | Phiếu dùng chung cho mọi vị trí trong phạm vi Khung đánh giá hiệu suất OBK-QCNS-08, thay phiếu riêng của Phòng Dịch vụ<br>Tổng hợp tám tiêu chí phần A, tiêu chí riêng của phiếu vị trí và ba tiêu chí phần B; bỏ công thức 60% tự đánh giá cộng 20% cộng 20% đánh giá chéo<br>Trọng số quản lý trực tiếp trên phần B là 40%, 60% hoặc 80% theo số suất đánh giá chéo có người<br>Thêm điểm cộng tối đa 5%, năm quy tắc chặn điểm CD-01 tới CD-05, nhãn xếp loại năm mức, biên bản phản hồi<br>Đổi tên tệp, bỏ chữ Phòng Dịch vụ khỏi tên phiếu |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

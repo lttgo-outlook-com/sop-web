@@ -4,10 +4,10 @@ code: "OBK-SOP-PL2"
 type: "sop"
 folder: "03_DichVu"
 level: "Phụ lục"
-version: "R.1.2.1"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "27/09/2026"
-author: "COO"
+draft_date: "01/10/2026"
+author: "CEO"
 reviewer: "CEO"
 review_status: "đã soát"
 approver: "CEO"
@@ -16,7 +16,7 @@ parent: "OBK-SOP-00 Chuẩn vận hành dịch vụ"
 law_as_of: "Pháp luật có hiệu lực tại ngày 26/09/2026"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-SOP-PL2
 tags:
@@ -50,11 +50,11 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-SOP-PL2 |
 | Cấp tài liệu | Phụ lục |
-| Phiên bản | R.1.2.1, đang áp dụng |
-| Ngày biên soạn | 27/09/2026 |
-| Người biên soạn | `COO` |
-| Người soát | đã soát |
-| Người phê duyệt | đã phê duyệt |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | `OBK-SOP-00` Chuẩn vận hành dịch vụ |
 | Tổng số Job | 203 |
 | Cách sinh | Trang này được sinh lại từ bảng Job của các SOP cấp 2 |
@@ -400,4 +400,4 @@ Tổng: 66 Job có thời hạn bên ngoài.
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.1.2.1 | Chuẩn hóa tiêu đề mục 1.4 phân hệ lao động |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

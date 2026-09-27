@@ -4,9 +4,9 @@ code: "OBK-SOP-PL-A"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Phụ lục"
-version: "R.1.1.1"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "26/09/2026"
+draft_date: "01/10/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 25/08/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -16,7 +16,7 @@ parent: "OBK-SOP-KT Kế toán và thuế"
 next_review: "Chậm nhất 28/02/2027"
 appendix: "Bộ bảng kiểm in ra dùng được"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-SOP-PL-A
 tags:
@@ -32,12 +32,12 @@ tags:
 | Mã tài liệu | OBK-SOP-PL-A |
 | Tên phụ lục | Bộ bảng kiểm in ra dùng được |
 | Cấp tài liệu | Phụ lục của hướng dẫn cấp 3 |
-| Phiên bản | R.1.1.1, đang áp dụng |
-| Ngày biên soạn | 26/09/2026 |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
-| Người biên soạn | `CEO` biên soạn |
-| Người soát | đã soát |
-| Người phê duyệt | `CEO` ban hành |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] Kế toán và thuế |
 | Tính chất nội dung | QUY ĐỊNH NỘI BỘ oBacker. Các bảng kiểm là công cụ kiểm soát nội bộ.<br>Nội dung nghiệp vụ chi tiết và căn cứ pháp lý nằm ở chương gốc được dẫn chiếu ở đầu mỗi bảng kiểm |
 | Lần rà soát tiếp theo | Hằng năm, trước 28/02/2027. Rà soát đột xuất ngay khi chương gốc được cập nhật |
@@ -1174,4 +1174,4 @@ Vì oBacker không đứng tên trên báo cáo tài chính của khách, hợp 
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 26/09/2026 | R.1.1.1 | Sửa câu nói kho chưa có bản gốc báo cáo đầu tư của khách có vốn đầu tư nước ngoài, vì Thông tư 44/2026/TT-BTC đã có trong kho |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

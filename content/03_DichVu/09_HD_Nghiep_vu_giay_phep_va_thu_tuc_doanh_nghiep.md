@@ -4,19 +4,19 @@ code: "OBK-HB-41"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.2.0.0"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "27/09/2026"
+draft_date: "01/10/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 27/09/2026"
-author: "TL-LIC"
+author: "CEO"
 reviewer: "CEO"
 review_status: "đã soát"
-approver: "COO"
+approver: "CEO"
 approval_status: "đã phê duyệt"
 parent: "OBK-SOP-LIC Giấy phép"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-HB-41
 tags:
@@ -32,12 +32,12 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-HB-41 |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.2.0.0, đang áp dụng |
-| Ngày biên soạn | 27/09/2026 |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 27/09/2026 |
-| Người biên soạn | `TL-LIC` |
-| Người soát | `CEO` |
-| Người phê duyệt | `COO` |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[04_OBK-SOP-LIC_Giay_phep\|OBK-SOP-LIC]] Giấy phép |
 | Đây là gì | Hướng dẫn chi tiết thao tác xử lý hồ sơ thành lập, thay đổi đăng ký doanh nghiệp, giấy phép lao động và thị thực, thẻ tạm trú không phụ thuộc công cụ phần mềm |
 | Đọc trước | [[04_OBK-SOP-LIC_Giay_phep\|OBK-SOP-LIC]]; [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] |
@@ -281,4 +281,4 @@ Quy trình xử lý hồ sơ bao gồm 9 bước tiêu chuẩn:
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.2.0.0 | Cập nhật 09 biểu mẫu đăng ký doanh nghiệp mới theo Thông tư 121/2026/TT-BTC (VBHN 28/2026/VBHN-TT-BTC) và quy định tài khoản vốn đầu tư nước ngoài tại Việt Nam theo Thông tư 38/2026/TT-NHNN. |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

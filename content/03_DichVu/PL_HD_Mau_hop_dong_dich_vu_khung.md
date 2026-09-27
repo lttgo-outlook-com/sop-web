@@ -6,7 +6,7 @@ folder: "03_DichVu"
 level: "Phụ lục"
 version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "27/09/2026"
+draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
 review_status: "đã soát"
@@ -16,7 +16,7 @@ parent: "OBK-SOP-AM Quản lý khách hàng"
 law_as_of: "Pháp luật có hiệu lực tại ngày 27/09/2026"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-SOP-AM-PL2
 tags:
@@ -32,10 +32,10 @@ tags:
 | Mã tài liệu | OBK-SOP-AM-PL2 |
 | Cấp tài liệu | Phụ lục |
 | Phiên bản | R.1.0.0, đang áp dụng |
-| Ngày biên soạn | 27/09/2026 |
-| Người biên soạn | `CEO` biên soạn |
-| Người soát | `CEO` |
-| Người phê duyệt | `CEO` |
+| Ngày biên soạn | 01/10/2026 |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] Quản lý khách hàng |
 | Phạm vi phát hành | Nội bộ oBacker |
 
@@ -64,7 +64,7 @@ Hợp đồng dịch vụ của oBacker được thiết kế theo cấu trúc m
 
 | Dòng | Điều khoản | Nội dung chuẩn hóa | Căn cứ SOP và Pháp luật | Bộ phận thực thi |
 | --- | --- | --- | --- | --- |
-| 1 | Chủ thể oBacker | Công ty Cổ phần oBacker; MST: 0402298185.<br>Trụ sở chính: Tầng 2, 06 Trần Phú, Phường Hải Châu, TP Đà Nẵng.<br>Địa điểm kinh doanh: Số 54 đường Khuê Mỹ Đông 7, Phường Ngũ Hành Sơn, TP Đà Nẵng.<br>Hotline: 02-888-999-789; Email: contact@obacker.com | Giấy chứng nhận ĐKDN; [[00_TnC_Master_VI\|Bản Điều Khoản Chung]] | `AM`, `KTT` |
+| 1 | Chủ thể oBacker | Công ty Cổ phần oBacker; MST: 0402298185.<br>Trụ sở chính: Tầng 2, 06 Trần Phú, Phường Hải Châu, TP Đà Nẵng.<br>Địa điểm kinh doanh tại Đà Nẵng: Số 54 đường Khuê Mỹ Đông 7, Phường Ngũ Hành Sơn, TP Đà Nẵng.<br>Văn phòng TP.HCM (Địa điểm kinh doanh): 15 Hoàng Kế Viêm, Phường Bảy Hiền, TP. Hồ Chí Minh.<br>Hotline: 02-888-999-789; Email: contact@obacker.com | Giấy chứng nhận ĐKDN; [[00_TnC_Master_VI\|Bản Điều Khoản Chung]] | `AM`, `KTT` |
 | 2 | Người ký đại diện | `TGĐ` (hoặc người được ủy quyền hợp pháp bằng văn bản) | Điều lệ oBacker; [[PL_Ma_tran_phan_quyen\|OBK-QCTC-02-PL-B]] | `CEO` |
 | 3 | Tiêu chuẩn thông tin | Khách hàng bảo đảm 4 tiêu chí thông tin đầu vào: Chính xác, Đầy đủ, Hợp pháp, Đúng hạn.<br>oBacker thực hiện dịch vụ căn cứ trên thông tin khách hàng cung cấp | [[00_TnC_Master_VI\|Bản Điều Khoản Chung]] Điều 3 | `AM`, Chuyên viên nghiệp vụ |
 | 4 | Mô hình thanh toán | Mặc định là trả trước 100%.<br>Chỉ áp dụng trả sau khi có thỏa thuận rõ tại Phụ lục Dịch vụ.<br>Tài khoản nhận duy nhất: 55550909 tại Techcombank Đà Nẵng | [[00_TnC_Master_VI\|Bản Điều Khoản Chung]] Điều 4; [[OBK-SOP-NB-02_Thu_tien_va_cong_no_phai_thu\|OBK-SOP-NB-02]] | `AM`, `KTT` |
@@ -109,7 +109,8 @@ BÊN CUNG CẤP DỊCH VỤ (Sau đây gọi là “Bên B” hoặc “oBacker�
 CÔNG TY CỔ PHẦN OBACKER
 - Mã số thuế: 0402298185
 - Địa chỉ trụ sở chính: Tầng 2, 06 Trần Phú, Phường Hải Châu, Thành phố Đà Nẵng, Việt Nam
-- Địa điểm kinh doanh: Số 54 đường Khuê Mỹ Đông 7, Phường Ngũ Hành Sơn, Thành phố Đà Nẵng, Việt Nam
+- Địa điểm kinh doanh tại Đà Nẵng: Số 54 đường Khuê Mỹ Đông 7, Phường Ngũ Hành Sơn, Thành phố Đà Nẵng, Việt Nam
+- Văn phòng TP.HCM (Địa điểm kinh doanh): 15 Hoàng Kế Viêm, Phường Bảy Hiền, TP. Hồ Chí Minh, Việt Nam
 - Đại diện bởi: Ông LÊ TRỌNG TUẤN
 - Chức danh: Tổng Giám đốc
 - Hotline: 02-888-999-789
@@ -315,7 +316,8 @@ BÊN CUNG CẤP DỊCH VỤ (Sau đây gọi là “Bên B” hoặc “oBacker�
 CÔNG TY CỔ PHẦN OBACKER / OBACKER JOINT STOCK COMPANY
 - Mã số thuế / Tax Code: 0402298185
 - Địa chỉ trụ sở chính / Head Office: Tầng 2, 06 Trần Phú, Phường Hải Châu, Thành phố Đà Nẵng, Việt Nam / Floor 2, 06 Tran Phu, Hai Chau Ward, Da Nang City, Vietnam
-- Địa điểm kinh doanh / Business Location: Số 54 đường Khuê Mỹ Đông 7, Phường Ngũ Hành Sơn, Thành phố Đà Nẵng, Việt Nam / No. 54 Khue My Dong 7, Ngu Hanh Son Ward, Da Nang City, Vietnam
+- Địa điểm kinh doanh tại Đà Nẵng / Da Nang Business Location: Số 54 đường Khuê Mỹ Đông 7, Phường Ngũ Hành Sơn, Thành phố Đà Nẵng, Việt Nam / No. 54 Khue My Dong 7, Ngu Hanh Son Ward, Da Nang City, Vietnam
+- Văn phòng TP.HCM (Địa điểm kinh doanh) / HCMC Office (Business Location): 15 Hoàng Kế Viêm, Phường Bảy Hiền, TP. Hồ Chí Minh, Việt Nam / 15 Hoang Ke Viem, Bay Hien Ward, Ho Chi Minh City, Vietnam
 - Đại diện bởi / Represented by: Ông / Mr. LÊ TRỌNG TUẤN
 - Chức danh / Title: Tổng Giám đốc / Chief Executive Officer
 - Hotline: 02-888-999-789
@@ -447,14 +449,14 @@ _____________________                                   _____________________
 
 ---
 
-## 5. BẢN MẪU TỆP VÀ NƠI LẤY BẢN KÝ
+## 5. BẢN MẪU HỢP ĐỒNG CHUẨN
 
-Hai bản mẫu hợp đồng chuẩn dưới dạng tệp văn bản `.docx` được ban hành và lưu trữ tại thư mục `08_MauHopDong/` ngoài vault để `AM` xuất bản ký cho khách hàng:
+Hai bản mẫu hợp đồng chuẩn được ban hành theo quy định của oBacker để `AM` xuất bản ký cho khách hàng:
 
-| Bản mẫu | Tên tệp văn bản `.docx` | Định dạng | Trường hợp sử dụng |
+| Bản mẫu | Mã định danh | Định dạng | Trường hợp sử dụng |
 | --- | --- | --- | --- |
-| Bản thuần Việt | `Hop_dong_dich_vu_khung_thuan_viet.docx` | Tiếng Việt chuẩn | Khách hàng là doanh nghiệp nội địa, giao dịch hoàn toàn bằng tiếng Việt |
-| Bản song ngữ | `Hop_dong_dich_vu_khung_song_ngu_viet_anh.docx` | Song ngữ Việt - Anh | Khách hàng FDI, khách hàng quốc tế hoặc có cổ đông/quản lý là người nước ngoài |
+| Bản thuần Việt | `OBK-BM-HD-01` | Tiếng Việt chuẩn | Khách hàng là doanh nghiệp nội địa, giao dịch hoàn toàn bằng tiếng Việt |
+| Bản song ngữ | `OBK-BM-HD-02` | Song ngữ Việt - Anh | Khách hàng FDI, khách hàng quốc tế hoặc có cổ đông/quản lý là người nước ngoài |
 
 ---
 
@@ -472,4 +474,4 @@ Hai bản mẫu hợp đồng chuẩn dưới dạng tệp văn bản `.docx` đ
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.1.0.0 | Ban hành quy chuẩn và bản mẫu Hợp đồng Dịch vụ Khung mô-đun hóa, gồm bản thuần Việt và bản song ngữ Việt - Anh |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

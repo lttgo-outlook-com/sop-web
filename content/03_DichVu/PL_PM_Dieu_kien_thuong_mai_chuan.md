@@ -6,17 +6,17 @@ folder: "03_DichVu"
 level: "Phụ lục"
 version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "24/09/2026"
+draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: ""
+review_status: "đã soát"
 approver: "CEO"
-approval_status: ""
+approval_status: "đã phê duyệt"
 parent: "OBK-SOP-PM Chương trình đối tác giới thiệu khách hàng"
 law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-SOP-PM-PL1
 tags:
@@ -30,10 +30,10 @@ tags:
 | Mã tài liệu | OBK-SOP-PM-PL1 |
 | Cấp tài liệu | Phụ lục |
 | Phiên bản | R.1.0.0, đang áp dụng |
-| Ngày biên soạn | 24/09/2026 |
-| Người biên soạn | `CEO` biên soạn |
-| Người soát | `CEO` |
-| Người phê duyệt | `CEO` |
+| Ngày biên soạn | 01/10/2026 |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[08_OBK-SOP-PM_Chuong_trinh_doi_tac_gioi_thieu_khach_hang\|OBK-SOP-PM]] Chương trình đối tác giới thiệu khách hàng |
 | Phạm vi phát hành | Nội bộ oBacker |
 
@@ -85,10 +85,10 @@ Phụ lục ghi điều kiện thương mại chuẩn của hai bản mẫu Hợ
 
 Bản mẫu hợp đồng chuẩn ban hành kèm theo phụ lục này. Bản mẫu 13 điều trước hai bản mẫu song ngữ không dùng để ký thêm.
 
-| Bản mẫu | Tên tệp | Nơi lấy bản ký | Dùng khi |
+| Bản mẫu | Mã định danh | Nơi lấy bản ký | Dùng khi |
 | --- | --- | --- | --- |
-| Đối tác là doanh nghiệp | `Hop_dong_gioi_thieu_khach_hang_doanh_nghiep_song_ngu.docx` | Ban hành kèm phụ lục này | Bên B là doanh nghiệp |
-| Đối tác là cá nhân | `Hop_dong_gioi_thieu_khach_hang_ca_nhan_song_ngu.docx` | Ban hành kèm phụ lục này | Bên B là cá nhân |
+| Đối tác là doanh nghiệp | `OBK-BM-PM-01` | Ban hành kèm phụ lục này | Bên B là doanh nghiệp |
+| Đối tác là cá nhân | `OBK-BM-PM-02` | Ban hành kèm phụ lục này | Bên B là cá nhân |
 
 ---
 
@@ -102,4 +102,4 @@ Bảng lập tay từ hai bản mẫu song ngữ và từ các quyết định v
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 24/09/2026 | R.1.0.0 | Dựng bản đầu |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

@@ -4,17 +4,17 @@ code: "OBK-SOP-LIC-PL-01"
 type: "sop"
 folder: "03_DichVu"
 level: "Phụ lục"
-version: "R.2.0.0"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "27/09/2026"
-author: "TL-LIC"
-reviewer: "Legal R&D"
+draft_date: "01/10/2026"
+author: "CEO"
+reviewer: "CEO"
 approver: "CEO"
 parent: "OBK-SOP-LIC Giấy phép"
 law_as_of: "Pháp luật có hiệu lực tại ngày 26/09/2026"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-SOP-LIC-PL-01
 tags:
@@ -29,11 +29,11 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-SOP-LIC-PL-01 |
 | Cấp tài liệu | Phụ lục quy trình chi tiết |
-| Phiên bản | R.2.0.0, đang áp dụng |
-| Ngày biên soạn | 27/09/2026 |
-| Người biên soạn | `TL-LIC` biên soạn cùng `Legal R&D` |
-| Người soát | `Legal R&D` đã soát |
-| Người phê duyệt | **`COO` cùng `CEO`** phê duyệt |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[04_OBK-SOP-LIC_Giay_phep\|OBK-SOP-LIC]] Giấy phép |
 
 ---
@@ -428,4 +428,4 @@ Bảng tổng hợp bảy mã Job bổ sung cho Bộ phận Licensing và Bộ p
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.2.0.0 | Cập nhật căn cứ Nghị định 342/2026/NĐ-CP thay thế Nghị định 09/2018/NĐ-CP cho quy trình cấp Giấy phép kinh doanh bán lẻ của DN FDI (Job LIC-25), bổ sung Mẫu 01, Mẫu 02 và quy định chuyển tiếp Điều 44. |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

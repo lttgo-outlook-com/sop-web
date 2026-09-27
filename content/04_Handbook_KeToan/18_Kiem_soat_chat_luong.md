@@ -4,9 +4,9 @@ code: "OBK-SOP-18"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.1"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "27/09/2026"
+draft_date: "01/10/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 25/08/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -16,7 +16,7 @@ parent: "OBK-SOP-KT Kế toán và thuế"
 next_review: "Chậm nhất 28/02/2027"
 chapter: "Kiểm soát chất lượng và quy trình soát xét"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-SOP-18
 tags:
@@ -34,12 +34,12 @@ tags:
 | Mã tài liệu | OBK-SOP-18 |
 | Tên chương | Kiểm soát chất lượng và quy trình soát xét |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.1.0.1, đang áp dụng |
-| Ngày biên soạn | 27/09/2026 |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
-| Người biên soạn | `CEO` biên soạn |
-| Người soát | đã soát |
-| Người phê duyệt | `CEO` ban hành |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] Kế toán và thuế |
 | Tính chất nội dung | QUY ĐỊNH NỘI BỘ oBacker. Trừ các đoạn có ghi mức chắc chắn của căn cứ, toàn bộ chương này là chính sách do oBacker tự ban hành, không phải quy định của pháp luật |
 | Lần rà soát tiếp theo | 6 tháng một lần, chậm nhất 28/02/2027.<br>Rà soát đột xuất khi tỷ lệ lỗi vượt ngưỡng cảnh báo tại mục 6.8 trong hai quý liên tiếp |
@@ -977,4 +977,4 @@ Chỉ số của chính chương này, đo mức độ chương được thực 
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.1.0.1 | Chuẩn hóa câu chữ: thay bằng danh tiếng và chỉnh tiêu đề soát xét toàn phần |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

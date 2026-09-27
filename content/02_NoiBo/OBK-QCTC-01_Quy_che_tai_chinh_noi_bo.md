@@ -4,11 +4,11 @@ code: "OBK-QCTC-01"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 1, văn bản KHUNG toàn công ty"
-version: "R.4.0.1"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "26/09/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 29/08/2026"
-author: ""
+draft_date: "01/10/2026"
+law_as_of: "Pháp luật có hiệu lực tại ngày 01/10/2026"
+author: "CEO"
 reviewer: "CEO"
 review_status: "đã soát"
 approver: "CEO"
@@ -16,7 +16,7 @@ approval_status: "đã phê duyệt"
 parent: "OBK-QCTC-02 Quy chế tổ chức và phân quyền"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
  - OBK-QCTC-01
 tags:
@@ -35,12 +35,12 @@ tags:
 | Mã tài liệu | OBK-QCTC-01 |
 | Tên tài liệu | Quy chế tài chính nội bộ của Công ty cổ phần oBacker |
 | Cấp tài liệu | Cấp 1, văn bản KHUNG. Các quy trình OBK-SOP-NB nằm dưới quy chế này |
-| Phiên bản | R.4.0.1, đang áp dụng |
-| Ngày biên soạn | 26/09/2026 |
-| Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 29/08/2026, đối chiếu kho bản 137 tệp cập nhật 29/08/2026 |
-| Người biên soạn | (để trống) |
-| Người soát | (để trống) |
-| Người phê duyệt | (để trống) |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
+| Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 01/10/2026 |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen\|OBK-QCTC-02]] Quy chế tổ chức và phân quyền |
 | Bộ tài liệu | OBK-SOP-NB, Sổ tay quy trình nội bộ oBacker |
 | Lần rà soát tiếp theo | Không quá 12 tháng kể từ ngày ban hành;<br>rà soát đột xuất khi có văn bản mới theo Chương 21 của Handbook Kế toán |
@@ -93,45 +93,6 @@ tags:
 >
 > Ba quy tắc này phải được kiểm tra với hiện trạng nhân sự trước khi ban hành quy chế. Nếu đang vi phạm thì tách vai trò trước, không ban hành rồi để chính quy chế đó đang bị vi phạm.
 
-> [!info] ĐỌC TRƯỚC KHI ĐỌC BẤT CỨ CHƯƠNG NÀO: BA VẤN ĐỀ CỦA BỘ HỒ SƠ NỀN
->
-> Quy chế này được xây trên `Điều lệ Công ty cổ phần oBacker` và [[Noi_quy_lao_dong|OBK-NQLD]] Nội quy lao động, ban hành kèm Quyết định số 01/2026/QĐ-NQLĐ **ngày 03/09/2026**. Nội quy có hiệu lực sau 15 ngày kể từ ngày cơ quan nhà nước nhận đủ hồ sơ đăng ký nếu oBacker dùng từ 10 người lao động trở lên, nên ngày trên quyết định chưa phải ngày hiệu lực. Ba vấn đề dưới đây không xử lý được bằng cách sửa quy chế; mỗi vấn đề kèm cách quy chế này xử lý.
->
-> **Vấn đề 1. Bộ hồ sơ nền không phải bản cập nhật mới nhất, và giả thiết đó đã được xác nhận.** Bản Điều lệ nhận được để trống ngày tháng năm và trang chữ ký tại Điều 52. Ba dữ kiện của Điều lệ đã bị Giấy chứng nhận vượt qua và không được dùng nữa: trụ sở ghi tại Điều 3 là 17 Quang Trung; vốn điều lệ ghi tại Điều 6 là 50.000.000 đồng; chức danh người đại diện theo pháp luật ghi là Giám đốc. Nội quy lao động ghi ngày 03/09/2026, tức sau ngày biên soạn.
-
-> [!note] BA DỮ KIỆN ĐÚNG
-> LẤY TỪ GIẤY CHỨNG NHẬN
-> Xem mục 2.1a và mục 8.1: trụ sở là **Tầng 2, 06 Trần Phú, Phường Hải Châu, Thành phố Đà Nẵng**; vốn điều lệ 250.220.000 đồng, 25.022 cổ phần; người đại diện theo pháp luật giữ chức danh Chủ tịch hội đồng quản trị.
->
-> **Giả thiết làm việc đã chốt:** quy chế này dùng bản Điều lệ và bản Nội quy đã nhận làm cơ sở, và coi **cấu trúc thẩm quyền** trong đó là còn đúng, ngay cả khi các con số và thông tin nhân sự đã thay đổi. Lý do giả thiết này chấp nhận được: phần quy chế này thực sự dựa vào là các mốc thẩm quyền theo tỷ lệ, cụ thể mốc 35% tổng giá trị tài sản, và sự phân cấp giữa ĐHĐCĐ, HĐQT, TGĐ. Ba thứ đó là cấu trúc, ít thay đổi khi sửa Điều lệ. Ngược lại, con số vốn điều lệ và tên người thì quy chế này cố ý không phụ thuộc vào: xem mục 8.1a giải thích tại sao mốc thẩm quyền tính theo tổng giá trị tài sản chứ không theo vốn điều lệ, và xem Điều 4 giải thích tại sao vai trò được định nghĩa theo chức năng chứ không theo tên người.
->
-> **Nhánh thay thế:** khi có bản Điều lệ cập nhật, mở **Phụ lục 3** để tìm đúng các mục bị ảnh hưởng và sửa theo, không đọc lại toàn bộ quy chế.
->
-> **Vấn đề 2. Chức vụ Tổng giám đốc đã được bổ nhiệm; vai trò người đại diện theo pháp luật để mở, và quy chế này viết sao cho đúng cả hai nhánh.** Ông Lê Trọng Tuấn được bổ nhiệm Tổng giám đốc, đúng thẩm quyền HĐQT tại `[Điều lệ Đ.25 k.2 đ.i]` và `[Điều lệ Đ.28 k.1]`. Bản Điều lệ đã nhận ghi tại Điều 5 khoản 1 và khoản 3 rằng công ty có 01 người đại diện theo pháp luật giữ chức danh Giám đốc, và ghi một người khác; Nội quy lao động lại gọi người đứng đầu là Tổng giám đốc. Vì bộ hồ sơ không phải bản mới nhất, quy chế này không kết luận hiện nay ai là người đại diện theo pháp luật.
->
-> **Vì sao vẫn phải phân biệt hai vai trò.** Luật Kế toán gắn ba nghĩa vụ **đích danh người đại diện theo pháp luật**, không gắn cho người điều hành: trách nhiệm tổ chức công tác kế toán `[Luật Kế toán 41/VBHN-VPQH Đ.50]`, **chữ ký trên báo cáo tài chính** `[Luật Kế toán 41/VBHN-VPQH Đ.29 k.2 đ.d]`, và trách nhiệm tổ chức bảo quản lưu trữ tài liệu kế toán `[Luật Kế toán 41/VBHN-VPQH Đ.41 k.4]`. Đây là yêu cầu của luật, không phải lựa chọn nội bộ, nên không giả thiết được.
->
-> **Cách quy chế này xử lý, và đây là cách đúng bất kể nhánh nào.** Quy chế dùng hai ký hiệu tách rời, `NĐDPL` cho vai trò đại diện theo pháp luật và `TGĐ` cho vai trò điều hành, rồi gắn mỗi nghĩa vụ vào ký hiệu đúng của nghĩa vụ đó. Nhờ vậy quy chế chạy đúng ở cả hai nhánh mà không cần sửa chữ:
->
-> - **Nhánh A, nếu Giấy chứng nhận đăng ký doanh nghiệp hiện hành ghi TGĐ là người đại diện theo pháp luật:** `NĐDPL` và `TGĐ` là cùng một người, ba nghĩa vụ trên thuộc TGĐ, không phải sửa gì.
-> - **Nhánh B, nếu người đại diện theo pháp luật là người khác:** ba nghĩa vụ trên thuộc người đó, TGĐ không ký thay được, và phải có văn bản phân định rõ giữa hai vai trò. Trách nhiệm pháp lý không chuyển được bằng thói quen vận hành.
->
-> Quy tắc áp cho tới khi đối chiếu xong, đúng ở cả hai nhánh: **chữ ký thứ ba trên báo cáo tài chính là chữ ký của người đang được ghi là người đại diện theo pháp luật trên Giấy chứng nhận đăng ký doanh nghiệp tại thời điểm ký**, xem mục 43.7. Đối chiếu Giấy chứng nhận đăng ký doanh nghiệp hiện hành để xác định người đại diện theo pháp luật tại thời điểm ký.
->
-> **Vấn đề 3. Điều lệ yêu cầu trích lập quỹ nhưng không định nghĩa quỹ nào.** Điều 21 khoản 2 điểm b Điều lệ đặt điều kiện trả cổ tức là "đã trích lập các quỹ công ty và bù đắp lỗ trước đó theo quy định của pháp luật và Điều lệ công ty", và Điều 45 khoản 8 Điều lệ cho phép "trích quỹ dự trữ để bù" lỗ. Nhưng toàn bộ Điều lệ **không có điều khoản nào lập ra quỹ dự trữ, không nêu tỷ lệ trích, không nêu mức tối đa**. Hệ quả: điều kiện trả cổ tức tại Điều 21 khoản 2 điểm b không có nội dung để thực hiện. Điều đã xác minh: **Luật Doanh nghiệp không buộc công ty cổ phần trích lập bất kỳ quỹ nào.** Đã tra toàn bộ `Luật Doanh nghiệp 67/VBHN-VPQH`: cụm "quỹ dự trữ" và "quỹ dự phòng" **không tồn tại** trong văn bản; chữ "trích lập" xuất hiện đúng một lần, tại chính điều kiện trả cổ tức `[Luật Doanh nghiệp 67/VBHN-VPQH Đ.135 k.2 đ.b]`; và việc phân chia lợi nhuận sau thuế được luật xếp vào nội dung do **Điều lệ** quyết định `[Luật Doanh nghiệp 67/VBHN-VPQH Đ.24 k.2 đ.l]`. Hệ quả: nguyên văn điều kiện là "đã trích lập các quỹ công ty và bù đắp lỗ trước đó **theo quy định của pháp luật và Điều lệ công ty**"; nếu cả pháp luật lẫn Điều lệ đều không tạo ra quỹ nào phải trích thì không có gì phải trích lập, và điều kiện được thỏa mãn. **Kết luận hiện hành:** oBacker trả được cổ tức khi thỏa ba điều kiện tại mục 46.2, với điều kiện thứ hai được thỏa mãn bằng cách nghị quyết ĐHĐCĐ **ghi nhận rõ** rằng công ty không có quỹ nào phải trích lập, xem mục 46.6. **Vẫn nên có nghị quyết về danh mục quỹ** vì Điều lệ hai lần nhắc tới quỹ mà không lập ra quỹ nào, và vì `Điều lệ Đ.45 k.8` cho phép bù lỗ bằng quỹ dự trữ, phương án chỉ dùng được khi có quỹ. Xem mục 46.5 tới 46.7.
-
-> [!question] CẦN XÁC MINH
-> KHOẢNG TRỐNG KHO VĂN BẢN, ĐÃ BIẾT VÀ CHƯA BỔ SUNG
->
-> Bốn nhóm nội dung dưới đây chưa tra đủ trong kho nội bộ. Mọi quy định liên quan trong quy chế này giữ tag chưa xác minh được và **không được dùng để kết luận nghĩa vụ thuế**:
->
-> 1. **Luật Doanh nghiệp.** Kho có Văn bản hợp nhất 67/VBHN-VPQH, hợp nhất Luật Doanh nghiệp số 59/2020/QH14 với các luật sửa đổi, giữ nguyên số thứ tự Điều của luật gốc. Điều lệ oBacker đã bù được phần lớn phần còn thiếu này cho nội bộ: thẩm quyền của ĐHĐCĐ tại Điều 24, của HĐQT tại Điều 25, của TGĐ tại Điều 28, trả cổ tức tại Điều 21, năm tài chính tại Điều 44, phân phối lợi nhuận tại Điều 45, thời hạn góp vốn 90 ngày tại Điều 7. Điều lệ còn dẫn chiếu tới Điều 122, Điều 123 tới 125, Điều 138, Điều 167, Điều 168 tới 174, Điều 88, Điều 109, Điều 110 của Luật Doanh nghiệp; các Điều này đều có trong Văn bản hợp nhất 67/VBHN-VPQH, nhưng chưa được đối chiếu nội dung cụ thể với từng quy định của quy chế này.
-> 2. **Ngưỡng giá trị tối thiểu để ghi nhận tài sản cố định, và khung thời gian sử dụng tài sản cố định theo nhóm.** Đã tra được từ ngày 26/09/2026: ngưỡng và khung thời gian theo Văn bản hợp nhất 12/VBHN-BTC, xem Điều 10 và Điều 11 của quy chế này.
-> 3. **Pháp luật về trích lập dự phòng.** Nghị định thuế thu nhập doanh nghiệp loại trừ khoản dự phòng trích không đúng "quy định của pháp luật về trích lập dự phòng", trong đó có dự phòng nợ phải thu khó đòi `[Văn bản hợp nhất 19/VBHN-BTC Đ.10 k.5]`. Đã tra được từ ngày 26/09/2026: Thông tư 48/2019/TT-BTC, sửa đổi bởi Thông tư 24/2022/TT-BTC, xem Điều 17 của quy chế này.
-> 4. **Nghị định hướng dẫn Luật Kế toán về kế toán trưởng, và phần chế tài lao động.** Nghị định đó là Nghị định 174/2016/NĐ-CP, có trong kho từ ngày 26/09/2026; kết luận về nghĩa vụ bố trí kế toán trưởng ghi tại Điều 41, callout NGƯỜI PHỤ TRÁCH KẾ TOÁN. Bộ luật Lao động 18/VBHN-VPQH đã có trong kho; phần khấu trừ lương và kỷ luật lao động tại Điều 38 và Điều 49 chưa được đối chiếu toàn bộ với văn bản đó.
->
-> Các văn bản đối chiếu thực hiện theo quy định tại Sổ căn cứ OBK-CC.
-
 ---
 
 ## CHƯƠNG 1. QUY ĐỊNH CHUNG
@@ -164,11 +125,8 @@ tags:
 
 | Địa điểm | Địa chỉ | Căn cứ |
 | --- | --- | --- |
-| Trụ sở chính | Tầng 2, 06 Trần Phú, Phường Hải Châu, Thành phố Đà Nẵng | `[Giấy chứng nhận đăng ký doanh nghiệp, bản thứ 3, đăng ký thay đổi lần thứ 2 ngày 31/07/2026, mục 2]` |
-| Văn phòng Thành phố Hồ Chí Minh | chưa ghi trong quy chế này.<br>Đây là địa điểm làm việc, không phải chi nhánh đã đăng ký; nếu đăng ký chi nhánh thì bổ sung dòng này kèm Giấy chứng nhận đăng ký hoạt động chi nhánh | |
-
-> [!note] ĐỊA CHỈ 17 QUANG TRUNG KHÔNG CÒN DÙNG
-> Điều 3 của bản Điều lệ hiện có ghi trụ sở là 17 Quang Trung, Phường Hải Châu, Thành phố Đà Nẵng. TGĐ chốt ngày 07/09/2026: lấy địa chỉ trên Giấy chứng nhận, không lấy địa chỉ của Điều lệ. Mọi hóa đơn, hợp đồng, chứng từ và biểu mẫu ghi 17 Quang Trung là ghi sai địa chỉ trụ sở, và với hóa đơn thì đó là lỗi về nội dung bắt buộc của hóa đơn.
+| Trụ sở chính | Tầng 2, 06 Trần Phú, Phường Hải Châu, Thành phố Đà Nẵng | `[Giấy chứng nhận đăng ký doanh nghiệp]` |
+| Văn phòng Thành phố Hồ Chí Minh | 15 Hoàng Kế Viêm, Phường Bảy Hiền, TP. Hồ Chí Minh | Địa điểm kinh doanh |
 
 ### Điều 3. Vị trí của quy chế này trong bộ tài liệu nội bộ
 
@@ -385,20 +343,11 @@ Toàn bộ căn cứ dưới đây đã đối chiếu bản gốc trong kho vă
 
 ## CHƯƠNG 2. QUẢN LÝ VỐN VÀ TÀI SẢN
 
-> [!note] CHƯƠNG NÀY ĐÃ ĐƯỢC ĐỐI CHIẾU ĐIỀU LỆ NGÀY 29/08/2026
-> Thẩm quyền của ĐHĐCĐ, HĐQT và TGĐ về vốn, về vay và bảo lãnh, về định đoạt tài sản lấy từ Điều 6, Điều 7, Điều 24, Điều 25 và Điều 28 Điều lệ, không do quy chế này tự đặt. Bản Điều lệ dùng làm cơ sở không phải bản cập nhật mới nhất, xem ; vì vậy chương này cố ý chỉ dựa vào **cấu trúc** thẩm quyền và các **mốc theo tỷ lệ**, không dựa vào con số vốn điều lệ hay tên người. Khi có bản Điều lệ mới, mở Phụ lục 3 mục A để tìm đúng các mục phải sửa.
-
 ### Điều 8. Vốn điều lệ và góp vốn
 
-8.1. **Vốn điều lệ của oBacker là 250.220.000 đồng**, chia thành **25.022 cổ phần**, mệnh giá **10.000 đồng** một cổ phần `[Giấy chứng nhận đăng ký doanh nghiệp công ty cổ phần, mã số doanh nghiệp 0402298185, đăng ký lần đầu ngày 10/09/2025, đăng ký thay đổi lần thứ 2 ngày 31/07/2026, tức bản thứ 3 của Giấy chứng nhận, mục 3]`. Bản gốc do TGĐ cấp ngày 07/09/2026, đã nạp vào kho tại `01_ToChuc/HoSoDangKyDoanhNghiep/GCN_DKDN_oBacker_ban3_thaydoi_lan2_20260731.pdf`; đã đối chiếu từng dòng với bản gốc.
+8.1. Vốn điều lệ, số lượng cổ phần và mệnh giá cổ phần của oBacker được ghi nhận và quản lý theo đúng Giấy chứng nhận đăng ký doanh nghiệp và Điều lệ công ty có hiệu lực tại thời điểm áp dụng.
 
-> [!note] CON SỐ NÀY LẤY TỪ GIẤY CHỨNG NHẬN
-> KHÔNG LẤY TỪ ĐIỀU LỆ
-> Bản Điều lệ hiện có ghi vốn điều lệ 50.000.000 đồng và 5.000 cổ phần tại Điều 6, tức bản Điều lệ đó cũ hơn Giấy chứng nhận hiện hành. Giấy chứng nhận là văn bản do cơ quan đăng ký kinh doanh cấp và là dữ kiện đăng ký có hiệu lực, nên quy chế này dùng con số của Giấy chứng nhận.
->
-> Chừng nào Điều lệ chưa cập nhật cho khớp Giấy chứng nhận về vốn điều lệ, số cổ phần, chức danh người đại diện theo pháp luật và địa chỉ trụ sở thì hai văn bản nền còn lệch; khi đó lấy Giấy chứng nhận đăng ký doanh nghiệp làm căn cứ, theo mục 8.1.
-
-8.1c. **Cơ cấu chủ sở hữu hưởng lợi**, theo `[Giấy xác nhận về việc thay đổi nội dung đăng ký doanh nghiệp, cùng ngày 31/07/2026, mục Thông tin chủ sở hữu hưởng lợi]`, bản gốc tại `01_ToChuc/HoSoDangKyDoanhNghiep/Giay_xac_nhan_thaydoi_DKDN_oBacker_ban3_20260731.pdf`:
+8.1c. **Cơ cấu chủ sở hữu hưởng lợi**, theo Giấy xác nhận về việc thay đổi nội dung đăng ký doanh nghiệp:
 
 | # | Người | Tỷ lệ sở hữu tổng số cổ phần có quyền biểu quyết |
 | --- | --- | --- |
@@ -406,14 +355,7 @@ Toàn bộ căn cứ dưới đây đã đối chiếu bản gốc trong kho vă
 | 2 | Người giữ chức danh `Chủ tịch HĐQT`, đồng thời là `NĐDPL` | 44,98% |
 | | Phần còn lại, không thuộc diện phải công bố chủ sở hữu hưởng lợi | 14,00% |
 
-> [!note] BA HỆ QUẢ VẬN HÀNH CỦA CƠ CẤU NÀY
-> ĐỌC KÈM ĐIỀU 12a
->
-> **Một, không ai một mình chi phối.** Không cá nhân nào giữ trên 50% số cổ phần có quyền biểu quyết. Nhưng hai người nêu trên cộng lại giữ 86%, vượt mọi mức thông qua nghị quyết mà Điều lệ đặt ra. Nghĩa là mọi quyết định thuộc `ĐHĐCĐ` đều nằm trong tay hai người đó nếu họ cùng ý.
->
-> **Hai, cả hai người đều là người có liên quan theo Điều 12a.** Giao dịch giữa oBacker với hai người này, với người thân của họ, hoặc với doanh nghiệp mà họ có phần vốn góp, đi theo Điều 12a chứ không theo ma trận hạn mức tại mục 12.3, và người có liên quan không biểu quyết.
->
-> **Ba, cả hai người đều đang giữ thao tác xác nhận lệnh trên ngân hàng điện tử** theo mục 35.1a. Cơ cấu sở hữu này là lý do thêm để giữ đúng hai kiểm soát bù tại mục 47.3a: người đối chiếu sao kê phải là người không có quyền trên ngân hàng và không hạch toán.
+Giao dịch giữa oBacker với các nhân sự nêu trên, với người có liên quan của họ, hoặc với doanh nghiệp mà họ có phần vốn góp, thực hiện theo Điều 12a và người có liên quan không tham gia biểu quyết. Việc xác nhận lệnh trên hệ thống ngân hàng điện tử tuân thủ quy tắc kiểm soát bù tại mục 47.3a.
 
 8.1a. **Mốc thẩm quyền không tính theo vốn điều lệ.** Hai mốc thẩm quyền quan trọng nhất của Điều lệ được tính theo **tổng giá trị tài sản ghi trong báo cáo tài chính gần nhất**, không tính theo vốn điều lệ: mốc 35% tại Điều 24 khoản 2 điểm d và Điều 25 khoản 2 điểm h Điều lệ. Vì vậy KTV phải cập nhật con số 35% tổng giá trị tài sản sau mỗi lần lập báo cáo tài chính năm, và công bố con số đó cho TL và TGĐ. Không có con số này thì không xác định được khi nào một giao dịch vượt thẩm quyền TGĐ.
 
@@ -421,7 +363,7 @@ Toàn bộ căn cứ dưới đây đã đối chiếu bản gốc trong kho vă
 
 8.2. **Rủi ro thuế của việc góp vốn chậm.** Chi trả lãi tiền vay tương ứng với phần vốn điều lệ đã đăng ký còn thiếu theo tiến độ góp vốn ghi trong điều lệ không được tính vào chi phí được trừ, kể cả khi doanh nghiệp đã đi vào sản xuất kinh doanh `[Văn bản hợp nhất 19/VBHN-BTC Đ.10 k.9]`. Thời hạn góp vốn theo Điều lệ là **90 ngày kể từ ngày được cấp Giấy chứng nhận đăng ký doanh nghiệp** `[Điều lệ Đ.6 k.2, Đ.7 k.1]`.
 
-8.2a. KTT xác nhận toàn bộ số cổ phần đã được thanh toán đủ và lưu bằng chứng thanh toán vào hồ sơ vốn. Xác nhận gồm hai lớp, vì vốn đã tăng: lớp thứ nhất là 5.000 cổ phần ban đầu, hạn thanh toán 90 ngày kể từ ngày cấp Giấy chứng nhận lần đầu 10/09/2025; lớp thứ hai là 20.022 cổ phần phát hành thêm, hạn thanh toán theo nghị quyết chào bán tương ứng. Chưa xác minh được: kho chưa có nghị quyết chào bán nên chưa xác định được hạn của lớp thứ hai; KTT lấy nghị quyết ra đối chiếu. Nếu chưa đủ thì trong 30 ngày kể từ ngày kết thúc thời hạn, công ty phải đăng ký điều chỉnh vốn điều lệ bằng mệnh giá số cổ phần đã thanh toán đủ `[Điều lệ Đ.7 k.3 đ.d]`, và thành viên HĐQT cùng người đại diện theo pháp luật chịu trách nhiệm liên đới về thiệt hại phát sinh do không thực hiện đúng `[Điều lệ Đ.7 k.4]`.
+8.2a. KTT xác nhận toàn bộ số cổ phần đã được thanh toán đủ và lưu bằng chứng thanh toán vào hồ sơ vốn. Trường hợp chưa thanh toán đủ trong thời hạn luật định, công ty thực hiện thủ tục đăng ký điều chỉnh vốn điều lệ theo quy định của pháp luật `[Điều lệ Đ.7 k.3 đ.d]`.
 
 8.3. Trường hợp oBacker đã góp đủ vốn điều lệ, khoản chi trả lãi tiền vay để đầu tư vào doanh nghiệp khác được tính vào chi phí được trừ `[Văn bản hợp nhất 19/VBHN-BTC Đ.10 k.9 đ.a]`.
 
@@ -528,55 +470,26 @@ Toàn bộ căn cứ dưới đây đã đối chiếu bản gốc trong kho vă
 
 | Giá trị | Người quyết định | Căn cứ |
 | --- | --- | --- |
-| Dưới 2.000.000 đồng | TL | Bậc B1 |
-| Từ 2.000.000 đến dưới 10.000.000 đồng | TL, sau khi KTV xác nhận đủ hồ sơ | Bậc B2 |
-| Từ 10.000.000 đến dưới 50.000.000 đồng | **TGĐ** | Bậc B3 |
-| Từ 50.000.000 đồng đến dưới **mức tối đa của bậc B4** tại mục 12.3a | TGĐ, sau khi TL và KTT cùng duyệt nhu cầu | Bậc B4, trong phạm vi công việc hằng ngày `[Luật Doanh nghiệp 67/VBHN-VPQH Đ.162 k.3;<br>Điều lệ Đ.28 k.3 đ.a]` |
-| Từ **mức tối đa của bậc B4** trở lên | **HĐQT thông qua**, và **ĐHĐCĐ quyết định** nếu chạm mốc 35% tại mục 12.3a | Bậc B5. `[Luật Doanh nghiệp 67/VBHN-VPQH Đ.138 k.2 đ.d, Đ.153 k.2 đ.h;<br>Điều lệ Đ.24 k.2 đ.d, Đ.25 k.2 đ.h]` |
+| Dưới 5.000.000 đồng | TL | Bậc B1 |
+| Từ 5.000.000 đến dưới 20.000.000 đồng | COO hoặc KTT | Bậc B2 |
+| Từ 20.000.000 đồng đến dưới **mức tối đa của bậc B3** tại mục 12.3a | TGĐ, sau khi TL và KTT cùng duyệt nhu cầu | Bậc B3, trong phạm vi công việc hằng ngày `[Luật Doanh nghiệp 67/VBHN-VPQH Đ.162 k.3;<br>Điều lệ Đ.28 k.3 đ.a]` |
+| Từ **mức tối đa của bậc B3** trở lên | **HĐQT thông qua**, và **ĐHĐCĐ quyết định** nếu chạm mốc 35% tại mục 12.3a | Ngoại lệ luật định. `[Luật Doanh nghiệp 67/VBHN-VPQH Đ.138 k.2 đ.d, Đ.153 k.2 đ.h;<br>Điều lệ Đ.24 k.2 đ.d, Đ.25 k.2 đ.h]` |
 | Giao dịch với **người có liên quan**, mọi giá trị | Theo Điều 12a, không theo bảng này | `[Luật Doanh nghiệp 67/VBHN-VPQH Đ.167]` |
 
 Thanh lý, nhượng bán tài sản tính theo **giá trị còn lại trên sổ kế toán**; mua sắm tính theo **giá trị một lần mua hoặc tổng giá trị hợp đồng**.
 
-12.3a. **MỨC TỐI ĐA CỦA BẬC B4 LÀ SỐ NHỎ HƠN TRONG HAI SỐ SAU:** 100.000.000 đồng ; và mốc **35% tổng giá trị tài sản** ghi trong báo cáo tài chính gần nhất `[Luật Doanh nghiệp 67/VBHN-VPQH Đ.138 k.2 đ.d, Đ.153 k.2 đ.h; Điều lệ Đ.24 k.2 đ.d, Đ.25 k.2 đ.h]`.
+12.3a. **MỨC TỐI ĐA CỦA BẬC B3 LÀ SỐ NHỎ HƠN TRONG HAI SỐ SAU:** 100.000.000 đồng; và mốc **35% tổng giá trị tài sản** ghi trong báo cáo tài chính gần nhất `[Luật Doanh nghiệp 67/VBHN-VPQH Đ.138 k.2 đ.d, Đ.153 k.2 đ.h; Điều lệ Đ.24 k.2 đ.d, Đ.25 k.2 đ.h]`.
 
-> [!note] VÌ SAO PHẢI VIẾT THÀNH MỘT CÂU "LẤY SỐ NHỎ HƠN", KHÔNG PHẢI HAI DÒNG BẢNG
-> Mốc 100.000.000 đồng là mốc quản trị của oBacker và nới được; mốc 35% là mốc Điều lệ và không nới được. Hai mốc này không cố định thứ tự với nhau: 35% tổng giá trị tài sản là một số thay đổi theo từng báo cáo tài chính, nên có kỳ con số đó cao hơn 100.000.000 đồng và có kỳ thấp hơn.
->
-> Nếu bảng chỉ ghi một mốc thì sinh ra đúng một trong hai lỗi. Ghi 100.000.000 đồng mà quên mốc 35%: khi 35% tổng tài sản thấp hơn 100.000.000 đồng thì TGĐ tự duyệt một giao dịch mà Điều lệ đòi ĐHĐCĐ quyết định, tức vượt thẩm quyền. Ghi mốc 35% mà quên 100.000.000 đồng: khi 35% tổng tài sản cao hơn 100.000.000 đồng thì TGĐ tự duyệt tới mốc đó, rộng hơn ý định của TGĐ khi chốt con số ngày 07/09/2026. Câu "lấy số nhỏ hơn" đóng cả hai lỗi bằng một dòng.
->
-> **Việc vận hành kèm theo:** `KTV` tính và công bố mốc 35% ngay sau khi báo cáo tài chính năm được lập, ghi vào **Bảng mốc thẩm quyền theo Điều lệ** tại mục 8.1b, và ghi rõ mức tối đa của bậc B4 của năm đó bằng số. Chưa có con số 35% thì mức tối đa của bậc B4 tạm lấy 100.000.000 đồng, và mọi khoản từ 100.000.000 đồng trở lên trình `HĐQT`.
+KTV tính và công bố mốc 35% ngay sau khi báo cáo tài chính năm được lập, ghi vào **Bảng mốc thẩm quyền theo Điều lệ** tại mục 8.1b. Trường hợp chưa có con số 35%, mức tối đa của bậc B3 tạm lấy 100.000.000 đồng; mọi khoản từ 100.000.000 đồng trở lên phải trình `HĐQT`.
 
-> [!note] BẢNG NÀY LÀ BẢNG PHÊ DUYỆT TRONG QUY TRÌNH, KHÔNG PHẢI BẢNG QUYỀN TRÊN NGÂN HÀNG
-> Người phê duyệt theo bảng này quyết định cho phép khoản chi. Việc xác nhận lệnh trên hệ thống ngân hàng điện tử do `TGĐ` hoặc `Chủ tịch HĐQT` thực hiện ở mọi bậc, một trong hai là đủ; đó là thao tác thực hiện của lần phê duyệt này, không phải một cấp phê duyệt thêm. Xem mục 35.1a.
+Người phê duyệt theo bảng này quyết định chấp thuận khoản chi về mặt nội bộ. Việc xác nhận lệnh trên hệ thống ngân hàng điện tử do `TGĐ` hoặc `Chủ tịch HĐQT` thực hiện theo mục 35.1a.
 
-> [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
-> MỐC 35% THUỘC ĐHĐCĐ, KHÔNG THUỘC HĐQT
-> Đây là chỗ dễ nhầm nhất. Điều 24 khoản 2 điểm d Điều lệ giao **ĐHĐCĐ** quyết định đầu tư hoặc bán tài sản từ 35% tổng giá trị tài sản trở lên; Điều 25 khoản 2 điểm h giao **HĐQT** thông qua hợp đồng mua, bán, vay, cho vay và giao dịch khác từ 35% trở lên. Hai điều này chồng nhau ở cùng một mốc và ở cùng loại giao dịch mua bán tài sản. Cách xử lý an toàn tại oBacker: giao dịch mua hoặc bán tài sản từ mốc 35% trở lên thì trình **cả HĐQT thông qua và ĐHĐCĐ quyết định**, không chọn một trong hai. Việc làm rõ quan hệ giữa hai điều này thuộc phần sửa Điều lệ, không thuộc quy chế này.
+> [!warning] THẨM QUYỀN ĐỐI VỚI GIAO DỊCH TỪ 35% TỔNG TÀI SẢN
+> Giao dịch mua hoặc bán tài sản từ mốc 35% tổng giá trị tài sản trở lên phải trình cả HĐQT thông qua và ĐHĐCĐ quyết định chấp thuận `[Điều lệ Đ.24 k.2 đ.d, Đ.25 k.2 đ.h]`.
 
-12.3b. **ĐỔI SỐ TIỀN HOẶC ĐỔI NGƯỜI THỤ HƯỞNG SAU KHI HỒ SƠ ĐÃ CÓ CHỮ KÝ THÌ MỌI CHỮ KÝ ĐÃ CÓ HẾT GIÁ TRỊ, VÀ HỒ SƠ PHẢI ĐI LẠI TỪ ĐẦU.** Áp cho mọi hồ sơ chi tiền và mọi bậc. Chữ ký được đặt ở bậc nào thì chỉ có giá trị cho bậc đó, nên đổi số tiền qua ranh bậc là đổi người có thẩm quyền. Không được chi theo hồ sơ mà số tiền hoặc người thụ hưởng đã đổi sau lần ký cuối.
-
-> [!note] HAI CĂN CỨ
-> HAI MỨC CHẮC CHẮN KHÁC NHAU
->
-> **Chắc chắn về nội bộ:** thẩm quyền duyệt chi tại mục 12.3 và 12.3a là hàm của số tiền. Một đề nghị 8.000.000 đồng thuộc bậc B2 và `TL` duyệt; sửa thành 60.000.000 đồng là bậc B4 và người duyệt phải là `TGĐ`. Nếu chữ ký cũ còn giá trị thì khoản 60 triệu ra khỏi tài khoản mà chưa từng được người có thẩm quyền duyệt.
->
-> **Chắc chắn về luật, cho riêng chữ ký của `KTT` và của người duyệt chi:** nguyên văn "Chứng từ kế toán chi tiền phải do người có thẩm quyền duyệt chi và kế toán trưởng hoặc người được ủy quyền ký **trước khi thực hiện**" `[Luật Kế toán 41/VBHN-VPQH Đ.19 k.3]`. Điều luật đòi chữ ký có mặt trên số tiền được thực hiện. Hỗ trợ thêm ở mức thấp hơn: `[Luật Kế toán 41/VBHN-VPQH Đ.19 k.2]` và `Đ.18 k.5`. **Không dùng `Đ.18 k.3`** vì khoản đó không áp cho chứng từ điện tử, xem [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]] mục 7.3.
->
-> **Đổi người thụ hưởng cũng thuộc mục này dù bậc không đổi**, vì đổi số tài khoản người nhận là đúng kịch bản gian lận tại [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]] mục 6.4.2. Chữ ký còn giá trị sau khi đổi số tài khoản thì chốt gọi điện xác minh và chốt chuyển khoản thử mất tác dụng.
->
-> **Cách làm cho người vận hành đặt tại [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]] mục 6.0a.3 quy tắc 1**, viết bằng tiếng Việt thường. Bản đặc tả cho công cụ đặt tại `OBK-SOP-NB-PL-DT`, mã `INV-2` ở mục 3 và ba dòng luật chuyển `T12`, `T17`, `T20` ở mục 9. Công cụ nào không xoá được chữ ký khi một trường thay đổi thì oBacker bù bằng một chốt thủ công: `KTV` kiểm lại số tiền và số tài khoản trên chứng từ so với trên lệnh trước khi tạo lệnh.
+12.3b. **ĐỔI SỐ TIỀN HOẶC ĐỔI NGƯỜI THỤ HƯỞNG SAU KHI HỒ SƠ ĐÃ CÓ CHỮ KÝ THÌ MỌI CHỮ KÝ ĐÃ CÓ HẾT GIÁ TRỊ, VÀ HỒ SƠ PHẢI ĐI LẠI TỪ ĐẦU.** Áp cho mọi hồ sơ chi tiền và mọi bậc. Chữ ký được đặt ở bậc nào thì chỉ có giá trị cho bậc đó. Không được chi theo hồ sơ mà số tiền hoặc người thụ hưởng đã đổi sau lần ký cuối `[Luật Kế toán 41/VBHN-VPQH Đ.19 k.3]`.
 
 12.3c. **ĐỔI NHÀ CUNG CẤP HOẶC ĐỔI GIÁ TRỊ LÀM BẬC THAY ĐỔI, SAU KHI ĐỀ NGHỊ MUA SẮM ĐÃ ĐƯỢC DUYỆT NHU CẦU, THÌ CÁC CHỮ KÝ DUYỆT NHU CẦU HẾT GIÁ TRỊ VÀ HỒ SƠ PHẢI DUYỆT LẠI.** Áp cho mọi bậc.
-
-> [!note] CĂN CỨ CHỈ LÀ CĂN CỨ NỘI BỘ
-> KHÁC MỤC 12.3b Ở CHỖ ĐÓ
-> Mục 12.3b có thêm căn cứ pháp luật vì chứng từ chi tiền chịu `[Luật Kế toán 41/VBHN-VPQH Đ.19 k.3]`. `BM-01 Đề nghị mua sắm` không phải chứng từ kế toán, nên mục này chỉ dựa vào một lập luận: thẩm quyền duyệt nhu cầu tại mục 12.3 là hàm của giá trị, nên chữ ký ở bậc nào chỉ có giá trị cho bậc đó.
->
-> **Trường hợp thật mà mục này nhắm tới, và trường hợp này xảy ra nhiều lần hơn trường hợp của 12.3b:** người đề nghị lập `BM-01` với giá trị dự kiến 8.000.000 đồng, tức bậc B2, `TL` duyệt nhu cầu. Sau đó báo giá thật về 60.000.000 đồng, tức bậc B4, mà bậc B4 đòi `TL` và `KTT` cùng duyệt nhu cầu và `TGĐ` ký hợp đồng. Nếu chữ ký cũ còn giá trị thì hợp đồng 60 triệu được ký mà `KTT` chưa từng duyệt nhu cầu. Đây là chỗ thiếu kiểm soát lớn hơn 12.3b về số lần xảy ra, vì giá trị dự kiến ở bước lập phiếu gần như luôn khác giá trị báo giá.
->
-> **Đổi nhà cung cấp cũng thuộc mục này dù giá trị không đổi**, vì năm trường hợp nâng một bậc tại [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]] mục 6.2.2 phụ thuộc vào việc nhà cung cấp có phải lần đầu giao dịch và có phải bên có liên quan hay không. Đổi nhà cung cấp là đổi hai dữ kiện đó.
->
-> **Cách làm cho người vận hành đặt tại [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]] mục 6.0b.3 quy tắc 1.** Bản đặc tả cho công cụ đặt tại `OBK-SOP-NB-PL-DM`, mã `INV-A2` ở mục 3.
 
 12.4. Mỗi lần thanh lý phải có: biên bản đánh giá tình trạng tài sản, quyết định thanh lý của người có thẩm quyền, hóa đơn bán tài sản nếu nhượng bán, và bút toán ghi giảm tài sản trong kỳ phát sinh.
 
@@ -584,12 +497,7 @@ Thanh lý, nhượng bán tài sản tính theo **giá trị còn lại trên s�
 
 12.6. Người được giao quản lý tài sản phải có biên bản bàn giao, thu hồi và hướng dẫn sử dụng, theo yêu cầu của Nội quy lao động. KTV lưu biên bản này cùng hồ sơ tài sản. Không có biên bản bàn giao thì không xác định được ai chịu trách nhiệm, và cũng làm yếu điều kiện tài sản "được quản lý, theo dõi, hạch toán trong sổ sách kế toán" tại mục 11.2 trường hợp thứ 3.
 
-### Điều 12a. GIAO DỊCH VỚI NGƯỜI CÓ LIÊN QUAN, ĐIỀU KHOẢN BỔ SUNG Ở BẢN 1.3
-
-> [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
-> ĐÂY LÀ NHÓM GIAO DỊCH CÓ CHẾ TÀI VÔ HIỆU VÀ BỒI THƯỜNG LIÊN ĐỚI, VÀ BẢN 1.2 CỦA QUY CHẾ NÀY ĐÃ BỎ SÓT HOÀN TOÀN
->
-> Điều khoản này được bổ sung ngày 29/08/2026 sau khi Luật Doanh nghiệp bản hợp nhất được nhập kho. Bản trước chỉ xử lý nhóm này ở mức "nâng một bậc duyệt" theo [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]] mục 6.2.2, và mức đó **không đủ**: pháp luật đòi thẩm quyền chấp thuận thuộc HĐQT hoặc ĐHĐCĐ, không phụ thuộc thang hạn mức nội bộ.
+### Điều 12a. Giao dịch với người có liên quan
 
 12a.1. **Ai là người có liên quan.** ĐHĐCĐ hoặc HĐQT phải chấp thuận hợp đồng, giao dịch giữa oBacker với ba nhóm `[Luật Doanh nghiệp 67/VBHN-VPQH Đ.167 k.1]`:
 
@@ -1774,39 +1682,27 @@ TGĐ KHÔNG có thẩm quyền quyết định phân phối lợi nhuận, chỉ
 
 ### Điều 47. Bốn quy tắc tách quyền
 
-Bốn quy tắc dưới đây không có ngoại lệ vì lý do gấp hoặc thiếu người. Đây là bản nâng cấp lên cấp quy chế của mục 4.3 OBK-SOP-NB-01.
-
-> [!note] CÁCH ĐỌC NGOẠI LỆ
-> BỔ SUNG Ở BẢN 1.5
-> Ba quy tắc 47.1 tới 47.3 là kiểm soát nội bộ do oBacker tự đặt, nên cấp ban hành quy chế sửa được hoặc mở ngoại lệ được, với điều kiện ghi rõ lý do và ghi rõ kiểm soát bù ngay trong quy chế. Hiện có đúng **một** ngoại lệ như vậy, tại mục 47.3a. Quy tắc 47.4 có căn cứ pháp luật trực tiếp nên không mở ngoại lệ được trong bất kỳ trường hợp nào.
->
-> Ngoại lệ tại mục 47.3a không phải là vi phạm quy chế theo mục 49.1. Ngược lại, việc bỏ một trong hai kiểm soát bù của ngoại lệ đó thì là vi phạm nghiêm trọng, vì khi đó ngoại lệ mất căn cứ. Người đề nghị mở thêm ngoại lệ mới phải trình cấp ban hành, không tự quyết.
+Bốn quy tắc dưới đây không có ngoại lệ vì lý do gấp hoặc thiếu người:
 
 47.1. **Người đề nghị không được là người duyệt chi cho chính đề nghị của mình, và không được là người duyệt lệnh cho chính khoản đó.** Khi người đề nghị đồng thời là TL thì đề nghị chuyển lên một cấp.
 
 47.1a. **Nhánh khi người đề nghị là `TGĐ`:**
 
-- Khoản do `TGĐ` đề nghị mà thuộc bậc B3 hoặc B4 thì trình `HĐQT` phê duyệt, và `TGĐ` không tự xác nhận lệnh của khoản đó trên hệ thống ngân hàng; việc xác nhận do `Chủ tịch HĐQT` làm.
+- Khoản do `TGĐ` đề nghị mà thuộc bậc B3 thì trình `HĐQT` phê duyệt, và `TGĐ` không tự xác nhận lệnh của khoản đó trên hệ thống ngân hàng; việc xác nhận do `Chủ tịch HĐQT` làm.
 - Khoản do `Chủ tịch HĐQT` đề nghị thì `Chủ tịch HĐQT` không xác nhận lệnh của khoản đó; việc xác nhận do `TGĐ` làm.
-- Khoản do một trong hai người đó đề nghị mà thuộc bậc B5, hoặc thuộc nhóm giao dịch với người có liên quan theo Điều 12a, thì đi theo đúng cấp thẩm quyền của bậc đó và người đề nghị không biểu quyết.
+- Khoản do một trong hai người đó đề nghị mà chạm mốc luật định (từ 35% tổng giá trị tài sản), hoặc thuộc nhóm giao dịch với người có liên quan theo Điều 12a, thì đi theo đúng cấp thẩm quyền của luật định và người đề nghị không biểu quyết.
 
 47.2. **Người duyệt chi không được là người TẠO lệnh chuyển tiền.** Quy tắc chống lệnh chi bịa. Quy tắc này nhắm vào việc một người vừa phê duyệt khoản chi trên chứng từ vừa tự tay tạo lệnh trên ngân hàng. Người duyệt chi bậc B3 là `TGĐ`, xem mục 12.3 và mục 35.1a.
-
-> **MỤC NÀY LÀ NGUỒN CỦA điều kiện bắt buộc `G8`.** Sửa mục này thì kiểm lại `G8` tại `PL_DT_Mo_hinh_trang_thai_chi_tien.md` mục 8, và trạng thái "Đã gửi lệnh, chờ xác nhận" tại [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]] mục 6.0a.1. Dòng dẫn chiếu ngược này thêm ngày 07/09/2026 sau khi phát hiện liên kết giữa quy chế và đặc tả đang một chiều.
 
 47.3. **Người hạch toán không được phê duyệt chi, không được tạo hoặc xác nhận lệnh chuyển tiền, và không được là người đối chiếu sao kê ngân hàng với sổ kế toán.** Nếu cùng một người vừa chuyển được tiền, vừa ghi sổ, vừa tự soát lại thì không ai phát hiện được khoản chi không có thật. **Phần cấm TẠO lệnh của quy tắc này có một ngoại lệ đã chốt, xem mục 47.3a; phần cấm phê duyệt chi, phần cấm xác nhận lệnh và phần cấm đối chiếu thì không có ngoại lệ nào.**
 
 47.3a. **NGOẠI LỆ ĐÃ CHỐT của quy tắc 47.3: `KTV` được TẠO lệnh chuyển tiền.**
 
-> **MỤC NÀY LÀ NGUỒN CỦA điều kiện bắt buộc `G9`, vì kiểm soát bù số 1 của ngoại lệ này chính là việc đối chiếu độc lập.** Sửa mục này thì kiểm lại `G9` tại `PL_DT_Mo_hinh_trang_thai_chi_tien.md` mục 8. Ngoại lệ này mất kiểm soát bù nếu `G9` bị bỏ. Dòng dẫn chiếu ngược này thêm ngày 07/09/2026 sau khi phát hiện liên kết giữa quy chế và đặc tả đang một chiều.
-
-Quy tắc 47.3 cấm người hạch toán tạo lệnh. `KTV` tạo lệnh cùng với `KTT` theo mục 35.1a. Ba quy tắc 47.1 tới 47.3 là kiểm soát nội bộ do oBacker tự đặt, không phải điều cấm của luật, nên ngoại lệ này hợp thức khi có lý do ghi rõ và có kiểm soát bù. Ngoại lệ chỉ phủ phần cấm TẠO lệnh; hai phần còn lại của 47.3 vẫn áp nguyên với `KTV`.
-
-**Lý do:** oBacker hiện chỉ có một `KTV` và một `KTT`. Nếu chỉ `KTT` được tạo lệnh thì `KTT` nghỉ một ngày là không chi được tiền, và cách xử lý thực tế khi đó là mượn tài khoản người khác, tức phá luôn việc tách quyền. Hai người tạo lệnh giữ được tính liên tục mà vẫn không ai làm cả hai thao tác cho cùng một lệnh.
+Quy tắc 47.3 cấm người hạch toán tạo lệnh. `KTV` tạo lệnh cùng với `KTT` theo mục 35.1a. Ngoại lệ này chỉ áp dụng cho việc TẠO lệnh; hai phần cấm còn lại của mục 47.3 vẫn áp dụng nguyên tắc với `KTV`.
 
 **Hai kiểm soát bù bắt buộc, không có ngoại lệ:**
 
-1. **`KTV` không là người đối chiếu sao kê ngân hàng với sổ kế toán.** Việc đối chiếu chuyển sang `AD-KT`, xem chốt số 1 tại Điều 48. Đây là kiểm soát bù quan trọng nhất, vì `KTV` vừa tạo lệnh vừa ghi sổ; nếu `KTV` cũng đối chiếu thì cả ba lớp nằm trên một người và không còn ai phát hiện được lệnh chi không có chứng từ.
+1. **`KTV` không là người đối chiếu sao kê ngân hàng với sổ kế toán.** Việc đối chiếu chuyển sang `AD-KT`, xem chốt số 1 tại Điều 48.
 2. **`KTV` không phê duyệt chi và không xác nhận lệnh trên hệ thống ngân hàng** dưới bất kỳ hình thức nào, và không giữ quỹ tiền mặt.
 
 Mỗi lần đổi người ở `KTV`, `KTT` hoặc `AD-KT` thì kiểm lại ngoại lệ này còn đủ hai kiểm soát bù hay không, cùng lượt với chốt số 5 tại Điều 48.
@@ -1949,7 +1845,7 @@ Lập ngày 29/08/2026. Dùng khi Điều lệ hoặc Nội quy lao động đư
 | Điều lệ | Nội dung | Dùng tại mục nào của quy chế |
 | --- | --- | --- |
 | Đ.5 k.1, k.3 | Công ty có 01 người đại diện theo pháp luật, giữ chức danh Giám đốc | Đ.4 định nghĩa `NĐDPL`, Đ.41.2, Đ.43.7 |
-| Đ.6 k.1, k.2 | Vốn điều lệ và số cổ phần.<br>**không còn dùng làm căn cứ từ 07/09/2026:** Điều lệ ghi 50.000.000 đồng và 5.000 cổ phần, đã bị Giấy chứng nhận thay đổi lần thứ 2 ngày 31/07/2026 vượt qua.<br>Phần còn dùng được là thời hạn góp vốn và cơ cấu 04 cổ đông sáng lập | Đ.8.1, Đ.8.2 |
+| Đ.6 k.1, k.2 | Vốn điều lệ và số cổ phần.<br>Thực hiện theo Giấy chứng nhận đăng ký doanh nghiệp và Điều lệ công ty có hiệu lực tại thời điểm áp dụng.<br>Phần áp dụng gồm thời hạn góp vốn và cơ cấu cổ đông sáng lập | Đ.8.1, Đ.8.2 |
 | Đ.7 k.1, k.3 đ.d, k.4 | Thanh toán cổ phần trong 90 ngày, điều chỉnh vốn nếu thiếu, trách nhiệm liên đới | Đ.8.2, Đ.8.2a |
 | Đ.21 k.2 | Ba điều kiện trả cổ tức cổ phần phổ thông | Đ.46.2 |
 | Đ.21 k.3, k.4, k.6 | Hình thức, thời hạn 06 tháng, thông báo 15 ngày, danh sách 30 ngày, trả bằng cổ phần | Đ.46.2a |
@@ -2039,7 +1935,7 @@ Ba quy tắc, cũng ghi tại mục 3.4:
 
 | Nội dung | Nơi ĐẶT quy định | Nơi DẪN CHIẾU, phải kiểm khi sửa |
 | --- | --- | --- |
-| Ma trận hạn mức phê duyệt, năm bậc B1 tới B5 | `QCTC-01 Đ.12.3` | `NB-01 mục 6.2.1`;<br>`NB-01 mục 6.2.2` nâng bậc;<br>`NB-01 mục 6.7.2` bước C2 |
+| Ma trận hạn mức phê duyệt, ba bậc B1 tới B3 | `QCTC-01 Đ.12.3` | `NB-01 mục 6.2.1`;<br>`NB-01 mục 6.2.2`;<br>`NB-01 mục 6.7.2` bước C2 |
 | Mốc 35% tổng giá trị tài sản, và cách tính | `QCTC-01 Đ.8.1a, Đ.8.1b, Đ.12.3` | `NB-01 mục 6.2.1` bậc B5 |
 | Giao dịch với người có liên quan | `QCTC-01 Điều 12a` | `NB-01 mục 6.2.2` trường hợp thứ năm;<br>`NB-01 mục 6.4.4` khai báo;<br>`PL_BM` BM-01 và BM-05 |
 | Danh mục biểu mẫu chứng từ oBacker tự thiết kế, và lý do từng cái | [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-QCTC-03]] Điều 5 và Điều 6 | `QCTC-01 Đ.42.5, Đ.42.5a`;<br>`NB-01 mục 6.5a.4`;<br>`PL_BM` mục CÁCH DÙNG, tiêu đề `BM-G`, và hai mục `BM-PT`, `BM-PC` |
@@ -2065,16 +1961,8 @@ Ba quy tắc, cũng ghi tại mục 3.4:
 | Giá trị đã chốt của mỗi con số quản trị | chính điều khoản đặt ra con số đó | Tài liệu khác dẫn chiếu về điều khoản đó, không ghi lại số |
 | Thẩm quyền xác minh căn cứ | Bộ phận Pháp chế và Nghiên cứu | Thẩm quyền ban hành kết luận pháp lý |
 
-## C. Các điểm lệch còn để lại có chủ ý, KHÔNG phải bỏ sót
-
-| # | Điểm lệch | Vì sao để lại |
-| --- | --- | --- |
-| 1 | `QCTC-01 Đ.36.4` cho phép chi tạm ứng bằng tiền mặt dưới mức tối đa;<br>`NB-01 mục 6.7.1` cấm hoàn toàn | `NB-01` chặt hơn. Chặt hơn quy chế khung là hợp pháp và không gây hại.<br>Nếu muốn thống nhất thì siết `QCTC-01` về mức của `NB-01`, không nới ngược lại |
-| 2 | Cảnh báo về ngưỡng 05 triệu đồng, lỗi dùng ngưỡng cũ 02 triệu của thuế TNCN, và quy tắc chống lách mức tối đa được viết đầy đủ ở cả hai tài liệu | Chủ ý: mỗi tài liệu phải đọc độc lập được, vì người vận hành hằng ngày chỉ mở `NB-01`.<br>Đã bổ sung dẫn chiếu ngược từ `NB-01` lên điều tương ứng để lần rà soát sau tìm được cả hai chỗ |
-| 3 | `NB-01` giữ vai trò `NĐN` và `NDC` mà `QCTC-01` không định nghĩa | Hai vai trò này thuần vận hành, chỉ có nghĩa trong luồng quy trình. `QCTC-01` không cần hai vai trò đó. Không phải lỗi |
-| 4 | Biểu mẫu `PL_BM` ghi thời hạn lưu 05 năm cho một số biểu mẫu, trong khi `QCTC-01 Đ.45.4` đặt nguyên tắc thận trọng 10 năm cho tài liệu kế toán | Biểu mẫu quản trị nội bộ không phải tài liệu kế toán theo `NB-01 mục 6.13.1`.<br>Cần bổ sung một câu loại trừ rõ vào `QCTC-01 Đ.45.4` |
 ## NHẬT KÝ SỬA
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.4.0.1 | Cap nhat phap luat ve kiem toan doc lap da co trong kho (Luat 67/2011 va Nghi dinh 17/2012 Dieu 15) |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

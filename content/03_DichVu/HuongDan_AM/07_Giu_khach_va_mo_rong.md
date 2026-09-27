@@ -6,16 +6,16 @@ folder: "03_DichVu"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
 version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "07/09/2026"
+draft_date: "01/10/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 07/09/2026"
 author: "CEO"
 reviewer: "CEO"
 review_status: "đã soát"
-approver: "TP Thương mại"
+approver: "CEO"
 parent: "OBK-SOP-AM Quản lý khách hàng"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-HB-37
 tags:
@@ -33,11 +33,11 @@ tags:
 | Mã tài liệu | OBK-HB-37 |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
 | Phiên bản | R.1.0.0, đang áp dụng |
-| Ngày biên soạn | 07/09/2026 |
+| Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 07/09/2026 |
-| Người biên soạn | `CEO` soạn bản đầu. Bản sau do `CEO` phân công |
-| Người soát | đã soát |
-| Người phê duyệt | TP Thương mại. `CEO` duyệt khi bản này chạm giá hoặc chạm phạm vi |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] Quản lý khách hàng |
 | Đây là gì | Người đọc là `AM`, theo kỳ tháng và kỳ quý.<br>Hướng dẫn này trả lời: rà soát với khách thế nào, nhận ra khách sắp rời bỏ bằng dấu hiệu nào, và bán thêm mà không hứa quá |
 | Đọc trước | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] mục 3 Job AM-16 tới AM-18, AM-27 tới AM-30;<br>[[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] mục 7 |
@@ -229,4 +229,4 @@ Ba đầu vào bắt buộc: điểm sức khỏe kỳ gần nhất; kết quả
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 21/09/2026 | R.1.0.0 | Ban hành. |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

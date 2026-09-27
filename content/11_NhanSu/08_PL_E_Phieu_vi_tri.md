@@ -4,9 +4,9 @@ code: "OBK-QCNS-08-PL-E"
 type: "sop"
 folder: "11_NhanSu"
 level: "Phụ lục"
-version: "R.2.0.0"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "23/09/2026"
+draft_date: "01/10/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 23/09/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -16,7 +16,7 @@ approval_status: "đã phê duyệt"
 parent: "OBK-QCNS-08 Khung đánh giá hiệu suất"
 next_review: "Không quá 06 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-QCNS-08-PL-E
 tags:
@@ -34,12 +34,12 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-QCNS-08-PL-E |
 | Cấp tài liệu | Phụ lục |
-| Phiên bản | R.2.0.0, đang áp dụng |
-| Ngày biên soạn | 23/09/2026 |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 23/09/2026 |
-| Người biên soạn | `CEO` |
-| Người soát | `CEO` |
-| Người phê duyệt | `CEO` |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] Khung đánh giá hiệu suất |
 
 ---
@@ -484,4 +484,4 @@ Không có quy tắc chặn điểm riêng.
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 23/09/2026 | R.2.0.0 | Bỏ mục F.6 bảng số loại giấy phép theo cấp; tiêu chí B-01 của mảng Giấy phép chấm theo thang chấm tại OBK-QCNS-08-PL-A mục 4 như mọi vị trí |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

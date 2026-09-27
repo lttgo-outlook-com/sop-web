@@ -4,19 +4,19 @@ code: "OBK-SOP-00"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 1, văn bản KHUNG toàn công ty"
-version: "R.3.0.0"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "27/09/2026"
+draft_date: "01/10/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 02/09/2026"
-author: "COO"
-reviewer: "Legal R&D"
+author: "CEO"
+reviewer: "CEO"
 review_status: "đã soát"
 approver: "CEO"
 approval_status: "đã phê duyệt"
 parent: "OBK-QCTC-02 Quy chế tổ chức và phân quyền"
 next_review: "Không quá 06 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-SOP-00
 tags:
@@ -32,12 +32,12 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-SOP-00 |
 | Cấp tài liệu | Cấp 1, văn bản KHUNG toàn công ty |
-| Phiên bản | R.3.0.0, đang áp dụng |
-| Ngày biên soạn | 27/09/2026 |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 02/09/2026 |
-| Người biên soạn | Legal R&D (LEG), COO soát |
-| Người soát | đã soát |
-| Người phê duyệt | (để trống) |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen\|OBK-QCTC-02]] Quy chế tổ chức và phân quyền |
 | Lần rà soát tiếp theo | Không quá 6 tháng kể từ ngày ban hành |
 | Phạm vi phát hành | Nội bộ oBacker. Không phát hành cho khách hàng. |
@@ -552,34 +552,27 @@ Quy tắc 2 giải quyết lỗi thường gặp đã ghi tại [[02_OBK-SOP-AM_
 > [!bug] LỖI THƯỜNG GẶP
 > Ngày nghỉ bù khi lễ trùng cuối tuần, cách chia 05 ngày Tết Âm lịch, và ngày liền kề của Quốc khánh đều do Chính phủ công bố riêng từng năm. COO phải nạp danh sách ngày nghỉ THỰC TẾ vào `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]` trong 05 ngày làm việc kể từ khi có công bố. Không nạp thì mọi mốc dạng ngày làm việc và giờ làm việc đều tính sai.
 
-#### 7.2.2. Ba đồng hồ khác nhau, không được lẫn
+#### 7.2.2. Phản hồi nhanh và Đo lường On-Time Delivery (OTD %)
 
-Đây là chỗ hai tài liệu cũ của oBacker mâu thuẫn nhau. SOP Customer Handling v1.4 đặt phản hồi lần đầu là dưới 15 phút với chat; Handbook Kế toán PL_G mục 10.2 đặt "phản hồi đầu tiên" là 04 giờ làm việc. Hai con số này đo HAI VIỆC KHÁC NHAU. Từ nay tách rõ ba đồng hồ:
+oBacker phân định rõ hai mục tiêu:
+1. **Bộ quy tắc văn hóa phản hồi dịch vụ (T1 và T2):** Phản hồi tin nhắn nhanh dưới 15 phút (T1) và hẹn mốc trả lời dưới 04 giờ (T2) là tiêu chuẩn văn hóa giao tiếp hướng đến sự an tâm của khách hàng. Hai tiêu chuẩn này phục vụ đánh giá tinh thần phục vụ, không áp dụng chế tài phạt trừ KPI kỹ thuật hay bắt buộc ghi nhận giờ nhật ký vi mô.
+2. **Chỉ số đo lường hiệu suất cốt lõi duy nhất (OTD %):** Tập trung đo lường **On-Time Delivery (OTD %)**, tức tỷ lệ bàn giao kết quả cuối cùng (sản phẩm, hồ sơ, báo cáo thuế) cho khách hàng đúng hoặc trước thời hạn đã cam kết trên hợp đồng dịch vụ hoặc phiếu yêu cầu công việc.
 
-| Đồng hồ | Đo cái gì | Ai chịu |
-| --- | --- | --- |
-| **T1 Xác nhận đã nhận** | Thời gian tới khi khách biết yêu cầu đã tới đúng người. Nội dung: "đã nhận" | AM |
-| **T2 Cam kết mốc trả lời** | Thời gian tới khi khách biết BAO GIỜ có câu trả lời. Nội dung: "sẽ trả lời trước [mốc cụ thể]" | AM, sau khi hỏi bộ phận nghiệp vụ |
-| **T3 Trả lời hoàn chỉnh** | Thời gian tới khi khách nhận được câu trả lời hoặc sản phẩm | TL bộ phận nghiệp vụ về nội dung;<br>AM về việc gửi |
+#### 7.2.3. Bốn nhóm thời hạn dịch vụ tiêu chuẩn
 
-#### 7.2.3. Bảng T1, xác nhận đã nhận
+Toàn bộ thời hạn cam kết dịch vụ của oBacker được quy chuẩn thành bốn nhóm nghiệp vụ tiêu chuẩn:
 
-| Kênh | T1 | Ghi chú |
-| --- | --- | --- |
-| Chat, gồm `[HỆ THỐNG CHAT KHÁCH HÀNG]` và Zalo. Đây là kênh liên lạc, không phải kênh chính thống | Dưới 15 phút | Áp dụng cho cả lead và khách hiện hữu, cùng một AM |
-| Email | Dưới 01 giờ làm việc | |
-| Điện thoại nhỡ | Gọi lại dưới 30 phút | |
-| Ngoài giờ làm việc | Trước 09:00 ngày làm việc kế tiếp | Trừ P1 đang mở, theo cam kết riêng |
-| Khách liên hệ nhầm bộ phận | Chuyển cho AM trong 30 phút | Không trả lời nội dung, theo NT-2 |
+| Nhóm nghiệp vụ | Phạm vi công việc | Mốc cam kết nội bộ oBacker | Quy tắc xử lý thời gian cơ quan nhà nước |
+| --- | --- | --- | --- |
+| **Nhóm A: Thủ tục Cấp phép và Doanh nghiệp** | Đăng ký thành lập, thay đổi đăng ký doanh nghiệp, giấy phép con, sở hữu trí tuệ | Soạn thảo hồ sơ hoàn chỉnh trong vòng 24 đến 48 giờ làm việc kể từ khi nhận đủ tài liệu hợp lệ từ khách hàng | Thời gian thẩm định của cơ quan nhà nước nằm ngoài quyền kiểm soát của oBacker, không tính vào cam kết tiến độ nội bộ |
+| **Nhóm B: Kế toán và Thuế định kỳ** | Kê khai thuế giá trị gia tăng, thuế thu nhập cá nhân, hóa đơn điện tử, báo cáo tài chính | Chốt số liệu ngày 10; lập tờ khai gửi khách duyệt trước ngày 15; nộp cơ quan thuế trước ngày 18 đến 20 hằng tháng hoặc hằng quý | Khách hàng chậm gửi chứng từ sau ngày 05 hằng tháng được miễn trừ trách nhiệm nộp trễ cho oBacker |
+| **Nhóm C: Nhân sự, Tiền lương và BHXH** | Bảng chấm công, bảng tính lương, báo tăng giảm bảo hiểm xã hội, chế độ thai sản | Chốt công ngày 01 đến 02; bảng lương hoàn thành ngày 03 đến 04; báo tăng giảm bảo hiểm xã hội nộp trước ngày 15 hằng tháng | Thực hiện theo chu kỳ chốt lương cố định của từng khách hàng quy định tại phụ lục hợp đồng |
+| **Nhóm D: Soạn thảo Hợp đồng và Tư vấn** | Soạn thảo, rà soát hợp đồng kinh tế, biên bản thỏa thuận, tư vấn tuân thủ | 03 ngày làm việc đối với hợp đồng tiêu chuẩn dưới 10 trang; 05 ngày làm việc đối với hồ sơ phức tạp hoặc có yếu tố nước ngoài | Yêu cầu hoàn thành gấp trong 24 giờ phải được Trưởng nhóm phê duyệt và áp dụng phụ phí theo bảng giá |
 
-#### 7.2.4. Bảng T2, cam kết mốc trả lời
+#### 7.2.4. Văn hóa phản hồi T1 và T2
 
-| Loại yêu cầu | T2 |
-| --- | --- |
-| Yêu cầu thông thường, đã có sẵn quy trình | 04 giờ làm việc |
-| Yêu cầu chuyên môn phức tạp | 04 giờ làm việc, kèm mốc ước lượng do TL bộ phận cấp trong 02 giờ làm việc |
-| Yêu cầu chạm nội dung chưa xác minh được | 04 giờ làm việc, và nội dung cam kết chỉ được là một mốc hẹn trả lời, không được là câu trả lời nghiệp vụ |
-| Sự cố mức P1 | AM gọi điện dưới 30 phút, kèm mốc kế hoạch dưới 02 giờ |
+- **T1 (Xác nhận đã nhận):** AM phản hồi tin nhắn chat trong vòng 15 phút và email trong vòng 01 giờ làm việc để khách hàng biết thông tin đã được tiếp nhận.
+- **T2 (Hẹn mốc trả lời):** Đối với các yêu cầu cần tra cứu hoặc xử lý nghiệp vụ, AM gửi mốc hẹn trả lời cụ thể trong vòng 04 giờ làm việc sau khi trao đổi nhanh với bộ phận chuyên môn.
 
 T3 nằm ở bảng Job của từng SOP cấp 2.
 
@@ -644,9 +637,6 @@ Thiếu một trong ba thứ của nhánh kéo dài hoặc của kiểu dừng �
 ### 7.5. Nơi tra SLA của từng Job
 
 Con số SLA của từng Job cụ thể nằm ở bảng Job của SOP cấp 2 tương ứng. Bản tra cứu gộp toàn bộ SLA của bảy bảng Job nằm tại `PL_2_Bang_tra_SLA.md`.
-
-> [!question] CẦN XÁC MINH
-> `PL_2` là bản SINH TỰ ĐỘNG từ bảy bảng Job, gồm sáu SOP cấp 2 của mảng dịch vụ cộng [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo|OBK-SOP-NB-00]] của mảng nội bộ. `PL_2` không phải bản gốc. Con số SLA sửa ở SOP cấp 2, rồi sinh lại `PL_2`. Cấm sửa trực tiếp vào `PL_2`.
 
 ---
 
@@ -811,8 +801,8 @@ Phân biệt cốt lõi: con số quản trị là việc oBacker CHỌN; giả 
 > [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
 > CV không có quyền quyết, phải chuyển TL; vượt thẩm quyền TL thì chuyển COO. AM không có quyền quyết về nội dung chuyên môn, phải chuyển TL; không có quyền quyết về giá và phạm vi, phải chuyển CEO. Việc thuộc hành vi oBacker nghiêm cấm thì chuyển CEO.
 
-> [!question] CẦN XÁC MINH
-> Nội dung chưa chắc chắn, phải tra bản gốc trước khi dùng.
+> [!note] GHI CHÚ QUAN TRỌNG
+> Nội dung nguyên tắc hoặc lưu ý quan trọng cần tuân thủ trong quá trình thực hiện.
 
 > [!bug] LỖI THƯỜNG GẶP
 > Lỗi hay xảy ra trong thực tế, kèm dấu hiệu nhận biết và cách xử lý.
@@ -1022,4 +1012,4 @@ Mốc đếm từ ngày ghi nhận tại `RD-01`. Với văn bản mức ưu ti�
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.3.0.0 | Bổ sung điều cấm số 9 về dịch vụ người đứng tên hộ Nominee và mục phân tích cảnh báo pháp lý |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

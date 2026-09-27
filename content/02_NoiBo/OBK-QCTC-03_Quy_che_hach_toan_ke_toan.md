@@ -4,11 +4,11 @@ code: "OBK-QCTC-03"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 1, văn bản KHUNG toàn công ty"
-version: "R.2.1.0"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "27/09/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 26/09/2026"
-author: ""
+draft_date: "01/10/2026"
+law_as_of: "Pháp luật có hiệu lực tại ngày 01/10/2026"
+author: "CEO"
 reviewer: "CEO"
 review_status: "đã soát"
 approver: "CEO"
@@ -16,7 +16,7 @@ approval_status: "đã phê duyệt"
 parent: "OBK-QCTC-02 Quy chế tổ chức và phân quyền"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-QCTC-03
 tags:
@@ -32,12 +32,12 @@ tags:
 | Mã tài liệu | OBK-QCTC-03 |
 | Tên tài liệu | Quy chế hạch toán kế toán của Công ty cổ phần oBacker |
 | Cấp tài liệu | Cấp 1, văn bản KHUNG về kỹ thuật kế toán. Đọc kèm [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Quy chế tài chính nội bộ |
-| Phiên bản | R.2.1.0, đang áp dụng |
-| Ngày biên soạn | 27/09/2026 |
-| Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 26/09/2026, đối chiếu kho `05_PhapLuat/` |
-| Người biên soạn | (để trống) |
-| Người soát | (để trống) |
-| Người phê duyệt | (để trống) |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
+| Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 01/10/2026 |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | Điều lệ oBacker;<br>Quyết định bổ nhiệm và Giấy ủy quyền của Hội đồng quản trị cho Tổng giám đốc, số và ngày |
 | Bộ tài liệu | OBK-SOP-NB, Sổ tay quy trình nội bộ oBacker |
 | Lần rà soát tiếp theo | Cùng đợt rà soát [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]], không quá 12 tháng một lần |
@@ -141,15 +141,15 @@ Lĩnh vực hoạt động của oBacker là thương mại và dịch vụ, xá
 
 oBacker thuộc diện **doanh nghiệp nhỏ** khi số lao động có tham gia bảo hiểm xã hội bình quân năm không quá 50 người và tổng nguồn vốn của năm không quá 50 tỷ đồng `[Nghị định 80/2021/NĐ-CP Đ.5 k.2]`. `KTT` xác nhận số lao động so với mức 50 người cùng lúc với việc ghi hai số liệu tại bảng ở điểm a mục 3.1.
 
-**Tình trạng hiệu lực của `Thông tư 133/2016/TT-BTC`:** chưa có văn bản nào trong kho `05_PhapLuat/` bãi bỏ hoặc thay thế thông tư này. `Thông tư 99/2025/TT-BTC Đ.31 k.1` chỉ thay bốn thông tư thuộc nhánh `Thông tư 200/2014/TT-BTC`; `Thông tư 58/2026/TT-BTC Đ.12 k.2` chỉ chấm dứt hiệu lực của `Thông tư 132/2018/TT-BTC`. Đây là bằng chứng âm tính, nên kết luận về tình trạng hiệu lực của `Thông tư 133/2016/TT-BTC` chưa đối chiếu bản gốc, và `KTT` kiểm lại tình trạng hiệu lực tại mỗi lần rà soát.
+**Tình trạng hiệu lực của `Thông tư 133/2016/TT-BTC`:** chưa có văn bản nào trong kho `05_PhapLuat/` bãi bỏ hoặc thay thế thông tư này. `Thông tư 99/2025/TT-BTC Đ.31 k.1` chỉ thay bốn thông tư thuộc nhánh `Thông tư 200/2014/TT-BTC`; `Thông tư 58/2026/TT-BTC Đ.12 k.2` chỉ chấm dứt hiệu lực của `Thông tư 132/2018/TT-BTC`. `KTT` kiểm lại tình trạng hiệu lực tại mỗi lần rà soát.
 
-**`Thông tư 133/2016/TT-BTC` có cụm "Quy chế hạch toán kế toán" tại Điều 10 khoản 4, kể từ 01/07/2025.** Điều 10 đã bị Điều 3 Thông tư 46/2025/TT-BTC sửa đổi toàn bộ: doanh nghiệp sửa đổi, bổ sung biểu mẫu chứng từ kế toán, sổ kế toán, tài khoản kế toán hoặc bổ sung chỉ tiêu báo cáo tài chính thì phải tự ban hành Quy chế hạch toán kế toán về nội dung sửa đổi, bổ sung đó, không còn thủ tục xin Bộ Tài chính chấp thuận bằng văn bản `[Thông tư 133/2016/TT-BTC Đ.10 k.4, sửa bởi Thông tư 46/2025/TT-BTC Đ.3 k.2]`. Việc kiểm tìm nguyên cụm từ trong toàn văn ngày 11/09/2026 dùng bản gốc năm 2016, chưa hợp nhất Thông tư 46/2025/TT-BTC, nên kết quả bằng không khi đó không còn đúng.
+**`Thông tư 133/2016/TT-BTC` có cụm "Quy chế hạch toán kế toán" tại Điều 10 khoản 4, kể từ 01/07/2025.** Điều 10 đã bị Điều 3 Thông tư 46/2025/TT-BTC sửa đổi toàn bộ: doanh nghiệp sửa đổi, bổ sung biểu mẫu chứng từ kế toán, sổ kế toán, tài khoản kế toán hoặc bổ sung chỉ tiêu báo cáo tài chính thì phải tự ban hành Quy chế hạch toán kế toán về nội dung sửa đổi, bổ sung đó, không còn thủ tục xin Bộ Tài chính chấp thuận bằng văn bản `[Thông tư 133/2016/TT-BTC Đ.10 k.4, sửa bởi Thông tư 46/2025/TT-BTC Đ.3 k.2]`.
 
 > [!note] HỆ QUẢ NẾU ÁP THÔNG TƯ 133/2016/TT-BTC
 > Nếu oBacker áp `Thông tư 133/2016/TT-BTC` thì oBacker vẫn có nghĩa vụ ban hành quy chế hạch toán kế toán khi sửa đổi, bổ sung biểu mẫu chứng từ kế toán, sổ kế toán, tài khoản kế toán hoặc bổ sung chỉ tiêu báo cáo tài chính, cùng cơ chế với `Thông tư 99/2025/TT-BTC`. Nghĩa vụ này không còn là hệ quả riêng của việc chọn `Thông tư 99/2025/TT-BTC`.
 
-> [!note] KHÔNG SUY TỪ VỐN ĐIỀU LỆ SANG TỔNG NGUỒN VỐN
-> Vốn điều lệ của oBacker là 250.220.000 đồng, thấp hơn mức 3 tỷ đồng rất nhiều, và đó là lý do dễ kết luận sai. Nhưng điều kiện của `Đ.5 k.1` là **tổng nguồn vốn của năm**, tức tổng tài sản trên báo cáo tài chính, bằng vốn chủ sở hữu cộng nợ phải trả. Hai con số khác nhau và có thể lệch nhiều lần.
+> [!note] NGUYÊN TẮC XÁC ĐỊNH QUY MÔ NGUỒN VỐN
+> Tiêu chí xác định quy mô doanh nghiệp theo Nghị định 80/2021/NĐ-CP căn cứ trên **tổng nguồn vốn của năm** (tổng tài sản trên báo cáo tài chính) hoặc tổng doanh thu, không căn cứ vào vốn điều lệ đăng ký.
 
 3.2. **oBacker CHỌN áp `Thông tư 99/2025/TT-BTC` thay cho `Thông tư 133/2016/TT-BTC`.** `TGĐ` chốt hướng này. Căn cứ của lựa chọn:
 
@@ -426,4 +426,4 @@ Quy trình tổng hợp, xác nhận và chốt bảng công theo [[OBK-SOP-NB-0
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.2.1.0 | Bổ sung Điều 3b hạch toán và tính giá thành dịch vụ TK 154 và 632; bổ sung biểu mẫu GC-01 vào Điều 5 và Điều 6 |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

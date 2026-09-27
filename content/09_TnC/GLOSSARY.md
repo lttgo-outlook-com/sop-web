@@ -2,10 +2,10 @@
 title: "GLOSSARY & STYLE GUIDE; Bộ T&C oBacker R.1.0.0 (VI-EN)"
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.0.1"
+version: "R.1.0.0"
 status: "đang áp dụng"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 tags:
   - loai/tnc
 ---
@@ -164,4 +164,4 @@ Giữ **nguyên mã** ở cả hai ngôn ngữ để cross-reference khớp: **P
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 26/09/2026 | R.1.0.1 | Đổi ví dụ trích dẫn tại mục 3 từ Thông tư 200/2014/TT-BTC đã hết hiệu lực thành Thông tư 99/2025/TT-BTC để khớp với trích dẫn hiện hành trong bộ TnC |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

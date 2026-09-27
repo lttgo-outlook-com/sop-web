@@ -6,9 +6,9 @@ folder: "02_NoiBo"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
 version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "27/09/2026"
+draft_date: "01/10/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 27/09/2026"
-author: ""
+author: "CEO"
 reviewer: "CEO"
 review_status: "đã soát"
 approver: "CEO"
@@ -16,7 +16,7 @@ approval_status: "đã phê duyệt"
 parent: "OBK-SOP-NB-00 Chuẩn vận hành nội bộ"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-SOP-NB-18
 tags:
@@ -34,11 +34,11 @@ tags:
 | Tên tài liệu | Quy trình quản lý công tác phí và thanh toán chi phí công tác |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ. Thi hành Điều 19 và Điều 21 của [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Quy chế tài chính nội bộ |
 | Phiên bản | R.1.0.0, đang áp dụng |
-| Ngày biên soạn | 27/09/2026 |
+| Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 27/09/2026 |
-| Người biên soạn | (để trống) |
-| Người soát | (để trống) |
-| Người phê duyệt | (để trống) |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo\|OBK-SOP-NB-00]] Chuẩn vận hành nội bộ |
 | Bộ tài liệu | OBK-SOP-NB, Sổ tay quy trình nội bộ oBacker |
 | Tài liệu song hành | [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] mua sắm và thanh toán;<br>[[OBK-SOP-NB-03_Quan_ly_tien\|OBK-SOP-NB-03]] quản lý tiền |
@@ -242,7 +242,7 @@ Mọi khoản thanh toán công tác phí tại oBacker tuân thủ bảng đị
 
 ## 7. Điểm kiểm soát bắt buộc
 
-| Mã chốt | Điểm kiểm soát | Thời điểm kiểm tra | Người kiểm tra | Người phê duyệt | Hành động khi phát hiện sai phạm |
+| Mã chốt | Điểm kiểm soát | Thời điểm kiểm tra | Người kiểm tra | Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | --- | --- | --- | --- | --- | --- |
 | `KS-CT-01` | Quyết định cử đi công tác phải được lập và ký trước ngày bắt đầu chuyến đi | Trước khi chi tạm ứng và trước khi khởi hành | `KTV`, `KTT` | `CEO` | Đình chỉ chi tiền tạm ứng; từ chối thanh toán nếu cố tình đi công tác khi chưa có quyết định |
 | `KS-CT-02` | Giấy đi đường [[CT-01_Giay_di_duong_va_quyet_toan_cong_tac_phi\|CT-01]] có đủ chữ ký, con dấu xác nhận ngày đến, ngày đi của cơ quan nơi đến | Khi tiếp nhận hồ sơ quyết toán | `KTV` | `KTT` | Yêu cầu `NLĐ` giải trình và bổ sung biên bản làm việc, hình ảnh, thư xác nhận công tác hợp lệ; không giải trình được thì loại tiền phụ cấp lưu trú |
@@ -310,4 +310,4 @@ Mọi khoản thanh toán công tác phí tại oBacker tuân thủ bảng đị
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.1.0.0 | Ban hành mới quy trình quản lý công tác phí và thanh toán chi phí công tác |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

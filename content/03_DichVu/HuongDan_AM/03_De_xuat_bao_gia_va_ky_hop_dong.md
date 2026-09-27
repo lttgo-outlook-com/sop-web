@@ -4,18 +4,18 @@ code: "OBK-HB-33"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.1.0"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "26/09/2026"
+draft_date: "01/10/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 07/09/2026"
 author: "CEO"
 reviewer: "CEO"
 review_status: "đã soát"
-approver: "TP Thương mại"
+approver: "CEO"
 parent: "OBK-SOP-AM Quản lý khách hàng"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-HB-33
 tags:
@@ -30,12 +30,12 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-HB-33 |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.1.1.0, đang áp dụng |
-| Ngày biên soạn | 26/09/2026 |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 07/09/2026 |
-| Người biên soạn | `CEO` soạn bản đầu. Bản sau do `CEO` phân công |
-| Người soát | đã soát |
-| Người phê duyệt | TP Thương mại. `CEO` duyệt khi bản này chạm giá hoặc chạm phạm vi |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] Quản lý khách hàng |
 | Đây là gì | Người đọc là `AM`, từ lúc có biên bản làm rõ tới lúc hợp đồng được ký và tiền về.<br>Hướng dẫn này trả lời: lấy đầu vào ở đâu, ai duyệt giá, và được sửa gì trong hợp đồng |
 | Đọc trước | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] mục 3 Job AM-03 tới AM-05, AM-23 và AM-24;<br>[[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 8.2.1 |
@@ -134,7 +134,9 @@ Sau T+5 không có phản hồi thì đóng lead với lý do không phản hồ
 
 ### 6.6. Bước 6. Gửi hợp đồng, và xử lý yêu cầu sửa điều khoản
 
-Dùng mẫu đang có hiệu lực ban hành tại [[PL_HD_Mau_hop_dong_dich_vu_khung\|OBK-SOP-AM-PL2]]. Ba việc `AM` được làm trên mẫu: điền thông tin các bên; điền phạm vi theo bước 2; điền phí và điều kiện thanh toán đã được duyệt.
+Dùng mẫu đang có hiệu lực ban hành tại [[PL_HD_Mau_hop_dong_dich_vu_khung|OBK-SOP-AM-PL2]] và Bảng giá chuẩn. **Hợp đồng dịch vụ chuẩn do TP Thương mại ký kết trực tiếp với khách hàng.** Không cần trình `CEO` hay xin ý kiến `COO` nếu áp dụng đúng giá chuẩn và mẫu chuẩn.
+
+Ba việc `AM` được làm trên mẫu: điền thông tin các bên; điền phạm vi theo bước 2; điền phí và điều kiện thanh toán đã được duyệt.
 
 Ba việc `AM` bị cấm: tự sửa câu chữ của một điều khoản; tự thêm một điều khoản; tự bỏ một điều khoản. Khi khách hàng có nhu cầu sửa đổi điều khoản, `AM` tuyệt đối không tự sửa mà phải đi qua luồng phê duyệt điều chỉnh điều khoản hợp đồng:
 
@@ -209,4 +211,4 @@ Có xác nhận thanh toán thì sang `AM-06` trong 01 ngày làm việc, và ti
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.1.1.0 | Bo sung luong phe duyet dieu chinh dieu khoan hop dong (3 nhom: thuong mai, van hanh SLA, phap ly cot loi) tai Muc 6.6 theo SP-22 |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

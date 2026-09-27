@@ -4,9 +4,9 @@ code: "NS-01"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.2.0.0"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "23/09/2026"
+draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
 review_status: "đã soát"
@@ -16,7 +16,7 @@ parent: "OBK-QCNS-08 Khung đánh giá hiệu suất"
 law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: "NS-01_Phieu_tu_danh_gia_hieu_suat_Phong_Dich_vu.md"
+previous_version: "R.1.0.0"
 aliases:
   - NS-01
 tags:
@@ -29,11 +29,11 @@ tags:
 | --- | --- |
 | Mã tài liệu | NS-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.2.0.0, đang áp dụng |
-| Ngày biên soạn | 23/09/2026 |
-| Người biên soạn | `CEO` |
-| Người soát | đã soát |
-| Người phê duyệt | đã phê duyệt |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] |
 | **Mã phiếu** | NS-01 |
 | **Ai dùng** | Người được chấm tự điền, ở mọi vị trí trong phạm vi áp dụng tại [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] mục 0a |
@@ -133,4 +133,4 @@ Quản lý trực tiếp xác nhận hoặc thay đồng nghiệp được đề
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 23/09/2026 | R.2.0.0 | Phiếu dùng chung cho mọi vị trí trong phạm vi Khung đánh giá hiệu suất OBK-QCNS-08, thay phiếu riêng của Phòng Dịch vụ<br>Người được chấm đọc bảng số liệu tám tiêu chí phần A và nêu ý kiến kèm bằng chứng trước khi tự chấm<br>Tự chấm ba tiêu chí phần B; đề xuất tối đa 02 đồng nghiệp đánh giá chéo<br>Đổi tên tệp, bỏ chữ Phòng Dịch vụ khỏi tên phiếu |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

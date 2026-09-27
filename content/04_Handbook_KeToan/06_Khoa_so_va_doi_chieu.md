@@ -4,9 +4,9 @@ code: "OBK-HB-06"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.1.1"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "26/09/2026"
+draft_date: "01/10/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 25/08/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -15,7 +15,7 @@ approver: "CEO"
 parent: "OBK-SOP-KT Kế toán và thuế"
 next_review: "Chậm nhất 25/02/2027"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-HB-06
 tags:
@@ -30,12 +30,12 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-HB-06 |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.1.1.1, đang áp dụng |
-| Ngày biên soạn | 26/09/2026 |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
-| Người biên soạn | `CEO` biên soạn |
-| Người soát | đã soát |
-| Người phê duyệt | `CEO` ban hành |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] Kế toán và thuế |
 | Lần rà soát tiếp theo | 25/02/2027, hoặc ngay khi có văn bản sửa đổi Thông tư 99/2025/TT-BTC |
 
@@ -183,8 +183,7 @@ TL-KT xác định hình thức sổ kế toán của từng khách; CV-KT ghi r
 
 Cách dùng: CV-KT điền cột Kết quả với một trong ba giá trị Đạt, Lệch trong ngưỡng, Lệch vượt ngưỡng. Mọi dòng Lệch phải có số liệu chênh lệch và mã phân loại theo mục 6.4. TL-KT ký xác nhận ở cuối bảng.
 
-| # | Nội dung đối chiếu | Nguồn A | Nguồn B | Tiêu chí đạt | Người làm | Người soát |
-| --- | --- | --- | --- | --- | --- | --- |
+| # | Nội dung đối chiếu | Nguồn A | Nguồn B | Tiêu chí đạt | Người làm | Người soát | CEO (Lê Trọng Tuấn) | --- | --- | --- | --- | --- | --- | --- |
 | 01 | Số dư đầu kỳ của mọi tài khoản | Số dư cuối kỳ trước đã chốt | Số dư đầu kỳ trên `[PHẦN MỀM KẾ TOÁN]` | Khớp tuyệt đối từng tài khoản | CV-KT | TL-KT |
 | 02 | Cân đối tổng thể | Tổng phát sinh nợ toàn kỳ | Tổng phát sinh có toàn kỳ | Bằng nhau | CV-KT | TL-KT |
 | 03 | Cân đối số dư | Tổng số dư nợ cuối kỳ | Tổng số dư có cuối kỳ | Bằng nhau | CV-KT | TL-KT |
@@ -353,8 +352,7 @@ Vì vậy, trong năm 2026 phải thực hiện chuyển đổi số dư cho m�
 
 Bảng kiểm năm gồm TOÀN BỘ 45 dòng của bảng kiểm tháng tại mục 6.3, áp dụng cho tháng cuối cùng của năm tài chính, CỘNG THÊM các dòng dưới đây.
 
-| # | Nội dung | Nguồn A | Nguồn B | Tiêu chí đạt | Người làm | Người soát |
-| --- | --- | --- | --- | --- | --- | --- |
+| # | Nội dung | Nguồn A | Nguồn B | Tiêu chí đạt | Người làm | Người soát | CEO (Lê Trọng Tuấn) | --- | --- | --- | --- | --- | --- | --- |
 | N01 | Kiểm kê quỹ tiền mặt tại thời điểm kết thúc năm | Số dư TK 111 | Bảng kiểm kê quỹ mẫu 08a - TT, có chữ ký thủ quỹ và ban kiểm kê | Khớp;<br>chênh lệch đã xử lý qua TK 1381 hoặc TK 3381 | CV-KT | TL-KT |
 | N02 | Kiểm kê ngoại tệ, vàng tiền tệ | Số dư nguyên tệ trên sổ | Bảng kiểm kê quỹ mẫu 08b - TT | Khớp về nguyên tệ | CV-KT | TL-KT |
 | N03 | Kiểm kê hàng tồn kho | Sổ chi tiết hàng tồn kho | Biên bản tổng hợp kiểm kê vật tư, công cụ, sản phẩm, hàng hóa mẫu 05 - VT | Khớp theo từng mã hàng;<br>chênh lệch đã lập biên bản và đã xử lý | CV-KT | TL-KT |
@@ -509,4 +507,4 @@ Bảng kiểm năm gồm TOÀN BỘ 45 dòng của bảng kiểm tháng tại m�
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 26/09/2026 | R.1.1.1 | Cập nhật đường dẫn tệp Thông tư 200/2014/TT-BTC sang tên có hậu tố HETHIEULUC sau khi đổi tên tệp trong kho văn bản pháp luật |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

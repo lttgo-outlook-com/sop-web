@@ -4,16 +4,16 @@ code: "OBK-DM-GP"
 type: "danh-muc"
 folder: "10_DanhMuc"
 level: "Danh mục"
-version: "R.2.0.0"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "15/09/2026"
+draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
 review_status: "đã soát"
 approver: "CEO"
 approval_status: "đã phê duyệt"
 parent: "OBK-DM-00 Danh mục dịch vụ và bảng giá"
-previous_version: ""
+previous_version: "R.1.0.0"
 law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
@@ -32,11 +32,11 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-DM-GP |
 | Cấp tài liệu | Danh mục |
-| Phiên bản | R.2.0.0, đang áp dụng |
-| Ngày biên soạn | 15/09/2026 |
-| Người biên soạn | `CEO` |
-| Người soát | đã soát |
-| Người phê duyệt | đã phê duyệt |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[00_Danh_muc_dich_vu_va_bang_gia\|OBK-DM-00]] Danh mục dịch vụ và bảng giá |
 | Số mã dịch vụ | 59 |
 | Nguồn dữ liệu | `_du_lieu_danh_muc/danh_muc.tsv`, kết xuất ngày 15/09/2026 |
@@ -580,4 +580,4 @@ Phạm vi, thời gian và điều kiện áp dụng chép từ hệ thống dan
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.2.0.0 | Bãi bỏ hai mã dịch vụ người đứng tên hộ NOM-HOLD và NOM-SET khỏi bảng giá |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

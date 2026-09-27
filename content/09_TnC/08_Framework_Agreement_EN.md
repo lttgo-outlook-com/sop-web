@@ -2,11 +2,11 @@
 title: "SERVICE AGREEMENT (FRAMEWORK; ELECTRONIC EXECUTION)"
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.1.0"
+version: "R.1.0.0"
 status: "đang áp dụng"
 language: "en"
 distribution: "Khách hàng"
-previous_version: ""
+previous_version: "R.1.0.0"
 tags:
   - loai/tnc
 ---
@@ -14,7 +14,7 @@ tags:
 ### oBacker Master Service Agreement; Electronic Execution
 
 **Agreement No.:** [AGREEMENT NO. / per the Order Form] · **Issue date:** [__/__/____]
-**Template version:** R.1.0.0 · **Updated:** 21/09/2026
+**Template version:** R.1.0.0 · **Updated:** 01/10/2026
 
 > This short Framework Agreement is entered into in **electronic form** under the **Law on E-Transactions No. 20/2023/QH15**. The Agreement incorporates and attaches oBacker's Terms & Conditions of Service; **oBacker signs it in advance (automatic signature), and the Agreement is concluded once the Client makes payment** under the Order Form.
 

@@ -4,9 +4,9 @@ code: "OBK-QCTC-02-PL-C"
 type: "sop"
 folder: "01_ToChuc"
 level: "Phụ lục"
-version: "R.3.0.2"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "27/09/2026"
+draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
 review_status: "đã soát"
@@ -16,7 +16,7 @@ parent: "OBK-QCTC-02 Quy chế tổ chức và phân quyền"
 law_as_of: ""
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-QCTC-02-PL-C
 tags:
@@ -29,11 +29,11 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-QCTC-02-PL-C |
 | Cấp tài liệu | Phụ lục |
-| Phiên bản | R.3.0.2, đang áp dụng |
-| Ngày biên soạn | 27/09/2026 |
-| Người biên soạn | `CEO` soạn bản đầu. Bản sau do `CEO` phân công |
-| Người soát | đã soát |
-| Người phê duyệt | đã phê duyệt |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen\|OBK-QCTC-02]] Quy chế tổ chức và phân quyền |
 
 
@@ -69,13 +69,11 @@ Ba dòng dễ đi sai địa chỉ nhất:
 - Việc pháp lý: có khách và có thu thì về Bộ phận Dịch vụ pháp lý; là chuẩn nội bộ hoặc chưa có tiền lệ thì về Legal R&D.
 - Việc thanh tra: **THUẾ thì `TL-KT` chủ trì**, vì [[16_Thanh_tra_kiem_tra_thue|OBK-SOP-16]] đặt `TL-KT` là người chủ trì làm việc với đoàn kiểm tra thuế và là người có hồ sơ trong tay; Bộ phận Dịch vụ pháp lý tham vấn về thủ tục và thời hiệu, Legal R&D về hành vi oBacker nghiêm cấm. **LAO ĐỘNG thì `TL-LD` chủ trì**, cùng lý do là hồ sơ lao động và bảng lương nằm ở đó, và việc là giải trình theo hồ sơ. **TRANH CHẤP phải lập luận pháp lý thì `TL-LS` chủ trì**, bộ phận giữ hồ sơ cấp hồ sơ. Bản 1 của phụ lục này gộp cả "làm việc với thanh tra" vào Legal R&D, tức lệch với Handbook; đã tách ngày 02/09/2026, rồi tách tiếp ngày 07/09/2026 theo quy tắc ba lớp.
 
-> [!note] ĐỔI NGÀY 07/09/2026
-> HAI DÒNG THANH TRA VÀ TRANH CHẤP
-> Bản 02/09/2026 giao thanh tra LAO ĐỘNG và tranh chấp lao động cho Legal R&D. Cách giao đó TỰ MÂU THUẪN với nguyên tắc ngay dưới bảng này và với [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen|OBK-QCTC-02]] Điều 17: việc pháp lý có khách và có thu thì về Bộ phận Dịch vụ pháp lý, còn Legal R&D chỉ giữ chuẩn và việc chưa có tiền lệ. Thanh tra lao động của khách rõ ràng có khách và có thu.
->
-> Bản mới áp quy tắc BA LỚP, bản gốc tại `03_DichVu/01_OBK-SOP-00` mục 5.5: hỏi việc đang xét CẦN CÁI GÌ, không hỏi việc đang xét thuộc lĩnh vực nào. Chỉ cần giải trình theo hồ sơ đã có thì thuộc `TL` bộ phận giữ hồ sơ; phải lập luận pháp lý hoặc ra văn bản có ký thì thuộc `TL-LS`; chưa có chuẩn hoặc kết luận dùng cho mọi khách về sau thì thuộc `TL-RD`.
->
-> Nhờ vậy hai dòng thanh tra nay xử GIỐNG NHAU: thanh tra thuế thì `TL-KT` chủ trì, thanh tra lao động thì `TL-LD` chủ trì, cùng một lý do là hồ sơ nằm ở đó. Trước đây hai dòng xử khác nhau mà không có lý do nào giải thích được sự khác đó.
+> [!note] NGUYÊN TẮC BA LỚP XỬ LÝ THANH TRA VÀ TRANH CHẤP
+> Quy tắc ba lớp xác định theo nội dung yêu cầu:
+> 1. Giải trình theo hồ sơ đã có: `TL` bộ phận giữ hồ sơ chủ trì (thanh tra thuế do `TL-KT` chủ trì, thanh tra lao động do `TL-LD` chủ trì).
+> 2. Lập luận pháp lý hoặc phát hành văn bản có chữ ký: `TL-LS` chủ trì.
+> 3. Vấn đề chưa có tiền lệ hoặc kết luận áp dụng chung: `TL-RD` tham mưu, `CEO` quyết định.
 
 **Chiều dọc, BA NHÁNH.** Cơ cấu mới có ba nhánh khác nhau về số cấp.
 
@@ -120,8 +118,7 @@ Nhánh kiến tạo và hỗ trợ, hai cấp:
 
 ## 2a. Quy tắc GIAO TIẾP TRONG TEAM và CROSS TEAM
 
-> [!note] QUY TẮC MỚI, ĐẶT TẠI ĐÂY
-> Trước 02/09/2026 không tài liệu nào của oBacker đặt quy tắc giao tiếp ở hai lớp này: [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen|OBK-QCTC-02]] và ba phụ lục còn lại đều không có, [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 8 chỉ nói về chuyển lên cấp trên theo tuyến dọc, và [[19_Giao_tiep_khach_hang|OBK-SOP-19]] chỉ nói về giao tiếp với KHÁCH. Bốn quy tắc dưới đây là quy tắc mới, bản gốc đặt ở mục này; tài liệu khác chỉ dẫn chiếu.
+Bốn quy tắc dưới đây áp dụng thống nhất cho toàn bộ nhân sự oBacker:
 
 **Quy tắc 1: nơi ghi nhận duy nhất là Job trên hệ thống quản lý công việc.** Một yêu cầu, một quyết định, một xác nhận, một mốc cam kết chỉ tồn tại khi được ghi trên Job. Không có Job thì coi như việc chưa được giao và quyết định chưa được ra.
 
@@ -211,4 +208,4 @@ Người đọc hai chỉ số này: `CEO` và `COO` cùng đọc. Quy tắc đ�
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.3.0.2 | Cap nhat Nghi dinh 356/2025/ND-CP huong dan Luat Bao ve du lieu ca nhan da co trong kho |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

@@ -2,11 +2,11 @@
 title: "HỢP ĐỒNG DỊCH VỤ (BẢN KHUNG; KÝ ĐIỆN TỬ)"
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.1.0"
+version: "R.1.0.0"
 status: "đang áp dụng"
 language: "vi"
 distribution: "Khách hàng"
-previous_version: ""
+previous_version: "R.1.0.0"
 tags:
   - loai/tnc
 ---
@@ -14,7 +14,7 @@ tags:
 ### Hợp Đồng Dịch Vụ Khung oBacker; Giao Kết Điện Tử
 
 **Số Hợp Đồng:** [SỐ HĐ / theo Đơn Đặt Hàng] · **Ngày phát hành:** [__/__/____]
-**Phiên bản mẫu:** R.1.0.0 · **Cập nhật:** 21/09/2026
+**Phiên bản mẫu:** R.1.0.0 · **Cập nhật:** 01/10/2026
 
 > Bản Hợp đồng khung ngắn gọn này được giao kết dưới **hình thức điện tử** theo **Luật Giao dịch điện tử số 20/2023/QH15**. Hợp đồng dẫn chiếu và đính kèm bộ Điều Khoản & Điều Kiện Dịch Vụ của oBacker; **oBacker ký sẵn (ký tự động), Hợp đồng hoàn tất giao kết khi Quý Khách thanh toán** theo Đơn Đặt Hàng.
 
@@ -154,4 +154,4 @@ Chữ ký điện tử / Xác nhận thanh toán: `[chữ ký điện tử của
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 24/09/2026 | R.1.1.0 | Điều 7 đánh số thành 7.1 và 7.2; thêm khoản 7.2 về sự đồng ý của Quý Khách được giới thiệu cho oBacker cung cấp tên, kỳ, số hóa đơn, số tiền và ngày thanh toán cho bên đã giới thiệu, chỉ nhằm đối soát và thanh toán phí giới thiệu.<br>Đơn Đặt Hàng thêm hàng Khách được giới thiệu bởi và hàng đồng ý cung cấp thông tin, chọn Có hoặc Không; không đồng ý không ảnh hưởng tới Hợp đồng |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

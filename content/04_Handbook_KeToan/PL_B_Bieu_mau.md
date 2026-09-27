@@ -4,9 +4,9 @@ code: "OBK-SOP-PL-B"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Phụ lục"
-version: "R.2.0.1"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "27/09/2026"
+draft_date: "01/10/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 25/08/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -16,7 +16,7 @@ parent: "OBK-SOP-KT Kế toán và thuế"
 next_review: "Chậm nhất 28/02/2027"
 appendix: "Biểu mẫu nội bộ"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-SOP-PL-B
 tags:
@@ -32,12 +32,12 @@ tags:
 | Mã tài liệu | OBK-SOP-PL-B |
 | Tên phụ lục | Biểu mẫu nội bộ |
 | Cấp tài liệu | Phụ lục của hướng dẫn cấp 3 |
-| Phiên bản | R.2.0.1, đang áp dụng |
-| Ngày biên soạn | 27/09/2026 |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
-| Người biên soạn | `CEO` biên soạn |
-| Người soát | đã soát |
-| Người phê duyệt | `CEO` ban hành |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] Kế toán và thuế |
 | Tính chất nội dung | QUY ĐỊNH NỘI BỘ oBacker. Toàn bộ biểu mẫu trong phụ lục này là biểu mẫu quản trị nội bộ do oBacker tự thiết kế.<br>không phải biểu mẫu do pháp luật quy định, không được dùng thay cho biểu mẫu bắt buộc theo quy định pháp luật.<br>riêng mục DANH MỤC KÝ HIỆU MẪU TỜ KHAI THEO SẮC THUẾ không phải biểu mẫu nội bộ, đó là danh mục dẫn chiếu tới mẫu biểu bắt buộc tại Phụ lục I Thông tư 89/2026/TT-BTC |
 | Lần rà soát tiếp theo | Hằng năm, trước 28/02/2027. Rà soát đột xuất khi chương gốc được cập nhật theo Chương 21 |
@@ -1629,4 +1629,4 @@ Mức phạt hành vi bố trí hoặc thuê người làm kế toán trưởng 
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.2.0.1 | Chuẩn hóa câu chữ: loại bỏ danh từ hóa nhắc phí và chỉnh mức độ xung đột lợi ích |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

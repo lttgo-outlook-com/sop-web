@@ -4,9 +4,9 @@ code: "OBK-HB-10"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.2.1.0"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "27/09/2026"
+draft_date: "01/10/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 25/08/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -16,7 +16,7 @@ parent: "OBK-SOP-KT Kế toán và thuế"
 next_review: "15/12/2026"
 chapter: "Thuế thu nhập doanh nghiệp"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-HB-10
 tags:
@@ -33,12 +33,12 @@ tags:
 | Mã tài liệu | OBK-HB-10 |
 | Tên chương | Thuế thu nhập doanh nghiệp |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.2.1.0, đang áp dụng |
-| Ngày biên soạn | 27/09/2026 |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
-| Người biên soạn | `CEO` biên soạn |
-| Người soát | đã soát |
-| Người phê duyệt | `CEO` ban hành |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] Kế toán và thuế |
 | Lần rà soát tiếp theo | Trước ngày 15/12/2026, để kịp mùa tạm nộp quý IV và kỳ quyết toán thuế năm năm 2026 |
 | Chương liên quan | Chương 09 (Thuế GTGT), đặc biệt là ngưỡng 05 triệu đồng và giới hạn 1,6 tỷ đồng của ô tô chở người từ 09 chỗ ngồi trở xuống;<br>chương về thuế TNCN;<br>chương về quản lý thuế và thời hạn |
@@ -1822,4 +1822,4 @@ Tám điểm đã được gỡ khỏi danh mục này ở lần rà soát ngày
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.2.1.0 | Bổ sung mục 6.11 hướng dẫn chuyên sâu nghiệp vụ khấu trừ, tính thuế và kê khai thuế nhà thầu nước ngoài |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

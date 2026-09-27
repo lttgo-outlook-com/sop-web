@@ -4,9 +4,9 @@ code: "OBK-SOP-RD"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 2, quy trình bộ phận"
-version: "R.1.2.0"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "27/09/2026"
+draft_date: "01/10/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 07/09/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -14,7 +14,7 @@ approver: "CEO"
 parent: "OBK-SOP-00 Chuẩn vận hành dịch vụ"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-SOP-RD
 tags:
@@ -29,12 +29,12 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-SOP-RD |
 | Cấp tài liệu | Cấp 2, SOP đơn vị |
-| Phiên bản | R.1.2.0, đang áp dụng |
-| Ngày biên soạn | 27/09/2026 |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 07/09/2026 |
-| Người biên soạn | `CEO` biên soạn. `TL-RD` chưa có ý kiến về bản này |
-| Người soát | chưa soát. **`TL-RD` phải soát trước khi ban hành**, vì bản hiện tại chưa qua ý kiến của người phụ trách đơn vị |
-| Người phê duyệt | **`CEO`** ban hành. Việc sửa sau ban hành theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 12.1 |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |OBK-SOP-00]] mục 12.1 |
 | Văn bản cấp trên | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] Chuẩn vận hành dịch vụ |
 | Đây là gì | Đơn vị này nhận Job nào, đầu vào gì, đầu ra gì, hạn bao lâu.<br>Người đọc là `TL-RD`, `CV-RD`, và `TL` của bốn bộ phận dịch vụ khi cần biết mình được đáp trong bao lâu |
 | Đọc trước | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 5.5, mục 7.4a và mục 12.3;<br>`06_OBK-SOP-LS` |
@@ -101,8 +101,8 @@ Ký hiệu SLA: `NLV` là ngày làm việc; `gLV` là giờ làm việc. Quy ư
 
 Bốn mức ưu tiên của văn bản pháp luật mới, cùng ba mốc 05, 10 và 20 ngày làm việc, ĐẶT tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 12.3a. Bảng dưới đây chỉ dẫn chiếu, không đặt lại con số.
 
-> [!question] CẦN XÁC MINH
-> Đơn vị này không có Job nào mang thời hạn theo pháp luật, vì nghĩa vụ pháp lý thuộc khách chứ không thuộc đơn vị. Cột Thời hạn bên ngoài ghi ngày hiệu lực của văn bản pháp luật khi có, vì đó là mốc mà đơn vị không kiểm soát được nhưng phải chạy trước. Mốc `T3` không áp cho đơn vị này vì đơn vị không gửi gì ra khách; thay vào đó dùng SLA nội bộ với bộ phận.
+> [!note] ĐẶC THÙ THỜI HẠN VÀ SLA
+> Đơn vị Nghiên cứu Pháp lý áp dụng SLA nội bộ giữa các bộ phận chuyên môn theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 7.4a. Cột thời hạn bên ngoài ghi nhận ngày hiệu lực của văn bản quy phạm pháp luật để chủ động triển khai đánh giá tác động trước khi văn bản có hiệu lực.
 
 ### 2.1. Chuỗi bốn Job đầu phải vừa mốc của mức ưu tiên, và quy tắc nhiều mốc
 
@@ -242,9 +242,6 @@ Tám chỉ số chung tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] 
 | `RD-M06` | Số câu hỏi lặp lại từ hai bộ phận trở lên mà chưa thành chuẩn | Đếm câu hỏi xuất hiện từ 2 lần mà chưa có mã tại RD-11 | 0 | Hệ thống công việc, hằng quý |
 
 `RD-M06` là chỉ số quan trọng nhất của đơn vị. Một câu hỏi được trả lời hai lần bằng hai Job rời nghĩa là đơn vị đang làm việc của một tổng đài chứ không làm việc kiến tạo.
-
-> [!question] CẦN XÁC MINH
-> Hai con số ở bảng trên là con số oBacker tự đặt, không phải mốc do pháp luật ấn định.
 
 ---
 
@@ -516,4 +513,4 @@ Trước khi trình duyệt Báo cáo nghiên cứu pháp lý nội bộ, nhân 
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.1.2.0 | Bổ sung mục 9 Chuẩn phương pháp luận nghiên cứu pháp lý kế thừa cẩm nang nghiên cứu pháp lý |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

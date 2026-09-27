@@ -6,7 +6,7 @@ folder: "02_NoiBo"
 level: "Cấp 2, quy trình bộ phận"
 version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "27/09/2026"
+draft_date: "01/10/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 27/09/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -16,7 +16,7 @@ approval_status: "đã phê duyệt"
 parent: "OBK-SOP-NB-00 Chuẩn vận hành nội bộ"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-SOP-NB-11
 tags:
@@ -34,11 +34,11 @@ tags:
 | Tên tài liệu | Quy trình đăng ký và quản lý làm thêm giờ |
 | Cấp tài liệu | Cấp 2, quy trình vận hành nội bộ. Thi hành [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo\|OBK-SOP-NB-00]] Chuẩn vận hành nội bộ và Nội quy lao động [[Noi_quy_lao_dong\|OBK-NQLD]] |
 | Phiên bản | R.1.0.0, đang áp dụng |
-| Ngày biên soạn | 27/09/2026 |
+| Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 27/09/2026 |
-| Người biên soạn | `CEO` |
-| Người soát | `CEO` |
-| Người phê duyệt | `CEO`, ký với chức danh Tổng giám đốc |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo\|OBK-SOP-NB-00]] Chuẩn vận hành nội bộ |
 | Bộ tài liệu | OBK-SOP-NB, Sổ tay quy trình nội bộ oBacker |
 | Tài liệu song hành | [[OBK-SOP-NB-04_Cong_va_tien_luong_noi_bo\|OBK-SOP-NB-04]] công và tiền lương nội bộ;<br>[[OBK-SOP-NB-10_Quan_ly_nghi_phep_va_lam_viec_tu_xa\|OBK-SOP-NB-10]] quản lý nghỉ phép và làm việc từ xa;<br>[[07_Chinh_sach_cong_chuan_va_cham_cong\|OBK-QCNS-07]] chính sách công chuẩn và chấm công |
@@ -351,4 +351,4 @@ Hiệu quả thực hiện quy trình được đo lường định kỳ hằng 
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.1.0.0 | Ban hành bản đầu quy trình đăng ký và quản lý làm thêm giờ, kiểm soát mức tối đa luật định và lập Bảng kê miễn thuế thu nhập cá nhân |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

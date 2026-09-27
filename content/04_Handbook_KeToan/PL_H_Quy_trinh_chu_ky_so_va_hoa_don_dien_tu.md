@@ -6,7 +6,7 @@ folder: "04_Handbook_KeToan"
 level: "Phụ lục"
 version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "27/09/2026"
+draft_date: "01/10/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 27/09/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -17,7 +17,7 @@ parent: "OBK-SOP-KT Kế toán và thuế"
 next_review: "Chậm nhất 28/02/2027"
 appendix: "Quy trình cung cấp chữ ký số và hóa đơn điện tử"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-SOP-PL-H
 tags:
@@ -34,11 +34,11 @@ tags:
 | Tên phụ lục | Quy trình cung cấp chữ ký số và hóa đơn điện tử |
 | Cấp tài liệu | Phụ lục của hướng dẫn cấp 3 |
 | Phiên bản | R.1.0.0, đang áp dụng |
-| Ngày biên soạn | 27/09/2026 |
+| Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 27/09/2026 |
-| Người biên soạn | `CEO` biên soạn |
-| Người soát | đã soát |
-| Người phê duyệt | `CEO` ban hành |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] Kế toán và thuế |
 | Tính chất nội dung | QUY TRÌNH NGHIỆP VỤ THỰC HIỆN DỊCH VỤ. Hướng dẫn chi tiết năm bước cung cấp chữ ký số và thiết lập, đăng ký sử dụng hóa đơn điện tử cho khách hàng |
 | Lần rà soát tiếp theo | Hằng năm, trước 28/02/2027. Rà soát đột xuất ngay khi có văn bản pháp luật mới về chữ ký số hoặc hóa đơn điện tử |
@@ -232,4 +232,4 @@ Ký hiệu vai trò tuân thủ theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.1.0.0 | Ban hành bản đầu quy trình cung cấp chữ ký số và hóa đơn điện tử. |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

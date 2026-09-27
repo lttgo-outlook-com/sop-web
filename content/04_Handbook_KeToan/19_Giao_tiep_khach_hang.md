@@ -4,9 +4,9 @@ code: "OBK-SOP-19"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.2"
+version: "R.1.0.0"
 status: "đang áp dụng"
-draft_date: "27/09/2026"
+draft_date: "01/10/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 25/08/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -16,7 +16,7 @@ parent: "OBK-SOP-KT Kế toán và thuế"
 next_review: "Chậm nhất 28/02/2027"
 chapter: "Giao tiếp và quản trị kỳ vọng khách hàng"
 distribution: "Nội bộ oBacker"
-previous_version: ""
+previous_version: "R.1.0.0"
 aliases:
   - OBK-SOP-19
 tags:
@@ -34,12 +34,12 @@ tags:
 | Mã tài liệu | OBK-SOP-19 |
 | Tên chương | Giao tiếp và quản trị kỳ vọng khách hàng |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.1.0.2, đang áp dụng |
-| Ngày biên soạn | 27/09/2026 |
+| Phiên bản | R.1.0.0, đang áp dụng |
+| Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
-| Người biên soạn | `CEO` biên soạn |
-| Người soát | đã soát |
-| Người phê duyệt | `CEO` ban hành |
+| Người biên soạn | CEO (Lê Trọng Tuấn) |
+| Người soát | CEO (Lê Trọng Tuấn) |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] Kế toán và thuế |
 | Tính chất nội dung | QUY ĐỊNH NỘI BỘ oBacker. Toàn bộ quy tắc giao tiếp, mốc thời gian phản hồi, quy trình chuyển lên cấp trên trong chương này là chính sách do oBacker tự ban hành, không phải quy định của pháp luật |
 | Lần rà soát tiếp theo | 6 tháng một lần, chậm nhất 28/02/2027.<br>Rà soát đột xuất khi có khiếu nại mức nghiêm trọng hoặc khi mẫu văn bản bị cơ quan thuế phản hồi tiêu cực |
@@ -1282,4 +1282,4 @@ Mọi liên hệ tiếp theo sau cuộc họp đi qua `AM`. CV-KT KHÔNG có m�
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.1.0.2 | Chuẩn hóa câu chữ: loại bỏ danh từ hóa trong mẫu thông báo và bổ sung rủi ro danh tiếng |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
