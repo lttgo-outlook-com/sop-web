@@ -86,19 +86,40 @@ let index = new FlexSearch.Document<Item>({
 const p = new DOMParser()
 const fetchContentCache: Map<FullSlug, Element[]> = new Map()
 const contextWindowWords = 30
-const numSearchResults = 8
+const numSearchResults = 16
 const numTagResults = 5
 
-const tokenizeTerm = (term: string) => {
-  const tokens = term.split(/\s+/).filter((t) => t.trim() !== "")
-  const tokenLen = tokens.length
-  if (tokenLen > 1) {
-    for (let i = 1; i < tokenLen; i++) {
-      tokens.push(tokens.slice(0, i + 1).join(" "))
-    }
-  }
+const CATEGORY_MAP: Record<string, { label: string; order: number }> = {
+  "01_ToChuc": { label: "01. Tổ chức & Phân quyền", order: 1 },
+  "02_NoiBo": { label: "02. Vận hành nội bộ", order: 2 },
+  "03_DichVu": { label: "03. Dịch vụ khách hàng", order: 3 },
+  "04_Handbook_KeToan": { label: "04. Sổ tay Kế toán", order: 4 },
+  "07_Phieu": { label: "07. Phiếu nghiệp vụ", order: 5 },
+  "08_SoCanCu": { label: "08. Sổ Căn cứ pháp lý", order: 6 },
+  "09_TnC": { label: "09. Điều khoản TnC", order: 7 },
+  "10_DanhMuc": { label: "10. Danh mục & Bảng giá", order: 8 },
+  "11_NhanSu": { label: "11. Quản trị Nhân sự", order: 9 },
+  "CanCu": { label: "Căn cứ pháp lý (Trích dẫn)", order: 10 },
+  "VanBan": { label: "Văn bản quy phạm", order: 11 },
+}
 
-  return tokens.sort((a, b) => b.length - a.length) // always highlight longest terms first
+function getGroupKey(slug: string): { key: string; label: string; order: number } {
+  const segment = slug.split("/")[0]
+  if (segment in CATEGORY_MAP) {
+    return { key: segment, ...CATEGORY_MAP[segment] }
+  }
+  return { key: "Khac", label: "Tổng hợp & Mục lục", order: 99 }
+}
+
+const tokenizeTerm = (term: string) => {
+  const trimmed = term.trim()
+  if (!trimmed) return []
+  const tokens = [trimmed]
+  const words = trimmed.split(/\s+/).filter((t) => t.length >= 3)
+  if (words.length > 1) {
+    tokens.push(...words)
+  }
+  return [...new Set(tokens)].sort((a, b) => b.length - a.length)
 }
 
 function highlight(searchTerm: string, text: string, trim?: boolean) {
@@ -240,7 +261,7 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
     searchBar.focus()
   }
 
-  let currentHover: HTMLInputElement | null = null
+  let currentHover: HTMLElement | null = null
   async function shortcutHandler(e: HTMLElementEventMap["keydown"]) {
     if (e.key === "k" && (e.ctrlKey || e.metaKey) && !e.shiftKey) {
       e.preventDefault()
@@ -279,31 +300,28 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
       }
     } else if (e.key === "ArrowUp" || (e.shiftKey && e.key === "Tab")) {
       e.preventDefault()
-      if (results.contains(document.activeElement)) {
-        // If an element in results-container already has focus, focus previous one
-        const currentResult = currentHover
-          ? currentHover
-          : (document.activeElement as HTMLInputElement | null)
-        const prevResult = currentResult?.previousElementSibling as HTMLInputElement | null
-        currentResult?.classList.remove("focus")
-        prevResult?.focus()
-        if (prevResult) currentHover = prevResult
-        await displayPreview(prevResult)
-      }
+      const allCards = Array.from(results.querySelectorAll(".result-card")) as HTMLElement[]
+      if (allCards.length === 0) return
+      const currentIndex = currentHover ? allCards.indexOf(currentHover) : 0
+      const prevIndex = Math.max(0, currentIndex - 1)
+      currentHover?.classList.remove("focus")
+      const prevCard = allCards[prevIndex]
+      prevCard.focus()
+      prevCard.classList.add("focus")
+      currentHover = prevCard
+      await displayPreview(prevCard)
     } else if (e.key === "ArrowDown" || e.key === "Tab") {
       e.preventDefault()
-      // The results should already been focused, so we need to find the next one.
-      // The activeElement is the search bar, so we need to find the first result and focus it.
-      if (document.activeElement === searchBar || currentHover !== null) {
-        const firstResult = currentHover
-          ? currentHover
-          : (document.getElementsByClassName("result-card")[0] as HTMLInputElement | null)
-        const secondResult = firstResult?.nextElementSibling as HTMLInputElement | null
-        firstResult?.classList.remove("focus")
-        secondResult?.focus()
-        if (secondResult) currentHover = secondResult
-        await displayPreview(secondResult)
-      }
+      const allCards = Array.from(results.querySelectorAll(".result-card")) as HTMLElement[]
+      if (allCards.length === 0) return
+      const currentIndex = currentHover ? allCards.indexOf(currentHover) : -1
+      const nextIndex = Math.min(allCards.length - 1, currentIndex + 1)
+      currentHover?.classList.remove("focus")
+      const nextCard = allCards[nextIndex]
+      nextCard.focus()
+      nextCard.classList.add("focus")
+      currentHover = nextCard
+      await displayPreview(nextCard)
     }
   }
 
@@ -338,15 +356,21 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
     return new URL(resolveRelative(currentSlug, slug), location.toString())
   }
 
-  const resultToHTML = ({ slug, title, content, tags }: Item) => {
-    const htmlTags = tags.length > 0 ? `<ul class="tags">${tags.join("")}</ul>` : ``
+  const resultToHTML = ({ slug, title, content }: Item) => {
     const itemTile = document.createElement("a")
     itemTile.classList.add("result-card")
     itemTile.id = slug
     itemTile.href = resolveUrl(slug).toString()
+
+    const rawTitle = title.replace(/<[^>]*>/g, "")
+    const codeMatch = rawTitle.match(/([A-Z]{2,4}-[A-Z0-9-]+)/)
+    const codeBadge = codeMatch ? `<span class="card-code-badge">${codeMatch[1]}</span>` : ""
+
     itemTile.innerHTML = `
-      <h3 class="card-title">${title}</h3>
-      ${htmlTags}
+      <div class="card-title-row">
+        ${codeBadge}
+        <h4 class="card-title">${title}</h4>
+      </div>
       <p class="card-description">${content}</p>
     `
     itemTile.addEventListener("click", (event) => {
@@ -361,7 +385,7 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
 
     async function onMouseEnter(ev: MouseEvent) {
       if (!ev.target) return
-      const target = ev.target as HTMLInputElement
+      const target = ev.target as HTMLElement
       await displayPreview(target)
     }
 
@@ -376,23 +400,48 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
   async function displayResults(finalResults: Item[]) {
     removeAllChildren(results)
     if (finalResults.length === 0) {
-      results.innerHTML = `<a class="result-card no-match">
-          <h3>No results.</h3>
-          <p>Try another search term?</p>
-      </a>`
-    } else {
-      results.append(...finalResults.map(resultToHTML))
+      results.innerHTML = `<div class="search-no-results">
+          <p class="no-res-title">Không tìm thấy tài liệu</p>
+          <p class="no-res-sub">Thử tìm với từ khóa khác hoặc mã SOP</p>
+      </div>`
+      if (preview) removeAllChildren(preview)
+      return
     }
 
-    if (finalResults.length === 0 && preview) {
-      // no results, clear previous preview
-      removeAllChildren(preview)
-    } else {
-      // focus on first result, then also dispatch preview immediately
-      const firstChild = results.firstElementChild as HTMLElement
-      firstChild.classList.add("focus")
-      currentHover = firstChild as HTMLInputElement
-      await displayPreview(firstChild)
+    // Group items by category
+    const groups = new Map<string, { label: string; order: number; items: Item[] }>()
+    for (const item of finalResults) {
+      const g = getGroupKey(item.slug)
+      if (!groups.has(g.key)) {
+        groups.set(g.key, { label: g.label, order: g.order, items: [] })
+      }
+      groups.get(g.key)!.items.push(item)
+    }
+
+    const sortedGroups = Array.from(groups.values()).sort((a, b) => a.order - b.order)
+    let isFirst = true
+
+    for (const group of sortedGroups) {
+      const groupEl = document.createElement("div")
+      groupEl.className = "search-result-group"
+
+      const headerEl = document.createElement("div")
+      headerEl.className = "search-result-group-header"
+      headerEl.innerHTML = `<span class="group-title">${group.label}</span><span class="group-badge">${group.items.length}</span>`
+      groupEl.appendChild(headerEl)
+
+      for (const item of group.items) {
+        const itemTile = resultToHTML(item)
+        if (isFirst) {
+          itemTile.classList.add("focus")
+          currentHover = itemTile as HTMLElement
+          await displayPreview(itemTile)
+          isFirst = false
+        }
+        groupEl.appendChild(itemTile)
+      }
+
+      results.appendChild(groupEl)
     }
   }
 
@@ -420,19 +469,38 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
   async function displayPreview(el: HTMLElement | null) {
     if (!searchLayout || !enablePreview || !el || !preview) return
     const slug = el.id as FullSlug
-    const innerDiv = await fetchContent(slug).then((contents) =>
-      contents.flatMap((el) => [...highlightHTML(currentSearchTerm, el as HTMLElement).children]),
-    )
+    const contents = await fetchContent(slug)
+
+    const groupInfo = getGroupKey(slug)
+    const targetUrl = resolveUrl(slug).toString()
+
+    const previewHeader = document.createElement("div")
+    previewHeader.className = "preview-top-bar"
+    previewHeader.innerHTML = `
+      <div class="preview-breadcrumbs">
+        <span class="breadcrumb-group">${groupInfo.label}</span>
+        <span class="breadcrumb-sep">/</span>
+        <span class="breadcrumb-current">${slug.split("/").pop()?.replace(/_/g, " ") || ""}</span>
+      </div>
+      <a href="${targetUrl}" class="preview-open-btn">Mở toàn bộ tài liệu ↵</a>
+    `
+
+    const innerDiv = contents.flatMap((contentEl) => [
+      ...highlightHTML(currentSearchTerm, contentEl as HTMLElement).children,
+    ])
+
     previewInner = document.createElement("div")
     previewInner.classList.add("preview-inner")
+    previewInner.appendChild(previewHeader)
     previewInner.append(...innerDiv)
     preview.replaceChildren(previewInner)
 
-    // scroll to longest
-    const highlights = [...preview.getElementsByClassName("highlight")].sort(
-      (a, b) => b.innerHTML.length - a.innerHTML.length,
-    )
-    highlights[0]?.scrollIntoView({ block: "start" })
+    const highlights = [...preview.getElementsByClassName("highlight")]
+    if (highlights.length > 0) {
+      highlights[0].scrollIntoView({ block: "nearest", behavior: "smooth" })
+    } else {
+      preview.scrollTop = 0
+    }
   }
 
   async function onType(e: HTMLElementEventMap["input"]) {
