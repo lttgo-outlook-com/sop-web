@@ -47,6 +47,7 @@ export const defaultContentPageLayout: PageLayout = {
         return !omit.has(node.slugSegment)
       },
     }),
+    Component.KeyboardShortcuts(),
   ],
   right: [
     Component.DesktopOnly(Component.TableOfContents()),
@@ -78,6 +79,7 @@ export const defaultListPageLayout: PageLayout = {
         return !omit.has(node.slugSegment)
       },
     }),
+    Component.KeyboardShortcuts(),
   ],
   right: [],
 }

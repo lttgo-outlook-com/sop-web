@@ -305,21 +305,63 @@ article table {
   border: 1px solid var(--border-medium) !important;
   border-radius: 8px !important;
   box-shadow: var(--shadow-sm) !important;
-  padding: 0.5rem 0.85rem !important;
+  padding: 0.55rem 0.85rem !important;
   color: var(--text-dim) !important;
-  font-size: 0.85rem !important;
+  font-size: 0.88rem !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.6rem !important;
   transition: all 0.15s ease !important;
 
   &:hover {
-    border-color: var(--accent-blue) !important;
-    color: var(--text-main) !important;
-    box-shadow: var(--shadow-card) !important;
+    border-color: #93c5fd !important;
+    background-color: #f8fafc !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04) !important;
+  }
+
+  p {
+    margin: 0 !important;
+    font-size: 0.86rem !important;
+    color: #64748b !important;
+  }
+
+  .search-kbd {
+    margin-left: auto;
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 2px 6px;
+    border-radius: 4px;
+    background: #f1f5f9;
+    border: 1px solid #cbd5e1;
+    color: #64748b;
+    font-family: var(--codeFont);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  }
+}
+
+:root[saved-theme="dark"] .search-button {
+  background-color: #1e293b !important;
+  border-color: #334155 !important;
+
+  p {
+    color: #94a3b8 !important;
+  }
+
+  .search-kbd {
+    background: #0f172a;
+    border-color: #475569;
+    color: #cbd5e1;
+  }
+
+  &:hover {
+    border-color: #3b82f6 !important;
+    background-color: #334155 !important;
   }
 }
 
 button.darkmode {
-  width: 38px !important;
-  height: 38px !important;
+  width: 40px !important;
+  height: 40px !important;
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
@@ -333,14 +375,29 @@ button.darkmode {
   transition: all 0.15s ease !important;
 
   &:hover {
-    border-color: var(--accent-blue) !important;
+    border-color: #93c5fd !important;
+    background-color: #f8fafc !important;
     box-shadow: var(--shadow-card) !important;
   }
 
   svg {
-    width: 18px !important;
-    height: 18px !important;
+    width: 20px !important;
+    height: 20px !important;
     fill: var(--text-muted) !important;
+  }
+}
+
+:root[saved-theme="dark"] button.darkmode {
+  background-color: #1e293b !important;
+  border-color: #334155 !important;
+
+  &:hover {
+    border-color: #3b82f6 !important;
+    background-color: #334155 !important;
+  }
+
+  svg {
+    fill: #f8fafc !important;
   }
 }
 
@@ -351,45 +408,98 @@ button.darkmode {
 .explorer {
   background-color: #ffffff;
   border: 1px solid var(--border-subtle);
-  border-radius: 10px;
-  box-shadow: var(--shadow-card);
-  padding: 1rem 1.15rem;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+  padding: 1.15rem 1.25rem;
 
   & > button#explorer {
-    font-size: 0.72rem;
+    font-size: 0.76rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.06em;
     color: var(--text-main);
-    padding-bottom: 0.4rem;
+    padding-bottom: 0.5rem;
     border-bottom: 1px solid var(--border-subtle);
     width: 100%;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .folder-outer {
+    margin: 0.25rem 0;
   }
 
   .folder-title {
-    font-size: 0.82rem;
+    font-size: 0.88rem;
     font-weight: 600;
-    color: var(--text-main);
-    border-radius: 4px;
-    padding: 0.25rem 0.4rem;
-    transition: background-color 0.12s ease;
+    color: #1e293b;
+    border-radius: 6px;
+    padding: 0.35rem 0.6rem;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    transition: all 0.15s ease;
 
     &:hover {
       background-color: #f1f5f9;
+      color: #0f172a;
     }
   }
 
-  ul.overflow li a {
-    font-size: 0.8rem;
-    color: var(--text-muted);
-    padding: 0.2rem 0.45rem;
-    border-radius: 4px;
-    transition: all 0.12s ease;
+  ul.overflow {
+    padding-left: 0.75rem;
+    border-left: 1.5px solid #e2e8f0;
+    margin-left: 0.65rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.4rem;
+
+    li {
+      margin: 0.15rem 0;
+
+      a {
+        font-size: 0.86rem;
+        color: #475569;
+        padding: 0.35rem 0.65rem;
+        border-radius: 6px;
+        display: block;
+        line-height: 1.4;
+        transition: all 0.15s ease;
+
+        &:hover {
+          color: #1d4ed8;
+          background-color: #eff6ff;
+          transform: translateX(2px);
+        }
+      }
+    }
+  }
+}
+
+:root[saved-theme="dark"] .explorer {
+  background-color: #1e293b;
+  border-color: #334155;
+
+  & > button#explorer {
+    border-bottom-color: #334155;
+  }
+
+  .folder-title {
+    color: #f1f5f9;
 
     &:hover {
-      color: var(--accent-blue);
-      background-color: var(--accent-blue-subtle);
+      background-color: #334155;
+    }
+  }
+
+  ul.overflow {
+    border-left-color: #334155;
+
+    li a {
+      color: #94a3b8;
+
+      &:hover {
+        color: #93c5fd;
+        background-color: #334155;
+      }
     }
   }
 }
@@ -401,14 +511,14 @@ button.darkmode {
 .toc {
   background-color: #ffffff;
   border: 1px solid var(--border-subtle);
-  border-radius: 10px;
-  box-shadow: var(--shadow-card);
-  padding: 1rem 1.25rem;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+  padding: 1.15rem 1.35rem;
   position: sticky;
   top: 2rem;
 
   .toc-header h3 {
-    font-size: 0.72rem;
+    font-size: 0.76rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.06em;
@@ -420,30 +530,48 @@ button.darkmode {
     margin-top: 0.75rem;
 
     ul {
-      padding-left: 0.75rem;
-      border-left: 1px solid var(--border-subtle);
+      padding-left: 0.85rem;
+      border-left: 1.5px solid #e2e8f0;
       list-style-type: none;
 
       li {
         margin: 0.35rem 0;
 
         a {
-          font-size: 0.8rem;
-          color: var(--text-dim);
+          font-size: 0.86rem;
+          color: #64748b;
           text-decoration: none;
-          line-height: 1.4;
+          line-height: 1.5;
           display: block;
-          transition: all 0.12s ease;
+          transition: all 0.15s ease;
 
           &:hover {
-            color: var(--accent-blue);
+            color: #1d4ed8;
           }
 
           &.in-view {
-            color: var(--accent-blue);
+            color: #1d4ed8;
             font-weight: 600;
           }
         }
+      }
+    }
+  }
+}
+
+:root[saved-theme="dark"] .toc {
+  background-color: #1e293b;
+  border-color: #334155;
+
+  .toc-content ul {
+    border-left-color: #334155;
+
+    li a {
+      color: #94a3b8;
+
+      &:hover,
+      &.in-view {
+        color: #93c5fd;
       }
     }
   }

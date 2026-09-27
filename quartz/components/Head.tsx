@@ -82,7 +82,8 @@ export default (() => {
           </>
         )}
 
-        <link rel="icon" href={iconPath} />
+        <link rel="icon" type="image/svg+xml" href={joinSegments(baseDir, "static/dau-hieu.svg")} />
+        <link rel="alternate icon" href={iconPath} />
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
 

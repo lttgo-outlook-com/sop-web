@@ -31,18 +31,18 @@ PageTitle.css = `
   justify-content: space-between;
   margin: 0 0 1.25rem 0;
   padding-bottom: 1rem;
-  border-bottom: 1px solid var(--gray);
+  border-bottom: 1px solid var(--border-subtle, #e2e8f0);
 }
 
 .brand-link {
   display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.65rem;
   text-decoration: none;
 }
 
 .brand-logo-img {
-  height: 22px;
+  height: 26px;
   width: auto;
   display: block;
 }
@@ -64,26 +64,40 @@ PageTitle.css = `
 }
 
 .brand-badge {
-  font-size: 0.65rem;
+  font-size: 0.78rem;
   font-weight: 700;
-  padding: 0.15rem 0.45rem;
-  border-radius: 4px;
-  background-color: var(--highlight);
-  color: var(--secondary);
-  border: 1px solid color-mix(in srgb, var(--secondary) 30%, transparent);
+  padding: 0.2rem 0.55rem;
+  border-radius: 6px;
+  background-color: #eff6ff;
+  color: #1d4ed8;
+  border: 1px solid #bfdbfe;
   letter-spacing: 0.05em;
-  line-height: 1;
+  line-height: 1.1;
+  display: inline-flex;
+  align-items: center;
+}
+
+:root[saved-theme="dark"] .brand-badge {
+  background-color: rgba(59, 130, 246, 0.15);
+  color: #93c5fd;
+  border-color: rgba(59, 130, 246, 0.3);
 }
 
 .brand-pill {
   font-size: 0.72rem;
   font-weight: 600;
-  color: var(--darkgray);
-  background-color: var(--light);
-  border: 1px solid var(--gray);
-  padding: 0.15rem 0.5rem;
+  color: #475569;
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+  padding: 0.18rem 0.55rem;
   border-radius: 9999px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+:root[saved-theme="dark"] .brand-pill {
+  color: #cbd5e1;
+  background-color: #1e293b;
+  border-color: #475569;
 }
 `
 

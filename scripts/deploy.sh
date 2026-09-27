@@ -25,6 +25,7 @@ gcloud run deploy "${SERVICE_NAME}" \
   --platform=managed \
   --port=8080 \
   --no-allow-unauthenticated \
+  --no-default-url \
   --iap
 
 echo "==> Deploy completed successfully!"
