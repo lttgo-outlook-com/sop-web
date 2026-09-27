@@ -8,28 +8,28 @@ const LegalNav: QuartzComponent = ({ fileData, displayClass }: QuartzComponentPr
     <div class={classNames(displayClass, "legal-nav-card")}>
       <div class="legal-nav-header">
         <span class="legal-nav-title">Tra cứu nhanh</span>
-        <span class="legal-nav-tag">335 căn cứ</span>
+        <span class="legal-nav-tag">338 căn cứ</span>
       </div>
       <div class="legal-nav-list">
         <a href={`${baseDir}/08_SoCanCu/OBK-CC`} class="legal-nav-row">
           <span class="nav-badge badge-cancu">CC</span>
           <div class="nav-row-main">
             <span class="nav-row-title">Sổ Căn cứ pháp lý</span>
-            <span class="nav-row-sub">335 trích dẫn điều khoản</span>
+            <span class="nav-row-sub">338 trích dẫn điều khoản</span>
           </div>
         </a>
         <a href={`${baseDir}/Trạng-thái-ban-hành`} class="legal-nav-row">
           <span class="nav-badge badge-status">TT</span>
           <div class="nav-row-main">
             <span class="nav-row-title">Trạng thái ban hành</span>
-            <span class="nav-row-sub">105 tài liệu toàn công ty</span>
+            <span class="nav-row-sub">182 tài liệu toàn công ty</span>
           </div>
         </a>
         <a href={`${baseDir}/Nhật-ký-sửa-toàn-kho`} class="legal-nav-row">
           <span class="nav-badge badge-log">NK</span>
           <div class="nav-row-main">
             <span class="nav-row-title">Nhật ký sửa đổi</span>
-            <span class="nav-row-sub">Lịch sử ban hành R.1.0.0</span>
+            <span class="nav-row-sub">Lịch sử ban hành R.1.0.0 & R.2.0.0</span>
           </div>
         </a>
       </div>
