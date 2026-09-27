@@ -39,7 +39,9 @@ html, body {
 }
 
 .center {
-  & > article {
+  & > article,
+  & > .page-listing,
+  & .popover-hint > .page-listing {
     background-color: var(--surface-card);
     border: 1px solid var(--border-subtle);
     border-radius: 12px;
@@ -54,6 +56,9 @@ html, body {
       margin-top: 0.5rem;
       margin-bottom: 2rem;
     }
+  }
+
+  & > article {
 
     // Typography inside Article
     & > h1:first-of-type {
@@ -268,7 +273,31 @@ article table {
 }
 
 // ------------------------------------------
-// Search & Filter Box
+// Sidebar Layout & Scroll
+// ------------------------------------------
+
+.sidebar.left {
+  overflow-y: auto !important;
+  max-height: 100vh !important;
+  padding-bottom: 3.5rem !important;
+
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 4px;
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+  }
+}
+
+// ------------------------------------------
+// Search & Filter Box & Theme Toggle
 // ------------------------------------------
 
 .search-button {
@@ -285,6 +314,33 @@ article table {
     border-color: var(--accent-blue) !important;
     color: var(--text-main) !important;
     box-shadow: var(--shadow-card) !important;
+  }
+}
+
+button.darkmode {
+  width: 38px !important;
+  height: 38px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 8px !important;
+  border: 1px solid var(--border-medium) !important;
+  background-color: #ffffff !important;
+  box-shadow: var(--shadow-sm) !important;
+  cursor: pointer !important;
+  padding: 0 !important;
+  flex-shrink: 0 !important;
+  transition: all 0.15s ease !important;
+
+  &:hover {
+    border-color: var(--accent-blue) !important;
+    box-shadow: var(--shadow-card) !important;
+  }
+
+  svg {
+    width: 18px !important;
+    height: 18px !important;
+    fill: var(--text-muted) !important;
   }
 }
 

@@ -6,8 +6,17 @@ const PageTitle: QuartzComponent = ({ fileData, displayClass }: QuartzComponentP
   const baseDir = pathToRoot(fileData.slug!)
   return (
     <div class={classNames(displayClass, "brand-header")}>
-      <a href={baseDir} class="brand-link">
-        <span class="brand-logo">oBacker</span>
+      <a href={baseDir} class="brand-link" aria-label="oBacker SOP">
+        <img
+          src={`${baseDir}/static/logo-chu.svg`}
+          alt="oBacker"
+          class="brand-logo-img light-only"
+        />
+        <img
+          src={`${baseDir}/static/logo-chu-trang.svg`}
+          alt="oBacker"
+          class="brand-logo-img dark-only"
+        />
         <span class="brand-badge">SOP</span>
       </a>
       <span class="brand-pill">R.1.0.0</span>
@@ -28,20 +37,34 @@ PageTitle.css = `
 .brand-link {
   display: inline-flex;
   align-items: center;
-  gap: 0.45rem;
+  gap: 0.5rem;
   text-decoration: none;
 }
 
-.brand-logo {
-  font-size: 1.35rem;
-  font-weight: 800;
-  letter-spacing: -0.03em;
-  color: var(--dark);
-  font-family: var(--headerFont);
+.brand-logo-img {
+  height: 22px;
+  width: auto;
+  display: block;
+}
+
+:root[saved-theme="dark"] .light-only {
+  display: none !important;
+}
+
+:root[saved-theme="dark"] .dark-only {
+  display: block !important;
+}
+
+:root:not([saved-theme="dark"]) .light-only {
+  display: block !important;
+}
+
+:root:not([saved-theme="dark"]) .dark-only {
+  display: none !important;
 }
 
 .brand-badge {
-  font-size: 0.68rem;
+  font-size: 0.65rem;
   font-weight: 700;
   padding: 0.15rem 0.45rem;
   border-radius: 4px;
