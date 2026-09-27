@@ -13,15 +13,10 @@ document.addEventListener("nav", () => {
 
   const toggleModal = (show) => {
     if (!modal) return
-    const isHidden = modal.classList.contains("hidden")
-    const targetState = show !== undefined ? show : isHidden
-    if (targetState) {
-      modal.classList.remove("hidden")
-      document.body.style.overflow = "hidden"
-    } else {
-      modal.classList.add("hidden")
-      document.body.style.overflow = ""
-    }
+    const isCurrentlyOpen = modal.style.display === "flex"
+    const willOpen = show !== undefined ? show : !isCurrentlyOpen
+    modal.style.display = willOpen ? "flex" : "none"
+    document.body.style.overflow = willOpen ? "hidden" : ""
   }
 
   if (trigger) trigger.addEventListener("click", () => toggleModal(true))
@@ -37,7 +32,7 @@ document.addEventListener("nav", () => {
     const isInput = target.tagName === "INPUT" || target.tagName === "TEXTAREA" || target.isContentEditable
 
     if (e.key === "Escape") {
-      if (modal && !modal.classList.contains("hidden")) {
+      if (modal && modal.style.display === "flex") {
         toggleModal(false)
         e.preventDefault()
         return
@@ -102,56 +97,63 @@ document.addEventListener("nav", () => {
 
 const KeyboardShortcuts: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
   return (
-    <div class={classNames(displayClass, "shortcuts-container")}>
-      <button id="shortcuts-trigger" class="shortcuts-trigger-btn" aria-label="Phím tắt hỗ trợ">
+    <div class={classNames(displayClass, "shortcuts-bottom-bar")}>
+      <button id="shortcuts-trigger" class="shortcuts-pill" type="button" aria-label="Phím tắt hệ thống">
         <kbd>?</kbd>
         <span>Phím tắt</span>
       </button>
 
-      <div id="shortcuts-modal" class="shortcuts-modal hidden" role="dialog" aria-modal="true" aria-labelledby="shortcuts-title">
-        <div class="shortcuts-dialog">
-          <div class="shortcuts-dialog-header">
-            <h3 id="shortcuts-title">Phím tắt hệ thống</h3>
-            <button id="shortcuts-close" class="shortcuts-close-btn" aria-label="Đóng">✕</button>
+      <div
+        id="shortcuts-modal"
+        class="shortcuts-overlay"
+        style="display: none;"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="shortcuts-heading"
+      >
+        <div class="shortcuts-card">
+          <div class="shortcuts-header">
+            <h4 id="shortcuts-heading">Phím tắt</h4>
+            <button id="shortcuts-close" class="shortcuts-close-icon" type="button" aria-label="Đóng">✕</button>
           </div>
-          <div class="shortcuts-dialog-body">
-            <div class="shortcuts-group">
-              <div class="shortcuts-group-title">Điều hướng nhanh</div>
-              <div class="shortcut-row">
-                <span>Về trang chủ</span>
-                <div class="shortcut-keys"><kbd>G</kbd> <kbd>H</kbd></div>
+          <div class="shortcuts-content">
+            <div class="shortcuts-section">
+              <span class="shortcuts-section-title">Điều hướng</span>
+              <div class="shortcut-line">
+                <span>Trang chủ</span>
+                <div class="shortcut-tags"><kbd>G</kbd> <kbd>H</kbd></div>
               </div>
-              <div class="shortcut-row">
+              <div class="shortcut-line">
                 <span>Sổ Căn cứ pháp lý</span>
-                <div class="shortcut-keys"><kbd>G</kbd> <kbd>C</kbd></div>
+                <div class="shortcut-tags"><kbd>G</kbd> <kbd>C</kbd></div>
               </div>
-              <div class="shortcut-row">
+              <div class="shortcut-line">
                 <span>Trạng thái ban hành</span>
-                <div class="shortcut-keys"><kbd>G</kbd> <kbd>T</kbd></div>
+                <div class="shortcut-tags"><kbd>G</kbd> <kbd>T</kbd></div>
               </div>
-              <div class="shortcut-row">
+              <div class="shortcut-line">
                 <span>Nhật ký sửa đổi</span>
-                <div class="shortcut-keys"><kbd>G</kbd> <kbd>N</kbd></div>
+                <div class="shortcut-tags"><kbd>G</kbd> <kbd>N</kbd></div>
               </div>
             </div>
 
-            <div class="shortcuts-group">
-              <div class="shortcuts-group-title">Thao tác & Giao diện</div>
-              <div class="shortcut-row">
+            <div class="shortcuts-section">
+              <span class="shortcuts-section-title">Thao tác</span>
+              <div class="shortcut-line">
                 <span>Tìm kiếm toàn văn</span>
-                <div class="shortcut-keys"><kbd>⌘</kbd> <kbd>K</kbd> / <kbd>/</kbd></div>
+                <div class="shortcut-tags"><kbd>⌘K</kbd> / <kbd>/</kbd></div>
               </div>
-              <div class="shortcut-row">
-                <span>Đổi giao diện Sáng / Tối</span>
-                <div class="shortcut-keys"><kbd>T</kbd></div>
+              <div class="shortcut-line">
+                <span>Chế độ Sáng / Tối</span>
+                <div class="shortcut-tags"><kbd>T</kbd></div>
               </div>
-              <div class="shortcut-row">
-                <span>Bật bảng trợ giúp phím tắt</span>
-                <div class="shortcut-keys"><kbd>?</kbd></div>
+              <div class="shortcut-line">
+                <span>Mở bảng phím tắt</span>
+                <div class="shortcut-tags"><kbd>?</kbd></div>
               </div>
-              <div class="shortcut-row">
-                <span>Đóng cửa sổ / Thoát</span>
-                <div class="shortcut-keys"><kbd>Esc</kbd></div>
+              <div class="shortcut-line">
+                <span>Đóng cửa sổ</span>
+                <div class="shortcut-tags"><kbd>Esc</kbd></div>
               </div>
             </div>
           </div>
@@ -164,180 +166,203 @@ const KeyboardShortcuts: QuartzComponent = ({ displayClass }: QuartzComponentPro
 KeyboardShortcuts.afterDOMLoaded = shortcutsScript
 
 KeyboardShortcuts.css = `
-.shortcuts-container {
-  margin-top: 0.5rem;
+.shortcuts-bottom-bar {
+  margin-top: 0.75rem;
+  padding-top: 0.5rem;
 }
 
-.shortcuts-trigger-btn {
+.shortcuts-pill {
   display: inline-flex;
   align-items: center;
-  gap: 0.45rem;
-  padding: 0.35rem 0.65rem;
-  border-radius: 6px;
-  background: transparent;
+  gap: 0.35rem;
+  padding: 0.22rem 0.55rem;
+  border-radius: 9999px;
+  background-color: #ffffff;
   border: 1px solid var(--border-subtle, #e2e8f0);
-  font-size: 0.76rem;
+  font-size: 0.72rem;
   color: #64748b;
   cursor: pointer;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
   transition: all 0.15s ease;
 }
 
-.shortcuts-trigger-btn:hover {
-  background-color: #f1f5f9;
-  color: #0f172a;
-  border-color: #cbd5e1;
+:root[saved-theme="dark"] .shortcuts-pill {
+  background-color: #1e293b;
+  border-color: #334155;
+  color: #94a3b8;
 }
 
-.shortcuts-trigger-btn kbd {
+.shortcuts-pill:hover {
+  background-color: #f1f5f9;
+  border-color: #cbd5e1;
+  color: #0f172a;
+}
+
+:root[saved-theme="dark"] .shortcuts-pill:hover {
+  background-color: #334155;
+  color: #f8fafc;
+}
+
+.shortcuts-pill kbd {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 1.25rem;
-  height: 1.25rem;
-  border-radius: 4px;
-  background-color: #ffffff;
+  width: 14px;
+  height: 14px;
+  border-radius: 3px;
+  background-color: #f1f5f9;
   border: 1px solid #cbd5e1;
   font-family: var(--codeFont);
-  font-size: 0.72rem;
+  font-size: 0.65rem;
   font-weight: 700;
-  color: #334155;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  color: #475569;
+  line-height: 1;
 }
 
-.shortcuts-modal {
-  position: fixed;
-  inset: 0;
-  z-index: 9999;
-  background-color: rgba(15, 23, 42, 0.45);
-  backdrop-filter: blur(4px);
+:root[saved-theme="dark"] .shortcuts-pill kbd {
+  background-color: #0f172a;
+  border-color: #475569;
+  color: #cbd5e1;
+}
+
+.shortcuts-overlay {
+  position: fixed !important;
+  inset: 0 !important;
+  z-index: 99999 !important;
+  background-color: rgba(15, 23, 42, 0.5) !important;
+  backdrop-filter: blur(4px) !important;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 1rem;
 }
 
-.shortcuts-modal.hidden {
-  display: none !important;
-}
-
-.shortcuts-dialog {
+.shortcuts-card {
   background-color: #ffffff;
-  border-radius: 12px;
+  border-radius: 10px;
   border: 1px solid #e2e8f0;
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.15), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
   width: 100%;
-  max-width: 480px;
+  max-width: 360px;
   overflow: hidden;
-  animation: modalFadeIn 0.15s ease-out;
+  animation: cardPop 0.15s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-:root[saved-theme="dark"] .shortcuts-dialog {
+:root[saved-theme="dark"] .shortcuts-card {
   background-color: #1e293b;
   border-color: #334155;
 }
 
-@keyframes modalFadeIn {
-  from { opacity: 0; transform: scale(0.97); }
+@keyframes cardPop {
+  from { opacity: 0; transform: scale(0.96); }
   to { opacity: 1; transform: scale(1); }
 }
 
-.shortcuts-dialog-header {
+.shortcuts-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 1.25rem;
+  padding: 0.65rem 0.95rem;
   border-bottom: 1px solid #e2e8f0;
+  background-color: #f8fafc;
 }
 
-:root[saved-theme="dark"] .shortcuts-dialog-header {
+:root[saved-theme="dark"] .shortcuts-header {
+  background-color: #0f172a;
   border-bottom-color: #334155;
 }
 
-.shortcuts-dialog-header h3 {
+.shortcuts-header h4 {
   margin: 0;
-  font-size: 0.95rem;
+  font-size: 0.82rem;
   font-weight: 700;
   color: #0f172a;
 }
 
-:root[saved-theme="dark"] .shortcuts-dialog-header h3 {
+:root[saved-theme="dark"] .shortcuts-header h4 {
   color: #f8fafc;
 }
 
-.shortcuts-close-btn {
+.shortcuts-close-icon {
   background: transparent;
   border: none;
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: #64748b;
   cursor: pointer;
-  padding: 0.25rem;
+  padding: 0.15rem 0.3rem;
   border-radius: 4px;
 }
 
-.shortcuts-close-btn:hover {
-  background-color: #f1f5f9;
+.shortcuts-close-icon:hover {
+  background-color: #e2e8f0;
   color: #0f172a;
 }
 
-.shortcuts-dialog-body {
-  padding: 1.25rem;
-  display: flex;
-  flex-direction: column;
-  gap: 1.25rem;
+:root[saved-theme="dark"] .shortcuts-close-icon:hover {
+  background-color: #334155;
+  color: #f8fafc;
 }
 
-.shortcuts-group-title {
-  font-size: 0.72rem;
+.shortcuts-content {
+  padding: 0.75rem 0.95rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.shortcuts-section-title {
+  display: block;
+  font-size: 0.65rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.06em;
   color: #64748b;
-  margin-bottom: 0.65rem;
+  margin-bottom: 0.35rem;
 }
 
-.shortcut-row {
+.shortcut-line {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.45rem 0;
-  border-bottom: 1px solid #f1f5f9;
-  font-size: 0.85rem;
+  padding: 0.25rem 0;
+  font-size: 0.78rem;
   color: #334155;
+  border-bottom: 1px solid #f8fafc;
 }
 
-:root[saved-theme="dark"] .shortcut-row {
-  border-bottom-color: #334155;
+:root[saved-theme="dark"] .shortcut-line {
   color: #cbd5e1;
+  border-bottom-color: #273549;
 }
 
-.shortcut-row:last-child {
+.shortcut-line:last-child {
   border-bottom: none;
 }
 
-.shortcut-keys {
+.shortcut-tags {
   display: flex;
   align-items: center;
-  gap: 0.25rem;
+  gap: 0.2rem;
 }
 
-.shortcut-keys kbd {
+.shortcut-tags kbd {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 1.5rem;
-  height: 1.4rem;
-  padding: 0 0.35rem;
-  border-radius: 4px;
-  background-color: #f8fafc;
+  min-width: 1.3rem;
+  height: 1.2rem;
+  padding: 0 0.3rem;
+  border-radius: 3px;
+  background-color: #f1f5f9;
   border: 1px solid #cbd5e1;
   font-family: var(--codeFont);
-  font-size: 0.74rem;
+  font-size: 0.66rem;
   font-weight: 600;
   color: #0f172a;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
 }
 
-:root[saved-theme="dark"] .shortcut-keys kbd {
+:root[saved-theme="dark"] .shortcut-tags kbd {
   background-color: #0f172a;
   border-color: #475569;
   color: #f8fafc;

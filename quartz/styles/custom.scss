@@ -30,15 +30,78 @@ html, body {
 }
 
 // ------------------------------------------
-// Layout & Main Article Container
+// Full-Screen Layout & Grid Dimensions
 // ------------------------------------------
 
 .page {
-  max-width: 1440px;
-  margin: 0 auto;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 1.75rem !important;
+  box-sizing: border-box !important;
+
+  @media all and (max-width: 768px) {
+    padding: 0 0.75rem !important;
+  }
+}
+
+#quartz-body {
+  display: grid !important;
+  grid-template-columns: 280px minmax(0, 1fr) 250px !important;
+  column-gap: 1.75rem !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+
+  @media all and (max-width: 1200px) {
+    grid-template-columns: 260px minmax(0, 1fr) !important;
+    grid-template-areas:
+      "grid-sidebar-left grid-header"
+      "grid-sidebar-left grid-center"
+      "grid-sidebar-left grid-footer" !important;
+
+    & .sidebar.right {
+      display: none !important;
+    }
+  }
+
+  @media all and (max-width: 768px) {
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 0 !important;
+
+    & .sidebar.left {
+      width: 100% !important;
+      height: auto !important;
+      position: static !important;
+      padding: 1rem 0 0.5rem 0 !important;
+      overflow-y: visible !important;
+      max-height: none !important;
+    }
+
+    & .sidebar.right {
+      display: none !important;
+    }
+
+    & .center {
+      width: 100% !important;
+      min-width: 100% !important;
+      margin: 0 !important;
+    }
+
+    & .center > article,
+    & .center > .page-listing {
+      padding: 1.25rem 1rem !important;
+      border-radius: 8px !important;
+      margin: 0.5rem 0 2rem 0 !important;
+    }
+  }
 }
 
 .center {
+  min-width: 0 !important;
+  width: 100% !important;
+
   & > article,
   & > .page-listing,
   & .popover-hint > .page-listing {
@@ -46,12 +109,15 @@ html, body {
     border: 1px solid var(--border-subtle);
     border-radius: 12px;
     box-shadow: var(--shadow-card);
-    padding: 2.75rem 3.5rem;
+    padding: 2.25rem 2.75rem;
     margin-top: 1rem;
     margin-bottom: 3.5rem;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: auto; // Prevent wide content clipping!
 
     @media all and ($mobile) {
-      padding: 1.5rem 1.25rem;
+      padding: 1.25rem 1rem;
       border-radius: 8px;
       margin-top: 0.5rem;
       margin-bottom: 2rem;
@@ -165,14 +231,18 @@ html, body {
 
 article table {
   width: 100%;
+  table-layout: auto;
   border-collapse: separate;
   border-spacing: 0;
   margin: 1.75rem 0;
   border: 1px solid var(--border-subtle);
   border-radius: 8px;
-  overflow: hidden;
   box-shadow: var(--shadow-sm);
   font-size: 0.86rem;
+
+  @media all and (max-width: 768px) {
+    min-width: 480px;
+  }
 
   th {
     background-color: #f8fafc;
@@ -199,6 +269,11 @@ article table {
     color: var(--text-muted);
     vertical-align: top;
     line-height: 1.55;
+    overflow-wrap: break-word;
+
+    a.internal {
+      word-break: break-word;
+    }
 
     &:last-child {
       border-right: none;
@@ -276,10 +351,31 @@ article table {
 // Sidebar Layout & Scroll
 // ------------------------------------------
 
+.page-header {
+  margin: 1.25rem 0 0 0 !important;
+}
+
+.sidebar {
+  padding-top: 1.25rem !important;
+  box-sizing: border-box !important;
+}
+
 .sidebar.left {
+  padding: 1.25rem 0.5rem 2.5rem 0 !important;
+  box-sizing: border-box !important;
   overflow-y: auto !important;
   max-height: 100vh !important;
-  padding-bottom: 3.5rem !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 0.85rem !important;
+
+  @media all and (max-width: 768px) {
+    padding: 1rem 0 !important;
+    max-height: none !important;
+    overflow-y: visible !important;
+    position: static !important;
+    height: auto !important;
+  }
 
   &::-webkit-scrollbar {
     width: 4px;
@@ -294,6 +390,11 @@ article table {
   &::-webkit-scrollbar-thumb:hover {
     background: #94a3b8;
   }
+}
+
+.sidebar.right {
+  padding: 1.25rem 0 2.5rem 0.5rem !important;
+  box-sizing: border-box !important;
 }
 
 // ------------------------------------------
