@@ -4,7 +4,7 @@ code: "OBK-SOP-NB-01"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.0"
+version: "R.2.0.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 01/10/2026"
@@ -35,7 +35,7 @@ tags:
 | Mã tài liệu | OBK-SOP-NB-01 |
 | Tên tài liệu | Quy trình mua sắm nội bộ và đề nghị thanh toán |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ. Thi hành Chương 4 và Chương 7 của [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Quy chế tài chính nội bộ |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.2.0.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -1334,4 +1334,4 @@ Tài liệu viết độc lập với phần mềm. Khi triển khai, thay các 
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 27/09/2026 | R.2.0.0 | Cập nhật bảng thẩm quyền 3 bậc B1 tới B3, bỏ cơ chế tự động nâng bậc, đơn giản hóa xác minh nhà cung cấp dưới 20 triệu và yêu cầu báo giá theo 3 bậc |

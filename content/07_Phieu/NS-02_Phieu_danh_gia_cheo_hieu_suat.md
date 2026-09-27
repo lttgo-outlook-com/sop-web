@@ -4,7 +4,7 @@ code: "NS-02"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.0.0"
+version: "R.2.0.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -29,7 +29,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | NS-02 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.2.0.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -108,4 +108,4 @@ Một điều kiện ghi "không" thì người đánh giá chéo báo quản l�
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 27/09/2026 | R.2.0.0 | Ghi nhận bãi bỏ biểu mẫu đánh giá chéo theo chủ trương tinh giản khung đánh giá hiệu suất và OBK-QCNS-08 |

@@ -4,7 +4,7 @@ code: "OBK-SOP-AM"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 2, quy trình bộ phận"
-version: "R.1.0.0"
+version: "R.2.0.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -30,7 +30,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-SOP-AM |
 | Cấp tài liệu | Cấp 2, SOP bộ phận |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.2.0.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -370,4 +370,4 @@ Thao tác trên `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]` và `[HỆ THỐNG CHAT
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 27/09/2026 | R.2.0.0 | Cập nhật phân quyền 2 cấp ký hợp đồng dịch vụ chuẩn cho Trưởng phòng Thương mại và quy định 4 trường hợp ngoại lệ chuyển Tổng Giám đốc |

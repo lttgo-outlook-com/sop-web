@@ -4,7 +4,7 @@ code: "OBK-SOP-00"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 1, văn bản KHUNG toàn công ty"
-version: "R.1.0.0"
+version: "R.2.0.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 02/09/2026"
@@ -32,7 +32,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-SOP-00 |
 | Cấp tài liệu | Cấp 1, văn bản KHUNG toàn công ty |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.2.0.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 02/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -1012,4 +1012,4 @@ Mốc đếm từ ngày ghi nhận tại `RD-01`. Với văn bản mức ưu ti�
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 27/09/2026 | R.2.0.0 | Chuyển đồng hồ T1 và T2 thành văn hóa phản hồi, tập trung đo lường chỉ số On-Time Delivery và quy chuẩn 4 nhóm thời hạn SLA |

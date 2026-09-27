@@ -4,7 +4,7 @@ code: "OBK-QCNS-03"
 type: "sop"
 folder: "11_NhanSu"
 level: "Cấp 2, quy trình bộ phận"
-version: "R.1.0.0"
+version: "R.2.0.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 22/09/2026"
@@ -31,7 +31,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-QCNS-03 |
 | Cấp tài liệu | Cấp 2 |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.2.0.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 22/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -112,4 +112,4 @@ Người làm: `TL-LIC`, `TL-KT`, `TL-LD`, `TL-LS`.
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 27/09/2026 | R.2.0.0 | Thu gọn mô hình kiểm soát từ 4 mức thành 2 cấp thực chất Maker làm và Checker Approver duyệt, COO thực hiện hậu kiểm xác suất |

@@ -4,7 +4,7 @@ code: "OBK-HB-00"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Mục lục"
-version: "R.1.0.0"
+version: "R.2.0.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 25/08/2026"
@@ -50,7 +50,7 @@ tags:
 | Hạng mục | Nội dung |
 | --- | --- |
 | Mã tài liệu | OBK-HB-00 |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.2.0.0, đang áp dụng |
 | Cấp tài liệu | Mục lục của Handbook cấp 3 |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
@@ -286,4 +286,4 @@ Quy tắc đánh phiên bản và quy trình cập nhật: xem Chương 21.
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 27/09/2026 | R.2.0.0 | Cơ cấu lại Handbook Kế toán thành 2 khối độc lập: 4 Bảng kiểm chu kỳ thao tác và khối tri thức tra cứu tham khảo pháp lý |

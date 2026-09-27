@@ -4,7 +4,7 @@ code: "OBK-QCTC-01"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 1, văn bản KHUNG toàn công ty"
-version: "R.1.0.0"
+version: "R.2.0.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 01/10/2026"
@@ -35,7 +35,7 @@ tags:
 | Mã tài liệu | OBK-QCTC-01 |
 | Tên tài liệu | Quy chế tài chính nội bộ của Công ty cổ phần oBacker |
 | Cấp tài liệu | Cấp 1, văn bản KHUNG. Các quy trình OBK-SOP-NB nằm dưới quy chế này |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.2.0.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -1965,4 +1965,4 @@ Ba quy tắc, cũng ghi tại mục 3.4:
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 27/09/2026 | R.2.0.0 | Thu gọn hạn mức chi tiêu 3 bậc tại mục 12.3: B1 dưới 5 triệu do TL quyết, B2 từ 5 đến dưới 20 triệu do COO hoặc KTT quyết, B3 từ 20 triệu do Tổng Giám đốc quyết |
