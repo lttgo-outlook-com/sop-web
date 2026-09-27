@@ -3,10 +3,8 @@ name: Deploy to Google Cloud Run
 on:
   push:
     branches:
-      - master
+      - deploy
   workflow_dispatch:
-  repository_dispatch:
-    types: [sop-sync]
 
 env:
   PROJECT_ID: obacker-ai
