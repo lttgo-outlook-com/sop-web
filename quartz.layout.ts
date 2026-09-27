@@ -8,8 +8,7 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      "oBacker Portal": "https://obacker.com",
     },
   }),
 }
@@ -38,7 +37,16 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    Component.LegalNav(),
+    Component.Explorer({
+      title: "Mục lục Quy trình",
+      folderDefaultState: "collapsed",
+      useSavedState: true,
+      filterFn: (node) => {
+        const omit = new Set(["CanCu", "VanBan", "raw", "_Nhap"])
+        return !omit.has(node.slugSegment)
+      },
+    }),
   ],
   right: [
     Component.Graph(),
@@ -47,7 +55,7 @@ export const defaultContentPageLayout: PageLayout = {
   ],
 }
 
-// components for pages that display lists of pages  (e.g. tags or folders)
+// components for pages that display lists of pages (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
   left: [
@@ -62,7 +70,16 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    Component.LegalNav(),
+    Component.Explorer({
+      title: "Mục lục Quy trình",
+      folderDefaultState: "collapsed",
+      useSavedState: true,
+      filterFn: (node) => {
+        const omit = new Set(["CanCu", "VanBan", "raw", "_Nhap"])
+        return !omit.has(node.slugSegment)
+      },
+    }),
   ],
   right: [],
 }
