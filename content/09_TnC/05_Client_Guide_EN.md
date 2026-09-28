@@ -50,7 +50,7 @@ oBacker Joint Stock Company provides business-operations services to SMEs, start
 |---|---|---|---|
 | Listed fee per year (VND) | 27,000,000đ (6,750,000đ/qtr) | 84,000,000đ (21,000,000đ/qtr) | From 180,000,000đ (45,000,000đ/qtr) |
 | Monthly equivalent fee | 2,250,000đ | 7,000,000đ | From 15,000,000đ |
-| FDI entity fee | 40,500,000đ/year (10,125,000đ/qtr) | 113,400,000đ/year (28,350,000đ/qtr) | Custom by volume (Case Thryve: 60,000,000đ/qtr) |
+| FDI entity fee | 40,500,000đ/year (10,125,000đ/qtr) | 113,400,000đ/year (28,350,000đ/qtr) | Custom by actual volume |
 | Billing cycle | Annual or Quarterly | Annual or Quarterly | Annual or Quarterly |
 | Monthly transaction quota | 50 (VN) / 100 (FDI) | 300 (hard ceiling 1,500 via blocks) | From 1,500 to 7,000+ vouchers |
 | Payroll & social insurance headcount | Under 10 (VN) / 3 (FDI) | Under 30 | Under 50 |

@@ -50,7 +50,7 @@ Công ty Cổ phần oBacker cung cấp dịch vụ vận hành doanh nghiệp c
 |---|---|---|---|
 | Phí niêm yết mỗi năm (VNĐ) | 27.000.000đ (6.750.000đ/quý) | 84.000.000đ (21.000.000đ/quý) | Từ 180.000.000đ (45.000.000đ/quý) |
 | Đơn giá tháng tương đương | 2.250.000đ | 7.000.000đ | Từ 15.000.000đ |
-| Phí áp dụng doanh nghiệp FDI | 40.500.000đ/năm (10.125.000đ/quý) | 113.400.000đ/năm (28.350.000đ/quý) | Thỏa thuận theo volume (Trường hợp Thryve: 60.000.000đ/quý) |
+| Phí áp dụng doanh nghiệp FDI | 40.500.000đ/năm (10.125.000đ/quý) | 113.400.000đ/năm (28.350.000đ/quý) | Thỏa thuận theo quy mô thực tế |
 | Kỳ thanh toán | Theo năm hoặc theo quý | Theo năm hoặc theo quý | Theo năm hoặc theo quý |
 | Định mức giao dịch mỗi tháng | 50 (VN) / 100 (FDI) | 300 (trần cứng 1.500 qua block) | Từ 1.500 đến 7.000+ chứng từ |
 | Định mức nhân sự tính lương/BHXH | Dưới 10 (VN) / 3 (FDI) | Dưới 30 | Dưới 50 |
