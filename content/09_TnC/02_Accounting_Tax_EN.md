@@ -182,9 +182,26 @@ Legal basis for penalties (reference): Decree No. 125/2020/ND-CP (tax and invoic
 
 Either party may terminate the Services on at least **30 days'** prior notice (or another period stated in the Order Form); the Client pays the fee for work already performed. oBacker hands over all books and reports (Excel/PDF), together with the Client's original documents if held, within **15 Business Days**; the Client has **30 days** to download all data before oBacker archives or deletes it in accordance with regulations.
 
-## Article 10. Service Fees
+## Article 10. Service Fees and Operational Policies
 
-The Service Fees are set in the Order Form (by package or by number of Transactions). Fee-generating situations (post-close adjustments, urgent processing, catch-up bookkeeping across multiple periods, out-of-package reports, issuing invoices on behalf, etc.) are notified in advance by oBacker and performed only after the Client's written approval.
+Service Fees are defined in the Order Form (by partner retainer package or actual Transaction volume). Detailed pricing mechanisms, quotas, and surcharges include:
+
+**10.1. Fair Use Policy (FUP) & Overage Schedule:**
+- Transaction Thresholds: Partner Core (50 Transactions/month), Partner Growth (300 Transactions/month), Partner Prime (1,500 Transactions/month).
+- Growth Package Block Mechanism: Exceeding 300 Transactions incurs block surcharges: 500-Transaction block (`ADD-TXN-BLOCK-500`, VND 2,500,000/month), 1,000-Transaction block (`ADD-TXN-BLOCK-1000`, VND 5,000,000/month), and 1,500-Transaction block (`ADD-TXN-BLOCK-1500`, VND 7,500,000/month). Partner Growth applies a hard ceiling of 1,500 Transactions/month; exceeding volume requires transition to Partner Prime.
+- Partner Prime Package: Standard baseline of 1,500 Transactions/month; excess volume above 1,500 Transactions is billed at VND 15,000/Transaction (`ADD-TXN-PRIME-OVER`).
+- Bank Accounts: Core (02 accounts), Growth (05 accounts). Surcharge from the 3rd account (Core) or 6th account (Growth) is VND 300,000/account/month (`ADD-BANK-ACC`).
+- Excess FCT Filings: VND 1,500,000/filing (`ADD-FCT-RETURN`).
+- On-site Tax Audit Support: VND 2,000,000/working day (`ADD-TAX-INSPECT`).
+- Monthly Post-billing: Reconciliation finalized on the 5th of each month; early warning triggered at 80% volume threshold; surcharge invoiced with the subsequent billing cycle or payable within 07 working days.
+
+**10.2. Health Check & Historical Restatement:**
+- Clients transitioning from previous providers or operating over 1 year must undergo an Initial Health Check (`OBG-HEALTH-CHECK`).
+- Where prior financial records require reconstruction, the Parties execute a Restatement Addendum (`OBG-RESTATE-BASE`) based on: Base Monthly Rate x Number of Months x Industry Multiplier K x Voucher Volume. oBacker is fully released from liability regarding pre-handover records.
+
+**10.3. Q4 Commitment & March 15 Settlement Deadline:**
+- New engagements entered in Q4 require a minimum 5-quarter service commitment (through December 31 of the following year). Premature termination triggers a 3-month fee reimbursement for prior-year closing.
+- Annual Financial Statements and Tax Closing fees are split into two installments (Installment 1 with Q4 fees, Installment 2 before March 15 of the following year). Late settlement of Installment 2 after March 15 entitles oBacker to suspend statutory filings; Client assumes 100% liability for statutory late penalties.
 
 ---
 

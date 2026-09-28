@@ -92,6 +92,20 @@ Hai cột giá lấy nguyên giá trị của hệ thống danh mục sản ph�
 | Chưa có tài liệu điều khoản dịch vụ cụ thể cho chữ ký số và hợp đồng điện tử | 1 nhóm | áp dụng Bản Điều Khoản Chung cho tới khi có tài liệu riêng |
 | Chưa có tài liệu điều khoản dịch vụ cụ thể cho dịch vụ thực hiện ở nước ngoài | 1 nhóm | áp dụng Bản Điều Khoản Chung cho tới khi có tài liệu riêng |
 
+
+---
+
+## 4. NGUYÊN TẮC ĐỊNH GIÁ, THUẾ SUẤT VÀ CHU KỲ THANH TOÁN
+
+Toàn bộ danh mục dịch vụ của oBacker tuân thủ các nguyên tắc định giá và thanh toán sau:
+
+| Nguyên tắc | Nội dung quy chuẩn |
+| --- | --- |
+| Giá chưa thuế GTGT (VAT Exclusive) | Toàn bộ đơn giá dịch vụ niêm yết trong danh mục là mức giá chưa bao gồm thuế giá trị gia tăng. Thuế GTGT được tính theo thuế suất thực tế tại thời điểm lập hóa đơn theo quy định của pháp luật thuế. |
+| Chu kỳ thanh toán chuẩn | Dịch vụ định kỳ thanh toán theo năm (trả trước 100% khi ký kết hoặc gia hạn hợp đồng) hoặc thanh toán theo quý (trả trước vào đầu mỗi quý). Dịch vụ vụ việc thanh toán làm hai đợt (tạm ứng khi ký kết và thanh toán phần còn lại khi bàn giao kết quả). |
+| Cơ chế tính Pro-rata khi bắt đầu giữa kỳ | Trường hợp hợp đồng bắt đầu thực hiện vào giữa tháng hoặc giữa quý, phí dịch vụ của kỳ đầu tiên được tính theo số ngày làm việc thực tế còn lại của kỳ đó trên cơ sở đơn giá tháng quy đổi. |
+| Phụ phí vượt định mức (FUP) | Các khoản phụ phí vượt định mức giao dịch, tài khoản ngân hàng, nhân sự tính lương được chốt số liệu đối soát vào ngày 05 hàng tháng và xuất hóa đơn gộp vào kỳ tiếp theo hoặc thanh toán trong 07 ngày làm việc. |
+
 ---
 
 ## NHẬT KÝ SỬA

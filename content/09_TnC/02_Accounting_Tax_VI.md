@@ -182,9 +182,26 @@ Cơ sở pháp lý về xử phạt tham chiếu: Nghị định 125/2020/NĐ-CP
 
 Mỗi Bên có thể chấm dứt Dịch Vụ bằng thông báo trước tối thiểu **30 ngày** (hoặc thời hạn khác tại Đơn Đặt Hàng); Quý Khách thanh toán phí cho phần công việc đã thực hiện. oBacker bàn giao toàn bộ sổ sách và báo cáo (Excel/PDF), cùng bản gốc tài liệu của Quý Khách nếu đang lưu giữ, trong vòng **15 Ngày Làm Việc**; Quý Khách có **30 ngày** để tải toàn bộ dữ liệu trước khi oBacker lưu trữ hoặc xóa theo quy định.
 
-## Điều 10. Phí Dịch Vụ
+## Điều 10. Phí Dịch Vụ và Chính Sách Vận Hành Bổ Sung
 
-Phí Dịch Vụ được xác định theo Đơn Đặt Hàng (theo gói hoặc theo số lượng Giao Dịch). Các tình huống phát sinh phí (điều chỉnh sau khóa sổ, xử lý gấp, ghi sổ bù nhiều kỳ, báo cáo ngoài gói, xuất hóa đơn thay…) được oBacker thông báo trước và chỉ thực hiện sau khi Quý Khách chấp thuận bằng văn bản.
+Phí Dịch Vụ được xác định theo Đơn Đặt Hàng (theo gói đối tác hoặc theo số lượng Giao Dịch thực tế). Chi tiết các cơ chế tính phí, định mức và phụ thu bao gồm:
+
+**10.1. Chính sách sử dụng hợp lý (FUP) và biểu phí vượt định mức:**
+- Hạn mức Giao Dịch: Partner Core (50 Giao Dịch/tháng), Partner Growth (300 Giao Dịch/tháng), Partner Prime (1.500 Giao Dịch/tháng).
+- Cơ chế khối phụ trội gói Growth: Vượt 300 Giao Dịch áp dụng phụ thu theo khối: khối 500 Giao Dịch (mã `ADD-TXN-BLOCK-500`, 2.500.000đ/tháng), khối 1.000 Giao Dịch (mã `ADD-TXN-BLOCK-1000`, 5.000.000đ/tháng), khối 1.500 Giao Dịch (mã `ADD-TXN-BLOCK-1500`, 7.500.000đ/tháng). Trần cứng gói Growth là 1.500 Giao Dịch/tháng; vượt mức này bắt buộc chuyển đổi sang Partner Prime.
+- Gói Partner Prime: Hạn mức tiêu chuẩn 1.500 Giao Dịch/tháng; khối lượng vượt trên 1.500 Giao Dịch áp dụng đơn giá 15.000đ/Giao Dịch (mã `ADD-TXN-PRIME-OVER`).
+- Tài khoản ngân hàng: Core (02 tài khoản), Growth (05 tài khoản). Phụ phí từ tài khoản thứ 3 (Core) hoặc thứ 6 (Growth) là 300.000đ/tài khoản/tháng (mã `ADD-BANK-ACC`).
+- Kê khai FCT ngoài định mức: 1.500.000đ/hồ sơ (mã `ADD-FCT-RETURN`).
+- Hỗ trợ thanh tra thuế tại trụ sở doanh nghiệp: 2.000.000đ/ngày làm việc (mã `ADD-TAX-INSPECT`).
+- Đối soát hàng tháng (Post-billing): Chốt số liệu vào ngày 05 hàng tháng; cảnh báo sớm khi sản lượng đạt 80% định mức trong tháng; xuất hóa đơn phụ thu gộp vào kỳ tiếp theo hoặc thanh toán trong 07 ngày làm việc.
+
+**10.2. Rà soát sức khỏe và khắc phục sổ sách kế toán quá khứ:**
+- Doanh nghiệp chuyển đổi từ đơn vị khác sang hoặc thành lập từ 01 năm trở lên bắt buộc thực hiện rà soát sức khỏe sổ sách ban đầu (mã `OBG-HEALTH-CHECK`).
+- Trường hợp sổ sách các năm trước có sai phạm cần làm lại, hai Bên ký phụ lục khắc phục sổ sách (mã `OBG-RESTATE-BASE`) tính theo công thức: Đơn giá tháng cơ sở x Số tháng x Hệ số ngành K x Hệ số chứng từ. oBacker được miễn trừ 100% trách nhiệm đối với số liệu trước thời điểm bàn giao.
+
+**10.3. Cam kết thời hạn Quý 4 và hạn thanh toán đợt 2 trước 15/03:**
+- Hợp đồng ký mới trong Quý 4 bắt buộc cam kết thời hạn tối thiểu 05 quý (đến hết 31/12 năm sau). Chấm dứt trước hạn bồi hoàn 03 tháng phí dịch vụ tương đương chi phí lập BCTC năm trước.
+- Phí BCTC và quyết toán năm chia 02 đợt (đợt 1 cùng Quý 4, đợt 2 trước 15/03 năm sau). Chậm thanh toán đợt 2 sau 15/03, oBacker tạm dừng nộp hồ sơ quyết toán; Quý Khách tự chịu phạt chậm nộp.
 
 ---
 

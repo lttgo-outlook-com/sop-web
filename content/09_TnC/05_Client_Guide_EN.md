@@ -48,12 +48,12 @@ oBacker Joint Stock Company provides business-operations services to SMEs, start
 
 | Criteria | Partner Core | Partner Growth | Partner Prime |
 |---|---|---|---|
-| Listed fee per year (VND) | 27,000,000đ | 45,000,000đ | 72,000,000đ |
-| Monthly equivalent fee | 2,250,000đ | 3,750,000đ | 6,000,000đ |
-| FDI entity fee (+25%) | 33,750,000đ/year | 56,250,000đ/year | 90,000,000đ/year |
+| Listed fee per year (VND) | 27,000,000đ (6,750,000đ/qtr) | 84,000,000đ (21,000,000đ/qtr) | From 180,000,000đ (45,000,000đ/qtr) |
+| Monthly equivalent fee | 2,250,000đ | 7,000,000đ | From 15,000,000đ |
+| FDI entity fee | 40,500,000đ/year (10,125,000đ/qtr) | 113,400,000đ/year (28,350,000đ/qtr) | Custom by volume (Case Thryve: 60,000,000đ/qtr) |
 | Billing cycle | Annual or Quarterly | Annual or Quarterly | Annual or Quarterly |
-| Monthly transaction quota | 500 (VN) / 100 (FDI) | 1,500 (hard ceiling) | Blocks 1,500 to 7,000+ |
-| Payroll & social insurance headcount | under 10 (VN) / 3 (FDI) | under 30 | under 100 |
+| Monthly transaction quota | 50 (VN) / 100 (FDI) | 300 (hard ceiling 1,500 via blocks) | From 1,500 to 7,000+ vouchers |
+| Payroll & social insurance headcount | Under 10 (VN) / 3 (FDI) | Under 30 | Under 50 |
 | Accounting standard applied | Circular 58 (VN) / Circular 99 (FDI) | Circular 99/2025/TT-BTC | Circular 99/2025/TT-BTC |
 | Bookkeeping and Annual Financial Statements | Yes | Yes | Yes |
 | Periodic tax filing & FCT | Yes (FCT up to 3 contracts/month) | Yes (FCT up to 3 contracts/month) | Yes (FCT up to 3 contracts/month) |

@@ -241,6 +241,10 @@ The workload and fees for Accounting services are determined by the number of Tr
 
 The Transactions/month threshold for each package is stated in the Order Form. Periodic partner retainer packages (Partner Core, Partner Growth, Partner Prime) apply transaction volume quotas and a Fair Use Policy (FUP). Partner Growth applies a hard ceiling of 1,500 transactions/month; Partner Prime applies tailored volume blocks (1,500 to 7,000+ transactions/month). All overage fees and volume block extensions are reconciled and invoiced on a monthly post-billing schedule.
 
+**Industry Complexity Multiplier & Hard Exclusions:** Standard catalog pricing applies to baseline industries (Services, General Trading, IT, Consulting, multiplier K = 1.0). F&B and retail chains carry multiplier K = 1.2; import-export and logistics carry K = 1.3; manufacturing, processing, and construction carry K = 1.5. oBacker strictly refuses services for excluded activities, including: cryptocurrency and virtual assets; unlicensed lending and pawn services; gambling and betting; debt collection; and weapons, explosives, or hazardous chemicals.
+
+**Automated Package Upgrade Engine:** The Client automatically transitions to a higher tier package starting the subsequent month upon satisfying either: (1) Actual transaction volume exceeding the package quota for 03 consecutive calendar months; OR (2) Cumulative annual revenue exceeding the tier limit (exceeding VND 3,000,000,000 for Partner Core). Annually on December 31, oBacker reassesses all yearly operational metrics to establish the formal retainer tier for the subsequent fiscal year.
+
 ## Article 16. Accounting & Tax Services; PL-KT
 
 Accounting & Tax Services are governed in detail by **PL-KT**. In summary:
@@ -256,6 +260,8 @@ Accounting & Tax Services are governed in detail by **PL-KT**. In summary:
 **On-site Tax Inspection Representation:** The standard retainer package covers remote audit defense via electronic tax portals. Where the tax authority issues a formal on-site audit decision at client premises and the Client requests senior oBacker staff to attend in person, the Parties execute an ad-hoc engagement under master catalog SKU `ADD-TAX-INSPECT`.
 
 **Q4 Contract Lock-in and March 15th Checkpoint:** Clients signing during Q4 commit to a minimum service term extending through December 31st of the following calendar year (minimum 5 quarters). If payment is split into installments, the second installment must be completed no later than March 15th of the following year. If unpaid by March 15th, oBacker submits provisional tax returns and Financial Statements based on available data prior to March 31st to prevent statutory late-filing fines; complete restatement and supplemental filings (01/KHBS) are finalized upon full settlement.
+
+**Historical Restatement & Liability Release:** Clients onboarding from previous service providers or with more than one year of operational history must undergo an Initial Bookkeeping Health Check. Where historical accounting records contain errors, omissions, or non-compliance requiring restatement, the Parties shall execute a specialized Restatement Addendum calculated based on monthly base fee, industry multiplier K, and adjusted voucher volume. oBacker is fully released and indemnified from all civil liability, tax arrears, administrative penalties, and late-payment interest arising from historical periods prior to the formal handover date.
 
 **oBacker does not pay tax on the Client's behalf**, unless the Client requests linking the e-tax account to the bank account and has confirmed the return.
 
@@ -305,6 +311,8 @@ After onboarding, coordination settles into a fixed monthly rhythm. Recurring no
 - If the Client **has not paid**: please pay the exact amount and the exact unit code oBacker stated in the email, before the social insurance authority's deadline (usually the last day of the month), to avoid late-payment surcharges.
 
 These are two reconciliations for **the same amount for the same period**, not two separate payments. The Client pays the amount in the email, not the figure on form C12 if the two differ (due to the lag in the social insurance system).
+
+**20.2. Seven Operational Boundary Principles:** To safeguard legal compliance and mitigate risk, both Parties observe seven operational boundaries: (1) No physical USB Token custody at oBacker offices exceeding 24 working hours; (2) Absolute prohibition of tax, insurance, or penalty payments via personal employee bank accounts; (3) Client bears 100% legal responsibility for the validity and actual occurrence of all input invoices; (4) oBacker maintains the right to refuse bookkeeping of undocumented, non-commercial, or high-tax-risk expenses; (5) No appointed legal Chief Accountant unless contracted under a separate statutory appointment engagement; (6) 04-working-hour advisory response SLA; (7) Strict financial and operational data confidentiality governed by standard Non-Disclosure Agreement (NDA).
 
 ## Article 21. Termination and Handover
 

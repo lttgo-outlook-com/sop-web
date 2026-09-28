@@ -241,6 +241,10 @@ Khối lượng và phí của dịch vụ Kế toán được xác định theo
 
 Ngưỡng Giao Dịch/tháng của từng gói được ghi tại Đơn Đặt Hàng. Các gói đối tác kế toán và quản trị định kỳ (Partner Core, Partner Growth, Partner Prime) áp dụng định mức giao dịch và chính sách sử dụng hợp lý (FUP). Gói Partner Growth áp dụng trần cứng 1.500 giao dịch/tháng; gói Partner Prime áp dụng các block giao dịch thỏa thuận (từ 1.500 đến trên 7.000 giao dịch/tháng). Toàn bộ phụ phí phát sinh vượt định mức hoặc block volume mở rộng được đối soát thực tế và xuất hóa đơn phụ phí định kỳ hàng tháng dương lịch (Monthly Post-billing).
 
+**Hệ số phức tạp ngành nghề & danh mục loại trừ:** Đơn giá niêm yết chuẩn áp dụng cho nhóm ngành tiêu chuẩn (Dịch vụ, Thương mại, IT, Tư vấn, hệ số K = 1,0). Nhóm ngành F&B, chuỗi bán lẻ áp dụng hệ số K = 1,2; ngành xuất nhập khẩu, logistics áp dụng K = 1,3; ngành sản xuất, gia công, xây dựng áp dụng K = 1,5. oBacker từ chối tuyệt đối cung cấp dịch vụ cho các ngành nghề loại trừ gồm: kinh doanh tiền mã hóa, tài sản ảo; tín dụng đen, cầm đồ; cờ bạc, cá cược; đòi nợ thuê; vũ khí, vật liệu nổ và hóa chất độc hại.
+
+**Cơ chế nâng gói tự động:** Quý Khách tự động chuyển đổi lên gói cấp cao hơn từ tháng tiếp theo khi: (1) Số lượng chứng từ vượt định mức gói liên tục 03 tháng dương lịch; HOẶC (2) Doanh thu lũy kế trong năm vượt ngưỡng quy mô của gói (vượt 3 tỷ đồng đối với Partner Core). Vào ngày 31/12 hàng năm, oBacker đánh giá lại toàn bộ chỉ số cả năm để áp dụng phân hạng gói chính thức cho hợp đồng năm tiếp theo.
+
 ## Điều 16. Dịch Vụ Kế Toán & Thuế; PL-KT
 
 Dịch Vụ Kế toán & Thuế được điều chỉnh chi tiết tại **PL-KT**. Tóm tắt:
@@ -256,6 +260,8 @@ Dịch Vụ Kế toán & Thuế được điều chỉnh chi tiết tại **PL-K
 **Thanh tra, kiểm tra thuế tại trụ sở:** Gói dịch vụ định kỳ bao gồm hỗ trợ giải trình số liệu từ xa qua cổng điện tử. Trường hợp cơ quan thuế ban hành quyết định thanh tra, kiểm tra tại bàn tại trụ sở doanh nghiệp và Quý Khách yêu cầu chuyên viên oBacker trực tiếp tham gia làm việc với đoàn kiểm tra, hai Bên ký phụ lục công việc theo vụ việc riêng theo danh mục dịch vụ chuẩn hóa (mã ADD-TAX-INSPECT).
 
 **Cơ chế chốt chặn hợp đồng Quý 4 và ngày 15/03:** Khách hàng ký hợp đồng trong Quý 4 cam kết thời hạn dịch vụ kéo dài tối thiểu đến hết ngày 31/12 của năm tiếp theo (tối thiểu 05 quý). Trường hợp thanh toán chia đợt, đợt 2 phải được hoàn tất chậm nhất vào ngày 15/03 của năm tiếp theo. Đến ngày 15/03 nếu Quý Khách chưa thanh toán đợt 2, oBacker tiến hành nộp BCTC và Quyết toán thuế tạm thời căn cứ trên số liệu hiện có trước ngày 31/03 để bảo vệ Quý Khách khỏi bị xử phạt chậm nộp; sau khi hoàn tất thanh toán, oBacker mới thực hiện rà soát hoàn chỉnh và nộp hồ sơ khai bổ sung.
+
+**Khắc phục sổ sách quá khứ và miễn trừ trách nhiệm:** Doanh nghiệp chuyển đổi từ đơn vị khác sang hoặc đã hoạt động từ 01 năm trở lên bắt buộc thực hiện rà soát sức khỏe sổ sách ban đầu (Health Check). Trường hợp phát hiện sai sót cần lập lại sổ sách kế toán các năm trước, hai Bên ký phụ lục công việc khắc phục sổ sách (Restatement) theo công thức đơn giá tháng nhân hệ số ngành và khối lượng chứng từ sai lệch. oBacker được miễn trừ 100% trách nhiệm đối với mọi sai phạm, tiền truy thu thuế và tiền phạt vi phạm hành chính phát sinh từ số liệu quá khứ do Quý Khách hoặc đơn vị kế toán cũ thực hiện trước thời điểm bàn giao.
 
 **oBacker không nộp thay tiền thuế**, trừ khi Quý Khách yêu cầu liên kết tài khoản thuế điện tử với tài khoản ngân hàng và đã xác nhận tờ khai.
 
@@ -305,6 +311,8 @@ Sau giai đoạn thiết lập ban đầu, việc phối hợp đi vào lịch c
 - Nếu Quý Khách **chưa nộp**: nộp đúng số tiền và đúng mã đơn vị mà oBacker nêu trong email, trước hạn của cơ quan BHXH (thường là ngày cuối tháng), để tránh phát sinh lãi chậm nộp.
 
 Đây là 2 lần đối soát cho **cùng một số tiền của cùng một kỳ**, không phải hai khoản phải đóng riêng biệt. Quý Khách đóng theo số tiền trong email, không đóng theo số trên C12 nếu hai số khác nhau (do độ trễ cập nhật của hệ thống BHXH).
+
+**20.2. Bảy nguyên tắc ranh giới vận hành:** Nhằm bảo đảm an toàn pháp lý và kiểm soát rủi ro, hai Bên tuân thủ bảy nguyên tắc ranh giới sau: (1) Không lưu giữ USB Token tại văn phòng oBacker quá 24 giờ làm việc; (2) Tuyệt đối không nhận tiền thanh toán hộ nghĩa vụ thuế/BHXH qua tài khoản cá nhân nhân sự oBacker; (3) Quý Khách chịu trách nhiệm 100% về tính hợp pháp và thực tế phát sinh của hóa đơn đầu vào; (4) oBacker có quyền từ chối hạch toán chi phí không có căn cứ chứng từ hợp pháp hoặc có rủi ro trốn thuế nghiêm trọng; (5) Không cử nhân sự đứng tên Kế toán trưởng pháp lý trừ khi ký hợp đồng dịch vụ riêng biệt; (6) SLA phản hồi tư vấn trong vòng 04 giờ làm việc; (7) Bảo mật thông tin tài chính và dữ liệu kinh doanh tuyệt đối theo Thỏa thuận bảo mật thông tin (NDA).
 
 ## Điều 21. Chấm Dứt và Bàn Giao
 

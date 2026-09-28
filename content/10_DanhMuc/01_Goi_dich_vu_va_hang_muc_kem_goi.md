@@ -316,6 +316,114 @@ Danh sách mọi mã có ghi hạng mục thành phần trong hệ thống danh 
 
 ---
 
+## 9. QUY CHẾ SỬ DỤNG HỢP LÝ VÀ ĐỐI SOÁT PHỤ PHÍ HÀNG THÁNG
+
+Chính sách sử dụng hợp lý áp dụng đối với mọi gói đối tác định kỳ nhằm bảo đảm công bằng tài nguyên vận hành.
+
+| Chỉ số vận hành | Gói Partner Core | Gói Partner Growth | Gói Partner Prime | Phụ phí vượt định mức |
+| --- | --- | --- | --- | --- |
+| Định mức chứng từ kế toán | 50 chứng từ/tháng | 300 chứng từ/tháng | 1.500 chứng từ/tháng | theo khối chứng từ hoặc 15.000 đồng/chứng từ |
+| Tài khoản ngân hàng đối soát | tối đa 02 tài khoản | tối đa 05 tài khoản | không giới hạn thông thường | 300.000 đồng/tài khoản/tháng từ tài khoản vượt |
+| Lao động tính lương và bảo hiểm | tối đa 10 lao động | tối đa 30 lao động | tối đa 50 lao động | 50.000 đồng/người/tháng vượt định mức |
+| Đợt tính lương phát sinh | 01 đợt/tháng | 01 đợt/tháng | 02 đợt/tháng | 500.000 đồng/đợt phát sinh thêm |
+| Hồ sơ thuế nhà thầu nước ngoài | 01 hợp đồng/năm | 03 hợp đồng/tháng | 05 hợp đồng/tháng | 1.500.000 đồng/hồ sơ phát sinh thêm |
+| Hỗ trợ thanh tra thuế tại trụ sở | không bao gồm | không bao gồm | 01 ngày/năm | 2.000.000 đồng/ngày làm việc trực tiếp |
+
+Quy định về khối chứng từ phụ trội và trần gói:
+
+- Đối với gói Partner Growth: khi khối lượng chứng từ vượt quá 300 chứng từ/tháng, áp dụng phụ phí theo khối định mức gồm khối 500 chứng từ (2.500.000 đồng/tháng), khối 1.000 chứng từ (5.000.000 đồng/tháng) và khối 1.500 chứng từ (7.500.000 đồng/tháng).
+- Khối lượng 1.500 chứng từ/tháng là mức trần vận hành tối đa của gói Partner Growth. Khách hàng vượt ngưỡng này bắt buộc chuyển đổi sang gói Partner Prime hoặc thỏa thuận hợp đồng gói riêng.
+- Đối với gói Partner Prime: khối lượng chứng từ vượt trên 1.500 chứng từ/tháng được tính phụ thu với đơn giá 15.000 đồng/chứng từ.
+
+Quy trình đối soát phụ phí hàng tháng:
+
+- Ngày 05 hàng tháng dương lịch, hệ thống đối soát sản lượng chứng từ và khối lượng dịch vụ phát sinh thực tế trong tháng trước liền kề.
+- Khi khối lượng chứng từ đạt 80% định mức gói trong tháng, hệ thống gửi thông báo cảnh báo sớm đến khách hàng.
+- Bảng đối soát phụ phí được gửi cho khách hàng và xuất hóa đơn gộp vào kỳ thanh toán tiếp theo hoặc thanh toán riêng trong 07 ngày làm việc.
+
+---
+
+## 10. CƠ CHẾ CHUYỂN ĐỔI VÀ NÂNG GÓI TỰ ĐỘNG
+
+Cơ chế nâng gói bảo đảm dịch vụ kế toán thuế tương thích với quy mô thực tế của doanh nghiệp.
+
+- Nâng gói giữa năm tài chính: Khách hàng tự động chuyển đổi lên gói dịch vụ cấp cao hơn từ tháng tiếp theo khi thỏa mãn một trong hai điều kiện: (1) Khối lượng chứng từ thực tế vượt định mức gói hiện tại liên tục 03 tháng dương lịch; hoặc (2) Doanh thu lũy kế phát sinh trong năm tài chính vượt ngưỡng quy mô của gói hiện tại (doanh thu năm vượt 3.000.000.000 đồng đối với gói Partner Core). Chi phí các tháng còn lại được tính bù trừ theo chênh lệch đơn giá của gói mới.
+- Đánh giá định kỳ cuối năm tài chính: Vào ngày 31 tháng 12 hàng năm, oBacker đánh giá lại tổng doanh thu, số lao động bình quân và tổng lượng chứng từ phát sinh cả năm để xác định phân hạng gói áp dụng cho hợp đồng năm tài chính tiếp theo.
+
+---
+
+## 11. PHÂN LOẠI DOANH NGHIỆP FDI VÀ HỆ SỐ PHỨC TẠP NGÀNH NGHỀ
+
+Phân loại doanh nghiệp áp dụng chế độ kế toán và nghĩa vụ kiểm toán báo cáo tài chính:
+
+| Phân loại doanh nghiệp | Căn cứ xác định | Chế độ kế toán áp dụng | Nghĩa vụ kiểm toán báo cáo tài chính | Mức phí dịch vụ áp dụng |
+| --- | --- | --- | --- | --- |
+| Doanh nghiệp Việt Nam siêu nhỏ | Doanh thu năm không quá 3 tỷ đồng hoặc vốn không quá 3 tỷ đồng, lao động không quá 10 người theo Điều 5 Nghị định 80/2021/NĐ-CP | Thông tư 58/2026/TT-BTC | Không bắt buộc kiểm toán độc lập hàng năm | Biểu giá chuẩn gói Partner Core |
+| Doanh nghiệp Việt Nam thông thường | Doanh nghiệp vượt tiêu chí siêu nhỏ, quy mô nhỏ, vừa hoặc lớn | Thông tư 99/2025/TT-BTC | Không bắt buộc kiểm toán hàng năm trừ ngành nghề đặc thù | Biểu giá chuẩn gói Partner Growth hoặc Prime |
+| Doanh nghiệp có vốn đầu tư nước ngoài (FDI) | Doanh nghiệp có nhà đầu tư nước ngoài nắm giữ vốn điều lệ | Thông tư 99/2025/TT-BTC đầy đủ tài khoản, lập báo cáo lưu chuyển tiền tệ và thuyết minh | Bắt buộc kiểm toán độc lập hàng năm theo Điều 15 Luật Kiểm toán độc lập 2011 | Biểu giá FDI (bằng 125% mức phí doanh nghiệp Việt Nam) |
+
+Hệ số phức tạp ngành nghề:
+
+| Nhóm ngành nghề | Hệ số K | Đặc điểm rủi ro và nghiệp vụ chuyên biệt |
+| --- | --- | --- |
+| Dịch vụ, Thương mại, Công nghệ thông tin, Tư vấn | 1,0 | Chuẩn nghiệp vụ cơ sở, luồng chứng từ dịch vụ thương mại thông thường |
+| Ẩm thực (F&B), Bán lẻ chuỗi, Dịch vụ lưu trú | 1,2 | Quản lý ca kíp lao động, kiểm soát tồn kho nguyên liệu và hóa đơn bán lẻ phân tán |
+| Xuất nhập khẩu, Vận tải, Logistics, Thương mại điện tử xuyên biên giới | 1,3 | Tờ khai hải quan, thuế xuất nhập khẩu, thuế nhà thầu nước ngoài và chứng từ thanh toán quốc tế |
+| Sản xuất, Gia công, Xây dựng, Thi công hoàn thiện | 1,5 | Bắt buộc lập định mức tiêu hao nguyên vật liệu, tính giá thành sản phẩm và theo dõi công trình dở dang |
+
+Danh mục ngành nghề loại trừ tuyệt đối (không tiếp nhận cung cấp dịch vụ):
+
+- Kinh doanh tiền mã hóa, tài sản ảo không được pháp luật công nhận;
+- Dịch vụ tín dụng đen, cầm đồ trái phép;
+- Kinh doanh trò chơi điện tử có thưởng, dịch vụ cờ bạc, cá cược;
+- Dịch vụ đòi nợ thuê;
+- Sản xuất, buôn bán hóa chất độc hại, vũ khí, vật liệu nổ.
+
+---
+
+## 12. CHÍNH SÁCH CHỐT CHẶN QUÝ 4 VÀ THỜI HẠN QUYẾT TOÁN 15/03
+
+Cam kết thời hạn đối với hợp đồng ký kết trong Quý 4:
+
+- Hợp đồng dịch vụ ký mới trong Quý 4 của năm tài chính bắt buộc có thời hạn tối thiểu là 05 quý (kéo dài đến hết ngày 31 tháng 12 của năm tài chính tiếp theo). Quy định này bảo đảm bù đắp chi phí vận hành khi oBacker thực hiện toàn bộ công tác tổng hợp số liệu, lập báo cáo tài chính và quyết toán thuế của năm trước.
+- Trường hợp khách hàng đơn phương chấm dứt hợp đồng trước thời hạn 05 quý, khách hàng có nghĩa vụ bồi hoàn chi phí lập báo cáo tài chính năm trước với số tiền tương đương 03 tháng phí dịch vụ theo hợp đồng.
+
+Thời hạn thanh toán đợt 2 phí báo cáo tài chính trước ngày 15/03:
+
+- Chi phí lập báo cáo tài chính và hồ sơ quyết toán năm được phân bổ thành 02 đợt thanh toán: Đợt 1 (50%) thanh toán cùng kỳ phí Quý 4; Đợt 2 (50%) thanh toán trước ngày 15 tháng 03 của năm tài chính tiếp theo.
+- Thanh toán đợt 2 là điều kiện bắt buộc để oBacker ký số và chính thức nộp hồ sơ quyết toán thuế, báo cáo tài chính lên cổng thông tin của cơ quan thuế.
+- Trường hợp khách hàng chậm thanh toán đợt 2 sau ngày 15 tháng 03, oBacker giữ quyền tạm dừng nộp hồ sơ quyết toán. Khách hàng tự chịu hoàn toàn trách nhiệm pháp lý và các khoản tiền phạt chậm nộp hồ sơ khai thuế phát sinh.
+
+---
+
+## 13. KHUNG DỊCH VỤ THIẾT LẬP BAN ĐẦU, RÀ SOÁT VÀ KHẮC PHỤC SỔ SÁCH
+
+Dịch vụ thiết lập ban đầu và rà soát sức khỏe sổ sách:
+
+- Doanh nghiệp mới thành lập được miễn phí thiết lập ban đầu (`OBG-ONB-CORE`, `OBG-ONB-GROWTH`).
+- Doanh nghiệp chuyển đổi từ đơn vị dịch vụ khác sang hoặc đã hoạt động từ 01 năm trở lên bắt buộc thực hiện dịch vụ rà soát sức khỏe sổ sách ban đầu (`OBG-HEALTH-CHECK`) trước khi bàn giao dữ liệu chính thức.
+
+Dịch vụ khắc phục và lập lại sổ sách kế toán (`OBG-RESTATE-BASE`):
+
+- Áp dụng khi kết quả rà soát phát hiện sổ sách cũ bị sai lệch, thiếu chứng từ hoặc vi phạm quy định kế toán thuế.
+- Phí dịch vụ xác định theo công thức: Đơn giá cơ sở theo tháng nhân với số tháng cần khắc phục, nhân với hệ số ngành nghề K và hệ số điều chỉnh theo khối lượng chứng từ sai lệch.
+- Ranh giới pháp lý: oBacker chỉ chịu trách nhiệm đối với số liệu do oBacker trực tiếp hạch toán và nộp trong thời gian thực hiện hợp đồng. oBacker được miễn trừ toàn bộ trách nhiệm đối với sai phạm, tiền truy thu thuế và tiền phạt phát sinh từ số liệu quá khứ do khách hàng hoặc đơn vị cũ lập trước thời điểm bàn giao.
+
+---
+
+## 14. BẢY NGUYÊN TẮC RANH GIỚI VẬN HÀNH
+
+Mọi hoạt động cung cấp dịch vụ đối tác kế toán, thuế và pháp lý tuân thủ bảy nguyên tắc ranh giới vận hành sau đây:
+
+1. Quản trị chữ ký số an toàn: Không lưu giữ thiết bị chữ ký số vật lý (Token USB) tại văn phòng oBacker quá 24 giờ làm việc. Khuyến nghị khách hàng sử dụng chữ ký số từ xa (HSM Cloud) có phân quyền kiểm soát.
+2. Phân định dòng tiền minh bạch: Tuyệt đối không nhận tiền thanh toán hộ nghĩa vụ thuế, bảo hiểm xã hội hoặc tiền phạt qua tài khoản cá nhân của nhân sự oBacker. Khách hàng thực hiện nộp thuế trực tiếp từ tài khoản doanh nghiệp.
+3. Tính hợp pháp của hóa đơn chứng từ: Khách hàng chịu trách nhiệm toàn bộ trước pháp luật về tính hợp pháp, hợp lệ và thực tế phát sinh của mọi hóa đơn, chứng từ đầu vào cung cấp cho oBacker.
+4. Quyền từ chối hạch toán: oBacker có quyền từ chối hạch toán các khoản chi phí không có căn cứ chứng từ hợp pháp, không phục vụ hoạt động sản xuất kinh doanh hoặc có dấu hiệu rủi ro vi phạm pháp luật thuế.
+5. Độc lập chức danh Kế toán trưởng: oBacker không cử nhân sự đứng tên chức danh Kế toán trưởng pháp lý của khách hàng trên đăng ký kinh doanh, trừ trường hợp hai bên ký hợp đồng dịch vụ Kế toán trưởng riêng biệt.
+6. Chuẩn mực thời gian phản hồi: Thời gian phản hồi yêu cầu tư vấn chuẩn trong vòng 04 giờ làm việc. Chứng từ kế toán được phân loại và xử lý định kỳ hàng tuần.
+7. Bảo mật thông tin tuyệt đối: Dữ liệu tài chính, doanh thu, nhân sự và thông tin kinh doanh của khách hàng được bảo mật theo Thỏa thuận bảo mật thông tin (NDA) và chỉ phục vụ mục đích thực hiện hợp đồng dịch vụ.
+---
+
 ## NHẬT KÝ SỬA
 
 | Ngày | Bản | Nội dung |
