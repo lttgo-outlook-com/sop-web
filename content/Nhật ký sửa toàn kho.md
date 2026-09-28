@@ -13,6 +13,13 @@ tags:
 > [!note] RESET CHANGELOG
 > Changelog bắt đầu từ bản ban hành chính thức R.1.0.0 ngày 01/10/2026. Lịch sử sửa đổi các phiên bản tiếp theo được ghi nhận chi tiết tại trang này.
 
+> [!tip] CẬP NHẬT PHIÊN BẢN R.1.1.0 (28/09/2026) — HỢP NHẤT MASTER SKU CATALOG VÀ BỘ GÓI ĐỐI TÁC PARTNER
+> Ngày 28/09/2026, oBacker ban hành phiên bản **R.1.1.0** cho toàn bộ Bộ Danh mục dịch vụ (`10_DanhMuc`) và Bộ Điều khoản dịch vụ (`09_TnC`):
+> - **Master SKU Catalog (`10_DanhMuc`):** Hợp nhất và chuẩn hóa 372 mã SKU, chuyển dịch hoàn toàn từ hệ thống gói cũ (`Starter`, `Scale`, `Premium`) sang kiến trúc 3 gói đối tác: **Partner Core** (`OBG-PTR-CORE`), **Partner Growth** (`OBG-PTR-GROWTH`), và **Partner Prime** (`OBG-PTR-PRIME`).
+> - **Cơ chế FUP & Phụ phí:** Thiết lập trần cứng 1.500 giao dịch/tháng cho gói Growth, các gói bổ sung chứng từ FUP (`ADD-TXN-*`), biểu phí di trú dữ liệu (`OBG-ONB-*`), và rà soát sức khỏe sổ sách (`OBG-HEALTH-CHECK`).
+> - **Chính sách FDI:** Áp dụng hệ số phụ thu rủi ro hồ sơ FDI (+25%), chuẩn hóa 100% doanh nghiệp FDI thực hiện ghi sổ và BCTC theo Thông tư 99/2025/TT-BTC.
+> - **Điều khoản dịch vụ & Hợp đồng khung (`09_TnC`):** Giới hạn trách nhiệm bồi thường tổng hợp không vượt quá 03 tháng phí dịch vụ thực trả gần nhất; định mức kê khai thuế nhà thầu nước ngoài (FCT) 03 hợp đồng/tháng; ranh giới thanh tra thuế tại bàn (`ADD-TAX-INSPECT`) và tính độc lập của kiểm toán FDI; cơ chế cam kết thời hạn Quý 4 (tối thiểu 05 quý) và mốc thanh toán đợt 2 trước 15/03.
+
 > [!tip] CẬP NHẬT PHIÊN BẢN R.2.0.0 (27/09/2026) — TINH GIẢN VÀ CHUẨN HÓA VẬN HÀNH
 > Ngày 27/09/2026, oBacker ban hành phiên bản **R.2.0.0** cho các tài liệu trọng yếu nhằm tinh giản thủ tục hành chính, áp dụng lằn ranh tuân thủ tối thiểu theo pháp luật (MVC) và nguyên tắc Single Source of Truth (SSOT):
 > - [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]]: Thu gọn hạn mức chi tiêu 3 bậc (B1 dưới 5 triệu do TL quyết, B2 từ 5 đến dưới 20 triệu do COO/KTT quyết, B3 từ 20 triệu do TGĐ quyết).
