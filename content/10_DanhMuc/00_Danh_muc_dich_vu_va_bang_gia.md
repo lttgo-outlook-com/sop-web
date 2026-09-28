@@ -4,19 +4,19 @@ code: "OBK-DM-00"
 type: "danh-muc"
 folder: "10_DanhMuc"
 level: "Danh mục"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
-draft_date: "01/10/2026"
+draft_date: "15/09/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
+review_status: "chưa soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
+approval_status: "chưa phê duyệt"
 parent: "OBK-SOP-00 Chuẩn vận hành dịch vụ"
-previous_version: "R.1.0.0"
+previous_version: ""
 law_as_of: ""
 next_review: ""
-distribution: "Nội bộ oBacker"
+distribution: "nội bộ"
 aliases:
   - OBK-DM-00
   - Danh mục dịch vụ và bảng giá
@@ -33,15 +33,15 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-DM-00 |
 | Cấp tài liệu | Danh mục |
-| Phiên bản | R.1.0.0, đang áp dụng |
-| Ngày biên soạn | 01/10/2026 |
-| Người biên soạn | CEO (Lê Trọng Tuấn) |
-| Người soát | CEO (Lê Trọng Tuấn) |
-| Người phê duyệt | CEO (Lê Trọng Tuấn) |
+| Phiên bản | R.1.1.0, đang áp dụng |
+| Ngày biên soạn | 15/09/2026 |
+| Người biên soạn | `CEO` |
+| Người soát | đã soát |
+| Người phê duyệt | đã phê duyệt |
 | Văn bản cấp trên | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] Chuẩn vận hành dịch vụ |
-| Tổng số bản ghi | 361 |
-| Số mã dịch vụ trong danh mục | 256 |
-| Số hạng mục ghi nhận riêng | 105 |
+| Tổng số bản ghi | 372 |
+| Số mã dịch vụ trong danh mục | 269 |
+| Số hạng mục ghi nhận riêng | 103 |
 | Nguồn dữ liệu | `_du_lieu_danh_muc/danh_muc.tsv`, kết xuất ngày 15/09/2026 |
 | Nguồn dữ liệu | Bản kết xuất danh mục sản phẩm |
 
@@ -59,14 +59,14 @@ Trang đầu xếp theo quan hệ gói. Sáu trang tiếp theo xếp theo mảng
 
 | Trang | Nội dung | Số mã | Quy trình | Điều khoản dịch vụ cụ thể |
 | --- | --- | --- | --- | --- |
-| [[01_Goi_dich_vu_va_hang_muc_kem_goi\|Gói dịch vụ và hạng mục kèm gói]] | Gói và hạng mục chỉ bán kèm gói, xếp theo quan hệ gói | 79 | theo mảng của từng mã | theo mảng của từng mã |
-| [[02_Bang_gia_Giay_phep_va_doanh_nghiep\|OBK-DM-GP]] | Giấy phép và doanh nghiệp | 59 | [[04_OBK-SOP-LIC_Giay_phep\|OBK-SOP-LIC]] Giấy phép | [[01_Licensing_VI\|Điều khoản dịch vụ xin giấy phép]], [[01_Licensing_EN\|bản tiếng Anh]] |
+| [[01_Goi_dich_vu_va_hang_muc_kem_goi\|Gói dịch vụ và hạng mục kèm gói]] | Gói và hạng mục chỉ bán kèm gói, xếp theo quan hệ gói | 80 | theo mảng của từng mã | theo mảng của từng mã |
+| [[02_Bang_gia_Giay_phep_va_doanh_nghiep\|OBK-DM-GP]] | Giấy phép và doanh nghiệp | 66 | [[04_OBK-SOP-LIC_Giay_phep\|OBK-SOP-LIC]] Giấy phép | [[01_Licensing_VI\|Điều khoản dịch vụ xin giấy phép]], [[01_Licensing_EN\|bản tiếng Anh]] |
 | [[03_Bang_gia_Ke_toan_va_thue\|OBK-DM-KT]] | Kế toán và thuế | 44 | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] Kế toán và thuế | [[02_Accounting_Tax_VI\|Điều khoản dịch vụ kế toán và thuế]], [[02_Accounting_Tax_EN\|bản tiếng Anh]] |
-| [[04_Bang_gia_Lao_dong_va_giay_to_nguoi_nuoc_ngoai\|OBK-DM-LD]] | Lao động và giấy tờ cho người nước ngoài | 12 | [[05_OBK-SOP-LD_Lao_dong_va_tien_luong\|OBK-SOP-LD]] Lao động và tiền lương | [[03_HR_Payroll_VI\|Điều khoản dịch vụ nhân sự]], [[03_HR_Payroll_EN\|bản tiếng Anh]] |
-| [[05_Bang_gia_Dich_vu_phap_ly_va_so_huu_tri_tue\|OBK-DM-LS]] | Pháp lý và sở hữu trí tuệ | 45 | [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] Dịch vụ pháp lý | [[04_Legal_Services_VI\|Điều khoản dịch vụ pháp lý]], [[04_Legal_Services_EN\|bản tiếng Anh]] |
-| [[06_Bang_gia_Chu_ky_so_va_hoa_don_dien_tu\|OBK-DM-CKS]] | Chữ ký số, hóa đơn điện tử và hợp đồng điện tử | 88 | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] Kế toán và thuế | [[02_Accounting_Tax_VI\|Điều 3.3, chỉ phủ hóa đơn điện tử]]. Chữ ký số và hợp đồng điện tử chưa có tài liệu điều khoản dịch vụ cụ thể |
-| [[07_Bang_gia_Dich_vu_o_nuoc_ngoai\|OBK-DM-NN]] | Dịch vụ ở nước ngoài (tùy biến) | 6 | [[04_OBK-SOP-LIC_Giay_phep\|OBK-SOP-LIC]] LIC-22 | Dịch vụ tùy biến qua đối tác nước sở tại, thỏa thuận riêng từng vụ việc |
-| [[08_Hang_muc_ghi_nhan_rieng\|OBK-DM-NG]] | Hạng mục ghi nhận riêng, ngoài danh mục dịch vụ | 105 | không áp dụng | theo hợp đồng của từng vụ việc |
+| [[04_Bang_gia_Lao_dong_va_giay_to_nguoi_nuoc_ngoai\|OBK-DM-LD]] | Lao động và giấy tờ cho người nước ngoài | 15 | [[05_OBK-SOP-LD_Lao_dong_va_tien_luong\|OBK-SOP-LD]] Lao động và tiền lương | [[03_HR_Payroll_VI\|Điều khoản dịch vụ nhân sự]], [[03_HR_Payroll_EN\|bản tiếng Anh]] |
+| [[05_Bang_gia_Dich_vu_phap_ly_va_so_huu_tri_tue\|OBK-DM-LS]] | Pháp lý và sở hữu trí tuệ | 48 | [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] Dịch vụ pháp lý | [[04_Legal_Services_VI\|Điều khoản dịch vụ pháp lý]], [[04_Legal_Services_EN\|bản tiếng Anh]] |
+| [[06_Bang_gia_Chu_ky_so_va_hoa_don_dien_tu\|OBK-DM-CKS]] | Chữ ký số, hóa đơn điện tử và hợp đồng điện tử | 90 | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] Kế toán và thuế | [[02_Accounting_Tax_VI\|Điều 3.3, chỉ phủ hóa đơn điện tử]]. Chữ ký số và hợp đồng điện tử chưa có tài liệu điều khoản dịch vụ cụ thể |
+| [[07_Bang_gia_Dich_vu_o_nuoc_ngoai\|OBK-DM-NN]] | Dịch vụ ở nước ngoài | 6 | [[04_OBK-SOP-LIC_Giay_phep\|OBK-SOP-LIC]] Giấy phép | Chưa có tài liệu điều khoản dịch vụ cụ thể cho dịch vụ thực hiện ở nước ngoài |
+| [[08_Hang_muc_ghi_nhan_rieng\|OBK-DM-NG]] | Hạng mục ghi nhận riêng, ngoài danh mục dịch vụ | 103 | không áp dụng | theo hợp đồng của từng vụ việc |
 
 ---
 
@@ -98,4 +98,4 @@ Hai cột giá lấy nguyên giá trị của hệ thống danh mục sản ph�
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 28/09/2026 | R.1.1.0 | Cập nhật tổng phổ 372 mã SKU, đồng bộ 63 mã SKU chuẩn hóa mới và bộ gói đối tác Partner Core, Growth, Prime |

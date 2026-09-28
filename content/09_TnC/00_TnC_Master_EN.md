@@ -2,11 +2,11 @@
 title: "MASTER TERMS & CONDITIONS OF SERVICE (MASTER T&C)"
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 language: "en"
 distribution: "Khách hàng"
-previous_version: "R.1.0.0"
+previous_version: "R.1.1.0"
 tags:
   - loai/tnc
 ---
@@ -19,7 +19,7 @@ Head office: Floor 2, 06 Tran Phu Street, Hai Chau Ward, Da Nang, Vietnam
 HCMC office: 15 Hoang Ke Viem, Bay Hien Ward, Ho Chi Minh City, Vietnam
 Da Nang office: No. 54 Khue My Dong 7 Street, Ngu Hanh Son Ward, Da Nang, Vietnam
 
-**Version:** R.1.0.0 (VI-EN) · **Updated:** 27 September 2026
+**Version:** R.1.1.0 (VI-EN) · **Updated:** 27 September 2026
 
 ---
 
@@ -170,7 +170,7 @@ Details of how oBacker collects, uses, shares, and protects personal data (inclu
 
 **(c) Mixed fault.** Where the fault originates from both Parties, the Parties jointly clarify it and allocate responsibility in proportion to fault.
 
-**9.3. Aggregate limitation of liability.** Apart from the administrative penalties and late-payment surcharges that oBacker bears directly under Sections 9.2(a) and 9.2(b)(i), oBacker's total compensation for any other damage arising under the Agreement **does not exceed the total Service Fees** the Client has paid under the corresponding Order Form.
+**9.3. Aggregate limitation of liability.** Apart from the administrative penalties and late-payment surcharges that oBacker bears directly under Sections 9.2(a) and 9.2(b)(i), oBacker's total compensation for any other damage arising under the Agreement **does not exceed the total Service Fees** the Client has actually paid to oBacker in the last 03 months under the corresponding Order Form.
 
 **9.4. oBacker is not responsible for:**
 
@@ -239,17 +239,23 @@ The workload and fees for Accounting services are determined by the number of Tr
 - **One Transaction equals one journal entry recorded in the accounting books**, corresponding to one valid purchase/sales invoice, **OR** one independent line item on a bank statement.
 - **Support policy (payroll batch grouping):** For journal entries relating to monthly salary payments to employees, if payment is made in **a single batch (batch payment)**, oBacker groups them and counts them together as **one Transaction**, rather than counting by the number of employees paid.
 
-The Transactions/month threshold for each package is stated in the Order Form. When the business exceeds the threshold, oBacker proactively notifies the Client and proposes an upgrade; during the transition it still processes the full workload but an adjustment fee may apply as agreed.
+The Transactions/month threshold for each package is stated in the Order Form. Periodic partner retainer packages (Partner Core, Partner Growth, Partner Prime) apply transaction volume quotas and a Fair Use Policy (FUP). Partner Growth applies a hard ceiling of 1,500 transactions/month; Partner Prime applies tailored volume blocks (1,500 to 7,000+ transactions/month). All overage fees and volume block extensions are reconciled and invoiced on a monthly post-billing schedule.
 
 ## Article 16. Accounting & Tax Services; PL-KT
 
 Accounting & Tax Services are governed in detail by **PL-KT**. In summary:
 
-- **Accounting:** bookkeeping under Vietnamese Accounting Standards (Circular No. 99/2025/TT-BTC or Circular No. 58/2026/TT-BTC depending on size), monthly closing, issuing monthly internal management reports and annual financial statements, and filing the financial statements on time.
+- **Accounting:** bookkeeping under Vietnamese Accounting Standards (Circular No. 99/2025/TT-BTC or Circular No. 58/2026/TT-BTC depending on entity type and size per the Order Form), monthly closing, issuing monthly internal management reports and annual financial statements, and filing the financial statements on time.
 - **Corporate tax:** filing and paying VAT, provisional payment and finalisation of CIT, **filing Foreign Contractor Tax (FCT) when it arises**; monitoring and notifying tax obligations.
 - **E-invoices:** setting up and activating the e-invoice system under Decree No. 254/2026/ND-CP and Circular No. 91/2026/TT-BTC.
 
-**Foreign Contractor Tax (FCT) filing:** FCT filing when the Client pays a foreign supplier (SaaS, advertising, hosting, royalties, etc.) is **included free in all packages, including the Starter package**. The Client must notify oBacker immediately through the assigned Account Manager or via email at contact@obacker.com when such a transaction arises, attaching the invoice/receipt, payment documents, and a service description. Legal basis for FCT: **Circular No. 69/2025/TT-BTC** Article 9 (value-added tax) and **Circular No. 20/2026/TT-BTC** Article 7 (corporate income tax).
+**Foreign Contractor Tax (FCT) filing:** FCT filing when the Client pays a foreign supplier (SaaS, advertising, hosting, royalties, etc.) is **included in all periodic partner retainer packages, including Partner Core, with a quota of up to 03 cross-border contracts per month**. From the 4th contract onward within the same month, an additional filing fee applies under the master service catalog (SKU `ADD-FCT-RETURN`). The Client must notify oBacker immediately through the assigned Account Manager or via email at contact@obacker.com when such a transaction arises, attaching the invoice/receipt, payment documents, and a service description. Legal basis for FCT: **Circular No. 69/2025/TT-BTC** Article 9 (value-added tax) and **Circular No. 20/2026/TT-BTC** Article 7 (corporate income tax).
+
+**Statutory Audit Independence and FDI Enterprises:** Pursuant to Article 15 of Decree No. 17/2012/ND-CP and Circular No. 186/2010/TT-BTC, 100% of foreign-invested enterprises (FDI) are legally required to undergo statutory annual audits of their Financial Statements to remit profits abroad. oBacker maintains bookkeeping under Circular 99/2025/TT-BTC for all FDI clients, operating independently from statutory audit firms and not collecting audit fees. The Client directly contracts and pays the independent audit firm; oBacker provides accounting working papers, trial balances, and audit liaison support.
+
+**On-site Tax Inspection Representation:** The standard retainer package covers remote audit defense via electronic tax portals. Where the tax authority issues a formal on-site audit decision at client premises and the Client requests senior oBacker staff to attend in person, the Parties execute an ad-hoc engagement under master catalog SKU `ADD-TAX-INSPECT`.
+
+**Q4 Contract Lock-in and March 15th Checkpoint:** Clients signing during Q4 commit to a minimum service term extending through December 31st of the following calendar year (minimum 5 quarters). If payment is split into installments, the second installment must be completed no later than March 15th of the following year. If unpaid by March 15th, oBacker submits provisional tax returns and Financial Statements based on available data prior to March 31st to prevent statutory late-filing fines; complete restatement and supplemental filings (01/KHBS) are finalized upon full settlement.
 
 **oBacker does not pay tax on the Client's behalf**, unless the Client requests linking the e-tax account to the bank account and has confirmed the return.
 

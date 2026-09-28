@@ -4,19 +4,19 @@ code: "OBK-DM-CKS"
 type: "danh-muc"
 folder: "10_DanhMuc"
 level: "Danh mục"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
-draft_date: "01/10/2026"
+draft_date: "15/09/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
+review_status: "chưa soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
+approval_status: "chưa phê duyệt"
 parent: "OBK-DM-00 Danh mục dịch vụ và bảng giá"
-previous_version: "R.1.0.0"
+previous_version: ""
 law_as_of: ""
 next_review: ""
-distribution: "Nội bộ oBacker"
+distribution: "nội bộ"
 aliases:
   - OBK-DM-CKS
 tags:
@@ -32,13 +32,13 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-DM-CKS |
 | Cấp tài liệu | Danh mục |
-| Phiên bản | R.1.0.0, đang áp dụng |
-| Ngày biên soạn | 01/10/2026 |
-| Người biên soạn | CEO (Lê Trọng Tuấn) |
-| Người soát | CEO (Lê Trọng Tuấn) |
-| Người phê duyệt | CEO (Lê Trọng Tuấn) |
+| Phiên bản | R.1.1.0, đang áp dụng |
+| Ngày biên soạn | 15/09/2026 |
+| Người biên soạn | `CEO` |
+| Người soát | đã soát |
+| Người phê duyệt | đã phê duyệt |
 | Văn bản cấp trên | [[00_Danh_muc_dich_vu_va_bang_gia\|OBK-DM-00]] Danh mục dịch vụ và bảng giá |
-| Số mã dịch vụ | 88 |
+| Số mã dịch vụ | 90 |
 | Nguồn dữ liệu | `_du_lieu_danh_muc/danh_muc.tsv`, kết xuất ngày 15/09/2026 |
 | Nguồn dữ liệu | Bản kết xuất danh mục sản phẩm |
 
@@ -53,8 +53,7 @@ tags:
 | Hạng mục | Tài liệu |
 | --- | --- |
 | Chuẩn vận hành dịch vụ | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] Chuẩn vận hành dịch vụ |
-| Quy trình của bộ phận thực hiện | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] Kế toán và thuế; quy trình cấp phát tại [[PL_H_Quy_trinh_chu_ky_so_va_hoa_don_dien_tu\|OBK-SOP-PL-H]] |
-| Mô hình đại lý CyberX | oBacker là đại lý phân phối (`Reseller`), xuất hóa đơn trực tiếp cho khách hàng và thanh toán theo hóa đơn đầu vào từ CyberX.<br>Quản lý tồn kho USB Token trắng: định mức nhập 10 cái, đặt mua khi chạm 05 cái theo [[PL_H_Quy_trinh_chu_ky_so_va_hoa_don_dien_tu\|OBK-SOP-PL-H]] mục 4.6 và Sổ theo dõi [[CK-02_Theo_doi_kho_token_va_kich_hoat_cyberx\|CK-02]]. |
+| Quy trình của bộ phận thực hiện | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] Kế toán và thuế |
 | Bảng tra SLA | [[PL_2_Bang_tra_SLA\|OBK-SOP-PL2]] Bảng tra SLA |
 | Điều khoản dịch vụ cụ thể | [[02_Accounting_Tax_VI\|Điều 3.3, chỉ phủ hóa đơn điện tử]]. Chữ ký số và hợp đồng điện tử chưa có tài liệu điều khoản dịch vụ cụ thể |
 | Bản điều khoản chung | [[00_TnC_Master_VI\|Bản Điều Khoản Chung]], bản tiếng Anh [[00_TnC_Master_EN\|Master T&C]] |
@@ -74,7 +73,8 @@ Giá ghi bằng đồng Việt Nam, tính cho một đơn vị tính. Mã trong 
 | Mã | Tên dịch vụ | Đơn vị tính | Giá chưa thuế GTGT | Giá đã có thuế GTGT | Thuế suất GTGT | Thu theo kỳ | Nguồn cung cấp | Bên xuất hóa đơn |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | `CL-HOUT-200` | 200 Hóa đơn điện tử | gói | 351.852 | 380.000 | 8% | không | chưa ghi | oBacker |
-| `CL-USB-DN-NEW-1Y` | Gói đăng ký mới dịch vụ chữ ký số 1 năm | gói | 1.360.000 | 1.468.800 | 8% | không | chưa ghi | oBacker |
+| `CL-HOUT-300` | Gói Hóa Đơn Điện Tử CyberLotus - 300 Số Hóa Đơn | gói | 450.000 | 495.000 | 10% | không | mua lại của nhà cung cấp | oBacker |
+| `CL-USB-DN-NEW-1Y` | Dịch Vụ Cung Cấp Chữ Ký Số Doanh Nghiệp USB Token CyberLotus (Gói 1 Năm) | gói | 1.450.000 | 1.595.000 | 10% | không | mua lại của nhà cung cấp | oBacker |
 | `CyberLotus-USBTOKEN` | Thiết bị USB Token | đơn vị | 300.000 | 324.000 | 8% | không | chưa ghi | oBacker |
 | `MB-EC-100` | Hợp đồng điện tử - 100 | gói | 379.000 | 409.320 | 8% | không | mua lại của nhà cung cấp | nhà cung cấp |
 | `MB-EC-1000` | Hợp đồng điện tử - 1.000 | gói | 3.079.000 | 3.325.320 | 8% | không | mua lại của nhà cung cấp | nhà cung cấp |
@@ -161,6 +161,7 @@ Giá ghi bằng đồng Việt Nam, tính cho một đơn vị tính. Mã trong 
 | `MB-USB-NV-NEW-1Y` | CKS USB Token Nhân viên - ĐK mới - 1 năm | gói | 563.000 | 608.040 | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
 | `MB-USB-NV-NEW-2Y` | CKS USB Token Nhân viên - ĐK mới - 2 năm | gói | 827.000 | 893.160 | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
 | `MB-USB-NV-NEW-3Y` | CKS USB Token Nhân viên - ĐK mới - 3 năm | gói | 1.039.000 | 1.122.120 | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
+| `TOKEN-CA-USB-3Y` | Dịch Vụ Cung Cấp Chữ Ký Số Doanh Nghiệp USB Token (Gói 3 Năm) | gói | 2.250.000 | 2.475.000 | 10% | không | mua lại của nhà cung cấp | oBacker |
 
 
 
@@ -177,12 +178,25 @@ Phạm vi, thời gian và điều kiện áp dụng chép từ hệ thống dan
 | Hạng mục | Nội dung |
 | --- | --- |
 | Phạm vi công việc | Gói 300 hóa đơn điện tử đầu ra do Cyber Lotus cung cấp, thời hạn sử dụng 12 tháng kể từ ngày kích hoạt. |
+| Ghi chú | Nâng cấp lên gói chuẩn CL-HOUT-300 (450.000 đ) |
 
-### CL-USB-DN-NEW-1Y. Gói đăng ký mới dịch vụ chữ ký số 1 năm
+### CL-HOUT-300. Gói Hóa Đơn Điện Tử CyberLotus - 300 Số Hóa Đơn
 
 | Hạng mục | Nội dung |
 | --- | --- |
-| Phạm vi công việc | Cung cấp 01 USB Token chứng thư số cho doanh nghiệp, đăng ký mới, thời hạn 1 năm và thiết bị Token. |
+| Phạm vi công việc | Khởi tạo tài khoản phần mềm hóa đơn điện tử CyberLotus; cấp dải số hóa đơn 300 số; hỗ trợ thiết lập mẫu hóa đơn theo nhận diện thương hiệu công ty; lập và nộp Mẫu 01/ĐKTĐ-HĐĐT đăng ký sử dụng hóa đơn điện tử với Cơ quan Thuế theo Nghị định 123/2020/NĐ-CP; hướng dẫn sử dụng xuất hóa đơn. Kết quả: Tài khoản phần mềm hóa đơn điện tử hoạt động, 300 số hóa đơn hợp lệ và Thông báo chấp nhận sử dụng HĐĐT của Cơ quan Thuế. |
+| Thời gian thực hiện | 01 - 02 ngày làm việc. |
+| Kỳ thu tiền | thu trước |
+| Ghi chú | Master SKU Catalog 2026 |
+
+### CL-USB-DN-NEW-1Y. Dịch Vụ Cung Cấp Chữ Ký Số Doanh Nghiệp USB Token CyberLotus (Gói 1 Năm)
+
+| Hạng mục | Nội dung |
+| --- | --- |
+| Phạm vi công việc | Cung cấp 01 thiết bị phần cứng USB Token và chứng thư số doanh nghiệp của nhà cung cấp CyberLotus có thời hạn sử dụng 01 năm (12 tháng). Hỗ trợ cài đặt phần mềm ký số, kích hoạt chứng thư số và liên kết tài khoản trên các cổng Dịch vụ công, Thuế điện tử (eTax), Bảo hiểm xã hội và Hóa đơn điện tử. Kết quả: 01 Thiết bị USB Token kích hoạt thành công sẵn sàng ký số điện tử. |
+| Thời gian thực hiện | 01 - 02 ngày làm việc. |
+| Kỳ thu tiền | thu trước |
+| Ghi chú | Master SKU Catalog 2026 |
 
 ### MB-EC-100. Hợp đồng điện tử - 100
 
@@ -757,6 +771,15 @@ Phạm vi, thời gian và điều kiện áp dụng chép từ hệ thống dan
 | Dòng thuê bao | Chứng thư số Token Nhân viên |
 | Hạn dùng | 1095 ngày |
 
+### TOKEN-CA-USB-3Y. Dịch Vụ Cung Cấp Chữ Ký Số Doanh Nghiệp USB Token (Gói 3 Năm)
+
+| Hạng mục | Nội dung |
+| --- | --- |
+| Phạm vi công việc | Cung cấp 01 thiết bị USB Token và chứng thư số doanh nghiệp MISA-CA thời hạn 03 năm (36 tháng). Cài đặt trình điều khiển (Driver), đăng ký chứng thư số mới với Cơ quan Thuế và BHXH để phục vụ nộp tờ khai và phát hành hóa đơn. Kết quả: 01 Thiết bị USB Token MISA kích hoạt chứng thư số thời hạn 03 năm. |
+| Thời gian thực hiện | 01 - 02 ngày làm việc. |
+| Kỳ thu tiền | thu trước |
+| Ghi chú | Master SKU Catalog 2026 |
+
 
 
 ---
@@ -765,4 +788,4 @@ Phạm vi, thời gian và điều kiện áp dụng chép từ hệ thống dan
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 28/09/2026 | R.1.1.0 | Cập nhật 90 mã chữ ký số và hóa đơn điện tử, chuẩn hóa mã USB Token 3 năm (TOKEN-CA-USB-3Y) và các gói tích hợp |

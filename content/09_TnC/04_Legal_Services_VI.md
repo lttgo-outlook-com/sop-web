@@ -2,11 +2,11 @@
 title: "ĐIỀU KHOẢN DỊCH VỤ PHÁP LÝ (PL-PL)"
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 language: "vi"
 distribution: "Khách hàng"
-previous_version: "R.1.0.0"
+previous_version: "R.1.1.0"
 tags:
   - loai/tnc
 ---
@@ -16,7 +16,7 @@ tags:
 *Điều Khoản Dịch Vụ Cụ Thể, là bộ phận không tách rời của Bản Điều Khoản Chung; Công ty Cổ phần oBacker*
 MST: 0402298185 · Tầng 2, 06 Trần Phú, Phường Hải Châu, Thành phố Đà Nẵng · contact@obacker.com
 
-**Phiên bản:** R.1.0.0 (VI-EN) · **Cập nhật:** 01/10/2026
+**Phiên bản:** R.1.1.0 (VI-EN) · **Cập nhật:** 01/10/2026
 
 > Đây là Điều Khoản Dịch Vụ Cụ Thể áp dụng cho Dịch Vụ Pháp Lý ("**Dịch Vụ**"), gồm bốn nhóm: (A) Tư vấn pháp lý và tư vấn thuế; (B) Rà soát và soạn thảo hợp đồng/văn bản; (C) Nghiên cứu theo yêu cầu; (D) Đăng ký quyền sở hữu trí tuệ (nhãn hiệu, bản quyền tác giả). Tài liệu áp dụng khi Dịch Vụ được ghi nhận tại Đơn Đặt Hàng; theo vụ việc, theo giờ, hoặc theo số lượt rà soát trong gói. **Nếu có khác biệt giữa Bản Điều Khoản Chung và tài liệu này, tài liệu này được ưu tiên áp dụng cho Dịch Vụ.**
 
@@ -120,7 +120,7 @@ oBacker giữ bản quyền và các quyền sở hữu trí tuệ đối với 
 
 ## Điều 9. Phí Dịch Vụ
 
-Phí Dịch Vụ được xác định theo Đơn Đặt Hàng; theo giờ, theo lượt rà soát, theo vụ việc hoặc theo phạm vi nghiên cứu. Khi nhu cầu vượt hạn mức trong gói (thêm giờ, thêm lượt, hợp đồng vượt 10 trang, soạn thảo mới, nghiên cứu theo yêu cầu, hoặc công việc ngoài phạm vi), oBacker thông báo trước và chỉ thực hiện sau khi Quý Khách chấp thuận. Chiết khấu dịch vụ bổ sung ngoài gói áp dụng theo gói (Scale 5%, Premium 10%) nếu được ghi tại Đơn Đặt Hàng.
+Phí Dịch Vụ được xác định theo Đơn Đặt Hàng; theo giờ, theo lượt rà soát, theo vụ việc hoặc theo phạm vi nghiên cứu. Đối với khách hàng đăng ký các gói đối tác định kỳ: gói Partner Growth được tích hợp miễn phí rà soát 02 hợp đồng thương mại/tháng (< 10 trang), 02 lần thay đổi nội dung ĐKKD/năm, soạn thảo 06 văn bản nội bộ/năm; gói Partner Prime được tích hợp rà soát 05 hợp đồng thương mại/tháng (< 10 trang), 04 lần thay đổi nội dung ĐKKD/năm, soạn thảo 12 văn bản nội bộ/năm. Khi nhu cầu vượt hạn mức trong gói (thêm giờ, thêm lượt, hợp đồng vượt 10 trang, soạn thảo mới, nghiên cứu theo yêu cầu, hoặc công việc ngoài phạm vi), oBacker thông báo trước và thực hiện theo Biểu giá chuẩn hóa Master SKU Catalog sau khi Quý Khách chấp thuận.
 
 ---
 
@@ -134,4 +134,4 @@ Phí Dịch Vụ được xác định theo Đơn Đặt Hàng; theo giờ, theo
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 01/10/2026 | R.1.1.0 | Tích hợp hạn mức rà soát hợp đồng và ĐKKD vào các gói đối tác Partner Growth/Prime, áp dụng Master SKU Catalog cho dịch vụ ngoài gói |

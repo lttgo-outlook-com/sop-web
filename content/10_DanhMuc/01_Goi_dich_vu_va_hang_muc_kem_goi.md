@@ -4,22 +4,23 @@ code: "OBK-DM-GOI"
 type: "danh-muc"
 folder: "10_DanhMuc"
 level: "Danh mục"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
-draft_date: "01/10/2026"
+draft_date: "15/09/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
+review_status: "chưa soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
+approval_status: "chưa phê duyệt"
 parent: "OBK-DM-00 Danh mục dịch vụ và bảng giá"
-previous_version: "R.1.0.0"
+previous_version: ""
 law_as_of: ""
 next_review: ""
-distribution: "Nội bộ oBacker"
+distribution: "nội bộ"
 aliases:
   - OBK-DM-GOI
   - obacker Grow
+  - obacker Partner
 tags:
   - loai/danh-muc
   - cap/danh-muc
@@ -33,14 +34,16 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-DM-GOI |
 | Cấp tài liệu | Danh mục |
-| Phiên bản | R.1.0.0, đang áp dụng |
-| Ngày biên soạn | 01/10/2026 |
-| Người biên soạn | CEO (Lê Trọng Tuấn) |
-| Người soát | CEO (Lê Trọng Tuấn) |
-| Người phê duyệt | CEO (Lê Trọng Tuấn) |
+| Phiên bản | R.1.1.0, đang áp dụng |
+| Ngày biên soạn | 15/09/2026 |
+| Người biên soạn | `CEO` |
+| Người soát | đã soát |
+| Người phê duyệt | đã phê duyệt |
 | Văn bản cấp trên | [[00_Danh_muc_dich_vu_va_bang_gia\|OBK-DM-00]] Danh mục dịch vụ và bảng giá |
-| Số gói back office obacker Grow | 20 |
-| Số hạng mục chỉ bán kèm gói | 16 |
+| Số gói đối tác obacker Partner | 5 |
+| Số phụ phí FUP và vận hành | 11 |
+| Số gói back office obacker Grow (chuyển tiếp) | 1 |
+| Số hạng mục kèm gói chuyển tiếp | 12 |
 | Nguồn dữ liệu | `_du_lieu_danh_muc/danh_muc.tsv`, kết xuất ngày 15/09/2026 |
 | Nguồn dữ liệu | Bản kết xuất danh mục sản phẩm |
 
@@ -50,82 +53,82 @@ tags:
 
 ---
 
-## 1. BỐN LOẠI QUAN HỆ GIỮA CÁC MÃ
+## 1. CÁC QUAN HỆ GIỮA CÁC MÃ GÓI VÀ HẠNG MỤC
 
-Sáu trang bảng giá xếp mã theo mảng dịch vụ và theo thứ tự chữ cái. Năm mục sau đây xếp cùng các mã đó theo quan hệ gói. Dữ liệu đầy đủ của một mã nằm ở trang bảng giá của mảng tương ứng.
+Sáu trang bảng giá xếp mã theo mảng dịch vụ và theo thứ tự chữ cái. Trang này tổng hợp các mã theo kiến trúc gói dịch vụ của oBacker. Dữ liệu đầy đủ của một mã nằm ở trang bảng giá của mảng tương ứng.
 
 | Loại | Nghĩa | Mục |
 | --- | --- | --- |
-| Gói back office | thuê bao trọn gói kế toán, thuế, và các nghĩa vụ định kỳ | mục 2 |
-| Hạng mục chỉ bán kèm gói | hệ thống danh mục sản phẩm ghi loại `addon` | mục 3 và mục 4 |
-| Gói thành lập doanh nghiệp | hệ thống danh mục sản phẩm ghi loại `bundle` | mục 4 |
-| Dòng thuê bao | nhiều mã cùng một dòng sản phẩm, khác nhau ở thời hạn | mục 5 |
+| Gói đối tác obacker Partner | gói đối tác kế toán, thuế và quản trị định kỳ chuẩn hóa | mục 2 |
+| Phụ phí FUP & vận hành | phụ phí vượt định mức giao dịch, lao động, ngân hàng hàng tháng | mục 3 |
+| Onboarding & Khắc phục sổ sách | phí chuyển đổi dữ liệu ban đầu và lập lại sổ sách quá khứ | mục 4 |
+| Gói thành lập doanh nghiệp | gói combo trọn gói thành lập pháp nhân và công cụ số | mục 5 |
+| Dòng thuê bao khác | nhiều mã cùng một dòng sản phẩm, khác nhau ở thời hạn | mục 6 |
+| Gói obacker Grow chuyển tiếp | gói cũ dành cho khách hàng hiện hữu đang trong hợp đồng | mục 7 |
 
 ---
 
-## 2. GÓI BACK OFFICE obacker Grow
+## 2. GÓI ĐỐI TÁC ĐỊNH KỲ obacker Partner
 
-Đơn vị tính của các gói là tháng, nên con số trong bảng là giá của một tháng, chưa có thuế giá trị gia tăng.
+Gói đối tác quản trị kế toán - thuế định kỳ theo năm tài chính (nghiệm thu theo tháng hoặc quý). Mức giá niêm yết tính theo năm, chưa bao gồm thuế giá trị gia tăng.
 
 
 
-### Doanh nghiệp trong nước
-
-| Hạng gói | Kỳ 2 tháng | Kỳ 3 tháng | Kỳ 6 tháng | Kỳ 12 tháng |
+| Mã | Tên hạng mục | Đơn vị tính | Giá chưa thuế GTGT | Giá đã có thuế GTGT |
 | --- | --- | --- | --- | --- |
-| Starter | `OBG-STR-STD-2M`<br>1.250.000 | `OBG-STR-STD-3M`<br>1.250.000 | `OBG-STR-STD-6M`<br>1.187.500 | `OBG-STR-STD-12M`<br>1.125.000 |
-| Scale | không có | `OBG-SCL-STD-3M`<br>5.000.000 | `OBG-SCL-STD-6M`<br>4.750.000 | `OBG-SCL-STD-12M`<br>4.500.000 |
-| Premium | không có | `OBG-PRM-STD-3M`<br>14.500.000 | `OBG-PRM-STD-6M`<br>13.775.000 | `OBG-PRM-STD-12M`<br>13.050.000 |
-
-### Doanh nghiệp có vốn nước ngoài
-
-| Hạng gói | Kỳ 2 tháng | Kỳ 3 tháng | Kỳ 6 tháng | Kỳ 12 tháng |
-| --- | --- | --- | --- | --- |
-| Starter | không có | `OBG-STR-FDI-3M`<br>1.750.000 | `OBG-STR-FDI-6M`<br>1.687.500 | `OBG-STR-FDI-12M`<br>1.625.000 |
-| Scale | không có | `OBG-SCL-FDI-3M`<br>5.500.000 | `OBG-SCL-FDI-6M`<br>5.250.000 | `OBG-SCL-FDI-12M`<br>5.000.000 |
-| Premium | không có | `OBG-PRM-FDI-3M`<br>15.000.000 | `OBG-PRM-FDI-6M`<br>14.275.000 | `OBG-PRM-FDI-12M`<br>13.550.000 |
-
-
-### Gói Enterprise
-
-| Mã | Tên gói | Đơn vị tính | Giá chưa thuế GTGT |
-| --- | --- | --- | --- |
-| `OBG-ENT` | obacker Grow - Gói Enterprise | tháng | chưa có giá |
-
-Gói Enterprise không có mức giá niêm yết. Mức giá của gói đó xác định theo từng khách.
+| `OBG-PTR-CORE` | Gói Dịch Vụ Đối Tác Kế Toán & Thuế Nền Tảng (Partner Core) - Doanh Nghiệp Việt Nam | năm | 27.000.000 | 29.700.000 |
+| `OBG-PTR-CORE-FDI` | Gói Dịch Vụ Đối Tác Kế Toán & Thuế Nền Tảng (Partner Core) - Doanh Nghiệp FDI | năm | 40.500.000 | 44.550.000 |
+| `OBG-PTR-GROWTH` | Gói Dịch Vụ Đối Tác Kế Toán & Quản Trị Tăng Trưởng (Partner Growth) - Doanh Nghiệp Việt Nam | năm | 84.000.000 | 92.400.000 |
+| `OBG-PTR-GROWTH-FDI` | Gói Dịch Vụ Đối Tác Kế Toán & Quản Trị Tăng Trưởng (Partner Growth) - Doanh Nghiệp FDI | năm | 113.400.000 | 124.740.000 |
+| `OBG-PTR-PRIME` | Gói Dịch Vụ Đối Tác Kế Toán & Quản Trị Chiến Lược May Đo (Partner Prime) | năm | 180.000.000 | 198.000.000 |
 
 
 
 ---
 
-## 3. HẠNG MỤC CHỈ BÁN KÈM GÓI obacker Grow
+## 3. PHỤ PHÍ VƯỢT ĐỊNH MỨC FUP VÀ VẬN HÀNH HÀNG THÁNG
 
-Cột Gói chứa hạng mục này ghi mã của gói bán kèm. Giá trị `chưa ghi` là hệ thống danh mục sản phẩm chưa điền cột đó.
+Các khoản phụ phí đối soát và phát hành hóa đơn định kỳ hàng tháng dương lịch (Post-billing).
 
 
 
 | Mã | Tên hạng mục | Đơn vị tính | Giá chưa thuế GTGT | Giá đã có thuế GTGT | Gói chứa hạng mục này |
 | --- | --- | --- | --- | --- | --- |
-| `OBG-ADD-ACC-TRANS` | Chuyển đổi dữ liệu kế toán | lần | chưa có giá | chưa có giá | chưa ghi |
-| `OBG-ADD-FLR` | Báo cáo vay/trả nợ nước ngoài | báo cáo/tháng | 500.000 | 540.000 | chưa ghi |
-| `OBG-ADD-HR5` | Add-on: Thêm 5 nhân sự tính lương | tháng | 675.000 | 729.000 | OBG-ENT |
-| `OBG-ADD-INV-FIX` | Xử lý hóa đơn sai sót | hóa đơn | 500.000 | 540.000 | OBG-STR-FDI-12M, OBG-STR-FDI-3M-KM, OBG-MTH1, OBG-STR-STD-3M-KM, OBG-STR-STD-6M, OBG-STR-STD-12M, OBG-PRM-STD-3M, OBG-ENT, OBG-STR-STD-3M, OBG-STR-STD-2M, OBG-PRM-STD-6M, OBG-PRM-STD-12M, OBG-SCL-STD-12M, OBG-SCL-STD-6M, OBG-SCL-STD-3M, OBG-SCL-FDI-6M, OBG-SCL-FDI-12M, OBG-SCL-FDI-3M, OBG-PRM-FDI-3M, OBG-PRM-FDI-6M, OBG-PRM-FDI-12M, OBG-STR-FDI-6M, OBG-STR-FDI-3M |
-| `OBG-ADD-INV1` | Add-on: Xuất 01 hóa đơn lẻ | hóa đơn | 150.000 | 162.000 | OBG-STR-FDI-3M-KM |
-| `OBG-ADD-INV5` | Add-on: Dịch vụ xuất hóa đơn - Gói 5 hóa đơn/tháng | tháng | 400.000 | 432.000 | OBG-STR-FDI-3M-KM |
-| `OBG-ADD-LEG2C` | Add-on: Tư vấn pháp lý, thuế - 2 giờ/tháng | gói | 1.700.000 | 1.836.000 | OBG-STR-FDI-6M |
-| `OBG-ADD-LEG2H` | Add-on: Tư vấn pháp lý, thuế - 2 giờ/tháng | tháng | 1.700.000 | 1.836.000 | OBG-ENT |
-| `OBG-ADD-PRF` | Thông báo chuyển lợi nhuận ra nước ngoài | báo cáo | 500.000 | 540.000 | chưa ghi |
-| `OBG-ADD-TPR` | Kê khai giao dịch & hồ sơ giá giao dịch liên kết | báo cáo | 500.000 | 540.000 | chưa ghi |
-| `OBG-ADD-TRX100` | Add-on: Thêm 100 giao dịch kế toán/tháng | tháng | 900.000 | 972.000 | OBG-ENT |
-| `OBG-MTH1` | Add-on: obacker Grow - Tháng đầu tiên thành lập công ty | tháng | 0 | 0 | OBG-STR-FDI-12M, OBG-STR-STD-6M, OBG-STR-STD-12M, OBG-PRM-STD-3M, OBG-ENT, OBG-STR-STD-3M, OBG-STR-STD-2M, OBG-PRM-STD-6M, OBG-PRM-STD-12M, OBG-SCL-STD-12M, OBG-SCL-STD-6M, OBG-SCL-STD-3M, OBG-SCL-FDI-6M, OBG-SCL-FDI-12M, OBG-SCL-FDI-3M, OBG-PRM-FDI-3M, OBG-PRM-FDI-6M, OBG-PRM-FDI-12M, OBG-STR-FDI-6M, OBG-STR-FDI-3M |
-| `OBG-STR-FDI-3M-KM` | Add-on: obacker Grow - Gói FDI Starter - 3 tháng đầu tiên | tháng | 875.000 | 945.000 | TRD-VOFC |
-| `OBG-STR-STD-3M-KM` | Add-on: obacker Grow - Gói Starter - 3 tháng đầu tiên | tháng | 0 | 0 | TRD-VOFC |
+| `ADD-BANK-ACC` | Phụ Phí Quản Lý Tài Khoản Ngân Hàng Ngoài Định Mức | tài khoản | 100.000 | 110.000 | OBG-PTR-CORE, OBG-PTR-GROWTH, OBG-PTR-PRIME |
+| `ADD-FCT-RETURN` | Phí Kê Khai Thuế Nhà Thầu Nước Ngoài (FCT) Phát Sinh Thêm | tờ khai | 500.000 | 550.000 | OBG-PTR-CORE, OBG-PTR-GROWTH, OBG-PTR-PRIME |
+| `ADD-PAYROLL-EMP` | Phụ Phí Tính Lương & Quản Lý BHXH Nhân Sự Ngoài Định Mức | người lao động | 100.000 | 110.000 | OBG-PTR-GROWTH, OBG-PTR-PRIME |
+| `ADD-PAYROLL-RUN` | Phụ Phí Kỳ Chạy Lương Bổ Sung Trong Tháng | kỳ | 500.000 | 550.000 | OBG-PTR-CORE, OBG-PTR-GROWTH, OBG-PTR-PRIME |
+| `ADD-RETAIL-UNIT` | Phụ Phí Nhập Liệu Đơn Bán Lẻ POS / TMĐT Không Bảng Kê Gom | đơn hàng | 5.000 | 5.500 | OBG-PTR-CORE, OBG-PTR-GROWTH, OBG-PTR-PRIME |
+| `ADD-TAX-INSPECT` | Dịch Vụ Cử Nhân Sự Tham Gia Thanh Tra Thuế Trực Tiếp Tại Trụ Sở | kỳ | 15.000.000 | 16.500.000 | OBG-PTR-CORE, OBG-PTR-GROWTH, OBG-PTR-PRIME |
+| `ADD-TXN-BLOCK-1000` | Phụ Phí Mở Rộng Định Mức: Block +1.000 Giao Dịch / Tháng | tháng | 2.500.000 | 2.750.000 | OBG-PTR-CORE, OBG-PTR-GROWTH, OBG-PTR-PRIME |
+| `ADD-TXN-BLOCK-1500` | Phụ Phí Mở Rộng Định Mức: Block +1.500 Giao Dịch / Tháng | tháng | 3.500.000 | 3.850.000 | OBG-PTR-CORE, OBG-PTR-GROWTH, OBG-PTR-PRIME |
+| `ADD-TXN-BLOCK-500` | Phụ Phí Mở Rộng Định Mức: Block +500 Giao Dịch / Tháng | tháng | 1.500.000 | 1.650.000 | OBG-PTR-CORE, OBG-PTR-GROWTH, OBG-PTR-PRIME |
+| `ADD-TXN-PRIME-OVER` | Phụ Phí Hóa Đơn Vượt Trần Gói Prime (Trên 7.000 Giao Dịch) | hóa đơn | 12.000 | 13.200 | OBG-PTR-PRIME |
+| `ADD-VOUCHER-RAW` | Phụ Phí Nhập Liệu Chứng Từ Giấy Scan / Thủ Công Vượt Định Mức | chứng từ | 10.000 | 11.000 | OBG-PTR-CORE, OBG-PTR-GROWTH, OBG-PTR-PRIME |
 
 
 
 ---
 
-## 4. GÓI THÀNH LẬP DOANH NGHIỆP
+## 4. ONBOARDING, RÀ SOÁT SỨC KHỎE VÀ KHẮC PHỤC SỔ SÁCH
+
+Dịch vụ thiết lập ban đầu, di trú dữ liệu và xử lý tồn đọng sổ sách quá khứ.
+
+
+
+| Mã | Tên hạng mục | Đơn vị tính | Giá chưa thuế GTGT | Giá đã có thuế GTGT | Gói chứa hạng mục này |
+| --- | --- | --- | --- | --- | --- |
+| `OBG-HEALTH-CHECK` | Dịch Vụ Rà Soát Sức Khỏe Sổ Sách & Đánh Giá Rủi Ro Tuân Thủ Quá Khứ | năm | 3.000.000 | 3.300.000 | chưa ghi |
+| `OBG-ONB-CORE` | Phí Thiết Lập Ban Đầu & Di Trú Dữ Liệu Kế Toán - Gói Core | lần | 3.000.000 | 3.300.000 | OBG-PTR-CORE |
+| `OBG-ONB-GROWTH` | Phí Thiết Lập Ban Đầu & Di Trú Dữ Liệu Kế Toán - Gói Growth & Prime | lần | 6.000.000 | 6.600.000 | OBG-PTR-GROWTH, OBG-PTR-PRIME |
+| `OBG-RESTATE-BASE` | Dịch Vụ Khắc Phục & Lập Lại Sổ Sách Kế Toán - Khung Cơ Sở | năm | 6.000.000 | 6.600.000 | chưa ghi |
+| `OBG-TAX-AMEND` | Dịch Vụ Lập Hồ Sơ Khai Bổ Sung Điều Chỉnh Thuế | tờ khai | 500.000 | 550.000 | chưa ghi |
+
+
+
+---
+
+## 5. GÓI THÀNH LẬP DOANH NGHIỆP TRỌN GÓI
 
 
 
@@ -133,12 +136,13 @@ Cột Gói chứa hạng mục này ghi mã của gói bán kèm. Giá trị `ch
 | --- | --- | --- | --- | --- | --- |
 | `OBL-CNC` | Đăng ký thành lập công ty tại Khu công nghệ cao (CNC) Đà Nẵng | gói | chưa có giá | chưa có giá | chưa ghi |
 | `OBL-CPX` | Thành lập công ty - Ngành nghề phức tạp | gói | chưa có giá | chưa có giá | MB-HOUT-300, MB-USB-DN-NEW-1Y, TRD-STAMP, MB-EC-50 |
-| `OBL-DI` | Thành lập công ty FDI - Gói Direct Invest | gói | 55.555.556 | 60.000.000 | chưa ghi |
+| `OBL-DI` | Combo Thành Lập Doanh Nghiệp FDI Mới Trọn Gói (Full Setup Direct Investment) | gói | 55.000.000 | 60.500.000 | F-FDI-NEW, CL-USB-DN-NEW-1Y, CL-HOUT-300 |
 | `OBL-DMST` | Đăng ký doanh nghiệp Đổi mới sáng tạo | gói | 15.000.000 | 16.200.000 | chưa ghi |
 | `OBL-IFC-UNCON` | Thành lập công ty thành viên IFC Đà Nẵng - Ngành nghề không điều kiện | gói | chưa có giá | chưa có giá | chưa ghi |
 | `OBL-IFC-UNCON-BP` | Thành lập công ty thành viên IFC Đà Nẵng - Ngành nghề không điều kiện - Kế hoạch kinh doanh | gói | chưa có giá | chưa có giá | chưa ghi |
-| `OBL-MA` | Thành lập công ty FDI - Gói M&A | gói | 46.296.296 | 50.000.000 | chưa ghi |
-| `OBL-STD` | Thành lập công ty nội địa - Gói Tiêu chuẩn | gói | 2.777.778 | 3.000.000 | chưa ghi |
+| `OBL-MA` | Combo Đăng Ký Góp Vốn M&A Doanh Nghiệp FDI Trọn Gói (Full Setup M&A) | gói | 45.000.000 | 49.500.000 | F-FDI-MA, CL-USB-DN-NEW-1Y, CL-HOUT-300 |
+| `OBL-STD` | Combo Thành Lập Công Ty Việt Nam Tiêu Chuẩn Trọn Gói | gói | 5.000.000 | 5.500.000 | F-VN-ERC, CL-USB-DN-NEW-1Y, CL-HOUT-300 |
+| `PER-WP-M-TRC` | Combo Giấy Phép Lao Động Lộ Trình Quản Lý & Thẻ Tạm Trú Trọn Gói | gói | 25.000.000 | 27.500.000 | PER-WP-NEW, PER-TRC |
 
 
 
@@ -155,7 +159,7 @@ Cột Gói chứa hạng mục này ghi mã của gói bán kèm. Giá trị `ch
 
 ---
 
-## 5. DÒNG THUÊ BAO KHÁC
+## 6. DÒNG THUÊ BAO KHÁC
 
 Mỗi dòng thuê bao gồm nhiều mã khác nhau ở thời hạn.
 
@@ -255,7 +259,44 @@ Mỗi dòng thuê bao gồm nhiều mã khác nhau ở thời hạn.
 
 ---
 
-## 6. HẠNG MỤC CÓ GHI THÀNH PHẦN
+## 7. GÓI BACK OFFICE obacker Grow (CHUYỂN TIẾP)
+
+Áp dụng cho khách hàng hiện hữu đang thực hiện hợp đồng. Không áp dụng cho khách hàng ký mới.
+
+
+
+
+
+### Gói Enterprise
+
+| Mã | Tên gói | Đơn vị tính | Giá chưa thuế GTGT |
+| --- | --- | --- | --- |
+| `OBG-ENT` | obacker Grow - Gói Enterprise | tháng | chưa có giá |
+
+Gói Enterprise không có mức giá niêm yết. Mức giá của gói đó xác định theo từng khách.
+
+### Hạng mục kèm gói obacker Grow chuyển tiếp
+
+| Mã | Tên hạng mục | Đơn vị tính | Giá chưa thuế GTGT | Giá đã có thuế GTGT | Gói chứa hạng mục này |
+| --- | --- | --- | --- | --- | --- |
+| `OBG-ADD-ACC-TRANS` | Chuyển đổi dữ liệu kế toán | lần | chưa có giá | chưa có giá | chưa ghi |
+| `OBG-ADD-FLR` | Báo cáo vay/trả nợ nước ngoài | báo cáo/tháng | 500.000 | 540.000 | chưa ghi |
+| `OBG-ADD-HR5` | Add-on: Thêm 5 nhân sự tính lương | tháng | 675.000 | 729.000 | OBG-ENT |
+| `OBG-ADD-INV-FIX` | Xử lý hóa đơn sai sót | hóa đơn | 500.000 | 540.000 | OBG-MTH1, OBG-ENT |
+| `OBG-ADD-INV1` | Add-on: Xuất 01 hóa đơn lẻ | hóa đơn | 150.000 | 162.000 | chưa ghi |
+| `OBG-ADD-INV5` | Add-on: Dịch vụ xuất hóa đơn - Gói 5 hóa đơn/tháng | tháng | 400.000 | 432.000 | chưa ghi |
+| `OBG-ADD-LEG2C` | Add-on: Tư vấn pháp lý, thuế - 2 giờ/tháng | gói | 1.700.000 | 1.836.000 | chưa ghi |
+| `OBG-ADD-LEG2H` | Add-on: Tư vấn pháp lý, thuế - 2 giờ/tháng | tháng | 1.700.000 | 1.836.000 | OBG-ENT |
+| `OBG-ADD-PRF` | Thông báo chuyển lợi nhuận ra nước ngoài | báo cáo | 500.000 | 540.000 | chưa ghi |
+| `OBG-ADD-TPR` | Kê khai giao dịch & hồ sơ giá giao dịch liên kết | báo cáo | 500.000 | 540.000 | chưa ghi |
+| `OBG-ADD-TRX100` | Add-on: Thêm 100 giao dịch kế toán/tháng | tháng | 900.000 | 972.000 | OBG-ENT |
+| `OBG-MTH1` | Add-on: obacker Grow - Tháng đầu tiên thành lập công ty | tháng | 0 | 0 | OBG-ENT |
+
+
+
+---
+
+## 8. HẠNG MỤC CÓ GHI THÀNH PHẦN
 
 Danh sách mọi mã có ghi hạng mục thành phần trong hệ thống danh mục sản phẩm.
 
@@ -266,6 +307,10 @@ Danh sách mọi mã có ghi hạng mục thành phần trong hệ thống danh 
 | `OBL-ADD-BH` | Add-on: Bảo hộ nhãn hiệu | gói | 4.000.000 | 4.320.000 | IP-TM-SEARCH, IP-TM-REG-1 |
 | `OBL-ADD-NCC` | Add-on: Nâng cấp Làm việc từ xa | gói | 5.972.000 | 6.540.880 | MB-TT-DN-1Y, TRD-VOFC, TRD-SIGN |
 | `OBL-CPX` | Thành lập công ty - Ngành nghề phức tạp | gói | chưa có giá | chưa có giá | MB-HOUT-300, MB-USB-DN-NEW-1Y, TRD-STAMP, MB-EC-50 |
+| `OBL-DI` | Combo Thành Lập Doanh Nghiệp FDI Mới Trọn Gói (Full Setup Direct Investment) | gói | 55.000.000 | 60.500.000 | F-FDI-NEW, CL-USB-DN-NEW-1Y, CL-HOUT-300 |
+| `OBL-MA` | Combo Đăng Ký Góp Vốn M&A Doanh Nghiệp FDI Trọn Gói (Full Setup M&A) | gói | 45.000.000 | 49.500.000 | F-FDI-MA, CL-USB-DN-NEW-1Y, CL-HOUT-300 |
+| `OBL-STD` | Combo Thành Lập Công Ty Việt Nam Tiêu Chuẩn Trọn Gói | gói | 5.000.000 | 5.500.000 | F-VN-ERC, CL-USB-DN-NEW-1Y, CL-HOUT-300 |
+| `PER-WP-M-TRC` | Combo Giấy Phép Lao Động Lộ Trình Quản Lý & Thẻ Tạm Trú Trọn Gói | gói | 25.000.000 | 27.500.000 | PER-WP-NEW, PER-TRC |
 
 
 
@@ -275,4 +320,4 @@ Danh sách mọi mã có ghi hạng mục thành phần trong hệ thống danh 
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 28/09/2026 | R.1.1.0 | Hợp nhất kiến trúc ba gói đối tác Partner Core, Partner Growth, Partner Prime, bổ sung gói FUP Add-on và chính sách trần 1.500 chứng từ/tháng |

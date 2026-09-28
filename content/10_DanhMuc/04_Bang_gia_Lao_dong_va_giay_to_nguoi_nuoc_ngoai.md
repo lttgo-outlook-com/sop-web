@@ -4,19 +4,19 @@ code: "OBK-DM-LD"
 type: "danh-muc"
 folder: "10_DanhMuc"
 level: "Danh mục"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
-draft_date: "01/10/2026"
+draft_date: "15/09/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
+review_status: "chưa soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
+approval_status: "chưa phê duyệt"
 parent: "OBK-DM-00 Danh mục dịch vụ và bảng giá"
-previous_version: "R.1.0.0"
+previous_version: ""
 law_as_of: ""
 next_review: ""
-distribution: "Nội bộ oBacker"
+distribution: "nội bộ"
 aliases:
   - OBK-DM-LD
 tags:
@@ -32,13 +32,13 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-DM-LD |
 | Cấp tài liệu | Danh mục |
-| Phiên bản | R.1.0.0, đang áp dụng |
-| Ngày biên soạn | 01/10/2026 |
-| Người biên soạn | CEO (Lê Trọng Tuấn) |
-| Người soát | CEO (Lê Trọng Tuấn) |
-| Người phê duyệt | CEO (Lê Trọng Tuấn) |
+| Phiên bản | R.1.1.0, đang áp dụng |
+| Ngày biên soạn | 15/09/2026 |
+| Người biên soạn | `CEO` |
+| Người soát | đã soát |
+| Người phê duyệt | đã phê duyệt |
 | Văn bản cấp trên | [[00_Danh_muc_dich_vu_va_bang_gia\|OBK-DM-00]] Danh mục dịch vụ và bảng giá |
-| Số mã dịch vụ | 12 |
+| Số mã dịch vụ | 15 |
 | Nguồn dữ liệu | `_du_lieu_danh_muc/danh_muc.tsv`, kết xuất ngày 15/09/2026 |
 | Nguồn dữ liệu | Bản kết xuất danh mục sản phẩm |
 
@@ -77,13 +77,16 @@ Giá ghi bằng đồng Việt Nam, tính cho một đơn vị tính. Mã trong 
 | `BHXH-ACC-MGMT` | Đăng ký tài khoản BHXH - Người quản lý doanh nghiệp | tài khoản | 500.000 | 540.000 | 8% | không | oBacker tự thực hiện | oBacker |
 | `BHXH-ACC-STD` | Đăng ký tài khoản BHXH doanh nghiệp - Cơ bản | tài khoản | 500.000 | 540.000 | 8% | không | oBacker tự thực hiện | oBacker |
 | `PER-CRIME-RCRD` | Xin Lý lịch Tư pháp | hồ sơ | 1.000.000 | 1.080.000 | 8% | không | chưa ghi | nhà cung cấp |
-| `PER-EVISA` | Xin E-Visa Gấp | gói | 5.200.000 | 5.616.000 | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
-| `PER-TRC` | Xin Thẻ tạm trú | gói | 12.100.000 | 13.068.000 | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
+| `PER-EVISA` | Dịch Vụ Xin Cấp Thị Thực Điện Tử (E-Visa) - Xử Lý Khẩn Cấp | gói | 5.200.000 | 5.720.000 | 10% | không | oBacker tự thực hiện | oBacker |
+| `PER-TRC` | Dịch Vụ Xin Cấp Thẻ Tạm Trú Cho Người Nước Ngoài (Thời Hạn 2 - 5 Năm) | gói | 12.000.000 | 13.200.000 | 10% | không | oBacker tự thực hiện | oBacker |
 | `PER-VISA` | Xin Visa Lao động | gói | chưa có giá | chưa có giá | chưa ghi | không | thuê đơn vị bên ngoài thực hiện | oBacker |
-| `PER-VISA-REG` | Xin E-Visa (Thông Thường) | hồ sơ | 2.400.000 | 2.592.000 | 8% | không | chưa ghi | oBacker |
+| `PER-VISA-EXEMPT-5Y` | Dịch Vụ Xin Cấp Giấy Miễn Thị Thực 5 Năm Cho Người Nước Ngoài | gói | 6.500.000 | 7.150.000 | 10% | không | oBacker tự thực hiện | oBacker |
+| `PER-VISA-REG` | Dịch Vụ Xin Cấp Thị Thực Điện Tử (E-Visa) - Xử Lý Tiêu Chuẩn | gói | 2.400.000 | 2.640.000 | 10% | không | oBacker tự thực hiện | oBacker |
 | `PER-WP` | Xin Giấy phép lao động Work Permit | gói | chưa có giá | chưa có giá | chưa ghi | không | thuê đơn vị bên ngoài thực hiện | oBacker |
-| `PER-WP-M-TRC` | Xin Giấy phép lao động - Lộ trình Quản lý + Xin Thẻ tạm trú | gói | 25.000.000 | 27.000.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `PER-WP-UPD` | Cập nhật Giấy phép lao động - Hộ chiếu mới | gói | 3.200.000 | 3.456.000 | 8% | không | chưa ghi | oBacker |
+| `PER-WP-M-TRC` | Combo Giấy Phép Lao Động Lộ Trình Quản Lý & Thẻ Tạm Trú Trọn Gói | gói | 25.000.000 | 27.500.000 | 10% | không | oBacker tự thực hiện | oBacker |
+| `PER-WP-NEW` | Dịch Vụ Xin Cấp Mới Giấy Phép Lao Động Cho Người Nước Ngoài (Trọn Gói) | gói | 9.000.000 | 9.900.000 | 10% | không | oBacker tự thực hiện | oBacker |
+| `PER-WP-REN` | Dịch Vụ Gia Hạn / Cấp Lại Giấy Phép Lao Động Cho Người Nước Ngoài | gói | 7.000.000 | 7.700.000 | 10% | không | oBacker tự thực hiện | oBacker |
+| `PER-WP-UPD` | Dịch Vụ Cập Nhật Số Hộ Chiếu Mới Trên Giấy Phép Lao Động | gói | 3.200.000 | 3.520.000 | 10% | không | oBacker tự thực hiện | oBacker |
 
 
 
@@ -130,22 +133,23 @@ Phạm vi, thời gian và điều kiện áp dụng chép từ hệ thống dan
 | Phạm vi công việc | Phạm vi công việc: Hỗ trợ liên hệ VPCC để làm uỷ quyền, xin Lý lịch tư pháp tại Công an.<br>Kết quả: 01 Lý lịch tư pháp |
 | Kỳ thu tiền | thu trước |
 
-### PER-EVISA. Xin E-Visa Gấp
+### PER-EVISA. Dịch Vụ Xin Cấp Thị Thực Điện Tử (E-Visa) - Xử Lý Khẩn Cấp
 
 | Hạng mục | Nội dung |
 | --- | --- |
-| Phạm vi công việc | 1. Phạm vi dịch vụ<br>Tư vấn và hỗ trợ thực hiện thủ tục xin cấp Thị thực điện tử (E-visa) cho khách nước ngoài nhập cảnh vào Việt Nam, bao gồm:<br> Tiếp nhận và kiểm tra: Thu thập thông tin, hình ảnh hộ chiếu và ảnh thẻ của khách hàng; đánh giá tính hợp lệ của hồ sơ theo quy định hiện hành;<br> Khai thác và xử lý dữ liệu: Tiến hành kê khai tờ khai đề nghị cấp thị thực điện tử chính xác trên hệ thống của Cục Quản lý xuất nhập cảnh;<br> Nộp hồ sơ và thanh toán: Thực hiện nộp hồ sơ, đóng lệ phí cấp visa cho cơ quan có thẩm quyền và theo dõi tiến độ xét duyệt sát sao;<br> Xử lý khẩn (nếu có): Can thiệp, thúc đẩy tiến độ xử lý hồ sơ để đảm bảo nhận kết quả theo đúng thời gian cam kết (Trong vòng 1 ngày làm việc)<br><br>2. Kết quả bàn giao cho khách hàng<br> File Thị thực điện tử (E-visa): File định dạng PDF (được cấp bởi Cục Quản lý xuất nhập cảnh Việt Nam) có đầy đủ mã định danh hồ sơ và mã QR để khách hàng in ra và sử dụng khi làm thủ tục nhập cảnh |
-| Thời gian thực hiện | 1 working day |
+| Phạm vi công việc | Quy trình xử lý hồ sơ khẩn cấp đối với khách quốc tế cần thị thực gấp để nhập cảnh. Tiếp nhận hồ sơ ưu tiên, kê khai và xử lý nghiệp vụ can thiệp để thúc đẩy tiến độ xét duyệt trực tiếp tại Cục Quản lý Xuất nhập cảnh trong vòng 24 giờ. Kết quả: File Thị thực điện tử (E-visa) PDF hoàn chỉnh bàn giao kịp thời hạn chuyến bay. |
+| Thời gian thực hiện | 01 ngày làm việc (24 giờ). |
 | Kỳ thu tiền | thu trước |
-| Ghi chú | Giá USD x Tỷ giá 27,000 |
+| Ghi chú | Master SKU Catalog 2026 |
 
-### PER-TRC. Xin Thẻ tạm trú
+### PER-TRC. Dịch Vụ Xin Cấp Thẻ Tạm Trú Cho Người Nước Ngoài (Thời Hạn 2 - 5 Năm)
 
 | Hạng mục | Nội dung |
 | --- | --- |
-| Phạm vi công việc | Thực hiện thủ tục xin cấp Thẻ tạm trú (TRC) cho người nước ngoài làm việc, đầu tư hoặc đoàn tụ gia đình tại Việt Nam. |
+| Phạm vi công việc | Thực hiện thủ tục xin cấp Thẻ tạm trú diện Lao động (LĐ1, LĐ2), Đầu tư (ĐT1, ĐT2, ĐT3) hoặc Thăm thân (TT). Soạn thảo hồ sơ bảo lãnh (NA16, NA6, NA8), giấy tờ chứng minh pháp lý; nộp hồ sơ và trực tiếp làm việc tại Cục Quản lý Xuất nhập cảnh hoặc Phòng QLXNC Công an tỉnh/thành phố. Kết quả: Thẻ tạm trú (TRC) dạng thẻ nhựa do Cục Quản lý Xuất nhập cảnh cấp. |
+| Thời gian thực hiện | 07 - 10 ngày làm việc. |
 | Kỳ thu tiền | thu trước |
-| Ghi chú | Giá USD x Tỷ giá 27,000 |
+| Ghi chú | Master SKU Catalog 2026 |
 
 ### PER-VISA. Xin Visa Lao động
 
@@ -155,13 +159,23 @@ Phạm vi, thời gian và điều kiện áp dụng chép từ hệ thống dan
 | Kỳ thu tiền | thu trước |
 | Ghi chú | Giá USD x Tỷ giá 27,000 |
 
-### PER-VISA-REG. Xin E-Visa (Thông Thường)
+### PER-VISA-EXEMPT-5Y. Dịch Vụ Xin Cấp Giấy Miễn Thị Thực 5 Năm Cho Người Nước Ngoài
 
 | Hạng mục | Nội dung |
 | --- | --- |
-| Phạm vi công việc | 1. Phạm vi dịch vụ<br>Tư vấn và hỗ trợ thực hiện thủ tục xin cấp Thị thực điện tử (E-visa) cho khách nước ngoài nhập cảnh vào Việt Nam, bao gồm:<br> Tiếp nhận và kiểm tra: Thu thập thông tin, hình ảnh hộ chiếu và ảnh thẻ của khách hàng; đánh giá tính hợp lệ của hồ sơ theo quy định hiện hành;<br> Khai thác và xử lý dữ liệu: Tiến hành kê khai tờ khai đề nghị cấp thị thực điện tử chính xác trên hệ thống của Cục Quản lý xuất nhập cảnh;<br> Nộp hồ sơ và thanh toán: Thực hiện nộp hồ sơ, đóng lệ phí cấp visa cho cơ quan có thẩm quyền và theo dõi tiến độ xét duyệt sát sao.<br><br>2. Kết quả bàn giao cho khách hàng<br> File Thị thực điện tử (E-visa): File định dạng PDF (được cấp bởi Cục Quản lý xuất nhập cảnh Việt Nam) có đầy đủ mã định danh hồ sơ và mã QR để khách hàng in ra và sử dụng khi làm thủ tục nhập cảnh |
-| Thời gian thực hiện | 5-7 working days |
+| Phạm vi công việc | Áp dụng cho người Việt Nam định cư ở nước ngoài hoặc người nước ngoài là vợ, chồng, con của công dân Việt Nam/người Việt Nam định cư ở nước ngoài. Rà soát giấy tờ chứng minh quan hệ nhân thân (Đăng ký kết hôn, Giấy khai sinh); dịch thuật công chứng; soạn tờ khai NA9; nộp hồ sơ tại Cục Quản lý Xuất nhập cảnh. Kết quả: Giấy miễn thị thực 5 năm dạng sổ hoặc dán trực tiếp vào hộ chiếu. |
+| Thời gian thực hiện | 07 - 10 ngày làm việc. |
 | Kỳ thu tiền | thu trước |
+| Ghi chú | Master SKU Catalog 2026 |
+
+### PER-VISA-REG. Dịch Vụ Xin Cấp Thị Thực Điện Tử (E-Visa) - Xử Lý Tiêu Chuẩn
+
+| Hạng mục | Nội dung |
+| --- | --- |
+| Phạm vi công việc | Tiếp nhận và kiểm tra tính hợp lệ của ảnh chân dung và mặt hộ chiếu; kê khai tờ khai đề nghị cấp thị thực điện tử chính xác trên hệ thống Cổng dịch vụ công xuất nhập cảnh; nộp lệ phí thị thực nhà nước; theo dõi tiến độ cấp phép. Kết quả: File Thị thực điện tử (E-visa) định dạng PDF có mã QR hợp lệ nhập cảnh Việt Nam. |
+| Thời gian thực hiện | 05 - 07 ngày làm việc. |
+| Kỳ thu tiền | thu trước |
+| Ghi chú | Master SKU Catalog 2026 |
 
 ### PER-WP. Xin Giấy phép lao động Work Permit
 
@@ -169,22 +183,44 @@ Phạm vi, thời gian và điều kiện áp dụng chép từ hệ thống dan
 | --- | --- |
 | Phạm vi công việc | Thực hiện thủ tục xin cấp Giấy phép lao động (Work Permit) cho người nước ngoài làm việc tại Việt Nam, bao gồm xin chấp thuận sử dụng lao động nước ngoài, lý lịch tư pháp, hợp pháp hóa lãnh sự bằng cấp. |
 | Kỳ thu tiền | thu trước |
-| Ghi chú | Giá USD x Tỷ giá 27,000 |
+| Ghi chú | Mã cũ, tách thành PER-WP-NEW (cấp mới 9tr) và PER-WP-REN (gia hạn 7tr) |
 
-### PER-WP-M-TRC. Xin Giấy phép lao động - Lộ trình Quản lý + Xin Thẻ tạm trú
-
-| Hạng mục | Nội dung |
-| --- | --- |
-| Phạm vi công việc | Thực hiện thủ tục xin cấp Giấy phép lao động - Lộ trình Quản lý (Work Permit - Managerial Track) cho người nước ngoài làm việc tại Việt Nam, bao gồm xin chấp thuận sử dụng lao động nước ngoài, lý lịch tư pháp, hợp pháp hóa lãnh sự bằng cấp.<br>Thực hiện thủ tục xin cấp Thẻ tạm trú (TRC) cho người nước ngoài làm việc, đầu tư hoặc đoàn tụ gia đình tại Việt Nam. |
-| Kỳ thu tiền | thu trước |
-| Ghi chú | Giá USD x Tỷ giá 27,000 + buffer (Đà Nẵng) |
-
-### PER-WP-UPD. Cập nhật Giấy phép lao động - Hộ chiếu mới
+### PER-WP-M-TRC. Combo Giấy Phép Lao Động Lộ Trình Quản Lý & Thẻ Tạm Trú Trọn Gói
 
 | Hạng mục | Nội dung |
 | --- | --- |
-| Phạm vi công việc | Cập nhật hộ chiếu mới lên giấy phép lao động. |
+| Phạm vi công việc | Kết hợp toàn bộ thủ tục của gói cấp mới Giấy phép lao động diện Nhà quản lý/Giám đốc điều hành (`PER-WP-NEW`) và thủ tục xin cấp Thẻ tạm trú 02 năm (`PER-TRC`). Xử lý trọn gói hồ sơ giải trình lao động nước ngoài, công chứng hợp pháp hóa văn bằng, nộp hồ sơ xuất nhập cảnh. Kết quả bàn giao: 01 Giấy phép lao động bản gốc và 01 Thẻ tạm trú 02 năm cho nhân sự quản lý ngoại kiều. |
+| Thời gian thực hiện | 30 - 45 ngày làm việc. |
 | Kỳ thu tiền | thu trước |
+| Hạng mục thành phần | PER-WP-NEW, PER-TRC |
+| Ghi chú | Master SKU Catalog 2026 |
+
+### PER-WP-NEW. Dịch Vụ Xin Cấp Mới Giấy Phép Lao Động Cho Người Nước Ngoài (Trọn Gói)
+
+| Hạng mục | Nội dung |
+| --- | --- |
+| Phạm vi công việc | - *Phạm vi dịch vụ:* Tư vấn chức danh công việc (chuyên gia, lao động kỹ thuật, nhà quản lý, giám đốc điều hành); soạn thảo và nộp Giải trình nhu cầu sử dụng lao động nước ngoài tại Sở LĐ-TB&XH trước tối thiểu 15 ngày; hướng dẫn khám sức khỏe và hợp pháp hóa lãnh sự văn bằng, kinh nghiệm; soạn thảo hồ sơ cấp phép và nộp trực tiếp tại cơ quan có thẩm quyền.<br>- *Kết quả công việc:* Văn bản chấp thuận nhu cầu sử dụng lao động nước ngoài của UBND/Sở LĐ-TB&XH; Bản gốc Giấy phép lao động (Work Permit) thời hạn tối đa 02 năm. |
+| Thời gian thực hiện | 20 - 30 ngày làm việc. |
+| Kỳ thu tiền | thu trước |
+| Ghi chú | Master SKU Catalog 2026 |
+
+### PER-WP-REN. Dịch Vụ Gia Hạn / Cấp Lại Giấy Phép Lao Động Cho Người Nước Ngoài
+
+| Hạng mục | Nội dung |
+| --- | --- |
+| Phạm vi công việc | Thực hiện thủ tục gia hạn Giấy phép lao động trước thời điểm hết hạn ít nhất 05 ngày nhưng không quá 45 ngày, hoặc cấp lại WP do bị mất, hỏng hoặc đổi tên doanh nghiệp. Soạn thảo hồ sơ giải trình tiếp tục sử dụng lao động và hồ sơ gia hạn nộp tại Sở LĐ-TB&XH. Kết quả: Bản gốc Giấy phép lao động được gia hạn mới (thời hạn tối đa 02 năm). |
+| Thời gian thực hiện | 15 - 20 ngày làm việc. |
+| Kỳ thu tiền | thu trước |
+| Ghi chú | Master SKU Catalog 2026 |
+
+### PER-WP-UPD. Dịch Vụ Cập Nhật Số Hộ Chiếu Mới Trên Giấy Phép Lao Động
+
+| Hạng mục | Nội dung |
+| --- | --- |
+| Phạm vi công việc | Thực hiện thủ tục điều chỉnh thông tin số hộ chiếu mới của người lao động nước ngoài trên Giấy phép lao động đang còn hiệu lực khi người lao động được cấp hộ chiếu mới. Soạn hồ sơ và nộp tại Sở LĐ-TB&XH. Kết quả: Văn bản đính chính hoặc Giấy phép lao động cập nhật thông tin hộ chiếu mới. |
+| Thời gian thực hiện | 07 - 10 ngày làm việc. |
+| Kỳ thu tiền | thu trước |
+| Ghi chú | Master SKU Catalog 2026 |
 
 
 
@@ -194,4 +230,4 @@ Phạm vi, thời gian và điều kiện áp dụng chép từ hệ thống dan
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 28/09/2026 | R.1.1.0 | Cập nhật 15 mã lao động và thị thực, bổ sung SKU giấy phép lao động cấp mới/gia hạn (PER-WP-NEW, PER-WP-REN) và chuẩn hóa phí thẻ tạm trú PER-TRC |

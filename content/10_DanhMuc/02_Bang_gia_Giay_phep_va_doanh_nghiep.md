@@ -4,19 +4,19 @@ code: "OBK-DM-GP"
 type: "danh-muc"
 folder: "10_DanhMuc"
 level: "Danh mục"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
-draft_date: "01/10/2026"
+draft_date: "15/09/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
+review_status: "chưa soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
+approval_status: "chưa phê duyệt"
 parent: "OBK-DM-00 Danh mục dịch vụ và bảng giá"
-previous_version: "R.1.0.0"
+previous_version: ""
 law_as_of: ""
 next_review: ""
-distribution: "Nội bộ oBacker"
+distribution: "nội bộ"
 aliases:
   - OBK-DM-GP
 tags:
@@ -32,13 +32,13 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-DM-GP |
 | Cấp tài liệu | Danh mục |
-| Phiên bản | R.1.0.0, đang áp dụng |
-| Ngày biên soạn | 01/10/2026 |
-| Người biên soạn | CEO (Lê Trọng Tuấn) |
-| Người soát | CEO (Lê Trọng Tuấn) |
-| Người phê duyệt | CEO (Lê Trọng Tuấn) |
+| Phiên bản | R.1.1.0, đang áp dụng |
+| Ngày biên soạn | 15/09/2026 |
+| Người biên soạn | `CEO` |
+| Người soát | đã soát |
+| Người phê duyệt | đã phê duyệt |
 | Văn bản cấp trên | [[00_Danh_muc_dich_vu_va_bang_gia\|OBK-DM-00]] Danh mục dịch vụ và bảng giá |
-| Số mã dịch vụ | 59 |
+| Số mã dịch vụ | 66 |
 | Nguồn dữ liệu | `_du_lieu_danh_muc/danh_muc.tsv`, kết xuất ngày 15/09/2026 |
 | Nguồn dữ liệu | Bản kết xuất danh mục sản phẩm |
 
@@ -73,35 +73,40 @@ Giá ghi bằng đồng Việt Nam, tính cho một đơn vị tính. Mã trong 
 | Mã | Tên dịch vụ | Đơn vị tính | Giá chưa thuế GTGT | Giá đã có thuế GTGT | Thuế suất GTGT | Thu theo kỳ | Nguồn cung cấp | Bên xuất hóa đơn |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | `AQUILA-001` | Lệ phí nhà nước sao y công chứng Hộ chiếu | gói | 126.000 | 126.000 | 0% | không | chưa ghi | nhà cung cấp |
-| `ATVSTP_DN` | Giấy chứng nhân an toàn vệ sinh thực phẩm | gói | 13.333.333 | 14.400.000 | 8% | không | chưa ghi | oBacker |
+| `ATVSTP_DN` | Dịch Vụ Xin Cấp Giấy Chứng Nhận Đủ Điều Kiện An Toàn Thực Phẩm | cơ sở | 14.000.000 | 15.400.000 | 10% | không | oBacker tự thực hiện | oBacker |
 | `DN-DVNQ-21` | HỒ SƠ HƯỞNG CHÍNH SÁCH VỀ THU NHẬP, LƯU TRÚ CHO CHUYÊN GIA, NHÀ KHOA HỌC TRÊN ĐỊA BÀN TP ĐÀ NẴNG (NQ 21) | gói | 10.000.000 | 10.800.000 | 8% | không | chưa ghi | oBacker |
 | `DN-DVNQ-23` | HỒ SƠ ĐỀ NGHỊ HỖ TRỢ SỬ DỤNG TÀI SẢN HẠ TẦNG TẠI KHU ICT1 (NQ 23) | gói | 15.000.000 | 16.200.000 | 8% | không | chưa ghi | oBacker |
-| `LCS-RETAIL` | Dịch vụ Hỗ trợ Xin Cấp Giấy phép Kinh doanh Bán lẻ (Gói Tiêu chuẩn) | gói | 25.000.000 | 27.000.000 | 8% | không | chưa ghi | oBacker |
+| `F-FDI-MA` | Dịch Vụ Đăng Ký Góp Vốn / Mua Cổ Phần Doanh Nghiệp FDI (Lộ Trình M&A) | gói | 25.000.000 | 27.500.000 | 10% | không | oBacker tự thực hiện | oBacker |
+| `F-FDI-NEW` | Dịch Vụ Thành Lập Doanh Nghiệp FDI Mới Hoàn Toàn (Lộ Trình Đầu Tư Trực Tiếp: IRC + ERC) | gói | 35.000.000 | 38.500.000 | 10% | không | oBacker tự thực hiện | oBacker |
+| `F-VN-ERC` | Dịch Vụ Thành Lập Công Ty Việt Nam Cơ Bản (ERC + Con Dấu) | gói | 1.850.000 | 2.035.000 | 10% | không | oBacker tự thực hiện | oBacker |
+| `LCS-RETAIL` | Dịch Vụ Xin Cấp Giấy Phép Kinh Doanh Hoạt Động Bán Lẻ Cho Doanh Nghiệp FDI | gói | 34.000.000 | 37.400.000 | 10% | không | oBacker tự thực hiện | oBacker |
 | `LICE-CLOSE-RO` | Dịch vụ Đóng văn phòng đại diện | gói | 4.000.000 | 4.320.000 | 8% | không | oBacker tự thực hiện | oBacker |
 | `LICE-DISSOLVE` | Dịch vụ giải thể công ty | gói | chưa có giá | chưa có giá | chưa ghi | không | oBacker tự thực hiện | oBacker |
+| `LICE-DISSOLVE-ACT` | Dịch Vụ Giải Thể Doanh Nghiệp Đang Hoạt Động (Đã Phát Sinh Doanh Thu) | gói | 5.000.000 | 5.500.000 | 10% | không | oBacker tự thực hiện | oBacker |
+| `LICE-DISSOLVE-DORM` | Dịch Vụ Giải Thể Doanh Nghiệp Chưa Phát Sinh Doanh Thu (Công Ty Trắng) | gói | 3.500.000 | 3.850.000 | 10% | không | oBacker tự thực hiện | oBacker |
 | `LICE-DISSOLVE-HKD` | Dịch vụ giải thể hộ kinh doanh | gói | chưa có giá | chưa có giá | chưa ghi | không | oBacker tự thực hiện | oBacker |
-| `LICE-EC-NOTIFY-MOIT` | Thông báo website TMĐT với Bộ Công Thương | gói | 2.000.000 | 2.160.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `LICE-EC-WEB-MOIT` | Đăng ký website TMĐT với Bộ Công Thương | gói | 40.000.000 | 43.200.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `LICE-EDU` | Xin Giấy phép Giáo dục | gói | 20.000.000 | 21.600.000 | 8% | không | oBacker tự thực hiện | oBacker |
+| `LICE-EC-NOTIFY-MOIT` | Dịch Vụ Thông Báo Website Thương Mại Điện Tử Bán Hàng Với Bộ Công Thương | website | 2.000.000 | 2.200.000 | 10% | không | oBacker tự thực hiện | oBacker |
+| `LICE-EC-WEB-MOIT` | Dịch Vụ Đăng Ký Thiết Lập Sàn Giao Dịch Thương Mại Điện Tử Với Bộ Công Thương | sàn | 40.000.000 | 44.000.000 | 10% | không | oBacker tự thực hiện | oBacker |
+| `LICE-EDU` | Dịch Vụ Xin Giấy Phép Hoạt Động Trung Tâm Đào Tạo / Giáo Dục | trung tâm | 20.000.000 | 22.000.000 | 10% | không | oBacker tự thực hiện | oBacker |
 | `LICE-ERC-AMEND-CAP` | Điều chỉnh ERC - Giảm vốn | gói | 2.000.000 | 2.160.000 | 8% | không | oBacker tự thực hiện | oBacker |
 | `LICE-ERC-AMEND-CODE` | Sửa Giấy chứng nhận đăng ký doanh nghiệp - Cập nhật ngành nghề đăng ký kinh doanh | gói | 1.000.000 | 1.080.000 | 8% | không | chưa ghi | oBacker |
 | `LICE-ERC-AMEND-FOUND` | Điều chỉnh cổ đông sáng lập | gói | 1.000.000 | 1.080.000 | 8% | không | oBacker tự thực hiện | oBacker |
 | `LICE-JOBSVC-NOTICE` | Thông báo hoạt động dịch vụ việc làm (Sở Nội vụ) | thủ tục | chưa có giá | chưa có giá | chưa ghi | không | chưa ghi | chưa ghi |
 | `LICE-LEGALIZE` | Hợp pháp hóa lãnh sự và hỗ trợ thủ tục công chứng dịch | gói | chưa có giá | chưa có giá | chưa ghi | không | thuê đơn vị bên ngoài thực hiện | oBacker |
-| `LICE-LIQUOR` | Xin Giấy phép kinh doanh rượu | gói | 20.000.000 | 21.600.000 | 8% | không | oBacker tự thực hiện | oBacker |
+| `LICE-LIQUOR` | Dịch Vụ Xin Cấp Giấy Phép Kinh Doanh Bán Lẻ Rượu | giấy phép | 20.000.000 | 22.000.000 | 10% | không | oBacker tự thực hiện | oBacker |
 | `LICE-NDIR-VN` | Cổ đông danh nghĩa (VN) | người/năm | chưa có giá | chưa có giá | chưa ghi | có | oBacker tự thực hiện | oBacker |
-| `LICE-PAUSE` | Dịch vụ xin Tạm Ngưng Hoạt Động | gói | 500.000 | 540.000 | 8% | không | oBacker tự thực hiện | oBacker |
+| `LICE-PAUSE` | Dịch Vụ Đăng Ký Tạm Ngưng Hoạt Động Kinh Doanh | gói | 1.000.000 | 1.100.000 | 10% | không | oBacker tự thực hiện | oBacker |
 | `LICE-PRESENT-TAX` | Hỗ trợ trình diện thuế lần đầu | gói | 1.000.000 | 1.080.000 | 8% | không | oBacker tự thực hiện | oBacker |
 | `OB-MST-INDV-RENT` | Mở Mã Số Thuế cho Cá nhân Cho thuê Tài sản | gói | 1.000.000 | 1.080.000 | 8% | không | chưa ghi | oBacker |
 | `OB-NTR-FEE` | Phí công chứng | tài liệu | chưa có giá | chưa có giá | chưa ghi | không | oBacker tự thực hiện | oBacker |
 | `OB-VOFC-PCCC` | Treo bảng hiệu & hỗ trợ tiếp đoàn PCCC | tháng | 500.000 | 540.000 | 8% | không | oBacker tự thực hiện | oBacker |
 | `OBL-ADD-BH` | Add-on: Bảo hộ nhãn hiệu | gói | 4.000.000 | 4.320.000 | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
 | `OBL-ADD-NCC` | Add-on: Nâng cấp Làm việc từ xa | gói | 5.972.000 | 6.540.880 | 10% | không | oBacker thực hiện một phần, thuê ngoài một phần | oBacker |
-| `OBL-BRANCH` | Thành lập chi nhánh (Hạch toán phụ thuộc)/địa điểm kinh doanh | gói | 1.000.000 | 1.080.000 | 8% | không | oBacker tự thực hiện | oBacker |
+| `OBL-BRANCH` | Dịch Vụ Thành Lập Chi Nhánh / Văn Phòng Đại Diện / Địa Điểm Kinh Doanh | gói | 1.200.000 | 1.320.000 | 10% | không | oBacker tự thực hiện | oBacker |
 | `OBL-CNC` | Đăng ký thành lập công ty tại Khu công nghệ cao (CNC) Đà Nẵng | gói | chưa có giá | chưa có giá | chưa ghi | không | oBacker tự thực hiện | oBacker |
 | `OBL-COMBO-DOITEN` | Combo Cập nhật Thông tin Đổi tên Công ty (BHXH, Thuế, Hóa đơn điện tử) | gói | 2.000.000 | 2.160.000 | 8% | không | chưa ghi | oBacker |
 | `OBL-CPX` | Thành lập công ty - Ngành nghề phức tạp | gói | chưa có giá | chưa có giá | chưa ghi | không | oBacker thực hiện một phần, thuê ngoài một phần | oBacker |
-| `OBL-DI` | Thành lập công ty FDI - Gói Direct Invest | gói | 55.555.556 | 60.000.000 | 8% | không | oBacker thực hiện một phần, thuê ngoài một phần | oBacker |
+| `OBL-DI` | Combo Thành Lập Doanh Nghiệp FDI Mới Trọn Gói (Full Setup Direct Investment) | gói | 55.000.000 | 60.500.000 | 10% | không | oBacker tự thực hiện | oBacker |
 | `OBL-DMST` | Đăng ký doanh nghiệp Đổi mới sáng tạo | gói | 15.000.000 | 16.200.000 | 8% | không | oBacker tự thực hiện | oBacker |
 | `OBL-ERC-AMEND-BRAD` | Đăng ký thay đổi ĐKDN do tách/sáp nhập công ty (Điều 55 - NĐ168/2025) | gói | 0 | 0 | 8% | không | oBacker tự thực hiện | oBacker |
 | `OBL-ERC-AMEND-CAP` | Điều chỉnh GCNĐKKD - Thay đổi/tăng vốn điều lệ / phần vốn góp / tỷ lệ phần vốn góp | gói | 1.000.000 | 1.080.000 | 8% | không | chưa ghi | oBacker |
@@ -118,12 +123,14 @@ Giá ghi bằng đồng Việt Nam, tính cho một đơn vị tính. Mã trong 
 | `OBL-ERC-AMEND-NCFS` | Thông báo thay đổi thông tin cổ đông sáng lập CTCP (Điều 50 - NĐ168/2025) | gói | 500.000 | 540.000 | 8% | không | oBacker tự thực hiện | oBacker |
 | `OBL-ERC-AMEND-NCTRI` | Thông báo thay đổi nội dung đăng ký thuế (không thay đổi nội dung ĐKKD) (Điều 53 - NĐ168/2025) | gói | 500.000 | 540.000 | 8% | không | oBacker tự thực hiện | oBacker |
 | `OBL-ERC-AMEND-REP` | Điều chỉnh GCNĐKKD - Thay đổi người đại diện theo pháp luật (CTTNHH / CTCP) | gói | 500.000 | 540.000 | 8% | không | chưa ghi | oBacker |
+| `OBL-ERC-AMEND-SEAL` | Dịch Vụ Thay Đổi Nội Dung Đăng Ký Doanh Nghiệp Có Đổi Dấu (Tên Hoặc Khác Quận) | lần | 1.500.000 | 1.650.000 | 10% | không | oBacker tự thực hiện | oBacker |
+| `OBL-ERC-AMEND-STD` | Dịch Vụ Thay Đổi Nội Dung Đăng Ký Doanh Nghiệp Tiêu Chuẩn (Không Đổi Dấu) | lần | 1.200.000 | 1.320.000 | 10% | không | oBacker tự thực hiện | oBacker |
 | `OBL-ERC-AMEND-UBRI` | Cập nhật/bổ sung thông tin ĐKDN không thuộc trường hợp đăng ký/thông báo thay đổi (Điều 57 - NĐ168/2025) | gói | 500.000 | 540.000 | 8% | không | oBacker tự thực hiện | oBacker |
 | `OBL-HKD` | Thành lập hộ kinh doanh | gói | 2.000.000 | 2.160.000 | 8% | không | oBacker tự thực hiện | oBacker |
 | `OBL-IFC-UNCON` | Thành lập công ty thành viên IFC Đà Nẵng - Ngành nghề không điều kiện | gói | chưa có giá | chưa có giá | chưa ghi | không | oBacker tự thực hiện | oBacker |
 | `OBL-IFC-UNCON-BP` | Thành lập công ty thành viên IFC Đà Nẵng - Ngành nghề không điều kiện - Kế hoạch kinh doanh | gói | chưa có giá | chưa có giá | chưa ghi | không | oBacker tự thực hiện | oBacker |
-| `OBL-MA` | Thành lập công ty FDI - Gói M&A | gói | 46.296.296 | 50.000.000 | 8% | không | oBacker thực hiện một phần, thuê ngoài một phần | oBacker |
-| `OBL-STD` | Thành lập công ty nội địa - Gói Tiêu chuẩn | gói | 2.777.778 | 3.000.000 | 8% | không | oBacker thực hiện một phần, thuê ngoài một phần | oBacker |
+| `OBL-MA` | Combo Đăng Ký Góp Vốn M&A Doanh Nghiệp FDI Trọn Gói (Full Setup M&A) | gói | 45.000.000 | 49.500.000 | 10% | không | oBacker tự thực hiện | oBacker |
+| `OBL-STD` | Combo Thành Lập Công Ty Việt Nam Tiêu Chuẩn Trọn Gói | gói | 5.000.000 | 5.500.000 | 10% | không | oBacker tự thực hiện | oBacker |
 | `OBL-TECH-SCN` | Đăng ký Tổ chức Khoa học Công nghệ | gói | 15.000.000 | 16.200.000 | 8% | không | chưa ghi | oBacker |
 | `OBL-VC-FUND` | Thành lập Quỹ đầu tư khởi nghiệp sáng tạo | gói | 25.000.000 | 27.000.000 | 8% | không | oBacker tự thực hiện | oBacker |
 | `SANDBOX-ARRIVALX` | Dịch vụ Tư vấn & Soạn thảo Hồ sơ Xin Cấp phép Cơ chế Thử nghiệm (Công nghệ Thanh toán bằng Lòng bàn tay) | gói | 60.000.000 | 64.800.000 | 8% | không | chưa ghi | oBacker |
@@ -142,13 +149,14 @@ Phạm vi, thời gian và điều kiện áp dụng chép từ hệ thống dan
 
 
 
-### ATVSTP_DN. Giấy chứng nhân an toàn vệ sinh thực phẩm
+### ATVSTP_DN. Dịch Vụ Xin Cấp Giấy Chứng Nhận Đủ Điều Kiện An Toàn Thực Phẩm
 
 | Hạng mục | Nội dung |
 | --- | --- |
-| Phạm vi công việc | Tư vấn & Chuẩn bị hồ sơ pháp lý: Khảo sát, đánh giá tính hợp lệ các giấy tờ hiện có. Soạn thảo toàn bộ hồ sơ xin cấp giấy phép theo đúng quy định hiện hành.<br>Khảo sát & Hướng dẫn thực địa: Cử chuyên gia xuống trực tiếp địa điểm để khảo sát. Hướng dẫn, tư vấn chi tiết cách bố trí cơ sở vật chất, trang thiết bị dụng cụ và quy trình chế biến theo nguyên tắc một chiều đáp ứng tiêu chuẩn.<br>Nộp hồ sơ & Tiếp đoàn kiểm tra: Đại diện doanh nghiệp nộp hồ sơ, đóng các khoản lệ phí nhà nước và theo dõi sát sao tiến độ. Hỗ trợ và trực tiếp cùng đại diện nhà hàng tiếp đoàn thẩm định thực tế tại cơ sở, giải trình các vấn đề phát sinh. |
-| Thời gian thực hiện | 25-30 ngày |
+| Phạm vi công việc | Áp dụng cho nhà hàng, quán cà phê, cơ sở chế biến thực phẩm. Khảo sát thực tế cơ sở kinh doanh, tư vấn sắp xếp mặt bằng theo nguyên tắc bếp một chiều; hướng dẫn hoàn thiện hồ sơ nguồn gốc nguyên liệu và khám sức khỏe nhân sự; soạn hồ sơ xin cấp phép; nộp tại Ban Quản lý An toàn thực phẩm / Chi cục ATVSTP; trực tiếp hỗ trợ cùng khách hàng tiếp đoàn thẩm định thực tế tại cơ sở. Kết quả: Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm có hiệu lực 03 năm. |
+| Thời gian thực hiện | 20 - 25 ngày làm việc. |
 | Kỳ thu tiền | thu trước |
+| Ghi chú | Master SKU Catalog 2026 |
 
 ### DN-DVNQ-21. HỒ SƠ HƯỞNG CHÍNH SÁCH VỀ THU NHẬP, LƯU TRÚ CHO CHUYÊN GIA, NHÀ KHOA HỌC TRÊN ĐỊA BÀN TP ĐÀ NẴNG (NQ 21)
 
@@ -164,13 +172,41 @@ Phạm vi, thời gian và điều kiện áp dụng chép từ hệ thống dan
 | Phạm vi công việc | - Tư vấn quy định về chính sách và rà soát điều kiện phù hợp.<br>- Soạn thảo hồ sơ đề nghị hỗ trợ.<br>- Hỗ trợ nộp hồ sơ và hướng dẫn thủ tục báo cáo hội đồng.<br>- Hỗ trợ giải trình, bổ sung hồ sơ theo yêu cầu của Hội đồng thẩm định/Sở Khoa học và Công nghệ trong phạm vi 01 lần bổ sung, chỉnh sửa. |
 | Kỳ thu tiền | thu trước |
 
-### LCS-RETAIL. Dịch vụ Hỗ trợ Xin Cấp Giấy phép Kinh doanh Bán lẻ (Gói Tiêu chuẩn)
+### F-FDI-MA. Dịch Vụ Đăng Ký Góp Vốn / Mua Cổ Phần Doanh Nghiệp FDI (Lộ Trình M&A)
 
 | Hạng mục | Nội dung |
 | --- | --- |
-| Phạm vi công việc | Phạm vi dịch vụ:<br>Rà soát, hoàn thiện và đại diện nộp hồ sơ xin cấp Giấy phép kinh doanh áp dụng cho trường hợp tiêu chuẩn: Doanh nghiệp thực hiện hoạt động bán lẻ/phân phối các mặt hàng tiêu dùng thông thường (quần áo, đồ gia dụng, thiết bị điện tử, nội thất... - không thuộc danh mục hàng hóa có điều kiện hoặc đặc thù).<br>Áp dụng đối với doanh nghiệp đã có hồ sơ pháp lý, tài chính (báo cáo kiểm toán, thuế) rõ ràng, hợp lệ, không phát sinh xử lý lỗi.<br>Theo dõi sát sao tiến độ xử lý hồ sơ tại Cơ quan cấp Giấy phép và các Bộ/ngành liên quan; giải trình hoặc điều chỉnh hồ sơ theo yêu cầu của cơ quan nhà nước.<br>Lưu ý: Phí dịch vụ chưa bao gồm Lệ phí nhà nước, phí dịch thuật, công chứng và hợp pháp hóa lãnh sự.<br>Kết quả công việc:<br>Biên nhận/Xác nhận đã nộp hồ sơ hợp lệ tại Cơ quan cấp Giấy phép.<br>Giấy phép kinh doanh được cấp chính thức cho doanh nghiệp hoặc Văn bản thông báo kết quả xử lý chính thức từ cơ quan có thẩm quyền. |
-| Thời gian thực hiện | 20-30 ngày làm việc |
+| Phạm vi công việc | - *Phạm vi dịch vụ:* Thẩm tra tỷ lệ sở hữu nước ngoài theo cam kết WTO; lập hồ sơ đăng ký góp vốn, mua cổ phần theo Điều 26 Luật Đầu tư; nộp và nhận Văn bản chấp thuận góp vốn/mua cổ phần (M&A Approval) từ Sở Kế hoạch và Đầu tư; soạn thảo hợp đồng chuyển nhượng vốn và biên bản thanh lý; kê khai và nộp thuế TNCN từ chuyển nhượng vốn; nộp hồ sơ thay đổi nội dung ERC ghi nhận nhà đầu tư nước ngoài tại Phòng ĐKKD.<br>- *Kết quả công việc:* 01 Văn bản Chấp thuận M&A của Sở KH&ĐT; 01 Giấy chứng nhận đăng ký doanh nghiệp (ERC) ghi nhận chủ sở hữu/thành viên nước ngoài; Tờ khai thuế TNCN chuyển nhượng vốn hoàn tất. |
+| Thời gian thực hiện | 15 - 25 ngày làm việc. |
 | Kỳ thu tiền | thu trước |
+| Ghi chú | Master SKU Catalog 2026 |
+
+### F-FDI-NEW. Dịch Vụ Thành Lập Doanh Nghiệp FDI Mới Hoàn Toàn (Lộ Trình Đầu Tư Trực Tiếp: IRC + ERC)
+
+| Hạng mục | Nội dung |
+| --- | --- |
+| Phạm vi công việc | - *Phạm vi dịch vụ:* Tư vấn điều kiện tiếp cận thị trường WTO và pháp luật chuyên ngành; thẩm định địa điểm dự án và tư vấn hợp đồng thuê; lập Hồ sơ đề xuất dự án đầu tư; đại diện xin cấp Giấy chứng nhận đăng ký đầu tư (IRC) tại Sở Kế hoạch và Đầu tư / Ban Quản lý KCN; soạn thảo hồ sơ và xin cấp Giấy chứng nhận đăng ký doanh nghiệp (ERC); khắc 01 con dấu pháp nhân công ty; công bố thông tin trên Cổng thông tin quốc gia; hướng dẫn mở tài khoản vốn đầu tư trực tiếp (DICA).<br>- *Kết quả công việc:* 01 Giấy chứng nhận đăng ký đầu tư (IRC) bản gốc; 01 Giấy chứng nhận đăng ký doanh nghiệp (ERC) tích hợp mã số thuế; 01 Con dấu tròn công ty; Hướng dẫn chuyển vốn DICA đúng quy định. |
+| Thời gian thực hiện | 25 - 40 ngày làm việc. |
+| Kỳ thu tiền | thu trước |
+| Ghi chú | Master SKU Catalog 2026 |
+
+### F-VN-ERC. Dịch Vụ Thành Lập Công Ty Việt Nam Cơ Bản (ERC + Con Dấu)
+
+| Hạng mục | Nội dung |
+| --- | --- |
+| Phạm vi công việc | Tư vấn tên công ty, ngành nghề kinh doanh, vốn điều lệ; soạn thảo Điều lệ công ty, Giấy đề nghị ĐKDN, danh sách thành viên/cổ đông; nộp hồ sơ tại Phòng ĐKKD; khắc 01 con dấu tròn pháp nhân; đăng công bố thông tin trên Cổng thông tin đăng ký doanh nghiệp quốc gia. Kết quả bàn giao: 01 Giấy chứng nhận đăng ký doanh nghiệp (ERC) và 01 Con dấu tròn công ty. |
+| Thời gian thực hiện | 03 - 05 ngày làm việc. |
+| Kỳ thu tiền | thu trước |
+| Ghi chú | Master SKU Catalog 2026 |
+
+### LCS-RETAIL. Dịch Vụ Xin Cấp Giấy Phép Kinh Doanh Hoạt Động Bán Lẻ Cho Doanh Nghiệp FDI
+
+| Hạng mục | Nội dung |
+| --- | --- |
+| Phạm vi công việc | - *Phạm vi dịch vụ:* Căn cứ Nghị định số 09/2018/NĐ-CP quy định chi tiết Luật Thương mại về hoạt động mua bán hàng hóa và các hoạt động liên quan trực tiếp đến mua bán hàng hóa của nhà đầu tư nước ngoài. Tư vấn điều kiện tài chính và thị trường; lập Kế hoạch kinh doanh và Kế hoạch tài chính chi tiết; soạn thảo bộ hồ sơ xin cấp Giấy phép kinh doanh; đại diện nộp hồ sơ tại Sở Công Thương; giải trình và phối hợp lấy ý kiến chấp thuận của Bộ Công Thương.<br>- *Kết quả công việc:* 01 Giấy phép kinh doanh hoạt động mua bán hàng hóa (bán lẻ) do Sở Công Thương cấp cho doanh nghiệp FDI. |
+| Thời gian thực hiện | 30 - 45 ngày làm việc. |
+| Kỳ thu tiền | thu trước |
+| Ghi chú | Master SKU Catalog 2026 |
 
 ### LICE-CLOSE-RO. Dịch vụ Đóng văn phòng đại diện
 
@@ -184,7 +220,25 @@ Phạm vi, thời gian và điều kiện áp dụng chép từ hệ thống dan
 | --- | --- |
 | Phạm vi công việc | Thực hiện toàn bộ thủ tục giải thể doanh nghiệp, bao gồm quyết toán thuế, thanh lý tài sản, đóng các loại tài khoản (thuế, ngân hàng, BHXH) và trả con dấu. |
 | Kỳ thu tiền | thu theo mốc công việc |
-| Ghi chú | Min unit price: 4,000,000 VND++ (chưa bao gồm VAT). Có thể có 2 lần báo giá tùy thuộc vào mức độ phức tạp của case. |
+| Ghi chú | Mã cũ, tách thành LICE-DISSOLVE-DORM (công ty trắng 3,5tr) và LICE-DISSOLVE-ACT (có doanh thu 5tr) |
+
+### LICE-DISSOLVE-ACT. Dịch Vụ Giải Thể Doanh Nghiệp Đang Hoạt Động (Đã Phát Sinh Doanh Thu)
+
+| Hạng mục | Nội dung |
+| --- | --- |
+| Phạm vi công việc | Giải thể công ty đã phát sinh hóa đơn và hoạt động kinh doanh. Thực hiện thủ tục khóa tài khoản ngân hàng; chốt sổ và đóng mã đơn vị BHXH; lập hồ sơ quyết toán nghĩa vụ thuế và làm việc với cơ quan thuế để hoàn thành nghĩa vụ thuế đóng MST; hoàn tất thủ tục xóa tên doanh nghiệp tại Phòng ĐKKD (chưa bao gồm phí khắc phục sổ sách nếu số liệu quá khứ có sai phạm lớn). Kết quả: Quyết định hoàn thành nghĩa vụ thuế và Giấy xác nhận hoàn tất thủ tục giải thể doanh nghiệp. |
+| Thời gian thực hiện | 45 - 60 ngày làm việc (phụ thuộc tiến độ quyết toán của cơ quan thuế). |
+| Kỳ thu tiền | thu trước |
+| Ghi chú | Master SKU Catalog 2026 |
+
+### LICE-DISSOLVE-DORM. Dịch Vụ Giải Thể Doanh Nghiệp Chưa Phát Sinh Doanh Thu (Công Ty Trắng)
+
+| Hạng mục | Nội dung |
+| --- | --- |
+| Phạm vi công việc | Thực hiện thủ tục chấm dứt hoạt động đối với công ty chưa phát sinh hóa đơn đầu ra/đầu vào và chưa phát sinh doanh thu. Soạn thảo quyết định giải thể; nộp thông báo giải thể tới Phòng ĐKKD; thực hiện thủ tục đóng mã số thuế tại Chi cục Thuế; nộp trả con dấu pháp nhân. Kết quả: Thông báo đóng MST của Cơ quan Thuế và Thông báo hoàn tất giải thể doanh nghiệp trên Cổng thông tin quốc gia. |
+| Thời gian thực hiện | 20 - 30 ngày làm việc. |
+| Kỳ thu tiền | thu trước |
+| Ghi chú | Master SKU Catalog 2026 |
 
 ### LICE-DISSOLVE-HKD. Dịch vụ giải thể hộ kinh doanh
 
@@ -193,25 +247,32 @@ Phạm vi, thời gian và điều kiện áp dụng chép từ hệ thống dan
 | Phạm vi công việc | Thực hiện thủ tục chấm dứt hoạt động hộ kinh doanh, bao gồm hoàn tất nghĩa vụ thuế và nộp hồ sơ với cơ quan đăng ký. |
 | Ghi chú | Min unit price: 4,000,000 VND++ (chưa bao gồm VAT). Có thể có 2 lần báo giá tùy thuộc vào mức độ phức tạp của case. |
 
-### LICE-EC-NOTIFY-MOIT. Thông báo website TMĐT với Bộ Công Thương
+### LICE-EC-NOTIFY-MOIT. Dịch Vụ Thông Báo Website Thương Mại Điện Tử Bán Hàng Với Bộ Công Thương
 
 | Hạng mục | Nội dung |
 | --- | --- |
-| Phạm vi công việc | Thông báo website thương mại điện tử với Bộ Công Thương. |
+| Phạm vi công việc | Rà soát website bán hàng của doanh nghiệp theo Nghị định 52/2013/NĐ-CP và Nghị định 85/2021/NĐ-CP; soạn thảo đầy đủ các chính sách bắt buộc trên website (Chính sách bảo mật, Chính sách đổi trả/hoàn tiền, Chính sách vận chuyển, Điều khoản dịch vụ); đăng ký tài khoản thương nhân trên cổng `online.gov.vn`; nộp hồ sơ thông báo và chỉnh sửa theo yêu cầu của chuyên viên Bộ Công Thương. Kết quả: Website được Bộ Công Thương phê duyệt và gắn logo xác thực màu xanh "Đã thông báo Bộ Công Thương" có link dẫn trực tiếp về cổng quốc gia. |
+| Thời gian thực hiện | 07 - 10 ngày làm việc. |
 | Kỳ thu tiền | thu trước |
+| Ghi chú | Master SKU Catalog 2026 |
 
-### LICE-EC-WEB-MOIT. Đăng ký website TMĐT với Bộ Công Thương
+### LICE-EC-WEB-MOIT. Dịch Vụ Đăng Ký Thiết Lập Sàn Giao Dịch Thương Mại Điện Tử Với Bộ Công Thương
 
 | Hạng mục | Nội dung |
 | --- | --- |
-| Phạm vi công việc | Đăng ký Nền tảng thương mại điện tử trung gian với Bộ Công Thương theo quy định. |
+| Phạm vi công việc | Áp dụng cho các nền tảng cho phép bên thứ ba mở gian hàng, đăng tin rao vặt, hoặc ứng dụng kết nối thương mại điện tử. Xây dựng Đề án hoạt động sàn TMĐT; soạn thảo Quy chế hoạt động sàn giao dịch; thiết lập cơ chế kiểm soát hàng hóa và bảo vệ người tiêu dùng; nộp hồ sơ và giải trình trực tiếp trước Cục Thương mại điện tử và Kinh tế số (Bộ Công Thương). Kết quả: Giấy xác nhận đăng ký sàn giao dịch thương mại điện tử và gắn logo xác thực màu đỏ "Đã đăng ký Bộ Công Thương". |
+| Thời gian thực hiện | 30 - 45 ngày làm việc. |
 | Kỳ thu tiền | thu trước |
+| Ghi chú | Master SKU Catalog 2026 |
 
-### LICE-EDU. Xin Giấy phép Giáo dục
+### LICE-EDU. Dịch Vụ Xin Giấy Phép Hoạt Động Trung Tâm Đào Tạo / Giáo Dục
 
 | Hạng mục | Nội dung |
 | --- | --- |
-| Phạm vi công việc | Tư vấn và thực hiện thủ tục xin Giấy phép hoạt động trong lĩnh vực giáo dục (trung tâm ngoại ngữ, trung tâm tin học, trung tâm kỹ năng). |
+| Phạm vi công việc | Áp dụng cho trung tâm ngoại ngữ, tin học, kỹ năng sống. Rà soát tiêu chuẩn cơ sở vật chất, phòng học, PCCC; rà soát bằng cấp và tiêu chuẩn của Giám đốc trung tâm và giáo viên giảng dạy; xây dựng Đề án thành lập trung tâm và Giáo trình/Chương trình đào tạo; nộp hồ sơ và tiếp đoàn thẩm định của Sở Giáo dục và Đào tạo. Kết quả: Quyết định cho phép hoạt động giáo dục do Sở GD&ĐT cấp. |
+| Thời gian thực hiện | 25 - 35 ngày làm việc. |
+| Kỳ thu tiền | thu trước |
+| Ghi chú | Master SKU Catalog 2026 |
 
 ### LICE-ERC-AMEND-CAP. Điều chỉnh ERC - Giảm vốn
 
@@ -247,11 +308,14 @@ Phạm vi, thời gian và điều kiện áp dụng chép từ hệ thống dan
 | Phạm vi công việc | Hỗ trợ thủ tục hợp pháp hóa lãnh sự tài liệu nước ngoài để sử dụng tại Việt Nam, kết hợp dịch thuật công chứng các tài liệu liên quan. |
 | Ghi chú | Tùy vào nước hợp pháp hóa lãnh sự |
 
-### LICE-LIQUOR. Xin Giấy phép kinh doanh rượu
+### LICE-LIQUOR. Dịch Vụ Xin Cấp Giấy Phép Kinh Doanh Bán Lẻ Rượu
 
 | Hạng mục | Nội dung |
 | --- | --- |
-| Phạm vi công việc | Tư vấn và thực hiện thủ tục xin Giấy phép kinh doanh rượu (bán lẻ, bán buôn hoặc phân phối) cho doanh nghiệp. |
+| Phạm vi công việc | Áp dụng cho cơ sở kinh doanh bán lẻ rượu tiêu dùng tại chỗ (nhà hàng, quán bar, khách sạn) hoặc bán lẻ mang về. Thẩm định tính pháp lý của địa điểm; kiểm tra hợp đồng phân phối/mua bán với đơn vị cung cấp rượu có giấy phép hợp lệ; soạn thảo bộ hồ sơ đăng ký kinh doanh rượu; nộp và làm việc với Phòng Kinh tế UBND quận/huyện. Kết quả: Giấy phép bán lẻ rượu do UBND quận/huyện cấp thời hạn 05 năm. |
+| Thời gian thực hiện | 15 - 20 ngày làm việc. |
+| Kỳ thu tiền | thu trước |
+| Ghi chú | Master SKU Catalog 2026 |
 
 ### LICE-NDIR-VN. Cổ đông danh nghĩa (VN)
 
@@ -261,11 +325,14 @@ Phạm vi, thời gian và điều kiện áp dụng chép từ hệ thống dan
 | Dòng thuê bao | Cổ đông danh nghĩa |
 | Hạn dùng | 365 ngày |
 
-### LICE-PAUSE. Dịch vụ xin Tạm Ngưng Hoạt Động
+### LICE-PAUSE. Dịch Vụ Đăng Ký Tạm Ngưng Hoạt Động Kinh Doanh
 
 | Hạng mục | Nội dung |
 | --- | --- |
-| Phạm vi công việc | Thực hiện thủ tục đăng ký tạm ngưng hoạt động kinh doanh, bao gồm thông báo tới cơ quan đăng ký kinh doanh và cơ quan thuế. |
+| Phạm vi công việc | Soạn thảo hồ sơ thông báo tạm ngưng hoạt động doanh nghiệp (Nghị quyết, Biên bản họp, Thông báo tạm ngưng); nộp hồ sơ tới Phòng Đăng ký kinh doanh trước thời điểm tạm ngưng tối thiểu 03 ngày làm việc; phối hợp đồng bộ trạng thái tạm ngưng sang cơ quan Thuế để miễn nộp tờ khai định kỳ. Kết quả: Giấy xác nhận về việc doanh nghiệp đăng ký tạm ngưng hoạt động do Phòng ĐKKD cấp. |
+| Thời gian thực hiện | 03 ngày làm việc. |
+| Kỳ thu tiền | thu trước |
+| Ghi chú | Master SKU Catalog 2026 |
 
 ### LICE-PRESENT-TAX. Hỗ trợ trình diện thuế lần đầu
 
@@ -313,12 +380,14 @@ Phạm vi, thời gian và điều kiện áp dụng chép từ hệ thống dan
 | Gói chứa hạng mục này | OBL-STD, OBL-DI, OBL-MA |
 | Hạng mục thành phần | MB-TT-DN-1Y, TRD-VOFC, TRD-SIGN |
 
-### OBL-BRANCH. Thành lập chi nhánh (Hạch toán phụ thuộc)/địa điểm kinh doanh
+### OBL-BRANCH. Dịch Vụ Thành Lập Chi Nhánh / Văn Phòng Đại Diện / Địa Điểm Kinh Doanh
 
 | Hạng mục | Nội dung |
 | --- | --- |
-| Phạm vi công việc | Thực hiện thủ tục đăng ký hoạt động chi nhánh (Hạch toán phụ thuộc) hoặc địa điểm kinh doanh trong nước cho doanh nghiệp đã có pháp nhân tại Việt Nam, bao gồm soạn thảo hồ sơ và làm việc với Sở Tài chính. |
+| Phạm vi công việc | Tư vấn mô hình hoạt động (hạch toán phụ thuộc hay độc lập); soạn thảo hồ sơ thành lập đơn vị phụ thuộc (Quyết định, Biên bản họp HĐTV/HĐQT, Thông báo thành lập, Quyết định bổ nhiệm người đứng đầu); nộp hồ sơ tại Phòng ĐKKD tỉnh/thành phố nơi đặt trụ sở chi nhánh/VPĐD. Kết quả: Giấy chứng nhận đăng ký hoạt động chi nhánh/VPĐD hoặc Giấy chứng nhận đăng ký địa điểm kinh doanh. |
+| Thời gian thực hiện | 03 - 05 ngày làm việc. |
 | Kỳ thu tiền | thu trước |
+| Ghi chú | Master SKU Catalog 2026 |
 
 ### OBL-CNC. Đăng ký thành lập công ty tại Khu công nghệ cao (CNC) Đà Nẵng
 
@@ -344,11 +413,15 @@ Phạm vi, thời gian và điều kiện áp dụng chép từ hệ thống dan
 | Kỳ thu tiền | thu theo mốc công việc |
 | Hạng mục thành phần | MB-HOUT-300, MB-USB-DN-NEW-1Y, TRD-STAMP, MB-EC-50 |
 
-### OBL-DI. Thành lập công ty FDI - Gói Direct Invest
+### OBL-DI. Combo Thành Lập Doanh Nghiệp FDI Mới Trọn Gói (Full Setup Direct Investment)
 
 | Hạng mục | Nội dung |
 | --- | --- |
-| Phạm vi công việc | Gói thành lập công ty FDI theo hình thức đầu tư trực tiếp, bao gồm: <br>(1) 01 Giấy chứng nhận đăng ký doanh nghiệp (ERC); <br>(2) 01 Giấy chứng nhận đăng ký đầu tư (IRC); <br>(3) Thiết lập phần mềm Hóa đơn điện tử - gói 200 hóa đơn; <br>(4) Con dấu doanh nghiệp; <br>(5) Chữ ký số (USB Token) - gói 1 năm; <br>(6) Đăng ký tài khoản BHXH doanh nghiệp (bao gồm tài khoản tiêu chuẩn, tài khoản cho người quản lý không hưởng lương, tài khoản cho người lao động nước ngoài nếu áp dụng trong vòng 1 tháng kể từ thời điểm thành lập công ty);<br>(7) Hợp đồng điện tử - 30 cái |
+| Phạm vi công việc | Toàn bộ phạm vi của gói `F-FDI-NEW` (IRC + ERC + Con dấu + DICA) kết hợp bộ công cụ vận hành số ban đầu: 01 Chữ ký số USB Token thời hạn 1 năm; 200 số hóa đơn điện tử khởi tạo trên phần mềm; Đăng ký tài khoản BHXH doanh nghiệp lần đầu; Khai thuế ban đầu với cơ quan thuế; 30 lượt ký kết hợp đồng điện tử. Kết quả là Pháp nhân FDI hoàn chỉnh và đầy đủ công cụ sẵn sàng xuất hóa đơn, tuyển dụng và vận hành kinh doanh. |
+| Thời gian thực hiện | 25 - 40 ngày làm việc. |
+| Kỳ thu tiền | thu trước |
+| Hạng mục thành phần | F-FDI-NEW, CL-USB-DN-NEW-1Y, CL-HOUT-300 |
+| Ghi chú | Master SKU Catalog 2026 |
 
 ### OBL-DMST. Đăng ký doanh nghiệp Đổi mới sáng tạo
 
@@ -490,6 +563,24 @@ Phạm vi, thời gian và điều kiện áp dụng chép từ hệ thống dan
 | Thời gian thực hiện | 3 ngày làm việc |
 | Kỳ thu tiền | thu trước |
 
+### OBL-ERC-AMEND-SEAL. Dịch Vụ Thay Đổi Nội Dung Đăng Ký Doanh Nghiệp Có Đổi Dấu (Tên Hoặc Khác Quận)
+
+| Hạng mục | Nội dung |
+| --- | --- |
+| Phạm vi công việc | Áp dụng cho các trường hợp thay đổi ĐKKD bắt buộc phải làm lại con dấu: đổi tên công ty, hoặc chuyển trụ sở chính sang quận/tỉnh khác. Bao gồm: soạn thảo hồ sơ thay đổi ĐKKD, thủ tục chuyển cơ quan thuế (nếu khác quận/tỉnh), khắc 01 con dấu pháp nhân mới theo thông tin cập nhật. Kết quả: Giấy chứng nhận ĐKKD mới và 01 Con dấu công ty mới. |
+| Thời gian thực hiện | 04 - 06 ngày làm việc. |
+| Kỳ thu tiền | thu trước |
+| Ghi chú | Master SKU Catalog 2026 |
+
+### OBL-ERC-AMEND-STD. Dịch Vụ Thay Đổi Nội Dung Đăng Ký Doanh Nghiệp Tiêu Chuẩn (Không Đổi Dấu)
+
+| Hạng mục | Nội dung |
+| --- | --- |
+| Phạm vi công việc | Thực hiện thay đổi 01 nội dung trên Giấy chứng nhận ĐKKD: thay đổi địa chỉ cùng quận/huyện, người đại diện theo pháp luật, tăng vốn điều lệ, cập nhật/bổ sung ngành nghề kinh doanh, thay đổi thành viên công ty. Soạn thảo toàn bộ hồ sơ pháp lý, nộp và làm việc với Phòng ĐKKD. Kết quả: Giấy chứng nhận đăng ký doanh nghiệp mới hoặc Giấy xác nhận thay đổi thông tin ĐKKD. |
+| Thời gian thực hiện | 03 - 05 ngày làm việc. |
+| Kỳ thu tiền | thu trước |
+| Ghi chú | Master SKU Catalog 2026 |
+
 ### OBL-ERC-AMEND-UBRI. Cập nhật/bổ sung thông tin ĐKDN không thuộc trường hợp đăng ký/thông báo thay đổi (Điều 57 - NĐ168/2025)
 
 | Hạng mục | Nội dung |
@@ -518,17 +609,25 @@ Phạm vi, thời gian và điều kiện áp dụng chép từ hệ thống dan
 | --- | --- |
 | Phạm vi công việc | Bao gồm thủ tục thành lập công ty thành viên IFC Đà Nẵng (ngành nghề không điều kiện) kèm: <br>(1) Guideline và template viết Business Plan theo yêu cầu Ban Quản lý IFC. <br>Lưu ý: oBacker cung cấp hướng dẫn và mẫu, không viết Business Plan thay khách hàng. |
 
-### OBL-MA. Thành lập công ty FDI - Gói M&A
+### OBL-MA. Combo Đăng Ký Góp Vốn M&A Doanh Nghiệp FDI Trọn Gói (Full Setup M&A)
 
 | Hạng mục | Nội dung |
 | --- | --- |
-| Phạm vi công việc | Gói thành lập công ty FDI theo hình thức mua bán & sáp nhập (M&A), bao gồm: <br>(1) 01 Giấy chứng nhận đăng ký doanh nghiệp (ERC); <br>(2) 01 Thủ tục Chấp thuận góp vốn, mua cổ phần, mua phần vốn góp (M&A Approval); <br>(3) Thiết lập phần mềm Hóa đơn điện tử - gói 200 hóa đơn; <br>(4) Con dấu doanh nghiệp; <br>(5) Chữ ký số (USB Token) - gói 1 năm; <br>(6) Đăng ký tài khoản BHXH doanh nghiệp (bao gồm tài khoản tiêu chuẩn, tài khoản cho người quản lý không hưởng lương, tài khoản cho người lao động nước ngoài nếu áp dụng trong vòng 1 tháng kể từ thời điểm thành lập công ty)<br>(7) Hợp đồng điện tử - 30 cái |
+| Phạm vi công việc | Toàn bộ phạm vi của gói `F-FDI-MA` (Chấp thuận M&A + ERC đổi chủ + Kê khai thuế chuyển nhượng) kết hợp chuẩn hóa vận hành số: Cập nhật thông tin chữ ký số Token 1 năm; Khởi tạo 200 hóa đơn điện tử; Cập nhật thông tin doanh nghiệp với cơ quan BHXH và cơ quan Thuế; 30 lượt hợp đồng điện tử. Kết quả là Pháp nhân sau M&A đã đổi chủ hợp pháp, hoàn tất nghĩa vụ thuế chuyển nhượng và sẵn sàng hoạt động. |
+| Thời gian thực hiện | 15 - 25 ngày làm việc. |
+| Kỳ thu tiền | thu trước |
+| Hạng mục thành phần | F-FDI-MA, CL-USB-DN-NEW-1Y, CL-HOUT-300 |
+| Ghi chú | Master SKU Catalog 2026 |
 
-### OBL-STD. Thành lập công ty nội địa - Gói Tiêu chuẩn
+### OBL-STD. Combo Thành Lập Công Ty Việt Nam Tiêu Chuẩn Trọn Gói
 
 | Hạng mục | Nội dung |
 | --- | --- |
-| Phạm vi công việc | Gói thành lập công ty nội địa cơ bản, bao gồm: <br>(1) 01 Giấy chứng nhận đăng ký doanh nghiệp (ERC); <br>(2) Thiết lập phần mềm Hóa đơn điện tử - gói 200 hóa đơn; <br>(3) Con dấu doanh nghiệp; <br>(4) Chữ ký số (USB Token) - gói 1 năm; <br>(5) Hợp đồng điện tử - Gói 30 hợp đồng;<br>(6) Đăng ký tài khoản BHXH doanh nghiệp (bao gồm tài khoản BHXH tiêu chuẩn(bao gồm tài khoản tiêu chuẩn, tài khoản cho người quản lý không hưởng lương, tài khoản cho người lao động nước ngoài, nếu áp dụng trong vòng 1 tháng kể từ thời điểm thành lập công ty) |
+| Phạm vi công việc | Toàn bộ gói `F-VN-ERC` (ERC + con dấu) kết hợp bộ công cụ số khởi nghiệp: 01 Chữ ký số USB Token CyberLotus 1 năm; 300 số hóa đơn điện tử; Đăng ký tài khoản BHXH doanh nghiệp lần đầu; Soạn và nộp hồ sơ kê khai thuế ban đầu; 30 lượt hợp đồng điện tử. Kết quả: Doanh nghiệp hoàn chỉnh pháp lý và hạ tầng số sẵn sàng xuất hóa đơn kinh doanh. |
+| Thời gian thực hiện | 04 - 06 ngày làm việc. |
+| Kỳ thu tiền | thu trước |
+| Hạng mục thành phần | F-VN-ERC, CL-USB-DN-NEW-1Y, CL-HOUT-300 |
+| Ghi chú | Master SKU Catalog 2026 |
 
 ### OBL-TECH-SCN. Đăng ký Tổ chức Khoa học Công nghệ
 
@@ -580,4 +679,4 @@ Phạm vi, thời gian và điều kiện áp dụng chép từ hệ thống dan
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 28/09/2026 | R.1.1.0 | Cập nhật 66 mã dịch vụ doanh nghiệp và giấy phép, bổ sung SKU thành lập FDI (F-FDI-NEW, F-FDI-MA, OBL-DI, OBL-MA) và giải thể phân loại (LICE-DISSOLVE-DORM, LICE-DISSOLVE-ACT) |

@@ -2,10 +2,10 @@
 title: "GLOSSARY & STYLE GUIDE; Bộ T&C oBacker R.1.0.0 (VI-EN)"
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 distribution: "Nội bộ oBacker"
-previous_version: "R.1.0.0"
+previous_version: "R.1.1.0"
 tags:
   - loai/tnc
 ---
@@ -144,7 +144,7 @@ Giữ **nguyên mã** ở cả hai ngôn ngữ để cross-reference khớp: **P
 
 %%/MIENTRU:N11%%
 
-**(2) Viết tắt được phép giữ** (thông dụng, chuẩn Việt Nam): BHXH, BHYT, BHTN, TNCN, TNDN, GTGT, MST, ERC, IRC, BCTC, HĐLĐ, FDI, KPI. Với FCT và NDA: viết tiếng Việt kèm viết tắt ở lần đầu; "thuế nhà thầu nước ngoài (FCT)", "thỏa thuận bảo mật (NDA)". Tên riêng/sản phẩm giữ nguyên: oBacker, oBacker Law, formtify.obacker.com, Google Drive/Workspace, Zalo/WhatsApp/Telegram/Viber, tên gói **Starter/Scale/Premium**.
+**(2) Viết tắt được phép giữ** (thông dụng, chuẩn Việt Nam): BHXH, BHYT, BHTN, TNCN, TNDN, GTGT, MST, ERC, IRC, BCTC, HĐLĐ, FDI, KPI. Với FCT và NDA: viết tiếng Việt kèm viết tắt ở lần đầu; "thuế nhà thầu nước ngoài (FCT)", "thỏa thuận bảo mật (NDA)". Tên riêng/sản phẩm giữ nguyên: oBacker, oBacker Law, formtify.obacker.com, Google Drive/Workspace, Zalo/WhatsApp/Telegram/Viber, tên gói **Partner Core/Partner Growth/Partner Prime**.
 
 **(3) Bỏ mọi nội dung vận hành NỘI BỘ khỏi tài liệu cho khách.** Không mô tả cách oBacker phối hợp/điều phối nội bộ giữa các bộ phận, cách phân bổ nguồn lực nội bộ, SLA nội bộ giữa các phòng ban, hay lý do nội bộ của một quy tắc. Chỉ giữ nghĩa vụ, phạm vi và hướng dẫn mà khách cần biết. Nếu một câu vừa nêu quy tắc vừa nêu lý do nội bộ → **giữ quy tắc, bỏ phần lý do nội bộ**. Ví dụ cần loại/bỏ: "oBacker điều phối nội bộ giữa hai bộ phận…", "để team phân bổ nguồn lực ổn định", "team delivery nội bộ". Với đầu mối liên hệ: nêu "đầu mối của Quý Khách là người phụ trách tài khoản (AM)"; không mô tả cơ cấu đội ngũ bên trong.
 
@@ -164,4 +164,4 @@ Giữ **nguyên mã** ở cả hai ngôn ngữ để cross-reference khớp: **P
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 01/10/2026 | R.1.1.0 | Cập nhật danh mục tên gói đối tác chuẩn hóa (Partner Core, Partner Growth, Partner Prime) |

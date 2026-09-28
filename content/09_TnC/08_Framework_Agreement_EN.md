@@ -2,11 +2,11 @@
 title: "SERVICE AGREEMENT (FRAMEWORK; ELECTRONIC EXECUTION)"
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 language: "en"
 distribution: "Khách hàng"
-previous_version: "R.1.0.0"
+previous_version: "R.1.1.0"
 tags:
   - loai/tnc
 ---
@@ -46,13 +46,15 @@ Email: [___] · Phone: [___]
 
 | Item | Details |
 |---|---|
-| Package / Service | [Starter / Scale / Premium / per-matter service] |
+| Package / Service | [Partner Core / Partner Growth / Partner Prime / per-matter professional service] |
+| Entity type | [Vietnamese Enterprise / Foreign-Invested Enterprise (FDI)] |
+| Accounting standard applied | [Circular 58/2026/TT-BTC (micro VN) / Circular 99/2025/TT-BTC (FDI & growing VN)] |
 | Scope (applicable module) | [Accounting & Tax / HR / Licensing / Legal / …] |
-| Threshold (transactions, headcount) | [___] |
-| Service Fees | [___ VND / month; VAT included/excluded] |
-| Term & minimum commitment | [minimum 03 months / per package] |
+| Quotas & FUP thresholds | [Monthly quota: ___ transactions/mo; Headcount: ___ employees; Hard ceiling: 1,500 txn/mo (Growth)] |
+| Service Fees | [___ VND / year (or quarter/month); VAT included/excluded] |
+| Term & minimum commitment | [per package / Q4 contracts commit through Dec 31 of next year (5 quarters)] |
 | **Payment model** | [**Prepaid** (default) / Postpaid / Prepaid via Wallet] |
-| Payment schedule | [prepaid per period / instalment 1: ___] |
+| Payment schedule | [prepaid per period / instalment 1: ___ / instalment 2: before March 15 (for annual contracts)] |
 | Payment method | [bank transfer / payment gateway / oBacker Wallet] |
 | Client referred by | [none / name of the referring party under oBacker's partner programme] |
 | Consent to share information with the referring party | The Client agrees that oBacker may provide the information under Article 7.2 to the party that referred the Client: [ ] Yes [ ] No |
@@ -100,7 +102,7 @@ The Service Fees, payment schedule and payment method follow the Order Form. **T
 
 ## Article 5. Term, renewal and termination
 
-5.1. The term and minimum commitment follow the Order Form (default minimum commitment of 03 months for recurring service packages).
+5.1. The term and minimum commitment follow the Order Form. For contracts signed during Q4, the Client commits to a minimum term extending through December 31st of the following calendar year (minimum 5 quarters). Where payment is split into instalments, instalment 2 must be completed no later than March 15th of the following year to finalize Financial Statements and annual CIT finalisation on schedule prior to March 31st.
 
 5.2. Unless the Order Form provides otherwise, the Agreement renews automatically for each successive period when the Client continues to pay the fees for the next period.
 
@@ -108,7 +110,7 @@ The Service Fees, payment schedule and payment method follow the Order Form. **T
 
 ## Article 6. Undertakings and allocation of responsibility
 
-The Client undertakes to provide information meeting the four criteria; Accurate, Complete, Lawful and On time; and bears ultimate legal responsibility for its business operations (Article 3 of the Master T&C). The mechanism for allocating responsibility and compensation according to the nature of the fault applies under Article 9 of the Master T&C and the liability clause in the corresponding Service-Specific Terms.
+The Client undertakes to provide information meeting the four criteria; Accurate, Complete, Lawful and On time; and bears ultimate legal responsibility for its business operations (Article 3 of the Master T&C). The mechanism for allocating responsibility and compensation according to the nature of the fault applies under Article 9 of the Master T&C and the liability clause in the corresponding Service-Specific Terms. Apart from direct administrative penalties and late-payment surcharges resulting from oBacker's fault, oBacker's total aggregate liability for all other damages does not exceed the total Service Fees actually paid by the Client in the last 03 months pursuant to Section 9.3 of the Master T&C.
 
 ## Article 7. Confidentiality and personal data protection
 
@@ -145,3 +147,11 @@ Electronic signature / Payment confirmation: `[Client e-signature or payment tra
 ---
 
 **oBacker © 2026 · oBacker Joint Stock Company · Tax code: 0402298185 · contact@obacker.com · https://obacker.com**
+
+---
+
+## REVISION LOG
+
+| Date | Version | Description |
+| --- | --- | --- |
+| 01/10/2026 | R.1.1.0 | Synchronize Order Form template (FDI entity, Circular 58/99, FUP quotas, billing cycles), Q4 commitment, March 15 checkpoint and 3-month liability cap |

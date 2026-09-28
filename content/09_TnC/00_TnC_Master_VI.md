@@ -2,11 +2,11 @@
 title: "ĐIỀU KHOẢN VÀ ĐIỀU KIỆN DỊCH VỤ (BẢN ĐIỀU KHOẢN CHUNG)"
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 language: "vi"
 distribution: "Khách hàng"
-previous_version: "R.1.0.0"
+previous_version: "R.1.1.0"
 tags:
   - loai/tnc
 ---
@@ -19,7 +19,7 @@ Trụ sở chính: Tầng 2, 06 Trần Phú, Phường Hải Châu, TP Đà Nẵ
 Văn phòng TP.HCM: 15 Hoàng Kế Viêm, Phường Bảy Hiền, TP. Hồ Chí Minh, Việt Nam
 Văn phòng Đà Nẵng: Số 54 đường Khuê Mỹ Đông 7, Phường Ngũ Hành Sơn, TP Đà Nẵng, Việt Nam
 
-**Phiên bản:** R.1.0.0 (VI-EN) · **Cập nhật:** 01/10/2026
+**Phiên bản:** R.1.1.0 (VI-EN) · **Cập nhật:** 01/10/2026
 
 ---
 
@@ -170,7 +170,7 @@ Chi tiết về cách oBacker thu thập, sử dụng, chia sẻ và bảo vệ 
 
 **(c) Lỗi hỗn hợp.** Nếu lỗi có nguyên nhân từ cả hai Bên, hai Bên cùng làm rõ và phân chia trách nhiệm theo tỷ lệ lỗi.
 
-**9.3. Giới hạn trách nhiệm tổng hợp.** Ngoài các khoản tiền phạt vi phạm hành chính và tiền chậm nộp trực tiếp mà oBacker chịu theo Mục 9.2(a) và 9.2(b)(i), tổng mức bồi thường của oBacker cho mọi thiệt hại khác phát sinh theo Hợp Đồng **không vượt quá tổng Phí Dịch Vụ** Quý Khách đã thanh toán theo Đơn Đặt Hàng tương ứng.
+**9.3. Giới hạn trách nhiệm tổng hợp.** Ngoài các khoản tiền phạt vi phạm hành chính và tiền chậm nộp trực tiếp mà oBacker chịu theo Mục 9.2(a) và 9.2(b)(i), tổng mức bồi thường của oBacker cho mọi thiệt hại khác phát sinh theo Hợp Đồng **không vượt quá tổng Phí Dịch Vụ** Quý Khách đã thực trả cho oBacker trong 03 tháng gần nhất theo Đơn Đặt Hàng tương ứng.
 
 **9.4. oBacker không chịu trách nhiệm đối với:**
 
@@ -239,17 +239,23 @@ Khối lượng và phí của dịch vụ Kế toán được xác định theo
 - **01 Giao Dịch được tính bằng 01 bút toán ghi nhận trên sổ kế toán**, tương ứng với 01 hóa đơn mua vào/bán ra hợp lệ, **HOẶC** 01 dòng phát sinh độc lập trên sao kê ngân hàng.
 - **Chính sách hỗ trợ (gộp một đợt chi trả lương):** Riêng các bút toán chi trả lương hàng tháng cho nhân viên, nếu thanh toán trong **cùng một đợt chi trả**, oBacker gộp lại và chỉ tính chung là **01 Giao Dịch**, không đếm theo số lượng nhân sự được nhận lương.
 
-Ngưỡng Giao Dịch/tháng của từng gói được ghi tại Đơn Đặt Hàng. Khi doanh nghiệp vượt ngưỡng, oBacker chủ động thông báo và đề xuất nâng gói; trong thời gian chuyển tiếp vẫn xử lý đầy đủ khối lượng nhưng có thể phát sinh phí điều chỉnh theo thỏa thuận.
+Ngưỡng Giao Dịch/tháng của từng gói được ghi tại Đơn Đặt Hàng. Các gói đối tác kế toán và quản trị định kỳ (Partner Core, Partner Growth, Partner Prime) áp dụng định mức giao dịch và chính sách sử dụng hợp lý (FUP). Gói Partner Growth áp dụng trần cứng 1.500 giao dịch/tháng; gói Partner Prime áp dụng các block giao dịch thỏa thuận (từ 1.500 đến trên 7.000 giao dịch/tháng). Toàn bộ phụ phí phát sinh vượt định mức hoặc block volume mở rộng được đối soát thực tế và xuất hóa đơn phụ phí định kỳ hàng tháng dương lịch (Monthly Post-billing).
 
 ## Điều 16. Dịch Vụ Kế Toán & Thuế; PL-KT
 
 Dịch Vụ Kế toán & Thuế được điều chỉnh chi tiết tại **PL-KT**. Tóm tắt:
 
-- **Kế toán:** ghi sổ theo Chế độ kế toán Việt Nam (Thông tư 99/2025/TT-BTC hoặc Thông tư 58/2026/TT-BTC tùy quy mô doanh nghiệp), chốt sổ hàng tháng, phát hành báo cáo tài chính nội bộ hàng tháng và BCTC năm, nộp BCTC đúng hạn.
+- **Kế toán:** ghi sổ theo Chế độ kế toán Việt Nam (Thông tư 99/2025/TT-BTC hoặc Thông tư 58/2026/TT-BTC tùy loại hình và quy mô doanh nghiệp theo Đơn Đặt Hàng), chốt sổ hàng tháng, phát hành báo cáo tài chính nội bộ hàng tháng và BCTC năm, nộp BCTC đúng hạn.
 - **Thuế doanh nghiệp:** kê khai và nộp GTGT, tạm nộp & quyết toán TNDN, **kê khai thuế nhà thầu nước ngoài (FCT) khi phát sinh**; theo dõi và thông báo nghĩa vụ thuế.
 - **Hóa đơn điện tử:** thiết lập, kích hoạt hệ thống hóa đơn điện tử theo NĐ 254/2026/NĐ-CP và TT 91/2026/TT-BTC.
 
-**Kê khai thuế nhà thầu nước ngoài (FCT):** Việc kê khai FCT khi Quý Khách thanh toán cho nhà cung cấp nước ngoài (phần mềm dạng dịch vụ, quảng cáo trực tuyến, lưu trữ máy chủ, bản quyền…) được **bao gồm miễn phí trong tất cả các gói, kể cả gói Starter**. Quý Khách có nghĩa vụ báo ngay cho oBacker qua người phụ trách tài khoản hoặc email contact@obacker.com khi phát sinh giao dịch, kèm hóa đơn, chứng từ thanh toán và mô tả dịch vụ. Cơ sở pháp lý FCT: **Thông tư 69/2025/TT-BTC** Điều 9 (thuế giá trị gia tăng) và **Thông tư 20/2026/TT-BTC** Điều 7 (thuế thu nhập doanh nghiệp).
+**Kê khai thuế nhà thầu nước ngoài (FCT):** Việc kê khai FCT khi Quý Khách thanh toán cho nhà cung cấp nước ngoài (phần mềm dạng dịch vụ, quảng cáo trực tuyến, lưu trữ máy chủ, bản quyền…) được **bao gồm trong tất cả các gói đối tác định kỳ, kể cả gói Partner Core, với định mức tối đa 03 hợp đồng nhà thầu nước ngoài mỗi tháng**. Từ hợp đồng thứ tư trở đi trong cùng một tháng, oBacker áp dụng phụ thu kê khai theo danh mục dịch vụ chuẩn hóa (mã ADD-FCT-RETURN). Quý Khách có nghĩa vụ báo ngay cho oBacker qua người phụ trách tài khoản hoặc email contact@obacker.com khi phát sinh giao dịch, kèm hóa đơn, chứng từ thanh toán và mô tả dịch vụ. Cơ sở pháp lý FCT: **Thông tư 69/2025/TT-BTC** Điều 9 (thuế giá trị gia tăng) và **Thông tư 20/2026/TT-BTC** Điều 7 (thuế thu nhập doanh nghiệp).
+
+**Chính sách kiểm toán độc lập và doanh nghiệp FDI:** Căn cứ Điều 15 Nghị định số 17/2012/NĐ-CP và Thông tư số 186/2010/TT-BTC, 100% doanh nghiệp có vốn đầu tư nước ngoài (FDI) bắt buộc phải kiểm toán Báo cáo tài chính hàng năm để đủ điều kiện chuyển lợi nhuận ra nước ngoài. oBacker thực hiện ghi sổ và lập BCTC theo Thông tư 99/2025/TT-BTC cho toàn bộ khách hàng FDI; độc lập với hoạt động kiểm toán và không thu hộ phí kiểm toán. Quý Khách trực tiếp ký hợp đồng và chi trả phí cho công ty kiểm toán độc lập; oBacker chịu trách nhiệm cung cấp số liệu, hồ sơ kế toán và giải trình với kiểm toán viên.
+
+**Thanh tra, kiểm tra thuế tại trụ sở:** Gói dịch vụ định kỳ bao gồm hỗ trợ giải trình số liệu từ xa qua cổng điện tử. Trường hợp cơ quan thuế ban hành quyết định thanh tra, kiểm tra tại bàn tại trụ sở doanh nghiệp và Quý Khách yêu cầu chuyên viên oBacker trực tiếp tham gia làm việc với đoàn kiểm tra, hai Bên ký phụ lục công việc theo vụ việc riêng theo danh mục dịch vụ chuẩn hóa (mã ADD-TAX-INSPECT).
+
+**Cơ chế chốt chặn hợp đồng Quý 4 và ngày 15/03:** Khách hàng ký hợp đồng trong Quý 4 cam kết thời hạn dịch vụ kéo dài tối thiểu đến hết ngày 31/12 của năm tiếp theo (tối thiểu 05 quý). Trường hợp thanh toán chia đợt, đợt 2 phải được hoàn tất chậm nhất vào ngày 15/03 của năm tiếp theo. Đến ngày 15/03 nếu Quý Khách chưa thanh toán đợt 2, oBacker tiến hành nộp BCTC và Quyết toán thuế tạm thời căn cứ trên số liệu hiện có trước ngày 31/03 để bảo vệ Quý Khách khỏi bị xử phạt chậm nộp; sau khi hoàn tất thanh toán, oBacker mới thực hiện rà soát hoàn chỉnh và nộp hồ sơ khai bổ sung.
 
 **oBacker không nộp thay tiền thuế**, trừ khi Quý Khách yêu cầu liên kết tài khoản thuế điện tử với tài khoản ngân hàng và đã xác nhận tờ khai.
 
@@ -332,4 +338,4 @@ Khi oBacker xử lý dữ liệu của người lao động/cổ đông của Qu
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 01/10/2026 | R.1.1.0 | Cập nhật ranh giới bồi thường 3 tháng, trần cứng 1.500 ct/tháng, cơ chế FUP, chính sách FCT 3 HĐ/tháng, thanh tra tại bàn và kiểm toán độc lập FDI |

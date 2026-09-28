@@ -29,7 +29,7 @@ tags:
 
 ## 1. Danh mục tài liệu
 
-Trang này ghi 20 lượt sửa thuộc các bản cũ của 10 tài liệu, tính tới 01/10/2026. Lượt sửa của bản hiện hành ghi tại mục NHẬT KÝ SỬA trong chính tài liệu đó.
+Trang này ghi 40 lượt sửa thuộc các bản cũ của 30 tài liệu, tính tới 01/10/2026. Lượt sửa của bản hiện hành ghi tại mục NHẬT KÝ SỬA trong chính tài liệu đó.
 
 | Tài liệu | Số lượt sửa | Ngày sửa gần nhất |
 | --- | --- | --- |
@@ -43,6 +43,26 @@ Trang này ghi 20 lượt sửa thuộc các bản cũ của 10 tài liệu, tí
 | [[03_Mo_hinh_van_hanh_bon_muc_kiem_soat_va_ma_tran_RACI\|OBK-QCNS-03]] | 2 | 01/10/2026 |
 | [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] | 2 | 01/10/2026 |
 | [[NS-02_Phieu_danh_gia_cheo_hieu_suat\|NS-02]] | 2 | 01/10/2026 |
+| [[00_Danh_muc_dich_vu_va_bang_gia\|OBK-DM-00]] | 1 | 01/10/2026 |
+| [[01_Goi_dich_vu_va_hang_muc_kem_goi\|OBK-DM-GOI]] | 1 | 01/10/2026 |
+| [[02_Bang_gia_Giay_phep_va_doanh_nghiep\|OBK-DM-GP]] | 1 | 01/10/2026 |
+| [[03_Bang_gia_Ke_toan_va_thue\|OBK-DM-KT]] | 1 | 01/10/2026 |
+| [[04_Bang_gia_Lao_dong_va_giay_to_nguoi_nuoc_ngoai\|OBK-DM-LD]] | 1 | 01/10/2026 |
+| [[05_Bang_gia_Dich_vu_phap_ly_va_so_huu_tri_tue\|OBK-DM-LS]] | 1 | 01/10/2026 |
+| [[06_Bang_gia_Chu_ky_so_va_hoa_don_dien_tu\|OBK-DM-CKS]] | 1 | 01/10/2026 |
+| [[07_Bang_gia_Dich_vu_o_nuoc_ngoai\|OBK-DM-NN]] | 1 | 01/10/2026 |
+| [[08_Hang_muc_ghi_nhan_rieng\|OBK-DM-NG]] | 1 | 01/10/2026 |
+| [[00_TnC_Master_VI\|00_TnC_Master_VI]] | 1 | 01/10/2026 |
+| [[00_TnC_Master_EN\|00_TnC_Master_EN]] | 1 | 01/10/2026 |
+| [[02_Accounting_Tax_VI\|02_Accounting_Tax_VI]] | 1 | 01/10/2026 |
+| [[02_Accounting_Tax_EN\|02_Accounting_Tax_EN]] | 1 | 01/10/2026 |
+| [[04_Legal_Services_VI\|04_Legal_Services_VI]] | 1 | 01/10/2026 |
+| [[04_Legal_Services_EN\|04_Legal_Services_EN]] | 1 | 01/10/2026 |
+| [[05_Client_Guide_VI\|05_Client_Guide_VI]] | 1 | 01/10/2026 |
+| [[05_Client_Guide_EN\|05_Client_Guide_EN]] | 1 | 01/10/2026 |
+| [[08_Framework_Agreement_VI\|08_Framework_Agreement_VI]] | 1 | 01/10/2026 |
+| [[08_Framework_Agreement_EN\|08_Framework_Agreement_EN]] | 1 | 01/10/2026 |
+| [[GLOSSARY\|GLOSSARY]] | 1 | 01/10/2026 |
 
 ## 2. Chi tiết từng tài liệu
 
@@ -114,4 +134,124 @@ Trang này ghi 20 lượt sửa thuộc các bản cũ của 10 tài liệu, tí
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
 | 27/09/2026 | R.2.0.0 | Ghi nhận bãi bỏ biểu mẫu đánh giá chéo theo chủ trương tinh giản khung đánh giá hiệu suất và OBK-QCNS-08 |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+
+### `OBK-DM-00`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+
+### `OBK-DM-GOI`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+
+### `OBK-DM-GP`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+
+### `OBK-DM-KT`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+
+### `OBK-DM-LD`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+
+### `OBK-DM-LS`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+
+### `OBK-DM-CKS`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+
+### `OBK-DM-NN`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+
+### `OBK-DM-NG`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+
+### `00_TnC_Master_VI`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+
+### `00_TnC_Master_EN`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+
+### `02_Accounting_Tax_VI`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+
+### `02_Accounting_Tax_EN`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+
+### `04_Legal_Services_VI`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+
+### `04_Legal_Services_EN`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+
+### `05_Client_Guide_VI`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+
+### `05_Client_Guide_EN`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+
+### `08_Framework_Agreement_VI`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+
+### `08_Framework_Agreement_EN`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+
+### `GLOSSARY`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
 | 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

@@ -2,11 +2,11 @@
 title: "ĐIỀU KHOẢN DỊCH VỤ KẾ TOÁN & THUẾ (PL-KT)"
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 language: "vi"
 distribution: "Khách hàng"
-previous_version: "R.1.0.0"
+previous_version: "R.1.1.0"
 tags:
   - loai/tnc
 ---
@@ -16,7 +16,7 @@ tags:
 *Điều Khoản Dịch Vụ Cụ Thể, bộ phận không tách rời của Bản Điều Khoản Chung; Công ty Cổ phần oBacker*
 MST: 0402298185 · Tầng 2, 06 Trần Phú, Phường Hải Châu, Thành phố Đà Nẵng · contact@obacker.com
 
-**Phiên bản:** R.1.0.0 (VI-EN) · **Cập nhật:** 01/10/2026
+**Phiên bản:** R.1.1.0 (VI-EN) · **Cập nhật:** 01/10/2026
 
 > Tài liệu này là Điều Khoản Dịch Vụ Cụ Thể cho Dịch Vụ Kế toán & Thuế ("**Dịch Vụ**"), gồm hai hợp phần: (A) Kế toán và (B) Thuế doanh nghiệp (GTGT, TNDN, thuế nhà thầu nước ngoài (FCT), hóa đơn điện tử). Tài liệu áp dụng khi Dịch Vụ được ghi tại Đơn Đặt Hàng. **Nếu tài liệu này khác với Bản Điều Khoản Chung, tài liệu này được ưu tiên áp dụng đối với Dịch Vụ.**
 >
@@ -48,7 +48,7 @@ Ngưỡng Giao Dịch/tháng theo gói được ghi tại Đơn Đặt Hàng. Kh
 
 **2.1. Phạm vi thực hiện:**
 
-- Tiếp nhận sao kê ngân hàng, hóa đơn và chứng từ; ghi nhận và phân loại từng Giao Dịch theo **Chế độ kế toán Việt Nam** (Thông tư 99/2025/TT-BTC hoặc Thông tư 58/2026/TT-BTC tùy quy mô doanh nghiệp, theo Đơn Đặt Hàng)
+- Tiếp nhận sao kê ngân hàng, hóa đơn và chứng từ; ghi nhận và phân loại từng Giao Dịch theo **Chế độ kế toán Việt Nam**: áp dụng Thông tư 58/2026/TT-BTC đối với doanh nghiệp Việt Nam siêu nhỏ; áp dụng Thông tư 99/2025/TT-BTC đối với 100% doanh nghiệp có vốn đầu tư nước ngoài (FDI) và doanh nghiệp Việt Nam quy mô tăng trưởng theo Đơn Đặt Hàng
 - Lập các loại sổ sách theo quy định của pháp luật
 - Chốt sổ hàng tháng; phát hành **báo cáo tài chính nội bộ hàng tháng**
 - Lập và nộp **Báo cáo tài chính năm** (Bảng cân đối kế toán, Kết quả hoạt động kinh doanh, Lưu chuyển tiền tệ, Thuyết minh BCTC) cho cơ quan thuế đúng hạn
@@ -75,7 +75,7 @@ Ngưỡng Giao Dịch/tháng theo gói được ghi tại Đơn Đặt Hàng. Kh
 >
 > **Lưu ý ranh giới:** CTV/freelancer làm việc thường xuyên từ đủ 01 tháng trở lên, đều đặn và có tính chất lao động có thể bị cơ quan BHXH xác định là quan hệ lao động và truy thu BHXH; khi đó chuyển sang nhân viên và các nghĩa vụ liên quan chuyển về PL-NS. oBacker khuyến nghị Quý Khách chuyển sang hợp đồng lao động chính thức trong trường hợp này.
 
-**3.2. Kê khai thuế nhà thầu (FCT); miễn phí trong mọi gói.** Việc kê khai FCT khi Quý Khách thanh toán cho nhà cung cấp nước ngoài (phần mềm dịch vụ SaaS, quảng cáo trực tuyến, lưu trữ web, tên miền, mạng phân phối nội dung, bản quyền, freelancer hoặc đơn vị dịch vụ nước ngoài…) được **bao gồm miễn phí trong tất cả các gói, kể cả gói Starter**. Cơ sở pháp lý: **Thông tư 69/2025/TT-BTC** Điều 9 (thuế giá trị gia tăng) và **Thông tư 20/2026/TT-BTC** Điều 7 (thuế thu nhập doanh nghiệp).
+**3.2. Kê khai thuế nhà thầu (FCT); định mức tích hợp trong gói.** Việc kê khai FCT khi Quý Khách thanh toán cho nhà cung cấp nước ngoài (phần mềm dịch vụ SaaS, quảng cáo trực tuyến, lưu trữ web, tên miền, mạng phân phối nội dung, bản quyền, freelancer hoặc đơn vị dịch vụ nước ngoài…) được **tích hợp trong tất cả các gói đối tác định kỳ, kể cả gói Partner Core, với định mức tối đa 03 hợp đồng nhà thầu nước ngoài phát sinh mỗi tháng**. Từ hợp đồng thứ tư trở đi trong cùng một tháng, oBacker áp dụng phụ thu kê khai theo danh mục dịch vụ chuẩn hóa (mã ADD-FCT-RETURN). Cơ sở pháp lý: **Thông tư 69/2025/TT-BTC** Điều 9 (thuế giá trị gia tăng) và **Thông tư 20/2026/TT-BTC** Điều 7 (thuế thu nhập doanh nghiệp).
 
 Quý Khách có nghĩa vụ **thông báo ngay** cho oBacker qua người phụ trách tài khoản hoặc email contact@obacker.com khi phát sinh giao dịch thanh toán nước ngoài (quẹt thẻ tín dụng/ghi nợ, chuyển khoản quốc tế, cổng trung gian như Stripe/PayPal/Wise), kèm hóa đơn/biên nhận, chứng từ thanh toán và mô tả dịch vụ. Hóa đơn cần ghi đúng mã số thuế và địa chỉ công ty Việt Nam.
 
@@ -158,9 +158,11 @@ Hai phương thức kê khai FCT (Quý Khách chọn):
 - **Giao dịch thanh toán cho nhà cung cấp nước ngoài** (phần mềm dịch vụ SaaS, quảng cáo trực tuyến, lưu trữ web, bản quyền): thông báo ngay, kèm hóa đơn/biên nhận, chứng từ thanh toán và mô tả dịch vụ, để oBacker xác định và kê khai FCT đúng hạn
 - Quý Khách phản hồi và xác nhận số liệu trước khi oBacker khóa sổ, trong thời hạn ghi tại Đơn Đặt Hàng.
 
-## Điều 7. Phối hợp khi cơ quan thuế thanh tra, kiểm tra
+## Điều 7. Phối hợp khi cơ quan thuế thanh tra, kiểm tra và kiểm toán độc lập
 
-oBacker cung cấp bản sao sổ sách điện tử và hỗ trợ giải trình số liệu đã xử lý. Quý Khách xuất trình chứng từ gốc, giấy tờ nội bộ đi kèm và giải trình bản chất nghiệp vụ kinh tế. oBacker không chịu trách nhiệm về tính hợp pháp của chứng từ hoặc quyết định xử phạt phát sinh từ thông tin Quý Khách cung cấp sai hoặc thiếu (xem Điều 8).
+**7.1. Thanh tra, kiểm tra thuế:** Gói dịch vụ định kỳ bao gồm cung cấp bản sao sổ sách điện tử và hỗ trợ giải trình số liệu từ xa qua cổng thông tin điện tử. Quý Khách xuất trình chứng từ gốc, giấy tờ nội bộ đi kèm và giải trình bản chất nghiệp vụ kinh tế. Trường hợp cơ quan thuế kiểm tra trực tiếp tại trụ sở và Quý Khách yêu cầu chuyên viên oBacker trực tiếp tham gia làm việc với đoàn kiểm tra tại bàn, hai Bên ký phụ lục công việc riêng theo biểu phí quy định tại danh mục dịch vụ (mã ADD-TAX-INSPECT). oBacker không chịu trách nhiệm về tính hợp pháp của chứng từ hoặc quyết định xử phạt phát sinh từ thông tin Quý Khách cung cấp sai hoặc thiếu (xem Điều 8).
+
+**7.2. Kiểm toán độc lập (đối với doanh nghiệp FDI):** 100% doanh nghiệp có vốn đầu tư nước ngoài (FDI) bắt buộc phải kiểm toán BCTC hàng năm theo quy định tại Điều 15 Nghị định 17/2012/NĐ-CP và Thông tư 186/2010/TT-BTC. oBacker hoạt động độc lập với các đơn vị kiểm toán độc lập; Quý Khách ký hợp đồng và thanh toán phí trực tiếp cho công ty kiểm toán. oBacker chịu trách nhiệm chuẩn bị bộ hồ sơ số liệu kế toán hoàn chỉnh theo Thông tư 99/2025/TT-BTC, bàn giao file làm việc và phối hợp giải trình số liệu với kiểm toán viên độc lập.
 
 ## Điều 8. Phân định trách nhiệm và cơ chế bồi thường
 
@@ -198,4 +200,4 @@ Phí Dịch Vụ được xác định theo Đơn Đặt Hàng (theo gói hoặc
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 01/10/2026 | R.1.1.0 | Đồng bộ chế độ kế toán nhị phân (TT 58 cho VN siêu nhỏ, TT 99 cho 100% FDI), định mức FCT và quy chế thanh tra/kiểm toán độc lập |

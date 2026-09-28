@@ -2,11 +2,11 @@
 title: "ACCOUNTING & TAX SERVICE TERMS (PL-KT)"
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 language: "en"
 distribution: "Khách hàng"
-previous_version: "R.1.0.0"
+previous_version: "R.1.1.0"
 tags:
   - loai/tnc
 ---
@@ -16,7 +16,7 @@ tags:
 *Service-Specific Terms, an integral part of the Master T&C; oBacker Joint Stock Company*
 Tax code: 0402298185 · Floor 2, 06 Tran Phu Street, Hai Chau Ward, Da Nang, Vietnam · contact@obacker.com
 
-**Version:** R.1.0.0 (VI-EN) · **Updated:** 27 September 2026
+**Version:** R.1.1.0 (VI-EN) · **Updated:** 27 September 2026
 
 > These are the Service-Specific Terms for the Accounting & Tax Services (the "**Services**"), covering two components: (A) Accounting and (B) Corporate Tax (VAT, CIT, Foreign Contractor Tax (FCT), and e-invoices). They apply where the Services are recorded in the Order Form. **If these Terms differ from the Master T&C, these Terms prevail for the Services.**
 >
@@ -48,7 +48,7 @@ The monthly Transaction threshold per package is stated in the Order Form. When 
 
 **2.1. Scope of work:**
 
-- Receive bank statements, invoices, and supporting documents; record and classify each Transaction under the **Vietnamese Accounting System** (Circular No. 99/2025/TT-BTC or Circular No. 58/2026/TT-BTC depending on company size, per the Order Form)
+- Receive bank statements, invoices, and supporting documents; record and classify each Transaction under the **Vietnamese Accounting System**: applying Circular No. 58/2026/TT-BTC for Vietnamese micro enterprises; applying Circular No. 99/2025/TT-BTC for 100% of foreign-invested enterprises (FDI) and growing Vietnamese enterprises per the Order Form
 - Maintain the accounting books required by law
 - Close the books monthly; issue **monthly internal financial statements**
 - Prepare and file the **annual financial statements** (Balance Sheet, Income Statement, Cash Flow Statement, and Notes to the financial statements) with the tax authority on time
@@ -75,7 +75,7 @@ The monthly Transaction threshold per package is stated in the Order Form. When 
 >
 > **Boundary note:** A collaborator/freelancer working regularly for more than one month, steadily and with the character of employment, may be reclassified by the social insurance authority as an employment relationship and subject to a back-tax/clawback assessment for social insurance; in which case the person is moved to employee status and the related obligations transfer to PL-NS. oBacker recommends that the Client move to a formal labour contract in such cases.
 >
-**3.2. FCT filing; free in every package.** FCT filing when the Client pays foreign suppliers (SaaS, online advertising, hosting, domains, CDN, licences, foreign freelancers/agencies, etc.) is **included free in all packages, including the Starter package**. Legal basis: **Circular No. 69/2025/TT-BTC** Article 9 (value-added tax) and **Circular No. 20/2026/TT-BTC** Article 7 (corporate income tax).
+**3.2. FCT filing; included in all partner packages.** FCT filing when the Client pays foreign suppliers (SaaS, online advertising, hosting, domains, CDN, licences, foreign freelancers/agencies, etc.) is **included in all periodic partner retainer packages, including Partner Core, with a quota of up to 03 cross-border contracts per month**. From the 4th contract onward within the same month, an additional filing fee applies under the master service catalog (SKU `ADD-FCT-RETURN`). Legal basis: **Circular No. 69/2025/TT-BTC** Article 9 (value-added tax) and **Circular No. 20/2026/TT-BTC** Article 7 (corporate income tax).
 
 The Client must **notify oBacker immediately** through the assigned Account Manager or via email at contact@obacker.com upon any foreign payment transaction (credit/debit card charges, international transfers, intermediary gateways such as Stripe/PayPal/Wise), attaching the invoice/receipt, proof of payment, and a description of the service. The invoice must state the correct Vietnamese company tax code and address.
 
@@ -158,9 +158,11 @@ Two FCT filing methods (the Client chooses):
 - **Payment transactions to foreign suppliers** (SaaS, advertising, hosting, licences): notify immediately, attaching the invoice/receipt, proof of payment, and a description of the service, so oBacker can determine and file FCT on time
 - The Client responds to and confirms figures before oBacker closes the books, within the period stated in the Order Form.
 
-## Article 7. Cooperation During Tax Inspections and Audits
+## Article 7. Cooperation During Tax Inspections, Audits, and Statutory Independent Audits
 
-oBacker provides electronic copies of the books and supports the explanation of processed figures. The Client presents original documents and accompanying internal papers, and explains the nature of the economic activities. oBacker is not responsible for the legality of documents or for any penalty decision arising from incorrect or incomplete information provided by the Client (see Article 8).
+**7.1. Tax inspections and audits:** The standard periodic retainer includes providing electronic copies of the books and supporting the explanation of processed figures remotely via official e-portals. The Client presents original documents and accompanying internal papers, and explains the nature of the economic activities. Where the tax authority inspects on-site at company premises and the Client requests senior oBacker staff to attend in person, the Parties execute an ad-hoc engagement under master catalog SKU `ADD-TAX-INSPECT`. oBacker is not responsible for the legality of documents or for any penalty decision arising from incorrect or incomplete information provided by the Client (see Article 8).
+
+**7.2. Statutory independent audits (for FDI enterprises):** 100% of foreign-invested enterprises (FDI) are legally required to undergo annual independent audits of their Financial Statements pursuant to Article 15 of Decree No. 17/2012/ND-CP and Circular No. 186/2010/TT-BTC. oBacker operates independently from audit firms; the Client directly contracts and pays the independent auditor. oBacker prepares complete accounting files under Circular No. 99/2025/TT-BTC, delivers electronic workpapers, and liaises with the independent auditors to explain recorded figures.
 
 ## Article 8. Allocation of Liability and Compensation
 
@@ -188,12 +190,6 @@ The Service Fees are set in the Order Form (by package or by number of Transacti
 
 ## REVISION LOG
 
-| Date | Version | R.1.0.0, currently applicable |
+| Date | Version | R.1.1.0, currently applicable |
 | --- | --- | --- |
-| 27/09/2026 | R.2.1.0 | Replaced Circular No. 133/2016/TT-BTC with Circular No. 58/2026/TT-BTC for micro-enterprises in Article 2.1.<br>Added management and authorization policy for dedicated back-office USB Token hardware in Article 3.4.<br>Expanded monthly bookkeeping buffer to Days 6-12 in Article 5.1 |
-
----
-
-> **The four input criteria (Article 3 of the Master T&C):** Accurate; Complete; Legal; On time. The Client retains its own original documents under the Law on Accounting; the electronic copies stored by oBacker are supplementary only and do not replace this obligation.
-
-**oBacker Joint Stock Company** · Tax code: 0402298185 · Floor 2, 06 Tran Phu Street, Hai Chau Ward, Da Nang, Vietnam · contact@obacker.com · https://obacker.com
+| 01/10/2026 | R.1.1.0 | Synchronize binary accounting standards (Circular 58 for micro VN, Circular 99 for 100% FDI), FCT quotas and audit representation |

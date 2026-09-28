@@ -10,7 +10,7 @@ tags:
 > [!info] TRANG NÀY LÀ GÌ
 > Trang này ghi trạng thái của 182 tài liệu trong kho. Trang này được sinh lại từ thông tin đầu tệp của từng tài liệu; nơi sửa một trạng thái là bảng Thông tin phiên bản của chính tài liệu đó.
 
-Cập nhật ngày 27/09/2026.
+Cập nhật ngày 28/09/2026.
 
 ## Tổ chức và phân quyền
 
@@ -199,25 +199,25 @@ Thư mục `09_TnC`, 20 tài liệu.
 | Mã | Tài liệu | Cấp | Bản | Trạng thái | Người soát và tình trạng | Người phê duyệt và tình trạng | Ngày biên soạn | Rà soát tiếp theo |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | không có mã | [[00_README_Index]] |  | R.1.0.0 | đang áp dụng |  |  |  |  |
-| không có mã | [[00_TnC_Master_EN]] |  | R.1.0.0 | đang áp dụng |  |  |  |  |
-| không có mã | [[00_TnC_Master_VI]] |  | R.1.0.0 | đang áp dụng |  |  |  |  |
+| không có mã | [[00_TnC_Master_EN]] |  | R.1.1.0 | đang áp dụng |  |  |  |  |
+| không có mã | [[00_TnC_Master_VI]] |  | R.1.1.0 | đang áp dụng |  |  |  |  |
 | không có mã | [[01_Licensing_EN]] |  | R.1.0.0 | đang áp dụng |  |  |  |  |
 | không có mã | [[01_Licensing_VI]] |  | R.1.0.0 | đang áp dụng |  |  |  |  |
-| không có mã | [[02_Accounting_Tax_EN]] |  | R.1.0.0 | đang áp dụng |  |  |  |  |
-| không có mã | [[02_Accounting_Tax_VI]] |  | R.1.0.0 | đang áp dụng |  |  |  |  |
+| không có mã | [[02_Accounting_Tax_EN]] |  | R.1.1.0 | đang áp dụng |  |  |  |  |
+| không có mã | [[02_Accounting_Tax_VI]] |  | R.1.1.0 | đang áp dụng |  |  |  |  |
 | không có mã | [[03_HR_Payroll_EN]] |  | R.1.0.0 | đang áp dụng |  |  |  |  |
 | không có mã | [[03_HR_Payroll_VI]] |  | R.1.0.0 | đang áp dụng |  |  |  |  |
-| không có mã | [[04_Legal_Services_EN]] |  | R.1.0.0 | đang áp dụng |  |  |  |  |
-| không có mã | [[04_Legal_Services_VI]] |  | R.1.0.0 | đang áp dụng |  |  |  |  |
-| không có mã | [[05_Client_Guide_EN]] |  | R.1.0.0 | đang áp dụng |  |  |  |  |
-| không có mã | [[05_Client_Guide_VI]] |  | R.1.0.0 | đang áp dụng |  |  |  |  |
+| không có mã | [[04_Legal_Services_EN]] |  | R.1.1.0 | đang áp dụng |  |  |  |  |
+| không có mã | [[04_Legal_Services_VI]] |  | R.1.1.0 | đang áp dụng |  |  |  |  |
+| không có mã | [[05_Client_Guide_EN]] |  | R.1.1.0 | đang áp dụng |  |  |  |  |
+| không có mã | [[05_Client_Guide_VI]] |  | R.1.1.0 | đang áp dụng |  |  |  |  |
 | không có mã | [[06_Data_Protection_EN]] |  | R.1.0.0 | đang áp dụng |  |  |  |  |
 | không có mã | [[06_Data_Protection_VI]] |  | R.1.0.0 | đang áp dụng |  |  |  |  |
 | không có mã | [[07_Wallet_EN]] |  | R.1.0.0 | đang áp dụng |  |  |  |  |
 | không có mã | [[07_Wallet_VI]] |  | R.1.0.0 | đang áp dụng |  |  |  |  |
-| không có mã | [[08_Framework_Agreement_EN]] |  | R.1.0.0 | đang áp dụng |  |  |  |  |
-| không có mã | [[08_Framework_Agreement_VI]] |  | R.1.0.0 | đang áp dụng |  |  |  |  |
-| không có mã | [[GLOSSARY]] |  | R.1.0.0 | đang áp dụng |  |  |  |  |
+| không có mã | [[08_Framework_Agreement_EN]] |  | R.1.1.0 | đang áp dụng |  |  |  |  |
+| không có mã | [[08_Framework_Agreement_VI]] |  | R.1.1.0 | đang áp dụng |  |  |  |  |
+| không có mã | [[GLOSSARY]] |  | R.1.1.0 | đang áp dụng |  |  |  |  |
 
 ## Danh mục dịch vụ và bảng giá
 
@@ -225,15 +225,15 @@ Thư mục `10_DanhMuc`, 9 tài liệu.
 
 | Mã | Tài liệu | Cấp | Bản | Trạng thái | Người soát và tình trạng | Người phê duyệt và tình trạng | Ngày biên soạn | Rà soát tiếp theo |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[00_Danh_muc_dich_vu_va_bang_gia\|OBK-DM-00]] | [[00_Danh_muc_dich_vu_va_bang_gia]] | Danh mục | R.1.0.0 | đang áp dụng | CEO; đã soát | CEO; đã phê duyệt | 01/10/2026 |  |
-| [[01_Goi_dich_vu_va_hang_muc_kem_goi\|OBK-DM-GOI]] | [[01_Goi_dich_vu_va_hang_muc_kem_goi]] | Danh mục | R.1.0.0 | đang áp dụng | CEO; đã soát | CEO; đã phê duyệt | 01/10/2026 |  |
-| [[02_Bang_gia_Giay_phep_va_doanh_nghiep\|OBK-DM-GP]] | [[02_Bang_gia_Giay_phep_va_doanh_nghiep]] | Danh mục | R.1.0.0 | đang áp dụng | CEO; đã soát | CEO; đã phê duyệt | 01/10/2026 |  |
-| [[03_Bang_gia_Ke_toan_va_thue\|OBK-DM-KT]] | [[03_Bang_gia_Ke_toan_va_thue]] | Danh mục | R.1.0.0 | đang áp dụng | CEO; đã soát | CEO; đã phê duyệt | 01/10/2026 |  |
-| [[04_Bang_gia_Lao_dong_va_giay_to_nguoi_nuoc_ngoai\|OBK-DM-LD]] | [[04_Bang_gia_Lao_dong_va_giay_to_nguoi_nuoc_ngoai]] | Danh mục | R.1.0.0 | đang áp dụng | CEO; đã soát | CEO; đã phê duyệt | 01/10/2026 |  |
-| [[05_Bang_gia_Dich_vu_phap_ly_va_so_huu_tri_tue\|OBK-DM-LS]] | [[05_Bang_gia_Dich_vu_phap_ly_va_so_huu_tri_tue]] | Danh mục | R.1.0.0 | đang áp dụng | CEO; đã soát | CEO; đã phê duyệt | 01/10/2026 |  |
-| [[06_Bang_gia_Chu_ky_so_va_hoa_don_dien_tu\|OBK-DM-CKS]] | [[06_Bang_gia_Chu_ky_so_va_hoa_don_dien_tu]] | Danh mục | R.1.0.0 | đang áp dụng | CEO; đã soát | CEO; đã phê duyệt | 01/10/2026 |  |
-| [[07_Bang_gia_Dich_vu_o_nuoc_ngoai\|OBK-DM-NN]] | [[07_Bang_gia_Dich_vu_o_nuoc_ngoai]] | Danh mục | R.1.0.0 | đang áp dụng | CEO; đã soát | CEO; đã phê duyệt | 01/10/2026 |  |
-| [[08_Hang_muc_ghi_nhan_rieng\|OBK-DM-NG]] | [[08_Hang_muc_ghi_nhan_rieng]] | Danh mục | R.1.0.0 | đang áp dụng | CEO; đã soát | CEO; đã phê duyệt | 01/10/2026 |  |
+| [[00_Danh_muc_dich_vu_va_bang_gia\|OBK-DM-00]] | [[00_Danh_muc_dich_vu_va_bang_gia]] | Danh mục | R.1.1.0 | đang áp dụng | CEO; chưa soát | CEO; chưa phê duyệt | 15/09/2026 |  |
+| [[01_Goi_dich_vu_va_hang_muc_kem_goi\|OBK-DM-GOI]] | [[01_Goi_dich_vu_va_hang_muc_kem_goi]] | Danh mục | R.1.1.0 | đang áp dụng | CEO; chưa soát | CEO; chưa phê duyệt | 15/09/2026 |  |
+| [[02_Bang_gia_Giay_phep_va_doanh_nghiep\|OBK-DM-GP]] | [[02_Bang_gia_Giay_phep_va_doanh_nghiep]] | Danh mục | R.1.1.0 | đang áp dụng | CEO; chưa soát | CEO; chưa phê duyệt | 15/09/2026 |  |
+| [[03_Bang_gia_Ke_toan_va_thue\|OBK-DM-KT]] | [[03_Bang_gia_Ke_toan_va_thue]] | Danh mục | R.1.1.0 | đang áp dụng | CEO; chưa soát | CEO; chưa phê duyệt | 15/09/2026 |  |
+| [[04_Bang_gia_Lao_dong_va_giay_to_nguoi_nuoc_ngoai\|OBK-DM-LD]] | [[04_Bang_gia_Lao_dong_va_giay_to_nguoi_nuoc_ngoai]] | Danh mục | R.1.1.0 | đang áp dụng | CEO; chưa soát | CEO; chưa phê duyệt | 15/09/2026 |  |
+| [[05_Bang_gia_Dich_vu_phap_ly_va_so_huu_tri_tue\|OBK-DM-LS]] | [[05_Bang_gia_Dich_vu_phap_ly_va_so_huu_tri_tue]] | Danh mục | R.1.1.0 | đang áp dụng | CEO; chưa soát | CEO; chưa phê duyệt | 15/09/2026 |  |
+| [[06_Bang_gia_Chu_ky_so_va_hoa_don_dien_tu\|OBK-DM-CKS]] | [[06_Bang_gia_Chu_ky_so_va_hoa_don_dien_tu]] | Danh mục | R.1.1.0 | đang áp dụng | CEO; chưa soát | CEO; chưa phê duyệt | 15/09/2026 |  |
+| [[07_Bang_gia_Dich_vu_o_nuoc_ngoai\|OBK-DM-NN]] | [[07_Bang_gia_Dich_vu_o_nuoc_ngoai]] | Danh mục | R.1.1.0 | đang áp dụng | CEO; chưa soát | CEO; chưa phê duyệt | 15/09/2026 |  |
+| [[08_Hang_muc_ghi_nhan_rieng\|OBK-DM-NG]] | [[08_Hang_muc_ghi_nhan_rieng]] | Danh mục | R.1.1.0 | đang áp dụng | CEO; chưa soát | CEO; chưa phê duyệt | 15/09/2026 |  |
 
 ## Nhân sự nội bộ
 

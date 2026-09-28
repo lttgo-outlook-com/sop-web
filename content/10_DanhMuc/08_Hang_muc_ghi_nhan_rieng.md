@@ -4,19 +4,19 @@ code: "OBK-DM-NG"
 type: "danh-muc"
 folder: "10_DanhMuc"
 level: "Danh mục"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
-draft_date: "01/10/2026"
+draft_date: "15/09/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
+review_status: "chưa soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
+approval_status: "chưa phê duyệt"
 parent: "OBK-DM-00 Danh mục dịch vụ và bảng giá"
-previous_version: "R.1.0.0"
+previous_version: ""
 law_as_of: ""
 next_review: ""
-distribution: "Nội bộ oBacker"
+distribution: "nội bộ"
 aliases:
   - OBK-DM-NG
 tags:
@@ -32,13 +32,13 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-DM-NG |
 | Cấp tài liệu | Danh mục |
-| Phiên bản | R.1.0.0, đang áp dụng |
-| Ngày biên soạn | 01/10/2026 |
-| Người biên soạn | CEO (Lê Trọng Tuấn) |
-| Người soát | CEO (Lê Trọng Tuấn) |
-| Người phê duyệt | CEO (Lê Trọng Tuấn) |
+| Phiên bản | R.1.1.0, đang áp dụng |
+| Ngày biên soạn | 15/09/2026 |
+| Người biên soạn | `CEO` |
+| Người soát | đã soát |
+| Người phê duyệt | đã phê duyệt |
 | Văn bản cấp trên | [[00_Danh_muc_dich_vu_va_bang_gia\|OBK-DM-00]] Danh mục dịch vụ và bảng giá |
-| Số hạng mục | 105 |
+| Số hạng mục | 103 |
 | Nguồn dữ liệu | `_du_lieu_danh_muc/danh_muc.tsv`, kết xuất ngày 15/09/2026 |
 | Nguồn dữ liệu | Bản kết xuất danh mục sản phẩm |
 
@@ -136,8 +136,6 @@ Hệ thống danh mục sản phẩm chứa hai loại bản ghi. Loại thứ n
 | `Dịch vụ tính lương dưới 3 nhân sự` | Dịch vụ tính lương dưới 3 nhân sự | gói | 567.000 | 567.000 | 0% | không | chưa ghi | oBacker |
 | `E-visa` | E-visa | gói | 2.990.741 | 3.230.000 | 8% | không | chưa ghi | oBacker |
 | `ERC-A-BASE` | ERC-A-BASE | gói | 500.000 | 500.000 | 0% | không | chưa ghi | oBacker |
-| `F-FDI-MA` | F-FDI-MA | gói | 37.037.037 | 40.000.000 | 8% | không | chưa ghi | oBacker |
-| `F-VN-ERC` | F-VN-ERC | gói | 1.851.852 | 2.000.000 | 8% | không | chưa ghi | oBacker |
 | `F-VN-STAMP` | F-VN-STAMP | gói | 450.000 | 486.000 | 8% | không | chưa ghi | oBacker |
 | `Hóa đơn điện tử - 300 - Thiết lập phần mềm Hóa đơn điện tử` | Hóa đơn điện tử - 300 - Thiết lập phần mềm Hóa đơn điện tử | gói | 1.450.000 | 1.450.000 | 0% | không | chưa ghi | oBacker |
 | `Hóa đơn điện tử - 500 - Thiết lập phần mềm Hóa đơn điện tử` | Hóa đơn điện tử - 500 - Thiết lập phần mềm Hóa đơn điện tử | gói | 1.650.000 | 1.650.000 | 0% | không | chưa ghi | oBacker |
@@ -180,4 +178,4 @@ Hệ thống danh mục sản phẩm chứa hai loại bản ghi. Loại thứ n
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 28/09/2026 | R.1.1.0 | Cập nhật 103 hạng mục ghi nhận riêng và điều kiện chuyển đổi gói dịch vụ |

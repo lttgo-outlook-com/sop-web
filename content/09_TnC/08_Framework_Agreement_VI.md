@@ -2,11 +2,11 @@
 title: "HỢP ĐỒNG DỊCH VỤ (BẢN KHUNG; KÝ ĐIỆN TỬ)"
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 language: "vi"
 distribution: "Khách hàng"
-previous_version: "R.1.0.0"
+previous_version: "R.1.1.0"
 tags:
   - loai/tnc
 ---
@@ -46,13 +46,15 @@ Email: [___] · Điện thoại: [___]
 
 | Nội dung | Chi tiết |
 |---|---|
-| Gói / Dịch vụ | [Starter / Scale / Premium / dịch vụ theo vụ việc] |
+| Gói / Dịch vụ | [Partner Core / Partner Growth / Partner Prime / dịch vụ chuyên môn theo vụ việc] |
+| Loại hình doanh nghiệp | [Doanh nghiệp Việt Nam / Doanh nghiệp có vốn đầu tư nước ngoài (FDI)] |
+| Chế độ kế toán áp dụng | [Thông tư 58/2026/TT-BTC (VN siêu nhỏ) / Thông tư 99/2025/TT-BTC (FDI và tăng trưởng)] |
 | Phạm vi (hạng mục áp dụng) | [Kế toán & Thuế / Nhân sự / Giấy phép / Pháp lý / …] |
-| Ngưỡng (giao dịch, nhân sự) | [___] |
-| Phí Dịch Vụ | [___ VNĐ / tháng; đã gồm/chưa gồm GTGT] |
-| Kỳ hạn & cam kết tối thiểu | [tối thiểu 03 tháng / theo gói] |
+| Ngưỡng định mức (FUP) | [Định mức: ___ chứng từ/tháng; Nhân sự: ___ người; Trần cứng: 1.500 ct/tháng (với Growth)] |
+| Phí Dịch Vụ | [___ VNĐ / năm (hoặc quý/tháng); đã gồm/chưa gồm GTGT] |
+| Kỳ hạn & cam kết tối thiểu | [theo gói / hợp đồng ký Quý 4 cam kết tối thiểu đến 31/12 năm sau (5 quý)] |
 | **Mô hình thanh toán** | [**Trả trước** (mặc định) / Trả sau / Trả trước qua Ví] |
-| Lịch thanh toán | [trả trước theo kỳ / đợt 1: ___] |
+| Lịch thanh toán | [trả trước theo kỳ / đợt 1: ___ / đợt 2: trước ngày 15/03 (với hợp đồng năm)] |
 | Phương thức thanh toán | [chuyển khoản / cổng thanh toán / Ví oBacker] |
 | Khách được giới thiệu bởi | [không / tên bên giới thiệu theo chương trình đối tác của oBacker] |
 | Đồng ý cung cấp thông tin cho bên đã giới thiệu | Quý Khách đồng ý để oBacker cung cấp thông tin tại Điều 7.2 cho bên đã giới thiệu Quý Khách: [ ] Có [ ] Không |
@@ -100,7 +102,7 @@ Phí Dịch Vụ, lịch và phương thức thanh toán theo Đơn Đặt Hàng
 
 ## Điều 5. Thời hạn, gia hạn và chấm dứt
 
-5.1. Thời hạn và cam kết tối thiểu theo Đơn Đặt Hàng (mặc định cam kết tối thiểu 03 tháng đối với các gói dịch vụ định kỳ).
+5.1. Thời hạn và cam kết tối thiểu theo Đơn Đặt Hàng. Đối với hợp đồng ký trong Quý 4, Quý Khách cam kết thời hạn dịch vụ kéo dài tối thiểu đến hết ngày 31/12 của năm tiếp theo (tối thiểu 05 quý). Trường hợp thanh toán chia đợt, đợt 2 phải được hoàn tất chậm nhất trước ngày 15/03 của năm tiếp theo để hoàn thiện Báo cáo tài chính và Quyết toán thuế năm đúng hạn pháp luật trước ngày 31/03.
 
 5.2. Trừ khi có thỏa thuận khác tại Đơn Đặt Hàng, Hợp Đồng tự động gia hạn theo từng kỳ khi Quý Khách tiếp tục thanh toán phí kỳ tiếp theo.
 
@@ -108,7 +110,7 @@ Phí Dịch Vụ, lịch và phương thức thanh toán theo Đơn Đặt Hàng
 
 ## Điều 6. Cam kết và phân định trách nhiệm
 
-Quý Khách cam kết cung cấp thông tin theo 4 tiêu chí Chính xác; Đầy đủ; Hợp pháp; Đúng hạn và chịu trách nhiệm pháp lý cuối cùng đối với hoạt động của doanh nghiệp (Điều 3 Bản Điều Khoản Chung). Cơ chế phân định trách nhiệm và bồi thường theo bản chất lỗi áp dụng theo Điều 9 Bản Điều Khoản Chung và điều khoản trách nhiệm tại Điều Khoản Dịch Vụ Cụ Thể tương ứng.
+Quý Khách cam kết cung cấp thông tin theo 4 tiêu chí Chính xác; Đầy đủ; Hợp pháp; Đúng hạn và chịu trách nhiệm pháp lý cuối cùng đối với hoạt động của doanh nghiệp (Điều 3 Bản Điều Khoản Chung). Cơ chế phân định trách nhiệm và bồi thường theo bản chất lỗi áp dụng theo Điều 9 Bản Điều Khoản Chung và điều khoản trách nhiệm tại Điều Khoản Dịch Vụ Cụ Thể tương ứng. Ngoài các khoản tiền phạt vi phạm hành chính và tiền chậm nộp trực tiếp do lỗi của oBacker, tổng mức bồi thường của oBacker cho mọi thiệt hại khác không vượt quá tổng Phí Dịch Vụ Quý Khách đã thực trả cho oBacker trong 03 tháng gần nhất theo Điều 9.3 Bản Điều Khoản Chung.
 
 ## Điều 7. Bảo mật và bảo vệ dữ liệu cá nhân
 
@@ -154,4 +156,4 @@ Chữ ký điện tử / Xác nhận thanh toán: `[chữ ký điện tử của
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 01/10/2026 | R.1.1.0 | Đồng bộ mẫu Đơn Đặt Hàng (loại hình FDI, TT 58/99, định mức FUP, chu kỳ phí năm/quý), cơ chế cam kết Quý 4, mốc 15/03 và trần bồi thường 3 tháng |

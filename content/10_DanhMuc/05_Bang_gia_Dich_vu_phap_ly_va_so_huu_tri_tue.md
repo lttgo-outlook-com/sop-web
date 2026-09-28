@@ -4,19 +4,19 @@ code: "OBK-DM-LS"
 type: "danh-muc"
 folder: "10_DanhMuc"
 level: "Danh mục"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
-draft_date: "01/10/2026"
+draft_date: "15/09/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
+review_status: "chưa soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
+approval_status: "chưa phê duyệt"
 parent: "OBK-DM-00 Danh mục dịch vụ và bảng giá"
-previous_version: "R.1.0.0"
+previous_version: ""
 law_as_of: ""
 next_review: ""
-distribution: "Nội bộ oBacker"
+distribution: "nội bộ"
 aliases:
   - OBK-DM-LS
 tags:
@@ -32,13 +32,13 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-DM-LS |
 | Cấp tài liệu | Danh mục |
-| Phiên bản | R.1.0.0, đang áp dụng |
-| Ngày biên soạn | 01/10/2026 |
-| Người biên soạn | CEO (Lê Trọng Tuấn) |
-| Người soát | CEO (Lê Trọng Tuấn) |
-| Người phê duyệt | CEO (Lê Trọng Tuấn) |
+| Phiên bản | R.1.1.0, đang áp dụng |
+| Ngày biên soạn | 15/09/2026 |
+| Người biên soạn | `CEO` |
+| Người soát | đã soát |
+| Người phê duyệt | đã phê duyệt |
 | Văn bản cấp trên | [[00_Danh_muc_dich_vu_va_bang_gia\|OBK-DM-00]] Danh mục dịch vụ và bảng giá |
-| Số mã dịch vụ | 45 |
+| Số mã dịch vụ | 48 |
 | Nguồn dữ liệu | `_du_lieu_danh_muc/danh_muc.tsv`, kết xuất ngày 15/09/2026 |
 | Nguồn dữ liệu | Bản kết xuất danh mục sản phẩm |
 
@@ -72,17 +72,17 @@ Giá ghi bằng đồng Việt Nam, tính cho một đơn vị tính. Mã trong 
 
 | Mã | Tên dịch vụ | Đơn vị tính | Giá chưa thuế GTGT | Giá đã có thuế GTGT | Thuế suất GTGT | Thu theo kỳ | Nguồn cung cấp | Bên xuất hóa đơn |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| `DICHTHUAT_EN-VI` | Dịch vụ Dịch thuật Tài liệu (Anh - Việt) | trang | 250.000 | 270.000 | 8% | không | chưa ghi | oBacker |
+| `DICHTHUAT_EN-VI` | Dịch Vụ Dịch Thuật Tài Liệu Chuyên Ngành Kinh Tế - Pháp Lý (Anh - Việt) | trang | 250.000 | 275.000 | 10% | không | oBacker tự thực hiện | oBacker |
 | `DV-OBK-TLS01` | Dịch vụ chuyển thẻ luật sư | đơn vị | 3.200.000 | 3.456.000 | 8% | không | chưa ghi | oBacker |
-| `IP-BC-POST` | Đăng ký mã số mã vạch - sau 30/6 năm dương lịch | gói | 3.300.000 | 3.564.000 | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
-| `IP-BC-PRE` | Đăng ký mã số mã vạch - trước 30/6 năm dương lịch | gói | 3.750.000 | 4.050.000 | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
-| `IP-CR-ART` | Đăng ký/sửa đổi/chuyển nhượng quyền tác giả - Mỹ thuật ứng dụng/Nhiếp ảnh | gói | 3.000.000 | 3.240.000 | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
+| `IP-BC-POST` | Dịch Vụ Đăng Ký Mã Số Mã Vạch Sản Phẩm (Nộp Sau Ngày 30/06) | gói | 3.300.000 | 3.630.000 | 10% | không | oBacker tự thực hiện | oBacker |
+| `IP-BC-PRE` | Dịch Vụ Đăng Ký Mã Số Mã Vạch Sản Phẩm (Nộp Trước Ngày 30/06) | gói | 3.750.000 | 4.125.000 | 10% | không | oBacker tự thực hiện | oBacker |
+| `IP-CR-ART` | Dịch Vụ Đăng Ký Bản Quyền Tác Giả Tác Phẩm Mỹ Thuật Ứng Dụng (Logo, Bao Bì) | gói | 3.000.000 | 3.300.000 | 10% | không | oBacker tự thực hiện | oBacker |
 | `IP-CR-ART-RE` | Cấp lại GCN đăng ký quyền tác giả - Mỹ thuật ứng dụng/Nhiếp ảnh | gói | 2.625.000 | 2.835.000 | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
 | `IP-CR-MUS` | Đăng ký/sửa đổi/chuyển nhượng quyền tác giả - Âm nhạc/Tác phẩm viết | gói | 2.000.000 | 2.160.000 | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
 | `IP-CR-MUS-RE` | Cấp lại GCN đăng ký quyền tác giả - Âm nhạc/Tác phẩm viết | gói | 2.625.000 | 2.835.000 | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
-| `IP-CR-SW` | Đăng ký/sửa đổi/chuyển nhượng quyền tác giả - Phần mềm | gói | 3.500.000 | 3.780.000 | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
+| `IP-CR-SW` | Dịch Vụ Đăng Ký Bản Quyền Tác Giả Chương Trình Máy Tính (Phần Mềm / Mã Nguồn) | gói | 3.500.000 | 3.500.000 | 0% | không | oBacker tự thực hiện | oBacker |
 | `IP-CR-SW-RE` | Cấp lại GCN đăng ký quyền tác giả - Phần mềm | gói | 2.800.000 | 3.024.000 | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
-| `IP-ID-REG` | Đăng ký kiểu dáng công nghiệp | gói | 8.000.000 | 8.640.000 | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
+| `IP-ID-REG` | Dịch Vụ Đăng Ký Bảo Hộ Kiểu Dáng Công Nghiệp | kiểu dáng | 8.000.000 | 8.800.000 | 10% | không | oBacker tự thực hiện | oBacker |
 | `IP-ID-SEARCH` | Tra cứu kiểu dáng công nghiệp | gói | 3.200.000 | 3.456.000 | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
 | `IP-MOD-APP` | Sửa đổi đơn đăng ký nhãn hiệu/sáng chế/KDCN | gói | 1.600.000 | 1.728.000 | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
 | `IP-MOD-CERT` | Sửa đổi GCN đăng ký nhãn hiệu/sáng chế/KDCN | gói | 1.600.000 | 1.728.000 | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
@@ -92,15 +92,18 @@ Giá ghi bằng đồng Việt Nam, tính cho một đơn vị tính. Mã trong 
 | `IP-TM-APPEAL` | Khiếu nại quyết định từ chối cấp GCN nhãn hiệu | gói | 3.200.000 | 3.456.000 | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
 | `IP-TM-DUPL` | Cấp phó bản / cấp lại GCN đăng ký nhãn hiệu | gói | 1.900.000 | 2.052.000 | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
 | `IP-TM-LIC` | Chuyển giao quyền sử dụng nhãn hiệu | gói | 2.800.000 | 3.024.000 | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
-| `IP-TM-REG-1` | Đăng ký nhãn hiệu nhóm đầu tiên | nhãn hiệu/nhóm | 3.500.000 | 3.780.000 | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
-| `IP-TM-REG-2` | Đăng ký nhãn hiệu nhóm thứ 2 trở đi | nhãn hiệu/nhóm | 1.800.000 | 1.944.000 | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
+| `IP-TM-REG-1` | Dịch Vụ Đăng Ký Bảo Hộ Nhãn Hiệu Hàng Hóa / Dịch Vụ - Nhóm Đầu Tiên | nhóm | 3.500.000 | 3.850.000 | 10% | không | oBacker tự thực hiện | oBacker |
+| `IP-TM-REG-2` | Dịch Vụ Đăng Ký Nhãn Hiệu - Nhóm Sản Phẩm / Dịch Vụ Thứ Hai Trở Đi | nhóm | 1.800.000 | 1.980.000 | 10% | không | oBacker tự thực hiện | oBacker |
 | `IP-TM-REG-7` | Đăng ký nhãn hiệu nhóm thứ 7 trở đi | nhãn hiệu/nhóm | 320.000 | 345.600 | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
-| `IP-TM-REN-1` | Gia hạn hiệu lực GCN đăng ký nhãn hiệu - nhóm đầu tiên | nhãn hiệu/nhóm | 2.700.000 | 2.916.000 | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
+| `IP-TM-REN-1` | Dịch Vụ Gia Hạn Hiệu Lực Giấy Chứng Nhận Đăng Ký Nhãn Hiệu | nhóm | 2.700.000 | 2.970.000 | 10% | không | oBacker tự thực hiện | oBacker |
 | `IP-TM-REN-2` | Gia hạn hiệu lực GCN đăng ký nhãn hiệu - nhóm thứ 2 trở đi | nhãn hiệu/nhóm | 1.950.000 | 2.106.000 | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
 | `IP-TM-RESP` | Phúc đáp Công văn thẩm định nội dung đơn đăng ký nhãn hiệu | gói | chưa có giá | chưa có giá | chưa ghi | không | thuê đơn vị bên ngoài thực hiện | oBacker |
-| `IP-TM-SEARCH` | Tra cứu nhãn hiệu | nhãn hiệu/nhóm | 1.000.000 | 1.080.000 | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
+| `IP-TM-SEARCH` | Dịch Vụ Tra Cứu Chuyên Sâu Khả Năng Bảo Hộ Nhãn Hiệu | nhóm | 1.000.000 | 1.100.000 | 10% | không | oBacker tự thực hiện | oBacker |
 | `IP-TM-TRANS` | Chuyển nhượng nhãn hiệu | gói | 3.500.000 | 3.780.000 | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
+| `LEG-CTR-REV` | Dịch Vụ Rà Soát Hợp Đồng Thương Mại Đơn Lẻ (Dưới 10 Trang A4) | hợp đồng | 1.500.000 | 1.650.000 | 10% | không | oBacker tự thực hiện | oBacker |
 | `LEG-CTR-REVIEW` | Hành chính - Rà soát hợp đồng lao động cũ | người lao động | 300.000 | 324.000 | 8% | không | oBacker tự thực hiện | oBacker |
+| `LEG-CTR-TMPL-ADV` | Dịch Vụ Soạn Thảo Hợp Đồng Phức Tạp / Quốc Tế Song Ngữ (Anh - Việt) | bản | 10.000.000 | 11.000.000 | 10% | không | oBacker tự thực hiện | oBacker |
+| `LEG-CTR-TMPL-STD` | Dịch Vụ Soạn Thảo Hợp Đồng Thương Mại Chuẩn Mẫu (Tiêu Chuẩn) | bản | 5.000.000 | 5.500.000 | 10% | không | oBacker tự thực hiện | oBacker |
 | `OB-CTR-ADS-BI` | Soạn thảo / Rà soát hợp đồng Advisory - Song ngữ | hợp đồng | 45.000.000 | 48.600.000 | 8% | không | chưa ghi | oBacker |
 | `OB-CTR-ADS-ENG` | Soạn thảo / Rà soát hợp đồng Advisory - Tiếng Anh | hợp đồng | 30.000.000 | 32.400.000 | 8% | không | oBacker tự thực hiện | oBacker |
 | `OB-CTR-ADS-VIE` | Soạn thảo / Rà soát hợp đồng Advisory - Tiếng Việt | hợp đồng | 20.000.000 | 21.600.000 | 8% | không | oBacker tự thực hiện | oBacker |
@@ -128,31 +131,41 @@ Phạm vi, thời gian và điều kiện áp dụng chép từ hệ thống dan
 
 
 
-### DICHTHUAT_EN-VI. Dịch vụ Dịch thuật Tài liệu (Anh - Việt)
+### DICHTHUAT_EN-VI. Dịch Vụ Dịch Thuật Tài Liệu Chuyên Ngành Kinh Tế - Pháp Lý (Anh - Việt)
 
 | Hạng mục | Nội dung |
 | --- | --- |
-| Phạm vi công việc | Phạm vi dịch vụ: Tiếp nhận tài liệu gốc bằng tiếng Anh hoặc tiếng Việt từ khách hàng; tiến hành dịch thuật, hiệu đính và căn chỉnh định dạng văn bản sang ngôn ngữ mục tiêu tương ứng (Việt sang Anh hoặc Anh sang Việt) đảm bảo truyền tải chính xác nội dung, thuật ngữ chuyên ngành và ngữ cảnh của tài liệu gốc.<br>Kết quả công việc: File tài liệu hoàn chỉnh đã được dịch thuật hoàn thiện (định dạng Word, PDF hoặc theo yêu cầu của khách hàng) đảm bảo chất lượng bản dịch tốt nhất. |
-| Thời gian thực hiện | 2 - 3 ngày làm việc (hoặc linh hoạt điều chỉnh tùy thuộc vào độ dài và độ phức tạp của tài liệu) |
+| Phạm vi công việc | Tiếp nhận tài liệu gốc tiếng Anh hoặc tiếng Việt (Hợp đồng, BCTC, Điều lệ, Hồ sơ dự án); tiến hành dịch thuật, hiệu đính thuật ngữ chuyên ngành tài chính - pháp lý chuẩn xác và căn chỉnh định dạng văn bản tương đương bản gốc. Định mức tiêu chuẩn: 300 từ/trang. Kết quả: Bản dịch hoàn thiện định dạng Word/PDF chuẩn xác về mặt ngữ nghĩa và thuật ngữ. |
+| Thời gian thực hiện | 02 - 03 ngày làm việc (đối với tài liệu dưới 10 trang). |
 | Kỳ thu tiền | thu trước |
+| Ghi chú | Master SKU Catalog 2026 |
 
-### IP-BC-POST. Đăng ký mã số mã vạch - sau 30/6 năm dương lịch
-
-| Hạng mục | Nội dung |
-| --- | --- |
-| Phạm vi công việc | Hỗ trợ doanh nghiệp hoàn tất thủ tục đăng ký và xin cấp mã số mã vạch cho sản phẩm, phục vụ cho việc quản lý hàng hóa, xuất nhập khẩu và bán hàng trên các chuỗi siêu thị/sàn thương mại điện tử. |
-
-### IP-BC-PRE. Đăng ký mã số mã vạch - trước 30/6 năm dương lịch
+### IP-BC-POST. Dịch Vụ Đăng Ký Mã Số Mã Vạch Sản Phẩm (Nộp Sau Ngày 30/06)
 
 | Hạng mục | Nội dung |
 | --- | --- |
-| Phạm vi công việc | Hỗ trợ doanh nghiệp hoàn tất thủ tục đăng ký và xin cấp mã số mã vạch cho sản phẩm, phục vụ cho việc quản lý hàng hóa, xuất nhập khẩu và bán hàng trên các chuỗi siêu thị/sàn thương mại điện tử. |
+| Phạm vi công việc | Tương tự gói `IP-BC-PRE` nhưng áp dụng chính sách giảm 50% phí duy trì năm đầu của Tổng cục Tiêu chuẩn Đo lường Chất lượng cho các hồ sơ nộp từ ngày 01/07 đến ngày 31/12 hàng năm. Kết quả: Giấy chứng nhận quyền sử dụng mã số mã vạch và tài khoản GS1 hoàn chỉnh. |
+| Thời gian thực hiện | 05 - 07 ngày làm việc. |
+| Kỳ thu tiền | thu trước |
+| Ghi chú | Master SKU Catalog 2026 |
 
-### IP-CR-ART. Đăng ký/sửa đổi/chuyển nhượng quyền tác giả - Mỹ thuật ứng dụng/Nhiếp ảnh
+### IP-BC-PRE. Dịch Vụ Đăng Ký Mã Số Mã Vạch Sản Phẩm (Nộp Trước Ngày 30/06)
 
 | Hạng mục | Nội dung |
 | --- | --- |
-| Phạm vi công việc | Hỗ trợ đăng ký bản quyền cho các thiết kế đồ họa, hình ảnh thương mại, tem nhãn bao bì... giúp xác lập quyền sở hữu, ngăn chặn hành vi sao chép và tranh chấp. |
+| Phạm vi công việc | Đăng ký cấp mã số mã vạch GS1 cho doanh nghiệp để quản lý sản phẩm và bán hàng tại siêu thị, sàn TMĐT. Lập hồ sơ đăng ký tài khoản doanh nghiệp trên hệ thống Tổng cục Tiêu chuẩn Đo lường Chất lượng (GS1 Viet Nam); nộp phí đăng ký và phí duy trì năm đầu (mức cả năm tính cho hồ sơ nộp trước 30/06); hướng dẫn khởi tạo mã GLN và mã GTIN cho từng sản phẩm. Kết quả: Giấy chứng nhận quyền sử dụng mã số mã vạch và tài khoản quản trị GS1 chính thức. |
+| Thời gian thực hiện | 05 - 07 ngày làm việc. |
+| Kỳ thu tiền | thu trước |
+| Ghi chú | Master SKU Catalog 2026 |
+
+### IP-CR-ART. Dịch Vụ Đăng Ký Bản Quyền Tác Giả Tác Phẩm Mỹ Thuật Ứng Dụng (Logo, Bao Bì)
+
+| Hạng mục | Nội dung |
+| --- | --- |
+| Phạm vi công việc | Đăng ký quyền tác giả cho thiết kế logo thương hiệu, bộ nhận diện, bao bì sản phẩm, hình vẽ nhân vật. In ấn bản sao tác phẩm trên giấy A4; lập bản mô tả ý tưởng tác phẩm; soạn hồ sơ cam đoan tác quyền; nộp hồ sơ tại Cục Bản quyền tác giả. Kết quả: Giấy chứng nhận đăng ký quyền tác giả tác phẩm mỹ thuật ứng dụng bản gốc. |
+| Thời gian thực hiện | 15 - 20 ngày làm việc. |
+| Kỳ thu tiền | thu trước |
+| Ghi chú | Master SKU Catalog 2026 |
 
 ### IP-CR-ART-RE. Cấp lại GCN đăng ký quyền tác giả - Mỹ thuật ứng dụng/Nhiếp ảnh
 
@@ -172,11 +185,14 @@ Phạm vi, thời gian và điều kiện áp dụng chép từ hệ thống dan
 | --- | --- |
 | Phạm vi công việc | Thực hiện thủ tục xin cấp lại GCN bản quyền đã mất hoặc hư hỏng cho các tác phẩm văn học, nghệ thuật. |
 
-### IP-CR-SW. Đăng ký/sửa đổi/chuyển nhượng quyền tác giả - Phần mềm
+### IP-CR-SW. Dịch Vụ Đăng Ký Bản Quyền Tác Giả Chương Trình Máy Tính (Phần Mềm / Mã Nguồn)
 
 | Hạng mục | Nội dung |
 | --- | --- |
-| Phạm vi công việc | Thực hiện thủ tục đăng ký bản quyền cho mã nguồn, giao diện và cấu trúc của phần mềm, bảo vệ thành quả sáng tạo công nghệ của doanh nghiệp. |
+| Phạm vi công việc | Soạn thảo hồ sơ đăng ký bản quyền phần mềm; in và đóng tập bản in mã nguồn (Code) và bản mô tả giao diện phần mềm; soạn thảo giấy cam đoan tác giả, quyết định giao nhiệm vụ/hợp đồng chuyển nhượng quyền tác giả; nộp hồ sơ và lệ phí tại Cục Bản quyền tác giả (Bộ VHTTDL). Kết quả: Giấy chứng nhận đăng ký quyền tác giả phần mềm do Cục Bản quyền tác giả cấp. |
+| Thời gian thực hiện | 15 - 20 ngày làm việc. |
+| Kỳ thu tiền | thu trước |
+| Ghi chú | Master SKU Catalog 2026 |
 
 ### IP-CR-SW-RE. Cấp lại GCN đăng ký quyền tác giả - Phần mềm
 
@@ -184,11 +200,14 @@ Phạm vi, thời gian và điều kiện áp dụng chép từ hệ thống dan
 | --- | --- |
 | Phạm vi công việc | Thực hiện thủ tục xin cấp lại GCN bản quyền đã mất hoặc hư hỏng cho các phần mềm. |
 
-### IP-ID-REG. Đăng ký kiểu dáng công nghiệp
+### IP-ID-REG. Dịch Vụ Đăng Ký Bảo Hộ Kiểu Dáng Công Nghiệp
 
 | Hạng mục | Nội dung |
 | --- | --- |
-| Phạm vi công việc | Bảo hộ hình dáng bên ngoài của sản phẩm (Kiểu dáng). Dịch vụ bao gồm soạn thảo bộ ảnh/bản vẽ, hồ sơ, theo dõi và nhận Bằng độc quyền Kiểu dáng Công nghiệp, bảo vệ lợi thế cạnh tranh về thẩm mỹ sản phẩm. |
+| Phạm vi công việc | Bảo hộ hình dáng bên ngoài của sản phẩm được thể hiện bằng hình khối, đường nét, màu sắc. Chụp ảnh, dựng bộ ảnh chụp/bản vẽ kỹ thuật 06 hình chiếu và hình phối cảnh theo chuẩn kỹ thuật của Cục SHTT; soạn Bản mô tả kiểu dáng công nghiệp; nộp đơn và theo dõi thẩm định. Kết quả: Bằng độc quyền Kiểu dáng công nghiệp thời hạn 05 năm (gia hạn tối đa 15 năm). |
+| Thời gian thực hiện | 12 - 15 tháng theo quy trình xét duyệt của Cục SHTT. |
+| Kỳ thu tiền | thu trước |
+| Ghi chú | Master SKU Catalog 2026 |
 
 ### IP-ID-SEARCH. Tra cứu kiểu dáng công nghiệp
 
@@ -244,18 +263,23 @@ Phạm vi, thời gian và điều kiện áp dụng chép từ hệ thống dan
 | --- | --- |
 | Phạm vi công việc | Soạn thảo và đăng ký Hợp đồng Li-xăng (License) cho phép bên thứ ba sử dụng nhãn hiệu dưới sự cho phép của chủ sở hữu. Tối ưu hóa lợi nhuận từ tài sản trí tuệ mà vẫn giữ nguyên quyền sở hữu. |
 
-### IP-TM-REG-1. Đăng ký nhãn hiệu nhóm đầu tiên
+### IP-TM-REG-1. Dịch Vụ Đăng Ký Bảo Hộ Nhãn Hiệu Hàng Hóa / Dịch Vụ - Nhóm Đầu Tiên
 
 | Hạng mục | Nội dung |
 | --- | --- |
-| Phạm vi công việc | (tối đa 06 sản phẩm, dịch vụ/nhóm, đã bao gồm phí cấp văn bằng)Hỗ trợ trọn gói hồ sơ đăng ký nhóm sản phẩm/dịch vụ đầu tiên, từ nộp đơn, theo dõi, xử lý các thiếu sót đến nhận và bàn giao Giấy chứng nhận (GCN) bảo hộ nhãn hiệu |
+| Phạm vi công việc | Phân loại nhóm ngành theo Thỏa ước Ni-xơ (tối đa 06 sản phẩm/dịch vụ trong nhóm đầu); soạn thảo Tờ khai đăng ký nhãn hiệu; nộp đơn, nộp toàn bộ lệ phí nhà nước (lệ phí nộp đơn, công bố, tra cứu, thẩm định nội dung); theo dõi tiến độ xét duyệt hình thức (01 tháng), công bố đơn (02 tháng) và thẩm định nội dung (09 - 18 tháng); nhận và bàn giao Giấy chứng nhận đăng ký nhãn hiệu. Kết quả: Giấy biên nhận nộp đơn hợp lệ có dấu Cục SHTT và Giấy chứng nhận đăng ký nhãn hiệu bản gốc khi cấp bằng. |
+| Thời gian thực hiện | Nhận số đơn trong 01 ngày làm việc; toàn bộ chu trình xét duyệt cấp bằng theo quy định của Cục SHTT (12 - 18 tháng). |
+| Kỳ thu tiền | thu trước |
+| Ghi chú | Master SKU Catalog 2026 |
 
-### IP-TM-REG-2. Đăng ký nhãn hiệu nhóm thứ 2 trở đi
+### IP-TM-REG-2. Dịch Vụ Đăng Ký Nhãn Hiệu - Nhóm Sản Phẩm / Dịch Vụ Thứ Hai Trở Đi
 
 | Hạng mục | Nội dung |
 | --- | --- |
-| Phạm vi công việc | (áp dụng cho 01 nhóm; tối đa 06 sản phẩm, dịch vụ/nhóm, đã bao gồm phí cấp văn bằng)Đăng ký mở rộng phạm vi bảo hộ cho các nhóm sản phẩm/dịch vụ bổ sung cùng lúc với đơn đầu tiên. Đảm bảo nhãn hiệu được bảo vệ toàn diện trên nhiều lĩnh vực kinh doanh liên quan. |
-| Điều kiện áp dụng | Tu nhom thu 2 |
+| Phạm vi công việc | Áp dụng khi khách hàng đăng ký bảo hộ nhãn hiệu cho nhóm sản phẩm/dịch vụ thứ hai trở đi trên cùng một đơn đăng ký nhãn hiệu (tối đa 06 sản phẩm/dịch vụ trong nhóm). Soạn thảo danh mục hàng hóa/dịch vụ bổ sung, nộp lệ phí thẩm định bổ sung theo quy định. Kết quả: Nhóm sản phẩm/dịch vụ bổ sung được ghi nhận trong đơn và văn bằng bảo hộ. |
+| Thời gian thực hiện | Thực hiện đồng thời cùng đơn đăng ký chính. |
+| Kỳ thu tiền | thu trước |
+| Ghi chú | Master SKU Catalog 2026 |
 
 ### IP-TM-REG-7. Đăng ký nhãn hiệu nhóm thứ 7 trở đi
 
@@ -264,11 +288,14 @@ Phạm vi, thời gian và điều kiện áp dụng chép từ hệ thống dan
 | Phạm vi công việc | (áp dụng cho 01 sản phẩm, dịch vụ tăng thêm/nhóm)<br>Dịch vụ đăng ký bổ sung các sản phẩm/dịch vụ vượt quá giới hạn tối đa (6 sản phẩm) trong một nhóm đã đăng ký. <br>Giúp đảm bảo không sót bất kỳ sản phẩm/dịch vụ nào cần được bảo hộ. |
 | Điều kiện áp dụng | Tu sp/dv thu 7 trong 1 nhom |
 
-### IP-TM-REN-1. Gia hạn hiệu lực GCN đăng ký nhãn hiệu - nhóm đầu tiên
+### IP-TM-REN-1. Dịch Vụ Gia Hạn Hiệu Lực Giấy Chứng Nhận Đăng Ký Nhãn Hiệu
 
 | Hạng mục | Nội dung |
 | --- | --- |
-| Phạm vi công việc | Thực hiện thủ tục gia hạn GCN nhãn hiệu trước khi hết hạn (10 năm), đảm bảo quyền bảo hộ liên tục và không bị gián đoạn cho nhóm sản phẩm/dịch vụ đầu tiên. |
+| Phạm vi công việc | Thực hiện thủ tục gia hạn hiệu lực văn bằng bảo hộ nhãn hiệu trong vòng 06 tháng trước ngày văn bằng hết hiệu lực (hoặc gia hạn muộn trong 06 tháng sau khi hết hạn). Soạn tờ khai yêu cầu gia hạn, nộp lệ phí gia hạn hiệu lực tại Cục Sở hữu trí tuệ. Kết quả: Quyết định ghi nhận gia hạn hiệu lực Giấy chứng nhận đăng ký nhãn hiệu thêm 10 năm. |
+| Thời gian thực hiện | 20 - 30 ngày làm việc. |
+| Kỳ thu tiền | thu trước |
+| Ghi chú | Master SKU Catalog 2026 |
 
 ### IP-TM-REN-2. Gia hạn hiệu lực GCN đăng ký nhãn hiệu - nhóm thứ 2 trở đi
 
@@ -283,12 +310,14 @@ Phạm vi, thời gian và điều kiện áp dụng chép từ hệ thống dan
 | --- | --- |
 | Phạm vi công việc | Đai diện pháp lý soạn thảo và nộp Công văn phúc đáp chính thức tới Cục SHTT khi nhận được Công văn thông báo từ chối hoặc yêu cầu sửa đổi/giải trình về nội dung đơn đăng ký nhãn hiệu. |
 
-### IP-TM-SEARCH. Tra cứu nhãn hiệu
+### IP-TM-SEARCH. Dịch Vụ Tra Cứu Chuyên Sâu Khả Năng Bảo Hộ Nhãn Hiệu
 
 | Hạng mục | Nội dung |
 | --- | --- |
-| Phạm vi công việc | Dịch vụ kiểm tra sơ bộ khả năng đăng ký của nhãn hiệu, giúp khách hàng xác định mức độ trùng lặp/tương tự với các nhãn hiệu đã nộp đơn hoặc được bảo hộ. Hạn chế rủi ro bị từ chối và tiết kiệm chi phí, thời gian nộp đơnTrường hợp sau khi tra cứu nhãn hiệu không có khả năng đăng ký/hoặc khả năng đăng ký dưới 60%, oBacker sẽ thực hiện tra cứu lại miễn phí 01 lần. |
-| Điều kiện áp dụng | Tinh theo nhom san pham/dv |
+| Phạm vi công việc | Tra cứu đối chiếu nhãn hiệu dự kiến trên cơ sở dữ liệu quốc gia của Cục Sở hữu trí tuệ (IP Viet Nam) và cơ sở dữ liệu WIPO (đối với nhãn quốc tế chỉ định vào VN); đánh giá nguy cơ trùng/tương tự gây nhầm lẫn; đề xuất phương án chỉnh sửa thiết kế hoặc danh mục sản phẩm/dịch vụ để đạt tỷ lệ cấp văn bằng cao nhất. Kết quả: Báo cáo kết quả tra cứu và bản đánh giá rủi ro pháp lý bằng văn bản. |
+| Thời gian thực hiện | 02 - 03 ngày làm việc. |
+| Kỳ thu tiền | thu trước |
+| Ghi chú | Master SKU Catalog 2026 |
 
 ### IP-TM-TRANS. Chuyển nhượng nhãn hiệu
 
@@ -296,11 +325,38 @@ Phạm vi, thời gian và điều kiện áp dụng chép từ hệ thống dan
 | --- | --- |
 | Phạm vi công việc | Hỗ trợ pháp lý toàn diện quy trình chuyển giao quyền sở hữu nhãn hiệu từ bên bán sang bên mua, bao gồm soạn thảo hợp đồng, nộp hồ sơ và hoàn tất thủ tục đăng ký tại Cục Sở hữu Trí tuệ. |
 
+### LEG-CTR-REV. Dịch Vụ Rà Soát Hợp Đồng Thương Mại Đơn Lẻ (Dưới 10 Trang A4)
+
+| Hạng mục | Nội dung |
+| --- | --- |
+| Phạm vi công việc | Rà soát toàn diện tính pháp lý, tính hiệu lực và rủi ro thương mại của 01 hợp đồng kinh tế/dịch vụ/mua bán dưới 10 trang A4. Kiểm tra thẩm quyền ký kết, điều khoản thanh toán, phạt vi phạm, bồi thường thiệt hại, chấm dứt hợp đồng và cơ chế giải quyết tranh chấp theo pháp luật Việt Nam. (Hợp đồng từ trang thứ 11 trở đi phụ thu 100.000 đ/trang). Kết quả: Bản hợp đồng sửa đổi có tính năng Track Changes và Bản khuyến nghị pháp lý (Legal Review Memo). |
+| Thời gian thực hiện | 02 - 03 ngày làm việc. |
+| Kỳ thu tiền | thu trước |
+| Ghi chú | Master SKU Catalog 2026 |
+
 ### LEG-CTR-REVIEW. Hành chính - Rà soát hợp đồng lao động cũ
 
 | Hạng mục | Nội dung |
 | --- | --- |
 | Phạm vi công việc | Rà soát hợp đồng lao động hiện tại của người lao động, đối chiếu với quy định pháp luật hiện hành và đề xuất điều chỉnh phụ lục hợp đồng (nếu cần). |
+
+### LEG-CTR-TMPL-ADV. Dịch Vụ Soạn Thảo Hợp Đồng Phức Tạp / Quốc Tế Song Ngữ (Anh - Việt)
+
+| Hạng mục | Nội dung |
+| --- | --- |
+| Phạm vi công việc | Áp dụng cho các hợp đồng giao dịch giá trị lớn, hợp đồng chuyển giao công nghệ, hợp đồng liên doanh (JV), hợp đồng cổ đông (SHA), thỏa thuận đầu tư, hoặc hợp đồng thương mại quốc tế song ngữ Anh - Việt. Thiết kế cấu trúc điều khoản theo tập quán thương mại quốc tế (Incoterms, CISG, Trọng tài thương mại quốc tế SIAC/VIAC). Kết quả: Bản hợp đồng song ngữ Anh - Việt hoàn chỉnh được thẩm định bởi chuyên gia pháp lý cao cấp. |
+| Thời gian thực hiện | 07 - 10 ngày làm việc. |
+| Kỳ thu tiền | thu trước |
+| Ghi chú | Master SKU Catalog 2026 |
+
+### LEG-CTR-TMPL-STD. Dịch Vụ Soạn Thảo Hợp Đồng Thương Mại Chuẩn Mẫu (Tiêu Chuẩn)
+
+| Hạng mục | Nội dung |
+| --- | --- |
+| Phạm vi công việc | Soạn thảo 01 hợp đồng mẫu chuẩn theo mô hình kinh doanh của doanh nghiệp (Hợp đồng cung cấp dịch vụ, Hợp đồng phân phối hàng hóa, Hợp đồng lao động chuẩn, Hợp đồng thuê mặt bằng). Tối ưu hóa điều khoản bảo vệ quyền lợi doanh nghiệp, hạn chế trách nhiệm pháp lý và bảo mật thông tin (NDA tích hợp). Kết quả: 01 Bản hợp đồng mẫu hoàn chỉnh định dạng Word kèm Hướng dẫn áp dụng và điền thông tin. |
+| Thời gian thực hiện | 03 - 05 ngày làm việc. |
+| Kỳ thu tiền | thu trước |
+| Ghi chú | Master SKU Catalog 2026 |
 
 ### OB-CTR-ADS-BI. Soạn thảo / Rà soát hợp đồng Advisory - Song ngữ
 
@@ -414,4 +470,4 @@ Phạm vi, thời gian và điều kiện áp dụng chép từ hệ thống dan
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 28/09/2026 | R.1.1.0 | Cập nhật 48 mã pháp lý và sở hữu trí tuệ, bổ sung biểu phí rà soát hợp đồng theo trang, giấy phép bán lẻ FDI (LCS-RETAIL) và công bố mỹ phẩm |

@@ -2,11 +2,11 @@
 title: "LEGAL SERVICES; SPECIFIC TERMS (PL-PL)"
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 language: "en"
 distribution: "Khách hàng"
-previous_version: "R.1.0.0"
+previous_version: "R.1.1.0"
 tags:
   - loai/tnc
 ---
@@ -16,7 +16,7 @@ tags:
 *Service-Specific Terms forming an integral part of the Master T&C; oBacker Joint Stock Company*
 Tax code: 0402298185 · Floor 2, 06 Tran Phu Street, Hai Chau Ward, Da Nang, Vietnam · contact@obacker.com
 
-**Version:** R.1.0.0 (VI-EN) · **Updated:** 01/10/2026
+**Version:** R.1.1.0 (VI-EN) · **Updated:** 01/10/2026
 
 > These are the Service-Specific Terms for Legal Services (the "**Services**"), covering four areas: (A) legal and tax advisory; (B) contract/document review and drafting; (C) Research On Demand; and (D) Intellectual Property registration (trademarks, copyrights). They apply where the Services are recorded in an Order Form; per matter, per hour, or per number of review rounds within a package. **If there is any discrepancy between the Master T&C and this document, this document prevails for the Services.**
 
@@ -120,7 +120,7 @@ oBacker retains copyright and all intellectual property rights in its work produ
 
 ## Article 9. Service Fees
 
-The Service Fees are set in the Order Form; by hour, by review round, by matter, or by research scope. Where demand exceeds the package limits (extra hours, extra rounds, contracts over 10 pages, new drafting, Research On Demand, or out-of-scope work), oBacker gives advance notice and proceeds only after the Client's approval. Add-on discounts apply by package (Scale 5%, Premium 10%) where stated in the Order Form.
+The Service Fees are set in the Order Form; by hour, by review round, by matter, or by research scope. For clients subscribed to periodic partner retainer packages: Partner Growth includes complimentary review of 02 commercial contracts/month (< 10 pages), 02 ERC amendment filings/year, and drafting of 06 internal documents/year; Partner Prime includes complimentary review of 05 commercial contracts/month (< 10 pages), 04 ERC amendment filings/year, and drafting of 12 internal documents/year. Where demand exceeds the package limits (extra hours, extra rounds, contracts over 10 pages, new drafting, Research On Demand, or out-of-scope work), oBacker gives advance notice and applies the Master SKU Catalog upon the Client's approval.
 
 ---
 
@@ -130,7 +130,6 @@ The Service Fees are set in the Order Form; by hour, by review round, by matter,
 
 ## REVISION LOG
 
-| Date | Version | R.1.0.0, currently applicable |
+| Date | Version | R.1.1.0, currently applicable |
 | --- | --- | --- |
-| 27/09/2026 | R.1.1.0 | Added intellectual property registration services (trademarks, copyrights) to Article 2.5, Article 5 and Article 6.<br>Specified realistic examination timeline for trademarks (12-16 months) and first-to-file priority.<br>Added strict prohibition and exclusion of nominee arrangements to Article 3.<br>Set contract review turnaround buffer to 03-04 business days in Article 6 |
-| 21/09/2026 | R.1.0.0 | Initial release. |
+| 01/10/2026 | R.1.1.0 | Integrate contract review and ERC quotas into Partner Growth/Prime retainers, apply Master SKU Catalog for add-on services |
