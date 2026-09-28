@@ -72,21 +72,21 @@ Giá ghi bằng đồng Việt Nam, tính cho một đơn vị tính. Mã trong 
 
 | Mã | Tên dịch vụ | Đơn vị tính | Giá chưa thuế GTGT | Giá đã có thuế GTGT | Thuế suất GTGT | Thu theo kỳ | Nguồn cung cấp | Bên xuất hóa đơn |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| `BHXH-ACC-CLOSE` | Chốt sổ BHXH | người lao động | 1.000.000 | 1.080.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `BHXH-ACC-FORN` | Đăng ký tài khoản BHXH - Công ty có lao động nước ngoài | tài khoản | 500.000 | 540.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `BHXH-ACC-MGMT` | Đăng ký tài khoản BHXH - Người quản lý doanh nghiệp | tài khoản | 500.000 | 540.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `BHXH-ACC-STD` | Đăng ký tài khoản BHXH doanh nghiệp - Cơ bản | tài khoản | 500.000 | 540.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `PER-CRIME-RCRD` | Xin Lý lịch Tư pháp | hồ sơ | 1.000.000 | 1.080.000 | 8% | không | chưa ghi | nhà cung cấp |
-| `PER-EVISA` | Dịch Vụ Xin Cấp Thị Thực Điện Tử (E-Visa) - Xử Lý Khẩn Cấp | gói | 5.200.000 | 5.720.000 | 10% | không | oBacker tự thực hiện | oBacker |
-| `PER-TRC` | Dịch Vụ Xin Cấp Thẻ Tạm Trú Cho Người Nước Ngoài (Thời Hạn 2 - 5 Năm) | gói | 12.000.000 | 13.200.000 | 10% | không | oBacker tự thực hiện | oBacker |
-| `PER-VISA` | Xin Visa Lao động | gói | chưa có giá | chưa có giá | chưa ghi | không | thuê đơn vị bên ngoài thực hiện | oBacker |
-| `PER-VISA-EXEMPT-5Y` | Dịch Vụ Xin Cấp Giấy Miễn Thị Thực 5 Năm Cho Người Nước Ngoài | gói | 6.500.000 | 7.150.000 | 10% | không | oBacker tự thực hiện | oBacker |
-| `PER-VISA-REG` | Dịch Vụ Xin Cấp Thị Thực Điện Tử (E-Visa) - Xử Lý Tiêu Chuẩn | gói | 2.400.000 | 2.640.000 | 10% | không | oBacker tự thực hiện | oBacker |
-| `PER-WP` | Xin Giấy phép lao động Work Permit | gói | chưa có giá | chưa có giá | chưa ghi | không | thuê đơn vị bên ngoài thực hiện | oBacker |
-| `PER-WP-M-TRC` | Combo Giấy Phép Lao Động Lộ Trình Quản Lý & Thẻ Tạm Trú Trọn Gói | gói | 25.000.000 | 27.500.000 | 10% | không | oBacker tự thực hiện | oBacker |
-| `PER-WP-NEW` | Dịch Vụ Xin Cấp Mới Giấy Phép Lao Động Cho Người Nước Ngoài (Trọn Gói) | gói | 9.000.000 | 9.900.000 | 10% | không | oBacker tự thực hiện | oBacker |
-| `PER-WP-REN` | Dịch Vụ Gia Hạn / Cấp Lại Giấy Phép Lao Động Cho Người Nước Ngoài | gói | 7.000.000 | 7.700.000 | 10% | không | oBacker tự thực hiện | oBacker |
-| `PER-WP-UPD` | Dịch Vụ Cập Nhật Số Hộ Chiếu Mới Trên Giấy Phép Lao Động | gói | 3.200.000 | 3.520.000 | 10% | không | oBacker tự thực hiện | oBacker |
+| `BHXH-ACC-CLOSE` | Chốt sổ BHXH | người lao động | 1.000.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `BHXH-ACC-FORN` | Đăng ký tài khoản BHXH - Công ty có lao động nước ngoài | tài khoản | 500.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `BHXH-ACC-MGMT` | Đăng ký tài khoản BHXH - Người quản lý doanh nghiệp | tài khoản | 500.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `BHXH-ACC-STD` | Đăng ký tài khoản BHXH doanh nghiệp - Cơ bản | tài khoản | 500.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `PER-CRIME-RCRD` | Xin Lý lịch Tư pháp | hồ sơ | 1.000.000 | tính khi xuất hóa đơn | 8% | không | chưa ghi | nhà cung cấp |
+| `PER-EVISA` | Dịch Vụ Xin Cấp Thị Thực Điện Tử (E-Visa) - Xử Lý Khẩn Cấp | gói | 5.200.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `PER-TRC` | Dịch Vụ Xin Cấp Thẻ Tạm Trú Cho Người Nước Ngoài (Thời Hạn 2 - 5 Năm) | gói | 12.000.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `PER-VISA` | Xin Visa Lao động | gói | chưa có giá | tính khi xuất hóa đơn | chưa ghi | không | thuê đơn vị bên ngoài thực hiện | oBacker |
+| `PER-VISA-EXEMPT-5Y` | Dịch Vụ Xin Cấp Giấy Miễn Thị Thực 5 Năm Cho Người Nước Ngoài | gói | 6.500.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `PER-VISA-REG` | Dịch Vụ Xin Cấp Thị Thực Điện Tử (E-Visa) - Xử Lý Tiêu Chuẩn | gói | 2.400.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `PER-WP` | Xin Giấy phép lao động Work Permit | gói | chưa có giá | tính khi xuất hóa đơn | chưa ghi | không | thuê đơn vị bên ngoài thực hiện | oBacker |
+| `PER-WP-M-TRC` | Combo Giấy Phép Lao Động Lộ Trình Quản Lý & Thẻ Tạm Trú Trọn Gói | gói | 25.000.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `PER-WP-NEW` | Dịch Vụ Xin Cấp Mới Giấy Phép Lao Động Cho Người Nước Ngoài (Trọn Gói) | gói | 9.000.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `PER-WP-REN` | Dịch Vụ Gia Hạn / Cấp Lại Giấy Phép Lao Động Cho Người Nước Ngoài | gói | 7.000.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `PER-WP-UPD` | Dịch Vụ Cập Nhật Số Hộ Chiếu Mới Trên Giấy Phép Lao Động | gói | 3.200.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
 
 
 

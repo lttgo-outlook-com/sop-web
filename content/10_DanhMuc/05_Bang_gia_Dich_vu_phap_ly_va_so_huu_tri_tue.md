@@ -72,54 +72,54 @@ Giá ghi bằng đồng Việt Nam, tính cho một đơn vị tính. Mã trong 
 
 | Mã | Tên dịch vụ | Đơn vị tính | Giá chưa thuế GTGT | Giá đã có thuế GTGT | Thuế suất GTGT | Thu theo kỳ | Nguồn cung cấp | Bên xuất hóa đơn |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| `DICHTHUAT_EN-VI` | Dịch Vụ Dịch Thuật Tài Liệu Chuyên Ngành Kinh Tế - Pháp Lý (Anh - Việt) | trang | 250.000 | 275.000 | 10% | không | oBacker tự thực hiện | oBacker |
-| `DV-OBK-TLS01` | Dịch vụ chuyển thẻ luật sư | đơn vị | 3.200.000 | 3.456.000 | 8% | không | chưa ghi | oBacker |
-| `IP-BC-POST` | Dịch Vụ Đăng Ký Mã Số Mã Vạch Sản Phẩm (Nộp Sau Ngày 30/06) | gói | 3.300.000 | 3.630.000 | 10% | không | oBacker tự thực hiện | oBacker |
-| `IP-BC-PRE` | Dịch Vụ Đăng Ký Mã Số Mã Vạch Sản Phẩm (Nộp Trước Ngày 30/06) | gói | 3.750.000 | 4.125.000 | 10% | không | oBacker tự thực hiện | oBacker |
-| `IP-CR-ART` | Dịch Vụ Đăng Ký Bản Quyền Tác Giả Tác Phẩm Mỹ Thuật Ứng Dụng (Logo, Bao Bì) | gói | 3.000.000 | 3.300.000 | 10% | không | oBacker tự thực hiện | oBacker |
-| `IP-CR-ART-RE` | Cấp lại GCN đăng ký quyền tác giả - Mỹ thuật ứng dụng/Nhiếp ảnh | gói | 2.625.000 | 2.835.000 | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
-| `IP-CR-MUS` | Đăng ký/sửa đổi/chuyển nhượng quyền tác giả - Âm nhạc/Tác phẩm viết | gói | 2.000.000 | 2.160.000 | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
-| `IP-CR-MUS-RE` | Cấp lại GCN đăng ký quyền tác giả - Âm nhạc/Tác phẩm viết | gói | 2.625.000 | 2.835.000 | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
-| `IP-CR-SW` | Dịch Vụ Đăng Ký Bản Quyền Tác Giả Chương Trình Máy Tính (Phần Mềm / Mã Nguồn) | gói | 3.500.000 | 3.500.000 | 0% | không | oBacker tự thực hiện | oBacker |
-| `IP-CR-SW-RE` | Cấp lại GCN đăng ký quyền tác giả - Phần mềm | gói | 2.800.000 | 3.024.000 | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
-| `IP-ID-REG` | Dịch Vụ Đăng Ký Bảo Hộ Kiểu Dáng Công Nghiệp | kiểu dáng | 8.000.000 | 8.800.000 | 10% | không | oBacker tự thực hiện | oBacker |
-| `IP-ID-SEARCH` | Tra cứu kiểu dáng công nghiệp | gói | 3.200.000 | 3.456.000 | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
-| `IP-MOD-APP` | Sửa đổi đơn đăng ký nhãn hiệu/sáng chế/KDCN | gói | 1.600.000 | 1.728.000 | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
-| `IP-MOD-CERT` | Sửa đổi GCN đăng ký nhãn hiệu/sáng chế/KDCN | gói | 1.600.000 | 1.728.000 | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
-| `IP-MOD-XFER` | Chuyển giao/cấp phó bản/cấp lại đơn đăng ký nhãn hiệu/sáng chế/KDCN | gói | 1.600.000 | 1.728.000 | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
-| `IP-PT-REG` | Đăng ký sáng chế | gói | 22.500.000 | 24.300.000 | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
-| `IP-RECV-DOC` | Đại diện nhận hồ sơ tại Cục Sở hữu Trí tuệ | gói | 800.000 | 864.000 | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
-| `IP-TM-APPEAL` | Khiếu nại quyết định từ chối cấp GCN nhãn hiệu | gói | 3.200.000 | 3.456.000 | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
-| `IP-TM-DUPL` | Cấp phó bản / cấp lại GCN đăng ký nhãn hiệu | gói | 1.900.000 | 2.052.000 | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
-| `IP-TM-LIC` | Chuyển giao quyền sử dụng nhãn hiệu | gói | 2.800.000 | 3.024.000 | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
-| `IP-TM-REG-1` | Dịch Vụ Đăng Ký Bảo Hộ Nhãn Hiệu Hàng Hóa / Dịch Vụ - Nhóm Đầu Tiên | nhóm | 3.500.000 | 3.850.000 | 10% | không | oBacker tự thực hiện | oBacker |
-| `IP-TM-REG-2` | Dịch Vụ Đăng Ký Nhãn Hiệu - Nhóm Sản Phẩm / Dịch Vụ Thứ Hai Trở Đi | nhóm | 1.800.000 | 1.980.000 | 10% | không | oBacker tự thực hiện | oBacker |
-| `IP-TM-REG-7` | Đăng ký nhãn hiệu nhóm thứ 7 trở đi | nhãn hiệu/nhóm | 320.000 | 345.600 | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
-| `IP-TM-REN-1` | Dịch Vụ Gia Hạn Hiệu Lực Giấy Chứng Nhận Đăng Ký Nhãn Hiệu | nhóm | 2.700.000 | 2.970.000 | 10% | không | oBacker tự thực hiện | oBacker |
-| `IP-TM-REN-2` | Gia hạn hiệu lực GCN đăng ký nhãn hiệu - nhóm thứ 2 trở đi | nhãn hiệu/nhóm | 1.950.000 | 2.106.000 | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
-| `IP-TM-RESP` | Phúc đáp Công văn thẩm định nội dung đơn đăng ký nhãn hiệu | gói | chưa có giá | chưa có giá | chưa ghi | không | thuê đơn vị bên ngoài thực hiện | oBacker |
-| `IP-TM-SEARCH` | Dịch Vụ Tra Cứu Chuyên Sâu Khả Năng Bảo Hộ Nhãn Hiệu | nhóm | 1.000.000 | 1.100.000 | 10% | không | oBacker tự thực hiện | oBacker |
-| `IP-TM-TRANS` | Chuyển nhượng nhãn hiệu | gói | 3.500.000 | 3.780.000 | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
-| `LEG-CTR-REV` | Dịch Vụ Rà Soát Hợp Đồng Thương Mại Đơn Lẻ (Dưới 10 Trang A4) | hợp đồng | 1.500.000 | 1.650.000 | 10% | không | oBacker tự thực hiện | oBacker |
-| `LEG-CTR-REVIEW` | Hành chính - Rà soát hợp đồng lao động cũ | người lao động | 300.000 | 324.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `LEG-CTR-TMPL-ADV` | Dịch Vụ Soạn Thảo Hợp Đồng Phức Tạp / Quốc Tế Song Ngữ (Anh - Việt) | bản | 10.000.000 | 11.000.000 | 10% | không | oBacker tự thực hiện | oBacker |
-| `LEG-CTR-TMPL-STD` | Dịch Vụ Soạn Thảo Hợp Đồng Thương Mại Chuẩn Mẫu (Tiêu Chuẩn) | bản | 5.000.000 | 5.500.000 | 10% | không | oBacker tự thực hiện | oBacker |
-| `OB-CTR-ADS-BI` | Soạn thảo / Rà soát hợp đồng Advisory - Song ngữ | hợp đồng | 45.000.000 | 48.600.000 | 8% | không | chưa ghi | oBacker |
-| `OB-CTR-ADS-ENG` | Soạn thảo / Rà soát hợp đồng Advisory - Tiếng Anh | hợp đồng | 30.000.000 | 32.400.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `OB-CTR-ADS-VIE` | Soạn thảo / Rà soát hợp đồng Advisory - Tiếng Việt | hợp đồng | 20.000.000 | 21.600.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `OB-CTR-ADV-BI` | Soạn thảo / Rà soát hợp đồng Advanced - Song ngữ | hợp đồng | 6.750.000 | 7.290.000 | 8% | không | chưa ghi | oBacker |
-| `OB-CTR-ADV-ENG` | Soạn thảo / Rà soát hợp đồng Advanced - Tiếng Anh | hợp đồng | 4.500.000 | 4.860.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `OB-CTR-ADV-VIE` | Soạn thảo / Rà soát hợp đồng Advanced - Tiếng Việt | hợp đồng | 3.000.000 | 3.240.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `OB-CTR-CMN-BI` | Soạn thảo / Rà soát hợp đồng Common - Song ngữ | hợp đồng | 1.125.000 | 1.215.000 | 8% | không | chưa ghi | oBacker |
-| `OB-CTR-CMN-ENG` | Soạn thảo / Rà soát hợp đồng Common - Tiếng Anh | hợp đồng | 750.000 | 810.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `OB-CTR-CMN-VIE` | Soạn thảo / Rà soát hợp đồng Common - Tiếng Việt | hợp đồng | 500.000 | 540.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `OB-CTR-ESOP` | Soạn hợp đồng thiết lập ESOP | gói | 5.000.000 | 5.400.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `OB-LR-ENG` | Tư vấn pháp lý - Tiếng Anh | giờ | 2.000.000 | 2.160.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `OB-LR-VIE` | Tư vấn pháp lý - Tiếng Việt | giờ | 1.000.000 | 1.080.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `OB-Legal-DD` | Dịch vụ Thẩm định Pháp lý Thu gọn (Mini Legal Due Diligence) | gói | 30.000.000 | 32.400.000 | 8% | không | chưa ghi | oBacker |
-| `TRANS-EN-VN` | Dịch văn bản EN-VN không công chứng | trang | 150.000 | 162.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `TRANS-EN-VN-NTR` | Dịch văn bản EN-VN công chứng | trang | 250.000 | 270.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `TRANS-OTH-VN-NTR` | Dịch văn bản sang tiếng Việt (thứ tiếng khác) công chứng | trang | 700.000 | 756.000 | 8% | không | oBacker tự thực hiện | oBacker |
+| `DICHTHUAT_EN-VI` | Dịch Vụ Dịch Thuật Tài Liệu Chuyên Ngành Kinh Tế - Pháp Lý (Anh - Việt) | trang | 250.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `DV-OBK-TLS01` | Dịch vụ chuyển thẻ luật sư | đơn vị | 3.200.000 | tính khi xuất hóa đơn | 8% | không | chưa ghi | oBacker |
+| `IP-BC-POST` | Dịch Vụ Đăng Ký Mã Số Mã Vạch Sản Phẩm (Nộp Sau Ngày 30/06) | gói | 3.300.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `IP-BC-PRE` | Dịch Vụ Đăng Ký Mã Số Mã Vạch Sản Phẩm (Nộp Trước Ngày 30/06) | gói | 3.750.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `IP-CR-ART` | Dịch Vụ Đăng Ký Bản Quyền Tác Giả Tác Phẩm Mỹ Thuật Ứng Dụng (Logo, Bao Bì) | gói | 3.000.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `IP-CR-ART-RE` | Cấp lại GCN đăng ký quyền tác giả - Mỹ thuật ứng dụng/Nhiếp ảnh | gói | 2.625.000 | tính khi xuất hóa đơn | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
+| `IP-CR-MUS` | Đăng ký/sửa đổi/chuyển nhượng quyền tác giả - Âm nhạc/Tác phẩm viết | gói | 2.000.000 | tính khi xuất hóa đơn | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
+| `IP-CR-MUS-RE` | Cấp lại GCN đăng ký quyền tác giả - Âm nhạc/Tác phẩm viết | gói | 2.625.000 | tính khi xuất hóa đơn | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
+| `IP-CR-SW` | Dịch Vụ Đăng Ký Bản Quyền Tác Giả Chương Trình Máy Tính (Phần Mềm / Mã Nguồn) | gói | 3.500.000 | tính khi xuất hóa đơn | 0% | không | oBacker tự thực hiện | oBacker |
+| `IP-CR-SW-RE` | Cấp lại GCN đăng ký quyền tác giả - Phần mềm | gói | 2.800.000 | tính khi xuất hóa đơn | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
+| `IP-ID-REG` | Dịch Vụ Đăng Ký Bảo Hộ Kiểu Dáng Công Nghiệp | kiểu dáng | 8.000.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `IP-ID-SEARCH` | Tra cứu kiểu dáng công nghiệp | gói | 3.200.000 | tính khi xuất hóa đơn | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
+| `IP-MOD-APP` | Sửa đổi đơn đăng ký nhãn hiệu/sáng chế/KDCN | gói | 1.600.000 | tính khi xuất hóa đơn | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
+| `IP-MOD-CERT` | Sửa đổi GCN đăng ký nhãn hiệu/sáng chế/KDCN | gói | 1.600.000 | tính khi xuất hóa đơn | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
+| `IP-MOD-XFER` | Chuyển giao/cấp phó bản/cấp lại đơn đăng ký nhãn hiệu/sáng chế/KDCN | gói | 1.600.000 | tính khi xuất hóa đơn | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
+| `IP-PT-REG` | Đăng ký sáng chế | gói | 22.500.000 | tính khi xuất hóa đơn | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
+| `IP-RECV-DOC` | Đại diện nhận hồ sơ tại Cục Sở hữu Trí tuệ | gói | 800.000 | tính khi xuất hóa đơn | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
+| `IP-TM-APPEAL` | Khiếu nại quyết định từ chối cấp GCN nhãn hiệu | gói | 3.200.000 | tính khi xuất hóa đơn | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
+| `IP-TM-DUPL` | Cấp phó bản / cấp lại GCN đăng ký nhãn hiệu | gói | 1.900.000 | tính khi xuất hóa đơn | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
+| `IP-TM-LIC` | Chuyển giao quyền sử dụng nhãn hiệu | gói | 2.800.000 | tính khi xuất hóa đơn | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
+| `IP-TM-REG-1` | Dịch Vụ Đăng Ký Bảo Hộ Nhãn Hiệu Hàng Hóa / Dịch Vụ - Nhóm Đầu Tiên | nhóm | 3.500.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `IP-TM-REG-2` | Dịch Vụ Đăng Ký Nhãn Hiệu - Nhóm Sản Phẩm / Dịch Vụ Thứ Hai Trở Đi | nhóm | 1.800.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `IP-TM-REG-7` | Đăng ký nhãn hiệu nhóm thứ 7 trở đi | nhãn hiệu/nhóm | 320.000 | tính khi xuất hóa đơn | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
+| `IP-TM-REN-1` | Dịch Vụ Gia Hạn Hiệu Lực Giấy Chứng Nhận Đăng Ký Nhãn Hiệu | nhóm | 2.700.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `IP-TM-REN-2` | Gia hạn hiệu lực GCN đăng ký nhãn hiệu - nhóm thứ 2 trở đi | nhãn hiệu/nhóm | 1.950.000 | tính khi xuất hóa đơn | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
+| `IP-TM-RESP` | Phúc đáp Công văn thẩm định nội dung đơn đăng ký nhãn hiệu | gói | chưa có giá | tính khi xuất hóa đơn | chưa ghi | không | thuê đơn vị bên ngoài thực hiện | oBacker |
+| `IP-TM-SEARCH` | Dịch Vụ Tra Cứu Chuyên Sâu Khả Năng Bảo Hộ Nhãn Hiệu | nhóm | 1.000.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `IP-TM-TRANS` | Chuyển nhượng nhãn hiệu | gói | 3.500.000 | tính khi xuất hóa đơn | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
+| `LEG-CTR-REV` | Dịch Vụ Rà Soát Hợp Đồng Thương Mại Đơn Lẻ (Dưới 10 Trang A4) | hợp đồng | 1.500.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `LEG-CTR-REVIEW` | Hành chính - Rà soát hợp đồng lao động cũ | người lao động | 300.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `LEG-CTR-TMPL-ADV` | Dịch Vụ Soạn Thảo Hợp Đồng Phức Tạp / Quốc Tế Song Ngữ (Anh - Việt) | bản | 10.000.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `LEG-CTR-TMPL-STD` | Dịch Vụ Soạn Thảo Hợp Đồng Thương Mại Chuẩn Mẫu (Tiêu Chuẩn) | bản | 5.000.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `OB-CTR-ADS-BI` | Soạn thảo / Rà soát hợp đồng Advisory - Song ngữ | hợp đồng | 45.000.000 | tính khi xuất hóa đơn | 8% | không | chưa ghi | oBacker |
+| `OB-CTR-ADS-ENG` | Soạn thảo / Rà soát hợp đồng Advisory - Tiếng Anh | hợp đồng | 30.000.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `OB-CTR-ADS-VIE` | Soạn thảo / Rà soát hợp đồng Advisory - Tiếng Việt | hợp đồng | 20.000.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `OB-CTR-ADV-BI` | Soạn thảo / Rà soát hợp đồng Advanced - Song ngữ | hợp đồng | 6.750.000 | tính khi xuất hóa đơn | 8% | không | chưa ghi | oBacker |
+| `OB-CTR-ADV-ENG` | Soạn thảo / Rà soát hợp đồng Advanced - Tiếng Anh | hợp đồng | 4.500.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `OB-CTR-ADV-VIE` | Soạn thảo / Rà soát hợp đồng Advanced - Tiếng Việt | hợp đồng | 3.000.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `OB-CTR-CMN-BI` | Soạn thảo / Rà soát hợp đồng Common - Song ngữ | hợp đồng | 1.125.000 | tính khi xuất hóa đơn | 8% | không | chưa ghi | oBacker |
+| `OB-CTR-CMN-ENG` | Soạn thảo / Rà soát hợp đồng Common - Tiếng Anh | hợp đồng | 750.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `OB-CTR-CMN-VIE` | Soạn thảo / Rà soát hợp đồng Common - Tiếng Việt | hợp đồng | 500.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `OB-CTR-ESOP` | Soạn hợp đồng thiết lập ESOP | gói | 5.000.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `OB-LR-ENG` | Tư vấn pháp lý - Tiếng Anh | giờ | 2.000.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `OB-LR-VIE` | Tư vấn pháp lý - Tiếng Việt | giờ | 1.000.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `OB-Legal-DD` | Dịch vụ Thẩm định Pháp lý Thu gọn (Mini Legal Due Diligence) | gói | 30.000.000 | tính khi xuất hóa đơn | 8% | không | chưa ghi | oBacker |
+| `TRANS-EN-VN` | Dịch văn bản EN-VN không công chứng | trang | 150.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `TRANS-EN-VN-NTR` | Dịch văn bản EN-VN công chứng | trang | 250.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `TRANS-OTH-VN-NTR` | Dịch văn bản sang tiếng Việt (thứ tiếng khác) công chứng | trang | 700.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
 
 
 

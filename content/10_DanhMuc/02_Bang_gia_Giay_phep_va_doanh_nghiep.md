@@ -72,72 +72,72 @@ Giá ghi bằng đồng Việt Nam, tính cho một đơn vị tính. Mã trong 
 
 | Mã | Tên dịch vụ | Đơn vị tính | Giá chưa thuế GTGT | Giá đã có thuế GTGT | Thuế suất GTGT | Thu theo kỳ | Nguồn cung cấp | Bên xuất hóa đơn |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| `AQUILA-001` | Lệ phí nhà nước sao y công chứng Hộ chiếu | gói | 126.000 | 126.000 | 0% | không | chưa ghi | nhà cung cấp |
-| `ATVSTP_DN` | Dịch Vụ Xin Cấp Giấy Chứng Nhận Đủ Điều Kiện An Toàn Thực Phẩm | cơ sở | 14.000.000 | 15.400.000 | 10% | không | oBacker tự thực hiện | oBacker |
-| `DN-DVNQ-21` | HỒ SƠ HƯỞNG CHÍNH SÁCH VỀ THU NHẬP, LƯU TRÚ CHO CHUYÊN GIA, NHÀ KHOA HỌC TRÊN ĐỊA BÀN TP ĐÀ NẴNG (NQ 21) | gói | 10.000.000 | 10.800.000 | 8% | không | chưa ghi | oBacker |
-| `DN-DVNQ-23` | HỒ SƠ ĐỀ NGHỊ HỖ TRỢ SỬ DỤNG TÀI SẢN HẠ TẦNG TẠI KHU ICT1 (NQ 23) | gói | 15.000.000 | 16.200.000 | 8% | không | chưa ghi | oBacker |
-| `F-FDI-MA` | Dịch Vụ Đăng Ký Góp Vốn / Mua Cổ Phần Doanh Nghiệp FDI (Lộ Trình M&A) | gói | 25.000.000 | 27.500.000 | 10% | không | oBacker tự thực hiện | oBacker |
-| `F-FDI-NEW` | Dịch Vụ Thành Lập Doanh Nghiệp FDI Mới Hoàn Toàn (Lộ Trình Đầu Tư Trực Tiếp: IRC + ERC) | gói | 35.000.000 | 38.500.000 | 10% | không | oBacker tự thực hiện | oBacker |
-| `F-VN-ERC` | Dịch Vụ Thành Lập Công Ty Việt Nam Cơ Bản (ERC + Con Dấu) | gói | 1.850.000 | 2.035.000 | 10% | không | oBacker tự thực hiện | oBacker |
-| `LCS-RETAIL` | Dịch Vụ Xin Cấp Giấy Phép Kinh Doanh Hoạt Động Bán Lẻ Cho Doanh Nghiệp FDI | gói | 34.000.000 | 37.400.000 | 10% | không | oBacker tự thực hiện | oBacker |
-| `LICE-CLOSE-RO` | Dịch vụ Đóng văn phòng đại diện | gói | 4.000.000 | 4.320.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `LICE-DISSOLVE` | Dịch vụ giải thể công ty | gói | chưa có giá | chưa có giá | chưa ghi | không | oBacker tự thực hiện | oBacker |
-| `LICE-DISSOLVE-ACT` | Dịch Vụ Giải Thể Doanh Nghiệp Đang Hoạt Động (Đã Phát Sinh Doanh Thu) | gói | 5.000.000 | 5.500.000 | 10% | không | oBacker tự thực hiện | oBacker |
-| `LICE-DISSOLVE-DORM` | Dịch Vụ Giải Thể Doanh Nghiệp Chưa Phát Sinh Doanh Thu (Công Ty Trắng) | gói | 3.500.000 | 3.850.000 | 10% | không | oBacker tự thực hiện | oBacker |
-| `LICE-DISSOLVE-HKD` | Dịch vụ giải thể hộ kinh doanh | gói | chưa có giá | chưa có giá | chưa ghi | không | oBacker tự thực hiện | oBacker |
-| `LICE-EC-NOTIFY-MOIT` | Dịch Vụ Thông Báo Website Thương Mại Điện Tử Bán Hàng Với Bộ Công Thương | website | 2.000.000 | 2.200.000 | 10% | không | oBacker tự thực hiện | oBacker |
-| `LICE-EC-WEB-MOIT` | Dịch Vụ Đăng Ký Thiết Lập Sàn Giao Dịch Thương Mại Điện Tử Với Bộ Công Thương | sàn | 40.000.000 | 44.000.000 | 10% | không | oBacker tự thực hiện | oBacker |
-| `LICE-EDU` | Dịch Vụ Xin Giấy Phép Hoạt Động Trung Tâm Đào Tạo / Giáo Dục | trung tâm | 20.000.000 | 22.000.000 | 10% | không | oBacker tự thực hiện | oBacker |
-| `LICE-ERC-AMEND-CAP` | Điều chỉnh ERC - Giảm vốn | gói | 2.000.000 | 2.160.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `LICE-ERC-AMEND-CODE` | Sửa Giấy chứng nhận đăng ký doanh nghiệp - Cập nhật ngành nghề đăng ký kinh doanh | gói | 1.000.000 | 1.080.000 | 8% | không | chưa ghi | oBacker |
-| `LICE-ERC-AMEND-FOUND` | Điều chỉnh cổ đông sáng lập | gói | 1.000.000 | 1.080.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `LICE-JOBSVC-NOTICE` | Thông báo hoạt động dịch vụ việc làm (Sở Nội vụ) | thủ tục | chưa có giá | chưa có giá | chưa ghi | không | chưa ghi | chưa ghi |
-| `LICE-LEGALIZE` | Hợp pháp hóa lãnh sự và hỗ trợ thủ tục công chứng dịch | gói | chưa có giá | chưa có giá | chưa ghi | không | thuê đơn vị bên ngoài thực hiện | oBacker |
-| `LICE-LIQUOR` | Dịch Vụ Xin Cấp Giấy Phép Kinh Doanh Bán Lẻ Rượu | giấy phép | 20.000.000 | 22.000.000 | 10% | không | oBacker tự thực hiện | oBacker |
-| `LICE-NDIR-VN` | Cổ đông danh nghĩa (VN) | người/năm | chưa có giá | chưa có giá | chưa ghi | có | oBacker tự thực hiện | oBacker |
-| `LICE-PAUSE` | Dịch Vụ Đăng Ký Tạm Ngưng Hoạt Động Kinh Doanh | gói | 1.000.000 | 1.100.000 | 10% | không | oBacker tự thực hiện | oBacker |
-| `LICE-PRESENT-TAX` | Hỗ trợ trình diện thuế lần đầu | gói | 1.000.000 | 1.080.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `OB-MST-INDV-RENT` | Mở Mã Số Thuế cho Cá nhân Cho thuê Tài sản | gói | 1.000.000 | 1.080.000 | 8% | không | chưa ghi | oBacker |
-| `OB-NTR-FEE` | Phí công chứng | tài liệu | chưa có giá | chưa có giá | chưa ghi | không | oBacker tự thực hiện | oBacker |
-| `OB-VOFC-PCCC` | Treo bảng hiệu & hỗ trợ tiếp đoàn PCCC | tháng | 500.000 | 540.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `OBL-ADD-BH` | Add-on: Bảo hộ nhãn hiệu | gói | 4.000.000 | 4.320.000 | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
-| `OBL-ADD-NCC` | Add-on: Nâng cấp Làm việc từ xa | gói | 5.972.000 | 6.540.880 | 10% | không | oBacker thực hiện một phần, thuê ngoài một phần | oBacker |
-| `OBL-BRANCH` | Dịch Vụ Thành Lập Chi Nhánh / Văn Phòng Đại Diện / Địa Điểm Kinh Doanh | gói | 1.200.000 | 1.320.000 | 10% | không | oBacker tự thực hiện | oBacker |
-| `OBL-CNC` | Đăng ký thành lập công ty tại Khu công nghệ cao (CNC) Đà Nẵng | gói | chưa có giá | chưa có giá | chưa ghi | không | oBacker tự thực hiện | oBacker |
-| `OBL-COMBO-DOITEN` | Combo Cập nhật Thông tin Đổi tên Công ty (BHXH, Thuế, Hóa đơn điện tử) | gói | 2.000.000 | 2.160.000 | 8% | không | chưa ghi | oBacker |
-| `OBL-CPX` | Thành lập công ty - Ngành nghề phức tạp | gói | chưa có giá | chưa có giá | chưa ghi | không | oBacker thực hiện một phần, thuê ngoài một phần | oBacker |
-| `OBL-DI` | Combo Thành Lập Doanh Nghiệp FDI Mới Trọn Gói (Full Setup Direct Investment) | gói | 55.000.000 | 60.500.000 | 10% | không | oBacker tự thực hiện | oBacker |
-| `OBL-DMST` | Đăng ký doanh nghiệp Đổi mới sáng tạo | gói | 15.000.000 | 16.200.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `OBL-ERC-AMEND-BRAD` | Đăng ký thay đổi ĐKDN do tách/sáp nhập công ty (Điều 55 - NĐ168/2025) | gói | 0 | 0 | 8% | không | oBacker tự thực hiện | oBacker |
-| `OBL-ERC-AMEND-CAP` | Điều chỉnh GCNĐKKD - Thay đổi/tăng vốn điều lệ / phần vốn góp / tỷ lệ phần vốn góp | gói | 1.000.000 | 1.080.000 | 8% | không | chưa ghi | oBacker |
-| `OBL-ERC-AMEND-CCL` | Thay đổi địa chỉ trụ sở chính (Điều 40 - NĐ168/2025) | gói | 500.000 | 540.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `OBL-ERC-AMEND-CCN` | Thay đổi tên doanh nghiệp (Điều 41 - NĐ168/2025) | gói | 500.000 | 540.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `OBL-ERC-AMEND-CCT` | Thay đổi loại hình doanh nghiệp (TNHH 1TV → 2TV hoặc CTCP) (NĐ168/2025) | gói | 2.000.000 | 2.160.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `OBL-ERC-AMEND-CLR` | Thay đổi người đại diện theo pháp luật - CTTNHH/CTCP (Điều 43 - NĐ168/2025) | gói | 500.000 | 540.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `OBL-ERC-AMEND-CMMM` | Thay đổi thành viên CTTNHH từ 2 thành viên trở lên (Điều 45 - NĐ168/2025) | gói | 1.000.000 | 1.080.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `OBL-ERC-AMEND-COSM` | Thay đổi chủ sở hữu CTTNHH một thành viên (Điều 46 - NĐ168/2025) | gói | 1.000.000 | 1.080.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `OBL-ERC-AMEND-CRDB` | Thay đổi nội dung đăng ký hoạt động Chi nhánh / VPĐD / Địa điểm KD (Điều 56 - NĐ168/2025) | gói | 500.000 | 540.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `OBL-ERC-AMEND-NCBL` | Thông báo thay đổi ngành, nghề kinh doanh (Điều 49 - NĐ168/2025) | gói | 1.000.000 | 1.080.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `OBL-ERC-AMEND-NCCBOI` | Thông báo thay đổi thông tin chủ sở hữu hưởng lợi (Điều 52 - NĐ168/2025) | gói | 500.000 | 540.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `OBL-ERC-AMEND-NCFIS` | Thông báo thay đổi cổ đông là nhà đầu tư nước ngoài - CTCP (Điều 51 - NĐ168/2025) | gói | 3.500.000 | 3.780.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `OBL-ERC-AMEND-NCFS` | Thông báo thay đổi thông tin cổ đông sáng lập CTCP (Điều 50 - NĐ168/2025) | gói | 500.000 | 540.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `OBL-ERC-AMEND-NCTRI` | Thông báo thay đổi nội dung đăng ký thuế (không thay đổi nội dung ĐKKD) (Điều 53 - NĐ168/2025) | gói | 500.000 | 540.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `OBL-ERC-AMEND-REP` | Điều chỉnh GCNĐKKD - Thay đổi người đại diện theo pháp luật (CTTNHH / CTCP) | gói | 500.000 | 540.000 | 8% | không | chưa ghi | oBacker |
-| `OBL-ERC-AMEND-SEAL` | Dịch Vụ Thay Đổi Nội Dung Đăng Ký Doanh Nghiệp Có Đổi Dấu (Tên Hoặc Khác Quận) | lần | 1.500.000 | 1.650.000 | 10% | không | oBacker tự thực hiện | oBacker |
-| `OBL-ERC-AMEND-STD` | Dịch Vụ Thay Đổi Nội Dung Đăng Ký Doanh Nghiệp Tiêu Chuẩn (Không Đổi Dấu) | lần | 1.200.000 | 1.320.000 | 10% | không | oBacker tự thực hiện | oBacker |
-| `OBL-ERC-AMEND-UBRI` | Cập nhật/bổ sung thông tin ĐKDN không thuộc trường hợp đăng ký/thông báo thay đổi (Điều 57 - NĐ168/2025) | gói | 500.000 | 540.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `OBL-HKD` | Thành lập hộ kinh doanh | gói | 2.000.000 | 2.160.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `OBL-IFC-UNCON` | Thành lập công ty thành viên IFC Đà Nẵng - Ngành nghề không điều kiện | gói | chưa có giá | chưa có giá | chưa ghi | không | oBacker tự thực hiện | oBacker |
-| `OBL-IFC-UNCON-BP` | Thành lập công ty thành viên IFC Đà Nẵng - Ngành nghề không điều kiện - Kế hoạch kinh doanh | gói | chưa có giá | chưa có giá | chưa ghi | không | oBacker tự thực hiện | oBacker |
-| `OBL-MA` | Combo Đăng Ký Góp Vốn M&A Doanh Nghiệp FDI Trọn Gói (Full Setup M&A) | gói | 45.000.000 | 49.500.000 | 10% | không | oBacker tự thực hiện | oBacker |
-| `OBL-STD` | Combo Thành Lập Công Ty Việt Nam Tiêu Chuẩn Trọn Gói | gói | 5.000.000 | 5.500.000 | 10% | không | oBacker tự thực hiện | oBacker |
-| `OBL-TECH-SCN` | Đăng ký Tổ chức Khoa học Công nghệ | gói | 15.000.000 | 16.200.000 | 8% | không | chưa ghi | oBacker |
-| `OBL-VC-FUND` | Thành lập Quỹ đầu tư khởi nghiệp sáng tạo | gói | 25.000.000 | 27.000.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `SANDBOX-ARRIVALX` | Dịch vụ Tư vấn & Soạn thảo Hồ sơ Xin Cấp phép Cơ chế Thử nghiệm (Công nghệ Thanh toán bằng Lòng bàn tay) | gói | 60.000.000 | 64.800.000 | 8% | không | chưa ghi | oBacker |
-| `TRD-SIGN` | Bảng hiệu doanh nghiệp | cái | 200.000 | 220.000 | 10% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
-| `TRD-STAMP` | Con dấu doanh nghiệp | cái | 450.000 | 495.000 | chưa ghi | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `TRD-STAMP-CD` | Con dấu chức danh | cái | 185.185 | 200.000 | 8% | không | chưa ghi | nhà cung cấp |
-| `TRD-VOFC` | Văn phòng ảo - 12 tháng | gói | 6.000.000 | 6.600.000 | 10% | có | oBacker tự thực hiện | oBacker |
+| `AQUILA-001` | Lệ phí nhà nước sao y công chứng Hộ chiếu | gói | 126.000 | tính khi xuất hóa đơn | 0% | không | chưa ghi | nhà cung cấp |
+| `ATVSTP_DN` | Dịch Vụ Xin Cấp Giấy Chứng Nhận Đủ Điều Kiện An Toàn Thực Phẩm | cơ sở | 14.000.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `DN-DVNQ-21` | HỒ SƠ HƯỞNG CHÍNH SÁCH VỀ THU NHẬP, LƯU TRÚ CHO CHUYÊN GIA, NHÀ KHOA HỌC TRÊN ĐỊA BÀN TP ĐÀ NẴNG (NQ 21) | gói | 10.000.000 | tính khi xuất hóa đơn | 8% | không | chưa ghi | oBacker |
+| `DN-DVNQ-23` | HỒ SƠ ĐỀ NGHỊ HỖ TRỢ SỬ DỤNG TÀI SẢN HẠ TẦNG TẠI KHU ICT1 (NQ 23) | gói | 15.000.000 | tính khi xuất hóa đơn | 8% | không | chưa ghi | oBacker |
+| `F-FDI-MA` | Dịch Vụ Đăng Ký Góp Vốn / Mua Cổ Phần Doanh Nghiệp FDI (Lộ Trình M&A) | gói | 25.000.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `F-FDI-NEW` | Dịch Vụ Thành Lập Doanh Nghiệp FDI Mới Hoàn Toàn (Lộ Trình Đầu Tư Trực Tiếp: IRC + ERC) | gói | 35.000.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `F-VN-ERC` | Dịch Vụ Thành Lập Công Ty Việt Nam Cơ Bản (ERC + Con Dấu) | gói | 1.850.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `LCS-RETAIL` | Dịch Vụ Xin Cấp Giấy Phép Kinh Doanh Hoạt Động Bán Lẻ Cho Doanh Nghiệp FDI | gói | 34.000.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `LICE-CLOSE-RO` | Dịch vụ Đóng văn phòng đại diện | gói | 4.000.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `LICE-DISSOLVE` | Dịch vụ giải thể công ty | gói | chưa có giá | tính khi xuất hóa đơn | chưa ghi | không | oBacker tự thực hiện | oBacker |
+| `LICE-DISSOLVE-ACT` | Dịch Vụ Giải Thể Doanh Nghiệp Đang Hoạt Động (Đã Phát Sinh Doanh Thu) | gói | 5.000.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `LICE-DISSOLVE-DORM` | Dịch Vụ Giải Thể Doanh Nghiệp Chưa Phát Sinh Doanh Thu (Công Ty Trắng) | gói | 3.500.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `LICE-DISSOLVE-HKD` | Dịch vụ giải thể hộ kinh doanh | gói | chưa có giá | tính khi xuất hóa đơn | chưa ghi | không | oBacker tự thực hiện | oBacker |
+| `LICE-EC-NOTIFY-MOIT` | Dịch Vụ Thông Báo Website Thương Mại Điện Tử Bán Hàng Với Bộ Công Thương | website | 2.000.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `LICE-EC-WEB-MOIT` | Dịch Vụ Đăng Ký Thiết Lập Sàn Giao Dịch Thương Mại Điện Tử Với Bộ Công Thương | sàn | 40.000.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `LICE-EDU` | Dịch Vụ Xin Giấy Phép Hoạt Động Trung Tâm Đào Tạo / Giáo Dục | trung tâm | 20.000.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `LICE-ERC-AMEND-CAP` | Điều chỉnh ERC - Giảm vốn | gói | 2.000.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `LICE-ERC-AMEND-CODE` | Sửa Giấy chứng nhận đăng ký doanh nghiệp - Cập nhật ngành nghề đăng ký kinh doanh | gói | 1.000.000 | tính khi xuất hóa đơn | 8% | không | chưa ghi | oBacker |
+| `LICE-ERC-AMEND-FOUND` | Điều chỉnh cổ đông sáng lập | gói | 1.000.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `LICE-JOBSVC-NOTICE` | Thông báo hoạt động dịch vụ việc làm (Sở Nội vụ) | thủ tục | chưa có giá | tính khi xuất hóa đơn | chưa ghi | không | chưa ghi | chưa ghi |
+| `LICE-LEGALIZE` | Hợp pháp hóa lãnh sự và hỗ trợ thủ tục công chứng dịch | gói | chưa có giá | tính khi xuất hóa đơn | chưa ghi | không | thuê đơn vị bên ngoài thực hiện | oBacker |
+| `LICE-LIQUOR` | Dịch Vụ Xin Cấp Giấy Phép Kinh Doanh Bán Lẻ Rượu | giấy phép | 20.000.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `LICE-NDIR-VN` | Cổ đông danh nghĩa (VN) | người/năm | chưa có giá | tính khi xuất hóa đơn | chưa ghi | có | oBacker tự thực hiện | oBacker |
+| `LICE-PAUSE` | Dịch Vụ Đăng Ký Tạm Ngưng Hoạt Động Kinh Doanh | gói | 1.000.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `LICE-PRESENT-TAX` | Hỗ trợ trình diện thuế lần đầu | gói | 1.000.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `OB-MST-INDV-RENT` | Mở Mã Số Thuế cho Cá nhân Cho thuê Tài sản | gói | 1.000.000 | tính khi xuất hóa đơn | 8% | không | chưa ghi | oBacker |
+| `OB-NTR-FEE` | Phí công chứng | tài liệu | chưa có giá | tính khi xuất hóa đơn | chưa ghi | không | oBacker tự thực hiện | oBacker |
+| `OB-VOFC-PCCC` | Treo bảng hiệu & hỗ trợ tiếp đoàn PCCC | tháng | 500.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `OBL-ADD-BH` | Add-on: Bảo hộ nhãn hiệu | gói | 4.000.000 | tính khi xuất hóa đơn | 8% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
+| `OBL-ADD-NCC` | Add-on: Nâng cấp Làm việc từ xa | gói | 5.972.000 | tính khi xuất hóa đơn | 10% | không | oBacker thực hiện một phần, thuê ngoài một phần | oBacker |
+| `OBL-BRANCH` | Dịch Vụ Thành Lập Chi Nhánh / Văn Phòng Đại Diện / Địa Điểm Kinh Doanh | gói | 1.200.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `OBL-CNC` | Đăng ký thành lập công ty tại Khu công nghệ cao (CNC) Đà Nẵng | gói | chưa có giá | tính khi xuất hóa đơn | chưa ghi | không | oBacker tự thực hiện | oBacker |
+| `OBL-COMBO-DOITEN` | Combo Cập nhật Thông tin Đổi tên Công ty (BHXH, Thuế, Hóa đơn điện tử) | gói | 2.000.000 | tính khi xuất hóa đơn | 8% | không | chưa ghi | oBacker |
+| `OBL-CPX` | Thành lập công ty - Ngành nghề phức tạp | gói | chưa có giá | tính khi xuất hóa đơn | chưa ghi | không | oBacker thực hiện một phần, thuê ngoài một phần | oBacker |
+| `OBL-DI` | Combo Thành Lập Doanh Nghiệp FDI Mới Trọn Gói (Full Setup Direct Investment) | gói | 55.000.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `OBL-DMST` | Đăng ký doanh nghiệp Đổi mới sáng tạo | gói | 15.000.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `OBL-ERC-AMEND-BRAD` | Đăng ký thay đổi ĐKDN do tách/sáp nhập công ty (Điều 55 - NĐ168/2025) | gói | 0 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `OBL-ERC-AMEND-CAP` | Điều chỉnh GCNĐKKD - Thay đổi/tăng vốn điều lệ / phần vốn góp / tỷ lệ phần vốn góp | gói | 1.000.000 | tính khi xuất hóa đơn | 8% | không | chưa ghi | oBacker |
+| `OBL-ERC-AMEND-CCL` | Thay đổi địa chỉ trụ sở chính (Điều 40 - NĐ168/2025) | gói | 500.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `OBL-ERC-AMEND-CCN` | Thay đổi tên doanh nghiệp (Điều 41 - NĐ168/2025) | gói | 500.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `OBL-ERC-AMEND-CCT` | Thay đổi loại hình doanh nghiệp (TNHH 1TV → 2TV hoặc CTCP) (NĐ168/2025) | gói | 2.000.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `OBL-ERC-AMEND-CLR` | Thay đổi người đại diện theo pháp luật - CTTNHH/CTCP (Điều 43 - NĐ168/2025) | gói | 500.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `OBL-ERC-AMEND-CMMM` | Thay đổi thành viên CTTNHH từ 2 thành viên trở lên (Điều 45 - NĐ168/2025) | gói | 1.000.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `OBL-ERC-AMEND-COSM` | Thay đổi chủ sở hữu CTTNHH một thành viên (Điều 46 - NĐ168/2025) | gói | 1.000.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `OBL-ERC-AMEND-CRDB` | Thay đổi nội dung đăng ký hoạt động Chi nhánh / VPĐD / Địa điểm KD (Điều 56 - NĐ168/2025) | gói | 500.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `OBL-ERC-AMEND-NCBL` | Thông báo thay đổi ngành, nghề kinh doanh (Điều 49 - NĐ168/2025) | gói | 1.000.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `OBL-ERC-AMEND-NCCBOI` | Thông báo thay đổi thông tin chủ sở hữu hưởng lợi (Điều 52 - NĐ168/2025) | gói | 500.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `OBL-ERC-AMEND-NCFIS` | Thông báo thay đổi cổ đông là nhà đầu tư nước ngoài - CTCP (Điều 51 - NĐ168/2025) | gói | 3.500.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `OBL-ERC-AMEND-NCFS` | Thông báo thay đổi thông tin cổ đông sáng lập CTCP (Điều 50 - NĐ168/2025) | gói | 500.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `OBL-ERC-AMEND-NCTRI` | Thông báo thay đổi nội dung đăng ký thuế (không thay đổi nội dung ĐKKD) (Điều 53 - NĐ168/2025) | gói | 500.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `OBL-ERC-AMEND-REP` | Điều chỉnh GCNĐKKD - Thay đổi người đại diện theo pháp luật (CTTNHH / CTCP) | gói | 500.000 | tính khi xuất hóa đơn | 8% | không | chưa ghi | oBacker |
+| `OBL-ERC-AMEND-SEAL` | Dịch Vụ Thay Đổi Nội Dung Đăng Ký Doanh Nghiệp Có Đổi Dấu (Tên Hoặc Khác Quận) | lần | 1.500.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `OBL-ERC-AMEND-STD` | Dịch Vụ Thay Đổi Nội Dung Đăng Ký Doanh Nghiệp Tiêu Chuẩn (Không Đổi Dấu) | lần | 1.200.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `OBL-ERC-AMEND-UBRI` | Cập nhật/bổ sung thông tin ĐKDN không thuộc trường hợp đăng ký/thông báo thay đổi (Điều 57 - NĐ168/2025) | gói | 500.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `OBL-HKD` | Thành lập hộ kinh doanh | gói | 2.000.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `OBL-IFC-UNCON` | Thành lập công ty thành viên IFC Đà Nẵng - Ngành nghề không điều kiện | gói | chưa có giá | tính khi xuất hóa đơn | chưa ghi | không | oBacker tự thực hiện | oBacker |
+| `OBL-IFC-UNCON-BP` | Thành lập công ty thành viên IFC Đà Nẵng - Ngành nghề không điều kiện - Kế hoạch kinh doanh | gói | chưa có giá | tính khi xuất hóa đơn | chưa ghi | không | oBacker tự thực hiện | oBacker |
+| `OBL-MA` | Combo Đăng Ký Góp Vốn M&A Doanh Nghiệp FDI Trọn Gói (Full Setup M&A) | gói | 45.000.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `OBL-STD` | Combo Thành Lập Công Ty Việt Nam Tiêu Chuẩn Trọn Gói | gói | 5.000.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `OBL-TECH-SCN` | Đăng ký Tổ chức Khoa học Công nghệ | gói | 15.000.000 | tính khi xuất hóa đơn | 8% | không | chưa ghi | oBacker |
+| `OBL-VC-FUND` | Thành lập Quỹ đầu tư khởi nghiệp sáng tạo | gói | 25.000.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `SANDBOX-ARRIVALX` | Dịch vụ Tư vấn & Soạn thảo Hồ sơ Xin Cấp phép Cơ chế Thử nghiệm (Công nghệ Thanh toán bằng Lòng bàn tay) | gói | 60.000.000 | tính khi xuất hóa đơn | 8% | không | chưa ghi | oBacker |
+| `TRD-SIGN` | Bảng hiệu doanh nghiệp | cái | 200.000 | tính khi xuất hóa đơn | 10% | không | thuê đơn vị bên ngoài thực hiện | oBacker |
+| `TRD-STAMP` | Con dấu doanh nghiệp | cái | 450.000 | tính khi xuất hóa đơn | chưa ghi | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `TRD-STAMP-CD` | Con dấu chức danh | cái | 185.185 | tính khi xuất hóa đơn | 8% | không | chưa ghi | nhà cung cấp |
+| `TRD-VOFC` | Văn phòng ảo - 12 tháng | gói | 6.000.000 | tính khi xuất hóa đơn | 10% | có | oBacker tự thực hiện | oBacker |
 
 
 

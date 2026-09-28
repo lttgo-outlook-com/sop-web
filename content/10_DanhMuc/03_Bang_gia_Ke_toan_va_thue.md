@@ -72,50 +72,50 @@ Giá ghi bằng đồng Việt Nam, tính cho một đơn vị tính. Mã trong 
 
 | Mã | Tên dịch vụ | Đơn vị tính | Giá chưa thuế GTGT | Giá đã có thuế GTGT | Thuế suất GTGT | Thu theo kỳ | Nguồn cung cấp | Bên xuất hóa đơn |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| `ADD-BANK-ACC` | Phụ Phí Quản Lý Tài Khoản Ngân Hàng Ngoài Định Mức | tài khoản | 100.000 | 110.000 | 10% | có | oBacker tự thực hiện | oBacker |
-| `ADD-FCT-RETURN` | Phí Kê Khai Thuế Nhà Thầu Nước Ngoài (FCT) Phát Sinh Thêm | tờ khai | 500.000 | 550.000 | 10% | không | oBacker tự thực hiện | oBacker |
-| `ADD-PAYROLL-EMP` | Phụ Phí Tính Lương & Quản Lý BHXH Nhân Sự Ngoài Định Mức | người lao động | 100.000 | 110.000 | 10% | có | oBacker tự thực hiện | oBacker |
-| `ADD-PAYROLL-RUN` | Phụ Phí Kỳ Chạy Lương Bổ Sung Trong Tháng | kỳ | 500.000 | 550.000 | 10% | không | oBacker tự thực hiện | oBacker |
-| `ADD-RETAIL-UNIT` | Phụ Phí Nhập Liệu Đơn Bán Lẻ POS / TMĐT Không Bảng Kê Gom | đơn hàng | 5.000 | 5.500 | 10% | không | oBacker tự thực hiện | oBacker |
-| `ADD-TAX-INSPECT` | Dịch Vụ Cử Nhân Sự Tham Gia Thanh Tra Thuế Trực Tiếp Tại Trụ Sở | kỳ | 15.000.000 | 16.500.000 | 10% | không | oBacker tự thực hiện | oBacker |
-| `ADD-TXN-BLOCK-1000` | Phụ Phí Mở Rộng Định Mức: Block +1.000 Giao Dịch / Tháng | tháng | 2.500.000 | 2.750.000 | 10% | có | oBacker tự thực hiện | oBacker |
-| `ADD-TXN-BLOCK-1500` | Phụ Phí Mở Rộng Định Mức: Block +1.500 Giao Dịch / Tháng | tháng | 3.500.000 | 3.850.000 | 10% | có | oBacker tự thực hiện | oBacker |
-| `ADD-TXN-BLOCK-500` | Phụ Phí Mở Rộng Định Mức: Block +500 Giao Dịch / Tháng | tháng | 1.500.000 | 1.650.000 | 10% | có | oBacker tự thực hiện | oBacker |
-| `ADD-TXN-PRIME-OVER` | Phụ Phí Hóa Đơn Vượt Trần Gói Prime (Trên 7.000 Giao Dịch) | hóa đơn | 12.000 | 13.200 | 10% | không | oBacker tự thực hiện | oBacker |
-| `ADD-VOUCHER-RAW` | Phụ Phí Nhập Liệu Chứng Từ Giấy Scan / Thủ Công Vượt Định Mức | chứng từ | 10.000 | 11.000 | 10% | không | oBacker tự thực hiện | oBacker |
-| `OB-BANK-TRX` | Dịch vụ hỗ trợ - Giao dịch ngân hàng | tháng | 1.000.000 | 1.080.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `OB-ONSITE-SUPP` | Dịch vụ hỗ trợ Onsite | tuần | 800.000 | 864.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `OB-TAX-PRESENT` | Hỗ trợ cùng lên trình diện thuế | gói | 1.000.000 | 1.080.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `OBG-ADD-ACC-TRANS` | Chuyển đổi dữ liệu kế toán | lần | chưa có giá | chưa có giá | chưa ghi | không | oBacker tự thực hiện | oBacker |
-| `OBG-ADD-FLR` | Báo cáo vay/trả nợ nước ngoài | báo cáo/tháng | 500.000 | 540.000 | 8% | có | oBacker tự thực hiện | oBacker |
-| `OBG-ADD-HR5` | Add-on: Thêm 5 nhân sự tính lương | tháng | 675.000 | 729.000 | 8% | có | oBacker tự thực hiện | oBacker |
-| `OBG-ADD-INV-FIX` | Xử lý hóa đơn sai sót | hóa đơn | 500.000 | 540.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `OBG-ADD-INV1` | Add-on: Xuất 01 hóa đơn lẻ | hóa đơn | 150.000 | 162.000 | 8% | không | chưa ghi | oBacker |
-| `OBG-ADD-INV5` | Add-on: Dịch vụ xuất hóa đơn - Gói 5 hóa đơn/tháng | tháng | 400.000 | 432.000 | 8% | có | oBacker tự thực hiện | oBacker |
-| `OBG-ADD-LEG2C` | Add-on: Tư vấn pháp lý, thuế - 2 giờ/tháng | gói | 1.700.000 | 1.836.000 | 8% | có | chưa ghi | oBacker |
-| `OBG-ADD-LEG2H` | Add-on: Tư vấn pháp lý, thuế - 2 giờ/tháng | tháng | 1.700.000 | 1.836.000 | 8% | có | oBacker tự thực hiện | oBacker |
-| `OBG-ADD-PRF` | Thông báo chuyển lợi nhuận ra nước ngoài | báo cáo | 500.000 | 540.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `OBG-ADD-TPR` | Kê khai giao dịch & hồ sơ giá giao dịch liên kết | báo cáo | 500.000 | 540.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `OBG-ADD-TRX100` | Add-on: Thêm 100 giao dịch kế toán/tháng | tháng | 900.000 | 972.000 | 8% | có | oBacker tự thực hiện | oBacker |
-| `OBG-ENT` | obacker Grow - Gói Enterprise | tháng | chưa có giá | chưa có giá | chưa ghi | có | oBacker tự thực hiện | oBacker |
-| `OBG-HEALTH-CHECK` | Dịch Vụ Rà Soát Sức Khỏe Sổ Sách & Đánh Giá Rủi Ro Tuân Thủ Quá Khứ | năm | 3.000.000 | 3.300.000 | 10% | không | oBacker tự thực hiện | oBacker |
-| `OBG-MTH1` | Add-on: obacker Grow - Tháng đầu tiên thành lập công ty | tháng | 0 | 0 | 8% | có | oBacker tự thực hiện | oBacker |
-| `OBG-ONB-CORE` | Phí Thiết Lập Ban Đầu & Di Trú Dữ Liệu Kế Toán - Gói Core | lần | 3.000.000 | 3.300.000 | 10% | không | oBacker tự thực hiện | oBacker |
-| `OBG-ONB-GROWTH` | Phí Thiết Lập Ban Đầu & Di Trú Dữ Liệu Kế Toán - Gói Growth & Prime | lần | 6.000.000 | 6.600.000 | 10% | không | oBacker tự thực hiện | oBacker |
-| `OBG-PTR-CORE` | Gói Dịch Vụ Đối Tác Kế Toán & Thuế Nền Tảng (Partner Core) - Doanh Nghiệp Việt Nam | năm | 27.000.000 | 29.700.000 | 10% | có | oBacker tự thực hiện | oBacker |
-| `OBG-PTR-CORE-FDI` | Gói Dịch Vụ Đối Tác Kế Toán & Thuế Nền Tảng (Partner Core) - Doanh Nghiệp FDI | năm | 40.500.000 | 44.550.000 | 10% | có | oBacker tự thực hiện | oBacker |
-| `OBG-PTR-GROWTH` | Gói Dịch Vụ Đối Tác Kế Toán & Quản Trị Tăng Trưởng (Partner Growth) - Doanh Nghiệp Việt Nam | năm | 84.000.000 | 92.400.000 | 10% | có | oBacker tự thực hiện | oBacker |
-| `OBG-PTR-GROWTH-FDI` | Gói Dịch Vụ Đối Tác Kế Toán & Quản Trị Tăng Trưởng (Partner Growth) - Doanh Nghiệp FDI | năm | 113.400.000 | 124.740.000 | 10% | có | oBacker tự thực hiện | oBacker |
-| `OBG-PTR-PRIME` | Gói Dịch Vụ Đối Tác Kế Toán & Quản Trị Chiến Lược May Đo (Partner Prime) | năm | 180.000.000 | 198.000.000 | 10% | có | oBacker tự thực hiện | oBacker |
-| `OBG-RESTATE-BASE` | Dịch Vụ Khắc Phục & Lập Lại Sổ Sách Kế Toán - Khung Cơ Sở | năm | 6.000.000 | 6.600.000 | 10% | không | oBacker tự thực hiện | oBacker |
-| `OBG-TAX-AMEND` | Dịch Vụ Lập Hồ Sơ Khai Bổ Sung Điều Chỉnh Thuế | tờ khai | 500.000 | 550.000 | 10% | không | oBacker tự thực hiện | oBacker |
-| `REP-FDI-ACT-Q` | Báo cáo hoạt động đầu tư - Công ty trắng | báo cáo/quý | 500.000 | 540.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `REP-FDI-MON-6M` | Báo cáo giám sát đánh giá đầu tư - Công ty trắng | báo cáo/nửa năm | 500.000 | 540.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `REP-FDI-PRJ-Y` | Báo cáo thực hiện dự án đầu tư năm - Công ty trắng | báo cáo | 500.000 | 540.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `REP-T-CIT-Y` | Tờ khai quyết toán thuế TNDN - Công ty trắng | báo cáo | 500.000 | 540.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `REP-T-FS` | Báo cáo tài chính - Công ty trắng | báo cáo | 500.000 | 540.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `REP-T-PIT-Q` | Báo cáo thuế TNCN quý - Công ty trắng | báo cáo/quý | 500.000 | 540.000 | 8% | không | oBacker tự thực hiện | oBacker |
-| `REP-T-VAT-Q` | Báo cáo thuế GTGT quý - Công ty trắng | báo cáo/quý | 500.000 | 540.000 | 8% | không | oBacker tự thực hiện | oBacker |
+| `ADD-BANK-ACC` | Phụ Phí Quản Lý Tài Khoản Ngân Hàng Ngoài Định Mức | tài khoản | 100.000 | tính khi xuất hóa đơn | 10% | có | oBacker tự thực hiện | oBacker |
+| `ADD-FCT-RETURN` | Phí Kê Khai Thuế Nhà Thầu Nước Ngoài (FCT) Phát Sinh Thêm | tờ khai | 500.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `ADD-PAYROLL-EMP` | Phụ Phí Tính Lương & Quản Lý BHXH Nhân Sự Ngoài Định Mức | người lao động | 100.000 | tính khi xuất hóa đơn | 10% | có | oBacker tự thực hiện | oBacker |
+| `ADD-PAYROLL-RUN` | Phụ Phí Kỳ Chạy Lương Bổ Sung Trong Tháng | kỳ | 500.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `ADD-RETAIL-UNIT` | Phụ Phí Nhập Liệu Đơn Bán Lẻ POS / TMĐT Không Bảng Kê Gom | đơn hàng | 5.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `ADD-TAX-INSPECT` | Dịch Vụ Cử Nhân Sự Tham Gia Thanh Tra Thuế Trực Tiếp Tại Trụ Sở | kỳ | 15.000.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `ADD-TXN-BLOCK-1000` | Phụ Phí Mở Rộng Định Mức: Block +1.000 Giao Dịch / Tháng | tháng | 2.500.000 | tính khi xuất hóa đơn | 10% | có | oBacker tự thực hiện | oBacker |
+| `ADD-TXN-BLOCK-1500` | Phụ Phí Mở Rộng Định Mức: Block +1.500 Giao Dịch / Tháng | tháng | 3.500.000 | tính khi xuất hóa đơn | 10% | có | oBacker tự thực hiện | oBacker |
+| `ADD-TXN-BLOCK-500` | Phụ Phí Mở Rộng Định Mức: Block +500 Giao Dịch / Tháng | tháng | 1.500.000 | tính khi xuất hóa đơn | 10% | có | oBacker tự thực hiện | oBacker |
+| `ADD-TXN-PRIME-OVER` | Phụ Phí Hóa Đơn Vượt Trần Gói Prime (Trên 7.000 Giao Dịch) | hóa đơn | 12.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `ADD-VOUCHER-RAW` | Phụ Phí Nhập Liệu Chứng Từ Giấy Scan / Thủ Công Vượt Định Mức | chứng từ | 10.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `OB-BANK-TRX` | Dịch vụ hỗ trợ - Giao dịch ngân hàng | tháng | 1.000.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `OB-ONSITE-SUPP` | Dịch vụ hỗ trợ Onsite | tuần | 800.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `OB-TAX-PRESENT` | Hỗ trợ cùng lên trình diện thuế | gói | 1.000.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `OBG-ADD-ACC-TRANS` | Chuyển đổi dữ liệu kế toán | lần | chưa có giá | tính khi xuất hóa đơn | chưa ghi | không | oBacker tự thực hiện | oBacker |
+| `OBG-ADD-FLR` | Báo cáo vay/trả nợ nước ngoài | báo cáo/tháng | 500.000 | tính khi xuất hóa đơn | 8% | có | oBacker tự thực hiện | oBacker |
+| `OBG-ADD-HR5` | Add-on: Thêm 5 nhân sự tính lương | tháng | 675.000 | tính khi xuất hóa đơn | 8% | có | oBacker tự thực hiện | oBacker |
+| `OBG-ADD-INV-FIX` | Xử lý hóa đơn sai sót | hóa đơn | 500.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `OBG-ADD-INV1` | Add-on: Xuất 01 hóa đơn lẻ | hóa đơn | 150.000 | tính khi xuất hóa đơn | 8% | không | chưa ghi | oBacker |
+| `OBG-ADD-INV5` | Add-on: Dịch vụ xuất hóa đơn - Gói 5 hóa đơn/tháng | tháng | 400.000 | tính khi xuất hóa đơn | 8% | có | oBacker tự thực hiện | oBacker |
+| `OBG-ADD-LEG2C` | Add-on: Tư vấn pháp lý, thuế - 2 giờ/tháng | gói | 1.700.000 | tính khi xuất hóa đơn | 8% | có | chưa ghi | oBacker |
+| `OBG-ADD-LEG2H` | Add-on: Tư vấn pháp lý, thuế - 2 giờ/tháng | tháng | 1.700.000 | tính khi xuất hóa đơn | 8% | có | oBacker tự thực hiện | oBacker |
+| `OBG-ADD-PRF` | Thông báo chuyển lợi nhuận ra nước ngoài | báo cáo | 500.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `OBG-ADD-TPR` | Kê khai giao dịch & hồ sơ giá giao dịch liên kết | báo cáo | 500.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `OBG-ADD-TRX100` | Add-on: Thêm 100 giao dịch kế toán/tháng | tháng | 900.000 | tính khi xuất hóa đơn | 8% | có | oBacker tự thực hiện | oBacker |
+| `OBG-ENT` | obacker Grow - Gói Enterprise | tháng | chưa có giá | tính khi xuất hóa đơn | chưa ghi | có | oBacker tự thực hiện | oBacker |
+| `OBG-HEALTH-CHECK` | Dịch Vụ Rà Soát Sức Khỏe Sổ Sách & Đánh Giá Rủi Ro Tuân Thủ Quá Khứ | năm | 3.000.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `OBG-MTH1` | Add-on: obacker Grow - Tháng đầu tiên thành lập công ty | tháng | 0 | tính khi xuất hóa đơn | 8% | có | oBacker tự thực hiện | oBacker |
+| `OBG-ONB-CORE` | Phí Thiết Lập Ban Đầu & Di Trú Dữ Liệu Kế Toán - Gói Core | lần | 3.000.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `OBG-ONB-GROWTH` | Phí Thiết Lập Ban Đầu & Di Trú Dữ Liệu Kế Toán - Gói Growth & Prime | lần | 6.000.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `OBG-PTR-CORE` | Gói Dịch Vụ Đối Tác Kế Toán & Thuế Nền Tảng (Partner Core) - Doanh Nghiệp Việt Nam | năm | 27.000.000 | tính khi xuất hóa đơn | 10% | có | oBacker tự thực hiện | oBacker |
+| `OBG-PTR-CORE-FDI` | Gói Dịch Vụ Đối Tác Kế Toán & Thuế Nền Tảng (Partner Core) - Doanh Nghiệp FDI | năm | 40.500.000 | tính khi xuất hóa đơn | 10% | có | oBacker tự thực hiện | oBacker |
+| `OBG-PTR-GROWTH` | Gói Dịch Vụ Đối Tác Kế Toán & Quản Trị Tăng Trưởng (Partner Growth) - Doanh Nghiệp Việt Nam | năm | 84.000.000 | tính khi xuất hóa đơn | 10% | có | oBacker tự thực hiện | oBacker |
+| `OBG-PTR-GROWTH-FDI` | Gói Dịch Vụ Đối Tác Kế Toán & Quản Trị Tăng Trưởng (Partner Growth) - Doanh Nghiệp FDI | năm | 113.400.000 | tính khi xuất hóa đơn | 10% | có | oBacker tự thực hiện | oBacker |
+| `OBG-PTR-PRIME` | Gói Dịch Vụ Đối Tác Kế Toán & Quản Trị Chiến Lược May Đo (Partner Prime) | năm | 180.000.000 | tính khi xuất hóa đơn | 10% | có | oBacker tự thực hiện | oBacker |
+| `OBG-RESTATE-BASE` | Dịch Vụ Khắc Phục & Lập Lại Sổ Sách Kế Toán - Khung Cơ Sở | năm | 6.000.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `OBG-TAX-AMEND` | Dịch Vụ Lập Hồ Sơ Khai Bổ Sung Điều Chỉnh Thuế | tờ khai | 500.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `REP-FDI-ACT-Q` | Báo cáo hoạt động đầu tư - Công ty trắng | báo cáo/quý | 500.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `REP-FDI-MON-6M` | Báo cáo giám sát đánh giá đầu tư - Công ty trắng | báo cáo/nửa năm | 500.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `REP-FDI-PRJ-Y` | Báo cáo thực hiện dự án đầu tư năm - Công ty trắng | báo cáo | 500.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `REP-T-CIT-Y` | Tờ khai quyết toán thuế TNDN - Công ty trắng | báo cáo | 500.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `REP-T-FS` | Báo cáo tài chính - Công ty trắng | báo cáo | 500.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `REP-T-PIT-Q` | Báo cáo thuế TNCN quý - Công ty trắng | báo cáo/quý | 500.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
+| `REP-T-VAT-Q` | Báo cáo thuế GTGT quý - Công ty trắng | báo cáo/quý | 500.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
 
 
 

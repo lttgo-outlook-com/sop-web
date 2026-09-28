@@ -72,96 +72,96 @@ Giá ghi bằng đồng Việt Nam, tính cho một đơn vị tính. Mã trong 
 
 | Mã | Tên dịch vụ | Đơn vị tính | Giá chưa thuế GTGT | Giá đã có thuế GTGT | Thuế suất GTGT | Thu theo kỳ | Nguồn cung cấp | Bên xuất hóa đơn |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| `CL-HOUT-200` | 200 Hóa đơn điện tử | gói | 351.852 | 380.000 | 8% | không | chưa ghi | oBacker |
-| `CL-HOUT-300` | Gói Hóa Đơn Điện Tử CyberLotus - 300 Số Hóa Đơn | gói | 450.000 | 495.000 | 10% | không | mua lại của nhà cung cấp | oBacker |
-| `CL-USB-DN-NEW-1Y` | Dịch Vụ Cung Cấp Chữ Ký Số Doanh Nghiệp USB Token CyberLotus (Gói 1 Năm) | gói | 1.450.000 | 1.595.000 | 10% | không | mua lại của nhà cung cấp | oBacker |
-| `CyberLotus-USBTOKEN` | Thiết bị USB Token | đơn vị | 300.000 | 324.000 | 8% | không | chưa ghi | oBacker |
-| `MB-EC-100` | Hợp đồng điện tử - 100 | gói | 379.000 | 409.320 | 8% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-EC-1000` | Hợp đồng điện tử - 1.000 | gói | 3.079.000 | 3.325.320 | 8% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-EC-10000` | Hợp đồng điện tử - 10.000 | gói | 21.509.000 | 23.229.720 | 8% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-EC-100000` | Hợp đồng điện tử - 100.000 | gói | 184.389.000 | 199.140.120 | 8% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-EC-15000` | Hợp đồng điện tử - 15.000 | gói | 30.649.000 | 33.100.920 | 8% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-EC-200` | Hợp đồng điện tử - 200 | gói | 719.000 | 776.520 | 8% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-EC-2000` | Hợp đồng điện tử - 2.000 | gói | 5.859.000 | 6.327.720 | 8% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-EC-20000` | Hợp đồng điện tử - 20.000 | gói | 38.819.000 | 41.924.520 | 8% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-EC-300` | Hợp đồng điện tử - 300 | gói | 1.029.000 | 1.111.320 | 8% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-EC-3000` | Hợp đồng điện tử - 3.000 | gói | 8.339.000 | 9.006.120 | 8% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-EC-4000` | Hợp đồng điện tử - 4.000 | gói | 10.569.000 | 11.414.520 | 8% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-EC-50` | Hợp đồng điện tử - 50 | gói | 199.000 | 214.920 | 8% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-EC-500` | Hợp đồng điện tử - 500 | gói | 1.629.000 | 1.759.320 | 8% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-EC-5000` | Hợp đồng điện tử - 5.000 | gói | 12.549.000 | 13.552.920 | 8% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-EC-7000` | Hợp đồng điện tử - 7.000 | gói | 16.689.000 | 18.024.120 | 8% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-EC-8000` | Hợp đồng điện tử - 8.000 | gói | 18.119.000 | 19.568.520 | 8% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-HIN-100` | Hóa đơn điện tử Đầu vào IN-100 | gói | 99.000 | 99.000 | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-HIN-1000` | Hóa đơn điện tử Đầu vào IN-1.000 | gói | 499.000 | 499.000 | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-HIN-10000` | Hóa đơn điện tử Đầu vào IN-10.000 | gói | 1.789.000 | 1.789.000 | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-HIN-100000` | Hóa đơn điện tử Đầu vào IN-100.000 | gói | 16.899.000 | 16.899.000 | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-HIN-1000000` | Hóa đơn điện tử Đầu vào IN-1.000.000 | gói | 89.000.000 | 89.000.000 | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-HIN-12000` | Hóa đơn điện tử Đầu vào IN-12.000 | gói | 2.127.000 | 2.127.000 | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-HIN-15000` | Hóa đơn điện tử Đầu vào IN-15.000 | gói | 2.634.000 | 2.634.000 | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-HIN-200` | Hóa đơn điện tử Đầu vào IN-200 | gói | 149.000 | 149.000 | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-HIN-2000` | Hóa đơn điện tử Đầu vào IN-2.000 | gói | 599.000 | 599.000 | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-HIN-20000` | Hóa đơn điện tử Đầu vào IN-20.000 | gói | 3.479.000 | 3.479.000 | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-HIN-200000` | Hóa đơn điện tử Đầu vào IN-200.000 | gói | 23.799.000 | 23.799.000 | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-HIN-300` | Hóa đơn điện tử Đầu vào IN-300 | gói | 199.000 | 199.000 | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-HIN-3000` | Hóa đơn điện tử Đầu vào IN-3.000 | gói | 799.000 | 799.000 | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-HIN-500` | Hóa đơn điện tử Đầu vào IN-500 | gói | 269.000 | 269.000 | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-HIN-5000` | Hóa đơn điện tử Đầu vào IN-5.000 | gói | 999.000 | 999.000 | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-HIN-50000` | Hóa đơn điện tử Đầu vào IN-50.000 | gói | 8.549.000 | 8.549.000 | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-HIN-700` | Hóa đơn điện tử Đầu vào IN-700 | gói | 399.000 | 399.000 | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-HIN-7000` | Hóa đơn điện tử Đầu vào IN-7.000 | gói | 1.299.000 | 1.299.000 | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-HOUT-100` | Hóa đơn điện tử Đầu ra M-100 | gói | 99.000 | 99.000 | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-HOUT-1000` | Hóa đơn điện tử Đầu ra M-1.000 | gói | 499.000 | 499.000 | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-HOUT-10000` | Hóa đơn điện tử Đầu ra M-10.000 | gói | 1.789.000 | 1.789.000 | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-HOUT-100000` | Hóa đơn điện tử Đầu ra M-100.000 | gói | 16.899.000 | 16.899.000 | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-HOUT-1000000` | Hóa đơn điện tử Đầu ra M-1.000.000 | gói | 88.999.000 | 88.999.000 | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-HOUT-12000` | Hóa đơn điện tử Đầu ra M-12.000 | gói | 2.127.000 | 2.127.000 | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-HOUT-15000` | Hóa đơn điện tử Đầu ra M-15.000 | gói | 2.634.000 | 2.634.000 | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-HOUT-200` | Hóa đơn điện tử Đầu ra M-200 | gói | 149.000 | 149.000 | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-HOUT-2000` | Hóa đơn điện tử Đầu ra M-2.000 | gói | 599.000 | 599.000 | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-HOUT-20000` | Hóa đơn điện tử Đầu ra M-20.000 | gói | 3.479.000 | 3.479.000 | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-HOUT-200000` | Hóa đơn điện tử Đầu ra M-200.000 | gói | 23.799.000 | 23.799.000 | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-HOUT-300` | Hóa đơn điện tử Đầu ra M-300 | gói | 199.000 | 199.000 | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-HOUT-3000` | Hóa đơn điện tử Đầu ra M-3.000 | gói | 799.000 | 799.000 | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-HOUT-300000` | Hóa đơn điện tử Đầu ra M-300.000 | gói | 30.699.000 | 30.699.000 | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-HOUT-500` | Hóa đơn điện tử Đầu ra M-500 | gói | 269.000 | 269.000 | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-HOUT-5000` | Hóa đơn điện tử Đầu ra M-5.000 | gói | 999.000 | 999.000 | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-HOUT-50000` | Hóa đơn điện tử Đầu ra M-50.000 | gói | 8.549.000 | 8.549.000 | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-HOUT-500000` | Hóa đơn điện tử Đầu ra M-500.000 | gói | 44.499.000 | 44.499.000 | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-HOUT-700` | Hóa đơn điện tử Đầu ra M-700 | gói | 399.000 | 399.000 | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-HOUT-7000` | Hóa đơn điện tử Đầu ra M-7.000 | gói | 1.299.000 | 1.299.000 | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-HOUT-800000` | Hóa đơn điện tử Đầu ra M-800.000 | gói | 71.190.000 | 71.190.000 | 0% | có | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-TT-DN-1Y` | CKS Tập trung Doanh nghiệp - 1 năm | gói | 1.272.000 | 1.370.880 | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-TT-DN-2Y` | CKS Tập trung Doanh nghiệp - 2 năm | gói | 2.544.000 | 2.741.760 | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-TT-DN-3Y` | CKS Tập trung Doanh nghiệp - 3 năm | gói | 3.816.000 | 4.112.640 | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-TT-NV-1Y` | CKS Tập trung Nhân viên - 1 năm | gói | 390.000 | 421.200 | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-TT-NV-2Y` | CKS Tập trung Nhân viên - 2 năm | gói | 780.000 | 842.400 | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-TT-NV-3Y` | CKS Tập trung Nhân viên - 3 năm | gói | 1.170.000 | 1.263.600 | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-USB-CN-CTS-1Y` | Chứng thư số Token Cá nhân - 1 năm | gói | 364.000 | 393.120 | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-USB-CN-CTS-2Y` | Chứng thư số Token Cá nhân - 2 năm | gói | 628.000 | 678.240 | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-USB-CN-CTS-3Y` | Chứng thư số Token Cá nhân - 3 năm | gói | 840.000 | 907.200 | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-USB-CN-NEW-1Y` | CKS USB Token Cá nhân - ĐK mới - 1 năm | gói | 563.000 | 608.040 | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-USB-CN-NEW-2Y` | CKS USB Token Cá nhân - ĐK mới - 2 năm | gói | 827.000 | 893.160 | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-USB-CN-NEW-3Y` | CKS USB Token Cá nhân - ĐK mới - 3 năm | gói | 1.039.000 | 1.122.120 | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-USB-DN-CTS-1Y` | Chứng thư số Token Doanh nghiệp - 1 năm | gói | 600.000 | 645.120 | chưa ghi | có | mua lại của nhà cung cấp | oBacker |
-| `MB-USB-DN-CTS-2Y` | Chứng thư số Token Doanh nghiệp - 2 năm | gói | 1.000.000 | 1.074.240 | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-USB-DN-CTS-3Y` | Chứng thư số Token Doanh nghiệp - 3 năm | gói | 1.398.000 | 1.501.200 | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-USB-DN-NEW-1Y` | CKS USB Token Doanh nghiệp - ĐK mới - 1 năm | gói | 899.000 | 968.040 | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-USB-DN-NEW-2Y` | CKS USB Token Doanh nghiệp - ĐK mới - 2 năm | gói | 1.299.000 | 1.397.160 | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-USB-DN-NEW-3Y` | CKS USB Token Doanh nghiệp - ĐK mới - 3 năm | gói | 1.697.000 | 1.824.120 | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-USB-HKD-CTS-1Y` | Chứng thư số Token Hộ kinh doanh - 1 năm | gói | 500.000 | 537.120 | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-USB-HKD-CTS-2Y` | Chứng thư số Token Hộ kinh doanh - 2 năm | gói | 900.000 | 966.240 | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-USB-HKD-CTS-3Y` | Chứng thư số Token Hộ kinh doanh - 3 năm | gói | 1.248.000 | 1.339.200 | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-USB-HKD-NEW-1Y` | CKS USB Token Hộ kinh doanh - ĐK mới - 1 năm | gói | 799.000 | 860.040 | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-USB-HKD-NEW-2Y` | CKS USB Token Hộ kinh doanh - ĐK mới - 2 năm | gói | 1.199.000 | 1.289.160 | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-USB-HKD-NEW-3Y` | CKS USB Token Hộ kinh doanh - ĐK mới - 3 năm | gói | 1.547.000 | 1.662.920 | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-USB-NV-CTS-1Y` | Chứng thư số Token Nhân viên - 1 năm | gói | 364.000 | 393.120 | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-USB-NV-CTS-2Y` | Chứng thư số Token Nhân viên - 2 năm | gói | 628.000 | 678.240 | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-USB-NV-CTS-3Y` | Chứng thư số Token Nhân viên - 3 năm | gói | 840.000 | 907.200 | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-USB-NV-NEW-1Y` | CKS USB Token Nhân viên - ĐK mới - 1 năm | gói | 563.000 | 608.040 | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-USB-NV-NEW-2Y` | CKS USB Token Nhân viên - ĐK mới - 2 năm | gói | 827.000 | 893.160 | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
-| `MB-USB-NV-NEW-3Y` | CKS USB Token Nhân viên - ĐK mới - 3 năm | gói | 1.039.000 | 1.122.120 | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
-| `TOKEN-CA-USB-3Y` | Dịch Vụ Cung Cấp Chữ Ký Số Doanh Nghiệp USB Token (Gói 3 Năm) | gói | 2.250.000 | 2.475.000 | 10% | không | mua lại của nhà cung cấp | oBacker |
+| `CL-HOUT-200` | 200 Hóa đơn điện tử | gói | 351.852 | tính khi xuất hóa đơn | 8% | không | chưa ghi | oBacker |
+| `CL-HOUT-300` | Gói Hóa Đơn Điện Tử CyberLotus - 300 Số Hóa Đơn | gói | 450.000 | tính khi xuất hóa đơn | 10% | không | mua lại của nhà cung cấp | oBacker |
+| `CL-USB-DN-NEW-1Y` | Dịch Vụ Cung Cấp Chữ Ký Số Doanh Nghiệp USB Token CyberLotus (Gói 1 Năm) | gói | 1.450.000 | tính khi xuất hóa đơn | 10% | không | mua lại của nhà cung cấp | oBacker |
+| `CyberLotus-USBTOKEN` | Thiết bị USB Token | đơn vị | 300.000 | tính khi xuất hóa đơn | 8% | không | chưa ghi | oBacker |
+| `MB-EC-100` | Hợp đồng điện tử - 100 | gói | 379.000 | tính khi xuất hóa đơn | 8% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-EC-1000` | Hợp đồng điện tử - 1.000 | gói | 3.079.000 | tính khi xuất hóa đơn | 8% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-EC-10000` | Hợp đồng điện tử - 10.000 | gói | 21.509.000 | tính khi xuất hóa đơn | 8% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-EC-100000` | Hợp đồng điện tử - 100.000 | gói | 184.389.000 | tính khi xuất hóa đơn | 8% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-EC-15000` | Hợp đồng điện tử - 15.000 | gói | 30.649.000 | tính khi xuất hóa đơn | 8% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-EC-200` | Hợp đồng điện tử - 200 | gói | 719.000 | tính khi xuất hóa đơn | 8% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-EC-2000` | Hợp đồng điện tử - 2.000 | gói | 5.859.000 | tính khi xuất hóa đơn | 8% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-EC-20000` | Hợp đồng điện tử - 20.000 | gói | 38.819.000 | tính khi xuất hóa đơn | 8% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-EC-300` | Hợp đồng điện tử - 300 | gói | 1.029.000 | tính khi xuất hóa đơn | 8% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-EC-3000` | Hợp đồng điện tử - 3.000 | gói | 8.339.000 | tính khi xuất hóa đơn | 8% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-EC-4000` | Hợp đồng điện tử - 4.000 | gói | 10.569.000 | tính khi xuất hóa đơn | 8% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-EC-50` | Hợp đồng điện tử - 50 | gói | 199.000 | tính khi xuất hóa đơn | 8% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-EC-500` | Hợp đồng điện tử - 500 | gói | 1.629.000 | tính khi xuất hóa đơn | 8% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-EC-5000` | Hợp đồng điện tử - 5.000 | gói | 12.549.000 | tính khi xuất hóa đơn | 8% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-EC-7000` | Hợp đồng điện tử - 7.000 | gói | 16.689.000 | tính khi xuất hóa đơn | 8% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-EC-8000` | Hợp đồng điện tử - 8.000 | gói | 18.119.000 | tính khi xuất hóa đơn | 8% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-HIN-100` | Hóa đơn điện tử Đầu vào IN-100 | gói | 99.000 | tính khi xuất hóa đơn | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-HIN-1000` | Hóa đơn điện tử Đầu vào IN-1.000 | gói | 499.000 | tính khi xuất hóa đơn | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-HIN-10000` | Hóa đơn điện tử Đầu vào IN-10.000 | gói | 1.789.000 | tính khi xuất hóa đơn | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-HIN-100000` | Hóa đơn điện tử Đầu vào IN-100.000 | gói | 16.899.000 | tính khi xuất hóa đơn | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-HIN-1000000` | Hóa đơn điện tử Đầu vào IN-1.000.000 | gói | 89.000.000 | tính khi xuất hóa đơn | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-HIN-12000` | Hóa đơn điện tử Đầu vào IN-12.000 | gói | 2.127.000 | tính khi xuất hóa đơn | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-HIN-15000` | Hóa đơn điện tử Đầu vào IN-15.000 | gói | 2.634.000 | tính khi xuất hóa đơn | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-HIN-200` | Hóa đơn điện tử Đầu vào IN-200 | gói | 149.000 | tính khi xuất hóa đơn | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-HIN-2000` | Hóa đơn điện tử Đầu vào IN-2.000 | gói | 599.000 | tính khi xuất hóa đơn | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-HIN-20000` | Hóa đơn điện tử Đầu vào IN-20.000 | gói | 3.479.000 | tính khi xuất hóa đơn | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-HIN-200000` | Hóa đơn điện tử Đầu vào IN-200.000 | gói | 23.799.000 | tính khi xuất hóa đơn | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-HIN-300` | Hóa đơn điện tử Đầu vào IN-300 | gói | 199.000 | tính khi xuất hóa đơn | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-HIN-3000` | Hóa đơn điện tử Đầu vào IN-3.000 | gói | 799.000 | tính khi xuất hóa đơn | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-HIN-500` | Hóa đơn điện tử Đầu vào IN-500 | gói | 269.000 | tính khi xuất hóa đơn | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-HIN-5000` | Hóa đơn điện tử Đầu vào IN-5.000 | gói | 999.000 | tính khi xuất hóa đơn | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-HIN-50000` | Hóa đơn điện tử Đầu vào IN-50.000 | gói | 8.549.000 | tính khi xuất hóa đơn | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-HIN-700` | Hóa đơn điện tử Đầu vào IN-700 | gói | 399.000 | tính khi xuất hóa đơn | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-HIN-7000` | Hóa đơn điện tử Đầu vào IN-7.000 | gói | 1.299.000 | tính khi xuất hóa đơn | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-HOUT-100` | Hóa đơn điện tử Đầu ra M-100 | gói | 99.000 | tính khi xuất hóa đơn | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-HOUT-1000` | Hóa đơn điện tử Đầu ra M-1.000 | gói | 499.000 | tính khi xuất hóa đơn | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-HOUT-10000` | Hóa đơn điện tử Đầu ra M-10.000 | gói | 1.789.000 | tính khi xuất hóa đơn | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-HOUT-100000` | Hóa đơn điện tử Đầu ra M-100.000 | gói | 16.899.000 | tính khi xuất hóa đơn | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-HOUT-1000000` | Hóa đơn điện tử Đầu ra M-1.000.000 | gói | 88.999.000 | tính khi xuất hóa đơn | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-HOUT-12000` | Hóa đơn điện tử Đầu ra M-12.000 | gói | 2.127.000 | tính khi xuất hóa đơn | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-HOUT-15000` | Hóa đơn điện tử Đầu ra M-15.000 | gói | 2.634.000 | tính khi xuất hóa đơn | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-HOUT-200` | Hóa đơn điện tử Đầu ra M-200 | gói | 149.000 | tính khi xuất hóa đơn | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-HOUT-2000` | Hóa đơn điện tử Đầu ra M-2.000 | gói | 599.000 | tính khi xuất hóa đơn | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-HOUT-20000` | Hóa đơn điện tử Đầu ra M-20.000 | gói | 3.479.000 | tính khi xuất hóa đơn | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-HOUT-200000` | Hóa đơn điện tử Đầu ra M-200.000 | gói | 23.799.000 | tính khi xuất hóa đơn | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-HOUT-300` | Hóa đơn điện tử Đầu ra M-300 | gói | 199.000 | tính khi xuất hóa đơn | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-HOUT-3000` | Hóa đơn điện tử Đầu ra M-3.000 | gói | 799.000 | tính khi xuất hóa đơn | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-HOUT-300000` | Hóa đơn điện tử Đầu ra M-300.000 | gói | 30.699.000 | tính khi xuất hóa đơn | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-HOUT-500` | Hóa đơn điện tử Đầu ra M-500 | gói | 269.000 | tính khi xuất hóa đơn | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-HOUT-5000` | Hóa đơn điện tử Đầu ra M-5.000 | gói | 999.000 | tính khi xuất hóa đơn | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-HOUT-50000` | Hóa đơn điện tử Đầu ra M-50.000 | gói | 8.549.000 | tính khi xuất hóa đơn | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-HOUT-500000` | Hóa đơn điện tử Đầu ra M-500.000 | gói | 44.499.000 | tính khi xuất hóa đơn | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-HOUT-700` | Hóa đơn điện tử Đầu ra M-700 | gói | 399.000 | tính khi xuất hóa đơn | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-HOUT-7000` | Hóa đơn điện tử Đầu ra M-7.000 | gói | 1.299.000 | tính khi xuất hóa đơn | 0% | không | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-HOUT-800000` | Hóa đơn điện tử Đầu ra M-800.000 | gói | 71.190.000 | tính khi xuất hóa đơn | 0% | có | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-TT-DN-1Y` | CKS Tập trung Doanh nghiệp - 1 năm | gói | 1.272.000 | tính khi xuất hóa đơn | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-TT-DN-2Y` | CKS Tập trung Doanh nghiệp - 2 năm | gói | 2.544.000 | tính khi xuất hóa đơn | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-TT-DN-3Y` | CKS Tập trung Doanh nghiệp - 3 năm | gói | 3.816.000 | tính khi xuất hóa đơn | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-TT-NV-1Y` | CKS Tập trung Nhân viên - 1 năm | gói | 390.000 | tính khi xuất hóa đơn | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-TT-NV-2Y` | CKS Tập trung Nhân viên - 2 năm | gói | 780.000 | tính khi xuất hóa đơn | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-TT-NV-3Y` | CKS Tập trung Nhân viên - 3 năm | gói | 1.170.000 | tính khi xuất hóa đơn | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-USB-CN-CTS-1Y` | Chứng thư số Token Cá nhân - 1 năm | gói | 364.000 | tính khi xuất hóa đơn | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-USB-CN-CTS-2Y` | Chứng thư số Token Cá nhân - 2 năm | gói | 628.000 | tính khi xuất hóa đơn | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-USB-CN-CTS-3Y` | Chứng thư số Token Cá nhân - 3 năm | gói | 840.000 | tính khi xuất hóa đơn | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-USB-CN-NEW-1Y` | CKS USB Token Cá nhân - ĐK mới - 1 năm | gói | 563.000 | tính khi xuất hóa đơn | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-USB-CN-NEW-2Y` | CKS USB Token Cá nhân - ĐK mới - 2 năm | gói | 827.000 | tính khi xuất hóa đơn | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-USB-CN-NEW-3Y` | CKS USB Token Cá nhân - ĐK mới - 3 năm | gói | 1.039.000 | tính khi xuất hóa đơn | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-USB-DN-CTS-1Y` | Chứng thư số Token Doanh nghiệp - 1 năm | gói | 600.000 | tính khi xuất hóa đơn | chưa ghi | có | mua lại của nhà cung cấp | oBacker |
+| `MB-USB-DN-CTS-2Y` | Chứng thư số Token Doanh nghiệp - 2 năm | gói | 1.000.000 | tính khi xuất hóa đơn | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-USB-DN-CTS-3Y` | Chứng thư số Token Doanh nghiệp - 3 năm | gói | 1.398.000 | tính khi xuất hóa đơn | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-USB-DN-NEW-1Y` | CKS USB Token Doanh nghiệp - ĐK mới - 1 năm | gói | 899.000 | tính khi xuất hóa đơn | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-USB-DN-NEW-2Y` | CKS USB Token Doanh nghiệp - ĐK mới - 2 năm | gói | 1.299.000 | tính khi xuất hóa đơn | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-USB-DN-NEW-3Y` | CKS USB Token Doanh nghiệp - ĐK mới - 3 năm | gói | 1.697.000 | tính khi xuất hóa đơn | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-USB-HKD-CTS-1Y` | Chứng thư số Token Hộ kinh doanh - 1 năm | gói | 500.000 | tính khi xuất hóa đơn | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-USB-HKD-CTS-2Y` | Chứng thư số Token Hộ kinh doanh - 2 năm | gói | 900.000 | tính khi xuất hóa đơn | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-USB-HKD-CTS-3Y` | Chứng thư số Token Hộ kinh doanh - 3 năm | gói | 1.248.000 | tính khi xuất hóa đơn | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-USB-HKD-NEW-1Y` | CKS USB Token Hộ kinh doanh - ĐK mới - 1 năm | gói | 799.000 | tính khi xuất hóa đơn | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-USB-HKD-NEW-2Y` | CKS USB Token Hộ kinh doanh - ĐK mới - 2 năm | gói | 1.199.000 | tính khi xuất hóa đơn | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-USB-HKD-NEW-3Y` | CKS USB Token Hộ kinh doanh - ĐK mới - 3 năm | gói | 1.547.000 | tính khi xuất hóa đơn | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-USB-NV-CTS-1Y` | Chứng thư số Token Nhân viên - 1 năm | gói | 364.000 | tính khi xuất hóa đơn | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-USB-NV-CTS-2Y` | Chứng thư số Token Nhân viên - 2 năm | gói | 628.000 | tính khi xuất hóa đơn | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-USB-NV-CTS-3Y` | Chứng thư số Token Nhân viên - 3 năm | gói | 840.000 | tính khi xuất hóa đơn | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-USB-NV-NEW-1Y` | CKS USB Token Nhân viên - ĐK mới - 1 năm | gói | 563.000 | tính khi xuất hóa đơn | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-USB-NV-NEW-2Y` | CKS USB Token Nhân viên - ĐK mới - 2 năm | gói | 827.000 | tính khi xuất hóa đơn | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
+| `MB-USB-NV-NEW-3Y` | CKS USB Token Nhân viên - ĐK mới - 3 năm | gói | 1.039.000 | tính khi xuất hóa đơn | chưa ghi | có | mua lại của nhà cung cấp | nhà cung cấp |
+| `TOKEN-CA-USB-3Y` | Dịch Vụ Cung Cấp Chữ Ký Số Doanh Nghiệp USB Token (Gói 3 Năm) | gói | 2.250.000 | tính khi xuất hóa đơn | 10% | không | mua lại của nhà cung cấp | oBacker |
 
 
 

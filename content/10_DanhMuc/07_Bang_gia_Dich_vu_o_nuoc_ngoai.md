@@ -72,12 +72,12 @@ Giá ghi bằng đồng Việt Nam, tính cho một đơn vị tính. Mã trong 
 
 | Mã | Tên dịch vụ | Đơn vị tính | Giá chưa thuế GTGT | Giá đã có thuế GTGT | Thuế suất GTGT | Thu theo kỳ | Nguồn cung cấp | Bên xuất hóa đơn |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| `OFI-OUTBOUND` | Xin Giấy phép đầu tư ra nước ngoài | gói | chưa có giá | chưa có giá | chưa ghi | không | thuê đơn vị bên ngoài thực hiện | oBacker |
-| `SG-INC` | Thành lập công ty Singapore | gói | chưa có giá | chưa có giá | chưa ghi | không | thuê đơn vị bên ngoài thực hiện | oBacker |
-| `SG-NDIR` | Giám đốc danh nghĩa - Singapore | người/năm | chưa có giá | chưa có giá | chưa ghi | có | thuê đơn vị bên ngoài thực hiện | oBacker |
-| `SG-OFFICE` | Văn phòng ảo & mail box - Singapore | năm | chưa có giá | chưa có giá | chưa ghi | có | thuê đơn vị bên ngoài thực hiện | oBacker |
-| `SG-SEC` | Thư ký công ty - Singapore | người/năm | chưa có giá | chưa có giá | chưa ghi | có | thuê đơn vị bên ngoài thực hiện | oBacker |
-| `US-INC` | Thành lập công ty tại Delaware Mỹ | gói | chưa có giá | chưa có giá | chưa ghi | không | thuê đơn vị bên ngoài thực hiện | oBacker |
+| `OFI-OUTBOUND` | Xin Giấy phép đầu tư ra nước ngoài | gói | chưa có giá | tính khi xuất hóa đơn | chưa ghi | không | thuê đơn vị bên ngoài thực hiện | oBacker |
+| `SG-INC` | Thành lập công ty Singapore | gói | chưa có giá | tính khi xuất hóa đơn | chưa ghi | không | thuê đơn vị bên ngoài thực hiện | oBacker |
+| `SG-NDIR` | Giám đốc danh nghĩa - Singapore | người/năm | chưa có giá | tính khi xuất hóa đơn | chưa ghi | có | thuê đơn vị bên ngoài thực hiện | oBacker |
+| `SG-OFFICE` | Văn phòng ảo & mail box - Singapore | năm | chưa có giá | tính khi xuất hóa đơn | chưa ghi | có | thuê đơn vị bên ngoài thực hiện | oBacker |
+| `SG-SEC` | Thư ký công ty - Singapore | người/năm | chưa có giá | tính khi xuất hóa đơn | chưa ghi | có | thuê đơn vị bên ngoài thực hiện | oBacker |
+| `US-INC` | Thành lập công ty tại Delaware Mỹ | gói | chưa có giá | tính khi xuất hóa đơn | chưa ghi | không | thuê đơn vị bên ngoài thực hiện | oBacker |
 
 
 
