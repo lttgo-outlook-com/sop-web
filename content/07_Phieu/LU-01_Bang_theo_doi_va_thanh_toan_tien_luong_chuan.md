@@ -16,7 +16,7 @@ parent: "OBK-TTT-05 Cách làm phiếu thao tác"
 law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: "R.1.0.0"
+previous_version: ""
 aliases:
   - LU-01
 tags:

@@ -16,7 +16,7 @@ parent: "OBK-SOP-KT Kế toán và thuế"
 next_review: "Chậm nhất 31/12/2026"
 chapter: "Quyết toán thuế năm"
 distribution: "Nội bộ oBacker"
-previous_version: "R.1.0.0"
+previous_version: ""
 aliases:
   - OBK-SOP-14
 tags:

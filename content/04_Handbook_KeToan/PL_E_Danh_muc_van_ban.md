@@ -16,7 +16,7 @@ parent: "OBK-SOP-KT Kế toán và thuế"
 next_review: "Định kỳ hằng quý"
 appendix: "Danh mục văn bản pháp luật áp dụng"
 distribution: "Nội bộ oBacker"
-previous_version: "R.1.0.0"
+previous_version: ""
 aliases:
   - OBK-SOP-PL-E
 tags:

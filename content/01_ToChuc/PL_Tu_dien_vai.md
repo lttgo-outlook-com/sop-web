@@ -16,7 +16,7 @@ parent: "OBK-QCTC-02 Quy chế tổ chức và phân quyền"
 law_as_of: ""
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: "R.1.0.0"
+previous_version: ""
 aliases:
   - OBK-QCTC-02-PL-A
 tags:

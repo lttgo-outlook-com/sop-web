@@ -6,7 +6,7 @@ version: "R.1.0.0"
 status: "đang áp dụng"
 language: "en"
 distribution: "Khách hàng"
-previous_version: "R.1.0.0"
+previous_version: ""
 tags:
   - loai/tnc
 ---
@@ -80,3 +80,11 @@ oBacker notifies the Client to top up; the Services may be suspended until the b
 > By making a top-up transaction, the Client confirms that it has read, understood, and agreed to all of these Terms & Conditions. Matters not specifically addressed here are governed by oBacker's Master T&C.
 
 **oBacker Joint Stock Company** · Tax code: 0402298185 · contact@obacker.com · https://obacker.com
+
+---
+
+## REVISION LOG
+
+| Date | Version | Description |
+| --- | --- | --- |
+| 01/10/2026 | R.1.0.0 | Formal release of the company-wide standard version R.1.0.0 |

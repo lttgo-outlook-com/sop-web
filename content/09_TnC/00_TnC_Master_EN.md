@@ -6,7 +6,7 @@ version: "R.1.1.0"
 status: "đang áp dụng"
 language: "en"
 distribution: "Khách hàng"
-previous_version: "R.1.1.0"
+previous_version: ""
 tags:
   - loai/tnc
 ---
@@ -337,3 +337,11 @@ When oBacker processes the data of the Client's employees/shareholders under the
 *This document comes with the Order Form and is valid only when used together with that Order Form.*
 
 **oBacker © 2026 · oBacker Joint Stock Company · Tax code: 0402298185 · contact@obacker.com · https://obacker.com**
+
+---
+
+## REVISION LOG
+
+| Date | Version | Description |
+| --- | --- | --- |
+| 01/10/2026 | R.1.1.0 | Update the 3-month liability cap boundary, the hard cap of 1,500 vouchers per month, the FUP mechanism, the FCT 3-agreements-per-month policy, on-site inspection and independent audit for FDI |

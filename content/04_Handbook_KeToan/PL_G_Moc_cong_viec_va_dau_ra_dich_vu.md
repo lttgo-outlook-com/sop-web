@@ -16,7 +16,7 @@ next_review: "Định kỳ hằng năm"
 appendix: "Mốc công việc và đầu ra dịch vụ"
 law_as_of: "Pháp luật có hiệu lực tại ngày 25/08/2026"
 distribution: "Nội bộ oBacker"
-previous_version: "R.1.0.0"
+previous_version: ""
 aliases:
   - OBK-SOP-PL-G
 tags:

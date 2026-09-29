@@ -14,7 +14,7 @@ parent: "OBK-SOP-LIC Giấy phép"
 law_as_of: "Pháp luật có hiệu lực tại ngày 26/09/2026"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: "R.1.0.0"
+previous_version: ""
 aliases:
   - OBK-SOP-LIC-PL-01
 tags:

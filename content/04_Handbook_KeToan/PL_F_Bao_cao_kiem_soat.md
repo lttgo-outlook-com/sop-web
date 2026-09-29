@@ -16,7 +16,7 @@ parent: "OBK-SOP-KT Kế toán và thuế"
 law_as_of: "Pháp luật có hiệu lực tại ngày 25/08/2026"
 next_review: "Chậm nhất 28/02/2027"
 distribution: "Nội bộ oBacker"
-previous_version: "R.1.0.0"
+previous_version: ""
 aliases:
   - OBK-SOP-PL-F
 tags:

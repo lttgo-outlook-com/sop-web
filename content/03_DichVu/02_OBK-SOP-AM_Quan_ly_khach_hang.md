@@ -14,7 +14,7 @@ parent: "OBK-SOP-00 Chuẩn vận hành dịch vụ"
 distribution: "Nội bộ oBacker"
 law_as_of: "Pháp luật có hiệu lực tại ngày 23/09/2026"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
-previous_version: "R.1.0.0"
+previous_version: ""
 aliases:
   - OBK-SOP-AM
 tags:

@@ -36,7 +36,7 @@ tags:
 
 ## 1. Danh mục tài liệu
 
-Trang này ghi 40 lượt sửa thuộc các bản cũ của 30 tài liệu, tính tới 01/10/2026. Lượt sửa của bản hiện hành ghi tại mục NHẬT KÝ SỬA trong chính tài liệu đó.
+Trang này ghi 41 lượt sửa thuộc các bản cũ của 31 tài liệu, tính tới 01/10/2026. Lượt sửa của bản hiện hành ghi tại mục NHẬT KÝ SỬA trong chính tài liệu đó.
 
 | Tài liệu | Số lượt sửa | Ngày sửa gần nhất |
 | --- | --- | --- |
@@ -70,6 +70,7 @@ Trang này ghi 40 lượt sửa thuộc các bản cũ của 30 tài liệu, tí
 | [[08_Framework_Agreement_VI\|08_Framework_Agreement_VI]] | 1 | 01/10/2026 |
 | [[08_Framework_Agreement_EN\|08_Framework_Agreement_EN]] | 1 | 01/10/2026 |
 | [[GLOSSARY\|GLOSSARY]] | 1 | 01/10/2026 |
+| [[00_INDEX\|OBK-INDEX]] | 1 | 01/10/2026 |
 
 ## 2. Chi tiết từng tài liệu
 
@@ -258,6 +259,12 @@ Trang này ghi 40 lượt sửa thuộc các bản cũ của 30 tài liệu, tí
 | 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
 
 ### `GLOSSARY`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+
+### `OBK-INDEX`
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |

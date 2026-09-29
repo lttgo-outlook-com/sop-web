@@ -15,7 +15,7 @@ approver: "CEO"
 parent: "OBK-SOP-KT Kế toán và thuế"
 next_review: "31/10/2026"
 distribution: "Nội bộ oBacker"
-previous_version: "R.1.0.0"
+previous_version: ""
 aliases:
   - OBK-HB-08
 tags:

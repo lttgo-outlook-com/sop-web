@@ -6,7 +6,7 @@ version: "R.1.0.0"
 status: "đang áp dụng"
 language: "en"
 distribution: "Khách hàng"
-previous_version: "R.1.0.0"
+previous_version: ""
 tags:
   - loai/tnc
 ---
@@ -298,3 +298,11 @@ This Policy takes effect from 21 September 2026. Version R.1.0.0 (consolidated) 
 
 Da Nang, 21 September 2026
 **FOR AND ON BEHALF OF OBACKER JOINT STOCK COMPANY** (Signature, full name, and seal)
+
+---
+
+## REVISION LOG
+
+| Date | Version | Description |
+| --- | --- | --- |
+| 01/10/2026 | R.1.0.0 | Formal release of the company-wide standard version R.1.0.0 |

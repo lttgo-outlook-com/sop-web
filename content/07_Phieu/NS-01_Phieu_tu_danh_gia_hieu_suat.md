@@ -16,7 +16,7 @@ parent: "OBK-QCNS-08 Khung đánh giá hiệu suất"
 law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: "R.1.0.0"
+previous_version: ""
 aliases:
   - NS-01
 tags:

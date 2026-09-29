@@ -6,7 +6,7 @@ version: "R.1.1.0"
 status: "đang áp dụng"
 language: "vi"
 distribution: "Khách hàng"
-previous_version: "R.1.1.0"
+previous_version: ""
 tags:
   - loai/tnc
 ---

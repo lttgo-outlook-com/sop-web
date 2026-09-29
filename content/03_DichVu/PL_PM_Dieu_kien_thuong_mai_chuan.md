@@ -16,7 +16,7 @@ parent: "OBK-SOP-PM Chương trình đối tác giới thiệu khách hàng"
 law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: "R.1.0.0"
+previous_version: ""
 aliases:
   - OBK-SOP-PM-PL1
 tags:

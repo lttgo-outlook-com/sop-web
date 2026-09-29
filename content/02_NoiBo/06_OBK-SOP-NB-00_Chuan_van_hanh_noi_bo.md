@@ -15,7 +15,7 @@ approver: "CEO"
 parent: "OBK-QCTC-01 Quy chế tài chính nội bộ"
 distribution: "Nội bộ oBacker"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
-previous_version: "R.1.0.0"
+previous_version: ""
 aliases:
   - OBK-SOP-NB-00
 tags:

@@ -17,7 +17,7 @@ parent: "OBK-SOP-NB-00 Chuẩn vận hành nội bộ"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 appendix: "Biểu mẫu mua sắm nội bộ và thanh toán"
 distribution: "Nội bộ oBacker"
-previous_version: "R.1.0.0"
+previous_version: ""
 aliases:
   - OBK-SOP-NB-PL-BM
 tags:

@@ -5,7 +5,7 @@ folder: "09_TnC"
 version: "R.1.1.0"
 status: "đang áp dụng"
 distribution: "Nội bộ oBacker"
-previous_version: "R.1.1.0"
+previous_version: ""
 tags:
   - loai/tnc
 ---

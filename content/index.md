@@ -4,7 +4,7 @@ code: "OBK-INDEX"
 type: "sop"
 folder: "goc"
 level: "Mục lục"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 author: "CEO"
 reviewer: "CEO"
@@ -16,7 +16,7 @@ draft_date: "01/10/2026"
 law_as_of: ""
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: "R.1.0.0"
+previous_version: ""
 aliases:
   - OBK-INDEX
 tags:
@@ -40,7 +40,7 @@ tags:
 > - [[Trạng thái ban hành]]: phiên bản, trạng thái và người phê duyệt của tài liệu toàn kho.
 > - [[Nhật ký sửa toàn kho]]: toàn bộ lịch sử sửa đổi của các tài liệu.
 >
-> Nguyên văn điều khoản pháp luật nằm tại thư mục `CanCu`, một trang cho mỗi mã căn cứ.
+> Nguyên văn điều khoản pháp luật nằm tại thư mục `CanCu`, một trang cho mỗi mã căn cứ. Toàn văn từng văn bản được trích dẫn nằm tại thư mục `VanBan`, một trang cho mỗi văn bản.
 
 > [!info] HỆ THỐNG THẺ PHÂN LOẠI (TAGS)
 > Hệ thống thẻ phân loại giúp lọc và tra cứu nhanh tài liệu theo các chiều quản trị:
@@ -331,4 +331,4 @@ Bản hiện hành, cấp tài liệu và trạng thái ban hành của từng t
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 29/09/2026 | R.1.1.0 | Them dan duong toi thu muc VanBan (toan van van ban phap luat) tai muc TRA CUU TOAN DIEN |
