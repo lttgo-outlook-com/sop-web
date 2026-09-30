@@ -26,7 +26,13 @@ gcloud run deploy "${SERVICE_NAME}" \
   --port=8080 \
   --no-allow-unauthenticated \
   --no-default-url \
-  --iap
+  --iap \
+  --min-instances=0 \
+  --max-instances=5 \
+  --cpu=1 \
+  --memory=512Mi \
+  --timeout=30s \
+  --container-concurrency=50
 
 echo "==> Deploy completed successfully!"
 echo "URL: https://${SERVICE_NAME}-648536980516.${REGION}.run.app"
