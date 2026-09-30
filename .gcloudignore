@@ -6,3 +6,4 @@ public
 .quartz-cache
 .obsidian
 .DS_Store
+dist

@@ -25,6 +25,7 @@ Tệp này quy định nguyên tắc phát triển, quản lý mã nguồn và q
 | Kiểm tra build tĩnh | `npx quartz build` | Phải hoàn thành không có lỗi cú pháp |
 | Xem trước cục bộ | `npx quartz build --serve` | Chạy dev server tại localhost:8080 |
 | Deploy Cloud Run (CHỈ khi Tuấn yêu cầu) | `./scripts/deploy.sh` | Chạy Cloud Build trực tiếp và deploy Direct IAP |
+| Xây index tìm kiếm | `node scripts/build-index.mjs` | Sinh `dist/vault-index.json`, chạy trong Docker build |
 
 ---
 
@@ -32,5 +33,9 @@ Tệp này quy định nguyên tắc phát triển, quản lý mã nguồn và q
 
 * `content/`: Thư mục chứa các tài liệu Markdown ban hành, được đồng bộ từ kho `SOP/Publish SOPs/` bằng công cụ `_tools/dong_bo_sop_web.py`.
 * `quartz/`: Mã nguồn engine Quartz 4 (components, plugins, layout, styles).
+* `public/`: Kết quả build tĩnh của Quartz (đã build, gitignored).
+* `src/server.mjs`: Server Node duy nhất (port 8080) — cung cấp cùng lúc trang tĩnh, MCP streamable HTTP tại `/mcp`, và REST search (`/api/search`, `/api/document`), plus `/healthz`.
+* `scripts/build-index.mjs`: Sinh index tìm kiếm tại thời điểm build → `dist/vault-index.json` (chỉ chạy trong Docker build, không chạy tại runtime).
 * `scripts/deploy.sh`: Script build Docker image qua Cloud Build và deploy Cloud Run service `sop-web` với cờ `--no-default-url` và `--iap`.
+* `nginx.conf`: Legacy — không còn được dùng (server Node thay thế Nginx); chưa được xoá.
 * `.github/workflows/deploy.yaml`: Workflow GitHub Actions dự phòng (chỉ chạy thủ công qua `workflow_dispatch` hoặc push vào nhánh `deploy`, không kích hoạt trên `master`).
