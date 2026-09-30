@@ -32,7 +32,7 @@ gcloud run deploy "${SERVICE_NAME}" \
   --cpu=1 \
   --memory=512Mi \
   --timeout=30s \
-  --container-concurrency=50
+  --concurrency=50
 
 echo "==> Deploy completed successfully!"
 echo "URL: https://${SERVICE_NAME}-648536980516.${REGION}.run.app"
