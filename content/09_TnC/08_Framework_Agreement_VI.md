@@ -2,7 +2,7 @@
 title: "HỢP ĐỒNG DỊCH VỤ (BẢN KHUNG; KÝ ĐIỆN TỬ)"
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.1.0"
+version: "R.1.1.1"
 status: "đang áp dụng"
 language: "vi"
 distribution: "Khách hàng"
@@ -14,7 +14,7 @@ tags:
 ### Hợp Đồng Dịch Vụ Khung oBacker; Giao Kết Điện Tử
 
 **Số Hợp Đồng:** [SỐ HĐ / theo Đơn Đặt Hàng] · **Ngày phát hành:** [__/__/____]
-**Phiên bản mẫu:** R.1.0.0 · **Cập nhật:** 01/10/2026
+**Phiên bản mẫu:** R.1.1.1 · **Cập nhật:** 01/10/2026
 
 > Bản Hợp đồng khung ngắn gọn này được giao kết dưới **hình thức điện tử** theo **Luật Giao dịch điện tử số 20/2023/QH15**. Hợp đồng dẫn chiếu và đính kèm bộ Điều Khoản & Điều Kiện Dịch Vụ của oBacker; **oBacker ký sẵn (ký tự động), Hợp đồng hoàn tất giao kết khi Quý Khách thanh toán** theo Đơn Đặt Hàng.
 
@@ -50,7 +50,7 @@ Email: [___] · Điện thoại: [___]
 | Loại hình doanh nghiệp | [Doanh nghiệp Việt Nam / Doanh nghiệp có vốn đầu tư nước ngoài (FDI)] |
 | Chế độ kế toán áp dụng | [Thông tư 58/2026/TT-BTC (VN siêu nhỏ) / Thông tư 99/2025/TT-BTC (FDI và tăng trưởng)] |
 | Phạm vi (hạng mục áp dụng) | [Kế toán & Thuế / Nhân sự / Giấy phép / Pháp lý / …] |
-| Ngưỡng định mức (FUP) | [Định mức: ___ chứng từ/tháng; Nhân sự: ___ người; Trần cứng: 1.500 ct/tháng (với Growth)] |
+| Ngưỡng định mức (FUP) | [Định mức: ___ chứng từ/tháng; Nhân sự: ___ người; Mức tối đa: 1.500 ct/tháng (với Growth)] |
 | Phí Dịch Vụ | [___ VNĐ / năm (hoặc quý/tháng); đã gồm/chưa gồm GTGT] |
 | Kỳ hạn & cam kết tối thiểu | [theo gói / hợp đồng ký Quý 4 cam kết tối thiểu đến 31/12 năm sau (5 quý)] |
 | **Mô hình thanh toán** | [**Trả trước** (mặc định) / Trả sau / Trả trước qua Ví] |
@@ -156,4 +156,4 @@ Chữ ký điện tử / Xác nhận thanh toán: `[chữ ký điện tử của
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.1.0 | Đồng bộ mẫu Đơn Đặt Hàng (loại hình FDI, TT 58/99, định mức FUP, chu kỳ phí năm/quý), cơ chế cam kết Quý 4, mốc 15/03 và trần bồi thường 3 tháng |
+| 01/10/2026 | R.1.1.1 | Đổi từ ngữ: nhãn định mức trong mẫu Đơn Đặt Hàng (Điều 1) viết lại bằng 'Mức tối đa' |

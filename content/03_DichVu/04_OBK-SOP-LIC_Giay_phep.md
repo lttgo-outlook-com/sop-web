@@ -4,7 +4,7 @@ code: "OBK-SOP-LIC"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 2, quy trình bộ phận"
-version: "R.1.0.0"
+version: "R.1.2.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -39,11 +39,11 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-SOP-LIC |
 | Cấp tài liệu | Cấp 2, SOP bộ phận |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.2.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
-| Người phê duyệt | CEO (Lê Trọng Tuấn) |OBK-SOP-00]] mục 12.1 |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] Chuẩn vận hành dịch vụ |
 | Kế thừa từ | SOP Licensing v0.1 ngày 20/08/2026, soạn bởi Linh Đào |
 | Hướng dẫn cấp 3 | CHƯA CÓ. TL-LIC dựng theo khuôn tại `PL_3` mục 4 |
@@ -124,6 +124,14 @@ tags:
 | LIC-22 | Điều phối đối tác thuê ngoài | Nghiệp vụ oBacker không tự làm | Kết luận cần đối tác thuê ngoài tại LIC-01;<br>phạm vi, thời hạn và chi phí đã chốt với đối tác | Sản phẩm của đối tác ĐÃ ĐƯỢC SOÁT XÉT và ĐÃ CHUẨN HÓA theo biểu mẫu oBacker | Soát xét sản phẩm của đối tác trong 02 ngày làm việc kể từ khi nhận;<br>đối tác không được liên hệ trực tiếp khách | Theo nghiệp vụ | Nội bộ |
 | LIC-23 | Bàn giao kết quả và hướng dẫn sau cấp phép | Có kết quả | Giấy phép đã kiểm tra đúng thông tin | Bản mềm và bản cứng;<br>ghi chú nghĩa vụ sau cấp phép, thời hạn hiệu lực và mốc gia hạn, việc phải làm tiếp và bên chịu trách nhiệm | Bàn giao AM trong 01 ngày làm việc kể từ khi nhận kết quả | Không có | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 6.1 |
 | LIC-24 | Đăng ký hạn gia hạn vào lịch theo dõi | Sau LIC-23 | Ngày hết hạn của giấy phép | Job gia hạn đã được tạo trước với ngày kích hoạt | Ngay tại B10 của Job gốc, trước khi đóng Job | Không có | Nội bộ |
+
+| LIC-25 | Cấp Giấy phép kinh doanh bán lẻ hàng hóa cho DN FDI | Khách yêu cầu | Báo cáo tài chính, xác nhận không nợ thuế, thông tin mặt hàng và phương thức bán lẻ | Giấy phép kinh doanh bán lẻ do Sở Công Thương cấp | Soạn hồ sơ 05 ngày làm việc;<br>nộp trong 01 ngày làm việc sau khi ký | Thẩm định và lấy ý kiến từ 21 ngày làm việc đến 28 ngày làm việc | Nghị định 09/2018/NĐ-CP Điều 5, Điều 9, Điều 12, Điều 13 (đến 17/10/2026); Nghị định 342/2026/NĐ-CP Điều 5, Điều 9, Điều 11, Điều 12 (từ 18/10/2026) |
+| LIC-26 | Cấp Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm | Khách yêu cầu | Mặt bằng cơ sở, danh sách nhân sự, giấy khám sức khỏe, quy trình chế biến | Giấy chứng nhận cơ sở đủ điều kiện ATTP | Hướng dẫn cơ sở và lập hồ sơ 03 - 05 ngày làm việc;<br>nộp trong 01 ngày làm việc | Thẩm định thực tế và cấp phép trong 20 ngày làm việc | Luật An toàn thực phẩm 2010 Điều 34, Điều 36; Nghị định 15/2018/NĐ-CP Điều 11, Điều 12 |
+| LIC-27 | Đăng ký hoạt động tổ chức khoa học và công nghệ | Khách yêu cầu | Điều lệ, quyết định thành lập, hồ sơ 05 nhân sự đại học, hợp đồng thuê trụ sở | Giấy chứng nhận đăng ký hoạt động KH&CN | Soạn hồ sơ 04 ngày làm việc;<br>rà soát nhân sự 02 ngày làm việc;<br>nộp trong 01 ngày làm việc | Cấp trong 15 ngày làm việc kể từ ngày nhận đủ hồ sơ | Luật Khoa học và Công nghệ 2013 Điều 11; Nghị định 08/2014/NĐ-CP Điều 5, Điều 6 |
+| LIC-28 | Thông báo website thương mại điện tử bán hàng | Khách yêu cầu | Tên miền hợp lệ, thông tin doanh nghiệp, bộ 06 chính sách chuẩn trên website theo [[CC-LIC-28-TMDT-04\|CC-LIC-28-TMDT-04]] đến [[CC-LIC-28-TMDT-09\|CC-LIC-28-TMDT-09]] | Xác nhận thông báo và mã nhúng biểu tượng xanh của Bộ Công Thương | Rà soát website theo [[CC-LIC-28-TMDT-01\|CC-LIC-28-TMDT-01]], soạn chính sách 02 ngày làm việc;<br>nộp trực tuyến 01 ngày làm việc | Xác minh pháp lý hoàn thành 30/09/2026 theo [[VB-122-2025-QH15\|VB-122-2025-QH15]], [[VB-248-2026-NĐ-CP\|VB-248-2026-NĐ-CP]], [[VB-117-2025-NĐ-CP\|VB-117-2025-NĐ-CP]];<br>mốc nộp đối chiếu bản gốc khi mở lại | [[VB-122-2025-QH15\|Luật 122/2025/QH15]] Điều 3, 5, 11;<br>[[VB-248-2026-NĐ-CP\|NĐ 248/2026/NĐ-CP]] Điều 4, 5, 8, 10, 13, 14, 23;<br>[[VB-117-2025-NĐ-CP\|NĐ 117/2025/NĐ-CP]] Điều 4, 5, 7;<br>xem CanCu CC-LIC-28-TMDT-01 đến 12, VanBan VB-122 đến VB-117 |
+| LIC-29 | Đăng ký website cung cấp dịch vụ TMĐT (Sàn giao dịch TMĐT) | Khách yêu cầu | Đề án cung cấp dịch vụ sàn giao dịch, Quy chế quản lý sàn thương mại điện tử, Hợp đồng dịch vụ mẫu, website hoàn thiện | Giấy xác nhận đăng ký và mã nhúng biểu tượng đỏ của Bộ Công Thương | Soạn Đề án và Quy chế 05 - 07 ngày làm việc;<br>nộp hồ sơ giấy trong 02 ngày làm việc sau duyệt điện tử | Thẩm định điện tử 07 ngày làm việc; cấp phép hồ sơ giấy 05 ngày làm việc | Nghị định 52/2013/NĐ-CP Điều 54, Điều 55; Nghị định 85/2021/NĐ-CP;<br>hiện đang chặn, xem mục 9 |
+| LIC-30 | Đăng ký xác lập quyền nhãn hiệu | Khách yêu cầu | Mẫu nhãn hiệu, danh mục sản phẩm/dịch vụ dự kiến, thông tin chủ sở hữu | Giấy biên nhận nộp đơn (giữ ngày nộp đơn ưu tiên); Giấy chứng nhận đăng ký nhãn hiệu | Tra cứu sơ bộ 01 ngày làm việc;<br>soạn hồ sơ và nộp trong 24 giờ đến 48 giờ làm việc sau ký | Thẩm định hình thức 01 tháng; thẩm định nội dung 09 tháng (thực tế 12 - 16 tháng) | `PL_1` [[CC-LIC-30-MARKS-01 Định nghĩa nhãn hiệu\|CC-LIC-30-MARKS-01]] tới [[CC-LIC-30-MARKS-10 Thời hạn và gia hạn bảo hộ nhãn hiệu\|CC-LIC-30-MARKS-10]] |
+| LIC-31 | Đăng ký quyền tác giả (phần mềm, tác phẩm viết, mỹ thuật) | Khách yêu cầu | Bản sao tác phẩm, mã nguồn (source code), tài liệu chứng minh quyền chủ sở hữu | Giấy chứng nhận đăng ký quyền tác giả do Cục Bản quyền tác giả cấp | Soạn hồ sơ và in đóng tập 03 ngày làm việc;<br>nộp trong 01 ngày làm việc sau khi ký | Cấp Giấy chứng nhận trong 15 ngày làm việc kể từ ngày nhận đủ hồ sơ | Luật Sở hữu trí tuệ 2005 (sửa đổi 2022); Nghị định 17/2023/NĐ-CP Điều 38;<br>hiện đang chặn, xem mục 9 |
 
 %%/JOBTABLE:LIC%%
 
@@ -242,7 +250,7 @@ Bốn nghiệp vụ dưới đây oBacker áp dụng cách xử lý theo nguyên
 | **Thẻ tạm trú TRC, thị thực** | Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài;<br>bản hợp nhất `62/VBHN-VPQH` năm 2026;<br>`118/2025/QH15`;<br>`70/2026/TT-BCA` | Không cam kết thời hạn thẻ và điều kiện với khách.<br>Nhận việc thì phải tra bản gốc trước từng hồ sơ và ghi ngày tra.<br>Với ký hiệu UĐ1 và UĐ2 mới thì chưa xác minh được, tuyệt đối không tư vấn |
 | **Nhãn hiệu, quyền tác giả, sáng chế** | Luật SHTT bản hợp nhất `67/VBHN-VPQH` năm 2026;<br>`131/2025/QH15`;<br>`100/2026/NĐ-CP` | Không cam kết thời hạn thẩm định.<br>Web ngày 02/09/2026 cho thấy Luật 131/2025 rút ngắn thời hạn thẩm định nội dung từ 01/04/2026 nhưng nguồn chỉ chưa đối chiếu bản gốc và chỉ có một nguồn thứ cấp.<br>Cam kết sai timeline đăng ký nhãn hiệu là rủi ro thương mại trực tiếp |
 | **Xác nhận doanh nghiệp khởi nghiệp sáng tạo** | Luật Khoa học, công nghệ và đổi mới sáng tạo `93/2025/QH15`;<br>`268/2025/NĐ-CP` | Không nhận việc cho tới khi có văn bản.<br>Điều kiện áp dụng: đây là điều kiện để được ưu đãi thuế TNDN, TNCN và ưu đãi 200% chi R&D tại `PL_1` [[CC-LIC-22 Ưu đãi thuế TNDN cho doanh nghiệp khởi nghiệp sáng tạo, công ty quản lý quỹ đầu tư khởi nghiệp sáng tạo, tổ chức trung gian\|CC-LIC-22]] tới [[CC-LIC-24 Chi nghiên cứu và phát triển được tính bằng 200% chi phí thực tế\|CC-LIC-24]].<br>Đang chặn một dòng doanh thu và một khoản ưu đãi lớn |
-| **Đăng ký website thương mại điện tử;<br>giấy phép con theo ngành;<br>VPĐD của thương nhân nước ngoài** | Nghị định về thương mại điện tử;<br>pháp luật chuyên ngành từng lĩnh vực;<br>nghị định về VPĐD và chi nhánh của thương nhân nước ngoài | Không nhận việc, hoặc nhận qua đối tác thuê ngoài theo LIC-22 với điều kiện TL-LIC soát được sản phẩm.<br>VPĐD của thương nhân nước ngoài là nghiệp vụ phổ biến mà kho hoàn toàn không có, ưu tiên bổ sung |
+| **Đăng ký website thương mại điện tử;<br>giấy phép con theo ngành;<br>VPĐD của thương nhân nước ngoài** | [[VB-122-2025-QH15\|Luật 122/2025/QH15]] Luật TMĐT;<br>[[VB-248-2026-NĐ-CP\|NĐ 248/2026/NĐ-CP]] chi tiết;<br>[[VB-117-2025-NĐ-CP\|NĐ 117/2025/NĐ-CP]] thuế;<br>pháp luật chuyên ngành từng lĩnh vực;<br>nghị định về VPĐD và chi nhánh của thương nhân nước ngoài | Mở lại từ 30/09/2026. LIC-28 sử dụng [[VB-122-2025-QH15\|VB-122-2025-QH15]], [[VB-248-2026-NĐ-CP\|VB-248-2026-NĐ-CP]], [[VB-117-2025-NĐ-CP\|VB-117-2025-NĐ-CP]]; CanCu [[CC-LIC-28-TMDT-01\|CC-LIC-28-TMDT-01]] đến [[CC-LIC-28-TMDT-12\|CC-LIC-28-TMDT-12]].<br>VPĐD của thương nhân nước ngoài là nghiệp vụ phổ biến mà kho hoàn toàn không có, ưu tiên bổ sung |
 
 **ĐÃ ĐÓNG ngày 02/09/2026, hai phụ lục trước đây chưa đọc được nay đã có dạng đọc được trong kho.** Phụ lục I Nghị định `96/2026/NĐ-CP`, danh mục ngành nghề hạn chế tiếp cận thị trường với nhà đầu tư nước ngoài, tại [[Nghị định số 96-2026-NĐ-CP]] từ dòng 2748, Mục A ngành nghề chưa được tiếp cận thị trường từ dòng 2753 và Mục B ngành nghề tiếp cận thị trường CÓ ĐIỀU KIỆN từ dòng 2801. Phụ lục IV Luật Đầu tư `143/2025/QH15`, danh mục ngành nghề đầu tư kinh doanh có điều kiện, tại [[Luật số 143-2025-QH15]] từ dòng 1720. Hai phụ lục này nay đã đối chiếu bản gốc, xem `PL_1` mục 4.3.
 
@@ -284,4 +292,4 @@ Ba hướng dẫn đầu là điều kiện để đóng ba rủi ro tại mục
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 30/09/2026 | R.1.2.0 | Mở khóa LIC-28 "Thông báo website TMĐT": thêm 12 CanCu (CC-LIC-28-TMDT-01 đến -12) từ Luật 122/2025/QH15, NĐ 248/2026/NĐ-CP, NĐ 117/2025/NĐ-CP; 3 VanBan (VB-122, VB-248, VB-117); cập nhật dẫn chiếu pháp lý trong job table LIC-28 và mục 9<br>Thêm 10 CanCu về Nhãn hiệu (CC-LIC-30-MARKS-01 đến -10) từ Luật 07/2022 và Nghị định 65/2023; cập nhật danh sách tài liệu căn cứ cho LIC-30 |

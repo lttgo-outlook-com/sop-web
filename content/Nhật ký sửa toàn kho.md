@@ -36,20 +36,30 @@ tags:
 
 ## 1. Danh mục tài liệu
 
-Trang này ghi 41 lượt sửa thuộc các bản cũ của 31 tài liệu, tính tới 01/10/2026. Lượt sửa của bản hiện hành ghi tại mục NHẬT KÝ SỬA trong chính tài liệu đó.
+Trang này ghi 62 lượt sửa thuộc các bản cũ của 39 tài liệu, tính tới 01/10/2026. Lượt sửa của bản hiện hành ghi tại mục NHẬT KÝ SỬA trong chính tài liệu đó.
 
 | Tài liệu | Số lượt sửa | Ngày sửa gần nhất |
 | --- | --- | --- |
+| [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] | 4 | 01/10/2026 |
+| [[04_OBK-SOP-LIC_Giay_phep\|OBK-SOP-LIC]] | 3 | 01/10/2026 |
 | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] | 2 | 01/10/2026 |
 | [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] | 2 | 01/10/2026 |
 | [[PL_Ma_tran_phan_quyen\|OBK-QCTC-02-PL-B]] | 2 | 01/10/2026 |
 | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] | 2 | 01/10/2026 |
-| [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] | 2 | 01/10/2026 |
 | [[03_De_xuat_bao_gia_va_ky_hop_dong\|OBK-HB-33]] | 2 | 01/10/2026 |
 | [[00_Muc_luc_va_cach_dung\|OBK-HB-00]] | 2 | 01/10/2026 |
 | [[03_Mo_hinh_van_hanh_bon_muc_kiem_soat_va_ma_tran_RACI\|OBK-QCNS-03]] | 2 | 01/10/2026 |
 | [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] | 2 | 01/10/2026 |
 | [[NS-02_Phieu_danh_gia_cheo_hieu_suat\|NS-02]] | 2 | 01/10/2026 |
+| [[00_TnC_Master_VI\|00_TnC_Master_VI]] | 2 | 01/10/2026 |
+| [[00_TnC_Master_EN\|00_TnC_Master_EN]] | 2 | 01/10/2026 |
+| [[02_Accounting_Tax_VI\|02_Accounting_Tax_VI]] | 2 | 01/10/2026 |
+| [[02_Accounting_Tax_EN\|02_Accounting_Tax_EN]] | 2 | 01/10/2026 |
+| [[05_Client_Guide_VI\|05_Client_Guide_VI]] | 2 | 01/10/2026 |
+| [[05_Client_Guide_EN\|05_Client_Guide_EN]] | 2 | 01/10/2026 |
+| [[08_Framework_Agreement_VI\|08_Framework_Agreement_VI]] | 2 | 01/10/2026 |
+| [[08_Framework_Agreement_EN\|08_Framework_Agreement_EN]] | 2 | 01/10/2026 |
+| [[PL_LIC_01_Quy_trinh_giay_phep_chuyen_nganh_va_so_huu_tri_tue\|OBK-SOP-LIC-PL-01]] | 2 | 01/10/2026 |
 | [[00_Danh_muc_dich_vu_va_bang_gia\|OBK-DM-00]] | 1 | 01/10/2026 |
 | [[01_Goi_dich_vu_va_hang_muc_kem_goi\|OBK-DM-GOI]] | 1 | 01/10/2026 |
 | [[02_Bang_gia_Giay_phep_va_doanh_nghiep\|OBK-DM-GP]] | 1 | 01/10/2026 |
@@ -59,18 +69,16 @@ Trang này ghi 41 lượt sửa thuộc các bản cũ của 31 tài liệu, tí
 | [[06_Bang_gia_Chu_ky_so_va_hoa_don_dien_tu\|OBK-DM-CKS]] | 1 | 01/10/2026 |
 | [[07_Bang_gia_Dich_vu_o_nuoc_ngoai\|OBK-DM-NN]] | 1 | 01/10/2026 |
 | [[08_Hang_muc_ghi_nhan_rieng\|OBK-DM-NG]] | 1 | 01/10/2026 |
-| [[00_TnC_Master_VI\|00_TnC_Master_VI]] | 1 | 01/10/2026 |
-| [[00_TnC_Master_EN\|00_TnC_Master_EN]] | 1 | 01/10/2026 |
-| [[02_Accounting_Tax_VI\|02_Accounting_Tax_VI]] | 1 | 01/10/2026 |
-| [[02_Accounting_Tax_EN\|02_Accounting_Tax_EN]] | 1 | 01/10/2026 |
 | [[04_Legal_Services_VI\|04_Legal_Services_VI]] | 1 | 01/10/2026 |
 | [[04_Legal_Services_EN\|04_Legal_Services_EN]] | 1 | 01/10/2026 |
-| [[05_Client_Guide_VI\|05_Client_Guide_VI]] | 1 | 01/10/2026 |
-| [[05_Client_Guide_EN\|05_Client_Guide_EN]] | 1 | 01/10/2026 |
-| [[08_Framework_Agreement_VI\|08_Framework_Agreement_VI]] | 1 | 01/10/2026 |
-| [[08_Framework_Agreement_EN\|08_Framework_Agreement_EN]] | 1 | 01/10/2026 |
 | [[GLOSSARY\|GLOSSARY]] | 1 | 01/10/2026 |
 | [[00_INDEX\|OBK-INDEX]] | 1 | 01/10/2026 |
+| [[09_HD_Nghiep_vu_giay_phep_va_thu_tuc_doanh_nghiep\|OBK-HB-41]] | 1 | 01/10/2026 |
+| [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] | 1 | 01/10/2026 |
+| [[05_OBK-SOP-LD_Lao_dong_va_tien_luong\|OBK-SOP-LD]] | 1 | 01/10/2026 |
+| [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] | 1 | 01/10/2026 |
+| [[07_OBK-SOP-RD_Nghien_cuu_phap_ly\|OBK-SOP-RD]] | 1 | 01/10/2026 |
+| [[13_OBK-SOP-MK_Marketing_va_phat_trien_nguon_khach_hang\|OBK-SOP-MK]] | 1 | 01/10/2026 |
 
 ## 2. Chi tiết từng tài liệu
 
@@ -106,8 +114,10 @@ Trang này ghi 41 lượt sửa thuộc các bản cũ của 31 tài liệu, tí
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.2.0.0 | Cập nhật phân quyền 2 cấp ký hợp đồng dịch vụ chuẩn cho Trưởng phòng Thương mại và quy định 4 trường hợp ngoại lệ chuyển Tổng Giám đốc |
+| 01/10/2026 | R.2.1.0 | Thêm dẫn chiếu tới CC-LIC-29-SECURITY-01 tới 15 vào các Job AM-06, AM-08, AM-19, AM-20 liên quan tới quản lý dữ liệu khách hàng |
+| 01/10/2026 | R.2.0.1 | Sửa dòng 'Người phê duyệt' trong bảng thông tin phiên bản về khuôn hai cột, bỏ dấu thừa và liên kết bị cắt cụt của OBK-SOP-00 |
 | 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 27/09/2026 | R.2.0.0 | Cập nhật phân quyền 2 cấp ký hợp đồng dịch vụ chuẩn cho Trưởng phòng Thương mại và quy định 4 trường hợp ngoại lệ chuyển Tổng Giám đốc |
 
 ### `OBK-HB-33`
 
@@ -202,24 +212,28 @@ Trang này ghi 41 lượt sửa thuộc các bản cũ của 31 tài liệu, tí
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 01/10/2026 | R.1.1.0 | Cập nhật ranh giới bồi thường 3 tháng, trần cứng 1.500 ct/tháng, cơ chế FUP, chính sách FCT 3 HĐ/tháng, thanh tra tại bàn và kiểm toán độc lập FDI |
 | 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
 
 ### `00_TnC_Master_EN`
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 01/10/2026 | R.1.1.0 | Update the 3-month liability cap boundary, the hard cap of 1,500 vouchers per month, the FUP mechanism, the FCT 3-agreements-per-month policy, on-site inspection and independent audit for FDI |
 | 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
 
 ### `02_Accounting_Tax_VI`
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 01/10/2026 | R.1.1.0 | Đồng bộ chế độ kế toán nhị phân (TT 58 cho VN siêu nhỏ, TT 99 cho 100% FDI), định mức FCT và quy chế thanh tra/kiểm toán độc lập |
 | 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
 
 ### `02_Accounting_Tax_EN`
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 01/10/2026 | R.1.1.0 | Synchronize binary accounting standards (Circular 58 for micro VN, Circular 99 for 100% FDI), FCT quotas and audit representation |
 | 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
 
 ### `04_Legal_Services_VI`
@@ -238,24 +252,28 @@ Trang này ghi 41 lượt sửa thuộc các bản cũ của 31 tài liệu, tí
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 01/10/2026 | R.1.1.0 | Cập nhật bảng so sánh ba gói đối tác Partner Core, Growth, Prime, cơ chế FUP và biểu phí phụ thu FDI +25% |
 | 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
 
 ### `05_Client_Guide_EN`
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 01/10/2026 | R.1.1.0 | Update comparative matrix for Partner Core, Growth, Prime packages, FUP mechanism and FDI +25% surcharge |
 | 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
 
 ### `08_Framework_Agreement_VI`
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 01/10/2026 | R.1.1.0 | Đồng bộ mẫu Đơn Đặt Hàng (loại hình FDI, TT 58/99, định mức FUP, chu kỳ phí năm/quý), cơ chế cam kết Quý 4, mốc 15/03 và trần bồi thường 3 tháng |
 | 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
 
 ### `08_Framework_Agreement_EN`
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 01/10/2026 | R.1.1.0 | Synchronize Order Form template (FDI entity, Circular 58/99, FUP quotas, billing cycles), Q4 commitment, March 15 checkpoint and 3-month liability cap |
 | 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
 
 ### `GLOSSARY`
@@ -268,4 +286,55 @@ Trang này ghi 41 lượt sửa thuộc các bản cũ của 31 tài liệu, tí
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+
+### `OBK-HB-41`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+
+### `OBK-SOP-KT`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+
+### `OBK-SOP-LIC`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 01/10/2026 | R.1.0.1 | Sửa dòng 'Người phê duyệt' trong bảng thông tin phiên bản về khuôn hai cột, bỏ dấu thừa và liên kết bị cắt cụt của OBK-SOP-00 |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 30/09/2026 | R.1.1.0 | Tích hợp bảy Job LIC-25 tới LIC-31 từ bảng nguồn PL_LIC_01 mục 9 vào danh mục Job, bổ sung cột 'Nguồn phát sinh'; bốn Job LIC-28 tới LIC-31 ghi chú hiện đang chặn, xem mục 9 |
+
+### `OBK-SOP-LD`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+
+### `OBK-SOP-LS`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+
+### `OBK-SOP-RD`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+
+### `OBK-SOP-MK`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+
+### `OBK-SOP-LIC-PL-01`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 01/10/2026 | R.1.0.1 | Ghi nhận mục 9 là bảng nguồn đã tích hợp vào danh mục Job OBK-SOP-LIC, ghi chú bốn Job LIC-28 tới LIC-31 hiện đang chặn, xem mục 9 |
 | 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

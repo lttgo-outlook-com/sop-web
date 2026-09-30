@@ -4,9 +4,9 @@ code: "OBK-SOP-NB-01"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.2.0.0"
+version: "R.2.0.1"
 status: "đang áp dụng"
-draft_date: "01/10/2026"
+draft_date: "30/09/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 01/10/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -35,8 +35,8 @@ tags:
 | Mã tài liệu | OBK-SOP-NB-01 |
 | Tên tài liệu | Quy trình mua sắm nội bộ và đề nghị thanh toán |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ. Thi hành Chương 4 và Chương 7 của [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Quy chế tài chính nội bộ |
-| Phiên bản | R.2.0.0, đang áp dụng |
-| Ngày biên soạn | 01/10/2026 |
+| Phiên bản | R.2.0.1, đang áp dụng |
+| Ngày biên soạn | 30/09/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -595,7 +595,7 @@ Bản gốc là [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 12.3c
 
 | # | Điều kiện | Nguồn | Bỏ qua thì sao |
 | --- | --- | --- | --- |
-| 1 | Nhà cung cấp đã xác minh đủ sáu nội dung, và `BM-05` có trong hồ sơ (khoản dưới 20 triệu đồng tra cứu trực tuyến MST) | mục 6.4.1 | Mất tiền cho một bên không tồn tại hoặc đang bị cảnh báo hóa đơn |
+| 1 | Nhà cung cấp đã xác minh đủ sáu nội dung, và `BM-05` có trong hồ sơ (khoản nhỏ hơn 20.000.000 đồng tra cứu trực tuyến MST) | mục 6.4.1 | Mất tiền cho một bên không tồn tại hoặc đang bị cảnh báo hóa đơn |
 | 2 | Người ký đúng bậc theo giá trị | mục 6.2.1;<br>[[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 12.3 và 12.3a | Vượt thẩm quyền;<br>hợp đồng từ 35% tổng tài sản mà không qua Hội đồng quản trị / Đại hội đồng cổ đông |
 | 3 | Đã đọc ba điều khoản: thanh toán, hóa đơn, gia hạn tự động | mục 6.3.3 | Không đòi được hóa đơn, hoặc hợp đồng tự gia hạn mà không ai biết |
 | 4 | Nếu thuộc bốn việc `TGĐ` giữ quyền duy nhất thì phải `TGĐ` ký, không ủy quyền | mục 6.2.3 | Người không có quyền ký một cam kết dài hạn hoặc có điều khoản phạt |
@@ -676,7 +676,7 @@ Phân loại sai dẫn tới đi sai luồng và thiếu chứng từ. Bảng n�
 
 #### 6.2.2. Bãi bỏ cơ chế tự động nâng bậc
 
-Bãi bỏ cơ chế tự động nâng thêm 1 bậc khi gặp nhà cung cấp mới, mua trả trước trên 50%, hoặc hợp đồng trên 12 tháng. Đơn vị cung cấp chỉ cần có mã số thuế đang hoạt động bình thường trên cổng thông tin Tổng cục Thuế và phát hành hóa đơn điện tử hợp pháp thì áp dụng đúng hạn mức theo số tiền.
+Bãi bỏ cơ chế tự động nâng thêm 1 bậc khi gặp nhà cung cấp mới, mua trả trước lớn hơn 50%, hoặc hợp đồng trên 12 tháng. Đơn vị cung cấp chỉ cần có mã số thuế đang hoạt động bình thường trên cổng thông tin Tổng cục Thuế và phát hành hóa đơn điện tử hợp pháp thì áp dụng đúng hạn mức theo số tiền.
 
 Đối với trường hợp nhà cung cấp là bên có liên quan theo pháp luật doanh nghiệp thì chuyển sang thực hiện theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] Điều 12a theo thẩm quyền luật định, không áp dụng nâng bậc cơ học.
 
@@ -699,7 +699,7 @@ Bãi bỏ cơ chế tự động nâng thêm 1 bậc khi gặp nhà cung cấp m
 | A2 | Xác nhận nhu cầu và ngân sách | TL | Ký duyệt trên BM-01 | 02 ngày làm việc |
 | A3 | Lấy báo giá theo yêu cầu ở bậc tương ứng (B1: không yêu cầu; B2: 01 báo giá; B3: tối thiểu 02 báo giá mua mới) | NĐN | Báo giá đính kèm BM-01 | 05 ngày làm việc |
 | A4 | So sánh và chọn nhà cung cấp | NĐN đề xuất, TL quyết | Lý do chọn ghi trên BM-01 |  |
-| A5 | Xác minh nhà cung cấp nếu là lần đầu. Khoản dưới 20 triệu đồng chỉ tra cứu nhanh trực tuyến MST; khoản từ 20 triệu đồng trở lên lập BM-05 | KTV | Kết quả tra cứu trực tuyến hoặc BM-05 | 01 ngày (tra cứu) / 03 ngày (BM-05) |
+| A5 | Xác minh nhà cung cấp nếu là lần đầu. Khoản nhỏ hơn 20.000.000 đồng chỉ tra cứu nhanh trực tuyến MST; khoản từ 20 triệu đồng trở lên lập BM-05 | KTV | Kết quả tra cứu trực tuyến hoặc BM-05 | 01 ngày (tra cứu) / 03 ngày (BM-05) |
 | A6 | Ký hợp đồng hoặc gửi đơn đặt hàng | NDC theo hạn mức | Hợp đồng hoặc đơn đặt hàng có số |  |
 | A7 | Nhận hàng hoặc nghiệm thu dịch vụ | NĐN | Biểu mẫu **BM-06 Biên bản nghiệm thu** hoặc phiếu giao hàng có ký nhận | Trong 02 ngày kể từ khi nhận |
 
@@ -722,7 +722,7 @@ Không chọn theo giá thấp nhất một cách máy móc. Ghi rõ trên BM-01
 
 #### 6.4.1. Sáu nội dung xác minh nhà cung cấp trước lần thanh toán đầu tiên
 
-Khoản chi dưới 20.000.000 đồng (Bậc B1, B2) chỉ cần tra cứu nhanh trực tuyến trạng thái mã số thuế của nhà cung cấp trên cổng thông tin Tổng cục Thuế trong vòng 01 phút, không lập biên bản xác minh sáu bước.
+Khoản chi nhỏ hơn 20.000.000 đồng (Bậc B1, B2) chỉ cần tra cứu nhanh trực tuyến trạng thái mã số thuế của nhà cung cấp trên cổng thông tin Tổng cục Thuế trong vòng 01 phút, không lập biên bản xác minh sáu bước.
 
 Biểu mẫu `BM-05` chỉ áp dụng bắt buộc đối với nhà cung cấp lần đầu có giá trị giao dịch từ 20.000.000 đồng trở lên (Bậc B3), bao gồm sáu nội dung:
 
@@ -1334,4 +1334,4 @@ Tài liệu viết độc lập với phần mềm. Khi triển khai, thay các 
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.2.0.0 | Cập nhật bảng thẩm quyền 3 bậc B1 tới B3, bỏ cơ chế tự động nâng bậc, đơn giản hóa xác minh nhà cung cấp dưới 20 triệu và yêu cầu báo giá theo 3 bậc |
+| 30/09/2026 | R.2.0.1 | Thực hiện N12.4: ngưỡng xác minh nhà cung cấp viết rõ 'nhỏ hơn 20.000.000 đồng' tại 6.0b.3, 6.3.1, 6.4; 'lớn hơn 50%' tại 6.2.2 |

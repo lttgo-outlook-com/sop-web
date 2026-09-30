@@ -4,7 +4,7 @@ code: "OBK-SOP-LIC-PL-01"
 type: "sop"
 folder: "03_DichVu"
 level: "Phụ lục"
-version: "R.1.0.0"
+version: "R.1.0.1"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -29,7 +29,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-SOP-LIC-PL-01 |
 | Cấp tài liệu | Phụ lục quy trình chi tiết |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.0.1, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -410,7 +410,7 @@ Thực hiện toàn trình trên môi trường điện tử tại Cổng thông
 
 ## 9. TỔNG HỢP DANH MỤC JOB MỚI, THỜI HẠN PHÁP ĐỊNH VÀ SLA NỘI BỘ
 
-Bảng tổng hợp bảy mã Job bổ sung cho Bộ phận Licensing và Bộ phận Dịch vụ pháp lý để tích hợp vào danh mục Job của bộ phận:
+Bảy mã Job bổ sung LIC-25 tới LIC-31 đã được tích hợp vào danh mục Job của OBK-SOP-LIC. Bảng dưới đây là bảng nguồn của lượt tích hợp, giữ nguyên văn trích căn cứ pháp lý cho từng Job; bốn Job LIC-28 tới LIC-31 đang chặn do thiếu văn bản hợp nhất, xem OBK-SOP-LIC mục 9:
 
 | Mã Job | Tên Job | Đầu vào bắt buộc | Đầu ra | SLA nội bộ oBacker | Thời hạn theo pháp luật | Căn cứ pháp lý |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -428,4 +428,4 @@ Bảng tổng hợp bảy mã Job bổ sung cho Bộ phận Licensing và Bộ p
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 30/09/2026 | R.1.0.1 | Ghi nhận mục 9 là bảng nguồn đã tích hợp vào danh mục Job OBK-SOP-LIC, ghi chú bốn Job LIC-28 tới LIC-31 hiện đang chặn, xem mục 9 |

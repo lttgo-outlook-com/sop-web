@@ -2,7 +2,7 @@
 title: "CLIENT WORKING GUIDE; WORKING WITH OBACKER"
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.1.0"
+version: "R.1.1.1"
 status: "đang áp dụng"
 language: "en"
 distribution: "Khách hàng"
@@ -13,7 +13,7 @@ tags:
 # CLIENT WORKING GUIDE; WORKING WITH OBACKER
 ### A guide for the Client
 
-**Version:** R.1.1.0 (VI-EN) · **Updated:** 27 September 2026 · Applies to the Partner Core, Partner Growth and Partner Prime packages
+**Version:** R.1.1.1 (VI-EN) · **Updated:** 1 October 2026 · Applies to the Partner Core, Partner Growth and Partner Prime packages
 
 > This guide is intended to help the Client work smoothly with oBacker. It is not a contract. If anything in this guide differs from the service Agreement (Master T&C, Order Form and the Service-Specific Terms), the Agreement prevails.
 
@@ -52,7 +52,7 @@ oBacker Joint Stock Company provides business-operations services to SMEs, start
 | Monthly equivalent fee | 2,250,000đ | 7,000,000đ | From 15,000,000đ |
 | FDI entity fee | 40,500,000đ/year (10,125,000đ/qtr) | 113,400,000đ/year (28,350,000đ/qtr) | Custom by actual volume |
 | Billing cycle | Annual or Quarterly | Annual or Quarterly | Annual or Quarterly |
-| Monthly transaction quota | 50 (VN) / 100 (FDI) | 300 (hard ceiling 1,500 via blocks) | From 1,500 to 7,000+ vouchers |
+| Monthly transaction quota | 50 (VN) / 100 (FDI) | 300 (maximum 1,500 via blocks) | From 1,500 to 7,000+ vouchers |
 | Payroll & social insurance headcount | Under 10 (VN) / 3 (FDI) | Under 30 | Under 50 |
 | Accounting standard applied | Circular 58 (VN) / Circular 99 (FDI) | Circular 99/2025/TT-BTC | Circular 99/2025/TT-BTC |
 | Bookkeeping and Annual Financial Statements | Yes | Yes | Yes |
@@ -291,6 +291,6 @@ oBacker hands over all books, records and system login details to the Client or 
 
 ## REVISION LOG
 
-| Date | Version | R.1.1.0, currently applicable |
+| Date | Version | Description |
 | --- | --- | --- |
-| 01/10/2026 | R.1.1.0 | Update comparative matrix for Partner Core, Growth, Prime packages, FUP mechanism and FDI +25% surcharge |
+| 01/10/2026 | R.1.1.1 | Wording: transaction 'hard ceiling' reworded to 'maximum' (Sections 3, 13); penalty wording fixed (Section 11); fix REVISION LOG header to Date/Version/Description |

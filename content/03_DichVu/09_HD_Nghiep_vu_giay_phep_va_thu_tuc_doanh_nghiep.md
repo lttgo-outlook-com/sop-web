@@ -4,9 +4,9 @@ code: "OBK-HB-41"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.0"
+version: "R.1.0.1"
 status: "đang áp dụng"
-draft_date: "01/10/2026"
+draft_date: "30/09/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 27/09/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -32,8 +32,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-HB-41 |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.1.0.0, đang áp dụng |
-| Ngày biên soạn | 01/10/2026 |
+| Phiên bản | R.1.0.1, đang áp dụng |
+| Ngày biên soạn | 30/09/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 27/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -234,7 +234,7 @@ Quy trình xử lý hồ sơ bao gồm 9 bước tiêu chuẩn:
 | 1 | Văn bản bảo lãnh của doanh nghiệp (Mẫu NA6) | Doanh nghiệp bảo lãnh ký tên và đóng dấu hợp lệ; có thông báo mẫu con dấu nếu nộp lần đầu | Đạt / Không đạt | Kiểm tra tư cách pháp nhân của đơn vị bảo lãnh |
 | 2 | Tờ khai đề nghị cấp thẻ tạm trú (Mẫu NA8) | Người nước ngoài ký tên; dán ảnh 4x6 cm đúng quy cách | Đạt / Không đạt | Hướng dẫn người nước ngoài ký đúng trang |
 | 3 | Hộ chiếu gốc và thị thực hiện tại | Thời hạn hộ chiếu phải dài hơn thời hạn thẻ tạm trú đề nghị cấp tối thiểu 30 ngày; thị thực đang sử dụng đúng mục đích | Đạt / Không đạt | Rút ngắn thời hạn thẻ đề nghị cấp nếu hộ chiếu sắp hết hạn |
-| 4 | Giấy tờ chứng minh diện cấp thẻ tạm trú | GPLĐ còn hạn tối thiểu 01 năm (diện LĐ1, LĐ2); hoặc GCN đăng ký doanh nghiệp có mức vốn góp từ 03 tỷ đồng trở lên (diện ĐT1, ĐT2, ĐT3) | Đạt / Không đạt | Không đề nghị cấp TRC cho nhà đầu tư vốn dưới 03 tỷ đồng (chuyển sang xin thị thực ĐT4) |
+| 4 | Giấy tờ chứng minh diện cấp thẻ tạm trú | GPLĐ còn hạn tối thiểu 01 năm (diện LĐ1, LĐ2); hoặc GCN đăng ký doanh nghiệp có mức vốn góp từ 03 tỷ đồng trở lên (diện ĐT1, ĐT2, ĐT3) | Đạt / Không đạt | Không đề nghị cấp TRC cho nhà đầu tư vốn nhỏ hơn 03 tỷ đồng (chuyển sang xin thị thực ĐT4) |
 | 5 | Xác nhận đăng ký tạm trú | Giấy xác nhận đăng ký tạm trú tại công an xã, phường hoặc bản in biên nhận khai báo tạm trú trực tuyến hợp lệ | Đạt / Không đạt | Hướng dẫn chủ cơ sở lưu trú khai báo trực tuyến |
 
 ## 8. LỖI THƯỜNG GẶP VÀ CÁCH XỬ LÝ
@@ -281,4 +281,4 @@ Quy trình xử lý hồ sơ bao gồm 9 bước tiêu chuẩn:
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 30/09/2026 | R.1.0.1 | Thực hiện N12.4: biện pháp xử lý tại bảng kiểm cấp thẻ tạm trú viết rõ 'nhỏ hơn 03 tỷ đồng' theo Luật 51/2019/QH14 |

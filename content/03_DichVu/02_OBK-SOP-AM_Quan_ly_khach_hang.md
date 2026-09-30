@@ -4,7 +4,7 @@ code: "OBK-SOP-AM"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 2, quy trình bộ phận"
-version: "R.2.0.0"
+version: "R.2.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -30,11 +30,11 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-SOP-AM |
 | Cấp tài liệu | Cấp 2, SOP bộ phận |
-| Phiên bản | R.2.0.0, đang áp dụng |
+| Phiên bản | R.2.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
-| Người phê duyệt | CEO (Lê Trọng Tuấn) |OBK-SOP-00]] mục 12.1 |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] Chuẩn vận hành dịch vụ |
 | Kế thừa từ | SOP Customer Handling v1.4 ngày 09/07/2026 |
 | Lead của bộ phận | TP Thương mại, hiện do CEO kiêm |
@@ -370,4 +370,4 @@ Thao tác trên `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]` và `[HỆ THỐNG CHAT
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.2.0.0 | Cập nhật phân quyền 2 cấp ký hợp đồng dịch vụ chuẩn cho Trưởng phòng Thương mại và quy định 4 trường hợp ngoại lệ chuyển Tổng Giám đốc |
+| 01/10/2026 | R.2.1.0 | Thêm dẫn chiếu tới CC-LIC-29-SECURITY-01 tới 15 vào các Job AM-06, AM-08, AM-19, AM-20 liên quan tới quản lý dữ liệu khách hàng |

@@ -4,7 +4,7 @@ code: "OBK-SOP-LD"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 2, quy trình bộ phận"
-version: "R.1.0.0"
+version: "R.1.0.1"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -37,11 +37,11 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-SOP-LD |
 | Cấp tài liệu | Cấp 2, SOP bộ phận |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.0.1, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
-| Người phê duyệt | CEO (Lê Trọng Tuấn) |OBK-SOP-00]] mục 12.1 |
+| Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] Chuẩn vận hành dịch vụ |
 | Kế thừa từ | SOP Delivery Lao Động v0.1 ngày 02/09/2026, soạn bởi Hoa Phùng |
 | Hướng dẫn cấp 3 | CHƯA CÓ. TL-LD dựng theo khuôn tại `PL_3` mục 4 |
@@ -419,4 +419,4 @@ Việc 1 và 2 là hai việc chiếm phần lớn thời gian của bộ phận
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 01/10/2026 | R.1.0.1 | Sửa dòng 'Người phê duyệt' trong bảng thông tin phiên bản về khuôn hai cột, bỏ dấu thừa và liên kết bị cắt cụt của OBK-SOP-00 |

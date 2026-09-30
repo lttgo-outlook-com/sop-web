@@ -4,9 +4,9 @@ code: "OBK-QCTC-01"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 1, văn bản KHUNG toàn công ty"
-version: "R.2.0.0"
+version: "R.2.0.1"
 status: "đang áp dụng"
-draft_date: "01/10/2026"
+draft_date: "30/09/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 01/10/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -35,8 +35,8 @@ tags:
 | Mã tài liệu | OBK-QCTC-01 |
 | Tên tài liệu | Quy chế tài chính nội bộ của Công ty cổ phần oBacker |
 | Cấp tài liệu | Cấp 1, văn bản KHUNG. Các quy trình OBK-SOP-NB nằm dưới quy chế này |
-| Phiên bản | R.2.0.0, đang áp dụng |
-| Ngày biên soạn | 01/10/2026 |
+| Phiên bản | R.2.0.1, đang áp dụng |
+| Ngày biên soạn | 30/09/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -363,7 +363,7 @@ Giao dịch giữa oBacker với các nhân sự nêu trên, với người có 
 
 8.2. **Rủi ro thuế của việc góp vốn chậm.** Chi trả lãi tiền vay tương ứng với phần vốn điều lệ đã đăng ký còn thiếu theo tiến độ góp vốn ghi trong điều lệ không được tính vào chi phí được trừ, kể cả khi doanh nghiệp đã đi vào sản xuất kinh doanh `[Văn bản hợp nhất 19/VBHN-BTC Đ.10 k.9]`. Thời hạn góp vốn theo Điều lệ là **90 ngày kể từ ngày được cấp Giấy chứng nhận đăng ký doanh nghiệp** `[Điều lệ Đ.6 k.2, Đ.7 k.1]`.
 
-8.2a. KTT xác nhận toàn bộ số cổ phần đã được thanh toán đủ và lưu bằng chứng thanh toán vào hồ sơ vốn. Trường hợp chưa thanh toán đủ trong thời hạn luật định, công ty thực hiện thủ tục đăng ký điều chỉnh vốn điều lệ theo quy định của pháp luật `[Điều lệ Đ.7 k.3 đ.d]`.
+8.2a. KTT xác nhận toàn bộ số cổ phần đã được thanh toán đủ và lưu bằng chứng thanh toán vào hồ sơ vốn. Trường hợp chưa thanh toán đủ trong thời hạn theo pháp luật, công ty thực hiện thủ tục đăng ký điều chỉnh vốn điều lệ theo quy định của pháp luật `[Điều lệ Đ.7 k.3 đ.d]`.
 
 8.3. Trường hợp oBacker đã góp đủ vốn điều lệ, khoản chi trả lãi tiền vay để đầu tư vào doanh nghiệp khác được tính vào chi phí được trừ `[Văn bản hợp nhất 19/VBHN-BTC Đ.10 k.9 đ.a]`.
 
@@ -1965,4 +1965,4 @@ Ba quy tắc, cũng ghi tại mục 3.4:
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.2.0.0 | Thu gọn hạn mức chi tiêu 3 bậc tại mục 12.3: B1 dưới 5 triệu do TL quyết, B2 từ 5 đến dưới 20 triệu do COO hoặc KTT quyết, B3 từ 20 triệu do Tổng Giám đốc quyết |
+| 30/09/2026 | R.2.0.1 | Thực hiện N11.4: gọi thời hạn do pháp luật ấn định thành 'thời hạn theo pháp luật' tại mục 8.2a |

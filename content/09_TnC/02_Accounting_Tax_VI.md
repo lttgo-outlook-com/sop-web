@@ -2,7 +2,7 @@
 title: "ĐIỀU KHOẢN DỊCH VỤ KẾ TOÁN & THUẾ (PL-KT)"
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.1.0"
+version: "R.1.1.1"
 status: "đang áp dụng"
 language: "vi"
 distribution: "Khách hàng"
@@ -16,7 +16,7 @@ tags:
 *Điều Khoản Dịch Vụ Cụ Thể, bộ phận không tách rời của Bản Điều Khoản Chung; Công ty Cổ phần oBacker*
 MST: 0402298185 · Tầng 2, 06 Trần Phú, Phường Hải Châu, Thành phố Đà Nẵng · contact@obacker.com
 
-**Phiên bản:** R.1.1.0 (VI-EN) · **Cập nhật:** 01/10/2026
+**Phiên bản:** R.1.1.1 (VI-EN) · **Cập nhật:** 01/10/2026
 
 > Tài liệu này là Điều Khoản Dịch Vụ Cụ Thể cho Dịch Vụ Kế toán & Thuế ("**Dịch Vụ**"), gồm hai hợp phần: (A) Kế toán và (B) Thuế doanh nghiệp (GTGT, TNDN, thuế nhà thầu nước ngoài (FCT), hóa đơn điện tử). Tài liệu áp dụng khi Dịch Vụ được ghi tại Đơn Đặt Hàng. **Nếu tài liệu này khác với Bản Điều Khoản Chung, tài liệu này được ưu tiên áp dụng đối với Dịch Vụ.**
 >
@@ -162,7 +162,7 @@ Hai phương thức kê khai FCT (Quý Khách chọn):
 
 **7.1. Thanh tra, kiểm tra thuế:** Gói dịch vụ định kỳ bao gồm cung cấp bản sao sổ sách điện tử và hỗ trợ giải trình số liệu từ xa qua cổng thông tin điện tử. Quý Khách xuất trình chứng từ gốc, giấy tờ nội bộ đi kèm và giải trình bản chất nghiệp vụ kinh tế. Trường hợp cơ quan thuế kiểm tra trực tiếp tại trụ sở và Quý Khách yêu cầu chuyên viên oBacker trực tiếp tham gia làm việc với đoàn kiểm tra tại bàn, hai Bên ký phụ lục công việc riêng theo biểu phí quy định tại danh mục dịch vụ (mã ADD-TAX-INSPECT). oBacker không chịu trách nhiệm về tính hợp pháp của chứng từ hoặc quyết định xử phạt phát sinh từ thông tin Quý Khách cung cấp sai hoặc thiếu (xem Điều 8).
 
-**7.2. Kiểm toán độc lập (đối với doanh nghiệp FDI):** 100% doanh nghiệp có vốn đầu tư nước ngoài (FDI) bắt buộc phải kiểm toán BCTC hàng năm theo quy định tại Điều 15 Nghị định 17/2012/NĐ-CP và Thông tư 186/2010/TT-BTC. oBacker hoạt động độc lập với các đơn vị kiểm toán độc lập; Quý Khách ký hợp đồng và thanh toán phí trực tiếp cho công ty kiểm toán. oBacker chịu trách nhiệm chuẩn bị bộ hồ sơ số liệu kế toán hoàn chỉnh theo Thông tư 99/2025/TT-BTC, bàn giao file làm việc và phối hợp giải trình số liệu với kiểm toán viên độc lập.
+**7.2. Kiểm toán độc lập (đối với doanh nghiệp FDI):** 100% doanh nghiệp có vốn đầu tư nước ngoài (FDI) bắt buộc phải kiểm toán BCTC hàng năm theo quy định tại Điều 15 Nghị định 17/2012/NĐ-CP và Thông tư 186/2010/TT-BTC. oBacker hoạt động độc lập với các đơn vị kiểm toán độc lập; Quý Khách ký hợp đồng và thanh toán phí trực tiếp cho công ty kiểm toán. oBacker chịu trách nhiệm chuẩn bị bộ hồ sơ số liệu kế toán hoàn chỉnh theo Thông tư 99/2025/TT-BTC, bàn giao tệp làm việc và phối hợp giải trình số liệu với kiểm toán viên độc lập.
 
 ## Điều 8. Phân định trách nhiệm và cơ chế bồi thường
 
@@ -188,7 +188,7 @@ Phí Dịch Vụ được xác định theo Đơn Đặt Hàng (theo gói đối
 
 **10.1. Chính sách sử dụng hợp lý (FUP) và biểu phí vượt định mức:**
 - Hạn mức Giao Dịch: Partner Core (50 Giao Dịch/tháng), Partner Growth (300 Giao Dịch/tháng), Partner Prime (1.500 Giao Dịch/tháng).
-- Cơ chế khối phụ trội gói Growth: Vượt 300 Giao Dịch áp dụng phụ thu theo khối: khối 500 Giao Dịch (mã `ADD-TXN-BLOCK-500`, 2.500.000đ/tháng), khối 1.000 Giao Dịch (mã `ADD-TXN-BLOCK-1000`, 5.000.000đ/tháng), khối 1.500 Giao Dịch (mã `ADD-TXN-BLOCK-1500`, 7.500.000đ/tháng). Trần cứng gói Growth là 1.500 Giao Dịch/tháng; vượt mức này bắt buộc chuyển đổi sang Partner Prime.
+- Cơ chế khối phụ trội gói Growth: Vượt 300 Giao Dịch áp dụng phụ thu theo khối: khối 500 Giao Dịch (mã `ADD-TXN-BLOCK-500`, 2.500.000đ/tháng), khối 1.000 Giao Dịch (mã `ADD-TXN-BLOCK-1000`, 5.000.000đ/tháng), khối 1.500 Giao Dịch (mã `ADD-TXN-BLOCK-1500`, 7.500.000đ/tháng). Mức tối đa gói Growth là 1.500 Giao Dịch/tháng; vượt mức này bắt buộc chuyển đổi sang Partner Prime.
 - Gói Partner Prime: Hạn mức tiêu chuẩn 1.500 Giao Dịch/tháng; khối lượng vượt trên 1.500 Giao Dịch áp dụng đơn giá 15.000đ/Giao Dịch (mã `ADD-TXN-PRIME-OVER`).
 - Tài khoản ngân hàng: Core (02 tài khoản), Growth (05 tài khoản). Phụ phí từ tài khoản thứ 3 (Core) hoặc thứ 6 (Growth) là 300.000đ/tài khoản/tháng (mã `ADD-BANK-ACC`).
 - Kê khai FCT ngoài định mức: 1.500.000đ/hồ sơ (mã `ADD-FCT-RETURN`).
@@ -217,4 +217,4 @@ Phí Dịch Vụ được xác định theo Đơn Đặt Hàng (theo gói đối
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.1.0 | Đồng bộ chế độ kế toán nhị phân (TT 58 cho VN siêu nhỏ, TT 99 cho 100% FDI), định mức FCT và quy chế thanh tra/kiểm toán độc lập |
+| 01/10/2026 | R.1.1.1 | Đổi từ ngữ: cách gọi định mức tối đa gói Growth (Điều 10) viết lại bằng 'mức tối đa'; từ tiếng Anh gọi tệp làm việc (Điều 7) đổi thành 'tệp làm việc' |

@@ -2,7 +2,7 @@
 title: "ĐIỀU KHOẢN VÀ ĐIỀU KIỆN DỊCH VỤ (BẢN ĐIỀU KHOẢN CHUNG)"
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.1.0"
+version: "R.1.1.1"
 status: "đang áp dụng"
 language: "vi"
 distribution: "Khách hàng"
@@ -19,7 +19,7 @@ Trụ sở chính: Tầng 2, 06 Trần Phú, Phường Hải Châu, TP Đà Nẵ
 Văn phòng TP.HCM: 15 Hoàng Kế Viêm, Phường Bảy Hiền, TP. Hồ Chí Minh, Việt Nam
 Văn phòng Đà Nẵng: Số 54 đường Khuê Mỹ Đông 7, Phường Ngũ Hành Sơn, TP Đà Nẵng, Việt Nam
 
-**Phiên bản:** R.1.1.0 (VI-EN) · **Cập nhật:** 01/10/2026
+**Phiên bản:** R.1.1.1 (VI-EN) · **Cập nhật:** 01/10/2026
 
 ---
 
@@ -239,7 +239,7 @@ Khối lượng và phí của dịch vụ Kế toán được xác định theo
 - **01 Giao Dịch được tính bằng 01 bút toán ghi nhận trên sổ kế toán**, tương ứng với 01 hóa đơn mua vào/bán ra hợp lệ, **HOẶC** 01 dòng phát sinh độc lập trên sao kê ngân hàng.
 - **Chính sách hỗ trợ (gộp một đợt chi trả lương):** Riêng các bút toán chi trả lương hàng tháng cho nhân viên, nếu thanh toán trong **cùng một đợt chi trả**, oBacker gộp lại và chỉ tính chung là **01 Giao Dịch**, không đếm theo số lượng nhân sự được nhận lương.
 
-Ngưỡng Giao Dịch/tháng của từng gói được ghi tại Đơn Đặt Hàng. Các gói đối tác kế toán và quản trị định kỳ (Partner Core, Partner Growth, Partner Prime) áp dụng định mức giao dịch và chính sách sử dụng hợp lý (FUP). Gói Partner Growth áp dụng trần cứng 1.500 giao dịch/tháng; gói Partner Prime áp dụng các block giao dịch thỏa thuận (từ 1.500 đến trên 7.000 giao dịch/tháng). Toàn bộ phụ phí phát sinh vượt định mức hoặc block volume mở rộng được đối soát thực tế và xuất hóa đơn phụ phí định kỳ hàng tháng dương lịch (Monthly Post-billing).
+Ngưỡng Giao Dịch/tháng của từng gói được ghi tại Đơn Đặt Hàng. Các gói đối tác kế toán và quản trị định kỳ (Partner Core, Partner Growth, Partner Prime) áp dụng định mức giao dịch và chính sách sử dụng hợp lý (FUP). Gói Partner Growth áp dụng mức tối đa 1.500 giao dịch/tháng; gói Partner Prime áp dụng các block giao dịch thỏa thuận (từ 1.500 đến trên 7.000 giao dịch/tháng). Toàn bộ phụ phí phát sinh vượt định mức hoặc block volume mở rộng được đối soát thực tế và xuất hóa đơn phụ phí định kỳ hàng tháng dương lịch (Monthly Post-billing).
 
 **Hệ số phức tạp ngành nghề & danh mục loại trừ:** Đơn giá niêm yết chuẩn áp dụng cho nhóm ngành tiêu chuẩn (Dịch vụ, Thương mại, IT, Tư vấn, hệ số K = 1,0). Nhóm ngành F&B, chuỗi bán lẻ áp dụng hệ số K = 1,2; ngành xuất nhập khẩu, logistics áp dụng K = 1,3; ngành sản xuất, gia công, xây dựng áp dụng K = 1,5. oBacker từ chối tuyệt đối cung cấp dịch vụ cho các ngành nghề loại trừ gồm: kinh doanh tiền mã hóa, tài sản ảo; tín dụng đen, cầm đồ; cờ bạc, cá cược; đòi nợ thuê; vũ khí, vật liệu nổ và hóa chất độc hại.
 
@@ -259,7 +259,7 @@ Dịch Vụ Kế toán & Thuế được điều chỉnh chi tiết tại **PL-K
 
 **Thanh tra, kiểm tra thuế tại trụ sở:** Gói dịch vụ định kỳ bao gồm hỗ trợ giải trình số liệu từ xa qua cổng điện tử. Trường hợp cơ quan thuế ban hành quyết định thanh tra, kiểm tra tại bàn tại trụ sở doanh nghiệp và Quý Khách yêu cầu chuyên viên oBacker trực tiếp tham gia làm việc với đoàn kiểm tra, hai Bên ký phụ lục công việc theo vụ việc riêng theo danh mục dịch vụ chuẩn hóa (mã ADD-TAX-INSPECT).
 
-**Cơ chế chốt chặn hợp đồng Quý 4 và ngày 15/03:** Khách hàng ký hợp đồng trong Quý 4 cam kết thời hạn dịch vụ kéo dài tối thiểu đến hết ngày 31/12 của năm tiếp theo (tối thiểu 05 quý). Trường hợp thanh toán chia đợt, đợt 2 phải được hoàn tất chậm nhất vào ngày 15/03 của năm tiếp theo. Đến ngày 15/03 nếu Quý Khách chưa thanh toán đợt 2, oBacker tiến hành nộp BCTC và Quyết toán thuế tạm thời căn cứ trên số liệu hiện có trước ngày 31/03 để bảo vệ Quý Khách khỏi bị xử phạt chậm nộp; sau khi hoàn tất thanh toán, oBacker mới thực hiện rà soát hoàn chỉnh và nộp hồ sơ khai bổ sung.
+**Cơ chế chốt hợp đồng Quý 4 và ngày 15/03:** Khách hàng ký hợp đồng trong Quý 4 cam kết thời hạn dịch vụ kéo dài tối thiểu đến hết ngày 31/12 của năm tiếp theo (tối thiểu 05 quý). Trường hợp thanh toán chia đợt, đợt 2 phải được hoàn tất chậm nhất vào ngày 15/03 của năm tiếp theo. Đến ngày 15/03 nếu Quý Khách chưa thanh toán đợt 2, oBacker tiến hành nộp BCTC và Quyết toán thuế tạm thời căn cứ trên số liệu hiện có trước ngày 31/03 để bảo vệ Quý Khách khỏi bị xử phạt chậm nộp; sau khi hoàn tất thanh toán, oBacker mới thực hiện rà soát hoàn chỉnh và nộp hồ sơ khai bổ sung.
 
 **Khắc phục sổ sách quá khứ và miễn trừ trách nhiệm:** Doanh nghiệp chuyển đổi từ đơn vị khác sang hoặc đã hoạt động từ 01 năm trở lên bắt buộc thực hiện rà soát sức khỏe sổ sách ban đầu (Health Check). Trường hợp phát hiện sai sót cần lập lại sổ sách kế toán các năm trước, hai Bên ký phụ lục công việc khắc phục sổ sách (Restatement) theo công thức đơn giá tháng nhân hệ số ngành và khối lượng chứng từ sai lệch. oBacker được miễn trừ 100% trách nhiệm đối với mọi sai phạm, tiền truy thu thuế và tiền phạt vi phạm hành chính phát sinh từ số liệu quá khứ do Quý Khách hoặc đơn vị kế toán cũ thực hiện trước thời điểm bàn giao.
 
@@ -346,4 +346,4 @@ Khi oBacker xử lý dữ liệu của người lao động/cổ đông của Qu
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.1.0 | Cập nhật ranh giới bồi thường 3 tháng, trần cứng 1.500 ct/tháng, cơ chế FUP, chính sách FCT 3 HĐ/tháng, thanh tra tại bàn và kiểm toán độc lập FDI |
+| 01/10/2026 | R.1.1.1 | Đổi từ ngữ: cách gọi định mức giao dịch tối đa (Điều 15) và cách gọi cơ chế cam kết Quý 4 (Điều 16) viết lại bằng 'mức tối đa' và 'chốt hợp đồng Quý 4' |

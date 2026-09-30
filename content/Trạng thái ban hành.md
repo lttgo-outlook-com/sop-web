@@ -10,7 +10,7 @@ tags:
 > [!info] TRANG NÀY LÀ GÌ
 > Trang này ghi trạng thái của 182 tài liệu trong kho. Trang này được sinh lại từ thông tin đầu tệp của từng tài liệu; nơi sửa một trạng thái là bảng Thông tin phiên bản của chính tài liệu đó.
 
-Cập nhật ngày 29/09/2026.
+Cập nhật ngày 30/09/2026.
 
 ## Tổ chức và phân quyền
 
@@ -31,9 +31,9 @@ Thư mục `02_NoiBo`, 22 tài liệu.
 | Mã | Tài liệu | Cấp | Bản | Trạng thái | Người soát và tình trạng | Người phê duyệt và tình trạng | Ngày biên soạn | Rà soát tiếp theo |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo\|OBK-SOP-NB-00]] | [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo]] | Cấp 1, văn bản KHUNG toàn công ty | R.1.0.0 | đang áp dụng | CEO; đã soát | CEO | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
-| [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo]] | Cấp 1, văn bản KHUNG toàn công ty | R.2.0.0 | đang áp dụng | CEO; đã soát | CEO; đã phê duyệt | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
+| [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo]] | Cấp 1, văn bản KHUNG toàn công ty | R.2.0.1 | đang áp dụng | CEO; đã soát | CEO; đã phê duyệt | 30/09/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-QCTC-03]] | [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan]] | Cấp 1, văn bản KHUNG toàn công ty | R.1.0.0 | đang áp dụng | CEO; đã soát | CEO; đã phê duyệt | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
-| [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] | [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo]] | Cấp 3, hướng dẫn nghiệp vụ | R.2.0.0 | đang áp dụng | CEO; đã soát | CEO; đã phê duyệt | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
+| [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] | [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo]] | Cấp 3, hướng dẫn nghiệp vụ | R.2.0.1 | đang áp dụng | CEO; đã soát | CEO; đã phê duyệt | 30/09/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[OBK-SOP-NB-02_Thu_tien_va_cong_no_phai_thu\|OBK-SOP-NB-02]] | [[OBK-SOP-NB-02_Thu_tien_va_cong_no_phai_thu]] | Cấp 3, hướng dẫn nghiệp vụ | R.1.0.0 | đang áp dụng | CEO; đã soát | CEO; đã phê duyệt | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[OBK-SOP-NB-03_Quan_ly_tien\|OBK-SOP-NB-03]] | [[OBK-SOP-NB-03_Quan_ly_tien]] | Cấp 3, hướng dẫn nghiệp vụ | R.1.0.0 | đang áp dụng | CEO; đã soát | CEO; đã phê duyệt | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[OBK-SOP-NB-04_Cong_va_tien_luong_noi_bo\|OBK-SOP-NB-04]] | [[OBK-SOP-NB-04_Cong_va_tien_luong_noi_bo]] | Cấp 3, hướng dẫn nghiệp vụ | R.1.0.0 | đang áp dụng | CEO; đã soát | CEO; đã phê duyệt | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
@@ -63,30 +63,30 @@ Thư mục `03_DichVu`, 29 tài liệu.
 | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu]] | Cấp 1, văn bản KHUNG toàn công ty | R.2.0.0 | đang áp dụng | CEO; đã soát | CEO; đã phê duyệt | 01/10/2026 | Không quá 06 tháng kể từ ngày ban hành |
 | [[01_Tiep_nhan_va_sang_loc_lead\|OBK-HB-31]] | [[01_Tiep_nhan_va_sang_loc_lead]] | Cấp 3, hướng dẫn nghiệp vụ | R.1.0.0 | đang áp dụng | CEO; đã soát | CEO | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[02_Hop_lam_ro_nhu_cau\|OBK-HB-32]] | [[02_Hop_lam_ro_nhu_cau]] | Cấp 3, hướng dẫn nghiệp vụ | R.1.0.0 | đang áp dụng | CEO; đã soát | CEO | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
-| [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] | [[02_OBK-SOP-AM_Quan_ly_khach_hang]] | Cấp 2, quy trình bộ phận | R.2.0.0 | đang áp dụng | CEO | CEO | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
+| [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] | [[02_OBK-SOP-AM_Quan_ly_khach_hang]] | Cấp 2, quy trình bộ phận | R.2.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[03_De_xuat_bao_gia_va_ky_hop_dong\|OBK-HB-33]] | [[03_De_xuat_bao_gia_va_ky_hop_dong]] | Cấp 3, hướng dẫn nghiệp vụ | R.2.0.0 | đang áp dụng | CEO; đã soát | CEO | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
-| [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] | [[03_OBK-SOP-KT_Ke_toan_va_thue]] | Cấp 2, quy trình bộ phận | R.1.0.0 | đang áp dụng | CEO | CEO | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
-| [[04_OBK-SOP-LIC_Giay_phep\|OBK-SOP-LIC]] | [[04_OBK-SOP-LIC_Giay_phep]] | Cấp 2, quy trình bộ phận | R.1.0.0 | đang áp dụng | CEO | CEO | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
+| [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] | [[03_OBK-SOP-KT_Ke_toan_va_thue]] | Cấp 2, quy trình bộ phận | R.1.0.1 | đang áp dụng | CEO | CEO | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
+| [[04_OBK-SOP-LIC_Giay_phep\|OBK-SOP-LIC]] | [[04_OBK-SOP-LIC_Giay_phep]] | Cấp 2, quy trình bộ phận | R.1.2.0 | đang áp dụng | CEO | CEO | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[04_Onboarding_khach_moi\|OBK-HB-34]] | [[04_Onboarding_khach_moi]] | Cấp 3, hướng dẫn nghiệp vụ | R.1.0.0 | đang áp dụng | CEO; đã soát | CEO | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
-| [[05_OBK-SOP-LD_Lao_dong_va_tien_luong\|OBK-SOP-LD]] | [[05_OBK-SOP-LD_Lao_dong_va_tien_luong]] | Cấp 2, quy trình bộ phận | R.1.0.0 | đang áp dụng | CEO | CEO | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
+| [[05_OBK-SOP-LD_Lao_dong_va_tien_luong\|OBK-SOP-LD]] | [[05_OBK-SOP-LD_Lao_dong_va_tien_luong]] | Cấp 2, quy trình bộ phận | R.1.0.1 | đang áp dụng | CEO | CEO | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[05_Van_hanh_hang_ngay_va_dieu_phoi\|OBK-HB-35]] | [[05_Van_hanh_hang_ngay_va_dieu_phoi]] | Cấp 3, hướng dẫn nghiệp vụ | R.1.0.0 | đang áp dụng | CEO; đã soát | CEO | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[06_Bao_thong_tin_bat_loi_va_su_co\|OBK-HB-36]] | [[06_Bao_thong_tin_bat_loi_va_su_co]] | Cấp 3, hướng dẫn nghiệp vụ | R.1.0.0 | đang áp dụng | CEO; đã soát | CEO | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
-| [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] | [[06_OBK-SOP-LS_Dich_vu_phap_ly]] | Cấp 2, quy trình bộ phận | R.1.0.0 | đang áp dụng | CEO | CEO | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
+| [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] | [[06_OBK-SOP-LS_Dich_vu_phap_ly]] | Cấp 2, quy trình bộ phận | R.1.0.1 | đang áp dụng | CEO | CEO | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[07_Giu_khach_va_mo_rong\|OBK-HB-37]] | [[07_Giu_khach_va_mo_rong]] | Cấp 3, hướng dẫn nghiệp vụ | R.1.0.0 | đang áp dụng | CEO; đã soát | CEO | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
-| [[07_OBK-SOP-RD_Nghien_cuu_phap_ly\|OBK-SOP-RD]] | [[07_OBK-SOP-RD_Nghien_cuu_phap_ly]] | Cấp 2, quy trình bộ phận | R.1.0.0 | đang áp dụng | CEO | CEO | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
+| [[07_OBK-SOP-RD_Nghien_cuu_phap_ly\|OBK-SOP-RD]] | [[07_OBK-SOP-RD_Nghien_cuu_phap_ly]] | Cấp 2, quy trình bộ phận | R.1.0.1 | đang áp dụng | CEO | CEO | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[08_Ket_thuc_va_ban_giao\|OBK-HB-38]] | [[08_Ket_thuc_va_ban_giao]] | Cấp 3, hướng dẫn nghiệp vụ | R.1.0.0 | đang áp dụng | CEO; đã soát | CEO | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[08_OBK-SOP-PM_Chuong_trinh_doi_tac_gioi_thieu_khach_hang\|OBK-SOP-PM]] | [[08_OBK-SOP-PM_Chuong_trinh_doi_tac_gioi_thieu_khach_hang]] | Cấp 2, quy trình bộ phận | R.1.0.0 | đang áp dụng | CEO; đã soát | CEO; đã phê duyệt | 01/10/2026 |  |
-| [[09_HD_Nghiep_vu_giay_phep_va_thu_tuc_doanh_nghiep\|OBK-HB-41]] | [[09_HD_Nghiep_vu_giay_phep_va_thu_tuc_doanh_nghiep]] | Cấp 3, hướng dẫn nghiệp vụ | R.1.0.0 | đang áp dụng | CEO; đã soát | CEO; đã phê duyệt | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
+| [[09_HD_Nghiep_vu_giay_phep_va_thu_tuc_doanh_nghiep\|OBK-HB-41]] | [[09_HD_Nghiep_vu_giay_phep_va_thu_tuc_doanh_nghiep]] | Cấp 3, hướng dẫn nghiệp vụ | R.1.0.1 | đang áp dụng | CEO; đã soát | CEO; đã phê duyệt | 30/09/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[10_HD_Nghiep_vu_tinh_luong_va_bao_hiem_xa_hoi\|OBK-HB-51]] | [[10_HD_Nghiep_vu_tinh_luong_va_bao_hiem_xa_hoi]] | Cấp 3, hướng dẫn nghiệp vụ | R.1.0.0 | đang áp dụng | CEO; đã soát | CEO; đã phê duyệt | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[11_HD_Ky_thuat_ra_soat_hop_dong_kinh_te\|OBK-HB-61]] | [[11_HD_Ky_thuat_ra_soat_hop_dong_kinh_te]] | Cấp 3, hướng dẫn nghiệp vụ | R.1.0.0 | đang áp dụng | CEO; đã soát | CEO; đã phê duyệt | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[12_HD_Phuong_phap_tra_cuu_va_cap_nhat_phap_luat\|OBK-HB-71]] | [[12_HD_Phuong_phap_tra_cuu_va_cap_nhat_phap_luat]] | Cấp 3, hướng dẫn nghiệp vụ | R.1.0.0 | đang áp dụng | CEO; đã soát | CEO; đã phê duyệt | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
-| [[13_OBK-SOP-MK_Marketing_va_phat_trien_nguon_khach_hang\|OBK-SOP-MK]] | [[13_OBK-SOP-MK_Marketing_va_phat_trien_nguon_khach_hang]] | Cấp 2, quy trình bộ phận | R.1.0.0 | đang áp dụng | CEO; đã soát | CEO; đã phê duyệt | 01/10/2026 |  |
+| [[13_OBK-SOP-MK_Marketing_va_phat_trien_nguon_khach_hang\|OBK-SOP-MK]] | [[13_OBK-SOP-MK_Marketing_va_phat_trien_nguon_khach_hang]] | Cấp 2, quy trình bộ phận | R.1.0.1 | đang áp dụng | CEO; đã soát | CEO; đã phê duyệt | 01/10/2026 |  |
 | [[PL_1_Can_cu_phap_ly\|OBK-SOP-PL1]] | [[PL_1_Can_cu_phap_ly]] | Phụ lục | R.1.0.0 | đang áp dụng | CEO; đã soát | CEO; đã phê duyệt | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[PL_2_Bang_tra_SLA\|OBK-SOP-PL2]] | [[PL_2_Bang_tra_SLA]] | Phụ lục | R.1.0.0 | đang áp dụng | CEO; đã soát | CEO; đã phê duyệt | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[PL_3_Ban_do_lien_ket_va_chuyen_tang\|OBK-SOP-PL3]] | [[PL_3_Ban_do_lien_ket_va_chuyen_tang]] | Phụ lục | R.1.0.0 | đang áp dụng | CEO; đã soát | CEO; đã phê duyệt | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[PL_A_Cau_chu_mau\|OBK-HB-31-PL-A]] | [[PL_A_Cau_chu_mau]] | Phụ lục | R.1.0.0 | đang áp dụng | CEO; đã soát | CEO | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[PL_HD_Mau_hop_dong_dich_vu_khung\|OBK-SOP-AM-PL2]] | [[PL_HD_Mau_hop_dong_dich_vu_khung]] | Phụ lục | R.1.0.0 | đang áp dụng | CEO; đã soát | CEO; đã phê duyệt | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
-| [[PL_LIC_01_Quy_trinh_giay_phep_chuyen_nganh_va_so_huu_tri_tue\|OBK-SOP-LIC-PL-01]] | [[PL_LIC_01_Quy_trinh_giay_phep_chuyen_nganh_va_so_huu_tri_tue]] | Phụ lục | R.1.0.0 | đang áp dụng | CEO | CEO | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
+| [[PL_LIC_01_Quy_trinh_giay_phep_chuyen_nganh_va_so_huu_tri_tue\|OBK-SOP-LIC-PL-01]] | [[PL_LIC_01_Quy_trinh_giay_phep_chuyen_nganh_va_so_huu_tri_tue]] | Phụ lục | R.1.0.1 | đang áp dụng | CEO | CEO | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[PL_PM_Dieu_kien_thuong_mai_chuan\|OBK-SOP-PM-PL1]] | [[PL_PM_Dieu_kien_thuong_mai_chuan]] | Phụ lục | R.1.0.0 | đang áp dụng | CEO; đã soát | CEO; đã phê duyệt | 01/10/2026 |  |
 
 ## Handbook Kế toán
@@ -199,24 +199,24 @@ Thư mục `09_TnC`, 20 tài liệu.
 | Mã | Tài liệu | Cấp | Bản | Trạng thái | Người soát và tình trạng | Người phê duyệt và tình trạng | Ngày biên soạn | Rà soát tiếp theo |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | không có mã | [[00_README_Index]] |  | R.1.0.0 | đang áp dụng |  |  |  |  |
-| không có mã | [[00_TnC_Master_EN]] |  | R.1.1.0 | đang áp dụng |  |  |  |  |
-| không có mã | [[00_TnC_Master_VI]] |  | R.1.1.0 | đang áp dụng |  |  |  |  |
+| không có mã | [[00_TnC_Master_EN]] |  | R.1.1.1 | đang áp dụng |  |  |  |  |
+| không có mã | [[00_TnC_Master_VI]] |  | R.1.1.1 | đang áp dụng |  |  |  |  |
 | không có mã | [[01_Licensing_EN]] |  | R.1.0.0 | đang áp dụng |  |  |  |  |
 | không có mã | [[01_Licensing_VI]] |  | R.1.0.0 | đang áp dụng |  |  |  |  |
-| không có mã | [[02_Accounting_Tax_EN]] |  | R.1.1.0 | đang áp dụng |  |  |  |  |
-| không có mã | [[02_Accounting_Tax_VI]] |  | R.1.1.0 | đang áp dụng |  |  |  |  |
+| không có mã | [[02_Accounting_Tax_EN]] |  | R.1.1.1 | đang áp dụng |  |  |  |  |
+| không có mã | [[02_Accounting_Tax_VI]] |  | R.1.1.1 | đang áp dụng |  |  |  |  |
 | không có mã | [[03_HR_Payroll_EN]] |  | R.1.0.0 | đang áp dụng |  |  |  |  |
 | không có mã | [[03_HR_Payroll_VI]] |  | R.1.0.0 | đang áp dụng |  |  |  |  |
 | không có mã | [[04_Legal_Services_EN]] |  | R.1.1.0 | đang áp dụng |  |  |  |  |
 | không có mã | [[04_Legal_Services_VI]] |  | R.1.1.0 | đang áp dụng |  |  |  |  |
-| không có mã | [[05_Client_Guide_EN]] |  | R.1.1.0 | đang áp dụng |  |  |  |  |
-| không có mã | [[05_Client_Guide_VI]] |  | R.1.1.0 | đang áp dụng |  |  |  |  |
+| không có mã | [[05_Client_Guide_EN]] |  | R.1.1.1 | đang áp dụng |  |  |  |  |
+| không có mã | [[05_Client_Guide_VI]] |  | R.1.1.1 | đang áp dụng |  |  |  |  |
 | không có mã | [[06_Data_Protection_EN]] |  | R.1.0.0 | đang áp dụng |  |  |  |  |
 | không có mã | [[06_Data_Protection_VI]] |  | R.1.0.0 | đang áp dụng |  |  |  |  |
 | không có mã | [[07_Wallet_EN]] |  | R.1.0.0 | đang áp dụng |  |  |  |  |
 | không có mã | [[07_Wallet_VI]] |  | R.1.0.0 | đang áp dụng |  |  |  |  |
-| không có mã | [[08_Framework_Agreement_EN]] |  | R.1.1.0 | đang áp dụng |  |  |  |  |
-| không có mã | [[08_Framework_Agreement_VI]] |  | R.1.1.0 | đang áp dụng |  |  |  |  |
+| không có mã | [[08_Framework_Agreement_EN]] |  | R.1.1.1 | đang áp dụng |  |  |  |  |
+| không có mã | [[08_Framework_Agreement_VI]] |  | R.1.1.1 | đang áp dụng |  |  |  |  |
 | không có mã | [[GLOSSARY]] |  | R.1.1.0 | đang áp dụng |  |  |  |  |
 
 ## Danh mục dịch vụ và bảng giá
@@ -245,7 +245,7 @@ Thư mục `11_NhanSu`, 14 tài liệu.
 | [[01_Khung_nhan_su_tong_hop\|OBK-QCNS-01]] | [[01_Khung_nhan_su_tong_hop]] | Cấp 2, quy trình bộ phận | R.1.0.0 | đang áp dụng | CEO; đã soát | CEO; đã phê duyệt | 01/10/2026 | Không quá 06 tháng kể từ ngày ban hành |
 | [[02_Chuong_trinh_tang_luong_dinh_ky\|OBK-QCNS-02]] | [[02_Chuong_trinh_tang_luong_dinh_ky]] | Cấp 2, quy trình bộ phận | R.1.0.0 | đang áp dụng | CEO; đã soát | CEO; đã phê duyệt | 01/10/2026 | Không quá 06 tháng kể từ ngày ban hành |
 | [[02_Quy_che_tien_luong_va_tien_thuong_noi_bo\|OBK-QCNS-02]] | [[02_Quy_che_tien_luong_va_tien_thuong_noi_bo]] | Cấp 1, văn bản KHUNG toàn công ty | R.1.0.0 | đang áp dụng | CEO; đã soát | CEO; đã phê duyệt | 01/10/2026 | Không quá 06 tháng kể từ ngày ban hành |
-| [[03_Mo_hinh_van_hanh_bon_muc_kiem_soat_va_ma_tran_RACI\|OBK-QCNS-03]] | [[03_Mo_hinh_van_hanh_bon_muc_kiem_soat_va_ma_tran_RACI]] | Cấp 2, quy trình bộ phận | R.2.0.0 | đang áp dụng | CEO; đã soát | CEO; đã phê duyệt | 01/10/2026 | Không quá 06 tháng kể từ ngày ban hành |
+| [[03_Mo_hinh_van_hanh_bon_muc_kiem_soat_va_ma_tran_RACI\|OBK-QCNS-03]] | [[03_Mo_hinh_van_hanh_bon_muc_kiem_soat_va_ma_tran_RACI]] | Cấp 2, quy trình bộ phận | R.2.0.1 | đang áp dụng | CEO; đã soát | CEO; đã phê duyệt | 30/09/2026 | Không quá 06 tháng kể từ ngày ban hành |
 | [[06_Chinh_sach_thuong_khong_dinh_ky\|OBK-QCNS-06]] | [[06_Chinh_sach_thuong_khong_dinh_ky]] | Cấp 2, quy trình bộ phận | R.1.0.0 | đang áp dụng | CEO; đã soát | CEO; đã phê duyệt | 01/10/2026 | Không quá 06 tháng kể từ ngày ban hành |
 | [[07_Chinh_sach_cong_chuan_va_cham_cong\|OBK-QCNS-07]] | [[07_Chinh_sach_cong_chuan_va_cham_cong]] | Cấp 2, quy trình bộ phận | R.1.0.0 | đang áp dụng | CEO; đã soát | CEO; đã phê duyệt | 01/10/2026 | Không quá 06 tháng kể từ ngày ban hành |
 | [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] | [[08_Khung_danh_gia_hieu_suat]] | Cấp 2, quy trình bộ phận | R.2.0.0 | đang áp dụng | CEO; đã soát | CEO; đã phê duyệt | 01/10/2026 | Không quá 06 tháng kể từ ngày ban hành |

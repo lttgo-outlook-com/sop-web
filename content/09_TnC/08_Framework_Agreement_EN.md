@@ -2,7 +2,7 @@
 title: "SERVICE AGREEMENT (FRAMEWORK; ELECTRONIC EXECUTION)"
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.1.0"
+version: "R.1.1.1"
 status: "đang áp dụng"
 language: "en"
 distribution: "Khách hàng"
@@ -50,7 +50,7 @@ Email: [___] · Phone: [___]
 | Entity type | [Vietnamese Enterprise / Foreign-Invested Enterprise (FDI)] |
 | Accounting standard applied | [Circular 58/2026/TT-BTC (micro VN) / Circular 99/2025/TT-BTC (FDI & growing VN)] |
 | Scope (applicable module) | [Accounting & Tax / HR / Licensing / Legal / …] |
-| Quotas & FUP thresholds | [Monthly quota: ___ transactions/mo; Headcount: ___ employees; Hard ceiling: 1,500 txn/mo (Growth)] |
+| Quotas & FUP thresholds | [Monthly quota: ___ transactions/mo; Headcount: ___ employees; Maximum: 1,500 txn/mo (Growth)] |
 | Service Fees | [___ VND / year (or quarter/month); VAT included/excluded] |
 | Term & minimum commitment | [per package / Q4 contracts commit through Dec 31 of next year (5 quarters)] |
 | **Payment model** | [**Prepaid** (default) / Postpaid / Prepaid via Wallet] |
@@ -154,4 +154,4 @@ Electronic signature / Payment confirmation: `[Client e-signature or payment tra
 
 | Date | Version | Description |
 | --- | --- | --- |
-| 01/10/2026 | R.1.1.0 | Synchronize Order Form template (FDI entity, Circular 58/99, FUP quotas, billing cycles), Q4 commitment, March 15 checkpoint and 3-month liability cap |
+| 01/10/2026 | R.1.1.1 | Wording: 'Hard ceiling' reworded to 'Maximum' in the Order Form template (Article 1) |

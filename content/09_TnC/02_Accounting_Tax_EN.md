@@ -2,7 +2,7 @@
 title: "ACCOUNTING & TAX SERVICE TERMS (PL-KT)"
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.1.0"
+version: "R.1.1.1"
 status: "đang áp dụng"
 language: "en"
 distribution: "Khách hàng"
@@ -16,7 +16,7 @@ tags:
 *Service-Specific Terms, an integral part of the Master T&C; oBacker Joint Stock Company*
 Tax code: 0402298185 · Floor 2, 06 Tran Phu Street, Hai Chau Ward, Da Nang, Vietnam · contact@obacker.com
 
-**Version:** R.1.1.0 (VI-EN) · **Updated:** 27 September 2026
+**Version:** R.1.1.1 (VI-EN) · **Updated:** 1 October 2026
 
 > These are the Service-Specific Terms for the Accounting & Tax Services (the "**Services**"), covering two components: (A) Accounting and (B) Corporate Tax (VAT, CIT, Foreign Contractor Tax (FCT), and e-invoices). They apply where the Services are recorded in the Order Form. **If these Terms differ from the Master T&C, these Terms prevail for the Services.**
 >
@@ -188,7 +188,7 @@ Service Fees are defined in the Order Form (by partner retainer package or actua
 
 **10.1. Fair Use Policy (FUP) & Overage Schedule:**
 - Transaction Thresholds: Partner Core (50 Transactions/month), Partner Growth (300 Transactions/month), Partner Prime (1,500 Transactions/month).
-- Growth Package Block Mechanism: Exceeding 300 Transactions incurs block surcharges: 500-Transaction block (`ADD-TXN-BLOCK-500`, VND 2,500,000/month), 1,000-Transaction block (`ADD-TXN-BLOCK-1000`, VND 5,000,000/month), and 1,500-Transaction block (`ADD-TXN-BLOCK-1500`, VND 7,500,000/month). Partner Growth applies a hard ceiling of 1,500 Transactions/month; exceeding volume requires transition to Partner Prime.
+- Growth Package Block Mechanism: Exceeding 300 Transactions incurs block surcharges: 500-Transaction block (`ADD-TXN-BLOCK-500`, VND 2,500,000/month), 1,000-Transaction block (`ADD-TXN-BLOCK-1000`, VND 5,000,000/month), and 1,500-Transaction block (`ADD-TXN-BLOCK-1500`, VND 7,500,000/month). Partner Growth applies a maximum of 1,500 Transactions/month; exceeding volume requires transition to Partner Prime.
 - Partner Prime Package: Standard baseline of 1,500 Transactions/month; excess volume above 1,500 Transactions is billed at VND 15,000/Transaction (`ADD-TXN-PRIME-OVER`).
 - Bank Accounts: Core (02 accounts), Growth (05 accounts). Surcharge from the 3rd account (Core) or 6th account (Growth) is VND 300,000/account/month (`ADD-BANK-ACC`).
 - Excess FCT Filings: VND 1,500,000/filing (`ADD-FCT-RETURN`).
@@ -207,6 +207,6 @@ Service Fees are defined in the Order Form (by partner retainer package or actua
 
 ## REVISION LOG
 
-| Date | Version | R.1.1.0, currently applicable |
+| Date | Version | Description |
 | --- | --- | --- |
-| 01/10/2026 | R.1.1.0 | Synchronize binary accounting standards (Circular 58 for micro VN, Circular 99 for 100% FDI), FCT quotas and audit representation |
+| 01/10/2026 | R.1.1.1 | Wording: Growth package 'hard ceiling' reworded to 'maximum' (Article 10); fix REVISION LOG header to Date/Version/Description |

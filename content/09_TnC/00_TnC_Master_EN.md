@@ -2,7 +2,7 @@
 title: "MASTER TERMS & CONDITIONS OF SERVICE (MASTER T&C)"
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.1.0"
+version: "R.1.1.1"
 status: "đang áp dụng"
 language: "en"
 distribution: "Khách hàng"
@@ -239,7 +239,7 @@ The workload and fees for Accounting services are determined by the number of Tr
 - **One Transaction equals one journal entry recorded in the accounting books**, corresponding to one valid purchase/sales invoice, **OR** one independent line item on a bank statement.
 - **Support policy (payroll batch grouping):** For journal entries relating to monthly salary payments to employees, if payment is made in **a single batch (batch payment)**, oBacker groups them and counts them together as **one Transaction**, rather than counting by the number of employees paid.
 
-The Transactions/month threshold for each package is stated in the Order Form. Periodic partner retainer packages (Partner Core, Partner Growth, Partner Prime) apply transaction volume quotas and a Fair Use Policy (FUP). Partner Growth applies a hard ceiling of 1,500 transactions/month; Partner Prime applies tailored volume blocks (1,500 to 7,000+ transactions/month). All overage fees and volume block extensions are reconciled and invoiced on a monthly post-billing schedule.
+The Transactions/month threshold for each package is stated in the Order Form. Periodic partner retainer packages (Partner Core, Partner Growth, Partner Prime) apply transaction volume quotas and a Fair Use Policy (FUP). Partner Growth applies a maximum of 1,500 transactions/month; Partner Prime applies tailored volume blocks (1,500 to 7,000+ transactions/month). All overage fees and volume block extensions are reconciled and invoiced on a monthly post-billing schedule.
 
 **Industry Complexity Multiplier & Hard Exclusions:** Standard catalog pricing applies to baseline industries (Services, General Trading, IT, Consulting, multiplier K = 1.0). F&B and retail chains carry multiplier K = 1.2; import-export and logistics carry K = 1.3; manufacturing, processing, and construction carry K = 1.5. oBacker strictly refuses services for excluded activities, including: cryptocurrency and virtual assets; unlicensed lending and pawn services; gambling and betting; debt collection; and weapons, explosives, or hazardous chemicals.
 
@@ -344,4 +344,4 @@ When oBacker processes the data of the Client's employees/shareholders under the
 
 | Date | Version | Description |
 | --- | --- | --- |
-| 01/10/2026 | R.1.1.0 | Update the 3-month liability cap boundary, the hard cap of 1,500 vouchers per month, the FUP mechanism, the FCT 3-agreements-per-month policy, on-site inspection and independent audit for FDI |
+| 01/10/2026 | R.1.1.1 | Wording: 'hard ceiling of 1,500 transactions' reworded to 'maximum of 1,500 transactions' (Article 15); Q4 commitment mechanism reworded (Article 16) |

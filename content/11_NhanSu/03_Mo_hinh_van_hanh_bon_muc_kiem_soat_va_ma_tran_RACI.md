@@ -4,9 +4,9 @@ code: "OBK-QCNS-03"
 type: "sop"
 folder: "11_NhanSu"
 level: "Cấp 2, quy trình bộ phận"
-version: "R.2.0.0"
+version: "R.2.0.1"
 status: "đang áp dụng"
-draft_date: "01/10/2026"
+draft_date: "30/09/2026"
 law_as_of: "Pháp luật có hiệu lực tại ngày 22/09/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -31,8 +31,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-QCNS-03 |
 | Cấp tài liệu | Cấp 2 |
-| Phiên bản | R.2.0.0, đang áp dụng |
-| Ngày biên soạn | 01/10/2026 |
+| Phiên bản | R.2.0.1, đang áp dụng |
+| Ngày biên soạn | 30/09/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 22/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -81,7 +81,7 @@ Ghi chú ký hiệu:
 
 Người làm: `CV-LIC`, `CV-KT`, `CV-LD`, `CV-LS` ở mọi cấp bậc chuyên môn.
 
-- Nhập liệu, soạn thảo hồ sơ, tính toán số liệu và tự kiểm tra đối chiếu theo Bảng kiểm nghiệp vụ chuẩn (Checklist).
+- Nhập liệu, soạn thảo hồ sơ, tính toán số liệu và tự kiểm tra đối chiếu theo Bảng kiểm nghiệp vụ chuẩn.
 - Tự kiểm tra 100% hồ sơ trước khi chuyển lên Trưởng nhóm. Không chuyển hồ sơ chưa hoàn thiện hoặc chưa qua bảng kiểm.
 - Chịu trách nhiệm trực tiếp về tính đầy đủ của tài liệu thu thập và tính chính xác của thao tác kỹ thuật ban đầu.
 
@@ -112,4 +112,4 @@ Người làm: `TL-LIC`, `TL-KT`, `TL-LD`, `TL-LS`.
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.2.0.0 | Thu gọn mô hình kiểm soát từ 4 mức thành 2 cấp thực chất Maker làm và Checker Approver duyệt, COO thực hiện hậu kiểm xác suất |
+| 30/09/2026 | R.2.0.1 | Bỏ từ tiếng Anh kèm sau 'Bảng kiểm nghiệp vụ chuẩn' tại mục 3 Cấp 1 |

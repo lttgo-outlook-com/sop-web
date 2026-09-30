@@ -2,7 +2,7 @@
 title: "CẨM NANG LÀM VIỆC VỚI OBACKER"
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.1.0"
+version: "R.1.1.1"
 status: "đang áp dụng"
 language: "vi"
 distribution: "Khách hàng"
@@ -13,7 +13,7 @@ tags:
 # CẨM NANG LÀM VIỆC VỚI OBACKER
 ### Hướng dẫn dành cho Quý Khách
 
-**Phiên bản:** R.1.1.0 (VI-EN) · **Cập nhật:** 01/10/2026 · Áp dụng cho gói Partner Core, Partner Growth và Partner Prime
+**Phiên bản:** R.1.1.1 (VI-EN) · **Cập nhật:** 01/10/2026 · Áp dụng cho gói Partner Core, Partner Growth và Partner Prime
 
 > Tài liệu này là cẩm nang hướng dẫn nhằm giúp Quý Khách phối hợp với oBacker thuận lợi. Đây không phải là hợp đồng. Trường hợp có khác biệt giữa cẩm nang này và Hợp Đồng dịch vụ (Điều Khoản & Điều Kiện, Đơn Đặt Hàng và các Điều Khoản Dịch Vụ Cụ Thể), nội dung Hợp Đồng được áp dụng.
 
@@ -52,7 +52,7 @@ Công ty Cổ phần oBacker cung cấp dịch vụ vận hành doanh nghiệp c
 | Đơn giá tháng tương đương | 2.250.000đ | 7.000.000đ | Từ 15.000.000đ |
 | Phí áp dụng doanh nghiệp FDI | 40.500.000đ/năm (10.125.000đ/quý) | 113.400.000đ/năm (28.350.000đ/quý) | Thỏa thuận theo quy mô thực tế |
 | Kỳ thanh toán | Theo năm hoặc theo quý | Theo năm hoặc theo quý | Theo năm hoặc theo quý |
-| Định mức giao dịch mỗi tháng | 50 (VN) / 100 (FDI) | 300 (trần cứng 1.500 qua block) | Từ 1.500 đến 7.000+ chứng từ |
+| Định mức giao dịch mỗi tháng | 50 (VN) / 100 (FDI) | 300 (mức tối đa 1.500 qua block) | Từ 1.500 đến 7.000+ chứng từ |
 | Định mức nhân sự tính lương/BHXH | Dưới 10 (VN) / 3 (FDI) | Dưới 30 | Dưới 50 |
 | Chế độ kế toán áp dụng | TT 58/2026 (VN) / TT 99/2025 (FDI) | TT 99/2025/TT-BTC | TT 99/2025/TT-BTC |
 | Ghi sổ kế toán và BCTC năm | Có | Có | Có |
@@ -63,7 +63,7 @@ Công ty Cổ phần oBacker cung cấp dịch vụ vận hành doanh nghiệp c
 | Hạn mức thay đổi ĐKKD và văn bản nội bộ | Không | 2 lần ĐKKD/năm; 6 VB/năm | 4 lần ĐKKD/năm; 12 VB/năm |
 | Cán bộ phụ trách chuyên biệt | Chung | Chung | Dedicated Account Manager |
 
-Khi doanh nghiệp phát sinh vượt trần giao dịch hoặc vượt định mức, oBacker áp dụng cơ chế FUP (Fair Use Policy) và các gói mở rộng Block giao dịch (ADD-TXN-100, ADD-TXN-500, ADD-TXN-1K, ADD-TXN-PRIME-OVER). Doanh nghiệp vượt 1.500 giao dịch/tháng bắt buộc nâng lên gói Partner Prime hoặc hợp đồng may đo riêng.
+Khi doanh nghiệp phát sinh vượt mức tối đa giao dịch hoặc vượt định mức, oBacker áp dụng cơ chế FUP (Fair Use Policy) và các gói mở rộng Block giao dịch (ADD-TXN-100, ADD-TXN-500, ADD-TXN-1K, ADD-TXN-PRIME-OVER). Doanh nghiệp vượt 1.500 giao dịch/tháng bắt buộc nâng lên gói Partner Prime hoặc hợp đồng may đo riêng.
 
 ## 4. Lộ trình năm tuần đầu tiên
 
@@ -214,7 +214,7 @@ Sau giai đoạn thiết lập ban đầu, việc phối hợp đi vào lịch c
 
 | Thời điểm | oBacker gửi | Quý Khách thực hiện |
 |---|---|---|
-| Ngày 1 và ngày 5 | Thu thập số liệu tháng trước: sao kê tất cả tài khoản, hợp đồng mới, hóa đơn đầu vào và đầu ra | Phản hồi kèm đầy đủ tệp. Nếu gửi sau ngày 05, cam kết thời hạn của oBacker tạm thời đình chỉ theo Điều 5.4(b) Bản Điều Khoản Chung; oBacker tạm kê khai theo số liệu hiện có hoặc nộp tờ khai trống để bảo đảm hạn nộp của nhà nước, Quý Khách chịu mọi rủi ro phạt nộp chậm và chi phí kê khai điều chỉnh bổ sung sau đó |
+| Ngày 1 và ngày 5 | Thu thập số liệu tháng trước: sao kê tất cả tài khoản, hợp đồng mới, hóa đơn đầu vào và đầu ra | Phản hồi kèm đầy đủ tệp. Nếu gửi sau ngày 05, cam kết thời hạn của oBacker tạm thời đình chỉ theo Điều 5.4(b) Bản Điều Khoản Chung; oBacker tạm kê khai theo số liệu hiện có hoặc nộp tờ khai trống để bảo đảm hạn nộp của nhà nước, Quý Khách chịu mọi rủi ro bị xử phạt nộp chậm và chi phí kê khai điều chỉnh bổ sung sau đó |
 | Ngày 20 | Chuẩn bị kỳ lương: hỏi thông tin biến động nhân sự | Phản hồi thông tin biến động;<br>nếu không có biến động vẫn xác nhận "không có biến động" |
 | Ngày 15 và ngày 25 | Thông báo số tiền bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp phải đóng của kỳ tháng trước, kèm mẫu C12 | Đóng đúng số tiền và đúng mã đơn vị oBacker nêu, trước thời hạn của cơ quan bảo hiểm xã hội (thường là ngày cuối tháng);<br>đóng theo số tiền trong thư, không đóng theo số trên mẫu C12 nếu hai số khác nhau |
 
@@ -256,7 +256,7 @@ Phản hồi ngay trên thư điện tử chứa báo cáo đó, nêu rõ sai s�
 Gửi thư điện tử tới người phụ trách tài khoản hoặc contact@obacker.com. oBacker gửi phụ lục hợp đồng trong ba ngày làm việc; việc nâng gói có hiệu lực từ kỳ báo cáo tiếp theo. Phí tháng đầu sau khi nâng gói tính theo gói mới, không hoàn trả phí gói cũ đã thanh toán.
 
 **Doanh nghiệp vượt ngưỡng giao dịch hoặc nhân sự của gói đang dùng thì sao?**
-oBacker áp dụng chính sách sử dụng hợp lý (FUP). Khi chạm hoặc vượt ngưỡng định mức tháng, oBacker thông báo và đối soát xuất hóa đơn phụ phí các gói bổ sung chứng từ (ADD-TXN-100, ADD-TXN-500, ADD-TXN-1K). Doanh nghiệp vượt trần cứng 1.500 giao dịch/tháng bắt buộc phải nâng lên gói Partner Prime hoặc thỏa thuận hợp đồng dịch vụ riêng.
+oBacker áp dụng chính sách sử dụng hợp lý (FUP). Khi chạm hoặc vượt ngưỡng định mức tháng, oBacker thông báo và đối soát xuất hóa đơn phụ phí các gói bổ sung chứng từ (ADD-TXN-100, ADD-TXN-500, ADD-TXN-1K). Doanh nghiệp vượt mức tối đa 1.500 giao dịch/tháng bắt buộc phải nâng lên gói Partner Prime hoặc thỏa thuận hợp đồng dịch vụ riêng.
 
 **Tôi cần xử lý tranh chấp với một nhân viên cũ, oBacker có hỗ trợ không?**
 Không. Tranh chấp lao động thuộc nhóm ngoài phạm vi dịch vụ (Mục 8). oBacker có thể giới thiệu luật sư chuyên về lao động nếu Quý Khách yêu cầu.
@@ -301,4 +301,4 @@ oBacker bàn giao toàn bộ sổ sách, hồ sơ và thông tin đăng nhập h
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.1.0 | Cập nhật bảng so sánh ba gói đối tác Partner Core, Growth, Prime, cơ chế FUP và biểu phí phụ thu FDI +25% |
+| 01/10/2026 | R.1.1.1 | Đổi từ ngữ: cách gọi định mức giao dịch (mục 3, mục 13) viết lại bằng 'mức tối đa'; cụm rủi ro (mục 11) viết lại bằng 'rủi ro bị xử phạt nộp chậm' |
