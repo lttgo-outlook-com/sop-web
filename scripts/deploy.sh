@@ -42,6 +42,7 @@ gcloud run deploy "${SERVICE_NAME}" \
   --platform=managed \
   --port=8080 \
   --no-default-url \
+  --no-iap \
   --set-env-vars "BASE_URL=${BASE_URL},GOOGLE_CLIENT_ID=${GOOGLE_CLIENT_ID},GOOGLE_CLIENT_SECRET=${GOOGLE_CLIENT_SECRET},OAUTH_HMAC_KEY=${OAUTH_HMAC_KEY},EMAIL_DOMAIN=obacker.com" \
   --min-instances=0 \
   --max-instances=5 \
