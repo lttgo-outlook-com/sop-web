@@ -2,6 +2,7 @@ import { FullSlug, isFolderPath, resolveRelative } from "../util/path"
 import { QuartzPluginData } from "../plugins/vfile"
 import { Date, getDate } from "./Date"
 import { QuartzComponent, QuartzComponentProps } from "./types"
+import { docStatus, docVersion, statusTone } from "./StatusBadge"
 import { GlobalConfiguration } from "../cfg"
 
 export type SortFn = (f1: QuartzPluginData, f2: QuartzPluginData) => number
@@ -69,6 +70,8 @@ export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, sort
       {list.map((page) => {
         const title = page.frontmatter?.title
         const tags = page.frontmatter?.tags ?? []
+        const version = docVersion(page.frontmatter)
+        const status = docStatus(page.frontmatter)
 
         return (
           <li class="section-li">
@@ -86,6 +89,13 @@ export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, sort
                     <Date date={getDate(cfg, page)!} locale={cfg.locale} />
                   </span>
                 )}
+                {version || status ? (
+                  <span class={`meta doc-meta tone-${statusTone(status)}`}>
+                    {version && <span class="doc-meta-version">{version}</span>}
+                    {version && status && <span aria-hidden="true"> · </span>}
+                    {status && <span class="doc-meta-status">{status}</span>}
+                  </span>
+                ) : null}
                 {tags.length > 0 && (
                   <ul class="tags">
                     {tags.map((tag) => (

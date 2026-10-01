@@ -36,8 +36,15 @@ const defaultOptions: BreadcrumbOptions = {
 }
 
 function formatCrumb(displayName: string, baseSlug: FullSlug, currentSlug: SimpleSlug): CrumbData {
+  // Folder slug dạng "04_Handbook_KeToan" → hiển thị gọn: bỏ prefix thứ tự "04_",
+  // dấu _ và - thành khoảng trắng. (Tên trang từ frontmatter đã là tiếng Việt, không đổi.)
+  const cleanName = displayName
+    .replace(/^\d+_/, "")
+    .replace(/[_-]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim()
   return {
-    displayName: displayName.replaceAll("-", " "),
+    displayName: cleanName,
     path: resolveRelative(baseSlug, currentSlug),
   }
 }

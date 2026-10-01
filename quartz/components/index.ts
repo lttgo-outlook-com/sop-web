@@ -26,6 +26,7 @@ import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
 import LegalNav from "./LegalNav"
 import KeyboardShortcuts from "./KeyboardShortcuts"
+import StatusBadge from "./StatusBadge"
 
 export {
   ArticleTitle,
@@ -56,4 +57,5 @@ export {
   ConditionalRender,
   LegalNav,
   KeyboardShortcuts,
+  StatusBadge,
 }

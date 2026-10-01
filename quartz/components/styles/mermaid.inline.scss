@@ -9,7 +9,7 @@
   border-color: var(--dark);
   background-color: var(--light);
   border: 1px solid;
-  border-radius: 5px;
+  border-radius: 4px;
   opacity: 0;
   transition: 0.2s;
 
@@ -45,7 +45,6 @@ pre {
   height: 100vh;
   overflow: hidden;
   display: none;
-  backdrop-filter: blur(4px);
   background: rgba(0, 0, 0, 0.5);
 
   &.active {
@@ -55,7 +54,7 @@ pre {
   & > #mermaid-space {
     border: 1px solid var(--lightgray);
     background-color: var(--light);
-    border-radius: 5px;
+    border-radius: 4px;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -92,8 +91,8 @@ pre {
       padding: 8px;
       background: var(--light);
       border: 1px solid var(--lightgray);
-      border-radius: 6px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      border-radius: 4px;
+      box-shadow: var(--shadow-btn-secondary);
       z-index: 2;
 
       .mermaid-control-button {
@@ -108,7 +107,7 @@ pre {
         color: var(--dark);
         border-radius: 4px;
         cursor: pointer;
-        font-size: 16px;
+        font-size: 14px;
         font-family: var(--bodyFont);
         transition: all 0.2s ease;
 

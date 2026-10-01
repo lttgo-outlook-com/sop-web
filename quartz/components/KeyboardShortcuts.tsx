@@ -48,14 +48,6 @@ document.addEventListener("nav", () => {
       return
     }
 
-    // 't' or 'T' toggles theme
-    if (e.key === "t" || e.key === "T") {
-      e.preventDefault()
-      const darkmodeBtn = document.querySelector(".darkmode")
-      if (darkmodeBtn) darkmodeBtn.click()
-      return
-    }
-
     // '/' opens search
     if (e.key === "/") {
       e.preventDefault()
@@ -98,7 +90,12 @@ document.addEventListener("nav", () => {
 const KeyboardShortcuts: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
   return (
     <div class={classNames(displayClass, "shortcuts-bottom-bar")}>
-      <button id="shortcuts-trigger" class="shortcuts-pill" type="button" aria-label="Phím tắt hệ thống">
+      <button
+        id="shortcuts-trigger"
+        class="shortcuts-pill"
+        type="button"
+        aria-label="Phím tắt hệ thống"
+      >
         <kbd>?</kbd>
         <span>Phím tắt</span>
       </button>
@@ -114,26 +111,41 @@ const KeyboardShortcuts: QuartzComponent = ({ displayClass }: QuartzComponentPro
         <div class="shortcuts-card">
           <div class="shortcuts-header">
             <h4 id="shortcuts-heading">Phím tắt</h4>
-            <button id="shortcuts-close" class="shortcuts-close-icon" type="button" aria-label="Đóng">✕</button>
+            <button
+              id="shortcuts-close"
+              class="shortcuts-close-icon"
+              type="button"
+              aria-label="Đóng"
+            >
+              ✕
+            </button>
           </div>
           <div class="shortcuts-content">
             <div class="shortcuts-section">
               <span class="shortcuts-section-title">Điều hướng</span>
               <div class="shortcut-line">
                 <span>Trang chủ</span>
-                <div class="shortcut-tags"><kbd>G</kbd> <kbd>H</kbd></div>
+                <div class="shortcut-tags">
+                  <kbd>G</kbd> <kbd>H</kbd>
+                </div>
               </div>
               <div class="shortcut-line">
                 <span>Sổ Căn cứ pháp lý</span>
-                <div class="shortcut-tags"><kbd>G</kbd> <kbd>C</kbd></div>
+                <div class="shortcut-tags">
+                  <kbd>G</kbd> <kbd>C</kbd>
+                </div>
               </div>
               <div class="shortcut-line">
                 <span>Trạng thái ban hành</span>
-                <div class="shortcut-tags"><kbd>G</kbd> <kbd>T</kbd></div>
+                <div class="shortcut-tags">
+                  <kbd>G</kbd> <kbd>T</kbd>
+                </div>
               </div>
               <div class="shortcut-line">
                 <span>Nhật ký sửa đổi</span>
-                <div class="shortcut-tags"><kbd>G</kbd> <kbd>N</kbd></div>
+                <div class="shortcut-tags">
+                  <kbd>G</kbd> <kbd>N</kbd>
+                </div>
               </div>
             </div>
 
@@ -141,19 +153,21 @@ const KeyboardShortcuts: QuartzComponent = ({ displayClass }: QuartzComponentPro
               <span class="shortcuts-section-title">Thao tác</span>
               <div class="shortcut-line">
                 <span>Tìm kiếm toàn văn</span>
-                <div class="shortcut-tags"><kbd>⌘K</kbd> / <kbd>/</kbd></div>
-              </div>
-              <div class="shortcut-line">
-                <span>Chế độ Sáng / Tối</span>
-                <div class="shortcut-tags"><kbd>T</kbd></div>
+                <div class="shortcut-tags">
+                  <kbd>⌘K</kbd> / <kbd>/</kbd>
+                </div>
               </div>
               <div class="shortcut-line">
                 <span>Mở bảng phím tắt</span>
-                <div class="shortcut-tags"><kbd>?</kbd></div>
+                <div class="shortcut-tags">
+                  <kbd>?</kbd>
+                </div>
               </div>
               <div class="shortcut-line">
                 <span>Đóng cửa sổ</span>
-                <div class="shortcut-tags"><kbd>Esc</kbd></div>
+                <div class="shortcut-tags">
+                  <kbd>Esc</kbd>
+                </div>
               </div>
             </div>
           </div>
@@ -182,14 +196,8 @@ KeyboardShortcuts.css = `
   font-size: 0.72rem;
   color: #64748b;
   cursor: pointer;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+  box-shadow: var(--shadow-subtle);
   transition: all 0.15s ease;
-}
-
-:root[saved-theme="dark"] .shortcuts-pill {
-  background-color: #1e293b;
-  border-color: #334155;
-  color: #94a3b8;
 }
 
 .shortcuts-pill:hover {
@@ -198,18 +206,13 @@ KeyboardShortcuts.css = `
   color: #0f172a;
 }
 
-:root[saved-theme="dark"] .shortcuts-pill:hover {
-  background-color: #334155;
-  color: #f8fafc;
-}
-
 .shortcuts-pill kbd {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   width: 14px;
   height: 14px;
-  border-radius: 3px;
+  border-radius: 2px;
   background-color: #f1f5f9;
   border: 1px solid #cbd5e1;
   font-family: var(--codeFont);
@@ -219,18 +222,11 @@ KeyboardShortcuts.css = `
   line-height: 1;
 }
 
-:root[saved-theme="dark"] .shortcuts-pill kbd {
-  background-color: #0f172a;
-  border-color: #475569;
-  color: #cbd5e1;
-}
-
 .shortcuts-overlay {
   position: fixed !important;
   inset: 0 !important;
   z-index: 99999 !important;
   background-color: rgba(15, 23, 42, 0.5) !important;
-  backdrop-filter: blur(4px) !important;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -239,18 +235,13 @@ KeyboardShortcuts.css = `
 
 .shortcuts-card {
   background-color: #ffffff;
-  border-radius: 10px;
+  border-radius: 4px;
   border: 1px solid #e2e8f0;
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.15), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--shadow-arch-lg);
   width: 100%;
   max-width: 360px;
   overflow: hidden;
   animation: cardPop 0.15s cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-:root[saved-theme="dark"] .shortcuts-card {
-  background-color: #1e293b;
-  border-color: #334155;
 }
 
 @keyframes cardPop {
@@ -267,20 +258,11 @@ KeyboardShortcuts.css = `
   background-color: #f8fafc;
 }
 
-:root[saved-theme="dark"] .shortcuts-header {
-  background-color: #0f172a;
-  border-bottom-color: #334155;
-}
-
 .shortcuts-header h4 {
   margin: 0;
   font-size: 0.82rem;
   font-weight: 700;
   color: #0f172a;
-}
-
-:root[saved-theme="dark"] .shortcuts-header h4 {
-  color: #f8fafc;
 }
 
 .shortcuts-close-icon {
@@ -296,11 +278,6 @@ KeyboardShortcuts.css = `
 .shortcuts-close-icon:hover {
   background-color: #e2e8f0;
   color: #0f172a;
-}
-
-:root[saved-theme="dark"] .shortcuts-close-icon:hover {
-  background-color: #334155;
-  color: #f8fafc;
 }
 
 .shortcuts-content {
@@ -330,11 +307,6 @@ KeyboardShortcuts.css = `
   border-bottom: 1px solid #f8fafc;
 }
 
-:root[saved-theme="dark"] .shortcut-line {
-  color: #cbd5e1;
-  border-bottom-color: #273549;
-}
-
 .shortcut-line:last-child {
   border-bottom: none;
 }
@@ -352,7 +324,7 @@ KeyboardShortcuts.css = `
   min-width: 1.3rem;
   height: 1.2rem;
   padding: 0 0.3rem;
-  border-radius: 3px;
+  border-radius: 2px;
   background-color: #f1f5f9;
   border: 1px solid #cbd5e1;
   font-family: var(--codeFont);
@@ -360,12 +332,6 @@ KeyboardShortcuts.css = `
   font-weight: 600;
   color: #0f172a;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
-}
-
-:root[saved-theme="dark"] .shortcut-tags kbd {
-  background-color: #0f172a;
-  border-color: #475569;
-  color: #f8fafc;
 }
 `
 

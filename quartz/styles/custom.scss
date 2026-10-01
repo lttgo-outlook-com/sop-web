@@ -117,10 +117,11 @@
   --ease-brand: cubic-bezier(0.16, 1, 0.3, 1);
 
   // Chữ
-  --font-brand: "Be Vietnam Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, Helvetica, Arial, sans-serif;
-  --font-mono: "SF Mono", ui-monospace, "Cascadia Code", "JetBrains Mono", Menlo,
-    Consolas, monospace;
+  --font-brand:
+    "Be Vietnam Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
+  --font-mono:
+    "SF Mono", ui-monospace, "Cascadia Code", "JetBrains Mono", Menlo, Consolas, monospace;
 
   // Header
   --admin-header-h: 64px;
@@ -152,8 +153,7 @@ button,
 a,
 input,
 select {
-  transition-property: color, background-color, border-color, box-shadow,
-    transform, opacity;
+  transition-property: color, background-color, border-color, box-shadow, transform, opacity;
   transition-timing-function: var(--ease-brand);
   transition-duration: 150ms;
 }
@@ -265,6 +265,83 @@ select {
     // !important: base.scss đặt padding: 0 với specificity cao hơn
     padding: 16px 16px 16px 20px !important;
   }
+
+  // AdminHeader là position: fixed — wrapper <header> của Quartz phải là zero-height,
+  // không được giữ margin 2rem (gây vệt canvas trống đầu card, nhất là mobile)
+  > header {
+    display: block;
+    margin: 0 !important;
+    padding: 0;
+    height: 0;
+    min-height: 0;
+  }
+}
+
+// Tiêu đề inline để StatusBadge đứng ngay cạnh tiêu đề
+.page-header h1.article-title {
+  display: inline-block;
+}
+
+// StatusBadge — 11px/600 UPPERCASE, vạch trái 3.5px, radius 0, chữ + màu (không chỉ màu)
+.status-badge {
+  display: inline-block;
+  vertical-align: baseline;
+  margin-left: 10px;
+  padding: 2px 8px;
+  font-size: 11px;
+  line-height: 14px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--slate-700);
+  background: var(--slate-50);
+  border: 1px solid var(--border-hair);
+  border-left: 3.5px solid var(--slate-400);
+  border-radius: 0;
+  white-space: nowrap;
+
+  .status-badge-version {
+    font-family: var(--font-mono);
+    font-weight: 600;
+  }
+
+  .status-badge-sep {
+    margin: 0 4px;
+    color: var(--slate-400);
+  }
+
+  &.tone-success {
+    color: var(--success-800);
+    background: var(--success-50);
+    border-left-color: var(--success-500);
+
+    .status-badge-sep {
+      color: var(--success-600);
+    }
+  }
+
+  &.tone-warning {
+    color: var(--warning-900);
+    background: var(--warning-50);
+    border-left-color: var(--warning-500);
+
+    .status-badge-sep {
+      color: var(--warning-600);
+    }
+  }
+
+  &:hover {
+    background: var(--obk-blue-tint);
+    color: var(--obk-blue);
+    border-left-color: var(--obk-blue);
+  }
+}
+
+// Tiêu đề trùng: .page-header đã có h1.article-title (từ frontmatter) —
+// ẩn h1 thứ nhất của markdown trong article, vẫn giữ trong DOM cho anchor TOC.
+// Chỉ áp khi card header thực sự có tiêu đề (tránh 404 / trang không có .article-title).
+.center:has(> .page-header .article-title) > article > h1:first-child {
+  display: none;
 }
 
 .breadcrumb-container {
@@ -547,6 +624,124 @@ article table {
   }
 }
 
+// Bảng nhiều cột (vd. "Trạng thái ban hành" — 9 cột): không ép co cụm —
+// cột có min-width nên bảng rộng hơn container và .table-container cuộn ngang.
+// (specificity cao hơn rule .table-container của base.scss)
+article .table-container table {
+  th {
+    min-width: 112px;
+  }
+
+  td {
+    min-width: 96px;
+  }
+
+  &:has(> thead > tr > th:nth-child(6)) {
+    min-width: 1000px;
+  }
+}
+
+// Affordance cuộn ngang: bảng >= 6 cột luôn overflow (min-width 1000px) nên
+// cạnh phải mờ dần báo "còn cột bên phải". Inset shadow bám khung container
+// cố định (không cuộn theo nội dung bên trong).
+article .table-container:has(> table > thead > tr > th:nth-child(6)) {
+  box-shadow: inset -24px 0 24px -24px rgba(15, 23, 42, 0.2);
+}
+
+// ------------------------------------------
+// Trang 404 — trang độc lập: 1 cột, không sidebar, bỏ card header rỗng,
+// nội dung căn giữa. (Asset absolute — xem AdminHeader — nên render đúng ở mọi depth.)
+// ------------------------------------------
+body[data-slug="404"] {
+  // Bỏ grid 3 cột của Quartz: 404 không có sidebar, cần 1 khối căn giữa sạch.
+  #quartz-body {
+    display: block !important;
+  }
+
+  .sidebar.left,
+  .sidebar.right {
+    display: none !important;
+  }
+
+  .center {
+    max-width: 600px !important;
+    margin: 0 auto !important;
+  }
+
+  // Card .page-header chỉ còn AdminHeader (fixed, tự tách lên trên) → bỏ vỏ card, giữ logo.
+  .page-header {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow: visible;
+
+    &::before {
+      display: none;
+    }
+  }
+
+  article {
+    text-align: center;
+    padding-top: 3rem;
+
+    h1 {
+      font-size: 52px;
+      font-weight: 700;
+      line-height: 1.15;
+      letter-spacing: -0.025em;
+      color: var(--slate-900);
+      margin: 0 0 12px;
+    }
+
+    p {
+      font-size: 15px;
+      line-height: 26px;
+      color: var(--slate-600);
+      max-width: 44ch;
+      margin: 0 auto 24px;
+    }
+
+    > a {
+      display: inline-block;
+      padding: 8px 16px;
+      background: var(--obk-blue);
+      color: var(--primary-foreground);
+      font-size: 13px;
+      font-weight: 600;
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-btn-primary);
+      text-decoration: none;
+      transition:
+        background 150ms var(--ease-brand),
+        box-shadow 150ms var(--ease-brand),
+        transform 150ms var(--ease-brand);
+
+      &:hover {
+        background: var(--obk-blue-hover);
+        box-shadow: var(--shadow-btn-primary-hover);
+        transform: translateY(-1px);
+      }
+
+      &:active {
+        transform: translateY(1.5px);
+        box-shadow: none;
+      }
+    }
+  }
+
+  hr {
+    display: none;
+  }
+
+  // 404 là trạng thái lỗi độc lập — bỏ chân trang "Được tạo bằng Quartz" + link,
+  // chỉ giữ logo + thông báo + nút về trang chủ.
+  footer {
+    display: none !important;
+  }
+}
+
 // ------------------------------------------
 // Callout — mỗi ghi chú mang chữ + vạch màu đứng
 // ------------------------------------------
@@ -709,15 +904,27 @@ article table {
     overflow: visible;
   }
 
-  // Explorer mobile: giữ panel trong dòng (vô hiệu hoá drawer toàn màn hình của Quartz)
+  // Explorer mobile: panel NỘI TUYẾN thay vì drawer toàn màn hình của Quartz.
+  // Quartz ép .explorer thành thanh cố định 34px (flex: 0 0 34px) và biến
+  // .explorer-content thành drawer absolute 100dvh — vô hiệu hoá cả hai để cây
+  // tài liệu hiện ngay trong dòng, cuộn được, và thu gọn được bằng chevron.
   .explorer {
     order: 0 !important;
     margin: 0 !important;
-    max-height: 260px;
-    overflow-y: auto;
+    flex: 0 0 auto !important; // phá khoá 34px → tự co giãn theo nội dung
+    height: auto !important;
+    overflow: visible !important;
 
+    // Hamburger của Quartz: giữ "hiện diện" (checkVisibility → true) để handler
+    // nav tự thu gọn (.collapsed) khi load — mobile ưu tiên nội dung, mở theo yêu cầu.
+    // Nhưng vô hình & không chiếm chỗ layout (0 kích thước, absolute).
     > .mobile-explorer {
-      display: none !important;
+      position: absolute !important;
+      width: 0 !important;
+      height: 0 !important;
+      overflow: hidden !important;
+      padding: 0 !important;
+      margin: 0 !important;
     }
 
     > .title-button {
@@ -732,14 +939,21 @@ article table {
       width: auto !important;
       height: auto !important;
       max-width: none !important;
-      max-height: none !important;
-      padding: 0 !important;
-      margin-top: 0 !important;
-      background: #fff;
+      max-height: 320px !important; // cao tối đa, cuộn trong
+      overflow-y: auto !important;
+      padding: 0.35rem 0.25rem 0.5rem !important;
+      margin-top: 0.25rem !important;
+      background: transparent !important;
+      box-shadow: none !important;
     }
 
+    // Thu gọn: chỉ còn thanh tiêu đề, không giữ khoảng trống cho nội dung đã ẩn
     &.collapsed .explorer-content {
       display: none !important;
+    }
+    &.collapsed {
+      margin: 0 !important;
+      padding: 0 !important;
     }
   }
 }
@@ -1139,6 +1353,34 @@ button.readermode {
 
     .fold {
       display: none;
+    }
+  }
+
+  // Dòng meta phiên bản + trạng thái (trang thư mục / tag) — 12px, version mono
+  .meta-row .doc-meta {
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--slate-500);
+    white-space: nowrap;
+
+    .doc-meta-version {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--slate-600);
+    }
+
+    .doc-meta-status {
+      font-weight: 600;
+      color: var(--slate-500);
+    }
+
+    &.tone-success .doc-meta-status {
+      color: var(--success-800);
+    }
+
+    &.tone-warning .doc-meta-status {
+      color: var(--warning-900);
     }
   }
 }

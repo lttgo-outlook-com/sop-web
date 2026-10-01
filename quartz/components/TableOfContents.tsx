@@ -30,6 +30,13 @@ export default ((opts?: Partial<Options>) => {
       return null
     }
 
+    // Bỏ mục TOC trùng tiêu đề trang. Heading h1 (trùng frontmatter.title, đã hiện
+    // trong PageHeader) được Quartz chuẩn hoá về depth 0, nên chỉ lọc đúng mục top-level.
+    const title = (fileData.frontmatter?.title ?? "").trim()
+    const tocEntries = fileData.toc.filter(
+      (entry) => !(entry.depth === 0 && title !== "" && entry.text.trim() === title),
+    )
+
     const id = `toc-${numTocs++}`
     return (
       <div class={classNames(displayClass, "toc")}>
@@ -59,7 +66,7 @@ export default ((opts?: Partial<Options>) => {
           id={id}
           class={fileData.collapseToc ? "collapsed toc-content" : "toc-content"}
         >
-          {fileData.toc.map((tocEntry) => (
+          {tocEntries.map((tocEntry) => (
             <li key={tocEntry.slug} class={`depth-${tocEntry.depth}`}>
               <a href={`#${tocEntry.slug}`} data-for={tocEntry.slug}>
                 {tocEntry.text}

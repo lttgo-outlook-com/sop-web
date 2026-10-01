@@ -47,19 +47,11 @@ PageTitle.css = `
   display: block;
 }
 
-:root[saved-theme="dark"] .light-only {
-  display: none !important;
-}
-
-:root[saved-theme="dark"] .dark-only {
+.light-only {
   display: block !important;
 }
 
-:root:not([saved-theme="dark"]) .light-only {
-  display: block !important;
-}
-
-:root:not([saved-theme="dark"]) .dark-only {
+.dark-only {
   display: none !important;
 }
 
@@ -67,20 +59,14 @@ PageTitle.css = `
   font-size: 0.78rem;
   font-weight: 700;
   padding: 0.2rem 0.55rem;
-  border-radius: 6px;
-  background-color: #eff6ff;
-  color: #1d4ed8;
-  border: 1px solid #bfdbfe;
+  border-radius: 0;
+  background-color: var(--obk-blue-tint);
+  color: var(--obk-blue);
+  border: 1px solid var(--slate-300);
   letter-spacing: 0.05em;
   line-height: 1.1;
   display: inline-flex;
   align-items: center;
-}
-
-:root[saved-theme="dark"] .brand-badge {
-  background-color: rgba(59, 130, 246, 0.15);
-  color: #93c5fd;
-  border-color: rgba(59, 130, 246, 0.3);
 }
 
 .brand-pill {
@@ -91,13 +77,7 @@ PageTitle.css = `
   border: 1px solid #cbd5e1;
   padding: 0.18rem 0.55rem;
   border-radius: 9999px;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
-}
-
-:root[saved-theme="dark"] .brand-pill {
-  color: #cbd5e1;
-  background-color: #1e293b;
-  border-color: #475569;
+  box-shadow: var(--shadow-subtle);
 }
 `
 

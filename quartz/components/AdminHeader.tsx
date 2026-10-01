@@ -3,7 +3,9 @@ import { classNames } from "../util/lang"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
 const AdminHeader: QuartzComponent = ({ fileData, displayClass }: QuartzComponentProps) => {
-  const baseDir = pathToRoot(fileData.slug!)
+  // 404 được serve ở URL sâu bất kỳ bởi fallback server/nginx, nên path tương đối
+  // (./static/...) sẽ gãy — gắn logo/brand vào root tuyệt đối cho đúng mọi depth.
+  const baseDir = fileData.slug === "404" ? "/" : pathToRoot(fileData.slug!)
   return (
     <div class={classNames(displayClass, "admin-header")}>
       <div class="obk-strip" aria-hidden="true"></div>
