@@ -266,3 +266,40 @@ test("GET /mcp without session is a method-not-allowed error, not a crash", asyn
   })
   assert.ok(res.status === 405 || res.status === 400)
 })
+
+// --- Auth gate: covered by test/oauth.test.mjs (MCP OAuth + web session) ---
+
+// --- SPA fallback: unknown .html document links must 404, not show the homepage ---
+
+test("GET a nonexistent .html path returns 404 with the 404 page, not the SPA index", async () => {
+  const res = await fetch(`${base}/02_NoiBo/01_OBK-SOP-00_definitely-renamed.html`)
+  assert.equal(res.status, 404)
+  const body = await res.text()
+  const home = await (await fetch(`${base}/`)).text()
+  assert.notEqual(body, home, "404 body must differ from the homepage")
+  const notFoundPage = await (await fetch(`${base}/404.html`)).text()
+  assert.equal(body, notFoundPage, "404 body must be the 404 page")
+})
+
+test("GET an existing built .html file still serves the file; dotless unknown paths still fall back to index.html", async () => {
+  const existing = await fetch(`${base}/404.html`)
+  assert.equal(existing.status, 200)
+
+  const spa = await fetch(`${base}/some/client/route/without/extension`)
+  assert.equal(spa.status, 200)
+  const spaBody = await spa.text()
+  const home = await (await fetch(`${base}/`)).text()
+  assert.equal(spaBody, home, "dotless unknown paths must still get index.html")
+})
+
+test("GET a path-traversal .html URL returns 404 without accessing files outside the site", async () => {
+  // %2F stays encoded in the URL, so the slashes are not normalized away
+  // before reaching the server.
+  const notFoundPage = await (await fetch(`${base}/404.html`)).text()
+  for (const p of ["..%2F..%2Fsecrets.html", "02_NoiBo%2F..%2F..%2Fsecrets.html"]) {
+    const res = await fetch(`${base}/${p}`)
+    assert.equal(res.status, 404, `expected 404 for /${p}`)
+    const body = await res.text()
+    assert.equal(body, notFoundPage, `no file content may leak and no SPA fallthrough: /${p}`)
+  }
+})

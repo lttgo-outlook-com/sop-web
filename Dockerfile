@@ -3,10 +3,13 @@
 #
 # The Node server (src/server.mjs) serves BOTH the static site and the API:
 #   /               static site (Quartz build output from public/)
-#   /mcp            MCP endpoint (streamable HTTP)
+#   /mcp            MCP endpoint (streamable HTTP, MCP-OAuth bearer)
 #   /api/search     REST full-text search (q, folder, status, type)
 #   /api/document   REST document by code
+#   /oauth/*        Google Sign-in bridge (web session + MCP OAuth)
 #   /healthz        health probe
+#
+# Auth is in-app (src/oauth.mjs); Cloud Run IAP is NOT used.
 #
 # Nginx is no longer used — nginx.conf is legacy and intentionally NOT
 # referenced anywhere in this file (it will be removed in a later step).

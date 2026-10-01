@@ -8,23 +8,32 @@
  *   GET  /api/document/:code -> full document (code may include %2F slashes)
  *   everything else          -> public/ (built Quartz site, SPA fallback)
  *
- * Auth is handled EXTERNALLY (Google IAP in front on Cloud Run). This process
- * has no authentication code by design — it logs a warning at startup.
+ * Auth (MCP spec 2025-06-18) is implemented IN THIS process via Google
+ * Sign-in as the upstream identity provider — see src/oauth.mjs. The static
+ * site sits behind a web session (302 -> Google); /mcp and /api require a
+ * bearer token that Claude obtains through the standard MCP OAuth flow
+ * (RFC 9728 / 8414 / 7591 + PKCE). A local build with no OAuth env vars is
+ * fully open (for dev and the test suite).
  *
- * The static site is the priority: an error in /mcp is isolated per request
- * and must never take down static serving.
+ * The static site is the priority: an error in /mcp or /oauth is isolated
+ * per request and must never take down static serving.
  *
  * Run: node src/server.mjs   (PORT env, default 8080; INDEX_PATH env, default
- *      dist/vault-index.json built by scripts/build-index.mjs)
+ *      dist/vault-index.json built by scripts/build-index.mjs; OAuth via
+ *      BASE_URL, OAUTH_HMAC_KEY, GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET,
+ *      and optional EMAIL_DOMAIN)
  */
 
 import { createServer } from "node:http"
+import { existsSync } from "node:fs"
+import { join, resolve } from "node:path"
 import { fileURLToPath, pathToFileURL } from "node:url"
 import express from "express"
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js"
 import { StreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/streamableHttp.js"
 import * as z from "zod/v4"
 import { loadIndex } from "./search.mjs"
+import { createOAuth } from "./oauth.mjs"
 
 const REPO_ROOT = fileURLToPath(new URL("../", import.meta.url))
 const PUBLIC_DIR = fileURLToPath(new URL("../public/", import.meta.url))
@@ -134,12 +143,44 @@ function strParam(value) {
 
 /**
  * Build the express app. `engine` is a createSearchEngine() result — inject a
- * synthetic-index engine in tests, no filesystem needed.
+ * synthetic-index engine in tests, no filesystem needed. `oauth` is a
+ * createOAuth() result or null. When present:
+ *   - the static site is gated by a web session (302 -> Google)
+ *   - /mcp and /api require a bearer token (401 with RFC 9728 pointer)
+ *   - the OAuth discovery + /oauth/* endpoints are mounted
+ * When null (no OAuth env vars): everything is open, for local dev/tests.
  */
-export function createApp(engine) {
+export function createApp(engine, oauth = null) {
   const app = express()
   app.disable("x-powered-by")
   app.use(express.json())
+  app.use(express.urlencoded({ extended: false }))
+
+  if (oauth) {
+    // (0) Discovery documents (must be reachable before any auth).
+    app.get(["/.well-known/oauth-protected-resource", "/.well-known/oauth-protected-resource/mcp"], oauth.handleResource)
+    app.get("/.well-known/oauth-authorization-server", oauth.handleAsMetadata)
+
+    // (0a) OAuth endpoints.
+    app.post("/oauth/register", oauth.handleRegister)
+    app.get("/oauth/authorize", oauth.handleAuthorize)
+    app.get("/oauth/callback", oauth.handleGoogleCallback)
+    app.post("/oauth/token", oauth.handleToken)
+
+    // (0b) MCP + REST API gate: bearer token, 401 with RFC 9728 pointer.
+    const requireBearer = (req, res, next) => {
+      if (oauth.verifyBearer(req)) return next()
+      res
+        .status(401)
+        .set("WWW-Authenticate", `Bearer resource_metadata="${oauth.resourceMetadataFor(req)}"`)
+        .json({ error: "unauthorized" })
+    }
+    app.use("/mcp", requireBearer)
+    app.use("/api", requireBearer)
+
+    // (0c) Static site gate: web session, 302 -> Google.
+    app.use(oauth.handleWebAuth)
+  }
 
   // (a) Health check.
   app.get("/healthz", (req, res) => {
@@ -237,6 +278,27 @@ export function createApp(engine) {
       req.path !== "/mcp" &&
       req.path !== "/healthz"
     ) {
+      // A URL that names an .html file is a real document link, not a client
+      // route: if that file is not in the built site (stale bookmark after a
+      // rename), answer a true 404 with the 404 page instead of the homepage.
+      const lastSegment = req.path.split("/").at(-1)
+      if (lastSegment.endsWith(".html")) {
+        let candidate = null
+        try {
+          candidate = resolve(join(PUBLIC_DIR, decodeURIComponent(req.path)))
+        } catch {
+          candidate = null // invalid percent-encoding or null byte
+        }
+        const prefix = PUBLIC_DIR.endsWith("/") ? PUBLIC_DIR : PUBLIC_DIR + "/"
+        const inside =
+          candidate !== null && (candidate === PUBLIC_DIR || candidate.startsWith(prefix))
+        if (!inside || !existsSync(candidate)) {
+          res.status(404).sendFile(`${PUBLIC_DIR}/404.html`, (err) => {
+            if (err) next(err)
+          })
+          return
+        }
+      }
       res.sendFile(`${PUBLIC_DIR}/index.html`, (err) => {
         if (err) next(err)
       })
@@ -263,14 +325,16 @@ export function createApp(engine) {
 }
 
 /** Start listening and wire graceful shutdown (Cloud Run sends SIGTERM). */
-export function startServer(engine, port) {
-  const app = createApp(engine)
+export function startServer(engine, port, oauth = null) {
+  const app = createApp(engine, oauth)
   const server = createServer(app)
   server.listen(port, () => {
     console.log(`[server] obacker-sop listening on :${port}`)
-    console.warn(
-      "[server] WARNING: no authentication in this process — auth is handled externally (Google IAP) in front of the service.",
-    )
+    if (oauth) {
+      console.log("[server] OAuth enabled: static site gated by web session, /mcp + /api by bearer token.")
+    } else {
+      console.warn("[server] WARNING: OAuth not configured — everything is open. For dev only.")
+    }
   })
 
   let shuttingDown = false
@@ -290,6 +354,22 @@ export function startServer(engine, port) {
   return server
 }
 
+// Build the OAuth provider from env, or null when the vars are absent (dev).
+function oauthFromEnv() {
+  const googleClientId = process.env.GOOGLE_CLIENT_ID
+  const googleClientSecret = process.env.GOOGLE_CLIENT_SECRET
+  const oauthHmacKey = process.env.OAUTH_HMAC_KEY
+  const baseUrl = process.env.BASE_URL
+  if (!googleClientId || !googleClientSecret || !oauthHmacKey || !baseUrl) return null
+  return createOAuth({
+    baseUrl,
+    hmacKey: oauthHmacKey,
+    googleClientId,
+    googleClientSecret,
+    emailDomain: process.env.EMAIL_DOMAIN ?? "",
+  })
+}
+
 // Direct-run entrypoint (imports for tests never start the server).
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   const indexPath = process.env.INDEX_PATH ?? DEFAULT_INDEX
@@ -302,5 +382,5 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
     process.exit(1)
   }
   const port = Number(process.env.PORT ?? 8080)
-  startServer(engine, port)
+  startServer(engine, port, oauthFromEnv())
 }
