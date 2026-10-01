@@ -158,6 +158,16 @@ select {
   transition-duration: 150ms;
 }
 
+// Focus ring rõ cho keyboard navigation (a11y) — outline cho mọi interactive element
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   ::before,
@@ -368,6 +378,21 @@ article h1,
   font-weight: 700;
   letter-spacing: -0.025em;
   color: var(--slate-900);
+}
+
+// "Phần"/part dividers trong body markdown dùng `# ` (h1). Nó chia sẻ
+// 24px/700 với section `##` của nó, nên chỉ cỡ chữ không phân biệt được chapter.
+// => cho part-divider (h1 KHÔNG phải :first-child — cái đầu là title-dup đã ẩn)
+// vạch màu đứng 6px (identity, như PageHeader) + top-margin thật để đọc như ranh
+// giới chương, không phải một section nữa. Chỉnh a11y đầy đủ (giảm cấp `#`→`##`)
+// là việc ở nguồn content vault.
+article > h1:not(:first-child) {
+  font-size: 24px;
+  line-height: 32px;
+  border-left: 6px solid var(--primary);
+  padding-left: 14px;
+  margin-top: 40px !important;
+  margin-bottom: 12px !important;
 }
 
 .content-meta {
@@ -581,6 +606,7 @@ article table {
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-arch);
   overflow: hidden;
+  font-variant-numeric: tabular-nums; // số (version, ngày, SLA) thẳng cột trong bảng dữ liệu
 
   @media all and (max-width: 768px) {
     min-width: 480px;
@@ -648,6 +674,14 @@ article .table-container:has(> table > thead > tr > th:nth-child(6)) {
   box-shadow: inset -24px 0 24px -24px rgba(15, 23, 42, 0.2);
 }
 
+// Mobile: bảng min-width 480px trong container ~326px → LUÔN overflow, dù <6 cột.
+// Cạnh phải mờ dần cho MỌI bảng (không chỉ 6+ cột) → hint scroll ngang rõ trên touch.
+@media all and (max-width: 768px) {
+  article .table-container {
+    box-shadow: inset -24px 0 24px -24px rgba(15, 23, 42, 0.2);
+  }
+}
+
 // ------------------------------------------
 // Trang 404 — trang độc lập: 1 cột, không sidebar, bỏ card header rỗng,
 // nội dung căn giữa. (Asset absolute — xem AdminHeader — nên render đúng ở mọi depth.)
@@ -708,7 +742,7 @@ body[data-slug="404"] {
       padding: 8px 16px;
       background: var(--obk-blue);
       color: var(--primary-foreground);
-      font-size: 13px;
+      font-size: 12px;
       font-weight: 600;
       border-radius: var(--radius-lg);
       box-shadow: var(--shadow-btn-primary);
@@ -832,6 +866,28 @@ body[data-slug="404"] {
 
     & > .callout-title {
       color: var(--success-800);
+    }
+  }
+
+  // Câu hỏi — amber (match callouts.scss)
+  &[data-callout="question"] {
+    background: var(--warning-50);
+    border-color: var(--warning-200);
+    border-left-color: var(--warning-500);
+
+    & > .callout-title {
+      color: var(--warning-900);
+    }
+  }
+
+  // Lỗi / bug — red (match callouts.scss)
+  &[data-callout="bug"] {
+    background: var(--danger-50);
+    border-color: var(--red-300);
+    border-left-color: var(--danger-500);
+
+    & > .callout-title {
+      color: var(--danger-800);
     }
   }
 }
@@ -1212,6 +1268,9 @@ body[data-slug="404"] {
   &:focus-within {
     border-color: var(--primary) !important;
     box-shadow: 0 0 0 1px var(--primary) !important;
+    // Giữ 1 ring duy nhất (box-shadow); bỏ outline focus-visible global để
+    // khỏi vòng đôi khi Tab tới ô tìm.
+    outline: none !important;
   }
 
   p {
@@ -1312,6 +1371,16 @@ button.readermode {
 // ------------------------------------------
 // Page listing (trang thư mục / tag)
 // ------------------------------------------
+
+// Container trong suốt — các card .listing đứng trực tiếp trên canvas
+// (tuân thủ "Don't lồng Card trong Card"). Home là .article, không bị ảnh hưởng.
+.center > .page-listing,
+.center .popover-hint > .page-listing {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
 
 .page-listing {
   padding: 0 !important;
@@ -1434,5 +1503,23 @@ footer {
     & > .page-listing {
       border-radius: var(--radius-lg);
     }
+  }
+
+  // Đọc trên điện thoại: chế độ đọc gần như vô dụng (mọi layout đều single-column)
+  // và nút ở góc phải che nội dung khi chạm. Ẩn đi.
+  button.readermode {
+    display: none !important;
+  }
+
+  // Pill phím tắt bàn phím vô nghĩa trên touch — ẩn để khỏi che nội dung.
+  .shortcuts-bottom-bar {
+    display: none !important;
+  }
+}
+
+// Touch: phím tắt ⌘K không áp dụng — ẩn badge kbd (border đổi màu khi focus vẫn giữ).
+@media (pointer: coarse) {
+  .search-button .search-kbd {
+    display: none;
   }
 }

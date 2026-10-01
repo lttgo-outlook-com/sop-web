@@ -113,8 +113,9 @@
   }
 
   &[data-callout="quote"] {
-    --color: var(--secondary);
-    --border: var(--lightgray);
+    --color: var(--orange-ink);
+    --border: rgba(247, 127, 0, 0.35);
+    --bg: var(--obk-orange-tint);
     --callout-icon: var(--callout-icon-quote);
   }
 

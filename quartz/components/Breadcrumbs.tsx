@@ -3,6 +3,7 @@ import breadcrumbsStyle from "./styles/breadcrumbs.scss"
 import { FullSlug, SimpleSlug, resolveRelative, simplifySlug } from "../util/path"
 import { classNames } from "../util/lang"
 import { trieFromAllFiles } from "../util/ctx"
+import { FileTrieNode } from "../util/fileTrie"
 
 type CrumbData = {
   displayName: string
@@ -59,7 +60,22 @@ export default ((opts?: Partial<BreadcrumbOptions>) => {
   }: QuartzComponentProps) => {
     const trie = (ctx.trie ??= trieFromAllFiles(allFiles))
     const slugParts = fileData.slug!.split("/")
-    const pathNodes = trie.ancestryChain(slugParts)
+    let pathNodes = trie.ancestryChain(slugParts)
+
+    // Tag pages are synthetic (emitted by TagPage, not present in the file trie),
+    // so ancestryChain returns undefined and the breadcrumb silently vanishes —
+    // inconsistent with every other page type. Synthesize the chain:
+    //   Trang chủ ❯ Danh sách thẻ ❯ <tag>   (last node = current, hidden when
+    //   showCurrentPage is false) — e.g. /tags/loai -> "Trang chủ ❯ Danh sách thẻ",
+    //   /tags/loai/sop -> "Trang chủ ❯ Danh sách thẻ ❯ loai".
+    if (!pathNodes && slugParts[0] === "tags") {
+      pathNodes = [new FileTrieNode([])]
+      for (let i = 1; i <= slugParts.length; i++) {
+        const node = new FileTrieNode(slugParts.slice(0, i))
+        node.displayName = i === 1 ? "Danh sách thẻ" : slugParts[i - 1]
+        pathNodes.push(node)
+      }
+    }
 
     if (!pathNodes) {
       return null

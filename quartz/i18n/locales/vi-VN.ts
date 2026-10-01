@@ -68,7 +68,7 @@ export default {
     error: {
       title: "Không tìm thấy",
       notFound:
-        "Không tìm thấy trang này. Link có thể đã cũ hoặc mã tài liệu đã thay đổi — thử tra theo mã SOP (vd OBK-...).",
+        "Không tìm thấy trang này. Link có thể đã cũ hoặc mã tài liệu đã thay đổi — về trang chủ để tra lại theo mã SOP (vd OBK-...).",
       home: "Về trang chủ",
     },
     folderContent: {

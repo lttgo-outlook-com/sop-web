@@ -281,19 +281,58 @@ export function createApp(engine, oauth = null) {
       // A URL that names an .html file is a real document link, not a client
       // route: if that file is not in the built site (stale bookmark after a
       // rename), answer a true 404 with the 404 page instead of the homepage.
-      const lastSegment = req.path.split("/").at(-1)
-      if (lastSegment.endsWith(".html")) {
-        let candidate = null
+      // A pretty (extension-less) URL is resolved to its built .html doc so both
+      // hard navigations and SPA soft-nav fetches return the real page rather
+      // than the homepage; unknown paths still fall through to index.html.
+      //
+      // Normalize a trailing slash so /tags/loai/ and /tags/loai resolve the
+      // same way: a parent tag route (tags/<t>/ is a dir of sub-tags, no
+      // index.html) has its page as the SIBLING tags/<t>.html. express.static's
+      // 301 to the dir would otherwise skip it and fall through to the homepage.
+      // Real folders are unaffected: express.static serves <folder>/index.html
+      // directly before this fallback ever runs.
+      let cleanPath = req.path
+      if (cleanPath.length > 1 && cleanPath.endsWith("/")) cleanPath = cleanPath.slice(0, -1)
+      const lastSegment = cleanPath.split("/").at(-1)
+      const prefix = PUBLIC_DIR.endsWith("/") ? PUBLIC_DIR : PUBLIC_DIR + "/"
+      const resolveInside = (p) => {
         try {
-          candidate = resolve(join(PUBLIC_DIR, decodeURIComponent(req.path)))
+          const candidate = resolve(join(PUBLIC_DIR, decodeURIComponent(p)))
+          return candidate === PUBLIC_DIR || candidate.startsWith(prefix) ? candidate : null
         } catch {
-          candidate = null // invalid percent-encoding or null byte
+          return null // invalid percent-encoding or null byte
         }
-        const prefix = PUBLIC_DIR.endsWith("/") ? PUBLIC_DIR : PUBLIC_DIR + "/"
-        const inside =
-          candidate !== null && (candidate === PUBLIC_DIR || candidate.startsWith(prefix))
-        if (!inside || !existsSync(candidate)) {
+      }
+      if (lastSegment.endsWith(".html")) {
+        const candidate = resolveInside(cleanPath)
+        if (!candidate || !existsSync(candidate)) {
           res.status(404).sendFile(`${PUBLIC_DIR}/404.html`, (err) => {
+            if (err) next(err)
+          })
+          return
+        }
+      } else {
+        const docFile = resolveInside(cleanPath + ".html")
+        if (docFile && existsSync(docFile)) {
+          // Parent tag pages (tags/<t>.html, one dir deep) mis-resolve their
+          // relative assets (../index.css -> /tags/index.css, 404) when served at
+          // the extension-less URL, so they render unstyled. Redirect to the .html
+          // URL so assets resolve from the correct base. Docs (deeper) resolve
+          // fine extension-less and must stay extension-less for the SPA, so only
+          // the depth-1 tag case redirects.
+          const isParentTag = cleanPath.startsWith("/tags/") && !cleanPath.slice(6).includes("/")
+          if (isParentTag) {
+            res.redirect(cleanPath + ".html")
+            return
+          }
+          res.sendFile(docFile, (err) => {
+            if (err) next(err)
+          })
+          return
+        }
+        const idxFile = resolveInside(cleanPath + "/index.html")
+        if (idxFile && existsSync(idxFile)) {
+          res.sendFile(idxFile, (err) => {
             if (err) next(err)
           })
           return

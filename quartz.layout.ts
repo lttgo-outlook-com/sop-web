@@ -17,7 +17,7 @@ export const sharedPageComponents: SharedLayout = {
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.ConditionalRender({
-      component: Component.Breadcrumbs({ rootName: "Trang chủ" }),
+      component: Component.Breadcrumbs({ rootName: "Trang chủ", showCurrentPage: false }),
       condition: (page) => page.fileData.slug !== "index",
     }),
     Component.ArticleTitle(),
@@ -44,6 +44,20 @@ export const defaultContentPageLayout: PageLayout = {
         const omit = new Set(["CanCu", "VanBan", "raw", "_Nhap"])
         return !omit.has(node.slugSegment)
       },
+      // Hiển thị tên thư mục gọn như breadcrumbs (bỏ prefix "01_", _ → khoảng trắng).
+      // Chạy SAU sort (order bên dưới) để giữ thứ tự số 01/02/03... của folder.
+      // Self-contained: được serialise qua .toString() và chạy client-side.
+      mapFn: (node) => {
+        if (node.isFolder) {
+          node.displayName = node.displayName
+            .replace(/^\d+_/, "")
+            .replace(/[_-]/g, " ")
+            .replace(/\s+/g, " ")
+            .trim()
+        }
+        return node
+      },
+      order: ["filter", "sort", "map"],
     }),
     Component.KeyboardShortcuts(),
   ],
@@ -53,7 +67,7 @@ export const defaultContentPageLayout: PageLayout = {
 // components for pages that display lists of pages (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [
-    Component.Breadcrumbs({ rootName: "Trang chủ" }),
+    Component.Breadcrumbs({ rootName: "Trang chủ", showCurrentPage: false }),
     Component.ArticleTitle(),
     Component.ContentMeta(),
   ],
@@ -75,6 +89,20 @@ export const defaultListPageLayout: PageLayout = {
         const omit = new Set(["CanCu", "VanBan", "raw", "_Nhap"])
         return !omit.has(node.slugSegment)
       },
+      // Hiển thị tên thư mục gọn như breadcrumbs (bỏ prefix "01_", _ → khoảng trắng).
+      // Chạy SAU sort (order bên dưới) để giữ thứ tự số 01/02/03... của folder.
+      // Self-contained: được serialise qua .toString() và chạy client-side.
+      mapFn: (node) => {
+        if (node.isFolder) {
+          node.displayName = node.displayName
+            .replace(/^\d+_/, "")
+            .replace(/[_-]/g, " ")
+            .replace(/\s+/g, " ")
+            .trim()
+        }
+        return node
+      },
+      order: ["filter", "sort", "map"],
     }),
     Component.KeyboardShortcuts(),
   ],

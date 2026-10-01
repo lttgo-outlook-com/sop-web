@@ -71,7 +71,11 @@ function computeFolderInfo(
       defaultProcessedContent({
         slug: joinSegments(folder, "index") as FullSlug,
         frontmatter: {
-          title: `${i18n(locale).pages.folderContent.folder}: ${folder}`,
+          // Prettify slug "04_Handbook_KeToan" -> "Handbook KeToan" (bỏ tiền tố số +
+          // gạch dưới) để đồng bộ với Explorer (mapFn đã prettify). Fallback về slug.
+          title: `${i18n(locale).pages.folderContent.folder}: ${
+            folder.replace(/^\d+[_-]/, "").replace(/[_-]+/g, " ").trim() || folder
+          }`,
           tags: [],
         },
       }),
