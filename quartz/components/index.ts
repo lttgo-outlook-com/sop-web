@@ -3,6 +3,7 @@ import TagContent from "./pages/TagContent"
 import FolderContent from "./pages/FolderContent"
 import NotFound from "./pages/404"
 import ArticleTitle from "./ArticleTitle"
+import AdminHeader from "./AdminHeader"
 import Darkmode from "./Darkmode"
 import ReaderMode from "./ReaderMode"
 import Head from "./Head"
@@ -28,6 +29,7 @@ import KeyboardShortcuts from "./KeyboardShortcuts"
 
 export {
   ArticleTitle,
+  AdminHeader,
   Content,
   TagContent,
   FolderContent,

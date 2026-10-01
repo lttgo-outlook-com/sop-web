@@ -48,22 +48,22 @@ const LegalNav: QuartzComponent = ({ fileData, allFiles, displayClass }: QuartzC
         <span class="legal-nav-tag">{canCuCount} căn cứ</span>
       </div>
       <div class="legal-nav-list">
-        <a href={`${baseDir}/08_SoCanCu/OBK-CC`} class="legal-nav-row">
-          <span class="nav-badge badge-cancu">CC</span>
+        <a href={`${baseDir}/08_SoCanCu/OBK-CC`} class="legal-nav-row row-cancu">
+          <span class="nav-chip">CC</span>
           <div class="nav-row-main">
             <span class="nav-row-title">Sổ Căn cứ pháp lý</span>
             <span class="nav-row-sub">{canCuCount} trích dẫn điều khoản</span>
           </div>
         </a>
-        <a href={`${baseDir}/Trạng-thái-ban-hành`} class="legal-nav-row">
-          <span class="nav-badge badge-status">TT</span>
+        <a href={`${baseDir}/Trạng-thái-ban-hành`} class="legal-nav-row row-status">
+          <span class="nav-chip">TT</span>
           <div class="nav-row-main">
             <span class="nav-row-title">Trạng thái ban hành</span>
             <span class="nav-row-sub">{taiLieuCount} tài liệu toàn công ty</span>
           </div>
         </a>
-        <a href={`${baseDir}/Nhật-ký-sửa-toàn-kho`} class="legal-nav-row">
-          <span class="nav-badge badge-log">NK</span>
+        <a href={`${baseDir}/Nhật-ký-sửa-toàn-kho`} class="legal-nav-row row-log">
+          <span class="nav-chip">NK</span>
           <div class="nav-row-main">
             <span class="nav-row-title">Nhật ký sửa đổi</span>
             <span class="nav-row-sub">{versionText}</span>
@@ -76,121 +76,126 @@ const LegalNav: QuartzComponent = ({ fileData, allFiles, displayClass }: QuartzC
 
 LegalNav.css = `
 .legal-nav-card {
-  margin: 1rem 0;
-  padding: 0.85rem;
-  background-color: #ffffff;
-  border-radius: 12px;
-  border: 1px solid var(--border-subtle, #e2e8f0);
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05), 0 1px 2px -1px rgba(0, 0, 0, 0.05);
-}
-
-:root[saved-theme="dark"] .legal-nav-card {
-  background-color: #1e293b;
-  border-color: #334155;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid rgba(226, 232, 240, 0.9);
+  border-radius: 4px;
+  box-shadow: 2px 2px 0 #1e293b;
+  padding: 0;
+  margin: 0;
 }
 
 .legal-nav-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 0.65rem;
-  padding-bottom: 0.45rem;
-  border-bottom: 1px solid var(--border-subtle, #e2e8f0);
-}
-
-:root[saved-theme="dark"] .legal-nav-header {
-  border-bottom-color: #334155;
+  gap: 8px;
+  padding: 12px 16px;
+  background: #f8fafc;
+  border-bottom: 1px solid #e2e8f0;
 }
 
 .legal-nav-title {
-  font-size: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  line-height: 16px;
   font-weight: 700;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: var(--text-main, #0f172a);
+  color: #0f172a;
+}
+
+.legal-nav-title::before {
+  content: "";
+  width: 4px;
+  height: 14px;
+  background: #193cb8;
+  flex: none;
 }
 
 .legal-nav-tag {
-  font-size: 0.7rem;
+  font-size: 11px;
+  line-height: 14px;
   font-weight: 600;
-  color: #64748b;
-  background-color: #f1f5f9;
+  color: #475569;
+  background: #f1f5f9;
   padding: 2px 8px;
-  border-radius: 9999px;
-  border: 1px solid #e2e8f0;
-}
-
-:root[saved-theme="dark"] .legal-nav-tag {
-  background-color: #334155;
-  color: #cbd5e1;
-  border-color: #475569;
+  border-radius: 2px;
+  border: 1px solid #cbd5e1;
+  white-space: nowrap;
 }
 
 .legal-nav-list {
   display: flex;
   flex-direction: column;
-  gap: 0.45rem;
+  gap: 8px;
+  padding: 12px;
 }
 
 .legal-nav-row {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
-  padding: 0.65rem 0.85rem;
-  border-radius: 8px;
-  background-color: #ffffff;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 0;
+  background: #fff;
   text-decoration: none;
-  border: 1px solid #f1f5f9;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.02);
-  transition: all 0.18s cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-:root[saved-theme="dark"] .legal-nav-row {
-  background-color: #1e293b;
-  border-color: #334155;
+  border: 1px solid rgba(226, 232, 240, 0.9);
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  transition: transform 150ms cubic-bezier(0.16, 1, 0.3, 1),
+    box-shadow 150ms cubic-bezier(0.16, 1, 0.3, 1),
+    border-color 150ms cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .legal-nav-row:hover {
-  background-color: #f8fafc;
-  border-color: #cbd5e1;
   transform: translateY(-1px);
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.06), 0 2px 4px -2px rgba(0, 0, 0, 0.04);
+  box-shadow: 2px 2px 0 #1e293b;
 }
 
-:root[saved-theme="dark"] .legal-nav-row:hover {
-  background-color: #334155;
-  border-color: #475569;
+.legal-nav-row.row-cancu {
+  border-left: 3.5px solid #193cb8;
 }
 
-.nav-badge {
+.legal-nav-row.row-status {
+  border-left: 3.5px solid #16a34a;
+}
+
+.legal-nav-row.row-log {
+  border-left: 3.5px solid #f77f00;
+}
+
+.nav-chip {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 2rem;
-  height: 2rem;
-  border-radius: 8px;
-  font-size: 0.75rem;
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  font-family: "SF Mono", ui-monospace, "Cascadia Code", Menlo, Consolas, monospace;
+  font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.04em;
   flex-shrink: 0;
 }
 
-.badge-cancu {
-  background-color: #eff6ff;
-  color: #1d4ed8;
-  border: 1px solid #bfdbfe;
+.row-cancu .nav-chip {
+  background: #eef2ff;
+  color: #193cb8;
+  border: 1px solid rgba(25, 60, 184, 0.25);
 }
 
-.badge-status {
-  background-color: #ecfdf5;
-  color: #047857;
-  border: 1px solid #a7f3d0;
+.row-status .nav-chip {
+  background: #f0fdf4;
+  color: #166534;
+  border: 1px solid #bbf7d0;
 }
 
-.badge-log {
-  background-color: #fffbeb;
-  color: #b45309;
-  border: 1px solid #fde68a;
+.row-log .nav-chip {
+  background: #fff7ed;
+  color: #78350f;
+  border: 1px solid rgba(247, 127, 0, 0.35);
 }
 
 .nav-row-main {
@@ -200,24 +205,23 @@ LegalNav.css = `
 }
 
 .nav-row-title {
-  font-size: 0.88rem;
+  font-size: 12px;
+  line-height: 16px;
   font-weight: 600;
-  color: var(--text-main, #0f172a);
-  line-height: 1.3;
+  color: #0f172a;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
 .nav-row-sub {
-  font-size: 0.74rem;
+  font-size: 11px;
+  line-height: 14px;
   color: #64748b;
-  line-height: 1.25;
   margin-top: 1px;
-}
-
-:root[saved-theme="dark"] .nav-row-sub {
-  color: #94a3b8;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 `
 

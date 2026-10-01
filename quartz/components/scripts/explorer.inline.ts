@@ -225,10 +225,16 @@ async function setupExplorer(currentSlug: FullSlug) {
     if (scrollTop) {
       explorerUl.scrollTop = parseInt(scrollTop)
     } else {
-      // try to scroll to the active element if it exists
+      // try to scroll to the active element if it exists.
+      // Scroll only the explorer's own box: scrollIntoView would drag the
+      // sidebar and the whole page to the active item.
       const activeElement = explorerUl.querySelector(".active")
+      const scroller =
+        (explorer.querySelector(".explorer-content") as HTMLElement | null) ?? explorerUl
       if (activeElement) {
-        activeElement.scrollIntoView({ behavior: "smooth" })
+        const a = activeElement.getBoundingClientRect()
+        const s = scroller.getBoundingClientRect()
+        scroller.scrollBy({ top: a.top - s.top - 8, behavior: "smooth" })
       }
     }
 

@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-01",
+  "title": "Design System: oBacker SOP (thế giới oBacker OS)",
+  "extensions": {
+    "colorMeta": {
+      "obk-blue": {
+        "role": "primary",
+        "displayName": "oBacker Blue",
+        "canonical": "#193cb8",
+        "tonalRamp": ["#0b1a5e", "#112882", "#15329e", "#193cb8", "#2547d4", "#4a66e0", "#8a9cf0", "#eef2ff"]
+      },
+      "obk-orange": {
+        "role": "secondary",
+        "displayName": "Signal Orange",
+        "canonical": "#f77f00",
+        "tonalRamp": ["#7c2d12", "#9a3412", "#c2410c", "#ea580c", "#f77f00", "#fb923c", "#fdba74", "#fff7ed"]
+      },
+      "obk-cyan": {
+        "role": "tertiary",
+        "displayName": "Process Cyan",
+        "canonical": "#1890ff",
+        "tonalRamp": ["#085799", "#0e6fc0", "#1382d8", "#1890ff", "#40a9ff", "#69c0ff", "#91d5ff", "#e6f7ff"]
+      },
+      "canvas": {
+        "role": "neutral",
+        "displayName": "Warm Canvas",
+        "canonical": "#faf9f6",
+        "tonalRamp": ["#c9c6bf", "#d8d5ce", "#e6e3dc", "#efece6", "#f4f2ee", "#f7f5f1", "#faf9f6", "#fdfcfa"]
+      },
+      "slate-700": {
+        "role": "neutral",
+        "displayName": "Ink Slate",
+        "canonical": "#334155",
+        "tonalRamp": ["#020617", "#0f172a", "#1e293b", "#334155", "#475569", "#64748b", "#94a3b8", "#cbd5e1"]
+      },
+      "success": {
+        "role": "semantic",
+        "displayName": "Success",
+        "canonical": "#22c55e",
+        "tonalRamp": ["#14532d", "#166534", "#15803d", "#16a34a", "#22c55e", "#4ade80", "#86efac", "#f0fdf4"]
+      },
+      "warning": {
+        "role": "semantic",
+        "displayName": "Warning",
+        "canonical": "#f59e0b",
+        "tonalRamp": ["#451a03", "#78350f", "#92400e", "#b45309", "#d97706", "#f59e0b", "#fbbf24", "#fffbeb"]
+      },
+      "danger": {
+        "role": "semantic",
+        "displayName": "Danger",
+        "canonical": "#dc2626",
+        "tonalRamp": ["#450a0a", "#7f1d1d", "#991b1b", "#b91c1c", "#dc2626", "#ef4444", "#f87171", "#fef2f2"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Tiêu đề trang (PageHeader + h1 bài viết)." },
+      "headline": { "displayName": "Headline", "purpose": "h2 tài liệu." },
+      "title": { "displayName": "Title", "purpose": "h3 tài liệu." },
+      "body-doc": { "displayName": "Body doc", "purpose": "Nội dung tài liệu, 15px/26px." },
+      "body-admin": { "displayName": "Body admin", "purpose": "Chrome, sidebar, bảng — mật độ 12px." },
+      "label": { "displayName": "Label", "purpose": "Đầu WorkPanel, tiêu đề bảng, callout — UPPERCASE 0.05em." },
+      "mono": { "displayName": "Mono", "purpose": "Mã tài liệu (CC/TT/NK), phím tắt." }
+    },
+    "shadows": [
+      { "name": "subtle", "value": "0 1px 2px 0 rgb(0 0 0/0.05)", "purpose": "Chip, dòng LegalNav nghỉ." },
+      { "name": "arch", "value": "2px 2px 0 #1e293b", "purpose": "Mọi panel tĩnh." },
+      { "name": "arch-lg", "value": "3px 3px 0 #1e293b", "purpose": "Popover." },
+      { "name": "header", "value": "0 2px 0 #1e293b", "purpose": "AdminHeader." },
+      { "name": "btn-primary", "value": "2px 2px 0 #0f172a (hover 3px 3px 0)", "purpose": "Nút chính." },
+      { "name": "btn-secondary", "value": "1.5px 1.5px 0 #1e293b (hover 2.5px)", "purpose": "Nút phụ, icon button." }
+    ],
+    "motion": [
+      { "name": "ease-brand", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Easing chuẩn cho mọi transition 150ms; prefers-reduced-motion → 0.01ms." }
+    ],
+    "breakpoints": [
+      { "name": "mobile", "value": "768px" },
+      { "name": "tablet", "value": "1200px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "AdminHeader",
+      "kind": "nav",
+      "refersTo": null,
+      "description": "Thanh header fixed 64px với dải gradient 2,5px — gradient duy nhất toàn site.",
+      "html": "<div class=\"ds-admin-header\"><div class=\"ds-strip\"></div><div class=\"ds-bar\"><span class=\"ds-logo\">oBacker</span><span class=\"ds-online\"><i></i>Nội bộ oBacker</span></div></div>",
+      "css": ".ds-admin-header{position:fixed;top:0;left:0;right:0;z-index:40;background:#fff;border-bottom:1px solid #1e293b;box-shadow:0 2px 0 #1e293b;font-family:'Be Vietnam Pro',system-ui,sans-serif}.ds-strip{height:2.5px;background:linear-gradient(90deg,#193cb8,#1890ff,#f77f00)}.ds-bar{display:flex;align-items:center;justify-content:space-between;height:64px;padding:0 24px}.ds-logo{font-size:22px;font-weight:700;color:#193cb8;letter-spacing:-0.025em}.ds-online{display:inline-flex;align-items:center;gap:8px;padding:4px 10px;font-size:12px;font-weight:500;letter-spacing:0.025em;color:#334155;background:#fff;border:1px solid #cbd5e1;border-radius:4px;box-shadow:0 1px 2px 0 rgb(0 0 0/0.05)}.ds-online i{width:8px;height:8px;border-radius:9999px;background:#22c55e}"
+    },
+    {
+      "name": "WorkPanel",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "Panel trắng trong sidebar: dải header #f8fafc + vạch 4px×14px + tiêu đề UPPERCASE.",
+      "html": "<div class=\"ds-workpanel\"><div class=\"ds-workpanel-header\"><span>Mục lục quy trình</span><svg width=\"14\" height=\"14\" viewBox=\"5 8 14 8\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"><polyline points=\"6 9 12 15 18 9\"/></svg></div><div class=\"ds-workpanel-body\"><div class=\"ds-row\">01_ToChuc</div><div class=\"ds-row active\">09_TnC</div><div class=\"ds-row\">11_NhanSu</div></div></div>",
+      "css": ".ds-workpanel{background:#fff;border:1px solid rgba(226,232,240,0.9);border-radius:4px;box-shadow:2px 2px 0 #1e293b;font-family:'Be Vietnam Pro',system-ui,sans-serif;overflow:hidden}.ds-workpanel-header{display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:#f8fafc;border-bottom:1px solid #e2e8f0;font-size:12px;font-weight:700;letter-spacing:0.05em;text-transform:uppercase;color:#0f172a}.ds-workpanel-header span::before{content:\"\";display:inline-block;width:4px;height:14px;margin-right:8px;background:#193cb8;border-radius:1px;vertical-align:-2px}.ds-workpanel-body{padding:8px}.ds-row{padding:6px 8px;font-size:12px;line-height:16px;color:#0f172a;border-radius:4px;cursor:pointer}.ds-row:hover{background:#f8fafc}.ds-row.active{color:#193cb8;font-weight:600;background:#eef2ff}"
+    },
+    {
+      "name": "LegalNav Row",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "Dòng tra cứu nhanh: chip mã 24px mono + title/sub + vạch trái 3.5px; hover nâng 1px.",
+      "html": "<a class=\"ds-navrow row-cancu\"><span class=\"ds-chip\">CC</span><span class=\"ds-main\"><span class=\"ds-title\">Sổ Căn cứ pháp lý</span><span class=\"ds-sub\">385 trích dẫn điều khoản</span></span></a>",
+      "css": ".ds-navrow{display:flex;align-items:center;gap:10px;padding:10px 12px;border:1px solid rgba(226,232,240,0.9);border-left:3.5px solid #193cb8;border-radius:0;background:#fff;box-shadow:0 1px 2px 0 rgb(0 0 0/0.05);font-family:'Be Vietnam Pro',system-ui,sans-serif;text-decoration:none;transition:transform 150ms cubic-bezier(0.16,1,0.3,1),box-shadow 150ms cubic-bezier(0.16,1,0.3,1)}.ds-navrow:hover{transform:translateY(-1px);box-shadow:2px 2px 0 #1e293b}.ds-chip{display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:4px;font-family:'SF Mono',ui-monospace,monospace;font-size:11px;font-weight:700;background:#eef2ff;color:#193cb8;border:1px solid rgba(25,60,184,0.25)}.ds-main{display:flex;flex-direction:column;min-width:0}.ds-title{font-size:12px;line-height:16px;font-weight:600;color:#0f172a;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.ds-sub{font-size:11px;line-height:14px;color:#64748b;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}"
+    },
+    {
+      "name": "StatusBadge",
+      "kind": "chip",
+      "refersTo": "status-badge",
+      "description": "Tag 11px UPPERCASE, vạch trái 3.5px, radius 0.",
+      "html": "<a class=\"ds-badge\">loai/tnc</a>",
+      "css": ".ds-badge{display:inline-flex;align-items:center;padding:2px 8px;font-family:'Be Vietnam Pro',system-ui,sans-serif;font-size:11px;line-height:16px;font-weight:600;letter-spacing:0.025em;text-transform:uppercase;color:#334155;background:#f8fafc;border:1px solid rgba(226,232,240,0.9);border-left:3.5px solid #94a3b8;border-radius:0;box-shadow:0 1px 2px 0 rgb(0 0 0/0.05);text-decoration:none;transition:background 150ms cubic-bezier(0.16,1,0.3,1),color 150ms}.ds-badge:hover{color:#193cb8;background:#eef2ff;border-color:rgba(25,60,184,0.25);border-left-color:#193cb8}"
+    },
+    {
+      "name": "Button Primary",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Nền xanh corporate, bóng đặc 2px, hover nâng + bóng 3px, active chìm.",
+      "html": "<button class=\"ds-btn-primary\">Ban hành</button>",
+      "css": ".ds-btn-primary{font-family:'Be Vietnam Pro',system-ui,sans-serif;font-size:12px;font-weight:600;color:#fff;background:#193cb8;border:none;border-radius:4px;padding:8px 16px;box-shadow:2px 2px 0 #0f172a;cursor:pointer;transition:background 150ms cubic-bezier(0.16,1,0.3,1),box-shadow 150ms,transform 150ms}.ds-btn-primary:hover{background:#15329e;box-shadow:3px 3px 0 #0f172a;transform:translateY(-1px)}.ds-btn-primary:active{transform:translateY(1.5px);box-shadow:none}.ds-btn-primary:focus-visible{outline:2px solid #193cb8;outline-offset:2px}"
+    },
+    {
+      "name": "Button Secondary",
+      "kind": "button",
+      "refersTo": null,
+      "description": "Nút phụ / icon: nền trắng, border, bóng 1.5px.",
+      "html": "<button class=\"ds-btn-secondary\">Xem tất cả</button>",
+      "css": ".ds-btn-secondary{font-family:'Be Vietnam Pro',system-ui,sans-serif;font-size:12px;font-weight:600;color:#334155;background:#fff;border:1px solid #cbd5e1;border-radius:4px;padding:8px 16px;box-shadow:1.5px 1.5px 0 #1e293b;cursor:pointer;transition:box-shadow 150ms cubic-bezier(0.16,1,0.3,1),transform 150ms}.ds-btn-secondary:hover{box-shadow:2.5px 2.5px 0 #1e293b;transform:translateY(-1px)}.ds-btn-secondary:active{transform:translateY(1.5px);box-shadow:none}.ds-btn-secondary:focus-visible{outline:2px solid #193cb8;outline-offset:2px}"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "search-field",
+      "description": "Ô tìm kiếm trong sidebar: trắng, border, kbd ⌘K mono 10px.",
+      "html": "<div class=\"ds-search\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"><circle cx=\"11\" cy=\"11\" r=\"8\"/><path d=\"m21 21-4.3-4.3\"/></svg><input placeholder=\"Tìm\" /><kbd>⌘K</kbd></div>",
+      "css": ".ds-search{display:flex;align-items:center;gap:8px;background:#fff;border:1px solid #cbd5e1;border-radius:4px;padding:6px 12px;box-shadow:0 1px 2px 0 rgb(0 0 0/0.05);font-family:'Be Vietnam Pro',system-ui,sans-serif;transition:border-color 150ms cubic-bezier(0.16,1,0.3,1)}.ds-search:focus-within{border-color:#193cb8}.ds-search input{flex:1;min-width:0;border:none;outline:none;font-size:12px;color:#334155;background:transparent}.ds-search input::placeholder{color:#94a3b8}.ds-search kbd{font-family:'SF Mono',ui-monospace,monospace;font-size:10px;color:#64748b;background:#f1f5f9;border:1px solid #e2e8f0;border-radius:2px;padding:1px 5px}"
+    },
+    {
+      "name": "Data Table",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "Bảng dữ liệu: th uppercase 11px nền slate-50, td 13px/20px, row hover, wrapper border + bóng arch.",
+      "html": "<div class=\"ds-table-wrap\"><table><thead><tr><th>Hạng mục</th><th>Nội dung</th></tr></thead><tbody><tr><td>Ke toan</td><td>Tai chieu, thue GTGT</td></tr><tr><td>Luat lao dong</td><td>Hop dong, bao hiem</td></tr></tbody></table></div>",
+      "css": ".ds-table-wrap{border:1px solid rgba(226,232,240,0.9);border-radius:4px;box-shadow:2px 2px 0 #1e293b;overflow-x:auto;font-family:'Be Vietnam Pro',system-ui,sans-serif}.ds-table-wrap table{width:100%;border-collapse:collapse}.ds-table-wrap th{padding:8px 12px;font-size:11px;font-weight:600;letter-spacing:0.05em;text-transform:uppercase;color:#334155;background:#f8fafc;border-bottom:1px solid #e2e8f0;text-align:left}.ds-table-wrap td{padding:8px 12px;font-size:13px;line-height:20px;color:#475569;border-bottom:1px solid rgba(226,232,240,0.9)}.ds-table-wrap tbody tr:last-child td{border-bottom:none}.ds-table-wrap tbody tr:hover{background:rgba(248,250,252,0.7)}"
+    },
+    {
+      "name": "Callout",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "Khung chú thích tài liệu: tint nền + vạch trái 4px + tiêu đề UPPERCASE 12px.",
+      "html": "<div class=\"ds-callout\"><div class=\"ds-callout-title\">Lưu ý quan trọng</div><div class=\"ds-callout-body\">Noi dung can ban khi ke thue, phan bien voi thue su thue thu nha.</div></div>",
+      "css": ".ds-callout{background:#eef2ff;border-left:4px solid #193cb8;border-radius:0 4px 4px 0;padding:12px 16px;font-family:'Be Vietnam Pro',system-ui,sans-serif}.ds-callout-title{font-size:12px;font-weight:700;letter-spacing:0.05em;text-transform:uppercase;color:#193cb8;margin-bottom:4px}.ds-callout-body{font-size:14px;line-height:22px;color:#334155}"
+    }
+  ],
+  "narrative": {
+    "northStar": "oBacker OS — hệ điều hành văn phòng pháp lý",
+    "overview": "Site là một màn hình quản trị: canvas ấm rất nhẹ (#faf9f6), các panel trắng đứng cạnh nhau, mỗi panel được \"dồn\" xuống nền bằng bóng đặc 2px không nhòe — như hồ sơ đặt trên bàn làm việc chứ không lơ lửng trong không gian. Nhấn thương hiệu là xanh corporate #193cb8 (hành động, liên kết, vạch màu định danh); cam #f77f00 là nhấn thứ hai cho cảnh báo, tag loại, và đúng một dải gradient 2,5px trên cùng của AdminHeader.\n\nMật độ là của phần mềm nội bộ, không phải trang trình bày: chrome 12px/16px, nội dung tài liệu 15px/26px, bảng dữ liệu thớ chặt 13px/20px. Một font duy nhất — Be Vietnam Pro — cho toàn site từ chrome đến tài liệu, tự tin với tiếng Việt nặng dấu. Không dark mode, không hiệu ứng trang trí: mọi trạng thái phải đọc được bằng chữ + màu, không chỉ màu.",
+    "keyCharacteristics": [
+      "Bóng đặc không nhòe (2px 2px 0 #1e293b) là chữ ký chiều sâu — không có blur trong toàn bộ hệ thống.",
+      "Vạch màu đứng bên trái (6px PageHeader, 4px×14px panel, 3.5px badge/dòng) là mẫu lặp lại để định danh.",
+      "Đúng một gradient (xanh → cyan → cam), chỉ ở dải 2,5px trên cùng của AdminHeader.",
+      "Light-only. Không toggle, không prefers-color-scheme.",
+      "Radius nhỏ: 4px cho bề mặt, 2px cho tag, 0 cho bảng và badge."
+    ],
+    "rules": [
+      { "name": "The One Gradient Rule", "body": "Dải gradient 2,5px xanh → cyan → cam chỉ xuất hiện ở trên cùng của AdminHeader. Mọi nơi khác là màu đơn.", "section": "colors" },
+      { "name": "The Light Only Rule", "body": "Hệ thống chỉ có theme sáng. Không viết rule dark, không giữ biến màu tối, không thêm toggle.", "section": "colors" },
+      { "name": "The One Voice Rule", "body": "Be Vietnam Pro là chữ duy nhất (ngoại lệ mono). Không thêm Google Fonts, không font display riêng cho tiêu đề.", "section": "typography" },
+      { "name": "The No Blur Rule", "body": "Không blur() trong bất kỳ box-shadow nào. Bóng có cạnh sắc cùng màu ink (#1e293b / #0f172a) hoặc 5% đen cho bóng nghỉ.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do dùng bóng đặc không nhòe (2px 2px 0 #1e293b) cho mọi panel và tăng bóng + translateY(-1px) khi hover.",
+      "Do gắn vạch màu đứng (6px / 4px×14px / 3.5px) cho mọi bề mặt cần định danh: PageHeader, WorkPanel, dòng, tag.",
+      "Do viết uppercase 12px, letter-spacing 0.05em, weight 700 cho mọi label panel và tiêu đề bảng.",
+      "Do dùng Be Vietnam Pro cho tất cả chữ (400/500/600/700), mono chỉ cho mã tài liệu và phím tắt.",
+      "Do để bảng cuộn ngang trong container (mobile min-width 480px) thay vì ép co cụm."
+    ],
+    "donts": [
+      "Don't thêm dark mode, toggle theme, hay bất kỳ rule prefers-color-scheme nào.",
+      "Don't dùng gradient ngoài dải 2,5px của AdminHeader; don't dùng backdrop-filter/blur.",
+      "Don't lồng Card trong Card — panel đã có border + bóng, nội dung phân tách bằng dải header và đường hairline.",
+      "Don't truyền trạng thái bằng màu đơn thuần: mọi status phải có chữ kèm màu.",
+      "Don't thêm font mới, icon animation trang trí, hay hiệu ứng marketing — site là phần mềm nội bộ.",
+      "Don't sửa tay content/ — nội dung đồng bộ một chiều từ kho SOP bằng _tools/dong_bo_sop_web.py."
+    ]
+  }
+}
