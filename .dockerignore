@@ -1,0 +1,15 @@
+# Docker build context filter. .git is KEPT: Quartz reads it for page dates.
+.env
+.env.*
+!.env.example
+node_modules
+public
+dist
+.quartz-cache
+.obsidian
+.DS_Store
+.agents
+.qwen
+.impeccable
+tsconfig.tsbuildinfo
+prof

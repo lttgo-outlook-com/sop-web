@@ -1,9 +1,24 @@
+# Upload filter for `gcloud builds submit`. Syntax = .gitignore.
+# .git is KEPT on purpose: Quartz derives each page's modified date from git
+# history (content/ has no date frontmatter). It stays in the builder stage only.
 .gcloudignore
-.git
 .gitignore
+.dockerignore
+
+# Secrets: never upload
+.env
+.env.*
+!.env.example
+
+# Build outputs and local tooling
 node_modules
 public
+dist
 .quartz-cache
 .obsidian
 .DS_Store
-dist
+.agents
+.qwen
+.impeccable
+tsconfig.tsbuildinfo
+prof

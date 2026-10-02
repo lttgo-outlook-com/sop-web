@@ -11,8 +11,10 @@
 #
 # Auth is in-app (src/oauth.mjs); Cloud Run IAP is NOT used.
 #
-# Nginx is no longer used — nginx.conf is legacy and intentionally NOT
-# referenced anywhere in this file (it will be removed in a later step).
+# Nginx is no longer used.
+#
+# Build context keeps .git (see .gcloudignore / .dockerignore): Quartz derives
+# page modified dates from git history. .git exists in the builder stage only.
 # ==============================================================================
 
 # Stage 1: builder — full deps (incl. dev) to build the site + the search index
@@ -23,6 +25,8 @@ COPY package*.json ./
 RUN npm ci
 
 COPY . .
+# Fail early if .git was filtered out of the context (page dates would be wrong).
+RUN test -d .git
 RUN npx quartz build              # static site  -> public/
 RUN node scripts/build-index.mjs  # search index -> dist/vault-index.json
 

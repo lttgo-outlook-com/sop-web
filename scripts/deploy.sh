@@ -9,16 +9,19 @@ set -euo pipefail
 # Google Sign-in web session, /mcp + /api behind MCP OAuth bearer
 # tokens. Cloud Run IAP is NOT used.
 #
-# Required env vars before running (never commit them):
+# Secrets live in Secret Manager (created once by scripts/setup-secrets.sh):
+#   sop-web-google-client-secret -> GOOGLE_CLIENT_SECRET
+#   sop-web-oauth-hmac-key       -> OAUTH_HMAC_KEY
+# Required env vars before running (non-secret, or read from ./.env):
 #   GOOGLE_CLIENT_ID      - Google OAuth client (web) for obacker-ai
-#   GOOGLE_CLIENT_SECRET  - its secret
-#   OAUTH_HMAC_KEY        - random string >= 32 chars (signs bearer tokens)
 # ==============================================================
 
 PROJECT_ID="obacker-ai"
 REGION="asia-southeast1"
 SERVICE_NAME="sop-web"
-IMAGE="asia-southeast1-docker.pkg.dev/${PROJECT_ID}/obk/sop-web:latest"
+# Immutable tag per deploy (commit + time) so every revision can be rolled back.
+TAG="$(git rev-parse --short HEAD)-$(date +%Y%m%d%H%M%S)"
+IMAGE="asia-southeast1-docker.pkg.dev/${PROJECT_ID}/obk/sop-web:${TAG}"
 BASE_URL="https://sop.obacker.com"
 
 # Load local deploy secrets from ./.env if present (gitignored). Lets
@@ -30,7 +33,7 @@ if [[ -f .env ]]; then
   set +a
 fi
 
-for var in GOOGLE_CLIENT_ID GOOGLE_CLIENT_SECRET OAUTH_HMAC_KEY; do
+for var in GOOGLE_CLIENT_ID; do
   if [[ -z "${!var:-}" ]]; then
     echo "ERROR: env var ${var} is not set. Export it before running this script." >&2
     exit 1
@@ -53,7 +56,9 @@ gcloud run deploy "${SERVICE_NAME}" \
   --allow-unauthenticated \
   --no-default-url \
   --no-iap \
-  --set-env-vars "BASE_URL=${BASE_URL},GOOGLE_CLIENT_ID=${GOOGLE_CLIENT_ID},GOOGLE_CLIENT_SECRET=${GOOGLE_CLIENT_SECRET},OAUTH_HMAC_KEY=${OAUTH_HMAC_KEY},EMAIL_DOMAIN=obacker.com" \
+  --set-env-vars "BASE_URL=${BASE_URL},GOOGLE_CLIENT_ID=${GOOGLE_CLIENT_ID},EMAIL_DOMAIN=obacker.com" \
+  --set-secrets "GOOGLE_CLIENT_SECRET=sop-web-google-client-secret:latest,OAUTH_HMAC_KEY=sop-web-oauth-hmac-key:latest" \
+  --startup-probe "httpGet.path=/healthz,httpGet.port=8080,periodSeconds=3,failureThreshold=20,timeoutSeconds=3" \
   --min-instances=0 \
   --max-instances=5 \
   --cpu=1 \
@@ -62,4 +67,5 @@ gcloud run deploy "${SERVICE_NAME}" \
   --concurrency=50
 
 echo "==> Deploy completed successfully!"
+echo "Image: ${IMAGE}"
 echo "Domain: https://sop.obacker.com"

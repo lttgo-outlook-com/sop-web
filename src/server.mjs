@@ -29,6 +29,7 @@ import { existsSync } from "node:fs"
 import { join, resolve } from "node:path"
 import { fileURLToPath, pathToFileURL } from "node:url"
 import express from "express"
+import compression from "compression"
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js"
 import { StreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/streamableHttp.js"
 import * as z from "zod/v4"
@@ -153,6 +154,22 @@ function strParam(value) {
 export function createApp(engine, oauth = null) {
   const app = express()
   app.disable("x-powered-by")
+  app.set("trust proxy", 1) // Cloud Run terminates TLS one hop in front
+  app.use((req, res, next) => {
+    res.set({
+      "X-Content-Type-Options": "nosniff",
+      "X-Frame-Options": "SAMEORIGIN",
+      "Referrer-Policy": "strict-origin-when-cross-origin",
+    })
+    next()
+  })
+  // gzip static pages only; /mcp and /api bodies are left untouched.
+  app.use(
+    compression({
+      filter: (req, res) =>
+        req.method === "GET" && !req.path.startsWith("/mcp") && compression.filter(req, res),
+    }),
+  )
   app.use(express.json())
   app.use(express.urlencoded({ extended: false }))
 
