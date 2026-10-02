@@ -61,14 +61,14 @@
   }
 
   &[data-callout="tip"] {
-    --color: var(--success-600);
+    --color: var(--success-800);
     --border: rgba(22, 163, 74, 0.27);
     --bg: var(--success-50);
     --callout-icon: var(--callout-icon-tip);
   }
 
   &[data-callout="success"] {
-    --color: var(--success-600);
+    --color: var(--success-800);
     --border: rgba(22, 163, 74, 0.27);
     --bg: var(--success-50);
     --callout-icon: var(--callout-icon-success);

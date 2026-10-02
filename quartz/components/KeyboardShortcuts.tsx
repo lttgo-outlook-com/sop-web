@@ -330,11 +330,11 @@ KeyboardShortcuts.css = `
 
 .shortcuts-section-title {
   display: block;
-  font-size: 0.65rem;
+  font-size: 0.6875rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  color: var(--slate-500);
+  color: var(--slate-600);
   margin-bottom: 0.35rem;
 }
 

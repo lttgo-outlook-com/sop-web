@@ -75,38 +75,45 @@ const LegalNav: QuartzComponent = ({ fileData, allFiles, displayClass }: QuartzC
 
   return (
     <div class={classNames(displayClass, "legal-nav-card")}>
-      <div class="legal-nav-header">
+      <button type="button" class="legal-nav-header" aria-expanded="true">
         <span class="legal-nav-title">Tra cứu nhanh</span>
         <span class="legal-nav-tag">{canCuCount === null ? "căn cứ" : `${canCuCount} căn cứ`}</span>
-      </div>
-      <div class="legal-nav-list">
-        <a href={`${baseDir}/08_SoCanCu/OBK-CC`} class="legal-nav-row row-cancu">
-          <span class="nav-chip">CC</span>
-          <div class="nav-row-main">
-            <span class="nav-row-title">Sổ Căn cứ pháp lý</span>
-            <span class="nav-row-sub">
-              {canCuCount === null ? "trích dẫn điều khoản" : `${canCuCount} trích dẫn điều khoản`}
-            </span>
+        <span class="legal-nav-chevron" aria-hidden="true"></span>
+      </button>
+      <div class="legal-nav-body">
+        <div class="legal-nav-list">
+          <div class="legal-nav-list-inner">
+            <a href={`${baseDir}/08_SoCanCu/OBK-CC`} class="legal-nav-row row-cancu">
+              <span class="nav-chip">CC</span>
+              <div class="nav-row-main">
+                <span class="nav-row-title">Sổ Căn cứ pháp lý</span>
+                <span class="nav-row-sub">
+                  {canCuCount === null
+                    ? "trích dẫn điều khoản"
+                    : `${canCuCount} trích dẫn điều khoản`}
+                </span>
+              </div>
+            </a>
+            <a href={`${baseDir}/Trạng-thái-ban-hành`} class="legal-nav-row row-status">
+              <span class="nav-chip">TT</span>
+              <div class="nav-row-main">
+                <span class="nav-row-title">Trạng thái ban hành</span>
+                <span class="nav-row-sub">
+                  {taiLieuCount === null
+                    ? "tài liệu toàn công ty"
+                    : `${taiLieuCount} tài liệu toàn công ty`}
+                </span>
+              </div>
+            </a>
+            <a href={`${baseDir}/Nhật-ký-sửa-toàn-kho`} class="legal-nav-row row-log">
+              <span class="nav-chip">NK</span>
+              <div class="nav-row-main">
+                <span class="nav-row-title">Nhật ký sửa đổi</span>
+                <span class="nav-row-sub">{versionText}</span>
+              </div>
+            </a>
           </div>
-        </a>
-        <a href={`${baseDir}/Trạng-thái-ban-hành`} class="legal-nav-row row-status">
-          <span class="nav-chip">TT</span>
-          <div class="nav-row-main">
-            <span class="nav-row-title">Trạng thái ban hành</span>
-            <span class="nav-row-sub">
-              {taiLieuCount === null
-                ? "tài liệu toàn công ty"
-                : `${taiLieuCount} tài liệu toàn công ty`}
-            </span>
-          </div>
-        </a>
-        <a href={`${baseDir}/Nhật-ký-sửa-toàn-kho`} class="legal-nav-row row-log">
-          <span class="nav-chip">NK</span>
-          <div class="nav-row-main">
-            <span class="nav-row-title">Nhật ký sửa đổi</span>
-            <span class="nav-row-sub">{versionText}</span>
-          </div>
-        </a>
+        </div>
       </div>
     </div>
   )
@@ -126,11 +133,18 @@ LegalNav.css = `
 .legal-nav-header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   gap: 8px;
+  width: 100%;
   padding: 12px 16px;
   background: #f8fafc;
+  border: none;
   border-bottom: 1px solid #e2e8f0;
+  cursor: default;
+  font: inherit;
+  color: inherit;
+  text-align: left;
+  appearance: none;
+  -webkit-appearance: none;
 }
 
 .legal-nav-title {
@@ -154,6 +168,7 @@ LegalNav.css = `
 }
 
 .legal-nav-tag {
+  margin-left: auto;
   font-size: 11px;
   line-height: 14px;
   font-weight: 600;
@@ -165,7 +180,18 @@ LegalNav.css = `
   white-space: nowrap;
 }
 
+.legal-nav-body {
+  display: grid;
+  grid-template-rows: 1fr;
+  transition: grid-template-rows 180ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
 .legal-nav-list {
+  min-height: 0;
+  overflow: hidden;
+}
+
+.legal-nav-list-inner {
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -261,6 +287,64 @@ LegalNav.css = `
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+/* Chevron chỉ hiện trên mobile (khối này collapsible ở đó); desktop giữ header tĩnh. */
+.legal-nav-chevron {
+  display: none;
+  width: 7px;
+  height: 7px;
+  flex: none;
+  margin-left: 2px;
+  border-right: 1.5px solid #94a3b8;
+  border-bottom: 1.5px solid #94a3b8;
+  transform: rotate(45deg);
+  transition: transform 150ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@media (max-width: 768px) {
+  .legal-nav-header {
+    cursor: pointer;
+  }
+
+  .legal-nav-chevron {
+    display: block;
+  }
+
+  .legal-nav-card.collapsed .legal-nav-body {
+    grid-template-rows: 0fr;
+  }
+
+  .legal-nav-card.collapsed .legal-nav-chevron {
+    transform: rotate(-45deg);
+  }
+
+  .legal-nav-card.collapsed .legal-nav-header {
+    border-bottom-color: transparent;
+  }
+}
+`
+
+LegalNav.afterDOMLoaded = `
+function toggleLegalNav() {
+  var card = this.closest(".legal-nav-card")
+  var collapsed = card.classList.toggle("collapsed")
+  this.setAttribute("aria-expanded", String(!collapsed))
+}
+function setupLegalNav() {
+  var cards = document.getElementsByClassName("legal-nav-card")
+  // Desktop: luôn mở. Mobile: mặc định gấp lại (đọc tài liệu là việc chính).
+  var mobile = window.matchMedia("(max-width: 768px)").matches
+  for (var i = 0; i < cards.length; i++) {
+    var card = cards[i]
+    var header = card.querySelector(".legal-nav-header")
+    if (!header) continue
+    card.classList.toggle("collapsed", mobile)
+    header.setAttribute("aria-expanded", String(!mobile))
+    header.addEventListener("click", toggleLegalNav)
+    if (window.addCleanup) window.addCleanup(() => header.removeEventListener("click", toggleLegalNav))
+  }
+}
+document.addEventListener("nav", setupLegalNav)
 `
 
 export default (() => LegalNav) satisfies QuartzComponentConstructor

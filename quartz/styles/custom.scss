@@ -326,7 +326,7 @@ select:focus-visible,
     border-left-color: var(--success-500);
 
     .status-badge-sep {
-      color: var(--success-600);
+      color: var(--success-800);
     }
   }
 
@@ -614,7 +614,7 @@ article table {
 
   th {
     background: var(--slate-50);
-    color: var(--slate-600);
+    color: var(--slate-700);
     font-weight: 600;
     font-size: 11px;
     line-height: 16px;
@@ -676,9 +676,32 @@ article .table-container:has(> table > thead > tr > th:nth-child(6)) {
 
 // Mobile: bảng min-width 480px trong container ~326px → LUÔN overflow, dù <6 cột.
 // Cạnh phải mờ dần cho MỌI bảng (không chỉ 6+ cột) → hint scroll ngang rõ trên touch.
+// CỘT ĐẦU DÍNH (sticky): khi cuộn ngang đọc cột NỘI DUNG, nhãn (HẠNG MỤC) vẫn cố định
+// ở trái — người dùng không mất ngữ cảnh hàng khi giá trị nằm ngoài mép phải.
 @media all and (max-width: 768px) {
   article .table-container {
     box-shadow: inset -24px 0 24px -24px rgba(15, 23, 42, 0.2);
+
+    table {
+      // bỏ overflow:hidden để cột sticky bám theo container đang cuộn (không phải table)
+      overflow: visible;
+
+      th:first-child,
+      td:first-child {
+        position: sticky;
+        left: 0;
+        z-index: 1;
+        box-shadow: inset -1px 0 0 var(--slate-200);
+      }
+
+      th:first-child {
+        background: var(--slate-50);
+      }
+
+      td:first-child {
+        background: #fff;
+      }
+    }
   }
 }
 
@@ -1289,7 +1312,7 @@ body[data-slug="404"] {
     background: var(--slate-100);
     border: 1px solid var(--slate-300);
     border-radius: var(--radius-md);
-    color: var(--slate-500);
+    color: var(--slate-600);
     box-shadow: none;
   }
 
