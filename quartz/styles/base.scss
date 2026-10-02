@@ -9,10 +9,12 @@ html {
   text-size-adjust: none;
   overflow-x: hidden;
   width: 100vw;
-
-  @media all and ($mobile) {
-    scroll-padding-top: 4rem;
-  }
+  // Khi click mục MỤC LỤC (TOC) / link anchor: dừng cuộn đúng phía dưới thanh
+  // header (fixed) để title của mục không bị che. Áp MỌI viewport — trước chỉ có
+  // mobile (4rem) nên desktop (header 68px) không có offset, scrollIntoView() của
+  // SPA đẩy heading lên y=0, bị lất qua title. Dùng token chiều cao header (auto
+  // 64px desktop / 56px mobile) + khoảng thở 20px.
+  scroll-padding-top: calc(var(--admin-header-h, 64px) + 20px);
 }
 
 body {
