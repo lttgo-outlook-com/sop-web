@@ -72,10 +72,18 @@
       margin: 6px 0 0 !important;
     }
 
-    // Callout đầu = tóm tắt trang: gọn, bỏ khoảng trắng thừa dưới text
+    // Callout đầu = tóm tắt trang: gọn, bỏ khoảng trắng thừa dưới text.
+    // Bỏ 3 cạnh sáng (top/right/bottom) — trong popover card đã có border +
+    // bóng, để callout giữ viền 4 cạnh thành "khung trong khung", cạnh cạnh
+    // tranh nhau. Chỉ giữ tint nền + vạch accent trái mảnh, góc trái vuông.
     .callout {
       margin: 8px 0 0 !important;
       padding: 9px 12px !important;
+      border-top: 0 !important;
+      border-right: 0 !important;
+      border-bottom: 0 !important;
+      border-left-width: 3px !important;
+      border-radius: 0 4px 4px 0 !important;
 
       > .callout-title {
         padding: 0 0 2px !important; // trước: 1rem 0 (phình ~32px)
