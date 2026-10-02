@@ -131,14 +131,11 @@ button.desktop-explorer {
       color: var(--dark);
       opacity: 0.75;
       pointer-events: all;
-      // Tiêu đề tài liệu dài: chặn tối đa 2 dòng + ellipsis để KHÔNG bao giờ cắt
-      // giữa từ/giữa âm (bệnh "sidebar mất chữ"). break-word cho token dài không
-      // khoảng (OBK-SOP-NB-00); min-width:0 để tử flex/grid co lại khi cột hẹp.
-      display: -webkit-box;
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-      text-overflow: ellipsis;
+      // Title dài được bọc xuống dòng đầy đủ (không chặn 2 dòng) để không còn
+      // "cắt chữ" ở panel; break-word chỉ tách token dài không khoảng
+      // (OBK-SOP-NB-00) khi cần, không bao giờ cắt giữa âm. min-width:0 để tử
+      // flex/grid co lại khi cột hẹp.
+      display: block;
       overflow-wrap: break-word;
       word-break: break-word;
       min-width: 0;

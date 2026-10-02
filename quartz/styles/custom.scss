@@ -1063,6 +1063,18 @@ body[data-slug="404"] {
   box-shadow: var(--shadow-arch);
   padding: 0 !important;
 
+  // Gấp (collapse): ẩn nội dung + co card về đúng chiều cao header. Base Quartz
+  // ép `.collapsed { flex-basis: 1.2rem }` (~19px) — thấp hơn header 40px nên
+  // header bị cắt đôi thành một khe hẹp ("mất khung"). Ép flex auto để card
+  // tự lấy đúng chiều cao header.
+  &.collapsed {
+    flex: 0 0 auto !important;
+  }
+
+  &.collapsed > .explorer-content {
+    display: none !important;
+  }
+
   & > .mobile-explorer {
     display: none;
   }
