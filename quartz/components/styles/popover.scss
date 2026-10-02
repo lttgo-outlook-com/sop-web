@@ -33,10 +33,10 @@
     line-height: normal;
     font-size: initial;
     font-family: var(--bodyFont);
-    border: 1px solid var(--lightgray);
+    border: 1px solid var(--slate-200);
     background-color: var(--light);
     border-radius: 4px;
-    box-shadow: var(--shadow-arch-lg);
+    box-shadow: var(--shadow-arch);
     overflow: auto;
     overscroll-behavior: contain;
     white-space: normal;
@@ -86,4 +86,12 @@
   animation: dropin 0.3s ease;
   animation-fill-mode: forwards;
   animation-delay: 0.2s;
+}
+
+// Tiêu đề trùng trong popover: header summary (div.popover-hint) đã hiện
+// h1.article-title (từ frontmatter), nên ẩn h1 markdown đầu tiên của article —
+// đồng bộ với luật ở custom.scss (:center:has(.page-header .article-title)).
+// Chỉ áp khi popover có .article-title (tránh popover thẻ/mục-lục không có title).
+.popover-inner:has(.article-title) article > h1:first-child {
+  display: none;
 }

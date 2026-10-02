@@ -6,6 +6,7 @@ const shortcutsScript = `
 document.addEventListener("nav", () => {
   let gPressed = false
   let gTimer = null
+  let lastFocused = null
 
   const modal = document.getElementById("shortcuts-modal")
   const trigger = document.getElementById("shortcuts-trigger")
@@ -15,8 +16,19 @@ document.addEventListener("nav", () => {
     if (!modal) return
     const isCurrentlyOpen = modal.style.display === "flex"
     const willOpen = show !== undefined ? show : !isCurrentlyOpen
-    modal.style.display = willOpen ? "flex" : "none"
-    document.body.style.overflow = willOpen ? "hidden" : ""
+    if (willOpen && !isCurrentlyOpen) {
+      lastFocused = document.activeElement
+      modal.style.display = "flex"
+      document.body.style.overflow = "hidden"
+      requestAnimationFrame(() => {
+        if (closeBtn) closeBtn.focus()
+      })
+    } else {
+      modal.style.display = "none"
+      document.body.style.overflow = ""
+      if (lastFocused && typeof lastFocused.focus === "function") lastFocused.focus()
+      lastFocused = null
+    }
   }
 
   if (trigger) trigger.addEventListener("click", () => toggleModal(true))
@@ -24,6 +36,21 @@ document.addEventListener("nav", () => {
   if (modal) {
     modal.addEventListener("click", (e) => {
       if (e.target === modal) toggleModal(false)
+    })
+    // Giữ focus trong modal khi Tab (a11y) — quan trọng vì đây là tính năng phím tắt.
+    modal.addEventListener("keydown", (e) => {
+      if (e.key !== "Tab" || modal.style.display !== "flex") return
+      const focusables = [...modal.querySelectorAll("button, [href], input, [tabindex]:not([tabindex='-1'])")]
+      if (focusables.length === 0) return
+      const first = focusables[0]
+      const last = focusables[focusables.length - 1]
+      if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault()
+        last.focus()
+      } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault()
+        first.focus()
+      }
     })
   }
 
@@ -191,19 +218,24 @@ KeyboardShortcuts.css = `
   gap: 0.35rem;
   padding: 0.22rem 0.55rem;
   border-radius: 9999px;
-  background-color: #ffffff;
-  border: 1px solid var(--border-subtle, #e2e8f0);
+  background-color: var(--light);
+  border: 1px solid var(--slate-200);
   font-size: 0.72rem;
-  color: #64748b;
+  color: var(--slate-500);
   cursor: pointer;
   box-shadow: var(--shadow-subtle);
   transition: all 0.15s ease;
 }
 
 .shortcuts-pill:hover {
-  background-color: #f1f5f9;
-  border-color: #cbd5e1;
-  color: #0f172a;
+  background-color: var(--slate-100);
+  border-color: var(--slate-300);
+  color: var(--slate-900);
+}
+
+.shortcuts-pill:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 1px;
 }
 
 .shortcuts-pill kbd {
@@ -213,12 +245,12 @@ KeyboardShortcuts.css = `
   width: 14px;
   height: 14px;
   border-radius: 2px;
-  background-color: #f1f5f9;
-  border: 1px solid #cbd5e1;
+  background-color: var(--slate-100);
+  border: 1px solid var(--slate-300);
   font-family: var(--codeFont);
   font-size: 0.65rem;
   font-weight: 700;
-  color: #475569;
+  color: var(--slate-600);
   line-height: 1;
 }
 
@@ -234,14 +266,16 @@ KeyboardShortcuts.css = `
 }
 
 .shortcuts-card {
-  background-color: #ffffff;
+  position: relative;
+  background-color: var(--light);
   border-radius: 4px;
-  border: 1px solid #e2e8f0;
-  box-shadow: var(--shadow-arch-lg);
+  border: 1px solid var(--slate-200);
+  box-shadow: var(--shadow-arch);
   width: 100%;
   max-width: 360px;
+  max-height: calc(100vh - 2rem);
   overflow: hidden;
-  animation: cardPop 0.15s cubic-bezier(0.16, 1, 0.3, 1);
+  animation: cardPop 0.15s var(--ease-brand);
 }
 
 @keyframes cardPop {
@@ -253,31 +287,37 @@ KeyboardShortcuts.css = `
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.65rem 0.95rem;
-  border-bottom: 1px solid #e2e8f0;
-  background-color: #f8fafc;
+  padding: 0.65rem 0.95rem 0.65rem 1.15rem;
+  border-bottom: 1px solid var(--slate-200);
+  background-color: var(--panel-header);
+  border-left: 6px solid var(--primary);
 }
 
 .shortcuts-header h4 {
   margin: 0;
   font-size: 0.82rem;
   font-weight: 700;
-  color: #0f172a;
+  color: var(--slate-900);
 }
 
 .shortcuts-close-icon {
   background: transparent;
   border: none;
   font-size: 0.8rem;
-  color: #64748b;
+  color: var(--slate-500);
   cursor: pointer;
   padding: 0.15rem 0.3rem;
   border-radius: 4px;
 }
 
 .shortcuts-close-icon:hover {
-  background-color: #e2e8f0;
-  color: #0f172a;
+  background-color: var(--slate-200);
+  color: var(--slate-900);
+}
+
+.shortcuts-close-icon:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 1px;
 }
 
 .shortcuts-content {
@@ -285,6 +325,7 @@ KeyboardShortcuts.css = `
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
+  overflow-y: auto;
 }
 
 .shortcuts-section-title {
@@ -293,7 +334,7 @@ KeyboardShortcuts.css = `
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  color: #64748b;
+  color: var(--slate-500);
   margin-bottom: 0.35rem;
 }
 
@@ -303,8 +344,8 @@ KeyboardShortcuts.css = `
   justify-content: space-between;
   padding: 0.25rem 0;
   font-size: 0.78rem;
-  color: #334155;
-  border-bottom: 1px solid #f8fafc;
+  color: var(--slate-700);
+  border-bottom: 1px solid var(--slate-100);
 }
 
 .shortcut-line:last-child {
@@ -325,13 +366,13 @@ KeyboardShortcuts.css = `
   height: 1.2rem;
   padding: 0 0.3rem;
   border-radius: 2px;
-  background-color: #f1f5f9;
-  border: 1px solid #cbd5e1;
+  background-color: var(--slate-100);
+  border: 1px solid var(--slate-300);
   font-family: var(--codeFont);
   font-size: 0.66rem;
   font-weight: 600;
-  color: #0f172a;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  color: var(--slate-900);
+  box-shadow: var(--shadow-subtle);
 }
 `
 
