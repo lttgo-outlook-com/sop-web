@@ -16,7 +16,7 @@
 # ==============================================================================
 
 # Stage 1: builder — full deps (incl. dev) to build the site + the search index
-FROM node:22-slim AS builder
+FROM node:24-slim AS builder
 WORKDIR /usr/src/app
 
 COPY package*.json ./
@@ -27,13 +27,13 @@ RUN npx quartz build              # static site  -> public/
 RUN node scripts/build-index.mjs  # search index -> dist/vault-index.json
 
 # Stage 2 (deps): production-only node_modules, cached by package*.json alone
-FROM node:22-alpine AS prod-deps
+FROM node:24-alpine AS prod-deps
 WORKDIR /usr/src/app
 COPY package*.json ./
 RUN npm ci --omit=dev
 
 # Stage 3: runtime — non-root Node server serving static files + API
-FROM node:22-alpine AS runtime
+FROM node:24-alpine AS runtime
 WORKDIR /usr/src/app
 
 ENV NODE_ENV=production
