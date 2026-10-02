@@ -42,6 +42,56 @@
     white-space: normal;
     user-select: none;
     cursor: default;
+
+    // ---- Preview gọn cho hover ----
+    // .popover-inner render page-header ĐẦY ĐỦ (breadcrumb + title + meta + tag
+    // + callout "Trang này là gì") — đúng là hợp cho trang chính nhưng quá nặng
+    // cho preview hover: title to, gap trên 32px, callout phình + khoảng trắng.
+    // Thu về mật độ preview: chữ nhỏ, sát, hết khoảng trống thừa.
+    .breadcrumb-container {
+      margin: 0 0 4px !important;
+      font-size: 11px !important;
+    }
+
+    h1,
+    h1.article-title {
+      margin: 0 !important; // bỏ gap 32px phía trên title
+      padding: 0 !important;
+      font-size: 1.1rem !important; // ~17.6px, trước 24px
+      line-height: 1.25 !important;
+      letter-spacing: -0.02em !important;
+    }
+
+    .content-meta {
+      margin: 4px 0 0 !important;
+      font-size: 11px !important;
+      line-height: 16px !important;
+    }
+
+    .tags {
+      margin: 6px 0 0 !important;
+    }
+
+    // Callout đầu = tóm tắt trang: gọn, bỏ khoảng trắng thừa dưới text
+    .callout {
+      margin: 8px 0 0 !important;
+      padding: 9px 12px !important;
+
+      > .callout-title {
+        padding: 0 0 2px !important; // trước: 1rem 0 (phình ~32px)
+        font-size: 11px !important;
+      }
+
+      > .callout-content {
+        margin-top: 2px !important;
+        font-size: 12px !important;
+        line-height: 1.5 !important;
+
+        p {
+          margin: 0 !important;
+        }
+      }
+    }
   }
 
   & > .popover-inner[data-content-type] {
