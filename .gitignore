@@ -10,3 +10,8 @@ dist
 private/
 .replit
 replit.nix
+
+# local deploy secrets (never commit) — see .env.example
+.env
+.env.*
+!.env.example

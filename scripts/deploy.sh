@@ -21,6 +21,15 @@ SERVICE_NAME="sop-web"
 IMAGE="asia-southeast1-docker.pkg.dev/${PROJECT_ID}/obk/sop-web:latest"
 BASE_URL="https://sop.obacker.com"
 
+# Load local deploy secrets from ./.env if present (gitignored). Lets
+# `npm run deploy` run without exporting vars by hand. See .env.example.
+if [[ -f .env ]]; then
+  set -a
+  # shellcheck disable=SC1091
+  source .env
+  set +a
+fi
+
 for var in GOOGLE_CLIENT_ID GOOGLE_CLIENT_SECRET OAUTH_HMAC_KEY; do
   if [[ -z "${!var:-}" ]]; then
     echo "ERROR: env var ${var} is not set. Export it before running this script." >&2
