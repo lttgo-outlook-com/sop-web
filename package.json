@@ -16,14 +16,14 @@
     "docs": "npx quartz build --serve -d docs",
     "check": "tsc --noEmit && npx prettier . --check",
     "format": "npx prettier . --write",
-    "test": "tsx --test test/",
+    "test": "node --test 'test/**/*.test.mjs'",
     "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1",
     "deploy": "./scripts/deploy.sh",
     "start": "node src/server.mjs"
   },
   "engines": {
-    "npm": ">=10.9.2",
-    "node": ">=22"
+    "npm": ">=11",
+    "node": ">=24"
   },
   "keywords": [
     "site generator",
