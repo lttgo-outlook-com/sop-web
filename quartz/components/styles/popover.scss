@@ -100,6 +100,16 @@
         }
       }
     }
+
+    // Bảng trong popover (vd: "Thông tin phiên bản") trên trang chính mang
+    // treatment "arch card" hệt popover-inner: border 1px + bóng cứng 2px 2px 0.
+    // Trong popover, card đã là khung — để bảng giữ nguyên khung riêng thành
+    // "2 khung card lồng nhau" (double frame). Bỏ border + bóng của bảng, giữ
+    // viền dòng th/td bên trong để còn đọc được bảng.
+    table {
+      border: none !important;
+      box-shadow: none !important;
+    }
   }
 
   & > .popover-inner[data-content-type] {
