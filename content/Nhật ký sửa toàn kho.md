@@ -36,7 +36,7 @@ tags:
 
 ## 1. Danh mục tài liệu
 
-Trang này ghi 262 lượt sửa thuộc các bản cũ của 134 tài liệu, tính tới 06/10/2026. Lượt sửa của bản hiện hành ghi tại mục NHẬT KÝ SỬA trong chính tài liệu đó.
+Trang này ghi 264 lượt sửa thuộc các bản cũ của 134 tài liệu, tính tới 06/10/2026. Lượt sửa của bản hiện hành ghi tại mục NHẬT KÝ SỬA trong chính tài liệu đó.
 
 | Tài liệu | Số lượt sửa | Ngày sửa gần nhất |
 | --- | --- | --- |
@@ -45,8 +45,8 @@ Trang này ghi 262 lượt sửa thuộc các bản cũ của 134 tài liệu, t
 | [[NH-01_Doi_chieu_ngan_hang\|NH-01]] | 3 | 06/10/2026 |
 | [[TH-02_So_theo_doi_han_tong_hop\|TH-02]] | 1 | 06/10/2026 |
 | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] | 10 | 04/10/2026 |
+| [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] | 7 | 04/10/2026 |
 | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] | 7 | 04/10/2026 |
-| [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] | 6 | 04/10/2026 |
 | [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] | 6 | 04/10/2026 |
 | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] | 6 | 04/10/2026 |
 | [[05_OBK-SOP-LD_Lao_dong_va_tien_luong\|OBK-SOP-LD]] | 6 | 04/10/2026 |
@@ -59,6 +59,7 @@ Trang này ghi 262 lượt sửa thuộc các bản cũ của 134 tài liệu, t
 | [[08_OBK-SOP-PM_Chuong_trinh_doi_tac_gioi_thieu_khach_hang\|OBK-SOP-PM]] | 3 | 04/10/2026 |
 | [[17_Khung_xu_phat_va_phong_ngua\|OBK-SOP-17]] | 3 | 04/10/2026 |
 | [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-QCTC-03]] | 3 | 04/10/2026 |
+| [[02_Mo_hinh_dich_vu_va_phan_vai\|OBK-SOP-02]] | 2 | 04/10/2026 |
 | [[07_Bao_cao_tai_chinh_nam\|OBK-HB-07]] | 2 | 04/10/2026 |
 | [[PL_3_Ban_do_lien_ket_va_chuyen_tang\|OBK-SOP-PL3]] | 2 | 04/10/2026 |
 | [[BH-01_Bang_theo_doi_bien_dong_bhxh_va_lao_dong_khach_hang\|BH-01]] | 2 | 04/10/2026 |
@@ -118,7 +119,6 @@ Trang này ghi 262 lượt sửa thuộc các bản cũ của 134 tài liệu, t
 | [[PL_F_Bao_cao_kiem_soat\|OBK-SOP-PL-F]] | 1 | 01/10/2026 |
 | [[13_Lich_tuan_thu_va_quy_trinh_khai_nop\|OBK-HB-13]] | 1 | 01/10/2026 |
 | [[01_Nguyen_tac_hanh_nghe\|OBK-SOP-01]] | 1 | 01/10/2026 |
-| [[02_Mo_hinh_dich_vu_va_phan_vai\|OBK-SOP-02]] | 1 | 01/10/2026 |
 | [[03_Onboarding_khach_hang\|OBK-SOP-03]] | 1 | 01/10/2026 |
 | [[04_Quan_ly_chung_tu\|OBK-SOP-04]] | 1 | 01/10/2026 |
 | [[05_Quy_trinh_ke_toan_thang\|OBK-HB-05]] | 1 | 01/10/2026 |
@@ -181,6 +181,7 @@ Trang này ghi 262 lượt sửa thuộc các bản cũ của 134 tài liệu, t
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 04/10/2026 | R.4.0.1 | Bỏ số đếm liệt kê, lối tự sự và ghi chú log ở quy chế tài chính. |
 | 04/10/2026 | R.4.0.0 | Xóa định mức ĐM-13 (bảo hiểm hưu trí, nhân thọ tự nguyện) và định mức ĐM-14 (ăn giữa ca, ăn trưa chi bằng tiền) cùng mục 27.6 và mục 27.7 vì oBacker chưa áp dụng hai khoản này<br>Chuyển mức nội bộ của ĐM-10 (2.500.000 đồng một người một năm) và ĐM-12 (90% mức lương bình quân) thành định mức chính thức của oBacker, mức tối đa luật định chuyển sang cột căn cứ<br>Sửa mục 21.1, 27.1, 50.3, callout Điều 50 và bảng căn cứ cho phù hợp |
 | 04/10/2026 | R.3.0.1 | Bo so dem tai tieu de Dieu 5; chuan hoa muc 5.1a phan dinh pham vi ap dung nguyen tac chung tu truoc; chuyen cac ghi chu dan do tu su, ghi nhan tra cuu va callout can xac minh tai cac Dieu 9, 12a, 16, 17, 21, 23, 24, 25, 29, 38, 45, 46, 49 thanh quy dinh va ghi chu hanh chinh chuan muc |
 | 02/10/2026 | R.3.0.0 | Ma trận mục 12.3: bậc B2 người quyết định là COO, CEO là dự phòng khi COO vắng mặt, không còn KTT; cập nhật ghi chú kiểm tra quy tắc tách quyền 47.2 cho khớp bậc B2 |
@@ -656,6 +657,7 @@ Trang này ghi 262 lượt sửa thuộc các bản cũ của 134 tài liệu, t
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 04/10/2026 | R.1.0.1 | Chuan hoa van phong hanh chinh, bo so dem tai cac tieu de va RACI, chuyen callout sang quy dinh van hanh noi bo |
 | 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
 
 ### `OBK-SOP-03`

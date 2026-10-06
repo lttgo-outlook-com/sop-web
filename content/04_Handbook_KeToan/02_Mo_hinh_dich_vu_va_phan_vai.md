@@ -4,7 +4,7 @@ code: "OBK-SOP-02"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.1"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -30,7 +30,7 @@ tags:
 | Mã tài liệu | OBK-SOP-02 |
 | Tên chương | Mô hình dịch vụ, phân vai trò và cam kết chất lượng |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.1.0.1, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -77,23 +77,6 @@ tags:
 2.3. Áp dụng cho khách hàng doanh nghiệp. Khách hàng hộ kinh doanh và cá nhân kinh doanh áp dụng phần tương ứng; các nội dung không phù hợp do TL-KT kết luận về mặt nghiệp vụ và COO quyết định điều chỉnh.
 
 2.4. Không áp dụng cho các dịch vụ ngoài khối kế toán thuế, ví dụ dịch vụ pháp lý doanh nghiệp thuần túy, dịch vụ nhân sự trọn gói, trừ khi được nêu rõ trong gói dịch vụ tương ứng.
-
----
-
-## 3. Căn cứ
-
-### 3.1. Căn cứ nội bộ
-
-| # | Căn cứ | Nội dung |
-| --- | --- | --- |
-| 1 | Quy chế nội bộ oBacker về phân cấp phê duyệt và phân cấp ký | Xác định thẩm quyền của TL-KT, COO và CEO, phạm vi ủy quyền ký |
-| 2 | Mẫu hợp đồng dịch vụ kế toán của oBacker | Phạm vi công việc, phạm vi ủy quyền, trách nhiệm các bên |
-| 3 | Chương 01 mục 5.2 | Bảng phân định trách nhiệm giữa khách hàng và oBacker |
-| 4 | Chương 01 mục 5.7 | Danh mục việc không được tự quyết |
-| 5 | Chương 13 | Hạn pháp luật để tính ngược ra mốc nội bộ |
-| 6 | Quyết định của CEO ngày 25/08/2026 về mô hình 5 vai trò | Năm vai trò CV-KT, TL-KT, AM, COO, CEO;<br>bốn nguyên tắc không được vi phạm tại mục 4.1;<br>bảng RACI tại mục 6.3 |
-| 7 | Quyết định của CEO ngày 26/08/2026 | Một lớp soát, không bắt buộc soát chéo, xem mục 6.9;<br>AM là đầu mối duy nhất với khách;<br>ba chữ ký trên báo cáo tài chính đều là của khách, xem mục 6.11;<br>số khách trên mỗi CV-KT, mỗi TL-KT và mỗi AM thuộc thẩm quyền CEO |
-
 
 ---
 
@@ -997,4 +980,4 @@ Vì oBacker không đứng tên trên báo cáo tài chính, ba điều sau tr�
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 04/10/2026 | R.1.0.1 | Chuan hoa van phong hanh chinh, bo so dem tai cac tieu de va RACI, chuyen callout sang quy dinh van hanh noi bo |
+| 06/10/2026 | R.1.1.0 | Bớt mục 3 Căn cứ (bảng căn cứ nội bộ trùng dẫn chiếu trong thân chương), Căn cứ không còn là mục khuôn cấp 3 theo A1 06/10 |

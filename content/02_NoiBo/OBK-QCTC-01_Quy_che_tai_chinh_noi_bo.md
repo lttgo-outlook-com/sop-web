@@ -4,7 +4,7 @@ code: "OBK-QCTC-01"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 1, văn bản KHUNG toàn công ty"
-version: "R.4.0.1"
+version: "R.4.0.2"
 status: "đang áp dụng"
 draft_date: "04/10/2026"
 author: "CEO"
@@ -28,7 +28,7 @@ tags:
 | Mã tài liệu | OBK-QCTC-01 |
 | Tên tài liệu | Quy chế tài chính nội bộ của Công ty cổ phần oBacker |
 | Cấp tài liệu | Cấp 1, văn bản KHUNG. Các quy trình OBK-SOP-NB nằm dưới quy chế này |
-| Phiên bản | R.4.0.1, đang áp dụng |
+| Phiên bản | R.4.0.2, đang áp dụng |
 | Ngày biên soạn | 04/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -780,7 +780,7 @@ d) Khoản chi chỉ chuyển khoản vào tài khoản ghi trong Hợp đồng 
 24.1. Nghĩa vụ khai và nộp thay khi oBacker mua dịch vụ của tổ chức nước ngoài không có cơ sở thường trú tại Việt Nam thực hiện theo OBK-SOP-NB-01 mục 5.10.
 
 > [!note] CĂN CỨ ÁP DỤNG THUẾ NHÀ THẦU NƯỚC NGOÀI
-> Tỷ lệ phần trăm thuế GTGT và thuế TNDN đối với nhà thầu nước ngoài áp dụng theo từng loại hình dịch vụ theo quy định của Bộ Tài chính `[Văn bản hợp nhất 18/VBHN-BTC Đ.13]` và quy định hướng dẫn liên quan. Trước khi thanh toán cho nhà cung cấp nước ngoài, KTT có trách nhiệm xác định loại dịch vụ, đối chiếu tỷ lệ thuế tương ứng và lập kết luận bằng văn bản theo mục 24.2.
+> Tỷ lệ phần trăm thuế GTGT và thuế TNDN đối với nhà thầu nước ngoài áp dụng theo từng loại hình dịch vụ theo quy định của Bộ Tài chính `[Văn bản hợp nhất 18/VBHN-BTC ngày 04/06/2026 Đ.13]` và quy định hướng dẫn liên quan. Trước khi thanh toán cho nhà cung cấp nước ngoài, KTT có trách nhiệm xác định loại dịch vụ, đối chiếu tỷ lệ thuế tương ứng và lập kết luận bằng văn bản theo mục 24.2.
 
 24.2. Mọi thanh toán ra nước ngoài phải có kết luận về nghĩa vụ khấu trừ nộp thay do KTT ký, lập trước khi chuyển tiền. Không có kết luận thì NTT từ chối lệnh chi.
 
@@ -1815,4 +1815,4 @@ Ba quy tắc, cũng ghi tại mục 3.4:
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 04/10/2026 | R.4.0.1 | Bỏ số đếm liệt kê, lối tự sự và ghi chú log ở quy chế tài chính. |
+| 06/10/2026 | R.4.0.2 | Ghi thêm ngày 04/06/2026 cho trích dẫn Văn bản hợp nhất 18/VBHN-BTC mục 24 để phân biệt với bản hợp nhất cùng số hiệu đã hết hiệu lực |
