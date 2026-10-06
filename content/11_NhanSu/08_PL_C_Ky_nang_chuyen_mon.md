@@ -4,19 +4,15 @@ code: "OBK-QCNS-08-PL-C"
 type: "sop"
 folder: "11_NhanSu"
 level: "Phụ lục"
-version: "R.1.0.0"
+version: "R.1.0.1"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 23/09/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-QCNS-08 Khung đánh giá hiệu suất"
 next_review: "Không quá 06 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-QCNS-08-PL-C
 tags:
@@ -31,7 +27,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-QCNS-08-PL-C |
 | Cấp tài liệu | Phụ lục |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.0.1, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 23/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -57,7 +53,7 @@ Mức thành thạo kỹ năng và kết quả làm việc của một kỳ là 
 
 ---
 
-## 2. THANG BẢY BẬC
+## 2. THANG BẬC NĂNG LỰC
 
 Thang bảy bậc dùng một bộ nhãn cho cả bảy bậc. Mỗi bậc có một nghĩa.
 
@@ -112,7 +108,7 @@ Bảng kỹ năng tại mục 5 chỉ ghi kỹ năng. Chỉ số đo được, c
 
 Bậc yêu cầu tại mọi bảng dưới đây ghi theo thang bảy bậc tại mục 2. Tổng trọng số của mỗi bảng bằng 1.
 
-### 5.1. Mảng Lao động và Tiền lương, 8 kỹ năng
+### 5.1. Mảng Lao động và Tiền lương
 
 Cột P1 và P2 áp cho chuyên viên `CV-LD` ở cấp tương ứng. Cột M1 áp cho `TL-LD`.
 
@@ -129,12 +125,12 @@ Cột P1 và P2 áp cho chuyên viên `CV-LD` ở cấp tương ứng. Cột M1 
 
 Trọng số và bậc yêu cầu là con số oBacker tự đặt. Bảng chưa có bậc yêu cầu của cấp P3 và cấp P4.
 
-### 5.2. Mảng Công nghệ và Sản phẩm, vị trí Product Owner, 14 kỹ năng
+### 5.2. Mảng Công nghệ và Sản phẩm, vị trí Product Owner
 
 Bảng dưới đây áp cho Product Owner `CV-CN`, vị trí chuyên môn duy nhất của Bộ phận Công nghệ và Sản phẩm theo [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen|OBK-QCTC-02]] Điều 6, ở cấp P1 đến P4. Cột M1 ghi bậc yêu cầu của Tech Lead `TL-CN`.
 
 | Kỹ năng | Trọng số | P1 | P2 | P4 | M1 | Bắt buộc |
-| --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- | --- |
 | Sở hữu vấn đề | 0,075 | 1 | 2 | 4 | 3 | Không |
 | Sắp thứ tự ưu tiên và đánh giá cơ hội | 0,075 | 1 | 2 | 7 | 5 | Có |
 | Hiểu người dùng | 0,10 | 3 | 4 | 6 | 5 | Có |
@@ -152,28 +148,28 @@ Bảng dưới đây áp cho Product Owner `CV-CN`, vị trí chuyên môn duy n
 
 Trọng số và bậc yêu cầu là con số oBacker tự đặt. Bảng chưa có bậc yêu cầu của cấp P3.
 
-### 5.3. Mảng Giấy phép, 9 kỹ năng
+### 5.3. Mảng Giấy phép
 
 Căn cứ: [[04_OBK-SOP-LIC_Giay_phep|OBK-SOP-LIC]]. Cột P1 tới P4 áp cho chuyên viên `CV-LIC` ở cấp tương ứng. Cột M1 áp cho `TL-LIC`.
 
 | Kỹ năng | Trọng số | P1 | P2 | P3 | P4 | M1 | Bắt buộc | Căn cứ |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Đánh giá điều kiện và tính khả thi hồ sơ giấy phép | 0,1111 | 2 | 3 | 4 | 6 | 5 | Có | [[04_OBK-SOP-LIC_Giay_phep\|OBK-SOP-LIC]] mục 2 Job LIC-01; mục 3 B4; mục 5 `KS-LIC-01`, `KS-LIC-02`, `KS-LIC-03` |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Đánh giá điều kiện và tính khả thi hồ sơ giấy phép | 0,1111 | 2 | 3 | 4 | 6 | 5 | Có | [[04_OBK-SOP-LIC_Giay_phep\|OBK-SOP-LIC]] mục 2 Job LIC-01; mục 3 B1; mục 5 `KS-LIC-01`, `KS-LIC-02`, `KS-LIC-03` |
 | Thủ tục đăng ký, thay đổi và chấm dứt hoạt động doanh nghiệp trong nước | 0,1111 | 2 | 3 | 4 | 6 | 5 | Có | [[04_OBK-SOP-LIC_Giay_phep\|OBK-SOP-LIC]] mục 2 Job LIC-02, LIC-04 tới LIC-07, LIC-09 tới LIC-12 |
 | Thủ tục đăng ký đầu tư và giao dịch vốn của nhà đầu tư nước ngoài | 0,1111 | 2 | 3 | 4 | 6 | 5 | Có | [[04_OBK-SOP-LIC_Giay_phep\|OBK-SOP-LIC]] mục 2 Job LIC-03, LIC-13 tới LIC-17 |
 | Thủ tục cấp, gia hạn và cấp lại giấy phép lao động cho người nước ngoài | 0,1111 | 2 | 3 | 4 | 6 | 5 | Có | [[04_OBK-SOP-LIC_Giay_phep\|OBK-SOP-LIC]] mục 2 Job LIC-18 tới LIC-21 |
-| Kiểm soát chất lượng hồ sơ giấy phép | 0,1111 | 2 | 3 | 4 | 6 | 5 | Có | [[04_OBK-SOP-LIC_Giay_phep\|OBK-SOP-LIC]] mục 3 B7; mục 5 `KS-LIC-04` tới `KS-LIC-08` |
+| Kiểm soát chất lượng hồ sơ giấy phép | 0,1111 | 2 | 3 | 4 | 6 | 5 | Có | [[04_OBK-SOP-LIC_Giay_phep\|OBK-SOP-LIC]] mục 3 B3; mục 5 `KS-LIC-04` tới `KS-LIC-08` |
 | Theo dõi mốc và tạo Job gia hạn, tái xác nhận trước hạn | 0,1111 | 2 | 3 | 4 | 6 | 5 | Không | [[04_OBK-SOP-LIC_Giay_phep\|OBK-SOP-LIC]] mục 2 Job LIC-08, LIC-15, LIC-19, LIC-24; mục 5 `KS-LIC-09` |
 | Điều phối và soát xét sản phẩm của đối tác thuê ngoài | 0,1111 | 2 | 3 | 4 | 6 | 5 | Không | [[04_OBK-SOP-LIC_Giay_phep\|OBK-SOP-LIC]] mục 2 Job LIC-22; mục 4 quy tắc đối tác thuê ngoài |
 | Cập nhật văn bản pháp luật về giấy phép và rà soát tác động tới hồ sơ đang xử lý | 0,1111 | 2 | 3 | 4 | 6 | 5 | Có | [[04_OBK-SOP-LIC_Giay_phep\|OBK-SOP-LIC]] mục 8; mục 11 điểm 1 tới điểm 3 |
-| Tra cứu và xác lập cơ sở pháp lý cho nghiệp vụ chưa có tiền lệ, phối hợp Bộ phận Nghiên cứu và Phát triển pháp lý | 0,1112 | 2 | 3 | 4 | 6 | 5 | Có | [[04_OBK-SOP-LIC_Giay_phep\|OBK-SOP-LIC]] mục 1.3; mục 3 B4; mục 9 |
+| Tra cứu và xác lập cơ sở pháp lý cho nghiệp vụ chưa có tiền lệ, phối hợp Bộ phận Nghiên cứu và Phát triển pháp lý | 0,1112 | 2 | 3 | 4 | 6 | 5 | Có | [[04_OBK-SOP-LIC_Giay_phep\|OBK-SOP-LIC]] mục 1.3; mục 3 B1; mục 9 |
 
-### 5.4. Mảng Kế toán và Thuế, 14 kỹ năng
+### 5.4. Mảng kế toán và thuế
 
 Căn cứ: [[03_OBK-SOP-KT_Ke_toan_va_thue|OBK-SOP-KT]] và Handbook Kế toán. Cột P1 tới P4 áp cho chuyên viên `CV-KT` ở cấp tương ứng. Cột M1 áp cho `TL-KT`.
 
 | Kỹ năng | Trọng số | P1 | P2 | P3 | P4 | M1 | Bắt buộc | Căn cứ |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Tiếp nhận và đánh giá hiện trạng khách hàng mới | 0,0714 | 2 | 3 | 4 | 6 | 5 | Không | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] mục 2 Job KT-01; Handbook Kế toán [[03_Onboarding_khach_hang\|OBK-SOP-03]], [[08_Che_do_ke_toan_ap_dung\|OBK-HB-08]] |
 | Quản lý chứng từ kế toán | 0,0714 | 2 | 3 | 4 | 6 | 5 | Không | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] mục 2 Job KT-02; Handbook Kế toán [[04_Quan_ly_chung_tu\|OBK-SOP-04]] |
 | Hạch toán nghiệp vụ kế toán | 0,0714 | 2 | 3 | 4 | 6 | 5 | Có | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] mục 2 Job KT-03; Handbook Kế toán [[05_Quy_trinh_ke_toan_thang\|OBK-HB-05]]; mục 4 `KS-KT-09` |
@@ -189,12 +185,12 @@ Căn cứ: [[03_OBK-SOP-KT_Ke_toan_va_thue|OBK-SOP-KT]] và Handbook Kế toán.
 | Rà soát đầu năm và chốt khoản mục có mức khống chế | 0,0714 | 2 | 3 | 4 | 6 | 5 | Không | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] mục 2 Job KT-26, KT-27 |
 | Cập nhật văn bản pháp luật thuế và đánh giá tác động | 0,0718 | 2 | 3 | 4 | 6 | 5 | Có | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] mục 2 Job KT-25; Handbook Kế toán [[21_Cap_nhat_van_ban_phap_luat\|OBK-SOP-21]] |
 
-### 5.5. Mảng Dịch vụ pháp lý, 9 kỹ năng
+### 5.5. Mảng Dịch vụ pháp lý
 
 Căn cứ: [[06_OBK-SOP-LS_Dich_vu_phap_ly|OBK-SOP-LS]]. Cột P1 tới P4 áp cho chuyên viên `CV-LS` ở cấp tương ứng. Cột M1 áp cho `TL-LS`.
 
 | Kỹ năng | Trọng số | P1 | P2 | P3 | P4 | M1 | Bắt buộc | Căn cứ |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Soạn thảo và rà soát hợp đồng, phụ lục, biên bản sửa đổi và chấm dứt hợp đồng cho khách | 0,1112 | 1 | 2 | 4 | 6 | 5 | Có | [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] Job LS-03, LS-04, LS-05, LS-16 |
 | Lập thư tư vấn, bản ghi nhớ pháp lý và trả lời câu hỏi tư vấn cho khách | 0,1111 | 1 | 2 | 4 | 6 | 5 | Có | [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] Job LS-06 tới LS-09; [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] NT-1 |
 | Nghiên cứu chuyên đề, rà soát tuân thủ doanh nghiệp và rà soát pháp lý phục vụ giao dịch | 0,1111 | 1 | 2 | 4 | 6 | 5 | Có | [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] Job LS-10, LS-11, LS-12 |
@@ -205,7 +201,7 @@ Căn cứ: [[06_OBK-SOP-LS_Dich_vu_phap_ly|OBK-SOP-LS]]. Cột P1 tới P4 áp c
 | Điều phối và soát xét sản phẩm của luật sư hoặc đối tác thuê ngoài | 0,1111 | 1 | 2 | 3 | 5 | 4 | Không | [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] Job LS-18 |
 | Hỗ trợ khách làm việc với cơ quan nhà nước trong một vụ việc pháp lý | 0,1111 | 1 | 2 | 3 | 5 | 4 | Không | [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] Job LS-17 |
 
-### 5.6. Mảng Nghiên cứu pháp lý, 10 kỹ năng
+### 5.6. Mảng Nghiên cứu pháp lý
 
 Căn cứ: [[07_OBK-SOP-RD_Nghien_cuu_phap_ly|OBK-SOP-RD]]. Bộ phận Nghiên cứu và Phát triển pháp lý thuộc nhánh `CEO` theo [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen|OBK-QCTC-02]] Điều 6. Cột P1 tới P4 áp cho Paralegal `CV-RD` ở cấp tương ứng. Cột M1 áp cho `TL-RD`. Cấp áp dụng của hai vai trò ghi tại [[01_Khung_nhan_su_tong_hop|OBK-QCNS-01]].
 
@@ -230,4 +226,4 @@ Bảng chưa có bậc yêu cầu của cấp P2, P3 và P4.
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.0.1 | Đổi dẫn chiếu bước B4 và B7 thành B1 và B3 tại bảng kỹ năng mảng giấy phép |

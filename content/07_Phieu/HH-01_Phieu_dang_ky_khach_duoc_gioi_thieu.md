@@ -4,19 +4,15 @@ code: "HH-01"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-TTT-05 Cách làm phiếu thao tác"
-law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - HH-01
 tags:
@@ -29,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | HH-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -40,6 +36,7 @@ tags:
 | **Ai dùng** | `PM` |
 | **Sinh từ** | [[08_OBK-SOP-PM_Chuong_trinh_doi_tac_gioi_thieu_khach_hang\|OBK-SOP-PM]] Job PM-02, PM-03, PM-05, mục 2.3 và mục 4;<br>bản mẫu Điều 3 |
 | **Ngày làm phiếu** | 24/09/2026 |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
@@ -143,21 +140,12 @@ Loại đối tác:   Doanh nghiệp [ ]     Cá nhân [ ]
 
 ### 1. Mục đích sử dụng
 
-Bản mẫu coi khách là được Ghi Nhận Mặc Nhiên khi oBacker chưa phản hồi trong 03 ngày làm việc kể từ Ngày Được Giới Thiệu. Sau Ghi Nhận Mặc Nhiên, oBacker chỉ còn 30 ngày để chứng minh tiếp xúc trước. Phiếu giữ đủ dữ liệu để oBacker phản hồi trong hai thời hạn đó, và để chứng minh lý do khi từ chối. Bằng chứng đồng ý của người liên hệ là tài liệu để oBacker chứng minh sự đồng ý khi có tranh chấp [[CC-DN-79 Trách nhiệm chứng minh sự đồng ý thuộc bên kiểm soát dữ liệu cá nhân|CC-DN-79]].
+Bản mẫu coi khách là được Ghi Nhận Mặc Nhiên khi oBacker chưa phản hồi trong 03 ngày làm việc kể từ Ngày Được Giới Thiệu. Sau Ghi Nhận Mặc Nhiên, oBacker chỉ còn 30 ngày để chứng minh tiếp xúc trước. Phiếu giữ đủ dữ liệu để oBacker phản hồi trong hai thời hạn đó, và để chứng minh lý do khi từ chối. Bằng chứng đồng ý của người liên hệ là tài liệu để oBacker chứng minh sự đồng ý của chủ thể dữ liệu khi có tranh chấp, vì trách nhiệm chứng minh sự đồng ý thuộc về oBacker với tư cách bên kiểm soát dữ liệu cá nhân.
 
-### 2. Căn cứ quy định và pháp luật liên quan
-
-| Việc số | Nguồn | Nội dung |
-| --- | --- | --- |
-| 1 | [[08_OBK-SOP-PM_Chuong_trinh_doi_tac_gioi_thieu_khach_hang\|OBK-SOP-PM]] KS-PM-01;<br>[[PL_PM_Dieu_kien_thuong_mai_chuan\|OBK-SOP-PM-PL1]] dòng 5 | Kênh Đăng Ký contact@obacker.com là kênh đăng ký duy nhất |
-| 2 và 3 | [[08_OBK-SOP-PM_Chuong_trinh_doi_tac_gioi_thieu_khach_hang\|OBK-SOP-PM]] KS-PM-02;<br>[[PL_PM_Dieu_kien_thuong_mai_chuan\|OBK-SOP-PM-PL1]] dòng 6, 7, 8 | Năm nội dung đăng ký;<br>Ngày Được Giới Thiệu;<br>hạn 03 ngày làm việc;<br>Ghi Nhận Mặc Nhiên [[CC-DN-76 Chuyển giao dữ liệu cá nhân trong các trường hợp luật cho phép, có thu phí hoặc không thu phí, không được xác định là mua, bán dữ liệu cá nhân\|CC-DN-76]] [[CC-DN-77 Điều kiện của sự đồng ý; sự im lặng hoặc không phản hồi không được coi là sự đồng ý\|CC-DN-77]] |
-| 4 | [[08_OBK-SOP-PM_Chuong_trinh_doi_tac_gioi_thieu_khach_hang\|OBK-SOP-PM]] mục 2.3 | Trường bắt buộc của sổ đăng ký giới thiệu |
-| 5 và 6 | [[08_OBK-SOP-PM_Chuong_trinh_doi_tac_gioi_thieu_khach_hang\|OBK-SOP-PM]] KS-PM-03, Job PM-04;<br>[[PL_PM_Dieu_kien_thuong_mai_chuan\|OBK-SOP-PM-PL1]] dòng 9, 10, 11 | Tiếp xúc trước trong 24 tháng;<br>thư từ chối kèm bằng chứng có ghi ngày;<br>`CEO` quyết nguồn khi nhiều nguồn |
-| 7 tới 10 | [[08_OBK-SOP-PM_Chuong_trinh_doi_tac_gioi_thieu_khach_hang\|OBK-SOP-PM]] Job PM-03, PM-05;<br>[[PL_PM_Dieu_kien_thuong_mai_chuan\|OBK-SOP-PM-PL1]] dòng 8 | Thư gửi đối tác;<br>quyền chứng minh tiếp xúc trước trong 30 ngày;<br>bàn giao lead cho `AM` tại `AM-01` |
 
 ## Con số của phiếu này lấy ở đâu
 
-Phiếu này không tự đặt con số nào. Mốc 03 ngày làm việc, mốc 30 ngày, mốc 24 tháng và mốc 10 ngày làm việc lấy từ Điều 3.3.2, Điều 3.3.4, Điều 3.5 và Điều 3.6.2 bản mẫu, ghi tại [[PL_PM_Dieu_kien_thuong_mai_chuan|OBK-SOP-PM-PL1]] dòng 7 tới dòng 11. Các mốc trên là mốc theo hợp đồng giới thiệu khách hàng, không phải mốc theo pháp luật.
+Phiếu này không tự đặt con số nào. Mốc 03 ngày làm việc, mốc 30 ngày, mốc 24 tháng và mốc 10 ngày làm việc lấy từ Điều 3.3.2, Điều 3.3.4, Điều 3.5 và Điều 3.6.2 bản mẫu, ghi tại OBK-SOP-PM-PL1 dòng 7 tới dòng 11. Các mốc trên là mốc theo hợp đồng giới thiệu khách hàng, không phải mốc theo pháp luật.
 
 ---
 
@@ -165,4 +153,4 @@ Phiếu này không tự đặt con số nào. Mốc 03 ngày làm việc, mốc
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu HH-01 về Sổ cái OBK-MSR |

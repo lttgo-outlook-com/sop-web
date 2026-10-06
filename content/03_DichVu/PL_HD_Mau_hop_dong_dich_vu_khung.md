@@ -9,21 +9,15 @@ status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-SOP-AM Quản lý khách hàng"
-law_as_of: "Pháp luật có hiệu lực tại ngày 27/09/2026"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-SOP-AM-PL2
 tags:
   - loai/sop
   - cap/phu-luc
-  - dich-vu/am
-  - nghiep-vu/dieu-kien-dich-vu-phap-ly
 ---
 # Quy chuẩn và Bản mẫu Hợp đồng Dịch vụ Khung
 
@@ -45,7 +39,7 @@ tags:
 
 Phụ lục này quy định quy chuẩn kiến trúc và ban hành hai bản mẫu Hợp đồng Dịch vụ Khung (Master Services Agreement - MSA) ký kết trực tiếp giữa oBacker và khách hàng: một bản thuần Việt và một bản song ngữ Việt - Anh.
 
-### 1.1. Cấu trúc mô-đun hóa hai phần
+### 1.1. Cấu trúc mô-đun hóa hợp đồng
 
 Hợp đồng dịch vụ của oBacker được thiết kế theo cấu trúc mô-đun hóa độc lập giữa phần nguyên tắc chung và phần phạm vi nghiệp vụ:
 
@@ -56,7 +50,7 @@ Hợp đồng dịch vụ của oBacker được thiết kế theo cấu trúc m
 
 1. `AM` tuyệt đối không tự ý thêm, bớt, hoặc chỉnh sửa câu chữ tại Thân Hợp Đồng Khung.
 2. Khi phát sinh dịch vụ mới hoặc khách hàng mua thêm dịch vụ, `AM` chỉ lập thêm Phụ lục Dịch vụ theo mẫu quy định tại mục 3 và mục 4 của tài liệu này, kẹp vào Hợp Đồng Khung đã ký.
-3. Mọi yêu cầu sửa đổi điều khoản từ phía khách hàng phải tuân thủ nghiêm ngặt ma trận phê duyệt 3 cấp quy định tại [[03_De_xuat_bao_gia_va_ky_hop_dong\|OBK-HB-33]] mục 6.6.
+3. Mọi yêu cầu sửa đổi điều khoản từ phía khách hàng phải tuân thủ nghiêm ngặt ma trận phê duyệt 3 cấp quy định tại OBK-HB-33 mục 6.6.
 
 ---
 

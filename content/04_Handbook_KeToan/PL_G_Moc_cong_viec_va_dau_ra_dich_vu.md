@@ -9,20 +9,16 @@ status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
 parent: "OBK-SOP-KT Kế toán và thuế"
 next_review: "Định kỳ hằng năm"
 appendix: "Mốc công việc và đầu ra dịch vụ"
-law_as_of: "Pháp luật có hiệu lực tại ngày 25/08/2026"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-SOP-PL-G
 tags:
   - loai/sop
   - cap/phu-luc
-  - nghiep-vu/tien-luong
 ---
 # Phụ lục G. Mốc công việc và đầu ra dịch vụ
 
@@ -57,8 +53,8 @@ Ba cách dùng:
 > [!note] KHÔNG GẮN NĂM
 > Mọi mốc trong phụ lục này viết dưới dạng LẶP LẠI ĐƯỢC: ngày trong tháng, tháng trong năm, hoặc số ngày làm việc tính từ một sự kiện. Không có mốc nào gắn với một năm cụ thể, để phụ lục dùng được cho mọi năm mà không phải sửa.
 
-> [!question] CẦN XÁC MINH
-> Toàn bộ mốc nội bộ, tiêu chí đóng và danh mục đầu ra trong phụ lục này là **QUY ĐỊNH NỘI BỘ OBACKER**. Chỉ những dòng có đã đối chiếu bản gốc mới là thời hạn do pháp luật ấn định. Không được nói với khách rằng mốc nội bộ là thời hạn theo pháp luật.
+> [!note] BẢN CHẤT CÁC MỐC VẬN HÀNH
+> Toàn bộ mốc nội bộ, tiêu chí đóng và danh mục đầu ra trong phụ lục này là quy định quản trị vận hành nội bộ của oBacker. Các thời hạn pháp định bắt buộc đối với người nộp thuế được viện dẫn cụ thể theo căn cứ văn bản quy phạm pháp luật tại từng hạng mục.
 
 ---
 
@@ -98,11 +94,11 @@ Cột G1, G2, G3, G4 trong bảng task và bảng đầu ra:
 
 ### 2.4. Năm tài chính lệch năm dương lịch
 
-Toàn bộ mốc theo năm trong phụ lục này viết cho khách có NĂM TÀI CHÍNH TRÙNG NĂM DƯƠNG LỊCH. Với khách có năm tài chính lệch, TL-KT phải dựng lại toàn bộ mốc M4 theo ngày kết thúc năm tài chính của khách TRƯỚC KHI COO phân công, xem Chương 14 mục 6.1. Đây là bước bắt buộc, không phải tùy chọn.
+Toàn bộ mốc theo năm trong phụ lục này viết cho khách có NĂM TÀI CHÍNH TRÙNG NĂM DƯƠNG LỊCH. Với khách có năm tài chính lệch, TL-KT phải dựng lại toàn bộ mốc M4 theo ngày kết thúc năm tài chính của khách TRƯỚC KHI COO phân công, xem Chương 14 mục 5.1. Đây là bước bắt buộc, không phải tùy chọn.
 
 ---
 
-## 3. TỔNG QUAN NĂM MỐC
+## 3. TỔNG QUAN CÁC MỐC VẬN HÀNH CHÍNH
 
 | Mốc | Tên | Khi nào chạy | Chặn mốc nào | Tiêu chí đóng tóm tắt |
 | --- | --- | --- | --- | --- |
@@ -141,7 +137,7 @@ Toàn bộ mốc theo năm trong phụ lục này viết cho khách có NĂM TÀ
 | 13 | Lập văn bản mô tả phạm vi, đầu ra, mốc, phí, tiêu chí nghiệm thu | TL-KT xác nhận khả thi, COO duyệt, KH xác nhận | Trước khi bắt đầu | - | - | - | x |
 
 > [!note] CHẶN
-> `AM` không được hứa nhận khách trước khi có quyết định của CEO. Từ 37 điểm rủi ro trở lên thì TỪ CHỐI. Ngoài ra có 08 dấu hiệu từ chối tuyệt đối, không phụ thuộc tổng điểm, xem Chương 03 mục 6.4.3.
+> `AM` không được hứa nhận khách trước khi có quyết định của CEO. Từ 37 điểm rủi ro trở lên thì TỪ CHỐI. Ngoài ra có 08 dấu hiệu từ chối tuyệt đối, không phụ thuộc tổng điểm, xem Chương 03 mục 5.4.3.
 
 > [!note] CHẶN TÊN DỊCH VỤ
 > Hợp đồng và phụ lục không được đặt tên hạng mục là "Lập và trình bày báo cáo tài chính" hoặc "Làm kế toán trưởng". Lý do tại mục 8 phụ lục này.
@@ -208,7 +204,7 @@ Toàn bộ mốc theo năm trong phụ lục này viết cho khách có NĂM TÀ
 
 ### 4.5. Tiêu chí đóng M1
 
-1. Đủ 14 tiêu chí nghiệm thu onboarding tại Chương 03 mục 6.11.1, mọi tiêu chí đều BẮT BUỘC ĐẠT.
+1. Đủ 14 tiêu chí nghiệm thu onboarding tại Chương 03 mục 5.11.1, mọi tiêu chí đều BẮT BUỘC ĐẠT.
 2. Không đạt một tiêu chí bắt buộc thì onboarding chưa hoàn tất. TL-KT lập kế hoạch khắc phục có mốc, COO theo dõi tới khi đạt.
 3. Với khách đang hoạt động: có biên bản hiện trạng được khách xác nhận.
 
@@ -354,7 +350,7 @@ Lịch dưới đây viết cho khách khai thuế GTGT theo THÁNG. Với khác
 
 **Mục tiêu:** ra bộ báo cáo tài chính năm và bộ hồ sơ quyết toán thuế đúng hạn, với đủ ba chữ ký của khách.
 
-**Nguồn:** Chương 06 mục 6.6, Chương 07, Chương 14, Phụ lục C Phần C, D, E.
+**Nguồn:** Chương 06 mục 5.6, Chương 07, Chương 14, Phụ lục C Phần C, D, E.
 
 Mốc dưới đây viết cho khách có năm tài chính trùng năm dương lịch. Cột "Mốc nội bộ" là NGÀY DƯƠNG LỊCH CỨNG lấy từ Phụ lục C, luôn sớm hơn thời hạn theo pháp luật; CV-KT và TL-KT làm theo mốc nội bộ.
 
@@ -381,7 +377,7 @@ Mốc dưới đây viết cho khách có năm tài chính trùng năm dương l
 | 17 | Kiểm theo bảng kiểm quyết toán TNDN, lập Bảng điều chỉnh lợi nhuận kế toán sang thu nhập tính thuế | CV-KT làm, TL-KT soát và duyệt | 28/02 | Không có | x | x | x | - |
 | 18 | Kiểm theo bảng kiểm quyết toán TNCN, phân nhóm người lao động | CV-KT làm, TL-KT soát | 28/02 | Không có | - | x | x | - |
 | 19 | HOÀN TẤT HỒ SƠ XÁC ĐỊNH GIÁ GIAO DỊCH LIÊN KẾT, với khách có giao dịch liên kết và không thuộc diện miễn lập hồ sơ.<br>Hồ sơ gồm Phụ lục I, Hồ sơ quốc gia theo Phụ lục II, Hồ sơ toàn cầu theo Phụ lục III, Báo cáo lợi nhuận liên quốc gia của Công ty mẹ tối cao theo Phụ lục IV; KHÔNG phải nộp theo lịch, chỉ lưu giữ và xuất trình khi cơ quan thuế yêu cầu | CV-KT lập, TL-KT soát và chốt | 28/02, hoàn tất tuyệt đối trước 25/03 | Phải LẬP XONG TRƯỚC thời điểm kê khai quyết toán thuế TNDN hằng năm;<br>thời hạn cung cấp khi có yêu cầu là 30 ngày làm việc `[NĐ 255/2026 Đ.18 k.3, k.2 đ.d, k.4]` | VV | VV | VV | VV |
-| 20 | Khóa sổ năm theo bảng kiểm Chương 06 mục 6.6, gồm các dòng N01 tới N35 | CV-KT làm, TL-KT chốt các dòng bắt buộc | Trước 01/03 | Luật buộc khóa sổ vào cuối kỳ kế toán trước khi lập báo cáo tài chính, không có ngày cụ thể `[Luật Kế toán 41/VBHN-VPQH Đ.26 k.6]` | x | x | x | - |
+| 20 | Khóa sổ năm theo bảng kiểm Chương 06 mục 5.6, gồm các dòng N01 tới N35 | CV-KT làm, TL-KT chốt các dòng bắt buộc | Trước 01/03 | Luật buộc khóa sổ vào cuối kỳ kế toán trước khi lập báo cáo tài chính, không có ngày cụ thể `[Luật Kế toán 41/VBHN-VPQH Đ.26 k.6]` | x | x | x | - |
 | 21 | Lập báo cáo tài chính năm và bản thuyết minh, ĐỂ TRỐNG ba ô chữ ký | CV-KT làm, TL-KT soát và duyệt nội dung | 10/03 | Không có | x | x | x | - |
 | 22 | Soát xét hai cấp: CV-KT tự soát phần việc trực tiếp thực hiện, TL-KT soát và chốt. Không còn cấp 3, xem Chương 18 mục 6.1 | CV-KT, TL-KT | 17/03 | Không có | x | x | x | - |
 | 23 | Chạy quy trình tra cứu NƠI NHẬN báo cáo tài chính, 04 bước, kết quả do TL-KT kiểm tra và duyệt | TL-KT | Trước khi nộp, làm lại mỗi mùa báo cáo | Không có | x | x | x | - |
@@ -485,11 +481,11 @@ Mô hình soát xét chỉ còn HAI CẤP: cấp 1 CV-KT tự soát phần việ
 > [!note] THỨ TỰ CHỐT
 > Chốt báo cáo tài chính trước, lấy số từ báo cáo tài chính đưa vào quyết toán. Không làm ngược.
 
-> [!note] HAI MỐC KHÁC NHAU
+> [!note] PHÂN BIỆT THỜI HẠN NỘP VÀ CÔNG KHAI BÁO CÁO TÀI CHÍNH
 > Thời hạn nộp báo cáo tài chính năm và thời hạn nộp hồ sơ quyết toán thuế năm thuộc hai hệ thống pháp luật khác nhau, không xem là một. Hạn NỘP báo cáo tài chính là 90 ngày kể từ ngày kết thúc kỳ kế toán năm; hạn CÔNG KHAI là 120 ngày.
 
-> [!question] CẦN XÁC MINH
-> Câu hỏi NỘP BÁO CÁO TÀI CHÍNH CHO AI vẫn chưa có câu trả lời trong bộ tài liệu nội bộ. Được khẳng định mốc 90 ngày, không được khẳng định nơi nhận. Trước mỗi mùa báo cáo phải chạy quy trình tra cứu 04 bước tại Chương 07, kết quả do TL-KT kiểm tra và duyệt.
+> [!note] CĂN CỨ THỜI HẠN VÀ NƠI NHẬN BÁO CÁO TÀI CHÍNH
+> Hạn nộp báo cáo tài chính năm là 90 ngày kể từ ngày kết thúc năm tài chính (Điều 29 khoản 3 Luật Kế toán 41/VBHN-VPQH). Doanh nghiệp nộp cho cơ quan thuế trực tiếp quản lý kèm hồ sơ quyết toán thuế TNDN và các cơ quan nhà nước có thẩm quyền theo quy định của chế độ kế toán áp dụng (Thông tư 133/2016 Điều 80 khoản 2; Thông tư 99/2025; Thông tư 58/2026).
 
 ---
 
@@ -617,7 +613,7 @@ Giờ nghỉ trưa và ngoài giờ không tính vào đồng hồ. Bảng dư�
 | Thứ Sáu 15:00 | Thứ Hai 10:00, vì bỏ qua thứ Bảy và Chủ nhật |
 
 > [!note] DANH MỤC NGÀY NGHỈ LỄ TIÊU CHUẨN nằm tại Phụ lục C mục A.9
-> Danh mục ngày nghỉ lễ tiêu chuẩn gồm 12 ngày một năm: Tết Dương lịch 01 ngày, Tết Âm lịch 05 ngày, Giỗ Tổ Hùng Vương 01 ngày, Ngày Chiến thắng 01 ngày, Quốc tế Lao động 01 ngày, Quốc khánh 02 ngày `[Bộ luật Lao động 18/VBHN-VPQH Đ.112 k.1]`, và Ngày Văn hóa Việt Nam 24/11 là 01 ngày, có hiệu lực từ 01/07/2026, xem [[CC-LD-211 Ngày 24 tháng 11 hằng năm là Ngày Văn hóa Việt Nam; người lao động được nghỉ làm việc và hưởng nguyên lương|CC-LD-211]].
+> Danh mục ngày nghỉ lễ tiêu chuẩn gồm 12 ngày một năm: Tết Dương lịch 01 ngày, Tết Âm lịch 05 ngày, Giỗ Tổ Hùng Vương 01 ngày, Ngày Chiến thắng 01 ngày, Quốc tế Lao động 01 ngày, Quốc khánh 02 ngày, và Ngày Văn hóa Việt Nam 24/11 là 01 ngày, có hiệu lực từ 01/07/2026.
 
 > [!note] NGÀY NGHỈ BÙ CHƯA CÓ TRONG LỊCH
 > Ngày nghỉ bù khi lễ trùng cuối tuần, cách chia 05 ngày Tết Âm lịch, và ngày liền kề của Quốc khánh đều do Chính phủ công bố riêng từng năm. COO nạp danh sách ngày nghỉ THỰC TẾ vào `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]` trong 05 ngày làm việc kể từ khi có công bố, vì nếu không thì mọi mốc dạng ngày làm việc và giờ làm việc đều tính sai. Xem Phụ lục C mục A.9.3.
@@ -626,7 +622,7 @@ Giờ nghỉ trưa và ngoài giờ không tính vào đồng hồ. Bảng dư�
 
 Đầu mối là AM trong mọi trường hợp.
 
-Cột **"Cam kết mốc trả lời (T2)"** là thời gian `AM` cho khách biết BAO GIỜ có câu trả lời, không phải thời gian trả lời xong. Con số T2 chuẩn đặt tại `03_DichVu/01_OBK-SOP-00` mục 7.2.4; bảng dưới đây dùng lại. Đồng hồ T1, tức xác nhận đã nhận theo kênh, không nằm ở bảng này, xem [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 7.2.3.
+Cột **"Cam kết mốc trả lời (T2)"** là thời gian `AM` cho khách biết BAO GIỜ có câu trả lời, không phải thời gian trả lời xong. Con số T2 chuẩn đặt tại `03_DichVu/01_OBK-SOP-00` mục 7.2.4; bảng dưới đây dùng lại. Đồng hồ T1, tức xác nhận đã nhận theo kênh, không nằm ở bảng này, xem OBK-SOP-00 mục 7.2.3.
 
 Cột **"Trả lời hoàn chỉnh"** là T3. Cột này GIỮ ở đây vì bảng Job của [[03_OBK-SOP-KT_Ke_toan_va_thue|OBK-SOP-KT]] dẫn chiếu về đúng các dòng S của bảng này.
 

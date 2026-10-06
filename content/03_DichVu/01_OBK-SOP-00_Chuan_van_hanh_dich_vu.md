@@ -4,25 +4,20 @@ code: "OBK-SOP-00"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 1, văn bản KHUNG toàn công ty"
-version: "R.2.0.0"
+version: "R.4.0.2"
 status: "đang áp dụng"
-draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 02/09/2026"
+draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-QCTC-02 Quy chế tổ chức và phân quyền"
 next_review: "Không quá 06 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-SOP-00
 tags:
   - loai/sop
   - cap/1
-  - nghiep-vu/nghia-vu-ke-toan
 ---
 # OBK-SOP-00 CHUẨN VẬN HÀNH DỊCH VỤ OBACKER
 
@@ -32,8 +27,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-SOP-00 |
 | Cấp tài liệu | Cấp 1, văn bản KHUNG toàn công ty |
-| Phiên bản | R.2.0.0, đang áp dụng |
-| Ngày biên soạn | 01/10/2026 |
+| Phiên bản | R.4.0.2, đang áp dụng |
+| Ngày biên soạn | 04/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 02/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -46,11 +41,11 @@ tags:
 ---
 
 > [!note] CƠ CẤU TỔ CHỨC ĐẶT Ở VĂN BẢN KHÁC
-> Từ 02/09/2026, cơ cấu tổ chức, danh mục đơn vị, ma trận phân quyền và thang chuyển lên cấp trên toàn công ty ĐẶT tại [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen|OBK-QCTC-02]] Quy chế tổ chức và phân quyền cùng bốn phụ lục của văn bản đó. Tài liệu này chỉ DẪN CHIẾU và chỉ mô tả phần thuộc mảng dịch vụ. Khi hai bên khác nhau thì [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen|OBK-QCTC-02]] đúng.
+> Từ 02/09/2026, cơ cấu tổ chức, danh mục đơn vị, ma trận phân quyền và thang chuyển lên cấp trên toàn công ty ĐẶT tại OBK-QCTC-02 Quy chế tổ chức và phân quyền cùng bốn phụ lục của văn bản đó. Tài liệu này chỉ DẪN CHIẾU và chỉ mô tả phần thuộc mảng dịch vụ. Khi hai bên khác nhau thì OBK-QCTC-02 đúng.
 
 ## 1. TÀI LIỆU NÀY LÀ GÌ VÀ KHÔNG LÀ GÌ
 
-**Là gì.** Đây là bộ luật chơi chung của mọi bộ phận làm dịch vụ cho khách hàng tại oBacker. Văn bản này đặt bốn thứ mà mọi bộ phận phải dùng giống hệt nhau: từ điển thuật ngữ, bộ vai trò, quy trình chuẩn 10 bước, và thang SLA. Bộ phận khác nhau ở NGHIỆP VỤ, không được khác nhau ở bốn thứ này.
+**Là gì.** Đây là bộ luật chơi chung của mọi bộ phận làm dịch vụ cho khách hàng tại oBacker. Văn bản này đặt bốn thứ mà mọi bộ phận phải dùng giống hệt nhau: từ điển thuật ngữ, bộ vai trò, quy trình chuẩn 5 bước, và thang SLA. Bộ phận khác nhau ở NGHIỆP VỤ, không được khác nhau ở bốn thứ này.
 
 **Không là gì.**
 
@@ -58,11 +53,11 @@ tags:
 - Không phải nơi chứa căn cứ pháp lý. Mọi trích dẫn điều khoản nằm ở `PL_1_Can_cu_phap_ly.md`, một bản duy nhất cho cả bộ. Tài liệu này chỉ dẫn chiếu tới mã căn cứ.
 - Không phải nơi chứa con số SLA gốc. Con số SLA gốc nằm ở bảng Job của từng SOP cấp 2. `PL_2_Bang_tra_SLA.md` là bản tra cứu được sinh tự động, không phải bản gốc.
 
-**Vấn đề mà tài liệu này sinh ra để giải quyết.** Tính tới 02/09/2026, oBacker có bốn tài liệu quy trình do bốn người soạn độc lập. Bốn tài liệu đó dùng bốn bộ vai trò khác nhau, ba thang chuyển lên cấp trên khác nhau, hai cách đánh số bước khác nhau, và cùng một chữ viết tắt mang hai nghĩa ở hai tài liệu. Hệ quả không phải là khó đọc; hệ quả là khi một vụ việc đi qua hai bộ phận thì không ai xác định được ai là người chịu trách nhiệm cuối.
+**Mục tiêu áp dụng.** Tài liệu chuẩn hóa hệ thống quy trình dịch vụ vận hành tại oBacker, khắc phục sự phân tán và thiếu đồng bộ giữa các bộ phận chuyên môn, thiết lập khung quản trị chất lượng dịch vụ thống nhất xuyên suốt từ tiếp nhận nhu cầu đến hoàn tất bàn giao.
 
 ---
 
-## 2. KIẾN TRÚC BA CẤP
+## 2. KIẾN TRÚC PHÂN CẤP TÀI LIỆU
 
 | Cấp | Tên | Trả lời câu hỏi | Ai soạn | Ai duyệt |
 | --- | --- | --- | --- | --- |
@@ -102,17 +97,17 @@ tags:
 
 ## 3. TỪ ĐIỂN THUẬT NGỮ, DÙNG CHUNG TOÀN HỆ THỐNG
 
-Trước 02/09/2026, bốn tài liệu quy trình dùng lẫn lộn "đầu việc", "task", "action", "kết quả bước", "đầu ra" mà không định nghĩa. Từ nay bảy từ dưới đây có nghĩa cố định.
+Hệ thống tài liệu dịch vụ phân định rành mạch các khái niệm vận hành nhằm bảo đảm tính nhất quán trong phân công và giám sát. Các thuật ngữ dưới đây được định nghĩa và áp dụng thống nhất toàn hệ thống:
 
 | Thuật ngữ | Định nghĩa | Ví dụ | Nhận biết |
 | --- | --- | --- | --- |
 | **Dịch vụ** (Service) | Cái khách hàng mua và trả tiền, ghi trong hợp đồng dịch vụ | "Dịch vụ kế toán và thuế trọn gói", "Dịch vụ xin giấy phép lao động" | Có trong hợp đồng, có giá |
 | **Job** (Đầu việc) | Một đơn vị công việc CÓ MỘT ĐẦU RA XÁC ĐỊNH và MỘT HẠN CHÓT. Là đơn vị lập kế hoạch, giao việc và đo lường | "Nộp tờ khai thuế GTGT tháng 8/2026 cho khách X", "Đăng ký nội quy lao động cho khách Y" | Trả lời được: xong nghĩa là gì, và xong trước ngày nào |
-| **Hành động** (Bước) | Một trong 10 bước của Quy trình chuẩn tại mục 6. Mỗi Hành động có đúng một người R và đúng một người A | "B7 Kiểm soát chất lượng hai lớp" | Luôn là một trong 10 mã B1 tới B10 |
+| **Hành động** (Bước) | Một trong 5 bước của Quy trình chuẩn tại mục 6. Mỗi Hành động có đúng một người R và đúng một người A | "B3 Kiểm soát chất lượng" | Luôn là một trong 5 mã B1 tới B5 |
 | **Task** | Hiện thân của một Job trên `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]`. Một Job sinh ra đúng một Work Package | WP "KHÁCH X_Tờ khai GTGT tháng 8/2026" | Có mã WP, có assignee, có accountable |
 | **Đầu vào** (Đầu vào bắt buộc) | Cái mà thiếu thì không chạy được bước tiếp theo. Khác với thông tin tham khảo | Bản scan HĐLĐ đã ký là đầu vào của Job đăng ký mã BHXH | Nếu thiếu mà vẫn chạy được thì không phải đầu vào bắt buộc |
-| **Kết quả bước** | Kết quả của một Hành động. Phần lớn kết quả bước là nội bộ | Bảng đối chiếu dữ liệu ở B5 | Không phải cái nào cũng ra tới khách |
-| **Đầu ra** (sản phẩm bàn giao) | Sản phẩm ĐI RA KHỎI oBacker: tới khách hàng hoặc tới cơ quan nhà nước. Mọi đầu ra phải qua B7 và B8 | Phiếu lương, tờ khai đã nộp, giấy phép, câu trả lời tư vấn | Nếu người ngoài oBacker nhìn thấy sản phẩm đó thì đó là đầu ra |
+| **Kết quả bước** | Kết quả của một Hành động. Phần lớn kết quả bước là nội bộ | Bảng đối chiếu dữ liệu ở B2 | Không phải cái nào cũng ra tới khách |
+| **Đầu ra** (sản phẩm bàn giao) | Sản phẩm ĐI RA KHỎI oBacker: tới khách hàng hoặc tới cơ quan nhà nước. Mọi đầu ra phải qua B3 và B4 | Phiếu lương, tờ khai đã nộp, giấy phép, câu trả lời tư vấn | Nếu người ngoài oBacker nhìn thấy sản phẩm đó thì đó là đầu ra |
 
 **Quy tắc đặt tên Job.** Mọi Job phải đặt tên theo khuôn `TÊN KHÁCH_NỘI DUNG_KỲ`. Ví dụ `WHISKUP_Báo cáo tình hình sử dụng lao động_6T2026`. Job không gắn với khách cụ thể thì thay tên khách bằng `NỘI BỘ`.
 
@@ -120,7 +115,7 @@ Trước 02/09/2026, bốn tài liệu quy trình dùng lẫn lộn "đầu vi�
 
 ---
 
-## 4. TÁM NGUYÊN TẮC THI HÀNH ĐƯỢC
+## 4. CÁC NGUYÊN TẮC THI HÀNH BẮT BUỘC
 
 Nguyên tắc ở đây không phải khẩu hiệu. Mỗi nguyên tắc gồm bốn phần: quy tắc, hành vi bắt buộc, hành vi cấm, và cách phát hiện vi phạm. Nguyên tắc nào không đo được thì không nằm trong danh sách này.
 
@@ -136,17 +131,27 @@ Nguyên tắc ở đây không phải khẩu hiệu. Mỗi nguyên tắc gồm b
 
 **Cách phát hiện.** Soát ngẫu nhiên tối thiểu 5 Job mỗi tháng mỗi bộ phận: mọi con số luật trong đầu ra phải truy được về một dòng trong `PL_1_Can_cu_phap_ly.md` và dòng đó phải mang tag đã đối chiếu bản gốc.
 
-### NT-2. Một đầu mối duy nhất với khách hàng
+### NT-2. AM chủ quan hệ, trao đổi kỹ thuật có kiểm soát
 
-**Quy tắc.** Khách hàng chỉ làm việc với một người trong suốt vòng đời: AM. Không có giai đoạn nào khách làm việc với người khác.
+**Quy tắc.** AM là người SỞ HỮU quan hệ với khách trong suốt vòng đời: điểm nâng cấp, báo cáo định kỳ, thay đổi phạm vi, và mọi cam kết thương mại và pháp lý. Chuyên viên kỹ thuật được trao đổi trực tiếp với khách hằng ngày về dữ liệu và phương pháp tính, trong nhóm làm việc chung do AM quản trị.
 
-**Bắt buộc.** Mọi đầu ra và mọi câu trả lời chuyên môn đi ra khách phải qua AM. Bộ phận nghiệp vụ gửi cho AM, AM gửi cho khách. Nhóm chat với khách do AM làm admin và là người phát ngôn.
+**Bắt buộc, phân chia theo loại nội dung:**
 
-**Cấm.** Bốn bộ phận của Phòng Dịch vụ, tức Kế toán và Thuế, Giấy phép, Lao động và Tiền lương, Dịch vụ pháp lý, cùng Legal R&D, đều không gọi điện, không nhắn tin, không gửi email trực tiếp cho khách dưới bất kỳ hình thức nào. Ngoại lệ duy nhất: tham gia cuộc họp do AM tổ chức và chủ trì; mọi follow-up sau họp vẫn qua AM.
+| Loại nội dung | Ai làm | Ghi chú |
+| --- | --- | --- |
+| Thay đổi phạm vi dịch vụ | AM duy nhất | Change order do AM định giá trong 48 giờ; cập nhật kế hoạch, ngân sách và hóa đơn cùng lúc |
+| Cam kết SLA, giá, chiết khấu | AM duy nhất | Chuyên viên không được cam kết; gặp yêu cầu thương mại thì từ chối và chuyển AM trong 30 phút |
+| Văn bản pháp lý chính thức | AM duy nhất | Đầu ra có giá trị pháp lý đi qua AM, kể cả xác nhận trước khi nộp hồ sơ |
+| Trao đổi kỹ thuật hằng ngày: dữ liệu, phương pháp tính, tiến độ, giải thích nghiệp vụ | Chuyên viên trực tiếp với khách | Trong nhóm chung do AM làm quản trị; không cam kết thương mại và không thay phạm vi |
+| Nâng cấp, báo cáo định kỳ, check-in | AM | |
 
-**Xử lý khi khách liên hệ nhầm người.** Không trả lời nội dung. Chuyển cho AM trong 30 phút. AM phản hồi theo Channel SLA và nhắc khách kênh chính thống theo mục 7.2.1a.
+Nhóm chat với khách do AM làm quản trị và là nơi duy nhất chuyên viên trao đổi trực tiếp với khách. AM là người phát ngôn cho mọi cam kết thương mại và pháp lý.
 
-**Cách phát hiện.** Chỉ số "tỷ lệ liên lạc với khách đi qua AM" đo bằng 100%. Một lần bộ phận nghiệp vụ trả lời thẳng khách là một lần vi phạm, ghi vào quality soát của bộ phận đó.
+**Cấm.** Chuyên viên không được cam kết SLA, giá, chiết khấu hay thay đổi phạm vi. Chuyên viên không được mở kênh riêng với khách ngoài nhóm chung do AM quản trị. Bốn bộ phận của Phòng Dịch vụ, tức Kế toán và Thuế, Giấy phép, Lao động và Tiền lương, Dịch vụ pháp lý, cùng Legal R&D, không gửi email cá nhân và không mở kênh riêng cho khách; mọi trao đổi nằm trong nhóm chung.
+
+**Xử lý khi khách liên hệ nhầm người.** Chuyển cho AM trong 30 phút. AM phản hồi theo Channel SLA và nhắc khách kênh chính thống theo mục 7.2.1a.
+
+**Cách phát hiện.** Chỉ số "tỷ lệ cam kết thương mại và pháp lý đi qua AM" đo bằng 100%. Trao đổi kỹ thuật trong nhóm chung do AM quản trị không tính là vi phạm. Một lần chuyên viên cam kết thương mại hoặc thay phạm vi ngoài AM là một lần vi phạm, ghi vào quality soát của bộ phận đó.
 
 ### NT-3. Không chặn công việc để chờ đầu vào hoàn hảo
 
@@ -174,27 +179,39 @@ Nguyên tắc ở đây không phải khẩu hiệu. Mỗi nguyên tắc gồm b
 
 **Cách phát hiện.** Kiểm ngẫu nhiên: chọn một Job đã đóng, giao cho một người không tham gia Job đó tìm bản gốc đầu vào và lý do của quyết định chính. Bấm giờ.
 
-### NT-5. Hai lớp kiểm soát chất lượng, và ngoại lệ duy nhất đã được chốt
+### NT-5. Kiểm soát chất lượng theo mức rủi ro
 
-**Quy tắc.** Không đầu ra nào rời khỏi bộ phận khi chưa qua đủ hai lớp: người thực hiện tự soát theo bảng kiểm, và một người thứ hai xác nhận độc lập. Hai lớp là MẶC ĐỊNH của oBacker. Ngoài hai lớp đó còn một lớp hậu kiểm, soát chọn mẫu sau khi đầu ra đã ra ngoài; lớp hậu kiểm không thay được lớp hai, vì lớp hậu kiểm không chặn được lỗi.
+**Quy tắc.** Mỗi đầu ra đi qua bộ kiểm soát tương ứng với mức rủi ro của Job đó. Hai lớp, tức tự soát theo bảng kiểm cộng người thứ hai xác nhận độc lập, là MẶC ĐỊNH của oBacker. Tier 1 giảm lớp hai, Tier 3 thêm hậu kiểm bắt buộc. Lớp hậu kiểm không thay được lớp hai, vì lớp hậu kiểm không chặn được lỗi.
 
-**Bắt buộc, ba lớp và tác dụng của từng lớp:**
+**Ba mức:**
 
-| Lớp | Ai làm | Chặn được lỗi trước khi đầu ra rời bộ phận |
-| --- | --- | --- |
-| Lớp một, tự soát | Chính người thực hiện, đối chiếu bảng kiểm nghiệp vụ cộng đối chiếu quy định pháp luật | Không. Người thực hiện tự kiểm tra lại hồ sơ nên không đảm bảo tính độc lập |
-| Lớp hai, lớp CHẶN | Team Lead hoặc người Team Lead chỉ định, không phải người đã làm | Có. Đây là lớp duy nhất chặn được lỗi trước khi đầu ra rời bộ phận |
-| Lớp hậu kiểm | Một người không nằm trong chuỗi làm và chốt đầu ra đó;<br>Legal R&D soát phần nội dung pháp lý | Không. Đầu ra đã ra ngoài. Lớp hậu kiểm đo xem lớp hai có thật sự hoạt động hay không |
+| Mức | Định nghĩa | Kiểm soát trước khi rời bộ phận | Hậu kiểm |
+| --- | --- | --- | --- |
+| Tier 1 | Định kỳ, lặp lại, hồ sơ ổn định, không chạm nghĩa vụ lần đầu | Lớp một, tự soát theo bảng kiểm bắt buộc | Theo mẫu thống kê |
+| Tier 2 | Thường quy, có yếu tố xét đoán; đây là mức mặc định | Hai lớp: lớp một tự soát cộng lớp hai người thứ hai | Theo mẫu thống kê |
+| Tier 3 | Rủi ro cao: khách mới, lần đầu, nguy cơ phạt, FDI, hồ sơ phức tạp | Hai lớp | Bắt buộc, không theo mẫu |
 
-Cả ba lớp phải để lại dấu vết trên Job.
+**Nhóm giữ hai lớp trong mọi mức.** Các Job tiền lương, bảo hiểm xã hội, thuế TNCN luôn đủ hai lớp, không phân biệt Tier, theo quyết định của `CEO`. Danh sách Job của nhóm này tại phụ lục [[PL_T_Phan_tier_Job_theo_rui_ro|OBK-SOP-PL-T]].
 
-**Ngoại lệ duy nhất, `CEO` chốt ngày 26/08/2026.** Phần việc do chính Team Lead TRỰC TIẾP LÀM thì Team Lead tự soát và tự chốt phần đó, và không bắt buộc một Team Lead khác đọc lại. Ngoại lệ chỉ áp cho phần việc cần xét đoán nghiệp vụ do chính Team Lead làm; phần việc do người khác làm vẫn phải đủ hai lớp. Ba việc bù trừ là bắt buộc, thiếu một việc thì ngoại lệ không có hiệu lực:
+**Phân loại Tier.** Tier của từng Job ghi tại phụ lục [[PL_T_Phan_tier_Job_theo_rui_ro|OBK-SOP-PL-T]]; bảng Job của bộ phận không đổi. Job mới hoặc Job có thay đổi phạm vi vào lần đầu áp Tier 3 cho lần thực hiện đầu tiên, sau đó phân loại lại theo ba tiêu chí của bảng trên.
+
+**Hậu kiểm, ba tham số:**
+
+| Hạng mục | Giá trị đã quyết |
+| --- | --- |
+| Người thực thi | Mỗi Team Lead hậu kiểm line của chính mình |
+| Dung sai và mẫu | Dung sai ngoại lệ 10 phần trăm, mẫu tối thiểu 25 mỗi chu kỳ định kỳ; sau hai chu kỳ không có ngoại lệ thì siết xuống dung sai 5 phần trăm, mẫu 50 |
+| Nâng mức tự động | Chuyên viên để lọt hai lỗi Tier 1 mức Nghiêm trọng trong một quý thì toàn bộ Job Tier 1 của người đó chuyển Tier 2 trong 30 ngày, không cần quyết định thêm |
+
+Cả các lớp áp dụng cho Job phải để lại dấu vết trên Job.
+
+**Ngoại lệ duy nhất, `CEO` quyết ngày 26/08/2026.** Phần việc do chính Team Lead TRỰC TIẾP LÀM thì Team Lead tự soát và tự chốt phần đó, và không bắt buộc một Team Lead khác đọc lại. Ngoại lệ chỉ áp cho phần việc cần xét đoán nghiệp vụ do chính Team Lead làm; phần việc do người khác làm vẫn phải đủ số lớp theo Tier. Ba việc bù trừ là bắt buộc, thiếu một việc thì ngoại lệ không có hiệu lực:
 
 1. Ghi rõ trên phiếu soát xét và chốt phần nào do chính Team Lead làm.
 2. Ghi rõ trên chính phiếu đó rằng phần đó KHÔNG CÓ LỚP SOÁT THỨ HAI.
 3. Lớp hậu kiểm phải ưu tiên lấy mẫu đúng vào các phần đó.
 
-**Phạm vi và hệ quả của ngoại lệ.** Ngoại lệ nêu trên là một mô hình một lớp soát, do `CEO` quyết, và không phải chuẩn của oBacker. Trong phạm vi ngoại lệ đó, không có người thứ hai bắt lỗi trước khi đầu ra rời bộ phận. Điểm kiểm soát bù đang chạy thay cho lớp hai là ba việc bù trừ nêu ngay trên; ba dấu hiệu tại bảng dưới đây buộc phải thêm lớp soát thứ hai.
+**Phạm vi và hệ quả của ngoại lệ.** Ngoại lệ nêu trên là một mô hình một lớp soát do `CEO` quyết, không phải chuẩn của oBacker. Trong phạm vi ngoại lệ đó, không có người thứ hai xác nhận trước khi đầu ra rời bộ phận. Ba việc bù trừ nêu ngay trên là điểm kiểm soát bù cho lớp hai; ba dấu hiệu tại bảng dưới đây buộc phải thêm lớp soát thứ hai.
 
 **Ba dấu hiệu buộc phải thêm lớp soát thứ hai:**
 
@@ -206,9 +223,9 @@ Cả ba lớp phải để lại dấu vết trên Job.
 
 Khi chạm bất kỳ dấu hiệu nào, `COO` đưa vấn đề lên `CEO` trong kỳ họp gần nhất. Việc thêm lớp soát thứ hai chỉ `CEO` được quyết, và cũng chỉ `CEO` được bỏ.
 
-**Cấm.** Cấm người thực hiện tự đóng vai trò lớp hai, trừ đúng ngoại lệ nêu trên. Cấm bỏ lớp hai vì gấp; gấp thì rút ngắn thời gian lớp hai, không bỏ lớp hai. Cấm bỏ lớp hậu kiểm. Cấm hiểu ngoại lệ nêu trên thành được soát nhẹ hơn: phần việc không có lớp thứ hai làm cho lớp CHẶN QUAN TRỌNG HƠN, không phải nhẹ hơn.
+**Cấm.** Cấm người thực hiện tự đóng vai trò lớp hai, trừ đúng ngoại lệ nêu trên. Cấm bỏ lớp hai vì gấp; gấp thì rút ngắn thời gian lớp hai, không bỏ lớp hai. Cấm hạ Tier của một Job để giảm số lớp; Tier do SOP cấp 2 đặt và chỉ đổi qua rà soát định kỳ hoặc nâng mức tự động. Cấm bỏ lớp hậu kiểm. Cấm hiểu ngoại lệ nêu trên thành được soát nhẹ hơn: phần việc không có lớp thứ hai làm cho lớp CHẶN QUAN TRỌNG HƠN, không phải nhẹ hơn.
 
-**Cách phát hiện.** Chỉ số đúng ngay lần đầu và chỉ số lỗi đầu ra sau bàn giao. Một lỗi đầu ra mức Nghiêm trọng lọt ra khách là một lần lớp hai đã không được thực hiện đúng. Bộ phận nào dùng ngoại lệ nêu trên mà phiếu soát xét và chốt không ghi đủ hai dòng bắt buộc thì tính là đã bỏ lớp hai.
+**Cách phát hiện.** Chỉ số đúng ngay lần đầu và chỉ số lỗi đầu ra sau bàn giao. Một lỗi đầu ra mức Nghiêm trọng lọt ra khách là một lần lớp kiểm soát đã không được thực hiện đúng. Bộ phận nào dùng ngoại lệ nêu trên mà phiếu soát xét và chốt không ghi đủ hai dòng bắt buộc thì tính là đã bỏ lớp hai.
 
 ### NT-6. Mốc làm trước thời hạn theo pháp luật
 
@@ -250,10 +267,7 @@ Khi chạm bất kỳ dấu hiệu nào, `COO` đưa vấn đề lên `CEO` tron
 
 ## 5. BỘ VAI TRÒ THỐNG NHẤT
 
-> [!note] MỤC 5 KHÔNG CÓ MỤC 5.4
-> Số mục cũ đó đã bỏ trong lượt chuẩn hóa ngày 04/09/2026, và các số mục còn lại giữ nguyên để không phá dẫn chiếu ở tài liệu khác. Đây là mục cố ý bỏ số, không phải mục bị thiếu.
-
-### 5.1. Bộ vai trò của mảng dịch vụ, tám ký hiệu
+### 5.1. Cơ cấu ký hiệu vai trò của mảng dịch vụ
 
 | Ký hiệu | Vai trò | Lead của vai trò này là ai | Một câu định nghĩa | Tiếp xúc khách |
 | --- | --- | --- | --- | --- |
@@ -266,7 +280,7 @@ Khi chạm bất kỳ dấu hiệu nào, `COO` đưa vấn đề lên `CEO` tron
 | **COO** | Giám đốc vận hành, trực tiếp phụ trách Phòng Dịch vụ | CEO | Điều hành BỐN BỘ PHẬN DỊCH VỤ Kế toán và Thuế, Giấy phép, Lao động và Tiền lương, Dịch vụ pháp lý: xử xung đột liên bộ phận, phân bổ nguồn lực và định biên, chỉ số dịch vụ.<br>Đồng thời sở hữu bộ tài liệu SOP và quản Bộ phận Công nghệ và Sản phẩm theo [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen\|OBK-QCTC-02]] Điều 6.<br>không quản nhánh thương mại | Chỉ họp cùng AM |
 | **CEO** | Tổng giám đốc, chủ trì `BOM`, hiện kiêm **TP Thương mại** | `HĐQT` | Quản lý THƯƠNG MẠI và TÀI CHÍNH của công ty.<br>Nhận khách, từ chối khách, chấm dứt hợp đồng, hành vi oBacker nghiêm cấm, khiếu nại cấp cuối | Chỉ họp cùng AM |
 
-Hai vai trò của bảng trên có thêm quyền SỞ HỮU TÀI LIỆU, ghi ở đây để khớp mục 12.1: `COO` sở hữu bộ SOP dịch vụ và quản lý phiên bản, phát hành cả bộ, gồm cả Handbook Kế toán ở cấp 3; `TL-RD` sở hữu sổ căn cứ [[OBK-CC]] cùng `PL_1`, và mọi nội dung pháp lý, chuẩn chuyên môn, quy trình cập nhật văn bản, ở mọi cấp tài liệu. Hai quyền này không chồng nhau: `COO` quyết bản nào được phát hành, `TL-RD` quyết nội dung pháp lý trong bản đó có đúng hay không.
+Hai vai trò của bảng trên có thêm quyền SỞ HỮU TÀI LIỆU, ghi ở đây để khớp mục 12.1: `COO` sở hữu bộ SOP dịch vụ và quản lý phiên bản, phát hành cả bộ, gồm cả Handbook Kế toán ở cấp 3; `TL-RD` sở hữu sổ căn cứ cùng `PL_1`, và mọi nội dung pháp lý, chuẩn chuyên môn, quy trình cập nhật văn bản, ở mọi cấp tài liệu. Hai quyền này không chồng nhau: `COO` quyết bản nào được phát hành, `TL-RD` quyết nội dung pháp lý trong bản đó có đúng hay không.
 
 ### 5.1.1. Thang thẩm quyền
 
@@ -290,7 +304,11 @@ CEO   chu tri BOM, hien kiem TP Thuong mai
       +-- Bo phan Dich vu phap ly      -->  TL-LS  -->  CV-LS
 ```
 
-**Đọc cây này để hiểu ba điều quan trọng.** Một, nhánh thương mại và Phòng Dịch vụ nằm ở HAI nhánh khác nhau và chỉ gặp nhau ở CEO. Hai, COO không có quyền với nhánh thương mại, và CEO hiện kiêm TP Thương mại nên cấp 2 và cấp 3 của nhánh thương mại đang là một người. Ba, vì thế xung đột giữa AM và một bộ phận dịch vụ không có cấp chung trung lập nào dưới CEO; quy tắc xử lý riêng cho tình huống đó tại mục 8.2.1.
+**Ba điểm cần ghi nhận.**
+
+1. Nhánh thương mại và Phòng Dịch vụ nằm ở HAI nhánh khác nhau và chỉ gặp nhau ở CEO.
+2. COO không có quyền với nhánh thương mại, và CEO kiêm TP Thương mại nên cấp 2 và cấp 3 của nhánh thương mại đang là một người.
+3. Vì thế xung đột giữa AM và một bộ phận dịch vụ không có cấp chung trung lập nào dưới CEO; quy tắc xử lý riêng cho tình huống đó tại mục 8.2.1.
 
 Ba đơn vị không thuộc mảng dịch vụ nhưng có mặt trong quy trình dịch vụ: Legal R&D đặt chuẩn nghiệp vụ, Công nghệ và Sản phẩm cung cấp công cụ, Kế toán nội bộ xử lý công nợ và hóa đơn đầu ra. Cả ba đều không tiếp xúc khách.
 
@@ -318,7 +336,7 @@ Vai trò CV và TL LUÔN ghi kèm hậu tố đơn vị, không có ngoại lệ
 > [!note] QUY TẮC TUYỆT ĐỐI
 > Ký hiệu `KTV` và `KTT` chỉ dùng cho MẢNG NỘI BỘ. `KTV` là kế toán viên nội bộ, `KTT` là kế toán trưởng nội bộ, cả hai làm việc trên sổ sách CỦA CHÍNH OBACKER. Miền dịch vụ tuyệt đối không dùng hai ký hiệu này; mảng dịch vụ dùng `CV-KT` và `TL-KT`.
 >
-> Nhờ quy tắc này, hai mảng không còn ký hiệu nào trùng nghĩa, và [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] cùng [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]] không phải đổi ký hiệu. Cái phải đổi là Handbook Kế toán, vì bản cũ của Handbook dùng hai ký hiệu mảng nội bộ này với nghĩa dịch vụ. Việc đổi đã xong ngày 02/09/2026.
+> Nhờ quy tắc này, hai mảng không còn ký hiệu nào trùng nghĩa, và OBK-QCTC-01 cùng OBK-SOP-NB-01 không phải đổi ký hiệu. Cái phải đổi là Handbook Kế toán, vì bản cũ của Handbook dùng hai ký hiệu mảng nội bộ này với nghĩa dịch vụ. Việc đổi đã xong ngày 02/09/2026.
 
 ### 5.2. Bảng chuyển đổi từ bộ vai trò cũ, BẮT BUỘC đọc khi mở tài liệu cũ
 
@@ -343,13 +361,13 @@ Vai trò CV và TL LUÔN ghi kèm hậu tố đơn vị, không có ngoại lệ
 
 Việc kiểm ba điều cấm của Luật Kế toán khi bố trí người làm kế toán, và kết luận về việc `TL-KT` kiêm `KTT` kế toán nội bộ, thuộc mảng tổ chức chứ không thuộc chuẩn vận hành dịch vụ.
 
-Bản gốc đặt tại `01_ToChuc/OBK-QCTC-02` mục 19.1 và 19.2. Điều khoản pháp luật tại `PL_1` mã [[CC-KT-01 Ba điều cấm về bố trí người làm kế toán, áp dụng cho công ty cổ phần, người quản lý điều hành kiêm kế toán, thủ kho, thủ quỹ (`Đ.13 k.7`)|CC-KT-01]].
+Bản gốc đặt tại `01_ToChuc/OBK-QCTC-02` mục 19.1 và 19.2. Điều khoản pháp luật tại `PL_1` mã CC-KT-01.
 
-### 5.5. QUY TẮC BA LỚP PHÂN VIỆC PHÁP LÝ
+### 5.5. QUY TẮC PHÂN LỚP VIỆC PHÁP LÝ
 
-Đây là bản GỐC của quy tắc. [[06_OBK-SOP-LS_Dich_vu_phap_ly|OBK-SOP-LS]] mục 1.4, [[07_OBK-SOP-RD_Nghien_cuu_phap_ly|OBK-SOP-RD]] mục 1.4 và bốn SOP còn lại chỉ dẫn chiếu về đây.
+Quy tắc phân lớp việc pháp lý được quy định thống nhất tại mục này. OBK-SOP-LS mục 1.4, OBK-SOP-RD mục 1.4 và các SOP bộ phận liên quan dẫn chiếu áp dụng theo quy định tại đây.
 
-**Vấn đề mà quy tắc này giải.** Từ 02/09/2026, việc pháp lý ở oBacker do ba nhóm khác nhau làm: bốn bộ phận nghiệp vụ tự xử phần pháp lý gắn với hồ sơ mình giữ; Bộ phận Dịch vụ pháp lý làm việc pháp lý CÓ THU cho một khách; Legal R&D đặt chuẩn. [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen|OBK-QCTC-02]] Điều 17 đã có nguyên tắc phân theo tính chất, nhưng nguyên tắc đó chưa trả lời được các ca giao nhau, ví dụ khách bị thanh tra lao động thì ai chủ trì.
+**Vấn đề mà quy tắc này giải.** Từ 02/09/2026, việc pháp lý ở oBacker do ba nhóm khác nhau làm: bốn bộ phận nghiệp vụ tự xử phần pháp lý gắn với hồ sơ mình giữ; Bộ phận Dịch vụ pháp lý làm việc pháp lý CÓ THU cho một khách; Legal R&D đặt chuẩn. OBK-QCTC-02 Điều 17 đã có nguyên tắc phân theo tính chất, nhưng nguyên tắc đó chưa trả lời được các ca giao nhau, ví dụ khách bị thanh tra lao động thì ai chủ trì.
 
 **Quy tắc, một câu:** hỏi việc đang xét CẦN CÁI GÌ, không hỏi việc đang xét thuộc lĩnh vực nào.
 
@@ -374,8 +392,8 @@ Bản gốc đặt tại `01_ToChuc/OBK-QCTC-02` mục 19.1 và 19.2. Điều kh
 > [!bug] LỖI THƯỜNG GẶP
 > Phân việc theo lĩnh vực thay vì theo nhu cầu. Dấu hiệu là câu hỏi "yêu cầu này là lao động hay pháp lý". Câu hỏi đó không có câu trả lời, vì mọi việc lao động đều là việc pháp lý. Câu hỏi đúng là hồ sơ đang ở tay ai, và việc cần gì.
 
-> [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
-> Và chú ý ai là người chỉ định. Hai đơn vị cùng nhận một việc, hoặc không đơn vị nào nhận, thì phải có người chỉ định người chủ trì trước khi việc bắt đầu, không chỉ định sau khi việc đã chạy. Ai chỉ định thì phụ thuộc hai đơn vị đó thuộc nhánh nào:
+> [!warning] NGUYÊN TẮC THẨM QUYỀN CHỈ ĐỊNH ĐƠN VI CHỦ TRÌ
+> Trường hợp phát sinh xung đột tiếp nhận (hai đơn vị cùng nhận hoặc không đơn vị nào nhận), thẩm quyền chỉ định đơn vị chủ trì phải được xác lập trước khi bắt đầu thực hiện công việc, không chỉ định sau khi công việc đã triển khai. Thẩm quyền chỉ định thực hiện theo cơ cấu tổ chức:
 >
 > | Hai đơn vị tranh chấp | Ai chỉ định | Vì sao |
 > | --- | --- | --- |
@@ -385,26 +403,50 @@ Bản gốc đặt tại `01_ToChuc/OBK-QCTC-02` mục 19.1 và 19.2. Điều kh
 >
 > Đường cụ thể cho ca `TL-LS` với `TL-RD` ở [[PL_Chuyen_len_cap_tren|OBK-QCTC-02-PL-C]] mục 4 dòng xung đột ưu tiên. Quy tắc Job chính và Job phụ tại [[PL_Chuyen_len_cap_tren|OBK-QCTC-02-PL-C]] mục 2a quy tắc 4.
 
+### 5.6. NGUYÊN TẮC XỬ LÝ YÊU CẦU NGOÀI BẢNG JOB
+
+Quy định áp dụng cho các yêu cầu của khách hàng không thuộc danh mục Job quy định tại SOP các bộ phận. Các nguyên tắc xử lý dưới đây được ban hành thống nhất; SOP các bộ phận dẫn chiếu áp dụng theo mục này.
+
+**Không tự phát minh.** `AM` không tự tạo quy trình cho Job không có trong bảng. `AM` phân loại yêu cầu vào Job gần nhất, ghi 'ngoài phạm vi Job' kèm mã Job gần nhất vào trường Ghi chú, và chuyển `TL` bộ phận.
+
+**Ba nhánh, một trong ba:**
+
+| Nhánh | Điều kiện | Xử lý |
+| --- | --- | --- |
+| 1 | Kẹp được vào Job hiện có | Làm bình thường theo Job đó, ghi ngoại lệ vào trường Ghi chú |
+| 2 | Không kẹp được, nhưng thuộc lĩnh vực oBacker phục vụ | `TL` bộ phận mở Job phụ; `RD-09` cấp cơ sở trong 05 ngày làm việc |
+| 3 | Ngoài phạm vi oBacker: tố tụng, hành nghề luật, ngành oBacker không làm | Từ chối bằng văn bản, nêu lý do; đề xuất đối tác nếu có |
+
+**Không cam kết trước khi có chuẩn.** Nghiệp vụ chưa có Job thì không gửi mốc hoàn thành cho khách. `AM` chỉ xác nhận đã nhận, mốc T1, và hẹn mốc phản hồi, mốc T2 là 04 giờ làm việc. Mốc hoàn thành, mốc T3, chỉ gửi sau khi `RD-09` kết luận.
+
+**Ghi nhận và đóng vòng.** Mọi yêu cầu ngoài bảng Job ghi vào RD-01. Sau khi Legal R&D kết luận, nếu nghiệp vụ lặp lại từ 02 lần, `TL` bộ phận đề xuất thêm Job vào bảng Job của SOP bộ phận đó.
+
+**Phân chia trách nhiệm:**
+
+| Vai trò | Trách nhiệm |
+| --- | --- |
+| `AM` | Phát hiện yêu cầu ngoài bảng Job, phân loại vào Job gần nhất |
+| `TL` bộ phận | Quyết định kẹp vào Job hiện có hoặc mở Job phụ |
+| `TL-RD` | Cấp cơ sở cho yêu cầu thuộc nhánh 2 |
+| `CEO` | Phê duyệt nhận việc khi yêu cầu vượt phạm vi oBacker, xem SP-14 |
+
+**Không áp cho Job nội bộ.** Nguyên tắc này áp cho mảng dịch vụ. Job nội bộ, nhóm `NB`, nằm ngoài phạm vi; việc nội bộ không có Job `NB` thì `TL` bộ phận đề xuất `CEO` trực tiếp.
+
 ---
 
-## 6. QUY TRÌNH CHUẨN 10 BƯỚC
+## 6. QUY TRÌNH CÁC BƯỚC VẬN HÀNH CHUẨN
 
-Mọi Job của mọi bộ phận đi qua đúng 10 bước dưới đây. Bộ phận không được đánh số bước riêng. Nghiệp vụ nào không có bước nào thì ghi "không áp dụng", không được đổi số.
+Mọi Job của mọi bộ phận đi qua đúng 5 bước dưới đây. Bộ phận không được đánh số bước riêng. Nghiệp vụ nào không có bước nào thì ghi "không áp dụng", không được đổi số.
 
 | Mã | Bước | Điều kiện chuyển bước (điều kiện coi là xong) |
 | --- | --- | --- |
-| **B1** | Tiếp nhận và xác nhận yêu cầu | Đã xác nhận đã nhận trong hạn Channel SLA;<br>đã tạo Job đúng quy ước tên;<br>đã trả lời được câu hỏi "khách muốn đạt được điều gì khi đưa ra yêu cầu này" |
-| **B2** | Lưu trữ đầu vào gốc | 100% tệp gốc lưu đúng nơi, đúng tên, đúng phiên bản;<br>bản gốc không bị sửa;<br>người khác tìm lại được dưới 2 phút |
-| **B3** | Phân loại Job và chọn quy trình | Đã xác định Job thuộc loại nào trong bảng Job của SOP cấp 2;<br>nhiều phạm vi thì đã tách Job;<br>không khớp loại nào thì đã chuyển lên cấp trên trong 15 phút |
-| **B4** | Kiểm tra điều kiện và tính khả thi | Đã đối chiếu quy định pháp luật bản mới nhất với thực tế khách;<br>đã liệt kê điều kiện chưa đáp ứng;<br>với nghiệp vụ lạ đã có legal basis từ LEG ghi trên Job;<br>đã kết luận tự làm hay cần đối tác thuê ngoài |
-| **B5** | Tổng hợp dữ liệu và xử lý dữ liệu thiếu | Đã tra hết nguồn nội bộ trước khi hỏi khách;<br>mâu thuẫn dữ liệu đã ghi đủ 4 trường;<br>thiếu đầu vào đã gửi yêu cầu bổ sung theo NT-3 |
-| **B6** | Thực hiện nghiệp vụ | Hoàn thành đủ các bước của hướng dẫn cấp 3;<br>với hồ sơ nộp cơ quan nhà nước, bước này gồm cả việc nộp và lấy biên nhận |
-| **B7** | Kiểm soát chất lượng hai lớp | Lớp 1 tự soát đối chiếu bảng kiểm đã xong;<br>lớp 2 người thứ hai xác nhận đã xong;<br>cả hai để lại dấu vết trên Job |
-| **B8** | Bàn giao qua AM | Đã gửi AM trước hạn gửi khách ≥ 0,5 ngày làm việc;<br>nội dung bàn giao đủ 5 phần theo mục 6.1 |
-| **B9** | Theo dõi tới khi có kết quả | Có xác nhận đã nhận của khách, hoặc đã nhắc đủ số lần chuẩn, hoặc đã có kết quả từ cơ quan nhà nước;<br>trạng thái Job luôn phản ánh đúng thực tế |
-| **B10** | Đóng Job và cập nhật hướng dẫn | Đã ghi chi phí thực tế và thời gian thực tế so với SLA;<br>đã ghi lỗi đầu ra nếu có;<br>đã đề xuất cập nhật hướng dẫn hoặc kết luận không cần, kèm lý do |
+| **B1** | Tiếp nhận và khả thi | Đã xác nhận đã nhận trong hạn Channel SLA;<br>đã tạo Job đúng quy ước tên;<br>đã trả lời được câu hỏi "khách muốn đạt được điều gì khi đưa ra yêu cầu này";<br>100% tệp gốc lưu đúng nơi, đúng tên, đúng phiên bản;<br>bản gốc không bị sửa;<br>người khác tìm lại được dưới 2 phút;<br>đã xác định Job thuộc loại nào trong bảng Job của SOP cấp 2;<br>nhiều phạm vi thì đã tách Job;<br>không khớp loại nào thì đã chuyển lên cấp trên trong 15 phút;<br>đã đối chiếu quy định pháp luật bản mới nhất với thực tế khách;<br>đã liệt kê điều kiện chưa đáp ứng;<br>với nghiệp vụ lạ đã có legal basis từ LEG ghi trên Job;<br>đã kết luận tự làm hay cần đối tác thuê ngoài |
+| **B2** | Thực hiện | Đã tra hết nguồn nội bộ trước khi hỏi khách;<br>mâu thuẫn dữ liệu đã ghi đủ 4 trường;<br>thiếu đầu vào đã gửi yêu cầu bổ sung theo NT-3;<br>hoàn thành đủ các bước của hướng dẫn cấp 3;<br>với hồ sơ nộp cơ quan nhà nước, bước này gồm cả việc nộp và lấy biên nhận |
+| **B3** | Kiểm soát chất lượng | Lớp 1 tự soát đối chiếu bảng kiểm đã xong;<br>lớp 2 người thứ hai xác nhận đã xong;<br>cả hai để lại dấu vết trên Job |
+| **B4** | Bàn giao qua AM | Đã gửi AM trước hạn gửi khách ≥ 0,5 ngày làm việc;<br>nội dung bàn giao đủ 5 phần theo mục 6.1 |
+| **B5** | Theo dõi và đóng | Có xác nhận đã nhận của khách, hoặc đã nhắc đủ số lần chuẩn, hoặc đã có kết quả từ cơ quan nhà nước;<br>trạng thái Job luôn phản ánh đúng thực tế;<br>đã ghi chi phí thực tế và thời gian thực tế so với SLA;<br>đã ghi lỗi đầu ra nếu có;<br>đã đề xuất cập nhật hướng dẫn hoặc kết luận không cần, kèm lý do |
 
-### 6.1. Năm phần bắt buộc của nội dung bàn giao tại B8
+### 6.1. Các nội dung bàn giao bắt buộc tại B4
 
 Thiếu một trong năm phần là bàn giao chưa đạt, AM có quyền trả lại:
 
@@ -421,18 +463,18 @@ Thiếu một trong năm phần là bàn giao chưa đạt, AM có quyền trả
 | Tình huống | Chuẩn nhắc |
 | --- | --- |
 | Chờ khách gửi thông tin hoặc hồ sơ | Nhắc tối đa 2 lần. Lần 1 tại T+1, lần 2 tại T+3.<br>Sau lần 2 không đủ thông tin và hậu quả ảnh hưởng nghĩa vụ pháp lý thì chuyển lên cấp trên TL và AM tại T+5 |
-| Chờ khách xác nhận đã nhận đầu ra | Nhắc 1 lần sau 2 ngày làm việc. Sau đó coi như đã nhận và ghi vào Job |
+| Chờ khách xác nhận đã nhận đầu ra | Nhắc 1 lần sau 2 ngày làm việc. Sau thời hạn đó, Job chuyển sang trạng thái đã bàn giao theo phương án mặc định, sự cố thực hiện (nếu có) xử lý khi phát hiện; phương án mặc định và thời điểm áp ghi vào Job |
 | Chờ cơ quan nhà nước quá ngày hẹn trả kết quả | Chủ động liên hệ cơ quan trong 1 ngày làm việc kể từ ngày hẹn;<br>báo AM cùng ngày |
 | Chờ bộ phận nội bộ khác | Nhắc 1 lần. Vẫn trễ thì chuyển lên cấp trên TL của bộ phận đó, đồng thời thông tin cho AM |
 
-> [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
-> Khi bên nhận đầu ra là CƠ QUAN NHÀ NƯỚC, việc hoàn thành nghĩa vụ pháp lý không phụ thuộc vào xác nhận của khách hàng. Thông báo cho khách vẫn bắt buộc, nhưng không được lấy việc khách chưa phản hồi làm lý do không nộp. Trường hợp khách chủ động yêu cầu không nộp thì phải chuyển lên cấp trên TL và AM ngay, không tự quyết.
+> [!warning] NGHĨA VỤ ĐỐI VỚI CƠ QUAN NHÀ NƯỚC VÀ THẨM QUYỀN XỬ LÝ
+> Khi bên nhận đầu ra là CƠ QUAN NHÀ NƯỚC, việc hoàn thành nghĩa vụ pháp lý không phụ thuộc vào xác nhận của khách hàng. Nghĩa vụ thông báo cho khách hàng vẫn là bắt buộc, không lấy lý do khách hàng chưa phản hồi để trì hoãn nộp hồ sơ. Trường hợp khách hàng chủ động yêu cầu không nộp hồ sơ, nhân sự thực hiện phải chuyển ngay lên TL và AM xử lý theo thẩm quyền, không tự ý quyết định.
 
 ### 6.3. CHUẨN GIAO TIẾP VỚI KHÁCH HÀNG
 
-Mục này ĐẶT chuẩn giao tiếp dùng chung cho mọi bộ phận có khách. Bộ phận khác nhau ở MẪU THƯ và ở nghiệp vụ, không được khác nhau ở bốn thứ tại mục này. Mẫu thư và quy trình của từng bộ phận nằm ở cấp 3: bộ phận Kế toán và Thuế tại [[19_Giao_tiep_khach_hang|OBK-SOP-19]] mục 6.4; bộ phận AM tại [[PL_A_Cau_chu_mau|OBK-HB-31-PL-A]].
+Mục này ĐẶT chuẩn giao tiếp dùng chung cho mọi bộ phận có khách. Bộ phận khác nhau ở MẪU THƯ và ở nghiệp vụ, không được khác nhau ở bốn thứ tại mục này. Mẫu thư và quy trình của từng bộ phận nằm ở cấp 3: bộ phận Kế toán và Thuế tại OBK-SOP-19 mục 6.4; bộ phận AM tại OBK-HB-31-PL-A.
 
-#### 6.3.1. Sáu nguyên tắc giao tiếp
+#### 6.3.1. Các nguyên tắc giao tiếp
 
 **Nguyên tắc 1: Trả lời trước, giải thích sau.** Câu đầu tiên phải là câu trả lời hoặc là mốc thời gian sẽ có câu trả lời. Không mở đầu bằng bối cảnh, không mở đầu bằng xin lỗi dài dòng.
 
@@ -478,7 +520,7 @@ Hai loại kênh và ba quy tắc bắt buộc của hai loại đó nằm tại
 
 #### 6.3.4. Nội dung bắt buộc bằng văn bản, và quy tắc xác nhận lại
 
-**Quy tắc một.** Nội dung nào thuộc danh mục bắt buộc bằng văn bản mà chỉ có trao đổi miệng thì coi như chưa xảy ra. Danh mục của từng bộ phận do SOP cấp 2 của bộ phận đó đặt; danh mục của bộ phận Kế toán và Thuế tại [[19_Giao_tiep_khach_hang|OBK-SOP-19]] mục 6.2.2. Bốn nội dung sau là bắt buộc bằng văn bản với mọi bộ phận: xác nhận của khách trước khi nộp hồ sơ cho cơ quan nhà nước; thông báo sai sót và phương án khắc phục; từ chối một yêu cầu của khách; thay đổi phạm vi dịch vụ.
+**Quy tắc một.** Nội dung nào thuộc danh mục bắt buộc bằng văn bản mà chỉ có trao đổi miệng thì coi như chưa xảy ra. Danh mục của từng bộ phận do SOP cấp 2 của bộ phận đó đặt; danh mục của bộ phận Kế toán và Thuế tại OBK-SOP-19 mục 6.2.2. Bốn nội dung sau là bắt buộc bằng văn bản với mọi bộ phận: xác nhận của khách trước khi nộp hồ sơ cho cơ quan nhà nước; thông báo sai sót và phương án khắc phục; từ chối một yêu cầu của khách; thay đổi phạm vi dịch vụ.
 
 **Quy tắc hai.** **Mọi quyết định quan trọng trao đổi qua điện thoại, tin nhắn hoặc họp đều phải được xác nhận lại bằng thư điện tử, do người của oBacker chủ động gửi, trong 24 giờ.**
 
@@ -491,15 +533,15 @@ Hai loại kênh và ba quy tắc bắt buộc của hai loại đó nằm tại
 Nhằm kiểm soát rủi ro thất lạc chứng từ gốc, hồ sơ pháp lý và tài liệu cơ quan nhà nước, toàn bộ các bộ phận Delivery và AM tuân thủ quy trình giao nhận sau:
 
 1. **Quy trình đôn đốc và yêu cầu tài liệu từ khách hàng:**
-   - **Mốc 1 (Yêu cầu hồ sơ ban đầu):** Khi khởi tạo dịch vụ, `AM` gửi văn bản danh mục tài liệu cần thu thập theo Phiếu [[TL-02_Phieu_yeu_cau_va_bien_ban_ban_giao_tai_lieu|TL-02]], nêu rõ định dạng chuẩn (bản sao chứng thực, bản gốc, bản dịch công chứng) và thời hạn chót khách hàng phải cung cấp.
+   - **Mốc 1 (Yêu cầu hồ sơ ban đầu):** Khi khởi tạo dịch vụ, `AM` gửi văn bản danh mục tài liệu cần thu thập theo Phiếu TL-02, nêu rõ định dạng chuẩn (bản sao chứng thực, bản gốc, bản dịch công chứng) và thời hạn chót khách hàng phải cung cấp.
    - **Mốc 2 (Nhắc nhở trước hạn):** Trước hạn chót 02 ngày làm việc, `AM` kiểm tra tiến độ cung cấp và gửi thông báo nhắc nhở các hạng mục còn thiếu.
    - **Mốc 3 (Tạm dừng tính cam kết tiến độ khi chờ khách):** Nếu khách hàng chậm nộp tài liệu quá hạn chót, thời gian thực hiện cam kết (SLA) của oBacker sẽ tạm dừng tính cho đến khi nhận đủ tài liệu hợp lệ; cơ chế xử lý tuân thủ Điều 5.4 Bản Điều Khoản Chung:
      + Với dịch vụ theo vụ việc (Giấy phép, Rà soát hợp đồng, SHTT, Nghiên cứu): Toàn bộ số ngày khách hàng chậm nộp được cộng dồn trực tiếp vào ngày hẹn bàn giao kết quả (cộng bù tương ứng 1:1).
      + Với dịch vụ định kỳ (Kế toán, Thuế, BHXH, Tiền lương): Khách hàng nộp chứng từ sau ngày 05 hằng tháng hoặc không xác nhận trước mốc D-7 thì cam kết tiến độ của oBacker tạm đình chỉ, oBacker được miễn trừ tiền phạt chậm nộp và có quyền tạm nộp tờ khai theo số liệu hiện có hoặc tờ khai trống để bảo đảm hạn chót với cơ quan nhà nước.
 
 2. **Kiểm soát bưu phẩm, thư từ và công văn đi/đến:**
-   - Mọi tài liệu, chứng từ gốc, bưu phẩm gửi đi (`Outbound`) hoặc tiếp nhận đến (`Inbound`) từ Khách hàng, Cơ quan Nhà nước hoặc Nhà cung ứng bắt buộc phải được ghi nhận vào Sổ theo dõi giao nhận [[TL-01_So_giao_nhan_tai_lieu_va_buu_pham|TL-01]].
-   - Giao nhận hồ sơ gốc trực tiếp tại văn phòng phải có chữ ký của hai bên vào Biên bản bàn giao [[TL-02_Phieu_yeu_cau_va_bien_ban_ban_giao_tai_lieu|TL-02]].
+   - Mọi tài liệu, chứng từ gốc, bưu phẩm gửi đi (`Outbound`) hoặc tiếp nhận đến (`Inbound`) từ Khách hàng, Cơ quan Nhà nước hoặc Nhà cung ứng bắt buộc phải được ghi nhận vào Sổ theo dõi giao nhận TL-01.
+   - Giao nhận hồ sơ gốc trực tiếp tại văn phòng phải có chữ ký của hai bên vào Biên bản bàn giao TL-02.
    - Gửi hồ sơ qua đơn vị chuyển phát bưu chính: bắt buộc ghi nhận mã vận đơn (`Tracking Number`), gửi mã tra cứu cho khách hàng và theo dõi đến khi có xác nhận phát thành công.
    - Toàn bộ văn bản, thông báo từ Cơ quan Thuế, Tòa án, Thanh tra hoặc Cơ quan Đăng ký kinh doanh tiếp nhận tại văn phòng phải được chuyển giao cho Chuyên viên thụ lý vụ việc và Quản lý trực tiếp (`TL`) trong vòng 01 giờ làm việc.
 
@@ -507,7 +549,7 @@ Nhằm kiểm soát rủi ro thất lạc chứng từ gốc, hồ sơ pháp lý
 
 ## 7. THANG SLA THỐNG NHẤT
 
-### 7.1. Bốn loại SLA và quan hệ giữa bốn loại đó
+### 7.1. Phân loại SLA và mối quan hệ giữa các loại SLA
 
 | Loại | Là gì | Ai cam kết với ai | Ghi ở đâu |
 | --- | --- | --- | --- |
@@ -547,7 +589,7 @@ Hai loại kênh này khác nhau về giá trị pháp lý, và lẫn hai loại
 2. Mọi nội dung chốt với khách qua kênh liên lạc phải được `AM` gửi lại bằng email công ty trong cùng ngày làm việc. Chưa gửi email thì coi như chưa chốt.
 3. Đồng hồ `T1` xác nhận đã nhận thì chạy trên cả hai loại kênh, vì `T1` chỉ báo cho khách biết yêu cầu đã tới đúng người, không mang nội dung nghiệp vụ.
 
-Quy tắc 2 giải quyết lỗi thường gặp đã ghi tại [[02_OBK-SOP-AM_Quan_ly_khach_hang|OBK-SOP-AM]] mục 5, khi một thay đổi phạm vi được chốt trong nhóm chat rồi không ai đưa vào hệ thống.
+Quy tắc 2 giải quyết lỗi thường gặp đã ghi tại OBK-SOP-AM mục 5, khi một thay đổi phạm vi được chốt trong nhóm chat rồi không ai đưa vào hệ thống.
 
 > [!bug] LỖI THƯỜNG GẶP
 > Ngày nghỉ bù khi lễ trùng cuối tuần, cách chia 05 ngày Tết Âm lịch, và ngày liền kề của Quốc khánh đều do Chính phủ công bố riêng từng năm. COO phải nạp danh sách ngày nghỉ THỰC TẾ vào `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]` trong 05 ngày làm việc kể từ khi có công bố. Không nạp thì mọi mốc dạng ngày làm việc và giờ làm việc đều tính sai.
@@ -558,7 +600,7 @@ oBacker phân định rõ hai mục tiêu:
 1. **Bộ quy tắc văn hóa phản hồi dịch vụ (T1 và T2):** Phản hồi tin nhắn nhanh dưới 15 phút (T1) và hẹn mốc trả lời dưới 04 giờ (T2) là tiêu chuẩn văn hóa giao tiếp hướng đến sự an tâm của khách hàng. Hai tiêu chuẩn này phục vụ đánh giá tinh thần phục vụ, không áp dụng chế tài phạt trừ KPI kỹ thuật hay bắt buộc ghi nhận giờ nhật ký vi mô.
 2. **Chỉ số đo lường hiệu suất cốt lõi duy nhất (OTD %):** Tập trung đo lường **On-Time Delivery (OTD %)**, tức tỷ lệ bàn giao kết quả cuối cùng (sản phẩm, hồ sơ, báo cáo thuế) cho khách hàng đúng hoặc trước thời hạn đã cam kết trên hợp đồng dịch vụ hoặc phiếu yêu cầu công việc.
 
-#### 7.2.3. Bốn nhóm thời hạn dịch vụ tiêu chuẩn
+#### 7.2.3. Phân nhóm thời hạn dịch vụ tiêu chuẩn
 
 Toàn bộ thời hạn cam kết dịch vụ của oBacker được quy chuẩn thành bốn nhóm nghiệp vụ tiêu chuẩn:
 
@@ -576,7 +618,7 @@ Toàn bộ thời hạn cam kết dịch vụ của oBacker được quy chuẩn
 
 T3 nằm ở bảng Job của từng SOP cấp 2.
 
-### 7.3. Ba mức ưu tiên và SLA xử lý
+### 7.3. Phân mức ưu tiên và SLA xử lý
 
 | Mức | Định nghĩa | Phản hồi lần đầu | Xử lý xong |
 | --- | --- | --- | --- |
@@ -585,6 +627,18 @@ T3 nằm ở bảng Job của từng SOP cấp 2.
 | **P3 Thường** | Câu hỏi và yêu cầu thông thường | Theo T1 | Trả lời đầy đủ trong ngày nếu nhận trước 15:00, nếu không thì trước 12:00 hôm sau.<br>Cần bộ phận nghiệp vụ xử lý thì tối đa 2 ngày làm việc, và AM cam kết mốc theo T2 |
 
 **Quy tắc phân mức.** Người tiếp nhận phân mức tại B1. Phân sai mức thấp hơn thực tế là lỗi chất lượng. Khi nghi ngờ giữa hai mức, chọn mức cao hơn.
+
+### 7.3a. Bảng SLA thống nhất theo loại yêu cầu và mức
+
+Bảng này dùng chung cho bốn bộ phận dịch vụ khi tiếp nhận yêu cầu của khách. Mốc T1 và T2 áp đúng mục 7.2.4; mốc bàn giao nội dung theo loại yêu cầu.
+
+| Loại yêu cầu | Mức | Xác nhận đã nhận (T1) | Hẹn mốc trả lời (T2) | Bàn giao nội dung |
+| --- | --- | --- | --- | --- |
+| Sự cố | critical (P1, P2) | 15 phút (chat), 01 giờ (email) | 04 giờ | Theo mức sự cố, tối đa 24 giờ |
+| Câu hỏi thường quy | request | 15 phút (chat), 01 giờ (email) | 04 giờ | 24 đến 48 giờ |
+| Tư vấn và hợp đồng chuẩn | request | 15 phút (chat), 01 giờ (email) | 04 giờ | 03 ngày làm việc, hợp đồng dưới 10 trang |
+| Tư vấn và hợp đồng phức tạp, có yếu tố FDI | request | 15 phút (chat), 01 giờ (email) | 04 giờ | 05 ngày làm việc |
+| Gấp trong ngày | critical | 15 phút (chat), 01 giờ (email) | 04 giờ | 24 giờ, phải có TL duyệt và phụ phí theo bảng giá |
 
 ### 7.4. SLA nội bộ, bộ phận nghiệp vụ với AM
 
@@ -642,7 +696,7 @@ Con số SLA của từng Job cụ thể nằm ở bảng Job của SOP cấp 2 
 
 ## 8. THANG CHUYỂN LÊN CẤP TRÊN
 
-### 8.1. Hai chiều
+### 8.1. Cơ chế chuyển tiếp theo chiều ngang và chiều dọc
 
 **Chiều ngang (theo chuyên môn).** Vấn đề cần chuyên môn nào thì đi thẳng tới bộ phận có chuyên môn đó, không phụ thuộc cấp bậc. Người chuyển vẫn theo sát vụ việc tới khi có kết quả. Bốn dòng về việc pháp lý trong bảng dưới đây là bản rút gọn của mục 5.5; khi hai bên khác nhau thì mục 5.5 đúng.
 
@@ -662,7 +716,7 @@ Con số SLA của từng Job cụ thể nằm ở bảng Job của SOP cấp 2 
 | Tuyển dụng, đãi ngộ, hành chính CỦA OBACKER | Nhân sự |
 | Sự cố hệ thống và công cụ | Công nghệ và Sản phẩm |
 
-### 8.2. Chiều dọc, HAI NHÁNH
+### 8.2. Chuyển cấp theo chiều dọc giữa các nhánh vận hành
 
 Vì nhánh thương mại thuộc CEO còn Phòng Dịch vụ thuộc COO, thang dọc có hai nhánh khác nhau về số cấp. Nhánh thứ ba là các đơn vị kiến tạo và hỗ trợ, xem [[PL_Chuyen_len_cap_tren|OBK-QCTC-02-PL-C]] mục 1.
 
@@ -703,10 +757,15 @@ Vì nhánh thương mại thuộc CEO còn Phòng Dịch vụ thuộc COO, thang
 | oBacker CÓ NHẬN yêu cầu đó không, với giá nào, với cam kết nào | **CEO** | Đây là câu hỏi thương mại |
 | Có bổ sung nguồn lực để làm được mốc khách muốn không | **CEO quyết chi, COO đề xuất phương án** | Chạm cả tài chính lẫn vận hành |
 
-**Trình tự bắt buộc khi có xung đột.** Một, AM và TL ghi rõ trên Job hai thứ: khách muốn gì, và bộ phận nói làm được tới đâu. Hai, COO trả lời câu hỏi khả thi trong 1 ngày làm việc. Ba, nếu COO nói không làm được trong mốc khách muốn thì AM KHÔNG được cam kết mốc đó, kể cả khi CEO là cấp trên của AM; muốn cam kết thì phải qua bước bốn. Bốn, CEO quyết có bổ sung nguồn lực hay đàm phán lại mốc với khách, và ghi quyết định vào Job.
+**Trình tự bắt buộc khi có xung đột.**
 
-> [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
-> CEO KHÔNG bác bỏ kết luận khả thi của COO bằng thẩm quyền. CEO đổi được ĐẦU VÀO (thêm người, thêm tiền, giảm phạm vi, dời mốc) rồi hỏi lại COO, chứ không đổi được câu trả lời. Đây là điểm kiểm soát quan trọng nhất của cơ cấu hai nhánh; bỏ chốt đó thì áp lực doanh số sẽ đẩy cam kết vượt năng lực và hậu quả rơi vào thời hạn theo pháp luật của khách.
+1. AM và TL ghi rõ trên Job hai thứ: khách muốn gì, và bộ phận nói làm được tới đâu.
+2. COO trả lời câu hỏi khả thi trong 1 ngày làm việc.
+3. Nếu COO kết luận không làm được trong mốc khách muốn thì AM KHÔNG được cam kết mốc đó, kể cả khi CEO là cấp trên của AM; muốn cam kết thì phải qua bước 4.
+4. CEO quyết có bổ sung nguồn lực hay đàm phán lại mốc với khách, và ghi quyết định vào Job.
+
+> [!warning] RANH GIỚI THẨM QUYỀN GIỮA CEO VÀ COO
+> CEO không phủ quyết kết luận về tính khả thi của COO bằng ý chí chủ quan. Khi cần điều chỉnh, CEO thay đổi các yếu tố đầu vào (bổ sung nhân sự, ngân sách, điều chỉnh phạm vi hoặc gia hạn tiến độ) và yêu cầu COO đánh giá lại. Đây là điểm kiểm soát trọng yếu nhằm ngăn ngừa rủi ro cam kết dịch vụ vượt quá năng lực vận hành, gây ảnh hưởng đến thời hạn pháp lý của khách hàng.
 
 ### 8.3. Ma trận chuyển lên cấp trên theo loại vấn đề
 
@@ -724,8 +783,8 @@ Vì nhánh thương mại thuộc CEO còn Phòng Dịch vụ thuộc COO, thang
 | Nghi ngờ hành vi trái pháp luật của khách | TL bộ phận, báo ngay | `TL-RD` và COO cùng lúc, theo Job RD-22 | CEO |
 | Xung đột giữa AM và bộ phận dịch vụ | Theo mục 8.2.1 | Theo mục 8.2.1 | Theo mục 8.2.1 |
 
-> [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
-> Bốn nhóm việc dưới đây thuộc CEO ở mọi tình huống, không cấp nào được quyết thay: nhận khách mới có yếu tố rủi ro; từ chối khách; chấm dứt hợp đồng dịch vụ trước hạn; và mọi việc thuộc hành vi oBacker nghiêm cấm nêu tại mục 9.
+> [!warning] CÁC TRƯỜNG HỢP THUỘC THẨM QUYỀN ĐỘC QUYỀN CỦA CEO
+> Bốn nhóm việc dưới đây thuộc thẩm quyền độc quyền của CEO trong mọi tình huống, không cấp nào được quyết định thay: tiếp nhận khách hàng mới có yếu tố rủi ro; từ chối khách hàng; chấm dứt hợp đồng dịch vụ trước hạn; và các nội dung thuộc hành vi oBacker nghiêm cấm nêu tại mục 9.
 
 ---
 
@@ -740,52 +799,14 @@ Chín việc dưới đây oBacker không làm, không có ngoại lệ, không 
 5. Dùng tài khoản, chữ ký số hoặc chữ ký của người khác mà không có ủy quyền hợp lệ bằng văn bản.
 6. Trả lời khách bằng nội dung chưa đối chiếu bản gốc hoặc chưa xác minh được khi nội dung đó có rủi ro bị xử phạt cho khách.
 7. Tiết lộ dữ liệu của một khách hàng cho bất kỳ bên nào không có quyền, gồm cả khách hàng khác.
-8. Chi tiền hoặc lợi ích cho người lao động, người quản lý của khách hàng hoặc khách hàng tiềm năng để người đó chọn hoặc giữ oBacker làm nhà cung cấp, kể cả khi thực hiện qua đối tác giới thiệu khách hàng [[CC-DN-74 Đưa hối lộ cho người có chức vụ trong doanh nghiệp, tổ chức ngoài Nhà nước|CC-DN-74]].
+8. Chi tiền hoặc lợi ích cho người lao động, người quản lý của khách hàng hoặc khách hàng tiềm năng để người đó chọn hoặc giữ oBacker làm nhà cung cấp, kể cả khi thực hiện qua đối tác giới thiệu khách hàng CC-DN-74.
 9. Cung cấp, tham gia, môi giới hoặc hỗ trợ dịch vụ người đứng tên hộ (Nominee) dưới bất kỳ hình thức nào, bao gồm đứng tên hộ chủ sở hữu, thành viên góp vốn, cổ đông, hoặc người đại diện theo pháp luật của doanh nghiệp tại Việt Nam. Toàn bộ các mã dịch vụ liên quan đến người đứng tên hộ (gồm `NOM-HOLD` và `NOM-SET`) bị hủy bỏ vĩnh viễn khỏi danh mục cung cấp của oBacker kể từ ngày 27/09/2026.
 
-### 9.1. Căn cứ pháp lý và cảnh báo rủi ro về việc nghiêm cấm dịch vụ người đứng tên hộ (Nominee)
-
-Dịch vụ người đứng tên hộ (Nominee) là hành vi thỏa thuận để một cá nhân hoặc tổ chức đứng tên trên hồ sơ đăng ký doanh nghiệp với tư cách là chủ sở hữu, thành viên góp vốn, cổ đông hoặc người đại diện theo pháp luật thay cho chủ sở hữu hoặc người điều hành thực tế nhằm che giấu danh tính, né tránh điều kiện đầu tư, trốn tránh nghĩa vụ thuế hoặc thực hiện các hành vi vi phạm pháp luật. oBacker xác lập cảnh báo pháp lý nghiêm ngặt và nghiêm cấm tuyệt đối việc cung cấp dịch vụ này dựa trên ba cơ sở pháp luật sau:
-
-#### 1. Căn cứ Luật Doanh nghiệp số 59/2020/QH14 (được sửa đổi, bổ sung bởi Luật số 03/2022/QH15, Luật số 76/2025/QH15, văn bản hợp nhất 67/VBHN-VPQH năm 2025)
-- **Hành vi bị nghiêm cấm theo Điều 16 khoản 4:** Khoản 4 Điều 16 Luật Doanh nghiệp nghiêm cấm hành vi: *"Kê khai giả mạo, kê khai không trung thực, kê khai không chính xác nội dung hồ sơ đăng ký doanh nghiệp và nội dung hồ sơ đăng ký thay đổi nội dung đăng ký doanh nghiệp"*. Việc thuê hoặc nhờ người khác đứng tên hộ là hành vi kê khai không trung thực về người thành lập, chủ sở hữu và người quản lý doanh nghiệp, dẫn đến việc Giấy chứng nhận đăng ký doanh nghiệp có thể bị thu hồi do thông tin kê khai là giả mạo theo quy định của pháp luật.
-- **Nghĩa vụ và trách nhiệm cá nhân của Người đại diện theo pháp luật (Điều 13, Điều 14):** Người đại diện theo pháp luật có nghĩa vụ thực hiện quyền và nghĩa vụ được giao một cách trung thực, cẩn trọng, tốt nhất nhằm bảo đảm lợi ích hợp pháp của doanh nghiệp (Điều 13 khoản 1 điểm a); trung thành với lợi ích của doanh nghiệp, không lạm dụng địa vị để tư lợi cho cá nhân hoặc tổ chức khác (Điều 13 khoản 1 điểm b). Người đại diện theo pháp luật phải chịu trách nhiệm cá nhân theo quy định của pháp luật đối với các thiệt hại gây ra cho doanh nghiệp (Điều 13 khoản 2). Khi nhận đứng tên hộ, người đại diện theo pháp luật trên danh nghĩa phải ký các hợp đồng, chứng từ, tờ khai thuế và báo cáo tài chính; do đó, người này phải chịu trách nhiệm pháp lý trực tiếp và vô hạn trước cơ quan nhà nước và bên thứ ba đối với toàn bộ hoạt động của doanh nghiệp, kể cả khi không thực tế điều hành.
-- **Trách nhiệm liên đới và vô hạn về vốn, thuế và các khoản nợ của chủ sở hữu và thành viên thật (Điều 47, Điều 75):** 
-  + Đối với công ty TNHH hai thành viên trở lên, theo Điều 47 khoản 4: Các thành viên chưa góp vốn hoặc chưa góp đủ số vốn đã cam kết phải chịu trách nhiệm tương ứng với tỷ lệ phần vốn góp đã cam kết đối với các nghĩa vụ tài chính của công ty phát sinh trong thời gian trước ngày đăng ký thay đổi vốn.
-  + Đối với công ty TNHH một thành viên, theo Điều 75 khoản 4: *"Chủ sở hữu công ty chịu trách nhiệm bằng toàn bộ tài sản của mình đối với các nghĩa vụ tài chính của công ty, thiệt hại xảy ra do không góp, không góp đủ, không góp đúng hạn vốn điều lệ theo quy định tại Điều này"*.
-  + Chủ sở hữu hoặc nhà đầu tư thật sự không thể loại trừ trách nhiệm tài sản thông qua các "thỏa thuận đứng tên hộ" hoặc "hợp đồng ủy quyền ngầm". Theo Điều 124 Bộ luật Dân sự 2015, các giao dịch dân sự được xác lập giả tạo nhằm che giấu một giao dịch dân sự khác đều bị vô hiệu. Do đó, chủ sở hữu thật vẫn phải liên đới chịu trách nhiệm vô hạn bằng toàn bộ tài sản của mình đối với các khoản nợ, nghĩa vụ thuế và nghĩa vụ tài chính phát sinh của doanh nghiệp.
-
-#### 2. Căn cứ Luật Phòng, chống rửa tiền số 14/2022/QH15 và Nghị định số 19/2023/NĐ-CP
-- **Hành vi bị nghiêm cấm theo Điều 8:** Điều 8 khoản 1 và khoản 2 nghiêm cấm hành vi tổ chức, tham gia hoặc tạo điều kiện, trợ giúp thực hiện hành vi rửa tiền; thiết lập, duy trì tài khoản vô danh hoặc tài khoản sử dụng tên giả. Việc thiết lập pháp nhân hoặc tài khoản ngân hàng thông qua người đứng tên hộ để che giấu nguồn tiền hoặc che giấu chủ thể chi phối là hành vi cấu thành vi phạm pháp luật phòng, chống rửa tiền.
-- **Nghĩa vụ nhận biết khách hàng (KYC) theo Điều 9:** Theo Điều 9 khoản 3 điểm đ Luật số 14/2022/QH15, tổ chức, cá nhân khi cung cấp dịch vụ thành lập, quản lý, điều hành doanh nghiệp, cung cấp dịch vụ giám đốc, thư ký công ty cho bên thứ ba bắt buộc phải thực hiện thủ tục nhận biết khách hàng và thu thập thông tin nhận dạng đầy đủ của các bên.
-- **Xác định Chủ sở hữu hưởng lợi (UBO) theo Điều 21, Điều 22 và Nghị định số 19/2023/NĐ-CP Điều 7:**
-  + Theo Điều 21 khoản 2 và Điều 22 khoản 1 Luật số 14/2022/QH15, pháp nhân và bên nhận ủy thác trong thỏa thuận pháp lý có trách nhiệm thu thập, cập nhật và lưu trữ thông tin về chủ sở hữu hưởng lợi.
-  + Theo Điều 7 khoản 2 điểm a Nghị định số 19/2023/NĐ-CP, Chủ sở hữu hưởng lợi (UBO - Ultimate Beneficial Owner) đối với khách hàng là tổ chức được xác định là: *"cá nhân thực tế nắm giữ trực tiếp hoặc gián tiếp từ 25% vốn điều lệ trở lên của tổ chức đó hoặc cá nhân cuối cùng có quyền chi phối đối với khách hàng là tổ chức"*.
-  + Hành vi sử dụng người đứng tên hộ nhằm che giấu danh tính của cá nhân nắm giữ từ 25% vốn điều lệ hoặc cá nhân có quyền chi phối thực tế (UBO) là thủ đoạn vi phạm pháp luật nghiêm trọng, thuộc diện giám sát đặc biệt và điều tra trọng điểm của Cục Phòng, chống rửa tiền (Ngân hàng Nhà nước) và Cơ quan Cảnh sát điều tra.
-
-#### 3. Căn cứ Bộ luật Hình sự số 100/2015/QH13 (được sửa đổi, bổ sung bởi Luật số 12/2017/QH14, văn bản hợp nhất 135/VBHN-VPQH)
-- **Tội trốn thuế (Điều 200 Bộ luật Hình sự):** Trường hợp sử dụng người đứng tên hộ để thành lập doanh nghiệp nhằm che giấu doanh thu, trốn tránh nghĩa vụ nộp thuế, mua bán sử dụng hóa đơn bất hợp pháp với số tiền trốn thuế từ 100.000.000 đồng trở lên, cá nhân vi phạm bị phạt tiền từ 100.000.000 đồng đến 4.500.000.000 đồng hoặc phạt tù từ 03 tháng đến 07 năm; pháp nhân thương mại bị phạt tiền từ 300.000.000 đồng đến 10.000.000.000 đồng hoặc đình chỉ hoạt động vĩnh viễn. Trong vụ án trốn thuế, cả người nhờ đứng tên (vai trò chủ mưu, tổ chức) và người nhận đứng tên (vai trò thực hành, giúp sức) đều bị truy cứu trách nhiệm hình sự với tư cách đồng phạm.
-- **Tội rửa tiền (Điều 324 Bộ luật Hình sự):** Cá nhân hoặc tổ chức tham gia trực tiếp hoặc gián tiếp vào giao dịch tài chính, ngân hàng nhằm hợp thức hóa nguồn gốc tiền, tài sản do phạm tội mà có thông qua doanh nghiệp đứng tên hộ bị phạt tù từ 01 năm đến 15 năm, bị tịch thu một phần hoặc toàn bộ tài sản, phạt tiền đến 50.000.000 đồng đối với cá nhân; pháp nhân thương mại bị phạt tiền từ 1.000.000.000 đồng đến 20.000.000.000 đồng hoặc đình chỉ hoạt động vĩnh viễn.
-- **Tội trốn đóng bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp cho người lao động (Điều 216 Bộ luật Hình sự):** Đứng tên người đại diện theo pháp luật hoặc chủ sở hữu doanh nghiệp nhưng gian dối, trốn tránh nghĩa vụ đóng bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp cho người lao động từ 06 tháng trở lên bị phạt tiền từ 50.000.000 đồng đến 1.000.000.000 đồng hoặc phạt tù từ 03 tháng đến 07 năm đối với cá nhân; pháp nhân thương mại bị phạt tiền đến 3.000.000.000 đồng.
-
-#### 4. Quyết định của Tổng Giám đốc về danh mục dịch vụ
-Kể từ ngày 27/09/2026, oBacker chính thức thu hồi và bãi bỏ toàn bộ các gói dịch vụ và mã sản phẩm liên quan đến việc đứng tên hộ, bao gồm hai mã dịch vụ `NOM-HOLD` (Dịch vụ người đứng Nominee CSH và Legal Rep) và `NOM-SET` (Dịch vụ Nominee Set). Mọi nhân sự của oBacker không được tiếp nhận yêu cầu, không được tư vấn hoặc hỗ trợ khách hàng tìm kiếm người đứng tên hộ dưới bất kỳ hình thức nào. Khi phát hiện khách hàng có yêu cầu hoặc dấu hiệu sử dụng người đứng tên hộ để che giấu chủ sở hữu hưởng lợi, nhân sự phải từ chối ngay lập tức và báo cáo Tổng Giám đốc trong ngày làm việc.
-
----
 
 ## 10. QUY ƯỚC GHI CĂN CỨ VÀ QUY ƯỚC TRÌNH BÀY
 
-### 10.1. Mức chắc chắn của căn cứ pháp luật
 
-Tài liệu phát hành chỉ chứa nội dung đã đối chiếu toàn văn bản gốc trong kho `05_PhapLuat/` hoặc trên nguồn chính thống. Căn cứ nào chưa đạt mức đó thì phải ghi rõ ngay tại chỗ dùng căn cứ đó.
-
-| Cách ghi trong tài liệu | Nghĩa | Được dùng làm gì |
-| --- | --- | --- |
-| Chỉ ghi số điều khoản | Đã đối chiếu toàn văn bản gốc | Dùng được ngay, kể cả trả lời khách và lập memo |
-| Ghi thêm "chưa đối chiếu bản gốc" | Lấy từ nguồn thứ cấp đáng tin nhưng chưa đọc toàn văn | Chỉ dùng để lập kế hoạch nội bộ. Không dùng để cam kết với khách hoặc để hành động có rủi ro bị xử phạt |
-| Ghi thêm "chưa xác minh được" | Chưa tra được bản gốc | Không được dùng để trả lời khách dưới mọi hình thức. Phải tra và đối chiếu bản gốc trước |
-
-### 10.2. Con số quản trị và giả thiết làm việc
+### 10.1. Con số quản trị và giả thiết làm việc
 
 Con số quản trị là con số oBacker tự chọn, không phải mốc do pháp luật đặt. Sai thì chỉ là chọn chưa phù hợp nhất. Toàn bộ con số quản trị của bộ tài liệu này đã được người có thẩm quyền quyết, và giá trị đã quyết nằm tại chính điều khoản đặt ra con số đó.
 
@@ -793,21 +814,21 @@ Giả thiết làm việc là câu trả lời TẠM cho một tình trạng ph�
 
 Phân biệt cốt lõi: con số quản trị là việc oBacker CHỌN; giả thiết là việc oBacker chưa BIẾT.
 
-### 10.3. Bốn loại cảnh báo
+### 10.2. Phân loại khối cảnh báo
 
 > [!danger] RỦI RO BỊ XỬ PHẠT
 > Làm sai ở mục này dẫn tới tiền phạt hoặc tiền chậm nộp cho khách hoặc cho oBacker.
 
-> [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
-> CV không có quyền quyết, phải chuyển TL; vượt thẩm quyền TL thì chuyển COO. AM không có quyền quyết về nội dung chuyên môn, phải chuyển TL; không có quyền quyết về giá và phạm vi, phải chuyển CEO. Việc thuộc hành vi oBacker nghiêm cấm thì chuyển CEO.
+> [!warning] NGUYÊN TẮC GIỚI HẠN THẨM QUYỀN VÀ BÁO CÁO VƯỢT CẤP
+> CV không có thẩm quyền tự quyết, phải báo cáo TL bộ phận; vượt thẩm quyền của TL thì chuyển lên COO. AM không có thẩm quyền quyết định về chuyên môn kỹ thuật, phải chuyển TL bộ phận; không có thẩm quyền tự ý quyết định về giá và phạm vi dịch vụ, phải trình CEO phê duyệt. Mọi trường hợp thuộc hành vi oBacker nghiêm cấm phải báo cáo trực tiếp CEO.
 
-> [!note] GHI CHÚ QUAN TRỌNG
-> Nội dung nguyên tắc hoặc lưu ý quan trọng cần tuân thủ trong quá trình thực hiện.
+> [!note] QUY ĐỊNH NGUYÊN TẮC
+> Nội dung nguyên tắc hoặc quy định trọng yếu cần tuân thủ khi thực hiện.
 
 > [!bug] LỖI THƯỜNG GẶP
 > Lỗi hay xảy ra trong thực tế, kèm dấu hiệu nhận biết và cách xử lý.
 
-### 10.4. Quy ước khác
+### 10.3. Quy ước khác
 
 **Placeholder công cụ.** Tài liệu viết độc lập với phần mềm. Chỗ cần thao tác trên hệ thống ghi placeholder trong ngoặc vuông: `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]`, `[KHO LƯU TRỮ HỒ SƠ]`, `[HỆ THỐNG CHAT KHÁCH HÀNG]`, `[PHẦN MỀM KẾ TOÁN]`, `[CỔNG DỊCH VỤ CÔNG]`. Đổi phần mềm thì chỉ sửa hướng dẫn cấp 3, không sửa lại toàn bộ tài liệu.
 
@@ -831,7 +852,7 @@ Nguyên tắc: mọi chỉ số phải lấy được số liệu từ `[HỆ TH
 | CS-04 | Tỷ lệ đúng ngay lần đầu | Số đầu ra được duyệt lần đầu chia Tổng đầu ra | Từ 80% | Hệ thống công việc, hằng tháng |
 | CS-05 | Số lỗi đầu ra mức Nghiêm trọng lọt ra ngoài | Đếm | 0 | Hệ thống công việc, hằng tháng |
 | CS-06 | Tỷ lệ tuân thủ SLA nội bộ với AM | Số lần đáp ứng đúng hạn chia Tổng số lần AM yêu cầu | Từ 80% | Hệ thống công việc, hằng tháng |
-| CS-07 | Tỷ lệ liên lạc với khách đi qua AM | 100% trừ số lần bộ phận liên hệ thẳng khách | 100% | Rà soát ngẫu nhiên, hằng tháng |
+| CS-07 | Tỷ lệ liên lạc với khách đi qua AM | 100% trừ số lần bộ phận hoặc chuyên viên liên hệ khách ngoài nhóm chung do AM quản trị | 100% | Rà soát ngẫu nhiên, hằng tháng |
 | CS-08 | Tỷ lệ Job có khoảng làm trước đạt chuẩn NT-6 | Số Job hoàn tất đủ khoảng làm trước chia Tổng số Job nộp cơ quan nhà nước | ≥ 95% | Hệ thống công việc, hằng tháng |
 
 ### 11.1a. Khi một chỉ số chung không áp dụng cho một đơn vị
@@ -849,7 +870,7 @@ Tám chỉ số tại mục 11.1 viết cho bộ phận DELIVERY, tức bộ ph�
 | Bộ phận Dịch vụ pháp lý | `CS-01`, `CS-02` | Bộ phận không có Job nào mang thời hạn theo pháp luật, tức hạn mà trễ thì khách bị phạt.<br>`CS-08` VẪN ÁP, nhưng chỉ cho Job `LS-17`, vì Job đó có một hạn do cơ quan nhà nước ghi trên văn bản và có mốc làm trước theo NT-6.<br>Các Job còn lại của bộ phận ghi Không áp dụng ở `CS-08` |
 | Legal R&D Team | `CS-01`, `CS-02`, `CS-03`, `CS-06`, `CS-07`, `CS-08` | Đơn vị không có khách, không có thời hạn theo pháp luật, và không nằm trong chuỗi cam kết với `AM`.<br>Chỉ còn `CS-04` và `CS-05` áp được |
 
-### 11.2. Định nghĩa lỗi, hai biên đo, và ba mức
+### 11.2. Phân loại lỗi, phạm vi đo lường và cấp độ vi phạm
 
 **Hai biên đo, không được lẫn.** Một lỗi đi qua tối đa hai biên, và mỗi biên trả lời một câu hỏi khác nhau:
 
@@ -929,8 +950,8 @@ Nằm tại [[02_OBK-SOP-AM_Quan_ly_khach_hang|OBK-SOP-AM]] mục 9, không lặ
 
 ### 12.1. Ai được sửa cái gì
 
-> [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
-> Mục này nói về việc SỬA một tài liệu ĐÃ BAN HÀNH, không nói về việc ban hành lần đầu. Ban hành lần đầu cả sáu SOP cấp 2 và cả Handbook Kế toán là `CEO`, xem mục 2. Uỷ quyền tại bảng dưới đây là để `CEO` không phải duyệt từng lần sửa; đọc lẫn hai việc này thì hoặc chặn mọi lần sửa, hoặc cho sửa vượt thẩm quyền.
+> [!warning] THẨM QUYỀN PHÊ DUYỆT SỬA ĐỔI TÀI LIỆU
+> Quy định tại bảng dưới đây áp dụng cho việc sửa đổi tài liệu đã ban hành, không áp dụng cho thẩm quyền ban hành lần đầu. Việc ban hành lần đầu toàn bộ các SOP cấp 2 và Handbook Kế toán thuộc thẩm quyền của CEO theo quy định tại mục 2. Phân quyền phê duyệt sửa đổi được thiết lập nhằm bảo đảm tính chủ động trong vận hành và tuân thủ thẩm quyền.
 
 | Nội dung | Người đề xuất | Người duyệt |
 | --- | --- | --- |
@@ -939,7 +960,7 @@ Nằm tại [[02_OBK-SOP-AM_Quan_ly_khach_hang|OBK-SOP-AM]] mục 9, không lặ
 | [[07_OBK-SOP-RD_Nghien_cuu_phap_ly\|OBK-SOP-RD]] | `TL-RD` | **CEO**, vì Legal R&D Team thuộc nhánh CEO |
 | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] | AM | **CEO**, vì nhánh thương mại thuộc CEO |
 | Hướng dẫn cấp 3 | CV hoặc TL | TL bộ phận |
-| `PL_1_Can_cu_phap_ly.md` và sổ căn cứ [[OBK-CC]] | Bất kỳ ai phát hiện | **`TL-RD`. Đây là tài liệu do Legal R&D sở hữu duy nhất.** Sổ căn cứ là bản sinh tự động; sửa dữ liệu nguồn rồi sinh lại |
+| `PL_1_Can_cu_phap_ly.md` và sổ căn cứ OBK-CC | Bất kỳ ai phát hiện | **`TL-RD`. Đây là tài liệu do Legal R&D sở hữu duy nhất.** Sổ căn cứ là bản sinh tự động; sửa dữ liệu nguồn rồi sinh lại |
 | `PL_2_Bang_tra_SLA.md` | Không ai sửa trực tiếp | Bản sinh tự động; sửa ở SOP cấp 2 rồi sinh lại |
 | Handbook Kế toán, hướng dẫn cấp 3 của mảng kế toán và thuế | `TL-KT` | **COO** về quản lý phiên bản và phát hành. Legal R&D soát phần nội dung pháp lý trước |
 | Nội dung pháp lý, chuẩn chuyên môn và quy trình cập nhật văn bản trong mọi tài liệu của bộ | Bất kỳ ai phát hiện | **`TL-RD`**, theo Job RD-17 |
@@ -973,10 +994,10 @@ Mỗi bước dưới đây gắn với một Job của [[07_OBK-SOP-RD_Nghien_c
 > [!bug] LỖI THƯỜNG GẶP
 > Bàn giao tác động rồi coi như xong. Bước 8 chỉ đóng khi `TL` bộ phận đóng Job sửa ở bước 9. Chuyển lên cấp trên và bàn giao là để gọi thêm người, không phải để chuyển vấn đề đi, theo NT-7.
 
-#### 12.3a. Bốn mức ưu tiên của văn bản pháp luật mới
+#### 12.3a. Các mức ưu tiên áp dụng cho văn bản pháp luật mới
 
-> [!note] ĐÂY LÀ BẢN GỐC
-> Trước 07/09/2026, bốn mức ưu tiên và ba mốc 05, 10, 20 ngày làm việc đặt tại [[21_Cap_nhat_van_ban_phap_luat|OBK-SOP-21]] mục 6.2.3, tức trong hướng dẫn cấp 3 của một bộ phận. Nhưng bảng này điều khiển mốc của Legal R&D và của cả bốn bộ phận, nên bảng này thuộc cấp 1. Đã chuyển lên đây ngày 07/09/2026; mục 6.2.3 của Handbook nay chỉ dẫn chiếu.
+> [!note] NGUYÊN TẮC ÁP DỤNG THỐNG NHẤT
+> Quy định phân mức ưu tiên và thời hạn xử lý tại bảng dưới đây áp dụng thống nhất cho toàn bộ các bộ phận vận hành dịch vụ và Legal R&D. Chi tiết hướng dẫn thao tác tại OBK-SOP-21 mục 6.2.3 dẫn chiếu theo bảng này.
 
 | Mức | Tiêu chí | Mốc hoàn thành đánh giá tác động | Mốc cập nhật tài liệu của bộ phận |
 | --- | --- | --- | --- |
@@ -988,7 +1009,7 @@ Mỗi bước dưới đây gắn với một Job của [[07_OBK-SOP-RD_Nghien_c
 Mốc đếm từ ngày ghi nhận tại `RD-01`. Với văn bản mức ưu tiên 1 mà ngày hiệu lực đến trước mốc của bảng này thì lấy mốc nào đến trước và ghi lý do trên Job, theo quy tắc nhiều mốc tại [[07_OBK-SOP-RD_Nghien_cuu_phap_ly|OBK-SOP-RD]] mục 2.
 
 > [!danger] RỦI RO BỊ XỬ PHẠT
-> Tính tới 02/09/2026 đang có bốn thay đổi lớn mà tài liệu cũ của các bộ phận chưa cập nhật, trong đó ba cái đã có hiệu lực và một cái có hiệu lực sau 8 ngày. Danh sách và tác động được cập nhật tại Sổ căn cứ [[OBK-CC]].
+> Trường hợp văn bản pháp luật thay đổi mà chưa kịp thời cập nhật vào quy trình vận hành của các bộ phận, rủi ro xử phạt hành chính đối với khách hàng rất lớn. Danh sách và đánh giá tác động của các văn bản pháp luật mới ban hành được cập nhật và theo dõi tại Sổ căn cứ.
 
 ---
 
@@ -1012,4 +1033,4 @@ Mốc đếm từ ngày ghi nhận tại `RD-01`. Với văn bản mức ưu ti�
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.2.0.0 | Chuyển đồng hồ T1 và T2 thành văn hóa phản hồi, tập trung đo lường chỉ số On-Time Delivery và quy chuẩn 4 nhóm thời hạn SLA |
+| 05/10/2026 | R.4.0.2 | Sửa lỗi lặp từ 'hành hành' ở hàng nhật ký bản R.4.0.1. |

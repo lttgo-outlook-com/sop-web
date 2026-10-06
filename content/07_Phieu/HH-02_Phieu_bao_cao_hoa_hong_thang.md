@@ -4,19 +4,15 @@ code: "HH-02"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-TTT-05 Cách làm phiếu thao tác"
-law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - HH-02
 tags:
@@ -29,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | HH-02 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -40,6 +36,7 @@ tags:
 | **Ai dùng** | `PM` lập và gửi. Số liệu lấy từ đầu ra của `NB-49` |
 | **Sinh từ** | [[08_OBK-SOP-PM_Chuong_trinh_doi_tac_gioi_thieu_khach_hang\|OBK-SOP-PM]] Job PM-07, PM-08 và KS-PM-08 |
 | **Ngày làm phiếu** | 24/09/2026 |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
@@ -90,7 +87,7 @@ Kỳ: tháng ...... năm ..........
 
 ## BÁO CÁO GỬI ĐỐI TÁC
 
-Các trường theo Điều 6.1.2 bản mẫu: danh sách Khách Hàng Hợp Lệ, số hóa đơn, số tiền thực thu, ngày thu, số hoa hồng tương ứng, và kỳ báo cáo. Doanh thu tính hoa hồng lấy từ `NB-49`, đối khớp số thực thu tại Sổ [[DT-02_So_theo_doi_doanh_thu_tra_truoc_va_phan_bo|DT-02]] và Sổ [[CN-01_So_theo_doi_cong_no_phai_thu_va_tuoi_no|CN-01]], chỉ dùng để tính số hoa hồng và không ghi vào báo cáo gửi đối tác, theo Điều 4.2, Điều 4.3 bản mẫu và [[PL_PM_Dieu_kien_thuong_mai_chuan|OBK-SOP-PM-PL1]] dòng 16, 17. Số hoa hồng bằng 10% doanh thu tính hoa hồng, làm tròn đến hàng đơn vị đồng theo Điều 4.6, tính toán tự động qua hệ thống tính toán tự động kết nối Bảng [[UE-01_Bang_theo_doi_va_tinh_toan_chi_so_kinh_te_cac_ltv_commission|UE-01]]. Với đối tác là doanh nghiệp, số hoa hồng chưa gồm thuế giá trị gia tăng của đối tác, theo Điều 4.1 bản doanh nghiệp. Với đối tác là cá nhân, số hoa hồng là số trước khi khấu trừ thuế thu nhập cá nhân (khấu trừ 10% tại nguồn theo Nghị định 253/2026/NĐ-CP Điều 50 khoản 2 và [[CC-KT-19 Khấu trừ 10% thuế TNCN với cá nhân không ký HĐLĐ hoặc HĐLĐ dưới 03 tháng, từ 05 triệu đồng-lần|CC-KT-19]] nếu từ 05 triệu đồng trở lên cho một lần chi trả). Hạch toán kế toán theo Thông tư 99/2025/TT-BTC và [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]] Điều 3a: Nợ TK 641 (toàn bộ tiền hoa hồng) / Có TK 3335 (thuế TNCN khấu trừ 10%), Có TK 112 (90% tiền chi trả thực tế).
+Các trường theo Điều 6.1.2 bản mẫu: danh sách Khách Hàng Hợp Lệ, số hóa đơn, số tiền thực thu, ngày thu, số hoa hồng tương ứng, và kỳ báo cáo. Doanh thu tính hoa hồng lấy từ `NB-49`, đối khớp số thực thu tại Sổ DT-02 và Sổ CN-01, chỉ dùng để tính số hoa hồng và không ghi vào báo cáo gửi đối tác, theo Điều 4.2, Điều 4.3 bản mẫu và OBK-SOP-PM-PL1 dòng 16, 17. Số hoa hồng bằng 10% doanh thu tính hoa hồng, làm tròn đến hàng đơn vị đồng theo Điều 4.6, tính toán tự động qua hệ thống tính toán tự động kết nối Bảng UE-01. Với đối tác là doanh nghiệp, số hoa hồng chưa gồm thuế giá trị gia tăng của đối tác, theo Điều 4.1 bản doanh nghiệp. Với đối tác là cá nhân, số hoa hồng là số trước khi khấu trừ thuế thu nhập cá nhân (oBacker khấu trừ 10% tại nguồn nếu mức chi trả từ 05 triệu đồng/lần trở lên và cá nhân không ký hợp đồng lao động hoặc ký hợp đồng lao động dưới 03 tháng). Hạch toán kế toán theo OBK-QCTC-03 điều 3a: Nợ TK 641 (toàn bộ tiền hoa hồng) / Có TK 3335 (thuế TNCN khấu trừ 10%), Có TK 112 (90% tiền chi trả thực tế).
 
 Kỳ báo cáo: tháng ...... năm ..........
 
@@ -128,23 +125,12 @@ Kỳ báo cáo: tháng ...... năm ..........
 
 ### 1. Mục đích sử dụng
 
-Báo cáo hoa hồng đã chấp thuận là một trong bốn điều kiện chi hoa hồng tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 23a.3. Hết thời hạn phản hồi thì báo cáo xem như đã chấp thuận, nên số liệu gửi đi phải đúng từ lần gửi đầu. Báo cáo chứa thông tin giao dịch của khách, nên chỉ gửi thông tin của khách đã đồng ý.
+Báo cáo hoa hồng đã chấp thuận là một trong bốn điều kiện chi hoa hồng tại OBK-QCTC-01 mục 23a.3. Hết thời hạn phản hồi thì báo cáo xem như đã chấp thuận, nên số liệu gửi đi phải đúng từ lần gửi đầu. Báo cáo chứa thông tin giao dịch của khách, nên chỉ gửi thông tin của khách đã đồng ý.
 
-### 2. Căn cứ quy định và pháp luật liên quan
-
-| Việc số | Nguồn | Nội dung |
-| --- | --- | --- |
-| 1 | [[08_OBK-SOP-PM_Chuong_trinh_doi_tac_gioi_thieu_khach_hang\|OBK-SOP-PM]] mục 2.2;<br>[[OBK-SOP-NB-02_Thu_tien_va_cong_no_phai_thu\|OBK-SOP-NB-02]] mục 6.8 | Bảng doanh thu tính hoa hồng từ `NB-49` |
-| 2 | [[PL_PM_Dieu_kien_thuong_mai_chuan\|OBK-SOP-PM-PL1]] dòng 13, 16, 17 | Thời gian hưởng hoa hồng;<br>cơ sở doanh thu;<br>phạm vi dịch vụ |
-| 3 | [[08_OBK-SOP-PM_Chuong_trinh_doi_tac_gioi_thieu_khach_hang\|OBK-SOP-PM]] KS-PM-08 | Thông tin giao dịch đầy đủ chỉ gửi cho khách đã đồng ý;<br>khách chưa đồng ý chỉ ghi mã đăng ký và số hoa hồng tương ứng, theo Điều 6.1.2 bản mẫu |
-| 4 và 5 | [[PL_PM_Dieu_kien_thuong_mai_chuan\|OBK-SOP-PM-PL1]] dòng 14, 15, 18 | Tỷ lệ, thuế và làm tròn;<br>nội dung và hạn gửi báo cáo |
-| 6 và 7 | [[PL_PM_Dieu_kien_thuong_mai_chuan\|OBK-SOP-PM-PL1]] dòng 19, 20 | Hạn phản hồi 07 ngày làm việc;<br>hạn chi 05 ngày làm việc |
-| 8 | [[UE-01_Bang_theo_doi_va_tinh_toan_chi_so_kinh_te_cac_ltv_commission\|UE-01]];<br>hệ thống tính toán tự động | Bảng theo dõi và tính toán chỉ số kinh tế đơn vị, CAC, LTV và đối soát hoa hồng hai chiều |
-| 9 | [[MT-01_Ma_tran_lien_ket_luong_nghiep_vu_cheo_va_kich_hoat_tu_dong\|MT-01]] điểm TG-13 | Kích hoạt tự động thủ tục Đề nghị thanh toán chi trả hoa hồng đối tác trước ngày 10 |
 
 ## Con số của phiếu này lấy ở đâu
 
-Phiếu này không tự đặt con số nào. Tỷ lệ 10%, mốc từ ngày 05 đến ngày 10, mốc 07 ngày làm việc và mốc 05 ngày làm việc lấy từ Điều 4.1, Điều 6.1.1, Điều 6.1.2 và Điều 6.3 bản mẫu, ghi tại [[PL_PM_Dieu_kien_thuong_mai_chuan|OBK-SOP-PM-PL1]] dòng 14, 18, 19 và 20. Các mốc trên là mốc theo hợp đồng giới thiệu khách hàng, không phải mốc theo pháp luật.
+Phiếu này không tự đặt con số nào. Tỷ lệ 10%, mốc từ ngày 05 đến ngày 10, mốc 07 ngày làm việc và mốc 05 ngày làm việc lấy từ Điều 4.1, Điều 6.1.1, Điều 6.1.2 và Điều 6.3 bản mẫu, ghi tại OBK-SOP-PM-PL1 dòng 14, 18, 19 và 20. Các mốc trên là mốc theo hợp đồng giới thiệu khách hàng, không phải mốc theo pháp luật.
 
 ---
 
@@ -152,4 +138,4 @@ Phiếu này không tự đặt con số nào. Tỷ lệ 10%, mốc từ ngày 0
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu HH-02 về Sổ cái OBK-MSR |

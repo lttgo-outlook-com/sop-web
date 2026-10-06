@@ -4,19 +4,15 @@ code: "NS-09"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-TTT-05 Cách làm phiếu thao tác"
-law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - NS-09
 tags:
@@ -29,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | NS-09 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -40,6 +36,7 @@ tags:
 | **Ai dùng** | `TL`, `KTV`, `KTT`, `COO`, `CEO`, `HĐQT` |
 | **Sinh từ** | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 22, Điều 34;<br>[[OBK-SOP-NB-17_Lap_ke_hoach_kinh_doanh_va_ngan_sach_tai_chinh\|OBK-SOP-NB-17]];<br>[[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo\|OBK-SOP-NB-00]] Job `NB-08`, Job `NB-21` |
 | **Ngày làm phiếu** | 27/09/2026 |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ---
 
@@ -47,10 +44,10 @@ tags:
 
 Bảng kế hoạch và phân bổ ngân sách tài chính năm là công cụ phân bổ nguồn lực tài chính, ấn định hạn mức chi tiêu chi tiết cho từng bộ phận và thiết lập mốc kiểm soát phương sai ngân sách hằng tháng, hằng quý tại Công ty cổ phần oBacker. Bảng được dùng trong các trường hợp sau:
 
-1. **Chu trình lập kế hoạch hằng năm:** Dùng trong giai đoạn từ ngày 01/11 đến ngày 25/12 hằng năm theo [[OBK-SOP-NB-17_Lap_ke_hoach_kinh_doanh_va_ngan_sach_tai_chinh|OBK-SOP-NB-17]] để tổng hợp dự toán, cân đối mô hình tài chính và trình Hội đồng quản trị (`HĐQT`) phê duyệt;
+1. **Chu trình lập kế hoạch hằng năm:** Dùng trong giai đoạn từ ngày 01/11 đến ngày 25/12 hằng năm theo OBK-SOP-NB-17 để tổng hợp dự toán, cân đối mô hình tài chính và trình Hội đồng quản trị (`HĐQT`) phê duyệt;
 2. **Giao hạn mức chi tiêu đầu năm:** Dùng làm căn cứ để `CEO` ban hành Quyết định giao hạn mức chi phí hoạt động (OPEX) và hạn mức đầu tư (CAPEX) cho các chủ dòng ngân sách (`TL`) trước ngày 31/12;
 3. **Kiểm soát chi tiêu hằng tháng (Job `NB-08`):** `KTV` nội bộ dùng biểu mẫu này để so sánh số liệu chi tiêu thực tế với dự toán được giao trong 05 ngày làm việc đầu tháng sau, xác định phương sai chi tiêu;
-4. **Xem xét điều chuyển hoặc bổ sung ngân sách:** Dùng làm hồ sơ căn cứ khi phát sinh nhu cầu điều chuyển ngân sách giữa các dòng chi phí (trong phạm vi tối đa 10% của dòng giảm do `CEO` duyệt theo Điều 22.2 [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]]) hoặc bổ sung ngoài kế hoạch trình `HĐQT`.
+4. **Xem xét điều chuyển hoặc bổ sung ngân sách:** Dùng làm hồ sơ căn cứ khi phát sinh nhu cầu điều chuyển ngân sách giữa các dòng chi phí (trong phạm vi tối đa 10% của dòng giảm do `CEO` duyệt theo Điều 22.2 OBK-QCTC-01) hoặc bổ sung ngoài kế hoạch trình `HĐQT`.
 
 ---
 
@@ -129,7 +126,7 @@ Bảng NS-09 tích hợp giữa kế hoạch kinh doanh, mô hình cân đối t
 
 ## ÁNH XẠ HỆ THỐNG TÀI KHOẢN KẾ TOÁN THÔNG TƯ 99/2025/TT-BTC (SINGLE SOURCE OF FINANCIAL TRUTH)
 
-Để đảm bảo nguyên tắc Nguồn dữ liệu tài chính duy nhất (Single Source of Financial Truth) theo Điều 2.5 [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]], mọi khoản mục doanh thu và chi phí trên Bảng NS-09 được ánh xạ trực tiếp vào hệ thống tài khoản kế toán Thông tư 99/2025/TT-BTC:
+Để đảm bảo nguyên tắc Nguồn dữ liệu tài chính duy nhất (Single Source of Financial Truth) theo Điều 2.5 OBK-QCTC-01, mọi khoản mục doanh thu và chi phí trên Bảng NS-09 được ánh xạ trực tiếp vào hệ thống tài khoản kế toán Thông tư 99/2025/TT-BTC:
 
 | Mã dòng NS-09 | Khoản mục ngân sách | Tài khoản kế toán Thông tư 99/2025/TT-BTC | Diễn giải hạch toán và kiểm soát nguồn số liệu |
 | --- | --- | --- | --- |
@@ -209,12 +206,12 @@ Bảng NS-09 tích hợp giữa kế hoạch kinh doanh, mô hình cân đối t
 
 ## ĐIỂM KIỂM SOÁT BẮT BUỘC
 
-1. **Điểm kiểm soát KS-NS-01 (Thời hạn ban hành ngân sách năm):** Bảng kế hoạch và phân bổ ngân sách năm [[NS-09_Bang_ke_hoach_va_phan_bo_ngan_sach_tai_chinh_nam|NS-09]] bắt buộc phải được `HĐQT` phê duyệt thông qua bằng Nghị quyết trước ngày 25/12 hằng năm theo Điều 22.1 [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]].
+1. **Điểm kiểm soát KS-NS-01 (Thời hạn ban hành ngân sách năm):** Bảng kế hoạch và phân bổ ngân sách năm NS-09 bắt buộc phải được `HĐQT` phê duyệt thông qua bằng Nghị quyết trước ngày 25/12 hằng năm theo Điều 22.1 OBK-QCTC-01.
 2. **Điểm kiểm soát KS-NS-02 (Kiểm soát tỷ lệ chi phí nhân sự):** Tổng chi phí nhân sự phân bổ tại Mục I không được vượt quá mức tối đa 45% doanh thu thuần dự kiến toàn công ty. Nếu tỷ lệ này vượt 45%, `KTT` từ chối trình hồ sơ và yêu cầu rà soát lại định biên nhân sự.
-3. **Điểm kiểm soát KS-NS-03 (Bảo đảm mức dự phòng tiền mặt tối thiểu):** Mô hình lưu chuyển tiền tệ dự phóng của Bảng NS-09 phải bảo đảm số dư tiền khả dụng duy trì thời gian hoạt động (`Runway`) từ 03 tháng chi phí trở lên theo quy định tại Điều 34 [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]].
+3. **Điểm kiểm soát KS-NS-03 (Bảo đảm mức dự phòng tiền mặt tối thiểu):** Mô hình lưu chuyển tiền tệ dự phóng của Bảng NS-09 phải bảo đảm số dư tiền khả dụng duy trì thời gian hoạt động (`Runway`) từ 03 tháng chi phí trở lên theo quy định tại Điều 34 OBK-QCTC-01.
 4. **Điểm kiểm soát KS-NS-04 (Kiểm soát cơ cấu doanh thu bền vững):** Doanh thu dịch vụ định kỳ hằng tháng (MRR x 12) phải chiếm tỷ trọng tối thiểu 60% tổng doanh thu thuần toàn công ty.
 5. **Điểm kiểm soát KS-NS-05 (Kiểm soát phương sai định kỳ):** Mọi khoản chi vượt quá dung sai $+5\%$ so với ngân sách tháng được giao đều bắt buộc phải có Báo cáo giải trình phương sai bằng văn bản của chủ dòng ngân sách (`TL`) gửi `KTT` và `CEO`.
-6. **Điểm kiểm soát KS-NS-06 (Thẩm quyền điều chuyển và bổ sung ngân sách):** Tuân thủ nghiêm ngặt Điều 22.2 [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]]: `CEO` chỉ có thẩm quyền phê duyệt điều chuyển giữa các dòng chi phí với mức tối đa 10% giá trị của dòng bị giảm; mọi điều chuyển vượt quá 10% hoặc bổ sung làm tăng tổng ngân sách năm bắt buộc phải do `HĐQT` phê chuẩn bằng văn bản trước khi chi.
+6. **Điểm kiểm soát KS-NS-06 (Thẩm quyền điều chuyển và bổ sung ngân sách):** Tuân thủ nghiêm ngặt Điều 22.2 OBK-QCTC-01: `CEO` chỉ có thẩm quyền phê duyệt điều chuyển giữa các dòng chi phí với mức tối đa 10% giá trị của dòng bị giảm; mọi điều chuyển vượt quá 10% hoặc bổ sung làm tăng tổng ngân sách năm bắt buộc phải do `HĐQT` phê chuẩn bằng văn bản trước khi chi.
 
 ---
 
@@ -238,25 +235,12 @@ Bảng NS-09 sau khi được `HĐQT` phê chuẩn và `CEO` ký ban hành đư�
 
 Công tác quản trị tài chính doanh nghiệp không thể dừng lại ở việc hạch toán các nghiệp vụ kinh tế đã phát sinh, mà cốt lõi là năng lực dự báo, phân bổ và kiểm soát nguồn lực trước khi tiền ra khỏi tài khoản. Đối với mô hình doanh nghiệp dịch vụ như oBacker, chi phí nhân sự và chi phí hạ tầng công nghệ chiếm tỷ trọng chi phối trong tổng cơ cấu chi phí. Nếu không có kế hoạch ngân sách chi tiết 12 tháng và hạn mức phân bổ rõ ràng cho từng bộ phận, doanh nghiệp sẽ đối mặt với các nguy cơ nghiêm trọng:
 
-1. **Mất an toàn thanh khoản:** Chi tiêu tùy hứng dẫn đến thâm hụt tiền mặt, không bảo đảm được mức dự phòng chi trả tối thiểu 03 tháng (`Runway`) theo Điều 34 [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]];
+1. **Mất an toàn thanh khoản:** Chi tiêu tùy hứng dẫn đến thâm hụt tiền mặt, không bảo đảm được mức dự phòng chi trả tối thiểu 03 tháng (`Runway`) theo Điều 34 OBK-QCTC-01;
 2. **Chi phí nhân sự phình to mất kiểm soát:** Tuyển dụng ồ ạt vượt quá năng lực tạo doanh thu, đẩy tỷ lệ chi phí nhân sự vượt quá 45% doanh thu, ăn mòn toàn bộ lợi nhuận hoạt động;
 3. **Thiếu cơ chế ràng buộc trách nhiệm:** Các bộ phận chi tiêu vượt định mức nhưng không có căn cứ xử lý do thiếu hạn mức ngân sách được giao từ đầu năm.
 
 Bảng NS-09 xác lập kỷ luật ngân sách toàn công ty, gắn chặt trách nhiệm của từng chủ dòng ngân sách (`TL`) với chỉ tiêu kinh doanh và hạn mức tài chính được giao, đồng thời phân định minh bạch thẩm quyền điều chuyển của `CEO` và thẩm quyền phê chuẩn của `HĐQT`.
 
-### 2. Căn cứ quy định và pháp luật liên quan
-
-| Nội dung căn cứ | Văn bản điều chỉnh | Điều khoản và trích dẫn cụ thể |
-| --- | --- | --- |
-| Thẩm quyền của Hội đồng quản trị | Luật Doanh nghiệp số 59/2020/QH14 | Điều 153 khoản 2 điểm d: Thông qua kế hoạch phát triển trung hạn và kế hoạch kinh doanh hằng năm của công ty |
-| Thẩm quyền của Tổng giám đốc | Luật Doanh nghiệp số 59/2020/QH14 | Điều 162 khoản 3 điểm c: Tổ chức thực hiện kế hoạch kinh doanh và phương án đầu tư của công ty |
-| Nguyên tắc kỳ kế toán và quản lý chi phí | Luật Kế toán số 88/2015/QH13 (VBHN 41/VBHN-VPQH) | Điều 10, Điều 12: Nguyên tắc kế toán dồn tích, nhất quán và kỳ kế toán năm |
-| Chế độ kế toán doanh nghiệp | Thông tư số 99/2025/TT-BTC | Phương pháp hạch toán và theo dõi doanh thu (TK 511), chi phí quản lý kinh doanh (TK 642), chi phí trả trước (TK 242) |
-| Kế hoạch ngân sách năm và phân quyền điều chuyển | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] | Điều 22: Lập ngân sách theo năm theo dòng bộ phận; HĐQT duyệt; CEO điều chuyển tối đa 10% dòng giảm |
-| Dự phòng tiền mặt và quản lý ngân quỹ | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] | Điều 34: Duy trì dự phòng tiền mặt tối thiểu 03 tháng chi phí hoạt động bình quân |
-| Quy định mua sắm và thanh toán | [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] | Mục 6.2.2: Khoản chi ngoài ngân sách phải nâng một bậc duyệt |
-| Chuẩn vận hành nội bộ và danh mục Job | [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo\|OBK-SOP-NB-00]] | Job `NB-08`: Rà soát ngân sách bộ phận trong 05 ngày làm việc đầu tháng sau;<br>Job `NB-21`: Lập kế hoạch dòng tiền 03 tháng |
-| Quy trình lập kế hoạch kinh doanh và ngân sách | [[OBK-SOP-NB-17_Lap_ke_hoach_kinh_doanh_va_ngan_sach_tai_chinh\|OBK-SOP-NB-17]] | Quy trình chuẩn 5 bước lập kế hoạch và cơ chế kiểm soát phương sai dung sai $\pm 5\%$ |
 
 ---
 
@@ -264,4 +248,4 @@ Bảng NS-09 xác lập kỷ luật ngân sách toàn công ty, gắn chặt tr�
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu NS-09 về Sổ cái OBK-MSR |

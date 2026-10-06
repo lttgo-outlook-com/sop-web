@@ -4,19 +4,15 @@ code: "OBK-SOP-PM"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 2, quy trình bộ phận"
-version: "R.1.0.0"
+version: "R.1.1.1"
 status: "đang áp dụng"
-draft_date: "01/10/2026"
+draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-SOP-00 Chuẩn vận hành dịch vụ"
-law_as_of: "Pháp luật có hiệu lực tại ngày 01/10/2026"
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-SOP-PM
 tags:
@@ -31,8 +27,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-SOP-PM |
 | Cấp tài liệu | Cấp 2, SOP bộ phận |
-| Phiên bản | R.1.0.0, đang áp dụng |
-| Ngày biên soạn | 01/10/2026 |
+| Phiên bản | R.1.1.1, đang áp dụng |
+| Ngày biên soạn | 04/10/2026 |
 | Mốc pháp luật áp dụng | Văn bản pháp luật có hiệu lực tại ngày 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -87,13 +83,13 @@ Ba kết quả phải đạt:
 
 Điều kiện thương mại chuẩn của hai bản mẫu hợp đồng đặt tại [[PL_PM_Dieu_kien_thuong_mai_chuan|OBK-SOP-PM-PL1]]. Tỷ lệ, thời gian hưởng và phạm vi doanh thu tính hoa hồng đặt tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 23a.2. Chỉ số kinh tế đơn vị, công thức đo lường CAC, LTV và cơ chế đối soát hoa hồng hai chiều kết nối với Bảng [[UE-01_Bang_theo_doi_va_tinh_toan_chi_so_kinh_te_cac_ltv_commission|UE-01]].
 
-Điều kiện khác mẫu do `CEO` quyết theo hàng "Chương trình hợp tác với đối tác" của [[PL_Ma_tran_phan_quyen|OBK-QCTC-02-PL-B]]. Legal R&D phải được hỏi khi điều kiện đó có cam kết ràng buộc. `PM` chỉ báo điều kiện khác mẫu cho đối tác sau khi có quyết định của `CEO`.
+Điều kiện khác mẫu do `CEO` quyết theo hàng "Chương trình hợp tác với đối tác" của OBK-QCTC-02-PL-B. Legal R&D phải được hỏi khi điều kiện đó có cam kết ràng buộc. `PM` chỉ báo điều kiện khác mẫu cho đối tác sau khi có quyết định của `CEO`.
 
 ---
 
 ## 2. DANH MỤC JOB
 
-Cột SLA nội bộ oBacker ghi mốc theo hợp đồng giới thiệu khách hàng. SLA nội bộ riêng của từng Job do `CEO` chốt khi ban hành. Cách tính "ngày làm việc" và "ngày" theo [[PL_PM_Dieu_kien_thuong_mai_chuan|OBK-SOP-PM-PL1]] dòng 29. Mốc theo hợp đồng tính từ sự kiện ghi trong hợp đồng, không tính từ thời điểm ghi nhận trên hệ thống. "Bản mẫu" trong tài liệu này là hai bản mẫu Hợp đồng giới thiệu khách hàng song ngữ tại [[PL_PM_Dieu_kien_thuong_mai_chuan|OBK-SOP-PM-PL1]] mục 2.2; Ngày Được Giới Thiệu, Ghi Nhận Mặc Nhiên, Kênh Đăng Ký và Hợp Đồng Dịch Vụ Đầu Tiên hiểu theo Điều 1 và Điều 3 bản mẫu.
+Cột SLA nội bộ oBacker ghi mốc theo hợp đồng giới thiệu khách hàng. SLA nội bộ riêng của từng Job do `CEO` chốt khi ban hành. Cách tính "ngày làm việc" và "ngày" theo OBK-SOP-PM-PL1 dòng 29. Mốc theo hợp đồng tính từ sự kiện ghi trong hợp đồng, không tính từ thời điểm ghi nhận trên hệ thống. "Bản mẫu" trong tài liệu này là hai bản mẫu Hợp đồng giới thiệu khách hàng song ngữ tại OBK-SOP-PM-PL1 mục 2.2; Ngày Được Giới Thiệu, Ghi Nhận Mặc Nhiên, Kênh Đăng Ký và Hợp Đồng Dịch Vụ Đầu Tiên hiểu theo Điều 1 và Điều 3 bản mẫu.
 
 ### 2.1. Bảng Job
 
@@ -115,6 +111,8 @@ Cột SLA nội bộ oBacker ghi mốc theo hợp đồng giới thiệu khách 
 
 %%/JOBTABLE:PM%%
 
+Yêu cầu không khớp Job nào: xem [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 5.6.
+
 ### 2.2. Liên kết Job với bộ phận khác
 
 Mỗi hàng dưới đây có dẫn chiếu ở cả Job gửi và Job nhận.
@@ -125,9 +123,9 @@ Mỗi hàng dưới đây có dẫn chiếu ở cả Job gửi và Job nhận.
 | PM-05 | `AM-01` Tiếp nhận và đánh giá lead | Lead mang mã đăng ký giới thiệu | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] mục 3 |
 | `AM-01` Tiếp nhận và đánh giá lead | PM-02 | Lead đến từ kênh khác trùng một khách trong sổ đăng ký giới thiệu | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] mục 3 |
 | `AM-05` Chốt hợp đồng và thu tiền lần đầu | PM-06 | Hợp đồng dịch vụ đã ký, xác nhận thanh toán, danh sách dịch vụ | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] mục 3 |
-| `NB-49` Chốt doanh thu tính hoa hồng theo khách | PM-07 | Bảng doanh thu tính hoa hồng tháng | [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo\|OBK-SOP-NB-00]] mục 5;<br>[[OBK-SOP-NB-02_Thu_tien_va_cong_no_phai_thu\|OBK-SOP-NB-02]] mục 6.8 |
-| PM-08 | `NB-03` Đề nghị thanh toán;<br>`NB-07` Thanh toán định kỳ và thanh toán tự động | Báo cáo đã chấp thuận cùng hóa đơn hoặc chứng từ của đối tác | [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo\|OBK-SOP-NB-00]] mục 5;<br>[[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] mục 6.11a |
-| `NB-51` Hoàn tiền cho khách hoặc xử lý hủy dịch vụ | PM-09 | Việc hoàn tiền hoặc hủy dịch vụ của khách trong sổ đăng ký giới thiệu | [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo\|OBK-SOP-NB-00]] mục 5;<br>[[OBK-SOP-NB-02_Thu_tien_va_cong_no_phai_thu\|OBK-SOP-NB-02]] mục 6.9 bước L5 |
+| `NB-49` Chốt doanh thu tính hoa hồng theo khách | PM-07 | Bảng doanh thu tính hoa hồng tháng | [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo\|OBK-SOP-NB-00]] mục 5;<br>[[OBK-SOP-NB-02_Thu_tien_va_cong_no_phai_thu\|OBK-SOP-NB-02]] mục 5.8 |
+| PM-08 | `NB-03` Đề nghị thanh toán;<br>`NB-07` Thanh toán định kỳ và thanh toán tự động | Báo cáo đã chấp thuận cùng hóa đơn hoặc chứng từ của đối tác | [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo\|OBK-SOP-NB-00]] mục 5;<br>[[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] mục 5.11a |
+| `NB-51` Hoàn tiền cho khách hoặc xử lý hủy dịch vụ | PM-09 | Việc hoàn tiền hoặc hủy dịch vụ của khách trong sổ đăng ký giới thiệu | [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo\|OBK-SOP-NB-00]] mục 5;<br>[[OBK-SOP-NB-02_Thu_tien_va_cong_no_phai_thu\|OBK-SOP-NB-02]] mục 5.9 bước L5 |
 | PM-09 | `NB-50` Thu hồi hoặc khấu trừ hoa hồng | Thông báo hoàn trả đã gửi | [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo\|OBK-SOP-NB-00]] mục 5 |
 
 ### 2.3. Sổ đăng ký giới thiệu
@@ -171,15 +169,15 @@ Ký hiệu vai trò theo [[PL_Tu_dien_vai|OBK-QCTC-02-PL-A]]. `KTV` và `KTT` l�
 | PM-10 Chấm dứt hợp đồng với đối tác | R | N/A | A (quyết chấm dứt) | N/A | N/A | N/A | N/A |
 | PM-11 Lưu trữ và xóa dữ liệu | R | A | N/A | N/A | N/A | N/A | N/A |
 
-**Đọc bảng, bốn điều.**
+**Bốn quy tắc đọc bảng.**
 
-Một, `PM` là người thực hiện mọi Job PM-01 tới PM-11, kể cả việc tra trùng và việc từ chối đăng ký tại PM-03. Tại PM-03, `PM` giữ cả R và A, vì người giữ Job PM-03 là người từ chối đăng ký.
+1. `PM` là người thực hiện mọi Job PM-01 tới PM-11, kể cả việc tra trùng và việc từ chối đăng ký tại PM-03. Tại PM-03, `PM` giữ cả R và A vì người giữ Job PM-03 là người từ chối đăng ký.
 
-Hai, giá trị A của ba nhóm việc là vai trò khác `PM`: `TGĐ` ký hợp đồng và văn bản gia hạn; `CEO` quyết nguồn khi nhiều nguồn; `CEO` quyết chấm dứt hợp đồng với đối tác. Ba hàng tương ứng tại [[PL_Ma_tran_phan_quyen|OBK-QCTC-02-PL-B]] mục 3. Điều kiện khác mẫu do `CEO` quyết theo hàng "Chương trình hợp tác với đối tác" của cùng phụ lục, và Legal R&D phải được hỏi khi điều kiện đó có cam kết ràng buộc.
+2. Giá trị A của ba nhóm việc là vai trò khác `PM`: `TGĐ` ký hợp đồng và văn bản gia hạn; `CEO` quyết nguồn khi nhiều nguồn; `CEO` quyết chấm dứt hợp đồng với đối tác. Ba hàng tương ứng tại OBK-QCTC-02-PL-B mục 3. Điều kiện khác mẫu do `CEO` quyết theo hàng "Chương trình hợp tác với đối tác" của cùng phụ lục, và Legal R&D phải được hỏi khi điều kiện đó có cam kết ràng buộc.
 
-Ba, giá trị A của các Job vận hành còn lại, trừ PM-03, là TP Thương mại, theo hàng "Chương trình hợp tác với đối tác" tại [[PL_Ma_tran_phan_quyen|OBK-QCTC-02-PL-B]] mục 3 và quan hệ báo cáo tại [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen|OBK-QCTC-02]] mục 9.3. TP Thương mại hiện do `CEO` kiêm, và `CEO` cùng người với `TGĐ`. Giá trị A lấy theo hàng Chương trình hợp tác với đối tác của Ma trận phân quyền. Bảng ghi theo vai trò để khi tách vai trò không phải sửa lại.
+3. Giá trị A của các Job vận hành còn lại, trừ PM-03, là TP Thương mại, theo hàng "Chương trình hợp tác với đối tác" tại OBK-QCTC-02-PL-B mục 3 và quan hệ báo cáo tại OBK-QCTC-02 mục 9.3. Giá trị A lấy theo hàng Chương trình hợp tác với đối tác của Ma trận phân quyền. Bảng ghi theo vai trò để khi tách vai trò không phải sửa lại.
 
-Bốn, người giữ vai trò `PM` hiện đồng thời giữ vai trò `AM`, theo [[PL_Chuyen_len_cap_tren|OBK-QCTC-02-PL-C]] mục 2. Việc điều phối giữa Bộ phận AM và Đối tác và Chương trình chuyển thẳng lên TP Thương mại, và người chuyển ghi lý do trên Job là hai bên trùng người. TP Thương mại hiện do `CEO` kiêm, nên việc điều phối đó áp tiếp quy tắc chung khi hai cấp liền kề do cùng một người giữ, tại cùng mục.
+4. Người giữ vai trò `PM` đồng thời giữ vai trò `AM`, theo [[PL_Chuyen_len_cap_tren|OBK-QCTC-02-PL-C]] mục 2. Việc điều phối giữa Bộ phận AM và Đối tác và Chương trình chuyển thẳng lên TP Thương mại, và người chuyển ghi lý do trên Job là hai bên trùng người. Khi hai cấp liền kề do cùng một người giữ, áp tiếp quy tắc chung tại cùng mục.
 
 ---
 
@@ -188,10 +186,10 @@ Bốn, người giữ vai trò `PM` hiện đồng thời giữ vai trò `AM`, t
 | Mã | Điểm kiểm soát | Trước bước nào | Ai kiểm | Không đạt thì làm gì |
 | --- | --- | --- | --- | --- |
 | KS-PM-01 | Đăng ký của đối tác gửi bằng thư điện tử tới Kênh Đăng Ký contact@obacker.com. Kênh Đăng Ký là kênh đăng ký duy nhất, theo Điều 1.1.7 và Điều 3.1 bản mẫu | Trước khi ghi sổ tại PM-02 | `PM` | Không ghi sổ. Thông tin gửi qua kênh khác, kể cả thông tin gửi tới cá nhân người lao động oBacker, không làm chạy thời hạn 03 ngày làm việc, theo [[PL_PM_Dieu_kien_thuong_mai_chuan\|OBK-SOP-PM-PL1]] dòng 5 |
-| KS-PM-02 | Mỗi đăng ký có bằng chứng đồng ý của người liên hệ cho việc đối tác chuyển giao dữ liệu cá nhân của người đó cho oBacker, theo Điều 3.2.5 và Điều 12.4 bản mẫu [[CC-DN-76 Chuyển giao dữ liệu cá nhân trong các trường hợp luật cho phép, có thu phí hoặc không thu phí, không được xác định là mua, bán dữ liệu cá nhân\|CC-DN-76]] [[CC-DN-79 Trách nhiệm chứng minh sự đồng ý thuộc bên kiểm soát dữ liệu cá nhân\|CC-DN-79]] | Trước khi xác nhận tại PM-03 | `PM` | Thư thiếu bằng chứng đồng ý chưa xác lập Ngày Được Giới Thiệu, theo [[PL_PM_Dieu_kien_thuong_mai_chuan\|OBK-SOP-PM-PL1]] dòng 6. Bản ghi giữ trạng thái chờ đủ nội dung |
+| KS-PM-02 | Mỗi đăng ký có bằng chứng đồng ý của người liên hệ cho việc đối tác chuyển giao dữ liệu cá nhân của người đó cho oBacker, theo Điều 3.2.5 và Điều 12.4 bản mẫu CC-DN-76 CC-DN-79 | Trước khi xác nhận tại PM-03 | `PM` | Thư thiếu bằng chứng đồng ý chưa xác lập Ngày Được Giới Thiệu, theo [[PL_PM_Dieu_kien_thuong_mai_chuan\|OBK-SOP-PM-PL1]] dòng 6. Bản ghi giữ trạng thái chờ đủ nội dung |
 | KS-PM-03 | Thư từ chối, và thư chứng minh tiếp xúc trước sau Ghi Nhận Mặc Nhiên, nêu lý do và kèm bằng chứng có ghi ngày. Với lý do tiếp xúc trước, ngày của bằng chứng thuộc 24 tháng liền trước Ngày Được Giới Thiệu | Trước khi gửi thư tại PM-03 | `PM` | Lý do tiếp xúc trước chỉ được dùng khi có bằng chứng có ghi ngày thuộc 24 tháng đó, theo Điều 3.3.2, Điều 3.3.4 và Điều 3.5 bản mẫu |
 | KS-PM-04 | Kết quả rà soát giao dịch với người có liên quan tại `NB-29` đã có | Trước khi trình `TGĐ` ký tại PM-01 | `PM`;<br>`KTV` lập phiếu xác định người có liên quan và `KTT` ký, theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 12a.3 | Dừng trình ký. Đối tác thuộc diện người có liên quan thì đi theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 12a |
-| KS-PM-05 | Đối tác và mọi người nhận một phần hoa hồng từ đối tác ngoài nhóm người lao động, người quản lý hoặc người làm kế toán của khách được giới thiệu, theo Điều 7.1.1 bản mẫu [[CC-DN-74 Đưa hối lộ cho người có chức vụ trong doanh nghiệp, tổ chức ngoài Nhà nước\|CC-DN-74]] | Trước khi trình ký tại PM-01 | `PM` | Tại PM-01: dừng trình ký.<br>Đối tác thuộc nhóm đó thì báo `CEO` trong ngày, theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 9 điểm 8; `CEO` có quyền chấm dứt ngay theo Điều 7.4 và Điều 11.4.1 bản mẫu |
+| KS-PM-05 | Đối tác và mọi người nhận một phần hoa hồng từ đối tác ngoài nhóm người lao động, người quản lý hoặc người làm kế toán của khách được giới thiệu, theo Điều 7.1.1 bản mẫu CC-DN-74 | Trước khi trình ký tại PM-01 | `PM` | Tại PM-01: dừng trình ký.<br>Đối tác thuộc nhóm đó thì báo `CEO` trong ngày, theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 9 điểm 8; `CEO` có quyền chấm dứt ngay theo Điều 7.4 và Điều 11.4.1 bản mẫu |
 | KS-PM-06 | Đối tác ngoài nhóm người lao động oBacker và người thân của người lao động oBacker, theo Điều 7.1.2 và Điều 7.1.3 bản mẫu | Trước khi trình ký tại PM-01 | `PM` | Dừng trình ký, theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 23a.4 |
 | KS-PM-07 | Hợp đồng trình ký dùng đúng bản mẫu theo loại đối tác, ban hành kèm theo [[PL_PM_Dieu_kien_thuong_mai_chuan\|OBK-SOP-PM-PL1]] | Trước khi trình ký tại PM-01 và PM-10 | `PM` | Dừng trình ký. Điều khoản khác mẫu đi theo mục 1.5 |
 | KS-PM-08 | Báo cáo hoa hồng ghi đủ số hóa đơn, số tiền thực thu và ngày thu chỉ cho khách đã đồng ý cho oBacker gửi thông tin giao dịch cho bên đã giới thiệu, theo điều khoản đồng ý tại Điều 7.2 hợp đồng khung và Điều 6.1.2 bản mẫu | Trước khi gửi báo cáo tại PM-07 | `PM` | Với khách chưa đồng ý, dòng của khách đó chỉ ghi mã đăng ký và số Hoa Hồng tương ứng, theo Điều 6.1.2 bản mẫu, cho tới khi khách đồng ý |
@@ -203,33 +201,33 @@ Bốn, người giữ vai trò `PM` hiện đồng thời giữ vai trò `AM`, t
 ### 5.1. Lỗi thường gặp
 
 > [!bug] LỖI THƯỜNG GẶP
-> Khách được Ghi Nhận Mặc Nhiên sau 03 ngày làm việc. Dấu hiệu: thư đăng ký đủ nội dung đã đến Kênh Đăng Ký mà sổ chưa có bản ghi; hoặc thời hạn được đếm từ thời điểm ghi trên hệ thống. Hậu quả: hết 03 ngày làm việc mà oBacker chưa phản hồi thì khách được Ghi Nhận Mặc Nhiên kể từ Ngày Được Giới Thiệu, theo [[PL_PM_Dieu_kien_thuong_mai_chuan|OBK-SOP-PM-PL1]] dòng 8. oBacker còn quyền chứng minh tiếp xúc trước trong 30 ngày kể từ ngày Ghi Nhận Mặc Nhiên; quá 30 ngày thì quyền đó hết. Cách xử lý: `PM` đếm thời hạn từ Ngày Được Giới Thiệu. Điều 14.2 bản mẫu coi thư điện tử là văn bản. Thông điệp dữ liệu đáp ứng yêu cầu văn bản khi thông tin trong thông điệp có thể truy cập và sử dụng được để tham chiếu [[CC-DN-80 Thông điệp dữ liệu có giá trị như văn bản|CC-DN-80]].
+> Khách được Ghi Nhận Mặc Nhiên sau 03 ngày làm việc. Dấu hiệu: thư đăng ký đủ nội dung đã đến Kênh Đăng Ký mà sổ chưa có bản ghi; hoặc thời hạn được đếm từ thời điểm ghi trên hệ thống. Hậu quả: hết 03 ngày làm việc mà oBacker chưa phản hồi thì khách được Ghi Nhận Mặc Nhiên kể từ Ngày Được Giới Thiệu, theo OBK-SOP-PM-PL1 dòng 8. oBacker còn quyền chứng minh tiếp xúc trước trong 30 ngày kể từ ngày Ghi Nhận Mặc Nhiên; quá 30 ngày thì quyền đó hết. Cách xử lý: `PM` đếm thời hạn từ Ngày Được Giới Thiệu. Điều 14.2 bản mẫu coi thư điện tử là văn bản. Thông điệp dữ liệu đáp ứng yêu cầu văn bản khi thông tin trong thông điệp có thể truy cập và sử dụng được để tham chiếu.
 
 > [!bug] LỖI THƯỜNG GẶP
-> Tính thời gian hưởng hoa hồng từ ngày ký hợp đồng dịch vụ. Dấu hiệu: ngày kết thúc thời gian hưởng trong sổ lệch với ngày khoản thanh toán đầu tiên về tài khoản oBacker. Cách xử lý: thời gian hưởng hoa hồng 12 tháng tính từ ngày thanh toán lần đầu, theo [[PL_PM_Dieu_kien_thuong_mai_chuan|OBK-SOP-PM-PL1]] dòng 13. Với dịch vụ thành lập doanh nghiệp, ngày thanh toán lần đầu là ngày khoản của người sáng lập hoặc của doanh nghiệp mới về trước, theo dòng 12.
+> Tính thời gian hưởng hoa hồng từ ngày ký hợp đồng dịch vụ. Dấu hiệu: ngày kết thúc thời gian hưởng trong sổ lệch với ngày khoản thanh toán đầu tiên về tài khoản oBacker. Cách xử lý: thời gian hưởng hoa hồng 12 tháng tính từ ngày thanh toán lần đầu, theo OBK-SOP-PM-PL1 dòng 13. Với dịch vụ thành lập doanh nghiệp, ngày thanh toán lần đầu là ngày khoản của người sáng lập hoặc của doanh nghiệp mới về trước, theo dòng 12.
 
 > [!bug] LỖI THƯỜNG GẶP
-> Tính hoa hồng cho dịch vụ bán thêm. Dấu hiệu: báo cáo có dòng dịch vụ ngoài danh sách dịch vụ của Hợp Đồng Dịch Vụ Đầu Tiên, thường sinh từ `AM-29`. Cách xử lý: trước khi gửi báo cáo tại PM-07, `PM` đối chiếu từng dòng với trường Danh sách dịch vụ của sổ đăng ký giới thiệu. Phần gia hạn của chính dịch vụ ghi trong Hợp Đồng Dịch Vụ Đầu Tiên vẫn tính hoa hồng, theo [[PL_PM_Dieu_kien_thuong_mai_chuan|OBK-SOP-PM-PL1]] dòng 17.
+> Tính hoa hồng cho dịch vụ bán thêm. Dấu hiệu: báo cáo có dòng dịch vụ ngoài danh sách dịch vụ của Hợp Đồng Dịch Vụ Đầu Tiên, thường sinh từ `AM-29`. Cách xử lý: trước khi gửi báo cáo tại PM-07, `PM` đối chiếu từng dòng với trường Danh sách dịch vụ của sổ đăng ký giới thiệu. Phần gia hạn của chính dịch vụ ghi trong Hợp Đồng Dịch Vụ Đầu Tiên vẫn tính hoa hồng, theo OBK-SOP-PM-PL1 dòng 17.
 
 > [!bug] LỖI THƯỜNG GẶP
-> Thông báo hoàn trả hoa hồng khi khách hủy dịch vụ mà oBacker giữ nguyên số tiền đã thu. Dấu hiệu: thông báo từ `NB-51` về việc hủy dịch vụ, kèm chứng từ không có khoản chi hoàn. Cách xử lý: nghĩa vụ hoàn trả hoa hồng chỉ phát sinh khi oBacker hoàn tiền cho khách; khách hủy mà oBacker giữ nguyên số tiền đã thu thì đối tác giữ nguyên hoa hồng tương ứng, theo [[PL_PM_Dieu_kien_thuong_mai_chuan|OBK-SOP-PM-PL1]] dòng 22.
+> Thông báo hoàn trả hoa hồng khi khách hủy dịch vụ mà oBacker giữ nguyên số tiền đã thu. Dấu hiệu: thông báo từ `NB-51` về việc hủy dịch vụ, kèm chứng từ không có khoản chi hoàn. Cách xử lý: nghĩa vụ hoàn trả hoa hồng chỉ phát sinh khi oBacker hoàn tiền cho khách; khách hủy mà oBacker giữ nguyên số tiền đã thu thì đối tác giữ nguyên hoa hồng tương ứng, theo OBK-SOP-PM-PL1 dòng 22.
 
 ### 5.2. Rủi ro pháp lý
 
 > [!danger] RỦI RO BỊ XỬ LÝ HÌNH SỰ
-> Người nào đưa hoặc sẽ đưa hối lộ cho người có chức vụ trong các doanh nghiệp, tổ chức ngoài Nhà nước bị xử lý theo điều về tội đưa hối lộ [[CC-DN-74 Đưa hối lộ cho người có chức vụ trong doanh nghiệp, tổ chức ngoài Nhà nước|CC-DN-74]]. Người có chức vụ gồm người do hợp đồng được giao thực hiện một nhiệm vụ nhất định và có quyền hạn nhất định [[CC-DN-75 Định nghĩa người có chức vụ|CC-DN-75]]. Hoa hồng chi cho người lao động, người quản lý hoặc người làm kế toán của khách được giới thiệu để khách chọn oBacker có rủi ro bị xác định là của hối lộ. Một khoản cụ thể có phải hối lộ hay không phụ thuộc quyền hạn thực tế của người nhận và mục đích khoản chi. Hai căn cứ trên chưa đối chiếu bản gốc. Bản mẫu Điều 7 đặt cam kết của đối tác, cấm chia hoa hồng cho người có chức vụ, quyền hạn tại khách, và cho oBacker quyền chấm dứt ngay, giữ lại hoa hồng chưa trả. Điểm kiểm soát: KS-PM-05; hành vi oBacker nghiêm cấm tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 9 điểm 8; điều cấm tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 23a.4.
+> Người nào đưa hoặc sẽ đưa hối lộ cho người có chức vụ trong các doanh nghiệp, tổ chức ngoài Nhà nước bị xử lý theo điều về tội đưa hối lộ. Người có chức vụ gồm người do hợp đồng được giao thực hiện một nhiệm vụ nhất định và có quyền hạn nhất định. Hoa hồng chi cho người lao động, người quản lý hoặc người làm kế toán của khách được giới thiệu để khách chọn oBacker có rủi ro bị xác định là của hối lộ. Một khoản cụ thể có phải hối lộ hay không phụ thuộc quyền hạn thực tế của người nhận và mục đích khoản chi. Hai căn cứ trên chưa đối chiếu bản gốc. Bản mẫu Điều 7 đặt cam kết của đối tác, cấm chia hoa hồng cho người có chức vụ, quyền hạn tại khách, và cho oBacker quyền chấm dứt ngay, giữ lại hoa hồng chưa trả. Điểm kiểm soát: KS-PM-05; hành vi oBacker nghiêm cấm tại OBK-SOP-00 mục 9 điểm 8; điều cấm tại OBK-QCTC-01 mục 23a.4.
 
 > [!danger] RỦI RO BỊ XỬ PHẠT
-> Việc đối tác gửi thông tin người liên hệ của khách tiềm năng cho oBacker là chuyển giao dữ liệu cá nhân. Chuyển giao dữ liệu cá nhân khi có sự đồng ý của chủ thể dữ liệu cá nhân, có thu phí hoặc miễn phí, thì không bị xác định là mua, bán dữ liệu cá nhân [[CC-DN-76 Chuyển giao dữ liệu cá nhân trong các trường hợp luật cho phép, có thu phí hoặc không thu phí, không được xác định là mua, bán dữ liệu cá nhân|CC-DN-76]]. Sự đồng ý chỉ có hiệu lực khi tự nguyện và chủ thể biết rõ loại dữ liệu, mục đích xử lý, bên kiểm soát dữ liệu cá nhân, quyền và nghĩa vụ của chủ thể. Sự im lặng hoặc việc thiếu phản hồi không được coi là sự đồng ý [[CC-DN-77 Điều kiện của sự đồng ý; sự im lặng hoặc không phản hồi không được coi là sự đồng ý|CC-DN-77]]. Chuyển giao theo sự đồng ý phải có thỏa thuận chuyển giao nêu đủ bảy nội dung [[CC-DN-78 Nội dung bắt buộc của thỏa thuận chuyển giao dữ liệu cá nhân|CC-DN-78]]; Điều 12 bản mẫu là thỏa thuận đó. Theo Điều 12.5 bản mẫu, oBacker là bên kiểm soát và xử lý dữ liệu cá nhân với dữ liệu nhận từ đối tác; khi có tranh chấp, bên kiểm soát và xử lý dữ liệu cá nhân chịu trách nhiệm chứng minh sự đồng ý [[CC-DN-79 Trách nhiệm chứng minh sự đồng ý thuộc bên kiểm soát dữ liệu cá nhân|CC-DN-79]]. Việc trả hoa hồng gắn với đăng ký có chứa dữ liệu cá nhân đi theo trường hợp chuyển giao có sự đồng ý để tránh rủi ro bị coi là mua, bán dữ liệu cá nhân: cách hiểu của oBacker, chưa có hướng dẫn. Điểm kiểm soát: KS-PM-02, KS-PM-08.
+> Việc đối tác gửi thông tin người liên hệ của khách tiềm năng cho oBacker là chuyển giao dữ liệu cá nhân. Chuyển giao dữ liệu cá nhân khi có sự đồng ý của chủ thể dữ liệu cá nhân, có thu phí hoặc miễn phí, thì không bị xác định là mua, bán dữ liệu cá nhân. Sự đồng ý chỉ có hiệu lực khi tự nguyện và chủ thể biết rõ loại dữ liệu, mục đích xử lý, bên kiểm soát dữ liệu cá nhân, quyền và nghĩa vụ của chủ thể. Sự im lặng hoặc việc thiếu phản hồi không được coi là sự đồng ý. Chuyển giao theo sự đồng ý phải có thỏa thuận chuyển giao nêu đủ bảy nội dung; Điều 12 bản mẫu là thỏa thuận đó. Theo Điều 12.5 bản mẫu, oBacker là bên kiểm soát và xử lý dữ liệu cá nhân với dữ liệu nhận từ đối tác; khi có tranh chấp, bên kiểm soát và xử lý dữ liệu cá nhân chịu trách nhiệm chứng minh sự đồng ý. Việc trả hoa hồng gắn với đăng ký có chứa dữ liệu cá nhân đi theo trường hợp chuyển giao có sự đồng ý để tránh rủi ro bị coi là mua, bán dữ liệu cá nhân: cách hiểu của oBacker, chưa có hướng dẫn. Điểm kiểm soát: KS-PM-02, KS-PM-08.
 
-> [!warning] PHẠT VI PHẠM
-> Với đối tác là doanh nghiệp, mức phạt vi phạm do hai bên thỏa thuận nhưng không quá 8% giá trị phần nghĩa vụ hợp đồng bị vi phạm [[CC-DN-71 Mức phạt vi phạm không quá 8% giá trị phần nghĩa vụ hợp đồng bị vi phạm|CC-DN-71]]. Điều 9.1 bản mẫu đặt mức 8% giá trị phần nghĩa vụ trả tiền bị vi phạm. Điều 9.2 bản mẫu đặt mức 8% tổng hoa hồng 12 tháng liền trước ngày vi phạm cho vi phạm Điều 2.4, Điều 7, Điều 8, Điều 12, Điều 13, và bản doanh nghiệp áp mức tối đa theo pháp luật khi mức đó vượt. Việc coi tổng hoa hồng 12 tháng là giá trị phần nghĩa vụ bị vi phạm: chưa xác minh được. Điều 9.3 bản mẫu ghi bên vi phạm vừa chịu phạt vừa bồi thường thiệt hại [[CC-DN-72 Áp dụng đồng thời phạt vi phạm và bồi thường thiệt hại|CC-DN-72]]. Với đối tác là cá nhân, mức phạt vi phạm do các bên thỏa thuận, trừ trường hợp luật liên quan có quy định khác [[CC-DN-73 Phạt vi phạm theo thỏa thuận trong giao dịch dân sự|CC-DN-73]]; bản cá nhân ghi hai mức phạt là thỏa thuận của Các Bên. Việc quan hệ với đối tác là cá nhân áp Bộ luật Dân sự thay cho Luật Thương mại: chưa đối chiếu bản gốc.
+> [!warning] NGUYÊN TẮC ÁP DỤNG PHẠT VI PHẠM VÀ BỒI THƯỜNG
+> Với đối tác là doanh nghiệp, mức phạt vi phạm do hai bên thỏa thuận nhưng không quá 8% giá trị phần nghĩa vụ hợp đồng bị vi phạm. Điều 9.1 bản mẫu quy định mức phạt 8% giá trị phần nghĩa vụ trả tiền bị vi phạm. Điều 9.2 bản mẫu quy định mức phạt 8% tổng hoa hồng 12 tháng liền trước ngày vi phạm đối với các vi phạm Điều 2.4, Điều 7, Điều 8, Điều 12, Điều 13, và áp dụng mức tối đa theo pháp luật khi vượt quy định. Trường hợp áp dụng mức phạt trên cơ sở tổng hoa hồng 12 tháng, Phòng Thương mại và Pháp chế đánh giá tính tương thích với quy định hiện hành trước khi áp dụng. Điều 9.3 bản mẫu quy định bên vi phạm đồng thời chịu phạt vi phạm và bồi thường thiệt hại. Với đối tác là cá nhân, mức phạt vi phạm thực hiện theo thỏa thuận của các bên.
 
-> [!warning] QUYỀN HƯỞNG THÙ LAO MÔI GIỚI
-> Trừ trường hợp có thỏa thuận khác, quyền hưởng thù lao môi giới phát sinh từ thời điểm các bên được môi giới đã ký hợp đồng với nhau [[CC-DN-69 Quyền hưởng thù lao môi giới|CC-DN-69]]. Bản mẫu thỏa thuận khác tại Điều 4.2 và Điều 5.8: hoa hồng chỉ tính trên số tiền đã về tài khoản oBacker, theo [[PL_PM_Dieu_kien_thuong_mai_chuan|OBK-SOP-PM-PL1]] dòng 16. Văn bản gửi đối tác ghi hoa hồng theo doanh thu thực thu, và dùng ngày thanh toán lần đầu tại PM-06 làm mốc. Căn cứ trên chưa đối chiếu bản gốc. Căn cứ trên áp cho đối tác là cá nhân, hay chỉ áp cho đối tác là thương nhân: chưa xác minh được.
+> [!warning] THỜI ĐIỂM VÀ ĐIỀU KIỆN HƯỞNG THÙ LAO MÔI GIỚI
+> Trừ trường hợp có thỏa thuận khác, quyền hưởng thù lao môi giới phát sinh từ thời điểm các bên được môi giới ký kết hợp đồng dịch vụ. Hợp đồng mẫu quy định thỏa thuận cụ thể tại Điều 4.2 và Điều 5.8: hoa hồng đối tác chỉ được xác lập và chi trả trên cơ sở doanh thu thực tế đã ghi nhận vào tài khoản ngân hàng của oBacker, phù hợp với điều kiện thương mại chuẩn tại OBK-SOP-PM-PL1 dòng 16. Mốc tính toán chi trả hoa hồng được xác định từ ngày khách hàng hoàn tất thanh toán lần đầu (Job PM-06).
 
-> [!warning] KHẤU TRỪ THUẾ VỚI ĐỐI TÁC LÀ CÁ NHÂN
-> Cách phân định hai cách khấu trừ tại Điều 6.5.3 và Điều 6.5.4 bản mẫu với đối tác là cá nhân: chưa xác minh được.
+> [!warning] NGUYÊN TẮC KHẤU TRỪ THUẾ THU NHẬP CÁ NHÂN ĐỐI TÁC
+> Khi chi trả hoa hồng môi giới cho đối tác là cá nhân từ 2.000.000 đồng/lần trở lên, oBacker thực hiện khấu trừ thuế thu nhập cá nhân theo tỷ lệ 10% tại nguồn trước khi chi trả theo quy định pháp luật thuế, trừ trường hợp đối tác là hộ kinh doanh hoặc cá nhân kinh doanh có đăng ký thuế độc lập theo thỏa thuận tại Điều 6.5 hợp đồng đối tác.
 
 ### 5.3. Phân công vai trò
 
@@ -262,8 +260,103 @@ Phân công vai trò thực hiện chương trình đối tác giới thiệu kh
 
 ---
 
+## CÂU HỎI THƯỜNG GẶP THEO JOB
+
+### PM-01. Thẩm định hồ sơ đối tác và trình TGĐ ký
+
+**Nếu chưa có kết quả rà soát giao dịch với người có liên quan tại `NB-29`, thì có trình `TGĐ` ký hợp đồng không?**
+Không. Theo KS-PM-04, dừng trình ký cho đến khi có kết quả rà soát; đối tác thuộc diện người có liên quan thì đi theo Điều 12a OBK-QCTC-01.
+
+**Nếu hợp đồng trình ký không dùng đúng bản mẫu theo loại đối tác, hoặc có điều khoản khác mẫu, thì xử lý thế nào?**
+Dừng trình ký theo KS-PM-07. Điều khoản khác mẫu do `CEO` quyết theo hàng "Chương trình hợp tác với đối tác" của OBK-QCTC-02-PL-B, và Legal R&D phải được hỏi khi điều khoản đó có cam kết ràng buộc.
+
+### PM-02. Tiếp nhận đăng ký khách được giới thiệu
+
+**Nếu thư đăng ký gửi qua kênh khác, không phải Kênh Đăng Ký contact@obacker.com, thì có ghi sổ và chạy thời hạn không?**
+Không. Theo KS-PM-01, Kênh Đăng Ký là kênh duy nhất; thông tin qua kênh khác, kể cả gửi tới cá nhân người lao động oBacker, không làm chạy thời hạn 03 ngày làm việc.
+
+**Nếu thư đăng ký thiếu bằng chứng đồng ý của người liên hệ, thì Ngày Được Giới Thiệu xác lập khi nào?**
+Chưa xác lập. Theo KS-PM-02, bản ghi giữ trạng thái chờ đủ nội dung; Ngày Được Giới Thiệu chỉ được xác lập khi thư đủ năm nội dung Điều 3.2, trong đó có bằng chứng đồng ý.
+
+### PM-03. Tra trùng và xác nhận hoặc từ chối đăng ký
+
+**Nếu hết 03 ngày làm việc kể từ Ngày Được Giới Thiệu mà oBacker chưa phản hồi, thì đăng ký được xử lý thế nào?**
+Khách được Ghi Nhận Mặc Nhiên kể từ Ngày Được Giới Thiệu; oBacker còn quyền chứng minh tiếp xúc trước trong 30 ngày kể từ ngày Ghi Nhận Mặc Nhiên.
+
+**Nếu muốn từ chối vì đã tiếp xúc khách trước đó, thì cần gì để dùng lý do này?**
+Cần bằng chứng có ghi ngày thuộc 24 tháng liền trước Ngày Được Giới Thiệu, theo KS-PM-03; không có bằng chứng có ngày thì không dùng lý do tiếp xúc trước.
+
+### PM-04. Trình CEO quyết nguồn khi nhiều nguồn
+
+**Nếu nhiều nguồn đăng ký cùng một khách, thì nguồn nào được hưởng hoa hồng?**
+Nguồn có đăng ký hợp lệ sớm nhất theo thứ tự thời điểm Kênh Đăng Ký nhận thư đủ nội dung; `CEO` quyết và văn bản nêu lý do gửi đối tác trong 10 ngày làm việc kể từ ngày phát hiện trùng nguồn.
+
+**Nếu đối tác không đồng ý quyết định nguồn, thì xử lý theo hướng nào?**
+Áp Điều 15 bản mẫu: hai Bên thương lượng; hết 10 ngày làm việc mà không thống nhất, mỗi Bên có quyền khởi kiện.
+
+### PM-05. Bàn giao lead cho AM
+
+**Nếu lead bàn giao cho `AM-01`, thì lead mang theo gì để giữ được nguồn khách?**
+Lead mang mã đăng ký giới thiệu; nguồn khách ghi là do đối tác giới thiệu kèm mã đăng ký đó.
+
+**Nếu khách đã được xác nhận giới thiệu, thì việc làm rõ nhu cầu, báo giá, ký hợp đồng dịch vụ thuộc PM hay `AM`?**
+Thuộc `AM` từ Job `AM-01`; PM-05 chỉ bàn giao lead, không nhân danh oBacker cam kết, báo giá hay đàm phán hợp đồng.
+
+### PM-06. Theo dõi chuyển đổi và mở thời gian hưởng hoa hồng
+
+**Nếu khách ký và thanh toán lần đầu, thì thời gian hưởng hoa hồng được tính từ mốc nào?**
+12 tháng kể từ ngày thanh toán lần đầu, tức ngày khoản về tài khoản oBacker, không phải ngày ký hợp đồng; với dịch vụ thành lập doanh nghiệp là ngày khoản của người sáng lập hoặc của doanh nghiệp mới về trước.
+
+**Nếu hết 60 ngày kể từ Ngày Được Giới Thiệu mà khách chưa ký hoặc chưa thanh toán lần đầu, thì bản ghi xử lý thế nào?**
+Ghi hết hạn 60 ngày, khách chưa chuyển đổi; không mở thời gian hưởng hoa hồng cho bản ghi đó.
+
+### PM-07. Lập và gửi báo cáo hoa hồng tháng
+
+**Nếu doanh thu phát sinh trong tháng, thì báo cáo hoa hồng tháng gửi trong khung thời gian nào?**
+Từ ngày 05 đến ngày 10 của tháng liền sau tháng phát sinh doanh thu, lập theo phiếu HH-02.
+
+**Nếu khách chưa đồng ý cho oBacker gửi thông tin giao dịch cho bên đã giới thiệu, thì dòng của khách đó ghi gì?**
+Theo KS-PM-08, chỉ ghi mã đăng ký và số Hoa Hồng tương ứng, cho đến khi khách đồng ý; không ghi số hóa đơn, số tiền thực thu hay ngày thu.
+
+### PM-08. Xử lý phản hồi của đối tác về báo cáo
+
+**Nếu đối tác yêu cầu làm rõ số liệu một dòng, thì mốc 07 ngày làm việc tính lại từ đâu?**
+Tính lại từ ngày oBacker cung cấp thông tin làm rõ; sau khi đối tác chấp thuận, việc chi chuyển sang `NB-03` hoặc `NB-07` trong 05 ngày làm việc.
+
+**Nếu báo cáo hoa hồng đã được đối tác chấp thuận, thì chuyển đi đâu?**
+Cùng hóa đơn hoặc chứng từ của đối tác, chuyển sang `NB-03` Đề nghị thanh toán hoặc `NB-07` Thanh toán định kỳ theo OBK-SOP-NB-00.
+
+### PM-09. Thông báo hoàn trả hoa hồng
+
+**Nếu khách hủy dịch vụ mà oBacker giữ nguyên số tiền đã thu, thì có phải hoàn trả hoa hồng cho đối tác không?**
+Không. Nghĩa vụ hoàn trả chỉ phát sinh khi oBacker hoàn tiền cho khách; khách hủy mà oBacker giữ nguyên tiền đã thu thì đối tác giữ nguyên hoa hồng tương ứng.
+
+**Nếu oBacker hoàn tiền cho khách, thì thông báo hoàn trả hoa hồng gửi trong bao lâu, và gửi sau hạn thì có hiệu lực không?**
+Trong 15 ngày kể từ ngày oBacker hoàn tiền cho khách, theo phiếu HH-03; thông báo gửi sau 15 ngày vẫn có hiệu lực khi khoản hoàn phát sinh trong 12 tháng kể từ ngày trả số hoa hồng tương ứng.
+
+### PM-10. Gia hạn hoặc trình CEO chấm dứt hợp đồng với đối tác
+
+**Nếu hợp đồng sắp hết hạn, thì mốc thương lượng gia hạn là khi nào?**
+Trước ngày hết hạn ít nhất 30 ngày; văn bản gia hạn do `TGĐ` ký.
+
+**Nếu đối tác vi phạm, thì oBacker chấm dứt ngay hay cho khắc phục?**
+Vi phạm Điều 7 (thông tin sai sự thật) hoặc Điều 2.4 bản mẫu thì chấm dứt ngay; vi phạm Điều 12, Điều 13 hoặc chậm trả tiền trên 30 ngày thì cho 15 ngày khắc phục kể từ ngày nhận thông báo.
+
+**Nếu `CEO` quyết chấm dứt hợp đồng, thì PM lập danh sách nào để không bỏ sót khách hưởng hoa hồng?**
+Lập danh sách khách còn trong thời gian hưởng hoa hồng và khách có Ngày Được Giới Thiệu trước ngày chấm dứt, theo hệ quả chấm dứt tại Điều 11.5 bản mẫu.
+
+### PM-11. Lưu trữ và xóa dữ liệu sau khi kết thúc
+
+**Nếu hết thời gian hưởng hoa hồng của khách cuối cùng của đối tác, thì việc xóa dữ liệu do ai làm và lập văn bản gì?**
+Do `PM` thực hiện và lập biên bản xóa, hủy dữ liệu không còn cần, theo Điều 12.6 bản mẫu.
+
+**Nếu đã xóa dữ liệu, thì phần nào vẫn phải giữ lại?**
+Giữ chứng từ cần cho đối soát, trả hoa hồng sau chấm dứt, lưu trữ chứng từ kế toán và giải quyết tranh chấp, theo Điều 12.6 bản mẫu.
+
+---
+
 ## NHẬT KÝ SỬA
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.1.1 | Chuyển số đếm liệt kê thành quy định, bỏ lối tự sự ở chương trình đối tác. |

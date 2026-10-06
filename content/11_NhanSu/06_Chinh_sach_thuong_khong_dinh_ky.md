@@ -7,22 +7,17 @@ level: "Cấp 2, quy trình bộ phận"
 version: "R.1.0.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 22/09/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-QCNS-00 Bộ tài liệu quản trị nhân sự và vận hành"
 next_review: "Không quá 06 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-QCNS-06
 tags:
   - loai/sop
   - cap/2
-  - nghiep-vu/noi-quy-lao-dong
 ---
 # CHÍNH SÁCH THƯỞNG KHÔNG ĐỊNH KỲ
 
@@ -50,16 +45,12 @@ tags:
 
 Ghi nhận thành tích xuất sắc ngay trong tháng phát sinh, không chờ đến chu kỳ đánh giá định kỳ.
 
-Chính sách này là quy chế thưởng do Tổng giám đốc quy định theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] Điều 25. Tiêu chí xét tại mục 2.4 và quyết định thưởng tại mục 2.5 ghi điều kiện được hưởng và mức được hưởng của khoản thưởng không định kỳ, theo điều kiện tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 25.1.
+Chính sách này là quy chế thưởng do Tổng giám đốc quy định theo OBK-QCTC-01 Điều 25. oBacker ghi điều kiện được hưởng và mức được hưởng của khoản thưởng không định kỳ bằng văn bản trước khi chi, gồm tiêu chí xét tại mục 2.4 và quyết định thưởng tại mục 2.5, theo điều kiện tại OBK-QCTC-01 mục 25.1.
 
 Trước khi áp dụng chính sách này, oBacker tham khảo ý kiến công đoàn cơ sở và công bố công khai tại nơi làm việc, theo khoản 2 Điều 104 Bộ luật Lao động.
 
-> [!warning] PHẦN PHẠT BẰNG TIỀN ĐÃ BỎ
-> Bản trước ngày 22/09/2026 của tài liệu này có một phần quy định phạt bằng tiền, gồm ba mức phạt từ 10.000 đồng tới 100.000 đồng, cơ chế phạt liên đới gấp đôi đối với quản lý trực tiếp, và công thức trừ tiền phạt vào khoản thưởng tháng.
->
-> `CEO` quyết bỏ toàn bộ phần đó ngày 22/09/2026. Căn cứ: [[CC-LD-203 BA HÀNH VI BỊ NGHIÊM CẤM khi xử lý kỷ luật lao động, trong đó khoản 2 cấm PHẠT TIỀN và CẮT LƯƠNG thay việc xử lý kỷ luật lao động|CC-LD-203]] khoản 2 cấm phạt tiền và cắt lương thay việc xử lý kỷ luật lao động; [[Noi_quy_lao_dong|OBK-NQLD]] Điều 35.4 chép lại đúng điều cấm đó.
->
-> Hành vi vi phạm nay xử lý bằng đúng bốn hình thức kỷ luật lao động tại [[Noi_quy_lao_dong|OBK-NQLD]] Điều 36, theo trình tự tại Điều 45 của Nội quy.
+> [!note] NGUYÊN TẮC XỬ LÝ VI PHẠM KỶ LUẬT LAO ĐỘNG
+> oBacker nghiêm cấm áp dụng hình thức phạt tiền hoặc cắt lương thay việc xử lý kỷ luật lao động, theo Điều 35.4 OBK-NQLD. Mọi hành vi vi phạm được xem xét và xử lý theo đúng các hình thức kỷ luật quy định tại Chương IX OBK-NQLD.
 
 ## 2. THƯỞNG KHÔNG ĐỊNH KỲ
 
@@ -99,9 +90,9 @@ Trước khi áp dụng chính sách này, oBacker tham khảo ý kiến công �
 
 1. Người được đề xuất ngoài bộ phận của Trưởng bộ phận lập đề xuất.
 2. Lý do trong đề xuất là lý do chung, thiếu thành tích hoặc đóng góp cụ thể.
-3. Người được đề xuất bị xử lý kỷ luật lao động theo Chương IX [[Noi_quy_lao_dong|OBK-NQLD]] trong tháng phát sinh ở một trong ba hình thức: kéo dài thời hạn nâng lương, cách chức, sa thải. Ba hình thức này là cùng ngưỡng với thưởng doanh thu tại [[01_Khung_nhan_su_tong_hop|OBK-QCNS-01]] mục III.7.
+3. Người được đề xuất bị xử lý kỷ luật lao động theo Chương IX OBK-NQLD trong tháng phát sinh ở một trong ba hình thức: kéo dài thời hạn nâng lương, cách chức, sa thải. Ba hình thức này là cùng ngưỡng với thưởng doanh thu tại OBK-QCNS-01 mục III.7.
 
-Người được thưởng nghỉ việc trước kỳ chi vẫn nhận khoản thưởng đã phê duyệt, trong khoản thanh toán khi nghỉ việc. Điều kiện còn làm việc đến ngày chi trả tại [[01_Khung_nhan_su_tong_hop|OBK-QCNS-01]] mục III.7 chỉ áp cho thưởng doanh thu.
+Người được thưởng nghỉ việc trước kỳ chi vẫn nhận khoản thưởng đã phê duyệt, trong khoản thanh toán khi nghỉ việc. Điều kiện còn làm việc đến ngày chi trả tại OBK-QCNS-01 mục III.7 chỉ áp cho thưởng doanh thu.
 
 ### 2.5. Quyết định thưởng
 
@@ -128,7 +119,7 @@ Ngoài người được đề xuất thưởng theo mục 2.2, mỗi đề xu�
 
 - Không trừ vào lương cơ bản.
 - Mọi khoản thưởng chi vào ngày 15 của tháng liền sau tháng phê duyệt. Ngày chi thưởng tách khỏi ngày trả lương.
-- Khoản thưởng đã chi được đưa vào Bảng thanh toán tiền lương của kỳ lương tháng chi thưởng để tính thuế thu nhập cá nhân, theo [[OBK-SOP-NB-04_Cong_va_tien_luong_noi_bo|OBK-SOP-NB-04]] mục 6.4.
+- Khoản thưởng đã chi được đưa vào Bảng thanh toán tiền lương của kỳ lương tháng chi thưởng để tính thuế thu nhập cá nhân, theo OBK-SOP-NB-04 mục 5.4.
 
 ## 4. LƯU TRỮ VÀ BÁO CÁO
 

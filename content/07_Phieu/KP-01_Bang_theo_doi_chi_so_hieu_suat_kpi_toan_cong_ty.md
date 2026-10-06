@@ -4,19 +4,15 @@ code: "KP-01"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-TTT-05 Cách làm phiếu thao tác"
-law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - KP-01
 tags:
@@ -29,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | KP-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -40,13 +36,14 @@ tags:
 | **Ai dùng** | Ban Điều hành (`CEO`, `COO`), Kế toán trưởng (`KTT`), Trưởng các bộ phận (`TL-KT`, `TL-LIC`, `TL-LD`, `TL-LS`, `TL-RD`, `TL-CN`), Chuyên viên Quản lý khách hàng (`AM`), và toàn bộ nhân sự chuyên môn (`KTV`, `CV-LIC`, `CV-LD`, `CV-LS`, `CV-RD`, `HR`, `AD-KT`) |
 | **Sinh từ** | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] Chuẩn vận hành dịch vụ;<br>[[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] Khung đánh giá hiệu suất (kèm các phụ lục [[08_PL_A_Thang_cham_tieu_chi_chung\|PL-A]], [[08_PL_B_Tieu_chi_cong_viec_dang_ho_so\|PL-B]], [[08_PL_E_Phieu_vi_tri\|PL-E]]);<br>[[CV-01_Bang_theo_doi_trang_thai_cong_viec_sla_va_kpi\|CV-01]] Bảng theo dõi trạng thái công việc, tasks, SLA và KPI;<br>[[TC-01_Bang_theo_doi_dong_tien_va_suc_khoe_tai_chinh\|TC-01]] Bảng theo dõi dòng tiền và sức khỏe tài chính;<br>[[KH-01_So_quan_tri_khach_hang_va_dich_vu_crm\|KH-01]] Sổ quản trị khách hàng và dịch vụ CRM;<br>[[TS-02_Bang_theo_doi_gio_lam_viec_nang_suat_va_cong_suat_nhan_su\|TS-02]] Bảng theo dõi giờ làm việc, năng suất và công suất nhân sự |
 | **Ngày làm phiếu** | 27/09/2026 |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
 Bảng theo dõi chỉ số hiệu suất, SLA và KPI toàn công ty là công cụ điều hành tập trung cao nhất về mặt định lượng của oBacker. Bảng hợp nhất toàn bộ dữ liệu đo lường từ năm trụ cột thực thi:
 1. **Khách hàng và Tăng trưởng:** Thu thập từ Sổ quản trị khách hàng [[KH-01_So_quan_tri_khach_hang_va_dich_vu_crm|KH-01]] và quy trình [[02_OBK-SOP-AM_Quan_ly_khach_hang|OBK-SOP-AM]].
 2. **Vận hành và Cam kết dịch vụ SLA:** Thu thập từ Bảng theo dõi trạng thái công việc [[CV-01_Bang_theo_doi_trang_thai_cong_viec_sla_va_kpi|CV-01]] và Bảng tra SLA 203 Job [[PL_2_Bang_tra_SLA|OBK-SOP-PL2]].
-3. **Chất lượng và Tuân thủ pháp lý:** Thu thập từ chuẩn kiểm soát chất lượng [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]], Bảng theo dõi tiến độ khai thuế [[TH-01_Bang_theo_doi_tien_do_khai_thue_va_bctc|TH-01]] và tiến độ giấy phép [[GP-01_Bang_theo_doi_tien_do_giay_phep_va_doanh_nghiep|GP-01]].
+3. **Chất lượng và Tuân thủ pháp lý:** Thu thập từ chuẩn kiểm soát chất lượng OBK-SOP-00, Bảng theo dõi tiến độ khai thuế TH-01 và tiến độ giấy phép GP-01.
 4. **Tài chính và Dòng tiền:** Thu thập từ Bảng theo dõi sức khỏe tài chính [[TC-01_Bang_theo_doi_dong_tien_va_suc_khoe_tai_chinh|TC-01]], sổ công nợ [[CN-01_So_theo_doi_cong_no_phai_thu_va_tuoi_no|CN-01]] và bảng lương chuẩn [[LU-01_Bang_theo_doi_va_thanh_toan_tien_luong_chuan|LU-01]].
 5. **Năng suất nhân sự và Định mức:** Thu thập từ Bảng theo dõi giờ làm việc, năng suất và công suất nhân sự [[TS-02_Bang_theo_doi_gio_lam_viec_nang_suat_va_cong_suat_nhan_su|TS-02]], Khung đánh giá hiệu suất [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] và hệ thống quản lý công việc.
 
@@ -117,7 +114,7 @@ Hệ thống chỉ số hiệu suất của oBacker vận hành theo năm nguyê
 
 ### 1.5. Nhóm 5. Chỉ số Năng suất nhân sự và Định mức cấp bậc (Productivity & Quota P1-P4, M1)
 
-Căn cứ Khung đánh giá hiệu suất [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] và Bảng tra SLA 203 Job [[PL_2_Bang_tra_SLA|OBK-SOP-PL2]], năng suất chuẩn của một nhân sự toàn thời gian được tính trên cơ sở 22 ngày làm việc chuẩn mỗi tháng (tương đương 176 giờ làm việc tiêu chuẩn).
+Căn cứ Khung đánh giá hiệu suất OBK-QCNS-08 và Bảng tra SLA 203 Job OBK-SOP-PL2, năng suất chuẩn của một nhân sự toàn thời gian được tính trên cơ sở 22 ngày làm việc chuẩn mỗi tháng (tương đương 176 giờ làm việc tiêu chuẩn).
 
 Định mức số lượng Jobs hoàn thành hoặc khối lượng khách hàng phụ trách trực tiếp được phân bổ theo từng cấp bậc chuyên môn:
 
@@ -204,7 +201,7 @@ Bảng theo dõi định kỳ được lập thành trang tính quản trị, m�
 
 ## 4. QUY TRÌNH THU THẬP, ĐỐI SOÁT VÀ KÍCH HOẠT CẢNH BÁO
 
-### 4.1. Quy trình 5 bước thu thập và phê duyệt số liệu định kỳ
+### 4.1. Quy trình thu thập và phê duyệt số liệu định kỳ
 
 ```
 [Bước 1: Trích xuất số liệu] -> [Bước 2: Đối soát dữ liệu] -> [Bước 3: Lập bảng điều khiển]
@@ -218,7 +215,7 @@ Bảng theo dõi định kỳ được lập thành trang tính quản trị, m�
 2. **Bước 2 (Đối soát dữ liệu):** Từ ngày 02 đến ngày 03 hằng tháng, Trưởng bộ phận đối soát xác suất tối thiểu 20% các bản ghi để xác nhận tính chính xác, không ghi nhận các trường hợp chưa đủ bằng chứng.
 3. **Bước 3 (Lập bảng điều khiển):** Từ ngày 03 đến ngày 04 hằng tháng, Kế toán tổng hợp lập Bảng điều khiển hiệu suất toàn công ty `KP-01`, đánh dấu trạng thái tín hiệu Xanh, Vàng, Đỏ cho từng chỉ số.
 4. **Bước 4 (Họp điều hành duyệt số liệu):** Ngày 05 hằng tháng, Ban Điều hành (`CEO`, `COO`, `KTT`) họp giao ban tháng để chính thức phê duyệt số liệu hiệu suất và chốt các giải pháp khắc phục đối với các chỉ số vi phạm ngưỡng.
-5. **Bước 5 (Ban hành và Kỷ luật):** Ngày 06 đến ngày 07 hằng tháng, kết quả hiệu suất được công bố minh bạch và kết nối thẳng sang hệ thống đánh giá nhân sự [[NS-03_Phieu_tong_hop_diem_cuoi_ky|NS-03]] để làm căn cứ tính lương, thưởng và xét thăng bậc.
+5. **Bước 5 (Ban hành và Kỷ luật):** Ngày 06 đến ngày 07 hằng tháng, kết quả hiệu suất được công bố minh bạch và kết nối thẳng sang hệ thống đánh giá nhân sự NS-03 để làm căn cứ tính lương, thưởng và xét thăng bậc.
 
 ### 4.2. Cơ chế xử lý cảnh báo và chuyển lên cấp trên
 
@@ -231,7 +228,7 @@ Khi một chỉ số rơi vào vùng cảnh báo Vàng hoặc vùng nguy hại �
   - Trưởng bộ phận phải gửi thông báo khẩn cấp cho `COO` và `CEO` trong thời hạn tối đa 04 giờ làm việc kể từ thời điểm phát hiện.
   - Tổ chức cuộc họp bất thường trong 24 giờ gồm Ban Điều hành và các bên liên quan để thiết lập phương án khoanh vùng xử lý.
   - Trường hợp liên quan đến lỗi thuế, bảo hiểm hoặc pháp lý khách hàng: Khởi động quy trình khắc phục sự cố theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 11.2b và kích hoạt quy tắc chặn điểm đối với nhân sự và bộ phận trực tiếp gây ra lỗi.
-  - Trường hợp chỉ số dự phòng tiền mặt (`Cash Runway`) giảm xuống ít hơn 03 tháng: `KTT` kích hoạt ngay phương án bảo toàn dòng tiền khẩn cấp theo Điều 34 [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]], đình chỉ toàn bộ các khoản chi mua sắm ngoài định mức và báo cáo Hội đồng Quản trị.
+  - Trường hợp chỉ số dự phòng tiền mặt (`Cash Runway`) giảm xuống ít hơn 03 tháng: `KTT` kích hoạt ngay phương án bảo toàn dòng tiền khẩn cấp theo Điều 34 OBK-QCTC-01, đình chỉ toàn bộ các khoản chi mua sắm ngoài định mức và báo cáo Hội đồng Quản trị.
 
 ---
 
@@ -239,4 +236,4 @@ Khi một chỉ số rơi vào vùng cảnh báo Vàng hoặc vùng nguy hại �
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu KP-01 về Sổ cái OBK-MSR |

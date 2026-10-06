@@ -4,26 +4,22 @@ code: "OBK-SOP-18"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.0"
+version: "R.1.0.1"
 status: "đang áp dụng"
-draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 25/08/2026"
+draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
 parent: "OBK-SOP-KT Kế toán và thuế"
 next_review: "Chậm nhất 28/02/2027"
 chapter: "Kiểm soát chất lượng và quy trình soát xét"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-SOP-18
 tags:
   - loai/sop
   - cap/3
   - nghiep-vu/kiem-soat-chat-luong
-  - nghiep-vu/dieu-kien-dich-vu-ke-toan
 ---
 # Chương 18. Kiểm soát chất lượng và quy trình soát xét
 
@@ -34,8 +30,8 @@ tags:
 | Mã tài liệu | OBK-SOP-18 |
 | Tên chương | Kiểm soát chất lượng và quy trình soát xét |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.1.0.0, đang áp dụng |
-| Ngày biên soạn | 01/10/2026 |
+| Phiên bản | R.1.0.1, đang áp dụng |
+| Ngày biên soạn | 04/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -51,10 +47,10 @@ tags:
 > [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
 > Chương này là QUY ĐỊNH NỘI BỘ của oBacker. Các mức, các ngưỡng, các cỡ mẫu, các thời hạn khắc phục trong chương này do oBacker tự đặt ra để quản trị rủi ro nghề nghiệp. Các con số đó không phải quy định pháp luật, không được trích dẫn cho khách hàng như là quy định pháp luật, và không được ghi mức chắc chắn của căn cứ pháp luật cho các con số đó.
 
-> [!question] CẦN XÁC MINH
-> Việc ghi mức chắc chắn chỉ dùng cho nội dung dẫn quy định pháp luật. Câu nói về pháp luật mà không dẫn điều khoản trong chương này là lỗi biên soạn. Báo Legal R&D.
+> [!note] NGUYÊN TẮC ÁP DỤNG CĂN CỨ
+> Việc xác định mức độ căn cứ áp dụng cho các nội dung viện dẫn quy định pháp luật. Trường hợp nội dung pháp lý chưa dẫn chiếu điều khoản cụ thể, nhân sự chuyển Legal R&D chuẩn hóa căn cứ.
 
-Vì sao phải nói rõ ranh giới đó ngay từ đầu: nhân viên đọc handbook thường không phân biệt được đâu là ràng buộc pháp lý, đâu là ràng buộc nội bộ. Hai loại này có hệ quả rất khác nhau. Vi phạm quy định pháp luật dẫn tới xử phạt hành chính, tiền chậm nộp, rủi ro hình sự. Vi phạm quy định nội bộ dẫn tới xử lý kỷ luật lao động và mất điểm đánh giá. Nhân viên phải biết mình đang đứng ở đâu để ứng xử đúng khi khách hàng chất vấn.
+Ranh giới áp dụng: Các mức, ngưỡng và thời hạn trong chương này là quy định nội bộ phục vụ quản trị rủi ro; phân biệt rõ với nghĩa vụ pháp định bắt buộc. Hai loại này có hệ quả rất khác nhau. Vi phạm quy định pháp luật dẫn tới xử phạt hành chính, tiền chậm nộp, rủi ro hình sự. Vi phạm quy định nội bộ dẫn tới xử lý kỷ luật lao động và mất điểm đánh giá. Nhân viên phải biết mình đang đứng ở đâu để ứng xử đúng khi khách hàng chất vấn.
 
 ---
 
@@ -102,21 +98,21 @@ Vì sao phải nói rõ ranh giới đó ngay từ đầu: nhân viên đọc ha
 
 | Mã căn cứ | Văn bản | Nội dung căn cứ |
 | --- | --- | --- |
-| [[CC-KT-68 Doanh nghiệp kinh doanh dịch vụ kế toán phải tuân thủ pháp luật về kế toán và chuẩn mực đạo đức nghề nghiệp kế toán\|CC-KT-68]] | Luật Kế toán, văn bản hợp nhất số 41/VBHN-VPQH, bản mới nhất trong bộ nguồn nội bộ tại `05_PhapLuat/KeToan/` | Doanh nghiệp kinh doanh dịch vụ kế toán phải tuân thủ pháp luật về kế toán và chuẩn mực đạo đức nghề nghiệp kế toán `[41/VBHN-VPQH Đ.67 k.2]` |
-| [[CC-KT-69 Doanh nghiệp chịu trách nhiệm trước khách hàng và trước pháp luật về nội dung dịch vụ kế toán đã cung cấp\|CC-KT-69]] | Cùng văn bản nêu trên | Doanh nghiệp chịu trách nhiệm trước khách hàng và trước pháp luật về nội dung dịch vụ kế toán đã cung cấp, và phải bồi thường thiệt hại do mình gây ra `[41/VBHN-VPQH Đ.67 k.3]` |
-| [[CC-KT-70 Doanh nghiệp phải tuân thủ sự quản lý nghề nghiệp và KIỂM SOÁT CHẤT LƯỢNG dịch vụ kế toán của Bộ Tài chính hoặc của tổ chức nghề nghiệp\|CC-KT-70]] | Cùng văn bản nêu trên | Doanh nghiệp phải tuân thủ sự quản lý nghề nghiệp và KIỂM SOÁT CHẤT LƯỢNG dịch vụ kế toán của Bộ Tài chính hoặc của tổ chức nghề nghiệp về kế toán được Bộ Tài chính ủy quyền `[41/VBHN-VPQH Đ.67 k.5]` |
+| CC-KT-68 | Luật Kế toán, văn bản hợp nhất số 41/VBHN-VPQH, bản mới nhất trong bộ nguồn nội bộ tại `05_PhapLuat/KeToan/` | Doanh nghiệp kinh doanh dịch vụ kế toán phải tuân thủ pháp luật về kế toán và chuẩn mực đạo đức nghề nghiệp kế toán `[41/VBHN-VPQH Đ.67 k.2]` |
+| CC-KT-69 | Cùng văn bản nêu trên | Doanh nghiệp chịu trách nhiệm trước khách hàng và trước pháp luật về nội dung dịch vụ kế toán đã cung cấp, và phải bồi thường thiệt hại do mình gây ra `[41/VBHN-VPQH Đ.67 k.3]` |
+| CC-KT-70 | Cùng văn bản nêu trên | Doanh nghiệp phải tuân thủ sự quản lý nghề nghiệp và KIỂM SOÁT CHẤT LƯỢNG dịch vụ kế toán của Bộ Tài chính hoặc của tổ chức nghề nghiệp về kế toán được Bộ Tài chính ủy quyền `[41/VBHN-VPQH Đ.67 k.5]` |
 
-Nguyên văn ba khoản trên lưu tại [[OBK-CC]], tra theo mã căn cứ ở cột đầu. Ba khoản trên đặt ra NGHĨA VỤ phải có hệ thống kiểm soát chất lượng và phải chịu trách nhiệm về đầu ra. Ba khoản đó không đặt ra một con số nào trong chương này.
+Nguyên văn ba khoản trên lưu tại OBK-CC, tra theo mã căn cứ ở cột đầu. Ba khoản trên đặt ra NGHĨA VỤ phải có hệ thống kiểm soát chất lượng và phải chịu trách nhiệm về đầu ra. Ba khoản đó không đặt ra một con số nào trong chương này.
 
 3.2. Toàn bộ mức, ngưỡng, cỡ mẫu và thời hạn khắc phục trong chương này là quy định nội bộ oBacker, do `CEO` ban hành để thi hành ba khoản nêu trên. Đọc cảnh báo mở đầu trước khi trích cho khách.
 
-3.3. Chuẩn cấp 1 của chương: `03_DichVu/01_OBK-SOP-00` NT-5, gồm nguyên tắc ba lớp kiểm soát, ngoại lệ do `CEO` chốt ngày 26/08/2026, điều đánh đổi, và ba dấu hiệu buộc thêm lớp soát thứ hai. Khi chương này khác NT-5 thì NT-5 đúng.
+3.3. Chuẩn cấp 1 của chương: `03_DichVu/01_OBK-SOP-00` NT-5, gồm nguyên tắc ba lớp kiểm soát, ngoại lệ do `CEO` quyết ngày 26/08/2026, điều đánh đổi, và ba dấu hiệu buộc thêm lớp soát thứ hai. Khi chương này khác NT-5 thì NT-5 đúng.
 
 3.4. Các ràng buộc pháp lý khác đã trình bày ở chương khác và không lặp lại ở đây. Khi cần dẫn quy định pháp luật, tra tại:
 
 | Nội dung pháp lý liên quan | Xem tại |
 | --- | --- |
-| Nghĩa vụ riêng của đơn vị kinh doanh dịch vụ kế toán khi phát hành báo cáo tài chính | Chương 07 mục 6.2 |
+| Nghĩa vụ riêng của đơn vị kinh doanh dịch vụ kế toán khi phát hành báo cáo tài chính | Chương 07 mục 5.2 |
 | Trách nhiệm hành chính của bên được ủy quyền khai, nộp thuế thay | Chương 17, cảnh báo mở đầu |
 | Điều kiện và thời hiệu khai bổ sung | Chương 15 |
 | Thời hạn nộp hồ sơ khai thuế từng loại | Chương 13 và Phụ lục C |
@@ -172,7 +168,7 @@ Trước khi bắt đầu bất kỳ vòng soát xét nào, phải có đủ:
 #### 6.1.1. Bản chất mô hình
 
 > [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
-> Nguyên tắc ba lớp kiểm soát, ngoại lệ duy nhất do `CEO` chốt ngày 26/08/2026, ba việc bù trừ bắt buộc khi dùng ngoại lệ đó, điều đánh đổi, và ba dấu hiệu buộc thêm lớp soát thứ hai đều ĐẶT tại `03_DichVu/01_OBK-SOP-00` NT-5. Mục 6.1 không đặt lại các nội dung đó; mục 6.1 chỉ ghi ai giữ lớp nào trong bộ phận Kế toán và Thuế. Khi hai bên khác nhau thì NT-5 đúng.
+> Nguyên tắc ba lớp kiểm soát, ngoại lệ duy nhất do `CEO` quyết ngày 26/08/2026, ba việc bù trừ bắt buộc khi dùng ngoại lệ đó, điều đánh đổi, và ba dấu hiệu buộc thêm lớp soát thứ hai đều ĐẶT tại `03_DichVu/01_OBK-SOP-00` NT-5. Mục 6.1 không đặt lại các nội dung đó; mục 6.1 chỉ ghi ai giữ lớp nào trong bộ phận Kế toán và Thuế. Khi hai bên khác nhau thì NT-5 đúng.
 
 Ánh xạ ba lớp của NT-5 vào bộ phận Kế toán và Thuế. Bước tự kiểm của người trực tiếp làm là lớp một; lớp 1 trong bảng dưới đây là lớp CHẶN, tức lớp hai theo NT-5, và là lớp duy nhất chặn được lỗi trước khi hồ sơ rời oBacker; lớp 2 trong bảng dưới đây là lớp hậu kiểm. Với phần việc do CV-KT làm thì đủ hai lớp. Với phần việc do chính TL-KT làm thì người làm và người chặn là một người, tức không có lớp soát thứ hai; đây đúng là ngoại lệ tại NT-5 và phải ghi rõ trên phiếu.
 
@@ -353,8 +349,8 @@ e) Bản in ra để tick tay có tại Phụ lục A.
 | 2 | Đúng mẫu tờ khai đang có hiệu lực tại thời điểm nộp | Đối chiếu Phụ lục E, không dùng mẫu lưu sẵn từ kỳ trước mà chưa kiểm | R1 |
 | 3 | Doanh thu chịu thuế trên tờ khai khớp với tổng doanh thu trên sổ và với bảng kê hóa đơn đầu ra | Đối chiếu ba chiều: sổ, bảng kê, tờ khai | R1 |
 | 4 | Toàn bộ hóa đơn đầu ra trong kỳ đã được kê, không sót, không trùng | Đối chiếu với dữ liệu kết xuất từ `[PHẦN MỀM HĐĐT]` theo Chương 12 mục F | R1 |
-| 5 | Phân loại đúng thuế suất từng dòng doanh thu, gồm cả các dòng áp dụng chính sách giảm thuế nếu còn hiệu lực | Đối chiếu bảng tra thuế suất Chương 09 mục 6.3;<br>kiểm mẫu theo mục 6.5;<br>soát 100% các dòng không áp thuế suất phổ thông, gồm dòng áp thuế suất 0%, thuế suất thấp hơn, và dòng thuộc chính sách giảm thuế | R1 |
-| 6 | Thuế GTGT đầu vào được khấu trừ đáp ứng đủ điều kiện khấu trừ theo Chương 09 mục 6.6 | Soát mẫu hóa đơn đầu vào;<br>soát 100% hóa đơn từ ngưỡng trọng yếu trở lên | R1 |
+| 5 | Phân loại đúng thuế suất từng dòng doanh thu, gồm cả các dòng áp dụng chính sách giảm thuế nếu còn hiệu lực | Đối chiếu bảng tra thuế suất Chương 09 mục 5.3;<br>kiểm mẫu theo mục 6.5;<br>soát 100% các dòng không áp thuế suất phổ thông, gồm dòng áp thuế suất 0%, thuế suất thấp hơn, và dòng thuộc chính sách giảm thuế | R1 |
+| 6 | Thuế GTGT đầu vào được khấu trừ đáp ứng đủ điều kiện khấu trừ theo Chương 09 mục 5.6 | Soát mẫu hóa đơn đầu vào;<br>soát 100% hóa đơn từ ngưỡng trọng yếu trở lên | R1 |
 | 7 | Không khấu trừ hóa đơn của nhà cung cấp đang thuộc diện cảnh báo, ngừng sử dụng hóa đơn | Tra soát danh sách rủi ro theo Chương 12 mục B.5 | R1 |
 | 8 | Chứng từ thanh toán không dùng tiền mặt đầy đủ với các hóa đơn thuộc diện bắt buộc | Kiểm mẫu chứng từ thanh toán | R1 |
 | 9 | Thuế đầu vào dùng chung cho hoạt động chịu thuế và không chịu thuế đã được phân bổ đúng phương pháp và nhất quán với kỳ trước | Kiểm bảng phân bổ và đối chiếu tỷ lệ kỳ trước | R2 |
@@ -400,7 +396,7 @@ e) Bản in ra để tick tay có tại Phụ lục A.
 | 3 | Doanh thu lũy kế được xác định đúng và khớp sổ | Đối chiếu sổ và các tờ khai GTGT trong kỳ | R1 |
 | 4 | Chi phí lũy kế đã loại các khoản chắc chắn không được trừ | Rà danh mục chi phí không được trừ theo Chương 10 | R1 |
 | 5 | Các khoản trích trước, dự phòng đã được xem xét về tính hợp lệ khi tính thuế | Kiểm mẫu | R2 |
-| 6 | Áp đúng thuế suất theo quy mô doanh thu, có kiểm tra điều kiện loại trừ về quan hệ liên kết | Đối chiếu Chương 10 mục 6.1.3 và 6.1.4. Kiểm 100% nếu khách áp mức ưu đãi | R1 |
+| 6 | Áp đúng thuế suất theo quy mô doanh thu, có kiểm tra điều kiện loại trừ về quan hệ liên kết | Đối chiếu Chương 10 mục 5.1.3 và 6.1.4. Kiểm 100% nếu khách áp mức ưu đãi | R1 |
 | 7 | Ưu đãi thuế nếu có được áp đúng loại, đúng thời gian, có hồ sơ chứng minh điều kiện | Kiểm hồ sơ ưu đãi | R1 |
 | 8 | Lỗ các năm trước được chuyển đúng thứ tự và trong thời hạn | Đối chiếu Bảng theo dõi lỗ chuyển | R1 |
 | 9 | Số đã tạm nộp các quý trước được cộng đúng | Đối chiếu chứng từ nộp tiền các quý trước | R1 |
@@ -417,11 +413,11 @@ e) Bản in ra để tick tay có tại Phụ lục A.
 | --- | --- | --- | --- |
 | 1 | Báo cáo tài chính năm đã hoàn thành và đã qua soát xét trước khi lập quyết toán | Kiểm dấu vết soát xét báo cáo tài chính | R1 |
 | 2 | Lợi nhuận kế toán trước thuế trên quyết toán khớp tuyệt đối với báo cáo kết quả hoạt động kinh doanh | Đối chiếu số | R1 |
-| 3 | Bảng điều chỉnh từ lợi nhuận kế toán sang thu nhập tính thuế đầy đủ, mỗi dòng có căn cứ | Kiểm 100% các dòng điều chỉnh theo Chương 14 mục 6.3 | R1 |
+| 3 | Bảng điều chỉnh từ lợi nhuận kế toán sang thu nhập tính thuế đầy đủ, mỗi dòng có căn cứ | Kiểm 100% các dòng điều chỉnh theo Chương 14 mục 5.3 | R1 |
 | 4 | Toàn bộ chi phí không được trừ đã được rà theo danh mục, không bỏ sót nhóm nào | Kiểm theo bảng kiểm chi phí không được trừ Chương 10 | R1 |
 | 5 | Chi phí có mức khống chế đã được tính đúng mức và đúng cơ sở tính | Kiểm 100% các khoản có mức khống chế | R1 |
 | 6 | Chi phí lãi vay, giao dịch liên kết nếu có đã được xử lý và có hồ sơ theo quy định | Kiểm 100% nếu khách có giao dịch liên kết | R1 |
-| 7 | Doanh thu tính thuế đã bao gồm đủ các khoản thu nhập khác | Rà danh mục thu nhập khác Chương 10 mục 6.2.7 | R1 |
+| 7 | Doanh thu tính thuế đã bao gồm đủ các khoản thu nhập khác | Rà danh mục thu nhập khác Chương 10 mục 5.2.7 | R1 |
 | 8 | Áp đúng thuế suất, có kiểm tra lại điều kiện quy mô và điều kiện loại trừ tại thời điểm quyết toán | Kiểm hồ sơ cấu trúc sở hữu cập nhật | R1 |
 | 9 | Ưu đãi thuế được kê khai đúng, đủ hồ sơ điều kiện, đúng kỳ ưu đãi | Kiểm 100% | R1 |
 | 10 | Chuyển lỗ đúng nguyên tắc, đúng thời hạn, khớp Bảng theo dõi lỗ | Đối chiếu | R1 |
@@ -430,7 +426,7 @@ e) Bản in ra để tick tay có tại Phụ lục A.
 | 13 | Các phụ lục kèm theo quyết toán đầy đủ và nhất quán với tờ khai chính | Kiểm từng phụ lục | R1 |
 | 14 | Số liệu năm trước trên quyết toán khớp với quyết toán năm trước đã nộp, kể cả bản bổ sung | Đối chiếu | R1 |
 | 15 | Các vấn đề còn ý kiến khác nhau đã được TL-KT kết luận rõ ràng;<br>vấn đề TL-KT chưa chắc thì chuyển Legal R&D, không ai tự xử lý | Kiểm danh sách vấn đề chưa xử lý xong | R1 |
-| 16 | Đã có xác nhận bằng văn bản của khách theo Chương 14 mục 6.5 | Kiểm dấu vết | R1 |
+| 16 | Đã có xác nhận bằng văn bản của khách theo Chương 14 mục 5.5 | Kiểm dấu vết | R1 |
 
 #### 6.3.5. Bảng kiểm soát xét QUYẾT TOÁN THUẾ TNCN
 
@@ -440,7 +436,7 @@ e) Bản in ra để tick tay có tại Phụ lục A.
 | 2 | Tổng thu nhập cả năm của từng người khớp với tổng các kỳ khai trong năm | Đối chiếu ngang các kỳ | R1 |
 | 3 | Tổng số thuế đã khấu trừ cả năm khớp với các tờ khai đã nộp | Đối chiếu | R1 |
 | 4 | Phân loại đúng người thuộc diện ủy quyền quyết toán và người phải tự quyết toán | Rà theo Chương 11;<br>loại trừ các trường hợp không được ủy quyền | R1 |
-| 5 | Người có giảm trừ chi phí y tế, giáo dục nếu có được xử lý đúng về quyền ủy quyền | Kiểm 100% theo Chương 11 mục E.4 | R1 |
+| 5 | Người có giảm trừ chi phí y tế, giáo dục nếu có được xử lý đúng về quyền ủy quyền | Kiểm 100% theo Chương 11 mục E.3 | R1 |
 | 6 | Giảm trừ gia cảnh cả năm tính đúng số tháng cho từng người | Kiểm 100% người vào và nghỉ giữa năm | R1 |
 | 7 | Người phụ thuộc đủ hồ sơ, không trùng lặp giữa hai người nộp thuế | Rà chéo danh sách người phụ thuộc | R1 |
 | 8 | Các khoản giảm trừ khác có đủ chứng từ hợp lệ | Kiểm mẫu và kiểm 100% khoản lớn | R2 |
@@ -472,11 +468,11 @@ e) Bản in ra để tick tay có tại Phụ lục A.
 | 13 | Doanh thu và giá vốn tương ứng nhau về kỳ và về đối tượng | Kiểm mẫu và phân tích tỷ lệ lãi gộp theo tháng | R1 |
 | 14 | Thuế và các khoản phải nộp nhà nước trên báo cáo khớp với các tờ khai đã nộp | Đối chiếu | R1 |
 | 15 | Báo cáo lưu chuyển tiền tệ khớp với biến động tiền trên báo cáo tình hình tài chính | Kiểm cơ học | R1 |
-| 16 | Thuyết minh đầy đủ các nội dung bắt buộc, gồm cả thuyết minh về thay đổi chính sách kế toán nếu có | Kiểm theo Chương 07 mục 6.3.5 | R1 |
-| 17 | Các chỉ tiêu không có số liệu được xử lý đúng quy tắc trình bày | Đối chiếu Chương 07 mục 6.1.4 | R2 |
-| 18 | Nghĩa vụ riêng của đơn vị kinh doanh dịch vụ kế toán đã được thực hiện | Kiểm theo bảng kiểm Chương 07 mục 6.2.3 | R1 |
+| 16 | Thuyết minh đầy đủ các nội dung bắt buộc, gồm cả thuyết minh về thay đổi chính sách kế toán nếu có | Kiểm theo Chương 07 mục 5.3.5 | R1 |
+| 17 | Các chỉ tiêu không có số liệu được xử lý đúng quy tắc trình bày | Đối chiếu Chương 07 mục 5.1.4 | R2 |
+| 18 | Nghĩa vụ riêng của đơn vị kinh doanh dịch vụ kế toán đã được thực hiện | Kiểm theo bảng kiểm Chương 07 mục 5.2.3 | R1 |
 | 19 | Sự kiện phát sinh sau ngày kết thúc kỳ kế toán đã được rà và xử lý | Phỏng vấn khách và rà nghiệp vụ đầu năm sau | R1 |
-| 20 | Số liệu so sánh được trình bày lại nếu có thay đổi chính sách kế toán | Kiểm theo Chương 06 mục 6.5.4 | R1 |
+| 20 | Số liệu so sánh được trình bày lại nếu có thay đổi chính sách kế toán | Kiểm theo Chương 06 mục 5.5.4 | R1 |
 
 #### 6.3.7. Bảng kiểm soát xét BÁO CÁO QUẢN TRỊ
 
@@ -684,7 +680,7 @@ Hai chỗ thang bảy mức NGHIÊM HƠN bảng cấp 1, và mục 11.2b quy t�
 
 Bốn quy tắc ghi nhận dùng chung toàn công ty ĐẶT tại `03_DichVu/01_OBK-SOP-00` mục 11.2a, gồm: ai ghi nhận, trường hợp tự phát hiện lỗi của chính mình, bốn trường bắt buộc, và cấm ghi nguyên nhân gốc là "bất cẩn" hoặc "sơ suất". Ba quy tắc dưới đây là phần riêng của bộ phận Kế toán và Thuế.
 
-1. Sổ ghi nhận lỗi của bộ phận theo biểu mẫu tại Phụ lục B. Nội dung ghi tối thiểu: ngày phát hiện, khách hàng, kỳ, đầu ra liên quan, mô tả lỗi, mức theo mục 6.6.2, mức theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 11.2, lỗi đã vượt biên nào, nguyên nhân gốc, người mắc lỗi, người phát hiện, lớp phát hiện, biện pháp khắc phục, biện pháp phòng ngừa tái diễn, hạn khắc phục, trạng thái.
+1. Sổ ghi nhận lỗi của bộ phận theo biểu mẫu tại Phụ lục B. Nội dung ghi tối thiểu: ngày phát hiện, khách hàng, kỳ, đầu ra liên quan, mô tả lỗi, mức theo mục 6.6.2, mức theo OBK-SOP-00 mục 11.2, lỗi đã vượt biên nào, nguyên nhân gốc, người mắc lỗi, người phát hiện, lớp phát hiện, biện pháp khắc phục, biện pháp phòng ngừa tái diễn, hạn khắc phục, trạng thái.
 2. Lỗi mức 1 và mức 2 phải được báo cáo cho TL-KT và COO trong ngày phát hiện, không chờ tổng hợp cuối tháng.
 3. Lỗi mức 1 phải được báo cáo CEO trong 24 giờ.
 
@@ -929,7 +925,7 @@ Quy định nội bộ oBacker. TL-KT, COO và CEO, ở mọi cấp:
 
 | # | Đầu ra | Người lập | Nơi lưu | Thời hạn lưu |
 | --- | --- | --- | --- | --- |
-| 1 | Phiếu tự kiểm | CV-KT | `[KHO LƯU TRỮ HỒ SƠ]`, thư mục kỳ của khách hàng | Theo thời hạn lưu hồ sơ thuế của kỳ tương ứng, xem Chương 14 mục 9.2 |
+| 1 | Phiếu tự kiểm | CV-KT | `[KHO LƯU TRỮ HỒ SƠ]`, thư mục kỳ của khách hàng | Theo thời hạn lưu hồ sơ thuế của kỳ tương ứng, xem Chương 14 mục 8.2 |
 | 2 | Phiếu soát xét và chốt | TL-KT | Cùng nơi với đầu ra được soát và chốt | Như trên |
 | 3 | Sổ ghi nhận lỗi | Người phát hiện | `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]`, sổ dùng chung toàn công ty | Tối thiểu 5 năm |
 | 4 | Báo cáo chỉ số chất lượng hằng tháng | `COO` | Thư mục quản trị chất lượng | Tối thiểu 5 năm |
@@ -962,9 +958,9 @@ Chỉ số của chính chương này, đo mức độ chương được thực 
 | Mô hình dịch vụ và phân vai trò CV-KT, TL-KT, AM, COO, CEO theo gói dịch vụ | Chương 02 |
 | Đánh giá rủi ro khách hàng khi onboarding | Chương 03 |
 | Kiểm soát chứng từ đầu vào và phân mức xử lý chứng từ thiếu | Chương 04 |
-| Quy trình soát xét áp cho báo cáo tài chính | Chương 07 mục 6.5 |
-| Quy trình soát xét áp cho quyết toán năm | Chương 14 mục 6.6 |
-| Bảng kiểm khóa sổ tháng và khóa sổ năm | Chương 06 mục 6.3 và 6.6 |
+| Quy trình soát xét áp cho báo cáo tài chính | Chương 07 mục 5.5 |
+| Quy trình soát xét áp cho quyết toán năm | Chương 14 mục 5.6 |
+| Bảng kiểm khóa sổ tháng và khóa sổ năm | Chương 06 mục 5.3 và 6.6 |
 | Quy trình xử lý sai sót và khai bổ sung | Chương 15 |
 | Bảng mức phạt và biện pháp phòng ngừa | Chương 17 |
 | Giao tiếp với khách khi có sai sót | Chương 19 mục 6.4 |
@@ -977,4 +973,4 @@ Chỉ số của chính chương này, đo mức độ chương được thực 
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.0.1 | Sửa từ ngữ ở chương kiểm soát chất lượng. |

@@ -4,18 +4,15 @@ code: "OBK-HB-07"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.0"
+version: "R.1.0.2"
 status: "đang áp dụng"
-draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 25/08/2026"
+draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
 parent: "OBK-SOP-KT Kế toán và thuế"
 next_review: "Chậm nhất 31/12/2026"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-HB-07
 tags:
@@ -30,8 +27,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-HB-07 |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.1.0.0, đang áp dụng |
-| Ngày biên soạn | 01/10/2026 |
+| Phiên bản | R.1.0.2, đang áp dụng |
+| Ngày biên soạn | 04/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -59,29 +56,8 @@ Mục tiêu cụ thể:
 - Không áp dụng cho báo cáo tài chính hợp nhất. Báo cáo tài chính hợp nhất năm và giữa niên độ thực hiện theo quy định của pháp luật về báo cáo tài chính hợp nhất `[TT99 Đ.16 k.3]`; văn bản này chưa có trong bộ tài liệu nội bộ; mọi khách có công ty con phải chuyển TL-KT.
 - Không áp dụng cho báo cáo tài chính của doanh nghiệp siêu nhỏ theo Thông tư 58/2026/TT-BTC và của doanh nghiệp nhỏ và vừa theo Thông tư 133/2016/TT-BTC. Xem Chương 08.
 
-## 3. Căn cứ pháp lý
 
-| Văn bản | Nội dung sử dụng |
-| --- | --- |
-| Thông tư 99/2025/TT-BTC Điều 14 | Mục đích của báo cáo tài chính |
-| Thông tư 99/2025/TT-BTC Điều 15 | Kỳ lập báo cáo tài chính |
-| Thông tư 99/2025/TT-BTC Điều 16 | Đối tượng và trách nhiệm lập; việc lập và ký báo cáo tài chính, và nghĩa vụ ghi số Giấy phép hành nghề khi khách thuê dịch vụ lập và trình bày báo cáo tài chính hoặc dịch vụ làm kế toán trưởng, tại khoản 4 |
-| Thông tư 99/2025/TT-BTC Điều 17 | Hệ thống báo cáo tài chính và mẫu số theo bốn tình huống |
-| Thông tư 99/2025/TT-BTC Điều 18 | Sửa đổi, bổ sung chỉ tiêu báo cáo tài chính |
-| Thông tư 99/2025/TT-BTC Điều 19 | Yêu cầu đối với thông tin trình bày trên báo cáo tài chính |
-| Thông tư 99/2025/TT-BTC Điều 20 | Nguyên tắc lập và trình bày khi đáp ứng giả định hoạt động liên tục |
-| Thông tư 99/2025/TT-BTC Điều 21 đến Điều 24 | Các trường hợp đặc biệt |
-| Thông tư 99/2025/TT-BTC Điều 25 | Thời hạn nộp báo cáo tài chính |
-| Thông tư 99/2025/TT-BTC Điều 26 | Nơi nhận báo cáo tài chính |
-| Thông tư 99/2025/TT-BTC Điều 27 | Công khai báo cáo tài chính |
-| Thông tư 99/2025/TT-BTC Phụ lục IV | Biểu mẫu báo cáo tài chính;<br>nội dung và phương pháp lập |
-| Luật Kế toán bản hợp nhất 41/VBHN-VPQH Điều 29 | Nội dung báo cáo tài chính tại khoản 1;<br>việc lập và chữ ký ba bên tại khoản 2 điểm d;<br>thời hạn nộp 90 ngày tại khoản 3;<br>thẩm quyền của Bộ Tài chính tại khoản 4 |
-| Luật Kế toán bản hợp nhất 41/VBHN-VPQH Điều 32 | Hình thức và thời hạn công khai báo cáo tài chính |
-| Luật Kế toán bản hợp nhất 41/VBHN-VPQH Điều 41 | Bảo quản, lưu trữ tài liệu kế toán;<br>thời hạn đưa vào lưu trữ tại khoản 3;<br>ba mốc thời hạn lưu trữ tại khoản 5 |
-| Luật Kế toán bản hợp nhất 41/VBHN-VPQH Điều 13 khoản 8, Điều 51, Điều 53, Điều 54 | Tiêu chuẩn kế toán trưởng và người phụ trách kế toán;<br>hành vi bị nghiêm cấm khi bố trí người không đủ tiêu chuẩn |
-| Nghị định 252/2026/NĐ-CP Điều 10 khoản 5 điểm a | Thời hạn nộp hồ sơ quyết toán thuế năm |
-
-## 4. Vai trò và trách nhiệm
+## 3. Vai trò và trách nhiệm
 
 | Công việc | CV-KT | TL-KT | AM | COO | CEO |
 | --- | --- | --- | --- | --- | --- |
@@ -91,10 +67,10 @@ Mục tiêu cụ thể:
 | Đối chiếu báo cáo tài chính với sổ kế toán và với tờ khai quyết toán thuế | Làm | Soát | Không | Không | Không |
 | Quyết định bổ sung thêm chỉ tiêu báo cáo tài chính | Đề xuất | TL-KT thẩm định và quyết định | Lấy ý kiến khách bằng văn bản | Không | Không |
 | Quyết định khi cần SỬA chỉ tiêu báo cáo tài chính | Không | Quyết định và chuẩn bị hồ sơ báo cáo Bộ Tài chính | Thông báo khách bằng văn bản | Không | Không |
-| Kiểm tra tiêu chuẩn kế toán trưởng của người mà khách cử, theo mục 6.2.4 | Không | Thu thập bằng chứng, kết luận, ghi hồ sơ rủi ro nếu không đủ | Thông báo khách bằng văn bản khi không đủ tiêu chuẩn | Không | Không |
+| Kiểm tra tiêu chuẩn kế toán trưởng của người mà khách cử, theo mục 5.2.4 | Không | Thu thập bằng chứng, kết luận, ghi hồ sơ rủi ro nếu không đủ | Thông báo khách bằng văn bản khi không đủ tiêu chuẩn | Không | Không |
 | Bảo đảm hợp đồng và bản chào không gọi tên dịch vụ là lập và trình bày báo cáo tài chính hoặc làm kế toán trưởng | Không | Nêu ý kiến kỹ thuật | Rà tên gọi phạm vi dịch vụ | Không | Quyết định khi phải sửa hợp đồng |
 | Xác định nơi nhận báo cáo tài chính cho từng khách | Tra và đề xuất | TL-KT kiểm tra và duyệt | Trả lời khách | Không | Không |
-| Gửi khách ký báo cáo tài chính, hoặc ký bằng chữ ký số của khách khi đủ điều kiện tại mục 6.2.2 | Không | Kiểm tra đủ hai văn bản trước khi ký bằng chữ ký số của khách | Gửi khách ký và nhận lại bản đã ký đủ ba chữ ký | Không | Không |
+| Gửi khách ký báo cáo tài chính, hoặc ký bằng chữ ký số của khách khi đủ điều kiện tại mục 5.2.2 | Không | Kiểm tra đủ hai văn bản trước khi ký bằng chữ ký số của khách | Gửi khách ký và nhận lại bản đã ký đủ ba chữ ký | Không | Không |
 | Nộp báo cáo tài chính | Làm | Xác nhận đã nộp | Thông báo khách đã nộp | Không | Không |
 | Xử lý các trường hợp đặc biệt tại Điều 21 đến Điều 24 | Không | TL-KT lập hồ sơ và quyết định | Thông báo khách | Không | Không |
 | Ấn định số ngày phải hoàn thành trước hạn nộp, định biên và phân bổ khách cho mùa báo cáo tài chính năm | Không | Không | Không | Ấn định | Không |
@@ -103,7 +79,7 @@ Mục tiêu cụ thể:
 > [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
 > CV-KT không được tự quyết định khách có đáp ứng giả định hoạt động liên tục hay không. Đây là kết luận có ảnh hưởng tới toàn bộ bộ báo cáo, tới việc đánh giá lại tài sản và nợ phải trả, và tới trách nhiệm của người ký. Mọi dấu hiệu nghi ngờ phải chuyển TL-KT.
 
-## 5. Đầu vào bắt buộc
+## 4. Đầu vào bắt buộc
 
 | # | Đầu vào | Nguồn |
 | --- | --- | --- |
@@ -113,20 +89,20 @@ Mục tiêu cụ thể:
 | 4 | Biên bản kiểm kê tiền, hàng tồn kho, tài sản cố định tại thời điểm kết thúc năm | Khách hàng |
 | 5 | Biên bản đối chiếu công nợ;<br>thư xác nhận số dư ngân hàng | Khách hàng |
 | 6 | Tờ khai quyết toán thuế TNDN và tờ khai quyết toán thuế TNCN của kỳ | Nội bộ |
-| 7 | Biên bản chuyển đổi số dư sang Thông tư 99/2025/TT-BTC, nếu năm đầu áp dụng | Nội bộ, theo Chương 06 mục 6.5 |
+| 7 | Biên bản chuyển đổi số dư sang Thông tư 99/2025/TT-BTC, nếu năm đầu áp dụng | Nội bộ, theo Chương 06 mục 5.5 |
 | 8 | Quy chế hạch toán kế toán của khách, nếu khách tự thiết kế biểu mẫu hoặc bổ sung chỉ tiêu | Khách hàng |
 | 9 | Hồ sơ tiêu chuẩn kế toán trưởng của người mà khách cử: bằng chuyên môn kế toán, chứng chỉ bồi dưỡng kế toán trưởng, bằng chứng thời gian công tác thực tế về kế toán `[Luật Kế toán 41/VBHN-VPQH Đ.54 k.1]` | Khách hàng |
 | 10 | Hồ sơ pháp lý khách: điều lệ, biên bản họp về phân phối lợi nhuận, quyết định thay đổi kỳ kế toán hoặc loại hình nếu có | Khách hàng |
 | 11 | Báo cáo kiểm toán, nếu khách thuộc diện bắt buộc kiểm toán báo cáo tài chính | Đơn vị kiểm toán |
 | 12 | Văn bản ủy quyền sử dụng chữ ký số của khách và văn bản xác nhận nội dung báo cáo tài chính của khách, chỉ khi oBacker ký bằng chữ ký số của khách | Khách hàng |
 
-## 6. Các bước thực hiện
+## 5. Các bước thực hiện
 
-### 6.1. Hệ thống báo cáo tài chính theo Thông tư 99/2025/TT-BTC
+### 5.1. Hệ thống báo cáo tài chính theo Thông tư 99/2025/TT-BTC
 
-#### 6.1.1. Bốn báo cáo cấu thành
+#### 5.1.1. Các báo cáo cấu thành bộ Báo cáo tài chính
 
-Bộ báo cáo tài chính gồm bốn báo cáo `[TT99 Đ.17 k.1]`:
+Bộ Báo cáo tài chính gồm các báo cáo sau theo quy định tại `[TT99 Đ.17 k.1]`:
 
 1. Báo cáo tình hình tài chính.
 2. Báo cáo kết quả hoạt động kinh doanh.
@@ -136,10 +112,10 @@ Bộ báo cáo tài chính gồm bốn báo cáo `[TT99 Đ.17 k.1]`:
 > [!bug] LỖI THƯỜNG GẶP, ĐỔI TÊN BÁO CÁO
 > Thông tư 99/2025/TT-BTC dùng nhất quán tên "Báo cáo tình hình tài chính", không dùng tên "Bảng cân đối kế toán". Trong toàn văn Thông tư, cụm "Bảng cân đối kế toán" chỉ còn xuất hiện một lần, tại Điều 30 khoản 3, khi mô tả số dư Tài khoản 412 theo chế độ cũ. CV-KT phải đổi tên trên toàn bộ mẫu biểu, tệp trình bày và báo cáo quản trị; AM đổi tên trong thư gửi khách. Việc gọi sai tên báo cáo trong văn bản gửi khách làm giảm uy tín chuyên môn của oBacker và cho thấy hồ sơ chưa được cập nhật theo chế độ mới.
 
-> [!question] CẦN XÁC MINH
-> Biểu mẫu kê khai quyết toán thuế và hệ thống nộp hồ sơ điện tử của cơ quan thuế có thể vẫn dùng tên gọi cũ tại thời điểm nộp. Trước kỳ quyết toán thuế năm, TL-KT phải kiểm tra khả năng tương thích tên chỉ tiêu giữa mẫu báo cáo tài chính theo Thông tư 99/2025/TT-BTC và biểu mẫu trên `[CỔNG THUẾ ĐIỆN TỬ]`, rồi báo COO để thống nhất cách xử lý cho toàn bộ khách hàng.
+> [!warning] KIỂM TRA TƯƠNG THÍCH BIỂU MẪU ĐIỆN TỬ
+> Trước kỳ nộp báo cáo tài chính và quyết toán thuế năm, TL-KT thực hiện kiểm tra đối chiếu hệ thống biểu mẫu điện tử trên `[CỔNG THUẾ ĐIỆN TỬ]` với hệ thống chỉ tiêu báo cáo tài chính theo Thông tư 99/2025/TT-BTC để thống nhất phương án kê khai đồng bộ cho khách hàng.
 
-#### 6.1.2. Bốn tình huống và mẫu số tương ứng
+#### 5.1.2. Các tình huống áp dụng và hệ thống biểu mẫu
 
 | Tình huống | Áp dụng khi | Báo cáo tình hình tài chính | Báo cáo kết quả hoạt động kinh doanh | Báo cáo lưu chuyển tiền tệ | Bản thuyết minh | Căn cứ |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -150,10 +126,10 @@ Bộ báo cáo tài chính gồm bốn báo cáo `[TT99 Đ.17 k.1]`:
 
 Quan trọng: thuyết minh chọn lọc của dạng TÓM LƯỢC dùng CHUNG mẫu B 09a - DN với dạng ĐẦY ĐỦ `[TT99 Đ.17 k.3 đ.b và PL IV mục 14]`.
 
-> [!question] CẦN XÁC MINH
-> Trong Phụ lục IV của Thông tư 99/2025/TT-BTC KHÔNG có biểu mẫu riêng mang ký hiệu B 02 - DNKLT và B 03 - DNKLT. Việc không có biểu mẫu riêng khớp với Điều 24 khoản 3, theo đó hai báo cáo này được trình bày theo mẫu chung tương tự doanh nghiệp đáp ứng giả định hoạt động liên tục `[TT99 Đ.24 k.3]`. Trên thực tế nộp cho cơ quan nhà nước thì ghi ký hiệu nào lên biểu mẫu là điểm chưa xác định được. Khi gặp khách thuộc tình huống 2, TL-KT phải xin ý kiến chuyên gia hoặc cơ quan có thẩm quyền trước khi phát hành.
+> [!note] CĂN CỨ BIỂU MẪU ĐỐI VỚI DOANH NGHIỆP KHÔNG ĐÁP ỨNG GIẢ ĐỊNH HOẠT ĐỘNG LIÊN TỤC
+> Đối với doanh nghiệp không đáp ứng giả định hoạt động liên tục, Báo cáo kết quả hoạt động kinh doanh và Báo cáo lưu chuyển tiền tệ được lập và trình bày theo mẫu chung quy định cho doanh nghiệp đáp ứng giả định hoạt động liên tục theo quy định tại Điều 24 khoản 3 Thông tư 99/2025/TT-BTC. TL-KT kiểm tra hướng dẫn kỹ thuật trên hệ thống nộp hồ sơ trước khi ký duyệt phát hành.
 
-#### 6.1.3. Kỳ lập báo cáo tài chính
+#### 5.1.3. Kỳ lập báo cáo tài chính
 
 | Loại kỳ | Nội dung | Căn cứ |
 | --- | --- | --- |
@@ -164,7 +140,7 @@ Quan trọng: thuyết minh chọn lọc của dạng TÓM LƯỢC dùng CHUNG m
 
 Với khách thuộc diện phải lập báo cáo giữa niên độ mà pháp luật liên quan không quy định cụ thể loại báo cáo giữa niên độ, doanh nghiệp ĐƯỢC LỰA CHỌN lập dạng đầy đủ hoặc dạng tóm lược `[TT99 Đ.16 k.1]`. Lựa chọn này thuộc thẩm quyền của khách; AM lấy ý kiến khách bằng văn bản và lưu hồ sơ.
 
-#### 6.1.4. Quy tắc về chỉ tiêu không có số liệu
+#### 5.1.4. Quy tắc về chỉ tiêu không có số liệu
 
 > "Những chỉ tiêu không có số liệu được miễn trình bày trên Báo cáo tài chính, doanh nghiệp chủ động đánh lại số thứ tự theo nguyên tắc liên tục trong mỗi phần nhưng không được đánh lại "Mã số" chỉ tiêu."
 >
@@ -172,12 +148,12 @@ Với khách thuộc diện phải lập báo cáo giữa niên độ mà pháp 
 
 Thao tác cho CV-KT: được ẩn dòng chỉ tiêu không có số liệu và đánh lại số thứ tự liên tục, nhưng tuyệt đối không được đổi Mã số của chỉ tiêu. Mã số là căn cứ để cơ quan có thẩm quyền và người sử dụng đối chiếu.
 
-### 6.2. KÝ BÁO CÁO TÀI CHÍNH VÀ NGHĨA VỤ CỦA ĐƠN VỊ KINH DOANH DỊCH VỤ KẾ TOÁN
+### 5.2. KÝ BÁO CÁO TÀI CHÍNH VÀ NGHĨA VỤ CỦA ĐƠN VỊ KINH DOANH DỊCH VỤ KẾ TOÁN
 
 
 Quyết định của CEO ngày 26/08/2026: cả BA chữ ký trên báo cáo tài chính của khách, gồm người lập, kế toán trưởng và người đại diện theo pháp luật, đều là chữ ký của KHÁCH. oBacker gửi khách ký, hoặc ký bằng chữ ký số của khách khi có ủy quyền bằng văn bản của khách và có xác nhận nội dung báo cáo bằng văn bản của khách. oBacker không đứng tên trên báo cáo tài chính.
 
-#### 6.2.1. Quy định gốc, trích nguyên văn
+#### 5.2.1. Quy định gốc, trích nguyên văn
 
 Chữ ký trên báo cáo tài chính, Luật Kế toán:
 
@@ -193,7 +169,7 @@ Nghĩa vụ ghi số Giấy phép hành nghề, Thông tư 99/2025/TT-BTC:
 
 Đọc hiểu bắt buộc: nghĩa vụ ghi số Giấy phép hành nghề dịch vụ kế toán và tên đơn vị cung cấp dịch vụ chỉ phát sinh trong đúng hai trường hợp mà điều khoản nêu, là khách THUÊ dịch vụ lập và trình bày báo cáo tài chính, hoặc khách THUÊ dịch vụ làm kế toán trưởng. Mô hình oBacker đã chọn không phải hai dịch vụ đó, nên nghĩa vụ này không phát sinh: trên báo cáo tài chính của khách không ghi số Giấy phép hành nghề dịch vụ kế toán của người hành nghề oBacker và không ghi tên oBacker.
 
-#### 6.2.2. Hệ quả bắt buộc trong quy trình oBacker
+#### 5.2.2. Hệ quả bắt buộc trong quy trình oBacker
 
 1. Trên báo cáo tài chính của khách, cả ba vị trí người lập, kế toán trưởng và người đại diện theo pháp luật đều ghi tên người của KHÁCH. Không nhân sự oBacker nào đứng tên tại bất kỳ vị trí nào trong ba vị trí đó.
 2. Hợp đồng dịch vụ và bản chào không được gọi tên dịch vụ là "lập và trình bày báo cáo tài chính" hoặc "làm kế toán trưởng", vì hai cách gọi đó làm phát sinh nghĩa vụ tại `[TT99 Đ.16 k.4]`, trái với mô hình đã chọn. AM rà tên gọi phạm vi dịch vụ; phát hiện cách gọi sai thì chuyển CEO trước khi ký hợp đồng.
@@ -201,13 +177,13 @@ Nghĩa vụ ghi số Giấy phép hành nghề, Thông tư 99/2025/TT-BTC:
 4. CV-KT không đứng tên tại phần người lập, kể cả khi CV-KT là người trực tiếp nhập liệu và lập báo cáo. Người lập trên báo cáo là người của khách.
 5. Nhắc lại quy định về chữ ký chứng từ: kế toán trưởng hoặc người được kế toán trưởng ủy quyền không được ký thừa ủy quyền chức danh của người quản lý, điều hành doanh nghiệp trên chứng từ kế toán, trừ trường hợp pháp luật có quy định khác `[TT99 Đ.10 k.4]`.
 
-#### 6.2.3. Bảng kiểm bắt buộc trước khi phát hành báo cáo tài chính
+#### 5.2.3. Bảng kiểm bắt buộc trước khi phát hành báo cáo tài chính
 
 | # | Nội dung kiểm tra | Tiêu chí đạt | Người kiểm tra |
 | --- | --- | --- | --- |
 | 1 | Tên gọi phạm vi dịch vụ trong hợp đồng còn hiệu lực không phải là "lập và trình bày báo cáo tài chính" và không phải là "làm kế toán trưởng" | Đúng tên gọi theo mô hình đã chọn | AM |
 | 2 | Người mà khách cử làm kế toán trưởng hoặc phụ trách kế toán đã được xác định bằng văn bản của khách | Có văn bản của khách | AM |
-| 3 | Đã kiểm tra tiêu chuẩn kế toán trưởng theo mục 6.2.4;<br>nếu không đủ thì đã ghi hồ sơ rủi ro và đã thông báo khách bằng văn bản | Có bằng chứng kiểm tra và bằng chứng thông báo | TL-KT |
+| 3 | Đã kiểm tra tiêu chuẩn kế toán trưởng theo mục 5.2.4;<br>nếu không đủ thì đã ghi hồ sơ rủi ro và đã thông báo khách bằng văn bản | Có bằng chứng kiểm tra và bằng chứng thông báo | TL-KT |
 | 4 | Trên báo cáo không ghi số Giấy phép hành nghề dịch vụ kế toán của người hành nghề oBacker và không ghi tên oBacker là đơn vị cung cấp dịch vụ kế toán | Không có | TL-KT |
 | 5 | Phần người lập ghi tên người của khách | Đúng người khách chỉ định | TL-KT |
 | 6 | Phần kế toán trưởng ghi tên người của khách | Đúng người khách chỉ định | TL-KT |
@@ -219,7 +195,7 @@ Nghĩa vụ ghi số Giấy phép hành nghề, Thông tư 99/2025/TT-BTC:
 > [!danger] HÀNH VI OBACKER NGHIÊM CẤM
 > Nhân sự oBacker không đứng tên tại phần người lập, phần kế toán trưởng hay phần người đại diện theo pháp luật trên báo cáo tài chính của khách. Người ký báo cáo tài chính phải chịu trách nhiệm về nội dung của báo cáo `[Luật Kế toán 41/VBHN-VPQH Đ.29 k.2 đ.d]`. Nếu khách yêu cầu oBacker đứng tên, TL-KT dừng việc phát hành và báo CEO trong cùng ngày làm việc. Chế tài trong lĩnh vực kế toán nằm ở pháp luật về xử phạt vi phạm hành chính trong lĩnh vực kế toán, hiện chưa có trong bộ tài liệu nội bộ. Không được nêu mức phạt cụ thể với khách khi chưa tra văn bản.
 
-#### 6.2.4. BƯỚC BẮT BUỘC, kiểm tra tiêu chuẩn kế toán trưởng của người mà khách cử
+#### 5.2.4. BƯỚC BẮT BUỘC, kiểm tra tiêu chuẩn kế toán trưởng của người mà khách cử
 
 Trích nguyên văn Luật Kế toán:
 
@@ -254,9 +230,9 @@ Việc phải làm:
 > [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
 > OBacker không có quyền thay khách bố trí người làm kế toán trưởng, và cũng không được tự nhận vị trí đó để bổ sung chỗ trống. Khi khách không có người đủ tiêu chuẩn mà vẫn yêu cầu phát hành báo cáo tài chính, TL-KT ghi hồ sơ rủi ro, AM thông báo khách bằng văn bản, và việc quyết định có tiếp tục phục vụ khách hay không thuộc CEO.
 
-### 6.3. Trình tự lập từng báo cáo
+### 5.3. Trình tự lập từng báo cáo
 
-#### 6.3.1. Nguyên tắc chung khi lập
+#### 5.3.1. Nguyên tắc chung khi lập
 
 | Khoản | Nguyên tắc | Căn cứ |
 | --- | --- | --- |
@@ -270,7 +246,7 @@ Việc phải làm:
 
 Yêu cầu đối với thông tin trình bày `[TT99 Đ.19]`: trung thực, hợp lý, đầy đủ, khách quan, không có sai sót; thích hợp; trình bày đầy đủ trên mọi khía cạnh trọng yếu, mức độ trọng yếu phụ thuộc quy mô hoặc tính chất hoặc cả hai; có thể kiểm chứng, kịp thời, dễ hiểu; nhất quán và có thể so sánh. Khi chuyển từ giả định hoạt động liên tục sang không liên tục hoặc ngược lại thì phải thuyết minh tính chất, số liệu và lý do phân loại lại `[TT99 Đ.19 k.5]`.
 
-#### 6.3.2. Quy tắc phân loại ngắn hạn và dài hạn
+#### 5.3.2. Quy tắc phân loại ngắn hạn và dài hạn
 
 | Nội dung | Quy định | Căn cứ |
 | --- | --- | --- |
@@ -281,7 +257,7 @@ Yêu cầu đối với thông tin trình bày `[TT99 Đ.19]`: trung thực, h�
 | Chu kỳ kinh doanh không xác định rõ ràng | Coi là 12 tháng | `[TT99 Đ.20 k.4 đ.c]` |
 | Tái phân loại | Phải tái phân loại tài sản và nợ dài hạn kỳ trước thành ngắn hạn kỳ này nếu thỏa mãn điều kiện, trừ trường hợp Thông tư quy định không được tái phân loại | `[TT99 Đ.20 k.4 đ.d]` |
 
-#### 6.3.3. Thứ tự lập bộ báo cáo
+#### 5.3.3. Thứ tự lập bộ báo cáo
 
 | Bước | Báo cáo | Nguồn số liệu chính | Tiêu chí hoàn thành |
 | --- | --- | --- | --- |
@@ -290,14 +266,14 @@ Yêu cầu đối với thông tin trình bày `[TT99 Đ.19]`: trung thực, h�
 | 3 | Báo cáo lưu chuyển tiền tệ, mẫu B 03 - DN | Sổ chi tiết tiền và các tài khoản liên quan;<br>có thể lập theo phương pháp trực tiếp hoặc gián tiếp `[TT99 PL IV mục 1 mục 4]` | Lưu chuyển tiền thuần trong kỳ cộng tiền đầu kỳ bằng tiền cuối kỳ trên Báo cáo tình hình tài chính |
 | 4 | Bản thuyết minh Báo cáo tài chính, mẫu B 09 - DN | Toàn bộ ba báo cáo trên và sổ chi tiết | Mọi chỉ tiêu cần giải trình đều có thuyết minh;<br>số liệu trong thuyết minh khớp số liệu trên báo cáo |
 
-> [!question] CẦN XÁC MINH
-> Hướng dẫn chi tiết nội dung và phương pháp lập từng chỉ tiêu của từng báo cáo nằm tại Phụ lục IV mục 2 của Thông tư 99/2025/TT-BTC, hiện chưa được rút trích vào bộ tài liệu nội bộ oBacker. Khi lập một chỉ tiêu mà không chắc chắn về nguồn số liệu, CV-KT phải mở Phụ lục IV mục 2 của bản gốc, không suy diễn theo cách lập của chế độ cũ.
+> [!note] CĂN CỨ HƯỚNG DẪN LẬP CHỈ TIÊU BÁO CÁO TÀI CHÍNH
+> Nội dung và phương pháp lập từng chỉ tiêu cụ thể của Báo cáo tài chính thực hiện theo hướng dẫn tại Phụ lục IV mục 2 Thông tư 99/2025/TT-BTC. Chuyên viên kế toán đối chiếu trực tiếp bản gốc Thông tư 99/2025/TT-BTC khi xác định nguồn số liệu cho các chỉ tiêu đặc thù.
 
-#### 6.3.4. Các chỉ tiêu dễ sai
+#### 5.3.4. Các chỉ tiêu dễ sai
 
 | # | Chỉ tiêu hoặc nhóm chỉ tiêu | Lỗi thường gặp | Cách phòng |
 | --- | --- | --- | --- |
-| 1 | Tiền và tương đương tiền | Gộp tiền gửi có kỳ hạn vào tiền | Tách TK 1281 ra khỏi TK 112 từ khâu hạch toán, xem Chương 05 mục 6.3 |
+| 1 | Tiền và tương đương tiền | Gộp tiền gửi có kỳ hạn vào tiền | Tách TK 1281 ra khỏi TK 112 từ khâu hạch toán, xem Chương 05 mục 5.3 |
 | 2 | Phải thu và phải trả | Bù trừ dư Nợ và dư Có của các đối tượng khác nhau | Chỉ bù trừ khi thỏa điều kiện `[TT99 Đ.20 k.5]` |
 | 3 | Phân loại ngắn hạn và dài hạn | Xếp phải trả nhà cung cấp có thời hạn trên 12 tháng vào nợ dài hạn | Nợ phải trả thuộc vốn lưu động dùng trong chu kỳ kinh doanh thông thường luôn là nợ ngắn hạn `[TT99 Đ.20 k.4 đ.b]` |
 | 4 | Cột số đầu năm | Không khớp báo cáo năm trước do đã điều chỉnh sổ mà không điều chỉnh hồi tố | Đối chiếu dòng N26 bảng kiểm khóa sổ năm tại Chương 06 |
@@ -311,9 +287,9 @@ Yêu cầu đối với thông tin trình bày `[TT99 Đ.19]`: trung thực, h�
 | 12 | Chênh lệch tỷ giá hối đoái | Trình bày sai chỉ tiêu; với trường hợp chuyển đổi báo cáo tài chính từ ngoại tệ sang Đồng Việt Nam thì chênh lệch ghi nhận trên chỉ tiêu Chênh lệch tỷ giá hối đoái thuộc phần vốn chủ sở hữu `[TT99 Đ.6 k.3 đ.b]` | Chuyển TL-KT với mọi khách có đơn vị tiền tệ kế toán không phải Đồng Việt Nam |
 | 13 | Đơn vị trực thuộc | Không tổng hợp thông tin tài chính của đơn vị trực thuộc | Báo cáo tài chính nộp cho cơ quan có thẩm quyền hoặc công khai phải bao gồm thông tin của cả trụ sở chính và các đơn vị trực thuộc `[TT99 Đ.7 k.3 đ.b]`; phải loại trừ tất cả giao dịch nội bộ `[TT99 Đ.16 k.2]` |
 | 14 | Mã số chỉ tiêu | Đánh lại Mã số khi ẩn dòng không có số liệu | Được đánh lại số thứ tự, không được đánh lại Mã số `[TT99 Đ.17 k.4]` |
-| 15 | Thuyết minh chính sách kế toán | Không thuyết minh việc thay đổi chế độ kế toán trong năm đầu áp dụng Thông tư 99/2025/TT-BTC | Bắt buộc thuyết minh, xem mục 6.3.5 |
+| 15 | Thuyết minh chính sách kế toán | Không thuyết minh việc thay đổi chế độ kế toán trong năm đầu áp dụng Thông tư 99/2025/TT-BTC | Bắt buộc thuyết minh, xem mục 5.3.5 |
 
-#### 6.3.5. Nội dung thuyết minh bắt buộc trong năm đầu áp dụng Thông tư 99/2025/TT-BTC
+#### 5.3.5. Nội dung thuyết minh bắt buộc trong năm đầu áp dụng Thông tư 99/2025/TT-BTC
 
 | # | Nội dung phải thuyết minh | Căn cứ |
 | --- | --- | --- |
@@ -325,7 +301,7 @@ Yêu cầu đối với thông tin trình bày `[TT99 Đ.19]`: trung thực, h�
 | 6 | Khi chọn phân loại tài sản, nợ phải trả theo chu kỳ kinh doanh thông thường: giá trị dự kiến thu hồi hoặc thanh toán trong 12 tháng trở xuống và trên 12 tháng | `[TT99 Đ.20 k.4 đ.c]` |
 | 7 | Khi chuyển từ giả định hoạt động liên tục sang không liên tục hoặc ngược lại: tính chất, số liệu và lý do phân loại lại | `[TT99 Đ.19 k.5]` |
 
-### 6.4. SỬA ĐỔI, BỔ SUNG CHỈ TIÊU BÁO CÁO TÀI CHÍNH
+### 5.4. SỬA ĐỔI, BỔ SUNG CHỈ TIÊU BÁO CÁO TÀI CHÍNH
 
 Đây là điểm rất dễ nhầm giữa quyền tự quyết của doanh nghiệp với nghĩa vụ phải báo cáo Bộ Tài chính.
 
@@ -338,19 +314,19 @@ Yêu cầu đối với thông tin trình bày `[TT99 Đ.19]`: trung thực, h�
 | Nếu không bổ sung | Áp dụng nguyên biểu mẫu Phụ lục IV | `[TT99 Đ.18 k.1]` |
 | Trường hợp cần SỬA chỉ tiêu | Trích nguyên văn: "Trường hợp doanh nghiệp có đặc thù dẫn đến không thể bổ sung thêm hoặc cần sửa đổi các chỉ tiêu của Báo cáo tài chính hướng dẫn tại Phụ lục IV ban hành kèm theo Thông tư này thì báo cáo Bộ Tài chính để được hướng dẫn lập và trình bày Báo cáo tài chính." | `[TT99 Đ.18 k.2]` |
 
-So sánh để nhớ: với CHỨNG TỪ, SỔ KẾ TOÁN và TÀI KHOẢN thì doanh nghiệp được tự sửa, kèm điều kiện ban hành Quy chế hạch toán kế toán `[TT99 Đ.9 k.2, Đ.11 k.2, Đ.12 k.2]`. Với CHỈ TIÊU BÁO CÁO TÀI CHÍNH thì chỉ được BỔ SUNG THÊM; muốn SỬA chỉ tiêu thì phải báo cáo Bộ Tài chính `[TT99 Đ.18 k.2]`.
+So sánh: với CHỨNG TỪ, SỔ KẾ TOÁN và TÀI KHOẢN thì doanh nghiệp được tự sửa, kèm điều kiện ban hành Quy chế hạch toán kế toán `[TT99 Đ.9 k.2, Đ.11 k.2, Đ.12 k.2]`. Với CHỈ TIÊU BÁO CÁO TÀI CHÍNH thì chỉ được BỔ SUNG THÊM; muốn SỬA chỉ tiêu thì phải báo cáo Bộ Tài chính `[TT99 Đ.18 k.2]`.
 
 > [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
 > Khi khách yêu cầu sửa tên chỉ tiêu, gộp chỉ tiêu, tách chỉ tiêu hoặc đổi cách trình bày một chỉ tiêu trên báo cáo tài chính, CV-KT và AM KHÔNG được thực hiện. Phải chuyển TL-KT để đánh giá đây là bổ sung thêm hay là sửa đổi. Nếu là sửa đổi thì phải chuẩn bị hồ sơ báo cáo Bộ Tài chính.
 
-> [!question] CẦN XÁC MINH
-> Ranh giới giữa "bổ sung thêm" và "sửa đổi" chỉ tiêu chưa được định nghĩa rõ trong văn bản. Cùng lúc, Điều 11 khoản 2 yêu cầu việc sửa tài khoản không được làm thay đổi hoặc ảnh hưởng đến các chỉ tiêu, thông tin trình bày trên báo cáo tài chính `[TT99 Đ.11 k.2]`. TL-KT thống nhất quan điểm nghiệp vụ và COO ban hành vào Phụ lục hướng dẫn trước mùa báo cáo.
+> [!warning] NGUYÊN TẮC BỔ SUNG CHỈ TIÊU BÁO CÁO TÀI CHÍNH
+> Việc bổ sung chỉ tiêu trên báo cáo tài chính phải tuân thủ quy định tại Điều 11 khoản 2 và Điều 18 Thông tư 99/2025/TT-BTC: không làm thay đổi bản chất hoặc ảnh hưởng đến các chỉ tiêu thông tin bắt buộc theo Luật Kế toán hợp nhất 41/VBHN-VPQH Đ.29 k.1, k.2. Mọi trường hợp điều chỉnh bổ sung chỉ tiêu phải có phê duyệt chuyên môn bằng văn bản của TL-KT.
 
 Khoản 1, 2 Điều 29 Luật Kế toán mà Điều 18 dẫn chiếu đã có bản gốc trong kho. Khoản 1 quy định báo cáo tài chính phải được lập và trình bày theo đúng quy định của chuẩn mực kế toán, chế độ kế toán mà đơn vị áp dụng, và liệt kê năm thành phần: Báo cáo tình hình tài chính; Báo cáo kết quả hoạt động; Báo cáo lưu chuyển tiền tệ; Thuyết minh báo cáo tài chính; Báo cáo khác theo quy định của pháp luật. Khoản 2 quy định bốn nội dung về việc lập: lập vào cuối kỳ kế toán năm hoặc theo kỳ kế toán khác nếu pháp luật quy định tại điểm a; căn cứ vào số liệu sau khi khóa sổ kế toán tại điểm b; đúng nội dung, phương pháp và trình bày nhất quán giữa các kỳ, khác nhau thì phải thuyết minh rõ lý do tại điểm c; và chữ ký của người lập, kế toán trưởng, người đại diện theo pháp luật tại điểm d `[Luật Kế toán 41/VBHN-VPQH Đ.29 k.1, k.2]`.
 
 Vận dụng cho việc bổ sung chỉ tiêu: chỉ tiêu bổ sung thêm không được làm mất một trong năm thành phần tại khoản 1, không được phá tính nhất quán giữa các kỳ tại điểm c khoản 2, và bản báo cáo có chỉ tiêu bổ sung vẫn phải có đủ ba chữ ký tại điểm d khoản 2.
 
-### 6.5. QUY TRÌNH SOÁT XÉT HAI CẤP
+### 5.5. Quy trình soát xét báo cáo tài chính
 
 Nguyên tắc: mỗi cấp có bảng kiểm riêng, không cấp nào được ký thay cấp khác, và không cấp nào được bỏ qua vì lý do sát hạn.
 
@@ -358,14 +334,14 @@ Cấp 1 là CV-KT tự soát phần việc trực tiếp thực hiện. Đây kh
 
 Cấp 2 là TL-KT soát và chốt. Đây là lớp kiểm soát duy nhất trước khi bộ báo cáo rời oBacker. Với phần việc do chính TL-KT làm, TL-KT tự soát, tự chốt, và phải ghi rõ trên Phiếu soát xét và chốt phần việc do TL-KT trực tiếp thực hiện.
 
-Không còn cấp 3. Quy trình có hai cấp: kế toán trưởng phụ trách soát, và cấp duyệt cuối. Không bắt buộc một kế toán trưởng khác đọc lại báo cáo tài chính năm mà kế toán trưởng phụ trách đã soát. Lớp bù duy nhất cho quyết định đó là hậu kiểm chọn mẫu do `COO` chủ việc và Legal R&D soát phần nội dung pháp lý, hằng tháng, tối thiểu 03 hồ sơ, ưu tiên lấy mẫu đúng vào phần do chính TL-KT vừa làm vừa soát; lớp bù này không chặn được hồ sơ trước khi ra ngoài. Xem Chương 18 mục 6.1 về mô hình và mục 6.7 về hậu kiểm. Chuẩn cấp 1: `03_DichVu/01_OBK-SOP-00` NT-5 đặt HAI LỚP là mặc định và CẤM người thực hiện tự đóng vai trò lớp hai; việc TL-KT tự chốt phần việc do TL-KT trực tiếp thực hiện là NGOẠI LỆ có điều kiện, phải ghi rõ trên Phiếu soát xét và chốt là phần đó không có lớp soát thứ hai. Xem Chương 18 mục 6.1.1 và ba dấu hiệu buộc thêm lớp thứ hai tại `02_Mo_hinh_dich_vu_va_phan_vai.md` Phụ lục 02-C mục 4.2.
+Không còn cấp 3. Quy trình có hai cấp: kế toán trưởng phụ trách soát, và cấp duyệt cuối. Không bắt buộc một kế toán trưởng khác đọc lại báo cáo tài chính năm mà kế toán trưởng phụ trách đã soát. Lớp bù duy nhất cho quyết định đó là hậu kiểm chọn mẫu do `COO` chủ việc và Legal R&D soát phần nội dung pháp lý, hằng tháng, tối thiểu 03 hồ sơ, ưu tiên lấy mẫu đúng vào phần do chính TL-KT vừa làm vừa soát; lớp bù này không chặn được hồ sơ trước khi ra ngoài. Xem Chương 18 mục 6.1 về mô hình và mục 5.7 về hậu kiểm. Chuẩn cấp 1: `03_DichVu/01_OBK-SOP-00` NT-5 đặt HAI LỚP là mặc định và CẤM người thực hiện tự đóng vai trò lớp hai; việc TL-KT tự chốt phần việc do TL-KT trực tiếp thực hiện là NGOẠI LỆ có điều kiện, phải ghi rõ trên Phiếu soát xét và chốt là phần đó không có lớp soát thứ hai. Xem Chương 18 mục 6.1.1 và ba dấu hiệu buộc thêm lớp thứ hai tại `02_Mo_hinh_dich_vu_va_phan_vai.md` Phụ lục 02-C mục 4.2.
 
-#### 6.5.1. Cấp 1, bảng kiểm CV-KT tự soát phần việc trực tiếp thực hiện
+#### 5.5.1. Cấp 1, bảng kiểm CV-KT tự soát phần việc trực tiếp thực hiện
 
 | # | Nội dung tự kiểm | Tiêu chí đạt |
 | --- | --- | --- |
 | 1 | Bảng kiểm khóa sổ năm tại Chương 06 đã hoàn tất và đã ký | Đủ chữ ký CV-KT và TL-KT |
-| 2 | Đã xác định đúng tình huống trong bốn tình huống tại mục 6.1.2 | Có ghi rõ tình huống và mẫu số áp dụng |
+| 2 | Đã xác định đúng tình huống trong bốn tình huống tại mục 5.1.2 | Có ghi rõ tình huống và mẫu số áp dụng |
 | 3 | Tổng tài sản bằng tổng nguồn vốn trên Báo cáo tình hình tài chính | Bằng nhau |
 | 4 | Cột số đầu năm khớp báo cáo tài chính năm trước đã phát hành | Khớp từng chỉ tiêu |
 | 5 | Lợi nhuận sau thuế trên Báo cáo kết quả hoạt động kinh doanh khớp số kết chuyển sang TK 4212 | Khớp |
@@ -373,11 +349,11 @@ Không còn cấp 3. Quy trình có hai cấp: kế toán trưởng phụ trách
 | 7 | Mọi số liệu trong thuyết minh khớp số liệu trên ba báo cáo còn lại | Khớp |
 | 8 | Doanh thu và chi phí trên báo cáo khớp số liệu dùng cho tờ khai quyết toán thuế TNDN, phần chênh lệch đã được giải trình | Có bảng đối chiếu kế toán và thuế |
 | 9 | Đã ẩn đúng các chỉ tiêu không có số liệu và không đánh lại Mã số | Đúng |
-| 10 | Trên báo cáo không ghi số Giấy phép hành nghề dịch vụ kế toán và không ghi tên oBacker;<br>phần người lập và phần kế toán trưởng ghi tên người của khách | Đúng theo mục 6.2.3 |
-| 11 | Đã lập đủ các thuyết minh bắt buộc năm đầu áp dụng Thông tư 99/2025/TT-BTC nếu thuộc diện | Đủ theo mục 6.3.5 |
+| 10 | Trên báo cáo không ghi số Giấy phép hành nghề dịch vụ kế toán và không ghi tên oBacker;<br>phần người lập và phần kế toán trưởng ghi tên người của khách | Đúng theo mục 5.2.3 |
+| 11 | Đã lập đủ các thuyết minh bắt buộc năm đầu áp dụng Thông tư 99/2025/TT-BTC nếu thuộc diện | Đủ theo mục 5.3.5 |
 | 12 | Đã tập hợp đủ hồ sơ đính kèm: biên bản kiểm kê, biên bản đối chiếu công nợ, thư xác nhận ngân hàng | Đủ |
 
-#### 6.5.2. Cấp 2, bảng kiểm TL-KT soát và chốt
+#### 5.5.2. Cấp 2, bảng kiểm TL-KT soát và chốt
 
 Bảng kiểm này đã GỘP toàn bộ nội dung của bảng kiểm cấp 3 cũ. Các dòng ghi chú "đã gộp từ cấp 3" là nội dung chuyển sang; các dòng ghi chú "đã gộp, giữ một dòng" là nội dung cấp 3 trùng với dòng sẵn có của cấp 2.
 
@@ -393,22 +369,22 @@ Bảng kiểm này đã GỘP toàn bộ nội dung của bảng kiểm cấp 3 
 | 8 | Soát VÀ PHÊ DUYỆT nội dung thuyết minh về chính sách kế toán, về các khoản trọng yếu và về các bên liên quan (đã gộp, giữ một dòng: trùng dòng phê duyệt thuyết minh của cấp 3 cũ) | Đầy đủ, không mâu thuẫn, trung thực;<br>có phê duyệt của TL-KT |
 | 9 | Soát chỉ tiêu được khách bổ sung thêm, nếu có: đã thuyết minh chưa, đã có Quy chế hạch toán kế toán chưa | Đủ điều kiện `[TT99 Đ.18 k.1]` |
 | 10 | Soát bảng đối chiếu số liệu kế toán và số liệu thuế | Chênh lệch được giải thích bằng danh mục chi phí không được trừ và các điều chỉnh khác |
-| 11 | Soát tiêu chuẩn kế toán trưởng của người mà khách cử, theo mục 6.2.4 | Có kết luận bằng văn bản;<br>nếu không đủ tiêu chuẩn thì đã ghi hồ sơ rủi ro và AM đã thông báo khách bằng văn bản |
+| 11 | Soát tiêu chuẩn kế toán trưởng của người mà khách cử, theo mục 5.2.4 | Có kết luận bằng văn bản;<br>nếu không đủ tiêu chuẩn thì đã ghi hồ sơ rủi ro và AM đã thông báo khách bằng văn bản |
 | 12 | Soát các dấu hiệu nghi ngờ giả định hoạt động liên tục: lỗ lũy kế lớn, vốn chủ sở hữu âm, nợ quá hạn, mất khách hàng chính, kế hoạch giải thể; VÀ KẾT LUẬN về giả định hoạt động liên tục (đã gộp, giữ một dòng: trùng dòng kết luận giả định hoạt động liên tục của cấp 3 cũ) | Có kết luận bằng văn bản, có căn cứ; nếu không đáp ứng thì chuyển sang bộ mẫu DNKLT.<br>TL-KT tự kết luận và chịu trách nhiệm, không chuyển lên cấp nào khác |
 | 13 | Soát tính đầy đủ khi khách có đơn vị trực thuộc | Đã tổng hợp và loại trừ giao dịch nội bộ `[TT99 Đ.16 k.2]` |
 | 14 | Đối chiếu bản chốt cuối do TL-KT soát và bản CV-KT lập | Không có chênh lệch chưa ghi nhận |
 | 15 | Phê duyệt các ước tính kế toán trọng yếu: dự phòng, khấu hao, phân bổ, trích trước (đã gộp từ cấp 3) | Có cơ sở và hồ sơ |
 | 16 | Phê duyệt cách xử lý các sai sót kỳ trước, nếu có (đã gộp từ cấp 3) | Đúng phương pháp hồi tố khi sai sót trọng yếu `[TT99 Đ.20 k.6]` |
-| 17 | Xác nhận đã hoàn tất bảng kiểm mục 6.2.3 về ký báo cáo tài chính (đã gộp từ cấp 3) | Đủ 10 dòng |
-| 18 | Xác nhận đã xác định đúng nơi nhận báo cáo tài chính theo mục 6.7 (đã gộp từ cấp 3) | Có bằng chứng tra cứu |
+| 17 | Xác nhận đã hoàn tất bảng kiểm mục 5.2.3 về ký báo cáo tài chính (đã gộp từ cấp 3) | Đủ 10 dòng |
+| 18 | Xác nhận đã xác định đúng nơi nhận báo cáo tài chính theo mục 5.7 (đã gộp từ cấp 3) | Có bằng chứng tra cứu |
 | 19 | Xác nhận thời hạn nộp và kế hoạch nộp (đã gộp từ cấp 3) | Trước hạn tối thiểu số ngày do COO ấn định |
 | 20 | Xác nhận trên báo cáo không có tên và không có số Giấy phép hành nghề của nhân sự oBacker tại phần người lập và phần kế toán trưởng (đã gộp từ cấp 3) | Không có |
 | 21 | Xác nhận báo cáo đã có đủ BA chữ ký của khách, gồm người lập, kế toán trưởng và người đại diện theo pháp luật, và đã đóng dấu, trước khi nộp (đã gộp từ cấp 3) | Có bản đã ký đủ ba chữ ký `[Luật Kế toán 41/VBHN-VPQH Đ.29 k.2 đ.d]` |
 | 22 | Xác nhận báo cáo kiểm toán đã đính kèm nếu khách thuộc diện bắt buộc kiểm toán (đã gộp từ cấp 3) | Có `[TT99 Đ.26 k.2]` |
 
-Đầu ra của mục 6.5: đúng 02 phiếu, gồm Phiếu tự kiểm của CV-KT ở cấp 1 và Phiếu soát xét và chốt của TL-KT ở cấp 2, đều đã ký và ghi ngày. Không còn phiếu duyệt cấp 3. Nếu phần nào của bộ báo cáo do chính TL-KT làm thì Phiếu soát xét và chốt phải ghi rõ phần đó, để lớp hậu kiểm do `COO` chủ việc ưu tiên lấy mẫu theo Chương 18 mục 6.7.
+Đầu ra của mục 5.5: đúng 02 phiếu, gồm Phiếu tự kiểm của CV-KT ở cấp 1 và Phiếu soát xét và chốt của TL-KT ở cấp 2, đều đã ký và ghi ngày. Không còn phiếu duyệt cấp 3. Nếu phần nào của bộ báo cáo do chính TL-KT làm thì Phiếu soát xét và chốt phải ghi rõ phần đó, để lớp hậu kiểm do `COO` chủ việc ưu tiên lấy mẫu theo Chương 18 mục 6.7.
 
-### 6.6. THỜI HẠN NỘP BÁO CÁO TÀI CHÍNH
+### 5.6. THỜI HẠN NỘP BÁO CÁO TÀI CHÍNH
 
 Điều 25 Thông tư 99/2025/TT-BTC chỉ gồm ba đoạn, không chia khoản. Trích nguyên văn toàn bộ:
 
@@ -438,7 +414,7 @@ Mốc 90 ngày này trùng với mốc tại Luật Kế toán. Trích nguyên v
 | Thời hạn nộp báo cáo tài chính quý, bán niên và kỳ khác | Thông tư 99/2025/TT-BTC KHÔNG tự quy định;<br>dẫn chiếu sang pháp luật liên quan điều chỉnh doanh nghiệp đó `[TT99 Đ.25]` |
 | Thời hạn nộp báo cáo tài chính của công ty con, đơn vị trực thuộc lên công ty mẹ, tổng công ty | Do chính công ty mẹ, tổng công ty quy định, phù hợp pháp luật hiện hành và yêu cầu quản lý `[TT99 Đ.25]` |
 | Thời hạn nộp hồ sơ quyết toán thuế năm | Chậm nhất là ngày cuối cùng của tháng thứ 03 kể từ ngày kết thúc kỳ quyết toán thuế `[NĐ 252/2026 Đ.10 k.5 đ.a]` |
-| Nơi nhận báo cáo tài chính năm | Luật Kế toán giao Bộ Tài chính quy định nơi nhận `[Luật Kế toán 41/VBHN-VPQH Đ.29 k.4]`, Thông tư 99/2025/TT-BTC lại dẫn chiếu tiếp sang pháp luật có liên quan `[TT99 Đ.26 k.1]`, nên câu hỏi NỘP CHO AI vẫn chưa có câu trả lời trong bộ tài liệu nội bộ.<br>Xem mục 6.7 |
+| Nơi nhận báo cáo tài chính năm | Luật Kế toán giao Bộ Tài chính quy định nơi nhận `[Luật Kế toán 41/VBHN-VPQH Đ.29 k.4]`, Thông tư 99/2025/TT-BTC lại dẫn chiếu tiếp sang pháp luật có liên quan `[TT99 Đ.26 k.1]`, nên câu hỏi NỘP CHO AI vẫn chưa có câu trả lời trong bộ tài liệu nội bộ.<br>Xem mục 5.7 |
 
 > [!note] PHẢI SỬA HỒ SƠ NỘI BỘ
 > Thông tư 99/2025/TT-BTC KHÔNG phân biệt thời hạn 30 ngày hay 90 ngày theo loại hình như một số chế độ trước. Toàn bộ Điều 25 chỉ có duy nhất một con số thời hạn là 90 ngày. Nếu hồ sơ nội bộ hoặc bản chào dịch vụ của oBacker còn ghi mốc 30 ngày cho một nhóm khách nào đó thì phải gỡ bỏ ngay.
@@ -446,7 +422,7 @@ Mốc 90 ngày này trùng với mốc tại Luật Kế toán. Trích nguyên v
 > [!bug] LỖI THƯỜNG GẶP
 > Thời hạn nộp báo cáo tài chính năm và thời hạn nộp hồ sơ quyết toán thuế năm là hai mốc thuộc hai hệ thống pháp luật khác nhau, không xem là một. Với khách có kỳ kế toán năm trùng năm dương lịch thì hai mốc rơi vào khoảng thời gian gần nhau, nhưng cách tính khác nhau. Kế hoạch công việc phải theo dõi riêng hai mốc.
 
-### 6.7. NƠI NHẬN BÁO CÁO TÀI CHÍNH
+### 5.7. NƠI NHẬN BÁO CÁO TÀI CHÍNH
 
 Trích nguyên văn Điều 26:
 
@@ -458,9 +434,9 @@ Trích nguyên văn Điều 26:
 >
 > `[TT99 Đ.26 k.1 đến k.3]`
 
-#### 6.7.1. ĐÓNG MỘT PHẦN: khách áp dụng Thông tư 133/2016 thì ĐÃ CÓ câu trả lời
+#### 5.7.1. Nơi nhận báo cáo tài chính đối với doanh nghiệp áp dụng Thông tư 133/2016/TT-BTC
 
-Rà soát ngày 27/08/2026 tìm ra câu trả lời cho một nhóm khách. Trích nguyên văn Thông tư 133/2016/TT-BTC Điều 80 khoản 2:
+Trích nguyên văn Thông tư 133/2016/TT-BTC Điều 80 khoản 2:
 
 > "Nơi nhận báo cáo tài chính năm được quy định như sau:
 >
@@ -479,19 +455,18 @@ Rà soát ngày 27/08/2026 tìm ra câu trả lời cho một nhóm khách. Trí
 > [!note] KHÔNG SUY RỘNG
 > Câu trả lời trên chỉ đúng cho khách ĐANG ÁP DỤNG Thông tư 133/2016, vì đó là quy định của chính chế độ kế toán đó. tuyệt đối không suy rộng danh sách ba cơ quan này cho khách áp dụng Thông tư 99/2025 hoặc Thông tư 58/2026. Hai thông tư đó không nói gì về nơi nhận, và im lặng không có nghĩa là giữ nguyên như chế độ cũ.
 
-#### 6.7.2. Còn mở với Thông tư 99/2025 và Thông tư 58/2026
+#### 5.7.2. Còn mở với Thông tư 99/2025 và Thông tư 58/2026
 
 Thay đổi lớn về vận hành: Thông tư 99/2025/TT-BTC KHÔNG còn bảng liệt kê nơi nhận báo cáo tài chính theo từng loại hình doanh nghiệp. Toàn bộ được dẫn chiếu sang pháp luật có liên quan và cơ chế lưu giữ tại Hệ thống thông tin quốc gia về đăng ký doanh nghiệp. Kiểm chứng: trong toàn văn Thông tư không tồn tại bảng nơi nhận báo cáo tài chính; Điều 26 chỉ có ba khoản nêu trên.
 
-> [!question] CẦN XÁC MINH
-> Danh sách cơ quan nhận báo cáo tài chính cụ thể cho từng loại hình doanh nghiệp không có trong Thông tư 99/2025/TT-BTC và hiện không có trong bộ tài liệu nội bộ oBacker. AM TUYỆT ĐỐI không được trả lời khách về nơi nộp báo cáo tài chính dựa trên trí nhớ hoặc dựa trên thói quen của chế độ cũ. Trước mỗi mùa báo cáo, CV-KT phải thực hiện đủ bốn việc sau và lưu bằng chứng vào hồ sơ khách:
+> [!note] CĂN CỨ VÀ QUY TRÌNH XÁC ĐỊNH NƠI NỘP BÁO CÁO TÀI CHÍNH THEO THÔNG TƯ 99/2025/TT-BTC
+> Thông tư 99/2025/TT-BTC quy định nghĩa vụ nộp báo cáo tài chính cho các cơ quan có thẩm quyền theo pháp luật chuyên ngành liên quan (Điều 25, Điều 26). Trước mỗi kỳ báo cáo tài chính, CV-KT và TL-KT thực hiện quy trình rà soát nơi nộp:
+> 1. Đối chiếu pháp luật quản lý thuế hiện hành về nghĩa vụ nộp báo cáo tài chính kèm hồ sơ quyết toán thuế TNDN.
+> 2. Đối chiếu pháp luật về doanh nghiệp về nghĩa vụ nộp hoặc cập nhật thông tin tại Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp.
+> 3. Đối chiếu pháp luật thống kê và quy định chuyên ngành theo lĩnh vực hoạt động (như doanh nghiệp có vốn đầu tư nước ngoài, ngành nghề kinh doanh có điều kiện).
+> 4. Kiểm tra cổng thông tin tiếp nhận điện tử tại thời điểm nộp hồ sơ.
 >
-> 1. Tra pháp luật về quản lý thuế đang có hiệu lực để xác định nghĩa vụ nộp báo cáo tài chính kèm hồ sơ quyết toán thuế.
-> 2. Tra pháp luật về doanh nghiệp để xác định nghĩa vụ nộp hoặc lưu giữ tại Hệ thống thông tin quốc gia về đăng ký doanh nghiệp.
-> 3. Tra pháp luật về thống kê và pháp luật chuyên ngành áp dụng riêng cho ngành nghề của khách, ví dụ doanh nghiệp có vốn đầu tư nước ngoài, doanh nghiệp thuộc lĩnh vực có điều kiện.
-> 4. Kiểm tra thực tế các kênh tiếp nhận đang hoạt động trên `[CỔNG THUẾ ĐIỆN TỬ]` và cổng đăng ký doanh nghiệp tại thời điểm nộp.
->
-> Kết quả tra cứu phải được TL-KT kiểm tra và duyệt trước khi nộp. Không dùng kết quả tra cứu của mùa báo cáo trước mà không kiểm tra lại.
+> Kết quả tra cứu phải được TL-KT phê duyệt trước khi phát hành hồ sơ nộp. Không sử dụng kết quả tra cứu của các kỳ trước mà không kiểm tra lại.
 
 Hai nghĩa vụ đã xác định chắc chắn từ Điều 26 và có thể dùng ngay:
 
@@ -500,7 +475,7 @@ Hai nghĩa vụ đã xác định chắc chắn từ Điều 26 và có thể d�
 | 1 | Doanh nghiệp thuộc diện pháp luật quy định phải kiểm toán báo cáo tài chính thì khi nộp báo cáo tài chính cho các cơ quan có thẩm quyền PHẢI ĐÍNH KÈM báo cáo kiểm toán | `[TT99 Đ.26 k.2]` |
 | 2 | Khi báo cáo tài chính được lưu giữ tại Hệ thống thông tin quốc gia về đăng ký doanh nghiệp thì các cơ quan nhận báo cáo tài chính được yêu cầu cung cấp thông tin về báo cáo tài chính theo quy định của pháp luật | `[TT99 Đ.26 k.3]` |
 
-### 6.8. CÔNG KHAI BÁO CÁO TÀI CHÍNH
+### 5.8. CÔNG KHAI BÁO CÁO TÀI CHÍNH
 
 | Khoản | Nội dung | Căn cứ |
 | --- | --- | --- |
@@ -520,7 +495,7 @@ Năm hình thức công khai `[TT99 Đ.27 k.3]`:
 | 4 | Đăng tải trên trang thông tin điện tử của doanh nghiệp, trong đó nêu rõ đường dẫn đến báo cáo tài chính | Lưu ảnh chụp màn hình và đường dẫn |
 | 5 | Các hình thức khác theo quy định của pháp luật có liên quan | Chuyển TL-KT xác định |
 
-#### 6.8.1. Thời hạn và nội dung công khai, đã tra Luật Kế toán
+#### 5.8.1. Thời hạn và nội dung công khai, đã tra Luật Kế toán
 
 THỜI HẠN công khai báo cáo tài chính và nội dung phải công khai không nằm trong Thông tư 99/2025/TT-BTC; Thông tư dẫn chiếu Luật Kế toán `[TT99 Đ.27 k.4]`. Bản hợp nhất Luật Kế toán 41/VBHN-VPQH đã có bản gốc trong kho. Trích nguyên văn Điều 32:
 
@@ -557,13 +532,13 @@ Kết luận vận hành:
 | Nội dung phải công khai của đơn vị kế toán thuộc hoạt động kinh doanh | Tình hình tài sản, nợ phải trả và vốn chủ sở hữu;<br>kết quả hoạt động kinh doanh;<br>trích lập và sử dụng các quỹ;<br>thu nhập của người lao động;<br>các nội dung khác theo quy định của pháp luật | `[Luật Kế toán 41/VBHN-VPQH Đ.31 k.4]` |
 | Khách thuộc diện bắt buộc kiểm toán | Khi công khai phải kèm theo báo cáo kiểm toán của tổ chức kiểm toán | `[Luật Kế toán 41/VBHN-VPQH Đ.31 k.5;<br>TT99 Đ.27 k.5]` |
 
-> [!bug] LỖI THƯỜNG GẶP, HAI MỐC KHÁC NHAU
+> [!bug] LỖI THƯỜNG GẶP: PHÂN BIỆT THỜI HẠN NỘP VÀ THỜI HẠN CÔNG KHAI
 > Hạn NỘP báo cáo tài chính năm là 90 ngày kể từ ngày kết thúc kỳ kế toán năm `[Luật Kế toán 41/VBHN-VPQH Đ.29 k.3; TT99 Đ.25]`, hạn CÔNG KHAI là 120 ngày kể từ ngày kết thúc kỳ kế toán năm `[Luật Kế toán 41/VBHN-VPQH Đ.32 k.4]`. Hai mốc đếm từ cùng một ngày gốc nhưng khác số ngày. Theo dõi riêng hai mốc trên `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]`.
 
-> [!question] CẦN XÁC MINH
-> Khi khách vừa thuộc hoạt động kinh doanh vừa có sử dụng các khoản đóng góp của Nhân dân, việc áp khoản 3 hay khoản 4 Điều 32 chưa được văn bản làm rõ. TL-KT kết luận bằng văn bản trước khi AM tư vấn khách.
+> [!warning] LƯU Ý VỀ CÔNG KHAI BÁO CÁO TÀI CHÍNH KHI CÓ NGUỒN ĐÓNG GÓP
+> Trường hợp doanh nghiệp vừa có hoạt động kinh doanh vừa tiếp nhận, sử dụng các khoản tài trợ, đóng góp của xã hội, việc áp dụng thời hạn công khai (theo khoản 3 hay khoản 4 Điều 32 Luật Kế toán 41/VBHN-VPQH) phải được TL-KT rà soát và kết luận bằng văn bản hướng dẫn cụ thể trước khi tư vấn khách hàng.
 
-### 6.9. CÁC TRƯỜNG HỢP ĐẶC BIỆT
+### 5.9. CÁC TRƯỜNG HỢP ĐẶC BIỆT
 
 Bảng dưới đây dùng để CV-KT nhận diện sớm và chuyển lên đúng cấp. CV-KT không tự xử lý bất kỳ trường hợp nào trong bảng này.
 
@@ -585,24 +560,24 @@ Bảng dưới đây dùng để CV-KT nhận diện sớm và chuyển lên đ�
 > [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
 > Cả 12 dòng trong bảng trên đều phải chuyển TL-KT. Với dòng 9, việc kết luận doanh nghiệp không đáp ứng giả định hoạt động liên tục làm thay đổi cả bộ mẫu, cả phương pháp ghi nhận và cả trách nhiệm của người ký. Việc kết luận sai theo cả hai chiều đều gây hậu quả nặng.
 
-### 6.10. Trình tự nộp và bàn giao
+### 5.10. Trình tự nộp và bàn giao
 
 | Bước | Nội dung | Người làm | Tiêu chí hoàn thành |
 | --- | --- | --- | --- |
 | 1 | Gửi bản dự thảo báo cáo tài chính cho khách kèm bảng giải thích các chỉ tiêu chính | AM | Có bằng chứng gửi |
 | 2 | Tiếp nhận ý kiến khách;<br>đánh giá ý kiến nào là thông tin bổ sung, ý kiến nào là yêu cầu thay đổi trình bày | AM tiếp nhận, TL-KT đánh giá | Có bảng xử lý ý kiến |
 | 3 | Trình TL-KT soát và chốt bản cuối | TL-KT | Có phê duyệt của TL-KT trên Phiếu soát xét và chốt |
-| 4 | Gửi khách ký đủ BA chữ ký và đóng dấu;<br>hoặc ký bằng chữ ký số của khách khi đã có đủ hai văn bản theo mục 6.2.2 | AM, TL-KT kiểm tra điều kiện ký bằng chữ ký số của khách | Có bản đã ký đủ ba chữ ký của khách `[Luật Kế toán 41/VBHN-VPQH Đ.29 k.2 đ.d]` |
-| 5 | Nộp báo cáo tài chính đến các nơi nhận đã xác định tại mục 6.7, đính kèm báo cáo kiểm toán nếu thuộc diện | CV-KT | Có thông báo tiếp nhận hoặc bằng chứng nộp |
+| 4 | Gửi khách ký đủ BA chữ ký và đóng dấu;<br>hoặc ký bằng chữ ký số của khách khi đã có đủ hai văn bản theo mục 5.2.2 | AM, TL-KT kiểm tra điều kiện ký bằng chữ ký số của khách | Có bản đã ký đủ ba chữ ký của khách `[Luật Kế toán 41/VBHN-VPQH Đ.29 k.2 đ.d]` |
+| 5 | Nộp báo cáo tài chính đến các nơi nhận đã xác định tại mục 5.7, đính kèm báo cáo kiểm toán nếu thuộc diện | CV-KT | Có thông báo tiếp nhận hoặc bằng chứng nộp |
 | 6 | Nộp hồ sơ quyết toán thuế theo thời hạn riêng | CV-KT | Có thông báo tiếp nhận |
-| 7 | Hướng dẫn khách thực hiện công khai báo cáo tài chính theo mục 6.8, trong thời hạn 120 ngày kể từ ngày kết thúc kỳ kế toán năm, nếu thuộc phạm vi dịch vụ | AM | Có bằng chứng công khai `[Luật Kế toán 41/VBHN-VPQH Đ.32 k.4]` |
+| 7 | Hướng dẫn khách thực hiện công khai báo cáo tài chính theo mục 5.8, trong thời hạn 120 ngày kể từ ngày kết thúc kỳ kế toán năm, nếu thuộc phạm vi dịch vụ | AM | Có bằng chứng công khai `[Luật Kế toán 41/VBHN-VPQH Đ.32 k.4]` |
 | 8 | Bàn giao bộ hồ sơ báo cáo tài chính cho khách và lưu bản của oBacker | AM bàn giao, CV-KT lưu | Biên bản bàn giao |
-| 9 | Đưa tài liệu kế toán của năm vào lưu trữ theo mục 6.11 | CV-KT | Đưa vào lưu trữ trong thời hạn 12 tháng kể từ ngày kết thúc kỳ kế toán năm `[Luật Kế toán 41/VBHN-VPQH Đ.41 k.3]` |
+| 9 | Đưa tài liệu kế toán của năm vào lưu trữ theo mục 5.11 | CV-KT | Đưa vào lưu trữ trong thời hạn 12 tháng kể từ ngày kết thúc kỳ kế toán năm `[Luật Kế toán 41/VBHN-VPQH Đ.41 k.3]` |
 
 > [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
 > Khi khách yêu cầu sửa số liệu trên báo cáo tài chính mà không có chứng từ hoặc căn cứ mới, CV-KT và AM phải từ chối và chuyển TL-KT. Việc sửa số liệu theo yêu cầu để đạt một chỉ tiêu tài chính mong muốn là hành vi làm sai lệch báo cáo tài chính.
 
-### 6.11. LƯU TRỮ TÀI LIỆU KẾ TOÁN CỦA BỘ BÁO CÁO TÀI CHÍNH NĂM
+### 5.11. LƯU TRỮ TÀI LIỆU KẾ TOÁN CỦA BỘ BÁO CÁO TÀI CHÍNH NĂM
 
 Thời hạn lưu trữ tài liệu kế toán có BA mốc, không phải một mốc chung. Trích nguyên văn Luật Kế toán:
 
@@ -629,10 +604,10 @@ Thời hạn lưu trữ tài liệu kế toán có BA mốc, không phải một
 
 Trách nhiệm tổ chức bảo quản, lưu trữ tài liệu kế toán thuộc người đại diện theo pháp luật của đơn vị kế toán, tức của KHÁCH, không thuộc oBacker `[Luật Kế toán 41/VBHN-VPQH Đ.41 k.4]`. oBacker lưu bản của mình theo cùng ba mốc trên để phục vụ giải trình.
 
-> [!question] CẦN XÁC MINH
-> Danh mục chi tiết từng loại tài liệu kế toán phải lưu trữ, thời điểm tính thời hạn lưu trữ, nơi lưu trữ và thủ tục tiêu hủy do Chính phủ quy định `[Luật Kế toán 41/VBHN-VPQH Đ.41 k.6]`. Nghị định đó là Nghị định 174/2016/NĐ-CP, có trong kho, xem [[01_Nguyen_tac_hanh_nghe|OBK-SOP-01]] mục 6.11.4. Khi phải xếp một loại tài liệu vào mốc 05 năm hay 10 năm mà không đọc thẳng ra được từ danh mục đó, TL-KT kết luận theo tiêu chí "có sử dụng trực tiếp để ghi sổ kế toán và lập báo cáo tài chính hay không" tại `[Luật Kế toán 41/VBHN-VPQH Đ.41 k.5]` và ghi lý do vào hồ sơ. Việc tiêu hủy tài liệu kế toán thuộc thẩm quyền của khách với tư cách đơn vị kế toán, theo thủ tục tại `[Nghị định 174/2016/NĐ-CP Đ.16, Đ.17]`; oBacker không tự tiêu hủy tài liệu kế toán của khách.
+> [!note] CĂN CỨ PHÁP LÝ VỀ LƯU TRỮ VÀ TIÊU HỦY TÀI LIỆU BÁO CÁO TÀI CHÍNH NĂM
+> Danh mục chi tiết tài liệu kế toán lưu trữ, thời hạn, thời điểm tính và thủ tục tiêu hủy đặt tại OBK-SOP-01 mục 5.11.4. Tiêu chí phân định tài liệu lưu trữ tối thiểu 05 năm hoặc 10 năm căn cứ vào việc tài liệu có sử dụng trực tiếp để ghi sổ kế toán và lập báo cáo tài chính hay không. Thủ tục tiêu hủy tài liệu hết thời hạn lưu trữ do khách hàng (với tư cách đơn vị kế toán) thực hiện; oBacker không tự ý thực hiện tiêu hủy tài liệu của khách hàng.
 
-## 7. Điểm kiểm soát bắt buộc
+## 6. Điểm kiểm soát bắt buộc
 
 | # | Điểm kiểm soát | Không được bỏ qua vì |
 | --- | --- | --- |
@@ -646,31 +621,31 @@ Trách nhiệm tổ chức bảo quản, lưu trữ tài liệu kế toán thu�
 | 8 | Hai cấp soát xét đều có chữ ký, không cấp nào bị bỏ qua | Là cơ chế kiểm soát chất lượng duy nhất trước khi phát hành |
 | 9 | Mọi trường hợp đặc biệt đều được chuyển TL-KT | Xử lý sai các trường hợp này gây hậu quả kéo dài nhiều năm |
 | 10 | Thuyết minh đủ các nội dung bắt buộc trong năm đầu áp dụng Thông tư 99/2025/TT-BTC | Thiếu thuyết minh làm báo cáo không đạt yêu cầu trình bày `[TT99 Đ.19]` |
-| 11 | Kiểm tra tiêu chuẩn kế toán trưởng của người mà khách cử, theo mục 6.2.4;<br>nếu không đủ thì ghi hồ sơ rủi ro và AM thông báo khách bằng văn bản | Nghiêm cấm bố trí hoặc thuê người làm kế toán trưởng không đủ tiêu chuẩn, điều kiện `[Luật Kế toán 41/VBHN-VPQH Đ.13 k.8;<br>Đ.54 k.1]` |
+| 11 | Kiểm tra tiêu chuẩn kế toán trưởng của người mà khách cử, theo mục 5.2.4;<br>nếu không đủ thì ghi hồ sơ rủi ro và AM thông báo khách bằng văn bản | Nghiêm cấm bố trí hoặc thuê người làm kế toán trưởng không đủ tiêu chuẩn, điều kiện `[Luật Kế toán 41/VBHN-VPQH Đ.13 k.8;<br>Đ.54 k.1]` |
 | 12 | Đưa tài liệu kế toán vào lưu trữ trong thời hạn 12 tháng kể từ ngày kết thúc kỳ kế toán năm, và lưu theo đúng mốc 05 năm, 10 năm hoặc vĩnh viễn | Ba mốc lưu trữ khác nhau theo loại tài liệu `[Luật Kế toán 41/VBHN-VPQH Đ.41 k.3, k.5]` |
 
-## 8. Lỗi thường gặp và cách xử lý
+## 7. Lỗi thường gặp và cách xử lý
 
 | # | Lỗi thường gặp | Hậu quả | Cách xử lý |
 | --- | --- | --- | --- |
 | 1 | Gọi báo cáo là Bảng cân đối kế toán | Hồ sơ lỗi thời, sai tên báo cáo | Đổi thành Báo cáo tình hình tài chính trên toàn bộ mẫu biểu và văn bản |
-| 2 | Dùng mẫu số của chế độ cũ | Sai biểu mẫu | Dùng đúng bộ mẫu theo bảng bốn tình huống tại mục 6.1.2 |
-| 3 | Ghi số Giấy phép hành nghề dịch vụ kế toán của người hành nghề oBacker hoặc ghi tên oBacker lên báo cáo tài chính của khách | Tự nhận là đơn vị được khách thuê lập và trình bày báo cáo tài chính hoặc thuê làm kế toán trưởng, trái mô hình đã chọn | Kiểm theo bảng kiểm mục 6.2.3 trước mọi lần phát hành;<br>nghĩa vụ ghi số Giấy phép chỉ phát sinh trong hai trường hợp tại `[TT99 Đ.16 k.4]` |
+| 2 | Dùng mẫu số của chế độ cũ | Sai biểu mẫu | Dùng đúng bộ mẫu theo bảng bốn tình huống tại mục 5.1.2 |
+| 3 | Ghi số Giấy phép hành nghề dịch vụ kế toán của người hành nghề oBacker hoặc ghi tên oBacker lên báo cáo tài chính của khách | Tự nhận là đơn vị được khách thuê lập và trình bày báo cáo tài chính hoặc thuê làm kế toán trưởng, trái mô hình đã chọn | Kiểm theo bảng kiểm mục 5.2.3 trước mọi lần phát hành;<br>nghĩa vụ ghi số Giấy phép chỉ phát sinh trong hai trường hợp tại `[TT99 Đ.16 k.4]` |
 | 4 | Nhân sự oBacker đứng tên tại phần người lập hoặc phần kế toán trưởng trên báo cáo tài chính của khách | oBacker phải chịu trách nhiệm về nội dung báo cáo của khách `[Luật Kế toán 41/VBHN-VPQH Đ.29 k.2 đ.d]`, trái mô hình đã chọn | Cả ba chữ ký đều là của khách;<br>TL-KT dừng phát hành và báo CEO nếu khách yêu cầu oBacker đứng tên |
 | 5 | Gọi tên dịch vụ trong hợp đồng là "lập và trình bày báo cáo tài chính" hoặc "làm kế toán trưởng" | Làm phát sinh nghĩa vụ ghi số Giấy phép hành nghề và tên đơn vị dịch vụ trên báo cáo `[TT99 Đ.16 k.4]` | AM rà tên gọi phạm vi dịch vụ trước khi ký;<br>phát hiện cách gọi sai thì chuyển CEO |
 | 6 | Ký bằng chữ ký số của khách khi chưa có ủy quyền bằng văn bản hoặc chưa có văn bản xác nhận nội dung báo cáo | Ký thay khách không có căn cứ | Thiếu một trong hai văn bản thì không ký;<br>AM đòi khách bổ sung |
-| 7 | Không kiểm tra tiêu chuẩn kế toán trưởng của người mà khách cử | Bỏ lọt rủi ro của khách theo `[Luật Kế toán 41/VBHN-VPQH Đ.13 k.8]` | Chạy mục 6.2.4 khi onboarding, khi khách đổi người, và trước mỗi mùa báo cáo |
+| 7 | Không kiểm tra tiêu chuẩn kế toán trưởng của người mà khách cử | Bỏ lọt rủi ro của khách theo `[Luật Kế toán 41/VBHN-VPQH Đ.13 k.8]` | Chạy mục 5.2.4 khi onboarding, khi khách đổi người, và trước mỗi mùa báo cáo |
 | 8 | Sửa chỉ tiêu báo cáo theo yêu cầu khách | Vi phạm `[TT99 Đ.18 k.2]` | Chỉ được bổ sung thêm;<br>muốn sửa phải báo cáo Bộ Tài chính |
 | 9 | Bổ sung chỉ tiêu nhưng không thuyết minh và không có Quy chế hạch toán kế toán | Không đủ điều kiện | Bổ sung đủ hai yêu cầu trước khi phát hành |
-| 10 | Trả lời khách nơi nộp báo cáo tài chính theo trí nhớ | Nộp thiếu nơi, có thể bị xử lý | Chạy quy trình tra cứu bốn bước tại mục 6.7 |
+| 10 | Trả lời khách nơi nộp báo cáo tài chính theo trí nhớ | Nộp thiếu nơi, có thể bị xử lý | Chạy quy trình tra cứu bốn bước tại mục 5.7 |
 | 11 | Nhầm hạn nộp báo cáo tài chính với hạn nộp hồ sơ quyết toán thuế | Trễ hạn một trong hai | Theo dõi riêng hai mốc trên `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]` |
 | 12 | Không lập riêng báo cáo tài chính cho giai đoạn giữa hai kỳ khi khách đổi kỳ kế toán | Vi phạm `[TT99 Đ.21]` | Chuyển TL-KT ngay khi biết khách có kế hoạch đổi kỳ |
 | 13 | Vẫn dùng bộ mẫu thông thường cho khách đang giải thể | Sai bộ mẫu và sai phương pháp ghi nhận | Chuyển TL-KT đánh giá giả định hoạt động liên tục |
 | 14 | Coi việc chia, tách, hợp nhất, sáp nhập là mất giả định hoạt động liên tục | Sai bộ mẫu theo chiều ngược lại | Ba trường hợp tại `[TT99 Đ.24 k.2]` vẫn coi là hoạt động liên tục |
 | 15 | Không tổng hợp số liệu của đơn vị trực thuộc | Báo cáo không đầy đủ | Bắt buộc tổng hợp và loại trừ giao dịch nội bộ `[TT99 Đ.16 k.2;<br>Đ.7 k.3 đ.b]` |
-| 16 | Bỏ qua thuyết minh về chuyển đổi số dư năm đầu áp dụng chế độ mới | Thiếu thông tin trọng yếu | Chạy bảng mục 6.3.5 |
+| 16 | Bỏ qua thuyết minh về chuyển đổi số dư năm đầu áp dụng chế độ mới | Thiếu thông tin trọng yếu | Chạy bảng mục 5.3.5 |
 
-## 9. Đầu ra và nơi lưu
+## 8. Đầu ra và nơi lưu
 
 | # | Đầu ra | Nơi lưu | Ghi chú |
 | --- | --- | --- | --- |
@@ -678,7 +653,7 @@ Trách nhiệm tổ chức bảo quản, lưu trữ tài liệu kế toán thu�
 | 2 | Bản thuyết minh báo cáo tài chính kèm bảng số liệu chi tiết | `[KHO LƯU TRỮ HỒ SƠ]` | |
 | 3 | Bảng đối chiếu số liệu kế toán và số liệu thuế | `[KHO LƯU TRỮ HỒ SƠ]` | Là hồ sơ giải trình khi cơ quan thuế kiểm tra |
 | 4 | Hai bảng kiểm soát xét của CV-KT và TL-KT đã ký | `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]` và `[KHO LƯU TRỮ HỒ SƠ]` | Lưu ít nhất 05 năm, là tài liệu dùng cho quản lý, điều hành `[Luật Kế toán 41/VBHN-VPQH Đ.41 k.5 đ.a]` |
-| 5 | Bảng kiểm ký báo cáo tài chính tại mục 6.2.3 | `[KHO LƯU TRỮ HỒ SƠ]` | |
+| 5 | Bảng kiểm ký báo cáo tài chính tại mục 5.2.3 | `[KHO LƯU TRỮ HỒ SƠ]` | |
 | 6 | Hồ sơ tra cứu nơi nhận báo cáo tài chính kèm bằng chứng | `[KHO LƯU TRỮ HỒ SƠ]` | Làm lại mỗi mùa báo cáo |
 | 7 | Bằng chứng nộp báo cáo tài chính đến từng nơi nhận | `[KHO LƯU TRỮ HỒ SƠ]` | |
 | 8 | Báo cáo kiểm toán, nếu có | `[KHO LƯU TRỮ HỒ SƠ]` | |
@@ -688,13 +663,13 @@ Trách nhiệm tổ chức bảo quản, lưu trữ tài liệu kế toán thu�
 | 12 | Hồ sơ kiểm tra tiêu chuẩn kế toán trưởng của người mà khách cử, kèm kết luận của TL-KT;<br>nếu không đủ tiêu chuẩn thì kèm dòng hồ sơ rủi ro và bằng chứng AM đã thông báo khách bằng văn bản | `[KHO LƯU TRỮ HỒ SƠ]` | Làm lại khi khách đổi người và trước mỗi mùa báo cáo |
 | 13 | Văn bản ủy quyền sử dụng chữ ký số của khách và văn bản khách xác nhận nội dung báo cáo tài chính, nếu oBacker ký bằng chữ ký số của khách | `[KHO LƯU TRỮ HỒ SƠ]` | Phải lập trước ngày ký báo cáo |
 
-## 10. Chỉ số theo dõi
+## 9. Chỉ số theo dõi
 
 | # | Chỉ số | Cách tính | Ngưỡng mục tiêu | Người theo dõi |
 | --- | --- | --- | --- | --- |
 | 1 | Tỷ lệ báo cáo tài chính năm nộp đúng hạn 90 ngày | Số khách nộp đúng hạn chia tổng số khách | 100% | COO |
 | 2 | Tỷ lệ báo cáo tài chính có đủ BA chữ ký của khách và không có tên oBacker | Kiểm tra 100% hồ sơ phát hành | 100% | COO |
-| 3 | Tỷ lệ khách đã có hồ sơ kiểm tra tiêu chuẩn kế toán trưởng theo mục 6.2.4 | Số khách có hồ sơ chia tổng số khách | 100% | COO |
+| 3 | Tỷ lệ khách đã có hồ sơ kiểm tra tiêu chuẩn kế toán trưởng theo mục 5.2.4 | Số khách có hồ sơ chia tổng số khách | 100% | COO |
 | 4 | Số lỗi TL-KT phát hiện khi soát và chốt trên mỗi bộ báo cáo | Đếm theo bảng kiểm cấp 2 | Xu hướng giảm theo năm | COO |
 | 5 | Số lỗi lớp 2 hậu kiểm phát hiện mà TL-KT đã bỏ sót khi soát và chốt | Đếm, theo báo cáo hậu kiểm Chương 18 mục 6.7 | Xu hướng giảm;<br>là chỉ số đánh giá chất lượng soát xét của TL-KT | COO |
 | 6 | Số bộ báo cáo phải phát hành lại sau khi đã giao khách | Đếm theo năm | Bằng không | COO |
@@ -728,16 +703,16 @@ Trách nhiệm tổ chức bảo quản, lưu trữ tài liệu kế toán thu�
 | # | Nội dung | Tag hiện tại | Ai chịu trách nhiệm tra |
 | --- | --- | --- | --- |
 | 1 | Nơi nhận báo cáo tài chính theo từng loại hình khách hàng.<br>Khoản 4 Điều 29 Luật Kế toán giao Bộ Tài chính quy định nơi nhận, Thông tư 99/2025/TT-BTC lại dẫn chiếu tiếp sang pháp luật có liên quan | chưa xác minh được, vẫn chưa gỡ được | TL-KT |
-| 2 | Thời hạn và nội dung công khai báo cáo tài chính theo Luật Kế toán | ĐÃ NÂNG lên `[Luật Kế toán 41/VBHN-VPQH Đ.31 k.4, k.5; Đ.32]`, xem mục 6.8.1.<br>Chỉ còn phải tra pháp luật chuyên ngành về chứng khoán, tín dụng, bảo hiểm khi khách thuộc diện | TL-KT |
+| 2 | Thời hạn và nội dung công khai báo cáo tài chính theo Luật Kế toán | ĐÃ NÂNG lên `[Luật Kế toán 41/VBHN-VPQH Đ.31 k.4, k.5; Đ.32]`, xem mục 5.8.1.<br>Chỉ còn phải tra pháp luật chuyên ngành về chứng khoán, tín dụng, bảo hiểm khi khách thuộc diện | TL-KT |
 | 3 | Ký hiệu thực tế ghi trên biểu mẫu B 02 - DNKLT và B 03 - DNKLT khi nộp | chưa xác minh được | TL-KT |
 | 4 | Khả năng tương thích tên chỉ tiêu giữa mẫu Thông tư 99/2025/TT-BTC và biểu mẫu trên cổng nộp hồ sơ điện tử | chưa xác minh được | TL-KT |
 | 5 | Nội dung Chuẩn mực kế toán Việt Nam số 11, 17, 21, 29 mà Thông tư dẫn chiếu, và xác định bộ chuẩn mực nào đang có hiệu lực | chưa xác minh được | TL-KT |
-| 6 | Nội dung khoản 1, 2 Điều 29 Luật Kế toán về điều kiện bổ sung chỉ tiêu | ĐÃ NÂNG lên `[Luật Kế toán 41/VBHN-VPQH Đ.29 k.1, k.2]`, xem mục 6.4 | TL-KT |
+| 6 | Nội dung khoản 1, 2 Điều 29 Luật Kế toán về điều kiện bổ sung chỉ tiêu | ĐÃ NÂNG lên `[Luật Kế toán 41/VBHN-VPQH Đ.29 k.1, k.2]`, xem mục 5.4 | TL-KT |
 | 7 | Quy định về báo cáo tài chính hợp nhất | chưa xác minh được | TL-KT |
 | 8 | Thời hạn nộp báo cáo tài chính quý, bán niên theo pháp luật chuyên ngành của khách | chưa xác minh được | TL-KT |
 | 9 | Thời hạn nộp hồ sơ quyết toán thuế TNDN và quyết toán thuế TNCN của tổ chức trả thu nhập | ĐÃ NÂNG lên `[NĐ 252/2026 Đ.10 k.5 đ.a]`, chậm nhất là ngày cuối cùng của tháng thứ 03 kể từ ngày kết thúc kỳ quyết toán thuế | TL-KT |
 | 10 | Danh mục điều khoản Thông tư 200/2014/TT-BTC còn hiệu lực về kế toán cổ phần hóa doanh nghiệp Nhà nước | đã đối chiếu bản gốc cả về việc còn hiệu lực và về nội dung chi tiết;<br>bản gốc đã có tại `05_PhapLuat/KeToan/200_2014_TT-BTC_263599_HETHIEULUC.md` | TL-KT |
-| 11 | Nghị định của Chính phủ quy định danh mục chi tiết từng loại tài liệu kế toán phải lưu trữ, thời điểm tính thời hạn lưu trữ, nơi lưu trữ và thủ tục tiêu hủy, theo khoản 6 Điều 41 Luật Kế toán | chưa xác minh được, xem mục 6.11. Ba mốc 05 năm, 10 năm, vĩnh viễn đã đối chiếu bản gốc | TL-KT |
+| 11 | Nghị định của Chính phủ quy định danh mục chi tiết từng loại tài liệu kế toán phải lưu trữ, thời điểm tính thời hạn lưu trữ, nơi lưu trữ và thủ tục tiêu hủy, theo khoản 6 Điều 41 Luật Kế toán | chưa xác minh được, xem mục 5.11. Ba mốc 05 năm, 10 năm, vĩnh viễn đã đối chiếu bản gốc | TL-KT |
 | 12 | Nghị định xử phạt vi phạm hành chính trong lĩnh vực kế toán | chưa xác minh được. Trong khi chưa có, tuyệt đối không nêu mức phạt nào với khách | TL-KT |
 
 ---
@@ -746,4 +721,4 @@ Trách nhiệm tổ chức bảo quản, lưu trữ tài liệu kế toán thu�
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.0.2 | Sửa lối tự sự ở so sánh quyền tự quyết. |

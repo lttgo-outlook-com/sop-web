@@ -4,19 +4,15 @@ code: "TH-01"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-TTT-05 Cách làm phiếu thao tác"
-law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - TH-01
 tags:
@@ -29,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | TH-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -40,6 +36,7 @@ tags:
 | **Ai dùng** | Kế toán viên phụ trách (`KTV`), Trưởng nhóm Kế toán (`TL-KT`), Kế toán trưởng (`KTT`) |
 | **Sinh từ** | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]];<br>[[13_Lich_tuan_thu_va_quy_trinh_khai_nop\|OBK-HB-13]];<br>[[PL_A_Bang_kiem\|OBK-HB-PL-A]] |
 | **Ngày làm phiếu** | 27/09/2026 |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
@@ -115,24 +112,7 @@ Bảng theo dõi được cập nhật liên tục bởi các `KTV` và tổng h
 
 Loại trừ triệt để nguy cơ trễ hạn nộp tờ khai và trễ hạn nộp tiền thuế của khách hàng, phòng ngừa tiền chậm nộp 0,03%/ngày và các mức xử phạt vi phạm hành chính về thuế từ 2.000.000 đồng đến 25.000.000 đồng theo quy định của pháp luật quản lý thuế.
 
-### 2. Căn cứ quy định và pháp luật liên quan
 
-| Mục | Nguồn | Nội dung |
-| --- | --- | --- |
-| Quy trình kế toán | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] | Chuẩn hóa quy trình cung ứng dịch vụ kế toán và khai thuế |
-| Lịch tuân thủ | [[13_Lich_tuan_thu_va_quy_trinh_khai_nop\|OBK-HB-13]] | Toàn văn thời hạn nộp tờ khai, nộp tiền và đếm số ngày chậm nộp |
-| Bảng kiểm soát | [[PL_A_Bang_kiem\|OBK-HB-PL-A]] | Bảng kiểm soát kỹ thuật đối với từng sắc thuế GTGT, TNCN, TNDN |
-
-## Căn cứ pháp luật
-
-| # | Văn bản | Điều khoản | Nội dung áp dụng |
-| --- | --- | --- | --- |
-| 1 | Luật Quản lý thuế số 108/2025/QH15 | Điều 12, Điều 14, Điều 16 | Hồ sơ khai thuế, thời hạn nộp tiền thuế và quy định về tiền chậm nộp |
-| 2 | Nghị định số 252/2026/NĐ-CP | Điều 10 | Thời hạn nộp hồ sơ khai thuế theo tháng (ngày 20 tháng tiếp theo), theo quý (ngày cuối cùng tháng đầu quý tiếp theo), và quyết toán năm (ngày thứ 90 sau kết thúc năm tài chính) |
-| 3 | Nghị định số 252/2026/NĐ-CP | Điều 24 khoản 2 | Thời hạn tạm nộp thuế TNDN theo quý: ngày 30/04, 31/07, 31/10 và 31/01 năm sau; tổng 04 quý đạt tối thiểu 80% |
-| 4 | Nghị định số 252/2026/NĐ-CP | Điều 3 khoản 7 | Quy tắc lùi mốc thời hạn sang ngày làm việc liền kề khi ngày cuối cùng trùng ngày nghỉ theo quy định |
-| 5 | Thông tư số 89/2026/TT-BTC | Điều 11, Điều 19, Điều 21, Điều 22 | Thủ tục giao dịch thuế điện tử, biểu mẫu tờ khai GTGT, TNDN và TNCN |
-| 6 | Nghị định số 125/2020/NĐ-CP | Điều 13, Điều 14 | Khung xử phạt vi phạm hành chính về hành vi chậm nộp hồ sơ khai thuế |
 
 ---
 
@@ -140,4 +120,4 @@ Loại trừ triệt để nguy cơ trễ hạn nộp tờ khai và trễ hạn 
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu TH-01 về Sổ cái OBK-MSR |

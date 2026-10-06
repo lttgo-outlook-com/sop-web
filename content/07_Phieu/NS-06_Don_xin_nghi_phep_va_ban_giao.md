@@ -4,19 +4,15 @@ code: "NS-06"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.0.0"
+version: "R.1.2.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-TTT-05 Cách làm phiếu thao tác"
-law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - NS-06
 tags:
@@ -31,7 +27,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | NS-06 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.2.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -42,6 +38,7 @@ tags:
 | **Ai dùng** | Người lao động, Người nhận bàn giao, Quản lý trực tiếp (`TL`), Giám đốc Vận hành (`COO`), Chuyên viên Nhân sự (`HR`) |
 | **Sinh từ** | [[07_Chinh_sach_cong_chuan_va_cham_cong\|OBK-QCNS-07]] mục 7, [[02_Quy_che_tien_luong_va_tien_thuong_noi_bo\|OBK-QCNS-02]] |
 | **Ngày làm phiếu** | 27/09/2026 |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ---
 
@@ -50,8 +47,7 @@ tags:
 Áp dụng khi người lao động có nhu cầu nghỉ việc tạm thời theo chế độ nghỉ phép năm, nghỉ việc riêng có hưởng lương, nghỉ việc riêng không hưởng lương hoặc nghỉ hưởng chế độ bảo hiểm xã hội (ốm đau, thai sản).
 
 Phiếu phải được lập, hoàn thành bàn giao công việc và gửi phê duyệt theo đúng thời hạn quy định:
-- Nghỉ từ 01 đến 02 ngày làm việc: Gửi trước ít nhất 02 ngày làm việc;
-- Nghỉ từ 03 ngày làm việc trở lên: Gửi trước ít nhất 05 ngày làm việc;
+- Đơn xin nghỉ phép: nộp trước ít nhất 03 ngày làm việc trước ngày nghỉ, áp dụng cho mọi loại nghỉ, theo Nội Quy Lao Động Điều 7.5.2.
 - Trường hợp ốm đau đột xuất hoặc sự việc bất khả kháng: Thông báo cho Quản lý trực tiếp trước giờ vào ca làm việc và nộp phiếu hoàn thiện ngay trong ngày đầu tiên đi làm trở lại kèm giấy tờ chứng minh hợp lệ.
 
 ---
@@ -125,15 +121,6 @@ Nghỉ phép là quyền lợi hợp pháp của người lao động được q
 1. Xác lập căn cứ chấm công, tính trả tiền lương và quyền lợi bảo hiểm xã hội chính xác, minh bạch;
 2. Ngăn ngừa rủi ro gián đoạn công việc, bảo đảm các cam kết chất lượng dịch vụ (SLA) với khách hàng luôn được duy trì thông qua cơ chế phân công người nhận bàn giao cụ thể.
 
-## Căn cứ pháp luật và quy định nội bộ
-
-| Mục | Căn cứ | Nội dung cốt lõi |
-| --- | --- | --- |
-| Quyền nghỉ hàng năm | Bộ luật Lao động 2019 Điều 113 | Người lao động làm việc đủ 12 tháng được nghỉ 12 ngày làm việc hưởng nguyên lương |
-| Nghỉ việc riêng | Bộ luật Lao động 2019 Điều 115 | Nghỉ kết hôn (03 ngày), con kết hôn (01 ngày), tứ thân phụ mẫu chết (03 ngày) hưởng nguyên lương |
-| Quy định chấm công nội bộ | [[07_Chinh_sach_cong_chuan_va_cham_cong\|OBK-QCNS-07]] mục 7 | Đơn xin nghỉ phép phải có phê duyệt hợp lệ mới được tính là nghỉ phép có hưởng lương |
-| Duy trì cam kết dịch vụ | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 8 | Không để việc chậm trễ do nhân sự vắng mặt làm phát sinh lỗi vi phạm thời hạn |
-| Trách nhiệm bàn giao | [[Noi_quy_lao_dong\|OBK-NQLD]] Điều 6 | Người lao động có nghĩa vụ bàn giao công việc trước khi nghỉ làm việc |
 
 ---
 
@@ -141,4 +128,4 @@ Nghỉ phép là quyền lợi hợp pháp của người lao động được q
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.2.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu NS-06 về Sổ cái OBK-MSR |

@@ -4,19 +4,15 @@ code: "NS-02"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.2.0.0"
+version: "R.2.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-QCNS-08 Khung đánh giá hiệu suất"
-law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - NS-02
 tags:
@@ -29,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | NS-02 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.2.0.0, đang áp dụng |
+| Phiên bản | R.2.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -39,6 +35,7 @@ tags:
 | **Tình trạng** | ĐÃ BÃI BỎ THEO KẾ HOẠCH TINH GIẢN VÀ CHUẨN HÓA SOP |
 | **Ai dùng** | Không còn áp dụng (đã hủy bỏ đánh giá chéo ngang hàng) |
 | **Sinh từ** | [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] mục 3.2 |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 > [!note] ĐÃ BÃI BỎ ĐÁNH GIÁ CHÉO NGANG HÀNG
 > Theo Kế hoạch tinh giản và chuẩn hóa SOP oBacker và [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] mục 3.2, oBacker chính thức bãi bỏ việc đánh giá chéo ngang hàng giữa các đồng nghiệp và bãi bỏ biểu mẫu `NS-02`. Thẩm quyền đánh giá hiệu suất thuộc về Trưởng bộ phận chuyên môn (`TL`) dựa trên dữ liệu thực tế và quan sát trực tiếp, kết hợp bản tự nhận xét của nhân sự ([[NS-01_Phieu_tu_danh_gia_hieu_suat|NS-01]]). Giữ lại trang này làm tài liệu dẫn chiếu lịch sử và đảm bảo tính toàn vẹn liên kết.
@@ -108,4 +105,4 @@ Một điều kiện ghi "không" thì người đánh giá chéo báo quản l�
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.2.0.0 | Ghi nhận bãi bỏ biểu mẫu đánh giá chéo theo chủ trương tinh giản khung đánh giá hiệu suất và OBK-QCNS-08 |
+| 04/10/2026 | R.2.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu NS-02 về Sổ cái OBK-MSR |

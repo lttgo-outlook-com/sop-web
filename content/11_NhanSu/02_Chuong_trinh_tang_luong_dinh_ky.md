@@ -1,24 +1,20 @@
 ---
 title: "CHƯƠNG TRÌNH TĂNG LƯƠNG ĐỊNH KỲ"
-code: "OBK-QCNS-02"
+code: "OBK-QCNS-02-PL-TL"
 type: "sop"
 folder: "11_NhanSu"
 level: "Cấp 2, quy trình bộ phận"
-version: "R.1.0.0"
+version: "R.1.0.1"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 22/09/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-QCNS-00 Bộ tài liệu quản trị nhân sự và vận hành"
 next_review: "Không quá 06 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
-  - OBK-QCNS-02-TL
+  - OBK-QCNS-02-PL-TL
 tags:
   - loai/sop
   - cap/2
@@ -29,9 +25,9 @@ tags:
 
 | Hạng mục | Nội dung |
 | --- | --- |
-| Mã tài liệu | OBK-QCNS-02 |
+| Mã tài liệu | OBK-QCNS-02-PL-TL |
 | Cấp tài liệu | Cấp 2 |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.0.1, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 22/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -50,7 +46,7 @@ oBacker triển khai chương trình tăng lương định kỳ nhằm bảo đ�
 
 Mốc hiệu lực theo [[00_Bo_tai_lieu_quan_tri_nhan_su|OBK-QCNS-00]] mục 2. Tài liệu này không mang mốc hiệu lực riêng.
 
-## 2. HAI CƠ CHẾ TĂNG LƯƠNG
+## 2. CƠ CHẾ TĂNG LƯƠNG
 
 Hai cơ chế dưới đây độc lập với nhau và cộng dồn, không thay thế lẫn nhau.
 
@@ -62,7 +58,7 @@ Hai cơ chế dưới đây độc lập với nhau và cộng dồn, không tha
 
 - Áp dụng cho tất cả nhân viên chính thức, không phân biệt vị trí.
 - Nhân viên phải làm việc đủ ít nhất 2 tháng trong chu kỳ 3 tháng để được xét tăng lương.
-- Kết quả đánh giá dựa trên khung đánh giá hiệu suất đã được công bố tại [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]].
+- Kết quả đánh giá dựa trên khung đánh giá hiệu suất `OBK-QCNS-08` đã được công bố.
 
 Mức tăng theo hiệu suất:
 
@@ -90,7 +86,7 @@ Mức tăng: tăng 6% lương gross hiện tại, permanent, áp dụng vào đ�
 
 - Nhân viên phải có hợp đồng chính thức còn hiệu lực tại thời điểm xét duyệt.
 - Mức tăng hằng năm này cộng dồn với các lần tăng lương định kỳ theo hiệu suất trong năm, không thay thế lẫn nhau.
-- Nhân viên đang bị xử lý kỷ luật lao động, hoặc có hành vi vi phạm kỷ luật lao động chưa được xử lý xong, theo Chương IX [[Noi_quy_lao_dong|OBK-NQLD]], có thể bị hoãn xét cho đến khi tình trạng được giải quyết.
+- Nhân viên đang bị xử lý kỷ luật lao động, hoặc có hành vi vi phạm kỷ luật lao động chưa được xử lý xong theo Chương IX của Nội quy lao động `OBK-NQLD`, có thể bị hoãn xét cho đến khi tình trạng được giải quyết.
 
 ## 3. VÍ DỤ MINH HỌA
 
@@ -122,13 +118,13 @@ Nhân viên D, lương gross ban đầu 9.000.000 đồng một tháng:
 | Cuối chu kỳ quý 1, tháng 3 | Đạt 93%, tăng 2,5% | 9.778.500 đồng |
 | Cuối chu kỳ quý 2, tháng 6 | Đạt từ 100% trở lên, tăng 3,5% | 10.120.748 đồng, cộng 01 ngày phép |
 
-## 4. NHỮNG ĐIỀU PHẢI NHỚ
+## 4. NGUYÊN TẮC ÁP DỤNG
 
 1. Chương trình áp dụng cho tất cả nhân viên chính thức ở mọi vị trí.
 2. Mức tăng lương permanent được duy trì vĩnh viễn, không bị thu hồi sau khi kết thúc chu kỳ đánh giá.
 3. Tăng lương định kỳ theo hiệu suất và tăng lương hằng năm bù trượt giá là hai cơ chế độc lập, áp dụng cộng dồn.
 4. Công ty có quyền điều chỉnh chi tiết chương trình khi tổ chức thay đổi hoặc khi pháp luật lao động thay đổi, và thông báo trước ít nhất 01 tháng.
-5. Việc đánh giá hiệu suất sử dụng khung đánh giá đã được công bố và áp dụng thống nhất cho toàn bộ nhân viên, theo [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]].
+5. Việc đánh giá hiệu suất sử dụng khung đánh giá hiệu suất `OBK-QCNS-08` đã được công bố và áp dụng thống nhất cho toàn bộ nhân viên.
 
 ---
 
@@ -136,4 +132,4 @@ Nhân viên D, lương gross ban đầu 9.000.000 đồng một tháng:
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 02/10/2026 | R.1.0.1 | Đổi mã tài liệu từ OBK-QCNS-02 sang OBK-QCNS-02-PL-TL theo khuôn phụ lục, tách trùng mã với 02_Quy_che_tien_luong, đồng bộ danh sách bí danh |

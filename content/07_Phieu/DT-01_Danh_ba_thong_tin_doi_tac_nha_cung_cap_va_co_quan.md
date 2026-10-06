@@ -4,19 +4,15 @@ code: "DT-01"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-TTT-05 Cách làm phiếu thao tác"
-law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - DT-01
 tags:
@@ -29,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | DT-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -40,6 +36,7 @@ tags:
 | **Ai dùng** | `KTV`, `AD-KT`, `AM`, `TL`, `KTT`, `COO`, `CEO` |
 | **Sinh từ** | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 24, Điều 34, Điều 35;<br>[[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]];<br>[[PL_PM_Dieu_kien_thuong_mai_chuan\|OBK-SOP-PM-PL1]];<br>[[08_OBK-SOP-PM_Chuong_trinh_doi_tac_gioi_thieu_khach_hang\|OBK-SOP-PM]] |
 | **Ngày làm phiếu** | 27/09/2026 |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
@@ -103,7 +100,7 @@ Phân hệ này theo dõi các đối tác liên kết vườn ươm khởi nghi
 
 ### Phân hệ 4. Ngân hàng thương mại mở tài khoản thanh toán của oBacker
 
-Căn cứ Điều 34 [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]], oBacker duy trì tối đa 03 tài khoản ngân hàng hoạt động chính thức:
+oBacker duy trì tối đa 03 tài khoản ngân hàng hoạt động chính thức, mỗi tài khoản có mục đích được ghi rõ trong Danh mục tài khoản do `KTV` lập, `KTT` soát và `TGĐ` duyệt; mở tài khoản thứ tư phải có lý do bằng văn bản (OBK-QCTC-01 Điều 34):
 
 | STT | Tên ngân hàng và chi nhánh | Số tài khoản thanh toán | Tên chủ tài khoản | Mục đích sử dụng tài khoản | Hạn mức giao dịch trực tuyến | Phân quyền thao tác hệ thống | Đầu mối cán bộ quản lý khách hàng |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -138,7 +135,7 @@ Căn cứ Điều 34 [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]], oBack
 ## ĐIỂM KIỂM SOÁT BẮT BUỘC
 
 1. **Điểm kiểm soát KS-DT-01 (Kiểm soát xác thực tài khoản ngân hàng thụ hưởng):** Mọi lệnh chi tiền chuyển khoản cho nhà cung cấp hoặc đối tác chỉ được thực hiện đến số tài khoản đã được xác thực và lưu trong Danh bạ DT-01. Tuyệt đối không chi tiền vào số tài khoản cá nhân của nhân viên bên bán hoặc bên thứ ba nếu không có văn bản ủy quyền hợp pháp.
-2. **Điểm kiểm soát KS-DT-02 (Kiểm soát cơ chế hoa hồng đối tác):** Tỷ lệ hoa hồng giới thiệu khách hàng áp dụng mức chuẩn 10% trên doanh thu thực thu trong 12 tháng theo đúng [[PL_PM_Dieu_kien_thuong_mai_chuan|OBK-SOP-PM-PL1]]. Mọi trường hợp điều chỉnh tỷ lệ khác mức 10% bắt buộc phải có phê duyệt bằng văn bản của `CEO`.
+2. **Điểm kiểm soát KS-DT-02 (Kiểm soát cơ chế hoa hồng đối tác):** Tỷ lệ hoa hồng giới thiệu khách hàng áp dụng mức chuẩn 10% trên doanh thu thực thu trong 12 tháng theo đúng OBK-SOP-PM-PL1. Mọi trường hợp điều chỉnh tỷ lệ khác mức 10% bắt buộc phải có phê duyệt bằng văn bản của `CEO`.
 3. **Điểm kiểm soát KS-DT-03 (Kiểm soát rà soát tài khoản và phân quyền ngân hàng số):** Định kỳ hằng quý theo Điều 35 [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]], `TGĐ` rà soát trực tiếp danh sách người dùng và quyền trên hệ thống ngân hàng điện tử của 03 tài khoản oBacker, bảo đảm tuyệt đối tuân thủ nguyên tắc tách biệt người TẠO lệnh (`KTV`, `KTT`) và người XÁC NHẬN lệnh (`TGĐ`, `Chủ tịch HĐQT`).
 4. **Điểm kiểm soát KS-DT-04 (Kiểm soát tình trạng pháp lý của đối tác):** Định kỳ kiểm tra trạng thái mã số thuế của các nhà cung cấp trước khi lập đề nghị thanh toán; không giao dịch với các đơn vị đã bị cơ quan thuế thông báo không hoạt động tại địa chỉ đăng ký.
 
@@ -160,18 +157,6 @@ Danh bạ DT-01 được lưu giữ dưới dạng cơ sở dữ liệu số t�
 
 Hoạt động vận hành và cung cấp dịch vụ của oBacker liên kết chặt chẽ với các nhà cung ứng công nghệ, cơ quan quản lý Nhà nước, hệ sinh thái khởi nghiệp và các ngân hàng thương mại. Việc thiếu cơ sở dữ liệu gốc tập trung dẫn đến nguy cơ sai lệch thông tin thanh toán, chuyển nhầm tiền, chậm trễ hồ sơ hành chính do sai đầu mối tiếp nhận, hoặc vi phạm chính sách thương mại với đối tác giới thiệu khách hàng. Danh bạ DT-01 chuẩn hóa toàn bộ thông tin đối tác, thiết lập điểm kiểm soát xác thực tài khoản ngân hàng và cơ chế phối hợp thông suốt giữa các bộ phận.
 
-### 2. Căn cứ quy định và pháp luật liên quan
-
-| Mục | Căn cứ | Nội dung trích dẫn hoặc áp dụng |
-| --- | --- | --- |
-| Quy chế tài chính | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 24 | Quản lý đối tác và kiểm soát thanh toán mua sắm dịch vụ nội bộ |
-| Tài khoản và ngân hàng số | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 34, Điều 35 | Quy định mở tối đa 03 tài khoản ngân hàng và cơ chế tách quyền TẠO và XÁC NHẬN lệnh |
-| Quy trình mua sắm | [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] | Trình tự lựa chọn nhà cung cấp và đối soát tài khoản thụ hưởng |
-| Chương trình đối tác | [[08_OBK-SOP-PM_Chuong_trinh_doi_tac_gioi_thieu_khach_hang\|OBK-SOP-PM]] và [[PL_PM_Dieu_kien_thuong_mai_chuan\|OBK-SOP-PM-PL1]] | Cơ chế tiếp nhận khách hàng giới thiệu và tỷ lệ hoa hồng 10% trong 12 tháng |
-| Thay đổi tài khoản | [[SC-01_Nhan_thong_bao_doi_so_tai_khoan\|SC-01]] | Quy trình tiếp nhận và xác thực thông báo thay đổi số tài khoản ngân hàng của đối tác |
-| Thanh toán không dùng tiền mặt | Nghị định số 52/2024/NĐ-CP | Quy định về thanh toán không dùng tiền mặt và tài khoản thanh toán của doanh nghiệp |
-| Hóa đơn điện tử | Nghị định số 254/2026/NĐ-CP và Thông tư số 91/2026/TT-BTC | Quản lý, tra cứu và sử dụng hóa đơn điện tử hợp pháp từ nhà cung ứng |
-| Luật Doanh nghiệp | Luật Doanh nghiệp 59/2020/QH14 (VBHN 67/2026/VBHN-VPQH) | Quyền và nghĩa vụ của doanh nghiệp trong quan hệ hợp đồng thương mại |
 
 ---
 
@@ -179,4 +164,4 @@ Hoạt động vận hành và cung cấp dịch vụ của oBacker liên kết 
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu DT-01 về Sổ cái OBK-MSR |

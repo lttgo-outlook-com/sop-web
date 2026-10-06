@@ -4,19 +4,15 @@ code: "OBK-QCNS-08-PL-B"
 type: "sop"
 folder: "11_NhanSu"
 level: "Phụ lục"
-version: "R.1.0.0"
+version: "R.1.0.1"
 status: "đang áp dụng"
-draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 23/09/2026"
+draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-QCNS-08 Khung đánh giá hiệu suất"
 next_review: "Không quá 06 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-QCNS-08-PL-B
 tags:
@@ -31,8 +27,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-QCNS-08-PL-B |
 | Cấp tài liệu | Phụ lục |
-| Phiên bản | R.1.0.0, đang áp dụng |
-| Ngày biên soạn | 01/10/2026 |
+| Phiên bản | R.1.0.1, đang áp dụng |
+| Ngày biên soạn | 04/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 23/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -44,7 +40,7 @@ tags:
 
 ---
 
-Phụ lục này của [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] quy định bốn tiêu chí riêng áp cho vị trí có đầu ra là hồ sơ nộp cơ quan nhà nước hoặc văn bản pháp lý giao khách hàng.
+Phụ lục này của OBK-QCNS-08 quy định bốn tiêu chí riêng áp cho vị trí có đầu ra là hồ sơ nộp cơ quan nhà nước hoặc văn bản pháp lý giao khách hàng.
 
 ---
 
@@ -60,7 +56,7 @@ Phụ lục này của [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] quy định b
 
 ---
 
-## 2. BỐN TIÊU CHÍ RIÊNG CỦA CÔNG VIỆC DẠNG HỒ SƠ
+## 2. TIÊU CHÍ RIÊNG CỦA CÔNG VIỆC DẠNG HỒ SƠ
 
 Bốn tiêu chí dưới đây cộng vào phần A. Trọng số phần A chia lại theo mục 3.
 
@@ -82,7 +78,7 @@ Bốn tiêu chí dưới đây cộng vào phần A. Trọng số phần A chia 
 
 Định mức của HS-03 lấy từ mục tiêu của `CS-08` tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 11.1. Mục tiêu đó là mục tiêu chung của bộ phận, không phân theo bậc.
 
-Khoảng làm trước tối thiểu theo NT-6 tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]], dùng để tính HS-03:
+Khoảng làm trước tối thiểu theo NT-6 tại OBK-SOP-00, dùng để tính HS-03:
 
 | Loại đầu ra | Khoảng làm trước tối thiểu |
 | --- | --- |
@@ -94,7 +90,7 @@ Khoảng làm trước tối thiểu theo NT-6 tại [[01_OBK-SOP-00_Chuan_van_h
 
 ## 3. TRỌNG SỐ PHẦN A KHI ÁP TIÊU CHÍ RIÊNG CỦA CÔNG VIỆC DẠNG HỒ SƠ
 
-Bốn tiêu chí HS-01 tới HS-04 chiếm 25% của phần A. Chín tiêu chí lõi giữ nguyên tỷ lệ tương đối với nhau trong 75% còn lại của phần A. Trọng số của từng tiêu chí lõi trong phần A đặt tại [[08_PL_A_Thang_cham_tieu_chi_chung|OBK-QCNS-08-PL-A]] mục 1.
+Bốn tiêu chí HS-01 tới HS-04 chiếm 25% của phần A. Chín tiêu chí lõi giữ nguyên tỷ lệ tương đối với nhau trong 75% còn lại của phần A. Trọng số của từng tiêu chí lõi trong phần A đặt tại OBK-QCNS-08-PL-A mục 1.
 
 | Nhóm | Trọng số trong phần A |
 | --- | --- |
@@ -114,10 +110,10 @@ Căn cứ của mọi trọng số trong mục này: con số oBacker tự đặ
 
 ---
 
-## 4. HAI TRƯỜNG HỢP RIÊNG
+## 4. CÁC TRƯỜNG HỢP RIÊNG
 
-1. Bộ phận Dịch vụ pháp lý không có Job nào mang thời hạn theo pháp luật, trừ Job `LS-17`, là loại Job duy nhất có hạn do cơ quan nhà nước ghi trên văn bản. HS-03 chỉ áp cho Job `LS-17`, và HS-01 không áp. Cách áp này theo quy tắc tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 11.1a.
-2. Bộ phận Nghiên cứu và Phát triển pháp lý không có khách và không có thời hạn theo pháp luật. Cả bốn tiêu chí HS-01 tới HS-04 không áp cho bộ phận này. Trong tám chỉ số chung tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 11.1, bộ phận này chỉ áp `CS-04` và `CS-05`, ứng với tiêu chí A-01 và A-02 của phần lõi, theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 11.1a.
+1. Bộ phận Dịch vụ pháp lý không có Job nào mang thời hạn theo pháp luật, trừ Job `LS-17`, là loại Job duy nhất có hạn do cơ quan nhà nước ghi trên văn bản. HS-03 chỉ áp cho Job `LS-17`, và HS-01 không áp. Cách áp này theo quy tắc tại OBK-SOP-00 mục 11.1a.
+2. Bộ phận Nghiên cứu và Phát triển pháp lý không có khách và không có thời hạn theo pháp luật. Cả bốn tiêu chí HS-01 tới HS-04 không áp cho bộ phận này. Trong tám chỉ số chung tại OBK-SOP-00 mục 11.1, bộ phận này chỉ áp `CS-04` và `CS-05`, ứng với tiêu chí A-01 và A-02 của phần lõi, theo OBK-SOP-00 mục 11.1a.
 
 Vị trí không áp một tiêu chí thì phiếu vị trí tại [[08_PL_E_Phieu_vi_tri|OBK-QCNS-08-PL-E]] ghi rõ tiêu chí đó là không áp, kèm lý do bằng một câu. Lý do là lý do về bản chất của công việc. Tiêu chí để trống trên phiếu vị trí vẫn áp.
 
@@ -127,9 +123,9 @@ Vị trí không áp một tiêu chí thì phiếu vị trí tại [[08_PL_E_Phi
 
 Lỗi nội dung pháp lý không có tiêu chí riêng. Loại lỗi đó ánh xạ về ba mức tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 11.2 và tính vào tiêu chí A-02.
 
-Sai căn cứ pháp luật, sai thông tin pháp lý, sai chủ thể, nộp sai cơ quan đều thuộc mức Nghiêm trọng. Một lỗi mức Nghiêm trọng lọt ra ngoài kích hoạt quy tắc chặn điểm `CD-03` tại [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] mục 5.
+Sai căn cứ pháp luật, sai thông tin pháp lý, sai chủ thể, nộp sai cơ quan đều thuộc mức Nghiêm trọng. Một lỗi mức Nghiêm trọng lọt ra ngoài kích hoạt quy tắc chặn điểm `CD-03` tại OBK-QCNS-08 mục 5.
 
-Dẫn một mã căn cứ chưa đối chiếu bản gốc hoặc chưa xác minh được trong tài liệu gửi khách kích hoạt quy tắc chặn điểm `CD-05` tại [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] mục 5, không phụ thuộc vào việc nội dung đó đúng hay sai. Trả lời bằng trí nhớ là vi phạm NT-1 tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]], kể cả khi câu trả lời đúng.
+Dẫn một mã căn cứ chưa đối chiếu bản gốc hoặc chưa xác minh được trong tài liệu gửi khách kích hoạt quy tắc chặn điểm `CD-05` tại OBK-QCNS-08 mục 5, không phụ thuộc việc nội dung đó đúng hay sai. Trả lời bằng trí nhớ là vi phạm NT-1 tại OBK-SOP-00, kể cả khi câu trả lời đúng.
 
 ---
 
@@ -137,4 +133,4 @@ Dẫn một mã căn cứ chưa đối chiếu bản gốc hoặc chưa xác min
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.0.1 | Sửa lối tự sự ở tiêu chí công việc đăng hồ sơ. |

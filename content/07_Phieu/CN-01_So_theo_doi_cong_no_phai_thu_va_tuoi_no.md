@@ -4,19 +4,15 @@ code: "CN-01"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-TTT-05 Cách làm phiếu thao tác"
-law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - CN-01
 tags:
@@ -29,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | CN-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -40,17 +36,18 @@ tags:
 | **Ai dùng** | `KTV`, `AM`, `KTT`, `TP Thương mại` |
 | **Sinh từ** | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 15, Điều 16, Điều 33;<br>Quyết định chỉ đạo `VQ-15`, `VQ-16`;<br>[[OBK-SOP-NB-02_Thu_tien_va_cong_no_phai_thu\|OBK-SOP-NB-02]];<br>[[19_Giao_tiep_khach_hang\|OBK-SOP-19]] mục 6.8 |
 | **Ngày làm phiếu** | 27/09/2026 |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
-Sổ theo dõi công nợ phải thu và tuổi nợ áp dụng cho toàn bộ các khoản phải thu từ khách hàng sử dụng dịch vụ của oBacker, bao gồm các hợp đồng dịch vụ trọn gói trả sau đã được `CEO` phê duyệt riêng theo Điều 15 [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]], các đơn hàng dịch vụ phát sinh ngoài gói và các khoản tạm ứng dịch vụ hành chính công ủy quyền.
+Sổ theo dõi công nợ phải thu và tuổi nợ áp dụng cho toàn bộ các khoản phải thu từ khách hàng sử dụng dịch vụ của oBacker, bao gồm các hợp đồng dịch vụ trọn gói trả sau đã được `CEO` phê duyệt riêng theo OBK-QCTC-01 Điều 15, các đơn hàng dịch vụ phát sinh ngoài gói và các khoản tạm ứng dịch vụ hành chính công ủy quyền.
 
 Sổ được `KTV` cập nhật định kỳ hằng tuần vào ngày làm việc đầu tuần (thứ Hai) và rà soát biến động sau mỗi đợt đối chiếu sao kê ngân hàng.
 
 Quy định phân vai trò khi theo dõi và nhắc nợ:
 1. `KTV` lập bảng số liệu chi tiết, tính toán tuổi nợ và xác định các khoản nợ đến hạn nhắc nhở;
 2. `KTT` giám sát, phê duyệt số liệu đối soát công nợ;
-3. Chuyên viên Quản lý khách hàng (`AM`) là **đầu mối duy nhất** liên hệ, gửi thông báo và làm việc với khách hàng về công nợ theo đúng chỉ đạo tại quyết định `VQ-15` và quy định tại Điều 16 [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]]. `KTV`, `KTT` và `TL` không trực tiếp liên hệ khách hàng về nội dung công nợ.
+3. Chuyên viên Quản lý khách hàng (`AM`) là **đầu mối duy nhất** liên hệ, gửi thông báo và làm việc với khách hàng về công nợ theo đúng chỉ đạo tại quyết định `VQ-15` và quy định tại OBK-QCTC-01 Điều 16. `KTV`, `KTT` và `TL` không trực tiếp liên hệ khách hàng về nội dung công nợ.
 
 ## PHÂN LOẠI 5 NHÓM TUỔI NỢ
 
@@ -86,7 +83,7 @@ Bảng theo dõi gồm các trường thông tin chuẩn hóa:
 | 14 | Chuyên viên phụ trách (`AM`) | Họ tên chuyên viên quản lý khách hàng |
 | 15 | Kết quả phản hồi gần nhất | Ngày liên hệ, người tiếp nhận phía khách hàng và hạn cam kết thanh toán |
 
-## QUY TRÌNH 6 MỐC NHẮC NỢ DO ĐẦU MỐI AM THỰC HIỆN
+## QUY TRÌNH NHẮC NỢ DO ĐẦU MỐI AM THỰC HIỆN
 
 Căn cứ quy định tại Điều 16 [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] và chỉ đạo `VQ-16`, quy trình đôn đốc thu hồi nợ gồm 06 mốc bắt buộc:
 
@@ -156,16 +153,6 @@ Sổ theo dõi công nợ được `KTV` lập và cập nhật hàng tuần. B�
 
 Công nợ tồn đọng gây rủi ro thiếu hụt dòng tiền hoạt động và phát sinh chi phí quản lý nợ xấu. Việc phân loại công nợ theo 5 nhóm tuổi nợ và áp dụng quy trình 6 mốc nhắc nợ bảo đảm tính kỷ luật thu hồi tiền, phân định rõ trách nhiệm giữa khâu đối soát số liệu (Kế toán) và khâu tiếp xúc đôn đốc (AM), đồng thời cung cấp đầy đủ căn cứ pháp lý phục vụ việc trích lập dự phòng nợ phải thu khó đòi theo đúng quy định của pháp luật thuế và chế độ kế toán.
 
-### 2. Căn cứ quy định và pháp luật liên quan
-
-| Mục | Căn cứ | Nội dung trích dẫn hoặc áp dụng |
-| --- | --- | --- |
-| Quy chế tài chính | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 15, Điều 16, Điều 33 | Chính sách bán chịu, thu hồi nợ và kiểm soát dòng tiền |
-| Chỉ đạo điều hành | Quyết định chỉ đạo `VQ-15`, `VQ-16` | Quy định vai trò `AM` là đầu mối duy nhất nhắc nợ và thiết lập 6 mốc đôn đốc |
-| Quy trình thu tiền | [[OBK-SOP-NB-02_Thu_tien_va_cong_no_phai_thu\|OBK-SOP-NB-02]] | Trình tự theo dõi công nợ, đối chiếu tài khoản và xử lý chênh lệch |
-| Giao tiếp khách hàng | [[19_Giao_tiep_khach_hang\|OBK-SOP-19]] mục 6.8 | Khuôn mẫu văn bản nhắc phí và trình tự thông báo tạm dừng dịch vụ |
-| Chế độ kế toán doanh nghiệp | Thông tư số 99/2025/TT-BTC Tài khoản 2293 | Nguyên tắc và tỷ lệ trích lập dự phòng nợ phải thu khó đòi theo tuổi nợ |
-| Pháp luật dự phòng | Thông tư số 48/2019/TT-BTC Điều 6 (sửa đổi bởi Thông tư 24/2022/TT-BTC) | Điều kiện ghi nhận chi phí dự phòng nợ phải thu khó đòi được trừ thuế TNDN |
 
 ---
 
@@ -173,4 +160,4 @@ Công nợ tồn đọng gây rủi ro thiếu hụt dòng tiền hoạt động
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu CN-01 về Sổ cái OBK-MSR |

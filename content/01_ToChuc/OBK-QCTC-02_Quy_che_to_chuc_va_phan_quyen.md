@@ -4,17 +4,15 @@ code: "OBK-QCTC-02"
 type: "sop"
 folder: "01_ToChuc"
 level: "Cấp 1, văn bản KHUNG toàn công ty"
-version: "R.1.0.0"
+version: "R.1.0.2"
 status: "đang áp dụng"
-draft_date: "01/10/2026"
+draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
 approver: "CEO"
 parent: ""
-law_as_of: "Pháp luật có hiệu lực tại ngày 01/10/2026"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-QCTC-02
 tags:
@@ -27,8 +25,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-QCTC-02 |
 | Cấp tài liệu | Cấp 1, quy chế khung, song song [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] |
-| Phiên bản | R.1.0.0, đang áp dụng |
-| Ngày biên soạn | 01/10/2026 |
+| Phiên bản | R.1.0.2, đang áp dụng |
+| Ngày biên soạn | 04/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
 | Người phê duyệt | CEO (Lê Trọng Tuấn) |
@@ -75,7 +73,7 @@ Junior và Senior là cấp độ nhân viên, không phải position, không xu
 
 ## CHƯƠNG 2. CƠ CẤU TỔ CHỨC
 
-### Điều 4. Ba lớp
+### Điều 4. Phân định cơ cấu tổ chức
 
 | Lớp | Gồm | Chức năng |
 | --- | --- | --- |
@@ -109,9 +107,9 @@ Sơ đồ chính thức là tệp `OrgChart/obk_org_chart.dot` cùng bản kết
 
 Phòng Dịch vụ không có position Head of Delivery riêng. `COO` trực tiếp phụ trách.
 
-### Điều 7. Hai văn phòng
+### Điều 7. Địa điểm làm việc
 
-oBacker có hai văn phòng tại Đà Nẵng và Thành phố Hồ Chí Minh, cộng nhân sự làm việc từ xa. Văn phòng là ĐỊA ĐIỂM LÀM VIỆC, không phải lớp tổ chức: không có trưởng văn phòng, không có thẩm quyền theo văn phòng. Thẩm quyền chạy theo Phòng và Bộ phận.
+oBacker có hai văn phòng tại Đà Nẵng và Thành phố Hồ Chí Minh, cộng nhân sự làm việc từ xa. Văn phòng là ĐỊA ĐIỂM LÀM VIỆC, không phải lớp tổ chức: không có trưởng văn phòng, không có thẩm quyền theo văn phòng. Thẩm quyền theo Phòng và Bộ phận.
 
 ### Điều 8. Người ngoài biên chế
 
@@ -192,7 +190,7 @@ Nghĩa vụ riêng:  ba nghĩa vụ Luật Kế toán không ai ký thay đượ
                  công tác kế toán, chữ ký trên BCTC, tổ chức bảo quản lưu trữ
                  tài liệu kế toán. Dẫn chiếu 41/VBHN-VPQH Đ.50, Đ.29 k.2 đ.d,
                  Đ.41 k.4, và trách nhiệm liên đới tại Đ.50 k.3
-Quy tắc dùng:    chữ ký thứ ba trên BCTC là của người ĐANG được ghi là NĐDPL
+Quy tắc áp dụng: chữ ký thứ ba trên BCTC là của người ĐANG được ghi là NĐDPL
                  trên GCN đăng ký doanh nghiệp TẠI THỜI ĐIỂM KÝ
 Hiện trạng:      GCN mã số doanh nghiệp 0402298185, đăng ký lần đầu 10/09/2025,
                  đăng ký thay đổi lần thứ 2 ngày 31/07/2026, ghi một NĐDPL,
@@ -432,8 +430,8 @@ Không có quyền:  cam kết mốc trực tiếp với khách; đứng tên K�
                  KHÁCH trên BCTC của khách, trừ trường hợp CEO duyệt riêng
                  từng khách bằng văn bản
 Đầu ra:          tờ khai đúng và đúng hạn, sổ khớp, hồ sơ đủ khi thanh kiểm
-Cảnh báo:        TL-KT và CV-KT thuộc MIỀN DỊCH VỤ. Handbook Kế toán đã đổi
-                 KTT thành TL-KT và KTV thành CV-KT ngày 02/09/2026
+Cảnh báo:        TL-KT và CV-KT thuộc MIỀN DỊCH VỤ (Quy ước TL-KT thay thế
+                 KTT và CV-KT thay thế KTV trong tài liệu dịch vụ).
 ```
 
 ##### AD-KT, Hành chính Kế toán
@@ -587,7 +585,7 @@ Bốn cột mỗi dòng: ai đề xuất; ai quyết; ai phải được hỏi; 
 
 Nếu người quyết chốt mà chưa lấy ý kiến vai trò ghi ở cột "phải được hỏi" thì quyết định đó không có hiệu lực nội bộ, và người quyết chịu trách nhiệm về hậu quả.
 
-### Điều 12. Ba việc không ai được tự quyết
+### Điều 12. Giới hạn thẩm quyền tự quyết
 
 1. `CEO` không bác bỏ kết luận khả thi của `COO` bằng thẩm quyền. `CEO` đổi được đầu vào rồi hỏi lại, không đổi được câu trả lời.
 2. `AM` không cam kết mốc mà `TL` bộ phận chưa xác nhận bằng văn bản trên Job.
@@ -595,9 +593,9 @@ Nếu người quyết chốt mà chưa lấy ý kiến vai trò ghi ở cột "
 
 Chi tiết và nguồn: `PL_Ma_tran_phan_quyen.md` mục 7.
 
-### Điều 13. Bốn nhóm việc thuộc CEO ở mọi tình huống
+### Điều 13. Thẩm quyền quyết định riêng của CEO
 
-Nhận khách mới có yếu tố rủi ro; từ chối khách; chấm dứt hợp đồng dịch vụ trước hạn; mọi việc thuộc hành vi oBacker nghiêm cấm nêu tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 9.
+Nhận khách mới có yếu tố rủi ro; từ chối khách; chấm dứt hợp đồng dịch vụ trước hạn; mọi việc thuộc hành vi oBacker nghiêm cấm nêu tại OBK-SOP-00 mục 9.
 
 ---
 
@@ -619,14 +617,14 @@ Các chỗ kiêm nhiệm hiện có, kèm quy tắc bù cho từng chỗ: `PL_Ch
 
 ## CHƯƠNG 6. NGUYÊN TẮC VẬN HÀNH
 
-### Điều 16. Bốn nguyên tắc
+### Điều 16. Nguyên tắc vận hành
 
 1. **Đầu mối khách hàng thống nhất.** Bộ phận AM là đầu mối tiếp xúc duy nhất với khách trong toàn bộ hành trình, gồm cả trước và sau bán hàng. Các bộ phận trong Phòng Dịch vụ, Legal R&D và Công nghệ và Sản phẩm không trực tiếp làm việc với khách.
 2. **Vai trò kiến tạo của R&D.** Legal R&D và Công nghệ và Sản phẩm xây quy trình, nghiệp vụ và công cụ hỗ trợ Phòng Dịch vụ; không cung cấp dịch vụ trực tiếp cho khách.
 3. **Trách nhiệm chất lượng.** Trưởng bộ phận chịu trách nhiệm về chất lượng đầu ra của bộ phận mình. Công ty không thiết lập bộ phận kiểm soát chất lượng độc lập.
 4. **Mục tiêu đến hết 2026.** Ổn định bộ máy vận hành để `BOM` tập trung nguồn lực cho phát triển thương mại theo định hướng đối tác, trọng điểm tại Đà Nẵng.
 
-### Điều 17. Ranh giới hai cặp dễ đi sai địa chỉ
+### Điều 17. Phân định ranh giới xử lý công việc
 
 | Việc | Của KHÁCH thì về | Của OBACKER thì về |
 | --- | --- | --- |
@@ -652,13 +650,13 @@ Sửa các phụ lục:
 | `PL_Chuyen_len_cap_tren.md` | `COO` | `CEO` |
 | `PL_Anh_xa_nhan_su.md` | HR Generalist | `CEO` |
 
-### Điều 19. Bốn kết luận về bố trí nhân sự kế toán
+### Điều 19. Bố trí nhân sự kế toán và xử lý dữ liệu
 
-19.1. **Team Lead bộ phận không phải người quản lý, điều hành theo Luật Kế toán.** Người giữ vai trò `KTT` kiêm `TL-KT` không vi phạm `[Luật Kế toán 41/VBHN-VPQH Đ.13 k.7]` và `[Đ.52 k.4]`. Danh sách người kiêm nhiệm tại [[PL_Anh_xa_nhan_su|OBK-QCTC-02-PL-D]] mục F.
+19.1. **Team Lead bộ phận không phải người quản lý, điều hành.** Người giữ vai trò `KTT` kiêm `TL-KT` được giữ kiêm nhiệm, vì ràng buộc khi bố trí người làm kế toán chỉ áp cho người quản lý, điều hành. Danh sách người kiêm nhiệm tại OBK-QCTC-02-PL-D mục F.
 
 19.2. **Ràng buộc đi kèm kết luận tại mục 19.1:** không đưa chức danh Trưởng bộ phận hoặc Team Lead vào danh sách người quản lý, điều hành của bất kỳ văn bản nội bộ nào. Đưa vào thì kết luận tại mục 19.1 hết áp dụng và việc kiêm nhiệm thành vi phạm điều cấm.
 
-19.3. **Quan hệ thân thích theo `[Luật Kế toán 41/VBHN-VPQH Đ.52 k.3]`:** tại ngày 02/09/2026, giữa người giữ `KTT`, `KTV` với `NĐDPL` và `TGĐ` không có quan hệ thân thích. Kiểm lại mỗi lần đổi người ở bốn vai trò này, và đưa nội dung kiểm vào quy trình tuyển dụng khi quy trình đó được dựng.
+19.3. **Quan hệ thân thích theo `[Luật Kế toán 41/VBHN-VPQH Đ.52 k.3]`:** giữa người giữ vai trò `KTT`, `KTV` với `NĐDPL` và `TGĐ` không có quan hệ thân thích. Bộ phận Nhân sự chịu trách nhiệm kiểm tra, rà soát và xác nhận bằng văn bản điều kiện này định kỳ và mỗi khi có thay đổi nhân sự tại các vai trò trên.
 
 19.4. **Tư cách của oBacker với dữ liệu khách hàng cung cấp để làm dịch vụ:** oBacker là Bên xử lý dữ liệu, theo định nghĩa "cơ quan, tổ chức, cá nhân thực hiện việc xử lý dữ liệu cá nhân theo yêu cầu của bên kiểm soát dữ liệu cá nhân... thông qua hợp đồng" `[Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15 Đ.2 k.8]`. Nghĩa vụ của Bên xử lý dữ liệu: chỉ tiếp nhận dữ liệu cá nhân sau khi có thỏa thuận, hợp đồng về xử lý dữ liệu cá nhân với khách (Bên kiểm soát); xử lý đúng thỏa thuận, hợp đồng đã ký; thực hiện đầy đủ các biện pháp bảo vệ dữ liệu cá nhân; chịu trách nhiệm trước khách về thiệt hại do quá trình xử lý gây ra; ngăn chặn hoạt động thu thập dữ liệu cá nhân trái phép từ hệ thống của mình; phối hợp cơ quan nhà nước có thẩm quyền khi được yêu cầu `[Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15 Đ.37 k.2]`. Khi phát hiện hành vi vi phạm, oBacker thông báo kịp thời cho khách; oBacker không tự thông báo trực tiếp cho cơ quan chuyên trách bảo vệ dữ liệu cá nhân `[Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15 Đ.23 k.1]`.
 
@@ -668,13 +666,13 @@ Rà soát toàn bộ quy chế và các phụ lục mỗi 06 tháng, hoặc ngay
 
 Người chủ trì rà soát: `COO`. Legal R&D soát phần pháp lý.
 
-### Điều 21. Quy chế này không chờ Điều lệ
+### Điều 21. Hiệu lực thi hành và quan hệ với Điều lệ
 
-`CEO` chốt ngày 02/09/2026: quy chế này ban hành và áp dụng ngay, không chờ Điều lệ được cập nhật.
+Quy chế này ban hành và áp dụng ngay theo thẩm quyền hiện hành, không phụ thuộc tiến độ cập nhật Điều lệ.
 
-Hệ quả và cách xử lý ba chỗ mà Điều lệ đang lạc hậu hơn GCN đăng ký doanh nghiệp:
+Xử lý các nội dung khác biệt giữa Điều lệ và Giấy chứng nhận đăng ký doanh nghiệp:
 
-| Chỗ lệch | Quy chế này lấy theo | Lý do |
+| Nội dung | Căn cứ áp dụng | Lý do |
 | --- | --- | --- |
 | Vốn điều lệ và số cổ phần | GCN | Thực hiện theo Giấy chứng nhận đăng ký doanh nghiệp có hiệu lực tại thời điểm áp dụng |
 | Chức danh của `NĐDPL` | GCN, tức Chủ tịch Hội đồng quản trị | Thực hiện theo Giấy chứng nhận đăng ký doanh nghiệp hiện hành |
@@ -682,9 +680,9 @@ Hệ quả và cách xử lý ba chỗ mà Điều lệ đang lạc hậu hơn G
 
 Dữ liệu pháp lý doanh nghiệp được đối chiếu và áp dụng trực tiếp theo Giấy chứng nhận đăng ký doanh nghiệp mới nhất.
 
-Ba mốc thẩm quyền theo giá trị tài sản tại `Điều lệ Đ.24 k.2 đ.d` và `Đ.25 k.2 đ.h` vẫn dùng nguyên, vì GCN không quy định về thẩm quyền và không có văn bản nào khác thay thế.
+Các mốc thẩm quyền theo giá trị tài sản quy định tại Điều lệ (`Điều lệ Đ.24 k.2 đ.d` và `Đ.25 k.2 đ.h`) giữ nguyên hiệu lực áp dụng do Giấy chứng nhận đăng ký doanh nghiệp không điều chỉnh thẩm quyền nội bộ.
 
-Khi Điều lệ được cập nhật, người chủ trì rà soát mở Phụ lục 3 của [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]], sửa theo, và kiểm ràng buộc tại Điều 19 của quy chế này.
+Khi Điều lệ được cập nhật, người chủ trì rà soát mở Phụ lục 3 của OBK-QCTC-01, sửa theo, và kiểm ràng buộc tại Điều 19 của quy chế này.
 
 ---
 
@@ -705,4 +703,4 @@ Khi Điều lệ được cập nhật, người chủ trì rà soát mở Phụ
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.0.2 | Bỏ ghi chú log dựng bản và lối tự sự ở phụ lục nhân sự dẫn chiếu. |

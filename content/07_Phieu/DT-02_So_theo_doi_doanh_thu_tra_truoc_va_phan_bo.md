@@ -4,19 +4,15 @@ code: "DT-02"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-TTT-05 Cách làm phiếu thao tác"
-law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - DT-02
 tags:
@@ -29,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | DT-02 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -40,6 +36,7 @@ tags:
 | **Ai dùng** | Kế toán viên doanh thu (`KTV`), Kế toán trưởng (`KTT`), Trưởng bộ phận Kế toán (`TL-KT`), Chuyên viên Quản lý khách hàng (`AM`), Giám đốc điều hành cấp cao (`CEO`) |
 | **Sinh từ** | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]];<br>[[05_Quy_trinh_ke_toan_thang\|05_Quy_trinh_ke_toan_thang]];<br>[[CN-01_So_theo_doi_cong_no_phai_thu_va_tuoi_no\|CN-01]];<br>`OBK-QCTC-03` Quy chế kế toán nội bộ;<br>Thông tư 99/2025/TT-BTC |
 | **Ngày làm phiếu** | 27/09/2026 |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
@@ -86,7 +83,7 @@ Sổ phản ánh rành mạch giữa doanh thu chưa thực hiện (Tài khoản
 
 ### 1. Phân biệt doanh thu thực hiện (TK 511) và doanh thu chưa thực hiện (TK 3387)
 
-Theo quy định tại Điều 11 Thông tư 99/2025/TT-BTC (hướng dẫn hạch toán Tài khoản 3387 và Tài khoản 511) cùng Quy chế kế toán nội bộ [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]]:
+Theo Quy chế hạch toán kế toán nội bộ OBK-QCTC-03 (hạch toán Tài khoản 3387 và Tài khoản 511):
 - **Doanh thu chưa thực hiện (TK 3387):** Toàn bộ số tiền thu trước của khách hàng cho dịch vụ cung cấp trong nhiều kỳ kế toán (gói dịch vụ 06 tháng, 12 tháng) tuyệt đối không được ghi nhận toàn bộ một lần vào Doanh thu bán hàng và cung cấp dịch vụ (TK 511). Kế toán ghi nhận toàn bộ giá trị chưa thuế vào bên Có Tài khoản 3387.
   * Bút toán khi thu tiền trước và xuất hóa đơn:
     + Nợ TK 112 (Tiền gửi ngân hàng): Tổng số tiền thanh toán gồm thuế.
@@ -113,7 +110,7 @@ Theo quy định của Luật Quản lý thuế số 108/2025/QH15 và Nghị đ
 - Khi khách hàng chuyển khoản thanh toán:
   * Nợ TK 112: Tiền gửi ngân hàng.
   * Có TK 131: Giảm trừ công nợ phải thu của khách hàng.
-- Toàn bộ số dư nợ TK 131 được đối chiếu định kỳ ngày 25 hằng tháng với Sổ theo dõi công nợ và tuổi nợ [[CN-01_So_theo_doi_cong_no_phai_thu_va_tuoi_no|CN-01]].
+- Toàn bộ số dư nợ TK 131 được đối chiếu định kỳ ngày 25 hằng tháng với Sổ theo dõi công nợ và tuổi nợ CN-01.
 
 ### 4. Xử lý khi chấm dứt hợp đồng trước hạn
 
@@ -123,7 +120,7 @@ Trường hợp khách hàng chấm dứt dịch vụ trước hạn khi số d�
    - Nếu hoàn trả lại tiền cho khách hàng: Lập hóa đơn điều chỉnh giảm giá trị về 0 hoặc điều chỉnh giảm giá trị tương ứng trên hệ thống hóa đơn điện tử [[HD-02_So_theo_doi_hoa_don_dien_tu_dau_ra_va_dau_vao|HD-02]]. Ghi Nợ TK 3387, Nợ TK 33311 (giảm thuế đầu ra tương ứng) / Có TK 112.
    - Nếu số tiền trả trước không hoàn lại theo điều khoản hợp đồng: Kết chuyển toàn bộ số dư TK 3387 còn lại sang Thu nhập khác (TK 711) và hạch toán đúng kỳ phát sinh chấm dứt hợp đồng.
 
-## QUY TRÌNH 4 BƯỚC THEO DÕI VÀ PHÂN BỔ DOANH THU ĐỊNH KỲ
+## QUY TRÌNH THEO DÕI VÀ PHÂN BỔ DOANH THU ĐỊNH KỲ
 
 ```
 [1. Tiếp nhận HĐ & Thu tiền] -> [2. Ghi nhận TK 3387 & Hóa đơn] -> [3. Phân bổ hàng tháng TK 511] -> [4. Đối soát & Báo cáo]
@@ -132,7 +129,7 @@ Trường hợp khách hàng chấm dứt dịch vụ trước hạn khi số d�
 1. **Tiếp nhận hợp đồng và thu tiền ban đầu:** `AM` bàn giao hợp đồng cho `KTV`. Kế toán đối chiếu số tiền thực nhận trên sổ phụ ngân hàng [[NH-01_Doi_chieu_ngan_hang|NH-01]].
 2. **Ghi nhận ban đầu và phát hành hóa đơn:** `KTV` lập hóa đơn đầu ra trên [[HD-02_So_theo_doi_hoa_don_dien_tu_dau_ra_va_dau_vao|HD-02]], hạch toán Nợ TK 112 / Có TK 3387 và Có TK 33311, cập nhật dòng dữ liệu vào Bảng DT-02.
 3. **Phân bổ định kỳ ngày cuối tháng:** Vào ngày cuối cùng của từng tháng, `KTV` rà soát danh sách hợp đồng đang hoạt động, lập Bảng kê phân bổ doanh thu, hạch toán Nợ TK 3387 / Có TK 511 cho từng hợp đồng, cập nhật số dư cuối kỳ trên Bảng DT-02.
-4. **Đối soát số liệu và lập báo cáo:** `KTT` kiểm tra số dư TK 3387, TK 511 và TK 131 trên Bảng DT-02, đối chiếu với Bảng cân đối số phát sinh tài khoản tháng và Báo cáo tài chính nội bộ [[TC-01_Bang_theo_doi_dong_tien_va_suc_khoe_tai_chinh|TC-01]], trình `CEO` phê duyệt trước ngày 05 của tháng tiếp theo.
+4. **Đối soát số liệu và lập báo cáo:** `KTT` kiểm tra số dư TK 3387, TK 511 và TK 131 trên Bảng DT-02, đối chiếu với Bảng cân đối số phát sinh tài khoản tháng và Báo cáo tài chính nội bộ TC-01, trình `CEO` phê duyệt trước ngày 05 của tháng tiếp theo.
 
 ## KÝ XÁC NHẬN
 
@@ -148,24 +145,7 @@ Trường hợp khách hàng chấm dứt dịch vụ trước hạn khi số d�
 
 Bảo đảm nguyên tắc phù hợp giữa doanh thu và chi phí trong kế toán; phản ánh trung thực kết quả kinh doanh của từng kỳ kế toán tháng, quý và năm; ngăn chặn việc ghi nhận trước doanh thu khi chưa hoàn thành nghĩa vụ cung cấp dịch vụ; kiểm soát chặt chẽ nghĩa vụ thuế giá trị gia tăng đầu ra và tình hình công nợ phải thu của từng khách hàng theo chuẩn mực kế toán Việt Nam và Thông tư 99/2025/TT-BTC.
 
-### 2. Căn cứ quy định và pháp luật liên quan
 
-| Mục | Nguồn | Nội dung |
-| --- | --- | --- |
-| Quy trình kế toán và thuế | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] | Quy định kỳ kế toán và hạch toán doanh thu dịch vụ |
-| Quy chế kế toán nội bộ | [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-QCTC-03]] | Hệ thống tài khoản và phương pháp hạch toán doanh thu, công nợ |
-| Quy trình kế toán tháng | [[05_Quy_trinh_ke_toan_thang\|05_Quy_trinh_ke_toan_thang]] | Trình tự đối soát và khóa sổ kế toán định kỳ ngày cuối tháng |
-| Sổ theo dõi công nợ | [[CN-01_So_theo_doi_cong_no_phai_thu_va_tuoi_no\|CN-01]] | Quản lý hạn nợ, tuổi nợ và đôn đốc thanh toán công nợ |
-| Sổ theo dõi hóa đơn | [[HD-02_So_theo_doi_hoa_don_dien_tu_dau_ra_va_dau_vao\|HD-02]] | Đối chiếu số hóa đơn phát hành và thuế GTGT đầu ra |
-
-### 3. Căn cứ pháp lý
-
-| Văn bản | Điều khoản | Nội dung áp dụng |
-| --- | --- | --- |
-| Luật Kế toán số 88/2015/QH13 (sửa đổi bởi Luật số 56/2024/QH15) | Điều 6, Điều 12 | Nguyên tắc dồn tích và kỳ kế toán |
-| Luật Quản lý thuế số 108/2025/QH15 | Điều 42 | Nguyên tắc khai thuế và nộp thuế |
-| Thông tư 99/2025/TT-BTC | Điều 11 | Hướng dẫn hạch toán các tài khoản: Tài khoản 131, Tài khoản 33311, Tài khoản 3387 và Tài khoản 511 |
-| Nghị định 254/2026/NĐ-CP | Điều 9 | Thời điểm lập hóa đơn đối với hoạt động cung cấp dịch vụ |
 
 ---
 
@@ -173,4 +153,4 @@ Bảo đảm nguyên tắc phù hợp giữa doanh thu và chi phí trong kế t
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu DT-02 về Sổ cái OBK-MSR |

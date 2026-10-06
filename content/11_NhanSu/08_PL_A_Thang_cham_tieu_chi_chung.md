@@ -1,5 +1,5 @@
 ---
-title: "Thang chấm mười hai tiêu chí chung"
+title: "Thang chấm các tiêu chí chung"
 code: "OBK-QCNS-08-PL-A"
 type: "sop"
 folder: "11_NhanSu"
@@ -7,23 +7,19 @@ level: "Phụ lục"
 version: "R.1.0.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 23/09/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-QCNS-08 Khung đánh giá hiệu suất"
 next_review: "Không quá 06 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-QCNS-08-PL-A
 tags:
   - loai/sop
   - cap/phu-luc
 ---
-# Thang chấm mười hai tiêu chí chung
+# Thang chấm các tiêu chí chung
 
 ## Thông tin phiên bản
 
@@ -72,7 +68,7 @@ Trọng số tại bảng trên là con số oBacker tự đặt.
 
 ---
 
-## 2. HAI BẢNG QUY ĐỔI DÙNG CHUNG CHO PHẦN A
+## 2. BẢNG QUY ĐỔI DÙNG CHUNG CHO PHẦN A
 
 Phần A không có mô tả hành vi theo mức. Điểm của một tiêu chí phần A ra từ số liệu qua một trong hai bảng dưới đây.
 
@@ -109,7 +105,7 @@ Trường hợp mức tối đa của bậc bằng 0 thì áp quy tắc hai dòn
 
 Định mức tại mục này áp cho mọi vị trí dùng phần A. Phiếu vị trí tại [[08_PL_E_Phieu_vi_tri|OBK-QCNS-08-PL-E]] ghi định mức riêng của một tiêu chí phần A thì định mức của phiếu vị trí áp cho vị trí đó.
 
-Chỉ `CEO` điều chỉnh định mức phần A tại mục này và tại phiếu vị trí. Người quản lý khác được đề xuất điều chỉnh với `CEO`. Định mức đã điều chỉnh áp từ kỳ đánh giá sau ngày công bố, theo nguyên tắc minh bạch tại [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] mục 7.
+Chỉ `CEO` điều chỉnh định mức phần A tại mục này và tại phiếu vị trí. Người quản lý khác được đề xuất điều chỉnh với `CEO`. Định mức đã điều chỉnh áp từ kỳ đánh giá sau ngày công bố, theo nguyên tắc minh bạch tại OBK-QCNS-08 mục 7.
 
 ### A-01. Đúng ngay lần đầu
 
@@ -129,7 +125,7 @@ Biên đo là biên 1 tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] 
 
 `Công thức: số lỗi đã vượt biên 2 trong kỳ, lỗi mức Nghiêm trọng tính hệ số 2, chia tổng số Job đã đóng trong kỳ, nhân 100%.`
 
-Biên đo là biên 2 tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 11.2: đầu ra đã gửi khách hoặc đã nộp cơ quan nhà nước.
+Biên đo là biên 2 tại OBK-SOP-00 mục 11.2: đầu ra đã gửi khách hoặc đã nộp cơ quan nhà nước.
 
 | Bậc | Mức tối đa, dạng nghịch | Căn cứ |
 | --- | --- | --- |
@@ -175,7 +171,7 @@ Nguồn số liệu: Bảng theo dõi giờ làm việc, năng suất và công 
 
 `Công thức: số lỗi sửa xong trong thời hạn cam kết chia tổng số lỗi phát sinh trong kỳ, nhân 100%.`
 
-Thời hạn cam kết theo mức lỗi tại [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] mục 4.2: mức Nghiêm trọng nhỏ hơn 04 giờ; mức Đáng kể nhỏ hơn 01 ngày làm việc; mức Nhỏ nhỏ hơn 03 ngày làm việc.
+Thời hạn cam kết theo mức lỗi tại OBK-QCNS-08 mục 4.2: mức Nghiêm trọng nhỏ hơn 04 giờ; mức Đáng kể nhỏ hơn 01 ngày làm việc; mức Nhỏ nhỏ hơn 03 ngày làm việc.
 
 | Bậc | Định mức, dạng thuận | Căn cứ |
 | --- | --- | --- |
@@ -211,9 +207,9 @@ Mức tối đa bằng 0 nên áp quy tắc hai dòng tại mục 2.2. Một l�
 | --- | --- | --- |
 | Mọi bậc | 1 lần trong 06 tháng | Con số oBacker tự đặt |
 
-Lỗi cùng loại xuất hiện lần thứ ba trong 06 tháng thì nâng lên một mức, và biện pháp khắc phục phải ở cấp quy trình chứ không ở cấp cá nhân, theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 11.2b quy tắc 4.
+Lỗi cùng loại xuất hiện lần thứ ba trong 06 tháng thì nâng lên một mức, và biện pháp khắc phục phải ở cấp quy trình chứ không ở cấp cá nhân, theo OBK-SOP-00 mục 11.2b quy tắc 4.
 
-Theo cam kết ngược tại [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] mục 7, tiêu chí A-08 chỉ tính lỗi có ghi nhận kèm nội dung sai ở đâu và cách làm đúng, vì chỉ khi đó người được chấm mới được cho biết cách tránh lặp lại.
+Theo cam kết ngược tại OBK-QCNS-08 mục 7, tiêu chí A-08 chỉ tính lỗi có ghi nhận kèm nội dung sai ở đâu và cách làm đúng, vì chỉ khi đó người được chấm mới được cho biết cách tránh lặp lại.
 
 ### A-09. Đề xuất cải tiến được chấp thuận
 
@@ -231,7 +227,7 @@ Bậc `P1` không áp tiêu chí này. Trọng số 6% của A-09 ở bậc `P1`
 
 ---
 
-## 4. THANG CHẤM BA TIÊU CHÍ PHẦN B
+## 4. THANG CHẤM CÁC TIÊU CHÍ PHẦN B
 
 Người chấm phải ghi ít nhất một bằng chứng cụ thể cho mỗi mức từ Vượt yêu cầu trở lên. Mức Xuất sắc chỉ được cấp khi có bằng chứng được quản lý trực tiếp xác nhận.
 

@@ -4,26 +4,20 @@ code: "OBK-SOP-NB-13"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.0"
+version: "R.1.0.1"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 27/09/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-SOP-NB-00 Chuẩn vận hành nội bộ"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-SOP-NB-13
 tags:
   - loai/sop
   - cap/3
-  - nghiep-vu/noi-quy-lao-dong
-  - nghiep-vu/cham-dut-hop-dong-lao-dong
 ---
 # OBK-SOP-NB-13. Tiếp nhận và xử lý khiếu nại quấy rối tình dục
 
@@ -34,7 +28,7 @@ tags:
 | Mã tài liệu | OBK-SOP-NB-13 |
 | Tên tài liệu | Quy trình tiếp nhận và xử lý khiếu nại quấy rối tình dục nội bộ |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ. Thi hành Bộ tài liệu quản trị nhân sự [[00_Bo_tai_lieu_quan_tri_nhan_su\|OBK-QCNS-00]] và Nội quy lao động [[Noi_quy_lao_dong\|OBK-NQLD]] |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.0.1, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 27/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -51,8 +45,8 @@ tags:
 ## CẢNH BÁO MỞ ĐẦU
 
 > [!warning] NGUYÊN TẮC BẢO VỆ NẠN NHÂN VÀ BẢO MẬT THÔNG TIN
-> 1. **Bảo mật tuyệt đối danh tính:** Căn cứ [[CC-LD-209 Năm nội dung cơ bản phải có trong quy định của NSDLĐ về phòng chống quấy rối tình dục, và hai nguyên tắc xử lý khiếu nại, tố cáo|CC-LD-209]] và Điều 85 Nghị định số 145/2020/NĐ-CP, toàn bộ thông tin nhân thân của người khiếu nại, nạn nhân và người bị khiếu nại phải được bảo mật tuyệt đối trong suốt quá trình tiếp nhận, điều tra và xử lý. Nghiêm cấm tiết lộ thông tin ra bên ngoài hoặc cho những người không có thẩm quyền.
-> 2. **Nghiêm cấm mọi hành vi trả thù hoặc trù dập:** Căn cứ [[CC-LD-210 Nghĩa vụ phòng chống quấy rối tình dục của người sử dụng lao động, của người lao động và của tổ chức đại diện người lao động tại cơ sở|CC-LD-210]] và Điều 27.2 [[Noi_quy_lao_dong|OBK-NQLD]], công ty cam kết không cho phép bất kỳ hành vi trả thù, đe dọa, phân biệt đối xử hoặc trù dập nào đối với người khiếu nại, tố cáo hoặc người phối hợp cung cấp thông tin chứng cứ. Hành vi trả thù là vi phạm kỷ luật đặc biệt nghiêm trọng và bị áp dụng hình thức sa thải.
+> 1. **Bảo mật tuyệt đối danh tính:** Toàn bộ thông tin nhân thân của người khiếu nại, nạn nhân và người bị khiếu nại phải được bảo mật tuyệt đối trong suốt quá trình tiếp nhận, điều tra và xử lý. Nghiêm cấm tiết lộ thông tin ra bên ngoài hoặc cho những người không có thẩm quyền.
+> 2. **Nghiêm cấm mọi hành vi trả thù hoặc trù dập:** Căn cứ CC-LD-210 và Điều 27.2 [[Noi_quy_lao_dong|OBK-NQLD]], công ty cam kết không cho phép bất kỳ hành vi trả thù, đe dọa, phân biệt đối xử hoặc trù dập nào đối với người khiếu nại, tố cáo hoặc người phối hợp cung cấp thông tin chứng cứ. Hành vi trả thù là vi phạm kỷ luật đặc biệt nghiêm trọng và bị áp dụng hình thức sa thải.
 > 3. **Áp dụng biện pháp bảo vệ ngay khi phát sinh khiếu nại:** Khi nhận được khiếu nại, người sử dụng lao động phải áp dụng ngay các biện pháp khẩn cấp để ngăn chặn hành vi tiếp diễn và tách biệt khu vực làm việc giữa các bên, bảo đảm an toàn thể chất và tinh thần cho người lao động.
 
 ---
@@ -70,7 +64,7 @@ Xây dựng môi trường làm việc an toàn, văn minh, bình đẳng, khôn
 ## 2. Phạm vi áp dụng
 
 **Trong phạm vi:**
-- Toàn bộ các hành vi quấy rối tình dục quy định tại khoản 9 Điều 3 Bộ luật Lao động 2019, Điều 84 Nghị định số 145/2020/NĐ-CP và Điều 26 [[Noi_quy_lao_dong|OBK-NQLD]], bao gồm 3 dạng:
+- Toàn bộ các hành vi quấy rối tình dục quy định tại Điều 26 Nội quy lao động (OBK-NQLD), bao gồm 3 dạng:
   + Quấy rối bằng thể chất: tiếp xúc, cố tình động chạm không mong muốn, sờ mó, vuốt ve, cấu véo, ôm ấp, hôn hoặc tấn công tình dục;
   + Quấy rối bằng lời nói: nhận xét, câu chuyện, lời đề nghị mang tính gợi ý tình dục không mong muốn; lời mời mọc cá nhân mang tính liên tục;
   + Quấy rối phi lời nói: ngôn ngữ cơ thể khiêu khích, cử chỉ gợi tình, không đứng đắn; phô bày hình ảnh, tài liệu khiêu dâm; gửi tin nhắn, thư điện tử có nội dung tình dục;
@@ -83,20 +77,7 @@ Xây dựng môi trường làm việc an toàn, văn minh, bình đẳng, khôn
 
 ---
 
-## 3. Căn cứ pháp lý
-
-- Bộ luật Lao động số 45/2019/QH14: khoản 9 Điều 3 (Giải thích từ ngữ về quấy rối tình dục), Điều 8 (Các hành vi bị nghiêm cấm trong lĩnh vực lao động), điểm d khoản 2 Điều 35 (Quyền đơn phương chấm dứt hợp đồng lao động của NLĐ khi bị quấy rối), Điều 118 (Nội quy lao động), điểm d khoản 1 Điều 125 (Hình thức xử lý kỷ luật sa thải đối với hành vi quấy rối tình dục);
-- Nghị định số 145/2020/NĐ-CP ngày 14/12/2020 của Chính phủ: Điều 84 (Quấy rối tình dục tại nơi làm việc), Điều 85 (Quy định của người sử dụng lao động về phòng, chống quấy rối tình dục tại nơi làm việc), Điều 86 (Trách nhiệm, nghĩa vụ phòng, chống quấy rối tình dục tại nơi làm việc);
-- Nghị định số 283/2026/NĐ-CP ngày 15/07/2026 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực lao động;
-- [[CC-LD-208 Định nghĩa quấy rối tình dục tại nơi làm việc, ba dạng hành vi thể chất, lời nói, phi lời nói, và phạm vi nơi làm việc|CC-LD-208]] Định nghĩa quấy rối tình dục tại nơi làm việc;
-- [[CC-LD-209 Năm nội dung cơ bản phải có trong quy định của NSDLĐ về phòng chống quấy rối tình dục, và hai nguyên tắc xử lý khiếu nại, tố cáo|CC-LD-209]] Năm nội dung cơ bản về phòng chống quấy rối tình dục và nguyên tắc xử lý;
-- [[CC-LD-210 Nghĩa vụ phòng chống quấy rối tình dục của người sử dụng lao động, của người lao động và của tổ chức đại diện người lao động tại cơ sở|CC-LD-210]] Nghĩa vụ phòng chống quấy rối tình dục;
-- [[CC-LD-23 Bảy trường hợp NLĐ chấm dứt KHÔNG cần báo trước|CC-LD-23]] Bảy trường hợp người lao động chấm dứt hợp đồng không cần báo trước;
-- [[Noi_quy_lao_dong|OBK-NQLD]] Nội quy lao động, Chương VI (Điều 26 đến Điều 30).
-
----
-
-## 4. Vai trò và trách nhiệm
+## 3. Vai trò và trách nhiệm
 
 | Vai trò | Trách nhiệm trong quy trình | Giới hạn quyền hạn |
 | --- | --- | --- |
@@ -109,7 +90,7 @@ Xây dựng môi trường làm việc an toàn, văn minh, bình đẳng, khôn
 
 ---
 
-## 5. Đầu vào bắt buộc
+## 4. Đầu vào bắt buộc
 
 1. **Thông tin khiếu nại hoặc tố cáo:** Đơn khiếu nại bằng văn bản, thư điện tử gửi đến hòm thư bảo mật `safe@obacker.com`, hoặc biên bản ghi nhận lời trình bày trực tiếp của người lao động.
 2. **Tài liệu chứng cứ ban đầu:** Bản sao tin nhắn văn bản, hệ thống tin nhắn nội bộ, thư điện tử, hình ảnh, băng ghi âm, ghi hình, lịch sử cuộc gọi, hoặc thông tin nhân chứng chứng kiến sự việc.
@@ -117,7 +98,7 @@ Xây dựng môi trường làm việc an toàn, văn minh, bình đẳng, khôn
 
 ---
 
-## 6. Các bước thực hiện
+## 5. Các bước thực hiện
 
 ```
 [BƯỚC 1: TIẾP NHẬN KHIẾU NẠI VÀ MÃ HÓA HỒ SƠ] (Trong 01 ngày làm việc)
@@ -138,7 +119,7 @@ Xây dựng môi trường làm việc an toàn, văn minh, bình đẳng, khôn
 [BƯỚC 6: KHẮC PHỤC HẬU QUẢ VÀ HỖ TRỢ PHỤC HỒI CHO NẠN NHÂN]
 ```
 
-### 6.1. Bước 1: Tiếp nhận khiếu nại và mã hóa hồ sơ trong vòng 01 ngày làm việc
+### 5.1. Bước 1: Tiếp nhận khiếu nại và mã hóa hồ sơ trong vòng 01 ngày làm việc
 
 1. Đầu mối tiếp nhận khiếu nại quấy rối tình dục tại oBacker gồm:
    - Bộ Phận Nhân Sự (`HR`): chuyên viên phụ trách quan hệ lao động;
@@ -153,20 +134,20 @@ Xây dựng môi trường làm việc an toàn, văn minh, bình đẳng, khôn
    - Toàn bộ tài liệu trao đổi, biên bản làm việc sau đó đều sử dụng mã hồ sơ và mã định danh các bên (Bên A: Người khiếu nại; Bên B: Người bị khiếu nại);
    - Làm rõ nguyện vọng của người khiếu nại: giải quyết theo kênh không chính thức (trao đổi, hòa giải) hay giải quyết theo kênh chính thức (điều tra, xác minh, xử lý kỷ luật). Nếu người khiếu nại yêu cầu giải quyết chính thức, đầu mối lập hồ sơ trình `CEO`.
 
-### 6.2. Bước 2: Áp dụng biện pháp bảo vệ khẩn cấp cho nạn nhân
+### 5.2. Bước 2: Áp dụng biện pháp bảo vệ khẩn cấp cho nạn nhân
 
-1. Căn cứ Điều 86 Nghị định số 145/2020/NĐ-CP và Điều 29.2 [[Noi_quy_lao_dong|OBK-NQLD]], ngay trong ngày tiếp nhận hồ sơ, đầu mối tiếp nhận đánh giá mức độ rủi ro và tham mưu `CEO` ban hành biện pháp bảo vệ khẩn cấp:
+1. Ngay trong ngày tiếp nhận hồ sơ, đầu mối tiếp nhận đánh giá mức độ rủi ro và tham mưu `CEO` ban hành biện pháp bảo vệ khẩn cấp (theo Điều 29.2 Nội quy lao động OBK-NQLD):
    - Điều chỉnh vị trí chỗ ngồi làm việc hoặc chuyển khu vực làm việc để tách biệt hoàn toàn giữa người khiếu nại và người bị khiếu nại;
    - Điều chỉnh ca làm việc hoặc bố trí cho người khiếu nại làm việc từ xa tạm thời nếu có nguyện vọng;
    - Ban hành Thông báo nội bộ yêu cầu người bị khiếu nại không được trực tiếp liên lạc, nhắn tin, gọi điện, tiếp cận hoặc có bất kỳ hành vi gây áp lực nào đối với người khiếu nại và nhân chứng.
 2. Các biện pháp bảo vệ khẩn cấp này là biện pháp hành chính phòng ngừa, tuyệt đối không phải là hình thức xử lý kỷ luật lao động và không làm suy giảm tiền lương, chế độ phúc lợi của bất kỳ bên nào.
 3. Quản lý trực tiếp (`TL`) có trách nhiệm giám sát nghiêm ngặt việc tuân thủ các biện pháp bảo vệ tại bộ phận. Mọi hành vi vi phạm lệnh cấm tiếp xúc sẽ bị lập biên bản và coi là tình tiết tăng nặng khi xem xét kỷ luật.
 
-### 6.3. Bước 3: Điều tra và xác minh khách quan trong thời hạn tối đa 30 ngày
+### 5.3. Bước 3: Điều tra và xác minh khách quan trong thời hạn tối đa 30 ngày
 
 1. Trong thời hạn 02 ngày làm việc kể từ ngày tiếp nhận, `CEO` ban hành quyết định thành lập Tổ xác minh độc lập (gồm 02 đến 03 thành viên: đại diện `HR`, đại diện Ban Kiểm Soát hoặc chuyên gia pháp chế độc lập).
 2. Thời hạn tiến hành xác minh:
-   - Căn cứ Điều 29.3 [[Noi_quy_lao_dong|OBK-NQLD]], thời hạn xác minh chuẩn là 15 ngày làm việc;
+    - Thời hạn xác minh chuẩn là 15 ngày làm việc (theo Điều 29.3 Nội quy lao động OBK-NQLD);
    - Trường hợp vụ việc phức tạp, nhiều nhân chứng hoặc cần giám định kỹ thuật số, thời hạn xác minh có thể kéo dài nhưng tối đa không quá 30 ngày dương lịch kể từ ngày tiếp nhận khiếu nại.
 3. Các hoạt động xác minh:
    - Làm việc riêng với người khiếu nại: lắng nghe toàn bộ diễn biến, đối chiếu mốc thời gian, ghi nhận danh sách nhân chứng và thu thập bằng chứng bổ sung;
@@ -176,7 +157,7 @@ Xây dựng môi trường làm việc an toàn, văn minh, bình đẳng, khôn
 4. Toàn bộ các buổi làm việc đều phải lập Biên bản xác minh có chữ ký của người cung cấp lời khai và các thành viên Tổ xác minh.
 5. Kết thúc quá trình điều tra, Tổ xác minh lập Báo cáo kết quả xác minh vụ việc, nêu rõ: tóm tắt diễn biến, phân tích chứng cứ, kết luận hành vi có cấu thành quấy rối tình dục hay không, mức độ vi phạm và đề xuất biện pháp xử lý.
 
-### 6.4. Bước 4: Kết luận xác minh và thông báo kết quả
+### 5.4. Bước 4: Kết luận xác minh và thông báo kết quả
 
 1. Trong thời hạn 03 ngày làm việc kể từ khi nhận được Báo cáo của Tổ xác minh, `CEO` xem xét và ban hành Kết luận giải quyết khiếu nại quấy rối tình dục.
 2. Nội dung kết luận ghi rõ:
@@ -186,33 +167,33 @@ Xây dựng môi trường làm việc an toàn, văn minh, bình đẳng, khôn
 3. Trong vòng 07 ngày làm việc kể từ ngày có kết luận, công ty gửi Thông báo kết quả xác minh bằng văn bản bảo mật cho người khiếu nại và người bị khiếu nại.
 4. Trường hợp một trong các bên không đồng ý với kết luận xác minh thì có quyền khiếu nại lên `CEO` trong thời hạn 05 ngày làm việc kể từ ngày nhận thông báo, kèm theo chứng cứ mới chưa từng cung cấp.
 
-### 6.5. Bước 5: Xử lý vi phạm kỷ luật nghiêm khắc
+### 5.5. Bước 5: Xử lý vi phạm kỷ luật nghiêm khắc
 
 1. **Trường hợp kết luận có hành vi quấy rối tình dục:**
    - Căn cứ Điều 30.1 và Chương IX [[Noi_quy_lao_dong|OBK-NQLD]], người có hành vi quấy rối tình dục bị xử lý kỷ luật lao động nghiêm khắc;
-   - Vụ việc được chuyển ngay sang quy trình xử lý kỷ luật tại [[OBK-SOP-NB-12_Xu_ly_ky_luat_lao_dong_va_trach_nhiem_vat_chat|OBK-SOP-NB-12]];
+    - Vụ việc được chuyển ngay sang quy trình xử lý kỷ luật tại OBK-SOP-NB-12;
    - Các hình thức kỷ luật áp dụng tương ứng với mức độ vi phạm:
      + Khiển trách: áp dụng đối với hành vi quấy rối bằng lời nói, bình phẩm thiếu đứng đắn lần đầu ở mức độ nhẹ;
      + Kéo dài thời hạn nâng lương không quá 06 tháng: áp dụng đối với hành vi tái phạm sau khiển trách hoặc có hành vi quấy rối phi lời nói, gửi hình ảnh nhạy cảm;
      + Cách chức: áp dụng đối với nhân sự giữ vị trí quản lý có hành vi quấy rối cấp dưới theo Điều 40.1.4 [[Noi_quy_lao_dong|OBK-NQLD]];
-     + Sa thải: căn cứ điểm d khoản 1 Điều 125 Bộ luật Lao động 2019 và Điều 41.1.2 [[Noi_quy_lao_dong|OBK-NQLD]], áp dụng hình thức sa thải đối với các hành vi quấy rối tình dục thể chất, quấy rối dưới hình thức trao đổi (ép buộc đổi tình dục lấy lợi ích công việc), hoặc có hành vi quấy rối gây ảnh hưởng nghiêm trọng đến danh dự, tinh thần của người khác;
+     + Sa thải: căn cứ điểm d khoản 1 Điều 125 Bộ luật Lao động 2019 và Điều 41.1.2 [[Noi_quy_lao_dong|OBK-NQLD]]; áp dụng hình thức sa thải đối với các hành vi quấy rối tình dục thể chất, quấy rối dưới hình thức trao đổi (ép buộc đổi tình dục lấy lợi ích công việc), hoặc có hành vi quấy rối gây ảnh hưởng nghiêm trọng đến danh dự, tinh thần của người khác;
    - Trường hợp hành vi vi phạm có dấu hiệu cấu thành tội phạm hình sự (dâm ô, tấn công tình dục, làm nhục người khác), công ty chuyển toàn bộ hồ sơ sang cơ quan công an có thẩm quyền để xử lý theo quy định pháp luật.
 2. **Trường hợp kết luận cố ý tố cáo sai sự thật:**
-   - Căn cứ Điều 30.2 [[Noi_quy_lao_dong|OBK-NQLD]], người bị kết luận cố ý tố cáo sai sự thật nhằm mục đích vu khống, hạ uy tín, danh dự của đồng nghiệp bị xử lý kỷ luật lao động tương ứng (từ khiển trách đến sa thải) và phải công khai xin lỗi người bị vu khống.
+    - Người bị kết luận cố ý tố cáo sai sự thật nhằm mục đích vu khống, hạ uy tín, danh dự của đồng nghiệp bị xử lý kỷ luật lao động tương ứng (từ khiển trách đến sa thải) và phải công khai xin lỗi người bị vu khống (theo Điều 30.2 Nội quy lao động OBK-NQLD).
 
-### 6.6. Bước 6: Khắc phục hậu quả và hỗ trợ phục hồi cho nạn nhân
+### 5.6. Bước 6: Khắc phục hậu quả và hỗ trợ phục hồi cho nạn nhân
 
-1. Căn cứ Điều 30.3 [[Noi_quy_lao_dong|OBK-NQLD]], công ty cam kết triển khai các biện pháp hỗ trợ toàn diện để bảo vệ quyền lợi và phục hồi môi trường làm việc cho nạn nhân:
+1. Công ty cam kết triển khai các biện pháp hỗ trợ toàn diện để bảo vệ quyền lợi và phục hồi môi trường làm việc cho nạn nhân (theo Điều 30.3 Nội quy lao động OBK-NQLD):
    - **Hỗ trợ tâm lý:** Công ty chi trả chi phí tham vấn tâm lý tại các cơ sở y tế hoặc trung tâm tham vấn có giấy phép cho nạn nhân (nếu nạn nhân có yêu cầu) để ổn định tinh thần;
    - **Bố trí công việc:** Theo nguyện vọng của nạn nhân, công ty sắp xếp vị trí làm việc, điều chỉnh bộ phận hoặc cơ chế làm việc linh hoạt, bảo đảm nạn nhân cảm thấy hoàn toàn an toàn và thoải mái;
    - **Bảo vệ quyền lợi lao động:** Bảo đảm vụ việc không gây bất kỳ tác động tiêu cực nào đến đánh giá hiệu suất, cơ hội thăng tiến hoặc thu nhập của nạn nhân;
-   - **Trường hợp nạn nhân đơn phương chấm dứt hợp đồng lao động:** Căn cứ điểm d khoản 2 Điều 35 Bộ luật Lao động 2019 và [[CC-LD-23 Bảy trường hợp NLĐ chấm dứt KHÔNG cần báo trước|CC-LD-23]], nạn nhân bị quấy rối tình dục có quyền đơn phương chấm dứt hợp đồng lao động mà không cần báo trước; công ty có trách nhiệm thanh toán đầy đủ toàn bộ quyền lợi tiền lương, trợ cấp theo quy định trong vòng 14 ngày làm việc.
+    - **Trường hợp nạn nhân đơn phương chấm dứt hợp đồng lao động:** Nạn nhân bị quấy rối tình dục có quyền đơn phương chấm dứt hợp đồng lao động mà không cần báo trước; công ty có trách nhiệm thanh toán đầy đủ toàn bộ quyền lợi tiền lương, trợ cấp trong vòng 14 ngày làm việc.
 2. `HR` thực hiện rà soát môi trường làm việc tại bộ phận có vụ việc phát sinh, tổ chức tập huấn phổ biến lại quy định phòng chống quấy rối tình dục cho toàn thể nhân sự.
 3. Đóng hồ sơ vụ việc: Toàn bộ hồ sơ xác minh, biên bản và quyết định xử lý được niêm phong, lưu trữ ở chế độ bảo mật nghiêm ngặt tại kho lưu trữ số của công ty.
 
 ---
 
-## 7. Điểm kiểm soát bắt buộc
+## 6. Điểm kiểm soát bắt buộc
 
 | Mã kiểm soát | Điểm kiểm soát | Thời điểm kiểm tra | Người kiểm tra | Bằng chứng kiểm soát |
 | --- | --- | --- | --- | --- |
@@ -224,7 +205,7 @@ Xây dựng môi trường làm việc an toàn, văn minh, bình đẳng, khôn
 
 ---
 
-## 8. Lỗi thường gặp và cách xử lý
+## 7. Lỗi thường gặp và cách xử lý
 
 | Lỗi thường gặp | Rủi ro pháp lý và vận hành | Cách xử lý phòng ngừa |
 | --- | --- | --- |
@@ -236,7 +217,7 @@ Xây dựng môi trường làm việc an toàn, văn minh, bình đẳng, khôn
 
 ---
 
-## 9. Đầu ra và nơi lưu
+## 8. Đầu ra và nơi lưu
 
 | STT | Tài liệu đầu ra | Người tạo | Nơi lưu trữ | Thời hạn lưu trữ |
 | --- | --- | --- | --- | --- |
@@ -250,7 +231,7 @@ Xây dựng môi trường làm việc an toàn, văn minh, bình đẳng, khôn
 
 ---
 
-## 10. Chỉ số theo dõi
+## 9. Chỉ số theo dõi
 
 | STT | Tên chỉ số | Cách đo lường | Mục tiêu | Tần suất rà soát |
 | --- | --- | --- | --- | --- |
@@ -265,4 +246,4 @@ Xây dựng môi trường làm việc an toàn, văn minh, bình đẳng, khôn
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 30/09/2026 | R.1.0.1 | Chia 3 câu dài ở căn cứ pháp lý và hình thức xử lý sa thải thành câu ngắn bằng dấu chấm phay, không đổi nghĩa |

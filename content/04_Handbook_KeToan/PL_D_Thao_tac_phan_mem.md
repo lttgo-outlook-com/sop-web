@@ -7,16 +7,13 @@ level: "Phụ lục"
 version: "R.1.0.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 25/08/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
 parent: "OBK-SOP-KT Kế toán và thuế"
 next_review: "Chậm nhất 28/02/2027"
 appendix: "Thao tác trên phần mềm và công cụ"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-SOP-PL-D
 tags:
@@ -45,13 +42,13 @@ tags:
 
 ---
 
-## PHẦN 1. VÌ SAO TÁCH RIÊNG PHỤ LỤC NÀY
+## PHẦN 1. NGUYÊN TẮC THIẾT KẾ VÀ PHẠM VI ÁP DỤNG
 
 ### 1.1. Nguyên tắc tool-agnostic của handbook
 
 Toàn bộ phần thân handbook được viết theo nguyên tắc tool-agnostic: mô tả nghiệp vụ phải làm gì, không mô tả thao tác trên phần mềm nào. Khi cần nhắc tới một công cụ, handbook dùng placeholder trong dấu ngoặc vuông.
 
-### 1.2. Ba lý do của việc tách riêng
+### 1.2. Mục đích phân tách hướng dẫn thao tác phần mềm
 
 **Lý do thứ nhất, chi phí thay đổi.** Phần mềm kế toán, phần mềm hóa đơn, hệ thống quản lý công việc đều có thể bị thay thế: vì giá, vì tính năng, vì nhà cung cấp ngừng hỗ trợ, vì khách hàng yêu cầu dùng hệ thống của họ. Nếu hướng dẫn thao tác nằm rải trong 21 chương, mỗi lần đổi công cụ là phải sửa 21 chương và rủi ro sót rất cao. Khi tách riêng, đổi công cụ chỉ cần sửa phụ lục này.
 
@@ -184,7 +181,7 @@ Cột "Ưu tiên": 1 là thao tác dùng hằng ngày, phải viết trước; 2
 | PLD-1-1-06 | Thiết lập phương pháp khấu hao và danh mục tài sản cố định | Chương 05 phần hành tài sản | 2 | | | Chưa viết |
 | PLD-1-1-07 | Khai báo danh mục đối tượng: khách hàng, nhà cung cấp, nhân viên, vật tư | Chương 05 | 2 | | | Chưa viết |
 | PLD-1-1-08 | Nhập số dư đầu kỳ và kiểm tra cân đối | Chương 06, Chương 20 | 2 | | | Chưa viết |
-| PLD-1-1-09 | Chuyển số dư khi đổi chế độ kế toán | Chương 06 mục 6.5, Chương 08 mục 6.6.6 | 3 | | | Chưa viết |
+| PLD-1-1-09 | Chuyển số dư khi đổi chế độ kế toán | Chương 06 mục 5.5, Chương 08 mục 5.6.6 | 3 | | | Chưa viết |
 | PLD-1-1-10 | Phân quyền người dùng theo vai trò CV-KT, TL-KT, AM, COO theo bảng tại mục 2.2 | Chương 18 mục 6.2, Phụ lục D mục 2.2 | 2 | | | Chưa viết |
 
 #### Nhóm 2. Nhập liệu hằng ngày
@@ -211,8 +208,8 @@ Cột "Ưu tiên": 1 là thao tác dùng hằng ngày, phải viết trước; 2
 | PLD-1-3-03 | Tính giá xuất kho và giá vốn | Chương 05, 06 | 2 | | | Chưa viết |
 | PLD-1-3-04 | Đánh giá lại các khoản mục có gốc ngoại tệ | Chương 06 | 3 | | | Chưa viết |
 | PLD-1-3-05 | Chạy kết chuyển cuối kỳ | Chương 06 | 2 | | | Chưa viết |
-| PLD-1-3-06 | Kiểm tra bảng cân đối phát sinh và xử lý khi lệch | Chương 06 mục 6.4 | 2 | | | Chưa viết |
-| PLD-1-3-07 | Khóa kỳ kế toán | Chương 06 mục 6.3, Chương 18 mục 6.2.3 | 2 | | | Chưa viết |
+| PLD-1-3-06 | Kiểm tra bảng cân đối phát sinh và xử lý khi lệch | Chương 06 mục 5.4 | 2 | | | Chưa viết |
+| PLD-1-3-07 | Khóa kỳ kế toán | Chương 06 mục 5.3, Chương 18 mục 6.2.3 | 2 | | | Chưa viết |
 | PLD-1-3-08 | Mở lại kỳ đã khóa, thao tác có duyệt | Chương 06, Chương 18 | 3 | | | Chưa viết |
 
 #### Nhóm 4. Kết xuất
@@ -303,7 +300,7 @@ Cột "Ưu tiên": 1 là thao tác dùng hằng ngày, phải viết trước; 2
 | PLD-4-1-01 | Đăng nhập và kiểm tra tình trạng đăng ký sử dụng hóa đơn của khách | Chương 12 mục B | 1 | | | Chưa viết |
 | PLD-4-1-02 | Kiểm tra ký hiệu hóa đơn đang dùng | Chương 12 mục B.7 | 2 | | | Chưa viết |
 | PLD-4-1-03 | Kết xuất dữ liệu hóa đơn đầu ra của kỳ | Chương 12 mục F | 1 | | | Chưa viết |
-| PLD-4-1-04 | Kết xuất dữ liệu hóa đơn đầu vào của kỳ | Chương 09 mục 6.6, Phụ lục A bảng kiểm A3 | 1 | | | Chưa viết |
+| PLD-4-1-04 | Kết xuất dữ liệu hóa đơn đầu vào của kỳ | Chương 09 mục 5.6, Phụ lục A bảng kiểm A3 | 1 | | | Chưa viết |
 | PLD-4-1-05 | Đối chiếu dữ liệu hóa đơn với sổ kế toán | Chương 12 mục F.1 | 1 | | | Chưa viết |
 | PLD-4-1-06 | Lập hóa đơn thay khách, nếu hợp đồng có phạm vi này | Chương 12, Chương 18 mục 6.2.3 dòng 12 | 3 | | | Chưa viết |
 | PLD-4-1-07 | Lập hóa đơn điều chỉnh | Chương 12 mục E | 3 | | | Chưa viết |
@@ -341,13 +338,13 @@ Cột "Ưu tiên": 1 là thao tác dùng hằng ngày, phải viết trước; 2
 | PLD-5-1-05 | Nộp hồ sơ khai thuế TNCN theo quý của tổ chức trả thu nhập từ tiền lương, tiền công, mẫu `05/KK-TNCN` | Chương 11, Phụ lục A bảng kiểm A7 | 1 | | | Chưa viết |
 | PLD-5-1-06 | Nộp hồ sơ quyết toán thuế TNDN, mẫu `03/TNDN` với phương pháp doanh thu trừ chi phí hoặc `04/TNDN` với phương pháp tỷ lệ trên doanh thu | Chương 14, Phụ lục A bảng kiểm A9 | 2 | | | Chưa viết |
 | PLD-5-1-07 | Nộp hồ sơ quyết toán thuế TNCN của tổ chức trả thu nhập, mẫu `05/QTT-TNCN`, kèm các phụ lục bảng kê;<br>thu và lưu giấy ủy quyền mẫu `08/UQ-QTT-TNCN` của cá nhân ủy quyền quyết toán | Chương 14, Phụ lục A bảng kiểm A10 | 2 |  |  | Chưa viết |
-| PLD-5-1-08 | Nộp báo cáo tài chính năm kèm hồ sơ quyết toán thuế TNDN | Chương 07 mục 6.7, Phụ lục A bảng kiểm A11 | 2 | | | Chưa viết |
+| PLD-5-1-08 | Nộp báo cáo tài chính năm kèm hồ sơ quyết toán thuế TNDN | Chương 07 mục 5.7, Phụ lục A bảng kiểm A11 | 2 | | | Chưa viết |
 | PLD-5-1-09 | Nộp hồ sơ khai bổ sung, mẫu `01/KHBS` kèm bản giải trình mẫu `01-1/KHBS` | Chương 15 | 3 | | | Chưa viết |
 | PLD-5-1-10 | Nộp tiền thuế, tiền chậm nộp, tiền phạt | Chương 13 mục A.5, Chương 17 | 1 | | | Chưa viết |
 | PLD-5-1-11 | Tra cứu và tải thông báo tiếp nhận hồ sơ | Chương 13 mục G | 1 | | | Chưa viết |
 | PLD-5-1-12 | Tra cứu nghĩa vụ thuế và số dư nghĩa vụ của khách | Chương 13 mục F | 1 | | | Chưa viết |
 | PLD-5-1-13 | Tra cứu và tải các thông báo, quyết định của cơ quan thuế | Chương 16, Chương 19 Mẫu 11 | 1 | | | Chưa viết |
-| PLD-5-1-14 | Nộp văn bản giải trình, hồ sơ theo yêu cầu của cơ quan thuế | Chương 16 mục 6.2 | 3 | | | Chưa viết |
+| PLD-5-1-14 | Nộp văn bản giải trình, hồ sơ theo yêu cầu của cơ quan thuế | Chương 16 mục 5.2 | 3 | | | Chưa viết |
 | PLD-5-1-15 | Xử lý khi nộp hồ sơ bị lỗi kỹ thuật sát hạn nộp | Chương 13 mục G | 1 | | | Chưa viết |
 
 > [!danger] RỦI RO BỊ XỬ PHẠT
@@ -370,8 +367,8 @@ Chọn sai ký hiệu mẫu là lỗi hay xảy ra nhất khi nộp hồ sơ. B�
 | `01/KHBS` | Tờ khai bổ sung | `PLD-5-1-09` |
 | `01-1/KHBS` | Bản giải trình khai bổ sung | `PLD-5-1-09` |
 
-> [!question] CẦN XÁC MINH
-> NƠI NHẬN báo cáo tài chính năm ngoài hồ sơ quyết toán thuế TNDN vẫn chưa xác minh được. Thao tác `PLD-5-1-08` chỉ được viết cho phần nộp kèm hồ sơ quyết toán thuế TNDN. Không ghi thêm nơi nhận nào khác vào hướng dẫn khi chưa có văn bản hướng dẫn cụ thể.
+> [!note] PHẠM VI THỰC HIỆN THAO TÁC NỘP BÁO CÁO TÀI CHÍNH
+> Thao tác `PLD-5-1-08` áp dụng cho việc nộp báo cáo tài chính kèm hồ sơ quyết toán thuế TNDN trên Cổng thông tin thuế điện tử. Việc nộp cho các cơ quan quản lý khác (nếu có) thực hiện theo quy định chuyên ngành của từng đối tượng doanh nghiệp.
 
 ---
 

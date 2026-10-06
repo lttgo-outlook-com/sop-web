@@ -4,19 +4,15 @@ code: "OBK-QCTC-02-PL-A"
 type: "sop"
 folder: "01_ToChuc"
 level: "Phụ lục"
-version: "R.1.0.0"
+version: "R.1.0.1"
 status: "đang áp dụng"
-draft_date: "01/10/2026"
+draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-QCTC-02 Quy chế tổ chức và phân quyền"
-law_as_of: ""
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-QCTC-02-PL-A
 tags:
@@ -29,23 +25,21 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-QCTC-02-PL-A |
 | Cấp tài liệu | Phụ lục |
-| Phiên bản | R.1.0.0, đang áp dụng |
-| Ngày biên soạn | 01/10/2026 |
+| Phiên bản | R.1.0.1, đang áp dụng |
+| Ngày biên soạn | 04/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
 | Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen\|OBK-QCTC-02]] Quy chế tổ chức và phân quyền |
 
 
-Phụ lục của [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen|OBK-QCTC-02]] Quy chế tổ chức và phân quyền. Dựng 02/09/2026.
-
-Cập nhật lần cuối 02/09/2026.
+Phụ lục của [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen|OBK-QCTC-02]] Quy chế tổ chức và phân quyền.
 
 Đây là chỗ ĐẶT ký hiệu và cặp tên cho mọi vai trò của oBacker. Tài liệu khác chỉ DẪN CHIẾU về đây, không định nghĩa lại.
 
-Với vai trò đã được định nghĩa ở văn bản khác thì cột Nghĩa ghi dẫn chiếu, không chép lại. Cụ thể: vai trò mảng nội bộ đã định nghĩa tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] Điều 4; vai trò mảng dịch vụ đã định nghĩa tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 5.1.
+Với vai trò đã được định nghĩa ở văn bản khác thì cột Nghĩa ghi dẫn chiếu, không chép lại. Cụ thể: vai trò mảng nội bộ đã định nghĩa tại OBK-QCTC-01 Điều 4; vai trò mảng dịch vụ đã định nghĩa tại OBK-SOP-00 mục 5.1.
 
-## 1. Bốn mảng và quy tắc trích dẫn bắt buộc
+## 1. Phân loại mảng và quy tắc trích dẫn bắt buộc
 
 | Miền | Phạm vi | Văn bản đặt nghĩa |
 | --- | --- | --- |
@@ -93,7 +87,7 @@ Nghĩa của các vai trò này đặt tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi
 | `HR` | Nhân sự nội bộ | HR Generalist | HR |
 
 > [!note] ĐIỀU KIỆN PHÂN CÔNG THỦ QUỸ (TQ)
-> **Ba điều cấm khi phân công vai trò TQ:** `TQ` không được là `KTT` hoặc `KTV` theo `[Luật Kế toán 41/VBHN-VPQH Đ.52 k.4]`; `TQ` không được là người quản lý, điều hành theo `[Luật Kế toán 41/VBHN-VPQH Đ.13 k.7]`, không gán cho `TGĐ`, `COO`, `CMO` hay thành viên `HĐQT`; và `TQ` không được là người đối chiếu sao kê (`AD-KT`). Vai trò do nhân sự ngoài Finance và ngoài ban điều hành đảm nhiệm theo quyết định của TGĐ.
+> **Các điều cấm khi phân công vai trò TQ:** `TQ` không được là `KTT` hoặc `KTV` theo `[Luật Kế toán 41/VBHN-VPQH Đ.52 k.4]`; `TQ` không được là người quản lý, điều hành theo `[Luật Kế toán 41/VBHN-VPQH Đ.13 k.7]`, không gán cho `TGĐ`, `COO`, `CMO` hay thành viên `HĐQT`; và `TQ` không được là người đối chiếu sao kê (`AD-KT`). Vai trò do nhân sự ngoài Finance và ngoài ban điều hành đảm nhiệm theo quyết định của TGĐ.
 
 Ký hiệu `HR` đồng thời là nhãn đơn vị tại mục 7. Quy tắc phân định giữa hai cách dùng đặt tại mục 6.
 
@@ -124,14 +118,13 @@ Nghĩa của các vai trò có hậu tố đặt tại [[01_OBK-SOP-00_Chuan_van
 > [!note] `LEG` KHÔNG BAO GỒM BỘ PHẬN DỊCH VỤ PHÁP LÝ
 > `LEG` là ký hiệu viết tắt của Legal R&D Team, dùng trong tài liệu mảng dịch vụ; tên tiếng Việt là **Bộ phận Nghiên cứu và Phát triển pháp lý**, xem mục 7. Nghĩa của vai trò đặt tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 5.1: vai trò THAM VẤN và KIẾN TẠO cho mọi bộ phận, chủ sở hữu `PL_1` và quy trình cập nhật pháp luật, không trực tiếp thực hiện nghiệp vụ của bộ phận khác.
 >
-> Từ 02/09/2026, phần dịch vụ pháp lý CÓ THU đã tách thành **Bộ phận Dịch vụ pháp lý** với hai ký hiệu riêng `TL-LS` và `CV-LS` trong Phòng Dịch vụ. Vì vậy `LEG` không bao gồm `TL-LS` và `CV-LS`, dù hiện cùng một pool nhân sự giữ cả hai bên, xem `PL_Anh_xa_nhan_su.md` mục F, hàng 1 của bảng quy tắc áp dụng. Viết `LEG` khi ý là chuẩn chuyên môn và nội dung chưa có tiền lệ; viết `TL-LS` hoặc `CV-LS` khi ý là dịch vụ pháp lý có thu cho khách. Quy tắc đi kèm ở `PL_Chuyen_len_cap_tren.md` mục 1.
+> Phần dịch vụ pháp lý CÓ THU tách thành **Bộ phận Dịch vụ pháp lý** với hai ký hiệu riêng `TL-LS` và `CV-LS` trong Phòng Dịch vụ. Vì vậy `LEG` không bao gồm `TL-LS` và `CV-LS`, dù hiện cùng một pool nhân sự giữ cả hai bên, xem `PL_Anh_xa_nhan_su.md` mục F, hàng 1 của bảng quy tắc áp dụng. Viết `LEG` khi ý là chuẩn chuyên môn và nội dung chưa có tiền lệ; viết `TL-LS` hoặc `CV-LS` khi ý là dịch vụ pháp lý có thu cho khách. Quy tắc đi kèm ở `PL_Chuyen_len_cap_tren.md` mục 1.
 
-> [!note] `LEG` LÀ KÝ HIỆU CHỈ ĐƠN VỊ
-> KHÔNG PHẢI KÝ HIỆU CHỈ MỘT VAI TRÒ
-> Từ 07/09/2026, đơn vị có hai ký hiệu vai trò riêng: `TL-RD` là người CHỐT kết luận pháp lý dùng làm chuẩn, duyệt mã căn cứ, quyết mức xác minh; `CV-RD` là người LÀM, tra bản gốc và soạn bản nháp. `LEG` giữ nguyên nghĩa chỉ đơn vị.
+> [!note] PHÂN BIỆT KÝ HIỆU ĐƠN VỊ VÀ VAI TRÒ
+> Đơn vị Legal R&D có hai ký hiệu vai trò riêng: `TL-RD` là người phê duyệt kết luận pháp lý dùng làm chuẩn, duyệt mã căn cứ, quyết mức xác minh; `CV-RD` là chuyên viên nghiên cứu, tra bản gốc và soạn bản nháp. `LEG` giữ nguyên nghĩa chỉ đơn vị.
 
-> [!note] QUY TẮC DÙNG, một câu
-> `LEG` dùng được trong văn xuôi và dùng được ở ô C hoặc ô I của bảng RACI; `LEG` không được dùng ở ô R hoặc ô A của bất kỳ bảng RACI nào, vì hai ô đó cần đúng một vai trò chịu trách nhiệm. Bản gốc của quy tắc tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 5.1.3.
+> [!note] NGUYÊN TẮC SỬ DỤNG KÝ HIỆU LEG
+> `LEG` dùng được trong văn xuôi và dùng được ở ô C hoặc ô I của bảng RACI; `LEG` không được dùng ở ô R hoặc ô A của bất kỳ bảng RACI nào, vì hai ô đó cần đúng một vai trò chịu trách nhiệm. Bản gốc của quy tắc tại OBK-SOP-00 mục 5.1.3.
 
 ## 5a. Ánh xạ chức danh của bộ tài liệu quản trị nhân sự
 
@@ -149,10 +142,10 @@ Bộ tài liệu quản trị nhân sự [[00_Bo_tai_lieu_quan_tri_nhan_su|OBK-Q
 | Team Leader mảng Dịch vụ pháp lý, mức kiểm soát 2 | `TL-LS` | |
 | Senior, C&B, Team Member, Fresh, Intern, mức kiểm soát 1 | `CV-LIC`, `CV-KT`, `CV-LD`, `CV-LS` | Chọn ký hiệu theo mảng người đó làm. Các tên gọi này là CẤP BẬC, không phải vai trò |
 | Junior Specialist, Middle Specialist, Senior Specialist, Domain Expert, Principal Specialist | không có ký hiệu riêng | Tên gọi CẤP BẬC, không phải vai trò. Thang cấp bậc tại [[01_Khung_nhan_su_tong_hop\|OBK-QCNS-01]] mục I.1 gồm P1 tới P4 và M1, không dùng các tên gọi này |
-| Tech Lead | `TL-CN` | Position "Trưởng bộ phận Công nghệ và Sản phẩm" đã có tại mục 7. Ngày 22/09/2026 đặt ký hiệu cho position đó |
+| Tech Lead | `TL-CN` | Position "Trưởng bộ phận Công nghệ và Sản phẩm" tại mục 7 |
 | Product Owner | `CV-CN` | Vị trí chuyên môn duy nhất của Bộ phận Công nghệ và Sản phẩm, theo [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen\|OBK-QCTC-02]] Điều 6 |
 | Account Manager | `AM` và `AE` | Chọn theo người thực tế phụ trách khách đó |
-| Sales Executive | `AM` và `AE` | oBacker KHÔNG có vai trò Sales riêng, xem mục 9. Thưởng doanh thu phân biệt theo HÀNH VI, ký hợp đồng lần đầu hay chăm sóc khách, không phân biệt theo chức danh |
+| Sales Executive | `AM` và `AE` | Công ty không thiết lập vai trò Sales chuyên trách (xem mục 9). Thưởng doanh thu phân biệt theo hành vi nghiệp vụ ký hợp đồng lần đầu hoặc trực tiếp quản trị chăm sóc khách hàng, không phân biệt theo chức danh |
 | Ban Lãnh đạo, BOD | `BOM` | Hai cụm này trong bộ quản trị nhân sự chỉ cơ quan điều hành duyệt mức thưởng, tức `BOM`. KHÔNG đọc BOD thành `HĐQT` |
 | CTO | `CEO` | Vị trí CTO đã bỏ; thẩm quyền chuyển về `CEO` |
 
@@ -164,7 +157,7 @@ Bộ tài liệu quản trị nhân sự [[00_Bo_tai_lieu_quan_tri_nhan_su|OBK-Q
 
 | Ký hiệu | Nghĩa mảng nội bộ | Nghĩa mảng dịch vụ | Quy tắc |
 | --- | --- | --- | --- |
-| `KTT` | Người phụ trách kế toán của oBacker, sổ sách CỦA OBACKER | Bản cũ của Handbook Kế toán dùng `KTT` cho người chốt kỹ thuật hồ sơ khách. Nghĩa đó nay là `TL-KT` | `KTT` chỉ thuộc mảng nội bộ. Handbook Kế toán đã đổi ngày 02/09/2026 |
+| `KTT` | Người phụ trách kế toán của oBacker, sổ sách CỦA OBACKER | Người phụ trách kỹ thuật hồ sơ khách được chuẩn hóa là `TL-KT` | `KTT` chỉ thuộc mảng nội bộ |
 | `KTV` | Kế toán viên nội bộ | Handbook Kế toán dùng `KTV` cho người vận hành hồ sơ khách. Nghĩa đó nay là `CV-KT` | `KTV` chỉ thuộc mảng nội bộ |
 | `TL` | Trưởng bộ phận với tư cách chủ dòng ngân sách, không phân biệt bộ phận nào | `TL-KT`, `TL-LIC`, `TL-LD`, `TL-LS` là trưởng bộ phận nghiệp vụ cụ thể | `TL` không có hậu tố thì là vai trò ngân sách; có hậu tố thì là vai trò nghiệp vụ.<br>Không viết `TL` trơn khi ý muốn nói một bộ phận cụ thể |
 
@@ -218,8 +211,8 @@ Hai vai trò giữ nguyên tiếng Anh vì tên Việt không có bản dịch d
 | Ký hiệu và cặp tên của mọi vai trò | tài liệu này, mục 2 tới 7 | [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen\|OBK-QCTC-02]], [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]], các SOP bộ phận |
 | Nghĩa của vai trò mảng nội bộ | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 4 | tài liệu này mục 4 |
 | Nghĩa của vai trò mảng dịch vụ | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 5.1 | tài liệu này mục 5 |
-| Hạn mức tiền và thẩm quyền chi | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 12.3, bảng DUY NHẤT | [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen\|OBK-QCTC-02]], `PL_Ma_tran_phan_quyen.md`, [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] mục 6.2.1 |
-| Số báo giá tối thiểu theo bậc | [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] mục 6.2.1 | không có |
+| Hạn mức tiền và thẩm quyền chi | OBK-QCTC-01 mục 12.3, bảng DUY NHẤT | OBK-QCTC-02, `PL_Ma_tran_phan_quyen.md`, OBK-SOP-NB-01 mục 5.2.1 |
+| Số báo giá tối thiểu theo bậc | [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] mục 5.2.1 | không có |
 | Mốc thẩm quyền theo giá trị tài sản | Điều lệ Đ.24 và Đ.25 | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]], [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen\|OBK-QCTC-02]] |
 | Thang chuyển lên cấp trên | [[PL_Chuyen_len_cap_tren\|OBK-QCTC-02-PL-C]] mục 1 và mục 4; quy tắc nhảy cấp và quy tắc thời gian tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 8.2 | [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen\|OBK-QCTC-02]] |
 | Quy tắc giao tiếp TRONG TEAM và CROSS TEAM | `PL_Chuyen_len_cap_tren.md` mục 2a | mọi SOP bộ phận |
@@ -233,7 +226,7 @@ Bốn nhóm nhãn dưới đây từng xuất hiện trong Handbook Kế toán: 
 
 | Nhãn đã bỏ | oBacker có không | Việc của nhãn đó về đâu |
 | --- | --- | --- |
-| Đội bán hàng | Không. oBacker không có vai trò Sales riêng | Toàn bộ việc về **`AM`** và **`AE`**.<br>`AM` là đầu mối toàn trình với khách, làm cả phần bán hàng; `AE` là chuyên viên trong Bộ phận Quản lý khách hàng.<br>Nguồn: [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 5.1 và mục 5.2 dòng "Sales" |
+| Đội bán hàng | Không thiết lập vai trò Sales riêng | Chuyển giao toàn bộ công việc cho **`AM`** và **`AE`**.<br>`AM` là đầu mối toàn trình với khách, thực hiện cả phần phát triển khách hàng; `AE` là chuyên viên trong Bộ phận Quản lý khách hàng.<br>Nguồn: [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 5.1 và mục 5.2 dòng "Sales" |
 | Ban Nghiệp vụ | Không | Tách hai. Nội dung pháp lý, chuẩn chuyên môn, cập nhật văn bản pháp luật về **Legal R&D**, ký hiệu `LEG`.<br>Quản lý tài liệu và sở hữu bộ SOP về **`COO`**.<br>Nguồn: [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 5.2 dòng "Ban Nghiệp vụ" |
 | Bộ phận hợp đồng | Không | Việc rà hợp đồng sắp hết hạn và đề xuất gia hạn về **`AM`**, người **`COO`** duyệt.<br>Điều khoản pháp lý của hợp đồng vẫn hỏi Legal R&D theo `PL_Ma_tran_phan_quyen.md` |
 
@@ -253,4 +246,4 @@ Ba nhãn ghi sai tên đơn vị, lấy tên chuẩn ở mục 7:
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.0.1 | Bỏ ghi chú log dựng bản ở đầu phụ lục. |

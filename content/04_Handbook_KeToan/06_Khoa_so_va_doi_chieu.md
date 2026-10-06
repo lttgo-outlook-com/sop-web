@@ -4,18 +4,15 @@ code: "OBK-HB-06"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.0"
+version: "R.1.0.1"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 25/08/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
 parent: "OBK-SOP-KT Kế toán và thuế"
 next_review: "Chậm nhất 25/02/2027"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-HB-06
 tags:
@@ -30,7 +27,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-HB-06 |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.0.1, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -55,29 +52,12 @@ Mục tiêu cụ thể:
 ## 2. Phạm vi áp dụng
 
 - Áp dụng cho việc khóa sổ tháng, khóa sổ quý và khóa sổ năm của mọi khách hàng dịch vụ kế toán.
-- Phần chuyển đổi số dư tại mục 6.5 áp dụng riêng cho khách đang áp dụng Thông tư 99/2025/TT-BTC từ năm tài chính 2026 mà trước đó áp dụng chế độ kế toán bị thay thế.
+- Phần chuyển đổi số dư tại mục 5.5 áp dụng riêng cho khách đang áp dụng Thông tư 99/2025/TT-BTC từ năm tài chính 2026 mà trước đó áp dụng chế độ kế toán bị thay thế.
 - Không áp dụng cho việc lập báo cáo tài chính năm; xem Chương 07.
 - Với khách áp dụng Thông tư 133/2016/TT-BTC hoặc Thông tư 58/2026/TT-BTC, chỉ áp dụng phần quy trình đối chiếu, không áp dụng phần số hiệu tài khoản và phần chuyển đổi số dư của chương này. Xem Chương 08.
 
-## 3. Căn cứ pháp lý
 
-| Văn bản | Nội dung sử dụng |
-| --- | --- |
-| Thông tư 99/2025/TT-BTC Điều 12 | Biểu mẫu sổ kế toán;<br>điều kiện khi doanh nghiệp tự thiết kế hoặc sửa đổi biểu mẫu sổ |
-| Thông tư 99/2025/TT-BTC Điều 13 | Mở sổ, ghi sổ, khóa sổ |
-| Thông tư 99/2025/TT-BTC Điều 29 | Chuyển đổi số dư trên sổ kế toán khi áp dụng chế độ mới |
-| Thông tư 99/2025/TT-BTC Điều 30 | Điều khoản chuyển tiếp;<br>hồi tố, hồi tố đơn giản, phi hồi tố;<br>TK 412;<br>trích trước sửa chữa lớn TSCĐ |
-| Thông tư 99/2025/TT-BTC Điều 19 | Yêu cầu đối với thông tin trình bày trên BCTC, trong đó có nguyên tắc trọng yếu |
-| Thông tư 99/2025/TT-BTC Điều 20 khoản 6 | Nguyên tắc phù hợp, thận trọng;<br>sai sót trọng yếu kỳ trước phải điều chỉnh hồi tố |
-| Thông tư 99/2025/TT-BTC Điều 28 | Sáu yêu cầu tối thiểu với phần mềm kế toán, trong đó có lưu dấu vết sửa chữa |
-| Thông tư 99/2025/TT-BTC Phụ lục III | Danh mục biểu mẫu sổ kế toán;<br>năm hình thức sổ kế toán |
-| Luật Quản lý thuế 108/2025/QH15 Điều 12 khoản 5 | Thời hiệu khai bổ sung hồ sơ khai thuế 05 năm |
-| Luật Quản lý thuế 108/2025/QH15 Điều 16 khoản 2 điểm a | Tiền chậm nộp 0,03%/ngày |
-
-> [!success] ĐÃ ĐỐI CHIẾU BẢN GỐC
-> Người nộp thuế phát hiện hồ sơ khai thuế, khoản thu khác đã nộp cho cơ quan thuế có sai, sót thì được khai bổ sung trong thời hạn 05 năm kể từ ngày hết thời hạn nộp hồ sơ khai thuế, khoản thu khác của kỳ tính thuế có sai, sót, và chỉ với các trường hợp liệt kê tại điểm a đến điểm e `[Luật QLT 108/2025 Đ.12 k.5]`. Quá thời hạn 05 năm thì không được khai bổ sung nhưng được bổ sung hồ sơ giải trình với cơ quan thuế; cơ quan thuế rà soát và ban hành thông báo chấp nhận hoặc không chấp nhận hồ sơ giải trình `[NĐ 252/2026 Đ.12 k.8]`. Trước khi tư vấn khách về khả năng khai bổ sung một kỳ cũ, TL-KT phải xác định kỳ đó còn trong thời hạn 05 năm hay không và có thuộc một trong các trường hợp từ điểm a đến điểm e hay không.
-
-## 4. Vai trò và trách nhiệm
+## 3. Vai trò và trách nhiệm
 
 | Công việc | CV-KT | TL-KT | AM |
 | --- | --- | --- | --- |
@@ -95,7 +75,7 @@ Mục tiêu cụ thể:
 > [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
 > Không CV-KT nào được mở khóa một kỳ đã khóa. Mọi lần mở khóa phải có phê duyệt bằng văn bản của TL-KT, ghi rõ lý do, phạm vi bút toán được phép sửa và người thực hiện. Lý do là phần mềm kế toán phải lưu lại dấu vết các nội dung đã ghi sổ theo trình tự thời gian và phải có khả năng cảnh báo hoặc ngăn chặn việc can thiệp có chủ ý làm thay đổi thông tin, số liệu đã ghi sổ `[TT99 Đ.28 k.1 đ.b, đ.c]`.
 
-## 5. Đầu vào bắt buộc
+## 4. Đầu vào bắt buộc
 
 | # | Đầu vào | Nguồn |
 | --- | --- | --- |
@@ -114,11 +94,11 @@ Mục tiêu cụ thể:
 | 13 | Số dư đã chốt của kỳ trước | Nội bộ |
 | 14 | Quy chế hạch toán kế toán của khách nếu khách tự thiết kế biểu mẫu | Khách hàng |
 
-## 6. Các bước thực hiện
+## 5. Các bước thực hiện
 
-### 6.1. Quy định mở sổ, ghi sổ, khóa sổ theo Thông tư 99/2025/TT-BTC
+### 5.1. Quy định mở sổ, ghi sổ, khóa sổ theo Thông tư 99/2025/TT-BTC
 
-#### 6.1.1. Biểu mẫu sổ kế toán, Điều 12
+#### 5.1.1. Biểu mẫu sổ kế toán, Điều 12
 
 | Khoản | Nội dung | Tag |
 | --- | --- | --- |
@@ -131,7 +111,7 @@ Mục tiêu cụ thể:
 > [!success] ĐÃ ĐỐI CHIẾU BẢN GỐC
 > Bốn khoản Điều 24 Luật Kế toán mà Điều 12 Thông tư 99/2025/TT-BTC dẫn chiếu gồm: khoản 1, sổ kế toán dùng để ghi chép, hệ thống và lưu giữ toàn bộ các nghiệp vụ kinh tế, tài chính đã phát sinh có liên quan đến đơn vị kế toán; khoản 2, sổ kế toán phải ghi rõ tên đơn vị kế toán, tên sổ, ngày tháng năm lập sổ, ngày tháng năm khóa sổ, chữ ký của người lập sổ, kế toán trưởng và người đại diện theo pháp luật của đơn vị kế toán, số trang, đóng dấu giáp lai; khoản 3, năm nội dung chủ yếu gồm ngày tháng năm ghi sổ, số hiệu và ngày tháng năm của chứng từ kế toán dùng làm căn cứ ghi sổ, tóm tắt nội dung nghiệp vụ, số tiền ghi vào các tài khoản kế toán, số dư đầu kỳ và số phát sinh trong kỳ và số dư cuối kỳ; khoản 4, sổ kế toán gồm sổ kế toán tổng hợp và sổ kế toán chi tiết `[Luật Kế toán 41/VBHN-VPQH Đ.24 k.1 đến k.4]`. Khi tư vấn khách về việc tự thiết kế mẫu sổ, TL-KT phải kiểm tra mẫu khách đề xuất có đủ bốn khoản này hay không trước khi phát hành ý kiến.
 
-#### 6.1.2. Mở sổ, ghi sổ, khóa sổ, Điều 13, trích nguyên văn
+#### 5.1.2. Mở sổ, ghi sổ, khóa sổ, Điều 13, trích nguyên văn
 
 > "1. Mở sổ: Sổ kế toán phải được mở vào đầu kỳ kế toán năm. Đối với doanh nghiệp mới thành lập, sổ kế toán phải được mở từ ngày thành lập.
 >
@@ -147,12 +127,12 @@ Diễn giải vận hành cho CV-KT và TL-KT, KHÔNG thay thế câu chữ trê
 | --- | --- |
 | Sổ phải mở vào đầu kỳ kế toán năm | Việc mở kỳ kế toán năm mới trên `[PHẦN MỀM KẾ TOÁN]` phải hoàn tất trước khi ghi bút toán đầu tiên của năm;<br>không mở kỳ giữa chừng |
 | Với doanh nghiệp mới thành lập, sổ mở từ ngày thành lập | Với khách mới thành lập, kỳ kế toán đầu tiên bắt đầu từ ngày ghi trên giấy chứng nhận đăng ký doanh nghiệp, không phải từ ngày ký hợp đồng dịch vụ |
-| Căn cứ ghi sổ là chứng từ kế toán | Không có chứng từ thì không ghi sổ;<br>xem Chương 05 mục 6.11 |
+| Căn cứ ghi sổ là chứng từ kế toán | Không có chứng từ thì không ghi sổ;<br>xem Chương 05 mục 5.11 |
 | Sổ phải ghi kịp thời | Không dồn nhiều tháng ghi một lần;<br>đây là căn cứ để oBacker từ chối mô hình làm sổ một lần cuối năm |
 | Khóa sổ tại thời điểm kết thúc kỳ kế toán để lập BCTC | Khóa sổ năm là bắt buộc;<br>khóa sổ tháng là chuẩn nội bộ oBacker để kiểm soát chất lượng |
 | Khóa sổ trong các trường hợp khác theo quy định của pháp luật | Bao gồm thay đổi kỳ kế toán, chuyển đổi loại hình, chia tách hợp nhất sáp nhập;<br>xem Chương 07 |
 
-#### 6.1.3. Hình thức sổ kế toán
+#### 5.1.3. Hình thức sổ kế toán
 
 Sổ kế toán gồm sổ kế toán tổng hợp và sổ kế toán chi tiết. Sổ kế toán tổng hợp gồm Sổ Nhật ký và Sổ Cái. Sổ kế toán chi tiết gồm sổ, thẻ kế toán chi tiết `[TT99 PL III phần B mục 1]`.
 
@@ -166,22 +146,22 @@ Năm hình thức sổ kế toán `[TT99 PL III phần B mục 1 đ.c]`:
 
 TL-KT xác định hình thức sổ kế toán của từng khách; CV-KT ghi rõ hình thức đó vào Phiếu giao việc và giữ nhất quán trong kỳ kế toán năm.
 
-### 6.2. Trình tự khóa sổ
+### 5.2. Trình tự khóa sổ
 
 | Bước | Nội dung | Tiêu chí hoàn thành |
 | --- | --- | --- |
 | 1 | CV-KT xác nhận đã nhập hết chứng từ của kỳ;<br>AM chốt với khách và đóng cổng nhận chứng từ mới cho kỳ đó | Có biên bản xác nhận hết chứng từ do AM thu hồi từ khách, hoặc có thư AM ghi nhận phần còn thiếu |
 | 2 | Chạy các bút toán định kỳ: CV-KT lập phần cơ học gồm phân bổ TK 242, khấu hao TK 214, phân bổ doanh thu chờ phân bổ TK 3387;<br>TL-KT tự lập bút toán đánh giá lại ngoại tệ cuối kỳ, bút toán tính giá xuất kho và giá vốn, và các bút toán cần xét đoán khác | Có bảng tính kèm theo từng bút toán;<br>bảng tính của bút toán cần xét đoán có chữ ký TL-KT |
-| 3 | Kiểm theo bảng kiểm đối chiếu tháng tại mục 6.3 | Mọi dòng có kết luận Đạt hoặc có chênh lệch đã phân loại |
-| 4 | Lập Bảng chênh lệch và xử lý theo mục 6.4 | Không còn chênh lệch chưa phân loại |
+| 3 | Kiểm theo bảng kiểm đối chiếu tháng tại mục 5.3 | Mọi dòng có kết luận Đạt hoặc có chênh lệch đã phân loại |
+| 4 | Lập Bảng chênh lệch và xử lý theo mục 5.4 | Không còn chênh lệch chưa phân loại |
 | 5 | Chạy Bảng cân đối số phát sinh, ký hiệu S06-DN `[TT99 PL III phần A]` và kiểm tra cân đối | Tổng phát sinh nợ bằng tổng phát sinh có;<br>tổng dư nợ bằng tổng dư có |
 | 6 | TL-KT soát và ký Phiếu soát khóa sổ | Có chữ ký TL-KT |
 | 7 | Khóa kỳ trên `[PHẦN MỀM KẾ TOÁN]`;<br>chặn quyền sửa của CV-KT | Kỳ ở trạng thái đã khóa |
 | 8 | Kết xuất và lưu bộ sổ của kỳ vào `[KHO LƯU TRỮ HỒ SƠ]` | Bộ sổ đã lưu, có ghi ngày kết xuất |
 
-### 6.3. BẢNG KIỂM KHÓA SỔ THÁNG
+### 5.3. BẢNG KIỂM KHÓA SỔ THÁNG
 
-Cách dùng: CV-KT điền cột Kết quả với một trong ba giá trị Đạt, Lệch trong ngưỡng, Lệch vượt ngưỡng. Mọi dòng Lệch phải có số liệu chênh lệch và mã phân loại theo mục 6.4. TL-KT ký xác nhận ở cuối bảng.
+Cách dùng: CV-KT điền cột Kết quả với một trong ba giá trị Đạt, Lệch trong ngưỡng, Lệch vượt ngưỡng. Mọi dòng Lệch phải có số liệu chênh lệch và mã phân loại theo mục 5.4. TL-KT ký xác nhận ở cuối bảng.
 
 | # | Nội dung đối chiếu | Nguồn A | Nguồn B | Tiêu chí đạt | Người làm | Người soát | CEO (Lê Trọng Tuấn) | --- | --- | --- | --- | --- | --- | --- |
 | 01 | Số dư đầu kỳ của mọi tài khoản | Số dư cuối kỳ trước đã chốt | Số dư đầu kỳ trên `[PHẦN MỀM KẾ TOÁN]` | Khớp tuyệt đối từng tài khoản | CV-KT | TL-KT |
@@ -232,16 +212,16 @@ Cách dùng: CV-KT điền cột Kết quả với một trong ba giá trị Đ�
 
 Xác nhận cuối bảng: CV-KT ký, ghi ngày. TL-KT ký, ghi ngày và ghi số dòng có chênh lệch.
 
-### 6.4. Xử lý chênh lệch
+### 5.4. Xử lý chênh lệch
 
-#### 6.4.1. Nguyên tắc
+#### 5.4.1. Nguyên tắc
 
 1. Không được chỉnh số liệu để ép cho khớp. Mọi chênh lệch phải truy về nguyên nhân trước khi ghi bút toán điều chỉnh.
 2. Thông tin trình bày trên BCTC phải trung thực, hợp lý, đầy đủ, khách quan, không có sai sót `[TT99 Đ.19 k.1]`; phải trình bày đầy đủ trên mọi khía cạnh trọng yếu, mức độ trọng yếu phụ thuộc quy mô hoặc tính chất hoặc cả hai `[TT99 Đ.19 k.3]`.
 3. Phát hiện sai sót trọng yếu của kỳ trước thì phải điều chỉnh HỒI TỐ `[TT99 Đ.20 k.6]`.
 4. Ngưỡng trọng yếu định lượng không được quy định bằng con số trong Thông tư 99/2025/TT-BTC. Do đó oBacker không được nêu một con số ngưỡng như thể đó là quy định pháp luật. Ngưỡng dưới đây là NGƯỠNG VẬN HÀNH NỘI BỘ do TL-KT ấn định riêng cho từng khách trong Phiếu giao việc, dựa trên quy mô tổng tài sản và doanh thu của khách đó.
 
-#### 6.4.2. Bảng phân loại chênh lệch và hướng xử lý
+#### 5.4.2. Bảng phân loại chênh lệch và hướng xử lý
 
 | Mã | Nhóm chênh lệch | Định nghĩa | Ngưỡng | Hướng xử lý | Ai quyết định | Có phải báo TL-KT |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -250,7 +230,7 @@ Xác nhận cuối bảng: CV-KT ký, ghi ngày. TL-KT ký, ghi ngày và ghi s�
 | C | Chênh lệch ảnh hưởng tới số liệu ĐÃ NỘP cho cơ quan thuế | Sai doanh thu, sai thuế GTGT đầu vào, đầu ra, sai thuế TNCN đã khai | Mọi giá trị, không phụ thuộc ngưỡng | Đánh giá khả năng khai bổ sung;<br>lập tờ khai bổ sung;<br>tính tiền chậm nộp nếu có;<br>AM thông báo khách bằng văn bản | TL-KT | BẮT BUỘC |
 | D | Chênh lệch thuộc kỳ ĐÃ KHÓA hoặc kỳ kế toán năm trước | Phát hiện sai sót của năm trước sau khi đã phát hành BCTC | Mọi giá trị | Xác định có trọng yếu hay không;<br>nếu trọng yếu thì điều chỉnh HỒI TỐ `[TT99 Đ.20 k.6]`;<br>nếu không trọng yếu thì xử lý theo hướng dẫn của TL-KT | TL-KT | BẮT BUỘC |
 | E | Chênh lệch chưa xác định được nguyên nhân sau khi đã truy soát đủ hai vòng | Không tìm ra nguồn gốc | Mọi giá trị | Không được ghi bút toán cân bằng để xóa chênh lệch.<br>Giữ lại chờ xử lý, ghi vào Nhật ký chênh lệch chưa xử lý, báo TL-KT trong 24 giờ | TL-KT | BẮT BUỘC |
-| F | Chênh lệch do khách thiếu chứng từ | Không có chứng từ để ghi nhận | Mọi giá trị | Không ghi sổ phần thiếu;<br>chạy quy trình chuyển lên cấp trên Chương 05 mục 6.11;<br>ghi vào biên bản bàn giao | CV-KT làm, TL-KT soát | Từ Mức 3 trở lên |
+| F | Chênh lệch do khách thiếu chứng từ | Không có chứng từ để ghi nhận | Mọi giá trị | Không ghi sổ phần thiếu;<br>chạy quy trình chuyển lên cấp trên Chương 05 mục 5.11;<br>ghi vào biên bản bàn giao | CV-KT làm, TL-KT soát | Từ Mức 3 trở lên |
 | G | Chênh lệch do khách yêu cầu ghi nhận trái với quy định | Khách yêu cầu ghi doanh thu, chi phí không có căn cứ | Mọi giá trị | Từ chối ghi sổ;<br>TL-KT soạn nội dung, AM lập và gửi văn bản trả lời khách | TL-KT | BẮT BUỘC |
 
 > [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
@@ -259,7 +239,7 @@ Xác nhận cuối bảng: CV-KT ký, ghi ngày. TL-KT ký, ghi ngày và ghi s�
 > [!danger] RỦI RO BỊ XỬ PHẠT
 > Khai bổ sung làm tăng số thuế phải nộp sẽ phát sinh tiền chậm nộp ở mức 0,03%/ngày tính trên số tiền thuế, khoản thu khác chậm nộp `[Luật QLT 108/2025 Đ.16 k.2 đ.a]`. Trước khi quyết định khai bổ sung, TL-KT phải tính trước số tiền chậm nộp dự kiến; AM thông báo cho khách bằng văn bản để khách quyết định.
 
-#### 6.4.3. Quy trình truy soát chênh lệch, hai vòng bắt buộc
+#### 5.4.3. Quy trình truy soát và xử lý chênh lệch
 
 Vòng 1, do CV-KT thực hiện:
 
@@ -275,18 +255,18 @@ Vòng 2, do TL-KT thực hiện nếu vòng 1 không tìm ra:
 3. Kiểm tra số dư đầu kỳ, đặc biệt với kỳ đầu tiên sau khi chuyển đổi chế độ kế toán.
 4. Nếu vẫn không tìm ra, chuyển nhóm E và báo TL-KT.
 
-### 6.5. CHUYỂN ĐỔI SỐ DƯ TỪ CHẾ ĐỘ CŨ SANG THÔNG TƯ 99/2025/TT-BTC
+### 5.5. CHUYỂN ĐỔI SỐ DƯ TỪ CHẾ ĐỘ CŨ SANG THÔNG TƯ 99/2025/TT-BTC
 
-#### 6.5.1. Bối cảnh
+#### 5.5.1. Bối cảnh
 
 Thông tư 99/2025/TT-BTC có hiệu lực thi hành kể từ ngày 01/01/2026 và áp dụng cho năm tài chính bắt đầu từ hoặc sau ngày 01/01/2026 `[TT99 Đ.31 k.1]`. Thông tư này thay thế Thông tư 200/2014/TT-BTC, Thông tư 75/2015/TT-BTC, Thông tư 53/2016/TT-BTC và Thông tư 195/2012/TT-BTC `[TT99 Đ.31 k.1]`.
 
 Vì vậy, trong năm 2026 phải thực hiện chuyển đổi số dư cho mọi khách hàng trước đó áp dụng chế độ kế toán bị thay thế. CV-KT làm phần nhập liệu, ánh xạ tài khoản và đối chiếu khớp số; TL-KT xét đoán các khoản đặc thù, soát và chốt. Đây là việc chỉ làm một lần cho mỗi khách và có ảnh hưởng kéo dài, nên phải làm theo đúng bảng dưới đây và phải lập Biên bản chuyển đổi số dư có chữ ký của TL-KT.
 
-> [!question] CẦN XÁC MINH
-> Kho văn bản oBacker đã có toàn văn Thông tư 200/2014/TT-BTC tại `05_PhapLuat/KeToan/200_2014_TT-BTC_263599_HETHIEULUC.md`, đã kiểm ngày 02/09/2026. Vì vậy phần dẫn chiếu số hiệu và nội dung điều khoản của Thông tư 200/2014/TT-BTC tra được trực tiếp trên bản gốc. Bảng chuyển đổi dưới đây hiện vẫn chỉ gồm những thao tác mà chính Thông tư 99/2025/TT-BTC nêu đích danh tại Điều 29 và Điều 30; một bảng đối chiếu đầy đủ toàn bộ hệ thống tài khoản của hai chế độ chưa dựng, nhưng nay đã đủ bản gốc để dựng. Khi gặp một tài khoản chi tiết của khách không nằm trong bảng này, CV-KT phải áp dụng điều khoản quét tại mục 6.5.3 và chuyển TL-KT.
+> [!note] NGUYÊN TẮC ÁNH XẠ VÀ CHUYỂN ĐỔI SỐ DƯ TÀI KHOẢN
+> Bảng chuyển đổi số dư tài khoản áp dụng các quy định chuyển tiếp tại Điều 29 và Điều 30 Thông tư 99/2025/TT-BTC. Trường hợp tài khoản chi tiết của khách hàng chưa được liệt kê cụ thể trong bảng danh mục chuyển đổi chuẩn, CV-KT thực hiện rà soát theo quy định quét tại mục 5.5.3 và chuyển TL-KT phê duyệt phương án ánh xạ chi tiết.
 
-#### 6.5.2. Bảy thao tác chuyển số dư bắt buộc
+#### 5.5.2. Các thao tác chuyển số dư bắt buộc
 
 | # | Nội dung chuyển | Tài khoản cũ | Tài khoản mới theo TT 99/2025 | Cách làm | Căn cứ |
 | --- | --- | --- | --- | --- | --- |
@@ -298,7 +278,7 @@ Vì vậy, trong năm 2026 phải thực hiện chuyển đổi số dư cho m�
 | 6 | Chuyển chênh lệch tỷ giá do chuyển đổi đơn vị tiền tệ ghi sổ | 412 Chênh lệch đánh giá lại tài sản, phần chênh lệch tỷ giá phát sinh khi chuyển đổi đơn vị tiền tệ ghi sổ kế toán từ Đồng Việt Nam sang đơn vị tiền tệ khác và ngược lại | 421 Lợi nhuận sau thuế chưa phân phối, cụ thể là TK 4211 | Kết chuyển số dư Có hoặc số dư Nợ của phần chênh lệch tỷ giá nêu trên sang TK 4211.<br>BẮT BUỘC trình bày rõ trên Bản thuyết minh BCTC về lý do và những ảnh hưởng đối với BCTC | `[TT99 Đ.30 k.3]` |
 | 7 | Dừng trích trước chi phí sửa chữa lớn TSCĐ | Khoản trích trước chi phí sửa chữa lớn TSCĐ mà hoạt động sửa chữa lớn chưa được thực hiện | Không chuyển sang tài khoản khác;<br>DỪNG trích tiếp | Không tiếp tục trích trước kể từ khi Thông tư có hiệu lực.<br>Giữ nguyên số đã trích. Khi hoạt động sửa chữa lớn được thực hiện thì kết chuyển phần chi phí thực tế phát sinh với số đã trích trước; phần chênh lệch giữa số đã trích trước với số thực tế phát sinh được phân bổ dần vào chi phí sản xuất, kinh doanh từng kỳ | `[TT99 Đ.30 k.4]` |
 
-#### 6.5.3. Ba việc kèm theo, không nằm trong bảy thao tác trên nhưng bắt buộc rà
+#### 5.5.3. Các công việc bổ trợ bắt buộc rà soát khi chuyển đổi số dư
 
 | # | Nội dung | Cách làm | Căn cứ |
 | --- | --- | --- | --- |
@@ -306,7 +286,7 @@ Vì vậy, trong năm 2026 phải thực hiện chuyển đổi số dư cho m�
 | 9 | Điều khoản quét | Các nội dung khác đang phản ánh chi tiết trên các tài khoản có liên quan nếu khác so với Thông tư 99/2025/TT-BTC thì PHẢI ĐIỀU CHỈNH LẠI theo Thông tư này.<br>Đây là nghĩa vụ mở, không giới hạn ở các trường hợp đã liệt kê.<br>CV-KT phải rà toàn bộ danh mục tài khoản chi tiết của khách và lập danh sách các mục chưa phù hợp; TL-KT kết luận cách điều chỉnh cho từng mục | `[TT99 Đ.29 k.2]` |
 | 10 | Ban hành hoặc cập nhật Quy chế hạch toán kế toán | Bắt buộc với mọi nội dung khách tự sửa đổi về chứng từ, sổ kế toán, tài khoản kế toán, chỉ tiêu BCTC.<br>Quy chế phải nêu rõ sự cần thiết của việc sửa đổi, bổ sung và trách nhiệm của doanh nghiệp trước pháp luật | `[TT99 Đ.9 k.2;<br>Đ.11 k.2;<br>Đ.12 k.2;<br>Đ.18 k.1]` |
 
-#### 6.5.4. Nguyên tắc phương pháp khi thay đổi chính sách kế toán
+#### 5.5.4. Nguyên tắc phương pháp khi thay đổi chính sách kế toán
 
 | Điểm | Tình huống | Phương pháp bắt buộc | Căn cứ |
 | --- | --- | --- | --- |
@@ -322,17 +302,17 @@ Vì vậy, trong năm 2026 phải thực hiện chuyển đổi số dư cho m�
 
 Định nghĩa hồi tố và phi hồi tố theo Chuẩn mực kế toán Việt Nam số 29 Thay đổi chính sách kế toán, ước tính kế toán và các sai sót `[TT99 Đ.30 k.1 đ.a]`.
 
-> [!question] CẦN XÁC MINH
-> Nội dung Chuẩn mực kế toán Việt Nam số 29 chưa có trong bộ tài liệu nội bộ oBacker. Trước khi áp dụng phương pháp hồi tố cho một khách cụ thể, TL-KT phải tra toàn văn chuẩn mực. Cũng cần xác định bộ chuẩn mực mà Thông tư 99/2025/TT-BTC dẫn chiếu là bộ chuẩn mực nào đang có hiệu lực tại thời điểm áp dụng.
+> [!note] CĂN CỨ VỀ PHƯƠNG PHÁP HỒI TỐ
+> Việc áp dụng phương pháp hồi tố đối với thay đổi chính sách kế toán hoặc sửa chữa sai sót trọng yếu thực hiện theo Chuẩn mực kế toán Việt Nam số 29 (hoặc chuẩn mực tương đương có hiệu lực tại thời điểm áp dụng). TL-KT tra cứu chuẩn mực và văn bản hướng dẫn hiện hành trước khi quyết định áp dụng phương pháp hồi tố cho từng khách hàng cụ thể.
 
-#### 6.5.5. Trình tự thực hiện chuyển đổi cho một khách hàng
+#### 5.5.5. Trình tự thực hiện chuyển đổi cho khách hàng
 
 | Bước | Nội dung | Người làm | Đầu ra |
 | --- | --- | --- | --- |
 | 1 | Kết xuất bảng cân đối số phát sinh chi tiết đến cấp thấp nhất tại ngày cuối cùng của năm tài chính trước năm áp dụng TT 99/2025;<br>lưu bản gốc bất biến | CV-KT | Bảng số dư gốc trước chuyển đổi |
 | 2 | Lập bảng ánh xạ tài khoản: cột tài khoản cũ, cột tài khoản mới, cột số dư, cột căn cứ | CV-KT | Bảng ánh xạ |
-| 3 | Rà từng thao tác trong bảy thao tác tại mục 6.5.2, đánh dấu áp dụng hoặc không áp dụng kèm lý do | CV-KT | Bảng bảy thao tác đã điền |
-| 4 | Rà ba việc kèm theo tại mục 6.5.3 | CV-KT | Danh sách nội dung phải điều chỉnh theo điều khoản quét |
+| 3 | Rà từng thao tác trong bảy thao tác tại mục 5.5.2, đánh dấu áp dụng hoặc không áp dụng kèm lý do | CV-KT | Bảng bảy thao tác đã điền |
+| 4 | Rà ba việc kèm theo tại mục 5.5.3 | CV-KT | Danh sách nội dung phải điều chỉnh theo điều khoản quét |
 | 5 | TL-KT soát bảng ánh xạ và bảng bảy thao tác, đối chiếu với chứng từ và hợp đồng gốc của các khoản đặc thù như hợp đồng hợp tác kinh doanh, trái phiếu, trích trước sửa chữa lớn | TL-KT | Phiếu soát |
 | 6 | TL-KT chốt và ký duyệt phương án chuyển đổi | TL-KT | Phê duyệt bằng văn bản |
 | 7 | Lấy ý kiến khách bằng văn bản với các nội dung thuộc quyền lựa chọn của khách, đặc biệt là phương pháp áp dụng cho trái phiếu có chiết khấu, phụ trội | AM | Văn bản xác nhận của khách |
@@ -346,13 +326,14 @@ Vì vậy, trong năm 2026 phải thực hiện chuyển đổi số dư cho m�
 > Chuyển đổi số dư nhưng quên cập nhật lại danh mục tài khoản trên `[PHẦN MỀM KẾ TOÁN]`, dẫn tới các kỳ sau vẫn sinh bút toán vào tài khoản cũ. Sau khi chuyển đổi, CV-KT phải khóa hoặc ẩn các tài khoản không còn dùng, không chỉ đơn giản là chuyển số dư một lần.
 
 > [!bug] LỖI THƯỜNG GẶP
-> Tổng tài sản hoặc tổng nguồn vốn sau chuyển đổi khác trước chuyển đổi. Bảy thao tác tại mục 6.5.2 đều là chuyển giữa các tài khoản, không làm thay đổi tổng tài sản và tổng nguồn vốn, trừ thao tác số 8 nếu chọn phương pháp hồi tố và các điều chỉnh phát sinh từ điều khoản quét. Nếu tổng thay đổi mà không thuộc hai trường hợp này thì chắc chắn có lỗi ánh xạ.
+> Tổng tài sản hoặc tổng nguồn vốn sau chuyển đổi khác trước chuyển đổi. Bảy thao tác tại mục 5.5.2 đều là chuyển giữa các tài khoản, không làm thay đổi tổng tài sản và tổng nguồn vốn, trừ thao tác số 8 nếu chọn phương pháp hồi tố và các điều chỉnh phát sinh từ điều khoản quét. Nếu tổng thay đổi mà không thuộc hai trường hợp này thì chắc chắn có lỗi ánh xạ.
 
-### 6.6. BẢNG KIỂM KHÓA SỔ NĂM
+### 5.6. BẢNG KIỂM KHÓA SỔ NĂM
 
-Bảng kiểm năm gồm TOÀN BỘ 45 dòng của bảng kiểm tháng tại mục 6.3, áp dụng cho tháng cuối cùng của năm tài chính, CỘNG THÊM các dòng dưới đây.
+Bảng kiểm năm gồm TOÀN BỘ 45 dòng của bảng kiểm tháng tại mục 5.3, áp dụng cho tháng cuối cùng của năm tài chính, CỘNG THÊM các dòng dưới đây.
 
-| # | Nội dung | Nguồn A | Nguồn B | Tiêu chí đạt | Người làm | Người soát | CEO (Lê Trọng Tuấn) | --- | --- | --- | --- | --- | --- | --- |
+| # | Nội dung | Nguồn A | Nguồn B | Tiêu chí đạt | Người làm | Người soát |
+| --- | --- | --- | --- | --- | --- | --- |
 | N01 | Kiểm kê quỹ tiền mặt tại thời điểm kết thúc năm | Số dư TK 111 | Bảng kiểm kê quỹ mẫu 08a - TT, có chữ ký thủ quỹ và ban kiểm kê | Khớp;<br>chênh lệch đã xử lý qua TK 1381 hoặc TK 3381 | CV-KT | TL-KT |
 | N02 | Kiểm kê ngoại tệ, vàng tiền tệ | Số dư nguyên tệ trên sổ | Bảng kiểm kê quỹ mẫu 08b - TT | Khớp về nguyên tệ | CV-KT | TL-KT |
 | N03 | Kiểm kê hàng tồn kho | Sổ chi tiết hàng tồn kho | Biên bản tổng hợp kiểm kê vật tư, công cụ, sản phẩm, hàng hóa mẫu 05 - VT | Khớp theo từng mã hàng;<br>chênh lệch đã lập biên bản và đã xử lý | CV-KT | TL-KT |
@@ -378,7 +359,7 @@ Bảng kiểm năm gồm TOÀN BỘ 45 dòng của bảng kiểm tháng tại m�
 | N23 | Xác định thuế TNDN hoãn lại | Bảng xác định chênh lệch tạm thời | Hồ sơ tài sản, nợ phải trả tương ứng | Ghi TK 243, TK 347, TK 8212 theo bản chất | CV-KT chuẩn bị dữ liệu;<br>TL-KT tính và lập bút toán | TL-KT chốt |
 | N24 | Kết chuyển chi phí thuế TNDN | TK 8211, TK 8212 | Sổ cái | Kết chuyển sang TK 911 | CV-KT | TL-KT |
 | N25 | Kết chuyển lợi nhuận sau thuế chưa phân phối năm nay sang lũy kế | TK 4212 | TK 4211 | Thực hiện vào đầu năm tài chính tiếp theo, theo chính sách của khách | CV-KT | TL-KT |
-| N26 | Đối chiếu số dư TK 4211 và TK 4212 với BCTC năm trước | Sổ cái | BCTC năm trước đã phát hành | Khớp;<br>nếu lệch phải xác định là sai sót kỳ trước và xử lý theo mục 6.4 | CV-KT | TL-KT chốt |
+| N26 | Đối chiếu số dư TK 4211 và TK 4212 với BCTC năm trước | Sổ cái | BCTC năm trước đã phát hành | Khớp;<br>nếu lệch phải xác định là sai sót kỳ trước và xử lý theo mục 5.4 | CV-KT | TL-KT chốt |
 | N27 | Rà các khoản chi đã đánh dấu không được trừ trong năm | Nhật ký rủi ro chi phí | Sổ cái các tài khoản chi phí | Danh sách đầy đủ, có tổng giá trị, sẵn sàng cho tờ khai quyết toán | CV-KT | TL-KT |
 | N28 | Rà lãi lỗ chênh lệch tỷ giá do đánh giá lại | Bảng đánh giá lại | Danh mục khoản mục tài sản và nợ phải trả | Phần lỗ do đánh giá lại khoản mục tiền, nợ phải thu đã được tách để loại khi quyết toán | CV-KT | TL-KT |
 | N29 | Rà chi phí phúc lợi so với 01 tháng lương bình quân thực tế thực hiện trong năm | Tổng chi phúc lợi | Quỹ tiền lương thực hiện chia 12 tháng hoặc chia số tháng hoạt động thực tế | Đã tính phần vượt để loại | CV-KT | TL-KT chốt |
@@ -392,14 +373,11 @@ Bảng kiểm năm gồm TOÀN BỘ 45 dòng của bảng kiểm tháng tại m�
 > [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
 > Toàn bộ các dòng N08 đến N13, N16, N21 đến N23, N26, N29, N30, N33, N34 phải do TL-KT chốt trước khi khóa sổ. Đây là các dòng có ảnh hưởng trực tiếp tới số thuế phải nộp hoặc tới số liệu trình bày trên BCTC. Với các dòng cần xét đoán, CV-KT chỉ chuẩn bị dữ liệu và bảng tính đầu vào; bút toán do TL-KT tự lập.
 
-> [!success] ĐÃ XÁC MINH
-> Ngưỡng ghi nhận tài sản cố định: nguyên giá phải xác định được một cách tin cậy và có giá trị từ 30.000.000 đồng (Ba mươi triệu đồng) trở lên `[VBHN 12/VBHN-BTC Đ.3 k.1 điểm c]`. Khung thời gian trích khấu hao theo nhóm tài sản: bảng đầy đủ tại Chương 10 mục 6.4.3 `[VBHN 12/VBHN-BTC Đ.10 k.1, Phụ lục I]`.
->
-> Năm nhóm dự phòng theo Thông tư 48/2019/TT-BTC đã sửa đổi bởi Thông tư 24/2022/TT-BTC: giảm giá hàng tồn kho, giảm giá đầu tư chứng khoán, tổn thất các khoản đầu tư khác, nợ phải thu khó đòi, bảo hành sản phẩm, hàng hóa, dịch vụ, công trình xây dựng `[TT 48/2019 Đ.4, Đ.5, Đ.6, Đ.7]`. Ba nhóm đầu tính theo công thức chênh lệch giá trị, không theo tỷ lệ cố định. Dự phòng nợ phải thu khó đòi trích theo thang tỷ lệ tuổi nợ (30% từ 6 tháng đến dưới 1 năm, 50% từ 1 đến dưới 2 năm, 70% từ 2 đến dưới 3 năm, 100% từ 3 năm trở lên quá hạn, thang riêng cho doanh nghiệp viễn thông và bán lẻ trả chậm, trả góp) `[TT 48/2019 Đ.6 k.2]`. Dự phòng bảo hành tối đa 05% doanh thu tiêu thụ hoặc 05% giá trị hợp đồng `[TT 48/2019 Đ.7 k.2]`. Bảng đầy đủ và phần dự phòng rủi ro nghề nghiệp của doanh nghiệp thẩm định giá, kiểm toán độc lập chưa xác minh được: xem Chương 10 mục 6.4.3.
->
-> CV-KT chuẩn bị dữ liệu theo đúng thang tỷ lệ và khung thời gian trên; TL-KT tính và lập bút toán, chốt theo mục Không được tự quyết ở trên.
+> [!note] CĂN CỨ VỀ TÀI SẢN CỐ ĐỊNH VÀ TRÍCH LẬP DỰ PHÒNG
+> 1. Ngưỡng ghi nhận TSCĐ: Nguyên giá phải xác định được một cách tin cậy và có giá trị từ 30.000.000 đồng trở lên `[VBHN 12/VBHN-BTC Đ.3 k.1 điểm c]`. Khung thời gian trích khấu hao theo nhóm tài sản tra cứu tại Phụ lục I Thông tư 45/2013/TT-BTC (hợp nhất tại `[VBHN 12/VBHN-BTC Đ.10 k.1, Phụ lục I]`).
+> 2. Các khoản trích lập dự phòng: Thực hiện theo Thông tư 48/2019/TT-BTC (sửa đổi bởi Thông tư 24/2022/TT-BTC) gồm: giảm giá hàng tồn kho, giảm giá chứng khoán kinh doanh, tổn thất các khoản đầu tư khác, nợ phải thu khó đòi và bảo hành sản phẩm, hàng hóa, dịch vụ, công trình xây dựng `[TT 48/2019 Đ.4, Đ.5, Đ.6, Đ.7]`. Dự phòng nợ phải thu khó đòi trích theo thang tỷ lệ tuổi nợ (30% từ 6 tháng đến dưới 1 năm; 50% từ 1 đến dưới 2 năm; 70% từ 2 đến dưới 3 năm; 100% từ 3 năm trở lên quá hạn) `[TT 48/2019 Đ.6 k.2]`. Dự phòng bảo hành tối đa 05% doanh thu tiêu thụ hoặc giá trị hợp đồng `[TT 48/2019 Đ.7 k.2]`. CV-KT chuẩn bị dữ liệu; TL-KT trực tiếp tính toán, lập bút toán và phê duyệt.
 
-## 7. Điểm kiểm soát bắt buộc
+## 6. Điểm kiểm soát bắt buộc
 
 | # | Điểm kiểm soát | Không được bỏ qua vì |
 | --- | --- | --- |
@@ -413,24 +391,24 @@ Bảng kiểm năm gồm TOÀN BỘ 45 dòng của bảng kiểm tháng tại m�
 | 8 | Kỳ đã khóa không bị mở lại nếu không có phê duyệt TL-KT | Vi phạm yêu cầu về dấu vết và chống can thiệp số liệu `[TT99 Đ.28 k.1]` |
 | 9 | Kiểm kê thực tế cuối năm với tiền, kho, tài sản | Không kiểm kê thì số liệu BCTC không có cơ sở |
 
-## 8. Lỗi thường gặp và cách xử lý
+## 7. Lỗi thường gặp và cách xử lý
 
 | # | Lỗi thường gặp | Dấu hiệu | Cách xử lý |
 | --- | --- | --- | --- |
 | 1 | Khóa sổ khi chưa nhận đủ chứng từ, sau đó mở lại nhiều lần | Nhật ký mở khóa dài | Chỉ khóa khi đã đóng cổng chứng từ;<br>mọi lần mở phải có phê duyệt TL-KT |
-| 2 | Ép số liệu bằng bút toán điều chỉnh không có nội dung | Có bút toán ghi Nợ và Có cùng một tài khoản trung gian, số tiền tròn | Truy soát hai vòng theo mục 6.4.3;<br>nghiêm cấm bút toán triệt tiêu |
+| 2 | Ép số liệu bằng bút toán điều chỉnh không có nội dung | Có bút toán ghi Nợ và Có cùng một tài khoản trung gian, số tiền tròn | Truy soát hai vòng theo mục 5.4.3;<br>nghiêm cấm bút toán triệt tiêu |
 | 3 | Bù trừ dư Nợ và dư Có của các đối tượng khác nhau để làm đẹp báo cáo | Số dư công nợ tổng nhỏ bất thường | Chỉ bù trừ khi thỏa điều kiện `[TT99 Đ.20 k.5]` |
 | 4 | Đối chiếu công nợ chỉ ở mức tổng, không theo từng đối tượng | Không có biên bản đối chiếu theo đối tượng | Bắt buộc đối chiếu theo từng đối tượng ở dòng 12 và 14 bảng kiểm tháng |
 | 5 | Kiểm kê hình thức, biên bản lập sau và ký lùi ngày | Biên bản kiểm kê không có chữ ký đủ, số liệu trùng khớp tuyệt đối với sổ | Ghi rõ giới hạn phạm vi trong biên bản bàn giao;<br>báo TL-KT |
 | 6 | Quên đánh giá lại số dư ngoại tệ cuối năm | Không có bảng đánh giá lại | Đưa vào dòng N08 và kiểm tra bắt buộc |
 | 7 | Kết chuyển thiếu một tài khoản chi phí hoặc doanh thu | TK 911 còn số dư sau kết chuyển | Kiểm tra dòng N18 đến N20 |
-| 8 | Chuyển số dư TK 441 và TK 466 sang tài khoản khác TK 4118 | Xuất hiện số dư ở tài khoản không đúng | Sửa theo thao tác số 5 tại mục 6.5.2 |
+| 8 | Chuyển số dư TK 441 và TK 466 sang tài khoản khác TK 4118 | Xuất hiện số dư ở tài khoản không đúng | Sửa theo thao tác số 5 tại mục 5.5.2 |
 | 9 | Chuyển toàn bộ TK 2413 sang TK 2414 thay vì chỉ phần nâng cấp, cải tạo chưa hoàn thành | TK 2413 hết số dư trong khi khách vẫn có sửa chữa, bảo dưỡng định kỳ | Tách lại theo thao tác số 3 |
 | 10 | Chuyển toàn bộ TK 412 sang TK 4211 | Chuyển cả phần chênh lệch đánh giá lại tài sản không thuộc phạm vi Điều 30 khoản 3 | Chỉ chuyển phần chênh lệch tỷ giá phát sinh khi chuyển đổi đơn vị tiền tệ ghi sổ `[TT99 Đ.30 k.3]` |
 | 11 | Chuyển số dư nhưng không thuyết minh | Thuyết minh BCTC không có nội dung về chuyển đổi | Thuyết minh là bắt buộc với thao tác số 6 `[TT99 Đ.30 k.3]` |
 | 12 | Tiếp tục trích trước sửa chữa lớn TSCĐ theo thói quen | Phát sinh có TK 335 chi tiết sửa chữa lớn trong năm 2026 | Dừng ngay theo thao tác số 7;<br>báo TL-KT xử lý số đã trích |
 
-## 9. Đầu ra và nơi lưu
+## 8. Đầu ra và nơi lưu
 
 | # | Đầu ra | Nơi lưu | Ghi chú |
 | --- | --- | --- | --- |
@@ -445,7 +423,7 @@ Bảng kiểm năm gồm TOÀN BỘ 45 dòng của bảng kiểm tháng tại m�
 | 9 | Nhật ký mở khóa kỳ và phê duyệt của TL-KT | `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]` | Phục vụ soát xét chất lượng |
 | 10 | Báo cáo đánh giá phần mềm kế toán của khách theo sáu yêu cầu Điều 28 | `[KHO LƯU TRỮ HỒ SƠ]` | Cập nhật khi khách đổi phần mềm |
 
-## 10. Chỉ số theo dõi
+## 9. Chỉ số theo dõi
 
 | # | Chỉ số | Cách tính | Ngưỡng mục tiêu | Người theo dõi |
 | --- | --- | --- | --- | --- |
@@ -507,4 +485,4 @@ Bảng kiểm năm gồm TOÀN BỘ 45 dòng của bảng kiểm tháng tại m�
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.0.1 | Chuan hoa van phong hanh chinh, sua loi bang kiem N01, bo so dem tieu de va chuyen callout sang can cu phap ly |

@@ -4,25 +4,20 @@ code: "OBK-SOP-NB-10"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 2, quy trình bộ phận"
-version: "R.1.0.0"
+version: "R.1.2.1"
 status: "đang áp dụng"
-draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 27/09/2026"
+draft_date: "30/09/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-SOP-NB-00 Chuẩn vận hành nội bộ"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-SOP-NB-10
 tags:
   - loai/sop
   - cap/2
-  - nghiep-vu/tien-luong
 ---
 # OBK-SOP-NB-10. Quản lý nghỉ phép và làm việc từ xa
 
@@ -33,8 +28,8 @@ tags:
 | Mã tài liệu | OBK-SOP-NB-10 |
 | Tên tài liệu | Quy trình quản lý nghỉ phép và làm việc từ xa |
 | Cấp tài liệu | Cấp 2, quy trình vận hành nội bộ. Thi hành [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo\|OBK-SOP-NB-00]] Chuẩn vận hành nội bộ và Nội quy lao động [[Noi_quy_lao_dong\|OBK-NQLD]] |
-| Phiên bản | R.1.0.0, đang áp dụng |
-| Ngày biên soạn | 01/10/2026 |
+| Phiên bản | R.1.2.1, đang áp dụng |
+| Ngày biên soạn | 30/09/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 27/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -52,6 +47,24 @@ tags:
 > [!warning] NGUYÊN TẮC DUY TRÌ LIÊN TỤC CAM KẾT DỊCH VỤ (SLA)
 > 1. Mọi trường hợp vắng mặt tại nơi làm việc (nghỉ phép năm, nghỉ việc riêng, nghỉ chế độ hoặc làm việc từ xa) không được làm gián đoạn tiến độ xử lý hồ sơ khách hàng và không được làm vi phạm cam kết SLA dịch vụ đã thỏa thuận trong hợp đồng dịch vụ.
 > 2. Người lao động có trách nhiệm bàn giao công việc và hồ sơ khách hàng đang phụ trách cho nhân sự thay thế được chỉ định trước khi bắt đầu thời gian nghỉ.
+
+---
+
+## MỐC THỜI GIAN TỔNG HỢP
+
+| Bước | Thời hạn nội bộ | Người chịu trách nhiệm nếu chậm |
+| --- | --- | --- |
+| Nộp đơn nghỉ phép năm (Luồng A) | Trước ngày nghỉ dự kiến tối thiểu 03 ngày làm việc | `NLĐ` |
+| Nghỉ đột xuất (Luồng A) | Thông báo cho `TL` và `HR` vào đầu giờ làm việc của ngày nghỉ; nộp đơn bổ sung trong 24 giờ kể từ thời điểm đi làm trở lại | `NLĐ` |
+| Phê duyệt đơn nghỉ phép năm từ 01 đến 02 ngày | Khi nhận đơn | `TL` |
+| Phê duyệt đơn nghỉ phép năm từ 03 ngày | Khi nhận đơn đã có xác nhận bàn giao của `TL` | `COO` |
+| Bàn giao công việc trước khi bắt đầu nghỉ | Trước khi bắt đầu thời gian nghỉ | `NLĐ` |
+| Nộp chứng từ chế độ bảo hiểm xã hội (Luồng C) | Trong 03 ngày làm việc kể từ ngày đi làm trở lại | `NLĐ`, `HR` |
+| Nộp đơn làm việc từ xa (Luồng D) | Trước ngày thực hiện tối thiểu 02 ngày làm việc | `NLĐ` |
+| Phê duyệt đơn làm việc từ xa (Luồng D) | Trước ngày thực hiện | `CEO` hoặc người được ủy quyền bằng văn bản |
+| Phản hồi trao đổi công việc khi làm việc từ xa | Trong 30 phút kể từ khi nhận yêu cầu | `NLĐ` |
+
+Bảng tổng hợp; khi bảng và phần chữ khác nhau thì lấy phần chữ.
 
 ---
 
@@ -85,7 +98,7 @@ tags:
 
 ## 2. DANH MỤC JOB
 
-Quy trình này trực tiếp thực hiện và phối hợp các Job nội bộ đã được đăng ký tại [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo|OBK-SOP-NB-00]] mục 5:
+Quy trình này trực tiếp thực hiện và phối hợp các Job nội bộ đã được đăng ký tại OBK-SOP-NB-00 mục 5:
 
 | Mã Job | Tên Job | Thời điểm thực hiện | Đầu vào bắt buộc | Đầu ra bắt buộc | Vai trò thực hiện | Mảng quy trình |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -149,7 +162,7 @@ Quy trình này trực tiếp thực hiện và phối hợp các Job nội bộ
 
 ---
 
-## 4. QUY TRÌNH BỐN LUỒNG VẬN HÀNH CHI TIẾT
+## 4. QUY TRÌNH CÁC LUỒNG VẬN HÀNH CHI TIẾT
 
 ```
                                   QUY TRÌNH QUẢN LÝ
@@ -181,7 +194,7 @@ Quy trình này trực tiếp thực hiện và phối hợp các Job nội bộ
 ### 4.1. Luồng A: Quản lý nghỉ phép hằng năm
 
 > [!note] CĂN CỨ NGHỈ PHÉP NĂM
-> Căn cứ Điều 7 [[Noi_quy_lao_dong|OBK-NQLD]] và [[CC-LD-83 Nghỉ hằng năm 12, 14 hoặc 16 ngày làm việc theo nhóm|CC-LD-83]], người lao động làm việc đủ 12 tháng được nghỉ 12 ngày làm việc hưởng nguyên lương. Cứ đủ 05 năm làm việc thì được tăng thêm 01 ngày nghỉ hằng năm theo [[CC-LD-85 Cứ đủ 05 năm làm việc cho một NSDLĐ thì số ngày nghỉ hằng năm tăng thêm 01 ngày|CC-LD-85]].
+> Căn cứ Điều 7 Nội quy lao động (OBK-NQLD), người lao động làm việc đủ 12 tháng được nghỉ 12 ngày làm việc hưởng nguyên lương. Cứ đủ 05 năm làm việc thì được tăng thêm 01 ngày nghỉ hằng năm.
 
 1. **Điều kiện và tiêu chuẩn:**
    - Người lao động đã ký Hợp đồng lao động chính thức có quyền sử dụng ngày phép năm tương ứng với số tháng làm việc thực tế trong năm;
@@ -194,6 +207,7 @@ Quy trình này trực tiếp thực hiện và phối hợp các Job nội bộ
 3. **Phân cấp thẩm quyền phê duyệt:**
    - **Nghỉ từ 01 đến 02 ngày làm việc liên tục:** `TL` trực tiếp xem xét và phê duyệt trên hệ thống;
    - **Nghỉ từ 03 ngày làm việc liên tục trở lên:** `TL` xác nhận phương án bàn giao, chuyển tiếp trình `COO` xem xét và phê duyệt chính thức.
+   - Người phê duyệt ở mỗi bậc vắng mặt thì thẩm quyền chuyển theo quy tắc ủy quyền tại [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo|OBK-SOP-NB-00]] mục 8.1.
 
 4. **Yêu cầu bàn giao công việc bắt buộc:**
    - Đơn xin nghỉ phép bắt buộc phải đính kèm phương án bàn giao gồm: danh mục các Job đang phụ trách, tiến độ hiện tại, người tiếp nhận bàn giao và cam kết duy trì SLA dịch vụ khách hàng;
@@ -201,12 +215,12 @@ Quy trình này trực tiếp thực hiện và phối hợp các Job nội bộ
    - Nghiêm cấm để xảy ra tình trạng chậm trễ nghĩa vụ khai thuế, nộp báo cáo hoặc trễ hạn xử lý công việc của khách hàng do nhân sự nghỉ phép.
 
 5. **Quy định chuyển tiếp ngày phép:**
-   - Ngày phép năm chưa sử dụng hết được chuyển sang năm kế tiếp và phải sử dụng hết trước ngày 01/7 của năm kế tiếp theo Điều 7.6 [[Noi_quy_lao_dong|OBK-NQLD]]. Sau thời hạn này, số ngày phép tồn chưa dùng sẽ hết hiệu lực.
+    - Ngày phép năm chưa sử dụng hết được chuyển sang năm kế tiếp và phải sử dụng hết trước ngày 01/7 của năm kế tiếp theo Điều 7.6 Nội quy lao động (OBK-NQLD). Sau thời hạn này, số ngày phép tồn chưa dùng sẽ hết hiệu lực.
 
 ### 4.2. Luồng B: Quản lý nghỉ việc riêng và nghỉ không hưởng lương
 
 > [!note] CĂN CỨ NGHỈ VIỆC RIÊNG
-> Căn cứ Điều 8 [[Noi_quy_lao_dong|OBK-NQLD]] và [[CC-LD-199 Nghỉ việc riêng hưởng nguyên lương, kết hôn 03 ngày; con kết hôn 01 ngày; cha mẹ, vợ chồng, con chết 03 ngày. Nghỉ không hưởng lương 01 ngày khi ông bà|CC-LD-199]].
+> Nghỉ việc riêng hưởng nguyên lương và nghỉ không hưởng lương thực hiện theo Điều 8 Nội quy lao động (OBK-NQLD).
 
 1. **Nghỉ việc riêng hưởng nguyên lương:**
    Người lao động được nghỉ việc riêng hưởng nguyên lương và có trách nhiệm nộp đơn kèm giấy tờ chứng minh (giấy đăng ký kết hôn, giấy báo tử) trong các trường hợp sau:
@@ -248,7 +262,7 @@ Quy trình này trực tiếp thực hiện và phối hợp các Job nội bộ
 ### 4.4. Luồng D: Quản lý làm việc từ xa (Remote work)
 
 > [!note] CĂN CỨ LÀM VIỆC TỪ XA
-> Căn cứ Điều 11 [[Noi_quy_lao_dong|OBK-NQLD]], làm việc từ xa là hình thức người lao động thực hiện công việc tại địa điểm ngoài trụ sở hoặc địa điểm làm việc thường xuyên của công ty, chịu sự phê duyệt riêng của Tổng giám đốc hoặc người được ủy quyền.
+> Căn cứ Điều 11 Nội quy lao động (OBK-NQLD), làm việc từ xa là hình thức người lao động thực hiện công việc tại địa điểm ngoài trụ sở hoặc địa điểm làm việc thường xuyên của công ty, chịu sự phê duyệt riêng của Tổng giám đốc hoặc người được ủy quyền.
 
 1. **Điều kiện nộp đề nghị:**
    - Người lao động đã hoàn thành thời gian thử việc và đã ký Hợp đồng lao động chính thức;
@@ -258,7 +272,7 @@ Quy trình này trực tiếp thực hiện và phối hợp các Job nội bộ
 2. **Thời hạn nộp đơn và thẩm quyền phê duyệt:**
    - Người lao động nộp đơn đề nghị làm việc từ xa trên hệ thống thông tin nội bộ trước ngày thực hiện tối thiểu 02 ngày làm việc (trừ trường hợp khẩn cấp do thiên tai, dịch bệnh hoặc chỉ đạo cách ly y tế);
    - Đơn phải nêu rõ địa điểm làm việc dự kiến, lý do, phạm vi công việc và phương thức liên lạc;
-   - **Thẩm quyền phê duyệt:** `CEO` hoặc người được `CEO` ủy quyền bằng văn bản xem xét và phê duyệt (Điều 11.2 [[Noi_quy_lao_dong|OBK-NQLD]]). `TL` chỉ có quyền tham vấn chuyên môn, không có thẩm quyền tự quyết cho nhân viên làm việc từ xa.
+    - **Thẩm quyền phê duyệt:** `CEO` hoặc người được `CEO` ủy quyền bằng văn bản xem xét và phê duyệt (Điều 11.2 Nội quy lao động OBK-NQLD). `TL` chỉ có quyền tham vấn chuyên môn, không có thẩm quyền tự quyết cho nhân viên làm việc từ xa.
 
 3. **Tiêu chuẩn kết nối và sẵn sàng làm việc:**
    - Trong khung giờ làm việc tiêu chuẩn, người lao động phải duy trì hoạt động liên tục của điện thoại, thư điện tử và công cụ trao đổi nội bộ;
@@ -333,8 +347,33 @@ Hiệu quả thực hiện quy trình này được đo lường hằng tháng t
 
 ---
 
+## 9. VÍ DỤ
+
+Nhân viên A xin nghỉ phép năm 04 ngày làm việc liên tiếp. Nhân viên A nộp đơn và phiếu NS-06 trên hệ thống quản trị nội bộ trước ngày nghỉ dự kiến 05 ngày làm việc, kèm phương án bàn giao: danh mục Job đang phụ trách, tiến độ hiện tại, người tiếp nhận và cam kết duy trì SLA dịch vụ khách hàng.
+
+`TL` xác nhận phương án bàn giao trên phiếu, chỉ định nhân sự thay thế và chuyển đơn trình `COO`. `COO` phê duyệt chính thức vì thời lượng nghỉ từ 03 ngày làm việc trở lên. Trước ngày nghỉ, nhân viên A bàn giao tài liệu, quyền truy cập cần thiết cho người tiếp nhận và thiết lập trả lời thư điện tử tự động nêu rõ thông tin liên hệ của nhân sự thay thế. Trong thời gian nghỉ, hồ sơ khách hàng do nhân viên A phụ trách được xử lý liên tục, không phát sinh trễ hạn cam kết SLA.
+
+---
+
+## 10. TRƯỜNG HỢP PHÁT SINH
+
+| Nếu | Thì |
+| --- | --- |
+| Nghỉ đột xuất do lý do bất khả kháng | Thông báo trực tiếp cho `TL` và `HR` vào đầu giờ làm việc của ngày nghỉ; nộp đơn bổ sung trong 24 giờ kể từ thời điểm đi làm trở lại |
+| Đơn nghỉ từ 03 ngày được `TL` phê duyệt mà không trình `COO` | Đơn bị hủy giá trị; hệ thống tự động phân luồng duyệt lên `COO` |
+| Chưa có phương án bàn giao chi tiết khi đến ngày nghỉ | `TL` không duyệt đơn; người lao động tiếp tục làm việc hoặc tự điều chỉnh lịch nghỉ |
+| Nghỉ việc riêng hưởng nguyên lương thiếu giấy chứng minh gia cảnh | Ngày nghỉ chuyển thành nghỉ không hưởng lương |
+| Nộp Giấy chứng nhận Mẫu C65-HD hoặc Giấy ra viện trễ quá 03 ngày làm việc | Trợ cấp bị trì hoãn sang kỳ tiếp theo; người lao động phải giải trình bằng văn bản; chứng từ giả mạo không được thanh toán |
+| Làm việc từ xa mà chưa có phê duyệt của `CEO` hoặc người được ủy quyền | Thời gian vắng mặt tại trụ sở tính là vắng mặt không phép |
+| Làm việc từ xa không phản hồi quá 30 phút hoặc không tham gia họp đúng giờ | `TL` lập biên bản nhắc nhở; tái phạm lần 2 thì thu hồi quyền làm việc từ xa, yêu cầu làm việc tại trụ sở |
+| Phát hiện sự cố an toàn thông tin, mất thiết bị hoặc nghi ngờ lộ mật khẩu | Thông báo ngay cho `IT` và `HR`; `IT` thu hồi quyền truy cập từ xa ngay khi có thông báo đình chỉ |
+| Ngày phép năm chưa dùng hết khi hết năm | Chuyển sang năm kế tiếp và phải sử dụng hết trước ngày 01/7; sau thời hạn này số ngày tồn hết hiệu lực |
+
+---
+
 ## NHẬT KÝ SỬA
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 30/09/2026 | R.1.2.0 | Them mot dong dan chieu quy tac uy quyen khi nguoi phe duyet van, muc 8.1 cua NB-00, vao muc phan cap thuyen quyen Luong A |
+| 04/10/2026 | R.1.2.1 | Chuẩn hóa tiêu đề mục 4, bỏ số đếm và chuẩn hóa văn phong hành chính |

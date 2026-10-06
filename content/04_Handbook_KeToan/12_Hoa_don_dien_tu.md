@@ -4,19 +4,16 @@ code: "OBK-HB-12"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.0"
+version: "R.1.0.1"
 status: "đang áp dụng"
-draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 25/08/2026"
+draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
 parent: "OBK-SOP-KT Kế toán và thuế"
 next_review: "25/11/2026"
 chapter: "Hóa đơn điện tử"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-HB-12
 tags:
@@ -33,8 +30,8 @@ tags:
 | Mã tài liệu | OBK-HB-12 |
 | Tên chương | Hóa đơn điện tử |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.1.0.0, đang áp dụng |
-| Ngày biên soạn | 01/10/2026 |
+| Phiên bản | R.1.0.1, đang áp dụng |
+| Ngày biên soạn | 04/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -42,8 +39,8 @@ tags:
 | Văn bản cấp trên | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] Kế toán và thuế |
 | Lần rà soát tiếp theo | 25/11/2026. Bản gốc toàn văn Nghị định 254/2026/NĐ-CP và Thông tư 91/2026/TT-BTC (đủ 05 Phụ lục) đã có trong kho nội bộ và đã được đối chiếu |
 
-> [!note] TRẠNG THÁI ĐỐI CHIẾU
-> Bản gốc toàn văn Nghị định 254/2026/NĐ-CP và Thông tư 91/2026/TT-BTC (đủ 05 Phụ lục) đã có trong kho nội bộ. Toàn bộ nội dung của chương dẫn hai văn bản này đã được đối chiếu bản gốc. Riêng THỜI HẠN GỬI MẪU 04/SS-HĐĐT khi NGƯỜI BÁN TỰ PHÁT HIỆN vẫn giữ chưa xác minh được vì bản gốc không nêu mốc; trường hợp CƠ QUAN THUẾ phát hiện thì đã có mốc 02 ngày. Xem mục E.5.
+> [!note] CĂN CỨ ÁP DỤNG VỀ HÓA ĐƠN ĐIỆN TỬ
+> Nghiệp vụ hóa đơn điện tử trong chương được xây dựng trên cơ sở các quy định tại Nghị định 254/2026/NĐ-CP và Thông tư 91/2026/TT-BTC. Về thời hạn gửi Mẫu 04/SS-HĐĐT: trường hợp cơ quan thuế thông báo phát hiện sai sót thì thời hạn thực hiện là 02 ngày kể từ ngày nhận được thông báo; trường hợp người bán tự phát hiện sai sót, quy định nội bộ oBacker yêu cầu hoàn tất gửi thông báo trong ngày làm việc phát hiện sai sót theo mục E.5.
 
 ---
 
@@ -75,23 +72,10 @@ tags:
 
 ---
 
-## 3. Căn cứ pháp lý
-
-| # | Văn bản | Nội dung dùng | Mức xác minh |
-| --- | --- | --- | --- |
-| 1 | Nghị định 254/2026/NĐ-CP ngày 30/06/2026, hiệu lực 01/07/2026 | Phạm vi, phân loại hóa đơn (Đ.6), thời điểm lập hóa đơn (Đ.9), nội dung bắt buộc (Đ.10) | đã có bản gốc trong kho |
-| 2 | Thông tư 91/2026/TT-BTC ngày 30/06/2026, hiệu lực 01/07/2026 | Đăng ký, định dạng, ủy nhiệm, xử lý hóa đơn sai sót, chuyển dữ liệu |  |
-| 3 | Luật Quản lý thuế số 108/2025/QH15 ngày 10/12/2025 | Điều 13 và việc sử dụng hóa đơn điện tử của HỘ KINH DOANH, CÁ NHÂN KINH DOANH tại Điều 26 có hiệu lực từ 01/01/2026;<br>phần còn lại của Luật, gồm phần còn lại của Điều 26, có hiệu lực từ 01/07/2026 | `[Luật QLT 108/2025 Đ.52 k.1, k.2]` |
-| 4 | Văn bản hợp nhất 15/VBHN-BTC (Nghị định 125/2020/NĐ-CP xử phạt VPHC thuế, hóa đơn), hợp nhất ngày 05/5/2026 | Toàn bộ mức phạt về hóa đơn |  |
-| 5 | Nghị định 291/2026/NĐ-CP ngày 21/7/2026 | Bổ sung Điều 19a về xử phạt vi phạm cung cấp thông tin trao đổi quốc tế;<br>không thay đổi mức phạt hóa đơn |  |
-| 6 | Thông tư 94/2026/TT-BTC quy định về quản lý tuân thủ, quản lý rủi ro trong quản lý thuế | Tiêu chí xác định rủi ro cao về thuế và hóa đơn.<br>Việc TT 91/2026 DẪN CHIẾU tới thông tư này là `[TT 91/2026 Đ.7 k.4, k.5; Đ.8 k.2 đ.l; Đ.11 k.2]`.<br>NỘI DUNG tiêu chí rủi ro nay đã có bản gốc trong kho: 03 mức rủi ro cao, trung bình, thấp tại Đ.13 k.1; hệ thống tiêu chí tại Phụ lục II và Phụ lục III, tiêu chí tuân thủ tại Phụ lục I; biện pháp quản lý hóa đơn theo mức rủi ro tại Đ.20 k.1 | `[TT 94/2026 Đ.13, Đ.20;<br>Phụ lục I, II, III]` |
-
-> [!warning] CẢNH BÁO THỨ TỰ THỜI GIAN
-> Nghị định 291/2026/NĐ-CP ban hành ngày 21/7/2026, SAU ngày hợp nhất của 15/VBHN-BTC (05/5/2026). Bản hợp nhất 15/VBHN-BTC CHƯA chứa nội dung Nghị định 291/2026. Khi tra cứu xử phạt phải đọc CẢ HAI văn bản.
 
 ---
 
-## 4. Vai trò và trách nhiệm
+## 3. Vai trò và trách nhiệm
 
 | Hoạt động | CV-KT | TL-KT | AM |
 | --- | --- | --- | --- |
@@ -110,31 +94,31 @@ tags:
 
 ---
 
-## 5. Đầu vào bắt buộc
+## 4. Đầu vào bắt buộc
 
-5.1. Từ khách hàng:
+4.1. Từ khách hàng:
 - Bảng kê hóa đơn đầu ra đã phát hành trong kỳ, xuất từ `[PHẦN MỀM HĐĐT]`;
 - Bảng kê hóa đơn đầu vào trong kỳ, kèm tệp XML gốc;
 - Hợp đồng, biên bản nghiệm thu, biên bản bàn giao làm căn cứ xác định thời điểm lập hóa đơn;
 - Thông báo chấp nhận đăng ký sử dụng hóa đơn điện tử của cơ quan thuế;
 - Các thông báo của cơ quan thuế liên quan đến hóa đơn: Mẫu 01/TB-RSĐT, Mẫu 01/TB-TL-KT, Mẫu 01/TB-NSD nếu có.
 
-5.2. Từ nội bộ oBacker:
+4.2. Từ nội bộ oBacker:
 - Danh mục khách hàng kèm loại hóa đơn đang sử dụng;
 - Bảng theo dõi hóa đơn sai sót đã xử lý các kỳ trước, để bảo đảm nguyên tắc nhất quán tại mục E.4;
 - Bản gốc hoặc bản trích Nghị định 254/2026/NĐ-CP và Thông tư 91/2026/TT-BTC lưu tại `[KHO LƯU TRỮ HỒ SƠ]`.
 
-5.3. Tiêu chí đủ đầu vào: không được kết luận về một hóa đơn khi chưa có tệp XML gốc và chưa có chứng từ gốc xác định thời điểm phát sinh giao dịch.
+4.3. Tiêu chí đủ đầu vào: không được kết luận về một hóa đơn khi chưa có tệp XML gốc và chưa có chứng từ gốc xác định thời điểm phát sinh giao dịch.
 
 ---
 
 # PHẦN NGHIỆP VỤ
 
-## 6. Các bước thực hiện
+## 5. Các bước thực hiện
 
 Quy định chi tiết để tra khi làm từng bước nằm ở Phụ lục A của chương, mục A tới H.
 
-### 6.1. Khi nhận khách mới
+### 5.1. Khi nhận khách mới
 
 | Bước | Nội dung | Người | Tiêu chí hoàn thành |
 | --- | --- | --- | --- |
@@ -155,7 +139,7 @@ Trường hợp khách hàng mới thành lập hoặc chưa có chữ ký số 
 4. **Bước 4: Đăng ký sử dụng hóa đơn điện tử với Cơ quan Thuế:** Lập Tờ khai Mẫu số 01/ĐKTĐ-HĐĐT theo Nghị định 254/2026/NĐ-CP và Thông tư 91/2026/TT-BTC; ký số và gửi lên Cổng thông tin của Tổng cục Thuế; theo dõi Thông báo tiếp nhận (Mẫu 01/TB-TNĐT) trong 15 phút và Thông báo chấp nhận (Mẫu 01/TB-ĐKTĐ) trong 01 ngày làm việc.
 5. **Bước 5: Thiết lập mẫu hóa đơn và bàn giao tài khoản:** Cấu hình thông tin doanh nghiệp, ký hiệu mẫu số, ký hiệu hóa đơn, tải lên logo; khởi tạo dải số từ số 1; xuất hóa đơn thử nghiệm; lập Biên bản bàn giao tài khoản quản trị và tài khoản xuất hóa đơn, kèm tài liệu hướng dẫn vận hành cho khách hàng.
 
-### 6.2. Chu trình hàng tháng
+### 5.2. Chu trình hàng tháng
 
 | Bước | Nội dung | Người | Tiêu chí hoàn thành |
 | --- | --- | --- | --- |
@@ -169,7 +153,7 @@ Trường hợp khách hàng mới thành lập hoặc chưa có chữ ký số 
 
 ---
 
-## 7. Điểm kiểm soát bắt buộc
+## 6. Điểm kiểm soát bắt buộc
 
 | # | Điểm kiểm soát | Không được bỏ qua vì |
 | --- | --- | --- |
@@ -186,7 +170,7 @@ Trường hợp khách hàng mới thành lập hoặc chưa có chữ ký số 
 
 ---
 
-## 8. Lỗi thường gặp và cách xử lý
+## 7. Lỗi thường gặp và cách xử lý
 
 | # | Lỗi thường gặp | Hậu quả | Cách xử lý |
 | --- | --- | --- | --- |
@@ -209,7 +193,7 @@ Trường hợp khách hàng mới thành lập hoặc chưa có chữ ký số 
 
 ---
 
-## 9. Đầu ra và nơi lưu
+## 8. Đầu ra và nơi lưu
 
 | Đầu ra | Nơi lưu | Người chịu trách nhiệm |
 | --- | --- | --- |
@@ -227,7 +211,7 @@ Trường hợp khách hàng mới thành lập hoặc chưa có chữ ký số 
 
 ---
 
-## 10. Chỉ số theo dõi
+## 9. Chỉ số theo dõi
 
 | Chỉ số | Cách đo | Mục tiêu | Tần suất | Người theo dõi |
 | --- | --- | --- | --- | --- |
@@ -261,8 +245,8 @@ Phần này là nội dung tra cứu về hóa đơn điện tử, gồm 8 mục
 | Trích yếu | "Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế số 108/2025/QH15 về hóa đơn điện tử, chứng từ điện tử" |  |
 | Đối tượng áp dụng | Người bán gồm: tổ chức kinh tế (doanh nghiệp, hợp tác xã, liên hiệp hợp tác xã, chi nhánh và văn phòng đại diện của doanh nghiệp nước ngoài tại Việt Nam); hộ kinh doanh, cá nhân kinh doanh, tổ hợp tác; đơn vị sự nghiệp công lập có bán hàng hóa, cung cấp dịch vụ; tổ chức không phải doanh nghiệp nhưng có hoạt động kinh doanh; tổ chức nước ngoài kinh doanh trên nền tảng thương mại điện tử đăng ký tự nguyện.<br>Và tổ chức, cá nhân MUA hàng hóa, dịch vụ | `[NĐ 254/2026 Đ.2]` |
 
-> [!success] ĐÃ CHỐT NGÀY BAN HÀNH
-> Ngày ban hành Nghị định 254/2026/NĐ-CP là 30/06/2026, đã đối chiếu trực tiếp trên bản gốc lưu trong kho. Các bài viết trên trang tin ghi 04/7/2026 hoặc 21/7/2026 là SAI. Không cần ghi chú mâu thuẫn khi trích dẫn cho khách nữa; nếu khách dẫn mốc khác thì đối chiếu lại bản gốc trong kho.
+> [!note] HIỆU LỰC THI HÀNH CỦA NGHỊ ĐỊNH 254/2026/NĐ-CP
+> Nghị định 254/2026/NĐ-CP được ban hành ngày 30/06/2026 và có hiệu lực thi hành từ ngày 01/07/2026, thay thế Nghị định 123/2020/NĐ-CP và các văn bản hướng dẫn liên quan `[NĐ 254/2026/NĐ-CP Đ.43 k.1]`.
 
 #### A.2. Thông tư 91/2026/TT-BTC
 
@@ -300,7 +284,7 @@ Trích NGUYÊN VĂN `[TT 91/2026 Đ.25 k.2]`:
 > 2. Với tài liệu đã gửi khách trước 01/07/2026, không thu hồi nhưng phải gửi bản cập nhật khi khách hỏi lại cùng vấn đề;
 > 3. Người soát có nghĩa vụ chặn mọi tài liệu còn dẫn văn bản cũ; đây là điểm kiểm soát bắt buộc, không được bỏ qua.
 
-#### A.4. Ba việc bổ sung vào bộ tài liệu nội bộ, trạng thái
+#### A.4. Các nội dung cập nhật tài liệu nghiệp vụ nội bộ
 
 | Ưu tiên | Việc cần làm | Trạng thái | Người chịu trách nhiệm |
 | --- | --- | --- | --- |
@@ -308,14 +292,14 @@ Trích NGUYÊN VĂN `[TT 91/2026 Đ.25 k.2]`:
 | 2 | Lưu bản gốc Thông tư 91/2026/TT-BTC kèm đủ 05 Phụ lục | XONG. Bản gốc đủ 05 Phụ lục đã có trong kho; Điều 10 (khoản 1 đủ 06 điểm), Mẫu 04/SS-HĐĐT Phụ lục III và Mẫu 01/TB-RSĐT Phụ lục IV đã đối chiếu | TL-KT |
 | 3 | Làm rõ cách ghi hóa đơn giảm thuế GTGT 8% trên mẫu hóa đơn mới áp dụng từ 01/07/2026, vì Nghị định 174/2025/NĐ-CP được viết dựa trên hệ thống hóa đơn cũ theo Nghị định 123/2020 | XONG. Đã đối chiếu và chốt cách ghi theo Điều 10 Nghị định 254/2026/NĐ-CP và Điều 1 Nghị định 174/2025/NĐ-CP | TL-KT |
 
-> [!success] ĐÃ CHỐT CÁCH GHI HÓA ĐƠN GIẢM THUẾ 8%
+> [!note] NGUYÊN TẮC GHI HÓA ĐƠN ĐỐI VỚI HÀNG HÓA DỊCH VỤ GIẢM THUẾ GTGT
 > Cách ghi hóa đơn đối với hàng hóa, dịch vụ được giảm thuế GTGT còn 8% theo mẫu hóa đơn mới của Nghị định 254/2026/NĐ-CP: đối với phương pháp khấu trừ ghi trực tiếp thuế suất "8%" tại chỉ tiêu thuế suất của hóa đơn GTGT. Nghị định 254/2026/NĐ-CP không có điều khoản nào mâu thuẫn hay bãi bỏ cách ghi của Nghị định 174/2025/NĐ-CP. Chính sách áp dụng đến hết ngày 31/12/2026 theo Nghị quyết 204/2025/QH15.
 
 ---
 
 ### B. Phân loại hóa đơn điện tử
 
-#### B.1. Bốn loại hóa đơn và đối tượng áp dụng
+#### B.1. Các loại hóa đơn và đối tượng áp dụng
 
 Quy định gốc tại Điều 6 Nghị định 254/2026/NĐ-CP, đã đối chiếu bản gốc `[NĐ 254/2026 Đ.6 k.1]`. Thông tư 91/2026/TT-BTC chỉ dẫn chiếu, không quy định lại `[TT 91/2026 Đ.11 k.2; Đ.8 k.1 đ.h; Đ.15 k.1]`.
 
@@ -326,16 +310,8 @@ Quy định gốc tại Điều 6 Nghị định 254/2026/NĐ-CP, đã đối ch
 | Hóa đơn điện tử KHÔNG CÓ MÃ của cơ quan thuế | Danh mục ĐÓNG theo bản gốc: "Doanh nghiệp kinh doanh ở lĩnh vực điện lực, xăng dầu, bưu chính, viễn thông, nước sạch, tài chính ngân hàng, chứng khoán, tài sản mã hóa, dịch vụ hỗ trợ giao dịch trên sàn giao dịch các-bon, bảo hiểm, y tế, kinh doanh thương mại điện tử, kinh doanh siêu thị, thương mại, vận tải hàng không, đường bộ, đường sắt, đường biển, đường thủy và tổ chức kinh tế đã hoặc sẽ thực hiện giao dịch với cơ quan thuế bằng phương tiện điện tử, xây dựng hạ tầng công nghệ thông tin, có hệ thống phần mềm kế toán, phần mềm lập hóa đơn điện tử đáp ứng lập, tra cứu hóa đơn điện tử, lưu trữ dữ liệu hóa đơn điện tử theo quy định, bảo đảm việc truyền dữ liệu hóa đơn điện tử đến người mua và đến cơ quan thuế".<br>Loại trừ: trường hợp rủi ro cao về thuế và trường hợp đã đăng ký sử dụng hóa đơn có mã | NĐ 254/2026 Đ.6 k.1 đ.b | `[NĐ 254/2026 Đ.6 k.1 đ.b]` |
 | Hóa đơn điện tử KHỞI TẠO TỪ MÁY TÍNH TIỀN | Tổ chức kinh tế, hộ kinh doanh, cá nhân kinh doanh bán hàng hóa, cung cấp dịch vụ TRỰC TIẾP ĐẾN NGƯỜI TIÊU DÙNG, danh mục nguyên văn: "trung tâm thương mại; siêu thị; bán lẻ (trừ ô tô, mô tô, xe máy và xe có động cơ khác); ăn uống; nhà hàng; khách sạn; dịch vụ vận tải hành khách, dịch vụ hỗ trợ trực tiếp cho vận tải đường bộ, dịch vụ nghệ thuật, vui chơi, giải trí, hoạt động chiếu phim, dịch vụ phục vụ cá nhân khác theo quy định về Hệ thống ngành kinh tế Việt Nam".<br>Nếu đã đăng ký sử dụng hóa đơn điện tử theo điểm a hoặc điểm b thì không bắt buộc đăng ký hóa đơn từ máy tính tiền | NĐ 254/2026 Đ.6 k.1 đ.c | `[NĐ 254/2026 Đ.6 k.1 đ.c]` |
 
-> [!success] ĐÃ CHỐT
-> NGƯỠNG LÀ "TRÊN 01 TỶ ĐỒNG", KHÔNG PHẢI "TỪ 01 TỶ ĐỒNG"
->
-> Đã đối chiếu bản gốc Nghị định 254/2026/NĐ-CP lưu trong kho. Điều 6 khoản 1 điểm d dùng chữ **"TRÊN 01 tỷ đồng"** `[NĐ 254/2026 Đ.6 k.1 đ.d]`. Các bài viết trên trang tin ghi "TỪ 01 tỷ đồng" là SAI.
->
-> Hệ quả thực tế: hộ kinh doanh, cá nhân kinh doanh có doanh thu năm ĐÚNG BẰNG 01 tỷ đồng thì không thuộc diện bắt buộc áp dụng hóa đơn điện tử có mã hoặc hóa đơn từ máy tính tiền theo điểm d. Chỉ khi doanh thu VƯỢT 01 tỷ đồng mới bắt buộc. Nhóm này vẫn có thể đăng ký tự nguyện theo đoạn hai của điểm d.
->
-> Văn bản thứ hai có nội dung tương thích, cũng dùng chữ "TRÊN" `[NĐ 141/2026 Đ.1 k.2, sửa khoản 5 Điều 8 NĐ 68/2026]`: "a) Hộ kinh doanh, cá nhân kinh doanh có doanh thu năm trên 01 tỷ đồng thì phải áp dụng hóa đơn điện tử có mã của cơ quan thuế, hóa đơn điện tử khởi tạo từ máy tính tiền có kết nối dữ liệu với cơ quan thuế."
->
-> Nay đã kết luận được, nhân viên được trả lời khách theo mốc "trên 01 tỷ đồng" và dẫn Điều 6 khoản 1 điểm d Nghị định 254/2026/NĐ-CP.
+> [!note] TIÊU CHÍ DOANH THU ÁP DỤNG HÓA ĐƠN ĐIỆN TỬ TỪ MÁY TÍNH TIỀN
+> Theo Điều 6 khoản 1 điểm d Nghị định 254/2026/NĐ-CP, ngưỡng doanh thu áp dụng bắt buộc đối với hộ kinh doanh, cá nhân kinh doanh là doanh thu năm **trên 01 tỷ đồng** `[NĐ 254/2026 Đ.6 k.1 đ.d]`. Doanh thu đúng bằng 01 tỷ đồng không thuộc diện bắt buộc. Quy định tại Nghị định 141/2026/NĐ-CP Điều 1 khoản 2 sửa đổi khoản 5 Điều 8 Nghị định 68/2026/NĐ-CP cũng áp dụng thống nhất ngưỡng doanh thu năm trên 01 tỷ đồng `[NĐ 141/2026 Đ.1 k.2]`.
 
 #### B.2. Quy tắc chuyển đổi khi doanh thu vượt ngưỡng trong năm
 
@@ -489,7 +465,7 @@ Quy định gốc tại Điều 9 Nghị định 254/2026/NĐ-CP, gồm 05 kho�
 | 26 | Người bán KHÔNG CÓ PHẦN MỀM lập hóa đơn tự động, phát sinh giao dịch trong giờ làm việc BAN ĐÊM theo Bộ luật Lao động | "thời điểm lập hóa đơn chậm nhất là ngày làm việc tiếp theo" | NĐ 254/2026 Đ.9 k.5 | `[NĐ 254/2026 Đ.9 k.5]` |
 | 27 | HOẠT ĐỘNG CHO THUÊ (thuê tài sản, thuê nhà, thuê văn phòng) | Khoản 4 Điều 9 không có điểm riêng cho cho thuê.<br>Áp NGUYÊN TẮC CHUNG tại khoản 2: thời điểm hoàn thành việc cung cấp dịch vụ, hoặc thời điểm thu tiền nếu thu tiền trước hoặc trong khi cung cấp dịch vụ.<br>Xem mục C.2 | NĐ 254/2026 Đ.9 k.2, đã đối chiếu trọn khoản 4 | `[NĐ 254/2026 Đ.9 k.2]` |
 
-#### C.2. Hai loại giao dịch trước đây chưa xác minh được, nay đã chốt
+#### C.2. Thời điểm lập hóa đơn đối với các giao dịch đặc thù
 
 **HOẠT ĐỘNG CHO THUÊ, đã đối chiếu bản gốc.** Đã đọc trọn 17 điểm từ điểm a đến điểm r khoản 4 Điều 9 Nghị định 254/2026/NĐ-CP trên bản gốc lưu trong kho: Không có điểm nào quy định riêng cho hoạt động cho thuê tài sản, cho thuê nhà, cho thuê văn phòng `[NĐ 254/2026 Đ.9 k.4]`. Vì vậy cho thuê áp NGUYÊN TẮC CHUNG tại khoản 2 Điều 9: thời điểm hoàn thành việc cung cấp dịch vụ, hoặc thời điểm thu tiền nếu có thu tiền trước hoặc trong khi cung cấp dịch vụ `[NĐ 254/2026 Đ.9 k.2]`. Đây không còn là diễn giải của nguồn thứ cấp.
 
@@ -624,7 +600,7 @@ Căn cứ khoản 6 Điều 10 và mục 5 Phụ lục Nghị định 254/2026/N
 
 #### D.4. Thông tin người mua và quy định viết tắt chuẩn
 
-Căn cứ khoản 5 Điều 10 và mục 4, mục 9 Phụ lục Nghị định 254/2026/NĐ-CP:
+Căn cứ khoản 5 Điều 10 và mục 3, mục 9 Phụ lục Nghị định 254/2026/NĐ-CP:
 
 1. Người mua là tổ chức kinh tế, hộ kinh doanh, cá nhân kinh doanh: bắt buộc ghi đúng và đầy đủ tên, địa chỉ, mã số thuế theo Giấy chứng nhận đăng ký doanh nghiệp hoặc Thông báo mã số thuế. Khách hàng doanh nghiệp muốn đưa chi phí vào diện được trừ phải cung cấp mã số thuế ngay tại thời điểm mua hàng.
 
@@ -702,7 +678,7 @@ Quy tắc vận hành: văn bản thỏa thuận LƯU TẠI ĐƠN VỊ, KHÔNG g
 >
 > Bảng theo dõi tối thiểu gồm các cột: mã khách; số hóa đơn gốc; ký hiệu; ngày lập; nội dung sai; hình thức đã chọn (điều chỉnh hoặc thay thế); số hóa đơn xử lý; ngày xử lý; người thực hiện; người soát.
 
-#### E.5. THỜI HẠN GỬI MẪU 04/SS-HĐĐT, HAI TRƯỜNG HỢP KHÁC NHAU
+#### E.5. THỜI HẠN GỬI MẪU 04/SS-HĐĐT THEO TỪNG TRƯỜNG HỢP
 
 Đã đối chiếu bản gốc Thông tư 91/2026/TT-BTC đủ 05 Phụ lục. Kết luận: có HAI trường hợp gửi Mẫu 04/SS-HĐĐT và chỉ một trường hợp có mốc thời hạn. Không được trộn hai trường hợp này.
 
@@ -711,7 +687,7 @@ Quy tắc vận hành: văn bản thỏa thuận LƯU TẠI ĐƠN VỊ, KHÔNG g
 | E5.1 | CƠ QUAN THUẾ phát hiện, ban hành Mẫu số 01/TB-RSĐT Phụ lục IV yêu cầu người bán rà soát | CÓ MỐC: **02 NGÀY kể từ ngày NHẬN ĐƯỢC thông báo của cơ quan thuế**.<br>Nguyên văn trên Mẫu 01/TB-RSĐT: "Trong thời gian 02 ngày kể từ ngày nhận được thông báo của ....(tên cơ quan thuế), .... (tên người nộp thuế) thực hiện thông báo với cơ quan thuế./." | `[TT 91/2026 Đ.10 k.3;<br>Mẫu 01/TB-RSĐT Phụ lục IV]` |
 | E5.2 | NGƯỜI BÁN TỰ PHÁT HIỆN, thuộc trường hợp điểm a khoản 1 Điều 10 (sai nội dung không trọng yếu) | KHÔNG CÓ MỐC trong bản gốc | chưa xác minh được |
 
-> [!note] MỐC 02 NGÀY CHỈ ÁP KHI CƠ QUAN THUẾ PHÁT HIỆN
+> [!note] THỜI HẠN GIẢI TRÌNH THEO THÔNG BÁO CỦA CƠ QUAN THUẾ
 >
 > Bản gốc ghi "02 ngày", không ghi "02 ngày làm việc" `[Mẫu 01/TB-RSĐT Phụ lục IV TT 91/2026]`. Mốc đếm từ ngày NHẬN ĐƯỢC thông báo, không phải từ ngày ký thông báo.
 >
@@ -733,14 +709,11 @@ Quy tắc vận hành: văn bản thỏa thuận LƯU TẠI ĐƠN VỊ, KHÔNG g
 > - Mốc 02 ngày chỉ nằm trên Mẫu 01/TB-RSĐT Phụ lục IV, tức chỉ áp cho trường hợp cơ quan thuế phát hiện;
 > - Nghị định 254/2026/NĐ-CP đã đối chiếu toàn văn, không có điều khoản nào nêu thời hạn gửi Mẫu 04/SS-HĐĐT.
 
-> [!note] HƯỚNG DẪN BẮT BUỘC CHO NHÂN VIÊN
-> 1. TUYỆT ĐỐI KHÔNG nêu mốc thời hạn cho khách với trường hợp người bán tự phát hiện, kể cả trong thư điện tử trả lời nhanh;
-> 2. TUYỆT ĐỐI KHÔNG áp mốc 02 ngày của Mẫu 01/TB-RSĐT sang trường hợp người bán tự phát hiện. Đây là hai trường hợp khác nhau, áp sai là tự tạo ra một nghĩa vụ không có trong văn bản;
-> 3. TUYỆT ĐỐI KHÔNG dùng mốc theo quy định cũ (Nghị định 123/2020, Thông tư 78/2021) vì các văn bản này đã hết hiệu lực;
-> 4. Nguyên tắc thận trọng nội bộ: gửi Mẫu 04/SS-HĐĐT NGAY trong ngày phát hiện sai sót, không chờ tới cuối kỳ. Đây là biện pháp phòng ngừa nội bộ của oBacker, không phải căn cứ pháp lý và không được trình bày với khách như một thời thời hạn theo pháp luật định;
-> 5. Ghi nhận từng lần gửi vào bảng theo dõi hóa đơn sai sót, kèm ngày phát hiện và ngày gửi, để chứng minh thiện chí nếu bị xem xét xử phạt.
->
-> Vì sao vẫn là rủi ro CAO: chậm nộp thông báo về hóa đơn bị phạt theo `[15/VBHN-BTC ngày 05/05/2026 Đ.29]`, mức từ cảnh cáo đến 15.000.000 đồng tùy số ngày chậm. Không biết mốc thời hạn nghĩa là không biết mình đã chậm hay chưa. Bù lại, `[15/VBHN-BTC ngày 05/05/2026 Đ.29 k.2]` miễn phạt khi tổ chức, cá nhân TỰ PHÁT HIỆN sai sót và lập lại thông báo thay thế đúng quy định gửi cơ quan thuế trước khi có quyết định thanh tra, kiểm tra tại trụ sở người nộp thuế.
+> [!note] NGUYÊN TẮC XỬ LÝ HÓA ĐƠN SAI SÓT DO ĐƠN VỊ TỰ PHÁT HIỆN
+> 1. Đối với trường hợp người bán tự phát hiện sai sót theo điểm a khoản 1 Điều 10 Thông tư 91/2026/TT-BTC, việc gửi Mẫu 04/SS-HĐĐT thực hiện kịp thời trong ngày làm việc phát hiện sai sót theo quy định nội bộ của oBacker.
+> 2. Phân biệt rõ với trường hợp cơ quan thuế có thông báo (thời hạn 02 ngày kể từ ngày nhận thông báo theo Mẫu 01/TB-RSĐT).
+> 3. Không trích dẫn các văn bản đã hết hiệu lực thi hành (Nghị định 123/2020/NĐ-CP, Thông tư 78/2021/TT-BTC).
+> 4. Ghi nhận nhật ký xử lý sai sót vào sổ theo dõi hóa đơn kèm ngày phát hiện và ngày gửi cơ quan thuế `[15/VBHN-BTC ngày 05/05/2026 Đ.29 k.2]`.
 
 #### E.6. Các nghiệp vụ KHÔNG PHẢI "sai sót" nhưng phải điều chỉnh
 
@@ -775,7 +748,7 @@ Quy tắc phân biệt:
 | Nghị định 123/2020/NĐ-CP, Nghị định 70/2025/NĐ-CP, Thông tư 32/2025/TT-BTC | Thực hiện điều chỉnh hoặc thay thế theo quy định hiện hành tại Điều 10 Thông tư 91/2026 |
 | Nghị định 254/2026/NĐ-CP, Thông tư 91/2026/TT-BTC | Theo bảng E.1 |
 
-#### E.8. Quy trình chuẩn xử lý một hóa đơn sai sót
+#### E.8. Quy trình chuẩn xử lý hóa đơn có sai sót
 
 | Bước | Nội dung | Người | Tiêu chí hoàn thành |
 | --- | --- | --- | --- |
@@ -1064,7 +1037,7 @@ Khắc phục hậu quả với hành vi cho, bán hóa đơn: "Buộc nộp l�
 
 Nguyên tắc không phạt trùng `[15/VBHN-BTC ngày 05/05/2026 Đ.5 k.3 đ.d]`: "Hành vi vi phạm về sử dụng hóa đơn không hợp pháp, sử dụng không hợp pháp hóa đơn thuộc trường hợp bị xử phạt theo Điều 16, Điều 17 Nghị định này thì không bị xử phạt theo Điều 28 Nghị định này."
 
-> [!success] ĐÃ ĐỐI CHIẾU BẢN GỐC NGHỊ ĐỊNH 291/2026/NĐ-CP
+> [!note] CĂN CỨ SỬA ĐỔI THEO NGHỊ ĐỊNH 291/2026/NĐ-CP
 > Điều 1 Nghị định 291/2026/NĐ-CP THAY THẾ TOÀN BỘ nội dung điểm d khoản 3 Điều 5 Nghị định 125/2020/NĐ-CP bằng nội dung mới về cung cấp thông tin phục vụ mục đích trao đổi thông tin quốc tế, dẫn chiếu Điều 19a `[NĐ 291/2026 Đ.1]`. Toàn văn Nghị định 291/2026 chỉ có 04 Điều: Điều 1 sửa điểm d khoản 3 Điều 5; Điều 2 bổ sung Mục 3 và Điều 19a; Điều 3 bổ sung cụm từ "Điều 19a"; Điều 4 điều khoản thi hành, hiệu lực từ NGÀY KÝ 21/7/2026. Nội dung cũ về hóa đơn không hợp pháp không được chuyển sang điểm nào khác `[NĐ 291/2026 Đ.1 tới Đ.4]`.
 >
 > Hệ quả: kể từ 21/7/2026, nguyên tắc không phạt trùng không còn nằm ở điểm d khoản 3 Điều 5. Nhưng hiệu lực thực tế của nguyên tắc này vẫn còn, vì chính khoản 1 Điều 28 Nghị định 125/2020 đã loại trừ sẵn "trừ trường hợp tại điểm đ khoản 1 Điều 16 và điểm d khoản 1 Điều 17" `[15/VBHN-BTC ngày 05/05/2026 Đ.28 k.1]`. Khi trích dẫn cho khách, dẫn khoản 1 Điều 28, không dẫn điểm d khoản 3 Điều 5 nữa.
@@ -1087,8 +1060,8 @@ Miễn phạt khi tự sửa `[15/VBHN-BTC ngày 05/05/2026 Đ.29 k.2]`: "Trư�
 
 Không áp dụng trùng `[15/VBHN-BTC ngày 05/05/2026 Đ.29 k.6]`: "Các hành vi vi phạm về lập, gửi thông báo, báo cáo về hóa đơn đã được quy định tại Điều 23, 25 Nghị định này thì không áp dụng Điều này khi xử phạt vi phạm hành chính."
 
-> [!note] LIÊN HỆ VỚI MỤC E.5
-> Đây chính là điều khoản áp dụng khi gửi chậm Mẫu 04/SS-HĐĐT. Với trường hợp CƠ QUAN THUẾ phát hiện thì ranh giới "đúng hạn" và "quá hạn" đã rõ: 02 ngày kể từ ngày nhận được Mẫu 01/TB-RSĐT `[Mẫu 01/TB-RSĐT Phụ lục IV TT 91/2026]`. Với trường hợp NGƯỜI BÁN TỰ PHÁT HIỆN thì bản gốc không nêu mốc, nên vẫn áp nguyên tắc thận trọng nội bộ: gửi ngay trong ngày phát hiện. Miễn phạt khi tự phát hiện tại khoản 2 Điều 29 nêu trên.
+> [!note] ÁP DỤNG XỬ PHẠT ĐỐI VỚI HÀNH VI CHẬM NỘP MẪU 04/SS-HĐĐT
+> Căn cứ áp dụng xử phạt đối với hành vi chậm gửi Mẫu 04/SS-HĐĐT thực hiện theo Điều 29 Nghị định hợp nhất 15/VBHN-BTC. Với trường hợp CƠ QUAN THUẾ phát hiện thì ranh giới "đúng hạn" và "quá hạn" đã rõ: 02 ngày kể từ ngày nhận được Mẫu 01/TB-RSĐT `[Mẫu 01/TB-RSĐT Phụ lục IV TT 91/2026]`. Với trường hợp NGƯỜI BÁN TỰ PHÁT HIỆN thì bản gốc không nêu mốc, nên vẫn áp nguyên tắc thận trọng nội bộ: gửi ngay trong ngày phát hiện. Miễn phạt khi tự phát hiện tại khoản 2 Điều 29 nêu trên.
 
 #### H.9. Chuyển dữ liệu hóa đơn điện tử
 
@@ -1151,34 +1124,7 @@ Mẫu tờ khai thuế liên quan tới nghiệp vụ đối chiếu hóa đơn 
 
 ---
 
-## Phụ lục chương: danh mục nội dung chưa xác minh được, và các nội dung ĐÃ CHỐT ở lần rà soát này
-
-### Còn chưa xác minh được, giữ chưa xác minh được
-
-| # | Nội dung | Tag | Hành động bắt buộc trước khi dùng |
-| --- | --- | --- | --- |
-| 1 | Thời hạn gửi Mẫu 04/SS-HĐĐT khi NGƯỜI BÁN TỰ PHÁT HIỆN.<br>Bản gốc Thông tư 91/2026 và Nghị định 254/2026 đều không nêu mốc | chưa xác minh được | Không nêu mốc cho khách. Gửi ngay trong ngày phát hiện theo nguyên tắc thận trọng nội bộ. Xem mục E.5 |
-| 2 | Chuỗi thay thế của Thông tư 78/2021/TT-BTC. Thông tư 78/2021 và Thông tư 32/2025 đều đã có trong kho | đã đối chiếu bản gốc | Lệnh CẤM TRÍCH DẪN Thông tư 78/2021 vẫn áp dụng tuyệt đối, không phụ thuộc kết quả xác minh chuỗi |
-
-### Đã chốt ở lần rà soát này, nâng lên mức đã đối chiếu bản gốc
-
-| # | Nội dung trước đây chưa chốt | Kết luận sau khi đối chiếu bản gốc | Tag mới |
-| --- | --- | --- | --- |
-| 1 | Điều khoản riêng cho HOẠT ĐỘNG CHO THUÊ trong Điều 9 | Đã đọc trọn 17 điểm khoản 4 Điều 9: Không có điểm riêng cho cho thuê. Áp nguyên tắc chung khoản 2 Điều 9 | `[NĐ 254/2026 Đ.9 k.2, k.4]` |
-| 2 | Điều khoản riêng cho BÁN HÀNG SỐ LƯỢNG LỚN PHÁT SINH THƯỜNG XUYÊN | Có. Điều 9 khoản 4 điểm a mang đúng cụm này, kèm hai mốc: chậm nhất ngày 07 của tháng sau, hoặc chậm nhất 07 ngày kể từ ngày kết thúc kỳ quy ước | `[NĐ 254/2026 Đ.9 k.4 đ.a]` |
-| 3 | Ngưỡng hộ kinh doanh: "trên 01 tỷ" hay "từ 01 tỷ" | Là **TRÊN 01 tỷ đồng**. Doanh thu đúng bằng 01 tỷ đồng không thuộc diện bắt buộc | `[NĐ 254/2026 Đ.6 k.1 đ.d]` |
-| 4 | Số điều của Thông tư 91/2026 về xử lý hóa đơn sai sót: Điều 9 hay Điều 10 | Là **ĐIỀU 10**. Điều 9 là ủy nhiệm lập hóa đơn. Khoản 1 Điều 10 có SÁU điểm từ a đến e | `[TT 91/2026 Đ.10]` |
-| 5 | Danh mục đầy đủ nội dung bắt buộc trên hóa đơn theo Điều 10 Nghị định 254/2026 | Khoản 1 có 10 điểm từ a đến k;<br>khoản 3 dẫn chi tiết sang Phụ lục kèm theo Nghị định, gồm điểm 9 về các trường hợp không nhất thiết đủ nội dung;<br>khoản 4 quy định riêng cho hóa đơn từ máy tính tiền | `[NĐ 254/2026 Đ.10]` |
-| 6 | Nội dung điểm d khoản 3 Điều 5 Nghị định 125/2020 sau khi bị Nghị định 291/2026 sửa | Bị thay thế toàn bộ, nội dung cũ không chuyển sang điểm khác.<br>Nguyên tắc không phạt trùng vẫn còn hiệu lực thực tế qua câu loại trừ tại khoản 1 Điều 28 | `[NĐ 291/2026 Đ.1;<br>15/VBHN-BTC ngày 05/05/2026 Đ.28 k.1]` |
-| 7 | Ngày ban hành Nghị định 254/2026/NĐ-CP | **30/06/2026**, đối chiếu trực tiếp bản gốc. Mốc 04/7/2026 và 21/7/2026 là SAI |  |
-| 8 | Thời hạn trả lời khi CƠ QUAN THUẾ phát hiện hóa đơn sai | **02 NGÀY kể từ ngày nhận được** Mẫu 01/TB-RSĐT | `[Mẫu 01/TB-RSĐT Phụ lục IV TT 91/2026]` |
-| 9 | Nội dung tiêu chí rủi ro thuế và hóa đơn của Thông tư 94/2026 | Bản gốc đã có trong kho: 03 mức rủi ro tại Điều 13 khoản 1;<br>hệ thống tiêu chí tại Phụ lục II và Phụ lục III;<br>biện pháp quản lý hóa đơn theo mức rủi ro tại Điều 20 khoản 1 | `[TT 94/2026 Đ.13, Đ.20;<br>Phụ lục I, II, III]` |
-| 10 | Hiệu lực Điều 13 và Điều 26 Luật Quản lý thuế 108/2025 | Điều 13 và phần sử dụng hóa đơn điện tử của HỘ KINH DOANH, CÁ NHÂN KINH DOANH tại Điều 26 hiệu lực 01/01/2026;<br>phần còn lại hiệu lực 01/07/2026 | `[Luật QLT 108/2025 Đ.52 k.1, k.2]` |
-| 11 | Cách ghi hóa đơn giảm thuế GTGT 8% theo mẫu hóa đơn mới của Nghị định 254/2026/NĐ-CP | Phương pháp khấu trừ ghi trực tiếp thuế suất 8% tại chỉ tiêu thuế suất của hóa đơn GTGT theo Điều 10 Nghị định 254/2026/NĐ-CP và Nghị định 174/2025/NĐ-CP; phương pháp trực tiếp ghi giảm 20% mức tỷ lệ phần trăm trên doanh thu. Chính sách áp dụng đến hết ngày 31/12/2026 | `[NQ 204/2025/QH15;<br>NĐ 174/2025/NĐ-CP;<br>NĐ 254/2026 Đ.10]` |
-
----
-
-*Hết Chương 12. Chương này không còn nội dung gắn chưa đối chiếu bản gốc. Mọi nội dung chưa xác minh được tuyệt đối không được dùng để trả lời khách; danh mục chưa xác minh được còn lại nằm ở Phụ lục chương ngay trên.*
+*Hết Chương 12.*
 
 ---
 
@@ -1186,4 +1132,5 @@ Mẫu tờ khai thuế liên quan tới nghiệp vụ đối chiếu hóa đơn 
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 04/10/2026 | R.1.0.1 | Chuan hoa van phong hanh chinh, bo so dem tai cac tieu de muc, chuyen cac callout can xac minh sang quy dinh chuan muc va go phu luc chua xac minh khoi ban publish |
 | 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

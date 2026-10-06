@@ -7,16 +7,12 @@ level: "Cấp 3, hướng dẫn nghiệp vụ"
 version: "R.1.0.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 27/09/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-SOP-NB-00 Chuẩn vận hành nội bộ"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-SOP-NB-07
 tags:
@@ -76,18 +72,7 @@ Quy định thống nhất, chặt chẽ và tinh gọn về công tác quản l
 
 ---
 
-## 3. Căn cứ pháp lý
-
-- Luật Doanh nghiệp số 59/2020/QH14 ngày 17/06/2020: Điều 43 (Dấu của doanh nghiệp);
-- Luật Giao dịch điện tử số 20/2023/QH15 ngày 22/06/2023: Điều 22 (Chữ ký điện tử), Điều 23 (Chữ ký số), Điều 24 (Sử dụng chữ ký điện tử);
-- Nghị định số 254/2026/NĐ-CP ngày 29/08/2026 của Chính phủ quy định về hóa đơn, chứng từ điện tử: quy định về định dạng chữ ký số và con dấu điện tử trên hóa đơn;
-- Điều lệ tổ chức và hoạt động của Công ty cổ phần oBacker;
-- [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen|OBK-QCTC-02]] Quy chế tổ chức và phân quyền: vị trí `AD-KT` (Hành chính Kế toán) và nguyên tắc ràng buộc cứng về dấu vết lệnh;
-- [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo|OBK-SOP-NB-00]] Chuẩn vận hành nội bộ oBacker.
-
----
-
-## 4. Vai trò và trách nhiệm
+## 3. Vai trò và trách nhiệm
 
 | Vai trò | Trách nhiệm trong quy trình | Giới hạn quyền hạn |
 | --- | --- | --- |
@@ -98,7 +83,7 @@ Quy định thống nhất, chặt chẽ và tinh gọn về công tác quản l
 
 ---
 
-## 5. Đầu vào bắt buộc
+## 4. Đầu vào bắt buộc
 
 1. **Đối với văn bản giấy cần đóng dấu:**
    - Bản gốc văn bản đã có đầy đủ chữ ký mực sống của người có thẩm quyền ký kết (Tổng giám đốc hoặc người được ủy quyền hợp pháp);
@@ -112,7 +97,7 @@ Quy định thống nhất, chặt chẽ và tinh gọn về công tác quản l
 
 ---
 
-## 6. Các bước thực hiện
+## 5. Các bước thực hiện
 
 ```
 [Nhận văn bản / tệp điện tử]
@@ -177,7 +162,7 @@ Quy định thống nhất, chặt chẽ và tinh gọn về công tác quản l
 
 ---
 
-## 7. Điểm kiểm soát bắt buộc
+## 6. Điểm kiểm soát bắt buộc
 
 | Mã chốt | Điểm kiểm soát | Thời điểm kiểm tra | Người kiểm | Xử lý khi không đạt |
 | --- | --- | --- | --- | --- |
@@ -190,7 +175,7 @@ Quy định thống nhất, chặt chẽ và tinh gọn về công tác quản l
 
 ---
 
-## 8. Lỗi thường gặp và cách xử lý
+## 7. Lỗi thường gặp và cách xử lý
 
 1. **Đóng dấu khống hoặc đóng dấu sẵn vào giấy tiêu đề chưa có nội dung:**
    - *Hậu quả:* Rủi ro bị kẻ xấu điền nội dung khống gây thiệt hại tài sản hoặc tranh chấp pháp lý đặc biệt nghiêm trọng;
@@ -200,14 +185,14 @@ Quy định thống nhất, chặt chẽ và tinh gọn về công tác quản l
    - *Cách xử lý:* `AD-KT` chỉ cắm USB Token khi có lệnh ký số cụ thể, hoàn thành ký xong phải rút thiết bị và cất ngay vào tủ khóa an toàn.
 3. **Đóng dấu khi chỉ có lệnh miệng hoặc tin nhắn cá nhân không chính thức:**
    - *Hậu quả:* Khi phát sinh tranh chấp hoặc sai lệch nội dung, không có bằng chứng pháp lý chứng minh ai là người chịu trách nhiệm ra lệnh;
-   - *Cách xử lý:* Áp dụng quy tắc tại [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen|OBK-QCTC-02]]: dấu vết lệnh phải là phiếu công việc trên hệ thống, email tên miền `@obacker.com` hoặc văn bản có chữ ký sống của `CEO`/`KTT`.
+    - *Cách xử lý:* Áp dụng quy tắc tại OBK-QCTC-02: dấu vết lệnh phải là phiếu công việc trên hệ thống, email tên miền `@obacker.com` hoặc văn bản có chữ ký sống của `CEO`/`KTT`.
 4. **Không thu hồi con dấu và chữ ký số khi nhân viên giữ dấu nghỉ việc:**
    - *Hậu quả:* Mất quyền kiểm soát con dấu pháp nhân của công ty;
    - *Cách xử lý:* Đưa chốt thu hồi con dấu vào Quy trình offboarding [[OBK-SOP-NB-06_Nghi_viec_va_offboarding_noi_bo|OBK-SOP-NB-06]], bắt buộc bàn giao cho `CEO` trước ngày làm việc cuối cùng.
 
 ---
 
-## 9. Đầu ra và nơi lưu
+## 8. Đầu ra và nơi lưu
 
 | Sản phẩm đầu ra | Định dạng | Trách nhiệm lưu trữ | Nơi lưu trữ | Thời hạn lưu trữ |
 | --- | --- | --- | --- | --- |
@@ -220,7 +205,7 @@ Quy định thống nhất, chặt chẽ và tinh gọn về công tác quản l
 
 ---
 
-## 10. Chỉ số theo dõi
+## 9. Chỉ số theo dõi
 
 | Mã chỉ số | Tên chỉ số | Cách đo lường | Mục tiêu | Tần suất | Người theo dõi |
 | --- | --- | --- | --- | --- | --- |

@@ -4,19 +4,16 @@ code: "OBK-SOP-14"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.0"
+version: "R.1.0.1"
 status: "đang áp dụng"
-draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 25/08/2026"
+draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
 parent: "OBK-SOP-KT Kế toán và thuế"
 next_review: "Chậm nhất 31/12/2026"
 chapter: "Quyết toán thuế năm"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-SOP-14
 tags:
@@ -33,8 +30,8 @@ tags:
 | Mã tài liệu | OBK-SOP-14 |
 | Tên chương | Quyết toán thuế năm |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.1.0.0, đang áp dụng |
-| Ngày biên soạn | 01/10/2026 |
+| Phiên bản | R.1.0.1, đang áp dụng |
+| Ngày biên soạn | 04/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -44,8 +41,8 @@ tags:
 
 ---
 
-> [!note] MỐC ĐÃ ĐỐI CHIẾU BẢN GỐC
-> Toàn bộ mốc thời hạn nộp hồ sơ quyết toán trong chương này đã đối chiếu nguyên văn Nghị định 252/2026/NĐ-CP Điều 10 khoản 5, nay đã đối chiếu `[NĐ 252/2026 Đ.10 k.5]`. Bảng đủ các mốc tại mục 6.1. Mốc nộp hồ sơ quyết toán thuế TNCN do TỔ CHỨC trả thu nhập thực hiện là mốc chung tại điểm a, tức ngày cuối cùng của tháng thứ 03 kể từ ngày kết thúc kỳ quyết toán thuế; mốc tháng thứ 04 tại điểm c chỉ dành cho cá nhân trực tiếp quyết toán thuế, không áp cho tổ chức trả thu nhập.
+> [!note] CĂN CỨ VỀ THỜI HẠN NỘP HỒ SƠ QUYẾT TOÁN THUẾ NĂM
+> Các mốc thời hạn nộp hồ sơ khai quyết toán thuế năm thực hiện theo quy định tại Điều 10 khoản 5 Nghị định 252/2026/NĐ-CP `[NĐ 252/2026 Đ.10 k.5]`. Chi tiết lộ trình thực hiện tại mục 5.1. Thời hạn nộp hồ sơ quyết toán thuế TNCN của tổ chức trả thu nhập áp dụng mốc ngày cuối cùng của tháng thứ 03 kể từ ngày kết thúc kỳ quyết toán thuế theo điểm a; thời hạn tháng thứ 04 tại điểm c chỉ áp dụng cho cá nhân trực tiếp quyết toán thuế.
 
 > [!danger] RỦI RO BỊ XỬ PHẠT
 > OBacker là ĐƠN VỊ DỊCH VỤ, không phải người ngoài cuộc. "Trường hợp người nộp thuế ủy quyền cho tổ chức, cá nhân khác thực hiện các nghĩa vụ về thuế mà pháp luật về thuế, quản lý thuế quy định nghĩa vụ, trách nhiệm của bên được ủy quyền phải thực hiện thay người nộp thuế thì nếu bên được ủy quyền có hành vi vi phạm hành chính quy định tại Nghị định này thì tổ chức, cá nhân được ủy quyền bị xử phạt theo Nghị định này" `[15/VBHN-BTC ngày 05/05/2026 Đ.3 k.1 đ.a]`. Nghĩa là oBacker có thể bị ra quyết định xử phạt đứng tên chính oBacker. Xem đầy đủ tại Chương 17.
@@ -99,56 +96,10 @@ tags:
 
 ---
 
-## 3. Căn cứ pháp lý
-
-| # | Văn bản | Nội dung sử dụng trong chương |
-| --- | --- | --- |
-| 1 | Luật Quản lý thuế số 108/2025/QH15 ngày 10/12/2025, hiệu lực 01/07/2026 | Gia hạn nộp hồ sơ khai thuế và thời hiệu khai bổ sung (Đ.12 k.4, k.5), định nghĩa bất khả kháng (Đ.4 k.21), thời hạn nộp tiền thuế (Đ.14), tiền chậm nộp (Đ.16).<br>Nguyên tắc căn cứ: các mốc thời hạn nộp hồ sơ khai thuế quy định tại Nghị định 252/2026/NĐ-CP (dòng 2); Điều 12 Luật Quản lý thuế 108/2025 giao Chính phủ hướng dẫn chi tiết |
-| 2 | Nghị định 252/2026/NĐ-CP ngày 30/06/2026, hiệu lực 01/07/2026 | Thời hạn nộp hồ sơ khai thuế theo năm (Đ.10 k.4), thời hạn quyết toán (Đ.10 k.5), lùi mốc khi trùng ngày nghỉ (Đ.3 k.7), tạm nộp TNDN theo quý và quy tắc 80% (Đ.24) |
-| 3 | Thông tư 89/2026/TT-BTC ngày 30/06/2026, hiệu lực 01/07/2026 | Các trường hợp phải quyết toán, hồ sơ, ủy quyền quyết toán TNCN, phân bổ |
-| 4 | Luật Thuế TNDN hợp nhất 113/VBHN-VPQH ngày 20/5/2026 | Thuế suất, chuyển lỗ, ưu đãi, trích Quỹ phát triển khoa học và công nghệ |
-| 5 | Nghị định hợp nhất 19/VBHN-BTC ngày 04/6/2026 hướng dẫn Luật Thuế TNDN | Chi phí được trừ, chi phí không được trừ, mức khống chế, chuyển lỗ |
-| 6 | Thông tư 20/2026/TT-BTC ngày 12/3/2026 | Bảng kê Mẫu 02/TNDN, báo cáo trích lập và sử dụng Quỹ KHCN |
-| 7 | Luật Thuế TNCN hợp nhất 112/VBHN-VPQH ngày 20/5/2026 | Giảm trừ gia cảnh, biểu thuế, người phụ thuộc |
-| 8 | Nghị định 253/2026/NĐ-CP ngày 30/6/2026 | Ai phải quyết toán, ai được ủy quyền, ai bắt buộc tự quyết toán, khấu trừ tại nguồn |
-| 9 | Thông tư 87/2026/TT-BTC ngày 30/6/2026 | Ngưỡng thu nhập người phụ thuộc, hồ sơ chứng minh người phụ thuộc |
-| 10 | Thông tư 99/2025/TT-BTC, hiệu lực 01/01/2026 | Chế độ kế toán doanh nghiệp, thời hạn nộp BCTC (Đ.25), phạm vi nghĩa vụ ghi số Giấy phép hành nghề khi khách THUÊ dịch vụ lập BCTC hoặc dịch vụ làm kế toán trưởng (Đ.16 k.4), ký chứng từ kế toán (Đ.10) |
-| 11 | Thông tư 133/2016/TT-BTC | Chế độ kế toán doanh nghiệp nhỏ và vừa, kết luận VẪN CÒN HIỆU LỰC giữ chưa đối chiếu bản gốc theo Chương 08 mục 6.4, vì là bằng chứng âm tính.<br>Đã đối chiếu: Thông tư 99/2025 chỉ thay thế Thông tư 200/2014 và các thông tư sửa đổi Thông tư 200, không thay thế Thông tư 133/2016 `[TT 99/2025 Đ.31 k.1]` |
-| 12 | Thông tư 58/2026/TT-BTC, hiệu lực 01/07/2026 | Chế độ kế toán doanh nghiệp siêu nhỏ |
-| 13 | Văn bản hợp nhất 15/VBHN-BTC ngày 05/5/2026 (NĐ 125/2020 và các văn bản sửa đổi) | Xử phạt chậm nộp hồ sơ, khai sai thiếu thuế, đối tượng bị xử phạt |
-| 14 | Nghị định 291/2026/NĐ-CP ngày 21/7/2026 | Điều 19a về cung cấp thông tin phục vụ trao đổi thông tin thuế quốc tế |
-| 15 | Nghị định 255/2026/NĐ-CP ngày 30/6/2026 | Quản lý thuế đối với giao dịch liên kết;<br>nghĩa vụ kê khai Phụ lục I, II, III nộp cùng tờ khai quyết toán TNDN (Đ.18 k.2 đ.c);<br>Báo cáo lợi nhuận liên quốc gia và ngưỡng 750 triệu Euro (Đ.19) |
-| 16 | Luật Kế toán bản hợp nhất 41/VBHN-VPQH | Chữ ký trên báo cáo tài chính (Đ.29 k.2 đ.d), thời hạn nộp BCTC năm (Đ.29 k.3), bảo quản và lưu trữ tài liệu kế toán (Đ.41 k.3, k.4, k.5, k.6), tiêu chuẩn kế toán trưởng (Đ.54 k.1) và người phụ trách kế toán (Đ.53 k.4), hành vi bị nghiêm cấm (Đ.13 k.8) |
-
-### 3.1. Ký hiệu mẫu dùng trong chương này
-
-Tra theo Phụ lục I Thông tư 89/2026/TT-BTC `[TT 89/2026 Phụ lục I]`. Cấm dùng ký hiệu mẫu theo Thông tư 80/2021 đã bãi bỏ.
-
-| Ký hiệu mẫu | Tên mẫu biểu | Dùng ở đâu trong chương |
-| --- | --- | --- |
-| 03/TNDN | Tờ khai quyết toán thuế thu nhập doanh nghiệp (Áp dụng đối với phương pháp doanh thu, chi phí) | Hồ sơ quyết toán TNDN, nhóm khách chính |
-| 04/TNDN | Tờ khai thuế thu nhập doanh nghiệp (Áp dụng đối với phương pháp tỷ lệ trên doanh thu) | Hồ sơ quyết toán TNDN của khách áp phương pháp tỷ lệ trên doanh thu |
-| 03-2/TNDN | Phụ lục chuyển lỗ | Nhóm D mục 6.2 |
-| 03-3A/TNDN | Phụ lục thuế TNDN được ưu đãi đối với thu nhập từ dự án đầu tư, thu nhập của doanh nghiệp được hưởng ưu đãi thuế TNDN | Nhóm E mục 6.2 |
-| 03-3C/TNDN | Phụ lục thuế TNDN được ưu đãi (Áp dụng đối với doanh nghiệp sử dụng lao động là người dân tộc thiểu số hoặc doanh nghiệp hoạt động sản xuất, xây dựng, vận tải sử dụng nhiều lao động nữ) | Nhóm E mục 6.2 |
-| 03-3D/TNDN | Phụ lục thuế TNDN được ưu đãi (Áp dụng đối với doanh nghiệp khoa học công nghệ, doanh nghiệp thực hiện chuyển giao công nghệ thuộc lĩnh vực ưu tiên chuyển giao) | Nhóm E mục 6.2 |
-| 03-4/TNDN | Phụ lục thuế TNDN đã nộp đối với thu nhập ở nước ngoài | Dòng 12 Bảng điều chỉnh mục 6.3 |
-| 03-5/TNDN | Phụ lục thu nhập đối với hoạt động chuyển nhượng bất động sản | Khách có chuyển nhượng bất động sản |
-| 03-6/TNDN | Phụ lục báo cáo trích lập, sử dụng quỹ khoa học và công nghệ | E10, E11 mục 6.2 |
-| 03-8/TNDN | Phụ lục bảng phân bổ số thuế TNDN phải nộp đối với cơ sở sản xuất | Khách có đơn vị phụ thuộc khác tỉnh |
-| 05/KK-TNCN | Tờ khai thuế thu nhập cá nhân (Áp dụng đối với tổ chức, cá nhân trả các khoản thu nhập từ tiền lương, tiền công) | Tờ khai TNCN theo quý của tổ chức trả thu nhập |
-| 05/QTT-TNCN | Tờ khai quyết toán thuế TNCN (Áp dụng đối với tổ chức, cá nhân trả thu nhập chịu thuế từ tiền lương, tiền công) | Hồ sơ quyết toán TNCN của tổ chức trả thu nhập |
-| 05-1/BK-QTT-TNCN | Phụ lục bảng kê chi tiết cá nhân thuộc diện tính thuế theo biểu lũy tiến từng phần | Kèm 05/QTT-TNCN |
-| 05-2/BK-QTT-TNCN | Phụ lục bảng kê chi tiết cá nhân thuộc diện tính thuế theo thuế suất toàn phần | Kèm 05/QTT-TNCN |
-| 05-3/BK-QTT-TNCN | Phụ lục bảng kê chi tiết người phụ thuộc giảm trừ gia cảnh | Kèm 05/QTT-TNCN, Nhóm I mục 6.4 |
-| 08/UQ-QTT-TNCN | Giấy ủy quyền quyết toán thuế thu nhập cá nhân | Nhóm K mục 6.4, đầu vào số 15 mục 5 |
-| 02/QTT-TNCN | Tờ khai quyết toán thuế thu nhập cá nhân (Áp dụng đối với cá nhân cư trú có thu nhập từ tiền lương, tiền công) | Nhóm người lao động phải tự quyết toán |
-| 02-1/BK-QTT-TNCN | Phụ lục bảng kê giảm trừ gia cảnh cho người phụ thuộc | Kèm 02/QTT-TNCN |
-| 02/KK-TNCN | Tờ khai thuế TNCN (Áp dụng đối với cá nhân cư trú và cá nhân không cư trú có thu nhập từ tiền lương, tiền công khai thuế trực tiếp với cơ quan thuế) | Cá nhân trực tiếp khai thuế theo quý, Nhóm M mục 6.4 |
 
 ---
 
-## 4. Vai trò và trách nhiệm
+## 3. Vai trò và trách nhiệm
 
 | Công việc | CV-KT | TL-KT | AM | COO |
 | --- | --- | --- | --- | --- |
@@ -162,7 +113,7 @@ Tra theo Phụ lục I Thông tư 89/2026/TT-BTC `[TT 89/2026 Phụ lục I]`. C
 | Lập tờ khai quyết toán TNDN | Làm | Soát và duyệt | Không | Không |
 | Lập danh sách người lao động, phân nhóm ủy quyền và tự quyết toán | Làm | Soát | Không | Không |
 | Lập tờ khai quyết toán TNCN | Làm | Soát và duyệt | Không | Không |
-| Lập báo cáo tài chính năm | Làm | Soát và duyệt nội dung. Trong trường hợp mặc định thì không đứng tên, không ký trên báo cáo; ngoại lệ phải do CEO duyệt từng khách theo Chương 02 mục 6.11 | Gửi khách ký đủ ba chữ ký, xem mục 6.7 | Không |
+| Lập báo cáo tài chính năm | Làm | Soát và duyệt nội dung. Trong trường hợp mặc định thì không đứng tên, không ký trên báo cáo; ngoại lệ phải do CEO duyệt từng khách theo Chương 02 mục 6.11 | Gửi khách ký đủ ba chữ ký, xem mục 5.7 | Không |
 | Gửi bộ hồ sơ xin xác nhận của khách hàng | Chuẩn bị bộ hồ sơ | Soát nội dung thư và duyệt trước khi gửi | Gửi khách | Không |
 | Nhận và lưu văn bản xác nhận của khách hàng | Lưu vào `[KHO LƯU TRỮ HỒ SƠ]` | Kiểm tra đủ chữ ký | Tiếp nhận từ khách | Không |
 | Ký gửi hồ sơ trên `[CỔNG THUẾ ĐIỆN TỬ]` | Không | Ký gửi và duyệt lệnh gửi | Thông báo khách đã gửi | Không |
@@ -176,9 +127,9 @@ Tra theo Phụ lục I Thông tư 89/2026/TT-BTC `[TT 89/2026 Phụ lục I]`. C
 
 ---
 
-## 5. Đầu vào bắt buộc
+## 4. Đầu vào bắt buộc
 
-Không được bắt đầu bước 6.2 nếu chưa đủ toàn bộ đầu vào dưới đây.
+Không được bắt đầu bước 5.2 nếu chưa đủ toàn bộ đầu vào dưới đây.
 
 | # | Đầu vào | Nguồn | Tiêu chí đủ |
 | --- | --- | --- | --- |
@@ -205,26 +156,26 @@ Không được bắt đầu bước 6.2 nếu chưa đủ toàn bộ đầu và
 
 ---
 
-## 6. Các bước thực hiện
+## 5. Các bước thực hiện
 
-### 6.1. Dòng thời gian kỳ quyết toán thuế năm
+### 5.1. Dòng thời gian kỳ quyết toán thuế năm
 
 Bảng dưới đây dùng cho khách có năm tài chính trùng năm dương lịch. Cột "Mốc nội bộ oBacker" là NGÀY DƯƠNG LỊCH CỨNG lấy từ Phụ lục C, luôn sớm hơn thời hạn theo pháp luật; CV-KT và TL-KT làm theo mốc nội bộ, không làm theo thời hạn theo pháp luật.
 
 | Giai đoạn | Thời điểm | Việc phải làm | Mốc nội bộ oBacker | Tiêu chí hoàn thành |
 | --- | --- | --- | --- | --- |
 | Chuẩn bị sớm | 01/11 đến 15/11 năm trước | Lập danh sách khách phải quyết toán, phân công CV-KT, TL-KT, AM;<br>ước tính khối lượng | 15/11 | Bảng phân công được COO duyệt trên `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]` |
-| Chuẩn bị sớm | 16/11 đến 30/11 năm trước | Gửi thư yêu cầu chứng từ tới toàn bộ khách hàng, kèm danh mục 20 đầu vào tại mục 5 | 30/11 | 100% khách đã nhận thư, có xác nhận đã nhận |
+| Chuẩn bị sớm | 16/11 đến 30/11 năm trước | Gửi thư yêu cầu chứng từ tới toàn bộ khách hàng, kèm danh mục 20 đầu vào tại mục 4 | 30/11 | 100% khách đã nhận thư, có xác nhận đã nhận |
 | Chuẩn bị sớm | 01/12 đến 20/12 năm trước | Rà soát sơ bộ 11 tháng: chi phí rủi ro, hóa đơn thiếu, công nợ chưa xử lý;<br>cảnh báo khách để xử lý trong tháng 12 | 20/12 | Có báo cáo rà soát sơ bộ gửi khách |
 | Chốt năm | 21/12 đến 31/12 năm trước | Đôn đốc khách hoàn tất hóa đơn, thanh toán không dùng tiền mặt cho các khoản từ 05 triệu đồng, kiểm kê | 31/12 | Kiểm kê hoàn tất, có biên bản |
 | Tạm nộp quý IV | Tháng 01 | Xác định số tạm nộp TNDN quý IV và nộp tiền | Ngày 20/01 (thời hạn theo pháp luật là 31/01 năm sau, là ngày cuối cùng của tháng đầu của quý tiếp theo `[NĐ 252/2026 Đ.24 k.2]`) | Có chứng từ nộp tiền |
 | Chốt sổ | 01/01 đến 20/01 | Nhận đủ chứng từ tháng 12, hạch toán nốt, khóa sổ sơ bộ | 20/01 | Sổ khóa sơ bộ, bảng cân đối cân |
 | Khai kỳ cuối | Tháng 01 | Nộp tờ khai GTGT tháng 12 hoặc quý IV;<br>nộp tờ khai TNCN quý IV | 13/01 với tờ khai GTGT tháng 12;<br>23/01 với tờ khai GTGT quý IV và tờ khai TNCN quý IV, theo Phụ lục C mục B.1 | Có Thông báo tiếp nhận |
 | Đối chiếu | 21/01 đến 10/02 | Đối chiếu toàn bộ: ngân hàng, công nợ, kho, tài sản, thuế | 10/02 | Bảng đối chiếu đủ 7 nhóm, không còn chênh lệch chưa giải thích |
-| Rà thuế | 11/02 đến 28/02 | Kiểm theo bảng kiểm quyết toán TNDN tại mục 6.2;<br>lập Bảng điều chỉnh tại mục 6.3 | 28/02 | Bảng kiểm 100% dòng có kết luận |
-| Rà TNCN | 11/02 đến 28/02 | Kiểm theo bảng kiểm quyết toán TNCN tại mục 6.4 | 28/02 | Danh sách người lao động đã phân nhóm xong |
-| Lập BCTC | 01/03 đến 10/03 | Lập báo cáo tài chính năm, thuyết minh | 10/03 | BCTC hoàn chỉnh, để trống ba ô chữ ký cho khách ký, xem mục 6.7 |
-| Soát xét | 11/03 đến 17/03 | Soát xét 2 cấp theo mục 6.6 | 17/03 | Đủ 02 phiếu soát xét đã ký |
+| Rà thuế | 11/02 đến 28/02 | Kiểm theo bảng kiểm quyết toán TNDN tại mục 5.2;<br>lập Bảng điều chỉnh tại mục 5.3 | 28/02 | Bảng kiểm 100% dòng có kết luận |
+| Rà TNCN | 11/02 đến 28/02 | Kiểm theo bảng kiểm quyết toán TNCN tại mục 5.4 | 28/02 | Danh sách người lao động đã phân nhóm xong |
+| Lập BCTC | 01/03 đến 10/03 | Lập báo cáo tài chính năm, thuyết minh | 10/03 | BCTC hoàn chỉnh, để trống ba ô chữ ký cho khách ký, xem mục 5.7 |
+| Soát xét | 11/03 đến 17/03 | Soát xét 2 cấp theo mục 5.6 | 17/03 | Đủ 02 phiếu soát xét đã ký |
 | Xác nhận khách | 18/03 đến 24/03 | Gửi bộ hồ sơ xin xác nhận, nhận văn bản xác nhận của khách | 24/03 | Có văn bản xác nhận đủ chữ ký người đại diện theo pháp luật |
 | Nộp BCTC | Đến 25/03 | Nộp báo cáo tài chính năm sau khi khách đã ký đủ ba chữ ký | 25/03 (thời hạn theo pháp luật: chậm nhất 90 ngày kể từ ngày kết thúc kỳ kế toán năm `[TT 99/2025 Đ.25]`;<br>cùng mốc tại `[Luật Kế toán 41/VBHN-VPQH Đ.29 k.3]`, tức 31/03 với năm dương lịch) | Có Thông báo tiếp nhận và bản BCTC đủ ba chữ ký của khách |
 | Nộp quyết toán TNDN | Đến 25/03 | Nộp hồ sơ quyết toán TNDN và nộp số thuế còn phải nộp | 25/03 (thời hạn theo pháp luật: ngày cuối cùng của tháng thứ 03 kể từ ngày kết thúc kỳ quyết toán thuế, tức 31/03 với năm dương lịch `[NĐ 252/2026 Đ.10 k.5 đ.a]`) | Có Thông báo tiếp nhận và chứng từ nộp tiền |
@@ -238,9 +189,9 @@ Bảng dưới đây dùng cho khách có năm tài chính trùng năm dương l
 | --- | --- | --- | --- |
 | a | Mốc CHUNG cho mọi loại thuế khai quyết toán thuế | Chậm nhất là ngày cuối cùng của tháng thứ 03 kể từ ngày kết thúc kỳ quyết toán thuế | Có. Cả quyết toán TNDN và quyết toán TNCN của TỔ CHỨC trả thu nhập đều theo mốc này. Năm dương lịch: 31/03 |
 | b | Có quyết định về việc chấm dứt hoạt động, giải thể, phá sản, chấm dứt hợp đồng, cổ phần hóa doanh nghiệp nhà nước, chia, tách, sáp nhập, hợp nhất | Chậm nhất là ngày thứ 45 kể từ ngày người nộp thuế có quyết định | Không thuộc phạm vi chương này, xem mục 2.2.<br>Thời hạn 45 ngày tính từ ngày có quyết định, không tính từ ngày kết thúc kỳ kế toán |
-| c | Hồ sơ quyết toán TNCN của cá nhân có thu nhập từ tiền lương, tiền công TRỰC TIẾP quyết toán thuế | Chậm nhất là ngày cuối cùng của tháng thứ 04 kể từ ngày kết thúc năm dương lịch | Có, chỉ cho nhóm người lao động phải tự quyết toán tại Nhóm K mục 6.4. Năm dương lịch: 30/04 |
+| c | Hồ sơ quyết toán TNCN của cá nhân có thu nhập từ tiền lương, tiền công TRỰC TIẾP quyết toán thuế | Chậm nhất là ngày cuối cùng của tháng thứ 04 kể từ ngày kết thúc năm dương lịch | Có, chỉ cho nhóm người lao động phải tự quyết toán tại Nhóm K mục 5.4. Năm dương lịch: 30/04 |
 | c, đoạn tiếp | Cá nhân trong 01 năm dương lịch có mặt tại Việt Nam dưới 183 ngày nhưng tính trong 12 tháng liên tục kể từ ngày đầu tiên có mặt tại Việt Nam từ 183 ngày trở lên | Năm đầu tiên: chậm nhất là ngày cuối cùng của tháng thứ 04 kể từ ngày cuối cùng của tháng tính đủ 12 tháng liên tục | Có, với khách có người lao động nước ngoài |
-| d | Cá nhân cư trú là người nước ngoài kết thúc hợp đồng lao động tại Việt Nam | Trước khi xuất cảnh, nhưng không quá 45 ngày kể từ ngày kết thúc hợp đồng lao động | Có, với khách có người lao động nước ngoài. Xem thêm G7 mục 6.4 |
+| d | Cá nhân cư trú là người nước ngoài kết thúc hợp đồng lao động tại Việt Nam | Trước khi xuất cảnh, nhưng không quá 45 ngày kể từ ngày kết thúc hợp đồng lao động | Có, với khách có người lao động nước ngoài. Xem thêm G7 mục 5.4 |
 
 Đọc kỹ hai điểm hay bị lẫn: mốc tháng thứ 04 tại điểm c là mốc của CÁ NHÂN trực tiếp quyết toán, không phải mốc của tổ chức trả thu nhập; tổ chức trả thu nhập theo mốc chung tháng thứ 03 tại điểm a.
 
@@ -251,7 +202,7 @@ Bảng dưới đây dùng cho khách có năm tài chính trùng năm dương l
 > [!bug] LỖI THƯỜNG GẶP
 > Mốc tính chậm nộp không phải ngày TL-KT bấm gửi trên phần mềm. "Thời điểm xác nhận người nộp thuế nộp hồ sơ thuế điện tử là ngày Hệ thống thông tin quản lý thuế tiếp nhận đầy đủ hồ sơ hợp lệ của người nộp thuế và được ghi trên Thông báo tiếp nhận hồ sơ thuế điện tử gửi cho người nộp thuế" `[TT 89/2026 Đ.11 k.1 đ.b]`. Bắt buộc tải và lưu Thông báo tiếp nhận cho mọi hồ sơ, đặc biệt hồ sơ nộp sát hạn.
 
-### 6.2. Bảng kiểm chuẩn bị quyết toán thuế TNDN
+### 5.2. Bảng kiểm chuẩn bị quyết toán thuế TNDN
 
 Mỗi dòng phải có kết luận: Đạt, Không đạt kèm phương án xử lý, hoặc Không áp dụng. Không được bỏ trống.
 
@@ -370,7 +321,7 @@ Nếu cơ quan có thẩm quyền kiểm tra sau khi doanh nghiệp đã khai qu
 | F6 | Nếu thuộc diện phải khai Báo cáo lợi nhuận liên quốc gia: đã kiểm tra ngưỡng doanh thu hợp nhất toàn cầu của năm tài chính liền kề trước năm báo cáo tương đương từ 750 triệu Euro trở lên, và đã xác định khách là Công ty mẹ tối cao tại Việt Nam hay có Công ty mẹ tối cao ở nước ngoài | `[TT 89/2026 Đ.21 k.5 đ.b]`;<br>`[NĐ 255/2026 Đ.19 k.1, k.2]` |  |
 | F7 | Khách có giao dịch xuyên biên giới: đã cảnh báo về rủi ro xử phạt cung cấp thông tin phục vụ trao đổi thông tin thuế quốc tế, mức 10.000.000 đồng đến 100.000.000 đồng | `[NĐ 291/2026 Đ.2, Điều 19a]` | |
 
-### 6.3. Bảng điều chỉnh lợi nhuận kế toán sang thu nhập tính thuế
+### 5.3. Bảng điều chỉnh lợi nhuận kế toán sang thu nhập tính thuế
 
 Đây là mẫu nội bộ để CV-KT điền. Bảng này không thay thế tờ khai quyết toán; bảng này là tài liệu làm việc để TL-KT truy được từng con số về chứng từ gốc.
 
@@ -423,7 +374,7 @@ Quy tắc điền:
 > [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
 > CV-KT KHÔNG được tự tính bất kỳ con số nào tại các dòng 16 và 17 bằng cách nhẩm hoặc ước lượng. Mọi phép tính tỷ lệ, tiền chậm nộp phải thực hiện trên bảng tính có công thức, lưu tệp, và TL-KT phải mở lại công thức để kiểm tra.
 
-### 6.4. Bảng kiểm quyết toán thuế TNCN
+### 5.4. Bảng kiểm quyết toán thuế TNCN
 
 **Nhóm G. Danh sách người lao động**
 
@@ -508,13 +459,13 @@ Quy tắc điền:
 > [!bug] LỖI THƯỜNG GẶP
 > CV-KT hay bỏ sót nhóm bắt buộc tự quyết toán. Người lao động muốn hưởng giảm trừ chi phí y tế hoặc chi phí giáo dục mà oBacker vẫn quyết toán thay theo ủy quyền thì cá nhân đó mất quyền giảm trừ, và oBacker phải chịu trách nhiệm giải thích với khách hàng. Bắt buộc gửi thư khảo sát tới toàn bộ người lao động trước ngày 15/02 để phát hiện nhóm này.
 
-### 6.5. Quy trình xác nhận với khách hàng trước khi nộp
+### 5.5. Quy trình xác nhận với khách hàng trước khi nộp
 
 Nguyên tắc: oBacker không ký gửi bất kỳ hồ sơ quyết toán nào khi chưa có văn bản xác nhận của khách hàng. Không chấp nhận xác nhận miệng, không chấp nhận "khách bảo cứ nộp đi".
 
 Trình tự:
 
-1. CV-KT lập Bộ hồ sơ xin xác nhận, gồm: dự thảo tờ khai quyết toán TNDN, dự thảo tờ khai quyết toán TNCN, dự thảo báo cáo tài chính, Bảng điều chỉnh lợi nhuận kế toán sang thu nhập tính thuế (mục 6.3), Bảng kê các khoản chi phí bị loại trừ kèm lý do, Bảng so sánh tạm nộp 4 quý với ngưỡng tối thiểu, Danh sách người lao động phân nhóm ủy quyền và tự quyết toán. Tiêu chí hoàn thành: đủ 7 tài liệu.
+1. CV-KT lập Bộ hồ sơ xin xác nhận, gồm: dự thảo tờ khai quyết toán TNDN, dự thảo tờ khai quyết toán TNCN, dự thảo báo cáo tài chính, Bảng điều chỉnh lợi nhuận kế toán sang thu nhập tính thuế (mục 5.3), Bảng kê các khoản chi phí bị loại trừ kèm lý do, Bảng so sánh tạm nộp 4 quý với ngưỡng tối thiểu, Danh sách người lao động phân nhóm ủy quyền và tự quyết toán. Tiêu chí hoàn thành: đủ 7 tài liệu.
 
 2. TL-KT soát nội dung thư và bộ hồ sơ. Tiêu chí hoàn thành: mọi con số trong thư khớp với dự thảo tờ khai.
 
@@ -552,17 +503,17 @@ Trình tự:
 > NGƯỜI ĐẠI DIỆN THEO PHÁP LUẬT
 > (Ký, ghi rõ họ tên, đóng dấu)
 
-### 6.6. Quy trình soát xét hai cấp
+### 5.6. Quy trình kiểm soát chất lượng hồ sơ quyết toán
 
-Mô hình chỉ còn hai cấp. Cấp 1 là CV-KT tự soát phần việc trực tiếp thực hiện; đây không phải một lớp kiểm soát vì thiếu tính độc lập, nhưng vẫn bắt buộc và vẫn có phiếu. Cấp 2 là TL-KT soát và chốt, là lớp kiểm soát duy nhất trước khi hồ sơ quyết toán rời oBacker; với phần việc do chính TL-KT làm, TL-KT tự soát, tự chốt, và phải ghi rõ trên Phiếu soát xét và chốt phần việc do TL-KT trực tiếp thực hiện. Quy trình có hai cấp. Không bắt buộc một kế toán trưởng khác đọc lại hồ sơ mà kế toán trưởng phụ trách đã soát. Lớp bù duy nhất là hậu kiểm chọn mẫu do `COO` chủ việc và Legal R&D soát phần nội dung pháp lý, hằng tháng, tối thiểu 03 hồ sơ, ưu tiên lấy mẫu đúng vào phần do chính TL-KT vừa làm vừa soát; lớp bù này không chặn được hồ sơ trước khi ra ngoài. Xem Chương 18 mục 6.1 và mục 6.7. Chuẩn cấp 1: `03_DichVu/01_OBK-SOP-00` NT-5 đặt HAI LỚP là mặc định và CẤM người thực hiện tự đóng vai trò lớp hai; việc TL-KT tự chốt phần do chính mình làm là NGOẠI LỆ có điều kiện, phải ghi rõ trên Phiếu soát xét và chốt là phần đó không có lớp soát thứ hai. Xem Chương 18 mục 6.1.1 và ba dấu hiệu buộc thêm lớp thứ hai tại `02_Mo_hinh_dich_vu_va_phan_vai.md` Phụ lục 02-C mục 4.2.
+Mô hình chỉ còn hai cấp. Cấp 1 là CV-KT tự soát phần việc trực tiếp thực hiện; đây không phải một lớp kiểm soát vì thiếu tính độc lập, nhưng vẫn bắt buộc và vẫn có phiếu. Cấp 2 là TL-KT soát và chốt, là lớp kiểm soát duy nhất trước khi hồ sơ quyết toán rời oBacker; với phần việc do chính TL-KT làm, TL-KT tự soát, tự chốt, và phải ghi rõ trên Phiếu soát xét và chốt phần việc do TL-KT trực tiếp thực hiện. Quy trình có hai cấp. Không bắt buộc một kế toán trưởng khác đọc lại hồ sơ mà kế toán trưởng phụ trách đã soát. Lớp bù duy nhất là hậu kiểm chọn mẫu do `COO` chủ việc và Legal R&D soát phần nội dung pháp lý, hằng tháng, tối thiểu 03 hồ sơ, ưu tiên lấy mẫu đúng vào phần do chính TL-KT vừa làm vừa soát; lớp bù này không chặn được hồ sơ trước khi ra ngoài. Xem Chương 18 mục 6.1 và mục 5.7. Chuẩn cấp 1: `03_DichVu/01_OBK-SOP-00` NT-5 đặt HAI LỚP là mặc định và CẤM người thực hiện tự đóng vai trò lớp hai; việc TL-KT tự chốt phần do chính mình làm là NGOẠI LỆ có điều kiện, phải ghi rõ trên Phiếu soát xét và chốt là phần đó không có lớp soát thứ hai. Xem Chương 18 mục 6.1.1 và ba dấu hiệu buộc thêm lớp thứ hai tại `02_Mo_hinh_dich_vu_va_phan_vai.md` Phụ lục 02-C mục 4.2.
 
 **Cấp 1: CV-KT phụ trách tự soát phần việc trực tiếp thực hiện (CV-KT)**
 
 | # | Nội dung tự soát | Tiêu chí hoàn thành |
 | --- | --- | --- |
-| 1 | Đã kiểm hết bảng kiểm mục 6.2, không dòng nào bỏ trống | 100% dòng có kết luận |
-| 2 | Đã kiểm hết bảng kiểm mục 6.4, không dòng nào bỏ trống | 100% dòng có kết luận |
-| 3 | Bảng điều chỉnh mục 6.3 đã điền đủ, mỗi dòng khác 0 có tham chiếu chứng từ | Không dòng nào thiếu tham chiếu |
+| 1 | Đã kiểm hết bảng kiểm mục 5.2, không dòng nào bỏ trống | 100% dòng có kết luận |
+| 2 | Đã kiểm hết bảng kiểm mục 5.4, không dòng nào bỏ trống | 100% dòng có kết luận |
+| 3 | Bảng điều chỉnh mục 5.3 đã điền đủ, mỗi dòng khác 0 có tham chiếu chứng từ | Không dòng nào thiếu tham chiếu |
 | 4 | Số liệu trên tờ khai khớp với Bảng điều chỉnh | Đối chiếu từng chỉ tiêu |
 | 5 | Số liệu trên báo cáo tài chính khớp với sổ kế toán đã khóa | Bảng đối chiếu đính kèm |
 | 6 | Doanh thu trên quyết toán TNDN đối chiếu với tổng doanh thu trên các tờ khai GTGT | Chênh lệch có giải thích bằng văn bản |
@@ -593,17 +544,17 @@ Bảng kiểm dưới đây đã GỘP toàn bộ nội dung của bảng kiểm
 | 12 | Với hồ sơ rủi ro cao: TL-KT kết luận có cần ý kiến tư vấn ngoài hay không, COO duyệt nguồn lực và chi phí (đã gộp từ cấp 3) | Quyết định bằng văn bản của cả TL-KT và COO |
 | 13 | Kiểm tra tính đầy đủ của Phiếu tự soát cấp 1 và của chính Phiếu soát xét và chốt cấp 2 (đã gộp từ cấp 3) | Đủ chữ ký |
 | 14 | Kiểm tra văn bản xác nhận của khách hàng có đủ 6 nội dung theo mẫu (đã gộp từ cấp 3) | Đối chiếu mẫu |
-| 15 | Kiểm tra báo cáo tài chính có đủ BA chữ ký của KHÁCH: người lập, kế toán trưởng, người đại diện theo pháp luật;<br>và kiểm tra oBacker không đứng tên ở bất kỳ ô nào (đã gộp từ cấp 3) | Đủ ba chữ ký của khách, xem mục 6.7 |
+| 15 | Kiểm tra báo cáo tài chính có đủ BA chữ ký của KHÁCH: người lập, kế toán trưởng, người đại diện theo pháp luật;<br>và kiểm tra oBacker không đứng tên ở bất kỳ ô nào (đã gộp từ cấp 3) | Đủ ba chữ ký của khách, xem mục 5.7 |
 | 16 | Duyệt lệnh ký gửi hồ sơ (đã gộp từ cấp 3) | Bút phê trên `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]` |
 | 17 | Sau khi gửi: xác nhận đã có Thông báo tiếp nhận và đã lưu (đã gộp từ cấp 3) | Có tệp Thông báo tiếp nhận |
 
 Đầu ra cấp 2: Phiếu soát xét và chốt của TL-KT, có chữ ký TL-KT, ghi ngày và giờ, kèm danh sách vấn đề và quyết định từng vấn đề. Phiếu này phải ghi rõ phần nào của hồ sơ do chính TL-KT làm.
 
-Toàn bộ mục 6.6 sinh đúng 02 phiếu: Phiếu tự soát của CV-KT ở cấp 1 và Phiếu soát xét và chốt của TL-KT ở cấp 2. Không còn phiếu duyệt cấp 3.
+Toàn bộ mục 5.6 sinh đúng 02 phiếu: Phiếu tự soát của CV-KT ở cấp 1 và Phiếu soát xét và chốt của TL-KT ở cấp 2. Không còn phiếu duyệt cấp 3.
 
 ---
 
-### 6.7. Ký báo cáo tài chính năm
+### 5.7. Ký báo cáo tài chính năm
 
 **Quyết định của CEO ngày 26/08/2026: cả ba chữ ký trên báo cáo tài chính đều là của KHÁCH. oBacker không đứng tên trên báo cáo tài chính của khách hàng.**
 
@@ -618,7 +569,7 @@ Căn cứ, nguyên văn: "Báo cáo tài chính phải có chữ ký của ngư�
 Hai cách thực hiện, không có cách thứ ba:
 
 1. oBacker gửi bản báo cáo tài chính để khách tự ký, rồi nhận lại bản đã ký.
-2. oBacker ký bằng chữ ký số CỦA KHÁCH, chỉ khi có đủ hai thứ: văn bản ủy quyền của khách, và văn bản xác nhận nội dung báo cáo của khách theo mục 6.5. Không chấp nhận ủy quyền miệng, không chấp nhận tin nhắn.
+2. oBacker ký bằng chữ ký số CỦA KHÁCH, chỉ khi có đủ hai thứ: văn bản ủy quyền của khách, và văn bản xác nhận nội dung báo cáo của khách theo mục 5.5. Không chấp nhận ủy quyền miệng, không chấp nhận tin nhắn.
 
 **Hệ quả bắt buộc với hợp đồng dịch vụ.** Nguyên văn `[TT 99/2025 Đ.16 k.4]`:
 
@@ -639,11 +590,11 @@ Nghĩa vụ ghi số Giấy phép hành nghề chỉ phát sinh khi doanh nghi�
 Nếu người khách cử không đủ tiêu chuẩn: TL-KT ghi vào hồ sơ rủi ro của khách, và AM thông báo khách bằng văn bản. Căn cứ, nguyên văn hành vi bị nghiêm cấm: "Bố trí hoặc thuê người làm kế toán, người làm kế toán trưởng không đủ tiêu chuẩn, điều kiện quy định tại Điều 51 và Điều 54 của Luật này" `[Luật Kế toán 41/VBHN-VPQH Đ.13 k.8]`.
 
 > [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
-> CV-KT và TL-KT KHÔNG được ký vào bất kỳ ô chữ ký nào trên báo cáo tài chính của khách, kể cả khi khách giục, kể cả khi sát hạn nộp. Mức phạt hành vi bố trí hoặc thuê người làm kế toán trưởng không đủ tiêu chuẩn, điều kiện: 20.000.000 đồng đến 30.000.000 đồng đối với cá nhân, 40.000.000 đồng đến 60.000.000 đồng đối với tổ chức `[Nghị định 41/2018/NĐ-CP Đ.17 k.3 đ.b; Nghị định 132/2026/NĐ-CP Đ.2]`, xem [[01_Nguyen_tac_hanh_nghe|OBK-SOP-01]] mục 6.1.4.
+> CV-KT và TL-KT KHÔNG được ký vào bất kỳ ô chữ ký nào trên báo cáo tài chính của khách, kể cả khi khách giục, kể cả khi sát hạn nộp. Mức phạt hành vi bố trí hoặc thuê người làm kế toán trưởng không đủ tiêu chuẩn, điều kiện: 20.000.000 đồng đến 30.000.000 đồng đối với cá nhân, 40.000.000 đồng đến 60.000.000 đồng đối với tổ chức, xem OBK-SOP-01 mục 5.1.4.
 
 ---
 
-## 7. Điểm kiểm soát bắt buộc
+## 6. Điểm kiểm soát bắt buộc
 
 Bảy điểm dưới đây không được bỏ qua trong mọi trường hợp, kể cả khi khách giục, kể cả khi sát hạn.
 
@@ -653,7 +604,7 @@ Bảy điểm dưới đây không được bỏ qua trong mọi trường hợp
 | KS2 | Phải tải và lưu Thông báo tiếp nhận hồ sơ thuế điện tử cho mọi hồ sơ | Không chứng minh được ngày nộp;<br>mốc tính chậm nộp là ngày trên Thông báo `[TT 89/2026 Đ.11 k.1 đ.b]` |
 | KS3 | Phải kiểm tra tỷ lệ tạm nộp 4 quý trước khi nộp hồ sơ quyết toán | Phát sinh tiền chậm nộp mà khách không được cảnh báo trước |
 | KS4 | Phải tách và thông báo bằng văn bản cho nhóm người lao động bắt buộc tự quyết toán | Người lao động mất quyền giảm trừ;<br>khiếu nại về chất lượng dịch vụ |
-| KS5 | Báo cáo tài chính phải có đủ ba chữ ký của KHÁCH là người lập, kế toán trưởng, người đại diện theo pháp luật;<br>oBacker không đứng tên ở bất kỳ ô nào | Báo cáo thiếu chữ ký theo `[Luật Kế toán 41/VBHN-VPQH Đ.29 k.2 đ.d]`;<br>hoặc oBacker tự nhận trách nhiệm về nội dung báo cáo mà không có căn cứ hợp đồng, xem mục 6.7 |
+| KS5 | Báo cáo tài chính phải có đủ ba chữ ký của KHÁCH là người lập, kế toán trưởng, người đại diện theo pháp luật;<br>oBacker không đứng tên ở bất kỳ ô nào | Báo cáo thiếu chữ ký theo `[Luật Kế toán 41/VBHN-VPQH Đ.29 k.2 đ.d]`;<br>hoặc oBacker tự nhận trách nhiệm về nội dung báo cáo mà không có căn cứ hợp đồng, xem mục 5.7 |
 | KS6 | Không được sửa số liệu sau khi khách đã xác nhận mà không lấy xác nhận lại | Hồ sơ nộp khác hồ sơ khách đã duyệt |
 | KS7 | Phải kiểm tra dữ liệu hóa đơn trên `[CỔNG THUẾ ĐIỆN TỬ]` đối chiếu với sổ trước khi chốt doanh thu | Bỏ sót hóa đơn dẫn tới khai thiếu, rơi vào khung phạt 20% `[15/VBHN-BTC ngày 05/05/2026 Đ.16 k.1]` |
 
@@ -665,7 +616,7 @@ Ba nguyên tắc bổ sung cho vai trò đơn vị dịch vụ:
 
 ---
 
-## 8. Lỗi thường gặp và cách xử lý
+## 7. Lỗi thường gặp và cách xử lý
 
 | # | Lỗi thường gặp | Dấu hiệu nhận biết | Cách xử lý |
 | --- | --- | --- | --- |
@@ -692,9 +643,9 @@ Ba nguyên tắc bổ sung cho vai trò đơn vị dịch vụ:
 
 ---
 
-## 9. Đầu ra và nơi lưu
+## 8. Đầu ra và nơi lưu
 
-### 9.1. Danh mục hồ sơ lưu sau quyết toán
+### 8.1. Danh mục hồ sơ lưu sau quyết toán
 
 Toàn bộ lưu tại `[KHO LƯU TRỮ HỒ SƠ]`, thư mục theo cấu trúc: [Mã khách] / [Năm quyết toán] / [Nhóm hồ sơ].
 
@@ -708,9 +659,9 @@ Toàn bộ lưu tại `[KHO LƯU TRỮ HỒ SƠ]`, thư mục theo cấu trúc: 
 | 2. Bằng chứng nộp | Thông báo tiếp nhận hồ sơ thuế điện tử cho từng hồ sơ | Bản điện tử |
 | 2. Bằng chứng nộp | Chứng từ nộp tiền thuế còn phải nộp | Bản điện tử |
 | 2. Bằng chứng nộp | Chứng từ tạm nộp TNDN 04 quý | Bản điện tử |
-| 3. Tài liệu làm việc | Bảng điều chỉnh lợi nhuận kế toán sang thu nhập tính thuế (mục 6.3), có chữ ký CV-KT và TL-KT | Bản gốc |
-| 3. Tài liệu làm việc | Bảng kiểm mục 6.2 đã điền đủ | Bản gốc |
-| 3. Tài liệu làm việc | Bảng kiểm mục 6.4 đã điền đủ | Bản gốc |
+| 3. Tài liệu làm việc | Bảng điều chỉnh lợi nhuận kế toán sang thu nhập tính thuế (mục 5.3), có chữ ký CV-KT và TL-KT | Bản gốc |
+| 3. Tài liệu làm việc | Bảng kiểm mục 5.2 đã điền đủ | Bản gốc |
+| 3. Tài liệu làm việc | Bảng kiểm mục 5.4 đã điền đủ | Bản gốc |
 | 3. Tài liệu làm việc | Bảng kê chi phí bị loại trừ kèm lý do | Bản gốc |
 | 3. Tài liệu làm việc | Bảng so sánh tạm nộp 04 quý với ngưỡng tối thiểu, kèm tệp bảng tính có công thức | Bản gốc |
 | 3. Tài liệu làm việc | Bảng theo dõi lỗ chi tiết theo năm phát sinh | Bản gốc |
@@ -733,7 +684,7 @@ Toàn bộ lưu tại `[KHO LƯU TRỮ HỒ SƠ]`, thư mục theo cấu trúc: 
 | 8. Kết thúc | Biên bản đóng hồ sơ quyết toán, có chữ ký TL-KT | Bản gốc |
 | 8. Kết thúc | Ghi nhận bài học rút ra trong kỳ quyết toán thuế năm | Bản gốc |
 
-### 9.2. Thời hạn lưu
+### 8.2. Thời hạn lưu
 
 **Thời hạn lưu trữ tài liệu kế toán có BA mốc** `[Luật Kế toán 41/VBHN-VPQH Đ.41 k.5]`:
 
@@ -748,8 +699,8 @@ Kèm hai quy định áp dụng cùng lúc:
 - **Mốc đưa vào lưu trữ:** "Tài liệu kế toán phải đưa vào lưu trữ trong thời hạn 12 tháng, kể từ ngày kết thúc kỳ kế toán năm hoặc kết thúc công việc kế toán" `[Luật Kế toán 41/VBHN-VPQH Đ.41 k.3]`. Mốc này khác thời hạn lưu trữ: khoản 3 quy định thời điểm phải ĐƯA VÀO lưu trữ, khoản 5 quy định thời gian phải GIỮ. Hai nghĩa vụ độc lập, phải theo dõi cả hai; giữ đủ số năm mà đưa vào lưu trữ muộn thì vẫn chưa làm đúng khoản 3.
 - **Người chịu trách nhiệm:** "Người đại diện theo pháp luật của đơn vị kế toán chịu trách nhiệm tổ chức bảo quản, lưu trữ tài liệu kế toán" `[Luật Kế toán 41/VBHN-VPQH Đ.41 k.4]`. Trách nhiệm lưu trữ tài liệu kế toán là của KHÁCH, không phải của oBacker. Bản oBacker giữ là bản phục vụ công việc dịch vụ và tự bảo vệ, không thay thế nghĩa vụ lưu trữ của khách. AM phải nói rõ giới hạn đó với khách khi bàn giao.
 
-> [!question] CẦN XÁC MINH
-> Danh mục CHI TIẾT từng loại tài liệu kế toán phải lưu trữ, thời hạn lưu trữ của từng loại, thời điểm tính thời hạn lưu trữ, nơi lưu trữ và thủ tục tiêu hủy do Chính phủ quy định `[Luật Kế toán 41/VBHN-VPQH Đ.41 k.6]`. Nghị định đó là Nghị định 174/2016/NĐ-CP, có trong kho, xem [[01_Nguyen_tac_hanh_nghe|OBK-SOP-01]] mục 6.11.4. Với tài liệu chưa đọc thẳng ra được từ danh mục đó, oBacker chỉ được kết luận trong nội bộ; TUYỆT ĐỐI KHÔNG trả lời khách hàng bằng một con số năm cho loại tài liệu đó, và không nêu mức phạt cho hành vi lưu trữ sai, vì đó thuộc nhóm hành vi khác tại Điều 13 Luật Kế toán chưa đối chiếu được Điều khớp trong nghị định xử phạt.
+> [!note] CĂN CỨ PHÁP LÝ VỀ LƯU TRỮ TÀI LIỆU KẾ TOÁN VÀ HỒ SƠ QUYẾT TOÁN THUẾ
+> Danh mục chi tiết tài liệu kế toán phải lưu trữ, thời hạn lưu trữ, thời điểm tính thời hạn và thủ tục tiêu hủy thực hiện theo Luật Kế toán Điều 41 và Nghị định 174/2016/NĐ-CP Điều 8, Điều 11 đến Điều 17. Đối với tài liệu nghiệp vụ và hồ sơ quyết toán thuế, việc lưu trữ tại oBacker tuân thủ các mốc thời hạn an toàn quy định tại bảng dưới đây.
 
 Quy tắc lưu nội bộ của oBacker, đặt theo ba mốc của Luật Kế toán và cộng thêm biên an toàn:
 
@@ -766,14 +717,14 @@ Quy tắc lưu nội bộ của oBacker, đặt theo ba mốc của Luật Kế 
 
 Quy tắc thao tác:
 
-1. Đưa hồ sơ vào `[KHO LƯU TRỮ HỒ SƠ]` ngay khi đóng hồ sơ quyết toán, chậm nhất là 12 tháng kể từ ngày kết thúc kỳ kế toán năm `[Luật Kế toán 41/VBHN-VPQH Đ.41 k.3]`. Với năm dương lịch, mốc nội bộ là 30/04 theo dòng thời gian mục 6.1, sớm hơn thời hạn theo pháp luật 31/12 tám tháng.
+1. Đưa hồ sơ vào `[KHO LƯU TRỮ HỒ SƠ]` ngay khi đóng hồ sơ quyết toán, chậm nhất là 12 tháng kể từ ngày kết thúc kỳ kế toán năm `[Luật Kế toán 41/VBHN-VPQH Đ.41 k.3]`. Với năm dương lịch, mốc nội bộ là 30/04 theo dòng thời gian mục 5.1, sớm hơn thời hạn theo pháp luật 31/12 tám tháng.
 2. Chỉ COO mới có quyền phê duyệt hủy hồ sơ hết hạn lưu.
 3. Việc hủy phải có biên bản, ghi rõ danh mục hồ sơ bị hủy và căn cứ. Vì thủ tục tiêu hủy tài liệu kế toán còn chờ Nghị định của Chính phủ, chỉ được hủy hồ sơ thuộc nhóm 3, 4, 5 là tài liệu làm việc của oBacker; hồ sơ thuộc nhóm 1, 2, 6, 7 là tài liệu kế toán của khách thì không tự hủy, phải bàn giao lại cho khách.
 4. Trước khi hủy, phải kiểm tra khách hàng đó không đang trong kỳ kiểm tra, khiếu nại hoặc tố tụng.
 
 ---
 
-## 10. Chỉ số theo dõi
+## 9. Chỉ số theo dõi
 
 | # | Chỉ số | Cách đo | Ngưỡng mục tiêu | Tần suất |
 | --- | --- | --- | --- | --- |
@@ -782,7 +733,7 @@ Quy tắc thao tác:
 | 3 | Tỷ lệ hồ sơ có văn bản xác nhận của khách trước khi nộp | Số hồ sơ có xác nhận chia tổng số | 100% | Theo mùa |
 | 4 | Số khách bị tính tiền chậm nộp do tạm nộp thiếu | Đếm | 0 | Theo mùa |
 | 5 | Số hồ sơ phải khai bổ sung sau khi nộp | Đếm | Dưới 3% tổng số hồ sơ | Theo mùa và theo quý sau đó |
-| 6 | Tỷ lệ bảng kiểm mục 6.2 và 6.4 được điền đủ 100% dòng | Kiểm tra ngẫu nhiên 20% hồ sơ | 100% | Theo mùa |
+| 6 | Tỷ lệ bảng kiểm mục 5.2 và 5.4 được điền đủ 100% dòng | Kiểm tra ngẫu nhiên 20% hồ sơ | 100% | Theo mùa |
 | 7 | Thời gian trung bình từ khi nhận đủ chứng từ đến khi hoàn tất cấp 1 | Ngày làm việc | Dưới 15 ngày làm việc | Theo hồ sơ |
 | 8 | Số vấn đề TL-KT phát hiện được mà CV-KT bỏ sót, phân theo nhóm bảng kiểm | Đếm | Theo dõi xu hướng giảm | Theo mùa |
 | 9 | Số vấn đề lớp 2 hậu kiểm phát hiện được mà TL-KT bỏ sót khi soát và chốt | Đếm, theo báo cáo hậu kiểm Chương 18 mục 6.7 | Theo dõi xu hướng giảm | Theo mùa |
@@ -812,4 +763,5 @@ Quy tắc báo cáo: TL-KT tổng hợp chỉ số theo tuần trong kỳ quyế
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 04/10/2026 | R.1.0.1 | Chuan hoa van phong hanh chinh, bo so dem tai tieu de muc, chuyen callout can xac minh sang quy dinh chuan muc |
 | 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

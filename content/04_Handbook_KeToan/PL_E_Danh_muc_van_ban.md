@@ -7,16 +7,13 @@ level: "Phụ lục"
 version: "R.1.0.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 25/08/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
 parent: "OBK-SOP-KT Kế toán và thuế"
 next_review: "Định kỳ hằng quý"
 appendix: "Danh mục văn bản pháp luật áp dụng"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-SOP-PL-E
 tags:
@@ -51,8 +48,8 @@ tags:
 4. **Danh mục chờ xác minh của cả công ty** gồm toàn bộ nội dung chưa đối chiếu bản gốc hoặc chưa xác minh được trong Handbook, lý do chưa chắc chắn, và việc cần làm để đối chiếu được bản gốc.
 5. **Hồ sơ sửa của bản 1.3** gồm ba chỗ Handbook từng ghi khác bản gốc, hai chỗ đã bị rút khỏi danh sách sau khi soát lại, bốn dấu theo dõi đã đóng và tám nội dung từng thiếu đã bổ sung. Tra hồ sơ sửa khi cần biết vì sao một chỗ được viết như hiện tại, hoặc khi phải liên hệ lại khách đã được trả lời theo bản cũ.
 
-> [!question] CẦN XÁC MINH
-> Phần lớn Bảng A đã đối chiếu xong bản gốc, và cột "Mức xác minh" của các dòng đó để trống. Dòng nào chưa đối chiếu được hoặc chưa xác minh được thì ghi rõ ở cột đó và có dòng tương ứng trong Bảng D.
+> [!note] QUY ƯỚC THEO DÕI MỨC ĐỘ ĐỐI CHIẾU
+> Các văn bản tại Bảng A đã hoàn thành đối chiếu bản gốc được để trống cột "Mức xác minh". Trường hợp văn bản đang trong quá trình rà soát hoặc cần đối chiếu chuyên sâu được ghi chú cụ thể tại cột trạng thái và danh mục rà soát pháp luật.
 
 ---
 
@@ -130,13 +127,13 @@ Cột "Có bản gốc trong kho" rà lại ngày 02/09/2026 trên kho thực t�
 | A36 | 91/2026/TT-BTC | Thông tư quy định một số điều của Luật Quản lý thuế và Nghị định 254/2026/NĐ-CP về hóa đơn điện tử, chứng từ điện tử | 30/6/2026 | Từ 01/7/2026 | Thông tư 78/2021 và Thông tư 32/2025 | Hóa đơn điện tử | CÓ, ĐỦ CẢ 05 PHỤ LỤC, từ Phụ lục I tới Phụ lục V | đã đối chiếu bản gốc cho cả điều khoản và Phụ lục |
 | A37 | 99/2025/TT-BTC | Thông tư hướng dẫn chế độ kế toán doanh nghiệp | Theo văn bản | 01/01/2026, áp dụng cho năm tài chính bắt đầu từ hoặc sau 01/01/2026 | Thông tư 200/2014 (trừ 20 điều khoản về cổ phần hóa doanh nghiệp nhà nước), Thông tư 75/2015, Thông tư 53/2016, Thông tư 195/2012 | Chế độ kế toán | Có | Điều 2 khoản 1 phủ mọi doanh nghiệp thuộc mọi lĩnh vực, mọi thành phần kinh tế, chỉ loại trừ tổ chức tín dụng và chi nhánh ngân hàng nước ngoài |
 | A38 | 58/2026/TT-BTC | Thông tư hướng dẫn chế độ kế toán cho doanh nghiệp siêu nhỏ, hộ kinh doanh, cá nhân kinh doanh | Theo văn bản | Từ 01/7/2026, áp dụng cho năm tài chính bắt đầu từ ngày hoặc sau ngày 01/7/2026 | Thông tư 132/2018 hết hiệu lực kể từ ngày Thông tư này có hiệu lực | Chế độ kế toán | Có | Xem cảnh báo khoảng trống pháp lý tại danh mục chờ xác minh dòng D20 |
-| A39 | 133/2016/TT-BTC | Thông tư hướng dẫn chế độ kế toán doanh nghiệp nhỏ và vừa | 26/08/2016 | Áp dụng cho năm tài chính bắt đầu hoặc sau ngày 01/01/2017, theo Điều 93 khoản 1 |  | Chế độ kế toán | Có, toàn văn, tại [[Thông tư 133-2016-TT-BTC hướng dẫn chế độ kế toán doanh nghiệp nhỏ và vừa]].<br>Đã mở tệp và kiểm ngày 02/09/2026 | đã đối chiếu bản gốc cho số hiệu, ngày ban hành và mốc áp dụng tại Điều 93 khoản 1.<br>Bản gốc ghi Thông tư không có điều khoản tự hết hiệu lực.<br>Thông tư 99/2025 Điều 31 khoản 1 chỉ thay thế 04 thông tư 200/2014, 75/2015, 53/2016, 195/2012; Thông tư 58/2026 Điều 12 khoản 2 chỉ chấm dứt Thông tư 132/2018.<br>Nhận định "vẫn còn hiệu lực" vẫn là suy ra từ mệnh đề PHỦ ĐỊNH, xem danh mục chờ xác minh dòng D62 |
+| A39 | 133/2016/TT-BTC | Thông tư hướng dẫn chế độ kế toán doanh nghiệp nhỏ và vừa | 26/08/2016 | Áp dụng cho năm tài chính bắt đầu hoặc sau ngày 01/01/2017, theo Điều 93 khoản 1 |  | Chế độ kế toán | Có, toàn văn, tại Thông tư 133-2016-TT-BTC hướng dẫn chế độ kế toán doanh nghiệp nhỏ và vừa.<br>Đã mở tệp và kiểm ngày 02/09/2026 | đã đối chiếu bản gốc cho số hiệu, ngày ban hành và mốc áp dụng tại Điều 93 khoản 1.<br>Bản gốc ghi Thông tư không có điều khoản tự hết hiệu lực.<br>Thông tư 99/2025 Điều 31 khoản 1 chỉ thay thế 04 thông tư 200/2014, 75/2015, 53/2016, 195/2012; Thông tư 58/2026 Điều 12 khoản 2 chỉ chấm dứt Thông tư 132/2018.<br>Nhận định "vẫn còn hiệu lực" vẫn là suy ra từ mệnh đề PHỦ ĐỊNH, xem danh mục chờ xác minh dòng D62 |
 | A40 | 20/2026/TT-BTC | Thông tư hướng dẫn thuế thu nhập doanh nghiệp | 12/3/2026 | Theo văn bản |  | Thuế TNDN | Có |  |
 | A41 | 87/2026/TT-BTC | Thông tư hướng dẫn thuế thu nhập cá nhân | 30/6/2026 | Theo văn bản |  | Thuế TNCN | Có |  |
 | A42 | 69/2025/TT-BTC | Thông tư hướng dẫn Luật Thuế giá trị gia tăng và Nghị định 181/2025/NĐ-CP | 01/7/2025 | Theo văn bản |  | Thuế GTGT | Có |  |
 | A43 | 24/2026/VBHN-BTC | Văn bản hợp nhất về hồ sơ, thủ tục quản lý thuế đối với hộ kinh doanh, cá nhân kinh doanh, hợp nhất Thông tư 18/2026 và Thông tư 50/2026 | 2026 | Xem Điều 9 của văn bản hợp nhất |  | Hộ kinh doanh | Có |  |
 | A44 | 158/2025/TT-BTC | Thông tư quy định chi tiết một số điều của Nghị định 360/2025 về thuế tiêu thụ đặc biệt | 31/12/2025 | Xem Điều 5;<br>Điều 4 của Thông tư này đã bị Thông tư 89/2026 bãi bỏ |  | Thuế TTĐB | Có |  |
-| A45 | 94/2026/TT-BTC | Thông tư về quản lý rủi ro trong quản lý thuế, gồm tiêu chí xác định người nộp thuế rủi ro cao | 01/07/2026 | Xem điều khoản thi hành của Thông tư |  | Quản lý rủi ro thuế | Có, toàn văn, tại [[Thông tư 94-2026-TT-BTC về quản lý rủi ro trong quản lý thuế]]. Đã mở tệp và kiểm ngày 02/09/2026 | đã đối chiếu bản gốc cho số hiệu và ngày ban hành |
+| A45 | 94/2026/TT-BTC | Thông tư về quản lý rủi ro trong quản lý thuế, gồm tiêu chí xác định người nộp thuế rủi ro cao | 01/07/2026 | Xem điều khoản thi hành của Thông tư |  | Quản lý rủi ro thuế | Có, toàn văn, tại Thông tư 94-2026-TT-BTC về quản lý rủi ro trong quản lý thuế. Đã mở tệp và kiểm ngày 02/09/2026 | đã đối chiếu bản gốc cho số hiệu và ngày ban hành |
 | A46 | 517/QĐ-BTC | Quyết định đính chính Nghị định 320/2025/NĐ-CP | 20/3/2026 | Theo văn bản |  | Thuế TNDN | Có |  |
 | A50 | 90/2026/TT-BTC | Thông tư quy định về đăng ký thuế | 30/06/2026 | Từ 01/07/2026 | Thông tư 86/2024/TT-BTC | Quản lý thuế, đăng ký thuế | Có, toàn văn, tại `05_PhapLuat/Taxes/90_2026_TT-BTC_DangKyThue.md`.<br>Các mẫu biểu còn trong tệp RAR đính kèm, chưa số hóa sang MD | đã đối chiếu bản gốc ký số trên CSDL quốc gia về pháp luật cho điều khoản, hiệu lực và chuyển tiếp |
 
@@ -146,7 +143,7 @@ Cột "Có bản gốc trong kho" rà lại ngày 02/09/2026 trên kho thực t�
 | --- | --- | --- | --- | --- | --- | --- |
 | A47 | 645/CT-CS | Công văn của Cục Thuế hướng dẫn chấm dứt thu, nộp lệ phí môn bài | 23/01/2026 | Phí, lệ phí | Không | Cần để trả lời câu hỏi xử lý nghĩa vụ lệ phí môn bài các kỳ 2025 trở về trước |
 
-### A.5. Hai văn bản bổ sung ngày 26/08/2026
+### A.5. Danh mục văn bản bổ sung đợt rà soát tháng 08/2026
 
 | # | Số hiệu | Trạng thái | Mức độ ưu tiên |
 | --- | --- | --- | --- |
@@ -161,25 +158,25 @@ Sáu văn bản dưới đây do CEO cung cấp bản .docx, chuyển sang MD b�
 
 | Số hiệu | Tên | Ngày ban hành | Hiệu lực | Tệp trong kho | Điều khoản Handbook đang dùng |
 | --- | --- | --- | --- | --- | --- |
-| Luật số 143/2025/QH15 | Luật Đầu tư | 11/12/2025 | 01/03/2026, thay thế Luật Đầu tư 61/2020/QH14 | [[Luật số 143-2025-QH15]] | Đ.47 chế độ báo cáo hoạt động đầu tư |
-| Nghị định 19/2026/NĐ-CP | Quy định về trình tự, thủ tục thẩm định dự án quan trọng quốc gia và giám sát, đánh giá đầu tư | 14/01/2026 | Xem điều khoản thi hành | [[Nghị định số 19-2026-NĐ-CP]] | Đ.94 k.8 và k.11, Đ.95 k.2 |
-| Nghị định 96/2026/NĐ-CP | Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Đầu tư | 31/03/2026 | Xem điều khoản thi hành, thay thế Nghị định 31/2021/NĐ-CP | [[Nghị định số 96-2026-NĐ-CP]] | Đ.94, Đ.96 k.1, Đ.99 k.6 và k.7 |
-| Thông tư 44/2026/TT-BTC | Quy định về mẫu báo cáo giám sát, đánh giá đầu tư;<br>chế độ báo cáo trực tuyến và quản lý vận hành hệ thống thông tin về giám sát, đánh giá đầu tư | 22/04/2026 | Xem điều khoản thi hành | [[Thông tư số 44-2026-TT-BTC]] | Nhóm Mẫu số 13 tới 18 |
-| Nghị định 122/2021/NĐ-CP | Quy định về xử phạt vi phạm hành chính trong lĩnh vực kế hoạch và đầu tư | 28/12/2021 | Xem điều khoản thi hành | [[Nghị định số 122-2021-NĐ-CP]] | Đ.15 chế tài chế độ báo cáo đầu tư |
-| Nghị định 288/2026/NĐ-CP | Sửa đổi, bổ sung một số điều của Nghị định 122/2021/NĐ-CP | 21/07/2026 | Kể từ ngày ký, tức 21/07/2026 | [[Nghị định số 288-2026-NĐ-CP]] | Đ.1 tới Đ.7, xác nhận không chạm Đ.15 |
-| Thông tư 38/2026/TT-NHNN | Quy định về quản lý ngoại hối đối với hoạt động đầu tư nước ngoài tại Việt Nam | 31/07/2026 | 18/08/2026, thay thế Thông tư 06/2019/TT-NHNN | [[Thông tư 38-2026-TT-NHNN về quản lý ngoại hối đối với hoạt động đầu tư nước ngoài tại Việt Nam]] | Đ.5 chi phí chuẩn bị đầu tư, Đ.6 mở tài khoản vốn đầu tư, Đ.10 thanh toán chuyển nhượng |
-| Nghị định 342/2026/NĐ-CP | Quy định chi tiết Luật Thương mại và Luật Quản lý ngoại thương về hoạt động mua bán hàng hóa và các hoạt động liên quan trực tiếp đến mua bán hàng hóa của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài tại Việt Nam | 03/09/2026 | 18/10/2026, thay thế Nghị định 09/2018/NĐ-CP | [[Nghị định 342-2026-NĐ-CP về hoạt động mua bán hàng hóa của nhà đầu tư nước ngoài tại Việt Nam]] | Đ.5, Đ.8 thẩm quyền cấp phép, Đ.9 điều kiện, Đ.11 hồ sơ, Đ.12 trình tự, Đ.44 chuyển tiếp |
-| Thông tư 121/2026/TT-BTC | Sửa đổi, bổ sung một số điều của Thông tư số 68/2025/TT-BTC ban hành biểu mẫu sử dụng trong đăng ký doanh nghiệp, đăng ký hộ kinh doanh (hợp nhất tại VBHN 28/2026/VBHN-TT-BTC) | 21/08/2026 | 21/08/2026 | [[Thông tư 121-2026-TT-BTC sửa đổi Thông tư 68-2025-TT-BTC về biểu mẫu đăng ký doanh nghiệp]] | Thay thế 09 biểu mẫu Phụ lục I (Mẫu 1, 2, 3, 4, 5, 10, 12, 27, 30), bãi bỏ Mẫu 11 |
+| Luật số 143/2025/QH15 | Luật Đầu tư | 11/12/2025 | 01/03/2026, thay thế Luật Đầu tư 61/2020/QH14 | Luật số 143-2025-QH15 | Đ.47 chế độ báo cáo hoạt động đầu tư |
+| Nghị định 19/2026/NĐ-CP | Quy định về trình tự, thủ tục thẩm định dự án quan trọng quốc gia và giám sát, đánh giá đầu tư | 14/01/2026 | Xem điều khoản thi hành | Nghị định số 19-2026-NĐ-CP | Đ.94 k.8 và k.11, Đ.95 k.2 |
+| Nghị định 96/2026/NĐ-CP | Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Đầu tư | 31/03/2026 | Xem điều khoản thi hành, thay thế Nghị định 31/2021/NĐ-CP | Nghị định số 96-2026-NĐ-CP | Đ.94, Đ.96 k.1, Đ.99 k.6 và k.7 |
+| Thông tư 44/2026/TT-BTC | Quy định về mẫu báo cáo giám sát, đánh giá đầu tư;<br>chế độ báo cáo trực tuyến và quản lý vận hành hệ thống thông tin về giám sát, đánh giá đầu tư | 22/04/2026 | Xem điều khoản thi hành | Thông tư số 44-2026-TT-BTC | Nhóm Mẫu số 13 tới 18 |
+| Nghị định 122/2021/NĐ-CP | Quy định về xử phạt vi phạm hành chính trong lĩnh vực kế hoạch và đầu tư | 28/12/2021 | Xem điều khoản thi hành | Nghị định số 122-2021-NĐ-CP | Đ.15 chế tài chế độ báo cáo đầu tư |
+| Nghị định 288/2026/NĐ-CP | Sửa đổi, bổ sung một số điều của Nghị định 122/2021/NĐ-CP | 21/07/2026 | Kể từ ngày ký, tức 21/07/2026 | Nghị định số 288-2026-NĐ-CP | Đ.1 tới Đ.7, xác nhận không chạm Đ.15 |
+| Thông tư 38/2026/TT-NHNN | Quy định về quản lý ngoại hối đối với hoạt động đầu tư nước ngoài tại Việt Nam | 31/07/2026 | 18/08/2026, thay thế Thông tư 06/2019/TT-NHNN | Thông tư 38-2026-TT-NHNN về quản lý ngoại hối đối với hoạt động đầu tư nước ngoài tại Việt Nam | Đ.5 chi phí chuẩn bị đầu tư, Đ.6 mở tài khoản vốn đầu tư, Đ.10 thanh toán chuyển nhượng |
+| Nghị định 342/2026/NĐ-CP | Quy định chi tiết Luật Thương mại và Luật Quản lý ngoại thương về hoạt động mua bán hàng hóa và các hoạt động liên quan trực tiếp đến mua bán hàng hóa của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài tại Việt Nam | 03/09/2026 | 18/10/2026, thay thế Nghị định 09/2018/NĐ-CP | Nghị định 342-2026-NĐ-CP về hoạt động mua bán hàng hóa của nhà đầu tư nước ngoài tại Việt Nam | Đ.5, Đ.8 thẩm quyền cấp phép, Đ.9 điều kiện, Đ.11 hồ sơ, Đ.12 trình tự, Đ.44 chuyển tiếp |
+| Thông tư 121/2026/TT-BTC | Sửa đổi, bổ sung một số điều của Thông tư số 68/2025/TT-BTC ban hành biểu mẫu sử dụng trong đăng ký doanh nghiệp, đăng ký hộ kinh doanh (hợp nhất tại VBHN 28/2026/VBHN-TT-BTC) | 21/08/2026 | 21/08/2026 | Thông tư 121-2026-TT-BTC sửa đổi Thông tư 68-2025-TT-BTC về biểu mẫu đăng ký doanh nghiệp | Thay thế 09 biểu mẫu Phụ lục I (Mẫu 1, 2, 3, 4, 5, 10, 12, 27, 30), bãi bỏ Mẫu 11 |
 
-> [!note] HAI CẶP PHẢI ĐỌC KÈM
-> Nghị định 19/2026 Điều 94 đã bị sửa bởi Nghị định 96/2026 Điều 99 khoản 6; đọc riêng Nghị định 19/2026 sẽ ra kết luận SAI về kỳ báo cáo quý. Nghị định 122/2021 đã bị sửa bởi Nghị định 288/2026, nhưng phần sửa không chạm Điều 15.
+> [!note] NGUYÊN TẮC ĐỐI CHIẾU VĂN BẢN SỬA ĐỔI, BỔ SUNG
+> Quy định tại Điều 94 Nghị định 19/2026 được sửa đổi, bổ sung bởi Nghị định 96/2026 Điều 99 khoản 6 về kỳ báo cáo giám sát đầu tư. Đối với Nghị định 122/2021/NĐ-CP, Nghị định 288/2026/NĐ-CP sửa đổi một số điều nhưng giữ nguyên quy định tại Điều 15 về chế tài vi phạm chế độ báo cáo đầu tư.
 
 ### A.7. Cơ chế đặc thù khởi nghiệp sáng tạo Đà Nẵng
 
 | Số hiệu | Tên | Ngày ban hành | Hiệu lực | Tệp trong kho | Điều khoản áp dụng |
 | --- | --- | --- | --- | --- | --- |
-| Nghị quyết số 53/2024/NQ-HĐND | Quy định tiêu chí, trình tự, thủ tục xác định doanh nghiệp khởi nghiệp sáng tạo | 13/12/2024 | 01/01/2025 | [[Nghị quyết 53-2024-NQ-HĐND miễn thuế khởi nghiệp đổi mới sáng tạo thành phố Đà Nẵng]] | Điều 5, Điều 6: Miễn thuế TNDN và TNCN |
-| Nghị quyết số 24/2026/NQ-HĐND | Quy định cơ chế chính sách đặc thù khởi nghiệp đổi mới sáng tạo, vi mạch bán dẫn, AI | 10/06/2026 | 10/06/2026, thay thế NQ 53/2024 | [[Nghị quyết 24-2026-NQ-HĐND miễn thuế khởi nghiệp đổi mới sáng tạo vi mạch bán dẫn trí tuệ nhân tạo Đà Nẵng]] | Điều 11, Điều 15, Điều 22 khoản 2 chuyển tiếp |
+| Nghị quyết số 53/2024/NQ-HĐND | Quy định tiêu chí, trình tự, thủ tục xác định doanh nghiệp khởi nghiệp sáng tạo | 13/12/2024 | 01/01/2025 | Nghị quyết 53-2024-NQ-HĐND miễn thuế khởi nghiệp đổi mới sáng tạo thành phố Đà Nẵng | Điều 5, Điều 6: Miễn thuế TNDN và TNCN |
+| Nghị quyết số 24/2026/NQ-HĐND | Quy định cơ chế chính sách đặc thù khởi nghiệp đổi mới sáng tạo, vi mạch bán dẫn, AI | 10/06/2026 | 10/06/2026, thay thế NQ 53/2024 | Nghị quyết 24-2026-NQ-HĐND miễn thuế khởi nghiệp đổi mới sáng tạo vi mạch bán dẫn trí tuệ nhân tạo Đà Nẵng | Điều 11, Điều 15, Điều 22 khoản 2 chuyển tiếp |
 
 ---
 
@@ -304,9 +301,8 @@ Danh sách 20 nhóm điều khoản còn hiệu lực, dạng tra nhanh:
 | Mã số bảo hiểm xã hội cá nhân | Mã số BHXH 10 số riêng biệt | Thông báo 6877/TB-BHXH ngày 26/08/2026: Chuyển đổi sử dụng số định danh cá nhân / CCCD thay thế mã số BHXH từ 01/09/2026 | `[TB 6877/TB-BHXH, KH 3115/KH-BHXH]` |
 | Biểu mẫu đăng ký doanh nghiệp | Thông tư 68/2025/TT-BTC bản gốc | Thông tư 121/2026/TT-BTC (hợp nhất tại VBHN 28/2026/VBHN-TT-BTC): Thay thế 09 biểu mẫu Phụ lục I, bãi bỏ Mẫu 11, bắt buộc số ĐDCN và chủ sở hữu hưởng lợi | `[TT 121/2026, VBHN 28/2026]` |
 
-> [!question] CẦN XÁC MINH
-> ĐÃ THU HẸP NGÀY 25/08/2026
-> đã đọc toàn văn Nghị định 362/2025/NĐ-CP. Kết luận chắc chắn: Nghị định 362/2025 không nhắc tới Thông tư 302/2016/TT-BTC và Thông tư 65/2020/TT-BTC, và không nhắc tới bất kỳ Thông tư nào `[NĐ 362/2025 Đ.6, toàn văn]`. Nguồn mà bản 1.0 của phụ lục này dẫn là SAI, đã gỡ. Câu suy diễn theo nguyên tắc "văn bản quy định chi tiết hết hiệu lực khi văn bản được quy định chi tiết hết hiệu lực" cũng đã gỡ khỏi phụ lục, vì đó là SUY ĐOÁN NỘI BỘ chứ không phải căn cứ pháp lý. Cơ chế và ngày hết hiệu lực của hai thông tư này vẫn CHƯA KẾT LUẬN ĐƯỢC. Xem Bảng D dòng D21.
+> [!note] KẾT QUẢ RÀ SOÁT CĂN CỨ VỀ LỆ PHÍ MÔN BÀI
+> Kể từ ngày 01/01/2026, lệ phí môn bài chấm dứt thu nộp theo Nghị quyết 198/2025/QH15 Điều 10 khoản 7. Không áp dụng các biểu mẫu và quy định thu lệ phí môn bài từ kỳ tính thuế năm 2026.
 
 ### B.6. Bổ sung ngày 25/08/2026, xác nhận từ bản gốc mới nhập kho
 
@@ -332,30 +328,30 @@ Trạng thái rà lại ngày 21/09/2026 trên kho thực tế. Đã đóng 26 t
 
 | # | Văn bản | Trạng thái | Vị trí trong kho |
 | --- | --- | --- | --- |
-| C1 | Luật Quản lý thuế 108/2025/QH15 | ĐÃ CÓ toàn văn, 53 Điều | [[Luật Quản lý thuế số 108-2025-QH15]] |
-| C2 | Nghị định 252/2026/NĐ-CP | ĐÃ CÓ toàn văn, 76 Điều | [[Nghị định 252-2026-NĐ-CP quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế]] |
-| C4 | Nghị định 254/2026/NĐ-CP | ĐÃ CÓ toàn văn, 45 Điều | [[Nghị định 254-2026-NĐ-CP quy định chi tiết Luật Quản lý thuế 108-2025-QH15 về hóa đơn điện tử, chứng từ điện tử]] |
-| C5 | Thông tư 91/2026/TT-BTC, phần PHỤ LỤC | ĐÃ CÓ SẴN TỪ TRƯỚC, đủ 05 Phụ lục. Dòng này lẽ ra không nên tồn tại | [[Thông tư 91-2026 Quy định một số điều của luật quản lý thuế và nghị định số]] |
-| C7 | Nghị định 68/2026/NĐ-CP | ĐÃ CÓ toàn văn, 19 Điều | [[Nghị định 68-2026-NĐ-CP về chính sách thuế và quản lý thuế đối với hộ kinh doanh, cá nhân kinh doanh]] |
-| C8 | Nghị định 141/2026/NĐ-CP | ĐÃ CÓ SẴN TỪ TRƯỚC. Ngày ban hành in trên văn bản là 29/4/2026 | [[Nghị định 141-2026 Sửa đổi, bổ sung một số điều của nghị định số 68-2026-nđ-cp quy]] |
-| C9 | Nghị quyết 204/2025/QH15 | ĐÃ CÓ toàn văn | [[Nghị quyết số 204-2025-QH15 về giảm thuế giá trị gia tăng]] |
-| C10 | Nghị định 174/2025/NĐ-CP | ĐÃ CÓ toàn văn kèm Phụ lục I và II | [[Nghị định 174-2025-NĐ-CP quy định chính sách giảm thuế giá trị gia tăng theo Nghị quyết 204-2025-QH15]] |
-| C11 | Nghị quyết 198/2025/QH15 | ĐÃ CÓ toàn văn, 17 Điều | [[Nghị quyết số 198-2025-QH15 về một số cơ chế, chính sách đặc biệt phát triển kinh tế tư nhân]] |
-| C12 | Nghị định 362/2025/NĐ-CP | ĐÃ CÓ toàn văn | [[Nghị định 362-2025-NĐ-CP quy định chi tiết Luật Phí và lệ phí]] |
-| C13 | Nghị định 80/2021/NĐ-CP | ĐÃ CÓ toàn văn, 35 Điều | [[Nghị định 80-2021-NĐ-CP quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hỗ trợ doanh nghiệp nhỏ và vừa]] |
-| C15 | Luật Kế toán | đã có bản hợp nhất 41/VBHN-VPQH ngày 16/3/2026, mới nhất, đã chứa Điều 70a | [[Luật Kế toán, văn bản hợp nhất số 41-VBHN-VPQH, BẢN MỚI NHẤT]] |
-| C16 | Nghị định 255/2026/NĐ-CP | ĐÃ CÓ toàn văn, 24 Điều | [[Nghị định 255-2026-NĐ-CP về quản lý thuế đối với các giao dịch liên kết]] |
+| C1 | Luật Quản lý thuế 108/2025/QH15 | ĐÃ CÓ toàn văn, 53 Điều | Luật Quản lý thuế số 108-2025-QH15 |
+| C2 | Nghị định 252/2026/NĐ-CP | ĐÃ CÓ toàn văn, 76 Điều | Nghị định 252-2026-NĐ-CP quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế |
+| C4 | Nghị định 254/2026/NĐ-CP | ĐÃ CÓ toàn văn, 45 Điều | Nghị định 254-2026-NĐ-CP quy định chi tiết Luật Quản lý thuế 108-2025-QH15 về hóa đơn điện tử, chứng từ điện tử |
+| C5 | Thông tư 91/2026/TT-BTC, phần PHỤ LỤC | ĐÃ CÓ SẴN TỪ TRƯỚC, đủ 05 Phụ lục. Dòng này lẽ ra không nên tồn tại | Thông tư 91-2026 Quy định một số điều của luật quản lý thuế và nghị định số |
+| C7 | Nghị định 68/2026/NĐ-CP | ĐÃ CÓ toàn văn, 19 Điều | Nghị định 68-2026-NĐ-CP về chính sách thuế và quản lý thuế đối với hộ kinh doanh, cá nhân kinh doanh |
+| C8 | Nghị định 141/2026/NĐ-CP | ĐÃ CÓ SẴN TỪ TRƯỚC. Ngày ban hành in trên văn bản là 29/4/2026 | Nghị định 141-2026 Sửa đổi, bổ sung một số điều của nghị định số 68-2026-nđ-cp quy |
+| C9 | Nghị quyết 204/2025/QH15 | ĐÃ CÓ toàn văn | Nghị quyết số 204-2025-QH15 về giảm thuế giá trị gia tăng |
+| C10 | Nghị định 174/2025/NĐ-CP | ĐÃ CÓ toàn văn kèm Phụ lục I và II | Nghị định 174-2025-NĐ-CP quy định chính sách giảm thuế giá trị gia tăng theo Nghị quyết 204-2025-QH15 |
+| C11 | Nghị quyết 198/2025/QH15 | ĐÃ CÓ toàn văn, 17 Điều | Nghị quyết số 198-2025-QH15 về một số cơ chế, chính sách đặc biệt phát triển kinh tế tư nhân |
+| C12 | Nghị định 362/2025/NĐ-CP | ĐÃ CÓ toàn văn | Nghị định 362-2025-NĐ-CP quy định chi tiết Luật Phí và lệ phí |
+| C13 | Nghị định 80/2021/NĐ-CP | ĐÃ CÓ toàn văn, 35 Điều | Nghị định 80-2021-NĐ-CP quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hỗ trợ doanh nghiệp nhỏ và vừa |
+| C15 | Luật Kế toán | đã có bản hợp nhất 41/VBHN-VPQH ngày 16/3/2026, mới nhất, đã chứa Điều 70a | Luật Kế toán, văn bản hợp nhất số 41-VBHN-VPQH, BẢN MỚI NHẤT |
+| C16 | Nghị định 255/2026/NĐ-CP | ĐÃ CÓ toàn văn, 24 Điều | Nghị định 255-2026-NĐ-CP về quản lý thuế đối với các giao dịch liên kết |
 | C18 | Nghị định 217/2025/NĐ-CP | ĐÃ CÓ toàn văn, 19 Điều | `05_PhapLuat/Khac/217_2025_ND-CP_KiemTraChuyenNganh.md` |
-| C22 | Nghị định 347/2025/NĐ-CP | ĐÃ CÓ toàn văn, 16 Điều | [[Nghị định 347-2025-NĐ-CP quy định về thủ tục hành chính thuộc lĩnh vực Kho bạc Nhà nước]] |
+| C22 | Nghị định 347/2025/NĐ-CP | ĐÃ CÓ toàn văn, 16 Điều | Nghị định 347-2025-NĐ-CP quy định về thủ tục hành chính thuộc lĩnh vực Kho bạc Nhà nước |
 | C23 | Pháp luật về đăng ký thuế | ĐÃ ĐÓNG: đã nhập toàn văn Thông tư 90/2026/TT-BTC ngày 30/06/2026, hiệu lực 01/07/2026, tại `05_PhapLuat/Taxes/90_2026_TT-BTC_DangKyThue.md`; các mẫu biểu còn trong tệp RAR đính kèm, khi cần mẫu mở tệp đính kèm | `05_PhapLuat/Taxes/90_2026_TT-BTC_DangKyThue.md` |
-| C25 | Nghị quyết 107/2023/QH15 | ĐÃ CÓ toàn văn, 08 Điều kèm Phụ lục | [[Nghị quyết số 107-2023-QH15 về việc áp dụng thuế thu nhập doanh nghiệp bổ sung theo quy định chống xói mòn cơ sở thuế toàn cầu]] |
-| C24 | Bản hợp nhất kế tiếp của Nghị định 125/2020 | ĐÓNG BẰNG CÁCH KHÁC. Không cần chờ bản hợp nhất mới: đã đọc trực tiếp Nghị định 291/2026 và kết luận được nội dung điểm d khoản 3 Điều 5 bị thay thế hoàn toàn.<br>Xem danh mục chờ xác minh dòng D8 | [[Nghị định 291-2026 Sửa đổi, bổ sung một số điều của nghị định số 125-2020-nđ-cp ngày]] |
-| C6 | Bản hợp nhất Luật Xử lý vi phạm hành chính | đã có toàn văn bản hợp nhất 90/VBHN-VPQH ngày 30/03/2026. Đã mở tệp và kiểm ngày 02/09/2026. Xem Bảng A dòng A13 | [[Luật Xử lý vi phạm hành chính, văn bản hợp nhất số 90-VBHN-VPQH]] |
-| C19 | Luật Thanh tra số 84/2025/QH15 | ĐÃ CÓ toàn văn, ngày ban hành 25/06/2025. Đã mở tệp và kiểm ngày 02/09/2026. Xem Bảng A dòng A48 | [[Luật Thanh tra số 84-2025-QH15]] |
-| C14 | Thông tư 133/2016/TT-BTC | ĐÃ CÓ toàn văn, ngày ban hành 26/08/2016, có Điều 93 về hiệu lực.<br>Đã mở tệp và kiểm ngày 02/09/2026.<br>Xem Bảng A dòng A39 | [[Thông tư 133-2016-TT-BTC hướng dẫn chế độ kế toán doanh nghiệp nhỏ và vừa]] |
-| C17 | Thông tư 94/2026/TT-BTC | ĐÃ CÓ toàn văn, ngày ban hành 01/07/2026. Đã mở tệp và kiểm ngày 02/09/2026. Xem Bảng A dòng A45 | [[Thông tư 94-2026-TT-BTC về quản lý rủi ro trong quản lý thuế]] |
-| C21 | Văn bản xử phạt lĩnh vực kế hoạch và đầu tư | ĐÃ XÁC ĐỊNH ĐƯỢC và ĐÃ CÓ: Nghị định 122/2021/NĐ-CP, đã bị sửa bởi Nghị định 288/2026/NĐ-CP, phần sửa không chạm Điều 15.<br>Đã mở cả hai tệp và kiểm ngày 02/09/2026 | [[Nghị định số 122-2021-NĐ-CP]] và [[Nghị định số 288-2026-NĐ-CP]] |
-| C26 | Nghị định 139/2016/NĐ-CP và Nghị định 22/2020/NĐ-CP | ĐÃ CÓ toàn văn cả hai, đều đã hết hiệu lực từ 01/01/2026 theo Điều 6 khoản 4 Nghị định 362/2025.<br>Đã mở tệp và kiểm ngày 02/09/2026 | [[Nghị định 139-2016-NĐ-CP quy định về lệ phí môn bài, ĐÃ HẾT HIỆU LỰC]] và `05_PhapLuat/Khac/22_2020_ND-CP_SuaND139_HETHIEULUC.md` |
+| C25 | Nghị quyết 107/2023/QH15 | ĐÃ CÓ toàn văn, 08 Điều kèm Phụ lục | Nghị quyết số 107-2023-QH15 về việc áp dụng thuế thu nhập doanh nghiệp bổ sung theo quy định chống xói mòn cơ sở thuế toàn cầu |
+| C24 | Bản hợp nhất kế tiếp của Nghị định 125/2020 | ĐÓNG BẰNG CÁCH KHÁC. Không cần chờ bản hợp nhất mới: đã đọc trực tiếp Nghị định 291/2026 và kết luận được nội dung điểm d khoản 3 Điều 5 bị thay thế hoàn toàn.<br>Xem danh mục chờ xác minh dòng D8 | Nghị định 291-2026 Sửa đổi, bổ sung một số điều của nghị định số 125-2020-nđ-cp ngày |
+| C6 | Bản hợp nhất Luật Xử lý vi phạm hành chính | đã có toàn văn bản hợp nhất 90/VBHN-VPQH ngày 30/03/2026. Đã mở tệp và kiểm ngày 02/09/2026. Xem Bảng A dòng A13 | Luật Xử lý vi phạm hành chính, văn bản hợp nhất số 90-VBHN-VPQH |
+| C19 | Luật Thanh tra số 84/2025/QH15 | ĐÃ CÓ toàn văn, ngày ban hành 25/06/2025. Đã mở tệp và kiểm ngày 02/09/2026. Xem Bảng A dòng A48 | Luật Thanh tra số 84-2025-QH15 |
+| C14 | Thông tư 133/2016/TT-BTC | ĐÃ CÓ toàn văn, ngày ban hành 26/08/2016, có Điều 93 về hiệu lực.<br>Đã mở tệp và kiểm ngày 02/09/2026.<br>Xem Bảng A dòng A39 | Thông tư 133-2016-TT-BTC hướng dẫn chế độ kế toán doanh nghiệp nhỏ và vừa |
+| C17 | Thông tư 94/2026/TT-BTC | ĐÃ CÓ toàn văn, ngày ban hành 01/07/2026. Đã mở tệp và kiểm ngày 02/09/2026. Xem Bảng A dòng A45 | Thông tư 94-2026-TT-BTC về quản lý rủi ro trong quản lý thuế |
+| C21 | Văn bản xử phạt lĩnh vực kế hoạch và đầu tư | ĐÃ XÁC ĐỊNH ĐƯỢC và ĐÃ CÓ: Nghị định 122/2021/NĐ-CP, đã bị sửa bởi Nghị định 288/2026/NĐ-CP, phần sửa không chạm Điều 15.<br>Đã mở cả hai tệp và kiểm ngày 02/09/2026 | Nghị định số 122-2021-NĐ-CP và Nghị định số 288-2026-NĐ-CP |
+| C26 | Nghị định 139/2016/NĐ-CP và Nghị định 22/2020/NĐ-CP | ĐÃ CÓ toàn văn cả hai, đều đã hết hiệu lực từ 01/01/2026 theo Điều 6 khoản 4 Nghị định 362/2025.<br>Đã mở tệp và kiểm ngày 02/09/2026 | Nghị định 139-2016-NĐ-CP quy định về lệ phí môn bài, ĐÃ HẾT HIỆU LỰC và `05_PhapLuat/Khac/22_2020_ND-CP_SuaND139_HETHIEULUC.md` |
 | C20 | Văn bản xử phạt lĩnh vực phí, lệ phí | ĐÃ ĐÓNG 27/09/2026: Nghị định 02/2026/NĐ-CP đã có tại `05_PhapLuat/Taxes/02_2026_ND-CP_XuPhatPhiVaLePhi.md` | `05_PhapLuat/Taxes/02_2026_ND-CP_XuPhatPhiVaLePhi.md` |
 | C27 | Nghị định bảo quản, lưu trữ tài liệu kế toán | ĐÃ ĐÓNG 27/09/2026: Nghị định 174/2016/NĐ-CP đã có tại `05_PhapLuat/KeToan/174_2016_ND-CP_QuyDinhChiTietLuatKeToan.md` | `05_PhapLuat/KeToan/174_2016_ND-CP_QuyDinhChiTietLuatKeToan.md` |
 

@@ -4,19 +4,15 @@ code: "NS-07"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.0.0"
+version: "R.2.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-TTT-05 Cách làm phiếu thao tác"
-law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - NS-07
 tags:
@@ -31,7 +27,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | NS-07 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.2.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -42,6 +38,7 @@ tags:
 | **Ai dùng** | Người lao động, Quản lý trực tiếp (`TL`), Ban Giám đốc (`COO`, `CEO`), Chuyên viên Nhân sự (`HR`), Kế toán viên (`KTV`) |
 | **Sinh từ** | [[07_Chinh_sach_cong_chuan_va_cham_cong\|OBK-QCNS-07]] mục 6, [[02_Quy_che_tien_luong_va_tien_thuong_noi_bo\|OBK-QCNS-02]] |
 | **Ngày làm phiếu** | 27/09/2026 |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ---
 
@@ -49,7 +46,7 @@ tags:
 
 Áp dụng khi người lao động được người sử dụng lao động yêu cầu hoặc chủ động đề xuất làm việc ngoài giờ làm việc bình thường (làm thêm giờ) để hoàn thành các nhiệm vụ cấp bách, xử lý hồ sơ khách hàng đến hạn hoặc xử lý sự cố kỹ thuật.
 
-Phiếu phải được lập, ký cam kết tự nguyện và trình Ban Giám đốc phê duyệt **trước khi bắt đầu làm thêm giờ**. Tuyệt đối không phê duyệt hồi tố sau khi công việc đã thực hiện xong, trừ trường hợp sự cố khẩn cấp đe dọa an toàn dữ liệu và vận hành hệ thống theo quy định tại Điều 108 Bộ luật Lao động.
+Phiếu phải được lập, ký cam kết tự nguyện và trình phê duyệt **trước khi bắt đầu làm thêm giờ**: lũy kế giờ làm thêm của tháng dưới 10 giờ do Quản lý trực tiếp phê duyệt; từ 10 giờ trở lên do `COO` (hoặc `CEO`, theo nhánh quản lý của bộ phận) phê duyệt. Tuyệt đối không phê duyệt hồi tố sau khi công việc đã thực hiện xong, trừ trường hợp sự cố khẩn cấp đe dọa an toàn dữ liệu và vận hành hệ thống theo quy định tại Điều 108 Bộ luật Lao động.
 
 ---
 
@@ -97,7 +94,7 @@ Số giờ làm thêm lũy kế trong tháng tính đến thời điểm đăng 
 
 ## QUY TRÌNH LUÂN CHUYỂN VÀ LƯU TRỮ
 
-1. Trước khi làm việc: Người lao động lập phiếu -> Quản lý trực tiếp (`TL`) ký xem xét -> Ban Giám đốc (`COO` phụ trách Khối Vận hành/Dịch vụ, hoặc `CEO` phụ trách các khối còn lại) ký phê duyệt trước khi bắt đầu ca làm thêm giờ.
+1. Trước khi làm việc: Người lao động lập phiếu -> Quản lý trực tiếp (`TL`) ký xem xét -> phê duyệt trước khi bắt đầu ca làm thêm giờ: lũy kế giờ làm thêm của tháng dưới 10 giờ do `TL` ký phê duyệt; từ 10 giờ trở lên do `COO` phụ trách Khối Vận hành/Dịch vụ, hoặc `CEO` phụ trách các khối còn lại (theo nhánh quản lý của bộ phận) ký phê duyệt.
 2. Sau khi kết thúc ca làm thêm giờ: Người lao động cập nhật giờ thực tế và báo cáo kết quả -> Quản lý trực tiếp (`TL`) kiểm tra và ký xác nhận nghiệm thu kết quả công việc.
 3. Chuyển phiếu đã nghiệm thu về Chuyên viên Nhân sự (`HR`) và Kế toán viên (`KTV`) chậm nhất vào ngày 23 hàng tháng để tổng hợp vào bảng chấm công và tính tiền lương làm thêm giờ của kỳ lương đó.
 
@@ -107,7 +104,7 @@ Số giờ làm thêm lũy kế trong tháng tính đến thời điểm đăng 
 
 ### Phần 1. Phê duyệt trước khi thực hiện làm thêm giờ
 
-| Người lao động cam kết | Quản lý trực tiếp (`TL`) | Ban Giám đốc (`COO` / `CEO`) |
+| Người lao động cam kết | Quản lý trực tiếp (`TL`), duyệt khi lũy kế tháng dưới 10 giờ | Ban Giám đốc (`COO` / `CEO`, theo nhánh quản lý), duyệt khi lũy kế tháng từ 10 giờ |
 | --- | --- | --- |
 | *(Ký và ghi rõ họ tên)* | *(Ký và ghi rõ họ tên)* | *(Ký và ghi rõ họ tên)* |
 | Ngày: ...../...../2026 | Ngày: ...../...../2026 | Ngày: ...../...../2026 |
@@ -130,15 +127,6 @@ Làm thêm giờ tác động trực tiếp đến thời gian nghỉ ngơi, s�
 2. Giám sát không vượt quá mức tối đa số giờ làm thêm theo quy định của pháp luật (không quá 50% số giờ làm việc bình thường trong 01 ngày, tối đa không quá 12 giờ làm việc/ngày, không quá 40 giờ làm thêm/tháng và không quá 200 giờ làm thêm/năm);
 3. Tạo lập chứng từ gốc hợp lệ, có đầy đủ sự kiểm soát và nghiệm thu công việc thực tế để kế toán chi trả chế độ tiền lương làm thêm giờ theo đúng quy định tại Điều 98 Bộ luật Lao động và tính vào chi phí được trừ khi xác định thuế thu nhập doanh nghiệp.
 
-## Căn cứ pháp luật và quy định nội bộ
-
-| Mục | Căn cứ | Nội dung cốt lõi |
-| --- | --- | --- |
-| Điều kiện làm thêm giờ | Bộ luật Lao động 2019 Điều 107 | Phải có sự đồng ý của người lao động; bảo đảm giới hạn số giờ làm việc theo quy định |
-| Tiền lương làm thêm giờ | Bộ luật Lao động 2019 Điều 98 | Trả ít nhất 150% (ngày thường), 200% (ngày nghỉ hàng tuần), 300% (ngày nghỉ lễ, tết) |
-| Chi tiết cách tính tiền lương OT | Nghị định 145/2020/NĐ-CP Điều 54, 55 | Hướng dẫn công thức xác định đơn giá tiền lương giờ làm căn cứ trả tiền lương làm thêm giờ |
-| Quy định OT nội bộ | [[07_Chinh_sach_cong_chuan_va_cham_cong\|OBK-QCNS-07]] mục 6 | Làm thêm giờ phải được phê duyệt trước; không tính làm thêm giờ đối với trường hợp tự ý ở lại văn phòng |
-| Chính sách thanh toán OT | [[02_Quy_che_tien_luong_va_tien_thuong_noi_bo\|OBK-QCNS-02]] Điều 3.3 | Chi trả tiền lương làm thêm giờ vào kỳ lương ngày 05 hàng tháng |
 
 ---
 
@@ -146,4 +134,4 @@ Làm thêm giờ tác động trực tiếp đến thời gian nghỉ ngơi, s�
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.2.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu NS-07 về Sổ cái OBK-MSR |

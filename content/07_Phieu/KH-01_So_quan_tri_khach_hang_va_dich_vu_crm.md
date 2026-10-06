@@ -4,19 +4,15 @@ code: "KH-01"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-TTT-05 Cách làm phiếu thao tác"
-law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - KH-01
 tags:
@@ -29,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | KH-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -40,6 +36,7 @@ tags:
 | **Ai dùng** | Chuyên viên Quản lý khách hàng (`AM`), Chuyên viên Kế toán (`KTV`), Chuyên viên Cấp phép (`CV-LIC`), Chuyên viên Lao động (`CV-LD`), Chuyên viên Dịch vụ pháp lý (`CV-LS`), Kế toán trưởng nội bộ (`KTT`), Trưởng phòng Thương mại, Giám đốc điều hành (`COO`) và Giám đốc điều hành cấp cao (`CEO`) |
 | **Sinh từ** | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] (Job AM-01 tới AM-30);<br>[[00_Danh_muc_dich_vu_va_bang_gia\|OBK-DM-00]] tới [[07_Bang_gia_Dich_vu_o_nuoc_ngoai\|OBK-DM-07]];<br>[[00_TnC_Master_VI\|OBK-TnC-00]] Điều khoản dịch vụ chung |
 | **Ngày làm phiếu** | 27/09/2026 |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
@@ -100,7 +97,7 @@ Toàn bộ khách hàng được quản trị theo 07 trạng thái thống nh�
 
 ### 2. Thang đo 100 điểm sức khỏe tài khoản khách hàng
 
-Điểm sức khỏe tài khoản khách hàng được tính toán định kỳ hằng tháng dựa trên 05 nhóm chỉ số, mỗi nhóm tối đa 20 điểm theo [[02_OBK-SOP-AM_Quan_ly_khach_hang|OBK-SOP-AM]] mục 9.3:
+Điểm sức khỏe tài khoản khách hàng được tính toán định kỳ hằng tháng dựa trên 05 nhóm chỉ số, mỗi nhóm tối đa 20 điểm theo OBK-SOP-AM mục 9.3:
 
 | Nhóm chỉ số | Trọng số | Tiêu chí đánh giá | Quy tắc trừ điểm |
 | --- | --- | --- | --- |
@@ -115,7 +112,7 @@ Quy tắc phân loại hành động theo tổng điểm:
 - **Từ 60 điểm đến 79 điểm (Tài khoản Cần theo dõi):** `AM` rà soát nguyên nhân giảm điểm, làm việc với Trưởng bộ phận nghiệp vụ để chấn chỉnh chất lượng, tăng cường trao đổi với khách hàng.
 - **Dưới 60 điểm hoặc nhóm Tuân thủ bằng 0 điểm (Tài khoản Nguy cơ rời bỏ - Churn Risk):** `AM` kích hoạt quy trình cứu vãn tài khoản, lập báo cáo giải trình gửi Trưởng phòng Thương mại và `COO` trong thời hạn 24 giờ, tổ chức buổi làm việc trực tiếp với Người đại diện theo pháp luật của khách hàng để xử lý triệt để nguyên nhân.
 
-## QUY TRÌNH 6 BƯỚC QUẢN TRỊ DỮ LIỆU CRM VÀ TÀI KHOẢN KHÁCH HÀNG
+## QUY TRÌNH QUẢN TRỊ DỮ LIỆU CRM VÀ TÀI KHOẢN KHÁCH HÀNG
 
 ```
 [ ]  1. TIẾP NHẬN YÊU CẦU VÀ KHỞI TẠO MÃ KHÁCH HÀNG (D0 - D1)
@@ -178,15 +175,6 @@ Dữ liệu sổ được `AM` và `KTT` nội bộ kết xuất để phục v�
 
 Bảo đảm oBacker nắm giữ đầy đủ, tập trung và thống nhất thông tin của toàn bộ khách hàng; ngăn ngừa tình trạng phân tán dữ liệu hoặc đứt gãy thông tin giữa khâu bán hàng và khâu vận hành nghiệp vụ; kiểm soát chặt chẽ doanh thu định kỳ hằng tháng (MRR) và công nợ dịch vụ; đồng thời chủ động phát hiện sớm nguy cơ rời bỏ của khách hàng để có biện pháp can thiệp, bảo đảm mục tiêu tỷ lệ giữ chân khách hàng đạt từ 90% trở lên hằng năm.
 
-### 2. Căn cứ quy định và pháp luật liên quan
-
-| Mục | Nguồn | Nội dung |
-| --- | --- | --- |
-| Quy trình quản lý khách hàng | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] | Quy định toàn trình 08 giai đoạn quản lý khách hàng từ Lead đến Thanh lý |
-| Bảng giá và gói dịch vụ | [[00_Danh_muc_dich_vu_va_bang_gia\|OBK-DM-00]] đến [[07_Bang_gia_Dich_vu_o_nuoc_ngoai\|OBK-DM-07]] | Danh mục sản phẩm, gói dịch vụ và đơn giá chuẩn của oBacker |
-| Điều khoản dịch vụ chung | [[00_TnC_Master_VI\|OBK-TnC-00]] | Điều kiện cung cấp dịch vụ, chu kỳ thanh toán và quy định tạm dừng dịch vụ |
-| Chuẩn vận hành dịch vụ | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] | Tiêu chuẩn chất lượng hai lớp kiểm soát, mốc làm trước và quản lý sai sót |
-| Theo dõi gia hạn dịch vụ | [[DV-02_Bang_theo_doi_chu_ky_so_va_dich_vu_khach_hang\|DV-02]] | Quy trình 05 mốc nhắc gia hạn và xử lý dịch vụ có thời hạn |
 
 ---
 
@@ -194,4 +182,4 @@ Bảo đảm oBacker nắm giữ đầy đủ, tập trung và thống nhất th
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu KH-01 về Sổ cái OBK-MSR |

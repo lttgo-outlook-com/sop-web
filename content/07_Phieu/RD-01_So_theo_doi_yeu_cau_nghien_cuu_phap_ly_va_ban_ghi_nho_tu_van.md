@@ -4,19 +4,15 @@ code: "RD-01"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-TTT-05 Cách làm phiếu thao tác"
-law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - RD-01
 tags:
@@ -29,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | RD-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -40,6 +36,7 @@ tags:
 | **Ai dùng** | Chuyên viên nghiên cứu pháp lý (`CV-RD`), Trưởng bộ phận Legal R&D (`TL-RD`), Chuyên viên pháp lý (`CV-LS`), Chuyên viên Quản lý khách hàng (`AM`), Giám đốc điều hành (`COO`), Giám đốc điều hành cấp cao (`CEO`) |
 | **Sinh từ** | [[07_OBK-SOP-RD_Nghien_cuu_phap_ly\|OBK-SOP-RD]] mục 2 nhóm B, nhóm C;<br>[[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 12.3;<br>[[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]];<br>[[VB-01_So_theo_doi_vu_viec_tu_van_va_hop_dong\|VB-01]] |
 | **Ngày làm phiếu** | 27/09/2026 |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
@@ -103,11 +100,11 @@ oBacker là công ty tư vấn quản lý doanh nghiệp và cung ứng dịch v
 
 Khi khách hàng yêu cầu sửa đổi các điều khoản pháp lý cốt lõi trong Hợp đồng dịch vụ mẫu (giới hạn trách nhiệm bồi thường, điều khoản phạt vi phạm, cơ quan giải quyết tranh chấp, luật áp dụng, thỏa thuận bảo mật):
 1. `AM` lập Phiếu đề nghị điều chỉnh điều khoản hợp đồng gửi Legal R&D trên hệ thống.
-2. `CV-RD` thẩm tra mức độ rủi ro, đối chiếu với các quy chế nội bộ ([[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]], [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]]) và soạn thảo Phiếu thẩm tra rủi ro trong thời hạn 01 ngày làm việc.
+2. `CV-RD` thẩm tra mức độ rủi ro, đối chiếu với các quy chế nội bộ (OBK-QCTC-01, OBK-SOP-00) và soạn thảo Phiếu thẩm tra rủi ro trong thời hạn 01 ngày làm việc.
 3. `TL-RD` kiểm soát lớp hai và chuyển trình `CEO`.
 4. `CEO` phê duyệt chấp thuận, chấp thuận có điều kiện hoặc từ chối sửa đổi trong thời hạn tối đa 02 ngày làm việc kể từ thời điểm tiếp nhận.
 
-## QUY TRÌNH 5 BƯỚC XỬ LÝ YÊU CẦU NGHIÊN CỨU VÀ TƯ VẤN
+## QUY TRÌNH XỬ LÝ YÊU CẦU NGHIÊN CỨU VÀ TƯ VẤN
 
 ```
 [1. Tiếp nhận Ticket] -> [2. Tra cứu kho 05_PhapLuat] -> [3. Lập dự thảo báo cáo] -> [4. Kiểm soát lớp hai] -> [5. Phê duyệt & Bàn giao]
@@ -133,22 +130,7 @@ Khi khách hàng yêu cầu sửa đổi các điều khoản pháp lý cốt l�
 
 Bảo đảm mọi tư vấn pháp lý và quản trị của oBacker được thực hiện trên cơ sở các văn bản quy phạm pháp luật chính thức có hiệu lực; duy trì nghiêm ngặt ranh giới hành nghề tư vấn doanh nghiệp, không xâm phạm phạm vi hành nghề luật sư; kiểm soát tiến độ cam kết dịch vụ (SLA) đối với các yêu cầu nghiên cứu phức tạp; tạo kho tri thức và cơ sở dữ liệu giải pháp tình huống thực tế để phục vụ công tác đào tạo và nâng cao năng lực chuyên môn của toàn công ty.
 
-### 2. Căn cứ quy định và pháp luật liên quan
 
-| Mục | Nguồn | Nội dung |
-| --- | --- | --- |
-| Quy trình nghiên cứu pháp lý | [[07_OBK-SOP-RD_Nghien_cuu_phap_ly\|OBK-SOP-RD]] | Các nhóm Job nghiên cứu, đánh giá tác động và thẩm định điều khoản lệch |
-| Cập nhật văn bản pháp luật | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 12.3 | Quy trình 11 bước cập nhật và đánh giá tác động của văn bản mới |
-| Dịch vụ pháp lý doanh nghiệp | [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] | Tiêu chuẩn chất lượng rà soát và soạn thảo hợp đồng kinh tế |
-| Quản lý vụ việc tư vấn | [[VB-01_So_theo_doi_vu_viec_tu_van_va_hop_dong\|VB-01]] | Theo dõi tiến độ các vụ việc soạn thảo và rà soát văn bản |
-
-### 3. Căn cứ pháp lý
-
-| Văn bản | Điều khoản | Nội dung áp dụng |
-| --- | --- | --- |
-| Luật Doanh nghiệp số 59/2020/QH14 (sửa đổi bởi Luật số 76/2025/QH15) | Điều 7, Điều 16 | Quyền tự do kinh doanh dịch vụ tư vấn quản trị và các hành vi bị nghiêm cấm |
-| Luật Luật sư số 65/2006/QH11 (sửa đổi, bổ sung bởi Luật số 20/2012/QH13) | Điều 4, Điều 9 | Phạm vi hành nghề luật sư và các hành vi cấm đối với tổ chức không phải tổ chức hành nghề luật sư |
-| Luật Ban hành văn bản quy phạm pháp luật số 80/2015/QH13 (sửa đổi bởi Luật số 63/2020/QH14) | Điều 156 | Nguyên tắc áp dụng văn bản quy phạm pháp luật và thứ bậc hiệu lực pháp lý |
 
 ---
 
@@ -156,4 +138,4 @@ Bảo đảm mọi tư vấn pháp lý và quản trị của oBacker được t
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu RD-01 về Sổ cái OBK-MSR |

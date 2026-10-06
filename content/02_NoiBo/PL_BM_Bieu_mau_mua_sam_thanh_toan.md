@@ -4,20 +4,16 @@ code: "OBK-SOP-NB-PL-BM"
 type: "sop"
 folder: "02_NoiBo"
 level: "Phụ lục"
-version: "R.1.0.0"
+version: "R.1.1.1"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-SOP-NB-00 Chuẩn vận hành nội bộ"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 appendix: "Biểu mẫu mua sắm nội bộ và thanh toán"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-SOP-NB-PL-BM
 tags:
@@ -33,7 +29,7 @@ tags:
 | Mã tài liệu | OBK-SOP-NB-PL-BM |
 | Tên phụ lục | Biểu mẫu mua sắm nội bộ và thanh toán |
 | Cấp tài liệu | Cấp 3, biểu mẫu của [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]], nằm dưới [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.1.1, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -76,8 +72,9 @@ tags:
 | BM-05 | Phiếu xác minh nhà cung cấp | Trước lần thanh toán đầu tiên, và mỗi lần đổi số tài khoản |
 | BM-06 | Biên bản nghiệm thu hàng hóa, dịch vụ | Khi nhận hàng hoặc khi dịch vụ hoàn thành |
 | BM-07 | Bảng kiểm chứng từ trước khi chi | Mỗi BM-02, do kế toán viên nội bộ kiểm |
-| **BM-08** | **Đề nghị tạm ứng tiền lương** | Khi người lao động đề nghị được trả trước một phần tiền lương của kỳ, theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 26a.<br>**không dùng BM-03 cho đề nghị tạm ứng tiền lương** |
-| **BM-G** | **Phiếu chi gọn**, gộp BM-01, BM-02, BM-06 và BM-07 | Chỉ dùng cho khoản đi **Luồng G nhánh G-2** theo [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] mục 6.5a, tức bậc B2 và không thuộc bảy trường hợp loại trừ.<br>**Có căn cứ từ ngày [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-QCTC-03]] được ký ban hành**, xem ghi chú dưới đây |
+| BM-08 | Đề nghị tạm ứng tiền lương | Khi người lao động đề nghị được trả trước một phần tiền lương của kỳ, theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 26a.<br>Không dùng BM-03 cho đề nghị tạm ứng tiền lương |
+| BM-09 | Bảng chấm công | Mỗi kỳ tính công, trước khi lập Bảng thanh toán tiền lương mẫu số 01-LĐTL |
+| **BM-G** | **Phiếu chi gọn**, gộp BM-01, BM-02, BM-06 và BM-07 | Chỉ dùng cho khoản đi **Luồng G nhánh G-2** theo [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] mục 5.5a, tức bậc B2 và không thuộc bảy trường hợp loại trừ.<br>**Có căn cứ từ ngày [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-QCTC-03]] được ký ban hành**, xem ghi chú dưới đây |
 | **BM-PT** | **Phiếu thu**, mẫu số 01-TT chép nguyên văn | Mỗi lần nhập quỹ tiền mặt. Dùng được ngay vì là mẫu của chế độ kế toán |
 | **BM-PC** | **Phiếu chi**, mẫu số 02-TT chép nguyên văn | Mỗi lần xuất quỹ tiền mặt. Dùng được ngay. **Không thay BM-02 và BM-02 không thay BM-PC**, xem ghi chú tại mục BM-PC |
 | **BM-K** | **Bảng kê chi tiền theo kỳ** | Dùng cho **Luồng G nhánh G-1**, tức bậc B1 gộp theo kỳ; và cho nhóm khoản bị trừ tự động theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 40.1a lớp 2.<br>Theo cấu trúc mẫu số 09-TT của chế độ kế toán |
@@ -90,7 +87,7 @@ tags:
 | 02-TT | Phiếu chi | Mục `BM-PC`, chép nguyên văn kèm dòng ghi nguồn | Dùng được ngay |
 | 09-TT | Bảng kê chi tiền | Mục `BM-K`, đúng cấu trúc và đúng ba chữ ký theo chức danh của mẫu | Dùng được ngay |
 
-**Quy định áp dụng mẫu 01-TT và 02-TT.** `[Thông tư 99/2025/TT-BTC, Tài khoản 111]` mục 1 điểm b quy định mọi khoản tiền mặt nhập quỹ và xuất quỹ đều phải có phiếu thu, phiếu chi đầy đủ chữ ký theo quy định. Phiếu thu và phiếu chi áp dụng nguyên bản theo mẫu của chế độ kế toán; trường hợp sửa đổi, bổ sung chỉ tiêu thực hiện theo Quy chế hạch toán kế toán [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]].
+**Quy định áp dụng mẫu 01-TT và 02-TT.** Mọi khoản tiền mặt nhập quỹ và xuất quỹ đều phải có phiếu thu, phiếu chi đầy đủ chữ ký theo quy định. Phiếu thu và phiếu chi áp dụng nguyên bản theo mẫu của chế độ kế toán; trường hợp sửa đổi, bổ sung chỉ tiêu thực hiện theo Quy chế hạch toán kế toán OBK-QCTC-03.
 
 ---
 
@@ -106,9 +103,9 @@ tags:
 | Bộ phận | |
 | Văn phòng | Đà Nẵng / Thành phố Hồ Chí Minh |
 | Dòng ngân sách | |
-| Khoản chi này nằm trong ngân sách đã duyệt | Có / Không. Nếu Không thì nâng một bậc duyệt theo mục 6.2.2 |
-| Nhóm khoản chi theo mục 6.1 | N1 / N2 / N3 / N4 / N5 / N6 |
-| Bậc hạn mức theo mục 6.2.1 | B1 / B2 / B3 / B4 / B5. Ngưỡng giá trị từng bậc xem [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 12.3 |
+| Khoản chi này nằm trong ngân sách đã duyệt | Có / Không. Nếu Không thì nâng một bậc duyệt theo mục 5.2.2 |
+| Nhóm khoản chi theo mục 5.1 | N1 / N2 / N3 / N4 / N5 / N6 |
+| Bậc hạn mức theo mục 5.2.1 | B1 / B2 / B3 / B4 / B5. Ngưỡng giá trị từng bậc xem [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 12.3 |
 
 ### Phần thân. Nội dung nhu cầu
 
@@ -123,7 +120,7 @@ tags:
 | Giá trị này có vượt mức chi tiền mặt tối đa nội bộ tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 32.2 không | Có / Không. Nếu Có thì không được chi tiền mặt, dù chưa tới 05 triệu đồng |
 | Đối tác có thuộc nhóm NGƯỜI CÓ LIÊN QUAN theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 12a không | Có / Không / Chưa xác định được. Nếu Có hoặc Chưa xác định được thì chuyển sang Điều 12a, không đi tiếp ma trận hạn mức |
 | Thời hạn cần có | ___/___/______ |
-| Đây là mua một lần hay phát sinh định kỳ | Một lần / Định kỳ. Nếu Định kỳ thì phải đăng ký vào sổ theo dõi mục 6.11.2 |
+| Đây là mua một lần hay phát sinh định kỳ | Một lần / Định kỳ. Nếu Định kỳ thì phải đăng ký vào sổ theo dõi mục 5.11.2 |
 
 ### Bảng so sánh báo giá
 
@@ -165,9 +162,9 @@ Số báo giá tối thiểu theo bậc: B1 và B2 không yêu cầu, B3 tối t
 | Mã đề nghị mua sắm liên quan | MS-______-______ hoặc KAD kèm lý do |
 | Người đề nghị | |
 | Bộ phận | |
-| Nhóm khoản chi theo mục 6.1 | N1 / N2 / N3 / N4 / N5 / N6 |
-| Bậc hạn mức theo mục 6.2.1 | B1 / B2 / B3 / B4 / B5. Ngưỡng giá trị từng bậc xem [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 12.3 |
-| Có thuộc trường hợp nâng bậc theo mục 6.2.2 không | Không / Có, lý do: ______________ |
+| Nhóm khoản chi theo mục 5.1 | N1 / N2 / N3 / N4 / N5 / N6 |
+| Bậc hạn mức theo mục 5.2.1 | B1 / B2 / B3 / B4 / B5. Ngưỡng giá trị từng bậc xem [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 12.3 |
+| Có thuộc trường hợp nâng bậc theo mục 5.2.2 không | Không / Có, lý do: ______________ |
 | Có phải chi khẩn ngoài chu kỳ không | Không / Có, lý do và thiệt hại nếu chậm: ______________ |
 
 ### Phần thân. Thông tin thanh toán
@@ -177,7 +174,7 @@ Số báo giá tối thiểu theo bậc: B1 và B2 không yêu cầu, B3 tối t
 | Người thụ hưởng | |
 | Mã số thuế hoặc số định danh cá nhân | |
 | Ngân hàng và số tài khoản | |
-| Số tài khoản này đã được xác minh theo [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] mục 6.4.2 chưa | Có, kèm BM-05 ngày ___/___/______ / Chưa.<br>Nếu Chưa thì dừng, làm BM-05 trước.<br>Danh mục nhà cung cấp hiện chưa tồn tại, nên BM-05 là bằng chứng duy nhất thay cho việc tra danh mục; xem [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 35.3a |
+| Số tài khoản này đã được xác minh theo OBK-SOP-NB-01 mục 5.4.2 chưa | Có, kèm BM-05 ngày ___/___/______ / Chưa.<br>Nếu Chưa thì dừng, làm BM-05 trước.<br>Danh mục nhà cung cấp hiện chưa tồn tại, nên BM-05 là bằng chứng duy nhất thay cho việc tra danh mục; xem OBK-QCTC-01 mục 35.3a |
 | Nội dung thanh toán | |
 | Số tiền bằng số | ______________ đồng |
 | Số tiền bằng chữ | |
@@ -211,7 +208,7 @@ Số báo giá tối thiểu theo bậc: B1 và B2 không yêu cầu, B3 tối t
 | Người xác nhận lệnh trên hệ thống: Tổng giám đốc hoặc Chủ tịch Hội đồng quản trị | | Đã kiểm bốn chữ ký trên rồi xác nhận lệnh. Số tham chiếu giao dịch: ______________ | | |
 
 > [!note] CHỮ KÝ CUỐI KHÔNG PHẢI MỘT CẤP PHÊ DUYỆT
-> Việc phê duyệt khoản chi là trường "Người duyệt chi theo hạn mức" ngay trên, và việc phê duyệt đó xảy ra đúng một lần. Hệ thống ngân hàng điện tử đòi hai tài khoản người dùng để một lệnh đi được, nên chữ ký cuối chỉ ghi nhận ai đã làm việc xác nhận và với số tham chiếu nào. Chữ ký cuối là chỗ truy ra ai đã cho lệnh đi. Người xác nhận từ chối lệnh nếu thiếu một trong bốn chữ ký trên. Xem [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 35.1a và [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]] mục 6.5.1 bước B6.
+> Việc phê duyệt khoản chi là trường "Người duyệt chi theo hạn mức" ngay trên, và việc phê duyệt đó xảy ra đúng một lần. Hệ thống ngân hàng điện tử đòi hai tài khoản người dùng để một lệnh đi được, nên chữ ký cuối chỉ ghi nhận ai đã làm việc xác nhận và với số tham chiếu nào. Chữ ký cuối là chỗ truy ra ai đã cho lệnh đi. Người xác nhận từ chối lệnh nếu thiếu một trong bốn chữ ký trên. Xem OBK-QCTC-01 mục 35.1a và OBK-SOP-NB-01 mục 5.5.1 bước B6.
 
 ---
 
@@ -306,7 +303,7 @@ Dự toán chi tiết:
 | Người hoàn ứng | |
 | Số tiền đã tạm ứng | ______________ đồng |
 | Ngày nhận tạm ứng | ___/___/______ |
-| Số ngày kể từ khi kết thúc công việc tới ngày lập bảng này | ____ ngày. Quá hạn theo mục 6.7.1 thì ghi lý do: ______________ |
+| Số ngày kể từ khi kết thúc công việc tới ngày lập bảng này | ____ ngày. Quá hạn theo mục 5.7.1 thì ghi lý do: ______________ |
 
 ### Phần thân. Bảng kê chi tiết
 
@@ -350,8 +347,8 @@ Dự toán chi tiết:
 | Người thực hiện thanh toán | | Đã tạo lệnh tất toán chênh lệch. Không áp dụng nếu chênh lệch bằng 0 | | |
 | Người xác nhận lệnh trên hệ thống: Tổng giám đốc hoặc Chủ tịch Hội đồng quản trị | | Đã xác nhận lệnh tất toán. Số tham chiếu giao dịch: ______________ | | |
 
-> [!note] HAI CHỮ KÝ CUỐI CỦA BM-03 VÀ BM-04
-> Cả BM-03 và BM-04 đều có bước chuyển tiền thật: BM-03 là lúc tạm ứng ra, BM-04 là lúc tất toán chênh lệch. Hai chữ ký cuối là chỗ truy ra ai đã tạo lệnh và ai đã cho lệnh đi. Hai chữ ký này không phải cấp phê duyệt thêm; việc phê duyệt là trường "Người duyệt chi theo hạn mức" của BM-03. Xem [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]] mục 6.7.2 bước C2, C2a và C7.
+> [!note] THẨM QUYỀN KÝ DUYỆT TRÊN BIỂU MẪU TẠM ỨNG VÀ HOÀN ỨNG
+> Cả BM-03 và BM-04 đều ghi nhận các bước chuyển tiền: BM-03 là lúc giải ngân tạm ứng, BM-04 là lúc tất toán chênh lệch thừa/thiếu. Chữ ký của Người thực hiện thanh toán và Người xác nhận lệnh chuyển tiền ghi nhận việc thực thi giao dịch ngân hàng theo đúng quy định phân tách trách nhiệm tại [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]] mục 5.7.2.
 
 ---
 
@@ -386,7 +383,7 @@ Dự toán chi tiết:
 | **Số điện thoại gốc**, ghi tại thời điểm ký hợp đồng, dùng để xác minh về sau | |
 | Địa chỉ email chính thức | |
 
-### Bảng sáu nội dung xác minh theo mục 6.4.1
+### Bảng nội dung xác minh thông tin nhà cung cấp
 
 | # | Nội dung | Kết quả | Nguồn kiểm tra | Ngày kiểm |
 | --- | --- | --- | --- | --- |
@@ -400,7 +397,7 @@ Dự toán chi tiết:
 ### Phần xác minh LẦN ĐẦU, bắt buộc điền trước lần chuyển tiền đầu tiên
 
 > [!danger] RỦI RO MẤT TIỀN
-> Lần đầu là lần dễ bị lừa nhất, vì chưa có số tài khoản cũ để so. Phần này là chỗ ghi bằng chứng cuộc gọi với nhà cung cấp mới. Xem [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 35.3a chốt thay thế số 1 và [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]] mục 6.4.2.
+> Lần đầu là lần dễ bị lừa nhất, vì chưa có số tài khoản cũ để so. Phần này là chỗ ghi bằng chứng cuộc gọi với nhà cung cấp mới. Xem [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 35.3a chốt thay thế số 1 và [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]] mục 5.4.2.
 
 | Trường | Nội dung |
 | --- | --- |
@@ -413,7 +410,7 @@ Dự toán chi tiết:
 | Tên người nghe máy và chức danh | |
 | Nội dung người nghe máy xác nhận | |
 | Người gọi | |
-| Đã thực hiện chuyển thử khoản nhỏ chưa, nếu giá trị thanh toán vượt ngưỡng tại mục 6.4.2 | Có, số tiền ______ đồng, ngày ___/___/______ / Không áp dụng |
+| Đã thực hiện chuyển thử khoản nhỏ chưa, nếu giá trị thanh toán vượt ngưỡng tại mục 5.4.2 | Có, số tiền ______ đồng, ngày ___/___/______ / Không áp dụng |
 | Nhà cung cấp đã xác nhận nhận được khoản thử chưa | Có, ngày ___/___/______ / Không áp dụng |
 | Kết luận | Chấp nhận số tài khoản / Không chấp nhận |
 
@@ -432,7 +429,7 @@ Dự toán chi tiết:
 | Người nghe máy, họ tên và chức danh | |
 | Nội dung xác nhận qua điện thoại | |
 | Người gọi | |
-| Đã thực hiện chuyển thử khoản nhỏ chưa, nếu giá trị thanh toán vượt ngưỡng tại mục 6.4.2 | Có, số tiền ______ đồng, ngày ___/___/______ / KAD |
+| Đã thực hiện chuyển thử khoản nhỏ chưa, nếu giá trị thanh toán vượt ngưỡng tại mục 5.4.2 | Có, số tiền ______ đồng, ngày ___/___/______ / KAD |
 | Kết luận | Chấp nhận đổi / Không chấp nhận |
 
 ### Phần ký xác nhận
@@ -443,8 +440,8 @@ Dự toán chi tiết:
 | Người phụ trách kế toán | | Soát nội dung xác minh và số liệu | | |
 || Tổng giám đốc hoặc Chủ tịch Hội đồng quản trị | | Đã đọc phiếu này trước khi xác nhận lệnh chi đầu tiên tới số tài khoản nêu trên | | |
 
-> [!note] CHỮ KÝ THỨ BA XÁC NHẬN NHÀ CUNG CẤP
-> Chữ ký thứ ba của Tổng giám đốc hoặc Chủ tịch Hội đồng quản trị xác nhận việc hoàn tất đối soát danh mục trước khi thực hiện lệnh chuyển tiền đầu tiên.
+> [!note] THẨM QUYỀN PHÊ DUYỆT XÁC MINH NHÀ CUNG CẤP
+> Chữ ký của Tổng giám đốc hoặc Chủ tịch Hội đồng quản trị xác nhận việc hoàn tất đối soát danh mục trước khi thực hiện lệnh chuyển tiền đầu tiên.
 
 ---
 
@@ -533,7 +530,7 @@ Lệch bất kỳ dòng nào thì dừng và chuyển người phụ trách kế
 | 3.1 | Bộ ba mã số thuế bên bán, số hóa đơn, số tiền đã tồn tại trong hệ thống chưa | Chưa / Đã có, dừng và điều tra |
 | 3.2 | Hóa đơn này có bản thay thế hoặc điều chỉnh nào không | Không / Có, số: ______ |
 
-### Khối 4. Bảy câu hỏi thuế theo mục 6.6
+### Khối 4. Tiêu chí kiểm tra điều kiện thuế
 
 | # | Câu hỏi | Trả lời | Căn cứ |
 | --- | --- | --- | --- |
@@ -599,7 +596,7 @@ Chỉ điền khối tương ứng với nhóm khoản chi.
 
 > [!note] BIỂU MẪU NÀY KHÁC `BM-03`
 > KHÔNG DÙNG THAY NHAU
-> `BM-03` dùng cho khoản tiền oBacker giao trước để nhân sự thực hiện một nhiệm vụ, hạch toán vào Tài khoản 141, và hoàn ứng bằng chứng từ chi thực tế. `BM-08` dùng cho khoản tiền lương oBacker trả trước cho người lao động, hạch toán vào bên Nợ Tài khoản 334, và thu hồi bằng cách trừ khi tính tiền lương của kỳ. Điều kiện tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] Điều 26a; quy trình tại [[OBK-SOP-NB-04_Cong_va_tien_luong_noi_bo|OBK-SOP-NB-04]] mục 6.6.
+> `BM-03` dùng cho khoản tiền oBacker giao trước để nhân sự thực hiện một nhiệm vụ, hạch toán vào Tài khoản 141, và hoàn ứng bằng chứng từ chi thực tế. `BM-08` dùng cho khoản tiền lương oBacker trả trước cho người lao động, hạch toán vào bên Nợ Tài khoản 334, và thu hồi bằng cách trừ khi tính tiền lương của kỳ. Điều kiện tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] Điều 26a; quy trình tại [[OBK-SOP-NB-04_Cong_va_tien_luong_noi_bo|OBK-SOP-NB-04]] mục 5.6.
 
 ### Phần đầu. Thông tin định danh
 
@@ -659,7 +656,7 @@ Ba dòng đầu của bảng trên là nghĩa vụ của oBacker theo pháp lu�
 | 6 | Người đề nghị còn khoản tạm ứng tiền lương nào chưa được trừ hết không | Không / Có, thì TỪ CHỐI theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 26a.3 |
 | 7 | Tài khoản nhận tiền có đứng tên chính người đề nghị không | Có / Không |
 
-> Câu 4 và câu 5 phải cùng cho kết quả cho phép thì đề nghị mới đi tiếp, vì hai giới hạn của ĐM-22 có hiệu lực đồng thời. Cách xác định quý và nửa năm tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 26a.2a.
+> Câu 4 và câu 5 phải cùng cho kết quả cho phép thì đề nghị mới đi tiếp, vì hai giới hạn của ĐM-22 có hiệu lực đồng thời. Cách xác định quý và nửa năm tại OBK-QCTC-01 mục 26a.2a.
 
 ### Phần ký xác nhận
 
@@ -679,10 +676,41 @@ Ba dòng đầu của bảng trên là nghĩa vụ của oBacker theo pháp lu�
 | 2 | Tiền lương thực tế của kỳ đó nhỏ hơn số đã nhận thì phần chênh lệch là một khoản nợ và được hoàn trả theo thỏa thuận riêng;<br>phần chênh lệch đó không bị trừ vào tiền lương của kỳ sau | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 26a.7 |
 
 > [!note] BIỂU MẪU NÀY KHÔNG CÓ VÀ KHÔNG ĐƯỢC THÊM ĐIỀU KHOẢN ĐỒNG Ý KHẤU TRỪ TIỀN LƯƠNG
-> Người sử dụng lao động chỉ được khấu trừ tiền lương để bồi thường thiệt hại do làm hư hỏng dụng cụ, thiết bị, tài sản `[Bộ luật Lao động 18/VBHN-VPQH Đ.102 k.1]`. Việc trừ khoản tạm ứng tiền lương khi tính tiền lương của kỳ là một cơ chế khác, xem lập luận tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 26a.6; cơ chế đó đứng độc lập với một điều khoản đồng ý khấu trừ, và cũng không được dựa vào một điều khoản như vậy.
+> Người sử dụng lao động chỉ được khấu trừ tiền lương để bồi thường thiệt hại do làm hư hỏng dụng cụ, thiết bị, tài sản. Việc trừ khoản tạm ứng tiền lương khi tính tiền lương của kỳ là một cơ chế khác, xem lập luận tại OBK-QCTC-01 mục 26a.6; cơ chế đó đứng độc lập với một điều khoản đồng ý khấu trừ, và cũng không được dựa vào một điều khoản như vậy.
 
 > [!note] NGƯỜI ĐỀ NGHỊ KHÔNG ĐƯỢC TỰ DUYỆT VÀ KHÔNG ĐƯỢC TỰ XÁC NHẬN LỆNH CHO CHÍNH MÌNH
-> Tổng giám đốc là người đề nghị thì Hội đồng quản trị duyệt và Chủ tịch Hội đồng quản trị xác nhận lệnh. Chủ tịch Hội đồng quản trị là người đề nghị thì Tổng giám đốc xác nhận lệnh. Xem [[OBK-SOP-NB-04_Cong_va_tien_luong_noi_bo|OBK-SOP-NB-04]] mục 6.6.2.
+> Tổng giám đốc là người đề nghị thì Hội đồng quản trị duyệt và Chủ tịch Hội đồng quản trị xác nhận lệnh. Chủ tịch Hội đồng quản trị là người đề nghị thì Tổng giám đốc xác nhận lệnh. Xem [[OBK-SOP-NB-04_Cong_va_tien_luong_noi_bo|OBK-SOP-NB-04]] mục 5.6.2.
+
+---
+
+## BM-09. BẢNG CHẤM CÔNG
+
+> `BM-09` là chứng từ tự thiết kế của oBacker, làm cơ sở lập Bảng thanh toán tiền lương mẫu số 01-LĐTL. Căn cứ thiết kế tại [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]] mục 6.6b; quy trình tổng hợp, xác nhận và chốt bảng công tại [[OBK-SOP-NB-04_Cong_va_tien_luong_noi_bo|OBK-SOP-NB-04]] mục 5.2.
+
+### Phần đầu. Thông tin định danh
+
+| Trường | Nội dung |
+| --- | --- |
+| Kỳ tính công | Từ ngày 21/____/______ đến ngày 20/____/______ |
+| Bộ phận | |
+| Người lập | |
+| Ngày lập | ___/___/______ |
+
+### Phần thân. Bảng chấm công
+
+Ghi công từng ngày trong kỳ. Ký hiệu: HL là hưởng lương, KHL là không hưởng lương, OT là làm thêm, WFH là làm việc từ xa.
+
+| Họ tên | Ngày 1 | Ngày 2 | Ngày 3 | Ngày 4 | Ngày 5 | Ngày 6 | Ngày 7 | Ngày 8 | Ngày 9 | Ngày 10 | Ngày 11 | Ngày 12 | Ngày 13 | Ngày 14 | Ngày 15 | Ngày 16 | Ngày 17 | Ngày 18 | Ngày 19 | Ngày 20 | Ngày 21 | Ngày 22 | Ngày 23 | Ngày 24 | Ngày 25 | Ngày 26 | Ngày 27 | Ngày 28 | Ngày 29 | Ngày 30 | Nghỉ năm | Nghỉ lễ | Nghỉ riêng HL | Nghỉ riêng KHL | OT | WFH | Tổng công | Số ngày LVBT |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ______ | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+
+### Phần ký xác nhận
+
+| Vai trò | Họ và tên | Nội dung xác nhận | Ngày | Chữ ký |
+| --- | --- | --- | --- | --- |
+| Người lao động | | Xác nhận số công trong kỳ bằng hình thức xác nhận điện tử | | |
+| Team Lead | | Xác nhận công và nghỉ của bộ phận | | |
+| CEO | | Duyệt toàn bảng công | | |
 
 ---
 
@@ -730,14 +758,14 @@ Theo cấu trúc Bảng kê chi tiền mẫu số 09-TT của chế độ kế t
 | Người phụ trách kế toán | | Ký chứng từ chi tiền theo Luật Kế toán Đ.19 k.3 | | |
 | Người duyệt chi theo bậc tính trên tổng bảng kê | | Duyệt chi | | |
 
-> [!note] BA CHỮ KÝ NÀY LÀ ĐÚNG BA CHỮ KÝ THEO CHỨC DANH CỦA MẪU 09-TT
-> Ba chữ ký trên là đúng ba chữ ký theo chức danh của Mẫu 09-TT, không thêm không bớt. Với bảng kê của khoản bị trừ tự động thì chữ ký thứ ba là duyệt việc ghi nhận, không phải duyệt cho tiền ra, vì tiền đã ra theo cơ chế đã được duyệt ở lớp 1 tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 40.1a.
+> [!note] THẨM QUYỀN KÝ DUYỆT THEO MẪU 09-TT
+> Bảng kê chi tiền áp dụng đủ các chữ ký theo chức danh của Mẫu 09-TT (Người lập bảng kê, Người phụ trách kế toán, Người duyệt chi). Đối với khoản tự động trích nợ qua ngân hàng, chữ ký phê duyệt ghi nhận căn cứ hạch toán theo cơ chế đã được duyệt tại OBK-QCTC-01 mục 40.1a.
 
 ---
 
 ## BM-G. PHIẾU CHI GỌN
 
-BM-G là biểu mẫu rút gọn của oBacker áp dụng theo Quy chế hạch toán kế toán [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]]. Gộp BM-01, BM-02, BM-06 và BM-07. Chỉ dùng cho khoản thuộc bậc B2 và không thuộc bảy trường hợp loại trừ tại [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]] mục 6.5a.2.
+BM-G là biểu mẫu rút gọn của oBacker áp dụng theo Quy chế hạch toán kế toán [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]]. Gộp BM-01, BM-02, BM-06 và BM-07. Chỉ dùng cho khoản thuộc bậc B2 và không thuộc bảy trường hợp loại trừ tại [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]] mục 5.5a.2.
 
 ### Phần đầu. Thông tin định danh
 
@@ -750,8 +778,8 @@ BM-G là biểu mẫu rút gọn của oBacker áp dụng theo Quy chế hạch 
 | Người đề nghị | |
 | Bộ phận và văn phòng | |
 | Dòng ngân sách | |
-| Khoản chi nằm trong ngân sách đã duyệt | Có / Không. Nếu Không thì nâng một bậc duyệt theo mục 6.2.2 |
-| Nhóm khoản chi theo mục 6.1 | N1 / N3 / N4 / N5 / N6. Nhóm N2 là nhà cung cấp nước ngoài, không đi Luồng G |
+| Khoản chi nằm trong ngân sách đã duyệt | Có / Không. Nếu Không thì nâng một bậc duyệt theo mục 5.2.2 |
+| Nhóm khoản chi theo mục 5.1 | N1 / N3 / N4 / N5 / N6. Nhóm N2 là nhà cung cấp nước ngoài, không đi Luồng G |
 
 ### Phần thân. Nội dung và số tiền
 
@@ -766,15 +794,15 @@ BM-G là biểu mẫu rút gọn của oBacker áp dụng theo Quy chế hạch 
 | Hình thức thanh toán | Chuyển khoản. Tiền mặt không đi Luồng G |
 | Số tài khoản người nhận, và số BM-05 đã xác minh | |
 
-### Ba câu hỏi loại trừ, thay cho BM-07
+### Tiêu chí loại trừ thay thế BM-07
 
-Trả lời "Có" ở bất kỳ câu nào thì phiếu này dừng lại và khoản chi đi Luồng B.
+Trường hợp thỏa mãn bất kỳ tiêu chí nào dưới đây, khoản chi không áp dụng Phiếu chi gọn mà phải luân chuyển theo Luồng B chuẩn.
 
-| # | Câu | Trả lời |
+| # | Tiêu chí | Trả lời |
 | --- | --- | --- |
-| 1 | Khoản chi này có thuộc một trong bảy trường hợp tại mục 6.5a.2 không: người có liên quan, tài sản cố định hoặc công cụ dụng cụ phân bổ nhiều kỳ, thanh toán ra nước ngoài, thanh toán cho cá nhân hoặc hộ kinh doanh, khoản có mức tối đa định mức phải theo dõi lũy kế, nhà cung cấp mới chưa xác minh, chi bằng tiền mặt | Có / Không |
+| 1 | Khoản chi này có thuộc một trong bảy trường hợp tại mục 5.5a.2 không: người có liên quan, tài sản cố định hoặc công cụ dụng cụ phân bổ nhiều kỳ, thanh toán ra nước ngoài, thanh toán cho cá nhân hoặc hộ kinh doanh, khoản có mức tối đa định mức phải theo dõi lũy kế, nhà cung cấp mới chưa xác minh, chi bằng tiền mặt | Có / Không |
 | 2 | Giá trị khoản chi này, hoặc tổng nhiều lần mua của cùng một người bán trong cùng một ngày, có từ 05 triệu đồng trở lên mà dự kiến trả bằng tiền mặt không | Có / Không |
-| 3 | Nhà cung cấp này có phải nhà cung cấp mới chưa được xác minh theo mục 6.4 không | Có / Không |
+| 3 | Nhà cung cấp này có phải nhà cung cấp mới chưa được xác minh theo mục 5.4 không | Có / Không |
 
 ### Nghiệm thu, thay cho BM-06
 
@@ -799,20 +827,19 @@ Bốn xác nhận, thực hiện bằng hình thức xác nhận điện tử tr
 
 | Thứ tự | Vai trò | Nội dung xác nhận | Ngày |
 | --- | --- | --- | --- |
-| 1 | Người đề nghị | Nhu cầu và nghiệp vụ có thật, chứng từ đính kèm là bản đúng, Ba câu hỏi loại trừ đã trả lời trung thực | |
+| 1 | Người đề nghị | Nhu cầu và nghiệp vụ có thật, chứng từ đính kèm là bản đúng, các tiêu chí loại trừ đã khai báo trung thực | |
 | 2 | Team Lead | Nhu cầu cần thiết và thuộc ngân sách đã duyệt | |
 | 3 | Người phụ trách kế toán | Đã kiểm chứng từ, điều kiện thuế và kiểm khoản trùng;<br>ký chứng từ chi tiền theo Luật Kế toán Đ.19 k.3 |  |
 | 4 | Người duyệt chi theo bậc | Duyệt chi | |
 
-Sau bước 4, `NTT` tạo lệnh và người xác nhận lệnh xác nhận trên hệ thống ngân hàng theo bước B6 của Luồng B. Hai thao tác đó không phải một lần phê duyệt thêm; xem [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 35.1a.
+Sau bước 4, `NTT` tạo lệnh và người xác nhận lệnh xác nhận trên hệ thống ngân hàng theo bước B6 của Luồng B. Hai thao tác đó không phải một lần phê duyệt thêm; xem OBK-QCTC-01 mục 35.1a.
 
 ---
 
 ## BM-PT. PHIẾU THU, mẫu số 01-TT
 
-> [!note] CHÉP NGUYÊN VĂN
-> KHÔNG SỬA MỘT TRƯỜNG NÀO
-> Nguồn: `[Thông tư 99/2025/TT-BTC, Phụ lục I, Mẫu số 01-TT]`, tệp gốc [[Thông tư 99-2025 Hướng dẫn chế độ kế toán doanh nghiệp]]. Vì là mẫu có sẵn của chế độ nên phiếu này dùng được ngay, không phụ thuộc [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]]. **Ai sửa một trường của phiếu này thì phiếu chuyển sang nhóm tự thiết kế**, và khi đó phải bổ sung vào Điều 5 và Điều 6 của [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]] trước khi dùng.
+> [!note] ÁP DỤNG NGUYÊN BẢN THEO THÔNG TƯ 99/2025/TT-BTC
+> Mẫu biểu ban hành theo Thông tư số 99/2025/TT-BTC (Phụ lục I). Đơn vị áp dụng nguyên bản các trường thông tin và chữ ký chức danh theo quy định.
 
 **Dùng khi nào:** mỗi lần nhập quỹ tiền mặt. Mọi khoản tiền Việt Nam và ngoại tệ nhập quỹ đều phải có phiếu thu `[Thông tư 99/2025/TT-BTC, Phụ lục I, Mẫu số 01-TT, mục 1 Mục đích]`.
 
@@ -827,23 +854,22 @@ Sau bước 4, `NTT` tạo lệnh và người xác nhận lệnh xác nhận tr
 | Chữ ký theo chức danh, đủ năm chữ ký | Giám đốc, ký họ tên đóng dấu; Kế toán trưởng, ký họ tên; Người nộp tiền, ký họ tên; Người lập phiếu, ký họ tên; Thủ quỹ, ký họ tên.<br>Trên phần chữ ký có dòng Ngày ..... tháng .... năm ...... |
 | Cuối phiếu | Đã nhận đủ số tiền, viết bằng chữ;<br>Tỷ giá ngoại tệ;<br>Số tiền quy đổi;<br>ghi chú liên gửi ra ngoài phải đóng dấu |
 
-**Ba điều của mẫu mà người lập hay bỏ, đều là nguyên văn mục 2 Phương pháp và trách nhiệm ghi của mẫu:**
+**Quy định về lập và luân chuyển phiếu thu theo Chế độ kế toán:**
 
 1. Phiếu thu phải đóng thành quyển, ghi số từng quyển dùng trong 01 năm; mỗi phiếu ghi số quyển và số của từng phiếu; **số phiếu thu phải đánh liên tục trong một kỳ kế toán**.
 2. Phiếu thu do kế toán lập thành 03 liên, ký vào phiếu, sau đó chuyển kế toán trưởng soát xét và giám đốc ký duyệt, rồi chuyển thủ quỹ làm thủ tục nhập quỹ. **Sau khi đã nhận đủ số tiền, thủ quỹ ghi số tiền thực tế nhập quỹ bằng chữ vào phiếu trước khi ký.**
 3. Thủ quỹ giữ 01 liên để ghi sổ quỹ, 01 liên giao người nộp tiền, 01 liên lưu nơi lập phiếu. Quy tắc 03 liên chỉ áp khi phiếu lập bằng bản cứng.
 
-> **Ba dòng trên là quy tắc của phiếu giấy.** Khi oBacker lập phiếu điện tử thì áp mục 7.3 và 7.3a của [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]]: quy tắc số liên không phát sinh, nhưng thứ tự ký và việc thủ quỹ xác nhận số tiền thực nhận thì vẫn phát sinh đầy đủ.
+> **Quy tắc chứng từ giấy:** Khi oBacker lập phiếu điện tử thì áp mục 7.3 và 7.3a của [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]]: quy tắc số liên không phát sinh, nhưng thứ tự ký và việc thủ quỹ xác nhận số tiền thực nhận thì vẫn phát sinh đầy đủ.
 
 ---
 
 ## BM-PC. PHIẾU CHI, mẫu số 02-TT
 
-> [!note] CHÉP NGUYÊN VĂN
-> KHÔNG SỬA MỘT TRƯỜNG NÀO
-> Nguồn: `[Thông tư 99/2025/TT-BTC, Phụ lục I, Mẫu số 02-TT]`. Cùng điều kiện như `BM-PT`.
+> [!note] ÁP DỤNG NGUYÊN BẢN THEO THÔNG TƯ 99/2025/TT-BTC
+> Mẫu biểu ban hành theo Thông tư số 99/2025/TT-BTC (Phụ lục I). Đơn vị áp dụng nguyên bản các trường thông tin và chữ ký chức danh theo quy định.
 
-**Dùng khi nào:** mỗi lần xuất quỹ tiền mặt, tức mỗi lần chi tiền mặt dưới mức tối đa tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 32.2.
+**Dùng khi nào:** mỗi lần xuất quỹ tiền mặt, tức mỗi lần chi tiền mặt dưới mức tối đa tại OBK-QCTC-01 mục 32.2.
 
 | Vị trí | Nội dung của mẫu |
 | --- | --- |
@@ -856,17 +882,16 @@ Sau bước 4, `NTT` tạo lệnh và người xác nhận lệnh xác nhận tr
 | Chữ ký theo chức danh, đủ năm chữ ký | Giám đốc, ký họ tên đóng dấu; Kế toán trưởng, ký họ tên; Thủ quỹ, ký họ tên; Người lập phiếu, ký họ tên; Người nhận tiền, ký họ tên.<br>Trên phần chữ ký có dòng Ngày ..... tháng .... năm ...... |
 | Cuối phiếu | Đã nhận đủ số tiền, viết bằng chữ;<br>Tỷ giá ngoại tệ;<br>Số tiền quy đổi;<br>ghi chú liên gửi ra ngoài phải đóng dấu |
 
-**Bốn chỗ phải khớp với quy chế, không phải chỗ tùy ý:**
+**Phân công trách nhiệm ký chứng từ chi tiền mặt theo Quy chế:**
 
 | Trường của mẫu | Vai trò của oBacker | Vì sao |
 | --- | --- | --- |
 | Giám đốc | Người duyệt chi theo bậc tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 12.3 | Mẫu ghi chức danh Giám đốc; ở oBacker chức danh tương ứng là Tổng giám đốc, và ở bậc thấp là người được ma trận 12.3 giao.<br>Chức danh trên phiếu ghi theo người ký thật |
 | Kế toán trưởng | `KTT` người phụ trách kế toán | `[Luật Kế toán 41/VBHN-VPQH Đ.19 k.3]` buộc chứng từ chi tiền có cả hai chữ ký này trước khi chi |
-| Thủ quỹ | `TQ`, vai trò đã đăng ký ngày 07/09/2026 tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 4;<br>**người giữ vai trò CHƯA GÁN** | Không được là `KTT`, `KTV` hoặc `AD-KT`, và không được là người quản lý điều hành.<br>Trong lúc chưa gán người, oBacker không nhập quỹ và không xuất quỹ tiền mặt, nên `BM-PT` và `BM-PC` chưa dùng; xem [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-QCTC-03]] mục 4.1 |
+| Thủ quỹ | `TQ`, vai trò quy định tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 4 | Không được là `KTT`, `KTV` hoặc `AD-KT`, và không được là người quản lý điều hành.<br>Trong lúc chưa gán người, oBacker không nhập quỹ và không xuất quỹ tiền mặt, nên `BM-PT` và `BM-PC` chưa dùng; xem [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-QCTC-03]] mục 4.1 |
 | Người nhận tiền | Người thực nhận | Thiếu chữ ký này thì không chứng minh được tiền đã tới ai |
 
-> [!note] PHIẾU CHI KHÔNG THAY BM-02
-> VÀ BM-02 KHÔNG THAY PHIẾU CHI
+> [!note] PHÂN BIỆT ĐỀ NGHỊ THANH TOÁN VÀ PHIẾU CHI TIỀN MẶT
 > `BM-02` là đề nghị thanh toán, lập trước khi chi, dùng để xin duyệt. Phiếu chi là chứng từ xuất quỹ, lập TẠI thời điểm chi, dùng để ghi sổ quỹ. Một khoản chi tiền mặt có cả hai.
 >
 > **Khoản chi bằng chuyển khoản không dùng phiếu chi.** Căn cứ hạch toán của khoản đi qua ngân hàng là giấy báo Nợ hoặc sao kê kèm chứng từ gốc `[Thông tư 99/2025/TT-BTC, Tài khoản 112 Tiền gửi ngân hàng, mục 1, điểm a]`. Phiếu chi chỉ dành cho quỹ tiền mặt.
@@ -879,4 +904,5 @@ Sau bước 4, `NTT` tạo lệnh và người xác nhận lệnh xác nhận tr
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 02/10/2026 | R.1.1.0 | Thêm biểu mẫu BM-09 Bảng chấm công gồm phần đầu, phần thân ngày 1 đến 30 với cột nghỉ, OT, WFH, tổng công và phần ký ba chữ ký; bỏ bold dòng BM-08 trong danh mục biểu mẫu cho đồng nhất BM-01 đến BM-07 |
+| 04/10/2026 | R.1.1.1 | Chuẩn hóa văn phong hành chính, bỏ số đếm ở tiêu đề và callout, lược bỏ ghi chú dạng log |

@@ -4,19 +4,15 @@ code: "HD-01"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-TTT-05 Cách làm phiếu thao tác"
-law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - HD-01
 tags:
@@ -29,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | HD-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -40,6 +36,7 @@ tags:
 | **Ai dùng** | Chuyên viên Nhân sự (`HR`), Quản lý trực tiếp (`TL`), `CEO` |
 | **Sinh từ** | [[OBK-SOP-NB-05_Tuyen_dung_va_onboarding_noi_bo\|OBK-SOP-NB-05]];<br>[[OBK-SOP-NB-06_Nghi_viec_va_offboarding_noi_bo\|OBK-SOP-NB-06]];<br>[[01_Khung_nhan_su_tong_hop\|OBK-QCNS-01]] |
 | **Ngày làm phiếu** | 27/09/2026 |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
@@ -95,7 +92,7 @@ Căn cứ quy định tại Điều 20 Bộ luật Lao động 2019:
 - Nếu hết thời hạn 30 ngày kể từ ngày hợp đồng lao động hết hạn mà hai bên không ký kết hợp đồng lao động mới thì hợp đồng đã giao kết trở thành hợp đồng lao động không xác định thời hạn;
 - Trường hợp hai bên ký kết hợp đồng lao động mới là hợp đồng xác định thời hạn thì chỉ được ký thêm **01 lần**, sau đó nếu người lao động vẫn tiếp tục làm việc thì bắt buộc phải ký hợp đồng lao động không xác định thời hạn.
 
-### Quy trình 3 mốc cảnh báo tái ký hợp đồng
+### Quy trình cảnh báo tái ký hợp đồng
 
 ```
 [ ]  1. MỐC TRƯỚC 45 NGÀY SO VỚI NGÀY HẾT HẠN HỢP ĐỒNG
@@ -140,16 +137,6 @@ Sổ theo dõi được `HR` quản lý và lưu trữ tập trung trên hệ th
 
 Quan hệ lao động là nền tảng vận hành của doanh nghiệp nhưng đi kèm nhiều ràng buộc pháp lý chặt chẽ. Việc không theo dõi sát thời hạn thử việc và hợp đồng lao động dẫn đến rủi ro pháp lý nghiêm trọng: tự động chuyển đổi loại hợp đồng ngoài dự kiến, khiếu nại tranh chấp lao động về thời hạn báo trước hoặc xử phạt hành chính theo Nghị định số 283/2026/NĐ-CP. Sổ theo dõi HD-01 chuẩn hóa thời hạn thử việc, thiết lập cơ chế cảnh báo 07 ngày khi đánh giá thử việc và cảnh báo 30 ngày trước khi hết hạn hợp đồng lao động theo đúng Điều 20 Bộ luật Lao động.
 
-### 2. Căn cứ quy định và pháp luật liên quan
-
-| Mục | Căn cứ | Nội dung trích dẫn hoặc áp dụng |
-| --- | --- | --- |
-| Quy trình tuyển dụng | [[OBK-SOP-NB-05_Tuyen_dung_va_onboarding_noi_bo\|OBK-SOP-NB-05]] | Trình tự tiếp nhận, thử việc và ký hợp đồng lao động chính thức |
-| Quy trình nghỉ việc | [[OBK-SOP-NB-06_Nghi_viec_va_offboarding_noi_bo\|OBK-SOP-NB-06]] | Trình tự chấm dứt hợp đồng, bàn giao tài sản và offboarding |
-| Khung nhân sự | [[01_Khung_nhan_su_tong_hop\|OBK-QCNS-01]] | Thang bảng lương, phân cấp chức danh và chính sách đãi ngộ |
-| Bộ luật Lao động | Bộ luật Lao động số 45/2019/QH14 Điều 14, 20, 24, 25, 27 | Hình thức hợp đồng, phân loại hợp đồng, thời gian thử việc và nguyên tắc tái ký |
-| Hợp đồng điện tử | Nghị định số 337/2025/NĐ-CP | Quy định về giao kết và thực hiện hợp đồng lao động điện tử |
-| Chế tài vi phạm lao động | Nghị định số 283/2026/NĐ-CP | Mức xử phạt vi phạm hành chính trong lĩnh vực lao động và bảo hiểm xã hội |
 
 ---
 
@@ -157,4 +144,4 @@ Quan hệ lao động là nền tảng vận hành của doanh nghiệp nhưng �
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu HD-01 về Sổ cái OBK-MSR |

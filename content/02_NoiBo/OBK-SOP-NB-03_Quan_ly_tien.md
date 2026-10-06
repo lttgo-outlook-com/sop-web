@@ -4,19 +4,15 @@ code: "OBK-SOP-NB-03"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.0"
+version: "R.1.0.2"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-SOP-NB-00 Chuẩn vận hành nội bộ"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-SOP-NB-03
 tags:
@@ -32,7 +28,7 @@ tags:
 | Mã tài liệu | OBK-SOP-NB-03 |
 | Tên tài liệu | Quy trình quản lý quỹ tiền mặt, tài khoản ngân hàng và dòng tiền |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ. Thi hành Chương 7 của [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Quy chế tài chính nội bộ |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.0.2, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -48,21 +44,20 @@ tags:
 
 ## CẢNH BÁO MỞ ĐẦU
 
-> [!note] VĂN BẢN NÀY QUẢN BẢN THÂN TIỀN
-> KHÔNG QUẢN MỘT KHOẢN CHI HAY MỘT KHOẢN THU
-> Hành trình của một khoản chi ở [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]]; hành trình của một khoản thu ở [[OBK-SOP-NB-02_Thu_tien_va_cong_no_phai_thu|OBK-SOP-NB-02]]. Văn bản này nói về quỹ tiền mặt, tài khoản ngân hàng, quyền trên hệ thống ngân hàng điện tử, và kế hoạch dòng tiền.
+> [!note] PHẠM VI QUẢN LÝ TIỀN NỘI BỘ
+> Quy trình này quy định việc quản lý quỹ tiền mặt, tài khoản ngân hàng, phân quyền hệ thống ngân hàng điện tử và lập kế hoạch dòng tiền. Quy trình mua sắm và phê duyệt chi thực hiện theo [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]]; quy trình thu tiền và quản lý công nợ thực hiện theo [[OBK-SOP-NB-02_Thu_tien_va_cong_no_phai_thu|OBK-SOP-NB-02]].
 
-> [!note] CHỖ CHỒNG LẤN DUY NHẤT ĐÃ CHỐT CÁCH XỬ
-> Bước tạo và xác nhận lệnh chuyển tiền xuất hiện ở cả hai văn bản. Văn bản này chỉ nói về **quyền và cơ chế** trên hệ thống ngân hàng, tức ai có tài khoản người dùng nào và ai được làm thao tác nào. Hành trình của một lệnh cụ thể, tức lệnh đó chờ ai và đi tiếp khi nào, thuộc [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]] mục 6.0a. Không viết lại bước đó ở đây.
+> [!note] NGUYÊN TẮC PHÂN ĐỊNH VỚI CHU TRÌNH CHI
+> Quy trình này tập trung vào thẩm quyền, quyền hạn người dùng và cơ chế kiểm soát an toàn trên hệ thống ngân hàng điện tử. Trình tự luân chuyển chứng từ và phê duyệt từng khoản chi cụ thể tuân thủ OBK-SOP-NB-01.
 
-> [!note] ĐIỂM KIỂM SOÁT NẶNG NHẤT CỦA MẢNG NỘI BỘ NẰM TRONG VĂN BẢN NÀY
-> Người tạo lệnh và người xác nhận lệnh trên ngân hàng điện tử phải là hai người khác nhau. Đây là chốt duy nhất đứng giữa oBacker và việc một người chuyển được tiền ra ngoài mà không ai biết. Việc rà soát hằng quý tại mục 6.5 tồn tại để chốt đó không bị nới lỏng theo thời gian.
+> [!note] TRỌNG TÂM KIỂM SOÁT ĐỐI CHIẾU ĐỘC LẬP
+> Người tạo lệnh và người xác nhận lệnh trên hệ thống ngân hàng điện tử bắt buộc phải là hai người độc lập. Lịch rà soát phân quyền định kỳ hằng quý và đột xuất khi thay đổi nhân sự bảo đảm nguyên tắc phân tách kiểm soát không bị vi phạm.
 
 ---
 
 ## 1. Mục đích
 
-Đặt một trình tự duy nhất cho việc giữ tiền, giữ quyền trên tài khoản ngân hàng, và biết trước dòng tiền, sao cho ba việc sau đều đạt: không ai một mình chuyển được tiền ra ngoài, mọi đồng tiền trên sổ khớp với tiền thật, và oBacker biết trước 03 tháng là có đủ tiền hay không.
+Đặt một trình tự duy nhất cho việc giữ tiền, giữ quyền trên tài khoản ngân hàng, và biết trước dòng tiền; sao cho ba việc sau đều đạt: không ai một mình chuyển được tiền ra ngoài, mọi đồng tiền trên sổ khớp với tiền thật, và oBacker biết trước 03 tháng là có đủ tiền hay không.
 
 ## 2. Phạm vi áp dụng
 
@@ -70,23 +65,7 @@ tags:
 
 **Ngoài phạm vi:** việc phê duyệt một khoản chi và hành trình của một lệnh chi, thuộc [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]]; việc xuất hóa đơn và theo dõi công nợ, thuộc [[OBK-SOP-NB-02_Thu_tien_va_cong_no_phai_thu|OBK-SOP-NB-02]]; việc khóa sổ và lập báo cáo tài chính, thuộc [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]] và Handbook Kế toán.
 
-## 3. Căn cứ pháp lý
-
-| Nội dung | Căn cứ |
-| --- | --- |
-| Cấm người có trách nhiệm quản lý, điều hành đơn vị kế toán kiêm làm kế toán, thủ kho, thủ quỹ | Luật Kế toán 41/VBHN-VPQH Đ.13 k.7 |
-| Người làm kế toán không được đồng thời là thủ kho, thủ quỹ, người quản lý điều hành, người mua bán tài sản trong cùng đơn vị kế toán | Luật Kế toán 41/VBHN-VPQH Đ.52 k.4 |
-| Chứng từ kế toán chi tiền phải do người có thẩm quyền duyệt chi và kế toán trưởng hoặc người được ủy quyền ký trước khi thực hiện | Luật Kế toán 41/VBHN-VPQH Đ.19 k.3 |
-| Chứng từ phải có đủ chữ ký theo chức danh quy định trên chứng từ | Luật Kế toán 41/VBHN-VPQH Đ.19 k.1 |
-| Mỗi nghiệp vụ lập chứng từ một lần | Luật Kế toán 41/VBHN-VPQH Đ.18 k.1 |
-| Chênh lệch giữa số thực tế kiểm kê và số trên sổ phải xác định nguyên nhân và phản ánh vào sổ trước khi lập báo cáo tài chính | Luật Kế toán 41/VBHN-VPQH Đ.40 k.3 |
-| Thủ quỹ quản lý việc nhập, xuất quỹ, kiểm kê số tồn quỹ thực tế và đối chiếu với sổ kế toán tiền mặt | Thông tư 99/2025/TT-BTC, Tài khoản 111, mục 1 điểm d |
-| Mọi lần nhập quỹ và xuất quỹ tiền mặt phải có phiếu thu, phiếu chi | Thông tư 99/2025/TT-BTC, Tài khoản 111, mục 1 điểm b |
-| Khoản chi từ 05 triệu đồng trở lên phải có chứng từ thanh toán không dùng tiền mặt, và quy tắc cộng nhiều lần mua của cùng một người bán trong cùng một ngày | Văn bản hợp nhất 18/VBHN-BTC ngày 04/06/2026 Đ.26 k.3;<br>Văn bản hợp nhất 19/VBHN-BTC Đ.9 k.1 đ.c1 |
-
-**Căn cứ nội bộ:** [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] Điều 22 ngân sách, Điều 32 tiền mặt, Điều 33 thủ quỹ và kiểm quỹ, Điều 34 tài khoản ngân hàng, Điều 35 phân quyền ngân hàng điện tử, Điều 40 thanh toán tự động, Điều 47 tách quyền, Điều 48 điểm kiểm soát, Điều 49 chế tài. [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]] Điều 4 chữ ký theo chức danh của phiếu thu và phiếu chi. `06_OBK-SOP-NB-00` mục 7 khung chu trình và danh mục Job `NB-17` tới `NB-21`, `NB-31`.
-
-## 4. Vai trò và trách nhiệm
+## 3. Vai trò và trách nhiệm
 
 | Ký hiệu | Việc trong chu trình này | Việc KHÔNG được làm |
 | --- | --- | --- |
@@ -98,7 +77,7 @@ tags:
 | `Chủ tịch HĐQT` | **XÁC NHẬN** lệnh trên ngân hàng điện tử | Không tạo lệnh mình sẽ xác nhận |
 | `HĐQT` | Duyệt kết quả rà soát phân quyền ngân hàng;<br>phê duyệt ngân sách năm |  |
 
-## 5. Đầu vào bắt buộc
+## 4. Đầu vào bắt buộc
 
 | # | Đầu vào | Nguồn | Thiếu thì sao |
 | --- | --- | --- | --- |
@@ -106,12 +85,12 @@ tags:
 | 2 | Danh sách người dùng và quyền hiện hành trên hệ thống ngân hàng điện tử | Lấy từ hệ thống ngân hàng | Không rà soát được phân quyền, tức điểm kiểm soát quan trọng nhất không đo được |
 | 3 | Sao kê **tất cả** tài khoản trong Danh mục, theo kỳ | Ngân hàng | Đối chiếu thiếu tài khoản, và tài khoản ít giao dịch là chỗ dễ bị bỏ nhất |
 | 4 | Sổ kế toán kỳ tương ứng | `[PHẦN MỀM KẾ TOÁN]` | Không có bên nào để đối chiếu vào |
-| 5 | Văn bản chỉ định người giữ quỹ và người dự phòng, cho từng văn phòng | `TGĐ` | Không nhập quỹ và không xuất quỹ tiền mặt được;<br>xem mục 6.2 |
+| 5 | Văn bản chỉ định người giữ quỹ và người dự phòng, cho từng văn phòng | `TGĐ` | Không nhập quỹ và không xuất quỹ tiền mặt được;<br>xem mục 5.2 |
 | 6 | Công nợ phải thu, công nợ phải trả, và ngân sách năm đã duyệt | [[OBK-SOP-NB-02_Thu_tien_va_cong_no_phai_thu\|OBK-SOP-NB-02]], [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]], `HĐQT` | Không lập được kế hoạch dòng tiền |
 
-## 6. Các bước thực hiện
+## 5. Các bước thực hiện
 
-### 6.1. BẢNG VIỆC THEO KỲ. ĐÂY LÀ BẢN GỐC CỦA CHU TRÌNH TIỀN
+### 5.1. Lịch trình quản lý tiền theo chu kỳ
 
 | Mã | Việc | Tần suất | Người làm | Người duyệt kết quả | Đầu ra |
 | --- | --- | --- | --- | --- | --- |
@@ -126,34 +105,32 @@ tags:
 | `M6` | Rà soát phân quyền lập và xác nhận trên ngân hàng điện tử | **Hằng quý, và ngay trong ngày** khi có nhân sự nghỉ việc hoặc thay đổi vai trò | `TGĐ` | `HĐQT` | Bảng rà soát;<br>đề xuất điều chỉnh nếu lệch |
 | `M7` | Mở, đóng, thay đổi tài khoản ngân hàng | Khi phát sinh | `KTV` lập đề xuất, `KTT` soát | `TGĐ` quyết | Quyết định và hồ sơ ngân hàng;<br>Danh mục tài khoản cập nhật |
 
-**Mười dòng là hết chu trình TIỀN.** Sửa chu trình thì sửa bảng này trước, sửa phần chữ sau.
-
-> [!note] BỐN CHỖ TRONG BẢNG NÀY ĐÁNG NHÌN LẠI MỖI LẦN ĐỌC
+> [!note] CÁC ĐIỂM TRỌNG YẾU TRONG LỊCH TRÌNH VẬN HÀNH
 >
-> **`M6` là dòng duy nhất có hai mốc rà soát, và mốc thứ hai mới là mốc quan trọng.** Hằng quý là mốc thường lệ; **ngay trong ngày khi đổi nhân sự** là mốc chống rủi ro thật. Người nghỉ việc mà quyền trên ngân hàng còn nguyên là chỗ thiếu kiểm soát nặng nhất của cả mảng nội bộ, và chỗ thiếu kiểm soát đó không đợi tới cuối quý.
+> **Rà soát phân quyền ngân hàng (M6):** Ngoài mốc định kỳ hằng quý, mốc rà soát bắt buộc là **ngay trong ngày làm việc cuối cùng** khi có nhân sự nghỉ việc hoặc thay đổi vai trò. Việc thu hồi quyền ngân hàng điện tử phải thực hiện tức thời để ngăn chặn rủi ro thất thoát tài sản.
 >
-> **`M6` do `TGĐ` làm, không do `KTT` làm**, vì `KTT` nằm trong chính danh sách người có quyền phải rà soát. Người duyệt kết quả là `HĐQT`, vì cả `TGĐ` và `Chủ tịch HĐQT` cũng có tên trong danh sách đó. Xem [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] Điều 48 chốt số 4.
+> **Thẩm quyền rà soát (M6):** `TGĐ` trực tiếp thực hiện rà soát và `HĐQT` phê duyệt kết quả nhằm bảo đảm tính độc lập với các nhân sự trực tiếp tạo và xác nhận lệnh chuyển tiền.
 >
-> **`M5` và `M5a` là hai lớp có hai mục đích khác nhau, không phải một việc làm hai lần.** Cấp nhanh mỗi 02 tuần là cấp **bắt được gian lận trong khi còn thời hiệu**. Cấp đầy đủ hằng tháng là cấp **chốt số liệu để lập báo cáo**. Bỏ cấp nhanh thì một giao dịch lạ có thể nằm im tới 05 tuần.
+> **Đối chiếu sao kê hai cấp (M5, M5a):** Cấp đối chiếu nhanh 02 tuần một lần nhằm phát hiện sớm các giao dịch bất thường trong thời hiệu tra soát; cấp đối chiếu đầy đủ hằng tháng phục vụ chốt số liệu khóa sổ kế toán.
 >
-> **`M2` chỉ chạy được khi vai trò `TQ` đã có người.** Xem mục 6.2.
+> **Quản lý quỹ tiền mặt (M2):** Chỉ thực hiện khi có nhân sự được phân công vai trò `TQ` theo quy định.
 
-### 6.2. QUỸ TIỀN MẶT
+### 5.2. QUỸ TIỀN MẶT
 
-#### 6.2.1. Ba con số, và cả ba đặt ở quy chế
+#### 5.2.1. Hạn mức và định mức quỹ tiền mặt
 
-> [!note] MỤC NÀY KHÔNG GHI SỐ TIỀN
-> Mức tối đa tồn quỹ cuối ngày tại mỗi văn phòng, mức tối đa một lần chi bằng tiền mặt, và ngưỡng bắt buộc không dùng tiền mặt: cả ba ở [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] Điều 32, và chỉ ở đó.
+> [!note] CĂN CỨ HẠN MỨC TIỀN MẶT THEO QUY CHẾ TÀI CHÍNH
+> Mức tồn quỹ tối đa cuối ngày tại mỗi văn phòng, hạn mức chi tiền mặt tối đa cho một lần chi và các trường hợp bắt buộc thanh toán không dùng tiền mặt thực hiện theo OBK-QCTC-01 Điều 32.
 
-Ba việc mà người vận hành phải làm theo, không phải ba con số phải nhớ:
+Nguyên tắc quản lý hạn mức tiền mặt:
 
 - **Vượt mức tồn quỹ tối đa cuối ngày** thì nộp vào tài khoản ngân hàng trong ngày làm việc tiếp theo.
 - **Chi vượt mức tối đa một lần chi bằng tiền mặt** chỉ do `TGĐ` phê duyệt cho từng trường hợp, và phải có kết luận của `KTT` về hệ quả thuế.
-- **Không được chia một khoản chi thành nhiều lần** để mỗi lần dưới mức tối đa. `KTV` kiểm bằng cách đối chiếu theo cặp nhà cung cấp và ngày, theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 32.3.
+- **Không được chia một khoản chi thành nhiều lần** để mỗi lần dưới mức tối đa. `KTV` kiểm bằng cách đối chiếu theo cặp nhà cung cấp và ngày, theo OBK-QCTC-01 mục 32.3.
 
-#### 6.2.2. Người giữ quỹ. VAI TRÒ ĐÃ CÓ, NGƯỜI CHƯA GÁN
+#### 5.2.2. Trách nhiệm của Thủ quỹ và điều kiện phân công
 
-[[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 33.1 đòi **mỗi văn phòng có một người giữ quỹ được chỉ định bằng văn bản, và một người dự phòng.** oBacker có hai văn phòng, Đà Nẵng và Thành phố Hồ Chí Minh, nên vai trò `TQ` cần **bốn người**: hai người giữ chính và hai người dự phòng.
+OBK-QCTC-01 mục 33.1 đòi **mỗi văn phòng có một người giữ quỹ được chỉ định bằng văn bản, và một người dự phòng.** oBacker có hai văn phòng, Đà Nẵng và Thành phố Hồ Chí Minh; nên vai trò `TQ` cần **bốn người**: hai người giữ chính và hai người dự phòng.
 
 Ba điều cấm khi chỉ định, và cả ba phải kiểm cho từng người:
 
@@ -165,7 +142,7 @@ Ba điều cấm khi chỉ định, và cả ba phải kiểm cho từng ngườ
 
 Mọi giao dịch thu, chi tiền mặt phải có đầy đủ chứng từ mẫu 01-TT, 02-TT có chữ ký của Thủ quỹ. Khi chưa đủ điều kiện lập chứng từ quỹ tiền mặt, các khoản chi thực hiện qua chuyển khoản ngân hàng; các khoản thu nộp trực tiếp vào tài khoản ngân hàng trong ngày.
 
-#### 6.2.3. Kiểm quỹ
+#### 5.2.3. Kiểm quỹ
 
 | | Định kỳ, dòng `M3` | Đột xuất, dòng `M3a` |
 | --- | --- | --- |
@@ -175,29 +152,29 @@ Mọi giao dịch thu, chi tiền mặt phải có đầy đủ chứng từ m�
 | Chữ ký trên biên bản | Ba, gồm `TQ`, `KTV` và `KTT` | Người làm, và `TQ` |
 | Người duyệt kết quả | `TGĐ` | `TGĐ` |
 
-> [!note] KIỂM ĐỘT XUẤT MẤT TÁC DỤNG NGAY KHI CÓ LỊCH
-> Nếu hai lần một năm luôn rơi vào cuối tháng 6 và cuối tháng 12 thì đó là kiểm định kỳ lần thứ hai, không phải kiểm đột xuất. Cách chọn thời điểm thuộc `TGĐ` hoặc `KTT`, và **không ghi vào lịch nào mà `TQ` xem được**.
->
-> Chênh lệch phát hiện ở bất kỳ lượt kiểm nào thì mở một sự cố theo mục 6.7. Không được để chênh lệch sang kỳ sau: điều luật đòi chênh lệch được xác định nguyên nhân và phản ánh vào sổ **trước khi lập báo cáo tài chính** `[Luật Kế toán 41/VBHN-VPQH Đ.40 k.3]`.
+> [!note] NGUYÊN TẮC KIỂM TRA QUỸ ĐỘT XUẤT
+> Thời điểm kiểm tra đột xuất do `TGĐ` hoặc `KTT` quyết định không báo trước cho Thủ quỹ nhằm bảo đảm tính khách quan và hiệu lực kiểm soát.
 
-### 6.3. TÀI KHOẢN NGÂN HÀNG
+Chênh lệch phát hiện ở bất kỳ lượt kiểm nào thì mở một sự cố theo mục 5.7. Không được để chênh lệch sang kỳ sau: điều luật đòi chênh lệch được xác định nguyên nhân và phản ánh vào sổ **trước khi lập báo cáo tài chính** `[Luật Kế toán 41/VBHN-VPQH Đ.40 k.3]`.
 
-#### 6.3.1. Danh mục tài khoản
+### 5.3. TÀI KHOẢN NGÂN HÀNG
 
-Số tài khoản đang hoạt động và cách duyệt Danh mục: [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 34.2. Mở thêm tài khoản ngoài số đó phải có lý do bằng văn bản.
+#### 5.3.1. Danh mục tài khoản
+
+Số tài khoản đang hoạt động và cách duyệt Danh mục: OBK-QCTC-01 mục 34.2. Mở thêm tài khoản ngoài số đó phải có lý do bằng văn bản.
 
 Danh mục do `KTV` lập, `KTT` soát, **`TGĐ` duyệt**. Việc duyệt thuộc `TGĐ` vì cả `KTV` và `KTT` đều giữ quyền tạo lệnh, nên danh mục do hai người tạo lệnh tự duyệt là không đạt.
 
 **Danh mục tài khoản là đầu vào của chốt `KS-NB-M3`:** không có danh mục thì không biết phải đối chiếu bao nhiêu tài khoản, nên không kiểm được là đã đối chiếu đủ hay chưa.
 
-#### 6.3.2. Hai điều cấm tuyệt đối
+#### 5.3.2. Các hành vi nghiêm cấm trong quản lý tài khoản ngân hàng
 
-- **Không dùng tài khoản cá nhân của bất kỳ nhân sự nào** để thu tiền của khách hoặc để chi cho hoạt động của công ty, theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 34.4. Ngoại lệ duy nhất là cơ chế ủy quyền chi hộ tại Điều 19 của quy chế, trong đó người lao động dùng phương tiện thanh toán cá nhân rồi được oBacker hoàn lại bằng chuyển khoản.
-- **Không ai được thực hiện đồng thời hai thao tác tạo và xác nhận cho cùng một lệnh**, theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 35.1a.
+- **Không dùng tài khoản cá nhân của bất kỳ nhân sự nào** để thu tiền của khách hoặc để chi cho hoạt động của công ty, theo OBK-QCTC-01 mục 34.4. Ngoại lệ duy nhất là cơ chế ủy quyền chi hộ tại Điều 19 của quy chế, trong đó người lao động dùng phương tiện thanh toán cá nhân rồi được oBacker hoàn lại bằng chuyển khoản.
+- **Không ai được thực hiện đồng thời hai thao tác tạo và xác nhận cho cùng một lệnh**, theo OBK-QCTC-01 mục 35.1a.
 
-### 6.4. ĐỐI CHIẾU SAO KÊ VỚI SỔ
+### 5.4. ĐỐI CHIẾU SAO KÊ VỚI SỔ
 
-#### 6.4.1. Hai cấp, và làm gì ở mỗi cấp
+#### 5.4.1. Trình tự đối chiếu sao kê hai cấp
 
 | Cấp | Phạm vi | Tần suất | Mục đích |
 | --- | --- | --- | --- |
@@ -206,36 +183,36 @@ Danh mục do `KTV` lập, `KTT` soát, **`TGĐ` duyệt**. Việc duyệt thu�
 
 Cả hai cấp do `AD-KT` làm và `TGĐ` duyệt. Con số hai tần suất ĐẶT tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 34.3.
 
-#### 6.4.2. Ba việc lượt đối chiếu phải bắt, không chỉ một
+#### 5.4.2. Nội dung kiểm tra trong lượt đối chiếu sao kê
 
 Đối chiếu không chỉ là khớp số dư. Mỗi lượt phải trả lời ba câu:
 
-1. **Số dư từng tài khoản khớp sổ hay không.** Đây là việc ai cũng làm.
-2. **Có giao dịch nào trên sao kê mà sổ không có.** Đây là chỗ bắt được lệnh chi không qua quy trình.
+1. **Số dư từng tài khoản khớp sổ hay không.**
+2. **Có giao dịch phát sinh trên sao kê ngân hàng nhưng chưa ghi sổ kế toán:** phát hiện các lệnh chi chưa qua phê duyệt hoặc sai lệch tài khoản người nhận.
 3. **Có khoản tiền nào về mà chưa khớp một hóa đơn nào.** Đây là chốt `KS-NB-T5` của [[OBK-SOP-NB-02_Thu_tien_va_cong_no_phai_thu|OBK-SOP-NB-02]], chạy trên lượt đối chiếu nhanh này.
 
-#### 6.4.3. Chênh lệch thì báo ai
+#### 5.4.3. Chênh lệch thì báo ai
 
 Chênh lệch chưa giải thích được phải báo **`TGĐ` ngay trong ngày phát hiện**, không để sang kỳ sau, và **không báo qua `KTV` hoặc `KTT`** vì hai người đó là người tạo lệnh. `KTT` được nhận bản sao để xử phần kế toán, nhưng `KTT` không có quyền yêu cầu sửa bảng đối chiếu.
 
-Mở một sự cố theo mục 6.7.
+Mở một sự cố theo mục 5.7.
 
-### 6.5. RÀ SOÁT PHÂN QUYỀN NGÂN HÀNG ĐIỆN TỬ
+### 5.5. RÀ SOÁT PHÂN QUYỀN NGÂN HÀNG ĐIỆN TỬ
 
 Đây là dòng `M6`, và là điểm kiểm soát nặng nhất của mảng nội bộ.
 
-#### 6.5.1. Bốn việc của một lượt rà soát
+#### 5.5.1. Trình tự rà soát phân quyền ngân hàng điện tử
 
 1. **Lấy danh sách người dùng và quyền hiện hành TỪ HỆ THỐNG NGÂN HÀNG**, không lấy từ danh sách nội bộ. Danh sách nội bộ là điều oBacker tưởng; danh sách của ngân hàng là điều thật.
-2. **So với cơ chế đã chốt tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 35.1a:** ai được TẠO lệnh, ai được XÁC NHẬN lệnh. Người ngoài hai nhóm đó mà có quyền là một điểm lệch phải xử trong ngày.
+2. **So với cơ chế đã chốt tại OBK-QCTC-01 mục 35.1a:** ai được TẠO lệnh, ai được XÁC NHẬN lệnh. Người ngoài hai nhóm đó mà có quyền là một điểm lệch phải xử trong ngày.
 3. **Kiểm không ai giữ cả hai thao tác.** Một người có cả quyền tạo và quyền xác nhận là chốt tách quyền đã mất, dù người đó chưa dùng.
 4. **Kiểm người đã nghỉ việc hoặc đã đổi vai trò không còn quyền nào.** Đây là điểm lệch hay gặp nhất, vì việc thu hồi quyền trên ngân hàng không nằm trong quy trình nghỉ việc của nhân sự.
 
-#### 6.5.2. Ai làm, ai duyệt
+#### 5.5.2. Ai làm, ai duyệt
 
 `TGĐ` thực hiện rà soát, `HĐQT` duyệt kết quả rà soát kèm bản gốc danh sách người dùng và phân quyền lấy trực tiếp từ hệ thống ngân hàng điện tử.
 
-### 6.6. KẾ HOẠCH DÒNG TIỀN
+### 5.6. KẾ HOẠCH DÒNG TIỀN
 
 Dòng `M1`. `KTV` lập bảng 03 tháng tới, cập nhật hằng tháng trong 05 ngày làm việc đầu tháng, `KTT` soát.
 
@@ -243,18 +220,18 @@ Ba đầu vào, và cả ba đến từ hai văn bản kia:
 
 | Đầu vào | Từ đâu |
 | --- | --- |
-| Tiền sẽ về: công nợ phải thu theo ngày đến hạn, và hợp đồng đã ký chưa xuất hóa đơn | [[OBK-SOP-NB-02_Thu_tien_va_cong_no_phai_thu\|OBK-SOP-NB-02]] mục 6.5.1 bảng tuổi nợ |
-| Tiền sẽ ra: công nợ phải trả, các khoản định kỳ, hợp đồng đã ký chưa tới đợt trả | [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] mục 6.11 và các hồ sơ ở trạng thái đã duyệt chờ chi |
+| Tiền sẽ về: công nợ phải thu theo ngày đến hạn, và hợp đồng đã ký chưa xuất hóa đơn | [[OBK-SOP-NB-02_Thu_tien_va_cong_no_phai_thu\|OBK-SOP-NB-02]] mục 5.5.1 bảng tuổi nợ |
+| Tiền sẽ ra: công nợ phải trả, các khoản định kỳ, hợp đồng đã ký chưa tới đợt trả | [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] mục 5.11 và các hồ sơ ở trạng thái đã duyệt chờ chi |
 | Ngân sách năm đã duyệt, và thực hiện tới kỳ | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 22;<br>dòng `M1a` |
 
-> [!note] KẾ HOẠCH DÒNG TIỀN LÀ CHỖ DUY NHẤT BA CHU TRÌNH GẶP NHAU, NÊN NÓ CŨNG LÀ PHÉP KIỂM CHÉO RẺ NHẤT
-> Nếu tổng tiền sẽ về trong bảng này không khớp bảng tuổi nợ của [[OBK-SOP-NB-02_Thu_tien_va_cong_no_phai_thu|OBK-SOP-NB-02]], hoặc tổng tiền sẽ ra không khớp số hồ sơ đang chờ chi của [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]], thì một trong ba sổ đang sai. Lệch bất kỳ chỗ nào thì tìm nguyên nhân trước khi trình `KTT`, không làm tròn cho khớp.
+> [!note] VAI TRÒ TỔNG HỢP CỦA KẾ HOẠCH DÒNG TIỀN
+> Kế hoạch dòng tiền phản ánh mối quan hệ đối ứng giữa các chu trình Thu, Chi và Ngân sách. Mọi sai lệch giữa số liệu kế hoạch dòng tiền và số liệu công nợ phải thu, phải trả thực tế phải được xác minh nguyên nhân và điều chỉnh trước khi trình KTT phê duyệt.
 
-### 6.7. SỰ CỐ CHÊNH LỆCH. THỨ DUY NHẤT CỦA CHU TRÌNH NÀY CÓ VÒNG ĐỜI
+### 5.7. Quy trình xử lý sự cố chênh lệch tiền
 
 Một sự cố chênh lệch mở ra khi tiền thật không khớp sổ, từ một trong hai nguồn: kiểm quỹ, hoặc đối chiếu sao kê.
 
-#### 6.7.1. Bảng tra trạng thái
+#### 5.7.1. Bảng tra trạng thái
 
 | Sự cố đang ở | Nghĩa là | Ai đang giữ | Cần gì để đi tiếp |
 | --- | --- | --- | --- |
@@ -265,17 +242,10 @@ Một sự cố chênh lệch mở ra khi tiền thật không khớp sổ, từ
 | **Đã đóng** | Đã phản ánh vào sổ, và đã xử trách nhiệm nếu có | Đóng | |
 | **Chuyển thành nghi gian lận** | Dấu hiệu không phải sai sót | `TGĐ`, và `HĐQT` được báo | Xử theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 49;<br>mọi lệnh chi liên quan dừng |
 
-> [!note] HAI QUY TẮC BẮT BUỘC CỦA MỤC NÀY
+> [!note] NGUYÊN TẮC XỬ LÝ SỰ CỐ CHÊNH LỆCH TIỀN
+> Mọi khoản chênh lệch tiền phải được xác định nguyên nhân và phản ánh vào sổ kế toán trước thời điểm lập báo cáo tài chính theo `[Luật Kế toán 41/VBHN-VPQH Đ.40 k.3]`. Tuyệt đối không để sự cố chênh lệch tồn đọng sang kỳ sau. Đồng thời, nhân sự được giao xác minh nguyên nhân phải độc lập với người đã tạo lệnh thanh toán đối với giao dịch đang kiểm tra nhằm bảo đảm tính khách quan và kiểm soát nội bộ.
 
-> [!note] Một, KHÔNG ĐƯỢC ĐỂ SỰ CỐ SANG KỲ SAU
-> Chênh lệch phải được xác định nguyên nhân và phản ánh vào sổ **trước khi lập báo cáo tài chính** `[Luật Kế toán 41/VBHN-VPQH Đ.40 k.3]`. Một sự cố còn mở khi khóa sổ là một khoản trên báo cáo mà không ai giải thích được.
-
-> [!note] Hai, NGƯỜI TÌM NGUYÊN NHÂN KHÔNG ĐƯỢC LÀ NGƯỜI TẠO LỆNH CỦA KHOẢN ĐANG XÉT
-> Nếu chênh lệch nằm ở một giao dịch mà `KTV` đã tạo lệnh thì `KTV` không được là người truy nguyên nhân giao dịch đó. Cùng lý do với việc `KTV` không được đối chiếu sao kê.
->
-> **Vì sao mục này có bảng tra trạng thái mà cả văn bản thì không.** Một sự cố chênh lệch đạt cả bốn câu kiểm tại `04_MO_HINH_VAN_HANH.md` mục 16.1: sự cố chênh lệch là một danh từ mà người ta hỏi "cái chênh lệch đó tới đâu rồi"; sự cố đó sinh một lần và đóng một lần; tình trạng của sự cố đó ngăn được việc, cụ thể là chặn việc khóa sổ; và có ít nhất `AD-KT`, `KTT` và `TGĐ` cùng nhìn vào sự cố đó.
-
-## 7. Điểm kiểm soát bắt buộc
+## 6. Điểm kiểm soát bắt buộc
 
 | Mã | Chốt | Tần suất | Ai kiểm | Ai duyệt kết quả |
 | --- | --- | --- | --- | --- |
@@ -286,10 +256,10 @@ Một sự cố chênh lệch mở ra khi tiền thật không khớp sổ, từ
 | `KS-NB-M5` | Không có sự cố chênh lệch nào còn mở tại thời điểm khóa sổ | Mỗi lần khóa sổ | `KTT` | `TGĐ` |
 | `KS-NB-M6` | Người tìm nguyên nhân chênh lệch không phải người tạo lệnh của khoản đang xét | Mỗi sự cố | `TGĐ` | `HĐQT` với sự cố chuyển thành nghi gian lận |
 
-> [!note] `KS-NB-M4` TỚI `KS-NB-M6` LÀ BA CHỐT MỚI, KHÔNG CÓ TRONG KHUNG TẠI `06_OBK-SOP-NB-00` MỤC 7.3
-> Khung có ba chốt, phủ việc chi tiền, phân quyền và phạm vi đối chiếu. Ba chốt mới phủ ba chỗ khung để trống: phiếu thu phiếu chi, việc đóng sự cố trước khi khóa sổ, và tách quyền trong khâu điều tra chênh lệch. Chốt thứ ba đáng chú ý nhất, vì chốt đó là chỗ mà toàn bộ lớp kiểm soát độc lập có thể bị vô hiệu chỉ bằng cách giao việc điều tra cho đúng người đã tạo lệnh.
+> [!note] CÁC ĐIỂM KIỂM SOÁT BỔ SUNG CỦA CHU TRÌNH QUẢN LÝ TIỀN
+> Các điểm kiểm soát `KS-NB-M4`, `KS-NB-M5` và `KS-NB-M6` bổ sung yêu cầu bắt buộc đối với chứng từ thu chi tiền mặt, đóng sự cố chênh lệch trước khi khóa sổ và nguyên tắc độc lập khi điều tra chênh lệch nhằm hoàn thiện khung kiểm soát nội bộ.
 
-## 8. Lỗi thường gặp và cách xử lý
+## 7. Lỗi thường gặp và cách xử lý
 
 | # | Lỗi thường gặp | Hậu quả | Cách xử |
 | --- | --- | --- | --- |
@@ -300,16 +270,16 @@ Một sự cố chênh lệch mở ra khi tiền thật không khớp sổ, từ
 | 5 | Chênh lệch nhỏ nên để sang kỳ sau cho gọn | Vi phạm `Đ.40 k.3`, và tới lúc lập báo cáo thì không còn ai nhớ nguyên nhân | Chốt `KS-NB-M5`;<br>mọi sự cố phải đóng trước khi khóa sổ |
 | 6 | Giao việc truy chênh lệch cho `KTV` vì `KTV` biết rõ giao dịch nhất | Người tạo lệnh đi điều tra chính lệnh mình tạo | Chốt `KS-NB-M6`;<br>`TGĐ` chỉ định người khác |
 | 7 | Chia một khoản chi thành nhiều lần dưới mức tối đa để chi bằng tiền mặt | Mất quyền tính vào chi phí được trừ | `KTV` đối chiếu theo cặp nhà cung cấp và ngày, theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 32.3 |
-| 8 | Lấy danh sách phân quyền từ sổ nội bộ thay vì từ hệ thống ngân hàng | Rà soát đúng điều oBacker tưởng, không đúng điều thật | Việc số 1 của mục 6.5.1 |
-| 9 | Kế hoạch dòng tiền làm tròn cho khớp ngân sách | Mất một phép kiểm chéo rẻ nhất giữa ba chu trình | Lệch thì tìm nguyên nhân, xem ghi chú tại mục 6.6 |
+| 8 | Lấy danh sách phân quyền từ sổ nội bộ thay vì từ hệ thống ngân hàng | Rà soát đúng điều oBacker tưởng, không đúng điều thật | Việc số 1 của mục 5.5.1 |
+| 9 | Kế hoạch dòng tiền làm tròn cho khớp ngân sách | Mất một phép kiểm chéo rẻ nhất giữa ba chu trình | Lệch thì tìm nguyên nhân, xem ghi chú tại mục 5.6 |
 
-## 9. Đầu ra và nơi lưu
+## 8. Đầu ra và nơi lưu
 
 | Đầu ra | Người tạo | Tần suất | Nơi lưu |
 | --- | --- | --- | --- |
 | Bảng kế hoạch dòng tiền 03 tháng | `KTV` | Hằng tháng | Thư mục tài chính theo kỳ |
 | Báo cáo thực hiện ngân sách | `KTV` | Hằng tháng | Thư mục tài chính theo kỳ;<br>gửi `TL` và `TGĐ` |
-| Phiếu thu `BM-PT`, phiếu chi `BM-PC` | `KTV` lập, `TQ` ký | Mỗi lần | `[PHẦN MỀM KẾ TOÁN]`. Chưa dùng, xem mục 6.2.2 |
+| Phiếu thu `BM-PT`, phiếu chi `BM-PC` | `KTV` lập, `TQ` ký | Mỗi lần | `[PHẦN MỀM KẾ TOÁN]`. Chưa dùng, xem mục 5.2.2 |
 | Sổ quỹ tiền mặt | `TQ` | Liên tục | Tại văn phòng giữ quỹ. Chưa dùng |
 | Biên bản kiểm quỹ định kỳ, ba chữ ký | `KTV` lập | Hằng tháng | Thư mục kiểm quỹ. Chưa dùng |
 | Biên bản kiểm quỹ đột xuất | Người `TGĐ` chỉ định | Tối thiểu 02 lần một năm | Thư mục kiểm quỹ. Chưa dùng |
@@ -319,7 +289,7 @@ Một sự cố chênh lệch mở ra khi tiền thật không khớp sổ, từ
 | Danh mục tài khoản ngân hàng | `KTV` lập, `TGĐ` duyệt | Khi thay đổi | Thư mục tài chính |
 | Hồ sơ sự cố chênh lệch, gồm kết luận nguyên nhân và bút toán xử lý | Người `TGĐ` chỉ định | Mỗi sự cố | Thư mục sự cố |
 
-## 10. Chỉ số theo dõi
+## 9. Chỉ số theo dõi
 
 | # | Chỉ số | Nguồn số | Tần suất | Ngưỡng cảnh báo |
 | --- | --- | --- | --- | --- |
@@ -327,8 +297,8 @@ Một sự cố chênh lệch mở ra khi tiền thật không khớp sổ, từ
 | 2 | Số ngày từ lúc một người nghỉ việc tới lúc quyền trên ngân hàng bị thu hồi | Dòng `M6` | Mỗi lần | Phải bằng 0 ngày |
 | 3 | Số tài khoản không được đối chiếu trong kỳ | Chốt `KS-NB-M3` | Hằng tháng | Phải bằng 0 |
 | 4 | Số ngày trễ của lượt đối chiếu nhanh so với ngày làm việc đầu tiên của kỳ sau | Dòng `M5` | Mỗi 02 tuần | Trên 0 ngày là lệch chuẩn |
-| 5 | Số sự cố chênh lệch mở trong kỳ, chia theo nguồn phát hiện | Mục 6.7 | Hằng tháng | chưa đặt |
-| 6 | Số ngày trung bình từ lúc mở tới lúc đóng một sự cố chênh lệch | Mục 6.7 | Hằng tháng | chưa đặt |
+| 5 | Số sự cố chênh lệch mở trong kỳ, chia theo nguồn phát hiện | Mục 5.7 | Hằng tháng | chưa đặt |
+| 6 | Số ngày trung bình từ lúc mở tới lúc đóng một sự cố chênh lệch | Mục 5.7 | Hằng tháng | chưa đặt |
 | 7 | Số sự cố còn mở tại thời điểm khóa sổ | Chốt `KS-NB-M5` | Mỗi lần khóa sổ | Phải bằng 0 |
 | 8 | Số lần chi tiền mặt vượt mức tối đa, và số lần đã có phê duyệt của `TGĐ` | Dòng `M2` | Hằng tháng | Hai số phải bằng nhau |
 | 9 | Số lần tồn quỹ cuối ngày vượt mức tối đa | Sổ quỹ | Hằng tháng | chưa đặt |
@@ -343,8 +313,8 @@ Chỉ số chưa đặt ngưỡng thì người lập báo cáo ghi số đo và
 | --- | --- |
 | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 22, 32 tới 35, 40, 47, 48, 49 | Bản gốc của con số, thẩm quyền, quy tắc tách quyền và chế tài |
 | [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-QCTC-03]] Điều 4 và mục 4.1 | Chữ ký theo chức danh của phiếu thu và phiếu chi;<br>vai trò `TQ` chưa có người |
-| [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] mục 6.0a | Hành trình của một lệnh chi. Văn bản này chỉ nói về quyền và cơ chế trên ngân hàng |
-| [[OBK-SOP-NB-02_Thu_tien_va_cong_no_phai_thu\|OBK-SOP-NB-02]] mục 6.4.2 và 6.5.1 | Chốt `KS-NB-T5` chạy trên lượt đối chiếu nhanh của văn bản này;<br>bảng tuổi nợ là đầu vào của kế hoạch dòng tiền |
+| [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] mục 5.0a | Hành trình của một lệnh chi. Văn bản này chỉ nói về quyền và cơ chế trên ngân hàng |
+| [[OBK-SOP-NB-02_Thu_tien_va_cong_no_phai_thu\|OBK-SOP-NB-02]] mục 5.4.2 và 5.5.1 | Chốt `KS-NB-T5` chạy trên lượt đối chiếu nhanh của văn bản này;<br>bảng tuổi nợ là đầu vào của kế hoạch dòng tiền |
 | [[PL_Tu_dien_vai\|OBK-QCTC-02-PL-A]] mục 4 | Vai trò `TQ` và ba điều cấm khi gán người |
 | `06_OBK-SOP-NB-00` mục 7 | Khung chu trình và danh mục Job `NB-17` tới `NB-21`, `NB-31` |
 
@@ -354,4 +324,5 @@ Chỉ số chưa đặt ngưỡng thì người lập báo cáo ghi số đo và
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 30/09/2026 | R.1.0.1 | Chia 3 câu dài ở mục đích, căn cứ nội bộ và mục 5.2.2 thành câu ngắn bằng dấu chấm phay, không đổi nghĩa |
+| 04/10/2026 | R.1.0.2 | Chuẩn hóa văn phong hành chính, bỏ số đếm ở tiêu đề và callout, hoàn thiện các quy định kiểm soát quỹ và tài khoản |

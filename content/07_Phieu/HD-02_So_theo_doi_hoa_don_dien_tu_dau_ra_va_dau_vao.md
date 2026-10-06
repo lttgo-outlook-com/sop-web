@@ -4,19 +4,15 @@ code: "HD-02"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-TTT-05 Cách làm phiếu thao tác"
-law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - HD-02
 tags:
@@ -29,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | HD-02 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -40,6 +36,7 @@ tags:
 | **Ai dùng** | Kế toán viên thuế (`KTV`), Kế toán trưởng (`KTT`), Trưởng bộ phận Kế toán (`TL-KT`), Giám đốc điều hành cấp cao (`CEO`) |
 || **Sinh từ** | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]];<br>[[PL_H_Quy_trinh_chu_ky_so_va_hoa_don_dien_tu\|OBK-SOP-PL-H]];<br>[[04_Quan_ly_chung_tu\|OBK-SOP-04]];<br>Nghị định 254/2026/NĐ-CP; Thông tư 91/2026/TT-BTC |
 | **Ngày làm phiếu** | 27/09/2026 |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
@@ -103,7 +100,7 @@ Quy tắc phân định kỳ kê khai thuế khi phát hành hóa đơn điều 
 - Khi bán cho khách hàng: oBacker phát hành hóa đơn giá trị gia tăng đầu ra trực tiếp cho khách hàng theo giá bán quy định tại danh mục dịch vụ.
 - Đầu vào: CyberX phát hành hóa đơn giá trị gia tăng đầu vào cho oBacker theo giá đại lý. Kế toán đối chiếu số lượng chứng thư số kích hoạt trên sổ [[CK-02_Theo_doi_kho_token_va_kich_hoat_cyberx|CK-02]] với số lượng trên hóa đơn đầu vào của CyberX trước khi duyệt thanh toán.
 
-## QUY TRÌNH 5 BƯỚC PHÁT HÀNH VÀ QUẢN LÝ HÓA ĐƠN ĐIỆN TỬ
+## QUY TRÌNH PHÁT HÀNH VÀ QUẢN LÝ HÓA ĐƠN ĐIỆN TỬ
 
 ```
 [1. Tiếp nhận đề nghị] -> [2. Lập dự thảo & Rà soát] -> [3. Phê duyệt & Ký số] -> [4. Gửi CQT & Khách] -> [5. Ghi sổ & Kê khai]
@@ -129,22 +126,7 @@ Quy tắc phân định kỳ kê khai thuế khi phát hành hóa đơn điều 
 
 Bảo đảm 100% hóa đơn điện tử đầu ra và đầu vào được quản lý tập trung, minh bạch, có đối soát chéo với dòng tiền ngân hàng và hợp đồng dịch vụ; ngăn chặn triệt để các sai phạm về hóa đơn bất hợp pháp; tuân thủ đúng quy định về xử lý sai sót theo Nghị định 254/2026/NĐ-CP và Thông tư 91/2026/TT-BTC; bảo đảm nghĩa vụ thuế giá trị gia tăng được kê khai đầy đủ, chính xác, không gây nguy cơ bị cơ quan thuế xử phạt vi phạm hành chính cho oBacker và khách hàng.
 
-### 2. Căn cứ quy định và pháp luật liên quan
 
-| Mục | Nguồn | Nội dung |
-| --- | --- | --- |
-| Quy trình kế toán và thuế | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] | Chuẩn hóa việc ghi nhận doanh thu và kê khai thuế |
-| Quản lý chứng từ | [[04_Quan_ly_chung_tu\|OBK-SOP-04]] | Quy tắc thu thập, kiểm tra và lưu trữ chứng từ điện tử |
-| Chữ ký số và hóa đơn | [[PL_H_Quy_trinh_chu_ky_so_va_hoa_don_dien_tu\|OBK-SOP-PL-H]] | Thẩm quyền ký số và phát hành hóa đơn điện tử |
-| Theo dõi kho Token | [[CK-02_Theo_doi_kho_token_va_kich_hoat_cyberx\|CK-02]] | Đối chiếu chứng từ đầu vào và đầu ra dịch vụ đại lý CyberX |
-
-### 3. Căn cứ pháp lý
-
-| Văn bản | Điều khoản | Nội dung áp dụng |
-| --- | --- | --- |
-| Luật Quản lý thuế số 108/2025/QH15 | Điều 12, Điều 42 | Nguyên tắc khai bổ sung hồ sơ khai thuế và quản lý hóa đơn điện tử |
-| Nghị định 254/2026/NĐ-CP | Điều 9, Điều 10 | Quy định về hóa đơn điện tử: thời điểm lập hóa đơn và nội dung bắt buộc của hóa đơn |
-| Thông tư 91/2026/TT-BTC | Điều 10 | Quy định chi tiết xử lý hóa đơn điện tử đã lập có sai sót, nguyên tắc lập hóa đơn điều chỉnh và thay thế |
 
 ---
 
@@ -152,4 +134,4 @@ Bảo đảm 100% hóa đơn điện tử đầu ra và đầu vào được qu�
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu HD-02 về Sổ cái OBK-MSR |

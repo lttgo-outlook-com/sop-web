@@ -7,22 +7,17 @@ level: "Cấp 3, hướng dẫn nghiệp vụ"
 version: "R.1.0.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 07/09/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
 parent: "OBK-SOP-AM Quản lý khách hàng"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-HB-32
 tags:
   - loai/sop
   - cap/3
-  - nghiep-vu/bao-cao-lao-dong
-  - nghiep-vu/nghia-vu-ke-toan
 ---
 # HƯỚNG DẪN 02. HỌP LÀM RÕ NHU CẦU
 
@@ -54,18 +49,8 @@ Hướng dẫn này giải một việc: làm cho cuộc họp 15 tới 30 phút
 
 Không áp cho cuộc họp rà soát định kỳ với khách đang có hợp đồng; cuộc đó đi theo `AM-27` và hướng dẫn 07. Cũng không áp cho cuộc họp có `TL` bộ phận tham dự để giải một vấn đề chuyên môn; cuộc đó `AM` vẫn tổ chức và chủ trì, nhưng nội dung do `TL` chuẩn bị.
 
-## 3. CĂN CỨ PHÁP LÝ
 
-Hướng dẫn này là thao tác thương mại, nên phần lớn nội dung dựa trên quyết định nội bộ. Hai chỗ có liên quan tới pháp luật:
-
-| Mã | Dùng ở bước nào | Vì sao cần |
-| --- | --- | --- |
-| [[CC-LD-121 Báo cáo 06 tháng trước ngày 05 tháng 6; hằng năm trước ngày 05 tháng 12, gửi Sở Nội vụ qua Cổng Dịch vụ công Quốc gia theo Mẫu 01-PLI\|CC-LD-121]] | Bước 3, khi hỏi hiện trạng lao động | Nghĩa vụ báo cáo tình hình sử dụng lao động, dùng để nhận ra khách đang có nghĩa vụ quá hạn |
-| [[CC-KT-03 Nộp báo cáo tài chính năm, 90 ngày kể từ ngày kết thúc kỳ kế toán năm\|CC-KT-03]] | Bước 3, khi hỏi hiện trạng kế toán | Thời hạn nộp báo cáo tài chính năm, dùng cùng mục đích trên |
-
-Hai mã trên dùng để NHẬN RA hiện trạng, không dùng để tư vấn tại cuộc họp. `AM` không trả lời nội dung chuyên môn, kể cả khi biết, theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] NT-2 và [[02_OBK-SOP-AM_Quan_ly_khach_hang|OBK-SOP-AM]] mục 7.
-
-## 4. VAI TRÒ VÀ TRÁCH NHIỆM
+## 3. VAI TRÒ VÀ TRÁCH NHIỆM
 
 | Việc | `AM` | `TL` bộ phận | TP Thương mại |
 | --- | --- | --- | --- |
@@ -74,7 +59,7 @@ Hai mã trên dùng để NHẬN RA hiện trạng, không dùng để tư vấn
 | Ghi biên bản và gửi thư tóm tắt | R và A | C | I |
 | Kết luận đi tiếp hay dừng | R | C | A |
 
-## 5. ĐẦU VÀO BẮT BUỘC
+## 4. ĐẦU VÀO BẮT BUỘC
 
 | Đầu vào | Thiếu thì sao |
 | --- | --- |
@@ -83,21 +68,21 @@ Hai mã trên dùng để NHẬN RA hiện trạng, không dùng để tư vấn
 | Lịch họp đã được khách xác nhận | Không họp. Hẹn lại |
 | `TL` bộ phận đã được mời, nếu nội dung có phần chuyên môn nặng | Vẫn họp được, nhưng `AM` không trả lời phần chuyên môn;<br>ghi lại câu hỏi và trả lời sau theo `AM-10` |
 
-## 6. CÁC BƯỚC THỰC HIỆN
+## 5. CÁC BƯỚC THỰC HIỆN
 
-### 6.1. Bước 1. Chuẩn bị, 15 phút trước họp
+### 5.1. Bước 1. Chuẩn bị, 15 phút trước họp
 
 Đọc lại bản ghi lead. Viết ra ba thứ vào Job trước khi vào họp: giả thiết của mình về việc khách cần gì; hai câu hỏi mình chắc chắn phải hỏi; và một điều mình chưa biết mà nếu không biết thì không báo giá được.
 
 Mời `TL` bộ phận khi nội dung chạm một trong ba việc: khách đang có nghĩa vụ quá hạn; khách hỏi một nghiệp vụ mà oBacker chưa từng làm; hoặc khách yêu cầu một mốc mà `AM` không tự đánh giá được.
 
-### 6.2. Bước 2. Mở đầu, 02 phút
+### 5.2. Bước 2. Mở đầu, 02 phút
 
 Ba câu, theo thứ tự này: xác nhận thời lượng cuộc họp; nói rõ mục đích là để hiểu nhu cầu chứ chưa phải để báo giá; và nói rõ `AM` là đầu mối duy nhất của khách về sau. Câu chữ mẫu tại `PL_A` mục 4.
 
 Phải nói rõ là chưa báo giá, vì không nói thì khách chờ một con số ở cuối cuộc họp, và `AM` sẽ bị đẩy tới chỗ đưa ra một con số chưa có xác nhận khả thi.
 
-### 6.3. Bước 3. Hỏi theo bốn nhóm, 15 tới 20 phút
+### 5.3. Bước 3. Phỏng vấn theo nhóm nội dung, 15 tới 20 phút
 
 Thứ tự nhóm là thứ tự cố định. Đảo thứ tự thì khách kể giải pháp trước khi kể vấn đề, và cuộc họp trôi vào chi tiết kỹ thuật.
 
@@ -109,23 +94,23 @@ Thứ tự nhóm là thứ tự cố định. Đảo thứ tự thì khách kể
 
 **Nhóm 4, người quyết.** Hỏi ai ký, ai duyệt ngân sách, và còn ai cần xem đề xuất. Không hỏi câu này thì đề xuất gửi cho người không quyết được.
 
-### 6.4. Bước 4. Chốt lại và nói bước tiếp theo, 03 phút
+### 5.4. Bước 4. Tóm tắt nội dung và xác nhận kế hoạch tiếp theo, 03 phút
 
 Nhắc lại bằng lời của mình những gì đã hiểu, rồi hỏi khách có đúng không. Nói rõ ba thứ: `AM` sẽ lấy xác nhận khả thi từ bộ phận; đề xuất sẽ gửi trong bao lâu; và ai sẽ gửi.
 
 Không đưa mức giá, không đưa mốc giao, không cam kết phạm vi tại cuộc họp này. Khách hỏi bao lâu xong thì trả lời bằng câu chuẩn tại `PL_A` mục 5.
 
-### 6.5. Bước 5. Ghi biên bản, trong 15 phút sau họp
+### 5.5. Bước 5. Ghi biên bản, trong 15 phút sau họp
 
 Ghi ngay, không để sang buổi khác. Biên bản đủ năm phần: kết quả khách muốn đạt; hiện trạng, gồm cả nghĩa vụ đang tồn; mốc và loại mốc; người quyết ở phía khách; và danh mục câu hỏi chuyên môn chưa kết luận, kèm bộ phận sẽ trả lời.
 
-### 6.6. Bước 6. Gửi thư tóm tắt, trong 30 phút sau họp
+### 5.6. Bước 6. Gửi thư tóm tắt, trong 30 phút sau họp
 
 Gửi bằng email công ty, vì đó là kênh chính thống theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 7.2.1a. Nội dung là bản rút gọn của biên bản, cộng một câu về bước tiếp theo và mốc gửi đề xuất. Câu chữ mẫu tại `PL_A` mục 6.
 
-Thư tóm tắt có một tác dụng ít ai để ý: thư tóm tắt là chỗ khách sửa lại chỗ `AM` hiểu sai, trước khi cái hiểu sai đó đi vào đề xuất và vào hợp đồng.
+Thư tóm tắt nhu cầu đóng vai trò xác nhận bằng văn bản giữa hai bên, giúp chuẩn hóa thông tin và hiệu chỉnh các điểm chưa đồng nhất trước khi lập đề xuất dịch vụ và ký kết hợp đồng.
 
-## 7. ĐIỂM KIỂM SOÁT BẮT BUỘC
+## 6. ĐIỂM KIỂM SOÁT BẮT BUỘC
 
 | Mã | Chốt | Trước bước nào | Không đạt thì làm gì |
 | --- | --- | --- | --- |
@@ -133,7 +118,7 @@ Thư tóm tắt có một tác dụng ít ai để ý: thư tóm tắt là chỗ
 | Chốt 2 | Thư tóm tắt đã gửi bằng email công ty trong cùng ngày làm việc | Trước khi sang `AM-03` | Chưa được xác định là đã chốt nội dung với khách, theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 7.2.1a quy tắc 2 |
 | Chốt 3 | Không có mức giá, mốc giao, hay cam kết phạm vi nào trong biên bản và trong thư tóm tắt | Trước bước 6 | Xóa và thay bằng câu chuẩn tại `PL_A` mục 5. Cam kết mốc chưa có xác nhận của `TL` vi phạm `KS-AM-01` |
 
-## 8. LỖI THƯỜNG GẶP VÀ CÁCH XỬ LÝ
+## 7. LỖI THƯỜNG GẶP VÀ CÁCH XỬ LÝ
 
 | Lỗi thường gặp | Dấu hiệu nhận ra | Cách xử lý |
 | --- | --- | --- |
@@ -144,7 +129,7 @@ Thư tóm tắt có một tác dụng ít ai để ý: thư tóm tắt là chỗ
 | Ghi biên bản hôm sau | Biên bản có thời điểm tạo cách cuộc họp hơn một ngày | Ghi trong 15 phút. Sau một ngày thì phần hiện trạng và phần mốc là phần mất chi tiết nhiều nhất, và đó đúng là hai phần quyết định phạm vi |
 | Không ghi nghĩa vụ đang quá hạn của khách | Phần hiện trạng chỉ có mô tả cách làm hiện nay, không có dòng nào về nghĩa vụ tồn | Ba câu bắt buộc của nhóm 2 tồn tại vì lý do này.<br>Nhận khách có nghĩa vụ quá hạn theo giá dịch vụ thường là nhận cả rủi ro của quá khứ, dấu hiệu 4 tại [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] mục 8.1 |
 
-## 9. ĐẦU RA VÀ NƠI LƯU
+## 8. ĐẦU RA VÀ NƠI LƯU
 
 | Đầu ra | Nơi lưu | Giữ bao lâu |
 | --- | --- | --- |
@@ -152,7 +137,7 @@ Thư tóm tắt có một tác dụng ít ai để ý: thư tóm tắt là chỗ
 | Thư tóm tắt gửi khách | Hộp thư công ty của `AM`, và đính vào Job | Như trên |
 | Danh mục câu hỏi chuyên môn chưa kết luận | Job phụ mở cho bộ phận, liên kết về Job `AM-02` | Như trên |
 
-## 10. CHỈ SỐ THEO DÕI
+## 9. CHỈ SỐ THEO DÕI
 
 | Mã | Chỉ số | Ngưỡng | Đọc ở đâu |
 | --- | --- | --- | --- |

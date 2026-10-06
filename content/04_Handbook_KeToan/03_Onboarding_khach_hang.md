@@ -4,19 +4,16 @@ code: "OBK-SOP-03"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.0"
+version: "R.1.0.1"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 25/08/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
 parent: "OBK-SOP-KT Kế toán và thuế"
 next_review: "Chậm nhất 25/02/2027"
 chapter: "Tiếp nhận khách hàng mới"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-SOP-03
 tags:
@@ -33,7 +30,7 @@ tags:
 | Mã tài liệu | OBK-SOP-03 |
 | Tên chương | Tiếp nhận khách hàng mới |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.0.1, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -46,16 +43,14 @@ tags:
 
 ## CẢNH BÁO MỞ ĐẦU CHƯƠNG
 
-> [!question] CẦN XÁC MINH
-> Bộ tiêu chí chấm điểm rủi ro khách hàng, ngưỡng từ chối, bảng kiểm hồ sơ đầu vào và quy trình theo giai đoạn trong chương này là **QUY ĐỊNH NỘI BỘ OBACKER**, không phải quy định pháp luật. Các ngưỡng điểm là ngưỡng do Legal R&D đề xuất; CEO phải duyệt lại trước khi áp dụng.
->
-> Các nội dung sau đây thuộc pháp luật. Bản gốc Luật Kế toán bản hợp nhất số 41/VBHN-VPQH NAY ĐÃ CÓ trong kho tài liệu nội bộ, nên các nội dung ở cấp Luật được đối chiếu bản gốc kèm số điều khoản; phần thủ tục, hồ sơ và danh mục chi tiết do Chính phủ quy định thì vẫn giữ chưa xác minh được và không được nêu từ trí nhớ:
->
-> 1. Điều kiện cấp Giấy chứng nhận đủ điều kiện kinh doanh dịch vụ kế toán của đơn vị, cùng hồ sơ đề nghị, thời hạn cấp, cấp lại và phí cấp nằm tại `[Luật Kế toán 41/VBHN-VPQH Đ.60, Đ.61, Đ.62, Đ.63, Đ.64]`. Điều kiện đăng ký hành nghề dịch vụ kế toán của cá nhân nằm tại `[Luật Kế toán 41/VBHN-VPQH Đ.58 k.1]`; thủ tục cấp, thu hồi Giấy chứng nhận đăng ký hành nghề cho cá nhân do Bộ Tài chính quy định riêng `[Luật Kế toán 41/VBHN-VPQH Đ.58 k.2]`, thông tư đó chưa có trong kho.
-> 2. Nghĩa vụ mua bảo hiểm trách nhiệm nghề nghiệp của đơn vị kinh doanh dịch vụ kế toán được quy định tại `[Luật Kế toán 41/VBHN-VPQH Đ.67 k.6]`, thực hiện theo quy định của Chính phủ. Nghị định 174/2016/NĐ-CP Điều 28 quy định mốc 60 ngày phải mua bảo hiểm.
-> 3. Các trường hợp đơn vị kinh doanh dịch vụ kế toán không được cung cấp dịch vụ kế toán cho một đơn vị kế toán khác nằm tại `[Luật Kế toán 41/VBHN-VPQH Đ.68]`, gồm 06 khoản, trong đó có quan hệ thân thích với người quản lý hoặc kế toán trưởng của đơn vị kế toán, có quan hệ kinh tế, tài chính với đơn vị kế toán đó, và không đủ năng lực chuyên môn hoặc không đủ điều kiện thực hiện dịch vụ. Đây là giới hạn pháp lý cứng đối với việc nhận khách, cao hơn cả tiêu chí chấm điểm nội bộ. **TL-KT đối chiếu Điều 68 với từng khách trước khi kết luận; CEO quyết định nhận hay từ chối.** Xem mục 6.4.3 dòng 08.
-> 4. Nghĩa vụ về phòng chống rửa tiền áp dụng cho đơn vị cung cấp dịch vụ kế toán, gồm nhận biết khách hàng và báo cáo giao dịch đáng ngờ: Luật Phòng, chống rửa tiền 14/2022/QH15 và Nghị định 19/2023/NĐ-CP đã có toàn văn trong kho tại 05_PhapLuat/Khac/.
-> 5. Thời hạn lưu trữ tài liệu kế toán có BA mốc: ít nhất 05 năm, ít nhất 10 năm, và lưu trữ vĩnh viễn; ngoài ra tài liệu kế toán phải đưa vào lưu trữ trong thời hạn 12 tháng kể từ ngày kết thúc kỳ kế toán năm hoặc kết thúc công việc kế toán `[Luật Kế toán 41/VBHN-VPQH Đ.41 k.3, k.5]`. Danh mục chi tiết từng loại tài liệu do Chính phủ quy định tại khoản 6, xem Nghị định 174/2016/NĐ-CP tại Chương 04.
+> [!note] CĂN CỨ PHÁP LÝ VÀ QUY ĐỊNH NỘI BỘ VỀ TIẾP NHẬN KHÁCH HÀNG
+> - Quy định nội bộ oBacker: Bộ tiêu chí chấm điểm rủi ro khách hàng, ngưỡng từ chối, bảng kiểm hồ sơ đầu vào và quy trình tiếp nhận là quy định nội bộ do Ban điều hành phê duyệt.
+> - Căn cứ pháp lý điều chỉnh:
+>   1. Điều kiện kinh doanh và hành nghề dịch vụ kế toán: Thực hiện theo quy định tại Điều 58, 60 đến 64 Luật Kế toán hợp nhất 41/VBHN-VPQH và Thông tư 296/2016/TT-BTC.
+>   2. Bảo hiểm trách nhiệm nghề nghiệp: Thực hiện theo Điều 67 khoản 6 Luật Kế toán và Điều 28 Nghị định 174/2016/NĐ-CP (thời hạn tham gia chậm nhất 60 ngày kể từ ngày đăng ký hành nghề).
+>   3. Các trường hợp không được cung cấp dịch vụ kế toán: Áp dụng nghiêm ngặt Điều 68 Luật Kế toán (quan hệ thân thích, quan hệ kinh tế/tài chính, không đủ năng lực chuyên môn). TL-KT rà soát Điều 68 trước khi trình CEO phê duyệt nhận khách.
+>   4. Phòng, chống rửa tiền: Áp dụng Luật Phòng, chống rửa tiền 14/2022/QH15 và Nghị định 19/2023/NĐ-CP đối với việc nhận biết khách hàng và báo cáo giao dịch đáng ngờ.
+>   5. Thời hạn lưu trữ hồ sơ: Thực hiện theo Điều 41 Luật Kế toán và Nghị định 174/2016/NĐ-CP (thời hạn ít nhất 05 năm, 10 năm, lưu trữ vĩnh viễn và thời hạn đưa vào lưu trữ trong vòng 12 tháng kể từ khi kết thúc kỳ kế toán năm).
 
 ---
 
@@ -87,26 +82,10 @@ tags:
 
 ---
 
-## 3. Căn cứ pháp lý
-
-| # | Văn bản hoặc căn cứ | Nội dung dùng trong chương | Mức xác minh |
-| --- | --- | --- | --- |
-| 1 | Thông tư 99/2025/TT-BTC Điều 16 khoản 4 | Nghĩa vụ ghi số Giấy phép hành nghề dịch vụ kế toán và tên đơn vị cung cấp dịch vụ kế toán trên báo cáo tài chính, chỉ phát sinh khi khách THUÊ dịch vụ lập và trình bày báo cáo tài chính hoặc dịch vụ làm kế toán trưởng; là lý do hợp đồng không được gọi tên dịch vụ theo hai cách đó, xem mục 6.12 |  |
-| 2 | Thông tư 99/2025/TT-BTC Điều 9 khoản 2, Điều 11 khoản 2, Điều 12 khoản 2 | Nghĩa vụ ban hành Quy chế hạch toán kế toán khi doanh nghiệp tự thiết kế biểu mẫu chứng từ, tài khoản, sổ;<br>phải kiểm tra khi tiếp nhận khách đang hoạt động |  |
-| 3 | Văn bản hợp nhất 15/VBHN-BTC ngày 05/05/2026 Điều 3 khoản 1 điểm a | Bên được ủy quyền bị xử phạt;<br>là lý do phải rà kỹ phạm vi ủy quyền khi ký hợp đồng |  |
-| 4 | Văn bản hợp nhất 15/VBHN-BTC ngày 05/05/2026 Điều 11 | Xử phạt chậm thông báo thay đổi thông tin đăng ký thuế;<br>là lý do phải thu và kiểm tra hồ sơ đăng ký thuế khi onboarding |  |
-| 5 | Chương 08 của handbook | Xác định chế độ kế toán áp dụng cho khách | đã đối chiếu bản gốc theo chương gốc |
-| 6 | Chương 13 của handbook | Xác định kỳ khai thuế và lịch nghĩa vụ | Theo mức xác minh ghi tại chương gốc |
-| 7 | Luật Kế toán bản hợp nhất 41/VBHN-VPQH Điều 68 | Sáu trường hợp đơn vị kinh doanh dịch vụ kế toán không được cung cấp dịch vụ kế toán;<br>là giới hạn pháp lý cứng khi nhận khách |  |
-| 8 | Luật Kế toán bản hợp nhất 41/VBHN-VPQH Điều 29 khoản 2 điểm d, khoản 3 | Báo cáo tài chính phải có chữ ký của người lập, kế toán trưởng và người đại diện theo pháp luật; người ký chịu trách nhiệm về nội dung báo cáo.<br>Thời hạn nộp báo cáo tài chính năm là 90 ngày kể từ ngày kết thúc kỳ kế toán năm |  |
-| 9 | Luật Kế toán bản hợp nhất 41/VBHN-VPQH Điều 54 khoản 1, Điều 53 khoản 4, Điều 13 khoản 8 | Tiêu chuẩn và điều kiện của kế toán trưởng và của người phụ trách kế toán thay kế toán trưởng; nghiêm cấm bố trí hoặc thuê người không đủ tiêu chuẩn.<br>Dùng cho bước kiểm tra tiêu chuẩn kế toán trưởng của khách tại mục 6.4.4 |  |
-| 10 | Luật Kế toán bản hợp nhất 41/VBHN-VPQH Điều 58, Điều 60 tới Điều 64, Điều 67 khoản 6; Nghị định 174/2016/NĐ-CP Điều 28 | Điều kiện đăng ký hành nghề của cá nhân, điều kiện, hồ sơ, thời hạn cấp Giấy chứng nhận đủ điều kiện kinh doanh dịch vụ kế toán của đơn vị, nghĩa vụ và mốc 60 ngày mua bảo hiểm trách nhiệm nghề nghiệp | đã đối chiếu bản gốc;<br>riêng thủ tục cấp Giấy chứng nhận đăng ký hành nghề cho cá nhân theo Điều 58 khoản 2 vẫn chưa xác minh được, thông tư đó chưa có trong kho |
-| 11 | Luật Kế toán bản hợp nhất 41/VBHN-VPQH Điều 41 khoản 3, khoản 5; Nghị định 174/2016/NĐ-CP Điều 8, Điều 11 tới Điều 17 | Ba mốc thời hạn lưu trữ tài liệu kế toán, thời hạn 12 tháng phải đưa vào lưu trữ, và danh mục chi tiết theo loại tài liệu;<br>dùng khi tiếp nhận hồ sơ kỳ trước của khách | đã đối chiếu bản gốc, xem Chương 04 và Chương 01 mục 6.11.4 |
-| 12 | Pháp luật về phòng chống rửa tiền | Nghĩa vụ nhận biết khách hàng áp dụng cho đơn vị dịch vụ kế toán | đã đối chiếu bản gốc Luật 14/2022/QH15 và Nghị định 19/2023/NĐ-CP |
 
 ---
 
-## 4. Vai trò và trách nhiệm
+## 3. Vai trò và trách nhiệm
 
 | Hoạt động | CV-KT | TL-KT | AM | COO | CEO | AE |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -115,9 +94,9 @@ tags:
 | Đánh giá rủi ro khách hàng | Hỗ trợ thu thập dữ liệu | Chấm và kết luận phần nghiệp vụ | Thu thập thông tin và hồ sơ từ khách | Chấm và kết luận phần nguồn lực | Quyết định | Cung cấp thông tin |
 | Quyết định nhận, nhận có điều kiện, hoặc từ chối khách | Không | Đề xuất phần nghiệp vụ | Không | Đề xuất phần nguồn lực | Quyết định | Không |
 | Xác định gói dịch vụ và phí | Không | Tư vấn kỹ thuật | Báo giá và giải thích phạm vi với khách | Duyệt trong hạn mức | Duyệt ngoài hạn mức | Đề xuất |
-| Rà tên dịch vụ trong hợp đồng và ranh giới trách nhiệm, mục 6.12 | Không | Soát tên dịch vụ và nội dung nghiệp vụ | Soạn theo đúng danh mục tên dịch vụ | Kiểm trước khi trình | Duyệt giới hạn trách nhiệm | Không |
+| Rà tên dịch vụ trong hợp đồng và ranh giới trách nhiệm, mục 5.12 | Không | Soát tên dịch vụ và nội dung nghiệp vụ | Soạn theo đúng danh mục tên dịch vụ | Kiểm trước khi trình | Duyệt giới hạn trách nhiệm | Không |
 | Ký hợp đồng dịch vụ | Không | Không | Soạn hợp đồng và chuẩn bị hồ sơ | Kiểm trước khi trình | Ký | Chuẩn bị hồ sơ |
-| Kiểm tra tiêu chuẩn kế toán trưởng của khách, mục 6.13 | Lập Phiếu B15 | Kết luận đủ hay không đủ tiêu chuẩn;<br>ghi hồ sơ rủi ro | Yêu cầu hồ sơ từ khách;<br>thông báo khách bằng văn bản | Xem xét khi phải điều chỉnh phạm vi hoặc nguồn lực | Quyết định nếu đây là căn cứ từ chối khách | Không |
+| Kiểm tra tiêu chuẩn kế toán trưởng của khách, mục 5.13 | Lập Phiếu B15 | Kết luận đủ hay không đủ tiêu chuẩn;<br>ghi hồ sơ rủi ro | Yêu cầu hồ sơ từ khách;<br>thông báo khách bằng văn bản | Xem xét khi phải điều chỉnh phạm vi hoặc nguồn lực | Quyết định nếu đây là căn cứ từ chối khách | Không |
 | Mở hồ sơ khách và chuyển cho bộ phận nghiệp vụ | Nhận | Chủ trì phần nghiệp vụ | Lập phiếu và xác nhận toàn bộ cam kết đã đưa ra với khách | Giám sát | Không | Thu thập thông tin |
 | Thu thập hồ sơ đầu vào từ khách | Kiểm đếm, số hóa, lưu hồ sơ | Soát đủ hay thiếu | Yêu cầu và nhắc khách | Can thiệp khi khách chậm | Không | Hỗ trợ nhắc |
 | Kiểm tra hiện trạng sổ sách kỳ trước | Làm | Soát 100 phần trăm | Không | Duyệt biên bản hiện trạng | Không | Không |
@@ -133,31 +112,31 @@ tags:
 
 ---
 
-## 5. Đầu vào bắt buộc
+## 4. Đầu vào bắt buộc
 
-5.1. Phiếu thông tin khách tiềm năng do `AM` lập, `AE` có thể thu thập thông tin, theo Phụ lục C.
+4.1. Phiếu thông tin khách tiềm năng do `AM` lập, `AE` có thể thu thập thông tin, theo Phụ lục C.
 
-5.2. Bản sao giấy chứng nhận đăng ký doanh nghiệp và thông tin đăng ký thuế của khách.
+4.2. Bản sao giấy chứng nhận đăng ký doanh nghiệp và thông tin đăng ký thuế của khách.
 
-5.3. Kết quả tra cứu công khai về tình trạng hoạt động của mã số thuế khách hàng.
+4.3. Kết quả tra cứu công khai về tình trạng hoạt động của mã số thuế khách hàng.
 
-5.4. Bảng chấm điểm rủi ro khách hàng đã điền, theo mục 6.4.
+4.4. Bảng chấm điểm rủi ro khách hàng đã điền, theo mục 5.4.
 
-5.5. Quyết định nhận khách của CEO.
+4.5. Quyết định nhận khách của CEO.
 
-5.6. Hợp đồng dịch vụ và phụ lục đã ký.
+4.6. Hợp đồng dịch vụ và phụ lục đã ký.
 
-5.7. Với khách đang hoạt động: bộ hồ sơ kế toán và hồ sơ thuế kỳ trước do khách bàn giao.
+4.7. Với khách đang hoạt động: bộ hồ sơ kế toán và hồ sơ thuế kỳ trước do khách bàn giao.
 
-5.8. Phiếu kiểm tra tiêu chuẩn kế toán trưởng của khách, biểu mẫu B15 tại Phụ lục B, đã lập và có kết luận của TL-KT.
+4.8. Phiếu kiểm tra tiêu chuẩn kế toán trưởng của khách, biểu mẫu B15 tại Phụ lục B, đã lập và có kết luận của TL-KT.
 
 ---
 
 # PHẦN NGHIỆP VỤ
 
-## 6. Các bước thực hiện
+## 5. Các bước thực hiện
 
-### 6.1. Sơ đồ ba giai đoạn
+### 5.1. Trình tự các giai đoạn tiếp nhận khách hàng
 
 | Giai đoạn | Tên | Mốc bắt đầu | Mốc kết thúc | Kết quả then chốt |
 | --- | --- | --- | --- | --- |
@@ -167,63 +146,63 @@ tags:
 
 ---
 
-### 6.2. GIAI ĐOẠN 0: TRƯỚC KHI KÝ HỢP ĐỒNG
+### 5.2. GIAI ĐOẠN 0: TRƯỚC KHI KÝ HỢP ĐỒNG
 
 | # | Đầu việc | Người làm | Đầu ra | Tiêu chí hoàn thành |
 | --- | --- | --- | --- | --- |
 | 0.1 | Lập phiếu thông tin khách tiềm năng | `AM` lập, có thể giao `AE` thu thập thông tin | Phiếu theo Phụ lục C | Đủ 18 trường thông tin, không có trường bỏ trống không lý do |
 | 0.2 | Tra cứu công khai: tình trạng mã số thuế, tình trạng đăng ký doanh nghiệp, ngành nghề đăng ký, người đại diện | TL-KT | Bản in kết quả tra cứu, có ghi ngày tra | Có kết quả tra cứu lưu trong hồ sơ |
-| 0.3 | Phỏng vấn khảo sát hiện trạng với khách: quy mô, ngành, tình trạng sổ sách, lý do đổi đơn vị dịch vụ | AM chủ trì, TL-KT dự phần nghiệp vụ | Biên bản khảo sát | Trả lời được toàn bộ 08 nhóm tiêu chí chấm điểm tại mục 6.4 |
+| 0.3 | Phỏng vấn khảo sát hiện trạng với khách: quy mô, ngành, tình trạng sổ sách, lý do đổi đơn vị dịch vụ | AM chủ trì, TL-KT dự phần nghiệp vụ | Biên bản khảo sát | Trả lời được toàn bộ 08 nhóm tiêu chí chấm điểm tại mục 5.4 |
 | 0.4 | Chấm điểm rủi ro khách hàng | TL-KT phần nghiệp vụ, COO phần nguồn lực | Bảng chấm điểm có tổng điểm và nhóm rủi ro | Có chữ ký của TL-KT và COO và ngày chấm |
 | 0.5 | Khai báo xung đột lợi ích của nhân sự dự kiến phụ trách | CV-KT, TL-KT, AM | Phiếu theo Chương 01 Phụ lục A | Phiếu có trong hồ sơ trước khi ký hợp đồng |
 | 0.6 | Ước tính khối lượng và chấm độ phức tạp theo Chương 02 mục 6.5.1 | TL-KT | Bảng chấm độ phức tạp | Có tổng điểm và nhóm A, B, C |
 | 0.7 | Kiểm tra năng lực nhóm phụ trách còn dư địa nhận khách | COO | Xác nhận trên `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]` | Có xác nhận bằng văn bản |
 | 0.8 | Quyết định nhận, nhận có điều kiện, hoặc từ chối | CEO | Quyết định nhận khách | Ghi rõ lý do và điều kiện kèm theo nếu có |
-| 0.9 | Xác định gói dịch vụ và phạm vi ngoại lệ | COO duyệt trong hạn mức, có tư vấn kỹ thuật của TL-KT;<br>AM trình bày với khách | Bản mô tả phạm vi | Khớp bảng 6.1 và 6.2 của Chương 02 |
+| 0.9 | Xác định gói dịch vụ và phạm vi ngoại lệ | COO duyệt trong hạn mức, có tư vấn kỹ thuật của TL-KT;<br>AM trình bày với khách | Bản mô tả phạm vi | Khớp bảng 5.1 và 6.2 của Chương 02 |
 | 0.10 | Rà soát phạm vi ủy quyền trong hợp đồng | AM soạn, TL-KT soát nội dung nghiệp vụ, CEO duyệt | Điều khoản ủy quyền đã rà | Phạm vi ủy quyền hẹp nhất đủ để làm việc, xem cảnh báo dưới |
 | 0.11 | Ký hợp đồng và phụ lục | CEO và khách | Hợp đồng đã ký | Bản gốc lưu hồ sơ pháp lý, bản số hóa lưu `[KHO LƯU TRỮ HỒ SƠ]` |
-| 0.12 | Rà tên dịch vụ trong hợp đồng và ba nội dung ranh giới trách nhiệm theo mục 6.12. Phải xong trước bước 0.11 | AM soạn, TL-KT soát tên dịch vụ, COO kiểm, CEO duyệt | Bản hợp đồng đã rà | Tên dịch vụ không chứa cụm "lập và trình bày báo cáo tài chính" và không chứa cụm "làm kế toán trưởng";<br>có đủ ba nội dung ranh giới trách nhiệm |
+| 0.12 | Rà tên dịch vụ trong hợp đồng và ba nội dung ranh giới trách nhiệm theo mục 5.12. Phải xong trước bước 0.11 | AM soạn, TL-KT soát tên dịch vụ, COO kiểm, CEO duyệt | Bản hợp đồng đã rà | Tên dịch vụ không chứa cụm "lập và trình bày báo cáo tài chính" và không chứa cụm "làm kế toán trưởng";<br>có đủ ba nội dung ranh giới trách nhiệm |
 
 > [!danger] RỦI RO BỊ XỬ PHẠT
-> Phạm vi ủy quyền trong hợp đồng phải hẹp nhất có thể mà vẫn đủ để làm việc. Lý do, nguyên văn `[15/VBHN-BTC ngày 05/05/2026 Đ.3 k.1 đ.a]`: "Trường hợp người nộp thuế ủy quyền cho tổ chức, cá nhân khác thực hiện các nghĩa vụ về thuế mà pháp luật về thuế, quản lý thuế quy định nghĩa vụ, trách nhiệm của bên được ủy quyền phải thực hiện thay người nộp thuế thì nếu bên được ủy quyền có hành vi vi phạm hành chính quy định tại Nghị định này thì tổ chức, cá nhân được ủy quyền bị xử phạt theo Nghị định này." Ủy quyền càng rộng, rủi ro bị xử phạt trực tiếp của oBacker càng lớn. Xem Chương 01 mục 6.3.
+> Phạm vi ủy quyền trong hợp đồng phải hẹp nhất có thể mà vẫn đủ để làm việc. Lý do, nguyên văn `[15/VBHN-BTC ngày 05/05/2026 Đ.3 k.1 đ.a]`: "Trường hợp người nộp thuế ủy quyền cho tổ chức, cá nhân khác thực hiện các nghĩa vụ về thuế mà pháp luật về thuế, quản lý thuế quy định nghĩa vụ, trách nhiệm của bên được ủy quyền phải thực hiện thay người nộp thuế thì nếu bên được ủy quyền có hành vi vi phạm hành chính quy định tại Nghị định này thì tổ chức, cá nhân được ủy quyền bị xử phạt theo Nghị định này." Ủy quyền càng rộng, rủi ro bị xử phạt trực tiếp của oBacker càng lớn. Xem Chương 01 mục 5.3.
 
 ---
 
-### 6.3. GIAI ĐOẠN 1: 07 NGÀY ĐẦU
+### 5.3. GIAI ĐOẠN 1: 07 NGÀY ĐẦU
 
 | # | Đầu việc | Người làm | Đầu ra | Tiêu chí hoàn thành | Hạn |
 | --- | --- | --- | --- | --- | --- |
-| 1.1 | Mở hồ sơ khách và chuyển cho bộ phận nghiệp vụ | `AM` và TL-KT | Phiếu mở hồ sơ khách theo mục 6.9 | Đủ 15 mục, có chữ ký hai bên | Ngày làm việc thứ 01 |
+| 1.1 | Mở hồ sơ khách và chuyển cho bộ phận nghiệp vụ | `AM` và TL-KT | Phiếu mở hồ sơ khách theo mục 5.9 | Đủ 15 mục, có chữ ký hai bên | Ngày làm việc thứ 01 |
 | 1.2 | Phân công CV-KT phụ trách chính và CV-KT dự phòng | COO | Cập nhật bảng phân công | Có tên hai người trên hồ sơ khách | Ngày làm việc thứ 01 |
-| 1.3 | Tạo mã khách và khởi tạo hồ sơ khách trên hệ thống | CV-KT | Hồ sơ khách | Đủ 100 phần trăm trường bắt buộc tại mục 6.7 | Ngày làm việc thứ 02 |
+| 1.3 | Tạo mã khách và khởi tạo hồ sơ khách trên hệ thống | CV-KT | Hồ sơ khách | Đủ 100 phần trăm trường bắt buộc tại mục 5.7 | Ngày làm việc thứ 02 |
 | 1.4 | Gửi khách bộ bảng kiểm hồ sơ đầu vào và lịch cung cấp chứng từ | AM | Email có đính kèm bảng kiểm | Khách xác nhận đã nhận | Ngày làm việc thứ 02 |
 | 1.5 | Tạo cấu trúc thư mục chuẩn trên `[KHO LƯU TRỮ HỒ SƠ]` | CV-KT | Cây thư mục theo Chương 04 | Đúng cấu trúc chuẩn, không tự đặt tên khác | Ngày làm việc thứ 02 |
 | 1.6 | Thiết lập bảng theo dõi nghĩa vụ cho khách trên `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]` | CV-KT | Bảng theo dõi | Có đủ nghĩa vụ định kỳ 12 tháng tới, có mốc nội bộ và hạn pháp luật | Ngày làm việc thứ 03 |
-| 1.7 | Thu nhận hồ sơ pháp lý và hồ sơ thuế cơ bản của khách | AM thu từ khách, CV-KT kiểm đếm và lưu | Bộ hồ sơ số hóa | Đủ các mục bắt buộc tại mục 6.6 | Ngày làm việc thứ 05 |
+| 1.7 | Thu nhận hồ sơ pháp lý và hồ sơ thuế cơ bản của khách | AM thu từ khách, CV-KT kiểm đếm và lưu | Bộ hồ sơ số hóa | Đủ các mục bắt buộc tại mục 5.6 | Ngày làm việc thứ 05 |
 | 1.8 | Kiểm tra tình trạng chữ ký số, tài khoản khai thuế, tài khoản hóa đơn điện tử | CV-KT | Bảng tình trạng kỹ thuật | Đăng nhập thử thành công cả ba;<br>ghi ngày hết hạn chữ ký số | Ngày làm việc thứ 05 |
 | 1.9 | Xác định sơ bộ chế độ kế toán, kỳ khai thuế, phương pháp tính thuế | CV-KT đề xuất, TL-KT soát rồi quyết định | Phiếu cấu hình khách | Có dẫn chiếu Chương 08 và Chương 13 và ghi mức xác minh | Ngày làm việc thứ 05 |
 | 1.10 | Xác định danh sách người liên hệ được nhận thông tin | AM | Danh sách có xác nhận của người đại diện khách | Có văn bản xác nhận | Ngày làm việc thứ 05 |
 | 1.11 | Lập kế hoạch kiểm tra hiện trạng, nếu khách đang hoạt động | TL-KT | Kế hoạch có phạm vi và mốc | Được COO duyệt | Ngày làm việc thứ 06 |
-| 1.12 | Tổ chức họp khởi động với khách | AM chủ trì, TL-KT trình bày phần nghiệp vụ | Biên bản họp khởi động | Đủ 12 nội dung bắt buộc tại mục 6.8, có chữ ký hai bên | Ngày làm việc thứ 07 |
+| 1.12 | Tổ chức họp khởi động với khách | AM chủ trì, TL-KT trình bày phần nghiệp vụ | Biên bản họp khởi động | Đủ 12 nội dung bắt buộc tại mục 5.8, có chữ ký hai bên | Ngày làm việc thứ 07 |
 | 1.13 | Rà soát giai đoạn 1 | TL-KT | Bảng kiểm giai đoạn 1 | Không còn mục nào ở trạng thái chưa xong mà không có lý do và mốc mới | Ngày làm việc thứ 07 |
-| 1.14 | Kiểm tra tiêu chuẩn kế toán trưởng của khách theo mục 6.13 | AM thu hồ sơ từ khách, CV-KT lập phiếu, TL-KT kết luận | Phiếu B15 tại Phụ lục B | Có kết luận đủ tiêu chuẩn, không đủ tiêu chuẩn, hoặc chưa kết luận được kèm hạn khách phải bổ sung hồ sơ | Ngày làm việc thứ 05 |
+| 1.14 | Kiểm tra tiêu chuẩn kế toán trưởng của khách theo mục 5.13 | AM thu hồ sơ từ khách, CV-KT lập phiếu, TL-KT kết luận | Phiếu B15 tại Phụ lục B | Có kết luận đủ tiêu chuẩn, không đủ tiêu chuẩn, hoặc chưa kết luận được kèm hạn khách phải bổ sung hồ sơ | Ngày làm việc thứ 05 |
 
 > [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
 > Nếu tới ngày làm việc thứ 07 mà khách chưa cung cấp được chữ ký số hoặc tài khoản khai thuế, CV-KT KHÔNG được tự nhận rủi ro và chờ. Báo TL-KT trong ngày; AM thông báo khách; TL-KT báo COO nếu có nghĩa vụ tới hạn trong 15 ngày tới.
 
 ---
 
-### 6.4. ĐÁNH GIÁ RỦI RO KHÁCH HÀNG TRƯỚC KHI NHẬN
+### 5.4. ĐÁNH GIÁ RỦI RO KHÁCH HÀNG TRƯỚC KHI NHẬN
 
-Toàn bộ mục 6.4 là quy định nội bộ oBacker. Điểm càng cao thì rủi ro càng lớn.
+Toàn bộ mục 5.4 là quy định nội bộ oBacker. Điểm càng cao thì rủi ro càng lớn.
 
-#### 6.4.1. Bảng chấm điểm
+#### 5.4.1. Bảng chấm điểm
 
 | # | Tiêu chí | 0 điểm | 2 điểm | 4 điểm | 6 điểm | Cách xác minh |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Ngành nghề kinh doanh | Dịch vụ chuyên môn, sản xuất thông thường, thương mại có hóa đơn đầy đủ | Xây dựng, vận tải, nhà hàng, bán lẻ | Kinh doanh vàng bạc đá quý, bất động sản, cầm đồ, cho vay | Ngành có dấu hiệu rủi ro cao về hóa đơn, ngành có nhiều tiền mặt và ít chứng từ đầu vào | Giấy chứng nhận đăng ký doanh nghiệp;<br>phỏng vấn |
 | 2 | Lịch sử tuân thủ | Không có vi phạm trong 03 năm gần nhất | Có vi phạm về thủ tục, đã khắc phục | Có bị xử phạt về khai sai dẫn đến thiếu thuế | Có bị xử phạt về trốn thuế hoặc về hóa đơn không hợp pháp | Khách tự khai và cung cấp quyết định xử phạt nếu có;<br>tra cứu công khai |
-| 3 | Tình trạng sổ sách bàn giao | Đầy đủ, khớp giữa sổ và tờ khai, có báo cáo tài chính các năm | Đầy đủ nhưng có chênh lệch nhỏ chưa giải trình | Thiếu chứng từ hoặc thiếu sổ một số kỳ | Không có sổ sách, hoặc sổ sách không khớp trọng yếu với tờ khai đã nộp | Kiểm tra hiện trạng theo mục 6.5 |
+| 3 | Tình trạng sổ sách bàn giao | Đầy đủ, khớp giữa sổ và tờ khai, có báo cáo tài chính các năm | Đầy đủ nhưng có chênh lệch nhỏ chưa giải trình | Thiếu chứng từ hoặc thiếu sổ một số kỳ | Không có sổ sách, hoặc sổ sách không khớp trọng yếu với tờ khai đã nộp | Kiểm tra hiện trạng theo mục 5.5 |
 | 4 | Thái độ hợp tác | Chủ động, cung cấp đầy đủ, hỏi đúng trọng tâm | Cần nhắc mới cung cấp | Né tránh câu hỏi về kỳ trước, cung cấp nhỏ giọt | Đặt điều kiện trái nguyên tắc ngay từ khi đàm phán, ví dụ gợi ý về hóa đơn đầu vào | Ghi nhận trong biên bản khảo sát |
 | 5 | Cấu trúc sở hữu và giao dịch liên kết | Sở hữu đơn giản, không có giao dịch liên kết | Có công ty liên quan trong nước, giao dịch nhỏ | Có nhiều công ty liên quan, giao dịch thường xuyên | Có giao dịch liên kết xuyên biên giới, hoặc cấu trúc sở hữu không minh bạch | Phỏng vấn;<br>sơ đồ sở hữu do khách cung cấp |
 | 6 | Tỷ trọng giao dịch tiền mặt | Dưới 10 phần trăm doanh thu | Từ 10 tới dưới 30 phần trăm | Từ 30 tới dưới 50 phần trăm | Từ 50 phần trăm trở lên | Ước tính từ dữ liệu khách cung cấp |
@@ -234,7 +213,7 @@ Toàn bộ mục 6.4 là quy định nội bộ oBacker. Điểm càng cao thì 
 
 Tổng điểm tối đa: 60 điểm.
 
-#### 6.4.2. Ngưỡng quyết định
+#### 5.4.2. Ngưỡng quyết định
 
 | Tổng điểm | Nhóm | Quyết định | Điều kiện kèm theo |
 | --- | --- | --- | --- |
@@ -243,13 +222,13 @@ Tổng điểm tối đa: 60 điểm.
 | 25 tới 36 | Rủi ro cao | Chỉ nhận khi CEO duyệt và có ít nhất 03 biện pháp giảm thiểu bằng văn bản | Bắt buộc: biên bản hiện trạng chi tiết;<br>loại trừ trách nhiệm kỳ trước bằng điều khoản hợp đồng;<br>thu phí trước;<br>TL-KT trực tiếp phụ trách phần nghiệp vụ và COO phân bổ nguồn lực riêng;<br>rà soát lại sau 03 tháng |
 | 37 điểm trở lên | Rủi ro rất cao | TỪ CHỐI | Không nhận, trừ trường hợp CEO quyết định bằng văn bản riêng kèm phương án kiểm soát cụ thể |
 
-#### 6.4.3. Tiêu chí từ chối tuyệt đối, không phụ thuộc tổng điểm
+#### 5.4.3. Tiêu chí từ chối tuyệt đối, không phụ thuộc tổng điểm
 
 Có mặt bất kỳ dấu hiệu nào dưới đây thì TỪ CHỐI ngay, không chấm điểm tiếp:
 
 | # | Dấu hiệu từ chối tuyệt đối |
 | --- | --- |
-| 1 | Khách nêu yêu cầu thuộc hành vi oBacker nghiêm cấm ngay trong quá trình đàm phán, ví dụ nhờ tìm hóa đơn đầu vào, nhờ làm hai bộ sổ, nhờ ghi lùi ngày.<br>Xem Chương 01 mục 6.8 |
+| 1 | Khách nêu yêu cầu thuộc hành vi oBacker nghiêm cấm ngay trong quá trình đàm phán, ví dụ nhờ tìm hóa đơn đầu vào, nhờ làm hai bộ sổ, nhờ ghi lùi ngày.<br>Xem Chương 01 mục 5.8 |
 | 2 | Khách yêu cầu oBacker đứng tên hộ, cho mượn tư cách pháp nhân, hoặc nhận giữ tiền, chuyển tiền hộ |
 | 3 | Khách từ chối ký biên bản hiện trạng và từ chối điều khoản phân định trách nhiệm giai đoạn trước |
 | 4 | Không xác minh được người đại diện theo pháp luật, hoặc người làm việc thực tế không có ủy quyền hợp lệ |
@@ -263,27 +242,27 @@ Có mặt bất kỳ dấu hiệu nào dưới đây thì TỪ CHỐI ngay, khô
 
 ---
 
-### 6.5. KIỂM TRA HIỆN TRẠNG KHI NHẬN KHÁCH ĐANG HOẠT ĐỘNG
+### 5.5. KIỂM TRA HIỆN TRẠNG KHI NHẬN KHÁCH ĐANG HOẠT ĐỘNG
 
 > [!bug] LỖI THƯỜNG GẶP
 > Bắt đầu làm ngay để lấy lòng khách, chưa kiểm tra hiện trạng. Ba tháng sau cơ quan thuế hỏi tới một vấn đề của kỳ trước, khách quay sang hỏi oBacker, và oBacker không có bằng chứng nào cho thấy vấn đề đó đã tồn tại trước khi tiếp nhận. **Quy định nội bộ oBacker: KHÔNG BẮT ĐẦU HẠCH TOÁN KHI CHƯA CÓ BIÊN BẢN HIỆN TRẠNG ĐƯỢC KHÁCH XÁC NHẬN.** Ngoại lệ duy nhất: có nghĩa vụ tới hạn trong thời gian kiểm tra hiện trạng; khi đó TL-KT xác nhận phần nghiệp vụ và COO quyết định bằng văn bản việc làm song song, và biên bản hiện trạng vẫn phải hoàn tất trong 30 ngày.
 
-#### 6.5.1. Quy trình rà soát
+#### 5.5.1. Quy trình rà soát
 
 | Bước | Nội dung | Người làm | Tiêu chí hoàn thành |
 | --- | --- | --- | --- |
-| 1 | Lập danh mục hồ sơ đề nghị khách bàn giao, theo mục 6.6 | CV-KT lập, AM gửi khách | Danh mục gửi khách bằng văn bản |
+| 1 | Lập danh mục hồ sơ đề nghị khách bàn giao, theo mục 5.6 | CV-KT lập, AM gửi khách | Danh mục gửi khách bằng văn bản |
 | 2 | Nhận và kiểm đếm hồ sơ bàn giao, lập biên bản giao nhận | AM nhận từ khách, CV-KT kiểm đếm | Biên bản giao nhận có chữ ký hai bên, ghi rõ cái gì có, cái gì thiếu |
-| 3 | Rà soát theo danh mục điểm kiểm tra tại 6.5.2 | CV-KT làm, TL-KT soát | Mọi điểm đều có kết luận: khớp, lệch, hoặc không kiểm tra được vì thiếu dữ liệu |
+| 3 | Rà soát theo danh mục điểm kiểm tra tại 5.5.2 | CV-KT làm, TL-KT soát | Mọi điểm đều có kết luận: khớp, lệch, hoặc không kiểm tra được vì thiếu dữ liệu |
 | 4 | Định lượng các chênh lệch trọng yếu và xếp theo mức rủi ro | TL-KT | Bảng chênh lệch có số tiền và đánh giá rủi ro |
-| 5 | Lập dự thảo biên bản hiện trạng | CV-KT | Dự thảo đủ 14 mục tại 6.5.3 |
+| 5 | Lập dự thảo biên bản hiện trạng | CV-KT | Dự thảo đủ 14 mục tại 5.5.3 |
 | 6 | TL-KT soát và COO duyệt dự thảo | TL-KT, COO | Có ý kiến duyệt |
 | 7 | Trình bày biên bản hiện trạng cho khách, giải thích từng chênh lệch | AM chủ trì, TL-KT giải thích phần nghiệp vụ | Buổi trao đổi có biên bản |
 | 8 | Khách xác nhận biên bản hiện trạng | Khách | Chữ ký của người đại diện theo pháp luật hoặc người được ủy quyền hợp lệ |
 | 9 | Lưu biên bản vào hồ sơ pháp lý của khách | CV-KT | Có bản gốc và bản số hóa |
 | 10 | Chuyển các vấn đề tồn đọng thành đề xuất dịch vụ G4 nếu khách muốn xử lý | TL-KT xác định khối lượng nghiệp vụ, AM báo giá và gửi khách | Bản báo giá gửi khách |
 
-#### 6.5.2. Danh mục điểm phải kiểm tra
+#### 5.5.2. Danh mục điểm phải kiểm tra
 
 | # | Nhóm | Điểm kiểm tra | Dấu hiệu cảnh báo |
 | --- | --- | --- | --- |
@@ -313,7 +292,7 @@ Có mặt bất kỳ dấu hiệu nào dưới đây thì TỪ CHỐI ngay, khô
 | 24 | Hệ thống | Dữ liệu kế toán ở đâu, định dạng gì, có xuất được không | Dữ liệu bị khóa trong hệ thống của đơn vị cũ |
 | 25 | Hệ thống | Chữ ký số còn hạn không, ai đang giữ, mật khẩu do ai quản lý | Đơn vị cũ vẫn giữ quyền truy cập |
 
-#### 6.5.3. Biên bản hiện trạng, 14 mục bắt buộc
+#### 5.5.3. Biên bản hiện trạng, 14 mục bắt buộc
 
 | # | Nội dung |
 | --- | --- |
@@ -337,7 +316,7 @@ Có mặt bất kỳ dấu hiệu nào dưới đây thì TỪ CHỐI ngay, khô
 
 ---
 
-### 6.6. BẢNG KIỂM HỒ SƠ ĐẦU VÀO PHẢI THU TỪ KHÁCH
+### 5.6. BẢNG KIỂM HỒ SƠ ĐẦU VÀO PHẢI THU TỪ KHÁCH
 
 Ký hiệu cột "Mức": **BB** là bắt buộc, không có thì không bắt đầu dịch vụ; **BB-HĐ** là bắt buộc nếu khách đang hoạt động; **TC** là tùy chọn, thu khi có.
 
@@ -388,22 +367,22 @@ Ký hiệu cột "Mức": **BB** là bắt buộc, không có thì không bắt 
 | 43 | Kỹ thuật | Tài khoản `[CỔNG THUẾ ĐIỆN TỬ]`: tên đăng nhập và cơ chế cấp mật khẩu an toàn | BB | Nộp hồ sơ, tra cứu nghĩa vụ |
 | 44 | Kỹ thuật | Tài khoản `[PHẦN MỀM HĐĐT]`: nhà cung cấp, tài khoản quản trị, mẫu số ký hiệu đang dùng | BB nếu có phát hành hóa đơn | Lập hóa đơn, đối chiếu dữ liệu |
 | 45 | Kỹ thuật | Dữ liệu kế toán từ hệ thống cũ, dạng có thể đọc được | BB-HĐ | Chuyển đổi dữ liệu, xem Chương 06 |
-| 46 | Vận hành | Danh sách người liên hệ và người có thẩm quyền xác nhận số liệu | BB | Bảo mật và xác thực, xem Chương 01 mục 6.5.3 |
+| 46 | Vận hành | Danh sách người liên hệ và người có thẩm quyền xác nhận số liệu | BB | Bảo mật và xác thực, xem Chương 01 mục 5.5.3 |
 | 47 | Vận hành | Kênh trao đổi chính thức được khách xác nhận | BB | Bảo đảm mọi trao đổi có lưu vết |
 | 48 | Vận hành | Lịch cung cấp chứng từ đã thống nhất | BB | Cơ sở cho việc nhắc và chuyển lên cấp trên, xem Chương 04 |
-| 49 | Nhân sự kế toán của khách | Quyết định bổ nhiệm kế toán trưởng, hoặc văn bản cử người phụ trách kế toán thay kế toán trưởng | BB, cách xử lý khi khách chưa cung cấp xem mục 6.13 | Xác định ai là người ký ở phần kế toán trưởng trên báo cáo tài chính `[Luật Kế toán 41/VBHN-VPQH Đ.29 k.2 đ.d]` |
-| 50 | Nhân sự kế toán của khách | Bằng chuyên môn về kế toán, chứng chỉ bồi dưỡng kế toán trưởng, tài liệu chứng minh thời gian công tác thực tế về kế toán của người được cử | BB, cách xử lý khi khách chưa cung cấp xem mục 6.13 | Đối chiếu tiêu chuẩn tại `[Luật Kế toán 41/VBHN-VPQH Đ.54 k.1]` và `[Luật Kế toán 41/VBHN-VPQH Đ.53 k.4]`;<br>điền Phiếu B15, xem mục 6.13 |
+| 49 | Nhân sự kế toán của khách | Quyết định bổ nhiệm kế toán trưởng, hoặc văn bản cử người phụ trách kế toán thay kế toán trưởng | BB, cách xử lý khi khách chưa cung cấp xem mục 5.13 | Xác định ai là người ký ở phần kế toán trưởng trên báo cáo tài chính `[Luật Kế toán 41/VBHN-VPQH Đ.29 k.2 đ.d]` |
+| 50 | Nhân sự kế toán của khách | Bằng chuyên môn về kế toán, chứng chỉ bồi dưỡng kế toán trưởng, tài liệu chứng minh thời gian công tác thực tế về kế toán của người được cử | BB, cách xử lý khi khách chưa cung cấp xem mục 5.13 | Đối chiếu tiêu chuẩn tại `[Luật Kế toán 41/VBHN-VPQH Đ.54 k.1]` và `[Luật Kế toán 41/VBHN-VPQH Đ.53 k.4]`;<br>điền Phiếu B15, xem mục 5.13 |
 
 > [!bug] LỖI THƯỜNG GẶP
 > Thu hồ sơ nhưng không kiểm đếm, không lập biên bản giao nhận. Ba tháng sau khách hỏi "bên em đã gửi rồi mà", không ai chứng minh được. Quy định nội bộ: mọi lần nhận hồ sơ đều lập biên bản giao nhận, kể cả khi nhận qua kênh điện tử; với kênh điện tử thì biên bản là bảng kê kèm xác nhận của khách.
 
 ---
 
-### 6.7. THIẾT LẬP HỒ SƠ KHÁCH TRONG HỆ THỐNG
+### 5.7. THIẾT LẬP HỒ SƠ KHÁCH TRONG HỆ THỐNG
 
-Toàn bộ mục 6.7 là quy định nội bộ oBacker.
+Toàn bộ mục 5.7 là quy định nội bộ oBacker.
 
-#### 6.7.1. Quy tắc đặt mã khách
+#### 5.7.1. Quy tắc đặt mã khách
 
 Cấu trúc: `OBK-<NHÓM>-<NĂM TIẾP NHẬN>-<SỐ THỨ TỰ 03 CHỮ SỐ>`
 
@@ -420,7 +399,7 @@ Quy tắc bổ sung:
 2. Khách ngừng dịch vụ rồi quay lại được cấp mã mới; mã cũ ghi liên kết tham chiếu.
 3. Không dùng tên viết tắt của khách trong mã, tránh trùng và tránh lộ thông tin.
 
-#### 6.7.2. Trường thông tin bắt buộc trong hồ sơ khách
+#### 5.7.2. Trường thông tin bắt buộc trong hồ sơ khách
 
 | # | Nhóm | Trường | Bắt buộc |
 | --- | --- | --- | --- |
@@ -445,7 +424,7 @@ Quy tắc bổ sung:
 | 19 | Dịch vụ | Gói dịch vụ, ngày hiệu lực, ngày hết hạn hợp đồng | Có |
 | 20 | Dịch vụ | Phạm vi ngoại lệ so với gói chuẩn | Có |
 | 21 | Dịch vụ | Nhóm độ phức tạp A, B, C theo Chương 02 | Có |
-| 22 | Dịch vụ | Nhóm rủi ro và tổng điểm theo mục 6.4 | Có |
+| 22 | Dịch vụ | Nhóm rủi ro và tổng điểm theo mục 5.4 | Có |
 | 23 | Nhân sự | CV-KT phụ trách chính, CV-KT dự phòng, TL-KT soát, AM đầu mối với khách, COO duyệt | Có |
 | 24 | Liên hệ | Danh sách người liên hệ, vai trò, quyền được nhận thông tin | Có |
 | 25 | Liên hệ | Kênh trao đổi chính thức | Có |
@@ -455,7 +434,7 @@ Quy tắc bổ sung:
 | 29 | Hồ sơ | Đường dẫn hợp đồng, biên bản hiện trạng, biên bản họp khởi động | Có |
 | 30 | Rủi ro | Danh mục vấn đề đang mở và ngày rà soát gần nhất | Có |
 
-#### 6.7.3. Quy tắc đặt tên thư mục và tài liệu
+#### 5.7.3. Quy tắc đặt tên thư mục và tài liệu
 
 Chi tiết đầy đủ tại Chương 04. Khi onboarding, CV-KT chỉ cần tạo đúng cây thư mục chuẩn và không được tự sáng tạo tên khác. Nguyên tắc cốt lõi:
 
@@ -466,7 +445,7 @@ Chi tiết đầy đủ tại Chương 04. Khi onboarding, CV-KT chỉ cần t�
 
 ---
 
-### 6.8. XÁC ĐỊNH CẤU HÌNH KẾ TOÁN VÀ THUẾ CHO KHÁCH
+### 5.8. XÁC ĐỊNH CẤU HÌNH KẾ TOÁN VÀ THUẾ CHO KHÁCH
 
 | Bước | Nội dung | Người làm | Dẫn chiếu | Ghi vào đâu |
 | --- | --- | --- | --- | --- |
@@ -482,21 +461,21 @@ Chi tiết đầy đủ tại Chương 04. Khi onboarding, CV-KT chỉ cần t�
 | 10 | Soát toàn bộ cấu hình và chốt phiếu cấu hình | TL-KT soát và chốt | | Phiếu cấu hình khách có chữ ký |
 
 > [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
-> Quyết định về chế độ kế toán áp dụng, kỳ khai thuế, phương pháp tính thuế, và kết luận về ưu đãi thuế đều thuộc thẩm quyền TL-KT, theo Chương 01 mục 6.7. CV-KT chỉ đề xuất kèm căn cứ và mức xác minh. AM là người thông báo kết quả cho khách, không phải người quyết định.
+> Quyết định về chế độ kế toán áp dụng, kỳ khai thuế, phương pháp tính thuế, và kết luận về ưu đãi thuế đều thuộc thẩm quyền TL-KT, theo Chương 01 mục 5.7. CV-KT chỉ đề xuất kèm căn cứ và mức xác minh. AM là người thông báo kết quả cho khách, không phải người quyết định.
 
 ---
 
-### 6.9. MỞ HỒ SƠ KHÁCH VÀ CHUYỂN CHO BỘ PHẬN NGHIỆP VỤ
+### 5.9. MỞ HỒ SƠ KHÁCH VÀ CHUYỂN CHO BỘ PHẬN NGHIỆP VỤ
 
-Toàn bộ mục 6.9 là quy định nội bộ oBacker.
+Toàn bộ mục 5.9 là quy định nội bộ oBacker.
 
-#### 6.9.1. Nguyên tắc
+#### 5.9.1. Nguyên tắc
 
 1. Bàn giao là một cuộc họp có biên bản, không phải một email chuyển tiếp.
 2. `AM` phải khai báo trung thực mọi điều đã nói với khách, kể cả cam kết miệng. Cam kết miệng không được khai báo là lỗi của `AM`, không phải của bộ phận nghiệp vụ.
 3. Vận hành có quyền từ chối nhận bàn giao nếu phiếu thiếu mục bắt buộc; khi đó TL-KT báo COO trong ngày.
 
-#### 6.9.2. Phiếu mở hồ sơ khách, 15 mục bắt buộc
+#### 5.9.2. Phiếu mở hồ sơ khách, 15 mục bắt buộc
 
 | # | Nội dung phải ghi |
 | --- | --- |
@@ -521,9 +500,9 @@ Toàn bộ mục 6.9 là quy định nội bộ oBacker.
 
 ---
 
-### 6.10. BUỔI HỌP KHỞI ĐỘNG VỚI KHÁCH
+### 5.10. BUỔI HỌP KHỞI ĐỘNG VỚI KHÁCH
 
-#### 6.10.1. Thông tin chung
+#### 5.10.1. Thông tin chung
 
 | Hạng mục | Nội dung |
 | --- | --- |
@@ -533,37 +512,37 @@ Toàn bộ mục 6.9 là quy định nội bộ oBacker.
 | Hình thức | Trực tiếp hoặc trực tuyến;<br>luôn có biên bản |
 | Thời lượng dự kiến | 60 tới 90 phút |
 
-#### 6.10.2. Nội dung bắt buộc trao đổi, 12 mục
+#### 5.10.2. Nội dung bắt buộc trao đổi, 12 mục
 
 | # | Nội dung | Vì sao bắt buộc |
 | --- | --- | --- |
 | 1 | Giới thiệu AM là đầu mối duy nhất với khách, giới thiệu CV-KT phụ trách, CV-KT dự phòng, TL-KT soát, và kênh liên hệ chính thức | Khách biết gọi ai, tránh trao đổi qua kênh cá nhân |
 | 2 | Trình bày phạm vi BAO GỒM của gói dịch vụ | Thống nhất kỳ vọng |
 | 3 | **Trình bày phạm vi KHÔNG BAO GỒM**, đọc qua từng dòng của bảng Chương 02 mục 6.2 | Đây là nguồn tranh chấp lớn nhất;<br>không được lướt qua |
-| 4 | Trình bày bảng phân định trách nhiệm giữa khách và oBacker, Chương 01 mục 6.2;<br>nêu rõ cả ba chữ ký trên báo cáo tài chính đều là của khách và oBacker không đứng tên trên báo cáo, xem mục 6.12 | Làm rõ khách chịu trách nhiệm về tính có thật và hợp pháp của giao dịch, và khách là người ký báo cáo tài chính `[Luật Kế toán 41/VBHN-VPQH Đ.29 k.2 đ.d]` |
+| 4 | Trình bày bảng phân định trách nhiệm giữa khách và oBacker, Chương 01 mục 5.2;<br>nêu rõ cả ba chữ ký trên báo cáo tài chính đều là của khách và oBacker không đứng tên trên báo cáo, xem mục 5.12 | Làm rõ khách chịu trách nhiệm về tính có thật và hợp pháp của giao dịch, và khách là người ký báo cáo tài chính `[Luật Kế toán 41/VBHN-VPQH Đ.29 k.2 đ.d]` |
 | 5 | Thống nhất lịch cung cấp chứng từ: gửi gì, gửi khi nào, gửi qua kênh nào | Cơ sở cho toàn bộ tiến độ về sau |
 | 6 | Thống nhất cơ chế nhắc và chuyển lên cấp trên khi chứng từ chậm | Khách biết trước, không bất ngờ khi bị chuyển lên cấp trên |
-| 7 | Thống nhất quy trình xác nhận số liệu trước khi nộp hồ sơ | Bảo vệ cả hai bên, xem Chương 01 mục 6.3 |
+| 7 | Thống nhất quy trình xác nhận số liệu trước khi nộp hồ sơ | Bảo vệ cả hai bên, xem Chương 01 mục 5.3 |
 | 8 | Trình bày cam kết chất lượng nội bộ về thời gian phản hồi và xử lý | Khách biết khi nào được trả lời |
-| 9 | Thống nhất danh sách người được nhận thông tin và cơ chế xác thực | Bảo mật, xem Chương 01 mục 6.5.3 |
+| 9 | Thống nhất danh sách người được nhận thông tin và cơ chế xác thực | Bảo mật, xem Chương 01 mục 5.5.3 |
 | 10 | Trình bày kết quả kiểm tra hiện trạng nếu đã có, hoặc kế hoạch kiểm tra hiện trạng | Tách trách nhiệm giai đoạn trước |
 | 11 | Nêu rõ những việc oBacker sẽ từ chối và lý do, ở mức nguyên tắc | Đặt ranh giới sớm, tránh xung đột về sau |
 | 12 | Thống nhất lịch làm việc định kỳ và cơ chế báo cáo | Duy trì tần suất làm việc |
 
-#### 6.10.3. Cam kết hai chiều cần ghi vào biên bản
+#### 5.10.3. Cam kết song phương cần ghi vào biên bản
 
 | Bên | Cam kết |
 | --- | --- |
 | Khách hàng | 1. Cung cấp chứng từ đầy đủ, đúng hạn theo lịch đã thống nhất. 2.<br>Bảo đảm chứng từ phản ánh giao dịch có thật và hợp pháp. 3.<br>Xác nhận số liệu trong thời hạn được đề nghị. 4.<br>Thông báo trong 03 ngày làm việc kể từ ngày phát sinh mọi thay đổi về đăng ký kinh doanh, đăng ký thuế, tài khoản ngân hàng, chữ ký số, nhân sự. 5.<br>Chuyển ngay cho oBacker mọi văn bản của cơ quan thuế. 6.<br>Nộp tiền thuế đúng hạn. 7.<br>Cập nhật danh sách người được nhận thông tin |
-| oBacker | 1. Xử lý đúng chuẩn mực và quy định trên bộ chứng từ được cung cấp. 2.<br>Thực hiện đúng cam kết chất lượng nội bộ về thời gian. 3.<br>Cảnh báo sớm mọi rủi ro phát hiện được. 4.<br>Bảo mật thông tin theo Chương 01 mục 6.5. 5.<br>Không tự quyết các việc thuộc thẩm quyền của khách. 6.<br>Báo cáo trung thực mọi sai sót do oBacker gây ra. 7.<br>Bàn giao đầy đủ dữ liệu khi kết thúc hợp đồng |
+| oBacker | 1. Xử lý đúng chuẩn mực và quy định trên bộ chứng từ được cung cấp. 2.<br>Thực hiện đúng cam kết chất lượng nội bộ về thời gian. 3.<br>Cảnh báo sớm mọi rủi ro phát hiện được. 4.<br>Bảo mật thông tin theo Chương 01 mục 5.5. 5.<br>Không tự quyết các việc thuộc thẩm quyền của khách. 6.<br>Báo cáo trung thực mọi sai sót do oBacker gây ra. 7.<br>Bàn giao đầy đủ dữ liệu khi kết thúc hợp đồng |
 
-#### 6.10.4. Biên bản họp khởi động
+#### 5.10.4. Biên bản họp khởi động
 
 Biên bản phải có tối thiểu: thời gian, địa điểm, thành phần; tóm tắt từng nội dung trong 12 mục bắt buộc; danh mục việc khách phải làm kèm hạn; danh mục việc oBacker phải làm kèm hạn; các điểm khách đề nghị khác với chuẩn và cách xử lý; chữ ký hai bên.
 
 ---
 
-### 6.11. GIAI ĐOẠN 2: 30 NGÀY ĐẦU
+### 5.11. GIAI ĐOẠN 2: 30 NGÀY ĐẦU
 
 | # | Đầu việc | Người làm | Đầu ra | Tiêu chí hoàn thành | Hạn |
 | --- | --- | --- | --- | --- | --- |
@@ -575,10 +554,10 @@ Biên bản phải có tối thiểu: thời gian, địa điểm, thành phần
 | 2.6 | Rà soát lại cấu hình khách sau khi có dữ liệu thực tế | TL-KT | Phiếu cấu hình cập nhật | Có xác nhận của TL-KT nếu thay đổi, và AM thông báo khách nếu thay đổi ảnh hưởng tới khách | Ngày làm việc thứ 28 |
 | 2.7 | Lập danh mục vấn đề tồn đọng và đề xuất xử lý | CV-KT, TL-KT | Danh mục có mức ưu tiên | Được COO duyệt | Ngày làm việc thứ 28 |
 | 2.8 | Gửi khách báo giá dịch vụ G4 cho các việc tồn đọng kỳ trước nếu khách muốn xử lý | TL-KT xác định khối lượng, AM soạn và gửi khách, COO duyệt trong hạn mức | Báo giá | Đã gửi khách | Ngày làm việc thứ 30 |
-| 2.9 | Nghiệm thu onboarding | TL-KT đánh giá phần nghiệp vụ, AM xác nhận phần cam kết với khách, COO duyệt | Phiếu nghiệm thu onboarding | Đạt toàn bộ tiêu chí tại 6.11.1 | Ngày làm việc thứ 30 |
+| 2.9 | Nghiệm thu onboarding | TL-KT đánh giá phần nghiệp vụ, AM xác nhận phần cam kết với khách, COO duyệt | Phiếu nghiệm thu onboarding | Đạt toàn bộ tiêu chí tại 5.11.1 | Ngày làm việc thứ 30 |
 | 2.10 | Chuyển khách sang trạng thái vận hành thường xuyên | COO | Cập nhật trạng thái trên hệ thống | Có quyết định chuyển trạng thái | Ngày làm việc thứ 30 |
 
-#### 6.11.1. Tiêu chí nghiệm thu onboarding
+#### 5.11.1. Tiêu chí nghiệm thu onboarding
 
 | # | Tiêu chí | Đạt hay không đạt |
 | --- | --- | --- |
@@ -595,15 +574,15 @@ Biên bản phải có tối thiểu: thời gian, địa điểm, thành phần
 | 11 | Phiếu khai báo xung đột lợi ích của CV-KT, TL-KT và AM đã có | Bắt buộc đạt |
 | 12 | Danh mục vấn đề tồn đọng đã lập và được COO duyệt | Bắt buộc đạt |
 | 13 | Phiếu kiểm tra tiêu chuẩn kế toán trưởng của khách, biểu mẫu B15, đã có kết luận của TL-KT;<br>nếu kết luận không đủ tiêu chuẩn thì có bằng chứng AM đã thông báo khách bằng văn bản | Bắt buộc đạt |
-| 14 | Tên dịch vụ trong hợp đồng không chứa cụm "lập và trình bày báo cáo tài chính" và không chứa cụm "làm kế toán trưởng";<br>hợp đồng có đủ ba nội dung ranh giới trách nhiệm tại mục 6.12 | Bắt buộc đạt |
+| 14 | Tên dịch vụ trong hợp đồng không chứa cụm "lập và trình bày báo cáo tài chính" và không chứa cụm "làm kế toán trưởng";<br>hợp đồng có đủ ba nội dung ranh giới trách nhiệm tại mục 5.12 | Bắt buộc đạt |
 
 Không đạt một tiêu chí bắt buộc thì onboarding chưa hoàn tất; TL-KT lập kế hoạch khắc phục có mốc, COO theo dõi tới khi đạt.
 
 ---
 
-### 6.12. KÝ BÁO CÁO TÀI CHÍNH VÀ HAI QUY TẮC BẮT BUỘC TRONG HỢP ĐỒNG
+### 5.12. Quy định về chữ ký báo cáo tài chính và điều khoản hợp đồng dịch vụ
 
-Quyết định của CEO ngày 26/08/2026: **cả ba chữ ký trên báo cáo tài chính đều là của KHÁCH.** oBacker gửi khách ký, hoặc ký bằng chữ ký số của khách khi có ủy quyền bằng văn bản và có xác nhận nội dung bằng văn bản. oBacker không đứng tên trên báo cáo. Xem Chương 01 mục 6.2, Chương 02 mục 6.11, và Chương 07.
+Quyết định của CEO ngày 26/08/2026: **cả ba chữ ký trên báo cáo tài chính đều là của KHÁCH.** oBacker gửi khách ký, hoặc ký bằng chữ ký số của khách khi có ủy quyền bằng văn bản và có xác nhận nội dung bằng văn bản. oBacker không đứng tên trên báo cáo. Xem Chương 01 mục 5.2, Chương 02 mục 6.11, và Chương 07.
 
 | # | Căn cứ | Nội dung | Mức xác minh |
 | --- | --- | --- | --- |
@@ -611,12 +590,12 @@ Quyết định của CEO ngày 26/08/2026: **cả ba chữ ký trên báo cáo 
 | 2 | Luật Kế toán bản hợp nhất 41/VBHN-VPQH Điều 29 khoản 3 | Báo cáo tài chính năm của đơn vị kế toán phải được nộp cho cơ quan nhà nước có thẩm quyền trong thời hạn 90 ngày kể từ ngày kết thúc kỳ kế toán năm | đã đối chiếu bản gốc mốc 90 ngày |
 | 3 | Thông tư 99/2025/TT-BTC Điều 16 khoản 4 | Trường hợp doanh nghiệp THUÊ đơn vị kinh doanh dịch vụ kế toán thực hiện dịch vụ lập và trình bày báo cáo tài chính, dịch vụ làm kế toán trưởng, thì tại phần người lập, kế toán trưởng trên báo cáo tài chính phải ghi rõ số Giấy phép hành nghề dịch vụ kế toán của người hành nghề và tên đơn vị cung cấp dịch vụ kế toán |  |
 
-> [!question] CẦN XÁC MINH
-> NƠI NHẬN báo cáo tài chính năm vẫn chưa xác minh được. Điều 29 khoản 4 giao Bộ Tài chính quy định nơi nhận, và Thông tư 99/2025 lại dẫn chiếu sang pháp luật có liên quan. Khi khách hỏi nộp cho ai, AM chỉ trả lời mốc 90 ngày và ghi nhận câu hỏi; TL-KT tra bản gốc rồi mới trả lời phần nơi nhận. Không nêu nơi nhận từ trí nhớ.
+> [!note] CĂN CỨ PHÁP LÝ VỀ NƠI NHẬN VÀ THỜI HẠN NỘP BÁO CÁO TÀI CHÍNH
+> Thời hạn nộp báo cáo tài chính năm của doanh nghiệp là 90 ngày kể từ ngày kết thúc kỳ kế toán năm theo Điều 29 khoản 3 Luật Kế toán hợp nhất 41/VBHN-VPQH. Về cơ quan tiếp nhận báo cáo tài chính, TL-KT xác định cụ thể theo chế độ kế toán và quy định pháp luật chuyên ngành áp dụng cho từng đối tượng doanh nghiệp (Chương 07 mục 5.7).
 
 Vì oBacker không đứng tên trên báo cáo tài chính của khách, hai quy tắc dưới đây là bắt buộc ngay từ khâu soạn hợp đồng, tức tại đầu việc 0.12 của giai đoạn 0.
 
-#### 6.12.1. Tên dịch vụ trong hợp đồng
+#### 5.12.1. Tên dịch vụ trong hợp đồng
 
 Hợp đồng, bản chào và phụ lục không được gọi tên dịch vụ là "lập và trình bày báo cáo tài chính", cũng không được gọi là "làm kế toán trưởng". Gọi đúng hai cụm đó là kích hoạt Thông tư 99/2025 Điều 16 khoản 4, và điều khoản đó buộc phần người lập và kế toán trưởng trên báo cáo tài chính của khách phải ghi số Giấy phép hành nghề dịch vụ kế toán của người hành nghề và tên đơn vị cung cấp dịch vụ kế toán, tức buộc oBacker đứng tên trên báo cáo `[TT 99/2025 Đ.16 k.4]`.
 
@@ -631,26 +610,26 @@ Hợp đồng, bản chào và phụ lục không được gọi tên dịch v�
 
 Phân vai trò: AM soạn hợp đồng theo đúng danh mục tên dịch vụ này; TL-KT soát tên dịch vụ và nội dung nghiệp vụ; COO kiểm trước khi trình; CEO ký. Muốn dùng hai cụm bị hạn chế cho một khách cụ thể, phải có TL-KT đủ điều kiện đứng tên và CEO duyệt riêng từng khách.
 
-#### 6.12.2. Ranh giới trách nhiệm phải nằm trong hợp đồng
+#### 5.12.2. Ranh giới trách nhiệm phải nằm trong hợp đồng
 
 Người ký báo cáo tài chính chịu trách nhiệm về nội dung của báo cáo `[Luật Kế toán 41/VBHN-VPQH Đ.29 k.2 đ.d]`. Khách ký cả ba chữ ký nghĩa là khách chịu trách nhiệm pháp lý về nội dung báo cáo. Nhưng vì trên báo cáo tài chính không có tên oBacker và không có số Giấy phép hành nghề của nhân sự oBacker, trên chính báo cáo đó không có gì phân định oBacker đã làm tới đâu. Khi khách bị cơ quan nhà nước xử lý, khách sẽ quay lại theo hợp đồng. Vì vậy ranh giới trách nhiệm chỉ có thể nằm trong hợp đồng, không nằm trên báo cáo.
 
 | # | Nội dung phải có trong hợp đồng | Ai soạn, ai duyệt |
 | --- | --- | --- |
-| 1 | Phạm vi công việc oBacker thực hiện, đối chiếu đúng bảng 6.1 và 6.2 của Chương 02, và phạm vi ngoại lệ của khách này | AM soạn, TL-KT soát nội dung nghiệp vụ, COO kiểm |
-| 2 | Nguồn dữ liệu do khách cung cấp, và trách nhiệm của khách về tính đầy đủ, có thật, hợp pháp của dữ liệu đó, dẫn chiếu Chương 01 mục 6.2 | AM soạn, TL-KT xác nhận nội dung nghiệp vụ |
-| 3 | Giới hạn trách nhiệm của oBacker, và điều khoản loại trừ trách nhiệm đối với các kỳ trước ngày tiếp nhận, khớp với mục 12 của biên bản hiện trạng tại 6.5.3 | AM soạn, CEO duyệt |
+| 1 | Phạm vi công việc oBacker thực hiện, đối chiếu đúng bảng 5.1 và 6.2 của Chương 02, và phạm vi ngoại lệ của khách này | AM soạn, TL-KT soát nội dung nghiệp vụ, COO kiểm |
+| 2 | Nguồn dữ liệu do khách cung cấp, và trách nhiệm của khách về tính đầy đủ, có thật, hợp pháp của dữ liệu đó, dẫn chiếu Chương 01 mục 5.2 | AM soạn, TL-KT xác nhận nội dung nghiệp vụ |
+| 3 | Giới hạn trách nhiệm của oBacker, và điều khoản loại trừ trách nhiệm đối với các kỳ trước ngày tiếp nhận, khớp với mục 12 của biên bản hiện trạng tại 5.5.3 | AM soạn, CEO duyệt |
 
 > [!bug] LỖI THƯỜNG GẶP
 > Ký hợp đồng có tên dịch vụ đúng nhưng thiếu ba nội dung ranh giới trách nhiệm, rồi trông vào biên bản hiện trạng để bù. Biên bản hiện trạng chỉ phân định theo thời gian, không phân định theo phạm vi công việc. Hai văn bản này bù nhau, không thay nhau.
 
 ---
 
-### 6.13. KIỂM TRA TIÊU CHUẨN KẾ TOÁN TRƯỞNG CỦA KHÁCH
+### 5.13. KIỂM TRA TIÊU CHUẨN KẾ TOÁN TRƯỞNG CỦA KHÁCH
 
 Vì cả ba chữ ký trên báo cáo tài chính đều là của khách, trong đó có chữ ký kế toán trưởng, năng lực pháp lý của người khách cử làm kế toán trưởng là rủi ro của oBacker, không phải việc riêng của khách. Bước này bắt buộc khi onboarding, là đầu việc 1.14 của giai đoạn 1, và phải lập lại mỗi khi khách thay người giữ vị trí này.
 
-#### 6.13.1. Tiêu chuẩn phải đối chiếu
+#### 5.13.1. Tiêu chuẩn phải đối chiếu
 
 | # | Nội dung | Căn cứ |
 | --- | --- | --- |
@@ -669,7 +648,7 @@ Quy đổi số năm kinh nghiệm bắt buộc theo trình độ:
 | Trung cấp, cao đẳng | 03 năm |
 | Dưới trung cấp | Không đủ tiêu chuẩn tại điểm b, không cần xét số năm |
 
-#### 6.13.2. Quy trình kiểm tra
+#### 5.13.2. Quy trình kiểm tra
 
 | Bước | Nội dung | Người làm | Đầu ra |
 | --- | --- | --- | --- |
@@ -682,7 +661,7 @@ Quy đổi số năm kinh nghiệm bắt buộc theo trình độ:
 | 7 | Quyết định nếu nội dung này là căn cứ để từ chối nhận khách hoặc chấm dứt hợp đồng | CEO | Quyết định bằng văn bản |
 | 8 | Lập lại phiếu mỗi khi khách thay người giữ vị trí kế toán trưởng hoặc người phụ trách kế toán | TL-KT theo dõi, AM thu hồ sơ | Phiếu B15 mới |
 
-#### 6.13.3. Điều phải nói và điều không được nói với khách
+#### 5.13.3. Điều phải nói và điều không được nói với khách
 
 | # | Nội dung | Được nói hay không |
 | --- | --- | --- |
@@ -693,17 +672,17 @@ Quy đổi số năm kinh nghiệm bắt buộc theo trình độ:
 | 5 | Mức xử phạt hành vi ký báo cáo tài chính sai thẩm quyền, hoặc bất kỳ hành vi nào khác tại Điều 13 Luật Kế toán | Không được nói, xem cảnh báo dưới |
 | 6 | Kết luận rằng khách chắc chắn bị xử lý | Không được nói. AM chỉ nêu tiêu chuẩn còn thiếu, không kết luận hậu quả |
 
-> [!question] CẦN XÁC MINH
-> Mức xử phạt hành vi bố trí hoặc thuê người làm kế toán trưởng không đủ tiêu chuẩn: phạt tiền từ 20.000.000 đồng đến 30.000.000 đồng đối với cá nhân, từ 40.000.000 đồng đến 60.000.000 đồng đối với tổ chức (gấp 02 lần mức phạt cá nhân) `[NĐ 41/2018 Đ.17 k.3 điểm b, điểm c; NĐ 132/2026 Đ.2]`. Mức xử phạt hành vi ký báo cáo tài chính sai thẩm quyền, và mức xử phạt cho các hành vi khác tại Điều 13 Luật Kế toán, vẫn giữ chưa xác minh được; TUYỆT ĐỐI không nêu mức phạt cho các hành vi đó. Khách hỏi về mức phạt thì AM ghi nhận câu hỏi và chuyển TL-KT; TL-KT chỉ trả lời sau khi đối chiếu bản gốc.
+> [!note] CĂN CỨ PHÁP LÝ VỀ XỬ PHẠT VI PHẠM KẾ TOÁN TRƯỞNG
+> Hành vi bố trí hoặc thuê người làm kế toán trưởng không đủ tiêu chuẩn, điều kiện bị phạt tiền từ 20.000.000 đồng đến 30.000.000 đồng đối với cá nhân, và từ 40.000.000 đồng đến 60.000.000 đồng đối với tổ chức `[NĐ 41/2018 Đ.17 k.3 đ.b, đ.c; NĐ 132/2026 Đ.2]`. Mức xử phạt đối với các hành vi vi phạm khác trong lĩnh vực kế toán được TL-KT đối chiếu trực tiếp từ Nghị định 41/2018/NĐ-CP và Nghị định 132/2026/NĐ-CP trước khi tư vấn khách hàng.
 
 ---
 
-## 7. Điểm kiểm soát bắt buộc
+## 6. Điểm kiểm soát bắt buộc
 
 | # | Điểm kiểm soát | Ai kiểm | Khi nào |
 | --- | --- | --- | --- |
 | 1 | Không ký hợp đồng khi chưa có bảng chấm điểm rủi ro và quyết định nhận khách của CEO | CEO | Trước khi ký |
-| 2 | Không nhận khách có bất kỳ dấu hiệu từ chối tuyệt đối nào tại mục 6.4.3 | TL-KT đối chiếu, CEO quyết định | Trước khi ký |
+| 2 | Không nhận khách có bất kỳ dấu hiệu từ chối tuyệt đối nào tại mục 5.4.3 | TL-KT đối chiếu, CEO quyết định | Trước khi ký |
 | 3 | Không bắt đầu hạch toán khi chưa có biên bản hiện trạng được khách xác nhận | TL-KT | Trước bút toán đầu tiên |
 | 4 | Biên bản hiện trạng luôn có mục 12 về phân định trách nhiệm | COO | Khi duyệt biên bản |
 | 5 | Phiếu mở hồ sơ khách có đủ mục 05 và mục 14 | AM và TL-KT | Khi bộ phận nghiệp vụ nhận hồ sơ |
@@ -712,35 +691,35 @@ Quy đổi số năm kinh nghiệm bắt buộc theo trình độ:
 | 8 | Đăng nhập thử thành công cả ba hệ thống kỹ thuật | TL-KT | Trong 07 ngày đầu |
 | 9 | Nghĩa vụ tới hạn trong 30 ngày đầu được TL-KT rà riêng, không chỉ dựa vào hệ thống | TL-KT | Ngay sau bàn giao |
 | 10 | Phiếu nghiệm thu onboarding được COO duyệt trước khi chuyển trạng thái vận hành | COO | Ngày làm việc thứ 30 |
-| 11 | Tên dịch vụ trong hợp đồng không chứa cụm "lập và trình bày báo cáo tài chính" và không chứa cụm "làm kế toán trưởng", theo mục 6.12 | TL-KT soát tên dịch vụ, COO kiểm, CEO duyệt | Trước khi ký |
-| 12 | Hợp đồng có đủ ba nội dung ranh giới trách nhiệm tại mục 6.12.2 | AM soạn, CEO duyệt | Trước khi ký |
+| 11 | Tên dịch vụ trong hợp đồng không chứa cụm "lập và trình bày báo cáo tài chính" và không chứa cụm "làm kế toán trưởng", theo mục 5.12 | TL-KT soát tên dịch vụ, COO kiểm, CEO duyệt | Trước khi ký |
+| 12 | Hợp đồng có đủ ba nội dung ranh giới trách nhiệm tại mục 5.12.2 | AM soạn, CEO duyệt | Trước khi ký |
 | 13 | Phiếu B15 kiểm tra tiêu chuẩn kế toán trưởng của khách đã có kết luận;<br>nếu không đủ tiêu chuẩn thì đã ghi hồ sơ rủi ro và AM đã thông báo khách bằng văn bản | TL-KT kết luận, AM thông báo | Trong 07 ngày đầu và mỗi khi khách đổi người |
 
 ---
 
-## 8. Lỗi thường gặp và cách xử lý
+## 7. Lỗi thường gặp và cách xử lý
 
 | # | Lỗi thường gặp | Vì sao nguy hiểm | Cách xử lý |
 | --- | --- | --- | --- |
-| 1 | Bắt đầu làm ngay để chiều khách, chưa có biên bản hiện trạng | Không tách được trách nhiệm kỳ trước;<br>mọi vấn đề cũ trở thành vấn đề của oBacker | Áp dụng đúng mục 6.5;<br>ngoại lệ chỉ do COO quyết định bằng văn bản sau khi TL-KT xác nhận phần nghiệp vụ |
-| 2 | Tin lời khách về hiện trạng sổ sách mà không kiểm chứng | Khách thường không biết hoặc không muốn nói hết | Rà đủ 25 điểm tại mục 6.5.2, có bằng chứng độc lập |
+| 1 | Bắt đầu làm ngay để chiều khách, chưa có biên bản hiện trạng | Không tách được trách nhiệm kỳ trước;<br>mọi vấn đề cũ trở thành vấn đề của oBacker | Áp dụng đúng mục 5.5;<br>ngoại lệ chỉ do COO quyết định bằng văn bản sau khi TL-KT xác nhận phần nghiệp vụ |
+| 2 | Tin lời khách về hiện trạng sổ sách mà không kiểm chứng | Khách thường không biết hoặc không muốn nói hết | Rà đủ 25 điểm tại mục 5.5.2, có bằng chứng độc lập |
 | 3 | Không hỏi lý do thật khiến khách rời đơn vị cũ | Bỏ sót dấu hiệu rủi ro lớn nhất | Tiêu chí số 09 trong bảng chấm điểm;<br>đối chiếu với hiện trạng sổ sách |
 | 4 | Nhận khách đang bị thanh tra mà không đánh giá riêng | oBacker bị cuốn vào vụ việc, mốc thời hạn tính bằng giờ `[15/VBHN-BTC ngày 05/05/2026 Đ.15 k.1 đ.c]` | Tiêu chí số 08;<br>nếu nhận thì CEO phải duyệt phương án theo Chương 16 |
 | 5 | Không lấy sao kê ngân hàng đầy đủ tất cả tài khoản | Bỏ sót tài khoản dẫn tới thiếu doanh thu, thiếu chi phí | Mục 30 và 31 của bảng kiểm;<br>yêu cầu khách cam kết bằng văn bản là đã liệt kê đủ |
 | 6 | Nhận dữ liệu kế toán ở dạng không đọc được | Không chuyển đổi được số dư, phải nhập lại thủ công, phát sinh chi phí lớn | Mục 45 của bảng kiểm;<br>kiểm tra khả năng đọc dữ liệu trước khi ký hợp đồng |
 | 7 | Đơn vị cũ vẫn giữ quyền truy cập chữ ký số và tài khoản khai thuế | Rủi ro hồ sơ bị nộp ngoài kiểm soát | Đổi mật khẩu và rà quyền ngay trong 07 ngày đầu |
 | 8 | Không xác định rõ ai là người có thẩm quyền xác nhận số liệu | Xác nhận từ người không có thẩm quyền không bảo vệ được oBacker | Mục 04 và 46 của bảng kiểm;<br>yêu cầu văn bản ủy quyền |
-| 9 | Bỏ qua việc kiểm tra Quy chế hạch toán kế toán khi khách đã tự thiết kế biểu mẫu | Biểu mẫu tự thiết kế không có cơ sở, bị bác bỏ khi kiểm tra `[TT99 Đ.9 k.2]` | Điểm 12 của mục 6.5.2;<br>nếu thiếu thì đề xuất soạn quy chế, tính là dịch vụ G4 |
+| 9 | Bỏ qua việc kiểm tra Quy chế hạch toán kế toán khi khách đã tự thiết kế biểu mẫu | Biểu mẫu tự thiết kế không có cơ sở, bị bác bỏ khi kiểm tra `[TT99 Đ.9 k.2]` | Điểm 12 của mục 5.5.2;<br>nếu thiếu thì đề xuất soạn quy chế, tính là dịch vụ G4 |
 | 10 | Không nạp đủ nghĩa vụ định kỳ vào bảng theo dõi ngay từ đầu | Sót nghĩa vụ trong tháng đầu, là thời điểm dễ sót nhất | Đầu việc 1.6;<br>TL-KT rà riêng theo điểm kiểm soát số 09 |
 | 11 | `AM` cam kết miệng nhưng không khai báo | Bộ phận nghiệp vụ làm không xuể hoặc khách bức xúc vì không được như hứa | Mục 05 và 14 của Phiếu mở hồ sơ khách;<br>bộ phận nghiệp vụ không nhận hồ sơ nếu thiếu |
-| 12 | Họp khởi động chỉ nói phần bao gồm, lướt qua phần không bao gồm | Tranh chấp phát sinh ngay trong quý đầu | Nội dung số 03 của mục 6.10.2;<br>đọc qua từng dòng |
-| 13 | Cấp mã khách theo tên viết tắt, trùng nhau khi có hai khách tên gần giống | Lẫn hồ sơ giữa hai khách, rủi ro bảo mật và rủi ro nghiệp vụ | Áp dụng quy tắc mã tại 6.7.1 |
+| 12 | Họp khởi động chỉ nói phần bao gồm, lướt qua phần không bao gồm | Tranh chấp phát sinh ngay trong quý đầu | Nội dung số 03 của mục 5.10.2;<br>đọc qua từng dòng |
+| 13 | Cấp mã khách theo tên viết tắt, trùng nhau khi có hai khách tên gần giống | Lẫn hồ sơ giữa hai khách, rủi ro bảo mật và rủi ro nghiệp vụ | Áp dụng quy tắc mã tại 5.7.1 |
 | 14 | Không kiểm tra ngày hết hạn chữ ký số ngay từ đầu | Phát hiện hết hạn đúng ngày sát hạn nộp | Trường 26 của hồ sơ khách;<br>cảnh báo trước 30 ngày |
 | 15 | Nhận khách vượt năng lực nhóm vì sợ mất doanh thu | Cả danh mục khách bị ảnh hưởng, không riêng khách mới | Đầu việc 0.7;<br>COO xác nhận năng lực và CEO quyết định trước khi ký |
 
 ---
 
-## 9. Đầu ra và nơi lưu
+## 8. Đầu ra và nơi lưu
 
 | # | Đầu ra | Người lập | Nơi lưu | Thời điểm |
 | --- | --- | --- | --- | --- |
@@ -764,7 +743,7 @@ Quy đổi số năm kinh nghiệm bắt buộc theo trình độ:
 
 ---
 
-## 10. Chỉ số theo dõi
+## 9. Chỉ số theo dõi
 
 | # | Chỉ số | Cách tính | Tần suất | Ngưỡng cảnh báo |
 | --- | --- | --- | --- | --- |
@@ -874,4 +853,4 @@ Quy đổi số năm kinh nghiệm bắt buộc theo trình độ:
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.0.1 | Chuan hoa van phong hanh chinh, bo so dem tai tieu de 5.1 va 5.12, chuyen callout sang can cu phap ly |

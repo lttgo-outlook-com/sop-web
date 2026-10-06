@@ -4,19 +4,15 @@ code: "NH-01"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-TTT-05 Cách làm phiếu thao tác"
-law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - NH-01
 tags:
@@ -29,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | NH-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -38,8 +34,9 @@ tags:
 | **Mã phiếu** | NH-01 |
 | **Màu** | XANH, phiếu theo lịch |
 | **Ai dùng** | `AD-KT`. `KTV` và `KTT` không dùng phiếu này, vì hai vai trò đó lập lệnh chi |
-| **Sinh từ** | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 34.3;<br>[[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] mục 6.13.2 và chốt `K12` |
+| **Sinh từ** | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 34.3;<br>[[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] mục 5.13.2 và chốt `K12` |
 | **Ngày làm phiếu** | 04/09/2026 |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
@@ -115,18 +112,10 @@ Kỳ đối chiếu: từ ngày ........... đến ngày ...........
 
 Đối chiếu ngân hàng là điểm kiểm soát cuối cùng phát hiện tiền ra khỏi công ty mà không đi qua quy trình. Mọi điểm kiểm soát khác đều nằm trước lúc chuyển tiền, còn chốt này nằm SAU nên bắt được những gì đã lọt qua tất cả các chốt trước.
 
-### 2. Căn cứ quy định và pháp luật liên quan
-
-| Việc số | Nguồn | Nội dung |
-| --- | --- | --- |
-| Chu kỳ và phạm vi hai cấp | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 34.3 | Đối chiếu nhanh mỗi 02 tuần;<br>đối chiếu đầy đủ hằng tháng |
-| 1 tới 3 | [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] mục 6.13.2 | `AD-KT` đối chiếu số dư và từng giao dịch trên sao kê với sổ kế toán.<br>`KTV` không làm việc đối chiếu, vì `KTV` giữ quyền lập lệnh |
-| 4 tới 6 | [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] mục 6.13.2;<br>[[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 34.3 | Mọi giao dịch trên sao kê không tìm được đề nghị thanh toán tương ứng phải được truy nguyên trong 24 giờ và báo `TGĐ` |
-| 7 và 8 | [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] mục 7 chốt `K12` | Đối chiếu sao kê với sổ kế toán, bằng chứng là bảng đối chiếu, `TGĐ` duyệt.<br>Bỏ qua thì không phát hiện được chi ngoài quy trình |
 
 ## Con số của phiếu này lấy ở đâu
 
-Phiếu này không tự đặt con số nào. Chu kỳ hai cấp lấy từ [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 34.3; mốc truy nguyên 24 giờ lấy từ [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]] mục 6.13.2. Cả hai là mốc nội bộ, không phải mốc theo pháp luật.
+Phiếu này không tự đặt con số nào. Chu kỳ hai cấp lấy từ OBK-QCTC-01 mục 34.3; mốc truy nguyên 24 giờ lấy từ OBK-SOP-NB-01 mục 5.13.2. Cả hai là mốc nội bộ, không phải mốc theo pháp luật.
 
 ---
 
@@ -134,4 +123,4 @@ Phiếu này không tự đặt con số nào. Chu kỳ hai cấp lấy từ [[O
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu NH-01 về Sổ cái OBK-MSR |

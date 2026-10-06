@@ -7,23 +7,19 @@ level: "Cấp 3, hướng dẫn nghiệp vụ"
 version: "R.1.0.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 25/08/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
 parent: "OBK-SOP-KT Kế toán và thuế"
 next_review: "Chậm nhất 28/02/2027"
 chapter: "Giao tiếp và quản trị kỳ vọng khách hàng"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-SOP-19
 tags:
   - loai/sop
   - cap/3
   - nghiep-vu/giao-tiep-khach-hang
-  - nghiep-vu/dieu-kien-dich-vu-ke-toan
 ---
 # Chương 19. Giao tiếp và quản trị kỳ vọng khách hàng
 
@@ -80,7 +76,7 @@ Chương này viết cho năm vai trò. AM là ĐẦU MỐI DUY NHẤT với kh�
 
 2.2. Áp dụng cho cả trao đổi chính thức và trao đổi không chính thức. Một tin nhắn ngoài giờ vẫn là phát ngôn của oBacker.
 
-2.3. Không áp dụng cho trao đổi với cơ quan thuế và cơ quan nhà nước. Nội dung đó thuộc Chương 16 mục 6.7.
+2.3. Không áp dụng cho trao đổi với cơ quan thuế và cơ quan nhà nước. Nội dung đó thuộc Chương 16 mục 5.7.
 
 2.4. Không áp dụng cho hoạt động bán hàng và tiếp thị trước khi ký hợp đồng, trừ khi nội dung trao đổi chạm tới nội dung nghiệp vụ; khi đó áp quy tắc tại mục 6.6 của chương này.
 
@@ -92,12 +88,12 @@ Chương này viết cho năm vai trò. AM là ĐẦU MỐI DUY NHẤT với kh�
 
 | Mã căn cứ | Văn bản | Nội dung căn cứ |
 | --- | --- | --- |
-| [[CC-KT-67 Doanh nghiệp kinh doanh dịch vụ kế toán phải thực hiện công việc kế toán liên quan đến nội dung dịch vụ đã thỏa thuận trong hợp đồng\|CC-KT-67]] | Luật Kế toán, văn bản hợp nhất số 41/VBHN-VPQH, bản mới nhất trong bộ nguồn nội bộ tại `05_PhapLuat/KeToan/` | Doanh nghiệp thực hiện công việc kế toán liên quan đến nội dung dịch vụ kế toán đã thỏa thuận trong hợp đồng `[41/VBHN-VPQH Đ.67 k.1]` |
-| [[CC-KT-69 Doanh nghiệp chịu trách nhiệm trước khách hàng và trước pháp luật về nội dung dịch vụ kế toán đã cung cấp\|CC-KT-69]] | Cùng văn bản nêu trên | Doanh nghiệp chịu trách nhiệm trước khách hàng và trước pháp luật về nội dung dịch vụ kế toán đã cung cấp, và phải bồi thường thiệt hại do mình gây ra.<br>Đây là lý do mọi kết luận nghiệp vụ gửi khách phải có dấu vết bằng văn bản `[41/VBHN-VPQH Đ.67 k.3]` |
-| [[CC-KT-71 KHÔNG được cung cấp dịch vụ kế toán khi đơn vị kế toán yêu cầu làm việc không đúng chuẩn mực đạo đức nghề nghiệp hoặc không đúng yêu cầu\|CC-KT-71]] | Cùng văn bản nêu trên | Không được cung cấp dịch vụ khi đơn vị kế toán yêu cầu thực hiện những công việc không đúng chuẩn mực đạo đức nghề nghiệp hoặc không đúng yêu cầu về chuyên môn, nghiệp vụ kế toán, tài chính.<br>Đây là căn cứ để oBacker từ chối một yêu cầu của khách `[41/VBHN-VPQH Đ.68 k.5]` |
-| [[CC-KT-72 Nghiêm cấm cố ý, thỏa thuận hoặc ép buộc người khác cung cấp, xác nhận thông tin, số liệu kế toán sai sự thật\|CC-KT-72]] | Cùng văn bản nêu trên | Nghiêm cấm cố ý, thỏa thuận hoặc ép buộc người khác cung cấp, xác nhận thông tin, số liệu kế toán sai sự thật;<br>nghiêm cấm thông đồng, móc nối với khách hàng để cung cấp, xác nhận thông tin, số liệu kế toán sai sự thật `[41/VBHN-VPQH Đ.13 k.2, k.14]` |
+| CC-KT-67 | Luật Kế toán, văn bản hợp nhất số 41/VBHN-VPQH, bản mới nhất trong bộ nguồn nội bộ tại `05_PhapLuat/KeToan/` | Doanh nghiệp thực hiện công việc kế toán liên quan đến nội dung dịch vụ kế toán đã thỏa thuận trong hợp đồng `[41/VBHN-VPQH Đ.67 k.1]` |
+| CC-KT-69 | Cùng văn bản nêu trên | Doanh nghiệp chịu trách nhiệm trước khách hàng và trước pháp luật về nội dung dịch vụ kế toán đã cung cấp, và phải bồi thường thiệt hại do mình gây ra.<br>Đây là lý do mọi kết luận nghiệp vụ gửi khách phải có dấu vết bằng văn bản `[41/VBHN-VPQH Đ.67 k.3]` |
+| CC-KT-71 | Cùng văn bản nêu trên | Không được cung cấp dịch vụ khi đơn vị kế toán yêu cầu thực hiện những công việc không đúng chuẩn mực đạo đức nghề nghiệp hoặc không đúng yêu cầu về chuyên môn, nghiệp vụ kế toán, tài chính.<br>Đây là căn cứ để oBacker từ chối một yêu cầu của khách `[41/VBHN-VPQH Đ.68 k.5]` |
+| CC-KT-72 | Cùng văn bản nêu trên | Nghiêm cấm cố ý, thỏa thuận hoặc ép buộc người khác cung cấp, xác nhận thông tin, số liệu kế toán sai sự thật;<br>nghiêm cấm thông đồng, móc nối với khách hàng để cung cấp, xác nhận thông tin, số liệu kế toán sai sự thật `[41/VBHN-VPQH Đ.13 k.2, k.14]` |
 
-Nguyên văn bốn khoản trên lưu tại [[OBK-CC]], tra theo mã căn cứ ở cột đầu. Bốn khoản trên là lý do vì sao chương này cấm cam kết vượt thẩm quyền, cấm xác nhận số liệu chưa soát xét, và bắt buộc ghi lại bằng văn bản khi khách quyết định làm khác khuyến nghị của oBacker.
+Nguyên văn bốn khoản trên lưu tại OBK-CC, tra theo mã căn cứ ở cột đầu. Bốn khoản trên là lý do vì sao chương này cấm cam kết vượt thẩm quyền, cấm xác nhận số liệu chưa soát xét, và bắt buộc ghi lại bằng văn bản khi khách quyết định làm khác khuyến nghị của oBacker.
 
 3.2. Toàn bộ mốc thời gian phản hồi, quy trình chuyển lên cấp trên và câu chữ mẫu trong chương này là quy định nội bộ oBacker, không phải quy định của pháp luật. Đọc cảnh báo mở đầu trước khi trích cho khách.
 
@@ -108,9 +104,9 @@ Nguyên văn bốn khoản trên lưu tại [[OBK-CC]], tra theo mã căn cứ �
 | Nội dung pháp lý liên quan | Xem tại |
 | --- | --- |
 | Trách nhiệm hành chính của bên được ủy quyền khai, nộp thuế thay | Chương 17, cảnh báo mở đầu |
-| Thông báo sai sót cho khách và phương án khắc phục | Chương 15 mục 6.8 |
-| Quy tắc giao tiếp với đoàn kiểm tra thuế | Chương 16 mục 6.7 |
-| Xác nhận của khách hàng trước khi nộp hồ sơ | Chương 14 mục 6.5 |
+| Thông báo sai sót cho khách và phương án khắc phục | Chương 15 mục 5.8 |
+| Quy tắc giao tiếp với đoàn kiểm tra thuế | Chương 16 mục 5.7 |
+| Xác nhận của khách hàng trước khi nộp hồ sơ | Chương 14 mục 5.5 |
 | Quy tắc xác minh nội dung pháp lý trước khi trả lời | Chương 21 mục 6.4 |
 
 3.5. Nghĩa vụ bảo mật thông tin khách hàng theo hợp đồng dịch vụ và theo pháp luật có liên quan là ràng buộc bao trùm toàn chương này. Khi có xung đột giữa yêu cầu giao tiếp nhanh và yêu cầu bảo mật, bảo mật thắng.
@@ -153,7 +149,7 @@ Trước khi trao đổi một nội dung nghiệp vụ với khách, AM phải 
 
 ### 6.1. NGUYÊN TẮC GIAO TIẾP
 
-#### 6.1.1. Sáu nguyên tắc gốc
+#### 6.1.1. Nguyên tắc giao tiếp nền tảng
 
 Sáu nguyên tắc giao tiếp ĐẶT tại `03_DichVu/01_OBK-SOP-00` mục 6.3.1, dùng chung cho mọi bộ phận có khách, không lặp lại ở đây. Mọi mẫu nội dung tại mục 6.4 của chương này phải đọc được ngược về sáu nguyên tắc đó: mẫu nào trái một nguyên tắc là mẫu sai, báo Legal R&D sửa.
 
@@ -191,7 +187,7 @@ Quy định nội bộ oBacker. Nếu nội dung thuộc danh mục này mà ch�
 | --- | --- | --- | --- |
 | 1 | Xác nhận của khách về số liệu trước khi nộp bất kỳ hồ sơ nào | Thư điện tử của khách hoặc văn bản có chữ ký | Khách xác nhận, AM tiếp nhận, CV-KT lưu |
 | 2 | Thông báo số thuế phải nộp và hạn nộp | Thư điện tử | AM gửi, sau khi TL-KT chốt số liệu |
-| 3 | Thông báo sai sót và phương án khắc phục | Văn bản theo mẫu Chương 15 mục 6.8 | TL-KT chốt nội dung nghiệp vụ, `COO` duyệt, `AM` ký và gửi |
+| 3 | Thông báo sai sót và phương án khắc phục | Văn bản theo mẫu Chương 15 mục 5.8 | TL-KT chốt nội dung nghiệp vụ, `COO` duyệt, `AM` ký và gửi |
 | 4 | Trả lời câu hỏi pháp lý của khách | Thư điện tử hoặc memo | TL-KT chốt nội dung, AM gửi |
 | 5 | Từ chối một yêu cầu của khách | Thư điện tử | AM gửi;<br>TL-KT chốt nếu lý do là quy định pháp luật, COO chốt nếu lý do là phạm vi dịch vụ |
 | 6 | Thay đổi phạm vi dịch vụ | Phụ lục hợp đồng hoặc thư điện tử xác nhận hai chiều | AM ký, COO duyệt |
@@ -254,7 +250,7 @@ Quy định nội bộ oBacker. Áp dụng cho khách hàng dịch vụ trọn g
 | Thông báo nghĩa vụ thuế | Ngay khi có số liệu đã duyệt, chậm nhất 3 ngày làm việc trước hạn nộp tiền | Thư điện tử | AM | Sắc thuế, kỳ, số tiền, hạn nộp, cách nộp |
 | Họp quý | Trong 20 ngày sau khi kết thúc quý | Họp, có biên bản | AM chủ trì, TL-KT tham dự;<br>COO tham dự với khách trọng điểm | Tổng hợp quý;<br>so sánh với quý trước và cùng kỳ;<br>rủi ro tuân thủ đã nhận diện;<br>cập nhật thay đổi pháp luật ảnh hưởng tới khách;<br>kế hoạch quý tới |
 | Rà soát đầu năm | Tháng 01 | Thư điện tử hoặc họp | AM chủ trì, TL-KT chuẩn bị nội dung | Kết quả rà soát kỳ khai thuế;<br>chế độ kế toán áp dụng;<br>thay đổi chính sách năm mới;<br>các mốc lớn trong năm |
-| Kỳ quyết toán thuế năm | Theo lịch tại Chương 14 mục 6.1 | Họp và thư điện tử | AM chủ trì, TL-KT chuẩn bị và chốt nội dung | Kế hoạch quyết toán;<br>dữ liệu cần bổ sung;<br>các vấn đề cần khách quyết |
+| Kỳ quyết toán thuế năm | Theo lịch tại Chương 14 mục 5.1 | Họp và thư điện tử | AM chủ trì, TL-KT chuẩn bị và chốt nội dung | Kế hoạch quyết toán;<br>dữ liệu cần bổ sung;<br>các vấn đề cần khách quyết |
 | Tổng kết năm | Trong 30 ngày sau khi phát hành báo cáo tài chính | Họp, có biên bản | AM chủ trì, COO tham dự | Kết quả cả năm;<br>đánh giá tuân thủ;<br>các vấn đề tồn đọng;<br>kiến nghị cho năm sau;<br>đánh giá chất lượng dịch vụ hai chiều |
 | Rà soát hợp đồng | Trước ngày hết hạn hợp đồng 60 ngày | Họp hoặc thư điện tử | AM, COO duyệt | Phạm vi dịch vụ năm tới;<br>phí;<br>điều chỉnh nếu có |
 
@@ -508,7 +504,7 @@ f) Mọi mẫu trong mục này đều do `AM` ký và gửi, không có ngoại
 
 #### MẪU 07. Thông báo sai sót do oBacker gây ra
 
-Dùng mẫu đầy đủ 7 phần tại Chương 15 mục 6.8. Mục này bổ sung cách gửi và cách trao đổi kèm theo, theo quy định nội bộ oBacker:
+Dùng mẫu đầy đủ 7 phần tại Chương 15 mục 5.8. Mục này bổ sung cách gửi và cách trao đổi kèm theo, theo quy định nội bộ oBacker:
 
 | Bước | Việc làm | Người thực hiện | Mốc |
 | --- | --- | --- | --- |
@@ -639,8 +635,8 @@ Bốn điều tuyệt đối không làm khi thông báo sai sót do oBacker gâ
 >
 > [Người ký: `AM` phụ trách khách hàng. Nội dung do TL-KT chốt, `COO` duyệt mốc và quyết việc gửi]
 
-> [!question] CẦN XÁC MINH
-> Mẫu 09 chỉ được gửi sau khi nội dung pháp lý đã đạt mức đã đối chiếu bản gốc, hoặc nếu chưa đạt thì phải dùng đúng đoạn thứ hai tại mục 5 của mẫu. Cấm gửi thông báo thay đổi chính sách dựa trên tin bài chưa đối chiếu văn bản gốc. Xem Chương 21.
+> [!warning] ĐIỀU KIỆN PHÁT HÀNH
+> Mẫu 09 chỉ được phát hành sau khi nội dung pháp lý đã được đối chiếu toàn văn với văn bản gốc. Trường hợp đang trong quá trình rà soát văn bản gốc, áp dụng đúng nội dung tùy chọn tại mục 5 của biểu mẫu. Nghiêm cấm phát hành thông báo thay đổi chính sách dựa trên nguồn tin chưa đối chiếu văn bản gốc theo quy định tại Chương 21.
 
 > [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
 > Người ký Mẫu 09 là AM, vì AM là đầu mối duy nhất với khách. Nhưng AM chỉ ký sau khi TL-KT chốt nội dung pháp lý và COO quyết có thông báo hay không. AM không được tự soạn nội dung thay đổi chính sách, không được tự quyết gửi hay không gửi, và phải truyền đạt đúng kết luận của TL-KT, không làm nhẹ đi.
@@ -831,7 +827,7 @@ Việc trình bày các nội dung này ở buổi khởi động khó chịu h�
 
 ### 6.6. QUY TẮC TRẢ LỜI CÂU HỎI PHÁP LÝ CỦA KHÁCH
 
-#### 6.6.1. Ba điều cấm tuyệt đối
+#### 6.6.1. Quy định cấm trong cam kết với khách hàng
 
 Quy định nội bộ oBacker.
 
@@ -904,7 +900,7 @@ Dùng nguyên văn, không cần chế biến. Quy định nội bộ oBacker.
 
 ### 6.7. XỬ LÝ KHÁCH KHÓ TÍNH VÀ KHIẾU NẠI
 
-#### 6.7.1. Phân biệt ba tình huống
+#### 6.7.1. Phân loại tình huống khiếu nại
 
 | Tình huống | Đặc điểm | Hướng xử lý |
 | --- | --- | --- |
@@ -998,7 +994,7 @@ Quy định nội bộ oBacker.
 
 Quy định nội bộ oBacker. Mốc tính từ ngày đến hạn thanh toán theo hợp đồng.
 
-> [!note] ĐÂY LÀ BẢNG MỐC NHẮC PHÍ DUY NHẤT của cả bộ tài liệu
+> [!note] BẢNG MỐC NHẮC PHÍ CHUẨN HÓA
 > Không tài liệu nào khác được đặt lại các mốc này. Chương khác và phụ lục khác chỉ DẪN CHIẾU về mục 6.8.2 này.
 
 | Mốc | Hành động | Kênh | Người thực hiện | Nội dung |
@@ -1121,7 +1117,7 @@ Quy định nội bộ oBacker.
 2. Không dùng tài khoản cá nhân để trao đổi công việc với khách. Mọi kênh phải là kênh công vụ.
 3. Không xóa lịch sử trao đổi, kể cả nội dung bất lợi cho oBacker. Việc xóa dấu vết là hành vi che giấu theo Chương 18 mục 6.9.3.
 4. Khi người phụ trách nghỉ việc hoặc chuyển khách, toàn bộ lịch sử trao đổi được bàn giao theo Chương 20.
-5. Thời hạn lưu tối thiểu bằng thời hạn lưu hồ sơ thuế của kỳ tương ứng. Xem Chương 14 mục 9.2.
+5. Thời hạn lưu tối thiểu bằng thời hạn lưu hồ sơ thuế của kỳ tương ứng. Xem Chương 14 mục 8.2.
 6. Quyền truy cập lịch sử trao đổi của một khách hàng chỉ dành cho người có liên quan. Bảo mật thông tin khách hàng là ràng buộc bao trùm.
 
 ---
@@ -1130,7 +1126,7 @@ Quy định nội bộ oBacker.
 
 Quy định nội bộ oBacker. Mục này là hệ quả trực tiếp của quyết định của CEO ngày 25/08/2026 về mô hình 5 vai trò: CHỈ AM TIẾP XÚC KHÁCH HÀNG. Bốn nguyên tắc tại mục 6.10.1 lấy nguyên từ mô hình phân vai trò 5 cấp mục 2, và không có ngoại lệ vì lý do gấp, vì quan hệ, hay vì khách yêu cầu.
 
-#### 6.10.1. Bốn nguyên tắc không được vi phạm
+#### 6.10.1. Nguyên tắc quản lý xung đột lợi ích
 
 **Nguyên tắc 1: AM không được bác bỏ kết luận kỹ thuật của TL-KT.** AM có toàn quyền về giá, phạm vi và quan hệ. AM không có quyền quyết định một nghiệp vụ được hạch toán thế nào, một tờ khai được lập thế nào, hay một yêu cầu của khách có phù hợp quy định pháp luật hay không. Khi TL-KT kết luận "không được", AM chỉ có hai lựa chọn: giải thích lại với khách, hoặc chuyển COO.
 
@@ -1140,7 +1136,7 @@ Quy định nội bộ oBacker. Mục này là hệ quả trực tiếp của qu
 
 NGOẠI LỆ duy nhất, ghi nhận tại `03_DichVu/01_OBK-SOP-00` NT-5: phần việc do chính TL-KT trực tiếp làm thì TL-KT tự chốt, và phải ghi rõ trên Phiếu soát xét và chốt rằng phần đó không có lớp soát thứ hai. Khi chạm bất kỳ dấu hiệu nào trong ba dấu hiệu tại `02_Mo_hinh_dich_vu_va_phan_vai.md` Phụ lục 02-C mục 4.2 thì phải thêm lớp thứ hai. Xem Chương 18 mục 6.1.
 
-**Nguyên tắc 4: hành vi oBacker nghiêm cấm không có cấp nào vượt qua.** Các nội dung thuộc hành vi oBacker nghiêm cấm tại Chương 01 mục 6.8 là giới hạn tuyệt đối. CEO cũng không có thẩm quyền phê duyệt. Ai nhận được yêu cầu thuộc hành vi oBacker nghiêm cấm thì dừng việc và báo CEO cùng Legal R&D trong cùng ngày làm việc, không trả lời khách trước khi có chỉ đạo.
+**Nguyên tắc 4: hành vi oBacker nghiêm cấm không có cấp nào vượt qua.** Các nội dung thuộc hành vi oBacker nghiêm cấm tại Chương 01 mục 5.8 là giới hạn tuyệt đối. CEO cũng không có thẩm quyền phê duyệt. Ai nhận được yêu cầu thuộc hành vi oBacker nghiêm cấm thì dừng việc và báo CEO cùng Legal R&D trong cùng ngày làm việc, không trả lời khách trước khi có chỉ đạo.
 
 #### 6.10.2. Quy tắc truyền đạt của AM
 
@@ -1170,7 +1166,7 @@ Trong cuộc họp đó, CV-KT không cam kết mốc, không kết luận nghi�
 
 Mọi liên hệ tiếp theo sau cuộc họp đi qua `AM`. CV-KT KHÔNG có mặt trong nhóm tin nhắn của khách và không có mặt trong luồng thư điện tử của khách, kể cả khi được đồng gửi. CV-KT không được cho khách số điện thoại cá nhân và không được trả lời khách ngoài giờ làm việc.
 
-#### 6.10.4. Năm tình huống ranh giới hay gặp
+#### 6.10.4. Tình huống ranh giới thường gặp
 
 | # | Khách hỏi | Ai phát ngôn | Ai KHÔNG được phát ngôn |
 | --- | --- | --- | --- |
@@ -1268,13 +1264,13 @@ Mọi liên hệ tiếp theo sau cuộc họp đi qua `AM`. CV-KT KHÔNG có m�
 | Mô hình dịch vụ, phạm vi từng gói, ranh giới trong và ngoài phạm vi | Chương 02 |
 | Onboarding khách hàng mới và buổi khởi động | Chương 03 |
 | Quy trình nhắc và thu chứng từ, phân mức xử lý chứng từ thiếu | Chương 04 |
-| Mẫu thông báo sai sót đầy đủ 7 phần | Chương 15 mục 6.8 |
-| Quy tắc giao tiếp với đoàn kiểm tra thuế | Chương 16 mục 6.7 |
+| Mẫu thông báo sai sót đầy đủ 7 phần | Chương 15 mục 5.8 |
+| Quy tắc giao tiếp với đoàn kiểm tra thuế | Chương 16 mục 5.7 |
 | Rủi ro pháp lý của oBacker với tư cách bên được ủy quyền | Chương 17, cảnh báo mở đầu |
 | Ba cấp phòng vệ, phân loại lỗi, thẩm quyền của TL-KT và COO | Chương 18 |
 | Bàn giao, kết thúc hợp đồng, nguyên tắc không giữ hồ sơ | Chương 20 |
 | Quy tắc xác minh và cấm trả lời từ trí nhớ | Chương 21 mục 6.4 và 6.5 |
-| Xác nhận của khách trước khi nộp hồ sơ quyết toán | Chương 14 mục 6.5 |
+| Xác nhận của khách trước khi nộp hồ sơ quyết toán | Chương 14 mục 5.5 |
 | Lịch tuân thủ để lập kỳ giao tiếp định kỳ | Phụ lục C |
 | Biểu mẫu Sổ theo dõi chứng từ tồn đọng, Phiếu xin ý kiến TL-KT | Phụ lục B |
 

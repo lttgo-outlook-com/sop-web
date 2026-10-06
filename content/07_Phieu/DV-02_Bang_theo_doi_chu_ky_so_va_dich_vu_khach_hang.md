@@ -4,19 +4,15 @@ code: "DV-02"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-TTT-05 Cách làm phiếu thao tác"
-law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - DV-02
 tags:
@@ -29,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | DV-02 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -40,6 +36,7 @@ tags:
 | **Ai dùng** | Chuyên viên Quản lý khách hàng (`AM`), `KTV` và `TP Thương mại` |
 | **Sinh từ** | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] Job `AM-13`;<br>[[PL_H_Quy_trinh_chu_ky_so_va_hoa_don_dien_tu\|OBK-SOP-PL-H]] mục 5 |
 | **Ngày làm phiếu** | 27/09/2026 |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
@@ -60,7 +57,7 @@ Bảng theo dõi được áp dụng cho toàn bộ khách hàng đang sử dụ
 | 9 | Chuyên viên phụ trách (`AM`) | Nhân sự chịu trách nhiệm duy trì liên hệ và chăm sóc khách hàng |
 | 10 | Trạng thái gia hạn | Bình thường, Đã gửi thông báo 30 ngày, Đang thương thảo, Đã thanh toán gia hạn, hoặc Khách hàng hủy dịch vụ |
 
-## QUY TRÌNH 5 MỐC NHẮC GIA HẠN VÀ XỬ LÝ DỊCH VỤ
+## QUY TRÌNH NHẮC GIA HẠN VÀ XỬ LÝ DỊCH VỤ
 
 Quy trình nhắc nhở được thiết kế nhằm bảo đảm khách hàng không bị gián đoạn hoạt động xuất hóa đơn và nộp tờ khai thuế:
 
@@ -110,12 +107,6 @@ Sổ theo dõi được cập nhật liên tục bởi `AM` và đối soát cù
 
 Bảo đảm doanh thu định kỳ của oBacker, giữ chân khách hàng thông qua dịch vụ chăm sóc chủ động, ngăn ngừa các vi phạm hành chính về thuế cho khách hàng do nộp tờ khai chậm khi chữ ký số bị gián đoạn.
 
-### 2. Căn cứ quy định và pháp luật liên quan
-
-| Mục | Nguồn | Nội dung |
-| --- | --- | --- |
-| Quản lý khách hàng | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] Job `AM-13` | Cập nhật định kỳ và thông báo thời hạn cho khách hàng |
-| Quản lý chữ ký số | [[PL_H_Quy_trinh_chu_ky_so_va_hoa_don_dien_tu\|OBK-SOP-PL-H]] mục 5 | Kiểm tra thời hạn hiệu lực và thủ tục bàn giao chữ ký số |
 
 ---
 
@@ -123,4 +114,4 @@ Bảo đảm doanh thu định kỳ của oBacker, giữ chân khách hàng thô
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu DV-02 về Sổ cái OBK-MSR |

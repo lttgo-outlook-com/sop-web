@@ -4,19 +4,15 @@ code: "OBK-HB-71"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.0"
+version: "R.2.0.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 27/09/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-SOP-RD Nghiên cứu pháp lý"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-HB-71
 tags:
@@ -31,7 +27,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-HB-71 |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.2.0.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 27/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -57,14 +53,8 @@ Tài liệu chuẩn hóa phương pháp lập Báo cáo đánh giá tác động
 
 Không áp dụng cho việc soạn thảo văn bản tư vấn riêng cho từng khách hàng cụ thể (do bộ phận Dịch vụ pháp lý thực hiện theo [[06_OBK-SOP-LS_Dich_vu_phap_ly|OBK-SOP-LS]]).
 
-## 3. CĂN CỨ PHÁP LÝ
 
-1. Luật Ban hành văn bản quy phạm pháp luật số 80/2015/QH13 được sửa đổi, bổ sung bởi Luật số 63/2020/QH14 (Điều 154 về các trường hợp văn bản quy phạm pháp luật hết hiệu lực; Điều 155 về hiệu lực trở về trước; Điều 156 về áp dụng văn bản quy phạm pháp luật).
-2. Nghị định số 34/2016/NĐ-CP được sửa đổi, bổ sung bởi Nghị định số 154/2020/NĐ-CP và Nghị định số 59/2024/NĐ-CP quy định chi tiết một số điều và biện pháp thi hành Luật Ban hành văn bản quy phạm pháp luật.
-3. [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] Chuẩn vận hành dịch vụ (mục 12.3 và 12.3a về 4 mức ưu tiên và quy trình cập nhật văn bản pháp luật).
-4. [[07_OBK-SOP-RD_Nghien_cuu_phap_ly|OBK-SOP-RD]] Nghiên cứu pháp lý (các quy định về quản lý kho văn bản và sổ căn cứ).
-
-## 4. VAI TRÒ VÀ TRÁCH NHIỆM
+## 3. VAI TRÒ VÀ TRÁCH NHIỆM
 
 | Hoạt động | `CV-RD` | `TL-RD` | `TL` Bộ phận DV | `CEO` |
 | --- | --- | --- | --- | --- |
@@ -79,7 +69,7 @@ Không áp dụng cho việc soạn thảo văn bản tư vấn riêng cho từn
 
 *Ghi chú: R = Người thực hiện chính, A = Người phê duyệt cuối cùng, S = Người hỗ trợ, C = Người được tham vấn, I = Người nhận thông tin.*
 
-## 5. ĐẦU VÀO BẮT BUỘC
+## 4. ĐẦU VÀO BẮT BUỘC
 
 Trước khi phân tích, `CV-RD` phải thu thập đủ các dữ liệu sau:
 
@@ -91,7 +81,7 @@ Trước khi phân tích, `CV-RD` phải thu thập đủ các dữ liệu sau:
    - Bản văn bản hợp nhất (VBHN) gần nhất (nếu văn bản mới là luật, nghị định hoặc thông tư sửa đổi, bổ sung một số điều).
 3. Danh mục các quy trình SOP và Job đang áp dụng tại oBacker có khả năng chịu tác động: Tra cứu từ Phụ lục 3 [[PL_3_Ban_do_lien_ket_va_chuyen_tang|OBK-SOP-PL3]].
 
-## 6. CÁC BƯỚC THỰC HIỆN
+## 5. CÁC BƯỚC THỰC HIỆN
 
 Quy trình thực hiện bao gồm 5 bước tiêu chuẩn:
 
@@ -141,11 +131,11 @@ Quy trình thực hiện bao gồm 5 bước tiêu chuẩn:
      * Trách nhiệm tuân thủ các nghĩa vụ định kỳ mới phát sinh ngay cả khi giấy phép cũ chưa hết hạn.
 
 ### Bước 4: Đánh giá tác động pháp luật (Legal Impact Assessment)
-- **Phân loại 4 mức ưu tiên xử lý** theo quy định tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 12.3a:
-  * **Mức 1 (Khẩn cấp)**: Văn bản có hiệu lực ngay hoặc ít hơn 15 ngày kể từ ngày ban hành; thay đổi căn bản về chế tài, xử phạt vi phạm hành chính, điều kiện kinh doanh hoặc đình chỉ hoạt động. Hoàn thành Báo cáo đánh giá tác động trong vòng 05 ngày làm việc.
-  * **Mức 2 (Cao)**: Văn bản thay đổi biểu mẫu, quy trình kê khai, nghĩa vụ báo cáo định kỳ; thời gian có hiệu lực từ 15 ngày đến 45 ngày kể từ ngày ban hành. Hoàn thành Báo cáo đánh giá tác động trong vòng 10 ngày làm việc.
-  * **Mức 3 (Trung bình)**: Văn bản thay đổi các thủ tục nội bộ, thời gian giải quyết của cơ quan nhà nước; thời gian có hiệu lực từ 45 ngày trở lên kể từ ngày ban hành. Hoàn thành Báo cáo đánh giá tác động trong vòng 20 ngày làm việc.
-  * **Mức 4 (Thấp)**: Văn bản có tính chất hướng dẫn kỹ thuật, giải thích áp dụng, công văn nghiệp vụ. Cập nhật vào Sổ căn cứ trong đợt rà soát định kỳ hằng tháng.
+- **Phân loại 4 mức ưu tiên xử lý** theo quy định tại OBK-SOP-00 mục 12.3a. Mức ưu tiên được phân theo LOẠI thay đổi của văn bản; tiêu chí tối thượng là đúng luật và đúng thời hạn. Việc văn bản có hiệu lực trong vòng 60 ngày tới là một điều kiện phụ của Mức 1, không phải tiêu chí phân loại độc lập:
+  * **Mức 1**: Thay thế một văn bản nền; đổi kỳ khai; đổi thời hạn; đổi thuế suất hoặc mức đóng; bãi bỏ hoặc thêm một nghĩa vụ; đổi mẫu biểu bắt buộc; hoặc có hiệu lực trong vòng 60 ngày tới. Hoàn thành Báo cáo đánh giá tác động trong vòng 05 ngày làm việc.
+  * **Mức 2**: Sửa nội dung nghiệp vụ áp cho nhiều khách; đổi điều kiện hồ sơ; đổi mức khống chế. Hoàn thành Báo cáo đánh giá tác động trong vòng 10 ngày làm việc.
+  * **Mức 3**: Thay đổi áp cho một nhóm khách hẹp hoặc một nghiệp vụ ít gặp. Hoàn thành Báo cáo đánh giá tác động trong vòng 20 ngày làm việc.
+  * **Mức 4**: Không ảnh hưởng khách hiện tại nhưng cần ghi nhận để theo dõi. Cập nhật vào Sổ căn cứ trong đợt rà soát định kỳ hằng tháng.
 
 - Lập Báo cáo đánh giá tác động pháp lý:
   `CV-RD` sử dụng phần mềm xử lý văn bản lập báo cáo gồm 4 phần bắt buộc:
@@ -160,7 +150,7 @@ Quy trình thực hiện bao gồm 5 bước tiêu chuẩn:
 - Tổ chức cuộc họp ngắn (tối đa 45 phút) với các `TL` bộ phận để thống nhất cách hiểu và phương án điều chỉnh quy trình vận hành.
 - Nhập toàn văn bản Markdown vào kho văn bản nội bộ. Cập nhật mã căn cứ mới hoặc trạng thái hiệu lực của mã cũ vào Sổ căn cứ pháp lý (`PL_1`).
 
-## 7. ĐIỂM KIỂM SOÁT BẮT BUỘC
+## 6. ĐIỂM KIỂM SOÁT BẮT BUỘC
 
 | Điểm kiểm soát | Nội dung kiểm tra | Tiêu chuẩn đạt | Hành động khi không đạt |
 | --- | --- | --- | --- |
@@ -168,7 +158,7 @@ Quy trình thực hiện bao gồm 5 bước tiêu chuẩn:
 | KS-RD-02 | Tình trạng hiệu lực | Xác định chính xác ngày có hiệu lực và trạng thái hiệu lực tại thời điểm tra cứu | Không đưa văn bản chưa có hiệu lực vào căn cứ bắt buộc thi hành |
 | KS-RD-03 | Thứ bậc áp dụng | Áp dụng đúng thứ bậc hiệu lực và ưu tiên luật chuyên ngành theo Điều 156 Luật Ban hành VBQPPL | Chỉnh sửa lại kết luận áp dụng theo đúng thứ bậc quy chuẩn |
 | KS-RD-04 | Điều khoản chuyển tiếp | Xác định rõ phương án áp dụng cho hồ sơ đang thụ lý và giấy phép đang còn hạn | Bổ sung phần phân tích chuyển tiếp vào Báo cáo đánh giá tác động |
-| KS-RD-05 | Phân loại mức ưu tiên | Phân loại đúng một trong 4 mức P1, P2, P3, P4 theo tiêu chí thời gian và chế tài | Điều chỉnh lại mức ưu tiên và hạn hoàn thành tương ứng |
+| KS-RD-05 | Phân loại mức ưu tiên | Phân loại đúng một trong 4 mức P1, P2, P3, P4 theo loại thay đổi của văn bản, khớp mục 12.3a; hiệu lực trong vòng 60 ngày là điều kiện phụ của P1 | Điều chỉnh lại mức ưu tiên và hạn hoàn thành tương ứng |
 | KS-RD-06 | Kiểm tra tính hợp nhất | Khi trích dẫn luật/nghị định sửa đổi phải đối chiếu văn bản hợp nhất (VBHN) chính thức | Tra cứu và trích dẫn theo số điều hợp nhất chính xác |
 
 ### Bảng kiểm tác nghiệp chi tiết từng thủ tục
@@ -183,7 +173,7 @@ Quy trình thực hiện bao gồm 5 bước tiêu chuẩn:
 | 2 | Xác minh thời điểm có hiệu lực | Đọc Điều khoản thi hành; xác định ngày bắt đầu có hiệu lực chính xác; kiểm tra tính hợp lệ về thời hạn 45 ngày | Đạt / Không đạt | Phân biệt văn bản áp dụng thủ tục rút gọn có hiệu lực ngay |
 | 3 | Tình trạng hiệu lực và văn bản bị thay thế | Xác định rõ văn bản bị thay thế toàn bộ hoặc bãi bỏ một phần; đối chiếu danh mục điều khoản bãi bỏ tại phụ lục | Đạt / Không đạt | Ghi chú rõ điều khoản hết hiệu lực từng phần |
 | 4 | Điều khoản chuyển tiếp | Xác định rõ quy tắc xử lý đối với hồ sơ đang thụ lý dở dang và quyền lợi của doanh nghiệp đã xác lập trước đó | Đạt / Không đạt | Đưa phương án xử lý chuyển tiếp vào báo cáo tác động |
-| 5 | Phân loại mức ưu tiên xử lý | Mức 1 (chế tài xử phạt, ảnh hưởng diện rộng), Mức 2 (nghiệp vụ cốt lõi), Mức 3 (thủ tục), Mức 4 (tham khảo) | Đạt / Không đạt | Đặt hạn hoàn thành báo cáo tương ứng với mức ưu tiên |
+| 5 | Phân loại mức ưu tiên xử lý | Mức 1 (thay thế văn bản nền, đổi kỳ khai, đổi thời hạn, đổi thuế suất, thêm hoặc bãi bỏ nghĩa vụ, đổi mẫu biểu bắt buộc, hoặc hiệu lực trong 60 ngày tới), Mức 2 (sửa nghiệp vụ nhiều khách), Mức 3 (nhóm khách hẹp, nghiệp vụ ít gặp), Mức 4 (không ảnh hưởng khách) | Đạt / Không đạt | Đặt hạn hoàn thành báo cáo tương ứng với mức ưu tiên |
 
 #### Bảng kiểm tác nghiệp đánh giá tác động và lập kế hoạch điều chỉnh SOP
 
@@ -195,7 +185,7 @@ Quy trình thực hiện bao gồm 5 bước tiêu chuẩn:
 | 4 | Kế hoạch điều chỉnh và phân công | Phân công chuyên viên soạn thảo sửa đổi; hạn hoàn thành dự thảo; tổ chức họp thống nhất với các bộ phận | Đạt / Không đạt | Theo dõi tiến độ cập nhật tài liệu trên hệ thống |
 | 5 | Cập nhật Sổ căn cứ và kho văn bản | Nhập toàn văn bản Markdown vào kho `05_PhapLuat/`; tạo trang căn cứ mới hoặc cập nhật trạng thái trong Sổ căn cứ | Đạt / Không đạt | Kiểm tra tính toàn vẹn của liên kết bằng công cụ kiểm tra |
 
-## 8. LỖI THƯỜNG GẶP VÀ CÁCH XỬ LÝ
+## 7. LỖI THƯỜNG GẶP VÀ CÁCH XỬ LÝ
 
 | Nhóm lỗi | Biểu hiện cụ thể | Nguyên nhân gốc rễ | Biện pháp phòng ngừa và xử lý |
 | --- | --- | --- | --- |
@@ -203,24 +193,24 @@ Quy trình thực hiện bao gồm 5 bước tiêu chuẩn:
 | Lỗi bỏ sót điều khoản chuyển tiếp | Yêu cầu khách hàng nộp lại toàn bộ hồ sơ đang thụ lý theo biểu mẫu mới | Không đọc kỹ điều khoản chuyển tiếp cho phép tiếp tục áp dụng quy định cũ | Luôn đọc và phân tích chương Điều khoản thi hành của mọi văn bản mới |
 | Lỗi nhầm hiệu lực từng phần | Tuyên bố cả một Thông tư hết hiệu lực trong khi văn bản mới chỉ bãi bỏ 02 điều | Không đối chiếu bảng bãi bỏ chi tiết tại phụ lục của văn bản mới | Bóc tách chính xác từng điều, khoản bị bãi bỏ; ghi rõ trạng thái "hết hiệu lực một phần" trong Sổ căn cứ |
 | Lỗi áp dụng sai thứ bậc | Áp dụng quy định tại Công văn hướng dẫn trái với quy định tại Nghị định | Xem công văn của bộ ngành có giá trị cao hơn văn bản quy phạm pháp luật | Nhận thức rõ: Công văn hành chính không phải là VBQPPL; khi có xung đột, áp dụng Nghị định |
-| Lỗi phân loại sai mức ưu tiên | Xếp một nghị định về xử phạt vi phạm vào Mức 3 thay vì Mức 1 | Đánh giá dựa trên độ dài của văn bản thay vì mức độ rủi ro chế tài | Áp dụng nguyên tắc: Cứ có chế tài xử phạt tiền hoặc đình chỉ hoạt động là tự động xếp vào Mức 1 |
+| Lỗi phân loại sai mức ưu tiên | Xếp văn bản vào mức sai vì nhìn vào độ dài hoặc mức độ chế tài thay vì loại thay đổi | Đánh giá dựa trên độ dài của văn bản hoặc mức độ rủi ro chế tài thay vì loại thay đổi của văn bản | Phân loại theo loại thay đổi đúng mục 12.3a: văn bản thay thế văn bản nền, đổi kỳ khai, đổi thời hạn, đổi thuế suất, thêm hoặc bãi bỏ nghĩa vụ, đổi mẫu biểu bắt buộc, hoặc có hiệu lực trong 60 ngày tới xếp Mức 1 |
 
-## 9. ĐẦU RA VÀ NƠI LƯU
+## 8. ĐẦU RA VÀ NƠI LƯU
 
-### 9.1. Danh mục kết quả đầu ra
+### 8.1. Danh mục kết quả đầu ra
 1. Bản văn bản gốc và bản toàn văn định dạng Markdown đã được chuẩn hóa lưu trong kho văn bản nội bộ.
 2. Báo cáo đánh giá tác động pháp lý (Legal Impact Memo) có phê duyệt của `TL-RD`.
 3. Bảng so sánh điểm mới quy định cũ và quy định mới.
 4. Phiếu đề xuất sửa đổi bổ sung SOP hoặc hướng dẫn nghiệp vụ cấp 3 gửi các bộ phận liên quan.
 5. Danh mục mã căn cứ được cập nhật trong Sổ căn cứ pháp lý (`PL_1`).
 
-### 9.2. Quy cách lưu trữ
+### 8.2. Quy cách lưu trữ
 - Toàn bộ hồ sơ số hóa được lưu trữ trên Hệ thống quản lý công việc và lưu trữ hồ sơ theo cấu trúc:
   `ThuMucLuuTru / [Nam] / Legal_RD / CapNhatPhapLuat / [MucUuTien]_[SoHieuVanBan] /`
 - Bản toàn văn Markdown lưu trữ trong kho văn bản số theo thư mục phân ngành tương ứng.
 - Thời hạn lưu trữ: Lưu trữ vĩnh viễn đối với văn bản pháp luật và báo cáo đánh giá tác động.
 
-## 10. CHỈ SỐ THEO DÕI
+## 9. CHỈ SỐ THEO DÕI
 
 1. Tỷ lệ phát hiện văn bản quy phạm pháp luật mới liên quan: Đạt $100\%$ không để sót bất kỳ văn bản nào ảnh hưởng trực tiếp đến hoạt động kinh doanh của công ty.
 2. Tỷ lệ hoàn thành Báo cáo đánh giá tác động đúng hạn SLA nội bộ:
@@ -235,7 +225,7 @@ Quy trình thực hiện bao gồm 5 bước tiêu chuẩn:
 ## LIÊN KẾT VỚI CÁC TÀI LIỆU KHÁC
 
 - Cấp trên: [[07_OBK-SOP-RD_Nghien_cuu_phap_ly|OBK-SOP-RD]] Nghiên cứu pháp lý.
-- Tài liệu phối hợp: [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]], [[PL_1_Can_cu_phap_ly|OBK-SOP-PL1]], [[PL_3_Ban_do_lien_ket_va_chuyen_tang|OBK-SOP-PL3]].
+- Tài liệu phối hợp: [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]], `OBK-SOP-PL1` (bản đối chiếu sổ căn cứ, nằm ngoài vault), [[PL_3_Ban_do_lien_ket_va_chuyen_tang|OBK-SOP-PL3]].
 
 ---
 
@@ -243,4 +233,4 @@ Quy trình thực hiện bao gồm 5 bước tiêu chuẩn:
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 02/10/2026 | R.2.0.0 | Bước 4 và bảng KS-RD-05: sửa tiêu chí phân loại 4 mức ưu tiên theo LOẠI thay đổi của văn bản, khớp OBK-SOP-00 mục 12.3a; hiệu lực trong vòng 60 ngày là điều kiện phụ của Mức 1; bỏ dải 15/45 ngày và quy tắc tự động xếp Mức 1 theo chế tài |

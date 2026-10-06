@@ -4,25 +4,20 @@ code: "OBK-HB-41"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.1"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "30/09/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 27/09/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-SOP-LIC Giấy phép"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-HB-41
 tags:
   - loai/sop
   - cap/3
-  - nghiep-vu/nguoi-lao-dong-nuoc-ngoai
 ---
 # HƯỚNG DẪN 41. NGHIỆP VỤ GIẤY PHÉP VÀ THỦ TỤC DOANH NGHIỆP
 
@@ -32,7 +27,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-HB-41 |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.1.0.1, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 30/09/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 27/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -60,20 +55,8 @@ Tài liệu thiết lập quy chuẩn thao tác nghiệp vụ độc lập, khô
 
 Không áp dụng cho thủ tục đăng ký thuế ban đầu (do bộ phận Kế toán thực hiện theo [[03_OBK-SOP-KT_Ke_toan_va_thue|OBK-SOP-KT]]) và quản lý quan hệ lao động sau cấp phép (do bộ phận Lao động thực hiện theo [[05_OBK-SOP-LD_Lao_dong_va_tien_luong|OBK-SOP-LD]]).
 
-## 3. CĂN CỨ PHÁP LÝ
 
-1. Luật Doanh nghiệp số 59/2020/QH14 được sửa đổi, bổ sung bởi Luật số 03/2022/QH15, Luật số 76/2025/QH15 và Luật số 132/2025/QH15.
-2. Luật Đầu tư số 143/2025/QH15 có hiệu lực từ ngày 01/03/2026.
-3. Nghị định số 168/2025/NĐ-CP được sửa đổi, bổ sung bởi Nghị định số 296/2026/NĐ-CP về đăng ký doanh nghiệp.
-4. Nghị định số 96/2026/NĐ-CP quy định chi tiết thi hành một số điều của Luật Đầu tư.
-5. Bộ luật Lao động số 45/2019/QH14.
-6. Nghị định số 152/2020/NĐ-CP và Nghị định số 70/2023/NĐ-CP về người lao động nước ngoài làm việc tại Việt Nam.
-7. Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam số 47/2014/QH13 được sửa đổi, bổ sung bởi Luật số 51/2019/QH14, Luật số 23/2023/QH15 và Luật số 118/2025/QH15.
-8. [[CC-LD-191 Thời hạn HĐLĐ không được vượt quá thời hạn của Giấy phép lao động|CC-LD-191]].
-9. [[Thông tư 121-2026-TT-BTC sửa đổi Thông tư 68-2025-TT-BTC về biểu mẫu đăng ký doanh nghiệp|Thông tư số 121/2026/TT-BTC]] ngày 21/08/2026 của Bộ Tài chính sửa đổi, bổ sung một số điều của Thông tư số 68/2025/TT-BTC ban hành biểu mẫu sử dụng trong đăng ký doanh nghiệp, đăng ký hộ kinh doanh (hợp nhất tại Văn bản hợp nhất số 28/2026/VBHN-TT-BTC).
-10. [[Thông tư 38-2026-TT-NHNN về quản lý ngoại hối đối với hoạt động đầu tư nước ngoài tại Việt Nam|Thông tư số 38/2026/TT-NHNN]] ngày 31/07/2026 của Ngân hàng Nhà nước Việt Nam quy định về quản lý ngoại hối đối với hoạt động đầu tư nước ngoài tại Việt Nam (thay thế Thông tư số 06/2019/TT-NHNN từ 18/08/2026).
-
-## 4. VAI TRÒ VÀ TRÁCH NHIỆM
+## 3. VAI TRÒ VÀ TRÁCH NHIỆM
 
 | Hoạt động | `CV-LIC` | `TL-LIC` | `AM` | `COO` |
 | --- | --- | --- | --- | --- |
@@ -90,18 +73,18 @@ Không áp dụng cho thủ tục đăng ký thuế ban đầu (do bộ phận K
 
 *Ghi chú: R = Người thực hiện chính, A = Người phê duyệt cuối cùng, S = Người hỗ trợ, C = Người được tham vấn, I = Người nhận thông tin.*
 
-## 5. ĐẦU VÀO BẮT BUỘC
+## 4. ĐẦU VÀO BẮT BUỘC
 
 Trước khi soạn thảo hồ sơ, `CV-LIC` phải kiểm tra và thu thập đủ các tài liệu sau trên Hệ thống quản lý công việc và lưu trữ hồ sơ:
 
-### 5.1. Hồ sơ đăng ký thành lập doanh nghiệp và thay đổi nội dung đăng ký doanh nghiệp
+### 4.1. Hồ sơ đăng ký thành lập doanh nghiệp và thay đổi nội dung đăng ký doanh nghiệp
 1. Bản sao chứng thực giấy tờ tùy thân của cá nhân tham gia thành lập hoặc người đại diện: Thẻ căn cước công dân hoặc Thẻ căn cước hoặc Hộ chiếu còn thời hạn hiệu lực tối thiểu 06 tháng. Bản sao chứng thực có giá trị trong vòng 06 tháng tính đến ngày nộp hồ sơ.
 2. Giấy tờ chứng minh tư cách pháp nhân của tổ chức góp vốn: Giấy chứng nhận đăng ký doanh nghiệp hoặc quyết định thành lập kèm giấy tờ tùy thân của người đại diện theo ủy quyền quản lý phần vốn góp.
 3. Tài liệu chứng minh địa chỉ trụ sở chính: Bản sao hợp đồng thuê hoặc mượn địa điểm; giấy tờ chứng minh quyền sở hữu hoặc quyền sử dụng hợp pháp của bên cho thuê; văn bản xác nhận địa điểm không thuộc diện căn hộ chung cư chỉ dùng để ở hoặc nhà tập thể.
 4. Danh mục ngành nghề kinh doanh dự kiến: Mã hóa theo Hệ thống ngành kinh tế Việt Nam cấp 4.
 5. Văn bản ủy quyền thực hiện thủ tục đăng ký doanh nghiệp kèm bản sao giấy tờ tùy thân của người được ủy quyền.
 
-### 5.2. Hồ sơ cấp giấy phép lao động cho người lao động nước ngoài
+### 4.2. Hồ sơ cấp giấy phép lao động cho người lao động nước ngoài
 1. Văn bản chấp thuận nhu cầu sử dụng người lao động nước ngoài do cơ quan nhà nước có thẩm quyền cấp, còn thời hạn hiệu lực.
 2. Giấy chứng nhận sức khỏe hoặc giấy khám sức khỏe do cơ sở y tế đủ điều kiện cấp theo danh mục quy định, thời hạn không quá 12 tháng tính đến ngày nộp hồ sơ.
 3. Phiếu lý lịch tư pháp số 1 cấp tại Việt Nam hoặc văn bản xác nhận không phạm tội do cơ quan nước ngoài cấp, thời hạn không quá 06 tháng tính đến ngày nộp hồ sơ. Giấy tờ do nước ngoài cấp phải được hợp pháp hóa lãnh sự và dịch thuật công chứng tiếng Việt.
@@ -109,7 +92,10 @@ Trước khi soạn thảo hồ sơ, `CV-LIC` phải kiểm tra và thu thập �
 5. Bản sao hộ chiếu còn thời hạn tối thiểu 12 tháng tính đến ngày nộp hồ sơ.
 6. Ảnh chân dung kích thước 4x6 cm chụp trên phông nền trắng, mắt nhìn thẳng, không đeo kính màu, chụp trong vòng 06 tháng.
 
-### 5.3. Hồ sơ đề nghị cấp thị thực và thẻ tạm trú (TRC)
+> [!note] TRẦN THỜI HẠN HỢP ĐỒNG LAO ĐỘNG
+> Thời hạn hợp đồng lao động với người nước ngoài không được vượt quá thời hạn giấy phép lao động.
+
+### 4.3. Hồ sơ đề nghị cấp thị thực và thẻ tạm trú (TRC)
 1. Hộ chiếu gốc và bản sao hộ chiếu còn thời hạn dài hơn thời hạn thẻ tạm trú dự kiến xin cấp tối thiểu 30 ngày.
 2. Giấy tờ chứng minh mục đích cư trú:
    - Diện nhà đầu tư (ĐT1, ĐT2, ĐT3): Giấy chứng nhận đăng ký đầu tư hoặc Giấy chứng nhận đăng ký doanh nghiệp thể hiện tỷ lệ vốn góp; văn bản chứng nhận chuyển vốn góp qua tài khoản vốn đầu tư theo quy định.
@@ -117,7 +103,7 @@ Trước khi soạn thảo hồ sơ, `CV-LIC` phải kiểm tra và thu thập �
    - Diện thân nhân (TT): Giấy chứng nhận kết hôn, giấy khai sinh hoặc giấy tờ xác nhận quan hệ gia đình đã được hợp pháp hóa lãnh sự và dịch thuật công chứng.
 3. Văn bản xác nhận đăng ký tạm trú hợp lệ do công an cấp xã, phường xác nhận hoặc biên nhận khai báo tạm trú điện tử.
 
-## 6. CÁC BƯỚC THỰC HIỆN
+## 5. CÁC BƯỚC THỰC HIỆN
 
 Quy trình xử lý hồ sơ bao gồm 9 bước tiêu chuẩn:
 
@@ -134,10 +120,10 @@ Quy trình xử lý hồ sơ bao gồm 9 bước tiêu chuẩn:
   * Doanh nghiệp có vốn đầu tư nước ngoài: Căn cứ Thông tư số 38/2026/TT-NHNN, trường hợp nhà đầu tư nước ngoài nắm giữ trên 50% vốn điều lệ (khoản 1 Điều 6), doanh nghiệp phải mở tài khoản vốn đầu tư nước ngoài tại Việt Nam tại 01 ngân hàng được phép để thực hiện các giao dịch góp vốn, vay trả nợ nước ngoài và chuyển lợi nhuận ra nước ngoài; trường hợp nhà đầu tư nước ngoài nắm giữ từ 50% vốn điều lệ trở xuống thì thực hiện qua tài khoản đầu tư gián tiếp. Chi phí chuẩn bị đầu tư chuyển trước khi được cấp Giấy chứng nhận đăng ký đầu tư thực hiện theo Điều 5 Thông tư số 38/2026/TT-NHNN.
   * Giấy phép lao động: Đơn đề nghị cấp giấy phép lao động (Mẫu số 11/PLI Nghị định 152/2020/NĐ-CP và Nghị định 70/2023/NĐ-CP); bản giải trình chi tiết kinh nghiệm.
   * Thẻ tạm trú: Văn bản đề nghị cấp thẻ tạm trú của cơ quan, tổ chức bảo lãnh (Mẫu NA6); Tờ khai đề nghị cấp thẻ tạm trú cho người nước ngoài (Mẫu NA8).
-- Thời hạn hoàn thành: 01 ngày làm việc.
+- Thời hạn hoàn thành: theo mốc riêng của từng loại hồ sơ tại bảng Job của OBK-SOP-LIC (ví dụ thành lập trong nước 02 ngày, có vốn nước ngoài 05 ngày kể từ khi đủ thông tin); không áp chung một mốc 01 ngày cho mọi loại.
 
 ### Bước 3: Soát xét chất lượng hồ sơ nội bộ
-- Lớp 1: `CV-LIC` tự kiểm tra toàn bộ hồ sơ theo Bảng kiểm quy định tại mục 7.
+- Lớp 1: `CV-LIC` tự kiểm tra toàn bộ hồ sơ theo Bảng kiểm quy định tại mục 6.
 - Lớp 2: `TL-LIC` soát xét độc lập về tính pháp lý, tính thống nhất giữa các trường dữ liệu, thẩm quyền ký và căn cứ điều khoản áp dụng.
 - Trường hợp phát hiện sai sót, `TL-LIC` yêu cầu chỉnh sửa trong vòng 02 giờ làm việc. Khi hồ sơ đạt chuẩn, `TL-LIC` ký xác nhận kiểm soát chất lượng trên phiếu theo dõi công việc.
 - Thời hạn hoàn thành: 04 giờ làm việc.
@@ -176,9 +162,9 @@ Quy trình xử lý hồ sơ bao gồm 9 bước tiêu chuẩn:
 ### Bước 9: Bàn giao kết quả và lưu trữ hồ sơ
 - `CV-LIC` lập Biên bản bàn giao tài liệu, đính kèm kết quả gốc và hóa đơn, biên lai lệ phí nhà nước (nếu có).
 - Bàn giao qua `AM` để chuyển đến khách hàng và nhận lại biên bản bàn giao có chữ ký xác nhận của khách hàng.
-- Lưu trữ toàn bộ hồ sơ điện tử, giấy biên nhận, thông báo và bản sao kết quả trên Hệ thống quản lý công việc và lưu trữ hồ sơ theo đúng cấu trúc thư mục quy định tại mục 9.
+- Lưu trữ toàn bộ hồ sơ điện tử, giấy biên nhận, thông báo và bản sao kết quả trên Hệ thống quản lý công việc và lưu trữ hồ sơ theo đúng cấu trúc thư mục quy định tại mục 8.
 
-## 7. ĐIỂM KIỂM SOÁT BẮT BUỘC
+## 6. ĐIỂM KIỂM SOÁT BẮT BUỘC
 
 `CV-LIC` và `TL-LIC` bắt buộc thực hiện kiểm tra các điểm dừng sau trước khi chuyển bước:
 
@@ -237,7 +223,7 @@ Quy trình xử lý hồ sơ bao gồm 9 bước tiêu chuẩn:
 | 4 | Giấy tờ chứng minh diện cấp thẻ tạm trú | GPLĐ còn hạn tối thiểu 01 năm (diện LĐ1, LĐ2); hoặc GCN đăng ký doanh nghiệp có mức vốn góp từ 03 tỷ đồng trở lên (diện ĐT1, ĐT2, ĐT3) | Đạt / Không đạt | Không đề nghị cấp TRC cho nhà đầu tư vốn nhỏ hơn 03 tỷ đồng (chuyển sang xin thị thực ĐT4) |
 | 5 | Xác nhận đăng ký tạm trú | Giấy xác nhận đăng ký tạm trú tại công an xã, phường hoặc bản in biên nhận khai báo tạm trú trực tuyến hợp lệ | Đạt / Không đạt | Hướng dẫn chủ cơ sở lưu trú khai báo trực tuyến |
 
-## 8. LỖI THƯỜNG GẶP VÀ CÁCH XỬ LÝ
+## 7. LỖI THƯỜNG GẶP VÀ CÁCH XỬ LÝ
 
 | Nhóm lỗi | Biểu hiện cụ thể | Nguyên nhân gốc rễ | Biện pháp phòng ngừa và xử lý |
 | --- | --- | --- | --- |
@@ -248,20 +234,20 @@ Quy trình xử lý hồ sơ bao gồm 9 bước tiêu chuẩn:
 | Lỗi chức danh lao động | Chức danh chuyên gia nhưng bằng cấp và giấy xác nhận kinh nghiệm không liên quan | Tài liệu chứng minh kinh nghiệm ghi chung chung, không thể hiện vị trí công tác tương ứng | Hướng dẫn tổ chức nước ngoài cấp lại giấy xác nhận kinh nghiệm ghi rõ chức danh và số năm phù hợp |
 | Lỗi nộp thẻ tạm trú ĐT4 | Đề nghị cấp TRC cho nhà đầu tư có vốn góp dưới 03 tỷ đồng | Không nắm quy định Luật số 51/2019/QH14 và Luật số 118/2025/QH15 | Chuyển sang nộp hồ sơ xin cấp thị thực ký hiệu ĐT4 có thời hạn tối đa 12 tháng, không xin TRC |
 
-## 9. ĐẦU RA VÀ NƠI LƯU
+## 8. ĐẦU RA VÀ NƠI LƯU
 
-### 9.1. Danh mục kết quả đầu ra
+### 8.1. Danh mục kết quả đầu ra
 1. Giấy chứng nhận đăng ký doanh nghiệp hoặc Giấy xác nhận thay đổi nội dung đăng ký doanh nghiệp.
 2. Giấy phép lao động bản gốc hoặc Văn bản xác nhận người lao động nước ngoài không thuộc diện cấp giấy phép lao động.
 3. Thẻ tạm trú hoặc Thị thực dán trên hộ chiếu của người nước ngoài.
 4. Bộ hồ sơ lưu trữ hoàn chỉnh gồm: bộ hồ sơ đã nộp có ký số hoặc mộc đỏ, giấy tiếp nhận hồ sơ và hẹn trả kết quả, biên lai nộp lệ phí, thông báo sửa đổi bổ sung (nếu có), biên bản bàn giao có xác nhận của khách hàng.
 
-### 9.2. Quy cách lưu trữ
+### 8.2. Quy cách lưu trữ
 - Toàn bộ hồ sơ số hóa được lưu trên Hệ thống quản lý công việc và lưu trữ hồ sơ theo cấu trúc:
   `ThuMucLuuTru / [Nam] / KhachHang / [MaKhachHang]_[TenDoanhNghiep] / Licensing / [MaJob]_[TenThuTuc] /`
 - Thời hạn lưu trữ tối thiểu: 10 năm kể từ ngày bàn giao kết quả cho khách hàng.
 
-## 10. CHỈ SỐ THEO DÕI
+## 9. CHỈ SỐ THEO DÕI
 
 1. Tỷ lệ hồ sơ được cơ quan nhà nước chấp thuận ngay từ lần nộp đầu tiên: Đạt tối thiểu $90\%$ tổng số hồ sơ nộp trong tháng.
 2. Thời gian phản hồi thông báo sửa đổi, bổ sung của cơ quan nhà nước: Hoàn thành phương án xử lý trong vòng 04 giờ làm việc; hoàn thành nộp lại trong vòng 24 giờ làm việc kể từ khi nhận đủ tài liệu.
@@ -281,4 +267,4 @@ Quy trình xử lý hồ sơ bao gồm 9 bước tiêu chuẩn:
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 30/09/2026 | R.1.0.1 | Thực hiện N12.4: biện pháp xử lý tại bảng kiểm cấp thẻ tạm trú viết rõ 'nhỏ hơn 03 tỷ đồng' theo Luật 51/2019/QH14 |
+| 02/10/2026 | R.1.1.0 | Bước 2: thay mốc '01 ngày làm việc' bằng dẫn chiếu mốc soạn hồ sơ riêng theo loại tại bảng Job OBK-SOP-LIC (02 ngày trong nước, 05 ngày có vốn nước ngoài) |

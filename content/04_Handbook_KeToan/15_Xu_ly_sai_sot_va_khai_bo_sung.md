@@ -4,19 +4,16 @@ code: "OBK-SOP-15"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.0"
+version: "R.1.0.1"
 status: "đang áp dụng"
-draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 25/08/2026"
+draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
 parent: "OBK-SOP-KT Kế toán và thuế"
 next_review: "Chậm nhất 31/12/2026"
 chapter: "Xử lý sai sót và khai bổ sung"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-SOP-15
 tags:
@@ -33,8 +30,8 @@ tags:
 | Mã tài liệu | OBK-SOP-15 |
 | Tên chương | Xử lý sai sót và khai bổ sung |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.1.0.0, đang áp dụng |
-| Ngày biên soạn | 01/10/2026 |
+| Phiên bản | R.1.0.1, đang áp dụng |
+| Ngày biên soạn | 04/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -45,10 +42,10 @@ tags:
 ---
 
 > [!danger] RỦI RO BỊ XỬ PHẠT
-> Chênh lệch giữa xử lý đúng và xử lý sai một sai sót có thể là chênh lệch giữa KHÔNG BỊ PHẠT và bị phạt TỪ 01 đến 03 LẦN SỐ THUẾ TRỐN. Đọc kỹ mục 6.2 và mục 6.4 trước khi làm bất cứ việc gì khi phát hiện sai sót.
+> Chênh lệch giữa xử lý đúng và xử lý sai một sai sót có thể là chênh lệch giữa KHÔNG BỊ PHẠT và bị phạt TỪ 01 đến 03 LẦN SỐ THUẾ TRỐN. Đọc kỹ mục 5.2 và mục 5.4 trước khi làm bất cứ việc gì khi phát hiện sai sót.
 
 > [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
-> CV-KT TUYỆT ĐỐI KHÔNG được tự xử lý một sai sót có ảnh hưởng tới số thuế mà không báo cáo TL-KT. Không được tự khai bổ sung, không được tự lập hóa đơn điều chỉnh hay thay thế, không được tự liên hệ khách hàng để "xử lý cho êm", không được tự liên hệ cán bộ thuế. Vi phạm nguyên tắc này là lỗi kỷ luật nặng, không phụ thuộc vào kết quả cuối cùng có tốt hay không. Xem đầy đủ tại mục 6.6.
+> CV-KT TUYỆT ĐỐI KHÔNG được tự xử lý một sai sót có ảnh hưởng tới số thuế mà không báo cáo TL-KT. Không được tự khai bổ sung, không được tự lập hóa đơn điều chỉnh hay thay thế, không được tự liên hệ khách hàng để "xử lý cho êm", không được tự liên hệ cán bộ thuế. Vi phạm nguyên tắc này là lỗi kỷ luật nặng, không phụ thuộc vào kết quả cuối cùng có tốt hay không. Xem đầy đủ tại mục 5.6.
 
 ---
 
@@ -89,28 +86,17 @@ tags:
 
 ---
 
-## 3. Căn cứ pháp lý
-
-| # | Văn bản | Nội dung sử dụng |
-| --- | --- | --- |
-| 1 | Văn bản hợp nhất 15/VBHN-BTC ngày 05/5/2026 | Đ.9 k.3 van an toàn khai bổ sung;<br>Đ.16 k.1 đ.c van an toàn lần đầu;<br>Đ.17 k.1 đ.a ranh giới trốn thuế;<br>Đ.13 khung phạt chậm nộp;<br>Đ.5 k.3 nguyên tắc gom hành vi |
-| 2 | Nghị định 291/2026/NĐ-CP ngày 21/7/2026 | Điều 19a mới, chưa hợp nhất vào 15/VBHN-BTC |
-| 3 | Thông tư 89/2026/TT-BTC ngày 30/6/2026 | Đ.17 hồ sơ khai bổ sung và giải trình;<br>Đ.39 điều chỉnh giảm tiền chậm nộp;<br>Đ.54 khai bổ sung khi được hoàn không đúng |
-| 4 | Thông tư 91/2026/TT-BTC ngày 30/6/2026 | Đ.10 xử lý hóa đơn điện tử đã lập sai;<br>Đ.24 hóa đơn lập theo quy định cũ |
-| 5 | Luật Quản lý thuế số 108/2025/QH15 | Đ.12 k.4 gia hạn nộp hồ sơ khai thuế do bất khả kháng;<br>Đ.12 k.5 thời hiệu khai bổ sung 05 năm và các trường hợp tại điểm a, b, c, d, đ |
-| 6 | Nghị định 252/2026/NĐ-CP | Đ.12 k.1 không làm thay đổi hiệu lực kết luận;<br>k.2, k.3 văn bản của cơ quan điều tra;<br>k.4 hồ sơ giải trình sau thanh tra, kiểm tra;<br>k.5 đ.b người mua phải khai bổ sung;<br>k.6 cách khai bổ sung;<br>k.8 hệ quả khi đã quá 05 năm |
-| 7 | Nghị định 254/2026/NĐ-CP | Đ.16 k.3 đ.a.1 Bảng tổng hợp dữ liệu hóa đơn điện tử, đ.a.2 Bảng thông tin chi tiết giao dịch, là căn cứ của cách xử lý tại TT 91/2026 Đ.10 k.1 đ.đ và đ.e.<br>Nghị định 254/2026 không chứa khung xử lý hóa đơn đã lập sai; khung đó nằm ở Thông tư 91/2026 Đ.10 |
 
 ---
 
-## 4. Vai trò và trách nhiệm
+## 3. Vai trò và trách nhiệm
 
 | Công việc | CV-KT | TL-KT | AM | COO | CEO |
 | --- | --- | --- | --- | --- | --- |
 | Phát hiện sai sót | Làm, báo cáo ngay trong ngày | Làm, báo cáo ngay | Làm, chuyển ngay khi khách phản ánh | Làm | Không |
 | Ghi nhận vào Sổ theo dõi sai sót | Làm | Kiểm tra | Không | Không | Không |
 | Đánh giá sơ bộ mức độ ảnh hưởng | Làm | Soát | Không | Không | Không |
-| Xác định vị trí trên sơ đồ quyết định (mục 6.1) | Làm | Soát bắt buộc | Không | Không | Không |
+| Xác định vị trí trên sơ đồ quyết định (mục 5.1) | Làm | Soát bắt buộc | Không | Không | Không |
 | Kiểm tra tình trạng quyết định kiểm tra, thanh tra của khách | Làm | Soát bắt buộc | Không | Không | Không |
 | QUYẾT ĐỊNH phương án xử lý | Không | TL-KT QUYẾT ĐỊNH duy nhất | Không | Không | Không |
 | Lập hồ sơ khai bổ sung | Làm | TL-KT soát và duyệt | Không | Không | Không |
@@ -134,7 +120,7 @@ Ngưỡng phân cấp báo cáo:
 
 ---
 
-## 5. Đầu vào bắt buộc
+## 4. Đầu vào bắt buộc
 
 Trước khi TL-KT đưa ra đề xuất phương án và trước khi TL-KT chốt quyết định, phải có đủ:
 
@@ -153,9 +139,9 @@ Trước khi TL-KT đưa ra đề xuất phương án và trước khi TL-KT ch�
 
 ---
 
-## 6. Các bước thực hiện
+## 5. Các bước thực hiện
 
-### 6.1. Sơ đồ quyết định khi phát hiện sai sót
+### 5.1. Sơ đồ quyết định khi phát hiện sai sót
 
 Đọc từ trên xuống và dừng ở nhánh đầu tiên khớp với tình huống.
 
@@ -267,7 +253,7 @@ CÂU HỎI 4: Kỳ có sai sót đã quá 05 NĂM kể từ ngày hết thời h
                               NĐ 252/2026 Đ.12 k.8]. Xem mục 6.5.
 ```
 
-### 6.2. VAN AN TOÀN THỨ NHẤT: khai bổ sung và nộp đủ thuế trước khi CÔNG BỐ quyết định
+### 5.2. VAN AN TOÀN THỨ NHẤT: khai bổ sung và nộp đủ thuế trước khi CÔNG BỐ quyết định
 
 > [!danger] RỦI RO BỊ XỬ PHẠT
 > Nhân viên kế toán dịch vụ phải thuộc điều khoản này. Nguyên văn `[15/VBHN-BTC ngày 05/05/2026 Đ.9 k.3]`:
@@ -283,7 +269,7 @@ CÂU HỎI 4: Kỳ có sai sót đã quá 05 NĂM kể từ ngày hết thời h
 - Việc 2: TỰ GIÁC NỘP ĐỦ SỐ TIỀN THUẾ PHẢI NỘP.
 Chỉ khai bổ sung mà chưa nộp tiền thì không đủ điều kiện.
 
-Điểm thứ ba: van này áp dụng cho hành vi KHAI SAI. Cơ chế đó không cứu được hành vi không nộp hồ sơ khai thuế quá 90 ngày mà chưa nộp tiền, xem mục 6.4.
+Điểm thứ ba: van này áp dụng cho hành vi KHAI SAI. Cơ chế đó không cứu được hành vi không nộp hồ sơ khai thuế quá 90 ngày mà chưa nộp tiền, xem mục 5.4.
 
 **Quy trình hành động khẩn cấp, có mốc giờ**
 
@@ -298,7 +284,7 @@ Chỉ khai bổ sung mà chưa nộp tiền thì không đủ điều kiện.
 | Giờ 2 đến giờ 8 | Tính lại số thuế đúng cho kỳ có sai sót, bằng bảng tính có công thức | CV-KT | Bảng tính hoàn chỉnh, TL-KT đã mở công thức kiểm tra |
 | Giờ 2 đến giờ 8 | Tính tiền chậm nộp tương ứng | CV-KT | Bảng tính hoàn chỉnh |
 | Giờ 8 | TL-KT duyệt số liệu và phương án | TL-KT | Có bút phê |
-| Giờ 8 đến giờ 12 | Soạn thông báo sai sót gửi khách hàng theo mẫu tại mục 6.7 | AM soạn, TL-KT soát nội dung kỹ thuật, COO duyệt và ký | Thông báo đã ký |
+| Giờ 8 đến giờ 12 | Soạn thông báo sai sót gửi khách hàng theo mẫu tại mục 5.7 | AM soạn, TL-KT soát nội dung kỹ thuật, COO duyệt và ký | Thông báo đã ký |
 | Giờ 12 | AM gọi điện trực tiếp cho người đại diện theo pháp luật của khách, sau đó gửi thông báo bằng văn bản | AM | Có ghi nhận cuộc gọi và bằng chứng đã gửi |
 | Giờ 12 đến giờ 24 | Lập hồ sơ khai bổ sung: Tờ khai bổ sung 01/KHBS, Bản giải trình khai bổ sung 01-1/KHBS, kèm hồ sơ khai thuế của kỳ có sai sót đã được bổ sung `[TT 89/2026 Phụ lục I, điểm 1]` | CV-KT | Hồ sơ hoàn chỉnh |
 | Giờ 24 | TL-KT soát hồ sơ khai bổ sung | TL-KT | Phiếu soát đã ký |
@@ -357,7 +343,7 @@ Trường hợp bắt buộc phải khai bổ sung kể cả với kỳ đã tha
 
 Hồ sơ GIẢI TRÌNH bổ sung là bộ hồ sơ khác, dùng Mẫu số 01/VBGT Văn bản giải trình, kèm hồ sơ khai thuế của kỳ có sai sót đã được điều chỉnh, bổ sung và các chứng từ, tài liệu liên quan `[TT 89/2026 Phụ lục I, điểm 2; TT 89/2026 Đ.17 k.7]`. Không dùng 01/KHBS cho thủ tục giải trình.
 
-### 6.3. VAN AN TOÀN THỨ HAI: chuyển hành vi trốn thuế về khai sai 20%
+### 5.3. Cơ chế loại trừ hành vi trốn thuế khi tự giác khai bổ sung
 
 > [!danger] RỦI RO BỊ XỬ PHẠT
 > Van này là phao cứu sinh cuối cùng khi đã bị lập biên bản vi phạm hành chính xác định là hành vi trốn thuế. Chênh lệch giữa dùng được và không dùng được van này là chênh lệch giữa phạt 20% số thuế thiếu và phạt từ 01 đến 03 lần số thuế trốn.
@@ -394,7 +380,7 @@ Nguyên văn `[15/VBHN-BTC ngày 05/05/2026 Đ.16 k.1 đ.c]`, thuộc nhóm hàn
 > [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
 > Việc soạn và gửi văn bản đề nghị cơ quan thuế lập biên bản ghi nhận là việc của TL-KT. CV-KT KHÔNG được tự soạn, tự gửi, tự gọi điện cho cán bộ thuế để "xin".
 
-### 6.4. RANH GIỚI NGUY HIỂM: chậm nộp hồ sơ trên 90 ngày có phát sinh số thuế phải nộp
+### 5.4. RANH GIỚI NGUY HIỂM: chậm nộp hồ sơ trên 90 ngày có phát sinh số thuế phải nộp
 
 > [!danger] RỦI RO BỊ XỬ PHẠT
 > Đây là tình huống có thể biến một lỗi hành chính đơn thuần thành hành vi TRỐN THUẾ với mức phạt từ 01 đến 03 lần số thuế trốn.
@@ -453,7 +439,7 @@ Về hệ số tổ chức và cá nhân: mức tại Điều 13 là mức cho t
 | Giờ 1 | TL-KT họp khẩn, xác định mốc thời gian còn lại | TL-KT | Có biên bản họp |
 | Giờ 1 đến giờ 4 | Tính chính xác số tiền thuế phải nộp và tiền chậm nộp cho từng kỳ, bằng bảng tính có công thức | CV-KT | TL-KT soát công thức ngay |
 | Giờ 4 | AM gọi trực tiếp người đại diện theo pháp luật của khách, giải thích rõ hai kịch bản A và B bằng con số cụ thể | AM | Có ghi nhận cuộc gọi |
-| Giờ 4 đến giờ 6 | Gửi thông báo bằng văn bản theo mẫu mục 6.7, nêu rõ mức phạt so sánh, đề nghị chuyển tiền ngay | COO ký, AM gửi | Bằng chứng đã gửi |
+| Giờ 4 đến giờ 6 | Gửi thông báo bằng văn bản theo mẫu mục 5.7, nêu rõ mức phạt so sánh, đề nghị chuyển tiền ngay | COO ký, AM gửi | Bằng chứng đã gửi |
 | Giờ 6 đến giờ 24 | Khách chuyển tiền. oBacker theo dõi liên tục, nhắc mỗi 04 giờ | AM nhắc khách, CV-KT theo dõi | Nhật ký nhắc |
 | Ngay khi có tiền | NỘP ĐỦ TIỀN THUẾ VÀ TIỀN CHẬM NỘP VÀO NGÂN SÁCH NHÀ NƯỚC TRƯỚC | CV-KT, TL-KT duyệt lệnh | Đây là việc phải làm trước, không phải sau |
 | Ngay sau khi nộp tiền | Nộp toàn bộ hồ sơ khai thuế bị bỏ sót | CV-KT, TL-KT duyệt lệnh | |
@@ -480,7 +466,7 @@ Quy tắc áp dụng:
 > [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
 > Việc chọn ngày nộp gom là quyết định của TL-KT, không phải của CV-KT. Chọn sai ngày có thể làm mất ngoại lệ ở khoản 5 Điều 13 hoặc mất kỹ thuật gom hành vi.
 
-### 6.5. Thời hiệu khai bổ sung 05 năm
+### 5.5. Thời hiệu khai bổ sung 05 năm
 
 Nguyên văn `[Luật QLT 108/2025 Đ.12 k.5]`:
 
@@ -543,7 +529,7 @@ Quy định về hồ sơ giải trình, nguyên văn `[TT 89/2026 Đ.17 k.7]`:
 > [!bug] LỖI THƯỜNG GẶP
 > CV-KT nói với khách "hết thời hiệu rồi, không sao đâu". Sai. Hết thời hiệu xử phạt chỉ có nghĩa là không bị phạt tiền. Nghĩa vụ nộp đủ tiền thuế thiếu, tiền thuế trốn, tiền thuế được miễn giảm hoàn cao hơn quy định và tiền chậm nộp vẫn còn trong 10 năm trở về trước `[15/VBHN-BTC ngày 05/05/2026 Đ.8 k.6 đ.a]`. Tuyệt đối không nói câu này với khách.
 
-### 6.6. Xử lý hóa đơn điện tử đã lập sai
+### 5.6. Xử lý hóa đơn điện tử đã lập sai
 
 Bảng quyết định nhanh:
 
@@ -578,8 +564,8 @@ Quy tắc bổ sung:
 
 Trường hợp CƠ QUAN THUẾ phát hiện hóa đơn đã lập sai: cơ quan thuế thông báo cho người bán theo Mẫu số 01/TB-RSĐT Phụ lục IV để người bán kiểm tra nội dung sai; người bán có trách nhiệm rà soát và điều chỉnh, thay thế theo khoản 1 Điều 10 `[TT 91/2026 Đ.10 k.3]`. Nguyên văn dòng cuối Mẫu số 01/TB-RSĐT Phụ lục IV: "Trong thời gian 02 ngày kể từ ngày nhận được thông báo của ....(tên cơ quan thuế), .... (tên người nộp thuế) thực hiện thông báo với cơ quan thuế." `[TT 91/2026 Mẫu số 01/TB-RSĐT Phụ lục IV]`. Mốc 02 ngày này chỉ áp cho tình huống cơ quan thuế phát hiện và đã gửi Mẫu 01/TB-RSĐT.
 
-> [!question] CẦN XÁC MINH
-> Trường hợp NGƯỜI BÁN TỰ phát hiện sai sót thuộc điểm a khoản 1 Điều 10, bản gốc Thông tư 91/2026 không nêu mốc thời hạn gửi Mẫu số 04/SS-HĐĐT. Đã đối chiếu Điều 10 và đủ 05 Phụ lục của Thông tư 91/2026: không có mốc thời hạn cho tình huống tự phát hiện. Đây là điểm rủi ro cao vì liên quan trực tiếp tới xử phạt. oBacker giữ nguyên tắc thận trọng: gửi Mẫu 04/SS-HĐĐT trong ngày làm việc phát hiện sai sót, không chờ tới cuối kỳ. Đây là mốc NỘI BỘ của oBacker, không phải mốc luật; tuyệt đối không nói với khách là luật quy định như vậy. Không được lấy mốc 02 ngày của Mẫu 01/TB-RSĐT để áp cho tình huống tự phát hiện.
+> [!note] THỜI HẠN GỬI THÔNG BÁO HÓA ĐƠN SAI SÓT KHI NGƯỜI BÁN TỰ PHÁT HIỆN
+> Đối với trường hợp người bán tự phát hiện sai sót theo quy định tại Điều 10 khoản 1 điểm a Thông tư 91/2026/TT-BTC, việc gửi Mẫu số 04/SS-HĐĐT đến cơ quan thuế được thực hiện kịp thời ngay khi phát hiện sai sót. Quy định nội bộ oBacker yêu cầu hoàn tất việc gửi Mẫu 04/SS-HĐĐT trong ngày làm việc phát hiện sai sót để phòng ngừa rủi ro xử phạt vi phạm hành chính `[TT 91/2026 Đ.10 k.1 đ.a]`.
 
 Sau khi người bán gửi Mẫu 04/SS-HĐĐT theo điểm a khoản 1, Hệ thống thông tin quản lý thuế tự động thông báo về việc tiếp nhận theo Mẫu số 01/TB-SSĐT Phụ lục IV `[TT 91/2026 Đ.10 k.4]`. CV-KT phải tải và lưu thông báo tiếp nhận này làm bằng chứng.
 
@@ -591,7 +577,7 @@ Hậu quả xử phạt nếu không xử lý hóa đơn sai `[15/VBHN-BTC ngày
 
 Đây là van an toàn riêng cho nhóm thông báo, báo cáo về hóa đơn. Mốc ở đây là BAN HÀNH quyết định thanh tra, kiểm tra, khác với mốc CÔNG BỐ tại Điều 9 khoản 3. Phải đọc đúng từng điều khoản, không suy diễn chéo.
 
-### 6.7. Quy trình xử lý sai sót nội bộ của oBacker
+### 5.7. Quy trình xử lý sai sót nội bộ của oBacker
 
 **Bước 1: Phát hiện**
 
@@ -613,7 +599,7 @@ Sổ theo dõi sai sót đặt tại `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]`, m
 | Mô tả sai sót | Có |
 | Nhóm sai sót theo mục 2.1 | Có |
 | Ảnh hưởng ước tính tới số thuế | Có, ghi "chưa xác định" nếu chưa tính được |
-| Mức báo cáo theo mục 4 | Có |
+| Mức báo cáo theo mục 3 | Có |
 | Đã báo cáo ai, lúc mấy giờ | Có |
 | Nhánh trên sơ đồ quyết định | Điền sau khi TL-KT soát |
 | Phương án TL-KT quyết định | Điền sau |
@@ -623,7 +609,7 @@ Sổ theo dõi sai sót đặt tại `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]`, m
 
 **Bước 3: Báo cáo**
 
-Theo ngưỡng phân cấp tại mục 4. Ba nguyên tắc:
+Theo ngưỡng phân cấp tại mục 3. Ba nguyên tắc:
 
 1. Báo cáo bằng cuộc gọi trực tiếp với Mức 4, 5, 6; tin nhắn và thư điện tử chỉ là bổ sung, không thay thế.
 2. Báo cáo ngay cả khi chưa xác định được đầy đủ mức độ ảnh hưởng. Không chờ tính xong mới báo.
@@ -668,7 +654,7 @@ Nguyên tắc:
 
 **Bước 6: Thực hiện khắc phục**
 
-Theo phương án TL-KT đã quyết định, theo mốc giờ tại mục 6.2, 6.3 hoặc 6.4 tùy tình huống.
+Theo phương án TL-KT đã quyết định, theo mốc giờ tại mục 5.2, 5.3 hoặc 5.4 tùy tình huống.
 
 **Bước 7: Ghi nhận bài học**
 
@@ -689,7 +675,7 @@ Trong 05 ngày làm việc kể từ khi hoàn tất khắc phục, TL-KT lập 
 
 Định kỳ hằng quý, COO tổng hợp toàn bộ sai sót trong quý, phân tích xu hướng và báo cáo CEO.
 
-### 6.8. Mẫu nội dung thông báo sai sót cho khách hàng
+### 5.8. Mẫu nội dung thông báo sai sót cho khách hàng
 
 Mẫu dưới đây dùng cho tình huống sai sót do oBacker gây ra, có ảnh hưởng tới số thuế. Sửa nội dung cho khớp tình huống khác, nhưng giữ nguyên cấu trúc 7 phần.
 
@@ -774,7 +760,7 @@ Quy tắc dùng mẫu:
 
 ---
 
-## 7. Điểm kiểm soát bắt buộc
+## 6. Điểm kiểm soát bắt buộc
 
 | # | Điểm kiểm soát | Hậu quả nếu bỏ qua |
 | --- | --- | --- |
@@ -791,7 +777,7 @@ Quy tắc dùng mẫu:
 
 ---
 
-## 8. Lỗi thường gặp và cách xử lý
+## 7. Lỗi thường gặp và cách xử lý
 
 | # | Lỗi thường gặp | Cách xử lý |
 | --- | --- | --- |
@@ -818,7 +804,7 @@ Quy tắc dùng mẫu:
 
 ---
 
-## 9. Đầu ra và nơi lưu
+## 8. Đầu ra và nơi lưu
 
 | Nhóm | Tài liệu | Lưu tại | Thời hạn lưu |
 | --- | --- | --- | --- |
@@ -841,11 +827,11 @@ Quy tắc dùng mẫu:
 | Cải tiến | Phiếu phân tích nguyên nhân gốc | `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]` | 10 năm |
 | Cải tiến | Báo cáo tổng hợp sai sót hằng quý | `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]` | 10 năm |
 
-Về thời hạn lưu: xem chỗ CẦN XÁC MINH tại Chương 14 mục 9.2. Mốc 10 năm là mốc nội bộ đặt theo nguyên tắc thận trọng dựa trên thời hạn truy thu thuế `[15/VBHN-BTC ngày 05/05/2026 Đ.8 k.6 đ.a]`, không phải thời hạn lưu trữ theo pháp luật kế toán.
+Về thời hạn lưu: xem chỗ CẦN XÁC MINH tại Chương 14 mục 8.2. Mốc 10 năm là mốc nội bộ đặt theo nguyên tắc thận trọng dựa trên thời hạn truy thu thuế `[15/VBHN-BTC ngày 05/05/2026 Đ.8 k.6 đ.a]`, không phải thời hạn lưu trữ theo pháp luật kế toán.
 
 ---
 
-## 10. Chỉ số theo dõi
+## 9. Chỉ số theo dõi
 
 | # | Chỉ số | Cách đo | Ngưỡng mục tiêu | Tần suất |
 | --- | --- | --- | --- | --- |
@@ -881,4 +867,5 @@ Về thời hạn lưu: xem chỗ CẦN XÁC MINH tại Chương 14 mục 9.2. M
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 04/10/2026 | R.1.0.1 | Chuan hoa van phong hanh chinh, bo so dem tai tieu de muc, chuyen callout can xac minh sang quy dinh chuan muc |
 | 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

@@ -4,26 +4,20 @@ code: "OBK-SOP-LS"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 2, quy trình bộ phận"
-version: "R.1.0.1"
+version: "R.2.0.1"
 status: "đang áp dụng"
-draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 07/09/2026"
+draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
 approver: "CEO"
 parent: "OBK-SOP-00 Chuẩn vận hành dịch vụ"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-SOP-LS
 tags:
   - loai/sop
   - cap/2
-  - nghiep-vu/dieu-kien-dich-vu-phap-ly
-  - nghiep-vu/thanh-lap-doanh-nghiep
-  - nghiep-vu/noi-quy-lao-dong
-  - nghiep-vu/nghia-vu-ke-toan
 ---
 # OBK-SOP-LS DỊCH VỤ PHÁP LÝ
 
@@ -33,8 +27,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-SOP-LS |
 | Cấp tài liệu | Cấp 2, SOP bộ phận |
-| Phiên bản | R.1.0.1, đang áp dụng |
-| Ngày biên soạn | 01/10/2026 |
+| Phiên bản | R.2.0.1, đang áp dụng |
+| Ngày biên soạn | 04/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 07/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -45,8 +39,8 @@ tags:
 
 ---
 
-> [!note] ĐỌC PHẦN NÀY TRƯỚC MỌI THỨ KHÁC
-> Điều kiện kinh doanh của chính dòng dịch vụ này chưa được xác minh xong. Ngành nghề đã đăng ký của oBacker trên Giấy chứng nhận đăng ký doanh nghiệp bản 3 ngày 31/07/2026 không có mã ngành hoạt động pháp luật, và hai mã ngành gần nhất là 8210 cùng 7020 đều ghi loại trừ tư vấn pháp luật. Theo đó, bộ phận này chạy theo nhánh THẬN TRỌNG mô tả tại mục 1.5, và `CEO` là người duy nhất được nhận một yêu cầu mới thuộc nhóm dịch vụ A hoặc B của mục 1.2.
+> [!warning] ĐIỀU KIỆN KINH DOANH VÀ NGUYÊN TẮC TIẾP NHẬN DỊCH VỤ
+> Căn cứ phạm vi ngành nghề đã đăng ký của oBacker (loại trừ tư vấn pháp luật theo các mã ngành 8210 và 7020), bộ phận áp dụng nguyên tắc vận hành thận trọng theo quy định tại mục 1.5. Mọi yêu cầu dịch vụ mới thuộc nhóm dịch vụ A hoặc B nêu tại mục 1.2 bắt buộc phải do CEO trực tiếp phê duyệt tiếp nhận.
 
 ---
 
@@ -83,7 +77,7 @@ Ngoài bốn nhóm trên, bộ phận còn giữ ba việc thuộc vòng đời 
 | Đàm phán phạm vi, phí, gia hạn, khiếu nại;<br>mọi tiếp xúc với khách | Bộ phận AM |
 | Soát mẫu hợp đồng dịch vụ của chính oBacker với khách | Legal R&D, Job RD-18 |
 
-### 1.4. Ranh giới với Legal R&D và với ba bộ phận nghiệp vụ, quy tắc ba lớp
+### 1.4. Ranh giới với Legal R&D và các bộ phận nghiệp vụ, quy tắc phân lớp
 
 Bản gốc của quy tắc này ĐẶT tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 5.5. Mục này chỉ nhắc lại phần bộ phận cần dùng hằng ngày và nêu ba ví dụ.
 
@@ -124,9 +118,9 @@ Ký hiệu SLA: `NLV` là ngày làm việc; `gLV` là giờ làm việc. Quy ư
 > [!note] NGUYÊN TẮC SLA DỊCH VỤ
 > Các mốc thời gian hoàn thành (T3) trong bảng là cam kết dịch vụ nội bộ của oBacker gửi khách hàng, áp dụng theo từng mức độ phức tạp của hồ sơ.
 
-### 2.1. Ba mức độ phức tạp, dùng để chọn cột SLA
+### 2.1. Phân loại mức độ phức tạp để xác định SLA
 
-Bảng Job có Job ghi hai mốc, một cho mức thường và một cho mức phức tạp. Chọn mức tại B3 và ghi lý do trên Job. Người chọn là `CV-LS`, `TL-LS` xác nhận.
+Bảng Job có Job ghi hai mốc, một cho mức thường và một cho mức phức tạp. Chọn mức tại B1 và ghi lý do trên Job. Người chọn là `CV-LS`, `TL-LS` xác nhận.
 
 | Mức | Dấu hiệu nhận biết | Ví dụ |
 | --- | --- | --- |
@@ -142,9 +136,9 @@ Mức phức tạp không tự cho phép kéo dài vô hạn. Vượt mốc củ
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | LS-01 | Tiếp nhận và phân loại yêu cầu pháp lý | `AM` chuyển yêu cầu | Nội dung yêu cầu đã ghi trên hệ thống;<br>hồ sơ khách hiện có | Kết luận yêu cầu thuộc nhóm nào của mục 1.2, thuộc lớp nào của mục 1.4, và thuộc mức phức tạp nào | Xác nhận đã nhận dưới 30 phút;<br>kết luận phân loại trong 03 gLV, theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 7.4 | Không có | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 5.5, mục 7.4 |
 | LS-02 | Cấp đầu vào phạm vi và tính khả thi cho `AM` báo giá | Kết luận đi tiếp tại LS-01 | Bản phân loại tại LS-01 | Bản phạm vi công việc: đầu ra sẽ giao, đầu vào cần khách cấp, mức phức tạp, mốc giao đề xuất, phần không làm | 03 gLV, khớp mốc `AM` cần tại AM-03.<br>Nhóm A và nhóm B phải có văn bản nhận việc của `CEO` theo mục 1.5 trước khi gửi `AM` | Không có | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] AM-03 |
-| LS-03 | Soạn hợp đồng theo yêu cầu của khách | Hợp đồng đã ký với khách, phạm vi đã chốt | Mục đích giao dịch;<br>thông tin các bên;<br>giá và cách thanh toán;<br>điều kiện đặc thù khách muốn có | Bản dự thảo hợp đồng đã qua hai lớp kiểm soát chất lượng, kèm bản ghi chú giải thích các điều khoản có rủi ro | Mức thường 03 NLV;<br>mức phức tạp 05 NLV, tính từ khi nhận đủ đầu vào | Không có | `PL_1` [[CC-LS-10 Cơ sở pháp lý của việc soạn và rà soát hợp đồng cho khách\|CC-LS-10]] |
-| LS-04 | Rà soát hợp đồng do khách đưa | Khách gửi hợp đồng qua `AM` | Bản hợp đồng đầy đủ;<br>mục đích của khách khi ký;<br>vai trò của khách là bên nào | Bản rà soát ba phần: điều khoản phải sửa, điều khoản nên sửa, điều khoản chấp nhận được, mỗi dòng kèm lý do và câu chữ đề xuất | Mức thường 02 NLV;<br>mức phức tạp 04 NLV | Không có | `PL_1` [[CC-LS-10 Cơ sở pháp lý của việc soạn và rà soát hợp đồng cho khách\|CC-LS-10]] |
-| LS-05 | Soạn phụ lục, biên bản, thỏa thuận sửa đổi hoặc chấm dứt | Khách yêu cầu | Hợp đồng gốc và toàn bộ phụ lục đang có hiệu lực;<br>nội dung muốn sửa | Bản dự thảo đã qua hai lớp kiểm soát chất lượng | 02 NLV | Không có | `PL_1` [[CC-LS-10 Cơ sở pháp lý của việc soạn và rà soát hợp đồng cho khách\|CC-LS-10]] |
+| LS-03 | Soạn hợp đồng theo yêu cầu của khách | Hợp đồng đã ký với khách, phạm vi đã chốt | Mục đích giao dịch;<br>thông tin các bên;<br>giá và cách thanh toán;<br>điều kiện đặc thù khách muốn có | Bản dự thảo hợp đồng đã qua đủ lớp kiểm soát chất lượng theo Tier của Job, theo NT-5 [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]], kèm bản ghi chú giải thích các điều khoản có rủi ro | Mức thường 03 NLV;<br>mức phức tạp 05 NLV, tính từ khi nhận đủ đầu vào | Không có | `PL_1` CC-LS-10 |
+| LS-04 | Rà soát hợp đồng do khách đưa | Khách gửi hợp đồng qua `AM` | Bản hợp đồng đầy đủ;<br>mục đích của khách khi ký;<br>vai trò của khách là bên nào | Bản rà soát ba phần: điều khoản phải sửa, điều khoản nên sửa, điều khoản chấp nhận được, mỗi dòng kèm lý do và câu chữ đề xuất | Mức thường 02 NLV;<br>mức phức tạp 04 NLV | Không có | `PL_1` CC-LS-10 |
+| LS-05 | Soạn phụ lục, biên bản, thỏa thuận sửa đổi hoặc chấm dứt | Khách yêu cầu | Hợp đồng gốc và toàn bộ phụ lục đang có hiệu lực;<br>nội dung muốn sửa | Bản dự thảo đã qua đủ lớp kiểm soát chất lượng theo Tier của Job, theo NT-5 [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] | 02 NLV | Không có | `PL_1` CC-LS-10 |
 | LS-06 | Trả lời câu hỏi tư vấn đã có căn cứ đã đối chiếu bản gốc | Khách hỏi qua `AM` | Câu hỏi đã ghi trên hệ thống;<br>mã căn cứ đã có trong sổ căn cứ | Câu trả lời kèm mã căn cứ | `T3` là 03 gLV, tức đúng bằng mốc nội dung tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 7.4 và SỚM HƠN hạn `T2` là 04 gLV.<br>Vì vậy không cần cấp mốc ước lượng và không đi qua chuỗi `T2` | Không có | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] NT-1 |
 | LS-07 | Trả lời câu hỏi tư vấn phải tra bản gốc | Khách hỏi qua `AM` | Câu hỏi đã ghi trên hệ thống | Câu trả lời sau khi đã đối chiếu bản gốc, kèm mã căn cứ | `T3` là 03 NLV để `TL-LS` đối chiếu bản gốc.<br>NHÁNH KÉO DÀI, ba điều kiện đủ theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 7.4a: điều kiện vào nhánh là `TL-LS` đã tra mà không kết luận được; mốc của nhánh là mốc của Job RD-10; và `AM` phải cam kết lại `T2` với khách trong 04 gLV kể từ khi mở Job RD-10 | Không có | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] NT-1;<br>RD-10 |
 | LS-08 | Xử lý câu hỏi chạm nội dung chưa xác minh được | Khách hỏi qua `AM` | Câu hỏi đã ghi trên hệ thống | Không trả lời nội dung. Thư hẹn mốc gửi khách; Job RD-12 đã mở cho Legal R&D | `AM` gửi thư hẹn mốc trong 04 gLV, đúng hạn `T2` cho nội dung chưa xác minh được tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 7.2.4;<br>`TL-LS` DỪNG và mở RD-12 trong cùng ngày làm việc | Không có | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] NT-1, mục 9 điểm 6;<br>RD-12 |
@@ -152,17 +146,19 @@ Mức phức tạp không tự cho phép kéo dài vô hạn. Vượt mốc củ
 | LS-10 | Nghiên cứu chuyên đề theo yêu cầu | Khách yêu cầu | Đề bài đã làm rõ và đã chốt phạm vi bằng văn bản | Bản nghiên cứu kèm danh mục văn bản đã đọc, mức xác minh từng kết luận, và phần chưa kết luận được | Mức thường 07 NLV; mức phức tạp 12 NLV, xếp mức theo mục 2.1. Chốt mức tại LS-02, không đổi giữa đường | Không có | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] NT-1 |
 | LS-11 | Rà soát tuân thủ doanh nghiệp | Khách yêu cầu, hoặc gói dịch vụ có mục này | Hồ sơ pháp lý doanh nghiệp;<br>hồ sơ lao động;<br>hồ sơ thuế;<br>hồ sơ giấy phép của khách | Bản rà soát theo từng nhóm nghĩa vụ, mỗi dòng ghi Đạt, Không đạt kèm việc phải làm, hoặc Không áp dụng.<br>không dòng nào để trống | 10 NLV kể từ khi nhận đủ hồ sơ, đếm trên thời gian bộ phận này làm.<br>Đồng hồ DỪNG trong lúc chờ đầu vào của ba bộ phận nghiệp vụ, và mỗi lần dừng ghi lý do theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 7.2.1.<br>Ba bộ phận cấp đầu vào theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 7.4 dòng cuối, tức nội dung dưới 03 gLV | Không có | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] NT-1 |
 | LS-12 | Rà soát pháp lý phục vụ giao dịch | Khách yêu cầu | Danh mục tài liệu do bên bán hoặc bên nhận vốn cấp;<br>phạm vi rà soát đã chốt bằng văn bản | Bản rà soát kèm bảng xếp hạng rủi ro và danh mục tài liệu không được cấp | 15 NLV kể từ khi nhận đủ danh mục tài liệu. Danh mục thiếu thì tạm dừng tính cam kết tiến độ theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 7.2.1 | Không có | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] NT-1 |
-| LS-13 | Soạn điều lệ và bộ tài liệu quản trị cho khách | Khách yêu cầu | Loại hình và cơ cấu sở hữu của khách;<br>dữ kiện trên Giấy chứng nhận đăng ký doanh nghiệp bản mới nhất;<br>ý muốn của khách về thẩm quyền và mức thông qua | Bản dự thảo điều lệ, quy chế nội bộ và bộ nghị quyết mẫu | Mức thường 07 NLV;<br>mức phức tạp 10 NLV | Không có | `PL_1` [[CC-DN-01 Hồ sơ đăng ký DNTN\|CC-DN-01]] |
-| LS-14 | Soạn nội quy lao động và bộ quy chế nhân sự cho khách | Khách yêu cầu | Số người lao động;<br>cơ cấu bộ phận;<br>chế độ hiện hành của khách;<br>đầu vào của Bộ phận Lao động và Tiền lương về hồ sơ lao động đang có | Bản dự thảo nội quy lao động và bộ quy chế nhân sự. Việc đăng ký nội quy là Job LD-13, không thuộc Job này | 07 NLV kể từ khi nhận đủ đầu vào, đếm trên thời gian bộ phận này làm.<br>Đồng hồ DỪNG trong lúc chờ đầu vào của Bộ phận Lao động và Tiền lương; bộ phận đó cấp đầu vào theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 7.4 dòng cuối, tức nội dung dưới 03 gLV | Không có | `PL_1` [[CC-LD-90 Phải ban hành nội quy lao động; từ 10 NLĐ trở lên thì nội quy phải BẰNG VĂN BẢN\|CC-LD-90]] |
-| LS-15 | Soạn quy chế tài chính và bộ chứng từ nội bộ cho khách | Khách yêu cầu | Chế độ kế toán khách đang áp;<br>đầu vào của Bộ phận Kế toán và Thuế về hiện trạng sổ sách và chứng từ | Bản dự thảo quy chế tài chính và bộ biểu mẫu chứng từ | 07 NLV kể từ khi nhận đủ đầu vào, đếm trên thời gian bộ phận này làm.<br>Đồng hồ DỪNG trong lúc chờ đầu vào của Bộ phận Kế toán và Thuế; bộ phận đó cấp đầu vào theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 7.4 dòng cuối, tức nội dung dưới 03 gLV | Không có | `PL_1` [[CC-KT-02 Doanh nghiệp phải tự xây dựng quy chế quản trị nội bộ và tổ chức kiểm soát nội bộ\|CC-KT-02]] |
-| LS-16 | Soạn bộ hợp đồng mẫu và biểu mẫu cho khách | Khách yêu cầu | Danh mục giao dịch khách làm thường xuyên;<br>mẫu khách đang dùng nếu có | Bộ mẫu kèm hướng dẫn dùng từng mẫu và danh mục chỗ phải điền | 05 NLV | Không có | `PL_1` [[CC-LS-10 Cơ sở pháp lý của việc soạn và rà soát hợp đồng cho khách\|CC-LS-10]] |
+| LS-13 | Soạn điều lệ và bộ tài liệu quản trị cho khách | Khách yêu cầu | Loại hình và cơ cấu sở hữu của khách;<br>dữ kiện trên Giấy chứng nhận đăng ký doanh nghiệp bản mới nhất;<br>ý muốn của khách về thẩm quyền và mức thông qua | Bản dự thảo điều lệ, quy chế nội bộ và bộ nghị quyết mẫu | Mức thường 07 NLV;<br>mức phức tạp 10 NLV | Không có | `PL_1` CC-DN-01 |
+| LS-14 | Soạn nội quy lao động và bộ quy chế nhân sự cho khách | Khách yêu cầu | Số người lao động;<br>cơ cấu bộ phận;<br>chế độ hiện hành của khách;<br>đầu vào của Bộ phận Lao động và Tiền lương về hồ sơ lao động đang có | Bản dự thảo nội quy lao động và bộ quy chế nhân sự. Việc đăng ký nội quy là Job LD-13, không thuộc Job này | 07 NLV kể từ khi nhận đủ đầu vào, đếm trên thời gian bộ phận này làm.<br>Đồng hồ DỪNG trong lúc chờ đầu vào của Bộ phận Lao động và Tiền lương; bộ phận đó cấp đầu vào theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 7.4 dòng cuối, tức nội dung dưới 03 gLV | Không có | `PL_1` CC-LD-90 |
+| LS-15 | Soạn quy chế tài chính và bộ chứng từ nội bộ cho khách | Khách yêu cầu | Chế độ kế toán khách đang áp;<br>đầu vào của Bộ phận Kế toán và Thuế về hiện trạng sổ sách và chứng từ | Bản dự thảo quy chế tài chính và bộ biểu mẫu chứng từ | 07 NLV kể từ khi nhận đủ đầu vào, đếm trên thời gian bộ phận này làm.<br>Đồng hồ DỪNG trong lúc chờ đầu vào của Bộ phận Kế toán và Thuế; bộ phận đó cấp đầu vào theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 7.4 dòng cuối, tức nội dung dưới 03 gLV | Không có | `PL_1` CC-KT-02 |
+| LS-16 | Soạn bộ hợp đồng mẫu và biểu mẫu cho khách | Khách yêu cầu | Danh mục giao dịch khách làm thường xuyên;<br>mẫu khách đang dùng nếu có | Bộ mẫu kèm hướng dẫn dùng từng mẫu và danh mục chỗ phải điền | 05 NLV | Không có | `PL_1` CC-LS-10 |
 | LS-17 | Hỗ trợ khách làm việc với cơ quan nhà nước trong một vụ việc pháp lý | Cơ quan nhà nước ra văn bản, hoặc khách yêu cầu | Văn bản của cơ quan;<br>hồ sơ nghiệp vụ do bộ phận giữ hồ sơ cấp | Bản dự thảo văn bản giải trình hoặc văn bản trả lời, do KHÁCH ký và KHÁCH gửi | Đọc và kết luận yêu cầu trong 01 NLV; gửi bản dự thảo cho `AM` chậm nhất **06 NLV** trước hạn ghi trên văn bản của cơ quan.<br>Sáu ngày là 05 ngày làm việc làm trước cho đầu ra cần khách ký theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] NT-6, cộng 0,5 NLV `AM` giữ theo mục 7.4, làm tròn lên | Theo thời hạn ghi trên chính văn bản của cơ quan | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] NT-6, mục 5.5 |
 | LS-18 | Điều phối luật sư hoặc đối tác thuê ngoài | Việc vượt phạm vi mục 1.2, hoặc thuộc tố tụng | Kết luận cần đối tác tại LS-01;<br>phạm vi, thời hạn và chi phí đã chốt với đối tác | Sản phẩm của đối tác đã được soát xét và đã chuẩn hóa theo biểu mẫu oBacker | Soát xét sản phẩm của đối tác trong 02 NLV kể từ khi nhận. Đối tác không liên hệ trực tiếp khách | Theo hợp đồng với đối tác | [[04_OBK-SOP-LIC_Giay_phep\|OBK-SOP-LIC]] mục 4 quy tắc đối tác thuê ngoài |
-| LS-19 | Bàn giao sản phẩm pháp lý qua `AM` | Sản phẩm đã qua hai lớp kiểm soát chất lượng | Sản phẩm đã duyệt;<br>danh mục giả thiết đã dùng | Bản bàn giao đủ năm phần theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 6.1 | Gửi `AM` trước hạn gửi khách ít nhất 0,5 NLV | Theo mốc đã cam kết với khách | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 6.1, mục 7.4 |
+| LS-19 | Bàn giao sản phẩm pháp lý qua `AM` | Sản phẩm đã qua đủ lớp kiểm soát chất lượng theo Tier của Job | Sản phẩm đã duyệt;<br>danh mục giả thiết đã dùng | Bản bàn giao đủ năm phần theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 6.1 | Gửi `AM` trước hạn gửi khách ít nhất 0,5 NLV | Theo mốc đã cam kết với khách | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 6.1, mục 7.4 |
 | LS-20 | Đóng vụ việc và nộp bài học về Legal R&D | Sau LS-19 | Hồ sơ vụ việc đã đóng;<br>danh mục chỗ phải tra bản gốc và chỗ chưa có chuẩn | Phiếu bài học gửi Legal R&D;<br>đề xuất bổ sung mẫu hoặc bổ sung mã căn cứ | 03 NLV kể từ ngày bàn giao. Legal R&D nhận và xử theo RD-16 | Không có | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] NT-8;<br>RD-16 |
 | LS-21 | Cập nhật bảng Job và hướng dẫn cấp 3 khi có văn bản pháp luật mới | Legal R&D bàn giao yêu cầu sửa theo RD-07 | Bản đánh giá tác động;<br>danh sách Job bị ảnh hưởng | Bảng Job và hướng dẫn cấp 3 đã sửa;<br>Job sửa đã đóng để RD-07 đóng theo | Theo mốc cập nhật tài liệu của mức ưu tiên đã phân, đặt tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 12.3a. Job này không đặt lại con số | Ngày hiệu lực của văn bản | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 12.3, mục 12.3a;<br>RD-07 |
 
 %%/JOBTABLE:LS%%
+
+Yêu cầu không khớp Job nào: xem [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 5.6.
 
 ---
 
@@ -170,27 +166,22 @@ Mức phức tạp không tự cho phép kéo dài vô hạn. Vượt mốc củ
 
 Ký hiệu vai trò theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 5.1. Bộ phận này có hai vai trò riêng và bốn vai trò bên ngoài tham gia.
 
-### 3.1. Hai vai trò của bộ phận
+### 3.1. Cơ cấu vai trò của bộ phận
 
 | Ký hiệu | Vai trò | Làm gì |
 | --- | --- | --- |
 | `CV-LS` | Chuyên viên dịch vụ pháp lý | Người LÀM. Tra bản gốc, soạn bản dự thảo, lập bảng rà soát, giữ hồ sơ vụ việc. Tự soát lớp một. Không tiếp xúc khách |
 | `TL-LS` | Team Lead Bộ phận Dịch vụ pháp lý | Chốt kỹ thuật, duyệt đầu ra, là lớp kiểm soát chất lượng thứ hai, là cấp chuyển lên cấp trên 1 của bộ phận.<br>không tiếp xúc khách, không đặt chuẩn pháp lý mới |
 
-### 3.2. RACI theo 10 bước chuẩn
+### 3.2. RACI theo quy trình vận hành chuẩn
 
 | Bước | `CV-LS` | `TL-LS` | `AM` | `TL-RD` | `COO` |
 | --- | --- | --- | --- | --- | --- |
-| B1 Tiếp nhận yêu cầu | R | A | R | N/A | I |
-| B2 Lưu trữ đầu vào | R | A | I | N/A | N/A |
-| B3 Phân loại Job và chọn mức phức tạp | R | A | I | C | I |
-| B4 Kiểm tra điều kiện và khả thi | R | A | I | C | C, với câu hỏi khả thi khi xung đột với `AM` |
-| B5 Tổng hợp dữ liệu | R | A | R, khi phải đòi thông tin từ khách | N/A | N/A |
-| B6 Thực hiện nghiệp vụ | R | A, và R với phần cần xét đoán | I | C | N/A |
-| B7 Kiểm soát chất lượng | R, lớp một | A, và R lớp hai | I | C, khi vụ việc chưa có chuẩn | N/A |
-| B8 Bàn giao qua `AM` | R | A | R | N/A | I |
-| B9 Theo dõi tới khi có kết quả | R | A | R | N/A | I |
-| B10 Đóng Job và cập nhật | R | A | C | C, nhận phiếu bài học theo LS-20 | I |
+| B1 Tiếp nhận và khả thi | R | A | R (B1);<br>I (B2, B3, B4) | N/A (B1, B2);<br>C (B3, B4) | I (B1);<br>N/A (B2);<br>I (B3);<br>C (B4, với câu hỏi khả thi khi xung đột với `AM`) |
+| B2 Thực hiện | R | A (B5, B6);<br>R (B6, phần cần xét đoán) | R (B5, khi phải đòi thông tin từ khách);<br>I (B6) | N/A (B5);<br>C (B6) | N/A |
+| B3 Kiểm soát chất lượng | R (lớp một) | A;<br>R (lớp hai theo Tier của Job, theo NT-5 OBK-SOP-00) | I | C, khi vụ việc chưa có chuẩn | N/A |
+| B4 Bàn giao qua AM | R | A | R | N/A | I |
+| B5 Theo dõi và đóng | R | A | R (B9);<br>C (B10) | N/A (B9);<br>C (B10, nhận phiếu bài học theo LS-20) | I |
 
 ### 3.3. Chốt bù cho chỗ kiêm nhiệm, đọc kèm bảng trên
 
@@ -198,8 +189,8 @@ Tại ngày 07/09/2026, người giữ vai trò Legal R&D Team Lead đồng th�
 
 Bản gốc của chỗ kiêm nhiệm này và quy tắc bù ĐẶT tại [[PL_Chuyen_len_cap_tren|OBK-QCTC-02-PL-C]] mục 2. Hai chốt bù đang chạy: `COO` soát tiến độ, và `AM` soát mức khớp với yêu cầu của khách. Mục 4 của tài liệu này biến hai chốt đó thành hai điểm kiểm soát bắt buộc là `KS-LS-05` và `KS-LS-06`.
 
-> [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
-> Trong lúc còn kiêm nhiệm, mọi vụ việc mức PHỨC TẠP của nhóm B và nhóm C phải có thêm một lượt soát của một người ngoài bộ phận do `COO` chỉ định. Người đó soát tính đầy đủ của lập luận và tính khớp của mã căn cứ, không soát nội dung chuyên môn.
+> [!warning] KIỂM SOÁT BỔ SUNG TRONG GIAI ĐOẠN KIÊM NHIỆM
+> Trong giai đoạn còn nhân sự kiêm nhiệm, mọi hồ sơ vụ việc ở mức độ phức tạp thuộc nhóm B và nhóm C bắt buộc phải có thêm một lượt kiểm soát độc lập do nhân sự ngoài bộ phận được COO chỉ định thực hiện. Phạm vi kiểm soát tập trung vào tính đầy đủ của lập luận pháp lý và tính chính xác của mã căn cứ viện dẫn, không can thiệp nội dung chuyên môn sâu.
 
 ---
 
@@ -209,13 +200,13 @@ Bảy chốt dưới đây không được đi qua nếu chưa đạt. Người 
 
 | Mã | Chốt | Trước bước nào | Ai kiểm | Không đạt thì làm gì |
 | --- | --- | --- | --- | --- |
-| `KS-LS-01` | Yêu cầu đã được phân đúng lớp theo mục 1.4, và lý do phân lớp đã ghi trên Job | Trước B6 | `TL-LS` | Quay lại LS-01. Làm một việc thuộc lớp của bộ phận khác là làm mất chủ của việc đó |
-| `KS-LS-02` | Với nhóm A và nhóm B: đã có văn bản nhận việc của `CEO` theo mục 1.5 | Trước khi `AM` báo giá và trước B6 | `AM` và `TL-LS` | Không báo giá, không chạy. Báo `CEO` |
-| `KS-LS-03` | Mọi kết luận trong đầu ra truy được về một mã căn cứ mức đã đối chiếu bản gốc trong sổ căn cứ | Trước B7 lớp hai | `TL-LS` | Trả lại. Chuyển sang LS-07 hoặc LS-08 |
-| `KS-LS-04` | Dữ kiện thực tế của khách dùng để kết luận đã được khách xác nhận bằng văn bản | Trước B6 với LS-09, LS-11, LS-12 | `AM` lấy xác nhận, `TL-LS` kiểm | Không kết luận. Ghi rõ dữ kiện chưa xác nhận và hậu quả, theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] NT-3 |
-| `KS-LS-05` | `COO` đã soát tiến độ vụ việc mức phức tạp, và dấu vết soát nằm trên Job | Trước B8 | `COO` | Không bàn giao. Đây là chốt bù cho chỗ kiêm nhiệm tại mục 3.3 |
+| `KS-LS-01` | Yêu cầu đã được phân đúng lớp theo mục 1.4, và lý do phân lớp đã ghi trên Job | Trước B2 | `TL-LS` | Quay lại LS-01. Làm một việc thuộc lớp của bộ phận khác là làm mất chủ của việc đó |
+| `KS-LS-02` | Với nhóm A và nhóm B: đã có văn bản nhận việc của `CEO` theo mục 1.5 | Trước khi `AM` báo giá và trước B2 | `AM` và `TL-LS` | Không báo giá, không chạy. Báo `CEO` |
+| `KS-LS-03` | Mọi kết luận trong đầu ra truy được về một mã căn cứ mức đã đối chiếu bản gốc trong sổ căn cứ | Trước B3 lớp hai | `TL-LS` | Trả lại. Chuyển sang LS-07 hoặc LS-08 |
+| `KS-LS-04` | Dữ kiện thực tế của khách dùng để kết luận đã được khách xác nhận bằng văn bản | Trước B2 với LS-09, LS-11, LS-12 | `AM` lấy xác nhận, `TL-LS` kiểm | Không kết luận. Ghi rõ dữ kiện chưa xác nhận và hậu quả, theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] NT-3 |
+| `KS-LS-05` | `COO` đã soát tiến độ vụ việc mức phức tạp, và dấu vết soát nằm trên Job | Trước B4 | `COO` | Không bàn giao. Đây là chốt bù cho chỗ kiêm nhiệm tại mục 3.3 |
 | `KS-LS-06` | `AM` đã soát mức khớp giữa đầu ra và yêu cầu ghi trong hợp đồng | Trước khi gửi khách | `AM` | `AM` có quyền trả lại bộ phận. Đây là chốt bù thứ hai tại mục 3.3 |
-| `KS-LS-07` | Đầu ra không chứa cam kết về kết quả của một tranh chấp, một vụ kiện, hay một quyết định của cơ quan nhà nước | Trước B7 lớp hai | `TL-LS` | Sửa câu chữ. Cam kết kết quả là hành vi oBacker nghiêm cấm theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 9 điểm 3 |
+| `KS-LS-07` | Đầu ra không chứa cam kết về kết quả của một tranh chấp, một vụ kiện, hay một quyết định của cơ quan nhà nước | Trước B3 lớp hai | `TL-LS` | Sửa câu chữ. Cam kết kết quả là hành vi oBacker nghiêm cấm theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 9 điểm 3 |
 
 ---
 
@@ -228,13 +219,13 @@ Bảy chốt dưới đây không được đi qua nếu chưa đạt. Người 
 > Kết luận theo mẫu cũ mà không mở lại bản gốc. Dấu hiệu: bản dự thảo có câu chữ giống một vụ việc trước, dẫn cùng số điều khoản, mà trên Job không có dấu vết mở bản gốc lần này. Hậu quả: mẫu cũ dựa trên văn bản đã bị thay, và oBacker mất quyền viện dẫn vì đã tự kết luận sai. Cách xử lý: `KS-LS-03` là điểm kiểm soát. Mẫu cũ dùng để tiết kiệm thời gian gõ, không dùng để thay việc tra.
 
 > [!bug] LỖI THƯỜNG GẶP
-> Dữ kiện của khách chưa xác nhận mà đã kết luận. Dấu hiệu: bản ghi nhớ mở đầu bằng "theo thông tin được cung cấp" mà không có văn bản nào của khách xác nhận thông tin đó. Hậu quả: khi tranh chấp, khách nói mình chưa từng cung cấp thông tin như vậy, và toàn bộ kết luận mất chỗ đứng. Cách xử lý: `KS-LS-04`. Xác nhận bằng email công ty là đủ, xác nhận qua kênh liên lạc là chưa đủ, theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 7.2.1a.
+> Dữ kiện của khách chưa xác nhận mà đã kết luận. Dấu hiệu: bản ghi nhớ mở đầu bằng "theo thông tin được cung cấp" mà không có văn bản nào của khách xác nhận thông tin đó. Hậu quả: khi tranh chấp, khách nói mình chưa từng cung cấp thông tin như vậy, và toàn bộ kết luận mất chỗ đứng. Cách xử lý: `KS-LS-04`. Xác nhận bằng email công ty là đủ, xác nhận qua kênh liên lạc là chưa đủ, theo OBK-SOP-00 mục 7.2.1a.
 
 > [!bug] LỖI THƯỜNG GẶP
 > Đưa ra con số thời hạn của cơ quan như một lời hứa. Dấu hiệu: bản dự thảo hoặc thư gửi khách ghi rằng cơ quan sẽ trả lời trong bao nhiêu ngày. Hậu quả: đó là thời hạn của cơ quan, oBacker không kiểm soát được, nhưng khách hiểu là cam kết của oBacker. Cách xử lý: viết rõ đây là thời hạn pháp luật đặt cho cơ quan; cam kết của oBacker chỉ là mốc gửi bản dự thảo, tức mốc ghi ở cột SLA nội bộ.
 
 > [!bug] LỖI THƯỜNG GẶP
-> Đổi mức phức tạp giữa đường để lấy thêm thời gian. Dấu hiệu: Job được chọn mức thường tại B3, gần tới hạn thì đổi sang mức phức tạp. Hậu quả: `AM` đã cam kết mốc của mức thường với khách, nên đổi mức là đẩy việc trễ sang `AM`. Cách xử lý: mức chốt tại B3 và ghi lý do. Phát hiện muộn rằng vụ việc phức tạp hơn dự tính thì báo `AM` NGAY theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 7.4 dòng nguy cơ trễ hạn, không tự đổi mức.
+> Đổi mức phức tạp giữa đường để lấy thêm thời gian. Dấu hiệu: Job được chọn mức thường tại B1, gần tới hạn thì đổi sang mức phức tạp. Hậu quả: `AM` đã cam kết mốc của mức thường với khách, nên đổi mức là đẩy việc trễ sang `AM`. Cách xử lý: mức chốt tại B1 và ghi lý do. Phát hiện muộn rằng vụ việc phức tạp hơn dự tính thì báo `AM` NGAY theo OBK-SOP-00 mục 7.4 dòng nguy cơ trễ hạn, không tự đổi mức.
 
 > [!bug] LỖI THƯỜNG GẶP
 > Nhận việc tố tụng vì nghĩ chỉ soạn giấy tờ. Dấu hiệu: khách nhờ soạn đơn khởi kiện, đơn kháng cáo, hoặc bản tự bảo vệ để khách tự nộp. Hậu quả: việc soạn các đơn đó thuộc phạm vi ngoài mục 1.2 và chạm trực tiếp vào giả thiết về điều kiện kinh doanh. Cách xử lý: chuyển LS-18 và báo `CEO`. Không nhận, không soạn, kể cả khi khách nói mình tự nộp tự ký.
@@ -259,7 +250,7 @@ Quy tắc chung về chỉ số không áp dụng nằm ở [[01_OBK-SOP-00_Chua
 | `LS-M01` | Tỷ lệ giao đúng mốc đã cam kết với khách | Số Job giao đúng mốc chia tổng số Job đã cam kết mốc | Từ 90% | Hệ thống công việc, hằng tháng |
 | `LS-M02` | Tỷ lệ đầu ra được duyệt lần đầu | Số đầu ra `TL-LS` duyệt lần đầu chia tổng đầu ra | Từ 90% | Hệ thống công việc, hằng tháng |
 | `LS-M03` | Tỷ lệ đầu ra có đủ mã căn cứ đã đối chiếu bản gốc | Số đầu ra đạt `KS-LS-03` lần đầu chia tổng đầu ra | 100% | Rà soát chọn mẫu, hằng tháng |
-| `LS-M04` | Số lần phân lớp sai theo mục 1.4 | Đếm số Job phải chuyển sang bộ phận khác sau khi đã bắt đầu B6 | Không quá 03 lần mỗi tháng | Hệ thống công việc, hằng tháng |
+| `LS-M04` | Số lần phân lớp sai theo mục 1.4 | Đếm số Job phải chuyển sang bộ phận khác sau khi đã bắt đầu B2 | Không quá 03 lần mỗi tháng | Hệ thống công việc, hằng tháng |
 | `LS-M05` | Tỷ lệ vụ việc mức phức tạp có dấu vết soát của `COO` | Số Job đạt `KS-LS-05` chia tổng Job mức phức tạp | 100% | Hệ thống công việc, hằng tháng |
 | `LS-M06` | Số phiếu bài học nộp về Legal R&D | Đếm phiếu LS-20 đã nộp chia số vụ việc đã đóng | 100% | Hệ thống công việc, hằng tháng |
 
@@ -267,23 +258,23 @@ Quy tắc chung về chỉ số không áp dụng nằm ở [[01_OBK-SOP-00_Chua
 
 ## 7. CHỖ BỘ PHẬN NÀY ĐI KHÁC QUY TRÌNH CHUẨN
 
-Bộ phận này chạy đúng 10 bước của [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 6. Ba chỗ có đặc thù.
+Bộ phận này thực hiện đúng 5 bước của [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 6. Ba mục dưới đây nêu chỗ bộ phận này đi khác quy trình chuẩn.
 
-### 7.1. B4 là bước quyết định phân lớp, không chỉ là kiểm điều kiện
+### 7.1. B1 là bước quyết định phân lớp, không chỉ là kiểm điều kiện
 
-Với các bộ phận khác, B4 kiểm xem khách có đủ điều kiện để làm việc khách yêu cầu hay không. Với bộ phận này, B4 còn phải trả lời một câu nữa: yêu cầu đó có thuộc bộ phận này hay không, theo mục 1.4. Trả lời sai câu đó thì mọi bước sau đều chạy ở sai địa chỉ.
+Với các bộ phận khác, B1 kiểm xem khách có đủ điều kiện để làm việc khách yêu cầu hay không. Với bộ phận này, B1 còn phải kết luận: yêu cầu đó có thuộc bộ phận này hay không, theo mục 1.4. Kết luận sai thuộc tính vụ việc thì phạm vi của mọi bước sau sai theo.
 
-### 7.2. B5 phần lớn phụ thuộc đầu vào của bộ phận nghiệp vụ khác
+### 7.2. B2 phần lớn phụ thuộc đầu vào của bộ phận nghiệp vụ khác
 
 Bốn Job của nhóm C và nhóm D cần hồ sơ mà bộ phận khác đang giữ. Việc lấy đầu vào đó là một Job phụ liên kết về Job chính, theo [[PL_Chuyen_len_cap_tren|OBK-QCTC-02-PL-C]] mục 2a quy tắc 3 và quy tắc 4. Bộ phận này giữ Job chính vì bộ phận này giữ đầu ra cuối gửi ra khỏi oBacker.
 
-Bộ phận cấp đầu vào chạy theo SLA nội bộ tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 7.4, tức xác nhận đã nhận dưới 30 phút và nội dung dưới 03 giờ làm việc. Đồng hồ của Job chính DỪNG trong lúc chờ đầu vào đó, và mỗi lần dừng phải ghi lý do trên Job.
+Bộ phận cấp đầu vào chạy theo SLA nội bộ tại OBK-SOP-00 mục 7.4, tức xác nhận đã nhận dưới 30 phút và nội dung dưới 03 giờ làm việc. Đồng hồ của Job chính DỪNG trong lúc chờ đầu vào đó, và mỗi lần dừng phải ghi lý do trên Job.
 
-### 7.3. B8 có thêm một lớp soát ngoài bộ phận
+### 7.3. Kiểm soát B4 ngoài bộ phận
 
-Vì chỗ kiêm nhiệm tại mục 3.3, đầu ra của bộ phận này đi qua ba lớp thay vì hai: `CV-LS` tự soát, `TL-LS` soát, rồi `COO` soát tiến độ và `AM` soát mức khớp yêu cầu. Lớp thứ ba không soát nội dung chuyên môn; lớp thứ ba chỉ trả lời hai câu là vụ việc có đang đúng tiến độ không, và đầu ra có đúng cái khách mua không.
+Vì chỗ kiêm nhiệm tại mục 3.3, đầu ra của bộ phận này đi qua bộ kiểm soát theo Tier của Job theo NT-5 của OBK-SOP-00, cộng thêm lớp kiểm soát riêng: `CV-LS` tự soát, `TL-LS` soát, rồi `COO` soát tiến độ và `AM` soát mức khớp yêu cầu. Lớp riêng không soát nội dung chuyên môn; lớp riêng chỉ trả lời hai câu là vụ việc có đang đúng tiến độ không, và đầu ra có đúng cái khách mua không.
 
-Ngoại lệ tự mất khi `TL-LS` có người giữ riêng, không còn kiêm Legal R&D Team Lead. Người rà soát định kỳ phải kiểm điểm này mỗi lần [[PL_Anh_xa_nhan_su|OBK-QCTC-02-PL-D]] đổi người.
+Ngoại lệ hết hiệu lực khi `TL-LS` có người giữ riêng, không còn kiêm Legal R&D Team Lead. Người rà soát định kỳ kiểm điểm mục này mỗi lần [[PL_Anh_xa_nhan_su|OBK-QCTC-02-PL-D]] đổi người.
 
 ---
 
@@ -303,8 +294,104 @@ Tài liệu này là cấp 2. `TL-LS` dựng cấp 3, `COO` duyệt, Legal R&D s
 
 ---
 
+## CÂU HỎI THƯỜNG GẶP THEO JOB
+
+### LS-03. Soạn hợp đồng theo yêu cầu của khách
+
+Nếu khách mới cung cấp mục đích giao dịch nhưng chưa có giá và cách thanh toán thì Job này chạy được chưa?
+Chưa. Giá và cách thanh toán là đầu vào bắt buộc, và mốc SLA tính từ khi nhận đủ đầu vào; lấy đủ đầu vào qua `AM`.
+
+Nếu điều khách muốn có là điều khoản bảo đảm hoặc thế chấp thì xếp mức nào?
+Có biện pháp bảo đảm hoặc thế chấp là một trong bốn dấu hiệu mức phức tạp; xếp mức tại B1 và ghi lý do, `TL-LS` xác nhận.
+
+Nếu điều khoản khách yêu cầu đặt ra rủi ro pháp lý thì xử lý ở bước nào?
+`CV-LS` ghi vào bản ghi chú giải thích điều khoản rủi ro, rồi bản dự thảo chạy qua bộ kiểm soát chất lượng theo Tier của Job; `TL-LS` ở lớp hai kiểm `KS-LS-03` (truy được mã căn cứ) và `KS-LS-07` (không cam kết kết quả).
+
+### LS-04. Rà soát hợp đồng do khách đưa
+
+Nếu khách chưa nói rõ mình là bên nào trong hợp đồng thì rà được chưa?
+Chưa. Vai trò của khách là bên nào là đầu vào bắt buộc, vì cách xử lý một điều khoản khác nhau theo bên; `AM` làm rõ vai trò trước khi rà.
+
+Nếu rà xong thấy một điều khoản hợp pháp nhưng vẫn nên điều chỉnh cho khớp lợi ích của khách thì ghi vào phần nào?
+Xếp vào phần điều khoản nên sửa, mỗi dòng kèm lý do và câu chữ đề xuất, tách khỏi phần bắt buộc phải sửa; lỗi thường gặp là bỏ thiếu lý do hay câu chữ đề xuất ở đây.
+
+Nếu bản hợp đồng khách gửi qua `AM` thiếu phụ lục đang kèm theo thì làm sao?
+Đầu vào bắt buộc là bản hợp đồng đầy đủ; thiếu phụ lục đang kèm theo thì đòi khách cấp đủ trước khi lập bản rà soát ba phần.
+
+### LS-05. Soạn phụ lục, biên bản, thỏa thuận sửa đổi hoặc chấm dứt
+
+Nếu khách muốn chấm dứt hợp đồng nhưng chỉ đưa hợp đồng gốc, chưa đưa phụ lục đang có hiệu lực thì Job này chạy được chưa?
+Chưa. Đầu vào bắt buộc gồm toàn bộ phụ lục đang có hiệu lực; thiếu thì chưa xác định được phạm vi chấm dứt.
+
+Nếu điều khoản muốn sửa đã bị một phụ lục trước thay thế thì căn vào đâu?
+Căn vào phụ lục đang có hiệu lực, vì đầu vào là hợp đồng gốc kèm toàn bộ phụ lục đang có hiệu lực.
+
+### LS-06. Trả lời câu hỏi tư vấn đã có căn cứ đã đối chiếu bản gốc
+
+Nếu câu hỏi của khách đã có sẵn mã căn cứ đã đối chiếu bản gốc trong sổ căn cứ thì xử lý theo Job nào?
+Xử lý theo LS-06, trả lời kèm mã căn cứ, mốc `T3` là 03 gLV.
+
+Vì sao Job này không đi qua chuỗi `T2`?
+Vì `T3` (03 gLV) sớm hơn hạn `T2` (04 gLV) nên không cần cấp mốc ước lượng cho khách.
+
+### LS-07. Trả lời câu hỏi tư vấn phải tra bản gốc
+
+Nếu `TL-LS` đã tra bản gốc mà vẫn không kết luận được thì đi vào nhánh nào?
+Mở Job RD-10 cho Legal R&D; mốc của nhánh là mốc của Job RD-10, và `AM` phải cam kết lại `T2` với khách trong 04 gLV kể từ khi mở RD-10.
+
+Mốc `T3` thường của Job này là bao lâu và ai đối chiếu bản gốc?
+`T3` là 03 NLV, do `TL-LS` đối chiếu bản gốc.
+
+### LS-08. Xử lý câu hỏi chạm nội dung chưa xác minh được
+
+Nếu câu hỏi của khách chạm nội dung chưa xác minh được thì có được trả lời nội dung không?
+Không. Đầu ra là thư hẹn mốc gửi khách, kèm Job RD-12 đã mở cho Legal R&D.
+
+Mốc gửi thư hẹn mốc và mốc mở Job RD-12 là bao lâu?
+`AM` gửi thư hẹn mốc trong 04 gLV; `TL-LS` dừng và mở RD-12 trong cùng ngày làm việc.
+
+### LS-09. Lập thư tư vấn hoặc bản ghi nhớ pháp lý
+
+Nếu bản ghi nhớ có kết luận dựa trên dữ kiện khách chưa xác nhận bằng văn bản thì có được duyệt không?
+Không. `KS-LS-04` đòi dữ kiện thực tế của khách đã được khách xác nhận bằng văn bản trước B2; xác nhận qua email công ty là đủ, qua kênh liên lạc là chưa đủ.
+
+Nếu khách chỉ muốn một câu kết luận thẳng, không cần lập luận, thì có được rút gọn không?
+Không rút gọn. Bản ghi nhớ phải giữ đủ bốn phần (vấn đề, quy định áp dụng kèm mã căn cứ, áp vào dữ kiện, kết luận và phần chưa kết luận được); kết luận thiếu phần quy định và phần áp vào dữ kiện là lỗi dữ kiện chưa xác nhận theo `KS-LS-04`.
+
+Nếu phần kết luận chỉ dựa trên văn bản đã bị thay mà chưa đối chiếu lại bản gốc thì sao?
+`KS-LS-03` đòi mọi kết luận truy được về một mã căn cứ đã đối chiếu bản gốc; phải đối chiếu lại hoặc trả lại, không dùng mẫu cũ thay cho việc tra.
+
+### LS-13. Soạn điều lệ và bộ tài liệu quản trị cho khách
+
+Nếu khách mới cho loại hình doanh nghiệp mà chưa cho cơ cấu sở hữu thì Job này chạy được chưa?
+Chưa. Loại hình và cơ cấu sở hữu là đầu vào bắt buộc, cùng dữ kiện trên Giấy chứng nhận đăng ký doanh nghiệp bản mới nhất.
+
+Nếu dữ kiện trên Giấy chứng nhận đăng ký doanh nghiệp khách đang dùng là bản cũ thì làm sao?
+Đầu vào phải là bản mới nhất; lấy bản mới nhất trước khi soạn điều lệ và bộ tài liệu quản trị.
+
+### LS-14. Soạn nội quy lao động và bộ quy chế nhân sự cho khách
+
+Việc đăng ký nội quy lao động với cơ quan có thuộc Job này không?
+Không. Đăng ký nội quy là Job LD-13, thuộc Bộ phận Lao động và Tiền lương.
+
+Nếu chưa có đầu vào của Bộ phận Lao động và Tiền lương về hồ sơ lao động đang có thì đồng hồ Job chạy thế nào?
+Đồng hồ dừng trong lúc chờ đầu vào đó; Bộ phận Lao động và Tiền lương cấp đầu vào trong dưới 03 gLV theo OBK-SOP-00 mục 7.4, mỗi lần dừng ghi lý do trên Job.
+
+### LS-17. Hỗ trợ khách làm việc với cơ quan nhà nước trong một vụ việc pháp lý
+
+Bản dự thảo văn bản giải trình cho cơ quan nhà nước do ai ký và ai gửi?
+Do khách ký và khách gửi; bộ phận này chỉ soạn dự thảo và gửi `AM`.
+
+Vì sao mốc gửi bản dự thảo phải chậm nhất 06 NLV trước hạn ghi trên văn bản của cơ quan?
+Vì đó là 05 ngày làm việc làm trước cho đầu ra cần khách ký theo NT-6, cộng 0,5 NLV `AM` giữ, làm tròn lên.
+
+Có được ghi thời hạn trả lời của cơ quan như cam kết của oBacker trong thư không?
+Không. Đó là thời hạn cơ quan, oBacker không kiểm soát được; cam kết của oBacker chỉ là mốc gửi bản dự thảo.
+
+---
+
 ## NHẬT KÝ SỬA
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.1 | Sửa dòng 'Người phê duyệt' trong bảng thông tin phiên bản về khuôn hai cột, bỏ dấu thừa và liên kết bị cắt cụt của OBK-SOP-00 |
+| 04/10/2026 | R.2.0.1 | Bỏ lối tự sự và từ ngữ đối thoại ở dịch vụ pháp lý. |

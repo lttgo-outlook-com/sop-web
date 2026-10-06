@@ -4,17 +4,15 @@ code: "OBK-SOP-LIC-PL-01"
 type: "sop"
 folder: "03_DichVu"
 level: "Phụ lục"
-version: "R.1.0.1"
+version: "R.1.1.1"
 status: "đang áp dụng"
-draft_date: "01/10/2026"
+draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
 approver: "CEO"
 parent: "OBK-SOP-LIC Giấy phép"
-law_as_of: "Pháp luật có hiệu lực tại ngày 26/09/2026"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-SOP-LIC-PL-01
 tags:
@@ -29,8 +27,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-SOP-LIC-PL-01 |
 | Cấp tài liệu | Phụ lục quy trình chi tiết |
-| Phiên bản | R.1.0.1, đang áp dụng |
-| Ngày biên soạn | 01/10/2026 |
+| Phiên bản | R.1.1.1, đang áp dụng |
+| Ngày biên soạn | 04/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
 | Người phê duyệt | CEO (Lê Trọng Tuấn) |
@@ -43,7 +41,7 @@ tags:
 ### 1.1. Mục tiêu
 1. Chuẩn hóa trình tự thực hiện, thành phần hồ sơ, căn cứ pháp lý, thời hạn giải quyết và điểm kiểm soát bắt buộc đối với sáu nghiệp vụ cấp phép chuyên ngành và xác lập quyền sở hữu trí tuệ.
 2. Thiết lập ranh giới cam kết minh bạch với khách hàng: oBacker cam kết thời hạn soạn thảo, tính hợp lệ của bộ hồ sơ và ngày nộp hồ sơ vào cơ quan nhà nước; oBacker không cam kết ngày phê duyệt hoặc kết quả cấp phép của cơ quan có thẩm quyền.
-3. Đóng các khoảng trống nghiệp vụ được ghi nhận tại mục 9 tài liệu [[04_OBK-SOP-LIC_Giay_phep|OBK-SOP-LIC]].
+3. Đóng các khoảng trống nghiệp vụ được ghi nhận tại mục 9 tài liệu OBK-SOP-LIC.
 
 ### 1.2. Phạm vi áp dụng
 Tài liệu này quy định chi tiết sáu nhóm nghiệp vụ:
@@ -68,27 +66,18 @@ Các chữ viết tắt vai trò tuân thủ danh mục chuẩn tại [[01_OBK-S
 
 | Bước | Nội dung công việc | CV-LIC | TL-LIC | AM | LEG | COO |
 | --- | --- | --- | --- | --- | --- | --- |
-| B1 | Tiếp nhận yêu cầu từ khách hàng | R | A | R | N/A | I |
-| B2 | Tiếp nhận và kiểm tra tính hợp lệ của tài liệu đầu vào | R | A | I | N/A | N/A |
-| B3 | Khảo sát điều kiện pháp lý và xác định cơ quan thẩm quyền | R | A | I | C | N/A |
-| B4 | Lập bản đánh giá khả thi và tư vấn phương án | R | A | R | C | I |
-| B5 | Soạn thảo bộ hồ sơ theo quy định | R | A | I | N/A | N/A |
-| B6 | Hướng dẫn ký, đóng dấu và thu nhận hồ sơ gốc | R | A | R | N/A | N/A |
-| B7 | Kiểm soát chất lượng hồ sơ hai lớp trước khi nộp | R (lớp 1) | A, R (lớp 2) | I | C (hồ sơ lạ) | N/A |
-| B8 | Nộp hồ sơ và nhận biên nhận, giấy hẹn | R | A | I | N/A | N/A |
-| B9 | Theo dõi tiến độ, xử lý yêu cầu sửa đổi, bổ sung | R | A | R | C | I |
-| B10 | Nhận kết quả, bàn giao khách hàng và lưu trữ hồ sơ | R | A | R | N/A | I |
+| B1 | Tiếp nhận yêu cầu từ khách hàng (B1)<br>Tiếp nhận và kiểm tra tính hợp lệ của tài liệu đầu vào (B2)<br>Khảo sát điều kiện pháp lý và xác định cơ quan thẩm quyền (B3)<br>Lập bản đánh giá khả thi và tư vấn phương án (B4) | R | A | R (B1, B4)<br>I (B2, B3) | N/A (B1, B2)<br>C (B3, B4) | I (B1, B4)<br>N/A (B2, B3) |
+| B2 | Soạn thảo bộ hồ sơ theo quy định (B5)<br>Hướng dẫn ký, đóng dấu và thu nhận hồ sơ gốc (B6) | R | A | I (B5)<br>R (B6) | N/A | N/A |
+| B3 | Kiểm soát chất lượng hồ sơ theo mức rủi ro của Job, theo NT-5 của OBK-SOP-00, trước khi nộp | R (lớp 1) | A, R (lớp 2) | I | C (hồ sơ lạ) | N/A |
+| B4 | Nộp hồ sơ và nhận biên nhận, giấy hẹn | R | A | I | N/A | N/A |
+| B5 | Theo dõi tiến độ, xử lý yêu cầu sửa đổi, bổ sung (B9)<br>Nhận kết quả, bàn giao khách hàng và lưu trữ hồ sơ (B10) | R | A | R | C (B9)<br>N/A (B10) | I |
 
 ---
 
 ## 3. QUY TRÌNH 1: CẤP GIẤY PHÉP KINH DOANH BÁN LẺ HÀNG HÓA CHO DOANH NGHIỆP CÓ VỐN ĐẦU TƯ NƯỚC NGOÀI
 
-### 3.1. Căn cứ pháp lý
-1. Luật Thương mại ngày 14/06/2005.
-2. Nghị định số 09/2018/NĐ-CP ngày 15/01/2018 của Chính phủ quy định chi tiết Luật Thương mại và Luật Quản lý ngoại thương về hoạt động mua bán hàng hóa và các hoạt động liên quan trực tiếp đến mua bán hàng hóa của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài tại Việt Nam (áp dụng cho hồ sơ tiếp nhận trước ngày 18/10/2026).
-3. [[Nghị định 342-2026-NĐ-CP về hoạt động mua bán hàng hóa của nhà đầu tư nước ngoài tại Việt Nam|Nghị định 342/2026/NĐ-CP]] ngày 03/09/2026 của Chính phủ quy định chi tiết Luật Thương mại và Luật Quản lý ngoại thương về hoạt động mua bán hàng hóa và các hoạt động liên quan trực tiếp đến mua bán hàng hóa của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài tại Việt Nam (có hiệu lực từ ngày 18/10/2026, thay thế Nghị định số 09/2018/NĐ-CP và bãi bỏ Điều 36 Nghị định số 146/2025/NĐ-CP; các Điều 5, 8, 9, 11, 12, 44, 45).
 
-### 3.2. Điều kiện cấp phép (Điều 9 Nghị định 342/2026/NĐ-CP)
+### 3.1. Điều kiện cấp phép (Điều 9 Nghị định 342/2026/NĐ-CP)
 1. Nhà đầu tư nước ngoài thuộc nước, vùng lãnh thổ tham gia điều ước quốc tế mà Việt Nam là thành viên có cam kết mở cửa thị trường đối với hoạt động mua bán hàng hóa:
    - Đáp ứng điều kiện về tiếp cận thị trường theo quy định của pháp luật chuyên ngành và điều ước quốc tế;
    - Có kế hoạch tài chính để thực hiện hoạt động bán lẻ đề nghị cấp Giấy phép kinh doanh;
@@ -101,7 +90,7 @@ Các chữ viết tắt vai trò tuân thủ danh mục chuẩn tại [[01_OBK-S
    - Khả năng và mức độ đóng góp cho ngân sách nhà nước.
 3. Trường hợp bán lẻ hàng hóa chưa cam kết mở cửa thị trường (gạo, đường, dầu mỡ bôi trơn, dược phẩm): phải giải trình thêm mức độ phù hợp với quy hoạch mạng lưới phân phối, bảo đảm trật tự an toàn xã hội và giải trình tác động kinh tế - xã hội để xin ý kiến Bộ Công Thương và các bộ quản lý ngành liên quan.
 
-### 3.3. Thành phần hồ sơ (Điều 11 Nghị định 342/2026/NĐ-CP)
+### 3.2. Thành phần hồ sơ (Điều 11 Nghị định 342/2026/NĐ-CP)
 1. Đơn đề nghị cấp Giấy phép kinh doanh (Mẫu số 01 tại Phụ lục ban hành kèm theo Nghị định 342/2026/NĐ-CP; đối với hồ sơ nộp trước 18/10/2026 dùng Mẫu số 01 Phụ lục Nghị định 09/2018/NĐ-CP) - 01 bản gốc có chữ ký của người đại diện theo pháp luật và đóng dấu của doanh nghiệp.
 2. Bản giải trình có nội dung quy định tại điểm b khoản 1 Điều 11 (Mẫu số 02 Phụ lục Nghị định 342/2026/NĐ-CP; đối với hồ sơ nộp trước 18/10/2026 dùng Mẫu số 02 Phụ lục Nghị định 09/2018/NĐ-CP) - 01 bản gốc:
    - Giải trình về việc đáp ứng các điều kiện cấp phép tương ứng theo Điều 9.
@@ -112,7 +101,7 @@ Các chữ viết tắt vai trò tuân thủ danh mục chuẩn tại [[01_OBK-S
 4. Bản sao Giấy chứng nhận đăng ký doanh nghiệp; bản sao Giấy chứng nhận đăng ký đầu tư (nếu có dự án đầu tư gắn với hoạt động mua bán hàng hóa).
 5. Bản giải trình các tiêu chí quy định tại khoản 2 Điều 9 Nghị định 342/2026/NĐ-CP đối với nhà đầu tư nước ngoài không thuộc nước tham gia điều ước quốc tế.
 
-### 3.4. Trình tự thực hiện và thời hạn pháp định (Điều 8, Điều 12 Nghị định 342/2026/NĐ-CP)
+### 3.3. Trình tự thực hiện và thời hạn pháp định (Điều 8, Điều 12 Nghị định 342/2026/NĐ-CP)
 1. **Thẩm quyền cấp phép:** Ủy ban nhân dân cấp tỉnh nơi tổ chức kinh tế có vốn đầu tư nước ngoài đặt trụ sở chính (khoản 1 Điều 8). Cơ quan chuyên môn về công thương (Sở Công Thương) hoặc Ban Quản lý khu công nghiệp, khu chế xuất, khu kinh tế tiếp nhận và thẩm định hồ sơ theo phân cấp của Ủy ban nhân dân cấp tỉnh.
 2. **Nộp hồ sơ:** Nộp 01 bộ hồ sơ trực tiếp tại Bộ phận Một cửa, hoặc qua dịch vụ bưu chính công ích, hoặc nộp trực tuyến qua Cổng dịch vụ công của tỉnh/thành phố.
 3. **Kiểm tra tính hợp lệ hình thức:** Trong thời hạn 03 ngày làm việc kể từ ngày nhận hồ sơ, cơ quan tiếp nhận kiểm tra tính hợp lệ. Trường hợp hồ sơ chưa hợp lệ, cơ quan có văn bản yêu cầu sửa đổi, bổ sung.
@@ -126,13 +115,13 @@ Các chữ viết tắt vai trò tuân thủ danh mục chuẩn tại [[01_OBK-S
    - Doanh nghiệp có trách nhiệm giải trình bổ sung hồ sơ theo yêu cầu của cơ quan có thẩm quyền trong thời hạn không quá 06 tháng kể từ ngày nhận được văn bản yêu cầu. Quá thời hạn này mà không giải trình bổ sung thì cơ quan có thẩm quyền từ chối cấp phép.
    - Giấy phép kinh doanh đã được cấp trước ngày 18/10/2026 tiếp tục có giá trị sử dụng cho đến hết thời hạn ghi trên giấy phép.
 
-### 3.5. SLA nội bộ oBacker
+### 3.4. SLA nội bộ oBacker
 1. Rà soát thông tin, thẩm tra báo cáo tài chính và lấy xác nhận không nợ thuế: 05 ngày làm việc kể từ khi nhận đủ dữ liệu từ khách hàng.
 2. Soạn thảo hoàn chỉnh hồ sơ (Đơn mẫu 01, Giải trình mẫu 02 và thuyết minh tài chính): 03 ngày làm việc.
 3. Nộp hồ sơ tại Sở Công Thương: trong thời hạn 01 ngày làm việc sau khi nhận lại bộ hồ sơ đã ký, đóng dấu hợp lệ.
 4. Theo dõi, đôn đốc ý kiến chuyên môn từ Bộ Công Thương và cập nhật tiến độ cho AM: định kỳ 03 ngày làm việc một lần.
 
-### 3.6. Điểm kiểm soát bắt buộc và lỗi thường gặp
+### 3.5. Điểm kiểm soát bắt buộc và lỗi thường gặp
 - **Điểm kiểm soát KS-LIC-25:** Kiểm tra văn bản xác nhận không nợ thuế của cơ quan thuế. Xác nhận phải được cấp trong thời hạn không quá 30 ngày tính đến ngày nộp hồ sơ. Nếu có phát sinh nợ thuế quá hạn, không được nộp hồ sơ.
 - **Lỗi thường gặp:** Thuyết minh kế hoạch tài chính trong Bản giải trình mẫu 02 không khớp với số liệu trên Báo cáo tài chính đã nộp cho cơ quan thuế; giải trình phương thức bán lẻ thiếu mô tả phương án logistics và quy trình bảo vệ quyền lợi người tiêu dùng.
 
@@ -140,12 +129,8 @@ Các chữ viết tắt vai trò tuân thủ danh mục chuẩn tại [[01_OBK-S
 
 ## 4. QUY TRÌNH 2: CẤP GIẤY CHỨNG NHẬN CƠ SỞ ĐỦ ĐIỀU KIỆN AN TOÀN THỰC PHẨM
 
-### 4.1. Căn cứ pháp lý
-1. Luật An toàn thực phẩm ngày 17/06/2010 (các Điều 34, 35, 36, 37).
-2. Nghị định số 15/2018/NĐ-CP ngày 02/02/2018 của Chính phủ quy định chi tiết thi hành một số điều của Luật An toàn thực phẩm (Điều 11, Điều 12).
-3. Các thông tư phân cấp quản lý chuyên ngành của Bộ Y tế, Bộ Nông nghiệp và Phát triển nông thôn, Bộ Công Thương.
 
-### 4.2. Phân định cơ quan có thẩm quyền cấp phép
+### 4.1. Phân định cơ quan có thẩm quyền cấp phép
 1. **Bộ Y tế (Chi cục An toàn vệ sinh thực phẩm hoặc Ban Quản lý An toàn thực phẩm / Sở Y tế):**
    - Cơ sở sản xuất, kinh doanh thực phẩm chức năng, thực phẩm tăng cường vi chất dinh dưỡng, phụ gia thực phẩm, chất hỗ trợ chế biến thực phẩm.
    - Nước khoáng thiên nhiên, nước uống đóng chai, nước đá dùng liền.
@@ -155,7 +140,7 @@ Các chữ viết tắt vai trò tuân thủ danh mục chuẩn tại [[01_OBK-S
 3. **Bộ Công Thương (Sở Công Thương hoặc Phòng Kinh tế):**
    - Cơ sở sản xuất, kinh doanh rượu, bia, nước giải khát, sữa chế biến, dầu thực vật, sản phẩm chế biến từ bột và tinh bột, bánh kẹo, bao bì chứa đựng chuyên dụng.
 
-### 4.3. Trường hợp được miễn Giấy chứng nhận (khoản 1 Điều 12 Nghị định 15/2018/NĐ-CP)
+### 4.2. Trường hợp được miễn Giấy chứng nhận (khoản 1 Điều 12 Nghị định 15/2018/NĐ-CP)
 1. Cơ sở sản xuất ban đầu nhỏ lẻ; cơ sở sản xuất, kinh doanh thực phẩm không có địa điểm cố định; cơ sở sơ chế nhỏ lẻ; cơ sở kinh doanh thực phẩm nhỏ lẻ.
 2. Cơ sở kinh doanh thực phẩm bao gói sẵn.
 3. Cơ sở sản xuất, kinh doanh dụng cụ, vật liệu bao gói, chứa đựng thực phẩm.
@@ -163,7 +148,7 @@ Các chữ viết tắt vai trò tuân thủ danh mục chuẩn tại [[01_OBK-S
 5. Kinh doanh thức ăn đường phố.
 6. Cơ sở đã được cấp một trong các Giấy chứng nhận còn hiệu lực: Thực hành sản xuất tốt (GMP), Hệ thống phân tích mối nguy và điểm kiểm soát tới hạn (HACCP), Hệ thống quản lý an toàn thực phẩm ISO 22000, Tiêu chuẩn thực phẩm quốc tế (IFS), Tiêu chuẩn toàn cầu về an toàn thực phẩm (BRC), Hệ thống chứng nhận an toàn thực phẩm (FSSC 22000) hoặc tương đương (chỉ cần nộp bản sao chứng chỉ gửi cơ quan có thẩm quyền để hậu kiểm).
 
-### 4.4. Thành phần hồ sơ (Điều 36 Luật An toàn thực phẩm và Điều 11 Nghị định 15/2018/NĐ-CP)
+### 4.3. Thành phần hồ sơ (Điều 36 Luật An toàn thực phẩm và Điều 11 Nghị định 15/2018/NĐ-CP)
 1. Đơn đề nghị cấp Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm (Mẫu số 01 Phụ lục I ban hành kèm theo Nghị định 15/2018/NĐ-CP) - 01 bản gốc.
 2. Bản sao Giấy chứng nhận đăng ký doanh nghiệp hoặc Giấy chứng nhận đăng ký hộ kinh doanh có ngành nghề kinh doanh thực phẩm phù hợp.
 3. Bản thuyết minh về cơ sở vật chất, trang thiết bị, dụng cụ bảo đảm điều kiện vệ sinh an toàn thực phẩm theo quy định - 01 bản gốc, bao gồm:
@@ -174,7 +159,7 @@ Các chữ viết tắt vai trò tuân thủ danh mục chuẩn tại [[01_OBK-S
 4. Giấy xác nhận đủ sức khỏe của chủ cơ sở và của người trực tiếp sản xuất, kinh doanh thực phẩm do cơ sở y tế cấp huyện trở lên cấp (khám theo danh mục định kỳ thẻ xanh) - bản sao có đối chiếu bản gốc hoặc bản sao chứng thực.
 5. Danh sách người sản xuất, chế biến, kinh doanh thực phẩm đã được tập huấn kiến thức an toàn thực phẩm có xác nhận của chủ cơ sở - 01 bản gốc.
 
-### 4.5. Trình tự thực hiện và thời hạn pháp định
+### 4.4. Trình tự thực hiện và thời hạn pháp định
 1. **Kiểm tra tính hợp lệ hồ sơ:** Trong thời hạn 05 ngày làm việc kể từ ngày nhận đủ hồ sơ, cơ quan có thẩm quyền kiểm tra tính hợp lệ. Trường hợp hồ sơ chưa hợp lệ, cơ quan gửi thông báo bằng văn bản yêu cầu hoàn thiện.
 2. **Thẩm định thực tế tại cơ sở:** Trong thời hạn 15 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan có thẩm quyền lập Đoàn thẩm định thực tế kiểm tra điều kiện an toàn thực phẩm tại cơ sở.
 3. **Xử lý kết quả thẩm định thực tế:**
@@ -183,13 +168,13 @@ Các chữ viết tắt vai trò tuân thủ danh mục chuẩn tại [[01_OBK-S
    - Trường hợp kết quả "Không đạt": Cơ quan trả lời bằng văn bản nêu rõ lý do không cấp phép.
 4. **Thời hạn hiệu lực:** Giấy chứng nhận có hiệu lực trong thời hạn 03 năm kể từ ngày cấp (Điều 37 Luật An toàn thực phẩm). Trước 06 tháng tính đến ngày hết hiệu lực, cơ sở phải nộp hồ sơ xin cấp lại.
 
-### 4.6. SLA nội bộ oBacker
+### 4.5. SLA nội bộ oBacker
 1. Khảo sát thực tế cơ sở, hướng dẫn bố trí mặt bằng theo nguyên tắc một chiều và hoàn thiện hồ sơ: từ 03 ngày làm việc đến 05 ngày làm việc.
 2. Nộp hồ sơ và nhận giấy hẹn tiếp nhận: trong thời hạn 01 ngày làm việc sau khi khách hàng hoàn tất khám sức khỏe và ký đóng dấu hồ sơ.
 3. Chuẩn bị và hỗ trợ khách hàng tiếp đoàn thẩm định: thông báo kế hoạch kiểm tra cho khách hàng trước ít nhất 02 ngày làm việc; cử chuyên viên rà soát hiện trường trước giờ đoàn kiểm tra làm việc.
 4. Nhận Giấy chứng nhận và bàn giao cho khách hàng: trong thời hạn 01 ngày làm việc kể từ ngày nhận kết quả từ cơ quan cấp phép.
 
-### 4.7. Điểm kiểm soát bắt buộc và lỗi thường gặp
+### 4.6. Điểm kiểm soát bắt buộc và lỗi thường gặp
 - **Điểm kiểm soát KS-LIC-26:** Kiểm tra mặt bằng thực tế trước khi nộp hồ sơ. Đảm bảo khu vực sơ chế, chế biến và bảo quản phải tuân thủ nguyên tắc một chiều; có đủ bồn rửa tay, xà phòng sát khuẩn, bảo hộ lao động và không có dấu hiệu động vật gây hại.
 - **Lỗi thường gặp:** Giấy khám sức khỏe không đúng mẫu thẻ xanh chuyên ngành thực phẩm; sơ đồ quy trình công nghệ chế biến bị giao cắt luồng sạch và luồng nhiễm bẩn; hợp đồng mua nguyên liệu đầu vào thiếu hóa đơn hoặc thiếu chứng nhận xuất xứ an toàn.
 
@@ -197,12 +182,8 @@ Các chữ viết tắt vai trò tuân thủ danh mục chuẩn tại [[01_OBK-S
 
 ## 5. QUY TRÌNH 3: ĐĂNG KÝ HOẠT ĐỘNG TỔ CHỨC KHOA HỌC VÀ CÔNG NGHỆ
 
-### 5.1. Căn cứ pháp lý
-1. Luật Khoa học và Công nghệ ngày 18/06/2013 (các Điều 11, 12).
-2. Nghị định số 08/2014/NĐ-CP ngày 22/01/2014 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Khoa học và Công nghệ (Điều 5, Điều 6).
-3. Thông tư số 03/2014/TT-BKHCN ngày 31/03/2014 của Bộ Khoa học và Công nghệ hướng dẫn về điều kiện thành lập và đăng ký hoạt động của tổ chức khoa học và công nghệ, văn phòng đại diện, chi nhánh của tổ chức khoa học và công nghệ.
 
-### 5.2. Điều kiện thành lập tổ chức khoa học và công nghệ (Điều 5 Nghị định 08/2014/NĐ-CP)
+### 5.1. Điều kiện thành lập tổ chức khoa học và công nghệ (Điều 5 Nghị định 08/2014/NĐ-CP)
 1. **Điều lệ tổ chức và hoạt động:** Phải quy định rõ tên gọi, tôn chỉ, mục đích, lĩnh vực hoạt động, cơ cấu tổ chức, quyền và nghĩa vụ; không trái với quy định pháp luật.
 2. **Nhân lực khoa học và công nghệ:**
    - Người đứng đầu tổ chức phải có trình độ đại học trở lên, có năng lực quản lý và kinh nghiệm chuyên môn trong lĩnh vực đăng ký hoạt động.
@@ -213,7 +194,7 @@ Các chữ viết tắt vai trò tuân thủ danh mục chuẩn tại [[01_OBK-S
    - Có trang thiết bị máy móc cần thiết phù hợp với nội dung nghiên cứu đăng ký.
 4. **Vốn hoạt động:** Phải có nguồn vốn hoạt động ban đầu bằng tiền hoặc tài sản quy đổi theo quy định tại Điều lệ tổ chức và hoạt động (mức vốn tối thiểu được chứng minh bằng tiền gửi ngân hàng hoặc chứng thư định giá tài sản).
 
-### 5.3. Thành phần hồ sơ đăng ký hoạt động (Điều 6 Nghị định 08/2014/NĐ-CP)
+### 5.2. Thành phần hồ sơ đăng ký hoạt động (Điều 6 Nghị định 08/2014/NĐ-CP)
 1. Đơn đề nghị đăng ký hoạt động khoa học và công nghệ (Mẫu ĐK-01 ban hành kèm theo Thông tư 03/2014/TT-BKHCN) - 01 bản gốc.
 2. Quyết định thành lập tổ chức khoa học và công nghệ do cơ quan, tổ chức hoặc cá nhân sáng lập ban hành - 01 bản gốc.
 3. Điều lệ tổ chức và hoạt động đã được người có thẩm quyền phê duyệt - 01 bản gốc.
@@ -228,19 +209,19 @@ Các chữ viết tắt vai trò tuân thủ danh mục chuẩn tại [[01_OBK-S
    - Bản kê diện tích làm việc và danh mục máy móc, thiết bị, phòng thí nghiệm, công cụ phục vụ hoạt động nghiên cứu.
 6. Hồ sơ vốn hoạt động: Văn bản xác nhận số dư tài khoản ngân hàng hoặc văn bản xác nhận góp vốn của tổ chức, cá nhân sáng lập.
 
-### 5.4. Thẩm quyền và thời hạn pháp định (Điều 6 Nghị định 08/2014/NĐ-CP)
+### 5.3. Thẩm quyền và thời hạn pháp định (Điều 6 Nghị định 08/2014/NĐ-CP)
 1. **Thẩm quyền cấp Giấy chứng nhận:**
    - Bộ Khoa học và Công nghệ: Cấp Giấy chứng nhận cho tổ chức khoa học và công nghệ do các bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ thành lập; tổ chức khoa học và công nghệ có vốn đầu tư nước ngoài.
    - Sở Khoa học và Công nghệ cấp tỉnh: Cấp Giấy chứng nhận đăng ký hoạt động cho các tổ chức khoa học và công nghệ do tổ chức, cá nhân tại địa phương thành lập hoặc tổ chức khoa học công nghệ ngoài công lập đặt trụ sở trên địa bàn tỉnh, thành phố.
 2. **Thời hạn giải quyết:** Trong thời hạn 15 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan có thẩm quyền cấp Giấy chứng nhận đăng ký hoạt động khoa học và công nghệ. Trường hợp từ chối, phải thông báo bằng văn bản nêu rõ lý do.
 
-### 5.5. SLA nội bộ oBacker
+### 5.4. SLA nội bộ oBacker
 1. Soạn thảo bộ hồ sơ (Điều lệ mẫu, Đơn đề nghị, Bản kê cơ sở vật chất, Quyết định thành lập): 04 ngày làm việc kể từ khi nhận đủ danh sách nhân sự và thông tin trụ sở.
 2. Rà soát tính hợp lệ của văn bằng, chứng chỉ và lý lịch khoa học: 02 ngày làm việc.
 3. Nộp hồ sơ tại Sở Khoa học và Công nghệ: trong thời hạn 01 ngày làm việc sau khi nhận đủ hồ sơ ký đóng dấu.
 4. Theo dõi thẩm định, tiếp nhận kết quả và bàn giao cho khách hàng: trong thời hạn 01 ngày làm việc kể từ ngày nhận Giấy chứng nhận.
 
-### 5.6. Điểm kiểm soát bắt buộc và lỗi thường gặp
+### 5.5. Điểm kiểm soát bắt buộc và lỗi thường gặp
 - **Điểm kiểm soát KS-LIC-27:** Kiểm tra tỷ lệ 30% nhân sự chuyên ngành. Bằng cấp của nhân sự nộp trong hồ sơ phải thuộc đúng ngành hoặc chuyên ngành phù hợp với lĩnh vực nghiên cứu chính ghi trong Điều lệ; hợp đồng lao động phải là hợp đồng làm việc chính thức.
 - **Lỗi thường gặp:** Nhân sự kiêm nhiệm từ các trường đại học, viện nghiên cứu công lập không có văn bản chấp thuận của người đứng đầu đơn vị chủ quản; diện tích trụ sở không đáp ứng định mức 08 m2 trên một người nghiên cứu.
 
@@ -248,19 +229,15 @@ Các chữ viết tắt vai trò tuân thủ danh mục chuẩn tại [[01_OBK-S
 
 ## 6. QUY TRÌNH 4: THÔNG BÁO VÀ ĐĂNG KÝ WEBSITE THƯƠNG MẠI ĐIỆN TỬ, SÀN GIAO DỊCH THƯƠNG MẠI ĐIỆN TỬ
 
-### 6.1. Căn cứ pháp lý
-1. Nghị định số 52/2013/NĐ-CP ngày 16/05/2013 của Chính phủ về thương mại điện tử.
-2. Nghị định số 85/2021/NĐ-CP ngày 25/09/2021 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 52/2013/NĐ-CP (các Điều 52, 53, 54, 55).
-3. Thông tư số 47/2014/TT-BCT và Thông tư số 59/2015/TT-BCT của Bộ Công Thương quy định về quản lý website thương mại điện tử và ứng dụng thương mại điện tử; Thông tư số 01/2022/TT-BCT sửa đổi, bổ sung một số điều.
 
-### 6.2. Phân loại thủ tục thương mại điện tử
+### 6.1. Phân loại thủ tục thương mại điện tử
 1. **Thủ tục Thông báo website thương mại điện tử bán hàng (Điều 52, Điều 53 Nghị định 52/2013/NĐ-CP):** Áp dụng cho thương nhân, tổ chức hoặc cá nhân thiết lập website thương mại điện tử để phục vụ hoạt động xúc tiến thương mại, bán hàng hóa hoặc cung ứng dịch vụ của chính mình.
 2. **Thủ tục Đăng ký website cung cấp dịch vụ thương mại điện tử (Điều 54, Điều 55 Nghị định 52/2013/NĐ-CP sửa đổi bởi Nghị định 85/2021/NĐ-CP):** Áp dụng cho thương nhân, tổ chức thiết lập website thương mại điện tử để cung cấp môi trường cho các thương nhân, tổ chức, cá nhân khác tiến hành hoạt động thương mại. Gồm:
    - Sàn giao dịch thương mại điện tử.
    - Website đấu giá trực tuyến.
    - Website khuyến mại trực tuyến.
 
-### 6.3. Điều kiện kỹ thuật và nội dung bắt buộc trên website trước khi nộp hồ sơ
+### 6.2. Điều kiện kỹ thuật và nội dung bắt buộc trên website trước khi nộp hồ sơ
 Trước khi thực hiện thủ tục nộp hồ sơ lên Cổng thông tin Quản lý hoạt động thương mại điện tử của Bộ Công Thương, website phải hoạt động ổn định và hiển thị đầy đủ các chính sách bắt buộc:
 1. Thông tin chủ sở hữu website ở chân trang: Tên thương nhân/tổ chức, mã số doanh nghiệp, địa chỉ trụ sở, số điện thoại, thư điện tử.
 2. Chính sách bảo vệ thông tin cá nhân của người tiêu dùng (Điều 68 đến Điều 73 Nghị định 52/2013/NĐ-CP).
@@ -271,7 +248,7 @@ Trước khi thực hiện thủ tục nộp hồ sơ lên Cổng thông tin Qu�
 7. Điều kiện giao dịch chung (quy định về giới hạn địa lý cung cấp dịch vụ, thời gian hiệu lực của báo giá, trách nhiệm các bên).
 8. Riêng đối với sàn giao dịch thương mại điện tử: phải công khai Quy chế hoạt động của sàn giao dịch thương mại điện tử, cơ chế giải quyết khiếu nại tranh chấp, cơ chế kiểm soát và biện pháp xử lý vi phạm đối với người bán.
 
-### 6.4. Trình tự thực hiện thủ tục Thông báo website thương mại điện tử bán hàng
+### 6.3. Trình tự thực hiện thủ tục Thông báo website thương mại điện tử bán hàng
 Thực hiện toàn trình trên môi trường điện tử tại Cổng thông tin Quản lý hoạt động thương mại điện tử của Bộ Công Thương:
 1. **Bước 1 (Đăng ký tài khoản):** Thương nhân khai báo thông tin doanh nghiệp và tải lên bản sao Giấy chứng nhận đăng ký doanh nghiệp. Cục Thương mại điện tử và Kinh tế số - Bộ Công Thương phản hồi phê duyệt tài khoản trong thời hạn 03 ngày làm việc.
 2. **Bước 2 (Khai báo thông tin website):** Điền mẫu khai báo trực tuyến, tải tệp bản sao Giấy chứng nhận đăng ký doanh nghiệp và ảnh chụp các trang chính sách bắt buộc trên website.
@@ -279,7 +256,7 @@ Thực hiện toàn trình trên môi trường điện tử tại Cổng thông
    - Xác nhận thông báo thành công và cấp mã biểu tượng "ĐÃ THÔNG BÁO BỘ CÔNG THƯƠNG" (logo màu xanh lá cây) kèm đường liên kết xác thực về hệ thống của Bộ.
    - Yêu cầu bổ sung, sửa đổi thông tin nếu website thiếu các chính sách bắt buộc. Thương nhân có trách nhiệm bổ sung trong thời hạn 10 ngày làm việc.
 
-### 6.5. Trình tự và thành phần hồ sơ Đăng ký sàn giao dịch thương mại điện tử
+### 6.4. Trình tự và thành phần hồ sơ Đăng ký sàn giao dịch thương mại điện tử
 1. **Thành phần hồ sơ (Điều 55 Nghị định 52/2013/NĐ-CP sửa đổi bởi Nghị định 85/2021/NĐ-CP):**
    - Đơn đăng ký website cung cấp dịch vụ thương mại điện tử (theo mẫu của Bộ Công Thương).
    - Bản sao Giấy chứng nhận đăng ký doanh nghiệp hoặc Giấy chứng nhận đăng ký đầu tư có ngành nghề phù hợp.
@@ -296,11 +273,11 @@ Thực hiện toàn trình trên môi trường điện tử tại Cổng thông
    - **Bước 4 (Nộp hồ sơ giấy):** Trong thời hạn 05 ngày làm việc kể từ ngày nhận thông báo hồ sơ điện tử đạt, doanh nghiệp gửi 01 bộ hồ sơ giấy (có ký tên, đóng dấu giáp lai) về Bộ Công Thương (Cục Thương mại điện tử và Kinh tế số).
    - **Bước 5 (Cấp Giấy xác nhận):** Trong thời hạn 05 ngày làm việc kể từ ngày nhận được hồ sơ giấy hợp lệ đối chiếu khớp với bản điện tử, Bộ Công Thương cấp biểu tượng "ĐÃ ĐĂNG KÝ BỘ CÔNG THƯƠNG" (logo màu đỏ) và mã định danh gắn vào website.
 
-### 6.6. SLA nội bộ oBacker
+### 6.5. SLA nội bộ oBacker
 1. Đối với Thông báo website bán hàng: Rà soát website, soạn thảo bộ 06 chính sách chuẩn và nộp tài khoản trong 02 ngày làm việc; nộp hồ sơ thông báo trong 01 ngày làm việc sau khi tài khoản được duyệt.
 2. Đối với Đăng ký sàn thương mại điện tử: Soạn thảo Đề án hoạt động, Quy chế quản lý sàn, Hợp đồng dịch vụ mẫu trong thời hạn từ 05 ngày làm việc đến 07 ngày làm việc; nộp hồ sơ giấy trong 02 ngày làm việc kể từ khi có chấp thuận bản điện tử.
 
-### 6.7. Điểm kiểm soát bắt buộc và lỗi thường gặp
+### 6.6. Điểm kiểm soát bắt buộc và lỗi thường gặp
 - **Điểm kiểm soát KS-LIC-28:** Kiểm tra việc chèn mã liên kết sau khi được duyệt. Sau khi Bộ Công Thương duyệt, phải gắn mã nhúng biểu tượng (xanh hoặc đỏ) vào chân trang website và kiểm tra liên kết trỏ đúng về trang thông tin của website trên Cổng thông tin Quản lý hoạt động thương mại điện tử.
 - **Lỗi thường gặp:** Tên miền website không đứng tên doanh nghiệp mà đứng tên cá nhân thành viên; chân trang website thiếu mã số doanh nghiệp hoặc thiếu ngày cấp; các liên kết chính sách đổi trả, bảo mật bị lỗi hoặc nội dung sao chép không phù hợp với thực tế kinh doanh.
 
@@ -308,17 +285,12 @@ Thực hiện toàn trình trên môi trường điện tử tại Cổng thông
 
 ## 7. QUY TRÌNH 5: ĐĂNG KÝ XÁC LẬP QUYỀN ĐỐI VỚI NHÃN HIỆU
 
-### 7.1. Căn cứ pháp lý
-1. Luật Sở hữu trí tuệ ngày 29/11/2005 (đã được sửa đổi, bổ sung năm 2009, 2019 và năm 2022 theo Luật số 07/2022/QH15).
-2. Nghị định số 65/2023/NĐ-CP ngày 23/08/2023 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Sở hữu trí tuệ về sở hữu công nghiệp, bảo vệ quyền sở hữu công nghiệp, quyền đối với giống cây trồng và quản lý nhà nước về sở hữu trí tuệ.
-3. Thông tư số 23/2023/TT-BKHCN ngày 30/11/2023 của Bộ Khoa học và Công nghệ quy định chi tiết một số điều của Luật Sở hữu trí tuệ và Nghị định 65/2023/NĐ-CP.
-4. Tham chiếu quy định tại Báo cáo `GT-07` của oBacker về quy định thẩm định tại Luật số 131/2025/QH15 và thực tế tồn đọng hồ sơ tại Cục Sở hữu trí tuệ.
 
-### 7.2. Cơ quan có thẩm quyền và nguyên tắc nộp đơn
+### 7.1. Cơ quan có thẩm quyền và nguyên tắc nộp đơn
 1. **Cơ quan giải quyết:** Cục Sở hữu trí tuệ (Bộ Khoa học và Công nghệ) hoặc các Văn phòng đại diện của Cục tại TP. Hồ Chí Minh và TP. Đà Nẵng.
 2. **Nguyên tắc nộp đơn đầu tiên (nộp trước hưởng trước - Điều 90 Luật Sở hữu trí tuệ):** Trong trường hợp có nhiều đơn của nhiều người khác nhau cùng đăng ký các nhãn hiệu trùng hoặc tương tự đến mức gây nhầm lẫn cho các sản phẩm, dịch vụ trùng hoặc tương tự, văn bằng bảo hộ chỉ được cấp cho đơn hợp lệ có ngày nộp đơn hoặc ngày ưu tiên sớm nhất.
 
-### 7.3. Thành phần hồ sơ đăng ký nhãn hiệu
+### 7.2. Thành phần hồ sơ đăng ký nhãn hiệu
 1. Tờ khai đăng ký nhãn hiệu (Mẫu số 08 tại Phụ lục II ban hành kèm theo Nghị định 65/2023/NĐ-CP) - 02 bản gốc theo mẫu chuẩn.
 2. Mẫu nhãn hiệu: 05 mẫu nhãn hiệu kèm theo; kích thước mẫu nhãn không nhỏ hơn 20mm x 20mm và không lớn hơn 80mm x 80mm; trình bày rõ đường nét và màu sắc.
 3. Danh mục hàng hóa, dịch vụ mang nhãn hiệu: Được phân loại chính xác theo Bảng phân loại quốc tế về hàng hóa, dịch vụ theo Thỏa ước Nice (phiên bản hiện hành).
@@ -327,7 +299,7 @@ Thực hiện toàn trình trên môi trường điện tử tại Cổng thông
 6. Tài liệu chứng minh quyền đăng ký (nếu người nộp đơn thụ hưởng quyền từ người khác).
 7. Quy chế sử dụng nhãn hiệu tập thể hoặc Quy chế sử dụng nhãn hiệu chứng nhận (nếu đăng ký nhãn hiệu tập thể hoặc nhãn hiệu chứng nhận).
 
-### 7.4. Trình tự thẩm định và thời hạn pháp định
+### 7.3. Trình tự thẩm định và thời hạn pháp định
 1. **Giai đoạn 1: Tiếp nhận và thẩm định hình thức đơn:**
    - Thời hạn pháp định: 01 tháng kể từ ngày nộp đơn (Điều 119 Luật Sở hữu trí tuệ).
    - Kết quả: Quyết định chấp nhận đơn hợp lệ (ghi nhận số đơn, ngày nộp đơn và ngày ưu tiên) hoặc Thông báo dự định từ chối chấp nhận đơn hợp lệ (cho người nộp đơn thời hạn 02 tháng để sửa đổi, giải trình).
@@ -344,14 +316,14 @@ Thực hiện toàn trình trên môi trường điện tử tại Cổng thông
    - Cục Sở hữu trí tuệ cấp Giấy chứng nhận đăng ký nhãn hiệu trong thời hạn từ 15 ngày làm việc đến 30 ngày kể từ ngày nộp đủ phí.
 5. **Hiệu lực của văn bằng:** Giấy chứng nhận đăng ký nhãn hiệu có hiệu lực 10 năm kể từ ngày nộp đơn. Có thể gia hạn liên tiếp nhiều lần, mỗi lần 10 năm (Điều 93 Luật Sở hữu trí tuệ). Nộp đơn gia hạn trong thời hạn 06 tháng trước ngày hết hạn.
 
-### 7.5. SLA nội bộ oBacker
+### 7.4. SLA nội bộ oBacker
 1. Tra cứu sơ bộ khả năng đăng ký nhãn hiệu trên cơ sở dữ liệu WIPO và Cục Sở hữu trí tuệ: 01 ngày làm việc.
 2. Tra cứu chuyên sâu có đánh giá pháp lý và lập khuyến nghị phương án (nếu khách hàng có nhu cầu): 03 ngày làm việc.
 3. Soạn thảo hoàn chỉnh Tờ khai, phân nhóm hàng hóa dịch vụ theo Nice và chuẩn bị mẫu nhãn: 01 ngày làm việc.
 4. Nộp đơn tại Cục Sở hữu trí tuệ và gửi bản scan Giấy biên nhận có số đơn, dấu tiếp nhận cho khách hàng: trong thời hạn từ 24 giờ đến 48 giờ làm việc sau khi nhận đủ hồ sơ ký đóng dấu.
 5. Theo dõi tiến trình đơn và thông báo cho AM sau mỗi cột mốc: Hình thức đạt, Công bố đơn, Dự định cấp, Nhận văn bằng.
 
-### 7.6. Điểm kiểm soát bắt buộc và lỗi thường gặp
+### 7.5. Điểm kiểm soát bắt buộc và lỗi thường gặp
 - **Điểm kiểm soát KS-LIC-30:** Kiểm tra phân loại nhóm sản phẩm, dịch vụ theo Bảng phân loại Nice. Mô tả danh mục phải rõ ràng, tránh dùng thuật ngữ chung chung bị Cục từ chối; kiểm tra khả năng tương tự với các nhãn hiệu nổi tiếng hoặc nhãn hiệu đã được bảo hộ trước khi nộp đơn.
 - **Lỗi thường gặp:** Mẫu nhãn hiệu chứa các dấu hiệu loại trừ tuyệt đối (quốc kỳ, tên cơ quan nhà nước, dấu kiểm định); danh mục hàng hóa viết chung chung không đúng mã phân nhóm Nice dẫn đến bị Cục ra thông báo yêu cầu sửa đổi hình thức và tính thêm phí phân loại.
 
@@ -359,16 +331,12 @@ Thực hiện toàn trình trên môi trường điện tử tại Cổng thông
 
 ## 8. QUY TRÌNH 6: ĐĂNG KÝ QUYỀN TÁC GIẢ ĐỐI VỚI CHƯƠNG TRÌNH MÁY TÍNH (PHẦN MỀM), TÁC PHẨM VIẾT VÀ MỸ THUẬT ỨNG DỤNG
 
-### 8.1. Căn cứ pháp lý
-1. Luật Sở hữu trí tuệ ngày 29/11/2005 (sửa đổi, bổ sung năm 2009, 2019 và năm 2022 theo Luật số 07/2022/QH15) - các Điều 18 đến 51.
-2. Nghị định số 17/2023/NĐ-CP ngày 26/04/2023 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Sở hữu trí tuệ về quyền tác giả, quyền liên quan.
-3. Thông tư số 08/2023/TT-BVHTTDL ngày 02/06/2023 của Bộ Văn hóa, Thể thao và Du lịch quy định các mẫu biểu tờ khai đăng ký quyền tác giả, quyền liên quan.
 
-### 8.2. Cơ quan có thẩm quyền và ý nghĩa pháp lý của việc đăng ký
+### 8.1. Cơ quan có thẩm quyền và ý nghĩa pháp lý của việc đăng ký
 1. **Cơ quan có thẩm quyền:** Cục Bản quyền tác giả (Bộ Văn hóa, Thể thao và Du lịch) hoặc Văn phòng đại diện của Cục tại TP. Hồ Chí Minh và TP. Đà Nẵng.
 2. **Ý nghĩa pháp lý (Điều 49 Luật Sở hữu trí tuệ):** Quyền tác giả phát sinh tự động kể từ khi tác phẩm được sáng tạo và thể hiện dưới một hình thức vật chất nhất định. Việc nộp đơn đăng ký không phải là thủ tục bắt buộc để được hưởng quyền, nhưng tổ chức, cá nhân đã được cấp Giấy chứng nhận đăng ký quyền tác giả không có nghĩa vụ phải chứng minh quyền tác giả khi có tranh chấp, trừ trường hợp có chứng cứ ngược lại.
 
-### 8.3. Thành phần hồ sơ đăng ký quyền tác giả
+### 8.2. Thành phần hồ sơ đăng ký quyền tác giả
 1. Tờ khai đăng ký quyền tác giả (theo mẫu ban hành kèm theo Thông tư 08/2023/TT-BVHTTDL):
    - Mẫu số 04: Áp dụng đối với chương trình máy tính (phần mềm).
    - Mẫu số 01: Áp dụng đối với tác phẩm viết, tác phẩm mỹ thuật ứng dụng và các loại hình tác phẩm khác.
@@ -389,20 +357,20 @@ Thực hiện toàn trình trên môi trường điện tử tại Cổng thông
 6. Bản sao Giấy chứng nhận đăng ký doanh nghiệp của chủ sở hữu là tổ chức hoặc Căn cước công dân của chủ sở hữu là cá nhân.
 7. Văn bản đồng ý của các đồng tác giả (nếu tác phẩm có đồng tác giả) hoặc văn bản đồng ý của các đồng chủ sở hữu (nếu quyền tác giả thuộc sở hữu chung).
 
-### 8.4. Trình tự thực hiện và thời hạn pháp định (Điều 38 Nghị định 17/2023/NĐ-CP)
+### 8.3. Trình tự thực hiện và thời hạn pháp định (Điều 38 Nghị định 17/2023/NĐ-CP)
 1. **Nộp hồ sơ:** Nộp hồ sơ trực tiếp hoặc gửi qua bưu chính hoặc nộp trực tuyến qua Cổng dịch vụ công của Bộ Văn hóa, Thể thao và Du lịch đến Cục Bản quyền tác giả.
 2. **Thẩm định hồ sơ:** Cục Bản quyền tác giả thẩm định hồ sơ về mặt pháp lý và nội dung tác phẩm.
    - Trường hợp hồ sơ chưa hợp lệ: Trong thời hạn 01 tháng kể từ ngày nhận được thông báo, người nộp đơn phải sửa đổi, bổ sung hồ sơ.
    - Trường hợp từ chối cấp Giấy chứng nhận: Cục Bản quyền tác giả trả lời bằng văn bản nêu rõ lý do.
 3. **Thời hạn cấp Giấy chứng nhận:** Trong thời hạn 15 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, Cục Bản quyền tác giả cấp Giấy chứng nhận đăng ký quyền tác giả cho chủ sở hữu tác phẩm.
 
-### 8.5. SLA nội bộ oBacker
+### 8.4. SLA nội bộ oBacker
 1. Tiếp nhận tài liệu, mã nguồn hoặc bản thảo tác phẩm từ khách hàng: 01 ngày làm việc.
 2. Soạn thảo bộ hồ sơ (Tờ khai mẫu 04, Văn bản cam đoan, Quyết định giao việc hoặc Hợp đồng chuyển giao quyền) và in ấn đóng quyển hồ sơ mã nguồn: từ 02 ngày làm việc đến 03 ngày làm việc.
 3. Nộp hồ sơ tại Cục Bản quyền tác giả và lấy giấy biên nhận tiếp nhận: trong thời hạn 01 ngày làm việc sau khi khách hàng ký đóng dấu hợp lệ.
 4. Nhận kết quả và bàn giao Giấy chứng nhận cho khách hàng: trong thời hạn 01 ngày làm việc kể từ ngày Cục Bản quyền tác giả trả kết quả.
 
-### 8.6. Điểm kiểm soát bắt buộc và lỗi thường gặp
+### 8.5. Điểm kiểm soát bắt buộc và lỗi thường gặp
 - **Điểm kiểm soát KS-LIC-31:** Kiểm tra tính logic của hồ sơ chứng minh quyền sở hữu. Ngày ký Quyết định giao việc hoặc Hợp đồng thuê sáng tạo phải trước ngày hoàn thành tác phẩm; nội dung hợp đồng thuê ngoài phải ghi rõ điều khoản chuyển giao toàn bộ quyền tài sản đối với tác phẩm cho bên thuê.
 - **Lỗi thường gặp:** Bản in mã nguồn thiếu trang đầu, trang giữa hoặc trang cuối; USB nộp kèm bị lỗi tệp dữ liệu không mở được; thông tin họ tên tác giả trên Tờ khai không khớp với Căn cước công dân; thiếu văn bản cam đoan tự sáng tạo của tác giả.
 
@@ -410,7 +378,7 @@ Thực hiện toàn trình trên môi trường điện tử tại Cổng thông
 
 ## 9. TỔNG HỢP DANH MỤC JOB MỚI, THỜI HẠN PHÁP ĐỊNH VÀ SLA NỘI BỘ
 
-Bảy mã Job bổ sung LIC-25 tới LIC-31 đã được tích hợp vào danh mục Job của OBK-SOP-LIC. Bảng dưới đây là bảng nguồn của lượt tích hợp, giữ nguyên văn trích căn cứ pháp lý cho từng Job; bốn Job LIC-28 tới LIC-31 đang chặn do thiếu văn bản hợp nhất, xem OBK-SOP-LIC mục 9:
+Bảy mã Job bổ sung LIC-25 tới LIC-31 đã được tích hợp vào danh mục Job của OBK-SOP-LIC. Bảng dưới đây là bảng nguồn, giữ nguyên văn trích căn cứ pháp lý cho từng Job; bốn Job LIC-28 tới LIC-31 đang chặn do thiếu văn bản hợp nhất, xem OBK-SOP-LIC mục 9:
 
 | Mã Job | Tên Job | Đầu vào bắt buộc | Đầu ra | SLA nội bộ oBacker | Thời hạn theo pháp luật | Căn cứ pháp lý |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -428,4 +396,4 @@ Bảy mã Job bổ sung LIC-25 tới LIC-31 đã được tích hợp vào danh 
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 30/09/2026 | R.1.0.1 | Ghi nhận mục 9 là bảng nguồn đã tích hợp vào danh mục Job OBK-SOP-LIC, ghi chú bốn Job LIC-28 tới LIC-31 hiện đang chặn, xem mục 9 |
+| 04/10/2026 | R.1.1.1 | Bỏ lối tự sự ở ghi chú bảng nguồn. |

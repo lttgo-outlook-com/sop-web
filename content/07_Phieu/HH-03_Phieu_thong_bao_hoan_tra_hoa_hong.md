@@ -4,19 +4,15 @@ code: "HH-03"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-TTT-05 Cách làm phiếu thao tác"
-law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - HH-03
 tags:
@@ -29,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | HH-03 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -40,10 +36,11 @@ tags:
 | **Ai dùng** | `PM` |
 | **Sinh từ** | [[08_OBK-SOP-PM_Chuong_trinh_doi_tac_gioi_thieu_khach_hang\|OBK-SOP-PM]] Job PM-09;<br>[[PL_PM_Dieu_kien_thuong_mai_chuan\|OBK-SOP-PM-PL1]] dòng 22;<br>bản mẫu Điều 5 |
 | **Ngày làm phiếu** | 24/09/2026 |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
-Một phiếu cho một khoản oBacker hoàn tiền cho một Khách Hàng Hợp Lệ. Phiếu bắt đầu khi `PM` nhận thông báo từ `NB-51`, theo [[OBK-SOP-NB-02_Thu_tien_va_cong_no_phai_thu|OBK-SOP-NB-02]] mục 6.9 bước L5. Khách hủy dịch vụ mà oBacker giữ nguyên số tiền đã thu thì đối tác giữ nguyên hoa hồng tương ứng, và phiếu dừng ở bước 1, theo Điều 5.1 bản mẫu.
+Một phiếu cho một khoản oBacker hoàn tiền cho một Khách Hàng Hợp Lệ. Phiếu bắt đầu khi `PM` nhận thông báo từ `NB-51`, theo OBK-SOP-NB-02 mục 5.9 bước L5. Khách hủy dịch vụ mà oBacker giữ nguyên số tiền đã thu thì đối tác giữ nguyên hoa hồng tương ứng, và phiếu dừng ở bước 1, theo Điều 5.1 bản mẫu.
 
 | Việc | Hạn |
 | --- | --- |
@@ -137,17 +134,10 @@ Các trường theo Điều 5.2 tới Điều 5.5 bản mẫu.
 
 Bản mẫu Điều 5 chỉ cho oBacker thu hồi hoa hồng khi oBacker hoàn tiền cho khách, trong 12 tháng kể từ ngày oBacker trả số hoa hồng tương ứng. Phiếu ghi đủ sự kiện hoàn tiền, mốc 12 tháng, số hoa hồng phải hoàn trả và cách xử lý oBacker chọn trước khi thông báo được gửi đi.
 
-### 2. Căn cứ quy định và pháp luật liên quan
-
-| Việc số | Nguồn | Nội dung |
-| --- | --- | --- |
-| 1 và 2 | [[OBK-SOP-NB-02_Thu_tien_va_cong_no_phai_thu\|OBK-SOP-NB-02]] mục 6.9 bước L5;<br>[[PL_PM_Dieu_kien_thuong_mai_chuan\|OBK-SOP-PM-PL1]] dòng 22 | Thông báo từ `NB-51` về khách có trong sổ đăng ký giới thiệu;<br>nghĩa vụ hoàn trả chỉ phát sinh khi oBacker hoàn tiền |
-| 3 tới 7 | [[PL_PM_Dieu_kien_thuong_mai_chuan\|OBK-SOP-PM-PL1]] dòng 22;<br>[[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 23a.6 | Điều kiện 12 tháng;<br>số hoàn trả;<br>quyền chọn nhận tiền hoàn trả hoặc khấu trừ thuộc oBacker;<br>chứng từ hoàn tiền kèm theo |
-| 8 và 9 | [[08_OBK-SOP-PM_Chuong_trinh_doi_tac_gioi_thieu_khach_hang\|OBK-SOP-PM]] Job PM-09 | Hạn 15 ngày;<br>chuyển sang `NB-50` |
 
 ## Con số của phiếu này lấy ở đâu
 
-Phiếu này không tự đặt con số nào. Mốc 15 ngày và mốc 12 tháng lấy từ Điều 5.3, Điều 5.4 và Điều 5.5 bản mẫu, ghi tại [[PL_PM_Dieu_kien_thuong_mai_chuan|OBK-SOP-PM-PL1]] dòng 22. Các mốc trên là mốc theo hợp đồng giới thiệu khách hàng, không phải mốc theo pháp luật.
+Phiếu này không tự đặt con số nào. Mốc 15 ngày và mốc 12 tháng lấy từ Điều 5.3, Điều 5.4 và Điều 5.5 bản mẫu, ghi tại OBK-SOP-PM-PL1 dòng 22. Các mốc trên là mốc theo hợp đồng giới thiệu khách hàng, không phải mốc theo pháp luật.
 
 ---
 
@@ -155,4 +145,4 @@ Phiếu này không tự đặt con số nào. Mốc 15 ngày và mốc 12 thán
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu HH-03 về Sổ cái OBK-MSR |

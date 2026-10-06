@@ -4,19 +4,15 @@ code: "DL-01"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-TTT-05 Cách làm phiếu thao tác"
-law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - DL-01
 tags:
@@ -29,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | DL-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -40,6 +36,7 @@ tags:
 | **Ai dùng** | Cán bộ bảo vệ dữ liệu cá nhân (`DPO`), Quản trị IT, `CEO`, `COO`, `TL` |
 | **Sinh từ** | [[OBK-SOP-NB-09_Xu_ly_su_co_du_lieu_ca_nhan_noi_bo\|OBK-SOP-NB-09]];<br>[[06_Data_Protection_VI\|OBK-TnC-06]] |
 | **Ngày làm phiếu** | 27/09/2026 |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
@@ -52,7 +49,7 @@ Nhật ký do Cán bộ bảo vệ dữ liệu cá nhân (`DPO`) trực tiếp m
 
 ## PHÂN CẤP 3 MỨC ĐỘ RỦI RO SỰ CỐ
 
-Căn cứ quy định tại Điều 23 Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15 và quy trình [[OBK-SOP-NB-09_Xu_ly_su_co_du_lieu_ca_nhan_noi_bo|OBK-SOP-NB-09]], sự cố được phân thành 03 mức độ:
+oBacker phân loại sự cố dữ liệu cá nhân thành 03 mức độ theo quy trình xử lý sự cố tại OBK-SOP-NB-09:
 
 | Mức độ rủi ro | Tiêu chí nhận diện kỹ thuật | Nghĩa vụ báo cáo cơ quan nhà nước |
 | --- | --- | --- |
@@ -142,15 +139,6 @@ Nhật ký sự cố DL-01 được lưu trữ bảo mật cấp độ cao nhấ
 
 Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15 đặt ra trách nhiệm pháp lý nghiêm ngặt đối với Bên kiểm soát và Bên xử lý dữ liệu. Khi sự cố xảy ra, việc chậm trễ thông báo cơ quan chuyên trách quá thời hạn 72 giờ hoặc không thông báo cho chủ thể dữ liệu có thể dẫn đến mức xử phạt hành chính lên đến 5% tổng doanh thu của năm tài chính trước đó, cùng rủi ro đình chỉ hoạt động xử lý dữ liệu và trách nhiệm bồi thường thiệt hại dân sự. Phiếu DL-01 cung cấp một quy trình ghi nhận chuẩn tắc, kiểm soát chặt chẽ mốc thời gian luật định 72 giờ và lưu vết đầy đủ biện pháp ứng phó.
 
-### 2. Căn cứ quy định và pháp luật liên quan
-
-| Mục | Căn cứ | Nội dung trích dẫn hoặc áp dụng |
-| --- | --- | --- |
-| Quy trình sự cố dữ liệu | [[OBK-SOP-NB-09_Xu_ly_su_co_du_lieu_ca_nhan_noi_bo\|OBK-SOP-NB-09]] | Trình tự 5 bước ứng phó khẩn cấp và trách nhiệm của các vai trò |
-| Cam kết bảo vệ dữ liệu | [[06_Data_Protection_VI\|OBK-TnC-06]] | Cam kết của oBacker đối với dữ liệu cá nhân của khách hàng |
-| Luật Bảo vệ dữ liệu cá nhân | Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15 Điều 23 | Nghĩa vụ thông báo hành vi vi phạm quy định bảo vệ dữ liệu trong vòng 72 giờ |
-| Nghị định chi tiết | Nghị định số 356/2025/NĐ-CP Điều 28 | Mẫu văn bản và nội dung chi tiết của thông báo sự cố vi phạm |
-| An toàn thông tin mạng | Luật An toàn thông tin mạng số 86/2015/QH13 | Quy định về ứng cứu sự cố và bảo vệ thông tin cá nhân trên mạng |
 
 ---
 
@@ -158,4 +146,4 @@ Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15 đặt ra trách nhi�
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu DL-01 về Sổ cái OBK-MSR |

@@ -4,26 +4,20 @@ code: "OBK-HB-35"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.0"
+version: "R.1.1.1"
 status: "đang áp dụng"
-draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 07/09/2026"
+draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
 parent: "OBK-SOP-AM Quản lý khách hàng"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-HB-35
 tags:
   - loai/sop
   - cap/3
-  - nghiep-vu/bao-cao-lao-dong
-  - nghiep-vu/nghia-vu-ke-toan
-  - nghiep-vu/thay-doi-dang-ky-doanh-nghiep
 ---
 # HƯỚNG DẪN 05. VẬN HÀNH HẰNG NGÀY VÀ ĐIỀU PHỐI CHÉO BỘ PHẬN
 
@@ -31,8 +25,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-HB-35 |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.1.0.0, đang áp dụng |
-| Ngày biên soạn | 01/10/2026 |
+| Phiên bản | R.1.1.1, đang áp dụng |
+| Ngày biên soạn | 04/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 07/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -45,9 +39,13 @@ tags:
 
 ## 1. MỤC ĐÍCH
 
-Hướng dẫn này phục vụ bốn Job: `AM-10` tiếp nhận và phân loại yêu cầu, `AM-11` gửi đầu ra cho khách, `AM-25` điều phối vụ việc đi qua nhiều bộ phận, và `AM-26` theo dõi và xử lý bộ phận trễ SLA nội bộ.
+Hướng dẫn này phục vụ sáu Job: `AM-10` tiếp nhận và phân loại yêu cầu, `AM-11` gửi đầu ra cho khách, `AM-12` xác nhận khách đã nhận, `AM-13` cập nhật định kỳ cho khách, `AM-25` điều phối vụ việc đi qua nhiều bộ phận, và `AM-26` theo dõi và xử lý bộ phận trễ SLA nội bộ.
 
-Hướng dẫn này giải ba việc. Một, mọi yêu cầu được phân đúng mức ưu tiên và chuyển đúng bộ phận ngay lần đầu. Hai, vụ việc đi qua nhiều bộ phận có ĐÚNG MỘT người chịu trách nhiệm cuối và ĐÚNG MỘT mốc với khách. Ba, bộ phận trễ hạn nội bộ thì có đường xử lý, thay vì `AM` tự chịu và tự xin lỗi khách.
+Hướng dẫn này đạt ba mục đích.
+
+1. Mọi yêu cầu được phân đúng mức ưu tiên và chuyển đúng bộ phận ngay lần đầu.
+2. Vụ việc đi qua nhiều bộ phận có ĐÚNG MỘT người chịu trách nhiệm cuối và ĐÚNG MỘT mốc với khách.
+3. Bộ phận trễ hạn nội bộ có đường xử lý, không để `AM` tự chịu và tự xin lỗi khách.
 
 ## 2. PHẠM VI ÁP DỤNG
 
@@ -55,17 +53,8 @@ Hướng dẫn này giải ba việc. Một, mọi yêu cầu được phân đ�
 
 Không áp cho yêu cầu của lead; lead đi theo hướng dẫn 01. Không áp cho việc do lịch nghĩa vụ định kỳ sinh ra; việc định kỳ do bộ phận tự tạo Job, `AM` chỉ được thông tin. Không áp cho sự cố mức P1; sự cố đi theo hướng dẫn 06.
 
-## 3. CĂN CỨ PHÁP LÝ
 
-| Mã | Dùng ở bước nào | Vì sao cần |
-| --- | --- | --- |
-| [[CC-LD-121 Báo cáo 06 tháng trước ngày 05 tháng 6; hằng năm trước ngày 05 tháng 12, gửi Sở Nội vụ qua Cổng Dịch vụ công Quốc gia theo Mẫu 01-PLI\|CC-LD-121]] | Bước 2, khi phân mức ưu tiên | Nghĩa vụ báo cáo tình hình sử dụng lao động và hạn của nghĩa vụ đó;<br>dùng để nhận ra yêu cầu có liên quan tới một hạn pháp định |
-| [[CC-KT-03 Nộp báo cáo tài chính năm, 90 ngày kể từ ngày kết thúc kỳ kế toán năm\|CC-KT-03]] | Bước 2, cùng mục đích | Thời hạn nộp báo cáo tài chính năm |
-| [[CC-DN-20 Đăng ký thay đổi nội dung GCN ĐKDN trong 10 NGÀY kể từ ngày có thay đổi\|CC-DN-20]] | Bước 2, cùng mục đích | Hạn đăng ký thay đổi nội dung đăng ký doanh nghiệp;<br>yêu cầu chạm hạn này thường bị phân thấp hơn thực tế |
-
-Ba mức ưu tiên P1, P2, P3 ĐẶT tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 7.3. Quy tắc Job chính và Job phụ ĐẶT tại [[PL_Chuyen_len_cap_tren|OBK-QCTC-02-PL-C]] mục 2a quy tắc 4. Quy tắc ba lớp phân việc pháp lý ĐẶT tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 5.5. Hướng dẫn này chỉ dẫn chiếu.
-
-## 4. VAI TRÒ VÀ TRÁCH NHIỆM
+## 3. VAI TRÒ VÀ TRÁCH NHIỆM
 
 | Việc | `AM` | `CV` bộ phận | `TL` bộ phận | `COO` |
 | --- | --- | --- | --- | --- |
@@ -79,7 +68,7 @@ Ba mức ưu tiên P1, P2, P3 ĐẶT tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_v
 | Gửi đầu ra cho khách | R và A | I | C | I |
 | Xử lý bộ phận trễ SLA nội bộ | R | I | A | C từ lần trễ thứ hai |
 
-## 5. ĐẦU VÀO BẮT BUỘC
+## 4. ĐẦU VÀO BẮT BUỘC
 
 | Đầu vào | Thiếu thì sao |
 | --- | --- |
@@ -88,15 +77,15 @@ Ba mức ưu tiên P1, P2, P3 ĐẶT tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_v
 | Đầu ra đã qua hai lớp kiểm soát chất lượng | Không gửi khách. Xem `KS-AM-03` |
 | Kết luận bộ phận nào sở hữu đầu ra cuối, với vụ việc nhiều bộ phận | Không cam kết mốc với khách. Leo `COO`, xem `KS-AM-09` |
 
-## 6. CÁC BƯỚC THỰC HIỆN
+## 5. CÁC BƯỚC THỰC HIỆN
 
-### 6.1. Bước 1. Xác nhận đã nhận, trong hạn T1
+### 5.1. Bước 1. Xác nhận đã nhận, trong hạn T1
 
 Giống bước 1 của hướng dẫn 01: mở bảng `T1` tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 7.2.3 và đọc theo kênh. Mục này không chép lại con số, theo `PL_3` mục 4.3.
 
 Yêu cầu đến qua kênh liên lạc thì phải đưa vào hệ thống trước khi xử lý, vì đồng hồ chỉ bắt đầu đếm từ khi yêu cầu được ghi nhận trên `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]`.
 
-### 6.2. Bước 2. Phân loại, trong cùng lượt xử lý
+### 5.2. Bước 2. Phân loại, trong cùng lượt xử lý
 
 Bốn câu hỏi, theo thứ tự:
 
@@ -110,7 +99,7 @@ Ba dấu hiệu bắt buộc phân P1: có nguy cơ trễ một hạn pháp đ�
 
 **Câu 4, một bộ phận hay nhiều bộ phận.** Nhiều bộ phận thì sang bước 3 trước khi cam kết bất cứ mốc nào.
 
-### 6.3. Bước 3. Xác định Job chính, trong 04 giờ làm việc
+### 5.3. Bước 3. Xác định Job chính, trong 04 giờ làm việc
 
 Chỉ làm với vụ việc cần từ hai bộ phận trở lên. Ba quy tắc, bản gốc tại [[PL_Chuyen_len_cap_tren|OBK-QCTC-02-PL-C]] mục 2a quy tắc 4:
 
@@ -132,15 +121,15 @@ Ba ví dụ đã có tiền lệ:
 | Khách chuyển nhượng phần vốn góp: rà soát hợp đồng, rồi đăng ký thay đổi | Bộ phận Giấy phép | Đầu ra cuối gửi ra ngoài là Giấy chứng nhận đăng ký doanh nghiệp mới. Bản rà soát hợp đồng là đầu ra trung gian |
 | Khách hỏi cách xử một khoản chi vừa liên quan thuế vừa liên quan hợp đồng | Bộ phận Kế toán và Thuế | Câu trả lời cuối gửi khách là kết luận về nghĩa vụ thuế. Phần hợp đồng là đầu vào |
 
-### 6.4. Bước 4. Cam kết mốc T2 với khách, trong 04 giờ làm việc
+### 5.4. Bước 4. Cam kết mốc T2 với khách, trong 04 giờ làm việc
 
 Nội dung cam kết là một MỐC TRẢ LỜI, không phải câu trả lời. `AM` chỉ cam kết mốc sau khi có xác nhận của `TL` bộ phận trên Job, theo `KS-AM-01`.
 
 Yêu cầu chạm nội dung chưa xác minh được thì nội dung cam kết chỉ được là một mốc hẹn, tuyệt đối không được là câu trả lời nghiệp vụ. Câu chữ mẫu tại `PL_A` mục 12.
 
-### 6.5. Bước 5. Theo dõi, và xử lý bộ phận trễ SLA nội bộ
+### 5.5. Bước 5. Theo dõi, và xử lý bộ phận trễ SLA nội bộ
 
-Hạn của bộ phận với `AM` nằm ở [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 7.4; hạn của Legal R&D nằm ở mục 7.4a. `AM` tra cứu thời hạn quy định tại hai mục này.
+Hạn của bộ phận với `AM` nằm ở OBK-SOP-00 mục 7.4; hạn của Legal R&D nằm ở mục 7.4a. `AM` tra cứu thời hạn quy định tại hai mục này.
 
 Trễ thì chạy `AM-26` theo ba bậc:
 
@@ -150,7 +139,7 @@ Trễ thì chạy `AM-26` theo ba bậc:
 
 Mốc đã hứa với khách bị đe dọa thì chạy `AM-15` và hướng dẫn 06 SONG SONG, không đợi xong việc chuyển lên cấp trên mới báo khách.
 
-### 6.6. Bước 6. Gửi đầu ra cho khách
+### 5.6. Bước 6. Gửi đầu ra cho khách
 
 Ba chốt trước khi gửi, làm theo thứ tự: có dấu vết kiểm soát chất lượng hai lớp; nội dung bàn giao đủ năm phần theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 6.1; và gửi qua KÊNH CHÍNH THỐNG.
 
@@ -158,7 +147,7 @@ Ba chốt trước khi gửi, làm theo thứ tự: có dấu vết kiểm soát
 
 Thiếu chốt nào thì trả lại bộ phận. `AM` có quyền từ chối gửi, và `AM` không tự viết thay phần thiếu, theo `KS-AM-04`.
 
-## 7. ĐIỂM KIỂM SOÁT BẮT BUỘC
+## 6. ĐIỂM KIỂM SOÁT BẮT BUỘC
 
 | Mã | Chốt | Trước bước nào | Không đạt thì làm gì |
 | --- | --- | --- | --- |
@@ -168,7 +157,7 @@ Thiếu chốt nào thì trả lại bộ phận. `AM` có quyền từ chối g
 | `KS-AM-03` | Đầu ra có dấu vết kiểm soát chất lượng hai lớp | Trước bước 6 | Trả lại bộ phận |
 | `KS-AM-04` | Nội dung bàn giao đủ năm phần theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 6.1 | Trước bước 6 | Yêu cầu bộ phận bổ sung. Không tự viết thay |
 
-## 8. LỖI THƯỜNG GẶP VÀ CÁCH XỬ LÝ
+## 7. LỖI THƯỜNG GẶP VÀ CÁCH XỬ LÝ
 
 | Lỗi thường gặp | Dấu hiệu nhận ra | Cách xử lý |
 | --- | --- | --- |
@@ -180,7 +169,7 @@ Thiếu chốt nào thì trả lại bộ phận. `AM` có quyền từ chối g
 | Trả lời khách bằng nội dung chưa đối chiếu bản gốc hoặc chưa xác minh được | Thư gửi khách có kết luận mà Job không có mã căn cứ đã đối chiếu bản gốc | Hành vi oBacker nghiêm cấm điểm 6 tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 9. Câu chuẩn tại `PL_A` mục 12 |
 | Xử lý yêu cầu đến qua chat mà chưa vào hệ thống | Job được tạo sau khi việc đã làm xong | Đồng hồ chỉ đếm từ khi vào hệ thống, nên việc làm trước khi tạo Job là việc không đo được và không truy vết được |
 
-## 9. ĐẦU RA VÀ NƠI LƯU
+## 8. ĐẦU RA VÀ NƠI LƯU
 
 | Đầu ra | Nơi lưu | Giữ bao lâu |
 | --- | --- | --- |
@@ -190,7 +179,7 @@ Thiếu chốt nào thì trả lại bộ phận. `AM` có quyền từ chối g
 | Đầu ra đã gửi khách, kèm năm phần bàn giao | Hộp thư công ty của `AM`, và `[KHO LƯU TRỮ HỒ SƠ]` | Như trên |
 | Bản ghi nhắc và chuyển lên cấp trên khi bộ phận trễ | Job `AM-26` | Như trên |
 
-## 10. CHỈ SỐ THEO DÕI
+## 9. CHỈ SỐ THEO DÕI
 
 | Mã | Chỉ số | Ngưỡng | Đọc ở đâu |
 | --- | --- | --- | --- |
@@ -216,4 +205,4 @@ Thiếu chốt nào thì trả lại bộ phận. `AM` có quyền từ chối g
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.1.1 | Chuyển số đếm liệt kê ở phần mục đích của hướng dẫn vận hành hằng ngày và điều phối thành quy định. |

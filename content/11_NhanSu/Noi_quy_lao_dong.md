@@ -7,24 +7,18 @@ level: "Cấp 1, văn bản KHUNG toàn công ty"
 version: "R.1.0.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 03/09/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-QCTC-02 Quy chế tổ chức và phân quyền"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-NQLD
   - Nội quy lao động
 tags:
   - loai/sop
   - cap/1
-  - nghiep-vu/noi-quy-lao-dong
-  - nghiep-vu/tien-luong
 ---
 # NỘI QUY LAO ĐỘNG
 
@@ -49,19 +43,15 @@ tags:
 
 ---
 
-> [!info] ĐỌC TRƯỚC
+> [!note] NGUYÊN TẮC ÁP DỤNG VÀ THẨM QUYỀN PHÁP LÝ
 > Tài liệu này là bản chép nguyên văn Nội quy lao động đã ký ban hành. Không sửa một chữ nào của phần từ Điều 1 tới Điều 50.
 >
 > Căn cứ pháp luật của từng chương đặt tại mục CĂN CỨ PHÁP LÝ ở cuối tài liệu, không chèn vào thân điều khoản.
 >
 > Khi Nội quy lao động và một tài liệu nội bộ khác quy định khác nhau về cùng một vấn đề thì áp dụng Nội quy lao động. Quy tắc này ghi tại [[00_Bo_tai_lieu_quan_tri_nhan_su|OBK-QCNS-00]] mục 4.
 
-> [!warning] HIỆU LỰC PHỤ THUỘC THỦ TỤC ĐĂNG KÝ
-> Theo Điều 3.1 của chính Nội quy này, khi Công Ty sử dụng từ 10 Người Lao Động trở lên thì Nội quy có hiệu lực sau 15 ngày kể từ ngày cơ quan nhà nước có thẩm quyền nhận được đầy đủ hồ sơ đăng ký.
->
-> Hồ sơ đăng ký phải nộp trong 10 ngày kể từ ngày ban hành, theo [[CC-LD-93 Nộp hồ sơ đăng ký trong 10 NGÀY kể từ ngày ban hành nội quy|CC-LD-93]].
->
-> Kho CHƯA có bằng chứng về ngày cơ quan nhà nước nhận đủ hồ sơ. Ngày hiệu lực thực tế chưa xác định được.
+> [!note] ĐIỀU KIỆN HIỆU LỰC VÀ THỦ TỤC ĐĂNG KÝ
+> Căn cứ Điều 3.1 Nội quy lao động và quy định pháp luật lao động hiện hành, trường hợp công ty sử dụng từ 10 người lao động trở lên, Nội quy lao động có hiệu lực sau 15 ngày kể từ ngày cơ quan chuyên môn về lao động tiếp nhận đầy đủ hồ sơ đăng ký hợp lệ. Hồ sơ đăng ký được nộp trong thời hạn 10 ngày kể từ ngày ban hành theo CC-LD-93.
 
 ---
 
@@ -888,28 +878,6 @@ Tổng giám đốc CÔNG TY CỔ PHẦN OBACKER ban hành Nội Quy Lao Động
 
 %%/MIENTRU:N5%%
 
-## CĂN CỨ PHÁP LÝ
-
-Bảng này KHÔNG thuộc văn bản đã ký. Bảng dẫn tới nguyên văn điều khoản pháp luật mà từng chương của Nội Quy nhắc lại.
-
-| Chương, điều của Nội Quy | Căn cứ pháp luật |
-| --- | --- |
-| Toàn bộ Nội Quy | [[CC-LD-90 Phải ban hành nội quy lao động; từ 10 NLĐ trở lên thì nội quy phải BẰNG VĂN BẢN\|CC-LD-90]], [[CC-LD-201 Nội dung nội quy lao động không được trái pháp luật; chín nhóm nội dung chủ yếu bắt buộc phải có\|CC-LD-201]] |
-| Điều 3.1, hiệu lực | [[CC-LD-92 Từ 10 NLĐ trở lên phải ĐĂNG KÝ nội quy tại cơ quan chuyên môn về lao động thuộc UBND cấp tỉnh nơi đăng ký kinh doanh\|CC-LD-92]], [[CC-LD-93 Nộp hồ sơ đăng ký trong 10 NGÀY kể từ ngày ban hành nội quy\|CC-LD-93]], [[CC-LD-96 Nội quy có hiệu lực sau 15 ngày kể từ ngày cơ quan nhận đủ hồ sơ đăng ký\|CC-LD-96]], [[CC-LD-98 Hồ sơ đăng ký nội quy lao động\|CC-LD-98]] |
-| Điều 5, nghỉ giữa giờ | [[CC-LD-198 Nghỉ giữa giờ ít nhất 30 phút liên tục khi làm từ 06 giờ trở lên trong một ngày; làm ban đêm ít nhất 45 phút\|CC-LD-198]] |
-| Điều 6, nghỉ lễ tết | [[CC-LD-81 Nghỉ lễ tết 11 ngày, Tết Dương lịch 01; Tết Âm lịch 05; 30-4 là 01; 01-5 là 01; Quốc khánh 02; Giỗ Tổ 01\|CC-LD-81]], [[CC-LD-211 Ngày 24 tháng 11 hằng năm là Ngày Văn hóa Việt Nam; người lao động được nghỉ làm việc và hưởng nguyên lương\|CC-LD-211]], [[CC-LD-212 Khi Nghị quyết 28-2026-QH16 và luật hoặc nghị quyết khác của Quốc hội quy định khác nhau về cùng một vấn đề thì áp dụng quy định của Nghị quyết\|CC-LD-212]] |
-| Điều 8, nghỉ việc riêng | [[CC-LD-199 Nghỉ việc riêng hưởng nguyên lương, kết hôn 03 ngày; con kết hôn 01 ngày; cha mẹ, vợ chồng, con chết 03 ngày. Nghỉ không hưởng lương 01 ngày khi ông bà\|CC-LD-199]] |
-| Điều 9, lao động nữ | [[CC-LD-206 Bảo vệ thai sản, cấm bố trí làm ban đêm, làm thêm giờ, đi công tác xa; cấm sa thải vì kết hôn, mang thai, nghỉ thai sản, nuôi con dưới 12 tháng\|CC-LD-206]], [[CC-LD-207 Nghỉ 30 phút mỗi ngày trong thời gian hành kinh, tối thiểu 03 ngày làm việc trong một tháng; nghỉ 60 phút mỗi ngày khi nuôi con dưới 12 tháng\|CC-LD-207]] |
-| Chương VI, quấy rối tình dục | [[CC-LD-208 Định nghĩa quấy rối tình dục tại nơi làm việc, ba dạng hành vi thể chất, lời nói, phi lời nói, và phạm vi nơi làm việc\|CC-LD-208]], [[CC-LD-209 Năm nội dung cơ bản phải có trong quy định của NSDLĐ về phòng chống quấy rối tình dục, và hai nguyên tắc xử lý khiếu nại, tố cáo\|CC-LD-209]], [[CC-LD-210 Nghĩa vụ phòng chống quấy rối tình dục của người sử dụng lao động, của người lao động và của tổ chức đại diện người lao động tại cơ sở\|CC-LD-210]] |
-| Điều 35, nguyên tắc kỷ luật | [[CC-LD-99 Bốn nguyên tắc xử lý kỷ luật\|CC-LD-99]], [[CC-LD-200 Định nghĩa kỷ luật lao động, là quy định về tuân theo thời gian\|CC-LD-200]], [[CC-LD-203 BA HÀNH VI BỊ NGHIÊM CẤM khi xử lý kỷ luật lao động, trong đó khoản 2 cấm PHẠT TIỀN và CẮT LƯƠNG thay việc xử lý kỷ luật lao động\|CC-LD-203]] |
-| Điều 36, hình thức kỷ luật | [[CC-LD-103 Bốn hình thức kỷ luật, khiển trách; kéo dài thời hạn nâng lương không quá 06 tháng; cách chức; sa thải\|CC-LD-103]] |
-| Điều 37, thẩm quyền | [[CC-LD-107 Thẩm quyền xử lý kỷ luật, người có thẩm quyền giao kết HĐLĐ theo khoản 3 Điều 18 BLLĐ hoặc người ghi trong nội quy\|CC-LD-107]] |
-| Điều 41, sa thải | [[CC-LD-202 Bốn trường hợp áp dụng hình thức xử lý kỷ luật sa thải\|CC-LD-202]] |
-| Điều 44, thời hiệu | [[CC-LD-101 Thời hiệu 06 tháng kể từ ngày xảy ra hành vi; 12 tháng nếu liên quan trực tiếp tài chính, tài sản, bí mật công nghệ, bí mật kinh doanh\|CC-LD-101]], [[CC-LD-102 Kéo dài thời hiệu không quá 60 ngày sau khi hết thời gian tại khoản 4 Điều 122\|CC-LD-102]] |
-| Điều 45, trình tự | [[CC-LD-104 Thông báo họp ít nhất 05 NGÀY LÀM VIỆC trước ngày họp, tới đủ thành phần phải tham dự\|CC-LD-104]], [[CC-LD-105 Thành phần vắng mặt hoặc không xác nhận thì vẫn tiến hành họp\|CC-LD-105]], [[CC-LD-106 Nội dung họp phải lập biên bản, thông qua trước khi kết thúc, có chữ ký người tham dự\|CC-LD-106]], [[CC-LD-100 Bốn nhóm thời gian KHÔNG được xử lý kỷ luật\|CC-LD-100]] |
-| Điều 46, tạm đình chỉ | [[CC-LD-108 Tạm đình chỉ công việc\|CC-LD-108]] |
-| Điều 48, trách nhiệm vật chất | [[CC-LD-204 Bồi thường thiệt hại; thiệt hại không nghiêm trọng do sơ suất với giá trị không quá 10 tháng lương tối thiểu vùng thì bồi thường nhiều nhất 03\|CC-LD-204]], [[CC-LD-205 Xử lý bồi thường thiệt hại phải căn cứ vào lỗi, mức độ thiệt hại thực tế và hoàn cảnh thực tế gia đình, nhân thân\|CC-LD-205]] |
-| Điều 50, sửa đổi | [[CC-LD-97 Trước khi ban hành hoặc sửa phải tham khảo ý kiến tổ chức đại diện NLĐ; sau khi ban hành phải thông báo và niêm yết nội dung chính\|CC-LD-97]], [[CC-LD-94 Cơ quan xử lý trong 07 ngày làm việc; nội dung trái luật thì thông báo hướng dẫn sửa và đăng ký lại\|CC-LD-94]] |
 
 ---
 

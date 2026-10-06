@@ -7,22 +7,17 @@ level: "Cấp 3, hướng dẫn nghiệp vụ"
 version: "R.1.0.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 27/09/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-SOP-NB-00 Chuẩn vận hành nội bộ"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-SOP-NB-08
 tags:
   - loai/sop
   - cap/3
-  - nghiep-vu/noi-quy-lao-dong
 ---
 # OBK-SOP-NB-08. Quản lý tài sản và công cụ dụng cụ nội bộ
 
@@ -60,7 +55,7 @@ Quy định thống nhất, minh bạch và tinh gọn toàn bộ vòng đời q
 
 1. Quản lý chặt chẽ số lượng, hiện trạng, giá trị và địa điểm lưu giữ của 100% tài sản và công cụ dụng cụ thuộc quyền sở hữu của oBacker, ngăn ngừa thất thoát, chiếm dụng trái phép.
 2. Thực hiện trích khấu hao tài sản cố định và phân bổ chi phí công cụ dụng cụ chính xác theo Thông tư 99/2025/TT-BTC và chuẩn mực kế toán.
-3. Xác định rõ ràng cơ chế trách nhiệm vật chất và bồi thường thiệt hại khi xảy ra mất mát, hư hỏng tài sản theo đúng quy định tại Điều 129, 130 Bộ luật Lao động và các căn cứ [[CC-LD-204 Bồi thường thiệt hại; thiệt hại không nghiêm trọng do sơ suất với giá trị không quá 10 tháng lương tối thiểu vùng thì bồi thường nhiều nhất 03|CC-LD-204]], [[CC-LD-205 Xử lý bồi thường thiệt hại phải căn cứ vào lỗi, mức độ thiệt hại thực tế và hoàn cảnh thực tế gia đình, nhân thân|CC-LD-205]].
+3. Xác định rõ ràng cơ chế trách nhiệm vật chất và bồi thường thiệt hại khi xảy ra mất mát, hư hỏng tài sản: bồi thường dựa trên lỗi, mức độ thiệt hại thực tế và hoàn cảnh thực tế gia đình, nhân thân, tài sản của người lao động; thiệt hại không nghiêm trọng do sơ suất với giá trị không quá 10 tháng lương tối thiểu vùng thì bồi thường nhiều nhất 03 tháng tiền lương.
 
 ---
 
@@ -73,25 +68,12 @@ Quy định thống nhất, minh bạch và tinh gọn toàn bộ vòng đời q
 - Kiểm kê định kỳ hằng năm (Job `NB-26`) và xử lý bồi thường thiệt hại tài sản.
 
 **Ngoài phạm vi:**
-- Vật tư tiêu hao văn phòng phẩm thông thường (giấy in, bút, kẹp giấy) được hạch toán thẳng vào chi phí kỳ theo [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]];
+- Vật tư tiêu hao văn phòng phẩm thông thường (giấy in, bút, kẹp giấy) được hạch toán thẳng vào chi phí kỳ theo OBK-SOP-NB-01;
 - Tài sản thuộc quyền sở hữu của bên thứ ba hoặc tài sản của khách hàng gửi tại oBacker (nếu có).
 
 ---
 
-## 3. Căn cứ pháp lý
-
-- Luật Doanh nghiệp số 59/2020/QH14 ngày 17/06/2020;
-- Luật Kế toán số 88/2015/QH13 ngày 20/11/2015: Điều 40 (Kiểm kê tài sản);
-- Bộ luật Lao động số 45/2019/QH14 ngày 20/11/2019: Điều 102 (Khấu trừ tiền lương), Điều 129 (Bồi thường thiệt hại), Điều 130 (Xử lý bồi thường thiệt hại);
-- Thông tư số 99/2025/TT-BTC của Bộ Tài chính: quy định hạch toán Tài khoản 211 (Tài sản cố định hữu hình), Tài khoản 214 (Hao mòn tài sản cố định), Tài khoản 242 (Chi phí trả trước - phân bổ CCDC);
-- [[CC-LD-204 Bồi thường thiệt hại; thiệt hại không nghiêm trọng do sơ suất với giá trị không quá 10 tháng lương tối thiểu vùng thì bồi thường nhiều nhất 03|CC-LD-204]] Bồi thường thiệt hại: thiệt hại không nghiêm trọng do sơ suất với giá trị không quá 10 tháng lương tối thiểu vùng thì bồi thường nhiều nhất 03 tháng tiền lương;
-- [[CC-LD-205 Xử lý bồi thường thiệt hại phải căn cứ vào lỗi, mức độ thiệt hại thực tế và hoàn cảnh thực tế gia đình, nhân thân|CC-LD-205]] Căn cứ xử lý bồi thường thiệt hại;
-- [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] Quy chế tài chính nội bộ: Điều 6 (quản lý tài sản), Điều 12 (mua sắm), Điều 44 (kiểm kê tài sản);
-- [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo|OBK-SOP-NB-00]] Chuẩn vận hành nội bộ (Job `NB-26` Kiểm kê tài sản và công nợ).
-
----
-
-## 4. Vai trò và trách nhiệm
+## 3. Vai trò và trách nhiệm
 
 | Vai trò | Trách nhiệm trong quy trình | Giới hạn quyền hạn |
 | --- | --- | --- |
@@ -103,7 +85,7 @@ Quy định thống nhất, minh bạch và tinh gọn toàn bộ vòng đời q
 
 ---
 
-## 5. Đầu vào bắt buộc
+## 4. Đầu vào bắt buộc
 
 1. Hóa đơn tài chính, hợp đồng mua bán và biên bản giao nhận hàng hóa từ nhà cung cấp (chuyển từ quy trình mua sắm [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]]);
 2. Tem nhãn mã định danh tài sản (Asset Tag) in sẵn mã vạch / mã QR;
@@ -113,7 +95,7 @@ Quy định thống nhất, minh bạch và tinh gọn toàn bộ vòng đời q
 
 ---
 
-## 6. Các bước thực hiện
+## 5. Các bước thực hiện
 
 ```
 [Mua sắm & Tiếp nhận] (Theo OBK-SOP-NB-01)
@@ -168,7 +150,7 @@ Sau khi hoàn tất mua sắm theo [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|
    - Thực hiện theo đúng Bước 3 của Quy trình offboarding [[OBK-SOP-NB-06_Nghi_viec_va_offboarding_noi_bo|OBK-SOP-NB-06]];
    - Thu hồi tài sản, kiểm tra linh kiện và ký Biên bản thu hồi tài sản.
 2. **Xử lý bồi thường thiệt hại (khi tài sản bị mất mát, hư hỏng):**
-   - Áp dụng Điều 129, 130 Bộ luật Lao động và căn cứ [[CC-LD-204 Bồi thường thiệt hại; thiệt hại không nghiêm trọng do sơ suất với giá trị không quá 10 tháng lương tối thiểu vùng thì bồi thường nhiều nhất 03|CC-LD-204]], [[CC-LD-205 Xử lý bồi thường thiệt hại phải căn cứ vào lỗi, mức độ thiệt hại thực tế và hoàn cảnh thực tế gia đình, nhân thân|CC-LD-205]];
+    - Bồi thường thiệt hại căn cứ vào lỗi, mức độ thiệt hại thực tế và hoàn cảnh thực tế gia đình, nhân thân, tài sản của người lao động;
    - **Xác định lỗi và mức độ thiệt hại:** Hội đồng kỷ luật hoặc `CEO` xem xét nguyên nhân:
      * *Trường hợp do sơ suất vô ý:* Nếu thiệt hại không nghiêm trọng với giá trị không quá 10 tháng lương tối thiểu vùng, mức bồi thường nhiều nhất là **03 tháng tiền lương** của người lao động; việc bồi thường được khấu trừ dần hằng tháng vào lương nhưng không quá 30% tiền lương thực lĩnh của tháng theo Điều 102 Bộ luật Lao động;
      * *Trường hợp làm mất tài sản, thiết bị hoặc làm hỏng vượt mức quy định:* Bồi thường một phần hoặc toàn bộ giá trị theo giá thị trường hoặc giá trị còn lại trên sổ kế toán theo quy định tại Điều 129 khoản 2 Bộ luật Lao động;
@@ -177,7 +159,7 @@ Sau khi hoàn tất mua sắm theo [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|
 ### Bước 6: Kiểm kê định kỳ hằng năm (Job `NB-26`) và thanh lý tài sản
 
 1. **Kiểm kê định kỳ hằng năm:**
-   - Thực hiện định kỳ vào tháng 12 hằng năm, hoàn thành trước ngày **31/12** theo đúng quy định tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] Điều 44 và Job `NB-26`;
+    - Thực hiện định kỳ vào tháng 12 hằng năm, hoàn thành trước ngày **31/12** theo đúng quy định tại OBK-QCTC-01 Điều 44 và Job `NB-26`;
    - Thành lập Ban kiểm kê gồm: Đại diện Ban Giám đốc (`CEO` hoặc người được ủy quyền), `KTT`, `AD-KT` và Trưởng các bộ phận;
    - Đối chiếu số lượng thực tế với Sổ theo dõi tài sản và sổ kế toán;
    - Lập Biên bản kiểm kê tài sản, xác định nguyên nhân và đề xuất phương án xử lý đối với các khoản thừa, thiếu, hư hỏng, không còn sử dụng được.
@@ -188,20 +170,20 @@ Sau khi hoàn tất mua sắm theo [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|
 
 ---
 
-## 7. Điểm kiểm soát bắt buộc
+## 6. Điểm kiểm soát bắt buộc
 
 | Mã chốt | Điểm kiểm soát | Thời điểm kiểm tra | Người kiểm | Xử lý khi không đạt |
 | --- | --- | --- | --- | --- |
 | `KS-TS-01` | Dán mã định danh tài sản (Asset Tag) trước khi cấp phát | Trước khi giao cho người sử dụng | `AD-KT` | Bắt buộc dán tem mã hóa mới được đưa vào sử dụng |
 | `KS-TS-02` | Biên bản bàn giao tài sản (`BM-BGTS`) đủ chữ ký người sử dụng | Ngay thời điểm giao nhận thiết bị | `AD-KT` | Người sử dụng chưa ký thì chưa được mang thiết bị đi |
 | `KS-TS-03` | Cập nhật sổ theo dõi khi có điều chuyển tài sản | Trong vòng 24 giờ sau điều chuyển | `AD-KT` | Yêu cầu lập biên bản điều chuyển ngay; không cho chuyển miệng |
-| `KS-TS-04` | Xử lý bồi thường thiệt hại đúng khung luật định theo [[CC-LD-204 Bồi thường thiệt hại; thiệt hại không nghiêm trọng do sơ suất với giá trị không quá 10 tháng lương tối thiểu vùng thì bồi thường nhiều nhất 03\|CC-LD-204]] | Khi phát sinh vụ việc mất mát, hư hỏng | `KTT`, `CEO` | Xác định rõ mức độ lỗi và lập biên bản xử lý đúng thẩm quyền |
+| `KS-TS-04` | Xử lý bồi thường thiệt hại đúng khung luật định theo CC-LD-204 | Khi phát sinh vụ việc mất mát, hư hỏng | `KTT`, `CEO` | Xác định rõ mức độ lỗi và lập biên bản xử lý đúng thẩm quyền |
 | `KS-TS-05` | Khấu trừ lương bồi thường không quá 30% tiền lương thực lĩnh | Khi lập bảng lương kỳ | `KTV`, `KTT` | Kiểm soát mức khấu trừ tuân thủ đúng Điều 102 Bộ luật Lao động |
 | `KS-TS-06` | **Kiểm kê tài sản toàn công ty trước ngày 31/12** (Job `NB-26`) | Tháng 12 hằng năm | Ban kiểm kê, `CEO` | Lập biên bản kiểm kê, xử lý triệt để chênh lệch sổ sách và thực tế |
 
 ---
 
-## 8. Lỗi thường gặp và cách xử lý
+## 7. Lỗi thường gặp và cách xử lý
 
 1. **Giao máy tính và thiết bị cho nhân viên sử dụng nhưng không lập Phiếu bàn giao:**
    - *Hậu quả:* Khi nhân viên nghỉ việc hoặc làm mất thiết bị, công ty không có căn cứ pháp lý để yêu cầu hoàn trả hoặc bồi thường thiệt hại;
@@ -218,7 +200,7 @@ Sau khi hoàn tất mua sắm theo [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|
 
 ---
 
-## 9. Đầu ra và nơi lưu
+## 8. Đầu ra và nơi lưu
 
 | Sản phẩm đầu ra | Định dạng | Trách nhiệm lưu trữ | Nơi lưu trữ | Thời hạn lưu trữ |
 | --- | --- | --- | --- | --- |
@@ -231,7 +213,7 @@ Sau khi hoàn tất mua sắm theo [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|
 
 ---
 
-## 10. Chỉ số theo dõi
+## 9. Chỉ số theo dõi
 
 | Mã chỉ số | Tên chỉ số | Cách đo lường | Mục tiêu | Tần suất | Người theo dõi |
 | --- | --- | --- | --- | --- | --- |

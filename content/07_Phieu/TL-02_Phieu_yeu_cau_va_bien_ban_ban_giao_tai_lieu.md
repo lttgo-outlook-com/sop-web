@@ -4,19 +4,15 @@ code: "TL-02"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-TTT-05 Cách làm phiếu thao tác"
-law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - TL-02
 tags:
@@ -29,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | TL-02 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -40,6 +36,7 @@ tags:
 | **Ai dùng** | `AM`, `KTV`, `CV-LIC`, `CV-LS`, Khách hàng và Đối tác cung ứng |
 | **Sinh từ** | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 8;<br>[[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] Job `AM-04`, `AM-13` |
 | **Ngày làm phiếu** | 27/09/2026 |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
@@ -94,7 +91,7 @@ Nhằm bảo đảm tiến độ thực hiện dịch vụ không bị gián đo
 
 ## QUY TRÌNH LUÂN CHUYỂN VÀ LƯU TRỮ
 
-Biên bản được lập thành 02 bản chính có giá trị pháp lý như nhau: 01 bản giao khách hàng lưu giữ, 01 bản oBacker lưu hồ sơ quản lý dịch vụ khách hàng do `AM` lưu trữ và đối soát với Sổ giao nhận [[TL-01_So_giao_nhan_tai_lieu_va_buu_pham|TL-01]].
+Biên bản được lập thành 02 bản chính có giá trị pháp lý như nhau: 01 bản giao khách hàng lưu giữ, 01 bản oBacker lưu hồ sơ quản lý dịch vụ khách hàng do `AM` lưu trữ và đối soát với Sổ giao nhận TL-01.
 
 ## KÝ XÁC NHẬN
 
@@ -110,12 +107,6 @@ Biên bản được lập thành 02 bản chính có giá trị pháp lý như 
 
 Bảo vệ quyền lợi của oBacker trước các khiếu nại về trễ hạn dịch vụ khi nguyên nhân do khách hàng chậm cung cấp hồ sơ; bảo đảm tính minh bạch và an toàn tuyệt đối khi giao nhận các tài sản, chứng từ gốc có giá trị pháp lý cao.
 
-### 2. Căn cứ quy định và pháp luật liên quan
-
-| Mục | Nguồn | Nội dung |
-| --- | --- | --- |
-| Điểm dừng SLA | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 8 | Tạm dừng tính thời gian thực hiện khi khách hàng chậm nộp tài liệu |
-| Bàn giao kết quả | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] Job `AM-04` | Ký biên bản bàn giao khi chuyển giao giấy tờ gốc và kết quả dịch vụ |
 
 ---
 
@@ -123,4 +114,4 @@ Bảo vệ quyền lợi của oBacker trước các khiếu nại về trễ h�
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu TL-02 về Sổ cái OBK-MSR |

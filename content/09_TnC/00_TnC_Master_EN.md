@@ -2,7 +2,7 @@
 title: "MASTER TERMS & CONDITIONS OF SERVICE (MASTER T&C)"
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.1.1"
+version: "R.2.1.0"
 status: "đang áp dụng"
 language: "en"
 distribution: "Khách hàng"
@@ -19,7 +19,7 @@ Head office: Floor 2, 06 Tran Phu Street, Hai Chau Ward, Da Nang, Vietnam
 HCMC office: 15 Hoang Ke Viem, Bay Hien Ward, Ho Chi Minh City, Vietnam
 Da Nang office: No. 54 Khue My Dong 7 Street, Ngu Hanh Son Ward, Da Nang, Vietnam
 
-**Version:** R.1.1.0 (VI-EN) · **Updated:** 27 September 2026
+**Version:** R.2.1.0 (VI-EN) · **Updated:** 02/10/2026
 
 ---
 
@@ -253,7 +253,7 @@ Accounting & Tax Services are governed in detail by **PL-KT**. In summary:
 - **Corporate tax:** filing and paying VAT, provisional payment and finalisation of CIT, **filing Foreign Contractor Tax (FCT) when it arises**; monitoring and notifying tax obligations.
 - **E-invoices:** setting up and activating the e-invoice system under Decree No. 254/2026/ND-CP and Circular No. 91/2026/TT-BTC.
 
-**Foreign Contractor Tax (FCT) filing:** FCT filing when the Client pays a foreign supplier (SaaS, advertising, hosting, royalties, etc.) is **included in all periodic partner retainer packages, including Partner Core, with a quota of up to 03 cross-border contracts per month**. From the 4th contract onward within the same month, an additional filing fee applies under the master service catalog (SKU `ADD-FCT-RETURN`). The Client must notify oBacker immediately through the assigned Account Manager or via email at contact@obacker.com when such a transaction arises, attaching the invoice/receipt, payment documents, and a service description. Legal basis for FCT: **Circular No. 69/2025/TT-BTC** Article 9 (value-added tax) and **Circular No. 20/2026/TT-BTC** Article 7 (corporate income tax).
+**Foreign Contractor Tax (FCT) filing:** FCT filing when the Client pays a foreign supplier (SaaS, advertising, hosting, royalties, etc.) is **included in all periodic partner retainer packages, with a quota by package: Partner Core up to 01 cross-border contract per month; Partner Growth and Partner Prime up to 03 contracts per month**. From the contract exceeding the package quota within the same month, an additional filing fee applies under the master service catalog (SKU `ADD-FCT-RETURN-2026`). The Client must notify oBacker immediately through the assigned Account Manager or via email at contact@obacker.com when such a transaction arises, attaching the invoice/receipt, payment documents, and a service description. Legal basis for FCT: **Circular No. 69/2025/TT-BTC** Article 9 (value-added tax) and **Circular No. 20/2026/TT-BTC** Article 7 (corporate income tax).
 
 **Statutory Audit Independence and FDI Enterprises:** Pursuant to Article 15 of Decree No. 17/2012/ND-CP and Circular No. 186/2010/TT-BTC, 100% of foreign-invested enterprises (FDI) are legally required to undergo statutory annual audits of their Financial Statements to remit profits abroad. oBacker maintains bookkeeping under Circular 99/2025/TT-BTC for all FDI clients, operating independently from statutory audit firms and not collecting audit fees. The Client directly contracts and pays the independent audit firm; oBacker provides accounting working papers, trial balances, and audit liaison support.
 
@@ -291,7 +291,8 @@ Legal Services are governed in detail by **PL-PL**, provided by advisory hours/p
 - **One contract of up to 10 pages** (equivalent to about 3,000-4,000 words)
 - A basic legal-risk check, flagging unfavourable clauses
 - One review round + one feedback round; processing time of 03 Business Days.
-- **If the contract exceeds 10 pages**, the system counts it as **two reviews**, or it moves to advisory as an Add-on service depending on complexity (quoted before performance).
+- **If the contract runs from 11 to 20 pages**, the system counts it as **two reviews**.
+- **If the contract exceeds 20 pages**, a surcharge of VND 100,000 per page applies from page 21, or it moves to advisory as an Add-on service depending on complexity (quoted before performance).
 
 The output of a review is a **review report**, not a revised contract (revising/redrafting is a separate service). The advisory/review quota under a package **does not carry over** to the next period.
 
@@ -312,7 +313,7 @@ After onboarding, coordination settles into a fixed monthly rhythm. Recurring no
 
 These are two reconciliations for **the same amount for the same period**, not two separate payments. The Client pays the amount in the email, not the figure on form C12 if the two differ (due to the lag in the social insurance system).
 
-**20.2. Seven Operational Boundary Principles:** To safeguard legal compliance and mitigate risk, both Parties observe seven operational boundaries: (1) No physical USB Token custody at oBacker offices exceeding 24 working hours; (2) Absolute prohibition of tax, insurance, or penalty payments via personal employee bank accounts; (3) Client bears 100% legal responsibility for the validity and actual occurrence of all input invoices; (4) oBacker maintains the right to refuse bookkeeping of undocumented, non-commercial, or high-tax-risk expenses; (5) No appointed legal Chief Accountant unless contracted under a separate statutory appointment engagement; (6) 04-working-hour advisory response SLA; (7) Strict financial and operational data confidentiality governed by standard Non-Disclosure Agreement (NDA).
+**20.2. Seven Operational Boundary Principles:** To safeguard legal compliance and mitigate risk, both Parties observe seven operational boundaries: (1) No physical USB Token custody at oBacker offices exceeding 24 working hours; (2) Absolute prohibition of tax, insurance, or penalty payments via personal employee bank accounts; (3) Client bears 100% legal responsibility for the validity and actual occurrence of all input invoices; (4) oBacker maintains the right to refuse bookkeeping of undocumented, non-commercial, or high-tax-risk expenses; (5) No appointed legal Chief Accountant unless contracted under a separate statutory appointment engagement; (6) SLA: acknowledgement of an advisory inquiry within 04 business hours, with the substantive advisory reply within 24 to 48 business hours; (7) Strict financial and operational data confidentiality governed by standard Non-Disclosure Agreement (NDA).
 
 ## Article 21. Termination and Handover
 
@@ -344,4 +345,4 @@ When oBacker processes the data of the Client's employees/shareholders under the
 
 | Date | Version | Description |
 | --- | --- | --- |
-| 01/10/2026 | R.1.1.1 | Wording: 'hard ceiling of 1,500 transactions' reworded to 'maximum of 1,500 transactions' (Article 15); Q4 commitment mechanism reworded (Article 16) |
+| 02/10/2026 | R.2.1.0 | Excess FCT filing surcharge code updated to `ADD-FCT-RETURN-2026` |

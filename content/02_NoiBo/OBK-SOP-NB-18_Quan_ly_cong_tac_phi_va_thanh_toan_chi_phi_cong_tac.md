@@ -4,25 +4,20 @@ code: "OBK-SOP-NB-18"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.0"
+version: "R.1.0.1"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 27/09/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-SOP-NB-00 Chuẩn vận hành nội bộ"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-SOP-NB-18
 tags:
   - loai/sop
   - cap/3
-  - nghiep-vu/quy-che-tai-chinh
 ---
 # OBK-SOP-NB-18. Quản lý công tác phí và thanh toán chi phí công tác
 
@@ -33,7 +28,7 @@ tags:
 | Mã tài liệu | OBK-SOP-NB-18 |
 | Tên tài liệu | Quy trình quản lý công tác phí và thanh toán chi phí công tác |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ. Thi hành Điều 19 và Điều 21 của [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Quy chế tài chính nội bộ |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.0.1, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 27/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -51,8 +46,8 @@ tags:
 
 > [!danger] NGUYÊN TẮC BẮT BUỘC ĐỂ ĐƯỢC TÍNH CHI PHÍ ĐƯỢC TRỪ VÀ MIỄN THUẾ TNCN
 > 1. **Quyết định cử đi công tác phải ký trước chuyến đi:** Mọi chuyến công tác bắt buộc phải có Quyết định cử đi công tác hoặc Giấy điều động do `CEO` ký ban hành trước ngày khởi hành. Thiếu quyết định này, toàn bộ chi phí chuyến đi bị loại khỏi chi phí được trừ khi xác định thuế thu nhập doanh nghiệp theo quy định tại `[Văn bản hợp nhất 19/VBHN-BTC Đ.10 k.8 đ.h]`.
-> 2. **Ngưỡng 05 triệu đồng và cơ chế chi hộ:** Mọi khoản chi công tác từng lần từ 05 triệu đồng trở lên (đã gồm thuế giá trị gia tăng) do người lao động thanh toán hộ bắt buộc phải thực hiện bằng phương thức thanh toán không dùng tiền mặt (thẻ tín dụng, chuyển khoản ngân hàng từ tài khoản cá nhân của người lao động) và sau đó oBacker thanh toán hoàn trả lại cho người lao động bằng chuyển khoản ngân hàng theo đúng cơ chế ủy quyền tại Điều 19 [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]]. Người lao động thanh toán bằng tiền mặt cho hóa đơn từ 05 triệu đồng trở lên sẽ mất hoàn toàn quyền tính vào chi phí được trừ thuế TNDN và mất quyền khấu trừ thuế GTGT đầu vào.
-> 3. **Giấy đi đường và xác nhận nơi đến:** Giấy đi đường theo biểu mẫu [[CT-01_Giay_di_duong_va_quyet_toan_cong_tac_phi|CT-01]] bắt buộc phải có chữ ký và con dấu xác nhận của đơn vị, cơ quan, doanh nghiệp nơi đến công tác (hoặc tài liệu chứng minh địa điểm đến công tác).
+> 2. **Ngưỡng 05 triệu đồng và cơ chế chi hộ:** Mọi khoản chi công tác từng lần từ 05 triệu đồng trở lên (đã gồm thuế giá trị gia tăng) do người lao động thanh toán hộ bắt buộc phải thực hiện bằng phương thức thanh toán không dùng tiền mặt (thẻ tín dụng, chuyển khoản ngân hàng từ tài khoản cá nhân của người lao động) và sau đó oBacker thanh toán hoàn trả lại cho người lao động bằng chuyển khoản ngân hàng theo đúng cơ chế ủy quyền tại Điều 19 OBK-QCTC-01. Người lao động thanh toán bằng tiền mặt cho hóa đơn từ 05 triệu đồng trở lên sẽ mất hoàn toàn quyền tính vào chi phí được trừ thuế TNDN và mất quyền khấu trừ thuế GTGT đầu vào.
+> 3. **Giấy đi đường và xác nhận nơi đến:** Giấy đi đường theo biểu mẫu CT-01 bắt buộc phải có chữ ký và con dấu xác nhận của đơn vị, cơ quan, doanh nghiệp nơi đến công tác (hoặc tài liệu chứng minh địa điểm đến công tác).
 > 4. **Thời hạn quyết toán 05 ngày làm việc:** Người lao động đi công tác có trách nhiệm nộp đầy đủ hồ sơ quyết toán công tác phí trong thời hạn 05 ngày làm việc kể từ ngày kết thúc chuyến công tác và trở về trụ sở làm việc.
 
 ---
@@ -61,9 +56,9 @@ tags:
 
 1.1. Chuẩn hóa trình tự lập kế hoạch, phê duyệt, tạm ứng, thực hiện và thanh quyết toán các khoản công tác phí, tiền vé phương tiện đi lại, tiền thuê phòng lưu trú và phụ cấp lưu trú cho cán bộ, nhân viên oBacker.
 
-1.2. Bảo đảm mọi khoản chi phí công tác phát sinh đều phục vụ trực tiếp cho hoạt động sản xuất kinh doanh của oBacker, tuân thủ đúng thẩm quyền phê duyệt: Trưởng bộ phận `TL` đề xuất kế hoạch, Giám đốc vận hành `COO` phê duyệt chuyên môn, Tổng giám đốc `CEO` phê duyệt ngân sách và ký quyết định cử đi công tác.
+1.2. Bảo đảm mọi khoản chi phí công tác phát sinh đều phục vụ trực tiếp cho hoạt động sản xuất kinh doanh của oBacker; tuân thủ đúng thẩm quyền phê duyệt: Trưởng bộ phận `TL` đề xuất kế hoạch, Giám đốc vận hành `COO` phê duyệt chuyên môn, Tổng giám đốc `CEO` phê duyệt ngân sách và ký quyết định cử đi công tác.
 
-1.3. Bảo đảm 100% hồ sơ công tác phí đáp ứng đầy đủ điều kiện pháp lý để được tính vào chi phí được trừ khi xác định thu nhập chịu thuế thu nhập doanh nghiệp (thuế TNDN) theo `[Văn bản hợp nhất 19/VBHN-BTC Đ.10 k.8 đ.h]` và được miễn thuế thu nhập cá nhân (thuế TNCN) theo `[Nghị định 253/2026/NĐ-CP Đ.8 k.2 đ.đ]`.
+1.3. Bảo đảm 100% hồ sơ công tác phí đáp ứng đầy đủ điều kiện pháp lý để được tính vào chi phí được trừ khi xác định thu nhập chịu thuế thu nhập doanh nghiệp (thuế TNDN) theo `[Văn bản hợp nhất 19/VBHN-BTC Đ.10 k.8 đ.h]`; và được miễn thuế thu nhập cá nhân (thuế TNCN) theo `[Nghị định 253/2026/NĐ-CP Đ.8 k.2 đ.đ]`.
 
 1.4. Thiết lập định mức chi phí rõ ràng, kiểm soát chặt chẽ ngân sách, gắn kết trực tiếp với Sổ theo dõi tạm ứng và hoàn ứng [[TU-01_So_theo_doi_tam_ung_va_hoan_ung|TU-01]], chống thất thoát và lãng phí tài chính.
 
@@ -75,7 +70,7 @@ tags:
 - Toàn bộ hoạt động đi công tác trong nước của người lao động làm việc theo Hợp đồng lao động tại oBacker (bao gồm cả nhân sự thử việc và cán bộ quản lý);
 - Công tác nội tỉnh ngoài phạm vi trụ sở làm việc trên 30 km (tính từ địa chỉ trụ sở văn phòng Đà Nẵng hoặc văn phòng Thành phố Hồ Chí Minh);
 - Công tác liên tỉnh giữa Đà Nẵng, Thành phố Hồ Chí Minh, Hà Nội và các tỉnh, thành phố khác trên lãnh thổ Việt Nam;
-- Toàn bộ các khoản chi phí liên quan đến chuyến công tác gồm: phụ cấp lưu trú khoán, tiền thuê chỗ ở lưu trú (khách sạn, nhà nghỉ), tiền vé và chi phí phương tiện đi lại (máy bay, tàu hỏa, xe khách, taxi, xe công nghệ), chi phí tiếp khách phục vụ công tác (theo phê duyệt riêng).
+- Toàn bộ các khoản chi phí liên quan đến chuyến công tác gồm: phụ cấp lưu trú khoán, tiền thuê chỗ ở lưu trú (khách sạn, nhà nghỉ); tiền vé và chi phí phương tiện đi lại (máy bay, tàu hỏa, xe khách, taxi, xe công nghệ); chi phí tiếp khách phục vụ công tác (theo phê duyệt riêng).
 
 2.2. **Ngoài phạm vi:**
 - Hoạt động đi lại nội thành hằng ngày trong phạm vi dưới hoặc bằng 30 km từ trụ sở làm việc (áp dụng chính sách khoán đi lại thông thường hoặc phụ cấp xăng xe nếu có quy định riêng);
@@ -84,26 +79,7 @@ tags:
 
 ---
 
-## 3. Căn cứ pháp lý
-
-| Nội dung quy định | Văn bản pháp luật áp dụng | Điều khoản cụ thể |
-| --- | --- | --- |
-| Các khoản chi được trừ và không được trừ khi tính thuế TNDN | Luật Thuế thu nhập doanh nghiệp 113/VBHN-VPQH | Điều 9 |
-| Điều kiện tính vào chi phí được trừ đối với công tác phí, tiền thuê chỗ ở, tiền vé phương tiện đi lại; cơ chế cá nhân thanh toán không dùng tiền mặt từ 05 triệu đồng trở lên; chế độ khoán theo quy chế tài chính | Văn bản hợp nhất 19/VBHN-BTC ngày 04/06/2026 | Điều 10 khoản 8 điểm h (`CC-KT-35`) |
-| Miễn thuế TNCN đối với phần khoán chi công tác phí theo quy chế tài chính của doanh nghiệp | Nghị định 253/2026/NĐ-CP ngày 29/06/2026 | Điều 8 khoản 2 điểm đ (`CC-KT-36`) |
-| Khấu trừ thuế GTGT đầu vào đối với hóa đơn từ 05 triệu đồng trở lên do người lao động thanh toán bằng phương thức không dùng tiền mặt và công ty chuyển khoản hoàn trả | Văn bản hợp nhất 18/VBHN-BTC ngày 04/06/2026 | Điều 26 khoản 2 điểm i |
-| Quy định lập, kiểm tra và ký chứng từ kế toán chi tiền | Luật Kế toán 41/VBHN-VPQH | Điều 19 |
-| Chế độ kế toán doanh nghiệp, hạch toán tạm ứng và chi phí công tác | Thông tư 99/2025/TT-BTC | Tài khoản 141, Tài khoản 642 |
-
-**Căn cứ nội bộ:**
-- [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] Điều 19 (Ủy quyền cho người lao động thanh toán và chi hộ), Điều 21 (Bảng định mức chi tiêu ĐM-01 tới ĐM-05), Điều 36 tới Điều 39 (Tạm ứng và hoàn ứng);
-- [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo|OBK-SOP-NB-00]] Chuẩn vận hành nội bộ;
-- Sổ theo dõi tạm ứng và hoàn ứng [[TU-01_So_theo_doi_tam_ung_va_hoan_ung|TU-01]];
-- Biểu mẫu Giấy đi đường và quyết toán công tác phí [[CT-01_Giay_di_duong_va_quyet_toan_cong_tac_phi|CT-01]].
-
----
-
-## 4. Vai trò và trách nhiệm
+## 3. Vai trò và trách nhiệm
 
 | Vai trò | Trách nhiệm trong quy trình công tác phí | Hành vi không được thực hiện |
 | --- | --- | --- |
@@ -117,7 +93,7 @@ tags:
 
 ---
 
-## 5. Đầu vào bắt buộc
+## 4. Đầu vào bắt buộc
 
 | # | Đầu vào bắt buộc | Nguồn phát sinh / Người lập | Thời điểm phải có | Hậu quả nếu thiếu |
 | --- | --- | --- | --- | --- |
@@ -132,9 +108,9 @@ tags:
 
 ---
 
-## 6. Các bước thực hiện
+## 5. Các bước thực hiện
 
-### 6.1. Bảng định mức chi phí công tác chuẩn hóa tại oBacker
+### 5.1. Bảng định mức chi phí công tác chuẩn hóa tại oBacker
 
 Mọi khoản thanh toán công tác phí tại oBacker tuân thủ bảng định mức chi tiết dưới đây (cụ thể hóa Điều 21 [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]]):
 
@@ -152,7 +128,7 @@ Mọi khoản thanh toán công tác phí tại oBacker tuân thủ bảng đị
 
 ---
 
-### 6.2. Trình tự 06 bước thực hiện quản lý và thanh quyết toán công tác phí
+### 5.2. Trình tự 06 bước thực hiện quản lý và thanh quyết toán công tác phí
 
 ```
 [Bước 1: Lập kế hoạch & dự toán]
@@ -176,7 +152,7 @@ Mọi khoản thanh toán công tác phí tại oBacker tuân thủ bảng đị
 
 ---
 
-### 6.3. Chi tiết từng bước thực hiện
+### 5.3. Chi tiết từng bước thực hiện
 
 #### Bước 1: Đề xuất kế hoạch công tác và dự toán chi phí
 
@@ -186,7 +162,7 @@ Mọi khoản thanh toán công tác phí tại oBacker tuân thủ bảng đị
   * Địa điểm công tác, danh sách đơn vị/khách hàng làm việc;
   * Thời gian và lịch trình dự kiến (ngày đi, ngày về);
   * Danh sách nhân sự tham gia;
-  * Bảng dự toán kinh phí chi tiết: phân tách tiền vé phương tiện, tiền thuê khách sạn, phụ cấp lưu trú khoán và chi phí di chuyển nội thành căn cứ theo bảng định mức tại mục 6.1.
+  * Bảng dự toán kinh phí chi tiết: phân tách tiền vé phương tiện, tiền thuê khách sạn, phụ cấp lưu trú khoán và chi phí di chuyển nội thành căn cứ theo bảng định mức tại mục 5.1.
 - Thời hạn gửi: Chậm nhất trước 03 ngày làm việc so với ngày khởi hành dự kiến (trường hợp khẩn cấp đột xuất phải gửi trước tối thiểu 24 giờ).
 
 #### Bước 2: Phê duyệt kế hoạch chuyên môn và ban hành Quyết định cử đi công tác
@@ -201,8 +177,8 @@ Mọi khoản thanh toán công tác phí tại oBacker tuân thủ bảng đị
 
 - Căn cứ Quyết định cử đi công tác và dự toán đã được `CEO` duyệt, nếu `NLĐ` có nhu cầu tạm ứng tiền để mua vé máy bay, đặt phòng khách sạn và chi tiêu:
   * `NLĐ` lập Giấy đề nghị tạm ứng theo mẫu quy định;
-  * Mức tạm ứng tối đa bằng 100% dự toán chi phí đã được `CEO` phê duyệt, giới hạn tối đa 10.000.000 đồng theo định mức ĐM-19 [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]]. Trường hợp vượt 10.000.000 đồng bắt buộc phải có văn bản chấp thuận riêng của `CEO`;
-  * Điều kiện chặn: `NLĐ` không có quá 02 khoản tạm ứng đang tồn đọng chưa quyết toán và không có khoản tạm ứng nào quá hạn theo quy định tại Sổ theo dõi tạm ứng [[TU-01_So_theo_doi_tam_ung_va_hoan_ung|TU-01]];
+   * Mức tạm ứng tối đa bằng 100% dự toán chi phí đã được `CEO` phê duyệt, giới hạn tối đa 10.000.000 đồng theo định mức ĐM-19 OBK-QCTC-01. Trường hợp vượt 10.000.000 đồng bắt buộc phải có văn bản chấp thuận riêng của `CEO`;
+   * Điều kiện chặn: `NLĐ` không có quá 02 khoản tạm ứng đang tồn đọng chưa quyết toán và không có khoản tạm ứng nào quá hạn theo quy định tại Sổ theo dõi tạm ứng TU-01;
   * `KTV` lập lệnh chuyển khoản; tiền tạm ứng được chuyển vào tài khoản ngân hàng chính chủ của `NLĐ`. `KTV` cấp mã định danh `OBK-TU-[Năm]-[Số]` và ghi nhận vào sổ `TU-01`.
 
 #### Bước 4: Thực hiện chuyến công tác và thu thập chứng từ hợp pháp
@@ -212,7 +188,7 @@ Mọi khoản thanh toán công tác phí tại oBacker tuân thủ bảng đị
   * **Hóa đơn khách sạn:** Yêu cầu bên cung cấp xuất hóa đơn giá trị gia tăng điện tử mang đầy đủ thông tin: Tên công ty: Công ty Cổ phần oBacker; Mã số thuế và địa chỉ đăng ký kinh doanh chính xác của oBacker;
   * **Vé máy bay, tàu hỏa:** Giữ lại vé điện tử, hóa đơn vé và toàn bộ cuống vé hoặc thẻ lên máy bay (`boarding pass`);
   * **Chi phí di chuyển nội thành:** Lấy hóa đơn điện tử hoặc biên lai cước taxi, phiếu đặt chuyến xe công nghệ có thông tin người dùng và lộ trình rõ ràng;
-  * **Thanh toán không dùng tiền mặt:** Đối với bất kỳ khoản chi từng lần nào từ 05 triệu đồng trở lên (đã bao gồm thuế GTGT), `NLĐ` bắt buộc phải thanh toán bằng hình thức không dùng tiền mặt (thẻ ngân hàng, quét mã VietQR, chuyển khoản từ tài khoản cá nhân của người lao động) và lưu lại ảnh chụp sao kê hoặc biên lai giao dịch thành công theo đúng Điều 19 [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]].
+   * **Thanh toán không dùng tiền mặt:** Đối với bất kỳ khoản chi từng lần nào từ 05 triệu đồng trở lên (đã bao gồm thuế GTGT); `NLĐ` bắt buộc phải thanh toán bằng hình thức không dùng tiền mặt (thẻ ngân hàng, quét mã VietQR, chuyển khoản từ tài khoản cá nhân của người lao động) và lưu lại ảnh chụp sao kê hoặc biên lai giao dịch thành công theo đúng Điều 19 OBK-QCTC-01.
 
 #### Bước 5: Lập hồ sơ thanh quyết toán công tác phí
 
@@ -233,14 +209,14 @@ Mọi khoản thanh toán công tác phí tại oBacker tuân thủ bảng đị
   * Kiểm tra việc tuân thủ định mức chi phí; loại bỏ các khoản chi vượt định mức chưa được phê duyệt hoặc các khoản chi tiêu cá nhân không phục vụ công việc;
   * Tính toán số chênh lệch: Số tiền thực tế được duyệt trừ đi số tiền đã nhận tạm ứng;
   * `KTT` soát xét hồ sơ và ký xác nhận đề xuất thanh toán/hoàn ứng.
-- **Phê duyệt của `CEO` (01 ngày làm việc):** `CEO` xem xét và ký duyệt hồ sơ quyết toán trên biểu mẫu [[CT-01_Giay_di_duong_va_quyet_toan_cong_tac_phi|CT-01]].
+- **Phê duyệt của `CEO` (01 ngày làm việc):** `CEO` xem xét và ký duyệt hồ sơ quyết toán trên biểu mẫu CT-01.
 - **Tất toán tài chính (02 ngày làm việc):**
   * *Trường hợp số tiền tạm ứng lớn hơn chi phí thực tế được duyệt:* `NLĐ` nộp hoàn trả lại số tiền thừa vào tài khoản ngân hàng của oBacker hoặc nộp tiền mặt tại quỹ (đối với số tiền dưới 05 triệu đồng) trong thời hạn 02 ngày làm việc. `KTV` lập phiếu thu hoặc đối chiếu sao kê báo Có, cập nhật đóng mã tạm ứng trên Sổ `TU-01`;
   * *Trường hợp chi phí thực tế được duyệt lớn hơn số tiền tạm ứng:* oBacker thanh toán bổ sung cho `NLĐ` bằng chuyển khoản vào tài khoản ngân hàng chính chủ của `NLĐ` (hoặc chi tiền mặt nếu dưới 05 triệu đồng). `KTV` cập nhật đóng mã tạm ứng trên Sổ `TU-01`.
 
 ---
 
-## 7. Điểm kiểm soát bắt buộc
+## 6. Điểm kiểm soát bắt buộc
 
 | Mã chốt | Điểm kiểm soát | Thời điểm kiểm tra | Người kiểm tra | Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | --- | --- | --- | --- | --- | --- |
@@ -248,12 +224,12 @@ Mọi khoản thanh toán công tác phí tại oBacker tuân thủ bảng đị
 | `KS-CT-02` | Giấy đi đường [[CT-01_Giay_di_duong_va_quyet_toan_cong_tac_phi\|CT-01]] có đủ chữ ký, con dấu xác nhận ngày đến, ngày đi của cơ quan nơi đến | Khi tiếp nhận hồ sơ quyết toán | `KTV` | `KTT` | Yêu cầu `NLĐ` giải trình và bổ sung biên bản làm việc, hình ảnh, thư xác nhận công tác hợp lệ; không giải trình được thì loại tiền phụ cấp lưu trú |
 | `KS-CT-03` | Ràng buộc thanh toán không dùng tiền mặt cho các khoản từ 05 triệu đồng trở lên theo Điều 19 [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] | Khi thẩm định hóa đơn | `KTV` | `KTT` | Từ chối thanh toán và loại khỏi chi phí công tác nếu người lao động trả tiền mặt cho hóa đơn từ 05 triệu đồng trở lên |
 | `KS-CT-04` | Hóa đơn GTGT ghi chính xác tên, MST, địa chỉ oBacker | Khi thẩm định hóa đơn | `KTV` | `KTT` | Yêu cầu nhà cung cấp xuất hóa đơn điều chỉnh hoặc thay thế theo quy định hóa đơn điện tử; không có hóa đơn hợp lệ thì không thanh toán |
-| `KS-CT-05` | Tuân thủ định mức tiền phòng khách sạn và phụ cấp lưu trú | Khi đối soát bảng kê | `KTV` | `KTT` | Cắt giảm phần chi vượt định mức; chỉ thanh toán tối đa theo định mức quy định tại mục 6.1 trừ khi có phê duyệt riêng của `CEO` |
+| `KS-CT-05` | Tuân thủ định mức tiền phòng khách sạn và phụ cấp lưu trú | Khi đối soát bảng kê | `KTV` | `KTT` | Cắt giảm phần chi vượt định mức; chỉ thanh toán tối đa theo định mức quy định tại mục 5.1 trừ khi có phê duyệt riêng của `CEO` |
 | `KS-CT-06` | Tuân thủ thời hạn nộp quyết toán trong 05 ngày làm việc và chặn tạm ứng mới | Ngày thứ 06 sau chuyến đi | `KTV` | `KTT`, `COO` | Khóa quyền tạm ứng mới trên sổ [[TU-01_So_theo_doi_tam_ung_va_hoan_ung\|TU-01]]; gửi thông báo nhắc lần 1; quá 10 ngày làm việc khấu trừ trực tiếp vào lương tháng |
 
 ---
 
-## 8. Lỗi thường gặp và cách xử lý
+## 7. Lỗi thường gặp và cách xử lý
 
 | # | Lỗi thường gặp | Hậu quả pháp lý và vận hành | Cách xử lý chuẩn hóa |
 | --- | --- | --- | --- |
@@ -268,7 +244,7 @@ Mọi khoản thanh toán công tác phí tại oBacker tuân thủ bảng đị
 
 ---
 
-## 9. Đầu ra và nơi lưu
+## 8. Đầu ra và nơi lưu
 
 | Đầu ra nghiệp vụ | Người chịu trách nhiệm lập | Tần suất phát sinh | Nơi lưu trữ chính | Thời hạn lưu trữ |
 | --- | --- | --- | --- | --- |
@@ -281,7 +257,7 @@ Mọi khoản thanh toán công tác phí tại oBacker tuân thủ bảng đị
 
 ---
 
-## 10. Chỉ số theo dõi
+## 9. Chỉ số theo dõi
 
 | # | Tên chỉ số | Cách tính và nguồn số liệu | Tần suất đo lường | Ngưỡng mục tiêu | Hành động khi vượt ngưỡng |
 | --- | --- | --- | --- | --- | --- |
@@ -310,4 +286,4 @@ Mọi khoản thanh toán công tác phí tại oBacker tuân thủ bảng đị
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 30/09/2026 | R.1.0.1 | Chia 4 câu dài ở mục đích, phạm vi áp dụng và yêu cầu chứng từ thanh toán không dùng tiền mặt thành câu ngắn, không đổi nghĩa |

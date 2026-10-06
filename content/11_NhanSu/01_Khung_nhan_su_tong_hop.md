@@ -7,22 +7,17 @@ level: "Cấp 2, quy trình bộ phận"
 version: "R.1.0.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 22/09/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-QCNS-00 Bộ tài liệu quản trị nhân sự và vận hành"
 next_review: "Không quá 06 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-QCNS-01
 tags:
   - loai/sop
   - cap/2
-  - nghiep-vu/noi-quy-lao-dong
 ---
 # KHUNG NHÂN SỰ TỔNG HỢP. LỘ TRÌNH THĂNG TIẾN VÀ CHÍNH SÁCH LƯƠNG THƯỞNG
 
@@ -46,7 +41,7 @@ tags:
 
 ---
 
-> [!info] ĐỌC TRƯỚC
+> [!note] BỐ CỤC VÀ NGUYÊN TẮC ÁP DỤNG
 > Tài liệu gồm ba phần. Phần I quy định hệ thống cấp bậc và lộ trình thăng tiến, áp cho toàn công ty. Phần II quy định khung lương theo cấp. Phần III áp cho nhân viên đã qua thời gian thử việc và làm việc toàn thời gian. Trường hợp ngoại lệ do `CEO` quyết riêng.
 >
 > Vị trí thuộc `BOM` nằm ngoài thang cấp bậc tại Phần I.
@@ -73,7 +68,7 @@ Phần này áp cho mọi đơn vị tại [[OBK-QCTC-02_Quy_che_to_chuc_va_phan
 | P4 | Chuyên môn | Đặt chuẩn chuyên môn cho đơn vị: xây dựng và chuẩn hóa quy trình, biểu mẫu, bảng kiểm được cả đơn vị dùng. Không chuyển sang quản lý |
 | M1 | Quản lý | Vị trí phụ trách một đơn vị tại [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen\|OBK-QCTC-02]] Điều 6 và có người báo cáo trực tiếp. Chịu trách nhiệm cuối cho đầu ra của đơn vị, giao việc, chốt kỹ thuật, kèm cặp |
 
-Bậc chấm của khung đánh giá hiệu suất [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] bằng đúng cấp bậc của người được chấm.
+Bậc chấm của khung đánh giá hiệu suất `OBK-QCNS-08` bằng đúng cấp bậc của người được chấm theo thang P1 tới M1 tại mục I.1.
 
 ## I.2. Cấp áp dụng theo vị trí
 
@@ -111,7 +106,7 @@ Vị trí phụ trách một phòng, gồm TP Thương mại và `COO` trực ti
 5. Đủ thời gian tại cấp và đạt điều kiện hiệu suất là điều kiện cần. Quyết định thăng cấp chỉ có sau bước xét tại mục I.5.
 6. Mọi quyết định thăng cấp có phê duyệt của `CEO`.
 7. Một người chỉ được xét theo một hướng trong một kỳ đánh giá.
-8. Cấp M1 là cấp năng lực và mức lương. Cấp M1 không phải chức danh người quản lý, điều hành theo Luật Kế toán. Theo [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen|OBK-QCTC-02]] mục 19.2, danh sách người quản lý, điều hành của văn bản nội bộ không ghi chức danh Trưởng bộ phận hoặc Team Lead.
+8. Cấp M1 là cấp năng lực và mức lương. Cấp M1 không phải chức danh người quản lý, điều hành. Theo Quy chế tổ chức và phân quyền `OBK-QCTC-02` mục 19.2, danh sách người quản lý, điều hành của văn bản nội bộ không ghi chức danh Trưởng bộ phận hoặc Team Lead; đưa vào thì việc kiêm nhiệm thành vi phạm điều cấm.
 
 Tại Phòng Dịch vụ, cấp bậc ứng với mức kiểm soát của [[03_Mo_hinh_van_hanh_bon_muc_kiem_soat_va_ma_tran_RACI|OBK-QCNS-03]] như sau:
 
@@ -130,7 +125,7 @@ Tại Phòng Dịch vụ, cấp bậc ứng với mức kiểm soát của [[03_
 Người được xét phải đạt đồng thời ba điều kiện dưới đây. Thiếu một điều kiện thì không xét.
 
 1. Tối thiểu 12 tháng liên tục tại cấp hiện tại. Mức tối thiểu 12 tháng áp dụng cho mọi người và không được rút ngắn. Thời gian tại một cấp không có mức tối đa.
-2. Điểm tổng từ 85% trở lên trong 2 kỳ xét lương gần nhất. Kỳ xét lương là chu kỳ 3 tháng tại [[02_Chuong_trinh_tang_luong_dinh_ky|OBK-QCNS-02]] mục 2.1. Điểm của một kỳ xét lương là hiệu suất trung bình của các kỳ tháng có điểm chính thức trong chu kỳ đó, theo [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] mục 0b.1.
+2. Điểm tổng từ 85% trở lên trong 2 kỳ xét lương gần nhất. Kỳ xét lương là chu kỳ 3 tháng theo Chương trình tăng lương định kỳ `OBK-QCNS-02` mục 2.1. Điểm của một kỳ xét lương là hiệu suất trung bình của các kỳ tháng có điểm chính thức trong chu kỳ đó, theo khung đánh giá hiệu suất `OBK-QCNS-08` mục 0b.1.
 3. Trong 12 tháng gần nhất, mọi tháng đều có điểm từ 80% trở lên.
 
 Người được xét bị bỏ qua một kỳ đánh giá vì lý do ngoài ý muốn thì kỳ đó chỉ được tính là hợp lệ cho điều kiện 2 và điều kiện 3 sau khi có xác nhận: người thuộc Phòng Dịch vụ do `COO` xác nhận; người thuộc đơn vị khác do `CEO` xác nhận.
@@ -151,8 +146,8 @@ Người được xét bị bỏ qua một kỳ đánh giá vì lý do ngoài ý
 Người thuộc một trong bốn trường hợp dưới đây thì không xét thăng cấp:
 
 1. Đang trong kế hoạch hỗ trợ cải thiện.
-2. Có vi phạm kỷ luật lao động chưa được xóa kỷ luật theo [[Noi_quy_lao_dong|OBK-NQLD]] Điều 47.
-3. Có kỳ kích hoạt quy tắc chặn điểm `CD-01` hoặc `CD-03` tại [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] mục 5 trong 2 kỳ gần nhất.
+2. Có vi phạm kỷ luật lao động chưa được xóa kỷ luật theo Nội quy lao động `OBK-NQLD` Điều 47: khiển trách đủ 03 tháng, kéo dài thời hạn nâng lương đủ 06 tháng, cách chức đủ 03 năm kể từ ngày bị xử lý và không tiếp tục vi phạm thì đương nhiên được xóa.
+3. Có kỳ kích hoạt quy tắc chặn điểm `CD-01` hoặc `CD-03` tại khung đánh giá hiệu suất `OBK-QCNS-08` mục 5 trong 2 kỳ gần nhất.
 4. Có vi phạm một trong bảy hành vi oBacker nghiêm cấm tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 9.
 
 ### I.4.4. Điều kiện lên M1
@@ -164,7 +159,7 @@ Người thuộc một trong bốn trường hợp dưới đây thì không xé
 
 ## I.5. Quy trình xét thăng cấp
 
-Quản lý trực tiếp tại bảng dưới là quản lý trực tiếp của người được xét, xác định theo khung đánh giá hiệu suất [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]].
+Quản lý trực tiếp tại bảng dưới là quản lý trực tiếp của người được xét, tức người chấm, xác định theo bảng quản lý trực tiếp tại mục 6.1 của khung đánh giá hiệu suất `OBK-QCNS-08`.
 
 | Bước | Thời điểm | Nội dung |
 | --- | --- | --- |
@@ -176,7 +171,7 @@ Quản lý trực tiếp tại bảng dưới là quản lý trực tiếp của
 
 ## I.6. Ma trận năng lực tổng quát
 
-Ma trận mô tả năng lực chung theo cấp P1 tới P4, áp cho mọi vị trí theo hướng chuyên môn. Vị trí có cấp tối đa thấp hơn P4 dùng các cột tới cấp tối đa của vị trí đó. Tiêu chí riêng của từng vị trí đặt tại khung đánh giá hiệu suất [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]].
+Ma trận mô tả năng lực chung theo cấp P1 tới P4, áp cho mọi vị trí theo hướng chuyên môn. Vị trí có cấp tối đa thấp hơn P4 dùng các cột tới cấp tối đa của vị trí đó. Tiêu chí riêng của từng vị trí đặt tại phiếu vị trí `OBK-QCNS-08-PL-E` trong khung đánh giá hiệu suất `OBK-QCNS-08`.
 
 | Năng lực | P1 | P2 | P3 | P4 |
 | --- | --- | --- | --- | --- |
@@ -241,8 +236,8 @@ Theo đó, ở ba lần chuyển cấp P1 lên P2, P2 lên P3 và P3 lên P4, m�
 
 Tăng lương trong cấp đến từ hai cơ chế độc lập và cộng dồn, theo [[02_Chuong_trinh_tang_luong_dinh_ky|OBK-QCNS-02]]:
 
-1. Tăng lương theo hiệu suất mỗi 3 tháng: tăng 1,5%, 2,5% hoặc 3,5%, tương ứng ba khoảng hiệu suất từ 80% đến dưới 90%, từ 90% đến dưới 100%, và từ 100% trở lên, theo [[02_Chuong_trinh_tang_luong_dinh_ky|OBK-QCNS-02]] mục 2.1. Hiệu suất nhỏ hơn 80% thì không tăng lương trong kỳ đó, theo [[02_Chuong_trinh_tang_luong_dinh_ky|OBK-QCNS-02]] mục 2.1.
-2. Tăng lương bù trượt giá: tăng 6%, áp dụng ngày 01/01 hằng năm cho nhân viên đã làm việc đủ 12 tháng tính đến ngày đó, theo [[02_Chuong_trinh_tang_luong_dinh_ky|OBK-QCNS-02]] mục 2.2.
+1. Tăng lương theo hiệu suất mỗi 3 tháng: tăng 1,5%, 2,5% hoặc 3,5%, tương ứng ba khoảng hiệu suất từ 80% đến dưới 90%, từ 90% đến dưới 100%, và từ 100% trở lên, theo Chương trình tăng lương định kỳ `OBK-QCNS-02` mục 2.1. Hiệu suất nhỏ hơn 80% thì không tăng lương trong kỳ đó, theo `OBK-QCNS-02` mục 2.1.
+2. Tăng lương bù trượt giá: tăng 6%, áp dụng ngày 01/01 hằng năm cho nhân viên đã làm việc đủ 12 tháng tính đến ngày đó, theo Chương trình tăng lương định kỳ `OBK-QCNS-02` mục 2.2.
 
 Mỗi lần tăng tính trên lương hiện tại, và mức lương sau khi tăng là cơ sở cho lần tăng tiếp theo.
 
@@ -278,10 +273,8 @@ Hai ví dụ dưới đây minh họa cách hai cơ chế cộng dồn trong 12 
 
 Chỉ áp dụng cho nhân viên đã qua thời gian thử việc và làm việc toàn thời gian. Trường hợp ngoại lệ do `CEO` quyết riêng. Nhân viên đang thử việc, nhân viên bán thời gian, cộng tác viên và hợp đồng ngắn hạn không thuộc phạm vi chính sách này.
 
-> [!note] oBACKER KHÔNG CÓ VAI TRÒ SALES RIÊNG
-> Bản trước ngày 22/09/2026 gọi hai loại thưởng cá nhân là thưởng AM và thưởng Sales, như hai chức danh khác nhau. [[PL_Tu_dien_vai|OBK-QCTC-02-PL-A]] mục 9 đã ghi oBacker không có vai trò Sales riêng; toàn bộ việc về `AM` và `AE`.
->
-> Vì vậy hai loại thưởng phân biệt theo HÀNH VI chứ không theo chức danh: một loại tính cho người ký hợp đồng lần đầu với khách mới, một loại tính cho người đang trực tiếp chăm sóc khách. Cùng một người có thể nhận cả hai.
+> [!note] NGUYÊN TẮC ÁP DỤNG THƯỞNG KINH DOANH
+> Do công ty không thiết lập chức danh Sales chuyên trách, công việc của đội bán hàng do `AM` và `AE` đảm nhận theo từ điển vai `OBK-QCTC-02-PL-A` mục 9, các loại thưởng kinh doanh cá nhân được áp dụng theo hành vi nghiệp vụ thay vì tên chức danh: khoản thưởng tính cho nhân sự ký hợp đồng lần đầu với khách hàng mới và khoản thưởng tính cho nhân sự trực tiếp chăm sóc, quản trị khách hàng. Nhân sự phụ trách thực tế có thể đồng thời được hưởng cả hai quyền lợi nếu đáp ứng đầy đủ điều kiện.
 
 ## III.2. Doanh thu tính thưởng
 
@@ -300,7 +293,7 @@ Doanh thu thực thu, đã trừ hoàn tiền, đã trừ hủy đơn và đã t
 | Chu kỳ xét thưởng | Từ ngày 01 đến hết ngày cuối cùng của tháng dương lịch M |
 | Chốt doanh thu | Cuối ngày cuối cùng của tháng M. Doanh thu phát sinh sau thời điểm này không tính vào tháng M |
 | Xác nhận số liệu | `KTV` Kế toán viên nội bộ xác nhận và gửi báo cáo trước ngày 10 tháng M cộng 1 |
-| Chi trả thưởng | Ngày 15 tháng M cộng 1. Ngày chi thưởng tách khỏi ngày trả lương; khoản thưởng đã chi được đưa vào Bảng thanh toán tiền lương của kỳ lương tháng M cộng 1 để tính thuế thu nhập cá nhân theo [[OBK-SOP-NB-04_Cong_va_tien_luong_noi_bo\|OBK-SOP-NB-04]] mục 6.4 |
+| Chi trả thưởng | Ngày 15 tháng M cộng 1. Ngày chi thưởng tách khỏi ngày trả lương; khoản thưởng đã chi được đưa vào Bảng thanh toán tiền lương của kỳ lương tháng M cộng 1 để tính thuế thu nhập cá nhân theo [[OBK-SOP-NB-04_Cong_va_tien_luong_noi_bo\|OBK-SOP-NB-04]] mục 5.4 |
 
 ## III.4. Điều kiện và mức thưởng
 
@@ -325,11 +318,6 @@ Bảng ví dụ, doanh thu tháng M bằng 200.000.000 đồng:
 | 10% | 5,5% | 11.000.000 đồng | 2.887.500 đồng | 962.500 đồng | 5.362.500 đồng | 1.787.500 đồng |
 | 15% | 6,75% | 13.500.000 đồng | 3.543.750 đồng | 1.181.250 đồng | 6.581.250 đồng | 2.193.750 đồng |
 | Từ 20% trở lên | 8% | 16.000.000 đồng | 4.200.000 đồng | 1.400.000 đồng | 7.800.000 đồng | 2.600.000 đồng |
-
-> [!warning] BẢNG VÍ DỤ ĐÃ LÀM LẠI
-> Bản trước ngày 22/09/2026 ghi pool tổng của hàng tăng trưởng 5% là 4.250.000 đồng. Con số đó sai so với chính công thức ghi ngay phía trên bảng: 4,25% của 200.000.000 đồng là 8.500.000 đồng, không phải 4.250.000 đồng. Bốn con số phân bổ của hàng đó cũng sai theo.
->
-> Hai hàng 10% và từ 20% trở lên của bản cũ khớp đúng công thức và giữ nguyên. Bảng trên bổ sung hai hàng 0% và 15% để đọc được cả dải.
 
 ### 4.2. Phân bổ pool thưởng theo bộ phận và nhánh
 
@@ -410,12 +398,8 @@ Ví dụ cộng dồn: người A ký hợp đồng với khách B tháng 1 năm
 | Xác nhận danh sách khách hàng | Người nhận thưởng theo khách phải có danh sách khách hàng phụ trách được xác nhận hợp lệ trước ngày 10 tháng M cộng 1 |
 | Nhân viên đã qua thử việc và làm việc toàn thời gian | Chỉ áp dụng cho nhân viên đã qua thời gian thử việc và làm việc toàn thời gian. Trường hợp ngoại lệ do `CEO` quyết riêng. Nhân viên đang thử việc, nhân viên bán thời gian, cộng tác viên, hợp đồng ngắn hạn không thuộc phạm vi chính sách này |
 
-> [!note] ĐIỀU KIỆN KỶ LUẬT ĐÃ VIẾT LẠI
-> Bản trước ngày 22/09/2026 ghi điều kiện là không bị xử lý kỷ luật từ mức cảnh cáo trở lên. Cảnh cáo không phải là một trong bốn hình thức kỷ luật lao động tại [[CC-LD-103 Bốn hình thức kỷ luật, khiển trách; kéo dài thời hạn nâng lương không quá 06 tháng; cách chức; sa thải|CC-LD-103]], và [[Noi_quy_lao_dong|OBK-NQLD]] Điều 36 chép lại đúng bốn hình thức đó.
->
-> Điều kiện nay viết theo ba hình thức nặng hơn khiển trách, vì cảnh cáo trong thang kỷ luật hành chính đứng TRÊN khiển trách. Cách đọc này giữ nguyên mức chặt của bản gốc.
->
-> Cách đọc trên là suy ra, không phải chữ của bản gốc, và chưa có xác nhận của `CEO`. [[CC-LD-103 Bốn hình thức kỷ luật, khiển trách; kéo dài thời hạn nâng lương không quá 06 tháng; cách chức; sa thải|CC-LD-103]] chỉ có bốn hình thức, và [[Noi_quy_lao_dong|OBK-NQLD]] Điều 36 chép lại đúng bốn hình thức đó. Điều kiện nay viết theo bốn hình thức của Nội quy lao động.
+> [!note] HÌNH THỨC KỶ LUẬT LÀM CĂN CỨ XÉT THƯỞNG
+> Theo Điều 36 của Nội quy lao động `OBK-NQLD`, hình thức kỷ luật lao động áp dụng làm căn cứ xét điều kiện thưởng tại oBacker bao gồm ba hình thức nặng hơn khiển trách: kéo dài thời hạn nâng lương không quá 06 tháng, cách chức, và sa thải.
 
 ## III.8. Quy định khác và điều khoản áp dụng
 

@@ -4,26 +4,22 @@ code: "OBK-HB-11"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.0"
+version: "R.1.0.1"
 status: "đang áp dụng"
-draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 25/08/2026"
+draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
 parent: "OBK-SOP-KT Kế toán và thuế"
 next_review: "Chậm nhất 25/02/2027"
 chapter: "Thuế thu nhập cá nhân"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-HB-11
 tags:
   - loai/sop
   - cap/3
   - nghiep-vu/thue-tncn
-  - nghiep-vu/muc-toi-da-luat-dinh
 ---
 # Chương 11. Thuế thu nhập cá nhân
 
@@ -34,8 +30,8 @@ tags:
 | Mã tài liệu | OBK-HB-11 |
 | Tên chương | Thuế thu nhập cá nhân |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.1.0.0, đang áp dụng |
-| Ngày biên soạn | 01/10/2026 |
+| Phiên bản | R.1.0.1, đang áp dụng |
+| Ngày biên soạn | 04/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -43,8 +39,8 @@ tags:
 | Văn bản cấp trên | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] Kế toán và thuế |
 | Lần rà soát tiếp theo | 25/02/2027, hoặc ngay khi có văn bản mới sửa đổi Luật Thuế TNCN, Nghị định 253/2026/NĐ-CP, Thông tư 87/2026/TT-BTC, Thông tư 89/2026/TT-BTC |
 
-> [!question] CẦN XÁC MINH
-> Chương này ghi mức chắc chắn cho từng con số và từng trích dẫn theo quy ước tại `01_NGUYEN_TAC_VIET` mục 2. Mọi nội dung chưa đối chiếu bản gốc phải đối chiếu bản gốc trước khi đưa vào memo gửi khách. Mọi nội dung chưa xác minh được không được dùng để trả lời khách trong bất kỳ trường hợp nào.
+> [!note] NGUYÊN TẮC ÁP DỤNG CĂN CỨ PHÁP LÝ
+> Việc trích dẫn và áp dụng quy định thuế thu nhập cá nhân tuân thủ quy chuẩn tra cứu tại OBK-HB-00. Mọi nội dung nghiệp vụ phức tạp hoặc phát sinh trường hợp đặc thù phải được TL-KT rà soát trước khi tư vấn hoặc phát hành văn bản cho khách hàng.
 
 ---
 
@@ -75,29 +71,10 @@ tags:
 
 ---
 
-## 3. Căn cứ pháp lý
-
-| # | Văn bản | Ghi chú áp dụng |
-| --- | --- | --- |
-| 1 | Luật Thuế thu nhập cá nhân hợp nhất số 112/VBHN-VPQH ngày 20/5/2026 | BẢN MỚI NHẤT, ưu tiên áp dụng |
-| 2 | Luật Thuế thu nhập cá nhân số 109/2025/QH15 ngày 10/12/2025 | Bản gốc, dùng để đối chiếu |
-| 3 | Luật số 09/2026/QH16 ngày 24/4/2026 sửa đổi 04 luật thuế | Điều 1 sửa khoản 1 Điều 7 Luật TNCN, áp dụng từ 01/01/2026 |
-| 4 | Nghị định 253/2026/NĐ-CP ngày 30/6/2026 hướng dẫn Luật Thuế TNCN | Hiệu lực 01/7/2026 |
-| 5 | Thông tư 87/2026/TT-BTC ngày 30/6/2026 hướng dẫn TNCN | Hiệu lực 01/7/2026;<br>quy định mức thu nhập của người phụ thuộc và hồ sơ chứng minh |
-| 6 | Thông tư 89/2026/TT-BTC ngày 30/6/2026 quy định chi tiết Luật Quản lý thuế và Nghị định 252/2026/NĐ-CP | Hiệu lực 01/7/2026;<br>quy định kỳ khai và hồ sơ khai TNCN |
-| 7 | Nghị định 252/2026/NĐ-CP ngày 30/6/2026 hướng dẫn Luật Quản lý thuế | Quy định thời hạn nộp hồ sơ khai thuế tại Điều 10;<br>đã đối chiếu bản gốc |
-| 8 | Luật Quản lý thuế số 108/2025/QH15 ngày 10/12/2025 | Hiệu lực 01/7/2026;<br>đã đối chiếu bản gốc |
-| 9 | Văn bản hợp nhất 15/VBHN-BTC (Nghị định 125/2020/NĐ-CP về xử phạt VPHC thuế, hóa đơn) | Dùng cho phần chế tài |
-| 10 | Nghị quyết 136/2024/QH15 ngày 26/06/2024 của Quốc hội | Điều 14 khoản 1 điểm b: Miễn thuế TNCN 05 năm đối với chuyên gia, nhà khoa học, cá nhân có tài năng đặc biệt, cá nhân khởi nghiệp sáng tạo |
-| 11 | Nghị quyết 53/2024/NQ-HĐND và Nghị quyết 24/2026/NQ-HĐND của HĐND thành phố Đà Nẵng | Điều 5 NQ 53/2024 và Điều 15 NQ 24/2026: Tiêu chí và điều kiện miễn thuế TNCN cho nhân sự làm việc tại doanh nghiệp khởi nghiệp sáng tạo |
-| 12 | Văn bản xác nhận ngày 29/12/2025 của Sở Khoa học và Công nghệ thành phố Đà Nẵng | Xác nhận Công ty Cổ phần OBACKER (MST 0402298185) là Doanh nghiệp Khởi nghiệp sáng tạo |
-
-> [!success] ĐÃ XÁC MINH
-> Thời hạn nộp hồ sơ khai thuế không nằm tại Điều 12 Luật Quản lý thuế 108/2025. Điều 12 khoản 8 giao Chính phủ quy định; các mốc cụ thể nằm tại Điều 10 Nghị định 252/2026/NĐ-CP `[Luật QLT 108/2025 Đ.12 k.8; NĐ 252/2026 Đ.10]`. Mọi tài liệu nội bộ cũ đang dẫn "thời hạn theo Điều 12 Luật QLT 108/2025" là SAI CĂN CỨ, phải sửa.
 
 ---
 
-## 4. Vai trò và trách nhiệm
+## 3. Vai trò và trách nhiệm
 
 | Hoạt động | CV-KT | TL-KT | AM |
 | --- | --- | --- | --- |
@@ -116,9 +93,9 @@ tags:
 
 ---
 
-## 5. Đầu vào bắt buộc
+## 4. Đầu vào bắt buộc
 
-5.1. Từ khách hàng:
+4.1. Từ khách hàng:
 - Hợp đồng lao động của toàn bộ người lao động, kèm phụ lục nếu có; ghi rõ thời hạn hợp đồng để phân loại từ 03 tháng trở lên hay dưới 03 tháng;
 - Bảng lương chi tiết theo tháng, tách rõ các khoản chịu thuế và không chịu thuế;
 - Chứng từ các khoản trả thay: tiền thuê nhà, điện nước, vé máy bay, học phí cho con, bảo hiểm;
@@ -127,22 +104,22 @@ tags:
 - Bản cam kết của cá nhân thuộc diện tạm thời chưa khấu trừ, nếu có;
 - Văn bản ủy quyền quyết toán mẫu 08/UQ-QTT-TNCN `[TT 89/2026 Đ.22 k.1 đ.b]` với các cá nhân đủ điều kiện ủy quyền.
 
-5.2. Từ nội bộ oBacker:
+4.2. Từ nội bộ oBacker:
 - Bảng theo dõi nghĩa vụ thuế của khách hàng trên `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]`;
 - Hồ sơ khách hàng năm trước trên `[KHO LƯU TRỮ HỒ SƠ]`;
 - Chữ ký số của khách còn hiệu lực, kiểm tra tại `[CỔNG THUẾ ĐIỆN TỬ]`.
 
-5.3. Tiêu chí đủ đầu vào: không được bắt đầu tính thuế khi chưa xác định được (i) tình trạng cư trú của từng cá nhân; (ii) loại hợp đồng; (iii) danh sách người phụ thuộc đã đăng ký.
+4.3. Tiêu chí đủ đầu vào: không được bắt đầu tính thuế khi chưa xác định được (i) tình trạng cư trú của từng cá nhân; (ii) loại hợp đồng; (iii) danh sách người phụ thuộc đã đăng ký.
 
 ---
 
 # PHẦN NGHIỆP VỤ
 
-## 6. Các bước thực hiện
+## 5. Các bước thực hiện
 
 Quy định chi tiết để tra khi làm từng bước nằm ở Phụ lục A của chương, mục A tới M.
 
-### 6.1. Chu trình tháng
+### 5.1. Chu trình tháng
 
 | Bước | Nội dung | Người | Tiêu chí hoàn thành |
 | --- | --- | --- | --- |
@@ -154,7 +131,7 @@ Quy định chi tiết để tra khi làm từng bước nằm ở Phụ lục A
 | 6.1.6 | Gửi bảng tính cho khách xác nhận | AM | Có xác nhận bằng văn bản hoặc thư điện tử của khách |
 | 6.1.7 | Lưu bảng tính và chứng từ vào `[KHO LƯU TRỮ HỒ SƠ]` | CV-KT | Đã lưu, đúng cấu trúc thư mục |
 
-### 6.2. Chu trình quý
+### 5.2. Chu trình quý
 
 | Bước | Nội dung | Người | Tiêu chí hoàn thành |
 | --- | --- | --- | --- |
@@ -166,11 +143,11 @@ Quy định chi tiết để tra khi làm từng bước nằm ở Phụ lục A
 | 6.2.6 | Nộp tiền thuế đã khấu trừ, lưu chứng từ nộp | CV-KT | Có Thông báo nộp thuế điện tử thành công |
 | 6.2.7 | Cập nhật trạng thái "đã nộp thành công" trên bảng theo dõi nghĩa vụ theo khách | CV-KT | Trạng thái được cập nhật trong ngày |
 
-### 6.3. Chu trình năm
+### 5.3. Chu trình năm
 
 | Bước | Nội dung | Người | Tiêu chí hoàn thành |
 | --- | --- | --- | --- |
-| 6.3.1 | Chạy quy trình khảo sát và phân loại Danh sách A, Danh sách B theo mục E.5 | AM, CV-KT, TL-KT theo phân vai trò tại mục E.5 | Hai danh sách hoàn chỉnh |
+| 6.3.1 | Chạy quy trình khảo sát và phân loại Danh sách A, Danh sách B theo mục E.4 | AM, CV-KT, TL-KT theo phân vai trò tại mục E.4 | Hai danh sách hoàn chỉnh |
 | 6.3.2 | Chốt danh sách người phụ thuộc trước 15/12 theo mục D.5 | CV-KT, TL-KT | Danh sách đã chốt |
 | 6.3.3 | Thu văn bản ủy quyền mẫu 08/UQ-QTT-TNCN chỉ từ Danh sách A | AM thu, CV-KT kiểm tra đủ | Không có ủy quyền nào từ Danh sách B |
 | 6.3.4 | Tổng hợp danh sách cá nhân đã làm bản cam kết chưa đến mức khấu trừ, nộp cho cơ quan thuế | CV-KT, TL-KT | Đã nộp, có thông báo tiếp nhận |
@@ -182,7 +159,7 @@ Quy định chi tiết để tra khi làm từng bước nằm ở Phụ lục A
 
 ---
 
-## 7. Điểm kiểm soát bắt buộc
+## 6. Điểm kiểm soát bắt buộc
 
 | # | Điểm kiểm soát | Không được bỏ qua vì |
 | --- | --- | --- |
@@ -197,12 +174,12 @@ Quy định chi tiết để tra khi làm từng bước nằm ở Phụ lục A
 
 ---
 
-## 8. Lỗi thường gặp và cách xử lý
+## 7. Lỗi thường gặp và cách xử lý
 
 | # | Lỗi thường gặp | Hậu quả | Cách xử lý |
 | --- | --- | --- | --- |
 | 1 | Dùng ngưỡng khấu trừ 10% cũ thay vì mức mới 05 triệu đồng/lần | Khấu trừ thiếu, khai sai dẫn đến thiếu thuế, phạt 20% số thuế khai thiếu `[15/VBHN-BTC ngày 05/05/2026 Đ.16 k.1]` | Cập nhật ngay bảng tham số trên `[PHẦN MỀM KẾ TOÁN]`;<br>rà soát lại các khoản chi trả từ 01/7/2026 |
-| 2 | Nhận ủy quyền quyết toán cho cá nhân có phát sinh giảm trừ y tế, giáo dục hoặc từ thiện | Cá nhân mất quyền giảm trừ;<br>khoản chi không chuyển được sang năm sau | Chạy quy trình E.5 trước kỳ quyết toán thuế năm;<br>tách Danh sách B từ tháng 11 |
+| 2 | Nhận ủy quyền quyết toán cho cá nhân có phát sinh giảm trừ y tế, giáo dục hoặc từ thiện | Cá nhân mất quyền giảm trừ;<br>khoản chi không chuyển được sang năm sau | Chạy quy trình E.4 trước kỳ quyết toán thuế năm;<br>tách Danh sách B từ tháng 11 |
 | 3 | Vẫn khai thuế TNCN từ TIỀN LƯƠNG, TIỀN CÔNG theo tháng sau 01/7/2026;<br>hoặc ngược lại, ép tám nhóm ngoại lệ tại mục L.1 sang kỳ khai quý của tiền lương, tiền công | Sai kỳ khai;<br>rủi ro bị yêu cầu nộp lại và bị xử lý | Chạy quy trình L.3 rà soát toàn bộ danh mục khách hàng;<br>tách riêng tám nhóm ngoại lệ tại mục L.1 và giữ kỳ khai theo tháng hoặc theo quý cùng kỳ GTGT `[TT 89/2026 Đ.22]` |
 | 4 | Tự nhân 6,2 triệu đồng nhân 12 rồi ghi vào tài liệu tư vấn như trích dẫn luật | Trích dẫn sai;<br>mất uy tín và rủi ro pháp lý | Chỉ ghi mức tháng, nêu rõ đó là mức tháng `[Luật TNCN HN 112 Đ.10 k.1b]` |
 | 5 | Nhầm mức tối đa 03 triệu đồng/tháng của bảo hiểm hưu trí tự nguyện bên TNCN với ngưỡng 05 triệu đồng bên TNDN | Tính sai thu nhập tính thuế;<br>tư vấn sai | Ghi nhớ hai con số thuộc hai sắc thuế khác nhau, bản chất khác nhau, xem mục F.1 |
@@ -214,12 +191,12 @@ Quy định chi tiết để tra khi làm từng bước nằm ở Phụ lục A
 | 11 | Chủ động khai bổ sung các tờ khai tháng, quý đầu năm 2026 để "cho gọn" | Trái quy định chuyển tiếp;<br>tạo rủi ro sai lệch số liệu | Không khai lại;<br>điều chỉnh một lần tại quyết toán năm 2026 `[NĐ 253/2026 Đ.70 k.2]` |
 | 12 | Tính tiền nhà do NSDLĐ trả thay vào thu nhập chịu thuế theo số thực tế mà không áp mức tối đa 15% | Tính thừa thu nhập chịu thuế;<br>khách khiếu nại | Áp mức tối đa 15% tổng thu nhập chịu thuế phát sinh tại đơn vị `[NĐ 253/2026 Đ.8 k.2 đ.h]` |
 | 13 | Dùng mốc quyết toán của CÁ NHÂN tự quyết toán, tức tháng thứ 04, cho TỔ CHỨC trả thu nhập | Nộp hồ sơ quyết toán của tổ chức trễ 01 tháng, bị xử phạt chậm nộp hồ sơ khai thuế `[15/VBHN-BTC ngày 05/05/2026 Đ.13]` | Tổ chức trả thu nhập theo mốc tháng thứ 03;<br>cá nhân tự quyết toán theo mốc tháng thứ 04 `[NĐ 252/2026 Đ.10 k.5 đ.a, đ.c]`;<br>xem bảng tại mục K.6 |
-| 14 | Chấp nhận hóa đơn y tế ghi tên người khác để tính giảm trừ | Không đáp ứng điều kiện b tại mục E.2;<br>bị loại khi kiểm tra | Kiểm tra thông tin trên hóa đơn phải là người nộp thuế hoặc người phụ thuộc |
+| 14 | Chấp nhận hóa đơn y tế ghi tên người khác để tính giảm trừ | Không đáp ứng điều kiện b tại mục E.1;<br>bị loại khi kiểm tra | Kiểm tra thông tin trên hóa đơn phải là người nộp thuế hoặc người phụ thuộc |
 | 15 | Quên yêu cầu Bảng kê chi phí khám bệnh, chữa bệnh khi tính giảm trừ y tế | Hồ sơ không hợp lệ dù đã có hóa đơn | Với khoản chi y tế, bắt buộc có Bảng kê theo quy định của Bộ trưởng Bộ Y tế `[NĐ 253/2026 Đ.49 k.3 đ.a]` |
 
 ---
 
-## 9. Đầu ra và nơi lưu
+## 8. Đầu ra và nơi lưu
 
 | Đầu ra | Nơi lưu | Thời hạn lưu | Người chịu trách nhiệm |
 | --- | --- | --- | --- |
@@ -235,7 +212,7 @@ Quy định chi tiết để tra khi làm từng bước nằm ở Phụ lục A
 
 ---
 
-## 10. Chỉ số theo dõi
+## 9. Chỉ số theo dõi
 
 | Chỉ số | Cách đo | Mục tiêu | Tần suất | Người theo dõi |
 | --- | --- | --- | --- | --- |
@@ -291,7 +268,7 @@ Công thức khấu trừ thuế tính trùng `[NĐ 253/2026/NĐ-CP Đ.66]`:
 
 ---
 
-### B. Mười loại thu nhập chịu thuế TNCN
+### B. Các loại thu nhập chịu thuế TNCN
 
 Nguyên tắc chung `[Luật TNCN HN 112/VBHN-VPQH Đ.3]`: thu nhập chịu thuế TNCN gồm 10 loại sau đây, TRỪ thu nhập được miễn thuế quy định tại Điều 4.
 
@@ -308,8 +285,8 @@ Nguyên tắc chung `[Luật TNCN HN 112/VBHN-VPQH Đ.3]`: thu nhập chịu thu
 | 9 | NHẬN THỪA KẾ, QUÀ TẶNG | Là chứng khoán, phần vốn trong tổ chức kinh tế, cơ sở kinh doanh, bất động sản và các tài sản phải đăng ký sở hữu hoặc đăng ký sử dụng | `[Luật TNCN HN 112/VBHN-VPQH Đ.3 k.9]` |
 | 10 | THU NHẬP KHÁC | a) chuyển nhượng tên miền quốc gia ".vn";<br>b) chuyển nhượng kết quả giảm phát thải khí nhà kính, tín chỉ các-bon;<br>c) chuyển nhượng biển số xe trúng đấu giá;<br>d) chuyển nhượng tài sản số;<br>đ) chuyển nhượng vàng miếng | `[Luật TNCN HN 112/VBHN-VPQH Đ.3 k.10]` |
 
-> [!question] CẦN XÁC MINH
-> NGƯỠNG GIÁ TRỊ VÀNG MIẾNG CHỊU THUẾ do Chính phủ quy định `[Luật TNCN HN 112 Đ.3 k.10]`, nhưng con số cụ thể KHÔNG TÌM THẤY trong Nghị định 253/2026/NĐ-CP và Thông tư 87/2026/TT-BTC đã rà soát. Gắn. Khi khách hỏi về chuyển nhượng vàng miếng, không được nêu ngưỡng; phải tra cứu văn bản riêng và chuyển TL-KT.
+> [!note] NGUYÊN TẮC ÁP DỤNG ĐỐI VỚI THU NHẬP TỪ CHUYỂN NHƯỢNG VÀNG MIẾNG
+> Thu nhập từ chuyển nhượng vàng miếng thuộc diện chịu thuế TNCN theo quy định tại Điều 3 khoản 10 Luật Thuế TNCN hợp nhất số 112/VBHN-VPQH `[Luật TNCN HN 112 Đ.3 k.10]`. Trường hợp khách hàng có phát sinh hoạt động chuyển nhượng vàng miếng, CV-KT chuyển TL-KT tra cứu quy định cụ thể của Chính phủ về ngưỡng giá trị và phương pháp tính thuế trước khi thực hiện kê khai.
 
 #### B.1. Chi tiết thu nhập từ tiền lương, tiền công
 
@@ -386,14 +363,14 @@ Danh mục đầy đủ 21 khoản `[Luật TNCN HN 112/VBHN-VPQH Đ.4]`:
 | 4 | Chuyển nhượng CHỨNG CHỈ QUỸ MỞ nắm giữ TỪ 02 NĂM TRỞ LÊN kể từ ngày mua | MIỄN thuế TNCN |
 | 5 | LỢI TỨC của nhà đầu tư cá nhân được chia từ QUỸ ĐẦU TƯ CHỨNG KHOÁN, QUỸ ĐẦU TƯ BẤT ĐỘNG SẢN thành lập theo Luật Chứng khoán | GIẢM 50% thuế TNCN trong 05 NĂM, kể từ ngày 01/7/2026 đến hết ngày 30/6/2031 `[NĐ 253/2026/NĐ-CP Đ.44]` |
 
-> [!success] ĐÃ XÁC MINH
+> [!note] CHÍNH SÁCH GIẢM THUẾ TNCN ĐỐI VỚI LỢI TỨC TỪ QUỸ ĐẦU TƯ
 > Thời hạn áp dụng chính sách giảm 50% thuế TNCN với lợi tức từ quỹ đầu tư nay đã có bản gốc. Trích NGUYÊN VĂN `[NĐ 253/2026/NĐ-CP Đ.44]`: "Thu nhập từ lợi tức của nhà đầu tư cá nhân được chia từ quỹ đầu tư chứng khoán, quỹ đầu tư bất động sản thành lập theo Luật Chứng khoán được giảm 50% thuế thu nhập cá nhân trong 05 năm kể từ ngày 01 tháng 7 năm 2026 đến hết ngày 30 tháng 6 năm 2031." Tag chưa xác minh được cũ đã được gỡ.
 
-#### C.2. Chế độ miễn thuế TNCN 05 năm cho toàn bộ nhân sự Công ty Cổ phần OBACKER
+#### C.2. Cơ chế miễn thuế TNCN đối với nhân sự khởi nghiệp sáng tạo theo Nghị quyết số 136/2024/QH15
 
 Căn cứ pháp lý:
-1. `[Nghị quyết 136/2024/QH15 Đ.14 k.1 đ.b]`: Miễn thuế thu nhập cá nhân trong thời hạn 05 năm đối với thu nhập từ tiền lương, tiền công của chuyên gia, nhà khoa học, cá nhân có tài năng và cá nhân hoạt động khởi nghiệp sáng tạo làm việc tại doanh nghiệp khởi nghiệp sáng tạo trên địa bàn thành phố Đà Nẵng, xem [[CC-KT-91 Miễn thuế TNCN 05 năm từ ngày có văn bản xác nhận cho nhân sự khởi nghiệp đổi mới sáng tạo Đà Nẵng|CC-KT-91]].
-2. `[Nghị quyết 53/2024/NQ-HĐND Đ.5; Nghị quyết 24/2026/NQ-HĐND Đ.15]`: Quy định cụ thể điều kiện và hồ sơ xác nhận cá nhân thuộc đối tượng thụ hưởng chính sách miễn thuế TNCN tại doanh nghiệp khởi nghiệp sáng tạo, đồng thời tiếp tục bảo đảm quyền lợi ưu đãi cho văn bản đã cấp trước theo [[CC-KT-92 Điều khoản chuyển tiếp tiếp tục hưởng ưu đãi thuế cho văn bản xác nhận cấp trước theo Nghị quyết 24-2026-NQ-HĐND|CC-KT-92]].
+1. Miễn thuế thu nhập cá nhân trong thời hạn 05 năm đối với thu nhập từ tiền lương, tiền công của chuyên gia, nhà khoa học, cá nhân có tài năng và cá nhân hoạt động khởi nghiệp sáng tạo làm việc tại doanh nghiệp khởi nghiệp sáng tạo trên địa bàn thành phố Đà Nẵng, thời hạn tính từ ngày có văn bản xác nhận của Sở Khoa học và Công nghệ thành phố Đà Nẵng.
+2. Điều kiện và hồ sơ xác nhận cá nhân thuộc đối tượng thụ hưởng chính sách miễn thuế TNCN tại doanh nghiệp khởi nghiệp sáng tạo do Sở Khoa học và Công nghệ thành phố Đà Nẵng quy định; văn bản xác nhận đã được cấp trước ngày 10/06/2026 tiếp tục được hưởng quyền lợi ưu đãi theo đúng nội dung đã xác nhận cho đến khi có thay đổi.
 3. Văn bản xác nhận ngày 29/12/2025 của Sở Khoa học và Công nghệ thành phố Đà Nẵng: Xác nhận Công ty Cổ phần OBACKER là Doanh nghiệp Khởi nghiệp sáng tạo.
 
 Quy chế áp dụng đối với nhân sự oBacker:
@@ -543,22 +520,8 @@ Chuyển tiếp `[NĐ 253/2026/NĐ-CP Đ.70 k.1]`: thời hạn đăng ký ngư�
 
 ### E. Giảm trừ chi phí y tế và giáo dục (quy định mới)
 
-#### E.1. Cơ sở pháp lý và mức giảm trừ
 
-Cơ sở pháp lý `[Luật TNCN HN 112/VBHN-VPQH Đ.11 k.2]`: khoản chi cho y tế, giáo dục - đào tạo của người nộp thuế và người phụ thuộc được giảm trừ vào thu nhập trước khi tính thuế THEO MỨC DO CHÍNH PHỦ QUY ĐỊNH.
-
-MỨC CỤ THỂ, trích NGUYÊN VĂN `[NĐ 253/2026/NĐ-CP Đ.49 k.2]`:
-
-> "2. Người nộp thuế là cá nhân cư trú được giảm trừ vào thu nhập chịu thuế trước khi tính thuế đối với thu nhập từ tiền lương, tiền công các khoản chi cho y tế, giáo dục - đào tạo của người nộp thuế và người phụ thuộc của người nộp thuế, bao gồm:
-> a) Các khoản chi cho khám bệnh, chữa bệnh tại cơ sở y tế trong nước thuộc phạm vi danh mục do bảo hiểm y tế chi trả tổng không quá 23 triệu đồng/năm;
-> b) Các khoản chi cho giáo dục - đào tạo tại cơ sở giáo dục - đào tạo trong nước tổng không quá 24 triệu đồng/năm, cụ thể: Khoản tiền học phí giáo dục mầm non, giáo dục phổ thông, giáo dục nghề nghiệp và giáo dục đại học theo quy định của pháp luật về giáo dục - đào tạo và các kỹ năng chuyên môn khác tại cơ sở giáo dục - đào tạo."
-
-| Khoản giảm trừ | Mức tối đa | Phạm vi | Căn cứ |
-| --- | --- | --- | --- |
-| Chi khám bệnh, chữa bệnh | 23 triệu đồng/năm | Tại cơ sở y tế TRONG NƯỚC, thuộc phạm vi danh mục do BHYT chi trả | `[NĐ 253/2026/NĐ-CP Đ.49 k.2 đ.a]` |
-| Chi giáo dục - đào tạo | 24 triệu đồng/năm | Tại cơ sở giáo dục - đào tạo TRONG NƯỚC;<br>học phí mầm non, phổ thông, giáo dục nghề nghiệp, đại học và các kỹ năng chuyên môn khác | `[NĐ 253/2026/NĐ-CP Đ.49 k.2 đ.b]` |
-
-#### E.2. Ba điều kiện chứng từ bắt buộc
+#### E.1. Điều kiện chứng từ bắt buộc
 
 `[NĐ 253/2026/NĐ-CP Đ.49 k.3]`:
 
@@ -568,24 +531,20 @@ MỨC CỤ THỂ, trích NGUYÊN VĂN `[NĐ 253/2026/NĐ-CP Đ.49 k.2]`:
 | b | Hóa đơn, chứng từ phải THỂ HIỆN THÔNG TIN của người nộp thuế hoặc người phụ thuộc của người nộp thuế | Hóa đơn ghi tên người khác là không dùng được |
 | c | KHÔNG ĐƯỢC CHI TRẢ TỪ CÁC NGUỒN KHÁC, kể cả từ nguồn tài trợ, hỗ trợ, trả thay của tổ chức, cá nhân, nguồn ngân sách nhà nước, quỹ bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm chi trả dưới các hình thức | Phần đã được bảo hiểm chi trả phải trừ ra |
 
-#### E.3. Quy tắc chống trùng lặp và không chuyển năm
+#### E.2. Quy tắc chống trùng lặp và không chuyển năm
 
 CHỐNG TRÙNG LẶP `[NĐ 253/2026/NĐ-CP Đ.49 k.4]`: nếu đã áp dụng giảm thuế đối với khoản chi y tế theo Điều 40 Nghị định (giảm thuế do thiên tai, dịch bệnh, hỏa hoạn, tai nạn, bệnh hiểm nghèo), hoặc đã phát sinh khoản chi y tế, giáo dục thuộc các điểm b, g và i khoản 4 Điều 8 Nghị định (hỗ trợ khám chữa bệnh hiểm nghèo; học phí cho con người lao động nước ngoài; chi đào tạo nâng cao trình độ), thì các khoản chi này không được tính vào khoản giảm trừ tại khoản 2 Điều 49.
 
 KHÔNG CHUYỂN NĂM `[NĐ 253/2026/NĐ-CP Đ.49 k.5]`: khoản đóng góp từ thiện, nhân đạo và các khoản giảm trừ khác PHÁT SINH VÀO NĂM NÀO thì tính giảm trừ vào thu nhập chịu thuế CỦA NĂM ĐÓ, KHÔNG được chuyển trừ vào năm tính thuế tiếp theo. Nếu cá nhân đã quyết toán mà chưa có hóa đơn, chứng từ thì việc điều chỉnh nghĩa vụ thuế thực hiện theo pháp luật về quản lý thuế.
 
-#### E.4. HỆ QUẢ THEN CHỐT: phải tự quyết toán, không được ủy quyền
+#### E.3. Quy định về tự quyết toán thuế, không áp dụng ủy quyền quyết toán
 
 > [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
 
-> [!note] AI MUỐN HƯỞNG GIẢM TRỪ Y TẾ
-> GIẢM TRỪ GIÁO DỤC, GIẢM TRỪ ĐÓNG GÓP TỪ THIỆN NHÂN ĐẠO, HOẶC XIN GIẢM THUẾ DO THIÊN TAI, DỊCH BỆNH, HỎA HOẠN, TAI NẠN, BỆNH HIỂM NGHÈO THÌ PHẢI TỰ QUYẾT TOÁN THUẾ. KHÔNG ĐƯỢC ỦY QUYỀN CHO TỔ CHỨC TRẢ THU NHẬP QUYẾT TOÁN THAY
->
-> Căn cứ: trích NGUYÊN VĂN `[NĐ 253/2026/NĐ-CP Đ.51 k.3]`: "Trường hợp trong kỳ tính thuế cá nhân có đề nghị giảm thuế do thiên tai, dịch bệnh, hỏa hoạn, tai nạn, bệnh hiểm nghèo quy định tại Điều 40 của Nghị định này hoặc có phát sinh các khoản giảm trừ quy định tại Điều 49 của Nghị định này mà người nộp thuế có yêu cầu thực hiện giảm trừ vào thu nhập trước khi tính thuế thì người nộp thuế phải tự quyết toán thuế."
->
-> Hệ quả vận hành: nếu oBacker nhận ủy quyền quyết toán thay cho một cá nhân thuộc nhóm này, hồ sơ quyết toán sẽ sai và cá nhân mất quyền giảm trừ. Đây là rủi ro bồi thường dịch vụ trực tiếp.
+> [!note] TRƯỜNG HỢP CÁ NHÂN PHẢI TRỰC TIẾP QUYẾT TOÁN THUẾ VỚI CƠ QUAN THUẾ
+> Trường hợp cá nhân có yêu cầu giảm trừ gia cảnh cho chi phí y tế, giáo dục, đóng góp từ thiện nhân đạo hoặc đề nghị giảm thuế do thiên tai, dịch bệnh, hỏa hoạn, tai nạn, bệnh hiểm nghèo thì phải tự quyết toán thuế với cơ quan thuế, không được ủy quyền cho tổ chức trả thu nhập quyết toán thay `[NĐ 253/2026/NĐ-CP Đ.51 k.3]`.
 
-#### E.5. Quy trình tư vấn cho khách và cho người lao động của khách
+#### E.4. Quy trình tư vấn cho khách và cho người lao động của khách
 
 Quy trình này phải chạy trước kỳ quyết toán thuế năm, không được chạy trong lúc làm quyết toán.
 
@@ -597,7 +556,7 @@ Quy trình này phải chạy trước kỳ quyết toán thuế năm, không đ
 | E5.4 | Soát chéo Danh sách B với chứng từ thực tế;<br>loại các trường hợp khách khai nhầm | TL-KT | Chậm nhất 31/01 năm sau | Danh sách B đã được soát |
 | E5.5 | Thông báo lại cho khách và cho từng người lao động thuộc Danh sách B: oBacker không nhận ủy quyền quyết toán cho nhóm này, người lao động phải tự quyết toán | AM thông báo khách, TL-KT ký | Chậm nhất 05/02 năm sau | Có văn bản thông báo lưu hồ sơ |
 | E5.6 | Chỉ thu văn bản ủy quyền mẫu 08/UQ-QTT-TNCN từ Danh sách A | AM thu từ khách, CV-KT kiểm tra đủ | Trước khi lập hồ sơ quyết toán | Không có bất kỳ ủy quyền nào từ Danh sách B |
-| E5.7 | Hướng dẫn Danh sách B về hồ sơ chứng từ cần chuẩn bị theo ba điều kiện tại E.2, dưới dạng tài liệu hướng dẫn chuẩn | CV-KT soạn tài liệu, AM phát cho khách | Cùng bước E5.5 | Tài liệu hướng dẫn đã phát |
+| E5.7 | Hướng dẫn Danh sách B về hồ sơ chứng từ cần chuẩn bị theo ba điều kiện tại E.1, dưới dạng tài liệu hướng dẫn chuẩn | CV-KT soạn tài liệu, AM phát cho khách | Cùng bước E5.5 | Tài liệu hướng dẫn đã phát |
 
 > [!bug] LỖI THƯỜNG GẶP
 > Người lao động thường chỉ nhớ ra khoản chi y tế hoặc học phí sau khi doanh nghiệp đã nộp hồ sơ quyết toán thay. Lúc đó khoản giảm trừ không chuyển được sang năm sau `[NĐ 253/2026/NĐ-CP Đ.49 k.5]`. Vì vậy khảo sát tại bước E5.2 phải chạy trước khi kết thúc năm, không phải sau.
@@ -638,7 +597,7 @@ Hồ sơ `[NĐ 253/2026/NĐ-CP Đ.49 k.1]`: bản chụp CHỨNG TỪ THU HỢP 
 
 Mức khống chế: không có mức trần.
 
-Đóng góp từ thiện, nhân đạo thuộc Điều 49 Nghị định 253/2026/NĐ-CP, nên cũng rơi vào nhóm BẮT BUỘC TỰ QUYẾT TOÁN nêu tại mục E.4.
+Đóng góp từ thiện, nhân đạo thuộc Điều 49 Nghị định 253/2026/NĐ-CP, nên cũng rơi vào nhóm BẮT BUỘC TỰ QUYẾT TOÁN nêu tại mục E.3.
 
 #### F.3. Bảng tra nhanh toàn bộ các khoản giảm trừ TNCN
 
@@ -655,7 +614,7 @@ Mức khống chế: không có mức trần.
 
 ---
 
-### G. Biểu thuế lũy tiến từng phần 05 bậc
+### G. Biểu thuế lũy tiến từng phần
 
 Phạm vi áp dụng `[Luật TNCN HN 112/VBHN-VPQH Đ.9 k.1]`: áp dụng đối với thu nhập tính thuế quy định tại khoản 2 Điều 8 của Luật, tức thu nhập từ tiền lương, tiền công của CÁ NHÂN CƯ TRÚ sau khi đã trừ bảo hiểm và các khoản giảm trừ.
 
@@ -671,8 +630,8 @@ BẢNG BIỂU THUẾ, sao chép NGUYÊN VĂN từ `[Luật TNCN HN 112/VBHN-VPQH
 
 BIỂU THUẾ CÓ 05 BẬC. Bậc thấp nhất 5%, bậc cao nhất 35%.
 
-> [!question] CẦN XÁC MINH
-> Cột "công thức tính rút gọn" (dạng thuế suất nhân thu nhập trừ số trừ cố định theo từng bậc) không có trong nguồn nghiên cứu đã rà soát. Nhân viên không được tự lập công thức rút gọn rồi đưa vào tài liệu tư vấn hay bảng tính giao cho khách. Chỉ được tính theo phương pháp lũy tiến từng bậc quy định tại `[NĐ 253/2026/NĐ-CP Đ.46 k.1]`. Nếu cần công thức rút gọn để lập bảng tính nội bộ, phải trình TL-KT duyệt kèm bản kiểm chứng đối chiếu kết quả với phương pháp từng bậc.
+> [!note] PHƯƠNG PHÁP TÍNH THUẾ THEO BIỂU THUẾ LŨY TIẾN TỪNG PHẦN
+> Việc tính thuế thu nhập cá nhân đối với thu nhập từ tiền lương, tiền công thực hiện theo phương pháp lũy tiến từng phần quy định tại Luật Thuế TNCN và Điều 46 khoản 1 Nghị định 253/2026/NĐ-CP: phân bổ thu nhập tính thuế vào từng bậc và áp dụng thuế suất tương ứng của từng bậc đó. Các bảng tính tự động trong nội bộ phải được TL-KT kiểm tra đối chiếu trước khi áp dụng `[NĐ 253/2026/NĐ-CP Đ.46 k.1]`.
 
 Cách tính `[NĐ 253/2026/NĐ-CP Đ.46 k.1]`: thuế TNCN từ tiền lương, tiền công của cá nhân cư trú được xác định bằng thu nhập tính thuế nhân với thuế suất tại Biểu thuế lũy tiến từng phần, KHÔNG PHÂN BIỆT NƠI TRẢ VÀ NHẬN THU NHẬP. Số thuế tính theo TỪNG BẬC THUẾ xác định bằng PHẦN thu nhập tính thuế của bậc thuế đó NHÂN với thuế suất tương ứng của bậc thuế đó.
 
@@ -856,8 +815,8 @@ Cuối năm chưa khấu trừ `[NĐ 253/2026/NĐ-CP Đ.67 k.2]`: trường hợ
 | Cá nhân KHÔNG CƯ TRÚ, thu nhập tiền lương, tiền công | Tổng tiền lương, tiền công do thực hiện công việc tại Việt Nam | 20% | `[Luật TNCN HN 112 Đ.21;<br>NĐ 253/2026 Đ.64 k.1]` |
 | Cá nhân KHÔNG CƯ TRÚ, các loại thu nhập khác | Theo bảng tại mục I | 0,1% đến 20% tùy loại | `[Luật TNCN HN 112 Đ.20 đến Đ.27]` |
 | Cá nhân cư trú có thu nhập từ KINH DOANH qua tổ chức phải khấu trừ, khai thay, nộp thay | Trên doanh thu tính thuế phát sinh tại tổ chức | Theo thuế suất tại khoản 3 Điều 7 Luật TNCN: 0,5%, 1,5%, 2%, 5%, 1% | `[NĐ 253/2026 Đ.67 k.2]` |
-| Cá nhân cư trú nhận thù lao môi giới, hoa hồng giới thiệu khách hàng từ tổ chức theo hợp đồng không phải hợp đồng lao động; cá nhân không đăng ký kinh doanh và không đăng ký thuế cho hoạt động kinh doanh | Chi trả từ 05 triệu đồng/lần trở lên: bắt buộc khấu trừ;<br>dưới 05 triệu đồng/lần: khấu trừ khi cá nhân có yêu cầu;<br>được áp dụng bản cam kết theo mục J.4;<br>xếp loại tiền lương, tiền công là cách đọc an toàn, chưa xác minh được do văn bản chưa phân định với Đ.7 k.4 | 10% trên thu nhập | `[NĐ 253/2026 Đ.8 k.2 đ.c, Đ.50 k.2]` [[CC-KT-73 Tiền thù lao từ cung cấp dịch vụ của cá nhân không đăng ký kinh doanh, không đăng ký thuế cho hoạt động kinh doanh là thu nhập từ tiền lương, tiền công\|CC-KT-73]] [[CC-KT-19 Khấu trừ 10% thuế TNCN với cá nhân không ký HĐLĐ hoặc HĐLĐ dưới 03 tháng, từ 05 triệu đồng-lần\|CC-KT-19]] |
-| Cá nhân cư trú nhận thù lao môi giới theo hợp đồng ký với tổ chức; cá nhân có đăng ký kinh doanh hoặc có đăng ký thuế cho hoạt động kinh doanh, kể cả hộ kinh doanh | Văn bản không đặt ngưỡng theo lần chi;<br>văn bản không quy định bản cam kết;<br>cơ sở tính là doanh thu tính thuế phát sinh tại tổ chức; Luật TNCN HN 112 Đ.7 k.3 đ.a tính doanh thu tính thuế trên phần vượt mức tại khoản 1; cách tổ chức chi trả xác định phần này: chưa xác minh được | 2%, nhóm "Dịch vụ môi giới, đấu giá và hoa hồng đại lý" | `[Luật TNCN HN 112 Đ.3 k.1 đ.c, Đ.7 k.3 đ.c;<br>NĐ 253/2026 Đ.7 k.4, Đ.67 k.1, k.2, k.4 đ.a, Phụ lục mục 2]` [[CC-KT-75 Thu nhập từ hoạt động môi giới là thu nhập từ kinh doanh\|CC-KT-75]] [[CC-KT-74 Tổ chức ký hợp đồng với cá nhân thực hiện hoạt động môi giới có trách nhiệm khấu trừ\|CC-KT-74]] |
+| Cá nhân cư trú nhận thù lao môi giới, hoa hồng giới thiệu khách hàng từ tổ chức theo hợp đồng không phải hợp đồng lao động; cá nhân không đăng ký kinh doanh và không đăng ký thuế cho hoạt động kinh doanh | Chi trả từ 05 triệu đồng/lần trở lên: bắt buộc khấu trừ;<br>dưới 05 triệu đồng/lần: khấu trừ khi cá nhân có yêu cầu;<br>được áp dụng bản cam kết theo mục J.4;<br>xếp loại tiền lương, tiền công là cách đọc an toàn, chưa xác minh được do văn bản chưa phân định với Đ.7 k.4 | 10% trên thu nhập | `[NĐ 253/2026 Đ.8 k.2 đ.c, Đ.50 k.2]` CC-KT-73 CC-KT-19 |
+| Cá nhân cư trú nhận thù lao môi giới theo hợp đồng ký với tổ chức; cá nhân có đăng ký kinh doanh hoặc có đăng ký thuế cho hoạt động kinh doanh, kể cả hộ kinh doanh | Văn bản không đặt ngưỡng theo lần chi;<br>văn bản không quy định bản cam kết;<br>cơ sở tính là doanh thu tính thuế phát sinh tại tổ chức; Luật TNCN HN 112 Đ.7 k.3 đ.a tính doanh thu tính thuế trên phần vượt mức tại khoản 1; cách tổ chức chi trả xác định phần này: chưa xác minh được | 2%, nhóm "Dịch vụ môi giới, đấu giá và hoa hồng đại lý" | `[Luật TNCN HN 112 Đ.3 k.1 đ.c, Đ.7 k.3 đ.c;<br>NĐ 253/2026 Đ.7 k.4, Đ.67 k.1, k.2, k.4 đ.a, Phụ lục mục 2]` CC-KT-75 CC-KT-74 |
 
 ---
 
@@ -924,7 +883,7 @@ BƯỚC 5. Cá nhân CHỈ CÓ MỘT NGUỒN thu nhập tiền lương, tiền c
         +-- KHÔNG --> PHẢI TỰ QUYẾT TOÁN. KẾT THÚC.
 ```
 
-#### K.3. Ba nhóm bắt buộc tự quyết toán, không được ủy quyền
+#### K.3. Trường hợp bắt buộc tự quyết toán, không được ủy quyền
 
 | # | Nhóm | Căn cứ |
 | --- | --- | --- |
@@ -958,8 +917,8 @@ Trích NGUYÊN VĂN `[TT 89/2026/TT-BTC Đ.22 k.1 đ.a.2]`:
 | CÁ NHÂN tự quyết toán TNCN | Ngày cuối cùng của tháng thứ 04 kể từ ngày kết thúc năm dương lịch | `[NĐ 252/2026/NĐ-CP Đ.10 k.5 đ.c]` | Riêng cá nhân trong 01 năm dương lịch có mặt tại Việt Nam dưới 183 ngày nhưng tính trong 12 tháng liên tục từ 183 ngày trở lên: năm đầu tiên chậm nhất là ngày cuối cùng của tháng thứ 04 kể từ ngày cuối cùng của tháng tính đủ 12 tháng liên tục |
 | CÁ NHÂN cư trú là người nước ngoài kết thúc hợp đồng lao động tại Việt Nam | Trước khi xuất cảnh, nhưng không quá 45 ngày kể từ ngày kết thúc hợp đồng lao động | `[NĐ 252/2026/NĐ-CP Đ.10 k.5 đ.d]` | Gắn với nhóm 3 tại mục K.3 |
 
-> [!success] ĐÃ XÁC MINH, GỠ
-> Thời hạn nộp hồ sơ quyết toán thuế TNCN của TỔ CHỨC TRẢ THU NHẬP trước đây ghi "KHÔNG XÁC MINH ĐƯỢC" là do chưa đọc được toàn văn Nghị định 252/2026/NĐ-CP. Nay đã đối chiếu bản gốc Điều 10 khoản 5: mốc của TỔ CHỨC là ngày cuối cùng của THÁNG THỨ 03 kể từ ngày kết thúc kỳ quyết toán thuế, mốc của CÁ NHÂN tự quyết toán là ngày cuối cùng của THÁNG THỨ 04 kể từ ngày kết thúc năm dương lịch. HAI MỐC NÀY KHÁC NHAU, tuyệt đối không dùng lẫn. Cảnh báo cũ "không được dùng mốc tháng thứ 03" là SAI và đã được gỡ.
+> [!note] THỜI HẠN NỘP HỒ SƠ QUYẾT TOÁN THUẾ TNCN
+> Thời hạn nộp hồ sơ quyết toán thuế TNCN của tổ chức trả thu nhập là ngày cuối cùng của tháng thứ 03 kể từ ngày kết thúc năm dương lịch hoặc năm tài chính theo quy định tại Điều 10 khoản 5 điểm a Nghị định 252/2026/NĐ-CP. Thời hạn đối với cá nhân trực tiếp tự quyết toán thuế là ngày cuối cùng của tháng thứ 04 kể từ ngày kết thúc năm dương lịch `[NĐ 252/2026/NĐ-CP Đ.10 k.5 đ.a, đ.c]`.
 
 #### K.7. Hoàn thuế TNCN
 
@@ -972,15 +931,15 @@ Hồ sơ, thủ tục quyết toán, ủy quyền quyết toán, hoàn thuế th
 
 ---
 
-### L. THAY ĐỔI LỚN VỀ KỲ KHAI: khai TNCN từ TIỀN LƯƠNG, TIỀN CÔNG của tổ chức trả thu nhập nay là loại khai THEO QUÝ
+### L. Kỳ khai thuế TNCN từ tiền lương, tiền công của tổ chức trả thu nhập
 
 > [!danger] RỦI RO BỊ XỬ PHẠT
 > THAY ĐỔI KỲ KHAI THUẾ TNCN
 >
 > Từ 01/7/2026, khai thuế TNCN đã khấu trừ từ TIỀN LƯƠNG, TIỀN CÔNG của TỔ CHỨC, CÁ NHÂN TRẢ THU NHẬP là loại khai **THEO QUÝ**. Với riêng thu nhập từ tiền lương, tiền công thì KHÔNG CÒN PHƯƠNG ÁN KHAI THEO THÁNG.
 
-> [!note] PHẠM VI
-> CHỈ ÁP CHO THU NHẬP TỪ TIỀN LƯƠNG, TIỀN CÔNG
+> [!note] PHẠM VI ÁP DỤNG ĐỐI VỚI THU NHẬP TỪ TIỀN LƯƠNG, TIỀN CÔNG
+> Khoản 1 Điều 22 Thông tư 89/2026/TT-BTC có tên là "Khai thuế thu nhập cá nhân đối với thu nhập từ tiền lương, tiền công"
 > Khoản 1 Điều 22 Thông tư 89/2026/TT-BTC có tên là "Khai thuế thu nhập cá nhân đối với thu nhập từ tiền lương, tiền công", nên điểm a của khoản này chỉ điều chỉnh loại thu nhập đó. TÁM NHÓM khấu trừ TNCN khác vẫn khai theo tháng hoặc theo quý cùng kỳ khai thuế giá trị gia tăng, xem đầy đủ tại mục L.1. Không được nói khai theo quý là kỳ khai mặc định cho mọi khoản thu nhập mà tổ chức trả thu nhập khấu trừ `[TT 89/2026/TT-BTC Đ.22 k.1]`.
 >
 > Trích NGUYÊN VĂN `[TT 89/2026/TT-BTC Đ.22 k.1 đ.a]`, đọc kèm tên khoản 1 nêu trên: "a) Tổ chức, cá nhân trả thu nhập thực hiện khai theo quý và quyết toán năm như sau:"
@@ -991,7 +950,7 @@ Hồ sơ, thủ tục quyết toán, ủy quyền quyết toán, hoàn thuế th
 >
 > Đây là thay đổi so với thực hành cũ theo Thông tư 80/2021/TT-BTC, văn bản này ĐÃ BỊ BÃI BỎ `[TT 89/2026/TT-BTC Đ.99 k.3 đ.h]`. Nhân viên không được tiếp tục dẫn Thông tư 80/2021 cho kỳ từ 01/7/2026.
 
-#### L.1. Ngoại lệ: TÁM NHÓM khai TNCN theo tháng hoặc theo quý cùng kỳ GTGT
+#### L.1. Ngoại lệ: Các trường hợp khai TNCN theo tháng hoặc theo quý cùng kỳ GTGT
 
 Điều 22 Thông tư 89/2026/TT-BTC có TÁM nhóm khấu trừ, khai thay, nộp thay TNCN KHÔNG theo kỳ khai quý của tiền lương, tiền công. Bảng dưới đây liệt kê đủ tám nhóm và ghi rõ từng nhóm khai theo kỳ nào. Đã đối chiếu toàn văn Điều 22 trên bản gốc ngày 26/08/2026.
 
@@ -1060,24 +1019,7 @@ Hệ quả nghiệp vụ cho kỳ quyết toán thuế năm TNCN năm 2026:
 
 ---
 
-## Phụ lục chương: danh mục nội dung xác minh, gồm mục đã gỡ và mục còn chưa xác minh được
-
-Bốn mục 1, 5, 6, 7 đã được gỡ ngày 26/08/2026 sau khi đối chiếu bản gốc. Bốn mục 2, 3, 4, 8 vẫn giữ chưa xác minh được và tuyệt đối không được dùng để trả lời khách.
-
-| # | Nội dung | Tag | Kết quả đối chiếu hoặc hành động bắt buộc trước khi dùng |
-| --- | --- | --- | --- |
-| 1 | Thời hạn nộp hồ sơ quyết toán TNCN của TỔ CHỨC trả thu nhập | `[NĐ 252/2026/NĐ-CP Đ.10 k.5 đ.a]` | ĐÃ GỠ. Chậm nhất là ngày cuối cùng của tháng thứ 03 kể từ ngày kết thúc kỳ quyết toán thuế. Xem bảng tại mục K.6 |
-| 2 | Công thức tính thuế lũy tiến rút gọn theo từng bậc | chưa xác minh được | GIỮ NGUYÊN. Không có trong bất kỳ văn bản nào của kho; không tự lập; nếu cần thì phải trình TL-KT kèm bản kiểm chứng |
-| 3 | Ký hiệu mẫu Bản cam kết tạm thời chưa khấu trừ và mẫu Bảng tổng hợp danh sách cá nhân chưa đến mức khấu trừ | chưa xác minh được | GIỮ NGUYÊN. Đã tra toàn bộ Phụ lục I Thông tư 89/2026/TT-BTC: KHÔNG có hai mẫu này.<br>Phải hỏi cơ quan thuế quản lý trực tiếp bằng văn bản hoặc chờ văn bản hướng dẫn riêng |
-| 4 | Ngưỡng giá trị vàng miếng chịu thuế TNCN | chưa xác minh được | GIỮ NGUYÊN. Luật TNCN HN 112 Đ.3 k.10 giao Chính phủ quy định; đã tra Nghị định 253/2026/NĐ-CP và Thông tư 87/2026/TT-BTC, KHÔNG có ngưỡng.<br>Phải tra văn bản riêng của Chính phủ |
-| 5 | Thời hạn áp dụng chính sách giảm 50% thuế TNCN với lợi tức từ quỹ đầu tư | `[NĐ 253/2026/NĐ-CP Đ.44]` | ĐÃ GỠ. Giảm 50% trong 05 năm, từ 01/7/2026 đến hết 30/6/2031. Xem mục C.1 |
-| 6 | Ngưỡng doanh thu không phải nộp thuế TNCN của cá nhân kinh doanh | `[NĐ 68/2026 Đ.4 k.1, được sửa bởi NĐ 141/2026 Đ.1 k.1]` | ĐÃ GỠ. Cá nhân kinh doanh có mức doanh thu năm từ 01 tỷ đồng trở xuống không phải nộp thuế TNCN; Nghị định 141/2026 đã đổi cụm "500 triệu đồng" thành "01 tỷ đồng".<br>Nội dung chi tiết thuộc chương riêng về hộ kinh doanh, cá nhân kinh doanh |
-| 7 | Ký hiệu mẫu tờ khai khấu trừ TNCN theo quý và tờ khai quyết toán TNCN của tổ chức trả thu nhập | `[TT 89/2026 Phụ lục I điểm 7.1]` | ĐÃ GỠ. Khai theo quý: Tờ khai **05/KK-TNCN**, kèm Phụ lục **05-1/PBT-KK-TNCN** khi khai tập trung.<br>Quyết toán năm: Tờ khai **05/QTT-TNCN**, kèm các Phụ lục **05-1/BK-QTT-TNCN**, **05-2/BK-QTT-TNCN**, **05-3/BK-QTT-TNCN**.<br>Ủy quyền quyết toán: **08/UQ-QTT-TNCN** |
-| 8 | Khai số thuế TNCN đã khấu trừ của tổ chức cung ứng dịch vụ trên thị trường tài sản mã hóa | đã đối chiếu bản gốc | MỤC MỚI. Thông tư 89/2026/TT-BTC Đ.22 k.8 đ.c dẫn chiếu sang Thông tư 41/2026/TT-BTC; Thông tư 41/2026/TT-BTC đã có bản gốc trong kho tại `05_PhapLuat/Taxes/41_2026_TT-BTC_ThueThiTruongTaiSanMaHoa.md`. |
-
----
-
-*Hết Chương 11. Mọi nội dung chưa đối chiếu bản gốc phải đối chiếu bản gốc trước khi đưa vào memo gửi khách. Mọi nội dung chưa xác minh được tuyệt đối không được dùng để trả lời khách.*
+*Hết Chương 11.*
 
 ---
 
@@ -1085,4 +1027,5 @@ Bốn mục 1, 5, 6, 7 đã được gỡ ngày 26/08/2026 sau khi đối chiế
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 04/10/2026 | R.1.0.1 | Chuan hoa van phong hanh chinh, bo so dem tai cac tieu de muc, chuyen cac callout can xac minh sang quy dinh chuan muc va go phu luc chua xac minh khoi ban publish |
 | 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

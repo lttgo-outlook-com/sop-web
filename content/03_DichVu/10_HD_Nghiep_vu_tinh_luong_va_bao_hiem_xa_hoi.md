@@ -7,16 +7,12 @@ level: "Cấp 3, hướng dẫn nghiệp vụ"
 version: "R.1.0.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 27/09/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-SOP-LD Lao động và tiền lương"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-HB-51
 tags:
@@ -57,21 +53,10 @@ Tài liệu chuẩn hóa phương pháp tính trích nộp các khoản bảo hi
 3. Tính toán các khoản trích nộp theo lương: Bảo hiểm xã hội (BHXH), Bảo hiểm y tế (BHYT), Bảo hiểm thất nghiệp (BHTN), Bảo hiểm tai nạn lao động - bệnh nghề nghiệp (BHTNLĐ-BNN) và Kinh phí công đoàn (KPCĐ).
 4. Lập hồ sơ và gửi tờ khai biến động lao động (báo tăng, báo giảm, điều chỉnh mức đóng) trên Hệ thống giao dịch bảo hiểm xã hội điện tử.
 
-Không áp dụng cho việc hạch toán chi phí tiền lương vào sổ kế toán và lập tờ khai quyết toán thuế thu nhập cá nhân (do bộ phận Kế toán thực hiện theo [[03_OBK-SOP-KT_Ke_toan_va_thue|OBK-SOP-KT]]).
+Không áp dụng cho việc hạch toán chi phí tiền lương vào sổ kế toán và lập tờ khai quyết toán thuế thu nhập cá nhân (do bộ phận Kế toán thực hiện theo OBK-SOP-KT).
 
-## 3. CĂN CỨ PHÁP LÝ
 
-1. Bộ luật Lao động số 45/2019/QH14 (Điều 98, Điều 105, Điều 106, Điều 107, Điều 113, Điều 115).
-2. Nghị định số 145/2020/NĐ-CP hướng dẫn chi tiết thi hành một số điều của Bộ luật Lao động về điều kiện lao động và quan hệ lao động (Điều 54, 55, 56, 57).
-3. Luật Bảo hiểm xã hội số 41/2024/QH15 có hiệu lực từ ngày 01/07/2025 (quy định về mức tham chiếu, hành vi chậm đóng, trốn đóng bảo hiểm xã hội).
-4. Luật Việc làm số 38/2013/QH13 (các điều khoản về bảo hiểm thất nghiệp).
-5. Luật An toàn, vệ sinh lao động số 84/2015/QH13 (các điều khoản về bảo hiểm tai nạn lao động, bệnh nghề nghiệp).
-6. Nghị định số 283/2026/NĐ-CP quy định xử phạt vi phạm hành chính trong lĩnh vực lao động, bảo hiểm xã hội, đưa người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng.
-7. Quyết định số 595/QĐ-BHXH và Quyết định số 505/QĐ-BHXH của Bảo hiểm xã hội Việt Nam ban hành quy trình thu bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp, bảo hiểm tai nạn lao động, bệnh nghề nghiệp.
-8. [[Thông báo 6877-TB-BHXH năm 2026 về chuyển đổi sử dụng số định danh cá nhân thay thế mã số bảo hiểm xã hội|Thông báo số 6877/TB-BHXH]] ngày 26/08/2026 của Bảo hiểm xã hội TP. Hồ Chí Minh và Kế hoạch số 3115/KH-BHXH ngày 13/08/2026 của Bảo hiểm xã hội Việt Nam về việc chuyển đổi, sử dụng số định danh cá nhân / CCCD thay thế mã số bảo hiểm xã hội.
-9. [[Công văn 1363-LĐLĐ năm 2026 về đóng 2% kinh phí công đoàn qua tài khoản thu tập trung|Công văn số 1363/LĐLĐ]] năm 2026 của Liên đoàn Lao động TP. Hồ Chí Minh về việc đóng 2% kinh phí công đoàn qua tài khoản thu tập trung của Công đoàn Việt Nam.
-
-## 4. VAI TRÒ VÀ TRÁCH NHIỆM
+## 3. VAI TRÒ VÀ TRÁCH NHIỆM
 
 | Hoạt động | `CV-LD` | `TL-LD` | `AM` | `CV-KT` |
 | --- | --- | --- | --- | --- |
@@ -86,7 +71,7 @@ Không áp dụng cho việc hạch toán chi phí tiền lương vào sổ kế
 
 *Ghi chú: R = Người thực hiện chính, A = Người phê duyệt cuối cùng, S = Người hỗ trợ, C = Người được tham vấn, I = Người nhận thông tin.*
 
-## 5. ĐẦU VÀO BẮT BUỘC
+## 4. ĐẦU VÀO BẮT BUỘC
 
 Trước khi thực hiện tính toán, `CV-LD` phải thu thập đủ các tài liệu sau trên Hệ thống quản lý công việc và lưu trữ hồ sơ:
 
@@ -105,11 +90,11 @@ Trước khi thực hiện tính toán, `CV-LD` phải thu thập đủ các tà
    - Các khoản bổ sung khác xác định được mức tiền cụ thể hoặc biến đổi theo năng suất.
 5. Thông báo kết quả đóng bảo hiểm xã hội tháng liền trước (Mẫu C12-TS do cơ quan bảo hiểm xã hội phát hành).
 
-## 6. CÁC BƯỚC THỰC HIỆN
+## 5. CÁC BƯỚC THỰC HIỆN
 
 Quy trình thực hiện gồm 4 phần nghiệp vụ chính:
 
-### 6.1. Quy trình đối soát dữ liệu chấm công 3 bên
+### 5.1. Quy trình đối soát dữ liệu chấm công giữa các bên liên quan
 
 #### Bước 1: Kiểm tra tính toàn vẹn của dữ liệu thời gian
 - `CV-LD` nhập tệp dữ liệu thô từ thiết bị ghi nhận thời gian làm việc vào Bảng tính dữ liệu.
@@ -124,7 +109,7 @@ Quy trình thực hiện gồm 4 phần nghiệp vụ chính:
 - Làm tròn giờ làm thêm: Thực hiện theo quy chế tiền lương của khách hàng nhưng không được làm thiệt thòi quyền lợi của người lao động. Khung chuẩn: thời gian làm thêm dưới 15 phút (không tính hoặc tính theo quy chế); từ đủ 15 phút đến dưới 45 phút tính bằng 0.5 giờ; từ đủ 45 phút trở lên tính bằng 1.0 giờ.
 - Xuất Bảng tổng hợp công đã đối soát và ký xác nhận kiểm soát lớp 1.
 
-### 6.2. Quy tắc và công thức tính tiền lương làm thêm giờ, làm việc vào ban đêm
+### 5.2. Quy tắc và công thức tính tiền lương làm thêm giờ, làm việc vào ban đêm
 Theo quy định tại Điều 98 Bộ luật Lao động và các Điều 55, 56, 57 Nghị định số 145/2020/NĐ-CP, việc tính toán thực hiện theo các công thức quy chuẩn sau:
 
 Xác định Tiền lương giờ thực trả của ngày làm việc bình thường ($TLG$):
@@ -162,7 +147,7 @@ Cụ thể từng ngày:
 - Phần tiền lương làm thêm giờ, làm việc ban đêm cao hơn tiền lương tính theo ngày làm việc bình thường được miễn thuế TNCN.
 - Ví dụ: Làm thêm ngày thường hưởng $150\%$, thì phần $50\%$ vượt thêm được miễn thuế; làm việc ngày lễ hưởng $300\%$, thì phần $200\%$ vượt thêm được miễn thuế. `CV-LD` lập bảng kê chi tiết phần thu nhập miễn thuế này để bàn giao cho `CV-KT`.
 
-### 6.3. Quy tắc trích nộp bảo hiểm xã hội theo Mức tham chiếu mới
+### 5.3. Quy tắc trích nộp bảo hiểm xã hội theo Mức tham chiếu mới
 Căn cứ Luật Bảo hiểm xã hội số 41/2024/QH15:
 
 #### Nguyên tắc Mức tham chiếu
@@ -187,7 +172,7 @@ Toàn bộ quy định về "mức lương cơ sở" trước đây được bã
 - Mức tối thiểu đóng BHXH, BHYT, BHTN: Không được thấp hơn mức lương tối thiểu vùng đối với người lao động làm công việc giản đơn nhất trong điều kiện lao động bình thường.
 - Đối với công việc đòi hỏi qua học nghề, đào tạo nghề: Mức lương đóng phải cao hơn ít nhất $7\%$ so với mức lương tối thiểu vùng (nếu doanh nghiệp có cam kết trong thỏa ước hoặc hợp đồng lao động).
 
-### 6.4. Quy trình lập và nộp tờ khai biến động lao động (Mẫu D02-LT)
+### 5.4. Quy trình lập và nộp tờ khai biến động lao động (Mẫu D02-LT)
 
 #### Bước 1: Xác định các trường hợp phát sinh biến động trong tháng
 - Báo tăng lao động: Người lao động mới tuyển dụng bắt đầu làm việc theo HĐLĐ từ đủ 01 tháng trở lên; người lao động quay trở lại làm việc sau kỳ nghỉ thai sản hoặc nghỉ không hưởng lương từ 14 ngày làm việc trở lên trong tháng.
@@ -208,7 +193,7 @@ Toàn bộ quy định về "mức lương cơ sở" trước đây được bã
 - Tiếp nhận Thông báo xác nhận nộp hồ sơ điện tử và Thông báo kết quả giải quyết hồ sơ từ cơ quan bảo hiểm xã hội qua hệ thống giao dịch điện tử.
 - Trường hợp cơ quan BHXH từ chối: Kiểm tra nguyên nhân (số ĐDCN/CCCD chưa được đồng bộ hoặc xác thực với Cơ sở dữ liệu quốc gia về dân cư, chưa chốt sổ tại đơn vị cũ, thông tin cá nhân bị sai lệch), thực hiện hiệu chỉnh và nộp lại trong vòng 24 giờ làm việc.
 
-## 7. ĐIỂM KIỂM SOÁT BẮT BUỘC
+## 6. ĐIỂM KIỂM SOÁT BẮT BUỘC
 
 | Điểm kiểm soát | Nội dung kiểm tra | Tiêu chuẩn đạt | Hành động khi không đạt |
 | --- | --- | --- | --- |
@@ -255,7 +240,7 @@ Toàn bộ quy định về "mức lương cơ sở" trước đây được bã
 | 4 | Ký số và gửi tờ khai điện tử | Ký bằng chứng thư số công cộng của doanh nghiệp; nhận thông báo tiếp nhận hồ sơ thành công | Đạt / Không đạt | Ghi lại mã số hồ sơ giao dịch điện tử |
 | 5 | Đối chiếu Thông báo đóng BHXH (Mẫu C12-TS) | Đối chiếu số tiền phải nộp và số lao động trên thông báo của cơ quan BHXH với bảng lương nội bộ | Đạt / Không đạt | Làm việc với cơ quan BHXH nếu phát sinh chênh lệch |
 
-## 8. LỖI THƯỜNG GẶP VÀ CÁCH XỬ LÝ
+## 7. LỖI THƯỜNG GẶP VÀ CÁCH XỬ LÝ
 
 | Nhóm lỗi | Biểu hiện cụ thể | Nguyên nhân gốc rễ | Biện pháp phòng ngừa và xử lý |
 | --- | --- | --- | --- |
@@ -265,9 +250,9 @@ Toàn bộ quy định về "mức lương cơ sở" trước đây được bã
 | Lỗi phân loại khoản phụ cấp | Tính đóng BHXH trên cả tiền ăn ca, điện thoại, xăng xe, hoặc bỏ sót phụ cấp chức vụ | Không phân loại đúng các khoản thu nhập theo Điều 30 Thông tư 59/2015/TT-BLĐTBXH | Lập danh mục chuẩn các khoản phụ cấp của từng khách hàng, đánh dấu rõ cột chịu BHXH và miễn BHXH |
 | Lỗi không chốt sổ BHXH | Người lao động nghỉ việc không được xác nhận quá trình đóng BHXH đúng thời hạn | Đơn vị còn nợ tiền đóng BHXH hoặc chuyên viên chưa nộp hồ sơ chốt sổ | Đôn đốc khách hàng hoàn thành nộp tiền đóng BHXH đến tháng nghỉ việc; nộp hồ sơ chốt sổ trong vòng 07 ngày làm việc |
 
-## 9. ĐẦU RA VÀ NƠI LƯU
+## 8. ĐẦU RA VÀ NƠI LƯU
 
-### 9.1. Danh mục kết quả đầu ra
+### 8.1. Danh mục kết quả đầu ra
 1. Bảng chấm công đã đối soát và ký duyệt.
 2. Bảng thanh toán tiền lương và các khoản trích nộp theo lương tháng.
 3. Bảng kê thu nhập làm thêm giờ, làm việc ban đêm được miễn thuế TNCN.
@@ -275,12 +260,12 @@ Toàn bộ quy định về "mức lương cơ sở" trước đây được bã
 5. Tờ khai Mẫu D02-LT có xác nhận tiếp nhận thành công của cơ quan bảo hiểm xã hội.
 6. Thông báo kết quả đóng BHXH (Mẫu C12-TS) tháng đối chiếu.
 
-### 9.2. Quy cách lưu trữ
+### 8.2. Quy cách lưu trữ
 - Toàn bộ hồ sơ số hóa được lưu trữ trên Hệ thống quản lý công việc và lưu trữ hồ sơ theo cấu trúc:
   `ThuMucLuuTru / [Nam] / KhachHang / [MaKhachHang]_[TenDoanhNghiep] / LaoDong / BangLuong_[Nam]_[Thang] /`
 - Thời hạn lưu trữ tối thiểu: 05 năm đối với chứng từ tiền lương và hồ sơ bảo hiểm xã hội.
 
-## 10. CHỈ SỐ THEO DÕI
+## 9. CHỈ SỐ THEO DÕI
 
 1. Tỷ lệ chính xác của bảng lương phát hành: Đạt $100\%$ không phát sinh khiếu nại sai số học hoặc sai công thức quy định.
 2. Tỷ lệ hoàn thành bảng lương đúng hạn nội bộ: Đạt tối thiểu $98\%$ các chu kỳ lương trong năm.

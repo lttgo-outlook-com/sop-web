@@ -4,19 +4,15 @@ code: "OBK-SOP-NB-16"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.0"
+version: "R.1.0.1"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 27/09/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-SOP-NB-00 Chuẩn vận hành nội bộ"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-SOP-NB-16
 tags:
@@ -32,7 +28,7 @@ tags:
 | Mã tài liệu | OBK-SOP-NB-16 |
 | Tên tài liệu | Quy trình kiểm toán nội bộ và kiểm soát tuân thủ |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ. Thi hành [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen\|OBK-QCTC-02]] Quy chế tổ chức và phân quyền |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.0.1, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 27/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -78,20 +74,7 @@ Quy trình này thiết lập cơ chế kiểm toán nội bộ độc lập, kh
 
 ---
 
-## 3. Căn cứ pháp lý
-
-- Luật Doanh nghiệp số 59/2020/QH14 ngày 17/06/2020: Điều 153 (Hội đồng quản trị), Điều 154 (Chủ tịch Hội đồng quản trị);
-- Luật Kế toán số 88/2015/QH13 ngày 20/11/2015 (Văn bản hợp nhất số 41/VBHN-VPQH năm 2020): Điều 39 (Kiểm soát nội bộ và kiểm toán nội bộ);
-- Nghị định số 05/2019/NĐ-CP ngày 22/01/2019 của Chính phủ về kiểm toán nội bộ: Điều 4 (Mục tiêu), Điều 5 (Nguyên tắc cơ bản), Điều 6 (Yêu cầu bảo đảm tuân thủ nguyên tắc cơ bản), Điều 10 khoản 3 (Thuê tổ chức kiểm toán độc lập), Điều 12 (Quy chế kiểm toán nội bộ), Điều 14 (Kế hoạch), Điều 16 (Báo cáo kiểm toán);
-- Thông tư số 99/2025/TT-BTC ngày 27/11/2025 của Bộ Tài chính hướng dẫn chế độ kế toán doanh nghiệp;
-- Nghị định số 13/2023/NĐ-CP ngày 17/04/2023 của Chính phủ về bảo vệ dữ liệu cá nhân;
-- Điều lệ tổ chức và hoạt động của Công ty cổ phần oBacker;
-- [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] Quy chế tài chính nội bộ;
-- [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen|OBK-QCTC-02]] Quy chế tổ chức và phân quyền.
-
----
-
-## 4. Vai trò và trách nhiệm
+## 3. Vai trò và trách nhiệm
 
 | Vai trò | Trách nhiệm trong quy trình kiểm toán | Quyền hạn và giới hạn |
 | --- | --- | --- |
@@ -111,17 +94,17 @@ Quy trình này thiết lập cơ chế kiểm toán nội bộ độc lập, kh
 
 ---
 
-## 5. Đầu vào bắt buộc
+## 4. Đầu vào bắt buộc
 
 1. Quyết định kiểm toán nội bộ của `HĐQT` (nêu rõ phạm vi, thời gian, thành phần đoàn kiểm toán hoặc tổ chức kiểm toán độc lập được thuê).
 2. Dữ liệu tài chính và kế toán: sao kê tài khoản ngân hàng đủ các tài khoản, biên bản kiểm kê quỹ tiền mặt theo [[KQ-01_Kiem_ke_quy_tien_mat|KQ-01]], bảng cân đối số phát sinh, sổ cái TK 111, 112, 131, 331, 3387, 511, 242, và sổ theo dõi doanh thu trả trước theo [[DT-02_So_theo_doi_doanh_thu_tra_truoc_va_phan_bo|DT-02]].
-3. Dữ liệu thuế và lao động: tờ khai thuế giá trị gia tăng, tờ khai thuế thu nhập cá nhân, tờ khai tạm tính và quyết toán thuế thu nhập doanh nghiệp, tờ khai thuế nhà thầu nước ngoài, báo cáo trích nộp bảo hiểm xã hội, bảng lương chuẩn theo [[LU-01_Bang_theo_doi_va_thanh_toan_tien_luong_chuan|LU-01]], và hồ sơ hợp đồng lao động theo [[HD-01_So_theo_doi_hop_dong_lao_dong_va_thu_viec|HD-01]].
+3. Dữ liệu thuế và lao động: tờ khai thuế giá trị gia tăng, tờ khai thuế thu nhập cá nhân, tờ khai tạm tính và quyết toán thuế thu nhập doanh nghiệp; tờ khai thuế nhà thầu nước ngoài, báo cáo trích nộp bảo hiểm xã hội, bảng lương chuẩn theo LU-01, và hồ sơ hợp đồng lao động theo HD-01.
 4. Dữ liệu vận hành và chất lượng: bảng theo dõi trạng thái công việc và SLA theo [[CV-01_Bang_theo_doi_trang_thai_cong_viec_sla_va_kpi|CV-01]], sổ kiểm soát chất lượng và CAPA theo [[CL-01_So_theo_doi_kiem_soat_chat_luong_va_nhat_ky_sai_sot_capa|CL-01]], sổ tiếp nhận và xử lý khiếu nại theo [[KN-01_So_tiep_nhan_va_xu_ly_khieu_nai_khach_hang|KN-01]].
 5. Dữ liệu an toàn thông tin và tài sản: sổ theo dõi đóng dấu và ký số theo [[OBK-SOP-NB-07_Quan_ly_con_dau_va_chu_ky_so|OBK-SOP-NB-07]], sổ theo dõi tài sản và công cụ dụng cụ theo [[TS-01_So_theo_doi_tai_san_va_cong_cu|TS-01]], nhật ký sự cố an toàn dữ liệu cá nhân theo [[DL-01_Nhat_ky_theo_doi_su_co_du_lieu_ca_nhan|DL-01]].
 
 ---
 
-## 6. Các bước thực hiện
+## 5. Các bước thực hiện
 
 Quy trình kiểm toán nội bộ độc lập gồm 6 bước:
 
@@ -165,19 +148,19 @@ Quy trình kiểm toán nội bộ độc lập gồm 6 bước:
    - Kiểm kê đột xuất quỹ tiền mặt, đối chiếu số dư sổ quỹ với biên bản kiểm kê theo [[KQ-01_Kiem_ke_quy_tien_mat|KQ-01]];
    - Kiểm tra việc hạch toán và ghi nhận doanh thu trả trước từ TK 3387 sang TK 511 theo kỳ dịch vụ thực tế tại [[DT-02_So_theo_doi_doanh_thu_tra_truoc_va_phan_bo|DT-02]];
    - Kiểm tra việc phân bổ chi phí trả trước TK 242 bảo đảm đúng niên độ và đúng mục đích sử dụng;
-   - Rà soát tuổi nợ phải thu khách hàng TK 131 tại [[CN-01_So_theo_doi_cong_no_phai_thu_va_tuoi_no|CN-01]], việc trích lập dự phòng phải thu khó đòi;
-   - Rà soát tính hợp pháp, hợp lệ của chứng từ đối với các giao dịch chi tiêu lớn vượt hạn mức thẩm quyền tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]].
+    - Rà soát tuổi nợ phải thu khách hàng TK 131 tại CN-01, việc trích lập dự phòng phải thu khó đòi;
+    - Rà soát tính hợp pháp, hợp lệ của chứng từ đối với các giao dịch chi tiêu lớn vượt hạn mức thẩm quyền tại OBK-QCTC-01.
 
 2. **Phân hệ 2: Kiểm toán tuân thủ pháp lý và thuế:**
    - Kiểm tra tính chính xác của các hồ sơ khai thuế (GTGT, TNCN, TNDN, thuế nhà thầu FCT);
-   - Đối chiếu tiến độ nộp tờ khai và nộp thuế theo lịch tuần thủ tại [[TH-01_Bang_theo_doi_tien_do_khai_thue_va_bctc|TH-01]];
+    - Đối chiếu tiến độ nộp tờ khai và nộp thuế theo lịch tuần thủ tại TH-01;
    - Kiểm tra việc lập hồ sơ, trích nộp bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp theo đúng mức lương đóng và thời hạn do pháp luật quy định;
    - Rà soát việc ký kết hợp đồng lao động, chấm công, phê duyệt làm thêm giờ và thực hiện kỷ luật lao động;
    - Kiểm tra tính chuẩn mực và thẩm quyền ký kết các hợp đồng cung cấp dịch vụ cho khách hàng.
 
 3. **Phân hệ 3: Kiểm toán vận hành và SLA:**
    - Kiểm tra việc tuân thủ các bước nghiệp vụ của các bộ phận theo quy trình SOP đã ban hành;
-   - Đo lường thời hạn tiếp nhận T1 và thời hạn trả kết quả T2 cho khách hàng theo Bảng tra SLA [[CV-01_Bang_theo_doi_trang_thai_cong_viec_sla_va_kpi|CV-01]];
+    - Đo lường thời hạn tiếp nhận T1 và thời hạn trả kết quả T2 cho khách hàng theo Bảng tra SLA CV-01;
    - Đánh giá chất lượng hồ sơ dịch vụ và tỷ lệ lỗi phân cấp từ M1 đến M6 trên Sổ [[CL-01_So_theo_doi_kiem_soat_chat_luong_va_nhat_ky_sai_sot_capa|CL-01]];
    - Kiểm tra việc tuân thủ nguyên tắc kiểm soát hai lớp và tiến độ thực hiện các hành động khắc phục, phòng ngừa (CAPA).
 
@@ -208,16 +191,16 @@ Quy trình kiểm toán nội bộ độc lập gồm 6 bước:
 
 ---
 
-## 7. Điểm kiểm soát bắt buộc
+## 6. Điểm kiểm soát bắt buộc
 
 1. **Độc lập và bảo mật tuyệt đối:** Đoàn kiểm toán làm việc độc lập, không báo cáo qua trung gian Ban điều hành (`CEO`, `COO`). Nghiêm cấm mọi hành vi can thiệp, sửa chữa số liệu hoặc trì hoãn gửi báo cáo kiểm toán lên `HĐQT`.
 2. **Quyền tiếp cận đầy đủ mọi dữ liệu:** Đoàn kiểm toán được tiếp cận 100% tài liệu, dữ liệu, tài khoản hệ thống, kho quỹ, tài sản và được quyền phỏng vấn bất kỳ nhân sự nào thuộc oBacker để phục vụ mục đích kiểm toán.
-3. **Cảnh báo tức thời đối với rủi ro mức Cao:** Trường hợp phát hiện hành vi gian lận tài chính, thất thoát tài sản lớn, vi phạm pháp luật nghiêm trọng hoặc nguy cơ lộ lọt dữ liệu khách hàng, Trưởng đoàn kiểm toán có nghĩa vụ báo cáo trực tiếp ngay trong vòng 24 giờ cho Chủ tịch `HĐQT`.
+3. **Cảnh báo tức thời đối với rủi ro mức Cao:** Trường hợp phát hiện hành vi gian lận tài chính, thất thoát tài sản lớn, vi phạm pháp luật nghiêm trọng hoặc nguy cơ lộ lọt dữ liệu khách hàng; Trưởng đoàn kiểm toán có nghĩa vụ báo cáo trực tiếp ngay trong vòng 24 giờ cho Chủ tịch `HĐQT`.
 4. **Bắt buộc để lại dấu vết giải trình:** 100% các phát hiện kiểm toán phải có bằng chứng đối chiếu cụ thể và được lưu giữ hồ sơ đầy đủ; mọi ý kiến giải trình của đơn vị được kiểm toán phải bằng văn bản có chữ ký của người đứng đầu bộ phận.
 
 ---
 
-## 8. Lỗi thường gặp và cách xử lý
+## 7. Lỗi thường gặp và cách xử lý
 
 1. **Bộ phận được kiểm toán chậm cung cấp tài liệu:** Khi quá thời hạn 02 ngày làm việc mà bộ phận chưa cung cấp đủ hồ sơ, Trưởng đoàn kiểm toán phát thông báo nhắc nhở lần 1; sau 24 giờ tiếp theo nếu chưa cung cấp, lập biên bản ghi nhận hành vi không hợp tác và báo cáo trực tiếp thành viên `HĐQT` phụ trách để xử lý theo thẩm quyền.
 2. **Số dư kế toán chênh lệch so với sao kê ngân hàng hoặc kiểm kê quỹ:** Yêu cầu `KTT` và chuyên viên phụ trách giải trình nguyên nhân chênh lệch trong vòng 24 giờ. Trường hợp có dấu hiệu lạm dụng hoặc thu chi ngoài sổ sách, đoàn kiểm toán niêm phong sổ quỹ và báo cáo ngay Chủ tịch `HĐQT`.
@@ -226,7 +209,7 @@ Quy trình kiểm toán nội bộ độc lập gồm 6 bước:
 
 ---
 
-## 9. Đầu ra và nơi lưu
+## 8. Đầu ra và nơi lưu
 
 | STT | Tên tài liệu đầu ra | Người lập / Ký | Nơi lưu trữ bản gốc | Thời hạn lưu trữ |
 | --- | --- | --- | --- | --- |
@@ -238,7 +221,7 @@ Quy trình kiểm toán nội bộ độc lập gồm 6 bước:
 
 ---
 
-## 10. Chỉ số theo dõi
+## 9. Chỉ số theo dõi
 
 | Mã chỉ số | Tên chỉ số theo dõi | Cách tính và nguồn đo | Tần suất | Mục tiêu chuẩn |
 | --- | --- | --- | --- | --- |
@@ -253,4 +236,4 @@ Quy trình kiểm toán nội bộ độc lập gồm 6 bước:
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 30/09/2026 | R.1.0.1 | Chia 4 câu dài ở căn cứ pháp lý, dữ liệu thuế và lao động, nghĩa vụ báo cáo rủi ro mức Cao thành câu ngắn, không đổi nghĩa |

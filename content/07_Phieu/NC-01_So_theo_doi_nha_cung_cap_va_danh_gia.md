@@ -4,19 +4,15 @@ code: "NC-01"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-TTT-05 Cách làm phiếu thao tác"
-law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - NC-01
 tags:
@@ -29,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | NC-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -40,6 +36,7 @@ tags:
 | **Ai dùng** | `KTV`, `AD-KT`, Quản lý trực tiếp (`TL`), `KTT` |
 | **Sinh từ** | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 24; Quyết định chỉ đạo `VQ-07`;<br>[[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] |
 | **Ngày làm phiếu** | 27/09/2026 |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
@@ -120,7 +117,7 @@ Mỗi tiêu chí được chấm theo thang điểm từ 0 điểm đến 100 đ
 
 ## ĐIỂM KIỂM SOÁT BẮT BUỘC
 
-1. **Điểm kiểm soát KS-NC-01 (Kiểm soát thông tin thụ hưởng):** Trước mỗi lần chuyển tiền thanh toán, `KTV` và `KTT` đối chiếu số tài khoản ngân hàng trên Lệnh chi với Số tài khoản đã ghi nhận trong Sổ NC-01. Mọi trường hợp thay đổi số tài khoản phải có văn bản thông báo chính thức có chữ ký của người đại diện pháp luật bên nhà cung cấp theo đúng thủ tục tại [[SC-01_Nhan_thong_bao_doi_so_tai_khoan|SC-01]].
+1. **Điểm kiểm soát KS-NC-01 (Kiểm soát thông tin thụ hưởng):** Trước mỗi lần chuyển tiền thanh toán, `KTV` và `KTT` đối chiếu số tài khoản ngân hàng trên Lệnh chi với Số tài khoản đã ghi nhận trong Sổ NC-01. Mọi trường hợp thay đổi số tài khoản phải có văn bản thông báo chính thức có chữ ký của người đại diện pháp luật bên nhà cung cấp theo đúng thủ tục tại SC-01.
 2. **Điểm kiểm soát KS-NC-02 (Kiểm soát tính hợp lệ của hóa đơn):** Hóa đơn điện tử của nhà cung cấp phải được tra cứu xác thực trên Cổng thông tin hóa đơn điện tử của cơ quan thuế trước khi hạch toán chi phí và thực hiện thanh toán.
 
 ## QUY TRÌNH LUÂN CHUYỂN VÀ LƯU TRỮ
@@ -141,15 +138,6 @@ Sổ theo dõi được `KTV` lưu giữ trên hệ thống cơ sở dữ liệu
 
 Việc mua sắm hàng hóa và dịch vụ nội bộ phát sinh thường xuyên với nhiều đối tác khác nhau. Sổ theo dõi tập trung giúp oBacker kiểm soát chặt chẽ thông tin pháp lý và thông tin ngân hàng của đối tác, ngăn ngừa rủi ro chuyển nhầm tiền hoặc gian lận thanh toán, bảo đảm toàn bộ chi phí mua sắm có đủ hóa đơn chứng từ hợp pháp để tính vào chi phí được trừ khi xác định nghĩa vụ thuế thu nhập doanh nghiệp, đồng thời sàng lọc định kỳ để duy trì các nhà cung cấp có chất lượng dịch vụ tốt.
 
-### 2. Căn cứ quy định và pháp luật liên quan
-
-| Mục | Căn cứ | Nội dung trích dẫn hoặc áp dụng |
-| --- | --- | --- |
-| Quy chế tài chính | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 24 | Kiểm soát thanh toán dịch vụ và quản trị đối tác cung ứng |
-| Chỉ đạo điều hành | Quyết định chỉ đạo `VQ-07` | Quy định vai trò `KTV` lưu giữ, cập nhật danh mục nhà cung cấp; `KTT` kiểm soát định kỳ |
-| Quy trình mua sắm | [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] | Tiêu chuẩn lựa chọn nhà cung cấp, lập đề nghị thanh toán và kiểm soát chứng từ |
-| Hóa đơn điện tử | Nghị định số 254/2026/NĐ-CP và Thông tư số 91/2026/TT-BTC | Nguyên tắc lập, tra cứu và sử dụng hóa đơn điện tử hợp pháp |
-| Thanh toán không dùng tiền mặt | Nghị định số 52/2024/NĐ-CP | Quy định về thanh toán không dùng tiền mặt qua tài khoản ngân hàng chính chủ |
 
 ---
 
@@ -157,4 +145,4 @@ Việc mua sắm hàng hóa và dịch vụ nội bộ phát sinh thường xuy�
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu NC-01 về Sổ cái OBK-MSR |

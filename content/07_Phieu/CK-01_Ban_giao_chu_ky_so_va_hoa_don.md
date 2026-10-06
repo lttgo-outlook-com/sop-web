@@ -4,19 +4,15 @@ code: "CK-01"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-TTT-05 Cách làm phiếu thao tác"
-law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - CK-01
 tags:
@@ -29,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | CK-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -40,6 +36,7 @@ tags:
 | **Ai dùng** | `KTV`, `AM` và Khách hàng nhận bàn giao |
 | **Sinh từ** | [[PL_H_Quy_trinh_chu_ky_so_va_hoa_don_dien_tu\|OBK-SOP-PL-H]] mục 5 |
 | **Ngày làm phiếu** | 27/09/2026 |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
@@ -94,11 +91,6 @@ Lập thành 02 bản chính có giá trị pháp lý như nhau: 01 bản giao k
 
 Xác lập bằng chứng bàn giao quyền kiểm soát công cụ ký số và hóa đơn tài chính cho khách hàng, bảo đảm khách hàng đã thay đổi mã PIN bảo mật cá nhân, phòng ngừa tranh chấp về trách nhiệm quản lý chứng từ thuế.
 
-### 2. Căn cứ quy định và pháp luật liên quan
-
-| Mục | Nguồn | Nội dung |
-| --- | --- | --- |
-| Quy trình bàn giao | [[PL_H_Quy_trinh_chu_ky_so_va_hoa_don_dien_tu\|OBK-SOP-PL-H]] mục 5 | Lập biên bản bàn giao thiết bị, tài khoản và hướng dẫn đổi mã PIN |
 
 ---
 
@@ -106,4 +98,4 @@ Xác lập bằng chứng bàn giao quyền kiểm soát công cụ ký số và
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu CK-01 về Sổ cái OBK-MSR |

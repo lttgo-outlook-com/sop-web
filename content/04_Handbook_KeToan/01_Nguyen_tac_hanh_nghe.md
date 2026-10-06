@@ -4,19 +4,16 @@ code: "OBK-SOP-01"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.0"
+version: "R.1.0.1"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 25/08/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
 parent: "OBK-SOP-KT Kế toán và thuế"
 next_review: "Chậm nhất 25/02/2027"
 chapter: "Nguyên tắc hành nghề và đạo đức nghề nghiệp"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-SOP-01
 tags:
@@ -33,7 +30,7 @@ tags:
 | Mã tài liệu | OBK-SOP-01 |
 | Tên chương | Nguyên tắc hành nghề và đạo đức nghề nghiệp |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.0.1, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -46,20 +43,10 @@ tags:
 
 ## CẢNH BÁO MỞ ĐẦU CHƯƠNG
 
-> [!question] CẦN XÁC MINH
-> MỘT PHẦN NỘI DUNG VỀ ĐIỀU KIỆN HÀNH NGHỀ VÀ TOÀN BỘ NỘI DUNG VỀ CHUẨN MỰC ĐẠO ĐỨC TRONG CHƯƠNG NÀY CHƯA CÓ NGUỒN GỐC TRONG KHO
->
-> 1. Kho tài liệu nội bộ của oBacker ĐÃ CÓ Luật Kế toán bản hợp nhất số 41/VBHN-VPQH ngày 16/3/2026. Các nội dung lấy trực tiếp từ luật này đã đối chiếu bản gốc, gồm: hành vi bị nghiêm cấm tại Điều 13, chữ ký trên báo cáo tài chính tại Điều 29 khoản 2 điểm d, thời hạn nộp báo cáo tài chính năm tại Điều 29 khoản 3, thời hạn lưu trữ tài liệu kế toán tại Điều 41, tiêu chuẩn kế toán trưởng tại Điều 54 khoản 1 và người phụ trách kế toán tại Điều 53 khoản 4, và Điều 70a về cung cấp dịch vụ kế toán của tổ chức kinh doanh dịch vụ làm thủ tục về thuế. Kho có Nghị định 174/2016/NĐ-CP quy định chi tiết một số điều của Luật Kế toán, dùng cho danh mục lưu trữ, tiêu hủy tài liệu kế toán tại mục 6.11 và điều kiện kinh doanh, hành nghề dịch vụ kế toán tại mục 6.10.1; có Nghị định 41/2018/NĐ-CP đã sửa đổi bởi Nghị định 132/2026/NĐ-CP, dùng cho mức phạt hành vi bố trí hoặc thuê kế toán trưởng không đủ tiêu chuẩn tại mục 6.1.4. Kho VẪN CHƯA có nghị định hướng dẫn riêng Điều 70a về cung cấp dịch vụ kế toán của tổ chức kinh doanh dịch vụ làm thủ tục về thuế và chưa có mức phạt cho 13 hành vi còn lại bị nghiêm cấm tại Điều 13. Hệ thống Chuẩn mực đạo đức nghề nghiệp kế toán, kiểm toán (Thông tư 70/2015/TT-BTC) và thủ tục cấp Giấy chứng nhận đăng ký hành nghề dịch vụ kế toán (Thông tư 296/2016/TT-BTC) đã có toàn văn trong kho.
->
-> 2. Hệ quả bắt buộc: những nội dung sau vẫn gắn chưa xác minh được: thủ tục và hồ sơ cấp Giấy chứng nhận đủ điều kiện kinh doanh dịch vụ kế toán theo Điều 70a, thủ tục cấp Giấy chứng nhận đăng ký hành nghề cho cá nhân, số giờ cập nhật kiến thức cụ thể, mức xử phạt cho các hành vi khác ngoài hành vi bố trí hoặc thuê kế toán trưởng không đủ tiêu chuẩn, và nội dung cụ thể của chuẩn mực đạo đức nghề nghiệp. **không được dùng để trả lời khách hàng, không được đưa vào hợp đồng, không được đưa vào hồ sơ năng lực, không được dùng làm căn cứ kỷ luật nội bộ khi chưa tra cứu bản gốc.**
->
-> 2b. TUYỆT ĐỐI KHÔNG nêu mức phạt cho các hành vi khác bị nghiêm cấm tại Điều 13 Luật Kế toán, trừ hành vi bố trí hoặc thuê người làm kế toán trưởng không đủ tiêu chuẩn tại khoản 8, đã có mức phạt tại mục 6.1.4. Nghị định xử phạt cho 13 hành vi còn lại chưa đối chiếu được.
->
-> 3. Trong chương này có hai loại nội dung khác hẳn nhau về giá trị pháp lý. Loại thứ nhất là QUY ĐỊNH NỘI BỘ oBacker: đây là chính sách do công ty tự đặt ra, có hiệu lực bắt buộc với nhân viên theo quan hệ lao động và quy chế nội bộ, không phải quy phạm pháp luật, không cần tag pháp lý. Loại thứ hai là TRÍCH DẪN PHÁP LUẬT: bắt buộc có tag. Nhân viên phải phân biệt được hai loại này khi trao đổi với khách.
->
-> 4. Sáu nguyên tắc hành nghề tại mục 6.4 được thiết kế theo tinh thần chung của nghề kế toán và là quy định nội bộ oBacker. Tên gọi của các nguyên tắc có thể trùng với tên các nguyên tắc trong chuẩn mực đạo đức nghề nghiệp, nhưng **nội dung diễn giải tại chương này là diễn giải nội bộ, không phải trích dẫn chuẩn mực**. Khi cần viện dẫn chuẩn mực trong văn bản gửi ra ngoài, phải mở bản gốc chuẩn mực.
->
-> 5. Việc ưu tiên của Legal R&D, COO duyệt nguồn lực: bổ sung vào kho nội bộ nghị định hướng dẫn riêng Điều 70a về cung cấp dịch vụ kế toán của tổ chức kinh doanh dịch vụ làm thủ tục về thuế, và nghị định xử phạt cho 13 hành vi còn lại bị nghiêm cấm tại Điều 13 Luật Kế toán; Thông tư 296/2016/TT-BTC về đăng ký hành nghề cá nhân và Thông tư 70/2015/TT-BTC về chuẩn mực đạo đức nghề nghiệp đã có toàn văn trong kho.
+> [!note] CĂN CỨ ÁP DỤNG QUY ĐỊNH PHÁP LUẬT VÀ NỘI QUY HÀNH NGHỀ
+> 1. Quy định pháp luật kế toán: Các nội dung viện dẫn Luật Kế toán hợp nhất 41/VBHN-VPQH, Nghị định 174/2016/NĐ-CP, Nghị định 41/2018/NĐ-CP (sửa đổi bởi Nghị định 132/2026/NĐ-CP), Chuẩn mực đạo đức nghề nghiệp kế toán, kiểm toán (Thông tư 70/2015/TT-BTC) và thủ tục đăng ký hành nghề (Thông tư 296/2016/TT-BTC) được áp dụng trực tiếp theo văn bản quy phạm pháp luật hiện hành.
+> 2. Tra cứu đối chiếu trước khi tư vấn: Các nội dung về thủ tục hành chính chuyên biệt hoặc mức xử phạt chi tiết ngoài phạm vi đã dẫn chiếu tại tài liệu này phải được TL-KT đối chiếu trực tiếp văn bản pháp luật trước khi tư vấn khách hàng hoặc đưa vào hồ sơ hợp đồng.
+> 3. Phân định giá trị hiệu lực: Phân biệt rõ giữa Quy định nội bộ oBacker (áp dụng bắt buộc nội bộ nhân sự) và Quy định pháp luật (áp dụng trong quan hệ với khách hàng và cơ quan quản lý nhà nước). Các nguyên tắc hành nghề tại mục 5.4 là quy định nội bộ oBacker; trường hợp cần viện dẫn chuẩn mực đạo đức nghề nghiệp trong văn bản gửi ra bên ngoài, nhân viên đối chiếu trực tiếp theo Thông tư 70/2015/TT-BTC.
 
 ---
 
@@ -91,42 +78,14 @@ tags:
 
 ---
 
-## 3. Căn cứ pháp lý
-
-### 3.1. Căn cứ đã xác minh, dùng được
-
-| # | Văn bản | Nội dung dùng trong chương |
-| --- | --- | --- |
-| 1 | Văn bản hợp nhất 15/VBHN-BTC (hợp nhất Nghị định 125/2020/NĐ-CP và các nghị định sửa đổi), hợp nhất ngày 05/5/2026 | Điều 3 khoản 1 điểm a về đối tượng bị xử phạt, gồm bên được ủy quyền;<br>Điều 19 về vi phạm của tổ chức, cá nhân có liên quan trong cung cấp thông tin;<br>Điều 15 về chấp hành quyết định thanh tra, kiểm tra |
-| 2 | Nghị định 291/2026/NĐ-CP ngày 21/7/2026, hiệu lực từ ngày ký | Điều 2 bổ sung Điều 19a về vi phạm cung cấp thông tin phục vụ trao đổi thông tin thuế quốc tế |
-| 3 | Thông tư 99/2025/TT-BTC | Điều 10 khoản 4 về cấm ký thừa ủy quyền chức danh người quản lý, điều hành trên chứng từ kế toán;<br>Điều 16 khoản 4 về nghĩa vụ ghi số giấy phép hành nghề và tên đơn vị cung cấp dịch vụ kế toán trên báo cáo tài chính |
-| 4 | Luật Kế toán, bản hợp nhất số 41/VBHN-VPQH ngày 16/3/2026 | Điều 13 về 14 hành vi bị nghiêm cấm, dùng làm căn cứ pháp luật của hành vi oBacker nghiêm cấm tại mục 6.8;<br>Điều 29 khoản 2 điểm d về ba chữ ký trên báo cáo tài chính và trách nhiệm của người ký;<br>Điều 29 khoản 3 về thời hạn 90 ngày nộp báo cáo tài chính năm;<br>Điều 41 khoản 3 và khoản 5 về thời hạn lưu trữ tài liệu kế toán;<br>Điều 53 khoản 4 và Điều 54 khoản 1 về tiêu chuẩn kế toán trưởng và người phụ trách kế toán;<br>Điều 70a về cung cấp dịch vụ kế toán của tổ chức kinh doanh dịch vụ làm thủ tục về thuế |
-| 5 | Luật Quản lý thuế số 108/2025/QH15 | Điều 51 là điều bổ sung Điều 70a vào Luật Kế toán, xem mục 6.10.1 |
-| 6 | Nghị định 41/2018/NĐ-CP xử phạt vi phạm hành chính lĩnh vực kế toán, kiểm toán độc lập, đã sửa đổi bởi Nghị định 132/2026/NĐ-CP | Điều 17 khoản 3 điểm b, điểm c về mức phạt hành vi bố trí hoặc thuê người làm kế toán trưởng không đủ tiêu chuẩn, điều kiện;<br>Điều 6 khoản 2 (đã sửa bởi Điều 2 Nghị định 132/2026/NĐ-CP) xác nhận mức phạt tại Điều 17 là mức phạt cá nhân, mức phạt tổ chức gấp 02 lần;<br>dùng tại mục 6.1.4 |
-| 7 | Nghị định 174/2016/NĐ-CP quy định chi tiết một số điều của Luật Kế toán | Điều 27 khoản 1 về tỷ lệ vốn góp của kế toán viên hành nghề tại công ty trách nhiệm hữu hạn hai thành viên trở lên;<br>Điều 28 về nghĩa vụ mua bảo hiểm trách nhiệm nghề nghiệp và mốc 60 ngày mua bảo hiểm, dùng tại mục 6.10.1;<br>Điều 8 về loại tài liệu kế toán phải lưu trữ, Điều 11 về nơi lưu trữ, Điều 12 tới 14 về ba mốc thời hạn lưu trữ, Điều 15 về thời điểm tính thời hạn, Điều 16 và Điều 17 về thủ tục tiêu hủy, dùng tại mục 6.11.4 |
-| 8 | Luật Kế toán, bản hợp nhất số 41/VBHN-VPQH ngày 16/3/2026 | Điều 58 khoản 1 về điều kiện đăng ký hành nghề dịch vụ kế toán của cá nhân;<br>Điều 59 tới Điều 64 về loại hình, điều kiện, hồ sơ và thời hạn cấp Giấy chứng nhận đủ điều kiện kinh doanh dịch vụ kế toán;<br>dùng tại mục 6.10.1 |
-| 9 | Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15 | Điều 2 khoản 8 về định nghĩa Bên xử lý dữ liệu;<br>Điều 37 khoản 2 về nghĩa vụ của Bên xử lý dữ liệu;<br>Điều 23 khoản 1 về nghĩa vụ thông báo khi phát hiện vi phạm;<br>xem [[PL_Chuyen_len_cap_tren\|OBK-QCTC-02-PL-C]] |
-
-### 3.2. Căn cứ còn chưa xác minh được, bắt buộc tra cứu trước khi dùng
-
-| # | Văn bản cần bổ sung hoặc cần đối chiếu thêm | Nội dung cần cho chương này | Trạng thái |
-| --- | --- | --- | --- |
-| 1 | Thông tư của Bộ Tài chính quy định thủ tục cấp, thu hồi Giấy chứng nhận đăng ký hành nghề dịch vụ kế toán cho cá nhân, theo Điều 58 khoản 2 Luật Kế toán | Hồ sơ và trình tự cụ thể để một cá nhân được cấp Giấy chứng nhận đăng ký hành nghề dịch vụ kế toán;<br>số giờ cập nhật kiến thức cụ thể theo Điều 58 khoản 1 điểm c | chưa xác minh được, thông tư này chưa có trong kho |
-| 2 | Nghị định hướng dẫn riêng Điều 70a Luật Kế toán về cung cấp dịch vụ kế toán của tổ chức kinh doanh dịch vụ làm thủ tục về thuế | Điều kiện và thủ tục để một tổ chức kinh doanh dịch vụ làm thủ tục về thuế đăng ký cung cấp dịch vụ kế toán | chưa xác minh được, nghị định này chưa có trong kho |
-| 3 | Mức xử phạt đối với 13 hành vi còn lại bị nghiêm cấm tại Điều 13 Luật Kế toán, trừ hành vi bố trí hoặc thuê người làm kế toán trưởng không đủ tiêu chuẩn tại khoản 8 (đã có căn cứ, xem mục 3.1 dòng 6 và mục 6.1.4) | Mức phạt cho từng hành vi trong số 13 hành vi còn lại | Nghị định 41/2018/NĐ-CP đã sửa đổi bởi Nghị định 132/2026/NĐ-CP có trong kho, nhưng chưa đối chiếu được Điều khớp với từng hành vi trong số 13 hành vi còn lại; chưa xác minh được, TUYỆT ĐỐI không nêu mức phạt |
-| 4 | Chuẩn mực đạo đức nghề nghiệp kế toán, kiểm toán | Nội dung các nguyên tắc đạo đức cơ bản;<br>quy định về xung đột lợi ích;<br>quy định về bảo mật | đã đối chiếu bản gốc, Thông tư 70/2015/TT-BTC đã có trong kho |
-| 5 | Pháp luật về an toàn thông tin mạng | Nghĩa vụ bảo vệ thông tin của tổ chức lưu trữ, xử lý thông tin của khách hàng | chưa xác minh được, pháp luật này chưa có trong kho |
-
-> [!question] CẦN XÁC MINH
-> Không được trích số điều, số khoản của bất kỳ văn bản nào tại bảng 3.2 trong bất kỳ văn bản nào gửi ra ngoài oBacker khi chưa mở bản gốc. Nếu khách hỏi về thủ tục đăng ký hành nghề, về bảo hiểm trách nhiệm nghề nghiệp, về mức xử phạt lĩnh vực kế toán, hoặc về chuẩn mực đạo đức, AM chuyển câu hỏi cho TL-KT, TL-KT đối chiếu bản gốc trước khi trả lời; không ai tự trả lời từ trí nhớ.
 
 ---
 
-## 4. Vai trò và trách nhiệm
+## 3. Vai trò và trách nhiệm
 
 | Hoạt động | CV-KT | TL-KT | AM | COO | CEO |
 | --- | --- | --- | --- | --- | --- |
-| Tuân thủ sáu nguyên tắc hành nghề tại mục 6.4 và bốn nguyên tắc phân vai trò tại mục 4.1 | Làm | Làm | Làm | Làm | Làm |
+| Tuân thủ sáu nguyên tắc hành nghề tại mục 5.4 và bốn nguyên tắc phân vai trò tại mục 3.1 | Làm | Làm | Làm | Làm | Làm |
 | Phát hiện và báo cáo tình huống vi phạm nguyên tắc | Làm, báo ngay | Tiếp nhận, đánh giá | Làm, báo ngay khi yêu cầu đến từ phía khách | Quyết định xử lý | Quyết định khi vụ việc thuộc hành vi oBacker nghiêm cấm |
 | Khai báo xung đột lợi ích khi nhận khách mới | Làm | Làm, và soát toàn bộ khai báo trong cụm khách phụ trách | Làm | Duyệt phương án xử lý | Không |
 | Quyết định từ chối một yêu cầu của khách thuộc hành vi oBacker nghiêm cấm | Dừng việc ngay, báo TL-KT và AM | Xác nhận đây là hành vi oBacker nghiêm cấm, báo CEO và Legal R&D trong cùng ngày làm việc | Dừng ngay, không hứa xem xét, báo TL-KT | Được thông báo ngay;<br>không có quyền phê duyệt | Ra quyết định từ chối và ký văn bản trả lời khách;<br>CEO cũng không có quyền phê duyệt cho làm |
@@ -144,13 +103,13 @@ tags:
 | Ký hợp đồng dịch vụ và phụ lục | Không | Không | Soạn và đề xuất | Duyệt phạm vi và phí trong hạn mức | Ký |
 
 > [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
-> Danh sách đầy đủ tại mục 6.7. Nguyên tắc chung: nếu một quyết định có thể làm thay đổi số thuế phải nộp, làm phát sinh nghĩa vụ pháp lý mới cho khách, hoặc tạo ra cam kết của oBacker với bên thứ ba, thì CV-KT và AM không được tự quyết.
+> Danh sách đầy đủ tại mục 5.7. Nguyên tắc chung: nếu một quyết định có thể làm thay đổi số thuế phải nộp, làm phát sinh nghĩa vụ pháp lý mới cho khách, hoặc tạo ra cam kết của oBacker với bên thứ ba, thì CV-KT và AM không được tự quyết.
 
 ---
 
-### 4.1. BỐN NGUYÊN TẮC PHÂN VAI TRÒ KHÔNG ĐƯỢC VI PHẠM
+### 3.1. Nguyên tắc phân định vai trò trong vận hành
 
-Đây là quy định nội bộ oBacker, theo quyết định của CEO ngày 25/08/2026 về mô hình 5 vai trò. Bốn nguyên tắc này là nền của mô hình phân vai trò. Vi phạm bất kỳ nguyên tắc nào là lỗi nghiệp vụ nghiêm trọng, không phải chuyện linh hoạt trong tình huống.
+Đây là quy định nội bộ oBacker, theo quyết định của CEO ngày 25/08/2026 về mô hình 5 vai trò. Bốn nguyên tắc này là nền của mô hình phân vai trò, là nguyên tắc bắt buộc trong toàn bộ quy trình cung cấp dịch vụ.
 
 **Nguyên tắc A. AM KHÔNG ĐƯỢC BÁC BỎ KẾT LUẬN KỸ THUẬT CỦA TL-KT.**
 
@@ -166,36 +125,36 @@ HAI LỚP LÀ MẶC ĐỊNH theo `03_DichVu/01_OBK-SOP-00` NT-5, và NT-5 CẤM 
 
 **Nguyên tắc D. HÀNH VI OBACKER NGHIÊM CẤM KHÔNG CÓ CẤP NÀO VƯỢT QUA, KỂ CẢ CEO.**
 
-Các nội dung thuộc hành vi oBacker nghiêm cấm tại mục 6.8 là giới hạn tuyệt đối. Không AM, không TL-KT, không COO, và cũng KHÔNG CEO có thẩm quyền phê duyệt cho làm. Ai nhận được yêu cầu thuộc hành vi oBacker nghiêm cấm thì dừng việc và báo CEO cùng Legal R&D trong cùng ngày làm việc. Ghi lại quy tắc đó ở đây để không ai hiểu sai rằng cấp cao nhất thì được phép.
+Các nội dung thuộc hành vi oBacker nghiêm cấm tại mục 5.8 là giới hạn tuyệt đối. Không AM, không TL-KT, không COO, và cũng KHÔNG CEO có thẩm quyền phê duyệt cho làm. Ai nhận được yêu cầu thuộc hành vi oBacker nghiêm cấm thì dừng việc và báo CEO cùng Legal R&D trong cùng ngày làm việc. Ghi lại quy tắc đó ở đây để không ai hiểu sai rằng cấp cao nhất thì được phép.
 
 > [!bug] LỖI THƯỜNG GẶP
 > Nhân viên nghĩ rằng chuyển lên cấp trên lên cấp cao hơn là để xin ngoại lệ. Với hành vi oBacker nghiêm cấm, chuyển lên cấp trên chỉ để ghi nhận và xử lý quan hệ với khách, không phải để tìm người đủ thẩm quyền cho phép. Không có người đó.
 
 ---
 
-## 5. Đầu vào bắt buộc
+## 4. Đầu vào bắt buộc
 
-5.1. Hợp đồng dịch vụ đã ký với khách hàng và toàn bộ phụ lục, trong đó có phạm vi công việc và phạm vi ủy quyền.
+4.1. Hợp đồng dịch vụ đã ký với khách hàng và toàn bộ phụ lục, trong đó có phạm vi công việc và phạm vi ủy quyền.
 
-5.2. Cam kết bảo mật đã ký của từng nhân sự được phân công vào khách hàng đó.
+4.2. Cam kết bảo mật đã ký của từng nhân sự được phân công vào khách hàng đó.
 
-5.3. Phiếu khai báo xung đột lợi ích của từng nhân sự đối với khách hàng đó, theo mẫu tại Phụ lục A.
+4.3. Phiếu khai báo xung đột lợi ích của từng nhân sự đối với khách hàng đó, theo mẫu tại Phụ lục A.
 
-5.4. Bảng phân cấp ký và phân cấp phê duyệt hiện hành do COO ban hành, phần thẩm quyền ký hồ sơ gửi cơ quan thuế theo đúng vai trò TL-KT.
+4.4. Bảng phân cấp ký và phân cấp phê duyệt hiện hành do COO ban hành, phần thẩm quyền ký hồ sơ gửi cơ quan thuế theo đúng vai trò TL-KT.
 
-5.5. Danh mục công cụ trí tuệ nhân tạo được COO duyệt, cập nhật tại `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]`.
+4.5. Danh mục công cụ trí tuệ nhân tạo được COO duyệt, cập nhật tại `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]`.
 
-5.6. Quyền truy cập `[KHO LƯU TRỮ HỒ SƠ]` được cấp đúng phạm vi khách hàng được phân công.
+4.6. Quyền truy cập `[KHO LƯU TRỮ HỒ SƠ]` được cấp đúng phạm vi khách hàng được phân công.
 
 ---
 
 # PHẦN NGHIỆP VỤ
 
-## 6. Nội dung
+## 5. Nội dung
 
-### 6.1. Vị thế pháp lý của oBacker
+### 5.1. Vị thế pháp lý của oBacker
 
-**6.1.1. oBacker là đơn vị cung cấp dịch vụ, không phải Kế toán nội bộ của khách hàng.**
+**5.1.1. oBacker là đơn vị cung cấp dịch vụ, không phải Kế toán nội bộ của khách hàng.**
 
 Sự khác biệt này không phải là chuyện chữ nghĩa. Sự khác biệt đó quyết định ba việc rất thực tế:
 
@@ -206,7 +165,7 @@ Sự khác biệt này không phải là chuyện chữ nghĩa. Sự khác biệ
 | Phạm vi việc phải làm | Theo phân công của người sử dụng lao động, có thể thay đổi linh hoạt | Chỉ trong phạm vi hợp đồng;<br>việc ngoài phạm vi phải có phụ lục hoặc báo giá bổ sung |
 | Trách nhiệm khi có sai sót | Chịu trách nhiệm theo quan hệ lao động và pháp luật | Chịu trách nhiệm theo hợp đồng, cộng với trách nhiệm hành chính của bên được ủy quyền theo pháp luật quản lý thuế |
 
-**6.1.2. Hệ quả thứ nhất: oBacker làm việc trên chứng từ, không làm việc trên sự thật giao dịch.**
+**5.1.2. Hệ quả thứ nhất: oBacker làm việc trên chứng từ, không làm việc trên sự thật giao dịch.**
 
 oBacker không có mặt tại kho khi hàng nhập, không ngồi cùng bàn khi hợp đồng được đàm phán, không kiểm đếm tiền mặt hằng ngày tại quầy của khách. Cái oBacker nhận được là bản chụp hoặc bản gốc của chứng từ. Vì vậy:
 
@@ -214,14 +173,14 @@ oBacker không có mặt tại kho khi hàng nhập, không ngồi cùng bàn kh
 - Khách hàng chịu trách nhiệm về việc bộ chứng từ đó phản ánh giao dịch có thật và HỢP PHÁP.
 - Ranh giới này phải được nói rõ với khách ngay từ buổi họp khởi động, xem Chương 03 mục về họp khởi động, và phải nằm trong hợp đồng.
 
-**6.1.3. Hệ quả thứ hai: cả ba chữ ký trên báo cáo tài chính đều là của KHÁCH.**
+**5.1.3. Hệ quả thứ hai: cả ba chữ ký trên báo cáo tài chính đều là của KHÁCH.**
 
 **Quyết định của CEO ngày 26/08/2026.** Cả ba chữ ký trên báo cáo tài chính của khách, gồm người lập, kế toán trưởng, và người đại diện theo pháp luật, đều là chữ ký của KHÁCH. oBacker gửi khách ký, hoặc ký bằng chữ ký số của khách khi có ủy quyền bằng văn bản và có xác nhận nội dung bằng văn bản. **oBacker không đứng tên trên báo cáo tài chính của khách.**
 
 | Chữ ký trên báo cáo tài chính | Ai ký | oBacker làm gì |
 | --- | --- | --- |
 | Người lập | Người của khách hàng | TL-KT lập và soát nội dung, chuyển hồ sơ cho khách ký;<br>AM là đầu mối gửi và thu hồi bản đã ký |
-| Kế toán trưởng | Kế toán trưởng hoặc người phụ trách kế toán của khách hàng | TL-KT không đứng tên;<br>TL-KT kiểm tra người khách cử có đủ tiêu chuẩn hay không, xem mục 6.1.4 |
+| Kế toán trưởng | Kế toán trưởng hoặc người phụ trách kế toán của khách hàng | TL-KT không đứng tên;<br>TL-KT kiểm tra người khách cử có đủ tiêu chuẩn hay không, xem mục 5.1.4 |
 | Người đại diện theo pháp luật | Người đại diện theo pháp luật của khách hàng | Không thay thế được bằng bất kỳ hình thức nào |
 
 Căn cứ, nguyên văn `[Luật Kế toán 41/VBHN-VPQH Đ.29 k.2 đ.d]`:
@@ -232,7 +191,7 @@ Vế thứ hai của điều khoản này là vế quan trọng với oBacker: n
 
 Thời hạn nộp báo cáo tài chính năm cho cơ quan nhà nước có thẩm quyền là **90 ngày** kể từ ngày kết thúc kỳ kế toán năm `[Luật Kế toán 41/VBHN-VPQH Đ.29 k.3]`. Câu hỏi NỘP CHO AI thì khoản 4 Điều 29 giao Bộ Tài chính quy định, và Thông tư 99/2025 lại dẫn chiếu sang pháp luật có liên quan, nên nơi nhận vẫn chưa xác minh được. Được nói mốc 90 ngày với khách; Không được nói nơi nhận.
 
-**6.1.3.1. Vì sao oBacker không đứng tên, và hệ quả lên cách gọi tên dịch vụ trong hợp đồng.**
+**5.1.3.1. Vì sao oBacker không đứng tên, và hệ quả lên cách gọi tên dịch vụ trong hợp đồng.**
 
 Nguyên văn `[TT99 Đ.16 k.4]`:
 
@@ -244,7 +203,7 @@ Nguyên văn `[TT99 Đ.16 k.4]`:
 
 Quy định nội bộ oBacker: không nhân sự nào được đưa số giấy chứng nhận đăng ký hành nghề của mình lên báo cáo tài chính của khách. Nếu một tình huống cụ thể buộc phải làm khác, đó là việc thuộc thẩm quyền CEO và phải sửa hợp đồng trước, không phải quyết định của TL-KT hay AM tại chỗ. Nguyên tắc nền vẫn giữ: người có tên trên báo cáo là người chịu trách nhiệm, không phải người ký hộ.
 
-**6.1.4. Việc bắt buộc khi onboarding: kiểm tra người khách cử làm kế toán trưởng.**
+**5.1.4. Việc bắt buộc khi onboarding: kiểm tra người khách cử làm kế toán trưởng.**
 
 Vì chữ ký kế toán trưởng là của khách, oBacker phải kiểm tra người khách cử có đủ tiêu chuẩn hay không. Tiêu chuẩn và điều kiện của kế toán trưởng `[Luật Kế toán 41/VBHN-VPQH Đ.54 k.1]`: có các tiêu chuẩn quy định tại Điều 51 khoản 1; có chuyên môn, nghiệp vụ về kế toán từ trình độ trung cấp trở lên; có chứng chỉ bồi dưỡng kế toán trưởng; và có thời gian công tác thực tế về kế toán ít nhất 02 năm đối với người có trình độ đại học trở lên, ít nhất 03 năm đối với người có trình độ trung cấp, cao đẳng. Trường hợp khách cử người phụ trách kế toán thay kế toán trưởng thì người đó cũng phải có đủ các tiêu chuẩn, điều kiện tại khoản 1 Điều 54 `[Luật Kế toán 41/VBHN-VPQH Đ.53 k.4]`.
 
@@ -252,14 +211,14 @@ Luật Kế toán nghiêm cấm "bố trí hoặc thuê người làm kế toán
 
 Việc bắt buộc: khi onboarding, TL-KT kiểm tra người khách cử làm kế toán trưởng hoặc phụ trách kế toán có đủ Điều 54 khoản 1 hay không. Nếu không đủ, TL-KT ghi vào hồ sơ rủi ro của khách và AM thông báo khách bằng văn bản. oBacker không tự khắc phục phần thiếu đó thay khách, và không đứng tên thay.
 
-Mức xử phạt hành vi bố trí người làm kế toán trưởng không đủ tiêu chuẩn, điều kiện: phạt tiền từ 20.000.000 đồng đến 30.000.000 đồng đối với cá nhân, từ 40.000.000 đồng đến 60.000.000 đồng đối với tổ chức, tức gấp 02 lần mức phạt cá nhân `[NĐ 41/2018 Đ.17 k.3 điểm b; NĐ 132/2026 Đ.2]`. Mức phạt tương tự áp dụng cho hành vi thuê người làm kế toán trưởng không đủ tiêu chuẩn, điều kiện `[NĐ 41/2018 Đ.17 k.3 điểm c]`. Điều kiện đăng ký hành nghề của cá nhân, điều kiện cấp Giấy chứng nhận đủ điều kiện kinh doanh dịch vụ kế toán của oBacker, và nghĩa vụ mua bảo hiểm trách nhiệm nghề nghiệp xem mục 6.10.1.
+Mức xử phạt hành vi bố trí người làm kế toán trưởng không đủ tiêu chuẩn, điều kiện: phạt tiền từ 20.000.000 đồng đến 30.000.000 đồng đối với cá nhân, từ 40.000.000 đồng đến 60.000.000 đồng đối với tổ chức, tức gấp 02 lần mức phạt cá nhân `[NĐ 41/2018 Đ.17 k.3 điểm b; NĐ 132/2026 Đ.2]`. Mức phạt tương tự áp dụng cho hành vi thuê người làm kế toán trưởng không đủ tiêu chuẩn, điều kiện `[NĐ 41/2018 Đ.17 k.3 điểm c]`. Điều kiện đăng ký hành nghề của cá nhân, điều kiện cấp Giấy chứng nhận đủ điều kiện kinh doanh dịch vụ kế toán của oBacker, và nghĩa vụ mua bảo hiểm trách nhiệm nghề nghiệp xem mục 5.10.1.
 
-> [!question] CẦN XÁC MINH
-> Mức xử phạt cho các hành vi khác tại Điều 13 Luật Kế toán, ngoài hành vi bố trí hoặc thuê người làm kế toán trưởng không đủ tiêu chuẩn nêu trên, vẫn giữ chưa xác minh được; TUYỆT ĐỐI không nêu mức phạt cho các hành vi đó khi chưa đối chiếu bản gốc. Thủ tục cấp Giấy chứng nhận đăng ký hành nghề dịch vụ kế toán cho cá nhân do Bộ Tài chính quy định riêng theo Điều 58 khoản 2 Luật Kế toán, văn bản đó chưa có trong kho, nên hồ sơ và trình tự cụ thể vẫn giữ chưa xác minh được. Không được nêu bất kỳ điều kiện, con số, hay số điều khoản nào từ trí nhớ. Legal R&D bổ sung bản gốc và cập nhật mục này; COO duyệt nguồn lực.
+> [!warning] NGUYÊN TẮC DẪN CHIẾU MỨC XỬ PHẠT VÀ ĐIỀU KIỆN HÀNH NGHỀ
+> Khung xử phạt các hành vi vi phạm pháp luật kế toán ngoài hành vi bố trí hoặc thuê người làm kế toán trưởng không đủ tiêu chuẩn phải được TL-KT đối chiếu trực tiếp từ Nghị định 41/2018/NĐ-CP (được sửa đổi bởi Nghị định 132/2026/NĐ-CP). Thủ tục cấp Giấy chứng nhận đăng ký hành nghề dịch vụ kế toán thực hiện theo quy định của Bộ Tài chính (Thông tư 296/2016/TT-BTC). Chuyên viên không đưa ra thông tin về mức phạt hoặc trình tự thủ tục khi chưa tra cứu văn bản gốc.
 
 ---
 
-### 6.2. BẢNG PHÂN ĐỊNH TRÁCH NHIỆM GIỮA KHÁCH HÀNG VÀ OBACKER
+### 5.2. BẢNG PHÂN ĐỊNH TRÁCH NHIỆM GIỮA KHÁCH HÀNG VÀ OBACKER
 
 Bảng này là quy định nội bộ oBacker, đồng thời là khung nội dung tối thiểu phải đưa vào hợp đồng dịch vụ. Cột "Bên chịu trách nhiệm chính" là bên phải chịu hậu quả nếu nội dung đó sai.
 
@@ -274,28 +233,28 @@ Bảng này là quy định nội bộ oBacker, đồng thời là khung nội d
 | 7 | Nộp TIỀN thuế vào ngân sách | Khách hàng | oBacker thông báo số tiền, hạn nộp, và nhắc trước hạn | Tiền chậm nộp tính trên khách |
 | 8 | Quyết định nội dung kinh tế của giao dịch (mua gì, bán giá nào, ký với ai) | Khách hàng | oBacker chỉ nêu hệ quả về thuế và kế toán, không quyết định thay | Rủi ro kinh doanh thuộc về khách |
 | 9 | Quyết định áp dụng hay không áp dụng một ưu đãi, một chính sách thuế | Khách hàng, trên cơ sở tư vấn có căn cứ do TL-KT oBacker chốt | oBacker cung cấp phân tích, nêu rủi ro, ghi rõ mức xác minh của căn cứ;<br>AM truyền đạt đúng kết luận của TL-KT | Truy thu, phạt nếu áp dụng sai |
-| 10 | Ký các hồ sơ, tờ khai, báo cáo bằng chữ ký số của khách | Khách hàng | oBacker chỉ thao tác ký gửi khi có ủy quyền bằng văn bản và có xác nhận nội dung của khách | Xem cảnh báo tại mục 6.3 |
-| 10a | Ba chữ ký trên báo cáo tài chính: người lập, kế toán trưởng, người đại diện theo pháp luật | Khách hàng, cả ba chữ ký `[Luật Kế toán 41/VBHN-VPQH Đ.29 k.2 đ.d]` | TL-KT lập và soát nội dung, chuyển hồ sơ cho khách ký;<br>oBacker không đứng tên trên báo cáo;<br>xem mục 6.1.3 | Người ký chịu trách nhiệm về nội dung báo cáo |
-| 11 | Bảo quản, lưu trữ tài liệu kế toán đủ thời thời hạn theo pháp luật định | Khách hàng;<br>người đại diện theo pháp luật của đơn vị kế toán chịu trách nhiệm tổ chức bảo quản, lưu trữ `[Luật Kế toán 41/VBHN-VPQH Đ.41 k.4]` | oBacker lập biên bản giao nhận mọi lần nhận và trả chứng từ gốc;<br>TL-KT lập danh mục ba mốc thời hạn lưu trữ tại mục 6.11, AM thông báo khách | Mất tài liệu kế toán, không có tài liệu khi cơ quan thuế kiểm tra |
-| 12 | Lưu trữ dữ liệu kế toán số hóa trong thời gian thực hiện hợp đồng | oBacker | Khách nhận bàn giao đầy đủ khi kết thúc hợp đồng;<br>nghĩa vụ lưu trữ đủ thời thời hạn theo pháp luật định vẫn thuộc khách, xem mục 6.11 | Mất dữ liệu, không tái lập được sổ sách |
+| 10 | Ký các hồ sơ, tờ khai, báo cáo bằng chữ ký số của khách | Khách hàng | oBacker chỉ thao tác ký gửi khi có ủy quyền bằng văn bản và có xác nhận nội dung của khách | Xem cảnh báo tại mục 5.3 |
+| 10a | Ba chữ ký trên báo cáo tài chính: người lập, kế toán trưởng, người đại diện theo pháp luật | Khách hàng, cả ba chữ ký `[Luật Kế toán 41/VBHN-VPQH Đ.29 k.2 đ.d]` | TL-KT lập và soát nội dung, chuyển hồ sơ cho khách ký;<br>oBacker không đứng tên trên báo cáo;<br>xem mục 5.1.3 | Người ký chịu trách nhiệm về nội dung báo cáo |
+| 11 | Bảo quản, lưu trữ tài liệu kế toán đủ thời thời hạn theo pháp luật định | Khách hàng;<br>người đại diện theo pháp luật của đơn vị kế toán chịu trách nhiệm tổ chức bảo quản, lưu trữ `[Luật Kế toán 41/VBHN-VPQH Đ.41 k.4]` | oBacker lập biên bản giao nhận mọi lần nhận và trả chứng từ gốc;<br>TL-KT lập danh mục ba mốc thời hạn lưu trữ tại mục 5.11, AM thông báo khách | Mất tài liệu kế toán, không có tài liệu khi cơ quan thuế kiểm tra |
+| 12 | Lưu trữ dữ liệu kế toán số hóa trong thời gian thực hiện hợp đồng | oBacker | Khách nhận bàn giao đầy đủ khi kết thúc hợp đồng;<br>nghĩa vụ lưu trữ đủ thời thời hạn theo pháp luật định vẫn thuộc khách, xem mục 5.11 | Mất dữ liệu, không tái lập được sổ sách |
 | 13 | Cập nhật trong 03 ngày làm việc kể từ ngày phát sinh các thay đổi về đăng ký kinh doanh, đăng ký thuế, tài khoản ngân hàng, chữ ký số | Khách hàng | oBacker hỏi lại định kỳ theo Chương 03 và nhắc trước ngày chữ ký số hết hạn | Phạt chậm thông báo thay đổi thông tin đăng ký thuế |
 | 14 | Tính chính xác của thông tin nhân sự, hợp đồng lao động, số ngày công phục vụ tính lương và thuế thu nhập cá nhân | Khách hàng | oBacker kiểm tra tính logic và cảnh báo bất thường | Sai thuế thu nhập cá nhân, sai bảo hiểm |
 | 15 | Giá trị hàng tồn kho thực tế, kết quả kiểm kê | Khách hàng | oBacker hướng dẫn quy trình kiểm kê và đối chiếu sổ với biên bản kiểm kê | Chênh lệch tồn kho không giải trình được |
 | 16 | Xác định giá giao dịch liên kết và lập hồ sơ giao dịch liên kết | Khách hàng, có thể mua dịch vụ riêng | CV-KT báo TL-KT ngay khi phát hiện dấu hiệu giao dịch liên kết;<br>TL-KT kết luận, AM trao đổi phạm vi và báo giá dịch vụ bổ sung | Rủi ro rất lớn khi cơ quan thuế kiểm tra |
-| 17 | Trả lời cơ quan thuế, tiếp đoàn kiểm tra, thanh tra | Khách hàng là chủ thể;<br>oBacker hỗ trợ theo phạm vi hợp đồng | oBacker chuẩn bị hồ sơ giải trình theo Chương 16 | Xem cảnh báo tại mục 6.3 |
-| 18 | Bảo mật thông tin của khách hàng | oBacker | Khách hàng thông báo danh sách người được nhận thông tin | Vi phạm nghiêm trọng, xử lý theo mục 6.5 |
+| 17 | Trả lời cơ quan thuế, tiếp đoàn kiểm tra, thanh tra | Khách hàng là chủ thể;<br>oBacker hỗ trợ theo phạm vi hợp đồng | oBacker chuẩn bị hồ sơ giải trình theo Chương 16 | Xem cảnh báo tại mục 5.3 |
+| 18 | Bảo mật thông tin của khách hàng | oBacker | Khách hàng thông báo danh sách người được nhận thông tin | Vi phạm nghiêm trọng, xử lý theo mục 5.5 |
 | 19 | Ban hành Quy chế hạch toán kế toán khi tự thiết kế biểu mẫu chứng từ, sổ, tài khoản | Khách hàng, là doanh nghiệp `[TT99 Đ.9 k.2]` | TL-KT soạn dự thảo và hướng dẫn, khách ban hành và chịu trách nhiệm trước pháp luật | Mẫu tự thiết kế không có cơ sở, bị bác bỏ khi kiểm tra |
 | 20 | Quyết định thuê kiểm toán, thuê tư vấn pháp lý bên ngoài | Khách hàng | TL-KT khuyến nghị khi vượt năng lực hoặc ngoài phạm vi, AM truyền đạt và báo giá nếu có dịch vụ bổ sung | Vấn đề không tới đúng người có chuyên môn |
-| 21 | Bố trí người làm kế toán trưởng hoặc người phụ trách kế toán đủ tiêu chuẩn | Khách hàng `[Luật Kế toán 41/VBHN-VPQH Đ.13 k.8, Đ.54 k.1, Đ.53 k.4]` | TL-KT kiểm tra khi onboarding và ghi hồ sơ rủi ro nếu không đủ;<br>AM thông báo khách bằng văn bản | Hành vi bị nghiêm cấm;<br>oBacker không đứng tên thay, xem mục 6.1.4 |
+| 21 | Bố trí người làm kế toán trưởng hoặc người phụ trách kế toán đủ tiêu chuẩn | Khách hàng `[Luật Kế toán 41/VBHN-VPQH Đ.13 k.8, Đ.54 k.1, Đ.53 k.4]` | TL-KT kiểm tra khi onboarding và ghi hồ sơ rủi ro nếu không đủ;<br>AM thông báo khách bằng văn bản | Hành vi bị nghiêm cấm;<br>oBacker không đứng tên thay, xem mục 5.1.4 |
 
 > [!bug] LỖI THƯỜNG GẶP
 > AM trả lời khách bằng câu "bên em lo hết". Câu này phá bỏ toàn bộ bảng phân định ở trên và tạo ra kỳ vọng sai. Cách nói đúng: "Phần thuộc phạm vi hợp đồng bên em làm và chịu trách nhiệm; phần chứng từ gốc, tính có thật của giao dịch, và chữ ký trên báo cáo tài chính thì bên anh chị giữ trách nhiệm, em sẽ gửi anh chị danh mục cần cung cấp."
 
 ---
 
-### 6.3. CẢNH BÁO TRỌNG YẾU: oBacker CÓ THỂ BỊ XỬ PHẠT TRỰC TIẾP
+### 5.3. CẢNH BÁO TRỌNG YẾU: oBacker CÓ THỂ BỊ XỬ PHẠT TRỰC TIẾP
 
-**6.3.1. Bên được ủy quyền bị xử phạt.**
+**5.3.1. Bên được ủy quyền bị xử phạt.**
 
 Nguyên văn `[15/VBHN-BTC ngày 05/05/2026 Đ.3 k.1 đ.a]`:
 
@@ -307,7 +266,7 @@ Và tiếp theo, cùng điểm:
 
 Nghĩa là quyết định xử phạt có thể mang tên oBacker, không mang tên khách hàng. oBacker là tổ chức, nên áp mức phạt của tổ chức. Tiền phạt là tiền của oBacker.
 
-**6.3.2. oBacker với tư cách TỔ CHỨC CÓ LIÊN QUAN khi cung cấp thông tin cho cơ quan thuế.**
+**5.3.2. oBacker với tư cách TỔ CHỨC CÓ LIÊN QUAN khi cung cấp thông tin cho cơ quan thuế.**
 
 Đây là rủi ro riêng của đơn vị dịch vụ mà nhiều nhân viên không biết. Cơ quan thuế có thể gửi yêu cầu cung cấp thông tin trực tiếp cho oBacker với tư cách tổ chức có liên quan, không phải với tư cách người nộp thuế. Mức phạt áp cho tổ chức `[15/VBHN-BTC ngày 05/05/2026 Đ.19]`:
 
@@ -320,7 +279,7 @@ Nghĩa là quyết định xử phạt có thể mang tên oBacker, không mang 
 
 Biện pháp khắc phục hậu quả: buộc cung cấp thông tin đầy đủ, chính xác đối với hành vi tại khoản 2 và điểm a, b, c khoản 3 `[15/VBHN-BTC ngày 05/05/2026 Đ.19 k.4]`.
 
-**6.3.3. Rủi ro trong thời gian kiểm tra, thanh tra tại trụ sở khách hàng.**
+**5.3.3. Rủi ro trong thời gian kiểm tra, thanh tra tại trụ sở khách hàng.**
 
 Mốc thời hạn ở đây tính bằng GIỜ, không phải ngày `[15/VBHN-BTC ngày 05/05/2026 Đ.15 k.1 đ.c]`:
 
@@ -328,12 +287,12 @@ Mốc thời hạn ở đây tính bằng GIỜ, không phải ngày `[15/VBHN-B
 
 Mức phạt cho hành vi này là 2.000.000 đến 5.000.000 đồng `[15/VBHN-BTC ngày 05/05/2026 Đ.15 k.1]`. Hệ quả vận hành đối với oBacker: khi khách đang bị kiểm tra, mọi yêu cầu tài liệu phải được xử lý trong ngày. TL-KT chịu trách nhiệm chốt nội dung hồ sơ cung cấp, AM là đầu mối trao đổi với khách, COO được báo trong cùng ngày. Xem Chương 16 về quy trình trực chiến khi khách bị thanh tra.
 
-**6.3.4. Rủi ro mới với khách có yếu tố nước ngoài.**
+**5.3.4. Rủi ro mới với khách có yếu tố nước ngoài.**
 
-Nghị định 291/2026/NĐ-CP bổ sung Điều 19a về vi phạm cung cấp thông tin phục vụ mục đích trao đổi thông tin thuế quốc tế, mức phạt cho tổ chức từ 10.000.000 đến 100.000.000 đồng `[NĐ 291/2026 Đ.2, Điều 19a]`. Đối tượng ảnh hưởng chủ yếu là doanh nghiệp có vốn đầu tư nước ngoài, doanh nghiệp có giao dịch liên kết xuyên biên giới, và các bên được cơ quan thuế yêu cầu cung cấp thông tin phục vụ trao đổi. Chi tiết mức phạt tại Chương 17 mục 6.1.
+Nghị định 291/2026/NĐ-CP bổ sung Điều 19a về vi phạm cung cấp thông tin phục vụ mục đích trao đổi thông tin thuế quốc tế, mức phạt cho tổ chức từ 10.000.000 đến 100.000.000 đồng `[NĐ 291/2026 Đ.2, Điều 19a]`. Đối tượng ảnh hưởng chủ yếu là doanh nghiệp có vốn đầu tư nước ngoài, doanh nghiệp có giao dịch liên kết xuyên biên giới, và các bên được cơ quan thuế yêu cầu cung cấp thông tin phục vụ trao đổi. Chi tiết mức phạt tại Chương 17 mục 5.1.
 
 > [!danger] RỦI RO BỊ XỬ PHẠT
-> Bốn quy tắc bắt buộc để kiểm soát nhóm rủi ro tại mục 6.3, là quy định nội bộ oBacker:
+> Bốn quy tắc bắt buộc để kiểm soát nhóm rủi ro tại mục 5.3, là quy định nội bộ oBacker:
 >
 > 1. Mọi công văn, yêu cầu cung cấp thông tin do cơ quan thuế gửi tới oBacker phải được chuyển cho TL-KT và COO **trong ngày làm việc nhận được**, không được để trong hộp thư cá nhân của bất kỳ ai. Người nhận đầu tiên, CV-KT hoặc AM, ghi nhận vào `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]` với mức ưu tiên cao nhất. TL-KT đọc và kết luận yêu cầu.
 > 2. Không nhân sự nào được nhận bất kỳ ủy quyền nào từ khách hàng dưới danh nghĩa cá nhân. Mọi ủy quyền phải đứng tên oBacker và do CEO duyệt.
@@ -342,10 +301,10 @@ Nghị định 291/2026/NĐ-CP bổ sung Điều 19a về vi phạm cung cấp t
 
 ---
 
-### 6.4. SÁU NGUYÊN TẮC HÀNH NGHỀ CỦA OBACKER
+### 5.4. Các nguyên tắc hành nghề của oBacker
 
-> [!question] CẦN XÁC MINH
-> Sáu nguyên tắc dưới đây là quy định nội bộ oBacker, áp cho cả năm vai trò CV-KT, TL-KT, AM, COO, CEO. Tên gọi có thể trùng với các nguyên tắc trong chuẩn mực đạo đức nghề nghiệp kế toán, kiểm toán, nhưng nội dung diễn giải là diễn giải nội bộ, không phải trích dẫn chuẩn mực. Khi cần viện dẫn chuẩn mực trong văn bản gửi ra ngoài, phải mở bản gốc chuẩn mực và trích dẫn đúng. Sáu nguyên tắc này đi cùng bốn nguyên tắc phân vai trò tại mục 4.1; hai bộ không thay thế nhau.
+> [!note] NGUYÊN TẮC ÁP DỤNG CHUẨN MỰC NỘI BỘ
+> Các nguyên tắc hành nghề dưới đây là quy định nội bộ của oBacker, áp dụng bắt buộc đối với toàn bộ các vai trò CV-KT, TL-KT, AM, COO, CEO song song với nguyên tắc phân định vai trò tại mục 3.1. Trường hợp cần viện dẫn chuẩn mực đạo đức nghề nghiệp trong văn bản gửi khách hàng hoặc cơ quan quản lý, nhân sự đối chiếu trực tiếp theo Chuẩn mực đạo đức nghề nghiệp kế toán, kiểm toán (Thông tư 70/2015/TT-BTC).
 
 #### Nguyên tắc 1: CHÍNH TRỰC
 
@@ -377,7 +336,7 @@ Nghị định 291/2026/NĐ-CP bổ sung Điều 19a về vi phạm cung cấp t
 - Bỏ qua một điểm bất thường vì "khách này làm ăn lâu năm rồi, chắc không sao".
 - Nhận quà, nhận tiền, nhận ưu đãi từ khách rồi xử lý mềm hơn.
 
-**Ví dụ tình huống.** Giám đốc khách hàng là bạn học của CV-KT, nhắn riêng nhờ "để tạm chi phí này vào chi phí được trừ, năm sau bổ sung hợp đồng sau". Hành xử đúng: CV-KT từ chối, báo TL-KT và AM, khai báo quan hệ cá nhân theo mục 6.6, và COO quyết định có chuyển khách sang nhân sự khác hay không nếu quan hệ đó ảnh hưởng tới xét đoán.
+**Ví dụ tình huống.** Giám đốc khách hàng là bạn học của CV-KT, nhắn riêng nhờ "để tạm chi phí này vào chi phí được trừ, năm sau bổ sung hợp đồng sau". Hành xử đúng: CV-KT từ chối, báo TL-KT và AM, khai báo quan hệ cá nhân theo mục 5.6, và COO quyết định có chuyển khách sang nhân sự khác hay không nếu quan hệ đó ảnh hưởng tới xét đoán.
 
 #### Nguyên tắc 3: NĂNG LỰC CHUYÊN MÔN VÀ TÍNH THẬN TRỌNG
 
@@ -393,7 +352,7 @@ Nghị định 291/2026/NĐ-CP bổ sung Điều 19a về vi phạm cung cấp t
 - Sao cách xử lý của khách A sang khách B mà không kiểm tra bối cảnh.
 - Nhận thêm khách khi đã quá tải, dẫn tới làm ẩu.
 
-**Ví dụ tình huống.** Khách hỏi AM về điều kiện áp dụng một ưu đãi thuế thu nhập doanh nghiệp cho dự án đầu tư mới. AM nhớ mang máng là có ưu đãi. Hành xử đúng: AM không trả lời nội dung nghiệp vụ, chuyển TL-KT và hẹn khách một mốc trả lời; TL-KT tra chương nghiệp vụ tương ứng; nếu căn cứ chỉ chưa đối chiếu bản gốc hoặc chưa xác minh được thì TL-KT đối chiếu bản gốc trước khi kết luận, vì kết luận về ưu đãi thuế thuộc danh mục không được tự quyết tại mục 6.7.
+**Ví dụ tình huống.** Khách hỏi AM về điều kiện áp dụng một ưu đãi thuế thu nhập doanh nghiệp cho dự án đầu tư mới. AM nhớ mang máng là có ưu đãi. Hành xử đúng: AM không trả lời nội dung nghiệp vụ, chuyển TL-KT và hẹn khách một mốc trả lời; TL-KT tra chương nghiệp vụ tương ứng; nếu căn cứ chỉ chưa đối chiếu bản gốc hoặc chưa xác minh được thì TL-KT đối chiếu bản gốc trước khi kết luận, vì kết luận về ưu đãi thuế thuộc danh mục không được tự quyết tại mục 5.7.
 
 #### Nguyên tắc 4: BẢO MẬT
 
@@ -409,7 +368,7 @@ Nghị định 291/2026/NĐ-CP bổ sung Điều 19a về vi phạm cung cấp t
 - Chụp màn hình sổ sách của khách gửi vào nhóm bạn bè để hỏi cho nhanh.
 - Lưu bản sao dữ liệu khách trên ổ đĩa cá nhân, trên tài khoản đám mây cá nhân.
 
-**Ví dụ tình huống.** Một khách hàng khác trong cùng ngành hỏi AM: "Bên anh muốn biết mặt bằng giá vốn ngành mình khoảng bao nhiêu, bên em làm cho mấy công ty rồi chắc biết." Hành xử đúng: từ chối, giải thích rằng oBacker không chia sẻ số liệu của khách này cho khách khác dưới bất kỳ hình thức nào, kể cả dạng ẩn danh, và đề xuất khách mua báo cáo ngành từ nguồn công khai. Chi tiết tại mục 6.5.
+**Ví dụ tình huống.** Một khách hàng khác trong cùng ngành hỏi AM: "Bên anh muốn biết mặt bằng giá vốn ngành mình khoảng bao nhiêu, bên em làm cho mấy công ty rồi chắc biết." Hành xử đúng: từ chối, giải thích rằng oBacker không chia sẻ số liệu của khách này cho khách khác dưới bất kỳ hình thức nào, kể cả dạng ẩn danh, và đề xuất khách mua báo cáo ngành từ nguồn công khai. Chi tiết tại mục 5.5.
 
 #### Nguyên tắc 5: TƯ CÁCH NGHỀ NGHIỆP
 
@@ -445,11 +404,11 @@ Nghị định 291/2026/NĐ-CP bổ sung Điều 19a về vi phạm cung cấp t
 
 ---
 
-### 6.5. BẢO MẬT THÔNG TIN KHÁCH HÀNG
+### 5.5. BẢO MẬT THÔNG TIN KHÁCH HÀNG
 
-Toàn bộ mục 6.5 là quy định nội bộ oBacker, có hiệu lực bắt buộc theo quy chế nội bộ và cam kết bảo mật đã ký.
+Toàn bộ mục 5.5 là quy định nội bộ oBacker, có hiệu lực bắt buộc theo quy chế nội bộ và cam kết bảo mật đã ký.
 
-#### 6.5.1. Phân loại thông tin
+#### 5.5.1. Phân loại thông tin
 
 | Mức | Loại thông tin | Ai được tiếp cận | Quy tắc xử lý |
 | --- | --- | --- | --- |
@@ -458,37 +417,37 @@ Toàn bộ mục 6.5 là quy định nội bộ oBacker, có hiệu lực bắt 
 | M3, nội bộ | Thông tin liên hệ, lịch làm việc, trạng thái tiến độ công việc | Toàn đội dịch vụ | Trao đổi trong kênh chính thức |
 | M4, công khai | Thông tin đã được khách công bố hoặc có trên cổng thông tin quốc gia | Không hạn chế | Vẫn không dùng để suy diễn ra thông tin M2 |
 
-#### 6.5.2. Quy tắc lưu trữ
+#### 5.5.2. Quy tắc lưu trữ
 
 1. Toàn bộ dữ liệu khách hàng lưu tại `[KHO LƯU TRỮ HỒ SƠ]` do oBacker quản trị, theo cấu trúc thư mục chuẩn tại Chương 04.
 2. Không lưu dữ liệu khách trên ổ cứng máy cá nhân, USB cá nhân, tài khoản đám mây cá nhân, hộp thư cá nhân.
 3. Tệp tải xuống để xử lý tạm phải xóa khỏi máy trạm ngay khi hoàn tất công việc trong ngày.
 4. Máy tính làm việc phải đặt mật khẩu, khóa màn hình tự động sau 05 phút không thao tác, và mã hóa ổ đĩa nếu là máy xách tay.
 5. Bản in chứa dữ liệu M2 trở lên không để trên bàn qua đêm; hủy bằng máy hủy tài liệu khi không còn cần.
-6. Quy tắc tại mục 6.5.2 là quy tắc bảo mật của oBacker, không thay cho thời hạn lưu trữ tài liệu kế toán theo luật. Ba mốc thời hạn lưu trữ và trách nhiệm của khách xem mục 6.11. Không được hủy bất kỳ tài liệu kế toán nào của khách trước khi hết thời hạn lưu trữ; đây là hành vi bị nghiêm cấm `[Luật Kế toán 41/VBHN-VPQH Đ.13 k.4]`.
+6. Quy tắc tại mục 5.5.2 là quy tắc bảo mật của oBacker, không thay cho thời hạn lưu trữ tài liệu kế toán theo luật. Ba mốc thời hạn lưu trữ và trách nhiệm của khách xem mục 5.11. Không được hủy bất kỳ tài liệu kế toán nào của khách trước khi hết thời hạn lưu trữ; đây là hành vi bị nghiêm cấm `[Luật Kế toán 41/VBHN-VPQH Đ.13 k.4]`.
 
-#### 6.5.3. Quy tắc chia sẻ
+#### 5.5.3. Quy tắc chia sẻ
 
 1. Chỉ gửi thông tin của khách cho người nằm trong danh sách người nhận do khách xác nhận bằng văn bản. Danh sách này lập khi onboarding, xem Chương 03.
 2. Khi có người tự xưng là đại diện của khách yêu cầu cung cấp thông tin qua điện thoại hoặc chat, phải xác thực lại qua kênh đã đăng ký trước khi gửi. Không có ngoại lệ vì lý do gấp.
 3. Không gửi dữ liệu khách A cho khách B trong bất kỳ trường hợp nào, kể cả để làm ví dụ, kể cả khi đã che tên.
 4. Khi gửi tệp ra ngoài, kiểm tra lại danh sách người nhận và nội dung đính kèm trước khi gửi; đây là bước bắt buộc, không phải khuyến nghị.
-5. Yêu cầu cung cấp thông tin từ cơ quan nhà nước, ngân hàng, kiểm toán, bên mua tiềm năng của khách: chuyển TL-KT và `COO`, không tự xử lý. `COO` chuẩn bị hồ sơ và trình `CEO`; `CEO` quyết; Legal R&D BẮT BUỘC được hỏi trước khi `CEO` chốt. Nguồn: [[PL_Ma_tran_phan_quyen|OBK-QCTC-02-PL-B]] mục 6. Yêu cầu của cơ quan thuế xử lý theo mục 6.3.
+5. Yêu cầu cung cấp thông tin từ cơ quan nhà nước, ngân hàng, kiểm toán, bên mua tiềm năng của khách: chuyển TL-KT và `COO`, không tự xử lý. `COO` chuẩn bị hồ sơ và trình `CEO`; `CEO` quyết; Legal R&D BẮT BUỘC được hỏi trước khi `CEO` chốt. Nguồn: OBK-QCTC-02-PL-B mục 6. Yêu cầu của cơ quan thuế xử lý theo mục 5.3.
 
-#### 6.5.4. Quy tắc mang dữ liệu ra ngoài
+#### 5.5.4. Quy tắc mang dữ liệu ra ngoài
 
 1. Mọi việc mang dữ liệu khách ra khỏi hệ thống nội bộ, dưới bất kỳ hình thức nào, phải có phê duyệt của COO bằng văn bản, nêu rõ mục đích, phạm vi dữ liệu, thời hạn, và cách tiêu hủy sau khi dùng xong.
 2. Khi làm việc tại trụ sở khách, chỉ mang theo dữ liệu cần cho buổi làm việc đó.
 3. Không mang chứng từ gốc của khách về nhà riêng trong bất kỳ trường hợp nào.
 
-#### 6.5.5. Quy tắc dùng thiết bị cá nhân
+#### 5.5.5. Quy tắc dùng thiết bị cá nhân
 
 1. Máy tính cá nhân chỉ được dùng cho công việc khi đã được COO duyệt và đã cài đặt biện pháp bảo vệ tối thiểu: mật khẩu, cập nhật hệ điều hành, phần mềm diệt mã độc, không dùng chung với người khác trong gia đình.
 2. Điện thoại cá nhân được dùng để trao đổi công việc qua kênh chính thức, nhưng không được dùng để lưu trữ tệp dữ liệu của khách.
 3. Không chụp màn hình sổ sách, tờ khai bằng điện thoại cá nhân trừ khi có lý do công việc và đã xóa ngay sau khi dùng.
 4. Khi đổi hoặc bán thiết bị cá nhân từng dùng cho công việc, phải xóa dữ liệu theo hướng dẫn của bộ phận kỹ thuật.
 
-#### 6.5.6. Quy tắc trao đổi qua kênh chat
+#### 5.5.6. Quy tắc trao đổi qua kênh chat
 
 1. Mọi trao đổi có nội dung nghiệp vụ với khách phải diễn ra trên kênh chính thức đã đăng ký trong hồ sơ khách, không qua tài khoản cá nhân của nhân viên.
 2. Nội dung có tính cam kết, có ảnh hưởng số thuế, hoặc có tranh chấp phải được chuyển sang email và lưu vào hồ sơ khách; chat không phải là hồ sơ.
@@ -496,7 +455,7 @@ Toàn bộ mục 6.5 là quy định nội bộ oBacker, có hiệu lực bắt 
 4. Không lập nhóm chat chung có nhiều khách hàng khác nhau.
 5. Khi nhân sự rời khỏi khách hàng, phải được đưa ra khỏi nhóm chat của khách trong 24 giờ.
 
-#### 6.5.7. Quy tắc khi nghỉ việc hoặc chuyển công việc
+#### 5.5.7. Quy tắc khi nghỉ việc hoặc chuyển công việc
 
 1. Bàn giao toàn bộ hồ sơ, tệp, ghi chú công việc vào `[KHO LƯU TRỮ HỒ SƠ]` trước ngày làm việc cuối cùng, theo biên bản bàn giao có chữ ký của TL-KT, COO duyệt.
 2. Thu hồi toàn bộ quyền truy cập trong ngày làm việc cuối cùng: tài khoản hệ thống, email, kênh chat, quyền vào `[CỔNG THUẾ ĐIỆN TỬ]` của khách, quyền dùng `[PHẦN MỀM HĐĐT]`.
@@ -504,7 +463,7 @@ Toàn bộ mục 6.5 là quy định nội bộ oBacker, có hiệu lực bắt 
 4. Xóa dữ liệu khách trên thiết bị cá nhân, có xác nhận bằng văn bản của nhân sự đó.
 5. Nghĩa vụ bảo mật tiếp tục sau khi nghỉ việc theo cam kết đã ký.
 
-#### 6.5.8. DANH SÁCH HÀNH VI BỊ CẤM TUYỆT ĐỐI
+#### 5.5.8. DANH SÁCH HÀNH VI BỊ CẤM TUYỆT ĐỐI
 
 Các hành vi sau đây bị cấm tuyệt đối, vi phạm là căn cứ xử lý kỷ luật ở mức cao nhất theo quy chế nội bộ oBacker, và tùy tính chất có thể bị xem xét trách nhiệm pháp lý:
 
@@ -517,7 +476,7 @@ Các hành vi sau đây bị cấm tuyệt đối, vi phạm là căn cứ xử 
 | 5 | Gửi mật khẩu, chữ ký số, mã OTP của khách qua kênh chat hoặc email không mã hóa |
 | 6 | Truy cập dữ liệu của khách hàng mà mình không được phân công |
 | 7 | Dùng tài khoản của người khác để truy cập hệ thống, hoặc cho người khác mượn tài khoản của mình |
-| 8 | Đưa dữ liệu nhận dạng được của khách vào công cụ trí tuệ nhân tạo ngoài, xem mục 6.9 |
+| 8 | Đưa dữ liệu nhận dạng được của khách vào công cụ trí tuệ nhân tạo ngoài, xem mục 5.9 |
 | 9 | Chụp và chia sẻ hình ảnh chứng từ, sổ sách, tờ khai của khách lên mạng xã hội hoặc nhóm ngoài công việc |
 | 10 | Giữ lại bản sao dữ liệu khách sau khi kết thúc phân công hoặc sau khi nghỉ việc |
 | 11 | Trao đổi thông tin nội bộ của khách này với khách khác, kể cả dưới dạng ẩn danh |
@@ -528,15 +487,15 @@ Các hành vi sau đây bị cấm tuyệt đối, vi phạm là căn cứ xử 
 
 ---
 
-### 6.6. XUNG ĐỘT LỢI ÍCH
+### 5.6. XUNG ĐỘT LỢI ÍCH
 
-Toàn bộ mục 6.6 là quy định nội bộ oBacker.
+Toàn bộ mục 5.6 là quy định nội bộ oBacker.
 
-#### 6.6.1. Định nghĩa làm việc
+#### 5.6.1. Định nghĩa làm việc
 
 Xung đột lợi ích là tình huống trong đó lợi ích cá nhân, quan hệ cá nhân, hoặc nghĩa vụ với một khách hàng có khả năng ảnh hưởng tới xét đoán chuyên môn hoặc tính khách quan khi phục vụ một khách hàng khác. Không cần chứng minh đã ảnh hưởng thực tế; chỉ cần có khả năng ảnh hưởng thì đã phải khai báo.
 
-#### 6.6.2. Các tình huống điển hình và cách xử lý
+#### 5.6.2. Các tình huống điển hình và cách xử lý
 
 | # | Tình huống | Mức rủi ro | Cách xử lý |
 | --- | --- | --- | --- |
@@ -545,26 +504,26 @@ Xung đột lợi ích là tình huống trong đó lợi ích cá nhân, quan h
 | 3 | Hai khách hàng có tranh chấp pháp lý với nhau | Rất cao | Dừng nhận việc mới của cả hai liên quan tới tranh chấp;<br>COO đề xuất, CEO quyết định có phải ngừng phục vụ một bên hay không |
 | 4 | Nhân sự có quan hệ họ hàng, hôn nhân, hoặc quan hệ thân thiết với chủ sở hữu hoặc người quản lý của khách | Trung bình tới cao | Khai báo bắt buộc;<br>COO quyết định chuyển khách sang nhân sự khác hoặc tăng mức soát của TL-KT |
 | 5 | Nhân sự hoặc người thân sở hữu phần vốn góp, cổ phần trong doanh nghiệp khách hàng | Rất cao | Không được phụ trách khách đó;<br>chuyển ngay |
-| 6 | Khách mời nhân sự làm thêm việc riêng có trả tiền ngoài hợp đồng dịch vụ | Rất cao | CẤM. Xem mục 6.6.3 |
+| 6 | Khách mời nhân sự làm thêm việc riêng có trả tiền ngoài hợp đồng dịch vụ | Rất cao | CẤM. Xem mục 5.6.3 |
 | 7 | Khách mời nhân sự về làm kế toán nội bộ | Trung bình | Khai báo với COO trong 24 giờ;<br>nhân sự được quyền cân nhắc lời mời nhưng phải rút khỏi việc phụ trách khách đó ngay khi bắt đầu thương lượng |
 | 8 | Nhân sự nhận quà, chiêu đãi, ưu đãi mua hàng từ khách vượt mức thông thường | Trung bình | Khai báo;<br>COO quyết định trả lại hoặc chuyển vào quỹ chung;<br>quà có giá trị lớn phải trả lại |
 | 9 | Nhân sự có công ty riêng hoặc kinh doanh riêng cùng lĩnh vực với oBacker | Rất cao | Khai báo bắt buộc;<br>xử lý theo quy chế lao động và cam kết không cạnh tranh |
 | 10 | Nhân sự có quan hệ cá nhân với công chức thuế đang quản lý khách hàng được phân công | Trung bình | Khai báo;<br>không dùng quan hệ đó để xử lý công việc;<br>mọi trao đổi với cơ quan thuế bằng văn bản |
 | 11 | oBacker vừa xử lý dữ liệu kế toán và lập báo cáo tài chính để khách ký, vừa được đề nghị thực hiện dịch vụ có tính soát xét độc lập cho cùng khách | Cao | AM chuyển COO, COO xin ý kiến Legal R&D;<br>đây là nội dung phải tra chuẩn mực và pháp luật liên quan |
 
-#### 6.6.3. Quy tắc tuyệt đối về nhận việc riêng từ khách
+#### 5.6.3. Quy tắc tuyệt đối về nhận việc riêng từ khách
 
 Nhân sự oBacker không được nhận bất kỳ khoản thù lao nào trực tiếp từ khách hàng của oBacker, dưới bất kỳ tên gọi nào: làm thêm, tư vấn riêng, hỗ trợ ngoài giờ, quà cảm ơn bằng tiền. Toàn bộ nhu cầu dịch vụ tăng thêm của khách phải được đưa về oBacker để báo giá và ký phụ lục hợp đồng. Vi phạm quy tắc này bị xử lý ở mức cao nhất.
 
 Lý do: khi nhân sự nhận tiền riêng, phần việc đó nằm ngoài hệ thống kiểm soát chất lượng, không có người soát, không có bảo hiểm trách nhiệm, và khi sai thì nhân sự chịu trách nhiệm cá nhân trước khách hàng.
 
-#### 6.6.4. Quy trình khai báo và xử lý
+#### 5.6.4. Quy trình khai báo và xử lý
 
 | Bước | Nội dung | Người làm | Thời hạn | Tiêu chí hoàn thành |
 | --- | --- | --- | --- | --- |
 | 1 | Khai báo lần đầu khi được phân công khách mới, theo mẫu Phụ lục A | CV-KT, TL-KT, AM | Trong 03 ngày làm việc kể từ ngày được phân công | Phiếu khai báo có trong hồ sơ khách |
 | 2 | Khai báo bổ sung ngay khi phát sinh tình huống mới | Người phát sinh | Trong 24 giờ kể từ khi biết | Phiếu bổ sung được TL-KT xác nhận đã nhận |
-| 3 | Đánh giá mức rủi ro theo bảng 6.6.2 | TL-KT | Trong 02 ngày làm việc | Có kết luận mức rủi ro bằng văn bản |
+| 3 | Đánh giá mức rủi ro theo bảng 5.6.2 | TL-KT | Trong 02 ngày làm việc | Có kết luận mức rủi ro bằng văn bản |
 | 4 | Quyết định biện pháp xử lý: tiếp tục, tăng mức soát, tách nhân sự, chuyển khách | COO | Trong 03 ngày làm việc | Quyết định ghi vào hồ sơ khách |
 | 5 | Quyết định TỪ CHỐI PHỤC VỤ hoặc chấm dứt hợp đồng vì xung đột lợi ích | CEO, theo đề xuất của COO | Trong 03 ngày làm việc kể từ khi nhận đề xuất | Quyết định ghi vào hồ sơ khách |
 | 6 | Thông báo cho khách hàng khi biện pháp xử lý có ảnh hưởng tới khách | AM, nội dung do COO duyệt | Trước khi áp dụng | Có văn bản gửi khách |
@@ -575,9 +534,9 @@ Lý do: khi nhân sự nhận tiền riêng, phần việc đó nằm ngoài h�
 
 ---
 
-### 6.7. NGUYÊN TẮC KHÔNG ĐƯỢC TỰ QUYẾT
+### 5.7. NGUYÊN TẮC KHÔNG ĐƯỢC TỰ QUYẾT
 
-Đây là quy định nội bộ oBacker. Danh sách dưới đây liệt kê những việc mà CV-KT và AM, và trong một số trường hợp cả TL-KT và COO, tuyệt đối không được tự quyết. Khi gặp một trong các tình huống này, dừng lại, ghi nhận vào `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]`, và chuyển đúng vai trò. Các dòng 21 tới 28 là hệ quả trực tiếp của bốn nguyên tắc phân vai trò tại mục 4.1.
+Đây là quy định nội bộ oBacker. Danh sách dưới đây liệt kê những việc mà CV-KT và AM, và trong một số trường hợp cả TL-KT và COO, tuyệt đối không được tự quyết. Khi gặp một trong các tình huống này, dừng lại, ghi nhận vào `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]`, và chuyển đúng vai trò. Các dòng 21 tới 28 là hệ quả trực tiếp của bốn nguyên tắc phân vai trò tại mục 3.1.
 
 | # | Việc không được tự quyết | Cấp quyết định | Lý do |
 | --- | --- | --- | --- |
@@ -586,42 +545,42 @@ Lý do: khi nhân sự nhận tiền riêng, phần việc đó nằm ngoài h�
 | 3 | Quyết định không khai bổ sung một sai sót đã phát hiện | TL-KT, báo COO nếu phát sinh tiền phạt | Việc không hành động cũng là một quyết định có hậu quả pháp lý |
 | 4 | Cam kết với khách về kết quả: không bị phạt, chắc chắn được hoàn thuế, chắc chắn không bị kiểm tra | Không cấp nào, kể cả CEO;<br>oBacker không cam kết kết quả | Không ai kiểm soát được quyết định của cơ quan quản lý |
 | 5 | Cam kết bằng văn bản về một mốc thời hạn pháp luật đang gắn chưa đối chiếu bản gốc hoặc chưa xác minh được | TL-KT đối chiếu bản gốc, COO duyệt, AM mới được nói với khách | Xem Chương 13;<br>cam kết sai thời hạn là rủi ro trực tiếp |
-| 6 | Ký thay khách hàng trên bất kỳ tài liệu nào | Không ai được ký thay;<br>AM tổ chức lấy chữ ký hợp lệ của khách | Vi phạm nghiêm trọng, xem mục 6.8 |
-| 7 | Sử dụng chữ ký số của khách để ký gửi khi chưa có xác nhận nội dung bằng văn bản của khách | Không ai;<br>TL-KT chỉ ký gửi sau khi AM đã có xác nhận của khách | Rủi ro bên được ủy quyền bị xử phạt, xem mục 6.3 |
+| 6 | Ký thay khách hàng trên bất kỳ tài liệu nào | Không ai được ký thay;<br>AM tổ chức lấy chữ ký hợp lệ của khách | Vi phạm nghiêm trọng, xem mục 5.8 |
+| 7 | Sử dụng chữ ký số của khách để ký gửi khi chưa có xác nhận nội dung bằng văn bản của khách | Không ai;<br>TL-KT chỉ ký gửi sau khi AM đã có xác nhận của khách | Rủi ro bên được ủy quyền bị xử phạt, xem mục 5.3 |
 | 8 | Tư vấn cấu trúc lại giao dịch nhằm mục đích giảm số thuế phải nộp | TL-KT, và chỉ sau khi có ý kiến của Legal R&D | Ranh giới giữa giảm thuế hợp pháp và tránh thuế rất hẹp |
 | 9 | Trả lời khách về nội dung chưa xác minh được căn cứ, tức gắn chưa xác minh được | TL-KT sau khi tra bản gốc;<br>nếu vẫn không có bản gốc thì DỪNG. `AM` là người gửi thông báo cho khách trong mọi trường hợp, `COO` chỉ duyệt mốc | Trả lời sai tạo trách nhiệm cho oBacker |
 | 10 | Quyết định phương pháp tính thuế, kỳ khai thuế, chế độ kế toán áp dụng cho khách | TL-KT, dựa trên Chương 08 và Chương 13 | Chọn sai kéo theo sai hàng loạt kỳ |
 | 11 | Chấp nhận một chứng từ có dấu hiệu bất thường vào sổ | CV-KT báo, TL-KT quyết định | Rủi ro hóa đơn không hợp pháp |
 | 12 | Loại bỏ, hủy, hoặc sửa một bút toán đã khóa sổ | TL-KT | Ảnh hưởng tính toàn vẹn của sổ kế toán |
-| 13 | Trả lời hoặc làm việc trực tiếp với cơ quan thuế thay khách | TL-KT soạn và ký;<br>COO không soát nội dung nghiệp vụ | Xem mục 6.3;<br>mọi trả lời phải bằng văn bản |
+| 13 | Trả lời hoặc làm việc trực tiếp với cơ quan thuế thay khách | TL-KT soạn và ký;<br>COO không soát nội dung nghiệp vụ | Xem mục 5.3;<br>mọi trả lời phải bằng văn bản |
 | 14 | Cung cấp hồ sơ, dữ liệu của khách cho bên thứ ba, gồm ngân hàng, kiểm toán, nhà đầu tư | `CEO` quyết; Legal R&D BẮT BUỘC được hỏi; `COO` chuẩn bị hồ sơ; và phải có văn bản đồng ý của khách.<br>Nguồn [[PL_Ma_tran_phan_quyen\|OBK-QCTC-02-PL-B]] mục 6 | Vi phạm bảo mật |
 | 15 | Nhận thêm phạm vi công việc ngoài hợp đồng, kể cả khi khách nói "làm giúp anh chị luôn" | AM nhận diện, TL-KT xác nhận khả thi, COO duyệt | Việc ngoài phạm vi không được tính phí, không được kiểm soát, nhưng vẫn phát sinh trách nhiệm |
 | 16 | Giảm phí, hoãn thu phí, hoặc hứa miễn phí một hạng mục cho khách | AM trong hạn mức COO giao, COO ngoài hạn mức, CEO nếu vượt hạn mức COO | Thuộc thẩm quyền thương mại |
 | 17 | Từ chối một khách hàng hoặc chấm dứt dịch vụ với một khách hàng | CEO | Có hệ quả hợp đồng và thương mại |
 | 18 | Quyết định giữ chứng từ gốc của khách quá thời hạn đã thỏa thuận | COO | Xem Chương 04 mục bàn giao chứng từ gốc |
-| 19 | Đưa dữ liệu khách vào một công cụ, nền tảng, hoặc dịch vụ bên ngoài chưa được duyệt | `CEO` quyết; Legal R&D BẮT BUỘC được hỏi; `COO` được hỏi. Nguồn [[PL_Ma_tran_phan_quyen\|OBK-QCTC-02-PL-B]] mục 6 | Xem mục 6.9 |
+| 19 | Đưa dữ liệu khách vào một công cụ, nền tảng, hoặc dịch vụ bên ngoài chưa được duyệt | `CEO` quyết; Legal R&D BẮT BUỘC được hỏi; `COO` được hỏi. Nguồn [[PL_Ma_tran_phan_quyen\|OBK-QCTC-02-PL-B]] mục 6 | Xem mục 5.9 |
 | 20 | Tự thỏa thuận với khách về việc bồi thường khi oBacker gây thiệt hại | CEO | Thuộc thẩm quyền của công ty, không phải của cá nhân |
-| 21 | AM bác bỏ, làm nhẹ đi, hoặc diễn đạt lệch kết luận kỹ thuật của TL-KT | Không cấp nào. COO chỉ có hai lựa chọn: giữ kết luận của TL-KT, hoặc chuyển Legal R&D xin ý kiến chuyên môn | Nguyên tắc A tại mục 4.1 |
-| 22 | TL-KT báo giá, giảm phí, nhận thêm phạm vi, hoặc cam kết mốc nằm ngoài cam kết chất lượng nội bộ | AM trong hạn mức, COO ngoài hạn mức. TL-KT chuyển AM | Nguyên tắc B tại mục 4.1 |
-| 23 | Bỏ bước TL-KT soát phần việc do CV-KT làm, vì gấp hay vì khối lượng nhỏ | Không cấp nào được bỏ | Nguyên tắc C tại mục 4.1 |
-| 24 | Phê duyệt cho làm một việc thuộc hành vi oBacker nghiêm cấm tại mục 6.8 | Không cấp nào, KỂ CẢ CEO | Nguyên tắc D tại mục 4.1 |
+| 21 | AM bác bỏ, làm nhẹ đi, hoặc diễn đạt lệch kết luận kỹ thuật của TL-KT | Không cấp nào. COO chỉ có hai lựa chọn: giữ kết luận của TL-KT, hoặc chuyển Legal R&D xin ý kiến chuyên môn | Nguyên tắc A tại mục 3.1 |
+| 22 | TL-KT báo giá, giảm phí, nhận thêm phạm vi, hoặc cam kết mốc nằm ngoài cam kết chất lượng nội bộ | AM trong hạn mức, COO ngoài hạn mức. TL-KT chuyển AM | Nguyên tắc B tại mục 3.1 |
+| 23 | Bỏ bước TL-KT soát phần việc do CV-KT làm, vì gấp hay vì khối lượng nhỏ | Không cấp nào được bỏ | Nguyên tắc C tại mục 3.1 |
+| 24 | Phê duyệt cho làm một việc thuộc hành vi oBacker nghiêm cấm tại mục 5.8 | Không cấp nào, KỂ CẢ CEO | Nguyên tắc D tại mục 3.1 |
 | 25 | Ép TL-KT ký một hồ sơ mà TL-KT đã kết luận là không phù hợp quy định pháp luật | Không cấp nào, kể cả CEO. Đường xử lý là Legal R&D, ý kiến chuyên gia bên ngoài, hoặc thay người phụ trách | Quyền không ký của TL-KT là quyền tuyệt đối |
-| 26 | Đứng tên người lập hoặc kế toán trưởng trên báo cáo tài chính của khách | CEO, và phải sửa hợp đồng trước. Mặc định là oBacker không đứng tên | Xem mục 6.1.3 |
-| 27 | Gọi tên dịch vụ trong hợp đồng là "lập và trình bày báo cáo tài chính" hoặc "làm kế toán trưởng" | CEO;<br>AM soạn hợp đồng theo cách gọi tên tại mục 6.1.3.1, TL-KT soát tên dịch vụ | Kích hoạt nghĩa vụ ghi danh tại `[TT99 Đ.16 k.4]` |
-| 28 | Trả lời khách về danh mục chi tiết từng loại tài liệu kế toán phải lưu trữ và thời điểm tính thời hạn | TL-KT, theo danh mục tại mục 6.11.4 | Nghị định 174/2016/NĐ-CP quy định chi tiết một số điều của Luật Kế toán, xem mục 6.11.4 |
+| 26 | Đứng tên người lập hoặc kế toán trưởng trên báo cáo tài chính của khách | CEO, và phải sửa hợp đồng trước. Mặc định là oBacker không đứng tên | Xem mục 5.1.3 |
+| 27 | Gọi tên dịch vụ trong hợp đồng là "lập và trình bày báo cáo tài chính" hoặc "làm kế toán trưởng" | CEO;<br>AM soạn hợp đồng theo cách gọi tên tại mục 5.1.3.1, TL-KT soát tên dịch vụ | Kích hoạt nghĩa vụ ghi danh tại `[TT99 Đ.16 k.4]` |
+| 28 | Trả lời khách về danh mục chi tiết từng loại tài liệu kế toán phải lưu trữ và thời điểm tính thời hạn | TL-KT, theo danh mục tại mục 5.11.4 | Nghị định 174/2016/NĐ-CP quy định chi tiết một số điều của Luật Kế toán, xem mục 5.11.4 |
 
 > [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
-> Quy tắc kiểm tra nhanh trong 10 giây. Trước khi bấm gửi một câu trả lời cho khách, tự hỏi bốn câu: câu trả lời này có làm thay đổi số thuế không; có tạo ra cam kết của oBacker không; căn cứ đã đối chiếu bản gốc hay chưa; nội dung này thuộc phần kỹ thuật của TL-KT hay phần thương mại của AM. Nếu có bất kỳ câu nào đáng ngại, dừng lại và chuyển đúng vai trò.
+> Quy tắc kiểm tra trước khi phát hành câu trả lời cho khách hàng: Chuyên viên rà soát các tiêu chí: nội dung trả lời có làm thay đổi nghĩa vụ thuế; có tạo ra cam kết pháp lý của oBacker; căn cứ pháp lý đã được đối chiếu văn bản gốc; và nội dung thuộc thẩm quyền kỹ thuật của TL-KT hay thương mại của AM. Trường hợp có phát sinh vấn đề vượt thẩm quyền, chuyên viên chuyển hồ sơ đến đúng vai trò quy định.
 
 ---
 
-### 6.8. HÀNH VI OBACKER NGHIÊM CẤM
+### 5.8. HÀNH VI OBACKER NGHIÊM CẤM
 
-Mục 6.8 là quy định nội bộ oBacker, xây trên căn cứ pháp luật tại mục 6.8.4. Đây là các yêu cầu mà oBacker phải từ chối, không thương lượng, không có ngoại lệ vì lý do khách lớn, khách lâu năm, hay khách sắp mất.
+Mục 5.8 là quy định nội bộ oBacker, xây trên căn cứ pháp luật tại mục 6.8.4. Đây là các yêu cầu mà oBacker phải từ chối, không thương lượng, không có ngoại lệ vì lý do khách lớn, khách lâu năm, hay khách sắp mất.
 
-**HÀNH VI OBACKER NGHIÊM CẤM KHÔNG CÓ CẤP NÀO VƯỢT QUA, KỂ CẢ CEO.** Đây là Nguyên tắc D tại mục 4.1. Không CV-KT, không AM, không TL-KT, không COO, và cũng không CEO có thẩm quyền phê duyệt cho làm một việc thuộc mục này. Chuyển lên cấp trên trong trường hợp này chỉ để ghi nhận và xử lý quan hệ với khách, không phải để tìm người đủ thẩm quyền cho phép.
+**HÀNH VI OBACKER NGHIÊM CẤM KHÔNG CÓ CẤP NÀO VƯỢT QUA, KỂ CẢ CEO.** Đây là Nguyên tắc D tại mục 3.1. Không CV-KT, không AM, không TL-KT, không COO, và cũng không CEO có thẩm quyền phê duyệt cho làm một việc thuộc mục này. Chuyển lên cấp trên trong trường hợp này chỉ để ghi nhận và xử lý quan hệ với khách, không phải để tìm người đủ thẩm quyền cho phép.
 
-#### 6.8.1. Danh mục hành vi oBacker nghiêm cấm
+#### 5.8.1. Danh mục hành vi oBacker nghiêm cấm
 
 | # | Yêu cầu của khách | Tại sao là hành vi oBacker nghiêm cấm |
 | --- | --- | --- |
@@ -643,11 +602,11 @@ Mục 6.8 là quy định nội bộ oBacker, xây trên căn cứ pháp luật 
 | 16 | Nhờ oBacker hoặc nhân sự oBacker cho thuê, cho mượn chứng chỉ kế toán viên hoặc Giấy chứng nhận đăng ký hành nghề dịch vụ kế toán, dưới mọi hình thức | Hành vi bị nghiêm cấm `[Luật Kế toán 41/VBHN-VPQH Đ.13 k.9]` |
 | 17 | Đề nghị oBacker cung cấp dịch vụ kế toán khi oBacker chưa được cấp Giấy chứng nhận đủ điều kiện kinh doanh dịch vụ kế toán, hoặc để một cá nhân chưa đủ điều kiện hành nghề đứng ra làm | Hành vi bị nghiêm cấm `[Luật Kế toán 41/VBHN-VPQH Đ.13 k.11]` |
 | 18 | Đề nghị oBacker giới thiệu hoặc dùng một tổ chức, cá nhân không đủ điều kiện hành nghề, không đủ điều kiện kinh doanh dịch vụ kế toán để cung cấp dịch vụ kế toán cho khách | Hành vi bị nghiêm cấm `[Luật Kế toán 41/VBHN-VPQH Đ.13 k.13]` |
-| 19 | Yêu cầu oBacker bố trí hoặc đứng tên người làm kế toán, kế toán trưởng không đủ tiêu chuẩn, điều kiện | Hành vi bị nghiêm cấm `[Luật Kế toán 41/VBHN-VPQH Đ.13 k.8]`;<br>xem mục 6.1.4 |
-| 20 | Yêu cầu hủy bỏ hoặc làm hư hỏng tài liệu kế toán trước khi kết thúc thời hạn lưu trữ | Hành vi bị nghiêm cấm `[Luật Kế toán 41/VBHN-VPQH Đ.13 k.4]`;<br>thời hạn xem mục 6.11 |
+| 19 | Yêu cầu oBacker bố trí hoặc đứng tên người làm kế toán, kế toán trưởng không đủ tiêu chuẩn, điều kiện | Hành vi bị nghiêm cấm `[Luật Kế toán 41/VBHN-VPQH Đ.13 k.8]`;<br>xem mục 5.1.4 |
+| 20 | Yêu cầu hủy bỏ hoặc làm hư hỏng tài liệu kế toán trước khi kết thúc thời hạn lưu trữ | Hành vi bị nghiêm cấm `[Luật Kế toán 41/VBHN-VPQH Đ.13 k.4]`;<br>thời hạn xem mục 5.11 |
 | 21 | Đề nghị oBacker thông đồng, móc nối với khách để cung cấp hoặc xác nhận thông tin, số liệu kế toán sai sự thật | Hành vi bị nghiêm cấm `[Luật Kế toán 41/VBHN-VPQH Đ.13 k.14]` |
 
-#### 6.8.2. Quy trình từ chối và chuyển lên cấp trên
+#### 5.8.2. Quy trình từ chối và chuyển lên cấp trên
 
 | Bước | Nội dung | Người làm | Thời hạn |
 | --- | --- | --- | --- |
@@ -661,7 +620,7 @@ Mục 6.8 là quy định nội bộ oBacker, xây trên căn cứ pháp luật 
 | 8 | Lưu toàn bộ hồ sơ vụ việc vào hồ sơ khách, mục hồ sơ rủi ro | CV-KT lưu, TL-KT kiểm | Trong 02 ngày làm việc |
 | 9 | Cập nhật điểm rủi ro khách hàng theo Chương 03;<br>xem xét đưa vào diện theo dõi đặc biệt | TL-KT đề xuất, COO duyệt, CEO quyết nếu đề xuất là chấm dứt hợp đồng | Trong 05 ngày làm việc |
 
-#### 6.8.3. Mẫu câu từ chối
+#### 5.8.3. Mẫu câu từ chối
 
 Nguyên tắc: lịch sự với người, dứt khoát với việc. Không giải thích dài và không đưa ra phương án thay thế nằm ở vùng xám.
 
@@ -676,48 +635,23 @@ Nguyên tắc: lịch sự với người, dứt khoát với việc. Không gi�
 | Khách gây áp lực bằng việc dọa chuyển đơn vị khác | "Em hiểu là quyết định thuộc về anh chị.<br>Với yêu cầu cụ thể này thì bên em không thực hiện được, và em nghĩ đơn vị nào làm đúng quy định cũng sẽ trả lời như vậy.<br>Em vẫn sẵn sàng hỗ trợ anh chị các phương án hợp pháp." |
 
 > [!bug] LỖI THƯỜNG GẶP
-> AM nói "để em hỏi sếp xem có cách nào không". Câu này để ngỏ khả năng làm được, khiến khách tiếp tục gây áp lực và khiến CEO rơi vào thế phải từ chối lần hai. Với hành vi oBacker nghiêm cấm, câu trả lời phải là không, ngay từ người đầu tiên nhận yêu cầu; việc báo lên trên là để ghi nhận và xử lý quan hệ, không phải để xin ngoại lệ. Không có cấp nào cho được ngoại lệ, kể cả CEO.
+> Đối với các hành vi thuộc danh mục oBacker nghiêm cấm, nhân viên phải từ chối thực hiện ngay từ thời điểm tiếp nhận yêu cầu. Việc báo cáo cấp trên nhằm mục đích ghi nhận rủi ro và quản trị quan hệ khách hàng, không nhằm mục đích xin ngoại lệ. Không cấp nào có thẩm quyền phê duyệt ngoại lệ đối với hành vi bị nghiêm cấm, kể cả CEO.
 
-#### 6.8.4. CĂN CỨ PHÁP LUẬT CỦA HÀNH VI OBACKER NGHIÊM CẤM: 14 HÀNH VI BỊ NGHIÊM CẤM TẠI ĐIỀU 13 LUẬT KẾ TOÁN
-
-Điều 13 Luật Kế toán, bản hợp nhất 41/VBHN-VPQH, liệt kê 14 hành vi bị nghiêm cấm cụ thể tại các khoản 1 tới 14, cộng một khoản dẫn chiếu tại khoản 15. Đây là căn cứ pháp luật của phần lớn danh mục hành vi oBacker nghiêm cấm tại mục 6.8.1, và là lý do vì sao các yêu cầu đó không thương lượng được `[Luật Kế toán 41/VBHN-VPQH Đ.13]`.
-
-| Khoản | Hành vi bị nghiêm cấm, theo nguyên văn Điều 13 | Hành vi oBacker nghiêm cấm tương ứng tại mục 6.8.1 |
-| --- | --- | --- |
-| 1 | Giả mạo, khai man hoặc thỏa thuận, ép buộc người khác giả mạo, khai man, tẩy xóa chứng từ kế toán hoặc tài liệu kế toán khác | Số 1, 3, 5, 6, 10 |
-| 2 | Cố ý, thỏa thuận hoặc ép buộc người khác cung cấp, xác nhận thông tin, số liệu kế toán sai sự thật | Số 15, 21 |
-| 3 | Để ngoài sổ kế toán tài sản, nợ phải trả của đơn vị kế toán hoặc có liên quan đến đơn vị kế toán | Số 9 |
-| 4 | Hủy bỏ hoặc cố ý làm hư hỏng tài liệu kế toán trước khi kết thúc thời hạn lưu trữ quy định tại Điều 41 của Luật này | Số 8, 20 |
-| 5 | Ban hành, công bố chuẩn mực kế toán, chế độ kế toán không đúng thẩm quyền | Không phát sinh trong dịch vụ của oBacker |
-| 6 | Mua chuộc, đe dọa, trù dập, ép buộc người làm kế toán thực hiện công việc kế toán không đúng với quy định của Luật này | Số 14;<br>cũng là căn cứ của quyền không ký của TL-KT tại mục 6.7 dòng 25 |
-| 7 | Người có trách nhiệm quản lý, điều hành đơn vị kế toán kiêm làm kế toán, thủ kho, thủ quỹ, trừ doanh nghiệp tư nhân và công ty trách nhiệm hữu hạn do một cá nhân làm chủ sở hữu | Cảnh báo khi onboarding;<br>TL-KT ghi hồ sơ rủi ro, AM thông báo khách |
-| 8 | Bố trí hoặc thuê người làm kế toán, người làm kế toán trưởng không đủ tiêu chuẩn, điều kiện quy định tại Điều 51 và Điều 54 của Luật này | Số 19;<br>kiểm tra bắt buộc tại mục 6.1.4 |
-| 9 | Thuê, mượn, cho thuê, cho mượn chứng chỉ kế toán viên, Giấy chứng nhận đăng ký hành nghề dịch vụ kế toán dưới mọi hình thức | Số 12, 16 |
-| 10 | Lập hai hệ thống sổ kế toán tài chính trở lên hoặc cung cấp, công bố các báo cáo tài chính có số liệu không đồng nhất trong cùng một kỳ kế toán | Số 4 |
-| 11 | Kinh doanh dịch vụ kế toán khi chưa được cấp Giấy chứng nhận đủ điều kiện kinh doanh dịch vụ kế toán hoặc hành nghề dịch vụ kế toán khi không bảo đảm điều kiện quy định của Luật này | Số 17;<br>điều kiện của chính oBacker, xem mục 6.10.2 |
-| 12 | Sử dụng cụm từ "dịch vụ kế toán" trong tên gọi của doanh nghiệp nếu đã quá 06 tháng kể từ ngày được cấp Giấy chứng nhận đăng ký doanh nghiệp mà vẫn không được cấp Giấy chứng nhận đủ điều kiện kinh doanh dịch vụ kế toán hoặc doanh nghiệp đã chấm dứt kinh doanh dịch vụ kế toán | Điều kiện của chính oBacker, xem mục 6.10.2 |
-| 13 | Thuê cá nhân, tổ chức không đủ điều kiện hành nghề, điều kiện kinh doanh dịch vụ kế toán cung cấp dịch vụ kế toán cho đơn vị mình | Số 18;<br>áp cho cả khách khi khách thuê oBacker, xem mục 6.10.2 |
-| 14 | Kế toán viên hành nghề và doanh nghiệp kinh doanh dịch vụ kế toán thông đồng, móc nối với khách hàng để cung cấp, xác nhận thông tin, số liệu kế toán sai sự thật | Số 21;<br>đây là khoản áp trực tiếp lên oBacker và lên từng kế toán viên hành nghề |
-
-Khoản 15 Điều 13 dẫn chiếu sang "các hành vi bị nghiêm cấm khác theo quy định của pháp luật về phòng, chống tham nhũng trong hoạt động kế toán". Đây là khoản dẫn chiếu, không phải một hành vi cụ thể; nội dung cụ thể phải mở pháp luật về phòng, chống tham nhũng, hiện chưa có trong kho.
-
-> [!danger] RỦI RO BỊ XỬ PHẠT
-> TUYỆT ĐỐI KHÔNG nêu mức phạt cho bất kỳ hành vi nào tại bảng trên, TRỪ khoản 8 (bố trí hoặc thuê người làm kế toán trưởng không đủ tiêu chuẩn), đã có mức phạt tại mục 6.1.4. Nghị định 41/2018/NĐ-CP đã sửa đổi bởi Nghị định 132/2026/NĐ-CP có trong kho nhưng chưa đối chiếu được Điều khớp với 13 hành vi còn lại. Khi khách hỏi "làm thế thì bị phạt bao nhiêu" về một hành vi khác khoản 8, câu trả lời đúng của AM là: đây là hành vi bị luật nghiêm cấm nên bên em không thực hiện, còn mức xử lý cụ thể thì bên em không nêu khi chưa đối chiếu được Điều khớp hành vi trong văn bản xử phạt.
 
 ---
 
-### 6.9. QUY TẮC DÙNG CÔNG CỤ TRÍ TUỆ NHÂN TẠO TRONG CÔNG VIỆC
+### 5.9. QUY TẮC DÙNG CÔNG CỤ TRÍ TUỆ NHÂN TẠO TRONG CÔNG VIỆC
 
-Toàn bộ mục 6.9 là quy định nội bộ oBacker.
+Toàn bộ mục 5.9 là quy định nội bộ oBacker.
 
-#### 6.9.1. Nguyên tắc nền
+#### 5.9.1. Nguyên tắc nền
 
 1. Công cụ trí tuệ nhân tạo là công cụ hỗ trợ soạn thảo và tra cứu sơ bộ. Công cụ đó không phải nguồn pháp lý, không phải người soát, và không chịu trách nhiệm.
 2. Mọi kết quả do công cụ tạo ra phải được một người có chuyên môn kiểm chứng trước khi dùng vào bất kỳ việc gì có ảnh hưởng tới khách hàng. Người kiểm chứng là người chịu trách nhiệm về kết quả, không phải công cụ.
 3. Không đưa dữ liệu nhận dạng được của khách hàng vào công cụ ngoài hệ thống được oBacker duyệt.
 4. Chỉ dùng các công cụ nằm trong danh mục được COO duyệt và công bố tại `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]`.
 
-#### 6.9.2. Được dùng vào việc gì
+#### 5.9.2. Được dùng vào việc gì
 
 | # | Việc được dùng | Điều kiện |
 | --- | --- | --- |
@@ -730,20 +664,20 @@ Toàn bộ mục 6.9 là quy định nội bộ oBacker.
 | 7 | Tóm tắt một tài liệu công khai, ví dụ bản tin của cơ quan quản lý | Vẫn phải mở bản gốc trước khi trích dẫn |
 | 8 | Rà lỗi chính tả, lỗi trình bày của tài liệu nội bộ | Không áp dụng cho tài liệu có dữ liệu M2 trở lên nếu công cụ nằm ngoài hệ thống được duyệt |
 
-#### 6.9.3. Cấm dùng vào việc gì
+#### 5.9.3. Cấm dùng vào việc gì
 
 | # | Việc bị cấm | Lý do |
 | --- | --- | --- |
 | 1 | Lấy kết quả của công cụ làm căn cứ pháp lý để trả lời khách | Công cụ có thể tạo ra số điều khoản, số văn bản, con số không có thật |
-| 2 | Dán sổ sách, tờ khai, sao kê, bảng lương, hợp đồng của khách vào công cụ ngoài | Vi phạm bảo mật, xem mục 6.5.8 |
+| 2 | Dán sổ sách, tờ khai, sao kê, bảng lương, hợp đồng của khách vào công cụ ngoài | Vi phạm bảo mật, xem mục 5.5.8 |
 | 3 | Dán tên khách, mã số thuế, tên người đại diện, địa chỉ, số tài khoản vào công cụ ngoài | Dữ liệu nhận dạng được |
 | 4 | Dùng công cụ để tạo ra nội dung chứng từ, biên bản, hợp đồng rồi dùng như tài liệu thật mà không có người rà soát và không có người ký chịu trách nhiệm | Rủi ro tạo lập tài liệu không phản ánh thực tế |
-| 5 | Dùng công cụ để ra quyết định thuộc danh mục không được tự quyết tại mục 6.7 | Thẩm quyền thuộc về người, không thuộc về công cụ |
+| 5 | Dùng công cụ để ra quyết định thuộc danh mục không được tự quyết tại mục 5.7 | Thẩm quyền thuộc về người, không thuộc về công cụ |
 | 6 | Đưa dữ liệu khách vào công cụ chưa nằm trong danh mục được duyệt, dù chỉ để thử | Không kiểm soát được nơi dữ liệu đi tới |
-| 7 | Dùng công cụ để soạn văn bản gửi cơ quan thuế mà không có TL-KT soát và ký | Xem mục 6.3 |
+| 7 | Dùng công cụ để soạn văn bản gửi cơ quan thuế mà không có TL-KT soát và ký | Xem mục 5.3 |
 | 8 | Nói với khách rằng một kết quả là do hệ thống tự động tạo ra để né trách nhiệm | Trách nhiệm luôn thuộc về người và về oBacker |
 
-#### 6.9.4. Quy tắc ẩn danh hóa dữ liệu trước khi hỏi
+#### 5.9.4. Quy tắc ẩn danh hóa dữ liệu trước khi hỏi
 
 Khi cần hỏi một tình huống nghiệp vụ có bối cảnh số liệu, phải ẩn danh trước khi đưa vào công cụ ngoài:
 
@@ -753,7 +687,7 @@ Khi cần hỏi một tình huống nghiệp vụ có bối cảnh số liệu, 
 4. Bỏ tên ngành hàng quá hẹp nếu ngành đó chỉ có vài doanh nghiệp trên địa bàn.
 5. Không đính kèm tệp gốc; chỉ mô tả tình huống bằng lời.
 
-#### 6.9.5. Quy tắc kiểm chứng bắt buộc
+#### 5.9.5. Quy tắc kiểm chứng bắt buộc
 
 | Loại kết quả | Cách kiểm chứng bắt buộc |
 | --- | --- |
@@ -768,7 +702,7 @@ Khi cần hỏi một tình huống nghiệp vụ có bối cảnh số liệu, 
 
 ---
 
-### 6.10. ĐIỀU KIỆN KINH DOANH DỊCH VỤ KẾ TOÁN VÀ ĐIỀU 70a LUẬT KẾ TOÁN
+### 5.10. ĐIỀU KIỆN KINH DOANH DỊCH VỤ KẾ TOÁN VÀ ĐIỀU 70a LUẬT KẾ TOÁN
 
 Điều kiện đăng ký hành nghề dịch vụ kế toán của cá nhân: có năng lực hành vi dân sự; có thời gian công tác thực tế về tài chính, kế toán, kiểm toán từ 36 tháng trở lên kể từ thời điểm tốt nghiệp đại học; và tham gia đầy đủ chương trình cập nhật kiến thức theo quy định `[Luật Kế toán 41/VBHN-VPQH Đ.58 k.1]`. Thủ tục cấp và thu hồi Giấy chứng nhận đăng ký hành nghề dịch vụ kế toán do Bộ Tài chính quy định riêng `[Luật Kế toán 41/VBHN-VPQH Đ.58 k.2]`; văn bản đó chưa có trong kho, nên hồ sơ và trình tự cụ thể vẫn giữ chưa xác minh được, xem mục 3.2.
 
@@ -776,7 +710,7 @@ Khi cần hỏi một tình huống nghiệp vụ có bối cảnh số liệu, 
 
 Nghĩa vụ mua bảo hiểm trách nhiệm nghề nghiệp: đơn vị kinh doanh dịch vụ kế toán phải mua bảo hiểm trách nhiệm nghề nghiệp để có nguồn chi trả bồi thường thiệt hại cho khách hàng do rủi ro trong quá trình kế toán viên hành nghề của đơn vị cung cấp dịch vụ, chậm nhất 60 ngày kể từ ngày kế toán viên hành nghề được cấp Giấy chứng nhận đăng ký hành nghề dịch vụ kế toán tại đơn vị `[NĐ 174/2016 Đ.28 k.1, k.2]`.
 
-#### 6.10.1. Điều 70a, điều mới ảnh hưởng trực tiếp điều kiện hành nghề của oBacker
+#### 5.10.1. Điều 70a, điều mới ảnh hưởng trực tiếp điều kiện hành nghề của oBacker
 
 Luật Quản lý thuế số 108/2025/QH15 Điều 51 bổ sung Điều 70a vào Luật Kế toán. Điều 70a có tên "Cung cấp dịch vụ kế toán của tổ chức kinh doanh dịch vụ làm thủ tục về thuế", đã được hợp nhất vào bản 41/VBHN-VPQH ngày 16/3/2026.
 
@@ -796,10 +730,10 @@ Hệ quả với oBacker, là quy định nội bộ: TL-KT phải xác định 
 
 Điều 70a mở thêm một trường hợp được phép, không bỏ điều kiện. Điều 13 khoản 11 vẫn nghiêm cấm hành nghề dịch vụ kế toán khi không bảo đảm điều kiện quy định của Luật Kế toán.
 
-> [!question] CẦN XÁC MINH
-> Tiêu chí xác định doanh nghiệp siêu nhỏ theo pháp luật hỗ trợ doanh nghiệp nhỏ và vừa, và thủ tục để một tổ chức kinh doanh dịch vụ làm thủ tục về thuế đăng ký cung cấp dịch vụ kế toán theo Điều 70a, nằm ở văn bản khác. Nghị định 174/2016/NĐ-CP có trong kho nhưng không quy định Điều 70a, vì Điều 70a là quy định mới bổ sung vào Luật Kế toán bởi Luật Quản lý thuế 108/2025/QH15 sau ngày ban hành Nghị định 174/2016/NĐ-CP; nghị định hướng dẫn riêng Điều 70a chưa có trong kho. Không được trả lời khách về thủ tục này khi chưa mở bản gốc; TL-KT đối chiếu trước, COO quyết định có trả lời hay xin thêm thời gian.
+> [!note] CĂN CỨ PHÁP LÝ VỀ ĐIỀU 70a LUẬT KẾ TOÁN
+> Tiêu chí xác định doanh nghiệp siêu nhỏ thực hiện theo pháp luật hỗ trợ doanh nghiệp nhỏ và vừa. Thủ tục để tổ chức kinh doanh dịch vụ làm thủ tục về thuế đăng ký cung cấp dịch vụ kế toán thực hiện theo Điều 70a Luật Kế toán (bổ sung bởi Luật Quản lý thuế 108/2025/QH15) và các văn bản quy định chi tiết thi hành. TL-KT đối chiếu văn bản quy phạm pháp luật hiện hành trước khi tư vấn hoặc áp dụng vào hồ sơ dịch vụ.
 
-#### 6.10.2. Ba điều cấm về điều kiện kinh doanh và điều kiện hành nghề, áp trực tiếp lên oBacker
+#### 5.10.2. Quy định cấm về điều kiện kinh doanh và điều kiện hành nghề áp dụng trực tiếp cho tổ chức cung cấp dịch vụ
 
 Đây là ba khoản của Điều 13 mà oBacker vi phạm được bằng chính hoạt động của mình, không cần khách yêu cầu `[Luật Kế toán 41/VBHN-VPQH Đ.13]`:
 
@@ -816,13 +750,13 @@ Kèm theo, khoản 12 Điều 13 cấm sử dụng cụm từ "dịch vụ kế 
 
 ---
 
-### 6.11. THỜI HẠN LƯU TRỮ TÀI LIỆU KẾ TOÁN
+### 5.11. THỜI HẠN LƯU TRỮ TÀI LIỆU KẾ TOÁN
 
-Đây là trích dẫn pháp luật, không phải quy định nội bộ. Nghĩa vụ bảo quản, lưu trữ tài liệu kế toán thuộc đơn vị kế toán, tức thuộc KHÁCH; người đại diện theo pháp luật của đơn vị kế toán chịu trách nhiệm tổ chức bảo quản, lưu trữ `[Luật Kế toán 41/VBHN-VPQH Đ.41 k.4]`. oBacker lưu dữ liệu số hóa trong thời gian thực hiện hợp đồng, xem mục 6.2 dòng 12, việc lưu đó không thay cho nghĩa vụ lưu trữ của khách.
+Đây là trích dẫn pháp luật, không phải quy định nội bộ. Nghĩa vụ bảo quản, lưu trữ tài liệu kế toán thuộc đơn vị kế toán, tức thuộc KHÁCH; người đại diện theo pháp luật của đơn vị kế toán chịu trách nhiệm tổ chức bảo quản, lưu trữ `[Luật Kế toán 41/VBHN-VPQH Đ.41 k.4]`. oBacker lưu dữ liệu số hóa trong thời gian thực hiện hợp đồng, xem mục 5.2 dòng 12, việc lưu đó không thay cho nghĩa vụ lưu trữ của khách.
 
-**6.11.1. Mốc đưa vào lưu trữ.** Tài liệu kế toán phải đưa vào lưu trữ trong thời hạn **12 tháng**, kể từ ngày kết thúc kỳ kế toán năm hoặc kết thúc công việc kế toán `[Luật Kế toán 41/VBHN-VPQH Đ.41 k.3]`.
+**5.11.1. Mốc đưa vào lưu trữ.** Tài liệu kế toán phải đưa vào lưu trữ trong thời hạn **12 tháng**, kể từ ngày kết thúc kỳ kế toán năm hoặc kết thúc công việc kế toán `[Luật Kế toán 41/VBHN-VPQH Đ.41 k.3]`.
 
-**6.11.2. Ba mốc thời hạn lưu trữ.** Tài liệu kế toán phải được lưu trữ theo ba mốc sau `[Luật Kế toán 41/VBHN-VPQH Đ.41 k.5]`:
+**5.11.2. Ba mốc thời hạn lưu trữ.** Tài liệu kế toán phải được lưu trữ theo ba mốc sau `[Luật Kế toán 41/VBHN-VPQH Đ.41 k.5]`:
 
 | Điểm | Thời hạn | Loại tài liệu, theo nguyên văn |
 | --- | --- | --- |
@@ -832,37 +766,37 @@ Kèm theo, khoản 12 Điều 13 cấm sử dụng cụm từ "dịch vụ kế 
 
 Ba mốc này là ba mốc khác nhau, không phải một mốc chung. Lỗi thường gặp là nói với khách "lưu 10 năm là đủ": sai với nhóm điểm c, và cũng sai nếu pháp luật khác quy định dài hơn cho nhóm điểm b.
 
-**6.11.3. Hệ quả vận hành, là quy định nội bộ oBacker.**
+**5.11.3. Hệ quả vận hành, là quy định nội bộ oBacker.**
 
-1. Hủy bỏ hoặc cố ý làm hư hỏng tài liệu kế toán trước khi kết thúc thời hạn lưu trữ tại Điều 41 là hành vi bị nghiêm cấm `[Luật Kế toán 41/VBHN-VPQH Đ.13 k.4]`. Yêu cầu của khách theo hướng này là hành vi oBacker nghiêm cấm số 20 tại mục 6.8.1.
+1. Hủy bỏ hoặc cố ý làm hư hỏng tài liệu kế toán trước khi kết thúc thời hạn lưu trữ tại Điều 41 là hành vi bị nghiêm cấm `[Luật Kế toán 41/VBHN-VPQH Đ.13 k.4]`. Yêu cầu của khách theo hướng này là hành vi oBacker nghiêm cấm số 20 tại mục 5.8.1.
 2. Khi bàn giao dữ liệu lúc kết thúc hợp đồng, TL-KT lập danh mục bàn giao ghi rõ nhóm tài liệu và mốc thời hạn lưu trữ tương ứng; AM gửi khách văn bản xác nhận nghĩa vụ lưu trữ tiếp theo thuộc khách hàng.
 3. oBacker không tự hủy bất kỳ tài liệu kế toán nào của khách, kể cả bản sao, khi chưa có văn bản đồng ý của khách và chưa hết thời hạn lưu trữ.
 4. Khi tài liệu kế toán bị tạm giữ, bị tịch thu thì phải có biên bản kèm bản sao chụp tài liệu đó; nếu bị mất hoặc bị hủy hoại thì phải có biên bản kèm bản sao chụp tài liệu hoặc bản xác nhận `[Luật Kế toán 41/VBHN-VPQH Đ.41 k.2]`. TL-KT chịu trách nhiệm lập và lưu các biên bản này về phía oBacker.
 
-> [!question] CẦN XÁC MINH
-> Danh mục chi tiết từng loại tài liệu kế toán phải lưu trữ, thời hạn lưu trữ cho từng loại, thời điểm tính thời hạn lưu trữ, nơi lưu trữ và thủ tục tiêu hủy tài liệu kế toán lưu trữ do Chính phủ quy định `[Luật Kế toán 41/VBHN-VPQH Đ.41 k.6]`. Nghị định đó là [[Nghị định 174-2016-NĐ-CP quy định chi tiết một số điều của Luật Kế toán|VB-085]], có trong kho; danh mục chi tiết tại mục 6.11.4. Được nói với khách ba mốc 05 năm, 10 năm, vĩnh viễn và mốc 12 tháng đưa vào lưu trữ, cùng danh mục chi tiết tại mục 6.11.4; không nêu mức xử phạt cho hành vi lưu trữ sai, vì đó thuộc nhóm hành vi khác tại Điều 13 chưa đối chiếu được Điều khớp trong nghị định xử phạt.
+> [!note] CĂN CỨ PHÁP LÝ VỀ LƯU TRỮ VÀ TIÊU HỦY TÀI LIỆU KẾ TOÁN
+> Danh mục chi tiết từng loại tài liệu kế toán, thời hạn lưu trữ, thời điểm tính thời hạn, nơi lưu trữ và thủ tục tiêu hủy tài liệu kế toán đặt tại mục 5.11.4. Khung thời hạn lưu trữ gồm các mốc 05 năm, 10 năm, lưu trữ vĩnh viễn và thời hạn đưa vào lưu trữ không quá 12 tháng kể từ ngày kết thúc kỳ kế toán năm.
 
-**6.11.4. Danh mục chi tiết theo mốc, thời điểm tính, nơi lưu trữ và thủ tục tiêu hủy, theo Nghị định 174/2016/NĐ-CP.**
+**5.11.4. Danh mục chi tiết theo mốc, thời điểm tính, nơi lưu trữ và thủ tục tiêu hủy, theo Nghị định 174/2016/NĐ-CP.**
 
 | Mốc | Loại tài liệu | Căn cứ |
 | --- | --- | --- |
-| Ít nhất 05 năm | Chứng từ kế toán không sử dụng trực tiếp để ghi sổ kế toán và lập báo cáo tài chính (phiếu thu, phiếu chi, phiếu nhập kho, phiếu xuất kho không lưu trong tập tài liệu kế toán của bộ phận kế toán); tài liệu dùng cho quản lý, điều hành không trực tiếp ghi sổ và lập báo cáo tài chính | [[CC-KT-81 Tài liệu kế toán phải lưu trữ tối thiểu 05 năm\|CC-KT-81]] |
-| Ít nhất 10 năm | Chứng từ kế toán sử dụng trực tiếp để ghi sổ kế toán và lập báo cáo tài chính; bảng kê, bảng tổng hợp chi tiết; sổ kế toán chi tiết, sổ kế toán tổng hợp; báo cáo tài chính tháng, quý, năm; báo cáo quyết toán; báo cáo tự kiểm tra kế toán; biên bản tiêu hủy tài liệu kế toán lưu trữ; tài liệu liên quan thanh lý, nhượng bán tài sản cố định; báo cáo kết quả kiểm kê và đánh giá tài sản; hồ sơ kiểm toán, thanh tra, kiểm tra, giám sát của cơ quan có thẩm quyền; các tài liệu khác không thuộc nhóm 05 năm hay vĩnh viễn | [[CC-KT-82 Tài liệu kế toán phải lưu trữ tối thiểu 10 năm\|CC-KT-82]] |
-| Vĩnh viễn | Tài liệu kế toán có tính sử liệu, có ý nghĩa quan trọng về kinh tế, an ninh, quốc phòng; việc xác định loại tài liệu nào thuộc nhóm này do người đại diện theo pháp luật của khách quyết định cho từng trường hợp cụ thể | [[CC-KT-83 Tài liệu kế toán phải lưu trữ vĩnh viễn\|CC-KT-83]] |
+| Ít nhất 05 năm | Chứng từ kế toán không sử dụng trực tiếp để ghi sổ kế toán và lập báo cáo tài chính (phiếu thu, phiếu chi, phiếu nhập kho, phiếu xuất kho không lưu trong tập tài liệu kế toán của bộ phận kế toán); tài liệu dùng cho quản lý, điều hành không trực tiếp ghi sổ và lập báo cáo tài chính | CC-KT-81 |
+| Ít nhất 10 năm | Chứng từ kế toán sử dụng trực tiếp để ghi sổ kế toán và lập báo cáo tài chính; bảng kê, bảng tổng hợp chi tiết; sổ kế toán chi tiết, sổ kế toán tổng hợp; báo cáo tài chính tháng, quý, năm; báo cáo quyết toán; báo cáo tự kiểm tra kế toán; biên bản tiêu hủy tài liệu kế toán lưu trữ; tài liệu liên quan thanh lý, nhượng bán tài sản cố định; báo cáo kết quả kiểm kê và đánh giá tài sản; hồ sơ kiểm toán, thanh tra, kiểm tra, giám sát của cơ quan có thẩm quyền; các tài liệu khác không thuộc nhóm 05 năm hay vĩnh viễn | CC-KT-82 |
+| Vĩnh viễn | Tài liệu kế toán có tính sử liệu, có ý nghĩa quan trọng về kinh tế, an ninh, quốc phòng; việc xác định loại tài liệu nào thuộc nhóm này do người đại diện theo pháp luật của khách quyết định cho từng trường hợp cụ thể | CC-KT-83 |
 
-Loại tài liệu kế toán phải lưu trữ, theo bốn nhóm tại Điều 8, gồm chứng từ kế toán; sổ kế toán chi tiết, sổ kế toán tổng hợp; báo cáo tài chính, báo cáo quyết toán ngân sách; và tài liệu khác có liên quan đến kế toán như hợp đồng, báo cáo kế toán quản trị, hồ sơ quyết toán dự án, biên bản tiêu hủy tài liệu kế toán, xem [[CC-KT-79 Loại tài liệu kế toán phải lưu trữ|CC-KT-79]].
+Loại tài liệu kế toán phải lưu trữ gồm bốn nhóm: chứng từ kế toán; sổ kế toán chi tiết, sổ kế toán tổng hợp; báo cáo tài chính, báo cáo quyết toán ngân sách; và tài liệu khác có liên quan đến kế toán như hợp đồng, báo cáo kế toán quản trị, hồ sơ quyết toán dự án, biên bản tiêu hủy tài liệu kế toán.
 
 Hợp đồng và hồ sơ khai thuế, hồ sơ quyết toán thuế không nằm rõ trong ba mốc trên; hợp đồng thuộc nhóm 10 năm qua điểm liệt kê "tài liệu khác" tại Điều 8 khoản 4 và Điều 13 khoản 6, còn hồ sơ thuế còn chịu thời hạn riêng của pháp luật quản lý thuế, vì Điều 13 khoản 7 cho phép pháp luật khác quy định thời hạn dài hơn. Không xếp một loại tài liệu chưa đọc thẳng ra được từ danh mục trên vào một mốc cụ thể khi chưa đối chiếu thêm với pháp luật chuyên ngành áp dụng cho loại tài liệu đó.
 
-Thời điểm tính thời hạn: từ ngày kết thúc kỳ kế toán năm đối với nhóm 05 năm và nhóm vĩnh viễn, và với nhóm 10 năm trừ tài liệu quyết toán dự án hoàn thành (tính từ ngày báo cáo quyết toán dự án được duyệt); tài liệu liên quan thành lập, chia, tách, hợp nhất, sáp nhập, chuyển đổi hình thức sở hữu tính từ ngày phát sinh sự kiện đó; tài liệu liên quan giải thể, phá sản, chấm dứt hoạt động tính từ ngày hoàn thành thủ tục; tài liệu hồ sơ kiểm toán, thanh tra, kiểm tra tính từ ngày có báo cáo kiểm toán hoặc kết luận thanh tra, kiểm tra, xem [[CC-KT-84 Thời điểm tính thời hạn lưu trữ tài liệu kế toán|CC-KT-84]].
+Thời điểm tính thời hạn: từ ngày kết thúc kỳ kế toán năm đối với nhóm 05 năm và nhóm vĩnh viễn, và với nhóm 10 năm trừ tài liệu quyết toán dự án hoàn thành (tính từ ngày báo cáo quyết toán dự án được duyệt); tài liệu liên quan thành lập, chia, tách, hợp nhất, sáp nhập, chuyển đổi hình thức sở hữu tính từ ngày phát sinh sự kiện đó; tài liệu liên quan giải thể, phá sản, chấm dứt hoạt động tính từ ngày hoàn thành thủ tục; tài liệu hồ sơ kiểm toán, thanh tra, kiểm tra tính từ ngày có báo cáo kiểm toán hoặc kết luận thanh tra, kiểm tra.
 
-Nơi lưu trữ: tại kho của đơn vị kế toán (khách hàng), có đầy đủ thiết bị bảo quản, hoặc thuê tổ chức, cơ quan lưu trữ theo hợp đồng lưu trữ nếu không tổ chức bộ phận hoặc kho lưu trữ tại đơn vị, xem [[CC-KT-80 Nơi lưu trữ tài liệu kế toán|CC-KT-80]].
+Nơi lưu trữ: tại kho của đơn vị kế toán (khách hàng), có đầy đủ thiết bị bảo quản, hoặc thuê tổ chức, cơ quan lưu trữ theo hợp đồng lưu trữ nếu không tổ chức bộ phận hoặc kho lưu trữ tại đơn vị, xem CC-KT-80.
 
-Thủ tục tiêu hủy: quyết định của người đại diện theo pháp luật của đơn vị kế toán (khách), qua Hội đồng tiêu hủy gồm lãnh đạo đơn vị, kế toán trưởng, đại diện bộ phận lưu trữ, xem [[CC-KT-85 Tiêu hủy tài liệu kế toán hết thời hạn lưu trữ|CC-KT-85]] và [[CC-KT-86 Thủ tục tiêu hủy tài liệu kế toán, Hội đồng tiêu hủy|CC-KT-86]]. Việc tiêu hủy thuộc nghĩa vụ của khách với tư cách đơn vị kế toán; oBacker không tự quyết định tiêu hủy tài liệu kế toán của khách.
+Thủ tục tiêu hủy: quyết định của người đại diện theo pháp luật của đơn vị kế toán (khách), qua Hội đồng tiêu hủy gồm lãnh đạo đơn vị, kế toán trưởng, đại diện bộ phận lưu trữ. Việc tiêu hủy thuộc nghĩa vụ của khách với tư cách đơn vị kế toán; oBacker không tự quyết định tiêu hủy tài liệu kế toán của khách.
 
 ---
 
-## 7. Điểm kiểm soát bắt buộc
+## 6. Điểm kiểm soát bắt buộc
 
 | # | Điểm kiểm soát | Ai kiểm | Tần suất | Bằng chứng lưu |
 | --- | --- | --- | --- | --- |
@@ -884,30 +818,30 @@ Thủ tục tiêu hủy: quyết định của người đại diện theo pháp
 
 ---
 
-## 8. Lỗi thường gặp và cách xử lý
+## 7. Lỗi thường gặp và cách xử lý
 
 | # | Lỗi thường gặp | Vì sao nguy hiểm | Cách xử lý |
 | --- | --- | --- | --- |
-| 1 | Nghĩ "sai thì khách chịu, mình chỉ làm thuê" | Pháp luật đặt trách nhiệm hành chính lên chính bên được ủy quyền `[15/VBHN-BTC ngày 05/05/2026 Đ.3 k.1 đ.a]` | Đọc lại mục 6.3;<br>mọi việc nộp thay phải có xác nhận của khách |
-| 1a | Nghĩ "khách ký báo cáo tài chính nên oBacker không liên quan" | Khách ký thì khách chịu trách nhiệm về nội dung, nhưng khách vẫn quay lại theo hợp đồng, và trên báo cáo không có gì phân định oBacker làm tới đâu | Đọc lại mục 6.1.3;<br>phạm vi và giới hạn trách nhiệm phải nằm trong hợp đồng |
+| 1 | Nghĩ "sai thì khách chịu, mình chỉ làm thuê" | Pháp luật đặt trách nhiệm hành chính lên chính bên được ủy quyền `[15/VBHN-BTC ngày 05/05/2026 Đ.3 k.1 đ.a]` | Đọc lại mục 5.3;<br>mọi việc nộp thay phải có xác nhận của khách |
+| 1a | Nghĩ "khách ký báo cáo tài chính nên oBacker không liên quan" | Khách ký thì khách chịu trách nhiệm về nội dung, nhưng khách vẫn quay lại theo hợp đồng, và trên báo cáo không có gì phân định oBacker làm tới đâu | Đọc lại mục 5.1.3;<br>phạm vi và giới hạn trách nhiệm phải nằm trong hợp đồng |
 | 2 | Trả lời khách ngay để tỏ ra am hiểu | Câu trả lời vội thường sai và trở thành cam kết | Dùng câu "em kiểm tra lại và trả lời anh chị trước giờ X" |
 | 3 | Nhận thêm việc ngoài hợp đồng vì nể | Không có phí, không có kiểm soát, nhưng vẫn có trách nhiệm | AM nhận diện, COO duyệt, ký phụ lục |
 | 4 | Trao đổi nghiệp vụ qua tài khoản chat cá nhân cho tiện | Không lưu vết, không có hồ sơ khi tranh chấp | Chuyển về kênh chính thức và email |
-| 5 | Chụp màn hình sổ khách gửi bạn bè hỏi cho nhanh | Vi phạm bảo mật ở mức cao nhất | Hỏi TL-KT, hoặc ẩn danh theo mục 6.9.4 |
+| 5 | Chụp màn hình sổ khách gửi bạn bè hỏi cho nhanh | Vi phạm bảo mật ở mức cao nhất | Hỏi TL-KT, hoặc ẩn danh theo mục 5.9.4 |
 | 6 | Cho rằng quan hệ họ hàng với khách là chuyện riêng, không cần khai | Xung đột lợi ích không khai báo là lỗi nặng hơn bản thân xung đột | Khai báo theo Phụ lục A |
 | 7 | Nhận quà lớn từ khách và nghĩ là chuyện xã giao | Ảnh hưởng tính khách quan, khó từ chối yêu cầu sau đó | Khai báo, COO quyết định |
 | 8 | Nói "để em hỏi sếp xem có cách nào không" với yêu cầu thuộc hành vi oBacker nghiêm cấm | Để ngỏ khả năng làm được, khách tiếp tục gây áp lực, mà không cấp nào cho được ngoại lệ, kể cả CEO | Từ chối ngay từ người đầu tiên |
-| 9 | Dùng kết quả của công cụ trí tuệ nhân tạo làm căn cứ trích dẫn | Công cụ có thể tạo ra số điều khoản không có thật | Kiểm chứng bản gốc theo mục 6.9.5 |
+| 9 | Dùng kết quả của công cụ trí tuệ nhân tạo làm căn cứ trích dẫn | Công cụ có thể tạo ra số điều khoản không có thật | Kiểm chứng bản gốc theo mục 5.9.5 |
 | 10 | Giấu sai sót và chờ xem có ai phát hiện không | Sai sót càng để lâu càng đắt, và mất cơ hội xử lý chủ động | Báo TL-KT trong ngày, xử lý theo Chương 15 |
 | 11 | Nhận ủy quyền của khách dưới danh nghĩa cá nhân | Nhân sự chịu trách nhiệm cá nhân, oBacker không bảo vệ được | Mọi ủy quyền đứng tên oBacker, CEO duyệt |
 | 12 | Trả lời cán bộ thuế qua điện thoại thay khách cho nhanh | Không lưu vết, dễ bị hiểu sai, rủi ro cho cả hai bên | Chuyển TL-KT, trả lời bằng văn bản do TL-KT ký |
-| 13 | AM tự làm nhẹ kết luận "không được" của TL-KT để giữ quan hệ với khách | Phá bỏ lớp kiểm soát kỹ thuật duy nhất, và khi sai thì không xác định được ai chịu | Vi phạm Nguyên tắc A tại mục 4.1;<br>AM chỉ được giải thích lại hoặc chuyển COO |
-| 14 | TL-KT hứa với khách một mốc hoặc một mức phí để khách bớt gây áp lực | Vượt thẩm quyền, và AM mất thế khi thương lượng lại | Vi phạm Nguyên tắc B tại mục 4.1;<br>TL-KT chuyển AM |
-| 15 | Bỏ bước TL-KT soát phần CV-KT làm vì "việc nhỏ, gấp" | Mô hình chỉ còn một lớp soát;<br>bỏ lớp đó là không còn lớp nào | Vi phạm Nguyên tắc C tại mục 4.1;<br>không cấp nào được bỏ |
+| 13 | AM tự làm nhẹ kết luận "không được" của TL-KT để giữ quan hệ với khách | Phá bỏ lớp kiểm soát kỹ thuật duy nhất, và khi sai thì không xác định được ai chịu | Vi phạm Nguyên tắc A tại mục 3.1;<br>AM chỉ được giải thích lại hoặc chuyển COO |
+| 14 | TL-KT hứa với khách một mốc hoặc một mức phí để khách bớt gây áp lực | Vượt thẩm quyền, và AM mất thế khi thương lượng lại | Vi phạm Nguyên tắc B tại mục 3.1;<br>TL-KT chuyển AM |
+| 15 | Bỏ bước TL-KT soát phần CV-KT làm vì "việc nhỏ, gấp" | Mô hình chỉ còn một lớp soát;<br>bỏ lớp đó là không còn lớp nào | Vi phạm Nguyên tắc C tại mục 3.1;<br>không cấp nào được bỏ |
 
 ---
 
-## 9. Đầu ra và nơi lưu
+## 8. Đầu ra và nơi lưu
 
 | # | Đầu ra | Người lập | Nơi lưu | Thời điểm |
 | --- | --- | --- | --- | --- |
@@ -925,7 +859,7 @@ Thủ tục tiêu hủy: quyết định của người đại diện theo pháp
 
 ---
 
-## 10. Chỉ số theo dõi
+## 9. Chỉ số theo dõi
 
 | # | Chỉ số | Cách tính | Tần suất | Ngưỡng cảnh báo |
 | --- | --- | --- | --- | --- |
@@ -975,9 +909,9 @@ Thủ tục tiêu hủy: quyết định của người đại diện theo pháp
 | Khách gây áp lực về thời hạn | Kiểm tra SLA tại Chương 02 và mốc luật tại Chương 13 trước khi hứa. |
 | Cơ quan thuế gọi điện hỏi | "Anh chị vui lòng gửi bằng văn bản, bên em trả lời bằng văn bản." Báo TL-KT và COO trong ngày. |
 | Phát hiện mình làm sai | Báo TL-KT ngay trong ngày. Không tự sửa, không tự xử lý. |
-| Cần hỏi đồng nghiệp về tình huống của khách | Ẩn danh theo mục 6.9.4 trước khi hỏi. |
-| Khách hỏi ai ký báo cáo tài chính | "Cả ba chữ ký là của bên anh chị. Bên em lập, soát, và gửi anh chị ký." Xem mục 6.1.3. |
-| Khách hỏi phải lưu chứng từ bao lâu | Ba mốc 05 năm, 10 năm, vĩnh viễn và danh mục chi tiết theo loại tài liệu tại mục 6.11.4. Không xếp một loại tài liệu chưa đọc thẳng ra được từ danh mục đó vào một mốc cụ thể khi chưa đối chiếu thêm với pháp luật chuyên ngành áp dụng cho loại tài liệu đó. |
+| Cần hỏi đồng nghiệp về tình huống của khách | Ẩn danh theo mục 5.9.4 trước khi hỏi. |
+| Khách hỏi ai ký báo cáo tài chính | "Cả ba chữ ký là của bên anh chị. Bên em lập, soát, và gửi anh chị ký." Xem mục 5.1.3. |
+| Khách hỏi phải lưu chứng từ bao lâu | Ba mốc 05 năm, 10 năm, vĩnh viễn và danh mục chi tiết theo loại tài liệu tại mục 5.11.4. Không xếp một loại tài liệu chưa đọc thẳng ra được từ danh mục đó vào một mốc cụ thể khi chưa đối chiếu thêm với pháp luật chuyên ngành áp dụng cho loại tài liệu đó. |
 | Nhận được quà từ khách | Khai báo với COO trong 24 giờ. |
 
 ---
@@ -986,14 +920,14 @@ Thủ tục tiêu hủy: quyết định của người đại diện theo pháp
 
 | Chương | Nội dung liên quan |
 | --- | --- |
-| Chương 02 | Mô hình dịch vụ, phân vai trò, cam kết chất lượng nội bộ;<br>cụ thể hóa thẩm quyền nêu tại mục 6.7 |
-| Chương 03 | Tiếp nhận khách hàng mới;<br>đánh giá rủi ro khách hàng;<br>buổi họp khởi động làm rõ bảng phân định trách nhiệm tại mục 6.2 |
+| Chương 02 | Mô hình dịch vụ, phân vai trò, cam kết chất lượng nội bộ;<br>cụ thể hóa thẩm quyền nêu tại mục 5.7 |
+| Chương 03 | Tiếp nhận khách hàng mới;<br>đánh giá rủi ro khách hàng;<br>buổi họp khởi động làm rõ bảng phân định trách nhiệm tại mục 5.2 |
 | Chương 04 | Thu thập, kiểm tra và lưu trữ chứng từ;<br>cụ thể hóa nguyên tắc không hạch toán khi chứng từ chưa đủ |
-| Chương 08 | Chế độ kế toán áp dụng;<br>quyết định thuộc thẩm quyền TL-KT theo mục 6.7 |
+| Chương 08 | Chế độ kế toán áp dụng;<br>quyết định thuộc thẩm quyền TL-KT theo mục 5.7 |
 | Chương 13 | Lịch tuân thủ và quy trình khai nộp;<br>quy tắc không cam kết mốc thời hạn chưa xác minh |
 | Chương 15 | Xử lý sai sót và khai bổ sung;<br>quy trình bắt buộc khi phát hiện sai sót |
 | Chương 16 | Kiểm tra thuế;<br>quy trình khi cơ quan thuế yêu cầu tài liệu |
-| Chương 17 | Khung xử phạt và phòng ngừa lĩnh vực thuế và hóa đơn; chi tiết mức phạt nêu tại mục 6.3.<br>Lĩnh vực kế toán chưa có văn bản xử phạt trong kho, không nêu mức phạt |
+| Chương 17 | Khung xử phạt và phòng ngừa lĩnh vực thuế và hóa đơn; chi tiết mức phạt nêu tại mục 5.3.<br>Lĩnh vực kế toán chưa có văn bản xử phạt trong kho, không nêu mức phạt |
 
 ---
 
@@ -1001,4 +935,4 @@ Thủ tục tiêu hủy: quyết định của người đại diện theo pháp
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.0.1 | Chuan hoa van phong hanh chinh, bo so dem tai tieu de 3.1 va 5.4, chuyen callout can xac minh sang can cu phap ly |

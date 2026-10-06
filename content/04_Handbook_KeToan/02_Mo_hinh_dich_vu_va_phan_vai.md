@@ -4,19 +4,16 @@ code: "OBK-SOP-02"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.0"
+version: "R.1.0.1"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 25/08/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
 parent: "OBK-SOP-KT Kế toán và thuế"
 next_review: "Chậm nhất 25/02/2027"
 chapter: "Mô hình dịch vụ, phân vai trò và cam kết chất lượng"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-SOP-02
 tags:
@@ -33,7 +30,7 @@ tags:
 | Mã tài liệu | OBK-SOP-02 |
 | Tên chương | Mô hình dịch vụ, phân vai trò và cam kết chất lượng |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.0.1, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -46,14 +43,12 @@ tags:
 
 ## CẢNH BÁO MỞ ĐẦU CHƯƠNG
 
-> [!question] CẦN XÁC MINH
-> Toàn bộ danh mục gói dịch vụ, bảng RACI, bảng cam kết chất lượng nội bộ và bộ chỉ số trong chương này là **QUY ĐỊNH NỘI BỘ OBACKER**, do Legal R&D thiết kế. Đây không phải quy phạm pháp luật, không dẫn căn cứ pháp luật, và không tự động trở thành nghĩa vụ với khách hàng.
+> [!note] NGUYÊN TẮC ÁP DỤNG QUY ĐỊNH VẬN HÀNH VÀ PHÂN ĐỊNH TRÁCH NHIỆM
+> Danh mục gói dịch vụ, bảng RACI, bảng cam kết chất lượng nội bộ và hệ thống chỉ số vận hành là quy định nội bộ của oBacker.
 >
-> Ba hệ quả bắt buộc:
->
-> 1. Cam kết với khách hàng chỉ phát sinh khi được đưa vào HỢP ĐỒNG hoặc PHỤ LỤC đã ký. Nội dung trong handbook là chuẩn nội bộ để vận hành và để đánh giá nhân sự, không phải cam kết đơn phương với khách.
-> 2. Các mốc thời gian trong bảng cam kết chất lượng nội bộ là mốc do oBacker tự đặt, LUÔN SỚM HƠN hạn pháp luật. Không được dùng các mốc này để suy ra hạn pháp luật. Hạn pháp luật tra tại Chương 13 và Phụ lục C, kèm mức xác minh tương ứng.
-> 3. Khung 04 gói dịch vụ tại mục 6.1 là KHUNG MẪU. COO được điều chỉnh phạm vi từng gói theo thực tế thị trường và năng lực đội ngũ, nhưng mọi điều chỉnh phải cập nhật lại vào chương này và vào mẫu hợp đồng cùng lúc, tránh tình trạng handbook một đằng, hợp đồng một nẻo.
+> 1. Cam kết với khách hàng: Quyền và nghĩa vụ của các bên chỉ phát sinh hiệu lực pháp lý khi được xác lập trong Hợp đồng dịch vụ hoặc Phụ lục hợp đồng ký kết chính thức. Quy chuẩn tại tài liệu này là căn cứ vận hành nội bộ và đánh giá chất lượng nhân sự.
+> 2. Mốc thời hạn nội bộ: Các mốc thời gian trong bảng cam kết chất lượng nội bộ là mốc vận hành nội bộ của oBacker, bảo đảm hoàn thành trước thời hạn quy định của pháp luật. Thời hạn theo quy định của pháp luật tra cứu tại Chương 13 và Phụ lục C.
+> 3. Khung gói dịch vụ: Khung gói dịch vụ tại mục 6.1 là khung chuẩn. Mọi điều chỉnh về phạm vi gói dịch vụ theo thực tế thị trường phải được COO phê duyệt và cập nhật đồng bộ trong sổ tay và mẫu hợp đồng dịch vụ.
 
 ---
 
@@ -93,37 +88,12 @@ tags:
 | --- | --- | --- |
 | 1 | Quy chế nội bộ oBacker về phân cấp phê duyệt và phân cấp ký | Xác định thẩm quyền của TL-KT, COO và CEO, phạm vi ủy quyền ký |
 | 2 | Mẫu hợp đồng dịch vụ kế toán của oBacker | Phạm vi công việc, phạm vi ủy quyền, trách nhiệm các bên |
-| 3 | Chương 01 mục 6.2 | Bảng phân định trách nhiệm giữa khách hàng và oBacker |
-| 4 | Chương 01 mục 6.7 | Danh mục việc không được tự quyết |
+| 3 | Chương 01 mục 5.2 | Bảng phân định trách nhiệm giữa khách hàng và oBacker |
+| 4 | Chương 01 mục 5.7 | Danh mục việc không được tự quyết |
 | 5 | Chương 13 | Hạn pháp luật để tính ngược ra mốc nội bộ |
 | 6 | Quyết định của CEO ngày 25/08/2026 về mô hình 5 vai trò | Năm vai trò CV-KT, TL-KT, AM, COO, CEO;<br>bốn nguyên tắc không được vi phạm tại mục 4.1;<br>bảng RACI tại mục 6.3 |
 | 7 | Quyết định của CEO ngày 26/08/2026 | Một lớp soát, không bắt buộc soát chéo, xem mục 6.9;<br>AM là đầu mối duy nhất với khách;<br>ba chữ ký trên báo cáo tài chính đều là của khách, xem mục 6.11;<br>số khách trên mỗi CV-KT, mỗi TL-KT và mỗi AM thuộc thẩm quyền CEO |
 
-### 3.2. Căn cứ pháp lý được viện dẫn
-
-| # | Văn bản | Nội dung dùng trong chương |
-| --- | --- | --- |
-| 1 | Thông tư 99/2025/TT-BTC Điều 16 khoản 4 | Nghĩa vụ ghi số giấy phép hành nghề dịch vụ kế toán và tên đơn vị cung cấp dịch vụ trên báo cáo tài chính;<br>chi phối việc ai được đứng tên ở gói có lập báo cáo tài chính |
-| 2 | Văn bản hợp nhất 15/VBHN-BTC ngày 05/05/2026 Điều 3 khoản 1 điểm a | Bên được ủy quyền bị xử phạt;<br>chi phối cách thiết kế phạm vi ủy quyền trong từng gói |
-| 3 | Thông tư 99/2025/TT-BTC Điều 9 khoản 2 | Nghĩa vụ ban hành Quy chế hạch toán kế toán khi tự thiết kế biểu mẫu;<br>là một hạng mục dịch vụ riêng |
-| 4 | Luật Kế toán, bản hợp nhất 41/VBHN-VPQH, Điều 29 khoản 2 điểm d | Báo cáo tài chính phải có chữ ký của người lập, kế toán trưởng và người đại diện theo pháp luật;<br>người ký chịu trách nhiệm về nội dung báo cáo;<br>chi phối mục 6.11 |
-| 5 | Luật Kế toán 41/VBHN-VPQH Điều 54 khoản 1, Điều 53 khoản 4, Điều 13 khoản 8 | Tiêu chuẩn và điều kiện của kế toán trưởng và của người phụ trách kế toán thay kế toán trưởng;<br>nghiêm cấm bố trí hoặc thuê người làm kế toán trưởng không đủ tiêu chuẩn;<br>là việc bắt buộc kiểm khi onboarding |
-| 6 | Luật Kế toán 41/VBHN-VPQH Điều 56, Điều 57, Điều 58 | Điều kiện thuê dịch vụ làm kế toán và dịch vụ làm kế toán trưởng;<br>chứng chỉ kế toán viên;<br>điều kiện đăng ký hành nghề dịch vụ kế toán;<br>chi phối điều kiện giữ vai trò TL-KT |
-| 7 | Luật Kế toán 41/VBHN-VPQH Điều 70a | Tổ chức kinh doanh dịch vụ làm thủ tục về thuế được cung cấp dịch vụ kế toán cho doanh nghiệp siêu nhỏ, hộ kinh doanh, cá nhân kinh doanh khi có ít nhất một người có chứng chỉ kế toán viên; chi phối mục 6.12 |
-
-Điều kiện để oBacker được cung cấp dịch vụ làm kế toán trưởng, và điều kiện để một cá nhân được đăng ký hành nghề, nay đã đối chiếu được bản gốc Luật Kế toán hợp nhất 41/VBHN-VPQH, không còn chưa xác minh được:
-
-| # | Nội dung | Căn cứ |
-| --- | --- | --- |
-| 1 | Đơn vị kế toán được ký hợp đồng với doanh nghiệp kinh doanh dịch vụ kế toán hoặc hộ kinh doanh dịch vụ kế toán để thuê dịch vụ làm kế toán hoặc dịch vụ làm kế toán trưởng; hợp đồng phải bằng văn bản | Điều 56 khoản 1, khoản 2 |
-| 2 | Người được thuê làm kế toán trưởng phải có đủ tiêu chuẩn và điều kiện tại Điều 54 | Điều 56 khoản 4 |
-| 3 | Doanh nghiệp, hộ kinh doanh dịch vụ kế toán và người được thuê làm kế toán, làm kế toán trưởng phải chịu trách nhiệm về thông tin, số liệu kế toán theo thỏa thuận trong hợp đồng | Điều 56 khoản 5 |
-| 4 | Cá nhân đăng ký hành nghề dịch vụ kế toán phải có chứng chỉ kế toán viên hoặc chứng chỉ kiểm toán viên, có năng lực hành vi dân sự, có thời gian công tác thực tế về tài chính, kế toán, kiểm toán từ 36 tháng trở lên kể từ thời điểm tốt nghiệp đại học, và tham gia đầy đủ chương trình cập nhật kiến thức | Điều 58 khoản 1 |
-| 5 | Giấy chứng nhận đăng ký hành nghề dịch vụ kế toán chỉ có giá trị khi người được cấp có hợp đồng lao động làm toàn bộ thời gian cho một doanh nghiệp kinh doanh dịch vụ kế toán hoặc làm việc tại hộ kinh doanh dịch vụ kế toán | Điều 58 khoản 3 |
-| 6 | Tiêu chuẩn được cấp chứng chỉ kế toán viên | Điều 57 |
-
-> [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
-> Trước khi đưa hạng mục "dịch vụ kế toán trưởng" vào bất kỳ báo giá nào, TL-KT đối chiếu bản gốc và xác nhận cả oBacker và người dự kiến đứng tên đều đủ điều kiện nêu trên; AM không tự đưa hạng mục này vào báo giá. Xem thêm mục 6.11 về hệ quả của việc gọi tên dịch vụ trong hợp đồng.
 
 ---
 
@@ -153,9 +123,9 @@ Legal R&D không nằm trong chuỗi vận hành khách hàng; chịu trách nhi
 | Quyết định nhận khách, từ chối khách, chấm dứt hợp đồng | Không | Đánh giá rủi ro nghiệp vụ | Cung cấp thông tin khách | Đánh giá nguồn lực | Quyết định |
 | Giải quyết xung đột giữa AM và TL-KT | Không | Là một bên | Là một bên | Kết luận, xem mục 6.10.4 | Quyết khi vụ việc thuộc danh mục CEO quyết |
 
-### 4.1. BỐN NGUYÊN TẮC KHÔNG ĐƯỢC VI PHẠM
+### 4.1. Nguyên tắc phân định vai trò vận hành
 
-Bốn nguyên tắc này là nền của mô hình. Vi phạm bất kỳ nguyên tắc nào là lỗi nghiệp vụ nghiêm trọng, không phải chuyện linh hoạt.
+Các nguyên tắc phân định vai trò là quy định bắt buộc trong toàn bộ mô hình vận hành và cung cấp dịch vụ của oBacker.
 
 **Nguyên tắc 1. AM KHÔNG ĐƯỢC BÁC BỎ KẾT LUẬN KỸ THUẬT CỦA TL-KT.**
 AM có toàn quyền về giá, phạm vi và quan hệ. AM KHÔNG có quyền quyết định một nghiệp vụ được hạch toán thế nào, một tờ khai được lập thế nào, hay một yêu cầu của khách có phù hợp quy định pháp luật hay không. Khi TL-KT kết luận "không được", AM chỉ có hai lựa chọn: giải thích lại với khách, hoặc chuyển COO.
@@ -167,7 +137,7 @@ TL-KT không báo giá, không hứa giảm phí, không nhận thêm phạm vi,
 CV-KT làm, TL-KT soát. Với phần việc TL-KT trực tiếp làm, TL-KT tự soát và tự chịu trách nhiệm; CEO đã quyết không bắt buộc một TL-KT khác đọc lại, xem mục 6.9.3. Bù lại, TL-KT phải ghi rõ trên Phiếu soát xét và chốt phần việc do TL-KT trực tiếp thực hiện, và lớp soát chọn mẫu hậu kiểm do `COO` chủ việc, Legal R&D soát phần nội dung pháp lý, ưu tiên lấy mẫu đúng vào phần đó.
 
 **Nguyên tắc 4. HÀNH VI OBACKER NGHIÊM CẤM KHÔNG CÓ CẤP NÀO VƯỢT QUA.**
-Các nội dung thuộc hành vi oBacker nghiêm cấm tại Chương 01 mục 6.8 là giới hạn tuyệt đối. CEO cũng không có thẩm quyền phê duyệt. Ai nhận được yêu cầu thuộc hành vi oBacker nghiêm cấm thì dừng việc và báo CEO cùng Legal R&D trong cùng ngày làm việc.
+Các nội dung thuộc hành vi oBacker nghiêm cấm tại Chương 01 mục 5.8 là giới hạn tuyệt đối. CEO cũng không có thẩm quyền phê duyệt. Ai nhận được yêu cầu thuộc hành vi oBacker nghiêm cấm thì dừng việc và báo CEO cùng Legal R&D trong cùng ngày làm việc.
 
 ---
 
@@ -260,7 +230,7 @@ Các nội dung thuộc hành vi oBacker nghiêm cấm tại Chương 01 mục 6
 | 1 | Rà soát, xử lý sổ sách và hồ sơ thuế của các kỳ trước ngày oBacker tiếp nhận | oBacker không kiểm soát được chất lượng dữ liệu kỳ trước | Báo giá G4;<br>bắt buộc có biên bản hiện trạng theo Chương 03 |
 | 2 | Tái lập sổ sách các kỳ bị bỏ trống hoặc mất dữ liệu | Khối lượng không xác định trước | Báo giá G4 sau khi khảo sát |
 | 3 | Khai bổ sung cho các kỳ trước ngày tiếp nhận | Trách nhiệm và rủi ro thuộc giai đoạn trước | Báo giá G4;<br>TL-KT đánh giá rủi ro nghiệp vụ, CEO duyệt trước khi nhận |
-| 4 | Đại diện khách làm việc trực tiếp với cơ quan thuế tại trụ sở cơ quan thuế | Cần ủy quyền riêng, rủi ro theo Chương 01 mục 6.3 | Phụ lục riêng, TL-KT xác nhận phạm vi ủy quyền, COO duyệt từng lần |
+| 4 | Đại diện khách làm việc trực tiếp với cơ quan thuế tại trụ sở cơ quan thuế | Cần ủy quyền riêng, rủi ro theo Chương 01 mục 5.3 | Phụ lục riêng, TL-KT xác nhận phạm vi ủy quyền, COO duyệt từng lần |
 | 5 | Tiếp và làm việc với đoàn thanh tra, kiểm tra thuế tại trụ sở khách | Khối lượng lớn, thời gian không lường trước | Báo giá G4 theo Chương 16 |
 | 6 | Lập hồ sơ xác định giá giao dịch liên kết | Chuyên môn riêng, rủi ro cao | Báo giá riêng hoặc giới thiệu đơn vị chuyên môn |
 | 7 | Hồ sơ hoàn thuế giá trị gia tăng | Khối lượng và rủi ro lớn | Báo giá G4 |
@@ -270,7 +240,7 @@ Các nội dung thuộc hành vi oBacker nghiêm cấm tại Chương 01 mục 6
 | 11 | Mua, gia hạn, khắc phục sự cố chữ ký số và hóa đơn điện tử | Là dịch vụ của nhà cung cấp thứ ba | oBacker hướng dẫn, khách tự thực hiện hoặc mua dịch vụ hỗ trợ |
 | 12 | Kiểm kê thực tế tại kho, tại quỹ | oBacker không có mặt tại cơ sở của khách | Khách tự kiểm kê;<br>oBacker cung cấp mẫu biên bản và hướng dẫn |
 | 13 | Xác nhận công nợ với đối tác của khách | Là quan hệ giữa khách và bên thứ ba | Khách tự thực hiện;<br>oBacker cung cấp số liệu |
-| 14 | Thanh toán hộ, chuyển tiền hộ, giữ tiền hộ | Rủi ro pháp lý, xem Chương 01 mục 6.8 | Từ chối tuyệt đối |
+| 14 | Thanh toán hộ, chuyển tiền hộ, giữ tiền hộ | Rủi ro pháp lý, xem Chương 01 mục 5.8 | Từ chối tuyệt đối |
 | 15 | Kiểm toán báo cáo tài chính | Không thuộc dịch vụ kế toán | Giới thiệu công ty kiểm toán độc lập |
 | 16 | Định giá doanh nghiệp, thẩm định giá tài sản | Chuyên môn riêng có điều kiện | Giới thiệu đơn vị đủ điều kiện |
 | 17 | Tư vấn pháp luật ngoài lĩnh vực thuế và kế toán | Ngoài chuyên môn | Chuyển bộ phận pháp lý hoặc đơn vị bên ngoài |
@@ -280,7 +250,7 @@ Các nội dung thuộc hành vi oBacker nghiêm cấm tại Chương 01 mục 6
 | 21 | Báo cáo theo mẫu riêng của ngân hàng, nhà đầu tư, công ty mẹ nước ngoài | Ngoài bộ mẫu chuẩn | Báo giá theo lần hoặc đưa vào G3 nếu cố định |
 | 22 | Dịch báo cáo tài chính sang tiếng nước ngoài | Ngoài phạm vi | Báo giá riêng |
 | 23 | Lưu trữ và bảo quản chứng từ GỐC bằng giấy dài hạn | Trách nhiệm bảo quản thuộc khách, xem Chương 04 | Thỏa thuận riêng nếu khách có nhu cầu |
-| 24 | Xử lý hậu quả do khách cung cấp chứng từ sai sự thật | Trách nhiệm thuộc khách theo Chương 01 mục 6.2 | Đánh giá lại quan hệ hợp đồng |
+| 24 | Xử lý hậu quả do khách cung cấp chứng từ sai sự thật | Trách nhiệm thuộc khách theo Chương 01 mục 5.2 | Đánh giá lại quan hệ hợp đồng |
 | 25 | Trả lời khách ngoài giờ làm việc và ngày nghỉ | Cần ranh giới để bảo đảm chất lượng | Chỉ áp dụng cho tình huống khẩn theo định nghĩa tại mục 6.6 |
 
 ---
@@ -339,10 +309,10 @@ Cột KH là khách hàng.
 | 44 | Bàn giao dữ liệu khi kết thúc hợp đồng | R | C | R | A | I | R, ký nhận |
 | 45 | Cập nhật chỉ số chất lượng dịch vụ | R nhập | R tổng hợp | R nhập | A | I | I |
 
-> [!note] MỘT DÒNG CHƯA THỎA QUY TẮC MỘT A
-> Dòng 37 không có ô A vì theo mục 6.10.2 tình huống B3, câu hỏi chưa xác minh được phải DỪNG, không ai được kết luận. Đây là ngoại lệ duy nhất của bảng; xem thêm lỗi thường gặp số 6 tại mục 8. Dòng 30 có ĐÚNG MỘT ô A, nằm ở cột KH: trong trường hợp mặc định khách chịu trách nhiệm cuối cùng về cả ba chữ ký trên báo cáo tài chính. Trong trường hợp NGOẠI LỆ nêu tại mục 6.11, TL-KT đứng tên hai chữ ký đầu với vai trò R, ô A vẫn thuộc khách, nên dòng 30 vẫn đúng quy tắc một A.
+> [!note] NGUYÊN TẮC PHÂN ĐỊNH VAI TRÒ A TRONG BẢNG RACI
+> Dòng 37 không bố trí vai trò A do các vấn đề nghiệp vụ chưa đủ căn cứ pháp lý phải tạm dừng để tra cứu theo quy trình; không cá nhân nào được tự ý đưa ra kết luận. Dòng 30 bố trí vai trò A thuộc khách hàng: theo mặc định người đại diện pháp luật của khách hàng chịu trách nhiệm cuối cùng đối với các chữ ký trên báo cáo tài chính. Trường hợp ngoại lệ quy định tại mục 6.11, TL-KT thực hiện vai trò R theo phân công chuyên môn, vai trò A vẫn thuộc đại diện pháp luật của khách hàng.
 
-#### 6.3.1. Bảy dòng đổi chủ so với bảng RACI cũ
+#### 6.3.1. Phân định vai trò cập nhật trong bảng RACI
 
 Cột "Cũ" dưới đây có Ý giữ nguyên ba ký hiệu vai trò của mô hình cũ là NV, ST, QL, chỉ để đối chiếu. Ba ký hiệu đó không còn được dùng ở bất kỳ chỗ nào khác trong Handbook.
 
@@ -366,7 +336,7 @@ Cột "Cũ" dưới đây có Ý giữ nguyên ba ký hiệu vai trò của mô 
 | --- | --- |
 | **Trách nhiệm chính** | 1. NHẬP LIỆU. 2. Thu thập, kiểm tra hình thức, tổ chức LƯU TRỮ chứng từ theo Chương 04. 3.<br>HẠCH TOÁN ĐƠN GIẢN, các bút toán đã có mẫu và không cần xét đoán. 4.<br>Đối chiếu ngân hàng, hóa đơn điện tử, công nợ, kho ở mức khớp số. 5.<br>Ghi nhận đầy đủ trạng thái công việc trên hệ thống quản lý công việc. 6.<br>Phát hiện và báo sớm mọi bất thường cho TL-KT.<br>CV-KT KHÔNG lập tờ khai, không lập báo cáo tài chính, không tính giá vốn và khấu hao ở phần cần xét đoán |
 | **Quyền quyết định** | 1. Thứ tự công việc trong ngày. 2.<br>Cách trình bày một bút toán trong khuôn khổ chế độ kế toán đã xác định. 3.<br>Trả lời khách các câu hỏi thuần thao tác, không ảnh hưởng số thuế, có căn cứ, và trong phạm vi TL-KT đã cho phép bằng văn bản |
-| **Giới hạn quyền** | 1. Không ký bất kỳ tài liệu nào gửi ra ngoài. 2.<br>Không cam kết mốc thời gian với khách.<br>Việc cam kết mốc thuộc AM. 3.<br>Không kết luận nghiệp vụ. Việc kết luận nghiệp vụ thuộc TL-KT. 4.<br>Không nhận thêm phạm vi công việc. 5.<br>Không tự liên hệ cơ quan thuế. 6.<br>Không truy cập dữ liệu khách không được phân công. 7.<br>Không quyết định bất kỳ mục nào tại Chương 01 mục 6.7 |
+| **Giới hạn quyền** | 1. Không ký bất kỳ tài liệu nào gửi ra ngoài. 2.<br>Không cam kết mốc thời gian với khách.<br>Việc cam kết mốc thuộc AM. 3.<br>Không kết luận nghiệp vụ. Việc kết luận nghiệp vụ thuộc TL-KT. 4.<br>Không nhận thêm phạm vi công việc. 5.<br>Không tự liên hệ cơ quan thuế. 6.<br>Không truy cập dữ liệu khách không được phân công. 7.<br>Không quyết định bất kỳ mục nào tại Chương 01 mục 5.7 |
 | **Đổi so với vai trò NV cũ** | CV-KT KHÔNG còn là đầu mối hằng ngày với khách.<br>Việc nhắc chứng từ, thông báo chứng từ thiếu, thông báo số thuế phải nộp chuyển sang AM.<br>CV-KT chỉ nói chuyện trực tiếp với khách khi AM mời vào và trong phạm vi thao tác. |
 | **Tiêu chí đánh giá** | 1. Tỷ lệ đúng hạn nội bộ. 2.<br>Tỷ lệ lỗi bị TL-KT phát hiện ở khâu soát. 3.<br>Tỷ lệ hồ sơ đầy đủ khi chuyển soát. 4.<br>Tuân thủ quy tắc ghi nhận trên hệ thống. 5.<br>Mức độ chủ động cảnh báo sớm |
 
@@ -422,11 +392,10 @@ Quy tắc chung: CHỈ AM TIẾP XÚC KHÁCH HÀNG. Không bộ phận hỗ tr�
 | Nhân sự | Thông báo cho Công nghệ và Sản phẩm ngay khi có quyết định nghỉ việc, không chờ ngày cuối.<br>Nhắc lại nghĩa vụ bảo mật sau khi nghỉ việc bằng văn bản, vào ngày cuối cùng.<br>Xem Chương 20 | Không. Cần nói gì với khách thì chuyển AM |
 | Bộ phận Marketing | Gỡ khách đã kết thúc hợp đồng khỏi danh sách gửi thư tự động và bản tin trên hệ thống oBacker, COO xác nhận, xem Chương 20 | Không. Thư tự động và bản tin không phải kênh trao đổi vụ việc; mọi phản hồi của khách phát sinh từ các kênh này chuyển AM |
 
-> [!note] HAI VAI TRÒ ĐÃ BỎ KHỎI BẢNG NÀY
+> [!note] CƠ CẤU VAI TRÒ VÀ ĐẦU MỐI VẬN HÀNH
 >
-> **Một, không có vai trò Đội bán hàng.** oBacker không có vai trò Sales riêng. `AM` là đầu mối toàn trình từ lúc khách còn là lead tới khi kết thúc hợp đồng, không có điểm bàn giao khách giữa hai người. Nguồn: `01_ToChuc/OBK-QCTC-02` Điều 7 khối AM Team và [[02_OBK-SOP-AM_Quan_ly_khach_hang|OBK-SOP-AM]] mục 1. Hai điểm kiểm soát vẫn giữ nguyên: Phiếu thông tin khách tiềm năng 18 trường và Phiếu mở hồ sơ khách 15 mục, nay do `AM` lập khi mở hồ sơ khách và chuyển cho bộ phận nghiệp vụ, bắt buộc còn đủ mục 05 và mục 14, và bắt buộc còn nghĩa vụ khai báo trung thực mọi cam kết miệng đã nói với khách. Phần việc thuần thu thập thông tin có thể giao `AE`, Chuyên viên Quản lý khách hàng.
->
-> **Hai, KHÔNG CÓ Bộ phận hợp đồng.** Đơn vị này không tồn tại trong `01_ToChuc/OBK-QCTC-02` Điều 7. Việc rà soát hợp đồng sắp hết hạn trên toàn danh mục trước 90 ngày nay thuộc `AM`, `COO` duyệt.
+> - **Đầu mối quản lý khách hàng:** oBacker không bố trí bộ phận kinh doanh độc lập trong chuỗi vận hành dịch vụ. `AM` là đầu mối toàn trình từ giai đoạn tiếp nhận nhu cầu ban đầu đến khi kết thúc hợp đồng theo quy định tại `01_ToChuc/OBK-QCTC-02` Điều 7 và [[02_OBK-SOP-AM_Quan_ly_khach_hang|OBK-SOP-AM]] mục 1. Chuyên viên Quản lý khách hàng (`AE`) hỗ trợ công tác thu thập hồ sơ và thông tin khách hàng.
+> - **Rà soát hợp đồng:** Công tác theo dõi, rà soát hợp đồng đến hạn thuộc thẩm quyền của `AM` và báo cáo `COO` phê duyệt.
 
 ---
 
@@ -460,7 +429,7 @@ Tổng điểm 08 tới 12 là khách nhóm A, đơn giản. Tổng điểm 13 t
 | 2 | Khách nhóm C chỉ giao cho CV-KT đã qua ít nhất 02 kỳ quyết toán năm tại oBacker;<br>phần cần xét đoán của khách nhóm C do TL-KT trực tiếp làm |
 | 3 | Số khách nhóm C tối đa mà một CV-KT được phụ trách cùng lúc do CEO quyết định, COO công bố;<br>Handbook không ghi con số |
 | 4 | Tổng điểm phức tạp của danh mục khách một CV-KT không vượt quá hạn mức do CEO quyết định và COO công bố theo từng kỳ;<br>hạn mức được điều chỉnh theo mùa cao điểm |
-| 5 | Không giao hai khách hàng cạnh tranh trực tiếp cho cùng một CV-KT, cùng một TL-KT hoặc cùng một AM, xem Chương 01 mục 6.6 |
+| 5 | Không giao hai khách hàng cạnh tranh trực tiếp cho cùng một CV-KT, cùng một TL-KT hoặc cùng một AM, xem Chương 01 mục 5.6 |
 | 6 | Số CV-KT mà một TL-KT phụ trách soát do CEO quyết định, COO đề xuất, với yêu cầu bắt buộc là bảo đảm đủ thời gian soát thực chất |
 | 7 | Khi nhận khách mới, COO phải xác nhận cụm phụ trách còn dư năng lực trước khi CEO duyệt nhận khách và trước khi AM ký hợp đồng;<br>thiếu năng lực thì lùi ngày bắt đầu dịch vụ, không nhận rồi tính sau |
 | 8 | Trong mùa cao điểm quyết toán, không phân bổ khách mới cho nhân sự đang phụ trách hồ sơ quyết toán chưa hoàn thành |
@@ -545,7 +514,7 @@ Cột "Vai trò chịu mốc" là cột mới, thêm vào để gắn từng m�
 | 22 | Đóng khiếu nại thông thường | AM | Trong 07 ngày làm việc | Trạng thái đóng | COO xem xét từng vụ quá hạn |
 | 23 | Đóng khiếu nại phức tạp, có ảnh hưởng số thuế hoặc có yêu cầu bồi thường | COO, cấp 2 | Trong 15 ngày làm việc, có báo cáo tiến độ mỗi 05 ngày | Trạng thái và nhật ký | COO trực tiếp xử lý;<br>chuyển CEO nếu quá hạn |
 | 24 | Xử lý tình huống khẩn theo định nghĩa tại 6.6.1 | TL-KT xử lý nghiệp vụ, AM thông báo khách | Phản hồi trong 01 giờ làm việc;<br>có phương án trong 04 giờ làm việc | Nhật ký sự cố | Báo cáo COO ngay lập tức |
-| 25 | Chuyển công văn của cơ quan thuế lên TL-KT | CV-KT hoặc AM là người nhận | Trong ngày làm việc nhận được | Sổ văn bản đến | Xử lý kỷ luật theo Chương 01 mục 6.3 |
+| 25 | Chuyển công văn của cơ quan thuế lên TL-KT | CV-KT hoặc AM là người nhận | Trong ngày làm việc nhận được | Sổ văn bản đến | Xử lý kỷ luật theo Chương 01 mục 5.3 |
 | 26 | Bàn giao dữ liệu khi kết thúc hợp đồng | AM chủ trì, CV-KT chuẩn bị dữ liệu | Trong 15 ngày làm việc kể từ ngày kết thúc, sau khi hoàn tất nghĩa vụ tài chính | Biên bản bàn giao có ký nhận | COO xử lý |
 
 > [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
@@ -662,26 +631,24 @@ Toàn bộ mục 6.8 là quy định nội bộ oBacker.
 
 ---
 
-### 6.9. KIỂM SOÁT CHẤT LƯỢNG, MỘT LỚP SOÁT
+### 6.9. Quy trình kiểm soát chất lượng kỹ thuật
 
-> [!note] MỘT LỚP SOÁT KỸ THUẬT
-> Kiểm soát kỹ thuật của mô hình dịch vụ có một lớp là TL-KT. `03_DichVu/01_OBK-SOP-00` NT-5 ghi ba dấu hiệu cho biết khi nào phải thêm lớp thứ hai.
+> [!note] NGUYÊN TẮC SOÁT XÉT KỸ THUẬT
+> Kiểm soát kỹ thuật trong mô hình dịch vụ do TL-KT chủ trì thực hiện. Các tiêu chí bổ sung lớp kiểm soát độc lập thực hiện theo quy định tại `03_DichVu/01_OBK-SOP-00` NT-5.
 
-#### 6.9.1. Một lớp, quyết định của CEO ngày 26/08/2026
+#### 6.9.1. Phân định trách nhiệm soát xét kỹ thuật
 
-CV-KT làm phần nhập liệu và hạch toán đơn giản. TL-KT tự làm phần cần xét đoán, tự soát, tự chốt. Không bắt buộc một TL-KT khác đọc lại.
+CV-KT thực hiện phần nhập liệu và hạch toán ban đầu. TL-KT trực tiếp thực hiện các phần hành cần xét đoán chuyên môn, soát xét và phê duyệt kết quả.
 
-Nguyên tắc gốc của mô hình này, gồm ba lớp kiểm soát và ngoại lệ dành cho phần việc do chính Team Lead làm, ĐẶT tại `03_DichVu/01_OBK-SOP-00` NT-5. Khi mục này khác NT-5 thì NT-5 đúng.
+Nguyên tắc kiểm soát kỹ thuật và các trường hợp bổ sung lớp kiểm soát độc lập thực hiện theo quy định tại `03_DichVu/01_OBK-SOP-00` NT-5.
 
-Mô hình cũ có hai lớp là ST soát rồi QL duyệt. Mô hình mới còn một lớp. Đây là lựa chọn có ý thức để giữ bộ máy gọn ở giai đoạn này, không phải sơ suất thiết kế.
-
-#### 6.9.2. Điều đánh đổi của mô hình một lớp
+#### 6.9.2. Biện pháp kiểm soát chất lượng bổ trợ
 
 Điều đánh đổi của mô hình một lớp, và ba dấu hiệu buộc phải thêm lớp soát thứ hai, ĐẶT tại `03_DichVu/01_OBK-SOP-00` NT-5. Chỗ đặt duy nhất là NT-5; mục này và `18_Kiem_soat_chat_luong.md` mục 6.1.6 là dẫn chiếu.
 
 Hệ quả cụ thể với bộ phận Kế toán và Thuế: khi TL-KT bận, nể, hoặc nhìn quen mắt thì phần việc do chính TL-KT làm không còn ai bắt lỗi trước khi hồ sơ rời oBacker. `COO` là người theo dõi ba dấu hiệu tại NT-5 và là người đưa vấn đề lên `CEO` khi chạm ngưỡng.
 
-#### 6.9.3. Cái thay thế lớp soát thứ hai
+#### 6.9.3. Cơ chế kiểm soát bổ trợ thay thế
 
 | Lớp | Nội dung | Ai làm | Tần suất |
 | --- | --- | --- | --- |
@@ -742,7 +709,7 @@ Cách đọc bảng: cột "Phát hiện" là ai thường gặp tình huống t
 | D5 | Legal R&D và TL-KT bất đồng về chuẩn mực | COO chuyển CEO | CEO quyết, nhưng chỉ được quyết theo hướng thận trọng hơn, không được quyết theo hướng nới lỏng chuẩn mực | 03 ngày |
 | D6 | Yêu cầu thuộc HÀNH VI OBACKER NGHIÊM CẤM | Ai nhận được thì DỪNG NGAY | Báo CEO và Legal R&D trong cùng ngày làm việc.<br>Không thương lượng, không xin phê duyệt, không có ngoại lệ.<br>Kể cả CEO cũng không phê duyệt được | ngay |
 
-#### 6.10.5. Ba quy tắc chung của mọi trình tự chuyển lên cấp trên
+#### 6.10.5. Quy tắc chung trong trình tự chuyển lên cấp trên
 
 1. **Chuyển lên cấp trên là nghĩa vụ, không phải xin phép.** Quá mốc mà chưa xong thì tự động lên cấp trên. Người ở cấp dưới không cần chờ ai cho phép để chuyển lên cấp trên. Không chuyển lên cấp trên đúng mốc là lỗi của người giữ việc.
 2. **Chuyển lên cấp trên phải ghi nhận trên hệ thống.** Mọi lần chuyển lên cấp trên tạo một bản ghi gồm: thời điểm, lý do, ai chuyển cho ai, nội dung đã làm ở cấp trước. Nói miệng không tính là chuyển lên cấp trên.
@@ -766,13 +733,13 @@ Ngoại lệ duy nhất: khi khách thuê đúng hạng mục dịch vụ lập 
 
 Vì oBacker không đứng tên trên báo cáo tài chính, ba điều sau trở thành BẮT BUỘC.
 
-#### 6.11.1. Hệ quả một, tên dịch vụ trong hợp đồng
+#### 6.11.1. Quy định tên dịch vụ trong hợp đồng
 
-Hợp đồng không được gọi tên dịch vụ là "lập và trình bày báo cáo tài chính" hoặc "làm kế toán trưởng". Gọi đúng hai cụm đó là kích hoạt Thông tư 99/2025 Điều 16 khoản 4, và điều khoản đó buộc phần người lập và kế toán trưởng trên báo cáo phải ghi số Giấy phép hành nghề dịch vụ kế toán của người hành nghề và tên đơn vị cung cấp dịch vụ `[TT 99/2025 Đ.16 k.4]`. Tên dịch vụ nên dùng: dịch vụ kế toán, ghi sổ kế toán, xử lý dữ liệu kế toán, lập tờ khai thuế.
+Vì không đứng tên, hợp đồng KHÔNG được gọi tên dịch vụ là "lập và trình bày báo cáo tài chính" hoặc "làm kế toán trưởng". Gọi đúng hai cụm từ đó kích hoạt Thông tư 99/2025 Điều 16 khoản 4, buộc phải ghi số Giấy phép hành nghề và tên đơn vị cung cấp dịch vụ trên báo cáo của khách `[TT99 Đ.16 k.4]`. Tên dịch vụ nên dùng: dịch vụ kế toán, ghi sổ kế toán, xử lý dữ liệu kế toán, lập tờ khai thuế.
 
 AM soạn hợp đồng theo đúng danh mục tên dịch vụ này; COO kiểm trước khi trình CEO ký. Muốn dùng hai cụm bị hạn chế, phải có TL-KT đủ điều kiện đứng tên và CEO duyệt từng khách.
 
-#### 6.11.2. Hệ quả hai, onboarding phải kiểm người khách cử làm kế toán trưởng
+#### 6.11.2. Kiểm tra tư cách kế toán trưởng của khách hàng khi tiếp nhận
 
 Người đó phải có chứng chỉ bồi dưỡng kế toán trưởng, chuyên môn kế toán từ trung cấp trở lên, và 02 năm kinh nghiệm thực tế nếu trình độ đại học trở lên hoặc 03 năm nếu trung cấp và cao đẳng `[Luật Kế toán 41/VBHN-VPQH Đ.54 k.1]`. Trường hợp khách cử người phụ trách kế toán thay kế toán trưởng thì người đó cũng phải đủ các tiêu chuẩn đó `[Luật Kế toán 41/VBHN-VPQH Đ.53 k.4]`. Luật Kế toán Điều 13 khoản 8 nghiêm cấm bố trí hoặc thuê người làm kế toán trưởng không đủ tiêu chuẩn `[Luật Kế toán 41/VBHN-VPQH Đ.13 k.8]`.
 
@@ -785,16 +752,16 @@ Người đó phải có chứng chỉ bồi dưỡng kế toán trưởng, chuy
 | 5 | Rà lại mỗi lần khách đổi người ký báo cáo tài chính | TL-KT |
 
 > [!note] MỨC PHẠT
-> Mức phạt hành vi bố trí hoặc thuê người làm kế toán trưởng không đủ tiêu chuẩn, điều kiện: 20.000.000 đồng đến 30.000.000 đồng đối với cá nhân, 40.000.000 đồng đến 60.000.000 đồng đối với tổ chức `[Nghị định 41/2018/NĐ-CP Đ.17 k.3 đ.b; Nghị định 132/2026/NĐ-CP Đ.2]`, xem [[01_Nguyen_tac_hanh_nghe|OBK-SOP-01]] mục 6.1.4. Nghị định 41/2018/NĐ-CP có trong kho nhưng chưa xác định được Điều khớp riêng cho hành vi ký báo cáo tài chính sai thẩm quyền (khác với hành vi thiếu chữ ký tại Điều 11 khoản 1 điểm b); tuyệt đối không nêu mức phạt cho hành vi đó khi chưa đối chiếu được Điều khớp.
+> Mức phạt hành vi bố trí hoặc thuê người làm kế toán trưởng không đủ tiêu chuẩn, điều kiện: 20.000.000 đồng đến 30.000.000 đồng đối với cá nhân, 40.000.000 đồng đến 60.000.000 đồng đối với tổ chức, xem OBK-SOP-01 mục 5.1.4. Chưa xác định được điều khoản xử phạt khớp riêng cho hành vi ký báo cáo tài chính sai thẩm quyền (khác với hành vi thiếu chữ ký); tuyệt đối không nêu mức phạt cho hành vi đó khi chưa đối chiếu được điều khoản khớp.
 
-#### 6.11.3. Hệ quả ba, ranh giới trách nhiệm phải nằm trong hợp đồng
+#### 6.11.3. Xác định ranh giới trách nhiệm trong hợp đồng dịch vụ
 
 Luật Kế toán Điều 29 khoản 2 điểm d quy định người ký báo cáo tài chính chịu trách nhiệm về nội dung báo cáo. Khách ký cả ba chữ ký nghĩa là khách chịu trách nhiệm pháp lý về nội dung. Nhưng khi khách bị phạt, khách sẽ quay lại theo hợp đồng, mà trên báo cáo không có gì phân định oBacker làm tới đâu. Hợp đồng phải nêu rõ ba nội dung:
 
 | # | Nội dung phải có trong hợp đồng | Ai chịu trách nhiệm rà |
 | --- | --- | --- |
 | 1 | Phạm vi công việc oBacker thực hiện, đối chiếu đúng mục 6.1 và mục 6.2 | AM soạn, COO kiểm |
-| 2 | Nguồn dữ liệu do khách cung cấp, và trách nhiệm của khách về tính đầy đủ, trung thực của dữ liệu đó, dẫn chiếu Chương 01 mục 6.2 | AM soạn, TL-KT xác nhận nội dung nghiệp vụ |
+| 2 | Nguồn dữ liệu do khách cung cấp, và trách nhiệm của khách về tính đầy đủ, trung thực của dữ liệu đó, dẫn chiếu Chương 01 mục 5.2 | AM soạn, TL-KT xác nhận nội dung nghiệp vụ |
 | 3 | Giới hạn trách nhiệm của oBacker | AM soạn, CEO duyệt |
 
 ---
@@ -931,7 +898,7 @@ Bộ chỉ số đầy đủ đặt tại mục 6.8. Bảng dưới đây là b�
 
 ## Phụ lục 02-C. Lịch sử quyết định về mô hình vai trò
 
-### 02-C.1. Bảng năm vai trò kèm ánh xạ từ ký hiệu cũ
+### 02-C.1. Bảng hệ thống vai trò kèm ánh xạ từ ký hiệu cũ
 
 Bảng này để đọc tài liệu viết trước ngày 25/08/2026, khi kho còn dùng ký hiệu `NV`, `ST`, `QL`.
 
@@ -962,15 +929,14 @@ Quy tắc chung: CHỈ AM TIẾP XÚC KHÁCH HÀNG. Không bộ phận hỗ tr�
 | Nhân sự | Thông báo cho Công nghệ và Sản phẩm ngay khi có quyết định nghỉ việc, không chờ ngày cuối.<br>Nhắc lại nghĩa vụ bảo mật sau khi nghỉ việc bằng văn bản, vào ngày cuối cùng.<br>Xem Chương 20 | Không. Cần nói gì với khách thì chuyển AM |
 | Bộ phận Marketing | Gỡ khách đã kết thúc hợp đồng khỏi danh sách gửi thư tự động và bản tin trên hệ thống oBacker, COO xác nhận, xem Chương 20 | Không. Thư tự động và bản tin không phải kênh trao đổi vụ việc; mọi phản hồi của khách phát sinh từ các kênh này chuyển AM |
 
-> [!note] HAI VAI TRÒ ĐÃ BỎ KHỎI BẢNG NÀY
+> [!note] CƠ CẤU VAI TRÒ VÀ ĐẦU MỐI VẬN HÀNH
 >
-> **Một, không có vai trò Đội bán hàng.** oBacker không có vai trò Sales riêng. `AM` là đầu mối toàn trình từ lúc khách còn là lead tới khi kết thúc hợp đồng, không có điểm bàn giao khách giữa hai người. Nguồn: `01_ToChuc/OBK-QCTC-02` Điều 7 khối AM Team và [[02_OBK-SOP-AM_Quan_ly_khach_hang|OBK-SOP-AM]] mục 1. Hai điểm kiểm soát vẫn giữ nguyên: Phiếu thông tin khách tiềm năng 18 trường và Phiếu mở hồ sơ khách 15 mục, nay do `AM` lập khi mở hồ sơ khách và chuyển cho bộ phận nghiệp vụ, bắt buộc còn đủ mục 05 và mục 14, và bắt buộc còn nghĩa vụ khai báo trung thực mọi cam kết miệng đã nói với khách. Phần việc thuần thu thập thông tin có thể giao `AE`, Chuyên viên Quản lý khách hàng.
->
-> **Hai, KHÔNG CÓ Bộ phận hợp đồng.** Đơn vị này không tồn tại trong `01_ToChuc/OBK-QCTC-02` Điều 7. Việc rà soát hợp đồng sắp hết hạn trên toàn danh mục trước 90 ngày nay thuộc `AM`, `COO` duyệt.
+> - **Đầu mối quản lý khách hàng:** oBacker không bố trí bộ phận kinh doanh độc lập trong chuỗi vận hành dịch vụ. `AM` là đầu mối toàn trình từ giai đoạn tiếp nhận nhu cầu ban đầu đến khi kết thúc hợp đồng theo quy định tại `01_ToChuc/OBK-QCTC-02` Điều 7 và [[02_OBK-SOP-AM_Quan_ly_khach_hang|OBK-SOP-AM]] mục 1. Chuyên viên Quản lý khách hàng (`AE`) hỗ trợ công tác thu thập hồ sơ và thông tin khách hàng.
+> - **Rà soát hợp đồng:** Công tác theo dõi, rà soát hợp đồng đến hạn thuộc thẩm quyền của `AM` và báo cáo `COO` phê duyệt.
 
 ---
 
-### 02-C.3. Ba quyết định nền về kiểm soát chất lượng
+### 02-C.3. Các mốc quyết định về kiểm soát chất lượng
 
 | Ngày | Quyết định |
 | --- | --- |
@@ -978,7 +944,7 @@ Quy tắc chung: CHỈ AM TIẾP XÚC KHÁCH HÀNG. Không bộ phận hỗ tr�
 | 26/08/2026 | MỘT LỚP SOÁT. Kế toán trưởng làm xong báo cáo tài chính năm thì không bắt buộc một kế toán trưởng khác đọc lại.<br>Cả BA chữ ký trên báo cáo tài chính đều là của khách |
 | 27/08/2026 | BỎ TRIỆT ĐỂ quy tắc 02 TL-KT ở mọi chương, không giữ ngoại lệ nào.<br>Bỏ soát xét ba lớp, còn hai lớp.<br>Mốc nội bộ lấy NGÀY CỨNG của Phụ lục C làm chuẩn duy nhất |
 
-### 02-C.4. Điều đánh đổi của mô hình một lớp
+### 02-C.4. Cơ chế kiểm soát bổ trợ cho mô hình
 
 Một lớp soát nghĩa là khi TL-KT bận, nể, hoặc nhìn quen mắt thì không còn ai bắt lỗi trước khi hồ sơ rời oBacker. Rủi ro này có thật nhưng chấp nhận được ở quy mô hiện tại, vì bù lại bộ máy chạy nhanh và không tốn thêm định biên TL-KT.
 
@@ -1031,4 +997,4 @@ Vì oBacker không đứng tên trên báo cáo tài chính, ba điều sau tr�
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.0.1 | Chuan hoa van phong hanh chinh, bo so dem tai cac tieu de va RACI, chuyen callout sang quy dinh van hanh noi bo |

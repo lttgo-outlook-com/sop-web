@@ -4,26 +4,20 @@ code: "OBK-SOP-NB-06"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.0"
+version: "R.1.2.1"
 status: "đang áp dụng"
-draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 27/09/2026"
+draft_date: "30/09/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-SOP-NB-00 Chuẩn vận hành nội bộ"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-SOP-NB-06
 tags:
   - loai/sop
   - cap/3
-  - nghiep-vu/cham-dut-hop-dong-lao-dong
-  - nghiep-vu/bao-hiem-xa-hoi
 ---
 # OBK-SOP-NB-06. Nghỉ việc và offboarding nội bộ
 
@@ -34,8 +28,8 @@ tags:
 | Mã tài liệu | OBK-SOP-NB-06 |
 | Tên tài liệu | Quy trình nghỉ việc và offboarding nội bộ |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ. Thi hành Bộ tài liệu quản trị nhân sự [[00_Bo_tai_lieu_quan_tri_nhan_su\|OBK-QCNS-00]] và Nội quy lao động [[Noi_quy_lao_dong\|OBK-NQLD]] |
-| Phiên bản | R.1.0.0, đang áp dụng |
-| Ngày biên soạn | 01/10/2026 |
+| Phiên bản | R.1.2.1, đang áp dụng |
+| Ngày biên soạn | 30/09/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 27/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -44,32 +38,49 @@ tags:
 | Bộ tài liệu | OBK-SOP-NB, Sổ tay quy trình nội bộ oBacker |
 | Tài liệu song hành | [[OBK-SOP-NB-03_Quan_ly_tien\|OBK-SOP-NB-03]] quản lý tiền (dòng M6 và VQ-17);<br>[[OBK-SOP-NB-04_Cong_va_tien_luong_noi_bo\|OBK-SOP-NB-04]] công và tiền lương nội bộ |
 | Lần rà soát tiếp theo | Không quá 12 tháng kể từ ngày ban hành |
-| Phạm vi phát hành | Nội bộ oBacker. Không phát hành cho khách hàng. |
+| Phạm vi phát hành | Nội bộ oBacker. Không phát hành cho khách hàng |
 
 ---
 
 ## CẢNH BÁO MỞ ĐẦU
 
-> [!warning] HAI CHỐT BẮT BUỘC KHÔNG ĐƯỢC CHẬM TRỄ
-> 1. **Thu hồi quyền ngân hàng điện tử ngay trong ngày:** Căn cứ `VQ-17` và [[OBK-SOP-NB-03_Quan_ly_tien|OBK-SOP-NB-03]] dòng `M6`, quyền lập hoặc xác nhận lệnh trên hệ thống ngân hàng điện tử của nhân sự nghỉ việc phải được thu hồi NGAY TRONG NGÀY làm việc cuối cùng. Số ngày trễ theo quy định nội bộ phải bằng 0 ngày.
-> 2. **Thời hạn thanh toán quyết toán 14 ngày làm việc:** Căn cứ [[CC-LD-28 Thanh toán các khoản trong 14 NGÀY LÀM VIỆC kể từ ngày chấm dứt|CC-LD-28]], oBacker và người lao động có trách nhiệm thanh toán đầy đủ các khoản tiền liên quan đến quyền lợi của mỗi bên trong vòng 14 ngày làm việc kể từ ngày chấm dứt hợp đồng lao động.
+> [!warning] THỦ TỤC VÀ THỜI HẠN BẮT BUỘC KHI CHẤM DỨT HỢP ĐỒNG LAO ĐỘNG
+> 1. **Thu hồi quyền ngân hàng điện tử ngay trong ngày:** Căn cứ `VQ-17` và OBK-SOP-NB-03 dòng `M6`, quyền lập hoặc xác nhận lệnh trên hệ thống ngân hàng điện tử của nhân sự nghỉ việc phải được thu hồi NGAY TRONG NGÀY làm việc cuối cùng. Số ngày trễ theo quy định nội bộ phải bằng 0 ngày.
+> 2. **Thời hạn thanh toán quyết toán 14 ngày làm việc:** oBacker và người lao động có trách nhiệm thanh toán đầy đủ các khoản tiền liên quan đến quyền lợi của mỗi bên. Thời hạn là 14 ngày làm việc kể từ ngày chấm dứt hợp đồng lao động.
 
 ---
 
 ## 1. Mục đích
 
-Đặt một trình tự thống nhất, chặt chẽ cho việc tiếp nhận đề nghị thôi việc, xử lý chấm dứt hợp đồng lao động, bàn giao công việc và khách hàng, thu hồi tài sản, thu hồi quyền truy cập hệ thống, quyết toán tài chính và hoàn tất các thủ tục bảo hiểm xã hội tại oBacker. Quy trình bảo đảm:
+Đặt một trình tự thống nhất, chặt chẽ cho việc tiếp nhận đề nghị thôi việc, xử lý chấm dứt hợp đồng lao động, bàn giao công việc và khách hàng. Quy trình tiếp tục bao phủ các khâu thu hồi tài sản, thu hồi quyền truy cập hệ thống, quyết toán tài chính và hoàn tất các thủ tục bảo hiểm xã hội tại oBacker. Quy trình bảo đảm:
 
-1. Tuân thủ tuyệt đối quy định pháp luật về căn cứ, thủ tục chấm dứt hợp đồng lao động và thời hạn báo trước theo [[CC-LD-20 NLĐ đơn phương chấm dứt, báo trước, 45 ngày với HĐ không xác định thời hạn|CC-LD-20]], [[CC-LD-21 NLĐ báo trước 30 ngày với HĐ xác định thời hạn từ 12 tới 36 tháng|CC-LD-21]], [[CC-LD-24 NSDLĐ đơn phương chấm dứt, báo trước 45 ngày, 30 ngày, 03 ngày làm việc theo loại hợp đồng|CC-LD-24]].
+1. Tuân thủ tuyệt đối thời hạn báo trước khi đơn phương chấm dứt hợp đồng lao động: người lao động báo trước tối thiểu 45 ngày với hợp đồng không xác định thời hạn, 30 ngày với hợp đồng xác định thời hạn từ 12 đến 36 tháng, 03 ngày làm việc với hợp đồng dưới 12 tháng; người sử dụng lao động báo trước 45 ngày, 30 ngày hoặc 03 ngày làm việc theo loại hợp đồng.
 2. Thu hồi toàn bộ tài sản, công cụ dụng cụ, con dấu công ty và bảo mật 100% tài nguyên thông tin, dữ liệu khách hàng, triệt tiêu nguy cơ rò rỉ dữ liệu hoặc thất thoát tài chính.
-3. Thanh toán đúng hạn, chính xác các khoản tiền lương, trợ cấp thôi việc trong vòng 14 ngày làm việc theo [[CC-LD-28 Thanh toán các khoản trong 14 NGÀY LÀM VIỆC kể từ ngày chấm dứt|CC-LD-28]] và hoàn thành thủ tục chốt, trả sổ bảo hiểm xã hội theo [[CC-LD-30 NSDLĐ phải hoàn thành thủ tục xác nhận thời gian đóng BHXH, BHTN và trả lại bản chính giấy tờ đã giữ|CC-LD-30]], [[CC-LD-159 NSDLĐ phối hợp cơ quan BHXH xác nhận thời gian đóng khi NLĐ chấm dứt HĐLĐ; phối hợp trả sổ bản giấy|CC-LD-159]].
+3. Thanh toán đúng hạn, chính xác các khoản tiền lương, trợ cấp thôi việc trong vòng 14 ngày làm việc kể từ ngày chấm dứt hợp đồng lao động. Người sử dụng lao động hoàn thành thủ tục xác nhận thời gian đóng bảo hiểm xã hội, bảo hiểm thất nghiệp và trả lại bản chính giấy tờ đã giữ cho người lao động.
+
+### Mốc thời gian tổng hợp
+
+| Bước | Thời hạn áp dụng | Người chịu trách nhiệm nếu chậm |
+| --- | --- | --- |
+| Báo trước khi người lao động đơn phương chấm dứt, hợp đồng không xác định thời hạn | Tối thiểu 45 ngày theo CC-LD-20 | Người lao động nghỉ việc |
+| Báo trước khi người lao động đơn phương chấm dứt, hợp đồng xác định thời hạn từ 12 tới 36 tháng | Tối thiểu 30 ngày theo CC-LD-21 | Người lao động nghỉ việc |
+| Báo trước khi người lao động đơn phương chấm dứt, hợp đồng dưới 12 tháng | Tối thiểu 03 ngày làm việc theo CC-LD-22 | Người lao động nghỉ việc |
+| Thu hồi quyền ngân hàng điện tử (`VQ-17`, dòng `M6`) | Ngay trong ngày làm việc cuối cùng, số ngày trễ bằng 0 | `CEO` |
+| Thu hồi tài sản, con dấu và chữ ký số | Ngày làm việc cuối cùng | `AD-KT`, `CEO` |
+| Tính toán bảng quyết toán | Trong 05 ngày làm việc đầu tiên sau khi nhân viên nghỉ việc | `KTV` nội bộ, `KTT` |
+| Thanh toán quyết toán tiền lương và trợ cấp thôi việc | Trong 14 ngày làm việc kể từ ngày chấm dứt theo CC-LD-28; kéo dài tối đa 30 ngày trong 4 trường hợp theo CC-LD-29 | `KTT`, `CEO` |
+| Báo giảm bảo hiểm xã hội (Job `NB-41`) | Ngay khi có quyết định chấm dứt hoặc trong kỳ kê khai của tháng chấm dứt | `HR` |
+| Chốt và trả sổ bảo hiểm xã hội (Job `NB-43`) | Ngay khi nhận được kết quả chốt sổ từ cơ quan bảo hiểm xã hội | `HR` |
+
+Bảng tổng hợp; khi bảng và phần chữ khác nhau thì lấy phần chữ.
 
 ---
 
 ## 2. Phạm vi áp dụng
 
 **Trong phạm vi:**
-- Toàn bộ các trường hợp chấm dứt hợp đồng lao động của nhân sự tại oBacker, bao gồm: thỏa thuận chấm dứt hợp đồng; người lao động đơn phương chấm dứt hợp đồng hợp pháp; người sử dụng lao động đơn phương chấm dứt hợp đồng; hợp đồng lao động hết hạn; không đạt thử việc; xử lý kỷ luật sa thải theo đúng [[Noi_quy_lao_dong|OBK-NQLD]];
+- Toàn bộ các trường hợp chấm dứt hợp đồng lao động của nhân sự tại oBacker, bao gồm: thỏa thuận chấm dứt hợp đồng; người lao động đơn phương chấm dứt hợp đồng hợp pháp; người sử dụng lao động đơn phương chấm dứt hợp đồng;
+- Hợp đồng lao động hết hạn; không đạt thử việc; xử lý kỷ luật sa thải theo đúng Nội quy lao động (OBK-NQLD);
 - Bàn giao công việc nội bộ và bàn giao hồ sơ khách hàng đang trực tiếp quản lý;
 - Thu hồi tài sản, công cụ dụng cụ, con dấu và chữ ký số;
 - Thu hồi quyền truy cập hệ thống công nghệ thông tin và tài khoản ngân hàng điện tử;
@@ -82,43 +93,23 @@ tags:
 
 ---
 
-## 3. Căn cứ pháp lý
-
-- Bộ luật Lao động số 45/2019/QH14: Điều 34 (Các trường hợp chấm dứt HĐLĐ), Điều 35 (Quyền đơn phương chấm dứt của NLĐ), Điều 36 (Quyền đơn phương chấm dứt của NSDLĐ), Điều 45 (Thông báo chấm dứt), Điều 46 (Trợ cấp thôi việc), Điều 47 (Trợ cấp mất việc làm), Điều 48 (Trách nhiệm khi chấm dứt HĐLĐ);
-- Luật Bảo hiểm xã hội số 41/2024/QH15;
-- Luật Việc làm số 74/2025/QH15;
-- Nghị định số 145/2020/NĐ-CP ngày 14/12/2020 của Chính phủ;
-- Nghị định số 158/2025/NĐ-CP ngày 31/12/2025 của Chính phủ;
-- [[CC-LD-20 NLĐ đơn phương chấm dứt, báo trước, 45 ngày với HĐ không xác định thời hạn|CC-LD-20]] NLĐ đơn phương chấm dứt, báo trước 45 ngày với hợp đồng không xác định thời hạn;
-- [[CC-LD-21 NLĐ báo trước 30 ngày với HĐ xác định thời hạn từ 12 tới 36 tháng|CC-LD-21]] NLĐ báo trước 30 ngày với hợp đồng xác định thời hạn từ 12 tới 36 tháng;
-- [[CC-LD-22 NLĐ báo trước 03 ngày làm việc với HĐ dưới 12 tháng|CC-LD-22]] NLĐ báo trước 03 ngày làm việc với hợp đồng dưới 12 tháng;
-- [[CC-LD-24 NSDLĐ đơn phương chấm dứt, báo trước 45 ngày, 30 ngày, 03 ngày làm việc theo loại hợp đồng|CC-LD-24]] NSDLĐ đơn phương chấm dứt, báo trước 45 ngày, 30 ngày, 03 ngày làm việc theo loại hợp đồng;
-- [[CC-LD-28 Thanh toán các khoản trong 14 NGÀY LÀM VIỆC kể từ ngày chấm dứt|CC-LD-28]] Thanh toán các khoản trong 14 ngày làm việc kể từ ngày chấm dứt;
-- [[CC-LD-29 Bốn trường hợp được kéo dài nhưng KHÔNG QUÁ 30 NGÀY|CC-LD-29]] Bốn trường hợp được kéo dài nhưng không quá 30 ngày;
-- [[CC-LD-30 NSDLĐ phải hoàn thành thủ tục xác nhận thời gian đóng BHXH, BHTN và trả lại bản chính giấy tờ đã giữ|CC-LD-30]] NSDLĐ phải hoàn thành thủ tục xác nhận thời gian đóng BHXH, BHTN và trả lại bản chính giấy tờ đã giữ;
-- [[CC-LD-158 Chưa đóng đủ, xác nhận thời gian đóng ĐẾN THỜI ĐIỂM ĐÃ ĐÓNG cho người thôi việc; thu hồi đủ thì xác nhận bổ sung|CC-LD-158]] Xác nhận thời gian đóng bảo hiểm xã hội đến thời điểm đã đóng;
-- [[CC-LD-159 NSDLĐ phối hợp cơ quan BHXH xác nhận thời gian đóng khi NLĐ chấm dứt HĐLĐ; phối hợp trả sổ bản giấy|CC-LD-159]] Phối hợp cơ quan BHXH xác nhận thời gian đóng và trả sổ bản giấy;
-- [[OBK-SOP-NB-03_Quan_ly_tien|OBK-SOP-NB-03]] Quản lý tiền, bảng rà soát `M6` và `VQ-17` về thu hồi quyền ngân hàng điện tử;
-- [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] Điều 35 (phân quyền ngân hàng), Điều 37 và Điều 38 (hoàn ứng và chế tài quá hạn);
-- [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo|OBK-SOP-NB-00]] Job `NB-41` (Báo giảm lao động) và Job `NB-43` (Chốt sổ bảo hiểm xã hội).
-
----
-
-## 4. Vai trò và trách nhiệm
+## 3. Vai trò và trách nhiệm
 
 | Vai trò | Trách nhiệm trong quy trình | Giới hạn quyền hạn |
 | --- | --- | --- |
-| `HR` | Tiếp nhận đơn xin nghỉ việc; kiểm tra thời hạn báo trước theo quy định pháp luật; chuẩn bị Thỏa thuận chấm dứt hoặc Quyết định chấm dứt HĐLĐ; phát hành và theo dõi Phiếu kiểm tra offboarding; báo giảm bảo hiểm xã hội (Job `NB-41`); thực hiện thủ tục chốt sổ BHXH và bàn giao lại sổ cho người lao động (Job `NB-43`) | Không tự ý đồng ý cho nghỉ việc trái thời hạn khi chưa có ý kiến của Quản lý trực tiếp và phê duyệt của `CEO` |
+| `HR` | Tiếp nhận đơn xin nghỉ việc; kiểm tra thời hạn báo trước theo quy định pháp luật; chuẩn bị Thỏa thuận chấm dứt hoặc Quyết định chấm dứt HĐLĐ;<br>Phát hành và theo dõi Phiếu kiểm tra offboarding; báo giảm bảo hiểm xã hội (Job `NB-41`);<br>Thực hiện thủ tục chốt sổ BHXH và bàn giao lại sổ cho người lao động (Job `NB-43`) | Không tự ý đồng ý cho nghỉ việc trái thời hạn khi chưa có ý kiến của Quản lý trực tiếp và phê duyệt của `CEO` |
 | Quản lý trực tiếp (`TL` / `Trưởng bộ phận`) | Trao đổi nguyện vọng với nhân sự; xem xét đề xuất ngày làm việc cuối cùng; chỉ định nhân sự tiếp nhận bàn giao; lập kế hoạch và giám sát quá trình bàn giao công việc và hồ sơ khách hàng; ký xác nhận hoàn thành bàn giao chuyên môn | Không phê duyệt các nội dung miễn trừ trách nhiệm tài chính hoặc tài sản của nhân viên |
-| `CEO` | Phê duyệt đơn xin nghỉ việc hoặc ký quyết định chấm dứt hợp đồng lao động; ký quyết định khen thưởng hoặc chế tài liên quan đến chấm dứt HĐLĐ; ký lệnh thu hồi và trực tiếp điều chỉnh quyền ngân hàng điện tử theo Điều 35 [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] | Không bỏ qua bước đối chiếu công nợ tài chính trước khi chi trả quyết toán cuối cùng |
+| `CEO` | Phê duyệt đơn xin nghỉ việc hoặc ký quyết định chấm dứt hợp đồng lao động; ký quyết định khen thưởng hoặc chế tài liên quan đến chấm dứt HĐLĐ;<br>Ký lệnh thu hồi và trực tiếp điều chỉnh quyền ngân hàng điện tử theo Điều 35 [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] | Không bỏ qua bước đối chiếu công nợ tài chính trước khi chi trả quyết toán cuối cùng |
 | `AD-KT` | Kiểm tra, kiểm kê và thu hồi toàn bộ tài sản, máy tính, công cụ dụng cụ, thẻ ra vào do công ty cấp; thu hồi con dấu vật lý và USB Token chữ ký số (nếu nhân sự đang được giao quản lý); ký Phiếu thu hồi tài sản | Không ký xác nhận hoàn tất tài sản nếu thiếu thiết bị hoặc thiết bị hỏng do lỗi chủ quan chưa được xử lý |
 | Quản trị hệ thống IT | Khóa và thu hồi quyền truy cập thư điện tử Google Workspace (`@obacker.com`), tài khoản máy chủ, VPN, hệ thống quản trị, kênh trò chuyện nội bộ | Chỉ thực hiện theo yêu cầu bằng văn bản hoặc lệnh có dấu vết từ `HR` hoặc `CEO` |
 | `KTV` nội bộ | Đối chiếu toàn bộ các khoản tạm ứng, công nợ cá nhân theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]]; tính tiền lương ngày làm việc thực tế, tiền lương những ngày phép chưa nghỉ và trợ cấp thôi việc (nếu có) theo [[OBK-SOP-NB-04_Cong_va_tien_luong_noi_bo\|OBK-SOP-NB-04]]; lập Bảng thanh toán quyết toán nghỉ việc | Không thanh toán tiền lương quyết toán khi chưa có đầy đủ chữ ký xác nhận của các bộ phận trên Phiếu offboarding |
 | Người lao động nghỉ việc | Nộp đơn thông báo đúng thời hạn báo trước; hoàn thành toàn bộ bàn giao công việc và hồ sơ khách hàng; hoàn trả đầy đủ tài sản công ty; thanh toán dứt điểm công nợ tạm ứng cá nhân; ký biên bản quyết toán | Không được giữ lại bất kỳ bản chính tài liệu, hồ sơ khách hàng hoặc mật khẩu truy cập hệ thống |
 
+Khi người có thẩm quyền phê duyệt nghỉ việc vắng mặt, thẩm quyền chuyển theo quy tắc ủy quyền tại [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo|OBK-SOP-NB-00]] mục 8.1.
+
 ---
 
-## 5. Đầu vào bắt buộc
+## 4. Đầu vào bắt buộc
 
 1. Đơn xin thôi việc (hoặc Thông báo chấm dứt hợp đồng lao động) có đầy đủ chữ ký của người lao động, ghi rõ ngày làm việc cuối cùng dự kiến và lý do thôi việc;
 2. Hoặc Thông báo chấm dứt hợp đồng lao động do công ty phát hành (trường hợp hết hạn hợp đồng hoặc đơn phương chấm dứt hợp pháp theo Điều 36 Bộ luật Lao động);
@@ -130,7 +121,7 @@ tags:
 
 ---
 
-## 6. Các bước thực hiện
+## 5. Các bước thực hiện
 
 Quy trình nghỉ việc và offboarding gồm bảy bước cụ thể:
 
@@ -156,10 +147,10 @@ Quy trình nghỉ việc và offboarding gồm bảy bước cụ thể:
 
 1. **Kiểm tra tính hợp lệ và thời hạn báo trước:**
    - Trường hợp người lao động đơn phương chấm dứt hợp đồng: `HR` kiểm tra loại hợp đồng lao động hiện hành để xác định thời hạn báo trước tối thiểu:
-     * Hợp đồng lao động không xác định thời hạn: báo trước ít nhất **45 ngày** theo [[CC-LD-20 NLĐ đơn phương chấm dứt, báo trước, 45 ngày với HĐ không xác định thời hạn|CC-LD-20]];
-     * Hợp đồng lao động xác định thời hạn từ 12 tháng đến 36 tháng: báo trước ít nhất **30 ngày** theo [[CC-LD-21 NLĐ báo trước 30 ngày với HĐ xác định thời hạn từ 12 tới 36 tháng|CC-LD-21]];
-     * Hợp đồng lao động xác định thời hạn dưới 12 tháng: báo trước ít nhất **03 ngày làm việc** theo [[CC-LD-22 NLĐ báo trước 03 ngày làm việc với HĐ dưới 12 tháng|CC-LD-22]].
-   - Trường hợp người sử dụng lao động đơn phương chấm dứt hợp đồng: tuân thủ thời hạn báo trước tương ứng theo [[CC-LD-24 NSDLĐ đơn phương chấm dứt, báo trước 45 ngày, 30 ngày, 03 ngày làm việc theo loại hợp đồng|CC-LD-24]], trừ trường hợp không phải báo trước theo quy định tại điểm d và điểm đ khoản 1 Điều 36 Bộ luật Lao động.
+      * Hợp đồng lao động không xác định thời hạn: báo trước ít nhất **45 ngày**;
+      * Hợp đồng lao động xác định thời hạn từ 12 tháng đến 36 tháng: báo trước ít nhất **30 ngày**;
+      * Hợp đồng lao động xác định thời hạn dưới 12 tháng: báo trước ít nhất **03 ngày làm việc**.
+    - Trường hợp người sử dụng lao động đơn phương chấm dứt hợp đồng: tuân thủ thời hạn báo trước tương ứng 45 ngày, 30 ngày hoặc 03 ngày làm việc theo loại hợp đồng. Trừ trường hợp không phải báo trước theo điểm d và điểm đ khoản 1 Điều 36 Bộ luật Lao động.
    - Trường hợp hai bên thỏa thuận chấm dứt hợp đồng: hai bên thống nhất ngày chấm dứt bằng văn bản theo Điều 34 khoản 3 Bộ luật Lao động.
 2. **Phỏng vấn thôi việc (Exit Interview):**
    - `HR` tổ chức buổi trao đổi tìm hiểu nguyên nhân nghỉ việc, lắng nghe ý kiến phản hồi về môi trường làm việc và giải thích các chính sách, quyền lợi khi chấm dứt hợp đồng.
@@ -187,7 +178,8 @@ Quy trình nghỉ việc và offboarding gồm bảy bước cụ thể:
    - Kiểm tra hiện trạng máy tính, màn hình, chuột, sạc, thẻ ra vào văn phòng, chìa khóa tủ làm việc;
    - Trường hợp tài sản bị mất hoặc hư hỏng do lỗi chủ quan của người lao động: lập biên bản ghi nhận mức độ hư hỏng và tính mức bồi thường thiệt hại theo quy định tại Điều 129 Bộ luật Lao động và [[OBK-SOP-NB-08_Quan_ly_tai_san_va_cong_cu_dung_cu|OBK-SOP-NB-08]].
 2. **Thu hồi con dấu pháp nhân và chữ ký số (nếu có giữ):**
-   - Trường hợp nhân sự nghỉ việc giữ con dấu tròn pháp nhân của oBacker hoặc USB Token chữ ký số (ví dụ vị trí `AD-KT`): BẮT BUỘC thực hiện bàn giao con dấu và chữ ký số cho `CEO` hoặc người được `CEO` chỉ định bằng văn bản ngay tại thời điểm bàn giao tài sản;
+   - Trường hợp nhân sự nghỉ việc giữ con dấu tròn pháp nhân của oBacker hoặc USB Token chữ ký số (ví dụ vị trí `AD-KT`): BẮT BUỘC thực hiện bàn giao con dấu và chữ ký số cho `CEO` hoặc người được `CEO` chỉ định bằng văn bản.
+     Việc bàn giao diễn ra ngay tại thời điểm bàn giao tài sản.
    - Lập Biên bản bàn giao con dấu và chữ ký số riêng biệt, ghi rõ số lượng con dấu, số lượng chữ ký số, tình trạng nguyên vẹn và mật khẩu quản trị.
 3. Ký xác nhận vào mục Thu hồi tài sản trên Phiếu offboarding.
 
@@ -197,7 +189,7 @@ Quy trình nghỉ việc và offboarding gồm bảy bước cụ thể:
 
 1. **Thu hồi quyền trên ngân hàng điện tử (Điểm kiểm soát `M6` và `VQ-17`):**
    - `CEO` trực tiếp đăng nhập hệ thống quản trị ngân hàng điện tử của công ty để xóa hoặc hủy kích hoạt ngay lập tức quyền của nhân sự nghỉ việc (dù là người tạo lệnh hay người xác nhận lệnh);
-   - Việc thu hồi phải hoàn tất **ngay trong ngày làm việc cuối cùng** (số ngày trễ bằng 0), theo quy định tại [[OBK-SOP-NB-03_Quan_ly_tien|OBK-SOP-NB-03]] mục 6.5.1 việc 4 và bảng rà soát `M6`.
+    - Việc thu hồi phải hoàn tất **ngay trong ngày làm việc cuối cùng** (số ngày trễ bằng 0), theo quy định tại OBK-SOP-NB-03 mục 5.5.1 việc 4 và bảng rà soát `M6`.
 2. **Khóa và thu hồi quyền thư điện tử và hệ thống công nghệ:**
    - Quản trị viên IT thực hiện:
      * Đổi mật khẩu và chuyển tiếp thư điện tử Google Workspace (`@obacker.com`) sang Quản lý trực tiếp để tiếp nhận trao đổi liên quan đến công việc;
@@ -225,13 +217,15 @@ Quy trình nghỉ việc và offboarding gồm bảy bước cụ thể:
 1. **Tính toán các khoản chi trả:**
    - `KTV` nội bộ chốt công làm việc thực tế tính đến ngày làm việc cuối cùng theo [[OBK-SOP-NB-04_Cong_va_tien_luong_noi_bo|OBK-SOP-NB-04]];
    - Tính tiền lương những ngày nghỉ hằng năm (phép năm) người lao động chưa nghỉ hoặc chưa nghỉ hết theo quy định tại khoản 3 Điều 113 Bộ luật Lao động;
-   - Tính Trợ cấp thôi việc theo Điều 46 Bộ luật Lao động và Nghị định 145/2020/NĐ-CP: mỗi năm làm việc được trợ cấp một nửa tháng tiền lương cho thời gian người lao động đã làm việc thực tế cho oBacker mà không tham gia bảo hiểm thất nghiệp (thời gian thử việc nếu không đóng bảo hiểm thất nghiệp, thời gian khác không thuộc diện tham gia bảo hiểm thất nghiệp);
+   - Tính Trợ cấp thôi việc theo Điều 46 Bộ luật Lao động và Nghị định 145/2020/NĐ-CP.
+     Mỗi năm làm việc được trợ cấp một nửa tháng tiền lương cho thời gian người lao động đã làm việc thực tế cho oBacker mà không tham gia bảo hiểm thất nghiệp.
+     Thời gian tính trợ cấp gồm thời gian thử việc nếu không đóng bảo hiểm thất nghiệp và thời gian khác không thuộc diện tham gia bảo hiểm thất nghiệp.
    - Khấu trừ các nghĩa vụ thuế thu nhập cá nhân, bảo hiểm bắt buộc của phần lương kỳ cuối.
 2. **Duyệt và thực hiện chi trả:**
    - `KTV` lập Bảng thanh toán tiền lương và trợ cấp quyết toán;
    - `KTT` soát xét và `CEO` phê duyệt bảng quyết toán;
    - Chi trả chuyển khoản dứt điểm cho người lao động.
-   - **Thời hạn thanh toán:** BẮT BUỘC hoàn thành thanh toán trong vòng **14 ngày làm việc** kể từ ngày chấm dứt hợp đồng lao động, theo đúng quy định tại [[CC-LD-28 Thanh toán các khoản trong 14 NGÀY LÀM VIỆC kể từ ngày chấm dứt|CC-LD-28]]. Chỉ được kéo dài tối đa 30 ngày trong 4 trường hợp quy định tại [[CC-LD-29 Bốn trường hợp được kéo dài nhưng KHÔNG QUÁ 30 NGÀY|CC-LD-29]].
+    - **Thời hạn thanh toán:** BẮT BUỘC hoàn thành thanh toán trong vòng **14 ngày làm việc** kể từ ngày chấm dứt hợp đồng lao động. Chỉ được kéo dài tối đa 30 ngày trong 4 trường hợp đặc biệt theo quy định.
 
 ### Bước 7: Báo giảm lao động và chốt trả sổ bảo hiểm xã hội
 
@@ -239,40 +233,41 @@ Quy trình nghỉ việc và offboarding gồm bảy bước cụ thể:
    - Ngay khi có Quyết định chấm dứt hợp đồng lao động hoặc trong kỳ kê khai bảo hiểm xã hội của tháng chấm dứt, `HR` lập hồ sơ báo giảm lao động qua phần mềm kê khai bảo hiểm xã hội điện tử;
    - Cung cấp đầy đủ căn cứ là Quyết định thôi việc hoặc Thỏa thuận chấm dứt hợp đồng lao động.
 2. **Chốt sổ bảo hiểm xã hội (Job `NB-43`):**
-   - Phối hợp với cơ quan bảo hiểm xã hội thực hiện thủ tục chốt sổ bảo hiểm xã hội, in Tờ rời xác nhận quá trình đóng bảo hiểm xã hội, bảo hiểm thất nghiệp đến thời điểm nghỉ việc theo quy định tại [[CC-LD-159 NSDLĐ phối hợp cơ quan BHXH xác nhận thời gian đóng khi NLĐ chấm dứt HĐLĐ; phối hợp trả sổ bản giấy|CC-LD-159]];
-   - Trường hợp công ty còn chậm đóng: thực hiện xác nhận thời gian đóng đến thời điểm đã đóng đủ theo [[CC-LD-158 Chưa đóng đủ, xác nhận thời gian đóng ĐẾN THỜI ĐIỂM ĐÃ ĐÓNG cho người thôi việc; thu hồi đủ thì xác nhận bổ sung|CC-LD-158]].
+   - Phối hợp với cơ quan bảo hiểm xã hội thực hiện thủ tục chốt sổ bảo hiểm xã hội.
+     In Tờ rời xác nhận quá trình đóng bảo hiểm xã hội, bảo hiểm thất nghiệp đến thời điểm nghỉ việc theo quy định tại CC-LD-159;
+   - Trường hợp công ty còn chậm đóng: thực hiện xác nhận thời gian đóng đến thời điểm đã đóng đủ theo CC-LD-158.
 3. **Bàn giao hồ sơ và giấy tờ cho người lao động:**
    - Hoàn trả bản chính sổ bảo hiểm xã hội cùng các tờ rời chốt sổ cho người lao động;
-   - Hoàn trả lại toàn bộ bản chính các văn bằng, chứng chỉ hoặc giấy tờ tùy thân khác (nếu công ty có giữ trong quá trình làm việc) theo đúng quy định tại [[CC-LD-30 NSDLĐ phải hoàn thành thủ tục xác nhận thời gian đóng BHXH, BHTN và trả lại bản chính giấy tờ đã giữ|CC-LD-30]];
+    - Hoàn trả lại toàn bộ bản chính các văn bằng, chứng chỉ hoặc giấy tờ tùy thân khác (nếu công ty có giữ trong quá trình làm việc);
    - Hai bên ký Biên bản giao nhận sổ bảo hiểm xã hội và kết thúc toàn bộ hồ sơ offboarding.
 
 ---
 
-## 7. Điểm kiểm soát bắt buộc
+## 6. Điểm kiểm soát bắt buộc
 
 | Mã chốt | Điểm kiểm soát | Thời điểm kiểm tra | Người kiểm | Xử lý khi không đạt |
 | --- | --- | --- | --- | --- |
-| `KS-OB-01` | Tính hợp pháp về thời hạn báo trước theo [[CC-LD-20 NLĐ đơn phương chấm dứt, báo trước, 45 ngày với HĐ không xác định thời hạn\|CC-LD-20]], [[CC-LD-21 NLĐ báo trước 30 ngày với HĐ xác định thời hạn từ 12 tới 36 tháng\|CC-LD-21]], [[CC-LD-24 NSDLĐ đơn phương chấm dứt, báo trước 45 ngày, 30 ngày, 03 ngày làm việc theo loại hợp đồng\|CC-LD-24]] | Khi tiếp nhận đơn xin thôi việc | `HR` | Báo cáo `CEO`; yêu cầu người lao động tuân thủ thời hạn báo trước hoặc thỏa thuận ngày thôi việc |
+| `KS-OB-01` | Tính hợp pháp về thời hạn báo trước theo CC-LD-20, CC-LD-21, CC-LD-24 | Khi tiếp nhận đơn xin thôi việc | `HR` | Báo cáo `CEO`; yêu cầu người lao động tuân thủ thời hạn báo trước hoặc thỏa thuận ngày thôi việc |
 | `KS-OB-02` | Biên bản bàn giao 100% công việc và hồ sơ khách hàng đang phụ trách | Trước ngày làm việc cuối cùng | Quản lý trực tiếp | Không ký duyệt offboarding; yêu cầu bàn giao dứt điểm tài liệu |
 | `KS-OB-03` | Thu hồi đầy đủ tài sản, con dấu và chữ ký số | Ngày làm việc cuối cùng | `AD-KT`, `CEO` | Lập biên bản bồi thường nếu thiếu hụt; giữ lại quyết toán lương tương ứng theo quy chế |
 | `KS-OB-04` | **Thu hồi quyền truy cập ngân hàng điện tử ngay trong ngày** (`VQ-17` và dòng `M6`) | Đúng ngày làm việc cuối cùng | `CEO` | **Số ngày trễ phải bằng 0 ngày.** Kiểm tra trực tiếp trên danh sách phân quyền ngân hàng |
 | `KS-OB-05` | Khóa tài khoản Google Workspace và toàn bộ hệ thống quản trị | Cuối ngày làm việc cuối cùng | Quản trị IT | Kiểm tra nhật ký khóa tài khoản; thu hồi ngay link chia sẻ dữ liệu |
 | `KS-OB-06` | Đối chiếu số dư tạm ứng về 0 hoặc có văn bản cấn trừ hợp lệ | Trước khi lập bảng quyết toán | `KTV`, `KTT` | Dừng chi trả quyết toán cho đến khi xử lý xong công nợ |
-| `KS-OB-07` | **Thanh toán tiền lương và trợ cấp trong vòng 14 ngày làm việc** theo [[CC-LD-28 Thanh toán các khoản trong 14 NGÀY LÀM VIỆC kể từ ngày chấm dứt\|CC-LD-28]] | Trước ngày làm việc thứ 14 kể từ ngày chấm dứt | `KTT`, `CEO` | Thực hiện chi trả ngay; không để vượt quá thời hạn quy định |
-| `KS-OB-08` | Chốt và trả sổ BHXH cùng toàn bộ bản chính giấy tờ theo [[CC-LD-30 NSDLĐ phải hoàn thành thủ tục xác nhận thời gian đóng BHXH, BHTN và trả lại bản chính giấy tờ đã giữ\|CC-LD-30]], [[CC-LD-159 NSDLĐ phối hợp cơ quan BHXH xác nhận thời gian đóng khi NLĐ chấm dứt HĐLĐ; phối hợp trả sổ bản giấy\|CC-LD-159]] | Ngay khi nhận được kết quả chốt sổ từ cơ quan BHXH | `HR` | Theo dõi chặt chẽ tiến độ của cơ quan BHXH; lập biên bản bàn giao có chữ ký người lao động |
+| `KS-OB-07` | **Thanh toán tiền lương và trợ cấp trong vòng 14 ngày làm việc** theo CC-LD-28 | Trước ngày làm việc thứ 14 kể từ ngày chấm dứt | `KTT`, `CEO` | Thực hiện chi trả ngay; không để vượt quá thời hạn quy định |
+| `KS-OB-08` | Chốt và trả sổ BHXH cùng toàn bộ bản chính giấy tờ theo CC-LD-30, CC-LD-159 | Ngay khi nhận được kết quả chốt sổ từ cơ quan BHXH | `HR` | Theo dõi chặt chẽ tiến độ của cơ quan BHXH; lập biên bản bàn giao có chữ ký người lao động |
 
 ---
 
-## 8. Lỗi thường gặp và cách xử lý
+## 7. Lỗi thường gặp và cách xử lý
 
 1. **Quên thu hồi quyền ngân hàng điện tử của nhân sự nghỉ việc:**
    - *Hậu quả:* Người đã thôi việc vẫn có khả năng đăng nhập tạo lệnh hoặc xác nhận lệnh chuyển tiền, tạo rủi ro tài chính đặc biệt nghiêm trọng;
-   - *Cách xử lý:* Tuân thủ nghiêm ngặt quy định tại [[OBK-SOP-NB-03_Quan_ly_tien|OBK-SOP-NB-03]] dòng `M6` và `VQ-17`. `HR` có trách nhiệm thông báo trước 24 giờ cho `CEO` để `CEO` thực hiện thu hồi tài khoản ngân hàng ngay trong ngày làm việc cuối cùng của nhân viên.
+    - *Cách xử lý:* Tuân thủ nghiêm ngặt quy định tại OBK-SOP-NB-03 dòng `M6` và `VQ-17`. `HR` có trách nhiệm thông báo trước 24 giờ cho `CEO` để `CEO` thực hiện thu hồi tài khoản ngân hàng ngay trong ngày làm việc cuối cùng của nhân viên.
 2. **Nhân viên rời đi mang theo thông tin khách hàng hoặc không bàn giao tài liệu mật:**
    - *Hậu quả:* Mất liên lạc với khách hàng, lộ bí mật kinh doanh, vi phạm cam kết bảo vệ dữ liệu với khách hàng;
    - *Cách xử lý:* Áp dụng Thỏa thuận bảo mật thông tin (NDA) đã ký tại Ngày 1. Quản lý trực tiếp phải trực tiếp rà soát và tiếp nhận 100% hồ sơ, phân quyền trước khi ký xác nhận vào Phiếu offboarding.
 3. **Chi trả tiền lương quyết toán vượt quá thời hạn 14 ngày làm việc:**
-   - *Hậu quả:* Vi phạm quy định tại [[CC-LD-28 Thanh toán các khoản trong 14 NGÀY LÀM VIỆC kể từ ngày chấm dứt|CC-LD-28]], dễ dẫn đến khiếu nại, tranh chấp lao động và bị phạt vi phạm hành chính;
+    - *Hậu quả:* Vượt thời hạn thanh toán quyết toán 14 ngày làm việc kể từ ngày chấm dứt hợp đồng lao động, dễ dẫn đến khiếu nại, tranh chấp lao động và bị phạt vi phạm hành chính;
    - *Cách xử lý:* Bộ phận kế toán đưa khoản quyết toán vào danh sách chi ưu tiên; hoàn thành tính toán trong vòng 05 ngày làm việc đầu tiên sau khi nhân viên nghỉ việc để kịp trình duyệt và chi trả trước ngày thứ 14.
 4. **Không thu hồi đủ thiết bị hoặc không trừ công nợ tạm ứng trước khi chuyển lương cuối:**
    - *Hậu quả:* Công ty phải chịu thất thoát tài sản, nợ khó đòi kéo dài;
@@ -280,7 +275,7 @@ Quy trình nghỉ việc và offboarding gồm bảy bước cụ thể:
 
 ---
 
-## 9. Đầu ra và nơi lưu
+## 8. Đầu ra và nơi lưu
 
 | Sản phẩm đầu ra | Định dạng | Trách nhiệm lưu trữ | Nơi lưu trữ | Thời hạn lưu trữ |
 | --- | --- | --- | --- | --- |
@@ -295,7 +290,7 @@ Quy trình nghỉ việc và offboarding gồm bảy bước cụ thể:
 
 ---
 
-## 10. Chỉ số theo dõi
+## 9. Chỉ số theo dõi
 
 | Mã chỉ số | Tên chỉ số | Cách đo lường | Mục tiêu | Tần suất | Người theo dõi |
 | --- | --- | --- | --- | --- | --- |
@@ -304,6 +299,32 @@ Quy trình nghỉ việc và offboarding gồm bảy bước cụ thể:
 | `OB-M03` | Tỷ lệ hoàn tất Phiếu kiểm tra offboarding trước khi rời công ty | Số nhân sự ký đủ Phiếu kiểm tra / Tổng số nhân sự nghỉ việc x 100% | **100%** | Hằng tháng | `HR` |
 | `OB-M04` | Tỷ lệ thu hồi đầy đủ tài sản và CCDC | Số tài sản thu hồi đầy đủ / Tổng tài sản đã cấp phát x 100% | **100%** | Hằng tháng | `AD-KT` |
 | `OB-M05` | Thời gian hoàn thành chốt và trả sổ BHXH | Số ngày làm việc từ khi chấm dứt HĐLĐ đến khi trả sổ BHXH | $\le 30$ ngày | Hằng tháng | `HR` |
+
+---
+
+## VÍ DỤ
+
+Nhân viên A làm việc theo hợp đồng lao động không xác định thời hạn nộp đơn xin thôi việc báo trước 45 ngày. `HR` kiểm tra thời hạn báo trước, tổ chức buổi trao đổi tìm hiểu nguyên nhân nghỉ việc, trình `CEO` phê duyệt và phát hành Phiếu theo dõi offboarding (`BM-OFFBOARDING`).
+
+Quản lý trực tiếp ghi ý kiến về việc bàn giao, chỉ định người nhận bàn giao và ký Biên bản bàn giao công việc cùng hồ sơ khách hàng với nhân viên A trước ngày làm việc cuối cùng. Vào ngày làm việc cuối cùng, nhân viên A hoàn trả thiết bị, thẻ ra vào và bàn giao con dấu, chữ ký số cho `CEO`. `CEO` thu hồi quyền tạo và xác nhận lệnh trên hệ thống ngân hàng điện tử ngay trong ngày. Quản trị hệ thống IT khóa tài khoản thư điện tử và các hệ thống quản trị.
+
+Trong 05 ngày làm việc đầu tiên sau khi nhân viên A nghỉ việc, `KTV` nội bộ tính toán bảng quyết toán gồm tiền lương các ngày làm việc thực tế, tiền lương những ngày phép chưa nghỉ và trợ cấp thôi việc theo Điều 46 Bộ luật Lao động. Trong 14 ngày làm việc kể từ ngày chấm dứt, oBacker chi trả dứt điểm cho nhân viên A bằng chuyển khoản. `HR` lập hồ sơ báo giảm bảo hiểm xã hội (Job `NB-41`) và, khi nhận được kết quả chốt sổ từ cơ quan bảo hiểm xã hội, bàn giao bản chính sổ bảo hiểm xã hội cùng tờ rời cho nhân viên A (Job `NB-43`).
+
+---
+
+## TRƯỜNG HỢP PHÁT SINH
+
+| Nếu | Thì |
+| --- | --- |
+| Người sử dụng lao động đơn phương chấm dứt hợp đồng | Tuân thủ thời hạn báo trước tương ứng theo CC-LD-24, trừ trường hợp không phải báo trước theo điểm d và điểm đ khoản 1 Điều 36 Bộ luật Lao động |
+| Hai bên thỏa thuận chấm dứt hợp đồng | Hai bên thống nhất ngày chấm dứt bằng văn bản theo Điều 34 khoản 3 Bộ luật Lao động |
+| Đơn xin nghỉ việc không đúng thời hạn báo trước theo quy định | Báo cáo `CEO`; yêu cầu người lao động tuân thủ thời hạn báo trước hoặc thỏa thuận ngày thôi việc |
+| Chưa bàn giao 100% công việc và hồ sơ khách hàng | Không ký duyệt offboarding; yêu cầu bàn giao dứt điểm tài liệu |
+| Nhân viên nghỉ việc chưa bàn giao tài liệu mật | Quản lý trực tiếp rà soát và tiếp nhận 100% hồ sơ, phân quyền trước khi ký xác nhận vào Phiếu offboarding; áp dụng Thỏa thuận bảo mật thông tin (NDA) đã ký tại Ngày 1 |
+| Tài sản bị mất hoặc hư hỏng do lỗi chủ quan của người lao động | Lập biên bản ghi nhận mức độ hư hỏng và tính mức bồi thường thiệt hại theo Điều 129 Bộ luật Lao động và [[OBK-SOP-NB-08_Quan_ly_tai_san_va_cong_cu_dung_cu\|OBK-SOP-NB-08]]; `AD-KT` không ký xác nhận hoàn tất tài sản |
+| Còn công nợ tạm ứng chưa hoàn ứng | Người lao động nộp chứng từ chi hợp lệ để hoàn ứng, hoàn trả số tiền thừa, hoặc cấn trừ hợp pháp vào tiền lương quyết toán khi có văn bản đồng ý; `KTV` không phê duyệt thanh toán khi Phiếu offboarding chưa đủ chữ ký |
+| Thanh toán quyết toán chậm quá 14 ngày làm việc | Vi phạm CC-LD-28; bộ phận kế toán đưa khoản quyết toán vào danh sách chi ưu tiên và hoàn thành tính toán trong 05 ngày làm việc đầu tiên để kịp chi trả |
+| Công ty còn chậm đóng bảo hiểm xã hội | Xác nhận thời gian đóng đến thời điểm đã đóng đủ theo CC-LD-158 |
 
 ---
 
@@ -321,4 +342,5 @@ Quy trình nghỉ việc và offboarding gồm bảy bước cụ thể:
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 30/09/2026 | R.1.2.0 | Them cau dan chieu quy tac uy quyen khi nguoi phe duyet nghi viec vang, muc 8.1 cua NB-00, cuoi bang phan quyen muc 4 |
+| 04/10/2026 | R.1.2.1 | Chuẩn hóa tiêu đề callout cảnh báo mở đầu, bỏ số đếm và chuyển sang văn phong hành chính |

@@ -4,19 +4,15 @@ code: "MK-01"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-TTT-05 Cách làm phiếu thao tác"
-law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - MK-01
 tags:
@@ -29,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | MK-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -40,6 +36,7 @@ tags:
 | **Ai dùng** | Chuyên viên Marketing (`MKT Executive`), Giám đốc marketing (`CMO`), Chuyên viên Quản lý khách hàng (`AM`), Trưởng phòng Thương mại, Giám đốc vận hành (`COO`) và Tổng Giám đốc (`CEO`) |
 | **Sinh từ** | [[13_OBK-SOP-MK_Marketing_va_phat_trien_nguon_khach_hang\|OBK-SOP-MK]]; [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]]; [[KH-01_So_quan_tri_khach_hang_va_dich_vu_crm\|KH-01]] |
 | **Ngày làm phiếu** | 27/09/2026 |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
@@ -102,7 +99,7 @@ Biểu mẫu được dùng trong ba mục đích quản trị:
 
 ### 1. Nguyên tắc đối soát chi phí thực tế
 
-1. Chi phí tiếp thị ghi nhận trên bảng `MK-01` phải được đối soát định kỳ hàng tháng với sổ theo dõi của `KTT nội bộ` theo [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo|OBK-SOP-NB-00]].
+1. Chi phí tiếp thị ghi nhận trên bảng `MK-01` phải được đối soát định kỳ hàng tháng với sổ theo dõi của `KTT nội bộ` theo OBK-SOP-NB-00.
 2. Thành phần chi phí tính chỉ số CAC bao gồm: Chi phí quảng cáo trực tiếp trên các nền tảng số; chi phí thuê ngoài thiết kế hoặc sản xuất tài liệu; chi phí thuê địa điểm tổ chức hội thảo; chi phí bản quyền công cụ tiếp thị trực tiếp phục vụ chiến dịch. Không phân bổ chi phí lương nhân sự cố định vào CAC chiến dịch đơn lẻ.
 3. Toàn bộ hóa đơn, chứng từ phát sinh chi phí tiếp thị phải có đầy đủ chứng từ thanh toán không dùng tiền mặt và hóa đơn hợp pháp theo quy định pháp luật.
 
@@ -131,4 +128,4 @@ Biểu mẫu được dùng trong ba mục đích quản trị:
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu MK-01 về Sổ cái OBK-MSR |

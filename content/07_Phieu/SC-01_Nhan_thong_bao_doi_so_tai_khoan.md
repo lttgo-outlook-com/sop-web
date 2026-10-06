@@ -4,19 +4,15 @@ code: "SC-01"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-TTT-05 Cách làm phiếu thao tác"
-law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - SC-01
 tags:
@@ -29,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | SC-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -38,9 +34,10 @@ tags:
 | **Mã phiếu** | SC-01 |
 | **Màu** | ĐỎ, phiếu sự cố |
 | **Ai dùng** | Ai nhận được thông báo thì người đó mở phiếu |
-| **Sinh từ** | `02_NoiBo/OBK-SOP-NB-01` mục 6.4.2 |
+| **Sinh từ** | `02_NoiBo/OBK-SOP-NB-01` mục 5.4.2 |
 | **Quan hệ với biểu mẫu** | Phiếu này không thay biểu mẫu.<br>Ghi nhận kết quả vào **BM-05 Phiếu xác minh nhà cung cấp**, phần xác minh khi đổi số tài khoản |
 | **Ngày làm phiếu** | 04/09/2026 |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
@@ -83,19 +80,10 @@ Gọi vào số gốc trong hồ sơ, hỏi đúng ba câu:
 
 Đây là kịch bản duy nhất trong toàn bộ quy trình mua sắm và thanh toán mà hậu quả không đảo ngược được. Mọi lỗi khác đều sửa được bằng bút toán điều chỉnh hoặc khai bổ sung.
 
-### 2. Căn cứ quy định và pháp luật liên quan
-
-| Nguồn | Nội dung |
-| --- | --- |
-| [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] mục 6.4.2 | Bắt buộc xác minh bằng cuộc gọi tới số điện thoại đã lưu trong hồ sơ từ trước |
-| [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] mục 6.4.3 | Danh mục nhà cung cấp là nguồn duy nhất để lập lệnh chi |
-| [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] mục 6.5.5 | Bốn điều kiện để lệnh chi được thực hiện, gồm điều kiện số tài khoản trùng danh mục |
-| [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] mục 7 chốt `K2` và `K11` | Xác minh nhà cung cấp trước lần chi đầu;<br>số tài khoản người nhận khớp danh mục |
-| `PL_BM` mục BM-05 | Biểu mẫu ghi nhận kết quả xác minh |
 
 ## Con số của phiếu này lấy ở đâu
 
-Ngưỡng phải chuyển thử một khoản nhỏ trước là **từ 10.000.000 đồng trở lên**, đặt tại [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]] mục 6.4.2. Phiếu này không tự đặt ngưỡng riêng.
+Ngưỡng phải chuyển thử một khoản nhỏ trước là **từ 10.000.000 đồng trở lên**, đặt tại OBK-SOP-NB-01 mục 5.4.2. Phiếu này không tự đặt ngưỡng riêng.
 
 ---
 
@@ -103,4 +91,4 @@ Ngưỡng phải chuyển thử một khoản nhỏ trước là **từ 10.000.0
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu SC-01 về Sổ cái OBK-MSR |

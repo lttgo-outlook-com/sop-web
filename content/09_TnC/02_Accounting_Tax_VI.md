@@ -2,7 +2,7 @@
 title: "ĐIỀU KHOẢN DỊCH VỤ KẾ TOÁN & THUẾ (PL-KT)"
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.1.1"
+version: "R.2.3.0"
 status: "đang áp dụng"
 language: "vi"
 distribution: "Khách hàng"
@@ -16,11 +16,11 @@ tags:
 *Điều Khoản Dịch Vụ Cụ Thể, bộ phận không tách rời của Bản Điều Khoản Chung; Công ty Cổ phần oBacker*
 MST: 0402298185 · Tầng 2, 06 Trần Phú, Phường Hải Châu, Thành phố Đà Nẵng · contact@obacker.com
 
-**Phiên bản:** R.1.1.1 (VI-EN) · **Cập nhật:** 01/10/2026
+**Phiên bản:** R.2.3.0 (VI-EN) · **Cập nhật:** 02/10/2026
 
 > Tài liệu này là Điều Khoản Dịch Vụ Cụ Thể cho Dịch Vụ Kế toán & Thuế ("**Dịch Vụ**"), gồm hai hợp phần: (A) Kế toán và (B) Thuế doanh nghiệp (GTGT, TNDN, thuế nhà thầu nước ngoài (FCT), hóa đơn điện tử). Tài liệu áp dụng khi Dịch Vụ được ghi tại Đơn Đặt Hàng. **Nếu tài liệu này khác với Bản Điều Khoản Chung, tài liệu này được ưu tiên áp dụng đối với Dịch Vụ.**
 >
-> **Phân định:** Kê khai và quyết toán **thuế TNCN từ tiền lương**, đăng ký người phụ thuộc và chứng từ khấu trừ TNCN cho người lao động thuộc **Dịch Vụ Nhân Sự (PL-NS)**. Tư vấn và tối ưu thuế thuộc **Dịch Vụ Pháp Lý (PL-PL)**.
+> **Phân định:** Khấu trừ và kê khai **thuế TNCN từ tiền lương** theo kỳ thuộc **Dịch Vụ Kế toán (PL-KT)**; quyết toán TNCN năm, đăng ký người phụ thuộc và chứng từ khấu trừ TNCN cho người lao động thuộc **Dịch Vụ Nhân Sự (PL-NS)**. Tư vấn và tối ưu thuế thuộc **Dịch Vụ Pháp Lý (PL-PL)**.
 
 ---
 
@@ -71,11 +71,11 @@ Ngưỡng Giao Dịch/tháng theo gói được ghi tại Đơn Đặt Hàng. Kh
 - Theo dõi và thông báo nghĩa vụ thuế cùng thời hạn nộp cho Quý Khách
 - Hỗ trợ giải trình số liệu đã xử lý khi cơ quan thuế kiểm tra, trong phạm vi ủy quyền hợp lệ.
 
-> **Phân định TNCN:** TNCN **từ tiền lương** của người lao động có hợp đồng lao động (khấu trừ lũy tiến), đăng ký người phụ thuộc, chứng từ khấu trừ cho người lao động và **quyết toán TNCN năm** thuộc **Dịch Vụ Nhân Sự (PL-NS)**. TNCN **vãng lai** chi cho cá nhân ngoài bảng lương (CTV, freelancer, thuê tài sản cá nhân) thuộc **PL-KT** (điểm trên).
+> **Phân định TNCN tiền lương:** TNCN **từ tiền lương** của người lao động có hợp đồng lao động (khấu trừ lũy tiến) tách thành hai đầu việc. **Khấu trừ và kê khai thuế TNCN theo kỳ** thuộc **Dịch Vụ Kế toán (PL-KT)**. **Quyết toán TNCN năm**, đăng ký người phụ thuộc và chứng từ khấu trừ cho người lao động thuộc **Dịch Vụ Nhân Sự (PL-NS)**. TNCN **vãng lai** chi cho cá nhân ngoài bảng lương (CTV, freelancer, thuê tài sản cá nhân) thuộc **PL-KT** (điểm trên).
 >
 > **Lưu ý ranh giới:** CTV/freelancer làm việc thường xuyên từ đủ 01 tháng trở lên, đều đặn và có tính chất lao động có thể bị cơ quan BHXH xác định là quan hệ lao động và truy thu BHXH; khi đó chuyển sang nhân viên và các nghĩa vụ liên quan chuyển về PL-NS. oBacker khuyến nghị Quý Khách chuyển sang hợp đồng lao động chính thức trong trường hợp này.
 
-**3.2. Kê khai thuế nhà thầu (FCT); định mức tích hợp trong gói.** Việc kê khai FCT khi Quý Khách thanh toán cho nhà cung cấp nước ngoài (phần mềm dịch vụ SaaS, quảng cáo trực tuyến, lưu trữ web, tên miền, mạng phân phối nội dung, bản quyền, freelancer hoặc đơn vị dịch vụ nước ngoài…) được **tích hợp trong tất cả các gói đối tác định kỳ, kể cả gói Partner Core, với định mức tối đa 03 hợp đồng nhà thầu nước ngoài phát sinh mỗi tháng**. Từ hợp đồng thứ tư trở đi trong cùng một tháng, oBacker áp dụng phụ thu kê khai theo danh mục dịch vụ chuẩn hóa (mã ADD-FCT-RETURN). Cơ sở pháp lý: **Thông tư 69/2025/TT-BTC** Điều 9 (thuế giá trị gia tăng) và **Thông tư 20/2026/TT-BTC** Điều 7 (thuế thu nhập doanh nghiệp).
+**3.2. Kê khai thuế nhà thầu (FCT); định mức tích hợp trong gói.** Việc kê khai FCT khi Quý Khách thanh toán cho nhà cung cấp nước ngoài (phần mềm dịch vụ SaaS, quảng cáo trực tuyến, lưu trữ web, tên miền, mạng phân phối nội dung, bản quyền, freelancer hoặc đơn vị dịch vụ nước ngoài…) được **tích hợp trong tất cả các gói đối tác định kỳ, với định mức theo gói: Partner Core tối đa 01 hợp đồng nhà thầu nước ngoài phát sinh mỗi tháng; Partner Growth và Partner Prime tối đa 03 hợp đồng mỗi tháng**. Từ hợp đồng vượt định mức của gói trong cùng một tháng, oBacker áp dụng phụ thu kê khai theo danh mục dịch vụ chuẩn hóa (mã ADD-FCT-RETURN-2026). Cơ sở pháp lý: **Thông tư 69/2025/TT-BTC** Điều 9 (thuế giá trị gia tăng) và **Thông tư 20/2026/TT-BTC** Điều 7 (thuế thu nhập doanh nghiệp).
 
 Quý Khách có nghĩa vụ **thông báo ngay** cho oBacker qua người phụ trách tài khoản hoặc email contact@obacker.com khi phát sinh giao dịch thanh toán nước ngoài (quẹt thẻ tín dụng/ghi nợ, chuyển khoản quốc tế, cổng trung gian như Stripe/PayPal/Wise), kèm hóa đơn/biên nhận, chứng từ thanh toán và mô tả dịch vụ. Hóa đơn cần ghi đúng mã số thuế và địa chỉ công ty Việt Nam.
 
@@ -176,7 +176,7 @@ Hai phương thức kê khai FCT (Quý Khách chọn):
 
 **(c) Lỗi hỗn hợp:** hai Bên làm rõ và phân chia theo tỷ lệ lỗi.
 
-Cơ sở pháp lý về xử phạt tham chiếu: Nghị định 125/2020/NĐ-CP (thuế, hóa đơn).
+Cơ sở pháp lý về xử phạt tham chiếu: Nghị định 125/2020/NĐ-CP (thuế, hóa đơn), đã được sửa đổi, bổ sung bởi Nghị định 291/2026/NĐ-CP; nội dung hiện hành theo văn bản hợp nhất 27/2026/VBHN-NĐ-BTC.
 
 ## Điều 9. Chấm dứt và bàn giao
 
@@ -187,12 +187,12 @@ Mỗi Bên có thể chấm dứt Dịch Vụ bằng thông báo trước tối 
 Phí Dịch Vụ được xác định theo Đơn Đặt Hàng (theo gói đối tác hoặc theo số lượng Giao Dịch thực tế). Chi tiết các cơ chế tính phí, định mức và phụ thu bao gồm:
 
 **10.1. Chính sách sử dụng hợp lý (FUP) và biểu phí vượt định mức:**
-- Hạn mức Giao Dịch: Partner Core (50 Giao Dịch/tháng), Partner Growth (300 Giao Dịch/tháng), Partner Prime (1.500 Giao Dịch/tháng).
-- Cơ chế khối phụ trội gói Growth: Vượt 300 Giao Dịch áp dụng phụ thu theo khối: khối 500 Giao Dịch (mã `ADD-TXN-BLOCK-500`, 2.500.000đ/tháng), khối 1.000 Giao Dịch (mã `ADD-TXN-BLOCK-1000`, 5.000.000đ/tháng), khối 1.500 Giao Dịch (mã `ADD-TXN-BLOCK-1500`, 7.500.000đ/tháng). Mức tối đa gói Growth là 1.500 Giao Dịch/tháng; vượt mức này bắt buộc chuyển đổi sang Partner Prime.
+- Hạn mức Giao Dịch: Partner Core (50 Giao Dịch/tháng; doanh nghiệp FDI là 100 Giao Dịch/tháng), Partner Growth (300 Giao Dịch/tháng), Partner Prime (1.500 Giao Dịch/tháng). Vượt 100 Giao Dịch/tháng của Partner Core - FDI áp dụng phụ thu theo khối theo cơ chế khối phụ trội bên dưới.
+- Cơ chế khối phụ trội: Vượt hạn mức áp dụng phụ thu theo khối: khối 500 Giao Dịch (mã `ADD-TXN-BLOCK-500-2026`, 2.500.000đ/tháng), khối 1.000 Giao Dịch (mã `ADD-TXN-BLOCK-1000-2026`, 5.000.000đ/tháng), khối 1.500 Giao Dịch (mã `ADD-TXN-BLOCK-1500-2026`, 7.500.000đ/tháng). Mức tối đa gói Growth là 1.500 Giao Dịch/tháng; vượt mức này bắt buộc chuyển đổi sang Partner Prime.
 - Gói Partner Prime: Hạn mức tiêu chuẩn 1.500 Giao Dịch/tháng; khối lượng vượt trên 1.500 Giao Dịch áp dụng đơn giá 15.000đ/Giao Dịch (mã `ADD-TXN-PRIME-OVER`).
-- Tài khoản ngân hàng: Core (02 tài khoản), Growth (05 tài khoản). Phụ phí từ tài khoản thứ 3 (Core) hoặc thứ 6 (Growth) là 300.000đ/tài khoản/tháng (mã `ADD-BANK-ACC`).
-- Kê khai FCT ngoài định mức: 1.500.000đ/hồ sơ (mã `ADD-FCT-RETURN`).
-- Hỗ trợ thanh tra thuế tại trụ sở doanh nghiệp: 2.000.000đ/ngày làm việc (mã `ADD-TAX-INSPECT`).
+- Tài khoản ngân hàng: Core (02 tài khoản), Growth (05 tài khoản). Phụ phí từ tài khoản thứ 3 (Core) hoặc thứ 6 (Growth) là 200.000đ/tài khoản/tháng (mã `ADD-BANK-ACC-2026`).
+- Kê khai FCT ngoài định mức: 1.000.000đ/hồ sơ (mã `ADD-FCT-RETURN-2026`).
+- Hỗ trợ thanh tra thuế tại trụ sở doanh nghiệp: 2.500.000đ/ngày làm việc (mã `ADD-TAX-INSPECT-2026`); Quý Khách thông báo và thanh toán trước theo ước lượng ít nhất 03 ngày, đối soát theo số ngày thực tế.
 - Đối soát hàng tháng (Post-billing): Chốt số liệu vào ngày 05 hàng tháng; cảnh báo sớm khi sản lượng đạt 80% định mức trong tháng; xuất hóa đơn phụ thu gộp vào kỳ tiếp theo hoặc thanh toán trong 07 ngày làm việc.
 
 **10.2. Rà soát sức khỏe và khắc phục sổ sách kế toán quá khứ:**
@@ -202,6 +202,14 @@ Phí Dịch Vụ được xác định theo Đơn Đặt Hàng (theo gói đối
 **10.3. Cam kết thời hạn Quý 4 và hạn thanh toán đợt 2 trước 15/03:**
 - Hợp đồng ký mới trong Quý 4 bắt buộc cam kết thời hạn tối thiểu 05 quý (đến hết 31/12 năm sau). Chấm dứt trước hạn bồi hoàn 03 tháng phí dịch vụ tương đương chi phí lập BCTC năm trước.
 - Phí BCTC và quyết toán năm chia 02 đợt (đợt 1 cùng Quý 4, đợt 2 trước 15/03 năm sau). Chậm thanh toán đợt 2 sau 15/03, oBacker tạm dừng nộp hồ sơ quyết toán; Quý Khách tự chịu phạt chậm nộp.
+
+**10.4. Áp dụng giá và mã phụ thu mới (chuyển tiếp từ 05/10/2026):**
+- Kể từ ngày 05/10/2026: phụ thu mở rộng định mức giao dịch dùng mã mới `ADD-TXN-BLOCK-500-2026`, `ADD-TXN-BLOCK-1000-2026`, `ADD-TXN-BLOCK-1500-2026` thay cho mã cũ `ADD-TXN-BLOCK-500`, `ADD-TXN-BLOCK-1000`, `ADD-TXN-BLOCK-1500` (giá không đổi); định mức giao dịch của Partner Core cho doanh nghiệp FDI là 100 Giao Dịch/tháng.
+- Kể từ ngày 05/10/2026: hỗ trợ thanh tra thuế tại trụ sở dùng mã mới `ADD-TAX-INSPECT-2026`, đơn giá 2.500.000đ/ngày làm việc, thay cho mã cũ `ADD-TAX-INSPECT` theo kỳ.
+- Kể từ ngày 05/10/2026: phụ phí tài khoản ngân hàng ngoài định mức dùng mã mới `ADD-BANK-ACC-2026` (200.000đ/tài khoản/tháng), thay cho mã cũ `ADD-BANK-ACC`; kê khai FCT ngoài định mức dùng mã mới `ADD-FCT-RETURN-2026` (1.000.000đ/hồ sơ), thay cho mã cũ `ADD-FCT-RETURN`.
+- Khách hiện tại (hợp đồng đang có hiệu lực trước ngày 05/10/2026): áp dụng giá và mã phụ thu đã ghi trong hợp đồng hoặc báo giá của khách đó đến hết ngày 31/03/2027; từ kỳ thu tiền bắt đầu từ ngày 01/04/2027, áp dụng giá và mã tại mục 10.1 và mục này.
+- Báo giá đã gửi: báo giá còn trong thời hạn hiệu lực giữ nguyên giá đã báo. Báo giá đã hết hạn hiệu lực mà Quý Khách yêu cầu báo giá lại từ ngày 05/10/2026: áp dụng giá tại mục 10.1 và mục này, giảm 35%.
+- Phụ thu thu theo kỳ tính theo kỳ phát sinh; phụ thu theo ngày tính theo số ngày làm việc thực tế chuyên viên tham gia.
 
 ---
 
@@ -217,4 +225,5 @@ Phí Dịch Vụ được xác định theo Đơn Đặt Hàng (theo gói đối
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.1.1 | Đổi từ ngữ: cách gọi định mức tối đa gói Growth (Điều 10) viết lại bằng 'mức tối đa'; từ tiếng Anh gọi tệp làm việc (Điều 7) đổi thành 'tệp làm việc' |
+| 02/10/2026 | R.2.3.0 | Điều 8: bổ sung căn cứ xử phạt, ghi rõ Nghị định 125/2020/NĐ-CP đã được sửa đổi, bổ sung bởi Nghị định 291/2026/NĐ-CP; nội dung hiện hành theo văn bản hợp nhất 27/2026/VBHN-NĐ-BTC |
+

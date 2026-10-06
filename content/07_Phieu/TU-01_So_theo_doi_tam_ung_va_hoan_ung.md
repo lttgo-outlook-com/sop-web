@@ -4,19 +4,15 @@ code: "TU-01"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-TTT-05 Cách làm phiếu thao tác"
-law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - TU-01
 tags:
@@ -29,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | TU-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -40,6 +36,7 @@ tags:
 | **Ai dùng** | `KTV`, `AD-KT`, Quản lý trực tiếp (`TL`), `KTT` |
 | **Sinh từ** | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 36, Điều 37, Điều 38;<br>[[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] Luồng C |
 | **Ngày làm phiếu** | 27/09/2026 |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
@@ -54,7 +51,7 @@ Căn cứ quy định tại Điều 36 [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OB
 2. Mức tối đa cho một khoản tạm ứng là **10.000.000 đồng** theo định mức ĐM-19. Mọi đề xuất tạm ứng vượt mức 10.000.000 đồng bắt buộc phải do `CEO` phê duyệt bằng văn bản.
 3. Một người lao động không được có quá **03 khoản tạm ứng** chưa hoàn tất thủ tục tất toán. Đề nghị tạm ứng thứ tư bị hệ thống từ chối cho đến khi hoàn ứng xong các khoản trước đó.
 4. Tiền tạm ứng được chuyển khoản trực tiếp vào tài khoản ngân hàng chính chủ của người đề nghị. Chỉ chi tiền mặt đối với các khoản dưới mức tối đa chi tiền mặt theo quy chế tài chính (ít hơn 05 triệu đồng).
-5. Phân định hạch toán theo Thông tư 99/2025/TT-BTC và [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]] Điều 6.6a: Tạm ứng thực hiện nhiệm vụ công tác, mua sắm hạch toán vào bên Nợ Tài khoản 141; riêng khoản tạm ứng tiền lương theo đợt thực hiện theo biểu mẫu `BM-08` và hạch toán vào bên Nợ Tài khoản 334, thu hồi bằng cách trừ vào tiền lương thực lĩnh của kỳ.
+5. Phân định hạch toán theo OBK-QCTC-03 Điều 6.6a: Tạm ứng thực hiện nhiệm vụ công tác, mua sắm hạch toán vào bên Nợ Tài khoản 141; riêng khoản tạm ứng tiền lương theo đợt thực hiện theo biểu mẫu `BM-08` và hạch toán vào bên Nợ Tài khoản 334, thu hồi bằng cách trừ vào tiền lương thực lĩnh của kỳ.
 
 ## KHUÔN SỔ THEO DÕI TẠM ỨNG VÀ HOÀN ỨNG
 
@@ -79,7 +76,7 @@ Bảng theo dõi gồm các trường thông tin chuẩn hóa:
 
 ## THỜI HẠN HOÀN ỨNG QUY ĐỊNH
 
-Căn cứ quy định tại Điều 37 [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]], thời hạn hoàn ứng được xác định cụ thể theo từng loại hình công việc:
+Căn cứ OBK-QCTC-01 Điều 37, thời hạn hoàn ứng được xác định cụ thể theo từng loại hình công việc:
 
 | Loại tạm ứng | Thời hạn hoàn ứng bắt buộc | Điểm bắt đầu tính thời hạn |
 | --- | --- | --- |
@@ -121,7 +118,7 @@ Toàn bộ các khoản tạm ứng phát sinh trong tháng 12 hằng năm bắt
 
 Theo quy định tại Điều 102 khoản 1 và Điều 127 khoản 2 Bộ luật Lao động 2019, người sử dụng lao động không được tự ý thực hiện khấu trừ tiền lương đơn phương để thu hồi khoản nợ tạm ứng khi chưa có căn cứ luật định hoặc chưa có văn bản đồng thuận của người lao động. 
 
-Nhằm bảo đảm tính tuân thủ pháp luật lao động và bảo toàn tài chính công ty, cơ chế xử lý khoản tạm ứng quá hạn được áp dụng theo trình tự 4 bước quy định tại Điều 38 [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]]:
+Nhằm bảo đảm tính tuân thủ pháp luật lao động và bảo toàn tài chính công ty, cơ chế xử lý khoản tạm ứng quá hạn được áp dụng theo trình tự 4 bước theo OBK-QCTC-01 Điều 38:
 
 1. **Người lao động tự giác chuyển trả (Biện pháp ưu tiên):** `KTV` phát hành thông báo số dư nợ quá hạn kèm thời hạn chuyển trả cụ thể. Người lao động tự giác thực hiện lệnh chuyển khoản hoàn trả toàn bộ số tiền chưa quyết toán vào tài khoản ngân hàng của oBacker.
 2. **Ký văn bản thỏa thuận hoàn trả riêng:** Trường hợp người lao động chưa thể hoàn trả một lần, `KTV` phối hợp `HR` lập Văn bản thỏa thuận hoàn trả nợ tạm ứng giữa oBacker và người lao động. Văn bản ghi rõ số tiền nợ, phương thức chi trả và tiến độ trừ dần vào các kỳ thu nhập có sự đồng thuận tự nguyện bằng văn bản của người lao động.
@@ -159,15 +156,6 @@ Sổ theo dõi tạm ứng được `KTV` duy trì và cập nhật liên tục.
 
 Hoạt động tạm ứng là nghiệp vụ cần thiết để đáp ứng các nhu cầu mua sắm và chi phí công tác phục vụ hoạt động sản xuất kinh doanh. Tuy nhiên, việc thiếu theo dõi chặt chẽ dễ dẫn đến tình trạng chiếm dụng vốn công ty, chậm trễ hoàn chứng từ làm mất quyền khấu trừ thuế giá trị gia tăng đầu vào và chi phí được trừ khi quyết toán thuế thu nhập doanh nghiệp. Sổ theo dõi TU-01 thiết lập kỷ luật hoàn ứng trong thời hạn 05 ngày làm việc và xác lập quy trình xử lý thu hồi nợ chặt chẽ, tuân thủ đúng quy định pháp luật lao động.
 
-### 2. Căn cứ quy định và pháp luật liên quan
-
-| Mục | Căn cứ | Nội dung trích dẫn hoặc áp dụng |
-| --- | --- | --- |
-| Quy chế tài chính | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 36, Điều 37, Điều 38 | Điều kiện tạm ứng, thời hạn hoàn ứng và chế tài xử lý nợ quá hạn |
-| Quy trình mua sắm | [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] Luồng C | Trình tự phê duyệt dự toán tạm ứng và hồ sơ thanh toán hoàn ứng |
-| Bộ luật Lao động | Bộ luật Lao động số 45/2019/QH14 Điều 102 và Điều 127 | Quy định về giới hạn quyền khấu trừ tiền lương và các hành vi bị cấm khi xử lý kỷ luật |
-| Thanh toán chấm dứt HĐLĐ | Bộ luật Lao động số 45/2019/QH14 Điều 48 khoản 1 | Trách nhiệm thanh toán đầy đủ các khoản tiền liên quan đến quyền lợi của mỗi bên khi chấm dứt hợp đồng |
-| Chế độ kế toán doanh nghiệp | Thông tư số 99/2025/TT-BTC Tài khoản 141 | Nguyên tắc hạch toán và theo dõi chi tiết từng đối tượng tạm ứng |
 
 ---
 
@@ -175,4 +163,4 @@ Hoạt động tạm ứng là nghiệp vụ cần thiết để đáp ứng cá
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu TU-01 về Sổ cái OBK-MSR |

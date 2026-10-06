@@ -4,19 +4,15 @@ code: "UE-01"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-TTT-05 Cách làm phiếu thao tác"
-law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - UE-01
 tags:
@@ -29,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | UE-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -40,6 +36,7 @@ tags:
 | **Ai dùng** | `KTV`, `KTT`, `AM`, `PM`, `COO`, `CEO` |
 | **Sinh từ** | [[08_OBK-SOP-PM_Chuong_trinh_doi_tac_gioi_thieu_khach_hang\|OBK-SOP-PM]];<br>[[HH-02_Phieu_bao_cao_hoa_hong_thang\|HH-02]];<br>[[TC-01_Bang_theo_doi_dong_tien_va_suc_khoe_tai_chinh\|TC-01]];<br>[[DT-02_So_theo_doi_doanh_thu_tra_truoc_va_phan_bo\|DT-02]];<br>[[KH-01_So_quan_tri_khach_hang_va_dich_vu_crm\|KH-01]];<br>[[CK-02_Theo_doi_kho_token_va_kich_hoat_cyberx\|CK-02]];<br>[[MT-01_Ma_tran_lien_ket_luong_nghiep_vu_cheo_va_kich_hoat_tu_dong\|MT-01]];<br>[[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 23a;<br>Thông tư 99/2025/TT-BTC |
 | **Ngày làm phiếu** | 27/09/2026 |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
@@ -51,8 +48,8 @@ Bảng theo dõi và tính toán chỉ số kinh tế đơn vị, chi phí thu h
 3. Cung cấp bộ tham số định lượng phục vụ hệ thống tính toán tự động.
 
 Bảng được lập và cập nhật theo các mốc thời gian:
-- **Định kỳ tháng:** `KTV` tổng hợp số liệu từ ngày 01 đến ngày 05 hằng tháng, đồng bộ với mốc khóa sổ kế toán tháng và tính doanh thu tại [[DT-02_So_theo_doi_doanh_thu_tra_truoc_va_phan_bo|DT-02]].
-- **Kỳ thanh toán hoa hồng đối tác:** Chốt số liệu hoa hồng trước ngày 05 hằng tháng, xuất Báo cáo hoa hồng tháng [[HH-02_Phieu_bao_cao_hoa_hong_thang|HH-02]] gửi đối tác từ ngày 05 đến ngày 10 hằng tháng, kích hoạt lệnh chuyển khoản trước ngày 10 hằng tháng.
+- **Định kỳ tháng:** `KTV` tổng hợp số liệu từ ngày 01 đến ngày 05 hằng tháng, đồng bộ với mốc khóa sổ kế toán tháng và tính doanh thu tại Sổ DT-02.
+- **Kỳ thanh toán hoa hồng đối tác:** Chốt số liệu hoa hồng trước ngày 05 hằng tháng, xuất Báo cáo hoa hồng tháng HH-02 gửi đối tác từ ngày 05 đến ngày 10 hằng tháng, kích hoạt lệnh chuyển khoản trước ngày 10 hằng tháng.
 - **Kỳ đối soát đại lý đầu vào:** Đối soát công nợ với Vendor CyberX và đối tác ngân hàng trước ngày 15 hằng tháng.
 
 ---
@@ -196,7 +193,7 @@ Hệ thống hoa hồng tại oBacker được thiết lập trên cơ chế hai
 - **Công thức tính toán:**
   $$\text{Tiền hoa hồng đối tác} = 10\% \times \text{Doanh thu thực thu hợp lệ trong 12 tháng}$$
 - **Điều kiện và quy tắc đối soát:**
-  1. Doanh thu tính hoa hồng là số tiền thực tế khách hàng đã thanh toán vào tài khoản ngân hàng của oBacker, được kế toán đối khớp tại Sổ [[DT-02_So_theo_doi_doanh_thu_tra_truoc_va_phan_bo|DT-02]] và Sổ [[CN-01_So_theo_doi_cong_no_phai_thu_va_tuoi_no|CN-01]].
+  1. Doanh thu tính hoa hồng là số tiền thực tế khách hàng đã thanh toán vào tài khoản ngân hàng của oBacker, được kế toán đối khớp tại Sổ DT-02 và Sổ CN-01.
   2. Thời hạn tính hoa hồng tối đa 12 tháng kể từ ngày phát sinh khoản thanh toán đầu tiên theo Job `PM-06`.
   3. Dịch vụ tính hoa hồng gồm các dịch vụ trong Hợp đồng dịch vụ đầu tiên và các khoản gia hạn của chính dịch vụ đó; không tính hoa hồng cho các dịch vụ bán thêm khác ngoài hợp đồng đầu tiên.
   4. Đối với đối tác cá nhân: Khấu trừ thuế thu nhập cá nhân 10% tại nguồn theo Nghị định 253/2026/NĐ-CP Điều 50 khoản 2 đối với mỗi lần chi trả từ 05 triệu đồng trở lên (trừ trường hợp cá nhân đủ điều kiện lập cam kết thu nhập theo mẫu `OBK-BM-TNCN-08`). Khoản chi dưới 05 triệu đồng không phải khấu trừ thuế TNCN tại nguồn.
@@ -204,10 +201,10 @@ Hệ thống hoa hồng tại oBacker được thiết lập trên cơ chế hai
 #### A.2. Quy trình liên kết tự động và kích hoạt thanh toán Chiều A
 Quy trình thực thi thanh toán hoa hồng đối tác được tự động hóa qua chuỗi liên kết:
 1. **Bước 1 (Lấy dữ liệu thực thu):** Vào ngày 01 của tháng, hệ thống tính toán tự động truy xuất dữ liệu doanh thu thực thu của các khách hàng có mã giới thiệu từ Sổ `DT-02` và `CN-01`.
-2. **Bước 2 (Tính toán và sinh báo cáo):** Script tự động tính số tiền hoa hồng 10%, đối chiếu điều kiện 12 tháng, kết xuất bảng dữ liệu tự động điền vào Phiếu [[HH-02_Phieu_bao_cao_hoa_hong_thang|HH-02]].
+2. **Bước 2 (Tính toán và sinh báo cáo):** Script tự động tính số tiền hoa hồng 10%, đối chiếu điều kiện 12 tháng, kết xuất bảng dữ liệu tự động điền vào Phiếu HH-02.
 3. **Bước 3 (Gửi đối soát):** Chuyên viên `PM` kiểm tra và gửi Báo cáo `HH-02` cho đối tác qua thư điện tử trong khoảng thời gian từ ngày 05 đến ngày 10 hằng tháng.
 4. **Bước 4 (Kích hoạt thanh toán tự động qua MT-01):**
-   - Khi báo cáo được đối tác xác nhận hoặc hết thời hạn 07 ngày làm việc mà không có khiếu nại, điểm kích hoạt `TG-13` trên Ma trận [[MT-01_Ma_tran_lien_ket_luong_nghiep_vu_cheo_va_kich_hoat_tu_dong|MT-01]] tự động kích hoạt thủ tục Đề nghị thanh toán theo `OBK-SOP-NB-01`.
+   - Khi báo cáo được đối tác xác nhận hoặc hết thời hạn 07 ngày làm việc mà không có khiếu nại, điểm kích hoạt `TG-13` trên Ma trận MT-01 tự động kích hoạt thủ tục Đề nghị thanh toán theo `OBK-SOP-NB-01`.
    - Kế toán viên thanh toán (`KTV`) lập ủy nhiệm chi trình `KTT` và `CEO` phê duyệt trên hệ thống ngân hàng điện tử, thực hiện chuyển tiền cho đối tác trước ngày 10 của tháng kế tiếp.
 
 #### A.3. Hoa hồng thưởng chuyên viên quản lý khách hàng (AM Incentive)
@@ -263,7 +260,7 @@ Quy trình thực thi thanh toán hoa hồng đối tác được tự động h
   * Khi nhận tiền hoa hồng chuyển khoản vào tài khoản ngân hàng của oBacker:
     - Nợ TK 112 (Tiền gửi ngân hàng)
     - Có TK 1388 (Phải thu khác)
-- **Đối soát thanh toán:** `KTV` lập bảng theo dõi danh sách khách hàng đã giới thiệu, ngày ngân hàng/đối tác nghiệm thu, đối chiếu với số dư tài khoản ngân hàng tại Phiếu [[NH-01_Doi_chieu_ngan_hang|NH-01]] để bảo đảm không tồn đọng nợ phải thu quá 30 ngày kể từ ngày chốt đối soát.
+- **Đối soát thanh toán:** `KTV` lập bảng theo dõi danh sách khách hàng đã giới thiệu, ngày ngân hàng/đối tác nghiệm thu, đối chiếu với số dư tài khoản ngân hàng tại Phiếu NH-01 để bảo đảm không tồn đọng nợ phải thu quá 30 ngày kể từ ngày chốt đối soát.
 
 ---
 
@@ -300,7 +297,7 @@ Quy trình thực thi thanh toán hoa hồng đối tác được tự động h
 ### 4.1. Nguyên tắc hạch toán kế toán theo Thông tư 99/2025/TT-BTC
 
 1. **Chi phí hoa hồng đối tác giới thiệu (Chiều A):**
-   - Hạch toán vào chi phí bán hàng theo Thông tư 99/2025/TT-BTC và [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]] Điều 3a:
+   - Hạch toán vào chi phí bán hàng theo OBK-QCTC-03 Điều 3a:
      Nợ TK 641 (Chi phí bán hàng - toàn bộ giá trị hoa hồng theo tỷ lệ thỏa thuận)
      Nợ TK 1331 (Thuế GTGT đầu vào được khấu trừ nếu đối tác là pháp nhân xuất hóa đơn GTGT)
      Có TK 3335 (Thuế TNCN khấu trừ 10% tại nguồn theo Nghị định 253/2026/NĐ-CP nếu đối tác là cá nhân và mức chi trả từ 05 triệu đồng trở lên)
@@ -343,18 +340,6 @@ Một doanh nghiệp dịch vụ chỉ có thể tăng trưởng bền vững kh
  
 Cơ chế đối soát hoa hồng hai chiều minh bạch hóa toàn bộ dòng tiền: vừa bảo đảm thanh toán đúng hạn cho đối tác giới thiệu để duy trì mạng lưới kênh bán hàng, vừa thu đúng, thu đủ các khoản lợi nhuận đại lý và hoa hồng từ các nhà cung cấp bên ngoài.
 
-### 2. Căn cứ quy định và pháp luật liên quan
-
-| STT | Tên tài liệu nội bộ | Mã văn bản | Nội dung liên quan |
-| --- | --- | --- | --- |
-| 1 | Quy trình chương trình đối tác giới thiệu | [[08_OBK-SOP-PM_Chuong_trinh_doi_tac_gioi_thieu_khach_hang\|OBK-SOP-PM]] | Quy chế chi hoa hồng 10% trong vòng 12 tháng |
-| 2 | Phiếu báo cáo hoa hồng tháng | [[HH-02_Phieu_bao_cao_hoa_hong_thang\|HH-02]] | Khuôn mẫu báo cáo hoa hồng gửi đối tác |
-| 3 | Bảng theo dõi dòng tiền và sức khỏe tài chính | [[TC-01_Bang_theo_doi_dong_tien_va_suc_khoe_tai_chinh\|TC-01]] | Chỉ số MRR, biên lợi nhuận gộp và dự phòng tiền mặt |
-| 4 | Sổ theo dõi doanh thu trả trước và phân bổ | [[DT-02_So_theo_doi_doanh_thu_tra_truoc_va_phan_bo\|DT-02]] | Nguồn dữ liệu doanh thu thực thu và phân bổ kế toán |
-| 5 | Sổ quản trị khách hàng và CRM | [[KH-01_So_quan_tri_khach_hang_va_dich_vu_crm\|KH-01]] | Dữ liệu số lượng khách hàng hoạt động, khách rời bỏ |
-| 6 | Sổ theo dõi kho Token và kích hoạt CyberX | [[CK-02_Theo_doi_kho_token_va_kich_hoat_cyberx\|CK-02]] | Đối soát tồn kho và kích hoạt thiết bị chữ ký số |
-| 7 | Ma trận liên kết luồng nghiệp vụ chéo | [[MT-01_Ma_tran_lien_ket_luong_nghiep_vu_cheo_va_kich_hoat_tu_dong\|MT-01]] | Kích hoạt tự động thủ tục thanh toán và đối soát |
-| 8 | Quy chế tài chính nội bộ | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] | Điều 23a về chính sách hoa hồng môi giới đối tác |
 
 ---
 
@@ -362,4 +347,4 @@ Cơ chế đối soát hoa hồng hai chiều minh bạch hóa toàn bộ dòng 
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu UE-01 về Sổ cái OBK-MSR |

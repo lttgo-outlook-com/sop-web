@@ -7,16 +7,13 @@ level: "Phụ lục"
 version: "R.1.0.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 25/08/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
 parent: "OBK-SOP-KT Kế toán và thuế"
 next_review: "Chậm nhất 28/02/2027"
 appendix: "Biểu mẫu nội bộ"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-SOP-PL-B
 tags:
@@ -201,13 +198,13 @@ Hồ sơ quyết toán TNDN còn phải kèm báo cáo tài chính năm, trừ t
 
 ### Bảng E. Ký hiệu mẫu của các nghĩa vụ MỚI bổ sung vào lịch tuân thủ
 
-> [!note] ĐÂY LÀ MẪU DO CƠ QUAN THUẾ BAN HÀNH, KHÔNG PHẢI BIỂU MẪU NỘI BỘ OBACKER
+> [!note] DANH MỤC BIỂU MẪU QUY PHẠM PHÁP LUẬT BẮT BUỘC
 > Toàn bộ 22 ký hiệu mẫu trong bảng này là mẫu biểu bắt buộc ban hành kèm Thông tư 89/2026/TT-BTC, riêng dòng 22 ban hành kèm Nghị định 255/2026/NĐ-CP. Không được tự soạn, không được sửa kết cấu, không được bỏ phụ lục kèm theo. Bốn quy tắc bắt buộc tại đầu mục này áp dụng nguyên vẹn cho Bảng E.
 
 > [!note] PHẢI TRA LẠI TRƯỚC KHI DÙNG
 > Trước mỗi lần lập hồ sơ, MỞ Phụ lục I Thông tư 89/2026/TT-BTC và tra lại ký hiệu mẫu cùng thành phần hồ sơ tại đúng điểm ghi ở cột "Điểm tại Phụ lục I". Không lấy ký hiệu mẫu từ bảng này rồi dùng luôn, không suy đoán ký hiệu mẫu, không sao ký hiệu mẫu từ lịch tuân thủ của nguồn ngoài.
 
-> [!note] VÌ SAO CÓ BẢNG NÀY
+> [!note] MỤC ĐÍCH DANH MỤC BIỂU MẪU BỔ SUNG
 > Đây là các nghĩa vụ mới được bổ sung vào lịch tuân thủ tại Phụ lục C và Chương 13, trước đó lịch không có nên chưa có chỗ nào trong Phụ lục B liệt kê ký hiệu mẫu tương ứng theo từng nghĩa vụ. Bảng A vẫn là danh mục gốc theo 19 điểm lớn của Phụ lục I.
 
 | # | Ký hiệu mẫu | Tên mẫu biểu | Nghĩa vụ tương ứng trong lịch tuân thủ | Điểm tại Phụ lục I | Căn cứ |
@@ -1587,7 +1584,7 @@ Nếu có dòng chưa đối chiếu bản gốc hoặc chưa xác minh được
 | Có phải xin ý kiến cấp trên theo Phiếu B12 | Có / Không. Nếu có, ghi cấp nhận: TL-KT / COO / CEO |
 | Ghi chú cho lần rà soát sau | |
 
-Mức phạt hành vi bố trí hoặc thuê người làm kế toán trưởng không đủ tiêu chuẩn, điều kiện: 20.000.000 đồng đến 30.000.000 đồng đối với cá nhân, 40.000.000 đồng đến 60.000.000 đồng đối với tổ chức `[Nghị định 41/2018/NĐ-CP Đ.17 k.3 đ.b; Nghị định 132/2026/NĐ-CP Đ.2]`, xem [[01_Nguyen_tac_hanh_nghe|OBK-SOP-01]] mục 6.1.4.
+Mức phạt hành vi bố trí hoặc thuê người làm kế toán trưởng không đủ tiêu chuẩn, điều kiện: 20.000.000 đồng đến 30.000.000 đồng đối với cá nhân, 40.000.000 đồng đến 60.000.000 đồng đối với tổ chức, xem OBK-SOP-01 mục 5.1.4.
 
 ### Phần ký xác nhận
 

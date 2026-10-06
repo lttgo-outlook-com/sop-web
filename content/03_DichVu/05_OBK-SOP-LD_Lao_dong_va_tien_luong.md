@@ -4,30 +4,20 @@ code: "OBK-SOP-LD"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 2, quy trình bộ phận"
-version: "R.1.0.1"
+version: "R.3.0.1"
 status: "đang áp dụng"
-draft_date: "01/10/2026"
+draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
 approver: "CEO"
 parent: "OBK-SOP-00 Chuẩn vận hành dịch vụ"
-law_as_of: "Pháp luật có hiệu lực tại ngày 23/09/2026"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-SOP-LD
 tags:
   - loai/sop
   - cap/2
-  - nghiep-vu/nguoi-lao-dong-nuoc-ngoai
-  - nghiep-vu/hop-dong-lao-dong
-  - nghiep-vu/bao-hiem-xa-hoi
-  - nghiep-vu/tien-luong
-  - nghiep-vu/cham-dut-hop-dong-lao-dong
-  - nghiep-vu/tro-cap-thoi-viec
-  - nghiep-vu/noi-quy-lao-dong
-  - nghiep-vu/bao-cao-lao-dong
 ---
 # OBK-SOP-LD LAO ĐỘNG VÀ TIỀN LƯƠNG
 
@@ -37,8 +27,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-SOP-LD |
 | Cấp tài liệu | Cấp 2, SOP bộ phận |
-| Phiên bản | R.1.0.1, đang áp dụng |
-| Ngày biên soạn | 01/10/2026 |
+| Phiên bản | R.3.0.1, đang áp dụng |
+| Ngày biên soạn | 04/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
 | Người phê duyệt | CEO (Lê Trọng Tuấn) |
@@ -74,16 +64,18 @@ tags:
 | Nội dung | Bộ phận phụ trách |
 | --- | --- |
 | Giấy phép lao động, thị thực, thẻ tạm trú cho người nước ngoài | Licensing |
-| Hạch toán chi phí lương vào sổ sách;<br>khấu trừ và quyết toán thuế TNCN | Kế toán, TL-KT chốt |
+| Hạch toán chi phí lương vào sổ sách;<br>khấu trừ và kê khai thuế TNCN theo kỳ | Kế toán, TL-KT chốt |
 | Tranh chấp lao động của khách phải lập luận pháp lý hoặc phải ra văn bản có ký;<br>soạn hoặc rà hợp đồng lao động bán theo vụ việc | Bộ phận Dịch vụ pháp lý, xem [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] |
 | Nghiệp vụ chưa có chuẩn;<br>kết luận dùng cho mọi khách về sau;<br>văn bản pháp luật mới | Legal R&D, xem [[07_OBK-SOP-RD_Nghien_cuu_phap_ly\|OBK-SOP-RD]]. Quy tắc phân ba lớp tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 5.5 |
 | Thanh tra lao động của khách | VẪN THUỘC bộ phận này. `TL-LD` chủ trì vì hồ sơ nằm ở đây, Bộ phận Dịch vụ pháp lý tham vấn về thủ tục và thời hiệu.<br>Quy tắc phân ba lớp tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 5.5 |
 | Đàm phán phạm vi, phí, gia hạn, khiếu nại | AM |
 | Sự cố hệ thống và công cụ tính lương | Tech |
 
-**Ranh giới với Kế toán, một câu:** Lao Động TÍNH và CHỐT bảng lương; Kế toán HẠCH TOÁN và làm THUẾ TNCN từ bảng lương đã chốt. Bảng lương đã chốt là đầu vào bắt buộc của Job kế toán tháng. CV-KT không tự sửa số trên bảng lương; phát hiện sai thì trả về Lao Động và ghi vào Job.
+**Ranh giới với Kế toán, một câu:** Lao Động TÍNH và CHỐT bảng lương, làm QUYẾT TOÁN TNCN năm và đăng ký người phụ thuộc; Kế toán HẠCH TOÁN và KHẤU TRỪ, KÊ KHAI thuế TNCN theo kỳ từ bảng lương đã chốt. Bảng lương đã chốt là đầu vào bắt buộc của Job kế toán tháng. CV-KT không tự sửa số trên bảng lương, phát hiện sai thì trả về Lao Động và ghi vào Job.
 
-**Ranh giới với Licensing, một câu:** thời hạn hợp đồng lao động với người nước ngoài không được vượt quá thời hạn giấy phép lao động (`PL_1` [[CC-LD-191 Thời hạn HĐLĐ không được vượt quá thời hạn của Giấy phép lao động|CC-LD-191]]). Khi soạn hợp đồng cho người nước ngoài, Lao Động phải lấy ngày hết hạn giấy phép từ Licensing, không tự điền.
+**Quy ước custodial token chữ ký số:** Token chữ ký số chuyên dụng của khách hàng do bộ phận Kế toán giữ tập trung; khi bộ phận Lao Động nộp tờ khai, báo cáo BHXH trên cổng điện tử thì xin token từ bộ phận Kế toán, dùng xong trả lại ngay, theo OBK-SOP-KT mục 3.3. Không lưu giữ USB Token tại văn phòng oBacker quá 24 giờ làm việc, theo Bản Điều Khoản Chung mục 20.2 nguyên tắc (1).
+
+**Ranh giới với Licensing, một câu:** thời hạn hợp đồng lao động với người nước ngoài không được vượt quá thời hạn giấy phép lao động. Khi soạn hợp đồng cho người nước ngoài, Lao Động phải lấy ngày hết hạn giấy phép từ Licensing, không tự điền.
 
 ---
 
@@ -94,33 +86,36 @@ tags:
 | Mã Job | Tên Job | Nguồn phát sinh | Đầu vào bắt buộc | Đầu ra | SLA nội bộ oBacker | Thời hạn theo pháp luật | Căn cứ |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | LD-01 | Trả lời câu hỏi về quy định lao động | Khách hỏi qua AM | Câu hỏi đã ghi trên hệ thống | Câu trả lời có mã căn cứ đã đối chiếu bản gốc | LD-01 không đi qua chuỗi T2.<br>Câu hỏi đã có căn cứ sẵn đã đối chiếu bản gốc trong `PL_1` thì bộ phận trả lời thẳng AM trong 02 giờ làm việc, không cấp mốc ước lượng, vì câu trả lời tới trước cả hạn T2.<br>Câu hỏi phải tra bản gốc thì đi đúng chuỗi: bộ phận cấp mốc ước lượng cho AM trong 02 giờ làm việc theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 7.4, AM cam kết T2 với khách trong 04 giờ làm việc, và T3 là 02 ngày làm việc.<br>NHÁNH KÉO DÀI, ba điều kiện đủ theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 7.4a: điều kiện vào nhánh là bộ phận đã tra mà không kết luận được; mốc của nhánh là mốc của Job RD-10; và AM PHẢI cam kết lại T2 với khách trong 04 giờ làm việc kể từ khi mở Job RD-10.<br>Chạm nội dung chưa xác minh được thì mở Job RD-12, AM gửi thư hẹn mốc trong 04 giờ làm việc, và không trả lời nội dung | Không có | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] NT-1 |
-| LD-02 | Soạn hợp đồng lao động, phụ lục, thỏa thuận | Khách yêu cầu | Thông tin đầy đủ về vị trí, mức lương, thời hạn, địa điểm;<br>với người nước ngoài thêm ngày hết hạn giấy phép lao động do Licensing cấp | Bản dự thảo đã qua kiểm soát hai lớp | 02 ngày làm việc kể từ khi nhận đủ thông tin | Không có | `PL_1` [[CC-LD-01 Hai loại hợp đồng, không xác định thời hạn; xác định thời hạn không quá 36 tháng\|CC-LD-01]] tới [[CC-LD-12 Hợp đồng lao động điện tử\|CC-LD-12]] |
-| LD-03 | Rà soát thời hạn hợp đồng xác định thời hạn | Theo lịch tháng | Danh sách hợp đồng sắp hết hạn | Cảnh báo gửi khách qua AM kèm phương án | Rà hằng tháng;<br>cảnh báo khách 45 ngày trước ngày hết hạn | Hết hạn mà vẫn làm việc thì phải ký hợp đồng mới trong **30 ngày**;<br>quá 30 ngày thì tự động thành hợp đồng không xác định thời hạn;<br>chỉ được ký thêm hợp đồng xác định thời hạn **01 lần** | `PL_1` [[CC-LD-02 Hết hạn mà vẫn làm việc, trong 30 ngày phải ký hợp đồng mới; quá 30 ngày thì hợp đồng cũ TRỞ THÀNH không xác định thời hạn\|CC-LD-02]], [[CC-LD-03 Hợp đồng xác định thời hạn CHỈ được ký thêm 01 LẦN; sau đó phải ký không xác định thời hạn. Bốn ngoại lệ\|CC-LD-03]] |
-| LD-04 | Đăng ký mã BHXH lần đầu cho người lao động | Khách gửi hợp đồng đã ký | Bản scan hợp đồng đã ký giữa khách và người lao động | Hồ sơ đã nộp;<br>xác nhận của cơ quan BHXH | 02 ngày làm việc kể từ khi nhận bản scan hợp đồng đã ký | Kê khai và nộp hồ sơ tham gia BHXH bắt buộc trong **30 ngày** kể từ ngày người lao động thuộc đối tượng tham gia | `PL_1` [[CC-LD-140 Kê khai và nộp hồ sơ tham gia BHXH bắt buộc trong 30 NGÀY kể từ ngày NLĐ thuộc đối tượng tham gia\|CC-LD-140]] |
-| LD-05 | Báo tăng lao động | Có người lao động mới | Hợp đồng đã ký;<br>thông tin cá nhân | Hồ sơ báo tăng đã nộp | Đợt 1: ngày 29 tới 30. Đợt 2: ngày 09 tới 10 | Theo [[CC-LD-140 Kê khai và nộp hồ sơ tham gia BHXH bắt buộc trong 30 NGÀY kể từ ngày NLĐ thuộc đối tượng tham gia\|CC-LD-140]], mốc 30 ngày | `PL_1` [[CC-LD-140 Kê khai và nộp hồ sơ tham gia BHXH bắt buộc trong 30 NGÀY kể từ ngày NLĐ thuộc đối tượng tham gia\|CC-LD-140]] |
+| LD-02 | Soạn hợp đồng lao động, phụ lục, thỏa thuận | Khách yêu cầu | Thông tin đầy đủ về vị trí, mức lương, thời hạn, địa điểm;<br>với người nước ngoài thêm ngày hết hạn giấy phép lao động do Licensing cấp | Bản dự thảo đã qua kiểm soát chất lượng hai lớp theo phân mức NT-5 | 02 ngày làm việc kể từ khi nhận đủ thông tin | Không có | `PL_1` CC-LD-01 tới CC-LD-12 |
+| LD-03 | Rà soát thời hạn hợp đồng xác định thời hạn | Theo lịch tháng | Danh sách hợp đồng sắp hết hạn | Cảnh báo gửi khách qua AM kèm phương án | Rà hằng tháng;<br>cảnh báo khách 45 ngày trước ngày hết hạn | Hết hạn mà vẫn làm việc thì phải ký hợp đồng mới trong **30 ngày**;<br>quá 30 ngày thì tự động thành hợp đồng không xác định thời hạn;<br>chỉ được ký thêm hợp đồng xác định thời hạn **01 lần** | `PL_1` CC-LD-02, CC-LD-03 |
+| LD-04 | Đăng ký mã BHXH lần đầu cho người lao động | Khách gửi hợp đồng đã ký | Bản scan hợp đồng đã ký giữa khách và người lao động | Hồ sơ đã nộp;<br>xác nhận của cơ quan BHXH | 02 ngày làm việc kể từ khi nhận bản scan hợp đồng đã ký | Kê khai và nộp hồ sơ tham gia BHXH bắt buộc trong **30 ngày** kể từ ngày người lao động thuộc đối tượng tham gia | `PL_1` CC-LD-140 |
+| LD-05 | Báo tăng lao động | Có người lao động mới | Hợp đồng đã ký;<br>thông tin cá nhân | Hồ sơ báo tăng đã nộp | Đợt 1: ngày 29 tới 30. Đợt 2: ngày 09 tới 10 | Theo CC-LD-140, mốc 30 ngày | `PL_1` CC-LD-140 |
 | LD-06 | Báo giảm lao động | Có người lao động nghỉ | Quyết định hoặc thỏa thuận chấm dứt | Hồ sơ báo giảm đã nộp | Đợt 1: ngày 29 tới 30. Đợt 2: ngày 09 tới 10 | **KHÔNG TÌM THẤY mốc số ngày trong kho.** Xem cảnh báo mục 9.2 | `PL_1` mục 2.7 cảnh báo |
-| LD-07 | Tính lương và lập bảng lương | Theo lịch tháng | Dữ liệu chấm công của khách;<br>hợp đồng và phụ lục hiện hành;<br>quyết định điều chỉnh nếu có | Bảng lương đã chốt;<br>phiếu lương | Khách trả lương cuối tháng: tính ngày 25 tới 28, gửi ngày 29 tới 30.<br>Khách trả lương ngày 05: tính ngày 01 tới 03, gửi ngày 04 tới 05.<br>Khách trả lương ngày 10: tính ngày 06 tới 08, gửi ngày 09 tới 10.<br>Phiếu lương gửi trước ngày trả lương ít nhất 01 ngày | Không có mốc luật cho việc lập;<br>kỳ hạn trả lương theo thỏa thuận và `PL_1` [[CC-LD-66 Chậm trả lương vì bất khả kháng không quá 30 ngày; chậm từ 15 ngày trở lên phải đền bù lãi theo lãi suất huy động kỳ hạn 01 tháng\|CC-LD-66]] | Nội bộ;<br>`PL_1` [[CC-LD-60 Lương tối thiểu vùng 4 mức theo tháng và theo giờ\|CC-LD-60]] tới [[CC-LD-80 Công thức tính lương làm thêm, làm đêm, làm thêm vào ban đêm\|CC-LD-80]] |
+| LD-07 | Tính lương và lập bảng lương | Theo lịch tháng | Dữ liệu chấm công của khách;<br>hợp đồng và phụ lục hiện hành;<br>quyết định điều chỉnh nếu có | Bảng lương đã chốt;<br>phiếu lương | Khách trả lương cuối tháng: tính ngày 25 tới 28, gửi ngày 29 tới 30.<br>Khách trả lương ngày 05: tính ngày 01 tới 03, gửi ngày 04 tới 05.<br>Khách trả lương ngày 10: tính ngày 06 tới 08, gửi ngày 09 tới 10.<br>Phiếu lương gửi trước ngày trả lương ít nhất 01 ngày | Không có mốc luật cho việc lập;<br>kỳ hạn trả lương theo thỏa thuận và `PL_1` CC-LD-66 | Nội bộ;<br>`PL_1` CC-LD-60 tới CC-LD-80 |
 | LD-08 | Nhắc khách gửi dữ liệu chấm công | Theo lịch tháng | Danh sách khách | Bản ghi đã nhắc | Ngày 20 tới 25 | Không có | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 6.2 |
-| LD-09 | Tổng hợp và thông báo số tiền BHXH phải đóng | Theo lịch tháng | Bảng lương;<br>thông báo C12 của cơ quan BHXH | Thông báo số phải đóng gửi khách qua AM, theo từng mã BHXH | Tổng hợp ngày 11 tới 14;<br>thông báo ngày 15 | Khách phải nộp tiền chậm nhất **ngày cuối cùng của tháng tiếp theo** | `PL_1` [[CC-LD-143 Hạn nộp tiền BHXH hằng tháng, chậm nhất ngày cuối cùng của tháng tiếp theo\|CC-LD-143]] |
+| LD-09 | Tổng hợp và thông báo số tiền BHXH phải đóng | Theo lịch tháng | Bảng lương;<br>thông báo C12 của cơ quan BHXH | Thông báo số phải đóng gửi khách qua AM, theo từng mã BHXH | Tổng hợp ngày 11 tới 14;<br>thông báo ngày 15 | Khách phải nộp tiền chậm nhất **ngày cuối cùng của tháng tiếp theo** | `PL_1` CC-LD-143 |
 | LD-10 | Thông báo kinh phí công đoàn | Theo lịch tháng | Quỹ tiền lương làm căn cứ đóng BHXH | Thông báo gửi khách qua AM | Ngày 15 | **CHƯA XÁC MINH ĐƯỢC từ kho.** Xem cảnh báo mục 9.3 | `PL_1` mục 1.2 |
-| LD-11 | Chốt sổ BHXH khi người lao động nghỉ việc | Người lao động nghỉ | Quyết định chấm dứt;<br>đã báo giảm | Xác nhận thời gian đóng BHXH;<br>sổ đã trả | 10 ngày làm việc kể từ ngày chính thức nghỉ việc | **KHÔNG TÌM THẤY mốc số ngày trong kho.** Nghĩa vụ có tại [[CC-LD-30 NSDLĐ phải hoàn thành thủ tục xác nhận thời gian đóng BHXH, BHTN và trả lại bản chính giấy tờ đã giữ\|CC-LD-30]], không kèm số ngày | `PL_1` [[CC-LD-30 NSDLĐ phải hoàn thành thủ tục xác nhận thời gian đóng BHXH, BHTN và trả lại bản chính giấy tờ đã giữ\|CC-LD-30]], [[CC-LD-158 Chưa đóng đủ, xác nhận thời gian đóng ĐẾN THỜI ĐIỂM ĐÃ ĐÓNG cho người thôi việc; thu hồi đủ thì xác nhận bổ sung\|CC-LD-158]], [[CC-LD-159 NSDLĐ phối hợp cơ quan BHXH xác nhận thời gian đóng khi NLĐ chấm dứt HĐLĐ; phối hợp trả sổ bản giấy\|CC-LD-159]] |
-| LD-12 | Tính và bàn giao hồ sơ chấm dứt hợp đồng lao động | Người lao động nghỉ | Quyết định hoặc thỏa thuận chấm dứt;<br>dữ liệu thời gian làm việc;<br>bảng lương 06 tháng liền kề | Bảng tính trợ cấp thôi việc hoặc mất việc;<br>bảng tính phép năm chưa nghỉ;<br>danh mục giấy tờ phải trả lại người lao động | Gửi khách trước hạn thanh toán ít nhất 05 ngày làm việc | **Thanh toán đầy đủ các khoản trong 14 NGÀY LÀM VIỆC** kể từ ngày chấm dứt;<br>bốn trường hợp được kéo dài nhưng không quá **30 ngày** | `PL_1` [[CC-LD-28 Thanh toán các khoản trong 14 NGÀY LÀM VIỆC kể từ ngày chấm dứt\|CC-LD-28]], [[CC-LD-29 Bốn trường hợp được kéo dài nhưng KHÔNG QUÁ 30 NGÀY\|CC-LD-29]], [[CC-LD-40 Trợ cấp thôi việc, điều kiện làm việc thường xuyên từ đủ 12 tháng; mức NỬA THÁNG tiền lương mỗi năm làm việc\|CC-LD-40]] tới [[CC-LD-49 Thời gian tính trợ cấp mất việc dưới 24 tháng thì vẫn phải trả ít nhất 02 tháng tiền lương\|CC-LD-49]] |
-| LD-13 | Đăng ký nội quy lao động | Khách bàn giao nội quy | Nội quy lao động đã ban hành;<br>biên bản tham khảo ý kiến tổ chức đại diện người lao động | Hồ sơ đã nộp;<br>xác nhận đăng ký | 02 ngày làm việc kể từ khi khách bàn giao nội quy | Bắt buộc với khách sử dụng **từ 10 người lao động trở lên**;<br>nộp hồ sơ trong **10 ngày** kể từ ngày ban hành;<br>cơ quan xử lý trong **07 ngày làm việc**;<br>nội quy có hiệu lực sau **15 ngày** kể từ ngày cơ quan nhận đủ hồ sơ | `PL_1` [[CC-LD-90 Phải ban hành nội quy lao động; từ 10 NLĐ trở lên thì nội quy phải BẰNG VĂN BẢN\|CC-LD-90]] tới [[CC-LD-98 Hồ sơ đăng ký nội quy lao động\|CC-LD-98]] |
-| LD-14 | Lập và cập nhật sổ quản lý lao động | Khách mới, và liên tục | Danh sách lao động;<br>20 nhóm thông tin bắt buộc | Sổ quản lý lao động | Lập trong 10 ngày làm việc kể từ khi tiếp nhận khách;<br>cập nhật trong 02 ngày làm việc kể từ khi có biến động | Lập trong **30 ngày** kể từ ngày bắt đầu hoạt động;<br>cập nhật kể từ ngày người lao động bắt đầu làm việc | `PL_1` [[CC-LD-123 Lập sổ quản lý lao động trong 30 ngày kể từ ngày bắt đầu hoạt động, tại nơi đặt trụ sở, chi nhánh, VPĐD\|CC-LD-123]] tới [[CC-LD-125 Trách nhiệm cập nhật sổ kể từ ngày NLĐ bắt đầu làm việc; xuất trình khi có yêu cầu\|CC-LD-125]] |
-| LD-15 | Báo cáo tình hình sử dụng lao động 06 tháng đầu năm | Theo lịch năm | Sổ quản lý lao động;<br>biến động trong kỳ | Mẫu số 01/PLI đã nộp qua Cổng Dịch vụ công Quốc gia;<br>thông báo tới cơ quan bảo hiểm xã hội khu vực | Hoàn tất nội bộ và NỘP chậm nhất 03 NGÀY LÀM VIỆC TRƯỚC 04/06, theo mốc làm trước hồ sơ nộp cơ quan nhà nước tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] NT-6.<br>không cam kết mốc 04/06, vì đó là ngày hợp pháp cuối cùng | **Trước ngày 05 tháng 6** | `PL_1` [[CC-LD-121 Báo cáo 06 tháng trước ngày 05 tháng 6; hằng năm trước ngày 05 tháng 12, gửi Sở Nội vụ qua Cổng Dịch vụ công Quốc gia theo Mẫu 01-PLI\|CC-LD-121]] |
-| LD-16 | Báo cáo tình hình sử dụng lao động cả năm | Theo lịch năm | Như LD-15 | Như LD-15 | Hoàn tất nội bộ và NỘP chậm nhất 03 NGÀY LÀM VIỆC TRƯỚC 04/12, theo mốc làm trước hồ sơ nộp cơ quan nhà nước tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] NT-6.<br>không cam kết mốc 04/12, vì đó là ngày hợp pháp cuối cùng | **Trước ngày 05 tháng 12** | `PL_1` [[CC-LD-121 Báo cáo 06 tháng trước ngày 05 tháng 6; hằng năm trước ngày 05 tháng 12, gửi Sở Nội vụ qua Cổng Dịch vụ công Quốc gia theo Mẫu 01-PLI\|CC-LD-121]] |
+| LD-11 | Chốt sổ BHXH khi người lao động nghỉ việc | Người lao động nghỉ | Quyết định chấm dứt;<br>đã báo giảm | Xác nhận thời gian đóng BHXH;<br>sổ đã trả | 10 ngày làm việc kể từ ngày chính thức nghỉ việc | **KHÔNG TÌM THẤY mốc số ngày trong kho.** Nghĩa vụ có tại CC-LD-30, không kèm số ngày | `PL_1` CC-LD-30, CC-LD-158, CC-LD-159 |
+| LD-12 | Tính và bàn giao hồ sơ chấm dứt hợp đồng lao động | Người lao động nghỉ | Quyết định hoặc thỏa thuận chấm dứt;<br>dữ liệu thời gian làm việc;<br>bảng lương 06 tháng liền kề | Bảng tính trợ cấp thôi việc hoặc mất việc;<br>bảng tính phép năm chưa nghỉ;<br>danh mục giấy tờ phải trả lại người lao động | Gửi khách trước hạn thanh toán ít nhất 05 ngày làm việc | **Thanh toán đầy đủ các khoản trong 14 NGÀY LÀM VIỆC** kể từ ngày chấm dứt;<br>bốn trường hợp được kéo dài nhưng không quá **30 ngày** | `PL_1` CC-LD-28, CC-LD-29, CC-LD-40 tới CC-LD-49 |
+| LD-13 | Đăng ký nội quy lao động | Khách bàn giao nội quy | Nội quy lao động đã ban hành;<br>biên bản tham khảo ý kiến tổ chức đại diện người lao động | Hồ sơ đã nộp;<br>xác nhận đăng ký | 02 ngày làm việc kể từ khi khách bàn giao nội quy | Bắt buộc với khách sử dụng **từ 10 người lao động trở lên**;<br>nộp hồ sơ trong **10 ngày** kể từ ngày ban hành;<br>cơ quan xử lý trong **07 ngày làm việc**;<br>nội quy có hiệu lực sau **15 ngày** kể từ ngày cơ quan nhận đủ hồ sơ | `PL_1` CC-LD-90 tới CC-LD-98 |
+| LD-14 | Lập và cập nhật sổ quản lý lao động | Khách mới, và liên tục | Danh sách lao động;<br>20 nhóm thông tin bắt buộc | Sổ quản lý lao động | Lập trong 10 ngày làm việc kể từ khi tiếp nhận khách;<br>cập nhật trong 02 ngày làm việc kể từ khi có biến động | Lập trong **30 ngày** kể từ ngày bắt đầu hoạt động;<br>cập nhật kể từ ngày người lao động bắt đầu làm việc | `PL_1` CC-LD-123 tới CC-LD-125 |
+| LD-15 | Báo cáo tình hình sử dụng lao động 06 tháng đầu năm | Theo lịch năm | Sổ quản lý lao động;<br>biến động trong kỳ | Mẫu số 01/PLI đã nộp qua Cổng Dịch vụ công Quốc gia;<br>thông báo tới cơ quan bảo hiểm xã hội khu vực | Hoàn tất nội bộ và NỘP chậm nhất 03 NGÀY LÀM VIỆC TRƯỚC 04/06, theo mốc làm trước hồ sơ nộp cơ quan nhà nước tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] NT-6.<br>không cam kết mốc 04/06, vì đó là ngày hợp pháp cuối cùng | **Trước ngày 05 tháng 6** | `PL_1` CC-LD-121 |
+| LD-16 | Báo cáo tình hình sử dụng lao động cả năm | Theo lịch năm | Như LD-15 | Như LD-15 | Hoàn tất nội bộ và NỘP chậm nhất 03 NGÀY LÀM VIỆC TRƯỚC 04/12, theo mốc làm trước hồ sơ nộp cơ quan nhà nước tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] NT-6.<br>không cam kết mốc 04/12, vì đó là ngày hợp pháp cuối cùng | **Trước ngày 05 tháng 12** | `PL_1` CC-LD-121 |
 | LD-17 | Thông báo biến động lao động bất thường | Tăng hoặc giảm từ 50 người trở lên | Danh sách biến động | Thông báo đã gửi | Trước ngày 10 của tháng sau kỳ phát sinh | Thực hiện theo hướng dẫn nghiệp vụ của Bộ phận Lao động | Mức |
-| LD-18 | Thông báo làm thêm giờ trên 200 tới 300 giờ mỗi năm | Khách tổ chức làm thêm vượt 200 giờ | Danh sách người lao động và số giờ;<br>ngành nghề thuộc diện được làm 300 giờ | Mẫu số 02/PLIV đã gửi Sở Lao động | Trong 07 ngày kể từ ngày khách bắt đầu tổ chức làm thêm vượt ngưỡng | **Chậm nhất SAU 15 NGÀY** kể từ ngày thực hiện | `PL_1` [[CC-LD-71 Không quá 300 giờ-năm với 5 nhóm ngành nghề\|CC-LD-71]] tới [[CC-LD-74 Ba nhóm bổ sung được làm thêm 200 tới 300 giờ-năm\|CC-LD-74]] |
-| LD-19 | Rà soát giới hạn giờ làm thêm | Theo lịch tháng | Dữ liệu chấm công | Cảnh báo gửi khách khi chạm ngưỡng | Rà hằng tháng khi tính lương;<br>cảnh báo khi đạt 80% mức tối đa tháng hoặc 80% mức tối đa năm | Mức tối đa: **40 giờ mỗi tháng;<br>200 giờ mỗi năm**, hoặc **300 giờ mỗi năm** với 5 nhóm ngành nghề | `PL_1` [[CC-LD-69 Làm thêm không quá 50% giờ làm bình thường trong 01 ngày; theo tuần thì tổng không quá 12 giờ-ngày; KHÔNG QUÁ 40 GIỜ-THÁNG\|CC-LD-69]] tới [[CC-LD-71 Không quá 300 giờ-năm với 5 nhóm ngành nghề\|CC-LD-71]] |
-| LD-20 | Rà soát lương tối thiểu vùng | Khi có nghị định mới, và khi khách đổi địa bàn | Danh sách lao động và mức lương;<br>địa bàn | Danh sách người lao động dưới mức tối thiểu;<br>đề xuất điều chỉnh | Trong 10 ngày làm việc kể từ ngày nghị định mới được ban hành | Mức hiện hành theo `293/2025/NĐ-CP` hiệu lực 01/01/2026.<br>Doanh nghiệp phải rà soát hợp đồng, thỏa ước và quy chế để điều chỉnh | `PL_1` [[CC-LD-60 Lương tối thiểu vùng 4 mức theo tháng và theo giờ\|CC-LD-60]] tới [[CC-LD-63 Nghĩa vụ rà soát HĐLĐ, thỏa ước và quy chế khi điều chỉnh; cấm cắt giảm chế độ làm thêm, ban đêm, bồi dưỡng hiện vật\|CC-LD-63]] |
-| LD-21 | Hỗ trợ trình tự xử lý kỷ luật lao động | Khách yêu cầu | Biên bản vi phạm;<br>nội quy lao động đã đăng ký;<br>hồ sơ nhân sự | Bộ hồ sơ trình tự: thông báo họp, biên bản họp, quyết định | Gửi khách bộ hồ sơ trước ngày họp ít nhất 10 NGÀY LÀM VIỆC.<br>Đây là mốc làm trước thứ hai của [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] NT-6, đầu ra cần khách ký trước khi gửi ra, tức 05 ngày làm việc làm trước cộng thêm mốc pháp định 05 ngày làm việc thông báo họp.<br>Mốc cũ 07 ngày làm việc chỉ còn khoảng làm trước thật 02 ngày làm việc, dưới chuẩn NT-6 | Thông báo họp **ít nhất 05 ngày làm việc** trước ngày họp.<br>Thời hiệu **06 tháng** kể từ ngày xảy ra hành vi, **12 tháng** nếu liên quan tài chính, tài sản, bí mật công nghệ, bí mật kinh doanh | `PL_1` [[CC-LD-99 Bốn nguyên tắc xử lý kỷ luật\|CC-LD-99]] tới [[CC-LD-108 Tạm đình chỉ công việc\|CC-LD-108]] |
-| LD-22 | Rà soát khấu trừ lương | Khi khách yêu cầu khấu trừ | Căn cứ khấu trừ;<br>bảng lương | Kết luận được phép hay không, và mức tối đa | 01 ngày làm việc | Chỉ được khấu trừ để bồi thường thiệt hại do làm hư hỏng dụng cụ, thiết bị, tài sản.<br>**Mức tối đa 30%** tiền lương thực trả hằng tháng sau khi trích nộp BHXH bắt buộc, BHYT, BHTN và thuế TNCN | `PL_1` [[CC-LD-64 Khấu trừ lương tối đa 30% tiền lương thực trả hằng tháng SAU KHI trích nộp BHXH bắt buộc, BHYT, BHTN và thuế TNCN\|CC-LD-64]], [[CC-LD-65 Chỉ được khấu trừ lương để bồi thường thiệt hại do làm hư hỏng dụng cụ, thiết bị, tài sản theo Điều 129\|CC-LD-65]] |
+| LD-18 | Thông báo làm thêm giờ trên 200 tới 300 giờ mỗi năm | Khách tổ chức làm thêm vượt 200 giờ | Danh sách người lao động và số giờ;<br>ngành nghề thuộc diện được làm 300 giờ | Mẫu số 02/PLIV đã gửi Sở Lao động | Trong 07 ngày kể từ ngày khách bắt đầu tổ chức làm thêm vượt ngưỡng | **Chậm nhất SAU 15 NGÀY** kể từ ngày thực hiện | `PL_1` CC-LD-71 tới CC-LD-74 |
+| LD-19 | Rà soát giới hạn giờ làm thêm | Theo lịch tháng | Dữ liệu chấm công | Cảnh báo gửi khách khi chạm ngưỡng | Rà hằng tháng khi tính lương;<br>cảnh báo khi đạt 80% mức tối đa tháng hoặc 80% mức tối đa năm | Mức tối đa: **40 giờ mỗi tháng;<br>200 giờ mỗi năm**, hoặc **300 giờ mỗi năm** với 5 nhóm ngành nghề | `PL_1` CC-LD-69 tới CC-LD-71 |
+| LD-20 | Rà soát lương tối thiểu vùng | Khi có nghị định mới, và khi khách đổi địa bàn | Danh sách lao động và mức lương;<br>địa bàn | Danh sách người lao động dưới mức tối thiểu;<br>đề xuất điều chỉnh | Trong 10 ngày làm việc kể từ ngày nghị định mới được ban hành | Mức hiện hành theo `293/2025/NĐ-CP` hiệu lực 01/01/2026.<br>Doanh nghiệp phải rà soát hợp đồng, thỏa ước và quy chế để điều chỉnh | `PL_1` CC-LD-60 tới CC-LD-63 |
+| LD-21 | Hỗ trợ trình tự xử lý kỷ luật lao động | Khách yêu cầu | Biên bản vi phạm;<br>nội quy lao động đã đăng ký;<br>hồ sơ nhân sự | Bộ hồ sơ trình tự: thông báo họp, biên bản họp, quyết định | Gửi khách bộ hồ sơ trước ngày họp ít nhất 10 NGÀY LÀM VIỆC.<br>Đây là mốc làm trước thứ hai của [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] NT-6, đầu ra cần khách ký trước khi gửi ra, tức 05 ngày làm việc làm trước cộng thêm mốc pháp định 05 ngày làm việc thông báo họp.<br>Mốc cũ 07 ngày làm việc chỉ còn khoảng làm trước thật 02 ngày làm việc, dưới chuẩn NT-6 | Thông báo họp **ít nhất 05 ngày làm việc** trước ngày họp.<br>Thời hiệu **06 tháng** kể từ ngày xảy ra hành vi, **12 tháng** nếu liên quan tài chính, tài sản, bí mật công nghệ, bí mật kinh doanh | `PL_1` CC-LD-99 tới CC-LD-108 |
+| LD-22 | Rà soát khấu trừ lương | Khi khách yêu cầu khấu trừ | Căn cứ khấu trừ;<br>bảng lương | Kết luận được phép hay không, và mức tối đa | 01 ngày làm việc | Chỉ được khấu trừ để bồi thường thiệt hại do làm hư hỏng dụng cụ, thiết bị, tài sản.<br>**Mức tối đa 30%** tiền lương thực trả hằng tháng sau khi trích nộp BHXH bắt buộc, BHYT, BHTN và thuế TNCN | `PL_1` CC-LD-64, CC-LD-65 |
 | LD-23 | Giải trình hồ sơ với cơ quan BHXH | Cơ quan BHXH yêu cầu | Văn bản yêu cầu;<br>hồ sơ liên quan | Văn bản giải trình đã gửi | Thông báo khách kèm danh mục hồ sơ cần trong 01 ngày làm việc;<br>gửi giải trình trong 02 ngày làm việc kể từ khi nhận đủ hồ sơ từ khách | **Theo thời hạn ghi trên chính văn bản của cơ quan** | Nội bộ |
 | LD-24 | Cập nhật công thức và chính sách mới vào bảng tính lương | Có văn bản mới, hoặc theo lịch | Bản đánh giá tác động của LEG | Bảng tính đã cập nhật và đã kiểm thử | Ngày 16 tới 19 hằng tháng | Theo ngày hiệu lực văn bản | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 12.3 |
 | LD-25 | Rà soát tuân thủ lao động định kỳ | Theo lịch tháng | Hồ sơ khách | Bảng rà soát tuân thủ gửi khách qua AM | Hằng tháng, trước ngày 10 | Không có | Nội bộ |
 | LD-26 | Bàn giao khi kết thúc dịch vụ | AM báo kết thúc | Toàn bộ hồ sơ lao động và BHXH của khách | Bộ bàn giao;<br>biên bản bàn giao | Chuẩn bị trong 05 ngày làm việc kể từ khi AM báo | Không có | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] |
+| LD-27 | Quyết toán thuế TNCN năm và đăng ký người phụ thuộc | Theo lịch năm | Bảng lương các kỳ trong năm;<br>bảng khấu trừ TNCN của Kế toán theo Job [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] KT-09;<br>danh sách người phụ thuộc của khách | Tờ khai quyết toán TNCN năm đã nộp kèm xác nhận của hệ thống thuế điện tử;<br>người phụ thuộc đã đăng ký | Hoàn tất nội bộ và NỘP chậm nhất 03 NGÀY LÀM VIỆC TRƯỚC 31/03 năm sau, theo mốc làm trước hồ sơ nộp cơ quan nhà nước tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] NT-6.<br>không cam kết mốc 31/03, vì đó là ngày hợp pháp cuối cùng | Chậm nhất ngày 31 tháng 3 của năm dương lịch tiếp theo, theo Luật Quản lý thuế 108/2025/QH15 | Nội bộ; Job KT-09 của [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]]; Điều Khoản Dịch Vụ Kế toán & Thuế (PL-KT) mục 3.1 |
 
 %%/JOBTABLE:LD%%
+
+Yêu cầu không khớp Job nào: xem [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 5.6.
 
 ---
 
@@ -148,8 +143,9 @@ Bảng này là bản trình bày theo NGÀY của các Job trong mục 2. Con s
 
 | Mốc | Đầu việc | Job | Trạng thái căn cứ |
 | --- | --- | --- | --- |
-| Chậm nhất 03 ngày làm việc trước 04/06 | Báo cáo tình hình sử dụng lao động 06 tháng đầu năm | LD-15 | `PL_1` [[CC-LD-121 Báo cáo 06 tháng trước ngày 05 tháng 6; hằng năm trước ngày 05 tháng 12, gửi Sở Nội vụ qua Cổng Dịch vụ công Quốc gia theo Mẫu 01-PLI\|CC-LD-121]] |
-| Chậm nhất 03 ngày làm việc trước 04/12 | Báo cáo tình hình sử dụng lao động cả năm | LD-16 | `PL_1` [[CC-LD-121 Báo cáo 06 tháng trước ngày 05 tháng 6; hằng năm trước ngày 05 tháng 12, gửi Sở Nội vụ qua Cổng Dịch vụ công Quốc gia theo Mẫu 01-PLI\|CC-LD-121]] |
+| Chậm nhất 03 ngày làm việc trước 31/03 năm sau | Quyết toán thuế TNCN năm và đăng ký người phụ thuộc | LD-27 | Nội bộ; Luật Quản lý thuế 108/2025/QH15, chưa có mã căn cứ |
+| Chậm nhất 03 ngày làm việc trước 04/06 | Báo cáo tình hình sử dụng lao động 06 tháng đầu năm | LD-15 | `PL_1` CC-LD-121 |
+| Chậm nhất 03 ngày làm việc trước 04/12 | Báo cáo tình hình sử dụng lao động cả năm | LD-16 | `PL_1` CC-LD-121 |
 
 > [!note] NGHĨA VỤ ĐỊNH KỲ VỀ ATVSLĐ VÀ PHÒNG CHÁY NỔ
 > Các nghĩa vụ định kỳ về PCCC, Quỹ phòng chống thiên tai và an toàn vệ sinh lao động thực hiện theo quy định pháp luật chuyên ngành và hướng dẫn của cơ quan quản lý tại địa phương.
@@ -160,22 +156,17 @@ Bảng này là bản trình bày theo NGÀY của các Job trong mục 2. Con s
 
 | Bước | CV-LD | TL-LD | AM | LEG | COO |
 | --- | --- | --- | --- | --- | --- |
-| B1 Tiếp nhận yêu cầu | R | A | R | N/A | I |
-| B2 Lưu trữ đầu vào | R | A | I | N/A | N/A |
-| B3 Phân loại Job | R | A | I | C | N/A |
-| B4 Kiểm tra điều kiện và khả thi | R | A | I | C | I |
-| B5 Tổng hợp dữ liệu | R | A | R (đòi thông tin từ khách) | N/A | N/A |
-| B6 Thực hiện nghiệp vụ | R | A | I | C | N/A |
-| B7 Kiểm soát chất lượng | R (lớp 1) | A, R (lớp 2) | I | N/A | N/A |
-| B8 Bàn giao qua AM | R | A | R | N/A | I |
-| B9 Theo dõi tới khi có kết quả | R | A | R | N/A | I |
-| B10 Đóng Job và cập nhật | R | A | I | N/A | I |
+| B1 Tiếp nhận và khả thi | R | A | R (B1);<br>I (B2, B3, B4) | C (B3, B4);<br>N/A (B1, B2) | I (B1, B4);<br>N/A (B2, B3) |
+| B2 Thực hiện | R | A | R, đòi thông tin từ khách (B5);<br>I (B6) | C (B6);<br>N/A (B5) | N/A |
+| B3 Kiểm soát chất lượng | R (lớp 1) | A;<br>R (lớp 2) theo Tier của Job; Tier 1 giảm lớp 2; Tier 3 thêm hậu kiểm bắt buộc;<br>Job tiền lương, bảo hiểm xã hội, thuế TNCN giữ hai lớp trong mọi Tier | I | N/A | N/A |
+| B4 Bàn giao qua AM | R | A | R | N/A | I |
+| B5 Theo dõi và đóng | R | A | R (B9);<br>I (B10) | N/A | I |
 
 **Ba nguồn phát sinh Job của bộ phận này**, khác các bộ phận khác: (a) yêu cầu từ khách qua AM; (b) lịch nghĩa vụ định kỳ theo pháp luật và hợp đồng dịch vụ; (c) yêu cầu từ cơ quan nhà nước qua email chính thức. Với nguồn (b) và (c), AM không phải là người tạo Job nhưng vẫn phải được thông tin.
 
 ---
 
-## 5a. CHUYỂN LÊN CẤP TRÊN CỦA BỘ PHẬN NÀY, MỘT NGOẠI LỆ
+## 5a. CHUYỂN LÊN CẤP TRÊN CỦA BỘ PHẬN NÀY, TRƯỜNG HỢP NGOẠI LỆ
 
 Cơ chế chuyển lên cấp trên chung ĐẶT tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 8 và [[PL_Chuyen_len_cap_tren|OBK-QCTC-02-PL-C]]. Mục này không chép lại cơ chế đó; mục này chỉ ghi một ngoại lệ riêng của bộ phận này.
 
@@ -192,7 +183,7 @@ Cơ chế chuyển lên cấp trên chung ĐẶT tại [[01_OBK-SOP-00_Chuan_van
 | Tranh chấp lao động của khách phải lập luận pháp lý | Bộ phận Dịch vụ pháp lý chủ trì, bộ phận này cấp hồ sơ | Xem [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 5.5 |
 | Thanh tra lao động của khách | `TL-LD` chủ trì, Bộ phận Dịch vụ pháp lý tham vấn | Xem [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 5.5 |
 
-**Ngoại lệ này TỰ MẤT khi tách vai trò.** Ngoại lệ này là vấn đề của cơ cấu nhân sự hiện tại, không phải của thiết kế quy trình. Khi `TL-LD` có người giữ riêng, không còn kiêm `COO`, thì bộ phận này quay về đúng thang ba cấp `TL-LD`, `COO`, `CEO` và mục này hết hiệu lực. Người rà soát định kỳ phải kiểm điểm này mỗi lần [[PL_Anh_xa_nhan_su|OBK-QCTC-02-PL-D]] đổi người.
+**Ngoại lệ này TỰ MẤT khi tách vai trò.** Ngoại lệ này là vấn đề của cơ cấu nhân sự hiện tại, không phải của thiết kế quy trình. Khi `TL-LD` có người giữ riêng, không còn kiêm `COO`, thì bộ phận này quay về đúng thang ba cấp `TL-LD`, `COO`, `CEO` và mục này hết hiệu lực. Người rà soát định kỳ phải kiểm điểm này mỗi lần OBK-QCTC-02-PL-D đổi người.
 
 ---
 
@@ -200,11 +191,11 @@ Cơ chế chuyển lên cấp trên chung ĐẶT tại [[01_OBK-SOP-00_Chuan_van
 
 | Mã | Chốt | Trước bước nào | Ai kiểm | Không đạt thì làm gì |
 | --- | --- | --- | --- | --- |
-| KS-LD-01 | Bảng lương khớp 100% với dữ liệu chấm công khách cung cấp;<br>số người khớp danh sách lao động;<br>không dòng nào thiếu căn cứ | Trước khi gửi khách | TL-LD | Không gửi. Quay lại B5 |
-| KS-LD-02 | Mọi mâu thuẫn dữ liệu giữa các nguồn đã ghi đủ 4 trường: thông tin mâu thuẫn, giá trị theo từng nguồn, người cần làm rõ, quyết định kèm lý do | Trước B6 | CV-LD ghi, TL-LD kiểm | Quay lại B5 |
+| KS-LD-01 | Bảng lương khớp 100% với dữ liệu chấm công khách cung cấp;<br>số người khớp danh sách lao động;<br>không dòng nào thiếu căn cứ | Trước khi gửi khách | TL-LD | Không gửi. Quay lại B2 |
+| KS-LD-02 | Mọi mâu thuẫn dữ liệu giữa các nguồn đã ghi đủ 4 trường: thông tin mâu thuẫn, giá trị theo từng nguồn, người cần làm rõ, quyết định kèm lý do | Trước B2 | CV-LD ghi, TL-LD kiểm | Quay lại B2 |
 | KS-LD-03 | Đã tra hết nguồn nội bộ trước khi hỏi khách thêm thông tin | Trước khi gửi yêu cầu bổ sung | CV-LD | Tra lại. Hỏi khách cái mình đã có là lỗi chất lượng |
 | KS-LD-04 | Yêu cầu bổ sung có đủ: danh sách đầy đủ phần thiếu, thời hạn cụ thể, giả thiết sẽ dùng nếu không nhận đủ, hậu quả của việc dùng giả thiết | Trước khi gửi khách | TL-LD | Không gửi. Yêu cầu thiếu bốn phần này sẽ phải hỏi lại lần hai |
-| KS-LD-05 | Giả thiết đã dùng được nêu lại trong nội dung bàn giao | Trước B8 | TL-LD | Trả lại. Xem [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 6.1 phần 3 |
+| KS-LD-05 | Giả thiết đã dùng được nêu lại trong nội dung bàn giao | Trước B4 | TL-LD | Trả lại. Xem [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 6.1 phần 3 |
 | KS-LD-06 | Với hợp đồng cho người nước ngoài: thời hạn hợp đồng không vượt quá thời hạn giấy phép lao động, và ngày hết hạn giấy phép lấy từ Licensing | Trước khi gửi dự thảo | TL-LD | Lấy lại ngày từ Licensing. Không tự điền |
 | KS-LD-07 | Với khách từ 10 người lao động trở lên: đã kiểm tra nội quy lao động đã đăng ký và còn hiệu lực | Khi tiếp nhận khách, và trước LD-21 | TL-LD | Mở Job LD-13. Không hỗ trợ kỷ luật lao động khi nội quy chưa đăng ký |
 | KS-LD-08 | Mọi con số luật trong đầu ra truy được về một mã `[CC-LD-...]` mức đã đối chiếu bản gốc trong `PL_1` | Trước khi gửi khách | TL-LD | Trả lại. Chuyển sang nhánh chưa xác minh được của LD-01 |
@@ -216,13 +207,13 @@ Cơ chế chuyển lên cấp trên chung ĐẶT tại [[01_OBK-SOP-00_Chuan_van
 ## 7. LỖI THƯỜNG GẶP
 
 > [!bug] LỖI THƯỜNG GẶP
-> Hợp đồng xác định thời hạn tự động thành không xác định thời hạn. Dấu hiệu: hợp đồng hết hạn, người lao động vẫn đi làm, không ai để ý. Sau 30 ngày, hợp đồng TỰ ĐỘNG thành không xác định thời hạn theo `PL_1` [[CC-LD-02 Hết hạn mà vẫn làm việc, trong 30 ngày phải ký hợp đồng mới; quá 30 ngày thì hợp đồng cũ TRỞ THÀNH không xác định thời hạn|CC-LD-02]], và khách mất quyền chấm dứt theo cách của hợp đồng xác định thời hạn. LD-03 là Job rà soát bắt buộc hằng tháng, không phải tùy chọn.
+> Hợp đồng xác định thời hạn tự động thành không xác định thời hạn. Dấu hiệu: hợp đồng hết hạn, người lao động vẫn đi làm, không ai để ý. Sau 30 ngày, hợp đồng TỰ ĐỘNG thành không xác định thời hạn, và khách mất quyền chấm dứt theo cách của hợp đồng xác định thời hạn. LD-03 là Job rà soát bắt buộc hằng tháng, không phải tùy chọn.
 
 > [!bug] LỖI THƯỜNG GẶP
-> Ký hợp đồng xác định thời hạn lần thứ ba. Chỉ được ký thêm 01 LẦN. Lần thứ ba là trái luật trừ bốn ngoại lệ tại `PL_1` [[CC-LD-03 Hợp đồng xác định thời hạn CHỈ được ký thêm 01 LẦN; sau đó phải ký không xác định thời hạn. Bốn ngoại lệ|CC-LD-03]]. Khách rất hay yêu cầu và tưởng là hợp lệ.
+> Ký hợp đồng xác định thời hạn lần thứ ba. Chỉ được ký thêm 01 LẦN. Lần thứ ba là trái luật trừ bốn ngoại lệ. Khách rất hay yêu cầu và tưởng là hợp lệ.
 
 > [!bug] LỖI THƯỜNG GẶP
-> Quên thời gian thử việc khi tính trợ cấp thôi việc. `PL_1` [[CC-LD-44 Thời gian làm việc thực tế GỒM CẢ THỜI GIAN THỬ VIỆC, thời gian cử đi học, nghỉ ốm đau thai sản, nghỉ hằng tuần, lễ tết, phép năm|CC-LD-44]] ghi rõ "thời gian làm việc thực tế" GỒM CẢ thời gian thử việc. Tuy nhiên, theo điểm a khoản 3 Điều 8 Nghị định 145/2020/NĐ-CP, nếu trong thời gian thử việc theo hợp đồng thử việc riêng, người sử dụng lao động ĐÃ CHI TRẢ khoản tiền tương đương mức đóng bảo hiểm thất nghiệp theo khoản 3 Điều 168 Bộ luật Lao động, thì thời gian thử việc được trừ ra và không phát sinh trợ cấp thôi việc cho giai đoạn này. Ngược lại, nếu chưa chi trả khoản tiền tương đương, thời gian thử việc được tính là thời gian làm việc thực tế chưa tham gia BHTN, tạo thành tháng lẻ (dưới 06 tháng tính 1/2 năm, tương đương 1/4 tháng tiền lương làm căn cứ trợ cấp). Bỏ sót là tính thiếu trợ cấp, dẫn tới tranh chấp.
+> Quên thời gian thử việc khi tính trợ cấp thôi việc. "Thời gian làm việc thực tế" GỒM CẢ thời gian thử việc. Tuy nhiên, nếu trong thời gian thử việc theo hợp đồng thử việc riêng, người sử dụng lao động ĐÃ CHI TRẢ khoản tiền tương đương mức đóng bảo hiểm thất nghiệp, thì thời gian thử việc được trừ ra và không phát sinh trợ cấp thôi việc cho giai đoạn này. Ngược lại, nếu chưa chi trả khoản tiền tương đương, thời gian thử việc được tính là thời gian làm việc thực tế chưa tham gia BHTN, tạo thành tháng lẻ (dưới 06 tháng tính 1/2 năm, tương đương 1/4 tháng tiền lương làm căn cứ trợ cấp). Bỏ sót là tính thiếu trợ cấp, dẫn tới tranh chấp.
 
 > [!bug] LỖI THƯỜNG GẶP
 > Áp dụng quy định cũ về đóng BHYT khi người lao động làm việc nhiều nơi. Quy định cũ đóng BHYT theo hợp đồng có mức lương cao nhất đã bị thay thế từ ngày 01/07/2025. Theo quy định hiện hành của Luật Bảo hiểm xã hội 2024 và pháp luật BHYT, người lao động giao kết hợp đồng lao động với nhiều người sử dụng lao động thì đóng BHYT theo hợp đồng lao động giao kết đầu tiên (hợp đồng làm căn cứ đóng BHXH bắt buộc). Đơn vị ký hợp đồng thứ hai chỉ đóng 0,5% vào quỹ bảo hiểm tai nạn lao động, bệnh nghề nghiệp.
@@ -237,7 +228,7 @@ Cơ chế chuyển lên cấp trên chung ĐẶT tại [[01_OBK-SOP-00_Chuan_van
 > Không gắn mã định danh cho hợp đồng lao động điện tử. Theo quy định về giao kết hợp đồng lao động điện tử áp dụng từ ngày 01/07/2026 trên nền tảng do Bộ Nội vụ vận hành, hợp đồng điện tử phải có chữ ký số kèm dịch vụ cấp dấu thời gian, xác thực danh tính điện tử người lao động, gửi bản điện tử cho người lao động và phải được gắn mã định danh hợp đồng (ID) trong vòng 24 giờ kể từ khi bên cuối cùng ký. Hợp đồng thiếu mã định danh ID có rủi ro bị coi là không giao kết hợp đồng bằng văn bản hợp lệ. Hồ sơ hợp đồng điện tử lưu trữ tối thiểu 10 năm sau khi chấm dứt hợp đồng.
 
 > [!bug] LỖI THƯỜNG GẶP
-> Khấu trừ lương sai căn cứ. Chỉ được khấu trừ để bồi thường thiệt hại do làm hư hỏng dụng cụ, thiết bị, tài sản. Khấu trừ vì đi muộn, vì nghỉ không phép, vì không đạt chỉ tiêu đều không có căn cứ tại `PL_1` [[CC-LD-65 Chỉ được khấu trừ lương để bồi thường thiệt hại do làm hư hỏng dụng cụ, thiết bị, tài sản theo Điều 129|CC-LD-65]]. Mức tối đa 30% cũng thường bị tính trên lương gộp thay vì trên lương thực trả sau khi trích bảo hiểm và thuế.
+> Khấu trừ lương sai căn cứ. Chỉ được khấu trừ để bồi thường thiệt hại do làm hư hỏng dụng cụ, thiết bị, tài sản. Khấu trừ vì đi muộn, vì nghỉ không phép, vì không đạt chỉ tiêu đều không có căn cứ. Mức tối đa 30% cũng thường bị tính trên lương gộp thay vì trên lương thực trả sau khi trích bảo hiểm và thuế.
 
 > [!bug] LỖI THƯỜNG GẶP
 > Thông báo làm thêm giờ muộn. Khách tổ chức làm thêm trên 200 giờ mỗi năm phải được thông báo bằng văn bản, chậm nhất SAU 15 NGÀY kể từ ngày thực hiện. Nghĩa vụ này rất hay bị bỏ sót vì nghĩa vụ này chỉ phát sinh với một số khách. LD-19 rà soát mức tối đa và cảnh báo ở mức 80% chính là để bắt được nghĩa vụ này trước khi trễ.
@@ -249,7 +240,7 @@ Cơ chế chuyển lên cấp trên chung ĐẶT tại [[01_OBK-SOP-00_Chuan_van
 > Nhầm mức lương cơ sở với lương tối thiểu vùng. Lương cơ sở dùng cho khu vực công và dùng làm MỨC THAM CHIẾU của BHXH. Lương tối thiểu vùng áp cho người lao động theo hợp đồng lao động. Hai thứ khác nhau, đổi vào hai thời điểm khác nhau, và bị nhầm rất thường xuyên khi tư vấn khách.
 
 > [!bug] LỖI THƯỜNG GẶP
-> Doanh nghiệp trong khu công nghiệp nằm trên nhiều địa bàn. Áp mức lương tối thiểu vùng CAO NHẤT, theo `PL_1` [[CC-LD-62 Doanh nghiệp trong KCN, KCX, KCNC nằm trên nhiều địa bàn thì áp mức CAO NHẤT|CC-LD-62]].
+> Doanh nghiệp trong khu công nghiệp nằm trên nhiều địa bàn. Áp mức lương tối thiểu vùng CAO NHẤT.
 
 ---
 
@@ -259,20 +250,20 @@ Bộ phận này không được ghi lại con số luật trong tài liệu v�
 
 | Cần biết gì | Tra ở đâu |
 | --- | --- |
-| Lương tối thiểu vùng, 4 mức theo tháng và theo giờ | `PL_1` [[CC-LD-60 Lương tối thiểu vùng 4 mức theo tháng và theo giờ\|CC-LD-60]] |
-| Quy tắc áp địa bàn | `PL_1` [[CC-LD-61 Danh mục địa bàn theo vùng\|CC-LD-61]], [[CC-LD-62 Doanh nghiệp trong KCN, KCX, KCNC nằm trên nhiều địa bàn thì áp mức CAO NHẤT\|CC-LD-62]] |
-| Lương làm thêm ngày thường, ngày nghỉ tuần, ngày lễ | `PL_1` [[CC-LD-76 Lương làm thêm, ngày thường ít nhất 150%; ngày nghỉ hằng tuần ít nhất 200%; ngày lễ tết ít nhất 300%\|CC-LD-76]] |
-| Lương làm ban đêm và làm thêm vào ban đêm | `PL_1` [[CC-LD-77 Làm ban đêm, trả thêm ít nhất 30%\|CC-LD-77]], [[CC-LD-78 Làm thêm vào ban đêm, ngoài khoản 1 và 2 còn được trả thêm 20%\|CC-LD-78]] |
-| Công thức tính chi tiết | `PL_1` [[CC-LD-80 Công thức tính lương làm thêm, làm đêm, làm thêm vào ban đêm\|CC-LD-80]] |
-| Mức tối đa giờ làm thêm theo ngày, tháng, năm | `PL_1` [[CC-LD-69 Làm thêm không quá 50% giờ làm bình thường trong 01 ngày; theo tuần thì tổng không quá 12 giờ-ngày; KHÔNG QUÁ 40 GIỜ-THÁNG\|CC-LD-69]] tới [[CC-LD-71 Không quá 300 giờ-năm với 5 nhóm ngành nghề\|CC-LD-71]] |
-| Ngày nghỉ lễ tết và phép năm | `PL_1` [[CC-LD-81 Nghỉ lễ tết 11 ngày, Tết Dương lịch 01; Tết Âm lịch 05; 30-4 là 01; 01-5 là 01; Quốc khánh 02; Giỗ Tổ 01\|CC-LD-81]] tới [[CC-LD-86 Nghỉ hằng tuần ít nhất 24 giờ liên tục; trường hợp đặc biệt bình quân 01 tháng ít nhất 04 ngày\|CC-LD-86]] |
-| Tỷ lệ đóng BHXH của hai bên | `PL_1` [[CC-LD-146 Tỷ lệ đóng BHXH bắt buộc, 3% quỹ ốm đau thai sản; 22% quỹ hưu trí tử tuất\|CC-LD-146]] tới [[CC-LD-148 NSDLĐ đóng 3% quỹ ốm đau thai sản và 14% quỹ hưu trí tử tuất\|CC-LD-148]] |
-| Mức tối đa và mức tối thiểu tiền lương làm căn cứ đóng BHXH | `PL_1` [[CC-LD-149 Mức tối đa và mức tối thiểu, tiền lương làm căn cứ đóng thấp nhất bằng MỨC THAM CHIẾU\|CC-LD-149]] |
-| Cấu thành và các khoản LOẠI TRỪ khỏi tiền lương đóng BHXH | `PL_1` [[CC-LD-150 Cấu thành tiền lương làm căn cứ đóng, mức lương theo công việc, phụ cấp lương, khoản bổ sung khác trả thường xuyên ổn định mỗi kỳ\|CC-LD-150]], [[CC-LD-151 Chi tiết ba cấu phần và các khoản LOẠI TRỪ (phụ cấp phụ thuộc hoặc biến động theo năng suất, quá trình làm việc, chất lượng)\|CC-LD-151]] |
-| Quy đổi lương ngoại tệ | `PL_1` [[CC-LD-152 Lương ngoại tệ quy đổi theo tỷ giá bình quân mua vào chuyển khoản của 4 NHTM có vốn Nhà nước\|CC-LD-152]] |
-| Tiền chậm đóng BHXH | `PL_1` [[CC-LD-155 Chậm đóng, trốn đóng, nộp thêm 0,03%-ngày tính trên số tiền và số ngày\|CC-LD-155]] |
-| Mức khấu trừ lương tối đa | `PL_1` [[CC-LD-64 Khấu trừ lương tối đa 30% tiền lương thực trả hằng tháng SAU KHI trích nộp BHXH bắt buộc, BHYT, BHTN và thuế TNCN\|CC-LD-64]] |
-| Trợ cấp thôi việc và trợ cấp mất việc | `PL_1` [[CC-LD-40 Trợ cấp thôi việc, điều kiện làm việc thường xuyên từ đủ 12 tháng; mức NỬA THÁNG tiền lương mỗi năm làm việc\|CC-LD-40]] tới [[CC-LD-49 Thời gian tính trợ cấp mất việc dưới 24 tháng thì vẫn phải trả ít nhất 02 tháng tiền lương\|CC-LD-49]] |
+| Lương tối thiểu vùng, 4 mức theo tháng và theo giờ | `PL_1` CC-LD-60 |
+| Quy tắc áp địa bàn | `PL_1` CC-LD-61, CC-LD-62 |
+| Lương làm thêm ngày thường, ngày nghỉ tuần, ngày lễ | `PL_1` CC-LD-76 |
+| Lương làm ban đêm và làm thêm vào ban đêm | `PL_1` CC-LD-77, CC-LD-78 |
+| Công thức tính chi tiết | `PL_1` CC-LD-80 |
+| Mức tối đa giờ làm thêm theo ngày, tháng, năm | `PL_1` CC-LD-69 tới CC-LD-71 |
+| Ngày nghỉ lễ tết và phép năm | `PL_1` CC-LD-81 tới CC-LD-86 |
+| Tỷ lệ đóng BHXH của hai bên | `PL_1` CC-LD-146 tới CC-LD-148 |
+| Mức tối đa và mức tối thiểu tiền lương làm căn cứ đóng BHXH | `PL_1` CC-LD-149 |
+| Cấu thành và các khoản LOẠI TRỪ khỏi tiền lương đóng BHXH | `PL_1` CC-LD-150, CC-LD-151 |
+| Quy đổi lương ngoại tệ | `PL_1` CC-LD-152 |
+| Tiền chậm đóng BHXH | `PL_1` CC-LD-155 |
+| Mức khấu trừ lương tối đa | `PL_1` CC-LD-64 |
+| Trợ cấp thôi việc và trợ cấp mất việc | `PL_1` CC-LD-40 tới CC-LD-49 |
 | Đóng BHYT khi giao kết nhiều HĐLĐ | Đóng theo HĐLĐ giao kết đầu tiên (làm căn cứ đóng BHXH bắt buộc) từ 01/07/2025 |
 | Điều kiện tham gia BHXH của NLĐ nước ngoài | HĐLĐ xác định thời hạn từ đủ 12 tháng trở lên; không còn điều kiện Giấy phép lao động |
 
@@ -346,9 +337,9 @@ Theo Luật Bảo hiểm xã hội 2024, Nghị định 274/2025/NĐ-CP và Ngh�
 
 ### 9.3. Kinh phí công đoàn
 
-Kinh phí công đoàn bằng 2% quỹ tiền lương làm căn cứ đóng BHXH bắt buộc, do người sử dụng lao động đóng (Luật Công đoàn `50/2024/QH15` Đ.29 k.1 đ.b). Nghị định `105/2026/NĐ-CP`, hiệu lực 16/05/2026 (Đ.18 k.1), THAY Nghị định 191/2013/NĐ-CP kể từ mốc đó (Đ.18 k.2); hạn nộp chậm nhất ngày cuối cùng của tháng tiếp theo (Đ.4 k.2 đ.a). Doanh nghiệp cắt giảm lao động, đã hết thời gian tạm dừng đóng, có thể được xét giảm mức đóng; mức giảm và điều kiện xem [[Nghị định 105-2026-NĐ-CP quy định chi tiết và hướng dẫn thi hành một số điều của Luật Công đoàn về tài chính công đoàn|VB-083]] Đ.12, đây là mức thấp nhất có điều kiện, không phải mức đóng phổ biến.
+Kinh phí công đoàn bằng 2% quỹ tiền lương làm căn cứ đóng BHXH bắt buộc, do người sử dụng lao động đóng. Từ ngày 16/05/2026, hạn nộp chậm nhất là ngày cuối cùng của tháng tiếp theo. Doanh nghiệp cắt giảm lao động, đã hết thời gian tạm dừng đóng, có thể được xét giảm mức đóng; đây là mức thấp nhất có điều kiện, không phải mức đóng phổ biến.
 
-Từ ngày 01/09/2026, theo [[Công văn 1363-LĐLĐ năm 2026 về đóng 2% kinh phí công đoàn qua tài khoản thu tập trung|Công văn 1363/LĐLĐ năm 2026]], các đơn vị sản xuất kinh doanh không nộp kinh phí công đoàn qua tài khoản của Liên đoàn Lao động quận, huyện, thành phố mà đóng qua tài khoản thu tập trung của Công đoàn Việt Nam (Tổng Liên đoàn Lao động Việt Nam) mở tại 01 trong 04 ngân hàng thương mại theo mã định danh của doanh nghiệp:
+Từ ngày 01/09/2026, các đơn vị sản xuất kinh doanh không nộp kinh phí công đoàn qua tài khoản của Liên đoàn Lao động quận, huyện, thành phố mà đóng qua tài khoản thu tập trung của Công đoàn Việt Nam (Tổng Liên đoàn Lao động Việt Nam) mở tại 01 trong 04 ngân hàng thương mại theo mã định danh của doanh nghiệp:
 1. VietinBank: Tên đơn vị hưởng `CÔNG ĐOÀN VIỆT NAM`, Số tài khoản `1TLD` + `[Mã số thuế của doanh nghiệp]`.
 2. Agribank: Tên tài khoản `Tong Lien Doan Lao Dong Viet Nam`, Số tài khoản `1400288668989`.
 3. BIDV: Tên tài khoản `CÔNG ĐOÀN VIỆT NAM`, Số tài khoản `V2TT` + `[Mã số thuế của doanh nghiệp]`.
@@ -367,7 +358,7 @@ Mức tham chiếu BHXH bằng mức lương cơ sở khi mức lương cơ sở
 
 Tỷ lệ đóng bảo hiểm thất nghiệp: người lao động 1%, người sử dụng lao động 1% (`374/2025/NĐ-CP` Đ.4 k.1, k.2; `74/2025/QH15` Đ.33 k.1). Mức tiền lương làm căn cứ đóng BHTN cao nhất bằng 20 lần mức lương tối thiểu tháng theo vùng do Chính phủ công bố (`74/2025/QH15` Đ.34 k.2); đây là mức tối đa riêng của BHTN, khác mức tối đa BHXH ở trên vì dùng nền lương tối thiểu vùng, không dùng mức tham chiếu.
 
-Tỷ lệ đóng bảo hiểm tai nạn lao động, bệnh nghề nghiệp: mức đóng bình thường 0,5%, giảm còn 0,3% nếu đủ điều kiện Điều 5 Nghị định 58/2020/NĐ-CP ([[CC-LD-218 Tỷ lệ đóng bảo hiểm tai nạn lao động, bệnh nghề nghiệp, mức bình thường 0,5%, giảm còn 0,3% nếu đủ điều kiện|CC-LD-218]]).
+Tỷ lệ đóng bảo hiểm tai nạn lao động, bệnh nghề nghiệp: mức đóng bình thường 0,5%, giảm còn 0,3% nếu đủ điều kiện.
 
 ### 9.5. Văn bản còn thiếu
 
@@ -375,10 +366,10 @@ Tỷ lệ đóng bảo hiểm tai nạn lao động, bệnh nghề nghiệp: m�
 | --- | --- | --- | --- |
 | Tỷ lệ đóng BHYT | Luật BHYT hiện hành và `188/2025/NĐ-CP` | Bảng tính chi phí lao động hoàn chỉnh | Bảng lương vẫn tính được vì công thức nằm ở phần mềm, nhưng không trả lời khách về tỷ lệ BHYT cho tới khi có bản gốc |
 | An toàn vệ sinh lao động, khám sức khỏe định kỳ, huấn luyện, báo cáo | Luật An toàn vệ sinh lao động và hướng dẫn | Toàn bộ mục 4 lịch năm phần ATVSLĐ | Giữ mốc trong lịch nội bộ, cấm dùng để trả lời khách. Xem cảnh báo mục 4 |
-| Thủ tục khai trình sử dụng lao động khi khách bắt đầu hoạt động | `122/2020/NĐ-CP` | Bước thao tác của thủ tục khai trình liên thông | Nghĩa vụ 30 ngày có căn cứ tại [[CC-LD-120 Phải khai trình sử dụng lao động trong 30 ngày kể từ ngày bắt đầu hoạt động; định kỳ báo cáo tình hình thay đổi lao động\|CC-LD-120]]; chỉ thiếu bước thao tác.<br>Làm thủ công và ghi lại cách làm để đưa vào cấp 3 |
+| Thủ tục khai trình sử dụng lao động khi khách bắt đầu hoạt động | `122/2020/NĐ-CP` | Bước thao tác của thủ tục khai trình liên thông | Nghĩa vụ 30 ngày có căn cứ tại CC-LD-120; chỉ thiếu bước thao tác.<br>Làm thủ công và ghi lại cách làm để đưa vào cấp 3 |
 
 > [!warning] CƠ QUAN NHẬN BÁO CÁO ĐÃ ĐỔI, HIỆU LỰC CÓ THỜI HẠN
-> Tên cơ quan nhận báo cáo lao động trong Nghị định 145/2020 là "Sở Lao động - Thương binh và Xã hội"; Nghị định 129/2025/NĐ-CP Điều 71 ghi đè: cơ quan nhận nay là Sở Nội vụ, cơ quan bảo hiểm xã hội nhận thông báo nay là đơn vị khu vực, xem [[CC-LD-121 Báo cáo 06 tháng trước ngày 05 tháng 6; hằng năm trước ngày 05 tháng 12, gửi Sở Nội vụ qua Cổng Dịch vụ công Quốc gia theo Mẫu 01-PLI|CC-LD-121]]. Quy định này của Nghị định 129/2025/NĐ-CP hết hiệu lực kể từ 01/03/2027, trừ trường hợp được kéo dài hoặc bị thay thế sớm hơn (Đ.80 k.2); trước mỗi kỳ nộp gần mốc đó phải xác minh lại cơ quan nhận thực tế trên Cổng Dịch vụ công Quốc gia và ghi vào Job.
+> Tên cơ quan nhận báo cáo lao động trước đây là "Sở Lao động - Thương binh và Xã hội"; nay cơ quan nhận là Sở Nội vụ, cơ quan bảo hiểm xã hội nhận thông báo là đơn vị khu vực. Quy định đổi tên này hết hiệu lực kể từ 01/03/2027, trừ trường hợp được kéo dài hoặc bị thay thế sớm hơn; trước mỗi kỳ nộp gần mốc đó phải xác minh lại cơ quan nhận thực tế trên Cổng Dịch vụ công Quốc gia và ghi vào Job.
 
 ---
 
@@ -415,8 +406,146 @@ Việc 1 và 2 là hai việc chiếm phần lớn thời gian của bộ phận
 
 ---
 
+## CÂU HỎI THƯỜNG GẶP THEO JOB
+
+### LD-02. Soạn hợp đồng lao động, phụ lục, thỏa thuận
+
+Thời hạn hợp đồng lao động của người nước ngoài xác định theo đâu?
+
+Theo ngày hết hạn giấy phép lao động do Licensing cấp; bộ phận không tự điền mốc, và thời hạn hợp đồng không được vượt quá thời hạn giấy phép lao động.
+
+Nếu khách yêu cầu ký tiếp hợp đồng xác định thời hạn lần thứ ba thì có hợp lệ không?
+
+Không, trừ bốn ngoại lệ; hợp đồng xác định thời hạn chỉ được ký thêm 01 lần, sau đó phải ký hợp đồng không xác định thời hạn.
+
+Nếu hợp đồng ký bằng hình thức điện tử thì yêu cầu bắt buộc về mã định danh là gì?
+
+Phải gắn mã định danh hợp đồng (ID) trong 24 giờ kể từ khi bên cuối cùng ký, kèm chữ ký số và dịch vụ cấp dấu thời gian; lưu trữ hồ sơ tối thiểu 10 năm sau khi chấm dứt hợp đồng.
+
+### LD-03. Rà soát thời hạn hợp đồng xác định thời hạn
+
+Nếu hợp đồng xác định thời hạn hết hạn mà người lao động vẫn làm việc nhưng chưa quá 30 ngày thì nghĩa vụ là gì?
+
+Phải ký hợp đồng mới trong 30 ngày kể từ ngày hết hạn.
+
+Nếu hợp đồng xác định thời hạn hết hạn và người lao động vẫn làm việc quá 30 ngày thì hậu quả là gì?
+
+Hợp đồng cũ tự động trở thành hợp đồng không xác định thời hạn; khách mất quyền chấm dứt theo cách của hợp đồng xác định thời hạn. Đây là lỗi thường gặp của Job rà soát này.
+
+### LD-06. Báo giảm lao động
+
+Nếu khách hỏi thời hạn pháp định nộp báo giảm là bao nhiêu ngày thì trả lời thế nào?
+
+Nói rõ trong kho chưa có mốc số ngày pháp định; mốc đợt 1 và đợt 2 là cam kết dịch vụ của oBacker, không phải quy định của pháp luật. Xem mục 9.2.
+
+Nếu nộp báo giảm sang tháng sau thay vì cùng tháng người lao động chính thức nghỉ thì phát sinh gì?
+
+Phát sinh nghĩa vụ đóng bảo hiểm y tế cho cả tháng sau dù người lao động đã nghỉ việc; hồ sơ báo giảm phải nộp trong cùng tháng, chốt trước ngày cuối cùng của tháng đó. Xem mục 9.2.
+
+### LD-07. Tính lương và lập bảng lương
+
+Nếu bảng lương có một dòng không khớp với dữ liệu chấm công hoặc thiếu căn cứ thì có gửi khách không?
+
+Không; bảng lương phải khớp 100% với dữ liệu chấm công, số người khớp danh sách lao động và không dòng nào thiếu căn cứ, quay lại bước tổng hợp dữ liệu. Căn cứ: KS-LD-01.
+
+Nếu các nguồn dữ liệu cho cùng một chỉ tiêu có giá trị khác nhau thì điều kiện để tính tiếp là gì?
+
+Đã ghi đủ bốn trường: thông tin mâu thuẫn, giá trị theo từng nguồn, người cần làm rõ, quyết định kèm lý do. Căn cứ: KS-LD-02.
+
+Nếu thiếu dữ liệu chấm công và phải dùng giả thiết để tính lương thì khi bàn giao phải làm gì?
+
+Nêu lại giả thiết đã dùng trong nội dung bàn giao. Căn cứ: KS-LD-05.
+
+Nếu bảng lương chưa chốt mà bộ phận Kế toán đòi nhận để hạch toán thì xử lý ra sao?
+
+Không chuyển; bảng lương phải đã CHỐT và có dấu vết chốt trên Job trước khi chuyển sang Kế toán, và Kế toán có quyền từ chối bản nháp. Căn cứ: KS-LD-10.
+
+### LD-09. Tổng hợp và thông báo số tiền BHXH phải đóng
+
+Nếu tổng hợp xong số phải đóng nhưng khách chưa nộp, hạn pháp luật nộp tiền BHXH là khi nào?
+
+Chậm nhất ngày cuối cùng của tháng tiếp theo.
+
+Nếu khách chậm nộp tiền BHXH quá hạn thì rơi vào khung xử lý nào?
+
+Khung chậm đóng tại mục 9.1: nộp thêm 0,03% mỗi ngày và mức phạt 12% đến 15% tổng số tiền chậm đóng; sau 60 ngày kể từ khi hết hạn 30 ngày có thể bị xác định là trốn đóng với khung 18% đến 20% và rủi ro truy cứu trách nhiệm hình sự.
+
+### LD-11. Chốt sổ BHXH khi người lao động nghỉ việc
+
+Nếu khách hỏi thời hạn pháp định chốt sổ BHXH khi người lao động nghỉ việc là bao nhiêu ngày thì trả lời thế nào?
+
+Nói rõ trong kho chưa có mốc số ngày pháp định; mốc 10 ngày làm việc là cam kết dịch vụ của oBacker, không phải quy định của pháp luật. Xem mục 9.2.
+
+Nếu người lao động nghỉ việc khi chưa đóng đủ BHXH thì xác nhận thời gian đóng làm thế nào?
+
+Xác nhận thời gian đóng đến thời điểm đã đóng; khi thu hồi đủ thì xác nhận bổ sung. Căn cứ: `PL_1` CC-LD-158.
+
+Nếu người lao động đã nghỉ nhưng đơn vị chưa làm báo giảm thì có chốt sổ ngay không?
+
+Chưa; báo giảm (LD-06) là điều kiện đầu vào trước khi chốt sổ, cần quyết định chấm dứt và đã báo giảm. Căn cứ: đầu vào bắt buộc của Job LD-11.
+
+### LD-12. Tính và bàn giao hồ sơ chấm dứt hợp đồng lao động
+
+Nếu người lao động làm việc chưa đủ 12 tháng thì có nhận được trợ cấp thôi việc không?
+
+Không; trợ cấp thôi việc yêu cầu làm việc thường xuyên từ đủ 12 tháng.
+
+Nếu thời gian tính trợ cấp mất việc dưới 24 tháng thì mức trả tối thiểu là bao nhiêu?
+
+Vẫn phải trả ít nhất 02 tháng tiền lương.
+
+Nếu thời gian thử việc có được tính vào thời gian làm việc thực tế để tính trợ cấp không?
+
+Có, trừ trường hợp theo hợp đồng thử việc riêng mà người sử dụng lao động đã chi trả khoản tiền tương đương mức đóng bảo hiểm thất nghiệp thì giai đoạn thử việc được trừ ra.
+
+Nếu người lao động nghỉ việc khi còn phép năm chưa nghỉ thì xử lý khoản này ra sao?
+
+Trả phép năm chưa nghỉ; bảng tính phép năm chưa nghỉ là đầu ra của Job này. Không trả là khung phạt tại mục 9.1. Căn cứ: đầu ra Job LD-12.
+
+### LD-21. Hỗ trợ trình tự xử lý kỷ luật lao động
+
+Nếu khách từ 10 người lao động trở lên chưa đăng ký nội quy lao động thì có được hỗ trợ xử lý kỷ luật không?
+
+Không; phải kiểm tra nội quy lao động đã đăng ký và còn hiệu lực trước, mở Job LD-13, không hỗ trợ kỷ luật khi nội quy chưa đăng ký. Căn cứ: KS-LD-07.
+
+Nếu hành vi vi phạm xảy ra quá thời hiệu thì còn xử lý kỷ luật được không?
+
+Không; thời hiệu là 06 tháng kể từ ngày xảy ra hành vi, và 12 tháng nếu hành vi liên quan tài chính, tài sản, bí mật công nghệ, bí mật kinh doanh. Căn cứ: cột pháp luật Job LD-21.
+
+Nếu bộ hồ sơ kỷ luật cần khách ký trước khi gửi ra thì mốc bàn giao Job so với mốc pháp định 05 ngày được tính thế nào?
+
+Mốc bàn giao là 10 ngày làm việc trước ngày họp, gồm 05 ngày làm trước cộng thêm 05 ngày pháp định thông báo họp, theo mốc làm trước thứ hai của NT-6. Căn cứ: SLA Job LD-21.
+
+### LD-22. Rà soát khấu trừ lương
+
+Nếu khách muốn khấu trừ lương do đi muộn, nghỉ không phép hoặc không đạt chỉ tiêu thì có căn cứ không?
+
+Không; chỉ được khấu trừ để bồi thường thiệt hại do làm hư hỏng dụng cụ, thiết bị, tài sản.
+
+Nếu được khấu trừ để bồi thường thiệt hại thì mức tối đa 30% tính trên số nào?
+
+Tính trên tiền lương thực trả hằng tháng SAU khi trích nộp BHXH bắt buộc, bảo hiểm y tế, bảo hiểm thất nghiệp và thuế TNCN, không tính trên lương gộp.
+
+### LD-27. Quyết toán thuế TNCN năm và đăng ký người phụ thuộc
+
+Nếu đến kỳ quyết toán nhưng chưa có bảng khấu trừ TNCN từ bộ phận Kế toán thì Job có đủ điều kiện không?
+
+Chưa; bảng khấu trừ TNCN theo Job KT-09 của [[03_OBK-SOP-KT_Ke_toan_va_thue|OBK-SOP-KT]] là đầu vào bắt buộc của Job quyết toán. Căn cứ: đầu vào Job LD-27.
+
+Nếu khách hỏi hạn nộp quyết toán thuế TNCN năm là khi nào?
+
+Chậm nhất ngày 31 tháng 3 của năm dương lịch tiếp theo. Mốc nội bộ oBacker nộp trước 03 ngày làm việc nữa, không cam kết mốc 31/03 vì đó là ngày hợp pháp cuối cùng, theo NT-6.
+
+Căn cứ: Luật Quản lý thuế 108/2025/QH15; SLA Job LD-27.
+
+Nếu danh sách người phụ thuộc của khách chưa đăng ký thì Job này có xử lý luôn không?
+
+Có; đăng ký người phụ thuộc là đầu ra của chính Job quyết toán, xử lý cùng kỳ. Căn cứ: đầu ra Job LD-27.
+
+---
+
 ## NHẬT KÝ SỬA
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.1 | Sửa dòng 'Người phê duyệt' trong bảng thông tin phiên bản về khuôn hai cột, bỏ dấu thừa và liên kết bị cắt cụt của OBK-SOP-00 |
+| 04/10/2026 | R.3.0.1 | Sửa câu hỏi tự sự ở thời hạn hợp đồng lao động nước ngoài. |

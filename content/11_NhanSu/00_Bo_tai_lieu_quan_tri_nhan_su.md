@@ -7,23 +7,17 @@ level: "Cấp 1, văn bản KHUNG toàn công ty"
 version: "R.1.0.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 22/09/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-QCTC-02 Quy chế tổ chức và phân quyền"
 next_review: "Không quá 06 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-QCNS-00
 tags:
   - loai/sop
   - cap/1
-  - nghiep-vu/noi-quy-lao-dong
-  - nghiep-vu/tien-luong
 ---
 # BỘ TÀI LIỆU QUẢN TRỊ NHÂN SỰ VÀ VẬN HÀNH. TÀI LIỆU ĐỌC TRƯỚC
 
@@ -49,7 +43,7 @@ tags:
 
 ## 1. BỘ TÀI LIỆU GỒM NHỮNG GÌ
 
-Bộ tài liệu này ban hành theo Quyết định số 01/2026-QĐ/NS. Bộ gồm sáu tài liệu thành phần. Mã `OBK-QCNS-01`, `OBK-QCNS-02`, `OBK-QCNS-03`, `OBK-QCNS-06`, `OBK-QCNS-07` giữ số thứ tự tại Điều 2 của Quyết định. [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] là khung đánh giá hiệu suất dùng chung toàn công ty, xem mục 5.
+Bộ tài liệu này ban hành theo Quyết định số 01/2026-QĐ/NS. Bộ gồm sáu tài liệu thành phần. Mã `OBK-QCNS-01`, `OBK-QCNS-02`, `OBK-QCNS-03`, `OBK-QCNS-06`, `OBK-QCNS-07` giữ số thứ tự tại Điều 2 của Quyết định. `OBK-QCNS-08` là khung đánh giá hiệu suất dùng chung toàn công ty, xem mục 5.
 
 | Mã | Tài liệu | Phạm vi áp dụng |
 | --- | --- | --- |
@@ -86,14 +80,8 @@ Ba phiếu đánh giá dùng chung toàn công ty đặt tại thư mục `07_Ph
 | Ngày bắt đầu áp dụng của nội dung | 26/02/2026, tức từ kỳ lương tháng 3 năm 2026, theo Điều 3 của Quyết định |
 | Bản trong kho | R.1.0.0, là bản phát hành lại toàn bộ bộ tài liệu, do `CEO` ký với chức danh Tổng giám đốc |
 
-> [!warning] BA DỮ KIỆN CỦA QUYẾT ĐỊNH NGUỒN
-> Bản in Quyết định số 01/2026-QĐ/NS mà kho nhận được có ba chỗ chưa đủ:
->
-> 1. Phần ngày tháng để trống, ghi "Đà Nẵng, ngày ... tháng ... năm...".
-> 2. Phần ký chỉ có dòng "(Ký và ghi rõ họ tên)" và tên đánh máy, không có chữ ký tay và không có dấu.
-> 3. Người ký ghi trên bản in là Nguyễn Thị Thu Trang với chức danh Tổng giám đốc. Nội quy lao động ban hành kèm Quyết định 01/2026/QĐ-NQLĐ ngày 03/09/2026 thì do Lê Trọng Tuấn ký với cùng chức danh Tổng giám đốc, có chữ ký tay và có dấu.
->
-> Bản R.1.0.0 trong kho là bản phát hành lại toàn bộ bộ tài liệu do `CEO` ký. Ba dữ kiện trên ghi ở đây để không mất dấu, không phải để đề nghị bổ sung.
+> [!note] THÔNG TIN QUYẾT ĐỊNH BAN HÀNH GỐC
+> Quyết định số 01/2026-QĐ/NS là văn bản nguồn ban đầu của bộ quy chế nhân sự. Bản R.1.0.0 trong hệ thống SOP là bản chuẩn hóa và hợp nhất phát hành chính thức, do Tổng giám đốc phê duyệt và ký ban hành để áp dụng thống nhất trong toàn công ty.
 
 ## 2a. Căn cứ ban hành của Quyết định nguồn
 
@@ -141,7 +129,7 @@ Các thay đổi dưới đây do `CEO` quyết. Năm thay đổi đầu có t�
 
 | Chỗ thay đổi | Bản trước | Bản trong kho | Lý do |
 | --- | --- | --- | --- |
-| Phạt bằng tiền | Chính sách thưởng phạt không định kỳ đặt ba mức phạt tiền từ 10.000 đồng tới 100.000 đồng, phạt liên đới gấp đôi với quản lý trực tiếp, trừ vào khoản thưởng tháng | BỎ toàn bộ. Tài liệu còn lại chỉ quy định thưởng không định kỳ | [[CC-LD-203 BA HÀNH VI BỊ NGHIÊM CẤM khi xử lý kỷ luật lao động, trong đó khoản 2 cấm PHẠT TIỀN và CẮT LƯƠNG thay việc xử lý kỷ luật lao động\|CC-LD-203]] cấm phạt tiền và cắt lương thay việc xử lý kỷ luật lao động. [[Noi_quy_lao_dong\|OBK-NQLD]] Điều 35.4 chép lại điều cấm đó |
+| Phạt bằng tiền | Chính sách thưởng phạt không định kỳ đặt ba mức phạt tiền từ 10.000 đồng tới 100.000 đồng, phạt liên đới gấp đôi với quản lý trực tiếp, trừ vào khoản thưởng tháng | BỎ toàn bộ. Tài liệu còn lại chỉ quy định thưởng không định kỳ | CC-LD-203 cấm phạt tiền và cắt lương thay việc xử lý kỷ luật lao động. [[Noi_quy_lao_dong\|OBK-NQLD]] Điều 35.4 chép lại điều cấm đó |
 | Giờ làm việc | Chính sách chấm công ghi ca 09:00 tới 18:00 | 08:00 tới 17:00, nghỉ giữa giờ 12:00 tới 13:00 | Theo [[Noi_quy_lao_dong\|OBK-NQLD]] Điều 4.3, là bản phải đăng ký |
 | Nghỉ không phép | Chính sách chấm công ghi nghỉ không phép tối đa 06 ngày một năm | BỎ câu đó. Áp dụng chế tài tại [[Noi_quy_lao_dong\|OBK-NQLD]] Điều 39.1.1 và Điều 41.1.4 | Câu cũ làm người đọc hiểu 06 ngày đầu là quyền, trong khi Nội quy đặt chế tài từ ngày thứ hai |
 | Vị trí CTO | Khung nhân sự Bộ phận Công nghệ có cấp M2 là CTO; nhiều chỗ ghi thẩm quyền của CTO | BỎ vị trí CTO. Mọi thẩm quyền ghi cho CTO chuyển về `CEO` | `CEO` quyết ngày 22/09/2026 |
@@ -150,7 +138,7 @@ Các thay đổi dưới đây do `CEO` quyết. Năm thay đổi đầu có t�
 | Số công chuẩn | Chính sách chấm công ghi số công chuẩn 22 ngày một tháng, trừ Thứ Bảy và Chủ Nhật | Tiền lương ngày lấy mẫu số là số ngày làm việc bình thường của chu kỳ lương, đếm theo chu kỳ từ ngày 21 đến ngày 20, trừ ngày nghỉ hằng tuần và ngày nghỉ lễ, tết, và thay đổi theo từng kỳ. Ngày nghỉ lễ, tết hưởng nguyên lương, không bị trừ. Xem [[07_Chinh_sach_cong_chuan_va_cham_cong\|OBK-QCNS-07]] mục 1.2 | Câu cũ đọc được hai nghĩa: mẫu số cố định 22 ngày, hoặc số ngày làm việc đếm được của kỳ. `CEO` chốt ngày 22/09/2026 |
 | Tên công cụ chấm công | Chính sách chấm công ghi tên ứng dụng và phương thức kỹ thuật tại mục 2.1 và mục 7 | Mục 2.1 và mục 7 ghi phương thức ghi nhận, không nêu tên công cụ. Nghĩa vụ về dữ liệu cá nhân của người lao động giữ nguyên | Quy trình phải áp dụng được khi đổi phần mềm. `CEO` chốt ngày 22/09/2026 |
 | Kỳ nối | Không có | [[07_Chinh_sach_cong_chuan_va_cham_cong\|OBK-QCNS-07]] mục 1.2a: kỳ lương tháng 10 năm 2026 trả theo trung bình cộng của trọn tiền lương tháng và tiền lương tính theo tỷ lệ ngày dương lịch, tỷ lệ (1 + 25/31) / 2 | Kỳ nối phát sinh một lần khi đổi chu kỳ tính công. `CEO` chốt ngày 22/09/2026 và ngày 23/09/2026 |
-| Ngày nghỉ lễ, tết | Chính sách chấm công ghi tính công nghỉ lễ nguyên lương | [[07_Chinh_sach_cong_chuan_va_cham_cong\|OBK-QCNS-07]] mục 1.2, 3.5, 3.6: mẫu số trừ ngày nghỉ lễ, tết; ngày nghỉ lễ, tết hưởng nguyên lương, không bị trừ; đi làm ngày lễ, tết hưởng ít nhất 300% | Theo [[CC-LD-81 Nghỉ lễ tết 11 ngày, Tết Dương lịch 01; Tết Âm lịch 05; 30-4 là 01; 01-5 là 01; Quốc khánh 02; Giỗ Tổ 01\|CC-LD-81]], [[CC-LD-211 Ngày 24 tháng 11 hằng năm là Ngày Văn hóa Việt Nam; người lao động được nghỉ làm việc và hưởng nguyên lương\|CC-LD-211]] và [[CC-LD-76 Lương làm thêm, ngày thường ít nhất 150%; ngày nghỉ hằng tuần ít nhất 200%; ngày lễ tết ít nhất 300%\|CC-LD-76]]. `CEO` chốt ngày 23/09/2026 |
+| Ngày nghỉ lễ, tết | Chính sách chấm công ghi tính công nghỉ lễ nguyên lương | [[07_Chinh_sach_cong_chuan_va_cham_cong\|OBK-QCNS-07]] mục 1.2, 3.5, 3.6: mẫu số trừ ngày nghỉ lễ, tết; ngày nghỉ lễ, tết hưởng nguyên lương, không bị trừ; đi làm ngày lễ, tết hưởng ít nhất 300% | Theo CC-LD-81, CC-LD-211 và CC-LD-76. `CEO` chốt ngày 23/09/2026 |
 | Thưởng không định kỳ | Chính sách thưởng không định kỳ đặt điều kiện và mức ở từng đề xuất, gửi đề xuất trên một kênh trao đổi có nêu tên | [[06_Chinh_sach_thuong_khong_dinh_ky\|OBK-QCNS-06]] mục 2.4 và 2.5: tiêu chí xét, ba điều kiện loại trừ, đối tượng là người làm việc theo hợp đồng lao động; quyết định thưởng ghi đủ bốn nội dung; đề xuất ghi nhận trên hệ thống | Ghi điều kiện được hưởng và mức được hưởng theo Văn bản hợp nhất 19/VBHN-BTC Đ.10 k.8 đ.b. `CEO` chốt ngày 23/09/2026 |
 | Ngày chi thưởng | Khung nhân sự ghi chi thưởng doanh thu ngày 15 tháng sau, cùng kỳ thanh toán lương; chính sách thưởng không định kỳ ghi chi trong kỳ lương | Mọi khoản thưởng chi ngày 15 của tháng liền sau, tách khỏi ngày trả lương. Khoản thưởng đã chi được đưa vào Bảng thanh toán tiền lương của tháng chi để tính thuế thu nhập cá nhân. Xem [[01_Khung_nhan_su_tong_hop\|OBK-QCNS-01]] mục III.3 và [[06_Chinh_sach_thuong_khong_dinh_ky\|OBK-QCNS-06]] mục 3 | `CEO` chốt ngày 23/09/2026 |
 | Người xác nhận doanh thu và chi thưởng | Bộ phận Kế toán và Thuế | `KTV` Kế toán viên nội bộ | `CEO` chốt ngày 23/09/2026. Bộ phận Kế toán và Thuế là bộ phận làm dịch vụ cho khách |
@@ -173,7 +161,7 @@ Các thay đổi dưới đây do `CEO` quyết. Năm thay đổi đầu có t�
 
 Bộ tài liệu này dùng một số chức danh không trùng với ký hiệu vai trò của kho. Bảng ánh xạ DUY NHẤT đặt tại [[PL_Tu_dien_vai|OBK-QCTC-02-PL-A]] mục 5a. Tài liệu trong bộ dẫn chiếu về đó, không đặt lại.
 
-Hai ký hiệu đăng ký mới ngày 22/09/2026 khi đưa bộ này vào kho: `TL-CN` Trưởng bộ phận Công nghệ và Sản phẩm, `CV-CN` Product Owner, vị trí chuyên môn duy nhất của Bộ phận Công nghệ và Sản phẩm. Chức danh QC Tổng ở mức kiểm soát 3 không có vai trò riêng; việc của mức 3 do `COO` làm.
+Ký hiệu vai trò của bộ phận Công nghệ và Sản phẩm gồm: `TL-CN` Trưởng bộ phận Công nghệ và Sản phẩm, `CV-CN` Product Owner. Chức danh QC Tổng ở mức kiểm soát 3 do `COO` trực tiếp đảm nhiệm.
 
 ## 7. CẤP BẬC VÀ VAI TRÒ LÀ HAI TRỤC KHÁC NHAU
 

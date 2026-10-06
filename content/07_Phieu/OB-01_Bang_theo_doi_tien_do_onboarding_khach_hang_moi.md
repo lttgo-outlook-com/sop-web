@@ -4,19 +4,15 @@ code: "OB-01"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-TTT-05 Cách làm phiếu thao tác"
-law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OB-01
 tags:
@@ -29,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | OB-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -40,6 +36,7 @@ tags:
 | **Ai dùng** | Chuyên viên Quản lý khách hàng (`AM`), Kế toán viên (`KTV`), Chuyên viên Lao động (`CV-LD`), Chuyên viên Pháp lý (`CV-LS`), Trưởng các bộ phận (`TL`), Giám đốc điều hành (`COO`) |
 | **Sinh từ** | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] Job `AM-08`, `AM-09`;<br>[[PL_G_Moc_cong_viec_va_dau_ra_dich_vu\|OBK-SOP-PL-G]] Mốc M1;<br>[[TL-02_Phieu_yeu_cau_va_bien_ban_ban_giao_tai_lieu\|TL-02]];<br>[[KH-01_So_quan_tri_khach_hang_va_dich_vu_crm\|KH-01]] |
 | **Ngày làm phiếu** | 27/09/2026 |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
@@ -91,7 +88,7 @@ Quy trình tiếp nhận khách hàng mới được tiêu chuẩn hóa thành 0
 ### 1. Giai đoạn 1: Khởi tạo và thiết lập kênh liên lạc (D0 đến D3)
 - Ngay sau khi ký hợp đồng dịch vụ: `AM` tạo mã khách hàng trên [[KH-01_So_quan_tri_khach_hang_va_dich_vu_crm|KH-01]], tạo thư mục lưu trữ dữ liệu riêng trên hệ thống đám mây nội bộ.
 - Thiết lập nhóm trao đổi công việc chính thức (qua kênh thư điện tử hoặc ứng dụng tin nhắn) với đúng thành phần: người đại diện pháp luật bên khách hàng, kế toán nội bộ khách hàng, `AM` và `KTV` phụ trách.
-- `AM` gửi Thư chào mừng chính thức kèm Phiếu yêu cầu cung cấp tài liệu theo biểu mẫu [[TL-02_Phieu_yeu_cau_va_bien_ban_ban_giao_tai_lieu|TL-02]], nêu rõ thời hạn bàn giao từng loại giấy tờ.
+- `AM` gửi Thư chào mừng chính thức kèm Phiếu yêu cầu cung cấp tài liệu theo biểu mẫu TL-02, nêu rõ thời hạn bàn giao từng loại giấy tờ.
 
 ### 2. Giai đoạn 2: Thu thập và kiểm tra hồ sơ pháp lý nền tảng (D4 đến D10)
 - Thu nhận bản sao hợp lệ: Giấy chứng nhận đăng ký doanh nghiệp (ERC), Giấy chứng nhận đăng ký đầu tư (IRC đối với doanh nghiệp có vốn đầu tư nước ngoài), Điều lệ công ty, Căn cước công dân của người đại diện theo pháp luật.
@@ -109,10 +106,10 @@ Quy trình tiếp nhận khách hàng mới được tiêu chuẩn hóa thành 0
 - Hai bên ký Biên bản hoàn tất tiếp nhận và bàn giao Onboarding.
 - `AM` thực hiện đóng mã Onboarding trên Bảng OB-01, chuyển trạng thái tài khoản khách hàng trên [[KH-01_So_quan_tri_khach_hang_va_dich_vu_crm|KH-01]] từ `Onboarding` sang `Vận hành thường xuyên`.
 
-## QUY TRÌNH 4 BƯỚC VẬN HÀNH TIẾP NHẬN KHÁCH HÀNG
+## QUY TRÌNH VẬN HÀNH TIẾP NHẬN KHÁCH HÀNG
 
 1. **Khởi tạo và phân công nhiệm vụ (D0):** `AM` tạo dòng theo dõi trên Bảng OB-01, phân công chuyên viên thực hiện (`KTV`, `CV-LD`, `CV-LS`) và người kiểm soát lớp hai (`TL-KT`).
-2. **Theo dõi bảng kiểm hồ sơ và đôn đốc tài liệu:** Cập nhật tỷ lệ thu thập hồ sơ hằng ngày. Nếu khách hàng chậm bàn giao hồ sơ quá 05 ngày làm việc so với phiếu yêu cầu, áp dụng cơ chế tạm dừng đồng hồ cam kết dịch vụ theo quy định tại [[TL-02_Phieu_yeu_cau_va_bien_ban_ban_giao_tai_lieu|TL-02]].
+2. **Theo dõi bảng kiểm hồ sơ và đôn đốc tài liệu:** Cập nhật tỷ lệ thu thập hồ sơ hằng ngày. Nếu khách hàng chậm bàn giao hồ sơ quá 05 ngày làm việc so với phiếu yêu cầu, áp dụng cơ chế tạm dừng đồng hồ cam kết dịch vụ theo quy định tại TL-02.
 3. **Phê duyệt Báo cáo hiện trạng tiếp nhận:** Trưởng bộ phận Kế toán (`TL-KT`) kiểm soát nội dung báo cáo khảo sát hiện trạng trước khi `AM` gửi chính thức cho người đại diện khách hàng.
 4. **Nghiệm thu và chuyển trạng thái:** Khi hoàn thành đầy đủ 04 giai đoạn, ký biên bản bàn giao, cập nhật ngày hoàn thành thực tế và gửi đường dẫn khảo sát độ hài lòng của khách hàng đối với dịch vụ Onboarding (`AM-M12`).
 
@@ -130,15 +127,6 @@ Quy trình tiếp nhận khách hàng mới được tiêu chuẩn hóa thành 0
 
 Bảo đảm quá trình tiếp nhận khách hàng mới diễn ra đúng quy trình, đúng tiến độ và không bỏ sót các nghĩa vụ pháp lý nền tảng; nhận diện và phân định rạch ròi trách nhiệm đối với các rủi ro nợ thuế và sai lệch số liệu tồn đọng trong quá khứ của khách hàng trước khi oBacker tiếp nhận thực hiện dịch vụ; thiết lập nền tảng dữ liệu kế toán chuẩn mực ngay từ tháng đầu tiên; tạo trải nghiệm khởi đầu tốt đẹp để duy trì sự gắn kết lâu dài của khách hàng với công ty.
 
-### 2. Căn cứ quy định và pháp luật liên quan
-
-| Mục | Nguồn | Nội dung |
-| --- | --- | --- |
-| Chuẩn vận hành dịch vụ | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 6.3 | Tiêu chuẩn giao tiếp và các mốc cam kết thời gian dịch vụ |
-| Quản trị khách hàng | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] Job `AM-08`, `AM-09` | Quy trình bàn giao khách mới và thiết lập kênh liên lạc |
-| Mốc công việc dịch vụ | [[PL_G_Moc_cong_viec_va_dau_ra_dich_vu\|OBK-SOP-PL-G]] Mốc M1 | Trình tự tiếp nhận và bàn giao hồ sơ kế toán ban đầu |
-| Bàn giao chữ ký số | [[CK-01_Ban_giao_chu_ky_so_va_hoa_don\|CK-01]] | Bàn giao thiết bị và hướng dẫn quản lý mật khẩu chữ ký số |
-| Quản lý tài liệu | [[TL-02_Phieu_yeu_cau_va_bien_ban_ban_giao_tai_lieu\|TL-02]] | Biểu mẫu yêu cầu và đôn đốc cung cấp hồ sơ khách hàng |
 
 ---
 
@@ -146,4 +134,4 @@ Bảo đảm quá trình tiếp nhận khách hàng mới diễn ra đúng quy t
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu OB-01 về Sổ cái OBK-MSR |

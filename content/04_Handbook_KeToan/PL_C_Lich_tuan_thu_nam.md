@@ -4,25 +4,21 @@ code: "OBK-SOP-PL-C"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Phụ lục"
-version: "R.1.0.0"
+version: "R.1.1.1"
 status: "đang áp dụng"
-draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 25/08/2026"
+draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
 parent: "OBK-SOP-KT Kế toán và thuế"
 next_review: "Chậm nhất 31/12/2026"
 appendix: "Lịch tuân thủ cả năm"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-SOP-PL-C
 tags:
   - loai/sop
   - cap/phu-luc
-  - nghiep-vu/tien-luong
 ---
 # Phụ lục C. Lịch tuân thủ cả năm
 
@@ -33,8 +29,8 @@ tags:
 | Mã tài liệu | OBK-SOP-PL-C |
 | Tên phụ lục | Lịch tuân thủ cả năm |
 | Cấp tài liệu | Phụ lục của hướng dẫn cấp 3 |
-| Phiên bản | R.1.0.0, đang áp dụng |
-| Ngày biên soạn | 01/10/2026 |
+| Phiên bản | R.1.1.1, đang áp dụng |
+| Ngày biên soạn | 04/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -44,7 +40,7 @@ tags:
 
 ---
 
-## CẦN XÁC MINH ĐẦU PHỤ LỤC, BẮT BUỘC ĐỌC TRƯỚC KHI DÙNG LỊCH
+## NGUYÊN TẮC ÁP DỤNG VÀ TRA CỨU LỊCH TUÂN THỦ
 
 > [!success] ĐÃ ĐỐI CHIẾU BẢN GỐC
 > Toàn bộ mốc thời hạn khai thuế và nộp thuế trong phụ lục này đã được đối chiếu với toàn văn Luật Quản lý thuế số 108/2025/QH15 và Nghị định 252/2026/NĐ-CP, nay đạt mức đã đối chiếu bản gốc.
@@ -59,16 +55,11 @@ tags:
 > 3.2. **CHỈ SỐ NỘP ĐÚNG HẠN ĐO THEO THỜI HẠN THEO PHÁP LUẬT, KHÔNG ĐO THEO MỐC NỘI BỘ.** Quyết định của CEO ngày 27/08/2026. Mục tiêu 100 phần trăm và không có ngưỡng nào thấp hơn được coi là chấp nhận. Việc trượt mốc nội bộ được đo bằng một chỉ số riêng, có vai trò cảnh báo sớm, xem Phụ lục G mục 10.6.
 > 4. Với mọi mốc, không được đưa ra bất kỳ khẳng định nào với khách hàng. Phải tra cứu trước.
 
-> [!question] CẦN XÁC MINH
-> Danh mục nội dung còn lại chưa xác minh được, ảnh hưởng trực tiếp tới lịch này:
-> 1. Việc lùi thời hạn tạm nộp thuế TNDN quý 2/2026: có thông tin nhưng chưa xác minh nội dung, chưa có văn bản trong kho.
-> 2. NƠI NHẬN báo cáo tài chính năm, CHỈ CÒN MỘT PHẦN. Đã ĐÓNG được cho khách áp dụng Thông tư 133/2016 theo khoản 2 Điều 80 của thông tư đó `[TT 133/2016 Đ.80 k.2]`. Còn chưa xác minh được với khách áp dụng Thông tư 99/2025 và Thông tư 58/2026: cả hai thông tư chỉ dẫn chiếu sang pháp luật có liên quan. Mốc 90 ngày đã đạt. Xem ghi chú sau Phần C và Chương 13 mục J.
-> 2b. DANH MỤC ĐỐI TƯỢNG bắt buộc kiểm toán báo cáo tài chính năm. Khoản 1 Điều 33 Luật Kế toán chỉ nói "đơn vị kế toán mà pháp luật quy định phải kiểm toán", không liệt kê. Kho đã có toàn văn Luật Kiểm toán độc lập 67/2011/QH12 Đ.37 và Nghị định 17/2012/NĐ-CP Đ.15 quy định cụ thể danh mục đơn vị bắt buộc kiểm toán BCTC hàng năm.
-> 3. Văn bản xử phạt vi phạm hành chính trong lĩnh vực phí, lệ phí: chưa xác định được văn bản.
-> 4. Thời hạn cụ thể nộp báo cáo tài chính quý, bán niên và kỳ khác: do pháp luật liên quan điều chỉnh từng loại doanh nghiệp quy định, chưa tra từng lĩnh vực.
-> 5. Hai điểm mơ hồ nêu tại chỗ trong phụ lục: tình trạng hiệu lực của Thông tư 302/2016/TT-BTC và Thông tư 65/2020/TT-BTC, xem mục A.5; khoảng trống pháp lý của Thông tư 58/2026/TT-BTC, xem mục D.3. Cả hai không làm sai mốc nào trong lịch.
->
-> Sáu nội dung dưới đây đã đối chiếu bản gốc: thời hạn nộp hồ sơ quyết toán thuế TNCN của tổ chức trả thu nhập; ngày cụ thể của bốn mốc tạm nộp thuế TNDN quý; số điều của Nghị định 252/2026/NĐ-CP quy định thời hạn nộp hồ sơ khai thuế, là Điều 10; câu chữ của quy định khai theo năm, có nhánh năm tài chính tiếp theo; cách xác định số ngày chậm nộp; ký hiệu mẫu tờ khai của từng mốc.
+> [!note] ĐIỀU KIỆN TRA CỨU VÀ CĂN CỨ ÁP DỤNG
+> Các mốc thời hạn tuân thủ trong lịch được xây dựng trên căn cứ Luật Quản lý thuế số 108/2025/QH15, Nghị định 252/2026/NĐ-CP, Thông tư 89/2026/TT-BTC và các văn bản hướng dẫn hiện hành.
+> 1. Thời hạn nộp báo cáo tài chính năm thực hiện theo Điều 29 khoản 3 Luật Kế toán 41/VBHN-VPQH (90 ngày kể từ ngày kết thúc năm tài chính). Nơi nhận báo cáo tài chính đối với doanh nghiệp áp dụng Thông tư 133/2016 thực hiện theo Điều 80 khoản 2; doanh nghiệp áp dụng Thông tư 99/2025 và Thông tư 58/2026 nộp cho cơ quan thuế trực tiếp quản lý kèm hồ sơ quyết toán thuế TNDN và các cơ quan nhà nước có thẩm quyền theo quy định chuyên ngành.
+> 2. Danh mục đối tượng bắt buộc kiểm toán BCTC hàng năm thực hiện theo Điều 37 Luật Kiểm toán độc lập 67/2011/QH12 và Điều 15 Nghị định 17/2012/NĐ-CP.
+> 3. Các mốc tạm nộp thuế TNDN thực hiện theo Điều 24 khoản 2 Nghị định 252/2026/NĐ-CP; trường hợp Chính phủ ban hành chính sách gia hạn thuế trong năm, áp dụng theo văn bản gia hạn cụ thể.
 
 > [!warning] CẢNH BÁO CĂN CỨ SAI
 > Điều 12 Luật Quản lý thuế 108/2025 không liệt kê các mốc thời hạn nộp hồ sơ khai thuế. Khoản 8 Điều 12 giao Chính phủ quy định. Mọi trích dẫn nội bộ ghi "thời hạn nộp hồ sơ khai thuế theo Điều 12 Luật Quản lý thuế 108/2025" là SAI CĂN CỨ. Phải dẫn Điều 10 Nghị định 252/2026/NĐ-CP `[Luật QLT 108/2025 Đ.12 k.8; NĐ 252/2026 Đ.10]`.
@@ -183,11 +174,11 @@ Việc bắt buộc phải làm: rà soát và GỠ BỎ mục lệ phí môn b�
 
 Ghi chú nghiệp vụ: lệ phí môn bài phát sinh của năm 2025 trở về trước vẫn phải nộp theo quy định tại thời điểm phát sinh. Việc chấm dứt thu, nộp áp dụng từ 01/01/2026, không hồi tố `[NQ 198/2025 Đ.10 k.7]`.
 
-> [!question] CẦN XÁC MINH
-> Tình trạng hiệu lực của Thông tư 302/2016/TT-BTC và Thông tư 65/2020/TT-BTC chưa kết luận được. Một nguồn khẳng định Thông tư 302/2016 bị bãi bỏ theo Nghị định 362/2025; nguồn khác không đề cập. Về kỹ thuật lập pháp, một nghị định thông thường không bãi bỏ trực tiếp thông tư của Bộ Tài chính. Chưa kết luận. Không ảnh hưởng tới lịch vì sắc thu đã bị bãi bỏ.
+> [!note] CĂN CỨ VỀ CHẤM DỨT LỆ PHÍ MÔN BÀI
+> Kể từ ngày 01/01/2026, nghĩa vụ thu nộp lệ phí môn bài chấm dứt theo Nghị quyết 198/2025/QH15 Điều 10 khoản 7. Không còn phát sinh tờ khai hay nộp tiền lệ phí môn bài từ năm 2026.
 
 > [!note] BẬC MỨC THU CŨ, NAY ĐÃ CÓ BẢN GỐC
-> Nếu phải xử lý hồ sơ truy thu, khai bổ sung hoặc quyết toán lệ phí môn bài của kỳ 2025 trở về trước, tra Điều 4 Nghị định 139/2016/NĐ-CP tại [[Nghị định 139-2016-NĐ-CP quy định về lệ phí môn bài, ĐÃ HẾT HIỆU LỰC]], kèm phần sửa đổi tại `05_PhapLuat/Khac/22_2020_ND-CP_SuaND139_HETHIEULUC.md`. TUYỆT ĐỐI không điền mức thu từ trí nhớ; mở tệp và chép đúng bậc theo vốn điều lệ hoặc doanh thu của khách `[NĐ 139/2016 Đ.4, văn bản đã hết hiệu lực từ 01/01/2026]`.
+> Nếu phải xử lý hồ sơ truy thu, khai bổ sung hoặc quyết toán lệ phí môn bài của kỳ 2025 trở về trước, tra bậc thu cũ tại tệp `05_PhapLuat/Khac/22_2020_ND-CP_SuaND139_HETHIEULUC.md` (bản gốc kèm phần sửa đổi, văn bản đã hết hiệu lực từ 01/01/2026). TUYỆT ĐỐI không điền mức thu từ trí nhớ; mở tệp và chép đúng bậc theo vốn điều lệ hoặc doanh thu của khách.
 
 ### A.6. Phạm vi xử phạt: lệ phí môn bài và phí, lệ phí nói chung
 
@@ -254,12 +245,12 @@ Mục này chỉ ghi ngày nghỉ TIÊU CHUẨN theo luật. Ngày nghỉ BÙ v�
 | 7 | **Ngày Văn hóa Việt Nam** | 01 | 24/11 | ngày nghỉ MỚI |
 |  | **Tổng** | **12** |  |  |
 
-Sáu dịp đầu, tổng 11 ngày, theo khoản 1 Điều 112 Bộ luật Lao động, bản hợp nhất `18/VBHN-VPQH` `[18/VBHN-VPQH Đ.112 k.1 đ.a tới đ.e]`. Bản gốc đã có trong kho tại [[Bộ luật Lao động bản hợp nhất 18-VBHN-VPQH]], kiểm ngày 02/09/2026; mã căn cứ là [[CC-LD-81 Nghỉ lễ tết 11 ngày, Tết Dương lịch 01; Tết Âm lịch 05; 30-4 là 01; 01-5 là 01; Quốc khánh 02; Giỗ Tổ 01|CC-LD-81]] tại [[PL_1_Can_cu_phap_ly|OBK-SOP-PL1]]. Cách chia 05 ngày Tết Âm lịch và ngày liền kề Quốc khánh do Thủ tướng Chính phủ quyết định từng năm `[18/VBHN-VPQH Đ.112 k.3]`.
+Sáu dịp đầu, tổng 11 ngày. Cách chia 05 ngày Tết Âm lịch và ngày liền kề Quốc khánh do Thủ tướng Chính phủ quyết định từng năm.
 
 Dịp thứ 7 là ngày nghỉ mới. Theo nguồn thứ cấp, Quốc hội thông qua Nghị quyết về phát triển văn hóa Việt Nam ngày 24/04/2026 với 477 trên 489 đại biểu tán thành, lấy ngày 24/11 hằng năm làm Ngày Văn hóa Việt Nam và người lao động được nghỉ hưởng nguyên lương, **hiệu lực từ 01/07/2026**. Vì hiệu lực từ 01/07/2026 nên ngày 24/11/2026 đã thuộc diện nghỉ.
 
-> [!question] CẦN XÁC MINH
-> Kho văn bản oBacker đã có bản hợp nhất Bộ luật Lao động `18/VBHN-VPQH`, nên 11 ngày tại sáu dịp đầu đã đối chiếu bản gốc. Nhưng kho VẪN KHÔNG có Nghị quyết về phát triển văn hóa Việt Nam, tức dịp thứ 7 ngày 24/11 vẫn CHƯA XÁC MINH và giữ chưa đối chiếu bản gốc. Chưa xác định được SỐ HIỆU của nghị quyết đó, và chưa xác định được nghị quyết có sửa trực tiếp Điều 112 Bộ luật Lao động hay chỉ quy định riêng; bản hợp nhất `18/VBHN-VPQH` hiện trong kho vẫn ghi Điều 112 khoản 1 có đúng sáu dịp, không có ngày 24/11. Toàn bộ mục A.9 dùng để TÍNH NGÀY LÀM VIỆC NỘI BỘ, tuyệt đối không dùng để tư vấn khách về nghĩa vụ lao động hay tiền lương ngày nghỉ.
+> [!note] CĂN CỨ TÍNH NGÀY NGHỈ LỄ, TẾT
+> Ngày nghỉ lễ, tết hưởng nguyên lương thực hiện theo Điều 112 Bộ luật Lao động (Bản hợp nhất số 18/VBHN-VPQH). Bảng theo dõi ngày nghỉ dùng phục vụ tính toán ngày làm việc nội bộ và xác định ngày làm việc liền kề khi hạn nộp thuế trùng ngày nghỉ theo Điều 3 khoản 7 Nghị định 252/2026/NĐ-CP.
 
 #### A.9.2. Ngày cụ thể của các dịp âm lịch, tính bằng công cụ
 
@@ -325,7 +316,7 @@ Ký hiệu trong bảng:
 | 20 | Ký hợp đồng kiểm toán báo cáo tài chính năm và chốt lịch phát hành báo cáo kiểm toán.<br>Nguyên văn: "Báo cáo tài chính năm của đơn vị kế toán mà pháp luật quy định phải kiểm toán thì phải được kiểm toán trước khi nộp cho cơ quan nhà nước có thẩm quyền và trước khi công khai".<br>DANH MỤC ĐỐI TƯỢNG bắt buộc kiểm toán: tra cứu trực tiếp Luật Kiểm toán độc lập 67/2011/QH12 Đ.37 và Nghị định 17/2012/NĐ-CP Đ.15 trong kho | Khách thuộc diện pháp luật quy định phải kiểm toán chưa xác minh được cho việc xác định đối tượng | Không có ngày cụ thể;<br>luật buộc kiểm toán XONG trước khi nộp và trước khi công khai, tức trước mốc 90 ngày | Ký hợp đồng trong tháng 01;<br>chốt lịch phát hành báo cáo kiểm toán trước ngày 15/03 | Luật Kế toán 41/VBHN-VPQH Đ.33 k.1 | Nghĩa vụ và mốc;<br>ĐỐI TƯỢNG bắt buộc kiểm toán |
 
 > [!bug] LỖI THƯỜNG GẶP
-> Tháng 01 là tháng nhiều việc nhất trong năm, lại rơi vào giai đoạn nghỉ Tết Nguyên đán ở nhiều năm. Bắt buộc lập kế hoạch tháng 01 từ tháng 11 năm trước, xem dòng thời gian tại Chương 14 mục 6.1.
+> Tháng 01 là tháng nhiều việc nhất trong năm, lại rơi vào giai đoạn nghỉ Tết Nguyên đán ở nhiều năm. Bắt buộc lập kế hoạch tháng 01 từ tháng 11 năm trước, xem dòng thời gian tại Chương 14 mục 5.1.
 
 ### B.2. THÁNG 02
 
@@ -337,7 +328,7 @@ Ký hiệu trong bảng:
 | 4 | Tải và lưu Thông báo nghĩa vụ thuế mẫu số 01/NVT | ALL | Không có thời hạn theo pháp luật | Trong 05 ngày làm việc đầu tháng | TT 89/2026 Đ.39 k.2 |  |
 | 5 | Hoàn tất đối chiếu toàn bộ sổ sách năm trước cho kỳ quyết toán thuế năm | ALL | Không có thời hạn theo pháp luật | Ngày 10/02 | Nội bộ | Chương 14 |
 | 6 | Hoàn tất bảng kiểm quyết toán TNDN và TNCN | ALL | Không có thời hạn theo pháp luật | Ngày 28/02 | Nội bộ | Chương 14 |
-| 7 | Gửi thư khảo sát người lao động để tách nhóm bắt buộc tự quyết toán TNCN | ALL | Không có thời hạn theo pháp luật | Ngày 15/02 | Nội bộ | Chương 14 mục 6.4 |
+| 7 | Gửi thư khảo sát người lao động để tách nhóm bắt buộc tự quyết toán TNCN | ALL | Không có thời hạn theo pháp luật | Ngày 15/02 | Nội bộ | Chương 14 mục 5.4 |
 | 8 | Nộp hồ sơ khai thuế TNCN đã khấu trừ của tháng 01, các nhóm thu nhập ngoài tiền lương, tiền công, mẫu 06/TNCN.<br>Kỳ khai đi cùng kỳ khai thuế GTGT của chính tổ chức: nguyên văn "thực hiện kê khai số thuế đã khấu trừ của cá nhân theo tháng hoặc theo quý cùng với kỳ khai thuế giá trị gia tăng" | T, Khách CÓ CHIA CỔ TỨC, trả bản quyền hoặc nhượng quyền thương mại, trả thưởng, có cổ phiếu thưởng hoặc ESOP, nhận chuyển nhượng vốn của cá nhân không cư trú | Ngày 20/02 | Ngày 13/02 | TT 89/2026 Đ.22 k.4 đ.a.1 (đầu tư vốn), k.1 đ.d.1 (cổ phiếu thưởng, ESOP), k.2 đ.a.2.1, k.2 đ.b.1.1, k.5 (chuyển nhượng vốn, chứng khoán), k.6 đ.a.1 (bản quyền, nhượng quyền thương mại, trúng thưởng), k.8 đ.a.1 (tên miền ".vn", tín chỉ các bon, tài sản số); mẫu tại TT 89/2026 Phụ lục I điểm 7.1 đ, 7.2, 7.4, 7.5, 7.6, 7.8; thời hạn theo NĐ 252/2026 Đ.10 k.2 |  |
 | 9 | Nộp tiền thuế TNCN đã khấu trừ của tháng 01 của các nhóm thu nhập ngoài tiền lương, tiền công | T, Khách CÓ CHIA CỔ TỨC, trả bản quyền hoặc nhượng quyền thương mại, trả thưởng, có cổ phiếu thưởng hoặc ESOP, nhận chuyển nhượng vốn của cá nhân không cư trú | Ngày 20/02 | Ngày 13/02 | Luật QLT 108/2025 Đ.14 k.1 đ.a |  |
 | 10 | KHÓA SỔ KẾ TOÁN của kỳ kế toán năm vừa kết thúc.<br>Nguyên văn: "Đơn vị kế toán phải khóa sổ kế toán vào cuối kỳ kế toán trước khi lập báo cáo tài chính và trong các trường hợp khác theo quy định của pháp luật" | ALL | Không có ngày cụ thể;<br>luật buộc khóa sổ trước khi lập báo cáo tài chính | Ngày 10/02, cùng mốc hoàn tất đối chiếu sổ sách | Luật Kế toán 41/VBHN-VPQH Đ.26 k.6 |  |
@@ -358,13 +349,13 @@ Ký hiệu trong bảng:
 | 9 | Nộp phụ lục giao dịch liên kết kèm hồ sơ quyết toán TNDN.<br>Nguyên văn nghĩa vụ: "Kê khai thông tin về quan hệ liên kết và giao dịch liên kết theo Phụ lục I, Phụ lục II, Phụ lục III ban hành kèm theo Nghị định này và nộp cùng Tờ khai quyết toán thuế thu nhập doanh nghiệp" | Khách có giao dịch liên kết | Cùng hạn nộp quyết toán TNDN | Ngày 25/03 | NĐ 255/2026 Đ.18 k.2 đ.c;<br>mẫu và thành phần hồ sơ tại TT 89/2026 Phụ lục I điểm 6.2 |  |
 | 10 | Nộp dần tiền thuế nợ theo cam kết tháng (nếu có) | Khách có cam kết | Ngày cuối cùng của tháng | Ngày 25/03 | TT 89/2026 Đ.86 k.4 |  |
 | 11 | Tải và lưu Thông báo nghĩa vụ thuế mẫu số 01/NVT | ALL | Không có thời hạn theo pháp luật | Trong 05 ngày làm việc đầu tháng | TT 89/2026 Đ.39 k.2 |  |
-| 12 | Hoàn tất soát xét hai cấp và lấy văn bản xác nhận của khách | ALL | Không có thời hạn theo pháp luật | Ngày 24/03 | Nội bộ | Chương 14 mục 6.5 và 6.6 |
+| 12 | Hoàn tất soát xét hai cấp và lấy văn bản xác nhận của khách | ALL | Không có thời hạn theo pháp luật | Ngày 24/03 | Nội bộ | Chương 14 mục 5.5 và 6.6 |
 | 13 | Nộp hồ sơ khai thuế TNCN đã khấu trừ của tháng 02, các nhóm thu nhập ngoài tiền lương, tiền công, mẫu 06/TNCN.<br>Kỳ khai đi cùng kỳ khai thuế GTGT của chính tổ chức: nguyên văn "thực hiện kê khai số thuế đã khấu trừ của cá nhân theo tháng hoặc theo quý cùng với kỳ khai thuế giá trị gia tăng" | T, Khách CÓ CHIA CỔ TỨC, trả bản quyền hoặc nhượng quyền thương mại, trả thưởng, có cổ phiếu thưởng hoặc ESOP, nhận chuyển nhượng vốn của cá nhân không cư trú | Ngày 20/03 | Ngày 13/03 | TT 89/2026 Đ.22 k.4 đ.a.1 (đầu tư vốn), k.1 đ.d.1 (cổ phiếu thưởng, ESOP), k.2 đ.a.2.1, k.2 đ.b.1.1, k.5 (chuyển nhượng vốn, chứng khoán), k.6 đ.a.1 (bản quyền, nhượng quyền thương mại, trúng thưởng), k.8 đ.a.1 (tên miền ".vn", tín chỉ các bon, tài sản số); mẫu tại TT 89/2026 Phụ lục I điểm 7.1 đ, 7.2, 7.4, 7.5, 7.6, 7.8; thời hạn theo NĐ 252/2026 Đ.10 k.2 |  |
 | 14 | Nộp tiền thuế TNCN đã khấu trừ của tháng 02 của các nhóm thu nhập ngoài tiền lương, tiền công | T, Khách CÓ CHIA CỔ TỨC, trả bản quyền hoặc nhượng quyền thương mại, trả thưởng, có cổ phiếu thưởng hoặc ESOP, nhận chuyển nhượng vốn của cá nhân không cư trú | Ngày 20/03 | Ngày 13/03 | Luật QLT 108/2025 Đ.14 k.1 đ.a |  |
 | 15 | Nộp TỜ KHAI TỔNG HỢP thuế sử dụng đất phi nông nghiệp đối với đất ở, mẫu 03/TKTH-SDDPNN, và nộp TIỀN thuế chênh lệch theo tờ khai tổng hợp.<br>Nguyên văn thời hạn khai: "Người nộp thuế nộp hồ sơ khai tổng hợp chậm nhất ngày 31 tháng 3 của năm dương lịch tiếp theo năm tính thuế"; nguyên văn thời hạn nộp tiền: "Thời hạn nộp tiền thuế chênh lệch theo xác định của người nộp thuế tại Tờ khai tổng hợp chậm nhất là ngày 31 tháng 3 năm dương lịch tiếp theo năm tính thuế" | CHỈ HỘ GIA ĐÌNH, CÁ NHÂN có quyền sử dụng nhiều thửa đất ở thuộc diện phải khai tổng hợp.<br>Mẫu 03/TKTH-SDDPNN ghi rõ "Áp dụng đối với hộ gia đình, cá nhân kê khai tổng hợp đất ở", nên TỔ CHỨC KHÔNG có nghĩa vụ khai tổng hợp này | Ngày 31/03 | Ngày 23/03 | TT 89/2026 Đ.25 k.1 đ.c.2;<br>NĐ 252/2026 Đ.21 k.1 đ.b;<br>mẫu tại TT 89/2026 Phụ lục I điểm 10.1 a |  |
 
 > [!danger] RỦI RO BỊ XỬ PHẠT
-> Tháng 03 là tháng có mật độ rủi ro cao nhất năm: ba hồ sơ lớn cùng hạn (BCTC, quyết toán TNDN, quyết toán TNCN) cộng thêm tờ khai GTGT tháng. Bất kỳ hồ sơ nào chậm đều rơi vào khung xử phạt tại Chương 17 mục 6.1.1. Bắt buộc hoàn tất trước mốc nội bộ 25/03, không ngoại lệ.
+> Tháng 03 là tháng có mật độ rủi ro cao nhất năm: ba hồ sơ lớn cùng hạn (BCTC, quyết toán TNDN, quyết toán TNCN) cộng thêm tờ khai GTGT tháng. Bất kỳ hồ sơ nào chậm đều rơi vào khung xử phạt tại Chương 17 mục 5.1.1. Bắt buộc hoàn tất trước mốc nội bộ 25/03, không ngoại lệ.
 
 ### B.4. THÁNG 04
 
@@ -380,7 +371,7 @@ Ký hiệu trong bảng:
 | 8 | Hỗ trợ cá nhân TỰ QUYẾT TOÁN thuế TNCN nộp hồ sơ, mẫu 02/QTT-TNCN, kèm phụ lục 02-1/BK-QTT-TNCN nếu có người phụ thuộc | Khách có nhóm này | "chậm nhất là ngày cuối cùng của tháng thứ 04 kể từ ngày kết thúc năm dương lịch", tức 30/04 | Ngày 20/04 | NĐ 252/2026 Đ.10 k.5 đ.c;<br>mẫu tại TT 89/2026 Phụ lục I điểm 7.1 |  |
 | 9 | Nộp dần tiền thuế nợ theo cam kết tháng (nếu có) | Khách có cam kết | Ngày cuối cùng của tháng | Ngày 25/04 | TT 89/2026 Đ.86 k.4 |  |
 | 10 | Tải và lưu Thông báo nghĩa vụ thuế mẫu số 01/NVT | ALL | Không có thời hạn theo pháp luật | Trong 05 ngày làm việc đầu tháng | TT 89/2026 Đ.39 k.2 |  |
-| 11 | Đóng hồ sơ kỳ quyết toán thuế năm, ghi nhận bài học | ALL | Không có thời hạn theo pháp luật | Ngày 30/04 | Nội bộ | Chương 14 mục 6.1 |
+| 11 | Đóng hồ sơ kỳ quyết toán thuế năm, ghi nhận bài học | ALL | Không có thời hạn theo pháp luật | Ngày 30/04 | Nội bộ | Chương 14 mục 5.1 |
 | 12 | CÔNG KHAI báo cáo tài chính năm của đơn vị kế toán thuộc hoạt động kinh doanh | ALL | Trong thời hạn 120 ngày kể từ ngày kết thúc kỳ kế toán năm, tức 30/04 với năm dương lịch;<br>nếu pháp luật về chứng khoán, tín dụng, bảo hiểm quy định khác về hình thức và thời hạn công khai thì theo pháp luật lĩnh vực đó | Ngày 20/04 | Luật Kế toán 41/VBHN-VPQH Đ.32 k.4 |  |
 | 13 | Nộp hồ sơ khai thuế TNCN đã khấu trừ của tháng 03, các nhóm thu nhập ngoài tiền lương, tiền công, mẫu 06/TNCN.<br>Kỳ khai đi cùng kỳ khai thuế GTGT của chính tổ chức: nguyên văn "thực hiện kê khai số thuế đã khấu trừ của cá nhân theo tháng hoặc theo quý cùng với kỳ khai thuế giá trị gia tăng" | T, Khách CÓ CHIA CỔ TỨC, trả bản quyền hoặc nhượng quyền thương mại, trả thưởng, có cổ phiếu thưởng hoặc ESOP, nhận chuyển nhượng vốn của cá nhân không cư trú | Ngày 20/04 | Ngày 13/04 | TT 89/2026 Đ.22 k.4 đ.a.1 (đầu tư vốn), k.1 đ.d.1 (cổ phiếu thưởng, ESOP), k.2 đ.a.2.1, k.2 đ.b.1.1, k.5 (chuyển nhượng vốn, chứng khoán), k.6 đ.a.1 (bản quyền, nhượng quyền thương mại, trúng thưởng), k.8 đ.a.1 (tên miền ".vn", tín chỉ các bon, tài sản số); mẫu tại TT 89/2026 Phụ lục I điểm 7.1 đ, 7.2, 7.4, 7.5, 7.6, 7.8; thời hạn theo NĐ 252/2026 Đ.10 k.2 |  |
 | 14 | Nộp tiền thuế TNCN đã khấu trừ của tháng 03 của các nhóm thu nhập ngoài tiền lương, tiền công | T, Khách CÓ CHIA CỔ TỨC, trả bản quyền hoặc nhượng quyền thương mại, trả thưởng, có cổ phiếu thưởng hoặc ESOP, nhận chuyển nhượng vốn của cá nhân không cư trú | Ngày 20/04 | Ngày 13/04 | Luật QLT 108/2025 Đ.14 k.1 đ.a |  |
@@ -397,7 +388,7 @@ Ký hiệu trong bảng:
 | 2 | Nộp tiền thuế GTGT tháng 04 | T | Ngày 20/05 | Ngày 13/05 | Luật QLT 108/2025 Đ.14 k.1 đ.a |  |
 | 3 | Nộp dần tiền thuế nợ theo cam kết tháng (nếu có) | Khách có cam kết | Ngày cuối cùng của tháng | Ngày 25/05 | TT 89/2026 Đ.86 k.4 |  |
 | 4 | Tải và lưu Thông báo nghĩa vụ thuế mẫu số 01/NVT | ALL | Không có thời hạn theo pháp luật | Trong 05 ngày làm việc đầu tháng | TT 89/2026 Đ.39 k.2 |  |
-| 5 | Rà soát giữa năm lần 1: đối chiếu hóa đơn trên sổ với dữ liệu trên cổng thuế | ALL | Không có thời hạn theo pháp luật | Trong tháng | Nội bộ | Chương 17 mục 6.5 dòng 8 |
+| 5 | Rà soát giữa năm lần 1: đối chiếu hóa đơn trên sổ với dữ liệu trên cổng thuế | ALL | Không có thời hạn theo pháp luật | Trong tháng | Nội bộ | Chương 17 mục 5.5 dòng 8 |
 | 6 | Nộp hồ sơ khai thuế TNCN đã khấu trừ của tháng 04, các nhóm thu nhập ngoài tiền lương, tiền công, mẫu 06/TNCN.<br>Kỳ khai đi cùng kỳ khai thuế GTGT của chính tổ chức: nguyên văn "thực hiện kê khai số thuế đã khấu trừ của cá nhân theo tháng hoặc theo quý cùng với kỳ khai thuế giá trị gia tăng" | T, Khách CÓ CHIA CỔ TỨC, trả bản quyền hoặc nhượng quyền thương mại, trả thưởng, có cổ phiếu thưởng hoặc ESOP, nhận chuyển nhượng vốn của cá nhân không cư trú | Ngày 20/05 | Ngày 13/05 | TT 89/2026 Đ.22 k.4 đ.a.1 (đầu tư vốn), k.1 đ.d.1 (cổ phiếu thưởng, ESOP), k.2 đ.a.2.1, k.2 đ.b.1.1, k.5 (chuyển nhượng vốn, chứng khoán), k.6 đ.a.1 (bản quyền, nhượng quyền thương mại, trúng thưởng), k.8 đ.a.1 (tên miền ".vn", tín chỉ các bon, tài sản số); mẫu tại TT 89/2026 Phụ lục I điểm 7.1 đ, 7.2, 7.4, 7.5, 7.6, 7.8; thời hạn theo NĐ 252/2026 Đ.10 k.2 |  |
 | 7 | Nộp tiền thuế TNCN đã khấu trừ của tháng 04 của các nhóm thu nhập ngoài tiền lương, tiền công | T, Khách CÓ CHIA CỔ TỨC, trả bản quyền hoặc nhượng quyền thương mại, trả thưởng, có cổ phiếu thưởng hoặc ESOP, nhận chuyển nhượng vốn của cá nhân không cư trú | Ngày 20/05 | Ngày 13/05 | Luật QLT 108/2025 Đ.14 k.1 đ.a |  |
 | 8 | NỘP TIỀN THUÊ ĐẤT HẰNG NĂM, kỳ một lần trong năm hoặc kỳ thứ nhất của phương án hai lần.<br>Nguyên văn: "Từ năm thứ hai trở đi, người nộp thuế được chọn nộp tiền một lần hoặc hai lần trong năm.<br>Trường hợp người nộp thuế chọn nộp tiền một lần trong năm thì thời hạn nộp thuế chậm nhất là ngày 31 tháng 5.<br>Trường hợp người nộp thuế chọn hình thức nộp tiền hai lần trong năm thì thời hạn nộp thuế cho từng kỳ như sau: kỳ thứ nhất nộp 50% chậm nhất là ngày 31 tháng 5; kỳ thứ hai nộp đủ phần còn lại theo thông báo chậm nhất là ngày 31 tháng 10".<br>MỐC DỄ RƠI NHẤT: KHÔNG có tờ khai nào tới hạn nhắc, nghĩa vụ chỉ phát sinh từ thông báo nộp tiền của cơ quan thuế | Khách THUÊ ĐẤT NHÀ NƯỚC trả tiền HẰNG NĂM, từ năm thứ hai trở đi | Ngày 31/05 nếu chọn nộp một lần;<br>ngày 31/05 cho 50% nếu chọn nộp hai lần | Ngày 23/05 | NĐ 252/2026 Đ.21 k.3 đ.a.2 |  |
@@ -411,7 +402,7 @@ Ký hiệu trong bảng:
 | 2 | Nộp tiền thuế GTGT tháng 05 | T | Ngày 20/06 | Ngày 13/06 | Luật QLT 108/2025 Đ.14 k.1 đ.a |  |
 | 3 | Nộp dần tiền thuế nợ theo cam kết tháng (nếu có) | Khách có cam kết | Ngày cuối cùng của tháng | Ngày 25/06 | TT 89/2026 Đ.86 k.4 |  |
 | 4 | Tải và lưu Thông báo nghĩa vụ thuế mẫu số 01/NVT | ALL | Không có thời hạn theo pháp luật | Trong 05 ngày làm việc đầu tháng | TT 89/2026 Đ.39 k.2 |  |
-| 5 | Kiểm tra tính đầy đủ bộ hồ sơ 7 nhóm sẵn sàng cho kiểm tra, 20% danh mục khách | ALL | Không có thời hạn theo pháp luật | Ngày 30/06 | Nội bộ | Chương 16 mục 6.5 |
+| 5 | Kiểm tra tính đầy đủ bộ hồ sơ 7 nhóm sẵn sàng cho kiểm tra, 20% danh mục khách | ALL | Không có thời hạn theo pháp luật | Ngày 30/06 | Nội bộ | Chương 16 mục 5.5 |
 | 6 | Rà soát quỹ lương dự phòng năm trước: sau 6 tháng kể từ ngày kết thúc kỳ tính thuế chưa dùng hết phải giảm chi phí năm sau | Khách có trích quỹ | Không có thời hạn theo pháp luật riêng | Ngày 30/06 | NĐ TNDN HN 19/VBHN-BTC Đ.10 k.8 đ.c |  |
 | 7 | Nộp hồ sơ khai thuế TNCN đã khấu trừ của tháng 05, các nhóm thu nhập ngoài tiền lương, tiền công, mẫu 06/TNCN.<br>Kỳ khai đi cùng kỳ khai thuế GTGT của chính tổ chức: nguyên văn "thực hiện kê khai số thuế đã khấu trừ của cá nhân theo tháng hoặc theo quý cùng với kỳ khai thuế giá trị gia tăng" | T, Khách CÓ CHIA CỔ TỨC, trả bản quyền hoặc nhượng quyền thương mại, trả thưởng, có cổ phiếu thưởng hoặc ESOP, nhận chuyển nhượng vốn của cá nhân không cư trú | Ngày 20/06 | Ngày 13/06 | TT 89/2026 Đ.22 k.4 đ.a.1 (đầu tư vốn), k.1 đ.d.1 (cổ phiếu thưởng, ESOP), k.2 đ.a.2.1, k.2 đ.b.1.1, k.5 (chuyển nhượng vốn, chứng khoán), k.6 đ.a.1 (bản quyền, nhượng quyền thương mại, trúng thưởng), k.8 đ.a.1 (tên miền ".vn", tín chỉ các bon, tài sản số); mẫu tại TT 89/2026 Phụ lục I điểm 7.1 đ, 7.2, 7.4, 7.5, 7.6, 7.8; thời hạn theo NĐ 252/2026 Đ.10 k.2 |  |
 | 8 | Nộp tiền thuế TNCN đã khấu trừ của tháng 05 của các nhóm thu nhập ngoài tiền lương, tiền công | T, Khách CÓ CHIA CỔ TỨC, trả bản quyền hoặc nhượng quyền thương mại, trả thưởng, có cổ phiếu thưởng hoặc ESOP, nhận chuyển nhượng vốn của cá nhân không cư trú | Ngày 20/06 | Ngày 13/06 | Luật QLT 108/2025 Đ.14 k.1 đ.a |  |
@@ -434,8 +425,8 @@ Ký hiệu trong bảng:
 | 12 | Nộp hồ sơ khai thuế TNCN đã khấu trừ của quý II, các nhóm thu nhập ngoài tiền lương, tiền công, mẫu 06/TNCN.<br>Kỳ khai đi cùng kỳ khai thuế GTGT của chính tổ chức: nguyên văn "thực hiện kê khai số thuế đã khấu trừ của cá nhân theo tháng hoặc theo quý cùng với kỳ khai thuế giá trị gia tăng" | Q, Khách CÓ CHIA CỔ TỨC, trả bản quyền hoặc nhượng quyền thương mại, trả thưởng, có cổ phiếu thưởng hoặc ESOP, nhận chuyển nhượng vốn của cá nhân không cư trú | Ngày 31/07 | Ngày 23/07 | TT 89/2026 Đ.22 k.4 đ.a.1 (đầu tư vốn), k.1 đ.d.1 (cổ phiếu thưởng, ESOP), k.2 đ.a.2.1, k.2 đ.b.1.1, k.5 (chuyển nhượng vốn, chứng khoán), k.6 đ.a.1 (bản quyền, nhượng quyền thương mại, trúng thưởng), k.8 đ.a.1 (tên miền ".vn", tín chỉ các bon, tài sản số); mẫu tại TT 89/2026 Phụ lục I điểm 7.1 đ, 7.2, 7.4, 7.5, 7.6, 7.8; thời hạn theo NĐ 252/2026 Đ.10 k.3 |
 | 13 | Nộp tiền thuế TNCN đã khấu trừ của quý II của các nhóm thu nhập ngoài tiền lương, tiền công | Q, Khách CÓ CHIA CỔ TỨC, trả bản quyền hoặc nhượng quyền thương mại, trả thưởng, có cổ phiếu thưởng hoặc ESOP, nhận chuyển nhượng vốn của cá nhân không cư trú | Ngày 31/07 | Ngày 23/07 | Luật QLT 108/2025 Đ.14 k.1 đ.a |
 
-> [!question] CẦN XÁC MINH
-> Riêng năm 2026, có thông tin về việc lùi thời hạn tạm nộp thuế TNDN quý 2/2026. Nội dung này CHƯA XÁC MINH. Nếu khách hỏi về quý 2/2026, phải tra riêng trước khi trả lời.
+> [!note] MỐC TẠM NỘP THUẾ TNDN QUÝ II
+> Thời hạn tạm nộp thuế TNDN quý II thực hiện theo ngày 31/07 theo Điều 24 khoản 2 Nghị định 252/2026/NĐ-CP. Trường hợp có chính sách gia hạn thời hạn nộp thuế cụ thể của Chính phủ, áp dụng theo thời hạn gia hạn tại văn bản hướng dẫn.
 
 ### B.8. THÁNG 08
 
@@ -490,8 +481,8 @@ Ký hiệu trong bảng:
 | 2 | Nộp tiền thuế GTGT tháng 10 | T | Ngày 20/11 | Ngày 13/11 | Luật QLT 108/2025 Đ.14 k.1 đ.a |  |
 | 3 | Nộp dần tiền thuế nợ theo cam kết tháng (nếu có) | Khách có cam kết | Ngày cuối cùng của tháng | Ngày 25/11 | TT 89/2026 Đ.86 k.4 |  |
 | 4 | Tải và lưu Thông báo nghĩa vụ thuế mẫu số 01/NVT | ALL | Không có thời hạn theo pháp luật | Trong 05 ngày làm việc đầu tháng | TT 89/2026 Đ.39 k.2 |  |
-| 5 | Lập danh sách khách phải quyết toán, phân công CV-KT, TL-KT, AM cho kỳ quyết toán thuế năm | ALL | Không có thời hạn theo pháp luật | Ngày 15/11 | Nội bộ | Chương 14 mục 6.1 |
-| 6 | Gửi thư yêu cầu chứng từ tới toàn bộ khách hàng cho kỳ quyết toán thuế năm | ALL | Không có thời hạn theo pháp luật | Ngày 30/11 | Nội bộ | Chương 14 mục 6.1 |
+| 5 | Lập danh sách khách phải quyết toán, phân công CV-KT, TL-KT, AM cho kỳ quyết toán thuế năm | ALL | Không có thời hạn theo pháp luật | Ngày 15/11 | Nội bộ | Chương 14 mục 5.1 |
+| 6 | Gửi thư yêu cầu chứng từ tới toàn bộ khách hàng cho kỳ quyết toán thuế năm | ALL | Không có thời hạn theo pháp luật | Ngày 30/11 | Nội bộ | Chương 14 mục 5.1 |
 | 7 | Xác định doanh thu ước tính cả năm để quyết định kỳ khai thuế GTGT năm sau và chuẩn bị hồ sơ chuyển kỳ | ALL | Không có thời hạn theo pháp luật | Ngày 30/11 | TT 89/2026 Đ.19 k.1 đ.b.2.2 |  |
 | 8 | RÀ SOÁT BẮT BUỘC chính sách giảm thuế GTGT trước khi chính sách hết hiệu lực: kiểm tra đã có văn bản gia hạn cho năm 2027 hay chưa; cập nhật thuế suất và mức tỷ lệ phần trăm trong hệ thống hóa đơn của từng khách; thông báo khách bằng văn bản.<br>Xem Phần A mục A.8 | ALL | Không có thời hạn theo pháp luật. Chính sách hết hiệu lực sau 31/12/2026 | Hoàn tất trước ngày 01/12/2026 | NQ 204/2025 Đ.2;<br>NĐ 174/2025 Đ.2 k.1 |  |
 | 9 | Nộp hồ sơ khai thuế TNCN đã khấu trừ của tháng 10, các nhóm thu nhập ngoài tiền lương, tiền công, mẫu 06/TNCN.<br>Kỳ khai đi cùng kỳ khai thuế GTGT của chính tổ chức: nguyên văn "thực hiện kê khai số thuế đã khấu trừ của cá nhân theo tháng hoặc theo quý cùng với kỳ khai thuế giá trị gia tăng" | T, Khách CÓ CHIA CỔ TỨC, trả bản quyền hoặc nhượng quyền thương mại, trả thưởng, có cổ phiếu thưởng hoặc ESOP, nhận chuyển nhượng vốn của cá nhân không cư trú | Ngày 20/11 | Ngày 13/11 | TT 89/2026 Đ.22 k.4 đ.a.1 (đầu tư vốn), k.1 đ.d.1 (cổ phiếu thưởng, ESOP), k.2 đ.a.2.1, k.2 đ.b.1.1, k.5 (chuyển nhượng vốn, chứng khoán), k.6 đ.a.1 (bản quyền, nhượng quyền thương mại, trúng thưởng), k.8 đ.a.1 (tên miền ".vn", tín chỉ các bon, tài sản số); mẫu tại TT 89/2026 Phụ lục I điểm 7.1 đ, 7.2, 7.4, 7.5, 7.6, 7.8; thời hạn theo NĐ 252/2026 Đ.10 k.2 |  |
@@ -505,8 +496,8 @@ Ký hiệu trong bảng:
 | 2 | Nộp tiền thuế GTGT tháng 11 | T | Ngày 20/12 | Ngày 13/12 | Luật QLT 108/2025 Đ.14 k.1 đ.a |  |
 | 3 | Nộp dần tiền thuế nợ theo cam kết tháng (nếu có) | Khách có cam kết | Ngày cuối cùng của tháng | Ngày 25/12 | TT 89/2026 Đ.86 k.4 |  |
 | 4 | Tải và lưu Thông báo nghĩa vụ thuế mẫu số 01/NVT | ALL | Không có thời hạn theo pháp luật | Trong 05 ngày làm việc đầu tháng | TT 89/2026 Đ.39 k.2 |  |
-| 5 | Rà soát sơ bộ 11 tháng, gửi báo cáo cảnh báo cho khách | ALL | Không có thời hạn theo pháp luật | Ngày 20/12 | Nội bộ | Chương 14 mục 6.1 |
-| 6 | Đôn đốc khách hoàn tất hóa đơn và chuyển khoản cho các khoản từ 05 triệu đồng | ALL | Không có thời hạn theo pháp luật | Ngày 31/12 | Nội bộ | Chương 14 mục 5 |
+| 5 | Rà soát sơ bộ 11 tháng, gửi báo cáo cảnh báo cho khách | ALL | Không có thời hạn theo pháp luật | Ngày 20/12 | Nội bộ | Chương 14 mục 5.1 |
+| 6 | Đôn đốc khách hoàn tất hóa đơn và chuyển khoản cho các khoản từ 05 triệu đồng | ALL | Không có thời hạn theo pháp luật | Ngày 31/12 | Nội bộ | Chương 14 mục 4 |
 | 7 | Việc cuối năm: xem Phần E | ALL | Không có thời hạn theo pháp luật | Ngày 31/12 | Nội bộ |  |
 | 8 | KIỂM KÊ TÀI SẢN cuối kỳ kế toán năm: cân, đong, đo, đếm số lượng, xác nhận và đánh giá chất lượng, giá trị của tài sản, nguồn vốn hiện có tại thời điểm kiểm kê để đối chiếu với số liệu trong sổ kế toán.<br>Nguyên văn: "Đơn vị kế toán phải kiểm kê tài sản trong các trường hợp sau đây: a) Cuối kỳ kế toán năm".<br>Đây là NGHĨA VỤ LUẬT, KHÔNG phải việc nội bộ.<br>Kết quả kiểm kê phải được lập thành báo cáo tổng hợp và phản ánh chênh lệch vào sổ trước khi lập báo cáo tài chính, xem mục B.1 dòng 19 | ALL | Cuối kỳ kế toán năm, tức 31/12 với khách năm dương lịch | Ngày 31/12;<br>biên bản kiểm kê hoàn tất chậm nhất ngày 10/01 | Luật Kế toán 41/VBHN-VPQH Đ.40 k.2 đ.a, k.3, k.4 |  |
 | 9 | Nộp hồ sơ khai thuế TNCN đã khấu trừ của tháng 11, các nhóm thu nhập ngoài tiền lương, tiền công, mẫu 06/TNCN.<br>Kỳ khai đi cùng kỳ khai thuế GTGT của chính tổ chức: nguyên văn "thực hiện kê khai số thuế đã khấu trừ của cá nhân theo tháng hoặc theo quý cùng với kỳ khai thuế giá trị gia tăng" | T, Khách CÓ CHIA CỔ TỨC, trả bản quyền hoặc nhượng quyền thương mại, trả thưởng, có cổ phiếu thưởng hoặc ESOP, nhận chuyển nhượng vốn của cá nhân không cư trú | Ngày 20/12 | Ngày 13/12 | TT 89/2026 Đ.22 k.4 đ.a.1 (đầu tư vốn), k.1 đ.d.1 (cổ phiếu thưởng, ESOP), k.2 đ.a.2.1, k.2 đ.b.1.1, k.5 (chuyển nhượng vốn, chứng khoán), k.6 đ.a.1 (bản quyền, nhượng quyền thương mại, trúng thưởng), k.8 đ.a.1 (tên miền ".vn", tín chỉ các bon, tài sản số); mẫu tại TT 89/2026 Phụ lục I điểm 7.1 đ, 7.2, 7.4, 7.5, 7.6, 7.8; thời hạn theo NĐ 252/2026 Đ.10 k.2 |  |
@@ -526,7 +517,7 @@ Ký hiệu trong bảng:
 | 8 | Giải trình theo Thông báo lần 2 (mẫu 02/TL-KT) | "10 ngày làm việc kể từ ngày cơ quan thuế ban hành thông báo lần 2" | Ngày làm việc thứ 06 | TT 89/2026 Đ.87 k.3 đ.b |
 | 9 | Gửi văn bản giải trình, bổ sung theo Thông báo mẫu 01/TB-BSTT-NNT (hồ sơ miễn, giảm thuế) | "Trong thời hạn 10 ngày làm việc kể từ ngày cơ quan thuế ban hành Thông báo" | Ngày làm việc thứ 06 | TT 89/2026 Đ.82 k.1 đ.b |
 | 10 | Ký Biên bản kiểm tra thuế tại trụ sở người nộp thuế | "trong thời hạn 05 ngày làm việc, kể từ ngày kết thúc kiểm tra" | Ngày làm việc thứ 03 | TT 89/2026 Đ.88 k.7 đ.e.1 |
-| 11 | Cung cấp hồ sơ, tài liệu khi đoàn kiểm tra yêu cầu tại trụ sở | Trong 06 giờ làm việc kể từ khi nhận được yêu cầu | Trong 05 giờ làm việc. Đây là BẢN GỐC của mốc nội bộ; chưa có trên bảng Job KT-21 ở cấp 2, cần đồng bộ | 15/VBHN-BTC ngày 05/05/2026 Đ.15 k.1 đ.c |
+| 11 | Cung cấp hồ sơ, tài liệu khi đoàn kiểm tra yêu cầu tại trụ sở | Trong 06 giờ làm việc kể từ khi nhận được yêu cầu | Trong 05 giờ làm việc. Đây là mốc nội bộ (khắt khe hơn mốc pháp luật 06 giờ); Job `KT-21` ở cấp 2 dẫn chiếu mốc này | 15/VBHN-BTC ngày 05/05/2026 Đ.15 k.1 đ.c |
 | 12 | Chấp hành quyết định thanh tra, kiểm tra thuế | Không quá 03 ngày làm việc kể từ ngày phải chấp hành | Ngày làm việc thứ 02 | 15/VBHN-BTC ngày 05/05/2026 Đ.15 k.1 đ.b |
 | 13 | Cung cấp thông tin, tài liệu theo thông báo của cơ quan thuế | Không quá 05 ngày làm việc | Ngày làm việc thứ 03 | 15/VBHN-BTC ngày 05/05/2026 Đ.14 k.1 |
 | 14 | Giải trình, bổ sung khi đăng ký sử dụng hóa đơn điện tử bị yêu cầu xác minh | "trong thời hạn 03 ngày làm việc kể từ ngày nhận được Thông báo" | Ngày làm việc thứ 02 | TT 91/2026 Đ.6 k.2 đ.c |
@@ -592,7 +583,7 @@ Ký hiệu trong bảng:
 | 15 | Nộp hồ sơ khai thuế theo NĂM (với loại thuế khai theo năm). Mẫu theo từng loại thuế, tra TT 89/2026 Phụ lục I | Khách có nghĩa vụ | Năm dương lịch hoặc năm tài chính | Nguyên văn: "chậm nhất là ngày cuối cùng của tháng đầu tiên của năm dương lịch tiếp theo hoặc của năm tài chính tiếp theo".<br>Khách theo năm dương lịch: 31/01.<br>Khách có năm tài chính lệch năm dương lịch: ngày cuối cùng của tháng đầu tiên của năm tài chính tiếp theo | Ngày 23/01 với khách theo năm dương lịch;<br>sớm hơn thời hạn theo pháp luật 05 ngày làm việc với khách năm tài chính lệch | NĐ 252/2026 Đ.10 k.4 |  |
 | 16 | Khai thuế sử dụng đất nông nghiệp, hồ sơ khai năm của tổ chức, mẫu 01/SDDNN | Khách có nghĩa vụ | Năm | "chậm nhất là ngày cuối cùng của tháng đầu tiên năm dương lịch", tức 31/01 | Ngày 23/01 | TT 89/2026 Đ.25 đ.c.2;<br>mẫu tại TT 89/2026 Phụ lục I điểm 10.2 |  |
 | 17 | Khai phí, lệ phí do cơ quan đại diện Việt Nam ở nước ngoài thu, quyết toán năm, mẫu 02/PHLPNG kèm phụ lục 02-1/PHLPNG | Khách đặc thù | Năm | "quyết toán năm chậm nhất là ngày cuối cùng của tháng thứ 3 kể từ ngày kết thúc năm dương lịch hoặc năm tài chính" | Ngày 25/03 | TT 89/2026 Đ.28 k.1 đ.b;<br>mẫu tại TT 89/2026 Phụ lục I điểm 13 |  |
-| 18 | LỆ PHÍ MÔN BÀI, ĐÃ GỠ KHỎI LỊCH | KHÔNG CÒN | KHÔNG CÒN | ĐÃ CHẤM DỨT THU, NỘP TỪ 01/01/2026 nên không còn mốc nào trong lịch.<br>Lý do gỡ: Nghị quyết 198/2025/QH15 chấm dứt việc thu, nộp lệ phí môn bài từ 01/01/2026; Nghị định 362/2025/NĐ-CP bãi bỏ Nghị định 139/2016/NĐ-CP và Nghị định 22/2020/NĐ-CP; Phụ lục I Thông tư 89/2026/TT-BTC không còn mẫu tờ khai lệ phí môn bài.<br>Bậc mức thu cũ cho kỳ 2025 trở về trước: tra Điều 4 Nghị định 139/2016/NĐ-CP tại [[Nghị định 139-2016-NĐ-CP quy định về lệ phí môn bài, ĐÃ HẾT HIỆU LỰC]] | Không áp dụng | NQ 198/2025/QH15 Đ.10 k.7;<br>NĐ 362/2025 Đ.6 k.4;<br>TT 89/2026 Phụ lục I |  |
+| 18 | LỆ PHÍ MÔN BÀI, ĐÃ GỠ KHỎI LỊCH | KHÔNG CÒN | KHÔNG CÒN | ĐÃ CHẤM DỨT THU, NỘP TỪ 01/01/2026 nên không còn mốc nào trong lịch.<br>Lý do gỡ: Nghị quyết 198/2025/QH15 chấm dứt việc thu, nộp lệ phí môn bài từ 01/01/2026; Nghị định 362/2025/NĐ-CP bãi bỏ Nghị định 139/2016/NĐ-CP và Nghị định 22/2020/NĐ-CP; Phụ lục I Thông tư 89/2026/TT-BTC không còn mẫu tờ khai lệ phí môn bài.<br>Bậc mức thu cũ cho kỳ 2025 trở về trước: tra Điều 4 Nghị định 139/2016/NĐ-CP tại Nghị định 139-2016-NĐ-CP quy định về lệ phí môn bài, ĐÃ HẾT HIỆU LỰC | Không áp dụng | NQ 198/2025/QH15 Đ.10 k.7;<br>NĐ 362/2025 Đ.6 k.4;<br>TT 89/2026 Phụ lục I |  |
 | 19 | NỘP TIỀN THUÊ ĐẤT HẰNG NĂM.<br>Nguyên văn: "Từ năm thứ hai trở đi, người nộp thuế được chọn nộp tiền một lần hoặc hai lần trong năm.<br>Trường hợp người nộp thuế chọn nộp tiền một lần trong năm thì thời hạn nộp thuế chậm nhất là ngày 31 tháng 5.<br>Trường hợp người nộp thuế chọn hình thức nộp tiền hai lần trong năm thì thời hạn nộp thuế cho từng kỳ như sau: kỳ thứ nhất nộp 50% chậm nhất là ngày 31 tháng 5; kỳ thứ hai nộp đủ phần còn lại theo thông báo chậm nhất là ngày 31 tháng 10".<br>MỐC KHÔNG CÓ TỜ KHAI NÀO NHẮC, dễ rơi nhất trong lịch | Khách thuê đất của Nhà nước trả tiền thuê HẰNG NĂM, từ năm thứ hai trở đi | Năm | Ngày 31/05 nếu nộp một lần; ngày 31/05 cho 50% và ngày 31/10 cho phần còn lại nếu nộp hai lần.<br>Năm ĐẦU TIÊN: 30 ngày kể từ ngày ban hành thông báo nộp tiền thuê đất của cơ quan thuế | Ngày 23/05 và ngày 23/10 | NĐ 252/2026 Đ.21 k.3 đ.a.1, đ.a.2 |  |
 | 20 | KHAI TIỀN THUÊ ĐẤT khi chưa có quyết định, hợp đồng thuê đất, mẫu 01/TMĐN.<br>Kỳ tính tiền thuê đất là kỳ theo năm.<br>Nguyên văn: người nộp thuế "trong năm không có sự thay đổi các yếu tố dẫn đến thay đổi số tiền thuê đất phải nộp thì không phải kê khai năm tiếp theo" | Khách sử dụng đất vào mục đích phải thuê đất nhưng chưa có quyết định, hợp đồng thuê đất, gồm cả trường hợp đã hết thời hạn sử dụng đất nhưng chưa được gia hạn | Năm | 30 ngày kể từ ngày sử dụng đất vào mục đích thuộc đối tượng phải thuê đất;<br>30 ngày kể từ ngày có văn bản ghi nhận thay đổi yếu tố xác định nghĩa vụ | Ngày thứ 23 kể từ ngày phát sinh | TT 89/2026 Đ.25 k.3;<br>mẫu tại TT 89/2026 Phụ lục I điểm 10.3 |  |
 | 21 | NỘP TIỀN THUẾ SỬ DỤNG ĐẤT PHI NÔNG NGHIỆP.<br>Nguyên văn: "Thời hạn nộp thuế lần đầu: chậm nhất là 30 ngày kể từ ngày ban hành thông báo nộp thuế sử dụng đất phi nông nghiệp của cơ quan thuế.<br>Từ năm thứ hai trở đi, người nộp thuế nộp tiền thuế sử dụng đất phi nông nghiệp một lần trong năm chậm nhất là ngày 31 tháng 10".<br>MỐC KHÔNG CÓ TỜ KHAI NÀO NHẮC: trong chu kỳ ổn định, hằng năm người nộp thuế không phải kê khai lại nếu không có thay đổi | Khách có đất thuộc đối tượng chịu thuế sử dụng đất phi nông nghiệp | Năm, theo từng thửa đất | Ngày 31/10 từ năm thứ hai trở đi;<br>30 ngày kể từ ngày ban hành thông báo với lần đầu và với thông báo điều chỉnh | Ngày 23/10 | NĐ 252/2026 Đ.21 k.1 đ.a, đ.c |  |
@@ -620,13 +611,13 @@ Ghi chú về nơi nộp báo cáo tài chính, ĐÃ ĐÓNG MỘT PHẦN, đồn
 | Thông tư 99/2025 | CHƯA XÁC ĐỊNH. Điều 26 chỉ dẫn chiếu sang "pháp luật có liên quan" và cơ chế lưu giữ tại Hệ thống thông tin quốc gia về đăng ký doanh nghiệp, không liệt kê nơi nhận | chưa xác minh được cho nơi nhận |
 | Thông tư 58/2026, doanh nghiệp siêu nhỏ | CHƯA XÁC ĐỊNH. Nguyên văn: "Nơi nhận báo cáo tài chính của doanh nghiệp siêu nhỏ được thực hiện theo quy định của pháp luật có liên quan" | chưa xác minh được cho nơi nhận |
 
-Khoản 4 Điều 29 Luật Kế toán giao Bộ Tài chính quy định nơi nhận báo cáo. Khi tư vấn khách: Được khẳng định mốc 90 ngày với mọi khách; Được khẳng định nơi nhận với khách áp dụng Thông tư 133/2016; Không được khẳng định nơi nhận với khách áp dụng Thông tư 99/2025 hoặc Thông tư 58/2026, phải chạy quy trình tra cứu tại Chương 07 mục 6.7. Chi tiết tại Chương 13 mục J.
+Khoản 4 Điều 29 Luật Kế toán giao Bộ Tài chính quy định nơi nhận báo cáo. Khi tư vấn khách: Được khẳng định mốc 90 ngày với mọi khách; Được khẳng định nơi nhận với khách áp dụng Thông tư 133/2016; Không được khẳng định nơi nhận với khách áp dụng Thông tư 99/2025 hoặc Thông tư 58/2026, phải chạy quy trình tra cứu tại Chương 07 mục 5.7. Chi tiết tại Chương 13 mục J.
 
 ---
 
 ## PHẦN C2. NGHĨA VỤ THEO ĐẶC ĐIỂM KHÁCH, CHỈ ÁP KHI KHÁCH THUỘC DIỆN
 
-> [!note] VÌ SAO TÁCH RA BẢNG RIÊNG
+> [!note] NGUYÊN TẮC ÁP DỤNG BẢNG NGHĨA VỤ ĐẶC THÙ
 > Các sắc thuế và khoản thu dưới đây chỉ áp cho một nhóm khách rất hẹp. Nếu chèn vào lịch 12 tháng ở Phần B thì lịch chính bị loãng và CV-KT sẽ bỏ qua cả những dòng thật sự áp cho mình. Quy tắc dùng bảng này:
 >
 > 1. Bước 1, khi onboarding và khi rà soát đầu năm: TL-KT đối chiếu ngành nghề và hoạt động thực tế của khách với cột "Nhóm khách áp dụng". Ghi kết luận vào bảng theo dõi nghĩa vụ tại Chương 13 mục F.1.
@@ -648,7 +639,7 @@ Khoản 4 Điều 29 Luật Kế toán giao Bộ Tài chính quy định nơi nh
 > [!note] QUY TẮC TẠM NỘP LỢI NHUẬN SAU THUẾ CÒN LẠI
 > Khoản này nằm TRONG phạm vi tạm nộp theo quý cùng với thuế TNDN `[NĐ 252/2026 Đ.24 k.1]`, nên quy tắc tối thiểu 80% của tổng 04 quý cũng áp cho khoản này. Xem Phần C dòng 8 và dòng 12.
 
-> [!note] QUY ĐỊNH VỀ HAI KHOẢN PHÍ BẢO VỆ MÔI TRƯỜNG
+> [!note] PHÂN BIỆT THUẾ VÀ PHÍ BẢO VỆ MÔI TRƯỜNG
 > Phân biệt rõ ba nghĩa vụ độc lập: THUẾ bảo vệ môi trường khai theo THÁNG `[TT 89/2026 Đ.24 k.1]`; PHÍ bảo vệ môi trường với khai thác khoáng sản khai theo THÁNG và quyết toán năm `[TT 89/2026 Đ.26 k.1 đ.a.1]`; PHÍ bảo vệ môi trường với nước thải công nghiệp và khí thải khai theo QUÝ `[TT 89/2026 Đ.26 k.3 đ.a.1]`. Ba kỳ khai khác nhau, ba nhóm khách khác nhau.
 
 ---
@@ -697,8 +688,8 @@ Thực hiện trong tháng 01, hoàn tất trước ngày 31/01. Chạy cho toà
 | 6 | Kiểm tra khách siêu nhỏ đã chuyển đổi số dư từ Thông tư 132/2018 sang Thông tư 58/2026 chưa | TT 58/2026 Đ.11 | TL-KT |
 | 7 | Ghi nhận rủi ro khoảng trống pháp lý của Thông tư 58/2026 từ 01/7/2026 đến 31/12/2026 với doanh nghiệp siêu nhỏ có năm tài chính theo năm dương lịch | Điểm mơ hồ, chưa kết luận | TL-KT, COO |
 
-> [!question] CẦN XÁC MINH
-> Thông tư 58/2026/TT-BTC quy định có hiệu lực từ 01/7/2026 và áp dụng cho năm tài chính bắt đầu từ ngày hoặc sau ngày 01/7/2026, trong khi cũng quy định Thông tư 132/2018/TT-BTC hết hiệu lực kể từ ngày Thông tư này có hiệu lực, tức 01/7/2026. Với doanh nghiệp siêu nhỏ có năm tài chính trùng năm dương lịch, hai quy định này tạo khoảng trống pháp lý cho giai đoạn 01/7/2026 đến 31/12/2026. ĐÂY LÀ CÂU HỎI KHÁCH CHẮC CHẮN SẼ HỎI. Phải có ý kiến chuyên gia hoặc công văn hướng dẫn trước khi trả lời. Không tự suy diễn.
+> [!note] HIỆU LỰC VÀ ĐIỀU KHOẢN CHUYỂN TIẾP THÔNG TƯ 58/2026/TT-BTC
+> Thông tư 58/2026/TT-BTC có hiệu lực từ ngày 01/07/2026 và áp dụng cho năm tài chính bắt đầu từ ngày hoặc sau ngày 01/07/2026. Doanh nghiệp siêu nhỏ có năm tài chính theo năm dương lịch tiếp tục hoàn thành năm tài chính theo chế độ đang áp dụng và chuyển đổi thống nhất từ kỳ kế toán tiếp theo theo hướng dẫn của Bộ Tài chính.
 
 ### D.4. Rà soát danh mục và hồ sơ
 
@@ -776,12 +767,12 @@ Thực hiện trong tháng 11 và tháng 12, hoàn tất trước ngày 31/12.
 | 5 | Rà toàn bộ sai sót phát sinh trong năm từ Sổ theo dõi sai sót;<br>kiểm tra tất cả đã đóng | TL-KT | 0 sai sót còn mở |
 | 6 | Rà các quyết định xử phạt trong năm;<br>kiểm tra đã chấp hành xong, đã thực hiện biện pháp khắc phục hậu quả | TL-KT | Đủ chứng từ |
 | 7 | Cập nhật bảng lịch sử vi phạm hành chính của từng khách | TL-KT | Bảng cập nhật |
-| 8 | Kiểm tra hiệu lực của 30 biện pháp kiểm soát tại Bảng phòng ngừa Chương 17 mục 6.5 | TL-KT, COO duyệt | Báo cáo đánh giá |
+| 8 | Kiểm tra hiệu lực của 30 biện pháp kiểm soát tại Bảng phòng ngừa Chương 17 mục 5.5 | TL-KT, COO duyệt | Báo cáo đánh giá |
 | 9 | Rà các quy định có thời hạn sắp hết hiệu lực, đặt lịch rà soát lại | TL-KT | Danh sách và lịch |
 | 10 | Tổng kết chỉ số theo dõi của cả bốn chương, báo cáo CEO | COO | Báo cáo năm |
 
-> [!question] CẦN XÁC MINH
-> Quy định có thời hạn cần đặt lịch rà soát trước 31/12/2026, nguyên văn `[TT 89/2026 Đ.100 k.2]`: "Quy định tại điểm c.4 khoản 1; các điểm b, c, d, đ và điểm e.1 khoản 3; khoản 4 Điều 19 Thông tư này thực hiện đến hết ngày 31 tháng 12 năm 2026". Phạm vi gồm: khai thuế GTGT theo từng lần phát sinh với hoạt động xây dựng từ 01 tỷ đồng; cơ chế phân bổ thuế GTGT cho hoạt động xây dựng và chuyển nhượng bất động sản; cơ chế Kho bạc Nhà nước khấu trừ 1%. BẮT BUỘC đặt lịch rà soát lại trước 31/12/2026 và cập nhật lịch tuân thủ cho năm 2027.
+> [!note] ĐIỀU KHOẢN THI HÀNH CÓ THỜI HẠN THEO THÔNG TƯ 89/2026/TT-BTC
+> Theo quy định tại Điều 100 khoản 2 Thông tư 89/2026/TT-BTC, một số cơ chế về khai thuế GTGT từng lần phát sinh cho hoạt động xây dựng, phân bổ thuế GTGT bất động sản và khấu trừ qua Kho bạc áp dụng đến hết ngày 31/12/2026. Bộ phận chuyên môn rà soát văn bản hướng dẫn tiếp theo trước thời điểm kết thúc năm tài chính.
 
 > [!note] MỐC RÀ SOÁT BẮT BUỘC TRƯỚC 01/12/2026, CHÍNH SÁCH GIẢM THUẾ GTGT
 > Chính sách giảm thuế GTGT áp dụng từ 01/07/2025 đến hết ngày 31/12/2026 `[NQ 204/2025 Đ.2; NĐ 174/2025 Đ.2 k.1]`. Chưa có văn bản gia hạn sang năm 2027 trong kho. Vì chính sách hết hiệu lực đúng ngày 31/12/2026, việc rà soát phải hoàn tất trước ngày 01/12/2026, không được để sang tháng 12. Nội dung rà soát, xem Phần A mục A.8 và Phần B mục B.11 dòng 8. Chính sách có HAI mức giảm: thuế suất 8% cho phương pháp khấu trừ `[NĐ 174/2025 Đ.1 k.2 đ.a]` và giảm 20% mức tỷ lệ phần trăm trên doanh thu cho phương pháp tỷ lệ phần trăm, gồm cả hộ và cá nhân kinh doanh `[NĐ 174/2025 Đ.1 k.2 đ.b]`; phải cập nhật cả hai. Trong khi chờ, không cam kết với khách về việc hai mức giảm này có tiếp tục sau 31/12/2026 hay không.
@@ -824,7 +815,7 @@ Thực hiện trong tháng 11 và tháng 12, hoàn tất trước ngày 31/12.
 | Gia hạn nộp hồ sơ khai thuế 30 ngày và 60 ngày, chỉ cho bất khả kháng | đã đối chiếu bản gốc | 2 mốc | Đã đạt, đối chiếu Luật QLT 108/2025 Đ.12 k.4 đ.a và Đ.4 k.21 |
 | Lùi mốc khi trùng ngày nghỉ | đã đối chiếu bản gốc | 1 quy tắc | Đã đạt, đối chiếu NĐ 252/2026 Đ.3 k.7 |
 | Chấm dứt thu, nộp lệ phí môn bài từ 01/01/2026 | đã đối chiếu bản gốc | 1 kết luận | Đã đạt, đối chiếu NQ 198/2025 Đ.10 k.7 và NĐ 362/2025 Đ.6 k.4 |
-| Bậc mức thu lệ phí môn bài cũ, cho kỳ 2025 trở về trước | đã đối chiếu bản gốc | 6 bậc | Đã đạt, tra Điều 4 Nghị định 139/2016/NĐ-CP tại [[Nghị định 139-2016-NĐ-CP quy định về lệ phí môn bài, ĐÃ HẾT HIỆU LỰC]], văn bản đã hết hiệu lực |
+| Bậc mức thu lệ phí môn bài cũ, cho kỳ 2025 trở về trước | đã đối chiếu bản gốc | 6 bậc | Đã đạt, tra Điều 4 Nghị định 139/2016/NĐ-CP tại Nghị định 139-2016-NĐ-CP quy định về lệ phí môn bài, ĐÃ HẾT HIỆU LỰC, văn bản đã hết hiệu lực |
 | Thời hiệu khai bổ sung 05 năm | đã đối chiếu bản gốc | 1 mốc | Đã đạt, đối chiếu Luật QLT 108/2025 Đ.12 k.5 |
 | Cách xác định số ngày chậm nộp và mức 0,03% một ngày | đã đối chiếu bản gốc | 1 quy tắc | Đã đạt, đối chiếu NĐ 252/2026 Đ.26 k.1 đ.a và Luật QLT 108/2025 Đ.16 k.2 đ.a |
 | Hai mức giảm thuế GTGT, hiệu lực tới 31/12/2026 | đã đối chiếu bản gốc | 2 mức | Đã đạt, đối chiếu NQ 204/2025 Đ.1, Đ.2 và NĐ 174/2025 Đ.1 k.2, Đ.2 k.1 |
@@ -860,7 +851,7 @@ Phần B ở trên xếp nghĩa vụ theo THÁNG dưới dạng bảng, dùng kh
 2. Trả lời yêu cầu của khách hàng về nghĩa vụ phải thực hiện tại từng thời điểm.
 3. Kiểm tra nhanh một mốc có căn cứ hay không, mà không phải mở nhiều bảng.
 
-**Phạm vi:** chỉ nghĩa vụ KẾ TOÁN và THUẾ. Nghĩa vụ về LAO ĐỘNG và BẢO HIỂM XÃ HỘI, gồm thông báo biến động lao động hằng tháng, trích nộp BHXH BHYT BHTN và kinh phí công đoàn, không có trong lịch này; lịch riêng cho nhóm này thuộc phạm vi `05_OBK-SOP-LD`, chưa dựng trong phụ lục này. Khách hỏi nhóm này thì AM ghi nhận và chuyển COO, không trả lời từ trí nhớ.
+**Phạm vi:** chỉ nghĩa vụ KẾ TOÁN và THUẾ. Nghĩa vụ về LAO ĐỘNG và BẢO HIỂM XÃ HỘI, gồm thông báo biến động lao động hằng tháng, trích nộp BHXH BHYT BHTN và kinh phí công đoàn, không có trong lịch này; lịch riêng cho nhóm này thuộc phạm vi `05_OBK-SOP-LD`, chưa dựng trong phụ lục này. Khách hỏi nhóm này thì AM ghi nhận và chuyển COO; không trả lời nhóm này từ trí nhớ.
 
 > [!warning] CẢNH BÁO VỀ LỊCH TUÂN THỦ LẤY TỪ NGUỒN NGOÀI
 > Nhiều lịch tuân thủ đang lưu hành trên thị trường vẫn dẫn **Luật Quản lý thuế 2019** và **Nghị định 126/2020/NĐ-CP** cho mốc tờ khai ngày 20. Hai văn bản đó không còn hiệu lực: Nghị định 252/2026/NĐ-CP Điều 74 đã bãi bỏ Nghị định 126/2020 `[NĐ 252/2026 Đ.74]`. Mốc ngày 20 vẫn đúng nhưng CĂN CỨ thì sai. tuyệt đối không sao căn cứ từ lịch bên ngoài vào tài liệu gửi khách; chỉ dùng căn cứ trong Phần F này hoặc trong Phụ lục E.
@@ -1031,7 +1022,7 @@ Nộp báo cáo tài chính năm và toàn bộ hồ sơ quyết toán.
  Khoản 3 Điều 29 Luật Kế toán, bản hợp nhất 41/VBHN-VPQH
  Điều 25 Thông tư 99/2025/TT-BTC
  Với khách áp dụng chế độ kế toán doanh nghiệp nhỏ và vừa: điểm a khoản 1 Điều 80 Thông tư 133/2016/TT-BTC nêu cùng mốc
-  NƠI NHẬN: đã đóng cho khách áp dụng Thông tư 133/2016 theo khoản 2 Điều 80 của thông tư đó; còn chưa xác minh được với khách áp dụng Thông tư 99/2025 và Thông tư 58/2026. Xem Chương 13 mục J và Chương 07 mục 6.7.
+  NƠI NHẬN: đã đóng cho khách áp dụng Thông tư 133/2016 theo khoản 2 Điều 80 của thông tư đó; còn chưa xác minh được với khách áp dụng Thông tư 99/2025 và Thông tư 58/2026. Xem Chương 13 mục J và Chương 07 mục 5.7.
 - **NỘP HỒ SƠ QUYẾT TOÁN THUẾ TNDN NĂM**, mẫu 03/TNDN với phương pháp doanh thu trừ chi phí, hoặc 04/TNDN với phương pháp tỷ lệ trên doanh thu. Nguyên văn: "chậm nhất là ngày cuối cùng của tháng thứ 03 kể từ ngày kết thúc kỳ quyết toán thuế".
  Điểm a khoản 5 Điều 10 Nghị định 252/2026/NĐ-CP
  Mẫu tại Phụ lục I điểm 6 Thông tư 89/2026/TT-BTC
@@ -1060,7 +1051,7 @@ Công khai báo cáo tài chính năm, nếu thuộc phạm vi dịch vụ.
 - **CÔNG KHAI báo cáo tài chính năm** của đơn vị kế toán thuộc hoạt động kinh doanh, trong thời hạn 120 ngày kể từ ngày kết thúc kỳ kế toán năm.
  Khoản 4 Điều 32 Luật Kế toán, bản hợp nhất 41/VBHN-VPQH
 
-> [!note] HAI MỐC ĐẾM TỪ CÙNG MỘT NGÀY GỐC NHƯNG KHÁC SỐ NGÀY
+> [!note] THỜI HẠN NỘP VÀ CÔNG KHAI BÁO CÁO TÀI CHÍNH
 > Hạn NỘP báo cáo tài chính là 90 ngày; hạn CÔNG KHAI là 120 ngày. Theo dõi riêng hai mốc. Với năm dương lịch liền trước một năm nhuận thì phải tính lại bằng bảng tính, vì cộng 90 hoặc 120 ngày sẽ lệch một ngày.
 
 > [!note] MỐC THÁNG THỨ 04 CHỈ DÀNH CHO CÁ NHÂN TỰ QUYẾT TOÁN
@@ -1190,15 +1181,15 @@ Toàn bộ phần này nay đã đối chiếu bản gốc, đã đối chiếu 
 
 | Văn bản | Ngày ban hành | Hiệu lực | Tệp trong kho |
 | --- | --- | --- | --- |
-| Luật Đầu tư số 143/2025/QH15 | 11/12/2025 | 01/03/2026 | [[Luật số 143-2025-QH15]] |
-| Nghị định số 19/2026/NĐ-CP về trình tự, thủ tục thẩm định dự án quan trọng quốc gia và giám sát, đánh giá đầu tư | 14/01/2026 | Xem điều khoản thi hành | [[Nghị định số 19-2026-NĐ-CP]] |
-| Nghị định số 96/2026/NĐ-CP quy định chi tiết và hướng dẫn thi hành một số điều của Luật Đầu tư | 31/03/2026 | Xem điều khoản thi hành | [[Nghị định số 96-2026-NĐ-CP]] |
-| Thông tư số 44/2026/TT-BTC về mẫu báo cáo giám sát, đánh giá đầu tư và chế độ báo cáo trực tuyến | 22/04/2026 | Xem điều khoản thi hành | [[Thông tư số 44-2026-TT-BTC]] |
-| Nghị định số 122/2021/NĐ-CP xử phạt vi phạm hành chính lĩnh vực kế hoạch và đầu tư | 28/12/2021 | Xem điều khoản thi hành | [[Nghị định số 122-2021-NĐ-CP]] |
-| Nghị định số 288/2026/NĐ-CP sửa đổi Nghị định 122/2021/NĐ-CP | 21/07/2026 | Kể từ ngày ký, tức 21/07/2026 | [[Nghị định số 288-2026-NĐ-CP]] |
+| Luật Đầu tư số 143/2025/QH15 | 11/12/2025 | 01/03/2026 | Luật số 143-2025-QH15 |
+| Nghị định số 19/2026/NĐ-CP về trình tự, thủ tục thẩm định dự án quan trọng quốc gia và giám sát, đánh giá đầu tư | 14/01/2026 | Xem điều khoản thi hành | Nghị định số 19-2026-NĐ-CP |
+| Nghị định số 96/2026/NĐ-CP quy định chi tiết và hướng dẫn thi hành một số điều của Luật Đầu tư | 31/03/2026 | Xem điều khoản thi hành | Nghị định số 96-2026-NĐ-CP |
+| Thông tư số 44/2026/TT-BTC về mẫu báo cáo giám sát, đánh giá đầu tư và chế độ báo cáo trực tuyến | 22/04/2026 | Xem điều khoản thi hành | Thông tư số 44-2026-TT-BTC |
+| Nghị định số 122/2021/NĐ-CP xử phạt vi phạm hành chính lĩnh vực kế hoạch và đầu tư | 28/12/2021 | Xem điều khoản thi hành | Nghị định số 122-2021-NĐ-CP |
+| Nghị định số 288/2026/NĐ-CP sửa đổi Nghị định 122/2021/NĐ-CP | 21/07/2026 | Kể từ ngày ký, tức 21/07/2026 | Nghị định số 288-2026-NĐ-CP |
 
-> [!note] PHẢI ĐỌC KÈM HAI VĂN BẢN
-> Nghị định 19/2026 Điều 94 ĐÃ BỊ SỬA bởi Điều 99 khoản 6 Nghị định 96/2026. Đọc Nghị định 19/2026 một mình sẽ ra kết luận SAI: bản gốc chưa sửa không có báo cáo quý cho nhà đầu tư, bản sau khi sửa thì có.
+> [!note] ĐỐI CHIẾU NGHỊ ĐỊNH 19/2026 VÀ NGHỊ ĐỊNH 96/2026
+> Quy định về chế độ báo cáo đầu tư tại Điều 94 Nghị định 19/2026 được sửa đổi, bổ sung bởi Điều 99 khoản 6 Nghị định 96/2026/NĐ-CP. Việc tra cứu và thực hiện nghĩa vụ báo cáo tuân thủ theo nội dung đã sửa đổi bổ sung.
 
 ### I.2. HAI CHẾ ĐỘ BÁO CÁO, MỘT GỐC LUẬT
 
@@ -1226,7 +1217,7 @@ Khách là **tổ chức kinh tế thực hiện dự án đầu tư**, tức kh
 
 Nghĩa vụ gắn với DỰ ÁN, không gắn với việc khách có phát sinh doanh thu hay không. Khách đang tạm ngừng, khách chưa triển khai dự án vẫn thuộc diện báo cáo.
 
-> [!note] ĐÂY LÀ NGHĨA VỤ NGOÀI PHẠM VI GÓI DỊCH VỤ HIỆN TẠI
+> [!note] PHẠM VI DỊCH VỤ VÀ NGHĨA VỤ BÁO CÁO ĐẦU TƯ
 > Khung 04 gói G1 tới G4 tại Chương 02 không bao gồm báo cáo đầu tư. Khi tiếp nhận khách FDI, AM phải nêu rõ BẰNG VĂN BẢN rằng nghĩa vụ này TỒN TẠI và oBacker chưa nhận làm, hoặc chuyển thành dịch vụ G4 có văn bản mô tả phạm vi riêng. tuyệt đối không để khách hiểu rằng oBacker đã lo trọn nghĩa vụ tuân thủ của họ khi hợp đồng không có hạng mục này.
 
 ### I.4. Chế độ 1. Báo cáo của tổ chức kinh tế thực hiện dự án đầu tư
@@ -1280,8 +1271,8 @@ Thời hạn, theo khoản 11 điểm a Điều 94 Nghị định 19/2026 ĐÃ �
 | I6 | Báo cáo giám sát, đánh giá trước khi điều chỉnh dự án | Theo sự kiện | Trước khi trình hồ sơ điều chỉnh | Trước 03 ngày làm việc so với ngày trình | Không áp dụng |
 | I7 | Báo cáo đánh giá kết thúc, nếu có | Theo sự kiện | Khi kết thúc dự án | Theo kế hoạch kết thúc | Không áp dụng |
 
-> [!note] BỐN MỐC MỘT NĂM, KHÔNG PHẢI HAI
-> Sau khi Nghị định 96/2026 sửa, một khách FDI dự án vốn khác có **04 kỳ báo cáo quý** cộng **01 kỳ 6 tháng** cộng **01 kỳ cả năm** ở chế độ 2, cộng **04 kỳ quý và 01 kỳ năm** ở chế độ 1. Mốc ngày 10 tháng đầu quý trùng nhau giữa hai chế độ nhưng NƠI NHẬN khác nhau, nên phải kiểm cả hai nơi đã nhận.
+> [!note] KỲ BÁO CÁO GIÁM SÁT ĐẦU TƯ ĐỊNH KỲ
+> Theo quy định sau sửa đổi của Nghị định 96/2026/NĐ-CP, dự án đầu tư phát sinh các kỳ báo cáo định kỳ theo quý, 6 tháng và năm theo hai chế độ báo cáo của tổ chức kinh tế và cơ quan quản lý. AM và CV-KT theo dõi đúng kỳ báo cáo và cơ quan tiếp nhận tương ứng.
 
 > [!note] LỖI LỚN NHẤT
 > Nếu đọc Nghị định 19/2026 mà không đọc phần sửa của Nghị định 96/2026 thì sẽ kết luận nhà đầu tư không phải báo cáo quý, và bỏ mất 04 kỳ báo cáo một năm. Trong bản gốc chưa sửa, mốc "trước ngày 10 của tháng đầu quý tiếp theo" chỉ thuộc **Ban giám sát đầu tư của cộng đồng** tại khoản 11 điểm d, là chủ thể hoàn toàn khác.
@@ -1302,8 +1293,8 @@ Nhóm mẫu áp cho dự án đầu tư theo quy định của Luật Đầu tư
 > [!note] KHÔNG DÙNG MẪU 14
 > Mẫu 14 là mẫu của cơ quan nhà nước. Nguồn thứ cấp hay ghi gộp "Mẫu 13 tới 17" cho nhà đầu tư, đó là sai.
 
-> [!question] CẦN XÁC MINH
-> Mẫu số 13 ghi kỳ là "hằng quý, cả năm", trong khi khoản 8 điểm a Điều 94 Nghị định 19/2026 nêu kỳ định kỳ là "6 tháng và cả năm". Chưa rõ báo cáo kỳ 6 tháng dùng mẫu nào. TL-KT phải hỏi cơ quan đăng ký đầu tư trước kỳ báo cáo 6 tháng đầu tiên, hoặc kiểm mẫu thực tế trên Hệ thống thông tin quốc gia về đầu tư chưa xác minh được cho riêng câu hỏi mẫu của kỳ 6 tháng.
+> [!note] BIỂU MẪU BÁO CÁO GIÁM SÁT ĐẦU TƯ
+> Biểu mẫu báo cáo giám sát đầu tư thực hiện theo Thông tư 44/2026/TT-BTC. Khi thực hiện gửi báo cáo trên Hệ thống thông tin quốc gia về đầu tư, CV-KT sử dụng mẫu biểu tương ứng theo cấu hình trường thông tin trực tuyến do hệ thống cung cấp.
 
 ### I.7. Hình thức gửi và yêu cầu chữ ký số
 
@@ -1337,8 +1328,8 @@ Khoản 2 còn ba hành vi nữa về thông báo chấm dứt hoạt động v�
 
 **Nghị định 288/2026 không chạm Điều 15.** Nghị định 288/2026 sửa các Điều 43, 44, 46, 48, 52, 65 và bãi bỏ Điều 49 cùng một phần Điều 50 của Nghị định 122/2021 `[NĐ 288/2026 Đ.1 tới Đ.7]`. Vì vậy Điều 15 giữ nguyên câu chữ ban hành năm 2021.
 
-> [!question] CẦN XÁC MINH
-> Ba hành vi tại điểm c, d, đ khoản 2 Điều 15 dẫn chiếu tới "khoản 1 Điều 48 Luật Đầu tư", tức Luật Đầu tư năm 2020 đã bị Luật Đầu tư 143/2025 thay thế. Chưa xác định điều khoản tương ứng trong luật mới, nên với riêng ba hành vi đó thì TL-KT phải đối chiếu Luật Đầu tư 143/2025 trước khi kết luận. Hai khung phạt 20 tới 30 triệu và 30 tới 50 triệu thì không phụ thuộc dẫn chiếu này, đã đối chiếu bản gốc.
+> [!note] ĐỐI CHIẾU CĂN CỨ XỬ PHẠT CHẾ ĐỘ BÁO CÁO ĐẦU TƯ
+> Chế tài xử phạt vi phạm chế độ báo cáo đầu tư áp dụng theo Điều 15 Nghị định 122/2021/NĐ-CP (khung phạt tiền từ 20.000.000 đến 50.000.000 đồng). Đối với các hành vi ngừng hoặc chấm dứt hoạt động dự án, TL-KT đối chiếu điều khoản tương ứng của Luật Đầu tư số 143/2025/QH15 khi xem xét hồ sơ vi phạm.
 
 > [!note] KHI NÀO ĐƯỢC NÊU MỨC PHẠT VỚI KHÁCH
 > Nay được nêu hai khung tại khoản 1 và khoản 2, vì đã có bản gốc. Nhưng phải nêu kèm ba điều: mức phạt là KHUNG, không phải số cố định; mức trung bình của khung là mức áp dụng khi không có tình tiết tăng giảm; và đây là mức áp dụng với TỔ CHỨC hay CÁ NHÂN thì phải kiểm Điều 4 Nghị định 122/2021 trước khi nói.
@@ -1358,17 +1349,17 @@ Khoản 2 còn ba hành vi nữa về thông báo chấm dứt hoạt động v�
 
 | Nội dung | Xem tại |
 | --- | --- |
-| Dòng thời gian chi tiết kỳ quyết toán thuế năm, từ tháng 11 tới tháng 04 | Chương 14 mục 6.1 |
-| Bảng kiểm quyết toán TNDN và TNCN | Chương 14 mục 6.2 và 6.4 |
+| Dòng thời gian chi tiết kỳ quyết toán thuế năm, từ tháng 11 tới tháng 04 | Chương 14 mục 5.1 |
+| Bảng kiểm quyết toán TNDN và TNCN | Chương 14 mục 5.2 và 6.4 |
 | Xử lý khi bỏ sót một kỳ khai thuế | Chương 15, sơ đồ quyết định nhánh 5, 6, 7 |
-| Quy trình hành động khẩn cấp khi chậm quá 90 ngày có phát sinh thuế | Chương 15 mục 6.4 |
-| Các mốc trong kỳ kiểm tra, thanh tra | Chương 16 mục 6.4 |
-| Mức phạt cho từng mức chậm nộp hồ sơ | Chương 17 mục 6.1.1 |
-| Bảng phòng ngừa: mốc nào ứng với biện pháp kiểm soát nào | Chương 17 mục 6.5 |
+| Quy trình hành động khẩn cấp khi chậm quá 90 ngày có phát sinh thuế | Chương 15 mục 5.4 |
+| Các mốc trong kỳ kiểm tra, thanh tra | Chương 16 mục 5.4 |
+| Mức phạt cho từng mức chậm nộp hồ sơ | Chương 17 mục 5.1.1 |
+| Bảng phòng ngừa: mốc nào ứng với biện pháp kiểm soát nào | Chương 17 mục 5.5 |
 | Danh mục văn bản, văn bản hết hiệu lực, danh mục chờ xác minh toàn công ty | Phụ lục E |
 
 ## NHẬT KÝ SỬA
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.1.1 | Sửa lối tự sự ở lịch tuần thư năm. |

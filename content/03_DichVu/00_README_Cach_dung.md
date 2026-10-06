@@ -7,16 +7,12 @@ level: "Cấp 1, văn bản KHUNG toàn công ty"
 version: "R.1.0.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 07/09/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-SOP-00 Chuẩn vận hành dịch vụ"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-SOP-DV-00
 tags:
@@ -70,12 +66,12 @@ tags:
 
 | Mã | Tài liệu | Nội dung | Người sở hữu | Thời điểm dùng |
 | --- | --- | --- | --- | --- |
-| [[PL_1_Can_cu_phap_ly\|OBK-SOP-PL1]] | [[PL_1_Can_cu_phap_ly]] | Bản đối chiếu của sổ căn cứ, giữ để tra cứu | `LEG` | Khi cần đối chiếu một bản cũ |
+| OBK-SOP-PL1 | OBK-SOP-PL1 | Bản đối chiếu của sổ căn cứ (PL_1), không nằm trong vault, giữ để tra cứu | `LEG` | Khi cần đối chiếu một bản cũ |
 | [[PL_2_Bang_tra_SLA\|OBK-SOP-PL2]] | [[PL_2_Bang_tra_SLA]] | Bảng tra SLA gộp bảy bảng Job, bản sinh tự động | COO | Khi cần tra nhanh |
 | [[PL_3_Ban_do_lien_ket_va_chuyen_tang\|OBK-SOP-PL3]] | [[PL_3_Ban_do_lien_ket_va_chuyen_tang]] | Bảng nội dung nào đặt ở đâu;<br>bảng chuyển cấp của Handbook Kế toán;<br>khuôn mẫu tài liệu cấp 3 | COO | Trước mỗi lần sửa một tài liệu |
-| [[OBK-CC]] | [[OBK-CC]] | Sổ căn cứ pháp lý. Nơi duy nhất chép nguyên văn điều khoản | `LEG` | Khi cần nguyên văn một điều khoản |
+| OBK-CC | OBK-CC | Sổ căn cứ pháp lý. Nơi duy nhất chép nguyên văn điều khoản | `LEG` | Khi cần nguyên văn một điều khoản |
 
-Nguyên văn từng điều khoản nằm tại thư mục `CanCu`, một trang cho mỗi mã căn cứ. Thông tin từng văn bản pháp luật nằm tại thư mục `VanBan`, một trang cho mỗi văn bản.
+Nguyên văn từng điều khoản và thông tin từng văn bản pháp luật nằm trong sổ căn cứ pháp lý OBK-CC, một dòng cho mỗi mã căn cứ.
 
 ## 2. Thứ tự đọc theo từng nhóm người đọc
 
@@ -83,17 +79,17 @@ Nguyên văn từng điều khoản nằm tại thư mục `CanCu`, một trang 
 | --- | --- | --- |
 | Nhân sự mới vào oBacker | Tài liệu này, rồi [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]], rồi SOP cấp 2 của bộ phận mình | Ba tài liệu, một buổi |
 | Nhân sự đã quen việc, cần tra một mốc thời hạn | Bảng Job của SOP cấp 2 của bộ phận mình;<br>[[PL_2_Bang_tra_SLA\|OBK-SOP-PL2]] khi cần so sánh giữa các bộ phận | |
-| Nhân sự cần một con số của pháp luật | Thư mục `CanCu`, tra theo mã căn cứ. Không có nguồn nào khác trong kho được dùng cho mục đích này | |
+| Nhân sự cần một con số của pháp luật | Sổ căn cứ pháp lý OBK-CC, tra theo mã căn cứ. Không có nguồn nào khác trong kho được dùng cho mục đích này | |
 | Nhân sự chuẩn bị sửa một tài liệu | [[PL_3_Ban_do_lien_ket_va_chuyen_tang\|OBK-SOP-PL3]] mục 2, để biết nội dung định sửa có bị dẫn chiếu ở đâu | |
-| Nhân sự mở lại bộ tài liệu sau một thời gian | Sổ căn cứ [[OBK-CC]] và Bảng tra SLA [[PL_2_Bang_tra_SLA\|OBK-SOP-PL2]] | |
+| Nhân sự mở lại bộ tài liệu sau một thời gian | Sổ căn cứ OBK-CC và Bảng tra SLA [[PL_2_Bang_tra_SLA\|OBK-SOP-PL2]] | |
 
 ---
 
-## 3. Ba quy tắc chung của bộ
+## 3. Quy tắc vận hành chung của bộ tài liệu
 
 | # | Quy tắc | Nội dung |
 | --- | --- | --- |
-| 1 | Không trả lời khách hàng bằng trí nhớ | Mọi con số của pháp luật phải truy được về một mã căn cứ đã đối chiếu bản gốc trong thư mục `CanCu`.<br>Quy tắc này áp dụng cho mọi cấp, kể cả `CEO` |
+| 1 | Không trả lời khách hàng bằng trí nhớ | Mọi con số của pháp luật phải truy được về một mã căn cứ đã đối chiếu bản gốc trong sổ căn cứ pháp lý OBK-CC.<br>Quy tắc này áp dụng cho mọi cấp, kể cả `CEO` |
 | 2 | Một đầu mối duy nhất với khách hàng | `AM` là đầu mối toàn trình, từ khi khách là lead tới khi kết thúc hợp đồng.<br>Bốn bộ phận nghiệp vụ không liên hệ khách hàng dưới bất kỳ hình thức nào |
 | 3 | Không dừng công việc để chờ đầu vào đầy đủ | Công việc chạy tiếp bằng giả thiết đã ghi rõ, trừ ba trường hợp bắt buộc dừng tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] `NT-3` |
 
@@ -143,7 +139,7 @@ Căn cứ phân việc là yêu cầu của công việc, không phải lĩnh v�
 | Lập luận pháp lý, hoặc soạn văn bản pháp lý cho một khách hàng | `TL-LS` |
 | Nghiệp vụ chưa có chuẩn, hoặc kết luận dùng cho mọi khách hàng về sau | `TL-RD` |
 
-Bản gốc của quy tắc này, kèm bốn trường hợp giao nhau, đặt tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 5.5.
+Quy định chuẩn mực của quy tắc này, cùng các trường hợp giao nhau cụ thể, được ban hành tại OBK-SOP-00 mục 5.5.
 
 ### 4.3. Quy tắc ký hiệu của hai mảng
 
@@ -169,7 +165,7 @@ Nhánh thương mại và Phòng Dịch vụ thuộc hai nhánh khác nhau và c
 | Quy chế tài chính nội bộ: nguyên tắc, thẩm quyền, định mức, chế tài | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] |
 | Quy trình mua sắm và thanh toán nội bộ | [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] và [[PL_BM_Bieu_mau_mua_sam_thanh_toan\|OBK-SOP-NB-PL-BM]] |
 | Quy trình thu tiền và quản lý tiền nội bộ | [[OBK-SOP-NB-02_Thu_tien_va_cong_no_phai_thu\|OBK-SOP-NB-02]] và [[OBK-SOP-NB-03_Quan_ly_tien\|OBK-SOP-NB-03]] |
-| Toàn văn văn bản pháp luật | Không thuộc bộ tài liệu này. Nguyên văn điều khoản được trích nằm tại thư mục `CanCu` |
+| Toàn văn văn bản pháp luật | Không thuộc bộ tài liệu này. Nguyên văn điều khoản được trích nằm trong sổ căn cứ pháp lý OBK-CC |
 | Cơ cấu tổ chức, danh mục đơn vị, ma trận phân quyền, chuyển lên cấp trên | [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen\|OBK-QCTC-02]] và bốn phụ lục |
 
 ---

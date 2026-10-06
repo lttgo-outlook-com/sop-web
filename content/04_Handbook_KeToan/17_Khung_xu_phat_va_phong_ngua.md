@@ -4,19 +4,16 @@ code: "OBK-SOP-17"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.0"
+version: "R.1.0.2"
 status: "đang áp dụng"
-draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 26/09/2026"
+draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
 parent: "OBK-SOP-KT Kế toán và thuế"
 next_review: "Chậm nhất 31/12/2026"
 chapter: "Khung xử phạt và biện pháp phòng ngừa"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-SOP-17
 tags:
@@ -33,8 +30,8 @@ tags:
 | Mã tài liệu | OBK-SOP-17 |
 | Tên chương | Khung xử phạt và biện pháp phòng ngừa |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.1.0.0, đang áp dụng |
-| Ngày biên soạn | 01/10/2026 |
+| Phiên bản | R.1.0.2, đang áp dụng |
+| Ngày biên soạn | 04/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 26/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -63,10 +60,10 @@ tags:
 
 **Hệ quả thứ ba, hai lớp rủi ro cùng lúc.** oBacker vừa có rủi ro bị xử phạt trực tiếp, vừa có rủi ro trách nhiệm dân sự với khách hàng khi khách bị phạt vì lỗi của oBacker. Hai lớp này độc lập với nhau. Việc oBacker bồi thường cho khách không làm mất đi quyết định xử phạt đứng tên oBacker, và ngược lại.
 
-Bốn việc bắt buộc để kiểm soát rủi ro này:
+Biện pháp bắt buộc để kiểm soát rủi ro:
 
 1. Hợp đồng dịch vụ kế toán phải làm rõ ranh giới phạm vi ủy quyền và trách nhiệm của từng bên. Ban Pháp chế rà soát toàn bộ mẫu hợp đồng theo yêu cầu này.
-2. Mọi hồ sơ nộp thay khách phải có văn bản xác nhận của khách trước khi nộp. Xem Chương 14 mục 6.5.
+2. Mọi hồ sơ nộp thay khách phải có văn bản xác nhận của khách trước khi nộp. Xem Chương 14 mục 5.5.
 3. Mọi sai sót phải được báo cáo và xử lý theo Chương 15, không được tự xử lý.
 4. Nhân viên không được nhận bất kỳ ủy quyền nào từ khách hàng dưới danh nghĩa cá nhân. Mọi ủy quyền phải đứng tên oBacker và được CEO duyệt.
 
@@ -115,72 +112,10 @@ Ba hệ quả thực tế:
 
 ---
 
-## 3. Căn cứ pháp lý và quy tắc áp dụng văn bản
-
-### 3.1. Danh mục căn cứ
-
-| # | Văn bản | Ngày ban hành | Hiệu lực |
-| --- | --- | --- | --- |
-| 1 | Văn bản hợp nhất 15/VBHN-BTC ngày 05/05/2026 (hợp nhất Nghị định 125/2020/NĐ-CP, Nghị định 102/2021/NĐ-CP, Nghị định 310/2025/NĐ-CP) | Hợp nhất ngày 05/5/2026 | Nghị định gốc hiệu lực 05/12/2020 `[15/VBHN-BTC ngày 05/05/2026 Đ.44 k.1]`;<br>Nghị định 310/2025 hiệu lực 16/01/2026 |
-| 2 | Nghị định 291/2026/NĐ-CP sửa đổi, bổ sung Nghị định 125/2020/NĐ-CP | 21/7/2026 | Từ ngày ký ban hành, tức 21/7/2026 `[NĐ 291/2026 Đ.4 k.1]` |
-| 3 | Luật Xử lý vi phạm hành chính, bản hợp nhất số 90/VBHN-VPQH (hợp nhất Luật 15/2012/QH13 và 09 luật sửa đổi, trong đó có Luật 67/2020/QH14 và Luật 88/2025/QH15) | Hợp nhất ngày 30/3/2026 | Luật gốc 15/2012/QH13 hiệu lực 01/7/2013;<br>Luật 67/2020 hiệu lực 01/01/2022;<br>Luật 88/2025 hiệu lực 01/7/2025 |
-| 4 | Thông tư 89/2026/TT-BTC | 30/6/2026 | 01/7/2026 |
-| 5 | Luật Quản lý thuế số 108/2025/QH15 Điều 16 về tiền chậm nộp | 10/12/2025 | 01/07/2026 |
-| 6 | Nghị định 252/2026/NĐ-CP Điều 26 về thời gian tính tiền chậm nộp |  |  |
-| 7 | Nghị quyết 107/2023/QH15 về thuế TNDN bổ sung theo quy định chống xói mòn cơ sở thuế toàn cầu | 29/11/2023 | 01/01/2024, áp dụng từ năm tài chính 2024 |
-| 8 | Văn bản hợp nhất 27/2026/VBHN-NĐ-BTC (hợp nhất Nghị định 125/2020/NĐ-CP, Nghị định 102/2021/NĐ-CP, Nghị định 310/2025/NĐ-CP, Nghị định 291/2026/NĐ-CP), bản hợp nhất mới nhất, thay cho hàng 1 | Hợp nhất mới nhất, sau ngày Nghị định 291/2026/NĐ-CP có hiệu lực | Cùng mốc hiệu lực với hàng 1 và hàng 2 |
-
-### 3.2. QUY TẮC ÁP DỤNG ĐỒNG THỜI HAI VĂN BẢN QUAN TRỌNG NHẤT
-
-> [!question] CẦN XÁC MINH
-> Nghị định 291/2026/NĐ-CP ban hành ngày 21/7/2026. Bản hợp nhất 15/VBHN-BTC được lập ngày 05/5/2026. Vì Nghị định 291/2026 ban hành SAU ngày hợp nhất nên **bản hợp nhất 15/VBHN-BTC CHƯA chứa nội dung của Nghị định 291/2026**. Khi tra cứu xử phạt, bắt buộc đọc CẢ HAI văn bản. Chỉ đọc bản hợp nhất là thiếu.
-
-Nội dung Nghị định 291/2026/NĐ-CP gồm 04 điều:
-
-| Điều | Nội dung |
-| --- | --- |
-| Điều 1 | Sửa đổi, bổ sung điểm d khoản 3 Điều 5 Nghị định 125/2020 |
-| Điều 2 | Bổ sung Mục 3 và Điều 19a vào sau Mục 2 Chương II.<br>Tên Mục 3: "XỬ PHẠT VI PHẠM HÀNH CHÍNH VỀ THUẾ ĐỐI VỚI NGƯỜI NỘP THUẾ VÀ TỔ CHỨC, CÁ NHÂN KHÁC CÓ LIÊN QUAN" |
-| Điều 3 | Bổ sung cụm từ "Điều 19a" vào sau số "19" tại khoản 6 Điều 2;<br>điểm a, d khoản 4 Điều 7;<br>điểm b khoản 3, điểm b khoản 4, điểm b khoản 5 Điều 32;<br>điểm b, d khoản 1, điểm c, đ khoản 2 Điều 33;<br>khoản 1 Điều 35 |
-| Điều 4 | Hiệu lực thi hành kể từ ngày ký ban hành |
-
-**Nội dung Điều 19a mới: vi phạm về cung cấp thông tin phục vụ trao đổi thông tin thuế quốc tế**
-
-| Hành vi | Mức phạt (mức cho TỔ CHỨC) | Căn cứ |
-| --- | --- | --- |
-| "cung cấp thông tin theo yêu cầu của cơ quan thuế phục vụ mục đích trao đổi thông tin theo quy định của pháp luật Việt Nam, điều ước quốc tế, thỏa thuận quốc tế về thuế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên hoặc là bên ký kết quá thời hạn từ 05 ngày trở lên" | 10.000.000 đến 30.000.000 đồng | `[NĐ 291/2026 Đ.2, Điều 19a k.1]` |
-| "cung cấp không chính xác, không đầy đủ thông tin theo yêu cầu của cơ quan thuế phục vụ mục đích trao đổi thông tin ..." | 30.000.000 đến 50.000.000 đồng | `[NĐ 291/2026 Đ.2, Điều 19a k.2]` |
-| "Không cung cấp thông tin sau 15 ngày kể từ ngày hết thời hạn cung cấp thông tin hoặc kể từ ngày hết thời hạn gia hạn cung cấp thông tin theo yêu cầu của cơ quan thuế phục vụ mục đích trao đổi thông tin ..." | 50.000.000 đến 100.000.000 đồng | `[NĐ 291/2026 Đ.2, Điều 19a k.3 đ.a]` |
-| "Thông đồng, bao che người nộp thuế nhằm ngăn cản cơ quan thuế thu thập, xác minh thông tin phục vụ mục đích trao đổi thông tin ..." | 50.000.000 đến 100.000.000 đồng | `[NĐ 291/2026 Đ.2, Điều 19a k.3 đ.b]` |
-
-Biện pháp khắc phục hậu quả: "Buộc cung cấp thông tin đầy đủ, chính xác đối với hành vi quy định tại khoản 2 và điểm a khoản 3 Điều này" `[NĐ 291/2026 Đ.2, Điều 19a k.4]`.
-
-Hệ quả cụ thể do Điều 3 Nghị định 291/2026 mang lại, phải cập nhật vào SOP:
-
-1. Điều 2 khoản 6 về ngày bắt đầu tính quá thời hạn: nay bao gồm cả Điều 19a.
-2. Điều 7 khoản 4 điểm a về mức phạt ghi trong Nghị định là mức cho tổ chức: nay bao gồm cả Điều 19a. Nghĩa là mức 10 triệu đến 100 triệu đồng tại Điều 19a là mức cho TỔ CHỨC; cá nhân áp dụng 1/2.
-3. Điều 7 khoản 4 điểm d về cách tính mức cụ thể trong khung (mức trung bình khung, giảm hoặc tăng 10%): nay áp dụng cả cho Điều 19a.
-4. Điều 32 về thẩm quyền xử phạt của cơ quan thuế, Điều 33 về thẩm quyền của Chủ tịch Ủy ban nhân dân các cấp, Điều 35 về nguyên tắc xác định và phân định thẩm quyền: mở rộng thẩm quyền sang các hành vi tại Điều 19a.
-
-Đối tượng bị ảnh hưởng chủ yếu: doanh nghiệp có vốn đầu tư nước ngoài, doanh nghiệp có giao dịch liên kết xuyên biên giới, tổ chức tài chính nắm giữ thông tin tài khoản, và các bên được cơ quan thuế yêu cầu cung cấp thông tin phục vụ trao đổi. oBacker phải rà danh mục khách để xác định nhóm này.
-
-Nghị định 291/2026 không thay đổi bất kỳ mức phạt nào về chậm nộp hồ sơ khai thuế, khai sai thiếu thuế, trốn thuế, đăng ký thuế hay hóa đơn.
-
-### 3.3. Nguyên tắc không xử phạt trùng khi sử dụng hóa đơn không hợp pháp
-
-> [!note] KẾT LUẬN
-> Điểm d khoản 3 Điều 5 Nghị định 125/2020 bản cũ, nguyên văn "Hành vi vi phạm về sử dụng hóa đơn không hợp pháp, sử dụng không hợp pháp hóa đơn thuộc trường hợp bị xử phạt theo Điều 16, Điều 17 Nghị định này thì không bị xử phạt theo Điều 28 Nghị định này", đã bị Nghị định 291/2026/NĐ-CP Điều 1 thay hẳn bằng nội dung khác về Điều 19a. Bản hợp nhất mới nhất xác nhận điểm d khoản 3 Điều 5 hiện hành không còn nhắc tới hóa đơn không hợp pháp `[27/2026/VBHN-NĐ-BTC Đ.5 k.3 đ.d]`.
->
-> Nguyên tắc không xử phạt trùng giữa hành vi sử dụng hóa đơn không hợp pháp với Điều 28 không mất đi. Chính Điều 28 khoản 1, nội dung không nằm trong phạm vi bị Nghị định 291/2026 sửa, quy định trực tiếp ngoại lệ, nguyên văn: "Phạt tiền từ 20.000.000 đồng đến 50.000.000 đồng đối với hành vi sử dụng hóa đơn không hợp pháp, sử dụng không hợp pháp hóa đơn quy định tại Điều 4 Nghị định này, trừ trường hợp được quy định tại điểm đ khoản 1 Điều 16 và điểm d khoản 1 Điều 17 Nghị định này" `[27/2026/VBHN-NĐ-BTC Đ.28 k.1]`.
->
-> Kết luận: hành vi sử dụng hóa đơn không hợp pháp thuộc điểm đ khoản 1 Điều 16 hoặc điểm d khoản 1 Điều 17 thì không bị xử phạt theo Điều 28. Các trường hợp sử dụng hóa đơn không hợp pháp khác, ngoài hai điểm đó, vẫn bị xử phạt theo Điều 28 bình thường.
-
-> [!question] CẦN XÁC MINH
-> Điều 7 khoản 4 điểm a liệt kê "khoản 1, 2 Điều 19" là mức phạt áp dụng đối với tổ chức, trong khi khoản 3 Điều 19 không được liệt kê. Chưa xác định được mức tại khoản 3 Điều 19 là mức cho tổ chức hay cho cá nhân. Phải xác minh trước khi áp dụng hệ số cho các hành vi tại khoản 3 Điều 19.
 
 ---
 
-## 4. Vai trò và trách nhiệm
+## 3. Vai trò và trách nhiệm
 
 | Công việc | CV-KT | TL-KT | AM | COO | CEO |
 | --- | --- | --- | --- | --- | --- |
@@ -201,7 +136,7 @@ Nghị định 291/2026 không thay đổi bất kỳ mức phạt nào về ch�
 
 ---
 
-## 5. Đầu vào bắt buộc
+## 4. Đầu vào bắt buộc
 
 Trước khi tra bảng mức phạt và kết luận, phải có đủ:
 
@@ -220,13 +155,13 @@ Trước khi tra bảng mức phạt và kết luận, phải có đủ:
 
 ---
 
-## 6. Các bước thực hiện
+## 5. Các bước thực hiện
 
-### 6.1. BẢNG MỨC PHẠT ĐẦY ĐỦ
+### 5.1. BẢNG MỨC PHẠT ĐẦY ĐỦ
 
-Đọc bảng: mọi mức phạt tiền tại Điều 10, 11, 12, 13, 14, 15, khoản 1 và khoản 2 Điều 19, Điều 19a, và toàn bộ Chương III về hóa đơn là mức áp dụng ĐỐI VỚI TỔ CHỨC `[15/VBHN-BTC ngày 05/05/2026 Đ.7 k.4 đ.a]` và `[NĐ 291/2026 Đ.3]`. Xem mục 6.2 về hệ số cá nhân.
+Đọc bảng: mọi mức phạt tiền tại Điều 10, 11, 12, 13, 14, 15, khoản 1 và khoản 2 Điều 19, Điều 19a, và toàn bộ Chương III về hóa đơn là mức áp dụng ĐỐI VỚI TỔ CHỨC `[15/VBHN-BTC ngày 05/05/2026 Đ.7 k.4 đ.a]` và `[NĐ 291/2026 Đ.3]`. Xem mục 5.2 về hệ số cá nhân.
 
-#### 6.1.1. Chậm nộp hồ sơ khai thuế, theo 5 mức thời gian
+#### 5.1.1. Chậm nộp hồ sơ khai thuế, theo 5 mức thời gian
 
 | Hành vi | Khung phạt cho TỔ CHỨC | Biện pháp khắc phục | Căn cứ |
 | --- | --- | --- | --- |
@@ -238,7 +173,7 @@ Trước khi tra bảng mức phạt và kết luận, phải có đủ:
 | Không nộp hồ sơ khai thuế nhưng không phát sinh số thuế phải nộp | 8.000.000 đến 15.000.000 đồng | Buộc nộp hồ sơ khai thuế | `[15/VBHN-BTC ngày 05/05/2026 Đ.13 k.4 đ.c, k.6 đ.b]` |
 | Không nộp các phụ lục theo quy định về quản lý thuế đối với doanh nghiệp có giao dịch liên kết kèm hồ sơ quyết toán thuế TNDN | 8.000.000 đến 15.000.000 đồng | Buộc nộp phụ lục kèm theo hồ sơ khai thuế | `[15/VBHN-BTC ngày 05/05/2026 Đ.13 k.4 đ.d, k.6 đ.b]` |
 | Nộp hồ sơ khai thuế quá thời hạn TRÊN 90 ngày, có phát sinh số thuế phải nộp, và người nộp thuế đã nộp đủ số tiền thuế, tiền chậm nộp vào ngân sách nhà nước trước thời điểm cơ quan thuế công bố quyết định kiểm tra thuế, cơ quan có thẩm quyền khác công bố quyết định thanh tra, kiểm tra hoặc trước thời điểm cơ quan thuế lập biên bản về hành vi chậm nộp hồ sơ khai thuế | 15.000.000 đến 25.000.000 đồng, có mức tối đa: nếu số tiền phạt lớn hơn số tiền thuế phát sinh trên hồ sơ khai thuế thì mức phạt tối đa bằng số thuế phát sinh phải nộp trên hồ sơ, nhưng không thấp hơn mức trung bình của khung phạt tại khoản 4 | | `[15/VBHN-BTC ngày 05/05/2026 Đ.13 k.5]` |
-| Nộp hồ sơ khai thuế quá thời hạn TRÊN 90 ngày, có phát sinh số thuế phải nộp, chưa nộp đủ tiền thuế và tiền chậm nộp trước mốc nêu trên | TRỐN THUẾ, xem mục 6.1.4 | Buộc nộp đủ số tiền thuế trốn và tiền chậm nộp | `[15/VBHN-BTC ngày 05/05/2026 Đ.17 k.1 đ.a]` |
+| Nộp hồ sơ khai thuế quá thời hạn TRÊN 90 ngày, có phát sinh số thuế phải nộp, chưa nộp đủ tiền thuế và tiền chậm nộp trước mốc nêu trên | TRỐN THUẾ, xem mục 5.1.4 | Buộc nộp đủ số tiền thuế trốn và tiền chậm nộp | `[15/VBHN-BTC ngày 05/05/2026 Đ.17 k.1 đ.a]` |
 
 Ngoại lệ không xử phạt: "Không xử phạt hành vi vi phạm về thời hạn nộp hồ sơ khai thuế trong thời gian người nộp thuế được gia hạn nộp hồ sơ khai thuế đó" `[15/VBHN-BTC ngày 05/05/2026 Đ.9 k.5]`. Khi được gia hạn, "ngày bắt đầu tính quá thời hạn là ngày đầu tiên sau ngày kết thúc thời hạn gia hạn" `[15/VBHN-BTC ngày 05/05/2026 Đ.2 k.6]`.
 
@@ -246,7 +181,7 @@ Ngoại lệ riêng cho cá nhân tự quyết toán TNCN: "Không xử phạt h
 
 Ngoại lệ khi thay đổi kỳ tính thuế từ quý về tháng: "Người nộp thuế không bị xử phạt vi phạm hành chính về chậm nộp hồ sơ khai thuế đối với hồ sơ khai thuế của các kỳ tính thuế phải nộp lại do thay đổi kỳ tính thuế" `[TT 89/2026 Đ.19 k.1 đ.b.2.3]`. Nhưng vẫn phải nộp tiền chậm nộp tiền thuế.
 
-#### 6.1.2. Khai sai, khai không đầy đủ KHÔNG dẫn đến thiếu thuế
+#### 5.1.2. Khai sai, khai không đầy đủ KHÔNG dẫn đến thiếu thuế
 
 | Hành vi | Khung phạt cho TỔ CHỨC | Biện pháp khắc phục | Căn cứ |
 | --- | --- | --- | --- |
@@ -255,7 +190,7 @@ Ngoại lệ khi thay đổi kỳ tính thuế từ quý về tháng: "Người 
 | "Khai sai, khai không đầy đủ các chỉ tiêu liên quan đến xác định nghĩa vụ thuế trong hồ sơ thuế" | 5.000.000 đến 8.000.000 đồng | Buộc khai lại và nộp bổ sung tài liệu;<br>buộc điều chỉnh lại số lỗ, số thuế GTGT đầu vào được khấu trừ chuyển kỳ sau | `[15/VBHN-BTC ngày 05/05/2026 Đ.12 k.3 đ.a, k.4]` |
 | Hành vi tại khoản 3 Điều 16 và khoản 7 Điều 17 | 5.000.000 đến 8.000.000 đồng | Buộc điều chỉnh lại số lỗ, số thuế GTGT đầu vào được khấu trừ | `[15/VBHN-BTC ngày 05/05/2026 Đ.12 k.3 đ.b, k.4]` |
 
-#### 6.1.3. Khai sai dẫn đến thiếu số tiền thuế phải nộp: 20%
+#### 5.1.3. Khai sai dẫn đến thiếu số tiền thuế phải nộp: 20%
 
 Mức phạt: "Phạt 20% số tiền thuế khai thiếu hoặc số tiền thuế đã được miễn, giảm, hoàn cao hơn so với quy định" `[15/VBHN-BTC ngày 05/05/2026 Đ.16 k.1]`.
 
@@ -265,7 +200,7 @@ Các hành vi thuộc khung 20%:
 | --- | --- | --- |
 | a | "Khai sai căn cứ tính thuế hoặc số tiền thuế được khấu trừ hoặc xác định sai trường hợp được miễn, giảm, hoàn thuế dẫn đến thiếu số tiền thuế phải nộp hoặc tăng số tiền thuế được miễn, giảm, hoàn nhưng các nghiệp vụ kinh tế đã được phản ánh đầy đủ trên hệ thống sổ kế toán, hóa đơn, chứng từ hợp pháp" | `[15/VBHN-BTC ngày 05/05/2026 Đ.16 k.1 đ.a]` |
 | b | Đã được bãi bỏ | `[15/VBHN-BTC ngày 05/05/2026 Đ.16 k.1 đ.b]` |
-| c | VAN AN TOÀN THỨ HAI: hành vi đã bị lập biên bản xác định là trốn thuế nhưng người nộp thuế vi phạm hành chính LẦN ĐẦU về hành vi trốn thuế, đã khai bổ sung và nộp đủ tiền thuế trước thời điểm cơ quan có thẩm quyền ra quyết định xử phạt, và cơ quan thuế đã lập biên bản ghi nhận | `[15/VBHN-BTC ngày 05/05/2026 Đ.16 k.1 đ.c]`;<br>xem Chương 15 mục 6.3 |
+| c | VAN AN TOÀN THỨ HAI: hành vi đã bị lập biên bản xác định là trốn thuế nhưng người nộp thuế vi phạm hành chính LẦN ĐẦU về hành vi trốn thuế, đã khai bổ sung và nộp đủ tiền thuế trước thời điểm cơ quan có thẩm quyền ra quyết định xử phạt, và cơ quan thuế đã lập biên bản ghi nhận | `[15/VBHN-BTC ngày 05/05/2026 Đ.16 k.1 đ.c]`;<br>xem Chương 15 mục 5.3 |
 | d | Khai sai dẫn đến thiếu thuế đối với GIAO DỊCH LIÊN KẾT nhưng người nộp thuế đã lập hồ sơ xác định giá thị trường hoặc đã lập và gửi cơ quan thuế các phụ lục theo quy định | `[15/VBHN-BTC ngày 05/05/2026 Đ.16 k.1 đ.d]` |
 | đ | Sử dụng hóa đơn, chứng từ không hợp pháp để hạch toán giá trị hàng hóa, dịch vụ mua vào làm giảm số thuế phải nộp, nhưng khi cơ quan thuế thanh tra, kiểm tra phát hiện, người mua CHỨNG MINH ĐƯỢC lỗi vi phạm thuộc về bên bán và người mua đã hạch toán kế toán đầy đủ theo quy định | `[15/VBHN-BTC ngày 05/05/2026 Đ.16 k.1 đ.đ]` |
 
@@ -277,7 +212,7 @@ Nếu khai sai theo điểm a, b, d nhưng không dẫn đến thiếu thuế, k
 
 Điểm d rất quan trọng với khách có giao dịch liên kết: lập hồ sơ xác định giá thị trường hoặc lập và gửi phụ lục là điều kiện để rơi vào khung 20% thay vì khung nặng hơn. Đây là biện pháp phòng ngừa có giá trị tài chính rất lớn.
 
-#### 6.1.4. Trốn thuế: 1 / 1,5 / 2 / 2,5 / 3 lần
+#### 5.1.4. Trốn thuế: 1 / 1,5 / 2 / 2,5 / 3 lần
 
 | Tình tiết | Mức phạt (nguyên văn) | Căn cứ |
 | --- | --- | --- |
@@ -305,7 +240,7 @@ Trường hợp giảm nhẹ về khoản 3 Điều 12: "Các hành vi vi phạm
 
 Điểm nghiệp vụ quan trọng: bán hàng không lập hóa đơn NHƯNG ĐÃ kê khai doanh thu đó vào kỳ tính thuế tương ứng thì không bị coi là trốn thuế theo điểm c, chỉ bị phạt hành vi không lập hóa đơn theo Điều 24 khoản 3.
 
-#### 6.1.5. Vi phạm về đăng ký thuế và thông báo tạm ngừng, tiếp tục kinh doanh
+#### 5.1.5. Vi phạm về đăng ký thuế và thông báo tạm ngừng, tiếp tục kinh doanh
 
 Phạm vi: Điều 10 và Điều 11 chỉ áp dụng cho trường hợp đăng ký thuế TRỰC TIẾP với cơ quan thuế, không áp dụng cho doanh nghiệp đăng ký thuế cùng đăng ký doanh nghiệp `[15/VBHN-BTC ngày 05/05/2026 Đ.1 k.1]`.
 
@@ -351,7 +286,7 @@ Ba trường hợp không áp dụng Điều 11 `[15/VBHN-BTC ngày 05/05/2026 �
 - Cơ quan chi trả thu nhập chậm thông báo thay đổi thông tin khi cá nhân ủy quyền quyết toán có thay đổi thông tin theo thẻ căn cước, căn cước điện tử.
 - Không thông báo hoặc thông báo thay đổi thông tin về địa chỉ quá thời hạn do THAY ĐỔI ĐỊA GIỚI HÀNH CHÍNH theo Nghị quyết của Ủy ban Thường vụ Quốc hội hoặc Nghị quyết của Quốc hội.
 
-#### 6.1.6. Vi phạm về hóa đơn theo số lượng
+#### 5.1.6. Vi phạm về hóa đơn theo số lượng
 
 **Lập hóa đơn không đúng thời điểm** `[15/VBHN-BTC ngày 05/05/2026 Đ.24 k.2]`
 
@@ -471,7 +406,7 @@ Van an toàn riêng cho nhóm này: "Trường hợp tổ chức, cá nhân tự
 | Chuyển dữ liệu quá hạn từ 11 ngày làm việc trở lên | 10.000.000 đến 20.000.000 đồng | `[15/VBHN-BTC ngày 05/05/2026 Đ.30 k.3 đ.a]` |
 | "Không chuyển dữ liệu hóa đơn điện tử cho cơ quan thuế theo thời hạn quy định" | 10.000.000 đến 20.000.000 đồng;<br>buộc chuyển dữ liệu | `[15/VBHN-BTC ngày 05/05/2026 Đ.30 k.3 đ.b, k.4]` |
 
-#### 6.1.7. Vi phạm về cung cấp thông tin
+#### 5.1.7. Vi phạm về cung cấp thông tin
 
 **Người nộp thuế** `[15/VBHN-BTC ngày 05/05/2026 Đ.14]`
 
@@ -497,11 +432,11 @@ Van an toàn riêng cho nhóm này: "Trường hợp tổ chức, cá nhân tự
 
 **Cung cấp thông tin phục vụ trao đổi thông tin thuế quốc tế**: xem mục 3.2, Điều 19a mới `[NĐ 291/2026 Đ.2]`.
 
-#### 6.1.8. Vi phạm về chấp hành quyết định kiểm tra, thanh tra, cưỡng chế
+#### 5.1.8. Vi phạm về chấp hành quyết định kiểm tra, thanh tra, cưỡng chế
 
-Xem Chương 16 mục 6.7 quy tắc 6 để có bảng đầy đủ. Tóm tắt: khung 2.000.000 đến 5.000.000 đồng cho các hành vi tại khoản 1 Điều 15; khung 5.000.000 đến 10.000.000 đồng cho các hành vi tại khoản 2 Điều 15 `[15/VBHN-BTC ngày 05/05/2026 Đ.15]`.
+Xem Chương 16 mục 5.7 quy tắc 6 để có bảng đầy đủ. Tóm tắt: khung 2.000.000 đến 5.000.000 đồng cho các hành vi tại khoản 1 Điều 15; khung 5.000.000 đến 10.000.000 đồng cho các hành vi tại khoản 2 Điều 15 `[15/VBHN-BTC ngày 05/05/2026 Đ.15]`.
 
-#### 6.1.9. Ngân hàng thương mại, người bảo lãnh
+#### 5.1.9. Ngân hàng thương mại, người bảo lãnh
 
 | Hành vi | Chế tài | Căn cứ |
 | --- | --- | --- |
@@ -526,17 +461,17 @@ Xem Chương 16 mục 6.7 quy tắc 6 để có bảng đầy đủ. Tóm tắt:
 
 **Biện pháp khắc phục hậu quả:** buộc bổ sung các nội dung còn thiếu trong trường hợp báo cáo giám sát, đánh giá đầu tư không đầy đủ nội dung `[NĐ 122/2021 Đ.15 k.3 đ.a]`.
 
-> [!question] CẦN XÁC MINH
-> Ba hành vi tại điểm c, d và đ khoản 2 dẫn chiếu tới "khoản 1 Điều 48 Luật Đầu tư", tức Luật Đầu tư năm 2020 đã bị Luật Đầu tư số 143/2025/QH15 thay thế từ 01/03/2026. Chưa xác định điều khoản tương ứng trong luật mới. Với riêng ba hành vi đó, TL-KT phải đối chiếu Luật Đầu tư 143/2025 trước khi kết luận. Hai khung phạt thì không phụ thuộc dẫn chiếu này.
+> [!note] ĐỐI CHIẾU DẪN CHIẾU LUẬT ĐẦU TƯ
+> Các hành vi tại điểm c, d và đ khoản 2 Điều 15 Nghị định 122/2021 dẫn chiếu tới quy định ngừng/chấm dứt hoạt động dự án đầu tư theo Luật Đầu tư cũ. Khi áp dụng chế tài, TL-KT phải đối chiếu điều khoản tương ứng tại Luật Đầu tư số 143/2025/QH15 trước khi kết luận. Khung phạt tiền áp dụng theo quy định hiện hành.
 
 > [!note] TRƯỚC KHI NÊU MỨC PHẠT VỚI KHÁCH,
-> Phải kiểm ba điều: mức phạt là KHUNG chứ không phải số cố định; mức trung bình của khung là mức áp dụng khi không có tình tiết tăng giảm; và khung này áp cho TỔ CHỨC hay CÁ NHÂN thì phải đọc Điều 4 Nghị định 122/2021, không suy từ quy tắc hệ số của Nghị định 125/2020 tại mục 6.2 dưới đây.
+> Phải kiểm ba điều: mức phạt là KHUNG chứ không phải số cố định; mức trung bình của khung là mức áp dụng khi không có tình tiết tăng giảm; và khung này áp cho TỔ CHỨC hay CÁ NHÂN thì phải đọc Điều 4 Nghị định 122/2021, không suy từ quy tắc hệ số của Nghị định 125/2020 tại mục 5.2 dưới đây.
 
 Lịch báo cáo đầu tư và mốc nộp nằm tại Phụ lục C Phần I.
 
 ---
 
-### 6.2. Hệ số tổ chức và cá nhân
+### 5.2. Hệ số tổ chức và cá nhân
 
 Nguyên tắc hệ số, nguyên văn `[15/VBHN-BTC ngày 05/05/2026 Đ.5 k.5]`:
 
@@ -560,7 +495,7 @@ Mức ghi trong Nghị định là mức nào, nguyên văn `[15/VBHN-BTC ngày 
 | Điều 17 (trốn thuế, 1 đến 3 lần) | Không áp hệ số | 1 đến 3 lần số thuế trốn | 1 đến 3 lần số thuế trốn |
 | Điều 18 (ngân hàng thương mại, người bảo lãnh) | Không áp hệ số | Tương ứng số tiền không trích chuyển | Tương ứng số tiền không trích chuyển |
 | Điều 19 khoản 1 và khoản 2 | Tổ chức | 1/2 mức ghi | Đúng mức ghi |
-| Điều 19 khoản 3 | chưa xác minh được chưa xác định được, xem chỗ CẦN XÁC MINH tại mục 3.3 | Chưa kết luận | Chưa kết luận |
+| Điều 19 khoản 3 | Đối chiếu văn bản gốc trước khi áp dụng theo mục 3.3 | Tra cứu văn bản gốc | Tra cứu văn bản gốc |
 | Điều 19a (trao đổi thông tin thuế quốc tế) | Tổ chức, theo `[NĐ 291/2026 Đ.3]` bổ sung vào điểm a khoản 4 Điều 7 | 1/2 mức ghi | Đúng mức ghi |
 | Toàn bộ Chương III về hóa đơn: Điều 22, 24, 25, 26, 27, 28, 29, 30, 31 | Tổ chức | 1/2 mức ghi | Đúng mức ghi |
 
@@ -605,9 +540,9 @@ Ba hệ quả thực tế:
 > [!bug] LỖI THƯỜNG GẶP
 > Nhân viên áp mức của tổ chức cho hộ kinh doanh, làm khách hoảng sợ không cần thiết; hoặc áp mức của cá nhân cho tổ chức, làm khách chủ quan. Bắt buộc xác định loại người nộp thuế trước khi tra bảng.
 
-### 6.3. TIỀN CHẬM NỘP
+### 5.3. TIỀN CHẬM NỘP
 
-#### 6.3.1. Tiền chậm nộp TIỀN THUẾ
+#### 5.3.1. Tiền chậm nộp TIỀN THUẾ
 
 Mức: 0,03%/ngày. Nguyên văn `[Luật QLT 108/2025 Đ.16 k.2 đ.a]`:
 
@@ -665,7 +600,7 @@ Thông báo hằng tháng, nguyên văn `[TT 89/2026 Đ.39 k.2]`:
 - Khai bổ sung làm giảm nghĩa vụ thuế: người nộp thuế tự xác định số tiền chậm nộp được điều chỉnh giảm trên tờ khai bổ sung; cơ quan thuế thông báo theo mẫu số 03/TTN.
 - Cơ quan thuế, cơ quan nhà nước có thẩm quyền xác định giảm nghĩa vụ nộp ngân sách: cơ quan thuế điều chỉnh giảm số tiền chậm nộp đã tính tương ứng và thông báo theo mẫu số 03/TTN.
 
-#### 6.3.2. Tiền chậm nộp TIỀN PHẠT
+#### 5.3.2. Tiền chậm nộp TIỀN PHẠT
 
 Đây là mức có nguyên văn trong bộ nguồn nội bộ. Nguyên văn `[15/VBHN-BTC ngày 05/05/2026 Đ.42 k.1]`:
 
@@ -689,7 +624,7 @@ So sánh hai mức, để nhân viên không nhầm lẫn:
 | Tiền chậm nộp TIỀN THUẾ | 0,03%/ngày | Số tiền thuế, khoản thu khác chậm nộp | Luật Quản lý thuế 108/2025 Đ.16 k.2 đ.a;<br>thời gian tính theo NĐ 252/2026 Đ.26 k.1 |
 | Tiền chậm nộp TIỀN PHẠT | 0,05%/ngày | Số tiền phạt chậm nộp | 15/VBHN-BTC ngày 05/05/2026 Đ.42 k.1 |
 
-#### 6.3.3. Miễn, giảm tiền phạt và miễn tiền chậm nộp
+#### 5.3.3. Miễn, giảm tiền phạt và miễn tiền chậm nộp
 
 Miễn, giảm tiền phạt `[15/VBHN-BTC ngày 05/05/2026 Đ.43]`:
 
@@ -721,9 +656,9 @@ Thủ tục miễn tiền chậm nộp `[TT 89/2026 Đ.41]`, áp dụng cho trư
 | Hồ sơ bất khả kháng khác | Văn bản đề nghị mẫu số 01/MTCN;<br>văn bản xác định giá trị thiệt hại vật chất với trường hợp chiến tranh, bạo loạn, đình công phải ngừng nghỉ sản xuất kinh doanh;<br>tài liệu chứng minh rủi ro không thuộc nguyên nhân, trách nhiệm chủ quan của người nộp thuế |
 | Xác định số được miễn | "số tiền chậm nộp được miễn là số tiền chậm nộp còn nợ tại thời điểm xảy ra thiên tai, thảm họa, dịch bệnh, hỏa hoạn, tai nạn bất ngờ và không vượt quá giá trị vật chất bị thiệt hại sau khi trừ các khoản được bồi thường, bảo hiểm theo quy định (nếu có)" |
 
-### 6.4. Tình tiết tăng nặng và tình tiết giảm nhẹ
+### 5.4. Tình tiết tăng nặng và tình tiết giảm nhẹ
 
-#### 6.4.1. DANH MỤC TÌNH TIẾT GIẢM NHẸ VÀ TĂNG NẶNG, NGUYÊN VĂN
+#### 5.4.1. DANH MỤC TÌNH TIẾT GIẢM NHẸ VÀ TĂNG NẶNG, NGUYÊN VĂN
 
 Nghị định xử phạt chỉ dẫn chiếu: "Tình tiết tăng nặng, tình tiết giảm nhẹ theo quy định của pháp luật về xử lý vi phạm hành chính" `[15/VBHN-BTC ngày 05/05/2026 Đ.6 k.1]`. Danh mục cụ thể nằm ở Điều 9 và Điều 10 Luật Xử lý vi phạm hành chính, bản hợp nhất số 90/VBHN-VPQH. Bản gốc đã có trong kho, danh mục dưới đây là nguyên văn, không diễn giải lại. Đây là danh mục quyết định bội số 1 / 1,5 / 2 / 2,5 / 3 lần tại Điều 17 Nghị định xử phạt, nên phải tra đúng từng khoản, từng điểm.
 
@@ -741,7 +676,7 @@ Nghị định xử phạt chỉ dẫn chiếu: "Tình tiết tăng nặng, tìn
 | 8 | "Những tình tiết giảm nhẹ khác do Chính phủ quy định" |
 
 Đọc kỹ ba điểm nghiệp vụ của bảng trên:
-- Khoản 1 và khoản 2 là hai khoản duy nhất mà một tổ chức khách hàng chủ động tạo ra được: nộp đủ tiền thuế và tiền chậm nộp, tự giác khai báo, hợp tác với cơ quan thuế. Toàn bộ Bảng thu thập bằng chứng tại mục 6.4.3 nhằm phục vụ hai khoản này.
+- Khoản 1 và khoản 2 là hai khoản duy nhất mà một tổ chức khách hàng chủ động tạo ra được: nộp đủ tiền thuế và tiền chậm nộp, tự giác khai báo, hợp tác với cơ quan thuế. Toàn bộ Bảng thu thập bằng chứng tại mục 5.4.3 nhằm phục vụ hai khoản này.
 - Các khoản 3, 4, 5 gắn với đặc điểm nhân thân của cá nhân, hầu như không áp được cho khách là tổ chức.
 - Khoản 8 để mở cho Chính phủ. Với lĩnh vực thuế, hóa đơn, nghị định xử phạt hiện hành là 15/VBHN-BTC ngày 05/05/2026 và Nghị định 291/2026 không quy định thêm tình tiết giảm nhẹ nào ngoài danh mục trên `[15/VBHN-BTC ngày 05/05/2026 Đ.6 k.1]`.
 
@@ -767,7 +702,7 @@ Nghị định xử phạt chỉ dẫn chiếu: "Tình tiết tăng nặng, tìn
 >
 > "Tình tiết quy định tại khoản 1 Điều này đã được quy định là hành vi vi phạm hành chính thì không được coi là tình tiết tăng nặng."
 >
-> Đây là quy tắc chặn quan trọng nhất khi tính bội số 1 tới 3 lần tại Điều 17 Nghị định xử phạt. Nếu chính tình tiết đó đã là cấu thành của hành vi bị xử phạt thì không được đếm lại thành tình tiết tăng nặng. Ví dụ điểm k, "sau khi vi phạm đã có hành vi trốn tránh, che giấu vi phạm hành chính": nếu hành vi bị xử phạt chính là hành vi trốn thuế do không ghi chép trong sổ kế toán các khoản thu tại Điều 17 khoản 1 điểm b, thì việc che giấu đã nằm trong cấu thành của hành vi đó, không được cộng thêm một tình tiết tăng nặng. Đếm sai một tình tiết ở đây làm lệch bội số từ 1,5 lần lên 2 lần, tức lệch 50% số thuế trốn.
+> Đây là quy tắc chặn bắt buộc khi tính bội số 1 tới 3 lần tại Điều 17 Nghị định xử phạt. Nếu chính tình tiết đó đã là cấu thành của hành vi bị xử phạt thì không được đếm lại thành tình tiết tăng nặng. Ví dụ điểm k, "sau khi vi phạm đã có hành vi trốn tránh, che giấu vi phạm hành chính": nếu hành vi bị xử phạt chính là hành vi trốn thuế do không ghi chép trong sổ kế toán các khoản thu tại Điều 17 khoản 1 điểm b, thì việc che giấu đã nằm trong cấu thành của hành vi đó, không được cộng thêm một tình tiết tăng nặng. Đếm sai một tình tiết ở đây làm lệch bội số từ 1,5 lần lên 2 lần, tức lệch 50% số thuế trốn.
 
 Hai cấp chặn phải kiểm cùng lúc trước khi kết luận số tình tiết:
 
@@ -779,9 +714,9 @@ Hai cấp chặn phải kiểm cùng lúc trước khi kết luận số tình t
 
 Quy tắc vận hành: TL-KT phải lập bảng đếm tình tiết bằng văn bản, ghi rõ từng tình tiết viện dẫn tới khoản nào của Điều 9 hoặc điểm nào của khoản 1 Điều 10, và ghi rõ kết quả kiểm hai cấp chặn trên, trước khi kết luận bội số tại Điều 17 hoặc mức cụ thể trong khung.
 
-#### 6.4.2. Những gì đã xác minh được
+#### 5.4.2. Những gì đã xác minh được
 
-**Vi phạm hành chính có quy mô lớn.** Đây là phần Nghị định xử phạt cụ thể hóa điểm l khoản 1 Điều 10 Luật Xử lý vi phạm hành chính đã dẫn nguyên văn tại mục 6.4.1. Câu mở đầu khoản 2, nguyên văn `[15/VBHN-BTC ngày 05/05/2026 Đ.6 k.2]`: "Vi phạm hành chính có quy mô lớn theo điểm l khoản 1 Điều 10 Luật Xử lý vi phạm hành chính được xác định trong các trường hợp sau:"
+**Vi phạm hành chính có quy mô lớn.** Đây là phần Nghị định xử phạt cụ thể hóa điểm l khoản 1 Điều 10 Luật Xử lý vi phạm hành chính đã dẫn nguyên văn tại mục 5.4.1. Câu mở đầu khoản 2, nguyên văn `[15/VBHN-BTC ngày 05/05/2026 Đ.6 k.2]`: "Vi phạm hành chính có quy mô lớn theo điểm l khoản 1 Điều 10 Luật Xử lý vi phạm hành chính được xác định trong các trường hợp sau:"
 
 Hai trường hợp, nguyên văn `[15/VBHN-BTC ngày 05/05/2026 Đ.6 k.2]`:
 
@@ -822,9 +757,9 @@ Bổ sung quan trọng cho giao dịch điện tử `[15/VBHN-BTC ngày 05/05/20
 
 > "Người nộp thuế chậm thực hiện thủ tục thuế, hóa đơn bằng phương thức điện tử do sự cố kỹ thuật của hệ thống công nghệ thông tin được thông báo trên Cổng thông tin điện tử của cơ quan thuế thuộc trường hợp thực hiện hành vi vi phạm do sự kiện bất khả kháng quy định tại khoản 4 Điều 11 Luật Xử lý vi phạm hành chính"
 
-#### 6.4.3. Hướng dẫn thu thập bằng chứng tình tiết giảm nhẹ
+#### 5.4.3. Hướng dẫn thu thập bằng chứng tình tiết giảm nhẹ
 
-Danh mục tình tiết nay đã có nguyên văn tại mục 6.4.1. Bảng dưới đây gắn từng loại bằng chứng với khoản tình tiết giảm nhẹ mà bằng chứng đó phục vụ, để khi giải trình có thể viện dẫn đúng điều khoản chứ không nói chung chung.
+Danh mục tình tiết nay đã có nguyên văn tại mục 5.4.1. Bảng dưới đây gắn từng loại bằng chứng với khoản tình tiết giảm nhẹ mà bằng chứng đó phục vụ, để khi giải trình có thể viện dẫn đúng điều khoản chứ không nói chung chung.
 
 | # | Loại bằng chứng | Cách thu thập | Ai lưu |
 | --- | --- | --- | --- |
@@ -841,44 +776,44 @@ Danh mục tình tiết nay đã có nguyên văn tại mục 6.4.1. Bảng dư�
 
 Quy tắc: mọi bằng chứng phải được thu thập NGAY tại thời điểm phát sinh, không thu thập lại sau khi đã bị lập biên bản. Bằng chứng thu thập sau thường mất giá trị hoặc bị nghi ngờ.
 
-### 6.5. BẢNG PHÒNG NGỪA
+### 5.5. BẢNG PHÒNG NGỪA
 
 Mỗi hành vi vi phạm phổ biến ứng với biện pháp kiểm soát cụ thể trong quy trình của oBacker và chương nào của Handbook quy định biện pháp đó.
 
 | # | Hành vi vi phạm | Mức phạt cho tổ chức | Biện pháp kiểm soát của oBacker | Ai vận hành | Chương quy định |
 | --- | --- | --- | --- | --- | --- |
 | 1 | Chậm nộp hồ sơ khai thuế 01 đến 30 ngày | 2.000.000 đến 5.000.000 đồng | Lịch tuân thủ có mốc cảnh báo nội bộ sớm hơn thời hạn theo pháp luật;<br>cảnh báo tự động trên `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]` trước 07 ngày, 03 ngày và 01 ngày | CV-KT, TL-KT giám sát | Phụ lục C |
-| 2 | Chậm nộp hồ sơ khai thuế trên 90 ngày có phát sinh số thuế | 15.000.000 đến 25.000.000 đồng hoặc rơi vào trốn thuế | Đối chiếu danh sách hồ sơ đã nộp với danh sách nghĩa vụ hằng tháng;<br>quy trình hành động khẩn cấp cho nhánh 7 | CV-KT, TL-KT | Chương 15 mục 6.4, Phụ lục C |
-| 3 | Không nộp phụ lục giao dịch liên kết kèm hồ sơ quyết toán TNDN | 8.000.000 đến 15.000.000 đồng | Bảng kiểm quyết toán TNDN Nhóm F, dòng F4 bắt buộc có kết luận | CV-KT, TL-KT soát 100% | Chương 14 mục 6.2 |
-| 4 | Khai sai dẫn đến thiếu thuế | 20% số thuế thiếu | Soát xét hai cấp: CV-KT tự soát, TL-KT soát và chốt;<br>Bảng điều chỉnh lợi nhuận kế toán sang thu nhập tính thuế có tham chiếu chứng từ từng dòng | CV-KT | Chương 14 mục 6.3 và 6.6 |
-| 5 | Khai sai chỉ tiêu liên quan xác định nghĩa vụ thuế | 5.000.000 đến 8.000.000 đồng | Bảng kiểm rà tờ khai trước khi ký gửi;<br>đối chiếu tờ khai với Bảng điều chỉnh từng chỉ tiêu | CV-KT, TL-KT | Chương 14 mục 6.6 |
-| 6 | Trốn thuế do nộp hồ sơ sau 90 ngày mà chưa nộp đủ thuế | 1 đến 3 lần số thuế trốn | Quy tắc bất di bất dịch NỘP TIỀN TRƯỚC, NỘP HỒ SƠ SAU;<br>báo cáo Mức 6 ngay lập tức | CV-KT, TL-KT, CEO | Chương 15 mục 6.4 |
-| 7 | Trốn thuế do sử dụng hóa đơn không hợp pháp | 1 đến 3 lần số thuế trốn | Kiểm tra tình trạng hoạt động của nhà cung cấp trước khi hạch toán hóa đơn đầu vào;<br>lưu bằng chứng giao dịch thực để đủ điều kiện điểm đ khoản 1 Điều 16 | CV-KT, TL-KT | Chương 14 mục 6.2 Nhóm B dòng B18 |
-| 8 | Trốn thuế do không ghi chép trong sổ kế toán các khoản thu | 1 đến 3 lần số thuế trốn | Đối chiếu doanh thu trên sổ với tổng doanh thu trên tờ khai GTGT và với dữ liệu hóa đơn trên cổng thuế | CV-KT, TL-KT | Chương 14 mục 6.2 Nhóm A dòng A8 |
-| 9 | Không lập hóa đơn khi bán hàng hóa, dịch vụ | Tới 80.000.000 đồng, hoặc rơi vào trốn thuế | Đối chiếu doanh thu ghi nhận trên sổ với số hóa đơn đã lập, hằng tháng | CV-KT | Chương 14 mục 6.2 |
+| 2 | Chậm nộp hồ sơ khai thuế trên 90 ngày có phát sinh số thuế | 15.000.000 đến 25.000.000 đồng hoặc rơi vào trốn thuế | Đối chiếu danh sách hồ sơ đã nộp với danh sách nghĩa vụ hằng tháng;<br>quy trình hành động khẩn cấp cho nhánh 7 | CV-KT, TL-KT | Chương 15 mục 5.4, Phụ lục C |
+| 3 | Không nộp phụ lục giao dịch liên kết kèm hồ sơ quyết toán TNDN | 8.000.000 đến 15.000.000 đồng | Bảng kiểm quyết toán TNDN Nhóm F, dòng F4 bắt buộc có kết luận | CV-KT, TL-KT soát 100% | Chương 14 mục 5.2 |
+| 4 | Khai sai dẫn đến thiếu thuế | 20% số thuế thiếu | Soát xét hai cấp: CV-KT tự soát, TL-KT soát và chốt;<br>Bảng điều chỉnh lợi nhuận kế toán sang thu nhập tính thuế có tham chiếu chứng từ từng dòng | CV-KT | Chương 14 mục 5.3 và 5.6 |
+| 5 | Khai sai chỉ tiêu liên quan xác định nghĩa vụ thuế | 5.000.000 đến 8.000.000 đồng | Bảng kiểm rà tờ khai trước khi ký gửi;<br>đối chiếu tờ khai với Bảng điều chỉnh từng chỉ tiêu | CV-KT, TL-KT | Chương 14 mục 5.6 |
+| 6 | Trốn thuế do nộp hồ sơ sau 90 ngày mà chưa nộp đủ thuế | 1 đến 3 lần số thuế trốn | Quy tắc bất di bất dịch NỘP TIỀN TRƯỚC, NỘP HỒ SƠ SAU;<br>báo cáo Mức 6 ngay lập tức | CV-KT, TL-KT, CEO | Chương 15 mục 5.4 |
+| 7 | Trốn thuế do sử dụng hóa đơn không hợp pháp | 1 đến 3 lần số thuế trốn | Kiểm tra tình trạng hoạt động của nhà cung cấp trước khi hạch toán hóa đơn đầu vào;<br>lưu bằng chứng giao dịch thực để đủ điều kiện điểm đ khoản 1 Điều 16 | CV-KT, TL-KT | Chương 14 mục 5.2 Nhóm B dòng B18 |
+| 8 | Trốn thuế do không ghi chép trong sổ kế toán các khoản thu | 1 đến 3 lần số thuế trốn | Đối chiếu doanh thu trên sổ với tổng doanh thu trên tờ khai GTGT và với dữ liệu hóa đơn trên cổng thuế | CV-KT, TL-KT | Chương 14 mục 5.2 Nhóm A dòng A8 |
+| 9 | Không lập hóa đơn khi bán hàng hóa, dịch vụ | Tới 80.000.000 đồng, hoặc rơi vào trốn thuế | Đối chiếu doanh thu ghi nhận trên sổ với số hóa đơn đã lập, hằng tháng | CV-KT | Chương 14 mục 5.2 |
 | 10 | Lập hóa đơn không đúng thời điểm | Tới 70.000.000 đồng | Rà thời điểm lập hóa đơn theo từng loại giao dịch hằng tháng;<br>đặc biệt với xây dựng, bất động sản, dịch vụ thu tiền trước | CV-KT, TL-KT | Chương về hóa đơn |
 | 11 | Lập hóa đơn không ghi đầy đủ nội dung bắt buộc | 4.000.000 đến 8.000.000 đồng cho mỗi hành vi | Bảng kiểm rà hóa đơn hằng tháng, kiểm tra đủ nội dung bắt buộc, đặc biệt mã số thuế người mua | CV-KT | Chương về hóa đơn |
-| 12 | Chậm gửi thông báo, báo cáo về hóa đơn | Tới 15.000.000 đồng | Van an toàn tại khoản 2 Điều 29: tự phát hiện và lập lại thông báo thay thế trước khi cơ quan thuế ban hành quyết định thanh tra, kiểm tra thì không bị xử phạt; rà soát hằng tháng | CV-KT, TL-KT | Chương 15 mục 6.6 |
+| 12 | Chậm gửi thông báo, báo cáo về hóa đơn | Tới 15.000.000 đồng | Van an toàn tại khoản 2 Điều 29: tự phát hiện và lập lại thông báo thay thế trước khi cơ quan thuế ban hành quyết định thanh tra, kiểm tra thì không bị xử phạt; rà soát hằng tháng | CV-KT, TL-KT | Chương 15 mục 5.6 |
 | 13 | Chậm chuyển dữ liệu hóa đơn điện tử | Tới 20.000.000 đồng | Kiểm tra trạng thái chuyển dữ liệu trên `[PHẦN MỀM HĐĐT]` hằng ngày | CV-KT | Chương về hóa đơn |
 | 14 | Làm mất, cháy, hỏng hóa đơn | Tới 10.000.000 đồng | Sao lưu dữ liệu hóa đơn hằng tuần vào `[KHO LƯU TRỮ HỒ SƠ]`;<br>lập biên bản ghi nhận ngay khi phát hiện | CV-KT | Chương 15 |
 | 15 | Chậm thông báo thay đổi thông tin đăng ký thuế | Tới 7.000.000 đồng | Quy trình tiếp nhận thông tin thay đổi từ khách;<br>kiểm tra hằng quý sự khớp giữa thông tin trên hệ thống thuế và thực tế | AM, CV-KT, TL-KT | Chương về đăng ký thuế |
 | 16 | Không thông báo tạm ngừng hoạt động kinh doanh | 1.000.000 đến 2.000.000 đồng và rủi ro trốn thuế nếu vẫn kinh doanh | Xác nhận với khách trước mỗi kỳ khai về tình trạng hoạt động | AM, CV-KT | Chương về đăng ký thuế |
-| 17 | Cung cấp thông tin cho cơ quan thuế quá hạn 05 ngày làm việc | 2.000.000 đến 3.000.000 đồng | Theo dõi `[CỔNG THUẾ ĐIỆN TỬ]` hằng ngày;<br>quy trình báo cáo ngay khi có thông báo | CV-KT, TL-KT | Chương 16 mục 4 |
-| 18 | Cung cấp hồ sơ cho đoàn kiểm tra quá 06 giờ làm việc | 2.000.000 đến 5.000.000 đồng | Bộ hồ sơ 7 nhóm chuẩn bị sẵn dạng điện tử, cập nhật hằng quý, hằng tháng với khách rủi ro cao | CV-KT, TL-KT kiểm tra 6 tháng một lần | Chương 16 mục 6.5 |
-| 19 | Không ký biên bản kiểm tra trong 05 ngày làm việc | 2.000.000 đến 5.000.000 đồng | Nguyên tắc KÝ và GHI Ý KIẾN BẢO LƯU, không từ chối ký;<br>TL-KT bắt buộc có mặt tại buổi ký | TL-KT | Chương 16 mục 6.4 |
-| 20 | Không nhận quyết định thanh tra, kiểm tra | 2.000.000 đến 5.000.000 đồng | Quy trình tiếp nhận văn bản của cơ quan thuế;<br>khách được hướng dẫn không từ chối nhận | AM, TL-KT | Chương 16 mục 6.7 |
+| 17 | Cung cấp thông tin cho cơ quan thuế quá hạn 05 ngày làm việc | 2.000.000 đến 3.000.000 đồng | Theo dõi `[CỔNG THUẾ ĐIỆN TỬ]` hằng ngày;<br>quy trình báo cáo ngay khi có thông báo | CV-KT, TL-KT | Chương 16 mục 3 |
+| 18 | Cung cấp hồ sơ cho đoàn kiểm tra quá 06 giờ làm việc | 2.000.000 đến 5.000.000 đồng | Bộ hồ sơ 7 nhóm chuẩn bị sẵn dạng điện tử, cập nhật hằng quý, hằng tháng với khách rủi ro cao | CV-KT, TL-KT kiểm tra 6 tháng một lần | Chương 16 mục 5.5 |
+| 19 | Không ký biên bản kiểm tra trong 05 ngày làm việc | 2.000.000 đến 5.000.000 đồng | Nguyên tắc KÝ và GHI Ý KIẾN BẢO LƯU, không từ chối ký;<br>TL-KT bắt buộc có mặt tại buổi ký | TL-KT | Chương 16 mục 5.4 |
+| 20 | Không nhận quyết định thanh tra, kiểm tra | 2.000.000 đến 5.000.000 đồng | Quy trình tiếp nhận văn bản của cơ quan thuế;<br>khách được hướng dẫn không từ chối nhận | AM, TL-KT | Chương 16 mục 5.7 |
 | 21 | Vi phạm về cung cấp thông tin phục vụ trao đổi thông tin thuế quốc tế | 10.000.000 đến 100.000.000 đồng | Rà danh mục khách có yếu tố nước ngoài;<br>cảnh báo trước cho nhóm này;<br>theo dõi riêng yêu cầu cung cấp thông tin loại này | TL-KT, COO | Chương 17 mục 3.2 |
-| 22 | Chậm nộp tiền phạt dẫn tới tiền chậm nộp tiền phạt 0,05%/ngày | 0,05%/ngày | Theo dõi mọi quyết định xử phạt và hạn nộp tiền phạt trên `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]`;<br>cảnh báo trước 05 ngày | CV-KT | Chương 17 mục 6.6 |
-| 23 | Mất quyền xin miễn, giảm tiền phạt do đã nộp xong | Mất toàn bộ khả năng miễn, giảm | Trước khi nộp tiền phạt, TL-KT bắt buộc đánh giá có đủ điều kiện xin miễn, giảm hay không | TL-KT | Chương 17 mục 6.3.3 |
-| 24 | Mất van an toàn khai bổ sung do chậm xử lý sai sót | Từ không bị phạt thành phạt 20% hoặc nặng hơn | Quy trình hành động khẩn cấp có mốc giờ;<br>nguyên tắc phát hiện ngày nào xử lý ngày đó | CV-KT | Chương 15 mục 6.2 |
-| 25 | Bỏ lỡ thời hạn giải trình 10 ngày làm việc | Bị ấn định thuế `[Luật QLT 108/2025 Đ.24, Đ.25]` hoặc bị kiểm tra tại trụ sở | Kiểm tra cổng thuế hằng ngày;<br>mốc nội bộ ở ngày làm việc thứ 06 | CV-KT, TL-KT | Chương 16 mục 6.2 |
-| 26 | Bỏ lỡ cơ hội bãi bỏ quyết định kiểm tra trước khi công bố | Bước vào kiểm tra tại trụ sở | Quy trình hành động ngay khi nhận quyết định, kiểm tra 06 căn cứ bãi bỏ trong 02 giờ đầu | CV-KT | Chương 16 mục 6.3 |
-| 27 | oBacker bị xử phạt trực tiếp với tư cách bên được ủy quyền | Mức của tổ chức | Hợp đồng dịch vụ làm rõ phạm vi ủy quyền;<br>văn bản xác nhận của khách trước mọi lần nộp hồ sơ;<br>cấm nhân viên nhận ủy quyền cá nhân | CEO, Ban Pháp chế | Chương 17 phần Cảnh báo mở đầu, Chương 14 mục 6.5 |
-| 28 | Nhân viên tự xử lý sai sót không báo TL-KT | Mất mọi van an toàn, rủi ro kỷ luật | Nguyên tắc KHÔNG ĐƯỢC TỰ QUYẾT;<br>ngưỡng phân cấp báo cáo 6 mức;<br>Sổ theo dõi sai sót không xóa được | Toàn bộ | Chương 15 mục 6.7 |
-| 29 | Không lưu Thông báo tiếp nhận hồ sơ thuế điện tử | Không chứng minh được ngày nộp | Điểm kiểm soát bắt buộc: tải và lưu Thông báo tiếp nhận cho mọi hồ sơ | CV-KT, TL-KT kiểm tra 100% | Chương 14 mục 7 |
-| 30 | Không tải Thông báo nghĩa vụ thuế mẫu 01/NVT hằng tháng | Không đối chiếu được tiền chậm nộp, không phát hiện nợ thuế sớm | Nhiệm vụ định kỳ hằng tháng trên `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]` cho từng khách | CV-KT | Chương 14 mục 5 |
+| 22 | Chậm nộp tiền phạt dẫn tới tiền chậm nộp tiền phạt 0,05%/ngày | 0,05%/ngày | Theo dõi mọi quyết định xử phạt và hạn nộp tiền phạt trên `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]`;<br>cảnh báo trước 05 ngày | CV-KT | Chương 17 mục 5.6 |
+| 23 | Mất quyền xin miễn, giảm tiền phạt do đã nộp xong | Mất toàn bộ khả năng miễn, giảm | Trước khi nộp tiền phạt, TL-KT bắt buộc đánh giá có đủ điều kiện xin miễn, giảm hay không | TL-KT | Chương 17 mục 5.3.3 |
+| 24 | Mất van an toàn khai bổ sung do chậm xử lý sai sót | Từ không bị phạt thành phạt 20% hoặc nặng hơn | Quy trình hành động khẩn cấp có mốc giờ;<br>nguyên tắc phát hiện ngày nào xử lý ngày đó | CV-KT | Chương 15 mục 5.2 |
+| 25 | Bỏ lỡ thời hạn giải trình 10 ngày làm việc | Bị ấn định thuế `[Luật QLT 108/2025 Đ.24, Đ.25]` hoặc bị kiểm tra tại trụ sở | Kiểm tra cổng thuế hằng ngày;<br>mốc nội bộ ở ngày làm việc thứ 06 | CV-KT, TL-KT | Chương 16 mục 5.2 |
+| 26 | Bỏ lỡ cơ hội bãi bỏ quyết định kiểm tra trước khi công bố | Bước vào kiểm tra tại trụ sở | Quy trình hành động ngay khi nhận quyết định, kiểm tra 06 căn cứ bãi bỏ trong 02 giờ đầu | CV-KT | Chương 16 mục 5.3 |
+| 27 | oBacker bị xử phạt trực tiếp với tư cách bên được ủy quyền | Mức của tổ chức | Hợp đồng dịch vụ làm rõ phạm vi ủy quyền;<br>văn bản xác nhận của khách trước mọi lần nộp hồ sơ;<br>cấm nhân viên nhận ủy quyền cá nhân | CEO, Ban Pháp chế | Chương 17 phần Cảnh báo mở đầu, Chương 14 mục 5.5 |
+| 28 | Nhân viên tự xử lý sai sót không báo TL-KT | Mất mọi van an toàn, rủi ro kỷ luật | Nguyên tắc KHÔNG ĐƯỢC TỰ QUYẾT;<br>ngưỡng phân cấp báo cáo 6 mức;<br>Sổ theo dõi sai sót không xóa được | Toàn bộ | Chương 15 mục 5.7 |
+| 29 | Không lưu Thông báo tiếp nhận hồ sơ thuế điện tử | Không chứng minh được ngày nộp | Điểm kiểm soát bắt buộc: tải và lưu Thông báo tiếp nhận cho mọi hồ sơ | CV-KT, TL-KT kiểm tra 100% | Chương 14 mục 6 |
+| 30 | Không tải Thông báo nghĩa vụ thuế mẫu 01/NVT hằng tháng | Không đối chiếu được tiền chậm nộp, không phát hiện nợ thuế sớm | Nhiệm vụ định kỳ hằng tháng trên `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]` cho từng khách | CV-KT | Chương 14 mục 4 |
 
-### 6.6. Quy trình khi khách bị ra quyết định xử phạt
+### 5.6. Quy trình khi khách bị ra quyết định xử phạt
 
 **Bước 1: Tiếp nhận quyết định**
 
@@ -900,7 +835,7 @@ Việc phải làm ngay: CV-KT ghi nhận ngày nhận quyết định, chụp t
 | 5 | Có áp đúng hệ số tổ chức hoặc cá nhân không | TL-KT |
 | 6 | Cách tính mức cụ thể trong khung có đúng nguyên tắc trung bình khung và điều chỉnh 10% không | TL-KT |
 | 7 | Có bỏ sót tình tiết giảm nhẹ mà khách có bằng chứng không | TL-KT |
-| 8 | Thời hiệu xử phạt có còn không, tính theo bảng tại Chương 16 mục 6.10 | TL-KT |
+| 8 | Thời hiệu xử phạt có còn không, tính theo bảng tại Chương 16 mục 5.10 | TL-KT |
 | 9 | Biện pháp khắc phục hậu quả có đúng quy định không | TL-KT |
 | 10 | Số tiền thuế truy thu và tiền chậm nộp có khớp với tính toán của oBacker không | CV-KT, TL-KT |
 | 11 | Hạn nộp tiền phạt ghi trên quyết định | CV-KT, đặt cảnh báo ngay |
@@ -914,7 +849,7 @@ COO quyết định một trong ba phương án, trên đề xuất kỹ thuật
 | --- | --- | --- |
 | Chấp hành | Quyết định đúng quy định, không có căn cứ khiếu nại, hoặc chi phí khiếu nại lớn hơn lợi ích | Bố trí nguồn tiền, nộp đúng hạn |
 | Xin miễn, giảm tiền phạt | Có thiệt hại vật chất do bất khả kháng, có đủ hồ sơ chứng minh | Nộp hồ sơ trước khi thi hành xong quyết định `[15/VBHN-BTC ngày 05/05/2026 Đ.43 k.3]` |
-| Khiếu nại | Có căn cứ rõ ràng cho thấy quyết định sai về hành vi, điều khoản áp dụng, mức phạt, hoặc thời hiệu | Đề nghị khách thuê tư vấn pháp lý riêng, xem Chương 16 mục 6.6 |
+| Khiếu nại | Có căn cứ rõ ràng cho thấy quyết định sai về hành vi, điều khoản áp dụng, mức phạt, hoặc thời hiệu | Đề nghị khách thuê tư vấn pháp lý riêng, xem Chương 16 mục 5.6 |
 
 > [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
 > OBacker không tư vấn về quyền khiếu nại và không đại diện khách trong thủ tục khiếu nại. Đây là hoạt động vượt phạm vi hành nghề dịch vụ kế toán. Vai trò của oBacker là: chỉ ra các điểm nghi vấn trên quyết định bằng văn bản, cung cấp toàn bộ hồ sơ và số liệu cho bên tư vấn pháp lý do khách thuê, và hỗ trợ về mặt số liệu. Quyết định có khiếu nại hay không là của khách hàng.
@@ -937,11 +872,11 @@ Trong 05 ngày làm việc kể từ khi chấp hành xong quyết định:
 
 | # | Việc | Ai làm |
 | --- | --- | --- |
-| 1 | Lập Phiếu phân tích nguyên nhân gốc theo Chương 15 mục 6.7 | TL-KT |
+| 1 | Lập Phiếu phân tích nguyên nhân gốc theo Chương 15 mục 5.7 | TL-KT |
 | 2 | Xác định nguyên nhân thuộc về oBacker, thuộc về khách, hay cả hai | TL-KT đề xuất, COO kết luận |
 | 3 | Nếu thuộc về oBacker: đề xuất phương án chịu chi phí | COO đề xuất, CEO quyết định |
 | 4 | Xác định trách nhiệm cá nhân trong nội bộ | COO đề xuất, CEO quyết định |
-| 5 | Đề xuất bổ sung biện pháp kiểm soát vào Bảng phòng ngừa mục 6.5 | TL-KT |
+| 5 | Đề xuất bổ sung biện pháp kiểm soát vào Bảng phòng ngừa mục 5.5 | TL-KT |
 | 6 | Cập nhật Handbook nếu cần | Legal R&D soạn nội dung, `COO` phát hành |
 
 **Trường hợp đặc biệt: quyết định xử phạt đứng tên oBacker**
@@ -1018,11 +953,11 @@ Chuỗi căn cứ đầy đủ phải dẫn khi làm việc với quyết địn
 | Nghị định | Ba điều trên đã được mở rộng sang hành vi tại Điều 19a | `[NĐ 291/2026 Đ.3]` |
 
 > [!bug] LỖI THƯỜNG GẶP
-> Dẫn Điều 44, Điều 46 hay Điều 51 Luật Xử lý vi phạm hành chính làm căn cứ thẩm quyền xử phạt. Cả ba điều này đã bị bãi bỏ từ 01/7/2025. Căn cứ đúng là Điều 37a. Khi rà soát một quyết định xử phạt ban hành từ 01/7/2025 trở đi mà thấy phần căn cứ dẫn một trong 16 điều đã bãi bỏ, TL-KT phải ghi điểm nghi vấn này vào văn bản rà soát theo mục 6.6 bước 2 và báo COO, nhưng không tự kết luận quyết định vô hiệu; việc kết luận thuộc bên tư vấn pháp lý do khách thuê.
+> Dẫn Điều 44, Điều 46 hay Điều 51 Luật Xử lý vi phạm hành chính làm căn cứ thẩm quyền xử phạt. Cả ba điều này đã bị bãi bỏ từ 01/7/2025. Căn cứ đúng là Điều 37a. Khi rà soát một quyết định xử phạt ban hành từ 01/7/2025 trở đi mà thấy phần căn cứ dẫn một trong 16 điều đã bãi bỏ, TL-KT phải ghi điểm nghi vấn này vào văn bản rà soát theo mục 5.6 bước 2 và báo COO, nhưng không tự kết luận quyết định vô hiệu; việc kết luận thuộc bên tư vấn pháp lý do khách thuê.
 
 ---
 
-## 7. Điểm kiểm soát bắt buộc
+## 6. Điểm kiểm soát bắt buộc
 
 | # | Điểm kiểm soát | Hậu quả nếu bỏ qua |
 | --- | --- | --- |
@@ -1036,14 +971,14 @@ Chuỗi căn cứ đầy đủ phải dẫn khi làm việc với quyết địn
 | KS8 | Trước khi nộp tiền phạt, TL-KT bắt buộc đánh giá điều kiện xin miễn, giảm | Nộp xong là mất quyền `[15/VBHN-BTC ngày 05/05/2026 Đ.43 k.3]` |
 | KS9 | Theo dõi cổng thuế điện tử trong 03 ngày làm việc sau mỗi lần nộp hồ sơ muộn | Bỏ lỡ quyền giải trình |
 | KS10 | Đặt cảnh báo hạn nộp tiền phạt trên hệ thống, cảnh báo trước 05 ngày và 02 ngày | Phát sinh tiền chậm nộp tiền phạt 0,05%/ngày |
-| KS11 | Rà soát mọi quyết định xử phạt theo 12 nội dung tại mục 6.6 bước 2 | Chấp hành một quyết định sai mà không phát hiện |
+| KS11 | Rà soát mọi quyết định xử phạt theo 12 nội dung tại mục 5.6 bước 2 | Chấp hành một quyết định sai mà không phát hiện |
 | KS12 | Quyết định xử phạt đứng tên oBacker phải báo CEO trong 01 giờ | Chậm phản ứng, lan rộng rủi ro sang khách khác |
-| KS13 | Vận hành đủ 30 biện pháp kiểm soát tại Bảng phòng ngừa mục 6.5, TL-KT đánh giá hiệu lực hằng quý | Biện pháp tồn tại trên giấy nhưng không chạy |
+| KS13 | Vận hành đủ 30 biện pháp kiểm soát tại Bảng phòng ngừa mục 5.5, TL-KT đánh giá hiệu lực hằng quý | Biện pháp tồn tại trên giấy nhưng không chạy |
 | KS14 | Không tư vấn về quyền khiếu nại;<br>đề nghị khách thuê tư vấn pháp lý riêng bằng văn bản | Vượt phạm vi hành nghề |
 
 ---
 
-## 8. Lỗi thường gặp và cách xử lý
+## 7. Lỗi thường gặp và cách xử lý
 
 | # | Lỗi thường gặp | Cách xử lý |
 | --- | --- | --- |
@@ -1055,7 +990,7 @@ Chuỗi căn cứ đầy đủ phải dẫn khi làm việc với quyết địn
 | 6 | Nhầm mức 0,03% với 0,05% | 0,03%/ngày cho tiền chậm nộp TIỀN THUẾ `[Luật QLT 108/2025 Đ.16 k.2 đ.a]`;<br>0,05%/ngày cho tiền chậm nộp TIỀN PHẠT `[15/VBHN-BTC ngày 05/05/2026 Đ.42 k.1]` |
 | 7 | Đếm số ngày chậm nộp mà lùi qua ngày nghỉ, hoặc lấy ngày kết thúc là chính ngày nộp tiền | Đếm liên tục gồm cả ngày nghỉ, ngày kết thúc là ngày LIỀN KỀ TRƯỚC ngày nộp tiền `[NĐ 252/2026 Đ.26 k.1 đ.a]`.<br>Đối chiếu với Thông báo mẫu 01/NVT |
 | 8 | Bỏ quên mức tối đa phạt tại khoản 5 Điều 13 | Số tiền phạt tối đa bằng số thuế phát sinh trên hồ sơ, nhưng không thấp hơn trung bình khung khoản 4 |
-| 9 | Không biết quy tắc gom hành vi trong cùng một ngày | Xem Chương 15 mục 6.4;<br>áp dụng cho Đ.5 k.3 các điểm a, b, c, đ, e |
+| 9 | Không biết quy tắc gom hành vi trong cùng một ngày | Xem Chương 15 mục 5.4;<br>áp dụng cho Đ.5 k.3 các điểm a, b, c, đ, e |
 | 10 | Cho rằng hết thời hiệu xử phạt là hết nghĩa vụ | Truy thu vẫn 10 năm;<br>không đăng ký thuế thì vô thời hạn `[15/VBHN-BTC ngày 05/05/2026 Đ.8 k.6 đ.a]` |
 | 11 | Nộp tiền phạt xong mới nghĩ tới xin miễn giảm | Mất quyền `[15/VBHN-BTC ngày 05/05/2026 Đ.43 k.3]` |
 | 12 | Bỏ sót việc tìm và trình ra văn bản hướng dẫn của cơ quan thuế mà khách đã nhận | Bỏ mất căn cứ không xử phạt, không tính tiền chậm nộp `[15/VBHN-BTC ngày 05/05/2026 Đ.9 k.2]` |
@@ -1063,21 +998,21 @@ Chuỗi căn cứ đầy đủ phải dẫn khi làm việc với quyết địn
 | 14 | Bỏ qua ngoại lệ với cá nhân tự quyết toán TNCN có số thuế được hoàn | Không bị phạt `[15/VBHN-BTC ngày 05/05/2026 Đ.9 k.4]`;<br>nhưng nếu có số thuế phải nộp thêm thì bị phạt bình thường |
 | 15 | Không ghi nhận sự cố kỹ thuật của hệ thống công nghệ thông tin ngay khi xảy ra | Đây là căn cứ bất khả kháng `[15/VBHN-BTC ngày 05/05/2026 Đ.9 k.1]`. Phải chụp màn hình ngay |
 | 16 | Cho rằng khách nhỏ nên mức phạt không lớn | Khung chậm nộp hồ sơ trên 90 ngày có phát sinh thuế là 15 đến 25 triệu đồng, và rơi vào trốn thuế thì 1 đến 3 lần số thuế trốn |
-| 17 | Bỏ qua Điều 19 áp dụng cho tổ chức liên quan, trong đó có thể là chính oBacker | Xem cảnh báo RỦI RO BỊ XỬ PHẠT CHO oBacker tại mục 6.1.7 |
+| 17 | Bỏ qua Điều 19 áp dụng cho tổ chức liên quan, trong đó có thể là chính oBacker | Xem cảnh báo RỦI RO BỊ XỬ PHẠT CHO oBacker tại mục 5.1.7 |
 | 18 | Cho rằng vi phạm về phí, lệ phí xử phạt theo Nghị định này | Không áp dụng `[15/VBHN-BTC ngày 05/05/2026 Đ.1 k.1]`. Tra Nghị định 02/2026/NĐ-CP quy định xử phạt vi phạm hành chính trong lĩnh vực phí và lệ phí |
 | 19 | Áp Điều 10, Điều 11 cho doanh nghiệp đăng ký thuế cùng đăng ký doanh nghiệp | Không áp dụng `[15/VBHN-BTC ngày 05/05/2026 Đ.1 k.1]`.<br>Phải tra nghị định trong lĩnh vực kế hoạch và đầu tư |
 | 20 | Áp nguyên tắc không xử phạt trùng giữa Điều 16, 17 và Điều 28 theo điểm d khoản 3 Điều 5 | Điểm d khoản 3 Điều 5 nay quy định về Điều 19a, không còn nói về hóa đơn không hợp pháp. Loại trừ nằm ngay tại Điều 28 khoản 1: chỉ loại trừ khi thuộc điểm đ khoản 1 Điều 16 hoặc điểm d khoản 1 Điều 17 `[27/2026/VBHN-NĐ-BTC Đ.28 k.1]` |
 | 21 | Áp hệ số 1/2 cho hành vi tại khoản 3 Điều 19 | Chưa xác định được. Phải xác minh trước |
-| 22 | Đếm một tình tiết tăng nặng mà tình tiết đó đã là cấu thành của chính hành vi bị xử phạt | Không được coi là tình tiết tăng nặng `[Luật XLVPHC 90/VBHN-VPQH Đ.10 k.2]`.<br>Tra danh mục nguyên văn tại mục 6.4.1, không liệt kê từ trí nhớ |
+| 22 | Đếm một tình tiết tăng nặng mà tình tiết đó đã là cấu thành của chính hành vi bị xử phạt | Không được coi là tình tiết tăng nặng `[Luật XLVPHC 90/VBHN-VPQH Đ.10 k.2]`.<br>Tra danh mục nguyên văn tại mục 5.4.1, không liệt kê từ trí nhớ |
 
 ---
 
-## 9. Đầu ra và nơi lưu
+## 8. Đầu ra và nơi lưu
 
 | Nhóm | Tài liệu | Lưu tại | Thời hạn lưu |
 | --- | --- | --- | --- |
 | Đánh giá rủi ro | Phiếu tra mức phạt cho từng tình huống, có chữ ký CV-KT và TL-KT | `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]` | 10 năm |
-| Bằng chứng | Toàn bộ bằng chứng tình tiết giảm nhẹ theo 10 loại tại mục 6.4.3 | `[KHO LƯU TRỮ HỒ SƠ]` | 10 năm |
+| Bằng chứng | Toàn bộ bằng chứng tình tiết giảm nhẹ theo 10 loại tại mục 5.4.3 | `[KHO LƯU TRỮ HỒ SƠ]` | 10 năm |
 | Bằng chứng | Ảnh chụp màn hình sự cố kỹ thuật hệ thống công nghệ thông tin, có ngày giờ | `[KHO LƯU TRỮ HỒ SƠ]` | 10 năm |
 | Bằng chứng | Bảng lịch sử vi phạm hành chính của từng khách, cập nhật liên tục | `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]` | Vĩnh viễn trong hệ thống |
 | Đối chiếu | Thông báo nghĩa vụ thuế mẫu số 01/NVT hằng tháng của từng khách | `[KHO LƯU TRỮ HỒ SƠ]` | 10 năm |
@@ -1096,7 +1031,7 @@ Chuỗi căn cứ đầy đủ phải dẫn khi làm việc với quyết địn
 
 ---
 
-## 10. Chỉ số theo dõi
+## 9. Chỉ số theo dõi
 
 | # | Chỉ số | Cách đo | Ngưỡng mục tiêu | Tần suất |
 | --- | --- | --- | --- | --- |
@@ -1126,8 +1061,8 @@ Chuỗi căn cứ đầy đủ phải dẫn khi làm việc với quyết địn
 | Quy trình quyết toán thuế năm, bảng kiểm và soát xét hai cấp | Chương 14 |
 | Sơ đồ quyết định khi phát hiện sai sót, hai van an toàn, ranh giới trốn thuế | Chương 15 |
 | Quy trình thanh tra, kiểm tra, giải trình, cơ hội bãi bỏ quyết định kiểm tra | Chương 16 |
-| Bảng thời hiệu xử phạt và thời hạn truy thu đầy đủ | Chương 16 mục 6.10 |
-| Bảng các hành vi bị xử phạt trong kỳ kiểm tra | Chương 16 mục 6.7 |
+| Bảng thời hiệu xử phạt và thời hạn truy thu đầy đủ | Chương 16 mục 5.10 |
+| Bảng các hành vi bị xử phạt trong kỳ kiểm tra | Chương 16 mục 5.7 |
 | Lịch tuân thủ cả năm với mốc cảnh báo nội bộ | Phụ lục C |
 | Danh mục văn bản, văn bản hết hiệu lực, danh mục chờ xác minh | Phụ lục E |
 
@@ -1135,4 +1070,4 @@ Chuỗi căn cứ đầy đủ phải dẫn khi làm việc với quyết địn
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.0.2 | Sửa lối tự sự ở quy tắc chặn bội số. |

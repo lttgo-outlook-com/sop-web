@@ -2,11 +2,13 @@
 title: "OBACKER WALLET; EXPLANATION, HOW IT WORKS & TOP-UP TERMS"
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.0.0"
+version: "R.1.0.1"
 status: "đang áp dụng"
 language: "en"
 distribution: "Khách hàng"
 previous_version: ""
+aliases:
+  - Wallet Top-up Terms
 tags:
   - loai/tnc
 ---
@@ -16,7 +18,7 @@ tags:
 *Specific terms supplementing the Master Terms & Conditions of Service (Master T&C); oBacker Joint Stock Company*
 Tax code: 0402298185 · contact@obacker.com · https://obacker.com
 
-**Version:** R.1.0.0 (VI-EN) · **Updated:** 01/10/2026
+**Version:** R.1.0.1 (VI-EN) · **Updated:** 02/10/2026
 
 ---
 
@@ -87,4 +89,4 @@ oBacker notifies the Client to top up; the Services may be suspended until the b
 
 | Date | Version | Description |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Formal release of the company-wide standard version R.1.0.0 |
+| 02/10/2026 | R.1.0.1 | Added 'Wallet Top-up Terms' alias to the frontmatter so the Master T&C can link to it |

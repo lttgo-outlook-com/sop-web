@@ -4,23 +4,20 @@ code: "OBK-SOP-AM"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 2, quy trình bộ phận"
-version: "R.2.1.0"
+version: "R.4.0.1"
 status: "đang áp dụng"
-draft_date: "01/10/2026"
+draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
 approver: "CEO"
 parent: "OBK-SOP-00 Chuẩn vận hành dịch vụ"
 distribution: "Nội bộ oBacker"
-law_as_of: "Pháp luật có hiệu lực tại ngày 23/09/2026"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
-previous_version: ""
 aliases:
   - OBK-SOP-AM
 tags:
   - loai/sop
   - cap/2
-  - nghiep-vu/xu-phat-lao-dong
 ---
 # OBK-SOP-AM QUẢN LÝ KHÁCH HÀNG
 
@@ -30,8 +27,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-SOP-AM |
 | Cấp tài liệu | Cấp 2, SOP bộ phận |
-| Phiên bản | R.2.1.0, đang áp dụng |
-| Ngày biên soạn | 01/10/2026 |
+| Phiên bản | R.4.0.1, đang áp dụng |
+| Ngày biên soạn | 04/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
 | Người phê duyệt | CEO (Lê Trọng Tuấn) |
@@ -46,7 +43,7 @@ tags:
 
 ### 1.1. Mục tiêu
 
-oBacker không có vai trò Sales riêng. AM là đầu mối TOÀN TRÌNH: cùng một người theo khách từ lúc còn là lead cho tới lúc kết thúc hợp đồng. Bộ phận AM thuộc Phòng Thương mại, lead là TP Thương mại, nằm ở nhánh THƯƠNG MẠI của thang thẩm quyền, tách khỏi Phòng Dịch vụ gồm BỐN bộ phận do COO trực tiếp phụ trách. Hai nhánh chỉ gặp nhau ở `CEO`, mà `CEO` hiện kiêm TP Thương mại, nên cấp 2 và cấp 3 của nhánh thương mại đang là một người. Cơ cấu đặt tại `01_ToChuc/OBK-QCTC-02` Điều 7; phần mảng dịch vụ xem [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 5.1.1. Bộ phận này sở hữu QUAN HỆ với khách hàng và sở hữu CAM KẾT của oBacker với khách hàng. Ba kết quả phải đạt:
+oBacker không có vai trò Sales riêng. AM là đầu mối TOÀN TRÌNH: cùng một người theo khách từ lúc còn là lead cho tới lúc kết thúc hợp đồng. Bộ phận AM thuộc Phòng Thương mại, lead là TP Thương mại, nằm ở nhánh THƯƠNG MẠI của thang thẩm quyền, tách khỏi Phòng Dịch vụ gồm BỐN bộ phận do COO trực tiếp phụ trách. Hai nhánh chỉ gặp nhau ở `CEO`, mà `CEO` hiện kiêm TP Thương mại, nên cấp 2 và cấp 3 của nhánh thương mại đang là một người. Cơ cấu đặt tại `01_ToChuc/OBK-QCTC-02` Điều 7; phần mảng dịch vụ xem OBK-SOP-00 mục 5.1.1. Bộ phận này sở hữu QUAN HỆ với khách hàng và sở hữu CAM KẾT của oBacker với khách hàng.
 
 1. Khách hàng luôn biết ai là người của mình, liên hệ ở đâu, và bao lâu thì được trả lời.
 2. Mọi cam kết oBacker đưa ra với khách là cam kết đã được bộ phận nghiệp vụ xác nhận là làm được, không phải cam kết do người bán tự nghĩ ra.
@@ -81,7 +78,7 @@ oBacker không có vai trò Sales riêng. AM là đầu mối TOÀN TRÌNH: cùn
 
 ---
 
-## 2. HÀNH TRÌNH KHÁCH HÀNG, TÁM GIAI ĐOẠN
+## 2. CÁC GIAI ĐOẠN TRONG HÀNH TRÌNH KHÁCH HÀNG
 
 ```
 (1) Lead  ->  (2) Làm rõ  ->  (3) Đề xuất  ->  (4) Chốt đơn  ->  (5) Onboarding
@@ -98,7 +95,7 @@ oBacker không có vai trò Sales riêng. AM là đầu mối TOÀN TRÌNH: cùn
 
 Ngoại lệ duy nhất: `TL` của một bộ phận, hoặc `TL-RD`, tham gia cuộc họp do AM tổ chức và chủ trì. Mọi việc theo sau cuộc họp vẫn qua AM. Ngoại lệ thứ hai, hẹp hơn: người giữ vai trò `NĐDPL` KÝ hợp đồng với khách, và việc ký đó không tính là tiếp xúc khách; quy tắc bù tại [[07_OBK-SOP-RD_Nghien_cuu_phap_ly|OBK-SOP-RD]] mục 1.5.
 
-> **LỖI THƯỜNG GẶP của mô hình toàn trình, và vì sao lỗi đó nặng hơn ở oBacker.** Một người vừa bán vừa vận hành thì áp lực doanh số dễ đẩy AM tới chỗ cam kết một mốc mà bộ phận nghiệp vụ không giữ được. Ở oBacker rủi ro này nặng hơn bình thường vì AM báo cáo thẳng CEO, người chịu trách nhiệm về thương mại, còn bộ phận nghiệp vụ báo cáo COO; hai nhánh chỉ gặp nhau ở CEO. Hai điểm kiểm soát: KS-AM-01 buộc mọi cam kết mốc phải có xác nhận bằng văn bản của TL trên Job trước khi nói với khách; và quy tắc tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 8.2.1 quy định COO là người trả lời câu hỏi KHẢ THI, CEO quyết câu hỏi THƯƠNG MẠI, và CEO không bác bỏ kết luận khả thi của COO bằng thẩm quyền.
+> **LỖI THƯỜNG GẶP của mô hình toàn trình, và vì sao lỗi đó nặng hơn ở oBacker.** Một người vừa bán vừa vận hành thì áp lực doanh số dễ đẩy AM tới chỗ cam kết một mốc mà bộ phận nghiệp vụ không giữ được. Ở oBacker rủi ro này nặng hơn bình thường vì AM báo cáo thẳng CEO, người chịu trách nhiệm về thương mại, còn bộ phận nghiệp vụ báo cáo COO; hai nhánh chỉ gặp nhau ở CEO. Hai điểm kiểm soát: KS-AM-01 buộc mọi cam kết mốc phải có xác nhận bằng văn bản của TL trên Job trước khi nói với khách; và quy tắc tại OBK-SOP-00 mục 8.2.1 quy định COO là người trả lời câu hỏi KHẢ THI, CEO quyết câu hỏi THƯƠNG MẠI, và CEO không bác bỏ kết luận khả thi của COO bằng thẩm quyền.
 
 ---
 
@@ -110,26 +107,26 @@ Ký hiệu SLA: `NLV` là ngày làm việc; `g` là giờ; `gLV` là giờ làm
 
 | Mã Job | Tên Job | Nguồn phát sinh | Đầu vào bắt buộc | Đầu ra | SLA nội bộ oBacker | Thời hạn bên ngoài | Căn cứ |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| AM-01 | Tiếp nhận và đánh giá lead | Khách liên hệ qua kênh bất kỳ;<br>hoặc lead nhận từ `PM-05` theo [[08_OBK-SOP-PM_Chuong_trinh_doi_tac_gioi_thieu_khach_hang\|OBK-SOP-PM]], mang mã đăng ký giới thiệu | Thông tin liên hệ | Bản ghi lead trên hệ thống;<br>kết luận có phù hợp không;<br>nguồn khách đã ghi, gồm kênh tự đến, đối tác giới thiệu kèm mã đăng ký giới thiệu, hoặc kênh khác;<br>lead từ kênh khác đã tra sổ đăng ký giới thiệu trước khi nhận; khách trùng sổ đăng ký thì chuyển thông tin cho `PM-02` theo [[08_OBK-SOP-PM_Chuong_trinh_doi_tac_gioi_thieu_khach_hang\|OBK-SOP-PM]] | Xác nhận đã nhận theo T1;<br>đánh giá phù hợp trong 3 gLV;<br>hẹn lịch làm rõ trong 24 g | Không có | Nội bộ |
+| AM-01 | Tiếp nhận và đánh giá lead | Khách liên hệ qua kênh bất kỳ;<br>hoặc lead bàn giao nội bộ từ `MK-06` theo [[13_OBK-SOP-MK_Marketing_va_phat_trien_nguon_khach_hang\|OBK-SOP-MK]];<br>hoặc lead nhận từ `PM-05` theo [[08_OBK-SOP-PM_Chuong_trinh_doi_tac_gioi_thieu_khach_hang\|OBK-SOP-PM]], mang mã đăng ký giới thiệu | Thông tin liên hệ | Bản ghi lead trên hệ thống;<br>kết luận có phù hợp không;<br>nguồn khách đã ghi, gồm kênh tự đến, đối tác giới thiệu kèm mã đăng ký giới thiệu, hoặc kênh khác;<br>lead từ kênh khác đã tra sổ đăng ký giới thiệu trước khi nhận; khách trùng sổ đăng ký thì chuyển thông tin cho `PM-02` theo [[08_OBK-SOP-PM_Chuong_trinh_doi_tac_gioi_thieu_khach_hang\|OBK-SOP-PM]] | Xác nhận đã nhận theo T1;<br>đánh giá phù hợp trong 3 gLV;<br>hẹn lịch làm rõ trong 24 g | Không có | Nội bộ |
 | AM-02 | Họp làm rõ nhu cầu | Lead đã được đánh giá phù hợp | Lịch họp đã xác nhận | Biên bản họp trên hệ thống;<br>email tóm tắt gửi khách;<br>kết luận đi tiếp hay dừng | Họp 15 tới 30 phút;<br>ghi biên bản trong 15 phút sau họp;<br>email tóm tắt trong 30 phút sau họp;<br>quyết định trong ngày | Không có | Nội bộ |
 | AM-03 | Lập và gửi đề xuất dịch vụ | Kết luận đi tiếp tại AM-02 | Biên bản làm rõ;<br>đầu vào phạm vi và tính khả thi từ `TL` bộ phận, tức `TL-KT` với mảng kế toán và thuế, BẰNG VĂN BẢN trên Job | Đề xuất dịch vụ dạng PDF;<br>email gửi khách | TL bộ phận cấp đầu vào trong 3 gLV;<br>soạn đề xuất trong 24 g, ca phức tạp tối đa 48 g;<br>gửi khách không quá 48 g sau họp làm rõ | Không có | Nội bộ |
-| AM-04 | Theo đuổi đề xuất | Đã gửi đề xuất | Đề xuất đã gửi | Bản ghi phản hồi của khách;<br>kết luận chốt, thương lượng hay dừng | Theo đuổi tại T+1, T+3, T+5 (lần cuối) | Không có | Nội bộ |
+| AM-04 | Theo đuổi đề xuất | Đã gửi đề xuất | Đề xuất đã gửi | Bản ghi phản hồi của khách;<br>kết luận chốt, thương lượng hay dừng | Theo đuổi tại T+1, T+3, T+5 (lần cuối).<br>Đề xuất đã hết thời hạn hiệu lực mà khách yêu cầu báo giá lại: báo giá mới theo biểu giá hiện hành, giảm 35%, theo mục 10.4 Bản Điều Khoản Dịch Vụ Kế toán & Thuế | Không có | Nội bộ |
 | AM-05 | Chốt hợp đồng và thu tiền lần đầu | Khách đồng ý | Đề xuất đã được khách chấp thuận;<br>phạm vi đã chốt | Hợp đồng đã ký;<br>hóa đơn do `KTT` nội bộ phát hành, yêu cầu xuất hóa đơn chuyển cho `NB-09` theo [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo\|OBK-SOP-NB-00]];<br>xác nhận thanh toán;<br>hợp đồng đã ký, xác nhận thanh toán, danh sách dịch vụ chuyển cho `PM-06` theo [[08_OBK-SOP-PM_Chuong_trinh_doi_tac_gioi_thieu_khach_hang\|OBK-SOP-PM]] khi khách thuộc sổ đăng ký giới thiệu;<br>hàng 'Khách được giới thiệu bởi' trên Đơn Đặt Hàng ghi theo sổ đăng ký giới thiệu;<br>hàng 'Đồng ý cung cấp thông tin cho bên đã giới thiệu' do khách đánh dấu | Gửi hợp đồng trong ngày khách đồng ý;<br>nhắc thanh toán tại T+1, T+3, T+7 | Không có | Nội bộ |
 | AM-06 | Mở hồ sơ khách và bàn giao nội bộ cho bộ phận nghiệp vụ | Đã có xác nhận thanh toán | Hợp đồng đã ký;<br>đề xuất;<br>biên bản làm rõ;<br>ghi chú đặc điểm khách | Hồ sơ khách hoàn chỉnh trên hệ thống;<br>TL bộ phận đã nhận bàn giao và xác nhận | Trong 1 NLV kể từ xác nhận thanh toán | Không có | Nội bộ |
 | AM-07 | Gửi thư chào mừng và thiết lập kênh | Đã nhận bàn giao | Hồ sơ khách | Thư chào mừng nêu rõ AM là đầu mối duy nhất, kênh liên hệ, SLA phản hồi | Trong 24 g kể từ xác nhận thanh toán | Không có | Nội bộ |
 | AM-08 | Thu thập hồ sơ đầu vào | Sau thư chào mừng | Danh mục hồ sơ theo loại dịch vụ, do TL bộ phận cấp | Bộ hồ sơ đầu vào đã đủ và đã được bộ phận nghiệp vụ xác nhận hợp lệ | Gửi danh mục trong 1 NLV;<br>nhắc tại T+1 và T+3;<br>chuyển lên cấp trên TP Thương mại tại T+5, theo thang dọc nhánh thương mại tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 8.2;<br>bộ phận nghiệp vụ xác nhận tính hợp lệ trong 2 gLV kể từ khi nhận | Không có | Nội bộ |
 | AM-09 | Hoàn tất onboarding | Hồ sơ đầu vào đã đủ | Hồ sơ đã xác nhận hợp lệ | Dịch vụ đã khởi động;<br>hồ sơ khách đầy đủ trên hệ thống | 07 NGÀY LÀM VIỆC, tối đa 10 ngày làm việc nếu chờ hồ sơ từ khách.<br>AM-09 chỉ đóng GIAI ĐOẠN 1 của onboarding; giai đoạn nghiệm thu 30 ngày làm việc thuộc KT-01, xem [[03_Onboarding_khach_hang\|OBK-SOP-03]] và `PL_G` mục 4 | Không có | Nội bộ |
 | AM-10 | Tiếp nhận và phân loại yêu cầu | Khách gửi yêu cầu | Nội dung yêu cầu | Job đã tạo, đã phân mức P1, P2 hoặc P3, đã chuyển đúng bộ phận | Xác nhận đã nhận theo T1;<br>cam kết mốc theo T2;<br>chuyển bộ phận ngay sau khi phân loại | Không có | Nội bộ |
-| AM-11 | Gửi đầu ra cho khách | Bộ phận nghiệp vụ đã bàn giao | Đầu ra đã qua kiểm soát chất lượng hai lớp | Đầu ra đã gửi khách đúng kênh, kèm 5 phần nội dung bàn giao | Nhận từ bộ phận trước hạn gửi khách ≥ 0,5 NLV;<br>gửi khách đúng SLA của Job gốc | Theo Job gốc | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 6.1 |
+| AM-11 | Gửi đầu ra cho khách | Bộ phận nghiệp vụ đã bàn giao | Đầu ra đã qua kiểm soát chất lượng đủ lớp theo Tier của Job, theo NT-5 của [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] | Đầu ra đã gửi khách đúng kênh, kèm 5 phần nội dung bàn giao | Nhận từ bộ phận trước hạn gửi khách ≥ 0,5 NLV;<br>gửi khách đúng SLA của Job gốc | Theo Job gốc | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 6.1 |
 | AM-12 | Xác nhận khách đã nhận | Đã gửi đầu ra | Bản ghi đã gửi | Xác nhận của khách, hoặc bản ghi đã nhắc đủ số lần | Nhắc 1 lần sau 2 NLV;<br>sau đó coi như đã nhận | Không có | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 6.2 |
 | AM-13 | Cập nhật định kỳ cho khách | Theo lịch | Trạng thái các Job đang chạy | Bản cập nhật gửi khách | Dự án đang chạy: mỗi thứ Sáu. Khách thường xuyên: tuần đầu mỗi tháng | Không có | Nội bộ |
 | AM-14 | Xử lý sự cố mức P1 | Phát hiện hoặc khách báo | Mô tả sự cố | Kế hoạch xử lý gửi khách;<br>cập nhật định kỳ;<br>xác nhận đã xử lý xong | AM gọi điện dưới 30 phút;<br>kế hoạch dưới 2 g;<br>cập nhật 2 lần mỗi ngày;<br>xong trong 1 NLV, tối đa 2 | Theo bản chất sự cố | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 7.3 |
 | AM-15 | Cảnh báo trước rủi ro trễ hạn | Bộ phận nghiệp vụ báo nguy cơ trễ | Nguyên nhân và phương án khôi phục | Thông báo chủ động gửi khách kèm phương án | Trong 4 gLV kể từ khi bộ phận báo, và luôn trước thời hạn theo pháp luật | Trước thời hạn theo pháp luật | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] NT-6 |
 | AM-16 | Khảo sát mức độ hài lòng | Theo lịch | Danh sách khách đủ điều kiện | Kết quả khảo sát đã ghi nhận | Mốc 1 tháng, 3 tháng, 6 tháng sau onboarding;<br>sau đó hằng năm | Không có | Nội bộ |
 | AM-17 | Đánh giá sức khỏe tài khoản | Theo quý | Dữ liệu sử dụng dịch vụ, sự cố, khảo sát | Điểm sức khỏe và kết luận nhóm rủi ro | Mỗi 3 tháng | Không có | Nội bộ |
-| AM-18 | Gia hạn hợp đồng | Hợp đồng sắp hết hạn | Điểm sức khỏe;<br>lịch sử dịch vụ;<br>xác nhận năng lực phục vụ tiếp từ TL bộ phận | Hợp đồng gia hạn đã ký và đã thanh toán;<br>phần gia hạn của dịch vụ ghi trong hợp đồng dịch vụ đầu tiên chuyển cho `NB-49` theo [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo\|OBK-SOP-NB-00]] để vẫn tính hoa hồng khi khách thuộc sổ đăng ký giới thiệu | Rà soát và liên hệ khách trước 60 NGÀY so với ngày hết hạn, khớp bản gốc tại [[19_Giao_tiep_khach_hang\|OBK-SOP-19]] và `PL_G`;<br>đề xuất trong 3 NLV sau khi trao đổi;<br>theo đuổi mỗi 3 ngày;<br>ký xong trước ngày hết hạn | Ngày hết hạn hợp đồng | Nội bộ |
+| AM-18 | Gia hạn hợp đồng + phát hành phụ lục nâng/đổi gói | Hợp đồng sắp hết hạn | Điểm sức khỏe;<br>lịch sử dịch vụ;<br>xác nhận năng lực phục vụ tiếp từ TL bộ phận | Hợp đồng gia hạn đã ký và đã thanh toán;<br>phần gia hạn của dịch vụ ghi trong hợp đồng dịch vụ đầu tiên chuyển cho `NB-49` theo [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo\|OBK-SOP-NB-00]] để vẫn tính hoa hồng khi khách thuộc sổ đăng ký giới thiệu | Rà soát và liên hệ khách trước 60 NGÀY so với ngày hết hạn, khớp bản gốc tại [[19_Giao_tiep_khach_hang\|OBK-SOP-19]] và `PL_G`;<br>đề xuất trong 3 NLV sau khi trao đổi;<br>theo đuổi mỗi 3 ngày;<br>ký xong trước ngày hết hạn;<br>phát hành phụ lục nâng/đổi gói trong 03 ngày làm việc kể từ khi chốt với khách | Ngày hết hạn hợp đồng | Nội bộ |
 | AM-19 | Kết thúc dịch vụ và bàn giao dữ liệu | Khách không gia hạn hoặc chấm dứt trước hạn | Xác nhận chấm dứt bằng văn bản | Bộ bàn giao dữ liệu;<br>biên bản bàn giao;<br>hóa đơn cuối và đối soát công nợ do `KTT` nội bộ lập;<br>trường hợp có hoàn tiền chuyển cho `NB-51` theo [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo\|OBK-SOP-NB-00]] | Xác nhận và thông báo lộ trình trong 2 NLV;<br>bộ phận nghiệp vụ chuẩn bị bộ bàn giao trong 5 NLV;<br>gửi khách không muộn hơn ngày kết thúc hợp đồng | Ngày kết thúc hợp đồng | Nội bộ |
-| AM-20 | Thu hồi quyền truy cập và lưu trữ hồ sơ | Sau khi bàn giao xong | Biên bản bàn giao | Quyền truy cập đã thu hồi;<br>hồ sơ đã chuyển trạng thái lưu trữ | Hai mốc khác nhau. Thu hồi quyền truy cập: TRONG 24 GIỜ sau bàn giao, mốc đặt tại KT-29 và `PL_G` S35, AM chỉ theo dõi chứ không tự thu hồi.<br>Chuyển hồ sơ sang trạng thái lưu trữ: 3 NLV sau ngày kết thúc, là mốc riêng của AM-20 | Không có | Nội bộ |
+| AM-20 | Thu hồi quyền truy cập và lưu trữ hồ sơ | Sau khi bàn giao xong | Biên bản bàn giao | Quyền truy cập đã thu hồi;<br>hồ sơ đã chuyển trạng thái lưu trữ | Ba mốc khác nhau. Thu hồi quyền truy cập của oBacker: TRONG 24 GIỜ sau bàn giao, mốc đặt tại KT-29 và `PL_G` S35, AM chỉ theo dõi chứ không tự thu hồi.<br>Khoảng tải dữ liệu của khách: 30 ngày kể từ ngày kết thúc, theo Điều 9 (Chấm dứt và bàn giao) của TnC; trong 30 ngày này oBacker không xóa dữ liệu.<br>Chuyển hồ sơ sang trạng thái lưu trữ hoặc xóa: chỉ sau khi hết 30 ngày tải của khách, là mốc riêng của AM-20 | Không có | Nội bộ |
 | AM-21 | Ghi nhận lý do rời bỏ và bài học | Sau AM-20 | Khảo sát rời bỏ | Bản ghi lý do và bài học trên hệ thống | 1 tuần sau ngày kết thúc | Không có | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] NT-8 |
 | AM-22 | Sàng lọc rủi ro khách trước khi nhận | Lead đã được đánh giá phù hợp tại AM-01 | Thông tin pháp lý cơ bản của khách;<br>ngành nghề thật đang hoạt động;<br>nội dung khách muốn oBacker làm | Phiếu sàng lọc rủi ro có kết luận NHẬN, NHẬN CÓ ĐIỀU KIỆN, hoặc TỪ CHỐI, kèm lý do theo từng dấu hiệu | Trong 1 NLV kể từ AM-01. Có bất kỳ dấu hiệu nào ở mục 8.1 thì chuyển CEO trong cùng ngày làm việc và không hẹn họp làm rõ trước khi CEO quyết | Không có | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 9;<br>[[PL_Chuyen_len_cap_tren\|OBK-QCTC-02-PL-C]] mục 5 |
 | AM-23 | Xin duyệt giá hoặc phạm vi ngoài khung | Khách yêu cầu mức hoặc phạm vi ngoài khung đã duyệt | Bản đề xuất;<br>mức khách yêu cầu;<br>xác nhận khả thi của TL bộ phận | Quyết định duyệt hoặc không duyệt, ghi trên Job, kèm mức và điều kiện kèm theo | AM lập tờ trình trong 4 gLV; TP Thương mại quyết trong 1 NLV nếu trong khung; CEO quyết trong 2 NLV nếu ngoài khung.<br>AM KHÔNG báo mức cho khách trước khi có quyết định trên Job | Không có | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 8.2, mục 8.3;<br>[[PL_Ma_tran_phan_quyen\|OBK-QCTC-02-PL-B]] |
@@ -143,17 +140,20 @@ Ký hiệu SLA: `NLV` là ngày làm việc; `g` là giờ; `gLV` là giờ làm
 
 %%/JOBTABLE:AM%%
 
+Yêu cầu không khớp Job nào: xem [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 5.6.
+
+
 ---
 
-## 4. NHỮNG CHỖ AM ĐI KHÁC QUY TRÌNH CHUẨN 10 BƯỚC
+## 4. ĐIỂM ĐẶC THÙ CỦA AM SO VỚI QUY TRÌNH CHUẨN
 
-AM chạy đúng 10 bước của [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 6. Ba chỗ có đặc thù:
+Quy trình thực hiện tuân thủ quy trình chuẩn theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 6, với các nội dung đặc thù sau:
 
-**B4 Kiểm tra điều kiện và tính khả thi.** Với AM, bước này là kiểm hai thứ trước khi cam kết bất cứ điều gì với khách: một, phạm vi khách yêu cầu có nằm trong hợp đồng đã ký không; hai, TL bộ phận nghiệp vụ đã xác nhận làm được trong mốc thời gian định cam kết chưa. AM không được bỏ qua bước này vì thấy yêu cầu đơn giản. Với AM toàn trình, bước này áp dụng cả ở giai đoạn BÁN HÀNG, không chỉ ở giai đoạn vận hành.
+**B1 Tiếp nhận và khả thi.** Với AM, phần kiểm tra điều kiện và tính khả thi của bước này là kiểm hai thứ trước khi cam kết bất cứ điều gì với khách: một, phạm vi khách yêu cầu có nằm trong hợp đồng đã ký không; hai, TL bộ phận nghiệp vụ đã xác nhận làm được trong mốc thời gian định cam kết chưa. AM không được bỏ qua phần kiểm tra này vì thấy yêu cầu đơn giản. Với AM toàn trình, bước này áp dụng cả ở giai đoạn BÁN HÀNG, không chỉ ở giai đoạn vận hành.
 
-**B6 Thực hiện nghiệp vụ.** Với AM, phần lớn Job không có bước B6 do AM làm. B6 do bộ phận nghiệp vụ làm. AM ghi "chuyển bộ phận" và theo dõi.
+**B2 Thực hiện.** Với AM, phần lớn Job không có phần thực hiện do AM làm. Phần này do bộ phận nghiệp vụ làm. AM ghi "chuyển bộ phận" và theo dõi.
 
-**B8 Bàn giao.** Với AM, B8 là gửi ra KHÁCH, không phải gửi cho AM. Đây là điểm khác duy nhất so với các bộ phận khác.
+**B4 Bàn giao.** Với AM, B4 là gửi ra KHÁCH, không phải gửi cho AM. Đây là điểm khác duy nhất so với các bộ phận khác.
 
 ---
 
@@ -161,61 +161,49 @@ AM chạy đúng 10 bước của [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP
 
 Ký hiệu theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 5.1.
 
-Bộ phận này chạy HAI loại Job khác nhau về người chịu trách nhiệm cuối, nên phải có HAI bảng. Bản trước 07/09/2026 chỉ có một bảng với ô A luôn là `TL` bộ phận, nên với Job thuần thương mại thì ô A trỏ vào một vai trò không tham gia.
+Quy trình quản lý công việc phân tách theo chủ thể chịu trách nhiệm cuối cùng, tương ứng với hai bảng RACI:
 
 **Bảng 1, Job có nội dung chuyên môn.** Áp cho `AM-06` tới `AM-15`, `AM-25`, `AM-26`, `AM-30`. Người chịu trách nhiệm cuối là `TL` bộ phận nghiệp vụ, vì nội dung đi ra khách là nội dung chuyên môn.
 
 | Bước | AM | CV bộ phận | TL bộ phận | COO | CEO |
 | --- | --- | --- | --- | --- | --- |
-| B1 Tiếp nhận yêu cầu | R | I | A | I | I |
-| B2 Lưu trữ đầu vào | R | I | A | N/A | N/A |
-| B3 Phân loại Job | R | I | A | N/A | N/A |
-| B4 Kiểm tra điều kiện và khả thi | R | C | A | C (câu hỏi khả thi) | C (câu hỏi thương mại) |
-| B5 Tổng hợp dữ liệu | R | C | A | N/A | N/A |
-| B6 Thực hiện nghiệp vụ | I | R | A | N/A | N/A |
-| B7 Kiểm soát chất lượng | C | R | A | N/A | N/A |
-| B8 Bàn giao cho khách | R | I | A | I | I |
-| B9 Theo dõi tới khi có kết quả | R | C | A | I | I |
-| B10 Đóng Job và cập nhật | R | R | A | I | N/A |
+| B1 Tiếp nhận và khả thi | R | B1, B2, B3: I<br>B4: C | A | B1: I<br>B2, B3: N/A<br>B4: C (câu hỏi khả thi) | B1: I<br>B2, B3: N/A<br>B4: C (câu hỏi thương mại) |
+| B2 Thực hiện | B5: R<br>B6: I | B5: C<br>B6: R | A | N/A | N/A |
+| B3 Kiểm soát chất lượng | C | R | A | N/A | N/A |
+| B4 Bàn giao cho khách | R | I | A | I | I |
+| B5 Theo dõi và đóng | R | B9: C<br>B10: R | A | I | B9: I<br>B10: N/A |
 
 **Bảng 2, Job thuần thương mại.** Áp cho `AM-01` tới `AM-05`, `AM-16` tới `AM-24`, `AM-27` tới `AM-29`. Không có `TL` bộ phận nào tham gia, nên người chịu trách nhiệm cuối là TP Thương mại, trừ ba nhóm việc thuộc `CEO` nêu dưới bảng.
 
 | Bước | AM | TP Thương mại | TL bộ phận | COO | CEO |
 | --- | --- | --- | --- | --- | --- |
-| B1 Tiếp nhận yêu cầu | R | A | N/A | N/A | I |
-| B2 Lưu trữ đầu vào | R | A | N/A | N/A | N/A |
-| B3 Phân loại Job | R | A | N/A | N/A | N/A |
-| B4 Kiểm tra điều kiện và khả thi | R | A | C (xác nhận khả thi khi có mốc giao) | C (câu hỏi khả thi) | C (câu hỏi thương mại) |
-| B5 Tổng hợp dữ liệu | R | A | N/A | N/A | N/A |
-| B6 Thực hiện nghiệp vụ | R | A | N/A | N/A | I |
-| B7 Kiểm soát chất lượng | R | A | N/A | N/A | I |
-| B8 Bàn giao cho khách | R | A | N/A | N/A | I |
-| B9 Theo dõi tới khi có kết quả | R | A | N/A | N/A | I |
-| B10 Đóng Job và cập nhật | R | A | N/A | I | I |
+| B1 Tiếp nhận và khả thi | R | A | B1, B2, B3: N/A<br>B4: C (xác nhận khả thi khi có mốc giao) | B1, B2, B3: N/A<br>B4: C (câu hỏi khả thi) | B1: I<br>B2, B3: N/A<br>B4: C (câu hỏi thương mại) |
+| B2 Thực hiện | R | A | N/A | N/A | B5: N/A<br>B6: I |
+| B3 Kiểm soát chất lượng | R | A | N/A | N/A | I |
+| B4 Bàn giao cho khách | R | A | N/A | N/A | I |
+| B5 Theo dõi và đóng | R | A | N/A | B9: N/A<br>B10: I | I |
 
-Bốn nhóm việc ngoại lệ thương mại mà ô A là `CEO` chứ không phải TP Thương mại, không có ngoại lệ: (1) Khách hàng yêu cầu mức chiết khấu ngoài khung quy định; (2) Khách hàng yêu cầu chỉnh sửa các điều khoản cốt lõi trong hợp đồng khung (giới hạn trách nhiệm bồi thường, điều khoản bảo vệ dữ liệu, điều khoản thanh toán) theo `RD-18`; (3) Khách hàng khiếu nại dịch vụ có nguy cơ tranh chấp pháp lý hoặc đòi bồi thường tiền mặt; (4) Chấm dứt hợp đồng trước hạn do lỗi vi phạm nghĩa vụ theo `AM-19`. Các trường hợp áp dụng Bảng giá chuẩn và Mẫu hợp đồng chuẩn do TP Thương mại ký kết trực tiếp. Bản gốc tại [[PL_Chuyen_len_cap_tren|OBK-QCTC-02-PL-C]] mục 5.
+Bốn nhóm việc ngoại lệ thương mại mà ô A là `CEO` chứ không phải TP Thương mại, không có ngoại lệ: (1) Khách hàng yêu cầu mức chiết khấu ngoài khung quy định; (2) Khách hàng yêu cầu chỉnh sửa các điều khoản cốt lõi trong hợp đồng khung (giới hạn trách nhiệm bồi thường, điều khoản bảo vệ dữ liệu, điều khoản thanh toán) theo `RD-18`; (3) Khách hàng khiếu nại dịch vụ có nguy cơ tranh chấp pháp lý hoặc đòi bồi thường tiền mặt; (4) Chấm dứt hợp đồng trước hạn do lỗi vi phạm nghĩa vụ theo `AM-19`. Các trường hợp áp dụng Bảng giá chuẩn và Mẫu hợp đồng chuẩn do TP Thương mại ký kết trực tiếp. Bản gốc tại OBK-QCTC-02-PL-C mục 5.
 
-Tại ngày 07/09/2026 `CEO` đang kiêm TP Thương mại, nên bảng 2 và ba nhóm việc trên là cùng một người. Bảng ghi theo position để khi tách vai trò không phải sửa lại.
+`CEO` kiêm TP Thương mại, nên bảng 2 và ba nhóm việc trên thuộc cùng một người tại thời điểm ban hành văn bản này. Bảng ghi theo position để khi tách vai trò không phải sửa lại.
 
-**Đọc bảng, ba điều.**
+**Ba quy tắc đọc bảng.**
 
-Một, với Job nội dung chuyên môn, A là TL bộ phận nghiệp vụ, kể cả ở bước AM thực hiện. Lý do: người chịu trách nhiệm cuối về nội dung đi ra khách phải là người có chuyên môn về nội dung đó. AM chịu trách nhiệm về việc gửi đúng người, đúng kênh, đúng hạn, đủ 5 phần.
-
-Hai, với Job thuần thương mại thì áp BẢNG 2, và ô A là **TP Thương mại**, trừ ba nhóm việc thuộc `CEO` nêu dưới bảng đó. Đây là điểm khác so với các bộ phận của Phòng Dịch vụ, nơi A là `TL` bộ phận và cấp trên là COO.
-
-Ba, ở B4 có HAI vai trò được hỏi ý kiến và hai vai trò đó trả lời hai câu hỏi khác nhau: COO trả lời "làm được không, trong mốc đó, với nguồn lực đang có"; CEO trả lời "có nhận yêu cầu đó không, với giá nào". Không đảo hai câu hỏi cho nhau. Xem [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 8.2.1.
+1. Với Job nội dung chuyên môn, A là TL bộ phận nghiệp vụ, kể cả ở bước AM thực hiện; người chịu trách nhiệm cuối về nội dung đi ra khách phải là người có chuyên môn về nội dung đó. AM chịu trách nhiệm về việc gửi đúng người, đúng kênh, đúng hạn, đủ 5 phần.
+2. Với Job thuần thương mại, áp BẢNG 2, ô A là **TP Thương mại**, trừ ba nhóm việc thuộc `CEO` nêu dưới bảng đó. Đây là điểm khác so với các bộ phận của Phòng Dịch vụ, nơi A là `TL` bộ phận và cấp trên là COO.
+3. Ở B1, hai vai trò được hỏi ý kiến trả lời hai câu hỏi khác nhau: COO trả lời câu hỏi về khả thi trong mốc và nguồn lực đang có; CEO trả lời câu hỏi về việc có nhận yêu cầu và với giá nào. Hai câu hỏi không đảo cho nhau. Xem OBK-SOP-00 mục 8.2.1.
 
 ---
 
 ## 6. ĐIỂM KIỂM SOÁT BẮT BUỘC
 
-Chín chốt dưới đây không được đi qua nếu chưa đạt. Người bỏ qua chốt chịu trách nhiệm về hậu quả, không phải người làm bước sau.
+Các chốt dưới đây không được đi qua nếu chưa đạt. Người bỏ qua chốt chịu trách nhiệm về hậu quả, không phải người làm bước sau.
 
 | Mã | Chốt | Trước bước nào | Ai kiểm | Không đạt thì làm gì |
 | --- | --- | --- | --- | --- |
 | KS-AM-01 | Mọi cam kết mốc thời gian với khách phải có xác nhận của TL bộ phận nghiệp vụ, bằng văn bản, trên Job.<br>TL nói không làm được thì AM KHÔNG cam kết, kể cả khi CEO là cấp trên trực tiếp của AM | Trước khi gửi đề xuất hoặc trả lời khách về timeline | AM tự kiểm, TL xác nhận | Không cam kết. Trả lời khách bằng "sẽ xác nhận lại trong 4 giờ" |
 | KS-AM-02 | Phạm vi khách yêu cầu nằm trong hợp đồng đã ký | Trước khi tạo Job cho bộ phận | AM | Chuyển CEO xem xét mở rộng phạm vi và phí;<br>COO xác nhận khả thi trước khi CEO quyết |
-| KS-AM-03 | Đầu ra đã có dấu vết kiểm soát chất lượng hai lớp | Trước khi gửi khách | AM | Trả lại bộ phận. AM có quyền từ chối gửi |
+| KS-AM-03 | Đầu ra đã có dấu vết kiểm soát chất lượng đủ lớp theo Tier của Job, theo NT-5 của [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] | Trước khi gửi khách | AM | Trả lại bộ phận. AM có quyền từ chối gửi |
 | KS-AM-04 | Nội dung bàn giao đủ 5 phần theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 6.1 | Trước khi gửi khách | AM | Yêu cầu bộ phận bổ sung. Không tự viết thay |
 | KS-AM-05 | Đầu ra nộp cơ quan nhà nước đã đạt khoảng làm trước tối thiểu theo NT-6 | Trước khi cam kết lịch với khách | AM và TL | Báo COO. Không cam kết lịch sát thời hạn |
 | KS-AM-06 | Bộ bàn giao khi kết thúc dịch vụ đã đủ và đã đối soát công nợ | Trước ngày kết thúc hợp đồng | AM và `KTT` nội bộ | Không chuyển trạng thái kết thúc. Chuyển lên cấp trên CEO |
@@ -242,7 +230,7 @@ Chín chốt dưới đây không được đi qua nếu chưa đạt. Người 
 > Báo tin xấu sau khi đã trễ. Dấu hiệu: bộ phận báo AM đúng ngày hết thời hạn, AM báo khách hôm sau. Cách xử lý: AM-15 là Job có SLA riêng. Bộ phận báo nguy cơ, không đợi tới lúc chắc chắn trễ. AM báo khách trong 4 giờ làm việc kể từ khi bộ phận báo.
 
 > [!bug] LỖI THƯỜNG GẶP
-> Nhóm chat với khách trôi mất quyết định. Dấu hiệu: khách chốt một thay đổi phạm vi trong nhóm Zalo, không ai đưa vào hệ thống. Cách xử lý: mọi quyết định trong nhóm chat phải được AM gửi lại bằng EMAIL CÔNG TY trong cùng ngày làm việc, và ghi vào Job. Chat là kênh liên lạc, không phải kênh chính thống; chưa gửi email thì coi như chưa chốt. Xem [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 7.2.1a.
+> Nhóm chat với khách trôi mất quyết định. Dấu hiệu: khách chốt một thay đổi phạm vi trong nhóm Zalo, không ai đưa vào hệ thống. Cách xử lý: mọi quyết định trong nhóm chat phải được AM gửi lại bằng EMAIL CÔNG TY trong cùng ngày làm việc, và ghi vào Job. Chat là kênh liên lạc, không phải kênh chính thống; chưa gửi email thì coi như chưa chốt. Xem OBK-SOP-00 mục 7.2.1a.
 
 > [!bug] LỖI THƯỜNG GẶP
 > Khách hết hạn hợp đồng mà dịch vụ vẫn chạy. Dấu hiệu: không ai theo dõi ngày hết hạn, bộ phận vẫn làm, tới lúc phát hiện thì đã làm không công vài tháng và không có căn cứ hợp đồng nếu có tranh chấp. Cách xử lý: AM-18 phải được tạo tự động 60 ngày trước ngày hết hạn, cùng mốc với mốc rà soát hợp đồng ở cấp 3.
@@ -251,7 +239,7 @@ Chín chốt dưới đây không được đi qua nếu chưa đạt. Người 
 
 ## 8. RỦI RO PHÁP LÝ MÀ AM PHẢI BIẾT
 
-### 8.1. Tám dấu hiệu rủi ro khi sàng lọc khách, dùng cho AM-22
+### 8.1. Dấu hiệu rủi ro khi sàng lọc khách hàng, áp dụng cho AM-22
 
 Có bất kỳ một dấu hiệu nào dưới đây thì khách thuộc diện CÓ YẾU TỐ RỦI RO, và việc nhận hay không nhận thuộc CEO ở mọi tình huống, theo [[PL_Chuyen_len_cap_tren|OBK-QCTC-02-PL-C]] mục 5. AM ghi dấu hiệu vào phiếu sàng lọc, không tự kết luận.
 
@@ -266,12 +254,12 @@ Có bất kỳ một dấu hiệu nào dưới đây thì khách thuộc diện 
 | 7 | Yêu cầu là đại diện khách trong tố tụng tại tòa án hoặc trọng tài | Ngoài phạm vi oBacker. Chuyển đối tác thuê ngoài theo [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] LS-18 |
 | 8 | Khách là bên có liên quan của một người giữ vai trò tại oBacker theo [[PL_Anh_xa_nhan_su\|OBK-QCTC-02-PL-D]] | Giao dịch với người có liên quan đi theo đường riêng, xem `02_NoiBo/OBK-QCTC-01` mục 8.1c |
 
-### 8.2. Bốn tình huống phải chuyển ngay, không tự xử lý
+### 8.2. Các tình huống chuyển giao bắt buộc
 
-AM không cần biết nghiệp vụ, nhưng phải nhận ra bốn tình huống sau và chuyển ngay.
+Nhân sự AM có trách nhiệm nhận diện và chuyển giao ngay cho cấp có thẩm quyền trong các trường hợp sau:
 
 > [!danger] RỦI RO BỊ XỬ PHẠT
-> Khách yêu cầu oBacker lập hoặc nộp hồ sơ có nội dung mà oBacker biết là sai sự thật. Đây là hành vi oBacker nghiêm cấm theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 9. AM từ chối, không thương lượng, báo CEO trong ngày.
+> Khách yêu cầu oBacker lập hoặc nộp hồ sơ có nội dung mà oBacker biết là sai sự thật. Đây là hành vi oBacker nghiêm cấm theo OBK-SOP-00 mục 9. AM từ chối, không thương lượng, báo CEO trong ngày.
 
 > [!danger] RỦI RO BỊ XỬ PHẠT
 > Khách yêu cầu không nộp một hồ sơ đến hạn pháp định, hoặc yêu cầu nộp muộn. Việc hoàn thành nghĩa vụ pháp lý không phụ thuộc vào ý muốn của khách; nhưng oBacker cũng không nộp thay ý chí của khách. AM phải chuyển lên cấp trên TL và CEO NGAY, không tự quyết. LEG được thông tin cùng lúc. Kết quả phải được ghi bằng văn bản và gửi khách nêu rõ hậu quả.
@@ -279,8 +267,8 @@ AM không cần biết nghiệp vụ, nhưng phải nhận ra bốn tình huốn
 > [!danger] RỦI RO BỊ XỬ PHẠT
 > Khách hỏi một câu mà câu trả lời hiện chưa đối chiếu bản gốc hoặc chưa xác minh được: AM không được gửi câu trả lời đó. Câu trả lời chuẩn: "nội dung này oBacker đang đối chiếu văn bản gốc, sẽ trả lời trong [mốc]".
 
-> [!danger] RỦI RO BỊ XỬ PHẠT, mốc 10/09/2026
-> Nghị định 283/2026 về xử phạt lao động và BHXH có hiệu lực từ 10/09/2026 và áp dụng cho cả hành vi bắt đầu trước ngày đó nhưng còn TIẾP DIỄN sau ngày đó. AM phải phối hợp Lao Động rà danh sách khách đang có vi phạm kéo dài (chậm đóng BHXH, chưa đăng ký nội quy lao động, chưa nộp báo cáo tình hình sử dụng lao động, chưa đóng kinh phí công đoàn) và cảnh báo trước 10/09/2026. Căn cứ `PL_1` mã [[CC-LD-170 Nghị định 283-2026 có hiệu lực từ 10-09-2026|CC-LD-170]] tới [[CC-LD-173 Hành vi bắt đầu trước 10-09-2026 nhưng VẪN ĐANG DIỄN RA sau ngày đó thì áp dụng Nghị định 283-2026|CC-LD-173]].
+> [!danger] RỦI RO XỬ PHẠT ĐỐI VỚI HÀNH VI VI PHẠM KÉO DÀI
+> Nghị định 283/2026 về xử phạt lao động và BHXH có hiệu lực từ 10/09/2026 và áp dụng cho cả hành vi bắt đầu trước ngày đó nhưng còn TIẾP DIỄN sau ngày đó. AM phải phối hợp Lao Động rà danh sách khách đang có vi phạm kéo dài (chậm đóng BHXH, chưa đăng ký nội quy lao động, chưa nộp báo cáo tình hình sử dụng lao động, chưa đóng kinh phí công đoàn) và cảnh báo trước 10/09/2026.
 
 ---
 
@@ -307,7 +295,7 @@ Ngoài tám chỉ số chung tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SO
 | AM-M12 | Mức độ hài lòng | Trung bình điểm khảo sát | Từ 4,0 trên thang 5,0 | Công cụ khảo sát, theo mốc |
 | AM-M13 | Tỷ lệ giữ khách theo năm | Số khách gia hạn chia số khách đến hạn | Trên 90% | Hệ thống công việc, hằng quý |
 | AM-M14 | Tỷ lệ cảnh báo trước rủi ro trễ hạn | Số lần khách được báo trước thời hạn chia tổng số Job có nguy cơ trễ | 100% | Hệ thống công việc, hằng tháng |
-| AM-M15 | Tỷ lệ liên lạc đi qua AM | Theo CS-07 của [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] | 100% | Rà soát ngẫu nhiên, hằng tháng |
+| AM-M15 | Tỷ lệ liên lạc đi qua AM | Chỉ liên lạc thương mại và phi kỹ thuật với khách không đi qua AM, theo CS-07 của [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]];<br>trao đổi kỹ thuật trong nhóm chung do AM quản trị không tính, theo NT-2 | 100% | Rà soát ngẫu nhiên, hằng tháng |
 | AM-M16 | Tỷ lệ khách mới có phiếu sàng lọc rủi ro trước khi báo giá | Số khách đạt KS-AM-07 chia số khách mới | 100% | Hệ thống công việc, hằng tháng |
 | AM-M17 | Tỷ lệ hợp đồng dùng đúng mẫu đang có hiệu lực | Số hợp đồng đạt KS-AM-08 chia tổng hợp đồng ký trong kỳ | 100% | Rà soát chọn mẫu, hằng quý |
 | AM-M18 | Số vụ việc nhiều bộ phận không xác định được Job chính trước khi bắt đầu | Đếm số lần phải chuyển lên COO để chỉ định Job chính SAU khi việc đã chạy | 0 | Hệ thống công việc, hằng tháng |
@@ -316,7 +304,7 @@ Ngoài tám chỉ số chung tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SO
 
 ### 9.3. Cách tính điểm sức khỏe tài khoản
 
-Đây là bản GỐC của cách tính. [[07_Giu_khach_va_mo_rong|OBK-HB-37]] mục 6.1 chỉ hướng dẫn thao tác và dẫn chiếu về đây. Đặt ở cấp 2 vì đây là một ĐỊNH MỨC, và `PL_3` mục 4.1 cấm cấp 3 chứa định mức.
+Phương pháp và định mức tính điểm sức khỏe tài khoản khách hàng được ban hành thống nhất tại quy trình cấp 2 này. Tài liệu hướng dẫn OBK-HB-37 mục 6.1 quy định thao tác kỹ thuật và dẫn chiếu theo định mức tại đây.
 
 Năm nhóm, mỗi nhóm 20 điểm, tổng 100. Trọng số và ba ngưỡng là lựa chọn quản trị, áp dụng theo lựa chọn quản trị của oBacker, định kỳ đánh giá lại sau 02 quý.
 
@@ -366,8 +354,133 @@ Thao tác trên `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]` và `[HỆ THỐNG CHAT
 
 ---
 
+## CÂU HỎI THƯỜNG GẶP THEO JOB
+
+### AM-01. Tiếp nhận và đánh giá lead
+
+**Nếu lead đến từ kênh khác nhưng khách đã có trong sổ đăng ký giới thiệu, thì AM nhận như lead thường không?**
+Không. AM tra sổ đăng ký giới thiệu trước khi nhận; khách trùng sổ thì chuyển thông tin cho `PM-02` theo OBK-SOP-PM.
+
+**Nếu lead được bàn giao từ `PM-05` do đối tác giới thiệu, thì nguồn khách ghi khác lead tự đến chỗ nào?**
+Ghi đối tác giới thiệu kèm mã đăng ký giới thiệu; lead tự đến ghi kênh tự đến, không cần mã.
+
+**Nếu lead vừa vào hệ thống, thì AM xác nhận và đánh giá trong bao lâu?**
+Xác nhận đã nhận theo T1, đánh giá phù hợp trong 3 giờ làm việc, hẹn lịch làm rõ trong 24 giờ.
+
+### AM-03. Lập và gửi đề xuất dịch vụ
+
+**Nếu `TL` bộ phận chưa xác nhận tính khả thi bằng văn bản trên Job, thì AM có gửi đề xuất kèm mốc thời gian cho khách không?**
+Không. Theo KS-AM-01, mọi cam kết mốc phải có xác nhận của `TL` bằng văn bản trên Job; chưa có thì AM không cam kết mốc.
+
+**Nếu `TL` nói không làm kịp mốc mà khách vẫn muốn giữ mốc đó, thì AM xử lý thế nào?**
+AM không cam kết, kể cả khi CEO là cấp trên trực tiếp; trả lời khách bằng "sẽ xác nhận lại trong 4 giờ".
+
+**Nếu là ca phức tạp, thì mốc soạn và gửi đề xuất khác ca thường chỗ nào?**
+Soạn trong 24 giờ, ca phức tạp 48 giờ; gửi khách không quá 48 giờ sau họp làm rõ.
+
+### AM-05. Chốt hợp đồng và thu tiền lần đầu
+
+**Nếu khách thuộc sổ đăng ký giới thiệu, thì ngoài hợp đồng và xác nhận thanh toán, AM còn chuyển gì?**
+Chuyển danh sách dịch vụ cho `PM-06` theo OBK-SOP-PM để tính hoa hồng, và ghi hàng "Khách được giới thiệu bởi" trên Đơn Đặt Hàng theo sổ đăng ký giới thiệu.
+
+**Nếu cần xuất hóa đơn thu tiền lần đầu, thì AM tự xuất hay chuyển cho ai?**
+Hóa đơn do `KTT` nội bộ phát hành; AM chuyển yêu cầu xuất hóa đơn cho `NB-09` theo OBK-SOP-NB-00.
+
+**Nếu khách thuộc sổ giới thiệu, thì hàng "Đồng ý cung cấp thông tin cho bên đã giới thiệu" do ai đánh dấu?**
+Do khách đánh dấu; AM ghi nhận theo lựa chọn của khách, không tự đánh dấu thay.
+
+### AM-09. Hoàn tất onboarding
+
+**Nếu khách chậm nộp hồ sơ đầu vào, thì mốc của AM-09 đổi thế nào?**
+Mốc mở rộng lên tối đa 10 NLV thay vì 07 NLV khi đang chờ hồ sơ từ khách.
+
+**Nếu AM-09 đóng, thì onboarding đã hoàn tất cả các giai đoạn chưa?**
+Chưa. AM-09 chỉ đóng Giai đoạn 1; giai đoạn nghiệm thu 30 NLV thuộc `KT-01`, xem OBK-SOP-03 và `PL_G` mục 4.
+
+### AM-14. Xử lý sự cố mức P1
+
+**Nếu xảy ra sự cố P1, thì AM phản hồi khách đầu tiên bằng kênh nào, trong bao lâu?**
+AM gọi điện trong dưới 30 phút, sau đó gửi kế hoạch xử lý trong dưới 2 giờ.
+
+**Nếu sự cố còn đang xử lý, thì AM cập nhật cho khách bao nhiêu lần mỗi ngày?**
+Hai lần mỗi ngày, cho đến khi xác nhận đã xử lý xong.
+
+**Nếu sự cố chưa xong sau 1 NLV, thì mốc kéo dài đến đâu?**
+Xong trong 1 NLV, kéo dài tối đa 2 NLV.
+
+### AM-18. Gia hạn hợp đồng + phát hành phụ lục nâng/đổi gói
+
+**Nếu khách yêu cầu nâng/đổi gói chứ không chỉ gia hạn, thì việc phát hành phụ lục thuộc Job nào, mốc là gì?**
+Thuộc AM-18; phát hành phụ lục nâng/đổi gói trong 03 NLV kể từ khi chốt với khách.
+
+**Nếu khách thuộc sổ đăng ký giới thiệu và gia hạn, thì phần gia hạn chuyển đi đâu để vẫn tính hoa hồng?**
+Chuyển phần gia hạn của dịch vụ ghi trong hợp đồng dịch vụ đầu tiên cho `NB-49` theo OBK-SOP-NB-00.
+
+**Nếu đến hạn mà khách chưa ký gia hạn, thì mốc ký là gì?**
+Ký xong trước ngày hết hạn; AM theo đuổi mỗi 3 ngày cho tới khi ký.
+
+**Nếu hợp đồng sắp hết hạn, thì AM-18 được tạo khi nào để không bỏ sót?**
+Tạo tự động khi còn 60 ngày đến ngày hết hạn, cùng mốc rà soát hợp đồng ở cấp 3.
+
+### AM-20. Thu hồi quyền truy cập và lưu trữ hồ sơ
+
+**Nếu bàn giao xong, thì quyền truy cập của oBacker thu hồi lúc nào, do ai làm?**
+Thu hồi trong 24 giờ sau bàn giao, mốc đặt tại `KT-29` và `PL_G` S35; AM chỉ theo dõi chứ không tự thu hồi.
+
+**Nếu khách muốn tải lại dữ liệu sau khi kết thúc, thì oBacker giữ dữ liệu trong bao lâu?**
+Giữ 30 ngày kể từ ngày kết thúc theo Điều 9 (Chấm dứt và bàn giao) của TnC; trong khoảng đó oBacker không xóa dữ liệu.
+
+**Nếu đã hết khoảng 30 ngày tải của khách, thì hồ sơ chuyển trạng thái khi nào?**
+Chuyển hồ sơ sang lưu trữ hoặc xóa chỉ sau khi hết khoảng 30 ngày tải của khách; đây là mốc riêng của AM-20.
+
+### AM-22. Sàng lọc rủi ro khách trước khi nhận
+
+**Nếu phiếu sàng lọc có bất kỳ dấu hiệu nào ở mục 8.1, thì AM tự nhận khách được không?**
+Không. Chuyển CEO trong cùng ngày làm việc và không hẹn họp làm rõ trước khi CEO quyết; nhận khách có yếu tố rủi ro là việc thuộc CEO ở mọi tình huống.
+
+**Nếu khách chưa được CEO quyết bằng văn bản trên Job, thì AM có hẹn họp hoặc báo giá không?**
+Không. Theo KS-AM-07, phiếu phải có kết luận và mọi dấu hiệu mục 8.1 đã được CEO quyết bằng văn bản; chưa đạt thì không hẹn họp, không báo giá.
+
+**Nếu phát hiện khách có nghĩa vụ quá hạn chưa xử lý, thì có phải từ chối ngay không?**
+Không phải lý do từ chối, nhưng phải định giá và định phạm vi lại trước khi nhận.
+
+### AM-23. Xin duyệt giá hoặc phạm vi ngoài khung
+
+**Nếu khách yêu cầu mức giá ngoài khung đã duyệt, thì ai quyết?**
+TP Thương mại quyết trong 1 NLV nếu trong khung; CEO quyết trong 2 NLV nếu ngoài khung.
+
+**Nếu tờ trình chưa có quyết định trên Job, thì AM có báo mức giá cho khách trước không?**
+Không. AM không báo mức cho khách trước khi có quyết định trên Job.
+
+**Nếu khách đòi phạm vi ngoài hợp đồng đã ký, thì AM tạo Job cho bộ phận luôn không?**
+Không. Theo KS-AM-02, phạm vi phải nằm trong hợp đồng đã ký; ngoài phạm vi thì chuyển CEO xem xét mở rộng phạm vi và phí, COO xác nhận khả thi trước khi CEO quyết.
+
+### AM-24. Chốt hợp đồng dịch vụ và xử lý yêu cầu sửa điều khoản
+
+**Nếu khách đồng ý phạm vi và giá, thì AM có được tự sửa điều khoản hợp đồng không?**
+Không. AM dùng đúng mẫu đang có hiệu lực theo OBK-SOP-AM-PL2; muốn sửa điều khoản thì mở Job cho `RD-18` và chờ kết luận.
+
+**Nếu `RD-18` nhận Job phụ sửa điều khoản, thì kết luận trả về trong bao lâu?**
+`RD-18` trả kết luận trong 05 NLV; AM chờ kết luận, không tự sửa câu chữ điều khoản.
+
+**Nếu điều khoản cần sửa liên quan giá hoặc phạm vi, thì AM-24 xử lý luôn không?**
+Không. Điều khoản về giá và phạm vi theo AM-23, không nằm trong AM-24.
+
+### AM-25. Điều phối vụ việc đi qua nhiều bộ phận
+
+**Nếu một yêu cầu của khách cần từ hai bộ phận trở lên, thì AM xác định Job chính khi nào?**
+AM xác định Job chính trong 4 giờ làm việc và liên kết các Job phụ về Job chính.
+
+**Nếu không rõ bộ phận nào sở hữu đầu ra cuối, thì AM tự chỉ định Job chính không?**
+Không. Chuyển lên COO; COO chỉ định Job chính trước khi việc bắt đầu.
+
+**Nếu các Job phụ đã có kết quả, thì AM tự ghép các kết quả đó gửi khách được không?**
+Không. AM chỉ nhận bàn giao từ Job chính; cấm ghép kết quả từ nhiều Job phụ rồi tự gửi khách (KS-AM-09).
+
+---
+
 ## NHẬT KÝ SỬA
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.2.1.0 | Thêm dẫn chiếu tới CC-LIC-29-SECURITY-01 tới 15 vào các Job AM-06, AM-08, AM-19, AM-20 liên quan tới quản lý dữ liệu khách hàng |
+| 04/10/2026 | R.4.0.1 | Chuyển số đếm liệt kê thành quy định, bỏ lối tự sự ở quản lý khách. |

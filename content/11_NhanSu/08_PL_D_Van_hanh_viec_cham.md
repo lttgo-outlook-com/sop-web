@@ -7,23 +7,17 @@ level: "Phụ lục"
 version: "R.1.0.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 23/09/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-QCNS-08 Khung đánh giá hiệu suất"
 next_review: "Không quá 06 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-QCNS-08-PL-D
 tags:
   - loai/sop
   - cap/phu-luc
-  - nghiep-vu/cham-dut-hop-dong-lao-dong
-  - nghiep-vu/xu-phat-lao-dong
 ---
 # Vận hành việc chấm
 
@@ -79,7 +73,7 @@ Kỳ chỉ có đúng 01 phiếu đánh giá chéo thì quản lý trực tiếp
 
 ## 2. CÂN CHỈNH ĐIỂM
 
-### 2.1. Ba quy tắc cân chỉnh
+### 2.1. Quy tắc cân chỉnh điểm
 
 1. Không cấp mức Xuất sắc cho một tiêu chí phần B khi không có bằng chứng cụ thể được quản lý trực tiếp xác nhận.
 2. Điểm tự đánh giá lệch với điểm đánh giá chéo từ 2 bậc trở lên thì quản lý trực tiếp làm rõ với người được chấm trong buổi gặp riêng, trước khi chốt.
@@ -99,13 +93,13 @@ Khi có từ ba người trong cùng một bộ phận đạt nhãn Xuất sắc
 | --- | --- |
 | Tổng điểm cộng trong một kỳ | 5% điểm tổng |
 
-Điểm cộng chỉ cấp khi có bằng chứng cụ thể được quản lý trực tiếp xác nhận. Phiếu vị trí tại [[08_PL_E_Phieu_vi_tri|OBK-QCNS-08-PL-E]] chưa đặt việc được cộng điểm riêng của vị trí.
+Điểm cộng chỉ cấp khi có bằng chứng cụ thể được quản lý trực tiếp xác nhận. Phiếu vị trí tại OBK-QCNS-08-PL-E chưa đặt việc được cộng điểm riêng của vị trí.
 
 Ba việc được cộng điểm ở mọi vị trí:
 
 1. Nhận và hoàn thành một việc ngoài phạm vi vị trí, do quản lý trực tiếp giao bằng văn bản.
-2. Tự phát hiện và tự ghi nhận một lỗi của chính mình trước khi lỗi đó vượt biên 1. Đây là trường hợp được ghi nhận tích cực theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 11.2a quy tắc 3.
-3. Đưa một nội dung dùng lại được vào hướng dẫn chung, ngoài số đề xuất đã tính ở tiêu chí A-09 tại [[08_PL_A_Thang_cham_tieu_chi_chung|OBK-QCNS-08-PL-A]].
+2. Tự phát hiện và tự ghi nhận một lỗi của chính mình trước khi lỗi đó vượt biên 1, là trường hợp được ghi nhận tích cực theo OBK-SOP-00 mục 11.2a quy tắc 3.
+3. Đưa một nội dung dùng lại được vào hướng dẫn chung, ngoài số đề xuất đã tính ở tiêu chí A-09 tại OBK-QCNS-08-PL-A.
 
 ---
 
@@ -145,9 +139,9 @@ Kết quả đánh giá dùng cho mục đích quản trị và xét tăng lươ
 4. oBacker công khai quy chế với người lao động thuộc phạm vi áp dụng và lưu bằng chứng đã công khai. Người sử dụng lao động thiếu việc công khai nội quy, quy chế liên quan đến quyền lợi, nghĩa vụ và trách nhiệm của người lao động chịu mức phạt tiền từ 5.000.000 đồng đến 10.000.000 đồng theo khoản 3 Điều 21 Nghị định 283/2026/NĐ-CP, mức đối với cá nhân; doanh nghiệp chịu mức gấp 02 lần, tức từ 10.000.000 đồng đến 20.000.000 đồng, theo Điều 7 của Nghị định đó. Nghĩa vụ công khai và các hình thức công khai ghi tại điểm b khoản 1 và khoản 2 Điều 43 Nghị định 145/2020/NĐ-CP; hiệu lực của Điều 43 đó sau Luật Thực hiện dân chủ ở cơ sở năm 2022 chưa xác minh được.
 5. oBacker lưu đủ hồ sơ từng kỳ: bảng chấm điểm có chữ ký, dữ liệu trích xuất từ hệ thống quản lý công việc, biên bản phản hồi và các văn bản nhắc nhở. Đây là quy định của oBacker, không phải điều kiện do pháp luật đặt.
 6. Người lao động nằm ngoài ba trường hợp tại Điều 37 Bộ luật Lao động, là các trường hợp người sử dụng lao động không được thực hiện quyền đơn phương chấm dứt hợp đồng lao động: người lao động ốm đau hoặc bị tai nạn, bệnh nghề nghiệp đang điều trị, điều dưỡng theo chỉ định của cơ sở khám bệnh, chữa bệnh có thẩm quyền, trừ trường hợp tại điểm b khoản 1 Điều 36; người lao động đang nghỉ hằng năm, nghỉ việc riêng và trường hợp nghỉ khác được người sử dụng lao động đồng ý; người lao động nữ mang thai, người lao động đang nghỉ thai sản hoặc nuôi con dưới 12 tháng tuổi.
-7. Khi đơn phương chấm dứt, oBacker báo trước cho người lao động theo khoản 2 Điều 36 Bộ luật Lao động, [[CC-LD-24 NSDLĐ đơn phương chấm dứt, báo trước 45 ngày, 30 ngày, 03 ngày làm việc theo loại hợp đồng|CC-LD-24]]: ít nhất 45 ngày với hợp đồng lao động không xác định thời hạn; ít nhất 30 ngày với hợp đồng lao động xác định thời hạn có thời hạn từ 12 tháng đến 36 tháng; ít nhất 03 ngày làm việc với hợp đồng lao động xác định thời hạn có thời hạn dưới 12 tháng. Ngành, nghề, công việc đặc thù áp thời hạn báo trước tại Điều 7 Nghị định 145/2020/NĐ-CP, [[CC-LD-26 Ngành nghề đặc thù, báo trước 120 ngày, hoặc bằng 1-4 thời hạn hợp đồng nếu HĐ dưới 12 tháng. Danh mục 4 nhóm|CC-LD-26]]. oBacker thông báo bằng văn bản cho người lao động về việc chấm dứt hợp đồng lao động theo khoản 1 Điều 45 Bộ luật Lao động, [[CC-LD-27 Phải thông báo bằng văn bản cho NLĐ về việc chấm dứt, trừ các khoản 4, 5, 6, 7, 8 Điều 34|CC-LD-27]].
+7. Khi đơn phương chấm dứt, oBacker báo trước cho người lao động: ít nhất 45 ngày với hợp đồng lao động không xác định thời hạn; ít nhất 30 ngày với hợp đồng lao động xác định thời hạn có thời hạn từ 12 tháng đến 36 tháng; ít nhất 03 ngày làm việc với hợp đồng lao động xác định thời hạn có thời hạn dưới 12 tháng. Ngành, nghề, công việc đặc thù báo trước ít nhất 120 ngày, hoặc ít nhất bằng một phần tư thời hạn hợp đồng với hợp đồng có thời hạn dưới 12 tháng. oBacker thông báo bằng văn bản cho người lao động về việc chấm dứt hợp đồng lao động.
 
-Mục 4.4 dẫn văn bản pháp luật còn hiệu lực tại ngày 23/09/2026. Nghị định 12/2022/NĐ-CP hết hiệu lực từ ngày 10/09/2026 theo khoản 4 Điều 66 Nghị định 283/2026/NĐ-CP, [[CC-LD-171 Nghị định 12-2022-NĐ-CP HẾT HIỆU LỰC kể từ ngày Nghị định 283-2026 có hiệu lực|CC-LD-171]].
+Mục 4.4 dẫn văn bản pháp luật còn hiệu lực tại ngày 23/09/2026. Nghị định 12/2022/NĐ-CP hết hiệu lực từ ngày 10/09/2026.
 
 ---
 

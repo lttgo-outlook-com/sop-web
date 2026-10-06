@@ -4,19 +4,15 @@ code: "KN-01"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-TTT-05 Cách làm phiếu thao tác"
-law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - KN-01
 tags:
@@ -29,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | KN-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -40,6 +36,7 @@ tags:
 | **Ai dùng** | Chuyên viên Quản lý khách hàng (`AM`), Trưởng phòng Thương mại, Trưởng bộ phận nghiệp vụ (`TL`), Giám đốc điều hành (`COO`), Giám đốc điều hành cấp cao (`CEO`) |
 | **Sinh từ** | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 7.3, mục 8.2.1;<br>[[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] Job `AM-14`;<br>[[08_PL_B_Tieu_chi_cong_viec_dang_ho_so\|OBK-QCNS-08-PL-B]] tiêu chí `HS-04`;<br>[[00_TnC_Master_VI\|Master TnC]] |
 | **Ngày làm phiếu** | 27/09/2026 |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
@@ -86,7 +83,7 @@ Sổ là công cụ kiểm soát chỉ số hài lòng khách hàng (`AM-M12`), 
 
 ### 1. Phân loại 3 mức ưu tiên theo chuẩn vận hành dịch vụ
 
-Theo quy định tại mục 7.3 của [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]], mọi khiếu nại phải được phân loại và xử lý theo đúng cam kết thời gian:
+Mọi khiếu nại phải được phân loại và xử lý theo đúng cam kết thời gian quy định tại OBK-SOP-00 mục 7.3:
 
 | Mức ưu tiên | Dấu hiệu nhận diện | Thời hạn phản hồi lần đầu | Thời hạn hoàn thành xử lý |
 | --- | --- | --- | --- |
@@ -113,7 +110,7 @@ Theo [[08_PL_B_Tieu_chi_cong_viec_dang_ho_so|OBK-QCNS-08-PL-B]], tiêu chí `HS-
 - Định mức chuẩn cho toàn bộ các vị trí từ `P1` đến `M1` là: **0 lần**.
 - Mỗi lần phát sinh khiếu nại chuyển lên cấp trên do lỗi chủ quan của bộ phận nghiệp vụ hoặc do việc xử lý khiếu nại không dứt điểm tại cấp cơ sở sẽ bị trừ điểm trực tiếp vào kết quả đánh giá hiệu suất cuối kỳ của nhân sự phụ trách và Trưởng bộ phận liên quan.
 
-## QUY TRÌNH 5 BƯỚC TIẾP NHẬN VÀ XỬ LÝ KHIẾU NẠI KHÁCH HÀNG
+## QUY TRÌNH TIẾP NHẬN VÀ XỬ LÝ KHIẾU NẠI KHÁCH HÀNG
 
 ```
 [1. Tiếp nhận & Phân loại] -> [2. Phản hồi ban đầu] -> [3. Xác minh nguyên nhân] -> [4. Phê duyệt & Khắc phục] -> [5. Đóng khiếu nại]
@@ -139,23 +136,7 @@ Theo [[08_PL_B_Tieu_chi_cong_viec_dang_ho_so|OBK-QCNS-08-PL-B]], tiêu chí `HS-
 
 Bảo đảm quyền lợi hợp pháp của khách hàng khi sử dụng dịch vụ của oBacker; chuẩn hóa quy trình ứng phó và giải quyết theo đúng thời hạn cam kết khi có sự cố dịch vụ; ngăn chặn việc khiếu nại bị bỏ rơi hoặc xử lý kéo dài gây giảm sút danh tiếng thương hiệu; minh bạch hóa cơ chế bồi thường và chế tài dịch vụ; đồng thời kiểm soát chặt chẽ chỉ số khiếu nại khách hàng (`A-06`) và khiếu nại chuyển lên cấp trên (`HS-04`) để nâng cao năng lực tự chịu trách nhiệm của từng bộ phận.
 
-### 2. Căn cứ quy định và pháp luật liên quan
 
-| Mục | Nguồn | Nội dung |
-| --- | --- | --- |
-| Chuẩn vận hành dịch vụ | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 7.3 | Quy định ba mức ưu tiên sự cố P1, P2, P3 và thời hạn giải quyết |
-| Phân định thẩm quyền | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 8.2.1 | Thẩm quyền phê duyệt giữa Giám đốc điều hành và Ban Giám đốc |
-| Quản lý khách hàng | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] Job `AM-14` | Quy trình tiếp nhận, theo dõi và giải quyết khiếu nại khách hàng |
-| Khung đánh giá hiệu suất | [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]], [[08_PL_A_Thang_cham_tieu_chi_chung\|OBK-QCNS-08-PL-A]], [[08_PL_B_Tieu_chi_cong_viec_dang_ho_so\|OBK-QCNS-08-PL-B]] | Định mức và phương pháp tính toán tiêu chí `A-06` và `HS-04` |
-| Sổ theo dõi sai sót | [[CL-01_So_theo_doi_kiem_soat_chat_luong_va_nhat_ky_sai_sot_capa\|CL-01]] | Cơ chế liên kết lỗi nghiệp vụ với hành động khắc phục phòng ngừa |
-
-### 3. Căn cứ pháp lý
-
-| Văn bản | Điều khoản | Nội dung áp dụng |
-| --- | --- | --- |
-| Bộ luật Dân sự số 91/2015/QH13 | Điều 351, Điều 360 | Trách nhiệm dân sự do vi phạm nghĩa vụ và bồi thường thiệt hại |
-| Luật Thương mại số 36/2005/QH11 | Điều 292, Điều 302 | Các hình thức chế tài trong thương mại và căn cứ phát sinh trách nhiệm bồi thường |
-| Luật Bảo vệ quyền lợi người tiêu dùng số 19/2023/QH15 | Điều 31, Điều 32 | Tiếp nhận và giải quyết khiếu nại của tổ chức, cá nhân sử dụng dịch vụ |
 
 ---
 
@@ -163,4 +144,4 @@ Bảo đảm quyền lợi hợp pháp của khách hàng khi sử dụng dịch
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu KN-01 về Sổ cái OBK-MSR |

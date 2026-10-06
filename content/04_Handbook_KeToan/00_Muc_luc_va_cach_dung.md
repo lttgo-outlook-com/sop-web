@@ -4,18 +4,15 @@ code: "OBK-HB-00"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Mục lục"
-version: "R.2.1.0"
+version: "R.2.1.1"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 25/08/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
 parent: "OBK-SOP-KT Kế toán và thuế"
 next_review: "Không quá 06 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-HB-00
 tags:
@@ -24,22 +21,20 @@ tags:
 ---
 # SỔ TAY QUY TRÌNH DỊCH VỤ KẾ TOÁN oBacker
 
-> [!note] ĐỌC PHẦN NÀY TRƯỚC
-> BA NƠI ĐẶT NỘI DUNG, VÀ AI ĐÚNG KHI LỆCH NHAU
+> [!note] HỆ THỐNG VĂN BẢN VÀ THỨ BẬC HIỆU LỰC
+> Handbook Kế toán là tài liệu **CẤP 3**, nằm dưới [[03_OBK-SOP-KT_Ke_toan_va_thue|OBK-SOP-KT]] (cấp 2) và [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] (cấp 1).
 >
-> Handbook Kế toán là tài liệu **CẤP 3**. Handbook nằm dưới [[03_OBK-SOP-KT_Ke_toan_va_thue|OBK-SOP-KT]] là cấp 2, và dưới [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] là cấp 1.
->
-> | Nội dung | ĐẶT tại | Handbook này |
+> | Nội dung | Tài liệu ban hành chuẩn | Quy chế tại Handbook này |
 > | --- | --- | --- |
-> | Cơ cấu tổ chức, tên đơn vị, ký hiệu vai trò, thẩm quyền quyết định | [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen|OBK-QCTC-02]] cùng bốn phụ lục `PL_Tu_dien_vai.md`, `PL_Ma_tran_phan_quyen.md`, `PL_Chuyen_len_cap_tren.md`, `PL_Anh_xa_nhan_su.md` | chỉ DẪN CHIẾU |
-> | SLA, mốc thời gian, thời hạn cam kết với khách | Bảng Job của SOP cấp 2, và `03_DichVu/01_OBK-SOP-00` mục 7 | chỉ DẪN CHIẾU |
+> | Cơ cấu tổ chức, tên đơn vị, ký hiệu vai trò, thẩm quyền quyết định | [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen\|OBK-QCTC-02]] cùng các phụ lục phân quyền | Dẫn chiếu |
+> | SLA, mốc thời gian, thời hạn cam kết chất lượng | Bảng Job của SOP cấp 2, và `03_DichVu/01_OBK-SOP-00` mục 7 | Dẫn chiếu |
 >
-> **Khi Handbook này khác hai nơi trên thì HAI NƠI TRÊN ĐÚNG.** Phát hiện lệch thì báo Legal R&D về phần nội dung và `COO` về phần phát hành, không tự sửa bản trên máy cá nhân.
+> Khi có sự khác biệt giữa Handbook và các tài liệu cấp trên, nội dung tại tài liệu cấp trên được ưu tiên áp dụng. Khi phát hiện điểm sai lệch, nhân sự báo cáo Legal R&D về nội dung chuyên môn và `COO` về thủ tục phát hành; không tự ý chỉnh sửa tài liệu cá nhân.
 
-> [!note] ĐỔI KÝ HIỆU VAI TRÒ
-> Thực hiện ngày 02/09/2026. Toàn bộ Handbook này đã đổi `KTV` thành `CV-KT` và `KTT` thành `TL-KT`, tổng 3.754 chỗ. Lý do: hai ký hiệu cũ trùng nghĩa với vai trò miền NỘI BỘ tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]], nơi `KTV` là kế toán viên nội bộ và `KTT` là kế toán trưởng nội bộ, cả hai làm việc trên sổ sách CỦA CHÍNH OBACKER. Sau khi đổi, hai mảng không còn ký hiệu nào trùng nghĩa.
+> [!note] QUY ƯỚC KÝ HIỆU VAI TRÒ
+> Quy ước ký hiệu vai trò trong toàn bộ Handbook: `CV-KT` (Chuyên viên Kế toán và Thuế phụ trách hồ sơ khách hàng) và `TL-KT` (Trưởng bộ phận Kế toán và Thuế chốt kỹ thuật hồ sơ khách hàng). Quy ước này phân biệt với vai trò kế toán nội bộ của oBacker tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]].
 >
-> Ba vai trò dễ nhầm nhau, phân biệt trước khi ký bất cứ gì: `TL-KT` là người chốt kỹ thuật trên hồ sơ KHÁCH; `KTT` theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] là kế toán trưởng NỘI BỘ của oBacker; kế toán trưởng CỦA KHÁCH đứng tên trên báo cáo tài chính của khách và mặc định không phải người của oBacker. Ba vai trò mang ba trách nhiệm pháp lý khác nhau, không thay nhau được.
+> Phân định ba vai trò chuyên môn: `TL-KT` chốt kỹ thuật trên hồ sơ khách hàng; `KTT` theo OBK-QCTC-01 là Kế toán trưởng nội bộ của oBacker; Kế toán trưởng của khách hàng đứng tên trên báo cáo tài chính của khách hàng (mặc định không phải nhân sự oBacker). Ba vai trò chịu trách nhiệm pháp lý độc lập.
 >
 > Từ điển ký hiệu đầy đủ: [[PL_Tu_dien_vai|OBK-QCTC-02-PL-A]].
 
@@ -50,7 +45,7 @@ tags:
 | Hạng mục | Nội dung |
 | --- | --- |
 | Mã tài liệu | OBK-HB-00 |
-| Phiên bản | R.2.1.0, đang áp dụng |
+| Phiên bản | R.2.1.1, đang áp dụng |
 | Cấp tài liệu | Mục lục của Handbook cấp 3 |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
@@ -84,7 +79,7 @@ Handbook Kế toán được tổ chức thành hai khối tài liệu độc l�
 
 ---
 
-## 2. NĂM VAI TRÒ TRONG TOÀN BỘ TÀI LIỆU
+## 2. Hệ thống vai trò trong toàn bộ tài liệu
 
 | Ký hiệu | Vai trò | Một câu định nghĩa |
 | --- | --- | --- |
@@ -110,10 +105,10 @@ Pháp luật thuế và kế toán Việt Nam thay đổi rất lớn trong giai
 | Ghi thêm "chưa đối chiếu bản gốc" | Lấy từ nguồn thứ cấp đáng tin nhưng chưa đọc toàn văn | Dùng để lập kế hoạch nội bộ.<br>**không** dùng để cam kết với khách hoặc để hành động có rủi ro bị xử phạt trước khi đối chiếu bản gốc. |
 | Ghi thêm "chưa xác minh được" | Chưa tra được bản gốc | **không** được dùng để trả lời khách dưới mọi hình thức. Phải tra cứu và đối chiếu bản gốc trước. |
 
-> [!question] CẦN XÁC MINH
-> Kho tài liệu nội bộ có bản gốc của các văn bản trọng yếu sau: Luật Quản lý thuế 108/2025, Nghị định 252/2026/NĐ-CP, Nghị định 254/2026/NĐ-CP, Thông tư 89/2026/TT-BTC kèm Phụ lục I, Thông tư 91/2026/TT-BTC và Luật Kế toán bản hợp nhất 41/VBHN-VPQH. Phần lớn nội dung chưa chắc chắn của bản 1.0 nay đã được đối chiếu bản gốc. Xem danh mục văn bản đầy đủ tại **Phụ lục E**, bản 1.3.
+> [!note] CĂN CỨ VĂN BẢN PHÁP LUẬT ÁP DỤNG
+> Hệ thống tài liệu của Handbook viện dẫn trực tiếp từ các văn bản quy phạm pháp luật trọng yếu. Danh mục văn bản áp dụng đầy đủ đặt tại tài liệu nội bộ PL_E (Phụ lục E của Handbook).
 
-Nguyên tắc bất di bất dịch: **không trả lời khách bằng kiến thức từ trí nhớ.** Quy tắc này áp dụng cho mọi cấp, kể cả TL-KT và CEO. Chi tiết tại Chương 21.
+Nguyên tắc bắt buộc: **không tư vấn hoặc trả lời khách hàng khi chưa đối chiếu văn bản quy phạm pháp luật.** Quy tắc này áp dụng cho mọi cấp, kể cả TL-KT và CEO. Chi tiết tại Chương 21.
 
 ---
 
@@ -121,7 +116,7 @@ Nguyên tắc bất di bất dịch: **không trả lời khách bằng kiến t
 
 **Cấu trúc chương.** Phần lớn các chương theo cùng một khung 10 mục: mục đích; phạm vi áp dụng; căn cứ pháp lý; vai trò và trách nhiệm; đầu vào bắt buộc; các bước thực hiện; điểm kiểm soát bắt buộc; lỗi thường gặp; đầu ra và nơi lưu; chỉ số theo dõi. Khi cần tra nhanh, đi thẳng tới mục 6 và mục 7.
 
-**Cảnh báo.** Bốn loại, đọc theo mức độ ưu tiên giảm dần:
+**Cảnh báo.** Các loại cảnh báo nghiệp vụ:
 
 > [!danger] RỦI RO BỊ XỬ PHẠT
 > Làm sai ở mục này dẫn tới tiền phạt hoặc tiền chậm nộp cho khách hoặc cho oBacker.
@@ -129,8 +124,8 @@ Nguyên tắc bất di bất dịch: **không trả lời khách bằng kiến t
 > [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
 > CV-KT và AM không có quyền quyết định, phải chuyển TL-KT. Việc vượt thẩm quyền TL-KT thì chuyển COO. Việc nhận khách, từ chối khách, chấm dứt hợp đồng và mọi việc thuộc hành vi oBacker nghiêm cấm thì chuyển CEO.
 
-> [!question] CẦN XÁC MINH
-> Nội dung chưa chắc chắn, phải tra bản gốc trước khi dùng.
+> [!note] CĂN CỨ PHÁP LÝ
+> Căn cứ pháp luật hoặc lưu ý nghiệp vụ cần đối chiếu bản gốc văn bản trước khi áp dụng.
 
 > [!bug] LỖI THƯỜNG GẶP
 > Lỗi hay xảy ra trong thực tế, có dấu hiệu nhận biết và cách xử lý kèm theo.
@@ -207,9 +202,9 @@ Nguyên tắc bất di bất dịch: **không trả lời khách bằng kiến t
 
 | Tài liệu | Nội dung |
 | --- | --- |
-| [[02_Mo_hinh_dich_vu_va_phan_vai\|02_Mo_hinh_dich_vu_va_phan_vai]] Phụ lục 02-C | Bản thiết kế phân vai trò 5 cấp CV-KT, TL-KT, AM, COO, CEO và trình tự chuyển lên cấp trên: mô tả công việc từng vai trò, bốn nguyên tắc không được vi phạm, bảng RACI 45 đầu việc, trình tự chuyển lên cấp trên theo tình huống.<br>Đây là bản gốc về vai trò; chỗ nào trong Handbook còn ghi vai trò cũ thì lấy theo bản này |
+| [[02_Mo_hinh_dich_vu_va_phan_vai\|02_Mo_hinh_dich_vu_va_phan_vai]] Phụ lục 02-C | Thiết kế phân vai trò 5 cấp CV-KT, TL-KT, AM, COO, CEO và trình tự chuyển lên cấp trên: mô tả công việc từng vai trò, nguyên tắc phân định vai trò, bảng RACI 45 đầu việc, trình tự chuyển lên cấp trên theo tình huống.<br>Đây là tài liệu chuẩn về vai trò; trường hợp có sự khác biệt giữa các tài liệu thì áp dụng theo bản này |
 | Tra cứu và cập nhật văn bản pháp luật | Quy trình tra cứu 04 bước tại Chương 21; các nội dung chưa có văn bản chính thức tuyệt đối không dùng để tư vấn khách hàng |
-| `So_ket_luan_xac_minh_25082026` | Sổ kết luận xác minh, 13 tệp: một sổ tổng hợp `00_SO_KET_LUAN_XAC_MINH_25082026.md` và 12 phiếu kết luận từ V1 tới V12 theo từng chủ đề.<br>Mở khi cần biết một con số trong Handbook đã được đối chiếu tới đâu và bằng điều khoản nào |
+| `So_ket_luan_xac_minh_25082026` | Sổ kết luận xác minh, 13 tệp: một sổ tổng hợp `00_SO_KET_LUAN_XAC_MINH_25082026.md` và 12 phiếu kết luận từ V1 tới V12 theo từng chủ đề.<br>Tài liệu tra cứu chi tiết điều khoản và mức độ đối chiếu của các số liệu trong Handbook |
 
 ---
 
@@ -264,13 +259,12 @@ Bảng dưới đây là các thay đổi pháp luật mà cách làm của kỳ
 
 > [!danger] RỦI RO BỊ XỬ PHẠT
 > Không được trích dẫn văn bản đã hết hiệu lực trong bất kỳ tài liệu nào gửi khách. Danh sách văn bản đã hết hiệu lực tại **Phụ lục E**. Những văn bản dễ bị trích sai nhất vì đã dùng nhiều năm: Thông tư 200/2014, Thông tư 219/2013, Thông tư 78/2021, Thông tư 80/2021, Nghị định 123/2020, Nghị định 126/2020, Nghị định 139/2016.
-## 9. HAI HÀNH ĐỘNG CẦN LÀM NGAY, KHÔNG CHỜ TÀI LIỆU BAN HÀNH
+## 9. Các hành động cần thực hiện ngay
 
-Hai việc dưới đây là phát hiện trong quá trình biên soạn, có ảnh hưởng tới khách hàng hiện tại và không nên chờ.
+Các công việc dưới đây ảnh hưởng trực tiếp tới khách hàng hiện tại và cần thực hiện ngay:
 
-**Một, rà soát mục lệ phí môn bài.** Lệ phí môn bài đã chấm dứt thu nộp từ 01/01/2026 `[NQ 198/2025 Đ.10 k.7; NĐ 362/2025 Đ.6 k.4]`. Cần rà và gỡ mục này khỏi toàn bộ mẫu thành lập doanh nghiệp, bảng báo giá dịch vụ, bảng kiểm tuân thủ, và lịch nhắc khách. Xem Chương 13.
-
-**Hai, rà soát kỳ khai thuế TNCN của toàn bộ khách hàng.** Từ 01/07/2026, tổ chức, cá nhân trả thu nhập từ TIỀN LƯƠNG, TIỀN CÔNG khai thuế TNCN đã khấu trừ theo quý `[TT 89/2026 Đ.22 k.1 đ.a.1]`. Khách nào đang khai tiền lương, tiền công theo tháng thì đang sai kỳ khai. Phạm vi: quy định theo quý này chỉ áp cho tiền lương, tiền công. Các khoản khấu trừ khác, gồm cổ phiếu thưởng và cổ phiếu ESOP, đầu tư vốn, chuyển nhượng vốn, bản quyền, trúng thưởng, khai thay cho cá nhân kinh doanh, cá nhân không cư trú, tài sản số, vẫn khai theo tháng hoặc theo quý cùng kỳ khai thuế GTGT. Xem Chương 11 để lấy quy trình chuyển đổi, và Chương 13 để cập nhật lịch.
+- **Rà soát mục lệ phí môn bài:** Lệ phí môn bài đã chấm dứt thu nộp từ 01/01/2026 `[NQ 198/2025 Đ.10 k.7; NĐ 362/2025 Đ.6 k.4]`. Rà soát và loại bỏ mục này khỏi toàn bộ mẫu thành lập doanh nghiệp, bảng báo giá dịch vụ, bảng kiểm tuân thủ và lịch nhắc khách. Chi tiết tại Chương 13.
+- **Rà soát kỳ khai thuế TNCN của toàn bộ khách hàng:** Từ 01/07/2026, tổ chức, cá nhân trả thu nhập từ tiền lương, tiền công khai thuế TNCN đã khấu trừ theo quý `[TT 89/2026 Đ.22 k.1 đ.a.1]`. Các trường hợp đang khai theo tháng phải chuyển đổi kỳ khai theo quý đối với khoản tiền lương, tiền công. Các khoản khấu trừ khác (cổ phiếu thưởng, cổ phiếu ESOP, đầu tư vốn, chuyển nhượng vốn, bản quyền, trúng thưởng, khai thay cá nhân kinh doanh, cá nhân không cư trú, tài sản số) tiếp tục khai theo tháng hoặc quý cùng kỳ khai thuế GTGT. Quy trình chuyển đổi quy định tại Chương 11 và cập nhật lịch tại Chương 13.
 
 ---
 
@@ -286,4 +280,4 @@ Quy tắc đánh phiên bản và quy trình cập nhật: xem Chương 21.
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 29/09/2026 | R.2.1.0 | Chuyển mục 5 Mục lục từ bảng chữ thường sang liên kết tới từng chương và phụ lục |
+| 04/10/2026 | R.2.1.1 | Chuan hoa van phong hanh chinh, bo so dem tai tieu de muc 2 va 9, chuyen callout sang can cu phap luat |

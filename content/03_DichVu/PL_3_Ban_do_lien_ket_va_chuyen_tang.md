@@ -4,19 +4,15 @@ code: "OBK-SOP-PL3"
 type: "sop"
 folder: "03_DichVu"
 level: "Phụ lục"
-version: "R.1.0.0"
+version: "R.1.1.1"
 status: "đang áp dụng"
-draft_date: "01/10/2026"
+draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-SOP-00 Chuẩn vận hành dịch vụ"
-law_as_of: ""
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-SOP-PL3
 tags:
@@ -29,8 +25,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-SOP-PL3 |
 | Cấp tài liệu | Phụ lục |
-| Phiên bản | R.1.0.0, đang áp dụng |
-| Ngày biên soạn | 01/10/2026 |
+| Phiên bản | R.1.1.1, đang áp dụng |
+| Ngày biên soạn | 04/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
 | Người phê duyệt | CEO (Lê Trọng Tuấn) |
@@ -56,14 +52,14 @@ Quy tắc: mỗi dòng có ĐÚNG MỘT giá trị "đặt ở đâu". Nếu m�
 
 | # | Nội dung | ĐẶT Ở ĐÂU (bản gốc) | DẪN CHIẾU Ở ĐÂU |
 | --- | --- | --- | --- |
-| 1 | Kiến trúc ba cấp và thứ tự ưu tiên khi xung đột | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 2 | Mọi SOP cấp 2, phần bảng thông tin phiên bản |
+| 1 | Kiến trúc phân cấp tài liệu và thứ tự ưu tiên khi xung đột | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 2 | Mọi SOP cấp 2, phần bảng thông tin phiên bản |
 | 2 | Từ điển thuật ngữ Job, Hành động, Task, Đầu vào, Kết quả bước, Đầu ra | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 3 | Mọi SOP cấp 2, phần danh mục Job |
-| 3 | Tám nguyên tắc thi hành được | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 4 | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] mục 7 và 8;<br>[[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] mục 4;<br>[[04_OBK-SOP-LIC_Giay_phep\|OBK-SOP-LIC]] mục 5;<br>[[05_OBK-SOP-LD_Lao_dong_va_tien_luong\|OBK-SOP-LD]] mục 6;<br>`02_NoiBo/06_OBK-SOP-NB-00` mục 8 |
+| 3 | Các nguyên tắc thi hành bắt buộc | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 4 | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] mục 7 và 8;<br>[[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] mục 4;<br>[[04_OBK-SOP-LIC_Giay_phep\|OBK-SOP-LIC]] mục 5;<br>[[05_OBK-SOP-LD_Lao_dong_va_tien_luong\|OBK-SOP-LD]] mục 6;<br>`02_NoiBo/06_OBK-SOP-NB-00` mục 8 |
 | 4 | Bộ vai trò của MẢNG DỊCH VỤ và bảng chuyển đổi từ ký hiệu cũ | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 5 | Mọi SOP cấp 2, phần RACI. `02_NoiBo/06_OBK-SOP-NB-00` mục 3 cho mảng nội bộ.<br>[[PL_Tu_dien_vai\|OBK-QCTC-02-PL-A]] mục 5 dẫn chiếu về đây |
 | 4a | Quy tắc phân chia ký hiệu giữa hai mảng: `KTV` và `KTT` chỉ thuộc mảng nội bộ;<br>`CV-KT` và `TL-KT` chỉ thuộc mảng dịch vụ | `02_NoiBo/06_OBK-SOP-NB-00` mục 3.2 | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 5.1.3 và 5.2;<br>[[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] mục 3.1;<br>[[PL_Tu_dien_vai\|OBK-QCTC-02-PL-A]] mục 6 |
 | 4b | Thang thẩm quyền hai nhánh và quy tắc xử xung đột giữa khối AM và khối dịch vụ | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 5.1.1 và 8.2.1 | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] mục 2 và mục 5;<br>[[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] mục 3.1 |
 | 4c | Ai đang giữ vai trò nào, và bảng kiêm nhiệm đầy đủ | [[PL_Anh_xa_nhan_su\|OBK-QCTC-02-PL-D]] mục F | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 5.1.2 giữ bốn trường hợp ảnh hưởng quy trình dịch vụ;<br>[[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] mục 3.1;<br>`02_NoiBo/06_OBK-SOP-NB-00` mục 3.1 và 3.3;<br>`00_README` mục 2b |
-| 5 | Quy trình chuẩn 10 bước B1 tới B10 | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 6 | Mọi SOP cấp 2, phần RACI và phần "những chỗ đi khác quy trình chuẩn" |
+| 5 | Quy trình vận hành chuẩn từ bước B1 tới B5 | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 6 | Mọi SOP cấp 2, phần RACI và phần "những chỗ đi khác quy trình chuẩn" |
 | 6 | Năm phần bắt buộc của nội dung bàn giao | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 6.1 | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] KS-AM-04;<br>[[05_OBK-SOP-LD_Lao_dong_va_tien_luong\|OBK-SOP-LD]] KS-LD-05;<br>[[04_OBK-SOP-LIC_Giay_phep\|OBK-SOP-LIC]] LIC-23 |
 | 7 | Tiêu chuẩn nhắc nhở | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 6.2 | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] AM-08, AM-12;<br>[[05_OBK-SOP-LD_Lao_dong_va_tien_luong\|OBK-SOP-LD]] KS-LD-04 |
 | 8 | Quy ước đếm thời gian, giờ làm việc, ngày làm việc, dừng đồng hồ | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 7.2.1 | Mọi bảng Job. `04_Handbook_KeToan/PL_G` mục 10.1 ĐÃ SỬA thành dẫn chiếu, 02/09/2026 |
@@ -78,7 +74,7 @@ Quy tắc: mỗi dòng có ĐÚNG MỘT giá trị "đặt ở đâu". Nếu m�
 | 15b | Cơ chế xử xung đột giữa nhánh thương mại và Phòng Dịch vụ, tách quyền quyết theo BẢN CHẤT vấn đề | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 8.2.1 | [[PL_Chuyen_len_cap_tren\|OBK-QCTC-02-PL-C]] mục 3;<br>[[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] mục 1.1 và mục 2;<br>`00_README` mục 2b |
 | 16 | Hành vi oBacker nghiêm cấm | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 9 | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] mục 8;<br>[[04_OBK-SOP-LIC_Giay_phep\|OBK-SOP-LIC]] mục 7 |
 | 17 | Quy ước ghi mức chắc chắn của căn cứ, con số quản trị và giả thiết làm việc | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 10 | Mọi tài liệu. `PL_1` mục 0 nhắc lại ngắn |
-| 18 | Bốn loại cảnh báo | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 10.3 | Mọi tài liệu |
+| 18 | Quy ước các khối cảnh báo | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 10.3 | Mọi tài liệu |
 | 19 | Tám chỉ số chung của bộ phận Delivery | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 11.1 | Mọi SOP cấp 2, mục chỉ số |
 | 20 | **Định nghĩa lỗi, hai biên đo, ba mức Nghiêm trọng, Đáng kể, Nhỏ, cách ghi nhận lỗi, thời hạn khắc phục, quyền đóng lỗi, và quy tắc bắt buộc ánh xạ thang chi tiết của bộ phận** | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 11.2 tới 11.2c | Mọi SOP cấp 2. [[18_Kiem_soat_chat_luong\|OBK-SOP-18]] mục 6.6 là thang chi tiết bảy mức của bộ phận Kế toán và Thuế, có cột ánh xạ về ba mức.<br>Bản Licensing v0.1 có định nghĩa riêng, phải xóa và dẫn chiếu |
 | 21 | **Toàn bộ trích dẫn điều khoản pháp luật**, LEG sở hữu | `PL_1` | Mọi SOP cấp 1 và cấp 2 dẫn chiếu bằng mã `[CC-...]`. Không tài liệu nào khác được chứa số điều, số khoản |
@@ -97,9 +93,9 @@ Quy tắc: mỗi dòng có ĐÚNG MỘT giá trị "đặt ở đâu". Nếu m�
 | 34 | **Quy tắc Job đa bộ phận có một Job chính**: ai chịu trách nhiệm cuối, Job phụ liên kết về Job chính, `AM` chỉ nhận bàn giao từ Job chính, và ai chỉ định Job chính khi không rõ | [[PL_Chuyen_len_cap_tren\|OBK-QCTC-02-PL-C]] mục 2a Quy tắc 4 | Mọi SOP bộ phận. [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 6 quy trình 10 bước dẫn chiếu về đây cho Job có nhiều bộ phận tham gia |
 | 35 | **Cơ cấu tổ chức toàn công ty**, danh mục đơn vị, nhiệm vụ và thẩm quyền từng đơn vị, ma trận phân quyền sáu nhóm quyết định | `01_ToChuc/OBK-QCTC-02` và `PL_Ma_tran_phan_quyen.md` | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 5.1 và 5.1.1 chỉ vẽ phần mảng dịch vụ;<br>`00_README` mục 2b;<br>mọi SOP cấp 2 |
 | 36 | **Ký hiệu vai trò bốn mảng, cặp tên Việt Anh, ký hiệu và nhãn đơn vị ĐÃ BỎ** | [[PL_Tu_dien_vai\|OBK-QCTC-02-PL-A]] | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 5.1 và 5.2 |
-| 37 | **Quy tắc ba lớp phân việc pháp lý**, gồm phép thử một câu và bốn ca giao nhau đã chốt | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 5.5 | [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] mục 1.4;<br>[[07_OBK-SOP-RD_Nghien_cuu_phap_ly\|OBK-SOP-RD]] mục 1.4;<br>mục 1.3 của [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]], [[04_OBK-SOP-LIC_Giay_phep\|OBK-SOP-LIC]], [[05_OBK-SOP-LD_Lao_dong_va_tien_luong\|OBK-SOP-LD]], [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]];<br>[[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 8.1 và 8.3 rút gọn từ đây;<br>[[PL_Chuyen_len_cap_tren\|OBK-QCTC-02-PL-C]] mục 1 |
+| 37 | **Quy tắc phân lớp việc pháp lý**, gồm phép thử một câu và các ca giao nhau đã chốt | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 5.5 | [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] mục 1.4;<br>[[07_OBK-SOP-RD_Nghien_cuu_phap_ly\|OBK-SOP-RD]] mục 1.4;<br>mục 1.3 của [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]], [[04_OBK-SOP-LIC_Giay_phep\|OBK-SOP-LIC]], [[05_OBK-SOP-LD_Lao_dong_va_tien_luong\|OBK-SOP-LD]], [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]];<br>[[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 8.1 và 8.3 rút gọn từ đây;<br>[[PL_Chuyen_len_cap_tren\|OBK-QCTC-02-PL-C]] mục 1 |
 | 38 | **SLA nội bộ giữa bộ phận nghiệp vụ và Legal R&D**, và quy tắc chống SLA không có chủ mốc | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 7.4a | [[07_OBK-SOP-RD_Nghien_cuu_phap_ly\|OBK-SOP-RD]] mục 2 và mục 7.1;<br>[[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] KT-23 và KT-24;<br>[[04_OBK-SOP-LIC_Giay_phep\|OBK-SOP-LIC]] LIC-01;<br>[[05_OBK-SOP-LD_Lao_dong_va_tien_luong\|OBK-SOP-LD]] LD-01;<br>[[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] LS-07 và LS-08 |
-| 39 | **Bốn mức ưu tiên của văn bản pháp luật mới**, và ba mốc 05, 10, 20 ngày làm việc | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 12.3a | [[07_OBK-SOP-RD_Nghien_cuu_phap_ly\|OBK-SOP-RD]] RD-04 và RD-05;<br>[[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] KT-25;<br>[[05_OBK-SOP-LD_Lao_dong_va_tien_luong\|OBK-SOP-LD]] LD-24;<br>[[21_Cap_nhat_van_ban_phap_luat\|OBK-SOP-21]] mục 6.2.3 ĐÃ CHUYỂN thành dẫn chiếu ngày 07/09/2026 |
+| 39 | **Phân mức ưu tiên của văn bản pháp luật mới**, và các mốc thời hạn xử lý | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 12.3a | [[07_OBK-SOP-RD_Nghien_cuu_phap_ly\|OBK-SOP-RD]] RD-04 và RD-05;<br>[[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] KT-25;<br>[[05_OBK-SOP-LD_Lao_dong_va_tien_luong\|OBK-SOP-LD]] LD-24;<br>[[21_Cap_nhat_van_ban_phap_luat\|OBK-SOP-21]] mục 6.2.3 ĐÃ CHUYỂN thành dẫn chiếu ngày 07/09/2026 |
 | 40 | **Quy tắc khi một chỉ số chung không áp dụng cho một đơn vị**, và danh sách chỉ số không áp | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 11.1a | [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] mục 6;<br>[[07_OBK-SOP-RD_Nghien_cuu_phap_ly\|OBK-SOP-RD]] mục 6 |
 | 41 | Bốn nhóm dịch vụ pháp lý CÓ THU, và ba mức độ phức tạp dùng để chọn cột SLA | [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] mục 1.2 và mục 2.1 | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] mục 8.1 dấu hiệu 6 |
 | 42 | Tám dấu hiệu rủi ro khi sàng lọc khách trước khi nhận | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] mục 8.1 | [[01_Tiep_nhan_va_sang_loc_lead\|OBK-HB-31]] mục 6.5;<br>[[03_De_xuat_bao_gia_va_ky_hop_dong\|OBK-HB-33]] mục 8 |
@@ -107,7 +103,7 @@ Quy tắc: mỗi dòng có ĐÚNG MỘT giá trị "đặt ở đâu". Nếu m�
 | 43a | Bảy dấu hiệu khách rời bỏ | [[07_Giu_khach_va_mo_rong\|OBK-HB-37]] mục 6.4 | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] AM-28. Đây là dấu hiệu nhận biết, không phải định mức, nên đúng cấp ở cấp 3 |
 | 44 | Câu chữ mẫu của bộ phận AM, 17 mục | [[PL_A_Cau_chu_mau\|OBK-HB-31-PL-A]] | Tám hướng dẫn cấp 3 của `HuongDan_AM/`, dẫn chiếu bằng SỐ MỤC |
 | 45 | **Nguyên tắc ba lớp kiểm soát chất lượng**, ngoại lệ do `CEO` chốt ngày 26/08/2026, phạm vi và hệ quả của ngoại lệ đó, và ba dấu hiệu buộc thêm lớp soát thứ hai | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] NT-5 | [[02_Mo_hinh_dich_vu_va_phan_vai\|OBK-SOP-02]] mục 6.9;<br>[[18_Kiem_soat_chat_luong\|OBK-SOP-18]] mục 6.1 và 6.2.1;<br>[[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] mục 4 |
-| 46 | **Chuẩn giao tiếp với khách hàng**: sáu nguyên tắc giao tiếp, chuẩn xưng hô và văn phong, bảng kênh và giá trị lưu vết, quy tắc xác nhận lại bằng văn bản | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 6.3 | [[19_Giao_tiep_khach_hang\|OBK-SOP-19]] mục 6.1 và 6.2;<br>[[PL_A_Cau_chu_mau\|OBK-HB-31-PL-A]];<br>[[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] mục 7 |
+| 46 | **Chuẩn giao tiếp với khách hàng**: các nguyên tắc giao tiếp, chuẩn xưng hô và văn phong, bảng kênh và giá trị lưu vết, quy tắc xác nhận lại bằng văn bản | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 6.3 | [[19_Giao_tiep_khach_hang\|OBK-SOP-19]] mục 6.1 và 6.2;<br>[[PL_A_Cau_chu_mau\|OBK-HB-31-PL-A]];<br>[[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] mục 7 |
 | 47 | Chương trình đối tác giới thiệu khách hàng: đăng ký khách được giới thiệu, tra trùng, theo dõi chuyển đổi, báo cáo hoa hồng | [[08_OBK-SOP-PM_Chuong_trinh_doi_tac_gioi_thieu_khach_hang\|OBK-SOP-PM]] | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] mục 3 AM-01, AM-05, AM-18, AM-19, AM-24, AM-29;<br>[[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo\|OBK-SOP-NB-00]] mục 5 NB-03, NB-07, NB-09, NB-23, NB-24, NB-29, NB-49, NB-50, NB-51;<br>[[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] điều về chi hoa hồng |
 | 48 | Hoàn tiền cho khách và hủy dịch vụ | [[OBK-SOP-NB-02_Thu_tien_va_cong_no_phai_thu\|OBK-SOP-NB-02]] | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] AM-19;<br>[[08_OBK-SOP-PM_Chuong_trinh_doi_tac_gioi_thieu_khach_hang\|OBK-SOP-PM]] PM-09 |
 
@@ -190,7 +186,7 @@ Hai khuôn cấp 3 tồn tại song song trong kho, và hai khuôn đó khác nh
 
 Khi hai khuôn cấp 3 khác nhau, khuôn MƯỜI MỤC của `OBK-TTT-07` mục 2 là khuôn chính thức của cả kho, và áp khuôn đó.
 
-Hai chỗ khác nhau, và cách xử:
+Các chỗ khác nhau và cách xử:
 
 | Chỗ khác | Khuôn 9 mục ở đây | Khuôn 10 mục ở `OBK-TTT-07` | Lấy theo |
 | --- | --- | --- | --- |
@@ -214,9 +210,9 @@ Mục 4.2 dưới đây GIỮ để đối chiếu, không dùng làm khuôn m�
    điền trường nào. Kèm ảnh chụp màn hình nếu thao tác phức tạp.
 5. Chỗ dễ sai và cách nhận biết
    Rút từ lỗi đầu ra thật đã xảy ra, không phải từ tưởng tượng.
-6. Bảng kiểm tự soát, dùng cho lớp 1 của B7
+6. Bảng kiểm tự soát, dùng cho lớp 1 của B3
    Dạng danh sách có ô đánh dấu. Mỗi dòng kiểm được bằng bằng chứng.
-7. Bảng kiểm soát chéo, dùng cho lớp 2 của B7
+7. Bảng kiểm soát chéo, dùng cho lớp 2 của B3
    Ngắn hơn bảng kiểm lớp 1, tập trung vào chỗ có hậu quả nặng nhất.
 8. Đầu ra và nơi lưu
    Tên tệp theo quy ước, thư mục, thời hạn lưu.
@@ -236,7 +232,7 @@ Mục 4.2 dưới đây GIỮ để đối chiếu, không dùng làm khuôn m�
 
 ---
 
-## 5. CHÍN LOẠI LỖI LỆCH, DÙNG LÀM BẢNG KIỂM SOÁT
+## 5. CÁC LOẠI LỖI LỆCH DÙNG LÀM BẢNG KIỂM SOÁT
 
 Bảng kiểm này áp cho mỗi lần thêm một tài liệu mới vào bộ.
 
@@ -258,4 +254,4 @@ Bảng kiểm này áp cho mỗi lần thêm một tài liệu mới vào bộ.
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.1.1 | Sửa lối tự sự ở phụ lục liên kết và chuyển mức rủi ro. |

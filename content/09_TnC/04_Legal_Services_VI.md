@@ -2,7 +2,7 @@
 title: "ĐIỀU KHOẢN DỊCH VỤ PHÁP LÝ (PL-PL)"
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.1.0"
+version: "R.2.1.0"
 status: "đang áp dụng"
 language: "vi"
 distribution: "Khách hàng"
@@ -16,7 +16,7 @@ tags:
 *Điều Khoản Dịch Vụ Cụ Thể, là bộ phận không tách rời của Bản Điều Khoản Chung; Công ty Cổ phần oBacker*
 MST: 0402298185 · Tầng 2, 06 Trần Phú, Phường Hải Châu, Thành phố Đà Nẵng · contact@obacker.com
 
-**Phiên bản:** R.1.1.0 (VI-EN) · **Cập nhật:** 01/10/2026
+**Phiên bản:** R.2.1.0 (VI-EN) · **Cập nhật:** 02/10/2026
 
 > Đây là Điều Khoản Dịch Vụ Cụ Thể áp dụng cho Dịch Vụ Pháp Lý ("**Dịch Vụ**"), gồm bốn nhóm: (A) Tư vấn pháp lý và tư vấn thuế; (B) Rà soát và soạn thảo hợp đồng/văn bản; (C) Nghiên cứu theo yêu cầu; (D) Đăng ký quyền sở hữu trí tuệ (nhãn hiệu, bản quyền tác giả). Tài liệu áp dụng khi Dịch Vụ được ghi nhận tại Đơn Đặt Hàng; theo vụ việc, theo giờ, hoặc theo số lượt rà soát trong gói. **Nếu có khác biệt giữa Bản Điều Khoản Chung và tài liệu này, tài liệu này được ưu tiên áp dụng cho Dịch Vụ.**
 
@@ -74,7 +74,7 @@ Một (01) lượt soát xét hợp đồng bao gồm:
 - 01 vòng rà soát và 01 vòng góp ý
 - Thời gian xử lý: 03 ngày làm việc/lượt.
 
-**Hợp đồng vượt quá 10 trang:** hệ thống tính là **02 lượt soát xét**, hoặc chuyển sang tư vấn dưới dạng **dịch vụ bổ sung ngoài gói (tính phí riêng)** tùy độ phức tạp (oBacker báo giá và chỉ thực hiện sau khi Quý Khách chấp thuận). Hợp đồng phức tạp (mua bán, sáp nhập doanh nghiệp; hợp tác kinh doanh; vay hợp vốn; hợp đồng mua bán cổ phần và thỏa thuận cổ đông…) thường thuộc nhóm này.
+**Hợp đồng từ 11 đến 20 trang:** hệ thống tính là **02 lượt soát xét**. **Hợp đồng trên 20 trang:** từ trang thứ 21 áp dụng phụ thu 100.000đ/trang, hoặc chuyển sang tư vấn dưới dạng **dịch vụ bổ sung ngoài gói (tính phí riêng)** tùy độ phức tạp (oBacker báo giá và chỉ thực hiện sau khi Quý Khách chấp thuận). Hợp đồng phức tạp (mua bán, sáp nhập doanh nghiệp; hợp tác kinh doanh; vay hợp vốn; hợp đồng mua bán cổ phần và thỏa thuận cổ đông…) thường thuộc nhóm này.
 
 **Cần cung cấp khi yêu cầu soát xét:** bản hợp đồng (định dạng Word hoặc PDF sao chép được nội dung), bối cảnh giao dịch, vị thế của Quý Khách (bên mua/bán/trung gian), và các điều khoản đặc biệt quan tâm.
 
@@ -95,11 +95,11 @@ Một (01) lượt soát xét hợp đồng bao gồm:
 
 | Công việc | Thời hạn |
 |---|---|
-| Soát xét 01 hợp đồng (độ dài tối đa 10 trang) | 03; 04 ngày làm việc/lượt, gồm 01 vòng rà soát |
-| Phản hồi yêu cầu tư vấn mới | Trong 24; 48 giờ làm việc kể từ khi tiếp nhận đầy đủ thông tin |
-| Đăng ký bản quyền tác giả | Hoàn thiện hồ sơ trong 03; 05 ngày làm việc; thời gian Cục Bản quyền tác giả cấp Giấy chứng nhận theo quy định pháp luật là 15 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ |
-| Đăng ký nhãn hiệu (giai đoạn nộp đơn) | Tra cứu sơ bộ và hoàn thiện hồ sơ trong 03; 05 ngày làm việc; nộp đơn và lấy giấy biên nhận ngày ưu tiên trong 02 ngày làm việc kể từ khi nhận đủ hồ sơ ký đóng dấu |
-| Đăng ký nhãn hiệu (giai đoạn thẩm định) | Thẩm định hình thức 01 tháng; công bố đơn 02 tháng; thẩm định nội dung thực tế tại Cục Sở hữu trí tuệ kéo dài từ 12 đến 16 tháng (thời gian theo luật định là 09 tháng, nhưng do thực tế tồn đọng hồ sơ tại Cục SHTT theo căn cứ GT-07 nên thời gian thực tế thường từ 12-16 tháng). oBacker không chịu trách nhiệm về thời gian thẩm định nội bộ kéo dài của cơ quan nhà nước |
+| Soát xét 01 hợp đồng (độ dài tối đa 10 trang) | 03 ngày làm việc/lượt, gồm 01 vòng rà soát |
+| Phản hồi yêu cầu tư vấn mới | Xác nhận đã nhận trong 04 giờ làm việc; nội dung trả lời trong 24 đến 48 giờ làm việc kể từ khi tiếp nhận đầy đủ thông tin |
+| Đăng ký bản quyền tác giả | Hoàn thiện hồ sơ trong 05 ngày làm việc; thời gian Cục Bản quyền tác giả cấp Giấy chứng nhận theo quy định pháp luật là 15 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ |
+| Đăng ký nhãn hiệu (giai đoạn nộp đơn) | Tra cứu sơ bộ và hoàn thiện hồ sơ trong 05 ngày làm việc; nộp đơn và lấy giấy biên nhận ngày ưu tiên trong 02 ngày làm việc kể từ khi nhận đủ hồ sơ ký đóng dấu |
+| Đăng ký nhãn hiệu (giai đoạn thẩm định) | Thẩm định hình thức 01 tháng; công bố đơn 02 tháng; thẩm định nội dung thực tế tại Cục Sở hữu trí tuệ kéo dài từ 12 đến 16 tháng (thời gian theo luật định là 09 tháng, nhưng do thực tế tồn đọng hồ sơ tại Cục SHTT nên thời gian thực tế thường từ 12-16 tháng). oBacker không chịu trách nhiệm về thời gian thẩm định nội bộ kéo dài của cơ quan nhà nước |
 | Tư vấn theo giờ trong gói | Theo lịch hẹn trong kỳ (thư điện tử, gặp mặt hoặc gọi video trực tuyến) |
 | Nghiên cứu theo yêu cầu | Theo phạm vi thỏa thuận tại Đơn Đặt Hàng |
 
@@ -134,4 +134,4 @@ Phí Dịch Vụ được xác định theo Đơn Đặt Hàng; theo giờ, theo
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.1.0 | Tích hợp hạn mức rà soát hợp đồng và ĐKKD vào các gói đối tác Partner Growth/Prime, áp dụng Master SKU Catalog cho dịch vụ ngoài gói |
+| 02/10/2026 | R.2.1.0 | Đăng ký bản quyền tác giả và đăng ký nhãn hiệu (nộp đơn): hoàn thiện hồ sơ trong 05 ngày làm việc<br>Giai đoạn thẩm định nội dung nhãn hiệu: bỏ tham chiếu mã GT-07, giữ dữ kiện tồn đọng hồ sơ tại Cục SHTT |

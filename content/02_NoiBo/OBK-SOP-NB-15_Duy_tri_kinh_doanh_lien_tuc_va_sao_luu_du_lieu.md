@@ -7,22 +7,17 @@ level: "Cấp 3, hướng dẫn nghiệp vụ"
 version: "R.1.0.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 27/09/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-SOP-NB-00 Chuẩn vận hành nội bộ"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-SOP-NB-15
 tags:
   - loai/sop
   - cap/3
-  - nghiep-vu/nghia-vu-ke-toan
 ---
 # OBK-SOP-NB-15. Duy trì kinh doanh liên tục và sao lưu dữ liệu
 
@@ -79,28 +74,12 @@ Quy định thống nhất kế hoạch duy trì kinh doanh liên tục (Busines
   * Kịch bản 4: Sự cố ngừng trệ dịch vụ đám mây công cộng (Google Workspace, GCP) hoặc phần mềm kế toán.
 
 **Ngoài phạm vi:**
-- Sự cố vi phạm an toàn dữ liệu cá nhân thuộc phạm vi xử lý theo quy định tại Điều 23 Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15 (thực hiện theo [[OBK-SOP-NB-09_Xu_ly_su_co_du_lieu_ca_nhan_noi_bo|OBK-SOP-NB-09]]);
+- Sự cố vi phạm an toàn dữ liệu cá nhân thuộc phạm vi xử lý theo OBK-SOP-NB-09;
 - Xử lý khiếu nại thương mại từ khách hàng không xuất phát từ lỗi hạ tầng kỹ thuật (thực hiện theo [[KN-01_So_tiep_nhan_va_xu_ly_khieu_nai_khach_hang|KN-01]]);
 
 ---
 
-## 3. Căn cứ pháp lý
-
-- Luật An toàn thông tin mạng số 86/2015/QH13 ngày 19/11/2015: Điều 26 (Biện pháp bảo vệ hệ thống thông tin), Điều 27 (Sao lưu dự phòng hệ thống thông tin);
-- Luật Kế toán số 88/2015/QH13 ngày 20/11/2015: Điều 41 (Bảo quản, lưu trữ tài liệu kế toán trên phương tiện điện tử);
-- Luật Giao dịch điện tử số 20/2023/QH15 ngày 22/06/2023: Điều 9 (Thông điệp dữ liệu có giá trị như văn bản), Điều 13 (Lưu trữ thông điệp dữ liệu);
-- Luật Doanh nghiệp số 59/2020/QH14 ngày 17/06/2020;
-- Nghị định số 174/2016/NĐ-CP ngày 30/12/2016 của Chính phủ quy định chi tiết một số điều của Luật Kế toán: Điều 11 (Nơi lưu trữ tài liệu kế toán), Điều 15 (Sao lưu và phục hồi tài liệu kế toán);
-- Thông tư số 99/2025/TT-BTC của Bộ Tài chính: quy định chế độ kế toán doanh nghiệp và bảo quản chứng từ, sổ kế toán điện tử;
-- [[CC-KT-80 Nơi lưu trữ tài liệu kế toán|CC-KT-80]] Nơi lưu trữ tài liệu kế toán theo quy định tại Điều 11 Nghị định 174/2016/NĐ-CP;
-- [[CC-KT-04 Lưu trữ tài liệu kế toán, đưa vào lưu trữ trong 12 tháng; ba mốc ít nhất 05 năm, ít nhất 10 năm, và vĩnh viễn|CC-KT-04]] Quy định thời hạn lưu trữ tài liệu kế toán;
-- [[CC-DN-80 Thông điệp dữ liệu có giá trị như văn bản|CC-DN-80]] Giá trị pháp lý của chứng từ và dữ liệu điện tử;
-- [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] Quy chế tài chính nội bộ: Điều 6 (quản lý tài sản và dữ liệu số), Điều 44;
-- [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo|OBK-SOP-NB-00]] Chuẩn vận hành nội bộ oBacker.
-
----
-
-## 4. Vai trò và trách nhiệm
+## 3. Vai trò và trách nhiệm
 
 | Vai trò | Trách nhiệm trong quy trình | Giới hạn quyền hạn |
 | --- | --- | --- |
@@ -114,20 +93,20 @@ Quy định thống nhất kế hoạch duy trì kinh doanh liên tục (Busines
 
 ---
 
-## 5. Đầu vào bắt buộc
+## 4. Đầu vào bắt buộc
 
 | Hạng mục đầu vào | Nguồn cung cấp | Yêu cầu kỹ thuật và tiêu chuẩn bắt buộc |
 | --- | --- | --- |
 | Tài khoản quản trị đám mây Google Workspace và GCP | Quản trị hệ thống thiết lập | Bật xác thực hai yếu tố (2FA) bắt buộc bằng khóa bảo mật hoặc ứng dụng tạo mã xác thực; phân quyền theo nguyên tắc đặc quyền tối thiểu |
 | Phần mềm kế toán doanh nghiệp | Nhà cung cấp phần mềm (%%MIENTRU:N6%%MISA%%/MIENTRU:N6%%) | Bản quyền hoạt động hợp lệ; cấu hình tính năng sao lưu dữ liệu tự động hằng ngày lúc 23h00 vào thư mục chuyên dụng |
-| Thiết bị lưu trữ ngoại vi (Ổ cứng di động chuyên dụng) | Bộ phận mua sắm trang bị theo [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] | Tối thiểu 02 ổ cứng di động chuẩn SSD hoặc HDD chuyên dụng; kích hoạt mã hóa phân vùng phần cứng AES-256; có dán nhãn tài sản theo [[TS-01_So_theo_doi_tai_san_va_cong_cu\|TS-01]] |
+| Thiết bị lưu trữ ngoại vi (Ổ cứng di động chuyên dụng) | Bộ phận mua sắm trang bị theo OBK-SOP-NB-01 | Tối thiểu 02 ổ cứng di động chuẩn SSD hoặc HDD chuyên dụng; kích hoạt mã hóa phân vùng phần cứng AES-256; có dán nhãn tài sản theo TS-01 |
 | Hạ tầng kết nối mạng Internet văn phòng | Đơn vị cung cấp viễn thông (VNPT, Viettel hoặc FPT) | Ký kết hợp đồng với 02 nhà mạng độc lập tại mỗi văn phòng để thiết lập cơ chế chuyển mạch tự động (Dual WAN) hoặc bộ phát sóng dự phòng 4G/5G |
 | Tủ két chống cháy lưu trữ vật lý | Ban Quản trị cơ sở vật chất | Tủ sắt chống cháy đạt tiêu chuẩn chịu nhiệt tối thiểu 02 giờ, đặt tại khu vực cao ráo, bảo đảm không bị ngập nước |
 | Danh bạ liên lạc khẩn cấp BCP | Bộ phận nhân sự và Quản trị hệ thống cập nhật | Danh bạ lưu trữ tại biểu mẫu [[BC-01_Bang_kiem_tra_sao_luu_du_lieu_va_ung_pho_su_co_bcp\|BC-01]], ghi nhận đầy đủ số điện thoại cá nhân và địa chỉ cư trú của 100% nhân sự |
 
 ---
 
-## 6. Các bước thực hiện
+## 5. Các bước thực hiện
 
 Quy trình duy trì kinh doanh liên tục và sao lưu dữ liệu gồm bốn khối nghiệp vụ chuẩn hóa:
 
@@ -144,7 +123,7 @@ Quy trình duy trì kinh doanh liên tục và sao lưu dữ liệu gồm bốn 
 [Khối 4: Diễn tập phục hồi thảm họa định kỳ 06 tháng một lần]
 ```
 
-### 6.1. Quy chế sao lưu dữ liệu theo nguyên tắc 3-2-1
+### 5.1. Quy chế sao lưu dữ liệu theo nguyên tắc 3-2-1
 
 Toàn bộ tài sản số và dữ liệu hoạt động của oBacker phải tuân thủ nghiêm ngặt nguyên tắc 3-2-1:
 
@@ -159,7 +138,7 @@ Toàn bộ tài sản số và dữ liệu hoạt động của oBacker phải t
    - Đối với dữ liệu đám mây: Bản sao lưu được thiết lập chính sách lưu trữ đa vùng địa lý (Multi-region Bucket) để phòng ngừa rủi ro hỏng toàn bộ một trung tâm dữ liệu cục bộ;
    - Đối với thiết bị lưu trữ ngoại vi: Thiết bị ổ cứng sao lưu số 2 được cất giữ độc lập tại két sắt chống cháy an toàn tại vị trí lưu trữ ngoại vi tách biệt khỏi trụ sở chính.
 
-### 6.2. Chu kỳ và lịch trình sao lưu dữ liệu tự động
+### 5.2. Chu kỳ và lịch trình sao lưu dữ liệu tự động
 
 Hệ thống sao lưu tự động hoạt động theo lịch trình phân bổ theo ba nhóm dữ liệu:
 
@@ -171,7 +150,7 @@ Hệ thống sao lưu tự động hoạt động theo lịch trình phân bổ 
 
 Vào sáng Thứ Hai hằng tuần, Quản trị hệ thống thực hiện kiểm tra tính toàn vẹn của tệp sao lưu tuần trước bằng cách giải nén thử nghiệm ngẫu nhiên 01 tệp và ghi nhận kết quả vào Sổ kiểm tra theo mẫu [[BC-01_Bang_kiem_tra_sao_luu_du_lieu_va_ung_pho_su_co_bcp|BC-01]].
 
-### 6.3. Bốn kịch bản ứng phó sự cố duy trì kinh doanh liên tục (BCP)
+### 5.3. Bốn kịch bản ứng phó sự cố duy trì kinh doanh liên tục (BCP)
 
 Khi xảy ra sự cố gián đoạn vận hành, Ban BCP kích hoạt một trong bốn kịch bản sau:
 
@@ -202,12 +181,12 @@ Khi xảy ra sự cố gián đoạn vận hành, Ban BCP kích hoạt một tro
 #### Kịch bản 4: Sự cố gián đoạn dịch vụ đám mây công cộng hoặc phần mềm kế toán
 - **Thời điểm kích hoạt:** Nền tảng Google Workspace, GCP hoặc hệ thống phần mềm kế toán (%%MIENTRU:N6%%MISA%%/MIENTRU:N6%%) bị lỗi kỹ thuật không thể truy cập.
 - **Hành động ứng phó:**
-  1. Ban BCP chỉ đạo chuyển đổi kênh liên lạc khẩn cấp sang danh bạ điện thoại và phần mềm tin nhắn bảo mật đã khai báo trong Phiếu [[BC-01_Bang_kiem_tra_sao_luu_du_lieu_va_ung_pho_su_co_bcp|BC-01]];
+   1. Ban BCP chỉ đạo chuyển đổi kênh liên lạc khẩn cấp sang danh bạ điện thoại và phần mềm tin nhắn bảo mật đã khai báo trong Phiếu BC-01;
   2. Quản trị hệ thống kiểm tra tình trạng dịch vụ từ trang trạng thái chính thức của nhà cung cấp; thông báo mốc thời gian ước tính khắc phục cho toàn công ty mỗi 60 phút một lần;
   3. Đối với công việc kế toán cấp bách: Trích xuất bản sao lưu cục bộ gần nhất để làm việc ngoại tuyến (Offline) trên máy trạm nội bộ;
   4. Khi dịch vụ hoạt động trở lại, `KTV` kế toán thực hiện đối soát và đồng bộ lại toàn bộ dữ liệu phát sinh trong thời gian gián đoạn.
 
-### 6.4. Quy trình thử nghiệm và diễn tập phục hồi thảm họa (Disaster Recovery Drill)
+### 5.4. Quy trình thử nghiệm và diễn tập phục hồi thảm họa (Disaster Recovery Drill)
 
 Diễn tập phục hồi thảm họa được tổ chức bắt buộc định kỳ **06 tháng một lần** (vào Tháng 3 và Tháng 9 hằng năm) theo trình tự 5 bước:
 
@@ -231,17 +210,17 @@ Diễn tập phục hồi thảm họa được tổ chức bắt buộc định
 
 ---
 
-## 7. Điểm kiểm soát bắt buộc
+## 6. Điểm kiểm soát bắt buộc
 
-1. **Điểm kiểm soát KS-BCP-01 (Kỷ luật nguyên tắc 3-2-1):** 100% dữ liệu kế toán và hồ sơ pháp lý số hóa của khách hàng phải có đầy đủ 03 bản sao chép, lưu trữ trên tối thiểu 02 phương tiện kỹ thuật khác nhau và có ít nhất 01 bản lưu trữ ngoại vi độc lập. Bất kỳ cá nhân nào tự ý tắt chức năng sao lưu tự động đều bị xử lý kỷ luật theo [[Noi_quy_lao_dong|OBK-NQLD]].
-2. **Điểm kiểm soát KS-BCP-02 (Kiểm tra toàn vẹn định kỳ hằng tuần):** Quản trị hệ thống phải kiểm tra thực tế tính toàn vẹn của bản sao lưu vào sáng Thứ Hai hằng tuần và ghi nhận vào biểu mẫu [[BC-01_Bang_kiem_tra_sao_luu_du_lieu_va_ung_pho_su_co_bcp|BC-01]]. Nghiêm cấm việc chỉ nhìn trạng thái lịch trình trên phần mềm mà không thử giải nén tệp.
+1. **Điểm kiểm soát KS-BCP-01 (Kỷ luật nguyên tắc 3-2-1):** 100% dữ liệu kế toán và hồ sơ pháp lý số hóa của khách hàng phải có đầy đủ 03 bản sao chép, lưu trữ trên tối thiểu 02 phương tiện kỹ thuật khác nhau và có ít nhất 01 bản lưu trữ ngoại vi độc lập. Bất kỳ cá nhân nào tự ý tắt chức năng sao lưu tự động đều bị xử lý kỷ luật theo Nội quy lao động (OBK-NQLD).
+2. **Điểm kiểm soát KS-BCP-02 (Kiểm tra toàn vẹn định kỳ hằng tuần):** Quản trị hệ thống phải kiểm tra thực tế tính toàn vẹn của bản sao lưu vào sáng Thứ Hai hằng tuần và ghi nhận vào biểu mẫu BC-01. Nghiêm cấm việc chỉ nhìn trạng thái lịch trình trên phần mềm mà không thử giải nén tệp.
 3. **Điểm kiểm soát KS-BCP-03 (Chỉ tiêu kỹ thuật RTO và RPO):** Trong mọi cuộc diễn tập hoặc sự cố thực tế, Thời gian phục hồi mục tiêu RTO không được vượt quá 04 giờ và Điểm phục hồi mục tiêu RPO không được mất mát quá 24 giờ dữ liệu giao dịch. Trường hợp vượt quá chỉ tiêu, Quản trị hệ thống và các bộ phận liên quan phải giải trình bằng văn bản trước `CEO`.
 4. **Điểm kiểm soát KS-BCP-04 (Mã hóa thiết bị lưu trữ ngoại vi):** Toàn bộ thiết bị ổ cứng ngoại vi chứa dữ liệu sao lưu phải được bật mã hóa phân vùng phần cứng AES-256. Mật mã giải mã chỉ do `CEO` và Quản trị hệ thống nắm giữ trong phong bì niêm phong đặt tại két sắt an toàn.
 5. **Điểm kiểm soát KS-BCP-05 (Cách ly môi trường diễn tập):** Khi thực hiện diễn tập thử nghiệm phục hồi dữ liệu, bắt buộc phải thực hiện trên môi trường máy chủ thử nghiệm tách biệt; nghiêm cấm chạy thử nghiệm trên cơ sở dữ liệu sản xuất chính.
 
 ---
 
-## 8. Lỗi thường gặp và cách xử lý
+## 7. Lỗi thường gặp và cách xử lý
 
 | Mã lỗi | Mô tả sai sót thường gặp | Nguyên nhân gốc rễ | Biện pháp xử lý và phòng ngừa bắt buộc |
 | --- | --- | --- | --- |
@@ -253,7 +232,7 @@ Diễn tập phục hồi thảm họa được tổ chức bắt buộc định
 
 ---
 
-## 9. Đầu ra và nơi lưu
+## 8. Đầu ra và nơi lưu
 
 | Tài liệu / Dữ liệu đầu ra | Người chịu trách nhiệm lập | Định dạng và phương thức lưu trữ | Nơi lưu trữ bảo mật | Thời hạn lưu trữ tối thiểu |
 | --- | --- | --- | --- | --- |
@@ -265,7 +244,7 @@ Diễn tập phục hồi thảm họa được tổ chức bắt buộc định
 
 ---
 
-## 10. Chỉ số theo dõi
+## 9. Chỉ số theo dõi
 
 | Mã chỉ số | Tên chỉ số theo dõi | Phương pháp đo lường | Mục tiêu tiêu chuẩn | Tần suất đo lường |
 | --- | --- | --- | --- | --- |

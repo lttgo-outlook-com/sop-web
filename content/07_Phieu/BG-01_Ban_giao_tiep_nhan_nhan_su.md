@@ -4,19 +4,15 @@ code: "BG-01"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-TTT-05 Cách làm phiếu thao tác"
-law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - BG-01
 tags:
@@ -29,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | BG-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -38,8 +34,9 @@ tags:
 | **Mã phiếu** | BG-01 |
 | **Màu** | VÀNG, phiếu theo sự kiện |
 | **Ai dùng** | `HR`, `AD-KT`, Quản lý trực tiếp (`TL`), và Nhân sự mới onboard |
-| **Sinh từ** | [[OBK-SOP-NB-05_Tuyen_dung_va_onboarding_noi_bo\|OBK-SOP-NB-05]] mục 6.2 |
+| **Sinh từ** | [[OBK-SOP-NB-05_Tuyen_dung_va_onboarding_noi_bo\|OBK-SOP-NB-05]] mục 5.2 |
 | **Ngày làm phiếu** | 27/09/2026 |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
@@ -99,12 +96,6 @@ Lưu trữ 01 bản cứng tại hồ sơ nhân sự do `HR` quản lý, 01 bả
 
 Bảo đảm tính chặt chẽ về mặt pháp lý ngay từ ngày đầu tiên làm việc, bảo vệ bí mật kinh doanh của công ty thông qua NDA, và xác lập rõ ràng trách nhiệm quản lý tài sản được giao.
 
-### 2. Căn cứ quy định và pháp luật liên quan
-
-| Mục | Nguồn | Nội dung |
-| --- | --- | --- |
-| Ký kết văn bản pháp lý | [[OBK-SOP-NB-05_Tuyen_dung_va_onboarding_noi_bo\|OBK-SOP-NB-05]] mục 6.2 | Ký HĐLĐ, NDA và Cam kết NQLD trước khi cấp quyền |
-| Bàn giao tài sản | [[OBK-SOP-NB-08_Quan_ly_tai_san_va_cong_cu_dung_cu\|OBK-SOP-NB-08]] Điều 6 | Cấp phát tài sản kèm biên bản bàn giao |
 
 ---
 
@@ -112,4 +103,4 @@ Bảo đảm tính chặt chẽ về mặt pháp lý ngay từ ngày đầu tiê
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu BG-01 về Sổ cái OBK-MSR |

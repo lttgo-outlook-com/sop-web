@@ -2,11 +2,13 @@
 title: "VÍ OBACKER; GIẢI THÍCH, CÁCH HOẠT ĐỘNG & ĐIỀU KHOẢN"
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.0.0"
+version: "R.1.0.1"
 status: "đang áp dụng"
 language: "vi"
 distribution: "Khách hàng"
 previous_version: ""
+aliases:
+  - Điều Khoản Nạp Ví
 tags:
   - loai/tnc
 ---
@@ -16,7 +18,7 @@ tags:
 *Điều khoản chuyên biệt, bổ sung cho Điều Khoản & Điều Kiện Dịch Vụ (Bản Điều Khoản Chung); Công ty Cổ phần oBacker*
 MST: 0402298185 · contact@obacker.com · https://obacker.com
 
-**Phiên bản:** R.1.0.0 (VI-EN) · **Cập nhật:** 01/10/2026
+**Phiên bản:** R.1.0.1 (VI-EN) · **Cập nhật:** 02/10/2026
 
 ---
 
@@ -89,4 +91,4 @@ oBacker thông báo để Quý Khách nạp thêm; dịch vụ có thể tạm n
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 02/10/2026 | R.1.0.1 | Thêm bí danh 'Điều Khoản Nạp Ví' vào frontmatter để trỏ được từ Bản Điều Khoản Chung |

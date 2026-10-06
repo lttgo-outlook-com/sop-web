@@ -4,19 +4,15 @@ code: "BC-01"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-TTT-05 Cách làm phiếu thao tác"
-law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - BC-01
 tags:
@@ -29,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | BC-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -40,6 +36,7 @@ tags:
 | **Ai dùng** | Quản trị hệ thống (`IT Admin` / `CV-CN`), `KTT`, `COO`, `CEO`, `TL` |
 | **Sinh từ** | [[OBK-SOP-NB-15_Duy_tri_kinh_doanh_lien_tuc_va_sao_luu_du_lieu\|OBK-SOP-NB-15]] |
 | **Ngày làm phiếu** | 27/09/2026 |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
@@ -139,7 +136,7 @@ Quản trị hệ thống kiểm tra và điền vào bảng kiểm tra vào sá
 
 1. **Điểm kiểm soát KS-BC-01 (Kỷ luật kiểm tra sáng Thứ Hai):** Quản trị hệ thống bắt buộc phải hoàn thành việc kiểm tra các tệp sao lưu dữ liệu và ký xác nhận vào Phần 1 của Phiếu BC-01 trước 11h30 sáng Thứ Hai hằng tuần. Mọi trường hợp bỏ quên kiểm tra quá 02 tuần liên tiếp sẽ bị lập biên bản vi phạm kỷ luật.
 2. **Điểm kiểm soát KS-BC-02 (Tính xác thực của đợt diễn tập):** Biên bản diễn tập tại Phần 2 chỉ có giá trị pháp lý nội bộ khi có đầy đủ kết quả đo đạc thực tế của hai chỉ số RTO và RPO, cùng chữ ký xác nhận tính toàn vẹn số liệu của Kế toán trưởng và chữ ký phê duyệt của Tổng Giám đốc (`CEO`).
-3. **Điểm kiểm soát KS-BC-03 (Bảo mật thông tin danh bạ):** Danh bạ liên lạc tại Phần 3 chứa dữ liệu cá nhân của nhân sự và thông tin hợp đồng nhà cung cấp, do đó phải được bảo quản ở chế độ nội bộ theo quy định tại [[OBK-SOP-NB-09_Xu_ly_su_co_du_lieu_ca_nhan_noi_bo|OBK-SOP-NB-09]]; nghiêm cấm chia sẻ danh bạ ra bên ngoài doanh nghiệp.
+3. **Điểm kiểm soát KS-BC-03 (Bảo mật thông tin danh bạ):** Danh bạ liên lạc tại Phần 3 chứa dữ liệu cá nhân của nhân sự và thông tin hợp đồng nhà cung cấp, do đó phải được bảo quản ở chế độ nội bộ theo OBK-SOP-NB-09; nghiêm cấm chia sẻ danh bạ ra bên ngoài doanh nghiệp.
 
 ---
 
@@ -165,16 +162,6 @@ Quản trị hệ thống kiểm tra và điền vào bảng kiểm tra vào sá
 
 Trong hoạt động cung ứng dịch vụ kế toán, thuế và pháp lý doanh nghiệp, dữ liệu là tài sản cốt lõi quyết định sự tồn tại của oBacker và bảo đảm quyền lợi hợp pháp của khách hàng. Khi xảy ra sự cố thiên tai, mất điện hoặc gián đoạn kỹ thuật số, nếu doanh nghiệp không có cơ chế kiểm tra bản sao lưu định kỳ thì các bản sao lưu tự động có thể bị lỗi mà không ai phát hiện, dẫn đến nguy cơ mất trắng dữ liệu khi thảm họa xảy ra. Phiếu BC-01 ra đời nhằm chuẩn hóa việc kiểm tra tính khả dụng của bản sao lưu mỗi tuần, thiết lập kỷ luật diễn tập phục hồi số liệu định kỳ và cung cấp danh bạ ứng cứu khẩn cấp nhằm bảo đảm hoạt động kinh doanh luôn được duy trì liên tục trong mọi tình huống.
 
-### 2. Căn cứ quy định và pháp luật liên quan
-
-| Mục | Căn cứ pháp luật hoặc nội bộ | Nội dung quy định áp dụng |
-| --- | --- | --- |
-| Quy trình duy trì kinh doanh liên tục | [[OBK-SOP-NB-15_Duy_tri_kinh_doanh_lien_tuc_va_sao_luu_du_lieu\|OBK-SOP-NB-15]] | Quy chế sao lưu dữ liệu theo nguyên tắc 3-2-1 và bốn kịch bản ứng phó sự cố BCP |
-| Luật An toàn thông tin mạng | Luật An toàn thông tin mạng số 86/2015/QH13 Điều 27 | Trách nhiệm thiết lập và thực hiện phương án sao lưu dự phòng hệ thống thông tin |
-| Luật Kế toán | Luật Kế toán số 88/2015/QH13 Điều 41 | Yêu cầu bảo quản, lưu trữ an toàn tài liệu kế toán trên phương tiện điện tử |
-| Nghị định hướng dẫn Luật Kế toán | Nghị định số 174/2016/NĐ-CP Điều 11 và Điều 15 | Quy định về nơi lưu trữ, sao lưu và phục hồi tài liệu kế toán điện tử |
-| Quản lý tài sản công ty | [[OBK-SOP-NB-08_Quan_ly_tai_san_va_cong_cu_dung_cu\|OBK-SOP-NB-08]] | Quản lý thiết bị lưu trữ ngoại vi chứa dữ liệu sao lưu của oBacker |
-| Bảo vệ dữ liệu cá nhân | [[OBK-SOP-NB-09_Xu_ly_su_co_du_lieu_ca_nhan_noi_bo\|OBK-SOP-NB-09]] | Bảo vệ an toàn dữ liệu cá nhân trong danh bạ liên lạc và quá trình sao lưu |
 
 ---
 
@@ -182,4 +169,4 @@ Trong hoạt động cung ứng dịch vụ kế toán, thuế và pháp lý doa
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu BC-01 về Sổ cái OBK-MSR |

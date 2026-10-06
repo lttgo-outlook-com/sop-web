@@ -4,19 +4,16 @@ code: "OBK-SOP-04"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.0"
+version: "R.1.0.1"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 25/08/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
 parent: "OBK-SOP-KT Kế toán và thuế"
 next_review: "Chậm nhất 25/02/2027"
 chapter: "Thu thập, kiểm tra và lưu trữ chứng từ"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-SOP-04
 tags:
@@ -33,7 +30,7 @@ tags:
 | Mã tài liệu | OBK-SOP-04 |
 | Tên chương | Thu thập, kiểm tra và lưu trữ chứng từ |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.0.1, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -46,14 +43,9 @@ tags:
 
 ## CẢNH BÁO MỞ ĐẦU CHƯƠNG
 
-> [!success] ĐÃ XÁC MINH
-> HAI KHOẢNG TRỐNG PHÁP LÝ LỚN CỦA BẢN 1.0 NAY ĐÃ ĐƯỢC BỔ SUNG, MỘT TOÀN PHẦN VÀ MỘT PHẦN LỚN
->
-> **Nội dung còn thiếu thứ nhất, NAY ĐÃ BỔ SUNG: nội dung bắt buộc của chứng từ kế toán.** Thông tư 99/2025/TT-BTC KHÔNG tự quy định lại nội dung chứng từ; Thông tư đó dẫn chiếu sang Luật Kế toán, nguyên văn `[TT99 Đ.8]`: "Chứng từ kế toán của doanh nghiệp phải được thực hiện theo đúng quy định của Luật Kế toán, các văn bản hướng dẫn Luật Kế toán và các văn bản sửa đổi, bổ sung hoặc thay thế." Bản hợp nhất Luật Kế toán số 41/VBHN-VPQH NAY ĐÃ CÓ trong kho tài liệu nội bộ. Vì vậy **danh mục nội dung bắt buộc của một chứng từ kế toán tại Điều 16 khoản 1 Luật Kế toán nay đã đối chiếu `[Luật Kế toán 41/VBHN-VPQH Đ.16 k.1]`**, chép nguyên văn tại mục 6.2.1. Hai điểm đặc biệt về Điều 16: điểm d khoản 1 Điều 16 ĐÃ BỊ BÃI BỎ, không được liệt kê yếu tố tại điểm d; và khoản 2 Điều 16 cho phép chứng từ có thêm nội dung khác theo từng loại chứng từ.
->
-> **Thời hạn lưu trữ tài liệu kế toán.** Ba mốc thời hạn lưu trữ tại Điều 41 khoản 5 Luật Kế toán, mốc 12 tháng phải đưa tài liệu vào lưu trữ tại khoản 3, và trách nhiệm tổ chức bảo quản, lưu trữ của người đại diện theo pháp luật của đơn vị kế toán tại khoản 4, đều đã đối chiếu `[Luật Kế toán 41/VBHN-VPQH Đ.41 k.3, k.4, k.5]`. Khoản 6 Điều 41 giao Chính phủ quy định cụ thể từng loại tài liệu kế toán phải lưu trữ, thời hạn lưu trữ, thời điểm tính thời hạn lưu trữ, nơi lưu trữ và thủ tục tiêu hủy; nghị định đó là Nghị định 174/2016/NĐ-CP, có trong kho, danh mục chi tiết tại mục 6.8.
->
-> Việc ưu tiên của TL-KT: bổ sung vào kho nội bộ nghị định của Chính phủ quy định chi tiết theo Điều 41 khoản 6 Luật Kế toán, rồi đối chiếu bản gốc cho danh mục chi tiết tại mục 6.8.
+> [!note] CĂN CỨ PHÁP LÝ VỀ CHỨNG TỪ KẾ TOÁN VÀ THỜI HẠN LƯU TRỮ
+> - **Quy định về nội dung bắt buộc của chứng từ kế toán:** Theo Điều 8 Thông tư 99/2025/TT-BTC, chứng từ kế toán của doanh nghiệp thực hiện theo đúng quy định của Luật Kế toán và các văn bản hướng dẫn thi hành. Nội dung bắt buộc của chứng từ kế toán quy định tại Điều 16 khoản 1 Luật Kế toán hợp nhất 41/VBHN-VPQH (chi tiết tại mục 5.2.1). Điểm d khoản 1 Điều 16 đã được bãi bỏ theo quy định pháp luật. Khoản 2 Điều 16 cho phép chứng từ có thêm nội dung khác tùy theo từng loại nghiệp vụ.
+> - **Thời hạn lưu trữ tài liệu kế toán:** Thời hạn lưu trữ tài liệu kế toán thực hiện theo Điều 41 Luật Kế toán hợp nhất 41/VBHN-VPQH (gồm các mốc ít nhất 05 năm, ít nhất 10 năm và lưu trữ vĩnh viễn; thời hạn đưa vào lưu trữ không quá 12 tháng kể từ ngày kết thúc kỳ kế toán năm hoặc kết thúc công việc kế toán) và danh mục chi tiết theo Nghị định 174/2016/NĐ-CP (chi tiết tại mục 5.8).
 
 ---
 
@@ -79,33 +71,16 @@ tags:
 
 2.2. Áp dụng cho mọi kênh nhận: bản giấy trao trực tiếp, chuyển phát, tệp gửi qua kênh chính thức, dữ liệu kết xuất từ hệ thống của khách, dữ liệu tra cứu từ `[PHẦN MỀM HĐĐT]` và `[CỔNG THUẾ ĐIỆN TỬ]`.
 
-2.3. Áp dụng cho CV-KT, TL-KT, AM và COO. Khách hàng chịu trách nhiệm cung cấp và chịu trách nhiệm về tính có thật, hợp pháp của chứng từ, theo Chương 01 mục 6.2.
+2.3. Áp dụng cho CV-KT, TL-KT, AM và COO. Khách hàng chịu trách nhiệm cung cấp và chịu trách nhiệm về tính có thật, hợp pháp của chứng từ, theo Chương 01 mục 5.2.
 
 2.4. Không thay thế các chương chuyên môn. Nội dung kỹ thuật về hóa đơn điện tử xem Chương 12; về hạch toán xem Chương 05; về khóa sổ xem Chương 06.
 
 ---
 
-## 3. Căn cứ pháp lý
-
-| # | Văn bản | Nội dung dùng trong chương | Mức xác minh |
-| --- | --- | --- | --- |
-| 1 | Thông tư 99/2025/TT-BTC Điều 8 | Chứng từ kế toán thực hiện theo Luật Kế toán và văn bản hướng dẫn |  |
-| 2 | Thông tư 99/2025/TT-BTC Điều 9 khoản 1, 2, 3 | Biểu mẫu tại Phụ lục I là để tham khảo áp dụng;<br>điều kiện khi doanh nghiệp tự thiết kế biểu mẫu;<br>nghĩa vụ ban hành Quy chế hạch toán kế toán;<br>chứng từ thuộc pháp luật khác thì theo pháp luật đó |  |
-| 3 | Thông tư 99/2025/TT-BTC Điều 10 khoản 1, 2, 3, 4 | Mọi nghiệp vụ phải lập chứng từ;<br>chứng từ chỉ lập một lần;<br>lập và ký theo Luật Kế toán;<br>phân cấp ký;<br>CẤM kế toán trưởng ký thừa ủy quyền chức danh người quản lý, điều hành |  |
-| 4 | Văn bản hợp nhất 15/VBHN-BTC ngày 05/05/2026 Điều 15 khoản 1 điểm c | Thời hạn 06 giờ làm việc cung cấp hồ sơ, tài liệu, hóa đơn, chứng từ, sổ kế toán khi cơ quan có thẩm quyền yêu cầu trong thời gian kiểm tra, thanh tra tại trụ sở người nộp thuế |  |
-| 5 | Văn bản hợp nhất 15/VBHN-BTC ngày 05/05/2026 Điều 14 | Xử phạt người nộp thuế về cung cấp thông tin, tài liệu, sổ kế toán liên quan đến xác định nghĩa vụ thuế |  |
-| 6 | Văn bản hợp nhất 15/VBHN-BTC ngày 05/05/2026 Điều 19 | Xử phạt tổ chức, cá nhân có liên quan về cung cấp thông tin;<br>áp dụng cho oBacker |  |
-| 7 | Luật Kế toán hợp nhất số 41/VBHN-VPQH Điều 16, 17, 18, 19, 20, 21 | Nội dung chứng từ kế toán;<br>chứng từ điện tử;<br>lập và lưu trữ chứng từ kế toán;<br>ký và xác nhận chứng từ;<br>hóa đơn là chứng từ kế toán;<br>quản lý, sử dụng chứng từ kế toán |  |
-| 8 | Luật Kế toán hợp nhất số 41/VBHN-VPQH Điều 41 khoản 3, 4, 5 | Mốc 12 tháng phải đưa tài liệu kế toán vào lưu trữ;<br>trách nhiệm tổ chức bảo quản, lưu trữ của người đại diện theo pháp luật của đơn vị kế toán;<br>ba mốc thời hạn lưu trữ ít nhất 05 năm, ít nhất 10 năm, lưu trữ vĩnh viễn |  |
-| 9 | Luật Kế toán hợp nhất số 41/VBHN-VPQH Điều 15, Điều 41 khoản 1, khoản 2, Điều 42 | Trách nhiệm quản lý, sử dụng, bảo quản, lưu trữ và cung cấp tài liệu kế toán;<br>xử lý khi tài liệu kế toán bị tạm giữ, bị tịch thu, bị mất hoặc bị hủy hoại |  |
-| 10 | Nghị định 254/2026/NĐ-CP Điều 5, Điều 9 | Bảo quản, lưu trữ hóa đơn, chứng từ điện tử và điều kiện chuyển đổi ra bản giấy;<br>thời điểm lập hóa đơn, gồm trường hợp số lượng lớn, phát sinh thường xuyên, cần thời gian đối soát số liệu |  |
-| 11 | Thông tư 91/2026/TT-BTC Điều 10 | Xử lý hóa đơn điện tử đã lập: hóa đơn có sai sót, hóa đơn điều chỉnh, hóa đơn thay thế, hồ sơ đi kèm |  |
-| 12 | Luật Thuế giá trị gia tăng số 48/2024/QH15 Điều 14 khoản 2 | Điều kiện khấu trừ thuế giá trị gia tăng đầu vào, gồm điều kiện có chứng từ thanh toán không dùng tiền mặt |  |
-| 13 | Nghị định 174/2016/NĐ-CP Điều 8, Điều 11, Điều 12 tới 14, Điều 15, Điều 16, Điều 17 | Loại tài liệu kế toán phải lưu trữ;<br>nơi lưu trữ;<br>ba mốc thời hạn lưu trữ theo loại tài liệu;<br>thời điểm tính thời hạn lưu trữ;<br>thủ tục tiêu hủy tài liệu kế toán lưu trữ |  |
 
 ---
 
-## 4. Vai trò và trách nhiệm
+## 3. Vai trò và trách nhiệm
 
 | Hoạt động | CV-KT | TL-KT | AM | COO |
 | --- | --- | --- | --- | --- |
@@ -123,42 +98,42 @@ tags:
 | Cung cấp tài liệu khi cơ quan thuế yêu cầu | Chuẩn bị | Soát, quyết định và ký;<br>hồ sơ trọng yếu cần kết luận bằng văn bản của TL-KT | Thông báo khách về yêu cầu và về nội dung đã cung cấp | Không |
 
 > [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
-> CV-KT không được tự quyết định hạch toán một nghiệp vụ khi bộ chứng từ chưa đủ, không được tự quyết định chấp nhận chứng từ có dấu hiệu bất thường, và không được tự cung cấp tài liệu của khách cho bên thứ ba. CV-KT cũng không tiếp xúc khách hàng: mọi việc nhắc chứng từ, thông báo chứng từ thiếu, thông báo chứng từ không hợp lệ, đòi bổ sung và chuyển lên cấp trên khi khách trễ đều do AM thực hiện. Xem Chương 01 mục 6.7.
+> CV-KT không được tự quyết định hạch toán một nghiệp vụ khi bộ chứng từ chưa đủ, không được tự quyết định chấp nhận chứng từ có dấu hiệu bất thường, và không được tự cung cấp tài liệu của khách cho bên thứ ba. CV-KT cũng không tiếp xúc khách hàng: mọi việc nhắc chứng từ, thông báo chứng từ thiếu, thông báo chứng từ không hợp lệ, đòi bổ sung và chuyển lên cấp trên khi khách trễ đều do AM thực hiện. Xem Chương 01 mục 5.7.
 
 ---
 
-## 5. Đầu vào bắt buộc
+## 4. Đầu vào bắt buộc
 
-5.1. Lịch cung cấp chứng từ đã thống nhất với khách trong buổi họp khởi động, theo Chương 03 mục 6.10.
+4.1. Lịch cung cấp chứng từ đã thống nhất với khách trong buổi họp khởi động, theo Chương 03 mục 5.10.
 
-5.2. Kênh nhận chứng từ chính thức đã đăng ký trong hồ sơ khách.
+4.2. Kênh nhận chứng từ chính thức đã đăng ký trong hồ sơ khách.
 
-5.3. Danh sách người phía khách có thẩm quyền gửi và xác nhận chứng từ.
+4.3. Danh sách người phía khách có thẩm quyền gửi và xác nhận chứng từ.
 
-5.4. Cây thư mục chuẩn của khách đã được tạo trên `[KHO LƯU TRỮ HỒ SƠ]`.
+4.4. Cây thư mục chuẩn của khách đã được tạo trên `[KHO LƯU TRỮ HỒ SƠ]`.
 
-5.5. Sổ theo dõi tồn đọng chứng từ của khách đã được khởi tạo trên `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]`.
+4.5. Sổ theo dõi tồn đọng chứng từ của khách đã được khởi tạo trên `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]`.
 
-5.6. Quyền truy cập `[PHẦN MỀM HĐĐT]` và `[CỔNG THUẾ ĐIỆN TỬ]` của khách còn hiệu lực, để đối chiếu dữ liệu hóa đơn.
+4.6. Quyền truy cập `[PHẦN MỀM HĐĐT]` và `[CỔNG THUẾ ĐIỆN TỬ]` của khách còn hiệu lực, để đối chiếu dữ liệu hóa đơn.
 
 ---
 
 # PHẦN NGHIỆP VỤ
 
-## 6. Các bước thực hiện
+## 5. Các bước thực hiện
 
-### 6.1. QUY TRÌNH THU THẬP CHỨNG TỪ ĐỊNH KỲ
+### 5.1. QUY TRÌNH THU THẬP CHỨNG TỪ ĐỊNH KỲ
 
-Toàn bộ mục 6.1 là quy định nội bộ oBacker.
+Toàn bộ mục 5.1 là quy định nội bộ oBacker.
 
-#### 6.1.1. Kênh nhận và quy tắc
+#### 5.1.1. Kênh nhận và quy tắc
 
 | # | Kênh | Dùng cho | Quy tắc bắt buộc |
 | --- | --- | --- | --- |
 | 1 | Thư mục dùng chung trên `[KHO LƯU TRỮ HỒ SƠ]` cấp riêng cho khách | Kênh chính, dùng cho mọi tệp | Khách tải trực tiếp vào thư mục theo tháng;<br>CV-KT không di chuyển tệp ra khỏi thư mục gốc mà chỉ sao chép sang thư mục xử lý |
 | 2 | Email chính thức của oBacker | Chứng từ lẻ, chứng từ gấp | CV-KT chuyển tệp vào kho trong 01 ngày làm việc;<br>email lưu vào hồ sơ trao đổi |
 | 3 | Kênh chat chính thức | Trao đổi, không phải kênh nộp chứng từ | Tệp nhận qua chat phải được chuyển vào kho ngay;<br>không để chat làm nơi lưu trữ |
-| 4 | Bản giấy trao trực tiếp hoặc chuyển phát | Chứng từ gốc, hồ sơ pháp lý | Bắt buộc lập biên bản giao nhận theo mục 6.9 |
+| 4 | Bản giấy trao trực tiếp hoặc chuyển phát | Chứng từ gốc, hồ sơ pháp lý | Bắt buộc lập biên bản giao nhận theo mục 5.9 |
 | 5 | Kết xuất từ `[PHẦN MỀM HĐĐT]` | Hóa đơn điện tử đầu ra và đầu vào | CV-KT tự tra cứu và kết xuất theo kỳ, không chờ khách gửi;<br>đối chiếu theo Chương 12 |
 | 6 | Kết xuất từ `[CỔNG THUẾ ĐIỆN TỬ]` | Giấy xác nhận nộp hồ sơ, thông báo, tình trạng nghĩa vụ | CV-KT tự tra cứu định kỳ |
 | 7 | Kết xuất từ hệ thống bán hàng, hệ thống kho của khách | Dữ liệu doanh thu, dữ liệu kho | Định dạng và chu kỳ thống nhất từ khi onboarding |
@@ -167,7 +142,7 @@ Toàn bộ mục 6.1 là quy định nội bộ oBacker.
 > [!bug] LỖI THƯỜNG GẶP
 > Nhận chứng từ qua tài khoản chat cá nhân của nhân viên. Khi nhân viên nghỉ, toàn bộ chứng từ đó biến mất khỏi tầm kiểm soát của oBacker. Quy định nội bộ: chứng từ nhận ngoài kênh chính thức phải được CV-KT chuyển vào kho trong 01 ngày làm việc, và AM phải nhắc khách chuyển về kênh đúng.
 
-#### 6.1.2. Tần suất và mốc chốt nhận chứng từ
+#### 5.1.2. Tần suất và mốc chốt nhận chứng từ
 
 | # | Loại chứng từ | Tần suất | Mốc chốt nhận, quy định nội bộ |
 | --- | --- | --- | --- |
@@ -186,9 +161,9 @@ Toàn bộ mục 6.1 là quy định nội bộ oBacker.
 
 Mốc chốt nhận được tính ngược từ mốc nội bộ nộp hồ sơ theo Chương 02 mục 6.7. Khi kỳ khai là quý, mốc chốt nhận của tháng cuối quý được giữ nguyên, không được dồn cả quý về cuối.
 
-#### 6.1.3. Kịch bản nhắc và chuyển lên cấp trên
+#### 5.1.3. Kịch bản nhắc và chuyển lên cấp trên
 
-> **ĐÂY LÀ BẢN DUY NHẤT của kịch bản nhắc chứng từ.** Bảy bước dưới đây là bản gốc chi tiết nhất của cả bộ tài liệu. Không chương nào và không phụ lục nào được đặt lại kịch bản nhắc chứng từ; mọi nơi khác chỉ DẪN CHIẾU về mục 6.1.3 này. `03_DichVu/01_OBK-SOP-00` mục 6.2 đặt chuẩn nhắc chung cho mọi bộ phận; phần nhắc chứng từ của Bộ phận Kế toán và Thuế nên dẫn chiếu về đây thay vì nêu lại mốc riêng.
+> **ĐÂY LÀ BẢN DUY NHẤT của kịch bản nhắc chứng từ.** Bảy bước dưới đây là bản gốc chi tiết nhất của cả bộ tài liệu. Không chương nào và không phụ lục nào được đặt lại kịch bản nhắc chứng từ; mọi nơi khác chỉ DẪN CHIẾU về mục 5.1.3 này. `03_DichVu/01_OBK-SOP-00` mục 5.2 đặt chuẩn nhắc chung cho mọi bộ phận; phần nhắc chứng từ của Bộ phận Kế toán và Thuế nên dẫn chiếu về đây thay vì nêu lại mốc riêng.
 
 | Lần | Thời điểm | Người thực hiện | Kênh | Nội dung | Ghi nhận |
 | --- | --- | --- | --- | --- | --- |
@@ -203,15 +178,15 @@ Mốc chốt nhận được tính ngược từ mốc nội bộ nộp hồ sơ
 > [!danger] RỦI RO BỊ XỬ PHẠT
 > Ở chuyển lên cấp trên 3 và 4, mọi trao đổi phải bằng văn bản. Nếu tới hạn mà khách chưa cung cấp đủ, việc nộp hồ sơ với số liệu chưa đầy đủ hay không nộp là quyết định có hậu quả pháp lý; quyết định này thuộc khách hàng, và oBacker phải có văn bản xác nhận của khách. CV-KT, TL-KT và AM tuyệt đối không tự quyết thay khách. Xem Chương 13 và Chương 15.
 
-#### 6.1.4. Sổ nhắc và bằng chứng
+#### 5.1.4. Sổ nhắc và bằng chứng
 
 Mỗi lần nhắc phải ghi nhận: ngày giờ, người nhắc, kênh, nội dung tóm tắt, danh mục mục còn thiếu tại thời điểm nhắc, phản hồi của khách. Danh mục còn thiếu do CV-KT lập; AM là người gửi và là người ghi sổ nhắc. Sổ nhắc là bằng chứng bảo vệ oBacker khi khách bị phạt vì chậm cung cấp chứng từ. Không có sổ nhắc thì oBacker không chứng minh được việc đã thực hiện đầy đủ nghĩa vụ theo hợp đồng.
 
 ---
 
-### 6.2. QUY ĐỊNH VỀ CHỨNG TỪ KẾ TOÁN THEO THÔNG TƯ 99/2025/TT-BTC
+### 5.2. QUY ĐỊNH VỀ CHỨNG TỪ KẾ TOÁN THEO THÔNG TƯ 99/2025/TT-BTC
 
-#### 6.2.1. Chứng từ kế toán dẫn chiếu Luật Kế toán
+#### 5.2.1. Chứng từ kế toán dẫn chiếu Luật Kế toán
 
 Nguyên văn `[TT99 Đ.8]`:
 
@@ -250,7 +225,7 @@ Năm điều liên quan trực tiếp khác của Luật Kế toán, nay cũng �
 > [!note] QUY TẮC TRẢ LỜI KHÁCH
 > Khi khách hỏi một chứng từ có đủ nội dung bắt buộc hay không, TL-KT đối chiếu với Điều 16 khoản 1 nêu trên rồi kết luận; AM là người truyền kết luận đó cho khách. CV-KT không tự kết luận và không liên hệ khách.
 
-#### 6.2.2. Doanh nghiệp được tự thiết kế biểu mẫu chứng từ, kèm điều kiện
+#### 5.2.2. Doanh nghiệp được tự thiết kế biểu mẫu chứng từ, kèm điều kiện
 
 Trạng thái pháp lý của Phụ lục I, nguyên văn `[TT99 Đ.9 k.1]`:
 
@@ -278,7 +253,7 @@ Bảng kiểm khi khách muốn dùng mẫu chứng từ riêng:
 
 Quy trình nội bộ oBacker: khi phát hiện khách đang dùng biểu mẫu tự thiết kế mà chưa có Quy chế hạch toán kế toán, CV-KT ghi nhận vào danh mục vấn đề tồn đọng, TL-KT kết luận và báo COO, AM đề xuất với khách việc soạn dự thảo quy chế như một hạng mục dịch vụ. Quy chế do KHÁCH ban hành và khách chịu trách nhiệm trước pháp luật; oBacker chỉ soạn dự thảo và hướng dẫn.
 
-#### 6.2.3. Lập, ký và kiểm soát chứng từ
+#### 5.2.3. Lập, ký và kiểm soát chứng từ
 
 | Khoản | Nội dung | Căn cứ |
 | --- | --- | --- |
@@ -296,22 +271,22 @@ Quy trình nội bộ oBacker: khi phát hiện khách đang dùng biểu mẫu 
 >
 > 1. Nhân sự oBacker đứng ở vai trò kế toán trưởng không ký vào phần chữ ký của chức danh người quản lý, điều hành doanh nghiệp trên bất kỳ chứng từ kế toán nào, dưới bất kỳ hình thức nào, kể cả có chữ "thừa ủy quyền".
 > 2. Khi khách không có mặt, giải pháp là chờ chữ ký hợp lệ, hoặc dùng cơ chế ký số của người có thẩm quyền, hoặc khách ban hành phân cấp ký hợp lệ theo `[TT99 Đ.10 k.3]` cho người khác trong doanh nghiệp. Không có giải pháp thứ tư.
-> 3. Mọi trường hợp khách đề nghị nhân sự oBacker ký thay đều được ghi nhận và báo TL-KT trong ngày; AM là người trả lời khách bằng văn bản. Đây là tình huống thuộc hành vi oBacker nghiêm cấm nếu là ký thay chữ ký của người khác, xem Chương 01 mục 6.8.
+> 3. Mọi trường hợp khách đề nghị nhân sự oBacker ký thay đều được ghi nhận và báo TL-KT trong ngày; AM là người trả lời khách bằng văn bản. Đây là tình huống thuộc hành vi oBacker nghiêm cấm nếu là ký thay chữ ký của người khác, xem Chương 01 mục 5.8.
 
 Quy tắc "chứng từ chỉ lập một lần" tại khoản 1 còn có hệ quả vận hành trực tiếp: khi phát hiện chứng từ bị lập trùng, không được giữ cả hai bản để "cho chắc". Phải xác định bản nào là bản hợp lệ, xử lý bản còn lại theo quy trình của khách, và ghi nhận vào sổ tồn đọng.
 
 ---
 
-### 6.3. BẢNG KIỂM TRA TÍNH HỢP LỆ CỦA CHỨNG TỪ
+### 5.3. BẢNG KIỂM TRA TÍNH HỢP LỆ CỦA CHỨNG TỪ
 
-#### 6.3.1. Nguyên tắc chung
+#### 5.3.1. Nguyên tắc chung
 
-1. Kiểm tra hình thức trước, kiểm tra nội dung sau. Chứng từ không đạt kiểm tra hình thức thì không cần kiểm tra nội dung, chuyển thẳng sang xử lý theo mục 6.4.
-2. oBacker kiểm tra được HÌNH THỨC và TÍNH LOGIC của chứng từ. oBacker không kiểm tra được tính có thật của giao dịch; trách nhiệm đó thuộc khách, theo Chương 01 mục 6.2. CV-KT thực hiện phần kiểm hình thức và tính logic; mọi kết luận cần xét đoán thuộc TL-KT; mọi việc thông báo kết quả và đòi bổ sung với khách thuộc AM.
-3. Mỗi bảng kiểm dưới đây là chuẩn nội bộ oBacker, xây dựng theo thực hành nghề nghiệp và theo yêu cầu của pháp luật thuế tương ứng. Các yếu tố về nội dung bắt buộc của chứng từ kế toán nay đối chiếu trực tiếp với Điều 16 khoản 1 Luật Kế toán `[Luật Kế toán 41/VBHN-VPQH Đ.16 k.1]`, chép nguyên văn tại mục 6.2.1.
+1. Kiểm tra hình thức trước, kiểm tra nội dung sau. Chứng từ không đạt kiểm tra hình thức thì không cần kiểm tra nội dung, chuyển thẳng sang xử lý theo mục 5.4.
+2. oBacker kiểm tra được HÌNH THỨC và TÍNH LOGIC của chứng từ. oBacker không kiểm tra được tính có thật của giao dịch; trách nhiệm đó thuộc khách, theo Chương 01 mục 5.2. CV-KT thực hiện phần kiểm hình thức và tính logic; mọi kết luận cần xét đoán thuộc TL-KT; mọi việc thông báo kết quả và đòi bổ sung với khách thuộc AM.
+3. Mỗi bảng kiểm dưới đây là chuẩn nội bộ oBacker, xây dựng theo thực hành nghề nghiệp và theo yêu cầu của pháp luật thuế tương ứng. Các yếu tố về nội dung bắt buộc của chứng từ kế toán nay đối chiếu trực tiếp với Điều 16 khoản 1 Luật Kế toán `[Luật Kế toán 41/VBHN-VPQH Đ.16 k.1]`, chép nguyên văn tại mục 5.2.1.
 4. Kết quả kiểm tra của mỗi chứng từ chỉ có ba trạng thái: ĐẠT, CHỜ BỔ SUNG, hoặc KHÔNG ĐẠT. Không có trạng thái "tạm chấp nhận".
 
-#### 6.3.2. Loại 1: HÓA ĐƠN ĐẦU VÀO
+#### 5.3.2. Loại 1: HÓA ĐƠN ĐẦU VÀO
 
 | # | Điểm kiểm tra | Không đạt thì làm gì |
 | --- | --- | --- |
@@ -328,7 +303,7 @@ Quy tắc "chứng từ chỉ lập một lần" tại khoản 1 còn có hệ q
 | 11 | Không trùng với hóa đơn đã ghi nhận kỳ trước | Kiểm tra sổ;<br>loại bản trùng |
 | 12 | Có chữ ký số của người bán hợp lệ, còn hiệu lực tại thời điểm ký | Yêu cầu người bán xử lý |
 
-#### 6.3.3. Loại 2: HÓA ĐƠN ĐẦU RA
+#### 5.3.3. Loại 2: HÓA ĐƠN ĐẦU RA
 
 | # | Điểm kiểm tra | Không đạt thì làm gì |
 | --- | --- | --- |
@@ -345,7 +320,7 @@ Quy tắc "chứng từ chỉ lập một lần" tại khoản 1 còn có hệ q
 | 11 | Hóa đơn cho hàng biếu tặng, tiêu dùng nội bộ, khuyến mại đã được lập theo đúng quy định | Chuyển TL-KT;<br>xem Chương 09 và Chương 12 |
 | 12 | Không có hóa đơn lập trùng cho cùng một nghiệp vụ `[TT99 Đ.10 k.1]` | Xác định bản hợp lệ, xử lý bản còn lại |
 
-#### 6.3.4. Loại 3: PHIẾU THU, PHIẾU CHI
+#### 5.3.4. Loại 3: PHIẾU THU, PHIẾU CHI
 
 | # | Điểm kiểm tra | Không đạt thì làm gì |
 | --- | --- | --- |
@@ -354,7 +329,7 @@ Quy tắc "chứng từ chỉ lập một lần" tại khoản 1 còn có hệ q
 | 3 | Số tiền ghi bằng số và bằng chữ khớp nhau | Yêu cầu lập lại;<br>không được sửa chữa trên chứng từ |
 | 4 | Nội dung thu chi mô tả cụ thể, gắn với một nghiệp vụ xác định | Yêu cầu bổ sung diễn giải |
 | 5 | Có đầy đủ chữ ký theo phân cấp ký của khách `[TT99 Đ.10 k.3]` | Ghi chờ bổ sung;<br>không hạch toán |
-| 6 | Không có chữ ký thừa ủy quyền của kế toán trưởng vào phần chữ ký của chức danh người quản lý, điều hành `[TT99 Đ.10 k.4]` | Từ chối;<br>báo TL-KT trong ngày;<br>xem cảnh báo tại mục 6.2.3 |
+| 6 | Không có chữ ký thừa ủy quyền của kế toán trưởng vào phần chữ ký của chức danh người quản lý, điều hành `[TT99 Đ.10 k.4]` | Từ chối;<br>báo TL-KT trong ngày;<br>xem cảnh báo tại mục 5.2.3 |
 | 7 | Có chứng từ gốc kèm theo: hóa đơn, hợp đồng, giấy đề nghị, biên bản | Ghi chờ bổ sung |
 | 8 | Số phiếu liên tục, không nhảy cóc, không trùng | Rà soát dãy số;<br>giải trình phần thiếu |
 | 9 | Ngày trên phiếu khớp với ngày thực tế phát sinh và với ngày trên chứng từ gốc | Chuyển TL-KT nếu có dấu hiệu ghi lùi ngày |
@@ -362,7 +337,7 @@ Quy tắc "chứng từ chỉ lập một lần" tại khoản 1 còn có hệ q
 | 11 | Khoản chi phù hợp với quy chế tài chính nội bộ và định mức của khách nếu có | Ghi nhận;<br>báo khách khi vượt định mức |
 | 12 | Với khoản chi lớn, có phê duyệt của người có thẩm quyền trước khi chi | Ghi chờ bổ sung |
 
-#### 6.3.5. Loại 4: CHỨNG TỪ NGÂN HÀNG
+#### 5.3.5. Loại 4: CHỨNG TỪ NGÂN HÀNG
 
 | # | Điểm kiểm tra | Không đạt thì làm gì |
 | --- | --- | --- |
@@ -379,7 +354,7 @@ Quy tắc "chứng từ chỉ lập một lần" tại khoản 1 còn có hệ q
 | 11 | Không có giao dịch nào bị ghi nhận hai lần | Đối chiếu sổ và sao kê |
 | 12 | Số dư cuối kỳ trên sao kê khớp số dư trên sổ sau khi hoàn tất đối chiếu | Lập bảng đối chiếu, giải trình mọi khoản chênh;<br>xem Chương 06 |
 
-#### 6.3.6. Loại 5: HỢP ĐỒNG
+#### 5.3.6. Loại 5: HỢP ĐỒNG
 
 | # | Điểm kiểm tra | Không đạt thì làm gì |
 | --- | --- | --- |
@@ -396,7 +371,7 @@ Quy tắc "chứng từ chỉ lập một lần" tại khoản 1 còn có hệ q
 | 11 | Với hợp đồng có yếu tố nước ngoài, nhận diện nghĩa vụ thuế nhà thầu | Chuyển TL-KT kết luận;<br>nội dung ngoài phạm vi gói định kỳ, COO duyệt phạm vi và AM trao đổi với khách |
 | 12 | Bản lưu là bản đã ký đủ chữ ký và đóng dấu của các bên, không phải bản nháp | Yêu cầu bản chính thức |
 
-#### 6.3.7. Loại 6: BẢNG LƯƠNG VÀ HỒ SƠ LAO ĐỘNG
+#### 5.3.7. Loại 6: BẢNG LƯƠNG VÀ HỒ SƠ LAO ĐỘNG
 
 | # | Điểm kiểm tra | Không đạt thì làm gì |
 | --- | --- | --- |
@@ -407,13 +382,13 @@ Quy tắc "chứng từ chỉ lập một lần" tại khoản 1 còn có hệ q
 | 5 | Các khoản phụ cấp, thưởng, hỗ trợ có căn cứ trong quy chế hoặc quyết định | Ghi chờ bổ sung;<br>ảnh hưởng chi phí được trừ và thuế thu nhập cá nhân |
 | 6 | Khoản giảm trừ gia cảnh có hồ sơ đăng ký người phụ thuộc đầy đủ | Ghi chờ bổ sung;<br>không tự áp giảm trừ khi chưa có hồ sơ |
 | 7 | Các khoản khấu trừ vào lương có căn cứ và được người lao động biết | Yêu cầu bổ sung |
-| 8 | Bảng lương có đủ chữ ký theo phân cấp của khách;<br>không có chữ ký thừa ủy quyền trái quy định `[TT99 Đ.10 k.4]` | Xem mục 6.2.3 |
+| 8 | Bảng lương có đủ chữ ký theo phân cấp của khách;<br>không có chữ ký thừa ủy quyền trái quy định `[TT99 Đ.10 k.4]` | Xem mục 5.2.3 |
 | 9 | Chứng từ chi trả lương khớp với bảng lương: sao kê chuyển khoản hoặc ký nhận tiền mặt | Ghi chờ bổ sung |
 | 10 | Số liệu bảng lương khớp với số liệu khấu trừ thuế thu nhập cá nhân đã kê khai | Đối chiếu;<br>xem Chương 11 |
 | 11 | Số người và mức lương khớp với hồ sơ bảo hiểm xã hội, hoặc chênh lệch được giải trình | Ghi nhận và báo khách;<br>là điểm cơ quan thuế hay kiểm |
 | 12 | Với lao động thời vụ, lao động thử việc, có căn cứ chi trả và xử lý thuế đúng | Chuyển TL-KT;<br>xem Chương 11 |
 
-#### 6.3.8. Loại 7: CHỨNG TỪ NHẬP XUẤT KHO
+#### 5.3.8. Loại 7: CHỨNG TỪ NHẬP XUẤT KHO
 
 | # | Điểm kiểm tra | Không đạt thì làm gì |
 | --- | --- | --- |
@@ -430,7 +405,7 @@ Quy tắc "chứng từ chỉ lập một lần" tại khoản 1 còn có hệ q
 | 11 | Hàng hư hỏng, hết hạn, mất mát có biên bản và có quyết định xử lý | Ghi chờ bổ sung;<br>ảnh hưởng chi phí được trừ |
 | 12 | Hàng gửi bán, hàng nhận giữ hộ được theo dõi tách khỏi hàng thuộc sở hữu | Rà lại cách theo dõi;<br>báo TL-KT |
 
-#### 6.3.9. Loại 8: CHỨNG TỪ TÀI SẢN CỐ ĐỊNH
+#### 5.3.9. Loại 8: CHỨNG TỪ TÀI SẢN CỐ ĐỊNH
 
 | # | Điểm kiểm tra | Không đạt thì làm gì |
 | --- | --- | --- |
@@ -449,9 +424,9 @@ Quy tắc "chứng từ chỉ lập một lần" tại khoản 1 còn có hệ q
 
 ---
 
-### 6.4. XỬ LÝ CHỨNG TỪ THIẾU HOẶC KHÔNG HỢP LỆ
+### 5.4. XỬ LÝ CHỨNG TỪ THIẾU HOẶC KHÔNG HỢP LỆ
 
-#### 6.4.1. Sơ đồ quyết định
+#### 5.4.1. Sơ đồ quyết định
 
 ```
 Nhận một chứng từ
@@ -485,32 +460,32 @@ Nhận một chứng từ
   |     KHÔNG -> ĐẠT. Hạch toán theo Chương 05.
 ```
 
-#### 6.4.2. Các mức xử lý
+#### 5.4.2. Các mức xử lý
 
 | Mức | Tên | Ai xử lý | Hành động | Thời hạn |
 | --- | --- | --- | --- | --- |
 | 1 | Chứng từ không nhận được hoặc không đọc được | CV-KT phát hiện, AM liên hệ khách | AM yêu cầu khách gửi lại;<br>CV-KT ghi sổ tồn đọng | Trong 01 ngày làm việc |
-| 2 | Thiếu yếu tố có thể bổ sung | CV-KT lập danh mục thiếu, AM gửi khách | AM gửi thông báo theo mẫu tại 6.4.4;<br>không hạch toán;<br>CV-KT ghi sổ tồn đọng và theo dõi tới khi đủ | Trong 03 ngày làm việc kể từ ngày nhận |
+| 2 | Thiếu yếu tố có thể bổ sung | CV-KT lập danh mục thiếu, AM gửi khách | AM gửi thông báo theo mẫu tại 5.4.4;<br>không hạch toán;<br>CV-KT ghi sổ tồn đọng và theo dõi tới khi đủ | Trong 03 ngày làm việc kể từ ngày nhận |
 | 3 | Có dấu hiệu bất thường | CV-KT báo, TL-KT đánh giá và quyết định, AM thông báo khách | Dừng hạch toán;<br>TL-KT đánh giá trong 01 ngày làm việc và kết luận trong 02 ngày làm việc, trường hợp trọng yếu cần kết luận bằng văn bản của TL-KT;<br>ghi hồ sơ rủi ro | Theo mốc từng vai trò |
 | 4 | Lỗi không khắc phục được, ví dụ người bán đã bỏ địa chỉ, hóa đơn không tra cứu được | TL-KT kết luận, AM thông báo khách | Không hạch toán;<br>thông báo khách bằng văn bản do AM gửi trên kết luận kỹ thuật của TL-KT;<br>ghi hồ sơ rủi ro;<br>đề xuất phương án theo Chương 09, Chương 12, Chương 17 | Trong ngày phát hiện |
-| 5 | Chạm hành vi oBacker nghiêm cấm | CV-KT dừng, TL-KT xác nhận, CEO quyết định | Theo quy trình Chương 01 mục 6.8.2 | Báo TL-KT trong 02 giờ |
+| 5 | Chạm hành vi oBacker nghiêm cấm | CV-KT dừng, TL-KT xác nhận, CEO quyết định | Theo quy trình Chương 01 mục 5.8.2 | Báo TL-KT trong 02 giờ |
 
-#### 6.4.3. Quy tắc không tự ý hạch toán khi chứng từ chưa đủ
+#### 5.4.3. Quy tắc không tự ý hạch toán khi chứng từ chưa đủ
 
 Đây là quy định nội bộ oBacker, không có ngoại lệ ở cấp CV-KT:
 
 | # | Quy tắc |
 | --- | --- |
-| 1 | Không hạch toán một nghiệp vụ khi bộ chứng từ chưa đủ theo bảng kiểm mục 6.3 |
+| 1 | Không hạch toán một nghiệp vụ khi bộ chứng từ chưa đủ theo bảng kiểm mục 5.3 |
 | 2 | Không tự tạo chứng từ thay khách để "cho đủ hồ sơ" |
 | 3 | Không hạch toán tạm vào một tài khoản trung gian rồi quên xử lý;<br>mọi khoản còn tồn phải nằm trong sổ tồn đọng và có người theo dõi |
 | 4 | Không tự suy đoán nội dung nghiệp vụ từ nội dung chuyển khoản;<br>phải hỏi khách |
 | 5 | Không tự quyết định phân loại một khoản chi là chi phí được trừ hay không được trừ khi hồ sơ chưa đủ;<br>ghi nhận và chuyển TL-KT |
-| 6 | Khi khách yêu cầu cứ hạch toán trước, bổ sung chứng từ sau, AM trả lời bằng câu chuẩn tại 6.4.4 và CV-KT ghi nhận yêu cầu đó vào hồ sơ |
-| 7 | Trường hợp sát hạn nộp hồ sơ mà vẫn thiếu chứng từ, quyết định kỹ thuật thuộc TL-KT và phải có xác nhận bằng văn bản của khách do AM lấy;<br>xem mục 6.1.3 chuyển lên cấp trên 4 |
+| 6 | Khi khách yêu cầu cứ hạch toán trước, bổ sung chứng từ sau, AM trả lời bằng câu chuẩn tại 5.4.4 và CV-KT ghi nhận yêu cầu đó vào hồ sơ |
+| 7 | Trường hợp sát hạn nộp hồ sơ mà vẫn thiếu chứng từ, quyết định kỹ thuật thuộc TL-KT và phải có xác nhận bằng văn bản của khách do AM lấy;<br>xem mục 5.1.3 chuyển lên cấp trên 4 |
 | 8 | Mọi ngoại lệ đều phải bằng văn bản của TL-KT, đồng thời báo COO, ghi rõ lý do và biện pháp khắc phục kèm mốc |
 
-#### 6.4.4. Mẫu thông báo cho khách
+#### 5.4.4. Mẫu thông báo cho khách
 
 **Mẫu 1: Thông báo chứng từ thiếu, dùng ở mức 2**
 
@@ -548,7 +523,7 @@ Nhận một chứng từ
 
 > "Anh chị thông cảm, bên em không đưa vào sổ khi hồ sơ chưa đủ, vì khi cơ quan thuế kiểm tra thì khoản đó sẽ bị loại và phát sinh thêm tiền thuế cùng tiền chậm nộp. Em ghi nhận khoản này vào danh mục chờ bổ sung và theo dõi giúp anh chị; ngay khi có đủ hồ sơ em xử lý luôn trong kỳ gần nhất."
 
-#### 6.4.5. Sổ theo dõi tồn đọng
+#### 5.4.5. Sổ theo dõi tồn đọng
 
 Sổ tồn đọng lập theo từng khách, trên `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]`, gồm các trường:
 
@@ -561,7 +536,7 @@ Sổ tồn đọng lập theo từng khách, trên `[HỆ THỐNG QUẢN LÝ CÔ
 | 5 | Số, ngày chứng từ, đối tác | Có |
 | 6 | Số tiền, số thuế liên quan | Có |
 | 7 | Nội dung còn thiếu, mô tả cụ thể | Có |
-| 8 | Mức xử lý theo 6.4.2 | Có |
+| 8 | Mức xử lý theo 5.4.2 | Có |
 | 9 | Ngày gửi thông báo cho khách, số lần đã nhắc | Có |
 | 10 | Mốc cam kết bổ sung của khách | Có |
 | 11 | Trạng thái: chờ bổ sung, đã bổ sung, không bổ sung được, đã chuyển TL-KT | Có |
@@ -579,11 +554,11 @@ Quy tắc vận hành sổ tồn đọng:
 
 ---
 
-### 6.5. QUY TẮC ĐẶT TÊN VÀ TỔ CHỨC THƯ MỤC
+### 5.5. QUY TẮC ĐẶT TÊN VÀ TỔ CHỨC THƯ MỤC
 
-Toàn bộ mục 6.5 là quy định nội bộ oBacker. CV-KT không được tự sáng tạo cấu trúc khác.
+Toàn bộ mục 5.5 là quy định nội bộ oBacker. CV-KT không được tự sáng tạo cấu trúc khác.
 
-#### 6.5.1. Cây thư mục chuẩn
+#### 5.5.1. Cây thư mục chuẩn
 
 ```
 OBK-DN-2026-047_CONGTYABC/
@@ -665,14 +640,14 @@ OBK-DN-2026-047_CONGTYABC/
     +-- 02_BienBanTra/
 ```
 
-#### 6.5.2. Quy tắc đặt tên tệp
+#### 5.5.2. Quy tắc đặt tên tệp
 
 Cấu trúc: `YYYYMMDD_<LOAI>_<DOITAC hoặc NOIDUNG>_<SO>_<vNN>.<đuôi>`
 
 | Thành phần | Quy tắc | Ví dụ |
 | --- | --- | --- |
 | YYYYMMDD | Ngày trên chứng từ, không phải ngày nhận | 20260731 |
-| LOAI | Mã loại viết hoa, không dấu, theo bảng 6.5.3 | HDV |
+| LOAI | Mã loại viết hoa, không dấu, theo bảng 5.5.3 | HDV |
 | DOITAC hoặc NOIDUNG | Tên viết tắt không dấu, tối đa 20 ký tự | CTYXYZ |
 | SO | Số chứng từ, bỏ ký tự đặc biệt | 0001234 |
 | vNN | Số phiên bản, chỉ dùng khi có bản sửa | v02 |
@@ -687,7 +662,7 @@ Quy tắc bổ sung:
 5. Tệp gộp nhiều chứng từ phải được tách trước khi lưu, trừ khi là tệp kết xuất theo lô có bảng kê đi kèm.
 6. Tên thư mục theo tháng luôn có hai chữ số: 01, 02, không viết 1, 2.
 
-#### 6.5.3. Bảng mã loại chứng từ dùng trong tên tệp
+#### 5.5.3. Bảng mã loại chứng từ dùng trong tên tệp
 
 | Mã | Loại chứng từ |
 | --- | --- |
@@ -717,7 +692,7 @@ Quy tắc bổ sung:
 | CVDI | Công văn đi |
 | QDXP | Quyết định xử phạt |
 
-#### 6.5.4. Quy tắc đánh số chứng từ nội bộ
+#### 5.5.4. Quy tắc đánh số chứng từ nội bộ
 
 Áp dụng cho chứng từ do oBacker lập giúp khách, ví dụ phiếu thu, phiếu chi, phiếu kế toán.
 
@@ -732,11 +707,11 @@ Quy tắc bổ sung:
 
 ---
 
-### 6.6. SỐ HÓA CHỨNG TỪ
+### 5.6. SỐ HÓA CHỨNG TỪ
 
-Toàn bộ mục 6.6 là quy định nội bộ oBacker.
+Toàn bộ mục 5.6 là quy định nội bộ oBacker.
 
-#### 6.6.1. Tiêu chuẩn chất lượng bản quét
+#### 5.6.1. Tiêu chuẩn chất lượng bản quét
 
 | # | Tiêu chuẩn | Yêu cầu tối thiểu |
 | --- | --- | --- |
@@ -751,7 +726,7 @@ Toàn bộ mục 6.6 là quy định nội bộ oBacker.
 | 9 | Nhận dạng ký tự | Ưu tiên bật nhận dạng ký tự để tìm kiếm được nội dung, nếu công cụ hỗ trợ |
 | 10 | Không chỉnh sửa | Không được cắt, ghép, xóa, tô, làm mờ bất kỳ nội dung nào trên bản số hóa |
 
-#### 6.6.2. Quy tắc đối chiếu bản gốc và bản số
+#### 5.6.2. Quy tắc đối chiếu bản gốc và bản số
 
 | # | Quy tắc |
 | --- | --- |
@@ -765,11 +740,11 @@ Toàn bộ mục 6.6 là quy định nội bộ oBacker.
 
 ---
 
-### 6.7. TỔ CHỨC LƯU TRỮ TRONG THỜI GIAN THỰC HIỆN HỢP ĐỒNG
+### 5.7. TỔ CHỨC LƯU TRỮ TRONG THỜI GIAN THỰC HIỆN HỢP ĐỒNG
 
 | # | Quy tắc | Chi tiết |
 | --- | --- | --- |
-| 1 | Nơi lưu duy nhất | Toàn bộ dữ liệu khách lưu tại `[KHO LƯU TRỮ HỒ SƠ]` theo cây thư mục mục 6.5.1;<br>không lưu ở nơi khác, xem Chương 01 mục 6.5.2 |
+| 1 | Nơi lưu duy nhất | Toàn bộ dữ liệu khách lưu tại `[KHO LƯU TRỮ HỒ SƠ]` theo cây thư mục mục 5.5.1;<br>không lưu ở nơi khác, xem Chương 01 mục 5.5.2 |
 | 2 | Phân quyền | Theo phạm vi phân công;<br>CV-KT dự phòng có quyền chỉ đọc;<br>TL-KT có quyền đầy đủ trong nhóm phụ trách;<br>AM có quyền đọc trong phạm vi khách mình làm đầu mối;<br>COO duyệt quyền truy cập dữ liệu |
 | 3 | Sao lưu | Theo chính sách sao lưu của công ty;<br>CV-KT không tự tạo bản sao ngoài hệ thống |
 | 4 | Nhật ký truy cập | Bật nhật ký truy cập cho thư mục chứa dữ liệu mức M2 trở lên |
@@ -780,9 +755,9 @@ Toàn bộ mục 6.6 là quy định nội bộ oBacker.
 
 ---
 
-### 6.8. LƯU TRỮ VÀ THỜI HẠN LƯU
+### 5.8. LƯU TRỮ VÀ THỜI HẠN LƯU
 
-> [!note] BA MỐC THỜI HẠN LƯU TRỮ VÀ DANH MỤC CHI TIẾT TỪNG LOẠI TÀI LIỆU ĐÃ XÁC MINH
+> [!note] QUY ĐỊNH PHÁP LUẬT VỀ THỜI HẠN LƯU TRỮ TÀI LIỆU KẾ TOÁN
 >
 > Nguyên văn Điều 41 khoản 5 Luật Kế toán `[Luật Kế toán 41/VBHN-VPQH Đ.41 k.5]`:
 >
@@ -806,7 +781,7 @@ Toàn bộ mục 6.6 là quy định nội bộ oBacker.
 > 1. Được nêu ba mốc 05 năm, 10 năm, lưu trữ vĩnh viễn, mốc 12 tháng, và danh mục theo loại tài liệu tại bảng dòng 1 tới 14 dưới đây. Không được kết luận một loại tài liệu chưa đọc thẳng ra được từ Điều 41 khoản 5 hoặc từ danh mục Nghị định 174/2016/NĐ-CP thuộc mốc nào khi chưa đối chiếu thêm với pháp luật chuyên ngành áp dụng cho loại tài liệu đó.
 > 2. **không tự tiêu hủy bất kỳ tài liệu kế toán nào của khách hàng.** Thủ tục tiêu hủy thuộc thẩm quyền của khách với tư cách đơn vị kế toán, qua Hội đồng tiêu hủy do người đại diện theo pháp luật của khách quyết định thành lập `[Nghị định 174/2016/NĐ-CP Đ.16, Đ.17]`; oBacker không đứng ra quyết định hoặc thực hiện việc tiêu hủy thay khách. Không có ngoại lệ.
 > 3. Thời điểm tính thời hạn: từ ngày kết thúc kỳ kế toán năm đối với nhóm 05 năm và nhóm vĩnh viễn, và với nhóm 10 năm trừ tài liệu quyết toán dự án hoàn thành (tính từ ngày báo cáo quyết toán dự án được duyệt) `[Nghị định 174/2016/NĐ-CP Đ.15]`.
-> 4. Khi khách hỏi về một loại tài liệu chưa nằm rõ trong danh mục, câu chuẩn của AM: "Ba mốc thời hạn lưu trữ và danh mục theo loại tài liệu thì bên em trả lời được theo Luật Kế toán và Nghị định 174/2016. Với loại tài liệu cụ thể chưa rõ, bên em đối chiếu thêm rồi trả lời anh chị bằng văn bản." Chuyển TL-KT để đối chiếu.
+> 4. Khi khách hàng yêu cầu xác định thời hạn lưu trữ đối với loại tài liệu chưa được phân loại rõ trong danh mục, AM tiếp nhận thông tin và chuyển TL-KT đối chiếu quy định pháp luật chuyên ngành trước khi ban hành văn bản trả lời chính thức.
 >
 > Ngoài thời hạn theo pháp luật kế toán, còn có thời hạn liên quan tới pháp luật quản lý thuế, ví dụ thời hiệu xử phạt và thời hạn cơ quan thuế được ấn định, truy thu. Các thời hạn này không được xác minh trong chương này; xem Chương 16 và Chương 17. Nguyên tắc thận trọng của oBacker: lưu theo thời hạn DÀI NHẤT trong các thời hạn áp dụng.
 
@@ -841,22 +816,22 @@ Vận hành mốc 12 tháng, quy định nội bộ trên nền `[Luật Kế to
 
 ---
 
-### 6.9. BÀN GIAO CHỨNG TỪ GỐC
+### 5.9. BÀN GIAO CHỨNG TỪ GỐC
 
-Toàn bộ mục 6.9 là quy định nội bộ oBacker.
+Toàn bộ mục 5.9 là quy định nội bộ oBacker.
 
-#### 6.9.1. Nguyên tắc
+#### 5.9.1. Nguyên tắc
 
 | # | Nguyên tắc |
 | --- | --- |
 | 1 | Nguyên tắc mặc định: KHÁCH HÀNG GIỮ CHỨNG TỪ GỐC. oBacker làm việc trên bản số hóa |
 | 2 | oBacker chỉ nhận chứng từ gốc khi thật sự cần, và trả lại trong thời hạn ngắn nhất |
 | 3 | Mọi lần nhận và trả chứng từ gốc đều phải có biên bản giao nhận, không có ngoại lệ |
-| 4 | Không mang chứng từ gốc của khách về nhà riêng, xem Chương 01 mục 6.5.4 |
+| 4 | Không mang chứng từ gốc của khách về nhà riêng, xem Chương 01 mục 5.5.4 |
 | 5 | Chứng từ gốc đang giữ phải để trong tủ có khóa, có người chịu trách nhiệm |
-| 6 | Không giữ chứng từ gốc quá thời hạn cần thiết;<br>xem bảng 6.9.2 |
+| 6 | Không giữ chứng từ gốc quá thời hạn cần thiết;<br>xem bảng 5.9.2 |
 
-#### 6.9.2. Khi nào giữ, khi nào trả
+#### 5.9.2. Khi nào giữ, khi nào trả
 
 | Tình huống | Có nhận chứng từ gốc không | Thời hạn giữ tối đa, quy định nội bộ |
 | --- | --- | --- |
@@ -869,7 +844,7 @@ Toàn bộ mục 6.9 là quy định nội bộ oBacker.
 | Khách gửi kèm bản gốc dù không cần | Trả lại trong lần giao nhận gần nhất | 30 ngày làm việc |
 | Kết thúc hợp đồng dịch vụ | Trả toàn bộ | Trong 15 ngày làm việc kể từ ngày kết thúc |
 
-#### 6.9.3. Biên bản giao nhận chứng từ gốc, nội dung bắt buộc
+#### 5.9.3. Biên bản giao nhận chứng từ gốc, nội dung bắt buộc
 
 | # | Nội dung |
 | --- | --- |
@@ -884,7 +859,7 @@ Toàn bộ mục 6.9 là quy định nội bộ oBacker.
 | 9 | Người chứng kiến nếu có |
 | 10 | Số bản của biên bản và nơi lưu từng bản |
 
-#### 6.9.4. Xử lý khi hết thời hạn giữ mà chưa trả được
+#### 5.9.4. Xử lý khi hết thời hạn giữ mà chưa trả được
 
 1. CV-KT báo TL-KT trước khi hết hạn giữ 03 ngày làm việc.
 2. TL-KT đề xuất gia hạn kèm lý do; COO duyệt bằng văn bản, ghi rõ thời hạn mới; AM thỏa thuận lại thời hạn với khách.
@@ -896,13 +871,13 @@ Toàn bộ mục 6.9 là quy định nội bộ oBacker.
 
 ---
 
-## 7. Điểm kiểm soát bắt buộc
+## 6. Điểm kiểm soát bắt buộc
 
 | # | Điểm kiểm soát | Ai kiểm | Tần suất |
 | --- | --- | --- | --- |
 | 1 | Mọi khách đều có lịch cung cấp chứng từ và mốc chốt nhận đã thống nhất bằng văn bản | AM lập, TL-KT kiểm | Khi onboarding và mỗi 12 tháng |
 | 2 | Mọi lần nhắc đều được ghi vào sổ nhắc, có ngày giờ và danh mục thiếu | AM ghi, COO kiểm | Hàng tuần |
-| 3 | 100 phần trăm chứng từ được kiểm tra theo bảng kiểm mục 6.3 trước khi hạch toán | CV-KT làm, TL-KT kiểm mẫu 20 phần trăm;<br>100 phần trăm với khách nhóm C | Hàng kỳ |
+| 3 | 100 phần trăm chứng từ được kiểm tra theo bảng kiểm mục 5.3 trước khi hạch toán | CV-KT làm, TL-KT kiểm mẫu 20 phần trăm;<br>100 phần trăm với khách nhóm C | Hàng kỳ |
 | 4 | Không có nghiệp vụ nào được hạch toán khi chứng từ chưa đủ, trừ trường hợp có văn bản của TL-KT | TL-KT kiểm và chốt | Trước khi khóa sổ kỳ |
 | 5 | Thư mục `99_ChoBoSung` của kỳ đã được rà và làm trống trước khi khóa sổ | TL-KT | Mỗi kỳ |
 | 6 | Sổ tồn đọng được cập nhật trong ngày phát hiện, không dồn cuối tháng | TL-KT | Hàng tuần |
@@ -915,29 +890,29 @@ Toàn bộ mục 6.9 là quy định nội bộ oBacker.
 
 ---
 
-## 8. Lỗi thường gặp và cách xử lý
+## 7. Lỗi thường gặp và cách xử lý
 
 | # | Lỗi thường gặp | Vì sao nguy hiểm | Cách xử lý |
 | --- | --- | --- | --- |
-| 1 | Nhắc khách chung chung kiểu "anh chị gửi chứng từ tháng này giúp em" | Khách không biết thiếu gì, vòng nhắc kéo dài, mất khoảng làm trước | Nhắc bằng danh mục cụ thể từng mục còn thiếu, theo mục 6.1.3 |
-| 2 | Nhắc miệng qua điện thoại, không ghi sổ nhắc | Khi khách bị phạt vì chậm, oBacker không chứng minh được đã nhắc | Mọi lần nhắc đều ghi sổ nhắc theo 6.1.4 |
-| 3 | Hạch toán trước, chờ chứng từ sau, vì khách hứa gửi | Chứng từ không bao giờ về;<br>khoản đó bị loại khi kiểm tra | Áp dụng 6.4.3;<br>ghi sổ tồn đọng |
+| 1 | Nhắc khách chung chung kiểu "anh chị gửi chứng từ tháng này giúp em" | Khách không biết thiếu gì, vòng nhắc kéo dài, mất khoảng làm trước | Nhắc bằng danh mục cụ thể từng mục còn thiếu, theo mục 5.1.3 |
+| 2 | Nhắc miệng qua điện thoại, không ghi sổ nhắc | Khi khách bị phạt vì chậm, oBacker không chứng minh được đã nhắc | Mọi lần nhắc đều ghi sổ nhắc theo 5.1.4 |
+| 3 | Hạch toán trước, chờ chứng từ sau, vì khách hứa gửi | Chứng từ không bao giờ về;<br>khoản đó bị loại khi kiểm tra | Áp dụng 5.4.3;<br>ghi sổ tồn đọng |
 | 4 | Ký thay vào phần chữ ký của chức danh giám đốc trên chứng từ vì khách đi vắng | Vi phạm trực tiếp `[TT99 Đ.10 k.4]`;<br>nếu là ký thay chữ ký thì thuộc hành vi oBacker nghiêm cấm | Chờ chữ ký hợp lệ hoặc dùng phân cấp ký hợp lệ của khách;<br>báo TL-KT |
-| 5 | Chỉ đối chiếu sao kê của tài khoản chính, bỏ sót tài khoản phụ | Thiếu doanh thu hoặc thiếu chi phí, sai số thuế | Điểm 02 của bảng kiểm 6.3.5;<br>đối chiếu với danh sách tài khoản trong hồ sơ khách |
-| 6 | Chấp nhận hóa đơn đầu vào mà không tra cứu tình trạng của người bán | Rủi ro hóa đơn không hợp pháp, hậu quả nặng | Điểm 03 của bảng kiểm 6.3.2;<br>tra cứu trước khi hạch toán |
-| 7 | Lưu chứng từ trong hộp thư hoặc kênh chat, không chuyển vào kho | Mất dữ liệu khi nhân sự nghỉ;<br>không tìm được khi thanh tra | Quy tắc kênh tại 6.1.1;<br>chuyển vào kho trong 01 ngày làm việc |
-| 8 | Đặt tên tệp tùy tiện kiểu "hoa don moi nhat.pdf" | Không tìm được, không biết bản nào là bản dùng | Quy tắc đặt tên tại 6.5.2 |
-| 9 | Quét thiếu mặt sau có chữ ký hoặc đóng dấu | Bản số hóa vô giá trị khi cần chứng minh | Tiêu chuẩn 04 tại mục 6.6.1;<br>đối chiếu số trang |
-| 10 | Giữ chứng từ gốc của khách nhiều tháng vì "để đó cho tiện" | Khách không xuất trình được khi bị kiểm tra;<br>rủi ro mất mát | Bảng thời hạn giữ tại 6.9.2;<br>trả đúng hạn |
+| 5 | Chỉ đối chiếu sao kê của tài khoản chính, bỏ sót tài khoản phụ | Thiếu doanh thu hoặc thiếu chi phí, sai số thuế | Điểm 02 của bảng kiểm 5.3.5;<br>đối chiếu với danh sách tài khoản trong hồ sơ khách |
+| 6 | Chấp nhận hóa đơn đầu vào mà không tra cứu tình trạng của người bán | Rủi ro hóa đơn không hợp pháp, hậu quả nặng | Điểm 03 của bảng kiểm 5.3.2;<br>tra cứu trước khi hạch toán |
+| 7 | Lưu chứng từ trong hộp thư hoặc kênh chat, không chuyển vào kho | Mất dữ liệu khi nhân sự nghỉ;<br>không tìm được khi thanh tra | Quy tắc kênh tại 5.1.1;<br>chuyển vào kho trong 01 ngày làm việc |
+| 8 | Đặt tên tệp tùy tiện kiểu "hoa don moi nhat.pdf" | Không tìm được, không biết bản nào là bản dùng | Quy tắc đặt tên tại 5.5.2 |
+| 9 | Quét thiếu mặt sau có chữ ký hoặc đóng dấu | Bản số hóa vô giá trị khi cần chứng minh | Tiêu chuẩn 04 tại mục 5.6.1;<br>đối chiếu số trang |
+| 10 | Giữ chứng từ gốc của khách nhiều tháng vì "để đó cho tiện" | Khách không xuất trình được khi bị kiểm tra;<br>rủi ro mất mát | Bảng thời hạn giữ tại 5.9.2;<br>trả đúng hạn |
 | 11 | Giao nhận chứng từ gốc không lập biên bản vì quen biết | Tranh chấp về việc đã giao hay chưa;<br>không ai chứng minh được | Biên bản giao nhận là bắt buộc, không có ngoại lệ |
-| 12 | Tự tạo hoặc tự điền chứng từ thay khách cho đủ hồ sơ | Chạm hành vi oBacker nghiêm cấm, xem Chương 01 mục 6.8 | Từ chối;<br>báo TL-KT trong 02 giờ |
-| 13 | Bỏ qua tồn kho âm vì nghĩ do nhập liệu | Là dấu hiệu bất thường trọng yếu, cơ quan thuế kiểm kỹ | Điểm 05 của bảng kiểm 6.3.8;<br>báo TL-KT |
-| 14 | Không rà sổ tồn đọng trước khi khóa sổ và trước khi quyết toán | Vấn đề tích tụ nhiều kỳ, tới quyết toán mới phát hiện thì đã muộn | Quy tắc 04 và 05 tại mục 6.4.5 |
-| 15 | Trả lời khách về thời hạn lưu trữ vượt quá ba mốc đã xác minh | Ba mốc 05 năm, 10 năm, vĩnh viễn và mốc 12 tháng thì trả lời được; danh mục chi tiết từng loại tài liệu, thời điểm bắt đầu tính thời hạn và thủ tục tiêu hủy vẫn chưa xác minh được, trả lời sai tạo trách nhiệm cho oBacker | Chỉ trả lời trong phạm vi mục 6.8;<br>AM dùng câu chuẩn, TL-KT chuẩn bị nội dung |
+| 12 | Tự tạo hoặc tự điền chứng từ thay khách cho đủ hồ sơ | Chạm hành vi oBacker nghiêm cấm, xem Chương 01 mục 5.8 | Từ chối;<br>báo TL-KT trong 02 giờ |
+| 13 | Bỏ qua tồn kho âm vì nghĩ do nhập liệu | Là dấu hiệu bất thường trọng yếu, cơ quan thuế kiểm kỹ | Điểm 05 của bảng kiểm 5.3.8;<br>báo TL-KT |
+| 14 | Không rà sổ tồn đọng trước khi khóa sổ và trước khi quyết toán | Vấn đề tích tụ nhiều kỳ, tới quyết toán mới phát hiện thì đã muộn | Quy tắc 04 và 05 tại mục 5.4.5 |
+| 15 | Tư vấn thời hạn lưu trữ ngoài các mốc luật định | Chỉ trả lời trong phạm vi các mốc luật định (05 năm, 10 năm, vĩnh viễn và thời hạn đưa vào lưu trữ 12 tháng) và danh mục chi tiết tại Nghị định 174/2016/NĐ-CP theo mục 5.8; các trường hợp chuyên biệt do TL-KT hướng dẫn | AM tiếp nhận, TL-KT chuẩn bị nội dung văn bản |
 
 ---
 
-## 9. Đầu ra và nơi lưu
+## 8. Đầu ra và nơi lưu
 
 | # | Đầu ra | Người lập | Nơi lưu | Thời điểm |
 | --- | --- | --- | --- | --- |
@@ -956,7 +931,7 @@ Toàn bộ mục 6.9 là quy định nội bộ oBacker.
 
 ---
 
-## 10. Chỉ số theo dõi
+## 9. Chỉ số theo dõi
 
 | # | Chỉ số | Cách tính | Tần suất | Ngưỡng cảnh báo |
 | --- | --- | --- | --- | --- |
@@ -1041,4 +1016,4 @@ Toàn bộ mục 6.9 là quy định nội bộ oBacker.
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.0.1 | Chuan hoa van phong hanh chinh, bo so dem tai tieu de va callout luu tru tai lieu ke toan |

@@ -4,27 +4,20 @@ code: "OBK-QCNS-08-PL-E"
 type: "sop"
 folder: "11_NhanSu"
 level: "Phụ lục"
-version: "R.1.0.0"
+version: "R.1.0.1"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 23/09/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-QCNS-08 Khung đánh giá hiệu suất"
 next_review: "Không quá 06 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-QCNS-08-PL-E
 tags:
   - loai/sop
   - cap/phu-luc
-  - nghiep-vu/nghia-vu-ke-toan
-  - nghiep-vu/bao-hiem-xa-hoi
-  - nghiep-vu/bao-cao-lao-dong
 ---
 # Phiếu vị trí
 
@@ -34,7 +27,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-QCNS-08-PL-E |
 | Cấp tài liệu | Phụ lục |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.0.1, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 23/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -46,7 +39,7 @@ tags:
 
 Phụ lục của [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] Khung đánh giá hiệu suất. Phụ lục này quy định phiếu của từng vị trí: đơn vị và cấp áp dụng, phụ lục áp dụng, tiêu chí lõi không áp, tiêu chí riêng và quy tắc chặn điểm riêng.
 
-Mã `CD-01` tới `CD-05` trong phụ lục này là quy tắc chặn điểm chung tại [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] mục 5. Mã `HS-01` tới `HS-04` là tiêu chí riêng của công việc dạng hồ sơ tại [[08_PL_B_Tieu_chi_cong_viec_dang_ho_so|OBK-QCNS-08-PL-B]] mục 2. Mã `CS-01` tới `CS-08` là chỉ số tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 11.1. Mã tiêu chí riêng dạng `TC-` và mã quy tắc chặn điểm riêng dạng `CD-` kèm mã đơn vị được định nghĩa tại phiếu của vị trí.
+Mã `CD-01` tới `CD-05` trong phụ lục này là quy tắc chặn điểm chung tại OBK-QCNS-08 mục 5. Mã `HS-01` tới `HS-04` là tiêu chí riêng của công việc dạng hồ sơ tại OBK-QCNS-08-PL-B mục 2. Mã `CS-01` tới `CS-08` là chỉ số tại OBK-SOP-00 mục 11.1. Mã tiêu chí riêng dạng `TC-` và mã quy tắc chặn điểm riêng dạng `CD-` kèm mã đơn vị được định nghĩa tại phiếu của vị trí.
 
 | Mục | Phiếu |
 | --- | --- |
@@ -166,10 +159,10 @@ Kế toán nội bộ, thuộc nhánh `CEO`, không thuộc Phòng Dịch vụ. 
 
 Bốn quy tắc đi kèm bảng trên:
 
-1. Cấp M1 của `KTT` là cấp năng lực, không phải chức danh người quản lý, điều hành theo Luật Kế toán, theo [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen|OBK-QCTC-02]] mục 19.1 và 19.2.
+1. Cấp M1 của `KTT` là cấp năng lực, không phải chức danh người quản lý, điều hành theo pháp luật. Kết luận và ràng buộc đi kèm đặt tại OBK-QCTC-02 mục 19.1 và 19.2.
 2. Cấp cao nhất của `KTV` là P3, vì phương pháp hạch toán trên sổ nội bộ thuộc quyền quyết của `KTT` theo [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen|OBK-QCTC-02]] mục 9.3, mô tả vị trí `KTT`.
 3. `AD-KT` là một vai trò, một mã, làm việc của Bộ phận Kế toán và Thuế và làm thêm việc đối chiếu sao kê cho Kế toán nội bộ. Người chấm `AD-KT` là Team Lead Bộ phận Kế toán và Thuế `TL-KT`. Chỉ số của việc đối chiếu sao kê không vào điểm cá nhân; chỉ số đó báo cáo thẳng Tổng giám đốc theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 34.3.
-4. Phiếu của `TQ` áp từ kỳ đầu tiên có người giữ vị trí `TQ`. Người giữ `TQ` phải khác người giữ `KTT`, `KTV`, `AD-KT`, và không được là người quản lý, điều hành, theo [[PL_Tu_dien_vai|OBK-QCTC-02-PL-A]] mục 4. Người giữ `TQ` kiêm một vị trí khác thì chọn khung chấm theo quy tắc 3 hoặc quy tắc 4 tại [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] mục 0a.1 trước khi kỳ bắt đầu.
+4. Phiếu của `TQ` áp từ kỳ đầu tiên có người giữ vị trí `TQ`. Người giữ `TQ` phải khác người giữ `KTT`, `KTV`, `AD-KT`, và không được là người quản lý, điều hành, theo điều kiện phân công tại OBK-QCTC-02-PL-A mục 4. Người giữ `TQ` kiêm một vị trí khác thì chọn khung chấm theo quy tắc 3 hoặc quy tắc 4 tại OBK-QCNS-08 mục 0a.1 trước khi kỳ bắt đầu.
 
 ### C.2. Phụ lục áp dụng
 
@@ -187,9 +180,9 @@ Tiêu chí A-03 đọc theo thời hạn theo pháp luật về thuế, bảo hi
 
 | Mã | Tiêu chí | Cách đo | Định mức | Căn cứ |
 | --- | --- | --- | --- | --- |
-| TC-KN-01 | Đúng hạn khóa sổ và báo cáo | Nghĩa vụ theo pháp luật: nộp báo cáo tài chính năm trong 90 ngày kể từ ngày kết thúc kỳ kế toán năm, Job `NB-25`, [[CC-KT-03 Nộp báo cáo tài chính năm, 90 ngày kể từ ngày kết thúc kỳ kế toán năm\|CC-KT-03]]; đưa tài liệu kế toán vào lưu trữ trong 12 tháng kể từ ngày kết thúc kỳ kế toán năm, Job `NB-27`, [[CC-KT-04 Lưu trữ tài liệu kế toán, đưa vào lưu trữ trong 12 tháng; ba mốc ít nhất 05 năm, ít nhất 10 năm, và vĩnh viễn\|CC-KT-04]]; kê khai và nộp thuế của chính oBacker, Job `NB-24`.<br>Mốc nội bộ: sáu báo cáo quản trị nội bộ theo thời hạn tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 43.9; `NB-24` làm trước 03 ngày làm việc trước thời hạn theo pháp luật; `NB-25` nộp trước thời hạn theo pháp luật ít nhất 05 ngày làm việc | 100% với nghĩa vụ theo pháp luật; định mức phần mốc nội bộ chưa có | Mốc 90 ngày: [[CC-KT-03 Nộp báo cáo tài chính năm, 90 ngày kể từ ngày kết thúc kỳ kế toán năm\|CC-KT-03]];<br>mốc 12 tháng: [[CC-KT-04 Lưu trữ tài liệu kế toán, đưa vào lưu trữ trong 12 tháng; ba mốc ít nhất 05 năm, ít nhất 10 năm, và vĩnh viễn\|CC-KT-04]];<br>mốc nội bộ: [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 43.9 và [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo\|OBK-SOP-NB-00]] mục 5 |
-| TC-KN-02 | Đối chiếu và độ chính xác | Số tài khoản ngân hàng không được đối chiếu trong kỳ, chốt `KS-NB-M3`; số ngày trễ của lượt đối chiếu nhanh so với ngày làm việc đầu tiên của kỳ sau; số sự cố chênh lệch còn mở tại thời điểm khóa sổ, chốt `KS-NB-M5`; số khoản tiền về chưa khớp hóa đơn tại cuối kỳ đối chiếu nhanh, chốt `KS-NB-T5` | 0 với cả bốn chỉ số | [[OBK-SOP-NB-03_Quan_ly_tien\|OBK-SOP-NB-03]] mục 10, chỉ số 3, 4, 7;<br>[[OBK-SOP-NB-02_Thu_tien_va_cong_no_phai_thu\|OBK-SOP-NB-02]] mục 10, chỉ số 3 |
-| TC-KN-03 | Tuân thủ quy trình tiền | Chứng từ chi tiền có chữ ký của người có thẩm quyền duyệt chi cùng người phụ trách kế toán trước khi thực hiện, chốt `KS-NB-M1`; phiếu thu và phiếu chi đủ chữ ký theo chức danh, lập ngay tại thời điểm nhập quỹ hoặc xuất quỹ, số liên tục trong kỳ, chốt `KS-NB-M4`; mỗi lần dùng con dấu hoặc chữ ký số có lệnh để lại dấu vết của `KTT` hoặc `TL-KT` | 100% | [[OBK-SOP-NB-03_Quan_ly_tien\|OBK-SOP-NB-03]] mục 7;<br>[[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen\|OBK-QCTC-02]] mục 9.4, mô tả vị trí `AD-KT` |
+| TC-KN-01 | Đúng hạn khóa sổ và báo cáo | Nghĩa vụ theo pháp luật: nộp báo cáo tài chính năm trong 90 ngày kể từ ngày kết thúc kỳ kế toán năm, Job `NB-25`, CC-KT-03; đưa tài liệu kế toán vào lưu trữ trong 12 tháng kể từ ngày kết thúc kỳ kế toán năm, Job `NB-27`, CC-KT-04; kê khai và nộp thuế của chính oBacker, Job `NB-24`.<br>Mốc nội bộ: sáu báo cáo quản trị nội bộ theo thời hạn tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 43.9; `NB-24` làm trước 03 ngày làm việc trước thời hạn theo pháp luật; `NB-25` nộp trước thời hạn theo pháp luật ít nhất 05 ngày làm việc | 100% với nghĩa vụ theo pháp luật; định mức phần mốc nội bộ chưa có | Mốc 90 ngày: CC-KT-03;<br>mốc 12 tháng: CC-KT-04;<br>mốc nội bộ: [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 43.9 và [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo\|OBK-SOP-NB-00]] mục 5 |
+| TC-KN-02 | Đối chiếu và độ chính xác | Số tài khoản ngân hàng không được đối chiếu trong kỳ, chốt `KS-NB-M3`; số ngày trễ của lượt đối chiếu nhanh so với ngày làm việc đầu tiên của kỳ sau; số sự cố chênh lệch còn mở tại thời điểm khóa sổ, chốt `KS-NB-M5`; số khoản tiền về chưa khớp hóa đơn tại cuối kỳ đối chiếu nhanh, chốt `KS-NB-T5` | 0 với cả bốn chỉ số | [[OBK-SOP-NB-03_Quan_ly_tien\|OBK-SOP-NB-03]] mục 9, chỉ số 3, 4, 7;<br>[[OBK-SOP-NB-02_Thu_tien_va_cong_no_phai_thu\|OBK-SOP-NB-02]] mục 9, chỉ số 3 |
+| TC-KN-03 | Tuân thủ quy trình tiền | Chứng từ chi tiền có chữ ký của người có thẩm quyền duyệt chi cùng người phụ trách kế toán trước khi thực hiện, chốt `KS-NB-M1`; phiếu thu và phiếu chi đủ chữ ký theo chức danh, lập ngay tại thời điểm nhập quỹ hoặc xuất quỹ, số liên tục trong kỳ, chốt `KS-NB-M4`; mỗi lần dùng con dấu hoặc chữ ký số có lệnh để lại dấu vết của `KTT` hoặc `TL-KT` | 100% | [[OBK-SOP-NB-03_Quan_ly_tien\|OBK-SOP-NB-03]] mục 6;<br>[[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen\|OBK-QCTC-02]] mục 9.4, mô tả vị trí `AD-KT` |
 | TC-KN-04 | Báo cáo nội bộ được duyệt lần đầu | Số báo cáo và bút toán được kế toán trưởng duyệt lần đầu chia tổng số | Từ 90% | Con số oBacker tự đặt |
 
 Tiêu chí TC-KN-02 không vào điểm cá nhân của `AD-KT`. Chỉ số của việc đối chiếu sao kê báo cáo thẳng Tổng giám đốc theo quy tắc 3 tại mục C.1.
@@ -198,9 +191,9 @@ Tiêu chí TC-KN-02 không vào điểm cá nhân của `AD-KT`. Chỉ số củ
 
 | Mã | Điều kiện | Hệ quả |
 | --- | --- | --- |
-| CD-KN-01 | Một người giữ đồng thời hai vai trò thuộc một trong hai điều cấm của Luật Kế toán: người có trách nhiệm quản lý, điều hành kiêm làm kế toán, thủ kho, thủ quỹ, theo Đ.13 k.7; người làm kế toán đồng thời là người quản lý, điều hành, thủ kho, thủ quỹ, người mua, bán tài sản trong cùng đơn vị kế toán, theo Đ.52 k.4. Mã căn cứ [[CC-KT-01 Ba điều cấm về bố trí người làm kế toán, áp dụng cho công ty cổ phần, người quản lý điều hành kiêm kế toán, thủ kho, thủ quỹ (`Đ.13 k.7`)\|CC-KT-01]] | Không xử lý bằng bảng điểm. Báo `CEO` trong ngày. Đây là vấn đề bố trí nhân sự, không phải vấn đề hiệu suất cá nhân |
+| CD-KN-01 | Một người giữ đồng thời hai vai trò thuộc một trong hai điều cấm của Luật Kế toán: người có trách nhiệm quản lý, điều hành kiêm làm kế toán, thủ kho, thủ quỹ, theo Đ.13 k.7; người làm kế toán đồng thời là người quản lý, điều hành, thủ kho, thủ quỹ, người mua, bán tài sản trong cùng đơn vị kế toán, theo Đ.52 k.4. Mã căn cứ CC-KT-01 | Không xử lý bằng bảng điểm. Báo `CEO` trong ngày. Đây là vấn đề bố trí nhân sự, không phải vấn đề hiệu suất cá nhân |
 
-Hai điều cấm trên theo Luật Kế toán 41/VBHN-VPQH Đ.13 k.7 và Đ.52 k.4. Ngoại lệ doanh nghiệp tư nhân và công ty trách nhiệm hữu hạn do một cá nhân làm chủ sở hữu không áp cho oBacker, vì oBacker là công ty cổ phần, theo [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo|OBK-SOP-NB-00]] mục 3.4. Ngoại lệ "các trường hợp khác do Chính phủ quy định" tại Đ.52 k.4 chưa xác minh được. Điều cấm thứ ba của [[CC-KT-01 Ba điều cấm về bố trí người làm kế toán, áp dụng cho công ty cổ phần, người quản lý điều hành kiêm kế toán, thủ kho, thủ quỹ (`Đ.13 k.7`)|CC-KT-01]] là quan hệ thân thích theo Đ.52 k.3. Điều cấm đó nằm ngoài CD-KN-01 vì không phải trường hợp kiêm nhiệm; [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen|OBK-QCTC-02]] mục 19.3 đặt việc kiểm điều cấm đó mỗi lần đổi người ở bốn vai trò `KTT`, `KTV`, `NĐDPL`, `TGĐ`.
+Hai điều cấm trên là điều cấm pháp luật đặt ra với bố trí người làm kế toán. Ngoại lệ doanh nghiệp tư nhân và công ty trách nhiệm hữu hạn do một cá nhân làm chủ sở hữu không áp cho oBacker, vì oBacker là công ty cổ phần, theo OBK-SOP-NB-00 mục 3.4. Ngoại lệ "các trường hợp khác do Chính phủ quy định" chưa xác minh được. Điều cấm thứ ba là quan hệ thân thích với người đại diện theo pháp luật, giám đốc, cấp phó phụ trách tài chính kế toán hoặc kế toán trưởng. Điều cấm đó nằm ngoài CD-KN-01 vì không phải trường hợp kiêm nhiệm; OBK-QCTC-02 mục 19.3 đặt việc kiểm điều cấm đó mỗi lần đổi người ở bốn vai trò `KTT`, `KTV`, `NĐDPL`, `TGĐ`.
 
 ---
 
@@ -235,7 +228,7 @@ Hai quy tắc đi kèm bảng trên:
 
 | Mã | Tiêu chí | Cách đo | Định mức | Căn cứ |
 | --- | --- | --- | --- | --- |
-| TC-HR-01 | Đúng hạn nghĩa vụ theo pháp luật lao động | Chỉ số 10 tại [[OBK-SOP-NB-04_Cong_va_tien_luong_noi_bo\|OBK-SOP-NB-04]] mục 10: số nghĩa vụ tại mục 6.7 hoàn thành sau thời hạn theo pháp luật. Nghĩa vụ có mốc: kê khai và nộp hồ sơ tham gia bảo hiểm xã hội bắt buộc trong 30 ngày kể từ ngày người lao động thuộc đối tượng tham gia, Job NB-39 và NB-40, [[CC-LD-140 Kê khai và nộp hồ sơ tham gia BHXH bắt buộc trong 30 NGÀY kể từ ngày NLĐ thuộc đối tượng tham gia\|CC-LD-140]]; nộp tiền bảo hiểm xã hội chậm nhất ngày cuối cùng của tháng tiếp theo, Job NB-42, [[CC-LD-143 Hạn nộp tiền BHXH hằng tháng, chậm nhất ngày cuối cùng của tháng tiếp theo\|CC-LD-143]]; cập nhật sổ quản lý lao động kể từ ngày người lao động bắt đầu làm việc, Job NB-44, [[CC-LD-125 Trách nhiệm cập nhật sổ kể từ ngày NLĐ bắt đầu làm việc; xuất trình khi có yêu cầu\|CC-LD-125]]; báo cáo tình hình thay đổi lao động định kỳ 06 tháng trước ngày 05 tháng 6 và hằng năm trước ngày 05 tháng 12, Job NB-45 và NB-46, [[CC-LD-121 Báo cáo 06 tháng trước ngày 05 tháng 6; hằng năm trước ngày 05 tháng 12, gửi Sở Nội vụ qua Cổng Dịch vụ công Quốc gia theo Mẫu 01-PLI\|CC-LD-121]]. Mốc số ngày của việc báo giảm lao động tại Job NB-41 và chốt sổ bảo hiểm xã hội tại Job NB-43 chưa xác minh được | 100%, tức chỉ số 10 bằng 0 | [[CC-LD-140 Kê khai và nộp hồ sơ tham gia BHXH bắt buộc trong 30 NGÀY kể từ ngày NLĐ thuộc đối tượng tham gia\|CC-LD-140]];<br>[[CC-LD-143 Hạn nộp tiền BHXH hằng tháng, chậm nhất ngày cuối cùng của tháng tiếp theo\|CC-LD-143]];<br>[[CC-LD-125 Trách nhiệm cập nhật sổ kể từ ngày NLĐ bắt đầu làm việc; xuất trình khi có yêu cầu\|CC-LD-125]];<br>[[CC-LD-121 Báo cáo 06 tháng trước ngày 05 tháng 6; hằng năm trước ngày 05 tháng 12, gửi Sở Nội vụ qua Cổng Dịch vụ công Quốc gia theo Mẫu 01-PLI\|CC-LD-121]] |
+| TC-HR-01 | Đúng hạn nghĩa vụ theo pháp luật lao động | Chỉ số 10 tại [[OBK-SOP-NB-04_Cong_va_tien_luong_noi_bo\|OBK-SOP-NB-04]] mục 9: số nghĩa vụ tại mục 5.7 hoàn thành sau thời hạn theo pháp luật. Nghĩa vụ có mốc: kê khai và nộp hồ sơ tham gia bảo hiểm xã hội bắt buộc trong 30 ngày kể từ ngày người lao động thuộc đối tượng tham gia, Job NB-39 và NB-40, CC-LD-140; nộp tiền bảo hiểm xã hội chậm nhất ngày cuối cùng của tháng tiếp theo, Job NB-42, CC-LD-143; cập nhật sổ quản lý lao động kể từ ngày người lao động bắt đầu làm việc, Job NB-44, CC-LD-125; báo cáo tình hình thay đổi lao động định kỳ 06 tháng trước ngày 05 tháng 6 và hằng năm trước ngày 05 tháng 12, Job NB-45 và NB-46, CC-LD-121. Mốc số ngày của việc báo giảm lao động tại Job NB-41 và chốt sổ bảo hiểm xã hội tại Job NB-43 chưa xác minh được | 100%, tức chỉ số 10 bằng 0 | CC-LD-140;<br>CC-LD-143;<br>CC-LD-125;<br>CC-LD-121 |
 | TC-HR-02 | Hồ sơ nhân sự, nhận việc và nghỉ việc | Hồ sơ đủ thành phần; thu hồi quyền truy cập khi nghỉ việc; bàn giao có biên bản | 100% | Con số oBacker tự đặt |
 | TC-HR-03 | Thời hạn nội bộ | Job NB-33 gửi bảng công tạm ngày 16 hằng tháng; Job NB-34 chốt bảng công ngày 20; Job NB-47 rà soát giới hạn giờ làm thêm ngày 20. Yêu cầu hành chính, tài sản, văn phòng chưa có thời hạn nội bộ | Từ 90% | Mốc của NB-33, NB-34, NB-47: [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo\|OBK-SOP-NB-00]] mục 9;<br>định mức: con số oBacker tự đặt |
 | TC-HR-04 | Hồ sơ được duyệt lần đầu | Số hồ sơ được duyệt lần đầu chia tổng số | Từ 90% | Con số oBacker tự đặt |
@@ -250,7 +243,7 @@ Không có quy tắc riêng. Năm quy tắc chung tại [[08_Khung_danh_gia_hieu
 
 ### E.1. Đơn vị và cấp áp dụng
 
-Bộ phận Nghiên cứu và Phát triển pháp lý, thuộc nhánh `CEO`, không thuộc Phòng Dịch vụ. Paralegal `CV-RD` ở cấp P1 đến P4. Legal R&D Team Lead `TL-RD` ở cấp M1. [[08_PL_C_Ky_nang_chuyen_mon|OBK-QCNS-08-PL-C]] mục 5.6 có bậc yêu cầu cho cột P1 và cột M1. Bảng tại mục 5.6 chưa có bậc yêu cầu của ba cột P2, P3, P4. Người giữ `CV-RD` ở cấp P2 đến P4 chưa xét được điều kiện năng lực tại bảng kỹ năng chuyên môn.
+Bộ phận Nghiên cứu và Phát triển pháp lý, thuộc nhánh `CEO`, không thuộc Phòng Dịch vụ. Paralegal `CV-RD` ở cấp P1 đến P4. Legal R&D Team Lead `TL-RD` ở cấp M1. Bảng kỹ năng tại OBK-QCNS-08-PL-C mục 5.6 có bậc yêu cầu cho cột P1 và cột M1. Bảng tại mục 5.6 chưa có bậc yêu cầu của ba cột P2, P3, P4. Người giữ `CV-RD` ở cấp P2 đến P4 chưa xét được điều kiện năng lực tại bảng kỹ năng chuyên môn.
 
 ### E.2. Phụ lục áp dụng
 
@@ -302,7 +295,7 @@ Không có tiêu chí lõi nào không áp.
 | Mã | Tiêu chí | Cách đo | Định mức | Căn cứ |
 | --- | --- | --- | --- | --- |
 | TC-LIC-01 | Phân bổ công bằng trong bộ phận | Chỉ số `LIC-M02`: chênh lệch điểm phức tạp giữa người cao nhất và người thấp nhất so với bình quân nhóm | Không lệch quá 30% so với bình quân, trừ người đang trong thời gian làm quen | [[04_OBK-SOP-LIC_Giay_phep\|OBK-SOP-LIC]] mục 6, chỉ số `LIC-M02` |
-| TC-LIC-02 | Đào tạo, lưu trữ hồ sơ và đóng công việc | Tham gia đào tạo; lưu trữ đạt khi kiểm tra; đóng Job đủ trường bắt buộc | 100% ở mọi cấp; cấp M1: 100% và có đào tạo | Đào tạo: con số oBacker tự đặt;<br>lưu trữ và đóng Job: [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 6, điều kiện xong của B2 và B10 |
+| TC-LIC-02 | Đào tạo, lưu trữ hồ sơ và đóng công việc | Tham gia đào tạo; lưu trữ đạt khi kiểm tra; đóng Job đủ trường bắt buộc | 100% ở mọi cấp; cấp M1: 100% và có đào tạo | Đào tạo: con số oBacker tự đặt;<br>lưu trữ và đóng Job: [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 6, điều kiện xong của B2 và B5 |
 
 Tiêu chí TC-LIC-01 chỉ áp cho cấp M1, vì người phân việc mới là người quyết được độ lệch. Bốn cấp P1 đến P4 không áp tiêu chí này.
 
@@ -356,7 +349,7 @@ Bộ phận Lao động và Tiền lương, Phòng Dịch vụ. `CV-LD` ở cấ
 
 [[08_PL_B_Tieu_chi_cong_viec_dang_ho_so|OBK-QCNS-08-PL-B]] áp đủ. [[08_PL_C_Ky_nang_chuyen_mon|OBK-QCNS-08-PL-C]] áp theo mục 5.1. [[08_PL_D_Van_hanh_viec_cham|OBK-QCNS-08-PL-D]] áp đủ.
 
-Chỉ số đo được của mảng Lao động và Tiền lương chấm ở phần A bằng số liệu, không chấm bằng bậc thành thạo, theo [[08_PL_C_Ky_nang_chuyen_mon|OBK-QCNS-08-PL-C]] mục 4.
+Chỉ số đo được của mảng Lao động và Tiền lương chấm ở phần A bằng số liệu, không chấm bằng bậc thành thạo, theo danh mục chỉ số ngoài bảng kỹ năng tại OBK-QCNS-08-PL-C mục 4.
 
 ### H.3. Tiêu chí lõi không áp
 
@@ -383,7 +376,7 @@ Bộ phận Công nghệ và Sản phẩm có một vị trí chuyên môn là P
 
 ### I.2. Phụ lục áp dụng
 
-[[08_PL_B_Tieu_chi_cong_viec_dang_ho_so|OBK-QCNS-08-PL-B]] không áp: đầu ra không phải hồ sơ nộp cơ quan nhà nước. [[08_PL_C_Ky_nang_chuyen_mon|OBK-QCNS-08-PL-C]] áp theo mục 5.2, là bảng 14 kỹ năng của vị trí Product Owner. [[08_PL_D_Van_hanh_viec_cham|OBK-QCNS-08-PL-D]] áp đủ.
+OBK-QCNS-08-PL-B không áp: đầu ra không phải hồ sơ nộp cơ quan nhà nước. OBK-QCNS-08-PL-C áp theo mục 5.2, là bảng 14 kỹ năng của vị trí Product Owner. OBK-QCNS-08-PL-D áp đủ.
 
 ### I.3. Tiêu chí lõi không áp
 
@@ -391,7 +384,7 @@ Bộ phận Công nghệ và Sản phẩm có một vị trí chuyên môn là P
 | --- | --- |
 | A-06 Khiếu nại của khách hàng | Bộ phận không có khách hàng bên ngoài. Phản hồi của người dùng trong công ty đo riêng tại TC-CN-01 |
 
-Tiêu chí A-03 đọc theo hạn cam kết của đợt phát hành, không theo thời hạn theo pháp luật. Quy tắc chặn điểm `CD-01` tại [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] mục 5 không áp.
+Tiêu chí A-03 đọc theo hạn cam kết của đợt phát hành, không theo thời hạn theo pháp luật. Quy tắc chặn điểm `CD-01` tại OBK-QCNS-08 mục 5 không áp.
 
 ### I.4. Tiêu chí riêng
 
@@ -430,7 +423,7 @@ Bộ phận Marketing, thuộc nhánh `CMO`, không thuộc Phòng Dịch vụ. 
 
 ### J.2. Phụ lục áp dụng
 
-[[08_PL_B_Tieu_chi_cong_viec_dang_ho_so|OBK-QCNS-08-PL-B]] không áp: đầu ra không phải hồ sơ nộp cơ quan nhà nước hoặc văn bản pháp lý giao khách hàng. [[08_PL_C_Ky_nang_chuyen_mon|OBK-QCNS-08-PL-C]] chưa có bảng kỹ năng cho vị trí này. [[08_PL_D_Van_hanh_viec_cham|OBK-QCNS-08-PL-D]] áp đủ.
+OBK-QCNS-08-PL-B không áp: đầu ra không phải hồ sơ nộp cơ quan nhà nước hoặc văn bản pháp lý giao khách hàng. OBK-QCNS-08-PL-C chưa có bảng kỹ năng cho vị trí này. OBK-QCNS-08-PL-D áp đủ.
 
 ### J.3. Tiêu chí lõi không áp
 
@@ -464,7 +457,7 @@ Vị trí `TP Thương mại` do `CEO` kiêm, nên người chấm là `CEO`, th
 
 ### K.2. Phụ lục áp dụng
 
-[[08_PL_B_Tieu_chi_cong_viec_dang_ho_so|OBK-QCNS-08-PL-B]] không áp: đầu ra không phải hồ sơ nộp cơ quan nhà nước hoặc văn bản pháp lý giao khách hàng. [[08_PL_C_Ky_nang_chuyen_mon|OBK-QCNS-08-PL-C]] chưa có bảng kỹ năng cho vị trí này. [[08_PL_D_Van_hanh_viec_cham|OBK-QCNS-08-PL-D]] áp đủ.
+OBK-QCNS-08-PL-B không áp: đầu ra không phải hồ sơ nộp cơ quan nhà nước hoặc văn bản pháp lý giao khách hàng. OBK-QCNS-08-PL-C chưa có bảng kỹ năng cho vị trí này. OBK-QCNS-08-PL-D áp đủ.
 
 ### K.3. Tiêu chí lõi không áp
 
@@ -484,4 +477,4 @@ Không có quy tắc chặn điểm riêng.
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.0.1 | Đổi dẫn chiếu bước B10 thành B5 tại tiêu chí TC-LIC-02 |

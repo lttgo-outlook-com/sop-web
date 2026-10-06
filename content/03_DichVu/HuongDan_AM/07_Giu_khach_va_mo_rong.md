@@ -4,27 +4,20 @@ code: "OBK-HB-37"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.0"
+version: "R.1.0.1"
 status: "đang áp dụng"
-draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 07/09/2026"
+draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
 parent: "OBK-SOP-AM Quản lý khách hàng"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-HB-37
 tags:
   - loai/sop
   - cap/3
-  - nghiep-vu/bao-cao-lao-dong
-  - nghiep-vu/noi-quy-lao-dong
-  - nghiep-vu/gop-von-dieu-le
-  - nghiep-vu/muc-toi-da-luat-dinh
 ---
 # HƯỚNG DẪN 07. GIỮ KHÁCH VÀ MỞ RỘNG DOANH THU
 
@@ -32,8 +25,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-HB-37 |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.1.0.0, đang áp dụng |
-| Ngày biên soạn | 01/10/2026 |
+| Phiên bản | R.1.0.1, đang áp dụng |
+| Ngày biên soạn | 04/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 07/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -48,7 +41,11 @@ tags:
 
 Hướng dẫn này phục vụ bảy Job: `AM-16` khảo sát hài lòng, `AM-17` đánh giá sức khỏe tài khoản, `AM-18` gia hạn hợp đồng, `AM-27` rà soát định kỳ với khách, `AM-28` phát hiện sớm dấu hiệu rời bỏ, `AM-29` bán thêm và bán chéo, và `AM-30` rà soát khớp phạm vi hợp đồng với việc đang chạy.
 
-Hướng dẫn này giải ba việc. Một, biến điểm sức khỏe và kết quả khảo sát từ hai con số thành hành động. Hai, nhận ra khách sắp rời bỏ khi còn kịp làm gì đó. Ba, bán thêm dựa trên nghĩa vụ thật của khách, không dựa trên danh mục dịch vụ của oBacker.
+Hướng dẫn này đạt ba mục đích.
+
+1. Điểm sức khỏe và kết quả khảo sát là cơ sở cho hành động, không phải hai con số để theo dõi.
+2. Dấu hiệu khách sắp rời bỏ được nhận ra khi còn kịp xử lý.
+3. Bán thêm dựa trên nghĩa vụ thật của khách, không dựa trên danh mục dịch vụ của oBacker.
 
 ## 2. PHẠM VI ÁP DỤNG
 
@@ -58,18 +55,8 @@ Không áp cho khách đã thông báo chấm dứt; khách đó đi theo hướ
 
 Tần suất: `AM-27` và `AM-30` theo quý, trong 10 ngày làm việc đầu của quý sau. `AM-17` theo quý. `AM-16` theo mốc 01 tháng, 03 tháng, 06 tháng sau onboarding, rồi hằng năm. Khách nhóm rủi ro cao thì `AM-27` chuyển sang kỳ tháng.
 
-## 3. CĂN CỨ PHÁP LÝ
 
-| Mã | Dùng ở bước nào | Vì sao cần |
-| --- | --- | --- |
-| [[CC-LD-121 Báo cáo 06 tháng trước ngày 05 tháng 6; hằng năm trước ngày 05 tháng 12, gửi Sở Nội vụ qua Cổng Dịch vụ công Quốc gia theo Mẫu 01-PLI\|CC-LD-121]] | Bước 2 và bước 5, khi rà nghĩa vụ sắp tới của khách | Nghĩa vụ báo cáo tình hình sử dụng lao động và hai mốc trong năm;<br>đây là nguồn cơ hội bán thêm rõ ràng nhất với khách chỉ mua gói kế toán |
-| [[CC-LD-90 Phải ban hành nội quy lao động; từ 10 NLĐ trở lên thì nội quy phải BẰNG VĂN BẢN\|CC-LD-90]] | Bước 5 | Nghĩa vụ đăng ký nội quy lao động với khách từ 10 người lao động trở lên;<br>khách vượt ngưỡng 10 người trong kỳ là cơ hội bán thêm và đồng thời là rủi ro tuân thủ |
-| [[CC-DN-40 TNHH hai thành viên trở lên, góp đủ trong 90 NGÀY kể từ ngày được cấp GCN ĐKDN, không kể thời gian vận chuyển, nhập khẩu\|CC-DN-40]] | Bước 5 | Hạn góp vốn điều lệ;<br>dùng để nhắc khách mới thành lập |
-| [[CC-KT-11 Chi trang phục bằng tiền, 05 triệu đồng-người-năm\|CC-KT-11]] tới [[CC-KT-16 Ô tô chở người từ 9 chỗ trở xuống, khấu hao tương ứng phần nguyên giá vượt 1,6 tỷ đồng-xe không được trừ\|CC-KT-16]] | Bước 5 | Sáu khoản có mức khống chế phải chốt trước cuối năm;<br>nguồn của cơ hội bán thêm bản rà soát cuối năm cho khách chỉ mua gói lao động |
-
-`AM` dùng các mã trên để BIẾT nghĩa vụ nào sắp tới, không dùng để tư vấn nội dung. Nội dung do bộ phận trả lời, theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] NT-2.
-
-## 4. VAI TRÒ VÀ TRÁCH NHIỆM
+## 3. VAI TRÒ VÀ TRÁCH NHIỆM
 
 | Việc | `AM` | `TL` bộ phận | TP Thương mại | `COO` |
 | --- | --- | --- | --- | --- |
@@ -81,7 +68,7 @@ Tần suất: `AM-27` và `AM-30` theo quý, trong 10 ngày làm việc đầu c
 | Rà khớp phạm vi hợp đồng với việc đang chạy | R và A | C | I | I |
 | Quyết xử lý việc đang làm mà ngoài phạm vi | C | C | A trong khung | C |
 
-## 5. ĐẦU VÀO BẮT BUỘC
+## 4. ĐẦU VÀO BẮT BUỘC
 
 | Đầu vào | Thiếu thì sao |
 | --- | --- |
@@ -91,9 +78,9 @@ Tần suất: `AM-27` và `AM-30` theo quý, trong 10 ngày làm việc đầu c
 | Danh mục nghĩa vụ sắp tới của khách, do `TL` bộ phận cấp | Vẫn rà soát được, nhưng bản rà soát mất phần giá trị nhất với khách.<br>Xin từ `TL` trong 03 giờ làm việc theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 7.4 |
 | Phạm vi ghi trong hợp đồng và phụ lục | Không chạy được `AM-30` |
 
-## 6. CÁC BƯỚC THỰC HIỆN
+## 5. CÁC BƯỚC THỰC HIỆN
 
-### 6.1. Bước 1. Tính điểm sức khỏe tài khoản, mỗi quý
+### 5.1. Bước 1. Tính điểm sức khỏe tài khoản, mỗi quý
 
 Bảng năm nhóm, cách trừ điểm, và ba ngưỡng phân nhóm rủi ro ĐẶT tại [[02_OBK-SOP-AM_Quan_ly_khach_hang|OBK-SOP-AM]] mục 9.3. Mục này không chép lại con số, vì `PL_3` mục 4.1 cấm cấp 3 chứa định mức.
 
@@ -101,9 +88,9 @@ Ba việc phải làm ở bước này:
 
 1. Lấy số của năm nhóm từ `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]` và từ kế toán nội bộ. Nhóm nào không lấy được số thì ghi rõ là chưa có số, không ước lượng bằng cảm nhận.
 2. Tính điểm theo bảng ở [[02_OBK-SOP-AM_Quan_ly_khach_hang|OBK-SOP-AM]] mục 9.3, rồi ghi cả TỔNG và số của từng nhóm vào Job `AM-17`. Ghi tổng mà không ghi từng nhóm thì bước 4 không nhận ra dấu hiệu nào bật lên.
-3. Đối chiếu tổng với ba ngưỡng ở mục 9.3 để xếp nhóm rủi ro, và kiểm riêng nhóm Tuân thủ, vì nhóm đó về 0 thì khách vào nhóm rủi ro cao bất kể tổng điểm. Lý do của quy tắc riêng đó: một Job trễ hạn pháp định là thứ khách nhớ lâu nhất và là thứ có thể làm khách rời ngay.
+3. Đối chiếu tổng điểm với các ngưỡng tại mục 9.3 để phân loại mức độ rủi ro, đồng thời kiểm tra riêng nhóm chỉ số Tuân thủ. Trường hợp nhóm Tuân thủ bằng 0 điểm, tài khoản khách hàng được xếp vào nhóm rủi ro cao bất kể tổng điểm chung, do sự cố vi phạm thời hạn pháp lý tiềm ẩn rủi ro chấm dứt hợp đồng dịch vụ.
 
-### 6.2. Bước 2. Rà soát định kỳ với khách, mỗi quý
+### 5.2. Bước 2. Rà soát định kỳ với khách, mỗi quý
 
 Chuẩn bị ba thứ trước cuộc rà: điểm sức khỏe và ba nhóm bị trừ điểm nhiều nhất; danh mục Job đã làm trong kỳ; và danh mục nghĩa vụ sắp tới của khách, xin từ `TL` bộ phận.
 
@@ -116,13 +103,13 @@ Biên bản rà soát gửi khách qua email công ty, đủ bốn phần:
 
 Phần 3 là phần khách đọc kỹ nhất, và là phần sinh ra `AM-29`.
 
-### 6.3. Bước 3. Khảo sát mức độ hài lòng
+### 5.3. Bước 3. Khảo sát mức độ hài lòng
 
 Gửi tại mốc 01 tháng, 03 tháng, 06 tháng sau onboarding, rồi hằng năm. Bốn câu, không hơn: mức độ hài lòng chung; việc gì oBacker làm tốt; việc gì oBacker nên sửa; và khách có sẵn sàng giới thiệu oBacker hay không.
 
 Điểm dưới 4,0 thì trong 03 ngày làm việc phải có một cuộc trao đổi với khách về đúng câu khách chấm thấp. Khảo sát không có phản hồi là khảo sát vô ích, và khảo sát đó còn làm khách nghĩ oBacker hỏi cho có.
 
-### 6.4. Bước 4. Phát hiện sớm dấu hiệu rời bỏ
+### 5.4. Bước 4. Phát hiện sớm dấu hiệu rời bỏ
 
 Bảng dưới đây có bảy dấu hiệu. Nếu khách có từ hai dấu hiệu trở lên, hoặc có một dấu hiệu ở ba dòng đầu, thì chạy `AM-28`.
 
@@ -138,20 +125,20 @@ Bảng dưới đây có bảy dấu hiệu. Nếu khách có từ hai dấu hi�
 
 Kế hoạch giữ khách lập trong 03 ngày làm việc, có người làm và có mốc. Nhóm rủi ro cao thì báo TP Thương mại cùng ngày. Kế hoạch phải trả lời một câu: khách đang không nhận được cái gì mà khách cần.
 
-### 6.5. Bước 5. Bán thêm và bán chéo
+### 5.5. Bước 5. Bán thêm và bán chéo
 
 Nguồn cơ hội, theo thứ tự dễ nhất tới khó nhất:
 
 1. Nghĩa vụ của khách chưa được hợp đồng phủ, phát hiện tại phần 3 của biên bản rà soát. Đây là nguồn tốt nhất vì nghĩa vụ chưa được phủ xuất phát từ nhu cầu thật.
 2. Việc khách đang tự làm mà làm không đúng, phát hiện qua hồ sơ bộ phận thấy.
-3. Ngưỡng khách vừa vượt, ví dụ vượt 10 người lao động thì phát sinh nghĩa vụ đăng ký nội quy theo [[CC-LD-90 Phải ban hành nội quy lao động; từ 10 NLĐ trở lên thì nội quy phải BẰNG VĂN BẢN|CC-LD-90]].
+3. Ngưỡng khách vừa vượt, ví dụ vượt 10 người lao động thì phát sinh nghĩa vụ ban hành nội quy lao động bằng văn bản.
 4. Dịch vụ mới oBacker vừa có.
 
 Trình tự: xin xác nhận năng lực phục vụ của `TL` bộ phận trước, rồi đề xuất trong 05 ngày làm việc. Cam kết mốc theo `KS-AM-01`, không cam kết trước khi `TL` xác nhận.
 
 Không bán thêm cho khách đang ở nhóm rủi ro cao mà chưa xử lý xong nguyên nhân. Bán thêm lúc đó làm khách nghĩ oBacker quan tâm doanh thu hơn chất lượng.
 
-### 6.6. Bước 6. Rà khớp phạm vi hợp đồng với việc đang chạy, mỗi quý
+### 5.6. Bước 6. Rà khớp phạm vi hợp đồng với việc đang chạy, mỗi quý
 
 Chạy `AM-30`. Lấy hai danh sách rồi so: phạm vi ghi trong hợp đồng và phụ lục; và danh mục Job đã chạy thật cho khách trong kỳ.
 
@@ -162,15 +149,15 @@ Hai loại lệch, hai cách xử:
 | Việc đang làm mà ngoài phạm vi | oBacker đang làm không công, và không có căn cứ hợp đồng nếu có tranh chấp | Dừng nhận thêm việc loại đó, và chuyển `AM-23` trong 02 ngày làm việc để mở rộng phạm vi và phí |
 | Việc TRONG phạm vi mà chưa làm | Khách đã trả tiền mà chưa nhận đủ | Báo `TL` bộ phận trong cùng ngày làm việc, và đưa vào phần 2 của biên bản rà soát kỳ sau |
 
-### 6.7. Bước 7. Gia hạn hợp đồng
+### 5.7. Bước 7. Gia hạn hợp đồng
 
 Rà soát và liên hệ khách trước 60 NGÀY so với ngày hết hạn. Job `AM-18` phải được tạo tự động ở mốc đó.
 
 Ba đầu vào bắt buộc: điểm sức khỏe kỳ gần nhất; kết quả `AM-30` để biết phạm vi có cần chỉnh không; và xác nhận năng lực phục vụ tiếp của `TL` bộ phận.
 
-Đề xuất gia hạn trong 03 ngày làm việc sau khi trao đổi. Theo đuổi mỗi 03 ngày. Ký xong trước ngày hết hạn. Hợp đồng hết hạn mà dịch vụ vẫn chạy là lỗi thường gặp đã ghi tại [[02_OBK-SOP-AM_Quan_ly_khach_hang|OBK-SOP-AM]] mục 7.
+Đề xuất gia hạn trong 03 ngày làm việc sau khi trao đổi. Theo đuổi mỗi 03 ngày. Ký xong trước ngày hết hạn. Hợp đồng hết hạn mà dịch vụ vẫn chạy là lỗi thường gặp đã ghi tại OBK-SOP-AM mục 7.
 
-## 7. ĐIỂM KIỂM SOÁT BẮT BUỘC
+## 6. ĐIỂM KIỂM SOÁT BẮT BUỘC
 
 | Mã | Chốt | Trước bước nào | Không đạt thì làm gì |
 | --- | --- | --- | --- |
@@ -180,7 +167,7 @@ Ba đầu vào bắt buộc: điểm sức khỏe kỳ gần nhất; kết quả
 | Chốt 4 | Mọi dòng lệch phát hiện tại `AM-30` đều có kết luận xử lý, không dòng nào để trống | Trước khi đóng `AM-30` | Chưa đóng Job. Dòng lệch để trống là dòng sẽ lệch tiếp kỳ sau |
 | Chốt 5 | Job `AM-18` được tạo trước 60 ngày so với ngày hết hạn hợp đồng | Mốc tự động | Tạo tay ngay khi phát hiện, và báo TP Thương mại vì đó là lỗi cấu hình hệ thống |
 
-## 8. LỖI THƯỜNG GẶP VÀ CÁCH XỬ LÝ
+## 7. LỖI THƯỜNG GẶP VÀ CÁCH XỬ LÝ
 
 | Lỗi thường gặp | Dấu hiệu nhận ra | Cách xử lý |
 | --- | --- | --- |
@@ -192,7 +179,7 @@ Ba đầu vào bắt buộc: điểm sức khỏe kỳ gần nhất; kết quả
 | Làm không công mà không biết | `AM-30` phát hiện nhiều dòng việc ngoài phạm vi đã chạy vài quý | `AM-30` chạy theo quý chính là để bắt các dòng việc ngoài phạm vi đó. Mỗi quý bỏ một lần là một quý làm không công |
 | Hợp đồng hết hạn mà dịch vụ vẫn chạy | Bộ phận vẫn làm, hợp đồng đã hết hiệu lực | Chốt 5. Không có căn cứ hợp đồng thì không có căn cứ thu phí và không có căn cứ khi tranh chấp |
 
-## 9. ĐẦU RA VÀ NƠI LƯU
+## 8. ĐẦU RA VÀ NƠI LƯU
 
 | Đầu ra | Nơi lưu | Giữ bao lâu |
 | --- | --- | --- |
@@ -203,7 +190,7 @@ Ba đầu vào bắt buộc: điểm sức khỏe kỳ gần nhất; kết quả
 | Bảng so phạm vi hợp đồng với việc đang chạy, kèm kết luận từng dòng lệch | Job `AM-30` | Như trên |
 | Hợp đồng gia hạn đã ký | `[KHO LƯU TRỮ HỒ SƠ]`, đính vào Job `AM-18` | Theo thời hạn lưu hợp đồng của oBacker |
 
-## 10. CHỈ SỐ THEO DÕI
+## 9. CHỈ SỐ THEO DÕI
 
 | Mã | Chỉ số | Ngưỡng | Đọc ở đâu |
 | --- | --- | --- | --- |
@@ -229,4 +216,4 @@ Ba đầu vào bắt buộc: điểm sức khỏe kỳ gần nhất; kết quả
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.0.1 | Chuyển số đếm liệt kê ở phần mục đích của hướng dẫn giữ khách và mở rộng thành quy định. |

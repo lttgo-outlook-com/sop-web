@@ -4,19 +4,16 @@ code: "OBK-SOP-16"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.0"
+version: "R.1.0.1"
 status: "đang áp dụng"
-draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 25/08/2026"
+draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
 parent: "OBK-SOP-KT Kế toán và thuế"
 next_review: "Chậm nhất 31/12/2026"
 chapter: "Kiểm tra thuế và xử lý khi bị chuyển hồ sơ sang cơ quan thanh tra"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-SOP-16
 tags:
@@ -33,8 +30,8 @@ tags:
 | Mã tài liệu | OBK-SOP-16 |
 | Tên chương | Kiểm tra thuế và xử lý khi bị chuyển hồ sơ sang cơ quan thanh tra |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.1.0.0, đang áp dụng |
-| Ngày biên soạn | 01/10/2026 |
+| Phiên bản | R.1.0.1, đang áp dụng |
+| Ngày biên soạn | 04/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -45,7 +42,7 @@ tags:
 ---
 
 > [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
-> Luật Quản lý thuế số 108/2025/QH15 không còn chế định thanh tra thuế. Mục 6 của Luật là KIỂM TRA THUẾ, gồm Điều 22 và Điều 23; Mục 7 là ẤN ĐỊNH THUẾ, gồm Điều 24 và Điều 25 `[Luật QLT 108/2025 Mục 6, Mục 7]`. Cơ quan thuế thực hiện KIỂM TRA, không thực hiện thanh tra; toàn bộ quy trình chi tiết trong chương này là quy trình KIỂM TRA. Cơ quan thuế chỉ CHUYỂN HỒ SƠ sang cơ quan thanh tra đối với vụ việc phức tạp, phạm vi rộng `[Luật QLT 108/2025 Đ.22 k.5 đ.a; TT 89/2026 Đ.88 k.4 đ.đ]`. Khi giấy khách nhận ghi chữ THANH TRA chứ không phải KIỂM TRA, tuyệt đối không suy diễn rằng trình tự thanh tra giống trình tự kiểm tra; xem mục 6.12.
+> Luật Quản lý thuế số 108/2025/QH15 không còn chế định thanh tra thuế. Mục 6 của Luật là KIỂM TRA THUẾ, gồm Điều 22 và Điều 23; Mục 7 là ẤN ĐỊNH THUẾ, gồm Điều 24 và Điều 25 `[Luật QLT 108/2025 Mục 6, Mục 7]`. Cơ quan thuế thực hiện KIỂM TRA, không thực hiện thanh tra; toàn bộ quy trình chi tiết trong chương này là quy trình KIỂM TRA. Cơ quan thuế chỉ CHUYỂN HỒ SƠ sang cơ quan thanh tra đối với vụ việc phức tạp, phạm vi rộng `[Luật QLT 108/2025 Đ.22 k.5 đ.a; TT 89/2026 Đ.88 k.4 đ.đ]`. Khi giấy khách nhận ghi chữ THANH TRA chứ không phải KIỂM TRA, tuyệt đối không suy diễn rằng trình tự thanh tra giống trình tự kiểm tra; xem mục 5.12.
 
 > [!note] THỜI HẠN KIỂM TRA TẠI TRỤ SỞ NGƯỜI NỘP THUẾ
 > Thông tư 89/2026 dẫn chiếu điểm a và điểm d khoản 3 Điều 22 Luật Quản lý thuế 108/2025 `[TT 89/2026 Đ.88 k.2]`. Nguyên văn điểm d khoản 3 Điều 22: "Thời hạn kiểm tra thuế không quá 20 ngày, kể từ ngày công bố quyết định kiểm tra, trường hợp cần thiết thì có thể gia hạn 01 lần nhưng không quá 20 ngày. Thời hạn kiểm tra thuế đối với doanh nghiệp có giao dịch liên kết không quá 40 ngày, trường hợp cần thiết thì có thể gia hạn 01 lần nhưng không quá 40 ngày. Trường hợp cần thu thập, trao đổi thông tin với cơ quan thuế nước ngoài thì thời hạn kiểm tra thuế có thể kéo dài nhưng không quá 02 năm." Và: "Thời hạn kiểm tra quy định tại điểm này không bao gồm thời gian tạm dừng kiểm tra theo thông báo của cơ quan quản lý thuế." `[Luật QLT 108/2025 Đ.22 k.3 đ.d]`
@@ -75,15 +72,15 @@ tags:
 
 | # | Tình huống | Xử lý theo mục |
 | --- | --- | --- |
-| 1 | Khách nhận Thông báo giải trình, bổ sung thông tin, tài liệu (mẫu 01/TL-KT) | 6.2 |
-| 2 | Khách nhận Thông báo giải trình lần 2 (mẫu 02/TL-KT) | 6.2 |
-| 3 | Khách nhận Quyết định kiểm tra tại trụ sở cơ quan thuế (mẫu 04/TL-KT) | 6.2 |
-| 4 | Khách nhận Quyết định kiểm tra tại trụ sở người nộp thuế | 6.3, 6.4 và 6.5 |
-| 5 | Đoàn kiểm tra công bố quyết định và làm việc tại trụ sở khách | 6.4, 6.6 và 6.7 |
-| 6 | Kiểm tra trực tuyến, từ xa | 6.8 |
-| 7 | Khách nhận Quyết định thanh tra của cơ quan thanh tra | 6.12 |
-| 8 | Khách bị kiểm tra lại | 6.9 |
-| 9 | Khách nhận Thông báo giải trình hồ sơ miễn, giảm thuế (mẫu 01/TB-BSTT-NNT) | 6.2 |
+| 1 | Khách nhận Thông báo giải trình, bổ sung thông tin, tài liệu (mẫu 01/TL-KT) | 5.2 |
+| 2 | Khách nhận Thông báo giải trình lần 2 (mẫu 02/TL-KT) | 5.2 |
+| 3 | Khách nhận Quyết định kiểm tra tại trụ sở cơ quan thuế (mẫu 04/TL-KT) | 5.2 |
+| 4 | Khách nhận Quyết định kiểm tra tại trụ sở người nộp thuế | 5.3, 5.4 và 5.5 |
+| 5 | Đoàn kiểm tra công bố quyết định và làm việc tại trụ sở khách | 5.4, 5.6 và 5.7 |
+| 6 | Kiểm tra trực tuyến, từ xa | 5.8 |
+| 7 | Khách nhận Quyết định thanh tra của cơ quan thanh tra | 5.12 |
+| 8 | Khách bị kiểm tra lại | 5.9 |
+| 9 | Khách nhận Thông báo giải trình hồ sơ miễn, giảm thuế (mẫu 01/TB-BSTT-NNT) | 5.2 |
 
 2.2. Nguyên tắc chung của kiểm tra thuế được dẫn chiếu sang khoản 1 Điều 22 Luật Quản lý thuế `[TT 89/2026 Đ.87 k.1 và Đ.88 k.1]`. Nguyên văn khoản 1 Điều 22 `[Luật QLT 108/2025 Đ.22 k.1]`:
 
@@ -93,27 +90,17 @@ tags:
 > d) Việc kiểm tra thuế của cơ quan thuế không trùng lặp về nội dung, phạm vi, thời gian giữa cơ quan thanh tra, kiểm tra, Kiểm toán nhà nước, trừ trường hợp có bằng chứng, căn cứ vi phạm cần kiểm tra lại;
 > đ) Kiểm tra việc xác định giá giao dịch liên kết của người nộp thuế theo nguyên tắc giao dịch độc lập và bản chất kinh tế của hoạt động, giao dịch phát sinh quyết định nghĩa vụ thuế tương ứng với giá trị tạo ra từ bản chất kinh tế của hoạt động kinh doanh, giao dịch phát sinh của người nộp thuế; không công nhận các giao dịch liên kết không theo nguyên tắc giao dịch độc lập làm giảm nghĩa vụ thuế của doanh nghiệp."
 
-Điểm d là căn cứ để đề nghị bãi bỏ quyết định kiểm tra khi trùng lặp, xem mục 6.3.
+Điểm d là căn cứ để đề nghị bãi bỏ quyết định kiểm tra khi trùng lặp, xem mục 5.3.
 
 ---
 
-## 3. Căn cứ pháp lý
-
-| # | Văn bản | Nội dung sử dụng | Mức xác minh |
-| --- | --- | --- | --- |
-| 1 | Thông tư 89/2026/TT-BTC ngày 30/6/2026 | Đ.87 kiểm tra tại trụ sở cơ quan thuế;<br>Đ.88 kiểm tra tại trụ sở người nộp thuế;<br>Đ.89 kiểm tra trực tuyến, từ xa;<br>Đ.90 dẫn chiếu kiểm tra chuyên ngành;<br>Đ.82 giải trình hồ sơ miễn, giảm thuế |  |
-| 2 | Văn bản hợp nhất 15/VBHN-BTC ngày 05/5/2026 | Đ.8 thời hiệu xử phạt và thời hạn truy thu;<br>Đ.15 vi phạm về chấp hành quyết định kiểm tra, thanh tra;<br>Đ.36 lập biên bản;<br>Đ.37 giải trình;<br>Đ.9 các trường hợp không xử phạt |  |
-| 3 | Luật Quản lý thuế số 108/2025/QH15 | Đ.22 nguyên tắc, trường hợp, thời hạn kiểm tra, nhiệm vụ quyền hạn cơ quan thuế, kiểm tra lại;<br>Đ.23 biện pháp khi có dấu hiệu trốn thuế;<br>Đ.24 và Đ.25 ấn định thuế |  |
-| 4 | Nghị định 217/2025/NĐ-CP về hoạt động kiểm tra chuyên ngành | Quy định chung về hoạt động kiểm tra chuyên ngành của cơ quan quản lý nhà nước `[NĐ 217/2025 Đ.1]`; kiểm tra thuế cụ thể theo Điều 22 Luật Quản lý thuế 108/2025 và Chương VII Thông tư 89/2026/TT-BTC, không theo nghị định này | đã đối chiếu bản gốc về phạm vi điều chỉnh; chưa xác định phần phí, lệ phí có thuộc kiểm tra chuyên ngành theo nghị định này hay không |
-| 5 | Thông tư 94/2026/TT-BTC ngày 01/7/2026 | Đ.13 phân loại mức độ rủi ro;<br>Đ.15 áp dụng quản lý rủi ro trong kiểm tra hồ sơ khai thuế tại trụ sở cơ quan thuế;<br>Đ.17 áp dụng quản lý rủi ro trong kiểm tra tại trụ sở người nộp thuế |  |
-| 6 | Luật Thanh tra số 84/2025/QH15 ngày 25/6/2025 | Đ.7 danh mục cơ quan thanh tra;<br>Đ.16 k.1 đ.d thẩm quyền Thanh tra tỉnh đối với doanh nghiệp;<br>Đ.20 thời hạn thanh tra;<br>Chương IV quyền của đoàn thanh tra;<br>Đ.50 quyền và nghĩa vụ của đối tượng thanh tra |  |
 
 ---
 
-## 4. Vai trò và trách nhiệm
+## 3. Vai trò và trách nhiệm
 
 > [!note] RANH GIỚI AI CHỦ TRÌ KHI LÀM VIỆC VỚI CƠ QUAN NHÀ NƯỚC
-> Thanh tra và kiểm tra THUẾ thì `TL-KT` CHỦ TRÌ, Legal R&D THAM VẤN. Thanh tra LAO ĐỘNG thì Legal R&D CHỦ TRÌ, không phải `TL-KT`. Chương này chỉ điều chỉnh phần thuế. Nguồn của ranh giới này: [[PL_Chuyen_len_cap_tren|OBK-QCTC-02-PL-C]] mục 1, dòng "Nghiệp vụ chưa có chuẩn, văn bản pháp luật mới, hành vi oBacker nghiêm cấm, tranh chấp lao động, làm việc với thanh tra" thuộc Legal R&D, đọc cùng dòng "Hạch toán, tờ khai thuế, quyết toán, hóa đơn, báo cáo tài chính của KHÁCH" thuộc Bộ phận Kế toán và Thuế. `AM` vẫn là đầu mối duy nhất với khách trong cả hai trường hợp.
+> Thanh tra và kiểm tra THUẾ thì `TL-KT` CHỦ TRÌ, Legal R&D THAM VẤN. Thanh tra LAO ĐỘNG thì Legal R&D CHỦ TRÌ, không phải `TL-KT`. Chương này chỉ điều chỉnh phần thuế. Nguồn của ranh giới này: OBK-QCTC-02-PL-C mục 1, dòng "Nghiệp vụ chưa có chuẩn, văn bản pháp luật mới, hành vi oBacker nghiêm cấm, tranh chấp lao động, làm việc với thanh tra" thuộc Legal R&D, đọc cùng dòng "Hạch toán, tờ khai thuế, quyết toán, hóa đơn, báo cáo tài chính của KHÁCH" thuộc Bộ phận Kế toán và Thuế. `AM` vẫn là đầu mối duy nhất với khách trong cả hai trường hợp.
 
 | Công việc | CV-KT | TL-KT | AM |
 | --- | --- | --- | --- |
@@ -140,7 +127,7 @@ tags:
 
 ---
 
-## 5. Đầu vào bắt buộc
+## 4. Đầu vào bắt buộc
 
 | # | Đầu vào | Nguồn | Thời hạn phải có |
 | --- | --- | --- | --- |
@@ -159,9 +146,9 @@ tags:
 
 ---
 
-## 6. Các bước thực hiện
+## 5. Các bước thực hiện
 
-### 6.1. Phân biệt kiểm tra tại trụ sở cơ quan thuế và kiểm tra tại trụ sở người nộp thuế
+### 5.1. Phân biệt kiểm tra tại trụ sở cơ quan thuế và kiểm tra tại trụ sở người nộp thuế
 
 Đây là phân biệt cơ bản nhất. Nhầm hai loại này dẫn tới nhầm toàn bộ mốc thời hạn và toàn bộ chiến thuật.
 
@@ -180,7 +167,7 @@ tags:
 
 Quy tắc nghiệp vụ: kiểm tra tại trụ sở cơ quan thuế là CƠ HỘI. Nếu xử lý tốt ở giai đoạn này, khách không phải bước sang kiểm tra tại trụ sở. Nếu xử lý dở, khách vừa bị ấn định thuế vừa có nguy cơ bị kiểm tra tại trụ sở.
 
-### 6.2. Kiểm tra tại trụ sở cơ quan thuế: hai vòng giải trình
+### 5.2. Kiểm tra và giải trình tại trụ sở cơ quan thuế
 
 Trình tự đầy đủ `[TT 89/2026 Đ.87 k.3]`:
 
@@ -246,7 +233,7 @@ Trường hợp riêng: giải trình khi đăng ký sử dụng hóa đơn đi�
 
 > "Người nộp thuế thực hiện giải trình, bổ sung thông tin, tài liệu trong thời hạn 03 ngày làm việc kể từ ngày nhận được Thông báo về việc giải trình, bổ sung thông tin, tài liệu của cơ quan thuế"
 
-### 6.3. CƠ HỘI VÀNG: bãi bỏ quyết định kiểm tra trước khi công bố
+### 5.3. CƠ HỘI VÀNG: bãi bỏ quyết định kiểm tra trước khi công bố
 
 > [!danger] RỦI RO BỊ XỬ PHẠT
 > Đây là cơ hội pháp lý cuối cùng trước khi kiểm tra bắt đầu. Nếu bỏ lỡ, khách bước vào kiểm tra tại trụ sở với toàn bộ hệ quả kèm theo.
@@ -288,9 +275,9 @@ Khoảng thời gian còn lại: quyết định phải được gửi trong 03 
 | Giờ 24 đến giờ 36 | Khách xác nhận nội dung, chuyển tiền nộp thuế | Khách, AM theo dõi | Văn bản xác nhận, chứng từ tiền |
 | Giờ 36 | NỘP ĐỦ SỐ TIỀN THUẾ PHẢI NỘP vào ngân sách nhà nước | CV-KT, TL-KT duyệt lệnh | Chứng từ nộp tiền |
 | Giờ 36 đến giờ 40 | Gửi văn bản giải trình kèm tài liệu chứng minh và chứng từ nộp tiền cho cơ quan thuế | TL-KT ký, CV-KT gửi | Bằng chứng gửi và biên nhận |
-| Ngày làm việc thứ 5 trở đi | Theo dõi phản hồi;<br>nếu không được bãi bỏ, chuyển ngay sang mục 6.5 chuẩn bị đón đoàn | CV-KT, TL-KT |  |
+| Ngày làm việc thứ 5 trở đi | Theo dõi phản hồi;<br>nếu không được bãi bỏ, chuyển ngay sang mục 5.5 chuẩn bị đón đoàn | CV-KT, TL-KT |  |
 
-Song song với phương án bãi bỏ, oBacker luôn chuẩn bị bộ hồ sơ đón đoàn theo mục 6.5. Không đặt cược toàn bộ vào phương án bãi bỏ.
+Song song với phương án bãi bỏ, oBacker luôn chuẩn bị bộ hồ sơ đón đoàn theo mục 5.5. Không đặt cược toàn bộ vào phương án bãi bỏ.
 
 **Quyền đề nghị hoãn thời gian kiểm tra**
 
@@ -305,13 +292,13 @@ Và quyền tạm dừng trong quá trình kiểm tra:
 > [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
 > Việc đề nghị hoãn hoặc tạm dừng kiểm tra là quyết định chiến lược, do TL-KT quyết định, AM trao đổi với khách và khách hàng ký văn bản đề nghị. Đề nghị hoãn không có lý do chính đáng có thể gây ấn tượng bất lợi. CV-KT không được đề xuất trực tiếp với khách.
 
-### 6.4. Kiểm tra tại trụ sở người nộp thuế: dòng thời gian
+### 5.4. Kiểm tra tại trụ sở người nộp thuế: dòng thời gian
 
 | Mốc | Nội dung | Thời hạn | Ai chịu trách nhiệm | Căn cứ |
 | --- | --- | --- | --- | --- |
 | T0 | Cơ quan thuế ký Quyết định kiểm tra thuế | | Cơ quan thuế | |
 | T0 + 3 ngày làm việc | "Quyết định kiểm tra thuế phải được gửi cho người nộp thuế trong thời hạn 03 ngày làm việc kể từ ngày ký" | 03 ngày làm việc | Cơ quan thuế | `[TT 89/2026 Đ.88 k.7 đ.a]` |
-| T0 đến T0 + 10 ngày làm việc | Khoảng thời gian còn cơ hội bãi bỏ quyết định, đề nghị hoãn | | oBacker và khách | Xem mục 6.3 |
+| T0 đến T0 + 10 ngày làm việc | Khoảng thời gian còn cơ hội bãi bỏ quyết định, đề nghị hoãn | | oBacker và khách | Xem mục 5.3 |
 | T0 + 10 ngày làm việc | "Quyết định kiểm tra thuế được công bố trong thời hạn 10 ngày làm việc kể từ ngày ban hành, trừ trường hợp phải bãi bỏ Quyết định kiểm tra thuế quy định tại điểm c khoản này hoặc hoãn thời gian kiểm tra theo quy định tại điểm d khoản này.<br>Trưởng đoàn kiểm tra thuế có trách nhiệm công bố Quyết định kiểm tra thuế, lập Biên bản công bố Quyết định kiểm tra theo mẫu số 08/TL-KT" | 10 ngày làm việc kể từ ngày ban hành | Trưởng đoàn kiểm tra | `[TT 89/2026 Đ.88 k.7 đ.b]` |
 | Ngày công bố | Quyết định giám sát Đoàn kiểm tra được công bố cùng thời điểm | Cùng ngày công bố | Cơ quan thuế | `[TT 89/2026 Đ.88 k.8 đ.b]` |
 | Từ ngày công bố | THỜI HẠN KHAI BỔ SUNG ĐÓNG LẠI đối với nội dung thuộc phạm vi, thời kỳ kiểm tra |  |  | `[15/VBHN-BTC ngày 05/05/2026 Đ.9 k.3]`;<br>`[NĐ 252/2026 Đ.12]`, chưa đối chiếu bản gốc |
@@ -344,12 +331,12 @@ Mức phạt: "Không ký biên bản kiểm tra, thanh tra trong thời hạn 0
 
 Yêu cầu về hình thức ký biên bản: "Biên bản kiểm tra phải được Trưởng đoàn kiểm tra và người nộp thuế (hoặc đại diện hợp pháp của người nộp thuế) ký vào từng trang, đóng dấu của người nộp thuế nếu người nộp thuế là tổ chức có con dấu riêng (bao gồm cả dấu riêng, giáp lai giữa các trang của biên bản)" `[TT 89/2026 Đ.88 k.7 đ.e.1]`.
 
-### 6.5. Bộ hồ sơ chuẩn bị sẵn cho một cuộc kiểm tra
+### 5.5. Danh mục hồ sơ chuẩn bị phục vụ kiểm tra thuế
 
 Mốc 06 giờ làm việc để cung cấp hồ sơ khi đoàn yêu cầu là mốc rất ngắn `[15/VBHN-BTC ngày 05/05/2026 Đ.15 k.1 đ.c]`. Không thể chuẩn bị sau khi đoàn đã tới.
 
-> [!note] CẦN ĐỒNG BỘ LÊN CẤP 2
-> Mốc luật 06 giờ làm việc nêu ở mục này, và mốc NỘI BỘ 05 giờ làm việc tại Phụ lục C mục B dòng 11, hiện chưa được đưa lên bảng Job KT-21 của [[03_OBK-SOP-KT_Ke_toan_va_thue|OBK-SOP-KT]]. Chương này và Phụ lục C là BẢN GỐC của hai con số đó, giữ nguyên. Việc bổ sung vào KT-21 thuộc người sửa SOP cấp 2, không sửa ở đây. Bộ hồ sơ dưới đây phải sẵn sàng ở dạng điện tử trước khi đoàn công bố quyết định.
+> [!note] THỜI HẠN XỬ LÝ HỒ SƠ KIỂM TRA TẠI TRỤ SỞ DOANH NGHIỆP
+> Thời hạn luật định để cơ quan thuế thực hiện kiểm tra hồ sơ trước khi công bố quyết định là 06 giờ làm việc `[TT 89/2026 Đ.88 k.3 đ.a]`. Chuẩn vận hành nội bộ oBacker yêu cầu hoàn tất việc rà soát chuẩn bị bộ hồ sơ trong vòng 05 giờ làm việc kể từ thời điểm tiếp nhận quyết định kiểm tra. Bộ hồ sơ dưới đây phải sẵn sàng ở định dạng điện tử trước khi đoàn công bố quyết định.
 
 **Nhóm 1: Hồ sơ pháp lý doanh nghiệp**
 
@@ -430,14 +417,14 @@ Mốc 06 giờ làm việc để cung cấp hồ sơ khi đoàn yêu cầu là m
 
 | # | Tài liệu | Sẵn sàng |
 | --- | --- | --- |
-| 6.1 | Hồ sơ ưu đãi thuế TNDN: điều kiện, thời điểm bắt đầu hưởng, bảng theo dõi kỳ ưu đãi | |
-| 6.2 | Bảng theo dõi lỗ chi tiết theo năm phát sinh | |
-| 6.3 | Danh sách bên liên kết, hồ sơ xác định giá giao dịch liên kết, các phụ lục đã nộp | |
-| 6.4 | Hồ sơ trích lập và sử dụng Quỹ phát triển khoa học và công nghệ | |
-| 6.5 | Hồ sơ dự án đầu tư, hồ sơ hoàn thuế GTGT dự án đầu tư | |
-| 6.6 | Hồ sơ phân bổ thuế cho các tỉnh nơi có đơn vị phụ thuộc, địa điểm kinh doanh | |
-| 6.7 | Hồ sơ hàng xuất khẩu: tờ khai hải quan, chứng từ thanh toán, hợp đồng | |
-| 6.8 | Hồ sơ áp dụng thuế suất GTGT 8% theo chính sách giảm thuế, kèm căn cứ xác định thuộc diện được giảm | |
+| 5.1 | Hồ sơ ưu đãi thuế TNDN: điều kiện, thời điểm bắt đầu hưởng, bảng theo dõi kỳ ưu đãi | |
+| 5.2 | Bảng theo dõi lỗ chi tiết theo năm phát sinh | |
+| 5.3 | Danh sách bên liên kết, hồ sơ xác định giá giao dịch liên kết, các phụ lục đã nộp | |
+| 5.4 | Hồ sơ trích lập và sử dụng Quỹ phát triển khoa học và công nghệ | |
+| 5.5 | Hồ sơ dự án đầu tư, hồ sơ hoàn thuế GTGT dự án đầu tư | |
+| 5.6 | Hồ sơ phân bổ thuế cho các tỉnh nơi có đơn vị phụ thuộc, địa điểm kinh doanh | |
+| 5.7 | Hồ sơ hàng xuất khẩu: tờ khai hải quan, chứng từ thanh toán, hợp đồng | |
+| 5.8 | Hồ sơ áp dụng thuế suất GTGT 8% theo chính sách giảm thuế, kèm căn cứ xác định thuộc diện được giảm | |
 
 **Nhóm 7: Hồ sơ về các lần kiểm tra trước**
 
@@ -456,7 +443,7 @@ Quy tắc bảo trì bộ hồ sơ:
 2. TL-KT kiểm tra tính đầy đủ mỗi 6 tháng, chọn ngẫu nhiên 20% danh mục khách.
 3. Với khách được xếp hạng rủi ro cao, cập nhật hằng tháng.
 
-### 6.6. Vai trò của oBacker trong kỳ kiểm tra
+### 5.6. Vai trò của oBacker trong kỳ kiểm tra
 
 **oBacker ĐƯỢC LÀM**
 
@@ -527,7 +514,7 @@ TL-KT bắt buộc đề nghị khách thuê luật sư hoặc đơn vị tư v�
 >
 > Cách nói đúng: nêu điều kiện pháp lý, nêu hai kịch bản có thể xảy ra kèm căn cứ, nêu những gì oBacker sẽ làm, nêu những gì khách phải làm, nêu rõ kết quả cuối cùng thuộc thẩm quyền cơ quan nhà nước.
 
-### 6.7. Quy tắc giao tiếp với đoàn kiểm tra
+### 5.7. Quy tắc giao tiếp với đoàn kiểm tra
 
 **Quy tắc 1: chỉ cung cấp đúng tài liệu được yêu cầu bằng văn bản**
 
@@ -611,7 +598,7 @@ Quy tắc sử dụng kênh này: chỉ TL-KT quyết định, chỉ dùng khi c
 | Không thực hiện hoặc thực hiện không đúng quyết định niêm phong hồ sơ tài liệu, két quỹ, kho hàng hóa, vật tư, nguyên liệu, máy móc, thiết bị, nhà xưởng | 5.000.000 đến 10.000.000 đồng | `[15/VBHN-BTC ngày 05/05/2026 Đ.15 k.2 đ.b]` |
 | Tự ý tháo bỏ, thay đổi dấu hiệu niêm phong do cơ quan có thẩm quyền đã tạo lập hợp pháp | 5.000.000 đến 10.000.000 đồng | `[15/VBHN-BTC ngày 05/05/2026 Đ.15 k.2 đ.c]` |
 
-### 6.8. Kiểm tra trực tuyến, từ xa
+### 5.8. Kiểm tra trực tuyến, từ xa
 
 Nội dung `[TT 89/2026 Đ.89]`:
 
@@ -622,7 +609,7 @@ Nội dung `[TT 89/2026 Đ.89]`:
 
 Vận hành: cổng giao tiếp điện tử ĐÓNG khi kết thúc kiểm tra. Bắt buộc tải và lưu toàn bộ văn bản, tài liệu, dữ liệu trên cổng trước khi kiểm tra kết thúc. Đây là việc của CV-KT, TL-KT kiểm tra.
 
-### 6.9. Kiểm tra lại
+### 5.9. Kiểm tra lại
 
 Nội dung `[TT 89/2026 Đ.88 k.9]`:
 
@@ -635,7 +622,7 @@ Nội dung `[TT 89/2026 Đ.88 k.9]`:
 
 Quy tắc vận hành: sau mỗi cuộc kiểm tra, CV-KT đặt lịch nhắc trên `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]` với thời điểm là ngày ký kết luận cộng 02 năm, để theo dõi rủi ro kiểm tra lại. Trong 02 năm đó, không hủy bất kỳ hồ sơ nào liên quan.
 
-### 6.10. Thời hiệu và truy thu: bảng tra
+### 5.10. Thời hiệu và truy thu: bảng tra
 
 | Loại vi phạm | Thời hiệu xử phạt | Mốc bắt đầu tính | Căn cứ |
 | --- | --- | --- | --- |
@@ -659,10 +646,10 @@ Hai quy tắc bổ sung:
 - Trốn tránh, làm chậm việc xử phạt: "Trong thời hạn quy định tại khoản 1, 2 Điều này mà tổ chức, cá nhân cố tình trốn tránh, làm chậm việc xử phạt thì thời hiệu xử phạt vi phạm hành chính được tính lại kể từ thời điểm chấm dứt hành vi trốn tránh làm chậm việc xử phạt" `[15/VBHN-BTC ngày 05/05/2026 Đ.8 k.4]`.
 - Được coi là chưa bị xử phạt: "Tổ chức, cá nhân bị xử phạt vi phạm hành chính về thuế, hóa đơn nếu trong thời hạn 06 tháng, kể từ ngày chấp hành xong quyết định xử phạt cảnh cáo hoặc 01 năm kể từ ngày chấp hành xong quyết định xử phạt hành chính khác hoặc kể từ ngày hết thời hiệu thi hành quyết định xử phạt mà không tái phạm thì được coi là chưa bị xử phạt vi phạm hành chính về hành vi đó" `[15/VBHN-BTC ngày 05/05/2026 Đ.8 k.5]`. Quy tắc này rất quan trọng khi đánh giá điều kiện "vi phạm lần đầu" của van an toàn thứ hai tại Chương 15.
 
-### 6.11. Ấn định thuế
+### 5.11. Ấn định thuế
 
-> [!note] SỬA DẪN CHIẾU ĐIỀU LUẬT
-> Ấn định thuế không nằm ở Điều 51 Luật Quản lý thuế số 108/2025/QH15. Điều 51 của Luật 108/2025 là điều bổ sung Điều 70a vào Luật Kế toán, không liên quan ấn định thuế. Ấn định thuế nằm tại Mục 7 Chương II: Điều 24 ấn định thuế thuộc thẩm quyền cơ quan thuế với 09 trường hợp từ điểm a tới điểm i tại khoản 2, và Điều 25 ấn định thuế đối với hàng hóa xuất khẩu, nhập khẩu thuộc thẩm quyền cơ quan hải quan, cũng 09 trường hợp `[Luật QLT 108/2025 Đ.24, Đ.25]`. Mẫu quyết định ấn định thuế nằm tại Phụ lục IV Thông tư 89/2026/TT-BTC, chưa có trong nguồn.
+> [!note] CĂN CỨ PHÁP LÝ VỀ ẤN ĐỊNH THUẾ
+> Quy định về ấn định thuế thực hiện theo Mục 7 Chương II Luật Quản lý thuế số 108/2025/QH15, gồm Điều 24 (ấn định thuế thuộc thẩm quyền cơ quan thuế) và Điều 25 (ấn định thuế đối với hàng hóa xuất khẩu, nhập khẩu thuộc thẩm quyền cơ quan hải quan) `[Luật QLT 108/2025 Đ.24, Đ.25]`. Biểu mẫu quyết định ấn định thuế thực hiện theo quy định tại Thông tư 89/2026/TT-BTC.
 
 Nguyên tắc ấn định thuế, nguyên văn khoản 1 Điều 24 `[Luật QLT 108/2025 Đ.24 k.1]`:
 
@@ -681,7 +668,7 @@ Chín trường hợp ấn định thuế của cơ quan thuế, nguyên văn kh
 > h) Sử dụng chứng từ, tài liệu không phản ánh đúng bản chất giao dịch hoặc giá trị giao dịch thực tế để làm giảm nghĩa vụ thuế. Thực hiện các giao dịch không đúng với bản chất kinh tế nhằm mục đích giảm nghĩa vụ thuế;
 > i) Không tuân thủ quy định về nghĩa vụ kê khai, xác định giá giao dịch liên kết hoặc không cung cấp thông tin theo quy định của pháp luật về quản lý thuế đối với doanh nghiệp có phát sinh giao dịch liên kết."
 
-Ba điểm trong chín trường hợp trên gắn thẳng với kỳ kiểm tra: điểm d không xuất trình sổ kế toán, hóa đơn, chứng từ trong thời hạn quy định; điểm đ không chấp hành quyết định kiểm tra thuế; điểm c phản ánh không đầy đủ số liệu trên sổ kế toán. Đây là lý do mốc 06 giờ làm việc tại mục 6.7 phải được tuân thủ tuyệt đối.
+Ba điểm trong chín trường hợp trên gắn thẳng với kỳ kiểm tra: điểm d không xuất trình sổ kế toán, hóa đơn, chứng từ trong thời hạn quy định; điểm đ không chấp hành quyết định kiểm tra thuế; điểm c phản ánh không đầy đủ số liệu trên sổ kế toán. Đây là lý do mốc 06 giờ làm việc tại mục 5.7 phải được tuân thủ tuyệt đối.
 
 Căn cứ ấn định thuế, phương pháp ấn định thuế, thẩm quyền và thủ tục ấn định thuế do Chính phủ quy định `[Luật QLT 108/2025 Đ.24 k.3]`.
 
@@ -690,11 +677,11 @@ Những gì đã xác minh thêm:
 - Căn cứ ấn định qua kiểm tra tại trụ sở cơ quan thuế: "Hết thời hạn theo thông báo lần 2 của cơ quan thuế mà người nộp thuế không giải trình, bổ sung thông tin, tài liệu hoặc không khai bổ sung hồ sơ thuế hoặc giải trình, khai bổ sung hồ sơ thuế nhưng không chứng minh được số thuế đã khai là đúng thì cơ quan thuế ấn định số thuế phải nộp nếu có đủ căn cứ ấn định" `[TT 89/2026 Đ.87 k.3 đ.đ]`.
 - Hệ quả xử phạt khi bị ấn định, riêng với hộ kinh doanh, cá nhân kinh doanh: "Không xử phạt hành vi vi phạm thủ tục thuế đối với ... hộ kinh doanh, cá nhân kinh doanh đã bị ấn định thuế theo quy định tại Điều 51 Luật Quản lý thuế" `[15/VBHN-BTC ngày 05/05/2026 Đ.9 k.4]`. Đọc: "Điều 51" trong câu trích này là số điều của Luật Quản lý thuế cũ mà Văn bản hợp nhất 15/VBHN-BTC dẫn chiếu, giữ nguyên văn không sửa. Quy định tương ứng trong Luật Quản lý thuế 108/2025 là Điều 24 `[Luật QLT 108/2025 Đ.24, Đ.25]`.
 
-### 6.12. Khi hồ sơ bị chuyển sang cơ quan thanh tra
+### 5.12. Khi hồ sơ bị chuyển sang cơ quan thanh tra
 
 Chương này không trình bày thanh tra thuế như một quy trình của cơ quan thuế, vì cơ quan thuế không có quy trình đó. Mục này thay cho cách trình bày cũ.
 
-**Ý thứ nhất: cơ quan thuế thực hiện KIỂM TRA, không thực hiện thanh tra.** Luật Quản lý thuế số 108/2025/QH15 không còn chế định thanh tra thuế. Mục 6 của Luật là KIỂM TRA THUẾ, gồm Điều 22 và Điều 23; Mục 7 là ẤN ĐỊNH THUẾ, gồm Điều 24 và Điều 25 `[Luật QLT 108/2025 Mục 6, Mục 7]`. Thông tư 89/2026 Chương VII cũng chỉ gồm Điều 87 tới Điều 90 về kiểm tra. Toàn bộ quy trình từ mục 6.1 tới mục 6.11 của chương này là quy trình KIỂM TRA, không phải quy trình thanh tra.
+**Ý thứ nhất: cơ quan thuế thực hiện KIỂM TRA, không thực hiện thanh tra.** Luật Quản lý thuế số 108/2025/QH15 không còn chế định thanh tra thuế. Mục 6 của Luật là KIỂM TRA THUẾ, gồm Điều 22 và Điều 23; Mục 7 là ẤN ĐỊNH THUẾ, gồm Điều 24 và Điều 25 `[Luật QLT 108/2025 Mục 6, Mục 7]`. Thông tư 89/2026 Chương VII cũng chỉ gồm Điều 87 tới Điều 90 về kiểm tra. Toàn bộ quy trình từ mục 5.1 tới mục 5.11 của chương này là quy trình KIỂM TRA, không phải quy trình thanh tra.
 
 **Ý thứ hai: cơ quan thuế có thể CHUYỂN HỒ SƠ sang cơ quan thanh tra.** Đây là thẩm quyền của Thủ trưởng cơ quan quản lý thuế, nguyên văn: "chuyển hồ sơ sang cơ quan thanh tra để tiến hành thanh tra đối với vụ việc phức tạp, phạm vi rộng" `[Luật QLT 108/2025 Đ.22 k.5 đ.a]`. Thông tư 89/2026 quy định cùng nội dung: "Đối với vụ việc phức tạp, phạm vi rộng có rủi ro cao, có dấu hiệu vi phạm pháp luật về thuế cần thực hiện thanh tra thì cơ quan thuế chuyển hồ sơ sang cơ quan thanh tra để kiến nghị thanh tra theo quy định của pháp luật" `[TT 89/2026 Đ.88 k.4 đ.đ]`. Đây là con đường duy nhất dẫn từ một cuộc kiểm tra thuế sang một cuộc thanh tra.
 
@@ -719,11 +706,11 @@ Hai điều phải nói đúng với khách:
 
 Quyền và nghĩa vụ của khách khi là đối tượng thanh tra `[Luật Thanh tra 84/2025 Đ.50]`: quyền giải trình về vấn đề có liên quan đến nội dung thanh tra; quyền khiếu nại về quyết định, hành vi của người tiến hành thanh tra, kiến nghị về nội dung trong kết luận thanh tra khi cho rằng nội dung đó chưa chính xác, kiến nghị về xử lý chồng chéo, trùng lặp trong hoạt động thanh tra; quyền yêu cầu bồi thường thiệt hại, khôi phục quyền, lợi ích hợp pháp khác. Nghĩa vụ: chấp hành quyết định thanh tra; cung cấp kịp thời, đầy đủ, chính xác thông tin, tài liệu theo yêu cầu của người tiến hành thanh tra; thực hiện yêu cầu, kiến nghị, kết luận thanh tra, quyết định xử lý về thanh tra.
 
-Ranh giới của oBacker khi khách bị thanh tra: hỗ trợ khách về số liệu, sổ sách và chứng từ theo đúng ranh giới ĐƯỢC LÀM và KHÔNG ĐƯỢC LÀM tại mục 6.6. Việc bị cấm thêm: suy diễn trình tự, thời hạn, thẩm quyền của đoàn thanh tra từ quy trình kiểm tra tại chương này. TL-KT bắt buộc đề nghị khách thuê tư vấn pháp lý riêng ngay theo mục 6.6, AM gửi đề nghị bằng văn bản.
+Ranh giới của oBacker khi khách bị thanh tra: hỗ trợ khách về số liệu, sổ sách và chứng từ theo đúng ranh giới ĐƯỢC LÀM và KHÔNG ĐƯỢC LÀM tại mục 5.6. Việc bị cấm thêm: suy diễn trình tự, thời hạn, thẩm quyền của đoàn thanh tra từ quy trình kiểm tra tại chương này. TL-KT bắt buộc đề nghị khách thuê tư vấn pháp lý riêng ngay theo mục 5.6, AM gửi đề nghị bằng văn bản.
 
 ---
 
-## 7. Điểm kiểm soát bắt buộc
+## 6. Điểm kiểm soát bắt buộc
 
 | # | Điểm kiểm soát | Hậu quả nếu bỏ qua |
 | --- | --- | --- |
@@ -738,13 +725,13 @@ Ranh giới của oBacker khi khách bị thanh tra: hỗ trợ khách về số
 | KS9 | Rà soát dự thảo biên bản kiểm tra từng dòng trước khi khách ký | Ký vào nội dung bất lợi mà không nhận ra |
 | KS10 | Khách phải KÝ biên bản trong 05 ngày làm việc, kèm ý kiến bảo lưu nếu không đồng ý;<br>không được từ chối ký | Bị phạt 2.000.000 đến 5.000.000 đồng và biên bản vẫn có hiệu lực |
 | KS11 | oBacker không ký biên bản kiểm tra trong bất kỳ trường hợp nào | Vượt vai trò, nhận trách nhiệm không thuộc về mình |
-| KS12 | Đề nghị khách thuê tư vấn pháp lý riêng bằng văn bản khi thuộc 10 trường hợp tại mục 6.6 | Vượt năng lực, rủi ro cho khách và cho oBacker |
+| KS12 | Đề nghị khách thuê tư vấn pháp lý riêng bằng văn bản khi thuộc 10 trường hợp tại mục 5.6 | Vượt năng lực, rủi ro cho khách và cho oBacker |
 | KS13 | Với kiểm tra trực tuyến: tải và lưu toàn bộ dữ liệu trên cổng trước khi kiểm tra kết thúc | Cổng đóng, mất dữ liệu vĩnh viễn |
 | KS14 | Sau kết luận: đặt lịch nhắc 02 năm cho thời hiệu kiểm tra lại | Hủy hồ sơ sớm, không có tài liệu khi bị kiểm tra lại |
 
 ---
 
-## 8. Lỗi thường gặp và cách xử lý
+## 7. Lỗi thường gặp và cách xử lý
 
 | # | Lỗi thường gặp | Cách xử lý |
 | --- | --- | --- |
@@ -760,20 +747,20 @@ Ranh giới của oBacker khi khách bị thanh tra: hỗ trợ khách về số
 | 10 | Khách từ chối ký biên bản vì không đồng ý | Ký và ghi ý kiến bảo lưu. Từ chối ký bị phạt và biên bản vẫn hiệu lực |
 | 11 | Ký biên bản mà không đọc kỹ từng dòng, từng phụ lục | Biên bản kiểm tra có thể được xác định là biên bản vi phạm hành chính `[15/VBHN-BTC ngày 05/05/2026 Đ.36 k.2 đ.a]` |
 | 12 | Không ký từng trang và không đóng dấu giáp lai | Không đúng yêu cầu hình thức `[TT 89/2026 Đ.88 k.7 đ.e.1]` |
-| 13 | Nhân viên trả lời "chắc là" cho câu hỏi về bản chất giao dịch | Dùng câu trả lời chuẩn tại mục 6.7 quy tắc 4 |
+| 13 | Nhân viên trả lời "chắc là" cho câu hỏi về bản chất giao dịch | Dùng câu trả lời chuẩn tại mục 5.7 quy tắc 4 |
 | 14 | Cam kết với khách "sẽ không sao đâu" | Vi phạm nguyên tắc không cam kết kết quả |
 | 15 | Bỏ sót việc tìm và trình ra văn bản hướng dẫn của cơ quan thuế mà khách đã nhận trước đây | Bỏ mất căn cứ không bị xử phạt, không tính tiền chậm nộp `[15/VBHN-BTC ngày 05/05/2026 Đ.9 k.2]` |
 | 16 | Bỏ qua tình tiết giảm nhẹ | Xem Chương 17 mục tình tiết tăng nặng, giảm nhẹ và hướng dẫn thu thập bằng chứng |
 | 17 | Không phát hiện quyết định kiểm tra trùng lặp với quyết định của cơ quan khác | Đây là căn cứ bãi bỏ c.1 `[TT 89/2026 Đ.88 k.7 đ.c.1]` |
 | 18 | Tự ý sửa, bổ sung, in lại chứng từ sau khi quyết định kiểm tra đã công bố | Rủi ro hình sự. Cấm tuyệt đối |
 | 19 | Với kiểm tra trực tuyến, không tải dữ liệu trước khi cổng đóng | Cổng đóng khi kết thúc kiểm tra `[TT 89/2026 Đ.89 k.3]` |
-| 20 | Suy diễn trình tự thanh tra giống trình tự kiểm tra | Thanh tra do cơ quan thanh tra tiến hành theo Luật Thanh tra 84/2025, thời hạn và quyền hạn khác hẳn kiểm tra thuế.<br>Dừng, báo CEO và COO trong cùng ngày làm việc, xem mục 6.12 |
+| 20 | Suy diễn trình tự thanh tra giống trình tự kiểm tra | Thanh tra do cơ quan thanh tra tiến hành theo Luật Thanh tra 84/2025, thời hạn và quyền hạn khác hẳn kiểm tra thuế.<br>Dừng, báo CEO và COO trong cùng ngày làm việc, xem mục 5.12 |
 | 21 | Không biết mình có quyền đề nghị hoãn thời gian kiểm tra | Có quyền, với lý do chính đáng, trước khi công bố `[TT 89/2026 Đ.88 k.7 đ.d]` |
 | 22 | Bỏ qua Quyết định giám sát Đoàn kiểm tra được gửi cho khách | Đây là kênh chính thức để phản ánh nếu đoàn làm sai quy trình |
 
 ---
 
-## 9. Đầu ra và nơi lưu
+## 8. Đầu ra và nơi lưu
 
 | Nhóm | Tài liệu | Lưu tại | Thời hạn lưu |
 | --- | --- | --- | --- |
@@ -806,7 +793,7 @@ Quy tắc bổ sung: trong 02 năm kể từ ngày ký kết luận kiểm tra, 
 
 ---
 
-## 10. Chỉ số theo dõi
+## 9. Chỉ số theo dõi
 
 | # | Chỉ số | Cách đo | Ngưỡng mục tiêu | Tần suất |
 | --- | --- | --- | --- | --- |
@@ -845,4 +832,5 @@ Quy tắc bổ sung: trong 02 năm kể từ ngày ký kết luận kiểm tra, 
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 04/10/2026 | R.1.0.1 | Chuan hoa van phong hanh chinh, bo so dem tai cac tieu de muc, chuyen callout sang quy dinh chuan muc |
 | 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

@@ -4,19 +4,15 @@ code: "VB-01"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-TTT-05 Cách làm phiếu thao tác"
-law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - VB-01
 tags:
@@ -29,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | VB-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -40,6 +36,7 @@ tags:
 | **Ai dùng** | Chuyên viên pháp lý (`CV-LS`), Trưởng bộ phận Dịch vụ pháp lý (`TL-LS`), Chuyên viên Quản lý khách hàng (`AM`) |
 | **Sinh từ** | [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]];<br>`OBK-HB-61` Hướng dẫn rà soát và soạn thảo hợp đồng kinh tế;<br>`OBK-HB-71` Hướng dẫn lập bản ghi nhớ tư vấn quản trị |
 | **Ngày làm phiếu** | 27/09/2026 |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
@@ -112,24 +109,7 @@ Sổ theo dõi vụ việc được lưu trữ tập trung trên hệ thống qu
 
 Bảo đảm chất lượng chuyên môn và tính chặt chẽ của các văn bản pháp lý giao cho khách hàng, phòng ngừa các rủi ro phát sinh tranh chấp hoặc vô hiệu hợp đồng do vi phạm điều cấm của luật, đồng thời bảo đảm vị thế tư vấn quản trị doanh nghiệp của oBacker, không làm vượt quá phạm vi thẩm quyền đăng ký kinh doanh.
 
-### 2. Căn cứ quy định và pháp luật liên quan
 
-| Mục | Nguồn | Nội dung |
-| --- | --- | --- |
-| Dịch vụ pháp lý | [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] | Quy định danh mục Job LS-01 đến LS-20, phân loại mức độ phức tạp và cam kết SLA |
-| Rà soát hợp đồng | `OBK-HB-61` | Hướng dẫn kỹ thuật rà soát điều khoản hợp đồng kinh tế và nhận diện rủi ro thương mại |
-| Bản ghi nhớ tư vấn | `OBK-HB-71` | Hướng dẫn cấu trúc và phương pháp lập Bản ghi nhớ tư vấn quản trị doanh nghiệp |
-| Chuẩn vận hành dịch vụ | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] | Quy tắc kiểm soát chất lượng hai lớp và quy định thời hạn làm trước |
-
-## Căn cứ pháp luật
-
-| # | Văn bản | Điều khoản | Nội dung áp dụng |
-| --- | --- | --- | --- |
-| 1 | Bộ luật Dân sự số 91/2015/QH13 | Điều 385, Điều 398, Điều 401 | Khái niệm hợp đồng, nội dung chủ yếu, thời điểm giao kết và hiệu lực của hợp đồng |
-| 2 | Bộ luật Dân sự số 91/2015/QH13 | Điều 122 đến Điều 133 | Giao dịch dân sự vô hiệu và xử lý hậu quả pháp lý của giao dịch vô hiệu |
-| 3 | Luật Thương mại số 36/2005/QH11 | Điều 24, Điều 74, Điều 300, Điều 301 | Hình thức hợp đồng mua bán hàng hóa, phạt vi phạm thương mại (tối đa 8%) và bồi thường thiệt hại |
-| 4 | Luật Doanh nghiệp số 59/2020/QH14 | Điều 162, Điều 167 | Thẩm quyền chấp thuận và ký kết hợp đồng, giao dịch giữa công ty với người có liên quan |
-| 5 | Bộ luật Lao động số 45/2019/QH14 | Điều 13, Điều 21 | Giao kết hợp đồng lao động, nội dung bắt buộc và thỏa thuận bảo vệ bí mật kinh doanh, bí mật công nghệ |
 
 ---
 
@@ -137,4 +117,4 @@ Bảo đảm chất lượng chuyên môn và tính chặt chẽ của các văn
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu VB-01 về Sổ cái OBK-MSR |

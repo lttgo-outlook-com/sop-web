@@ -8,15 +8,11 @@ version: "R.1.1.0"
 status: "đang áp dụng"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: ""
 draft_date: "01/10/2026"
-law_as_of: ""
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-INDEX
 tags:
@@ -39,8 +35,6 @@ tags:
 > [!info] TRA CỨU TOÀN DIỆN
 > - [[Trạng thái ban hành]]: phiên bản, trạng thái và người phê duyệt của tài liệu toàn kho.
 > - [[Nhật ký sửa toàn kho]]: toàn bộ lịch sử sửa đổi của các tài liệu.
->
-> Nguyên văn điều khoản pháp luật nằm tại thư mục `CanCu`, một trang cho mỗi mã căn cứ. Toàn văn từng văn bản được trích dẫn nằm tại thư mục `VanBan`, một trang cho mỗi văn bản.
 
 > [!info] HỆ THỐNG THẺ PHÂN LOẠI (TAGS)
 > Hệ thống thẻ phân loại giúp lọc và tra cứu nhanh tài liệu theo các chiều quản trị:
@@ -57,9 +51,7 @@ tags:
 
 ## 1. DANH MỤC THƯ MỤC VÀ TÀI LIỆU VẬN HÀNH
 
-Chín thư mục dưới đây chứa bản hiện hành của toàn bộ tài liệu vận hành oBacker.
-
-Nguyên văn từng điều khoản pháp luật được dẫn chiếu tại thư mục `CanCu`, một trang cho mỗi mã căn cứ.
+Tám thư mục dưới đây chứa bản hiện hành của toàn bộ tài liệu vận hành oBacker.
 
 #### Tổ chức và phân quyền
 
@@ -130,7 +122,6 @@ Thư mục `03_DichVu`. Nhóm này áp dụng cho hồ sơ của khách hàng.
 | [[11_HD_Ky_thuat_ra_soat_hop_dong_kinh_te\|OBK-HB-61]] | [[11_HD_Ky_thuat_ra_soat_hop_dong_kinh_te]] | HƯỚNG DẪN 61. KỸ THUẬT RÀ SOÁT HỢP ĐỒNG KINH TẾ | Cấp 3 |
 | [[12_HD_Phuong_phap_tra_cuu_va_cap_nhat_phap_luat\|OBK-HB-71]] | [[12_HD_Phuong_phap_tra_cuu_va_cap_nhat_phap_luat]] | HƯỚNG DẪN 71. PHƯƠNG PHÁP TRA CỨU VÀ CẬP NHẬT VĂN BẢN PHÁP LUẬT | Cấp 3 |
 | [[13_OBK-SOP-MK_Marketing_va_phat_trien_nguon_khach_hang\|OBK-SOP-MK]] | [[13_OBK-SOP-MK_Marketing_va_phat_trien_nguon_khach_hang]] | MARKETING VÀ PHÁT TRIỂN NGUỒN KHÁCH HÀNG | Cấp 2 |
-| [[PL_1_Can_cu_phap_ly\|OBK-SOP-PL1]] | [[PL_1_Can_cu_phap_ly]] | PHỤ LỤC 1. CĂN CỨ PHÁP LÝ | Phụ lục |
 | [[PL_2_Bang_tra_SLA\|OBK-SOP-PL2]] | [[PL_2_Bang_tra_SLA]] | PHỤ LỤC 2. BẢNG TRA SLA | Phụ lục |
 | [[PL_3_Ban_do_lien_ket_va_chuyen_tang\|OBK-SOP-PL3]] | [[PL_3_Ban_do_lien_ket_va_chuyen_tang]] | PHỤ LỤC 3. BẢNG LIÊN KẾT VÀ CHUYỂN CẤP | Phụ lục |
 | [[PL_A_Cau_chu_mau\|OBK-HB-31-PL-A]] | [[PL_A_Cau_chu_mau]] | PHỤ LỤC A. CÂU CHỮ MẪU CỦA BỘ PHẬN AM | Phụ lục |
@@ -232,14 +223,6 @@ Thư mục `07_Phieu`. Nhóm này áp dụng cho người thực hiện công vi
 | [[TU-01_So_theo_doi_tam_ung_va_hoan_ung\|TU-01]] | [[TU-01_So_theo_doi_tam_ung_va_hoan_ung]] | PHIẾU TU-01. SỔ THEO DÕI TẠM ỨNG VÀ HOÀN ỨNG NỘI BỘ | Phiếu thao tác |
 | [[UE-01_Bang_theo_doi_va_tinh_toan_chi_so_kinh_te_cac_ltv_commission\|UE-01]] | [[UE-01_Bang_theo_doi_va_tinh_toan_chi_so_kinh_te_cac_ltv_commission]] | BẢNG UE-01. BẢNG THEO DÕI VÀ TÍNH TOÁN CHỈ SỐ KINH TẾ ĐƠN VỊ, CAC, LTV VÀ ĐỐI SOÁT HOA HỒNG HAI CHIỀU | Phiếu thao tác |
 | [[VB-01_So_theo_doi_vu_viec_tu_van_va_hop_dong\|VB-01]] | [[VB-01_So_theo_doi_vu_viec_tu_van_va_hop_dong]] | PHIẾU VB-01. SỔ THEO DÕI VỤ VIỆC TƯ VẤN VÀ RÀ SOÁT HỢP ĐỒNG | Phiếu thao tác |
-
-#### Sổ căn cứ
-
-Thư mục `08_SoCanCu`. Nhóm này áp dụng cho việc tra mã căn cứ và xử lý trường hợp văn bản pháp luật bị thay thế.
-
-| Mã | Tài liệu | Tên | Cấp |
-| --- | --- | --- | --- |
-| [[OBK-CC\|OBK-CC]] | [[OBK-CC]] | SỔ CĂN CỨ PHÁP LÝ OBACKER | Sổ căn cứ |
 
 #### T&C song ngữ (VI-EN)
 

@@ -4,19 +4,15 @@ code: "NS-03"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-QCNS-08 Khung đánh giá hiệu suất"
-law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - NS-03
 tags:
@@ -29,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | NS-03 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -38,6 +34,7 @@ tags:
 | **Mã phiếu** | NS-03 |
 | **Ai dùng** | Quản lý trực tiếp theo [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] mục 6.1 điền; người phê duyệt theo [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] mục 6 bước 7 ký phê duyệt |
 | **Sinh từ** | [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] mục 6 bước 5, bước 6 và bước 7 |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ---
 
@@ -71,7 +68,7 @@ tags:
 | Bảng số liệu phần A đã duyệt tại bước 3 | Có hoặc không |
 | Kiểm tra xác suất 20% số bản ghi | Số bản ghi đã kiểm: ..... trên tổng ..... bản ghi |
 
-Ý kiến của người được chấm về số liệu tại [[NS-01_Phieu_tu_danh_gia_hieu_suat|NS-01]] mục 1 và kết luận của quản lý trực tiếp:
+Ý kiến của người được chấm về số liệu tại NS-01 mục 1 và kết luận của quản lý trực tiếp:
 
 | Mã tiêu chí | Ý kiến của người được chấm | Kết luận của quản lý trực tiếp | Lý do sửa số liệu, khi có sửa |
 | --- | --- | --- | --- |
@@ -155,11 +152,11 @@ Tháng thử việc đầu tiên dùng bảng trọng số người chấm tại
 | Quản lý trực tiếp | | | | | | |
 | **ĐIỂM PHẦN B** | 100% | | | | | |
 
-Bảng tại mục 2.3 không giao cho người được chấm. Người được chấm xem điểm tổng hợp của phần B. Kỳ có đúng 01 phiếu đánh giá chéo thì quản lý trực tiếp giữ kín điểm riêng của phiếu đánh giá chéo và điểm riêng của quản lý trực tiếp, theo [[08_PL_D_Van_hanh_viec_cham|OBK-QCNS-08-PL-D]] mục 1.2.
+Bảng tại mục 2.3 không giao cho người được chấm. Người được chấm xem điểm tổng hợp của phần B. Kỳ có đúng 01 phiếu đánh giá chéo thì quản lý trực tiếp giữ kín điểm riêng của phiếu đánh giá chéo và điểm riêng của quản lý trực tiếp, theo OBK-QCNS-08-PL-D mục 1.2.
 
 ## 3. Điểm cộng
 
-Tổng điểm cộng trong một kỳ tối đa 5% điểm tổng. Điểm cộng chỉ cấp khi có bằng chứng cụ thể được quản lý trực tiếp xác nhận, theo [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] mục 3.3 và [[08_PL_D_Van_hanh_viec_cham|OBK-QCNS-08-PL-D]] mục 3.
+Tổng điểm cộng trong một kỳ tối đa 5% điểm tổng. Điểm cộng chỉ cấp khi có bằng chứng cụ thể được quản lý trực tiếp xác nhận, theo OBK-QCNS-08 mục 3.3 và OBK-QCNS-08-PL-D mục 3.
 
 | Việc được cộng điểm | Bằng chứng | Quản lý trực tiếp xác nhận | Điểm cộng |
 | --- | --- | --- | --- |
@@ -201,7 +198,7 @@ Ba quy tắc đọc:
 
 1. Bốn quy tắc CD-01, CD-02, CD-03, CD-05 kích hoạt tại lần thứ nhất, không có ngưỡng đếm.
 2. Một kỳ kích hoạt nhiều quy tắc thì áp hệ quả nghiêm nhất, không cộng dồn hệ quả.
-3. Trễ thời hạn do nguyên nhân thuộc khách hàng, đã có bằng chứng nhắc đủ số lần chuẩn theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 6.2, không kích hoạt CD-01.
+3. Trễ thời hạn do nguyên nhân thuộc khách hàng, đã có bằng chứng nhắc đủ số lần chuẩn theo OBK-SOP-00 mục 6.2, không kích hoạt CD-01.
 
 | Trường | Giá trị |
 | --- | --- |
@@ -224,7 +221,7 @@ Quy tắc CD-05 đã kích hoạt thì nhãn xếp loại không vượt quá C�
 
 ## 7. Biên bản phản hồi
 
-Quản lý trực tiếp gặp riêng người được chấm tại bước 6, ngày làm việc 7 đến 9 của tháng kế tiếp kỳ đánh giá, theo [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] mục 6.
+Quản lý trực tiếp gặp riêng người được chấm tại bước 6, ngày làm việc 7 đến 9 của tháng kế tiếp kỳ đánh giá, theo OBK-QCNS-08 mục 6.
 
 | Trường | Giá trị |
 | --- | --- |
@@ -265,4 +262,4 @@ Người phê duyệt theo [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] mục 6 b
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu NS-03 về Sổ cái OBK-MSR |

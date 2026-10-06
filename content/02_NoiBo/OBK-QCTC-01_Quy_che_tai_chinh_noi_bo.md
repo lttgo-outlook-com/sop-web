@@ -4,27 +4,20 @@ code: "OBK-QCTC-01"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 1, văn bản KHUNG toàn công ty"
-version: "R.2.0.1"
+version: "R.4.0.1"
 status: "đang áp dụng"
-draft_date: "30/09/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 01/10/2026"
+draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-QCTC-02 Quy chế tổ chức và phân quyền"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
  - OBK-QCTC-01
 tags:
   - loai/sop
   - cap/1
-  - nghiep-vu/muc-toi-da-luat-dinh
-  - nghiep-vu/tien-luong
-  - nghiep-vu/tro-cap-thoi-viec
 ---
 # OBK-QCTC-01. Quy chế tài chính nội bộ oBacker
 
@@ -35,8 +28,8 @@ tags:
 | Mã tài liệu | OBK-QCTC-01 |
 | Tên tài liệu | Quy chế tài chính nội bộ của Công ty cổ phần oBacker |
 | Cấp tài liệu | Cấp 1, văn bản KHUNG. Các quy trình OBK-SOP-NB nằm dưới quy chế này |
-| Phiên bản | R.2.0.1, đang áp dụng |
-| Ngày biên soạn | 30/09/2026 |
+| Phiên bản | R.4.0.1, đang áp dụng |
+| Ngày biên soạn | 04/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -93,6 +86,35 @@ tags:
 >
 > Ba quy tắc này phải được kiểm tra với hiện trạng nhân sự trước khi ban hành quy chế. Nếu đang vi phạm thì tách vai trò trước, không ban hành rồi để chính quy chế đó đang bị vi phạm.
 
+### BẢN TÓM TẮT
+
+Nguyên tắc tài chính, mục 5.1 tới mục 5.7 của Điều 5:
+
+- Nguyên tắc chứng từ trước (mục 5.1).
+- Nguyên tắc không dùng tiền mặt là mặc định (mục 5.2).
+- Nguyên tắc tách quyền (mục 5.3).
+- Nguyên tắc thẩm quyền theo hạn mức (mục 5.4).
+- Nguyên tắc ưu tiên điều kiện thuế (mục 5.5).
+- Nguyên tắc một nguồn số liệu (mục 5.6).
+- Nguyên tắc ghi lại lý do (mục 5.7).
+
+Nội dung mười chương và vai trò cần đọc:
+
+| Chương | Nội dung | Ai cần đọc |
+| --- | --- | --- |
+| Chương 1 | Quy định chung, phạm vi, từ ngữ, nguyên tắc tài chính | Người duyệt chi: Điều 5<br>KTT: Điều 4, Điều 5 |
+| Chương 2 | Quản lý vốn và tài sản | KTT: Điều 8, Điều 10, Điều 11, Điều 12<br>Người duyệt chi: Điều 12, Điều 12a |
+| Chương 3 | Quản lý doanh thu và công nợ phải thu | KTT: Điều 14, Điều 15, Điều 16, Điều 17<br>Người duyệt chi: Điều 15 |
+| Chương 4 | Quản lý chi phí và định mức chi tiêu | Người duyệt chi: Điều 18, Điều 19, Điều 20, Điều 21<br>KTT: Điều 21, Điều 23, Điều 23a |
+| Chương 5 | Tiền lương, thưởng và các khoản cho người lao động | KTT: Điều 25, Điều 26, Điều 26a, Điều 27, Điều 28<br>TL: Điều 25, Điều 26a |
+| Chương 6 | Quản lý tiền mặt và tài khoản ngân hàng | KTT: Điều 32, Điều 33, Điều 34, Điều 35<br>AD-KT: Điều 34 |
+| Chương 7 | Tạm ứng và hoàn ứng | Người duyệt chi: Điều 36, Điều 37, Điều 38<br>KTT: Điều 36, Điều 37 |
+| Chương 8 | Kế toán, chứng từ, báo cáo, kiểm kê và lưu trữ | KTT: Điều 41, Điều 42, Điều 43, Điều 44, Điều 45 |
+| Chương 9 | Phân phối lợi nhuận và trích lập quỹ | KTT: Điều 46<br>Người duyệt chi: Điều 46 |
+| Chương 10 | Kiểm soát nội bộ, xử lý vi phạm và hiệu lực | Người duyệt chi: Điều 47, Điều 49<br>KTT: Điều 48<br>AD-KT: Điều 48<br>TL: Điều 48 |
+
+Bản tóm tắt không thay thế chính văn; khi khác nhau thì lấy chính văn.
+
 ---
 
 ## CHƯƠNG 1. QUY ĐỊNH CHUNG
@@ -101,7 +123,7 @@ tags:
 
 1.1. Xác lập nguyên tắc, thẩm quyền và định mức cho toàn bộ hoạt động tài chính của oBacker, để mọi quyết định tài chính đều có căn cứ bằng văn bản thay vì dựa vào thói quen hoặc vào việc hỏi trực tiếp người đứng đầu.
 
-1.2. Bảo đảm mọi khoản chi phục vụ hoạt động kinh doanh của oBacker đủ điều kiện tính vào chi phí được trừ và đủ điều kiện khấu trừ thuế giá trị gia tăng đầu vào. oBacker bán dịch vụ kế toán và thuế; một khoản chi của chính oBacker bị loại là lỗi nghiệp vụ, không chỉ là mất tiền.
+1.2. Bảo đảm mọi khoản chi phục vụ hoạt động kinh doanh của oBacker đủ điều kiện tính vào chi phí được trừ và đủ điều kiện khấu trừ thuế giá trị gia tăng đầu vào. oBacker bán dịch vụ kế toán và thuế. Một khoản chi của chính oBacker bị loại là lỗi nghiệp vụ, không chỉ là mất tiền.
 
 1.3. Thỏa mãn các điều kiện pháp lý mà pháp luật thuế đặt ra đối với chính sự tồn tại của quy chế tài chính, theo danh mục chín nhóm tại Cảnh báo mở đầu.
 
@@ -119,7 +141,7 @@ tags:
 
 2.4. Quy chế này không điều chỉnh: hoạt động chi hộ khách hàng bằng tiền của khách hàng, do quy trình dịch vụ điều chỉnh; nội dung chuyên môn của dịch vụ bán cho khách hàng, do OBK-SOP-Handbook-KeToan điều chỉnh.
 
-2.5. **Nguyên tắc nguồn dữ liệu tài chính duy nhất và trách nhiệm kết nối về kế toán:** Mọi nghiệp vụ kinh tế phát sinh liên quan đến tiền (thu tiền khách hàng, chi mua sắm, tài sản, quỹ tiền mặt, tiền gửi ngân hàng, tạm ứng, công tác phí, tiền lương, hoa hồng đối tác, chi phí thuê ngoài) từ tất cả các bộ phận bắt buộc phải chuyển giao đầy đủ chứng từ hợp pháp về Bộ phận Kế toán để ghi nhận, hạch toán vào Hệ thống Sổ kế toán theo Thông tư 99/2025/TT-BTC. Tất cả các báo cáo quản trị tài chính nội bộ ([[TC-01_Bang_theo_doi_dong_tien_va_suc_khoe_tai_chinh|TC-01]], [[NS-09_Bang_ke_hoach_va_phan_bo_ngan_sach_tai_chinh_nam|NS-09]], [[GC-01_Bang_tinh_gia_thanh_dich_vu_va_bien_loi_nhuan_khach_hang|GC-01]], [[UE-01_Bang_theo_doi_va_tinh_toan_chi_so_kinh_te_cac_ltv_commission|UE-01]], [[KP-01_Bang_theo_doi_chi_so_hieu_suat_kpi_toan_cong_ty|KP-01]], [[CT-01_Giay_di_duong_va_quyet_toan_cong_tac_phi|CT-01]], [[PM-01_Bang_theo_doi_thue_bao_phan_mem_noi_bo|PM-01]], [[TS-01_So_theo_doi_tai_san_va_cong_cu|TS-01]]) bắt buộc phải đọc và đối khớp trực tiếp với hệ thống Sổ kế toán. Nghiêm cấm việc lập và sử dụng báo cáo quản trị bằng số liệu ước tính ngoài sổ sách kế toán.
+2.5. **Nguyên tắc nguồn dữ liệu tài chính duy nhất và trách nhiệm kết nối về kế toán:** Mọi nghiệp vụ kinh tế phát sinh liên quan đến tiền (thu tiền khách hàng, chi mua sắm, tài sản, quỹ tiền mặt, tiền gửi ngân hàng, tạm ứng, công tác phí, tiền lương, hoa hồng đối tác, chi phí thuê ngoài) từ tất cả các bộ phận bắt buộc phải chuyển giao đầy đủ chứng từ hợp pháp về Bộ phận Kế toán để ghi nhận, hạch toán vào Hệ thống Sổ kế toán theo Thông tư 99/2025/TT-BTC. Tất cả các báo cáo quản trị tài chính nội bộ (TC-01, NS-09, GC-01, UE-01, KP-01, CT-01, PM-01, TS-01) bắt buộc phải đọc và đối khớp trực tiếp với hệ thống Sổ kế toán. Nghiêm cấm việc lập và sử dụng báo cáo quản trị bằng số liệu ước tính ngoài sổ sách kế toán.
 
 2.1a. **Địa chỉ trụ sở chính và hai văn phòng, dùng cho mọi chứng từ và mọi văn bản của oBacker.**
 
@@ -142,12 +164,12 @@ tags:
 | 2 | OBK-SOP-NB-01 | Quy trình mua sắm nội bộ và đề nghị thanh toán | Cách thực thi Chương 4 và Chương 7 |
 | 3 | PL_BM | Biểu mẫu BM-01 tới BM-07 | Mẫu giấy tờ |
 
-3.3. **Quan hệ với [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]].** [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]] không phải quy chế nội bộ về chi tiêu; tài liệu đó dẫn chiếu lên quy chế này, và mục 2.6 của tài liệu đó ghi hệ quả pháp lý của việc dẫn chiếu.
+3.3. **Quan hệ với OBK-SOP-NB-01.** OBK-SOP-NB-01 không phải quy chế nội bộ về chi tiêu. Tài liệu đó dẫn chiếu lên quy chế này, và mục 2.6 của tài liệu đó ghi hệ quả pháp lý của việc dẫn chiếu.
 
 3.4. **Quy tắc chống lệch giữa hai tài liệu.** Một việc được quy định ở hai tài liệu với hai giá trị khác nhau là nguồn lỗi thường gặp nhất giữa quy chế và quy trình. Ba quy tắc dưới đây áp cho mọi tài liệu nội bộ:
 
-- **Con số nào cũng chỉ ở một chỗ.** Hạn mức, mức tối đa, tần suất, thời hạn đều đặt tại quy chế này; [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]] chỉ dẫn chiếu, không ghi lại số.
-- **Quy trình mô tả cách làm, quy chế mô tả giới hạn.** Khi [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]] cần nhắc một giới hạn để người vận hành đọc liền mạch thì phải kèm dẫn chiếu ngược lên điều tương ứng của quy chế này.
+- **Con số nào cũng chỉ ở một chỗ.** Hạn mức, mức tối đa, tần suất, thời hạn đều đặt tại quy chế này; OBK-SOP-NB-01 chỉ dẫn chiếu, không ghi lại số.
+- **Quy trình mô tả cách làm, quy chế mô tả giới hạn.** Khi OBK-SOP-NB-01 cần nhắc một giới hạn để người vận hành đọc liền mạch thì phải kèm dẫn chiếu ngược lên điều tương ứng của quy chế này.
 - **Mỗi lần sửa một trong hai tài liệu, mở Phụ lục 5 để biết chỗ nào của tài liệu kia bị ảnh hưởng.**
 
 ### Điều 4. Giải thích từ ngữ
@@ -186,37 +208,37 @@ tags:
 >
 > **Quy ước trích dẫn bắt buộc khi viết bất kỳ tài liệu nào có thể bị đọc chéo:** vai trò nội bộ ghi `KTV`, `KTT` theo OBK-QCTC-01; vai trò dịch vụ ghi `CV-KT`, `TL-KT` theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 5.1.
 
-### Điều 5. Bảy nguyên tắc tài chính
+### Điều 5. Nguyên tắc tài chính
 
 5.1. **Nguyên tắc chứng từ trước.** Không chi tiền khi chưa có chứng từ chứng minh nghĩa vụ trả tiền. Chứng từ chi tiền phải có người có thẩm quyền duyệt chi và người phụ trách kế toán ký **trước khi thực hiện** `[Luật Kế toán 41/VBHN-VPQH Đ.19 k.3]`.
 
-5.1a. **HAI NỬA CỦA NGUYÊN TẮC CHỨNG TỪ TRƯỚC. Hai nửa có hiệu lực khác nhau, không áp dụng như nhau.**
+5.1a. **Phân định phạm vi áp dụng của nguyên tắc chứng từ trước.**
 
-Mục 5.1 gộp hai câu vào một nguyên tắc, nên ở đây tách ra, vì oBacker sửa được một nửa và không sửa được nửa còn lại.
+Quy định tại mục 5.1 bao gồm hai nhóm yêu cầu có tính chất pháp lý và phạm vi áp dụng khác nhau:
 
-| Nửa | Nội dung | Nguồn | oBacker sửa được không |
+| Yêu cầu | Nội dung | Căn cứ | Phạm vi áp dụng |
 | --- | --- | --- | --- |
-| Nửa thứ nhất | Không chi tiền khi chưa có chứng từ chứng minh nghĩa vụ trả tiền | Quy tắc oBacker tự đặt, không có căn cứ luật | **CÓ NGOẠI LỆ**, theo bốn nhánh tại mục 5.1b |
-| Nửa thứ hai | Chứng từ chi tiền phải có người có thẩm quyền duyệt chi và người phụ trách kế toán ký trước khi thực hiện | `[Luật Kế toán 41/VBHN-VPQH Đ.19 k.3]` | **KHÔNG CÓ NGOẠI LỆ NÀO** |
+| Chứng minh nghĩa vụ chi | Không chi tiền khi chưa có chứng từ chứng minh nghĩa vụ trả tiền | Quy định quản trị nội bộ oBacker | Áp dụng ngoại lệ theo các trường hợp quy định tại mục 5.1b |
+| Ký duyệt chứng từ chi | Chứng từ chi tiền phải có người có thẩm quyền duyệt chi và người phụ trách kế toán ký trước khi thực hiện | `[Luật Kế toán 41/VBHN-VPQH Đ.19 k.3]` | Bắt buộc tuân thủ theo luật định, không có ngoại lệ |
 
-> [!note] ĐIỀU LUẬT NÓI VỀ CHỨNG TỪ CHI TIỀN CỦA OBACKER, KHÔNG NÓI VỀ HÓA ĐƠN CỦA NHÀ CUNG CẤP
-> Đây là chỗ hay đọc sai và là lý do nhiều doanh nghiệp tưởng không được chi khi chưa có hóa đơn. `Đ.19 k.3` chỉ đòi chứng từ chi tiền, tức phiếu chi hoặc ủy nhiệm chi mà oBacker lập, phải được ký trước khi tiền ra. Hóa đơn của nhà cung cấp là chứng từ của bên khác và đến sau được.
+> [!note] PHÂN BIỆT CHỨNG TỪ CHI TIỀN VÀ HÓA ĐƠN NHÀ CUNG CẤP
+> Yêu cầu tại Luật Kế toán Đ.19 k.3 áp dụng đối với chứng từ chi tiền do đơn vị kế toán lập (phiếu chi hoặc ủy nhiệm chi), bắt buộc phải hoàn thành chữ ký phê duyệt trước khi chuyển tiền. Hóa đơn thương mại của nhà cung cấp là chứng từ của bên bán và có thể tiếp nhận sau theo thỏa thuận thương mại hoặc theo các trường hợp tại mục 5.1b.
 >
 > **Cơ chế đúng khi chưa có hóa đơn: duyệt một số tiền MỨC TỐI ĐA trước, quyết toán sau.** Không phải chi trước rồi hợp lý hóa sau. Khác biệt giữa hai thứ đó là ở thời điểm phê duyệt, và đó là toàn bộ nội dung mà `Đ.19 k.3` bảo vệ.
 >
 > **Chính chế độ kế toán công nhận việc chi trước chứng từ sau.** `[Thông tư 99/2025/TT-BTC, Phụ lục I, Giấy đề nghị thanh toán mẫu số 05-TT, mục 1 Mục đích]` viết nguyên văn rằng mẫu này "dùng trong trường hợp đã chi nhưng chưa được thanh toán hoặc chưa nhận tạm ứng để tổng hợp các khoản đã chi kèm theo chứng từ (nếu có) để làm thủ tục thanh toán". Ba chữ "nếu có" trong ngoặc là nguyên văn của thông tư. Nghĩa là chế độ kế toán đã lường trước trường hợp chi rồi mà không có chứng từ kèm theo, và vẫn cho làm thủ tục thanh toán.
 
-5.1b. **Bốn nhánh khi không thể có chứng từ trước. Đây là bảng tra duy nhất; các điều khoản chi tiết nằm rải ở Điều 19, Điều 36 tới Điều 40 và mục 6.12 của [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]].**
+5.1b. **Bốn nhánh khi không thể có chứng từ trước. Đây là bảng tra duy nhất; các điều khoản chi tiết nằm rải ở Điều 19, Điều 36 tới Điều 40 và mục 5.12 của [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]].**
 
 | # | Tình huống | Đường đi | Chứng từ chi tiền là gì, ký khi nào | Ai phê duyệt | Chứng từ đến sau, hạn |
 | --- | --- | --- | --- | --- | --- |
 | 1 | Chi tại chỗ, hóa đơn sau: đi lại, ăn uống tiếp khách, mua nhỏ | **Tạm ứng**, Điều 36 tới Điều 38 | Phiếu chi tạm ứng, ký trước khi chuyển tiền tạm ứng. Số tiền trên phiếu là **dự toán**, không phải số quyết toán | Người duyệt chi theo bậc tại mục 12.3 duyệt dự toán trên BM-03;<br>`KTT` ký chứng từ chi tiền | Chứng từ gốc về khi hoàn ứng, theo ba thời hạn tại mục 37.1. Quyết toán vượt dự toán thì phần vượt phải duyệt lại |
 | 2 | Người lao động tự bỏ tiền ra trả trước, không qua tạm ứng | **Chi hộ**, Điều 19 và Điều 39 | Phiếu chi hoàn lại, ký trước khi hoàn tiền cho người lao động | Người duyệt chi theo bậc;<br>`KTT` ký | Hóa đơn phải có sẵn tại thời điểm đề nghị hoàn, vì đó là điều kiện tại mục 19.2. Nhánh này không cho hóa đơn về sau |
-| 3 | Tiền bị trừ tự động, oBacker không ban hành lệnh chi từng lần: phí ngân hàng, thuê bao thẻ, phí nền tảng | **Điều 40**, cộng danh mục ngoại lệ tại [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] mục 6.12.3 | Phiếu duyệt việc **đăng ký cơ chế trừ tự động**, ghi mức trần định kỳ, ký trước khi đăng ký.<br>Từng lần bị trừ không có phiếu chi riêng; gom vào bảng kê theo kỳ.<br>Xem mục 40.1a | Người duyệt chi theo bậc tính trên **tổng mức tối đa năm** của dịch vụ đó, không tính theo từng kỳ;<br>`KTT` ký | Xem mục 40.1a. Nhà cung cấp trong nước: chậm nhất ngày 07 tháng sau.<br>Nhà cung cấp nước ngoài: không có hóa đơn Việt Nam, dùng bộ chứng từ thay thế |
-| 4 | Khẩn, không kịp chờ chu kỳ chi | [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] mục 6.12.2 | Phiếu chi thường, vẫn ký trước khi chi. Nhánh này không bỏ bước ký, chỉ bỏ việc chờ chu kỳ | Người duyệt chi của bậc **cao hơn một cấp**, ghi lý do vào BM-02 | Như khoản chi thường |
+| 3 | Tiền bị trừ tự động, oBacker không ban hành lệnh chi từng lần: phí ngân hàng, thuê bao thẻ, phí nền tảng | **Điều 40**, cộng danh mục ngoại lệ tại [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] mục 5.12.3 | Phiếu duyệt việc **đăng ký cơ chế trừ tự động**, ghi mức trần định kỳ, ký trước khi đăng ký.<br>Từng lần bị trừ không có phiếu chi riêng; gom vào bảng kê theo kỳ.<br>Xem mục 40.1a | Người duyệt chi theo bậc tính trên **tổng mức tối đa năm** của dịch vụ đó, không tính theo từng kỳ;<br>`KTT` ký | Xem mục 40.1a. Nhà cung cấp trong nước: chậm nhất ngày 07 tháng sau.<br>Nhà cung cấp nước ngoài: không có hóa đơn Việt Nam, dùng bộ chứng từ thay thế |
+| 4 | Khẩn, không kịp chờ chu kỳ chi | [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] mục 5.12.2 | Phiếu chi thường, vẫn ký trước khi chi. Nhánh này không bỏ bước ký, chỉ bỏ việc chờ chu kỳ | Người duyệt chi của bậc **cao hơn một cấp**, ghi lý do vào BM-02 | Như khoản chi thường |
 
-> [!note] MỘT TRƯỜNG HỢP HAY BỊ XẾP LẪN VÀO BẢNG TRÊN MÀ KHÔNG THUỘC
-> Hợp đồng đến hạn trả, tiền lương, bảo hiểm bắt buộc, thuế. Chứng từ chứng minh nghĩa vụ của các khoản đó là hợp đồng, bảng lương, thông báo của cơ quan bảo hiểm, tờ khai thuế; không phải hóa đơn. Bốn khoản đó có đủ chứng từ trước, chỉ là chứng từ không mang tên hóa đơn. Đi theo luồng thường.
+> [!note] CÁC KHOẢN CHI CÓ CHỨNG TỪ THEO QUY ĐỊNH ĐẶC THÙ
+> Đối với hợp đồng đến hạn trả, tiền lương, bảo hiểm bắt buộc và các khoản thuế, chứng từ chứng minh nghĩa vụ chi là hợp đồng, bảng thanh toán tiền lương, thông báo của cơ quan bảo hiểm xã hội hoặc tờ khai thuế (không áp dụng hóa đơn thương mại). Các khoản chi này đáp ứng điều kiện có chứng từ trước và thực hiện theo luồng chi thông thường.
 
 5.2. **Nguyên tắc không dùng tiền mặt là mặc định.** Mọi khoản thanh toán mặc định bằng chuyển khoản. Tiền mặt là ngoại lệ, chỉ dùng dưới mức tối đa tại Điều 32 và chỉ khi không có phương án chuyển khoản.
 
@@ -248,98 +270,11 @@ Mục 5.1 gộp hai câu vào một nguyên tắc, nên ở đây tách ra, vì 
 > [!note] NHÁNH `Thông tư 58/2026/TT-BTC` ĐÃ ĐÓNG NGÀY 11/09/2026
 > `TGĐ` cung cấp số liệu: lao động có hợp đồng lao động và có đóng bảo hiểm xã hội từ 11 người trở lên. Diện doanh nghiệp siêu nhỏ trong lĩnh vực thương mại và dịch vụ đòi lao động có tham gia bảo hiểm xã hội bình quân năm không quá 10 người `[Nghị định 80/2021/NĐ-CP Đ.5 k.1]`, và điều kiện này nối với phần còn lại bằng chữ "và". Vì vậy oBacker **không thuộc diện doanh nghiệp siêu nhỏ**, và `Thông tư 58/2026/TT-BTC` không áp dụng được cho oBacker.
 >
-> **Hai hệ quả.** Một, chế độ kế toán duy nhất còn cạnh tranh với `Thông tư 99/2025/TT-BTC` là `Thông tư 133/2016/TT-BTC` cho doanh nghiệp nhỏ và vừa; phân tích đầy đủ tại [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]] mục 3.1 và 3.2. Hai, oBacker **không dùng được** phần miễn nghĩa vụ bố trí kế toán trưởng tại `Thông tư 58/2026/TT-BTC Đ.3 k.2`, nên kết luận tại mục 41.5 và giữ nguyên và không còn nhánh thay thế nào làm nhẹ đi.
-
-### Điều 7. Căn cứ pháp lý
-
-Toàn bộ căn cứ dưới đây đã đối chiếu bản gốc trong kho văn bản nội bộ tại `05_PhapLuat/`.
-
-> [!note] QUY TẮC TRÍCH DẪN
-> Bản HỢP NHẤT thắng bản gốc
-> Quy chế này trích `Văn bản hợp nhất 19/VBHN-BTC` chứ không trích `Nghị định 320/2025/NĐ-CP`, và trích `Văn bản hợp nhất 18/VBHN-BTC ngày 04/06/2026` chứ không trích `Nghị định 181/2025/NĐ-CP`. Lý do và phạm vi áp dụng của quy tắc này xem `05_PhapLuat/00_MUC_LUC_KHO.md` mục 5.
-
-| Nhóm | Nội dung | Căn cứ | Tag |
-| --- | --- | --- | --- |
-| Kế toán | Đơn vị tiền tệ | Luật Kế toán 41/VBHN-VPQH Đ.10 k.1 |  |
-| Kế toán | Kỳ kế toán | Luật Kế toán 41/VBHN-VPQH Đ.12 |  |
-| Kế toán | Cấm người quản lý, điều hành kiêm kế toán, thủ kho, thủ quỹ | Luật Kế toán 41/VBHN-VPQH Đ.13 k.7 |  |
-| Kế toán | Nội dung chứng từ kế toán | Luật Kế toán 41/VBHN-VPQH Đ.16 k.1 |  |
-| Kế toán | Chứng từ điện tử | Luật Kế toán 41/VBHN-VPQH Đ.17 |  |
-| Kế toán | Lập chứng từ, mỗi nghiệp vụ lập một lần | Luật Kế toán 41/VBHN-VPQH Đ.18 k.1 |  |
-| Kế toán | Ký chứng từ, chứng từ chi tiền phải ký trước khi thực hiện | Luật Kế toán 41/VBHN-VPQH Đ.19 k.2, k.3 |  |
-| Kế toán | Sổ kế toán, mở sổ, ghi sổ, khóa sổ, ghi sổ điện tử | Luật Kế toán 41/VBHN-VPQH Đ.24, Đ.25, Đ.26 |  |
-| Kế toán | Sửa chữa sổ kế toán | Luật Kế toán 41/VBHN-VPQH Đ.27 |  |
-| Kế toán | Báo cáo tài chính, nội dung, chữ ký, thời hạn nộp 90 ngày | Luật Kế toán 41/VBHN-VPQH Đ.29 |  |
-| Kế toán | Kiểm soát nội bộ | Luật Kế toán 41/VBHN-VPQH Đ.39 k.2 |  |
-| Kế toán | Kiểm kê tài sản, các trường hợp phải kiểm kê, xử lý chênh lệch | Luật Kế toán 41/VBHN-VPQH Đ.40 |  |
-| Kế toán | Bảo quản, lưu trữ tài liệu kế toán, thời hạn 05, 10, vĩnh viễn | Luật Kế toán 41/VBHN-VPQH Đ.41 k.3, k.4, k.5 |  |
-| Kế toán | Tổ chức bộ máy kế toán, thuê dịch vụ | Luật Kế toán 41/VBHN-VPQH Đ.49, Đ.56 |  |
-| Kế toán | Trách nhiệm của người đại diện theo pháp luật về kế toán | Luật Kế toán 41/VBHN-VPQH Đ.50 |  |
-| Kế toán | Người không được làm kế toán | Luật Kế toán 41/VBHN-VPQH Đ.52 k.3, k.4 |  |
-| Kế toán | Kế toán trưởng, người phụ trách kế toán, tiêu chuẩn và điều kiện | Luật Kế toán 41/VBHN-VPQH Đ.53, Đ.54, Đ.55 |  |
-| Kế toán | Nghĩa vụ tự xây dựng quy chế quản trị nội bộ và kiểm soát nội bộ | Thông tư 99/2025/TT-BTC Đ.3 k.2 |  |
-| Kế toán | Quy chế hạch toán kế toán khi sửa biểu mẫu sổ | Thông tư 99/2025/TT-BTC Đ.12 k.2 |  |
-| Kế toán | Ký báo cáo tài chính khi thuê dịch vụ kế toán | Thông tư 99/2025/TT-BTC Đ.16 k.4 |  |
-| Kế toán | Thời hạn nộp báo cáo tài chính năm | Thông tư 99/2025/TT-BTC Đ.25 |  |
-| Kế toán | Hiệu lực, đối tượng áp dụng, quyền chọn của doanh nghiệp vừa và nhỏ | Thông tư 99/2025/TT-BTC Đ.2, Đ.31 |  |
-| Kế toán | Bốn tiêu chuẩn ghi nhận tài sản cố định hữu hình | Thông tư 99/2025/TT-BTC, Phụ lục II, thuyết minh Tài khoản 211 |  |
-| GTGT | Điều kiện khấu trừ thuế giá trị gia tăng đầu vào | Luật Thuế GTGT 114/VBHN-VPQH Đ.14 k.2 |  |
-| GTGT | Chứng từ thanh toán không dùng tiền mặt, ngưỡng 05 triệu đồng | Văn bản hợp nhất 18/VBHN-BTC ngày 04/06/2026 Đ.26 |  |
-| GTGT | Người lao động được ủy quyền thanh toán theo quy chế | Văn bản hợp nhất 18/VBHN-BTC ngày 04/06/2026 Đ.26 k.2 đ.i |  |
-| GTGT | Mua trả chậm, trả góp | Văn bản hợp nhất 18/VBHN-BTC ngày 04/06/2026 Đ.26 k.2 đ.g |  |
-| GTGT | Mua nhiều lần trong cùng một ngày của cùng một người bán | Văn bản hợp nhất 18/VBHN-BTC ngày 04/06/2026 Đ.26 k.3 |  |
-| TNDN | Ba điều kiện của khoản chi được trừ | Luật Thuế TNDN 113/VBHN-VPQH Đ.9 k.1 |  |
-| TNDN | Các khoản chi không được trừ, tiền phạt và tiền chậm nộp | Luật Thuế TNDN 113/VBHN-VPQH Đ.9 k.2 đ.b, đ.l |  |
-| TNDN | Trích lập Quỹ phát triển khoa học và công nghệ, tối đa 20% | Luật Thuế TNDN 113/VBHN-VPQH Đ.17 |  |
-| TNDN | Doanh thu và thời điểm xác định doanh thu | Văn bản hợp nhất 19/VBHN-BTC Đ.8 |  |
-| TNDN | Điều kiện chi được trừ, hóa đơn, không dùng tiền mặt, người lao động mua hộ | Văn bản hợp nhất 19/VBHN-BTC Đ.9 k.1 |  |
-| TNDN | Chi đào tạo nghề, phải quy định tại quy chế tài chính | Văn bản hợp nhất 19/VBHN-BTC Đ.9 k.2 đ.c |  |
-| TNDN | Toàn bộ khoản chi không được trừ và các mức trần | Văn bản hợp nhất 19/VBHN-BTC Đ.10 |  |
-| TNDN | Hồ sơ của khoản chi được trừ | Thông tư 20/2026/TT-BTC Đ.3 |  |
-| TNCN | Thu nhập chịu thuế từ tiền lương, tiền công | Luật Thuế TNCN 112/VBHN-VPQH Đ.3 k.2 |  |
-| TNCN | Thu nhập tính thuế từ tiền lương, tiền công | Luật Thuế TNCN 112/VBHN-VPQH Đ.8 k.2 |  |
-| TNCN | Khoán chi, ăn giữa ca, hiếu hỉ, đưa đón, công tác | Nghị định 253/2026/NĐ-CP Đ.8 |  |
-| TNCN | Khấu trừ thuế, lũy tiến và tỷ lệ 10% từ 05 triệu đồng một lần | Nghị định 253/2026/NĐ-CP Đ.50 |  |
-| TNCN | Hiệu lực, mốc áp dụng tiền ăn giữa ca từ 01/07/2026 | Nghị định 253/2026/NĐ-CP Đ.69 |  |
-| Đặc thù Đà Nẵng | Miễn thuế TNDN và miễn thuế TNCN 05 năm cho Doanh nghiệp Khởi nghiệp sáng tạo và nhân sự | Nghị quyết 136/2024/QH15 Đ.14 k.1; Nghị quyết 53/2024/NQ-HĐND; Nghị quyết 24/2026/NQ-HĐND; Xác nhận Sở KH&CN Đà Nẵng ngày 29/12/2025 |  |
-| Hóa đơn | Thời điểm lập hóa đơn đối với cung cấp dịch vụ | Nghị định 254/2026/NĐ-CP Đ.9 k.2 |  |
-| Nội bộ | Thẩm quyền tài chính của ĐHĐCĐ, HĐQT, TGĐ;<br>trả cổ tức;<br>năm tài chính;<br>phân phối lợi nhuận;<br>thời hạn góp vốn;<br>lưu trữ tài liệu công ty | Điều lệ oBacker Đ.5, Đ.6, Đ.7, Đ.21, Đ.24, Đ.25, Đ.28, Đ.29, Đ.40, Đ.41, Đ.43, Đ.44, Đ.45 | Nội bộ |
-| Nội bộ | Trách nhiệm vật chất, mức bồi thường, mức tối đa khấu trừ lương, thẩm quyền xử lý kỷ luật | [[Noi_quy_lao_dong\|OBK-NQLD]] Nội quy lao động ngày 03/09/2026, Chương IX | Nội bộ |
-| Doanh nghiệp | Thẩm quyền ĐHĐCĐ, mốc 35% tổng giá trị tài sản | Luật Doanh nghiệp 67/VBHN-VPQH Đ.138 k.2 |  |
-| Doanh nghiệp | Thẩm quyền HĐQT, hợp đồng mua bán vay cho vay từ 35% | Luật Doanh nghiệp 67/VBHN-VPQH Đ.153 k.2 |  |
-| Doanh nghiệp | Giao dịch với người có liên quan, ngưỡng 10% và 35%, ngưỡng cổ đông 51% | Luật Doanh nghiệp 67/VBHN-VPQH Đ.167 |  |
-| Doanh nghiệp | Điều kiện không bắt buộc có Ban kiểm soát | Luật Doanh nghiệp 67/VBHN-VPQH Đ.137 k.1 đ.a |  |
-| Doanh nghiệp | Người đại diện theo pháp luật, số lượng và chức danh | Luật Doanh nghiệp 67/VBHN-VPQH Đ.12, Đ.137 k.2 |  |
-| Doanh nghiệp | Trả cổ tức, ba điều kiện và thời hạn 06 tháng | Luật Doanh nghiệp 67/VBHN-VPQH Đ.135 |  |
-| Doanh nghiệp | Thanh toán cổ phần khi thành lập, 90 ngày | Luật Doanh nghiệp 67/VBHN-VPQH Đ.113 |  |
-| Doanh nghiệp | Trình báo cáo hằng năm lên ĐHĐCĐ, kiểm toán trước khi trình | Luật Doanh nghiệp 67/VBHN-VPQH Đ.175 |  |
-| Doanh nghiệp | Thẩm quyền quy chế quản trị nội bộ và quy chế quản lý nội bộ | Luật Doanh nghiệp 67/VBHN-VPQH Đ.138 k.2 đ.l, Đ.153 k.2 đ.l, Đ.162 k.3 đ.d |  |
-| Lao động | **Khấu trừ tiền lương, phạm vi và mức tối đa 30%** | Bộ luật Lao động 18/VBHN-VPQH Đ.102 |  |
-| Lao động | Cấm phạt tiền, cắt lương thay xử lý kỷ luật | Bộ luật Lao động 18/VBHN-VPQH Đ.127 k.2 |  |
-| Lao động | Trả lương đầy đủ, bảng kê trả lương | Bộ luật Lao động 18/VBHN-VPQH Đ.94 k.1, Đ.95 k.3 |  |
-| Lao động | Tạm ứng tiền lương, ba khoản | Bộ luật Lao động 18/VBHN-VPQH Đ.101 |  |
-| Lao động | Tạm đình chỉ công việc, tạm ứng 50% tiền lương | Bộ luật Lao động 18/VBHN-VPQH Đ.128 |  |
-| Lao động | Nghỉ hằng năm chưa đến kỳ trả lương thì được tạm ứng tiền lương | Bộ luật Lao động 18/VBHN-VPQH Đ.113 k.5 |  |
-| Lao động | Hình thức trả lương, tiền mặt hoặc qua tài khoản cá nhân | Bộ luật Lao động 18/VBHN-VPQH Đ.96 k.2 |  |
-| Kế toán | Tài khoản 334 Phải trả người lao động;<br>Bảng thanh toán tiền lương mẫu số 01-LĐTL | Thông tư 99/2025/TT-BTC, Tài khoản 334 và Phụ lục I |  |
-| Lao động | Thanh toán khi chấm dứt hợp đồng lao động | Bộ luật Lao động 18/VBHN-VPQH Đ.48 k.1 |  |
-| Lao động | Trợ cấp thôi việc, một nửa tháng lương mỗi năm | Bộ luật Lao động 18/VBHN-VPQH Đ.46 |  |
-| Lao động | Trợ cấp mất việc làm, 01 tháng mỗi năm, tối thiểu 02 tháng | Bộ luật Lao động 18/VBHN-VPQH Đ.47 |  |
-| Lao động | Bồi thường thiệt hại, mức tối đa 03 tháng lương và ngưỡng 10 tháng lương tối thiểu vùng | Bộ luật Lao động 18/VBHN-VPQH Đ.129, Đ.130 |  |
-| Lao động | Ngày nghỉ lễ, tết | Bộ luật Lao động 18/VBHN-VPQH Đ.112 |  |
-| Lao động | Thời hiệu xử lý kỷ luật, 06 tháng và 12 tháng | Bộ luật Lao động 18/VBHN-VPQH Đ.123 |  |
-| Lao động | Nội quy lao động, nội dung, đăng ký, hiệu lực | Bộ luật Lao động 18/VBHN-VPQH Đ.118, Đ.119, Đ.121 |  |
-| Lao động | Người có thẩm quyền xử lý kỷ luật lao động | Nghị định 145/2020/NĐ-CP Đ.69 k.2 đ.i |  |
-| Lao động | Trình tự, thời hiệu xử lý bồi thường thiệt hại | Nghị định 145/2020/NĐ-CP Đ.71, Đ.72 |  |
-| Lao động | Mức lương tối thiểu vùng, hiệu lực 01/01/2026 | Nghị định 293/2025/NĐ-CP Đ.3, Đ.5 |  |
-| Kế toán | Ngưỡng giá trị ghi nhận tài sản cố định hữu hình, giá trị từ 30.000.000 đồng | Văn bản hợp nhất 12/VBHN-BTC Đ.3 k.1 đ.c |  |
-| Kế toán | Khung thời gian trích khấu hao tài sản cố định theo nhóm tài sản | Văn bản hợp nhất 12/VBHN-BTC, Phụ lục I |  |
-| TNDN | Pháp luật về trích lập dự phòng, mức trích lập dự phòng nợ phải thu khó đòi theo tuổi nợ | Thông tư 48/2019/TT-BTC Đ.6 k.1, k.2 |  |
-| Kế toán | Tiêu chuẩn chuyên môn của kế toán trưởng, phụ trách kế toán theo vốn điều lệ của doanh nghiệp | Nghị định 174/2016/NĐ-CP Đ.21 k.2 đ.i, k.3 đ.g |  |
-| Đã có căn cứ, chờ nâng mức | Tỷ lệ thuế nhà thầu nước ngoài.<br>Thông tư 103/2014 ĐÃ HẾT HIỆU LỰC từ 01/07/2026.<br>Kho đã có căn cứ thay: [[Văn bản hợp nhất 19-VBHN-BTC, Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành luật thuế thu nhập doanh nghiệp]] Đ.12 k.3; [[Thông tư 20-2026 Quy định chi tiết một số điều của luật thuế thu nhập doanh nghiệp]] Đ.7; [[Văn bản hợp nhất 114-VBHN-VPQH, Luật Thuế giá trị gia tăng, hợp nhất ngày 20-5-2026]] Đ.12 k.2 | Có trong kho từ 02/09/2026 | chưa xác minh được cho tới khi KTT đọc bản gốc và ký kết luận |
-| TNDN | Chi phí nghiên cứu khoa học, phát triển công nghệ được trừ theo tỷ lệ phần trăm chi phí thực tế | Luật Khoa học, công nghệ và đổi mới sáng tạo 93/2025/QH15 Đ.35 k.2, k.3 |  |
-
----
+> **Hai hệ quả.**
+>
+> 1. Chế độ kế toán duy nhất còn cạnh tranh với `Thông tư 99/2025/TT-BTC` là `Thông tư 133/2016/TT-BTC` cho doanh nghiệp nhỏ và vừa; phân tích đầy đủ tại OBK-QCTC-03 mục 3.1 và 3.2.
+>
+> 2. oBacker **không dùng được** phần miễn nghĩa vụ bố trí kế toán trưởng tại `Thông tư 58/2026/TT-BTC Đ.3 k.2`, nên kết luận tại mục 41.5 và giữ nguyên và không còn nhánh thay thế nào làm nhẹ đi.
 
 ## CHƯƠNG 2. QUẢN LÝ VỐN VÀ TÀI SẢN
 
@@ -377,12 +312,12 @@ Giao dịch giữa oBacker với các nhân sự nêu trên, với người có 
 | Dưới mốc trên | Thuộc công việc kinh doanh hằng ngày, TGĐ quyết định | `[Điều lệ Đ.28 k.3 đ.a]` |
 | Huy động thêm vốn theo hình thức khác, bán cổ phần chưa bán | HĐQT quyết định | `[Điều lệ Đ.25 k.2 đ.c]` |
 
-> ** oBacker đặt mức nội bộ CHẶT HƠN Điều lệ.** Mốc 35% tổng giá trị tài sản là mốc trên; dưới mốc đó Điều lệ để TGĐ tự quyết. oBacker siết lại: **mọi khoản vay, bảo lãnh, thế chấp tài sản, không phân biệt giá trị, đều phải báo HĐQT trước khi ký**, kể cả khoản dưới mốc 35%. Lý do: với tổng tài sản của một công ty dịch vụ giai đoạn đầu, 35% tổng tài sản là một con số nhỏ về tuyệt đối nhưng một khoản vay bất kỳ vẫn tạo nghĩa vụ dài hạn và tạo rủi ro thuế tại mục 9.2. Việc siết chặt hơn Điều lệ là hợp pháp; nới rộng hơn Điều lệ thì không.
+> Mọi hợp đồng vay, bảo lãnh, thế chấp tài sản, không phân biệt giá trị (bao gồm các khoản dưới mốc 35% tổng giá trị tài sản), đều phải báo cáo và được HĐQT thông qua trước khi ký kết. Thẩm quyền này áp dụng thống nhất nhằm kiểm soát nghĩa vụ tài chính dài hạn và rủi ro thuế theo mục 9.2.
 
 9.2. **Mức tối đa lãi vay từ đối tượng không phải tổ chức tín dụng.** Phần chi phí trả lãi tiền vay vốn sản xuất kinh doanh của đối tượng không phải là tổ chức tín dụng **vượt quá mức quy định tại Bộ luật Dân sự** không được tính vào chi phí được trừ `[Văn bản hợp nhất 19/VBHN-BTC Đ.10 k.10]`.
 
-> [!question] CẦN XÁC MINH
-> Mức lãi suất theo thỏa thuận không được vượt quá 20%/năm của khoản tiền vay, trừ trường hợp luật khác có liên quan quy định khác `[Bộ luật Dân sự 91/2015/QH13 Đ.468 k.1]`. Trước mỗi lần oBacker vay từ cá nhân hoặc từ tổ chức không phải tổ chức tín dụng, KTT đối chiếu mức 20%/năm này với hợp đồng vay cụ thể và ghi kết luận vào hồ sơ khoản vay, kể cả trường hợp luật chuyên ngành khác quy định mức khác cho loại giao dịch đó.
+> [!note] TRẦN LÃI SUẤT TIỀN VAY THEO BỘ LUẬT DÂN SỰ
+> Mức lãi suất theo thỏa thuận không được vượt quá 20%/năm của khoản tiền vay, trừ trường hợp luật khác có liên quan quy định khác `[Bộ luật Dân sự 91/2015/QH13 Đ.468 k.1]`. Trước khi thực hiện vay vốn từ cá nhân hoặc tổ chức không phải tổ chức tín dụng, KTT đối chiếu mức lãi suất thỏa thuận trên hợp đồng với mức trần luật định và ghi nhận kết luận vào hồ sơ khoản vay.
 
 9.3. Mọi khoản vay phải có hợp đồng bằng văn bản, có chứng từ chuyển tiền vào tài khoản của oBacker, và được theo dõi trên sổ kế toán ngay khi phát sinh.
 
@@ -397,17 +332,17 @@ Giao dịch giữa oBacker với các nhân sự nêu trên, với người có 
 - Có thời gian sử dụng ước tính trên 1 năm;
 - Có đủ tiêu chuẩn giá trị theo quy định hiện hành.
 
-> [!note] NGƯỠNG GIÁ TRỊ TỐI THIỂU CỦA TÀI SẢN CỐ ĐỊNH, ĐÃ TRA ĐƯỢC
+> [!note] TIÊU CHUẨN NHẬN BIẾT TÀI SẢN CỐ ĐỊNH
 >
-> Tiêu chuẩn thứ tư là một dẫn chiếu mở tại `[Thông tư 99/2025/TT-BTC, Phụ lục II, thuyết minh Tài khoản 211]`: không nêu con số, không nêu số hiệu văn bản. Văn bản được dẫn chiếu là quy định của Bộ Tài chính về tiêu chuẩn và nhận biết tài sản cố định, nay xác định là `[[Văn bản hợp nhất 12-VBHN-BTC, hợp nhất Thông tư 45-2013-TT-BTC hướng dẫn chế độ quản lý, sử dụng và trích khấu hao tài sản cố định\|VB-086]]` Đ.3 k.1: nguyên giá tài sản có giá trị **từ 30.000.000 đồng trở lên** là một trong ba tiêu chuẩn cộng dồn để ghi nhận tài sản cố định hữu hình, xem [[CC-KT-87 Ngưỡng ghi nhận tài sản cố định hữu hình, giá trị từ 30.000.000 đồng|CC-KT-87]]. Mục 10.2 dưới đây áp trực tiếp ngưỡng này.
+> Tiêu chuẩn thứ tư là một dẫn chiếu mở tại `[Thông tư 99/2025/TT-BTC, Phụ lục II, thuyết minh Tài khoản 211]`: không nêu con số, không nêu số hiệu văn bản. Văn bản được dẫn chiếu là quy định của Bộ Tài chính về tiêu chuẩn và nhận biết tài sản cố định, nay xác định là văn bản hợp nhất 12/VBHN-BTC, hợp nhất Thông tư 45/2013/TT-BTC hướng dẫn chế độ quản lý, sử dụng và trích khấu hao tài sản cố định Đ.3 k.1: nguyên giá tài sản có giá trị **từ 30.000.000 đồng trở lên** là một trong ba tiêu chuẩn cộng dồn để ghi nhận tài sản cố định hữu hình. Mục 10.2 dưới đây áp trực tiếp ngưỡng này.
 
-10.2. **Ngưỡng ghi nhận tài sản cố định hữu hình là 30.000.000 đồng, theo đúng văn bản của Bộ Tài chính.** Tài sản dùng trên 1 năm, đáp ứng đồng thời ba tiêu chuẩn tại `[[Văn bản hợp nhất 12-VBHN-BTC, hợp nhất Thông tư 45-2013-TT-BTC hướng dẫn chế độ quản lý, sử dụng và trích khấu hao tài sản cố định\|VB-086]]` Đ.3 k.1, và có giá trị từ 30.000.000 đồng trở lên, được ghi nhận là tài sản cố định; dưới mức đó ghi nhận là công cụ, dụng cụ.
+10.2. **Ngưỡng ghi nhận tài sản cố định hữu hình là 30.000.000 đồng, theo đúng văn bản của Bộ Tài chính.** Tài sản dùng trên 1 năm, đáp ứng đồng thời ba tiêu chuẩn tại văn bản hợp nhất 12/VBHN-BTC, hợp nhất Thông tư 45/2013/TT-BTC hướng dẫn chế độ quản lý, sử dụng và trích khấu hao tài sản cố định Đ.3 k.1, và có giá trị từ 30.000.000 đồng trở lên, được ghi nhận là tài sản cố định; dưới mức đó ghi nhận là công cụ, dụng cụ.
 
 | Tình huống | Cách xử lý | Lý do |
 | --- | --- | --- |
 | Thời gian sử dụng ước tính **từ 1 năm trở xuống** | Ghi nhận một lần vào chi phí trong kỳ | Không thỏa tiêu chuẩn thứ ba của tài sản cố định `[Thông tư 99/2025/TT-BTC, Phụ lục II, thuyết minh Tài khoản 211]`, nên không có gì phải chọn |
-| Dùng **trên 1 năm**, giá trị nhỏ hơn 30.000.000 đồng | Ghi nhận là **công cụ, dụng cụ**, phân bổ theo mục 10.3 | Không đạt tiêu chuẩn giá trị tại `[[Văn bản hợp nhất 12-VBHN-BTC, hợp nhất Thông tư 45-2013-TT-BTC hướng dẫn chế độ quản lý, sử dụng và trích khấu hao tài sản cố định\|VB-086]]` Đ.3 k.1 đ.c |
-| Dùng **trên 1 năm**, giá trị từ 30.000.000 đồng trở lên, bản chất rõ ràng là tài sản cố định | Ghi nhận là **tài sản cố định**, KTT xác nhận nhóm tài sản trước khi hạch toán bút toán đầu tiên | Đủ ba tiêu chuẩn cộng dồn tại `[[Văn bản hợp nhất 12-VBHN-BTC, hợp nhất Thông tư 45-2013-TT-BTC hướng dẫn chế độ quản lý, sử dụng và trích khấu hao tài sản cố định\|VB-086]]` Đ.3 k.1 |
+| Dùng **trên 1 năm**, giá trị nhỏ hơn 30.000.000 đồng | Ghi nhận là **công cụ, dụng cụ**, phân bổ theo mục 10.3 | Không đạt tiêu chuẩn giá trị tại `VB-086` Đ.3 k.1 đ.c |
+| Dùng **trên 1 năm**, giá trị từ 30.000.000 đồng trở lên, bản chất rõ ràng là tài sản cố định | Ghi nhận là **tài sản cố định**, KTT xác nhận nhóm tài sản trước khi hạch toán bút toán đầu tiên | Đủ ba tiêu chuẩn cộng dồn tại `VB-086` Đ.3 k.1 |
 | Dùng **trên 1 năm**, giá trị từ 30.000.000 đồng trở lên, chưa rõ nhóm hoặc bản chất tài sản | **KTT kết luận bằng văn bản** cho từng trường hợp trước khi hạch toán | Ở dải này chọn sai gây chênh lệch lớn và kéo dài nhiều năm |
 
 > [!note] HỆ QUẢ CỦA VIỆC CHỌN SAI
@@ -424,16 +359,16 @@ Giao dịch giữa oBacker với các nhân sự nêu trên, với người có 
 
 ### Điều 11. Khấu hao tài sản cố định
 
-11.1. Việc trích khấu hao tài sản cố định thực hiện theo quy định của Bộ trưởng Bộ Tài chính về chế độ quản lý, sử dụng và trích khấu hao tài sản cố định `[Văn bản hợp nhất 19/VBHN-BTC Đ.10 k.6 đ.d1]`. Văn bản đó là `[[Văn bản hợp nhất 12-VBHN-BTC, hợp nhất Thông tư 45-2013-TT-BTC hướng dẫn chế độ quản lý, sử dụng và trích khấu hao tài sản cố định\|VB-086]]`; khung thời gian trích khấu hao theo nhóm tài sản nằm tại Phụ lục I của văn bản đó, xem [[CC-KT-88 Khung thời gian trích khấu hao tài sản cố định theo nhóm tài sản|CC-KT-88]].
+11.1. Việc trích khấu hao tài sản cố định thực hiện theo quy định của Bộ trưởng Bộ Tài chính về chế độ quản lý, sử dụng và trích khấu hao tài sản cố định `[Văn bản hợp nhất 19/VBHN-BTC Đ.10 k.6 đ.d1]`. Văn bản đó là `VB-086`. Khung thời gian trích khấu hao theo nhóm tài sản nằm tại Phụ lục I của văn bản đó, xem CC-KT-88.
 
 11.1a. **Khung thời gian trích khấu hao theo nhóm tài sản đã có; khoản từ 100.000.000 đồng trở lên vẫn giao Legal R&D kiểm theo từng trường hợp trước khi ghi nhận.**
 
-> Khác với ngưỡng ghi nhận tại mục 10.2: trích nhanh hơn khung thì phần vượt bị loại `[Văn bản hợp nhất 19/VBHN-BTC Đ.10 k.6 đ.d]`, trích chậm hơn khung thì cũng là trích không đúng mức quy định. Phần lớn tài sản của một công ty dịch vụ, chủ yếu máy tính, thiết bị văn phòng và phần mềm quản lý, thuộc nhóm E.2 của khung tại `[[Văn bản hợp nhất 12-VBHN-BTC, hợp nhất Thông tư 45-2013-TT-BTC hướng dẫn chế độ quản lý, sử dụng và trích khấu hao tài sản cố định\|VB-086]]` Phụ lục I ("Máy móc, thiết bị thông tin, điện tử và phần mềm tin học phục vụ quản lý"), khung tối thiểu 3 năm, tối đa 8 năm.
+> Khác với ngưỡng ghi nhận tại mục 10.2: trích nhanh hơn khung thì phần vượt bị loại `[Văn bản hợp nhất 19/VBHN-BTC Đ.10 k.6 đ.d]`, trích chậm hơn khung thì cũng là trích không đúng mức quy định. Phần lớn tài sản của một công ty dịch vụ, chủ yếu máy tính, thiết bị văn phòng và phần mềm quản lý, thuộc nhóm E.2 của khung tại văn bản hợp nhất 12/VBHN-BTC, hợp nhất Thông tư 45/2013/TT-BTC hướng dẫn chế độ quản lý, sử dụng và trích khấu hao tài sản cố định Phụ lục I ("Máy móc, thiết bị thông tin, điện tử và phần mềm tin học phục vụ quản lý"), khung tối thiểu 3 năm, tối đa 8 năm.
 >
 > Việc còn lại của KTT hoặc Legal R&D là hai việc sau, không còn là việc tra tìm văn bản:
 >
 > 1. **Xác định đúng nhóm tài sản trong Phụ lục I.** Một tài sản không khớp mô tả của bất kỳ nhóm A tới H nào thì xếp nhóm I ("các loại tài sản cố định hữu hình khác chưa quy định trong các nhóm trên", khung 4 tới 25 năm) hoặc nhóm K nếu là tài sản cố định vô hình.
-> 2. **Chọn số năm cụ thể trong khung tối thiểu, tối đa của nhóm đó.** Đây là quyết định nghiệp vụ của từng trường hợp, không phải khoảng trống pháp lý; số năm chọn phải phù hợp khả năng sử dụng thực tế của tài sản, theo `[[Văn bản hợp nhất 12-VBHN-BTC, hợp nhất Thông tư 45-2013-TT-BTC hướng dẫn chế độ quản lý, sử dụng và trích khấu hao tài sản cố định\|VB-086]]` Đ.10.
+> 2. **Chọn số năm cụ thể trong khung tối thiểu, tối đa của nhóm đó.** Đây là quyết định nghiệp vụ của từng trường hợp, không phải khoảng trống pháp lý; số năm chọn phải phù hợp khả năng sử dụng thực tế của tài sản, theo văn bản hợp nhất 12/VBHN-BTC, hợp nhất Thông tư 45/2013/TT-BTC hướng dẫn chế độ quản lý, sử dụng và trích khấu hao tài sản cố định Đ.10.
 >
 > **Khoản từ 100.000.000 đồng trở lên: giao Legal R&D kiểm theo từng trường hợp trước khi hạch toán bút toán đầu tiên**, không hạch toán trước rồi sửa sau. Kết luận về nhóm tài sản và thời gian khấu hao phải bằng văn bản, ghi rõ số hiệu văn bản, điều khoản và nhóm tài sản áp dụng, lưu vào hồ sơ tài sản.
 
@@ -460,18 +395,18 @@ Giao dịch giữa oBacker với các nhân sự nêu trên, với người có 
 12.1. Quy trình mua sắm tài sản thực hiện theo [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]], Luồng A. **Thẩm quyền phê duyệt theo ma trận hợp nhất tại mục 12.3 dưới đây**, không theo một bảng riêng nào khác.
 
 > [!note] MA TRẬN HẠN MỨC LÀ MỘT BẢNG DUY NHẤT, ĐẶT TẠI MỤC 12.3
-> Ma trận hạn mức của bộ tài liệu nội bộ đặt tại mục 12.3 và chỉ đặt ở đó. Bảng bậc tại [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]] mục 6.2.1 không có cột giá trị tiền; bảng đó gồm cột Bậc, Người duyệt nhu cầu, Người duyệt chi và Số báo giá tối thiểu, và dẫn chiếu ngưỡng giá trị về mục 12.3.
+> Ma trận hạn mức của bộ tài liệu nội bộ đặt tại mục 12.3 và chỉ đặt ở đó. Bảng bậc tại OBK-SOP-NB-01 mục 5.2.1 không có cột giá trị tiền; bảng đó gồm cột Bậc, Người duyệt nhu cầu, Người duyệt chi và Số báo giá tối thiểu, và dẫn chiếu ngưỡng giá trị về mục 12.3.
 
 12.2. Kiểm kê tài sản cố định và công cụ, dụng cụ đang theo dõi: tối thiểu 01 lần một năm, vào ngày 31 tháng 12, và kiểm kê đột xuất mỗi khi thay đổi người quản lý tài sản. Xem thêm Điều 44 về nghĩa vụ kiểm kê theo luật.
 
 12.3. Thẩm quyền quyết định đầu tư, thanh lý, nhượng bán tài sản. Mốc trên cùng là mốc của Điều lệ và không được nới:
 
-> **MỤC NÀY LÀ NGUỒN CỦA điều kiện bắt buộc `G5` của chu trình CHI và `H4` của chu trình MUA SẮM.** Sửa mục này thì kiểm lại hai điều kiện đó tại `PL_DT_Mo_hinh_trang_thai_chi_tien.md` mục 8 và `PL_DM_Mo_hinh_trang_thai_mua_sam.md` mục 7, cùng bảng bậc tại [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]] mục 6.2.1. Dòng dẫn chiếu ngược này thêm ngày 07/09/2026 sau khi phát hiện liên kết giữa quy chế và đặc tả đang một chiều.
+> **MỤC NÀY LÀ NGUỒN CỦA điều kiện bắt buộc `G5` của chu trình CHI và `H4` của chu trình MUA SẮM.** Sửa mục này thì kiểm lại hai điều kiện đó tại `PL_DT_Mo_hinh_trang_thai_chi_tien.md` mục 8 và `PL_DM_Mo_hinh_trang_thai_mua_sam.md` mục 7, cùng bảng bậc tại [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]] mục 5.2.1.
 
 | Giá trị | Người quyết định | Căn cứ |
 | --- | --- | --- |
 | Dưới 5.000.000 đồng | TL | Bậc B1 |
-| Từ 5.000.000 đến dưới 20.000.000 đồng | COO hoặc KTT | Bậc B2 |
+| Từ 5.000.000 đến dưới 20.000.000 đồng | COO; CEO là dự phòng khi COO vắng mặt | Bậc B2 |
 | Từ 20.000.000 đồng đến dưới **mức tối đa của bậc B3** tại mục 12.3a | TGĐ, sau khi TL và KTT cùng duyệt nhu cầu | Bậc B3, trong phạm vi công việc hằng ngày `[Luật Doanh nghiệp 67/VBHN-VPQH Đ.162 k.3;<br>Điều lệ Đ.28 k.3 đ.a]` |
 | Từ **mức tối đa của bậc B3** trở lên | **HĐQT thông qua**, và **ĐHĐCĐ quyết định** nếu chạm mốc 35% tại mục 12.3a | Ngoại lệ luật định. `[Luật Doanh nghiệp 67/VBHN-VPQH Đ.138 k.2 đ.d, Đ.153 k.2 đ.h;<br>Điều lệ Đ.24 k.2 đ.d, Đ.25 k.2 đ.h]` |
 | Giao dịch với **người có liên quan**, mọi giá trị | Theo Điều 12a, không theo bảng này | `[Luật Doanh nghiệp 67/VBHN-VPQH Đ.167]` |
@@ -513,16 +448,15 @@ Người phê duyệt theo bảng này quyết định chấp thuận khoản ch
 | Từ 35% tổng giá trị tài sản trở lên | **ĐHĐCĐ** | `[Luật Doanh nghiệp 67/VBHN-VPQH Đ.167 k.3 đ.a]` |
 | **Vay, cho vay, bán tài sản có giá trị lớn hơn 10% tổng giá trị tài sản**, với cổ đông sở hữu **từ 51% tổng số cổ phần có quyền biểu quyết trở lên** hoặc người có liên quan của cổ đông đó | **ĐHĐCĐ** | `[Luật Doanh nghiệp 67/VBHN-VPQH Đ.167 k.3 đ.b]` |
 
-> [!note] HAI ĐIỂM PHẢI HIỂU ĐÚNG
-> KHÔNG ĐƯỢC ĐỌC NHANH
+> [!note] NGUYÊN TẮC ÁP DỤNG THẨM QUYỀN ĐỐI VỚI GIAO DỊCH VỚI NGƯỜI CÓ LIÊN QUAN
 >
-> **Một, ngưỡng ở dòng thứ ba là 10%, không phải 35%, và Điều lệ không được nới ngưỡng đó.** So sánh nguyên văn hai khoản: khoản 2 cho phép Điều lệ hạ ngưỡng, dùng cụm "hoặc một tỷ lệ hoặc giá trị khác nhỏ hơn theo quy định tại Điều lệ công ty"; khoản 3 **không có** mệnh đề tương đương nào. Vì vậy Điều lệ chỉ được siết chặt hơn, không được nới ngưỡng 10% lên cao hơn, và không được chuyển thẩm quyền chấp thuận từ ĐHĐCĐ xuống HĐQT với nhóm này.
+> Thẩm quyền chấp thuận đối với giao dịch vay, cho vay, bán tài sản có giá trị lớn hơn 10% tổng giá trị tài sản với cổ đông sở hữu từ 51% tổng số cổ phần có quyền biểu quyết trở lên hoặc người có liên quan của cổ đông đó bắt buộc thuộc ĐHĐCĐ `[Luật Doanh nghiệp 67/VBHN-VPQH Đ.167 k.3 đ.b]`. Thẩm quyền này không được phân cấp lại cho HĐQT.
 >
-> **Hai, dòng thứ ba là tình huống thực tế nhất ở oBacker, không phải tình huống lý thuyết.** Cổ đông cho công ty vay tiền là chuyện thường xuyên ở công ty vốn điều lệ nhỏ, và ngưỡng chỉ là 10% tổng giá trị tài sản. Cần kiểm hai điều kiện đồng thời: giao dịch thuộc loại vay, cho vay hoặc bán tài sản; Và đối tác là cổ đông sở hữu từ 51% cổ phần có quyền biểu quyết trở lên hoặc người có liên quan của cổ đông đó. KTV kiểm điều kiện thứ hai bằng cách đối chiếu Sổ đăng ký cổ đông tại thời điểm giao dịch, không dùng số liệu nhớ được.
+> Đối với giao dịch vay vốn từ cổ đông hoặc giao dịch bán tài sản thuộc phạm vi này, KTV có trách nhiệm đối chiếu Sổ đăng ký cổ đông tại thời điểm phát sinh để xác định tỷ lệ sở hữu và tư cách người có liên quan trước khi thực hiện thủ tục trình ĐHĐCĐ chấp thuận.
 
-12a.3. **Ba việc bắt buộc trước mọi giao dịch thuộc Điều 12a này:**
+12a.3. **Thủ tục bắt buộc trước khi thực hiện giao dịch thuộc Điều 12a:**
 
-- Người đề nghị **khai báo quan hệ liên quan** trên biểu mẫu, theo [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]] mục 6.4.4. Khai báo sai hoặc không khai là vi phạm nghiêm trọng theo Điều 49.1;
+- Người đề nghị **khai báo quan hệ liên quan** trên biểu mẫu, theo OBK-SOP-NB-01 mục 5.4.4. Khai báo sai hoặc không khai là vi phạm nghiêm trọng theo Điều 49.1;
 - KTV lập **Phiếu xác định người có liên quan**, đối chiếu ba nhóm tại mục 12a.1 và Sổ đăng ký cổ đông, kết luận có thuộc Điều 12a hay không, KTT ký;
 - Nếu thuộc, trình đúng cấp tại mục 12a.2 **trước khi ký hợp đồng**, không phải trước khi chi tiền. Nghị quyết chấp thuận lưu cùng hồ sơ hợp đồng.
 
@@ -544,7 +478,7 @@ Người phê duyệt theo bảng này quyết định chấp thuận khoản ch
 > [!bug] LỖI THƯỜNG GẶP
 > Chủ nhà gộp tiền điện nước vào tiền thuê theo một con số khoán tròn, không kèm chỉ số công tơ. Đó chính là trường hợp thứ hai: không có chứng từ phù hợp với số lượng thực tế tiêu thụ. Cách xử lý bắt buộc tại oBacker: hợp đồng thuê phải quy định chủ nhà cung cấp bảng kê chỉ số công tơ mỗi kỳ, hoặc oBacker ký hợp đồng trực tiếp với đơn vị cung cấp điện nước. KTV kiểm nội dung đó ở bước xác minh hợp đồng thuê.
 
-13.3. Mọi hợp đồng thuê tài sản có thời hạn từ 12 tháng trở lên hoặc có điều khoản tự động gia hạn phải được đưa vào Sổ theo dõi hợp đồng định kỳ theo OBK-SOP-NB-01 mục 6.11.2.
+13.3. Mọi hợp đồng thuê tài sản có thời hạn từ 12 tháng trở lên hoặc có điều khoản tự động gia hạn phải được đưa vào Sổ theo dõi hợp đồng định kỳ theo OBK-SOP-NB-01 mục 5.11.2.
 
 ---
 
@@ -577,7 +511,7 @@ Người phê duyệt theo bảng này quyết định chấp thuận khoản ch
 14.6. Bảng giá dịch vụ do TGĐ ban hành. Ký hợp đồng dưới bảng giá quá 15% phải có phê duyệt của TGĐ cho từng hợp đồng.
 
 14.7. **Chính sách ưu đãi thuế thu nhập doanh nghiệp của oBacker.** Công ty Cổ phần OBACKER (Mã số thuế: 0402298185) được cấp Văn bản xác nhận ngày 29/12/2025 của Sở Khoa học và Công nghệ thành phố Đà Nẵng công nhận là Doanh nghiệp Khởi nghiệp sáng tạo.
-Căn cứ Điều 14 khoản 1 điểm a Nghị quyết số 136/2024/QH15 của Quốc hội, Nghị quyết số 53/2024/NQ-HĐND và Nghị quyết số 24/2026/NQ-HĐND của HĐND thành phố Đà Nẵng (xem [[CC-KT-90 Miễn thuế TNDN 05 năm từ ngày phát sinh thu nhập chịu thuế cho doanh nghiệp khởi nghiệp sáng tạo tại Đà Nẵng|CC-KT-90]] và [[CC-KT-92 Điều khoản chuyển tiếp tiếp tục hưởng ưu đãi thuế cho văn bản xác nhận cấp trước theo Nghị quyết 24-2026-NQ-HĐND|CC-KT-92]]):
+Căn cứ Điều 14 khoản 1 điểm a Nghị quyết số 136/2024/QH15 của Quốc hội, Nghị quyết số 53/2024/NQ-HĐND và Nghị quyết số 24/2026/NQ-HĐND của HĐND thành phố Đà Nẵng (miễn thuế TNDN 05 năm từ năm đầu tiên phát sinh thu nhập chịu thuế; văn bản xác nhận cấp trước nghị quyết chuyển tiếp tiếp tục hưởng ưu đãi):
 - Thời gian miễn thuế: Miễn 100% thuế thu nhập doanh nghiệp trong thời hạn 05 năm tính liên tục từ năm đầu tiên phát sinh thu nhập chịu thuế (từ khi có lãi). Trường hợp chưa có thu nhập chịu thuế trong 03 năm đầu kể từ năm đầu tiên có doanh thu thì thời gian miễn thuế tính từ năm thứ 04 kể từ năm đầu tiên có doanh thu.
 - Thuế suất áp dụng: 0% đối với thu nhập từ hoạt động khởi nghiệp đổi mới sáng tạo, phát triển và cung ứng dịch vụ phần mềm oBacker; chi phí thuế TNDN hiện hành bằng 0 đồng.
 - Kế toán oBacker lập hồ sơ khai thuế và nộp Phụ lục thuế thu nhập doanh nghiệp được ưu đãi (Mẫu 03-3A/TNDN) kèm tờ khai quyết toán thuế năm gửi cơ quan thuế quản lý trực tiếp.
@@ -588,7 +522,7 @@ Căn cứ Điều 14 khoản 1 điểm a Nghị quyết số 136/2024/QH15 của
 
 > [!note] HỆ QUẢ TỐT CỦA VIỆC CHỐT TRẢ TRƯỚC
 > GHI RA ĐỂ KHÔNG AI VÔ TÌNH NỚI LẠI
-> Trả trước toàn bộ theo đơn hàng làm ba điều: xóa gần hết rủi ro nợ xấu; làm hạn mức bán chịu tại mục 15.2 trở thành ngoại lệ chứ không phải mặc định; và làm nhóm Job THU của [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo|OBK-SOP-NB-00]], gồm bảng tuổi nợ và nhắc nợ, chỉ chạy trên tập khách hàng đã được TGĐ duyệt trả sau, không chạy trên toàn bộ khách hàng.
+> Trả trước toàn bộ theo đơn hàng làm ba điều: xóa gần hết rủi ro nợ xấu; làm hạn mức bán chịu tại mục 15.2 trở thành ngoại lệ chứ không phải mặc định; và làm nhóm Job THU của OBK-SOP-NB-00, gồm bảng tuổi nợ và nhắc nợ, chỉ chạy trên tập khách hàng đã được TGĐ duyệt trả sau, không chạy trên toàn bộ khách hàng.
 
 15.2. Hạn mức bán chịu tối đa cho một khách hàng: **10.000.000 đồng** dư nợ tại mọi thời điểm. Vượt hạn mức thì TGĐ phê duyệt bằng văn bản cho từng trường hợp. Hạn mức này chỉ áp cho khách hàng đã được TGĐ duyệt điều khoản trả sau theo mục 15.1.
 
@@ -598,29 +532,25 @@ Căn cứ Điều 14 khoản 1 điểm a Nghị quyết số 136/2024/QH15 của
 
 ### Điều 16. Thu hồi nợ
 
-16.1. **Bảng mốc nhắc phí là BẢN GỐC ở [[19_Giao_tiep_khach_hang|OBK-SOP-19]] mục 6.8.2, quy chế này không ghi lại.** Mục này chỉ đặt hai quy tắc mà bảng đó phải chạy theo.
+16.1. **Bảng mốc nhắc phí là BẢN GỐC ở OBK-SOP-19 mục 6.8.2, quy chế này không ghi lại.** Mục này chỉ đặt hai quy tắc mà bảng đó phải chạy theo.
 
-16.1a. **Phân vai trò khi nhắc nợ, theo quy tắc một đầu mối duy nhất với khách.** `KTV` lập nội dung nhắc nợ và số liệu công nợ với mọi khách, không có ngoại lệ; `KTT` giám sát; `AM` là người GỬI cho khách và ghi kết quả vào hồ sơ khách hàng. `KTV`, `KTT` và `TL` không liên hệ trực tiếp khách về công nợ, kể cả bằng thư điện tử hay điện thoại. Căn cứ quy tắc: `02_NoiBo/06_OBK-SOP-NB-00` mục về ngoại lệ của NT-2 trong chu trình THU, và `03_DichVu/01_OBK-SOP-00` mục 5.1 vai trò `AM` là đầu mối duy nhất với khách.
+16.1a. **Phân vai trò khi nhắc nợ, theo quy tắc một đầu mối duy nhất với khách.** `KTV` lập nội dung nhắc nợ và số liệu công nợ với mọi khách, không có ngoại lệ; `KTT` giám sát. `AM` là người GỬI cho khách và ghi kết quả vào hồ sơ khách hàng. `KTV`, `KTT` và `TL` không liên hệ trực tiếp khách về công nợ, kể cả bằng thư điện tử hay điện thoại. Căn cứ quy tắc: `02_NoiBo/06_OBK-SOP-NB-00` mục về ngoại lệ của NT-2 trong chu trình THU, và `03_DichVu/01_OBK-SOP-00` mục 5.1 vai trò `AM` là đầu mối duy nhất với khách.
 
 16.1b. Mọi lần nhắc phải có bằng chứng đã gửi, lưu trong hồ sơ khách hàng. Ở mốc quá hạn 30 ngày, `KTT` báo TGĐ và đề xuất phương án theo mục 16.2.
 
-16.2. Dừng cung cấp dịch vụ đối với khách hàng quá hạn từ 31 ngày trở lên chỉ thực hiện sau khi TGĐ chấp thuận, và phải thông báo trước cho khách hàng bằng văn bản. **Thẩm quyền QUYẾT thuộc TGĐ; người GỬI văn bản cho khách là `AM`**, theo quy tắc một đầu mối duy nhất tại mục 16.1a. Nội dung và trình tự thông báo theo [[19_Giao_tiep_khach_hang|OBK-SOP-19]] mục 6.8.3 và 6.8.4. Ràng buộc về nghĩa vụ bàn giao khi kết thúc dịch vụ theo Chương 20 của Handbook Kế toán.
+16.2. Dừng cung cấp dịch vụ đối với khách hàng quá hạn từ 31 ngày trở lên chỉ thực hiện sau khi TGĐ chấp thuận, và phải thông báo trước cho khách hàng bằng văn bản. **Thẩm quyền QUYẾT thuộc TGĐ; người GỬI văn bản cho khách là `AM`**, theo quy tắc một đầu mối duy nhất tại mục 16.1a. Nội dung và trình tự thông báo theo OBK-SOP-19 mục 6.8.3 và 6.8.4. Ràng buộc về nghĩa vụ bàn giao khi kết thúc dịch vụ theo Chương 20 của Handbook Kế toán.
 
 16.3. Xóa nợ phải thu khó đòi thuộc thẩm quyền HĐQT. TGĐ và KTT không có quyền xóa nợ.
 
-> [!note] ĐIỀU LỆ KHÔNG NÓI GÌ VỀ XÓA NỢ
-> Đã đọc Điều 24, Điều 25 và Điều 28 Điều lệ: không điều nào giao thẩm quyền xóa nợ phải thu cho cơ quan nào. Về nguyên tắc, việc không thuộc thẩm quyền ĐHĐCĐ thì thuộc HĐQT `[Điều lệ Đ.25 k.1]`, và việc thuộc công việc kinh doanh hằng ngày thì thuộc TGĐ `[Điều lệ Đ.28 k.3 đ.a]`. Quy chế này xếp việc xóa nợ vào thẩm quyền HĐQT, vì xóa nợ làm giảm tài sản của công ty và không phải việc hằng ngày. Đây là lựa chọn quản trị, không phải kết luận pháp lý; nếu muốn chắc thì đưa vào nghị quyết HĐQT phê duyệt quy chế này.
+> [!note] CĂN CỨ THẨM QUYỀN XÓA NỢ PHẢI THU KHÓ ĐÒI
+> Thẩm quyền quyết định xóa nợ phải thu khó đòi thuộc HĐQT căn cứ quy định về các nội dung không thuộc thẩm quyền của ĐHĐCĐ và vượt thẩm quyền điều hành kinh doanh thường xuyên của TGĐ `[Điều lệ Đ.25 k.1]`.
 
 ### Điều 17. Dự phòng nợ phải thu khó đòi
 
 17.1. Việc trích lập và sử dụng dự phòng nợ phải thu khó đòi **không đúng quy định của pháp luật về trích lập dự phòng** thì khoản dự phòng đó không được tính vào chi phí được trừ `[Văn bản hợp nhất 19/VBHN-BTC Đ.10 k.5]`.
 
-> [!note] ĐÃ TRA ĐƯỢC NGÀY 07/09/2026
-> MỨC TRÍCH LẬP NẰM NGAY TRONG CHẾ ĐỘ KẾ TOÁN, KHÔNG PHẢI Ở MỘT VĂN BẢN RIÊNG
->
-> Bản trước gắn chưa xác minh được cho toàn bộ Điều 17 vì `Văn bản hợp nhất 19/VBHN-BTC Đ.10 k.5` chỉ dẫn chiếu tới "pháp luật về trích lập dự phòng" mà không nêu số hiệu, và văn bản đó không có trong kho. Kết luận đó SAI: `[Thông tư 99/2025/TT-BTC, Tài khoản 229 Dự phòng tổn thất tài sản, mục 1.4]` có đầy đủ điều kiện trích lập, bốn mức trích theo tuổi nợ, và thời điểm trích lập. Xem mục 17.1a và 17.1b.
->
-> chưa xác minh được của Điều 17 vì vậy được hạ; mối nối sang thuế tại mục 17.1c nay cũng đã đóng, xem mục đó.
+> [!note] CĂN CỨ TRÍCH LẬP DỰ PHÒNG NỢ PHẢI THU KHÓ ĐÒI
+> Điều kiện trích lập, mức trích lập theo thời gian quá hạn và thời điểm trích lập dự phòng nợ phải thu khó đòi được thực hiện theo quy định tại chế độ kế toán doanh nghiệp `[Thông tư 99/2025/TT-BTC, Tài khoản 229, mục 1.4]`. Mức trích lập cụ thể và điều kiện tính chi phí được trừ khi tính thuế TNDN quy định chi tiết tại mục 17.1a và 17.1c.
 
 17.1a. **oBacker có trích lập dự phòng nợ phải thu khó đòi, theo đúng mức tại chế độ kế toán, không tự đặt mức khác.** Bốn mức trích, nguyên văn `[Thông tư 99/2025/TT-BTC, Tài khoản 229, mục 1.4 điểm c]`:
 
@@ -642,9 +572,9 @@ Thời điểm trích lập hoặc hoàn nhập: **thời điểm lập Báo cá
 
 17.1c. **Mối nối sang thuế, đã đóng được.**
 
-`[Văn bản hợp nhất 19/VBHN-BTC Đ.10 k.5]` loại khỏi chi phí được trừ khoản dự phòng trích lập **không theo đúng quy định của pháp luật về trích lập dự phòng**, và có nêu đích danh dự phòng nợ phải thu khó đòi. Điều luật không tự đặt mức, mà dẫn chiếu ra ngoài. Văn bản được dẫn chiếu đó là `[[Thông tư 48-2019-TT-BTC hướng dẫn trích lập và xử lý các khoản dự phòng\|VB-087]]` Đ.6, xem [[CC-KT-89 Mức trích lập dự phòng nợ phải thu khó đòi theo tuổi nợ quá hạn|CC-KT-89]].
+`[Văn bản hợp nhất 19/VBHN-BTC Đ.10 k.5]` loại khỏi chi phí được trừ khoản dự phòng trích lập **không theo đúng quy định của pháp luật về trích lập dự phòng**, và có nêu đích danh dự phòng nợ phải thu khó đòi. Điều luật không tự đặt mức, mà dẫn chiếu ra ngoài. Văn bản được dẫn chiếu đó là Thông tư 48/2019/TT-BTC hướng dẫn trích lập và xử lý các khoản dự phòng Đ.6: trích 30% từ 06 tháng đến dưới 01 năm, 50% từ 01 năm đến dưới 02 năm, 70% từ 02 năm đến dưới 03 năm, 100% từ 03 năm trở lên.
 
-**Trích đúng bốn mức tại mục 17.1a thì khoản dự phòng được trừ; không phát sinh chênh lệch tạm thời và không phải ghi nhận tài sản thuế thu nhập hoãn lại.** Bốn mức trích theo tuổi nợ tại `[[Thông tư 48-2019-TT-BTC hướng dẫn trích lập và xử lý các khoản dự phòng\|VB-087]]` Đ.6 k.2 đ.a giống hệt bốn mức tại `[Thông tư 99/2025/TT-BTC, Tài khoản 229, mục 1.4 điểm c]` đang áp tại mục 17.1a: 30% từ 06 tháng đến dưới 01 năm, 50% từ 01 năm đến dưới 02 năm, 70% từ 02 năm đến dưới 03 năm, 100% từ 03 năm trở lên. Thông tư 24/2022/TT-BTC sửa đổi Thông tư 48/2019/TT-BTC chỉ sửa Điều 5 (dự phòng chứng khoán), không sửa Điều 6, nên bốn mức trên vẫn nguyên bản gốc. Kết luận: mức dự phòng nợ phải thu khó đòi tại mục 17.1a vừa đúng chế độ kế toán, vừa đúng pháp luật về trích lập dự phòng dẫn chiếu tại Đ.10 k.5, dùng được để trả lời khách hàng.
+**Trích đúng bốn mức tại mục 17.1a thì khoản dự phòng được trừ; không phát sinh chênh lệch tạm thời và không phải ghi nhận tài sản thuế thu nhập hoãn lại.** Bốn mức trích theo tuổi nợ tại Thông tư 48/2019/TT-BTC hướng dẫn trích lập và xử lý các khoản dự phòng Đ.6 k.2 đ.a giống hệt bốn mức tại `[Thông tư 99/2025/TT-BTC, Tài khoản 229, mục 1.4 điểm c]` đang áp tại mục 17.1a: 30% từ 06 tháng đến dưới 01 năm, 50% từ 01 năm đến dưới 02 năm, 70% từ 02 năm đến dưới 03 năm, 100% từ 03 năm trở lên. Thông tư 24/2022/TT-BTC sửa đổi Thông tư 48/2019/TT-BTC chỉ sửa Điều 5 (dự phòng chứng khoán), không sửa Điều 6, nên bốn mức trên vẫn nguyên bản gốc. Kết luận: mức dự phòng nợ phải thu khó đòi tại mục 17.1a vừa đúng chế độ kế toán, vừa đúng pháp luật về trích lập dự phòng dẫn chiếu tại Đ.10 k.5, dùng được để trả lời khách hàng.
 
 17.1d. **Ba việc oBacker phải làm khi xóa sổ một khoản nợ không thu được**, ghi ra vì đây là chỗ hay bỏ sót chứ không phải chỗ khó:
 
@@ -749,7 +679,7 @@ Danh mục dưới đây rút từ `[Văn bản hợp nhất 19/VBHN-BTC Đ.10]`
 > [!note] MỨC TỐI ĐA LUẬT ĐỊNH KHÔNG ĐƯỢC NÂNG
 > Riêng các dòng ghi "MỨC TỐI ĐA LUẬT ĐỊNH" là con số của pháp luật, không phải lựa chọn của oBacker, và **không được nâng lên**. oBacker chỉ được đặt mức bằng hoặc thấp hơn mức tối đa luật định.
 
-21.1. Bảng định mức. Cột "Loại" phân biệt mức oBacker tự đặt với mức tối đa luật định.
+21.1. Bảng định mức. Cột "Loại" phân biệt mức oBacker tự đặt, định mức chính thức của oBacker và mức tối đa luật định.
 
 | Mã | Khoản mục | Mức | Loại | Căn cứ hoặc ghi chú |
 | --- | --- | --- | --- | --- |
@@ -758,15 +688,13 @@ Danh mục dưới đây rút từ `[Văn bản hợp nhất 19/VBHN-BTC Đ.10]`
 | ĐM-03 | Phụ cấp lưu trú khoán khi công tác | 200.000 đồng một ngày | Mức oBacker tự đặt | Khoán theo quy chế thì được trừ, `[Văn bản hợp nhất 19/VBHN-BTC Đ.10 k.8 đ.h]` |
 | ĐM-04 | Khoán tiền đi lại khi công tác, nội thành nơi công tác | 200.000 đồng một ngày | Mức oBacker tự đặt |  |
 | ĐM-05 | Vé phương tiện đi lại giữa các tỉnh | Hạng phổ thông. TGĐ được hạng phổ thông linh hoạt | Mức oBacker tự đặt | Thanh toán theo hóa đơn thực tế, không khoán |
-| ĐM-06 | Tiếp khách, mức thông thường | 500.000 đồng một người một lần | Mức oBacker tự đặt | Trên mức này nâng một bậc duyệt theo OBK-SOP-NB-01 mục 6.2.2 |
+| ĐM-06 | Tiếp khách, mức thông thường | 500.000 đồng một người một lần | Mức oBacker tự đặt | Trên mức này nâng một bậc duyệt theo OBK-SOP-NB-01 mục 5.2.2 |
 | ĐM-07 | Tiếp khách, tổng mức tối đa theo tháng cho một Team Lead | 5.000.000 đồng một tháng | Mức oBacker tự đặt |  |
 | ĐM-08 | Khoán tiền điện thoại, nhân viên | 200.000 đồng một tháng | Mức oBacker tự đặt | Xem cảnh báo tại mục 21.3 |
 | ĐM-09 | Khoán tiền điện thoại, Team Lead trở lên | 350.000 đồng một tháng | Mức oBacker tự đặt | Xem cảnh báo tại mục 21.3 |
-| ĐM-10 | Chi trang phục bằng tiền | **05 triệu đồng một người một năm** | Mức tối đa luật định | **MỨC TỐI ĐA LUẬT ĐỊNH**, `[Văn bản hợp nhất 19/VBHN-BTC Đ.10 k.8 đ.đ]`. oBacker đặt mức nội bộ 2.500.000 đồng |
+| ĐM-10 | Chi trang phục bằng tiền | **2.500.000 đồng một người một năm** | Định mức chính thức của oBacker | Mức chính thức của oBacker. Mức tối đa luật định là **05 triệu đồng một người một năm**, `[Văn bản hợp nhất 19/VBHN-BTC Đ.10 k.8 đ.đ]` |
 | ĐM-11 | Chi trang phục bằng hiện vật | Theo thực tế, bắt buộc có hóa đơn, chứng từ |  | `[Văn bản hợp nhất 19/VBHN-BTC Đ.10 k.8 đ.đ]` |
-| ĐM-12 | Chi phúc lợi trực tiếp cho người lao động, tổng năm | **Không vượt quá 01 tháng lương bình quân thực tế thực hiện trong năm tính thuế** | Mức tối đa luật định | **MỨC TỐI ĐA LUẬT ĐỊNH**, `[Văn bản hợp nhất 19/VBHN-BTC Đ.10 k.4 đ.d]`. oBacker đặt mức nội bộ 90% mức tối đa |
-| ĐM-13 | Bảo hiểm hưu trí bổ sung, bảo hiểm hưu trí tự nguyện, bảo hiểm nhân thọ cho người lao động | **05 triệu đồng một tháng một người** | Mức tối đa luật định | **MỨC TỐI ĐA LUẬT ĐỊNH**, `[Văn bản hợp nhất 19/VBHN-BTC Đ.10 k.4 đ.đ]`. oBacker hiện chưa áp dụng |
-| ĐM-14 | Tiền ăn giữa ca, ăn trưa chi bằng tiền | **1,2 triệu đồng một người một tháng** | Mức tối đa luật định | **MỨC TỐI ĐA LUẬT ĐỊNH cho thuế thu nhập cá nhân**, `[Nghị định 253/2026/NĐ-CP Đ.8 k.2 đ.g]`, áp dụng từ 01/07/2026 `[Nghị định 253/2026/NĐ-CP Đ.69 k.1 đ.b]`.<br>**oBacker không áp dụng khoản này**.<br>Không chi tiền ăn giữa ca và không tổ chức bữa ăn, nên không phát sinh khoản chi lẫn nghĩa vụ thuế thu nhập cá nhân của khoản này |
+| ĐM-12 | Chi phúc lợi trực tiếp cho người lao động, tổng năm | **Không vượt quá 90% mức lương bình quân thực tế thực hiện trong năm tính thuế** | Định mức chính thức của oBacker | Mức chính thức của oBacker. Mức tối đa luật định là **không vượt quá 01 tháng lương bình quân thực tế thực hiện trong năm tính thuế**, `[Văn bản hợp nhất 19/VBHN-BTC Đ.10 k.4 đ.d]` |
 | ĐM-15 | Quỹ lương dự phòng | **Không quá 17% quỹ tiền lương thực hiện** | Mức tối đa luật định | **MỨC TỐI ĐA LUẬT ĐỊNH**, `[Văn bản hợp nhất 19/VBHN-BTC Đ.10 k.8 đ.c]`. oBacker có trích, mức bằng đúng mức tối đa 17%, nhưng hai ràng buộc tại mục 26.2 vẫn chặn từng năm.<br>Xem Điều 26 |
 | ĐM-16 | Đào tạo, một nhân sự một năm | 6.000.000 đồng | Mức oBacker tự đặt | Trên mức này cần cam kết thời gian làm việc tối thiểu. Hồ sơ theo mục 21.4 |
 | ĐM-17 | Quà tặng khách hàng dịp lễ, tết, một khách hàng | 1.000.000 đồng | Mức oBacker tự đặt | Kiểm điều kiện được trừ trước khi chi |
@@ -776,20 +704,16 @@ Danh mục dưới đây rút từ `[Văn bản hợp nhất 19/VBHN-BTC Đ.10]`
 | ĐM-21 | Mức tối đa một lần tạm ứng tiền lương | 50% tiền lương theo hợp đồng lao động của tháng lập đề nghị | **ĐÃ CHỐT 11/09/2026** | Xem Điều 26a. Không áp cho ba trường hợp bắt buộc tại mục 26a.1 |
 | ĐM-22 | Số lần tối đa tạm ứng tiền lương của một người | Tối đa 02 lần một quý, và tối đa 03 lần một nửa năm | **ĐÃ CHỐT 11/09/2026** | Xem Điều 26a. Hai giới hạn phải thỏa đồng thời; cách đếm tại mục 26a.2a |
 
-21.2. **Cách đọc mức phúc lợi tối đa ĐM-12.** Một tháng lương bình quân thực tế thực hiện trong năm tính thuế được xác định bằng quỹ tiền lương thực hiện trong năm chia cho 12 tháng; trường hợp doanh nghiệp hoạt động không đủ 12 tháng thì xác định bằng quỹ tiền lương thực hiện trong năm chia cho số tháng thực tế hoạt động trong năm `[Văn bản hợp nhất 19/VBHN-BTC Đ.10 k.4 đ.d1]`. Nhóm khoản chi tính vào mức tối đa này gồm, theo nguyên văn căn cứ: chi đám hiếu, hỷ của bản thân và gia đình người lao động; chi nghỉ mát; chi hỗ trợ điều trị khám bệnh, chữa bệnh; chi hỗ trợ bổ sung kiến thức học tập; chi hỗ trợ gia đình người lao động bị ảnh hưởng bởi thiên tai, địch họa, tai nạn, ốm đau; chi khen thưởng con của người lao động có thành tích tốt trong học tập; chi hỗ trợ chi phí đi lại ngày lễ, tết; chi bảo hiểm tai nạn không bắt buộc, bảo hiểm sức khỏe, bảo hiểm tự nguyện khác; và những khoản chi có tính chất phúc lợi khác.
+21.2. **Cách đọc mức phúc lợi tối đa ĐM-12.** Một tháng lương bình quân thực tế thực hiện trong năm tính thuế được xác định bằng quỹ tiền lương thực hiện trong năm chia cho 12 tháng. Trường hợp doanh nghiệp hoạt động không đủ 12 tháng thì xác định bằng quỹ tiền lương thực hiện trong năm chia cho số tháng thực tế hoạt động trong năm `[Văn bản hợp nhất 19/VBHN-BTC Đ.10 k.4 đ.d1]`. Nhóm khoản chi tính vào mức tối đa này gồm, theo nguyên văn căn cứ: chi đám hiếu, hỷ của bản thân và gia đình người lao động; chi nghỉ mát; chi hỗ trợ điều trị khám bệnh, chữa bệnh; chi hỗ trợ bổ sung kiến thức học tập. Chi hỗ trợ gia đình người lao động bị ảnh hưởng bởi thiên tai, địch họa, tai nạn, ốm đau; chi khen thưởng con của người lao động có thành tích tốt trong học tập; chi hỗ trợ chi phí đi lại ngày lễ, tết. Chi bảo hiểm tai nạn không bắt buộc, bảo hiểm sức khỏe, bảo hiểm tự nguyện khác; và những khoản chi có tính chất phúc lợi khác.
 
 > [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
 > MỨC TỐI ĐA ĐM-12 LÀ MỨC TỐI ĐA TỔNG CHO CẢ NĂM VÀ CHO TOÀN BỘ NHÓM, KHÔNG PHẢI MỨC TỐI ĐA CHO TỪNG KHOẢN
-> KTV phải theo dõi lũy kế nhóm phúc lợi theo tháng và báo cảnh báo cho KTT khi lũy kế đạt 80% mức tối đa. Không kiểm lũy kế thì tới tháng 12 mới phát hiện đã vượt, lúc đó không sửa được.
+> KTV phải theo dõi lũy kế nhóm phúc lợi theo tháng và báo cảnh báo cho KTT khi lũy kế đạt 80% mức ĐM-12. Không kiểm lũy kế thì tới tháng 12 mới phát hiện đã vượt, lúc đó không sửa được.
 
 21.3. **Khoán chi văn phòng phẩm, công tác phí, điện thoại, trang phục và thuế thu nhập cá nhân.** Phần khoán chi văn phòng phẩm, công tác phí, điện thoại, trang phục phục vụ công việc của cá nhân **cao hơn mức quy định** thì tính vào thu nhập chịu thuế thu nhập cá nhân `[Nghị định 253/2026/NĐ-CP Đ.8 k.2 đ.đ]`. Với người lao động làm việc trong doanh nghiệp, mức khoán chi áp dụng "phù hợp với việc xác định chi phí được trừ khi tính thuế thu nhập doanh nghiệp theo pháp luật về thuế thu nhập doanh nghiệp" `[cùng điểm]`.
 
-> [!question] CẦN XÁC MINH
-> MỨC TỐI ĐA KHOÁN CHI VĂN PHÒNG PHẨM VÀ ĐIỆN THOẠI CHƯA TRA ĐƯỢC
->
-> Nghị định thuế thu nhập cá nhân dẫn chiếu sang mức được trừ của thuế thu nhập doanh nghiệp. Nhưng trong kho, nghị định thuế thu nhập doanh nghiệp chỉ đặt mức tối đa bằng số cho **trang phục** (05 triệu đồng một người một năm) và cho **phúc lợi** (01 tháng lương bình quân). Đối với **khoán chi văn phòng phẩm và khoán tiền điện thoại**, không tra được mức trần bằng số ở bất kỳ văn bản nào trong kho.
->
-> Hệ quả và cách xử lý tại oBacker: mức ĐM-08 và ĐM-09 được đặt như một mức khoán nội bộ hợp lý, và thực hiện theo mức khoán nội bộ đã được phê duyệt. Trước kỳ quyết toán thuế thu nhập cá nhân đầu tiên sau khi ban hành quy chế, KTT phải tra lại; nếu vẫn không có mức tối đa luật định thì lập luận bảo vệ dựa trên tính hợp lý của mức khoán và tính liên quan tới hoạt động kinh doanh. Tag chưa xác minh được cho việc kết luận nghĩa vụ thuế thu nhập cá nhân của hai dòng này.
+> [!note] MỨC KHOÁN CHI VĂN PHÒNG PHẨM VÀ ĐIỆN THOẠI
+> Khoán chi văn phòng phẩm và điện thoại thực hiện theo định mức nội bộ ĐM-08 và ĐM-09 tại Điều 20. Khoản khoán chi phục vụ trực tiếp cho hoạt động kinh doanh, phù hợp với quy chế tài chính và có chứng từ chi tiền hợp lệ được tính vào chi phí được trừ khi xác định thuế TNDN và không tính vào thu nhập chịu thuế TNCN của người lao động.
 
 21.4. **Hồ sơ bắt buộc của khoản chi đào tạo.** Chi cho hoạt động giáo dục nghề nghiệp, đào tạo nghề cho người lao động chỉ được trừ khi được quy định chi tiết tại một trong ba hồ sơ: hợp đồng lao động, thỏa ước lao động tập thể, hoặc **quy chế tài chính của doanh nghiệp** `[Văn bản hợp nhất 19/VBHN-BTC Đ.9 k.2 đ.c]`. Thành phần hồ sơ cụ thể gồm `[Thông tư 20/2026/TT-BTC Đ.3 k.3]`:
 
@@ -807,7 +731,7 @@ Danh mục dưới đây rút từ `[Văn bản hợp nhất 19/VBHN-BTC Đ.10]`
 
 22.2. TGĐ được điều chuyển giữa các dòng ngân sách trong năm với mức tối đa 10% giá trị của dòng bị giảm, và phải báo HĐQT ở kỳ họp gần nhất. Điều chuyển vượt mức đó thuộc thẩm quyền HĐQT.
 
-22.3. Khoản chi ngoài ngân sách đã duyệt của bộ phận phải nâng một bậc duyệt theo OBK-SOP-NB-01 mục 6.2.2.
+22.3. Khoản chi ngoài ngân sách đã duyệt của bộ phận phải nâng một bậc duyệt theo OBK-SOP-NB-01 mục 5.2.2.
 
 22.4. KTV lập báo cáo thực hiện ngân sách theo tháng, so sánh thực hiện với ngân sách theo từng dòng, gửi TL và TGĐ trong 05 ngày làm việc đầu tháng sau.
 
@@ -822,8 +746,8 @@ Danh mục dưới đây rút từ `[Văn bản hợp nhất 19/VBHN-BTC Đ.10]`
 
 23.3. Cơ chế cam kết. Trường hợp cá nhân chỉ có thu nhập thuộc diện khấu trừ theo tỷ lệ trên nhưng ước tính tổng thu nhập chịu thuế sau giảm trừ gia cảnh chưa đến mức phải nộp thuế, thì cá nhân làm cam kết theo mẫu gửi oBacker để tạm thời chưa khấu trừ `[Nghị định 253/2026/NĐ-CP Đ.50 k.2]`. Kết thúc năm tính thuế, oBacker vẫn phải tổng hợp danh sách và thu nhập của những cá nhân chưa đến mức khấu trừ và nộp cho cơ quan thuế `[cùng khoản]`.
 
-> [!question] CẦN XÁC MINH
-> Mẫu cam kết cụ thể do văn bản hướng dẫn về quản lý thuế quy định; mẫu này chưa tra được trong kho dưới dạng tệp riêng. Trước lần nhận cam kết đầu tiên, KTV phải tra Thông tư 89/2026/TT-BTC và Phụ lục I của thông tư đó. Tag chưa xác minh được cho số hiệu mẫu.
+> [!note] MẪU VĂN BẢN CAM KẾT THU NHẬP
+> Mẫu cam kết áp dụng theo biểu mẫu do Bộ Tài chính ban hành trong văn bản hướng dẫn về quản lý thuế. KTV kiểm tra tính hợp lệ của văn bản cam kết trước khi áp dụng cơ chế tạm thời chưa khấu trừ thuế TNCN.
 
 23.4. Đối với cá nhân cư trú ký hợp đồng lao động **từ 03 tháng trở lên**, oBacker khấu trừ thuế theo Biểu thuế lũy tiến từng phần, kể cả trường hợp cá nhân ký hợp đồng từ 03 tháng trở lên tại nhiều nơi `[Nghị định 253/2026/NĐ-CP Đ.50]`.
 
@@ -833,7 +757,7 @@ Danh mục dưới đây rút từ `[Văn bản hợp nhất 19/VBHN-BTC Đ.10]`
 
 23a.1. Phạm vi. Hoa hồng giới thiệu khách hàng là khoản oBacker trả cho đối tác là doanh nghiệp hoặc đối tác là cá nhân, theo Hợp đồng giới thiệu khách hàng đã ký. Quy trình đăng ký khách được giới thiệu, xác nhận nguồn giới thiệu và lập báo cáo hoa hồng thực hiện theo OBK-SOP-PM.
 
-23a.2. Tỷ lệ, thời gian hưởng và phạm vi doanh thu. Tỷ lệ hoa hồng là 10% doanh thu thực thu. Thời gian hưởng hoa hồng là 12 tháng, tính từ mốc ghi trong Hợp đồng giới thiệu khách hàng. Phạm vi doanh thu tính hoa hồng gồm dịch vụ ghi trong hợp đồng dịch vụ đầu tiên ký với khách được giới thiệu và phần gia hạn của chính dịch vụ đó; phạm vi doanh thu tính hoa hồng không gồm thuế giá trị gia tăng, khoản thu hộ, khoản chi hộ, lệ phí nộp cơ quan nhà nước và chi phí bên thứ ba mà oBacker thu hộ khách. Điều kiện thương mại khác với tỷ lệ và thời gian hưởng tại khoản này do CEO quyết định, theo hàng "Chương trình hợp tác với đối tác" tại Ma trận phân quyền OBK-QCTC-02-PL-B.
+23a.2. Tỷ lệ, thời gian hưởng và phạm vi doanh thu. Tỷ lệ hoa hồng là 10% doanh thu thực thu. Thời gian hưởng hoa hồng là 12 tháng, tính từ mốc ghi trong Hợp đồng giới thiệu khách hàng. Phạm vi doanh thu tính hoa hồng gồm dịch vụ ghi trong hợp đồng dịch vụ đầu tiên ký với khách được giới thiệu và phần gia hạn của chính dịch vụ đó. Phạm vi doanh thu tính hoa hồng không gồm thuế giá trị gia tăng, khoản thu hộ, khoản chi hộ, lệ phí nộp cơ quan nhà nước và chi phí bên thứ ba mà oBacker thu hộ khách. Điều kiện thương mại khác với tỷ lệ và thời gian hưởng tại khoản này do CEO quyết định, theo hàng "Chương trình hợp tác với đối tác" tại Ma trận phân quyền OBK-QCTC-02-PL-B.
 
 23a.3. Điều kiện chi. Khoản chi hoa hồng giới thiệu khách hàng chỉ được thực hiện khi có đủ bốn điều kiện sau:
 
@@ -843,21 +767,20 @@ b) Báo cáo hoa hồng đã được chấp thuận;
 
 c) Hóa đơn của đối tác, đối với đối tác là doanh nghiệp; bảng tính số thuế thu nhập cá nhân phải khấu trừ, kèm hóa đơn hoặc bảng kê thu mua khi đối tác có đăng ký kinh doanh, đối với đối tác là cá nhân. Chứng từ khấu trừ thuế lập tại thời điểm chi;
 
-d) Khoản chi chỉ chuyển khoản vào tài khoản ghi trong Hợp đồng giới thiệu khách hàng. Khoản chi từ 05 triệu đồng/lần trở lên phải có chứng từ thanh toán không dùng tiền mặt để được trừ khi tính thuế thu nhập doanh nghiệp [[CC-KT-77 Chứng từ thanh toán không dùng tiền mặt với khoản chi từng lần từ 05 triệu đồng|CC-KT-77]].
+d) Khoản chi chỉ chuyển khoản vào tài khoản ghi trong Hợp đồng giới thiệu khách hàng. Khoản chi từ 05 triệu đồng/lần trở lên phải có chứng từ thanh toán không dùng tiền mặt để được trừ khi tính thuế thu nhập doanh nghiệp.
 
-23a.4. Hai điều cấm. oBacker không chi hoa hồng giới thiệu khách hàng cho người lao động hoặc người quản lý của khách được giới thiệu [[CC-DN-74 Đưa hối lộ cho người có chức vụ trong doanh nghiệp, tổ chức ngoài Nhà nước|CC-DN-74]] [[CC-DN-75 Định nghĩa người có chức vụ|CC-DN-75]]. oBacker không ký Hợp đồng giới thiệu khách hàng với người lao động của oBacker hoặc với người thân của người lao động oBacker.
+23a.4. Hai điều cấm. oBacker không chi hoa hồng giới thiệu khách hàng cho người lao động hoặc người quản lý của khách được giới thiệu, vì người quản lý đó là người có chức vụ trong doanh nghiệp, tổ chức ngoài Nhà nước và khoản chi này cấu thành hành vi đưa hối lộ. oBacker không ký Hợp đồng giới thiệu khách hàng với người lao động của oBacker hoặc với người thân của người lao động oBacker.
 
-23a.5. Khấu trừ thuế thu nhập cá nhân. Đối tác là cá nhân bị khấu trừ thuế thu nhập cá nhân theo [[CC-KT-19 Khấu trừ 10% thuế TNCN với cá nhân không ký HĐLĐ hoặc HĐLĐ dưới 03 tháng, từ 05 triệu đồng-lần|CC-KT-19]], [[CC-KT-73 Tiền thù lao từ cung cấp dịch vụ của cá nhân không đăng ký kinh doanh, không đăng ký thuế cho hoạt động kinh doanh là thu nhập từ tiền lương, tiền công|CC-KT-73]], [[CC-KT-74 Tổ chức ký hợp đồng với cá nhân thực hiện hoạt động môi giới có trách nhiệm khấu trừ|CC-KT-74]]. Cách áp dụng chi tiết đặt tại OBK-SOP-NB-01 mục 6.11a.
+23a.5. Khấu trừ thuế thu nhập cá nhân. Cá nhân đối tác không ký hợp đồng lao động hoặc hợp đồng lao động dưới 03 tháng bị khấu trừ 10% khi khoản chi từ 05 triệu đồng một lần; tiền thù lao từ cung cấp dịch vụ của cá nhân không đăng ký kinh doanh, không đăng ký thuế cho hoạt động kinh doanh là thu nhập từ tiền lương, tiền công; oBacker ký hợp đồng với cá nhân thực hiện hoạt động môi giới có trách nhiệm khấu trừ. Cách áp dụng chi tiết đặt tại OBK-SOP-NB-01 mục 5.11a.
 
 23a.6. Hoàn trả hoa hồng. Khi oBacker hoàn tiền cho khách được giới thiệu, đối tác hoàn trả phần hoa hồng đã nhận tương ứng với phần doanh thu oBacker hoàn cho khách, theo Hợp đồng giới thiệu khách hàng. Khách hủy dịch vụ mà oBacker giữ nguyên số tiền đã thu thì đối tác giữ nguyên hoa hồng tương ứng.
 
 ### Điều 24. Thanh toán ra nước ngoài
 
-24.1. Nghĩa vụ khai và nộp thay khi oBacker mua dịch vụ của tổ chức nước ngoài không có cơ sở thường trú tại Việt Nam thực hiện theo OBK-SOP-NB-01 mục 6.10.
+24.1. Nghĩa vụ khai và nộp thay khi oBacker mua dịch vụ của tổ chức nước ngoài không có cơ sở thường trú tại Việt Nam thực hiện theo OBK-SOP-NB-01 mục 5.10.
 
-> [!question] CẦN XÁC MINH
-> NHƯNG KHO ĐÃ CÓ CĂN CỨ TỪ 02/09/2026
-> Tỷ lệ phần trăm thuế nhà thầu nước ngoài theo từng loại dịch vụ do Bộ Tài chính quy định chi tiết `[Văn bản hợp nhất 18/VBHN-BTC ngày 04/06/2026 Đ.13]`. Ba văn bản làm căn cứ nay đã có trong kho, xem bảng danh mục căn cứ tại Điều 7 dòng tỷ lệ thuế nhà thầu nước ngoài. Việc có bản gốc không tự động cho phép dùng một tỷ lệ cụ thể: quy chế này vẫn ghi chưa xác minh được cho Điều 24, và trước mỗi lần thanh toán ra nước ngoài KTT phải mở ba tệp đó, xác định đúng loại dịch vụ và đúng tư cách của bên nhận, rồi ký kết luận theo mục 24.2. Việc nâng Điều 24 lên đã đối chiếu bản gốc là việc của KTT hoặc Legal R&D, không phải việc của lượt sửa tài liệu.
+> [!note] CĂN CỨ ÁP DỤNG THUẾ NHÀ THẦU NƯỚC NGOÀI
+> Tỷ lệ phần trăm thuế GTGT và thuế TNDN đối với nhà thầu nước ngoài áp dụng theo từng loại hình dịch vụ theo quy định của Bộ Tài chính `[Văn bản hợp nhất 18/VBHN-BTC Đ.13]` và quy định hướng dẫn liên quan. Trước khi thanh toán cho nhà cung cấp nước ngoài, KTT có trách nhiệm xác định loại dịch vụ, đối chiếu tỷ lệ thuế tương ứng và lập kết luận bằng văn bản theo mục 24.2.
 
 24.2. Mọi thanh toán ra nước ngoài phải có kết luận về nghĩa vụ khấu trừ nộp thay do KTT ký, lập trước khi chuyển tiền. Không có kết luận thì NTT từ chối lệnh chi.
 
@@ -869,19 +792,18 @@ d) Khoản chi chỉ chuyển khoản vào tài khoản ghi trong Hợp đồng 
 >
 > Chương này chỉ xử lý **ĐIỀU KIỆN THUẾ** của các khoản chi cho người lao động: khoản nào được trừ khi tính thuế thu nhập doanh nghiệp, khoản nào tính vào thu nhập chịu thuế thu nhập cá nhân, và văn bản nào phải có để giữ được quyền đó.
 >
-> Phần **QUAN HỆ LAO ĐỘNG** do [[Noi_quy_lao_dong|OBK-NQLD]] Nội quy lao động điều chỉnh: thời giờ làm việc, ngày nghỉ lễ và phép, trật tự nơi làm việc, kỷ luật lao động, trách nhiệm vật chất và mức bồi thường, thẩm quyền xử lý kỷ luật. Khi hai văn bản cùng nói về một khoản chi thì Nội quy quyết định **có được chi hay không và theo trình tự nào**, quy chế này quyết định **chi thế nào để được trừ và để không bị tính thuế thu nhập cá nhân**.
+> Phần **QUAN HỆ LAO ĐỘNG** do Nội quy lao động (OBK-NQLD) điều chỉnh: thời giờ làm việc, ngày nghỉ lễ và phép, trật tự nơi làm việc, kỷ luật lao động, trách nhiệm vật chất và mức bồi thường, thẩm quyền xử lý kỷ luật. Khi hai văn bản cùng nói về một khoản chi thì Nội quy quyết định **có được chi hay không và theo trình tự nào**, quy chế này quyết định **chi thế nào để được trừ và để không bị tính thuế thu nhập cá nhân**.
 >
-> Nội quy lao động chưa được đối chiếu toàn bộ với Bộ luật Lao động. Ngày nghỉ lễ, tết tại [[Noi_quy_lao_dong|OBK-NQLD]] Điều 6.1 gồm bảy dịp, trong đó có **Ngày Văn hóa Việt Nam 24/11** theo [[CC-LD-211 Ngày 24 tháng 11 hằng năm là Ngày Văn hóa Việt Nam; người lao động được nghỉ làm việc và hưởng nguyên lương|CC-LD-211]]. Mức trợ cấp thôi việc luật định, dùng làm mốc so sánh tại Điều 28, là mức tại [[CC-LD-40 Trợ cấp thôi việc, điều kiện làm việc thường xuyên từ đủ 12 tháng; mức NỬA THÁNG tiền lương mỗi năm làm việc|CC-LD-40]].
+> Nội quy lao động chưa được đối chiếu toàn bộ với Bộ luật Lao động. Ngày nghỉ lễ, tết tại Nội quy lao động (OBK-NQLD) Điều 6.1 gồm bảy dịp, trong đó có **Ngày Văn hóa Việt Nam 24/11**, ngày này người lao động được nghỉ làm việc và hưởng nguyên lương. Mức trợ cấp thôi việc luật định, dùng làm mốc so sánh tại Điều 28, là mức nửa tháng tiền lương cho mỗi năm làm việc, điều kiện làm việc thường xuyên từ đủ 12 tháng.
 
 ### Điều 25. Nguyên tắc bắt buộc: mọi khoản trả cho người lao động phải được ghi bằng văn bản trước khi trả
 
 25.1. Tiền lương, tiền công, tiền thưởng cho người lao động không được tính vào chi phí được trừ nếu **không được ghi cụ thể ĐIỀU KIỆN ĐƯỢC HƯỞNG và MỨC ĐƯỢC HƯỞNG** tại một trong các hồ sơ: hợp đồng lao động; thỏa ước lao động tập thể; **quy chế tài chính của Công ty**; quy chế thưởng do Chủ tịch Hội đồng quản trị, Tổng giám đốc, Giám đốc quy định theo quy chế tài chính của Công ty `[Văn bản hợp nhất 19/VBHN-BTC Đ.10 k.8 đ.b]`.
 
-> [!note] ĐÂY LÀ ĐIỀU KIỆN HAI PHẦN
-> THIẾU MỘT PHẦN LÀ MẤT
-> Không đủ khi chỉ ghi mức tiền. Phải ghi cả **điều kiện được hưởng**, tức là trong hoàn cảnh nào thì người lao động được nhận khoản đó. Một dòng "thưởng Tết: 01 tháng lương" không đạt điều kiện; phải ghi rõ căn cứ xét, tiêu chí, và điều kiện loại trừ.
+> [!note] ĐIỀU KIỆN TÍNH VÀO CHI PHÍ ĐƯỢC TRỪ ĐỐI VỚI CÁC KHOẢN CHI CHO NGƯỜI LAO ĐỘNG
+> Để đủ điều kiện tính vào chi phí được trừ khi xác định thu nhập chịu thuế TNDN, các khoản tiền lương, tiền thưởng và phụ cấp phải quy định đồng thời về điều kiện được hưởng (tiêu chí đánh giá, căn cứ xét duyệt, điều kiện loại trừ) và mức được hưởng cụ thể trong hợp đồng lao động hoặc quy chế tài chính `[Văn bản hợp nhất 19/VBHN-BTC Đ.10 k.8 đ.b]`. Việc chỉ ghi nhận mức tiền mà không quy định điều kiện hưởng không đáp ứng yêu cầu tính trừ của pháp luật thuế.
 
-25.2. **Quy chế thưởng của oBacker theo nghĩa `[Văn bản hợp nhất 19/VBHN-BTC Đ.10 k.8 đ.b]` gồm [[01_Khung_nhan_su_tong_hop|OBK-QCNS-01]] Phần III và [[06_Chinh_sach_thuong_khong_dinh_ky|OBK-QCNS-06]]. Tiền lương của từng người lao động ghi điều kiện được hưởng và mức được hưởng tại hợp đồng lao động.** Hợp đồng lao động là loại hồ sơ đầu tiên trong danh sách của điểm b; [[01_Khung_nhan_su_tong_hop|OBK-QCNS-01]] Phần I và Phần II là khung tham chiếu để xác định mức tiền lương ghi tại hợp đồng lao động. Hai văn bản về thưởng do TGĐ ban hành theo quy chế tài chính này, là loại hồ sơ "Quy chế thưởng do Chủ tịch Hội đồng quản trị, Tổng giám đốc, Giám đốc quy định theo quy chế tài chính của Công ty, Tổng công ty, Tập đoàn" trong danh sách của điểm b. Thẩm quyền này khớp Điều lệ: TGĐ quyết định tiền lương và lợi ích khác đối với người lao động trong công ty `[Điều lệ Đ.28 k.3 đ.e]`.
+25.2. **Quy chế thưởng của oBacker theo nghĩa `[Văn bản hợp nhất 19/VBHN-BTC Đ.10 k.8 đ.b]` gồm OBK-QCNS-01 Phần III và OBK-QCNS-06. Tiền lương của từng người lao động ghi điều kiện được hưởng và mức được hưởng tại hợp đồng lao động.** Hợp đồng lao động là loại hồ sơ đầu tiên trong danh sách của điểm b; OBK-QCNS-01 Phần I và Phần II là khung tham chiếu để xác định mức tiền lương ghi tại hợp đồng lao động. Hai văn bản về thưởng do TGĐ ban hành theo quy chế tài chính này, là loại hồ sơ "Quy chế thưởng do Chủ tịch Hội đồng quản trị, Tổng giám đốc, Giám đốc quy định theo quy chế tài chính của Công ty, Tổng công ty, Tập đoàn" trong danh sách của điểm b. Thẩm quyền này khớp Điều lệ: TGĐ quyết định tiền lương và lợi ích khác đối với người lao động trong công ty `[Điều lệ Đ.28 k.3 đ.e]`.
 
 | Văn bản | Khoản chi | Chỗ ghi điều kiện được hưởng và mức được hưởng |
 | --- | --- | --- |
@@ -890,7 +812,7 @@ d) Khoản chi chỉ chuyển khoản vào tài khoản ghi trong Hợp đồng 
 | [[06_Chinh_sach_thuong_khong_dinh_ky\|OBK-QCNS-06]] Chính sách thưởng không định kỳ | Thưởng không định kỳ | Mục 2.4 tiêu chí xét và điều kiện loại trừ;<br>mục 2.5 quyết định thưởng của từng lần, ghi mức được hưởng |
 
 
-25.2a. **Mọi khoản thưởng phải có điều kiện được hưởng và mức được hưởng ghi bằng văn bản trước khi chi.** Khoản thưởng doanh thu hằng tháng lấy điều kiện và mức tại [[01_Khung_nhan_su_tong_hop|OBK-QCNS-01]] Phần III. Khoản thưởng không định kỳ lấy tiêu chí xét và điều kiện loại trừ tại [[06_Chinh_sach_thuong_khong_dinh_ky|OBK-QCNS-06]] mục 2.4, và lấy mức được hưởng tại quyết định thưởng của từng lần theo [[06_Chinh_sach_thuong_khong_dinh_ky|OBK-QCNS-06]] mục 2.5. Mỗi quyết định thưởng không định kỳ ghi đủ bốn nội dung: căn cứ xét, tiêu chí đã đạt, điều kiện loại trừ đã kiểm, và mức được hưởng.
+25.2a. **Mọi khoản thưởng phải có điều kiện được hưởng và mức được hưởng ghi bằng văn bản trước khi chi.** Khoản thưởng doanh thu hằng tháng lấy điều kiện và mức tại OBK-QCNS-01 Phần III. Khoản thưởng không định kỳ lấy tiêu chí xét và điều kiện loại trừ tại OBK-QCNS-06 mục 2.4, và lấy mức được hưởng tại quyết định thưởng của từng lần theo OBK-QCNS-06 mục 2.5. Mỗi quyết định thưởng không định kỳ ghi đủ bốn nội dung: căn cứ xét, tiêu chí đã đạt, điều kiện loại trừ đã kiểm, và mức được hưởng.
 
 25.3. **Ba nhóm người và người có thẩm quyền quyết định thù lao của từng nhóm**, theo Điều lệ:
 
@@ -957,14 +879,14 @@ d) Khoản chi chỉ chuyển khoản vào tài khoản ghi trong Hợp đồng 
 
 26a.2a. **Cách đếm hai giới hạn tại mục 26a.2.**
 
-- Quý và nửa năm tính theo năm dương lịch: quý I từ ngày 01/01 đến ngày 31/03, quý II từ ngày 01/04 đến ngày 30/06, quý III từ ngày 01/07 đến ngày 30/09, quý IV từ ngày 01/10 đến ngày 31/12; nửa năm thứ nhất từ ngày 01/01 đến ngày 30/06, nửa năm thứ hai từ ngày 01/07 đến ngày 31/12. Mọi mốc vừa nêu đều GỒM cả ngày đầu và ngày cuối đã ghi.
+- Quý và nửa năm tính theo năm dương lịch: quý I từ ngày 01/01 đến ngày 31/03, quý II từ ngày 01/04 đến ngày 30/06, quý III từ ngày 01/07 đến ngày 30/09, quý IV từ ngày 01/10 đến ngày 31/12. Nửa năm thứ nhất từ ngày 01/01 đến ngày 30/06, nửa năm thứ hai từ ngày 01/07 đến ngày 31/12. Mọi mốc vừa nêu đều GỒM cả ngày đầu và ngày cuối đã ghi.
 - Một lần tạm ứng tiền lương được đếm vào quý và vào nửa năm chứa **ngày oBacker chuyển tiền**, không đếm theo ngày lập đề nghị.
 - Hai giới hạn cùng có hiệu lực, và giới hạn nào chạm trước thì giới hạn đó dừng việc tạm ứng tiền lương. Ví dụ: người đã tạm ứng tiền lương 02 lần trong quý I và 01 lần trong quý II thì hết số lần của nửa năm thứ nhất, dù quý II mới dùng 01 trong 02 lần của quý.
 - Ba trường hợp tại mục 26a.1 không được đếm vào hai giới hạn tại mục 26a.2.
 
 26a.3. **Điều kiện của người đề nghị.** Người đề nghị đang làm việc theo hợp đồng lao động còn hiệu lực với oBacker, và không trong thời gian tạm hoãn thực hiện hợp đồng lao động. Người đề nghị còn một khoản tạm ứng tiền lương chưa được trừ hết thì đề nghị tạm ứng tiền lương tiếp theo của người đó bị từ chối, cho tới khi khoản cũ được trừ xong theo mục 26a.6.
 
-26a.4. **Hình thức chi.** Tiền tạm ứng lương chuyển vào tài khoản ngân hàng đứng tên chính người lao động. oBacker không chi tạm ứng tiền lương bằng tiền mặt. Pháp luật cho phép trả lương bằng tiền mặt hoặc trả qua tài khoản cá nhân của người lao động `[Bộ luật Lao động 18/VBHN-VPQH Đ.96 k.2]`, nên việc chỉ chuyển khoản là lựa chọn của oBacker chứ không phải nghĩa vụ theo pháp luật. Lý do chọn: oBacker chưa gán người giữ vai trò `TQ` nên chưa xuất quỹ tiền mặt, xem [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]] mục 4.1.
+26a.4. **Hình thức chi.** Tiền tạm ứng lương chuyển vào tài khoản ngân hàng đứng tên chính người lao động. oBacker không chi tạm ứng tiền lương bằng tiền mặt. Pháp luật cho phép trả lương bằng tiền mặt hoặc trả qua tài khoản cá nhân của người lao động `[Bộ luật Lao động 18/VBHN-VPQH Đ.96 k.2]`, nên việc chỉ chuyển khoản là lựa chọn của oBacker chứ không phải nghĩa vụ theo pháp luật. Lý do chọn: oBacker chưa gán người giữ vai trò `TQ` nên chưa xuất quỹ tiền mặt, xem OBK-QCTC-03 mục 4.1.
 
 26a.5. **Thẩm quyền duyệt.** Ma trận hạn mức tại mục 12.3 không áp dụng cho tạm ứng tiền lương, vì ma trận đó phân bậc theo giá trị của khoản chi mua hàng hóa, dịch vụ, tài sản. Thẩm quyền duyệt tạm ứng tiền lương đi theo đúng thẩm quyền quyết định tiền lương tại mục 25.3:
 
@@ -997,17 +919,17 @@ d) Khoản chi chỉ chuyển khoản vào tài khoản ghi trong Hợp đồng 
 
  Khoản thưởng là thu nhập từ tiền lương, tiền công `[Nghị định 253/2026/NĐ-CP Đ.8 k.2 đ.i]`. Khoản thưởng chi ngày 15 được chi đủ, không khấu trừ riêng tại ngày chi thưởng. Khoản thưởng đó cộng vào thu nhập tính thuế của tháng chi thưởng, và thuế của cả tháng khấu trừ một lần khi tính tiền lương của tháng đó. Cách tính này áp cho cá nhân cư trú ký hợp đồng lao động từ 03 tháng trở lên, là đối tượng khấu trừ theo biểu thuế lũy tiến từng phần `[Nghị định 253/2026/NĐ-CP Đ.50 k.2]`. Người lao động có ngày chấm dứt hợp đồng lao động trước ngày trả lương của tháng thì thuế của khoản thưởng khấu trừ theo biểu thuế lũy tiến từng phần ngay tại ngày chi thưởng.
 
- Cá nhân cư trú không ký hợp đồng, ký hợp đồng lao động dưới 03 tháng, hoặc đã chấm dứt hợp đồng lao động tại ngày chi trả thì oBacker khấu trừ 10% trên thu nhập trước khi trả, khi mức chi trả từ 05 triệu đồng một lần trở lên; mức chi trả dưới 05 triệu đồng một lần thì khấu trừ 10% khi cá nhân có yêu cầu `[Nghị định 253/2026/NĐ-CP Đ.50 k.2]`.
+ Cá nhân cư trú không ký hợp đồng, ký hợp đồng lao động dưới 03 tháng, hoặc đã chấm dứt hợp đồng lao động tại ngày chi trả thì oBacker khấu trừ 10% trên thu nhập trước khi trả, khi mức chi trả từ 05 triệu đồng một lần trở lên. Mức chi trả dưới 05 triệu đồng một lần thì khấu trừ 10% khi cá nhân có yêu cầu `[Nghị định 253/2026/NĐ-CP Đ.50 k.2]`.
 
-Áp dụng cơ chế miễn thuế thu nhập cá nhân theo Nghị quyết số 136/2024/QH15 Điều 14 khoản 1 điểm b, Nghị quyết số 53/2024/NQ-HĐND và Nghị quyết số 24/2026/NQ-HĐND của HĐND thành phố Đà Nẵng (xem [[CC-KT-91 Miễn thuế TNCN 05 năm từ ngày có văn bản xác nhận cho nhân sự khởi nghiệp đổi mới sáng tạo Đà Nẵng|CC-KT-91]] và [[CC-KT-92 Điều khoản chuyển tiếp tiếp tục hưởng ưu đãi thuế cho văn bản xác nhận cấp trước theo Nghị quyết 24-2026-NQ-HĐND|CC-KT-92]]): Toàn bộ nhân sự trực tiếp tham gia phát triển, vận hành, cung cấp dịch vụ trên nền tảng phần mềm oBacker được miễn thuế thu nhập cá nhân đối với thu nhập từ tiền lương, tiền công trong thời hạn 05 năm kể từ tháng 12/2025 (thời điểm được cấp Văn bản xác nhận Doanh nghiệp Khởi nghiệp sáng tạo). Mức thuế TNCN khấu trừ hằng tháng bằng 0 đồng. Tiền lương thực nhận không bị trừ thuế TNCN đối với khoản thu nhập được miễn này.
+Áp dụng cơ chế miễn thuế thu nhập cá nhân theo Nghị quyết số 136/2024/QH15 Điều 14 khoản 1 điểm b, Nghị quyết số 53/2024/NQ-HĐND và Nghị quyết số 24/2026/NQ-HĐND của HĐND thành phố Đà Nẵng (miễn thuế TNCN 05 năm từ ngày có văn bản xác nhận cho nhân sự khởi nghiệp đổi mới sáng tạo; văn bản xác nhận được cấp trước nghị quyết chuyển tiếp tiếp tục hưởng ưu đãi): Toàn bộ nhân sự trực tiếp tham gia phát triển, vận hành, cung cấp dịch vụ trên nền tảng phần mềm oBacker được miễn thuế thu nhập cá nhân đối với thu nhập từ tiền lương, tiền công trong thời hạn 05 năm kể từ tháng 12/2025 (thời điểm được cấp Văn bản xác nhận Doanh nghiệp Khởi nghiệp sáng tạo). Mức thuế TNCN khấu trừ hằng tháng bằng 0 đồng. Tiền lương thực nhận không bị trừ thuế TNCN đối với khoản thu nhập được miễn này.
 
-26a.9. **Hồ sơ và quy trình.** Đề nghị tạm ứng tiền lương lập theo biểu mẫu `BM-08` tại `PL_BM`. Quy trình chi tiết theo [[OBK-SOP-NB-04_Cong_va_tien_luong_noi_bo|OBK-SOP-NB-04]] mục 6.6, Luồng H.
+26a.9. **Hồ sơ và quy trình.** Đề nghị tạm ứng tiền lương lập theo biểu mẫu `BM-08` tại `PL_BM`. Quy trình chi tiết theo [[OBK-SOP-NB-04_Cong_va_tien_luong_noi_bo|OBK-SOP-NB-04]] mục 5.6, Luồng H.
 
 26a.10. KTV theo dõi riêng số lần và số tiền tạm ứng tiền lương của từng người theo quý và theo nửa năm, và gửi số liệu đó cho người duyệt trước mỗi lần duyệt. Không có số liệu đó thì người duyệt không kiểm được hai giới hạn tại mục 26a.2.
 
 ### Điều 27. Các khoản có tính chất phúc lợi
 
-27.1. Tổng chi phúc lợi trực tiếp cho người lao động trong năm không vượt mức tối đa ĐM-12, tức không vượt quá 01 tháng lương bình quân thực tế thực hiện trong năm tính thuế `[Văn bản hợp nhất 19/VBHN-BTC Đ.10 k.4 đ.d]`.
+27.1. Tổng chi phúc lợi trực tiếp cho người lao động trong năm không vượt mức ĐM-12, tức không vượt quá 90% mức lương bình quân thực tế thực hiện trong năm tính thuế. Mức tối đa luật định của nhóm phúc lợi là không vượt quá 01 tháng lương bình quân thực tế thực hiện trong năm tính thuế `[Văn bản hợp nhất 19/VBHN-BTC Đ.10 k.4 đ.d]`; mức ĐM-12 thấp hơn mức luật định nên chi trong mức ĐM-12 luôn được trừ.
 
 27.2. **Chi đám hiếu, hỉ.** Khoản tiền oBacker chi đám hiếu, hỉ cho bản thân và gia đình người lao động **không tính vào thu nhập chịu thuế thu nhập cá nhân** khi thỏa mãn hai điều kiện `[Nghị định 253/2026/NĐ-CP Đ.8 k.4 đ.m]`: chi theo quy chế tài chính hoặc quy chế nội bộ hoặc hợp đồng lao động hoặc thỏa ước lao động của đơn vị trả thu nhập; và phù hợp với mức được trừ khi xác định thu nhập chịu thuế thu nhập doanh nghiệp.
 
@@ -1025,21 +947,6 @@ d) Khoản chi chỉ chuyển khoản vào tài khoản ghi trong Hợp đồng 
 | oBacker **chi bằng tiền** cho người lao động | Phần **vượt quá 1,2 triệu đồng một người một tháng** tính vào thu nhập chịu thuế |
 
 Quy định này áp dụng từ ngày 01 tháng 7 năm 2026 `[Nghị định 253/2026/NĐ-CP Đ.69 k.1 đ.b]`.
-
-> [!note] ĐIỂM CẦN CÂN NHẮC KHI CHỐT ĐM-14
-> Phương án tổ chức bữa ăn không có mức tối đa thuế thu nhập cá nhân, phương án chi bằng tiền có mức tối đa 1,2 triệu đồng. Nếu oBacker dự định chi cao hơn 1,2 triệu đồng một người một tháng thì phương án cấp phiếu ăn có lợi hơn về thuế. Quyết định thuộc TGĐ, cần ghi lý do.
-
-27.6. **Bảo hiểm hưu trí và bảo hiểm nhân thọ.** Khoản đóng góp bảo hiểm hưu trí bổ sung theo Luật Bảo hiểm xã hội, quỹ có tính chất an sinh xã hội, bảo hiểm hưu trí tự nguyện, bảo hiểm nhân thọ cho người lao động được trừ khi thỏa mãn **cả ba** điều kiện `[Văn bản hợp nhất 19/VBHN-BTC Đ.10 k.4 đ.đ, đ.đ1, đ.đ2]`:
-
-- Không vượt mức 05 triệu đồng một tháng một người `[đ.đ]`;
-- Được ghi cụ thể **điều kiện hưởng và mức hưởng** tại hợp đồng lao động, thỏa ước lao động tập thể, quy chế tài chính của Công ty, hoặc quy chế thưởng ban hành theo quy chế tài chính của Công ty `[đ.đ1]`;
-- oBacker **thực hiện đầy đủ các nghĩa vụ về bảo hiểm bắt buộc** cho người lao động, kể cả không nợ tiền bảo hiểm bắt buộc `[đ.đ2]`.
-
-> [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
-> ĐIỀU KIỆN THỨ BA LÀ ĐIỀU KIỆN BẮT BUỘC
-> Nếu oBacker đang nợ tiền bảo hiểm bắt buộc thì toàn bộ khoản chi bảo hiểm tự nguyện cho người lao động mất quyền được trừ, dù hai điều kiện kia đủ. KTV phải kiểm tình trạng nợ bảo hiểm bắt buộc trước mỗi kỳ đóng bảo hiểm tự nguyện.
-
-27.7. oBacker hiện chưa áp dụng bảo hiểm hưu trí tự nguyện và bảo hiểm nhân thọ cho người lao động. Khi áp dụng, phải bổ sung điều khoản ghi rõ điều kiện hưởng và mức hưởng vào quy chế này hoặc vào hợp đồng lao động trước kỳ đóng đầu tiên.
 
 ### Điều 28. Trợ cấp thôi việc và trợ cấp mất việc làm
 
@@ -1060,8 +967,8 @@ Quy định này áp dụng từ ngày 01 tháng 7 năm 2026 `[Nghị định 25
 
 29.1. Khoản chi hỗ trợ khám, chữa bệnh cho người lao động và thân nhân được loại khỏi thu nhập chịu thuế thu nhập cá nhân trong trường hợp bệnh hiểm nghèo, tối đa không quá số tiền trả viện phí sau khi trừ số tiền chi trả của tổ chức bảo hiểm `[Nghị định 253/2026/NĐ-CP Đ.8 k.4 đ.b]`.
 
-> [!question] CẦN XÁC MINH
-> Danh mục bệnh hiểm nghèo do Bộ trưởng Bộ Y tế quy định, và danh mục đó không có trong kho. Không tự xác định bệnh nào là bệnh hiểm nghèo. Trước mỗi lần chi thuộc nhóm này, KTT tra bản gốc danh mục. Tag chưa xác minh được.
+> [!note] CĂN CỨ XÁC ĐỊNH BỆNH HIỂM NGHÈO
+> Danh mục bệnh hiểm nghèo làm căn cứ miễn thuế TNCN áp dụng theo danh mục do Bộ Y tế ban hành. Khi phát sinh chi phí hỗ trợ khám chữa bệnh hiểm nghèo, KTT đối chiếu hồ sơ viện phí và chẩn đoán y tế với danh mục luật định trước khi thực hiện thanh toán và hạch toán.
 
 29.2. Khoản chi hỗ trợ khám bệnh, chữa bệnh không thuộc trường hợp bệnh hiểm nghèo vẫn thuộc nhóm phúc lợi và tính vào mức tối đa ĐM-12 `[Văn bản hợp nhất 19/VBHN-BTC Đ.10 k.4 đ.d]`.
 
@@ -1070,7 +977,7 @@ Quy định này áp dụng từ ngày 01 tháng 7 năm 2026 `[Nghị định 25
 30.1. Các khoản dưới đây, theo nguyên văn căn cứ, **thuộc thu nhập chịu thuế thu nhập cá nhân** `[Nghị định 253/2026/NĐ-CP Đ.8 k.2]`:
 
 - Các khoản thưởng bằng tiền hoặc không bằng tiền, bao gồm cả thưởng bằng chứng khoán, thưởng từ cuộc thi, sự kiện do người sử dụng lao động tổ chức cho người lao động `[đ.i]`;
-- Các khoản lợi ích khác mà người sử dụng lao động chi cho người lao động, **bao gồm cả chi trong các ngày nghỉ, lễ**; chi thuê các dịch vụ tư vấn, dịch vụ làm thủ tục về thuế cho đích danh một hoặc một nhóm cá nhân; chi thuê người giúp việc gia đình, lái xe, người làm các công việc khác trong gia đình theo hợp đồng `[đ.k]`.
+- Các khoản lợi ích khác mà người sử dụng lao động chi cho người lao động, **bao gồm cả chi trong các ngày nghỉ, lễ**; chi thuê các dịch vụ tư vấn, dịch vụ làm thủ tục về thuế cho đích danh một hoặc một nhóm cá nhân. Chi thuê người giúp việc gia đình, lái xe, người làm các công việc khác trong gia đình theo hợp đồng `[đ.k]`.
 
 > [!bug] LỖI THƯỜNG GẶP
 > QUÀ TẾT VÀ TIỆC CÔNG TY
@@ -1101,16 +1008,16 @@ Quy định này áp dụng từ ngày 01 tháng 7 năm 2026 `[Nghị định 25
 
 32.1. Mức tối đa tồn quỹ tiền mặt cuối ngày tại mỗi văn phòng: **10.000.000 đồng**, theo ĐM-20. vượt mức tối đa thì nộp vào tài khoản ngân hàng trong ngày làm việc tiếp theo.
 
-32.2. **Mức tối đa một lần chi bằng tiền mặt: 1.000.000 đồng.** Đây là con số duy nhất có hiệu lực; [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]] mục 6.5.6 chỉ dẫn chiếu về đây, không tự đặt số.
+32.2. **Mức tối đa một lần chi bằng tiền mặt: 1.000.000 đồng.** Đây là con số duy nhất có hiệu lực; OBK-SOP-NB-01 mục 5.5.6 chỉ dẫn chiếu về đây, không tự đặt số.
 
 > [!note] VÌ SAO MỨC TỐI ĐA LÀ 1.000.000 ĐỒNG
-> Mức tối đa nội bộ là **1.000.000 đồng**, do `TGĐ` chốt ngày 07/09/2026, thấp hơn nhiều so với ngưỡng pháp luật 05 triệu đồng `[Văn bản hợp nhất 18/VBHN-BTC ngày 04/06/2026 Đ.26; Văn bản hợp nhất 19/VBHN-BTC Đ.9 k.1 đ.c]`. Mức này không được nới lên.
+> Mức tối đa nội bộ là **1.000.000 đồng**, do `TGĐ` quyết ngày 07/09/2026, thấp hơn nhiều so với ngưỡng pháp luật 05 triệu đồng `[Văn bản hợp nhất 18/VBHN-BTC ngày 04/06/2026 Đ.26; Văn bản hợp nhất 19/VBHN-BTC Đ.9 k.1 đ.c]`. Mức này không được nới lên.
 >
 > Lý do: đặt mức tối đa sát ngưỡng pháp luật là thiết kế xấu, vì cách đặt đó không để lại khoảng an toàn nào cho quy tắc cộng dồn tại mục 32.3. Một khoản 4.900.000 đồng chi tiền mặt là hợp lệ nếu đứng riêng, nhưng nếu cùng ngày còn một khoản khác của cùng người bán thì tổng vượt 05 triệu và **mất quyền cho cả hai khoản** `[Văn bản hợp nhất 18/VBHN-BTC ngày 04/06/2026 Đ.26 k.3]`. Mức tối đa 2.000.000 đồng thì phải có ba lần chi cùng người bán cùng ngày mới chạm ngưỡng, tức có chỗ để phát hiện trước khi mất tiền.
 
 32.3. **Quy tắc chống lách mức tối đa.** Không được chia một khoản chi thành nhiều lần để mỗi lần dưới mức tối đa. Mua nhiều lần dưới 05 triệu đồng của cùng một người bán trong cùng một ngày, tổng từ 05 triệu đồng trở lên, vẫn bắt buộc không dùng tiền mặt `[Văn bản hợp nhất 18/VBHN-BTC ngày 04/06/2026 Đ.26 k.3; Văn bản hợp nhất 19/VBHN-BTC Đ.9 k.1 đ.c1]`. KTV kiểm việc chia nhỏ khoản chi bằng cách đối chiếu theo cặp nhà cung cấp và ngày.
 
-32.4. Chi tiền mặt vượt mức tối đa tại mục 32.2 chỉ do TGĐ phê duyệt cho từng trường hợp, theo OBK-SOP-NB-01 mục 6.2.3, và phải có kết luận của KTT về hệ quả thuế.
+32.4. Chi tiền mặt vượt mức tối đa tại mục 32.2 chỉ do TGĐ phê duyệt cho từng trường hợp, theo OBK-SOP-NB-01 mục 5.2.3, và phải có kết luận của KTT về hệ quả thuế.
 
 ### Điều 33. Thủ quỹ và kiểm quỹ
 
@@ -1132,7 +1039,7 @@ Quy định này áp dụng từ ngày 01 tháng 7 năm 2026 `[Nghị định 25
 
 34.3. `AD-KT` đối chiếu sao kê ngân hàng với sổ kế toán theo **hai cấp**. `KTV` giữ quyền TẠO lệnh nên `KTV` không làm việc đối chiếu. Đây là kiểm soát bù bắt buộc số 1 của ngoại lệ tại mục 47.3a, và cũng là chốt số 1 tại Điều 48.
 
-> **MỤC NÀY LÀ NGUỒN CỦA điều kiện bắt buộc `G9`.** Sửa mục này thì kiểm lại `G9` tại `PL_DT_Mo_hinh_trang_thai_chi_tien.md` mục 8, và trạng thái "Đã ghi sổ, chờ đối chiếu" tại [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]] mục 6.0a.1. Dòng dẫn chiếu ngược này thêm ngày 07/09/2026 sau khi phát hiện liên kết giữa quy chế và đặc tả đang một chiều.
+> **MỤC NÀY LÀ NGUỒN CỦA điều kiện bắt buộc `G9`.** Sửa mục này thì kiểm lại `G9` tại `PL_DT_Mo_hinh_trang_thai_chi_tien.md` mục 8, và trạng thái "Đã ghi sổ, chờ đối chiếu" tại [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]] mục 5.0a.1.
 
 | Cấp | Phạm vi | Tần suất | Mục đích |
 | --- | --- | --- | --- |
@@ -1159,11 +1066,11 @@ Chênh lệch chưa giải thích được phải báo **TGĐ** ngay trong ngày
 
 Không ai được thực hiện đồng thời hai thao tác trên cho cùng một lệnh. Cơ chế này ĐẠT yêu cầu tách quyền tại mục 35.1 và không vi phạm `[Luật Kế toán 41/VBHN-VPQH Đ.13 k.7]`.
 
-> **MỤC NÀY LÀ NGUỒN CỦA điều kiện bắt buộc `G8`, cùng với mục 47.2.** Sửa mục này thì kiểm lại `G8` tại `PL_DT_Mo_hinh_trang_thai_chi_tien.md` mục 8, và hai trạng thái "Đã gửi lệnh, chờ xác nhận" cùng "Chờ ngân hàng" tại [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]] mục 6.0a.1. Dòng dẫn chiếu ngược này thêm ngày 07/09/2026 sau khi phát hiện liên kết giữa quy chế và đặc tả đang một chiều.
+> **MỤC NÀY LÀ NGUỒN CỦA điều kiện bắt buộc `G8`, cùng với mục 47.2.** Sửa mục này thì kiểm lại `G8` tại `PL_DT_Mo_hinh_trang_thai_chi_tien.md` mục 8, và hai trạng thái "Đã gửi lệnh, chờ xác nhận" cùng "Chờ ngân hàng" tại [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]] mục 5.0a.1.
 
 Hai người cùng giữ một thao tác giữ cho việc chi tiền không dừng khi một người nghỉ phép hoặc đi công tác, và không phát sinh nhu cầu dùng tài khoản người dùng của người khác.
 
-> [!note] HAI THAO TÁC TRÊN NGÂN HÀNG KHÔNG PHẢI HAI LẦN PHÊ DUYỆT. ĐÂY LÀ CHỖ DỄ NHẦM NHẤT CỦA CẢ ĐIỀU NÀY
+> [!note] PHÂN BIỆT THAO TÁC NGÂN HÀNG VÀ CẤP PHÊ DUYỆT DUYỆT CHI
 >
 > **DUYỆT trong quy chế này luôn có nghĩa là phê duyệt trong quy trình**, tức việc người có thẩm quyền quyết định cho phép một khoản chi, theo ma trận tại **mục 12.3**. Việc phê duyệt đó xảy ra đúng một lần cho mỗi khoản chi, trên chứng từ, trước khi tiền ra.
 >
@@ -1177,7 +1084,7 @@ Hai người cùng giữ một thao tác giữ cho việc chi tiền không dừ
 >
 > `KTV` là người hạch toán, và quy tắc 47.3 cấm người hạch toán tạo lệnh chuyển tiền. Việc `KTV` được tạo lệnh là ngoại lệ của quy tắc đó, kèm hai kiểm soát bù bắt buộc tại mục 47.3a.
 >
-> **Kiểm lại bốn quy tắc tách quyền với cơ chế này:** 47.1 đạt, kèm nhánh tại mục 47.1a cho trường hợp người đề nghị là `TGĐ`; 47.2 đạt, vì người phê duyệt chi là `TL` ở bậc B1 và B2, là `TGĐ` từ bậc B3, và không ai trong số đó tạo lệnh; 47.3 có ngoại lệ đã ghi rõ kèm kiểm soát bù; 47.4 đạt, xem ghi chú dưới đây.
+> **Kiểm lại bốn quy tắc tách quyền với cơ chế này:** 47.1 đạt, kèm nhánh tại mục 47.1a cho trường hợp người đề nghị là `TGĐ`; 47.2 đạt, vì người phê duyệt chi là `TL` ở bậc B1, là `COO` ở bậc B2, là `TGĐ` từ bậc B3, và không ai trong số đó tạo lệnh; 47.3 có ngoại lệ đã ghi rõ kèm kiểm soát bù; 47.4 đạt, xem ghi chú dưới đây.
 
 > [!note] CÂU VỀ KHÁI NIỆM THỦ QUỸ, ĐÃ ĐỐI CHIẾU BẢN GỐC
 >
@@ -1187,13 +1094,13 @@ Hai người cùng giữ một thao tác giữ cho việc chi tiền không dừ
 >
 > 1. Chế độ kế toán đang áp dụng định nghĩa vai trò thủ quỹ bằng chức năng, và chức năng đó gắn với QUỸ TIỀN MẶT: "Thủ quỹ chịu trách nhiệm quản lý và nhập, xuất quỹ tiền mặt đồng thời thường xuyên kiểm kê số tồn quỹ tiền mặt thực tế và đối chiếu giữa số liệu trên sổ quỹ tiền mặt với sổ kế toán tiền mặt" `[Thông tư 99/2025/TT-BTC, Tài khoản 111 Tiền mặt, mục 1 Nguyên tắc kế toán, điểm d]`.
 > 2. Sổ kế toán mà thủ quỹ giữ là Sổ chi tiết quỹ tiền mặt, mẫu số 07a-DN: "Sổ này mở cho thủ quỹ" `[Thông tư 99/2025/TT-BTC, phần hướng dẫn mẫu sổ 07a-DN]`.
-> 3. Toàn bộ phần hướng dẫn Tài khoản 112 Tiền gửi không kỳ hạn của cùng thông tư không nhắc vai trò thủ quỹ ở bất kỳ chỗ nào. Đã tự mở và đếm ngày 07/09/2026.
+> 3. Toàn bộ phần hướng dẫn Tài khoản 112 Tiền gửi không kỳ hạn của cùng thông tư không nhắc vai trò thủ quỹ ở bất kỳ chỗ nào; đã đối chiếu nguyên văn trong kho ngày 07/09/2026.
 >
 > **Kết luận rút ra từ ba dữ kiện trên:** trong chế độ kế toán hiện hành, thủ quỹ là vai trò gắn với quỹ tiền mặt và sổ quỹ tiền mặt, không phải vai trò gắn với tài khoản tiền gửi ngân hàng. Người tạo lệnh hoặc xác nhận lệnh trên tài khoản ngân hàng của doanh nghiệp không thuộc khái niệm thủ quỹ, nên không rơi vào hai điều cấm trên vì lý do đó. Điều kiện kèm theo, phải giữ đúng: `KTV`, `KTT`, `TGĐ` và `Chủ tịch HĐQT` đều không giữ quỹ tiền mặt và không giữ sổ quỹ tiền mặt. Việc giữ quỹ tiền mặt thuộc vai trò thủ quỹ riêng theo Điều 33.
 >
 > **Việc còn lại, không phải điều kiện ban hành:** ba dữ kiện trên là nguyên văn đã đối chiếu nên mang; nhưng bước suy ra kết luận là suy luận, không phải nguyên văn. Theo quy tắc của bộ tài liệu, `KTT` hoặc Legal R&D phải ký kết luận này bằng văn bản trước khi dùng kết luận đó để trả lời khách hàng. Dùng trong nội bộ thì được ngay.
 
-35.2. Danh sách người có quyền trên hệ thống ngân hàng điện tử phải được rà soát **hằng quý**, và rà soát **ngay trong ngày** khi có nhân sự nghỉ việc hoặc thay đổi vai trò. `TGĐ` chịu trách nhiệm rà soát; `KTV` và `KTT` đều nằm trong danh sách người có quyền nên không rà soát được danh sách đó. Kết quả rà soát báo `HĐQT` bằng văn bản.
+35.2. Danh sách người có quyền trên hệ thống ngân hàng điện tử phải được rà soát **hằng quý**, và rà soát **ngay trong ngày** khi có nhân sự nghỉ việc hoặc thay đổi vai trò. `TGĐ` chịu trách nhiệm rà soát. `KTV` và `KTT` đều nằm trong danh sách người có quyền nên không rà soát được danh sách đó. Kết quả rà soát báo `HĐQT` bằng văn bản.
 
 > [!note] TẦN SUẤT NÀY ĐẶT TẠI QUY CHẾ
 > [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo|OBK-SOP-NB-00]] CHỈ DẪN CHIẾU
@@ -1203,12 +1110,12 @@ Hai người cùng giữ một thao tác giữ cho việc chi tiền không dừ
 
 35.3a. **Danh mục nhà cung cấp chưa tồn tại, nên điểm kiểm soát số tài khoản chưa vận hành được.**
 
-Lệnh chi tới một số tài khoản không có trong Danh mục nhà cung cấp theo [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]] mục 6.4.3 bị từ chối. oBacker chưa lập Danh mục nhà cung cấp, nên điều khoản đó **hoãn hiệu lực**, không bị bỏ.
+Lệnh chi tới một số tài khoản không có trong Danh mục nhà cung cấp theo [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]] mục 5.4.3 bị từ chối. oBacker chưa lập Danh mục nhà cung cấp, nên điều khoản đó **hoãn hiệu lực**, không bị bỏ.
 
 **Hai chốt thay thế, không cần hạ tầng, áp ngay:**
 
 1. **Xác minh số tài khoản bằng kênh độc lập**, trước lần chuyển tiền đầu tiên cho một nhà cung cấp và trước mỗi lần số tài khoản thay đổi. Gọi điện tới số điện thoại lấy từ hợp đồng đã ký hoặc từ hồ sơ pháp lý của nhà cung cấp, không lấy từ email hoặc tin nhắn vừa thông báo việc đổi tài khoản. Người lập lệnh ghi ngày gọi, tên người trả lời và kết quả vào hồ sơ đề nghị thanh toán.
-2. **Chuyển khoản thử một khoản nhỏ trước**, với các khoản từ ngưỡng ghi tại [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]] mục 6.4.2, và chỉ chuyển phần còn lại sau khi nhà cung cấp xác nhận đã nhận được khoản thử.
+2. **Chuyển khoản thử một khoản nhỏ trước**, với các khoản từ ngưỡng ghi tại OBK-SOP-NB-01 mục 5.4.2, và chỉ chuyển phần còn lại sau khi nhà cung cấp xác nhận đã nhận được khoản thử.
 
 Đường mất tiền phổ biến nhất ở doanh nghiệp nhỏ là một email giả mạo nhà cung cấp thông báo đổi số tài khoản. Hai chốt trên chặn đúng đường đó mà không cần danh mục.
 
@@ -1240,7 +1147,7 @@ Lệnh chi tới một số tài khoản không có trong Danh mục nhà cung c
 | Tạm ứng mua sắm | **10** ngày làm việc kể từ ngày chi khoản cuối cùng |
 | Tạm ứng khác | **15** ngày làm việc kể từ ngày hoàn thành nhiệm vụ được ghi trên đề nghị |
 
-> [!note] BA CON SỐ NÀY LÀ SLA NỘI BỘ
+> [!note] THỜI HẠN XỬ LÝ NỘI BỘ
 > KHÔNG PHẢI THỜI HẠN THEO PHÁP LUẬT
 > Không có điều luật nào đặt thời hạn hoàn ứng, nên oBacker nới hay siết đều được. Nhưng có một mốc cứng đứng sau: khoản tạm ứng chưa hoàn ứng tới thời điểm khóa sổ năm thì không có chứng từ để ghi nhận chi phí của năm đó. Vì vậy mọi khoản tạm ứng phát sinh trong tháng 12 phải hoàn ứng trước ngày khóa sổ, bất kể ba con số trên.
 
@@ -1284,15 +1191,15 @@ Lệnh chi tới một số tài khoản không có trong Danh mục nhà cung c
 - Ghi nhận vào đánh giá kết quả công việc của kỳ;
 - Từ khoản tạm ứng quá hạn thứ hai trở đi, mọi đề nghị tạm ứng của người đó phải do TGĐ duyệt, không phải TL.
 
-> [!question] CẦN XÁC MINH
-> Bộ luật Lao động không cấm minh thị việc hai bên thỏa thuận hoàn trả một khoản nợ; Bộ luật Lao động chỉ giới hạn phạm vi của cơ chế **khấu trừ tiền lương**. Ranh giới giữa "thỏa thuận trả nợ mà người lao động tự nguyện thực hiện" và "khấu trừ lương trá hình" là ranh giới cần luật sư lao động xác nhận trước khi áp vào một trường hợp thật. Vì vậy cách 2 phải luôn có văn bản riêng, ký tại thời điểm thu hồi, và người lao động có quyền từ chối mà không bị bất lợi. Tag chưa xác minh được cho ranh giới này.
+> [!note] NGUYÊN TẮC THỎA THUẬN HOÀN TRẢ TẠM ỨNG
+> Trường hợp thu hồi tạm ứng theo hình thức thỏa thuận cấn trừ thu nhập, việc thỏa thuận phải lập thành văn bản riêng trên cơ sở tự nguyện của người lao động tại thời điểm thu hồi, bảo đảm không vi phạm quy định về khấu trừ tiền lương theo Bộ luật Lao động.
 
-> [!note] BA CƠ CHẾ KHÁC NHAU
+> [!note] PHÂN BIỆT CÁC HÌNH THỨC THU HỒI VÀ KHẤU TRỪ
 >
 > | Cơ chế | Dùng cho | Có được trừ vào tiền lương không | Đặt ở đâu |
 > | --- | --- | --- | --- |
 > | Thu hồi khoản tạm ứng quá hạn | Khoản tiền giao trước để thực hiện nhiệm vụ, hạch toán Tài khoản 141 | **không.** Bốn cách thu hồi tại bảng trên | Mục 38.2a |
-> | Bồi thường trách nhiệm vật chất | Người lao động làm hư hỏng, làm mất dụng cụ, thiết bị, tài sản | **có**, đây là trường hợp duy nhất được khấu trừ tiền lương `[Bộ luật Lao động 18/VBHN-VPQH Đ.102 k.1]`. Mức khấu trừ hằng tháng không quá 30% tiền lương thực trả hằng tháng sau khi trích nộp bảo hiểm xã hội bắt buộc, bảo hiểm y tế, bảo hiểm thất nghiệp và thuế thu nhập cá nhân `[Bộ luật Lao động 18/VBHN-VPQH Đ.102 k.3]` | [[Noi_quy_lao_dong\|OBK-NQLD]] Nội quy lao động Chương IX; trình tự tại `[Nghị định 145/2020/NĐ-CP Đ.71, Đ.72]` |
+> | Bồi thường trách nhiệm vật chất | Người lao động làm hư hỏng, làm mất dụng cụ, thiết bị, tài sản | **có**, đây là trường hợp duy nhất được khấu trừ tiền lương `[Bộ luật Lao động 18/VBHN-VPQH Đ.102 k.1]`. Mức khấu trừ hằng tháng không quá 30% tiền lương thực trả hằng tháng sau khi trích nộp bảo hiểm xã hội bắt buộc, bảo hiểm y tế, bảo hiểm thất nghiệp và thuế thu nhập cá nhân `[Bộ luật Lao động 18/VBHN-VPQH Đ.102 k.3]` | Nội quy lao động (OBK-NQLD) Chương IX; trình tự tại `[Nghị định 145/2020/NĐ-CP Đ.71, Đ.72]` |
 > | Trừ khoản tạm ứng tiền lương khi tính tiền lương của kỳ | Tiền lương của chính kỳ đó đã trả trước | Đây không phải khấu trừ tiền lương, xem lập luận và tag chưa xác minh được tại mục 26a.6 | Điều 26a |
 >
 > Khoản tạm ứng quá hạn chưa hoàn **không phải là thiệt hại do lỗi**; đó là một khoản nợ. Vì vậy không được mượn cơ chế trách nhiệm vật chất của Nội quy lao động để thu hồi khoản tạm ứng, và cũng không được mượn cơ chế tại Điều 26a, vì khoản tạm ứng theo Chương 7 không phải tiền lương của người lao động.
@@ -1301,7 +1208,7 @@ Lệnh chi tới một số tài khoản không có trong Danh mục nhà cung c
 
 38.3. **Biểu mẫu BM-03 không có điều khoản người đề nghị đồng ý trước cơ chế trừ vào lương**, vì cơ chế trừ vào lương đã bị loại tại mục 38.2a. Bản BM-03 nào đang có điều khoản đó thì phải xóa.
 
-38.4. Điều BM-03 cần có thay vào đó là ba nội dung, không có nội dung nào liên quan tới lương: cam kết hoàn ứng đúng thời hạn tại mục 37.1; cam kết cung cấp đủ chứng từ gốc và **bằng chứng về hình thức thanh toán** với từng khoản từ 05 triệu đồng trở lên theo mục 37.2; và xác nhận đã đọc ba chế tài nội bộ tại mục 38.2a.
+38.4. Điều BM-03 cần có thay vào đó là ba nội dung, không có nội dung nào liên quan tới lương: cam kết hoàn ứng đúng thời hạn tại mục 37.1. Cam kết cung cấp đủ chứng từ gốc và **bằng chứng về hình thức thanh toán** với từng khoản từ 05 triệu đồng trở lên theo mục 37.2; và xác nhận đã đọc ba chế tài nội bộ tại mục 38.2a.
 
 ### Điều 39. Chi hộ bằng tiền cá nhân, không qua tạm ứng
 
@@ -1313,7 +1220,7 @@ Lệnh chi tới một số tài khoản không có trong Danh mục nhà cung c
 
 ### Điều 40. Thanh toán định kỳ và thanh toán tự động
 
-40.1. Mọi dịch vụ thuê bao thanh toán tự động bằng thẻ phải nằm trong Sổ theo dõi thanh toán định kỳ theo OBK-SOP-NB-01 mục 6.11.2, ghi rõ: nhà cung cấp, chu kỳ, số tiền, thẻ hoặc tài khoản dùng để thanh toán, người chịu trách nhiệm, ngày rà soát gần nhất.
+40.1. Mọi dịch vụ thuê bao thanh toán tự động bằng thẻ phải nằm trong Sổ theo dõi thanh toán định kỳ theo OBK-SOP-NB-01 mục 5.11.2, ghi rõ: nhà cung cấp, chu kỳ, số tiền, thẻ hoặc tài khoản dùng để thanh toán, người chịu trách nhiệm, ngày rà soát gần nhất.
 
 40.1a. **CƠ CHẾ CHỨNG TỪ CỦA KHOẢN BỊ TRỪ TỰ ĐỘNG.**
 
@@ -1329,16 +1236,16 @@ Ba lớp, mỗi lớp một chứng từ khác nhau:
 
 | Nhóm | Hạn theo pháp luật | Hạn nội bộ oBacker |
 | --- | --- | --- |
-| Nhà cung cấp TRONG NƯỚC thuộc nhóm dịch vụ ngân hàng trừ hoạt động cho vay, dịch vụ công nghệ số, nền tảng số, công nghệ thông tin bán theo kỳ, và viễn thông | Chậm nhất **ngày 07 của tháng sau** tháng phát sinh dịch vụ, hoặc **07 ngày kể từ ngày kết thúc kỳ quy ước** nếu hợp đồng có kỳ quy ước `[Nghị định 254/2026/NĐ-CP Đ.9 k.4 đ.a]` | Ngày **10 của tháng sau**, tức khoảng làm trước 03 ngày.<br>Quá hạn thì `KTV` gửi văn bản đòi hóa đơn và ghi vào chỉ số số 7 tại [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] mục 10 |
+| Nhà cung cấp TRONG NƯỚC thuộc nhóm dịch vụ ngân hàng trừ hoạt động cho vay, dịch vụ công nghệ số, nền tảng số, công nghệ thông tin bán theo kỳ, và viễn thông | Chậm nhất **ngày 07 của tháng sau** tháng phát sinh dịch vụ, hoặc **07 ngày kể từ ngày kết thúc kỳ quy ước** nếu hợp đồng có kỳ quy ước `[Nghị định 254/2026/NĐ-CP Đ.9 k.4 đ.a]` | Ngày **10 của tháng sau**, tức khoảng làm trước 03 ngày.<br>Quá hạn thì `KTV` gửi văn bản đòi hóa đơn và ghi vào chỉ số số 7 tại [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] mục 9 |
 | Nhà cung cấp NƯỚC NGOÀI | **không có hạn, và oBacker không đòi được.** Nhà cung cấp nước ngoài chỉ **đăng ký tự nguyện** sử dụng hóa đơn điện tử Việt Nam `[Nghị định 254/2026/NĐ-CP Đ.2 k.1 đ.đ]` | Không đặt hạn. Thay bằng bộ bốn chứng từ dưới đây |
 
-**Bộ chứng từ thay thế cho nhà cung cấp nước ngoài, đủ bốn thứ:** hóa đơn hoặc biên nhận của nhà cung cấp; chứng từ thanh toán không dùng tiền mặt bằng thẻ hoặc tài khoản **đứng tên oBacker**, không phải thẻ cá nhân; hợp đồng hoặc điều khoản dịch vụ; và kết luận về nghĩa vụ thuế nhà thầu theo Điều 24, lập trước lần chi đầu tiên cho nhà cung cấp đó.
+**Bộ chứng từ thay thế cho nhà cung cấp nước ngoài, đủ bốn thứ:** hóa đơn hoặc biên nhận của nhà cung cấp; chứng từ thanh toán không dùng tiền mặt bằng thẻ hoặc tài khoản **đứng tên oBacker**, không phải thẻ cá nhân. Hợp đồng hoặc điều khoản dịch vụ; và kết luận về nghĩa vụ thuế nhà thầu theo Điều 24, lập trước lần chi đầu tiên cho nhà cung cấp đó.
 
 > [!note] `[SUY LUẬN]` PHẢI ĐỌC KÈM
 > KHÔNG DÙNG ĐỂ TRẢ LỜI KHÁCH
 > Kết luận rằng thời điểm "thực hiện" tại `Đ.19 k.3` là thời điểm đăng ký cơ chế, chứ không phải thời điểm từng lần bị trừ, là **suy luận**, không có câu nguyên văn nào định nghĩa chữ "thực hiện". Kho không có nghị định hướng dẫn Luật Kế toán. Việc kiểm tra và giải thích căn cứ thực hiện theo Sổ căn cứ OBK-CC.
 >
-> **Rủi ro nếu suy luận này sai:** cách đọc chặt dẫn tới việc oBacker phải bỏ hoàn toàn cơ chế trừ tự động, không phải chỉ sửa chứng từ. Vì vậy giữ danh mục trừ tự động **ngắn** theo giới hạn 10 dòng tại [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]] mục 6.12.3 không chỉ là việc gọn gàng, đó là cách giới hạn thiệt hại nếu cách đọc đổi.
+> **Rủi ro nếu suy luận này sai:** cách đọc chặt dẫn tới việc oBacker phải bỏ hoàn toàn cơ chế trừ tự động, không phải chỉ sửa chứng từ. Vì vậy giữ danh mục trừ tự động **ngắn** theo giới hạn 10 dòng tại OBK-SOP-NB-01 mục 5.12.3 không chỉ là việc gọn gàng, đó là cách giới hạn thiệt hại nếu cách đọc đổi.
 >
 > Mục này chưa dùng được cho khách hàng cho tới khi có kết luận đã ký.
 
@@ -1372,14 +1279,14 @@ Ba lớp, mỗi lớp một chứng từ khác nhau:
 
 41.3. Trường hợp oBacker cử người phụ trách kế toán thay kế toán trưởng thì người phụ trách kế toán phải có các tiêu chuẩn, điều kiện quy định cho kế toán trưởng và phải thực hiện trách nhiệm, quyền của kế toán trưởng `[Luật Kế toán 41/VBHN-VPQH Đ.53 k.4]`.
 
-41.4. Tiêu chuẩn và điều kiện của kế toán trưởng `[Luật Kế toán 41/VBHN-VPQH Đ.54 k.1]`: có phẩm chất đạo đức nghề nghiệp, trung thực, liêm khiết, có ý thức chấp hành pháp luật, và có trình độ chuyên môn nghiệp vụ về kế toán `[Đ.51 k.1]`; có chuyên môn, nghiệp vụ về kế toán từ trình độ trung cấp trở lên; có chứng chỉ bồi dưỡng kế toán trưởng; có thời gian công tác thực tế về kế toán ít nhất 02 năm với người có trình độ đại học trở lên, hoặc ít nhất 03 năm với trình độ trung cấp, cao đẳng.
+41.4. Tiêu chuẩn và điều kiện của kế toán trưởng `[Luật Kế toán 41/VBHN-VPQH Đ.54 k.1]`: có phẩm chất đạo đức nghề nghiệp, trung thực, liêm khiết, có ý thức chấp hành pháp luật, và có trình độ chuyên môn nghiệp vụ về kế toán `[Đ.51 k.1]`. Có chuyên môn, nghiệp vụ về kế toán từ trình độ trung cấp trở lên; có chứng chỉ bồi dưỡng kế toán trưởng. Có thời gian công tác thực tế về kế toán ít nhất 02 năm với người có trình độ đại học trở lên, hoặc ít nhất 03 năm với trình độ trung cấp, cao đẳng.
 
 41.5. Kế toán trưởng có quyền độc lập về chuyên môn, nghiệp vụ kế toán `[Luật Kế toán 41/VBHN-VPQH Đ.55 k.2]`.
 
 > [!note] NGƯỜI PHỤ TRÁCH KẾ TOÁN
 > OBacker cử NGƯỜI PHỤ TRÁCH KẾ TOÁN, người đó đủ tiêu chuẩn của kế toán trưởng, đã đối chiếu bốn tiêu chuẩn tại mục 41.4.
 >
-> **Nghĩa vụ bố trí kế toán trưởng.** Luật Kế toán giao Chính phủ quy định việc tổ chức bộ máy, bố trí kế toán trưởng, phụ trách kế toán `[Luật Kế toán 41/VBHN-VPQH Đ.49 k.2]`. Điều 20 khoản 1 Nghị định 174/2016/NĐ-CP quy định đơn vị kế toán phải bố trí kế toán trưởng; trường hợp chưa bổ nhiệm được ngay thì bố trí người phụ trách kế toán hoặc thuê dịch vụ làm kế toán trưởng, và thời gian bố trí người phụ trách kế toán tối đa là 12 tháng, sau thời gian này phải bố trí người làm kế toán trưởng `[[Nghị định 174-2016-NĐ-CP quy định chi tiết một số điều của Luật Kế toán|VB-085]]` Đ.20 k.1. Chỉ doanh nghiệp siêu nhỏ được bố trí phụ trách kế toán mà không bắt buộc bố trí kế toán trưởng (Đ.20 k.2 đ.b; `[Thông tư 58/2026/TT-BTC Đ.3 k.2]`). oBacker không thuộc diện doanh nghiệp siêu nhỏ kể từ khi có số liệu lao động ngày 11/09/2026, xem mục 6.3, nên thuộc nghĩa vụ tại Đ.20 k.1: việc cử người phụ trách kế toán nêu trên chỉ được kéo dài tối đa 12 tháng. Mốc bắt đầu tính 12 tháng và người được bổ nhiệm kế toán trưởng do CEO quyết.
+> **Nghĩa vụ bố trí kế toán trưởng.** Luật Kế toán giao Chính phủ quy định việc tổ chức bộ máy, bố trí kế toán trưởng, phụ trách kế toán `[Luật Kế toán 41/VBHN-VPQH Đ.49 k.2]`. Điều 20 khoản 1 Nghị định 174/2016/NĐ-CP quy định đơn vị kế toán phải bố trí kế toán trưởng; trường hợp chưa bổ nhiệm được ngay thì bố trí người phụ trách kế toán hoặc thuê dịch vụ làm kế toán trưởng, và thời gian bố trí người phụ trách kế toán tối đa là 12 tháng, sau thời gian này phải bố trí người làm kế toán trưởng, Nghị định 174/2016/NĐ-CP Đ.20 k.1. Chỉ doanh nghiệp siêu nhỏ được bố trí phụ trách kế toán mà không bắt buộc bố trí kế toán trưởng (Đ.20 k.2 đ.b; `[Thông tư 58/2026/TT-BTC Đ.3 k.2]`). oBacker không thuộc diện doanh nghiệp siêu nhỏ kể từ khi có số liệu lao động ngày 11/09/2026, xem mục 6.3, nên thuộc nghĩa vụ tại Đ.20 k.1: việc cử người phụ trách kế toán nêu trên chỉ được kéo dài tối đa 12 tháng. Mốc bắt đầu tính 12 tháng và người được bổ nhiệm kế toán trưởng do CEO quyết.
 >
 > **Vì sao giả thiết này AN TOÀN dù chưa tra được nghị định.** Luật Kế toán đã tự khóa lại rủi ro: trường hợp đơn vị cử người phụ trách kế toán thay kế toán trưởng thì người phụ trách kế toán **phải có các tiêu chuẩn, điều kiện quy định cho kế toán trưởng** và **phải thực hiện trách nhiệm và quyền quy định cho kế toán trưởng** `[Luật Kế toán 41/VBHN-VPQH Đ.53 k.4]`. Nghĩa là hai hướng, bố trí kế toán trưởng hay cử người phụ trách kế toán, đều đòi **cùng một bộ tiêu chuẩn** tại mục 41.4 và **cùng một bộ trách nhiệm**. Vì vậy nếu oBacker bảo đảm người giữ vai trò `KTT` đủ tiêu chuẩn tại mục 41.4 thì đúng ở cả hai hướng, và việc chưa tra được nghị định không gây thiệt hại.
 >
@@ -1391,9 +1298,9 @@ Ba lớp, mỗi lớp một chứng từ khác nhau:
 
 41.7. **`KTV` và `KTT` là HAI NGƯỜI KHÁC NHAU.** Đây không còn là giả thiết. Nhánh thay thế dưới đây giữ lại để dùng khi nhân sự thay đổi.
 
-> Bốn chỗ trong quy chế dựa vào dữ kiện này, nên nếu nhân sự thay đổi thì phải sửa cả bốn: quy tắc tách quyền 47.3 và ngoại lệ 47.3a, cơ chế ngân hàng điện tử tại mục 35.1a, bảy điểm kiểm soát tại Điều 48, và quy trình Luồng B của [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]] vì bước B3 do KTV làm và bước B4 do KTT làm.
+> Bốn chỗ trong quy chế dựa vào dữ kiện này, nên nếu nhân sự thay đổi thì phải sửa cả bốn: quy tắc tách quyền 47.3 và ngoại lệ 47.3a, cơ chế ngân hàng điện tử tại mục 35.1a, bảy điểm kiểm soát tại Điều 48, và quy trình Luồng B của OBK-SOP-NB-01 vì bước B3 do KTV làm và bước B4 do KTT làm.
 >
-> **Nhánh thay thế nếu oBacker chỉ có một người làm cả hai vai trò.** Đây là tình huống thật ở công ty quy mô nhỏ, và không có cách nào giữ nguyên toàn bộ kiểm soát. Ba việc bắt buộc khi đó:
+> **Biện pháp kiểm soát thay thế khi chưa tách biệt nhân sự KTV và KTT:**
 >
 > 1. Chọn **phương án 1** tại mục 35.1a: người duyệt chi bậc B3 chuyển sang TGĐ, và người kiêm KTV cùng KTT KHÔNG có quyền nào trên hệ thống ngân hàng điện tử. TGĐ giữ cả quyền lập và quyền duyệt là không được, vì vi phạm chính mục 35.1; vì vậy quyền lập phải giao cho một nhân sự thứ ba bất kỳ, không nhất thiết là người làm kế toán.
 > 2. Với bảy điểm kiểm soát tại Điều 48, chuyển toàn bộ vai trò "người duyệt" từ KTT sang **TGĐ**, vì người làm và người duyệt không thể là một người.
@@ -1413,7 +1320,7 @@ Ba lớp, mỗi lớp một chứng từ khác nhau:
 
 42.3. Chứng từ điện tử theo `[Luật Kế toán 41/VBHN-VPQH Đ.17]`.
 
-42.4. Cấm ký chứng từ kế toán khi chưa ghi đủ nội dung thuộc trách nhiệm của người ký; chứng từ kế toán chi tiền phải do người có thẩm quyền duyệt chi và kế toán trưởng hoặc người được ủy quyền **ký trước khi thực hiện** `[Luật Kế toán 41/VBHN-VPQH Đ.19 k.2, k.3]`.
+42.4. Cấm ký chứng từ kế toán khi chưa ghi đủ nội dung thuộc trách nhiệm của người ký. Chứng từ kế toán chi tiền phải do người có thẩm quyền duyệt chi và kế toán trưởng hoặc người được ủy quyền **ký trước khi thực hiện** `[Luật Kế toán 41/VBHN-VPQH Đ.19 k.2, k.3]`.
 
 > [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
 > THỨ TỰ KÝ RỒI MỚI CHI, KHÔNG PHẢI CHI RỒI MỚI KÝ
@@ -1423,31 +1330,31 @@ Ba lớp, mỗi lớp một chứng từ khác nhau:
 
 `[Thông tư 99/2025/TT-BTC Đ.9 k.1]` quy định doanh nghiệp **tham khảo để áp dụng** biểu mẫu hệ thống chứng từ kế toán tại Phụ lục I của thông tư, tức bộ mẫu đó là hướng dẫn, không phải mẫu bắt buộc. `k.2` cho phép doanh nghiệp thiết kế thêm hoặc sửa đổi, bổ sung biểu mẫu, với hai ràng buộc: biểu mẫu phải tuân thủ `[Luật Kế toán 41/VBHN-VPQH Đ.16]`, và doanh nghiệp **có trách nhiệm ban hành Quy chế hạch toán kế toán hoặc tài liệu tương đương** về các nội dung sửa đổi, trong đó nêu rõ sự cần thiết của việc sửa đổi và trách nhiệm của doanh nghiệp trước pháp luật về nội dung đã sửa.
 
-42.5a. **Quy chế hạch toán kế toán: dự thảo đã có từ ngày 07/09/2026, hiệu lực CHỜ nghị quyết Hội đồng quản trị.** Văn bản là [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]]. Trạng thái hiện tại và hệ quả:
+42.5a. **Quy chế hạch toán kế toán: dự thảo đã có từ ngày 07/09/2026, hiệu lực CHỜ nghị quyết Hội đồng quản trị.** Văn bản là OBK-QCTC-03. Trạng thái hiện tại và hệ quả:
 
-- Biểu mẫu nào của bộ tài liệu này **trùng cấu trúc và trùng chữ ký theo chức danh với mẫu của Phụ lục I** thì dùng được ngay, vì đó là dùng mẫu có sẵn. Thuộc nhóm này: `BM-K` bảng kê chi tiền theo mẫu số 09-TT, và hai mẫu 01-TT phiếu thu, 02-TT phiếu chi mà [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]] Điều 4 chốt là áp nguyên bản.
-- Biểu mẫu nào oBacker **tự thiết kế hoặc gộp lại** thì có căn cứ **từ ngày ghi trên nghị quyết ban hành** [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]], không phải từ ngày dự thảo được viết. Sáu biểu mẫu thuộc nhóm này nằm ở Điều 5 của [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]], gồm `BM-01`, `BM-02`, `BM-03`, `BM-04`, `BM-06` và `BM-G`.
-- **Việc còn lại là một chữ ký.** `TGĐ` ký ban hành [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]], theo ủy quyền đã có của `HĐQT`; đã đóng ngày 07/09/2026. Trình tự thẩm quyền ba bước tại [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]] mục 10.2, cơ sở ủy quyền tại mục 10.2a; điều khoản cho phép là `[Luật Doanh nghiệp 67/VBHN-VPQH Đ.162 k.3 đ.i]`, cho `TGĐ` quyền và nghĩa vụ khác theo nghị quyết, quyết định của `HĐQT`. Không phải chờ kỳ họp nào.
-- Nghĩa vụ này còn phát sinh từ hai điều nữa. `[Thông tư 99/2025/TT-BTC Đ.11 k.2]` với tài khoản kế toán và `[Đ.12 k.2]` với biểu mẫu sổ kế toán: nếu sửa so với Phụ lục II hoặc Phụ lục III thì cũng phải ban hành quy chế với đúng hai nội dung như trên. [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]] Điều 3 đóng cả hai điều bằng cách chốt oBacker **không sửa** hệ thống tài khoản và **không sửa** biểu mẫu sổ; `KTT` xác nhận lựa chọn đó theo [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]] Điều 3.
+- Biểu mẫu nào của bộ tài liệu này **trùng cấu trúc và trùng chữ ký theo chức danh với mẫu của Phụ lục I** thì dùng được ngay, vì đó là dùng mẫu có sẵn. Thuộc nhóm này: `BM-K` bảng kê chi tiền theo mẫu số 09-TT, và hai mẫu 01-TT phiếu thu, 02-TT phiếu chi mà OBK-QCTC-03 Điều 4 chốt là áp nguyên bản.
+- Biểu mẫu nào oBacker **tự thiết kế hoặc gộp lại** thì có căn cứ **từ ngày ghi trên nghị quyết ban hành** OBK-QCTC-03, không phải từ ngày dự thảo được viết. Sáu biểu mẫu thuộc nhóm này nằm ở Điều 5 của OBK-QCTC-03, gồm `BM-01`, `BM-02`, `BM-03`, `BM-04`, `BM-06` và `BM-G`.
+- **Việc còn lại là một chữ ký.** `TGĐ` ký ban hành OBK-QCTC-03 theo ủy quyền đã có của `HĐQT`, việc ký hoàn tất ngày 07/09/2026. Trình tự thẩm quyền ba bước tại OBK-QCTC-03 mục 10.2, cơ sở ủy quyền tại mục 10.2a; điều khoản cho phép là `[Luật Doanh nghiệp 67/VBHN-VPQH Đ.162 k.3 đ.i]`, cho `TGĐ` quyền và nghĩa vụ khác theo nghị quyết, quyết định của `HĐQT`. Không phải chờ kỳ họp nào.
+- Nghĩa vụ này còn phát sinh từ hai điều nữa. `[Thông tư 99/2025/TT-BTC Đ.11 k.2]` với tài khoản kế toán và `[Đ.12 k.2]` với biểu mẫu sổ kế toán: nếu sửa so với Phụ lục II hoặc Phụ lục III thì cũng phải ban hành quy chế với đúng hai nội dung như trên. OBK-QCTC-03 Điều 3 đóng cả hai điều bằng cách chốt oBacker **không sửa** hệ thống tài khoản và **không sửa** biểu mẫu sổ. `KTT` xác nhận lựa chọn đó theo OBK-QCTC-03 Điều 3.
 
 > [!note] CHỖ DỄ HIỂU SAI
 > DỰ THẢO KHÔNG PHẢI CĂN CỨ
-> `[Thông tư 99/2025/TT-BTC Đ.9 k.2]` đòi doanh nghiệp **ban hành** quy chế, không đòi doanh nghiệp soạn quy chế. Một dự thảo chưa ai ký thì khi bị hỏi vẫn không có gì để xuất trình. Cho tới ngày [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]] được ký, khoản thuộc phạm vi `BM-G` đi Luồng B đầy đủ theo [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]] mục 6.5a.
+> `[Thông tư 99/2025/TT-BTC Đ.9 k.2]` đòi doanh nghiệp **ban hành** quy chế, không đòi doanh nghiệp soạn quy chế. Một dự thảo chưa ai ký thì khi bị hỏi vẫn không có gì để xuất trình. Cho tới ngày OBK-QCTC-03 được ký, khoản thuộc phạm vi `BM-G` đi Luồng B đầy đủ theo OBK-SOP-NB-01 mục 5.5a.
 
 42.6. **Phân cấp ký trên chứng từ.** `[Thông tư 99/2025/TT-BTC Đ.10 k.3]` buộc việc phân cấp ký phải phù hợp quy định pháp luật, yêu cầu quản lý và **quy chế quản trị nội bộ**, để xác định được trách nhiệm của cá nhân có liên quan. Ma trận tại mục 12.3 của quy chế này là bản phân cấp đó.
 
 42.7. **Cấm ký "thừa ủy quyền" chức danh của người quản lý, điều hành; và việc chi tiền cần tối thiểu hai người.** `[Thông tư 99/2025/TT-BTC Đ.10 k.4]` cấm kế toán trưởng hoặc người được kế toán trưởng ủy quyền ký "thừa ủy quyền" chức danh của người quản lý, điều hành của doanh nghiệp trên chứng từ kế toán, trừ trường hợp pháp luật có quy định khác.
 
 > [!note] VIỆC CHI TIỀN CẦN TỐI THIỂU HAI NGƯỜI, VÀ CĂN CỨ CHÍNH LÀ `Đ.13 k.7`, KHÔNG PHẢI `Đ.10 k.4`
-> Cộng ba điều, xếp theo mức quan trọng: `[Luật Kế toán 41/VBHN-VPQH Đ.13 k.7]` cấm người quản lý, điều hành kiêm làm kế toán, đây là điều cấm tuyệt đối và là căn cứ chính; `[Luật Kế toán 41/VBHN-VPQH Đ.19 k.3]` đòi hai chữ ký trên chứng từ chi tiền, gồm người duyệt chi và người phụ trách kế toán; `Đ.10 k.4` của Thông tư 99/2025 là căn cứ thứ ba và HẸP hơn hai điều kia, vì căn cứ thứ ba chỉ cấm ký "thừa ủy quyền" vào phần chữ ký của chức danh người quản lý, kèm mệnh đề "trừ trường hợp pháp luật có quy định khác". Lượt phản biện ngày 07/09/2026 phát hiện bản trước đọc `Đ.10 k.4` cứng hơn nguyên văn và đặt toàn bộ lập luận lên đó; kết luận hai người không đổi, nhưng phải dẫn đúng căn cứ chính. Xem [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]] mục 8.2. Kết quả là dù oBacker còn hai người thì hai người đó vẫn phải chia thành một người duyệt chi và một người phụ trách kế toán. Không nới được bằng quy chế nội bộ, và không gộp được bằng ủy quyền.
+> Cộng ba điều, xếp theo mức quan trọng: `[Luật Kế toán 41/VBHN-VPQH Đ.13 k.7]` cấm người quản lý, điều hành kiêm làm kế toán, đây là điều cấm tuyệt đối và là căn cứ chính; `[Luật Kế toán 41/VBHN-VPQH Đ.19 k.3]` đòi hai chữ ký trên chứng từ chi tiền, gồm người duyệt chi và người phụ trách kế toán; `Đ.10 k.4` của Thông tư 99/2025 là căn cứ thứ ba và HẸP hơn hai điều kia, vì căn cứ thứ ba chỉ cấm ký "thừa ủy quyền" vào phần chữ ký của chức danh người quản lý, kèm mệnh đề "trừ trường hợp pháp luật có quy định khác". Lượt phản biện ngày 07/09/2026 phát hiện bản trước đọc `Đ.10 k.4` cứng hơn nguyên văn và đặt toàn bộ lập luận lên đó; kết luận hai người không đổi, nhưng phải dẫn đúng căn cứ chính. Xem OBK-QCTC-03 mục 8.2. Kết quả là dù oBacker còn hai người thì hai người đó vẫn phải chia thành một người duyệt chi và một người phụ trách kế toán. Không nới được bằng quy chế nội bộ, và không gộp được bằng ủy quyền.
 
 ### Điều 43. Sổ kế toán và báo cáo tài chính
 
-43.1. Sổ kế toán mở vào đầu kỳ kế toán năm `[Luật Kế toán 41/VBHN-VPQH Đ.26 k.1]`; ghi trên cơ sở chứng từ kế toán `[k.2]`; ghi theo trình tự thời gian phát sinh và ghi liên tục từ khi mở sổ đến khi khóa sổ `[k.4]`; khóa sổ vào cuối kỳ kế toán trước khi lập báo cáo tài chính `[k.6]`.
+43.1. Sổ kế toán mở vào đầu kỳ kế toán năm `[Luật Kế toán 41/VBHN-VPQH Đ.26 k.1]`; ghi trên cơ sở chứng từ kế toán `[k.2]`; ghi theo trình tự thời gian phát sinh và ghi liên tục từ khi mở sổ đến khi khóa sổ `[k.4]`. Khóa sổ vào cuối kỳ kế toán trước khi lập báo cáo tài chính `[k.6]`.
 
 43.2. oBacker chỉ sử dụng **một hệ thống sổ kế toán** cho một kỳ kế toán năm `[Luật Kế toán 41/VBHN-VPQH Đ.25 k.2]`.
 
-43.3. **Ghi sổ bằng phương tiện điện tử.** oBacker ghi sổ kế toán bằng phương tiện điện tử. Sau khi khóa sổ phải in sổ kế toán ra giấy và đóng thành quyển riêng cho từng kỳ kế toán năm để đưa vào lưu trữ; nếu không in ra giấy mà lưu trữ trên phương tiện điện tử thì **phải bảo đảm an toàn, bảo mật thông tin dữ liệu và phải bảo đảm tra cứu được trong thời hạn lưu trữ** `[Luật Kế toán 41/VBHN-VPQH Đ.26 k.7]`.
+43.3. **Ghi sổ bằng phương tiện điện tử.** oBacker ghi sổ kế toán bằng phương tiện điện tử. Sau khi khóa sổ phải in sổ kế toán ra giấy và đóng thành quyển riêng cho từng kỳ kế toán năm để đưa vào lưu trữ. Nếu không in ra giấy mà lưu trữ trên phương tiện điện tử thì **phải bảo đảm an toàn, bảo mật thông tin dữ liệu và phải bảo đảm tra cứu được trong thời hạn lưu trữ** `[Luật Kế toán 41/VBHN-VPQH Đ.26 k.7]`.
 
 > **oBacker chọn LƯU TRỮ ĐIỆN TỬ, không in sổ ra giấy.**
 >
@@ -1502,12 +1409,12 @@ Ba lớp, mỗi lớp một chứng từ khác nhau:
 >
 > **Nhánh thay thế:** nếu thuộc diện bắt buộc kiểm toán thì bước 2 trở thành bắt buộc, ĐHĐCĐ phải phê duyệt danh sách công ty kiểm toán độc lập `[Điều lệ Đ.24 k.2 đ.m]`, và lịch ngược tại điểm vướng thứ nhất dưới đây phải cộng thêm thời gian kiểm toán, thường ít nhất 30 ngày.
 
-> [!note] HAI ĐIỂM VƯỚNG CỦA TRÌNH TỰ TRÊN
+> [!note] KIỂM SOÁT THỜI GIAN VÀ THẨM QUYỀN TRÌNH DUYỆT BÁO CÁO TÀI CHÍNH
 > PHẢI XỬ LÝ
 >
-> **Một, thời hạn nộp 90 ngày có thể đến trước khi ĐHĐCĐ họp.** Luật Kế toán buộc nộp báo cáo tài chính năm trong 90 ngày kể từ ngày kết thúc kỳ kế toán năm, tức chậm nhất khoảng 31/03. Điều lệ thì đặt việc ĐHĐCĐ thông qua báo cáo tài chính ở cuộc họp thường niên, và Điều 42 khoản 1 Điều lệ nói gửi báo cáo "đã được ĐHĐCĐ thông qua". Nếu họp thường niên diễn ra sau 31/03 thì hai yêu cầu này lệch nhau. Cách xử lý: nộp đúng hạn 90 ngày theo Luật Kế toán, và tổ chức họp ĐHĐCĐ thường niên trước ngày 31/03 để bộ báo cáo nộp đi là bộ đã được thông qua. KTT lập lịch ngược từ mốc 31/03, trừ đi 10 ngày lưu tại trụ sở theo Điều 40 khoản 4 Điều lệ và 30 ngày gửi Ban kiểm soát thẩm định theo Điều 40 khoản 3 Điều lệ.
+> **Thời hạn nộp 90 ngày có thể đến trước khi ĐHĐCĐ họp.** Luật Kế toán buộc nộp báo cáo tài chính năm trong 90 ngày kể từ ngày kết thúc kỳ kế toán năm, tức chậm nhất khoảng 31/03. Điều lệ thì đặt việc ĐHĐCĐ thông qua báo cáo tài chính ở cuộc họp thường niên, và Điều 42 khoản 1 Điều lệ nói gửi báo cáo "đã được ĐHĐCĐ thông qua". Nếu họp thường niên diễn ra sau 31/03 thì hai yêu cầu này lệch nhau. Cách xử lý: nộp đúng hạn 90 ngày theo Luật Kế toán, và tổ chức họp ĐHĐCĐ thường niên trước ngày 31/03 để bộ báo cáo nộp đi là bộ đã được thông qua. KTT lập lịch ngược từ mốc 31/03, trừ đi 10 ngày lưu tại trụ sở theo Điều 40 khoản 4 Điều lệ và 30 ngày gửi Ban kiểm soát thẩm định theo Điều 40 khoản 3 Điều lệ.
 >
-> **Hai, Điều lệ yêu cầu Báo cáo thẩm định của Ban kiểm soát nhưng oBacker chưa phải lập Ban kiểm soát.** Điều 41 Điều lệ chỉ buộc lập Ban kiểm soát khi công ty có trên 11 cổ đông **và** cổ đông là tổ chức sở hữu trên 50% tổng số cổ phần. Theo Điều 6 khoản 2 Điều lệ, oBacker có 04 cổ đông sáng lập và đều là cá nhân, nên chưa thuộc trường hợp phải lập. Nhưng Điều 40 khoản 1 điểm d Điều lệ lại liệt kê "Báo cáo thẩm định của Ban kiểm soát" trong bộ báo cáo bắt buộc trình ĐHĐCĐ, và Điều 40 khoản 3 buộc gửi báo cáo cho Ban kiểm soát thẩm định chậm nhất 30 ngày trước ngày khai mạc họp. Đây là một chỗ không nhất quán trong chính Điều lệ.
+> **Điều lệ yêu cầu Báo cáo thẩm định của Ban kiểm soát nhưng oBacker chưa phải lập Ban kiểm soát.** Điều 41 Điều lệ chỉ buộc lập Ban kiểm soát khi công ty có trên 11 cổ đông **và** cổ đông là tổ chức sở hữu trên 50% tổng số cổ phần. Theo Điều 6 khoản 2 Điều lệ, oBacker có 04 cổ đông sáng lập và đều là cá nhân, nên chưa thuộc trường hợp phải lập. Nhưng Điều 40 khoản 1 điểm d Điều lệ lại liệt kê "Báo cáo thẩm định của Ban kiểm soát" trong bộ báo cáo bắt buộc trình ĐHĐCĐ, và Điều 40 khoản 3 buộc gửi báo cáo cho Ban kiểm soát thẩm định chậm nhất 30 ngày trước ngày khai mạc họp. Đây là một chỗ không nhất quán trong chính Điều lệ.
 
 > [!note] BAN KIỂM SOÁT
 > OBacker chưa phải lập Ban kiểm soát, bộ báo cáo trình ĐHĐCĐ không có mục d, và việc chưa lập Ban kiểm soát được ghi vào biên bản
@@ -1535,13 +1442,13 @@ Ba lớp, mỗi lớp một chứng từ khác nhau:
 
 ### Điều 44. Kiểm kê
 
-44.1. oBacker phải kiểm kê tài sản trong các trường hợp `[Luật Kế toán 41/VBHN-VPQH Đ.40 k.2]`: cuối kỳ kế toán năm; khi bị chia, tách, hợp nhất, sáp nhập, giải thể, chấm dứt hoạt động, phá sản hoặc bán, cho thuê; khi được chuyển đổi loại hình hoặc hình thức sở hữu; khi xảy ra hỏa hoạn, lũ lụt và các thiệt hại bất thường khác; khi đánh giá lại tài sản theo quyết định của cơ quan nhà nước có thẩm quyền; và các trường hợp khác theo quy định của pháp luật.
+44.1. oBacker phải kiểm kê tài sản trong các trường hợp `[Luật Kế toán 41/VBHN-VPQH Đ.40 k.2]`: cuối kỳ kế toán năm; khi bị chia, tách, hợp nhất, sáp nhập, giải thể, chấm dứt hoạt động, phá sản hoặc bán, cho thuê. Khi được chuyển đổi loại hình hoặc hình thức sở hữu; khi xảy ra hỏa hoạn, lũ lụt và các thiệt hại bất thường khác; khi đánh giá lại tài sản theo quyết định của cơ quan nhà nước có thẩm quyền; và các trường hợp khác theo quy định của pháp luật.
 
 44.2. Sau khi kiểm kê phải lập báo cáo tổng hợp kết quả kiểm kê. Trường hợp có chênh lệch giữa số liệu thực tế kiểm kê và số liệu trên sổ kế toán, oBacker phải xác định nguyên nhân và phản ánh số chênh lệch cùng kết quả xử lý vào sổ kế toán **trước khi lập báo cáo tài chính** `[Luật Kế toán 41/VBHN-VPQH Đ.40 k.3]`.
 
 44.3. Người lập và ký báo cáo tổng hợp kết quả kiểm kê chịu trách nhiệm về kết quả kiểm kê `[Luật Kế toán 41/VBHN-VPQH Đ.40 k.4]`.
 
-44.4. Phạm vi kiểm kê cuối năm tại oBacker gồm: tiền mặt tại quỹ hai văn phòng; số dư toàn bộ tài khoản ngân hàng đối chiếu sao kê; tài sản cố định và công cụ, dụng cụ đang theo dõi; công nợ phải thu và phải trả có xác nhận của đối tác đối với số dư từ 20.000.000 đồng trở lên, ngưỡng này là ngưỡng riêng của việc kiểm kê và không đi theo ĐM-19 hay ĐM-20; các khoản tạm ứng chưa tất toán.
+44.4. Phạm vi kiểm kê cuối năm tại oBacker gồm: tiền mặt tại quỹ hai văn phòng; số dư toàn bộ tài khoản ngân hàng đối chiếu sao kê; tài sản cố định và công cụ, dụng cụ đang theo dõi. Công nợ phải thu và phải trả có xác nhận của đối tác đối với số dư từ 20.000.000 đồng trở lên, ngưỡng này là ngưỡng riêng của việc kiểm kê và không đi theo ĐM-19 hay ĐM-20; các khoản tạm ứng chưa tất toán.
 
 44.5. Hội đồng kiểm kê gồm tối thiểu ba người: một đại diện được TGĐ chỉ định, KTT, và người quản lý tài sản hoặc người giữ quỹ của phạm vi được kiểm. Người giữ tài sản không được là người duy nhất kiểm tài sản mình giữ.
 
@@ -1559,25 +1466,25 @@ Ba lớp, mỗi lớp một chứng từ khác nhau:
 | Ít nhất **10 năm** | Chứng từ kế toán sử dụng trực tiếp để ghi sổ kế toán và lập báo cáo tài chính, sổ kế toán và báo cáo tài chính năm, trừ trường hợp pháp luật có quy định khác |
 | **Vĩnh viễn** | Tài liệu kế toán có tính sử liệu, có ý nghĩa quan trọng về kinh tế, an ninh, quốc phòng |
 
-> [!note] DANH MỤC CHI TIẾT, NƠI LƯU TRỮ, THỜI ĐIỂM TÍNH VÀ THỦ TỤC TIÊU HỦY ĐÃ TRA ĐƯỢC
+> [!note] CĂN CỨ PHÁP LÝ VỀ LƯU TRỮ TÀI LIỆU KẾ TOÁN
 >
-> Luật Kế toán giao Chính phủ quy định cụ thể từng loại tài liệu kế toán phải lưu trữ, thời hạn lưu trữ, thời điểm tính thời hạn lưu trữ, nơi lưu trữ và thủ tục tiêu hủy `[Luật Kế toán 41/VBHN-VPQH Đ.41 k.6]`. Nghị định đó là `[[Nghị định 174-2016-NĐ-CP quy định chi tiết một số điều của Luật Kế toán\|VB-085]]`. Bốn mục dưới đây thay thế ba mốc tại mục 45.3 bằng danh mục chi tiết theo đúng nghị định này.
+> Luật Kế toán giao Chính phủ quy định cụ thể từng loại tài liệu kế toán phải lưu trữ, thời hạn lưu trữ, thời điểm tính thời hạn lưu trữ, nơi lưu trữ và thủ tục tiêu hủy `[Luật Kế toán 41/VBHN-VPQH Đ.41 k.6]`. Nghị định đó là Nghị định 174/2016/NĐ-CP. Bốn mục dưới đây thay thế ba mốc tại mục 45.3 bằng danh mục chi tiết theo đúng nghị định này.
 
-45.3a. **Danh mục tài liệu kế toán theo từng mốc thời hạn**, `[[Nghị định 174-2016-NĐ-CP quy định chi tiết một số điều của Luật Kế toán\|VB-085]]` Đ.12, Đ.13, Đ.14:
+45.3a. **Danh mục tài liệu kế toán theo từng mốc thời hạn**, Nghị định 174/2016/NĐ-CP Đ.12, Đ.13, Đ.14:
 
 | Mốc | Loại tài liệu | Căn cứ |
 | --- | --- | --- |
-| Ít nhất **05 năm** | Chứng từ kế toán không sử dụng trực tiếp để ghi sổ kế toán và lập báo cáo tài chính (phiếu thu, phiếu chi, phiếu nhập kho, phiếu xuất kho không lưu trong tập tài liệu kế toán của bộ phận kế toán); tài liệu dùng cho quản lý, điều hành không trực tiếp ghi sổ và lập báo cáo tài chính | [[CC-KT-81 Tài liệu kế toán phải lưu trữ tối thiểu 05 năm\|CC-KT-81]] |
-| Ít nhất **10 năm** | Chứng từ kế toán sử dụng trực tiếp để ghi sổ kế toán và lập báo cáo tài chính; các bảng kê, bảng tổng hợp chi tiết; sổ kế toán chi tiết, sổ kế toán tổng hợp; báo cáo tài chính tháng, quý, năm; báo cáo quyết toán; báo cáo tự kiểm tra kế toán; biên bản tiêu hủy tài liệu kế toán lưu trữ; tài liệu liên quan đến thanh lý, nhượng bán tài sản cố định; báo cáo kết quả kiểm kê và đánh giá tài sản; hồ sơ kiểm toán, thanh tra, kiểm tra, giám sát của cơ quan có thẩm quyền; các tài liệu khác không thuộc nhóm 05 năm hay vĩnh viễn | [[CC-KT-82 Tài liệu kế toán phải lưu trữ tối thiểu 10 năm\|CC-KT-82]] |
-| **Vĩnh viễn** | Tài liệu kế toán có tính sử liệu, có ý nghĩa quan trọng về kinh tế, an ninh, quốc phòng; việc xác định loại tài liệu nào thuộc nhóm này do NĐDPL quyết định cho từng trường hợp cụ thể | [[CC-KT-83 Tài liệu kế toán phải lưu trữ vĩnh viễn\|CC-KT-83]] |
+| Ít nhất **05 năm** | Chứng từ kế toán không sử dụng trực tiếp để ghi sổ kế toán và lập báo cáo tài chính (phiếu thu, phiếu chi, phiếu nhập kho, phiếu xuất kho không lưu trong tập tài liệu kế toán của bộ phận kế toán); tài liệu dùng cho quản lý, điều hành không trực tiếp ghi sổ và lập báo cáo tài chính | CC-KT-81 |
+| Ít nhất **10 năm** | Chứng từ kế toán sử dụng trực tiếp để ghi sổ kế toán và lập báo cáo tài chính; các bảng kê, bảng tổng hợp chi tiết; sổ kế toán chi tiết, sổ kế toán tổng hợp; báo cáo tài chính tháng, quý, năm; báo cáo quyết toán; báo cáo tự kiểm tra kế toán; biên bản tiêu hủy tài liệu kế toán lưu trữ; tài liệu liên quan đến thanh lý, nhượng bán tài sản cố định; báo cáo kết quả kiểm kê và đánh giá tài sản; hồ sơ kiểm toán, thanh tra, kiểm tra, giám sát của cơ quan có thẩm quyền; các tài liệu khác không thuộc nhóm 05 năm hay vĩnh viễn | CC-KT-82 |
+| **Vĩnh viễn** | Tài liệu kế toán có tính sử liệu, có ý nghĩa quan trọng về kinh tế, an ninh, quốc phòng; việc xác định loại tài liệu nào thuộc nhóm này do NĐDPL quyết định cho từng trường hợp cụ thể | CC-KT-83 |
 
-Áp dụng vào hồ sơ chi tiêu và mua sắm nội bộ: hóa đơn, ủy nhiệm chi, chứng từ khấu trừ thuế, hợp đồng làm căn cứ ghi sổ, sổ kế toán và báo cáo tài chính năm thuộc nhóm **10 năm**; báo giá, biên bản so sánh, phiếu xác minh nhà cung cấp không trực tiếp ghi sổ thuộc nhóm **05 năm**.
+Áp dụng vào hồ sơ chi tiêu và mua sắm nội bộ: hóa đơn, ủy nhiệm chi, chứng từ khấu trừ thuế, hợp đồng làm căn cứ ghi sổ, sổ kế toán và báo cáo tài chính năm thuộc nhóm **10 năm**. Báo giá, biên bản so sánh, phiếu xác minh nhà cung cấp không trực tiếp ghi sổ thuộc nhóm **05 năm**.
 
-45.3b. **Nơi lưu trữ**: tài liệu kế toán lưu trữ tại kho của oBacker, có đầy đủ thiết bị bảo quản; nếu không tổ chức bộ phận hoặc kho lưu trữ tại đơn vị thì được thuê tổ chức, cơ quan lưu trữ theo hợp đồng lưu trữ `[[Nghị định 174-2016-NĐ-CP quy định chi tiết một số điều của Luật Kế toán\|VB-085]]` Đ.11 k.1, xem [[CC-KT-80 Nơi lưu trữ tài liệu kế toán|CC-KT-80]].
+45.3b. **Nơi lưu trữ**: tài liệu kế toán lưu trữ tại kho của oBacker, có đầy đủ thiết bị bảo quản; nếu không tổ chức bộ phận hoặc kho lưu trữ tại đơn vị thì được thuê tổ chức, cơ quan lưu trữ theo hợp đồng lưu trữ Nghị định 174/2016/NĐ-CP Đ.11 k.1.
 
-45.3c. **Thời điểm tính thời hạn lưu trữ**: tính từ ngày kết thúc kỳ kế toán năm đối với tài liệu tại mục 45.3a nhóm 05 năm và nhóm vĩnh viễn, và với tài liệu nhóm 10 năm trừ tài liệu quyết toán dự án hoàn thành (tính từ ngày báo cáo quyết toán dự án được duyệt); tài liệu liên quan thành lập, chia, tách, hợp nhất, sáp nhập, chuyển đổi hình thức sở hữu tính từ ngày phát sinh sự kiện đó; tài liệu liên quan giải thể, phá sản, chấm dứt hoạt động tính từ ngày hoàn thành thủ tục; tài liệu hồ sơ kiểm toán, thanh tra, kiểm tra tính từ ngày có báo cáo kiểm toán hoặc kết luận thanh tra, kiểm tra `[[Nghị định 174-2016-NĐ-CP quy định chi tiết một số điều của Luật Kế toán\|VB-085]]` Đ.15, xem [[CC-KT-84 Thời điểm tính thời hạn lưu trữ tài liệu kế toán|CC-KT-84]].
+45.3c. **Thời điểm tính thời hạn lưu trữ**: tính từ ngày kết thúc kỳ kế toán năm đối với tài liệu tại mục 45.3a nhóm 05 năm và nhóm vĩnh viễn, và với tài liệu nhóm 10 năm trừ tài liệu quyết toán dự án hoàn thành (tính từ ngày báo cáo quyết toán dự án được duyệt); tài liệu liên quan thành lập, chia, tách, hợp nhất, sáp nhập, chuyển đổi hình thức sở hữu tính từ ngày phát sinh sự kiện đó; tài liệu liên quan giải thể, phá sản, chấm dứt hoạt động tính từ ngày hoàn thành thủ tục; tài liệu hồ sơ kiểm toán, thanh tra, kiểm tra tính từ ngày có báo cáo kiểm toán hoặc kết luận thanh tra, kiểm tra Nghị định 174/2016/NĐ-CP Đ.15.
 
-45.4. **Tiêu hủy tài liệu kế toán hết thời hạn lưu trữ.** Tài liệu đã hết thời hạn lưu trữ theo mục 45.3a, nếu không có chỉ định khác của cơ quan nhà nước có thẩm quyền, được tiêu hủy theo quyết định của NĐDPL `[[Nghị định 174-2016-NĐ-CP quy định chi tiết một số điều của Luật Kế toán\|VB-085]]` Đ.16, xem [[CC-KT-85 Tiêu hủy tài liệu kế toán hết thời hạn lưu trữ|CC-KT-85]]. Thủ tục gồm ba bước `[[Nghị định 174-2016-NĐ-CP quy định chi tiết một số điều của Luật Kế toán\|VB-085]]` Đ.17, xem [[CC-KT-86 Thủ tục tiêu hủy tài liệu kế toán, Hội đồng tiêu hủy|CC-KT-86]]:
+45.4. **Tiêu hủy tài liệu kế toán hết thời hạn lưu trữ.** Tài liệu đã hết thời hạn lưu trữ theo mục 45.3a, nếu không có chỉ định khác của cơ quan nhà nước có thẩm quyền, được tiêu hủy theo quyết định của NĐDPL Nghị định 174/2016/NĐ-CP Đ.16. Thủ tục gồm ba bước, Nghị định 174/2016/NĐ-CP Đ.17:
 
 1. NĐDPL quyết định thành lập Hội đồng tiêu hủy tài liệu kế toán hết thời hạn lưu trữ, gồm lãnh đạo đơn vị kế toán, KTT, đại diện bộ phận lưu trữ và thành phần khác do NĐDPL chỉ định.
 2. Hội đồng kiểm kê, đánh giá, phân loại tài liệu theo từng loại, lập Danh mục tài liệu kế toán tiêu hủy và Biên bản tiêu hủy tài liệu kế toán hết thời hạn lưu trữ.
@@ -1585,7 +1492,7 @@ Ba lớp, mỗi lớp một chứng từ khác nhau:
 
 45.5. Cấu trúc lưu trữ: mỗi kỳ kế toán năm một bộ hồ sơ, chia theo nhóm chứng từ, có mục lục. Bản điện tử lưu song song với bản giấy nếu có. KTV chịu trách nhiệm lập mục lục trong 12 tháng theo mục 45.1.
 
-45.6. **Tài liệu công ty phải lưu giữ theo Điều lệ**, rộng hơn nhóm tài liệu kế toán, gồm bảy nhóm `[Điều lệ Đ.43 k.1]`: Điều lệ công ty, quy chế quản lý nội bộ, sổ đăng ký cổ đông; văn bằng bảo hộ quyền sở hữu công nghiệp, giấy chứng nhận đăng ký chất lượng, các giấy phép và giấy chứng nhận khác; tài liệu, giấy tờ xác nhận quyền sở hữu tài sản của công ty; phiếu biểu quyết, biên bản kiểm phiếu, biên bản họp ĐHĐCĐ và HĐQT, các quyết định của doanh nghiệp; bản cáo bạch để chào bán hoặc phát hành chứng khoán; báo cáo của Ban kiểm soát, kết luận của cơ quan thanh tra, kết luận của tổ chức kiểm toán; sổ kế toán, chứng từ kế toán, báo cáo tài chính hằng năm.
+45.6. **Tài liệu công ty phải lưu giữ theo Điều lệ**, rộng hơn nhóm tài liệu kế toán, gồm bảy nhóm `[Điều lệ Đ.43 k.1]`: Điều lệ công ty, quy chế quản lý nội bộ, sổ đăng ký cổ đông. Văn bằng bảo hộ quyền sở hữu công nghiệp, giấy chứng nhận đăng ký chất lượng, các giấy phép và giấy chứng nhận khác; tài liệu, giấy tờ xác nhận quyền sở hữu tài sản của công ty. Phiếu biểu quyết, biên bản kiểm phiếu, biên bản họp ĐHĐCĐ và HĐQT, các quyết định của doanh nghiệp; bản cáo bạch để chào bán hoặc phát hành chứng khoán; báo cáo của Ban kiểm soát, kết luận của cơ quan thanh tra, kết luận của tổ chức kiểm toán. Sổ kế toán, chứng từ kế toán, báo cáo tài chính hằng năm.
 
 45.7. Nơi lưu giữ là trụ sở chính hoặc địa điểm khác được quy định trong Điều lệ; thời hạn lưu giữ theo quy định của pháp luật `[Điều lệ Đ.43 k.2]`.
 
@@ -1647,23 +1554,17 @@ TGĐ KHÔNG có thẩm quyền quyết định phân phối lợi nhuận, chỉ
 
 46.4. **Ưu đãi chi cho nghiên cứu và phát triển, cần cân nhắc cùng lúc với 46.3.** Khoản chi phí phát sinh trong kỳ tính thuế liên quan đến hoạt động nghiên cứu và phát triển được tính vào chi phí được trừ **tối đa không quá 200%** tính trên chi phí thực tế cho hoạt động này `[Văn bản hợp nhất 19/VBHN-BTC Đ.9 k.1 đ.a1]`, với hai điều kiện: không bao gồm các khoản chi đã chi từ Quỹ phát triển khoa học và công nghệ `[dẫn Đ.10 k.3]`; và sau khi áp dụng mức chi bổ sung, **oBacker không bị lỗ** `[Văn bản hợp nhất 19/VBHN-BTC Đ.9 k.1 đ.a2]`. Việc xác định chi phí nghiên cứu và phát triển thực hiện theo pháp luật về khoa học công nghệ và đổi mới sáng tạo `[Văn bản hợp nhất 19/VBHN-BTC Đ.9 k.1 đ.a3]`.
 
-> [!note] ĐÂY LÀ KHOẢN ƯU ĐÃI LỚN NHẤT MÀ OBACKER CÓ THỂ ĐANG BỎ QUÊN
+> [!note] CHÍNH SÁCH ƯU ĐÃI THUẾ CHO CHI PHÍ NGHIÊN CỨU VÀ PHÁT TRIỂN
 > Mức 200% nghĩa là chi 1 đồng cho nghiên cứu và phát triển thì được trừ tối đa 2 đồng. oBacker đang xây dựng sản phẩm công nghệ, nên đây là khoản cần rà soát ngay, không đợi tới kỳ quyết toán.
 >
 > Hai điểm phải xử lý trước: một, khoản chi từ Quỹ khoa học công nghệ không được tính vào phần được nhân 200%, nên phải chọn giữa hai cơ chế cho từng khoản chi, không dùng cả hai cho cùng một khoản; hai, phạm vi cụ thể của "chi phí nghiên cứu và phát triển" cho mục đích khấu trừ thuế. Luật Khoa học, công nghệ và đổi mới sáng tạo 93/2025/QH15 có trong kho và định nghĩa "nghiên cứu ứng dụng" và "phát triển công nghệ" `[Luật KHCN&ĐMST 93/2025/QH15 Đ.3 k.7, k.8]`, nhưng chưa đối chiếu đầy đủ hai định nghĩa đó với phạm vi khoản chi được nhân 200% cho mục đích thuế.
 >
 > Mục 46.4 chưa dùng cho khách hàng cho tới khi TL-KT đối chiếu xong hai định nghĩa trên với phạm vi khoản chi được nhân 200% và kết luận khả năng áp dụng được lập bằng văn bản.
 
-46.5. **DANH MỤC QUỸ: ĐÂY LÀ CHỖ THIẾU CỦA ĐIỀU LỆ, KHÔNG PHẢI CHỖ THIẾU CỦA QUY CHẾ NÀY.**
+46.5. **Nguyên tắc trích lập các quỹ của công ty.**
 
-> [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
-> HAI ĐIỀU KHOẢN CỦA ĐIỀU LỆ ĐANG DẪN CHIẾU TỚI MỘT THỨ KHÔNG TỒN TẠI
->
-> Điều 21 khoản 2 điểm b Điều lệ đặt điều kiện trả cổ tức là "đã trích lập **các quỹ công ty** và bù đắp lỗ trước đó theo quy định của pháp luật và Điều lệ công ty". Điều 45 khoản 8 Điều lệ cho phép "trích **quỹ dự trữ** để bù" lỗ. Nhưng đã đọc toàn bộ 52 điều của Điều lệ: **không có điều khoản nào lập ra quỹ dự trữ hay bất kỳ quỹ nào, không nêu tỷ lệ trích, không nêu mức tối đa, không nêu mục đích sử dụng.**
->
-> Hai hệ quả thực tế. Một, điều kiện trả cổ tức tại Điều 21 khoản 2 điểm b không có nội dung để thực hiện, nên mọi lần trả cổ tức đều có thể bị đặt câu hỏi là chưa đủ điều kiện. Hai, phương án bù lỗ bằng quỹ dự trữ tại Điều 45 khoản 8 không dùng được.
->
-> **Quy chế này không tự lập quỹ.** Việc lập quỹ thuộc vốn chủ sở hữu và ấn định tỷ lệ trích thuộc thẩm quyền ĐHĐCĐ hoặc thuộc phần sửa Điều lệ, không thuộc thẩm quyền của một quy chế do TGĐ hoặc HĐQT ban hành. Văn bản hợp nhất 67/VBHN-VPQH có trong kho; chưa tìm thấy điều khoản nào buộc công ty cổ phần phải trích một quỹ cụ thể ngoài quyết định của ĐHĐCĐ hoặc Điều lệ. Đây là bằng chứng âm tính, chưa đối chiếu bản gốc theo hướng tra cứu hết toàn văn.
+> [!warning] NGUYÊN TẮC THẨM QUYỀN THÀNH LẬP VÀ TRÍCH LẬP QUỸ
+> Việc thành lập các quỹ thuộc vốn chủ sở hữu, quy định tỷ lệ trích lập và mục đích sử dụng quỹ thuộc thẩm quyền của ĐHĐCĐ hoặc quy định cụ thể tại Điều lệ công ty `[Luật Doanh nghiệp 67/VBHN-VPQH Đ.138]`. Quy chế tài chính không tự đặt ra các quỹ khi chưa có nghị quyết của ĐHĐCĐ chấp thuận.
 >
 > **Hai phương án, oBacker áp dụng phương án 1 trước:**
 >
@@ -1747,14 +1648,11 @@ Mỗi lần đổi người ở `KTV`, `KTT` hoặc `AD-KT` thì kiểm lại ng
 | Thiệt hại **đặc biệt nghiêm trọng** | Từ 12 tháng Lương Bình Quân của người vi phạm trở lên |
 | Thời hiệu xử lý kỷ luật với hành vi liên quan trực tiếp đến **tài chính, tài sản** | 12 tháng kể từ ngày xảy ra hành vi, thay vì 06 tháng như hành vi khác |
 
-> [!note] HAI ĐIỀU NGƯỜI LÀM TÀI CHÍNH PHẢI NHỚ TỪ BẢNG TRÊN
+> [!note] LƯU Ý VỀ THỜI HIỆU VÀ XÁC ĐỊNH MỨC ĐỘ THIỆT HẠI
 >
-> **Một, thời hiệu 12 tháng là ngắn.** Hành vi vi phạm về tài chính chỉ có 12 tháng để xử lý kỷ luật. Nhiều gian lận chi tiêu chỉ lộ ra ở kỳ đối chiếu cuối năm hoặc khi thanh tra, tức có thể đã quá thời hiệu. Đây là lý do bảy điểm kiểm soát tại Điều 48 phải chạy đúng tần suất, đặc biệt chốt số 1 đối chiếu sao kê hằng tháng và chốt số 3 kiểm quỹ đột xuất. Phát hiện muộn là mất quyền xử lý.
+> **Thời hiệu 12 tháng là ngắn.** Hành vi vi phạm về tài chính chỉ có 12 tháng để xử lý kỷ luật. Nhiều gian lận chi tiêu chỉ lộ ra ở kỳ đối chiếu cuối năm hoặc khi thanh tra, tức có thể đã quá thời hiệu. Bảy điểm kiểm soát tại Điều 48 phải chạy đúng tần suất, đặc biệt chốt số 1 đối chiếu sao kê hằng tháng và chốt số 3 kiểm quỹ đột xuất, vì phát hiện muộn là mất quyền xử lý.
 >
-> **Hai, hai ngưỡng thiệt hại tính theo Lương Bình Quân của NGƯỜI VI PHẠM, không theo một con số tuyệt đối.** Cùng một số tiền thiệt hại sẽ rơi vào hai mức khác nhau tùy người vi phạm là ai. Khi KTT báo TGĐ theo mục 49.2, phải báo kèm số tiền thiệt hại và Lương Bình Quân của người vi phạm, để TGĐ xác định đúng mức.
-
-> [!question] CẦN XÁC MINH
-> Các mức và thời hiệu trong Nội quy lao động chưa được đối chiếu toàn bộ với Bộ luật Lao động. Tag chưa xác minh được cho toàn bộ phần chế tài lao động. Nếu Nội quy đặt mức trái luật thì luật thắng, không phải Nội quy thắng.
+> **Hai ngưỡng thiệt hại xác định theo Lương Bình Quân của NGƯỜI VI PHẠM, không theo một con số tuyệt đối.** Cùng một số tiền thiệt hại sẽ rơi vào hai mức khác nhau tùy người vi phạm là ai. Khi KTT báo TGĐ theo mục 49.2, báo kèm số tiền thiệt hại và Lương Bình Quân của người vi phạm để TGĐ xác định đúng mức.
 
 49.3. Người phát hiện vi phạm mà không báo cũng bị coi là vi phạm quy chế này. Người báo cáo trung thực được bảo vệ, không bị xử lý bất lợi vì việc báo cáo.
 
@@ -1800,7 +1698,7 @@ Mỗi lần đổi người ở `KTV`, `KTT` hoặc `AD-KT` thì kiểm lại ng
 > [!info] BỐN NGHĨA VỤ ĐỊNH KỲ SAU KHI BAN HÀNH
 > Bốn nghĩa vụ dưới đây phát sinh liên tục kể từ ngày quy chế có hiệu lực.
 >
-> 1. Rà ba điều cấm về nhân sự kế toán tại mục 41.6, mỗi 06 tháng và mỗi khi thay đổi nhân sự, theo chốt số 5 tại Điều 48. Ba điều cấm tại `[Luật Kế toán 41/VBHN-VPQH Đ.13 k.7, Đ.52 k.3, Đ.52 k.4]`. Lượt rà gần nhất ghi vào [[PL_Anh_xa_nhan_su|OBK-QCTC-02-PL-D]].
+> 1. Rà ba điều cấm về nhân sự kế toán tại mục 41.6, mỗi 06 tháng và mỗi khi thay đổi nhân sự, theo chốt số 5 tại Điều 48. Ba điều cấm tại `[Luật Kế toán 41/VBHN-VPQH Đ.13 k.7, Đ.52 k.3, Đ.52 k.4]`. Lượt rà gần nhất ghi vào OBK-QCTC-02-PL-D.
 > 2. Kiểm diện bắt buộc kiểm toán báo cáo tài chính, mỗi năm trước ngày 31/12.
 > 3. Kiểm điều kiện phải lập Ban kiểm soát, mỗi lần cơ cấu cổ đông thay đổi.
 > 4. Tính lại mốc 35% tổng giá trị tài sản, mỗi khi có báo cáo tài chính năm, theo mục 12.3a.
@@ -1825,7 +1723,7 @@ Mỗi lần đổi người ở `KTV`, `KTT` hoặc `AD-KT` thì kiểm lại ng
 
 50.2. Sửa đổi Bảng định mức tại Điều 21 do TGĐ quyết định bằng văn bản riêng, trừ các dòng ghi MỨC TỐI ĐA LUẬT ĐỊNH. Sửa đổi các điều khoản khác của quy chế này do người có thẩm quyền ban hành quyết định.
 
-50.3. **Mức tối đa luật định không được sửa bằng quyết định nội bộ.** Các dòng ĐM-10, ĐM-12, ĐM-13, ĐM-14, ĐM-15 chỉ thay đổi khi văn bản pháp luật thay đổi. Khi phát hiện văn bản mới, KTT rà soát theo Chương 21 của Handbook Kế toán và cập nhật quy chế này.
+50.3. **Mức tối đa luật định không được sửa bằng quyết định nội bộ.** Các dòng ĐM-10, ĐM-12, ĐM-15 ghi mức chính thức của oBacker thấp hơn hoặc bằng mức tối đa luật định; mức luật định chỉ thay đổi khi văn bản pháp luật thay đổi. Khi phát hiện văn bản mới, KTT rà soát theo Chương 21 của Handbook Kế toán và cập nhật quy chế này.
 
 50.4. Rà soát định kỳ: không quá 12 tháng kể từ ngày ban hành. Rà soát đột xuất trong bốn trường hợp: có văn bản pháp luật mới liên quan tới danh mục căn cứ tại Điều 7; **Điều lệ hoặc Nội quy lao động được sửa**, khi đó mở Phụ lục 3; **một giả thiết làm việc được xác minh và cho kết quả khác giả thiết**; hoặc **một văn bản còn thiếu được bổ sung vào kho**.
 
@@ -1840,54 +1738,6 @@ Mỗi lần đổi người ở `KTV`, `KTT` hoặc `AD-KT` thì kiểm lại ng
 
 Lập ngày 29/08/2026. Dùng khi Điều lệ hoặc Nội quy lao động được sửa: mở bảng này, tìm các mục của quy chế bị ảnh hưởng, sửa theo.
 
-## A. Điều khoản Điều lệ đã được dùng làm căn cứ
-
-| Điều lệ | Nội dung | Dùng tại mục nào của quy chế |
-| --- | --- | --- |
-| Đ.5 k.1, k.3 | Công ty có 01 người đại diện theo pháp luật, giữ chức danh Giám đốc | Đ.4 định nghĩa `NĐDPL`, Đ.41.2, Đ.43.7 |
-| Đ.6 k.1, k.2 | Vốn điều lệ và số cổ phần.<br>Thực hiện theo Giấy chứng nhận đăng ký doanh nghiệp và Điều lệ công ty có hiệu lực tại thời điểm áp dụng.<br>Phần áp dụng gồm thời hạn góp vốn và cơ cấu cổ đông sáng lập | Đ.8.1, Đ.8.2 |
-| Đ.7 k.1, k.3 đ.d, k.4 | Thanh toán cổ phần trong 90 ngày, điều chỉnh vốn nếu thiếu, trách nhiệm liên đới | Đ.8.2, Đ.8.2a |
-| Đ.21 k.2 | Ba điều kiện trả cổ tức cổ phần phổ thông | Đ.46.2 |
-| Đ.21 k.3, k.4, k.6 | Hình thức, thời hạn 06 tháng, thông báo 15 ngày, danh sách 30 ngày, trả bằng cổ phần | Đ.46.2a |
-| Đ.24 k.2 đ.b | ĐHĐCĐ quyết định mức cổ tức hằng năm | Đ.46.1 |
-| Đ.24 k.2 đ.d | ĐHĐCĐ quyết định đầu tư hoặc bán tài sản từ 35% tổng giá trị tài sản | Đ.8.1a, Đ.12.3 |
-| Đ.24 k.2 đ.e | ĐHĐCĐ thông qua báo cáo tài chính hằng năm | Đ.43.7a bước 5 |
-| Đ.24 k.2 đ.k | ĐHĐCĐ quyết định tổng mức thù lao, thưởng cho HĐQT, Ban kiểm soát | Đ.25.3 |
-| Đ.24 k.2 đ.l | ĐHĐCĐ phê duyệt quy chế quản trị nội bộ | Đ.50.1a |
-| Đ.24 k.2 đ.m | ĐHĐCĐ phê duyệt danh sách công ty kiểm toán độc lập | Đ.43.7a bước 2 |
-| Đ.25 k.1 | HĐQT có toàn quyền trừ việc thuộc ĐHĐCĐ | Đ.4 định nghĩa `HĐQT`, Đ.16.3 |
-| Đ.25 k.2 đ.c | HĐQT quyết định huy động thêm vốn theo hình thức khác | Đ.9.1 |
-| Đ.25 k.2 đ.h | HĐQT thông qua hợp đồng mua, bán, vay, cho vay từ 35% tổng giá trị tài sản | Đ.9.1, Đ.9.4, Đ.12.3 |
-| Đ.25 k.2 đ.i | HĐQT quyết định tiền lương, thù lao, thưởng của TGĐ và người quản lý | Đ.25.3 |
-| Đ.25 k.2 đ.l | HĐQT quyết định quy chế quản lý nội bộ | Đ.50.1a |
-| Đ.25 k.2 đ.o | HĐQT kiến nghị mức cổ tức, quyết định thời hạn và thủ tục trả | Đ.46.1 |
-| Đ.28 k.3 đ.a | TGĐ quyết định việc kinh doanh hằng ngày không thuộc thẩm quyền HĐQT | Đ.9.1, Đ.12.3 |
-| Đ.28 k.3 đ.d | TGĐ kiến nghị quy chế quản lý nội bộ | Đ.50.1a |
-| Đ.28 k.3 đ.e | TGĐ quyết định tiền lương và lợi ích khác đối với người lao động | Đ.25.2, Đ.25.3 |
-| Đ.28 k.3 đ.h | TGĐ kiến nghị phương án trả cổ tức hoặc xử lý lỗ | Đ.46.1 |
-| Đ.29 k.2, k.3 | Cơ chế thù lao HĐQT và lương TGĐ;<br>mục riêng trên báo cáo tài chính | Đ.25.3 |
-| Đ.40 | Trình báo cáo hằng năm, bốn báo cáo, mốc 30 ngày và 10 ngày, kiểm toán trước khi trình | Đ.43.7a |
-| Đ.41 | Điều kiện phải lập Ban kiểm soát | Đ.43.7a điểm vướng thứ hai |
-| Đ.42 k.1, k.2 | Gửi báo cáo tài chính đã được thông qua, công bố trên trang thông tin điện tử | Đ.43.7a bước 7 |
-| Đ.43 k.1, k.2 | Bảy nhóm tài liệu công ty phải lưu giữ, nơi lưu giữ | Đ.45.6, Đ.45.7 |
-| Đ.44 | Năm tài chính 01/01 tới 31/12 | Đ.6.2, Đ.50.1 |
-| Đ.45 k.1 tới k.6, k.8 | Phân phối lợi nhuận, tạm ứng cổ tức giữa kỳ, chốt danh sách, xử lý lỗ | Đ.46.1, Đ.46.2a, Đ.46.2b |
-
-## B. Điều khoản Nội quy lao động đã được dùng làm căn cứ
-
-| Điều khoản của Nội quy lao động | Nội dung | Dùng tại mục nào của quy chế |
-| --- | --- | --- |
-| Phần định nghĩa | Người Sử Dụng Lao Động đại diện bởi Tổng giám đốc hoặc người được ủy quyền | Cảnh báo mở đầu Vấn đề 2 |
-| Phần định nghĩa | Lương Bình Quân là bình quân 06 tháng liền kề trước thời điểm vi phạm | Đ.49.2a |
-| Chương IX, thẩm quyền | Người có thẩm quyền xử lý kỷ luật và quyết định mức bồi thường là Tổng giám đốc hoặc người có thẩm quyền giao kết hợp đồng lao động | Đ.49.2a |
-| Chương IX, ngưỡng thiệt hại | Nghiêm trọng từ 03 tháng Lương Bình Quân;<br>đặc biệt nghiêm trọng từ 12 tháng | Đ.49.2a |
-| Chương IX, thời hiệu | 12 tháng với hành vi liên quan trực tiếp đến tài chính, tài sản;<br>06 tháng với hành vi khác | Đ.49.2a |
-| Chương IX, trách nhiệm vật chất | Bồi thường nhiều nhất 03 tháng tiền lương;<br>khấu trừ hằng tháng không quá 30% tiền lương thực trả sau khi trích nộp bảo hiểm bắt buộc và thuế thu nhập cá nhân | Đ.12.5, Đ.38.2 |
-| Chương IX, miễn bồi thường | Không phải bồi thường khi thiệt hại do thiên tai, hỏa hoạn, địch họa, dịch bệnh nguy hiểm, thảm họa, sự kiện khách quan không thể lường trước và không thể khắc phục | Đ.12.5 |
-| Chương IX, căn cứ xác định mức | Căn cứ lỗi, mức độ thiệt hại thực tế, hoàn cảnh gia đình, nhân thân và tài sản của người lao động | Đ.12.5 |
-| Bảo vệ tài sản | Người được giao quản lý tài sản phải lập biên bản bàn giao, thu hồi, hướng dẫn sử dụng | Đ.12.6 |
-| Hành vi vi phạm | Khai không trung thực trong hồ sơ, báo cáo, đề nghị thanh toán, đề nghị tạm ứng | Đ.49.1 nhóm thứ tư |
-
 ## C. Các chỗ hai văn bản nền không khớp nhau hoặc tự mâu thuẫn
 
 | # | Chỗ không khớp | Ảnh hưởng | Xử lý ở đâu |
@@ -1900,7 +1750,7 @@ Lập ngày 29/08/2026. Dùng khi Điều lệ hoặc Nội quy lao động đư
 | 6 | Điều lệ Đ.41 viết "công ty có **trên từ** 11 cổ đông", là cụm lẫn giữa "trên 11" và "từ 11";<br>và dùng liên từ **và** giữa hai tiêu chí nên chỉ buộc lập Ban kiểm soát khi thỏa đồng thời cả hai | Với cơ cấu 04 cổ đông cá nhân hiện tại thì kết quả không đổi, nhưng câu văn tạo chỗ thiếu kiểm soát khi cơ cấu cổ đông thay đổi | Phải đối chiếu Luật Doanh nghiệp trước khi sửa |
 | 7 | Nội quy định nghĩa "thiệt hại nghiêm trọng từ 03 tháng Lương Bình Quân" và dùng làm căn cứ sa thải, mà không loại trừ trường hợp **do sơ suất** | Bộ luật Lao động xếp thiệt hại "không nghiêm trọng do sơ suất với giá trị không quá 10 tháng lương tối thiểu vùng" vào chế độ bồi thường ưu đãi tối đa 03 tháng tiền lương `[Bộ luật Lao động 18/VBHN-VPQH Đ.129 k.1]`.<br>Mười tháng lương tối thiểu vùng tại Vùng II là **47.300.000 đồng**, tại Vùng I là **53.100.000 đồng** `[Nghị định 293/2025/NĐ-CP Đ.3 k.1]`.<br>Nếu 03 tháng lương bình quân của một nhân sự thấp hơn con số đó, thì một thiệt hại do sơ suất bị Nội quy coi là "nghiêm trọng" và đủ căn cứ sa thải, trong khi luật vẫn xếp vào nhóm được ưu đãi | Đây là rủi ro của **Nội quy lao động**, không phải của quy chế này.<br>Đề xuất: bổ sung điều kiện lỗi cố ý hoặc lỗi nặng vào định nghĩa, và nâng ngưỡng giá trị lên không thấp hơn 10 tháng lương tối thiểu vùng nơi làm việc.<br>Cần luật sư lao động xác nhận |
 | 8 | Nội quy ghi "trích nộp các khoản **bảo hiểm xã hội bắt buộc**, bảo hiểm y tế, bảo hiểm thất nghiệp và thuế thu nhập cá nhân" | Khớp nguyên văn `[Bộ luật Lao động 18/VBHN-VPQH Đ.102 k.3]`, gồm cả chữ "bắt buộc".<br>Con số 30% và bốn khoản trừ trước khi tính đều ĐÚNG LUẬT | Không phải lỗi. Ghi để xác nhận đã đối chiếu |
-| 9 | Nội quy không quy định mức trợ cấp thôi việc hay trợ cấp mất việc làm | Mức luật định đã tra được: trợ cấp thôi việc **một nửa tháng tiền lương mỗi năm** làm việc `[Bộ luật Lao động 18/VBHN-VPQH Đ.46]`;<br>trợ cấp mất việc làm **01 tháng mỗi năm, ít nhất 02 tháng** `[Bộ luật Lao động 18/VBHN-VPQH Đ.47]`;<br>cả hai tính theo tiền lương bình quân 06 tháng liền kề theo hợp đồng lao động | Hệ quả: oBacker hiện chưa hưởng được ưu đãi tại `Nghị định 253/2026/NĐ-CP Đ.8 k.3 đ.h`.<br>Xem Điều 28.3 |
+| 9 | Nội quy không quy định mức trợ cấp thôi việc hay trợ cấp mất việc làm | Mức luật định: trợ cấp thôi việc **một nửa tháng tiền lương mỗi năm** làm việc `[Bộ luật Lao động 18/VBHN-VPQH Đ.46]`;<br>trợ cấp mất việc làm **01 tháng mỗi năm, ít nhất 02 tháng** `[Bộ luật Lao động 18/VBHN-VPQH Đ.47]`;<br>cả hai tính theo tiền lương bình quân 06 tháng liền kề theo hợp đồng lao động | Hệ quả: oBacker hiện chưa hưởng được ưu đãi tại `Nghị định 253/2026/NĐ-CP Đ.8 k.3 đ.h`.<br>Xem Điều 28.3 |
 
 ## D. Điều khoản Điều lệ dẫn chiếu Luật Doanh nghiệp, chưa đối chiếu nội dung cụ thể
 
@@ -1927,7 +1777,7 @@ Bảng này ghi các chỗ mà [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-0
 
 Ba quy tắc, cũng ghi tại mục 3.4:
 
-1. **Con số nào cũng chỉ ở một chỗ.** Hạn mức, mức tối đa, tần suất, thời hạn đặt tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]]. [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]] và `PL_BM` chỉ dẫn chiếu.
+1. **Con số nào cũng chỉ ở một chỗ.** Hạn mức, mức tối đa, tần suất, thời hạn đặt tại OBK-QCTC-01. OBK-SOP-NB-01 và `PL_BM` chỉ dẫn chiếu.
 2. **Quy trình mô tả cách làm, quy chế mô tả giới hạn.** Khi quy trình cần nhắc một giới hạn cho người vận hành đọc liền mạch thì phải kèm dẫn chiếu ngược lên điều tương ứng.
 3. Các hạn mức và con số quản trị do CEO quyết định bằng văn bản ban hành.
 
@@ -1935,28 +1785,28 @@ Ba quy tắc, cũng ghi tại mục 3.4:
 
 | Nội dung | Nơi ĐẶT quy định | Nơi DẪN CHIẾU, phải kiểm khi sửa |
 | --- | --- | --- |
-| Ma trận hạn mức phê duyệt, ba bậc B1 tới B3 | `QCTC-01 Đ.12.3` | `NB-01 mục 6.2.1`;<br>`NB-01 mục 6.2.2`;<br>`NB-01 mục 6.7.2` bước C2 |
-| Mốc 35% tổng giá trị tài sản, và cách tính | `QCTC-01 Đ.8.1a, Đ.8.1b, Đ.12.3` | `NB-01 mục 6.2.1` bậc B5 |
-| Giao dịch với người có liên quan | `QCTC-01 Điều 12a` | `NB-01 mục 6.2.2` trường hợp thứ năm;<br>`NB-01 mục 6.4.4` khai báo;<br>`PL_BM` BM-01 và BM-05 |
-| Danh mục biểu mẫu chứng từ oBacker tự thiết kế, và lý do từng cái | [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-QCTC-03]] Điều 5 và Điều 6 | `QCTC-01 Đ.42.5, Đ.42.5a`;<br>`NB-01 mục 6.5a.4`;<br>`PL_BM` mục CÁCH DÙNG, tiêu đề `BM-G`, và hai mục `BM-PT`, `BM-PC` |
-| mức chi tiền mặt tối đa | `QCTC-01 Đ.32.2` | `NB-01 mục 6.5.6`;<br>`PL_BM` BM-01, BM-02, và `BM-PC` phiếu chi vì mọi lần xuất quỹ tiền mặt đều phải có phiếu chi |
-| Người ban hành [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-QCTC-03]], và cơ sở ủy quyền | [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-QCTC-03]] mục 10.1, 10.2, 10.2a | `QCTC-01 Đ.42.5a`;<br>`NB-01 mục 6.5a.4`;<br>`PL_BM` mục CÁCH DÙNG và tiêu đề `BM-G`;<br>[[PL_Ma_tran_phan_quyen\|OBK-QCTC-02-PL-B]] dòng ban hành quy chế nội bộ |
+| Ma trận hạn mức phê duyệt, ba bậc B1 tới B3 | `QCTC-01 Đ.12.3` | `NB-01 mục 5.2.1`;<br>`NB-01 mục 5.2.2`;<br>`NB-01 mục 5.7.2` bước C2 |
+| Mốc 35% tổng giá trị tài sản, và cách tính | `QCTC-01 Đ.8.1a, Đ.8.1b, Đ.12.3` | `NB-01 mục 5.2.1` bậc B5 |
+| Giao dịch với người có liên quan | `QCTC-01 Điều 12a` | `NB-01 mục 5.2.2` trường hợp thứ năm;<br>`NB-01 mục 5.4.4` khai báo;<br>`PL_BM` BM-01 và BM-05 |
+| Danh mục biểu mẫu chứng từ oBacker tự thiết kế, và lý do từng cái | [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-QCTC-03]] Điều 5 và Điều 6 | `QCTC-01 Đ.42.5, Đ.42.5a`;<br>`NB-01 mục 5.5a`;<br>`PL_BM` mục CÁCH DÙNG, tiêu đề `BM-G`, và hai mục `BM-PT`, `BM-PC` |
+| mức chi tiền mặt tối đa | `QCTC-01 Đ.32.2` | `NB-01 mục 5.5.6`;<br>`PL_BM` BM-01, BM-02, và `BM-PC` phiếu chi vì mọi lần xuất quỹ tiền mặt đều phải có phiếu chi |
+| Người ban hành [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-QCTC-03]], và cơ sở ủy quyền | [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-QCTC-03]] mục 10.1, 10.2, 10.2a | `QCTC-01 Đ.42.5a`;<br>`NB-01 mục 5.5a`;<br>`PL_BM` mục CÁCH DÙNG và tiêu đề `BM-G`;<br>[[PL_Ma_tran_phan_quyen\|OBK-QCTC-02-PL-B]] dòng ban hành quy chế nội bộ |
 | Mức tối đa tồn quỹ tiền mặt | `QCTC-01 Đ.32.1` | `NB-01` phần quỹ |
-| Thao tác tạo và xác nhận lệnh trên ngân hàng điện tử | `QCTC-01 Đ.35.1a` | `QCTC-01 Đ.4` vai trò `NTT` và vai trò `AD-KT`;<br>`QCTC-01 Đ.35.2, Đ.47.2, Đ.47.3, Đ.47.3a`;<br>`QCTC-01 Đ.48` chốt số 1 và chốt số 4;<br>`NB-01 mục 4.1` vai trò KTV, KTT và NTT;<br>`NB-01 mục 4.2` bảng RACI;<br>`NB-01 mục 4.3.2, 4.3.3`;<br>`NB-01 mục 6.2.1` bậc B3;<br>`NB-01` Luồng B và Luồng C |
-| Người đối chiếu sao kê ngân hàng với sổ kế toán | `QCTC-01 Đ.48` chốt số 1 | `QCTC-01 Đ.4` vai trò `AD-KT`;<br>`QCTC-01 Đ.47.3a` kiểm soát bù số 1;<br>`NB-01 mục 4.2` bảng RACI dòng đối chiếu số dư;<br>`NB-01 mục 9` dòng bảng đối chiếu ngân hàng;<br>`06_OBK-SOP-NB-00` Job NB-18 |
-| Danh mục nhà cung cấp, tình trạng và điểm kiểm soát số tài khoản | `QCTC-01 Đ.35.3a` | `NB-01 mục 6.4.3`;<br>`NB-01 mục 9` dòng Danh mục nhà cung cấp;<br>`PL_BM` biểu mẫu `BM-05` và dòng đã giao dịch trước đây chưa tại `BM-01` |
-| Bốn quy tắc tách quyền | `QCTC-01 Điều 47` | `NB-01 mục 4.3` |
-| Ba điều cấm về nhân sự kế toán | `QCTC-01 Đ.41.6, Đ.47.4` | `NB-01 mục 4.3.4` |
-| Mức tối đa một khoản tạm ứng | `QCTC-01 Đ.36.2` và ĐM-19 | `NB-01 mục 6.7.1`;<br>`PL_BM` BM-03 |
-| Ba mốc hoàn ứng | `QCTC-01 Đ.37.1` | `NB-01 mục 6.7.1`;<br>`PL_BM` BM-04 |
-| Chế tài quá hạn hoàn ứng | `QCTC-01 Đ.38.2a` | `NB-01 mục 6.7.1`;<br>`PL_BM` BM-03 khối cam kết |
-| Ủy quyền chi hộ cho người lao động | `QCTC-01 Điều 19` | `NB-01 mục 2.6`;<br>`NB-01 mục 6.8.1, 6.8.2`;<br>`PL_BM` BM-04 |
-| Mức tối đa chi hộ một lần | `QCTC-01 Đ.19.3, Đ.39.2` | `NB-01 mục 6.8.2` |
-| Tần suất đối chiếu sao kê, hai cấp | `QCTC-01 Đ.34.3, Điều 48 chốt 1` | `NB-01 mục 6.13.2` |
-| Tần suất rà soát thanh toán định kỳ | `QCTC-01 Đ.40.2, Điều 48 chốt 6` | `NB-01 mục 6.11.2` |
-| Thời hạn lưu trữ tài liệu | `QCTC-01 Điều 45` | `NB-01 mục 6.13.1, 6.13.4` và mục 9 |
-| Khấu trừ 10% thuế TNCN với cá nhân | `QCTC-01 Điều 23` | `NB-01 mục 6.9` |
-| Thuế nhà thầu nước ngoài | `QCTC-01 Điều 24` | `NB-01 mục 6.10` |
+| Thao tác tạo và xác nhận lệnh trên ngân hàng điện tử | `QCTC-01 Đ.35.1a` | `QCTC-01 Đ.4` vai trò `NTT` và vai trò `AD-KT`;<br>`QCTC-01 Đ.35.2, Đ.47.2, Đ.47.3, Đ.47.3a`;<br>`QCTC-01 Đ.48` chốt số 1 và chốt số 4;<br>`NB-01 mục 3.1` vai trò KTV, KTT và NTT;<br>`NB-01 mục 3.2` bảng RACI;<br>`NB-01 mục 3.3.2, 3.3.3`;<br>`NB-01 mục 5.2.1` bậc B3;<br>`NB-01` Luồng B và Luồng C |
+| Người đối chiếu sao kê ngân hàng với sổ kế toán | `QCTC-01 Đ.48` chốt số 1 | `QCTC-01 Đ.4` vai trò `AD-KT`;<br>`QCTC-01 Đ.47.3a` kiểm soát bù số 1;<br>`NB-01 mục 3.2` bảng RACI dòng đối chiếu số dư;<br>`NB-01 mục 8` dòng bảng đối chiếu ngân hàng;<br>`06_OBK-SOP-NB-00` Job NB-18 |
+| Danh mục nhà cung cấp, tình trạng và điểm kiểm soát số tài khoản | `QCTC-01 Đ.35.3a` | `NB-01 mục 5.4.3`;<br>`NB-01 mục 8` dòng Danh mục nhà cung cấp;<br>`PL_BM` biểu mẫu `BM-05` và dòng đã giao dịch trước đây chưa tại `BM-01` |
+| Bốn quy tắc tách quyền | `QCTC-01 Điều 47` | `NB-01 mục 3.3` |
+| Ba điều cấm về nhân sự kế toán | `QCTC-01 Đ.41.6, Đ.47.4` | `NB-01 mục 3.3.4` |
+| Mức tối đa một khoản tạm ứng | `QCTC-01 Đ.36.2` và ĐM-19 | `NB-01 mục 5.7.1`;<br>`PL_BM` BM-03 |
+| Ba mốc hoàn ứng | `QCTC-01 Đ.37.1` | `NB-01 mục 5.7.1`;<br>`PL_BM` BM-04 |
+| Chế tài quá hạn hoàn ứng | `QCTC-01 Đ.38.2a` | `NB-01 mục 5.7.1`;<br>`PL_BM` BM-03 khối cam kết |
+| Ủy quyền chi hộ cho người lao động | `QCTC-01 Điều 19` | `NB-01 mục 2.6`;<br>`NB-01 mục 5.8.1, 5.8.2`;<br>`PL_BM` BM-04 |
+| Mức tối đa chi hộ một lần | `QCTC-01 Đ.19.3, Đ.39.2` | `NB-01 mục 5.8.2` |
+| Tần suất đối chiếu sao kê, hai cấp | `QCTC-01 Đ.34.3, Điều 48 chốt 1` | `NB-01 mục 5.13.2` |
+| Tần suất rà soát thanh toán định kỳ | `QCTC-01 Đ.40.2, Điều 48 chốt 6` | `NB-01 mục 5.11.2` |
+| Thời hạn lưu trữ tài liệu | `QCTC-01 Điều 45` | `NB-01 mục 5.13.1, 5.13.4` và mục 8 |
+| Khấu trừ 10% thuế TNCN với cá nhân | `QCTC-01 Điều 23` | `NB-01 mục 5.9` |
+| Thuế nhà thầu nước ngoài | `QCTC-01 Điều 24` | `NB-01 mục 5.10` |
 | Bảng định mức chi tiêu ĐM-01 tới ĐM-20 | `QCTC-01 Điều 21` | `NB-01` mọi chỗ nhắc định mức |
 | Giá trị đã chốt của mỗi con số quản trị | chính điều khoản đặt ra con số đó | Tài liệu khác dẫn chiếu về điều khoản đó, không ghi lại số |
 | Thẩm quyền xác minh căn cứ | Bộ phận Pháp chế và Nghiên cứu | Thẩm quyền ban hành kết luận pháp lý |
@@ -1965,4 +1815,4 @@ Ba quy tắc, cũng ghi tại mục 3.4:
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 30/09/2026 | R.2.0.1 | Thực hiện N11.4: gọi thời hạn do pháp luật ấn định thành 'thời hạn theo pháp luật' tại mục 8.2a |
+| 04/10/2026 | R.4.0.1 | Bỏ số đếm liệt kê, lối tự sự và ghi chú log ở quy chế tài chính. |

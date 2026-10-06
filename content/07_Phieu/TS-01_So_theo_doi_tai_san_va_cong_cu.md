@@ -4,19 +4,15 @@ code: "TS-01"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-TTT-05 Cách làm phiếu thao tác"
-law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - TS-01
 tags:
@@ -29,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | TS-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -38,8 +34,9 @@ tags:
 | **Mã phiếu** | TS-01 |
 | **Màu** | XANH, sổ theo dõi tài sản |
 | **Ai dùng** | `AD-KT`, `KTV`, Quản lý trực tiếp (`TL`) và `KTT` |
-| **Sinh từ** | [[OBK-SOP-NB-08_Quan_ly_tai_san_va_cong_cu_dung_cu\|OBK-SOP-NB-08]] Điều 6;<br>[[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 44 |
+| **Sinh từ** | [[OBK-SOP-NB-08_Quan_ly_tai_san_va_cong_cu_dung_cu\|OBK-SOP-NB-08]] Điều 5;<br>[[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 44 |
 | **Ngày làm phiếu** | 27/09/2026 |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
@@ -91,7 +88,7 @@ Bảng theo dõi gồm các trường thông tin chuẩn hóa:
 
 ## NGUYÊN TẮC HẠCH TOÁN KẾ TOÁN THEO THÔNG TƯ 99/2025/TT-BTC
 
-Toàn bộ tài sản cố định và công cụ dụng cụ trên Sổ TS-01 được hạch toán đồng bộ vào hệ thống sổ kế toán theo Thông tư 99/2025/TT-BTC và nguyên tắc Nguồn dữ liệu tài chính duy nhất quy định tại Điều 2.5 [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]]:
+Toàn bộ tài sản cố định và công cụ dụng cụ trên Sổ TS-01 được hạch toán đồng bộ vào hệ thống sổ kế toán theo nguyên tắc Nguồn dữ liệu tài chính duy nhất tại OBK-QCTC-01 mục 2.5:
 1. **Tài sản cố định hữu hình (tiêu chuẩn nguyên giá từ 30 triệu đồng trở lên và thời gian sử dụng từ 01 năm trở lên):**
    - Mua sắm mới: Nợ TK 211 (Nguyên giá TSCĐ), Nợ TK 1332 (Thuế GTGT đầu vào của TSCĐ) / Có TK 112, Có TK 331.
    - Trích khấu hao định kỳ hằng tháng theo phương pháp đường thẳng: Nợ TK 6424 (Chi phí khấu hao TSCĐ quản lý) hoặc Nợ TK 154 (khấu hao máy móc thiết bị phục vụ dịch vụ) / Có TK 2141 (Hao mòn TSCĐ hữu hình).
@@ -121,14 +118,6 @@ Sổ theo dõi được quản lý tập trung bởi `AD-KT` trên hệ thống 
 
 Kiểm soát chặt chẽ vòng đời tài sản từ lúc mua sắm đến khi thanh lý, ngăn ngừa thất thoát trang thiết bị làm việc, xác định đúng trách nhiệm cá nhân bảo quản và làm căn cứ trích khấu hao, phân bổ chi phí kế toán hợp pháp.
 
-### 2. Căn cứ quy định và pháp luật liên quan
-
-| Mục | Nguồn | Nội dung |
-| --- | --- | --- |
-| Quản lý tài sản | [[OBK-SOP-NB-08_Quan_ly_tai_san_va_cong_cu_dung_cu\|OBK-SOP-NB-08]] Điều 6 | Cấp phát, thu hồi và kiểm kê tài sản CCDC |
-| Định mức phân bổ | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 44 | Nguyên tắc hạch toán khấu hao TSCĐ và phân bổ CCDC |
-| Chế độ kế toán | Thông tư 99/2025/TT-BTC | Hướng dẫn kế toán Tài khoản 211, 214, 153, 242 |
-| Nguyên tắc tài chính | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 2.5 | Nguyên tắc Nguồn dữ liệu tài chính duy nhất kết nối kế toán |
 
 ---
 
@@ -136,4 +125,4 @@ Kiểm soát chặt chẽ vòng đời tài sản từ lúc mua sắm đến khi
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu TS-01 về Sổ cái OBK-MSR |

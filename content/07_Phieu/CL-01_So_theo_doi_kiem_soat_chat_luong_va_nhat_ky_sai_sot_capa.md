@@ -4,19 +4,15 @@ code: "CL-01"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-TTT-05 Cách làm phiếu thao tác"
-law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - CL-01
 tags:
@@ -29,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | CL-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -40,6 +36,7 @@ tags:
 | **Ai dùng** | Toàn bộ chuyên viên thực hiện (`KTV`, `CV-LIC`, `CV-LD`, `CV-LS`, `CV-RD`), Người kiểm soát lớp hai (`TL-KT`, `TL-LIC`, `TL-LD`, `TL-LS`, `TL-RD`), Giám đốc điều hành (`COO`), Giám đốc điều hành cấp cao (`CEO`) |
 | **Sinh từ** | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 11.2, 11.2a, 11.2b;<br>[[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]];<br>[[08_PL_B_Tieu_chi_cong_viec_dang_ho_so\|OBK-QCNS-08-PL-B]];<br>[[CV-01_Bang_theo_doi_trang_thai_cong_viec_sla_va_kpi\|CV-01]] |
 | **Ngày làm phiếu** | 27/09/2026 |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
@@ -106,7 +103,7 @@ Theo quy định tại mục 11.2a và 11.2b của [[01_OBK-SOP-00_Chuan_van_han
    - Lỗi mức Nghiêm trọng (`M5`, `M6`): `COO` phê duyệt phương án khắc phục và đóng lỗi sau khi có báo cáo bằng văn bản gửi `CEO`.
 3. **Cơ chế nâng cấp khi tái diễn:** Lỗi cùng loại phát sinh từ lần thứ 3 trở lên trong vòng 06 tháng ở cùng một cá nhân hoặc cùng một khách hàng phải tự động nâng lên một mức xử lý, đồng thời bắt buộc phải sửa đổi quy trình hoặc bảng kiểm nghiệp vụ để ngăn chặn tận gốc.
 
-## QUY TRÌNH 5 BƯỚC XỬ LÝ SAI SÓT VÀ HÀNH ĐỘNG PHÒNG NGỪA (CAPA)
+## QUY TRÌNH XỬ LÝ SAI SÓT VÀ HÀNH ĐỘNG PHÒNG NGỪA (CAPA)
 
 ```
 [1. Phát hiện & Ghi sổ] -> [2. Khắc phục tức thời] -> [3. Phân tích nguyên nhân] -> [4. Thực hiện CAPA] -> [5. Nghiệm thu & Đóng lỗi]
@@ -132,14 +129,6 @@ Theo quy định tại mục 11.2a và 11.2b của [[01_OBK-SOP-00_Chuan_van_han
 
 Bảo đảm mọi sai sót phát sinh trong quá trình vận hành dịch vụ được ghi nhận trung thực, đầy đủ, không bị che giấu; thực hiện triệt để nguyên tắc kiểm soát hai lớp độc lập (NT-5); cung cấp dữ liệu số liệu khách quan để đánh giá hiệu suất nhân sự (`HS-01`, `HS-02`, `CS-04`, `CS-05`, và các tiêu chí Phần A: `A-01`, `A-02`, `A-05`, `A-07`, `A-08`); đồng thời biến mỗi sai sót thành bài học cải tiến hệ thống quy trình và bảng kiểm nghiệp vụ theo nguyên tắc NT-8.
 
-### 2. Căn cứ quy định và pháp luật liên quan
-
-| Mục | Nguồn | Nội dung |
-| --- | --- | --- |
-| Chuẩn vận hành dịch vụ | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 11.2 | Định nghĩa lỗi, hai biên đo, ba mức lỗi bản chất và nguyên tắc đóng lỗi |
-| Khung đánh giá hiệu suất | [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] | Khung chấm điểm hiệu suất nhân sự toàn công ty |
-| Tiêu chí công việc dạng hồ sơ | [[08_PL_B_Tieu_chi_cong_viec_dang_ho_so\|OBK-QCNS-08-PL-B]] | Công thức tính toán và định mức tiêu chí `HS-01`, `HS-02` |
-| Bảng theo dõi công việc | [[CV-01_Bang_theo_doi_trang_thai_cong_viec_sla_va_kpi\|CV-01]] | Cơ chế liên kết lỗi sai sót với từng nhiệm vụ công việc cụ thể |
 
 ---
 
@@ -147,4 +136,4 @@ Bảo đảm mọi sai sót phát sinh trong quá trình vận hành dịch vụ
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu CL-01 về Sổ cái OBK-MSR |

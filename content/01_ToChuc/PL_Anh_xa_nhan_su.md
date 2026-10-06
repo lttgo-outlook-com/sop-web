@@ -4,19 +4,15 @@ code: "OBK-QCTC-02-PL-D"
 type: "sop"
 folder: "01_ToChuc"
 level: "Phụ lục"
-version: "R.1.0.0"
+version: "R.1.0.1"
 status: "đang áp dụng"
-draft_date: "01/10/2026"
+draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-QCTC-02 Quy chế tổ chức và phân quyền"
-law_as_of: ""
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-QCTC-02-PL-D
 tags:
@@ -29,8 +25,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-QCTC-02-PL-D |
 | Cấp tài liệu | Phụ lục |
-| Phiên bản | R.1.0.0, đang áp dụng |
-| Ngày biên soạn | 01/10/2026 |
+| Phiên bản | R.1.0.1, đang áp dụng |
+| Ngày biên soạn | 04/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
 | Người phê duyệt | CEO (Lê Trọng Tuấn) |
@@ -38,8 +34,6 @@ tags:
 
 
 Tệp này NẰM NGOÀI quy chế. Quy chế chỉ nói về position và role; tệp này nói ai đang giữ position nào và làm ở đâu.
-
-Cập nhật lần cuối: 07/09/2026.
 
 Tệp này là nơi ghi người đang giữ từng vị trí. Một người xuất hiện ở nhiều dòng là kiêm nhiệm.
 
@@ -89,8 +83,7 @@ Kiêm nhiệm không phải một trạng thái. Một người giữ nhiều va
 | Kế toán viên | `KTV` | ĐN | Cao Thị Minh Hiếu<br>hieu.cao@obacker.com | Đang thử việc |
 | Người đối chiếu sao kê ngân hàng với sổ kế toán | `AD-KT` | HCM | Yến Dương<br>yen.duong@obacker.com | Đang giữ |
 
-> [!note] THAO TÁC TRÊN NGÂN HÀNG ĐIỆN TỬ
-> CHỐT NGÀY 07/09/2026. HAI NGƯỜI TẠO LỆNH, HAI NGƯỜI XÁC NHẬN, MỘT NGƯỜI ĐỐI CHIẾU
+> [!note] PHÂN QUYỀN THAO TÁC NGÂN HÀNG ĐIỆN TỬ
 > Thao tác **TẠO** lệnh chuyển tiền do `KTV` và `KTT` thực hiện, mỗi người một tài khoản người dùng riêng. Thao tác **XÁC NHẬN** lệnh do `TGĐ` và `Chủ tịch HĐQT` thực hiện, một trong hai là đủ, không chia theo bậc giá trị. Hai thao tác này không phải hai lần phê duyệt; việc phê duyệt khoản chi xảy ra đúng một lần theo ma trận tại `02_NoiBo/OBK-QCTC-01 mục 12.3`. `AD-KT` không có quyền nào trên ngân hàng điện tử và không hạch toán sổ nội bộ; đó là điều kiện để `AD-KT` làm được lớp đối chiếu độc lập. Xem `02_NoiBo/OBK-QCTC-01` mục 35.1a, mục 47.3a và Điều 48 chốt số 1.
 
 > [!note] VAI TRÒ THỦ QUỸ (TQ)
@@ -192,12 +185,12 @@ Bảng này đối chiếu theo email xuất hiện ở nhiều bảng trên. Ng
 
 Tổng: 41 dòng vai trò có người giữ, 24 người, 3 vị trí đang tuyển, 1 vị trí trống.
 
-> [!note] HAI ĐIỂM KIỂM SOÁT CỦA VIỆC ĐỐI CHIẾU SAO KÊ
+> [!note] KIỂM SOÁT ĐỐI CHIẾU SAO KÊ
 > `AD-KT` là lớp kiểm soát độc lập của ngoại lệ tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 47.3a: người đối chiếu sao kê không hạch toán và không có quyền nào trên ngân hàng điện tử.
 >
-> Hai điểm kiểm soát đặt tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 34.3 và Điều 48 chốt số 1: kết quả đối chiếu gửi trực tiếp `TGĐ`, không qua `KTT`; và `KTT` không có quyền yêu cầu sửa bảng đối chiếu, chỉ nhận bản sao để xử lý phần kế toán.
+> Các điểm kiểm soát đặt tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 34.3 và Điều 48 chốt số 1: kết quả đối chiếu gửi trực tiếp `TGĐ`, không qua `KTT`; và `KTT` không có quyền yêu cầu sửa bảng đối chiếu, chỉ nhận bản sao để xử lý phần kế toán.
 
-### Bốn điểm cần đọc kèm bảng này
+### Nguyên tắc áp dụng đối với các vị trí kiêm nhiệm
 
 | # | Nội dung | Quy tắc áp dụng |
 | --- | --- | --- |
@@ -220,4 +213,4 @@ Tổng: 41 dòng vai trò có người giữ, 24 người, 3 vị trí đang tuy
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.0.1 | Bỏ dòng ghi chú cập nhật và lối tự sự ở đầu phụ lục. |

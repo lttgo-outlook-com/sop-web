@@ -4,19 +4,15 @@ code: "BH-01"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-TTT-05 Cách làm phiếu thao tác"
-law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - BH-01
 tags:
@@ -29,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | BH-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -40,6 +36,7 @@ tags:
 | **Ai dùng** | Chuyên viên Lao động (`CV-LD`), Trưởng bộ phận Lao động (`TL-LD`), Chuyên viên Quản lý khách hàng (`AM`) |
 | **Sinh từ** | [[05_OBK-SOP-LD_Lao_dong_va_tien_luong\|OBK-SOP-LD]] (Job LD-05 đến LD-16);<br>`OBK-HB-51` Hướng dẫn nghiệp vụ lao động và tiền lương |
 | **Ngày làm phiếu** | 27/09/2026 |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
@@ -111,23 +108,7 @@ Bảng theo dõi được cập nhật liên tục bởi `CV-LD` và được `T
 
 Kiểm soát chặt chẽ nghĩa vụ đóng bảo hiểm xã hội bắt buộc của người sử dụng lao động, phòng ngừa tiền lãi chậm đóng 0,03%/ngày theo Luật Bảo hiểm xã hội, ngăn ngừa mức xử phạt vi phạm hành chính từ 12% đến 15% tổng số tiền phải đóng theo Nghị định số 283/2026/NĐ-CP, đồng thời bảo đảm quyền lợi khám chữa bệnh BHYT và chế độ ốm đau thai sản của người lao động.
 
-### 2. Căn cứ quy định và pháp luật liên quan
 
-| Mục | Nguồn | Nội dung |
-| --- | --- | --- |
-| Quy trình lao động | [[05_OBK-SOP-LD_Lao_dong_va_tien_luong\|OBK-SOP-LD]] | Chuẩn hóa nghiệp vụ hồ sơ lao động, tính lương và trích nộp BHXH |
-| Hướng dẫn nghiệp vụ | `OBK-HB-51` | Hướng dẫn kỹ thuật lập hồ sơ biến động D02-LT và biểu mẫu báo cáo |
-| Chuẩn vận hành dịch vụ | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] | Nguyên tắc kiểm soát mốc thời gian và cam kết dịch vụ nội bộ |
-
-## Căn cứ pháp luật
-
-| # | Văn bản | Điều khoản | Nội dung áp dụng |
-| --- | --- | --- | --- |
-| 1 | Bộ luật Lao động số 45/2019/QH14 | Điều 12 | Trách nhiệm quản lý lao động và báo cáo tình hình sử dụng lao động của người sử dụng lao động |
-| 2 | Nghị định số 145/2020/NĐ-CP | Điều 4 khoản 2 | Thời hạn nộp báo cáo tình hình thay đổi lao động định kỳ: trước ngày 05/06 và trước ngày 05/12 hằng năm |
-| 3 | Luật Bảo hiểm xã hội số 41/2024/QH15 | Điều 31, Điều 34, Điều 41 | Đối tượng tham gia BHXH bắt buộc, thời hạn đóng BHXH hằng tháng và tiền lãi chậm đóng |
-| 4 | Nghị định số 283/2026/NĐ-CP | Điều 43, Điều 44 | Mức xử phạt vi phạm hành chính đối với hành vi chậm đóng hoặc trốn đóng bảo hiểm xã hội bắt buộc |
-| 5 | Quyết định số 595/QĐ-BHXH và Quyết định số 505/QĐ-BHXH | Điều 23, Điều 31 | Quy trình thu BHXH, cấp sổ BHXH và hướng dẫn lập Tờ khai biến động Mẫu D02-LT |
 
 ---
 
@@ -135,4 +116,4 @@ Kiểm soát chặt chẽ nghĩa vụ đóng bảo hiểm xã hội bắt buộc
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu BH-01 về Sổ cái OBK-MSR |

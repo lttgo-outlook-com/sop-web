@@ -4,18 +4,15 @@ code: "OBK-HB-05"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.0"
+version: "R.1.0.1"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 25/08/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
 parent: "OBK-SOP-KT Kế toán và thuế"
 next_review: "Chậm nhất 25/02/2027"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-HB-05
 tags:
@@ -30,7 +27,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-HB-05 |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.0.1, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -57,48 +54,8 @@ Chương này quy định trình tự làm sổ kế toán tháng cho một khá
 - Không áp dụng cho tổ chức tín dụng và chi nhánh ngân hàng nước ngoài; nhóm này thực hiện chế độ kế toán theo hướng dẫn của Ngân hàng Nhà nước Việt Nam `[TT99 Đ.2 k.2]`.
 - Không áp dụng cho phần lập báo cáo tài chính năm; xem Chương 07.
 
-## 3. Căn cứ pháp lý
 
-| Nhóm | Văn bản | Nội dung sử dụng trong chương này | Căn cứ |
-| --- | --- | --- | --- |
-| Kế toán | Thông tư 99/2025/TT-BTC ngày 27/10/2025 | Chứng từ (Đ.8, Đ.9, Đ.10), hệ thống tài khoản (Đ.11 và Phụ lục II), sổ kế toán (Đ.12, Đ.13 và Phụ lục III), phần mềm kế toán (Đ.28) |  |
-| Kế toán | Thông tư 99/2025/TT-BTC Điều 31 | Hiệu lực từ 01/01/2026, thay thế Thông tư 200/2014/TT-BTC, 75/2015/TT-BTC, 53/2016/TT-BTC, 195/2012/TT-BTC |  |
-| Thuế TNDN | Nghị định hợp nhất 19/VBHN-BTC ngày 04/6/2026 Điều 9, Điều 10 | Điều kiện chi phí được trừ, danh mục 23 khoản chi không được trừ, các mức khống chế |  |
-| Thuế TNDN | Thông tư 20/2026/TT-BTC ngày 12/3/2026 Điều 3 | Hồ sơ bắt buộc kèm theo từng nhóm chi phí, Mẫu số 01/TNDN, Mẫu số 02/TNDN |  |
-| Thuế GTGT | Nghị định hợp nhất 18/VBHN-BTC ngày 04/6/2026 Điều 26 | Ngưỡng chứng từ thanh toán không dùng tiền mặt 05 triệu đồng, các trường hợp đặc thù |  |
-| Quản lý thuế | Nghị định 252/2026/NĐ-CP ngày 30/06/2026 Điều 10 | Thời hạn nộp hồ sơ khai thuế theo tháng, quý, năm, quyết toán | `[NĐ 252/2026 Đ.10 k.1 đến k.5]` |
-| Quản lý thuế | Nghị định 252/2026/NĐ-CP Điều 24 | Tạm nộp thuế TNDN 04 quý, quy tắc tổng tạm nộp không thấp hơn 80% số quyết toán | `[NĐ 252/2026 Đ.24 k.1, k.2, k.3]` |
-| Quản lý thuế | Luật Quản lý thuế 108/2025/QH15 Điều 14, Điều 16 | Thời hạn nộp tiền thuế;<br>tiền chậm nộp 0,03%/ngày | `[Luật QLT 108/2025 Đ.14 k.1 đ.a;<br>Đ.16 k.2 đ.a]` |
-| Quản lý thuế | Thông tư 89/2026/TT-BTC Điều 19, Điều 22 | Điều kiện khai thuế GTGT theo quý (ngưỡng 50 tỷ đồng);<br>khai thuế TNCN khấu trừ theo quý đối với thu nhập từ tiền lương, tiền công | `[TT 89/2026 Đ.19 k.1 đ.b;<br>Đ.22 k.1 đ.a]` |
-| Quản lý thuế | Nghị định 252/2026/NĐ-CP Điều 3 khoản 7 | Lùi mốc khi ngày cuối cùng của thời hạn trùng ngày nghỉ | `[NĐ 252/2026 Đ.3 k.7]` |
-| Quản lý thuế | Luật Quản lý thuế 108/2025/QH15 Điều 12 khoản 4 | Gia hạn nộp hồ sơ khai thuế trong trường hợp bất khả kháng | `[Luật QLT 108/2025 Đ.12 k.4 đ.a]` |
-| Quản lý thuế | Thông tư 89/2026/TT-BTC Phụ lục I | Ký hiệu mẫu tờ khai thuế sử dụng trong chương này | `[TT 89/2026 Phụ lục I]` |
-
-### 3.1. Bảng mốc thời hạn đã đối chiếu bản gốc
-
-Toàn bộ mốc thời hạn khai thuế và tạm nộp trong chương này đã được đối chiếu với bản gốc Nghị định 252/2026/NĐ-CP Điều 10, Điều 24 và Thông tư 89/2026/TT-BTC, nên đã đối chiếu bản gốc. Không còn nội dung nào của chương này phụ thuộc nguồn thứ cấp về mốc thời hạn.
-
-| Loại hồ sơ | Mốc chậm nhất | Căn cứ |
-| --- | --- | --- |
-| Khai theo từng lần phát sinh | Ngày thứ 10 kể từ ngày tiếp theo ngày phát sinh nghĩa vụ thuế | `[NĐ 252/2026 Đ.10 k.1]` |
-| Khai theo tháng | Ngày thứ 20 của tháng tiếp theo tháng phát sinh nghĩa vụ thuế | `[NĐ 252/2026 Đ.10 k.2]` |
-| Khai theo quý | Ngày cuối cùng của tháng đầu của quý tiếp theo: 30/4, 31/7, 31/10, 31/01 năm sau | `[NĐ 252/2026 Đ.10 k.3]` |
-| Khai theo năm, khách có năm tài chính trùng năm dương lịch | 31/01 của năm dương lịch tiếp theo | `[NĐ 252/2026 Đ.10 k.4]` |
-| Khai theo năm, khách có năm tài chính LỆCH năm dương lịch | Ngày cuối cùng của tháng đầu tiên của NĂM TÀI CHÍNH tiếp theo | `[NĐ 252/2026 Đ.10 k.4]` |
-| Quyết toán thuế năm | Ngày cuối cùng của tháng thứ 03 kể từ ngày kết thúc kỳ quyết toán thuế | `[NĐ 252/2026 Đ.10 k.5 đ.a]` |
-| Tạm nộp thuế TNDN theo quý | Ngày cuối cùng của tháng đầu của quý tiếp theo: 30/4, 31/7, 31/10, 31/01 năm sau | `[NĐ 252/2026 Đ.24 k.2]` |
-| Nộp TIỀN thuế khi người nộp thuế tự tính | Trùng ngày cuối cùng của thời hạn nộp hồ sơ khai thuế | `[Luật QLT 108/2025 Đ.14 k.1 đ.a]` |
-
-Ba quy tắc đi kèm bảng trên, áp cho mọi mốc trong chương:
-
-1. **Nhánh năm tài chính.** Thời hạn khai theo năm là ngày cuối cùng của tháng đầu tiên của năm dương lịch tiếp theo hoặc của năm tài chính tiếp theo `[NĐ 252/2026 Đ.10 k.4]`. Khách có năm tài chính lệch năm dương lịch phải theo nhánh năm tài chính. TL-KT xác định nhánh áp dụng cho từng khách ngay khi mở hồ sơ và ghi vào Phiếu giao việc; CV-KT không được mặc định mốc 31/01 cho mọi khách.
-2. **Lùi mốc khi trùng ngày nghỉ.** Khi ngày cuối cùng của thời hạn nộp hồ sơ khai thuế hoặc thời hạn nộp thuế trùng với ngày nghỉ theo quy định thì ngày cuối cùng của thời hạn được tính là ngày làm việc liền kề sau ngày nghỉ đó `[NĐ 252/2026 Đ.3 k.7]`. Quy tắc này chỉ áp cho MỐC GỐC. Số ngày chậm nộp thì đếm LIÊN TỤC, gồm cả ngày nghỉ `[NĐ 252/2026 Đ.26 k.1 đ.a]`. CV-KT không được dùng quy tắc lùi mốc để cắt bớt số ngày tính tiền chậm nộp.
-3. **Gia hạn chỉ cho bất khả kháng.** Người nộp thuế không có khả năng nộp hồ sơ khai thuế đúng thời hạn TRONG TRƯỜNG HỢP BẤT KHẢ KHÁNG được gia hạn không quá 30 ngày với hồ sơ khai theo tháng, quý, năm, từng lần phát sinh, và không quá 60 ngày với hồ sơ khai quyết toán `[Luật QLT 108/2025 Đ.12 k.4 đ.a]`. Bất khả kháng là trường hợp người nộp thuế bị thiệt hại vật chất do thiên tai, thảm họa, dịch bệnh, hỏa hoạn, tai nạn bất ngờ và các trường hợp bất khả kháng khác theo quy định của Chính phủ `[Luật QLT 108/2025 Đ.4 k.21; NĐ 252/2026 Đ.3 k.1]`. Không phải xin là được: khách chậm gửi chứng từ, nhân sự oBacker nghỉ, phần mềm lỗi đều không thuộc diện gia hạn. TL-KT là người kết luận có thuộc diện bất khả kháng hay không; AM là người trả lời khách.
-
-> [!success] ĐÃ ĐỐI CHIẾU BẢN GỐC
-> Toàn bộ số hiệu và tên tài khoản dùng trong chương này đã được đối chiếu từng dòng với danh mục tài khoản tại Phụ lục II phần A Thông tư 99/2025/TT-BTC `[TT99 PL II phần A]`. Phần "Nội dung và phương pháp kế toán" của từng tài khoản tại Phụ lục II phần B cũng đã có bản gốc trong kho nội bộ `[TT99 PL II phần B]`. Với nghiệp vụ không thông thường, TL-KT mở Phụ lục II phần B của bản gốc để đối chiếu trước khi định khoản, không suy diễn từ chế độ cũ; CV-KT chỉ ghi các bút toán đã có mẫu trong chương này.
-
-## 4. Vai trò và trách nhiệm
+## 3. Vai trò và trách nhiệm
 
 | Công việc | CV-KT | TL-KT | AM | COO |
 | --- | --- | --- | --- | --- |
@@ -123,7 +80,7 @@ Nguyên tắc phân cấp:
 4. AM là đầu mối duy nhất với khách. CV-KT và TL-KT không liên hệ trực tiếp với khách. Mọi yêu cầu chứng từ, mọi thông báo số thuế và hạn nộp, mọi bàn giao số liệu đều đi qua AM.
 5. Việc thuộc nguồn lực và phạm vi dịch vụ do COO quyết định. Việc chấm dứt hợp đồng do CEO quyết định.
 
-## 5. Đầu vào bắt buộc
+## 4. Đầu vào bắt buộc
 
 | # | Đầu vào | Nguồn | Điều kiện chấp nhận |
 | --- | --- | --- | --- |
@@ -142,14 +99,14 @@ Nguyên tắc phân cấp:
 > [!bug] LỖI THƯỜNG GẶP
 > Khách gửi thiếu tài khoản ngân hàng. Doanh nghiệp mở thêm tài khoản mà không báo, dẫn tới thiếu toàn bộ một nhánh giao dịch. Đầu mỗi quý, AM phải yêu cầu khách xác nhận bằng văn bản danh sách đầy đủ tài khoản ngân hàng đang sử dụng; CV-KT lưu văn bản xác nhận vào `[KHO LƯU TRỮ HỒ SƠ]`.
 
-## 6. Các bước thực hiện
+## 5. Các bước thực hiện
 
-### 6.1. Lịch làm việc trong tháng
+### 5.1. Lịch làm việc trong tháng
 
 Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với khách khai theo quý, các mốc liên quan tờ khai chuyển sang tháng đầu của quý tiếp theo, mốc nội bộ là ngày 23 thay cho ngày 13.
 
-> [!note] ĐỌC LỊCH NÀY THẾ NÀO
-> Mốc để làm việc là **ngày 13**, không phải ngày 20. Ngày 20 là hạn cuối của pháp luật. Ngày cứng của Phụ lục C là chuẩn duy nhất cho mốc nội bộ. Nếu khối lượng thực tế không cho phép chạy theo lịch này thì COO đề nghị CEO sửa mốc TẠI PHỤ LỤC C, không ai được tự nới lịch ở chương này.
+> [!note] NGUYÊN TẮC ÁP DỤNG THỜI HẠN NỘI BỘ VÀ THỜI HẠN THEO PHÁP LUẬT
+> Mốc thực hiện công việc nội bộ ấn định là **ngày 13** hằng tháng nhằm bảo đảm hoàn thành trước hạn nộp quy định của pháp luật (ngày 20). Mốc thời hạn nội bộ thống nhất thực hiện theo Phụ lục C; trường hợp cần điều chỉnh mốc thời gian áp dụng, COO đề xuất CEO phê duyệt tại Phụ lục C.
 
 | Ngày trong tháng | Việc phải làm | Người làm | Đầu ra |
 | --- | --- | --- | --- |
@@ -157,7 +114,7 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 | Ngày 01 đến 03 | Gửi thư nhắc khách nộp chứng từ tháng trước kèm danh mục chứng từ còn thiếu của các tháng cũ | AM | Thư nhắc lần 1 lưu tại `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]` |
 | Ngày 03 đến 06 | Nhận, kiểm đếm, số hóa và phân loại chứng từ;<br>lập biên bản giao nhận chứng từ | CV-KT | Biên bản giao nhận;<br>bộ chứng từ đã số hóa |
 | Ngày 05 | Tra cứu và tải toàn bộ dữ liệu hóa đơn đầu vào, đầu ra của kỳ từ `[PHẦN MỀM HĐĐT]`;<br>đối chiếu với chứng từ khách gửi | CV-KT | Bảng đối chiếu hóa đơn;<br>danh sách hóa đơn thiếu |
-| Ngày 05 đến 09 | Nhập liệu và định khoản toàn bộ 08 phần hành theo thứ tự mục 6.3 đến 6.10 | CV-KT với bút toán đã có mẫu;<br>TL-KT với bút toán cần xét đoán | Sổ nhật ký, sổ cái kỳ này |
+| Ngày 05 đến 09 | Nhập liệu và định khoản toàn bộ 08 phần hành theo thứ tự mục 5.3 đến 5.10 | CV-KT với bút toán đã có mẫu;<br>TL-KT với bút toán cần xét đoán | Sổ nhật ký, sổ cái kỳ này |
 | Ngày 06 | Gửi khách danh sách hóa đơn thiếu và chứng từ thanh toán thiếu, ấn định hạn phản hồi | AM | Thư yêu cầu bổ sung, chuyển lên cấp trên mức 1 |
 | Ngày 08 | Chạy phân bổ chi phí chờ phân bổ, khấu hao TSCĐ, phân bổ công cụ dụng cụ | TL-KT, bút toán cần xét đoán | Bảng tính và phân bổ khấu hao TSCĐ (06 - TSCĐ);<br>bảng phân bổ chi phí chờ phân bổ |
 | Ngày 09 | Đánh giá lại số dư các khoản mục tiền tệ có gốc ngoại tệ (nếu doanh nghiệp lập báo cáo theo tháng hoặc có yêu cầu quản trị) | TL-KT, bút toán cần xét đoán | Bảng tính chênh lệch tỷ giá |
@@ -171,11 +128,15 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 | Ngày 13 đến 15 | Hạch toán số thuế phải nộp và số thuế đã nộp vào sổ;<br>lưu tờ khai và giấy nộp tiền vào `[KHO LƯU TRỮ HỒ SƠ]` | CV-KT | Bút toán thuế;<br>hồ sơ đã lưu |
 | Ngày 15 đến 18 | Khóa sổ tháng theo bảng kiểm Chương 06;<br>lập báo cáo quản trị tháng nếu hợp đồng có | CV-KT làm, TL-KT soát | Sổ đã khóa;<br>báo cáo quản trị |
 | Ngày 18 | Bàn giao số liệu tháng cho khách;<br>ghi nhận các điểm tồn đọng | AM bàn giao, CV-KT lập hồ sơ bàn giao | Biên bản bàn giao;<br>danh mục tồn đọng |
-| Ngày 18 đến cuối tháng | Chuyển lên cấp trên các trường hợp thiếu chứng từ quá hạn theo mục 6.11;<br>cập nhật hồ sơ rủi ro khách hàng | AM, TL-KT, COO | Hồ sơ chuyển lên cấp trên mức 4 |
+| Ngày 18 đến cuối tháng | Chuyển lên cấp trên các trường hợp thiếu chứng từ quá hạn theo mục 5.11;<br>cập nhật hồ sơ rủi ro khách hàng | AM, TL-KT, COO | Hồ sơ chuyển lên cấp trên mức 4 |
 | Ngày 20 | Mốc pháp lý: hạn nộp hồ sơ khai thuế theo tháng, chậm nhất ngày thứ 20 của tháng tiếp theo tháng phát sinh nghĩa vụ thuế `[NĐ 252/2026 Đ.10 k.2]`.<br>Thời hạn nộp TIỀN thuế trùng với hạn nộp hồ sơ khi người nộp thuế tự tính `[Luật QLT 108/2025 Đ.14 k.1 đ.a]`.<br>Nếu ngày 20 trùng ngày nghỉ thì lùi sang ngày làm việc liền kề `[NĐ 252/2026 Đ.3 k.7]` | Không ai làm việc theo mốc này. Đây là hạn cuối của pháp luật, dùng để đo mức chậm nếu mốc nội bộ bị trượt | Không có đầu ra mới |
 | Ngày cuối cùng của tháng đầu mỗi quý, cụ thể 30/4, 31/7, 31/10 và 31/01 năm sau | Mốc pháp lý: hạn nộp hồ sơ khai thuế theo quý `[NĐ 252/2026 Đ.10 k.3]`; hạn tạm nộp thuế TNDN của quý trước `[NĐ 252/2026 Đ.24 k.2]`; hạn khai thuế TNCN khấu trừ theo quý đối với thu nhập từ TIỀN LƯƠNG, TIỀN CÔNG, Mẫu số 05/KK-TNCN `[TT 89/2026 Đ.22 k.1 đ.a.1; TT 89/2026 Phụ lục I]`.<br>Nếu mốc trùng ngày nghỉ thì lùi sang ngày làm việc liền kề `[NĐ 252/2026 Đ.3 k.7]` | CV-KT làm, TL-KT soát | Tờ khai quý;<br>chứng từ tạm nộp TNDN |
 | Ngày cuối cùng của tháng đầu tiên của năm dương lịch tiếp theo, hoặc của NĂM TÀI CHÍNH tiếp theo với khách có năm tài chính lệch năm dương lịch | Mốc pháp lý: hạn nộp hồ sơ khai thuế theo năm `[NĐ 252/2026 Đ.10 k.4]`.<br>Với khách có năm tài chính trùng năm dương lịch, mốc là 31/01.<br>TL-KT xác định nhánh áp dụng cho từng khách, CV-KT không mặc định mốc 31/01 | CV-KT làm, TL-KT xác định nhánh và soát | Tờ khai năm |
 | Ngày cuối cùng của tháng thứ 03 kể từ ngày kết thúc kỳ quyết toán thuế | Mốc pháp lý: hạn nộp hồ sơ quyết toán thuế năm `[NĐ 252/2026 Đ.10 k.5 đ.a]`, gồm Mẫu số 03/TNDN với quyết toán TNDN theo phương pháp doanh thu trừ chi phí và Mẫu số 05/QTT-TNCN với quyết toán TNCN của tổ chức trả thu nhập `[TT 89/2026 Phụ lục I]`; hạn nộp BCTC năm 90 ngày kể từ ngày kết thúc kỳ kế toán năm `[TT99 Đ.25]` | CV-KT làm, TL-KT soát và ký duyệt | Hồ sơ quyết toán;<br>BCTC năm |
+
+> [!note] HAI QUY TẮC ĐI KÈM BẢNG MỐC TRÊN, ÁP CHO MỌI MỐC TRONG CHƯƠNG
+> 1. **Lùi mốc khi trùng ngày nghỉ.** Khi ngày cuối cùng của thời hạn nộp hồ sơ khai thuế hoặc thời hạn nộp thuế trùng với ngày nghỉ theo quy định thì ngày cuối cùng của thời hạn được tính là ngày làm việc liền kề sau ngày nghỉ đó `[NĐ 252/2026 Đ.3 k.7]`. Quy tắc này chỉ áp cho MỐC GỐC. Số ngày chậm nộp thì đếm LIÊN TỤC, gồm cả ngày nghỉ `[NĐ 252/2026 Đ.26 k.1 đ.a]`. CV-KT không được dùng quy tắc lùi mốc để cắt bớt số ngày tính tiền chậm nộp.
+> 2. **Gia hạn chỉ cho bất khả kháng.** Người nộp thuế không có khả năng nộp hồ sơ khai thuế đúng thời hạn TRONG TRƯỜNG HỢP BẤT KHẢ KHÁNG được gia hạn không quá 30 ngày với hồ sơ khai theo tháng, quý, năm, từng lần phát sinh, và không quá 60 ngày với hồ sơ khai quyết toán `[Luật QLT 108/2025 Đ.12 k.4 đ.a]`. Bất khả kháng là trường hợp người nộp thuế bị thiệt hại vật chất do thiên tai, thảm họa, dịch bệnh, hỏa hoạn, tai nạn bất ngờ và các trường hợp bất khả kháng khác theo quy định của Chính phủ `[Luật QLT 108/2025 Đ.4 k.21; NĐ 252/2026 Đ.3 k.1]`. Không phải xin là được: khách chậm gửi chứng từ, nhân sự oBacker nghỉ, phần mềm lỗi đều không thuộc diện gia hạn. TL-KT là người kết luận có thuộc diện bất khả kháng hay không; AM là người trả lời khách.
 
 > [!danger] RỦI RO BỊ XỬ PHẠT
 > Quy tắc 80 phần trăm. Người nộp thuế tự xác định số tạm nộp hằng quý, nhưng tổng số đã tạm nộp của 04 quý không được thấp hơn 80% số phải nộp theo quyết toán năm DO NGƯỜI NỘP THUẾ TỰ KÊ KHAI `[NĐ 252/2026 Đ.24 k.3 đ.a]`. Nếu nộp thiếu thì phải nộp tiền chậm nộp tính trên số nộp thiếu, kể từ ngày tiếp theo liền kề của ngày cuối cùng của thời hạn tạm nộp QUÝ 04, không phải kể từ sau hạn quyết toán, đến ngày liền kề trước ngày số tiền còn thiếu được nộp vào ngân sách, bao gồm cả trường hợp người nộp thuế kê khai bổ sung `[NĐ 252/2026 Đ.24 k.3 đ.b]`. Mức tiền chậm nộp là 0,03%/ngày `[Luật QLT 108/2025 Đ.16 k.2 đ.a]` và số ngày đếm LIÊN TỤC, gồm cả ngày nghỉ `[NĐ 252/2026 Đ.26 k.1 đ.a]`. Phạm vi tạm nộp quý gồm cả thuế TNDN và LỢI NHUẬN SAU THUẾ CÒN LẠI phải nộp ngân sách nhà nước `[NĐ 252/2026 Đ.24 k.1]`. TL-KT phải ước tính kết quả kinh doanh lũy kế trước mỗi kỳ tạm nộp, không chờ đến quyết toán; AM thông báo khách số tạm nộp và hạn nộp.
@@ -186,7 +147,7 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 > [!bug] LỖI THƯỜNG GẶP
 > Khai thuế TNCN theo quý không áp cho mọi loại thu nhập. khai theo quý chỉ áp cho tổ chức, cá nhân trả thu nhập từ TIỀN LƯƠNG, TIỀN CÔNG `[TT 89/2026 Đ.22 k.1 đ.a.1]`. Các nhóm khấu trừ khác của cùng một khách không tự động theo quý. CV-KT không được mặc định mọi nghĩa vụ TNCN của khách đều rơi vào tờ khai quý; TL-KT xác định kỳ khai cho từng loại thu nhập khách có phát sinh và ghi vào Phiếu giao việc.
 
-### 6.2. Trình tự chung áp dụng cho mọi phần hành
+### 5.2. Trình tự chung áp dụng cho mọi phần hành
 
 1. Đối chiếu chứng từ nhận được với danh mục chứng từ bắt buộc của phần hành. Tiêu chí hoàn thành: có bảng kê chứng từ nhận và bảng kê chứng từ thiếu.
 2. Kiểm tra tính hợp lệ hình thức của chứng từ: đủ nội dung theo Điều 16 Luật Kế toán, đúng người ký, chỉ lập một lần cho mỗi nghiệp vụ `[TT99 Đ.10 k.1]`. Tiêu chí hoàn thành: chứng từ không hợp lệ đã được tách riêng và ghi vào nhật ký chứng từ lỗi.
@@ -197,9 +158,9 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 > [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
 > Khi khách yêu cầu ghi nhận một nghiệp vụ mà chứng từ không đủ điều kiện, hoặc yêu cầu định khoản khác với hướng dẫn của chế độ kế toán, CV-KT phải chuyển lên TL-KT. CV-KT không được ghi sổ theo yêu cầu miệng của khách. Việc trả lời khách do AM thực hiện sau khi TL-KT kết luận.
 
-### 6.3. Phần hành 05.1: Tiền mặt và tiền gửi không kỳ hạn
+### 5.3. Phần hành 05.1: Tiền mặt và tiền gửi không kỳ hạn
 
-#### 6.3.1. Chứng từ đầu vào cần có
+#### 5.3.1. Chứng từ đầu vào cần có
 
 | # | Chứng từ | Ký hiệu mẫu tham khảo | Ghi chú |
 | --- | --- | --- | --- |
@@ -215,7 +176,7 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 | 10 | Sao kê ngân hàng đủ 12 tháng cho từng tài khoản | Không có mẫu | Nguồn đối chiếu độc lập bắt buộc |
 | 11 | Ủy nhiệm chi, giấy báo nợ, giấy báo có | Không có mẫu | |
 
-#### 6.3.2. Tài khoản sử dụng
+#### 5.3.2. Tài khoản sử dụng
 
 | Số hiệu | Tên tài khoản theo TT 99/2025 | Ghi chú |
 | --- | --- | --- |
@@ -230,7 +191,7 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 > [!bug] LỖI THƯỜNG GẶP
 > Dùng lại số hiệu tài khoản cấp 2 của chế độ cũ như 1111, 1121, 1122. Cả ba số hiệu này đều không có trong danh mục tài khoản của chế độ mới; 1121 và 1122 không xuất hiện ở bất kỳ vị trí nào trong toàn văn Thông tư 99/2025/TT-BTC, còn 1111 chỉ xuất hiện bên trong số hiệu 41111 Cổ phiếu phổ thông có quyền biểu quyết `[TT99 PL II phần A; TT99, toàn văn]`. Doanh nghiệp được tự thiết kế chi tiết cho phù hợp yêu cầu quản lý, nhưng khi tự thiết kế thì bắt buộc ban hành Quy chế hạch toán kế toán nêu rõ sự cần thiết và trách nhiệm trước pháp luật `[TT99 Đ.11 k.2]`. CV-KT phải kiểm tra khách đã có quy chế này chưa trước khi mở tài khoản chi tiết; nếu chưa có thì chuyển TL-KT kết luận và AM yêu cầu khách ban hành.
 
-#### 6.3.3. Các bước hạch toán
+#### 5.3.3. Các bước hạch toán
 
 1. Nhập toàn bộ phiếu thu, phiếu chi theo thứ tự thời gian; mỗi phiếu chỉ nhập một lần `[TT99 Đ.10 k.1]`. Tiêu chí hoàn thành: số phiếu liên tục, không nhảy số, không trùng số.
 2. Nhập toàn bộ giao dịch ngân hàng theo sao kê, tách riêng theo từng tài khoản và từng ngân hàng. Tiêu chí hoàn thành: tổng phát sinh nợ và có của TK 112 chi tiết theo từng tài khoản khớp tuyệt đối với sao kê.
@@ -239,14 +200,14 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 5. Đối chiếu tạm ứng: mỗi khoản trên TK 141 phải theo từng người nhận tạm ứng, có Giấy đề nghị tạm ứng và Giấy thanh toán tiền tạm ứng. Tiêu chí hoàn thành: không có khoản tạm ứng quá hạn thanh toán mà không có giải trình.
 6. Ghi nhận kết quả kiểm kê quỹ: chênh lệch thiếu vào TK 1381, chênh lệch thừa vào TK 3381. Tiêu chí hoàn thành: có Bảng kiểm kê quỹ có chữ ký của thủ quỹ và người kiểm kê.
 
-#### 6.3.4. Sổ kế toán sử dụng
+#### 5.3.4. Sổ kế toán sử dụng
 
 - Sổ quỹ tiền mặt, ký hiệu S07-DN `[TT99 PL III phần A]`.
 - Sổ kế toán chi tiết quỹ tiền mặt, ký hiệu S07a-DN `[TT99 PL III phần A]`.
 - Sổ tiền gửi không kỳ hạn, ký hiệu S08-DN `[TT99 PL III phần A]`. Tên sổ đã đổi theo tên mới của TK 112.
 - Sổ theo dõi thanh toán bằng ngoại tệ, ký hiệu S33-DN `[TT99 PL III phần A]`, dùng khi có giao dịch ngoại tệ.
 
-#### 6.3.5. Điểm kiểm soát
+#### 5.3.5. Điểm kiểm soát
 
 | # | Điểm kiểm soát | Tiêu chí đạt | Người thực hiện |
 | --- | --- | --- | --- |
@@ -257,7 +218,7 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 | 5 | Danh sách tài khoản ngân hàng đã hạch toán so với danh sách khách xác nhận | Đủ 100% | TL-KT |
 | 6 | Các khoản chi tiền mặt từ 05 triệu đồng trở lên | Đã được đánh dấu rủi ro và báo khách | CV-KT đánh dấu, AM báo khách |
 
-#### 6.3.6. Lỗi thường gặp
+#### 5.3.6. Lỗi thường gặp
 
 | Lỗi thường gặp | Hậu quả | Cách xử lý |
 | --- | --- | --- |
@@ -273,9 +234,9 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 > [!danger] RỦI RO BỊ XỬ PHẠT
 > Quy tắc cộng dồn trong ngày. Mua hàng hóa, dịch vụ của MỘT NGƯỜI BÁN có giá trị dưới 05 triệu đồng nhưng mua NHIỀU LẦN TRONG CÙNG MỘT NGÀY, tổng giá trị từ 05 triệu đồng trở lên, thì chỉ được tính vào chi phí được trừ nếu có chứng từ thanh toán không dùng tiền mặt `[NĐ TNDN HN 19/VBHN-BTC Đ.9 k.1 đ.c1]`. Thao tác bắt buộc hằng tháng: CV-KT chạy bảng tổng hợp hóa đơn đầu vào nhóm theo mã số thuế người bán và theo ngày hóa đơn, lọc các nhóm có tổng từ 05 triệu đồng trở lên mà chứng từ thanh toán là tiền mặt. Danh sách này chuyển TL-KT soát, AM gửi khách trong tháng phát sinh.
 
-### 6.4. Phần hành 05.2: Mua hàng và công nợ phải trả
+### 5.4. Phần hành 05.2: Mua hàng và công nợ phải trả
 
-#### 6.4.1. Chứng từ đầu vào cần có
+#### 5.4.1. Chứng từ đầu vào cần có
 
 | # | Chứng từ | Ghi chú |
 | --- | --- | --- |
@@ -289,7 +250,7 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 | 8 | Bảng kê thu mua hàng hóa, dịch vụ không có hóa đơn, Mẫu số 02/TNDN `[TT 20/2026 Đ.3 k.13 đ.a]` | Với các trường hợp mua của người không có hóa đơn theo `[NĐ TNDN HN 19/VBHN-BTC Đ.9 k.1 đ.b]`;<br>phải do người đại diện theo pháp luật hoặc người được ủy quyền ký và chịu trách nhiệm |
 | 9 | Tờ khai hải quan, chứng từ nộp thuế nhập khẩu, thuế GTGT hàng nhập khẩu | Với hàng nhập khẩu |
 
-#### 6.4.2. Tài khoản sử dụng
+#### 5.4.2. Tài khoản sử dụng
 
 | Số hiệu | Tên tài khoản theo TT 99/2025 |
 | --- | --- |
@@ -305,7 +266,7 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 | 1383 | Thuế TTĐB của hàng nhập khẩu `[TT99 PL II]` |
 | 244 | Ký quỹ, ký cược `[TT99 PL II]` |
 
-#### 6.4.3. Các bước hạch toán
+#### 5.4.3. Các bước hạch toán
 
 1. Đối chiếu 100% hóa đơn đầu vào khách gửi với dữ liệu tra cứu trên `[PHẦN MỀM HĐĐT]`. Tiêu chí hoàn thành: hai danh sách khớp về số lượng và tổng tiền, phần lệch có bảng giải trình.
 2. Nhập hóa đơn mua hàng, tách riêng giá trị hàng và thuế GTGT được khấu trừ; hạch toán TK 1331 cho hàng hóa dịch vụ, TK 1332 cho tài sản cố định. Tiêu chí hoàn thành: tổng TK 133 phát sinh nợ trong kỳ khớp với chỉ tiêu thuế GTGT đầu vào trên tờ khai.
@@ -314,14 +275,14 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 5. Với hàng nhập khẩu, ghi nhận thuế nhập khẩu, thuế TTĐB hàng nhập khẩu và thuế GTGT hàng nhập khẩu theo tờ khai hải quan; thuế GTGT hàng nhập khẩu đã nộp mới được khấu trừ. Tiêu chí hoàn thành: số thuế đã nộp khớp chứng từ nộp ngân sách nhà nước.
 6. Rà các khoản trả trước cho người bán chưa tất toán dư Nợ TK 331 và các khoản phải trả còn dư Có; không bù trừ hai chiều của các đối tượng khác nhau. Tiêu chí hoàn thành: bảng tổng hợp công nợ tách riêng dư Nợ và dư Có theo từng đối tượng.
 
-#### 6.4.4. Sổ kế toán sử dụng
+#### 5.4.4. Sổ kế toán sử dụng
 
 - Sổ chi tiết thanh toán với người mua, người bán, ký hiệu S31-DN `[TT99 PL III phần A]`.
 - Sổ chi tiết thanh toán với người mua, người bán bằng ngoại tệ, ký hiệu S32-DN `[TT99 PL III phần A]`.
 - Sổ Nhật ký mua hàng, ký hiệu S03a3-DN, áp dụng cho hình thức Nhật ký chung `[TT99 PL III phần A]`.
 - Sổ theo dõi thuế GTGT, ký hiệu S61-DN `[TT99 PL III phần A]`.
 
-#### 6.4.5. Điểm kiểm soát
+#### 5.4.5. Điểm kiểm soát
 
 | # | Điểm kiểm soát | Tiêu chí đạt |
 | --- | --- | --- |
@@ -332,7 +293,7 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 | 5 | Số dư TK 331 theo từng đối tượng so với biên bản đối chiếu công nợ của khách | Khớp, hoặc chênh lệch đã phân loại theo Chương 06 |
 | 6 | Nhà cung cấp có dấu hiệu rủi ro về hóa đơn | Đã tra cứu tình trạng hoạt động của người bán trước khi ghi nhận |
 
-#### 6.4.6. Lỗi thường gặp
+#### 5.4.6. Lỗi thường gặp
 
 | Lỗi thường gặp | Hậu quả | Cách xử lý |
 | --- | --- | --- |
@@ -351,9 +312,9 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 > [!bug] LỖI THƯỜNG GẶP
 > Mua trả chậm trả góp. với hàng hóa, dịch vụ mua trả chậm, trả góp từ 05 triệu đồng trở lên, doanh nghiệp vẫn được khấu trừ GTGT đầu vào khi chưa đến thời điểm thanh toán theo hợp đồng. Đến thời điểm thanh toán theo hợp đồng hoặc phụ lục hợp đồng mà không có chứng từ thanh toán không dùng tiền mặt thì phải kê khai điều chỉnh GIẢM số thuế đầu vào đã khấu trừ vào kỳ tính thuế phát sinh nghĩa vụ thanh toán `[NĐ hợp nhất 18/VBHN-BTC ngày 04/06/2026 Đ.26, sửa bởi NĐ 144/2026/NĐ-CP Đ.4]`. CV-KT phải theo dõi lịch thanh toán theo hợp đồng, không theo lịch thực tế trả tiền.
 
-### 6.5. Phần hành 05.3: Bán hàng, doanh thu và công nợ phải thu
+### 5.5. Phần hành 05.3: Bán hàng, doanh thu và công nợ phải thu
 
-#### 6.5.1. Chứng từ đầu vào cần có
+#### 5.5.1. Chứng từ đầu vào cần có
 
 | # | Chứng từ | Ghi chú |
 | --- | --- | --- |
@@ -366,7 +327,7 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 | 7 | Chứng từ thu tiền, sao kê ngân hàng | Đối chiếu công nợ phải thu |
 | 8 | Biên bản đối chiếu công nợ với khách hàng | Tối thiểu cuối năm;<br>khuyến nghị theo quý |
 
-#### 6.5.2. Tài khoản sử dụng
+#### 5.5.2. Tài khoản sử dụng
 
 | Số hiệu | Tên tài khoản theo TT 99/2025 | Ghi chú |
 | --- | --- | --- |
@@ -380,7 +341,7 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 | 2293 | Dự phòng phải thu khó đòi `[TT99 PL II]` | Thuộc TK 229 Dự phòng tổn thất tài sản |
 | 337 | Thanh toán theo tiến độ hợp đồng xây dựng `[TT99 PL II]` | Với hợp đồng xây dựng |
 
-#### 6.5.3. Các bước hạch toán
+#### 5.5.3. Các bước hạch toán
 
 1. Tải danh sách toàn bộ hóa đơn đầu ra trong kỳ từ `[PHẦN MỀM HĐĐT]` và đối chiếu số lượng, số thứ tự hóa đơn liên tục. Tiêu chí hoàn thành: không có số hóa đơn bị nhảy chưa giải thích.
 2. Ghi nhận doanh thu theo từng hóa đơn, tách doanh thu và thuế GTGT đầu ra. Tiêu chí hoàn thành: tổng doanh thu chưa thuế trên sổ khớp với chỉ tiêu doanh thu trên tờ khai GTGT; tổng thuế GTGT đầu ra khớp chỉ tiêu tương ứng.
@@ -389,14 +350,14 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 5. Mở sổ chi tiết công nợ phải thu theo từng khách hàng trên TK 131. Tiêu chí hoàn thành: không tồn tại đối tượng gộp; số dư từng đối tượng có tuổi nợ.
 6. Rà các khoản phải thu quá hạn để chuẩn bị hồ sơ dự phòng phải thu khó đòi cuối năm trên TK 2293. Tiêu chí hoàn thành: bảng tuổi nợ đã lập và đã gửi khách.
 
-#### 6.5.4. Sổ kế toán sử dụng
+#### 5.5.4. Sổ kế toán sử dụng
 
 - Sổ chi tiết bán hàng, ký hiệu S35-DN `[TT99 PL III phần A]`.
 - Sổ Nhật ký bán hàng, ký hiệu S03a4-DN `[TT99 PL III phần A]`.
 - Sổ chi tiết thanh toán với người mua, người bán, ký hiệu S31-DN `[TT99 PL III phần A]`.
 - Sổ theo dõi thuế GTGT, ký hiệu S61-DN `[TT99 PL III phần A]`.
 
-#### 6.5.5. Điểm kiểm soát
+#### 5.5.5. Điểm kiểm soát
 
 | # | Điểm kiểm soát | Tiêu chí đạt |
 | --- | --- | --- |
@@ -407,7 +368,7 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 | 5 | Số dư TK 131 so với biên bản đối chiếu công nợ | Khớp, hoặc chênh lệch đã phân loại |
 | 6 | Doanh thu ghi nhận đúng kỳ theo thời điểm giao hàng, nghiệm thu | Không có doanh thu bị chuyển sang kỳ sau để giảm thuế |
 
-#### 6.5.6. Lỗi thường gặp
+#### 5.5.6. Lỗi thường gặp
 
 | Lỗi thường gặp | Hậu quả | Cách xử lý |
 | --- | --- | --- |
@@ -420,9 +381,9 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 > [!bug] LỖI THƯỜNG GẶP
 > Chi phí liên quan tới bán hàng dễ bị loại. khoản chi quảng cáo sản phẩm, hàng hóa, dịch vụ BỊ CẤM quảng cáo, hoặc phải đăng ký với cơ quan có thẩm quyền mà doanh nghiệp không đăng ký, không được trừ `[NĐ TNDN HN 19/VBHN-BTC Đ.10 k.23]`. Chi phí giới thiệu, marketing sản phẩm TRƯỚC KHI BÁN HÀNG được trừ nhưng phải có báo cáo về chủ trương đầu tư sản xuất sản phẩm, dịch vụ gửi cơ quan quản lý nhà nước liên quan, hoặc lưu trữ tại doanh nghiệp nếu pháp luật chuyên ngành không yêu cầu gửi `[NĐ TNDN HN 19/VBHN-BTC Đ.9 k.2 đ.i6]`. AM phải yêu cầu khách cung cấp hồ sơ này ngay trong tháng phát sinh, không đợi quyết toán.
 
-### 6.6. Phần hành 05.4: Hàng tồn kho và giá vốn
+### 5.6. Phần hành 05.4: Hàng tồn kho và giá vốn
 
-#### 6.6.1. Chứng từ đầu vào cần có
+#### 5.6.1. Chứng từ đầu vào cần có
 
 | # | Chứng từ | Ký hiệu mẫu tham khảo |
 | --- | --- | --- |
@@ -436,7 +397,7 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 | 8 | Định mức tiêu hao nguyên vật liệu do khách ban hành | Không có mẫu;<br>bắt buộc với doanh nghiệp sản xuất |
 | 9 | Hồ sơ hủy hàng tồn kho | Xem cảnh báo dưới |
 
-#### 6.6.2. Tài khoản sử dụng
+#### 5.6.2. Tài khoản sử dụng
 
 | Số hiệu | Tên tài khoản theo TT 99/2025 |
 | --- | --- |
@@ -455,10 +416,10 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 | 632 | Giá vốn hàng bán `[TT99 PL II]` |
 | 2294 | Dự phòng giảm giá hàng tồn kho `[TT99 PL II]` |
 
-> [!success] ĐÃ ĐỐI CHIẾU BẢN GỐC
-> Đã rà toàn văn bản gốc Thông tư 99/2025/TT-BTC, gồm cả Phụ lục II phần A và phần B, và xác nhận các số hiệu 611 và 631 không xuất hiện ở bất kỳ vị trí nào `[TT99, toàn văn; PL II phần A và phần B]`. Hệ quả trực tiếp là hệ thống tài khoản của chế độ mới không còn tài khoản chuyên dùng cho phương pháp kiểm kê định kỳ. Với khách đang hạch toán hàng tồn kho theo phương pháp kiểm kê định kỳ, CV-KT KHÔNG được tự chuyển đổi phương pháp; phải chuyển hồ sơ lên TL-KT để đối chiếu Phụ lục II phần B của bản gốc và quyết định cách xử lý.
+> [!note] CĂN CỨ VỀ TÀI KHOẢN HÀNG TỒN KHO THEO THÔNG TƯ 99/2025/TT-BTC
+> Danh mục tài khoản Thông tư 99/2025/TT-BTC không bố trí tài khoản 611 và 631 dùng riêng cho phương pháp kiểm kê định kỳ `[TT99, toàn văn; PL II phần A và phần B]`. Trường hợp khách hàng áp dụng phương pháp kiểm kê định kỳ, CV-KT không tự ý chuyển đổi phương pháp hạch toán mà chuyển hồ sơ cho TL-KT hướng dẫn thực hiện theo quy định tại Phụ lục II phần B Thông tư 99/2025/TT-BTC.
 
-#### 6.6.3. Các bước hạch toán
+#### 5.6.3. Các bước hạch toán
 
 1. Nhập toàn bộ phiếu nhập kho, phiếu xuất kho theo thứ tự thời gian; đối chiếu với hóa đơn mua và hóa đơn bán. Tiêu chí hoàn thành: mỗi phiếu nhập có chứng từ mua tương ứng; mỗi phiếu xuất bán có hóa đơn tương ứng.
 2. Xác định giá xuất kho theo phương pháp khách đã đăng ký và áp dụng nhất quán. Tiêu chí hoàn thành: phương pháp tính giá xuất kho được ghi trong hồ sơ khách và không đổi giữa các kỳ trong năm.
@@ -467,7 +428,7 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 5. Đối chiếu số lượng và giá trị tồn kho trên sổ với thẻ kho và biên bản kiểm kê. Tiêu chí hoàn thành: chênh lệch bằng không hoặc đã lập biên bản.
 6. Rà hàng tồn kho chậm luân chuyển, hư hỏng, hết hạn để chuẩn bị hồ sơ dự phòng hoặc hồ sơ hủy hàng. Tiêu chí hoàn thành: danh sách đã lập và đã gửi khách.
 
-#### 6.6.4. Sổ kế toán sử dụng
+#### 5.6.4. Sổ kế toán sử dụng
 
 - Sổ chi tiết vật liệu, dụng cụ, sản phẩm, hàng hóa, ký hiệu S10-DN `[TT99 PL III phần A]`.
 - Bảng tổng hợp chi tiết vật liệu, dụng cụ, sản phẩm, hàng hóa, ký hiệu S11-DN `[TT99 PL III phần A]`.
@@ -475,7 +436,7 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 - Sổ chi phí sản xuất, kinh doanh, ký hiệu S36-DN `[TT99 PL III phần A]`.
 - Thẻ tính giá thành sản phẩm, dịch vụ, ký hiệu S37-DN `[TT99 PL III phần A]`.
 
-#### 6.6.5. Điểm kiểm soát
+#### 5.6.5. Điểm kiểm soát
 
 | # | Điểm kiểm soát | Tiêu chí đạt |
 | --- | --- | --- |
@@ -485,7 +446,7 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 | 4 | Chi phí sản xuất so với định mức tiêu hao | Chênh lệch nằm trong biên độ khách đặt ra |
 | 5 | Hàng tồn kho tồn lớn hơn 12 tháng | Đã lập danh sách và báo khách |
 
-#### 6.6.6. Lỗi thường gặp
+#### 5.6.6. Lỗi thường gặp
 
 | Lỗi thường gặp | Hậu quả | Cách xử lý |
 | --- | --- | --- |
@@ -501,9 +462,9 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 > [!danger] RỦI RO BỊ XỬ PHẠT, dự phòng
 > Việc trích lập và sử dụng các khoản dự phòng không theo đúng quy định của pháp luật về trích lập dự phòng thì phần trích lập không được trừ; áp dụng cho dự phòng giảm giá hàng tồn kho, dự phòng tổn thất các khoản đầu tư tài chính, dự phòng nợ phải thu khó đòi, dự phòng bảo hành sản phẩm, hàng hóa, công trình xây lắp `[NĐ TNDN HN 19/VBHN-BTC Đ.10 k.5]`. Mức trích lập cụ thể nằm ở văn bản riêng về trích lập dự phòng, hiện chưa có trong bộ tài liệu nội bộ oBacker. CV-KT không được tự tính mức trích và không được ghi bút toán dự phòng; dự phòng là bút toán cần xét đoán nên do TL-KT trực tiếp làm sau khi tra văn bản.
 
-### 6.7. Phần hành 05.5: Tài sản cố định, công cụ dụng cụ và chi phí chờ phân bổ
+### 5.7. Phần hành 05.5: Tài sản cố định, công cụ dụng cụ và chi phí chờ phân bổ
 
-#### 6.7.1. Chứng từ đầu vào cần có
+#### 5.7.1. Chứng từ đầu vào cần có
 
 | # | Chứng từ | Ký hiệu mẫu tham khảo |
 | --- | --- | --- |
@@ -516,7 +477,7 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 | 7 | Hóa đơn mua tài sản, hợp đồng, biên bản nghiệm thu | Không có mẫu |
 | 8 | Giấy tờ chứng minh quyền sở hữu, quyền sử dụng | Không có mẫu;<br>bắt buộc để được khấu hao |
 
-#### 6.7.2. Tài khoản sử dụng
+#### 5.7.2. Tài khoản sử dụng
 
 | Số hiệu | Tên tài khoản theo TT 99/2025 | Ghi chú |
 | --- | --- | --- |
@@ -533,7 +494,7 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 | 2295 | Dự phòng tổn thất tài sản sinh học `[TT99 PL II]` | |
 | 153 | Công cụ, dụng cụ `[TT99 PL II]` | Không có tài khoản cấp 2 quy định sẵn |
 
-#### 6.7.3. Các bước hạch toán
+#### 5.7.3. Các bước hạch toán
 
 1. Ghi nhận tài sản mới: tập hợp chi phí hình thành trên TK 2411 hoặc TK 2412, kết chuyển sang TK 211, 212, 213 hoặc TK 215 khi hoàn thành bàn giao. Tiêu chí hoàn thành: mỗi tài sản có Biên bản giao nhận TSCĐ và Thẻ tài sản cố định.
 2. Tách chi phí sửa chữa, bảo dưỡng định kỳ (TK 2413) khỏi chi phí nâng cấp, cải tạo (TK 2414). Tiêu chí hoàn thành: mỗi khoản chi có biên bản mô tả nội dung công việc để phân loại.
@@ -542,14 +503,14 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 5. Ghi nhận thanh lý, nhượng bán tài sản: kết chuyển nguyên giá và hao mòn lũy kế, ghi nhận thu nhập khác TK 711 và chi phí khác TK 811. Tiêu chí hoàn thành: có Biên bản thanh lý TSCĐ và hóa đơn bán tài sản.
 6. Đối chiếu danh mục tài sản trên sổ với biên bản kiểm kê tài sản. Tiêu chí hoàn thành: khớp về số lượng và trạng thái sử dụng.
 
-#### 6.7.4. Sổ kế toán sử dụng
+#### 5.7.4. Sổ kế toán sử dụng
 
 - Sổ tài sản cố định, ký hiệu S21-DN `[TT99 PL III phần A]`.
 - Sổ theo dõi TSCĐ và công cụ, dụng cụ tại nơi sử dụng, ký hiệu S22-DN `[TT99 PL III phần A]`.
 - Thẻ Tài sản cố định, ký hiệu S23-DN `[TT99 PL III phần A]`.
 - Sổ chi phí đầu tư xây dựng, ký hiệu S52-DN `[TT99 PL III phần A]`.
 
-#### 6.7.5. Điểm kiểm soát
+#### 5.7.5. Điểm kiểm soát
 
 | # | Điểm kiểm soát | Tiêu chí đạt |
 | --- | --- | --- |
@@ -560,7 +521,7 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 | 5 | Quyền sử dụng đất trên TK 213 | Đã phân loại lâu dài hay có thời hạn |
 | 6 | Số dư TK 242 | Có bảng chi tiết từng khoản, từng thời gian phân bổ |
 
-#### 6.7.6. Lỗi thường gặp
+#### 5.7.6. Lỗi thường gặp
 
 | Lỗi thường gặp | Hậu quả | Cách xử lý |
 | --- | --- | --- |
@@ -585,9 +546,9 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 > - Khấu hao TSCĐ đã khấu hao hết giá trị không được trừ, trừ trường hợp được cơ quan có thẩm quyền cho phép đánh giá lại `[NĐ TNDN HN 19/VBHN-BTC Đ.10 k.6 đ.đ]`.
 > - TSCĐ tạm dừng do sản xuất theo mùa vụ DƯỚI 09 THÁNG, hoặc tạm dừng để sửa chữa, di dời, bảo trì, bảo dưỡng định kỳ DƯỚI 12 THÁNG, sau đó tiếp tục đưa vào sản xuất kinh doanh, thì trong thời gian tạm dừng VẪN ĐƯỢC trích khấu hao và tính vào chi phí được trừ; doanh nghiệp phải lưu giữ hồ sơ, nguyên nhân tạm dừng `[NĐ TNDN HN 19/VBHN-BTC Đ.10 k.6 đ.e3]`.
 
-### 6.8. Phần hành 05.6: Tiền lương và các khoản trích theo lương
+### 5.8. Phần hành 05.6: Tiền lương và các khoản trích theo lương
 
-#### 6.8.1. Chứng từ đầu vào cần có
+#### 5.8.1. Chứng từ đầu vào cần có
 
 | # | Chứng từ | Ký hiệu mẫu tham khảo |
 | --- | --- | --- |
@@ -602,7 +563,7 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 | 9 | Hợp đồng lao động, thỏa ước lao động tập thể, quy chế tài chính, quy chế thưởng | Không có mẫu;<br>là căn cứ bắt buộc để chi phí lương được trừ |
 | 10 | Bảng chấm công, thông báo kết quả đóng bảo hiểm | Không có mẫu |
 
-#### 6.8.2. Tài khoản sử dụng
+#### 5.8.2. Tài khoản sử dụng
 
 | Số hiệu | Tên tài khoản theo TT 99/2025 |
 | --- | --- |
@@ -620,7 +581,7 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 | 6421 | Chi phí nhân viên quản lý `[TT99 PL II]` |
 | 353 | Quỹ khen thưởng, phúc lợi, cấp 2 gồm 3531, 3532, 3533, 3534 `[TT99 PL II]` |
 
-#### 6.8.3. Các bước hạch toán
+#### 5.8.3. Các bước hạch toán
 
 1. Đối chiếu bảng lương với bảng chấm công và danh sách lao động đang tham gia bảo hiểm. Tiêu chí hoàn thành: số người trên bảng lương giải thích được so với số người tham gia bảo hiểm.
 2. Hạch toán chi phí lương vào đúng bộ phận: TK 622 hoặc TK 6231 cho nhân công trực tiếp, TK 6271 cho nhân viên phân xưởng, TK 6411 cho bộ phận bán hàng, TK 6421 cho bộ phận quản lý. Tiêu chí hoàn thành: bảng phân bổ tiền lương mẫu 08 - LĐTL khớp tổng phát sinh có TK 334.
@@ -629,7 +590,7 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 5. Ghi nhận thanh toán lương và nộp bảo hiểm; đối chiếu số dư TK 334 và các tài khoản 338 chi tiết. Tiêu chí hoàn thành: số dư khớp với số thực tế còn phải trả và còn phải nộp.
 6. Ghi nhận các khoản chi phúc lợi qua TK 353 hoặc vào chi phí theo bản chất và theo quy chế của khách. Tiêu chí hoàn thành: mỗi khoản có căn cứ trong hợp đồng lao động, thỏa ước lao động tập thể hoặc quy chế.
 
-#### 6.8.4. Điểm kiểm soát
+#### 5.8.4. Điểm kiểm soát
 
 | # | Điểm kiểm soát | Tiêu chí đạt |
 | --- | --- | --- |
@@ -640,7 +601,7 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 | 5 | Chứng từ chi trả lương thực tế | Có đủ, kể cả với lương trả bằng tiền mặt |
 | 6 | Các khoản thưởng, phụ cấp có ghi trong hồ sơ nội bộ | Đủ căn cứ |
 
-#### 6.8.5. Lỗi thường gặp và các cảnh báo
+#### 5.8.5. Lỗi thường gặp và các cảnh báo
 
 | Lỗi thường gặp | Hậu quả | Cách xử lý |
 | --- | --- | --- |
@@ -662,9 +623,9 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 > - Chi cho làm thêm giờ VƯỢT MỨC thời gian quy định của pháp luật về lao động không được trừ `[NĐ TNDN HN 19/VBHN-BTC Đ.10 k.23]`.
 > - Chi phí mua thẻ hội viên sân gôn và chi phí chơi gôn không được trừ `[NĐ TNDN HN 19/VBHN-BTC Đ.10 k.8 đ.l]`.
 
-### 6.9. Phần hành 05.7: Chi phí hoạt động
+### 5.9. Phần hành 05.7: Chi phí hoạt động
 
-#### 6.9.1. Chứng từ đầu vào cần có
+#### 5.9.1. Chứng từ đầu vào cần có
 
 - Hóa đơn dịch vụ mua ngoài: điện, nước, viễn thông, thuê văn phòng, vận chuyển, tư vấn.
 - Hợp đồng thuê địa điểm và hợp đồng dịch vụ đi kèm.
@@ -672,7 +633,7 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 - Biên bản xác nhận khoản tài trợ theo Mẫu số 01/TNDN `[TT 20/2026 Đ.3 k.5]` với các khoản tài trợ.
 - Chứng từ thanh toán không dùng tiền mặt với mọi khoản từ 05 triệu đồng trở lên.
 
-#### 6.9.2. Tài khoản sử dụng
+#### 5.9.2. Tài khoản sử dụng
 
 | Số hiệu | Tên tài khoản theo TT 99/2025 |
 | --- | --- |
@@ -686,7 +647,7 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 | 3339 | Phí, lệ phí và các khoản phải nộp khác `[TT99 PL II]` |
 | 6426 | Chi phí dự phòng, thuộc TK 642 `[TT99 PL II]` |
 
-#### 6.9.3. Các bước hạch toán
+#### 5.9.3. Các bước hạch toán
 
 1. Phân loại từng khoản chi vào đúng tài khoản cấp 2 của TK 641 hoặc TK 642 theo bản chất khoản chi. Tiêu chí hoàn thành: không có khoản nào rơi vào TK 6428 hoặc TK 6418 quá tỷ trọng bất thường mà không giải thích được.
 2. Tách các khoản chi phục vụ nhiều kỳ sang TK 242 và lập bảng phân bổ. Tiêu chí hoàn thành: bảng phân bổ đầy đủ ba mốc giá trị ban đầu, đã phân bổ, còn lại.
@@ -694,7 +655,7 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 4. Ghi nhận chi phí lãi vay vào TK 635; tách riêng phần lãi vay có rủi ro bị loại. Tiêu chí hoàn thành: có bảng theo dõi vốn điều lệ đã góp và tiến độ góp vốn theo điều lệ.
 5. Ghi nhận tiền phạt vi phạm hành chính và tiền chậm nộp thuế vào TK 811 và đánh dấu loại khi quyết toán. Tiêu chí hoàn thành: 100% khoản phạt được đánh dấu.
 
-#### 6.9.4. Điểm kiểm soát
+#### 5.9.4. Điểm kiểm soát
 
 | # | Điểm kiểm soát | Tiêu chí đạt |
 | --- | --- | --- |
@@ -704,7 +665,7 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 | 4 | Công tác phí | Có quyết định cử đi công tác và quy chế tài chính |
 | 5 | Tài trợ | Có Biên bản xác nhận khoản tài trợ Mẫu số 01/TNDN |
 
-#### 6.9.5. Lỗi thường gặp và cảnh báo
+#### 5.9.5. Lỗi thường gặp và cảnh báo
 
 > [!danger] RỦI RO BỊ XỬ PHẠT
 > Các khoản chi hoạt động thường bị loại
@@ -723,16 +684,16 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 > [!bug] LỖI THƯỜNG GẶP
 > Công tác phí. chi phụ cấp công tác, chi phí đi lại và tiền thuê chỗ ở cho người lao động đi công tác được trừ nếu có đầy đủ hóa đơn, chứng từ. Trường hợp chi phí công tác từ 05 triệu đồng trở lên do CÁ NHÂN thanh toán bằng dịch vụ thanh toán không dùng tiền mặt thì được coi là hình thức thanh toán không dùng tiền mặt của doanh nghiệp, với đủ bốn điều kiện: có hóa đơn, chứng từ hợp lệ; có quyết định hoặc văn bản cử người lao động đi công tác; quy chế tài chính hoặc quy chế nội bộ cho phép cá nhân thanh toán; khoản chi này sau đó được doanh nghiệp thanh toán lại cho người lao động `[NĐ TNDN HN 19/VBHN-BTC Đ.10 k.8 đ.h]`. CV-KT phải kiểm tra khách đã có quy chế nội bộ về khoản chi hộ đó chưa; nếu chưa, AM đề xuất khách ban hành ngay.
 
-### 6.10. Phần hành 05.8: Ngoại tệ và chênh lệch tỷ giá
+### 5.10. Phần hành 05.8: Ngoại tệ và chênh lệch tỷ giá
 
-#### 6.10.1. Chứng từ đầu vào cần có
+#### 5.10.1. Chứng từ đầu vào cần có
 
 - Hợp đồng ngoại thương, tờ khai hải quan, hóa đơn thương mại.
 - Sao kê tài khoản ngoại tệ, chứng từ mua bán ngoại tệ với ngân hàng.
 - Bảng công bố tỷ giá của ngân hàng thương mại nơi doanh nghiệp thường xuyên có giao dịch, lưu theo ngày sử dụng.
 - Bảng kiểm kê quỹ dùng cho ngoại tệ, vàng tiền tệ, ký hiệu 08b - TT `[TT99 PL I mục IV]`.
 
-#### 6.10.2. Tài khoản sử dụng
+#### 5.10.2. Tài khoản sử dụng
 
 | Số hiệu | Tên tài khoản theo TT 99/2025 |
 | --- | --- |
@@ -742,7 +703,7 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 | 1362 | Phải thu nội bộ về chênh lệch tỷ giá `[TT99 PL II]` |
 | 3362 | Phải trả nội bộ về chênh lệch tỷ giá `[TT99 PL II]` |
 
-#### 6.10.3. Các bước hạch toán
+#### 5.10.3. Các bước hạch toán
 
 1. Xác định đơn vị tiền tệ trong kế toán của khách. Mặc định là Đồng Việt Nam; chỉ khi doanh nghiệp chủ yếu thu, chi bằng ngoại tệ và đáp ứng các yếu tố tại khoản 2, 3, 4 Điều 4 thì được chọn một loại ngoại tệ làm đơn vị tiền tệ kế toán và chịu trách nhiệm về lựa chọn đó trước pháp luật `[TT99 Đ.4 k.1]`. Tiêu chí hoàn thành: hồ sơ khách ghi rõ đơn vị tiền tệ kế toán.
 2. Ghi nhận giao dịch phát sinh bằng ngoại tệ theo tỷ giá giao dịch thực tế tại thời điểm phát sinh. Tiêu chí hoàn thành: mỗi bút toán ngoại tệ có lưu bằng chứng tỷ giá của ngày tương ứng.
@@ -750,7 +711,7 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 4. Ghi nhận chênh lệch tỷ giá phát sinh từ giao dịch vào TK 635 hoặc TK 515 theo bản chất. Tiêu chí hoàn thành: không còn chênh lệch tỷ giá còn tồn trên tài khoản không phù hợp.
 5. Với đơn vị trực thuộc, sử dụng TK 1362 và TK 3362 cho chênh lệch tỷ giá nội bộ. Tiêu chí hoàn thành: số dư nội bộ hai chiều khớp nhau.
 
-#### 6.10.4. Điểm kiểm soát
+#### 5.10.4. Điểm kiểm soát
 
 | # | Điểm kiểm soát | Tiêu chí đạt |
 | --- | --- | --- |
@@ -759,7 +720,7 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 | 3 | Bảng đánh giá lại cuối kỳ | Đủ danh mục;<br>có ghi tỷ giá áp dụng |
 | 4 | Phân tách lãi lỗ tỷ giá do giao dịch và do đánh giá lại | Tách riêng, phục vụ loại chi phí khi quyết toán |
 
-#### 6.10.5. Lỗi thường gặp và cảnh báo
+#### 5.10.5. Lỗi thường gặp và cảnh báo
 
 | Lỗi thường gặp | Hậu quả | Cách xử lý |
 | --- | --- | --- |
@@ -774,11 +735,11 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 > [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
 > Khi khách muốn chuyển đơn vị tiền tệ trong kế toán, hoặc khi đơn vị tiền tệ kế toán không phải Đồng Việt Nam nên phải chuyển đổi BCTC sang Đồng Việt Nam để nộp cho cơ quan có thẩm quyền `[TT99 Đ.6 k.1]`, CV-KT phải chuyển hồ sơ lên TL-KT. Đây là nghiệp vụ có phương pháp quy đổi riêng theo từng khoản mục `[TT99 Đ.6 k.3 đ.a]`.
 
-### 6.11. Xử lý khi khách cung cấp chứng từ chậm hoặc thiếu
+### 5.11. Xử lý khi khách cung cấp chứng từ chậm hoặc thiếu
 
 Đây là tình huống thường trực của mô hình dịch vụ. oBacker không kiểm soát được nghiệp vụ phát sinh tại khách, nên quy trình dưới đây nhằm hai mục tiêu song song: giúp khách bổ sung được chứng từ, và ghi nhận bằng chứng để phân định trách nhiệm nếu sau này có thiệt hại.
 
-#### 6.11.1. Nguyên tắc nền
+#### 5.11.1. Nguyên tắc nền
 
 1. oBacker ghi sổ trên cơ sở chứng từ khách cung cấp. Không có chứng từ thì không ghi sổ. CV-KT tuyệt đối không được tự tạo chứng từ, tự điền số liệu ước tính, tự đặt tên nhà cung cấp.
 2. Mọi yêu cầu bổ sung chứng từ phải bằng văn bản qua kênh chính thức và phải lưu tại `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]`. Trao đổi qua tin nhắn cá nhân không có giá trị làm bằng chứng.
@@ -786,7 +747,7 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 4. Chứng từ kế toán chỉ được lập một lần cho mỗi nghiệp vụ kinh tế, tài chính phát sinh `[TT99 Đ.10 k.1]`. Không được lập lại chứng từ cho nghiệp vụ cũ chỉ để hợp thức hóa.
 5. Kế toán trưởng hoặc người được kế toán trưởng ủy quyền không được ký thừa ủy quyền chức danh của người quản lý, điều hành doanh nghiệp trên chứng từ kế toán, trừ trường hợp pháp luật có quy định khác `[TT99 Đ.10 k.4]`. Nhân sự oBacker làm dịch vụ kế toán trưởng phải nắm quy định này.
 
-#### 6.11.2. Quy trình chuyển lên cấp trên
+#### 5.11.2. Quy trình chuyển lên cấp trên
 
 | Mức | Thời điểm kích hoạt | Hành động | Người thực hiện | Đầu ra bắt buộc |
 | --- | --- | --- | --- | --- |
@@ -796,7 +757,7 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 | Mức 3 | Ngày 12, nếu vẫn thiếu và ảnh hưởng tới tờ khai sắp ký gửi ngày 13 | Gửi văn bản chính thức của oBacker nêu: (i) số liệu sẽ nộp trên tờ khai được lập trên cơ sở chứng từ hiện có;<br>(ii) phần thiếu chưa được ghi nhận;<br>(iii) khách chịu trách nhiệm về hậu quả phát sinh;<br>yêu cầu khách xác nhận bằng văn bản trước khi nộp tờ khai | AM soạn và gửi, TL-KT soát, COO ký | Văn bản có chữ ký COO;<br>xác nhận của khách |
 | Mức 4 | Sau ngày 18, chứng từ thiếu kéo dài từ 02 kỳ trở lên hoặc thiếu có giá trị trọng yếu | Đưa khách vào Danh sách rủi ro dịch vụ;<br>COO chủ trì họp với khách, AM là đầu mối mời khách và ghi biên bản;<br>lập biên bản làm việc ghi rõ phạm vi trách nhiệm hai bên;<br>cân nhắc điều chỉnh phạm vi dịch vụ hoặc tạm dừng dịch vụ theo hợp đồng;<br>nếu phải CHẤM DỨT hợp đồng thì trình CEO quyết định | COO, AM | Biên bản làm việc;<br>quyết định của COO, hoặc quyết định của CEO nếu chấm dứt hợp đồng |
 
-#### 6.11.3. Xử lý theo loại chứng từ thiếu
+#### 5.11.3. Xử lý theo loại chứng từ thiếu
 
 | Loại thiếu | Cách xử lý trên sổ trong kỳ | Việc phải làm ngay | Hạn chót thực tế |
 | --- | --- | --- | --- |
@@ -811,7 +772,7 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 > [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
 > Khi khách yêu cầu oBacker nộp tờ khai với số liệu mà CV-KT biết là chưa đầy đủ hoặc chưa có chứng từ, CV-KT phải dừng lại và chuyển TL-KT. Việc nộp tờ khai chỉ được thực hiện sau khi có văn bản xác nhận của khách theo Mức 3, do AM lấy về, và có phê duyệt của TL-KT.
 
-## 7. Điểm kiểm soát bắt buộc của toàn chương
+## 6. Điểm kiểm soát bắt buộc của toàn chương
 
 | # | Điểm kiểm soát | Không được bỏ qua vì |
 | --- | --- | --- |
@@ -825,7 +786,7 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 | 8 | Lập và lưu bằng chứng chuyển lên cấp trên khi khách thiếu chứng từ | Là căn cứ phân định trách nhiệm pháp lý giữa khách và oBacker |
 | 9 | TL-KT soát trước khi nộp mọi tờ khai | CV-KT không được tự nộp tờ khai chưa qua soát |
 
-## 8. Lỗi thường gặp và cách xử lý, tổng hợp cấp chương
+## 7. Lỗi thường gặp và cách xử lý, tổng hợp cấp chương
 
 | # | Lỗi thường gặp | Dấu hiệu nhận biết | Cách xử lý |
 | --- | --- | --- | --- |
@@ -838,7 +799,7 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 | 7 | Nhân sự oBacker ký thừa ủy quyền chức danh người quản lý điều hành của khách | Chữ ký oBacker xuất hiện ở ô giám đốc | Dừng ngay;<br>vi phạm `[TT99 Đ.10 k.4]` |
 | 8 | Khách có chi nhánh, đơn vị trực thuộc nhưng chỉ gửi chứng từ trụ sở chính | Doanh thu, chi phí không hợp lý so với quy mô | BCTC nộp cho cơ quan có thẩm quyền hoặc công khai phải bao gồm thông tin tài chính của cả trụ sở chính và các đơn vị trực thuộc `[TT99 Đ.7 k.3 đ.b]`; yêu cầu khách cung cấp đủ |
 
-## 9. Đầu ra và nơi lưu
+## 8. Đầu ra và nơi lưu
 
 | # | Đầu ra | Định dạng | Nơi lưu | Thời gian lưu |
 | --- | --- | --- | --- | --- |
@@ -852,7 +813,7 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 | 8 | Biên bản bàn giao số liệu tháng cho khách | Tệp có chữ ký | `[KHO LƯU TRỮ HỒ SƠ]` | Theo thời hạn lưu hồ sơ khách hàng |
 | 9 | Phiếu soát của TL-KT | Tệp có chữ ký | `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]` | Tối thiểu 03 năm |
 
-## 10. Chỉ số theo dõi
+## 9. Chỉ số theo dõi
 
 | # | Chỉ số | Cách tính | Ngưỡng mục tiêu | Người theo dõi |
 | --- | --- | --- | --- | --- |
@@ -905,4 +866,4 @@ Nếu còn thấy các số hiệu tại C.1, C.2, C.3 trên sổ của khách v
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.0.1 | Chuan hoa van phong hanh chinh va quy cach trinh bay callout thoi han theo phap luat va tai khoan hang ton kho |

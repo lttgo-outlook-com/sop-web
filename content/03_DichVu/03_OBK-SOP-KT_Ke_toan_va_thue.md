@@ -4,25 +4,20 @@ code: "OBK-SOP-KT"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 2, quy trình bộ phận"
-version: "R.1.0.1"
+version: "R.3.0.1"
 status: "đang áp dụng"
-draft_date: "01/10/2026"
+draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
 approver: "CEO"
 parent: "OBK-SOP-00 Chuẩn vận hành dịch vụ"
-law_as_of: "Pháp luật có hiệu lực tại ngày 25/08/2026"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-SOP-KT
 tags:
   - loai/sop
   - cap/2
-  - nghiep-vu/nghia-vu-ke-toan
-  - nghiep-vu/thanh-tra-kiem-tra-thue
-  - nghiep-vu/muc-toi-da-luat-dinh
 ---
 # OBK-SOP-KT KẾ TOÁN VÀ THUẾ
 
@@ -32,16 +27,16 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-SOP-KT |
 | Cấp tài liệu | Cấp 2, SOP bộ phận |
-| Phiên bản | R.1.0.1, đang áp dụng |
-| Ngày biên soạn | 01/10/2026 |
+| Phiên bản | R.3.0.1, đang áp dụng |
+| Ngày biên soạn | 04/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
 | Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] Chuẩn vận hành dịch vụ |
 | Hướng dẫn cấp 3 | `04_Handbook_KeToan/`, 22 chương và 7 phụ lục |
 
-> [!note] BẮT BUỘC ĐỌC TRƯỚC
-> Bộ phận này là bộ phận duy nhất đã có hướng dẫn cấp 3 đầy đủ. Nhưng Handbook Kế toán hiện đang chứa cả ba cấp: một số chương của Handbook là nội dung cấp 1 và cấp 2. Tài liệu này HÚT phần cấp 2 lên và để lại phần cấp 3. Bảng chuyển cấp đầy đủ, chỉ đích danh chương nào đi đâu và chương nào phải sửa, nằm tại `PL_3` mục 3. Trước khi dùng Handbook, đọc bảng đó.
+> [!note] QUY ĐỊNH PHÂN CẤP TÀI LIỆU
+> Tài liệu SOP này quy định các chuẩn mực vận hành cấp 2 của Bộ phận Kế toán và Thuế. Các nội dung hướng dẫn thao tác chi tiết cấp 3 được chuẩn hóa tại Handbook Kế toán (gồm 22 chương và 7 phụ lục). Danh mục phân định nội dung giữa cấp 2 và cấp 3 được quy định cụ thể tại PL_3 mục 3.
 
 ---
 
@@ -58,7 +53,7 @@ tags:
 | Nhóm | Đầu việc |
 | --- | --- |
 | Chứng từ và sổ sách | Thu thập, kiểm tra, số hóa, lưu trữ chứng từ;<br>hạch toán;<br>khóa sổ và đối chiếu kỳ |
-| Thuế định kỳ | Thuế GTGT;<br>tạm nộp thuế TNDN quý;<br>khấu trừ thuế TNCN;<br>thuế nhà thầu nước ngoài (FCT);<br>hóa đơn điện tử |
+| Thuế định kỳ | Thuế GTGT;<br>tạm nộp thuế TNDN quý;<br>khấu trừ thuế TNCN;<br>thuế nhà thầu nước ngoài (FCT);<br>hóa đơn điện tử;<br>nộp tiền thuê đất và thuế sử dụng đất theo thông báo của cơ quan thuế |
 | Báo cáo năm | Báo cáo tài chính năm;<br>quyết toán thuế TNDN;<br>quyết toán thuế TNCN |
 | Xử lý sai sót | Khai bổ sung, điều chỉnh sai sót kỳ trước, xử lý hóa đơn sai |
 | Làm việc với cơ quan thuế | Giải trình văn bản;<br>hỗ trợ kỳ kiểm tra và thanh tra thuế |
@@ -82,7 +77,7 @@ tags:
 
 ## 2. DANH MỤC JOB
 
-Nguồn mốc nội bộ: [[PL_C_Lich_tuan_thu_nam|OBK-SOP-PL-C]] và `PL_G` mục 10.3. Tài liệu này không chép lại lịch 12 tháng; tài liệu này chỉ đặt Job và trỏ tới lịch. Lý do: quy tắc một con số một chỗ tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 2.
+Nguồn mốc nội bộ: OBK-SOP-PL-C và `PL_G` mục 10.3. Tài liệu này không chép lại lịch 12 tháng; tài liệu này chỉ đặt Job và trỏ tới lịch. Lý do: quy tắc một con số một chỗ tại OBK-SOP-00 mục 2.
 
 Ký hiệu gói: G1 cơ bản, G2 tiêu chuẩn, G3 đầy đủ, G4 theo vụ việc. Định nghĩa gói tại `PL_G` mục 2.2 và mục 9.
 
@@ -96,7 +91,7 @@ Ký hiệu gói: G1 cơ bản, G2 tiêu chuẩn, G3 đầy đủ, G4 theo vụ v
 | KT-04 | Khóa sổ và đối chiếu kỳ | Hạch toán xong | Sổ kỳ;<br>sao kê ngân hàng;<br>bảng kê hóa đơn | Bảng cân đối số phát sinh;<br>bảng kiểm khóa sổ đã ký;<br>bảng chênh lệch;<br>bảng đối chiếu ba chiều;<br>bảng đối chiếu ngân hàng | Ngày 18 hằng tháng | Không có | Handbook Ch.06;<br>`PL_G` S16 |
 | KT-05 | Bàn giao số liệu kỳ cho khách | Khóa sổ xong | Bộ sổ kỳ | Biên bản bàn giao số liệu kèm danh mục tồn đọng, kể cả khi trống | Ngày 18 hằng tháng | Không có | `PL_G` S17, N12 |
 | KT-06 | Bộ báo cáo quản trị tháng, gói G3 | Khóa sổ xong | Sổ kỳ đã khóa | Bộ báo cáo 5 phần: kết quả theo mảng, dòng tiền, tuổi nợ phải thu, tuổi nợ phải trả, vòng quay tồn kho | Ngày 18 hằng tháng | Không có | `PL_G` S18, N13 |
-| KT-07 | Khai thuế GTGT kỳ | Theo lịch | Sổ kỳ đã khóa;<br>bảng đối chiếu ba chiều;<br>xác nhận của khách | Tờ khai đã nộp;<br>Thông báo tiếp nhận;<br>giấy nộp tiền | Ký gửi ngày 13 | Theo `PL_C` phần B | Handbook Ch.09, Ch.13 |
+| KT-07 | Khai thuế GTGT kỳ | Theo lịch | Sổ kỳ đã khóa;<br>bảng đối chiếu ba chiều;<br>xác nhận của khách | Tờ khai đã nộp;<br>Thông báo tiếp nhận;<br>giấy nộp tiền | Nháp tờ khai ngày 13; ký gửi ngày 19-20, sau khi KT-04 khóa sổ ngày 18 (khớp mốc "đóng sổ 16-25" của TnC) | Theo `PL_C` phần B | Handbook Ch.09, Ch.13 |
 | KT-08 | Tạm nộp thuế TNDN quý | Theo lịch quý | Sổ quý;<br>ước tính kết quả kinh doanh | Giấy nộp tiền | Nộp tiền ngày 20 của tháng đầu quý sau | Theo `PL_C` phần B | Handbook Ch.10;<br>`PL_G` S13 |
 | KT-09 | Khai thuế TNCN khấu trừ theo quý | Theo lịch quý | Bảng lương các kỳ trong quý;<br>bảng tính thuế TNCN | Tờ khai đã nộp;<br>Thông báo tiếp nhận;<br>giấy nộp tiền | Ký gửi ngày 23 của tháng đầu quý sau | Theo `PL_C` phần B | Handbook Ch.11;<br>`PL_G` S12 |
 | KT-10 | Thông báo số thuế phải nộp cho khách | Sau khi chốt tờ khai | Tờ khai đã chốt | Thông báo số thuế và hạn nộp gửi khách qua AM | Chậm nhất 01 ngày làm việc trước mốc nội bộ nộp tiền | Không có | `PL_G` S14 |
@@ -104,23 +99,27 @@ Ký hiệu gói: G1 cơ bản, G2 tiêu chuẩn, G3 đầy đủ, G4 theo vụ v
 | KT-12 | Bảng đối chiếu công nợ gửi khách xác nhận | Theo quý | Sổ công nợ | Bảng đối chiếu đã gửi và đã được khách xác nhận | Trong 05 ngày làm việc đầu tháng đầu quý sau | Không có | `PL_G` S20 |
 | KT-13 | Báo cáo soát xét trước quyết toán, gói G3 | Theo năm | Sổ 6 tháng đầu năm | Báo cáo soát xét | 31/07 | Không có | `PL_G` S21 |
 | KT-14 | Xin xác nhận số liệu quyết toán từ khách | Kỳ quyết toán thuế năm | Bộ số liệu năm đã khóa | Bộ hồ sơ xin xác nhận đã gửi khách | 24/03 | Không có | `PL_G` S22 |
-| KT-15 | Lập và nộp báo cáo tài chính năm | Kỳ quyết toán thuế năm | Sổ năm đã khóa;<br>xác nhận của khách | Báo cáo tình hình tài chính và Báo cáo kết quả hoạt động đã nộp;<br>Thông báo tiếp nhận | Nộp 25/03 | **90 ngày kể từ ngày kết thúc kỳ kế toán năm** | `PL_1` [[CC-KT-03 Nộp báo cáo tài chính năm, 90 ngày kể từ ngày kết thúc kỳ kế toán năm\|CC-KT-03]];<br>Handbook Ch.07 |
+| KT-15 | Lập và nộp báo cáo tài chính năm | Kỳ quyết toán thuế năm | Sổ năm đã khóa;<br>xác nhận của khách | Báo cáo tình hình tài chính và Báo cáo kết quả hoạt động đã nộp;<br>Thông báo tiếp nhận | Nộp 25/03 | **90 ngày kể từ ngày kết thúc kỳ kế toán năm** | `PL_1` CC-KT-03;<br>Handbook Ch.07 |
 | KT-16 | Quyết toán thuế TNDN năm | Kỳ quyết toán thuế năm | Sổ năm đã khóa;<br>xác nhận của khách | Tờ khai quyết toán đã nộp;<br>Thông báo tiếp nhận;<br>giấy nộp tiền | Nộp 25/03 | Theo `PL_C` phần C | Handbook Ch.14 |
 | KT-17 | Quyết toán thuế TNCN năm | Kỳ quyết toán thuế năm | Bảng lương cả năm;<br>hồ sơ người phụ thuộc | Tờ khai quyết toán đã nộp;<br>Thông báo tiếp nhận | Nộp 25/03 | Theo `PL_C` phần C | Handbook Ch.11, Ch.14 |
 | KT-18 | Bàn giao bộ hồ sơ báo cáo tài chính cho khách | Sau khi nộp | Bộ hồ sơ đã nộp | Bộ hồ sơ bàn giao | Trong 05 ngày làm việc sau khi nộp | Không có | `PL_G` S24 |
 | KT-19 | Xử lý sai sót và khai bổ sung | Phát hiện sai sót | Hồ sơ kỳ có sai sót | Hồ sơ khai bổ sung đã nộp;<br>bản đánh giá tác động | TL-KT xác định phạm vi và đề xuất phương án trong 02 ngày;<br>quyết có khai bổ sung hay không trong 02 ngày tiếp theo | Theo bản chất sai sót | Handbook Ch.15;<br>`PL_G` S29 |
 | KT-20 | Giải trình văn bản của cơ quan thuế | Cơ quan thuế gửi văn bản | Văn bản của cơ quan;<br>hồ sơ liên quan | Văn bản giải trình đã ký và đã gửi | TL-KT đọc và kết luận yêu cầu trong 01 ngày làm việc;<br>soạn và ký văn bản trong 03 ngày làm việc | **Theo thời hạn ghi trên chính văn bản của cơ quan** | `PL_G` S8;<br>Handbook Ch.16 |
-| KT-21 | Hỗ trợ kỳ kiểm tra hoặc thanh tra thuế | Có quyết định kiểm tra | Quyết định kiểm tra;<br>hồ sơ các kỳ liên quan | Phương án tiếp đoàn;<br>bộ hồ sơ xuất trình;<br>biên bản làm việc | Phản hồi NGAY trong ngày làm việc;<br>COO lập phương án tiếp đoàn trong 02 ngày làm việc;<br>khi đoàn yêu cầu hồ sơ tại trụ sở thì cung cấp trong 05 GIỜ LÀM VIỆC, mốc nội bộ đặt tại `PL_C` mục B dòng 11 | Theo quyết định về thời hạn kiểm tra.<br>Riêng việc cung cấp hồ sơ, tài liệu, hóa đơn, chứng từ, sổ kế toán khi đoàn yêu cầu tại trụ sở: **06 GIỜ LÀM VIỆC** kể từ khi nhận yêu cầu, chậm hơn là hành vi bị xử phạt | `PL_1` [[CC-KT-40 Cung cấp hồ sơ, tài liệu, hóa đơn, chứng từ, sổ kế toán liên quan đến nghĩa vụ thuế trong 06 GIỜ LÀM VIỆC kể từ khi nhận được yêu cầu của cơ\|CC-KT-40]], [[CC-KT-41 Mức phạt của khoản chứa hành vi trên, cùng khung với bốn hành vi khác của cùng khoản, phạt tiền từ 2.000.000 đồng đến 5.000.000 đồng. Bốn hành vi\|CC-KT-41]];<br>`PL_G` S9;<br>Handbook Ch.16 |
+| KT-21 | Hỗ trợ kỳ kiểm tra hoặc thanh tra thuế | Có quyết định kiểm tra | Quyết định kiểm tra;<br>hồ sơ các kỳ liên quan | Phương án tiếp đoàn;<br>bộ hồ sơ xuất trình;<br>biên bản làm việc | Phản hồi NGAY trong ngày làm việc;<br>COO lập phương án tiếp đoàn trong 02 ngày làm việc;<br>khi đoàn yêu cầu hồ sơ tại trụ sở thì cung cấp trong 05 GIỜ LÀM VIỆC, mốc nội bộ đặt tại `PL_C` mục B dòng 11 | Theo quyết định về thời hạn kiểm tra.<br>Riêng việc cung cấp hồ sơ, tài liệu, hóa đơn, chứng từ, sổ kế toán khi đoàn yêu cầu tại trụ sở: **06 GIỜ LÀM VIỆC** kể từ khi nhận yêu cầu, chậm hơn là hành vi bị xử phạt | `PL_1` CC-KT-40, CC-KT-41;<br>`PL_G` S9;<br>Handbook Ch.16 |
 | KT-22 | Trả lời câu hỏi nghiệp vụ đã đối chiếu bản gốc | Khách hỏi qua AM | Câu hỏi đã ghi trên hệ thống | Câu trả lời có mã căn cứ | T3 là 01 ngày làm việc | Không có | `PL_G` S1 |
 | KT-23 | Trả lời câu hỏi nghiệp vụ chưa đối chiếu bản gốc | Khách hỏi qua AM | Câu hỏi đã ghi trên hệ thống | Câu trả lời sau khi đã nâng lên mức đã đối chiếu bản gốc | T3 là 03 ngày làm việc để TL-KT đối chiếu bản gốc.<br>NHÁNH KÉO DÀI, ba điều kiện đủ theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 7.4a: điều kiện vào nhánh là TL-KT đã tra mà không kết luận được; mốc của nhánh là mốc của Job RD-10; và AM PHẢI cam kết lại T2 với khách trong 04 giờ làm việc kể từ khi mở Job RD-10 | Không có | `PL_G` S2 |
 | KT-24 | Xử lý câu hỏi chạm nội dung chưa xác minh được | Khách hỏi qua AM | Câu hỏi đã ghi trên hệ thống | Không trả lời nội dung. Thư hẹn mốc gửi khách; Job RD-12 đã mở cho Legal R&D | AM gửi thư hẹn mốc trong 04 giờ làm việc, đúng hạn T2 cho nội dung chưa xác minh được tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 7.2.4;<br>TL-KT DỪNG và mở Job RD-12 trong cùng ngày làm việc, đồng thời thông tin COO | Không có | `PL_G` S3;<br>[[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] NT-1 |
 | KT-25 | Đánh giá tác động khi có văn bản pháp luật mới | Legal R&D thông báo | Văn bản mới đã nhập kho | Bản đánh giá tác động;<br>danh sách khách bị ảnh hưởng | Mốc theo BỐN MỨC ƯU TIÊN, bản gốc tại [[21_Cap_nhat_van_ban_phap_luat\|OBK-SOP-21]] mục 6.2.3: Legal R&D hoàn thành đánh giá tác động theo mốc của mức ưu tiên đã phân, `TL-KT` rà danh sách khách bị ảnh hưởng trong cùng mốc đó.<br>Job này không đặt lại con số, chỉ dẫn chiếu | Theo ngày hiệu lực của văn bản | `PL_G` S31;<br>[[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 12.3 |
 | KT-26 | Rà soát đầu năm cho cả danh mục khách | Đầu năm | Danh mục khách | Kết luận phân loại kỳ khai thuế, thuế suất và ưu đãi, chế độ kế toán, danh mục hồ sơ cho từng khách | Theo `PL_C` phần D | Không có | `PL_C` phần D |
-| KT-27 | Chốt các khoản có mức khống chế trước 31/12 | Cuối năm | Sổ tới thời điểm rà | Bản rà soát các khoản chạm mức tối đa: trang phục, phúc lợi, bảo hiểm hưu trí bổ sung, ăn giữa ca, quỹ lương dự phòng, khấu hao xe từ 9 chỗ trở xuống | Trước 31/12 | Không có | `PL_1` [[CC-KT-11 Chi trang phục bằng tiền, 05 triệu đồng-người-năm\|CC-KT-11]] tới [[CC-KT-16 Ô tô chở người từ 9 chỗ trở xuống, khấu hao tương ứng phần nguyên giá vượt 1,6 tỷ đồng-xe không được trừ\|CC-KT-16]];<br>`PL_C` phần E.2 |
+| KT-27 | Chốt các khoản có mức khống chế trước 31/12 | Cuối năm | Sổ tới thời điểm rà | Bản rà soát các khoản chạm mức tối đa: trang phục, phúc lợi, bảo hiểm hưu trí bổ sung, ăn giữa ca, quỹ lương dự phòng, khấu hao xe từ 9 chỗ trở xuống | Trước 31/12 | Không có | `PL_1` CC-KT-11 tới CC-KT-16;<br>`PL_C` phần E.2 |
 | KT-28 | Bàn giao khi kết thúc dịch vụ | AM báo kết thúc | Toàn bộ hồ sơ khách | Bộ bàn giao đầy đủ;<br>biên bản bàn giao | Chuẩn bị trong 05 ngày làm việc kể từ khi AM báo.<br>Đây là mốc ĐẾM TIẾN từ ngày AM báo, đo thời gian phản ứng của bộ phận.<br>Handbook Chương 20 mục 6.3 có thêm một mốc ĐẾM LÙI, bộ hồ sơ bàn giao phải sẵn sàng chậm nhất 10 ngày làm việc trước ngày kết thúc, đo mức sẵn sàng trước ngày khách rời.<br>Hai mốc có hai điểm neo khác nhau và không thay nhau; khi AM báo muộn thì hai mốc chồng nhau, áp mốc NÀO ĐẾN TRƯỚC và ghi lý do trên Job | Không có | Handbook Ch.20 |
 | KT-29 | Thu hồi quyền truy cập | Sau bàn giao hoặc nhân sự nghỉ việc | Danh sách quyền truy cập | Bản ghi đã thu hồi | Sau bàn giao khách: 24 giờ.<br>Nhân sự nghỉ việc: chậm nhất trong ngày làm việc cuối; 04 giờ nếu nghỉ đột ngột hoặc chấm dứt do vi phạm | Không có | `PL_G` S35, S36 |
+| KT-30 | Nộp tiền thuê đất và thuế sử dụng đất | Cơ quan thuế gửi thông báo nộp tiền thuê đất | Thông báo nộp tiền thuê đất của cơ quan thuế | Biên nộp tiền thuê đất, thuế sử dụng đất | Nộp trong thời hạn ghi trên thông báo của cơ quan thuế | Lần đầu: 30 ngày kể từ ngày ban hành thông báo của cơ quan thuế;<br>các năm tiếp theo: hạn nộp hằng năm theo lựa chọn nộp một lần hoặc hai lần trong năm | Handbook Ch.13;<br>NĐ 252/2026 Đ.21, TT 89/2026 Đ.25 |
 
 %%/JOBTABLE:KT%%
+
+Yêu cầu không khớp Job nào: xem [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 5.6.
+
 
 ---
 
@@ -128,7 +127,7 @@ Ký hiệu gói: G1 cơ bản, G2 tiêu chuẩn, G3 đầy đủ, G4 theo vụ v
 
 Ký hiệu theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 5.1. Bảng chuyển đổi từ ký hiệu cũ của Handbook tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 5.2.
 
-### 3.1. Ba vai trò của bộ phận
+### 3.1. Cơ cấu vai trò của bộ phận
 
 | Ký hiệu | Vai trò | Làm gì | Ký hiệu cũ trong Handbook |
 | --- | --- | --- | --- |
@@ -136,37 +135,36 @@ Ký hiệu theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 5.1. B
 | **TL-KT** | Team Lead bộ phận Kế toán dịch vụ | Chốt kỹ thuật; lớp kiểm soát chất lượng thứ hai; quyết định cách xử lý nghiệp vụ cần xét đoán; ký hồ sơ gửi cơ quan thuế thay khách khi được ủy quyền.<br>Tại 02/09/2026 do người giữ vai trò `KTT` kế toán trưởng NỘI BỘ kiêm nhiệm | KTT |
 | **COO** | Giám đốc vận hành, trực tiếp phụ trách Phòng Dịch vụ | Điều hành, định biên, phân bổ khách, trả lời câu hỏi khả thi khi AM và TL-KT xung đột theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 8.2.1 | TBP |
 
-> [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
-> OBacker không đứng tên trên báo cáo tài chính của khách trong trường hợp mặc định. Ngoại lệ phải do CEO duyệt từng khách một, bằng văn bản.
+> [!warning] THẨM QUYỀN ĐỨNG TÊN BÁO CÁO TÀI CHÍNH
+> Theo quy định mặc định, oBacker không đứng tên chức danh kế toán trưởng trên báo cáo tài chính của khách hàng. Các trường hợp ngoại lệ bắt buộc phải có văn bản phê duyệt riêng của CEO đối với từng khách hàng cụ thể.
 
 > [!danger] RỦI RO BỊ XỬ PHẠT
-> Đọc trước khi phân công. Người giữ vai trò `TL-KT` tại 02/09/2026 đồng thời là `KTT`, kế toán trưởng NỘI BỘ của oBacker. Nghĩa là một người vừa chốt kỹ thuật trên sổ sách của KHÁCH vừa phụ trách sổ sách CỦA CHÍNH OBACKER, và đồng thời giữ một chức danh có tính quản lý. Ba điều cấm của Luật Kế toán có thể chạm tới cách bố trí này. Kết luận và ràng buộc phải giữ tại `01_ToChuc/OBK-QCTC-02` mục 19.1 và 19.2.
+> Người giữ vai trò `TL-KT` đồng thời là `KTT`, kế toán trưởng NỘI BỘ của oBacker. Một người vừa chốt kỹ thuật trên sổ sách của KHÁCH vừa phụ trách sổ sách CỦA OBACKER và đồng thời giữ một chức danh có tính quản lý. Ba điều cấm của Luật Kế toán áp cho cách bố trí này. Kết luận và ràng buộc giữ tại `01_ToChuc/OBK-QCTC-02` mục 19.1 và 19.2.
 
 > [!bug] LỖI THƯỜNG GẶP
 > Ba thứ đang bị gọi chung là "kế toán trưởng". Phân biệt rõ trước khi ký bất cứ gì.
 >
-> Một, `TL-KT` là Team Lead bộ phận Kế toán dịch vụ, người chốt kỹ thuật trên hồ sơ KHÁCH của oBacker.
+> 1. `TL-KT` là Team Lead bộ phận Kế toán dịch vụ, người chốt kỹ thuật trên hồ sơ KHÁCH của oBacker.
 >
-> Hai, `KTT` là kế toán trưởng NỘI BỘ, phụ trách sổ sách CỦA OBACKER; đây là vai trò của mảng nội bộ, xem [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo|OBK-SOP-NB-00]].
+> 2. `KTT` là kế toán trưởng NỘI BỘ, phụ trách sổ sách CỦA OBACKER; đây là vai trò của mảng nội bộ, xem [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo|OBK-SOP-NB-00]].
 >
-> Ba, kế toán trưởng CỦA KHÁCH HÀNG, người đứng tên trên báo cáo tài chính của khách; mặc định không phải người của oBacker, ngoại lệ do CEO duyệt từng khách một bằng văn bản.
+> 3. Kế toán trưởng CỦA KHÁCH HÀNG, người đứng tên trên báo cáo tài chính của khách; mặc định không phải người của oBacker, ngoại lệ do CEO duyệt từng khách một bằng văn bản.
 >
-> Ba vai trò này mang ba trách nhiệm pháp lý khác nhau và không thay nhau được. Tại 02/09/2026, vai trò một và vai trò hai do cùng một người giữ; vai trò ba mặc định không thuộc oBacker.
+> Ba vai trò mang ba trách nhiệm pháp lý khác nhau và không thay nhau được. Vai trò 1 và vai trò 2 do cùng một người giữ; vai trò 3 mặc định không thuộc oBacker.
 
-### 3.2. RACI theo 10 bước chuẩn
+### 3.2. RACI theo quy trình vận hành chuẩn
 
 | Bước | CV-KT | TL-KT | AM | LEG | COO |
 | --- | --- | --- | --- | --- | --- |
-| B1 Tiếp nhận yêu cầu | I | A | R | N/A | I |
-| B2 Lưu trữ đầu vào | R | A | C | N/A | N/A |
-| B3 Phân loại Job | R | A | I | N/A | N/A |
-| B4 Kiểm tra điều kiện và khả thi | R | A | I | C | C (câu hỏi khả thi khi xung đột với AM) |
-| B5 Tổng hợp dữ liệu | R | A | C | N/A | N/A |
-| B6 Thực hiện nghiệp vụ | R | A, R (phần cần xét đoán) | I | C | N/A |
-| B7 Kiểm soát chất lượng | R (lớp 1) | A, R (lớp 2), và ký hồ sơ gửi cơ quan thuế | I | N/A | N/A |
-| B8 Bàn giao qua AM | R | A | R | N/A | I |
-| B9 Theo dõi tới khi có kết quả | R | A | R | N/A | I |
-| B10 Đóng Job và cập nhật | R | A | C | N/A | I |
+| B1 Tiếp nhận và khả thi | I (B1);<br>R (B2, B3, B4) | A | R (B1);<br>C (B2);<br>I (B3, B4) | N/A (B1, B2, B3);<br>C (B4) | I (B1);<br>N/A (B2, B3);<br>C (B4, câu hỏi khả thi khi xung đột với AM) |
+| B2 Thực hiện | R | A (B5, B6);<br>R (B6, phần cần xét đoán) | C (B5);<br>I (B6) | N/A (B5);<br>C (B6) | N/A |
+| B3 Kiểm soát chất lượng | R (lớp 1, mọi Tier) | A;<br>R (lớp 2): hai lớp là mặc định, Tier 1 giảm lớp 2, Tier 3 thêm hậu kiểm bắt buộc, theo NT-5 OBK-SOP-00;<br>Job tiền lương, bảo hiểm xã hội, thuế TNCN (KT-09, KT-17) giữ hai lớp trong mọi Tier;<br>và ký hồ sơ gửi cơ quan thuế | I | N/A | N/A |
+| B4 Bàn giao qua AM | R | A | R | N/A | I |
+| B5 Theo dõi và đóng | R | A | R (B9);<br>C (B10) | N/A | I |
+
+### 3.3. Quy ước custodial token chữ ký số của khách hàng
+
+Token chữ ký số chuyên dụng của khách hàng do bộ phận Kế toán giữ tập trung, tại tủ bảo mật của bộ phận do `AD-KT` quản lý, theo OBK-SOP-PL-H mục 4.6. Bộ phận nào cần nộp tờ khai, báo cáo điện tử, kể cả nộp bảo hiểm xã hội, thì xin token từ bộ phận Kế toán, ký nhận và ký trả trên phiếu CK-02, dùng xong trả lại ngay. Không lưu giữ USB Token tại văn phòng oBacker quá 24 giờ làm việc, theo Bản Điều Khoản Chung mục 20.2 nguyên tắc (1).
 
 ---
 
@@ -174,7 +172,7 @@ Ký hiệu theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 5.1. B
 
 | Mã | Chốt | Trước bước nào | Ai kiểm | Không đạt thì làm gì |
 | --- | --- | --- | --- | --- |
-| KS-KT-01 | Bảng kiểm khóa sổ 100% dòng có kết luận Đạt, Không đạt kèm phương án, hoặc Không áp dụng.<br>không dòng nào để trống. Có chữ ký CV-KT và TL-KT kèm ngày | Trước khi lập tờ khai | TL-KT | Không lập tờ khai. Quay lại B6 |
+| KS-KT-01 | Bảng kiểm khóa sổ 100% dòng có kết luận Đạt, Không đạt kèm phương án, hoặc Không áp dụng.<br>không dòng nào để trống. Có chữ ký CV-KT và TL-KT kèm ngày | Trước khi lập tờ khai | TL-KT | Không lập tờ khai. Quay lại B2 |
 | KS-KT-02 | Bảng cân đối số phát sinh cân, tồn kho và quỹ tiền mặt không âm | Trước khi khóa sổ | TL-KT | Tìm nguyên nhân. Cấm dùng bút toán cân bằng để xóa chênh lệch |
 | KS-KT-03 | Bảng đối chiếu ba chiều hóa đơn, doanh thu sổ, tờ khai GTGT khớp, hoặc mọi chênh lệch có giải thích kèm chứng từ | Trước khi ký gửi tờ khai GTGT | TL-KT | Không ký gửi |
 | KS-KT-04 | Có văn bản xác nhận số liệu của khách trước khi ký gửi | Trước khi ký gửi mọi hồ sơ thuế | TL-KT | Không ký gửi. AM chịu trách nhiệm lấy xác nhận |
@@ -202,19 +200,19 @@ Ký hiệu theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 5.1. B
 > Trích văn bản hợp nhất mà bỏ năm. `18/VBHN-BTC` có hai văn bản khác nhau; `15/VBHN-BTC` cũng vậy. Cách xử lý: luôn ghi kèm ngày ban hành. Xem `PL_1` mục 6.2.
 
 > [!bug] LỖI THƯỜNG GẶP
-> Quên nhóm sáng lập viên khi rà thù lao không được trừ. `19/VBHN-BTC` ngày 04/06/2026 Đ.10 k.8 đ.d phủ cả SÁNG LẬP VIÊN và thành viên hội đồng thành viên, không chỉ thành viên HĐQT. Xem `PL_1` [[CC-KT-20 `19-VBHN-BTC` ngày 04-06-2026 Đ.10 k.8 đ.d phủ CẢ SÁNG LẬP VIÊN và thành viên hội đồng thành viên|CC-KT-20]].
+> Quên nhóm sáng lập viên khi rà thù lao không được trừ. Khi rà khoản thù lao không được trừ, phạm vi áp dụng phủ cả SÁNG LẬP VIÊN và thành viên hội đồng thành viên, không chỉ thành viên HĐQT.
 
 > [!bug] LỖI THƯỜNG GẶP
-> Dùng tên báo cáo cũ. Bản hợp nhất Luật Kế toán đổi tên thành "Báo cáo tình hình tài chính" và "Báo cáo kết quả hoạt động". Dùng tên cũ trên hồ sơ gửi cơ quan là dấu hiệu tài liệu chưa cập nhật. Xem `PL_1` [[CC-KT-05 Bản hợp nhất Luật Kế toán ĐỔI TÊN báo cáo, Báo cáo tình hình tài chính và Báo cáo kết quả hoạt động. KHÔNG còn Bảng cân đối kế toán và Báo|CC-KT-05]].
+> Dùng tên báo cáo cũ. Bản hợp nhất Luật Kế toán đổi tên thành "Báo cáo tình hình tài chính" và "Báo cáo kết quả hoạt động". Dùng tên cũ trên hồ sơ gửi cơ quan là dấu hiệu tài liệu chưa cập nhật. Xem `PL_1` CC-KT-05.
 
 > [!bug] LỖI THƯỜNG GẶP
-> Chứng từ bên mua nộp tiền mặt vào tài khoản bên bán. Đây không được tính là chứng từ thanh toán không dùng tiền mặt. Rất nhiều khách làm cách này và tưởng là hợp lệ. Xem `PL_1` [[CC-KT-10 Ngưỡng thanh toán không dùng tiền mặt, 05 triệu đồng ĐÃ GỒM VAT|CC-KT-10]].
+> Chứng từ bên mua nộp tiền mặt vào tài khoản bên bán. Đây không được tính là chứng từ thanh toán không dùng tiền mặt. Rất nhiều khách làm cách này và tưởng là hợp lệ.
 
 ---
 
 ## 6. CHỈ SỐ ĐO LƯỜNG
 
-Ngoài tám chỉ số chung tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 11.1, bộ phận này đo thêm sáu chỉ số của `PL_G` mục 10.6. Hai chỉ số dưới đây KHÁC NHAU VỀ BẢN CHẤT và không được gộp:
+Ngoài tám chỉ số chung tại OBK-SOP-00 mục 11.1, bộ phận này đo thêm sáu chỉ số của `PL_G` mục 10.6. Hai chỉ số dưới đây KHÁC NHAU VỀ BẢN CHẤT và không được gộp:
 
 | Mã | Chỉ số | Mục tiêu | Ai chịu |
 | --- | --- | --- | --- |
@@ -231,8 +229,8 @@ Bảng giới hạn số lượng theo gói nằm tại `PL_G` mục 10.5, khôn
 
 **Quy tắc khi vượt giới hạn.** AM chuyển thành yêu cầu G4 và báo giá. Không tự làm thêm miễn phí, và cũng không từ chối thẳng. Người quyết là COO trong hạn mức, CEO nếu vượt.
 
-> [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
-> SLA trong `PL_G` mục 10.2 và 10.3 là CHUẨN NỘI BỘ. Chỉ những dòng đã đưa vào hợp đồng hoặc phụ lục dịch vụ mới là nghĩa vụ với khách. AM tuyệt đối không cam kết miệng một mốc không có trong hợp đồng.
+> [!warning] NGUYÊN TẮC CAM KẾT SLA VỚI KHÁCH HÀNG
+> Thời hạn SLA quy định tại PL_G mục 10.2 và 10.3 là tiêu chuẩn vận hành nội bộ. Chỉ các điều khoản và mốc thời gian được ghi nhận chính thức trong hợp đồng hoặc phụ lục dịch vụ mới xác lập nghĩa vụ pháp lý đối với khách hàng. Nhân sự AM không cam kết bằng lời nói về bất kỳ mốc thời gian nào ngoài hợp đồng.
 
 ---
 
@@ -241,10 +239,93 @@ Bảng giới hạn số lượng theo gói nằm tại `PL_G` mục 10.5, khôn
 Handbook Kế toán 22 chương và 7 phụ lục là hướng dẫn cấp 3 của bộ phận này. Ba việc phải làm để Handbook về đúng cấp:
 
 1. Sáu chương của Handbook mang nội dung cấp 1 và cấp 2 phải được hạ xuống thành dẫn chiếu. Danh sách và cách sửa tại `PL_3` mục 3.
-2. Bộ vai trò CV-KT, TL-KT, AM, TBP, CEO của Handbook phải đổi sang bộ vai trò thống nhất. Bảng chuyển đổi tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 5.2.
-3. `PL_G` mục 10.2 cột "Phản hồi đầu tiên" là 04 giờ làm việc, nhưng đó là đồng hồ T2 (cam kết mốc trả lời), không phải T1 (xác nhận đã nhận). Phải sửa tên cột theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 7.2.2, nếu không thì tên cột đó mâu thuẫn với Channel SLA.
+2. Bộ vai trò CV-KT, TL-KT, AM, TBP, CEO của Handbook phải đổi sang bộ vai trò thống nhất. Bảng chuyển đổi tại OBK-SOP-00 mục 5.2.
+3. `PL_G` mục 10.2 cột "Phản hồi đầu tiên" là 04 giờ làm việc, nhưng đó là đồng hồ T2 (cam kết mốc trả lời), không phải T1 (xác nhận đã nhận). Phải sửa tên cột theo OBK-SOP-00 mục 7.2.2, nếu không thì tên cột đó mâu thuẫn với Channel SLA.
 
 Cho tới khi ba việc này xong, khi Handbook và tài liệu này khác nhau thì **lấy tài liệu này**.
+
+---
+
+## CÂU HỎI THƯỜNG GẶP THEO JOB
+
+### KT-01. Tiếp nhận khách hàng mới
+
+**Nếu khách chưa cung cấp chữ ký số hoặc tài khoản khai thuế tới ngày làm việc thứ 07 thì làm gì?**
+CV-KT không tự nhận rủi ro và chờ. Báo TL-KT trong ngày; AM thông báo khách; TL-KT báo COO nếu có nghĩa vụ tới hạn trong 15 ngày tới.
+
+**Nếu biên bản hiện trạng 14 mục chưa có chữ ký khách thì Job đóng được không?**
+Không. Biên bản có chữ ký khách là đầu ra bắt buộc của Job; CV-KT lập, TL-KT soát, COO duyệt, AM lấy xác nhận, khách xác nhận.
+
+**Nếu trong 30 ngày làm việc đầu phát hiện việc tồn đọng kỳ trước của khách thì xử lý thế nào?**
+Lập danh mục vấn đề tồn đọng kèm đề xuất xử lý và gửi khách báo giá dịch vụ G4. TL-KT xác nhận khối lượng, AM soạn và gửi, COO duyệt, theo mốc M1.C của `PL_G` mục 4.
+
+### KT-07. Khai thuế GTGT kỳ
+
+**Nếu nháp tờ khai đã xong ngày 13 nhưng chưa có văn bản xác nhận số liệu của khách thì ký gửi được không?**
+Không. KS-KT-04 yêu cầu có văn bản xác nhận số liệu của khách trước khi ký gửi mọi hồ sơ thuế; AM chịu trách nhiệm lấy xác nhận.
+
+**Nếu bảng đối chiếu ba chiều có chênh lệch chưa giải thích được thì sao?**
+Không ký gửi. KS-KT-03 yêu cầu bảng đối chiếu ba chiều hóa đơn, doanh thu sổ, tờ khai GTGT khớp, hoặc mọi chênh lệch có giải thích kèm chứng từ.
+
+**Nếu số thuế trên tờ khai khác số dư tài khoản thuế trên sổ thì xử lý thế nào?**
+Không ký gửi theo KS-KT-05. Tìm nguyên nhân trên sổ kỳ đã khóa; cấm dùng bút toán cân bằng để xóa chênh lệch.
+
+**Nếu tờ khai GTGT đã chốt thì Job nào chạy tiếp?**
+KT-10 thông báo số thuế và hạn nộp cho khách qua AM, chậm nhất 01 ngày làm việc trước mốc nội bộ nộp tiền.
+
+### KT-10. Thông báo số thuế phải nộp cho khách
+
+**Nếu tờ khai chưa chốt thì đã thông báo số thuế cho khách được chưa?**
+Chưa. Job này phát sinh sau khi chốt tờ khai; đầu vào bắt buộc là tờ khai đã chốt.
+
+**Nếu thông báo chưa đi mà mốc nội bộ nộp tiền sắp tới thì tính thế nào?**
+Trượt mốc SLA của Job: thông báo phải đi chậm nhất 01 ngày làm việc trước mốc nội bộ nộp tiền. Trượt mốc nội bộ là tín hiệu báo trước cho chỉ số SLA-03, xem mục 6.
+
+### KT-21. Hỗ trợ kỳ kiểm tra hoặc thanh tra thuế
+
+**Nếu đoàn yêu cầu xuất hồ sơ, tài liệu tại trụ sở thì mốc nào phải đạt?**
+Cung cấp trong 05 GIỜ LÀM VIỆC theo mốc nội bộ tại `PL_C` mục B dòng 11. Mốc pháp luật là 06 GIỜ LÀM VIỆC kể từ khi nhận yêu cầu; chậm hơn là hành vi bị xử phạt.
+
+**Nếu nhận quyết định kiểm tra vào buổi chiều thì phản hồi và lập phương án tiếp đoàn khi nào?**
+Phản hồi NGAY trong ngày làm việc nhận được quyết định; COO lập phương án tiếp đoàn trong 02 ngày làm việc.
+
+**Nếu vượt mốc 06 GIỜ LÀM VIỆC cung cấp hồ sơ thì hậu quả pháp lý là gì?**
+Bị xử phạt tiền từ 2.000.000 đồng đến 5.000.000 đồng, cùng khung với bốn hành vi khác của cùng khoản, xem `PL_1` CC-KT-41.
+
+### KT-23. Trả lời câu hỏi nghiệp vụ chưa đối chiếu bản gốc
+
+**Nếu TL-KT đã tra trong 03 ngày làm việc mà vẫn không kết luận được thì Job đi tiếp thế nào?**
+Vào nhánh kéo dài: mở Job RD-10 cho Legal R&D; mốc của nhánh là mốc của Job RD-10 theo OBK-SOP-00 mục 7.4a.
+
+**Khi mở Job RD-10 thì AM phải làm gì với khách?**
+AM cam kết lại T2 với khách trong 04 giờ làm việc kể từ khi mở Job RD-10. Thiếu bước cam kết lại thì đó là SLA không có chủ mốc, không phải nhánh kéo dài.
+
+**Nếu câu trả lời cần con số luật mà con số đó chưa có mã căn cứ trong `PL_1` thì sao?**
+Không trả lời con số đó cho khách. KS-KT-08 yêu cầu mọi con số luật trong đầu ra truy được về một mã `[CC-...]` mức đã đối chiếu bản gốc; không đạt thì chuyển KT-24.
+
+### KT-28. Bàn giao khi kết thúc dịch vụ
+
+**Nếu AM báo kết thúc muộn khiến mốc 05 ngày làm việc và mốc 10 ngày làm việc trước ngày kết thúc chồng nhau thì áp mốc nào?**
+Áp mốc nào đến trước và ghi lý do trên Job. Hai mốc có hai điểm neo khác nhau và không thay nhau.
+
+**Nếu đã chuẩn bị xong bộ bàn giao trong 05 ngày làm việc kể từ ngày AM báo thì Job kết thúc luôn không?**
+Chưa đủ nếu mốc đếm lùi của Handbook Chương 20 mục 6.3 đến trước. Bộ hồ sơ bàn giao phải sẵn sàng chậm nhất 10 ngày làm việc trước ngày kết thúc.
+
+### KT-29. Thu hồi quyền truy cập
+
+**Nếu nhân sự nghỉ đột ngột hoặc chấm dứt do vi phạm thì còn thu hồi theo mốc ngày làm việc cuối không?**
+Không. Trích trường hợp này ra mốc riêng: 04 giờ. Nghỉ việc thông thường áp mốc chậm nhất trong ngày làm việc cuối.
+
+**Nếu hợp đồng kết thúc nhưng bộ bàn giao theo KT-28 chưa xong thì thu hồi quyền truy cập luôn không?**
+Không. Job này phát sinh sau bàn giao; mốc 24 giờ tính từ sau bàn giao, không tính từ ngày kết thúc hợp đồng.
+
+### KT-30. Nộp tiền thuê đất và thuế sử dụng đất
+
+**Nếu chưa nhận được thông báo của cơ quan thuế thì tự tính mốc nộp được không?**
+Không. Job phát sinh khi cơ quan thuế gửi thông báo nộp tiền thuê đất; thời hạn nộp theo thời hạn ghi trên thông báo đó.
+
+**Nếu sang các năm tiếp theo, khách phải nộp tiền thuê đất bao nhiêu lần trong năm?**
+Không bắt buộc một lần. Hạn nộp hằng năm theo lựa chọn nộp một lần hoặc hai lần trong năm. Lần đầu áp mốc 30 ngày kể từ ngày ban hành thông báo của cơ quan thuế.
 
 ---
 
@@ -252,4 +333,4 @@ Cho tới khi ba việc này xong, khi Handbook và tài liệu này khác nhau 
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.1 | Sửa dòng 'Người phê duyệt' trong bảng thông tin phiên bản về khuôn hai cột, bỏ dấu thừa và liên kết bị cắt cụt của OBK-SOP-00 |
+| 04/10/2026 | R.3.0.1 | Chuyển lối tự sự ở vai trò kế toán trưởng thành quy định trung tính. |

@@ -9,14 +9,10 @@ status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-SOP-PM Chương trình đối tác giới thiệu khách hàng"
-law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-SOP-PM-PL1
 tags:
@@ -41,7 +37,7 @@ tags:
 
 ## 1. CÁCH DÙNG PHỤ LỤC NÀY
 
-Phụ lục ghi điều kiện thương mại chuẩn của hai bản mẫu Hợp đồng giới thiệu khách hàng song ngữ: bản dành cho đối tác là doanh nghiệp và bản dành cho đối tác là cá nhân. Tra theo cột Điều kiện; cột Job áp dụng chỉ Job của [[08_OBK-SOP-PM_Chuong_trinh_doi_tac_gioi_thieu_khach_hang|OBK-SOP-PM]] dùng điều kiện đó. Cột Căn cứ trong bản mẫu ghi số điều, khoản của hai bản mẫu; hai bản cùng số điều, trừ chỗ cột đó ghi riêng từng bản. Từ ngữ viết hoa như Ngày Được Giới Thiệu, Ghi Nhận Mặc Nhiên, Kênh Đăng Ký, Hợp Đồng Dịch Vụ Đầu Tiên, Ngày Làm Việc hiểu theo Điều 1 và Điều 3 của bản mẫu. Điều kiện khác bảng này do `CEO` quyết theo hàng "Chương trình hợp tác với đối tác" của [[PL_Ma_tran_phan_quyen|OBK-QCTC-02-PL-B]]; Legal R&D phải được hỏi khi điều kiện đó có cam kết ràng buộc.
+Phụ lục ghi điều kiện thương mại chuẩn của hai bản mẫu Hợp đồng giới thiệu khách hàng song ngữ: bản dành cho đối tác là doanh nghiệp và bản dành cho đối tác là cá nhân. Tra theo cột Điều kiện; cột Job áp dụng chỉ Job của OBK-SOP-PM dùng điều kiện đó. Cột Căn cứ trong bản mẫu ghi số điều, khoản của hai bản mẫu; hai bản cùng số điều, trừ chỗ cột đó ghi riêng từng bản. Từ ngữ viết hoa như Ngày Được Giới Thiệu, Ghi Nhận Mặc Nhiên, Kênh Đăng Ký, Hợp Đồng Dịch Vụ Đầu Tiên, Ngày Làm Việc hiểu theo Điều 1 và Điều 3 của bản mẫu. Điều kiện khác bảng này do `CEO` quyết theo hàng "Chương trình hợp tác với đối tác" của OBK-QCTC-02-PL-B; Legal R&D phải được hỏi khi điều kiện đó có cam kết ràng buộc.
 
 ---
 

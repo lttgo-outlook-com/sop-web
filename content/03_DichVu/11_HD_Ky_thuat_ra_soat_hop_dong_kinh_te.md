@@ -7,16 +7,12 @@ level: "Cấp 3, hướng dẫn nghiệp vụ"
 version: "R.1.0.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 27/09/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-SOP-LS Dịch vụ pháp lý"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-HB-61
 tags:
@@ -57,16 +53,8 @@ Các loại hợp đồng áp dụng bao gồm: Hợp đồng mua bán hàng hó
 
 Không áp dụng cho hợp đồng lao động thuộc gói dịch vụ lao động định kỳ (do bộ phận Lao động thực hiện theo Job `LD-02` của [[05_OBK-SOP-LD_Lao_dong_va_tien_luong|OBK-SOP-LD]]) và không cung cấp ý kiến pháp lý hành nghề luật sư (Legal Opinion) thuộc phạm vi điều chỉnh độc quyền của Luật Luật sư.
 
-## 3. CĂN CỨ PHÁP LÝ
 
-1. Bộ luật Dân sự số 91/2015/QH13 (các quy định về giao dịch dân sự, hợp đồng, thực hiện nghĩa vụ, bồi thường thiệt hại và điều khoản bất khả kháng).
-2. Luật Thương mại số 36/2005/QH11 (Điều 300, 301, 302, 303, 304, 305, 306 về phạt vi phạm và bồi thường thiệt hại trong hoạt động thương mại).
-3. Luật Doanh nghiệp số 59/2020/QH14 (Điều 67, Điều 162 về chấp thuận hợp đồng, giao dịch giữa công ty với người có liên quan).
-4. Luật Trọng tài thương mại số 54/2010/QH12 (Điều 16, Điều 18, Điều 19 về thỏa thuận trọng tài và hiệu lực của thỏa thuận trọng tài).
-5. Pháp lệnh Ngoại hối số 28/2005/PL-UBTVQH11 được sửa đổi, bổ sung bởi Pháp lệnh số 07/2013/UBTVQH13 và Thông tư số 32/2013/TT-NHNN của Ngân hàng Nhà nước Việt Nam về hạn chế sử dụng ngoại hối trên lãnh thổ Việt Nam.
-6. Nghị định số 13/2023/NĐ-CP về bảo vệ dữ liệu cá nhân.
-
-## 4. VAI TRÒ VÀ TRÁCH NHIỆM
+## 3. VAI TRÒ VÀ TRÁCH NHIỆM
 
 | Hoạt động | `CV-LS` | `TL-LS` | `AM` | `CEO` |
 | --- | --- | --- | --- | --- |
@@ -80,7 +68,7 @@ Không áp dụng cho hợp đồng lao động thuộc gói dịch vụ lao đ�
 
 *Ghi chú: R = Người thực hiện chính, A = Người phê duyệt cuối cùng, S = Người hỗ trợ, C = Người được tham vấn, I = Người nhận thông tin.*
 
-## 5. ĐẦU VÀO BẮT BUỘC
+## 4. ĐẦU VÀO BẮT BUỘC
 
 Trước khi rà soát, `CV-LS` phải kiểm tra và thu thập đủ các tài liệu sau trên Hệ thống quản lý công việc và lưu trữ hồ sơ:
 
@@ -94,7 +82,7 @@ Trước khi rà soát, `CV-LS` phải kiểm tra và thu thập đủ các tài
    - Điều lệ công ty của khách hàng và đối tác (đối với hợp đồng có giá trị lớn hoặc hợp đồng dài hạn);
    - Giấy ủy quyền ký kết hợp đồng (trường hợp người ký không phải là người đại diện theo pháp luật được ghi trên Giấy chứng nhận đăng ký doanh nghiệp).
 
-## 6. CÁC BƯỚC THỰC HIỆN
+## 5. CÁC BƯỚC THỰC HIỆN
 
 Quy trình rà soát hợp đồng kinh tế được thực hiện qua 6 bước:
 
@@ -118,7 +106,7 @@ Quy trình rà soát hợp đồng kinh tế được thực hiện qua 6 bướ
   * Đối chiếu giá trị hợp đồng với quy định tại Điều lệ và Điều 67, Điều 162 Luật Doanh nghiệp số 59/2020/QH14.
   * Hợp đồng có giá trị từ $35\%$ trở lên (hoặc tỷ lệ khác quy định tại Điều lệ) tổng giá trị tài sản ghi trên báo cáo tài chính gần nhất, hoặc giao dịch với người có liên quan, bắt buộc phải có Nghị quyết chấp thuận của Hội đồng thành viên, Hội đồng quản trị hoặc Đại hội đồng cổ đông.
 
-### Bước 3: Rà soát chi tiết theo Bảng kiểm 7 điểm rủi ro cốt lõi
+### Bước 3: Rà soát chi tiết theo Bảng kiểm các điểm rủi ro cốt lõi
 `CV-LS` rà soát từng điều khoản hợp đồng bằng cách sử dụng phần mềm xử lý văn bản, bật chế độ theo dõi thay đổi (Track Changes) và ghi chú nhận xét trực tiếp:
 
 #### Điểm 1: Chủ thể hợp đồng
@@ -174,7 +162,7 @@ Quy trình rà soát hợp đồng kinh tế được thực hiện qua 6 bướ
 - Chuyển giao toàn bộ sản phẩm hoàn chỉnh cho `AM` để chuyển đến khách hàng.
 - Phối hợp `AM` tổ chức cuộc họp giải thích nội dung rà soát cho khách hàng (nếu có yêu cầu).
 
-## 7. ĐIỂM KIỂM SOÁT BẮT BUỘC
+## 6. ĐIỂM KIỂM SOÁT BẮT BUỘC
 
 | Điểm kiểm soát | Nội dung kiểm tra | Tiêu chuẩn đạt | Hành động khi không đạt |
 | --- | --- | --- | --- |
@@ -199,7 +187,7 @@ Quy trình rà soát hợp đồng kinh tế được thực hiện qua 6 bướ
 | 4 | Ký kết hợp đồng của chi nhánh | Người đứng đầu chi nhánh ký phải kèm theo Giấy ủy quyền hợp lệ của người đại diện theo pháp luật của pháp nhân mẹ | Đạt / Không đạt | Hợp đồng phải ghi rõ tư cách ký thừa ủy quyền pháp nhân |
 | 5 | Phê duyệt nội bộ đối với giao dịch lớn | Giao dịch có giá trị từ 35% tổng tài sản trở lên hoặc giao dịch với người có liên quan phải có Nghị quyết HĐTV/HĐQT/ĐHĐCĐ chấp thuận | Đạt / Không đạt | Yêu cầu khách hàng thu thập Nghị quyết chấp thuận nội bộ |
 
-#### Bảng kiểm tác nghiệp rà soát 7 điểm rủi ro hợp đồng kinh tế
+#### Bảng kiểm tác nghiệp rà soát các điểm rủi ro hợp đồng kinh tế
 
 | STT | Thành phần và nội dung kiểm tra | Tiêu chuẩn đạt | Kết quả kiểm tra | Ghi chú xử lý |
 | --- | --- | --- | --- | --- |
@@ -211,7 +199,7 @@ Quy trình rà soát hợp đồng kinh tế được thực hiện qua 6 bướ
 | 6 | Bảo mật thông tin và quyền sở hữu trí tuệ | Quy định rõ phạm vi thông tin bảo mật, thời hạn bảo mật tối thiểu 02 năm sau chấm dứt hợp đồng; xác định rõ chủ sở hữu kết quả công việc | Đạt / Không đạt | Bổ sung cam kết tuân thủ Nghị định 13/2023/NĐ-CP về bảo vệ dữ liệu cá nhân |
 | 7 | Luật áp dụng và giải quyết tranh chấp | Chỉ định rõ một cơ quan tài phán duy nhất (Tòa án nhân dân có thẩm quyền hoặc Trung tâm Trọng tài cụ thể); không chọn hai cơ quan mâu thuẫn | Đạt / Không đạt | Loại bỏ cụm từ "Tòa án hoặc Trọng tài"; chọn một cơ quan duy nhất |
 
-## 8. LỖI THƯỜNG GẶP VÀ CÁCH XỬ LÝ
+## 7. LỖI THƯỜNG GẶP VÀ CÁCH XỬ LÝ
 
 | Nhóm lỗi | Biểu hiện cụ thể | Nguyên nhân gốc rễ | Biện pháp phòng ngừa và xử lý |
 | --- | --- | --- | --- |
@@ -221,19 +209,19 @@ Quy trình rà soát hợp đồng kinh tế được thực hiện qua 6 bướ
 | Lỗi chi nhánh ký hợp đồng | Giám đốc chi nhánh ký hợp đồng nhưng không có Giấy ủy quyền của Tổng Giám đốc | Cho rằng người đứng đầu chi nhánh đương nhiên có quyền ký hợp đồng | Yêu cầu cung cấp Giấy ủy quyền của người đại diện pháp nhân mẹ trước khi ký |
 | Lỗi quy định bất khả kháng | Quy định việc thiếu vốn, nhà thầu phụ chậm giao hàng là bất khả kháng | Không hiểu bản chất Điều 156 Bộ luật Dân sự | Chỉnh sửa định nghĩa bất khả kháng về đúng 3 yếu tố: khách quan, không thể lường trước, không thể khắc phục dù đã áp dụng mọi biện pháp |
 
-## 9. ĐẦU RA VÀ NƠI LƯU
+## 8. ĐẦU RA VÀ NƠI LƯU
 
-### 9.1. Danh mục kết quả đầu ra
+### 8.1. Danh mục kết quả đầu ra
 1. Bản ghi nhớ tư vấn quản trị hợp đồng (Contract Review Memo) có đầy đủ chữ ký soát xét của `CV-LS` và phê duyệt của `TL-LS`.
 2. Bản dự thảo hợp đồng có kèm chế độ theo dõi thay đổi (Track Changes) và các đề xuất chỉnh sửa câu chữ hoàn chỉnh.
 3. Bản tổng hợp rủi ro pháp lý và phương án đàm phán ngắn gọn phục vụ người đại diện ký kết.
 
-### 9.2. Quy cách lưu trữ
+### 8.2. Quy cách lưu trữ
 - Toàn bộ hồ sơ số hóa được lưu trữ trên Hệ thống quản lý công việc và lưu trữ hồ sơ theo cấu trúc:
   `ThuMucLuuTru / [Nam] / KhachHang / [MaKhachHang]_[TenDoanhNghiep] / PhapLy / RaSoatHopDong_[MaJob] /`
 - Thời hạn lưu trữ tối thiểu: 10 năm kể từ ngày phát hành báo cáo rà soát.
 
-## 10. CHỈ SỐ THEO DÕI
+## 9. CHỈ SỐ THEO DÕI
 
 1. Tỷ lệ hợp đồng được rà soát đầy đủ 7 điểm rủi ro cốt lõi: Đạt $100\%$ các hợp đồng tiếp nhận.
 2. Thời gian hoàn thành rà soát và phát hành báo cáo:

@@ -4,19 +4,15 @@ code: "TC-01"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.0.0"
+version: "R.1.1.1"
 status: "đang áp dụng"
-draft_date: "01/10/2026"
+draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-TTT-05 Cách làm phiếu thao tác"
-law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - TC-01
 tags:
@@ -29,8 +25,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | TC-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.0.0, đang áp dụng |
-| Ngày biên soạn | 01/10/2026 |
+| Phiên bản | R.1.1.1, đang áp dụng |
+| Ngày biên soạn | 04/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
 | Người phê duyệt | CEO (Lê Trọng Tuấn) |
@@ -38,8 +34,9 @@ tags:
 | **Mã phiếu** | TC-01 |
 | **Màu** | VÀNG, bảng theo dõi cảnh báo tài chính và dòng tiền |
 | **Ai dùng** | `KTV`, `KTT`, `COO`, `CEO` |
-| **Sinh từ** | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 6, Điều 7, Điều 22, Điều 34;<br>[[OBK-SOP-NB-03_Quan_ly_tien\|OBK-SOP-NB-03]] mục 6.6;<br>[[OBK-SOP-NB-02_Thu_tien_va_cong_no_phai_thu\|OBK-SOP-NB-02]];<br>[[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] |
+| **Sinh từ** | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 6, Điều 7, Điều 22, Điều 34;<br>[[OBK-SOP-NB-03_Quan_ly_tien\|OBK-SOP-NB-03]] mục 5.6;<br>[[OBK-SOP-NB-02_Thu_tien_va_cong_no_phai_thu\|OBK-SOP-NB-02]];<br>[[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] |
 | **Ngày làm phiếu** | 27/09/2026 |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
@@ -48,7 +45,7 @@ Bảng theo dõi dòng tiền và sức khỏe tài chính là công cụ quản
 Bảng được `KTV` lập và cập nhật định kỳ:
 1. **Theo dõi tuần:** Cập nhật số dư khả dụng thực tế tại các tài khoản ngân hàng và tồn quỹ tiền mặt vào ngày làm việc cuối tuần (thứ Sáu);
 2. **Tổng hợp tháng:** Lập bảng tổng kết dòng tiền và đo lường 05 chỉ số tài chính cốt lõi trong thời hạn 05 ngày làm việc đầu tháng kế tiếp;
-3. **Cảnh báo đột xuất:** Báo cáo ngay `KTT` và `CEO` khi chỉ số dự phòng tiền mặt (`Runway`) giảm xuống ít hơn 03 tháng chi phí hoạt động theo quy định tại Điều 34 [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]].
+3. **Cảnh báo đột xuất:** Báo cáo ngay `KTT` và `CEO` khi chỉ số dự phòng tiền mặt (`Runway`) giảm xuống ít hơn 03 tháng chi phí hoạt động.
 
 ## CẤU TRÚC THEO DÕI DÒNG TIỀN THỰC TẾ
  
@@ -113,7 +110,7 @@ Ban điều hành áp dụng 03 mức cảnh báo để kích hoạt hành độ
 
 ## BẢNG DỰ BÁO DÒNG TIỀN 03 THÁNG CUỐN CHIẾU
 
-Căn cứ quy định tại mục 6.6 [[OBK-SOP-NB-03_Quan_ly_tien|OBK-SOP-NB-03]], `KTV` lập bảng dự báo dòng tiền 03 tháng cuốn chiếu vào ngày 05 hằng tháng:
+Theo OBK-SOP-NB-03 mục 5.6, `KTV` lập bảng dự báo dòng tiền 03 tháng cuốn chiếu vào ngày 05 hằng tháng:
 
 | Hạng mục dự báo | Tháng M+1 | Tháng M+2 | Tháng M+3 | Ghi chú nguồn dự báo |
 | --- | --- | --- | --- | --- |
@@ -161,10 +158,10 @@ Căn cứ quy định tại mục 6.6 [[OBK-SOP-NB-03_Quan_ly_tien|OBK-SOP-NB-03
 
 ## ĐIỂM KIỂM SOÁT BẮT BUỘC
 
-1. **Điểm kiểm soát KS-TC-01 (Kiểm soát mức dự phòng tiền mặt tối thiểu):** Tổng số dư tiền mặt và tiền gửi ngân hàng khả dụng phải bảo đảm chi trả hoạt động tối thiểu 03 tháng theo quy định tại Điều 34 [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]]. Khi Runway giảm xuống ít hơn 03 tháng, `KTT` phải kích hoạt cảnh báo Mức Đỏ ngay trong ngày làm việc.
-2. **Điểm kiểm soát KS-TC-02 (Kiểm soát đối chiếu số liệu tiền thực tế):** Số liệu tồn quỹ tiền mặt và số dư tiền gửi trong Bảng TC-01 phải khớp chính xác 100% với Biên bản kiểm kê quỹ [[KQ-01_Kiem_ke_quy_tien_mat|KQ-01]] và Biên bản đối chiếu ngân hàng [[NH-01_Doi_chieu_ngan_hang|NH-01]]. Mọi chênh lệch chưa rõ nguyên nhân phải xử lý theo quy trình sự cố chênh lệch tại mục 6.7 [[OBK-SOP-NB-03_Quan_ly_tien|OBK-SOP-NB-03]].
+1. **Điểm kiểm soát KS-TC-01 (Kiểm soát mức dự phòng tiền mặt tối thiểu):** Tổng số dư tiền mặt và tiền gửi ngân hàng khả dụng phải bảo đảm chi trả hoạt động tối thiểu 03 tháng. Khi Runway giảm xuống ít hơn 03 tháng, `KTT` phải kích hoạt cảnh báo Mức Đỏ ngay trong ngày làm việc.
+2. **Điểm kiểm soát KS-TC-02 (Kiểm soát đối chiếu số liệu tiền thực tế):** Số liệu tồn quỹ tiền mặt và số dư tiền gửi trong Bảng TC-01 phải khớp chính xác 100% với Biên bản kiểm kê quỹ KQ-01 và Biên bản đối chiếu ngân hàng NH-01. Mọi chênh lệch chưa rõ nguyên nhân phải xử lý theo quy trình sự cố chênh lệch tại OBK-SOP-NB-03 mục 5.7.
 3. **Điểm kiểm soát KS-TC-03 (Kiểm soát tỷ lệ chi phí nhân sự):** Tỷ lệ chi phí nhân sự trên doanh thu (`PCR`) không được vượt quá mức tối đa 45%. Trường hợp tỷ lệ này vượt 45% trong 02 tháng liên tiếp, Ban điều hành bắt buộc phải ban hành kế hoạch điều chỉnh định biên nhân sự.
-4. **Điểm kiểm soát KS-TC-04 (Kiểm soát tỷ lệ thu hồi công nợ):** Tỷ lệ thu hồi nợ đúng hạn (`CR`) phải đạt từ 90% trở lên. Khi tỷ lệ thu hồi đạt ít hơn 90%, bộ phận `AM` phải giải trình bằng văn bản đối với từng khoản nợ quá hạn và thực hiện biện pháp thu hồi theo [[CN-01_So_theo_doi_cong_no_phai_thu_va_tuoi_no|CN-01]].
+4. **Điểm kiểm soát KS-TC-04 (Kiểm soát tỷ lệ thu hồi công nợ):** Tỷ lệ thu hồi nợ đúng hạn (`CR`) phải đạt từ 90% trở lên. Khi tỷ lệ thu hồi đạt ít hơn 90%, bộ phận `AM` phải giải trình bằng văn bản đối với từng khoản nợ quá hạn và thực hiện biện pháp thu hồi theo Sổ CN-01.
 
 ## QUY TRÌNH LUÂN CHUYỂN VÀ LƯU TRỮ
 
@@ -182,20 +179,8 @@ Bảng TC-01 được lưu trữ tại hồ sơ quản trị tài chính của p
 
 ### 1. Mục đích sử dụng
 
-Đối với doanh nghiệp cung cấp dịch vụ như oBacker, dòng tiền là điều kiện cốt lõi để duy trì hoạt động liên tục. Doanh thu trên hợp đồng hoặc lợi nhuận kế toán trên sổ sách không bảo đảm doanh nghiệp có đủ tiền mặt thanh toán lương, chi trả tiền thuê mặt bằng, duy trì hạ tầng công nghệ và đáp ứng nghĩa vụ thuế đúng hạn. Bảng TC-01 thiết lập hệ thống quan sát đa chiều về dòng tiền thực tế, đồng thời kiểm soát 05 chỉ số tài chính sống còn để Ban điều hành phát hiện sớm rủi ro thanh khoản và chủ động điều phối nguồn lực.
+Đối với doanh nghiệp cung cấp dịch vụ như oBacker, dòng tiền là điều kiện cốt lõi để duy trì hoạt động liên tục. Doanh thu trên hợp đồng hoặc lợi nhuận kế toán trên sổ sách không bảo đảm doanh nghiệp có đủ tiền mặt thanh toán lương, chi trả tiền thuê mặt bằng, duy trì hạ tầng công nghệ và đáp ứng nghĩa vụ thuế đúng hạn. Bảng TC-01 thiết lập hệ thống quan sát đa chiều về dòng tiền thực tế, đồng thời kiểm soát 05 chỉ số tài chính trọng yếu để Ban điều hành phát hiện sớm rủi ro thanh khoản và chủ động điều phối nguồn lực.
 
-### 2. Căn cứ quy định và pháp luật liên quan
-
-| Mục | Căn cứ | Nội dung trích dẫn hoặc áp dụng |
-| --- | --- | --- |
-| Đơn vị tiền tệ và kỳ kế toán | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 6, Điều 7 | Kỳ kế toán tháng, quý, năm và nguyên tắc hạch toán bằng Đồng Việt Nam |
-| Kế hoạch ngân sách | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 22 | Lập và giám sát ngân sách hoạt động hằng năm |
-| Quản lý tài khoản và dự phòng | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 34 | Giới hạn 03 tài khoản hoạt động và yêu cầu bảo đảm dự phòng tiền mặt tối thiểu 03 tháng |
-| Quy trình quản lý tiền | [[OBK-SOP-NB-03_Quan_ly_tien\|OBK-SOP-NB-03]] mục 6.6 | Kế hoạch dòng tiền 03 tháng cuốn chiếu và phép kiểm chéo giữa ba chu trình |
-| Theo dõi công nợ | [[OBK-SOP-NB-02_Thu_tien_va_cong_no_phai_thu\|OBK-SOP-NB-02]] và [[CN-01_So_theo_doi_cong_no_phai_thu_va_tuoi_no\|CN-01]] | Quản lý bảng tuổi nợ, theo dõi hạn thanh toán và chỉ số thu hồi nợ |
-| Kiểm soát chi tiêu | [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] | Theo dõi cam kết chi hoạt động và các khoản công nợ phải trả |
-| Luật Kế toán | Luật Kế toán số 88/2015/QH13 (VBHN 41/VBHN-VPQH) Điều 10, 12, 40 | Nguyên tắc ghi chép kế toán, kỳ kế toán và kiểm kê đối chiếu số liệu tài sản |
-| Chế độ kế toán | Thông tư số 99/2025/TT-BTC | Phương pháp theo dõi lưu chuyển tiền tệ và đối chiếu tài khoản tiền mặt, tiền gửi |
 
 ---
 
@@ -203,4 +188,4 @@ Bảng TC-01 được lưu trữ tại hồ sơ quản trị tài chính của p
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.1.1 | Sửa từ ngữ ở bảng theo dõi dòng tiền. |

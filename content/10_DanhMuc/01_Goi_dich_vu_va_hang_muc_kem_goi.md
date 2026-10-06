@@ -9,12 +9,8 @@ status: "đang áp dụng"
 draft_date: "15/09/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-DM-00 Danh mục dịch vụ và bảng giá"
-previous_version: ""
-law_as_of: ""
 next_review: ""
 distribution: "nội bộ"
 aliases:
@@ -41,7 +37,7 @@ tags:
 | Người phê duyệt | đã phê duyệt |
 | Văn bản cấp trên | [[00_Danh_muc_dich_vu_va_bang_gia\|OBK-DM-00]] Danh mục dịch vụ và bảng giá |
 | Số gói đối tác obacker Partner | 5 |
-| Số phụ phí FUP và vận hành | 11 |
+| Số phụ phí FUP và vận hành | 17 |
 | Số gói back office obacker Grow (chuyển tiếp) | 1 |
 | Số hạng mục kèm gói chuyển tiếp | 12 |
 | Nguồn dữ liệu | `_du_lieu_danh_muc/danh_muc.tsv`, kết xuất ngày 15/09/2026 |
@@ -95,14 +91,20 @@ Các khoản phụ phí đối soát và phát hành hóa đơn định kỳ hà
 | Mã | Tên hạng mục | Đơn vị tính | Giá chưa thuế GTGT | Giá đã có thuế GTGT | Gói chứa hạng mục này |
 | --- | --- | --- | --- | --- | --- |
 | `ADD-BANK-ACC` | Phụ Phí Quản Lý Tài Khoản Ngân Hàng Ngoài Định Mức | tài khoản | 100.000 | tính khi xuất hóa đơn | OBG-PTR-CORE, OBG-PTR-GROWTH, OBG-PTR-PRIME |
+| `ADD-BANK-ACC-2026` | Phụ Phí Quản Lý Tài Khoản Ngân Hàng Ngoài Định Mức | tài khoản | 200.000 | tính khi xuất hóa đơn | OBG-PTR-CORE, OBG-PTR-GROWTH, OBG-PTR-PRIME |
 | `ADD-FCT-RETURN` | Phí Kê Khai Thuế Nhà Thầu Nước Ngoài (FCT) Phát Sinh Thêm | tờ khai | 500.000 | tính khi xuất hóa đơn | OBG-PTR-CORE, OBG-PTR-GROWTH, OBG-PTR-PRIME |
+| `ADD-FCT-RETURN-2026` | Phí Kê Khai Thuế Nhà Thầu Nước Ngoài (FCT) Phát Sinh Thêm | tờ khai | 1.000.000 | tính khi xuất hóa đơn | OBG-PTR-CORE, OBG-PTR-GROWTH, OBG-PTR-PRIME |
 | `ADD-PAYROLL-EMP` | Phụ Phí Tính Lương & Quản Lý BHXH Nhân Sự Ngoài Định Mức | người lao động | 100.000 | tính khi xuất hóa đơn | OBG-PTR-GROWTH, OBG-PTR-PRIME |
 | `ADD-PAYROLL-RUN` | Phụ Phí Kỳ Chạy Lương Bổ Sung Trong Tháng | kỳ | 500.000 | tính khi xuất hóa đơn | OBG-PTR-CORE, OBG-PTR-GROWTH, OBG-PTR-PRIME |
 | `ADD-RETAIL-UNIT` | Phụ Phí Nhập Liệu Đơn Bán Lẻ POS / TMĐT Không Bảng Kê Gom | đơn hàng | 5.000 | tính khi xuất hóa đơn | OBG-PTR-CORE, OBG-PTR-GROWTH, OBG-PTR-PRIME |
 | `ADD-TAX-INSPECT` | Dịch Vụ Cử Nhân Sự Tham Gia Thanh Tra Thuế Trực Tiếp Tại Trụ Sở | kỳ | 15.000.000 | tính khi xuất hóa đơn | OBG-PTR-CORE, OBG-PTR-GROWTH, OBG-PTR-PRIME |
+| `ADD-TAX-INSPECT-2026` | Dịch Vụ Cử Nhân Sự Tham Gia Thanh Tra Thuế Tại Trụ Sở (Theo Ngày) | ngày | 2.500.000 | tính khi xuất hóa đơn | OBG-PTR-CORE, OBG-PTR-GROWTH, OBG-PTR-PRIME |
 | `ADD-TXN-BLOCK-1000` | Phụ Phí Mở Rộng Định Mức: Block +1.000 Giao Dịch / Tháng | tháng | 2.500.000 | tính khi xuất hóa đơn | OBG-PTR-CORE, OBG-PTR-GROWTH, OBG-PTR-PRIME |
+| `ADD-TXN-BLOCK-1000-2026` | Phụ Phí Mở Rộng Định Mức: Block +1.000 Giao Dịch / Tháng | tháng | 5.000.000 | tính khi xuất hóa đơn | OBG-PTR-CORE, OBG-PTR-GROWTH, OBG-PTR-PRIME |
 | `ADD-TXN-BLOCK-1500` | Phụ Phí Mở Rộng Định Mức: Block +1.500 Giao Dịch / Tháng | tháng | 3.500.000 | tính khi xuất hóa đơn | OBG-PTR-CORE, OBG-PTR-GROWTH, OBG-PTR-PRIME |
+| `ADD-TXN-BLOCK-1500-2026` | Phụ Phí Mở Rộng Định Mức: Block +1.500 Giao Dịch / Tháng | tháng | 7.500.000 | tính khi xuất hóa đơn | OBG-PTR-CORE, OBG-PTR-GROWTH, OBG-PTR-PRIME |
 | `ADD-TXN-BLOCK-500` | Phụ Phí Mở Rộng Định Mức: Block +500 Giao Dịch / Tháng | tháng | 1.500.000 | tính khi xuất hóa đơn | OBG-PTR-CORE, OBG-PTR-GROWTH, OBG-PTR-PRIME |
+| `ADD-TXN-BLOCK-500-2026` | Phụ Phí Mở Rộng Định Mức: Block +500 Giao Dịch / Tháng | tháng | 2.500.000 | tính khi xuất hóa đơn | OBG-PTR-CORE, OBG-PTR-GROWTH, OBG-PTR-PRIME |
 | `ADD-TXN-PRIME-OVER` | Phụ Phí Hóa Đơn Vượt Trần Gói Prime (Trên 7.000 Giao Dịch) | hóa đơn | 12.000 | tính khi xuất hóa đơn | OBG-PTR-PRIME |
 | `ADD-VOUCHER-RAW` | Phụ Phí Nhập Liệu Chứng Từ Giấy Scan / Thủ Công Vượt Định Mức | chứng từ | 10.000 | tính khi xuất hóa đơn | OBG-PTR-CORE, OBG-PTR-GROWTH, OBG-PTR-PRIME |
 
@@ -323,11 +325,11 @@ Chính sách sử dụng hợp lý áp dụng đối với mọi gói đối tá
 | Chỉ số vận hành | Gói Partner Core | Gói Partner Growth | Gói Partner Prime | Phụ phí vượt định mức |
 | --- | --- | --- | --- | --- |
 | Định mức chứng từ kế toán | 50 chứng từ/tháng | 300 chứng từ/tháng | 1.500 chứng từ/tháng | theo khối chứng từ hoặc 15.000 đồng/chứng từ |
-| Tài khoản ngân hàng đối soát | tối đa 02 tài khoản | tối đa 05 tài khoản | không giới hạn thông thường | 300.000 đồng/tài khoản/tháng từ tài khoản vượt |
+| Tài khoản ngân hàng đối soát | tối đa 02 tài khoản | tối đa 05 tài khoản | không giới hạn thông thường | 200.000 đồng/tài khoản/tháng từ tài khoản vượt |
 | Lao động tính lương và bảo hiểm | tối đa 10 lao động | tối đa 30 lao động | tối đa 50 lao động | 50.000 đồng/người/tháng vượt định mức |
 | Đợt tính lương phát sinh | 01 đợt/tháng | 01 đợt/tháng | 02 đợt/tháng | 500.000 đồng/đợt phát sinh thêm |
-| Hồ sơ thuế nhà thầu nước ngoài | 01 hợp đồng/năm | 03 hợp đồng/tháng | 05 hợp đồng/tháng | 1.500.000 đồng/hồ sơ phát sinh thêm |
-| Hỗ trợ thanh tra thuế tại trụ sở | không bao gồm | không bao gồm | 01 ngày/năm | 2.000.000 đồng/ngày làm việc trực tiếp |
+| Hồ sơ thuế nhà thầu nước ngoài | 01 hợp đồng/tháng | 03 hợp đồng/tháng | 03 hợp đồng/tháng | 1.000.000 đồng/hồ sơ phát sinh thêm |
+| Hỗ trợ thanh tra thuế tại trụ sở | không bao gồm | không bao gồm | 01 ngày/năm | 2.500.000 đồng/ngày làm việc trực tiếp |
 
 Quy định về khối chứng từ phụ trội và trần gói:
 

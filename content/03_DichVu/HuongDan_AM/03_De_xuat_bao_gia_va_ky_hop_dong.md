@@ -4,25 +4,20 @@ code: "OBK-HB-33"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.2.0.0"
+version: "R.3.0.1"
 status: "đang áp dụng"
-draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 07/09/2026"
+draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
 parent: "OBK-SOP-AM Quản lý khách hàng"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-HB-33
 tags:
   - loai/sop
   - cap/3
-  - nghiep-vu/dieu-kien-dich-vu-phap-ly
-  - nghiep-vu/dieu-kien-dich-vu-ke-toan
 ---
 # HƯỚNG DẪN 03. ĐỀ XUẤT, BÁO GIÁ VÀ KÝ HỢP ĐỒNG
 
@@ -30,8 +25,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-HB-33 |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.2.0.0, đang áp dụng |
-| Ngày biên soạn | 01/10/2026 |
+| Phiên bản | R.3.0.1, đang áp dụng |
+| Ngày biên soạn | 04/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 07/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -46,7 +41,7 @@ tags:
 
 Hướng dẫn này phục vụ năm Job: `AM-03` lập và gửi đề xuất, `AM-04` theo đuổi đề xuất, `AM-05` chốt hợp đồng và thu tiền lần đầu, `AM-23` xin duyệt giá hoặc phạm vi ngoài khung, và `AM-24` chốt hợp đồng dịch vụ và xử lý yêu cầu sửa điều khoản.
 
-Hướng dẫn này giải ba việc. Một, mọi mốc trong đề xuất là mốc đã có xác nhận của `TL` bộ phận, không phải mốc `AM` tự nghĩ. Hai, giá và phạm vi ngoài khung đi qua đúng người quyết, và `AM` không báo mức cho khách trước khi có quyết định. Ba, hợp đồng gửi khách dùng đúng mẫu đang có hiệu lực, và `AM` không tự sửa câu chữ điều khoản.
+Mục đích của hướng dẫn: (1) Mọi mốc thời gian trong đề xuất dịch vụ phải được `TL` bộ phận chuyên môn xác nhận về tính khả thi trước khi gửi khách hàng; (2) Các trường hợp giá và phạm vi ngoài khung quy định phải được cấp có thẩm quyền phê duyệt trước khi thông báo cho khách hàng; (3) Hợp đồng dịch vụ sử dụng biểu mẫu chuẩn hóa, việc điều chỉnh điều khoản phải tuân thủ đúng quy trình thẩm định.
 
 ## 2. PHẠM VI ÁP DỤNG
 
@@ -54,17 +49,8 @@ Hướng dẫn này giải ba việc. Một, mọi mốc trong đề xuất là 
 
 Không áp cho việc gia hạn hợp đồng cũ không đổi phạm vi; việc gia hạn đi theo `AM-18` và hướng dẫn 07. Cũng không áp cho phần soạn nội dung hợp đồng: `AM` dùng mẫu, còn việc soạn và sửa mẫu thuộc Legal R&D theo Job `RD-18`.
 
-## 3. CĂN CỨ PHÁP LÝ
 
-| Mã | Dùng ở bước nào | Vì sao cần |
-| --- | --- | --- |
-| [[CC-LS-10 Cơ sở pháp lý của việc soạn và rà soát hợp đồng cho khách\|CC-LS-10]] | Bước 6, khi khách đòi sửa điều khoản | Cơ sở pháp lý của việc soạn và rà hợp đồng hiện chưa xác minh được; Bộ luật Dân sự 91/2015/QH13 có trong kho nhưng CC-LS-10 chưa điền.<br>Vì mức này, `AM` tuyệt đối không tự sửa điều khoản; mọi yêu cầu sửa đi qua `RD-18` |
-| [[CC-KT-60 Định nghĩa kinh doanh dịch vụ kế toán, gồm cả lập báo cáo tài chính và tư vấn kế toán\|CC-KT-60]] | Bước 2, khi ghi phạm vi | Định nghĩa kinh doanh dịch vụ kế toán.<br>Phạm vi ghi trong đề xuất phải khớp tên đầu ra tại bảng Job, không dùng cụm từ chỉ nghề |
-| [[CC-LS-01 Điều kiện để một tổ chức được cung cấp dịch vụ pháp lý và tư vấn pháp luật\|CC-LS-01]] | Bước 2, khi ghi phạm vi | Điều kiện cung cấp dịch vụ pháp lý, chưa xác minh được.<br>Phạm vi thuộc nhóm A hoặc B của [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] mục 1.2 phải có văn bản nhận việc của `CEO` |
-
-Ba mốc mốc làm trước thời hạn theo pháp luật ĐẶT tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] NT-6. Cơ chế tách quyền quyết khi `AM` và bộ phận không thống nhất ĐẶT tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 8.2.1. Hướng dẫn này chỉ dẫn chiếu.
-
-## 4. VAI TRÒ VÀ TRÁCH NHIỆM
+## 3. VAI TRÒ VÀ TRÁCH NHIỆM
 
 | Việc | `AM` | `TL` bộ phận | `COO` | TP Thương mại | `CEO` |
 | --- | --- | --- | --- | --- | --- |
@@ -74,9 +60,9 @@ Ba mốc mốc làm trước thời hạn theo pháp luật ĐẶT tại [[01_OB
 | Quyết giá hoặc phạm vi ngoài khung | C | C | C về khả thi | C | A và R |
 | Trả lời câu hỏi oBacker làm được trong mốc đó không | I | R | A | I | I |
 | Sửa câu chữ điều khoản hợp đồng | C | N/A | I | I | A. `TL-RD` soạn theo `RD-18` |
-| Ký hợp đồng với khách | R về việc gửi và nhận | N/A | N/A | I | Người giữ `NĐDPL` ký |
+| Ký hợp đồng với khách | R về việc gửi và nhận | N/A | N/A | I, đàm phán và duyệt theo phân quyền | `NĐDPL` (CEO hoặc Chủ tịch HĐQT) ký |
 
-## 5. ĐẦU VÀO BẮT BUỘC
+## 4. ĐẦU VÀO BẮT BUỘC
 
 | Đầu vào | Thiếu thì sao |
 | --- | --- |
@@ -86,9 +72,9 @@ Ba mốc mốc làm trước thời hạn theo pháp luật ĐẶT tại [[01_OB
 | Mẫu hợp đồng đang có hiệu lực | Dùng mẫu theo [[PL_HD_Mau_hop_dong_dich_vu_khung\|OBK-SOP-AM-PL2]]. Không gửi hợp đồng khác mẫu. Mở Job cho `RD-18` |
 | Văn bản nhận việc của `CEO`, nếu phạm vi thuộc nhóm A hoặc B của [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] mục 1.2 | Không báo giá. Xem `KS-AM-07` và [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] mục 1.5 |
 
-## 6. CÁC BƯỚC THỰC HIỆN
+## 5. CÁC BƯỚC THỰC HIỆN
 
-### 6.1. Bước 1. Lấy đầu vào khả thi từ bộ phận, trong 03 giờ làm việc
+### 5.1. Bước 1. Lấy đầu vào khả thi từ bộ phận, trong 03 giờ làm việc
 
 Mở Job phụ cho `TL` bộ phận, liên kết về Job `AM-03`. Nội dung yêu cầu phải có đủ bốn thứ, thiếu một thứ thì `TL` sẽ hỏi lại và mất một lượt: hiện trạng khách lấy từ biên bản; phạm vi `AM` dự tính; mốc khách muốn; và câu hỏi cụ thể cần `TL` trả lời.
 
@@ -96,13 +82,17 @@ Mở Job phụ cho `TL` bộ phận, liên kết về Job `AM-03`. Nội dung y�
 
 Vụ việc cần từ hai bộ phận trở lên thì áp `AM-25` và hướng dẫn 05 trước, để xác định Job chính, rồi mới lấy đầu vào.
 
-### 6.2. Bước 2. Ghi phạm vi bằng tên đầu ra, không bằng tên nghề
+### 5.2. Bước 2. Ghi phạm vi bằng tên đầu ra, không bằng tên nghề
 
 Phạm vi trong đề xuất và trong hợp đồng ghi bằng đúng tên ĐẦU RA ở cột Đầu ra của bảng Job, kèm mã Job. Ví dụ ghi "tờ khai thuế giá trị gia tăng đã nộp kèm Thông báo tiếp nhận, Job KT-07", không ghi "dịch vụ kế toán trọn gói".
 
-Ba lý do. Một, tên đầu ra là thứ nghiệm thu được, còn tên nghề thì không. Hai, cách ghi đó ngăn việc ngoài phạm vi, vì việc nào không có mã Job trong hợp đồng thì là việc ngoài phạm vi. Ba, cách ghi đó tránh dùng cụm từ chỉ nghề mà điều kiện kinh doanh còn là giả thiết, xem [[CC-KT-60 Định nghĩa kinh doanh dịch vụ kế toán, gồm cả lập báo cáo tài chính và tư vấn kế toán|CC-KT-60]] và [[CC-LS-01 Điều kiện để một tổ chức được cung cấp dịch vụ pháp lý và tư vấn pháp luật|CC-LS-01]].
+Ba lý do.
 
-### 6.3. Bước 3. Soạn đề xuất, trong 24 giờ
+1. Tên đầu ra là thứ nghiệm thu được, còn tên nghề thì không.
+2. Cách ghi đó ngăn việc ngoài phạm vi, vì việc nào không có mã Job trong hợp đồng thì là việc ngoài phạm vi.
+3. Cách ghi đó tránh dùng cụm từ chỉ nghề mà điều kiện kinh doanh còn là giả thiết.
+
+### 5.3. Bước 3. Soạn đề xuất, trong 24 giờ
 
 Đề xuất đủ bảy phần, theo thứ tự này:
 
@@ -113,28 +103,28 @@ Ba lý do. Một, tên đầu ra là thứ nghiệm thu được, còn tên ngh�
 | 3 | Phạm vi công việc | Danh mục đầu ra kèm mã Job, theo bước 2 |
 | 4 | Phần không thuộc phạm vi | Bắt buộc có. Đây là phần chặn tranh chấp về sau |
 | 5 | Mốc giao | Mốc đã có xác nhận của `TL`. Mốc pháp định thì ghi kèm khoảng làm trước, không ghi bằng đúng ngày pháp định |
-| 6 | Đầu vào cần anh chị cấp | Danh mục hồ sơ, kèm hạn cấp |
+| 6 | Đầu vào cần khách hàng cung cấp | Danh mục hồ sơ, kèm hạn cấp |
 | 7 | Phí và điều kiện thanh toán | Theo khung đang có hiệu lực. Ngoài khung thì phải xong `AM-23` trước |
 
 Ca phức tạp thì tối đa 48 giờ, và gửi khách không quá 48 giờ sau cuộc họp làm rõ.
 
-### 6.4. Bước 4. Xin duyệt giá hoặc phạm vi ngoài khung, khi cần
+### 5.4. Bước 4. Xin duyệt giá hoặc phạm vi ngoài khung, khi cần
 
 Chạy Job `AM-23`. Tờ trình đủ bốn phần: mức hoặc phạm vi khách yêu cầu; mức hoặc phạm vi theo khung; xác nhận khả thi của `TL` bộ phận; và lý do đề nghị duyệt.
 
-Ai quyết, theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 8.3: trong khung thì TP Thương mại, ngoài khung thì `CEO`. Hạn: `AM` lập tờ trình trong 04 giờ làm việc; TP Thương mại quyết trong 01 ngày làm việc; `CEO` quyết trong 02 ngày làm việc.
+Ai quyết, theo OBK-SOP-00 mục 8.3: trong khung thì TP Thương mại, ngoài khung thì `CEO`. Hạn: `AM` lập tờ trình trong 04 giờ làm việc; TP Thương mại quyết trong 01 ngày làm việc; `CEO` quyết trong 02 ngày làm việc.
 
 `AM` không báo mức cho khách trước khi có quyết định ghi trên Job. Khách hỏi trong lúc chờ thì trả lời bằng một mốc hẹn, câu chữ mẫu tại `PL_A` mục 7.
 
-### 6.5. Bước 5. Theo đuổi đề xuất
+### 5.5. Bước 5. Theo đuổi đề xuất
 
 Ba lượt, tại T+1, T+3 và T+5. Lượt T+5 là lượt cuối, và nội dung của lượt cuối khác hai lượt trước: lượt cuối hỏi thẳng khách còn quan tâm hay không, thay vì nhắc lại đề xuất. Câu chữ mẫu tại `PL_A` mục 8.
 
 Sau T+5 không có phản hồi thì đóng lead với lý do không phản hồi, và ghi vào Job. Đóng không phải là mất; việc đóng lead làm chỉ số `AM-M04` phản ánh đúng thực tế.
 
-### 6.6. Bước 6. Gửi hợp đồng, và xử lý yêu cầu sửa điều khoản
+### 5.6. Bước 6. Gửi hợp đồng, và xử lý yêu cầu sửa điều khoản
 
-Dùng mẫu đang có hiệu lực ban hành tại [[PL_HD_Mau_hop_dong_dich_vu_khung|OBK-SOP-AM-PL2]] và Bảng giá chuẩn. **Hợp đồng dịch vụ chuẩn do TP Thương mại ký kết trực tiếp với khách hàng.** Không cần trình `CEO` hay xin ý kiến `COO` nếu áp dụng đúng giá chuẩn và mẫu chuẩn.
+Dùng mẫu đang có hiệu lực ban hành tại [[PL_HD_Mau_hop_dong_dich_vu_khung|OBK-SOP-AM-PL2]] và Bảng giá chuẩn. **Hợp đồng dịch vụ chuẩn do đại diện theo pháp luật (`NĐDPL`) ký kết trực tiếp với khách hàng, gồm CEO (Tuấn) hoặc Thu Trang (Chủ tịch HĐQT).** TP Thương mại đàm phán và duyệt trong phân quyền, không ký hợp đồng. Không cần trình `CEO` hay xin ý kiến `COO` nếu áp dụng đúng giá chuẩn và mẫu chuẩn.
 
 Ba việc `AM` được làm trên mẫu: điền thông tin các bên; điền phạm vi theo bước 2; điền phí và điều kiện thanh toán đã được duyệt.
 
@@ -148,13 +138,13 @@ Ba việc `AM` bị cấm: tự sửa câu chữ của một điều khoản; t�
 
 Trong lúc chờ, `AM` nói với khách đúng một câu: yêu cầu đang được bộ phận pháp lý xem xét và sẽ có phản hồi trước mốc nào. Câu chữ mẫu tại `PL_A` mục 9. Không nói yêu cầu đó chấp nhận được hay không.
 
-### 6.7. Bước 7. Thu tiền lần đầu và chuyển bàn giao nội bộ
+### 5.7. Bước 7. Thu tiền lần đầu và chuyển bàn giao nội bộ
 
 Gửi hợp đồng trong ngày khách đồng ý. Nhắc thanh toán tại T+1, T+3 và T+7. Hóa đơn do `KTT` kế toán nội bộ phát hành, `AM` không tự phát hành.
 
 Có xác nhận thanh toán thì sang `AM-06` trong 01 ngày làm việc, và tiếp tục theo hướng dẫn 04.
 
-## 7. ĐIỂM KIỂM SOÁT BẮT BUỘC
+## 6. ĐIỂM KIỂM SOÁT BẮT BUỘC
 
 | Mã | Chốt | Trước bước nào | Không đạt thì làm gì |
 | --- | --- | --- | --- |
@@ -163,19 +153,19 @@ Có xác nhận thanh toán thì sang `AM-06` trong 01 ngày làm việc, và ti
 | `KS-AM-08` | Hợp đồng dùng đúng mẫu đang có hiệu lực, và phạm vi ghi đúng bằng tên đầu ra kèm mã Job | Trước bước 6 | Không gửi. Muốn sửa điều khoản thì mở Job `RD-18` |
 | Chốt riêng của hướng dẫn này | Đề xuất có phần 4, tức phần không thuộc phạm vi, và phần đó không trống | Trước khi gửi đề xuất | Viết phần 4. Đề xuất không nói rõ phần không làm là nguồn của mọi tranh chấp về phạm vi |
 
-## 8. LỖI THƯỜNG GẶP VÀ CÁCH XỬ LÝ
+## 7. LỖI THƯỜNG GẶP VÀ CÁCH XỬ LÝ
 
 | Lỗi thường gặp | Dấu hiệu nhận ra | Cách xử lý |
 | --- | --- | --- |
 | Đề xuất ghi phạm vi bằng tên gói | Phần 3 của đề xuất ghi một cụm từ chỉ nghề, không có mã Job nào | Áp bước 2. Việc không có mã Job trong hợp đồng thì về sau không xác định được là trong hay ngoài phạm vi |
-| Báo mức cho khách trong lúc chờ duyệt | Thư gửi khách có một con số mà Job `AM-23` chưa có quyết định | Chờ quyết định. Báo trước rồi bị duyệt khác là phải xin lại khách, và đó là chỗ mất uy tín nặng nhất |
-| Tự sửa một chữ trong điều khoản cho khách vui | Hợp đồng gửi khách khác mẫu ở một điều khoản, không có Job `RD-18` nào | Một chữ trong điều khoản đổi được nghĩa của cả điều khoản. Mọi yêu cầu sửa đi qua `RD-18`, không có ngoại lệ |
+| Báo mức giá cho khách hàng trước khi được phê duyệt | Thư gửi khách có một con số mà Job `AM-23` chưa có quyết định | Chờ quyết định phê duyệt chính thức trên hệ thống. Việc báo giá trước khi có thẩm quyền duyệt tiềm ẩn rủi ro sai lệch cam kết và ảnh hưởng bất lợi cho công ty |
+| Tự ý chỉnh sửa câu chữ điều khoản hợp đồng | Hợp đồng gửi khách khác mẫu ở một điều khoản, không có Job `RD-18` nào | Việc sửa đổi điều khoản có thể làm thay đổi bản chất pháp lý và rủi ro của hợp đồng. Mọi yêu cầu hiệu chỉnh bắt buộc phải qua thẩm định pháp lý tại Job `RD-18` theo quy trình phê duyệt |
 | Cam kết mốc bằng đúng ngày pháp định | Phần 5 của đề xuất ghi một ngày trùng thời hạn theo pháp luật | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] NT-6 CẤM cách ghi đó. Trừ khoảng làm trước ra rồi mới ghi |
-| Bỏ phần không thuộc phạm vi vì sợ khách thấy oBacker làm ít | Đề xuất chỉ có sáu phần | Phần đó bảo vệ cả hai bên.<br>Khách phát hiện phần thiếu sau khi ký thì oBacker mất tiền hoặc mất khách, cả hai đều đắt hơn |
+| Bỏ sót mục công việc không thuộc phạm vi dịch vụ | Đề xuất chỉ có sáu phần, thiếu mục loại trừ phạm vi | Mục loại trừ phạm vi là căn cứ pháp lý quan trọng để bảo vệ quyền lợi của cả hai bên và ngăn ngừa tranh chấp phát sinh khi thực hiện hợp đồng |
 | Nhận yêu cầu thuộc nhóm A hoặc B của [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] mà không xin `CEO` | Phạm vi có việc soạn hợp đồng hoặc tư vấn pháp lý, Job không có văn bản nhận việc của `CEO` | Xem [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] mục 1.5 và `KS-AM-07` |
 | Đóng lead muộn để giữ chỉ số | Nhiều lead ở trạng thái đang theo đuổi quá T+5 | Đóng đúng hạn. Lead để việc không xử lý, làm `AM-M04` và `AM-M05` sai, và làm mất thời gian theo đuổi thứ đã nguội |
 
-## 9. ĐẦU RA VÀ NƠI LƯU
+## 8. ĐẦU RA VÀ NƠI LƯU
 
 | Đầu ra | Nơi lưu | Giữ bao lâu |
 | --- | --- | --- |
@@ -185,7 +175,7 @@ Có xác nhận thanh toán thì sang `AM-06` trong 01 ngày làm việc, và ti
 | Kết luận của `RD-18` về yêu cầu sửa điều khoản | Job phụ liên kết về `AM-24` | Như trên |
 | Hợp đồng đã ký, và xác nhận thanh toán | `[KHO LƯU TRỮ HỒ SƠ]`, và đính vào Job `AM-05` | Theo thời hạn lưu hợp đồng của oBacker |
 
-## 10. CHỈ SỐ THEO DÕI
+## 9. CHỈ SỐ THEO DÕI
 
 | Mã | Chỉ số | Ngưỡng | Đọc ở đâu |
 | --- | --- | --- | --- |
@@ -211,4 +201,4 @@ Có xác nhận thanh toán thì sang `AM-06` trong 01 ngày làm việc, và ti
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.2.0.0 | Cập nhật thẩm quyền ký hợp đồng dịch vụ chuẩn do Trưởng phòng Thương mại phê duyệt, trường hợp ngoại lệ chuyển Tổng Giám đốc |
+| 04/10/2026 | R.3.0.1 | Chuyển số đếm liệt kê ở phần lý do thành quy định. |

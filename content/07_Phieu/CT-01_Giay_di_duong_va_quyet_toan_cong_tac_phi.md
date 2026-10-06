@@ -4,19 +4,15 @@ code: "CT-01"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-TTT-05 Cách làm phiếu thao tác"
-law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - CT-01
 tags:
@@ -29,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | CT-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -40,6 +36,7 @@ tags:
 | **Ai dùng** | Người đi công tác (`NLĐ`), Quản lý trực tiếp (`TL`), `COO`, `CEO`, `KTV`, `KTT`, `TQ` |
 | **Sinh từ** | [[OBK-SOP-NB-18_Quan_ly_cong_tac_phi_va_thanh_toan_chi_phi_cong_tac\|OBK-SOP-NB-18]];<br>[[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 19, Điều 21 |
 | **Ngày làm phiếu** | 27/09/2026 |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ---
 
@@ -51,7 +48,7 @@ Phiếu này được lập cho mỗi chuyến đi công tác ngoài phạm vi t
 
 ## NGUYÊN TẮC VÀ ĐIỀU KIỆN QUYẾT TOÁN
 
-Căn cứ quy định tại [[OBK-SOP-NB-18_Quan_ly_cong_tac_phi_va_thanh_toan_chi_phi_cong_tac|OBK-SOP-NB-18]] và Điều 19 [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]], hồ sơ quyết toán chỉ được kế toán tiếp nhận và trình duyệt khi thỏa mãn 04 điều kiện:
+Kế toán chỉ tiếp nhận và trình duyệt hồ sơ quyết toán công tác phí khi thỏa mãn 04 điều kiện theo quy định tại OBK-SOP-NB-18 và OBK-QCTC-01 Điều 19:
 
 1. **Có Quyết định cử đi công tác** do `CEO` ký ban hành trước thời điểm khởi hành chuyến đi.
 2. **Có xác nhận thực tế** ngày đến, ngày đi có chữ ký và đóng dấu của cơ quan, doanh nghiệp, đối tác tại nơi đến công tác (hoặc tài liệu chứng minh sự hiện diện tại nơi đến).
@@ -155,7 +152,7 @@ Người lập biểu (Người đi công tác)    Kế toán viên thẩm đị
 
 ## NGUYÊN TẮC HẠCH TOÁN KẾ TOÁN THEO THÔNG TƯ 99/2025/TT-BTC
 
-Toàn bộ chi phí công tác hợp lệ trên Giấy đi đường và quyết toán công tác phí CT-01 được hạch toán vào hệ thống sổ kế toán theo Thông tư 99/2025/TT-BTC và nguyên tắc Nguồn dữ liệu tài chính duy nhất quy định tại Điều 2.5 [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]]:
+Toàn bộ chi phí công tác hợp lệ trên Giấy đi đường và quyết toán công tác phí CT-01 bắt buộc phải chuyển giao chứng từ hợp pháp về Bộ phận Kế toán để ghi nhận, hạch toán vào hệ thống sổ kế toán theo nguyên tắc Nguồn dữ liệu tài chính duy nhất tại OBK-QCTC-01 Điều 2.5:
 1. **Khi tạm ứng công tác:** Nợ TK 141 (Tạm ứng - chi tiết người đi công tác) / Có TK 112 (hoặc TK 111).
 2. **Khi quyết toán chi phí công tác hợp lệ:**
    - Chi phí công tác quản lý chung: Nợ TK 6427 (Chi phí dịch vụ mua ngoài) hoặc TK 6428 (Chi phí bằng tiền khác).
@@ -180,16 +177,6 @@ Toàn bộ chi phí công tác hợp lệ trên Giấy đi đường và quyết
 
 ---
 
-## CĂN CỨ PHÁP LUẬT
-
-| Mục trên phiếu | Văn bản pháp luật áp dụng | Điều khoản cụ thể | Hậu quả pháp lý nếu vi phạm |
-| --- | --- | --- | --- |
-| Chế độ kế toán doanh nghiệp | Thông tư 99/2025/TT-BTC | Phụ lục II (TK 141, TK 154, TK 642, TK 1331) | Hạch toán sai tài khoản chi phí và sai nghĩa vụ thuế |
-| Quyết định cử đi công tác | Văn bản hợp nhất 19/VBHN-BTC ngày 04/06/2026 | Điều 10 khoản 8 điểm h | Mất toàn bộ quyền tính chi phí được trừ khi tính thuế TNDN |
-| Xác nhận nơi đến trên Giấy đi đường | Văn bản hợp nhất 19/VBHN-BTC ngày 04/06/2026 | Điều 10 khoản 8 điểm h | Bị bóc tách tiền phụ cấp lưu trú khoán và tiền vé phương tiện đi lại |
-| Thanh toán không dùng tiền mặt từ 05 triệu đồng | Văn bản hợp nhất 19/VBHN-BTC; Văn bản hợp nhất 18/VBHN-BTC | VBHN 19 Đ.9 k.1 đ.c; VBHN 18 Đ.26 k.2 đ.i | Mất chi phí được trừ thuế TNDN và mất quyền khấu trừ thuế GTGT đầu vào |
-| Định mức khoán chi công tác phí | Nghị định 253/2026/NĐ-CP ngày 29/06/2026 | Điều 8 khoản 2 điểm đ | Phần chi vượt định mức bị tính vào thu nhập chịu thuế TNCN của người lao động |
-| Chữ ký chức danh trên phiếu quyết toán | Luật Kế toán 41/VBHN-VPQH | Điều 19 | Chứng từ kế toán không có giá trị pháp lý, không được ghi sổ |
 
 ---
 
@@ -197,4 +184,4 @@ Toàn bộ chi phí công tác hợp lệ trên Giấy đi đường và quyết
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu CT-01 về Sổ cái OBK-MSR |

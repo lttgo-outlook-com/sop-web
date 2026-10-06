@@ -4,19 +4,15 @@ code: "LU-01"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.0.0"
+version: "R.2.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-TTT-05 Cách làm phiếu thao tác"
-law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - LU-01
 tags:
@@ -29,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | LU-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.2.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -38,22 +34,23 @@ tags:
 | **Mã phiếu** | LU-01 |
 | **Màu** | ĐỎ, bảng thanh toán tiền lương và nghĩa vụ bảo hiểm, thuế |
 | **Ai dùng** | `HR`, `KTV`, `KTT`, `TGĐ`, `NTT` |
-| **Sinh từ** | [[01_Khung_nhan_su_tong_hop\|OBK-QCNS-01]];<br>[[02_Chuong_trinh_tang_luong_dinh_ky\|OBK-QCNS-02]];<br>[[OBK-SOP-NB-04_Cong_va_tien_luong_noi_bo\|OBK-SOP-NB-04]];<br>[[07_Chinh_sach_cong_chuan_va_cham_cong\|OBK-QCNS-07]];<br>Mẫu 01-LĐTL Phụ lục I Thông tư 99/2025/TT-BTC;<br>Biểu mẫu tự thiết kế `BM-09` theo [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-QCTC-03]] mục 6.6b |
+| **Sinh từ** | [[01_Khung_nhan_su_tong_hop\|OBK-QCNS-01]];<br>[[02_Chuong_trinh_tang_luong_dinh_ky\|OBK-QCNS-02]];<br>[[OBK-SOP-NB-04_Cong_va_tien_luong_noi_bo\|OBK-SOP-NB-04]];<br>[[07_Chinh_sach_cong_chuan_va_cham_cong\|OBK-QCNS-07]];<br>Bảng thanh toán tiền lương theo mẫu số 01-LĐTL Phụ lục I Thông tư 99/2025/TT-BTC;<br>Bảng chấm công `BM-09`, biểu mẫu tự thiết kế riêng tại [[PL_BM_Bieu_mau_mua_sam_thanh_toan\|OBK-SOP-NB-PL-BM]], làm cơ sở lập bảng 01-LĐTL theo [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-QCTC-03]] mục 6.6b |
 | **Ngày làm phiếu** | 27/09/2026 |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
-Bảng theo dõi và thanh toán tiền lương chuẩn (Payroll Master Register) là chứng từ thanh toán tiền lương và nghĩa vụ lao động chính thức của oBacker. Bảng được lập hằng tháng để tổng hợp dữ liệu chấm công, tính toán thu nhập thời gian thực tế, tiền làm thêm giờ (OT), phụ cấp lương, tiền thưởng hiệu suất KPI theo [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]], thưởng doanh thu, trích nộp bảo hiểm xã hội bắt buộc và tính toán khấu trừ thuế thu nhập cá nhân theo quy định pháp luật.
+Bảng theo dõi và thanh toán tiền lương chuẩn (Payroll Master Register) là chứng từ thanh toán tiền lương và nghĩa vụ lao động chính thức của oBacker. Bảng được lập hằng tháng để tổng hợp dữ liệu chấm công, tính toán thu nhập thời gian thực tế, tiền làm thêm giờ (OT), phụ cấp lương, tiền thưởng hiệu suất KPI theo OBK-QCNS-08, thưởng doanh thu, trích nộp bảo hiểm xã hội bắt buộc và tính toán khấu trừ thuế thu nhập cá nhân theo quy định pháp luật.
 
 Bảng được vận hành theo lịch kỳ chuẩn hằng tháng:
 1. **Ngày 22 hằng tháng:** `HR` chuyển giao Bảng chấm công `BM-09` đã có chữ ký phê duyệt của `CEO` cho `KTV`;
 2. **Từ ngày 23 đến ngày 25 hằng tháng:** `KTV` tính lương, bóc tách thu nhập làm thêm giờ miễn thuế thu nhập cá nhân theo Job NB-36, khấu trừ tạm ứng và lập Bảng thanh toán tiền lương mẫu số 01-LĐTL;
 3. **Trước ngày 28 hằng tháng:** `KTT` soát xét và ký xác nhận chức danh Kế toán trưởng; `TGĐ` phê duyệt bảng lương theo Job NB-37;
-4. **Ngày 05 hằng tháng kế tiếp (hoặc ngày làm việc cuối cùng của tháng theo quy định chi trả):** `NTT` tạo lệnh và `TGĐ` hoặc `Chủ tịch HĐQT` xác nhận lệnh chuyển khoản tiền lương vào tài khoản ngân hàng chính chủ của người lao động.
+4. **Ngày làm việc cuối cùng của tháng:** `NTT` tạo lệnh và `TGĐ` hoặc `Chủ tịch HĐQT` xác nhận lệnh chuyển khoản tiền lương vào tài khoản ngân hàng chính chủ của người lao động. Tiền lương chi trả là tiền lương và các chế độ của chính tháng đó; nếu ngày cuối tháng trùng ngày nghỉ thì chi trả vào ngày làm việc cuối cùng trước đó.
 
-## CẤU TRÚC BẢNG THANH TOÁN TIỀN LƯƠNG CHUẨN (BM-09 / 01-LĐTL)
+## CẤU TRÚC BẢNG THANH TOÁN TIỀN LƯƠNG MẪU 01-LĐTL
 
-Bảng thanh toán tiền lương chuẩn gồm 07 phân nhóm trường dữ liệu chuẩn hóa:
+Bảng thanh toán tiền lương theo mẫu số 01-LĐTL Phụ lục I Thông tư 99/2025/TT-BTC gồm 07 phân nhóm trường dữ liệu chuẩn hóa. Bảng chấm công `BM-09` là một biểu mẫu riêng, làm đầu vào của bảng này, xem mục BM-09 tại OBK-SOP-NB-PL-BM; cấu trúc `BM-09` không nằm trong phiếu này.
 
 ### Nhóm I. Thông tin nhân sự và Cấp bậc
 
@@ -162,7 +159,7 @@ Căn cứ Nghị định số 253/2026/NĐ-CP Điều 8 khoản 2 và Thông tư
 [ ]  5. LẬP LỆNH VÀ XÁC NHẬN LỆNH CHI TRẢ QUA NGÂN HÀNG (NGÀY CHI TRẢ)
         - NTT (KTV hoặc KTT) tạo lệnh chuyển tiền lương trên hệ thống ngân hàng điện tử vào tài khoản nhân viên.
         - TGĐ hoặc Chủ tịch HĐQT thực hiện thao tác XÁC NHẬN lệnh chuyển tiền theo Điều 35 OBK-QCTC-01.
-        - Tiền lương về tài khoản người lao động vào ngày 05 hằng tháng (hoặc ngày làm việc cuối cùng của tháng).
+        - Tiền lương về tài khoản người lao động vào ngày làm việc cuối cùng của tháng.
         - HR gửi phiếu lương điện tử (Payslip) riêng tư cho từng nhân sự trong thời hạn 24 giờ sau khi chi lương.
 ```
 
@@ -171,7 +168,7 @@ Căn cứ Nghị định số 253/2026/NĐ-CP Điều 8 khoản 2 và Thông tư
 1. **Điểm kiểm soát KS-LU-01 (Kiểm soát tính hợp lệ của bảng công nguồn):** `KTV` chỉ tính toán tiền lương khi nhận được Bảng chấm công `BM-09` có đầy đủ chữ ký của người lập (`HR`) và chữ ký phê duyệt của `CEO`. Mọi sửa đổi dữ liệu công sau ngày 22 phải có văn bản phê duyệt bổ sung của `CEO`.
 2. **Điểm kiểm soát KS-LU-02 (Kiểm soát bóc tách thu nhập làm thêm giờ miễn thuế):** Việc tách phần thu nhập làm thêm giờ được miễn thuế TNCN phải có Bảng kê chi tiết giờ làm thêm kèm theo (Job NB-36), lưu trữ cùng hồ sơ lương để phục vụ công tác thanh tra thuế và quyết toán thuế thu nhập cá nhân năm.
 3. **Điểm kiểm soát KS-LU-03 (Kiểm soát tỷ lệ trích nộp bảo hiểm và thuế):** Trích nộp bảo hiểm bắt buộc theo đúng tỷ lệ luật định (người lao động 10,5%, công ty 21,5% trên tiền lương đóng BHXH). Đối với thuế thu nhập cá nhân: áp dụng mức thuế tạm khấu trừ bằng 0 đồng cho toàn bộ nhân sự oBacker tham gia phát triển, vận hành và cung cấp dịch vụ được miễn thuế TNCN 05 năm theo Nghị quyết 136/2024/QH15 và xác nhận của Sở Khoa học và Công nghệ thành phố Đà Nẵng; bảo đảm hồ sơ lao động có ghi rõ nhiệm vụ liên quan hoạt động khởi nghiệp sáng tạo.
-4. **Điểm kiểm soát KS-LU-04 (Kiểm soát tách quyền lập bảng lương và duyệt chi):** Người lập bảng lương (`KTV`) độc lập với người kiểm soát (`KTT`) và người phê duyệt (`TGĐ`). Trên hệ thống ngân hàng điện tử, người TẠO lệnh chuyển tiền lương phải khác người XÁC NHẬN lệnh theo quy định tại Điều 35 [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]].
+4. **Điểm kiểm soát KS-LU-04 (Kiểm soát tách quyền lập bảng lương và duyệt chi):** Người lập bảng lương (`KTV`) độc lập với người kiểm soát (`KTT`) và người phê duyệt (`TGĐ`). Trên hệ thống ngân hàng điện tử, người TẠO lệnh chuyển tiền lương phải khác người XÁC NHẬN lệnh theo quy định tại Điều 35 OBK-QCTC-01.
 
 ## QUY TRÌNH LUÂN CHUYỂN VÀ LƯU TRỮ
 
@@ -191,19 +188,6 @@ Bảng thanh toán tiền lương chuẩn mẫu 01-LĐTL có đủ 03 chữ ký 
 
 Tiền lương là nghĩa vụ tài chính và pháp lý trực tiếp của oBacker đối với người lao động. Một sai sót trong tính lương không chỉ ảnh hưởng trực tiếp đến quyền lợi của nhân viên mà còn dẫn đến rủi ro xử phạt vi phạm hành chính về lao động, bảo hiểm xã hội và thuế thu nhập cá nhân. Bảng LU-01 chuẩn hóa biểu mẫu thanh toán lương, tích hợp đầy đủ các cấu phần lương thời gian, tiền làm thêm giờ bóc tách miễn thuế theo quy định mới của Nghị định 253/2026/NĐ-CP, đồng thời bảo đảm tính thống nhất giữa hệ thống quản trị nhân sự và hạch toán kế toán.
 
-### 2. Căn cứ quy định và pháp luật liên quan
-
-| Mục | Căn cứ | Nội dung trích dẫn hoặc áp dụng |
-| --- | --- | --- |
-| Bộ luật Lao động | Bộ luật Lao động số 45/2019/QH14 (VBHN 18/VBHN-VPQH) Điều 98, 101, 102, 112, 113 | Tiền lương làm thêm giờ, tạm ứng lương, khấu trừ lương, ngày nghỉ lễ tết và phép năm |
-| Hướng dẫn tiền lương | Nghị định số 145/2020/NĐ-CP Điều 54 | Phương pháp tính tiền lương ngày và tiền lương giờ từ tiền lương tháng theo hợp đồng |
-| Thuế thu nhập cá nhân | Nghị định số 253/2026/NĐ-CP Điều 8 và Điều 50 | Bóc tách phần tiền lương làm thêm giờ được miễn thuế TNCN và khấu trừ thuế theo biểu lũy tiến |
-| Miễn thuế TNCN khởi nghiệp sáng tạo | Nghị quyết số 136/2024/QH15 Điều 14 khoản 1 điểm b; Nghị quyết số 53/2024/NQ-HĐND và Nghị quyết số 24/2026/NQ-HĐND thành phố Đà Nẵng | Miễn thuế TNCN 05 năm cho nhân sự làm việc tại Doanh nghiệp Khởi nghiệp sáng tạo oBacker từ tháng 12/2025 |
-| Chế độ kế toán doanh nghiệp | Thông tư số 99/2025/TT-BTC Phụ lục I | Biểu mẫu chuẩn Bảng thanh toán tiền lương mẫu số 01-LĐTL |
-| Quy chế tài chính nội bộ | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 25, 26, 26a, 35 | Quy chế tiền lương, thưởng, tạm ứng lương và phân quyền trên hệ thống ngân hàng điện tử |
-| Khung nhân sự tổng hợp | [[01_Khung_nhan_su_tong_hop\|OBK-QCNS-01]] | Thang cấp bậc nhân sự toàn công ty từ P1 đến P4 và M1 |
-| Chính sách công chuẩn | [[07_Chinh_sach_cong_chuan_va_cham_cong\|OBK-QCNS-07]] | Chu kỳ công chuẩn, mẫu số tính lương ngày và các quy định làm thêm giờ |
-| Quy trình công và lương | [[OBK-SOP-NB-04_Cong_va_tien_luong_noi_bo\|OBK-SOP-NB-04]] | Quy trình chốt công, lập bảng lương Job NB-36 và phê duyệt chi lương Job NB-37 |
 
 ---
 
@@ -211,4 +195,4 @@ Tiền lương là nghĩa vụ tài chính và pháp lý trực tiếp của oBa
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.2.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu LU-01 về Sổ cái OBK-MSR |

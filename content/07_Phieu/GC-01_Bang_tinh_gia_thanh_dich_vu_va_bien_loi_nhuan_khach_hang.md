@@ -4,19 +4,15 @@ code: "GC-01"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-TTT-05 Cách làm phiếu thao tác"
-law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - GC-01
 tags:
@@ -31,7 +27,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | GC-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -42,11 +38,12 @@ tags:
 | **Ai dùng** | Kế toán viên chi phí (`KTV`), Kế toán trưởng (`KTT`), Trưởng bộ phận dịch vụ (`TL-KT`, `TL-LIC`, `TL-LD`, `TL-LS`), Chuyên viên Quản lý khách hàng (`AM`), Giám đốc điều hành (`COO`), Giám đốc điều hành cấp cao (`CEO`) |
 || **Sinh từ** | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]];<br>[[05_Quy_trinh_ke_toan_thang\|05_Quy_trinh_ke_toan_thang]];<br>[[CV-01_Bang_theo_doi_trang_thai_cong_viec_sla_va_kpi\|CV-01]];<br>[[LU-01_Bang_theo_doi_va_thanh_toan_tien_luong_chuan\|LU-01]];<br>[[DT-02_So_theo_doi_doanh_thu_tra_truoc_va_phan_bo\|DT-02]];<br>[[KH-01_So_quan_tri_khach_hang_va_dich_vu_crm\|KH-01]];<br>[[TC-01_Bang_theo_doi_dong_tien_va_suc_khoe_tai_chinh\|TC-01]];<br>[[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-QCTC-03]];<br>Thông tư 99/2025/TT-BTC Điều 11 (Tài khoản 154 và Tài khoản 632) |
 | **Ngày làm phiếu** | 27/09/2026 |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
 Bảng tính giá thành dịch vụ và biên lợi nhuận khách hàng được áp dụng bắt buộc để:
-1. Tập hợp toàn bộ chi phí trực tiếp và chi phí phân bổ phát sinh từ việc cung cấp dịch vụ cho khách hàng theo Tài khoản 154 (Chi phí sản xuất, kinh doanh dở dang) quy định tại Thông tư 99/2025/TT-BTC Điều 11 (hoặc Phụ lục II) và [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]].
+1. Tập hợp toàn bộ chi phí trực tiếp và chi phí phân bổ phát sinh từ việc cung cấp dịch vụ cho khách hàng vào bên Nợ Tài khoản 154 (Chi phí sản xuất, kinh doanh dở dang) theo OBK-QCTC-03 điều 3b.2 và OBK-QCTC-01 điều 2.5 (nguồn dữ liệu tài chính duy nhất).
 2. Xác định chính xác giá vốn dịch vụ hoàn thành để kết chuyển sang Tài khoản 632 (Giá vốn hàng bán) tại thời điểm nghiệm thu hoặc phân bổ doanh thu định kỳ theo [[DT-02_So_theo_doi_doanh_thu_tra_truoc_va_phan_bo|DT-02]].
 3. Tính toán giá thành dịch vụ đồng bộ qua 04 cấp độ phân tích:
    - Cấp độ 1: Theo từng nhiệm vụ công việc (`Task` gắn với 203 mã Job tại [[PL_2_Bang_tra_SLA|OBK-SOP-PL2]]).
@@ -81,7 +78,7 @@ Bảng đơn giá chi phí lương giờ chuẩn theo ngạch bậc chuyên môn
 | P4 | Chuyên viên cao cấp | 22.000.000 | 125.000 | 26.875 | 151.875 |
 | M1 / TL | Trưởng bộ phận chuyên môn | 28.000.000 | 159.091 | 34.205 | 193.296 |
 
-*(Số ngày công chuẩn của tháng tính bình quân 22 ngày làm việc theo [[07_Chinh_sach_cong_chuan_va_cham_cong|OBK-QCNS-07]])*
+*(Số ngày công chuẩn của tháng tính bình quân 22 ngày làm việc theo OBK-QCNS-07)*
 
 ### 2. Chi phí dịch vụ mua ngoài trực tiếp (Direct Expenses)
 
@@ -132,7 +129,7 @@ Nguyên tắc quản trị tài chính là **tuyệt đối không dùng giá đ
 Lợi nhuận từ hoạt động cung ứng dịch vụ và phân phối lại theo thuế suất phổ thông là 20% theo quy định của Luật Thuế thu nhập doanh nghiệp.
 
 **Chính sách ưu đãi thuế thu nhập doanh nghiệp của oBacker:**
-Công ty Cổ phần OBACKER được xác nhận là Doanh nghiệp Khởi nghiệp sáng tạo theo Văn bản xác nhận ngày 29/12/2025 của Sở Khoa học và Công nghệ thành phố Đà Nẵng, áp dụng cơ chế ưu đãi đặc thù tại Nghị quyết số 136/2024/QH15 Điều 14 khoản 1 điểm a, Nghị quyết số 53/2024/NQ-HĐND và Nghị quyết số 24/2026/NQ-HĐND của HĐND thành phố Đà Nẵng (xem [[CC-KT-90 Miễn thuế TNDN 05 năm từ ngày phát sinh thu nhập chịu thuế cho doanh nghiệp khởi nghiệp sáng tạo tại Đà Nẵng|CC-KT-90]] và [[CC-KT-92 Điều khoản chuyển tiếp tiếp tục hưởng ưu đãi thuế cho văn bản xác nhận cấp trước theo Nghị quyết 24-2026-NQ-HĐND|CC-KT-92]]):
+Công ty Cổ phần OBACKER được Sở Khoa học và Công nghệ thành phố Đà Nẵng cấp Văn bản xác nhận ngày 29/12/2025 công nhận là Doanh nghiệp Khởi nghiệp sáng tạo, được miễn 100% thuế thu nhập doanh nghiệp trong 05 năm tính liên tục từ năm đầu tiên phát sinh thu nhập chịu thuế (từ khi có lãi); trường hợp chưa có lãi thì thời gian miễn thuế tính từ năm thứ 04 kể từ năm đầu tiên có doanh thu:
 - Thời gian miễn thuế: Miễn 100% thuế TNDN trong 05 năm tính liên tục từ năm đầu tiên phát sinh thu nhập chịu thuế (từ khi có lãi). Trường hợp chưa có lãi thì tính từ năm thứ 04 kể từ năm đầu tiên có doanh thu.
 - Thuế suất áp dụng: Thuế TNDN oBacker = 0% $\rightarrow$ Chi phí thuế TNDN hiện hành (TK 8211) = 0 đồng $\rightarrow$ Lợi nhuận ròng sau thuế = Lợi nhuận trước thuế.
 
@@ -181,7 +178,7 @@ Khi chi trả hoa hồng môi giới, hoa hồng giới thiệu khách hàng (Co
 
 ### Cấp độ 1. Giá thành theo từng nhiệm vụ công việc (Task / Job Code)
 
-Mỗi nhiệm vụ phát sinh trên hệ thống quản lý công việc [[CV-01_Bang_theo_doi_trang_thai_cong_viec_sla_va_kpi|CV-01]] được gắn với 01 mã Job thuộc 203 mã Job chuẩn tại [[PL_2_Bang_tra_SLA|OBK-SOP-PL2]].
+Mỗi nhiệm vụ phát sinh trên hệ thống quản lý công việc CV-01 được gắn với 01 mã Job thuộc 203 mã Job chuẩn tại OBK-SOP-PL2.
 
 Giá thành của từng nhiệm vụ $i$ ($\text{Z}_{\text{task}, i}$):
 
@@ -205,7 +202,7 @@ Trong đó $\text{C}_{\text{deliv\_direct}, j}$ là chi phí trực tiếp mua n
 
 ### Cấp độ 3. Giá thành theo Gói dịch vụ (Service Package)
 
-Gói dịch vụ là sản phẩm thương mại được chào bán theo Danh mục dịch vụ và Bảng giá [[00_Danh_muc_dich_vu_va_bang_gia|OBK-DM-00]] đến [[07_Bang_gia_Dich_vu_o_nuoc_ngoai|OBK-DM-07]].
+Gói dịch vụ là sản phẩm thương mại được chào bán theo Danh mục dịch vụ và Bảng giá OBK-DM-00 đến OBK-DM-07.
 
 Giá thành của gói dịch vụ $k$ trong một kỳ kế toán ($\text{Z}_{\text{pkg}, k}$):
 
@@ -326,7 +323,7 @@ Căn cứ vào tỷ lệ biên lợi nhuận gộp ($\text{Gross\_Margin\_}\%$) 
 
 ---
 
-## QUY TRÌNH 4 BƯỚC TÍNH GIÁ THÀNH VÀ KIỂM SOÁT LỢI NHUẬN DỊCH VỤ
+## QUY TRÌNH TÍNH GIÁ THÀNH VÀ KIỂM SOÁT LỢI NHUẬN DỊCH VỤ
 
 ```
 [1. Thu thập dữ liệu giờ công & chi phí] -> [2. Chạy tính toán 4 cấp độ bằng script] -> [3. Kiểm soát hòa vốn & Cảnh báo] -> [4. Kết chuyển kế toán TK 632]
@@ -334,7 +331,7 @@ Căn cứ vào tỷ lệ biên lợi nhuận gộp ($\text{Gross\_Margin\_}\%$) 
 
 ### Bước 1. Thu thập dữ liệu giờ công và chi phí mua ngoài trực tiếp
 
-1. Định kỳ ngày 25 hằng tháng hoặc khi kết thúc hồ sơ dịch vụ, `KTV` trích xuất dữ liệu số giờ làm việc thực tế của từng nhiệm vụ từ [[CV-01_Bang_theo_doi_trang_thai_cong_viec_sla_va_kpi|CV-01]].
+1. Định kỳ ngày 25 hằng tháng hoặc khi kết thúc hồ sơ dịch vụ, `KTV` trích xuất dữ liệu số giờ làm việc thực tế của từng nhiệm vụ từ CV-01.
 2. Tập hợp hóa đơn và chứng từ chi phí dịch vụ mua ngoài trực tiếp:
    - Chi phí token và chứng thư số từ Sổ [[CK-02_Theo_doi_kho_token_va_kich_hoat_cyberx|CK-02]].
    - Chi phí bưu chính chuyển phát từ Sổ giao nhận [[TL-01_So_giao_nhan_tai_lieu_va_buu_pham|TL-01]].
@@ -356,7 +353,7 @@ Căn cứ vào tỷ lệ biên lợi nhuận gộp ($\text{Gross\_Margin\_}\%$) 
 2. Đối với các hợp đồng âm lợi nhuận (`Mức Đỏ`):
    - `KTV` gửi thông báo cho `TL` bộ phận chuyên môn và `AM` trong thời hạn 04 giờ làm việc.
    - `TL` kiểm tra nguyên nhân vượt giờ làm việc (do hồ sơ phức tạp, chuyên viên mới làm quen việc, hay do khách hàng gửi chứng từ thiếu).
-   - Nếu nguyên nhân do số lượng chứng từ hoặc nghiệp vụ thực tế của khách hàng vượt quá định mức của gói hợp đồng quy định tại [[00_Danh_muc_dich_vu_va_bang_gia|OBK-DM-00]], `AM` phát hành thông báo đề xuất điều chỉnh gói dịch vụ theo Job `AM-23` và `AM-30`.
+   - Nếu nguyên nhân do số lượng chứng từ hoặc nghiệp vụ thực tế của khách hàng vượt quá định mức của gói hợp đồng quy định tại OBK-DM-00, `AM` phát hành thông báo đề xuất điều chỉnh gói dịch vụ theo Job `AM-23` và `AM-30`.
 
 ### Bước 4. Lập chứng từ kết chuyển giá vốn kế toán
 
@@ -371,7 +368,7 @@ Căn cứ vào tỷ lệ biên lợi nhuận gộp ($\text{Gross\_Margin\_}\%$) 
      * Nợ TK 632 (Giá vốn hàng bán).
      * Có TK 154 (Chi phí sản xuất, kinh doanh dở dang).
 2. Chi phí của các nhiệm vụ, hồ sơ chưa hoàn thành hoặc chưa đến kỳ nghiệm thu được giữ lại số dư bên Nợ Tài khoản 154 (chi phí dở dang cuối kỳ).
-3. Bảng GC-01 được lưu trữ kèm hồ sơ quyết toán tháng và đối chiếu với Báo cáo tài chính nội bộ [[TC-01_Bang_theo_doi_dong_tien_va_suc_khoe_tai_chinh|TC-01]].
+3. Bảng GC-01 được lưu trữ kèm hồ sơ quyết toán tháng và đối chiếu với Báo cáo tài chính nội bộ TC-01.
 
 ---
 
@@ -394,36 +391,7 @@ Trong hoạt động cung cấp dịch vụ doanh nghiệp (kế toán, pháp l�
 
 Phiếu GC-01 thiết lập khuôn khổ tính toán minh bạch, khách quan bằng công thức toán học và script tự động, kết nối trực tiếp dữ liệu giữa điều hành tác nghiệp ([[CV-01_Bang_theo_doi_trang_thai_cong_viec_sla_va_kpi|CV-01]]), chi phí tiền lương ([[LU-01_Bang_theo_doi_va_thanh_toan_tien_luong_chuan|LU-01]]), doanh thu ([[DT-02_So_theo_doi_doanh_thu_tra_truoc_va_phan_bo|DT-02]]) và quản trị quan hệ khách hàng ([[KH-01_So_quan_tri_khach_hang_va_dich_vu_crm|KH-01]]).
 
-### 2. Căn cứ quy định và pháp luật liên quan
 
-| Mục | Nguồn | Nội dung |
-| --- | --- | --- |
-| Quy chế hạch toán kế toán | [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-QCTC-03]] | Quy định tập hợp chi phí Tài khoản 154 và kết chuyển giá vốn Tài khoản 632 |
-| Quy chế tài chính nội bộ | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] | Chỉ tiêu tỷ lệ chi phí nhân sự PCR và mục tiêu biên lợi nhuận gộp |
-| Bảng theo dõi công việc | [[CV-01_Bang_theo_doi_trang_thai_cong_viec_sla_va_kpi\|CV-01]] | Dữ liệu số giờ làm việc thực tế theo 203 mã Job |
-| Bảng thanh toán tiền lương | [[LU-01_Bang_theo_doi_va_thanh_toan_tien_luong_chuan\|LU-01]] | Đơn giá chi phí lương giờ và các khoản trích theo lương theo từng ngạch bậc |
-| Sổ theo dõi doanh thu | [[DT-02_So_theo_doi_doanh_thu_tra_truoc_va_phan_bo\|DT-02]] | Doanh thu thuần dịch vụ phân bổ trong kỳ của từng khách hàng |
-| Sổ quản trị khách hàng | [[KH-01_So_quan_tri_khach_hang_va_dich_vu_crm\|KH-01]] | Thông tin hợp đồng, phân loại khách hàng và đánh giá sức khỏe tài khoản |
-| Bảng tra cứu SLA 203 Job | [[PL_2_Bang_tra_SLA\|OBK-SOP-PL2]] | Danh mục 203 mã Job chuẩn hóa toàn công ty |
-| Mốc công việc và đầu ra | [[PL_G_Moc_cong_viec_va_dau_ra_dich_vu\|OBK-SOP-PL-G]] | Danh mục kết quả bàn giao chuẩn hóa theo từng gói dịch vụ |
-| Danh mục dịch vụ và bảng giá | [[00_Danh_muc_dich_vu_va_bang_gia\|OBK-DM-00]] | Khung giá dịch vụ và hạn mức khối lượng nghiệp vụ chuẩn |
-
-### 3. Căn cứ pháp lý
-
-| Văn bản | Điều khoản | Nội dung áp dụng |
-| --- | --- | --- |
-| Luật Kế toán số 88/2015/QH13 (sửa đổi bởi Luật số 56/2024/QH15) | Điều 6, Điều 12 | Nguyên tắc kế toán dồn tích và nguyên tắc phù hợp giữa doanh thu và chi phí |
-| Thông tư 99/2025/TT-BTC | Phụ lục II | Phương pháp kế toán Tài khoản 154 Chi phí sản xuất, kinh doanh dở dang |
-| Thông tư 99/2025/TT-BTC | Phụ lục II | Phương pháp kế toán Tài khoản 632 Giá vốn hàng bán |
-| Nghị định 145/2020/NĐ-CP | Điều 54 | Phương pháp tính tiền lương giờ làm việc làm căn cứ xác định chi phí lao động |
-| Luật Bảo hiểm xã hội số 41/2024/QH15 | Điều 33 | Tỷ lệ trích đóng các quỹ bảo hiểm bắt buộc của người sử dụng lao động |
-| Luật Thuế giá trị gia tăng số 48/2024/QH15 | Điều 5 khoản 21 | Quy định phần mềm thuộc đối tượng không chịu thuế giá trị gia tăng |
-| Nghị định 252/2026/NĐ-CP và Thông tư 89/2026/TT-BTC | Toàn văn | Nghĩa vụ khai và nộp thay thuế nhà thầu đối với dịch vụ đối tác quốc tế |
-| Thông tư 20/2026/TT-BTC | Điều 7 khoản 3 | Công thức quy đổi giá Net sang doanh thu tính thuế nhà thầu Gross |
-| Nghị định 253/2026/NĐ-CP | Điều 50 khoản 2 | Khấu trừ thuế thu nhập cá nhân 10% tại nguồn đối với hoa hồng môi giới từ 05 triệu đồng |
-| Nghị quyết số 136/2024/QH15 | Điều 14 khoản 1 | Miễn thuế TNDN 05 năm từ khi có lãi cho Doanh nghiệp Khởi nghiệp sáng tạo tại TP Đà Nẵng |
-| Nghị quyết số 53/2024/NQ-HĐND và Nghị quyết số 24/2026/NQ-HĐND | Toàn văn | Cơ chế chính sách đặc thù khởi nghiệp sáng tạo thành phố Đà Nẵng |
-| Văn bản xác nhận Sở KH&CN Đà Nẵng ngày 29/12/2025 | Toàn văn | Xác nhận Công ty Cổ phần OBACKER (MST 0402298185) là Doanh nghiệp Khởi nghiệp sáng tạo |
 
 ---
 
@@ -431,4 +399,4 @@ Phiếu GC-01 thiết lập khuôn khổ tính toán minh bạch, khách quan b�
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu GC-01 về Sổ cái OBK-MSR |

@@ -7,16 +7,13 @@ level: "Cấp 3, hướng dẫn nghiệp vụ"
 version: "R.1.0.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 25/08/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
 parent: "OBK-SOP-KT Kế toán và thuế"
 next_review: "Chậm nhất 28/02/2027"
 chapter: "Bàn giao nội bộ và kết thúc hợp đồng dịch vụ"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-SOP-20
 tags:
@@ -98,10 +95,10 @@ Chương này phục vụ hai loại bàn giao có bản chất khác nhau nhưn
 
 | Nội dung pháp lý liên quan | Xem tại |
 | --- | --- |
-| Thời hạn lưu hồ sơ thuế và hồ sơ kế toán | Chương 14 mục 9.2 |
-| Nghĩa vụ riêng của đơn vị kinh doanh dịch vụ kế toán | Chương 07 mục 6.2 |
-| Thời hiệu khai bổ sung, ảnh hưởng tới thời gian phải giữ hồ sơ | Chương 15 mục 6.5 |
-| Thời hiệu và truy thu khi bị kiểm tra, thanh tra | Chương 16 mục 6.10 |
+| Thời hạn lưu hồ sơ thuế và hồ sơ kế toán | Chương 14 mục 8.2 |
+| Nghĩa vụ riêng của đơn vị kinh doanh dịch vụ kế toán | Chương 07 mục 5.2 |
+| Thời hiệu khai bổ sung, ảnh hưởng tới thời gian phải giữ hồ sơ | Chương 15 mục 5.5 |
+| Thời hiệu và truy thu khi bị kiểm tra, thanh tra | Chương 16 mục 5.10 |
 | Trách nhiệm hành chính của bên được ủy quyền | Chương 17, cảnh báo mở đầu |
 
 3.3. Nghĩa vụ bảo mật thông tin khách hàng theo hợp đồng dịch vụ và theo pháp luật có liên quan tiếp tục có hiệu lực sau khi hợp đồng kết thúc. Việc kết thúc hợp đồng không chấm dứt nghĩa vụ bảo mật.
@@ -359,7 +356,7 @@ Quy định nội bộ oBacker. Dùng trong soát xét độc lập và trong b�
 
 ### 6.3. KẾT THÚC HỢP ĐỒNG DỊCH VỤ
 
-#### 6.3.1. Nguyên tắc chung cho cả ba tình huống
+#### 6.3.1. Nguyên tắc chung xử lý tình huống bàn giao
 
 Quy định nội bộ oBacker.
 
@@ -391,9 +388,9 @@ Quy định nội bộ oBacker.
 | 14 | Phỏng vấn khách rời đi và ghi nhận bài học | COO | Trong 30 ngày |
 | 15 | Thanh lý hợp đồng | CEO ký, AM đầu mối với khách | Theo hợp đồng |
 
-> [!note] HAI MỐC
+> [!note] QUY ĐỊNH THỜI HẠN BÀN GIAO
 > HAI ĐIỂM NEO KHÁC NHAU, KHÔNG MÂU THUẪN
-> Bước 9 ở trên neo vào NGÀY KẾT THÚC và đếm LÙI: bộ hồ sơ bàn giao phải sẵn sàng chậm nhất 10 ngày làm việc trước ngày kết thúc. Job KT-28 tại [[03_OBK-SOP-KT_Ke_toan_va_thue|OBK-SOP-KT]] neo vào NGÀY `AM` BÁO KẾT THÚC và đếm TIẾN: chuẩn bị xong trong 05 ngày làm việc kể từ khi `AM` báo. KT-28 đo thời gian phản ứng của bộ phận nghiệp vụ; mốc lùi 10 ngày làm việc ở đây đo mức sẵn sàng trước ngày khách rời. Mốc lùi này không thay KT-28 và không sửa KT-28. Khi `AM` báo kết thúc muộn hơn 15 ngày làm việc trước ngày kết thúc thì hai mốc chồng nhau; khi đó áp mốc NÀO ĐẾN TRƯỚC và ghi lý do trên Job.
+> Bước 9 ở trên neo vào NGÀY KẾT THÚC và đếm LÙI: bộ hồ sơ bàn giao phải sẵn sàng chậm nhất 10 ngày làm việc trước ngày kết thúc. Job KT-28 tại OBK-SOP-KT neo vào NGÀY `AM` BÁO KẾT THÚC và đếm TIẾN: chuẩn bị xong trong 05 ngày làm việc kể từ khi `AM` báo. KT-28 đo thời gian phản ứng của bộ phận nghiệp vụ; mốc lùi 10 ngày làm việc ở đây đo mức sẵn sàng trước ngày khách rời. Mốc lùi này không thay KT-28 và không sửa KT-28. Khi `AM` báo kết thúc muộn hơn 15 ngày làm việc trước ngày kết thúc thì hai mốc chồng nhau; khi đó áp mốc NÀO ĐẾN TRƯỚC và ghi lý do trên Job.
 
 #### 6.3.3. Tình huống 2: oBacker chủ động dừng
 
@@ -583,14 +580,14 @@ Luật Kế toán Điều 54 khoản 1: kế toán trưởng phải có các ti�
 
 Việc bắt buộc khi bàn giao ra ngoài: TL-KT kiểm tra người khách cử làm kế toán trưởng hoặc người phụ trách kế toán cho kỳ sau có đủ Điều 54 khoản 1 hay không. Nếu không đủ, TL-KT ghi vào hồ sơ rủi ro và AM thông báo khách bằng văn bản trước ngày kết thúc. Đây là nghĩa vụ thông tin, cùng bản chất với quy tắc 4 tại mục 6.4.4.
 
-Mức phạt hành vi bố trí hoặc thuê người làm kế toán trưởng không đủ tiêu chuẩn, điều kiện: 20.000.000 đồng đến 30.000.000 đồng đối với cá nhân, 40.000.000 đồng đến 60.000.000 đồng đối với tổ chức `[Nghị định 41/2018/NĐ-CP Đ.17 k.3 đ.b; Nghị định 132/2026/NĐ-CP Đ.2]`, xem [[01_Nguyen_tac_hanh_nghe|OBK-SOP-01]] mục 6.1.4. Mức chế tài cho các hành vi khác bị nghiêm cấm tại Điều 13 chưa đối chiếu được Điều khớp trong nghị định xử phạt.
+Mức phạt hành vi bố trí hoặc thuê người làm kế toán trưởng không đủ tiêu chuẩn, điều kiện: 20.000.000 đồng đến 30.000.000 đồng đối với cá nhân, 40.000.000 đồng đến 60.000.000 đồng đối với tổ chức, xem OBK-SOP-01 mục 5.1.4. Mức chế tài cho các hành vi khác bị nghiêm cấm theo luật kế toán chưa đối chiếu được điều khoản khớp trong nghị định xử phạt.
 
 **d) Mốc nộp báo cáo tài chính năm**
 
 Luật Kế toán Điều 29 khoản 3: báo cáo tài chính năm của đơn vị kế toán phải được nộp cho cơ quan nhà nước có thẩm quyền trong thời hạn 90 ngày, kể từ ngày kết thúc kỳ kế toán năm theo quy định của pháp luật. `[Luật Kế toán 41/VBHN-VPQH Đ.29 k.3]`
 
-> [!question] CẦN XÁC MINH
-> NƠI NHẬN báo cáo tài chính năm. Điều 29 khoản 4 giao Bộ Tài chính quy định nơi nhận báo cáo; Thông tư 99/2025 lại dẫn chiếu sang pháp luật có liên quan. Vì vậy câu hỏi nộp cho cơ quan nào chưa chốt được. Mốc 90 ngày được ghi đã đối chiếu bản gốc. Biên bản bàn giao ghi mốc 90 ngày, không ghi nơi nhận. Khi khách hỏi nộp cho ai, AM trả lời là đang chờ xác định và chuyển TL-KT tra lại trước khi trả lời chính thức.
+> [!note] CĂN CỨ VỀ THỜI HẠN VÀ NƠI NHẬN BÁO CÁO TÀI CHÍNH NĂM
+> Theo Điều 29 khoản 3 Luật Kế toán 41/VBHN-VPQH, thời hạn nộp báo cáo tài chính năm là 90 ngày kể từ ngày kết thúc kỳ kế toán năm. Về nơi nhận báo cáo, doanh nghiệp áp dụng chế độ kế toán theo Thông tư 133/2016 thực hiện nộp theo Điều 80 khoản 2 (Cơ quan Thuế, cơ quan ĐKKD, cơ quan Thống kê). Doanh nghiệp áp dụng Thông tư 99/2025 và Thông tư 58/2026 nộp cho cơ quan thuế trực tiếp quản lý kèm hồ sơ quyết toán thuế TNDN và các cơ quan nhà nước có thẩm quyền theo quy định chuyên ngành liên quan.
 
 Hệ quả cho bảng 6.4.4: nếu hợp đồng kết thúc trước khi hết mốc 90 ngày của năm cuối, phải ghi rõ trong biên bản ai lập báo cáo tài chính năm đó, ai ký ba chữ ký, và nếu oBacker nhận lập thì phải có phụ lục hợp đồng riêng theo quy tắc 3 mục 6.4.4.
 
@@ -613,7 +610,7 @@ Quy định nội bộ oBacker, do CEO ban hành. Không có ngoại lệ. Khôn
 5. Khách có thái độ không đúng mực.
 6. oBacker chủ động chấm dứt vì lý do từ phía khách.
 
-#### 6.5.2. Vì sao đây là hành vi oBacker nghiêm cấm
+#### 6.5.2. Căn cứ và hậu quả pháp lý của hành vi giữ hồ sơ
 
 **Lý do thứ nhất, rủi ro pháp lý.** Hồ sơ, chứng từ kế toán và dữ liệu là tài sản và là hồ sơ pháp lý của khách hàng, không phải của oBacker. oBacker giữ hồ sơ đó với tư cách bên cung cấp dịch vụ. Việc từ chối trả lại có thể dẫn tới tranh chấp dân sự, và trong tình huống xấu có thể bị nhìn nhận ở góc độ nghiêm trọng hơn nhiều so với một khoản phí chưa thu được.
 
@@ -669,7 +666,7 @@ Cách giải quyết: giữ có chọn lọc, giữ có kiểm soát truy cập,
 | # | Loại dữ liệu | Xử lý | Thời hạn giữ | Lý do |
 | --- | --- | --- | --- | --- |
 | 1 | Bản gốc chứng từ giấy của khách | Trả lại toàn bộ khi bàn giao | Không giữ | Tài sản của khách |
-| 2 | Bản sao hồ sơ khai thuế oBacker đã lập và nộp | Giữ | Tối thiểu 05 năm kể từ ngày hết thời hạn nộp hồ sơ khai thuế của kỳ tương ứng, bằng đúng thời hiệu khai bổ sung `[Luật QLT 108/2025 Đ.12 k.5]`; sau 05 năm vẫn có thể phải bổ sung hồ sơ giải trình với cơ quan thuế `[NĐ 252/2026 Đ.12 k.8]`; xem mục 6.6.5, Chương 14 mục 9.2, Chương 15 mục 6.5 và Chương 16 mục 6.10 | Chứng minh oBacker đã thực hiện đúng;<br>đây là lý do phải giữ hồ sơ sau khi kết thúc hợp đồng |
+| 2 | Bản sao hồ sơ khai thuế oBacker đã lập và nộp | Giữ | Tối thiểu 05 năm kể từ ngày hết thời hạn nộp hồ sơ khai thuế của kỳ tương ứng, bằng đúng thời hiệu khai bổ sung `[Luật QLT 108/2025 Đ.12 k.5]`; sau 05 năm vẫn có thể phải bổ sung hồ sơ giải trình với cơ quan thuế `[NĐ 252/2026 Đ.12 k.8]`; xem mục 6.6.5, Chương 14 mục 8.2, Chương 15 mục 5.5 và Chương 16 mục 5.10 | Chứng minh oBacker đã thực hiện đúng;<br>đây là lý do phải giữ hồ sơ sau khi kết thúc hợp đồng |
 | 3 | Bản sao báo cáo tài chính oBacker đã lập | Giữ | Như dòng 2 | Như dòng 2 |
 | 4 | Hồ sơ soát xét hai cấp | Giữ | Như dòng 2 | Bằng chứng về quy trình kiểm soát chất lượng |
 | 5 | Hợp đồng, phụ lục, biên bản nghiệm thu, chứng từ thanh toán phí | Giữ | Theo quy định lưu trữ chứng từ kế toán của chính oBacker, xem ba mốc tại mục 6.6.5 | Hồ sơ kế toán của oBacker |
@@ -743,10 +740,10 @@ Hệ quả cho bàn giao: ngày kết thúc hợp đồng dịch vụ chính là
 | b | Ít nhất 10 năm | Chứng từ kế toán sử dụng trực tiếp để ghi sổ kế toán và lập báo cáo tài chính, sổ kế toán và báo cáo tài chính năm, trừ trường hợp pháp luật có quy định khác |
 | c | Lưu trữ vĩnh viễn | Tài liệu kế toán có tính sử liệu, có ý nghĩa quan trọng về kinh tế, an ninh, quốc phòng |
 
-Danh mục chi tiết từng loại tài liệu phải lưu trữ, thời hạn lưu trữ, thời điểm tính thời hạn lưu trữ, nơi lưu trữ và thủ tục tiêu hủy do Chính phủ quy định tại Điều 41 khoản 6. Văn bản đó là Nghị định 174/2016/NĐ-CP, có trong kho, xem [[01_Nguyen_tac_hanh_nghe|OBK-SOP-01]] mục 6.11.4.
+Danh mục chi tiết từng loại tài liệu phải lưu trữ, thời hạn lưu trữ, thời điểm tính thời hạn lưu trữ, nơi lưu trữ và thủ tục tiêu hủy đặt tại OBK-SOP-01 mục 5.11.4.
 
-> [!question] CẦN XÁC MINH
-> Danh mục chi tiết từng loại tài liệu kế toán ứng với mốc 05 năm, 10 năm hay vĩnh viễn theo Nghị định 174/2016/NĐ-CP có tại [[01_Nguyen_tac_hanh_nghe|OBK-SOP-01]] mục 6.11.4. Khi khách hỏi một loại tài liệu chưa nằm rõ trong danh mục đó, TL-KT trả lời ở mức ba mốc của khoản 5 và ghi rõ loại tài liệu đó đang chờ đối chiếu thêm với pháp luật chuyên ngành áp dụng. Không nêu mốc thời hạn nào ngoài ba mốc và danh mục đã dẫn.
+> [!note] NGUYÊN TẮC ÁP DỤNG THỜI HẠN LƯU TRỮ HỒ SƠ
+> Danh mục chi tiết từng loại tài liệu kế toán theo thời hạn lưu trữ (05 năm, 10 năm, vĩnh viễn) đặt tại OBK-SOP-01 mục 5.11.4. Đối với các tài liệu đặc thù chưa liệt kê chi tiết trong danh mục chuẩn, TL-KT đối chiếu quy định pháp luật chuyên ngành trước khi tư vấn bằng văn bản cho khách hàng.
 
 **d) Khi tài liệu kế toán bị mất hoặc bị hủy hoại**
 
@@ -784,7 +781,7 @@ Hệ quả cho bàn giao: trong tối thiểu 05 năm sau kỳ cuối cùng oBac
 2. Biên bản bàn giao ghi rõ oBacker giữ bản sao gì, giữ tới khi nào, và khách liên hệ ai nếu cần tra lại. Xem mục 6.4.3 phần 11.
 3. Điều kiện oBacker hỗ trợ tra lại hồ sơ sau khi kết thúc phải nằm trong phụ lục hợp đồng riêng theo mục 6.4.4 quy tắc 3, không phải nghĩa vụ vô thời hạn không có phí.
 
-Thời hiệu xử lý và việc truy thu khi bị kiểm tra thuế xem Chương 16 mục 6.10. Chương này không nêu mức chế tài.
+Thời hiệu xử lý và việc truy thu khi bị kiểm tra thuế xem Chương 16 mục 5.10. Chương này không nêu mức chế tài.
 
 ---
 
@@ -989,11 +986,11 @@ Nội dung tối thiểu:
 | Onboarding khách hàng mới và biên bản hiện trạng tiếp nhận | Chương 03 |
 | Quản lý chứng từ và bàn giao chứng từ gốc | Chương 04 |
 | Phân công dự phòng khi nhân viên nghỉ ngắn ngày | Chương 13 mục F.6 |
-| Thời hạn lưu hồ sơ thuế và hồ sơ kế toán | Chương 14 mục 9.2 |
+| Thời hạn lưu hồ sơ thuế và hồ sơ kế toán | Chương 14 mục 8.2 |
 | Ba mốc thời hạn lưu trữ tài liệu kế toán và người chịu trách nhiệm lưu trữ | Mục 6.6.5 của chương này |
 | Chữ ký trên báo cáo tài chính, cả ba chữ ký là của khách | Mục 6.4.6 của chương này |
-| Thời hiệu khai bổ sung, ảnh hưởng tới thời gian giữ hồ sơ | Chương 15 mục 6.5 |
-| Thời hiệu và truy thu khi bị kiểm tra, thanh tra | Chương 16 mục 6.10 |
+| Thời hiệu khai bổ sung, ảnh hưởng tới thời gian giữ hồ sơ | Chương 15 mục 5.5 |
+| Thời hiệu và truy thu khi bị kiểm tra, thanh tra | Chương 16 mục 5.10 |
 | Rủi ro pháp lý của bên được ủy quyền | Chương 17, cảnh báo mở đầu |
 | Chấm điểm hồ sơ trong soát xét độc lập;<br>phân loại lỗi | Chương 18 mục 6.6 và 6.7 |
 | Quy trình tạm dừng dịch vụ khi khách chậm thanh toán | Chương 19 mục 6.8 |

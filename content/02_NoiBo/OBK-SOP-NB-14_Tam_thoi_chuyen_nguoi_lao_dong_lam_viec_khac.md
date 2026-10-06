@@ -4,26 +4,20 @@ code: "OBK-SOP-NB-14"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.0"
+version: "R.1.0.2"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 27/09/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-SOP-NB-00 Chuẩn vận hành nội bộ"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-SOP-NB-14
 tags:
   - loai/sop
   - cap/3
-  - nghiep-vu/cham-dut-hop-dong-lao-dong
-  - nghiep-vu/tien-luong
 ---
 # OBK-SOP-NB-14. Tạm thời chuyển người lao động làm công việc khác
 
@@ -34,7 +28,7 @@ tags:
 | Mã tài liệu | OBK-SOP-NB-14 |
 | Tên tài liệu | Quy trình tạm thời chuyển người lao động làm công việc khác nội bộ |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ. Thi hành Bộ tài liệu quản trị nhân sự [[00_Bo_tai_lieu_quan_tri_nhan_su\|OBK-QCNS-00]] và Nội quy lao động [[Noi_quy_lao_dong\|OBK-NQLD]] |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.0.2, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 27/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -44,14 +38,14 @@ tags:
 | Bộ tài liệu | OBK-SOP-NB, Sổ tay quy trình nội bộ oBacker |
 | Tài liệu song hành | [[Noi_quy_lao_dong\|OBK-NQLD]] Chương VIII trường hợp được tạm thời chuyển người lao động làm việc khác;<br>[[OBK-SOP-NB-04_Cong_va_tien_luong_noi_bo\|OBK-SOP-NB-04]] công và tiền lương nội bộ |
 | Lần rà soát tiếp theo | Không quá 12 tháng kể từ ngày ban hành |
-| Phạm vi phát hành | Nội bộ oBacker. Không phát hành cho khách hàng. |
+| Phạm vi phát hành | Nội bộ oBacker. Không phát hành cho khách hàng |
 
 ---
 
 ## CẢNH BÁO MỞ ĐẦU
 
-> [!warning] BA RÀNG BUỘC CỨNG VỀ THỜI HẠN VÀ TIỀN LƯƠNG
-> 1. **Giới hạn 60 ngày làm việc cộng dồn trong 01 năm:** Căn cứ Điều 29 Bộ luật Lao động 2019 và Điều 34.1 [[Noi_quy_lao_dong|OBK-NQLD]], người sử dụng lao động chỉ được quyền tạm thời chuyển người lao động làm công việc khác so với hợp đồng lao động tối đa không quá 60 ngày làm việc cộng dồn trong 01 năm dương lịch. Trường hợp chuyển quá 60 ngày làm việc cộng dồn BẮT BUỘC phải có sự đồng ý bằng văn bản của người lao động.
+> [!warning] NGUYÊN TẮC VÀ ĐIỀU KIỆN TẠM THỜI CHUYỂN NGƯỜI LAO ĐỘNG LÀM VIỆC KHÁC
+> 1. **Giới hạn 60 ngày làm việc cộng dồn trong 01 năm:** Căn cứ Điều 34.1 Nội quy lao động (OBK-NQLD), oBacker chỉ được quyền tạm thời chuyển người lao động làm công việc khác so với hợp đồng lao động tối đa không quá 60 ngày làm việc cộng dồn trong 01 năm dương lịch. Trường hợp chuyển quá 60 ngày làm việc cộng dồn BẮT BUỘC phải có sự đồng ý bằng văn bản của người lao động.
 > 2. **Thông báo trước ít nhất 03 ngày làm việc:** Căn cứ khoản 2 Điều 29 Bộ luật Lao động 2019, người sử dụng lao động phải thông báo bằng văn bản cho người lao động biết trước ít nhất 03 ngày làm việc, thông báo rõ thời hạn làm tạm thời và bố trí công việc phù hợp với sức khỏe, giới tính của người lao động.
 > 3. **Bảo đảm chế độ tiền lương:** Căn cứ khoản 3 Điều 29 Bộ luật Lao động 2019, nếu tiền lương của công việc mới thấp hơn tiền lương của công việc cũ thì được giữ nguyên 100% tiền lương của công việc cũ trong thời hạn 30 ngày làm việc đầu tiên; từ ngày làm việc thứ 31 trở đi, tiền lương theo công việc mới ít nhất phải bằng 85% tiền lương của công việc cũ nhưng không thấp hơn mức lương tối thiểu vùng do Chính phủ công bố.
 
@@ -59,7 +53,7 @@ tags:
 
 ## 1. Mục đích
 
-Quy định chuẩn hóa toàn bộ trình tự, thủ tục xem xét nhu cầu, thẩm định điều kiện, ban hành thông báo, bố trí công việc và thanh toán chế độ tiền lương khi tạm thời chuyển người lao động làm công việc khác so với hợp đồng lao động tại Công ty cổ phần oBacker. Ba mục tiêu bắt buộc:
+Quy định chuẩn hóa toàn bộ trình tự, thủ tục xem xét nhu cầu, thẩm định điều kiện; ban hành thông báo, bố trí công việc và thanh toán chế độ tiền lương khi tạm thời chuyển người lao động làm công việc khác so với hợp đồng lao động tại Công ty cổ phần oBacker. Mục tiêu vận hành:
 
 1. Bảo đảm việc tạm thời chuyển công việc tuân thủ tuyệt đối quy định tại Điều 29 Bộ luật Lao động 2019 và Chương VIII [[Noi_quy_lao_dong|OBK-NQLD]].
 2. Bảo đảm tính linh hoạt trong điều hành nhân sự khi phát sinh khó khăn đột xuất hoặc nhu cầu sản xuất kinh doanh cấp bách của doanh nghiệp.
@@ -73,7 +67,7 @@ Quy định chuẩn hóa toàn bộ trình tự, thủ tục xem xét nhu cầu,
 - Toàn bộ các trường hợp oBacker tạm thời chuyển người lao động sang làm công việc khác so với hợp đồng lao động đã ký kết, bao gồm:
   + Khó khăn đột xuất do thiên tai, hỏa hoạn, dịch bệnh nguy hiểm;
   + Áp dụng biện pháp ngăn ngừa, khắc phục tai nạn lao động, bệnh nghề nghiệp, sự cố điện, nước, hạ tầng công nghệ thông tin;
-  + Tám trường hợp do nhu cầu sản xuất kinh doanh được quy định chi tiết tại Điều 34.2 [[Noi_quy_lao_dong|OBK-NQLD]]:
+   + Tám trường hợp do nhu cầu sản xuất kinh doanh được quy định chi tiết tại Điều 34.2 Nội quy lao động (OBK-NQLD):
     1. Doanh thu giảm sút buộc phải thu hẹp hoạt động hoặc tái cơ cấu bộ phận;
     2. Thiếu nhân sự tại một bộ phận mà chưa tuyển dụng được ngay hoặc nhân sự mới chưa làm việc ổn định;
     3. Nhân sự nghỉ thai sản, nghỉ ốm dài ngày, nghỉ phép dài ngày hoặc chấm dứt hợp đồng lao động đột xuất;
@@ -90,20 +84,7 @@ Quy định chuẩn hóa toàn bộ trình tự, thủ tục xem xét nhu cầu,
 
 ---
 
-## 3. Căn cứ pháp lý
-
-- Bộ luật Lao động số 45/2019/QH14: Điều 28 (Thực hiện công việc theo hợp đồng lao động), Điều 29 (Chuyển người lao động làm công việc khác so với hợp đồng lao động), Điều 99 (Tiền lương ngừng việc);
-- Nghị định số 145/2020/NĐ-CP ngày 14/12/2020 của Chính phủ hướng dẫn thi hành Bộ luật Lao động;
-- Nghị định số 293/2025/NĐ-CP ngày 10/11/2025 của Chính phủ quy định mức lương tối thiểu vùng đối với người lao động làm việc theo hợp đồng lao động;
-- Nghị định số 283/2026/NĐ-CP ngày 15/07/2026 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực lao động, bảo hiểm xã hội;
-- [[CC-LD-23 Bảy trường hợp NLĐ chấm dứt KHÔNG cần báo trước|CC-LD-23]] Bảy trường hợp người lao động chấm dứt hợp đồng không cần báo trước (điểm a khoản 2 Điều 35);
-- [[CC-LD-60 Lương tối thiểu vùng 4 mức theo tháng và theo giờ|CC-LD-60]] Mức lương tối thiểu vùng;
-- [[CC-LD-63 Nghĩa vụ rà soát HĐLĐ, thỏa ước và quy chế khi điều chỉnh; cấm cắt giảm chế độ làm thêm, ban đêm, bồi dưỡng hiện vật|CC-LD-63]] Nghĩa vụ rà soát hợp đồng và quy chế tiền lương;
-- [[Noi_quy_lao_dong|OBK-NQLD]] Nội quy lao động, Chương VIII (Điều 33 và Điều 34).
-
----
-
-## 4. Vai trò và trách nhiệm
+## 3. Vai trò và trách nhiệm
 
 | Vai trò | Trách nhiệm trong quy trình | Giới hạn quyền hạn |
 | --- | --- | --- |
@@ -115,16 +96,16 @@ Quy định chuẩn hóa toàn bộ trình tự, thủ tục xem xét nhu cầu,
 
 ---
 
-## 5. Đầu vào bắt buộc
+## 4. Đầu vào bắt buộc
 
-1. **Phiếu đề xuất tạm thời chuyển công việc:** Do Trưởng bộ phận lập, nêu rõ lý do thuộc khó khăn đột xuất hoặc thuộc 8 trường hợp tại Điều 34.2 [[Noi_quy_lao_dong|OBK-NQLD]], vị trí công việc mới, yêu cầu kỹ năng, thời hạn dự kiến từ ngày đến ngày.
+1. **Phiếu đề xuất tạm thời chuyển công việc:** Do Trưởng bộ phận lập, nêu rõ lý do thuộc khó khăn đột xuất hoặc thuộc 8 trường hợp tại Điều 34.2 Nội quy lao động (OBK-NQLD), vị trí công việc mới, yêu cầu kỹ năng, thời hạn dự kiến từ ngày đến ngày.
 2. **Bản ghi nhận số ngày chuyển công việc cộng dồn:** Trích xuất từ phần mềm quản lý nhân sự do `HR` xác nhận, thể hiện tổng số ngày người lao động đã tạm thời chuyển công việc trong năm dương lịch hiện hành.
 3. **Bản đánh giá sự phù hợp về sức khỏe và giới tính:** Xác nhận người lao động đủ điều kiện thể chất, chuyên môn cơ bản để đảm nhận vị trí công việc tạm thời.
 4. **Văn bản đồng ý của người lao động (nếu có):** Bắt buộc phải có trong trường hợp thời gian chuyển công việc vượt quá 60 ngày làm việc cộng dồn trong 01 năm.
 
 ---
 
-## 6. Các bước thực hiện
+## 5. Các bước thực hiện
 
 ```
 [BƯỚC 1: XÁC ĐỊNH NHU CẦU VÀ LẬP ĐỀ XUẤT ĐIỀU CHUYỂN]
@@ -145,9 +126,9 @@ Quy định chuẩn hóa toàn bộ trình tự, thủ tục xem xét nhu cầu,
 [BƯỚC 6: TIẾP NHẬN TRỞ LẠI CÔNG VIỆC BAN ĐẦU]
 ```
 
-### 6.1. Bước 1: Xác định nhu cầu và lập đề xuất điều chuyển
+### 5.1. Bước 1: Xác định nhu cầu và lập đề xuất điều chuyển
 
-1. Khi phát sinh khó khăn đột xuất do sự cố, thiên tai, dịch bệnh, hoặc khi phát sinh một trong 8 trường hợp do nhu cầu sản xuất kinh doanh theo quy định tại Điều 34.2 [[Noi_quy_lao_dong|OBK-NQLD]], Trưởng bộ phận có nhu cầu lập Phiếu đề xuất tạm thời chuyển công việc.
+1. Khi phát sinh khó khăn đột xuất do sự cố, thiên tai, dịch bệnh, hoặc khi phát sinh một trong 8 trường hợp do nhu cầu sản xuất kinh doanh theo quy định tại Điều 34.2 Nội quy lao động (OBK-NQLD), Trưởng bộ phận có nhu cầu lập Phiếu đề xuất tạm thời chuyển công việc.
 2. Nội dung đề xuất phải thể hiện rõ:
    - Căn cứ thực tế phát sinh nhu cầu;
    - Vị trí chức danh công việc cũ và vị trí chức danh công việc mới dự kiến phân công;
@@ -157,17 +138,17 @@ Quy định chuẩn hóa toàn bộ trình tự, thủ tục xem xét nhu cầu,
    - Dự kiến phương án hỗ trợ đào tạo, hướng dẫn nghiệp vụ ban đầu (nếu công việc có tính chất mới).
 3. Phiếu đề xuất gửi về Bộ Phận Nhân Sự (`HR`) trước ngày dự kiến điều chuyển ít nhất 05 ngày làm việc để thực hiện thẩm định.
 
-### 6.2. Bước 2: Thẩm định điều kiện pháp lý và quỹ thời gian
+### 5.2. Bước 2: Thẩm định điều kiện pháp lý và quỹ thời gian
 
 1. Trong thời hạn 01 ngày làm việc kể từ ngày nhận được đề xuất, `HR` thẩm định hồ sơ:
-   - Kiểm tra lý do đề xuất: bảo đảm lý do thuộc đúng các trường hợp luật định hoặc thuộc danh mục 8 trường hợp tại Điều 34.2 [[Noi_quy_lao_dong|OBK-NQLD]];
+   - Kiểm tra lý do đề xuất: bảo đảm lý do thuộc đúng các trường hợp luật định hoặc thuộc danh mục 7 trường hợp tại Điều 34.2 [[Noi_quy_lao_dong|OBK-NQLD]];
    - Kiểm tra số ngày làm việc đã chuyển cộng dồn: tra cứu hồ sơ nhân sự trên hệ thống để xác định số ngày người lao động đã tạm thời làm công việc khác trong năm dương lịch hiện hành;
    - Tính toán thời gian dự kiến chuyển mới: nếu tổng số ngày cộng dồn từ đầu năm đến hết đợt chuyển mới không vượt quá 60 ngày làm việc thì đủ điều kiện thực hiện theo quyền của người sử dụng lao động;
    - Trường hợp tổng số ngày cộng dồn vượt quá 60 ngày làm việc: `HR` thông báo cho Trưởng bộ phận đề xuất biết để tổ chức trao đổi, lấy văn bản đồng ý tự nguyện của người lao động trước khi trình phê duyệt.
 2. Đánh giá tính phù hợp: `HR` rà soát hồ sơ sức khỏe và dữ liệu nhân sự, bảo đảm không bố trí lao động nữ mang thai hoặc nuôi con nhỏ làm các công việc nặng nhọc, độc hại, nguy hiểm theo quy định pháp luật.
 3. Hoàn tất phiếu thẩm định trình `CEO` phê duyệt chủ trương.
 
-### 6.3. Bước 3: Phát hành thông báo bằng văn bản trước ít nhất 03 ngày làm việc
+### 5.3. Bước 3: Phát hành thông báo bằng văn bản trước ít nhất 03 ngày làm việc
 
 1. Sau khi `CEO` phê duyệt chủ trương, `HR` soạn thảo Thông báo về việc tạm thời chuyển người lao động làm công việc khác.
 2. Căn cứ khoản 2 Điều 29 Bộ luật Lao động 2019, thông báo phải được gửi bằng văn bản đến người lao động trước ít nhất 03 ngày làm việc tính đến ngày bắt đầu làm công việc mới.
@@ -178,9 +159,9 @@ Quy định chuẩn hóa toàn bộ trình tự, thủ tục xem xét nhu cầu,
    - Thời hạn làm việc tạm thời: số ngày làm việc cụ thể, ngày bắt đầu và ngày kết thúc dự kiến;
    - Chế độ tiền lương áp dụng: nêu rõ thời gian bảo lưu 100% lương cũ (30 ngày làm việc đầu tiên) và mức lương áp dụng từ ngày làm việc thứ 31 trở đi.
 4. Phương thức gửi thông báo: giao trực tiếp bằng văn bản giấy có ký biên nhận ghi rõ ngày, giờ nhận của người lao động, đồng thời gửi thư điện tử công vụ `@obacker.com`.
-5. Trường hợp người lao động có vướng mắc hoặc đề xuất nguyện vọng về sức khỏe, hoàn cảnh gia đình, `HR` phối hợp với Trưởng bộ phận tổ chức lắng nghe, giải thích và điều chỉnh phương án bố trí nếu xác đáng trong thời hạn 02 ngày làm việc kể từ khi nhận được phản hồi.
+5. Trường hợp người lao động có vướng mắc hoặc đề xuất nguyện vọng về sức khỏe, hoàn cảnh gia đình; `HR` phối hợp với Trưởng bộ phận tổ chức lắng nghe, giải thích và điều chỉnh phương án bố trí nếu xác đáng trong thời hạn 02 ngày làm việc kể từ khi nhận được phản hồi.
 
-### 6.4. Bước 4: Ban hành Quyết định và tổ chức bàn giao công việc
+### 5.4. Bước 4: Ban hành Quyết định và tổ chức bàn giao công việc
 
 1. Sau khi hoàn thành thời hạn báo trước ít nhất 03 ngày làm việc, `CEO` ký ban hành Quyết định tạm thời chuyển người lao động làm công việc khác so với hợp đồng lao động.
 2. Quyết định được gửi cho người lao động, bộ phận cũ, bộ phận mới, phòng kế toán nội bộ và lưu hồ sơ nhân sự.
@@ -189,7 +170,7 @@ Quy định chuẩn hóa toàn bộ trình tự, thủ tục xem xét nhu cầu,
    - Tại bộ phận mới, Trưởng bộ phận mới phân công nhân sự hướng dẫn quy trình thao tác nghiệp vụ, bố trí vị trí ngồi, trang bị công cụ dụng cụ và tạo lập quyền truy cập hệ thống cần thiết (nếu có);
    - Thời gian tiếp nhận và đào tạo hướng dẫn ban đầu được tính vào thời gian làm việc hưởng lương bình thường.
 
-### 6.5. Bước 5: Thực hiện công việc và chi trả tiền lương
+### 5.5. Bước 5: Thực hiện công việc và chi trả tiền lương
 
 1. Trong thời gian tạm thời làm công việc mới, người lao động tuân thủ sự phân công, điều hành của Quản lý bộ phận mới và thực hiện chấm công theo quy định tại [[07_Chinh_sach_cong_chuan_va_cham_cong|OBK-QCNS-07]].
 2. **Quy định hạch toán và chi trả tiền lương (khoản 3 Điều 29 BLLĐ):**
@@ -197,14 +178,14 @@ Quy định chuẩn hóa toàn bộ trình tự, thủ tục xem xét nhu cầu,
    - Trường hợp tiền lương của công việc mới cao hơn tiền lương của công việc cũ: người lao động được hưởng mức lương mới ngay từ ngày đầu tiên làm công việc mới;
    - Trường hợp tiền lương của công việc mới thấp hơn tiền lương của công việc cũ: người lao động được giữ nguyên 100% tiền lương của công việc cũ trong thời hạn 30 ngày làm việc đầu tiên;
    - Từ ngày làm việc thứ 31 trở đi: tiền lương trả theo công việc mới, nhưng mức tiền lương này ít nhất phải bằng 85% tiền lương của công việc cũ và không thấp hơn mức lương tối thiểu vùng quy định tại Nghị định số 293/2025/NĐ-CP;
-   - Các khoản phụ cấp trách nhiệm, phụ cấp công việc theo vị trí cũ (nếu gắn liền với công việc cũ) được rà soát và điều chỉnh theo thỏa thuận tại quyết định điều chuyển, bảo đảm tổng thu nhập tuân thủ nguyên tắc không thấp hơn 85% lương cũ trong thời gian tạm chuyển.
+   - Các khoản phụ cấp trách nhiệm, phụ cấp công việc theo vị trí cũ (nếu gắn liền với công việc cũ) được rà soát và điều chỉnh theo thỏa thuận tại quyết định điều chuyển; bảo đảm tổng thu nhập tuân thủ nguyên tắc không thấp hơn 85% lương cũ trong thời gian tạm chuyển.
 3. **Xử lý trường hợp chuyển quá 60 ngày làm việc cộng dồn trong năm:**
    - Khi thời gian chuyển công việc chạm mốc 50 ngày làm việc, nếu nhận thấy nhu cầu cần tiếp tục kéo dài vượt quá 60 ngày làm việc cộng dồn, `HR` phát hành Phiếu xin ý kiến bằng văn bản đến người lao động;
    - Nếu người lao động đồng ý bằng văn bản: hai bên ký Văn bản thỏa thuận kéo dài thời hạn tạm thời chuyển công việc, nêu rõ số ngày kéo dài thêm và chế độ đãi ngộ;
    - Nếu người lao động không đồng ý tiếp tục làm công việc khác: người lao động được quay trở lại làm công việc ban đầu theo hợp đồng lao động;
-   - Trường hợp người lao động không đồng ý chuyển công việc tiếp mà công ty không thể bố trí lại công việc theo hợp đồng lao động buộc người lao động phải ngừng việc: công ty thực hiện chi trả tiền lương ngừng việc theo đúng quy định tại Điều 99 Bộ luật Lao động 2019 (nếu do lỗi của người sử dụng lao động thì trả đủ 100% tiền lương theo hợp đồng; nếu vì sự cố khách quan thì tiền lương do hai bên thỏa thuận nhưng không thấp hơn mức lương tối thiểu vùng).
+   - Trường hợp người lao động không đồng ý chuyển công việc tiếp mà công ty không thể bố trí lại công việc theo hợp đồng lao động buộc người lao động phải ngừng việc; công ty thực hiện chi trả tiền lương ngừng việc theo đúng quy định tại Điều 99 Bộ luật Lao động 2019 (nếu do lỗi của người sử dụng lao động thì trả đủ 100% tiền lương theo hợp đồng; nếu vì sự cố khách quan thì tiền lương do hai bên thỏa thuận nhưng không thấp hơn mức lương tối thiểu vùng).
 
-### 6.6. Bước 6: Tiếp nhận trở lại công việc ban đầu khi hết hạn
+### 5.6. Bước 6: Tiếp nhận trở lại công việc ban đầu khi hết hạn
 
 1. Khi hết thời hạn tạm thời chuyển công việc ghi trong Quyết định (hoặc khi khó khăn đột xuất, nhu cầu sản xuất kinh doanh đã được giải quyết xong trước thời hạn), người lao động đương nhiên trở lại làm công việc theo đúng hợp đồng lao động ban đầu.
 2. Trưởng bộ phận mới ký xác nhận hoàn thành đợt công tác tạm thời và bàn giao nhân sự trở lại bộ phận cũ.
@@ -214,7 +195,7 @@ Quy định chuẩn hóa toàn bộ trình tự, thủ tục xem xét nhu cầu,
 
 ---
 
-## 7. Điểm kiểm soát bắt buộc
+## 6. Điểm kiểm soát bắt buộc
 
 | Mã kiểm soát | Điểm kiểm soát | Thời điểm kiểm tra | Người kiểm tra | Bằng chứng kiểm soát |
 | --- | --- | --- | --- | --- |
@@ -226,19 +207,19 @@ Quy định chuẩn hóa toàn bộ trình tự, thủ tục xem xét nhu cầu,
 
 ---
 
-## 8. Lỗi thường gặp và cách xử lý
+## 7. Lỗi thường gặp và cách xử lý
 
 | Lỗi thường gặp | Rủi ro pháp lý và vận hành | Cách xử lý phòng ngừa |
 | --- | --- | --- |
 | Điều chuyển bằng miệng, không có thông báo bằng văn bản hoặc thông báo sát ngày (chưa đủ 03 ngày làm việc) | Vi phạm khoản 2 Điều 29 Bộ luật Lao động, người lao động có quyền khiếu nại hoặc từ chối chấp hành; công ty bị xử phạt hành chính theo Nghị định số 283/2026/NĐ-CP | `HR` kiểm soát thời hạn phát hành thông báo trước ít nhất 05 ngày làm việc để bảo đảm người lao động nhận văn bản trước ít nhất 03 ngày làm việc |
-| Tạm thời chuyển công việc quá 60 ngày làm việc cộng dồn trong năm mà không có văn bản đồng ý của NLĐ | Vi phạm khoản 1 Điều 29 Bộ luật Lao động, người lao động có quyền đơn phương chấm dứt hợp đồng lao động không cần báo trước theo điểm a khoản 2 Điều 35 BLLĐ và [[CC-LD-23 Bảy trường hợp NLĐ chấm dứt KHÔNG cần báo trước\|CC-LD-23]] | `HR` cài đặt cảnh báo trên phần mềm nhân sự tại mốc 50 ngày làm việc cộng dồn; nếu không có văn bản đồng ý thì dứt khoát chuyển NLĐ trở lại vị trí cũ tại ngày thứ 60 |
+| Tạm thời chuyển công việc quá 60 ngày làm việc cộng dồn trong năm mà không có văn bản đồng ý của NLĐ | Vi phạm khoản 1 Điều 29 Bộ luật Lao động, người lao động có quyền đơn phương chấm dứt hợp đồng lao động không cần báo trước theo điểm a khoản 2 Điều 35 BLLĐ và CC-LD-23 | `HR` cài đặt cảnh báo trên phần mềm nhân sự tại mốc 50 ngày làm việc cộng dồn; nếu không có văn bản đồng ý thì dứt khoát chuyển NLĐ trở lại vị trí cũ tại ngày thứ 60 |
 | Cắt giảm tiền lương ngay trong 30 ngày làm việc đầu tiên chuyển công việc | Vi phạm khoản 3 Điều 29 Bộ luật Lao động về nguyên tắc bảo lưu tiền lương cũ trong 30 ngày làm việc | `KTV` nội bộ kiểm tra số ngày công làm việc thực tế tại vị trí mới; chỉ áp dụng đơn giá lương mới từ ngày làm việc thứ 31 trở đi |
-| Trả tiền lương công việc mới thấp hơn 85% lương cũ hoặc thấp hơn mức lương tối thiểu vùng | Vi phạm khoản 3 Điều 29 BLLĐ và quy định về lương tối thiểu vùng tại [[CC-LD-60 Lương tối thiểu vùng 4 mức theo tháng và theo giờ\|CC-LD-60]], bị xử phạt vi phạm hành chính | `KTV` thiết lập công thức khóa mức tối thiểu: `Mức lương mới = max(Lương vị trí mới, 85% Lương cũ, Lương tối thiểu vùng)` |
+| Trả tiền lương công việc mới thấp hơn 85% lương cũ hoặc thấp hơn mức lương tối thiểu vùng | Vi phạm khoản 3 Điều 29 BLLĐ và quy định về lương tối thiểu vùng tại CC-LD-60, bị xử phạt vi phạm hành chính | `KTV` thiết lập công thức khóa mức tối thiểu: `Mức lương mới = max(Lương vị trí mới, 85% Lương cũ, Lương tối thiểu vùng)` |
 | Bố trí công việc không phù hợp với sức khỏe, giới tính của người lao động | Gây tai nạn lao động hoặc suy giảm sức khỏe người lao động, phát sinh trách nhiệm bồi thường | Trưởng bộ phận và `HR` trực tiếp rà soát hồ sơ sức khỏe và trao đổi trước với nhân sự về tính chất công việc trước khi trình phê duyệt |
 
 ---
 
-## 9. Đầu ra và nơi lưu
+## 8. Đầu ra và nơi lưu
 
 | STT | Tài liệu đầu ra | Người tạo | Nơi lưu trữ | Thời hạn lưu trữ |
 | --- | --- | --- | --- | --- |
@@ -252,7 +233,7 @@ Quy định chuẩn hóa toàn bộ trình tự, thủ tục xem xét nhu cầu,
 
 ---
 
-## 10. Chỉ số theo dõi
+## 9. Chỉ số theo dõi
 
 | STT | Tên chỉ số | Cách đo lường | Mục tiêu | Tần suất rà soát |
 | --- | --- | --- | --- | --- |
@@ -267,4 +248,5 @@ Quy định chuẩn hóa toàn bộ trình tự, thủ tục xem xét nhu cầu,
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 30/09/2026 | R.1.0.1 | Chia 4 câu dài ở mục đích, bước 3 và chế độ tiền lương khi tạm chuyển thành câu ngắn, không đổi nghĩa |
+| 04/10/2026 | R.1.0.2 | Chuẩn hóa tiêu đề callout và nội dung mở đầu, bỏ số đếm và chuyển sang văn phong hành chính |

@@ -4,19 +4,15 @@ code: "OBK-SOP-MK"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 2, quy trình bộ phận"
-version: "R.1.0.1"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-SOP-00 Chuẩn vận hành dịch vụ"
-law_as_of: "Pháp luật có hiệu lực tại ngày 27/09/2026"
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-SOP-MK
 tags:
@@ -31,7 +27,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-SOP-MK |
 | Cấp tài liệu | Cấp 2, SOP bộ phận |
-| Phiên bản | R.1.0.1, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Văn bản pháp luật có hiệu lực tại ngày 27/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -130,8 +126,8 @@ Toàn bộ khách hàng tiềm năng đến từ các kênh tiếp thị tự th
    - Nội dung sàng lọc: Xác nhận tính hợp lệ của thông tin liên hệ; kiểm tra trạng thái hoạt động của doanh nghiệp qua cổng thông tin quốc gia; phân loại nhóm dịch vụ quan tâm (Kế toán thuế, Giấy phép đầu tư/FDI, Lao động tiền lương, Sở hữu trí tuệ, hoặc Pháp lý hợp đồng).
    - Loại bỏ các đầu mối rác, thông tin giả mạo hoặc đối tác kiểm tra dịch vụ.
 3. Giai đoạn 3. Bàn giao cho Chuyên viên Quản lý khách hàng (`AM`):
-   - Mốc thời gian thực hiện: Bàn giao trên hệ thống cho Bộ phận `AM` trong thời hạn tối đa 02 giờ làm việc kể từ khi hoàn tất sàng lọc sơ bộ, bảo đảm tuân thủ mốc `T1` tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 7.2.3.
-   - Đầu mối tiếp nhận: Chuyên viên `AM` được phân công sở hữu toàn trình mối quan hệ với khách hàng, thực hiện xác nhận tiếp nhận thông tin và liên hệ khách hàng theo quy trình [[02_OBK-SOP-AM_Quan_ly_khach_hang|OBK-SOP-AM]].
+   - Mốc thời gian thực hiện: Bàn giao trên hệ thống cho Bộ phận `AM` trong thời hạn tối đa 02 giờ làm việc kể từ khi hoàn tất sàng lọc sơ bộ. Đây là mốc bàn giao nội bộ giữa `MK` và `AM`, tách biệt với mốc `T1` (xác nhận phản hồi khách, dưới 15 phút) của `AM` theo OBK-SOP-00 mục 7.2.4.
+   - Đầu mối tiếp nhận: Chuyên viên `AM` được phân công sở hữu toàn trình mối quan hệ với khách hàng, thực hiện xác nhận tiếp nhận thông tin và liên hệ khách hàng theo quy trình OBK-SOP-AM.
 4. Giai đoạn 4. Đánh giá mức độ phù hợp và rủi ro:
    - Chuyên viên `AM` thực hiện đánh giá mức độ phù hợp và rà soát tám dấu hiệu rủi ro theo hướng dẫn `OBK-HB-31` và [[02_OBK-SOP-AM_Quan_ly_khach_hang|OBK-SOP-AM]] mục 8.1.
    - Dấu hiệu 6 (Sign 6 Step 5 - Yêu cầu dịch vụ pháp lý hoặc rà soát hợp đồng): Khi khách hàng có yêu cầu thuộc nhóm tư vấn pháp lý chuyên sâu hoặc soạn thảo hợp đồng, `AM` phải lập phiếu ghi nhận và trình `CEO` phê duyệt tiếp nhận theo quy định nội bộ.
@@ -275,4 +271,4 @@ Bộ phận Marketing theo dõi và đánh giá hiệu quả vận hành thông 
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.1 | Sửa dòng 'Người phê duyệt' trong bảng thông tin phiên bản về khuôn hai cột, bỏ dấu thừa và liên kết bị cắt cụt của OBK-SOP-00 |
+| 02/10/2026 | R.1.1.0 | Giai đoạn 3: tách mốc bàn giao nội bộ 02 giờ (MK sang AM) khỏi mốc T1; sửa dẫn chiếu mục 7.2.3 thành 7.2.4 |

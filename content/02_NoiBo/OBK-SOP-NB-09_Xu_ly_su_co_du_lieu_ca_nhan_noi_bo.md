@@ -7,22 +7,17 @@ level: "Cấp 3, hướng dẫn nghiệp vụ"
 version: "R.1.0.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 27/09/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-SOP-NB-00 Chuẩn vận hành nội bộ"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-SOP-NB-09
 tags:
   - loai/sop
   - cap/3
-  - nghiep-vu/noi-quy-lao-dong
 ---
 # OBK-SOP-NB-09. Xử lý sự cố dữ liệu cá nhân nội bộ
 
@@ -78,23 +73,7 @@ Thiết lập cơ chế ứng phó khẩn cấp, tinh gọn và tuân thủ ch�
 
 ---
 
-## 3. Căn cứ pháp lý
-
-- Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15 ngày 25/06/2025: Điều 2 (Giải thích từ ngữ), Điều 23 (Thông báo vi phạm quy định về bảo vệ dữ liệu cá nhân), Điều 27 (Biện pháp bảo vệ dữ liệu cá nhân), Điều 37 (Nghĩa vụ của Bên xử lý dữ liệu cá nhân);
-- Nghị định số 356/2025/NĐ-CP ngày 31/12/2025 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Bảo vệ dữ liệu cá nhân: Điều 28 (Nội dung thông báo sự cố vi phạm), Điều 42;
-- Nghị định số 13/2023/NĐ-CP ngày 17/04/2023 của Chính phủ về bảo vệ dữ liệu cá nhân;
-- Luật An toàn thông tin mạng số 86/2015/QH13 ngày 19/11/2015;
-- Luật An ninh mạng số 24/2018/QH14 ngày 12/06/2018;
-- [[CC-LD-213 Trách nhiệm của người sử dụng lao động khi quản lý, sử dụng người lao động, gồm thời hạn lưu trữ dữ liệu cá nhân và nghĩa vụ xóa|CC-LD-213]] Trách nhiệm của người sử dụng lao động khi quản lý dữ liệu cá nhân;
-- [[CC-LD-214 Xử lý dữ liệu cá nhân của người lao động thu thập bằng biện pháp công nghệ, kỹ thuật|CC-LD-214]] Xử lý dữ liệu cá nhân của người lao động thu thập bằng biện pháp công nghệ;
-- [[CC-LD-215 Định nghĩa dữ liệu sinh trắc học và bốn nghĩa vụ khi thu thập, xử lý dữ liệu sinh trắc học, gồm bảo mật vật lý thiết bị|CC-LD-215]] Nghĩa vụ khi thu thập, xử lý dữ liệu sinh trắc học;
-- [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen|OBK-QCTC-02]] Quy chế tổ chức và phân quyền: Điều 19.4 về tư cách Bên xử lý dữ liệu của oBacker;
-- [[06_Data_Protection_VI|OBK-TnC-06]] Cam kết bảo vệ dữ liệu cá nhân;
-- [[Noi_quy_lao_dong|OBK-NQLD]] Nội quy lao động của Công ty cổ phần oBacker.
-
----
-
-## 4. Vai trò và trách nhiệm
+## 3. Vai trò và trách nhiệm
 
 | Vai trò | Trách nhiệm trong quy trình | Giới hạn quyền hạn |
 | --- | --- | --- |
@@ -106,7 +85,7 @@ Thiết lập cơ chế ứng phó khẩn cấp, tinh gọn và tuân thủ ch�
 
 ---
 
-## 5. Đầu vào bắt buộc
+## 4. Đầu vào bắt buộc
 
 1. Cảnh báo hoặc báo cáo ban đầu về sự cố (từ nhân viên, khách hàng, đối tác hoặc cảnh báo tự động từ hệ thống giám sát an toàn thông tin);
 2. Nhật ký truy cập hệ thống (Access Log), nhật ký tường lửa, nhật ký hoạt động thư điện tử trong khoảng thời gian xảy ra sự cố;
@@ -116,7 +95,7 @@ Thiết lập cơ chế ứng phó khẩn cấp, tinh gọn và tuân thủ ch�
 
 ---
 
-## 6. Các bước thực hiện
+## 5. Các bước thực hiện
 
 ```
 [B1: Phát hiện & Báo cáo nội bộ khẩn cấp] (Trong vòng 30 phút)
@@ -155,7 +134,7 @@ Thiết lập cơ chế ứng phó khẩn cấp, tinh gọn và tuân thủ ch�
 ### Bước 3: Điều tra, phân loại mức độ và đánh giá thiệt hại (Trong vòng 24 giờ)
 
 1. `DPO` chủ trì buổi đánh giá kỹ thuật cùng IT và các bộ phận nghiệp vụ liên quan:
-   - Xác định chủng loại dữ liệu bị lộ: Dữ liệu cá nhân cơ bản (họ tên, ngày sinh, nơi ở, số điện thoại) hay Dữ liệu cá nhân nhạy cảm (dữ liệu tài chính, thông tin tài khoản ngân hàng, tiền lương, tình trạng sức khỏe, dữ liệu sinh trắc học theo [[CC-LD-215 Định nghĩa dữ liệu sinh trắc học và bốn nghĩa vụ khi thu thập, xử lý dữ liệu sinh trắc học, gồm bảo mật vật lý thiết bị|CC-LD-215]]);
+   - Xác định chủng loại dữ liệu bị lộ: Dữ liệu cá nhân cơ bản (họ tên, ngày sinh, nơi ở, số điện thoại) hay Dữ liệu cá nhân nhạy cảm (dữ liệu tài chính, thông tin tài khoản ngân hàng, tiền lương, tình trạng sức khỏe, dữ liệu sinh trắc học theo CC-LD-215);
    - Xác định số lượng chủ thể dữ liệu bị ảnh hưởng (dưới 100 người, từ 100 đến 1.000 người, hoặc trên 1.000 người);
    - Đánh giá khả năng thu hồi dữ liệu và mức độ thiệt hại thực tế hoặc tiềm tàng;
 2. Phân loại mức độ sự cố:
@@ -187,7 +166,7 @@ Thiết lập cơ chế ứng phó khẩn cấp, tinh gọn và tuân thủ ch�
 
 ---
 
-## 7. Điểm kiểm soát bắt buộc
+## 6. Điểm kiểm soát bắt buộc
 
 | Mã chốt | Điểm kiểm soát | Thời điểm kiểm tra | Người kiểm | Xử lý khi không đạt |
 | --- | --- | --- | --- | --- |
@@ -200,7 +179,7 @@ Thiết lập cơ chế ứng phó khẩn cấp, tinh gọn và tuân thủ ch�
 
 ---
 
-## 8. Lỗi thường gặp và cách xử lý
+## 7. Lỗi thường gặp và cách xử lý
 
 1. **Cố tình che giấu sự cố vì sợ bị kỷ luật:**
    - *Hậu quả:* Bỏ lỡ thời điểm vàng để khoanh vùng sự cố, dữ liệu bị phát tán tràn lan ra ngoài, vi phạm nghiêm trọng thời hạn báo cáo 72 giờ theo luật định, doanh nghiệp đối mặt án phạt hành chính rất nặng;
@@ -213,11 +192,11 @@ Thiết lập cơ chế ứng phó khẩn cấp, tinh gọn và tuân thủ ch�
    - *Cách xử lý:* `DPO` theo dõi đồng hồ đếm ngược 72 giờ kể từ phút đầu tiên phát hiện sự cố; trong trường hợp chưa điều tra xong đầy đủ thì gửi báo cáo sơ bộ trước mốc 72 giờ và xin bổ sung báo cáo cập nhật sau.
 4. **Không phối hợp thông báo cho khách hàng có dữ liệu bị ảnh hưởng:**
    - *Hậu quả:* Khách hàng bị tấn công dây chuyền, khởi kiện đòi bồi thường thiệt hại và chấm dứt hợp đồng dịch vụ;
-   - *Cách xử lý:* Tuân thủ cam kết tại [[06_Data_Protection_VI|OBK-TnC-06]]: thông báo đúng hạn, phối hợp minh bạch giúp khách hàng phòng vệ.
+    - *Cách xử lý:* Tuân thủ cam kết tại OBK-TnC-06: thông báo đúng hạn, phối hợp minh bạch giúp khách hàng phòng vệ.
 
 ---
 
-## 9. Đầu ra và nơi lưu
+## 8. Đầu ra và nơi lưu
 
 | Sản phẩm đầu ra | Định dạng | Trách nhiệm lưu trữ | Nơi lưu trữ | Thời hạn lưu trữ |
 | --- | --- | --- | --- | --- |
@@ -230,7 +209,7 @@ Thiết lập cơ chế ứng phó khẩn cấp, tinh gọn và tuân thủ ch�
 
 ---
 
-## 10. Chỉ số theo dõi
+## 9. Chỉ số theo dõi
 
 | Mã chỉ số | Tên chỉ số | Cách đo lường | Mục tiêu | Tần suất | Người theo dõi |
 | --- | --- | --- | --- | --- | --- |

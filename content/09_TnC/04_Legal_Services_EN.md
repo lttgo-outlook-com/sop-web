@@ -2,7 +2,7 @@
 title: "LEGAL SERVICES; SPECIFIC TERMS (PL-PL)"
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.1.0"
+version: "R.2.1.0"
 status: "đang áp dụng"
 language: "en"
 distribution: "Khách hàng"
@@ -16,7 +16,7 @@ tags:
 *Service-Specific Terms forming an integral part of the Master T&C; oBacker Joint Stock Company*
 Tax code: 0402298185 · Floor 2, 06 Tran Phu Street, Hai Chau Ward, Da Nang, Vietnam · contact@obacker.com
 
-**Version:** R.1.1.0 (VI-EN) · **Updated:** 01/10/2026
+**Version:** R.2.1.0 (VI-EN) · **Updated:** 02/10/2026
 
 > These are the Service-Specific Terms for Legal Services (the "**Services**"), covering four areas: (A) legal and tax advisory; (B) contract/document review and drafting; (C) Research On Demand; and (D) Intellectual Property registration (trademarks, copyrights). They apply where the Services are recorded in an Order Form; per matter, per hour, or per number of review rounds within a package. **If there is any discrepancy between the Master T&C and this document, this document prevails for the Services.**
 
@@ -74,7 +74,7 @@ One (01) contract review round covers:
 - 01 review round + 01 feedback round
 - Turnaround: 03 business days per round.
 
-**Contracts over 10 pages:** the system counts these as **two review rounds**, or moves them to advisory as an **Add-on service** depending on complexity (oBacker provides a quote and proceeds only after the Client's approval). Complex contracts (M&A, business cooperation, syndicated loans, SPA/SHA, etc.) typically fall into this category.
+**Contracts running from 11 to 20 pages:** the system counts these as **two review rounds**. **Contracts exceeding 20 pages:** a surcharge of VND 100,000 per page applies from page 21, or they move to advisory as an **Add-on service** depending on complexity (oBacker provides a quote and proceeds only after the Client's approval). Complex contracts (M&A, business cooperation, syndicated loans, SPA/SHA, etc.) typically fall into this category.
 
 **What to provide with a review request:** the contract (Word, or a text-copyable PDF), the transaction background, the Client's position (buyer/seller/intermediary), and any clauses of particular concern.
 
@@ -95,11 +95,11 @@ One (01) contract review round covers:
 
 | Task | Timeline |
 |---|---|
-| Review of one contract (up to 10 pages) | 03-04 business days per round, including 01 review round |
-| Response to a new advisory inquiry | Within 24-48 business hours of receiving complete information |
-| Copyright registration | Complete application dossier within 03-05 business days; statutory certificate issuance by COV is 15 business days from receipt of a complete dossier |
-| Trademark registration (filing phase) | Preliminary search and dossier preparation within 03-05 business days; filing and securing filing receipt within 02 business days of receiving signed documents |
-| Trademark registration (examination phase) | Formal examination 01 month; publication 02 months; substantive examination at NOIP realistically spans 12 to 16 months (statutory guideline is 09 months, but due to actual administrative backlogs at NOIP under GT-07, real-world processing extends to 12-16 months). oBacker secures filing priority (first-to-file principle) but is not liable for administrative examination delays at state agencies |
+| Review of one contract (up to 10 pages) | 03 business days per round, including 01 review round |
+| Response to a new advisory inquiry | Acknowledgement within 04 business hours; substantive reply within 24 to 48 business hours of receiving complete information |
+| Copyright registration | Complete application dossier within 05 business days; statutory certificate issuance by COV is 15 business days from receipt of a complete dossier |
+| Trademark registration (filing phase) | Preliminary search and dossier preparation within 05 business days; filing and securing filing receipt within 02 business days of receiving signed documents |
+| Trademark registration (examination phase) | Formal examination 01 month; publication 02 months; substantive examination at NOIP realistically spans 12 to 16 months (statutory guideline is 09 months, but due to actual administrative backlogs at NOIP, real-world processing extends to 12-16 months). oBacker secures filing priority (first-to-file principle) but is not liable for administrative examination delays at state agencies |
 | Hourly advisory within a package | By appointment within the period (email, in person or video call) |
 | Research On Demand | Per the scope agreed in the Order Form |
 
@@ -132,4 +132,4 @@ The Service Fees are set in the Order Form; by hour, by review round, by matter,
 
 | Date | Version | R.1.1.0, currently applicable |
 | --- | --- | --- |
-| 01/10/2026 | R.1.1.0 | Integrate contract review and ERC quotas into Partner Growth/Prime retainers, apply Master SKU Catalog for add-on services |
+| 02/10/2026 | R.2.1.0 | Copyright registration and trademark filing: complete the application dossier within 05 business days<br>Trademark substantive examination: drop the GT-07 reference, keep the fact of the NOIP dossier backlog |

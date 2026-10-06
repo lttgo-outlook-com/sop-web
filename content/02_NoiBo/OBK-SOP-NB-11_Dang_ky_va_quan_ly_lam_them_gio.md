@@ -4,25 +4,20 @@ code: "OBK-SOP-NB-11"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 2, quy trình bộ phận"
-version: "R.1.0.0"
+version: "R.2.0.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 27/09/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-SOP-NB-00 Chuẩn vận hành nội bộ"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-SOP-NB-11
 tags:
   - loai/sop
   - cap/2
-  - nghiep-vu/tien-luong
 ---
 # OBK-SOP-NB-11. Đăng ký và quản lý làm thêm giờ
 
@@ -33,7 +28,7 @@ tags:
 | Mã tài liệu | OBK-SOP-NB-11 |
 | Tên tài liệu | Quy trình đăng ký và quản lý làm thêm giờ |
 | Cấp tài liệu | Cấp 2, quy trình vận hành nội bộ. Thi hành [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo\|OBK-SOP-NB-00]] Chuẩn vận hành nội bộ và Nội quy lao động [[Noi_quy_lao_dong\|OBK-NQLD]] |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.2.0.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 27/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -50,7 +45,7 @@ tags:
 ## CẢNH BÁO MỞ ĐẦU
 
 > [!warning] NGUYÊN TẮC KIỂM SOÁT LÀM THÊM GIỜ VÀ RỦI RO THUẾ
-> 1. **Nguyên tắc phê duyệt trước:** Mọi trường hợp làm thêm giờ bắt buộc phải có Phiếu đăng ký và được Quản lý trực tiếp phê duyệt trước khi thực hiện. Giờ làm việc ngoài ca không có phê duyệt trước sẽ không được công nhận là giờ làm thêm và không được chi trả tiền lương làm thêm giờ.
+> 1. **Nguyên tắc phê duyệt trước:** Mọi trường hợp làm thêm giờ bắt buộc phải có Phiếu đăng ký và được phê duyệt trước khi thực hiện: lũy kế giờ làm thêm của tháng dưới 10 giờ do Quản lý trực tiếp phê duyệt; từ 10 giờ trở lên do `COO` (hoặc `CEO`, theo nhánh quản lý của bộ phận) phê duyệt. Giờ làm việc ngoài ca không có phê duyệt trước sẽ không được công nhận là giờ làm thêm và không được chi trả tiền lương làm thêm giờ.
 > 2. **Kiểm soát giới hạn mức tối đa theo luật định:** Tuyệt đối không bố trí người lao động làm thêm giờ vượt quá các mức tối đa: không quá 50% số giờ làm việc bình thường trong 01 ngày; không quá 40 giờ trong 01 tháng; không quá 200 giờ trong 01 năm (hoặc 300 giờ trong 01 năm đối với trường hợp được pháp luật cho phép và đã thông báo bằng văn bản cho cơ quan nhà nước có thẩm quyền).
 > 3. **Bảng kê thu nhập làm thêm giờ để miễn thuế TNCN:** Để bảo đảm quyền miễn thuế thu nhập cá nhân theo quy định pháp luật, mỗi kỳ tính lương bắt buộc phải lập Bảng kê chi tiết thời gian làm việc ban đêm, làm thêm giờ và số tiền tương ứng. Phần thời gian làm thêm vượt mức tối đa theo luật định (nếu phát sinh) sẽ bị tính toàn bộ vào thu nhập chịu thuế.
 
@@ -85,11 +80,11 @@ tags:
 
 ## 2. DANH MỤC JOB
 
-Quy trình này trực tiếp thực hiện và phối hợp các Job nội bộ đã được đăng ký tại [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo|OBK-SOP-NB-00]] mục 5:
+Quy trình này trực tiếp thực hiện và phối hợp các Job nội bộ đã được đăng ký tại OBK-SOP-NB-00 mục 5:
 
 | Mã Job | Tên Job | Thời điểm thực hiện | Đầu vào bắt buộc | Đầu ra bắt buộc | Vai trò thực hiện | Mảng quy trình |
 | --- | --- | --- | --- | --- | --- | --- |
-| NB-38 | Đăng ký và xét duyệt làm thêm giờ | Trước khi bắt đầu làm thêm giờ | Phiếu đăng ký làm thêm giờ gửi trên hệ thống | Đơn đã được phê duyệt kèm căn cứ tính cấp bách | `NLĐ`, `TL`, `COO` | LƯƠNG |
+| NB-38 | Đăng ký và xét duyệt làm thêm giờ | Trước khi bắt đầu làm thêm giờ | Phiếu đăng ký làm thêm giờ gửi trên hệ thống | Đơn đã được phê duyệt kèm căn cứ tính cấp bách | `NLĐ`, `TL`, `COO` hoặc `CEO` | LƯƠNG |
 | NB-47 | Rà soát giới hạn giờ làm thêm | Ngày 20 hằng tháng | Dữ liệu làm thêm giờ lũy kế của kỳ và lũy kế năm | Bảng rà soát số giờ làm thêm so với mức tối đa tháng và mức tối đa năm | `HR` | LƯƠNG |
 | NB-35 | Duyệt toàn bảng công | Ngày 22 hằng tháng | Bảng chấm công `BM-09` tích hợp dữ liệu ca làm thêm | Bảng chấm công `BM-09` đã duyệt chính thức | `CEO` | LƯƠNG |
 | NB-36 | Tính lương và lập Bảng kê thu nhập làm thêm giờ miễn thuế | Từ ngày 23 hằng tháng | Bảng chấm công `BM-09` đã duyệt và đơn làm thêm đã duyệt | Bảng thanh toán tiền lương mẫu 01-LĐTL và Bảng kê thu nhập làm thêm giờ miễn thuế TNCN | `HR`, `KTV` | LƯƠNG |
@@ -103,8 +98,8 @@ Quy trình này trực tiếp thực hiện và phối hợp các Job nội bộ
 | Hoạt động | Người lao động (`NLĐ`) | Quản lý trực tiếp (`TL`) | Giám đốc vận hành (`COO`) | Tổng giám đốc (`CEO`) | Bộ phận Nhân sự (`HR`) | Kế toán viên (`KTV`) |
 | --- | --- | --- | --- | --- | --- | --- |
 | Đăng ký nhu cầu làm thêm giờ (trước khi làm) | R | C | I | I | I | I |
-| Thẩm định tính cấp bách và duyệt ca ngày thường | I | R/A | I | I | C | I |
-| Phê duyệt ca ngày nghỉ hằng tuần hoặc ca kéo dài | I | C | R/A | I | C | I |
+| Thẩm định tính cấp bách và duyệt đăng ký, lũy kế giờ làm thêm tháng dưới 10 giờ | I | R/A | I | I | C | I |
+| Phê duyệt đăng ký, lũy kế giờ làm thêm tháng từ 10 giờ | I | C | R/A | R/A | C | I |
 | Chấm công vào ca và ra ca làm thêm | R | C | I | I | I | I |
 | Rà soát giới hạn mức tối đa giờ làm thêm (Job `NB-47`) | I | C | I | I | R/A | I |
 | Đối soát dữ liệu ca làm thêm vào Bảng công `BM-09` | I | C | I | I | R | C |
@@ -113,6 +108,8 @@ Quy trình này trực tiếp thực hiện và phối hợp các Job nội bộ
 | Lập Bảng kê thu nhập làm thêm giờ miễn thuế TNCN | I | I | I | I | C | R/A |
 
 *Ghi chú mã RACI: R = Người thực hiện chính; A = Người phê duyệt; C = Người được tham vấn; I = Người nhận thông tin.*
+
+*Dòng phê duyệt khi lũy kế giờ làm thêm tháng từ 10 giờ: người ký là `COO` (Khối Vận hành/Dịch vụ) hoặc `CEO` (các khối còn lại), theo nhánh quản lý của bộ phận.*
 
 ### 3.2. Trách nhiệm cụ thể của từng vị trí
 
@@ -125,15 +122,16 @@ Quy trình này trực tiếp thực hiện và phối hợp các Job nội bộ
 2. **Quản lý trực tiếp (`TL`):**
    - Thẩm định tính cấp bách của công việc: chỉ phê duyệt khi có nguy cơ không đáp ứng cam kết mức chất lượng dịch vụ (SLA) với khách hàng, khắc phục sự cố kỹ thuật hoặc hoàn thành báo cáo có thời hạn theo luật định;
    - Kiểm tra số giờ làm thêm lũy kế của người lao động, không phê duyệt đối với nhân sự đã chạm ngưỡng cảnh báo tháng;
-   - Phê duyệt các ca làm thêm trong ngày làm việc bình thường (tối đa không quá 04 giờ/ngày);
-   - Chuyển tiếp trình `COO` phê duyệt đối với các ca làm thêm vào ngày nghỉ hằng tuần hoặc ca làm thêm có quy mô từ 03 nhân sự trở lên.
+   - Phê duyệt đăng ký làm thêm giờ khi lũy kế giờ làm thêm của người lao động trong tháng dưới 10 giờ (tối đa không quá 04 giờ trong một ngày làm việc bình thường);
+   - Chuyển tiếp trình phê duyệt khi lũy kế giờ làm thêm của tháng của người lao động từ 10 giờ.
 
 3. **Giám đốc vận hành (`COO`):**
-   - Phê duyệt kế hoạch làm thêm giờ vào ngày nghỉ hằng tuần hoặc ngày nghỉ lễ, tết;
+   - Phê duyệt đăng ký làm thêm giờ khi lũy kế giờ làm thêm của tháng của người lao động từ 10 giờ, với các bộ phận thuộc Khối Vận hành/Dịch vụ;
    - Điều phối nguồn lực và giám sát hiệu quả công việc làm thêm trên toàn khối vận hành;
    - Kiểm soát tổng quỹ thời gian làm thêm của toàn công ty, bảo đảm sức khỏe và quyền lợi của người lao động.
 
 4. **Tổng giám đốc (`CEO`):**
+   - Phê duyệt đăng ký làm thêm giờ khi lũy kế giờ làm thêm của tháng của người lao động từ 10 giờ, với các bộ phận thuộc nhánh do `CEO` quản lý;
    - Phê duyệt danh mục các đợt làm thêm giờ đặc thù (nếu có áp dụng khung mức tối đa 300 giờ/năm theo quy định pháp luật);
    - Ký văn bản thông báo gửi cơ quan quản lý nhà nước về lao động cấp tỉnh khi tổ chức làm thêm giờ từ trên 200 giờ đến 300 giờ trong một năm;
    - Phê duyệt toàn bộ Bảng chấm công của kỳ theo Job `NB-35`.
@@ -167,8 +165,8 @@ Quy trình này trực tiếp thực hiện và phối hợp các Job nội bộ
         |    - Cam kết tự nguyện của người lao động
         v
     [BƯỚC 3] Thẩm định và phê duyệt theo thẩm quyền
-        |    - Ca ngày thường <= 4 giờ: TL duyệt
-        |    - Ca ngày nghỉ / kéo dài: COO duyệt
+        |    - Lũy kế giờ làm thêm tháng < 10 giờ: TL duyệt
+        |    - Lũy kế giờ làm thêm tháng từ 10 giờ: COO (hoặc CEO, theo nhánh quản lý) duyệt
         |    - Kiểm tra giới hạn: <= 50% giờ bình thường/ngày, <= 40 giờ/tháng
         v
     [BƯỚC 4] Thực hiện và ghi nhận chấm công ca làm thêm
@@ -238,30 +236,30 @@ Quy trình này trực tiếp thực hiện và phối hợp các Job nội bộ
 ### 4.4. Bước 4: Kiểm soát giới hạn mức tối đa theo luật định (Job NB-47)
 
 > [!note] CĂN CỨ GIỚI HẠN GIỜ LÀM THÊM
-> Căn cứ Điều 107 Bộ luật Lao động và Điều 60 Nghị định 145/2020/NĐ-CP, việc tổ chức làm thêm giờ phải tuân thủ nghiêm ngặt các giới hạn mức tối đa theo luật định. Xem chi tiết tại [[CC-LD-69 Làm thêm không quá 50% giờ làm bình thường trong 01 ngày; theo tuần thì tổng không quá 12 giờ-ngày; KHÔNG QUÁ 40 GIỜ-THÁNG|CC-LD-69]], [[CC-LD-71 Không quá 300 giờ-năm với 5 nhóm ngành nghề|CC-LD-71]], [[CC-LD-72 Làm thêm theo khoản 3 phải THÔNG BÁO BẰNG VĂN BẢN cho cơ quan chuyên môn về lao động thuộc UBND cấp tỉnh|CC-LD-72]] và [[CC-LD-75 Tổng giờ làm thêm không quá 12 giờ-ngày khi làm thêm vào ngày nghỉ lễ tết và nghỉ hằng tuần|CC-LD-75]].
+> Việc tổ chức làm thêm giờ phải tuân thủ nghiêm ngặt các giới hạn mức tối đa: ngày thường không quá 50% số giờ làm việc bình thường trong 01 ngày, theo tuần tổng không quá 12 giờ một ngày, một tháng không quá 40 giờ làm thêm; làm thêm vào ngày nghỉ lễ, tết và nghỉ hằng tuần tổng giờ trong ngày không quá 12 giờ; một năm không quá 200 giờ làm thêm, nhóm ngành nghề được pháp luật cho phép thì không quá 300 giờ một năm, trường hợp huy động trên 200 giờ phải thông báo bằng văn bản cho cơ quan chuyên môn về lao động thuộc Ủy ban nhân dân cấp tỉnh.
 
 Định kỳ vào ngày 20 hằng tháng, `HR` thực hiện Job `NB-47` để kiểm soát các giới hạn mức tối đa sau:
 
 1. **Giới hạn mức tối đa trong ngày:**
    - Số giờ làm thêm trong ngày làm việc bình thường không quá 50% số giờ làm việc bình thường trong 01 ngày (tối đa không quá 04 giờ làm thêm đối với ngày làm việc tiêu chuẩn 08 giờ);
-   - Khi làm thêm vào ngày nghỉ hằng tuần hoặc ngày nghỉ lễ, tết, tổng số giờ làm việc trong ngày (gồm cả thời gian làm việc bình thường và làm thêm) không quá 12 giờ trong 01 ngày theo [[CC-LD-75 Tổng giờ làm thêm không quá 12 giờ-ngày khi làm thêm vào ngày nghỉ lễ tết và nghỉ hằng tuần|CC-LD-75]].
+    - Khi làm thêm vào ngày nghỉ hằng tuần hoặc ngày nghỉ lễ, tết, tổng số giờ làm việc trong ngày (gồm cả thời gian làm việc bình thường và làm thêm) không quá 12 giờ trong 01 ngày.
 
 2. **Giới hạn mức tối đa trong tháng:**
-   - Tổng số giờ làm thêm của mỗi người lao động không quá 40 giờ trong 01 tháng theo [[CC-LD-69 Làm thêm không quá 50% giờ làm bình thường trong 01 ngày; theo tuần thì tổng không quá 12 giờ-ngày; KHÔNG QUÁ 40 GIỜ-THÁNG|CC-LD-69]];
+    - Tổng số giờ làm thêm của mỗi người lao động không quá 40 giờ trong 01 tháng;
    - Khi dữ liệu chấm công chạm mốc 40 giờ trong tháng, `HR` có trách nhiệm thông báo bằng văn bản cho `TL` và người lao động để dừng bố trí làm thêm trong các ngày còn lại của tháng.
 
 3. **Giới hạn mức tối đa trong năm:**
    - Tổng số giờ làm thêm của mỗi người lao động không quá 200 giờ trong 01 năm dương lịch;
-   - Trường hợp công ty có nhu cầu huy động làm thêm từ trên 200 giờ đến 300 giờ trong 01 năm theo danh mục ngành nghề, công việc được pháp luật cho phép tại [[CC-LD-71 Không quá 300 giờ-năm với 5 nhóm ngành nghề|CC-LD-71]], `HR` phải tham mưu cho `CEO` ban hành quyết định và gửi văn bản thông báo cho cơ quan chuyên môn về lao động thuộc Ủy ban nhân dân cấp tỉnh theo đúng quy định tại [[CC-LD-72 Làm thêm theo khoản 3 phải THÔNG BÁO BẰNG VĂN BẢN cho cơ quan chuyên môn về lao động thuộc UBND cấp tỉnh|CC-LD-72]].
+    - Trường hợp công ty có nhu cầu huy động làm thêm từ trên 200 giờ đến 300 giờ trong 01 năm theo danh mục ngành nghề, công việc được pháp luật cho phép (giới hạn tối đa 300 giờ một năm); `HR` phải tham mưu cho `CEO` ban hành quyết định và gửi văn bản thông báo cho cơ quan chuyên môn về lao động thuộc Ủy ban nhân dân cấp tỉnh.
 
 4. **Đối tượng được bảo vệ đặc biệt:**
    - Tuyệt đối không bố trí làm thêm giờ đối với lao động nữ mang thai từ tháng thứ 07 trở lên (hoặc từ tháng thứ 06 nếu làm việc ở vùng sâu, vùng xa, hải đảo);
-   - Tuyệt đối không bố trí làm thêm giờ đối với lao động nữ đang nuôi con dưới 12 tháng tuổi, trừ trường hợp được người lao động đồng ý bằng văn bản theo [[CC-LD-206 Bảo vệ thai sản, cấm bố trí làm ban đêm, làm thêm giờ, đi công tác xa; cấm sa thải vì kết hôn, mang thai, nghỉ thai sản, nuôi con dưới 12 tháng|CC-LD-206]].
+    - Tuyệt đối không bố trí làm thêm giờ đối với lao động nữ đang nuôi con dưới 12 tháng tuổi, trừ trường hợp được người lao động đồng ý bằng văn bản.
 
 ### 4.5. Bước 5: Đối soát bảng công (Job NB-35), tính tiền lương và lập Bảng kê miễn thuế TNCN (Job NB-36)
 
 > [!note] CĂN CỨ TÍNH LƯƠNG VÀ MIỄN THUẾ TNCN
-> Căn cứ Điều 98 Bộ luật Lao động, tiền lương làm thêm giờ được trả theo đơn giá tiền lương hoặc tiền lương thực trả theo công việc đang làm. Xem chi tiết tại [[CC-LD-76 Lương làm thêm, ngày thường ít nhất 150%; ngày nghỉ hằng tuần ít nhất 200%; ngày lễ tết ít nhất 300%|CC-LD-76]], [[CC-LD-78 Làm thêm vào ban đêm, ngoài khoản 1 và 2 còn được trả thêm 20%|CC-LD-78]] và [[CC-LD-79 Giờ làm ban đêm tính từ 22 giờ tới 06 giờ sáng hôm sau|CC-LD-79]].
+> Tiền lương làm thêm giờ được trả theo đơn giá tiền lương hoặc tiền lương thực trả theo công việc đang làm: ngày thường ít nhất 150%, ngày nghỉ hằng tuần ít nhất 200%, ngày lễ, tết ít nhất 300%; làm thêm vào ban đêm (giờ ban đêm tính từ 22 giờ đến 06 giờ sáng hôm sau) ngoài khoản làm ban đêm còn được trả thêm 20% tính theo đơn giá tiền lương của ca ban ngày.
 > Căn cứ Điều 26 Nghị định 253/2026/NĐ-CP và Điều 4 khoản 8 Luật Thuế thu nhập cá nhân, tiền lương làm việc ban đêm, làm thêm giờ được miễn thuế TNCN đối với phần tiền lương trả cao hơn so với tiền lương làm việc trong giờ tiêu chuẩn.
 
 1. **Tổng hợp và duyệt bảng công (Job `NB-35`):**
@@ -273,7 +271,7 @@ Quy trình này trực tiếp thực hiện và phối hợp các Job nội bộ
    - **Làm thêm vào ngày làm việc bình thường:** Tiền lương làm thêm giờ = Tiền lương giờ thực trả x 150% x Số giờ làm thêm;
    - **Làm thêm vào ngày nghỉ hằng tuần:** Tiền lương làm thêm giờ = Tiền lương giờ thực trả x 200% x Số giờ làm thêm;
    - **Làm thêm vào ngày nghỉ lễ, tết:** Tiền lương làm thêm giờ = Tiền lương giờ thực trả x 300% x Số giờ làm thêm (chưa bao gồm tiền lương của ngày nghỉ lễ, tết được hưởng nguyên lương theo quy định);
-   - **Làm thêm vào ban đêm (từ 22:00 đến 06:00):** Được trả thêm ít nhất 30% tiền lương tính theo đơn giá tiền lương của ngày làm việc bình thường, và cộng thêm ít nhất 20% tiền lương tính theo đơn giá tiền lương của ca làm việc ban ngày của ngày tương ứng theo [[CC-LD-78 Làm thêm vào ban đêm, ngoài khoản 1 và 2 còn được trả thêm 20%|CC-LD-78]].
+    - **Làm thêm vào ban đêm (từ 22:00 đến 06:00):** Được trả thêm ít nhất 30% tiền lương tính theo đơn giá tiền lương của ngày làm việc bình thường; và cộng thêm ít nhất 20% tiền lương tính theo đơn giá tiền lương của ca làm việc ban ngày của ngày tương ứng.
 
 3. **Lập Bảng kê thu nhập làm việc ban đêm, làm thêm giờ được miễn thuế TNCN:**
    Căn cứ Điều 26 Nghị định 253/2026/NĐ-CP, để được miễn thuế thu nhập cá nhân đối với phần thu nhập trả cao hơn do làm thêm giờ, `KTV` có trách nhiệm lập Bảng kê chi tiết phản ánh các chỉ tiêu bắt buộc sau:
@@ -289,7 +287,7 @@ Quy trình này trực tiếp thực hiện và phối hợp các Job nội bộ
 
 4. **Điều kiện miễn thuế và chế tài khi vi phạm giới hạn:**
    - Việc miễn thuế TNCN chỉ áp dụng đối với số giờ làm thêm nằm trong giới hạn mức tối đa luật định (không quá 40 giờ/tháng và không quá 200 giờ/năm, hoặc 300 giờ/năm theo quy định);
-   - Trường hợp công ty để phát sinh số giờ làm thêm vượt mức tối đa theo luật định, toàn bộ tiền lương của số giờ vượt mức tối đa sẽ bị tính vào thu nhập chịu thuế TNCN của người lao động theo Điều 26 khoản 3 Nghị định 253/2026/NĐ-CP, và công ty phải chịu trách nhiệm giải trình trước cơ quan thanh tra lao động và cơ quan thuế.
+   - Trường hợp công ty để phát sinh số giờ làm thêm vượt mức tối đa theo luật định, toàn bộ tiền lương của số giờ vượt mức tối đa sẽ bị tính vào thu nhập chịu thuế TNCN của người lao động theo Điều 26 khoản 3 Nghị định 253/2026/NĐ-CP; và công ty phải chịu trách nhiệm giải trình trước cơ quan thanh tra lao động và cơ quan thuế.
 
 ---
 
@@ -351,4 +349,4 @@ Hiệu quả thực hiện quy trình được đo lường định kỳ hằng 
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 02/10/2026 | R.2.0.0 | Chuỗi phê duyệt làm thêm giờ theo ngưỡng 10 giờ lũy kế trong tháng: dưới 10 giờ do TL phê duyệt, từ 10 giờ trở lên do COO hoặc CEO theo nhánh quản lý; cập nhật RACI, trách nhiệm từng vị trí, sơ đồ trình tự và Job NB-38 |

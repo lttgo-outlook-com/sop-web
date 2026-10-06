@@ -4,19 +4,15 @@ code: "OBK-QCTC-02-PL-C"
 type: "sop"
 folder: "01_ToChuc"
 level: "Phụ lục"
-version: "R.1.0.0"
+version: "R.1.0.1"
 status: "đang áp dụng"
-draft_date: "01/10/2026"
+draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-QCTC-02 Quy chế tổ chức và phân quyền"
-law_as_of: ""
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-QCTC-02-PL-C
 tags:
@@ -29,21 +25,19 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-QCTC-02-PL-C |
 | Cấp tài liệu | Phụ lục |
-| Phiên bản | R.1.0.0, đang áp dụng |
-| Ngày biên soạn | 01/10/2026 |
+| Phiên bản | R.1.0.1, đang áp dụng |
+| Ngày biên soạn | 04/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
 | Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen\|OBK-QCTC-02]] Quy chế tổ chức và phân quyền |
 
 
-Phụ lục của [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen|OBK-QCTC-02]] Quy chế tổ chức và phân quyền. Dựng 02/09/2026.
-
-Cập nhật lần cuối 07/09/2026.
+Phụ lục của [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen|OBK-QCTC-02]] Quy chế tổ chức và phân quyền.
 
 Tài liệu này THAY THẾ mục 8.1, 8.2 và 8.3 của [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] khi hai bên khác nhau, vì cơ cấu tổ chức đã đổi. Quy tắc nhảy cấp và quy tắc thời gian vẫn lấy nguyên từ [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 8.2, không chép lại ở đây.
 
-## 1. Hai chiều
+## 1. Tuyến xử lý theo chuyên môn và theo cấp bậc
 
 **Chiều ngang, theo chuyên môn.** Vấn đề cần chuyên môn nào thì đi thẳng tới đơn vị có chuyên môn đó, không phụ thuộc cấp bậc. Người chuyển vẫn theo sát tới khi có kết quả.
 
@@ -54,9 +48,9 @@ Tài liệu này THAY THẾ mục 8.1, 8.2 và 8.3 của [[01_OBK-SOP-00_Chuan_v
 | Hợp đồng lao động, bảng lương, BHXH, báo cáo lao động, kỷ luật lao động CỦA KHÁCH | Bộ phận Lao động và Tiền lương |
 | Soạn và rà hợp đồng, tư vấn theo yêu cầu, nghiên cứu theo yêu cầu, bộ tài liệu nội bộ cho khách | Bộ phận Dịch vụ pháp lý, xem `03_DichVu/06_OBK-SOP-LS` |
 | Nghiệp vụ chưa có chuẩn, văn bản pháp luật mới, kết luận dùng cho mọi khách về sau, hành vi oBacker nghiêm cấm | Legal R&D, xem `03_DichVu/07_OBK-SOP-RD` |
-| Thanh tra và kiểm tra **THUẾ** của khách, làm việc với đoàn kiểm tra thuế | Bộ phận Kế toán và Thuế: `TL-KT` chủ trì; Bộ phận Dịch vụ pháp lý tham vấn về thủ tục và thời hiệu; Legal R&D về hành vi oBacker nghiêm cấm.<br>SỬA ngày 07/09/2026 cho khớp `03_DichVu/01_OBK-SOP-00` mục 5.5 |
-| Thanh tra **LAO ĐỘNG** của khách | Bộ phận Lao động và Tiền lương: `TL-LD` chủ trì vì hồ sơ nằm ở đó, Bộ phận Dịch vụ pháp lý tham vấn về thủ tục và thời hiệu.<br>ĐỔI ngày 07/09/2026, xem ghi chú dưới bảng |
-| **Tranh chấp** của khách phải lập luận pháp lý hoặc phải ra văn bản có ký | Bộ phận Dịch vụ pháp lý chủ trì, bộ phận giữ hồ sơ cấp hồ sơ. ĐỔI ngày 07/09/2026 |
+| Thanh tra và kiểm tra **THUẾ** của khách, làm việc với đoàn kiểm tra thuế | Bộ phận Kế toán và Thuế: `TL-KT` chủ trì; Bộ phận Dịch vụ pháp lý tham vấn về thủ tục và thời hiệu; Legal R&D về hành vi oBacker nghiêm cấm |
+| Thanh tra **LAO ĐỘNG** của khách | Bộ phận Lao động và Tiền lương: `TL-LD` chủ trì vì hồ sơ nằm ở đó, Bộ phận Dịch vụ pháp lý tham vấn về thủ tục và thời hiệu |
+| **Tranh chấp** của khách phải lập luận pháp lý hoặc phải ra văn bản có ký | Bộ phận Dịch vụ pháp lý chủ trì, bộ phận giữ hồ sơ cấp hồ sơ |
 | Yêu cầu và phản hồi của khách, phạm vi dịch vụ, phí, gia hạn, khiếu nại | Bộ phận AM |
 | Đối tác và chương trình hợp tác | Đối tác và Chương trình |
 | Công nợ, hóa đơn đầu ra, đối soát thanh toán, sổ sách CỦA OBACKER | Kế toán nội bộ, xem [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo\|OBK-SOP-NB-00]] |
@@ -67,10 +61,10 @@ Ba dòng dễ đi sai địa chỉ nhất:
 
 - Việc lao động tiền lương: của KHÁCH thì về Bộ phận Lao động và Tiền lương, gồm cả kỷ luật lao động của khách; của oBacker thì về Nhân sự. Dòng "Xử lý kỷ luật lao động CỦA OBACKER" tại `PL_Ma_tran_phan_quyen.md` mục 1 là dòng nội bộ, không chồng với dòng này.
 - Việc pháp lý: có khách và có thu thì về Bộ phận Dịch vụ pháp lý; là chuẩn nội bộ hoặc chưa có tiền lệ thì về Legal R&D.
-- Việc thanh tra: **THUẾ thì `TL-KT` chủ trì**, vì [[16_Thanh_tra_kiem_tra_thue|OBK-SOP-16]] đặt `TL-KT` là người chủ trì làm việc với đoàn kiểm tra thuế và là người có hồ sơ trong tay; Bộ phận Dịch vụ pháp lý tham vấn về thủ tục và thời hiệu, Legal R&D về hành vi oBacker nghiêm cấm. **LAO ĐỘNG thì `TL-LD` chủ trì**, cùng lý do là hồ sơ lao động và bảng lương nằm ở đó, và việc là giải trình theo hồ sơ. **TRANH CHẤP phải lập luận pháp lý thì `TL-LS` chủ trì**, bộ phận giữ hồ sơ cấp hồ sơ. Bản 1 của phụ lục này gộp cả "làm việc với thanh tra" vào Legal R&D, tức lệch với Handbook; đã tách ngày 02/09/2026, rồi tách tiếp ngày 07/09/2026 theo quy tắc ba lớp.
+- Việc thanh tra: **THUẾ thì `TL-KT` chủ trì**, vì OBK-SOP-16 đặt `TL-KT` là người chủ trì làm việc với đoàn kiểm tra thuế và là người có hồ sơ trong tay; Bộ phận Dịch vụ pháp lý tham vấn về thủ tục và thời hiệu, Legal R&D về hành vi oBacker nghiêm cấm. **LAO ĐỘNG thì `TL-LD` chủ trì**, cùng lý do là hồ sơ lao động và bảng lương nằm ở đó, và việc là giải trình theo hồ sơ. **TRANH CHẤP phải lập luận pháp lý thì `TL-LS` chủ trì**, bộ phận giữ hồ sơ cấp hồ sơ.
 
-> [!note] NGUYÊN TẮC BA LỚP XỬ LÝ THANH TRA VÀ TRANH CHẤP
-> Quy tắc ba lớp xác định theo nội dung yêu cầu:
+> [!note] NGUYÊN TẮC PHÂN LỚP XỬ LÝ THANH TRA VÀ TRANH CHẤP
+> Quy tắc phân lớp xác định theo nội dung yêu cầu:
 > 1. Giải trình theo hồ sơ đã có: `TL` bộ phận giữ hồ sơ chủ trì (thanh tra thuế do `TL-KT` chủ trì, thanh tra lao động do `TL-LD` chủ trì).
 > 2. Lập luận pháp lý hoặc phát hành văn bản có chữ ký: `TL-LS` chủ trì.
 > 3. Vấn đề chưa có tiền lệ hoặc kết luận áp dụng chung: `TL-RD` tham mưu, `CEO` quyết định.
@@ -100,9 +94,9 @@ Nhánh kiến tạo và hỗ trợ, hai cấp:
 | Cấp 1 | Trưởng đơn vị, tức `TL-RD`, Tech Lead, `KTT`, HR Generalist | Mọi việc trong phạm vi đơn vị |
 | Cấp 2 | `CEO`; riêng Công nghệ và Sản phẩm là `COO` | Vượt thẩm quyền đơn vị;<br>xung đột với nhánh dịch vụ hoặc nhánh thương mại |
 
-## 2. Bảy chỗ kiêm nhiệm làm mất một lớp chuyển lên cấp trên hoặc một lớp kiểm soát
+## 2. Xử lý thiếu hụt lớp kiểm soát do kiêm nhiệm
 
-Đây là vấn đề riêng của cơ cấu hiện tại, không phải vấn đề của thiết kế. Vấn đề đó tự mất khi tách vai trò. Danh sách kiêm nhiệm đầy đủ ở `PL_Anh_xa_nhan_su.md` mục F; mục này chỉ giữ những chỗ có ẢNH HƯỞNG THẬT tới chuyển lên cấp trên hoặc tới một điểm kiểm soát, kèm quy tắc bù. Ba chỗ cuối bảng được bổ sung ngày 02/09/2026 sau khi đối chiếu `PL_Anh_xa_nhan_su.md`.
+Mục này xử lý hệ quả của kiêm nhiệm lên chuyển lên cấp trên và lên điểm kiểm soát. Danh sách kiêm nhiệm đầy đủ ở `PL_Anh_xa_nhan_su.md` mục F. Khi tách vai trò, các hệ quả nêu dưới đây không còn. Các dòng cuối bảng ghi nhận kiêm nhiệm phát sinh sau đối chiếu `PL_Anh_xa_nhan_su.md`.
 
 | Chỗ | Hệ quả | Quy tắc bù |
 | --- | --- | --- |
@@ -151,7 +145,12 @@ Giữ nguyên cơ chế tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]
 | oBacker CÓ NHẬN yêu cầu đó không, giá nào, cam kết nào | `CEO` |
 | Có bổ sung nguồn lực để làm được mốc khách muốn không | `CEO` quyết chi, `COO` đề xuất phương án |
 
-**Trình tự bắt buộc.** Một, `AM` và `TL` ghi rõ trên Job hai thứ: khách muốn gì, bộ phận nói làm được tới đâu. Hai, `COO` trả lời câu hỏi khả thi trong 1 ngày làm việc. Ba, nếu `COO` nói không làm được trong mốc khách muốn thì `AM` không cam kết mốc đó. Bốn, `CEO` quyết bổ sung nguồn lực hoặc đàm phán lại mốc với khách, và ghi quyết định vào Job.
+**Trình tự bắt buộc.**
+
+1. `AM` và `TL` ghi rõ trên Job hai nội dung: khách muốn gì, bộ phận nói làm được tới đâu.
+2. `COO` trả lời câu hỏi khả thi trong 1 ngày làm việc.
+3. Nếu `COO` kết luận không làm được trong mốc khách muốn, `AM` không cam kết mốc đó.
+4. `CEO` quyết bổ sung nguồn lực hoặc đàm phán lại mốc với khách, và ghi quyết định vào Job.
 
 **`CEO` không bác bỏ kết luận khả thi của `COO` bằng thẩm quyền.** `CEO` đổi được ĐẦU VÀO rồi hỏi lại, không đổi được câu trả lời.
 
@@ -176,15 +175,14 @@ Giữ nguyên cơ chế tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]
 | Chi vượt hạn mức, thiếu nguồn chi | `KTT` | `TGĐ` | `HĐQT` khi chạm mốc Điều lệ |
 | Đối tác đòi cam kết ngoài khung | `PM` | TP Thương mại | `CEO`;<br>Legal R&D được hỏi bắt buộc |
 
-> [!note] DÒNG SỰ CỐ DỮ LIỆU CÁ NHÂN
-> PHẦN CHƯA KẾT LUẬN ĐƯỢC MỘT PHẦN
+> [!note] NGUYÊN TẮC XỬ LÝ SỰ CỐ DỮ LIỆU CÁ NHÂN
 > Với dữ liệu khách cung cấp để oBacker làm dịch vụ, oBacker là Bên xử lý: khi phát hiện vi phạm, oBacker thông báo KỊP THỜI cho khách, tức Bên kiểm soát; luật không đặt số giờ hay số ngày cụ thể cho nghĩa vụ này của Bên xử lý `[Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15 Đ.23 k.1]`. Chính khách, với tư cách Bên kiểm soát, có nghĩa vụ thông báo cơ quan chuyên trách bảo vệ dữ liệu cá nhân chậm nhất 72 giờ kể từ khi phát hiện vi phạm, nếu vi phạm có thể gây tổn hại đến quốc phòng, an ninh quốc gia, trật tự, an toàn xã hội hoặc xâm phạm tính mạng, sức khỏe, danh dự, nhân phẩm, tài sản của chủ thể dữ liệu `[Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15 Đ.23 k.1]`. Với dữ liệu người lao động của chính oBacker, oBacker là Bên kiểm soát và xử lý, và nghĩa vụ thông báo cơ quan chuyên trách trong 72 giờ đó thuộc về oBacker. Luật không đặt nghĩa vụ thông báo trực tiếp cho chủ thể dữ liệu khi xảy ra vi phạm.
 >
-> Hệ quả: phụ lục này không kết luận số giờ nội bộ để oBacker thông báo khách, vì đó là mốc quản trị do oBacker tự đặt, không phải mốc luật định; và không kết luận nội dung cụ thể của thông báo gửi cơ quan chuyên trách, vì nội dung đó do Chính phủ quy định `[Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15 Đ.23 k.5]`, đã có tại Nghị định 356/2025/NĐ-CP trong kho. Phần đã chốt được và dùng ngay là phân vai trò: `AM` thông báo khách, Legal R&D chuẩn bị nội dung, `CEO` quyết.
+> Về thời hạn nội bộ thông báo cho khách hàng và nội dung cụ thể của thông báo gửi cơ quan chuyên trách thực hiện theo quy định tại Nghị định 356/2025/NĐ-CP và hướng dẫn quản trị nội bộ. Phân công vai trò xử lý: `AM` thông báo khách, Legal R&D chuẩn bị nội dung, `CEO` quyết.
 >
 > Liên quan: tư cách của oBacker là Bên xử lý hay Bên kiểm soát và xử lý với một loại dữ liệu cụ thể, xem [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen|OBK-QCTC-02]] mục 19.4 và [[PL_Ma_tran_phan_quyen|OBK-QCTC-02-PL-B]] mục 6.1.
 
-## 5. Bốn nhóm việc thuộc CEO ở mọi tình huống
+## 5. Thẩm quyền quyết định riêng của CEO
 
 Không cấp nào được quyết thay, kể cả khi `CEO` không có mặt:
 
@@ -193,14 +191,14 @@ Không cấp nào được quyết thay, kể cả khi `CEO` không có mặt:
 3. Chấm dứt hợp đồng dịch vụ trước hạn.
 4. Mọi việc thuộc hành vi oBacker nghiêm cấm nêu tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 9.
 
-## 6. Hai chỉ số theo dõi xem cơ chế này có đang hoạt động
+## 6. Chỉ số theo dõi hiệu quả cơ chế
 
 | Dấu hiệu cơ chế không còn hiệu lực | Cách đo |
 | --- | --- |
 | Số lần `AM` cam kết mốc mà trên Job không có dấu vết xác nhận của `TL` bộ phận | đếm trên hệ thống, đọc hằng tháng |
 | Số lần việc chuyển lên cấp trên mà cấp 1 và cấp 2 là cùng một người, không ghi lý do bỏ qua cấp | đếm trên hệ thống, đọc hằng tháng |
 
-Người đọc hai chỉ số này: `CEO` và `COO` cùng đọc. Quy tắc đọc hai nhóm chỉ số cùng lúc còn là giả thiết, hạn đánh giá sau 03 tháng vận hành.
+Người đọc hai chỉ số này: `CEO` và `COO` cùng đọc. Quy tắc theo dõi định kỳ được đánh giá và hoàn thiện sau 03 tháng vận hành.
 
 ---
 
@@ -208,4 +206,4 @@ Người đọc hai chỉ số này: `CEO` và `COO` cùng đọc. Quy tắc đ�
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.0.1 | Bỏ ghi chú log, viết lại đoạn kiêm nhiệm và số đếm liệt kê. |

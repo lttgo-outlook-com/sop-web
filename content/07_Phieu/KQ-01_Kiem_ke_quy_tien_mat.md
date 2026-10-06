@@ -4,19 +4,15 @@ code: "KQ-01"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-TTT-05 Cách làm phiếu thao tác"
-law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - KQ-01
 tags:
@@ -29,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | KQ-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -40,6 +36,7 @@ tags:
 | **Ai dùng** | Hội đồng kiểm kê gồm `TQ`, `KTV` và `KTT` (hoặc người được ủy quyền) |
 | **Sinh từ** | [[OBK-SOP-NB-03_Quan_ly_tien\|OBK-SOP-NB-03]] mục 5 Job `NB-17`;<br>[[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 34 |
 | **Ngày làm phiếu** | 27/09/2026 |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
@@ -108,14 +105,6 @@ Thời điểm kiểm kê: ..... giờ ..... ngày ..... / ..... / 2026
 
 Kiểm kê quỹ tiền mặt bảo đảm tính toàn vẹn của tài sản tiền mặt tại văn phòng, phát hiện ngay các sai lệch giữa thực tế và sổ sách kế toán, ngăn chặn hành vi sử dụng quỹ sai mục đích.
 
-### 2. Căn cứ quy định và pháp luật liên quan
-
-| Mục | Nguồn | Nội dung |
-| --- | --- | --- |
-| Chu kỳ kiểm kê | [[OBK-SOP-NB-03_Quan_ly_tien\|OBK-SOP-NB-03]] Job `NB-17` | Kiểm kê quỹ tiền mặt định kỳ cuối tháng hoặc đột xuất |
-| Trách nhiệm thủ quỹ | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 34 | `TQ` chịu trách nhiệm bảo quản an toàn quỹ tiền mặt, không để thâm hụt |
-| Chế độ kế toán | Thông tư 99/2025/TT-BTC | Nguyên tắc hạch toán Tài khoản 111, Tài khoản 1381, Tài khoản 3381 |
-| Nguyên tắc tài chính | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 2.5 | Nguyên tắc Nguồn dữ liệu tài chính duy nhất kết nối kế toán |
 
 ---
 
@@ -123,4 +112,4 @@ Kiểm kê quỹ tiền mặt bảo đảm tính toàn vẹn của tài sản ti
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu KQ-01 về Sổ cái OBK-MSR |

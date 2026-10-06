@@ -4,20 +4,16 @@ code: "OBK-SOP-PL-H"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Phụ lục"
-version: "R.1.0.0"
+version: "R.2.0.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 27/09/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-SOP-KT Kế toán và thuế"
 next_review: "Chậm nhất 28/02/2027"
 appendix: "Quy trình cung cấp chữ ký số và hóa đơn điện tử"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-SOP-PL-H
 tags:
@@ -33,7 +29,7 @@ tags:
 | Mã tài liệu | OBK-SOP-PL-H |
 | Tên phụ lục | Quy trình cung cấp chữ ký số và hóa đơn điện tử |
 | Cấp tài liệu | Phụ lục của hướng dẫn cấp 3 |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.2.0.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 27/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -52,23 +48,14 @@ Tài liệu này chuẩn hóa trình tự năm bước cung cấp chữ ký số
 
 ### 1.2. Phạm vi áp dụng
 - Áp dụng đối với bộ phận Quản lý khách hàng (`AM`), bộ phận Kế toán dịch vụ (`CV-KT`, `TL-KT`) và các vị trí điều phối dịch vụ có liên quan.
-- Áp dụng khi khách hàng đăng ký mới dịch vụ chữ ký số, gia hạn chữ ký số, mua gói hóa đơn điện tử hoặc sử dụng gói combo thành lập doanh nghiệp có bao gồm chữ ký số và hóa đơn điện tử theo danh mục [[06_Bang_gia_Chu_ky_so_va_hoa_don_dien_tu|OBK-DM-CKS]].
+- Áp dụng khi khách hàng đăng ký mới dịch vụ chữ ký số, gia hạn chữ ký số, mua gói hóa đơn điện tử hoặc sử dụng gói combo thành lập doanh nghiệp có bao gồm chữ ký số và hóa đơn điện tử theo danh mục OBK-DM-CKS.
 
 ---
 
-## 2. CĂN CỨ PHÁP LÝ
-
-| Số | Văn bản | Nội dung trích dẫn áp dụng | Trạng thái hiệu lực |
-| --- | --- | --- | --- |
-| 1 | Luật Quản lý thuế số 108/2025/QH15 | Điều 13 và Điều 26 về nguyên tắc lập, quản lý và sử dụng hóa đơn, chứng từ điện tử | Đang có hiệu lực |
-| 2 | Nghị định số 254/2026/NĐ-CP ngày 30/06/2026 | Điều 6 (phân loại hóa đơn), Điều 7 (đăng ký sử dụng), Điều 9 (thời điểm lập), Điều 10 (nội dung bắt buộc) | Đang có hiệu lực |
-| 3 | Thông tư số 91/2026/TT-BTC ngày 30/06/2026 | Điều 6, Điều 7 và Phụ lục III, Phụ lục IV về biểu mẫu đăng ký, thay đổi thông tin và thông báo của cơ quan thuế | Đang có hiệu lực |
-| 4 | Nghị định số 123/2020/NĐ-CP và Thông tư số 78/2021/TT-BTC | Quy định về hóa đơn, chứng từ điện tử áp dụng cho các kỳ chuyển tiếp | Tham chiếu đối chiếu |
-| 5 | Luật Giao dịch điện tử số 20/2023/QH15 và Nghị định số 130/2018/NĐ-CP | Quy định chi tiết về chữ ký số và dịch vụ chứng thực chữ ký số công cộng | Đang có hiệu lực |
 
 ---
 
-## 3. PHÂN CÔNG VAI TRÒ VÀ MA TRẬN TRÁCH NHIỆM
+## 2. PHÂN CÔNG VAI TRÒ VÀ MA TRẬN TRÁCH NHIỆM
 
 Ký hiệu vai trò tuân thủ theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 5.1:
 
@@ -84,7 +71,7 @@ Ký hiệu vai trò tuân thủ theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-
 
 ---
 
-## 4. QUY TRÌNH THỰC HIỆN NĂM BƯỚC CHI TIẾT
+## 3. QUY TRÌNH THỰC HIỆN CHI TIẾT
 
 ```
   [Bước 1] Tiếp nhận thông tin & Thẩm định tính hợp lệ hồ sơ
@@ -102,7 +89,7 @@ Ký hiệu vai trò tuân thủ theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-
   [Bước 5] Thiết lập ký hiệu, mẫu hóa đơn, dải số & Bàn giao tài khoản
 ```
 
-### 4.1. Bước 1: Tiếp nhận thông tin và kiểm tra hồ sơ pháp lý doanh nghiệp
+### 3.1. Bước 1: Tiếp nhận thông tin và kiểm tra hồ sơ pháp lý doanh nghiệp
 
 1. **Đầu vào thu thập từ khách hàng:**
    - Bản quét màu Giấy chứng nhận đăng ký doanh nghiệp (ERC) hoặc Giấy chứng nhận đăng ký đầu tư (IRC đối với doanh nghiệp có vốn đầu tư nước ngoài).
@@ -115,7 +102,7 @@ Ký hiệu vai trò tuân thủ theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-
    - Kiểm tra ngày hết hạn giấy tờ tùy thân của người đại diện theo pháp luật; ảnh chụp hoặc bản quét phải rõ ràng, không bị lóa sáng, không mất góc, không có dấu hiệu chỉnh sửa tẩy xóa.
    - Thời hạn hoàn thành kiểm tra: Chậm nhất 04 giờ làm việc kể từ thời điểm nhận đủ hồ sơ.
 
-### 4.2. Bước 2: Đăng ký cấp phát với Nhà mạng / Nhà cung cấp chứng thư số (CA)
+### 3.2. Bước 2: Đăng ký cấp phát với Nhà mạng / Nhà cung cấp chứng thư số (CA)
 
 1. **Lựa chọn loại hình chứng thư số theo nhu cầu vận hành:**
    - **USB Token (Thiết bị phần cứng chuyên dụng):** Thích hợp cho doanh nghiệp có kế toán viên làm việc cố định tại văn phòng, thực hiện ký nộp báo cáo thuế, hải quan, bảo hiểm xã hội qua cổng thông tin điện tử; thiết bị đạt tiêu chuẩn bảo mật phần cứng FIPS 140-2 Level 2 hoặc Level 3.
@@ -128,7 +115,7 @@ Ký hiệu vai trò tuân thủ theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-
    - Nhà cung cấp CA kiểm tra đối chiếu dữ liệu trên hệ thống dân cư quốc gia, khởi tạo cặp khóa bí mật (Private Key) và khóa công khai (Public Key), phát hành chứng thư số công cộng cho doanh nghiệp.
    - Thời hạn cấp phát: Từ 04 giờ làm việc đến tối đa 01 ngày làm việc kể từ khi nộp đủ hồ sơ hợp lệ cho nhà mạng.
 
-### 4.3. Bước 3: Bàn giao thiết bị, biên bản bàn giao, cài đặt driver và kiểm tra chữ ký số
+### 3.3. Bước 3: Bàn giao thiết bị, biên bản bàn giao, cài đặt driver và kiểm tra chữ ký số
 
 1. **Bàn giao thiết bị và thông tin truy cập:**
    - Đối với USB Token: `AM` thực hiện bàn giao trực tiếp hoặc chuyển phát nhanh có bảo đảm thiết bị USB Token nguyên niêm phong đến địa chỉ khách hàng chỉ định; cung cấp mật khẩu mặc định (mã PIN khởi tạo), mã mở khóa (PUK) và hợp đồng/chứng nhận bản quyền của nhà mạng.
@@ -148,7 +135,7 @@ Ký hiệu vai trò tuân thủ theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-
    - Thực hiện ký thử nghiệm trên một tệp tài liệu số định dạng PDF hoặc ký thử trên Cổng tiếp nhận dịch vụ công của Cơ quan Thuế.
    - Kiểm tra kết quả ký số: Thông tin người ký phải thể hiện chính xác Tên doanh nghiệp, Mã số thuế; thuật toán ký và chứng thực số dấu thời gian (Timestamp) hoạt động chính xác.
 
-### 4.4. Bước 4: Đăng ký sử dụng hóa đơn điện tử với Cơ quan Thuế (Tờ khai Mẫu 01/ĐKTĐ-HĐĐT)
+### 3.4. Bước 4: Đăng ký sử dụng hóa đơn điện tử với Cơ quan Thuế (Tờ khai Mẫu 01/ĐKTĐ-HĐĐT)
 
 1. **Lập Tờ khai đăng ký sử dụng hóa đơn điện tử:**
    - Căn cứ quy định tại Điều 7 Nghị định số 254/2026/NĐ-CP và Điều 6 Thông tư số 91/2026/TT-BTC, `CV-KT` truy cập vào hệ thống phần mềm hóa đơn điện tử của khách hàng để lập Tờ khai Mẫu số 01/ĐKTĐ-HĐĐT (Tờ khai đăng ký/thay đổi thông tin sử dụng hóa đơn điện tử).
@@ -167,7 +154,7 @@ Ký hiệu vai trò tuân thủ theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-
    - Trong thời hạn **01 ngày làm việc** kể từ ngày gửi thông báo tiếp nhận, Cơ quan Thuế ban hành Thông báo chấp nhận hoặc không chấp nhận đăng ký sử dụng hóa đơn điện tử (Mẫu số 01/TB-ĐKTĐ) gửi cho người nộp thuế qua thư điện tử.
    - **Xử lý tình huống Cơ quan Thuế không chấp nhận:** Trường hợp nhận được thông báo không chấp nhận hoặc yêu cầu giải trình bổ sung thông tin (Mẫu số 01/TB-BSTT-NNT), `CV-KT` phải báo ngay cho `TL-KT` trong vòng 02 giờ làm việc, xác định nguyên nhân (sai lệch thông tin địa chỉ trụ sở, người đại diện chưa cập nhật trên hệ thống quản lý thuế, hoặc lỗi sê-ri chứng thư số), liên hệ phối hợp cơ quan thuế quản lý trực tiếp và nộp lại tờ khai hoàn chỉnh trong vòng 01 ngày làm việc.
 
-### 4.5. Bước 5: Thiết lập mẫu hóa đơn và bàn giao tài khoản
+### 3.5. Bước 5: Thiết lập mẫu hóa đơn và bàn giao tài khoản
 
 1. **Thiết lập thông tin và cấu hình mẫu hóa đơn:**
    - Sau khi có Thông báo chấp nhận Mẫu 01/TB-ĐKTĐ của Cơ quan Thuế, `CV-KT` tiến hành cấu hình hệ thống hóa đơn điện tử:
@@ -186,7 +173,7 @@ Ký hiệu vai trò tuân thủ theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-
    - Hướng dẫn vận hành bằng văn bản hoặc hướng dẫn trực tuyến cho khách hàng: Quy trình lập và xuất hóa đơn đầu ra; quy trình gửi hóa đơn cho khách hàng qua thư điện tử; quy định pháp lý về thời điểm lập hóa đơn theo Điều 9 Nghị định 254/2026/NĐ-CP; nguyên tắc xử lý hóa đơn sai sót theo cơ chế điều chỉnh hoặc thay thế (tuyệt đối không được tự ý xóa bỏ hóa đơn đã cấp mã).
    - Lưu trữ toàn bộ hồ sơ đăng ký, thông báo Mẫu 01/TB-ĐKTĐ, hợp đồng dịch vụ và các biên bản bàn giao tại thư mục điện tử của khách hàng trên Hệ thống quản lý công việc và lưu trữ hồ sơ.
 
-### 4.6. Cơ chế đại lý phân phối CyberX và quản lý tồn kho thiết bị USB Token trắng
+### 3.6. Cơ chế đại lý phân phối CyberX và quản lý tồn kho thiết bị USB Token trắng
 
 1. **Tư cách pháp lý đại lý và luồng hóa đơn thanh toán:**
    - oBacker hoạt động với tư cách là đại lý phân phối (`Reseller`) đối với các sản phẩm chữ ký số và giải pháp phần mềm của nhà cung cấp CyberX.
@@ -197,7 +184,7 @@ Ký hiệu vai trò tuân thủ theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-
    - **Mua sắm đón đầu:** Để giảm thiểu thời gian chờ đợi nhận thiết bị phần cứng khi khách hàng phát sinh nhu cầu, oBacker mua trước một số lượng thiết bị USB Token trắng (chưa gắn chứng thư số) nhập về lưu kho tại văn phòng để sử dụng dần.
    - **Định mức nhập kho:** Mỗi lần mua hàng, `KTV` lập đề xuất mua sắm đúng **10 thiết bị** USB Token trắng từ nhà cung cấp CyberX.
    - **Điểm đặt hàng lại (`Reorder Point`):** Khi số lượng thiết bị Token trắng tồn kho thực tế giảm xuống chạm mức **05 thiết bị**, `KTV` có trách nhiệm lập ngay đề xuất mua sắm lô tiếp theo (10 thiết bị) để gối đầu kho, không để tồn kho cạn kiệt.
-   - **Bảo quản và kiểm kê:** Toàn bộ thiết bị Token trắng được lưu trữ tại tủ bảo mật của bộ phận Kế toán do `AD-KT` quản lý; thực hiện kiểm kê đối chiếu định kỳ vào ngày 25 hằng tháng khớp với Sổ theo dõi kho Token [[CK-02_Theo_doi_kho_token_va_kich_hoat_cyberx|CK-02]].
+   - **Bảo quản và kiểm kê:** Toàn bộ thiết bị Token trắng được lưu trữ tại tủ bảo mật của bộ phận Kế toán do `AD-KT` quản lý; thực hiện kiểm kê đối chiếu định kỳ vào ngày 25 hằng tháng khớp với Sổ theo dõi kho Token CK-02.
 
 3. **Quy trình xuất kho và kích hoạt chứng thư số cho khách hàng:**
    - Khi phát sinh đơn hàng từ khách hàng, `KTV` xuất 01 thiết bị Token trắng từ kho theo số Serial phần cứng, ghi giảm số lượng trên sổ theo dõi kho.
@@ -205,9 +192,13 @@ Ký hiệu vai trò tuân thủ theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-
    - Thực hiện quy trình nạp chứng thư số của khách hàng vào thiết bị Token trắng đã xuất kho.
    - Kiểm tra tính hợp lệ của chứng thư số sau khi nạp và thực hiện bàn giao cho khách hàng theo Phiếu [[CK-01_Ban_giao_chu_ky_so_va_hoa_don|CK-01]].
 
+4. **Quy ước custodial token chữ ký số của khách hàng:**
+   - Token chữ ký số chuyên dụng của khách hàng do bộ phận Kế toán giữ tập trung tại tủ bảo mật của bộ phận, do `AD-KT` quản lý; bộ phận nào cần nộp tờ khai, báo cáo điện tử, kể cả nộp bảo hiểm xã hội, thì xin token, ký nhận và ký trả trên phiếu CK-02, dùng xong trả lại ngay.
+   - Không lưu giữ USB Token tại văn phòng oBacker quá 24 giờ làm việc, theo [[00_TnC_Master_VI|Bản Điều Khoản Chung]] mục 20.2 nguyên tắc (1). Quy ước này là quy ước duy nhất về lưu giữ token của khách hàng trong toàn kho; quy ước này ghi nhận tại [[03_OBK-SOP-KT_Ke_toan_va_thue|OBK-SOP-KT]] mục 3.3 và [[05_OBK-SOP-LD_Lao_dong_va_tien_luong|OBK-SOP-LD]] mục 1.3.
+
 ---
 
-## 5. ĐIỂM KIỂM SOÁT BẮT BUỘC VÀ QUẢN TRỊ RỦI RO
+## 4. ĐIỂM KIỂM SOÁT BẮT BUỘC VÀ QUẢN TRỊ RỦI RO
 
 | Mã kiểm soát | Điểm kiểm soát | Trách nhiệm | Xử lý khi có vi phạm |
 | --- | --- | --- | --- |
@@ -219,7 +210,7 @@ Ký hiệu vai trò tuân thủ theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-
 
 ---
 
-## 6. DANH MỤC BIỂU MẪU KÈM THEO
+## 5. DANH MỤC BIỂU MẪU KÈM THEO
 
 1. **Biểu mẫu BM-CA-01:** Biên bản bàn giao thiết bị chứng thư số và tài khoản quản trị.
 2. **Biểu mẫu BM-HD-01:** Biên bản bàn giao hệ thống hóa đơn điện tử và hướng dẫn vận hành.
@@ -232,4 +223,4 @@ Ký hiệu vai trò tuân thủ theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 02/10/2026 | R.2.0.0 | Thêm mục 4.6.4 quy ước custodial token chữ ký số của khách hàng: bộ phận Kế toán giữ tập trung tại tủ bảo mật, bộ phận nào cần nộp thì xin token và ký trả trên phiếu CK-02, không lưu giữ quá 24 giờ làm việc theo mục 20.2 nguyên tắc (1) của Bản Điều Khoản Chung. |

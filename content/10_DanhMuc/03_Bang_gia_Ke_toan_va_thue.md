@@ -9,12 +9,8 @@ status: "đang áp dụng"
 draft_date: "15/09/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-DM-00 Danh mục dịch vụ và bảng giá"
-previous_version: ""
-law_as_of: ""
 next_review: ""
 distribution: "nội bộ"
 aliases:
@@ -38,7 +34,7 @@ tags:
 | Người soát | đã soát |
 | Người phê duyệt | đã phê duyệt |
 | Văn bản cấp trên | [[00_Danh_muc_dich_vu_va_bang_gia\|OBK-DM-00]] Danh mục dịch vụ và bảng giá |
-| Số mã dịch vụ | 44 |
+| Số mã dịch vụ | 50 |
 | Nguồn dữ liệu | `_du_lieu_danh_muc/danh_muc.tsv`, kết xuất ngày 15/09/2026 |
 | Nguồn dữ liệu | Bản kết xuất danh mục sản phẩm |
 
@@ -73,14 +69,20 @@ Giá ghi bằng đồng Việt Nam, tính cho một đơn vị tính. Mã trong 
 | Mã | Tên dịch vụ | Đơn vị tính | Giá chưa thuế GTGT | Giá đã có thuế GTGT | Thuế suất GTGT | Thu theo kỳ | Nguồn cung cấp | Bên xuất hóa đơn |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | `ADD-BANK-ACC` | Phụ Phí Quản Lý Tài Khoản Ngân Hàng Ngoài Định Mức | tài khoản | 100.000 | tính khi xuất hóa đơn | 10% | có | oBacker tự thực hiện | oBacker |
+| `ADD-BANK-ACC-2026` | Phụ Phí Quản Lý Tài Khoản Ngân Hàng Ngoài Định Mức | tài khoản | 200.000 | tính khi xuất hóa đơn | 10% | có | oBacker tự thực hiện | oBacker |
 | `ADD-FCT-RETURN` | Phí Kê Khai Thuế Nhà Thầu Nước Ngoài (FCT) Phát Sinh Thêm | tờ khai | 500.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `ADD-FCT-RETURN-2026` | Phí Kê Khai Thuế Nhà Thầu Nước Ngoài (FCT) Phát Sinh Thêm | tờ khai | 1.000.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
 | `ADD-PAYROLL-EMP` | Phụ Phí Tính Lương & Quản Lý BHXH Nhân Sự Ngoài Định Mức | người lao động | 100.000 | tính khi xuất hóa đơn | 10% | có | oBacker tự thực hiện | oBacker |
 | `ADD-PAYROLL-RUN` | Phụ Phí Kỳ Chạy Lương Bổ Sung Trong Tháng | kỳ | 500.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
 | `ADD-RETAIL-UNIT` | Phụ Phí Nhập Liệu Đơn Bán Lẻ POS / TMĐT Không Bảng Kê Gom | đơn hàng | 5.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
 | `ADD-TAX-INSPECT` | Dịch Vụ Cử Nhân Sự Tham Gia Thanh Tra Thuế Trực Tiếp Tại Trụ Sở | kỳ | 15.000.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `ADD-TAX-INSPECT-2026` | Dịch Vụ Cử Nhân Sự Tham Gia Thanh Tra Thuế Tại Trụ Sở (Theo Ngày) | ngày | 2.500.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
 | `ADD-TXN-BLOCK-1000` | Phụ Phí Mở Rộng Định Mức: Block +1.000 Giao Dịch / Tháng | tháng | 2.500.000 | tính khi xuất hóa đơn | 10% | có | oBacker tự thực hiện | oBacker |
+| `ADD-TXN-BLOCK-1000-2026` | Phụ Phí Mở Rộng Định Mức: Block +1.000 Giao Dịch / Tháng | tháng | 5.000.000 | tính khi xuất hóa đơn | 10% | có | oBacker tự thực hiện | oBacker |
 | `ADD-TXN-BLOCK-1500` | Phụ Phí Mở Rộng Định Mức: Block +1.500 Giao Dịch / Tháng | tháng | 3.500.000 | tính khi xuất hóa đơn | 10% | có | oBacker tự thực hiện | oBacker |
+| `ADD-TXN-BLOCK-1500-2026` | Phụ Phí Mở Rộng Định Mức: Block +1.500 Giao Dịch / Tháng | tháng | 7.500.000 | tính khi xuất hóa đơn | 10% | có | oBacker tự thực hiện | oBacker |
 | `ADD-TXN-BLOCK-500` | Phụ Phí Mở Rộng Định Mức: Block +500 Giao Dịch / Tháng | tháng | 1.500.000 | tính khi xuất hóa đơn | 10% | có | oBacker tự thực hiện | oBacker |
+| `ADD-TXN-BLOCK-500-2026` | Phụ Phí Mở Rộng Định Mức: Block +500 Giao Dịch / Tháng | tháng | 2.500.000 | tính khi xuất hóa đơn | 10% | có | oBacker tự thực hiện | oBacker |
 | `ADD-TXN-PRIME-OVER` | Phụ Phí Hóa Đơn Vượt Trần Gói Prime (Trên 7.000 Giao Dịch) | hóa đơn | 12.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
 | `ADD-VOUCHER-RAW` | Phụ Phí Nhập Liệu Chứng Từ Giấy Scan / Thủ Công Vượt Định Mức | chứng từ | 10.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
 | `OB-BANK-TRX` | Dịch vụ hỗ trợ - Giao dịch ngân hàng | tháng | 1.000.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
@@ -135,7 +137,17 @@ Phạm vi, thời gian và điều kiện áp dụng chép từ hệ thống dan
 | Thời gian thực hiện | Tính tròn theo tháng phát sinh tài khoản mở thêm. |
 | Kỳ thu tiền | thu trước |
 | Gói chứa hạng mục này | OBG-PTR-CORE, OBG-PTR-GROWTH, OBG-PTR-PRIME |
-| Ghi chú | Master SKU Catalog 2026 |
+| Ghi chú | Master SKU Catalog 2026. Thay thế bởi ADD-BANK-ACC-2026 kể từ 05/10/2026 |
+
+### ADD-BANK-ACC-2026. Phụ Phí Quản Lý Tài Khoản Ngân Hàng Ngoài Định Mức
+
+| Hạng mục | Nội dung |
+| --- | --- |
+| Phạm vi công việc | Tiếp nhận sao kê điện tử, hạch toán dòng tiền thu - chi, phân loại chi phí và đối chiếu số dư sổ cái với sổ phụ ngân hàng cho mỗi tài khoản mở thêm ngoài định mức của gói. |
+| Thời gian thực hiện | Tính tròn theo tháng phát sinh tài khoản mở thêm. |
+| Kỳ thu tiền | thu trước |
+| Gói chứa hạng mục này | OBG-PTR-CORE, OBG-PTR-GROWTH, OBG-PTR-PRIME |
+| Ghi chú | Thay thế ADD-BANK-ACC kể từ 05/10/2026. Master SKU Catalog 2026 |
 
 ### ADD-FCT-RETURN. Phí Kê Khai Thuế Nhà Thầu Nước Ngoài (FCT) Phát Sinh Thêm
 
@@ -145,7 +157,17 @@ Phạm vi, thời gian và điều kiện áp dụng chép từ hệ thống dan
 | Thời gian thực hiện | 02 ngày làm việc kể từ khi nhận chứng từ chuyển tiền quốc tế. |
 | Kỳ thu tiền | thu trước |
 | Gói chứa hạng mục này | OBG-PTR-CORE, OBG-PTR-GROWTH, OBG-PTR-PRIME |
-| Ghi chú | Master SKU Catalog 2026 |
+| Ghi chú | Master SKU Catalog 2026. Thay thế bởi ADD-FCT-RETURN-2026 kể từ 05/10/2026 |
+
+### ADD-FCT-RETURN-2026. Phí Kê Khai Thuế Nhà Thầu Nước Ngoài (FCT) Phát Sinh Thêm
+
+| Hạng mục | Nội dung |
+| --- | --- |
+| Phạm vi công việc | Lập tờ khai thuế nhà thầu phát sinh theo từng lần thanh toán hoặc theo tháng đối với các hợp đồng dịch vụ xuyên biên giới ngoài định mức của gói. |
+| Thời gian thực hiện | 02 ngày làm việc kể từ khi nhận chứng từ chuyển tiền quốc tế. |
+| Kỳ thu tiền | thu trước |
+| Gói chứa hạng mục này | OBG-PTR-CORE, OBG-PTR-GROWTH, OBG-PTR-PRIME |
+| Ghi chú | Thay thế ADD-FCT-RETURN kể từ 05/10/2026. Master SKU Catalog 2026 |
 
 ### ADD-PAYROLL-EMP. Phụ Phí Tính Lương & Quản Lý BHXH Nhân Sự Ngoài Định Mức
 
@@ -185,7 +207,17 @@ Phạm vi, thời gian và điều kiện áp dụng chép từ hệ thống dan
 | Thời gian thực hiện | Theo toàn bộ thời gian làm việc thực tế của đoàn kiểm tra thuế tại trụ sở (thông thường 03 - 07 ngày làm việc). |
 | Kỳ thu tiền | thu trước |
 | Gói chứa hạng mục này | OBG-PTR-CORE, OBG-PTR-GROWTH, OBG-PTR-PRIME |
-| Ghi chú | Master SKU Catalog 2026 |
+| Ghi chú | Master SKU Catalog 2026. Thay thế bởi ADD-TAX-INSPECT-2026 kể từ 05/10/2026 |
+
+### ADD-TAX-INSPECT-2026. Dịch Vụ Cử Nhân Sự Tham Gia Thanh Tra Thuế Tại Trụ Sở (Theo Ngày)
+
+| Hạng mục | Nội dung |
+| --- | --- |
+| Phạm vi công việc | Cử chuyên viên kế toán cấp cao hoặc kế toán trưởng trực tiếp có mặt tại trụ sở khách hàng trong suốt thời gian đoàn thanh tra, kiểm tra thuế làm việc tại bàn. In ấn, đóng tập sổ sách, giải trình trực tiếp các nghiệp vụ hạch toán, cung cấp hóa đơn chứng từ và bảo vệ chi phí hợp lý của doanh nghiệp. Khách hàng thông báo và thanh toán trước theo ước lượng tối thiểu 03 ngày; đối soát theo số ngày làm việc thực tế. |
+| Thời gian thực hiện | Theo toàn bộ thời gian làm việc thực tế của đoàn kiểm tra thuế tại trụ sở (thông thường 03 đến 07 ngày làm việc). |
+| Kỳ thu tiền | thu trước |
+| Gói chứa hạng mục này | OBG-PTR-CORE, OBG-PTR-GROWTH, OBG-PTR-PRIME |
+| Ghi chú | Thay thế ADD-TAX-INSPECT kể từ 05/10/2026. Master SKU Catalog 2026 |
 
 ### ADD-TXN-BLOCK-1000. Phụ Phí Mở Rộng Định Mức: Block +1.000 Giao Dịch / Tháng
 
@@ -196,7 +228,17 @@ Phạm vi, thời gian và điều kiện áp dụng chép từ hệ thống dan
 | Hạn dùng | 1 tháng |
 | Kỳ thu tiền | thu trước |
 | Gói chứa hạng mục này | OBG-PTR-CORE, OBG-PTR-GROWTH, OBG-PTR-PRIME |
-| Ghi chú | Master SKU Catalog 2026 |
+| Ghi chú | Master SKU Catalog 2026. Thay thế bởi ADD-TXN-BLOCK-1000-2026 kể từ 05/10/2026 |
+
+### ADD-TXN-BLOCK-1000-2026. Phụ Phí Mở Rộng Định Mức: Block +1.000 Giao Dịch / Tháng
+
+| Hạng mục | Nội dung |
+| --- | --- |
+| Phạm vi công việc | Bổ sung hạn mức xử lý thêm 1.000 chứng từ/giao dịch kế toán trong một tháng dương lịch. Toàn bộ 1.000 chứng từ phát sinh thêm được kiểm tra tính hợp pháp, hạch toán định khoản và tổng hợp lên báo cáo thuế. |
+| Thời gian thực hiện | Đối soát và tính trong kỳ kế toán của tháng phát sinh. |
+| Kỳ thu tiền | thu trước |
+| Gói chứa hạng mục này | OBG-PTR-CORE, OBG-PTR-GROWTH, OBG-PTR-PRIME |
+| Ghi chú | Thay thế ADD-TXN-BLOCK-1000 kể từ 05/10/2026. Master SKU Catalog 2026 |
 
 ### ADD-TXN-BLOCK-1500. Phụ Phí Mở Rộng Định Mức: Block +1.500 Giao Dịch / Tháng
 
@@ -207,7 +249,17 @@ Phạm vi, thời gian và điều kiện áp dụng chép từ hệ thống dan
 | Hạn dùng | 1 tháng |
 | Kỳ thu tiền | thu trước |
 | Gói chứa hạng mục này | OBG-PTR-CORE, OBG-PTR-GROWTH, OBG-PTR-PRIME |
-| Ghi chú | Master SKU Catalog 2026 |
+| Ghi chú | Master SKU Catalog 2026. Thay thế bởi ADD-TXN-BLOCK-1500-2026 kể từ 05/10/2026 |
+
+### ADD-TXN-BLOCK-1500-2026. Phụ Phí Mở Rộng Định Mức: Block +1.500 Giao Dịch / Tháng
+
+| Hạng mục | Nội dung |
+| --- | --- |
+| Phạm vi công việc | Bổ sung hạn mức xử lý thêm 1.500 chứng từ/giao dịch kế toán trong một tháng dương lịch. Toàn bộ chứng từ phát sinh được kiểm tra hợp lệ, hạch toán chi tiết và tổng hợp số liệu vào sổ cái. |
+| Thời gian thực hiện | Đối soát và tính trong kỳ kế toán của tháng phát sinh. |
+| Kỳ thu tiền | thu trước |
+| Gói chứa hạng mục này | OBG-PTR-CORE, OBG-PTR-GROWTH, OBG-PTR-PRIME |
+| Ghi chú | Thay thế ADD-TXN-BLOCK-1500 kể từ 05/10/2026. Master SKU Catalog 2026 |
 
 ### ADD-TXN-BLOCK-500. Phụ Phí Mở Rộng Định Mức: Block +500 Giao Dịch / Tháng
 
@@ -218,7 +270,17 @@ Phạm vi, thời gian và điều kiện áp dụng chép từ hệ thống dan
 | Hạn dùng | 1 tháng |
 | Kỳ thu tiền | thu trước |
 | Gói chứa hạng mục này | OBG-PTR-CORE, OBG-PTR-GROWTH, OBG-PTR-PRIME |
-| Ghi chú | Master SKU Catalog 2026 |
+| Ghi chú | Master SKU Catalog 2026. Thay thế bởi ADD-TXN-BLOCK-500-2026 kể từ 05/10/2026 |
+
+### ADD-TXN-BLOCK-500-2026. Phụ Phí Mở Rộng Định Mức: Block +500 Giao Dịch / Tháng
+
+| Hạng mục | Nội dung |
+| --- | --- |
+| Phạm vi công việc | Bổ sung hạn mức xử lý thêm 500 chứng từ/giao dịch kế toán trong một tháng dương lịch cho khách hàng đang sử dụng gói định kỳ. Toàn bộ 500 chứng từ phát sinh được kiểm tra, hạch toán vào phần mềm kế toán và lưu trữ số hóa đầy đủ. |
+| Thời gian thực hiện | Đối soát và tính trong kỳ kế toán của tháng phát sinh. |
+| Kỳ thu tiền | thu trước |
+| Gói chứa hạng mục này | OBG-PTR-CORE, OBG-PTR-GROWTH, OBG-PTR-PRIME |
+| Ghi chú | Thay thế ADD-TXN-BLOCK-500 kể từ 05/10/2026. Master SKU Catalog 2026 |
 
 ### ADD-TXN-PRIME-OVER. Phụ Phí Hóa Đơn Vượt Trần Gói Prime (Trên 7.000 Giao Dịch)
 

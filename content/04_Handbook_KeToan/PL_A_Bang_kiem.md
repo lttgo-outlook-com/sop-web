@@ -7,16 +7,13 @@ level: "Phụ lục"
 version: "R.1.0.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 25/08/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
 parent: "OBK-SOP-KT Kế toán và thuế"
 next_review: "Chậm nhất 28/02/2027"
 appendix: "Bộ bảng kiểm in ra dùng được"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-SOP-PL-A
 tags:
@@ -89,8 +86,8 @@ Quy tắc **MỘT LỚP SOÁT**: TL-KT vừa soát vừa chốt. CEO đã quyế
 | A10 | Quyết toán TNCN | Chương 11, 14, 18 | Hằng năm |
 | A11 | Phát hành báo cáo tài chính | Chương 06, 07, 18 | Hằng năm |
 | A12 | Bàn giao khách hàng | Chương 20 | Khi phát sinh |
-| A13 | Kiểm tra tiêu chuẩn kế toán trưởng của khách | Chương 03 mục 6.13, Chương 07 mục 6.2 | Mỗi khách mới, và mỗi khi khách đổi người giữ vị trí này |
-| A14 | Kiểm tên dịch vụ trong hợp đồng | Chương 02, Chương 03 mục 6.12.1 | Trước khi ký hợp đồng, bản chào, và mỗi lần sửa phụ lục |
+| A13 | Kiểm tra tiêu chuẩn kế toán trưởng của khách | Chương 03 mục 5.13, Chương 07 mục 5.2 | Mỗi khách mới, và mỗi khi khách đổi người giữ vị trí này |
+| A14 | Kiểm tên dịch vụ trong hợp đồng | Chương 02, Chương 03 mục 5.12.1 | Trước khi ký hợp đồng, bản chào, và mỗi lần sửa phụ lục |
 
 ---
 
@@ -148,7 +145,7 @@ Quy tắc **MỘT LỚP SOÁT**: TL-KT vừa soát vừa chốt. CEO đã quyế
 **Phần 4. Thiết lập nghiệp vụ**
 
 - [ ] 4.1. Chạy sơ đồ quyết định chọn chế độ kế toán theo Chương 08; CV-KT đề xuất, lập Phiếu xác định chế độ kế toán, TL-KT soát rồi quyết định và ký; AM thông báo kết quả cho khách
-- [ ] 4.2. Xác định phương pháp tính thuế GTGT áp dụng theo Chương 09 mục 6.1
+- [ ] 4.2. Xác định phương pháp tính thuế GTGT áp dụng theo Chương 09 mục 5.1
 - [ ] 4.3. Xác định thuế suất TNDN áp dụng, có kiểm tra điều kiện loại trừ về quan hệ liên kết
 - [ ] 4.4. Khai báo khách hàng mới trên `[PHẦN MỀM KẾ TOÁN]`; xem Phụ lục D
 - [ ] 4.5. Thiết lập hệ thống tài khoản phù hợp chế độ kế toán đã chọn
@@ -157,7 +154,7 @@ Quy tắc **MỘT LỚP SOÁT**: TL-KT vừa soát vừa chốt. CEO đã quyế
 - [ ] 4.8. Nhập số dư đầu kỳ; đối chiếu cân bằng
 - [ ] 4.9. Lập Bảng theo dõi nghĩa vụ tuân thủ đầy đủ các sắc thuế
 - [ ] 4.9a. XÁC ĐỊNH khách có thuộc diện BỐN MỐC ĐẤT hay không, ghi kết luận có hoặc không cho từng diện vào Bảng theo dõi nghĩa vụ và vào Phiếu cấu hình khách, không để trống: khách thuê đất của Nhà nước trả tiền thuê HẰNG NĂM; khách có đất chịu thuế sử dụng đất PHI NÔNG NGHIỆP; khách có đất chịu thuế sử dụng đất NÔNG NGHIỆP. Khách thuộc diện thì nạp thẳng mốc 31/05 và 31/10 vào lịch riêng của khách; các mốc này không có tờ khai nào tới hạn cùng ngày để nhắc. Kết luận được rà lại trong việc đầu năm cho toàn bộ danh mục khách theo Phụ lục C Phần D `[NĐ 252/2026 Đ.21 k.1 đ.a, k.2 đ.b, k.3 đ.a.2]`
-- [ ] 4.9b. BÁO CÁO ĐẦU TƯ: XÁC ĐỊNH khách có thuộc diện báo cáo đầu tư hay không, tức khách là tổ chức kinh tế có nhà đầu tư nước ngoài, hoặc có dự án đầu tư được cấp Giấy chứng nhận đăng ký đầu tư; và ghi rõ oBacker có hay không nhận làm nghĩa vụ đó. Ghi cả hai kết luận vào Phiếu cấu hình khách, không để trống. Nghĩa vụ này gắn với DỰ ÁN, không gắn với việc khách có phát sinh doanh thu hay không; khách đang tạm ngừng, khách chưa triển khai dự án vẫn thuộc diện. Thông tư 44/2026/TT-BTC quy định mẫu báo cáo (Mẫu 13, 15, 16, 17 cho nhà đầu tư; Mẫu 14 cho cơ quan đăng ký đầu tư) có trong kho, nhưng kỳ báo cáo cụ thể cho từng loại khách chưa đối chiếu xong với Nghị định 19/2026/NĐ-CP đã sửa đổi bởi Nghị định 96/2026/NĐ-CP: Không được tư vấn, không cam kết mốc, không cam kết mẫu biểu cụ thể, không nêu mức phạt. Xem Phụ lục C Phần I và [[PL_B_Bieu_mau|OBK-SOP-PL-B]] mục "Báo cáo đầu tư của khách có vốn đầu tư nước ngoài"
+- [ ] 4.9b. BÁO CÁO ĐẦU TƯ: XÁC ĐỊNH khách có thuộc diện báo cáo đầu tư hay không, tức khách là tổ chức kinh tế có nhà đầu tư nước ngoài, hoặc có dự án đầu tư được cấp Giấy chứng nhận đăng ký đầu tư; và ghi rõ oBacker có hay không nhận làm nghĩa vụ đó. Ghi cả hai kết luận vào Phiếu cấu hình khách, không để trống. Nghĩa vụ này gắn với DỰ ÁN, không gắn với việc khách có phát sinh doanh thu hay không; khách đang tạm ngừng, khách chưa triển khai dự án vẫn thuộc diện. Thông tư 44/2026/TT-BTC quy định mẫu báo cáo (Mẫu 13, 15, 16, 17 cho nhà đầu tư; Mẫu 14 cho cơ quan đăng ký đầu tư) có trong kho, nhưng kỳ báo cáo cụ thể cho từng loại khách chưa đối chiếu xong với Nghị định 19/2026/NĐ-CP đã sửa đổi bởi Nghị định 96/2026/NĐ-CP: Không được tư vấn, không cam kết mốc, không cam kết mẫu biểu cụ thể, không nêu mức phạt. Xem Phụ lục C Phần I và OBK-SOP-PL-B mục "Báo cáo đầu tư của khách có vốn đầu tư nước ngoài"
 - [ ] 4.10. Tạo cấu trúc thư mục chuẩn 16 mục trên `[KHO LƯU TRỮ HỒ SƠ]` theo Chương 20 mục 6.2.2
 - [ ] 4.11. Tạo dự án khách hàng trên `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]`
 
@@ -265,7 +262,7 @@ Quy tắc **MỘT LỚP SOÁT**: TL-KT vừa soát vừa chốt. CEO đã quyế
 
 ## A3. BẢNG KIỂM HÓA ĐƠN ĐẦU VÀO TRƯỚC KHI KÊ KHAI
 
-**Chương gốc:** Chương 09 mục 6.6 (điều kiện khấu trừ), Chương 12 (hóa đơn điện tử).
+**Chương gốc:** Chương 09 mục 5.6 (điều kiện khấu trừ), Chương 12 (hóa đơn điện tử).
 
 | Trường | Nội dung |
 | --- | --- |
@@ -291,7 +288,7 @@ Quy tắc **MỘT LỚP SOÁT**: TL-KT vừa soát vừa chốt. CEO đã quyế
 - [ ] 2.3. Thời điểm lập hóa đơn phù hợp với loại giao dịch theo bảng tra Chương 12 mục C.1
 - [ ] 2.4. Ký hiệu, số hóa đơn hợp lệ, không trùng
 - [ ] 2.5. Thuế suất ghi trên hóa đơn phù hợp với hàng hóa, dịch vụ
-- [ ] 2.6. Nếu hóa đơn áp dụng chính sách giảm thuế, cách ghi đúng theo Chương 09 mục 6.4.3
+- [ ] 2.6. Nếu hóa đơn áp dụng chính sách giảm thuế, cách ghi đúng theo Chương 09 mục 5.4.3
 
 **Phần 3. Kiểm tra người bán**
 
@@ -335,7 +332,7 @@ Quy tắc **MỘT LỚP SOÁT**: TL-KT vừa soát vừa chốt. CEO đã quyế
 
 ## A4. BẢNG KIỂM KHÓA SỔ THÁNG
 
-**Chương gốc:** Chương 06 mục 6.3.
+**Chương gốc:** Chương 06 mục 5.3.
 
 | Trường | Nội dung |
 | --- | --- |
@@ -356,7 +353,7 @@ Quy tắc **MỘT LỚP SOÁT**: TL-KT vừa soát vừa chốt. CEO đã quyế
 - [ ] 2.1. Số dư tiền gửi từng tài khoản khớp sao kê ngân hàng
 - [ ] 2.2. Các khoản đang chuyển tiền được theo dõi và giải thích được
 - [ ] 2.3. Số dư tiền mặt khớp biên bản kiểm kê quỹ
-- [ ] 2.4. Chênh lệch nếu có đã được truy soát và xử lý theo Chương 06 mục 6.4
+- [ ] 2.4. Chênh lệch nếu có đã được truy soát và xử lý theo Chương 06 mục 5.4
 
 **Phần 3. Đối chiếu công nợ**
 
@@ -418,7 +415,7 @@ Quy tắc **MỘT LỚP SOÁT**: TL-KT vừa soát vừa chốt. CEO đã quyế
 
 ## A5. BẢNG KIỂM KHÓA SỔ NĂM
 
-**Chương gốc:** Chương 06 mục 6.6.
+**Chương gốc:** Chương 06 mục 5.6.
 
 | Trường | Nội dung |
 | --- | --- |
@@ -475,9 +472,9 @@ Quy tắc **MỘT LỚP SOÁT**: TL-KT vừa soát vừa chốt. CEO đã quyế
 
 **Phần 7. Trường hợp chuyển đổi chế độ kế toán**
 
-- [ ] 7.1. Nếu năm nay là năm đầu áp dụng chế độ kế toán mới, chạy quy trình chuyển số dư theo Chương 06 mục 6.5
+- [ ] 7.1. Nếu năm nay là năm đầu áp dụng chế độ kế toán mới, chạy quy trình chuyển số dư theo Chương 06 mục 5.5
 - [ ] 7.2. Lập Biên bản chuyển đổi số dư theo khung tại Chương 06
-- [ ] 7.3. Chuẩn bị nội dung thuyết minh bắt buộc trong năm đầu áp dụng theo Chương 07 mục 6.3.5
+- [ ] 7.3. Chuẩn bị nội dung thuyết minh bắt buộc trong năm đầu áp dụng theo Chương 07 mục 5.3.5
 - [ ] 7.4. Trình bày lại số liệu so sánh nếu có thay đổi chính sách kế toán
 
 **Phần 8. Hoàn tất**
@@ -530,7 +527,7 @@ Quy tắc **MỘT LỚP SOÁT**: TL-KT vừa soát vừa chốt. CEO đã quyế
 - [ ] 2. Đúng KÝ HIỆU MẪU theo bảng trên, ghi ký hiệu mẫu đã dùng vào phần đầu bảng kiểm: **01/GTGT** cho hoạt động sản xuất kinh doanh theo phương pháp khấu trừ, **05/GTGT** cho xây dựng và chuyển nhượng bất động sản ngoại tỉnh `[TT 89/2026 Phụ lục I]`; đúng phiên bản mẫu đang có hiệu lực tại thời điểm nộp; đã tra Phụ lục E, không dùng mẫu lưu sẵn chưa kiểm
 - [ ] 3. Doanh thu chịu thuế khớp giữa sổ, bảng kê hóa đơn đầu ra và tờ khai
 - [ ] 4. Toàn bộ hóa đơn đầu ra trong kỳ đã kê, không sót, không trùng; đã đối chiếu với dữ liệu `[PHẦN MỀM HĐĐT]`
-- [ ] 5. Phân loại đúng thuế suất từng dòng doanh thu, đối chiếu bảng tra thuế suất Chương 09 mục 6.3; soát 100% các dòng không áp thuế suất phổ thông, gồm dòng áp thuế suất 0%, thuế suất thấp hơn, và dòng thuộc chính sách giảm thuế
+- [ ] 5. Phân loại đúng thuế suất từng dòng doanh thu, đối chiếu bảng tra thuế suất Chương 09 mục 5.3; soát 100% các dòng không áp thuế suất phổ thông, gồm dòng áp thuế suất 0%, thuế suất thấp hơn, và dòng thuộc chính sách giảm thuế
 - [ ] 6. Thuế đầu vào được khấu trừ đáp ứng đủ điều kiện; đã kiểm theo bảng kiểm A3
 - [ ] 7. Không khấu trừ hóa đơn của nhà cung cấp thuộc diện cảnh báo, ngừng sử dụng hóa đơn
 - [ ] 8. Chứng từ thanh toán không dùng tiền mặt đầy đủ với các khoản thuộc diện bắt buộc
@@ -652,8 +649,8 @@ Nghị định 252/2026 Điều 24 khoản 2 ghi "ngày cuối cùng của thán
 
 Tạm nộp thuế TNDN quý là nghĩa vụ NỘP TIỀN, không có tờ khai quý. Phụ lục I Thông tư 89/2026 chỉ có hồ sơ khai thuế TNDN theo từng lần phát sinh và hồ sơ khai quyết toán, không có mẫu tờ khai theo quý `[TT 89/2026 Phụ lục I]`.
 
-> [!question] CẦN XÁC MINH
-> Có thông tin về việc LÙI thời hạn tạm nộp thuế TNDN quý 2 năm 2026 nhưng chưa xác minh được nguồn. Cho tới khi có văn bản gốc, oBacker vẫn áp mốc 31/7 và tuyệt đối không nói với khách rằng hạn đã được lùi.
+> [!warning] NGUYÊN TẮC ÁP DỤNG THỜI HẠN TẠM NỘP THUẾ TNDN
+> Thời hạn tạm nộp thuế TNDN quý II thực hiện theo quy định pháp luật hiện hành (ngày 31/7 theo Điều 24 khoản 2 Nghị định 252/2026/NĐ-CP). Trường hợp Chính phủ ban hành chính sách gia hạn thời hạn nộp thuế trong năm tài chính, TL-KT cập nhật văn bản hướng dẫn cụ thể trước khi thực hiện.
 
 - [ ] 1. Xác định đúng nghĩa vụ tạm nộp của kỳ và đúng mốc thời hạn theo bảng mốc trên và Phụ lục C: quý I là 30/4, quý II là 31/7, quý III là 31/10, quý IV là 31/01 năm sau `[NĐ 252/2026 Đ.24 k.2]`
 - [ ] 2. Số liệu kế toán của quý đã được khóa sổ; có Biên bản khóa sổ
@@ -684,7 +681,7 @@ Tạm nộp thuế TNDN quý là nghĩa vụ NỘP TIỀN, không có tờ khai 
 
 ## A9. BẢNG KIỂM QUYẾT TOÁN THUẾ TNDN
 
-**Chương gốc:** Chương 10, Chương 14 mục 6.2 và 6.3, Chương 18 mục 6.3.4.
+**Chương gốc:** Chương 10, Chương 14 mục 5.2 và 6.3, Chương 18 mục 6.3.4.
 
 | Trường | Nội dung |
 | --- | --- |
@@ -736,7 +733,7 @@ Tạm nộp thuế TNDN quý là nghĩa vụ NỘP TIỀN, không có tờ khai 
 - [ ] 14. Các phụ lục kèm theo đầy đủ, đúng ký hiệu mẫu theo bảng trên, và nhất quán với tờ khai chính `[TT 89/2026 Phụ lục I]`
 - [ ] 15. Số liệu năm trước trên quyết toán khớp quyết toán năm trước đã nộp, kể cả bản bổ sung
 - [ ] 16. Các vấn đề còn ý kiến khác nhau đã nêu rõ để TL-KT quyết định, không tự xử lý; nếu là vấn đề phạm vi hoặc nguồn lực thì chuyển COO
-- [ ] 17. Đã gửi khách rà soát và nhận xác nhận bằng văn bản theo Chương 14 mục 6.5
+- [ ] 17. Đã gửi khách rà soát và nhận xác nhận bằng văn bản theo Chương 14 mục 5.5
 - [ ] 18. Đã có Phiếu duyệt của TL-KT trước khi nộp
 - [ ] 19. Sau khi nộp: lưu hồ sơ đầy đủ vào thư mục 09; cập nhật Bảng theo dõi lỗ và ưu đãi cho năm sau
 - [ ] 20. Nếu phát sinh số phải nộp thêm: AM thông báo khách theo Mẫu 04 Chương 19 với đủ thời gian chuẩn bị dòng tiền
@@ -752,7 +749,7 @@ Tạm nộp thuế TNDN quý là nghĩa vụ NỘP TIỀN, không có tờ khai 
 
 ## A10. BẢNG KIỂM QUYẾT TOÁN THUẾ TNCN
 
-**Chương gốc:** Chương 11, Chương 14 mục 6.4, Chương 18 mục 6.3.5.
+**Chương gốc:** Chương 11, Chương 14 mục 5.4, Chương 18 mục 6.3.5.
 
 | Trường | Nội dung |
 | --- | --- |
@@ -789,7 +786,7 @@ Tạm nộp thuế TNDN quý là nghĩa vụ NỘP TIỀN, không có tờ khai 
 - [ ] 2. Tổng thu nhập cả năm của từng người khớp tổng các kỳ khai trong năm
 - [ ] 3. Tổng số thuế đã khấu trừ cả năm khớp các tờ khai đã nộp
 - [ ] 4. Phân loại đúng người thuộc diện ủy quyền quyết toán và người phải tự quyết toán; người ủy quyền phải có Giấy ủy quyền mẫu **08/UQ-QTT-TNCN**, người tự quyết toán được bàn giao mẫu **02/QTT-TNCN** kèm phụ lục 02-1/BK-QTT-TNCN `[TT 89/2026 Phụ lục I]`
-- [ ] 5. Người có giảm trừ chi phí y tế, giáo dục nếu có được xử lý đúng về quyền ủy quyền; kiểm 100% theo Chương 11 mục E.4
+- [ ] 5. Người có giảm trừ chi phí y tế, giáo dục nếu có được xử lý đúng về quyền ủy quyền; kiểm 100% theo Chương 11 mục E.3
 - [ ] 6. Giảm trừ gia cảnh cả năm tính đúng số tháng; kiểm 100% người vào và nghỉ giữa năm
 - [ ] 7. Người phụ thuộc đủ hồ sơ, không trùng lặp giữa hai người nộp thuế; đã rà chéo
 - [ ] 8. Các khoản giảm trừ khác có đủ chứng từ hợp lệ; kiểm 100% khoản lớn
@@ -863,31 +860,31 @@ Tạm nộp thuế TNDN quý là nghĩa vụ NỘP TIỀN, không có tờ khai 
 
 - [ ] 4.1. Thuyết minh đầy đủ các nội dung bắt buộc theo chế độ kế toán áp dụng
 - [ ] 4.2. Thuyết minh về chính sách kế toán áp dụng, nhất quán với thực tế hạch toán
-- [ ] 4.3. Nếu là năm đầu áp dụng chế độ kế toán mới: có nội dung thuyết minh bắt buộc theo Chương 07 mục 6.3.5
+- [ ] 4.3. Nếu là năm đầu áp dụng chế độ kế toán mới: có nội dung thuyết minh bắt buộc theo Chương 07 mục 5.3.5
 - [ ] 4.4. Nếu có thay đổi chính sách kế toán: số liệu so sánh đã được trình bày lại
 - [ ] 4.5. Các chỉ tiêu không có số liệu được xử lý đúng quy tắc trình bày
 
 **Phần 5. Chữ ký và nghĩa vụ riêng của đơn vị kinh doanh dịch vụ kế toán**
 
-Quyết định của CEO ngày 26/08/2026: **cả ba chữ ký trên báo cáo tài chính đều là của KHÁCH.** oBacker gửi khách ký, hoặc ký bằng chữ ký số của khách khi có ủy quyền bằng văn bản và có xác nhận nội dung bằng văn bản. oBacker không đứng tên trên báo cáo. Xem Chương 03 mục 6.12 và Chương 07.
+Quyết định của CEO ngày 26/08/2026: **cả ba chữ ký trên báo cáo tài chính đều là của KHÁCH.** oBacker gửi khách ký, hoặc ký bằng chữ ký số của khách khi có ủy quyền bằng văn bản và có xác nhận nội dung bằng văn bản. oBacker không đứng tên trên báo cáo. Xem Chương 03 mục 5.12 và Chương 07.
 
-- [ ] 5.1. Đã chạy đầy đủ bảng kiểm bắt buộc tại Chương 07 mục 6.2.3
+- [ ] 5.1. Đã chạy đầy đủ bảng kiểm bắt buộc tại Chương 07 mục 5.2.3
 - [ ] 5.2. Cả BA chữ ký là của khách: người lập, kế toán trưởng, và người đại diện theo pháp luật của đơn vị kế toán. Người ký báo cáo tài chính phải chịu trách nhiệm về nội dung của báo cáo `[Luật Kế toán 41/VBHN-VPQH Đ.29 k.2 đ.d]`
 - [ ] 5.3. Nếu oBacker ký bằng chữ ký số của khách: đã có ủy quyền BẰNG VĂN BẢN và có xác nhận nội dung BẰNG VĂN BẢN của khách trước khi ký; đã lưu cả hai văn bản
 - [ ] 5.4. Tên dịch vụ trong hợp đồng không chứa cụm "lập và trình bày báo cáo tài chính" và không chứa cụm "làm kế toán trưởng"; đã kiểm theo bảng kiểm A14. Gọi đúng hai cụm đó buộc phần người lập và kế toán trưởng trên báo cáo phải ghi số Giấy phép hành nghề dịch vụ kế toán của người hành nghề và tên đơn vị cung cấp dịch vụ kế toán `[TT 99/2025 Đ.16 k.4]`
 - [ ] 5.5. Người khách cử làm kế toán trưởng đã được kiểm tra tiêu chuẩn theo Điều 54 khoản 1; đã kiểm theo bảng kiểm A13 và có Phiếu B15 còn hiệu lực `[Luật Kế toán 41/VBHN-VPQH Đ.54 k.1]`
-- [ ] 5.6. Trên báo cáo không có tên oBacker và không có số Giấy phép hành nghề của nhân sự oBacker, nên ranh giới trách nhiệm chỉ nằm trong hợp đồng; đã kiểm hợp đồng có đủ ba nội dung ranh giới trách nhiệm tại Chương 03 mục 6.12.2
+- [ ] 5.6. Trên báo cáo không có tên oBacker và không có số Giấy phép hành nghề của nhân sự oBacker, nên ranh giới trách nhiệm chỉ nằm trong hợp đồng; đã kiểm hợp đồng có đủ ba nội dung ranh giới trách nhiệm tại Chương 03 mục 5.12.2
 
 **Phần 6. Soát xét hai cấp và phát hành**
 
 Mô hình soát xét chỉ còn HAI CẤP: cấp 1 CV-KT tự soát phần việc trực tiếp thực hiện, cấp 2 TL-KT soát và chốt. Cấp 2 là lớp kiểm soát duy nhất. Không bắt buộc một kế toán trưởng khác đọc lại hồ sơ mà kế toán trưởng phụ trách đã soát. Lớp bù duy nhất là hậu kiểm chọn mẫu do `COO` chủ việc và Legal R&D soát phần nội dung pháp lý, hằng tháng, tối thiểu 03 hồ sơ, ưu tiên lấy mẫu đúng vào phần việc do chính TL-KT vừa làm vừa soát; lớp bù này không chặn được hồ sơ trước khi ra ngoài. Xem Chương 18 mục 6.1 và mục 6.7. Chuẩn cấp 1: `03_DichVu/01_OBK-SOP-00` NT-5 đặt HAI LỚP là mặc định và CẤM người thực hiện tự đóng vai trò lớp hai; việc TL-KT tự chốt phần do chính mình làm là NGOẠI LỆ có điều kiện, phải ghi rõ trên Phiếu soát xét và chốt là phần đó không có lớp soát thứ hai. Xem Chương 18 mục 6.1.1 và ba dấu hiệu buộc thêm lớp thứ hai tại `02_Mo_hinh_dich_vu_va_phan_vai.md` Phụ lục 02-C mục 4.2.
 
-- [ ] 6.1. CV-KT hoàn thành bảng kiểm cấp 1 tại Chương 07 mục 6.5.1, có ký
-- [ ] 6.2. TL-KT hoàn thành bảng kiểm cấp 2 tại Chương 07 mục 6.5.2, là bảng kiểm TL-KT soát và chốt đã GỘP toàn bộ bảng kiểm cấp 3 cũ, có ký
+- [ ] 6.1. CV-KT hoàn thành bảng kiểm cấp 1 tại Chương 07 mục 5.5.1, có ký
+- [ ] 6.2. TL-KT hoàn thành bảng kiểm cấp 2 tại Chương 07 mục 5.5.2, là bảng kiểm TL-KT soát và chốt đã GỘP toàn bộ bảng kiểm cấp 3 cũ, có ký
 - [ ] 6.3. Trên Phiếu soát xét và chốt, TL-KT đã ghi rõ phần việc của bộ báo cáo do TL-KT trực tiếp thực hiện, để lớp hậu kiểm do `COO` chủ việc ưu tiên lấy mẫu theo Chương 18 mục 6.7. Không còn cấp 3 và không còn phiếu duyệt cấp 3
 - [ ] 6.4. AM gửi bản dự thảo cho khách rà soát và nhận xác nhận bằng văn bản
 - [ ] 6.5. TL-KT chốt bản trình bày cuối cùng, theo nguyên tắc hai người Chương 18 mục 6.2.3 dòng 3; sau đó AM gửi khách ký. oBacker không ký báo cáo tài chính
-- [ ] 6.6. Nộp đúng thời hạn 90 ngày kể từ ngày kết thúc kỳ kế toán năm `[Luật Kế toán 41/VBHN-VPQH Đ.29 k.3]`. NƠI NHẬN: đã ĐÓNG cho khách áp dụng Thông tư 133/2016 theo Điều 80 khoản 2 của thông tư đó; còn chưa xác minh được với khách áp dụng Thông tư 99/2025 và Thông tư 58/2026, xem Chương 13 mục J và Chương 07 mục 6.6, 6.7; không trả lời khách nơi nhận từ trí nhớ
+- [ ] 6.6. Nộp đúng thời hạn 90 ngày kể từ ngày kết thúc kỳ kế toán năm `[Luật Kế toán 41/VBHN-VPQH Đ.29 k.3]`. NƠI NHẬN: đã ĐÓNG cho khách áp dụng Thông tư 133/2016 theo Điều 80 khoản 2 của thông tư đó; còn chưa xác minh được với khách áp dụng Thông tư 99/2025 và Thông tư 58/2026, xem Chương 13 mục J và Chương 07 mục 5.6, 6.7; không trả lời khách nơi nhận từ trí nhớ
 - [ ] 6.7. Lưu bản đã có đủ ba chữ ký của khách vào thư mục 09
 - [ ] 6.8. AM bàn giao bộ báo cáo cho khách; ghi nhận vào nhật ký bàn giao
 - [ ] 6.9. IN SỔ ĐÓNG QUYỂN: sau khi khóa sổ trên phương tiện điện tử, đã in sổ kế toán ra giấy và đóng thành quyển riêng cho kỳ kế toán năm để đưa vào lưu trữ; khách chọn lưu trữ trên phương tiện điện tử thay vì in ra giấy thì đã chứng minh được điều kiện an toàn, bảo mật thông tin dữ liệu và tra cứu được trong thời hạn lưu trữ. Nguyên văn: "Sau khi khóa sổ kế toán trên phương tiện điện tử phải in sổ kế toán ra giấy và đóng thành quyển riêng cho từng kỳ kế toán năm để đưa vào lưu trữ. Trường hợp không in ra giấy mà thực hiện lưu trữ sổ kế toán trên các phương tiện điện tử thì phải bảo đảm an toàn, bảo mật thông tin dữ liệu và phải bảo đảm tra cứu được trong thời hạn lưu trữ" `[Luật Kế toán 41/VBHN-VPQH Đ.26 k.7; Đ.41 k.3]`
@@ -1008,7 +1005,7 @@ Mô hình soát xét chỉ còn HAI CẤP: cấp 1 CV-KT tự soát phần việ
 
 ## A13. BẢNG KIỂM TIÊU CHUẨN KẾ TOÁN TRƯỞNG CỦA KHÁCH
 
-**Chương gốc:** Chương 03 mục 6.13 (quy trình đầy đủ), Chương 07 mục 6.2 (ký báo cáo tài chính), Chương 01 (nguyên tắc hành nghề), Chương 20 (lập lại khi khách đổi người). **Biểu mẫu:** Phiếu B15 tại Phụ lục B.
+**Chương gốc:** Chương 03 mục 5.13 (quy trình đầy đủ), Chương 07 mục 5.2 (ký báo cáo tài chính), Chương 01 (nguyên tắc hành nghề), Chương 20 (lập lại khi khách đổi người). **Biểu mẫu:** Phiếu B15 tại Phụ lục B.
 
 Vì cả ba chữ ký trên báo cáo tài chính đều là của khách, trong đó có chữ ký kế toán trưởng, năng lực pháp lý của người khách cử làm kế toán trưởng là rủi ro của oBacker, không phải việc riêng của khách. Bảng kiểm này bắt buộc khi onboarding và phải chạy lại mỗi khi khách thay người giữ vị trí này.
 
@@ -1063,8 +1060,8 @@ Quy đổi số năm kinh nghiệm bắt buộc theo trình độ:
 - [ ] 3.8. Đặt mốc lập lại phiếu: mỗi khi khách thay người giữ vị trí kế toán trưởng hoặc người phụ trách kế toán. TL-KT theo dõi, AM thu hồ sơ
 - [ ] 3.9. Số hóa Phiếu B15 đã ký, lưu vào thư mục hồ sơ rủi ro của khách
 
-> [!question] CẦN XÁC MINH
-> Mức xử phạt hành vi bố trí hoặc thuê người làm kế toán trưởng không đủ tiêu chuẩn: phạt tiền từ 20.000.000 đồng đến 30.000.000 đồng đối với cá nhân, từ 40.000.000 đồng đến 60.000.000 đồng đối với tổ chức (gấp 02 lần mức phạt cá nhân) `[NĐ 41/2018 Đ.17 k.3 điểm b, điểm c; NĐ 132/2026 Đ.2]`. Văn bản thông báo khách theo dòng 3.5 vẫn không nêu mức phạt này. Mức xử phạt hành vi ký báo cáo tài chính sai thẩm quyền, và mức xử phạt cho các hành vi khác tại Điều 13 Luật Kế toán, vẫn giữ chưa xác minh được; TUYỆT ĐỐI không nêu mức phạt cho các hành vi đó. Khách hỏi về mức phạt thì AM ghi nhận câu hỏi và chuyển TL-KT; TL-KT chỉ trả lời sau khi đối chiếu bản gốc.
+> [!note] CĂN CỨ XỬ PHẠT VI PHẠM TIÊU CHUẨN KẾ TOÁN TRƯỞNG
+> Mức xử phạt hành vi bố trí hoặc thuê người làm kế toán trưởng không đủ tiêu chuẩn, điều kiện: phạt tiền từ 20.000.000 đồng đến 30.000.000 đồng đối với cá nhân, từ 40.000.000 đồng đến 60.000.000 đồng đối với tổ chức `[NĐ 41/2018/NĐ-CP Đ.17 k.3 đ.b; NĐ 132/2026/NĐ-CP Đ.2]`. Văn bản khuyến nghị gửi khách hàng tập trung vào tính tuân thủ điều kiện pháp luật theo Điều 13 Luật Kế toán, không chủ động suy đoán các mức phạt ngoài thẩm quyền khi chưa đối chiếu văn bản quy phạm pháp luật tương ứng.
 
 | Chữ ký | Họ tên | Ngày |
 | --- | --- | --- |
@@ -1078,7 +1075,7 @@ Quy đổi số năm kinh nghiệm bắt buộc theo trình độ:
 
 ## A14. BẢNG KIỂM TÊN DỊCH VỤ TRONG HỢP ĐỒNG
 
-**Chương gốc:** Chương 02 (danh mục gói dịch vụ và phạm vi), Chương 03 mục 6.12.1 (tên dịch vụ) và mục 6.12.2 (ranh giới trách nhiệm), Chương 07 (ký báo cáo tài chính).
+**Chương gốc:** Chương 02 (danh mục gói dịch vụ và phạm vi), Chương 03 mục 5.12.1 (tên dịch vụ) và mục 6.12.2 (ranh giới trách nhiệm), Chương 07 (ký báo cáo tài chính).
 
 Vì oBacker không đứng tên trên báo cáo tài chính của khách, hợp đồng, bản chào và phụ lục không được gọi tên dịch vụ là "lập và trình bày báo cáo tài chính", cũng không được gọi là "làm kế toán trưởng". Gọi đúng hai cụm đó là kích hoạt Thông tư 99/2025 Điều 16 khoản 4, và điều khoản đó buộc phần người lập và kế toán trưởng trên báo cáo tài chính của khách phải ghi rõ số Giấy phép hành nghề dịch vụ kế toán của người hành nghề và tên đơn vị cung cấp dịch vụ kế toán, tức buộc oBacker đứng tên trên báo cáo `[TT 99/2025 Đ.16 k.4]`.
 
@@ -1118,7 +1115,7 @@ Vì oBacker không đứng tên trên báo cáo tài chính của khách, hợp 
 **Phần 3. Ranh giới trách nhiệm phải nằm trong hợp đồng**
 
 - [ ] 3.1. Có điều khoản nêu phạm vi công việc oBacker thực hiện, đối chiếu đúng bảng 6.1 và 6.2 của Chương 02, và phạm vi ngoại lệ của khách này. AM soạn, TL-KT soát nội dung nghiệp vụ, COO kiểm
-- [ ] 3.2. Có điều khoản nêu nguồn dữ liệu do khách cung cấp và trách nhiệm của khách về tính đầy đủ, có thật, hợp pháp của dữ liệu đó, dẫn chiếu Chương 01 mục 6.2. AM soạn, TL-KT xác nhận nội dung nghiệp vụ
+- [ ] 3.2. Có điều khoản nêu nguồn dữ liệu do khách cung cấp và trách nhiệm của khách về tính đầy đủ, có thật, hợp pháp của dữ liệu đó, dẫn chiếu Chương 01 mục 5.2. AM soạn, TL-KT xác nhận nội dung nghiệp vụ
 - [ ] 3.3. Có điều khoản giới hạn trách nhiệm của oBacker và loại trừ trách nhiệm đối với các kỳ trước ngày tiếp nhận, khớp mục 12 của biên bản hiện trạng. AM soạn, CEO duyệt
 - [ ] 3.4. Có điều khoản nêu rõ ba chữ ký trên báo cáo tài chính là của khách, và cơ chế ủy quyền bằng văn bản nếu oBacker ký bằng chữ ký số của khách `[Luật Kế toán 41/VBHN-VPQH Đ.29 k.2 đ.d]`
 
@@ -1165,8 +1162,8 @@ Vì oBacker không đứng tên trên báo cáo tài chính của khách, hợp 
 | Biểu mẫu nội bộ dạng bảng để điền | Phụ lục B |
 | Hướng dẫn thao tác trên phần mềm | Phụ lục D |
 | Danh mục văn bản pháp luật | Phụ lục E |
-| Ký báo cáo tài chính, cả ba chữ ký là của khách;<br>tên dịch vụ trong hợp đồng | Chương 03 mục 6.12, Chương 07 |
-| Kiểm tra tiêu chuẩn kế toán trưởng của khách, Phiếu B15 | Chương 03 mục 6.13;<br>Phụ lục B biểu mẫu B15 |
+| Ký báo cáo tài chính, cả ba chữ ký là của khách;<br>tên dịch vụ trong hợp đồng | Chương 03 mục 5.12, Chương 07 |
+| Kiểm tra tiêu chuẩn kế toán trưởng của khách, Phiếu B15 | Chương 03 mục 5.13;<br>Phụ lục B biểu mẫu B15 |
 | Ký hiệu mẫu hồ sơ khai thuế | Phụ lục I Thông tư 89/2026 |
 | Các nội dung chưa có văn bản quy định, giữ trạng thái chưa xác minh được | Chương 21 mục 6.3.5 |
 

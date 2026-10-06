@@ -4,19 +4,15 @@ code: "GP-01"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-TTT-05 Cách làm phiếu thao tác"
-law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - GP-01
 tags:
@@ -29,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | GP-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -40,6 +36,7 @@ tags:
 | **Ai dùng** | Chuyên viên phụ trách thủ tục cấp phép (`CV-LIC`), Trưởng bộ phận Giấy phép (`TL-LIC`), Chuyên viên Quản lý khách hàng (`AM`) |
 | **Sinh từ** | [[04_OBK-SOP-LIC_Giay_phep\|OBK-SOP-LIC]] (Job LIC-01 đến LIC-31);<br>[[PL_LIC_01_Quy_trinh_giay_phep_chuyen_nganh_va_so_huu_tri_tue\|OBK-SOP-PL-LIC-01]] |
 | **Ngày làm phiếu** | 27/09/2026 |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
@@ -115,26 +112,7 @@ Bảng theo dõi tiến độ giấy phép được cập nhật hằng ngày tr
 
 Bảo đảm kiểm soát chặt chẽ toàn bộ tiến độ giải quyết thủ tục hành chính của khách hàng, phòng ngừa rủi ro chậm trễ thời hạn nộp hoặc chậm phản hồi thông báo của cơ quan nhà nước có thẩm quyền, đồng thời đo lường chính xác tỷ lệ hoàn thành theo cam kết dịch vụ nội bộ của oBacker.
 
-### 2. Căn cứ quy định và pháp luật liên quan
 
-| Mục | Nguồn | Nội dung |
-| --- | --- | --- |
-| Quy trình cấp phép | [[04_OBK-SOP-LIC_Giay_phep\|OBK-SOP-LIC]] | Quản trị vòng đời thực hiện hồ sơ cấp phép và thủ tục doanh nghiệp |
-| Giấy phép chuyên ngành | [[PL_LIC_01_Quy_trinh_giay_phep_chuyen_nganh_va_so_huu_tri_tue\|OBK-SOP-PL-LIC-01]] | Quy định thủ tục chuyên ngành từ Job LIC-25 đến LIC-31 |
-| Chuẩn vận hành dịch vụ | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] | Nguyên tắc đo lường thời hạn cam kết dịch vụ nội bộ (SLA) |
-
-## Căn cứ pháp luật
-
-| # | Văn bản | Điều khoản | Nội dung áp dụng |
-| --- | --- | --- | --- |
-| 1 | Luật Doanh nghiệp số 59/2020/QH14 | Điều 26, Điều 30, Điều 31 | Trình tự, thủ tục đăng ký doanh nghiệp và thông báo thay đổi nội dung đăng ký |
-| 2 | Nghị định số 01/2021/NĐ-CP và Nghị định số 296/2026/NĐ-CP | Các điều khoản về đăng ký kinh doanh | Thời hạn giải quyết hồ sơ đăng ký doanh nghiệp trong 03 ngày làm việc |
-| 3 | Nghị định số 09/2018/NĐ-CP và Nghị định số 342/2026/NĐ-CP (thay thế từ 18/10/2026) | Điều 5, Điều 9, Điều 11, Điều 12 | Cấp Giấy phép kinh doanh hoạt động mua bán hàng hóa cho tổ chức kinh tế có vốn đầu tư nước ngoài |
-| 4 | Luật An toàn thực phẩm số 55/2010/QH12 | Điều 34, Điều 35 | Điều kiện, hồ sơ, trình tự cấp Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm |
-| 5 | Luật Khoa học và Công nghệ số 29/2013/QH13 | Điều 13, Điều 14 | Điều kiện và thủ tục cấp Giấy chứng nhận doanh nghiệp khoa học và công nghệ |
-| 6 | Nghị định số 52/2013/NĐ-CP và Nghị định số 85/2021/NĐ-CP | Điều 52, Điều 53 | Thủ tục thông báo và đăng ký website thương mại điện tử với Bộ Công Thương |
-| 7 | Luật Sở hữu trí tuệ số 50/2005/QH11 (sửa đổi, bổ sung năm 2022) | Điều 108, Điều 119 | Thủ tục tiếp nhận, thẩm định đơn đăng ký nhãn hiệu và quyền tác giả |
-| 8 | Bộ luật Lao động số 45/2019/QH14 và Nghị định số 152/2020/NĐ-CP | Điều 152, Điều 153 | Điều kiện, trình tự cấp giấy phép lao động cho người lao động nước ngoài tại Việt Nam |
 
 ---
 
@@ -142,4 +120,4 @@ Bảo đảm kiểm soát chặt chẽ toàn bộ tiến độ giải quyết th
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu GP-01 về Sổ cái OBK-MSR |

@@ -4,19 +4,15 @@ code: "PM-01"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-TTT-05 Cách làm phiếu thao tác"
-law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - PM-01
 tags:
@@ -29,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | PM-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -38,8 +34,9 @@ tags:
 | **Mã phiếu** | PM-01 |
 | **Màu** | VÀNG, bảng theo dõi cảnh báo |
 | **Ai dùng** | Người phụ trách công nghệ (`TL-CN`), `AD-KT`, `KTV` và `KTT` |
-| **Sinh từ** | [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] mục 6.0b;<br>[[OBK-SOP-NB-07_Quan_ly_con_dau_va_chu_ky_so\|OBK-SOP-NB-07]] Điều 5 |
+| **Sinh từ** | [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] mục 5.0b;<br>[[OBK-SOP-NB-07_Quan_ly_con_dau_va_chu_ky_so\|OBK-SOP-NB-07]] Điều 4 |
 | **Ngày làm phiếu** | 27/09/2026 |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
@@ -61,7 +58,7 @@ Bảng theo dõi được áp dụng cho toàn bộ các khoản chi tiêu dịc
 | 10 | Phương thức thanh toán | Thẻ tín dụng công ty, trích nợ tự động hoặc chuyển khoản ủy quyền |
 | 11 | Trạng thái hiện tại | Đang hoạt động, Chờ xem xét gia hạn, Đang nâng cấp, hoặc Yêu cầu hủy |
 
-## QUY TRÌNH 3 MỐC NHẮC NHỞ VÀ RA QUYẾT ĐỊNH
+## QUY TRÌNH NHẮC NHỞ VÀ RA QUYẾT ĐỊNH
 
 Nhằm tránh việc tự động gia hạn các dịch vụ không còn nhu cầu sử dụng hoặc gián đoạn hoạt động do thanh toán chậm, quy trình nhắc nhở gồm 03 mốc thời gian:
 
@@ -85,14 +82,14 @@ Nhằm tránh việc tự động gia hạn các dịch vụ không còn nhu c�
 
 ## NGUYÊN TẮC HẠCH TOÁN KẾ TOÁN THEO THÔNG TƯ 99/2025/TT-BTC
 
-Toàn bộ chi phí thuê bao phần mềm và dịch vụ công nghệ định kỳ nội bộ được kết nối đồng bộ vào sổ kế toán theo nguyên tắc Nguồn dữ liệu tài chính duy nhất quy định tại Điều 2.5 [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]]:
+Toàn bộ chi phí thuê bao phần mềm và dịch vụ công nghệ định kỳ nội bộ được kết nối đồng bộ vào sổ kế toán theo nguyên tắc Nguồn dữ liệu tài chính duy nhất tại OBK-QCTC-01 mục 2.5:
 1. **Thuê bao trả trước theo kỳ hạn năm (hoặc từ 02 tháng trở lên):**
    - Khi thanh toán tiền: Ghi nhận vào Chi phí trả trước, hạch toán Nợ TK 242 / Có TK 112 (hoặc Có TK 331).
    - Định kỳ ngày cuối tháng: Phân bổ vào chi phí quản lý doanh nghiệp theo số tháng thực tế sử dụng, hạch toán Nợ TK 642 / Có TK 242. Trường hợp phần mềm sử dụng trực tiếp để xử lý tác vụ cho khách hàng, phân bổ vào chi phí dịch vụ Nợ TK 154 / Có TK 242.
 2. **Thuê bao thanh toán từng tháng:**
    - Hạch toán trực tiếp vào chi phí hoạt động trong kỳ: Nợ TK 642 (hoặc Nợ TK 154), Nợ TK 1331 (nếu có hóa đơn GTGT đủ điều kiện khấu trừ) / Có TK 112 (trích nợ tự động hoặc thanh toán thẻ ngân hàng).
 3. **Đối chiếu số liệu:**
-   - Định kỳ ngày 25 hằng tháng, `AD-KT` và `KTV` đối soát chi phí thực tế trên Sổ PM-01 với phát sinh Nợ TK 242, Nợ TK 642 và số liệu chi dòng II.3 trên Bảng [[TC-01_Bang_theo_doi_dong_tien_va_suc_khoe_tai_chinh|TC-01]].
+   - Định kỳ ngày 25 hằng tháng, `AD-KT` và `KTV` đối soát chi phí thực tế trên Sổ PM-01 với phát sinh Nợ TK 242, Nợ TK 642 và số liệu chi dòng II.3 trên Bảng TC-01.
 
 ## QUY TRÌNH LUÂN CHUYỂN VÀ LƯU TRỮ
 
@@ -112,14 +109,6 @@ Bảng theo dõi được cập nhật trên hệ thống dữ liệu dùng chun
 
 Tránh lãng phí chi phí thuê bao hàng tháng/hàng năm cho các phần mềm không còn sử dụng nhưng vẫn bị trừ tiền tự động; đồng thời ngăn ngừa rủi ro gián đoạn hệ thống làm việc do quên gia hạn máy chủ hoặc chữ ký số nội bộ.
 
-### 2. Căn cứ quy định và pháp luật liên quan
-
-| Mục | Nguồn | Nội dung |
-| --- | --- | --- |
-| Mua sắm dịch vụ | [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] mục 6.0b | Kiểm soát hồ sơ thanh toán dịch vụ định kỳ |
-| Quản lý CKS nội bộ | [[OBK-SOP-NB-07_Quan_ly_con_dau_va_chu_ky_so\|OBK-SOP-NB-07]] Điều 5 | Theo dõi thời hạn chứng thư số công ty |
-| Chế độ kế toán | Thông tư 99/2025/TT-BTC | Phương pháp hạch toán chi phí trả trước (TK 242) và chi phí quản lý (TK 642) |
-| Nguyên tắc tài chính | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 2.5 | Nguyên tắc Nguồn dữ liệu tài chính duy nhất kết nối kế toán |
 
 ---
 
@@ -127,4 +116,4 @@ Tránh lãng phí chi phí thuê bao hàng tháng/hàng năm cho các phần m�
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu PM-01 về Sổ cái OBK-MSR |

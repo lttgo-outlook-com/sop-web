@@ -4,19 +4,15 @@ code: "OBK-QCTC-02-PL-B"
 type: "sop"
 folder: "01_ToChuc"
 level: "Phụ lục"
-version: "R.2.0.0"
+version: "R.3.0.1"
 status: "đang áp dụng"
-draft_date: "01/10/2026"
+draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-QCTC-02 Quy chế tổ chức và phân quyền"
-law_as_of: ""
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-QCTC-02-PL-B
 tags:
@@ -29,17 +25,15 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-QCTC-02-PL-B |
 | Cấp tài liệu | Phụ lục |
-| Phiên bản | R.2.0.0, đang áp dụng |
-| Ngày biên soạn | 01/10/2026 |
+| Phiên bản | R.3.0.1, đang áp dụng |
+| Ngày biên soạn | 04/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
 | Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen\|OBK-QCTC-02]] Quy chế tổ chức và phân quyền |
 
 
-Phụ lục của [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen|OBK-QCTC-02]] Quy chế tổ chức và phân quyền. Dựng 02/09/2026.
-
-Cập nhật lần cuối 02/09/2026.
+Phụ lục của [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen|OBK-QCTC-02]] Quy chế tổ chức và phân quyền.
 
 ## Cách đọc
 
@@ -50,7 +44,7 @@ Bốn cột cho mỗi việc:
 - Phải được hỏi: vai trò mà người quyết bắt buộc lấy ý kiến trước khi chốt. Không hỏi thì quyết định không có hiệu lực nội bộ.
 - Phải được thông báo: vai trò được biết sau khi chốt, không có quyền phản đối.
 
-Ký hiệu theo `PL_Tu_dien_vai.md`. Hạn mức tiền và mốc theo giá trị tài sản không ghi lại ở đây, chỉ dẫn chiếu. **Bản gốc của ma trận hạn mức là [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 12.3**, không phải [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]] mục 6.2.1; mục 6.2.1 chỉ giữ cột người duyệt và cột số báo giá tối thiểu.
+Ký hiệu theo `PL_Tu_dien_vai.md`. Hạn mức tiền và mốc theo giá trị tài sản không ghi lại ở đây, chỉ dẫn chiếu. **Bản gốc của ma trận hạn mức là OBK-QCTC-01 mục 12.3**, không phải OBK-SOP-NB-01 mục 5.2.1; mục 5.2.1 chỉ giữ cột người duyệt và cột số báo giá tối thiểu.
 
 Ba việc không ai được tự quyết, xem mục 7 cuối tài liệu.
 
@@ -75,7 +69,7 @@ Ba việc không ai được tự quyết, xem mục 7 cuối tài liệu.
 
 | Việc | Đề xuất | Quyết | Phải được hỏi | Phải được thông báo |
 | --- | --- | --- | --- | --- |
-| Chi trong hạn mức từng bậc | `TL` chủ dòng ngân sách | theo ba bậc hạn mức tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 12.3 (B1: `TL`; B2: `COO` hoặc `KTT`; B3: `TGĐ`) | | `KTT` |
+| Chi trong hạn mức từng bậc | `TL` chủ dòng ngân sách | theo ba bậc hạn mức tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 12.3 (B1: `TL`; B2: `COO`, CEO là dự phòng; B3: `TGĐ`) | | `KTT` |
 | Chi chạm mốc Điều lệ và luật định (từ 35% tổng tài sản) | `TGĐ` | `HĐQT` thông qua, `ĐHĐCĐ` quyết định | Legal R&D | `ĐHĐCĐ` |
 | Giao dịch mua, bán, vay, cho vay từ mốc tại `Điều lệ Đ.25 k.2 đ.h` | `TGĐ` | `HĐQT` | Legal R&D | `ĐHĐCĐ` |
 | Đầu tư hoặc bán tài sản từ mốc tại `Điều lệ Đ.24 k.2 đ.d` | `HĐQT` | `ĐHĐCĐ` | Legal R&D | |
@@ -92,7 +86,7 @@ Ba việc không ai được tự quyết, xem mục 7 cuối tài liệu.
 
 | Việc | Đề xuất | Quyết | Phải được hỏi | Phải được thông báo |
 | --- | --- | --- | --- | --- |
-| Nhận khách mới áp dụng Bảng giá chuẩn và Mẫu hợp đồng chuẩn | `AM` | TP Thương mại (ký hợp đồng trực tiếp) | | `CEO` (qua báo cáo CRM) |
+| Nhận khách mới áp dụng Bảng giá chuẩn và Mẫu hợp đồng chuẩn | `AM` | TP Thương mại đàm phán và duyệt; `NĐDPL` (CEO hoặc Chủ tịch HĐQT) ký hợp đồng | | `CEO` (qua báo cáo CRM) |
 | Nhận khách có chiết khấu ngoài khung hoặc yêu cầu chỉnh sửa điều khoản hợp đồng cốt lõi | TP Thương mại | `CEO` | `KTT` về biên lợi nhuận;<br>Legal R&D về rủi ro pháp lý | `AM` |
 | Từ chối khách | `AM` hoặc `COO` | `CEO` | | TP Thương mại |
 | Giá trong khung đã duyệt | `AM` | TP Thương mại | | `CEO` |
@@ -133,7 +127,7 @@ Ba việc không ai được tự quyết, xem mục 7 cuối tài liệu.
 | Kết luận pháp lý dùng làm chuẩn nội bộ | Legal R&D | Legal R&D | | `COO`, các `TL` |
 | Cập nhật căn cứ pháp lý khi có văn bản mới | Legal R&D | Legal R&D | | toàn công ty |
 | Hành vi oBacker nghiêm cấm, việc oBacker không làm | Legal R&D | `CEO` | Legal R&D BẮT BUỘC | toàn công ty |
-| Ký hợp đồng với khách | `AM` | `TGĐ` hoặc `NĐDPL` tùy loại;<br>nếu chạm mốc `Điều lệ Đ.25 k.2 đ.h` thì `HĐQT` thông qua trước | Legal R&D về điều khoản | TP Thương mại |
+| Ký hợp đồng với khách | `AM` | `NĐDPL` (CEO hoặc Chủ tịch HĐQT) ký;<br>nếu chạm mốc `Điều lệ Đ.25 k.2 đ.h` thì `HĐQT` thông qua trước | Legal R&D về điều khoản | TP Thương mại (đàm phán, duyệt; không ký) |
 | Ký hợp đồng với nhà cung cấp | `TL` đơn vị | theo bậc hạn mức chi tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 12.3 | Legal R&D nếu có điều khoản ràng buộc dài hạn | `KTT` |
 | Nội dung có tính tư vấn pháp lý công bố ra ngoài | `CMO` | Legal R&D duyệt nội dung pháp lý;<br>`CMO` quyết công bố | Legal R&D BẮT BUỘC | `CEO` |
 | Sửa Điều lệ | `HĐQT` | `ĐHĐCĐ` | Legal R&D | |
@@ -158,32 +152,18 @@ Ba việc không ai được tự quyết, xem mục 7 cuối tài liệu.
 | Chuyển dữ liệu cá nhân ra nước ngoài, gồm dùng dịch vụ có hạ tầng ngoài Việt Nam | Tech Lead | `CEO` | Legal R&D BẮT BUỘC | `NĐDPL` |
 | Dữ liệu ứng viên không được tuyển | HR | HR, xóa hoặc hủy theo quy định | Legal R&D về thời hạn | |
 
-### 6.1. Căn cứ pháp lý của bảy dòng về dữ liệu cá nhân
+Hai tư cách của oBacker với dữ liệu cá nhân phải phân biệt, vì nghĩa vụ khác nhau:
 
-Nguồn: `Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15`, Quốc hội thông qua ngày 26/06/2025, có hiệu lực từ ngày 01/01/2026.
+- Với dữ liệu người lao động của chính oBacker và dữ liệu người liên hệ của khách mà oBacker tự quyết mục đích: oBacker là Bên kiểm soát và xử lý, chịu nghĩa vụ tại `[Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15 Đ.37 k.1]`.
+- Với dữ liệu mà khách cung cấp để oBacker làm dịch vụ theo hợp đồng, ví dụ danh sách người lao động của khách để tính lương: khách là Bên kiểm soát, oBacker là Bên xử lý theo `[Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15 Đ.2 k.8]`, chịu nghĩa vụ tại `Đ.37 k.2`, xem [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen|OBK-QCTC-02]] mục 19.4.
 
-| Nội dung | Điều khoản |
-| --- | --- |
-| Định nghĩa Bên kiểm soát, Bên xử lý, Bên kiểm soát và xử lý dữ liệu cá nhân | `Đ.2 k.7`, `k.8`, `k.9` |
-| Sự đồng ý của chủ thể dữ liệu, phải tự nguyện và biết rõ | `Đ.9` |
-| Chuyển giao dữ liệu cá nhân cho bên thứ ba | `Đ.17` |
-| Chuyển dữ liệu cá nhân xuyên biên giới, kèm hồ sơ đánh giá tác động | `Đ.20` |
-| Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân, ai lập và thời hạn | `Đ.21` |
-| Dữ liệu cá nhân trong tuyển dụng và quản lý người lao động | `Đ.25` |
-| Nghĩa vụ của Bên kiểm soát dữ liệu cá nhân | `Đ.37 k.1` |
+## 7. Các trường hợp không được tự quyết
 
-Hai tư cách của oBacker phải phân biệt, vì nghĩa vụ khác nhau:
+**Quyền bảo lưu kết luận khả thi của `COO`:** `CEO` không bác bỏ kết luận khả thi của `COO` bằng thẩm quyền. `CEO` đổi được ĐẦU VÀO, tức thêm người, thêm tiền, giảm phạm vi, dời mốc, rồi hỏi lại `COO`; nhưng không đổi được câu trả lời. Nguồn: OBK-SOP-00 mục 8.2.1. Điểm kiểm soát này đặt tại nơi hai nhánh hội tụ ở `CEO`.
 
-- Với dữ liệu người lao động CỦA OBACKER và dữ liệu người liên hệ của khách mà oBacker tự quyết mục đích: oBacker là Bên kiểm soát và xử lý, chịu nghĩa vụ tại `Đ.37 k.1`.
-- Với dữ liệu mà khách cung cấp để oBacker làm dịch vụ theo hợp đồng, ví dụ danh sách người lao động của khách để tính lương: khách là Bên kiểm soát, oBacker là Bên xử lý theo `Đ.2 k.8`, chịu nghĩa vụ tại `Đ.37 k.2`, xem [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen|OBK-QCTC-02]] mục 19.4.
+**Cam kết mốc thời gian của `AM`:** `AM` không cam kết mốc mà `TL` bộ phận chưa xác nhận bằng văn bản trên Job. `TL` nói không làm được thì `AM` không cam kết, kể cả khi `CEO` là cấp trên của nhánh thương mại. Muốn cam kết thì phải qua bước bổ sung nguồn lực ở mục 3. Nguồn: điểm kiểm soát `KS-AM-01`.
 
-## 7. Ba việc không ai được tự quyết
-
-**Một. `CEO` không bác bỏ kết luận khả thi của `COO` bằng thẩm quyền.** `CEO` đổi được ĐẦU VÀO, tức thêm người, thêm tiền, giảm phạm vi, dời mốc, rồi hỏi lại `COO`; nhưng không đổi được câu trả lời. Nguồn: [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 8.2.1. Đây là điểm kiểm soát quan trọng nhất của cơ cấu có hai nhánh gặp nhau ở `CEO`.
-
-**Hai. `AM` không cam kết mốc mà `TL` bộ phận chưa xác nhận bằng văn bản trên Job.** `TL` nói không làm được thì `AM` không cam kết, kể cả khi `CEO` là cấp trên của nhánh thương mại. Muốn cam kết thì phải qua bước bổ sung nguồn lực ở mục 3. Nguồn: điểm kiểm soát `KS-AM-01`.
-
-**Ba. `TGĐ` không ký thay `NĐDPL` trên báo cáo tài chính.** Ba nghĩa vụ mà Luật Kế toán gắn đích danh vào `NĐDPL` không ai ký thay được. Khi `TGĐ` và `NĐDPL` là hai người khác nhau thì đọc tách hai ký hiệu. Nguồn: [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] Điều 4 và `41/VBHN-VPQH Đ.29 k.2 đ.d`, `Đ.41 k.4`, `Đ.50`.
+**Thẩm quyền ký báo cáo tài chính của `NĐDPL`:** `TGĐ` không ký thay `NĐDPL` trên báo cáo tài chính. Ba nghĩa vụ gắn đích danh vào `NĐDPL`, gồm tổ chức công tác kế toán, ký báo cáo tài chính và tổ chức lưu trữ tài liệu kế toán, không ai ký thay được. Khi `TGĐ` và `NĐDPL` là hai người khác nhau thì đọc tách hai ký hiệu. Nguồn: OBK-QCTC-01 Điều 4.
 
 ---
 
@@ -191,4 +171,4 @@ Hai tư cách của oBacker phải phân biệt, vì nghĩa vụ khác nhau:
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.2.0.0 | Cập nhật bảng thẩm quyền chi tiêu 3 bậc B1 tới B3; phân quyền ký hợp đồng dịch vụ chuẩn và biểu giá chuẩn cho Trưởng phòng Thương mại |
+| 04/10/2026 | R.3.0.1 | Bỏ ghi chú log dựng bản ở đầu phụ lục ma trận. |

@@ -9,12 +9,8 @@ status: "đang áp dụng"
 draft_date: "15/09/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-DM-00 Danh mục dịch vụ và bảng giá"
-previous_version: ""
-law_as_of: ""
 next_review: ""
 distribution: "nội bộ"
 aliases:
@@ -329,7 +325,7 @@ Phạm vi, thời gian và điều kiện áp dụng chép từ hệ thống dan
 
 | Hạng mục | Nội dung |
 | --- | --- |
-| Phạm vi công việc | Rà soát toàn diện tính pháp lý, tính hiệu lực và rủi ro thương mại của 01 hợp đồng kinh tế/dịch vụ/mua bán dưới 10 trang A4. Kiểm tra thẩm quyền ký kết, điều khoản thanh toán, phạt vi phạm, bồi thường thiệt hại, chấm dứt hợp đồng và cơ chế giải quyết tranh chấp theo pháp luật Việt Nam. (Hợp đồng từ trang thứ 11 trở đi phụ thu 100.000 đ/trang). Kết quả: Bản hợp đồng sửa đổi có tính năng Track Changes và Bản khuyến nghị pháp lý (Legal Review Memo). |
+| Phạm vi công việc | Rà soát toàn diện tính pháp lý, tính hiệu lực và rủi ro thương mại của 01 hợp đồng kinh tế/dịch vụ/mua bán dưới 10 trang A4. Kiểm tra thẩm quyền ký kết, điều khoản thanh toán, phạt vi phạm, bồi thường thiệt hại, chấm dứt hợp đồng và cơ chế giải quyết tranh chấp theo pháp luật Việt Nam. (Hợp đồng từ 11 đến 20 trang tính 02 lượt soát xét; hợp đồng trên 20 trang, từ trang thứ 21 phụ thu 100.000đ/trang). Kết quả: Bản hợp đồng sửa đổi có tính năng Track Changes và Bản khuyến nghị pháp lý (Legal Review Memo). |
 | Thời gian thực hiện | 02 - 03 ngày làm việc. |
 | Kỳ thu tiền | thu trước |
 | Ghi chú | Master SKU Catalog 2026 |

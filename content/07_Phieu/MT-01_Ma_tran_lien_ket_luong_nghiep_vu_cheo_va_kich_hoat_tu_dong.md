@@ -4,19 +4,15 @@ code: "MT-01"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-TTT-05 Cách làm phiếu thao tác"
-law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - MT-01
 tags:
@@ -29,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | MT-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -40,6 +36,7 @@ tags:
 | **Ai dùng** | Ban Giám đốc (`CEO`, `COO`), Trưởng các bộ phận (`TL-KT`, `TL-LIC`, `TL-LD`, `TL-LS`, `TL-RD`, `TP Thương mại`, `HR`), Chuyên viên nghiệp vụ (`AM`, `KTV`, `CV`) |
 | **Sinh từ** | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]];<br>[[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo\|OBK-SOP-NB-00]];<br>[[CV-01_Bang_theo_doi_trang_thai_cong_viec_sla_va_kpi\|CV-01]];<br>`OBK-SOP-NB-01` đến `OBK-SOP-NB-06`;<br>`OBK-SOP-NB-10` đến `OBK-SOP-NB-14` |
 | **Ngày làm phiếu** | 27/09/2026 |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
@@ -85,7 +82,7 @@ Ma trận quy định rõ ràng điều kiện kích hoạt chuyển giao, đơn
 - Mọi trường hợp bỏ qua bước kiểm soát lớp hai đều bị xử lý là vi phạm kỷ luật lao động và bị ghi nhận lỗi mức Nghiêm trọng trên Sổ [[CL-01_So_theo_doi_kiem_soat_chat_luong_va_nhat_ky_sai_sot_capa|CL-01]].
 
 ### 3. Cơ chế kích hoạt chuỗi khi có biến động nhân sự
-- Khi có nhân sự mới gia nhập: Quy trình Onboarding nhân sự phải tự động kích hoạt đồng thời 05 thủ tục nghiệp vụ liên quan: Ký hợp đồng lao động (`HD-01`), cấp phát thiết bị và công cụ làm việc (`TS-01`), báo tăng đóng bảo hiểm xã hội (`BH-01`), đăng ký mã số thuế cá nhân và người phụ thuộc, mở mã nhân viên trên hệ thống tính lương ([[LU-01_Bang_theo_doi_va_thanh_toan_tien_luong_chuan|LU-01]]).
+- Khi có nhân sự mới gia nhập: Quy trình Onboarding nhân sự phải tự động kích hoạt đồng thời 05 thủ tục nghiệp vụ liên quan: Ký hợp đồng lao động (`HD-01`), cấp phát thiết bị và công cụ làm việc (`TS-01`), báo tăng đóng bảo hiểm xã hội (`BH-01`), đăng ký mã số thuế cá nhân và người phụ thuộc, mở mã nhân viên trên hệ thống tính lương (LU-01).
 - Khi nhân sự thôi việc: Quy trình Offboarding bắt buộc phải thực hiện thu hồi tài sản (`TS-01`), quyết toán dứt điểm các khoản tạm ứng (`TU-01`), thu hồi quyền truy cập ngân hàng điện tử (`VQ-17`), và hoàn tất thủ tục thanh toán tiền lương, trợ cấp thôi việc trong thời hạn theo pháp luật tối đa 14 ngày làm việc theo Bộ luật Lao động số 45/2019/QH14 Điều 48.
 
 ### 4. Nguyên tắc Trung tâm Kế toán và Nguồn dữ liệu tài chính duy nhất
@@ -93,7 +90,7 @@ Ma trận quy định rõ ràng điều kiện kích hoạt chuyển giao, đơn
 - Toàn bộ các báo cáo quản trị tài chính nội bộ ([[TC-01_Bang_theo_doi_dong_tien_va_suc_khoe_tai_chinh|TC-01]], [[NS-09_Bang_ke_hoach_va_phan_bo_ngan_sach_tai_chinh_nam|NS-09]], [[GC-01_Bang_tinh_gia_thanh_dich_vu_va_bien_loi_nhuan_khach_hang|GC-01]], [[UE-01_Bang_theo_doi_va_tinh_toan_chi_so_kinh_te_cac_ltv_commission|UE-01]], [[KP-01_Bang_theo_doi_chi_so_hieu_suat_kpi_toan_cong_ty|KP-01]], [[CT-01_Giay_di_duong_va_quyet_toan_cong_tac_phi|CT-01]], [[PM-01_Bang_theo_doi_thue_bao_phan_mem_noi_bo|PM-01]], [[TS-01_So_theo_doi_tai_san_va_cong_cu|TS-01]]) bắt buộc đọc và đối khớp 100% với số dư Sổ cái và Bảng cân đối phát sinh kế toán. Nghiêm cấm việc lập báo cáo bằng số liệu ước tính ngoài sổ sách.
 
 ### 5. Nguyên tắc Liên kết cơ học giữa Đo lường vận hành và Đánh giá hiệu suất
-- Điểm đánh giá hiệu suất chuyên môn Phần A của từng nhân sự (chiếm 75% tổng điểm theo [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]]) được trích xuất tự động và cơ học từ các Sổ theo dõi: tỷ lệ SLA từ [[CV-01_Bang_theo_doi_trang_thai_cong_viec_sla_va_kpi|CV-01]], lỗi chất lượng từ [[CL-01_So_theo_doi_kiem_soat_chat_luong_va_nhat_ky_sai_sot_capa|CL-01]], tỷ lệ tận dụng năng lực từ [[TS-02_Bang_theo_doi_gio_lam_viec_nang_suat_va_cong_suat_nhan_su|TS-02]], và khiếu nại từ [[KN-01_So_tiep_nhan_va_xu_ly_khieu_nai_khach_hang|KN-01]].
+- Điểm đánh giá hiệu suất chuyên môn Phần A của từng nhân sự (chiếm 75% tổng điểm theo OBK-QCNS-08) được trích xuất tự động và cơ học từ các Sổ theo dõi: tỷ lệ SLA từ CV-01, lỗi chất lượng từ CL-01, tỷ lệ tận dụng năng lực từ TS-02, và khiếu nại từ KN-01.
 - Không một cá nhân nào được tự ý điều chỉnh điểm Phần A nếu không có bằng chứng văn bản về việc khắc phục lỗi hoặc sự cố khách quan được phê duyệt hợp lệ.
 
 ## KÝ XÁC NHẬN
@@ -110,15 +107,6 @@ Ma trận quy định rõ ràng điều kiện kích hoạt chuyển giao, đơn
 
 Xóa bỏ tình trạng đứt gãy thông tin giữa các bộ phận chức năng; xác lập ranh giới trách nhiệm và thời hạn chuyển giao rõ ràng cho từng sự kiện tác nghiệp; liên kết dòng tiền thực tế với nghĩa vụ kế toán, hóa đơn và cam kết chất lượng dịch vụ; bảo đảm hệ thống vận hành trơn tru như một cỗ máy thống nhất, không để công việc bị rơi vào khoảng trống trách nhiệm.
 
-### 2. Căn cứ quy định và pháp luật liên quan
-
-| Mục | Nguồn | Nội dung |
-| --- | --- | --- |
-| Chuẩn vận hành dịch vụ | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] | Các nguyên tắc nền tảng NT-1 đến NT-8 và cơ chế giao tiếp |
-| Chuẩn vận hành nội bộ | [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo\|OBK-SOP-NB-00]] | Khung điều phối các chu trình nội bộ toàn công ty |
-| Bảng theo dõi công việc | [[CV-01_Bang_theo_doi_trang_thai_cong_viec_sla_va_kpi\|CV-01]] | Cơ chế điều khiển trạng thái 203 Job và cam kết SLA |
-| Bảng kinh tế đơn vị | [[UE-01_Bang_theo_doi_va_tinh_toan_chi_so_kinh_te_cac_ltv_commission\|UE-01]] | Cơ chế đối soát và kích hoạt hoa hồng hai chiều |
-| Quy chế tài chính nội bộ | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] | Phân cấp tài chính và thẩm quyền phê duyệt chi tiêu |
 
 ---
 
@@ -126,4 +114,4 @@ Xóa bỏ tình trạng đứt gãy thông tin giữa các bộ phận chức n�
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu MT-01 về Sổ cái OBK-MSR |

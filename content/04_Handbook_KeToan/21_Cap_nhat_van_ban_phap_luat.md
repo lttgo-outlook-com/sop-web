@@ -4,19 +4,16 @@ code: "OBK-SOP-21"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.0"
+version: "R.1.0.1"
 status: "đang áp dụng"
-draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 25/08/2026"
+draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
 parent: "OBK-SOP-KT Kế toán và thuế"
 next_review: "Định kỳ hằng quý"
 chapter: "Theo dõi và cập nhật văn bản pháp luật"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-SOP-21
 tags:
@@ -33,8 +30,8 @@ tags:
 | Mã tài liệu | OBK-SOP-21 |
 | Tên chương | Theo dõi và cập nhật văn bản pháp luật |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.1.0.0, đang áp dụng |
-| Ngày biên soạn | 01/10/2026 |
+| Phiên bản | R.1.0.1, đang áp dụng |
+| Ngày biên soạn | 04/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -50,8 +47,8 @@ tags:
 > [!danger] RỦI RO BỊ XỬ PHẠT
 > Trích dẫn một văn bản đã hết hiệu lực cho khách hàng là lỗi nghiêm trọng nhất mà một nhân viên dịch vụ kế toán có thể mắc. Lỗi đó dẫn tới hồ sơ sai, tư vấn sai, và tạo bằng chứng bằng văn bản chống lại chính oBacker. Trong giai đoạn 2025 tới 2026, xác suất mắc lỗi này cao bất thường vì khối lượng văn bản bị thay thế rất lớn.
 
-> [!question] CẦN XÁC MINH
-> Chương này không phải là nơi tra cứu nội dung pháp luật. Nội dung pháp luật nằm ở các chương nghiệp vụ và ở Phụ lục E. Chương này quy định CÁCH oBacker theo dõi, xác minh và cập nhật.
+> [!note] PHẠM VI ÁP DỤNG CỦA CHƯƠNG
+> Chương này quy định quy trình theo dõi, tra cứu, xác minh và cập nhật văn bản quy phạm pháp luật trong hoạt động vận hành của oBacker. Nội dung quy định chi tiết của từng sắc thuế và chế độ kế toán được tra cứu tại các chương nghiệp vụ tương ứng và Phụ lục E.
 
 ---
 
@@ -87,9 +84,9 @@ tags:
 
 ### 3.1. Căn cứ của chương này
 
-Chương này là quy trình nội bộ về cách theo dõi và áp dụng văn bản pháp luật mới. Căn cứ của chương này gồm hai phần. Một, quy định nội bộ: nguyên tắc `N2` không viết căn cứ pháp luật từ trí nhớ tại `01_NGUYEN_TAC_VIET`, và chuẩn xác minh tại `03_DichVu/01_OBK-SOP-00` mục 10. Hai, chính các văn bản pháp luật được theo dõi: danh mục đầy đủ nằm ở mục 6 của chương này và ở [[OBK-CC]] bảng văn bản.
+Chương này là quy trình nội bộ về cách theo dõi và áp dụng văn bản pháp luật mới. Căn cứ của chương này gồm hai nhóm. Nhóm một, quy định nội bộ: nguyên tắc `N2` không viết căn cứ pháp luật từ trí nhớ tại `01_NGUYEN_TAC_VIET`, và chuẩn xác minh tại `03_DichVu/01_OBK-SOP-00` mục 10. Nhóm hai, chính các văn bản pháp luật được theo dõi: danh mục đầy đủ nằm ở mục 6 của chương này và ở OBK-CC bảng văn bản.
 
-### 3.2. Vì sao chương này tồn tại
+### 3.2. Mục đích và ý nghĩa vận hành của chương
 
 #### 3.2.1. Bối cảnh 2025 tới 2026
 
@@ -116,7 +113,7 @@ Thông tư 58/2026/TT-BTC hướng dẫn chế độ kế toán cho doanh nghi�
 Điểm dễ sai: có một khoảng trống pháp lý từ 01/7/2026 tới 31/12/2026 đối với doanh nghiệp siêu nhỏ có năm tài chính trùng năm dương lịch. Thông tư 132/2018/TT-BTC hết hiệu lực kể từ ngày Thông tư 58/2026/TT-BTC có hiệu lực, tức từ 01/7/2026, còn Thông tư 58/2026/TT-BTC chỉ áp cho năm tài chính bắt đầu từ ngày hoặc sau ngày 01/7/2026, nên năm tài chính 2026 của nhóm khách này không nằm trong phạm vi Thông tư 58/2026 `[TT 58/2026 Đ.12 k.2]`.
 
 > [!note] ĐÃ TRẢ LỜI ĐƯỢC
-> Câu hỏi doanh nghiệp siêu nhỏ có được chọn thẳng Thông tư 99/2025/TT-BTC hay không nay đã có kết luận: **được**. Nguyên văn `[TT 99/2025 Đ.2 k.1]`: "Thông tư này hướng dẫn kế toán áp dụng cho các doanh nghiệp thuộc mọi lĩnh vực, mọi thành phần kinh tế." Khoản 2 của cùng Điều 2 chỉ loại trừ tổ chức tín dụng và chi nhánh ngân hàng nước ngoài, hai nhóm này thực hiện chế độ kế toán theo hướng dẫn của Ngân hàng Nhà nước Việt Nam `[TT 99/2025 Đ.2 k.2]`. Doanh nghiệp siêu nhỏ là doanh nghiệp và không thuộc hai nhóm bị loại trừ, nên nằm trong đối tượng áp dụng của Thông tư 99/2025/TT-BTC. Đây là căn cứ để bổ sung khoảng trống pháp lý nêu trên. Việc chọn chế độ kế toán cho từng khách vẫn do TL-KT quyết định theo sơ đồ quyết định tại Chương 08 mục 6.7, và AM là người thông báo kết quả cho khách.
+> Câu hỏi doanh nghiệp siêu nhỏ có được chọn thẳng Thông tư 99/2025/TT-BTC hay không nay đã có kết luận: **được**. Nguyên văn `[TT 99/2025 Đ.2 k.1]`: "Thông tư này hướng dẫn kế toán áp dụng cho các doanh nghiệp thuộc mọi lĩnh vực, mọi thành phần kinh tế." Khoản 2 của cùng Điều 2 chỉ loại trừ tổ chức tín dụng và chi nhánh ngân hàng nước ngoài, hai nhóm này thực hiện chế độ kế toán theo hướng dẫn của Ngân hàng Nhà nước Việt Nam `[TT 99/2025 Đ.2 k.2]`. Doanh nghiệp siêu nhỏ là doanh nghiệp và không thuộc hai nhóm bị loại trừ, nên nằm trong đối tượng áp dụng của Thông tư 99/2025/TT-BTC. Đây là căn cứ để bổ sung khoảng trống pháp lý nêu trên. Việc chọn chế độ kế toán cho từng khách vẫn do TL-KT quyết định theo sơ đồ quyết định tại Chương 08 mục 5.7, và AM là người thông báo kết quả cho khách.
 
 Chương bị ảnh hưởng: 06, 07, 08.
 
@@ -303,7 +300,7 @@ Quy tắc theo dõi bốn văn bản còn hiệu lực trong bảng trên: mỗi
 
 ### 6.2. QUY TRÌNH ĐÁNH GIÁ TÁC ĐỘNG
 
-#### 6.2.1. Chín bước từ phát hiện tới hoàn tất
+#### 6.2.1. Quy trình các bước từ phát hiện tới hoàn tất cập nhật
 
 Quy định nội bộ oBacker.
 
@@ -409,7 +406,7 @@ Quy định nội bộ oBacker. Biểu mẫu đầy đủ tại Phụ lục B.
 #### 6.2.3. Phân loại mức ưu tiên
 
 > [!note] BẢN GỐC ĐÃ CHUYỂN LÊN CẤP 1 ngày 07/09/2026
-> Bốn mức ưu tiên và ba mốc 05, 10, 20 ngày làm việc nay ĐẶT tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 12.3a. Lý do chuyển: bảng này điều khiển mốc của Legal R&D Team và của cả bốn bộ phận thuộc Phòng Dịch vụ, nên bảng này không thuộc hướng dẫn cấp 3 của một bộ phận. Chương này chỉ dẫn chiếu, không chép lại con số.
+> Bốn mức ưu tiên và ba mốc 05, 10, 20 ngày làm việc nay ĐẶT tại OBK-SOP-00 mục 12.3a. Lý do chuyển: bảng này điều khiển mốc của Legal R&D Team và của cả bốn bộ phận thuộc Phòng Dịch vụ, nên bảng này không thuộc hướng dẫn cấp 3 của một bộ phận. Chương này chỉ dẫn chiếu, không chép lại con số.
 
 Cách dùng ở chương này: mọi chỗ trong chương ghi "theo mức ưu tiên" thì mở [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 12.3a để lấy mốc. Job `RD-04` phân mức, Job `RD-05` lập bản đánh giá tác động theo mốc của mức đã phân, xem [[07_OBK-SOP-RD_Nghien_cuu_phap_ly|OBK-SOP-RD]].
 
@@ -484,7 +481,7 @@ oBacker duy trì theo dõi các nội dung chưa xác định được văn bả
 | Chưa xác định được văn bản nào điều chỉnh | T1 việc lùi thời hạn tạm nộp thuế TNDN quý 2 năm 2026;<br>T4 nơi nộp báo cáo tài chính năm | 07, 10, 14, 17, Phụ lục C |
 | Đã biết là văn bản nào nhưng chưa có bản gốc | (đã đóng, Thông tư 41/2026/TT-BTC đã có trong kho) | 11 |
 
-T2 (văn bản xử phạt vi phạm hành chính lĩnh vực phí, lệ phí), T3 (văn bản xử phạt vi phạm hành chính lĩnh vực kế hoạch và đầu tư), T5 (nghị định xử phạt vi phạm hành chính lĩnh vực kế toán, kiểm toán độc lập) và T6 (nghị định về bảo quản, lưu trữ tài liệu kế toán) đã đóng: văn bản đã xác định và có bản gốc trong kho, xem Nghị định 02/2026/NĐ-CP (T2), Nghị định 122/2021/NĐ-CP sửa đổi bởi Nghị định 288/2026/NĐ-CP (T3), Nghị định 41/2018/NĐ-CP sửa đổi bởi Nghị định 132/2026/NĐ-CP và Nghị định 228/2025/NĐ-CP (T5) tại Chương 17 mục 6.2, và Nghị định 174/2016/NĐ-CP (T6) tại Chương 01 mục 6.11.4. Với T5, mức phạt cho hành vi bố trí hoặc thuê kế toán trưởng không đủ tiêu chuẩn đã có căn cứ; mức phạt cho 13 hành vi còn lại bị nghiêm cấm tại Điều 13 Luật Kế toán chưa đối chiếu được Điều khớp, xem Chương 01 mục 3.2.
+T2 (văn bản xử phạt vi phạm hành chính lĩnh vực phí, lệ phí), T3 (văn bản xử phạt vi phạm hành chính lĩnh vực kế hoạch và đầu tư), T5 (nghị định xử phạt vi phạm hành chính lĩnh vực kế toán, kiểm toán độc lập) và T6 (nghị định về bảo quản, lưu trữ tài liệu kế toán) đã đóng: văn bản đã xác định và có bản gốc trong kho, xem Nghị định 02/2026/NĐ-CP (T2), Nghị định 122/2021/NĐ-CP sửa đổi bởi Nghị định 288/2026/NĐ-CP (T3), Nghị định 41/2018/NĐ-CP sửa đổi bởi Nghị định 132/2026/NĐ-CP và Nghị định 228/2025/NĐ-CP (T5) tại Chương 17 mục 5.2, và Nghị định 174/2016/NĐ-CP (T6) tại Chương 01 mục 5.11.4. Với T5, mức phạt cho hành vi bố trí hoặc thuê kế toán trưởng không đủ tiêu chuẩn đã có căn cứ; mức phạt cho 13 hành vi còn lại bị nghiêm cấm tại Điều 13 Luật Kế toán chưa đối chiếu được Điều khớp, xem Chương 01 mục 3.2.
 
 Quy tắc xử lý trong lúc chờ, áp cho cả 03 dòng còn lại:
 
@@ -520,7 +517,7 @@ Bốn tình huống dễ mắc:
 
 #### 6.4.2. Cấm trả lời khách bằng kiến thức từ trí nhớ
 
-Đã quy định tại Chương 19 mục 6.6.1. Nhắc lại ở đây vì đây là nơi giải thích lý do.
+Đã quy định tại Chương 19 mục 6.6.1; mục này dẫn lại quy định đó cùng lý do.
 
 Lý do: xem sáu ví dụ tại mục 3.2. Trong vòng 14 tháng, chế độ kế toán doanh nghiệp, chế độ kế toán doanh nghiệp siêu nhỏ, luật quản lý thuế, nghị định hóa đơn, thông tư quản lý thuế đều đã bị thay thế, và một sắc thu đã bị bãi bỏ hoàn toàn. Trí nhớ nghề nghiệp tích lũy trước 2025 không còn là tài sản đáng tin cậy trong việc trả lời khách; trí nhớ đó chỉ còn giá trị để nhận biết mình cần tra ở đâu.
 
@@ -816,7 +813,7 @@ Quy tắc ghi:
 | Mô hình dịch vụ, phạm vi tư vấn theo từng gói | Chương 02 |
 | Danh mục văn bản đang áp dụng, đã hết hiệu lực, cần bổ sung, và danh mục chờ xác minh | Phụ lục E |
 | Ba chế độ kế toán tồn tại song song và cách chọn cho khách | Chương 08 |
-| Cách bổ sung khoảng trống pháp lý Thông tư 58/2026/TT-BTC bằng Thông tư 99/2025 Điều 2 khoản 1 | Chương 08 mục 6.7 |
+| Cách bổ sung khoảng trống pháp lý Thông tư 58/2026/TT-BTC bằng Thông tư 99/2025 Điều 2 khoản 1 | Chương 08 mục 5.7 |
 | Các nội dung chưa có văn bản quy định, giữ trạng thái chưa xác minh được | Mục 6.3.5 của chương này |
 | Mốc thời hạn nộp hồ sơ khai thuế theo Nghị định 252/2026 Điều 10 | Chương 13 mục A.2, A.3 |
 | Kiểm tra thuế và ranh giới với thanh tra theo Luật Thanh tra 84/2025 | Chương 16 |
@@ -832,4 +829,4 @@ Quy tắc ghi:
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.0.1 | Bỏ lối tự sự ở căn cứ và mục dẫn lại. |

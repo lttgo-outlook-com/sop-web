@@ -4,19 +4,15 @@ code: "OBK-SOP-NB-17"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.0"
+version: "R.1.0.1"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 27/09/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-SOP-NB-00 Chuẩn vận hành nội bộ"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-SOP-NB-17
 tags:
@@ -32,7 +28,7 @@ tags:
 | Mã tài liệu | OBK-SOP-NB-17 |
 | Tên tài liệu | Quy trình lập kế hoạch kinh doanh, kế hoạch tài chính và phân bổ hạn mức ngân sách hoạt động năm |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ. Thi hành Điều 22 [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Quy chế tài chính nội bộ |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.0.1, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 27/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -49,7 +45,7 @@ tags:
 ## CẢNH BÁO MỞ ĐẦU
 
 > [!warning] NGUYÊN TẮC KỶ LUẬT NGÂN SÁCH VÀ DỰ PHÒNG THANH KHOẢN
-> Mọi khoản chi tiêu tại Công ty cổ phần oBacker đều phải nằm trong dự toán ngân sách đã được Hội đồng quản trị (`HĐQT`) hoặc Tổng giám đốc (`CEO`) phê duyệt theo đúng thẩm quyền quy định tại Điều 22 [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]]. Kế hoạch ngân sách năm phải bảo đảm hai điều kiện an toàn tài chính bắt buộc: thời gian dự phòng tiền mặt (Runway) luôn duy trì từ 03 tháng chi phí hoạt động trở lên theo Điều 34 [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]], và tổng chi phí nhân sự không vượt quá 45% doanh thu thuần. Nghiêm cấm giải ngân các khoản chi vượt hạn mức khi chưa hoàn tất thủ tục phê duyệt điều chuyển hoặc bổ sung ngân sách.
+> Mọi khoản chi tiêu tại Công ty cổ phần oBacker đều phải nằm trong dự toán ngân sách đã được Hội đồng quản trị (`HĐQT`) hoặc Tổng giám đốc (`CEO`) phê duyệt theo đúng thẩm quyền quy định tại Điều 22 Quy chế tài chính nội bộ (OBK-QCTC-01). Kế hoạch ngân sách năm phải bảo đảm hai điều kiện an toàn tài chính bắt buộc: thời gian dự phòng tiền mặt (Runway) luôn duy trì từ 03 tháng chi phí hoạt động trở lên theo Điều 34 OBK-QCTC-01, và tổng chi phí nhân sự không vượt quá 45% doanh thu thuần. Nghiêm cấm giải ngân các khoản chi vượt hạn mức khi chưa hoàn tất thủ tục phê duyệt điều chuyển hoặc bổ sung ngân sách.
 
 ---
 
@@ -58,9 +54,9 @@ tags:
 Quy định thống nhất chu trình lập kế hoạch kinh doanh, kế hoạch tài chính và phân bổ hạn mức ngân sách hoạt động hằng năm tại Công ty cổ phần oBacker, đồng thời thiết lập cơ chế giám sát và phân tích phương sai ngân sách định kỳ. Bốn mục tiêu cụ thể:
 
 1. Thiết lập chu trình lập kế hoạch hằng năm từ tháng 11 đến tháng 12 năm trước, bảo đảm mục tiêu kinh doanh gắn liền với kế hoạch ngân sách khả thi và có căn cứ dữ liệu thực tế.
-2. Kiểm soát chặt chẽ các chỉ tiêu sức khỏe tài chính cốt lõi: doanh thu định kỳ hằng tháng (MRR), doanh thu định kỳ hằng năm (ARR), dòng tiền thuần (Net Cash Flow), điểm hòa vốn (Break-even Point), tỷ suất lợi nhuận gộp dịch vụ từ 50% trở lên và dự phòng ngân quỹ tiền mặt duy trì từ 03 tháng chi phí hoạt động trở lên theo Điều 34 [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]].
-3. Phân bổ hạn mức ngân sách chi phí hoạt động (OPEX) và ngân sách đầu tư (CAPEX) chi tiết cho từng bộ phận theo biểu mẫu [[NS-09_Bang_ke_hoach_va_phan_bo_ngan_sach_tai_chinh_nam|NS-09]], khống chế tỷ lệ chi phí nhân sự không vượt quá 45% doanh thu thuần toàn công ty.
-4. Chuẩn hóa cơ chế phân tích phương sai ngân sách (Budget Variance Analysis) hằng tháng và hằng quý với ngưỡng dung sai $\pm 5\%$, xác định rõ thẩm quyền và quy trình phê duyệt bổ sung ngân sách vượt hạn mức của `CEO` và `HĐQT` theo Điều 22 [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]].
+2. Kiểm soát chặt chẽ các chỉ tiêu sức khỏe tài chính cốt lõi: doanh thu định kỳ hằng tháng (MRR), doanh thu định kỳ hằng năm (ARR), dòng tiền thuần (Net Cash Flow), điểm hòa vốn (Break-even Point); tỷ suất lợi nhuận gộp dịch vụ từ 50% trở lên; và dự phòng ngân quỹ tiền mặt duy trì từ 03 tháng chi phí hoạt động trở lên theo Điều 34 OBK-QCTC-01.
+3. Phân bổ hạn mức ngân sách chi phí hoạt động (OPEX) và ngân sách đầu tư (CAPEX) chi tiết cho từng bộ phận theo biểu mẫu NS-09, khống chế tỷ lệ chi phí nhân sự không vượt quá 45% doanh thu thuần toàn công ty.
+4. Chuẩn hóa cơ chế phân tích phương sai ngân sách (Budget Variance Analysis) hằng tháng và hằng quý với ngưỡng dung sai $\pm 5\%$; xác định rõ thẩm quyền và quy trình phê duyệt bổ sung ngân sách vượt hạn mức của `CEO` và `HĐQT` theo Điều 22 OBK-QCTC-01.
 
 ---
 
@@ -76,22 +72,12 @@ Quy định thống nhất chu trình lập kế hoạch kinh doanh, kế hoạc
 
 **Ngoài phạm vi:**
 - Trình tự mua sắm và thanh toán cụ thể cho từng khoản chi thực tế (thực hiện theo [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]]);
-- Trình tự thu tiền, theo dõi công nợ phải thu và nhắc nợ chi tiết từng khách hàng (thực hiện theo [[OBK-SOP-NB-02_Thu_tien_va_cong_no_phai_thu|OBK-SOP-NB-02]]);
+- Trình tự thu tiền, theo dõi công nợ phải thu và nhắc nợ chi tiết từng khách hàng (thực hiện theo OBK-SOP-NB-02);
 - Thao tác mở tài khoản ngân hàng, phân quyền người dùng và kiểm kê quỹ tiền mặt hằng ngày (thực hiện theo [[OBK-SOP-NB-03_Quan_ly_tien|OBK-SOP-NB-03]]).
 
 ---
 
-## 3. Căn cứ pháp lý
-
-- Luật Doanh nghiệp số 59/2020/QH14 ngày 17/06/2020: Điều 153 (Quyền và nghĩa vụ của Hội đồng quản trị trong việc phê duyệt kế hoạch phát triển trung hạn và kế hoạch kinh doanh hằng năm), Điều 162 (Quyền và nghĩa vụ của Giám đốc hoặc Tổng giám đốc trong việc tổ chức thực hiện kế hoạch kinh doanh và phương án đầu tư);
-- Luật Kế toán số 88/2015/QH13 (VBHN 41/VBHN-VPQH) ngày 20/11/2015: Điều 10 (Nguyên tắc kế toán), Điều 12 (Kỳ kế toán), Điều 40 (Kiểm kê tài sản);
-- Thông tư số 99/2025/TT-BTC ngày 29/12/2025 của Bộ Tài chính: hướng dẫn chế độ kế toán doanh nghiệp, hạch toán doanh thu cung cấp dịch vụ (Tài khoản 511), doanh thu chưa thực hiện (Tài khoản 3387), chi phí quản lý kinh doanh (Tài khoản 642), tiền gửi ngân hàng (Tài khoản 112);
-- [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] Quy chế tài chính nội bộ: Điều 22 (Ngân sách hoạt động), Điều 34 (Quản lý tài khoản và dự phòng tiền mặt tối thiểu 03 tháng), Điều 12 và 13 (Mua sắm và thẩm quyền phê duyệt chi phí);
-- [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo|OBK-SOP-NB-00]] Chuẩn vận hành nội bộ (Job `NB-08` Rà soát ngân sách bộ phận, Job `NB-21` Lập kế hoạch dòng tiền).
-
----
-
-## 4. Vai trò và trách nhiệm
+## 3. Vai trò và trách nhiệm
 
 | Vai trò | Trách nhiệm trong chu trình lập và kiểm soát ngân sách | Thẩm quyền và giới hạn |
 | --- | --- | --- |
@@ -104,7 +90,7 @@ Quy định thống nhất chu trình lập kế hoạch kinh doanh, kế hoạc
 
 ---
 
-## 5. Đầu vào bắt buộc
+## 4. Đầu vào bắt buộc
 
 1. Mục tiêu chiến lược phát triển và chỉ tiêu kinh doanh năm kế hoạch do `HĐQT` và `CEO` ban hành (trước ngày 01/11);
 2. Dữ liệu thực hiện kinh doanh và tài chính 10 tháng năm hiện tại, kèm ước tính thực hiện 02 tháng cuối năm;
@@ -112,11 +98,11 @@ Quy định thống nhất chu trình lập kế hoạch kinh doanh, kế hoạc
 4. Kế hoạch định biên nhân sự, quỹ lương chức danh và biến động nhân sự năm kế hoạch do bộ phận Nhân sự phối hợp các `TL` xây dựng theo [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]];
 5. Bảng theo dõi thuê bao phần mềm và hạ tầng công nghệ [[PM-01_Bang_theo_doi_thue_bao_phan_mem_noi_bo|PM-01]];
 6. Danh mục tài sản cố định và nhu cầu trang bị công cụ dụng cụ [[TS-01_So_theo_doi_tai_san_va_cong_cu|TS-01]];
-7. Biểu mẫu dự toán ngân sách chi tiết 12 tháng của các bộ phận theo mẫu biểu [[NS-09_Bang_ke_hoach_va_phan_bo_ngan_sach_tai_chinh_nam|NS-09]].
+7. Biểu mẫu dự toán ngân sách chi tiết 12 tháng của các bộ phận theo mẫu biểu NS-09.
 
 ---
 
-## 6. Các bước thực hiện
+## 5. Các bước thực hiện
 
 ```
 [GIAI ĐOẠN I: LẬP VÀ PHÊ DUYỆT KẾ HOẠCH NĂM (THÁNG 11 - THÁNG 12)]
@@ -141,7 +127,7 @@ Theo dõi hằng tháng (Job NB-08) → Đo lường dung sai ±5% → Phê duy�
    - Cơ cấu nguồn thu: xác định chỉ tiêu doanh thu định kỳ hằng tháng (MRR) chiếm tỷ trọng tối thiểu 60% tổng doanh thu, doanh thu định kỳ hằng năm (ARR) và doanh thu hợp đồng vụ việc;
    - Chỉ tiêu số lượng khách hàng mới và tỷ lệ giữ chân khách hàng định kỳ (đạt từ 85% trở lên);
    - Khung giới hạn chi phí hoạt động toàn công ty và giới hạn chi phí nhân sự (không vượt quá 45% doanh thu thuần).
-2. `KTT` ban hành hướng dẫn lập dự toán và gửi mẫu biểu [[NS-09_Bang_ke_hoach_va_phan_bo_ngan_sach_tai_chinh_nam|NS-09]] cho toàn bộ các `TL` trước ngày 10/11.
+2. `KTT` ban hành hướng dẫn lập dự toán và gửi mẫu biểu NS-09 cho toàn bộ các `TL` trước ngày 10/11.
 
 ### Bước 2: Lập kế hoạch kinh doanh và dự toán ngân sách bộ phận (11/11 - 25/11)
 
@@ -167,7 +153,7 @@ Theo dõi hằng tháng (Job NB-08) → Đo lường dung sai ±5% → Phê duy�
    - Tính toán mức doanh thu tối thiểu cần đạt để trang trải toàn bộ chi phí hoạt động.
 3. **Kiểm soát thời gian dự phòng tiền mặt (Runway):**
    - Tính toán số dư tiền khả dụng bình quân cuối mỗi tháng chia cho mức chi phí hoạt động bình quân 01 tháng;
-   - Bắt buộc bảo đảm chỉ số Runway luôn duy trì từ 03 tháng trở lên theo quy định tại Điều 34 [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]]. Nếu có tháng dự phóng Runway giảm dưới 03 tháng, `KTT` yêu cầu cắt giảm các khoản chi chưa cấp bách hoặc điều chỉnh giãn tiến độ đầu tư.
+    - Bắt buộc bảo đảm chỉ số Runway luôn duy trì từ 03 tháng trở lên theo quy định tại Điều 34 OBK-QCTC-01. Nếu có tháng dự phóng Runway giảm dưới 03 tháng, `KTT` yêu cầu cắt giảm các khoản chi chưa cấp bách hoặc điều chỉnh giãn tiến độ đầu tư.
 4. **Kiểm soát tỷ lệ chi phí nhân sự (Personnel Cost Ratio - PCR):**
    - Tổng chi phí nhân sự (gồm lương chức danh, phụ cấp, thưởng KPI, trích nộp bảo hiểm xã hội, BHYT, BHTN) chia cho doanh thu thuần;
    - Bắt buộc kiểm soát tỷ lệ PCR không vượt quá 45% doanh thu thuần. Trường hợp vượt quá 45%, `KTT` chuyển hồ sơ cho `COO` và `CEO` xem xét điều chỉnh định biên nhân sự.
@@ -176,7 +162,7 @@ Theo dõi hằng tháng (Job NB-08) → Đo lường dung sai ±5% → Phê duy�
 
 ### Bước 4: Hoàn thiện hồ sơ ngân sách và Bảng phân bổ NS-09 (06/12 - 15/12)
 
-1. `KTT` hoàn thiện Bảng kế hoạch và phân bổ ngân sách tài chính năm [[NS-09_Bang_ke_hoach_va_phan_bo_ngan_sach_tai_chinh_nam|NS-09]], tổng hợp đầy đủ số liệu 12 tháng cho toàn công ty và từng bộ phận.
+1. `KTT` hoàn thiện Bảng kế hoạch và phân bổ ngân sách tài chính năm (mẫu NS-09), tổng hợp đầy đủ số liệu 12 tháng cho toàn công ty và từng bộ phận.
 2. `KTT` lập Báo cáo thuyết minh ngân sách năm nêu rõ:
    - Căn cứ xây dựng mục tiêu doanh thu và chi phí;
    - Các giả định chính về thị trường và nhân sự;
@@ -187,36 +173,36 @@ Theo dõi hằng tháng (Job NB-08) → Đo lường dung sai ±5% → Phê duy�
 ### Bước 5: Trình HĐQT phê duyệt và ban hành phân bổ ngân sách (16/12 - 25/12)
 
 1. `CEO` gửi hồ sơ kế hoạch kinh doanh và ngân sách tài chính năm cho các thành viên `HĐQT` nghiên cứu trước phiên họp tối thiểu 03 ngày làm việc.
-2. `HĐQT` họp xem xét, thảo luận và biểu quyết thông qua Nghị quyết phê duyệt kế hoạch kinh doanh và ngân sách năm trước ngày **25/12** theo quy định tại Điều 22.1 [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]].
+2. `HĐQT` họp xem xét, thảo luận và biểu quyết thông qua Nghị quyết phê duyệt kế hoạch kinh doanh và ngân sách năm trước ngày **25/12** theo quy định tại Điều 22.1 OBK-QCTC-01.
 3. Căn cứ Nghị quyết của `HĐQT`, `CEO` ban hành Quyết định giao hạn mức ngân sách hoạt động năm cho từng bộ phận trước ngày 31/12 để làm căn cứ thực thi từ ngày 01/01 năm kế hoạch.
 
 ### Quản trị thực thi và kiểm soát phương sai ngân sách trong năm
 
 1. **Theo dõi thực hiện định kỳ hằng tháng (Job `NB-08`):**
-   - Trong 05 ngày làm việc đầu tháng sau, `KTV` nội bộ kết xuất số liệu chi tiêu thực tế từ sổ kế toán, đối chiếu với dự toán tháng theo biểu mẫu [[NS-09_Bang_ke_hoach_va_phan_bo_ngan_sach_tai_chinh_nam|NS-09]];
+    - Trong 05 ngày làm việc đầu tháng sau, `KTV` nội bộ kết xuất số liệu chi tiêu thực tế từ sổ kế toán, đối chiếu với dự toán tháng theo biểu mẫu NS-09;
    - Lập Báo cáo thực hiện ngân sách theo từng dòng chi phí của từng bộ phận gửi `TL`, `KTT` và `CEO`.
 2. **Cơ chế kiểm soát phương sai ngân sách (Budget Variance Analysis):**
    - Phương sai được xác định theo tỷ lệ phần trăm chênh lệch:
      $$\% \text{Phương sai} = \frac{\text{Chi phí thực tế} - \text{Ngân sách dự toán}}{\text{Ngân sách dự toán}} \times 100\%$$
    - **Ngưỡng dung sai chuẩn:** $\pm 5\%$.
      * Trường hợp phương sai nằm trong khoảng $[-5\%, +5\%]$: chi tiêu trong tầm kiểm soát, chủ dòng ngân sách tiếp tục thực hiện hoạt động bình thường;
-     * Trường hợp phương sai chi phí vượt quá $+5\%$: chủ dòng ngân sách (`TL`) bắt buộc phải lập Báo cáo giải trình phương sai ngân sách gửi `KTT` và `CEO` trong thời hạn 03 ngày làm việc kể từ khi nhận báo cáo Job `NB-08`, phân tích nguyên nhân và đề xuất biện pháp tiết giảm chi phí ở các tháng tiếp theo để bảo đảm cân đối cả quý;
+     * Trường hợp phương sai chi phí vượt quá $+5\%$: chủ dòng ngân sách (`TL`) bắt buộc phải lập Báo cáo giải trình phương sai ngân sách gửi `KTT` và `CEO` trong thời hạn 03 ngày làm việc kể từ khi nhận báo cáo Job `NB-08`; phân tích nguyên nhân và đề xuất biện pháp tiết giảm chi phí ở các tháng tiếp theo để bảo đảm cân đối cả quý;
      * Trường hợp phương sai doanh thu giảm quá $-5\%$: bộ phận Thương mại phải báo cáo nguyên nhân và kế hoạch đẩy mạnh bán hàng khắc phục khoảng thiếu hụt.
 3. **Quy trình điều chuyển và phê duyệt bổ sung ngân sách vượt hạn mức:**
    - **Trường hợp 1: Điều chuyển nội bộ giữa các dòng ngân sách trong thẩm quyền `CEO`:**
      * Áp dụng khi một bộ phận có nhu cầu chi vượt hạn mức ở một dòng chi phí nhưng có khả năng tiết giảm tương ứng ở dòng chi phí khác, hoặc điều chuyển giữa các bộ phận;
-     * Mức điều chuyển tối đa không quá **10% giá trị của dòng bị giảm** theo quy định tại Điều 22.2 [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]];
+      * Mức điều chuyển tối đa không quá **10% giá trị của dòng bị giảm** theo quy định tại Điều 22.2 OBK-QCTC-01;
      * `TL` lập Phiếu đề xuất điều chuyển ngân sách -> `KTT` thẩm định tính cân đối -> `CEO` phê duyệt bằng văn bản. `CEO` có trách nhiệm báo cáo `HĐQT` về các khoản điều chuyển này tại kỳ họp gần nhất;
    - **Trường hợp 2: Điều chuyển vượt quá 10% hoặc bổ sung ngân sách ngoài kế hoạch:**
      * Áp dụng khi phát sinh nhu cầu chi tiêu đặc thù, biến động thị trường lớn hoặc cơ hội đầu tư mới làm vượt quá 10% dòng ngân sách hoặc làm tăng tổng hạn mức chi phí năm của công ty;
      * `CEO` lập Tờ trình điều chỉnh ngân sách gửi `HĐQT`;
      * Khoản chi chỉ được phép giải ngân sau khi có Nghị quyết phê chuẩn chính thức của `HĐQT`;
    - **Xử lý khoản chi phát sinh ngoài ngân sách chưa được phê duyệt bổ sung:**
-     * Khoản chi ngoài ngân sách bắt buộc phải nâng một bậc duyệt theo quy định tại mục 6.2.2 [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]].
+      * Khoản chi ngoài ngân sách bắt buộc phải nâng một bậc duyệt theo quy định tại mục 5.2.2 OBK-SOP-NB-01.
 
 ---
 
-## 7. Điểm kiểm soát bắt buộc
+## 6. Điểm kiểm soát bắt buộc
 
 | Mã chốt | Điểm kiểm soát | Thời điểm kiểm tra | Người kiểm | Xử lý khi không đạt |
 | --- | --- | --- | --- | --- |
@@ -229,7 +215,7 @@ Theo dõi hằng tháng (Job NB-08) → Đo lường dung sai ±5% → Phê duy�
 
 ---
 
-## 8. Lỗi thường gặp và cách xử lý
+## 7. Lỗi thường gặp và cách xử lý
 
 1. **Lập ngân sách theo phương pháp sao chép số liệu cũ mà không phân tích thực tế:**
    - *Hậu quả:* Ngân sách không phản ánh đúng định hướng tăng trưởng, không dự trù đủ nguồn lực cho dịch vụ mới hoặc lãng phí chi phí ở các bộ phận không còn trọng tâm;
@@ -249,7 +235,7 @@ Theo dõi hằng tháng (Job NB-08) → Đo lường dung sai ±5% → Phê duy�
 
 ---
 
-## 9. Đầu ra và nơi lưu
+## 8. Đầu ra và nơi lưu
 
 | Sản phẩm đầu ra | Định dạng | Trách nhiệm lưu trữ | Nơi lưu trữ | Thời hạn lưu trữ |
 | --- | --- | --- | --- | --- |
@@ -262,7 +248,7 @@ Theo dõi hằng tháng (Job NB-08) → Đo lường dung sai ±5% → Phê duy�
 
 ---
 
-## 10. Chỉ số theo dõi
+## 9. Chỉ số theo dõi
 
 | Mã chỉ số | Tên chỉ số | Cách đo lường | Mục tiêu kiểm soát | Tần suất | Người theo dõi |
 | --- | --- | --- | --- | --- | --- |
@@ -280,7 +266,7 @@ Theo dõi hằng tháng (Job NB-08) → Đo lường dung sai ±5% → Phê duy�
 - [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] Quy chế tài chính nội bộ (Điều 22, Điều 34, Điều 12, Điều 13);
 - [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo|OBK-SOP-NB-00]] Chuẩn vận hành nội bộ (Job `NB-08` Rà soát ngân sách bộ phận, Job `NB-21` Lập kế hoạch dòng tiền);
 - [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]] Quy trình mua sắm và thanh toán nội bộ;
-- [[OBK-SOP-NB-02_Thu_tien_va_cong_no_phai_thu|OBK-SOP-NB-02]] Quy trình thu tiền và công nợ phải thu;
+- OBK-SOP-NB-02 Quy trình thu tiền và công nợ phải thu;
 - [[OBK-SOP-NB-03_Quan_ly_tien|OBK-SOP-NB-03]] Quy trình quản lý tiền mặt và ngân hàng;
 - [[NS-09_Bang_ke_hoach_va_phan_bo_ngan_sach_tai_chinh_nam|NS-09]] Bảng kế hoạch và phân bổ ngân sách tài chính năm;
 - [[TC-01_Bang_theo_doi_dong_tien_va_suc_khoe_tai_chinh|TC-01]] Bảng theo dõi dòng tiền và sức khỏe tài chính;
@@ -293,4 +279,4 @@ Theo dõi hằng tháng (Job NB-08) → Đo lường dung sai ±5% → Phê duy�
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 30/09/2026 | R.1.0.1 | Chia 5 câu dài ở mục đích, căn cứ pháp lý và ngưỡng dung sai phương sai ngân sách thành câu ngắn, không đổi nghĩa |

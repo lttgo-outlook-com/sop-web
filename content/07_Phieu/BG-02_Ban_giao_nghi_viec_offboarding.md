@@ -4,19 +4,15 @@ code: "BG-02"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-TTT-05 Cách làm phiếu thao tác"
-law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - BG-02
 tags:
@@ -29,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | BG-02 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -38,8 +34,9 @@ tags:
 | **Mã phiếu** | BG-02 |
 | **Màu** | ĐỎ, phiếu kiểm soát rủi ro |
 | **Ai dùng** | Nhân sự nghỉ việc, Quản lý trực tiếp (`TL`), `AD-KT`, `KTV`, và `HR` |
-| **Sinh từ** | [[OBK-SOP-NB-06_Nghi_viec_va_offboarding_noi_bo\|OBK-SOP-NB-06]] mục 6.3;<br>Quyết định `VQ-17` |
+| **Sinh từ** | [[OBK-SOP-NB-06_Nghi_viec_va_offboarding_noi_bo\|OBK-SOP-NB-06]] mục 5.3;<br>Quyết định `VQ-17` |
 | **Ngày làm phiếu** | 27/09/2026 |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
@@ -99,12 +96,6 @@ Khi đủ 5 chữ ký xác nhận của các bộ phận, `HR` trình `CEO` ký 
 
 Kiểm soát chặt chẽ việc thu hồi quyền truy cập tài chính (ngân hàng điện tử), bí mật thông tin khách hàng, thu hồi tài sản công ty và thanh toán đúng hạn các nghĩa vụ pháp lý đối với người lao động.
 
-### 2. Căn cứ quy định và pháp luật liên quan
-
-| Mục | Nguồn | Nội dung |
-| --- | --- | --- |
-| Thu hồi quyền ngân hàng | [[OBK-SOP-NB-03_Quan_ly_tien\|OBK-SOP-NB-03]] mục 6.5.1 | Thu hồi quyền ngân hàng điện tử ngay trong ngày nghỉ việc |
-| Thanh toán chế độ | [[OBK-SOP-NB-06_Nghi_viec_va_offboarding_noi_bo\|OBK-SOP-NB-06]] mục 6.4 | Thanh toán tiền lương và trợ cấp thôi việc trong 14 ngày làm việc theo CC-LD-28 |
 
 ---
 
@@ -112,4 +103,4 @@ Kiểm soát chặt chẽ việc thu hồi quyền truy cập tài chính (ngân
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu BG-02 về Sổ cái OBK-MSR |

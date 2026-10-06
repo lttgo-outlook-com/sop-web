@@ -2,7 +2,7 @@
 title: "ĐIỀU KHOẢN VÀ ĐIỀU KIỆN DỊCH VỤ (BẢN ĐIỀU KHOẢN CHUNG)"
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.1.1"
+version: "R.2.1.0"
 status: "đang áp dụng"
 language: "vi"
 distribution: "Khách hàng"
@@ -19,7 +19,7 @@ Trụ sở chính: Tầng 2, 06 Trần Phú, Phường Hải Châu, TP Đà Nẵ
 Văn phòng TP.HCM: 15 Hoàng Kế Viêm, Phường Bảy Hiền, TP. Hồ Chí Minh, Việt Nam
 Văn phòng Đà Nẵng: Số 54 đường Khuê Mỹ Đông 7, Phường Ngũ Hành Sơn, TP Đà Nẵng, Việt Nam
 
-**Phiên bản:** R.1.1.1 (VI-EN) · **Cập nhật:** 01/10/2026
+**Phiên bản:** R.2.1.0 (VI-EN) · **Cập nhật:** 02/10/2026
 
 ---
 
@@ -253,7 +253,7 @@ Dịch Vụ Kế toán & Thuế được điều chỉnh chi tiết tại **PL-K
 - **Thuế doanh nghiệp:** kê khai và nộp GTGT, tạm nộp & quyết toán TNDN, **kê khai thuế nhà thầu nước ngoài (FCT) khi phát sinh**; theo dõi và thông báo nghĩa vụ thuế.
 - **Hóa đơn điện tử:** thiết lập, kích hoạt hệ thống hóa đơn điện tử theo NĐ 254/2026/NĐ-CP và TT 91/2026/TT-BTC.
 
-**Kê khai thuế nhà thầu nước ngoài (FCT):** Việc kê khai FCT khi Quý Khách thanh toán cho nhà cung cấp nước ngoài (phần mềm dạng dịch vụ, quảng cáo trực tuyến, lưu trữ máy chủ, bản quyền…) được **bao gồm trong tất cả các gói đối tác định kỳ, kể cả gói Partner Core, với định mức tối đa 03 hợp đồng nhà thầu nước ngoài mỗi tháng**. Từ hợp đồng thứ tư trở đi trong cùng một tháng, oBacker áp dụng phụ thu kê khai theo danh mục dịch vụ chuẩn hóa (mã ADD-FCT-RETURN). Quý Khách có nghĩa vụ báo ngay cho oBacker qua người phụ trách tài khoản hoặc email contact@obacker.com khi phát sinh giao dịch, kèm hóa đơn, chứng từ thanh toán và mô tả dịch vụ. Cơ sở pháp lý FCT: **Thông tư 69/2025/TT-BTC** Điều 9 (thuế giá trị gia tăng) và **Thông tư 20/2026/TT-BTC** Điều 7 (thuế thu nhập doanh nghiệp).
+**Kê khai thuế nhà thầu nước ngoài (FCT):** Việc kê khai FCT khi Quý Khách thanh toán cho nhà cung cấp nước ngoài (phần mềm dạng dịch vụ, quảng cáo trực tuyến, lưu trữ máy chủ, bản quyền…) được **bao gồm trong tất cả các gói đối tác định kỳ, với định mức theo gói: Partner Core tối đa 01 hợp đồng nhà thầu nước ngoài mỗi tháng; Partner Growth và Partner Prime tối đa 03 hợp đồng mỗi tháng**. Từ hợp đồng vượt định mức của gói trong cùng một tháng, oBacker áp dụng phụ thu kê khai theo danh mục dịch vụ chuẩn hóa (mã ADD-FCT-RETURN-2026). Quý Khách có nghĩa vụ báo ngay cho oBacker qua người phụ trách tài khoản hoặc email contact@obacker.com khi phát sinh giao dịch, kèm hóa đơn, chứng từ thanh toán và mô tả dịch vụ. Cơ sở pháp lý FCT: **Thông tư 69/2025/TT-BTC** Điều 9 (thuế giá trị gia tăng) và **Thông tư 20/2026/TT-BTC** Điều 7 (thuế thu nhập doanh nghiệp).
 
 **Chính sách kiểm toán độc lập và doanh nghiệp FDI:** Căn cứ Điều 15 Nghị định số 17/2012/NĐ-CP và Thông tư số 186/2010/TT-BTC, 100% doanh nghiệp có vốn đầu tư nước ngoài (FDI) bắt buộc phải kiểm toán Báo cáo tài chính hàng năm để đủ điều kiện chuyển lợi nhuận ra nước ngoài. oBacker thực hiện ghi sổ và lập BCTC theo Thông tư 99/2025/TT-BTC cho toàn bộ khách hàng FDI; độc lập với hoạt động kiểm toán và không thu hộ phí kiểm toán. Quý Khách trực tiếp ký hợp đồng và chi trả phí cho công ty kiểm toán độc lập; oBacker chịu trách nhiệm cung cấp số liệu, hồ sơ kế toán và giải trình với kiểm toán viên.
 
@@ -291,7 +291,8 @@ Dịch Vụ Pháp Lý được điều chỉnh chi tiết tại **PL-PL**, cung 
 - **01 hợp đồng độ dài tối đa 10 trang** (tương đương khoảng 3.000; 4.000 chữ)
 - Kiểm tra rủi ro pháp lý cơ bản, chỉ ra điều khoản bất lợi
 - 01 vòng rà soát + 01 vòng phản hồi; thời gian xử lý 03 Ngày Làm Việc.
-- **Nếu hợp đồng vượt quá 10 trang**, hệ thống tính là **02 lượt soát xét**, hoặc chuyển sang tư vấn dạng dịch vụ bổ sung ngoài gói tùy độ phức tạp (báo giá trước khi thực hiện).
+- **Nếu hợp đồng từ 11 đến 20 trang**, hệ thống tính là **02 lượt soát xét**.
+- **Nếu hợp đồng trên 20 trang**, từ trang thứ 21 áp dụng phụ thu 100.000đ/trang, hoặc chuyển sang tư vấn dạng dịch vụ bổ sung ngoài gói tùy độ phức tạp (báo giá trước khi thực hiện).
 
 Sản phẩm soát xét là **báo cáo rà soát**, không bao gồm bản hợp đồng đã chỉnh sửa (việc chỉnh sửa/soạn lại là dịch vụ riêng). Hạn mức tư vấn/soát xét theo gói **không tích lũy** sang kỳ sau.
 
@@ -312,7 +313,7 @@ Sau giai đoạn thiết lập ban đầu, việc phối hợp đi vào lịch c
 
 Đây là 2 lần đối soát cho **cùng một số tiền của cùng một kỳ**, không phải hai khoản phải đóng riêng biệt. Quý Khách đóng theo số tiền trong email, không đóng theo số trên C12 nếu hai số khác nhau (do độ trễ cập nhật của hệ thống BHXH).
 
-**20.2. Bảy nguyên tắc ranh giới vận hành:** Nhằm bảo đảm an toàn pháp lý và kiểm soát rủi ro, hai Bên tuân thủ bảy nguyên tắc ranh giới sau: (1) Không lưu giữ USB Token tại văn phòng oBacker quá 24 giờ làm việc; (2) Tuyệt đối không nhận tiền thanh toán hộ nghĩa vụ thuế/BHXH qua tài khoản cá nhân nhân sự oBacker; (3) Quý Khách chịu trách nhiệm 100% về tính hợp pháp và thực tế phát sinh của hóa đơn đầu vào; (4) oBacker có quyền từ chối hạch toán chi phí không có căn cứ chứng từ hợp pháp hoặc có rủi ro trốn thuế nghiêm trọng; (5) Không cử nhân sự đứng tên Kế toán trưởng pháp lý trừ khi ký hợp đồng dịch vụ riêng biệt; (6) SLA phản hồi tư vấn trong vòng 04 giờ làm việc; (7) Bảo mật thông tin tài chính và dữ liệu kinh doanh tuyệt đối theo Thỏa thuận bảo mật thông tin (NDA).
+**20.2. Bảy nguyên tắc ranh giới vận hành:** Nhằm bảo đảm an toàn pháp lý và kiểm soát rủi ro, hai Bên tuân thủ bảy nguyên tắc ranh giới sau: (1) Không lưu giữ USB Token tại văn phòng oBacker quá 24 giờ làm việc; (2) Tuyệt đối không nhận tiền thanh toán hộ nghĩa vụ thuế/BHXH qua tài khoản cá nhân nhân sự oBacker; (3) Quý Khách chịu trách nhiệm 100% về tính hợp pháp và thực tế phát sinh của hóa đơn đầu vào; (4) oBacker có quyền từ chối hạch toán chi phí không có căn cứ chứng từ hợp pháp hoặc có rủi ro trốn thuế nghiêm trọng; (5) Không cử nhân sự đứng tên Kế toán trưởng pháp lý trừ khi ký hợp đồng dịch vụ riêng biệt; (6) SLA: xác nhận đã nhận yêu cầu tư vấn trong vòng 04 giờ làm việc, nội dung trả lời trong 24 đến 48 giờ làm việc; (7) Bảo mật thông tin tài chính và dữ liệu kinh doanh tuyệt đối theo Thỏa thuận bảo mật thông tin (NDA).
 
 ## Điều 21. Chấm Dứt và Bàn Giao
 
@@ -346,4 +347,4 @@ Khi oBacker xử lý dữ liệu của người lao động/cổ đông của Qu
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.1.1 | Đổi từ ngữ: cách gọi định mức giao dịch tối đa (Điều 15) và cách gọi cơ chế cam kết Quý 4 (Điều 16) viết lại bằng 'mức tối đa' và 'chốt hợp đồng Quý 4' |
+| 02/10/2026 | R.2.1.0 | Mã phụ thu kê khai FCT ngoài định mức cập nhật thành `ADD-FCT-RETURN-2026` |

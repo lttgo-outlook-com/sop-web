@@ -2,7 +2,7 @@
 title: "ACCOUNTING & TAX SERVICE TERMS (PL-KT)"
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.1.1"
+version: "R.2.3.0"
 status: "đang áp dụng"
 language: "en"
 distribution: "Khách hàng"
@@ -16,11 +16,11 @@ tags:
 *Service-Specific Terms, an integral part of the Master T&C; oBacker Joint Stock Company*
 Tax code: 0402298185 · Floor 2, 06 Tran Phu Street, Hai Chau Ward, Da Nang, Vietnam · contact@obacker.com
 
-**Version:** R.1.1.1 (VI-EN) · **Updated:** 1 October 2026
+**Version:** R.2.3.0 (VI-EN) · **Updated:** 02/10/2026
 
 > These are the Service-Specific Terms for the Accounting & Tax Services (the "**Services**"), covering two components: (A) Accounting and (B) Corporate Tax (VAT, CIT, Foreign Contractor Tax (FCT), and e-invoices). They apply where the Services are recorded in the Order Form. **If these Terms differ from the Master T&C, these Terms prevail for the Services.**
 >
-> **Scope split:** Filing and finalisation of **Personal Income Tax (PIT) on salaries**, dependant registration, and PIT withholding certificates for employees fall under the HR, Payroll & Insurance Services (PL-NS). Tax advisory and optimisation fall under the Legal Services (PL-PL).
+> **Scope split:** Withholding and periodic filing of **Personal Income Tax (PIT) on salaries** fall under the Accounting & Tax Services (PL-KT); the annual PIT finalisation, dependant registration, and PIT withholding certificates for employees fall under the HR, Payroll & Insurance Services (PL-NS). Tax advisory and optimisation fall under the Legal Services (PL-PL).
 
 ---
 
@@ -71,11 +71,11 @@ The monthly Transaction threshold per package is stated in the Order Form. When 
 - Track and notify the Client of tax obligations and payment deadlines
 - Support the explanation of processed figures during tax authority inspections, within the scope of a valid authorisation.
 
-> **PIT scope split:** PIT **on salaries** of employees under a labour contract (progressive withholding), dependant registration, withholding certificates for employees, and **annual PIT finalisation** fall under the HR, Payroll & Insurance Services (PL-NS). **Occasional** PIT paid to individuals off the payroll (collaborators, freelancers, personal asset rentals) falls under **PL-KT** (see above).
+> **PIT-on-salaries scope split:** PIT **on salaries** of employees under a labour contract (progressive withholding) is split into two workstreams. **Withholding and periodic PIT filing** fall under the **Accounting & Tax Services (PL-KT)**. The **annual PIT finalisation**, dependant registration, and withholding certificates for employees fall under the **HR, Payroll & Insurance Services (PL-NS)**. **Occasional** PIT paid to individuals off the payroll (collaborators, freelancers, personal asset rentals) falls under **PL-KT** (see above).
 >
 > **Boundary note:** A collaborator/freelancer working regularly for more than one month, steadily and with the character of employment, may be reclassified by the social insurance authority as an employment relationship and subject to a back-tax/clawback assessment for social insurance; in which case the person is moved to employee status and the related obligations transfer to PL-NS. oBacker recommends that the Client move to a formal labour contract in such cases.
 >
-**3.2. FCT filing; included in all partner packages.** FCT filing when the Client pays foreign suppliers (SaaS, online advertising, hosting, domains, CDN, licences, foreign freelancers/agencies, etc.) is **included in all periodic partner retainer packages, including Partner Core, with a quota of up to 03 cross-border contracts per month**. From the 4th contract onward within the same month, an additional filing fee applies under the master service catalog (SKU `ADD-FCT-RETURN`). Legal basis: **Circular No. 69/2025/TT-BTC** Article 9 (value-added tax) and **Circular No. 20/2026/TT-BTC** Article 7 (corporate income tax).
+**3.2. FCT filing; included in all partner packages.** FCT filing when the Client pays foreign suppliers (SaaS, online advertising, hosting, domains, CDN, licences, foreign freelancers/agencies, etc.) is **included in all periodic partner retainer packages, with a quota by package: Partner Core up to 01 cross-border contract per month; Partner Growth and Partner Prime up to 03 contracts per month**. From the contract exceeding the package quota within the same month, an additional filing fee applies under the master service catalog (SKU `ADD-FCT-RETURN-2026`). Legal basis: **Circular No. 69/2025/TT-BTC** Article 9 (value-added tax) and **Circular No. 20/2026/TT-BTC** Article 7 (corporate income tax).
 
 The Client must **notify oBacker immediately** through the assigned Account Manager or via email at contact@obacker.com upon any foreign payment transaction (credit/debit card charges, international transfers, intermediary gateways such as Stripe/PayPal/Wise), attaching the invoice/receipt, proof of payment, and a description of the service. The invoice must state the correct Vietnamese company tax code and address.
 
@@ -176,7 +176,7 @@ The fault-based liability mechanism in **Article 9 of the Master T&C** applies:
 
 **(c) Mixed fault:** the two parties clarify the matter and allocate by proportion of fault.
 
-Legal basis for penalties (reference): Decree No. 125/2020/ND-CP (tax and invoices).
+Legal basis for penalties (reference): Decree No. 125/2020/ND-CP (tax and invoices), as amended and supplemented by Decree No. 291/2026/ND-CP; the current text applies per the consolidated document 27/2026/VBHN-ND-BTC.
 
 ## Article 9. Termination and Handover
 
@@ -187,12 +187,12 @@ Either party may terminate the Services on at least **30 days'** prior notice (o
 Service Fees are defined in the Order Form (by partner retainer package or actual Transaction volume). Detailed pricing mechanisms, quotas, and surcharges include:
 
 **10.1. Fair Use Policy (FUP) & Overage Schedule:**
-- Transaction Thresholds: Partner Core (50 Transactions/month), Partner Growth (300 Transactions/month), Partner Prime (1,500 Transactions/month).
-- Growth Package Block Mechanism: Exceeding 300 Transactions incurs block surcharges: 500-Transaction block (`ADD-TXN-BLOCK-500`, VND 2,500,000/month), 1,000-Transaction block (`ADD-TXN-BLOCK-1000`, VND 5,000,000/month), and 1,500-Transaction block (`ADD-TXN-BLOCK-1500`, VND 7,500,000/month). Partner Growth applies a maximum of 1,500 Transactions/month; exceeding volume requires transition to Partner Prime.
+- Transaction Thresholds: Partner Core (50 Transactions/month; FDI enterprises 100 Transactions/month), Partner Growth (300 Transactions/month), Partner Prime (1,500 Transactions/month). Volume above 100 Transactions/month for Partner Core - FDI is billed via the block surcharge mechanism below.
+- Block Surcharges: Volume above the threshold is billed in blocks: 500-Transaction block (`ADD-TXN-BLOCK-500-2026`, VND 2,500,000/month), 1,000-Transaction block (`ADD-TXN-BLOCK-1000-2026`, VND 5,000,000/month), and 1,500-Transaction block (`ADD-TXN-BLOCK-1500-2026`, VND 7,500,000/month). Partner Growth applies a maximum of 1,500 Transactions/month; exceeding volume requires transition to Partner Prime.
 - Partner Prime Package: Standard baseline of 1,500 Transactions/month; excess volume above 1,500 Transactions is billed at VND 15,000/Transaction (`ADD-TXN-PRIME-OVER`).
-- Bank Accounts: Core (02 accounts), Growth (05 accounts). Surcharge from the 3rd account (Core) or 6th account (Growth) is VND 300,000/account/month (`ADD-BANK-ACC`).
-- Excess FCT Filings: VND 1,500,000/filing (`ADD-FCT-RETURN`).
-- On-site Tax Audit Support: VND 2,000,000/working day (`ADD-TAX-INSPECT`).
+- Bank Accounts: Core (02 accounts), Growth (05 accounts). Surcharge from the 3rd account (Core) or 6th account (Growth) is VND 200,000/account/month (`ADD-BANK-ACC-2026`).
+- Excess FCT Filings: VND 1,000,000/filing (`ADD-FCT-RETURN-2026`).
+- On-site Tax Audit Support: VND 2,500,000/working day (`ADD-TAX-INSPECT-2026`); the Client must notify and prepay based on an estimate of at least 03 days, with settlement against the actual number of days.
 - Monthly Post-billing: Reconciliation finalized on the 5th of each month; early warning triggered at 80% volume threshold; surcharge invoiced with the subsequent billing cycle or payable within 07 working days.
 
 **10.2. Health Check & Historical Restatement:**
@@ -203,10 +203,19 @@ Service Fees are defined in the Order Form (by partner retainer package or actua
 - New engagements entered in Q4 require a minimum 5-quarter service commitment (through December 31 of the following year). Premature termination triggers a 3-month fee reimbursement for prior-year closing.
 - Annual Financial Statements and Tax Closing fees are split into two installments (Installment 1 with Q4 fees, Installment 2 before March 15 of the following year). Late settlement of Installment 2 after March 15 entitles oBacker to suspend statutory filings; Client assumes 100% liability for statutory late penalties.
 
+**10.4. Application of New Surcharge Codes and Prices (transition from October 5, 2026):**
+- From October 5, 2026: transaction-volume surcharges use the new codes `ADD-TXN-BLOCK-500-2026`, `ADD-TXN-BLOCK-1000-2026`, `ADD-TXN-BLOCK-1500-2026` in place of the former `ADD-TXN-BLOCK-500`, `ADD-TXN-BLOCK-1000`, `ADD-TXN-BLOCK-1500` (prices unchanged); the Partner Core transaction quota for FDI enterprises is 100 Transactions/month.
+- From October 5, 2026: on-site tax audit support uses the new code `ADD-TAX-INSPECT-2026` at VND 2,500,000/working day, in place of the former per-cycle `ADD-TAX-INSPECT` code.
+- From October 5, 2026: the bank-account overage surcharge uses the new code `ADD-BANK-ACC-2026` (VND 200,000/account/month) in place of `ADD-BANK-ACC`; excess FCT filings use the new code `ADD-FCT-RETURN-2026` (VND 1,000,000/filing) in place of `ADD-FCT-RETURN`.
+- Existing clients (contracts in force before October 5, 2026): the surcharge codes and prices stated in their contract or quotation apply through March 31, 2027; billing cycles starting on or after April 1, 2027 apply the codes and prices in Section 10.1 and this section.
+- Quotations already sent: quotations within their validity period keep the quoted prices. For quotations past their validity period where the Client requests a new quotation on or after October 5, 2026: Section 10.1 and this section prices apply with a 35% discount.
+- Period-billed surcharges are billed per cycle in which they occur; day-billed surcharges are billed per actual working day of specialist participation.
+
 ---
 
 ## REVISION LOG
 
 | Date | Version | Description |
 | --- | --- | --- |
-| 01/10/2026 | R.1.1.1 | Wording: Growth package 'hard ceiling' reworded to 'maximum' (Article 10); fix REVISION LOG header to Date/Version/Description |
+| 02/10/2026 | R.2.3.0 | Article 8: penalty basis updated, noting that Decree No. 125/2020/ND-CP has been amended and supplemented by Decree No. 291/2026/ND-CP; current text per consolidated document 27/2026/VBHN-ND-BTC |
+

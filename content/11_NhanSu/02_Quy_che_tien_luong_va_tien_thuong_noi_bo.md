@@ -4,19 +4,15 @@ code: "OBK-QCNS-02"
 type: "sop"
 folder: "11_NhanSu"
 level: "Cấp 1, văn bản KHUNG toàn công ty"
-version: "R.1.0.0"
+version: "R.2.0.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 27/09/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-QCNS-00 Bộ tài liệu quản trị nhân sự và vận hành"
 next_review: "Không quá 06 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-QCNS-02
 tags:
@@ -32,7 +28,7 @@ tags:
 | Mã tài liệu | OBK-QCNS-02 |
 | Tên tài liệu | Quy chế tiền lương và tiền thưởng nội bộ Công ty cổ phần oBacker |
 | Cấp tài liệu | Cấp 1, chính sách nhân sự toàn công ty |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.2.0.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 27/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -51,17 +47,8 @@ tags:
 
 Quy chế này quy định nguyên tắc xác định, chi trả tiền lương, chế độ tăng lương định kỳ, cơ chế tiền thưởng hiệu quả công việc và tiền thưởng cuối năm cho toàn bộ người lao động làm việc tại Công ty cổ phần oBacker (sau đây gọi tắt là oBacker). Quy chế thực hiện chỉ đạo VQ-12 của Tổng giám đốc về việc ban hành một quy chế tiền lương và tiền thưởng độc lập, bảo đảm tính minh bạch, công bằng và tuân thủ pháp luật lao động hiện hành.
 
-### 1.2. Căn cứ pháp lý và văn bản nội bộ
 
-1. Bộ luật Lao động số 45/2019/QH14 ngày 20/11/2019 của Quốc hội, Chương VI Tiền lương (từ Điều 90 đến Điều 104);
-2. Nghị định số 145/2020/NĐ-CP ngày 14/12/2020 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Bộ luật Lao động về điều kiện lao động và quan hệ lao động;
-3. Nghị định số 74/2024/NĐ-CP ngày 30/06/2024 của Chính phủ quy định mức lương tối thiểu đối với người lao động làm việc theo hợp đồng lao động;
-4. [[Noi_quy_lao_dong|OBK-NQLD]] Nội quy lao động Công ty cổ phần oBacker ban hành kèm Quyết định số 01/2026/QĐ-NQLD;
-5. [[01_Khung_nhan_su_tong_hop|OBK-QCNS-01]] Khung nhân sự tổng hợp. Lộ trình thăng tiến và chính sách lương thưởng;
-6. [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] Khung đánh giá hiệu suất nhân viên;
-7. Quyết định phê duyệt chỉ đạo VQ-12 và VQ-31 ngày 27/09/2026 của Tổng giám đốc.
-
-### 1.3. Phạm vi và đối tượng áp dụng
+### 1.2. Phạm vi và đối tượng áp dụng
 
 Quy chế áp dụng đối với tất cả người lao động làm việc theo hợp đồng lao động xác định thời hạn hoặc không xác định thời hạn tại oBacker. Người lao động làm việc theo hợp đồng thử việc, hợp đồng đào tạo nghề hoặc người làm việc bán thời gian áp dụng các điều khoản tương ứng được ghi nhận cụ thể tại hợp đồng lao động và quy chế này.
 
@@ -85,7 +72,7 @@ Thu nhập hàng tháng của người lao động bao gồm ba thành phần ch
 
 ### 3.1. Lương vị trí (Mức lương theo công việc hoặc chức danh)
 
-1. Lương vị trí là mức lương thỏa thuận trong hợp đồng lao động, được xác định căn cứ vào hệ thống cấp bậc và thang bảng lương tại [[01_Khung_nhan_su_tong_hop|OBK-QCNS-01]] Phần II.
+1. Lương vị trí là mức lương thỏa thuận trong hợp đồng lao động, được xác định căn cứ vào hệ thống cấp bậc và thang bảng lương tại Khung nhân sự tổng hợp `OBK-QCNS-01` Phần II.
 2. Lương vị trí áp dụng cho ngày công làm việc tiêu chuẩn (8 giờ/ngày, từ thứ Hai đến thứ Sáu hàng tuần).
 3. Lương vị trí là căn cứ để:
    - Tính mức đóng các khoản bảo hiểm bắt buộc gồm Bảo hiểm xã hội (BHXH), Bảo hiểm y tế (BHYT), Bảo hiểm thất nghiệp (BHTN);
@@ -113,7 +100,7 @@ Phụ cấp lương là khoản tiền bù đắp các yếu tố về điều k
 
 ### 3.3. Các khoản bổ sung khác
 
-1. **Tiền làm thêm giờ (Overtime - OT):** Người lao động làm thêm giờ theo yêu cầu công việc và đã được phê duyệt hợp lệ bằng phiếu đăng ký OT [[NS-07_Phieu_dang_ky_lam_them_gio|NS-07]] được trả lương làm thêm giờ theo quy định tại Điều 98 Bộ luật Lao động:
+1. **Tiền làm thêm giờ (Overtime - OT):** Người lao động làm thêm giờ theo yêu cầu công việc và đã được phê duyệt hợp lệ bằng Phiếu `NS-07` Đăng ký làm thêm giờ được trả lương làm thêm giờ theo các mức dưới đây:
    - Vào ngày làm việc bình thường: Ít nhất bằng 150% đơn giá tiền lương giờ thực trả;
    - Vào ngày nghỉ hàng tuần (thứ Bảy, Chủ Nhật): Ít nhất bằng 200% đơn giá tiền lương giờ thực trả;
    - Vào ngày nghỉ lễ, tết, ngày nghỉ có hưởng lương: Ít nhất bằng 300% đơn giá tiền lương giờ thực trả, chưa kể tiền lương của ngày nghỉ lễ, tết, ngày nghỉ có hưởng lương đối với người lao động hưởng lương ngày.
@@ -129,9 +116,9 @@ Phụ cấp lương là khoản tiền bù đắp các yếu tố về điều k
 
 ### 4.1. Kỳ hạn trả lương cố định
 
-1. Tiền lương được chi trả định kỳ 01 lần trong tháng vào **ngày 05 hàng tháng dương lịch**.
-2. Tiền lương chi trả vào ngày 05 là tiền lương và các chế độ phụ cấp, làm thêm giờ phát sinh của tháng làm việc liền trước (tháng M-1).
-3. Trường hợp ngày 05 trùng vào ngày nghỉ hàng tuần (thứ Bảy, Chủ Nhật) hoặc ngày nghỉ lễ, tết theo quy định của pháp luật, oBacker thực hiện chi trả tiền lương vào **ngày làm việc liền kề trước đó**.
+1. Tiền lương được chi trả định kỳ 01 lần trong tháng vào **ngày làm việc cuối cùng của tháng dương lịch**.
+2. Tiền lương chi trả vào cuối tháng là tiền lương và các chế độ phụ cấp, làm thêm giờ phát sinh của chính tháng đó.
+3. Trường hợp ngày cuối tháng trùng vào ngày nghỉ hàng tuần (thứ Bảy, Chủ Nhật) hoặc ngày nghỉ lễ, tết theo quy định của pháp luật, oBacker thực hiện chi trả tiền lương vào **ngày làm việc cuối cùng của tháng trước đó**.
 
 ### 4.2. Quy định khi chậm trả lương
 
@@ -194,7 +181,7 @@ oBacker duy trì hai cơ chế tăng lương định kỳ độc lập và cộn
 
 ### 6.3. Tăng lương khi thăng cấp chuyên môn
 
-Khi người lao động đáp ứng đầy đủ điều kiện thăng cấp theo quy định tại [[01_Khung_nhan_su_tong_hop|OBK-QCNS-01]] Phần I (tối thiểu 12 tháng tại cấp hiện tại, đạt hiệu suất theo chuẩn, vượt qua vòng phỏng vấn năng lực và được `CEO` phê duyệt), người lao động được chuyển sang mức lương khởi điểm của cấp mới. Mức lương mới áp dụng từ đầu tháng tiếp theo và không được thấp hơn mức lương hiện hưởng trước khi thăng cấp.
+Khi người lao động đáp ứng đầy đủ điều kiện thăng cấp theo Khung nhân sự tổng hợp `OBK-QCNS-01` Phần I (tối thiểu 12 tháng tại cấp hiện tại, đạt hiệu suất theo chuẩn, vượt qua vòng phỏng vấn năng lực và được `CEO` phê duyệt), người lao động được chuyển sang mức lương khởi điểm của cấp mới. Mức lương mới áp dụng từ đầu tháng tiếp theo và không được thấp hơn mức lương hiện hưởng trước khi thăng cấp.
 
 ---
 
@@ -299,7 +286,7 @@ Người lao động **mất toàn bộ quyền hưởng các khoản tiền th�
 | KS-LT-02 | Rà soát điều kiện kỷ luật lao động theo VQ-31 | Ngày 24 đến ngày 25 hàng tháng | Chuyên viên Nhân sự (`HR`) | Kế toán trưởng (`KTT`) | Xác định danh sách nhân sự bị kỷ luật để áp dụng đúng mức mất hoặc giảm trừ thưởng |
 | KS-LT-03 | Lập và đối chiếu Bảng thanh toán tiền lương mẫu 01-LĐTL | Ngày 26 đến ngày 28 hàng tháng | Kế toán viên (`KTV`) | Kế toán trưởng (`KTT`) | Kiểm tra công thức tính lương, bảo hiểm bắt buộc và thuế TNCN theo đúng chuẩn kế toán |
 | KS-LT-04 | Phê duyệt chi trả bảng thanh toán tiền lương và thưởng | Trước ngày 02 hàng tháng | Kế toán trưởng (`KTT`) | Tổng giám đốc (`CEO`) | Trình ký bảng tổng hợp lương kèm chứng từ giải trình biến động |
-| KS-LT-05 | Chuyển khoản thanh toán tiền lương đúng hạn ngày 05 | Ngày 05 hàng tháng (hoặc ngày liền trước nếu trùng ngày nghỉ) | Kế toán viên (`KTV`) | Kế toán trưởng (`KTT`), `CEO` duyệt lệnh ngân hàng | Thực hiện lệnh chuyển khoản qua ngân hàng điện tử, lưu trữ điện chuyển tiền hợp lệ |
+| KS-LT-05 | Chuyển khoản thanh toán tiền lương đúng hạn cuối tháng | Ngày làm việc cuối cùng của tháng | Kế toán viên (`KTV`) | Kế toán trưởng (`KTT`), `CEO` duyệt lệnh ngân hàng | Thực hiện lệnh chuyển khoản qua ngân hàng điện tử, lưu trữ điện chuyển tiền hợp lệ |
 
 ### 10.2. Ma trận phân công trách nhiệm (RACI)
 
@@ -332,4 +319,4 @@ Người lao động **mất toàn bộ quyền hưởng các khoản tiền th�
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 02/10/2026 | R.2.0.0 | Mục 4.1: tiền lương chi vào ngày làm việc cuối cùng của tháng, là tiền lương của chính tháng đó; điểm KS-LT-05 cập nhật mốc chi trả theo kỳ hạn mới |

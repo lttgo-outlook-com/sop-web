@@ -7,16 +7,12 @@ level: "Cấp 2, quy trình bộ phận"
 version: "R.2.0.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 23/09/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-QCNS-00 Bộ tài liệu quản trị nhân sự và vận hành"
 next_review: "Không quá 06 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-QCNS-08
 tags:
@@ -100,9 +96,9 @@ Khung này áp dụng từ cấp thấp nhất lên đến cấp ngay dưới `B
 
 Vị trí chấm ở cấp M1 gồm: `TL-KT`, `TL-LIC`, `TL-LD`, `TL-LS`, `TL-CN` dưới `COO`; `TL-RD`, `KTT` và `HR` dưới `CEO`; `AM` dưới `TP Thương mại`. `TP Thương mại` do `CEO` kiêm nên không chấm, theo mục 0a.2. Cấp áp dụng của từng vị trí đặt tại [[01_Khung_nhan_su_tong_hop|OBK-QCNS-01]] mục I.2; bảng tại mục 6.1 ghi cấp đó cạnh người chấm.
 
-Cấp M1 là cấp năng lực, không phải chức danh người quản lý, điều hành theo Luật Kế toán. Văn bản nội bộ không đưa cấp M1 vào danh sách người quản lý, điều hành, theo [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen|OBK-QCTC-02]] mục 19.2.
+Cấp M1 là cấp năng lực, không phải chức danh người quản lý, điều hành. oBacker không đưa cấp M1 vào danh sách người quản lý, điều hành trong văn bản nội bộ, theo OBK-QCTC-02 mục 19.2.
 
-### 0a.1. Bốn quy tắc bắt buộc về người chấm
+### 0a.1. Quy tắc bắt buộc về người chấm
 
 **Quy tắc 1. Mọi người được chấm đều có người chấm.** Không vị trí nào bỏ trống người chấm. Mỗi kỳ đều chấm; người chấm của kỳ xác định theo bảng tại mục 6.1 và quy tắc 2 dưới đây.
 
@@ -176,7 +172,7 @@ Chu kỳ đánh giá áp cho mọi vị trí trong phạm vi tại mục 0a.
 
 Kỳ đánh giá chính là tháng. Việc chấm một kỳ tháng thực hiện theo bảy bước tại mục 6 và hoàn tất trong 10 ngày làm việc đầu tháng kế tiếp.
 
-Hiệu suất trung bình của các kỳ tháng là đầu vào của việc xét tăng lương mỗi 3 tháng theo [[02_Chuong_trinh_tang_luong_dinh_ky|OBK-QCNS-02]] mục 2.1 và của việc xét thăng cấp theo [[01_Khung_nhan_su_tong_hop|OBK-QCNS-01]] mục I.4.
+Hiệu suất trung bình của các kỳ tháng là đầu vào của việc xét tăng lương mỗi 3 tháng theo OBK-QCNS-02 mục 2.1 và của việc xét thăng cấp theo OBK-QCNS-01 mục I.4.
 
 ### 0b.2. Hằng năm, tổng kết tháng 12
 
@@ -212,7 +208,7 @@ Nhãn xếp loại cả kỳ và mức thành thạo một kỹ năng là hai kh
 
 Quy tắc quy đổi giữa hai thang đặt tại [[08_PL_C_Ky_nang_chuyen_mon|OBK-QCNS-08-PL-C]] mục 3, không đặt lại ở đây.
 
-### 1.1. Bốn mức xếp loại minh bạch
+### 1.1. Tiêu chuẩn các mức xếp loại
 
 | Mức xếp loại | Tên gọi | Tiêu chí công việc (OTD và chất lượng) |
 | --- | --- | --- |
@@ -227,7 +223,7 @@ Dãy mức trên phủ kín mọi giá trị và không có giá trị nào thu�
 
 ---
 
-## 2. BA NHÓM TIÊU CHÍ HIỆU SUẤT CỐT LÕI
+## 2. NHÓM TIÊU CHÍ HIỆU SUẤT CỐT LÕI
 
 Toàn bộ các tiêu chí phức tạp được tinh giản thành ba nhóm chỉ số cốt lõi, áp dụng thống nhất cho toàn bộ nhân sự chuyên môn:
 
@@ -251,7 +247,7 @@ Toàn bộ các tiêu chí phức tạp được tinh giản thành ba nhóm ch�
 
 ## 3. CÁCH TÍNH ĐIỂM VÀ THẨM QUYỀN ĐÁNH GIÁ
 
-### 3.1. Phân bổ trọng số ba nhóm tiêu chí
+### 3.1. Phân bổ trọng số các nhóm tiêu chí
 
 $$\text{Điểm Tổng} = (\text{Chất lượng \& Tiến độ} \times 70\%) + (\text{Khối lượng công việc} \times 20\%) + (\text{Kỷ luật \& Phối hợp} \times 10\%)$$
 
@@ -267,7 +263,7 @@ Kỳ không có phiếu đánh giá chéo nào thì mốc lệch từ 2 mức tr
 
 ### 3.3. Điểm cộng
 
-Điểm cộng tối đa 5 phần trăm điểm tổng, chỉ cấp khi có bằng chứng cụ thể được quản lý trực tiếp xác nhận. Danh mục việc được cộng điểm đặt tại phiếu của từng vị trí trong [[08_PL_E_Phieu_vi_tri|OBK-QCNS-08-PL-E]]. Cách vận hành điểm cộng đặt tại [[08_PL_D_Van_hanh_viec_cham|OBK-QCNS-08-PL-D]] mục 3.
+Điểm cộng tối đa 5 phần trăm điểm tổng, chỉ cấp khi có bằng chứng cụ thể được quản lý trực tiếp xác nhận. Danh mục việc được cộng điểm đặt tại phiếu của từng vị trí trong OBK-QCNS-08-PL-E. Cách vận hành điểm cộng đặt tại OBK-QCNS-08-PL-D mục 3.
 
 ### 3.4. Xử lý khi tự đánh giá lệch số liệu
 
@@ -289,7 +285,7 @@ Bộ phận dùng thang chi tiết hơn ba mức thì ánh xạ mỗi bậc củ
 
 Hai bảng dưới đây đo hai thứ khác nhau. Bảng thứ nhất là thời hạn tối đa theo chuẩn công ty. Bảng thứ hai là thời hạn cam kết dùng để chấm tiêu chí A-05.
 
-Thời hạn tối đa theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 11.2b, tính từ khi phát hiện:
+Thời hạn tối đa theo OBK-SOP-00 mục 11.2b, tính từ khi phát hiện:
 
 | Mức | Thời hạn tối đa |
 | --- | --- |
@@ -318,14 +314,14 @@ Quy tắc chặn điểm giới hạn điểm tổng, hoặc đặt một tiêu 
 | CD-01 | Có ít nhất 01 Job trễ thời hạn theo pháp luật do nguyên nhân thuộc oBacker | Tiêu chí A-03 bằng 0 trong kỳ đó; điểm tổng của kỳ không vượt quá 80%; không xét thăng cấp theo [[01_Khung_nhan_su_tong_hop\|OBK-QCNS-01]] mục I.4.3 |
 | CD-02 | Có ít nhất 01 lần bị ghi nhận vi phạm quy trình hoặc bảng kiểm | Tiêu chí A-07 bằng 0 trong kỳ đó |
 | CD-03 | Có ít nhất 01 lỗi mức Nghiêm trọng lọt ra ngoài, tức `CS-05` lớn hơn 0 | Điểm tổng của kỳ không vượt quá 80%; bắt buộc sinh một thay đổi hướng dẫn hoặc bảng kiểm theo NT-8 tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]]; không xét thăng cấp theo [[01_Khung_nhan_su_tong_hop\|OBK-QCNS-01]] mục I.4.3 |
-| CD-04 | Có ít nhất 01 lần vi phạm một trong bảy hành vi oBacker nghiêm cấm tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 9 | Việc vi phạm xử lý theo [[Noi_quy_lao_dong\|OBK-NQLD]], không xử lý bằng bảng điểm. Kết quả đánh giá kỳ đó không dùng làm căn cứ xét tăng lương hay thăng cấp |
+| CD-04 | Có ít nhất 01 lần vi phạm một trong bảy hành vi oBacker nghiêm cấm tại OBK-SOP-00 mục 9 | Việc vi phạm xử lý theo OBK-NQLD, không xử lý bằng bảng điểm. Kết quả đánh giá kỳ đó không dùng làm căn cứ xét tăng lương hay thăng cấp |
 | CD-05 | Có ít nhất 01 mã căn cứ pháp luật chưa đối chiếu bản gốc hoặc chưa xác minh được mà đã dẫn trong tài liệu gửi khách | Nhãn xếp loại của kỳ không vượt quá Cần cải thiện |
 
 Ba quy tắc đọc bảng trên:
 
 1. Bốn quy tắc CD-01, CD-02, CD-03, CD-05 kích hoạt tại lần thứ nhất, không có ngưỡng đếm.
 2. Một kỳ kích hoạt nhiều quy tắc thì áp hệ quả nghiêm nhất; hệ quả không cộng dồn.
-3. Trễ thời hạn do nguyên nhân thuộc khách hàng, đã có bằng chứng nhắc đủ số lần chuẩn theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 6.2, không kích hoạt CD-01. Cách đọc này khớp với định nghĩa chỉ số `CS-01` tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 11.1.
+3. Trễ thời hạn do nguyên nhân thuộc khách hàng, đã có bằng chứng nhắc đủ số lần chuẩn theo OBK-SOP-00 mục 6.2, không kích hoạt CD-01. Cách đọc này khớp với định nghĩa chỉ số `CS-01` tại OBK-SOP-00 mục 11.1.
 
 ---
 
@@ -406,7 +402,7 @@ Con số trong khung này là con số oBacker tự đặt, trừ hai loại:
 
 ### 9.1. Bậc chấm
 
-Bậc chấm của khung này là cấp bậc của người được chấm theo thang tại [[01_Khung_nhan_su_tong_hop|OBK-QCNS-01]] mục I.1. Khung này dùng đúng bộ mã của thang đó: P1, P2, P3, P4, M1, và không đặt thang cấp bậc riêng.
+Bậc chấm của khung này là cấp bậc của người được chấm theo thang tại OBK-QCNS-01 mục I.1. Khung này dùng đúng bộ mã của thang đó: P1, P2, P3, P4, M1, và không đặt thang cấp bậc riêng.
 
 M1 là cấp cao nhất mà khung này chấm. Người thuộc `BOM` kiêm một vai trò ở cấp thấp hơn thì áp quy tắc tại mục 0a.
 

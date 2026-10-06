@@ -4,17 +4,15 @@ code: "OBK-SOP-RD"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 2, quy trình bộ phận"
-version: "R.1.0.1"
+version: "R.2.0.1"
 status: "đang áp dụng"
-draft_date: "01/10/2026"
-law_as_of: "Pháp luật có hiệu lực tại ngày 07/09/2026"
+draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
 approver: "CEO"
 parent: "OBK-SOP-00 Chuẩn vận hành dịch vụ"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - OBK-SOP-RD
 tags:
@@ -29,8 +27,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-SOP-RD |
 | Cấp tài liệu | Cấp 2, SOP đơn vị |
-| Phiên bản | R.1.0.1, đang áp dụng |
-| Ngày biên soạn | 01/10/2026 |
+| Phiên bản | R.2.0.1, đang áp dụng |
+| Ngày biên soạn | 04/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 07/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -41,8 +39,8 @@ tags:
 
 ---
 
-> [!note] VỊ TRÍ CỦA TÀI LIỆU NÀY
-> Legal R&D Team không bán dịch vụ và không có khách, nên đơn vị này không thuộc Phòng Dịch vụ. Toàn bộ đầu ra của đơn vị này được bốn bộ phận dịch vụ tiêu thụ, và ba SOP cấp 2 tính thời gian của đơn vị này vào SLA của mình. Tài liệu này đặt tại `03_DichVu/`; người phê duyệt là `CEO` chứ không phải `COO`, và đơn vị này không chịu ba chỉ số đúng hạn pháp định của Phòng Dịch vụ.
+> [!note] VỊ TRÍ TỔ CHỨC VÀ PHẠM VI ÁP DỤNG
+> Đơn vị Legal R&D không trực tiếp cung cấp dịch vụ thương mại cho khách hàng và không trực thuộc Phòng Dịch vụ. Sản phẩm đầu ra của Legal R&D phục vụ trực tiếp cho các bộ phận chuyên môn nội bộ và được tính vào khung thời gian SLA của các SOP cấp 2 liên quan. Tài liệu này được lưu trữ tại danh mục dịch vụ, do CEO trực tiếp phê duyệt và không chịu các chỉ số đo lường dịch vụ trực tiếp áp dụng cho Phòng Dịch vụ.
 
 ---
 
@@ -75,7 +73,7 @@ tags:
 | Quyết bản nào được phát hành và quản lý phiên bản bộ tài liệu | `COO`, theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 12.1 |
 | Nhập và giữ kho văn bản của mảng nội bộ | Vẫn là đơn vị này. Kho văn bản chỉ có một bản, dùng chung hai mảng |
 
-### 1.4. Ranh giới với Bộ phận Dịch vụ pháp lý, quy tắc ba lớp
+### 1.4. Ranh giới với Bộ phận Dịch vụ pháp lý, quy tắc phân lớp
 
 Bản gốc ĐẶT tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 5.5. Phần đơn vị này cần dùng hằng ngày:
 
@@ -99,14 +97,14 @@ Ngoại lệ duy nhất đã ghi ở [[PL_Chuyen_len_cap_tren|OBK-QCTC-02-PL-C]]
 
 Ký hiệu SLA: `NLV` là ngày làm việc; `gLV` là giờ làm việc. Quy ước đếm thời gian theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 7.2. SLA nội bộ hai chiều giữa đơn vị này và bộ phận nghiệp vụ theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 7.4a.
 
-Bốn mức ưu tiên của văn bản pháp luật mới, cùng ba mốc 05, 10 và 20 ngày làm việc, ĐẶT tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 12.3a. Bảng dưới đây chỉ dẫn chiếu, không đặt lại con số.
+Bốn mức ưu tiên của văn bản pháp luật mới, cùng ba mốc 05, 10 và 20 ngày làm việc, ĐẶT tại OBK-SOP-00 mục 12.3a. Bảng dưới đây chỉ dẫn chiếu, không đặt lại con số.
 
 > [!note] ĐẶC THÙ THỜI HẠN VÀ SLA
-> Đơn vị Nghiên cứu Pháp lý áp dụng SLA nội bộ giữa các bộ phận chuyên môn theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 7.4a. Cột thời hạn bên ngoài ghi nhận ngày hiệu lực của văn bản quy phạm pháp luật để chủ động triển khai đánh giá tác động trước khi văn bản có hiệu lực.
+> Đơn vị Nghiên cứu Pháp lý áp dụng SLA nội bộ giữa các bộ phận chuyên môn theo OBK-SOP-00 mục 7.4a. Cột thời hạn bên ngoài ghi nhận ngày hiệu lực của văn bản quy phạm pháp luật để chủ động triển khai đánh giá tác động trước khi văn bản có hiệu lực.
 
-### 2.1. Chuỗi bốn Job đầu phải vừa mốc của mức ưu tiên, và quy tắc nhiều mốc
+### 2.1. Chuỗi Job ban đầu theo mốc ưu tiên và quy tắc nhiều mốc
 
-**Vấn đề số học.** [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 12.3a đặt mốc hoàn thành đánh giá tác động của mức ưu tiên 1 là 05 ngày làm việc, đếm từ ngày ghi nhận tại RD-01. Nhưng RD-05 cần đầu vào của RD-03, mà RD-03 cần RD-02. Nếu ba Job đó đều dùng mốc thường thì chuỗi là 03 cộng 03 ngày, tức đầu vào của RD-05 chỉ có ở ngày thứ 6, sau khi RD-05 đã phải xong. Mốc nặng nhất của cả quy trình sẽ là mốc không đạt được.
+**Vấn đề số học.** OBK-SOP-00 mục 12.3a đặt mốc hoàn thành đánh giá tác động của mức ưu tiên 1 là 05 ngày làm việc, đếm từ ngày ghi nhận tại RD-01. Nhưng RD-05 cần đầu vào của RD-03, mà RD-03 cần RD-02. Nếu ba Job đó đều dùng mốc thường thì chuỗi là 03 cộng 03 ngày, tức đầu vào của RD-05 chỉ có ở ngày thứ 6, sau khi RD-05 đã phải xong. Mốc nặng nhất của cả quy trình sẽ là mốc không đạt được.
 
 **Cách xử.** RD-04 phân mức chạy trước, trong 01 ngày làm việc, vì phân mức chỉ cần đọc tiêu chí. RD-02 và RD-03 có nhánh nhanh 01 ngày làm việc cho văn bản mức ưu tiên 1. Chuỗi khi đó:
 
@@ -149,13 +147,15 @@ Bốn mức ưu tiên của văn bản pháp luật mới, cùng ba mốc 05, 10
 
 %%/JOBTABLE:RD%%
 
+Yêu cầu không khớp Job nào: xem [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 5.6.
+
 ---
 
 ## 3. VAI TRÒ VÀ RACI
 
 Ký hiệu vai trò theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 5.1.
 
-### 3.1. Hai vai trò của đơn vị, và ký hiệu LEG
+### 3.1. Cơ cấu vai trò của đơn vị và ký hiệu LEG
 
 | Ký hiệu | Vai trò | Làm gì |
 | --- | --- | --- |
@@ -163,22 +163,21 @@ Ký hiệu vai trò theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] m�
 | `TL-RD` | Legal R&D Team Lead | Chốt kết luận pháp lý dùng làm chuẩn, duyệt mã căn cứ, quyết mức xác minh, là lớp soát thứ hai của đơn vị.<br>không tiếp xúc khách, không thực hiện nghiệp vụ của bộ phận khác |
 | `LEG` | Ký hiệu chỉ ĐƠN VỊ Legal R&D Team | Dùng khi câu văn nói tới đơn vị mà không cần phân biệt hai vai trò trên.<br>Ký hiệu này không được dùng ở ô R và ô A của bất kỳ bảng RACI nào, vì một bảng RACI cần đúng một người chịu trách nhiệm cuối |
 
-### 3.2. RACI theo 10 bước chuẩn
+### 3.2. RACI theo quy trình vận hành chuẩn
 
 | Bước | `CV-RD` | `TL-RD` | `TL` bộ phận | `COO` | `CEO` |
 | --- | --- | --- | --- | --- | --- |
-| B1 Tiếp nhận yêu cầu | R | A | R, khi bộ phận là bên hỏi | I | I |
-| B2 Lưu trữ đầu vào | R | A | I | N/A | N/A |
-| B3 Phân loại Job và phân mức ưu tiên | R | A | C | I | I |
-| B4 Kiểm tra điều kiện và khả thi | R | A | C | I | I |
-| B5 Tổng hợp dữ liệu | R | A | R, cấp dữ kiện thực tế của khách | N/A | N/A |
-| B6 Thực hiện nghiệp vụ | R | A, và R với phần kết luận | C | N/A | I |
-| B7 Kiểm soát chất lượng | R, lớp một | A, và R lớp hai | C | N/A | N/A |
-| B8 Bàn giao cho bộ phận | R | A | R, xác nhận đã nhận | I | I |
-| B9 Theo dõi tới khi có kết quả | R | A | R, đóng Job sửa của bộ phận | I | I |
-| B10 Đóng Job và cập nhật chuẩn | R | A | C | I | I |
+| B1 Tiếp nhận và khả thi | R | A | B1: R, khi bộ phận là bên hỏi<br>B2: I<br>B3, B4: C | B1, B3, B4: I<br>B2: N/A | B1, B3, B4: I<br>B2: N/A |
+| B2 Thực hiện | R | B5: A<br>B6: A, và R với phần kết luận | B5: R, cấp dữ kiện thực tế của khách<br>B6: C | N/A | B5: N/A<br>B6: I |
+| B3 Kiểm soát chất lượng | R, lớp một | A, R lớp hai với Job Tier 2 và Tier 3, R hậu kiểm với Job Tier 3 | C | N/A | N/A |
+| B4 Bàn giao cho bộ phận | R | A | R, xác nhận đã nhận | I | I |
+| B5 Theo dõi và đóng | R | A | B9: R, đóng Job sửa của bộ phận<br>B10: C | I | I |
 
-**Đọc bảng, ba điều.** Một, B8 của đơn vị này là bàn giao cho BỘ PHẬN, không phải cho `AM` và không phải ra khách; đây là điểm khác lớn nhất so với bốn SOP của Phòng Dịch vụ. Hai, `TL` bộ phận có ô R ở B8 và B9 vì bàn giao chỉ xong khi bộ phận xác nhận nhận, và tác động chỉ đóng khi bộ phận sửa xong tài liệu của mình. Ba, `COO` không có ô A ở bước nào, vì đơn vị này báo cáo `CEO`; `COO` xuất hiện với tư cách người phát hành tài liệu và người điều phối nguồn lực của Phòng Dịch vụ.
+**Ba quy tắc đọc bảng.**
+
+1. B4 của đơn vị này là bàn giao cho BỘ PHẬN, không phải cho `AM` và không phải ra khách.
+2. `TL` bộ phận có ô R ở B4 và B5 vì bàn giao chỉ xong khi bộ phận xác nhận nhận, và tác động chỉ đóng khi bộ phận sửa xong tài liệu của mình.
+3. `COO` không có ô A ở bước nào vì đơn vị này báo cáo `CEO`; `COO` xuất hiện với tư cách người phát hành tài liệu và người điều phối nguồn lực của Phòng Dịch vụ.
 
 ### 3.3. Xung đột ưu tiên với Bộ phận Dịch vụ pháp lý
 
@@ -221,7 +220,7 @@ Trình tự chuyển lên cấp trên cho xung đột này tại [[PL_Chuyen_len
 > Trích văn bản hợp nhất mà bỏ năm. Dấu hiệu: một mã căn cứ ghi số hiệu văn bản hợp nhất không kèm năm hoặc không kèm ngày. Hậu quả: số hiệu văn bản hợp nhất được đánh lại mỗi năm, nên cùng một số hiệu trỏ hai văn bản khác nhau ở hai năm khác nhau. Cách xử lý: mã căn cứ trỏ về mã văn bản trong sổ, không trỏ về số hiệu. Khi buộc phải viết số hiệu thì kèm năm hoặc kèm ngày ban hành.
 
 > [!bug] LỖI THƯỜNG GẶP
-> Bàn giao tác động rồi coi như xong. Dấu hiệu: RD-05 đóng, RD-07 mở Job cho bộ phận, rồi không ai theo. Hậu quả: văn bản mới có hiệu lực mà tài liệu vẫn cũ, và người vận hành làm theo tài liệu cũ. Cách xử lý: RD-07 chỉ đóng khi `TL` bộ phận đóng Job sửa của mình. Chuyển lên cấp trên là để xin quyền quyết, không phải để bàn giao vấn đề, theo [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] NT-7.
+> Bàn giao tác động rồi coi như xong. Dấu hiệu: RD-05 đóng, RD-07 mở Job cho bộ phận, rồi không ai theo. Hậu quả: văn bản mới có hiệu lực mà tài liệu vẫn cũ, và người vận hành làm theo tài liệu cũ. Cách xử lý: RD-07 chỉ đóng khi `TL` bộ phận đóng Job sửa của mình. Chuyển lên cấp trên là để xin quyền quyết, không phải để bàn giao vấn đề, theo OBK-SOP-00 NT-7.
 
 > [!bug] LỖI THƯỜNG GẶP
 > Trả lời một khách qua đường của đơn vị này. Dấu hiệu: một câu hỏi của một khách cụ thể được đơn vị này trả lời trực tiếp thành một câu văn, thay vì thành một mã căn cứ hoặc một dòng chuẩn. Hậu quả: câu trả lời đó không ai kiểm lại được, không dùng lại được cho khách sau, và làm mờ ranh giới với Bộ phận Dịch vụ pháp lý. Cách xử lý: áp phép thử một câu tại mục 1.4. Chỉ dùng cho một khách thì chuyển `TL-LS`.
@@ -241,7 +240,7 @@ Tám chỉ số chung tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] 
 | `RD-M05` | Tỷ lệ văn bản mới có bản gốc trong kho | Số văn bản đã nhập kho chia số văn bản đã ghi nhận | Từ 90% | Kho văn bản, hằng quý |
 | `RD-M06` | Số câu hỏi lặp lại từ hai bộ phận trở lên mà chưa thành chuẩn | Đếm câu hỏi xuất hiện từ 2 lần mà chưa có mã tại RD-11 | 0 | Hệ thống công việc, hằng quý |
 
-`RD-M06` là chỉ số quan trọng nhất của đơn vị. Một câu hỏi được trả lời hai lần bằng hai Job rời nghĩa là đơn vị đang làm việc của một tổng đài chứ không làm việc kiến tạo.
+`RD-M06` là chỉ số trọng yếu của đơn vị. Một câu hỏi được trả lời hai lần bằng hai Job rời nghĩa là đơn vị đang xử lý yêu cầu lặp lại chứ không kiến tạo chuẩn.
 
 ---
 
@@ -249,15 +248,15 @@ Tám chỉ số chung tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] 
 
 ### 7.1. Không có khách, nên ba đồng hồ T1, T2, T3 không áp
 
-`T1`, `T2` và `T3` đo quan hệ với khách, do `AM` giữ. Đơn vị này không gửi gì ra khách, nên đơn vị này chạy theo SLA nội bộ tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 7.4a. Khi một Job của đơn vị này nằm bên trong `T3` của một bộ phận, thì mốc của đơn vị là một phần của `T3` đó, và bộ phận phải dẫn chiếu mã Job của đơn vị chứ không ghi lại con số. Quy tắc chống SLA không có chủ mốc tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 7.4a.
+`T1`, `T2` và `T3` đo quan hệ với khách, do `AM` giữ. Đơn vị này không gửi đầu ra ra khách, nên áp SLA nội bộ tại OBK-SOP-00 mục 7.4a. Khi một Job của đơn vị này nằm bên trong `T3` của một bộ phận, thì mốc của đơn vị là một phần của `T3` đó, và bộ phận phải dẫn chiếu mã Job của đơn vị chứ không ghi lại con số. Quy tắc chống SLA không có chủ mốc tại OBK-SOP-00 mục 7.4a.
 
-### 7.2. B8 bàn giao cho bộ phận, và bàn giao chỉ xong khi bộ phận xác nhận
+### 7.2. B4 bàn giao cho bộ phận, và bàn giao chỉ xong khi bộ phận xác nhận
 
-Với bốn SOP của Phòng Dịch vụ, B8 là bàn giao qua `AM`. Với đơn vị này, B8 là bàn giao cho `TL` bộ phận. Điều kiện xong của B8 là `TL` bộ phận xác nhận đã nhận trên Job, không phải là đơn vị đã gửi.
+Với bốn SOP của Phòng Dịch vụ, B4 là bàn giao qua `AM`. Với đơn vị này, B4 là bàn giao cho `TL` bộ phận. Điều kiện xong của B4 là `TL` bộ phận xác nhận đã nhận trên Job, không phải là đơn vị đã gửi.
 
-### 7.3. B9 theo dõi tới khi tài liệu của bộ phận đã sửa xong
+### 7.3. B5 theo dõi tới khi tài liệu của bộ phận đã sửa xong
 
-Với Job nhóm B, kết quả là tài liệu đã sửa và người vận hành đã làm theo bản mới, thay vì bản đánh giá tác động. Vì thế B9 của nhóm B kéo dài tới khi `TL` bộ phận đóng Job sửa, và `RD-07` là Job giữ việc theo dõi đó.
+Với Job nhóm B, kết quả là tài liệu đã sửa và người vận hành đã làm theo bản mới, thay vì bản đánh giá tác động. Vì thế B5 của nhóm B kéo dài tới khi `TL` bộ phận đóng Job sửa, và `RD-07` là Job giữ việc theo dõi đó.
 
 ---
 
@@ -278,7 +277,7 @@ Với Job nhóm B, kết quả là tài liệu đã sửa và người vận hà
 
 ## 9. CHUẨN PHƯƠNG PHÁP LUẬN NGHIÊN CỨU PHÁP LÝ
 
-### 9.1. Tư thế tư vấn và bốn nguyên tắc nghiên cứu pháp lý
+### 9.1. Chuẩn mực tư vấn và các nguyên tắc nghiên cứu pháp lý
 
 oBacker hoạt động theo Luật Doanh nghiệp trong phạm vi tư vấn quản lý doanh nghiệp (mã ngành 7020, 8210, 8299). oBacker không phải là tổ chức hành nghề luật sư theo Luật Luật sư. Đơn vị không phát hành ý kiến pháp lý chính thức mang tính tranh tụng hoặc bảo vệ quyền lợi trước cơ quan tài phán. Mọi vụ việc có tranh chấp tố tụng hoặc yêu cầu tham gia phiên tòa phải chuyển cho tổ chức hành nghề luật sư đối tác theo Job `LS-18`. Theo cổng kiểm soát SP-14, toàn bộ yêu cầu có yếu tố tư vấn pháp luật phức tạp phải chuyển `CEO` phê duyệt nhận việc trước khi xác lập phạm vi dịch vụ.
 
@@ -289,7 +288,7 @@ Bốn nguyên tắc nghiên cứu pháp lý bắt buộc áp dụng cho mọi nh
 3. **Nguyên tắc 3:** Không bao giờ bỏ qua nội dung chưa rõ hoặc chưa hiểu. Khi chưa đủ căn cứ kết luận, bắt buộc mở mã theo dõi tại danh mục việc chờ chốt theo Job `RD-12` và báo cáo `TL-RD`.
 4. **Nguyên tắc 4:** Không bao giờ sử dụng lại tài liệu nghiên cứu cũ mà chưa xác minh lại toàn bộ danh mục văn bản được viện dẫn.
 
-### 9.2. Phân định hai loại tài liệu nghiên cứu pháp lý
+### 9.2. Phân loại tài liệu nghiên cứu pháp lý
 
 Đơn vị phân định rõ hai loại tài liệu nghiên cứu pháp lý, không lẫn lộn về mục đích và đối tượng tiếp nhận:
 
@@ -306,7 +305,7 @@ Bốn nguyên tắc nghiên cứu pháp lý bắt buộc áp dụng cho mọi nh
 
 Quy tắc cấm: Không gửi Báo cáo nghiên cứu pháp lý nội bộ cho khách hàng. Không phát hành tài liệu dưới tên gọi ý kiến pháp lý hoặc thư luật sư.
 
-### 9.3. Quy trình tám bước nghiên cứu pháp lý
+### 9.3. Quy trình các bước nghiên cứu pháp lý
 
 Quy trình nghiên cứu pháp lý gồm tám bước theo trình tự bắt buộc:
 
@@ -320,7 +319,7 @@ Quy trình nghiên cứu pháp lý gồm tám bước theo trình tự bắt bu�
 8. **Bước 7. Lập luận pháp lý theo phương pháp bốn thành tố:** Viết lập luận chi tiết cho từng câu hỏi nghiên cứu theo bốn thành tố: Vấn đề (Issue) - Quy tắc (Rule) - Áp dụng (Application) - Kết luận (Conclusion) theo mục 9.6.
 9. **Bước 8. Kiểm soát chất lượng và bàn giao:** Tự kiểm tra theo bảng kiểm tại mục 9.10 trước khi chuyển `TL-RD` soát xét và phê duyệt hoàn thành Job.
 
-### 9.4. Kỹ thuật phân tách vấn đề theo hai mức
+### 9.4. Kỹ thuật phân tách vấn đề theo các cấp độ
 
 Chẻ vấn đề là kỹ thuật trung tâm của nghiên cứu pháp lý. Quy tắc cốt lõi: Quy tắc pháp lý là một điều kiện cấu thành, không phải toàn bộ một điều luật. Một điều luật chứa nhiều điều kiện cấu thành thì mỗi điều kiện là một quy tắc riêng, đòi hỏi một đoạn đối chiếu áp dụng riêng và một kết luận riêng.
 
@@ -350,7 +349,7 @@ Quá trình chẻ dọc dừng lại khi đạt một trong ba điều kiện d�
 - **Điều kiện D2 (Pháp luật không định nghĩa thêm):** Đã tra cứu toàn bộ văn bản liên quan nhưng pháp luật không quy định tiêu chí định lượng thêm. Đây là khái niệm mở; người viết ghi nhận tính chất mở của quy định và lập mã theo dõi để xin văn bản hướng dẫn của cơ quan nhà nước.
 - **Điều kiện D3 (Yếu tố loại trừ):** Yếu tố xác định chắc chắn không áp dụng đối với đối tượng khách hàng; người viết ghi rõ căn cứ loại trừ và dừng phân tích nhánh đó.
 
-### 9.5. Quy tắc trích lục điều khoản và hệ thống đánh dấu năm màu
+### 9.5. Quy tắc trích lục điều khoản và hệ thống màu đánh dấu chuẩn
 
 Trong Báo cáo nghiên cứu pháp lý nội bộ, mỗi quy tắc áp dụng bắt buộc phải có khối trích lục nguyên văn điều luật, đánh dấu theo hệ thống năm màu và đoạn diễn giải phân tách yếu tố cấu thành.
 
@@ -360,7 +359,7 @@ Trong Báo cáo nghiên cứu pháp lý nội bộ, mỗi quy tắc áp dụng b
 - Trích toàn bộ điều luật hoặc toàn bộ các khoản liên quan kèm toàn bộ các khoản chứa từ ngữ loại trừ, ngoại lệ. Không trích một khoản riêng lẻ mà bỏ sót các khoản quy định trường hợp loại trừ.
 - Ghi rõ nguồn trích lục ngay phía trên khối trích lục, gồm: tên văn bản, Điều, khoản, điểm, nguồn tra cứu và ngày xác minh dữ liệu.
 
-#### 9.5.2. Hệ thống đánh dấu năm màu chuẩn
+#### 9.5.2. Hệ thống màu đánh dấu chuẩn
 
 | Màu | Nội dung đánh dấu | Từ ngữ nhận diện |
 | --- | --- | --- |
@@ -377,7 +376,7 @@ Bốn quy tắc bắt buộc khi đánh dấu:
 3. Mọi điểm đánh dấu màu hồng bắt buộc phải được phân tích trong phần áp dụng; phải nêu rõ điều kiện là cộng dồn (bắt buộc thỏa mãn tất cả) hay lựa chọn (chỉ cần thỏa mãn một trong các điều kiện).
 4. Mọi điểm đánh dấu màu xám bắt buộc phải mở tiếp điều khoản được dẫn chiếu để trích lục và đối chiếu nội dung liên quan.
 
-### 9.6. Phương pháp lập luận bốn thành tố cho từng vấn đề
+### 9.6. Phương pháp lập luận thành tố cho từng vấn đề
 
 Mỗi câu hỏi nghiên cứu tương ứng với một khối lập luận độc lập, gồm bốn thành tố:
 
@@ -416,7 +415,7 @@ Kết luận gồm ba câu theo trình tự:
 
 Cấm đưa ra kết luận chung chung không xác định biến số. Trường hợp kết quả phụ thuộc vào dữ kiện chưa cố định, phải nêu rõ từng phương án tương ứng với từng điều kiện cụ thể.
 
-### 9.7. Khung năm câu hỏi nghiên cứu điều kiện kinh doanh và cấp phép
+### 9.7. Khung câu hỏi nghiên cứu điều kiện kinh doanh và cấp phép
 
 Khi thực hiện nghiên cứu về giấy phép, chứng chỉ hành nghề, hoặc thủ tục thông báo thay thế giấy phép, người viết bắt buộc phải giải đáp đủ năm câu hỏi:
 
@@ -428,7 +427,7 @@ Khi thực hiện nghiên cứu về giấy phép, chứng chỉ hành nghề, h
 
 ### 9.8. Cấu trúc tài liệu nghiên cứu nội bộ và bản ghi nhớ gửi khách
 
-#### 9.8.1. Cấu trúc năm phần của Báo cáo nghiên cứu pháp lý nội bộ
+#### 9.8.1. Cấu trúc Báo cáo nghiên cứu pháp lý nội bộ
 
 1. **Phần 1. Dữ kiện thực tế, câu hỏi yêu cầu và danh mục câu hỏi nghiên cứu:**
    - Mục 1.1: Thông tin khách hàng gồm chủ thể, tỷ lệ vốn, địa bàn, mô hình hoạt động, mốc thời gian sự kiện. Ghi rõ dữ kiện do khách hàng cung cấp.
@@ -450,7 +449,7 @@ Bản ghi nhớ gửi khách hàng được rút gọn từ bản nghiên cứu 
 - Dung lượng mục tiêu từ 05 trang đến 10 trang. Trường hợp nội dung phức tạp thì tách thành các chuyên đề độc lập.
 - Bắt buộc có điều khoản giới hạn trách nhiệm tư vấn quản trị ở phần kết luận, nêu rõ kết luận dựa trên dữ kiện khách hàng cung cấp tại thời điểm tư vấn và không thay thế phán quyết của cơ quan nhà nước có thẩm quyền.
 
-### 9.9. Mười lăm lỗi thường gặp trong nghiên cứu pháp lý
+### 9.9. Các lỗi thường gặp trong nghiên cứu pháp lý
 
 | # | Lỗi nhận diện | Biểu hiện | Cách xử lý chuẩn hóa |
 | --- | --- | --- | --- |
@@ -509,8 +508,106 @@ Trước khi trình duyệt Báo cáo nghiên cứu pháp lý nội bộ, nhân 
 
 ---
 
+## CÂU HỎI THƯỜNG GẶP THEO JOB
+
+### RD-01. Ghi nhận văn bản pháp luật mới
+
+**Nếu chưa chắc văn bản đó còn hiệu lực, thì có ghi nhận không?**
+Có. RD-01 ghi nhận cả khi chưa chắc chắn, thà ghi thừa rồi loại, trong 02 NLV kể từ khi nhận tin báo.
+
+**Nếu phát hiện văn bản nhưng chưa rõ nguồn, thì mức xác minh ban đầu ghi gì?**
+Ghi hạng nguồn phát hiện và mức xác minh ban đầu vào dòng ghi nhận; việc xác minh hiệu lực thuộc RD-03, không thuộc RD-01.
+
+### RD-02. Nhập bản gốc vào kho văn bản
+
+**Nếu bản gốc tải được trong mốc thường, thì đầu ra của Job này là gì?**
+Tệp bản gốc trong kho `05_PhapLuat/` kèm bảng thông tin đủ dòng; sau đó Job chuyển sang RD-03 để xác minh hiệu lực.
+
+**Nếu văn bản thuộc mức ưu tiên 1, thì mốc nhập bản gốc khác mốc thường chỗ nào?**
+01 NLV thay vì 03 NLV kể từ RD-01, vì thuộc nhánh nhanh của văn bản mức ưu tiên 1.
+
+**Nếu không tải được bản gốc, thì chuỗi đánh giá tác động có chạy không?**
+Không. RD-02 lập phiếu theo dõi tại Sổ theo dõi yêu cầu nghiên cứu pháp lý, RD-05 không cam kết mốc, và `TL-RD` báo `CEO` trong cùng ngày làm việc.
+
+### RD-03. Xác minh hiệu lực và phần bị bãi bỏ
+
+**Nếu không tìm thấy văn bản nào thay thế văn bản đang xem, thì có kết luận còn hiệu lực được không?**
+Không. Việc không thấy văn bản thay thế chỉ là bằng chứng âm tính, chưa đủ để kết luận đã đối chiếu bản gốc; giữ mức chưa đối chiếu và ghi rõ đã tìm ở đâu.
+
+**Nếu muốn kết luận một điều khoản bị thay hoặc bị bãi bỏ, thì đọc văn bản nào cho chắc?**
+Đọc điều khoản thi hành của văn bản mới hơn cùng lĩnh vực, đã mở bản gốc; cấm lấy từ trí nhớ và cấm lấy từ nguồn thứ cấp, theo KS-RD-01.
+
+**Nếu văn bản thuộc mức ưu tiên 1, thì mốc xác minh hiệu lực bao lâu?**
+01 NLV kể từ RD-02 thay vì 03 NLV, theo nhánh nhanh của văn bản mức ưu tiên 1.
+
+### RD-04. Phân mức ưu tiên của văn bản mới
+
+**Nếu mới có nội dung văn bản và chưa nhập bản gốc, thì phân mức được không?**
+Được. Phân mức là việc đọc tiêu chí, không cần tra bản gốc, nên RD-04 chạy trước RD-02 và RD-03 trong 01 NLV kể từ RD-01.
+
+**Nếu phân mức xong, thì kết quả đó dùng để làm gì?**
+RD-02 và RD-03 dựa vào mức để chọn nhánh nhanh hay nhánh thường, và RD-05 đặt mốc theo mức đã phân tại OBK-SOP-00 mục 12.3a.
+
+### RD-05. Lập bản đánh giá tác động
+
+**Nếu bản đánh giá tác động chưa có danh sách mã Job bị ảnh hưởng, thì bàn giao cho bộ phận được không?**
+Không. KS-RD-03 yêu cầu danh sách mã Job bị ảnh hưởng đã đối chiếu với bảng tác động ngược trước RD-07; thiếu danh sách thì quay lại RD-05.
+
+**Nếu văn bản mới thuộc mức ưu tiên 1, thì bản đánh giá phải xong khi nào?**
+Theo mốc 05 ngày làm việc của mức ưu tiên 1, đếm từ ngày ghi nhận tại RD-01; con số đặt tại OBK-SOP-00 mục 12.3a, không đặt lại trong Job.
+
+**Nếu bản gốc chưa nhập kho, thì lập bản đánh giá được không?**
+Chưa. Đầu vào bắt buộc là bản gốc đã nhập kho, kết luận hiệu lực tại RD-03 và mức ưu tiên tại RD-04; chưa đủ thì Job chưa chạy.
+
+### RD-07. Bàn giao yêu cầu sửa cho bộ phận và theo dõi tới khi đóng
+
+**Nếu đã giao yêu cầu sửa nhưng bộ phận chưa đóng Job sửa, thì RD-07 đóng được không?**
+Chưa. RD-07 chỉ đóng khi `TL` bộ phận đóng Job sửa của mình, tức KT-25, LD-24 hoặc LS-21; bàn giao rồi coi như xong là lỗi thường gặp.
+
+**Nếu bộ phận Giấy phép chưa có Job sửa tương đương, thì bàn giao cho ai?**
+Mở một Job rời cho bộ phận Giấy phép và ghi lý do trên chính Job RD-07.
+
+**Nếu giao yêu cầu sửa, thì mốc bao lâu?**
+Giao trong 01 NLV kể từ khi xong RD-05; mốc sửa tài liệu của bộ phận theo OBK-SOP-00 mục 12.3a cột cuối.
+
+
+### RD-10. Trả lời câu hỏi pháp lý mà bộ phận không tra được
+
+**Nếu bộ phận chưa tra và hỏi ngay, thì RD-10 nhận đầu vào không?**
+Chưa. Đầu vào bắt buộc là câu hỏi đã ghi trên Job kèm danh mục nguồn bộ phận đã tra; thiếu danh mục nguồn thì Job chưa chạy được.
+
+**Nếu không kết luận được câu trả lời, thì trả lời bộ phận bằng gì?**
+Kết luận không kết luận được kèm RD-12 mở mã cần xác minh, không trả lời bằng câu chưa có căn cứ, theo KS-RD-05.
+
+**Nếu trả lời xong, thì bộ phận dùng mốc của Job này để làm gì?**
+KT-23, LD-01 và LS-07 dẫn chiếu mốc 05 NLV của RD-10 để cộng vào T3 của mình, chứ không ghi lại con số.
+
+### RD-12. Mở mã cần xác minh và đặt hạn chót
+
+**Nếu mở mã cần xác minh, thì mốc mở phiếu bao lâu?**
+Mở trong 01 NLV tại Sổ theo dõi yêu cầu nghiên cứu pháp lý, kèm rủi ro, nhánh thay thế và thời hạn hoàn thành.
+
+**Nếu mã cần xác minh có hậu quả không tự lộ ra, thì có được bỏ hạn chót không?**
+Không. Hạn chót là bắt buộc với mã nào có hậu quả không tự lộ ra; đây là đầu ra của KS-RD-05 trước khi trả lời bộ phận.
+
+**Nếu không kết luận được tại RD-09 hoặc RD-10, thì Job nào mở mã theo dõi?**
+RD-12 mở phiếu theo dõi; KS-RD-05 yêu cầu mở phiếu này trước khi trả lời bộ phận.
+
+### RD-14. Rà soát hiệu lực toàn sổ căn cứ
+
+**Nếu rà theo lịch, thì rà soát hiệu lực toàn sổ căn cứ làm khi nào?**
+Hằng quý, chậm nhất ngày cuối cùng của tháng đầu quý sau.
+
+**Nếu xuất hiện văn bản mới mức ưu tiên 1 giữa kỳ, thì có chờ tới kỳ rà hằng quý không?**
+Không. Rà đột xuất ngay khi có văn bản mức ưu tiên 1; đầu ra là danh mục mã bị thay hoặc bãi bỏ và Job sửa đã mở cho từng mã.
+
+**Nếu rà xong có mã văn bản bị thay, thì đầu ra của Job này là gì?**
+Danh mục mã có văn bản bị thay hoặc bị bãi bỏ, kèm Job sửa đã mở cho từng mã.
+
+---
+
 ## NHẬT KÝ SỬA
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.1 | Sửa dòng 'Người phê duyệt' trong bảng thông tin phiên bản về khuôn hai cột, bỏ dấu thừa và liên kết bị cắt cụt của OBK-SOP-00 |
+| 04/10/2026 | R.2.0.1 | Chuyển số đếm liệt kê thành quy định, bỏ lối tự sự ở nghiên cứu. |

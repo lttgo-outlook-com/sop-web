@@ -4,19 +4,15 @@ code: "NS-08"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
-review_status: "đã soát"
 approver: "CEO"
-approval_status: "đã phê duyệt"
 parent: "OBK-TTT-05 Cách làm phiếu thao tác"
-law_as_of: ""
 next_review: ""
 distribution: "Nội bộ oBacker"
-previous_version: ""
 aliases:
   - NS-08
 tags:
@@ -31,7 +27,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | NS-08 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -42,6 +38,7 @@ tags:
 | **Ai dùng** | Người phát hiện vi phạm, Người vi phạm, Người làm chứng, Quản lý trực tiếp (`TL`), Chuyên viên Nhân sự (`HR`), Ban Giám đốc |
 | **Sinh từ** | [[Noi_quy_lao_dong\|OBK-NQLD]] Chương IX, Bộ luật Lao động Điều 122, Nghị định 145/2020/NĐ-CP Điều 70 |
 | **Ngày làm phiếu** | 27/09/2026 |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ---
 
@@ -156,15 +153,6 @@ Biên bản vi phạm kỷ luật lao động là văn bản pháp lý khởi đ
 2. Tuân thủ đúng trình tự tố tụng lao động luật định, bảo vệ người sử dụng lao động trước nguy cơ bị cơ quan quản lý nhà nước xử phạt hành chính hoặc bị Tòa án tuyên hủy quyết định kỷ luật do vi phạm thủ tục xử lý kỷ luật lao động;
 3. Cung cấp căn cứ cho Ban Giám đốc và Hội đồng kỷ luật xem xét, áp dụng đúng hình thức kỷ luật và xác định điều kiện mất hoặc giảm trừ quyền hưởng tiền thưởng theo quy định tại Điều 9 [[02_Quy_che_tien_luong_va_tien_thuong_noi_bo|OBK-QCNS-02]] và quyết định VQ-31.
 
-## Căn cứ pháp luật và quy định nội bộ
-
-| Mục | Căn cứ | Nội dung cốt lõi |
-| --- | --- | --- |
-| Nguyên tắc xử lý kỷ luật | Bộ luật Lao động 2019 Điều 122 | Người sử dụng lao động phải chứng minh được lỗi của người lao động; lập biên bản vi phạm |
-| Trình tự xử lý kỷ luật | Nghị định 145/2020/NĐ-CP Điều 70 | Quy định chi tiết việc lập biên bản vi phạm, thông báo phiên họp xử lý kỷ luật lao động |
-| Bốn hình thức kỷ luật | Bộ luật Lao động 2019 Điều 124 | Khiển trách; Kéo dài thời hạn nâng lương không quá 06 tháng; Cách chức; Sa thải |
-| Quy định kỷ luật nội bộ | [[Noi_quy_lao_dong\|OBK-NQLD]] Chương IX | Danh mục hành vi vi phạm, thẩm quyền và trình tự xử lý kỷ luật lao động tại oBacker |
-| Chế tài mất thưởng | [[02_Quy_che_tien_luong_va_tien_thuong_noi_bo\|OBK-QCNS-02]] Điều 9 | Kỷ luật từ mức kéo dài thời hạn nâng lương trở lên làm mất toàn bộ quyền hưởng thưởng |
 
 ---
 
@@ -172,4 +160,4 @@ Biên bản vi phạm kỷ luật lao động là văn bản pháp lý khởi đ
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu NS-08 về Sổ cái OBK-MSR |
