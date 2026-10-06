@@ -191,9 +191,9 @@ Nhóm chat với khách do AM làm quản trị và là nơi duy nhất chuyên 
 | Tier 2 | Thường quy, có yếu tố xét đoán; đây là mức mặc định | Hai lớp: lớp một tự soát cộng lớp hai người thứ hai | Theo mẫu thống kê |
 | Tier 3 | Rủi ro cao: khách mới, lần đầu, nguy cơ phạt, FDI, hồ sơ phức tạp | Hai lớp | Bắt buộc, không theo mẫu |
 
-**Nhóm giữ hai lớp trong mọi mức.** Các Job tiền lương, bảo hiểm xã hội, thuế TNCN luôn đủ hai lớp, không phân biệt Tier, theo quyết định của `CEO`. Danh sách Job của nhóm này tại phụ lục [[PL_T_Phan_tier_Job_theo_rui_ro|OBK-SOP-PL-T]].
+**Nhóm giữ hai lớp trong mọi mức.** Các Job tiền lương, bảo hiểm xã hội, thuế TNCN luôn đủ hai lớp, không phân biệt Tier, theo quyết định của `CEO`. Danh sách Job của nhóm này tại cột "Giữ hai lớp mọi Tier" của phụ lục [[PL_2_Bang_tra_SLA|OBK-SOP-PL2]] (cột có giá trị "Có").
 
-**Phân loại Tier.** Tier của từng Job ghi tại phụ lục [[PL_T_Phan_tier_Job_theo_rui_ro|OBK-SOP-PL-T]]; bảng Job của bộ phận không đổi. Job mới hoặc Job có thay đổi phạm vi vào lần đầu áp Tier 3 cho lần thực hiện đầu tiên, sau đó phân loại lại theo ba tiêu chí của bảng trên.
+**Phân loại Tier.** Tier của từng Job ghi tại cột "Mức Tier" của phụ lục [[PL_2_Bang_tra_SLA|OBK-SOP-PL2]]; bảng Job của bộ phận không đổi. Job mới hoặc Job có thay đổi phạm vi vào lần đầu áp Tier 3 cho lần thực hiện đầu tiên, sau đó phân loại lại theo ba tiêu chí của bảng trên.
 
 **Hậu kiểm, ba tham số:**
 

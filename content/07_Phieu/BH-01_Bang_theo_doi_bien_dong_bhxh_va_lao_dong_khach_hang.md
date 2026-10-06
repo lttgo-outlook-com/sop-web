@@ -4,7 +4,7 @@ code: "BH-01"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.1.0"
+version: "R.2.0.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -25,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | BH-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.1.0, đang áp dụng |
+| Phiên bản | R.2.0.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -36,7 +36,7 @@ tags:
 | **Ai dùng** | Chuyên viên Lao động (`CV-LD`), Trưởng bộ phận Lao động (`TL-LD`), Chuyên viên Quản lý khách hàng (`AM`) |
 | **Sinh từ** | [[05_OBK-SOP-LD_Lao_dong_va_tien_luong\|OBK-SOP-LD]] (Job LD-05 đến LD-16);<br>`OBK-HB-51` Hướng dẫn nghiệp vụ lao động và tiền lương |
 | **Ngày làm phiếu** | 27/09/2026 |
-| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]]; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
@@ -96,9 +96,9 @@ Bảng theo dõi được cập nhật liên tục bởi `CV-LD` và được `T
 
 ## KÝ XÁC NHẬN
 
-| Chuyên viên Lao động (`CV-LD`) | Trưởng bộ phận Lao động (`TL-LD`) | Giám đốc vận hành (`COO`) |
-| --- | --- | --- |
-| *(Ký và ghi rõ họ tên)* | *(Ký và ghi rõ họ tên)* | *(Ký và ghi rõ họ tên)* |
+| Chuyên viên Lao động (`CV-LD`) | Trưởng bộ phận Lao động (`TL-LD`) |
+| --- | --- |
+| *(Ký và ghi rõ họ tên)* | *(Ký và ghi rõ họ tên)* |
 
 ---
 
@@ -116,4 +116,4 @@ Kiểm soát chặt chẽ nghĩa vụ đóng bảo hiểm xã hội bắt buộc
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu BH-01 về Sổ cái OBK-MSR |
+| 06/10/2026 | R.2.0.0 | Rút lớp Giám đốc vận hành khỏi chuỗi ký xác nhận bảng biến động BHXH |

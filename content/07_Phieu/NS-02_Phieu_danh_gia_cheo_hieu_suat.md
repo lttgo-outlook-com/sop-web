@@ -35,7 +35,7 @@ tags:
 | **Tình trạng** | ĐÃ BÃI BỎ THEO KẾ HOẠCH TINH GIẢN VÀ CHUẨN HÓA SOP |
 | **Ai dùng** | Không còn áp dụng (đã hủy bỏ đánh giá chéo ngang hàng) |
 | **Sinh từ** | [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] mục 3.2 |
-| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]]; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 > [!note] ĐÃ BÃI BỎ ĐÁNH GIÁ CHÉO NGANG HÀNG
 > Theo Kế hoạch tinh giản và chuẩn hóa SOP oBacker và [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] mục 3.2, oBacker chính thức bãi bỏ việc đánh giá chéo ngang hàng giữa các đồng nghiệp và bãi bỏ biểu mẫu `NS-02`. Thẩm quyền đánh giá hiệu suất thuộc về Trưởng bộ phận chuyên môn (`TL`) dựa trên dữ liệu thực tế và quan sát trực tiếp, kết hợp bản tự nhận xét của nhân sự ([[NS-01_Phieu_tu_danh_gia_hieu_suat|NS-01]]). Giữ lại trang này làm tài liệu dẫn chiếu lịch sử và đảm bảo tính toàn vẹn liên kết.

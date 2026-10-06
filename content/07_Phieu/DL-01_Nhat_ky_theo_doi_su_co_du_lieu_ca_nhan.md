@@ -36,7 +36,7 @@ tags:
 | **Ai dùng** | Cán bộ bảo vệ dữ liệu cá nhân (`DPO`), Quản trị IT, `CEO`, `COO`, `TL` |
 | **Sinh từ** | [[OBK-SOP-NB-09_Xu_ly_su_co_du_lieu_ca_nhan_noi_bo\|OBK-SOP-NB-09]];<br>[[06_Data_Protection_VI\|OBK-TnC-06]] |
 | **Ngày làm phiếu** | 27/09/2026 |
-| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]]; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 

@@ -4,7 +4,7 @@ code: "HH-02"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.1.0"
+version: "R.2.0.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -25,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | HH-02 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.1.0, đang áp dụng |
+| Phiên bản | R.2.0.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -36,7 +36,7 @@ tags:
 | **Ai dùng** | `PM` lập và gửi. Số liệu lấy từ đầu ra của `NB-49` |
 | **Sinh từ** | [[08_OBK-SOP-PM_Chuong_trinh_doi_tac_gioi_thieu_khach_hang\|OBK-SOP-PM]] Job PM-07, PM-08 và KS-PM-08 |
 | **Ngày làm phiếu** | 24/09/2026 |
-| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]]; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
@@ -81,7 +81,7 @@ Kỳ: tháng ...... năm ..........
         Hạn phản hồi, 07 ngày làm việc: ....................
 
 [ ]  7. Chuyển sang PM-08 khi đối tác phản hồi, hoặc khi hết hạn phản hồi.
-        Kích hoạt thủ tục Đề nghị thanh toán theo MT-01 (điểm kích hoạt TG-13)
+        Kích hoạt thủ tục Đề nghị thanh toán theo điểm kích hoạt TG-13
         và OBK-SOP-NB-01 để KTV lập ủy nhiệm chi chuyển khoản trước ngày 10.
 ```
 
@@ -138,4 +138,4 @@ Phiếu này không tự đặt con số nào. Tỷ lệ 10%, mốc từ ngày 0
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu HH-02 về Sổ cái OBK-MSR |
+| 06/10/2026 | R.2.0.0 | Đổi tên tham chiếu điểm kích hoạt TG-13 sau khi ma trận MT-01 chuyển lưu trữ |

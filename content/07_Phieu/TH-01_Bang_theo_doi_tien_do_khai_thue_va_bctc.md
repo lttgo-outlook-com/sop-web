@@ -36,7 +36,7 @@ tags:
 | **Ai dùng** | Kế toán viên phụ trách (`KTV`), Trưởng nhóm Kế toán (`TL-KT`), Kế toán trưởng (`KTT`) |
 | **Sinh từ** | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]];<br>[[13_Lich_tuan_thu_va_quy_trinh_khai_nop\|OBK-HB-13]];<br>[[PL_A_Bang_kiem\|OBK-HB-PL-A]] |
 | **Ngày làm phiếu** | 27/09/2026 |
-| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]]; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 

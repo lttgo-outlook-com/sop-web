@@ -36,7 +36,7 @@ tags:
 | **Ai dùng** | Kế toán viên thuế (`KTV`), Kế toán trưởng (`KTT`), Trưởng bộ phận Kế toán (`TL-KT`), Giám đốc điều hành cấp cao (`CEO`) |
 || **Sinh từ** | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]];<br>[[PL_H_Quy_trinh_chu_ky_so_va_hoa_don_dien_tu\|OBK-SOP-PL-H]];<br>[[04_Quan_ly_chung_tu\|OBK-SOP-04]];<br>Nghị định 254/2026/NĐ-CP; Thông tư 91/2026/TT-BTC |
 | **Ngày làm phiếu** | 27/09/2026 |
-| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]]; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 

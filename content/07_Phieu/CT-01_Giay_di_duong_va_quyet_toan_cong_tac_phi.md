@@ -36,7 +36,7 @@ tags:
 | **Ai dùng** | Người đi công tác (`NLĐ`), Quản lý trực tiếp (`TL`), `COO`, `CEO`, `KTV`, `KTT`, `TQ` |
 | **Sinh từ** | [[OBK-SOP-NB-18_Quan_ly_cong_tac_phi_va_thanh_toan_chi_phi_cong_tac\|OBK-SOP-NB-18]];<br>[[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 19, Điều 21 |
 | **Ngày làm phiếu** | 27/09/2026 |
-| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]]; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ---
 

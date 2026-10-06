@@ -38,7 +38,7 @@ tags:
 | **Ai dùng** | Người phát hiện vi phạm, Người vi phạm, Người làm chứng, Quản lý trực tiếp (`TL`), Chuyên viên Nhân sự (`HR`), Ban Giám đốc |
 | **Sinh từ** | [[Noi_quy_lao_dong\|OBK-NQLD]] Chương IX, Bộ luật Lao động Điều 122, Nghị định 145/2020/NĐ-CP Điều 70 |
 | **Ngày làm phiếu** | 27/09/2026 |
-| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]]; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ---
 

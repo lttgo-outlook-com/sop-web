@@ -4,7 +4,7 @@ code: "OBK-QCTC-03"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 1, văn bản KHUNG toàn công ty"
-version: "R.1.0.2"
+version: "R.2.0.0"
 status: "đang áp dụng"
 draft_date: "04/10/2026"
 author: "CEO"
@@ -28,7 +28,7 @@ tags:
 | Mã tài liệu | OBK-QCTC-03 |
 | Tên tài liệu | Quy chế hạch toán kế toán của Công ty cổ phần oBacker |
 | Cấp tài liệu | Cấp 1, văn bản KHUNG về kỹ thuật kế toán. Đọc kèm [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Quy chế tài chính nội bộ |
-| Phiên bản | R.1.0.2, đang áp dụng |
+| Phiên bản | R.2.0.0, đang áp dụng |
 | Ngày biên soạn | 04/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -164,7 +164,7 @@ Mức chắc chắn của nghĩa vụ thông báo phụ thuộc vào tình trạ
 
 3a.4. Điều kiện chi, đối tượng chi và tỷ lệ hoa hồng giới thiệu khách hàng thực hiện theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] Điều 23a. Bút toán chi tiết của hoa hồng giới thiệu khách hàng không đặt tại quy chế này.
 
-3a.5. Khi chi trả tiền hoa hồng giới thiệu khách hàng cho cá nhân từ 05 triệu đồng trở lên cho một lần chi trả, oBacker khấu trừ thuế thu nhập cá nhân 10% tại nguồn theo `[Nghị định 253/2026/NĐ-CP Đ.50 k.2]` (trừ trường hợp cá nhân đủ điều kiện và đã lập văn bản cam kết theo mẫu số `OBK-BM-TNCN-08`). Hạch toán: Nợ TK 641 (toàn bộ tiền hoa hồng) / Có TK 3335 (thuế TNCN khấu trừ 10%), Có TK 112 (90% tiền chi trả thực tế).
+3a.5. Khi chi trả tiền hoa hồng giới thiệu khách hàng cho cá nhân từ 05 triệu đồng trở lên cho một lần chi trả, người thực hiện thanh toán (`NTT` theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 35.1a) khấu trừ thuế thu nhập cá nhân 10% tại nguồn theo `[Nghị định 253/2026/NĐ-CP Đ.50 k.2]` trước khi thực hiện lệnh chi trả (trừ trường hợp cá nhân đủ điều kiện và đã lập văn bản cam kết theo mẫu số `OBK-BM-TNCN-08`). Hạch toán: Nợ TK 641 (toàn bộ tiền hoa hồng) / Có TK 3335 (thuế TNCN khấu trừ 10%), Có TK 112 (90% tiền chi trả thực tế).
 
 ### Điều 3b. Quy tắc hạch toán và tính giá thành dịch vụ (Tài khoản 154, 632)
 
@@ -404,4 +404,4 @@ Quy trình tổng hợp, xác nhận và chốt bảng công theo [[OBK-SOP-NB-0
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 04/10/2026 | R.1.0.2 | Bỏ lối tự sự ở quy chế hạch toán kế toán. |
+| 06/10/2026 | R.2.0.0 | Điểm 3a.5: gán chủ thể khấu trừ TNCN 10% là người thực hiện thanh toán (NTT theo OBK-QCTC-01 mục 35.1a) và mốc trước khi thực hiện lệnh chi trả |

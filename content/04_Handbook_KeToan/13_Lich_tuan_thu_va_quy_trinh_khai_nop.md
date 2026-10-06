@@ -226,7 +226,7 @@ Toàn bộ các bước thực hiện của chương này được trình bày c
 
 ## Phụ lục A của chương. Nội dung nghiệp vụ chi tiết
 
-Phần này là nội dung tra cứu về lịch tuân thủ và khai nộp, gồm 9 mục ký hiệu A tới I. Phần này nằm sau khung mười mục để khung vận hành đọc liền mạch; nhãn chữ cái giữ nguyên nên mọi dẫn chiếu dạng "mục A.1" vẫn đúng.
+Phần này là nội dung tra cứu về lịch tuân thủ và khai nộp, gồm 9 mục ký hiệu A tới I. Phần này nằm sau khung chín mục để khung vận hành đọc liền mạch; nhãn chữ cái giữ nguyên nên mọi dẫn chiếu dạng "mục A.1" vẫn đúng.
 
 ### A. BẢNG TỔNG HỢP THỜI HẠN
 
@@ -1294,6 +1294,7 @@ Doanh nghiệp Việt Nam phải đăng ký để được cấp mã số thuế
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 06/10/2026 | R.1.0.3 | Đồng bộ chương 13: "khung mười mục" thành "khung chín mục" (mục "Căn cứ pháp lý" ra khỏi khuôn cấp 3 ngày 06/10/2026) |
 | 04/10/2026 | R.1.0.2 | Chuan hoa van phong hanh chinh, bo so dem tai cac tieu de muc, chuyen cac callout can xac minh sang quy dinh chuan muc va go phu luc chua xac minh khoi ban publish |
 | 04/10/2026 | R.1.0.1 | Bo so dem tai tieu de thu tuc bat buoc truoc moi mua bao cao doi voi doanh nghiep sieu nho tai muc 6.1.4 |
 | 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

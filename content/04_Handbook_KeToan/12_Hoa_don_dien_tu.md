@@ -229,7 +229,7 @@ Trường hợp khách hàng mới thành lập hoặc chưa có chữ ký số 
 
 ## Phụ lục A của chương. Nội dung nghiệp vụ chi tiết
 
-Phần này là nội dung tra cứu về hóa đơn điện tử, gồm 8 mục ký hiệu A tới H. Phần này nằm sau khung mười mục để khung vận hành đọc liền mạch; nhãn chữ cái giữ nguyên nên mọi dẫn chiếu dạng "mục A.1" vẫn đúng.
+Phần này là nội dung tra cứu về hóa đơn điện tử, gồm 8 mục ký hiệu A tới H. Phần này nằm sau khung chín mục để khung vận hành đọc liền mạch; nhãn chữ cái giữ nguyên nên mọi dẫn chiếu dạng "mục A.1" vẫn đúng.
 
 ### A. Khung pháp lý hiện hành
 
@@ -1132,5 +1132,6 @@ Mẫu tờ khai thuế liên quan tới nghiệp vụ đối chiếu hóa đơn 
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 06/10/2026 | R.1.0.2 | Đồng bộ chương 12: "khung mười mục" thành "khung chín mục" (mục "Căn cứ pháp lý" ra khỏi khuôn cấp 3 ngày 06/10/2026) |
 | 04/10/2026 | R.1.0.1 | Chuan hoa van phong hanh chinh, bo so dem tai cac tieu de muc, chuyen cac callout can xac minh sang quy dinh chuan muc va go phu luc chua xac minh khoi ban publish |
 | 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

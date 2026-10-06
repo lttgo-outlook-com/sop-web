@@ -48,8 +48,8 @@ tags:
 4. **Danh mục chờ xác minh của cả công ty** gồm toàn bộ nội dung chưa đối chiếu bản gốc hoặc chưa xác minh được trong Handbook, lý do chưa chắc chắn, và việc cần làm để đối chiếu được bản gốc.
 5. **Hồ sơ sửa của bản 1.3** gồm ba chỗ Handbook từng ghi khác bản gốc, hai chỗ đã bị rút khỏi danh sách sau khi soát lại, bốn dấu theo dõi đã đóng và tám nội dung từng thiếu đã bổ sung. Tra hồ sơ sửa khi cần biết vì sao một chỗ được viết như hiện tại, hoặc khi phải liên hệ lại khách đã được trả lời theo bản cũ.
 
-> [!note] QUY ƯỚC THEO DÕI MỨC ĐỘ ĐỐI CHIẾU
-> Các văn bản tại Bảng A đã hoàn thành đối chiếu bản gốc được để trống cột "Mức xác minh". Trường hợp văn bản đang trong quá trình rà soát hoặc cần đối chiếu chuyên sâu được ghi chú cụ thể tại cột trạng thái và danh mục rà soát pháp luật.
+> [!question] CẦN XÁC MINH
+> Phần lớn Bảng A đã đối chiếu xong bản gốc, và cột "Mức xác minh" của các dòng đó để trống. Dòng nào chưa đối chiếu được hoặc chưa xác minh được thì ghi rõ ở cột đó và có dòng tương ứng trong Bảng D.
 
 ---
 
@@ -143,7 +143,7 @@ Cột "Có bản gốc trong kho" rà lại ngày 02/09/2026 trên kho thực t�
 | --- | --- | --- | --- | --- | --- | --- |
 | A47 | 645/CT-CS | Công văn của Cục Thuế hướng dẫn chấm dứt thu, nộp lệ phí môn bài | 23/01/2026 | Phí, lệ phí | Không | Cần để trả lời câu hỏi xử lý nghĩa vụ lệ phí môn bài các kỳ 2025 trở về trước |
 
-### A.5. Danh mục văn bản bổ sung đợt rà soát tháng 08/2026
+### A.5. Hai văn bản bổ sung ngày 26/08/2026
 
 | # | Số hiệu | Trạng thái | Mức độ ưu tiên |
 | --- | --- | --- | --- |
@@ -168,8 +168,8 @@ Sáu văn bản dưới đây do CEO cung cấp bản .docx, chuyển sang MD b�
 | Nghị định 342/2026/NĐ-CP | Quy định chi tiết Luật Thương mại và Luật Quản lý ngoại thương về hoạt động mua bán hàng hóa và các hoạt động liên quan trực tiếp đến mua bán hàng hóa của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài tại Việt Nam | 03/09/2026 | 18/10/2026, thay thế Nghị định 09/2018/NĐ-CP | Nghị định 342-2026-NĐ-CP về hoạt động mua bán hàng hóa của nhà đầu tư nước ngoài tại Việt Nam | Đ.5, Đ.8 thẩm quyền cấp phép, Đ.9 điều kiện, Đ.11 hồ sơ, Đ.12 trình tự, Đ.44 chuyển tiếp |
 | Thông tư 121/2026/TT-BTC | Sửa đổi, bổ sung một số điều của Thông tư số 68/2025/TT-BTC ban hành biểu mẫu sử dụng trong đăng ký doanh nghiệp, đăng ký hộ kinh doanh (hợp nhất tại VBHN 28/2026/VBHN-TT-BTC) | 21/08/2026 | 21/08/2026 | Thông tư 121-2026-TT-BTC sửa đổi Thông tư 68-2025-TT-BTC về biểu mẫu đăng ký doanh nghiệp | Thay thế 09 biểu mẫu Phụ lục I (Mẫu 1, 2, 3, 4, 5, 10, 12, 27, 30), bãi bỏ Mẫu 11 |
 
-> [!note] NGUYÊN TẮC ĐỐI CHIẾU VĂN BẢN SỬA ĐỔI, BỔ SUNG
-> Quy định tại Điều 94 Nghị định 19/2026 được sửa đổi, bổ sung bởi Nghị định 96/2026 Điều 99 khoản 6 về kỳ báo cáo giám sát đầu tư. Đối với Nghị định 122/2021/NĐ-CP, Nghị định 288/2026/NĐ-CP sửa đổi một số điều nhưng giữ nguyên quy định tại Điều 15 về chế tài vi phạm chế độ báo cáo đầu tư.
+> [!note] HAI CẶP PHẢI ĐỌC KÈM
+> Nghị định 19/2026 Điều 94 đã bị sửa bởi Nghị định 96/2026 Điều 99 khoản 6; đọc riêng Nghị định 19/2026 sẽ ra kết luận SAI về kỳ báo cáo quý. Nghị định 122/2021 đã bị sửa bởi Nghị định 288/2026, nhưng phần sửa không chạm Điều 15.
 
 ### A.7. Cơ chế đặc thù khởi nghiệp sáng tạo Đà Nẵng
 
@@ -301,8 +301,9 @@ Danh sách 20 nhóm điều khoản còn hiệu lực, dạng tra nhanh:
 | Mã số bảo hiểm xã hội cá nhân | Mã số BHXH 10 số riêng biệt | Thông báo 6877/TB-BHXH ngày 26/08/2026: Chuyển đổi sử dụng số định danh cá nhân / CCCD thay thế mã số BHXH từ 01/09/2026 | `[TB 6877/TB-BHXH, KH 3115/KH-BHXH]` |
 | Biểu mẫu đăng ký doanh nghiệp | Thông tư 68/2025/TT-BTC bản gốc | Thông tư 121/2026/TT-BTC (hợp nhất tại VBHN 28/2026/VBHN-TT-BTC): Thay thế 09 biểu mẫu Phụ lục I, bãi bỏ Mẫu 11, bắt buộc số ĐDCN và chủ sở hữu hưởng lợi | `[TT 121/2026, VBHN 28/2026]` |
 
-> [!note] KẾT QUẢ RÀ SOÁT CĂN CỨ VỀ LỆ PHÍ MÔN BÀI
-> Kể từ ngày 01/01/2026, lệ phí môn bài chấm dứt thu nộp theo Nghị quyết 198/2025/QH15 Điều 10 khoản 7. Không áp dụng các biểu mẫu và quy định thu lệ phí môn bài từ kỳ tính thuế năm 2026.
+> [!question] CẦN XÁC MINH
+> ĐÃ THU HẸP NGÀY 25/08/2026
+> đã đọc toàn văn Nghị định 362/2025/NĐ-CP. Kết luận chắc chắn: Nghị định 362/2025 không nhắc tới Thông tư 302/2016/TT-BTC và Thông tư 65/2020/TT-BTC, và không nhắc tới bất kỳ Thông tư nào `[NĐ 362/2025 Đ.6, toàn văn]`. Nguồn mà bản 1.0 của phụ lục này dẫn là SAI, đã gỡ. Câu suy diễn theo nguyên tắc "văn bản quy định chi tiết hết hiệu lực khi văn bản được quy định chi tiết hết hiệu lực" cũng đã gỡ khỏi phụ lục, vì đó là SUY ĐOÁN NỘI BỘ chứ không phải căn cứ pháp lý. Cơ chế và ngày hết hiệu lực của hai thông tư này vẫn CHƯA KẾT LUẬN ĐƯỢC. Xem Bảng D dòng D21.
 
 ### B.6. Bổ sung ngày 25/08/2026, xác nhận từ bản gốc mới nhập kho
 

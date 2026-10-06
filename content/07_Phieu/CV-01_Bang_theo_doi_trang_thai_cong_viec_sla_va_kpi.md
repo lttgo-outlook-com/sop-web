@@ -36,7 +36,7 @@ tags:
 | **Ai dùng** | Người thực hiện (`Assignee`: `CV-LIC`, `KTV`, `CV-LD`, `CV-LS`, `CV-RD`, `AD-KT`), Người kiểm soát lớp hai (`Reviewer`: `TL-LIC`, `TL-KT`, `TL-LD`, `TL-LS`, `TL-RD`), Chuyên viên Quản lý khách hàng (`AM`), Giám đốc điều hành (`COO`) và Giám đốc điều hành cấp cao (`CEO`) |
 | **Sinh từ** | [[PL_2_Bang_tra_SLA\|OBK-SOP-PL2]] Bảng tra cứu 203 Job toàn công ty;<br>[[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] Chuẩn vận hành dịch vụ;<br>[[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] Khung đánh giá hiệu suất (và các phụ lục [[08_PL_A_Thang_cham_tieu_chi_chung\|PL-A]], [[08_PL_B_Tieu_chi_cong_viec_dang_ho_so\|PL-B]], [[08_PL_E_Phieu_vi_tri\|PL-E]]);<br>[[TL-02_Phieu_yeu_cau_va_bien_ban_ban_giao_tai_lieu\|TL-02]] Phiếu yêu cầu và biên bản bàn giao tài liệu |
 | **Ngày làm phiếu** | 27/09/2026 |
-| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]]; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 

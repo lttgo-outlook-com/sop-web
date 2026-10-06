@@ -228,7 +228,7 @@ Quy định chi tiết để tra khi làm từng bước nằm ở Phụ lục A
 
 ## Phụ lục A của chương. Nội dung nghiệp vụ chi tiết
 
-Phần này là nội dung tra cứu về thuế thu nhập cá nhân, gồm 13 mục ký hiệu A tới M. Phần này nằm sau khung mười mục để khung vận hành đọc liền mạch; nhãn chữ cái giữ nguyên nên mọi dẫn chiếu dạng "mục A.1" vẫn đúng.
+Phần này là nội dung tra cứu về thuế thu nhập cá nhân, gồm 13 mục ký hiệu A tới M. Phần này nằm sau khung chín mục để khung vận hành đọc liền mạch; nhãn chữ cái giữ nguyên nên mọi dẫn chiếu dạng "mục A.1" vẫn đúng.
 
 ### A. Xác định cá nhân cư trú và cá nhân không cư trú
 
@@ -1027,5 +1027,6 @@ Hệ quả nghiệp vụ cho kỳ quyết toán thuế năm TNCN năm 2026:
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 06/10/2026 | R.1.0.2 | Đồng bộ chương 11: "khung mười mục" thành "khung chín mục" (mục "Căn cứ pháp lý" ra khỏi khuôn cấp 3 ngày 06/10/2026) |
 | 04/10/2026 | R.1.0.1 | Chuan hoa van phong hanh chinh, bo so dem tai cac tieu de muc, chuyen cac callout can xac minh sang quy dinh chuan muc va go phu luc chua xac minh khoi ban publish |
 | 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

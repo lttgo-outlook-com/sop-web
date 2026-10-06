@@ -62,6 +62,7 @@ Thư mục `01_ToChuc`. Nhóm này áp dụng cho việc xác định cơ cấu 
 | [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen\|OBK-QCTC-02]] | [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen]] | QUY CHẾ TỔ CHỨC VÀ PHÂN QUYỀN | Cấp 1 |
 | [[PL_Anh_xa_nhan_su\|OBK-QCTC-02-PL-D]] | [[PL_Anh_xa_nhan_su]] | Ánh xạ nhân sự vào position | Phụ lục |
 | [[PL_Chuyen_len_cap_tren\|OBK-QCTC-02-PL-C]] | [[PL_Chuyen_len_cap_tren]] | Chuyển lên cấp trên và cơ chế xử lý xung đột | Phụ lục |
+| [[PL_E_Bang_tra_nhanh_than_quyen\|OBK-QCTC-02-PL-E]] | [[PL_E_Bang_tra_nhanh_than_quyen]] | Bảng tra nhanh thẩm quyền ủy quyền | Phụ lục |
 | [[PL_Ma_tran_phan_quyen\|OBK-QCTC-02-PL-B]] | [[PL_Ma_tran_phan_quyen]] | Ma trận phân quyền theo loại quyết định | Phụ lục |
 | [[PL_Tu_dien_vai\|OBK-QCTC-02-PL-A]] | [[PL_Tu_dien_vai]] | Từ điển ký hiệu vai trò và cặp tên Việt Anh | Phụ lục |
 
@@ -185,10 +186,7 @@ Thư mục `07_Phieu`. Nhóm này áp dụng cho người thực hiện công vi
 | [[DL-01_Nhat_ky_theo_doi_su_co_du_lieu_ca_nhan\|DL-01]] | [[DL-01_Nhat_ky_theo_doi_su_co_du_lieu_ca_nhan]] | PHIẾU DL-01. NHẬT KÝ THEO DÕI SỰ CỐ DỮ LIỆU CÁ NHÂN | Phiếu thao tác |
 | [[DT-01_Danh_ba_thong_tin_doi_tac_nha_cung_cap_va_co_quan\|DT-01]] | [[DT-01_Danh_ba_thong_tin_doi_tac_nha_cung_cap_va_co_quan]] | PHIẾU DT-01. DANH BẠ THÔNG TIN ĐỐI TÁC, NHÀ CUNG CẤP VÀ CƠ QUAN NHÀ NƯỚC | Phiếu thao tác |
 | [[DT-02_So_theo_doi_doanh_thu_tra_truoc_va_phan_bo\|DT-02]] | [[DT-02_So_theo_doi_doanh_thu_tra_truoc_va_phan_bo]] | BẢNG DT-02. SỔ THEO DÕI DOANH THU, THUẾ, TRẢ TRƯỚC VÀ PHÂN BỔ ĐỊNH KỲ | Phiếu thao tác |
-| [[DV-02_Bang_theo_doi_chu_ky_so_va_dich_vu_khach_hang\|DV-02]] | [[DV-02_Bang_theo_doi_chu_ky_so_va_dich_vu_khach_hang]] | PHIẾU DV-02. BẢNG THEO DÕI HẠN CHỮ KÝ SỐ VÀ DỊCH VỤ ĐỊNH KỲ KHÁCH HÀNG | Phiếu thao tác |
 | [[GC-01_Bang_tinh_gia_thanh_dich_vu_va_bien_loi_nhuan_khach_hang\|GC-01]] | [[GC-01_Bang_tinh_gia_thanh_dich_vu_va_bien_loi_nhuan_khach_hang]] | BẢNG GC-01. BẢNG TÍNH GIÁ THÀNH DỊCH VỤ VÀ BIÊN LỢI NHUẬN KHÁCH HÀNG | Phiếu thao tác |
-| [[GP-01_Bang_theo_doi_tien_do_giay_phep_va_doanh_nghiep\|GP-01]] | [[GP-01_Bang_theo_doi_tien_do_giay_phep_va_doanh_nghiep]] | PHIẾU GP-01. BẢNG THEO DÕI TIẾN ĐỘ THỦ TỤC DOANH NGHIỆP VÀ GIẤY PHÉP CHUYÊN NGÀNH | Phiếu thao tác |
-| [[HD-01_So_theo_doi_hop_dong_lao_dong_va_thu_viec\|HD-01]] | [[HD-01_So_theo_doi_hop_dong_lao_dong_va_thu_viec]] | PHIẾU HD-01. SỔ THEO DÕI HỢP ĐỒNG LAO ĐỘNG VÀ THỬ VIỆC | Phiếu thao tác |
 | [[HD-02_So_theo_doi_hoa_don_dien_tu_dau_ra_va_dau_vao\|HD-02]] | [[HD-02_So_theo_doi_hoa_don_dien_tu_dau_ra_va_dau_vao]] | BẢNG HD-02. SỔ THEO DÕI HÓA ĐƠN ĐIỆN TỬ ĐẦU RA VÀ ĐẦU VÀO | Phiếu thao tác |
 | [[HH-01_Phieu_dang_ky_khach_duoc_gioi_thieu\|HH-01]] | [[HH-01_Phieu_dang_ky_khach_duoc_gioi_thieu]] | PHIẾU HH-01. ĐĂNG KÝ KHÁCH ĐƯỢC GIỚI THIỆU | Phiếu thao tác |
 | [[HH-02_Phieu_bao_cao_hoa_hong_thang\|HH-02]] | [[HH-02_Phieu_bao_cao_hoa_hong_thang]] | PHIẾU HH-02. BÁO CÁO HOA HỒNG THÁNG | Phiếu thao tác |
@@ -200,7 +198,6 @@ Thư mục `07_Phieu`. Nhóm này áp dụng cho người thực hiện công vi
 | [[KT-01_Bang_kiem_tra_va_bao_cao_kiem_toan_noi_bo\|KT-01]] | [[KT-01_Bang_kiem_tra_va_bao_cao_kiem_toan_noi_bo]] | PHIẾU KT-01. BẢNG KIỂM TRA VÀ BÁO CÁO KIỂM TOÁN NỘI BỘ | Phiếu thao tác |
 | [[LU-01_Bang_theo_doi_va_thanh_toan_tien_luong_chuan\|LU-01]] | [[LU-01_Bang_theo_doi_va_thanh_toan_tien_luong_chuan]] | PHIẾU LU-01. BẢNG THEO DÕI VÀ THANH TOÁN TIỀN LƯƠNG CHUẨN | Phiếu thao tác |
 | [[MK-01_Bang_theo_doi_chien_dich_marketing_va_chuyen_doi_lead\|MK-01]] | [[MK-01_Bang_theo_doi_chien_dich_marketing_va_chuyen_doi_lead]] | BẢNG MK-01. THEO DÕI CHIẾN DỊCH MARKETING VÀ CHUYỂN ĐỔI LEAD | Phiếu thao tác |
-| [[MT-01_Ma_tran_lien_ket_luong_nghiep_vu_cheo_va_kich_hoat_tu_dong\|MT-01]] | [[MT-01_Ma_tran_lien_ket_luong_nghiep_vu_cheo_va_kich_hoat_tu_dong]] | BẢNG MT-01. MA TRẬN LIÊN KẾT LUỒNG NGHIỆP VỤ CHÉO VÀ KÍCH HOẠT CHUYỂN GIAO TỰ ĐỘNG | Phiếu thao tác |
 | [[NC-01_So_theo_doi_nha_cung_cap_va_danh_gia\|NC-01]] | [[NC-01_So_theo_doi_nha_cung_cap_va_danh_gia]] | PHIẾU NC-01. SỔ THEO DÕI NHÀ CUNG CẤP VÀ ĐÁNH GIÁ ĐỊNH KỲ | Phiếu thao tác |
 | [[NH-01_Doi_chieu_ngan_hang\|NH-01]] | [[NH-01_Doi_chieu_ngan_hang]] | PHIẾU NH-01. ĐỐI CHIẾU NGÂN HÀNG | Phiếu thao tác |
 | [[NS-01_Phieu_tu_danh_gia_hieu_suat\|NS-01]] | [[NS-01_Phieu_tu_danh_gia_hieu_suat]] | PHIẾU NS-01. PHIẾU TỰ ĐÁNH GIÁ HIỆU SUẤT | Phiếu thao tác |
@@ -211,11 +208,13 @@ Thư mục `07_Phieu`. Nhóm này áp dụng cho người thực hiện công vi
 | [[NS-08_Bien_ban_vi_pham_ky_luat_lao_dong\|NS-08]] | [[NS-08_Bien_ban_vi_pham_ky_luat_lao_dong]] | PHIẾU NS-08. BIÊN BẢN VI PHẠM KỶ LUẬT LAO ĐỘNG | Phiếu thao tác |
 | [[NS-09_Bang_ke_hoach_va_phan_bo_ngan_sach_tai_chinh_nam\|NS-09]] | [[NS-09_Bang_ke_hoach_va_phan_bo_ngan_sach_tai_chinh_nam]] | PHIẾU NS-09. BẢNG KẾ HOẠCH VÀ PHÂN BỔ NGÂN SÁCH TÀI CHÍNH NĂM | Phiếu thao tác |
 | [[OB-01_Bang_theo_doi_tien_do_onboarding_khach_hang_moi\|OB-01]] | [[OB-01_Bang_theo_doi_tien_do_onboarding_khach_hang_moi]] | BẢNG OB-01. THEO DÕI TIẾN ĐỘ TIẾP NHẬN VÀ ONBOARDING KHÁCH HÀNG MỚI | Phiếu thao tác |
+| [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] | [[OBK-MSR_So_cai_quan_tri_dich_vu]] | SỔ OBK-MSR. QUẢN TRỊ DỊCH VỤ | Sổ cái |
 | [[PM-01_Bang_theo_doi_thue_bao_phan_mem_noi_bo\|PM-01]] | [[PM-01_Bang_theo_doi_thue_bao_phan_mem_noi_bo]] | PHIẾU PM-01. BẢNG THEO DÕI THUÊ BAO PHẦN MỀM VÀ DỊCH VỤ ĐỊNH KỲ NỘI BỘ | Phiếu thao tác |
 | [[RD-01_So_theo_doi_yeu_cau_nghien_cuu_phap_ly_va_ban_ghi_nho_tu_van\|RD-01]] | [[RD-01_So_theo_doi_yeu_cau_nghien_cuu_phap_ly_va_ban_ghi_nho_tu_van]] | SỔ RD-01. THEO DÕI YÊU CẦU NGHIÊN CỨU PHÁP LÝ VÀ BẢN GHI NHỚ TƯ VẤN (TICKET LOG) | Phiếu thao tác |
 | [[SC-01_Nhan_thong_bao_doi_so_tai_khoan\|SC-01]] | [[SC-01_Nhan_thong_bao_doi_so_tai_khoan]] | PHIẾU SC-01. NHẬN THÔNG BÁO ĐỔI SỐ TÀI KHOẢN NHÀ CUNG CẤP | Phiếu thao tác |
 | [[TC-01_Bang_theo_doi_dong_tien_va_suc_khoe_tai_chinh\|TC-01]] | [[TC-01_Bang_theo_doi_dong_tien_va_suc_khoe_tai_chinh]] | PHIẾU TC-01. BẢNG THEO DÕI DÒNG TIỀN VÀ SỨC KHỎE TÀI CHÍNH | Phiếu thao tác |
 | [[TH-01_Bang_theo_doi_tien_do_khai_thue_va_bctc\|TH-01]] | [[TH-01_Bang_theo_doi_tien_do_khai_thue_va_bctc]] | PHIẾU TH-01. BẢNG THEO DÕI TIẾN ĐỘ KHAI THUẾ VÀ BÁO CÁO TÀI CHÍNH | Phiếu thao tác |
+| [[TH-02_So_theo_doi_han_tong_hop\|TH-02]] | [[TH-02_So_theo_doi_han_tong_hop]] | PHIẾU TH-02. SỔ THEO DÕI HẠN TỔNG HỢP | Phiếu thao tác |
 | [[TL-01_So_giao_nhan_tai_lieu_va_buu_pham\|TL-01]] | [[TL-01_So_giao_nhan_tai_lieu_va_buu_pham]] | PHIẾU TL-01. SỔ THEO DÕI GIAO NHẬN TÀI LIỆU, THƯ TỪ VÀ BƯU PHẨM | Phiếu thao tác |
 | [[TL-02_Phieu_yeu_cau_va_bien_ban_ban_giao_tai_lieu\|TL-02]] | [[TL-02_Phieu_yeu_cau_va_bien_ban_ban_giao_tai_lieu]] | PHIẾU TL-02. PHIẾU YÊU CẦU VÀ BIÊN BẢN BÀN GIAO TÀI LIỆU | Phiếu thao tác |
 | [[TS-01_So_theo_doi_tai_san_va_cong_cu\|TS-01]] | [[TS-01_So_theo_doi_tai_san_va_cong_cu]] | PHIẾU TS-01. SỔ THEO DÕI TÀI SẢN VÀ CÔNG CỤ DỤNG CỤ | Phiếu thao tác |
@@ -266,13 +265,13 @@ Thư mục `11_NhanSu`. Nhóm này áp dụng cho quan hệ lao động giữa o
 | --- | --- | --- | --- |
 | [[00_Bo_tai_lieu_quan_tri_nhan_su\|OBK-QCNS-00]] | [[00_Bo_tai_lieu_quan_tri_nhan_su]] | BỘ TÀI LIỆU QUẢN TRỊ NHÂN SỰ VÀ VẬN HÀNH. TÀI LIỆU ĐỌC TRƯỚC | Cấp 1 |
 | [[01_Khung_nhan_su_tong_hop\|OBK-QCNS-01]] | [[01_Khung_nhan_su_tong_hop]] | KHUNG NHÂN SỰ TỔNG HỢP. LỘ TRÌNH THĂNG TIẾN VÀ CHÍNH SÁCH LƯƠNG THƯỞNG | Cấp 2 |
-| [[02_Chuong_trinh_tang_luong_dinh_ky\|OBK-QCNS-02]] | [[02_Chuong_trinh_tang_luong_dinh_ky]] | CHƯƠNG TRÌNH TĂNG LƯƠNG ĐỊNH KỲ | Cấp 2 |
+| [[02_Chuong_trinh_tang_luong_dinh_ky\|OBK-QCNS-02-PL-TL]] | [[02_Chuong_trinh_tang_luong_dinh_ky]] | CHƯƠNG TRÌNH TĂNG LƯƠNG ĐỊNH KỲ | Cấp 2 |
 | [[02_Quy_che_tien_luong_va_tien_thuong_noi_bo\|OBK-QCNS-02]] | [[02_Quy_che_tien_luong_va_tien_thuong_noi_bo]] | QUY CHẾ TIỀN LƯƠNG VÀ TIỀN THƯỞNG NỘI BỘ | Cấp 1 |
 | [[03_Mo_hinh_van_hanh_bon_muc_kiem_soat_va_ma_tran_RACI\|OBK-QCNS-03]] | [[03_Mo_hinh_van_hanh_bon_muc_kiem_soat_va_ma_tran_RACI]] | MÔ HÌNH VẬN HÀNH HAI CẤP KIỂM SOÁT VÀ MA TRẬN RACI CỦA PHÒNG DỊCH VỤ | Cấp 2 |
 | [[06_Chinh_sach_thuong_khong_dinh_ky\|OBK-QCNS-06]] | [[06_Chinh_sach_thuong_khong_dinh_ky]] | CHÍNH SÁCH THƯỞNG KHÔNG ĐỊNH KỲ | Cấp 2 |
 | [[07_Chinh_sach_cong_chuan_va_cham_cong\|OBK-QCNS-07]] | [[07_Chinh_sach_cong_chuan_va_cham_cong]] | CHÍNH SÁCH CÔNG CHUẨN VÀ CHẤM CÔNG | Cấp 2 |
 | [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] | [[08_Khung_danh_gia_hieu_suat]] | KHUNG ĐÁNH GIÁ HIỆU SUẤT | Cấp 2 |
-| [[08_PL_A_Thang_cham_tieu_chi_chung\|OBK-QCNS-08-PL-A]] | [[08_PL_A_Thang_cham_tieu_chi_chung]] | Thang chấm mười hai tiêu chí chung | Phụ lục |
+| [[08_PL_A_Thang_cham_tieu_chi_chung\|OBK-QCNS-08-PL-A]] | [[08_PL_A_Thang_cham_tieu_chi_chung]] | Thang chấm các tiêu chí chung | Phụ lục |
 | [[08_PL_B_Tieu_chi_cong_viec_dang_ho_so\|OBK-QCNS-08-PL-B]] | [[08_PL_B_Tieu_chi_cong_viec_dang_ho_so]] | Tiêu chí riêng của công việc dạng hồ sơ | Phụ lục |
 | [[08_PL_C_Ky_nang_chuyen_mon\|OBK-QCNS-08-PL-C]] | [[08_PL_C_Ky_nang_chuyen_mon]] | Bảng kỹ năng chuyên môn | Phụ lục |
 | [[08_PL_D_Van_hanh_viec_cham\|OBK-QCNS-08-PL-D]] | [[08_PL_D_Van_hanh_viec_cham]] | Vận hành việc chấm | Phụ lục |

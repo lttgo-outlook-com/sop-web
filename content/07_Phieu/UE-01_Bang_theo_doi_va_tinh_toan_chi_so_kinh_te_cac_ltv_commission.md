@@ -4,7 +4,7 @@ code: "UE-01"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.1.0"
+version: "R.2.0.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -25,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | UE-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.1.0, đang áp dụng |
+| Phiên bản | R.2.0.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -34,9 +34,9 @@ tags:
 | **Mã phiếu** | UE-01 |
 | **Màu** | TÍM, bảng theo dõi kinh tế đơn vị và đối soát hoa hồng hai chiều |
 | **Ai dùng** | `KTV`, `KTT`, `AM`, `PM`, `COO`, `CEO` |
-| **Sinh từ** | [[08_OBK-SOP-PM_Chuong_trinh_doi_tac_gioi_thieu_khach_hang\|OBK-SOP-PM]];<br>[[HH-02_Phieu_bao_cao_hoa_hong_thang\|HH-02]];<br>[[TC-01_Bang_theo_doi_dong_tien_va_suc_khoe_tai_chinh\|TC-01]];<br>[[DT-02_So_theo_doi_doanh_thu_tra_truoc_va_phan_bo\|DT-02]];<br>[[KH-01_So_quan_tri_khach_hang_va_dich_vu_crm\|KH-01]];<br>[[CK-02_Theo_doi_kho_token_va_kich_hoat_cyberx\|CK-02]];<br>[[MT-01_Ma_tran_lien_ket_luong_nghiep_vu_cheo_va_kich_hoat_tu_dong\|MT-01]];<br>[[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 23a;<br>Thông tư 99/2025/TT-BTC |
+| **Sinh từ** | [[08_OBK-SOP-PM_Chuong_trinh_doi_tac_gioi_thieu_khach_hang\|OBK-SOP-PM]];<br>[[HH-02_Phieu_bao_cao_hoa_hong_thang\|HH-02]];<br>[[TC-01_Bang_theo_doi_dong_tien_va_suc_khoe_tai_chinh\|TC-01]];<br>[[DT-02_So_theo_doi_doanh_thu_tra_truoc_va_phan_bo\|DT-02]];<br>[[KH-01_So_quan_tri_khach_hang_va_dich_vu_crm\|KH-01]];<br>[[CK-02_Theo_doi_kho_token_va_kich_hoat_cyberx\|CK-02]];<br>`MT-01` (ma trận kích hoạt, bản lưu trữ tại `_luu_tru/phieu/`);<br>[[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 23a;<br>Thông tư 99/2025/TT-BTC |
 | **Ngày làm phiếu** | 27/09/2026 |
-| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]]; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
@@ -203,8 +203,8 @@ Quy trình thực thi thanh toán hoa hồng đối tác được tự động h
 1. **Bước 1 (Lấy dữ liệu thực thu):** Vào ngày 01 của tháng, hệ thống tính toán tự động truy xuất dữ liệu doanh thu thực thu của các khách hàng có mã giới thiệu từ Sổ `DT-02` và `CN-01`.
 2. **Bước 2 (Tính toán và sinh báo cáo):** Script tự động tính số tiền hoa hồng 10%, đối chiếu điều kiện 12 tháng, kết xuất bảng dữ liệu tự động điền vào Phiếu HH-02.
 3. **Bước 3 (Gửi đối soát):** Chuyên viên `PM` kiểm tra và gửi Báo cáo `HH-02` cho đối tác qua thư điện tử trong khoảng thời gian từ ngày 05 đến ngày 10 hằng tháng.
-4. **Bước 4 (Kích hoạt thanh toán tự động qua MT-01):**
-   - Khi báo cáo được đối tác xác nhận hoặc hết thời hạn 07 ngày làm việc mà không có khiếu nại, điểm kích hoạt `TG-13` trên Ma trận MT-01 tự động kích hoạt thủ tục Đề nghị thanh toán theo `OBK-SOP-NB-01`.
+4. **Bước 4 (Kích hoạt thanh toán tự động):**
+   - Khi báo cáo được đối tác xác nhận hoặc hết thời hạn 07 ngày làm việc mà không có khiếu nại, điểm kích hoạt `TG-13` (theo Ma trận MT-01, bản lưu trữ tại `_luu_tru/phieu/`) kích hoạt thủ tục Đề nghị thanh toán theo `OBK-SOP-NB-01`.
    - Kế toán viên thanh toán (`KTV`) lập ủy nhiệm chi trình `KTT` và `CEO` phê duyệt trên hệ thống ngân hàng điện tử, thực hiện chuyển tiền cho đối tác trước ngày 10 của tháng kế tiếp.
 
 #### A.3. Hoa hồng thưởng chuyên viên quản lý khách hàng (AM Incentive)
@@ -326,9 +326,9 @@ Quy trình thực thi thanh toán hoa hồng đối tác được tự động h
 
 ## KÝ PHÊ DUYỆT VÀ CHẤP THUẬN
 
-| Trưởng bộ phận Kế toán (`TL-KT`) | Trưởng phòng Thương mại | Giám đốc điều hành (`COO`) |
-| --- | --- | --- |
-| *(Ký và ghi rõ họ tên)* | *(Ký và ghi rõ họ tên)* | *(Ký và ghi rõ họ tên)* |
+| Trưởng bộ phận Kế toán (`TL-KT`) | Kế toán trưởng (`KTT`) | Trưởng phòng Thương mại | Giám đốc điều hành (`COO`) |
+| --- | --- | --- | --- |
+| *(Ký và ghi rõ họ tên)* | *(Ký và ghi rõ họ tên)* | *(Ký và ghi rõ họ tên)* | *(Ký và ghi rõ họ tên)* |
 
 ---
 
@@ -347,4 +347,4 @@ Cơ chế đối soát hoa hồng hai chiều minh bạch hóa toàn bộ dòng 
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu UE-01 về Sổ cái OBK-MSR |
+| 06/10/2026 | R.2.0.0 | Chuyển tham chiếu ma trận MT-01 về bản lưu trữ và thêm lớp KTT vào chuỗi ký phê duyệt |

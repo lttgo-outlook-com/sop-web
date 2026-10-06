@@ -4,7 +4,7 @@ code: "LU-01"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.2.1.0"
+version: "R.3.0.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -25,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | LU-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.2.1.0, đang áp dụng |
+| Phiên bản | R.3.0.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -36,7 +36,7 @@ tags:
 | **Ai dùng** | `HR`, `KTV`, `KTT`, `TGĐ`, `NTT` |
 | **Sinh từ** | [[01_Khung_nhan_su_tong_hop\|OBK-QCNS-01]];<br>[[02_Chuong_trinh_tang_luong_dinh_ky\|OBK-QCNS-02]];<br>[[OBK-SOP-NB-04_Cong_va_tien_luong_noi_bo\|OBK-SOP-NB-04]];<br>[[07_Chinh_sach_cong_chuan_va_cham_cong\|OBK-QCNS-07]];<br>Bảng thanh toán tiền lương theo mẫu số 01-LĐTL Phụ lục I Thông tư 99/2025/TT-BTC;<br>Bảng chấm công `BM-09`, biểu mẫu tự thiết kế riêng tại [[PL_BM_Bieu_mau_mua_sam_thanh_toan\|OBK-SOP-NB-PL-BM]], làm cơ sở lập bảng 01-LĐTL theo [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-QCTC-03]] mục 6.6b |
 | **Ngày làm phiếu** | 27/09/2026 |
-| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]]; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
@@ -140,7 +140,7 @@ Căn cứ Nghị định số 253/2026/NĐ-CP Điều 8 khoản 2 và Thông tư
 ```
 [ ]  1. TIẾP NHẬN BẢNG CHẤM CÔNG VÀ RÀ SOÁT CÔNG THỰC TẾ (NGÀY 22)
         - HR chuyển Bảng chấm công BM-09 đã có phê duyệt của CEO cho KTV.
-        - KTV kiểm tra đối chiếu danh sách nhân sự trên bảng công với Sổ theo dõi hợp đồng lao động HD-01.
+        - KTV kiểm tra đối chiếu danh sách nhân sự trên bảng công với Sổ theo dõi [[TH-02_So_theo_doi_han_tong_hop|TH-02]] (trục hợp đồng lao động nội bộ).
 
 [ ]  2. TÍNH LƯƠNG VÀ BÓC TÁCH THU NHẬP LÀM THÊM GIỜ (NGÀY 23 - 24)
         - KTV tính toán lương thời gian thực tế, tiền làm thêm giờ theo đúng hệ số 150%, 200%, 300%.
@@ -195,4 +195,4 @@ Tiền lương là nghĩa vụ tài chính và pháp lý trực tiếp của oBa
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 04/10/2026 | R.2.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu LU-01 về Sổ cái OBK-MSR |
+| 06/10/2026 | R.3.0.0 | Đổi nguồn đối chiếu danh sách nhân sự từ sổ HD-01 sang trục hợp đồng lao động nội bộ của sổ TH-02 |

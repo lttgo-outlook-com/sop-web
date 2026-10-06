@@ -36,7 +36,7 @@ tags:
 | **Ai dùng** | Chuyên viên nghiên cứu pháp lý (`CV-RD`), Trưởng bộ phận Legal R&D (`TL-RD`), Chuyên viên pháp lý (`CV-LS`), Chuyên viên Quản lý khách hàng (`AM`), Giám đốc điều hành (`COO`), Giám đốc điều hành cấp cao (`CEO`) |
 | **Sinh từ** | [[07_OBK-SOP-RD_Nghien_cuu_phap_ly\|OBK-SOP-RD]] mục 2 nhóm B, nhóm C;<br>[[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 12.3;<br>[[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]];<br>[[VB-01_So_theo_doi_vu_viec_tu_van_va_hop_dong\|VB-01]] |
 | **Ngày làm phiếu** | 27/09/2026 |
-| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]]; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 

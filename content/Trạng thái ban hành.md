@@ -8,9 +8,9 @@ tags:
 # Trạng thái ban hành
 
 > [!info] TRANG NÀY LÀ GÌ
-> Trang này ghi trạng thái của 183 tài liệu trong kho. Trang này được sinh lại từ thông tin đầu tệp của từng tài liệu; nơi sửa một trạng thái là bảng Thông tin phiên bản của chính tài liệu đó.
+> Trang này ghi trạng thái của 179 tài liệu trong kho. Trang này được sinh lại từ thông tin đầu tệp của từng tài liệu; nơi sửa một trạng thái là bảng Thông tin phiên bản của chính tài liệu đó.
 
-Cập nhật ngày 05/10/2026.
+Cập nhật ngày 06/10/2026.
 
 ## Tổ chức và phân quyền
 
@@ -33,7 +33,7 @@ Thư mục `02_NoiBo`, 22 tài liệu.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo\|OBK-SOP-NB-00]] | [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo]] | Cấp 1, văn bản KHUNG toàn công ty | R.2.1.3 | đang áp dụng | CEO | CEO | 04/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo]] | Cấp 1, văn bản KHUNG toàn công ty | R.4.0.1 | đang áp dụng | CEO | CEO | 04/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
-| [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-QCTC-03]] | [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan]] | Cấp 1, văn bản KHUNG toàn công ty | R.1.0.2 | đang áp dụng | CEO | CEO | 04/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
+| [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-QCTC-03]] | [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan]] | Cấp 1, văn bản KHUNG toàn công ty | R.2.0.0 | đang áp dụng | CEO | CEO | 04/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] | [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo]] | Cấp 3, hướng dẫn nghiệp vụ | R.3.0.2 | đang áp dụng | CEO | CEO | 04/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[OBK-SOP-NB-02_Thu_tien_va_cong_no_phai_thu\|OBK-SOP-NB-02]] | [[OBK-SOP-NB-02_Thu_tien_va_cong_no_phai_thu]] | Cấp 3, hướng dẫn nghiệp vụ | R.1.0.1 | đang áp dụng | CEO | CEO | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[OBK-SOP-NB-03_Quan_ly_tien\|OBK-SOP-NB-03]] | [[OBK-SOP-NB-03_Quan_ly_tien]] | Cấp 3, hướng dẫn nghiệp vụ | R.1.0.2 | đang áp dụng | CEO | CEO | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
@@ -49,14 +49,14 @@ Thư mục `02_NoiBo`, 22 tài liệu.
 | [[OBK-SOP-NB-13_Tiep_nhan_va_xu_ly_khieu_nai_quay_roi_tinh_duc\|OBK-SOP-NB-13]] | [[OBK-SOP-NB-13_Tiep_nhan_va_xu_ly_khieu_nai_quay_roi_tinh_duc]] | Cấp 3, hướng dẫn nghiệp vụ | R.1.0.1 | đang áp dụng | CEO | CEO | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[OBK-SOP-NB-14_Tam_thoi_chuyen_nguoi_lao_dong_lam_viec_khac\|OBK-SOP-NB-14]] | [[OBK-SOP-NB-14_Tam_thoi_chuyen_nguoi_lao_dong_lam_viec_khac]] | Cấp 3, hướng dẫn nghiệp vụ | R.1.0.2 | đang áp dụng | CEO | CEO | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[OBK-SOP-NB-15_Duy_tri_kinh_doanh_lien_tuc_va_sao_luu_du_lieu\|OBK-SOP-NB-15]] | [[OBK-SOP-NB-15_Duy_tri_kinh_doanh_lien_tuc_va_sao_luu_du_lieu]] | Cấp 3, hướng dẫn nghiệp vụ | R.1.0.0 | đang áp dụng | CEO | CEO | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
-| [[OBK-SOP-NB-16_Kiem_toan_noi_bo_va_kiem_soat_tuan_thu\|OBK-SOP-NB-16]] | [[OBK-SOP-NB-16_Kiem_toan_noi_bo_va_kiem_soat_tuan_thu]] | Cấp 3, hướng dẫn nghiệp vụ | R.1.0.1 | đang áp dụng | CEO | CEO | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
+| [[OBK-SOP-NB-16_Kiem_toan_noi_bo_va_kiem_soat_tuan_thu\|OBK-SOP-NB-16]] | [[OBK-SOP-NB-16_Kiem_toan_noi_bo_va_kiem_soat_tuan_thu]] | Cấp 3, hướng dẫn nghiệp vụ | R.2.0.0 | đang áp dụng | CEO | CEO | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[OBK-SOP-NB-17_Lap_ke_hoach_kinh_doanh_va_ngan_sach_tai_chinh\|OBK-SOP-NB-17]] | [[OBK-SOP-NB-17_Lap_ke_hoach_kinh_doanh_va_ngan_sach_tai_chinh]] | Cấp 3, hướng dẫn nghiệp vụ | R.1.0.1 | đang áp dụng | CEO | CEO | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[OBK-SOP-NB-18_Quan_ly_cong_tac_phi_va_thanh_toan_chi_phi_cong_tac\|OBK-SOP-NB-18]] | [[OBK-SOP-NB-18_Quan_ly_cong_tac_phi_va_thanh_toan_chi_phi_cong_tac]] | Cấp 3, hướng dẫn nghiệp vụ | R.1.0.1 | đang áp dụng | CEO | CEO | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[PL_BM_Bieu_mau_mua_sam_thanh_toan\|OBK-SOP-NB-PL-BM]] | [[PL_BM_Bieu_mau_mua_sam_thanh_toan]] | Phụ lục | R.1.1.1 | đang áp dụng | CEO | CEO | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 
 ## Dịch vụ cho khách
 
-Thư mục `03_DichVu`, 29 tài liệu.
+Thư mục `03_DichVu`, 28 tài liệu.
 
 | Mã | Tài liệu | Cấp | Bản | Trạng thái | Người soát | Người phê duyệt | Ngày biên soạn | Rà soát tiếp theo |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -88,7 +88,6 @@ Thư mục `03_DichVu`, 29 tài liệu.
 | [[PL_HD_Mau_hop_dong_dich_vu_khung\|OBK-SOP-AM-PL2]] | [[PL_HD_Mau_hop_dong_dich_vu_khung]] | Phụ lục | R.1.0.0 | đang áp dụng | CEO | CEO | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[PL_LIC_01_Quy_trinh_giay_phep_chuyen_nganh_va_so_huu_tri_tue\|OBK-SOP-LIC-PL-01]] | [[PL_LIC_01_Quy_trinh_giay_phep_chuyen_nganh_va_so_huu_tri_tue]] | Phụ lục | R.1.1.1 | đang áp dụng | CEO | CEO | 04/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[PL_PM_Dieu_kien_thuong_mai_chuan\|OBK-SOP-PM-PL1]] | [[PL_PM_Dieu_kien_thuong_mai_chuan]] | Phụ lục | R.1.0.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
-| [[PL_T_Phan_tier_Job_theo_rui_ro\|OBK-SOP-PL-T]] | [[PL_T_Phan_tier_Job_theo_rui_ro]] | Phụ lục | R.1.0.1 | đang áp dụng | CEO | CEO | 04/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 
 ## Handbook Kế toán
 
@@ -96,7 +95,7 @@ Thư mục `04_Handbook_KeToan`, 30 tài liệu.
 
 | Mã | Tài liệu | Cấp | Bản | Trạng thái | Người soát | Người phê duyệt | Ngày biên soạn | Rà soát tiếp theo |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[00_Muc_luc_va_cach_dung\|OBK-HB-00]] | [[00_Muc_luc_va_cach_dung]] | Mục lục | R.2.1.1 | đang áp dụng | CEO | CEO | 01/10/2026 | Không quá 06 tháng kể từ ngày ban hành |
+| [[00_Muc_luc_va_cach_dung\|OBK-HB-00]] | [[00_Muc_luc_va_cach_dung]] | Mục lục | R.3.0.0 | đang áp dụng | CEO | CEO | 01/10/2026 | Không quá 06 tháng kể từ ngày ban hành |
 | [[01_Nguyen_tac_hanh_nghe\|OBK-SOP-01]] | [[01_Nguyen_tac_hanh_nghe]] | Cấp 3, hướng dẫn nghiệp vụ | R.1.0.1 | đang áp dụng | CEO | CEO | 01/10/2026 | Chậm nhất 25/02/2027 |
 | [[02_Mo_hinh_dich_vu_va_phan_vai\|OBK-SOP-02]] | [[02_Mo_hinh_dich_vu_va_phan_vai]] | Cấp 3, hướng dẫn nghiệp vụ | R.1.0.1 | đang áp dụng | CEO | CEO | 01/10/2026 | Chậm nhất 25/02/2027 |
 | [[03_Onboarding_khach_hang\|OBK-SOP-03]] | [[03_Onboarding_khach_hang]] | Cấp 3, hướng dẫn nghiệp vụ | R.1.0.1 | đang áp dụng | CEO | CEO | 01/10/2026 | Chậm nhất 25/02/2027 |
@@ -113,7 +112,7 @@ Thư mục `04_Handbook_KeToan`, 30 tài liệu.
 | [[14_Quyet_toan_thue_nam\|OBK-SOP-14]] | [[14_Quyet_toan_thue_nam]] | Cấp 3, hướng dẫn nghiệp vụ | R.1.0.1 | đang áp dụng | CEO | CEO | 04/10/2026 | Chậm nhất 31/12/2026 |
 | [[15_Xu_ly_sai_sot_va_khai_bo_sung\|OBK-SOP-15]] | [[15_Xu_ly_sai_sot_va_khai_bo_sung]] | Cấp 3, hướng dẫn nghiệp vụ | R.1.0.1 | đang áp dụng | CEO | CEO | 04/10/2026 | Chậm nhất 31/12/2026 |
 | [[16_Thanh_tra_kiem_tra_thue\|OBK-SOP-16]] | [[16_Thanh_tra_kiem_tra_thue]] | Cấp 3, hướng dẫn nghiệp vụ | R.1.0.1 | đang áp dụng | CEO | CEO | 04/10/2026 | Chậm nhất 31/12/2026 |
-| [[17_Khung_xu_phat_va_phong_ngua\|OBK-SOP-17]] | [[17_Khung_xu_phat_va_phong_ngua]] | Cấp 3, hướng dẫn nghiệp vụ | R.1.0.2 | đang áp dụng | CEO | CEO | 04/10/2026 | Chậm nhất 31/12/2026 |
+| [[17_Khung_xu_phat_va_phong_ngua\|OBK-SOP-17]] | [[17_Khung_xu_phat_va_phong_ngua]] | Cấp 3, hướng dẫn nghiệp vụ | R.2.0.0 | đang áp dụng | CEO | CEO | 04/10/2026 | Chậm nhất 31/12/2026 |
 | [[18_Kiem_soat_chat_luong\|OBK-SOP-18]] | [[18_Kiem_soat_chat_luong]] | Cấp 3, hướng dẫn nghiệp vụ | R.1.0.1 | đang áp dụng | CEO | CEO | 04/10/2026 | Chậm nhất 28/02/2027 |
 | [[19_Giao_tiep_khach_hang\|OBK-SOP-19]] | [[19_Giao_tiep_khach_hang]] | Cấp 3, hướng dẫn nghiệp vụ | R.1.0.0 | đang áp dụng | CEO | CEO | 01/10/2026 | Chậm nhất 28/02/2027 |
 | [[20_Ban_giao_va_ket_thuc\|OBK-SOP-20]] | [[20_Ban_giao_va_ket_thuc]] | Cấp 3, hướng dẫn nghiệp vụ | R.1.0.0 | đang áp dụng | CEO | CEO | 01/10/2026 | Chậm nhất 28/02/2027 |
@@ -129,41 +128,37 @@ Thư mục `04_Handbook_KeToan`, 30 tài liệu.
 
 ## Phiếu thao tác
 
-Thư mục `07_Phieu`, 52 tài liệu.
+Thư mục `07_Phieu`, 49 tài liệu.
 
 | Mã | Tài liệu | Cấp | Bản | Trạng thái | Người soát | Người phê duyệt | Ngày biên soạn | Rà soát tiếp theo |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[BC-01_Bang_kiem_tra_sao_luu_du_lieu_va_ung_pho_su_co_bcp\|BC-01]] | [[BC-01_Bang_kiem_tra_sao_luu_du_lieu_va_ung_pho_su_co_bcp]] | Phiếu thao tác | R.1.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
+| [[BC-01_Bang_kiem_tra_sao_luu_du_lieu_va_ung_pho_su_co_bcp\|BC-01]] | [[BC-01_Bang_kiem_tra_sao_luu_du_lieu_va_ung_pho_su_co_bcp]] | Phiếu thao tác | R.3.0.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
 | [[BG-01_Ban_giao_tiep_nhan_nhan_su\|BG-01]] | [[BG-01_Ban_giao_tiep_nhan_nhan_su]] | Phiếu thao tác | R.1.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
 | [[BG-02_Ban_giao_nghi_viec_offboarding\|BG-02]] | [[BG-02_Ban_giao_nghi_viec_offboarding]] | Phiếu thao tác | R.1.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
-| [[BH-01_Bang_theo_doi_bien_dong_bhxh_va_lao_dong_khach_hang\|BH-01]] | [[BH-01_Bang_theo_doi_bien_dong_bhxh_va_lao_dong_khach_hang]] | Phiếu thao tác | R.1.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
+| [[BH-01_Bang_theo_doi_bien_dong_bhxh_va_lao_dong_khach_hang\|BH-01]] | [[BH-01_Bang_theo_doi_bien_dong_bhxh_va_lao_dong_khach_hang]] | Phiếu thao tác | R.2.0.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
 | [[CK-01_Ban_giao_chu_ky_so_va_hoa_don\|CK-01]] | [[CK-01_Ban_giao_chu_ky_so_va_hoa_don]] | Phiếu thao tác | R.1.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
 | [[CK-02_Theo_doi_kho_token_va_kich_hoat_cyberx\|CK-02]] | [[CK-02_Theo_doi_kho_token_va_kich_hoat_cyberx]] | Phiếu thao tác | R.1.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
 | [[CL-01_So_theo_doi_kiem_soat_chat_luong_va_nhat_ky_sai_sot_capa\|CL-01]] | [[CL-01_So_theo_doi_kiem_soat_chat_luong_va_nhat_ky_sai_sot_capa]] | Phiếu thao tác | R.1.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
-| [[CN-01_So_theo_doi_cong_no_phai_thu_va_tuoi_no\|CN-01]] | [[CN-01_So_theo_doi_cong_no_phai_thu_va_tuoi_no]] | Phiếu thao tác | R.1.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
+| [[CN-01_So_theo_doi_cong_no_phai_thu_va_tuoi_no\|CN-01]] | [[CN-01_So_theo_doi_cong_no_phai_thu_va_tuoi_no]] | Phiếu thao tác | R.2.0.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
 | [[CT-01_Giay_di_duong_va_quyet_toan_cong_tac_phi\|CT-01]] | [[CT-01_Giay_di_duong_va_quyet_toan_cong_tac_phi]] | Phiếu thao tác | R.1.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
 | [[CV-01_Bang_theo_doi_trang_thai_cong_viec_sla_va_kpi\|CV-01]] | [[CV-01_Bang_theo_doi_trang_thai_cong_viec_sla_va_kpi]] | Phiếu thao tác | R.1.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
 | [[DL-01_Nhat_ky_theo_doi_su_co_du_lieu_ca_nhan\|DL-01]] | [[DL-01_Nhat_ky_theo_doi_su_co_du_lieu_ca_nhan]] | Phiếu thao tác | R.1.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
 | [[DT-01_Danh_ba_thong_tin_doi_tac_nha_cung_cap_va_co_quan\|DT-01]] | [[DT-01_Danh_ba_thong_tin_doi_tac_nha_cung_cap_va_co_quan]] | Phiếu thao tác | R.1.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
 | [[DT-02_So_theo_doi_doanh_thu_tra_truoc_va_phan_bo\|DT-02]] | [[DT-02_So_theo_doi_doanh_thu_tra_truoc_va_phan_bo]] | Phiếu thao tác | R.1.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
-| [[DV-02_Bang_theo_doi_chu_ky_so_va_dich_vu_khach_hang\|DV-02]] | [[DV-02_Bang_theo_doi_chu_ky_so_va_dich_vu_khach_hang]] | Phiếu thao tác | R.1.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
 | [[GC-01_Bang_tinh_gia_thanh_dich_vu_va_bien_loi_nhuan_khach_hang\|GC-01]] | [[GC-01_Bang_tinh_gia_thanh_dich_vu_va_bien_loi_nhuan_khach_hang]] | Phiếu thao tác | R.1.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
-| [[GP-01_Bang_theo_doi_tien_do_giay_phep_va_doanh_nghiep\|GP-01]] | [[GP-01_Bang_theo_doi_tien_do_giay_phep_va_doanh_nghiep]] | Phiếu thao tác | R.1.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
-| [[HD-01_So_theo_doi_hop_dong_lao_dong_va_thu_viec\|HD-01]] | [[HD-01_So_theo_doi_hop_dong_lao_dong_va_thu_viec]] | Phiếu thao tác | R.1.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
 | [[HD-02_So_theo_doi_hoa_don_dien_tu_dau_ra_va_dau_vao\|HD-02]] | [[HD-02_So_theo_doi_hoa_don_dien_tu_dau_ra_va_dau_vao]] | Phiếu thao tác | R.1.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
 | [[HH-01_Phieu_dang_ky_khach_duoc_gioi_thieu\|HH-01]] | [[HH-01_Phieu_dang_ky_khach_duoc_gioi_thieu]] | Phiếu thao tác | R.1.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
-| [[HH-02_Phieu_bao_cao_hoa_hong_thang\|HH-02]] | [[HH-02_Phieu_bao_cao_hoa_hong_thang]] | Phiếu thao tác | R.1.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
+| [[HH-02_Phieu_bao_cao_hoa_hong_thang\|HH-02]] | [[HH-02_Phieu_bao_cao_hoa_hong_thang]] | Phiếu thao tác | R.2.0.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
 | [[HH-03_Phieu_thong_bao_hoan_tra_hoa_hong\|HH-03]] | [[HH-03_Phieu_thong_bao_hoan_tra_hoa_hong]] | Phiếu thao tác | R.1.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
-| [[KH-01_So_quan_tri_khach_hang_va_dich_vu_crm\|KH-01]] | [[KH-01_So_quan_tri_khach_hang_va_dich_vu_crm]] | Phiếu thao tác | R.1.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
+| [[KH-01_So_quan_tri_khach_hang_va_dich_vu_crm\|KH-01]] | [[KH-01_So_quan_tri_khach_hang_va_dich_vu_crm]] | Phiếu thao tác | R.2.0.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
 | [[KN-01_So_tiep_nhan_va_xu_ly_khieu_nai_khach_hang\|KN-01]] | [[KN-01_So_tiep_nhan_va_xu_ly_khieu_nai_khach_hang]] | Phiếu thao tác | R.1.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
-| [[KP-01_Bang_theo_doi_chi_so_hieu_suat_kpi_toan_cong_ty\|KP-01]] | [[KP-01_Bang_theo_doi_chi_so_hieu_suat_kpi_toan_cong_ty]] | Phiếu thao tác | R.1.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
+| [[KP-01_Bang_theo_doi_chi_so_hieu_suat_kpi_toan_cong_ty\|KP-01]] | [[KP-01_Bang_theo_doi_chi_so_hieu_suat_kpi_toan_cong_ty]] | Phiếu thao tác | R.2.0.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
 | [[KQ-01_Kiem_ke_quy_tien_mat\|KQ-01]] | [[KQ-01_Kiem_ke_quy_tien_mat]] | Phiếu thao tác | R.1.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
-| [[KT-01_Bang_kiem_tra_va_bao_cao_kiem_toan_noi_bo\|KT-01]] | [[KT-01_Bang_kiem_tra_va_bao_cao_kiem_toan_noi_bo]] | Phiếu thao tác | R.1.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
-| [[LU-01_Bang_theo_doi_va_thanh_toan_tien_luong_chuan\|LU-01]] | [[LU-01_Bang_theo_doi_va_thanh_toan_tien_luong_chuan]] | Phiếu thao tác | R.2.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
+| [[KT-01_Bang_kiem_tra_va_bao_cao_kiem_toan_noi_bo\|KT-01]] | [[KT-01_Bang_kiem_tra_va_bao_cao_kiem_toan_noi_bo]] | Phiếu thao tác | R.2.0.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
+| [[LU-01_Bang_theo_doi_va_thanh_toan_tien_luong_chuan\|LU-01]] | [[LU-01_Bang_theo_doi_va_thanh_toan_tien_luong_chuan]] | Phiếu thao tác | R.3.0.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
 | [[MK-01_Bang_theo_doi_chien_dich_marketing_va_chuyen_doi_lead\|MK-01]] | [[MK-01_Bang_theo_doi_chien_dich_marketing_va_chuyen_doi_lead]] | Phiếu thao tác | R.1.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
-| [[MT-01_Ma_tran_lien_ket_luong_nghiep_vu_cheo_va_kich_hoat_tu_dong\|MT-01]] | [[MT-01_Ma_tran_lien_ket_luong_nghiep_vu_cheo_va_kich_hoat_tu_dong]] | Phiếu thao tác | R.1.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
 | [[NC-01_So_theo_doi_nha_cung_cap_va_danh_gia\|NC-01]] | [[NC-01_So_theo_doi_nha_cung_cap_va_danh_gia]] | Phiếu thao tác | R.1.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
-| [[NH-01_Doi_chieu_ngan_hang\|NH-01]] | [[NH-01_Doi_chieu_ngan_hang]] | Phiếu thao tác | R.1.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
+| [[NH-01_Doi_chieu_ngan_hang\|NH-01]] | [[NH-01_Doi_chieu_ngan_hang]] | Phiếu thao tác | R.3.0.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
 | [[NS-01_Phieu_tu_danh_gia_hieu_suat\|NS-01]] | [[NS-01_Phieu_tu_danh_gia_hieu_suat]] | Phiếu thao tác | R.1.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
 | [[NS-02_Phieu_danh_gia_cheo_hieu_suat\|NS-02]] | [[NS-02_Phieu_danh_gia_cheo_hieu_suat]] | Phiếu thao tác | R.2.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
 | [[NS-03_Phieu_tong_hop_diem_cuoi_ky\|NS-03]] | [[NS-03_Phieu_tong_hop_diem_cuoi_ky]] | Phiếu thao tác | R.1.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
@@ -172,18 +167,19 @@ Thư mục `07_Phieu`, 52 tài liệu.
 | [[NS-08_Bien_ban_vi_pham_ky_luat_lao_dong\|NS-08]] | [[NS-08_Bien_ban_vi_pham_ky_luat_lao_dong]] | Phiếu thao tác | R.1.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
 | [[NS-09_Bang_ke_hoach_va_phan_bo_ngan_sach_tai_chinh_nam\|NS-09]] | [[NS-09_Bang_ke_hoach_va_phan_bo_ngan_sach_tai_chinh_nam]] | Phiếu thao tác | R.1.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
 | [[OB-01_Bang_theo_doi_tien_do_onboarding_khach_hang_moi\|OB-01]] | [[OB-01_Bang_theo_doi_tien_do_onboarding_khach_hang_moi]] | Phiếu thao tác | R.1.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
-| [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] | [[OBK-MSR_So_cai_quan_tri_dich_vu]] | Sổ cái | R.1.0.1 | đang áp dụng | CEO | CEO | 04/10/2026 |  |
+| [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] | [[OBK-MSR_So_cai_quan_tri_dich_vu]] | Sổ cái | R.2.0.0 | đang áp dụng | CEO | CEO | 04/10/2026 |  |
 | [[PM-01_Bang_theo_doi_thue_bao_phan_mem_noi_bo\|PM-01]] | [[PM-01_Bang_theo_doi_thue_bao_phan_mem_noi_bo]] | Phiếu thao tác | R.1.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
 | [[RD-01_So_theo_doi_yeu_cau_nghien_cuu_phap_ly_va_ban_ghi_nho_tu_van\|RD-01]] | [[RD-01_So_theo_doi_yeu_cau_nghien_cuu_phap_ly_va_ban_ghi_nho_tu_van]] | Phiếu thao tác | R.1.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
 | [[SC-01_Nhan_thong_bao_doi_so_tai_khoan\|SC-01]] | [[SC-01_Nhan_thong_bao_doi_so_tai_khoan]] | Phiếu thao tác | R.1.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
 | [[TC-01_Bang_theo_doi_dong_tien_va_suc_khoe_tai_chinh\|TC-01]] | [[TC-01_Bang_theo_doi_dong_tien_va_suc_khoe_tai_chinh]] | Phiếu thao tác | R.1.1.1 | đang áp dụng | CEO | CEO | 04/10/2026 |  |
 | [[TH-01_Bang_theo_doi_tien_do_khai_thue_va_bctc\|TH-01]] | [[TH-01_Bang_theo_doi_tien_do_khai_thue_va_bctc]] | Phiếu thao tác | R.1.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
+| [[TH-02_So_theo_doi_han_tong_hop\|TH-02]] | [[TH-02_So_theo_doi_han_tong_hop]] | Phiếu thao tác | R.2.0.0 | đang áp dụng | CEO | CEO | 06/10/2026 |  |
 | [[TL-01_So_giao_nhan_tai_lieu_va_buu_pham\|TL-01]] | [[TL-01_So_giao_nhan_tai_lieu_va_buu_pham]] | Phiếu thao tác | R.1.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
 | [[TL-02_Phieu_yeu_cau_va_bien_ban_ban_giao_tai_lieu\|TL-02]] | [[TL-02_Phieu_yeu_cau_va_bien_ban_ban_giao_tai_lieu]] | Phiếu thao tác | R.1.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
 | [[TS-01_So_theo_doi_tai_san_va_cong_cu\|TS-01]] | [[TS-01_So_theo_doi_tai_san_va_cong_cu]] | Phiếu thao tác | R.1.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
 | [[TS-02_Bang_theo_doi_gio_lam_viec_nang_suat_va_cong_suat_nhan_su\|TS-02]] | [[TS-02_Bang_theo_doi_gio_lam_viec_nang_suat_va_cong_suat_nhan_su]] | Phiếu thao tác | R.1.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
 | [[TU-01_So_theo_doi_tam_ung_va_hoan_ung\|TU-01]] | [[TU-01_So_theo_doi_tam_ung_va_hoan_ung]] | Phiếu thao tác | R.1.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
-| [[UE-01_Bang_theo_doi_va_tinh_toan_chi_so_kinh_te_cac_ltv_commission\|UE-01]] | [[UE-01_Bang_theo_doi_va_tinh_toan_chi_so_kinh_te_cac_ltv_commission]] | Phiếu thao tác | R.1.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
+| [[UE-01_Bang_theo_doi_va_tinh_toan_chi_so_kinh_te_cac_ltv_commission\|UE-01]] | [[UE-01_Bang_theo_doi_va_tinh_toan_chi_so_kinh_te_cac_ltv_commission]] | Phiếu thao tác | R.2.0.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
 | [[VB-01_So_theo_doi_vu_viec_tu_van_va_hop_dong\|VB-01]] | [[VB-01_So_theo_doi_vu_viec_tu_van_va_hop_dong]] | Phiếu thao tác | R.1.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
 
 ## T&C song ngữ (VI-EN)

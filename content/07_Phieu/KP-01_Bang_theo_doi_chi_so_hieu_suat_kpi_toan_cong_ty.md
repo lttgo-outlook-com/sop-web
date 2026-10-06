@@ -4,7 +4,7 @@ code: "KP-01"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.1.0"
+version: "R.2.0.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -25,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | KP-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.1.0, đang áp dụng |
+| Phiên bản | R.2.0.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -36,14 +36,14 @@ tags:
 | **Ai dùng** | Ban Điều hành (`CEO`, `COO`), Kế toán trưởng (`KTT`), Trưởng các bộ phận (`TL-KT`, `TL-LIC`, `TL-LD`, `TL-LS`, `TL-RD`, `TL-CN`), Chuyên viên Quản lý khách hàng (`AM`), và toàn bộ nhân sự chuyên môn (`KTV`, `CV-LIC`, `CV-LD`, `CV-LS`, `CV-RD`, `HR`, `AD-KT`) |
 | **Sinh từ** | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] Chuẩn vận hành dịch vụ;<br>[[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] Khung đánh giá hiệu suất (kèm các phụ lục [[08_PL_A_Thang_cham_tieu_chi_chung\|PL-A]], [[08_PL_B_Tieu_chi_cong_viec_dang_ho_so\|PL-B]], [[08_PL_E_Phieu_vi_tri\|PL-E]]);<br>[[CV-01_Bang_theo_doi_trang_thai_cong_viec_sla_va_kpi\|CV-01]] Bảng theo dõi trạng thái công việc, tasks, SLA và KPI;<br>[[TC-01_Bang_theo_doi_dong_tien_va_suc_khoe_tai_chinh\|TC-01]] Bảng theo dõi dòng tiền và sức khỏe tài chính;<br>[[KH-01_So_quan_tri_khach_hang_va_dich_vu_crm\|KH-01]] Sổ quản trị khách hàng và dịch vụ CRM;<br>[[TS-02_Bang_theo_doi_gio_lam_viec_nang_suat_va_cong_suat_nhan_su\|TS-02]] Bảng theo dõi giờ làm việc, năng suất và công suất nhân sự |
 | **Ngày làm phiếu** | 27/09/2026 |
-| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]]; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
 Bảng theo dõi chỉ số hiệu suất, SLA và KPI toàn công ty là công cụ điều hành tập trung cao nhất về mặt định lượng của oBacker. Bảng hợp nhất toàn bộ dữ liệu đo lường từ năm trụ cột thực thi:
 1. **Khách hàng và Tăng trưởng:** Thu thập từ Sổ quản trị khách hàng [[KH-01_So_quan_tri_khach_hang_va_dich_vu_crm|KH-01]] và quy trình [[02_OBK-SOP-AM_Quan_ly_khach_hang|OBK-SOP-AM]].
 2. **Vận hành và Cam kết dịch vụ SLA:** Thu thập từ Bảng theo dõi trạng thái công việc [[CV-01_Bang_theo_doi_trang_thai_cong_viec_sla_va_kpi|CV-01]] và Bảng tra SLA 203 Job [[PL_2_Bang_tra_SLA|OBK-SOP-PL2]].
-3. **Chất lượng và Tuân thủ pháp lý:** Thu thập từ chuẩn kiểm soát chất lượng OBK-SOP-00, Bảng theo dõi tiến độ khai thuế TH-01 và tiến độ giấy phép GP-01.
+3. **Chất lượng và Tuân thủ pháp lý:** Thu thập từ chuẩn kiểm soát chất lượng OBK-SOP-00, Bảng theo dõi tiến độ khai thuế TH-01 và [[TH-02_So_theo_doi_han_tong_hop|TH-02]] (trục thủ tục hành chính và giấy phép).
 4. **Tài chính và Dòng tiền:** Thu thập từ Bảng theo dõi sức khỏe tài chính [[TC-01_Bang_theo_doi_dong_tien_va_suc_khoe_tai_chinh|TC-01]], sổ công nợ [[CN-01_So_theo_doi_cong_no_phai_thu_va_tuoi_no|CN-01]] và bảng lương chuẩn [[LU-01_Bang_theo_doi_va_thanh_toan_tien_luong_chuan|LU-01]].
 5. **Năng suất nhân sự và Định mức:** Thu thập từ Bảng theo dõi giờ làm việc, năng suất và công suất nhân sự [[TS-02_Bang_theo_doi_gio_lam_viec_nang_suat_va_cong_suat_nhan_su|TS-02]], Khung đánh giá hiệu suất [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] và hệ thống quản lý công việc.
 
@@ -98,7 +98,7 @@ Hệ thống chỉ số hiệu suất của oBacker vận hành theo năm nguyê
 | `QC-04` | Tỷ lệ nộp tờ khai và nghĩa vụ pháp luật đúng hạn | `(Số tờ khai nộp đúng hoặc trước thời hạn theo quy định pháp luật / Tổng số tờ khai phải nộp) * 100%` | Tháng / Quý | `100%` | Không có | `< 100%` | Phần trăm (%) | Bảng [[TH-01_Bang_theo_doi_tien_do_khai_thue_va_bctc\|TH-01]], chỉ số `TC-KT-01` (Kích hoạt `CD-01`) |
 | `QC-05` | Tiền phạt vi phạm hành chính phát sinh do lỗi chủ quan | `Tổng số tiền phạt thuế, bảo hiểm hoặc phạt hành chính oBacker phải chịu thay khách` | Tháng | `0 đồng` | Không có | `> 0 đồng` | VNĐ | Sổ kế toán nội bộ, chỉ số `CS-03` |
 | `QC-06` | Tỷ lệ đúng ngay lần đầu (`First-Time-Right %`) | `(Số đầu ra được phê duyệt ngay tại lượt kiểm soát lớp hai lần đầu / Tổng số đầu ra) * 100%` | Tháng | `>= 90%` | `80% - < 90%` | `< 80%` | Phần trăm (%) | Bảng [[CV-01_Bang_theo_doi_trang_thai_cong_viec_sla_va_kpi\|CV-01]], chỉ số `CS-04` |
-| `QC-07` | Tỷ lệ hồ sơ không bị cơ quan nhà nước yêu cầu sửa đổi bổ sung | `[(Tổng số hồ sơ nộp - Số hồ sơ bị yêu cầu sửa đổi bổ sung do lỗi oBacker) / Tổng số hồ sơ] * 100%` | Tháng | `>= 95%` | `90% - < 95%` | `< 90%` | Phần trăm (%) | Bảng [[GP-01_Bang_theo_doi_tien_do_giay_phep_va_doanh_nghiep\|GP-01]], chỉ số `HS-01` |
+| `QC-07` | Tỷ lệ hồ sơ không bị cơ quan nhà nước yêu cầu sửa đổi bổ sung | `[(Tổng số hồ sơ nộp - Số hồ sơ bị yêu cầu sửa đổi bổ sung do lỗi oBacker) / Tổng số hồ sơ] * 100%` | Tháng | `>= 95%` | `90% - < 95%` | `< 90%` | Phần trăm (%) | Bảng [[TH-02_So_theo_doi_han_tong_hop\|TH-02]] (trục thủ tục hành chính và giấy phép), chỉ số `HS-01` |
 
 ### 1.4. Nhóm 4. Chỉ số tài chính và dòng tiền
 
@@ -236,4 +236,4 @@ Khi một chỉ số rơi vào vùng cảnh báo Vàng hoặc vùng nguy hại �
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu KP-01 về Sổ cái OBK-MSR |
+| 06/10/2026 | R.2.0.0 | Đổi nguồn dữ liệu chỉ số QC-07 từ bảng GP-01 sang trục thủ tục hành chính của sổ TH-02 |

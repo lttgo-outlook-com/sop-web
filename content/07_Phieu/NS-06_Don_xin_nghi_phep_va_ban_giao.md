@@ -38,7 +38,7 @@ tags:
 | **Ai dùng** | Người lao động, Người nhận bàn giao, Quản lý trực tiếp (`TL`), Giám đốc Vận hành (`COO`), Chuyên viên Nhân sự (`HR`) |
 | **Sinh từ** | [[07_Chinh_sach_cong_chuan_va_cham_cong\|OBK-QCNS-07]] mục 7, [[02_Quy_che_tien_luong_va_tien_thuong_noi_bo\|OBK-QCNS-02]] |
 | **Ngày làm phiếu** | 27/09/2026 |
-| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]]; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ---
 

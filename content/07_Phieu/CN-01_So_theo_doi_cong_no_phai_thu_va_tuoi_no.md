@@ -4,7 +4,7 @@ code: "CN-01"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.1.0"
+version: "R.2.0.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -25,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | CN-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.1.0, đang áp dụng |
+| Phiên bản | R.2.0.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -36,7 +36,7 @@ tags:
 | **Ai dùng** | `KTV`, `AM`, `KTT`, `TP Thương mại` |
 | **Sinh từ** | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 15, Điều 16, Điều 33;<br>Quyết định chỉ đạo `VQ-15`, `VQ-16`;<br>[[OBK-SOP-NB-02_Thu_tien_va_cong_no_phai_thu\|OBK-SOP-NB-02]];<br>[[19_Giao_tiep_khach_hang\|OBK-SOP-19]] mục 6.8 |
 | **Ngày làm phiếu** | 27/09/2026 |
-| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]]; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
@@ -141,9 +141,9 @@ Sổ theo dõi công nợ được `KTV` lập và cập nhật hàng tuần. B�
 
 ## KÝ XÁC NHẬN
 
-| Chuyên viên Quản lý khách hàng (`AM`) | Kế toán viên theo dõi (`KTV`) | Kế toán trưởng kiểm soát (`KTT`) | Trưởng phòng Thương mại |
-| --- | --- | --- | --- |
-| *(Ký và ghi rõ họ tên)* | *(Ký và ghi rõ họ tên)* | *(Ký và ghi rõ họ tên)* | *(Ký và ghi rõ họ tên)* |
+| Chuyên viên Quản lý khách hàng (`AM`) | Kế toán viên theo dõi (`KTV`) | Kế toán trưởng kiểm soát (`KTT`) |
+| --- | --- | --- |
+| *(Ký và ghi rõ họ tên)* | *(Ký và ghi rõ họ tên)* | *(Ký và ghi rõ họ tên)* |
 
 ---
 
@@ -160,4 +160,4 @@ Công nợ tồn đọng gây rủi ro thiếu hụt dòng tiền hoạt động
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu CN-01 về Sổ cái OBK-MSR |
+| 06/10/2026 | R.2.0.0 | Rút lớp Trưởng phòng Thương mại khỏi chuỗi ký xác nhận sổ công nợ |

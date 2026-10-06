@@ -36,7 +36,7 @@ tags:
 | **Ai dùng** | Chuyên viên pháp lý (`CV-LS`), Trưởng bộ phận Dịch vụ pháp lý (`TL-LS`), Chuyên viên Quản lý khách hàng (`AM`) |
 | **Sinh từ** | [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]];<br>`OBK-HB-61` Hướng dẫn rà soát và soạn thảo hợp đồng kinh tế;<br>`OBK-HB-71` Hướng dẫn lập bản ghi nhớ tư vấn quản trị |
 | **Ngày làm phiếu** | 27/09/2026 |
-| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]]; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 

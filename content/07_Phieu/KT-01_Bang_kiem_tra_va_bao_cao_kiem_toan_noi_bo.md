@@ -4,7 +4,7 @@ code: "KT-01"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.1.0"
+version: "R.2.0.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -25,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | KT-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.1.0, đang áp dụng |
+| Phiên bản | R.2.0.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -36,7 +36,7 @@ tags:
 | **Ai dùng** | Hội đồng quản trị (`HĐQT`), Đoàn kiểm toán nội bộ độc lập, Tổ chức kiểm toán độc lập bên ngoài, `CEO`, `COO`, `KTT` |
 | **Sinh từ** | [[OBK-SOP-NB-16_Kiem_toan_noi_bo_va_kiem_soat_tuan_thu\|OBK-SOP-NB-16]] Kiểm toán nội bộ và kiểm soát tuân thủ |
 | **Ngày làm phiếu** | 27/09/2026 |
-| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]]; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ---
 
@@ -92,7 +92,7 @@ Bảng kiểm kiểm toán tuân thủ pháp lý và thuế:
 | 2.3 | Kiểm tra số thuế TNDN tạm nộp hằng quý, bảo đảm đạt tỷ lệ theo quy định pháp luật | Chứng từ nộp thuế TNDN tạm tính các quý | | | |
 | 2.4 | Kiểm tra việc kê khai và nộp thuế nhà thầu nước ngoài (FCT) khi thanh toán dịch vụ quốc tế | Hợp đồng dịch vụ quốc tế, tờ khai thuế FCT | | | |
 | 2.5 | Đối chiếu số liệu trích nộp bảo hiểm xã hội (BHXH, BHYT, BHTN) với thông báo cơ quan bảo hiểm | Thông báo kết quả đóng BHXH mẫu C12-TS | | | |
-| 2.6 | Kiểm tra 100% người lao động có hợp đồng lao động hợp lệ và ký cam kết bảo mật thông tin | Hồ sơ nhân sự và Sổ [[HD-01_So_theo_doi_hop_dong_lao_dong_va_thu_viec\|HD-01]] | | | |
+| 2.6 | Kiểm tra 100% người lao động có hợp đồng lao động hợp lệ và ký cam kết bảo mật thông tin | Hồ sơ nhân sự và Sổ [[TH-02_So_theo_doi_han_tong_hop\|TH-02]] (trục hợp đồng lao động nội bộ) | | | |
 | 2.7 | Kiểm tra việc phê duyệt và giới hạn số giờ làm thêm theo đúng quy định pháp luật | Phiếu đăng ký làm thêm giờ [[NS-07_Phieu_dang_ky_lam_them_gio\|NS-07]] | | | |
 | 2.8 | Rà soát thẩm quyền ký kết các hợp đồng dịch vụ ký với khách hàng | Hợp đồng dịch vụ, Giấy ủy quyền của `NĐDPL` | | | |
 
@@ -183,4 +183,4 @@ Bảng kiến nghị chấn chỉnh và cam kết khắc phục:
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu KT-01 về Sổ cái OBK-MSR |
+| 06/10/2026 | R.2.0.0 | Đổi nguồn kiểm tra hợp đồng lao động từ sổ HD-01 sang trục hợp đồng lao động nội bộ của sổ TH-02 |

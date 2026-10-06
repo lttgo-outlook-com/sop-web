@@ -4,7 +4,7 @@ code: "OBK-SOP-NB-16"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.1"
+version: "R.2.0.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -28,7 +28,7 @@ tags:
 | Mã tài liệu | OBK-SOP-NB-16 |
 | Tên tài liệu | Quy trình kiểm toán nội bộ và kiểm soát tuân thủ |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ. Thi hành [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen\|OBK-QCTC-02]] Quy chế tổ chức và phân quyền |
-| Phiên bản | R.1.0.1, đang áp dụng |
+| Phiên bản | R.2.0.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 27/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -98,7 +98,7 @@ Quy trình này thiết lập cơ chế kiểm toán nội bộ độc lập, kh
 
 1. Quyết định kiểm toán nội bộ của `HĐQT` (nêu rõ phạm vi, thời gian, thành phần đoàn kiểm toán hoặc tổ chức kiểm toán độc lập được thuê).
 2. Dữ liệu tài chính và kế toán: sao kê tài khoản ngân hàng đủ các tài khoản, biên bản kiểm kê quỹ tiền mặt theo [[KQ-01_Kiem_ke_quy_tien_mat|KQ-01]], bảng cân đối số phát sinh, sổ cái TK 111, 112, 131, 331, 3387, 511, 242, và sổ theo dõi doanh thu trả trước theo [[DT-02_So_theo_doi_doanh_thu_tra_truoc_va_phan_bo|DT-02]].
-3. Dữ liệu thuế và lao động: tờ khai thuế giá trị gia tăng, tờ khai thuế thu nhập cá nhân, tờ khai tạm tính và quyết toán thuế thu nhập doanh nghiệp; tờ khai thuế nhà thầu nước ngoài, báo cáo trích nộp bảo hiểm xã hội, bảng lương chuẩn theo LU-01, và hồ sơ hợp đồng lao động theo HD-01.
+3. Dữ liệu thuế và lao động: tờ khai thuế giá trị gia tăng, tờ khai thuế thu nhập cá nhân, tờ khai tạm tính và quyết toán thuế thu nhập doanh nghiệp; tờ khai thuế nhà thầu nước ngoài, báo cáo trích nộp bảo hiểm xã hội, bảng lương chuẩn theo LU-01, và hồ sơ hợp đồng lao động theo [[TH-02_So_theo_doi_han_tong_hop|TH-02]] (trục hợp đồng lao động nội bộ).
 4. Dữ liệu vận hành và chất lượng: bảng theo dõi trạng thái công việc và SLA theo [[CV-01_Bang_theo_doi_trang_thai_cong_viec_sla_va_kpi|CV-01]], sổ kiểm soát chất lượng và CAPA theo [[CL-01_So_theo_doi_kiem_soat_chat_luong_va_nhat_ky_sai_sot_capa|CL-01]], sổ tiếp nhận và xử lý khiếu nại theo [[KN-01_So_tiep_nhan_va_xu_ly_khieu_nai_khach_hang|KN-01]].
 5. Dữ liệu an toàn thông tin và tài sản: sổ theo dõi đóng dấu và ký số theo [[OBK-SOP-NB-07_Quan_ly_con_dau_va_chu_ky_so|OBK-SOP-NB-07]], sổ theo dõi tài sản và công cụ dụng cụ theo [[TS-01_So_theo_doi_tai_san_va_cong_cu|TS-01]], nhật ký sự cố an toàn dữ liệu cá nhân theo [[DL-01_Nhat_ky_theo_doi_su_co_du_lieu_ca_nhan|DL-01]].
 
@@ -236,4 +236,4 @@ Quy trình kiểm toán nội bộ độc lập gồm 6 bước:
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 30/09/2026 | R.1.0.1 | Chia 4 câu dài ở căn cứ pháp lý, dữ liệu thuế và lao động, nghĩa vụ báo cáo rủi ro mức Cao thành câu ngắn, không đổi nghĩa |
+| 06/10/2026 | R.2.0.0 | Đổi nguồn hồ sơ hợp đồng lao động từ sổ HD-01 sang trục hợp đồng lao động nội bộ của sổ TH-02 |

@@ -36,7 +36,7 @@ tags:
 | **Ai dùng** | `TL`, `KTV`, `KTT`, `COO`, `CEO`, `HĐQT` |
 | **Sinh từ** | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 22, Điều 34;<br>[[OBK-SOP-NB-17_Lap_ke_hoach_kinh_doanh_va_ngan_sach_tai_chinh\|OBK-SOP-NB-17]];<br>[[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo\|OBK-SOP-NB-00]] Job `NB-08`, Job `NB-21` |
 | **Ngày làm phiếu** | 27/09/2026 |
-| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]]; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ---
 

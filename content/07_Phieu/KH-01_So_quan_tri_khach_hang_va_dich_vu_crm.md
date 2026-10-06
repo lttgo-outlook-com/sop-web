@@ -4,7 +4,7 @@ code: "KH-01"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.1.0"
+version: "R.2.0.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -25,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | KH-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.1.0, đang áp dụng |
+| Phiên bản | R.2.0.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -36,7 +36,7 @@ tags:
 | **Ai dùng** | Chuyên viên Quản lý khách hàng (`AM`), Chuyên viên Kế toán (`KTV`), Chuyên viên Cấp phép (`CV-LIC`), Chuyên viên Lao động (`CV-LD`), Chuyên viên Dịch vụ pháp lý (`CV-LS`), Kế toán trưởng nội bộ (`KTT`), Trưởng phòng Thương mại, Giám đốc điều hành (`COO`) và Giám đốc điều hành cấp cao (`CEO`) |
 | **Sinh từ** | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] (Job AM-01 tới AM-30);<br>[[00_Danh_muc_dich_vu_va_bang_gia\|OBK-DM-00]] tới [[07_Bang_gia_Dich_vu_o_nuoc_ngoai\|OBK-DM-07]];<br>[[00_TnC_Master_VI\|OBK-TnC-00]] Điều khoản dịch vụ chung |
 | **Ngày làm phiếu** | 27/09/2026 |
-| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]]; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
@@ -62,7 +62,7 @@ Sổ là cơ sở dữ liệu duy nhất ghi nhận thông tin pháp lý doanh n
 | 12 | Trạng thái tài khoản khách hàng | Một trong 07 trạng thái chuẩn: `Lead`, `Đang ký hợp đồng`, `Onboarding`, `Vận hành thường xuyên`, `Tạm dừng`, `Nguy cơ rời bỏ` (`Churn Risk`), `Đã thanh lý` |
 | 13 | Ngày ký hợp đồng | Ngày hai bên hoàn tất ký kết Hợp đồng dịch vụ hoặc Thỏa thuận khung |
 | 14 | Ngày bắt đầu tính phí | Mốc thời gian chính thức bắt đầu tính phí dịch vụ định kỳ |
-| 15 | Ngày hết hạn hoặc kỳ gia hạn | Ngày cuối cùng của thời hạn hợp đồng hoặc mốc rà soát gia hạn trước 30 ngày theo [[DV-02_Bang_theo_doi_chu_ky_so_va_dich_vu_khach_hang\|DV-02]] |
+| 15 | Ngày hết hạn hoặc kỳ gia hạn | Ngày cuối cùng của thời hạn hợp đồng hoặc mốc rà soát gia hạn trước 30 ngày theo [[TH-02_So_theo_doi_han_tong_hop\|TH-02]] (trục dịch vụ khách hàng) |
 | 16 | Doanh thu định kỳ hằng tháng (`MRR`) | Giá trị doanh thu dịch vụ định kỳ hằng tháng theo hợp đồng (đơn vị: đồng Việt Nam, chưa gồm thuế GTGT) |
 | 17 | Chu kỳ thanh toán phí | Kỳ hạn thu phí dịch vụ: Hằng tháng, Hằng quý, 06 tháng hoặc Hằng năm |
 | 18 | Tình trạng thanh toán phí | Một trong các tình trạng: `Đã thanh toán`, `Chưa đến hạn`, `Chậm từ 01 ngày đến 15 ngày`, `Chậm từ 16 ngày đến 30 ngày`, `Quá hạn trên 30 ngày` |
@@ -148,7 +148,7 @@ Quy tắc phân loại hành động theo tổng điểm:
 [ ]  6. XỬ LÝ NGUY CƠ RỜI BỎ VÀ THỦ TỤC THANH LÝ (KHI PHÁT SINH)
         - Khi tài khoản chuyển sang trạng thái "Nguy cơ rời bỏ" (Churn Risk):
           AM chủ trì cuộc họp khẩn cấp nội bộ cùng TL nghiệp vụ và COO để thống nhất giải pháp khắc phục trong 48 giờ.
-        - Trường hợp khách hàng hết hạn hợp đồng: thực hiện quy trình nhắc gia hạn theo 05 mốc của DV-02.
+        - Trường hợp khách hàng hết hạn hợp đồng: thực hiện quy trình nhắc gia hạn theo 05 mốc của [[TH-02_So_theo_doi_han_tong_hop|TH-02]] (trục dịch vụ khách hàng, kế thừa DV-02).
         - Trường hợp chấm dứt dịch vụ: hoàn tất bộ hồ sơ bàn giao, đối soát dứt điểm công nợ (KS-AM-06),
           lập Biên bản thanh lý hợp đồng (AM-21), thu hồi quyền truy cập và chuyển trạng thái "Đã thanh lý".
 ```
@@ -163,9 +163,9 @@ Dữ liệu sổ được `AM` và `KTT` nội bộ kết xuất để phục v�
 
 ## KÝ XÁC NHẬN
 
-| Chuyên viên Quản lý khách hàng (`AM`) | Kế toán trưởng nội bộ (`KTT`) | Trưởng phòng Thương mại |
-| --- | --- | --- |
-| *(Ký và ghi rõ họ tên)* | *(Ký và ghi rõ họ tên)* | *(Ký và ghi rõ họ tên)* |
+| Chuyên viên Quản lý khách hàng (`AM`) | Kế toán trưởng nội bộ (`KTT`) |
+| --- | --- |
+| *(Ký và ghi rõ họ tên)* | *(Ký và ghi rõ họ tên)* |
 
 ---
 
@@ -182,4 +182,4 @@ Bảo đảm oBacker nắm giữ đầy đủ, tập trung và thống nhất th
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu KH-01 về Sổ cái OBK-MSR |
+| 06/10/2026 | R.2.0.0 | Trỏ trục hạn dịch vụ khách hàng về sổ TH-02 và rút lớp Trưởng phòng Thương mại khỏi chuỗi ký |

@@ -34,7 +34,7 @@ tags:
 | **Mã phiếu** | NS-03 |
 | **Ai dùng** | Quản lý trực tiếp theo [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] mục 6.1 điền; người phê duyệt theo [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] mục 6 bước 7 ký phê duyệt |
 | **Sinh từ** | [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] mục 6 bước 5, bước 6 và bước 7 |
-| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]]; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ---
 

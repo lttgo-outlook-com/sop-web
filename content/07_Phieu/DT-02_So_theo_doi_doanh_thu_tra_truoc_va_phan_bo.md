@@ -36,7 +36,7 @@ tags:
 | **Ai dùng** | Kế toán viên doanh thu (`KTV`), Kế toán trưởng (`KTT`), Trưởng bộ phận Kế toán (`TL-KT`), Chuyên viên Quản lý khách hàng (`AM`), Giám đốc điều hành cấp cao (`CEO`) |
 | **Sinh từ** | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]];<br>[[05_Quy_trinh_ke_toan_thang\|05_Quy_trinh_ke_toan_thang]];<br>[[CN-01_So_theo_doi_cong_no_phai_thu_va_tuoi_no\|CN-01]];<br>`OBK-QCTC-03` Quy chế kế toán nội bộ;<br>Thông tư 99/2025/TT-BTC |
 | **Ngày làm phiếu** | 27/09/2026 |
-| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]]; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 

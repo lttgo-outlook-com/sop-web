@@ -4,7 +4,7 @@ code: "OBK-HB-00"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Mục lục"
-version: "R.2.1.1"
+version: "R.3.0.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -29,7 +29,7 @@ tags:
 > | Cơ cấu tổ chức, tên đơn vị, ký hiệu vai trò, thẩm quyền quyết định | [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen\|OBK-QCTC-02]] cùng các phụ lục phân quyền | Dẫn chiếu |
 > | SLA, mốc thời gian, thời hạn cam kết chất lượng | Bảng Job của SOP cấp 2, và `03_DichVu/01_OBK-SOP-00` mục 7 | Dẫn chiếu |
 >
-> Khi có sự khác biệt giữa Handbook và các tài liệu cấp trên, nội dung tại tài liệu cấp trên được ưu tiên áp dụng. Khi phát hiện điểm sai lệch, nhân sự báo cáo Legal R&D về nội dung chuyên môn và `COO` về thủ tục phát hành; không tự ý chỉnh sửa tài liệu cá nhân.
+> Khi có sự khác biệt giữa Handbook và các tài liệu cấp trên, nội dung tại tài liệu cấp trên được ưu tiên áp dụng. Khi phát hiện điểm sai lệch, nhân sự báo cáo Legal R&D về nội dung chuyên môn và `COO` về thủ tục phát hành ngay trong ngày phát hiện; không tự ý chỉnh sửa tài liệu cá nhân.
 
 > [!note] QUY ƯỚC KÝ HIỆU VAI TRÒ
 > Quy ước ký hiệu vai trò trong toàn bộ Handbook: `CV-KT` (Chuyên viên Kế toán và Thuế phụ trách hồ sơ khách hàng) và `TL-KT` (Trưởng bộ phận Kế toán và Thuế chốt kỹ thuật hồ sơ khách hàng). Quy ước này phân biệt với vai trò kế toán nội bộ của oBacker tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]].
@@ -45,7 +45,7 @@ tags:
 | Hạng mục | Nội dung |
 | --- | --- |
 | Mã tài liệu | OBK-HB-00 |
-| Phiên bản | R.2.1.1, đang áp dụng |
+| Phiên bản | R.3.0.0, đang áp dụng |
 | Cấp tài liệu | Mục lục của Handbook cấp 3 |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
@@ -114,7 +114,7 @@ Nguyên tắc bắt buộc: **không tư vấn hoặc trả lời khách hàng k
 
 ## 4. QUY ƯỚC TRÌNH BÀY
 
-**Cấu trúc chương.** Phần lớn các chương theo cùng một khung 10 mục: mục đích; phạm vi áp dụng; căn cứ pháp lý; vai trò và trách nhiệm; đầu vào bắt buộc; các bước thực hiện; điểm kiểm soát bắt buộc; lỗi thường gặp; đầu ra và nơi lưu; chỉ số theo dõi. Khi cần tra nhanh, đi thẳng tới mục 6 và mục 7.
+**Cấu trúc chương.** Phần lớn các chương theo cùng một khung 9 mục: mục đích; phạm vi áp dụng; vai trò và trách nhiệm; đầu vào bắt buộc; các bước thực hiện; điểm kiểm soát bắt buộc; lỗi thường gặp; đầu ra và nơi lưu; chỉ số theo dõi. Khi cần tra nhanh, đi thẳng tới mục 5 và mục 6.
 
 **Cảnh báo.** Các loại cảnh báo nghiệp vụ:
 
@@ -280,4 +280,4 @@ Quy tắc đánh phiên bản và quy trình cập nhật: xem Chương 21.
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 04/10/2026 | R.2.1.1 | Chuan hoa van phong hanh chinh, bo so dem tai tieu de muc 2 va 9, chuyen callout sang can cu phap luat |
+| 06/10/2026 | R.3.0.0 | Nghĩa vụ báo cáo điểm sai lệch giữa Handbook và tài liệu cấp trên có mốc ngay trong ngày phát hiện |

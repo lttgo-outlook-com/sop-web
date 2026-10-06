@@ -36,7 +36,7 @@ tags:
 | **Ai dùng** | Ban Điều hành (`CEO`, `COO`), Trưởng các bộ phận chuyên môn (`TL-KT`, `TL-LIC`, `TL-LD`, `TL-LS`, `TL-RD`, `TL-CN`), Quản lý trực tiếp (`TL`), Nhân sự (`HR`), Kế toán (`KTT`, `KTV`), và toàn bộ chuyên viên thực thi (`CV-KT`, `CV-LIC`, `CV-LD`, `CV-LS`, `CV-RD`, `AD-KT`, `AM`) |
 | **Sinh từ** | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] Chuẩn vận hành dịch vụ;<br>[[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] Khung đánh giá hiệu suất;<br>[[07_Chinh_sach_cong_chuan_va_cham_cong\|OBK-QCNS-07]] Chính sách công chuẩn và chấm công;<br>[[OBK-SOP-NB-11_Dang_ky_va_quan_ly_lam_them_gio\|OBK-SOP-NB-11]] Đăng ký và quản lý làm thêm giờ;<br>[[CV-01_Bang_theo_doi_trang_thai_cong_viec_sla_va_kpi\|CV-01]] Bảng theo dõi trạng thái công việc, SLA và KPI;<br>[[KP-01_Bang_theo_doi_chi_so_hieu_suat_kpi_toan_cong_ty\|KP-01]] Bảng theo dõi chỉ số hiệu suất, SLA và KPI toàn công ty |
 | **Ngày làm phiếu** | 27/09/2026 |
-| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]]; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
@@ -162,7 +162,7 @@ Quá trình ghi nhận và điều phối công suất được thực hiện qu
 
 1. **Bước 1 (Chấm giờ hằng ngày):** Trước 18:00 hằng ngày, từng nhân viên đăng nhập hệ thống quản lý công việc, ghi nhận đầy đủ các dòng công việc thực tế, phân loại đúng giờ `BILLABLE` và `NON-BILLABLE`.
 2. **Bước 2 (Đối soát dữ liệu tuần):** Chiều thứ Sáu hằng tuần, Quản lý trực tiếp (`TL`) kiểm tra tính hợp lý của dữ liệu chấm giờ, đối soát với mã Task tại [[CV-01_Bang_theo_doi_trang_thai_cong_viec_sla_va_kpi|CV-01]] để đảm bảo không ghi nhận trùng hoặc sai lệch.
-3. **Bước 3 (Chạy phân tích cân bằng tải):** Quản lý trực tiếp chạy script tính toán tự động `tinh_capacity_va_productivity.py` để trích xuất báo cáo tỷ lệ tận dụng năng lực, xác định danh sách chuyên viên quá tải và chuyên viên còn dư tải.
+3. **Bước 3 (Chạy phân tích cân bằng tải):** Quản lý trực tiếp chạy script tính toán tự động tại `_luu_tru/tinh_capacity_va_productivity.py` để trích xuất báo cáo tỷ lệ tận dụng năng lực, xác định danh sách chuyên viên quá tải và chuyên viên còn dư tải.
 4. **Bước 4 (Thực hiện điều phối và tái phân bổ):**
    - Căn cứ đề xuất từ script, `TL` quyết định chuyển giao danh mục khách hàng từ chuyên viên quá tải sang chuyên viên dư tải cùng chuyên môn nghiệp vụ;
    - Cập nhật thông tin chuyên viên phụ trách mới trên Sổ quản trị khách hàng KH-01 và thông báo cho Chuyên viên quản lý khách hàng (`AM`) để phối hợp giao tiếp với khách hàng;

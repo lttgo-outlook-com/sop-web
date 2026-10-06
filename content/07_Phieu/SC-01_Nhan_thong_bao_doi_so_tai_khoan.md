@@ -37,7 +37,7 @@ tags:
 | **Sinh từ** | `02_NoiBo/OBK-SOP-NB-01` mục 5.4.2 |
 | **Quan hệ với biểu mẫu** | Phiếu này không thay biểu mẫu.<br>Ghi nhận kết quả vào **BM-05 Phiếu xác minh nhà cung cấp**, phần xác minh khi đổi số tài khoản |
 | **Ngày làm phiếu** | 04/09/2026 |
-| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]]; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 

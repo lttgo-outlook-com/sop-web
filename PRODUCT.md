@@ -15,7 +15,7 @@ Toàn bộ nhân viên nội bộ oBacker (xác nhận 2026-09-30): các dòng d
 
 ## Product Purpose
 
-Điểm vào duy nhất cho kho tài liệu hiện hành của oBacker: SOP, hướng dẫn nghiệp vụ, phiếu thao tác, phụ lục, TnC, căn cứ pháp luật và toàn văn văn bản. Mục đích là không ai làm việc theo bản sai hoặc bản cũ. Thành công = nhân viên tìm được và xác minh trong vài giây tài liệu nào là bản hiện hành, và khi hai tài liệu khác nhau thì bản nào đúng.
+Điểm vào duy nhất cho kho tài liệu hiện hành của oBacker: SOP, hướng dẫn nghiệp vụ, phiếu thao tác, phụ lục, TnC. (PR-2 05/10/2026: rút căn cứ pháp luật và toàn văn văn bản ra khỏi vault phát hành — chuyển sang `05_PhapLuat/Soan_thao/`, chỉ dùng trong soạn thảo.) Mục đích là không ai làm việc theo bản sai hoặc bản cũ. Thành công = nhân viên tìm được và xác minh trong vài giây tài liệu nào là bản hiện hành, và khi hai tài liệu khác nhau thì bản nào đúng.
 
 ## Positioning
 

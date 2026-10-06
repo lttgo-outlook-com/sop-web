@@ -4,7 +4,7 @@ code: "OBK-SOP-17"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.2"
+version: "R.2.0.0"
 status: "đang áp dụng"
 draft_date: "04/10/2026"
 author: "CEO"
@@ -30,7 +30,7 @@ tags:
 | Mã tài liệu | OBK-SOP-17 |
 | Tên chương | Khung xử phạt và biện pháp phòng ngừa |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.1.0.2, đang áp dụng |
+| Phiên bản | R.2.0.0, đang áp dụng |
 | Ngày biên soạn | 04/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 26/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -62,7 +62,7 @@ tags:
 
 Biện pháp bắt buộc để kiểm soát rủi ro:
 
-1. Hợp đồng dịch vụ kế toán phải làm rõ ranh giới phạm vi ủy quyền và trách nhiệm của từng bên. Ban Pháp chế rà soát toàn bộ mẫu hợp đồng theo yêu cầu này.
+1. Hợp đồng dịch vụ kế toán phải làm rõ ranh giới phạm vi ủy quyền và trách nhiệm của từng bên. Ban Pháp chế (thực hiện cùng `COO`) rà soát toàn bộ mẫu hợp đồng dịch vụ kế toán trong đợt rà soát đầu năm của phụ lục lịch tuân thủ và hoàn thành trước ngày 31 tháng 3 hằng năm; tiêu chí hoàn thành là 100% mẫu hợp đồng có điều khoản phạm vi ủy quyền.
 2. Mọi hồ sơ nộp thay khách phải có văn bản xác nhận của khách trước khi nộp. Xem Chương 14 mục 5.5.
 3. Mọi sai sót phải được báo cáo và xử lý theo Chương 15, không được tự xử lý.
 4. Nhân viên không được nhận bất kỳ ủy quyền nào từ khách hàng dưới danh nghĩa cá nhân. Mọi ủy quyền phải đứng tên oBacker và được CEO duyệt.
@@ -1070,4 +1070,4 @@ Chuỗi căn cứ đầy đủ phải dẫn khi làm việc với quyết địn
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 04/10/2026 | R.1.0.2 | Sửa lối tự sự ở quy tắc chặn bội số. |
+| 06/10/2026 | R.2.0.0 | Biện pháp bắt buộc mục 1: rà soát mẫu hợp đồng dịch vụ kế toán do Ban Pháp chế cùng COO thực hiện trong đợt đầu năm của phụ lục lịch tuân thủ, hoàn thành trước 31/3 hằng năm, tiêu chí 100% mẫu có điều khoản phạm vi ủy quyền |

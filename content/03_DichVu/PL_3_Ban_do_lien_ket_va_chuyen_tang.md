@@ -182,15 +182,15 @@ Licensing và Lao Động chưa có cấp 3. Team Lead dựng theo khuôn dướ
 
 ### 4.1a. Khi khuôn ở mục 4.2 khác khuôn ở OBK-TTT-07 mục 2
 
-Hai khuôn cấp 3 tồn tại song song trong kho, và hai khuôn đó khác nhau. Khuôn ở mục 4.2 dưới đây có CHÍN mục và đặt ngày 02/09/2026. Khuôn ở `07_KHUNG_VIET` mục 2 có MƯỜI mục, đặt ngày 04/09/2026.
+Hai khuôn cấp 3 tồn tại song song trong kho, và hai khuôn đó khác nhau. Khuôn ở mục 4.2 dưới đây có CHÍN mục và đặt ngày 02/09/2026. Khuôn ở `07_KHUNG_VIET` mục 2 có CHÍN mục, đặt ngày 04/09/2026 (mục "Căn cứ pháp lý" rút ra khỏi khuôn ngày 06/10/2026).
 
-Khi hai khuôn cấp 3 khác nhau, khuôn MƯỜI MỤC của `OBK-TTT-07` mục 2 là khuôn chính thức của cả kho, và áp khuôn đó.
+Khi hai khuôn cấp 3 khác nhau, khuôn CHÍN MỤC của `OBK-TTT-07` mục 2 là khuôn chính thức của cả kho, và áp khuôn đó.
 
 Các chỗ khác nhau và cách xử:
 
-| Chỗ khác | Khuôn 9 mục ở đây | Khuôn 10 mục ở `OBK-TTT-07` | Lấy theo |
+| Chỗ khác | Khuôn 9 mục ở đây (02/09) | Khuôn 9 mục ở `OBK-TTT-07` (06/10) | Lấy theo |
 | --- | --- | --- | --- |
-| Bảng RACI và mục chỉ số | Không có | Bắt buộc, mục 4 và mục 10 | `OBK-TTT-07`. Một hướng dẫn không nói ai làm ai duyệt thì người mới không dùng được |
+| Bảng RACI và mục chỉ số | Không có | Bắt buộc, mục 3 và mục 9 | `OBK-TTT-07`. Một hướng dẫn không nói ai làm ai duyệt thì người mới không dùng được |
 | Một hướng dẫn gắn với mấy mã Job | Đúng một mã Job | Không giới hạn | `OBK-TTT-07`. Thực tế Handbook Kế toán có 22 chương cho 29 Job, và tám hướng dẫn của `HuongDan_AM/` mỗi tệp phục vụ từ hai tới bảy Job.<br>Quy tắc thật là không có hướng dẫn nào mồ côi, tức mọi hướng dẫn phải khai mã Job mình phục vụ, và mọi Job phải có ít nhất một hướng dẫn phủ |
 
 Mục 4.2 dưới đây GIỮ để đối chiếu, không dùng làm khuôn mới.
@@ -254,4 +254,5 @@ Bảng kiểm này áp cho mỗi lần thêm một tài liệu mới vào bộ.
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 06/10/2026 | R.1.1.2 | Đồng bộ khuôn cấp 3: mục "Căn cứ pháp lý" ra khỏi khuôn `OBK-TTT-07` (K4 đủ 9 mục, K5 hạ cảnh báo), sửa 3 tham chiếu "khung mười mục" |
 | 04/10/2026 | R.1.1.1 | Sửa lối tự sự ở phụ lục liên kết và chuyển mức rủi ro. |

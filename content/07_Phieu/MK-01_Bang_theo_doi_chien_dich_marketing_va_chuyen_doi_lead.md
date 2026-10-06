@@ -36,7 +36,7 @@ tags:
 | **Ai dùng** | Chuyên viên Marketing (`MKT Executive`), Giám đốc marketing (`CMO`), Chuyên viên Quản lý khách hàng (`AM`), Trưởng phòng Thương mại, Giám đốc vận hành (`COO`) và Tổng Giám đốc (`CEO`) |
 | **Sinh từ** | [[13_OBK-SOP-MK_Marketing_va_phat_trien_nguon_khach_hang\|OBK-SOP-MK]]; [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]]; [[KH-01_So_quan_tri_khach_hang_va_dich_vu_crm\|KH-01]] |
 | **Ngày làm phiếu** | 27/09/2026 |
-| **Dữ liệu chung** | Nghiệp vụ của phiếu này ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] Sổ cái Quản trị Dịch vụ, nguồn sự thật duy nhất; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
+| **Dữ liệu chung** | Nghiệp vụ của phiếu ghi vào [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]]; phiếu là hướng dẫn thao tác và view trên cùng dữ liệu |
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
