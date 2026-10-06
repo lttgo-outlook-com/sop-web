@@ -4,7 +4,7 @@ code: "OBK-SOP-DV-00"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 1, văn bản KHUNG toàn công ty"
-version: "R.1.0.0"
+version: "R.1.0.1"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -25,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-SOP-README |
 | Cấp tài liệu | Tài liệu dẫn nhập của bộ |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.0.1, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 07/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -91,7 +91,7 @@ Nguyên văn từng điều khoản và thông tin từng văn bản pháp luậ
 | --- | --- | --- |
 | 1 | Không trả lời khách hàng bằng trí nhớ | Mọi con số của pháp luật phải truy được về một mã căn cứ đã đối chiếu bản gốc trong sổ căn cứ pháp lý OBK-CC.<br>Quy tắc này áp dụng cho mọi cấp, kể cả `CEO` |
 | 2 | Một đầu mối duy nhất với khách hàng | `AM` là đầu mối toàn trình, từ khi khách là lead tới khi kết thúc hợp đồng.<br>Bốn bộ phận nghiệp vụ không liên hệ khách hàng dưới bất kỳ hình thức nào |
-| 3 | Không dừng công việc để chờ đầu vào đầy đủ | Công việc chạy tiếp bằng giả thiết đã ghi rõ, trừ ba trường hợp bắt buộc dừng tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] `NT-3` |
+| 3 | Không dừng công việc để chờ đầu vào đầy đủ | Người thực hiện công việc chạy tiếp bằng giả thiết đã ghi rõ, trừ ba trường hợp bắt buộc dừng tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] `NT-3` |
 
 ---
 
@@ -174,4 +174,4 @@ Nhánh thương mại và Phòng Dịch vụ thuộc hai nhánh khác nhau và c
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 06/10/2026 | R.1.0.1 | Quy tắc vận hành số 3: viết rõ chủ ngữ 'người thực hiện công việc' cho hành động chạy tiếp bằng giả thiết |

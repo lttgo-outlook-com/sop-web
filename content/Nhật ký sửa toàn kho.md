@@ -36,7 +36,7 @@ tags:
 
 ## 1. Danh mục tài liệu
 
-Trang này ghi 264 lượt sửa thuộc các bản cũ của 134 tài liệu, tính tới 06/10/2026. Lượt sửa của bản hiện hành ghi tại mục NHẬT KÝ SỬA trong chính tài liệu đó.
+Trang này ghi 265 lượt sửa thuộc các bản cũ của 135 tài liệu, tính tới 06/10/2026. Lượt sửa của bản hiện hành ghi tại mục NHẬT KÝ SỬA trong chính tài liệu đó.
 
 | Tài liệu | Số lượt sửa | Ngày sửa gần nhất |
 | --- | --- | --- |
@@ -171,6 +171,7 @@ Trang này ghi 264 lượt sửa thuộc các bản cũ của 134 tài liệu, t
 | [[18_Kiem_soat_chat_luong\|OBK-SOP-18]] | 1 | 01/10/2026 |
 | [[21_Cap_nhat_van_ban_phap_luat\|OBK-SOP-21]] | 1 | 01/10/2026 |
 | [[08_PL_B_Tieu_chi_cong_viec_dang_ho_so\|OBK-QCNS-08-PL-B]] | 1 | 01/10/2026 |
+| [[00_README_Cach_dung\|OBK-SOP-DV-00]] | 1 | 01/10/2026 |
 | [[OBK-SOP-NB-04_Cong_va_tien_luong_noi_bo\|OBK-SOP-NB-04]] | 2 | 30/09/2026 |
 | [[OBK-SOP-NB-11_Dang_ky_va_quan_ly_lam_them_gio\|OBK-SOP-NB-11]] | 1 | 30/09/2026 |
 | [[OBK-SOP-NB-16_Kiem_toan_noi_bo_va_kiem_soat_tuan_thu\|OBK-SOP-NB-16]] | 1 | 30/09/2026 |
@@ -1110,3 +1111,9 @@ Trang này ghi 264 lượt sửa thuộc các bản cũ của 134 tài liệu, t
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
 | 06/10/2026 | R.1.0.0 | Dựng bản đầu: nhập ba phiếu DV-02, GP-01, HD-01 (trục hạn + mốc theo luật + nhắc trước hạn, kể cả trục chữ ký số liên kết CK-02) |
+
+### `OBK-SOP-DV-00`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

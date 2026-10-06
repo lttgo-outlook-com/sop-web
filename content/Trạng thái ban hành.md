@@ -60,7 +60,7 @@ Thư mục `03_DichVu`, 28 tài liệu.
 
 | Mã | Tài liệu | Cấp | Bản | Trạng thái | Người soát | Người phê duyệt | Ngày biên soạn | Rà soát tiếp theo |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[00_README_Cach_dung\|OBK-SOP-DV-00]] | [[00_README_Cach_dung]] | Cấp 1, văn bản KHUNG toàn công ty | R.1.0.0 | đang áp dụng | CEO | CEO | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
+| [[00_README_Cach_dung\|OBK-SOP-DV-00]] | [[00_README_Cach_dung]] | Cấp 1, văn bản KHUNG toàn công ty | R.1.0.1 | đang áp dụng | CEO | CEO | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu]] | Cấp 1, văn bản KHUNG toàn công ty | R.4.0.2 | đang áp dụng | CEO | CEO | 04/10/2026 | Không quá 06 tháng kể từ ngày ban hành |
 | [[01_Tiep_nhan_va_sang_loc_lead\|OBK-HB-31]] | [[01_Tiep_nhan_va_sang_loc_lead]] | Cấp 3, hướng dẫn nghiệp vụ | R.1.0.1 | đang áp dụng | CEO | CEO | 04/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[02_Hop_lam_ro_nhu_cau\|OBK-HB-32]] | [[02_Hop_lam_ro_nhu_cau]] | Cấp 3, hướng dẫn nghiệp vụ | R.1.0.0 | đang áp dụng | CEO | CEO | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
