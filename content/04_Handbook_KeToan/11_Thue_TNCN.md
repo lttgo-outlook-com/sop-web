@@ -4,7 +4,7 @@ code: "OBK-HB-11"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.1"
+version: "R.2.0.0"
 status: "đang áp dụng"
 draft_date: "04/10/2026"
 author: "CEO"
@@ -30,7 +30,7 @@ tags:
 | Mã tài liệu | OBK-HB-11 |
 | Tên chương | Thuế thu nhập cá nhân |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.1.0.1, đang áp dụng |
+| Phiên bản | R.2.0.0, đang áp dụng |
 | Ngày biên soạn | 04/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -94,6 +94,8 @@ tags:
 ---
 
 ## 4. Đầu vào bắt buộc
+
+`CV-KT` thu thập và đối chiếu đầy đủ đầu vào bắt buộc của mục này trước hạn nộp thuế thu nhập cá nhân pháp luật của kỳ; `AM` nhắc khách khi thiếu chứng từ.
 
 4.1. Từ khách hàng:
 - Hợp đồng lao động của toàn bộ người lao động, kèm phụ lục nếu có; ghi rõ thời hạn hợp đồng để phân loại từ 03 tháng trở lên hay dưới 03 tháng;
@@ -1027,6 +1029,4 @@ Hệ quả nghiệp vụ cho kỳ quyết toán thuế năm TNCN năm 2026:
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 06/10/2026 | R.1.0.2 | Đồng bộ chương 11: "khung mười mục" thành "khung chín mục" (mục "Căn cứ pháp lý" ra khỏi khuôn cấp 3 ngày 06/10/2026) |
-| 04/10/2026 | R.1.0.1 | Chuan hoa van phong hanh chinh, bo so dem tai cac tieu de muc, chuyen cac callout can xac minh sang quy dinh chuan muc va go phu luc chua xac minh khoi ban publish |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 06/10/2026 | R.2.0.0 | Mục 4: CV-KT thu thập và đối chiếu đầu vào bắt buộc trước hạn nộp thuế TNCN pháp luật của kỳ, AM nhắc khách khi thiếu (chốt VQ-43 phương án A) |

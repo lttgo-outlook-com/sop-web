@@ -4,7 +4,7 @@ code: "OBK-SOP-NB-02"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.1"
+version: "R.2.0.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -28,7 +28,7 @@ tags:
 | Mã tài liệu | OBK-SOP-NB-02 |
 | Tên tài liệu | Quy trình thu tiền và quản lý công nợ phải thu |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ. Thi hành Chương 4 của [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Quy chế tài chính nội bộ |
-| Phiên bản | R.1.0.1, đang áp dụng |
+| Phiên bản | R.2.0.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -92,7 +92,7 @@ Ký hiệu vai trò lấy nguyên từ `06_OBK-SOP-NB-00` mục 3.1, không đ�
 
 ## 4. Đầu vào bắt buộc
 
-Không mở một khoản phải thu khi thiếu bất kỳ đầu vào nào dưới đây.
+Không mở một khoản phải thu khi thiếu bất kỳ đầu vào nào dưới đây. `KTV` mở và ghi nhận khoản phải thu theo từng vụ khi đủ các đầu vào trong bảng; `KTT` soát lại đầu vào tại thời điểm xuất hóa đơn.
 
 | # | Đầu vào | Nguồn | Thiếu thì sao |
 | --- | --- | --- | --- |
@@ -397,5 +397,4 @@ Chỉ số chưa đặt ngưỡng thì người lập báo cáo ghi số đo và
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
-| 04/10/2026 | R.1.0.1 | Chuẩn hóa văn phong hành chính, bỏ số đếm ở tiêu đề và callout, hoàn thiện các quy định về hợp đồng và công nợ |
+| 06/10/2026 | R.2.0.0 | Mục 4: KTV mở và ghi nhận khoản phải thu theo từng vụ khi đủ đầu vào, KTT soát lại đầu vào tại thời điểm xuất hóa đơn (chốt VQ-40 phương án A) |

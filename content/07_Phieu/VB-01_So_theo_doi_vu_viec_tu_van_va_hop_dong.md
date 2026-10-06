@@ -4,7 +4,7 @@ code: "VB-01"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.1.0"
+version: "R.2.0.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -25,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | VB-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.1.0, đang áp dụng |
+| Phiên bản | R.2.0.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -69,7 +69,7 @@ Sổ theo dõi được áp dụng để quản lý tiến độ, phân loại m
 [ ]  2. THẨM TRA VÀ THIẾT LẬP BẢN ĐỐI CHIẾU ĐIỀU KHOẢN
         - CV-LS kiểm tra tư cách pháp lý của các bên tham gia giao dịch, thẩm quyền ký kết và phạm vi ủy quyền.
         - Rà soát từng điều khoản hợp đồng trên nguyên tắc ba phần: điều khoản bắt buộc sửa, điều khoản khuyến nghị sửa, điều khoản chấp nhận được.
-        - Lập Bản đối chiếu điều khoản chỉ rõ câu chữ hiện tại, câu chữ đề xuất thay thế và lý do kèm mã căn cứ pháp luật.
+        - Lập Bản đối chiếu điều khoản chỉ rõ câu chữ hiện tại, câu chữ đề xuất thay thế và lý do kèm mã căn cứ pháp luật, trong hạn cam kết tại cột 6 của Bước 1.
         - Cập nhật trạng thái "Đã hoàn thành bản đối chiếu điều khoản" vào cột 7.
 
 [ ]  3. SOẠN THẢO BẢN GHI NHỚ TƯ VẤN QUẢN TRỊ (MEMO)
@@ -117,4 +117,4 @@ Bảo đảm chất lượng chuyên môn và tính chặt chẽ của các văn
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu VB-01 về Sổ cái OBK-MSR |
+| 06/10/2026 | R.2.0.0 | Bước 2: Bản đối chiếu điều khoản lập trong hạn cam kết tại cột 6 của Bước 1 (chốt VQ-42 phương án A) |

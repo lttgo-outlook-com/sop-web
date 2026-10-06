@@ -4,7 +4,7 @@ code: "OBK-SOP-LS"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 2, quy trình bộ phận"
-version: "R.2.0.1"
+version: "R.3.0.0"
 status: "đang áp dụng"
 draft_date: "04/10/2026"
 author: "CEO"
@@ -27,7 +27,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-SOP-LS |
 | Cấp tài liệu | Cấp 2, SOP bộ phận |
-| Phiên bản | R.2.0.1, đang áp dụng |
+| Phiên bản | R.3.0.0, đang áp dụng |
 | Ngày biên soạn | 04/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 07/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -101,7 +101,7 @@ Ba ví dụ:
 
 Việc oBacker có được cung cấp dịch vụ tư vấn pháp luật và dịch vụ pháp lý dưới hình thức hiện tại hay không là một giả thiết chưa được xác minh. Bốn quy tắc dưới đây áp dụng cho toàn bộ bộ phận:
 
-1. Yêu cầu mới thuộc nhóm A hoặc nhóm B của mục 1.2 phải được `CEO` nhận bằng văn bản trên Job trước khi `AM` báo giá. `TL-LS` không tự nhận.
+1. Yêu cầu mới thuộc nhóm A hoặc nhóm B của mục 1.2 phải được `CEO` nhận bằng văn bản trên Job trong 02 ngày làm việc kể từ ngày yêu cầu được ghi nhận, trước khi `AM` báo giá. `TL-LS` không tự nhận.
 2. Nhóm C và nhóm D chạy bình thường, vì đầu ra của hai nhóm này là tài liệu quản trị nội bộ và bản rà soát, không phải ý kiến pháp lý gửi ra ngoài.
 3. Đầu ra của mọi nhóm không được gọi tên là ý kiến pháp lý, thư luật sư, hay dịch vụ pháp lý. Tên đầu ra dùng đúng theo cột Đầu ra của bảng Job.
 4. Hợp đồng dịch vụ với khách phải ghi phạm vi đúng bằng tên đầu ra tại bảng Job, không ghi phạm vi bằng cụm từ chỉ nghề. `AM` không tự sửa cụm từ này; sửa thì theo RD-18.
@@ -298,4 +298,4 @@ Tài liệu này là cấp 2. `TL-LS` dựng cấp 3, `COO` duyệt, Legal R&D s
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 04/10/2026 | R.2.0.1 | Bỏ lối tự sự và từ ngữ đối thoại ở dịch vụ pháp lý. |
+| 06/10/2026 | R.3.0.0 | Mục 1.5 quy tắc 1: CEO nhận bằng văn bản yêu cầu nhóm A và B trong 02 ngày làm việc kể từ ngày yêu cầu được ghi nhận (chốt VQ-39 phương án A) |

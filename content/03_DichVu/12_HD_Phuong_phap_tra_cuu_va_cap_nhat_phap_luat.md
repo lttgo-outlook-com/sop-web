@@ -4,7 +4,7 @@ code: "OBK-HB-71"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.2.0.0"
+version: "R.3.0.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -27,7 +27,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-HB-71 |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.2.0.0, đang áp dụng |
+| Phiên bản | R.3.0.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 27/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -110,7 +110,7 @@ Quy trình thực hiện bao gồm 5 bước tiêu chuẩn:
   * Nguyên tắc 3: Ưu tiên áp dụng luật chuyên ngành so với luật chung (ví dụ: Luật Doanh nghiệp, Luật Đầu tư so với Bộ luật Dân sự; Luật Quản lý thuế so với các quy định chung về khiếu nại hành chính).
 
 ### Bước 3: Phân tích và đối chiếu Điều khoản chuyển tiếp
-Điều khoản chuyển tiếp là khu vực có nguy cơ sai sót cao nhất trong thực tiễn tư vấn. `CV-RD` bắt buộc rà soát chương cuối cùng của văn bản để phân loại 3 nhóm quan hệ pháp lý chuyển tiếp:
+Điều khoản chuyển tiếp là khu vực có nguy cơ sai sót cao nhất trong thực tiễn tư vấn. `CV-RD` bắt buộc rà soát chương cuối cùng của văn bản và hoàn thành phân loại 3 nhóm quan hệ pháp lý chuyển tiếp trước khi soạn ý kiến tư vấn:
 
 1. **Nhóm quan hệ pháp lý đã hoàn thành**:
    - Các hành vi pháp lý, giao dịch, quyết định hành chính đã thực hiện xong trước ngày văn bản mới có hiệu lực thi hành;
@@ -233,4 +233,4 @@ Quy trình thực hiện bao gồm 5 bước tiêu chuẩn:
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 02/10/2026 | R.2.0.0 | Bước 4 và bảng KS-RD-05: sửa tiêu chí phân loại 4 mức ưu tiên theo LOẠI thay đổi của văn bản, khớp OBK-SOP-00 mục 12.3a; hiệu lực trong vòng 60 ngày là điều kiện phụ của Mức 1; bỏ dải 15/45 ngày và quy tắc tự động xếp Mức 1 theo chế tài |
+| 06/10/2026 | R.3.0.0 | Bước 3: CV-RD hoàn thành rà soát và phân loại điều khoản chuyển tiếp trước khi soạn ý kiến tư vấn (chốt VQ-41 phương án A) |
