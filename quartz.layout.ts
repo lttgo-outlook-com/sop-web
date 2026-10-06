@@ -41,7 +41,7 @@ export const defaultContentPageLayout: PageLayout = {
       folderDefaultState: "collapsed",
       useSavedState: true,
       filterFn: (node) => {
-        const omit = new Set(["CanCu", "VanBan", "raw", "_Nhap"])
+        const omit = new Set(["raw", "_Nhap"])
         return !omit.has(node.slugSegment)
       },
       // Hiển thị tên thư mục gọn như breadcrumbs (bỏ prefix "01_", _ → khoảng trắng).
@@ -86,7 +86,7 @@ export const defaultListPageLayout: PageLayout = {
       folderDefaultState: "collapsed",
       useSavedState: true,
       filterFn: (node) => {
-        const omit = new Set(["CanCu", "VanBan", "raw", "_Nhap"])
+        const omit = new Set(["raw", "_Nhap"])
         return !omit.has(node.slugSegment)
       },
       // Hiển thị tên thư mục gọn như breadcrumbs (bỏ prefix "01_", _ → khoảng trắng).

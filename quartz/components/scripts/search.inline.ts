@@ -95,12 +95,9 @@ const CATEGORY_MAP: Record<string, { label: string; order: number }> = {
   "03_DichVu": { label: "03. Dịch vụ khách hàng", order: 3 },
   "04_Handbook_KeToan": { label: "04. Sổ tay Kế toán", order: 4 },
   "07_Phieu": { label: "07. Phiếu nghiệp vụ", order: 5 },
-  "08_SoCanCu": { label: "08. Sổ Căn cứ pháp lý", order: 6 },
   "09_TnC": { label: "09. Điều khoản TnC", order: 7 },
   "10_DanhMuc": { label: "10. Danh mục & Bảng giá", order: 8 },
   "11_NhanSu": { label: "11. Quản trị Nhân sự", order: 9 },
-  "CanCu": { label: "Căn cứ pháp lý (Trích dẫn)", order: 10 },
-  "VanBan": { label: "Văn bản quy phạm", order: 11 },
 }
 
 function getGroupKey(slug: string): { key: string; label: string; order: number } {

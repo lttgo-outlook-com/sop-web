@@ -24,8 +24,8 @@ Bản đồng bộ của kho tài liệu quản lý (controlled documents): mỗ
 ## Operating Context
 
 - Nội dung là bản copy đồng bộ một chiều từ kho SOP (`SOP/Publish SOPs/`) bằng `_tools/dong_bo_sop_web.py`. Sửa nội dung làm trong kho SOP, không sửa tay `content/` trong repo này.
-- Cấu trúc kho: `01_ToChuc`, `02_NoiBo`, `03_DichVu`, `04_Handbook_KeToan`, `07_Phieu`, `08_SoCanCu`, `09_TnC`, `10_DanhMuc`, `11_NhanSu`, `CanCu`, `VanBan`, plus `00_INDEX.md` là mục lục gốc.
-- Mỗi tài liệu mang frontmatter quản trị: `code`, `version` (R.x.y), `status`, `author/reviewer/approver`, `law_as_of`, `next_review`, `distribution`, tags theo các chiều `loai/`, `dich-vu/`, `nghiep-vu/`, `cap/`.
+- Cấu trúc kho: `01_ToChuc`, `02_NoiBo`, `03_DichVu`, `04_Handbook_KeToan`, `07_Phieu`, `09_TnC`, `10_DanhMuc`, `11_NhanSu`, plus `00_INDEX.md` là mục lục gốc. (PR-2 05/10/2026: rút `CanCu/`, `VanBan/`, `08_SoCanCu/OBK-CC` ra khỏi vault phát hành — chuyển sang `05_PhapLuat/Soan_thao/`, chỉ dùng trong soạn thảo.)
+- Mỗi tài liệu mang frontmatter quản trị: `code`, `version` (R.x.y), `status`, `author/reviewer/approver`, `next_review`, `distribution`, tags theo các chiều `loai/`, `dich-vu/`, `nghiep-vu/`, `cap/`. (PR-2: bỏ `law_as_of`, `previous_version`, `review_status`, `approval_status`.)
 - Tiếng Việt là ngôn ngữ chính; thư mục `09_TnC` song ngữ VI/EN (cặp file `_VI.md`/`_EN.md`).
 - Build: `npx quartz build` (phải sạch lỗi); preview `npx quartz build --serve` (localhost:8080); deploy Cloud Run (service `sop-web`, IAP) bằng `./scripts/deploy.sh` **chỉ khi CEO yêu cầu rõ**.
 
@@ -43,7 +43,7 @@ Bản đồng bộ của kho tài liệu quản lý (controlled documents): mỗ
 
 ## Evidence on Hand
 
-- Toàn bộ kho tài liệu controlled tại `content/` (hàng trăm trang), gồm toàn văn văn bản pháp luật tại `content/VanBan/` và căn cứ pháp luật tại `content/CanCu/`.
+- Toàn bộ kho tài liệu controlled tại `content/` (hàng trăm trang), toàn bộ là quy định vận hành oBacker — standalone, không còn `content/CanCu/`, `content/VanBan/`, `content/08_SoCanCu/` (đã rút ra ngoài vault phát hành theo PR-2 05/10/2026).
 - TnC song ngữ VI/EN tại `content/09_TnC/`.
 - Không có testimonial, benchmark, press hay tài sản marketing — mọi bề mặt sau này không được bịa thêm các thứ này.
 

@@ -29,15 +29,6 @@ function formatDay(d: Date | undefined): string | undefined {
 const LegalNav: QuartzComponent = ({ fileData, allFiles, displayClass }: QuartzComponentProps) => {
   const baseDir = pathToRoot(fileData.slug!)
 
-  // Đếm động số lượng căn cứ pháp lý thực tế trong kho (null = chưa biết, không hiển thị số)
-  const canCuCount = allFiles
-    ? allFiles.filter((file) => {
-        const slug = file.slug ?? ""
-        const type = file.frontmatter?.type as string | undefined
-        return slug.startsWith("CanCu/") || type === "can-cu"
-      }).length
-    : null
-
   // Đếm động số lượng tài liệu ban hành chính thức (loại trừ index.md nhân bản của 00_INDEX)
   const taiLieuCount = allFiles
     ? allFiles.filter((file) => {
@@ -77,23 +68,11 @@ const LegalNav: QuartzComponent = ({ fileData, allFiles, displayClass }: QuartzC
     <div class={classNames(displayClass, "legal-nav-card")}>
       <button type="button" class="legal-nav-header" aria-expanded="true">
         <span class="legal-nav-title">Tra cứu nhanh</span>
-        <span class="legal-nav-tag">{canCuCount === null ? "căn cứ" : `${canCuCount} căn cứ`}</span>
         <span class="legal-nav-chevron" aria-hidden="true"></span>
       </button>
       <div class="legal-nav-body">
         <div class="legal-nav-list">
           <div class="legal-nav-list-inner">
-            <a href={`${baseDir}/08_SoCanCu/OBK-CC`} class="legal-nav-row row-cancu">
-              <span class="nav-chip">CC</span>
-              <div class="nav-row-main">
-                <span class="nav-row-title">Sổ Căn cứ pháp lý</span>
-                <span class="nav-row-sub">
-                  {canCuCount === null
-                    ? "trích dẫn điều khoản"
-                    : `${canCuCount} trích dẫn điều khoản`}
-                </span>
-              </div>
-            </a>
             <a href={`${baseDir}/Trạng-thái-ban-hành`} class="legal-nav-row row-status">
               <span class="nav-chip">TT</span>
               <div class="nav-row-main">
@@ -167,19 +146,6 @@ LegalNav.css = `
   flex: none;
 }
 
-.legal-nav-tag {
-  margin-left: auto;
-  font-size: 11px;
-  line-height: 14px;
-  font-weight: 600;
-  color: #475569;
-  background: #f1f5f9;
-  padding: 2px 8px;
-  border-radius: 2px;
-  border: 1px solid #cbd5e1;
-  white-space: nowrap;
-}
-
 .legal-nav-body {
   display: grid;
   grid-template-rows: 1fr;
@@ -218,10 +184,6 @@ LegalNav.css = `
   box-shadow: 2px 2px 0 #1e293b;
 }
 
-.legal-nav-row.row-cancu {
-  border-left: 3.5px solid #193cb8;
-}
-
 .legal-nav-row.row-status {
   border-left: 3.5px solid #16a34a;
 }
@@ -242,12 +204,6 @@ LegalNav.css = `
   font-weight: 700;
   letter-spacing: 0.04em;
   flex-shrink: 0;
-}
-
-.row-cancu .nav-chip {
-  background: #eef2ff;
-  color: #193cb8;
-  border: 1px solid rgba(25, 60, 184, 0.25);
 }
 
 .row-status .nav-chip {

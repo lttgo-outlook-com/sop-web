@@ -99,8 +99,6 @@ document.addEventListener("nav", () => {
 
       if (e.key === "h" || e.key === "H") {
         window.location.href = cleanBase || "/"
-      } else if (e.key === "c" || e.key === "C") {
-        window.location.href = (cleanBase ? cleanBase : "") + "/08_SoCanCu/OBK-CC"
       } else if (e.key === "t" || e.key === "T") {
         window.location.href = (cleanBase ? cleanBase : "") + "/Trạng-thái-ban-hành"
       } else if (e.key === "n" || e.key === "N") {
@@ -154,12 +152,6 @@ const KeyboardShortcuts: QuartzComponent = ({ displayClass }: QuartzComponentPro
                 <span>Trang chủ</span>
                 <div class="shortcut-tags">
                   <kbd>G</kbd> <kbd>H</kbd>
-                </div>
-              </div>
-              <div class="shortcut-line">
-                <span>Sổ Căn cứ pháp lý</span>
-                <div class="shortcut-tags">
-                  <kbd>G</kbd> <kbd>C</kbd>
                 </div>
               </div>
               <div class="shortcut-line">
