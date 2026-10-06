@@ -4,7 +4,7 @@ code: "TS-02"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.1.0"
+version: "R.1.1.1"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -25,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | TS-02 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.1.0, đang áp dụng |
+| Phiên bản | R.1.1.1, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -175,7 +175,7 @@ Quá trình ghi nhận và điều phối công suất được thực hiện qu
 ## QUY TRÌNH LUÂN CHUYỂN VÀ LƯU TRỮ
 
 1. Dữ liệu Timesheet chi tiết được lưu trữ tập trung trên hệ thống cơ sở dữ liệu vận hành nội bộ, bảo đảm tính toàn vẹn và khả năng truy xuất tối thiểu 03 năm phục vụ thanh tra lao động và kiểm toán nội bộ.
-2. Báo cáo cân bằng công suất tuần gửi `COO` trước 09:00 sáng thứ Hai để phục vụ giao ban điều hành.
+2. Quản lý trực tiếp (`TL`) báo cáo cân bằng công suất tuần gửi `COO` trước 09:00 sáng thứ Hai để phục vụ giao ban điều hành.
 3. Bảng tổng hợp năng suất tháng được chuyển giao đồng thời cho:
    - Bộ phận nhân sự (`HR`) để làm căn cứ tính công, quản lý làm thêm giờ và đánh giá hiệu suất;
    - Kế toán trưởng (`KTT`) để hạch toán chi phí nhân công trực tiếp theo từng hợp đồng khách hàng;
@@ -205,4 +205,4 @@ Trong mô hình cung cấp dịch vụ quản trị doanh nghiệp và kế toá
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu TS-02 về Sổ cái OBK-MSR |
+| 07/10/2026 | R.1.1.1 | Bước báo cáo cân bằng công suất tuần gửi COO có chủ thể Quản lý trực tiếp (TL) |

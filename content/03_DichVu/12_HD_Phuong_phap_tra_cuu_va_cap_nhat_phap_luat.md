@@ -4,7 +4,7 @@ code: "OBK-HB-71"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.3.0.0"
+version: "R.3.0.1"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -27,7 +27,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-HB-71 |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.3.0.0, đang áp dụng |
+| Phiên bản | R.3.0.1, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 27/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -93,15 +93,15 @@ Quy trình thực hiện bao gồm 5 bước tiêu chuẩn:
   * Hệ thống cơ sở dữ liệu tra cứu pháp luật trực tuyến chính thức có chứng nhận bản quyền.
 - Khi phát hiện văn bản mới thuộc phạm vi chuyên môn của oBacker:
   * Tải bản gốc toàn văn về lưu trữ tại Hệ thống quản lý công việc và lưu trữ hồ sơ;
-  * Đặt tên tệp theo quy chuẩn: `[SoHieu]_[Nam]_[LoaiVanBan]_[TrichYeuNgan].md` (hoặc .pdf);
-  * Ghi nhận vào Nhật ký theo dõi văn bản mới trong vòng 02 giờ làm việc kể từ thời điểm phát hiện.
+  * `CV-RD` đặt tên tệp theo quy chuẩn: `[SoHieu]_[Nam]_[LoaiVanBan]_[TrichYeuNgan].md` (hoặc .pdf);
+  * `CV-RD` ghi nhận vào Nhật ký theo dõi văn bản mới trong vòng 02 giờ làm việc kể từ thời điểm phát hiện.
 
 ### Bước 2: Kiểm tra tình trạng hiệu lực và thứ bậc pháp lý
-- Kiểm tra ngày có hiệu lực:
+- `CV-RD` kiểm tra ngày có hiệu lực:
   * Xác định ngày văn bản bắt đầu có hiệu lực thi hành ghi tại Điều khoản thi hành của chính văn bản đó;
   * Đối chiếu với quy định chung về thời điểm có hiệu lực tại Điều 151 Luật Ban hành văn bản quy phạm pháp luật (không sớm hơn 45 ngày kể từ ngày thông qua hoặc ký ban hành đối với luật, nghị quyết của Quốc hội, nghị định của Chính phủ, quyết định của Thủ tướng; không sớm hơn 45 ngày kể từ ngày ký ban hành đối với thông tư);
   * Phân biệt rõ văn bản có hiệu lực theo thủ tục rút gọn (có thể có hiệu lực kể từ ngày ký ban hành).
-- Kiểm tra tình trạng hiệu lực:
+- `CV-RD` kiểm tra tình trạng hiệu lực:
   * Xác định trạng thái pháp lý: Chưa có hiệu lực, Còn hiệu lực, Hết hiệu lực toàn bộ, hoặc Hết hiệu lực một phần;
   * Trường hợp hết hiệu lực một phần: Phải bóc tách chính xác từng điều, khoản, điểm bị bãi bỏ hoặc sửa đổi, bổ sung, không được đánh đồng toàn bộ văn bản hết hiệu lực.
 - Xác định thứ bậc áp dụng pháp luật theo Điều 156 Luật Ban hành VBQPPL:
@@ -118,7 +118,7 @@ Quy trình thực hiện bao gồm 5 bước tiêu chuẩn:
 
 2. **Nhóm hồ sơ thủ tục hành chính đang giải quyết dở dang**:
    - Hồ sơ đã được cơ quan nhà nước tiếp nhận hợp lệ trước ngày văn bản mới có hiệu lực nhưng chưa có kết quả;
-   - Đối chiếu quy định chuyển tiếp:
+   - `CV-RD` đối chiếu quy định chuyển tiếp:
      * Dạng A: Được tiếp tục giải quyết theo quy định của văn bản tại thời điểm nộp hồ sơ mà không phải nộp lại hoặc sửa đổi;
      * Dạng B: Bắt buộc phải bổ sung, điều chỉnh theo quy định mới của văn bản mới;
      * Dạng C: Cho phép lựa chọn áp dụng quy định cũ hoặc quy định mới theo hướng có lợi cho doanh nghiệp.
@@ -146,7 +146,7 @@ Quy trình thực hiện bao gồm 5 bước tiêu chuẩn:
 
 ### Bước 5: Bàn giao, họp thống nhất và cập nhật Sổ căn cứ
 - `TL-RD` thẩm tra và phê duyệt Báo cáo đánh giá tác động.
-- Gửi báo cáo cho `TL` các bộ phận nghiệp vụ liên quan (Kế toán, Licensing, Lao động, Pháp lý, AM) qua Hệ thống quản lý công việc và lưu trữ hồ sơ.
+- `TL-RD` gửi báo cáo cho `TL` các bộ phận nghiệp vụ liên quan (Kế toán, Licensing, Lao động, Pháp lý, AM) qua Hệ thống quản lý công việc và lưu trữ hồ sơ.
 - Tổ chức cuộc họp ngắn (tối đa 45 phút) với các `TL` bộ phận để thống nhất cách hiểu và phương án điều chỉnh quy trình vận hành.
 - Nhập toàn văn bản Markdown vào kho văn bản nội bộ. Cập nhật mã căn cứ mới hoặc trạng thái hiệu lực của mã cũ vào Sổ căn cứ pháp lý (`PL_1`).
 
@@ -233,4 +233,4 @@ Quy trình thực hiện bao gồm 5 bước tiêu chuẩn:
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 06/10/2026 | R.3.0.0 | Bước 3: CV-RD hoàn thành rà soát và phân loại điều khoản chuyển tiếp trước khi soạn ý kiến tư vấn (chốt VQ-41 phương án A) |
+| 07/10/2026 | R.3.0.1 | Năm bước tiếp nhận văn bản mới (đặt tên tệp, ghi nhật ký theo dõi, kiểm tra ngày có hiệu lực, kiểm tra tình trạng hiệu lực, đối chiếu quy định chuyển tiếp) có chủ thể CV-RD; bước gửi báo cáo cho các bộ phận nghiệp vụ có chủ thể TL-RD |

@@ -4,7 +4,7 @@ code: "OBK-QCNS-01"
 type: "sop"
 folder: "11_NhanSu"
 level: "Cấp 2, quy trình bộ phận"
-version: "R.1.0.0"
+version: "R.2.0.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -28,7 +28,7 @@ tags:
 | Mã tài liệu | OBK-QCNS-01 |
 | Tên tài liệu | Khung nhân sự tổng hợp. Lộ trình thăng tiến và chính sách lương thưởng |
 | Cấp tài liệu | Cấp 2 |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.2.0.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 22/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -394,12 +394,12 @@ Ví dụ cộng dồn: người A ký hợp đồng với khách B tháng 1 năm
 | Điều kiện | Quy định |
 | --- | --- |
 | Còn làm việc tại công ty | Phải còn làm việc đến ngày chi trả, tức ngày 15 tháng M cộng 1. Nghỉ việc trước ngày chi trả thì không nhận thưởng tháng M |
-| Không bị xử lý kỷ luật lao động từ mức kéo dài thời hạn nâng lương trở lên | Không bị xử lý kỷ luật lao động theo Chương IX [[Noi_quy_lao_dong\|OBK-NQLD]] trong tháng M ở một trong ba hình thức: kéo dài thời hạn nâng lương, cách chức, sa thải. Khiển trách KHÔNG làm mất thưởng tháng |
+| Không bị xử lý kỷ luật lao động trong tháng M ở bất kỳ hình thức nào trong bốn hình thức | Không bị xử lý kỷ luật lao động theo Chương IX [[Noi_quy_lao_dong\|OBK-NQLD]] trong tháng M ở bất kỳ hình thức nào trong bốn hình thức: khiển trách, kéo dài thời hạn nâng lương, cách chức, sa thải |
 | Xác nhận danh sách khách hàng | Người nhận thưởng theo khách phải có danh sách khách hàng phụ trách được xác nhận hợp lệ trước ngày 10 tháng M cộng 1 |
 | Nhân viên đã qua thử việc và làm việc toàn thời gian | Chỉ áp dụng cho nhân viên đã qua thời gian thử việc và làm việc toàn thời gian. Trường hợp ngoại lệ do `CEO` quyết riêng. Nhân viên đang thử việc, nhân viên bán thời gian, cộng tác viên, hợp đồng ngắn hạn không thuộc phạm vi chính sách này |
 
 > [!note] HÌNH THỨC KỶ LUẬT LÀM CĂN CỨ XÉT THƯỞNG
-> Theo Điều 36 của Nội quy lao động `OBK-NQLD`, hình thức kỷ luật lao động áp dụng làm căn cứ xét điều kiện thưởng tại oBacker bao gồm ba hình thức nặng hơn khiển trách: kéo dài thời hạn nâng lương không quá 06 tháng, cách chức, và sa thải.
+> Theo Điều 36 của Nội quy lao động `OBK-NQLD`, hình thức kỷ luật lao động áp dụng làm căn cứ xét điều kiện thưởng tại oBacker bao gồm đủ bốn hình thức: khiển trách, kéo dài thời hạn nâng lương không quá 06 tháng, cách chức, và sa thải.
 
 ## III.8. Quy định khác và điều khoản áp dụng
 
@@ -423,4 +423,4 @@ Theo [[00_Bo_tai_lieu_quan_tri_nhan_su|OBK-QCNS-00]] mục 2, một mốc hiệu
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 06/10/2026 | R.2.0.0 | Điều kiện mất thưởng doanh thu tháng áp cho cả bốn hình thức kỷ luật lao động, kể cả khiển trách |

@@ -2,7 +2,7 @@
 title: "HR SERVICE TERMS (PL-NS)"
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.0.0"
+version: "R.1.0.3"
 status: "đang áp dụng"
 language: "en"
 distribution: "Khách hàng"
@@ -16,7 +16,7 @@ tags:
 *Service-Specific Terms, an integral part of the Master T&C; oBacker Joint Stock Company*
 Tax code: 0402298185 · Floor 2, 06 Tran Phu Street, Hai Chau Ward, Da Nang, Vietnam · contact@obacker.com
 
-**Version:** R.1.0.0 (VI-EN) · **Updated:** 27 September 2026
+**Version:** R.1.0.3 (VI-EN) · **Updated:** 07/10/2026
 
 > These are the Service-Specific Terms for the HR Services (the "**Services**"): payroll, PIT on salaries, mandatory insurance (social insurance (SI), health insurance (HI), and unemployment insurance (UI)), and labour contracts and reports. They apply where the Services are recorded in the Order Form. **If these Terms differ from the Master T&C, these Terms prevail for the Services.**
 
@@ -35,7 +35,7 @@ Primary legal bases: the **2019 Labour Code**; the **Law on Social Insurance No.
 - Set up a Payroll Framework suited to the service package and agreed with the Client
 - Run the monthly payroll based on attendance, leave, OT, bonus, allowance, and change data confirmed by the Client, applying the agreed Payroll Framework
 - Calculate salary deductions (PIT, the employee's SI/HI/UI portion, and union dues if any)
-- Issue a payslip to each employee through the channel the Client designates.
+- oBacker issues a payslip to each employee through the channel the Client designates.
 
 **Customisation limit.** oBacker calculates payroll under the agreed Payroll Framework using standard or lightly customised rules. Where the Client has a **complex or highly customised payroll/timekeeping mechanism beyond the Payroll Framework** (e.g. bespoke timekeeping formulas with many variables, complex KPI/commission schemes, non-standard shift patterns, etc.), the parties agree on one of the following: (i) the Client provides the complex portion pre-processed for oBacker to enter into the payroll; (ii) the rules are simplified to fit the Payroll Framework; or (iii) it is delivered as a separately charged Add-on service where feasible. **oBacker does not interfere with the Client's internal processes or systems.**
 
@@ -53,7 +53,7 @@ Primary legal bases: the **2019 Labour Code**; the **Law on Social Insurance No.
 
 - Register the social insurance unit code (at setup); register additions and reductions, close the insurance book, and adjust information (with valid authorisation)
 - Reconcile the amount payable each period and notify the Client (see Article 5)
-- Process sickness and maternity benefit files within the scope of social insurance procedures.
+- oBacker processes sickness and maternity benefit files within the scope of social insurance procedures.
 
 Reference contribution rates (on registered salary):
 
@@ -66,7 +66,7 @@ Reference contribution rates (on registered salary):
 
 **2.4. Labour contracts and reports:**
 
-- Draft labour contracts, appendices, and NDAs from **standard templates** for the Client's internal staff
+- oBacker drafts labour contracts, appendices, and NDAs from **standard templates** for the Client's internal staff
 - Labour usage reports, labour change reports, and similar mandatory reports
 - Support the registration of internal labour rules with the competent authority.
 
@@ -158,7 +158,8 @@ The Service Fees are set in the Order Form (usually per head/month or by package
 
 ## REVISION LOG
 
-| Date | Version | R.1.0.0, currently applicable |
+| Date | Version | R.1.0.3, currently applicable |
 | --- | --- | --- |
+| 07/10/2026 | R.1.0.3 | Subject oBacker added to the three service-scope bullets (payslips, sickness/maternity files, labour contracts and appendices) |
 | 27/09/2026 | R.1.0.2 | Standardized sole Da Nang head office address |
 | 26/09/2026 | R.1.0.1 | Updated legal basis for labour/social insurance non-compliance penalties to Decree No. 283/2026/ND-CP |

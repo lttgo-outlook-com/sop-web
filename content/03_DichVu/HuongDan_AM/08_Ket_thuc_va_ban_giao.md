@@ -4,7 +4,7 @@ code: "OBK-HB-38"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.1.1"
+version: "R.1.1.2"
 status: "đang áp dụng"
 draft_date: "04/10/2026"
 author: "CEO"
@@ -25,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-HB-38 |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.1.1.1, đang áp dụng |
+| Phiên bản | R.1.1.2, đang áp dụng |
 | Ngày biên soạn | 04/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 07/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -109,7 +109,7 @@ Bộ bàn giao gồm bốn nhóm, và mỗi nhóm có danh mục riêng do bộ 
 
 Nhóm tài liệu ghi chú chuyển tiếp là nội dung bắt buộc nhằm bảo đảm tính liên tục trong hoạt động quản trị của khách hàng và hạn chế tối đa rủi ro phát sinh sau bàn giao.
 
-Gửi khách không muộn hơn ngày kết thúc hợp đồng. Kèm biên bản bàn giao có danh mục từng món, để hai bên ký.
+AM gửi khách không muộn hơn ngày kết thúc hợp đồng. Kèm biên bản bàn giao có danh mục từng món, để hai bên ký.
 
 ### 5.4. Bước 4. Đối soát công nợ cuối và hóa đơn cuối
 
@@ -198,4 +198,4 @@ Bài học ghi vào Job `AM-21`, và phải kết thúc bằng một trong ba k�
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 04/10/2026 | R.1.1.1 | Chuyển số đếm liệt kê ở phần mục đích của hướng dẫn kết thúc và bàn giao thành quy định. |
+| 07/10/2026 | R.1.1.2 | Bước gửi khách bộ tài liệu kèm biên bản bàn giao trước ngày kết thúc hợp đồng có chủ thể AM |

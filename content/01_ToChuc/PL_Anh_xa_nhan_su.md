@@ -4,7 +4,7 @@ code: "OBK-QCTC-02-PL-D"
 type: "sop"
 folder: "01_ToChuc"
 level: "Phụ lục"
-version: "R.1.0.1"
+version: "R.1.0.2"
 status: "đang áp dụng"
 draft_date: "04/10/2026"
 author: "CEO"
@@ -25,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-QCTC-02-PL-D |
 | Cấp tài liệu | Phụ lục |
-| Phiên bản | R.1.0.1, đang áp dụng |
+| Phiên bản | R.1.0.2, đang áp dụng |
 | Ngày biên soạn | 04/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -69,10 +69,10 @@ Kiêm nhiệm không phải một trạng thái. Một người giữ nhiều va
 | Vị trí | Ký hiệu | Văn phòng | Người | Trạng thái |
 | --- | --- | --- | --- | --- |
 | Head of Commercial, TP Thương mại |  | ĐN | Lê Trọng Tuấn<br>tuan@obacker.com | Đang giữ |
-| AM Lead | `AM` | ĐN | long.nguyen@obacker.com | Đang giữ |
+| AM Lead | `AM` | ĐN | Long Nguyen<br>long.nguyen@obacker.com | Đang giữ |
 | Account Executive | `AE` | ĐN | Phương Nguyễn<br>phuong.nguyen@obacker.com | Đang giữ |
 | Account Executive | `AE` | TPHCM | Linh Phan<br>linh.phan@obacker.com | Đang giữ |
-| Partnerships Manager | `PM` | ĐN | long.nguyen@obacker.com | Đang giữ |
+| Partnerships Manager | `PM` | ĐN | Long Nguyen<br>long.nguyen@obacker.com | Đang giữ |
 
 ### Finance
 
@@ -97,7 +97,7 @@ Kiêm nhiệm không phải một trạng thái. Một người giữ nhiều va
 | --- | --- | --- | --- | --- |
 | Legal R&D Team Lead |  | HCM | Nguyễn Thị Thu Trang<br>trang@obacker.com | Đang giữ |
 | Paralegal |  | HCM | Giang Vũ<br>giang.vu@obacker.com | Đang giữ |
-| Paralegal |  | HCM | quan.hoang@obacker.com | Đang giữ |
+| Paralegal |  | HCM | Quan Hoang<br>quan.hoang@obacker.com | Đang giữ |
 
 ### HR
 
@@ -120,25 +120,25 @@ Không có position Head of Delivery. COO trực tiếp phụ trách.
 | Chuyên viên | `CV-KT` | Đà Nẵng | Giang Đặng<br>giang.dang@obacker.com | Đang giữ |
 | Chuyên viên | `CV-KT` | Đà Nẵng | Cao Thị Minh Hiếu<br>hieu.cao@obacker.com | Đang thử việc |
 | Hành chính Kế toán | `AD-KT` | HCM | Yến Dương<br>yen.duong@obacker.com | Đang giữ |
-| External Collaborators, ngoài biên chế |  |  | truc.nguyen@obacker.com | Đang giữ |
-| External Collaborators, ngoài biên chế |  |  | hoai.tran@obacker.com | Đang giữ |
+| External Collaborators, ngoài biên chế |  |  | Truc Nguyen<br>truc.nguyen@obacker.com | Đang giữ |
+| External Collaborators, ngoài biên chế |  |  | Hoai Tran<br>hoai.tran@obacker.com | Đang giữ |
 
 ### Licensing Team
 
 | Vị trí | Ký hiệu | Văn phòng | Người | Trạng thái |
 | --- | --- | --- | --- | --- |
 | Team Lead | `TL-LIC` | HCM | Đào Phương Linh<br>linh.dao@obacker.com | Đang giữ |
-| Chuyên viên | `CV-LIC` | Đà Nẵng | hau.tran@obacker.com | Đang giữ |
-| Chuyên viên | `CV-LIC` | Đà Nẵng | sinh.nguyen@obacker.com | Đang giữ |
-| Chuyên viên | `CV-LIC` | TPHCM | tin.bui@obacker.com | Đang giữ |
-| Chuyên viên | `CV-LIC` | TPHCM | quyen.nguyen@obacker.com | Đang giữ |
+| Chuyên viên | `CV-LIC` | Đà Nẵng | Hau Tran<br>hau.tran@obacker.com | Đang giữ |
+| Chuyên viên | `CV-LIC` | Đà Nẵng | Sinh Nguyen<br>sinh.nguyen@obacker.com | Đang giữ |
+| Chuyên viên | `CV-LIC` | TPHCM | Tin Bui<br>tin.bui@obacker.com | Đang giữ |
+| Chuyên viên | `CV-LIC` | TPHCM | Quyen Nguyen<br>quyen.nguyen@obacker.com | Đang giữ |
 
 ### Labor & Payroll Team
 
 | Vị trí | Ký hiệu | Văn phòng | Người | Trạng thái |
 | --- | --- | --- | --- | --- |
 | Team Lead | `TL-LD` |  | Phùng Trần Diệu Hoa<br>hoa.phung@obacker.com | Đang giữ |
-| Chuyên viên | `CV-LD` | TPHCM | thy.tran@obacker.com | Đang giữ |
+| Chuyên viên | `CV-LD` | TPHCM | Thy Tran<br>thy.tran@obacker.com | Đang giữ |
 
 ### Legal Services Team
 
@@ -146,7 +146,7 @@ Không có position Head of Delivery. COO trực tiếp phụ trách.
 | --- | --- | --- | --- | --- |
 | Team Lead | `TL-LS` |  | Nguyễn Thị Thu Trang<br>trang@obacker.com | Đang giữ |
 | Chuyên viên | `CV-LS` | HCM | Giang Vũ<br>giang.vu@obacker.com | Đang giữ |
-| Chuyên viên | `CV-LS` | HCM | quan.hoang@obacker.com | Đang giữ |
+| Chuyên viên | `CV-LS` | HCM | Quan Hoang<br>quan.hoang@obacker.com | Đang giữ |
 
 ### Tech & Product
 
@@ -154,7 +154,7 @@ Không có position Head of Delivery. COO trực tiếp phụ trách.
 | --- | --- | --- | --- | --- |
 | Tech Lead | `TL-CN` | HCM | Phùng Trần Diệu Hoa<br>hoa.phung@obacker.com | Đang giữ |
 | Product Owner | `CV-CN` | HCM | Hồ Khánh Tâm<br>tam.ho@obacker.com | Đang giữ |
-| External Đối tác thuê ngoài, ngoài biên chế |  |  | thinh.nguyen@obacker.com | Đang giữ |
+| External Đối tác thuê ngoài, ngoài biên chế |  |  | Thinh Nguyen<br>thinh.nguyen@obacker.com | Đang giữ |
 
 ## E. Nhánh CMO
 
@@ -163,7 +163,7 @@ Không có position Head of Delivery. COO trực tiếp phụ trách.
 | Vị trí | Ký hiệu | Văn phòng | Người | Trạng thái |
 | --- | --- | --- | --- | --- |
 | CMO trực tiếp phụ trách | `CMO` | HCM | Đặng Thị Phương Thảo<br>thao.dang@obacker.com | Đang giữ |
-| MKT Executive |  | làm việc từ xa, Hải Phòng | huong.nguyen@obacker.com | Đang giữ |
+| MKT Executive |  | làm việc từ xa, Hải Phòng | Huong Nguyen<br>huong.nguyen@obacker.com | Đang giữ |
 
 ## F. Bảng kiêm nhiệm
 
@@ -175,10 +175,10 @@ Bảng này đối chiếu theo email xuất hiện ở nhiều bảng trên. Ng
 | Phùng Trần Diệu Hoa<br>hoa.phung@obacker.com | 4 | Thành viên HĐQT;<br>COO;<br>Tech Lead;<br>Team Lead `TL-LD` |
 | Lê Trọng Tuấn<br>tuan@obacker.com | 4 | Thành viên HĐQT;<br>NĐDPL thứ hai đang xử lý;<br>CEO và TGĐ;<br>Head of Commercial |
 | Đặng Thị Phương Thảo<br>thao.dang@obacker.com | 3 | Thành viên HĐQT;<br>CMO;<br>phụ trách Marketing |
-| long.nguyen@obacker.com | 2 | AM Lead `AM`;<br>Partnerships Manager `PM` |
+| Long Nguyen<br>long.nguyen@obacker.com | 2 | AM Lead `AM`;<br>Partnerships Manager `PM` |
 | Giang Đặng<br>giang.dang@obacker.com | 2 | `KTV` kế toán viên nội bộ;<br>`CV-KT` chuyên viên kế toán dịch vụ |
 | Giang Vũ<br>giang.vu@obacker.com | 2 | Paralegal ở Legal R&D;<br>`CV-LS` ở Legal Services |
-| quan.hoang@obacker.com | 2 | Paralegal ở Legal R&D;<br>`CV-LS` ở Legal Services |
+| Quan Hoang<br>quan.hoang@obacker.com | 2 | Paralegal ở Legal R&D;<br>`CV-LS` ở Legal Services |
 | Thoa Trương<br>thoa.truong@obacker.com | 2 | `KTT` kế toán trưởng nội bộ;<br>`TL-KT` Team Lead Accounting & Tax Team |
 | Thảo Trương<br>thao.truong@obacker.com | 2 | HR Generalist;<br>Office Admin TPHCM |
 | Yến Dương<br>yen.duong@obacker.com | 2 | `AD-KT` Hành chính Kế toán ở Accounting & Tax Team;<br>`AD-KT` người đối chiếu sao kê của mảng nội bộ, từ 07/09/2026 |
@@ -213,4 +213,4 @@ Tổng: 41 dòng vai trò có người giữ, 24 người, 3 vị trí đang tuy
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 04/10/2026 | R.1.0.1 | Bỏ dòng ghi chú cập nhật và lối tự sự ở đầu phụ lục. |
+| 06/10/2026 | R.1.0.2 | Điền tên 11 người chưa có tên vào cột Người của bảng ánh xạ vị trí và bảng kiêm nhiệm |

@@ -4,7 +4,7 @@ code: "OBK-SOP-NB-12"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.2"
+version: "R.1.0.3"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -28,7 +28,7 @@ tags:
 | Mã tài liệu | OBK-SOP-NB-12 |
 | Tên tài liệu | Quy trình xử lý kỷ luật lao động và trách nhiệm vật chất nội bộ |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ. Thi hành Bộ tài liệu quản trị nhân sự [[00_Bo_tai_lieu_quan_tri_nhan_su\|OBK-QCNS-00]] và Nội quy lao động [[Noi_quy_lao_dong\|OBK-NQLD]] |
-| Phiên bản | R.1.0.2, đang áp dụng |
+| Phiên bản | R.1.0.3, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 27/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -131,8 +131,8 @@ Quy định thống nhất, chặt chẽ và chuẩn hóa toàn bộ trình tự
 
 1. Trong thời hạn 03 ngày làm việc kể từ ngày nhận được biên bản vi phạm, `HR` tổ chức xác minh:
    - Yêu cầu người lao động có hành vi vi phạm viết Bản tự kiểm điểm và giải trình sự việc (thời hạn nộp bản giải trình tối đa 02 ngày làm việc);
-   - Thu thập tài liệu bổ trợ: dữ liệu chấm công hệ thống, nhật ký truy cập máy chủ, thư từ công vụ, văn bản xác nhận của khách hàng hoặc đồng nghiệp;
-   - Kiểm tra lý do vắng mặt (nếu vi phạm nghỉ việc) xem có thuộc 9 trường hợp có lý do chính đáng tại Điều 43 [[Noi_quy_lao_dong|OBK-NQLD]] hay không.
+   - `HR` thu thập tài liệu bổ trợ: dữ liệu chấm công hệ thống, nhật ký truy cập máy chủ, thư từ công vụ, văn bản xác nhận của khách hàng hoặc đồng nghiệp;
+   - `HR` kiểm tra lý do vắng mặt (nếu vi phạm nghỉ việc) xem có thuộc 9 trường hợp có lý do chính đáng tại Điều 43 [[Noi_quy_lao_dong|OBK-NQLD]] hay không.
 2. **Quy định về Tạm đình chỉ công việc (khi có tình tiết phức tạp):**
    - Căn cứ CC-LD-108 và Điều 128 Bộ luật Lao động 2019, trường hợp vụ việc có tình tiết phức tạp, nếu xét thấy để người lao động tiếp tục làm việc sẽ gây khó khăn cho việc xác minh; `CEO` xem xét ban hành Quyết định tạm đình chỉ công việc sau khi tham khảo ý kiến của tổ chức đại diện người lao động tại cơ sở (nếu có);
    - Thời hạn tạm đình chỉ công việc không được quá 15 ngày; trường hợp vụ việc có nhiều tình tiết phức tạp liên quan trực tiếp đến tài chính, tài sản, sở hữu trí tuệ thì thời hạn tạm đình chỉ không quá 90 ngày;
@@ -260,5 +260,4 @@ Quy định thống nhất, chặt chẽ và chuẩn hóa toàn bộ trình tự
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 30/09/2026 | R.1.0.1 | Chia 5 câu dài ở căn cứ pháp lý, tạm đình chỉ, thời hạn ban hành, thu hồi tiền bồi thường và xét giảm thời hạn thành câu ngắn, không đổi nghĩa |
-| 04/10/2026 | R.1.0.2 | Chuẩn hóa tiêu đề callout và nội dung mở đầu, bỏ số đếm và chuyển sang văn phong hành chính |
+| 07/10/2026 | R.1.0.3 | Hai bước thu thập tài liệu bổ trợ và kiểm tra lý do vắng mặt theo Điều 43 Nội quy lao động có chủ thể HR |

@@ -4,7 +4,7 @@ code: "OBK-SOP-NB-08"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.0"
+version: "R.1.0.1"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -28,7 +28,7 @@ tags:
 | Mã tài liệu | OBK-SOP-NB-08 |
 | Tên tài liệu | Quy định tinh gọn về quản lý tài sản và công cụ dụng cụ nội bộ |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ. Thi hành [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Quy chế tài chính nội bộ |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.0.1, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 27/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -129,7 +129,7 @@ Sau khi hoàn tất mua sắm theo [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|
 
 1. Khi tiếp nhận nhân sự mới (theo [[OBK-SOP-NB-05_Tuyen_dung_va_onboarding_noi_bo|OBK-SOP-NB-05]]) hoặc cấp bổ sung:
    - `AD-KT` kiểm tra tình trạng kỹ thuật, vệ sinh và dán tem niêm phong (nếu cần);
-   - Lập Phiếu bàn giao tài sản (`BM-BGTS`) ghi rõ mã tài sản, số serial, phụ kiện đi kèm và tình trạng hoạt động;
+   - `AD-KT` lập Phiếu bàn giao tài sản (`BM-BGTS`) ghi rõ mã tài sản, số serial, phụ kiện đi kèm và tình trạng hoạt động;
    - Người nhận tài sản kiểm tra thực tế, ký tên xác nhận vào phiếu bàn giao.
 2. Phiếu bàn giao được lập thành 02 bản: người nhận giữ 01 bản, `AD-KT` lưu 01 bản để theo dõi.
 
@@ -141,7 +141,7 @@ Sau khi hoàn tất mua sắm theo [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|
    - `AD-KT` ghi nhật ký sửa chữa vào sổ lý lịch máy.
 2. **Điều chuyển tài sản giữa các cá nhân, bộ phận:**
    - Việc điều chuyển tài sản từ người này sang người khác hoặc giữa các bộ phận bắt buộc phải thông qua `AD-KT`;
-   - Lập Biên bản điều chuyển tài sản có chữ ký của bên giao, bên nhận và `AD-KT`;
+   - `AD-KT` lập Biên bản điều chuyển tài sản có chữ ký của bên giao, bên nhận và `AD-KT`;
    - `AD-KT` cập nhật lại người chịu trách nhiệm mới trên Sổ theo dõi tài sản.
 
 ### Bước 5: Thu hồi và xử lý bồi thường thiệt hại tài sản
@@ -240,4 +240,4 @@ Sau khi hoàn tất mua sắm theo [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 07/10/2026 | R.1.0.1 | Hai bước lập Phiếu bàn giao tài sản BM-BGTS và lập Biên bản điều chuyển tài sản có chủ thể AD-KT |

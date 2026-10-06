@@ -4,7 +4,7 @@ code: "GC-01"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.1.1.0"
+version: "R.1.1.1"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -27,7 +27,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | GC-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.1.0, đang áp dụng |
+| Phiên bản | R.1.1.1, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -336,7 +336,7 @@ Căn cứ vào tỷ lệ biên lợi nhuận gộp ($\text{Gross\_Margin\_}\%$) 
    - Chi phí token và chứng thư số từ Sổ [[CK-02_Theo_doi_kho_token_va_kich_hoat_cyberx|CK-02]].
    - Chi phí bưu chính chuyển phát từ Sổ giao nhận [[TL-01_So_giao_nhan_tai_lieu_va_buu_pham|TL-01]].
    - Lệ phí nhà nước đã nộp theo biên lai, giấy nộp tiền vào ngân sách nhà nước.
-3. Đối chiếu bậc lương của từng chuyên viên thực hiện theo [[LU-01_Bang_theo_doi_va_thanh_toan_tien_luong_chuan|LU-01]].
+3. `KTV` đối chiếu bậc lương của từng chuyên viên thực hiện theo [[LU-01_Bang_theo_doi_va_thanh_toan_tien_luong_chuan|LU-01]].
 
 ### Bước 2. Tính toán giá thành 4 cấp độ bằng script tự động
 
@@ -399,4 +399,4 @@ Phiếu GC-01 thiết lập khuôn khổ tính toán minh bạch, khách quan b�
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu GC-01 về Sổ cái OBK-MSR |
+| 07/10/2026 | R.1.1.1 | Bước 3 đối chiếu bậc lương của từng chuyên viên theo LU-01 có chủ thể KTV |

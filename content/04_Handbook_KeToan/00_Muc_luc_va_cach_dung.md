@@ -4,7 +4,7 @@ code: "OBK-HB-00"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Mục lục"
-version: "R.3.0.0"
+version: "R.3.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -45,7 +45,7 @@ tags:
 | Hạng mục | Nội dung |
 | --- | --- |
 | Mã tài liệu | OBK-HB-00 |
-| Phiên bản | R.3.0.0, đang áp dụng |
+| Phiên bản | R.3.1.0, đang áp dụng |
 | Cấp tài liệu | Mục lục của Handbook cấp 3 |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
@@ -130,7 +130,7 @@ Nguyên tắc bắt buộc: **không tư vấn hoặc trả lời khách hàng k
 > [!bug] LỖI THƯỜNG GẶP
 > Lỗi hay xảy ra trong thực tế, có dấu hiệu nhận biết và cách xử lý kèm theo.
 
-**Placeholder công cụ.** Tài liệu viết độc lập với phần mềm. Chỗ nào cần thao tác trên hệ thống, tài liệu ghi placeholder trong ngoặc vuông: `[PHẦN MỀM KẾ TOÁN]`, `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]`, `[KHO LƯU TRỮ HỒ SƠ]`, `[PHẦN MỀM HĐĐT]`, `[CỔNG THUẾ ĐIỆN TỬ]`. Hướng dẫn bấm ở đâu nằm riêng tại **Phụ lục D**. Lý do tách: đổi phần mềm thì chỉ sửa Phụ lục D, không phải sửa lại toàn bộ tài liệu.
+**Placeholder công cụ.** Tài liệu viết độc lập với phần mềm. Chỗ nào cần thao tác trên hệ thống, tài liệu ghi placeholder trong ngoặc vuông: `[PHẦN MỀM KẾ TOÁN]`, `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]`, `[KHO LƯU TRỮ HỒ SƠ]`, `[PHẦN MỀM HĐĐT]`, `[CỔNG THUẾ ĐIỆN TỬ]`.
 
 **Trích dẫn pháp lý.** Dạng `[Tên văn bản Đ.<điều> k.<khoản> đ.<điểm>]`. Văn bản hợp nhất ghi theo số hiệu VBHN.
 
@@ -192,7 +192,6 @@ Nguyên tắc bắt buộc: **không tư vấn hoặc trả lời khách hàng k
 | A | [[PL_A_Bang_kiem\|Bộ bảng kiểm in ra dùng được]] | 12 bảng kiểm theo tình huống, định dạng để tick tay |
 | B | [[PL_B_Bieu_mau\|Biểu mẫu nội bộ]] | 12 biểu mẫu để sao và điền |
 | C | [[PL_C_Lich_tuan_thu_nam\|Lịch tuân thủ cả năm]] | Lịch 12 tháng kèm mốc cảnh báo nội bộ |
-| D | [[PL_D_Thao_tac_phan_mem\|Thao tác trên phần mềm và công cụ]] | Khung trống, oBacker tự điền theo stack thực tế |
 | E | [[PL_E_Danh_muc_van_ban\|Danh mục văn bản pháp luật áp dụng]] | Văn bản đang hiệu lực, văn bản đã hết hiệu lực, danh mục chờ xác minh |
 | F | [[PL_F_Bao_cao_kiem_soat\|Báo cáo kiểm soát chất lượng bản nháp 1.0]] | Kết quả 08 phép kiểm độc lập, danh sách lỗi đã sửa, rủi ro còn lại cần người quyết định, điều kiện ban hành chính thức |
 | G | [[PL_G_Moc_cong_viec_va_dau_ra_dich_vu\|Mốc công việc và đầu ra dịch vụ]] | Năm mốc theo vòng đời khách từ M1 tiếp nhận tới M5 kết thúc, task kèm người chủ trì và mốc, đầu ra phân biệt theo gói G1 tới G4, tiêu chí đóng từng mốc.<br>Dùng để giao việc, để soạn phạm vi hợp đồng, và để nghiệm thu |
@@ -280,4 +279,4 @@ Quy tắc đánh phiên bản và quy trình cập nhật: xem Chương 21.
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 06/10/2026 | R.3.0.0 | Nghĩa vụ báo cáo điểm sai lệch giữa Handbook và tài liệu cấp trên có mốc ngay trong ngày phát hiện |
+| 06/10/2026 | R.3.1.0 | Gỡ Phụ lục D về thao tác phần mềm và bảng đăng ký công cụ khỏi mục lục; bảng đăng ký công cụ không còn là điều kiện ban hành |

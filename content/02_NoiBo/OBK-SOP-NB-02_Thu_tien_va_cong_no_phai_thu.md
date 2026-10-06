@@ -4,7 +4,7 @@ code: "OBK-SOP-NB-02"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.2.0.0"
+version: "R.2.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -28,7 +28,7 @@ tags:
 | Mã tài liệu | OBK-SOP-NB-02 |
 | Tên tài liệu | Quy trình thu tiền và quản lý công nợ phải thu |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ. Thi hành Chương 4 của [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Quy chế tài chính nội bộ |
-| Phiên bản | R.2.0.0, đang áp dụng |
+| Phiên bản | R.2.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -368,16 +368,16 @@ Nguồn phát sinh: khách yêu cầu hoàn tiền hoặc hủy dịch vụ; ho�
 | 1 | Số ngày từ thời điểm xác định doanh thu tới ngày phát hành hóa đơn | Hồ sơ khách và hóa đơn | Hằng tuần | Trên 01 ngày làm việc là lệch chuẩn |
 | 2 | Số hóa đơn phát hành trễ trong kỳ | Chốt `KS-NB-T4` | Hằng tháng | Bất kỳ trường hợp nào cũng phải giải trình |
 | 3 | Số khoản tiền về chưa khớp hóa đơn tại cuối kỳ đối chiếu nhanh | Chốt `KS-NB-T5` | Mỗi 02 tuần | Trên 0 là phải xử trước kỳ sau |
-| 4 | Tỷ trọng dư nợ theo từng nhóm tuổi | Bảng tuổi nợ | Hằng tuần | chưa đặt |
-| 5 | Số ngày thu tiền trung bình, tính từ ngày đến hạn | Sổ công nợ | Hằng tháng | chưa đặt |
+| 4 | Tỷ trọng dư nợ theo từng nhóm tuổi | Bảng tuổi nợ | Hằng tuần | Tổng dư nợ quá hạn (nhóm 2, 3, 4) trên 10% tổng dư nợ |
+| 5 | Số ngày thu tiền trung bình, tính từ ngày đến hạn | Sổ công nợ | Hằng tháng | Trên 05 ngày |
 | 6 | Số khách trả sau có dư nợ vượt hạn mức mà chưa có phê duyệt | Chốt `KS-NB-T6` | Hằng tuần | Phải bằng 0 |
-| 7 | Tỷ lệ mốc nhắc nợ thực hiện đúng hạn | Bằng chứng đã nhắc | Hằng tháng | chưa đặt |
+| 7 | Tỷ lệ mốc nhắc nợ thực hiện đúng hạn | Bằng chứng đã nhắc | Hằng tháng | Dưới 90% |
 | 8 | Số biên bản đối chiếu quý khách không xác nhận | Job `NB-14` | Hằng quý | Trên 0 là dấu hiệu tranh chấp |
-| 9 | Số khoản chuyển sang nhóm 5 đang tranh chấp trong kỳ | Bảng tuổi nợ | Hằng tháng | chưa đặt |
-| 10 | Số dư dự phòng nợ phải thu khó đòi, và biến động so với kỳ trước | Sổ kế toán, tài khoản 2293 | Khi lập báo cáo tài chính | chưa đặt |
+| 9 | Số khoản chuyển sang nhóm 5 đang tranh chấp trong kỳ | Bảng tuổi nợ | Hằng tháng | Trên 02 khoản |
+| 10 | Số dư dự phòng nợ phải thu khó đòi, và biến động so với kỳ trước | Sổ kế toán, tài khoản 2293 | Khi lập báo cáo tài chính | Biến động trên 20% so với kỳ trước là phải giải trình |
 
 **Sáu trong mười chỉ số lấy số trực tiếp từ hai bảng tra trạng thái ở mục 5.0.** Đếm hồ sơ theo trạng thái và đo thời gian nằm trong từng trạng thái là đủ, không cần thêm sổ theo dõi nào.
-Chỉ số chưa đặt ngưỡng thì người lập báo cáo ghi số đo và không phát cảnh báo. Ngưỡng của các chỉ số đó do `CEO` đặt sau 03 kỳ chạy thật.
+Ngưỡng cảnh báo ở bảng trên là mức tạm đặt ngày 06/10/2026, rà lại sau 03 kỳ chạy thật.
 
 ## Liên kết với tài liệu khác
 
@@ -397,4 +397,4 @@ Chỉ số chưa đặt ngưỡng thì người lập báo cáo ghi số đo và
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 06/10/2026 | R.2.0.0 | Mục 4: KTV mở và ghi nhận khoản phải thu theo từng vụ khi đủ đầu vào, KTT soát lại đầu vào tại thời điểm xuất hóa đơn (chốt VQ-40 phương án A) |
+| 06/10/2026 | R.2.1.0 | Đặt ngưỡng cảnh báo tạm cho năm chỉ số mục 9 chưa có ngưỡng, mức tạm đặt 06/10/2026, rà lại sau 03 kỳ chạy thật |

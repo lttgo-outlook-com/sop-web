@@ -4,7 +4,7 @@ code: "OBK-SOP-NB-06"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.2.1"
+version: "R.1.2.2"
 status: "đang áp dụng"
 draft_date: "30/09/2026"
 author: "CEO"
@@ -28,7 +28,7 @@ tags:
 | Mã tài liệu | OBK-SOP-NB-06 |
 | Tên tài liệu | Quy trình nghỉ việc và offboarding nội bộ |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ. Thi hành Bộ tài liệu quản trị nhân sự [[00_Bo_tai_lieu_quan_tri_nhan_su\|OBK-QCNS-00]] và Nội quy lao động [[Noi_quy_lao_dong\|OBK-NQLD]] |
-| Phiên bản | R.1.2.1, đang áp dụng |
+| Phiên bản | R.1.2.2, đang áp dụng |
 | Ngày biên soạn | 30/09/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 27/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -175,7 +175,7 @@ Quy trình nghỉ việc và offboarding gồm bảy bước cụ thể:
 
 1. **Thu hồi tài sản và thiết bị:**
    - `AD-KT` đối chiếu danh mục tài sản đã cấp phát theo Biên bản ban đầu (`BM-BGTS`);
-   - Kiểm tra hiện trạng máy tính, màn hình, chuột, sạc, thẻ ra vào văn phòng, chìa khóa tủ làm việc;
+   - `AD-KT` kiểm tra hiện trạng máy tính, màn hình, chuột, sạc, thẻ ra vào văn phòng, chìa khóa tủ làm việc;
    - Trường hợp tài sản bị mất hoặc hư hỏng do lỗi chủ quan của người lao động: lập biên bản ghi nhận mức độ hư hỏng và tính mức bồi thường thiệt hại theo quy định tại Điều 129 Bộ luật Lao động và [[OBK-SOP-NB-08_Quan_ly_tai_san_va_cong_cu_dung_cu|OBK-SOP-NB-08]].
 2. **Thu hồi con dấu pháp nhân và chữ ký số (nếu có giữ):**
    - Trường hợp nhân sự nghỉ việc giữ con dấu tròn pháp nhân của oBacker hoặc USB Token chữ ký số (ví dụ vị trí `AD-KT`): BẮT BUỘC thực hiện bàn giao con dấu và chữ ký số cho `CEO` hoặc người được `CEO` chỉ định bằng văn bản.
@@ -342,5 +342,4 @@ Trong 05 ngày làm việc đầu tiên sau khi nhân viên A nghỉ việc, `KT
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 30/09/2026 | R.1.2.0 | Them cau dan chieu quy tac uy quyen khi nguoi phe duyet nghi viec vang, muc 8.1 cua NB-00, cuoi bang phan quyen muc 4 |
-| 04/10/2026 | R.1.2.1 | Chuẩn hóa tiêu đề callout cảnh báo mở đầu, bỏ số đếm và chuyển sang văn phong hành chính |
+| 07/10/2026 | R.1.2.2 | Bước kiểm tra hiện trạng máy tính, màn hình, chuột, sạc, thẻ ra vào và chìa khóa tủ khi nghỉ việc có chủ thể AD-KT |

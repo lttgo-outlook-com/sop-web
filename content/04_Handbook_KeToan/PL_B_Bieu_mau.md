@@ -4,7 +4,7 @@ code: "OBK-SOP-PL-B"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Phụ lục"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -29,7 +29,7 @@ tags:
 | Mã tài liệu | OBK-SOP-PL-B |
 | Tên phụ lục | Biểu mẫu nội bộ |
 | Cấp tài liệu | Phụ lục của hướng dẫn cấp 3 |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -1003,7 +1003,7 @@ Nhắc: cột nguyên nhân gốc không được ghi "bất cẩn" hoặc "sơ 
 
 | # | Loại tài liệu | Tên cụ thể | Việc cần làm | Người phụ trách | Hạn |
 | --- | --- | --- | --- | --- | --- |
-| 1 | Biểu mẫu / Bảng kiểm / Mẫu thư / Tài liệu bán hàng / Tài liệu đào tạo / Phụ lục D | | | | |
+| 1 | Biểu mẫu / Bảng kiểm / Mẫu thư / Tài liệu bán hàng / Tài liệu đào tạo | | | | |
 
 **Bảng 5. Khách hàng bị ảnh hưởng**
 
@@ -1619,11 +1619,10 @@ Mức phạt hành vi bố trí hoặc thuê người làm kế toán trưởng 
 | Tiêu chuẩn kế toán trưởng của khách và chữ ký báo cáo tài chính | Chương 01, Chương 08, và Phiếu B15 của phụ lục này |
 | Bộ bảng kiểm in ra dùng được | Phụ lục A |
 | Lịch tuân thủ cả năm | Phụ lục C |
-| Khung hướng dẫn thao tác trên phần mềm | Phụ lục D |
 | Danh mục văn bản pháp luật và danh mục chờ xác minh | Phụ lục E |
 
 ## NHẬT KÝ SỬA
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 07/10/2026 | R.1.1.0 | Gỡ tham chiếu Phụ lục D (tệp đã xóa) khỏi Bảng 4 tài liệu bị ảnh hưởng và bảng tra cuối phụ lục |

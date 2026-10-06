@@ -2,7 +2,7 @@
 title: "ĐIỀU KHOẢN DỊCH VỤ PHÁP LÝ (PL-PL)"
 type: "tnc"
 folder: "09_TnC"
-version: "R.2.1.0"
+version: "R.2.1.1"
 status: "đang áp dụng"
 language: "vi"
 distribution: "Khách hàng"
@@ -16,7 +16,7 @@ tags:
 *Điều Khoản Dịch Vụ Cụ Thể, là bộ phận không tách rời của Bản Điều Khoản Chung; Công ty Cổ phần oBacker*
 MST: 0402298185 · Tầng 2, 06 Trần Phú, Phường Hải Châu, Thành phố Đà Nẵng · contact@obacker.com
 
-**Phiên bản:** R.2.1.0 (VI-EN) · **Cập nhật:** 02/10/2026
+**Phiên bản:** R.2.1.1 (VI-EN) · **Cập nhật:** 07/10/2026
 
 > Đây là Điều Khoản Dịch Vụ Cụ Thể áp dụng cho Dịch Vụ Pháp Lý ("**Dịch Vụ**"), gồm bốn nhóm: (A) Tư vấn pháp lý và tư vấn thuế; (B) Rà soát và soạn thảo hợp đồng/văn bản; (C) Nghiên cứu theo yêu cầu; (D) Đăng ký quyền sở hữu trí tuệ (nhãn hiệu, bản quyền tác giả). Tài liệu áp dụng khi Dịch Vụ được ghi nhận tại Đơn Đặt Hàng; theo vụ việc, theo giờ, hoặc theo số lượt rà soát trong gói. **Nếu có khác biệt giữa Bản Điều Khoản Chung và tài liệu này, tài liệu này được ưu tiên áp dụng cho Dịch Vụ.**
 
@@ -38,13 +38,13 @@ oBacker chỉ thực hiện Dịch Vụ trong phạm vi các lĩnh vực và ng�
 **2.2. Tư vấn thuế:**
 
 - Tư vấn phương án thuế, đánh giá ưu đãi và nghĩa vụ thuế áp dụng cho Quý Khách
-- Đánh giá ảnh hưởng thuế của một giao dịch hoặc cấu trúc dự kiến
+- oBacker đánh giá ảnh hưởng thuế của một giao dịch hoặc cấu trúc dự kiến
 - **Phân định:** kê khai và nộp thuế định kỳ thuộc Dịch Vụ Kế toán & Thuế (PL-KT); nghĩa vụ TNCN từ lương thuộc Dịch Vụ Nhân Sự (PL-NS). Các nội dung này không thuộc tài liệu này.
 
 **2.3. Rà soát và soạn thảo hợp đồng/văn bản:**
 
 - Rà soát hợp đồng, văn bản pháp lý và lập báo cáo rà soát
-- Soạn thảo hợp đồng, văn bản pháp lý theo yêu cầu; là dịch vụ riêng, báo phí theo Đơn Đặt Hàng.
+- oBacker soạn thảo hợp đồng, văn bản pháp lý theo yêu cầu; là dịch vụ riêng, báo phí theo Đơn Đặt Hàng.
 
 **2.4. Nghiên cứu theo yêu cầu:**
 
@@ -70,7 +70,7 @@ oBacker chỉ thực hiện Dịch Vụ trong phạm vi các lĩnh vực và ng�
 Một (01) lượt soát xét hợp đồng bao gồm:
 
 - **01 hợp đồng độ dài tối đa 10 trang** (tương đương khoảng 3.000; 4.000 chữ)
-- Kiểm tra rủi ro pháp lý cơ bản, chỉ ra và cảnh báo điều khoản bất lợi
+- oBacker kiểm tra rủi ro pháp lý cơ bản, chỉ ra và cảnh báo điều khoản bất lợi
 - 01 vòng rà soát và 01 vòng góp ý
 - Thời gian xử lý: 03 ngày làm việc/lượt.
 
@@ -134,4 +134,5 @@ Phí Dịch Vụ được xác định theo Đơn Đặt Hàng; theo giờ, theo
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 07/10/2026 | R.2.1.1 | Bổ sung chủ ngữ oBacker cho ba nhóm việc thuộc phạm vi Dịch Vụ (đánh giá ảnh hưởng thuế, soạn thảo hợp đồng và văn bản pháp lý, kiểm tra rủi ro pháp lý cơ bản) |
 | 02/10/2026 | R.2.1.0 | Đăng ký bản quyền tác giả và đăng ký nhãn hiệu (nộp đơn): hoàn thiện hồ sơ trong 05 ngày làm việc<br>Giai đoạn thẩm định nội dung nhãn hiệu: bỏ tham chiếu mã GT-07, giữ dữ kiện tồn đọng hồ sơ tại Cục SHTT |

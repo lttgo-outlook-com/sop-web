@@ -4,7 +4,7 @@ code: "OBK-HB-32"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.0"
+version: "R.1.0.1"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -25,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-HB-32 |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.0.1, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 07/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -80,7 +80,7 @@ Mời `TL` bộ phận khi nội dung chạm một trong ba việc: khách đang
 
 Ba câu, theo thứ tự này: xác nhận thời lượng cuộc họp; nói rõ mục đích là để hiểu nhu cầu chứ chưa phải để báo giá; và nói rõ `AM` là đầu mối duy nhất của khách về sau. Câu chữ mẫu tại `PL_A` mục 4.
 
-Phải nói rõ là chưa báo giá, vì không nói thì khách chờ một con số ở cuối cuộc họp, và `AM` sẽ bị đẩy tới chỗ đưa ra một con số chưa có xác nhận khả thi.
+AM phải nói rõ là chưa báo giá, vì không nói thì khách chờ một con số ở cuối cuộc họp, và `AM` sẽ bị đẩy tới chỗ đưa ra một con số chưa có xác nhận khả thi.
 
 ### 5.3. Bước 3. Phỏng vấn theo nhóm nội dung, 15 tới 20 phút
 
@@ -161,4 +161,4 @@ Thư tóm tắt nhu cầu đóng vai trò xác nhận bằng văn bản giữa h
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 07/10/2026 | R.1.0.1 | Yêu cầu nói rõ là chưa báo giá trong buổi họp làm rõ nhu cầu có chủ thể AM |

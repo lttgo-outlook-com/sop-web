@@ -161,7 +161,6 @@ Thư mục `04_Handbook_KeToan`. Nhóm này áp dụng cho thao tác nghiệp v�
 | [[PL_A_Bang_kiem\|OBK-SOP-PL-A]] | [[PL_A_Bang_kiem]] | Phụ lục A. Bộ bảng kiểm in ra dùng được | Phụ lục |
 | [[PL_B_Bieu_mau\|OBK-SOP-PL-B]] | [[PL_B_Bieu_mau]] | Phụ lục B. Biểu mẫu nội bộ | Phụ lục |
 | [[PL_C_Lich_tuan_thu_nam\|OBK-SOP-PL-C]] | [[PL_C_Lich_tuan_thu_nam]] | Phụ lục C. Lịch tuân thủ cả năm | Phụ lục |
-| [[PL_D_Thao_tac_phan_mem\|OBK-SOP-PL-D]] | [[PL_D_Thao_tac_phan_mem]] | Phụ lục D. Thao tác trên phần mềm và công cụ | Phụ lục |
 | [[PL_E_Danh_muc_van_ban\|OBK-SOP-PL-E]] | [[PL_E_Danh_muc_van_ban]] | Phụ lục E. Danh mục văn bản pháp luật áp dụng | Phụ lục |
 | [[PL_F_Bao_cao_kiem_soat\|OBK-SOP-PL-F]] | [[PL_F_Bao_cao_kiem_soat]] | Phụ lục F. Báo cáo kiểm soát chất lượng | Phụ lục |
 | [[PL_G_Moc_cong_viec_va_dau_ra_dich_vu\|OBK-SOP-PL-G]] | [[PL_G_Moc_cong_viec_va_dau_ra_dich_vu]] | Phụ lục G. Mốc công việc và đầu ra dịch vụ | Phụ lục |

@@ -2,7 +2,7 @@
 title: "SERVICE AGREEMENT (FRAMEWORK; ELECTRONIC EXECUTION)"
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.1.1"
+version: "R.1.1.2"
 status: "đang áp dụng"
 language: "en"
 distribution: "Khách hàng"
@@ -14,7 +14,7 @@ tags:
 ### oBacker Master Service Agreement; Electronic Execution
 
 **Agreement No.:** [AGREEMENT NO. / per the Order Form] · **Issue date:** [__/__/____]
-**Template version:** R.1.0.0 · **Updated:** 01/10/2026
+**Template version:** R.1.1.2 · **Updated:** 07/10/2026
 
 > This short Framework Agreement is entered into in **electronic form** under the **Law on E-Transactions No. 20/2023/QH15**. The Agreement incorporates and attaches oBacker's Terms & Conditions of Service; **oBacker signs it in advance (automatic signature), and the Agreement is concluded once the Client makes payment** under the Order Form.
 
@@ -136,7 +136,7 @@ Representative: Le Trong Tuan, General Director
 Electronic signature: `[oBacker e-signature / e-seal]` · Timestamp: [__/__/____]
 
 **PARTY B; THE CLIENT**
-Accepts by **electronic signature** or by **payment** of the Service Fees under the Order Form (Section 4.3).
+The Client accepts by **electronic signature** or by **payment** of the Service Fees under the Order Form (Section 4.3).
 Representative: [FULL NAME; TITLE]
 Electronic signature / Payment confirmation: `[Client e-signature or payment transaction reference]` · Timestamp: [__/__/____]
 
@@ -154,4 +154,5 @@ Electronic signature / Payment confirmation: `[Client e-signature or payment tra
 
 | Date | Version | Description |
 | --- | --- | --- |
+| 07/10/2026 | R.1.1.2 | Subject The Client added to the acceptance line in the Party B signature block |
 | 01/10/2026 | R.1.1.1 | Wording: 'Hard ceiling' reworded to 'Maximum' in the Order Form template (Article 1) |

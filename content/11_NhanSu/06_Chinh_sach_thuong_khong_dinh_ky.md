@@ -4,7 +4,7 @@ code: "OBK-QCNS-06"
 type: "sop"
 folder: "11_NhanSu"
 level: "Cấp 2, quy trình bộ phận"
-version: "R.1.0.0"
+version: "R.1.0.1"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -27,7 +27,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-QCNS-06 |
 | Cấp tài liệu | Cấp 2 |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.0.1, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 22/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -124,7 +124,7 @@ Ngoài người được đề xuất thưởng theo mục 2.2, mỗi đề xu�
 ## 4. LƯU TRỮ VÀ BÁO CÁO
 
 - Tất cả đề xuất thưởng phải được lưu trên hệ thống.
-- Lưu bản sao qua thư điện tử cho các trường hợp cần thiết.
+- Trưởng bộ phận lưu bản sao qua thư điện tử cho các trường hợp cần thiết.
 - Tổng hợp báo cáo hằng tháng gửi `BOM` và nhân viên.
 
 ---
@@ -133,4 +133,4 @@ Ngoài người được đề xuất thưởng theo mục 2.2, mỗi đề xu�
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 07/10/2026 | R.1.0.1 | Bổ sung chủ thể Trưởng bộ phận cho câu lưu bản sao đề xuất thưởng qua thư điện tử (chốt VQ-22) |

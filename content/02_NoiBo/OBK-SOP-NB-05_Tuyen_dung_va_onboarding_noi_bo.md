@@ -4,7 +4,7 @@ code: "OBK-SOP-NB-05"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.2.0"
+version: "R.1.2.1"
 status: "đang áp dụng"
 draft_date: "30/09/2026"
 author: "CEO"
@@ -28,7 +28,7 @@ tags:
 | Mã tài liệu | OBK-SOP-NB-05 |
 | Tên tài liệu | Quy trình tuyển dụng và onboarding nội bộ |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ. Thi hành Bộ tài liệu quản trị nhân sự [[00_Bo_tai_lieu_quan_tri_nhan_su\|OBK-QCNS-00]] và Nội quy lao động [[Noi_quy_lao_dong\|OBK-NQLD]] |
-| Phiên bản | R.1.2.0, đang áp dụng |
+| Phiên bản | R.1.2.1, đang áp dụng |
 | Ngày biên soạn | 30/09/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 27/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -233,7 +233,7 @@ Sau khi người lao động chính thức làm việc, `HR` và `KTV` nội b�
 
 1. **Cập nhật Sổ quản lý lao động (Job `NB-44`):**
     - `HR` ghi nhận thông tin nhân sự mới vào Sổ quản lý lao động của công ty ngay trong ngày người lao động bắt đầu làm việc;
-   - Lưu trữ bản sao hồ sơ nhân sự vào cơ sở dữ liệu nhân sự nội bộ.
+   - `HR` lưu trữ bản sao hồ sơ nhân sự vào cơ sở dữ liệu nhân sự nội bộ.
 2. **Đăng ký mã số thuế thu nhập cá nhân:**
    - `KTV` nội bộ tra cứu mã số thuế thu nhập cá nhân của người lao động trên Cổng thông tin của Tổng cục Thuế;
    - Trường hợp người lao động chưa có mã số thuế, `KTV` lập hồ sơ đăng ký thuế lần đầu và nộp qua cổng thuế điện tử trong thời hạn 10 ngày làm việc kể từ ngày phát sinh quan hệ chi trả thu nhập;
@@ -241,7 +241,7 @@ Sau khi người lao động chính thức làm việc, `HR` và `KTV` nội b�
 3. **Báo tăng bảo hiểm xã hội (Job `NB-39`, `NB-40`):**
    - Đối với người lao động ký hợp đồng lao động thuộc đối tượng tham gia bảo hiểm xã hội bắt buộc, `HR` lập hồ sơ báo tăng lao động (Mẫu D02-LT);
     - Nộp hồ sơ báo tăng qua phần mềm kê khai bảo hiểm xã hội điện tử trong thời hạn tối đa **30 ngày** kể từ ngày hợp đồng lao động có hiệu lực;
-   - Theo dõi kết quả xử lý từ cơ quan bảo hiểm xã hội và xác nhận mã số bảo hiểm xã hội cho người lao động.
+   - `HR` theo dõi kết quả xử lý từ cơ quan bảo hiểm xã hội và xác nhận mã số bảo hiểm xã hội cho người lao động.
 
 ### Bước 7: Đánh giá kết quả thử việc và ký hợp đồng lao động chính thức
 
@@ -356,4 +356,4 @@ Trong ngày đầu, `HR` cập nhật người lao động mới vào Sổ quả
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 30/09/2026 | R.1.2.0 | Them cau dan chieu quy tac uy quyen khi nguoi phe duyet tuyen dung vang, muc 8.1 cua NB-00, sau bang phan quyen muc 4 |
+| 07/10/2026 | R.1.2.1 | Hai bước lưu trữ bản sao hồ sơ nhân sự và theo dõi kết quả xử lý bảo hiểm xã hội có chủ thể HR |

@@ -2,7 +2,7 @@
 title: "LEGAL SERVICES; SPECIFIC TERMS (PL-PL)"
 type: "tnc"
 folder: "09_TnC"
-version: "R.2.1.0"
+version: "R.2.1.1"
 status: "đang áp dụng"
 language: "en"
 distribution: "Khách hàng"
@@ -16,7 +16,7 @@ tags:
 *Service-Specific Terms forming an integral part of the Master T&C; oBacker Joint Stock Company*
 Tax code: 0402298185 · Floor 2, 06 Tran Phu Street, Hai Chau Ward, Da Nang, Vietnam · contact@obacker.com
 
-**Version:** R.2.1.0 (VI-EN) · **Updated:** 02/10/2026
+**Version:** R.2.1.1 (VI-EN) · **Updated:** 07/10/2026
 
 > These are the Service-Specific Terms for Legal Services (the "**Services**"), covering four areas: (A) legal and tax advisory; (B) contract/document review and drafting; (C) Research On Demand; and (D) Intellectual Property registration (trademarks, copyrights). They apply where the Services are recorded in an Order Form; per matter, per hour, or per number of review rounds within a package. **If there is any discrepancy between the Master T&C and this document, this document prevails for the Services.**
 
@@ -38,13 +38,13 @@ oBacker performs the Services only within the domains and industries it serves. 
 **2.2. Tax advisory:**
 
 - Advice on tax options and assessment of the incentives and tax obligations applicable to the Client
-- Assessment of the tax impact of a proposed transaction or structure
+- oBacker assesses the tax impact of a proposed transaction or structure
 - **Demarcation:** periodic tax filing and payment fall under the Accounting & Tax Services (PL-KT); PIT obligations on salary fall under the HR, Payroll & Insurance Services (PL-NS). These are not covered by this document.
 
 **2.3. Contract/document review and drafting (Contracting):**
 
 - Reviewing contracts and legal documents and issuing a review report
-- Drafting contracts and legal documents on request (custom); a separate service, quoted in the Order Form.
+- oBacker drafts contracts and legal documents on request (custom); a separate service, quoted in the Order Form.
 
 **2.4. Research On Demand:**
 
@@ -70,7 +70,7 @@ oBacker performs the Services only within the domains and industries it serves. 
 One (01) contract review round covers:
 
 - **One contract of up to 10 pages** (roughly 3,000-4,000 words)
-- A basic legal-risk check, flagging unfavourable clauses
+- oBacker performs a basic legal-risk check, flagging unfavourable clauses
 - 01 review round + 01 feedback round
 - Turnaround: 03 business days per round.
 
@@ -130,6 +130,7 @@ The Service Fees are set in the Order Form; by hour, by review round, by matter,
 
 ## REVISION LOG
 
-| Date | Version | R.1.1.0, currently applicable |
+| Date | Version | R.2.1.1, currently applicable |
 | --- | --- | --- |
+| 07/10/2026 | R.2.1.1 | Subject oBacker added to the three service-scope bullets (tax impact assessment, contract and legal document drafting, basic legal-risk check) |
 | 02/10/2026 | R.2.1.0 | Copyright registration and trademark filing: complete the application dossier within 05 business days<br>Trademark substantive examination: drop the GT-07 reference, keep the fact of the NOIP dossier backlog |

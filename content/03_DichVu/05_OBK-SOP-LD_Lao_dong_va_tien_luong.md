@@ -4,7 +4,7 @@ code: "OBK-SOP-LD"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 2, quy trình bộ phận"
-version: "R.3.0.1"
+version: "R.3.0.2"
 status: "đang áp dụng"
 draft_date: "04/10/2026"
 author: "CEO"
@@ -27,7 +27,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-SOP-LD |
 | Cấp tài liệu | Cấp 2, SOP bộ phận |
-| Phiên bản | R.3.0.1, đang áp dụng |
+| Phiên bản | R.3.0.2, đang áp dụng |
 | Ngày biên soạn | 04/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -288,7 +288,7 @@ Bắt buộc: Khách hàng phải thống nhất lựa chọn một phương ph�
 
 1. Rà toàn bộ danh mục khách, lập danh sách vi phạm KÉO DÀI đang tồn tại: chậm đóng BHXH; chưa đăng ký nội quy lao động dù đã đủ 10 người lao động; chưa nộp báo cáo tình hình sử dụng lao động của kỳ đã qua; chưa đóng kinh phí công đoàn; chưa lập sổ quản lý lao động.
 2. Với mỗi khách trong danh sách, AM gửi cảnh báo nêu rõ: hành vi đang tồn tại, mốc 10/09/2026, và yêu cầu chấm dứt hành vi.
-3. Ghi mọi cảnh báo đã gửi vào Job, vì đây là bằng chứng oBacker đã làm tròn nghĩa vụ tư vấn.
+3. AM ghi mọi cảnh báo đã gửi vào Job, vì đây là bằng chứng oBacker đã làm tròn nghĩa vụ tư vấn.
 
 Mức phạt cho hành vi xảy ra và kết thúc trước 10/09/2026, theo Nghị định 12/2022/NĐ-CP (cá nhân; tổ chức gấp 02 lần `[NĐ 12/2022/NĐ-CP Đ.6 k.3]`):
 
@@ -410,4 +410,4 @@ Việc 1 và 2 là hai việc chiếm phần lớn thời gian của bộ phận
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 04/10/2026 | R.3.0.1 | Sửa câu hỏi tự sự ở thời hạn hợp đồng lao động nước ngoài. |
+| 07/10/2026 | R.3.0.2 | Bước ghi mọi cảnh báo vi phạm kéo dài đã gửi vào Job có chủ thể AM |

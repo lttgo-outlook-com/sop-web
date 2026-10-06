@@ -2,7 +2,7 @@
 title: "MASTER TERMS & CONDITIONS OF SERVICE (MASTER T&C)"
 type: "tnc"
 folder: "09_TnC"
-version: "R.2.1.0"
+version: "R.2.2.0"
 status: "đang áp dụng"
 language: "en"
 distribution: "Khách hàng"
@@ -19,7 +19,7 @@ Head office: Floor 2, 06 Tran Phu Street, Hai Chau Ward, Da Nang, Vietnam
 HCMC office: 15 Hoang Ke Viem, Bay Hien Ward, Ho Chi Minh City, Vietnam
 Da Nang office: No. 54 Khue My Dong 7 Street, Ngu Hanh Son Ward, Da Nang, Vietnam
 
-**Version:** R.2.1.0 (VI-EN) · **Updated:** 02/10/2026
+**Version:** R.2.2.0 (VI-EN) · **Updated:** 07/10/2026
 
 ---
 
@@ -289,7 +289,7 @@ Legal Services are governed in detail by **PL-PL**, provided by advisory hours/p
 **Scope of one contract review:**
 
 - **One contract of up to 10 pages** (equivalent to about 3,000-4,000 words)
-- A basic legal-risk check, flagging unfavourable clauses
+- oBacker performs a basic legal-risk check, flagging unfavourable clauses
 - One review round + one feedback round; processing time of 03 Business Days.
 - **If the contract runs from 11 to 20 pages**, the system counts it as **two reviews**.
 - **If the contract exceeds 20 pages**, a surcharge of VND 100,000 per page applies from page 21, or it moves to advisory as an Add-on service depending on complexity (quoted before performance).
@@ -345,4 +345,5 @@ When oBacker processes the data of the Client's employees/shareholders under the
 
 | Date | Version | Description |
 | --- | --- | --- |
+| 07/10/2026 | R.2.2.0 | Sync with Vietnamese version R.2.2.0: subject oBacker added to the basic legal-risk check bullet in the one-review scope (Article 19) |
 | 02/10/2026 | R.2.1.0 | Excess FCT filing surcharge code updated to `ADD-FCT-RETURN-2026` |

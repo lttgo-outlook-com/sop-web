@@ -2,7 +2,7 @@
 title: "ĐIỀU KHOẢN DỊCH VỤ XIN GIẤY PHÉP (PL-GP)"
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.0.0"
+version: "R.1.1.1"
 status: "đang áp dụng"
 language: "vi"
 distribution: "Khách hàng"
@@ -16,7 +16,7 @@ tags:
 *Điều Khoản Dịch Vụ Cụ Thể, bộ phận không tách rời của Bản Điều Khoản Chung; Công ty Cổ phần oBacker*
 MST: 0402298185 · Tầng 2, 06 Trần Phú, Phường Hải Châu, Thành phố Đà Nẵng · contact@obacker.com
 
-**Phiên bản:** R.1.0.0 (VI-EN) · **Cập nhật:** 01/10/2026
+**Phiên bản:** R.1.1.1 (VI-EN) · **Cập nhật:** 07/10/2026
 
 > Tài liệu này là Điều Khoản Dịch Vụ Cụ Thể cho Dịch Vụ Xin Giấy Phép ("**Dịch Vụ**"), áp dụng khi Dịch Vụ được ghi nhận tại Đơn Đặt Hàng. **Nếu có khác biệt giữa Bản Điều Khoản Chung và tài liệu này, tài liệu này được ưu tiên áp dụng cho Dịch Vụ.** Những nội dung không quy định riêng tại đây áp dụng theo Bản Điều Khoản Chung.
 
@@ -34,11 +34,11 @@ oBacker hỗ trợ Quý Khách thực hiện các thủ tục liên quan đến 
 
 ## Điều 2. Phạm vi Dịch Vụ
 
-- Lập Danh Mục Hồ Sơ cho từng loại Giấy Phép, xác định rõ tài liệu do oBacker soạn thảo và tài liệu do Quý Khách chuẩn bị
-- Soạn thảo đơn, tờ khai và biểu mẫu theo quy định pháp luật
+- oBacker lập Danh Mục Hồ Sơ cho từng loại Giấy Phép, xác định rõ tài liệu do oBacker soạn thảo và tài liệu do Quý Khách chuẩn bị
+- oBacker soạn thảo đơn, tờ khai và biểu mẫu theo quy định pháp luật
 - Hướng dẫn Quý Khách chuẩn bị tài liệu nội bộ, thực hiện công chứng, chứng thực hoặc hợp pháp hóa lãnh sự khi cần
 - Nộp hồ sơ tại cơ quan có thẩm quyền và theo dõi tiến trình xử lý
-- Thông báo ngay khi cơ quan có thẩm quyền yêu cầu bổ sung, kèm hướng dẫn thực hiện
+- oBacker thông báo ngay khi cơ quan có thẩm quyền yêu cầu bổ sung, kèm hướng dẫn thực hiện
 - Tiếp nhận kết quả và bàn giao cho Quý Khách.
 
 ## Điều 3. Giới hạn phạm vi Dịch Vụ
@@ -118,4 +118,5 @@ Phí Dịch Vụ được xác định theo Đơn Đặt Hàng đã được Qu�
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 07/10/2026 | R.1.1.1 | Bổ sung chủ ngữ oBacker cho ba nhóm việc thuộc phạm vi Dịch Vụ (lập Danh Mục Hồ Sơ, soạn thảo đơn và tờ khai, thông báo khi cơ quan yêu cầu bổ sung); đồng bộ số bản với bản tiếng Anh |
 | 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

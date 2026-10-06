@@ -4,7 +4,7 @@ code: "OBK-HB-51"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.0"
+version: "R.1.0.1"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -27,7 +27,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-HB-51 |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.0.1, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 27/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -101,13 +101,13 @@ Quy trình thực hiện gồm 4 phần nghiệp vụ chính:
 - Rà soát các bản ghi thiếu giờ vào hoặc thiếu giờ ra. Lập danh sách các trường hợp thiếu dữ liệu và gửi `AM` để yêu cầu khách hàng cung cấp Giấy xác nhận công tác hoặc Giấy giải trình quên ghi nhận có xác nhận của quản lý trực tiếp.
 
 #### Bước 2: Đối chiếu đơn từ phê duyệt với dữ liệu thời gian
-- Đối chiếu từng ngày nghỉ của người lao động với Đơn xin nghỉ phép đã được phê duyệt.
+- `CV-LD` đối chiếu từng ngày nghỉ của người lao động với Đơn xin nghỉ phép đã được phê duyệt.
 - Phân loại chính xác ký hiệu ngày công: Ngày làm việc thực tế (X), Nghỉ phép năm hưởng nguyên lương (P), Nghỉ lễ tết hưởng nguyên lương (L), Nghỉ việc riêng hưởng nguyên lương (Ro), Nghỉ ốm đau hưởng trợ cấp BHXH (Om), Nghỉ thai sản hưởng trợ cấp BHXH (TS), Nghỉ không hưởng lương (KL).
 
 #### Bước 3: Nguyên tắc làm tròn và tính tổng số giờ công
 - Số giờ làm việc bình thường: Tối đa 08 giờ trong một ngày và không quá 48 giờ trong một tuần. Đối với người làm công việc đặc biệt nặng nhọc, độc hại, nguy hiểm thì không quá 06 giờ trong một ngày.
 - Làm tròn giờ làm thêm: Thực hiện theo quy chế tiền lương của khách hàng nhưng không được làm thiệt thòi quyền lợi của người lao động. Khung chuẩn: thời gian làm thêm dưới 15 phút (không tính hoặc tính theo quy chế); từ đủ 15 phút đến dưới 45 phút tính bằng 0.5 giờ; từ đủ 45 phút trở lên tính bằng 1.0 giờ.
-- Xuất Bảng tổng hợp công đã đối soát và ký xác nhận kiểm soát lớp 1.
+- `CV-LD` xuất Bảng tổng hợp công đã đối soát và ký xác nhận kiểm soát lớp 1.
 
 ### 5.2. Quy tắc và công thức tính tiền lương làm thêm giờ, làm việc vào ban đêm
 Theo quy định tại Điều 98 Bộ luật Lao động và các Điều 55, 56, 57 Nghị định số 145/2020/NĐ-CP, việc tính toán thực hiện theo các công thức quy chuẩn sau:
@@ -285,4 +285,4 @@ Toàn bộ quy định về "mức lương cơ sở" trước đây được bã
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 07/10/2026 | R.1.0.1 | Hai bước đối soát tiền lương (đối chiếu ngày nghỉ phép với đơn đã duyệt, xuất bảng tổng hợp công và ký xác nhận kiểm soát lớp 1) có chủ thể CV-LD |

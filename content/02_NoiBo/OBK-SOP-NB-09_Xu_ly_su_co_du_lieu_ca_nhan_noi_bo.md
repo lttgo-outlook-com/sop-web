@@ -4,7 +4,7 @@ code: "OBK-SOP-NB-09"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.0"
+version: "R.1.0.1"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -28,7 +28,7 @@ tags:
 | Mã tài liệu | OBK-SOP-NB-09 |
 | Tên tài liệu | Quy định tinh gọn về xử lý sự cố dữ liệu cá nhân nội bộ |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ. Thi hành [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen\|OBK-QCTC-02]] Quy chế tổ chức và phân quyền |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.0.1, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 27/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -136,8 +136,8 @@ Thiết lập cơ chế ứng phó khẩn cấp, tinh gọn và tuân thủ ch�
 1. `DPO` chủ trì buổi đánh giá kỹ thuật cùng IT và các bộ phận nghiệp vụ liên quan:
    - Xác định chủng loại dữ liệu bị lộ: Dữ liệu cá nhân cơ bản (họ tên, ngày sinh, nơi ở, số điện thoại) hay Dữ liệu cá nhân nhạy cảm (dữ liệu tài chính, thông tin tài khoản ngân hàng, tiền lương, tình trạng sức khỏe, dữ liệu sinh trắc học theo CC-LD-215);
    - Xác định số lượng chủ thể dữ liệu bị ảnh hưởng (dưới 100 người, từ 100 đến 1.000 người, hoặc trên 1.000 người);
-   - Đánh giá khả năng thu hồi dữ liệu và mức độ thiệt hại thực tế hoặc tiềm tàng;
-2. Phân loại mức độ sự cố:
+   - `DPO` đánh giá khả năng thu hồi dữ liệu và mức độ thiệt hại thực tế hoặc tiềm tàng;
+2. `DPO` phân loại mức độ sự cố:
    - **Mức 1 (Nhỏ / Kiểm soát được):** Sự cố nội bộ phạm vi hẹp, đã thu hồi và xóa ngay (ví dụ gửi nhầm email nội bộ giữa hai nhân viên cùng công ty và đã xóa ngay);
    - **Mức 2 (Đáng kể):** Rò rỉ dữ liệu cá nhân cơ bản của khách hàng hoặc nhân sự ra bên ngoài nhưng chưa phát hiện dấu hiệu bị khai thác trục lợi;
    - **Mức 3 (Nghiêm trọng):** Lộ lọt dữ liệu cá nhân nhạy cảm (tài khoản ngân hàng, thông tin lương, dữ liệu thuế quy mô lớn) hoặc dữ liệu bị đối tượng xấu chiếm đoạt, công khai trên mạng xã hội/diễn đàn tin tặc.
@@ -236,4 +236,4 @@ Thiết lập cơ chế ứng phó khẩn cấp, tinh gọn và tuân thủ ch�
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 07/10/2026 | R.1.0.1 | Hai bước đánh giá khả năng thu hồi dữ liệu và phân loại mức độ sự cố có chủ thể DPO |

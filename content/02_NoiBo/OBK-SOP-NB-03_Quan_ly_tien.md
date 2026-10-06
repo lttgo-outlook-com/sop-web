@@ -4,7 +4,7 @@ code: "OBK-SOP-NB-03"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.2"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -28,7 +28,7 @@ tags:
 | Mã tài liệu | OBK-SOP-NB-03 |
 | Tên tài liệu | Quy trình quản lý quỹ tiền mặt, tài khoản ngân hàng và dòng tiền |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ. Thi hành Chương 7 của [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Quy chế tài chính nội bộ |
-| Phiên bản | R.1.0.2, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -297,15 +297,15 @@ Một sự cố chênh lệch mở ra khi tiền thật không khớp sổ, từ
 | 2 | Số ngày từ lúc một người nghỉ việc tới lúc quyền trên ngân hàng bị thu hồi | Dòng `M6` | Mỗi lần | Phải bằng 0 ngày |
 | 3 | Số tài khoản không được đối chiếu trong kỳ | Chốt `KS-NB-M3` | Hằng tháng | Phải bằng 0 |
 | 4 | Số ngày trễ của lượt đối chiếu nhanh so với ngày làm việc đầu tiên của kỳ sau | Dòng `M5` | Mỗi 02 tuần | Trên 0 ngày là lệch chuẩn |
-| 5 | Số sự cố chênh lệch mở trong kỳ, chia theo nguồn phát hiện | Mục 5.7 | Hằng tháng | chưa đặt |
-| 6 | Số ngày trung bình từ lúc mở tới lúc đóng một sự cố chênh lệch | Mục 5.7 | Hằng tháng | chưa đặt |
+| 5 | Số sự cố chênh lệch mở trong kỳ, chia theo nguồn phát hiện | Mục 5.7 | Hằng tháng | Trên 03 sự cố |
+| 6 | Số ngày trung bình từ lúc mở tới lúc đóng một sự cố chênh lệch | Mục 5.7 | Hằng tháng | Trên 05 ngày làm việc |
 | 7 | Số sự cố còn mở tại thời điểm khóa sổ | Chốt `KS-NB-M5` | Mỗi lần khóa sổ | Phải bằng 0 |
 | 8 | Số lần chi tiền mặt vượt mức tối đa, và số lần đã có phê duyệt của `TGĐ` | Dòng `M2` | Hằng tháng | Hai số phải bằng nhau |
-| 9 | Số lần tồn quỹ cuối ngày vượt mức tối đa | Sổ quỹ | Hằng tháng | chưa đặt |
-| 10 | Chênh lệch giữa kế hoạch dòng tiền kỳ trước và thực tế | Dòng `M1` | Hằng tháng | chưa đặt |
+| 9 | Số lần tồn quỹ cuối ngày vượt mức tối đa | Sổ quỹ | Hằng tháng | Trên 01 lần |
+| 10 | Chênh lệch giữa kế hoạch dòng tiền kỳ trước và thực tế | Dòng `M1` | Hằng tháng | Trên 10% giá trị kế hoạch là phải giải trình |
 
 **Bốn chỉ số đầu phải bằng 0 hoặc gần 0, và đó là bốn chỉ số đáng xem trước.** Bốn chỉ số đó đo ba điểm kiểm soát của chu trình này. Sáu chỉ số sau đo hiệu quả, và sáu chỉ số đó chỉ có nghĩa khi bốn chỉ số đầu đã đạt.
-Chỉ số chưa đặt ngưỡng thì người lập báo cáo ghi số đo và không phát cảnh báo. Ngưỡng của các chỉ số đó do `CEO` đặt sau 03 kỳ chạy thật.
+Ngưỡng cảnh báo ở bảng trên là mức tạm đặt ngày 06/10/2026, rà lại sau 03 kỳ chạy thật.
 
 ## Liên kết với tài liệu khác
 
@@ -324,5 +324,4 @@ Chỉ số chưa đặt ngưỡng thì người lập báo cáo ghi số đo và
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 30/09/2026 | R.1.0.1 | Chia 3 câu dài ở mục đích, căn cứ nội bộ và mục 5.2.2 thành câu ngắn bằng dấu chấm phay, không đổi nghĩa |
-| 04/10/2026 | R.1.0.2 | Chuẩn hóa văn phong hành chính, bỏ số đếm ở tiêu đề và callout, hoàn thiện các quy định kiểm soát quỹ và tài khoản |
+| 06/10/2026 | R.1.1.0 | Đặt ngưỡng cảnh báo tạm cho bốn chỉ số mục 9 chưa có ngưỡng, mức tạm đặt 06/10/2026, rà lại sau 03 kỳ chạy thật |

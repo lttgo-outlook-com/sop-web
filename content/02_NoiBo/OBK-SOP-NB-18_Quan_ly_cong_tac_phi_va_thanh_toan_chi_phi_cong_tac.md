@@ -4,7 +4,7 @@ code: "OBK-SOP-NB-18"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.1"
+version: "R.1.0.2"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -28,7 +28,7 @@ tags:
 | Mã tài liệu | OBK-SOP-NB-18 |
 | Tên tài liệu | Quy trình quản lý công tác phí và thanh toán chi phí công tác |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ. Thi hành Điều 19 và Điều 21 của [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Quy chế tài chính nội bộ |
-| Phiên bản | R.1.0.1, đang áp dụng |
+| Phiên bản | R.1.0.2, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 27/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -206,7 +206,7 @@ Mọi khoản thanh toán công tác phí tại oBacker tuân thủ bảng đị
 
 - **Thẩm định kế toán (02 ngày làm việc):**
   * `KTV` kiểm tra tính hợp lệ, hợp pháp của từng hóa đơn, đối chiếu thông tin doanh nghiệp, tra cứu tính hợp lệ của hóa đơn trên Cổng thông tin hóa đơn điện tử của cơ quan thuế;
-  * Kiểm tra việc tuân thủ định mức chi phí; loại bỏ các khoản chi vượt định mức chưa được phê duyệt hoặc các khoản chi tiêu cá nhân không phục vụ công việc;
+  * `KTV` kiểm tra việc tuân thủ định mức chi phí; loại bỏ các khoản chi vượt định mức chưa được phê duyệt hoặc các khoản chi tiêu cá nhân không phục vụ công việc;
   * Tính toán số chênh lệch: Số tiền thực tế được duyệt trừ đi số tiền đã nhận tạm ứng;
   * `KTT` soát xét hồ sơ và ký xác nhận đề xuất thanh toán/hoàn ứng.
 - **Phê duyệt của `CEO` (01 ngày làm việc):** `CEO` xem xét và ký duyệt hồ sơ quyết toán trên biểu mẫu CT-01.
@@ -286,4 +286,4 @@ Mọi khoản thanh toán công tác phí tại oBacker tuân thủ bảng đị
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 30/09/2026 | R.1.0.1 | Chia 4 câu dài ở mục đích, phạm vi áp dụng và yêu cầu chứng từ thanh toán không dùng tiền mặt thành câu ngắn, không đổi nghĩa |
+| 07/10/2026 | R.1.0.2 | Bước kiểm tra việc tuân thủ định mức chi phí khi thẩm định khoản chi có chủ thể KTV |

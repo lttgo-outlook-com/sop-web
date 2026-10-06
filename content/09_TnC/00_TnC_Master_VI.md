@@ -2,7 +2,7 @@
 title: "ĐIỀU KHOẢN VÀ ĐIỀU KIỆN DỊCH VỤ (BẢN ĐIỀU KHOẢN CHUNG)"
 type: "tnc"
 folder: "09_TnC"
-version: "R.2.1.0"
+version: "R.2.2.0"
 status: "đang áp dụng"
 language: "vi"
 distribution: "Khách hàng"
@@ -19,7 +19,7 @@ Trụ sở chính: Tầng 2, 06 Trần Phú, Phường Hải Châu, TP Đà Nẵ
 Văn phòng TP.HCM: 15 Hoàng Kế Viêm, Phường Bảy Hiền, TP. Hồ Chí Minh, Việt Nam
 Văn phòng Đà Nẵng: Số 54 đường Khuê Mỹ Đông 7, Phường Ngũ Hành Sơn, TP Đà Nẵng, Việt Nam
 
-**Phiên bản:** R.2.1.0 (VI-EN) · **Cập nhật:** 02/10/2026
+**Phiên bản:** R.2.2.0 (VI-EN) · **Cập nhật:** 07/10/2026
 
 ---
 
@@ -289,7 +289,7 @@ Dịch Vụ Pháp Lý được điều chỉnh chi tiết tại **PL-PL**, cung 
 **Phạm vi 01 lượt soát xét hợp đồng:**
 
 - **01 hợp đồng độ dài tối đa 10 trang** (tương đương khoảng 3.000; 4.000 chữ)
-- Kiểm tra rủi ro pháp lý cơ bản, chỉ ra điều khoản bất lợi
+- oBacker kiểm tra rủi ro pháp lý cơ bản, chỉ ra điều khoản bất lợi
 - 01 vòng rà soát + 01 vòng phản hồi; thời gian xử lý 03 Ngày Làm Việc.
 - **Nếu hợp đồng từ 11 đến 20 trang**, hệ thống tính là **02 lượt soát xét**.
 - **Nếu hợp đồng trên 20 trang**, từ trang thứ 21 áp dụng phụ thu 100.000đ/trang, hoặc chuyển sang tư vấn dạng dịch vụ bổ sung ngoài gói tùy độ phức tạp (báo giá trước khi thực hiện).
@@ -347,4 +347,5 @@ Khi oBacker xử lý dữ liệu của người lao động/cổ đông của Qu
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 07/10/2026 | R.2.2.0 | Bổ sung chủ ngữ oBacker cho câu kiểm tra rủi ro pháp lý cơ bản trong phạm vi 01 lượt soát xét hợp đồng (Điều 19) |
 | 02/10/2026 | R.2.1.0 | Mã phụ thu kê khai FCT ngoài định mức cập nhật thành `ADD-FCT-RETURN-2026` |

@@ -4,7 +4,7 @@ code: "OBK-QCTC-01"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 1, văn bản KHUNG toàn công ty"
-version: "R.4.0.2"
+version: "R.5.0.0"
 status: "đang áp dụng"
 draft_date: "04/10/2026"
 author: "CEO"
@@ -28,7 +28,7 @@ tags:
 | Mã tài liệu | OBK-QCTC-01 |
 | Tên tài liệu | Quy chế tài chính nội bộ của Công ty cổ phần oBacker |
 | Cấp tài liệu | Cấp 1, văn bản KHUNG. Các quy trình OBK-SOP-NB nằm dưới quy chế này |
-| Phiên bản | R.4.0.2, đang áp dụng |
+| Phiên bản | R.5.0.0, đang áp dụng |
 | Ngày biên soạn | 04/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -528,7 +528,9 @@ Căn cứ Điều 14 khoản 1 điểm a Nghị quyết số 136/2024/QH15 của
 
 15.3. Khách hàng mới, ba kỳ dịch vụ đầu tiên thu trước, không bán chịu.
 
-15.4. KTV lập và cập nhật hằng tuần Bảng tuổi nợ phải thu, phân theo bốn nhóm: trong hạn, quá hạn tới 30 ngày, quá hạn 31 tới 90 ngày, quá hạn từ 91 ngày trở lên.
+15.4. KTV lập và cập nhật hằng tuần Bảng tuổi nợ phải thu, phân theo năm nhóm: trong hạn, quá hạn tới 30 ngày, quá hạn 31 tới 90 ngày, quá hạn từ 91 ngày trở lên, và **đang tranh chấp**.
+
+Nhóm **đang tranh chấp** gồm khoản có dấu hiệu tranh chấp pháp lý, chưa xác định được nghĩa vụ trả. Khoản chuyển sang nhóm này khi có đơn hoặc thông báo tranh chấp, hoặc đang trong thủ tục tố tụng; khoản trong nhóm không tính vào bốn nhóm quá hạn thường. Trích dự phòng cho nhóm đang tranh chấp: trích 100% giá trị ghi sổ trừ dự phòng đã lập, theo quy định nội bộ của oBacker.
 
 ### Điều 16. Thu hồi nợ
 
@@ -954,14 +956,12 @@ Quy định này áp dụng từ ngày 01 tháng 7 năm 2026 `[Nghị định 25
 
 28.2. **Điều khoản có giá trị tiền thật:** trường hợp doanh nghiệp có quy định cụ thể tại **quy chế tài chính hoặc quy chế nội bộ hoặc hợp đồng lao động hoặc thỏa ước lao động** về mức trợ cấp thôi việc, trợ cấp mất việc làm **cao hơn mức quy định của pháp luật** thì phần chi trả thực tế vượt mức này **cũng không tính vào thu nhập chịu thuế** của người lao động `[Nghị định 253/2026/NĐ-CP Đ.8 k.3 đ.h]`.
 
-28.3. **oBacker không đặt một mức trợ cấp thôi việc cao hơn mức luật trong bất kỳ văn bản nào; mỗi trường hợp xử lý riêng theo quyết định của TGĐ.** Đã đọc toàn bộ [[Noi_quy_lao_dong|OBK-NQLD]] Nội quy lao động: Nội quy không quy định mức trợ cấp thôi việc hay trợ cấp mất việc làm, chỉ có quy định thanh toán tiền lương cho ngày phép chưa nghỉ khi thôi việc. Quy chế này cũng không quy định.
+28.3. **oBacker không quy định mức trợ cấp thôi việc cao hơn mức luật định trong bất kỳ văn bản nào.** Khoản chi trợ cấp thôi việc, nếu có, do Tổng giám đốc quyết định riêng cho từng trường hợp; quy chế này không ghi mức cố định. Đã đọc toàn bộ [[Noi_quy_lao_dong|OBK-NQLD]] Nội quy lao động: Nội quy không quy định mức trợ cấp thôi việc hay trợ cấp mất việc làm, chỉ có quy định thanh toán tiền lương cho ngày phép chưa nghỉ khi thôi việc.
 
 > [!note] HỆ QUẢ CỦA LỰA CHỌN "THEO TỪNG TRƯỜNG HỢP", GHI RA ĐỂ KHÔNG BỊ BẤT NGỜ Ở LẦN CHI ĐẦU TIÊN
 > Ưu đãi tại mục 28.2 đòi có **mức cụ thể** ghi trước ở một trong bốn loại văn bản: quy chế tài chính, quy chế nội bộ, hợp đồng lao động, thỏa ước lao động. Quyết định riêng cho từng trường hợp, ký tại thời điểm chi, không phải một trong bốn loại đó và không ghi trước. Vì vậy phần trợ cấp vượt mức luật, nếu oBacker chi, **tính vào thu nhập chịu thuế thu nhập cá nhân của người lao động**, và oBacker có nghĩa vụ khấu trừ.
 >
-> Đây là lựa chọn hợp lý khi số lần chi còn ít và mỗi lần một hoàn cảnh: đổi một ưu đãi thuế chưa dùng tới lấy quyền tự quyết. Nhưng đây không phải lựa chọn miễn phí, và phần thu nhập chịu thuế rơi vào người lao động, không rơi vào oBacker. Mỗi lần chi, `KTV` tính và khấu trừ thuế thu nhập cá nhân trên phần vượt mức luật, và `TGĐ` nói rõ với người lao động rằng phần vượt là thu nhập chịu thuế trước khi chi, không phải sau.
->
-> **Điều kiện để chuyển sang hưởng ưu đãi, khi nào oBacker muốn:** đặt một mức bằng số vào Nội quy lao động hoặc vào chính quy chế này. Từ thời điểm văn bản đó có hiệu lực trở đi, phần vượt mức luật thôi không tính vào thu nhập chịu thuế. Quy tắc đó không hồi tố cho các lần đã chi.
+> Mỗi lần chi, `KTV` tính và khấu trừ thuế thu nhập cá nhân trên phần vượt mức luật, và `TGĐ` nói rõ với người lao động rằng phần vượt là thu nhập chịu thuế trước khi chi, không phải sau.
 
 ### Điều 29. Chi hỗ trợ khám, chữa bệnh
 
@@ -1108,9 +1108,9 @@ Hai người cùng giữ một thao tác giữ cho việc chi tiền không dừ
 
 35.3. Người thực hiện thanh toán chỉ thực hiện lệnh, không được sửa nội dung lệnh.
 
-35.3a. **Danh mục nhà cung cấp chưa tồn tại, nên điểm kiểm soát số tài khoản chưa vận hành được.**
+35.3a. **Danh mục nhà cung cấp do AD-KT giữ và cập nhật; danh mục chưa tồn tại, nên điểm kiểm soát số tài khoản chưa vận hành được.**
 
-Lệnh chi tới một số tài khoản không có trong Danh mục nhà cung cấp theo [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]] mục 5.4.3 bị từ chối. oBacker chưa lập Danh mục nhà cung cấp, nên điều khoản đó **hoãn hiệu lực**, không bị bỏ.
+Danh mục nhà cung cấp do `AD-KT` (Hành chính Kế toán) giữ và cập nhật; việc thêm nhà cung cấp mới vào danh mục phải có duyệt của `TGĐ`. Lệnh chi tới một số tài khoản không có trong Danh mục nhà cung cấp theo [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo|OBK-SOP-NB-01]] mục 5.4.3 bị từ chối. oBacker chưa lập Danh mục nhà cung cấp, nên điều khoản đó **hoãn hiệu lực**, không bị bỏ.
 
 **Hai chốt thay thế, không cần hạ tầng, áp ngay:**
 
@@ -1497,7 +1497,7 @@ Ba lớp, mỗi lớp một chứng từ khác nhau:
 45.7. Nơi lưu giữ là trụ sở chính hoặc địa điểm khác được quy định trong Điều lệ; thời hạn lưu giữ theo quy định của pháp luật `[Điều lệ Đ.43 k.2]`.
 
 > [!note] VIỆC PHẢI LÀM
-> Bản thân **quy chế này** thuộc nhóm "quy chế quản lý nội bộ" tại Điều 43 khoản 1 Điều lệ, nên sau khi ban hành phải được lưu tại trụ sở chính và công bố cho nhân sự. Ngoài ra Điều 24 khoản 2 điểm l Điều lệ giao **ĐHĐCĐ phê duyệt quy chế quản trị nội bộ**, và Điều 25 khoản 2 điểm l giao **HĐQT quyết định quy chế quản lý nội bộ của công ty**. Hai điều này dùng hai tên gọi khác nhau cho hai cấp thẩm quyền khác nhau, nên phải xác định quy chế tài chính này thuộc loại nào trước khi ban hành. Xem Điều 50.1a.
+> Bản thân **quy chế này** thuộc nhóm "quy chế quản lý nội bộ" tại Điều 43 khoản 1 Điều lệ, nên sau khi ban hành phải được lưu tại trụ sở chính và công bố cho nhân sự. Cấp ban hành đã chốt là Hội đồng quản trị theo `Điều lệ Đ.25 k.2 đ.l`, xem mục 50.1a.
 
 ---
 
@@ -1677,7 +1677,7 @@ Mỗi lần đổi người ở `KTV`, `KTT` hoặc `AD-KT` thì kiểm lại ng
 >
 > **Về ĐM-12 phúc lợi:** mức tối đa của dòng này do LUẬT ĐỊNH, tính theo một tháng lương bình quân của cả năm tính thuế, nên mức đó vốn đã là mức tối đa cả năm và không có cách chia theo tỷ lệ. Quyết định trên chỉ làm rõ ba dòng còn lại cho khớp với dòng ĐM-12.
 
-50.1a. **Người ban hành quy chế này là `TGĐ`, theo ủy quyền của `HĐQT`.**
+50.1a. **Quy chế này do Hội đồng quản trị ban hành theo `Điều lệ Đ.25 k.2 đ.l`, Tổng giám đốc ký thay theo ủy quyền của Hội đồng quản trị.**
 
 | Điều lệ | Nội dung | Cấp thẩm quyền |
 | --- | --- | --- |
@@ -1686,7 +1686,7 @@ Mỗi lần đổi người ở `KTV`, `KTT` hoặc `AD-KT` thì kiểm lại ng
 | `Đ.28 k.3 đ.d` | **Kiến nghị** phương án cơ cấu tổ chức, quy chế quản lý nội bộ | TGĐ |
 
 > [!note] TRÌNH TỰ THẨM QUYỀN, BỐN BƯỚC
-> Quy chế tài chính nội bộ là quy chế quản lý nội bộ theo `Điều lệ Đ.25 k.2 đ.l`, tức thuộc `HĐQT`. `Điều lệ Đ.28 k.3 đ.d` cho `TGĐ` quyền kiến nghị. Nhưng `[Luật Doanh nghiệp 67/VBHN-VPQH Đ.162 k.3 đ.i]` cho `TGĐ` "quyền và nghĩa vụ khác theo quy định của pháp luật, Điều lệ công ty **và nghị quyết, quyết định của Hội đồng quản trị**", nên `HĐQT` ủy quyền được. `HĐQT` đã có Quyết định bổ nhiệm và Giấy ủy quyền cho `TGĐ`, xem . Vì vậy `TGĐ` ký ban hành là đúng thẩm quyền.
+> Quy chế tài chính nội bộ là quy chế quản lý nội bộ theo `Điều lệ Đ.25 k.2 đ.l`, tức thuộc `HĐQT`. `Điều lệ Đ.28 k.3 đ.d` cho `TGĐ` quyền kiến nghị. Nhưng `[Luật Doanh nghiệp 67/VBHN-VPQH Đ.162 k.3 đ.i]` cho `TGĐ` "quyền và nghĩa vụ khác theo quy định của pháp luật, Điều lệ công ty **và nghị quyết, quyết định của Hội đồng quản trị**", nên `HĐQT` ủy quyền được. `HĐQT` đã có Quyết định bổ nhiệm và Giấy ủy quyền cho `TGĐ`, xem . Kết luận: quy chế do `HĐQT` ban hành, `TGĐ` ký thay theo ủy quyền.
 
 > [!note] BA NGOẠI LỆ KHÔNG AI BAN HÀNH THAY ĐƯỢC, KỂ CẢ `HĐQT` VÀ KỂ CẢ `TGĐ` CÓ ỦY QUYỀN
 > Những nội dung mà chính Điều lệ giao cho `ĐHĐCĐ`: mốc 35% tại mục 12.3 và 12.3a, danh mục quỹ tại mục 46.5, và tổng mức thù lao `HĐQT` tại `Điều lệ Đ.25 k.3`. Quy chế này chỉ NHẮC LẠI thẩm quyền đó, không tạo ra thẩm quyền mới, và chữ ký của `TGĐ` không làm ba nội dung đó thành của `TGĐ`. Đây là giới hạn của điều luật, không phụ thuộc ai ký.
@@ -1795,6 +1795,8 @@ Ba quy tắc, cũng ghi tại mục 3.4:
 | Thao tác tạo và xác nhận lệnh trên ngân hàng điện tử | `QCTC-01 Đ.35.1a` | `QCTC-01 Đ.4` vai trò `NTT` và vai trò `AD-KT`;<br>`QCTC-01 Đ.35.2, Đ.47.2, Đ.47.3, Đ.47.3a`;<br>`QCTC-01 Đ.48` chốt số 1 và chốt số 4;<br>`NB-01 mục 3.1` vai trò KTV, KTT và NTT;<br>`NB-01 mục 3.2` bảng RACI;<br>`NB-01 mục 3.3.2, 3.3.3`;<br>`NB-01 mục 5.2.1` bậc B3;<br>`NB-01` Luồng B và Luồng C |
 | Người đối chiếu sao kê ngân hàng với sổ kế toán | `QCTC-01 Đ.48` chốt số 1 | `QCTC-01 Đ.4` vai trò `AD-KT`;<br>`QCTC-01 Đ.47.3a` kiểm soát bù số 1;<br>`NB-01 mục 3.2` bảng RACI dòng đối chiếu số dư;<br>`NB-01 mục 8` dòng bảng đối chiếu ngân hàng;<br>`06_OBK-SOP-NB-00` Job NB-18 |
 | Danh mục nhà cung cấp, tình trạng và điểm kiểm soát số tài khoản | `QCTC-01 Đ.35.3a` | `NB-01 mục 5.4.3`;<br>`NB-01 mục 8` dòng Danh mục nhà cung cấp;<br>`PL_BM` biểu mẫu `BM-05` và dòng đã giao dịch trước đây chưa tại `BM-01` |
+| Chuẩn vận hành nội bộ | [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo\|OBK-SOP-NB-00]] | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] các mục dẫn chiếu OBK-SOP-NB-00 |
+| Chuẩn vận hành dịch vụ | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] các mục dẫn chiếu OBK-SOP-00 |
 | Bốn quy tắc tách quyền | `QCTC-01 Điều 47` | `NB-01 mục 3.3` |
 | Ba điều cấm về nhân sự kế toán | `QCTC-01 Đ.41.6, Đ.47.4` | `NB-01 mục 3.3.4` |
 | Mức tối đa một khoản tạm ứng | `QCTC-01 Đ.36.2` và ĐM-19 | `NB-01 mục 5.7.1`;<br>`PL_BM` BM-03 |
@@ -1815,4 +1817,4 @@ Ba quy tắc, cũng ghi tại mục 3.4:
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 06/10/2026 | R.4.0.2 | Ghi thêm ngày 04/06/2026 cho trích dẫn Văn bản hợp nhất 18/VBHN-BTC mục 24 để phân biệt với bản hợp nhất cùng số hiệu đã hết hiệu lực |
+| 06/10/2026 | R.5.0.0 | Chốt cấp ban hành là Hội đồng quản trị theo Điều lệ Đ.25 k.2 đ.l; không quy định trợ cấp thôi việc cao hơn mức luật định; thêm nhóm nợ đang tranh chấp tại mục 15.4; AD-KT giữ Danh mục nhà cung cấp, TGĐ duyệt khi thêm nhà cung cấp mới; bổ sung hai dòng liên kết tài liệu tại Phụ lục 5 |

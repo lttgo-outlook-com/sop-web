@@ -4,7 +4,7 @@ code: "OBK-HB-41"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.1.0"
+version: "R.1.1.1"
 status: "đang áp dụng"
 draft_date: "30/09/2026"
 author: "CEO"
@@ -27,7 +27,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-HB-41 |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.1.1.0, đang áp dụng |
+| Phiên bản | R.1.1.1, đang áp dụng |
 | Ngày biên soạn | 30/09/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 27/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -109,7 +109,7 @@ Quy trình xử lý hồ sơ bao gồm 9 bước tiêu chuẩn:
 
 ### Bước 1: Tiếp nhận yêu cầu và thẩm định sơ bộ tính khả thi
 - `CV-LIC` tiếp nhận yêu cầu từ `AM` qua Hệ thống quản lý công việc và lưu trữ hồ sơ.
-- Tra cứu tên doanh nghiệp dự kiến trên Hệ thống thông tin đăng ký doanh nghiệp trực tuyến để xác định tình trạng trùng hoặc gây nhầm lẫn trên phạm vi toàn quốc.
+- `CV-LIC` tra cứu tên doanh nghiệp dự kiến trên Hệ thống thông tin đăng ký doanh nghiệp trực tuyến để xác định tình trạng trùng hoặc gây nhầm lẫn trên phạm vi toàn quốc.
 - Tra cứu điều kiện tiếp cận thị trường đối với nhà đầu tư nước ngoài theo Danh mục ngành nghề hạn chế tiếp cận thị trường quy định tại Luật Đầu tư và Nghị định 96/2026/NĐ-CP.
 - Thời hạn hoàn thành: 04 giờ làm việc kể từ khi nhận đủ thông tin sơ bộ.
 
@@ -135,14 +135,14 @@ Quy trình xử lý hồ sơ bao gồm 9 bước tiêu chuẩn:
 
 ### Bước 5: Số hóa và chuẩn bị nộp hồ sơ trực tuyến
 - `CV-LIC` thực hiện quét màu toàn bộ hồ sơ giấy đã ký, đóng dấu sang định dạng tài liệu số (.pdf), độ phân giải tiêu chuẩn 200 dpi đến 300 dpi, dung lượng mỗi tệp không vượt quá giới hạn cho phép của hệ thống tiếp nhận.
-- Đặt tên tệp theo quy ước: `[MãKháchHàng]_[TênLoạiGiấyTờ]_[NgàyNộp].pdf`.
-- Kiểm tra tính toàn vẹn của tệp số hóa: hình ảnh rõ nét, ngay ngắn, không mất chữ, không mất góc, đầy đủ các trang và dấu giáp lai.
+- `CV-LIC` đặt tên tệp theo quy ước: `[MãKháchHàng]_[TênLoạiGiấyTờ]_[NgàyNộp].pdf`.
+- `CV-LIC` kiểm tra tính toàn vẹn của tệp số hóa: hình ảnh rõ nét, ngay ngắn, không mất chữ, không mất góc, đầy đủ các trang và dấu giáp lai.
 
 ### Bước 6: Nộp hồ sơ qua hệ thống tiếp nhận thủ tục hành chính trực tuyến
 - Đăng nhập tài khoản dịch vụ công đã được ủy quyền trên Cổng dịch vụ công quốc gia, Hệ thống thông tin đăng ký doanh nghiệp trực tuyến hoặc Cổng dịch vụ công của cơ quan quản lý xuất nhập cảnh.
 - Nhập chính xác các trường dữ liệu trên giao diện điện tử: tên doanh nghiệp, địa chỉ, người đại diện, ngành nghề, vốn, danh sách lao động.
 - Tải các tệp hồ sơ số hóa tương ứng vào từng mục quy định.
-- Ký số hồ sơ nộp bằng tài khoản đăng ký kinh doanh hoặc chứng thư số công cộng.
+- `CV-LIC` ký số hồ sơ nộp bằng tài khoản đăng ký kinh doanh hoặc chứng thư số công cộng.
 - Nhận Giấy biên nhận hồ sơ điện tử và ghi nhận Mã số hồ sơ trực tuyến vào Hệ thống quản lý công việc và lưu trữ hồ sơ.
 
 ### Bước 7: Theo dõi tiến độ và xử lý yêu cầu sửa đổi, bổ sung
@@ -267,4 +267,4 @@ Quy trình xử lý hồ sơ bao gồm 9 bước tiêu chuẩn:
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 02/10/2026 | R.1.1.0 | Bước 2: thay mốc '01 ngày làm việc' bằng dẫn chiếu mốc soạn hồ sơ riêng theo loại tại bảng Job OBK-SOP-LIC (02 ngày trong nước, 05 ngày có vốn nước ngoài) |
+| 07/10/2026 | R.1.1.1 | Bốn bước xử lý hồ sơ giấy phép (tra tên doanh nghiệp, đặt tên tệp, kiểm tra toàn vẹn tệp số hóa, ký số hồ sơ) có chủ thể CV-LIC |

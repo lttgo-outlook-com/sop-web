@@ -4,7 +4,7 @@ code: "OBK-HB-10"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.1"
+version: "R.1.0.2"
 status: "đang áp dụng"
 draft_date: "04/10/2026"
 author: "CEO"
@@ -30,7 +30,7 @@ tags:
 | Mã tài liệu | OBK-HB-10 |
 | Tên chương | Thuế thu nhập doanh nghiệp |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.1.0.1, đang áp dụng |
+| Phiên bản | R.1.0.2, đang áp dụng |
 | Ngày biên soạn | 04/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -236,7 +236,7 @@ Thực hiện với **mọi** khách hàng dự kiến áp mức miễn thuế, 
 
 #### 5.1.5. MẪU CÂU HỎI GỬI KHÁCH HÀNG VỀ CẤU TRÚC SỞ HỮU
 
-Gửi bằng văn bản, yêu cầu người đại diện theo pháp luật ký xác nhận và ghi ngày. Lưu bản gốc.
+AM gửi bằng văn bản, yêu cầu người đại diện theo pháp luật ký xác nhận và ghi ngày. Lưu bản gốc.
 
 ```
 KÍNH GỬI QUÝ KHÁCH HÀNG
@@ -1762,5 +1762,4 @@ Khi nhận chứng từ thanh toán cho bên nước ngoài, CV-KT kiểm tra h�
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 04/10/2026 | R.1.0.1 | Chuan hoa van phong hanh chinh, bo so dem tai cac tieu de muc, chuyen cac callout can xac minh sang quy dinh chuan muc va go phu luc chua xac minh khoi ban publish |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 07/10/2026 | R.1.0.2 | Bước gửi câu hỏi bằng văn bản và yêu cầu người đại diện theo pháp luật ký xác nhận, ghi ngày có chủ thể AM |

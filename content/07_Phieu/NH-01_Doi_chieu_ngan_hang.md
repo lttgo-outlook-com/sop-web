@@ -4,7 +4,7 @@ code: "NH-01"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.3.0.0"
+version: "R.3.0.1"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -25,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | NH-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.3.0.0, đang áp dụng |
+| Phiên bản | R.3.0.1, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -40,7 +40,7 @@ tags:
 
 ## TRƯỜNG HỢP ÁP DỤNG
 
-Đối chiếu ngân hàng có hai cấp, hai chu kỳ khác nhau, theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 34.3. Mỗi lần dùng phiếu, chọn đúng một cấp.
+Đối chiếu ngân hàng có hai cấp, hai chu kỳ khác nhau, theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 34.3. Mỗi lần dùng phiếu, `AD-KT` chọn đúng một cấp.
 
 | Cấp | Chu kỳ | Phạm vi | Hạn hoàn thành |
 | --- | --- | --- | --- |
@@ -123,4 +123,4 @@ Phiếu này không tự đặt con số nào. Chu kỳ hai cấp lấy từ OBK
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 06/10/2026 | R.3.0.0 | Khôi phục dòng TGĐ duyệt trong mẫu: thân phiếu (bước 8, luân chuyển) vẫn bắt buộc trình TGĐ duyệt bảng đối chiếu ở cấp đối chiếu đầy đủ, mẫu R.2.0.0 không còn nơi ghi sự phê duyệt đó |
+| 07/10/2026 | R.3.0.1 | Quy tắc mỗi lần dùng phiếu chọn đúng một cấp đối chiếu có chủ thể AD-KT |

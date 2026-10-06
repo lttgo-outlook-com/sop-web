@@ -4,7 +4,7 @@ code: "OBK-SOP-NB-15"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.0"
+version: "R.1.0.1"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -28,7 +28,7 @@ tags:
 | Mã tài liệu | OBK-SOP-NB-15 |
 | Tên tài liệu | Quy định về duy trì kinh doanh liên tục và sao lưu dữ liệu an toàn |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ. Thi hành [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo\|OBK-SOP-NB-00]] Chuẩn vận hành nội bộ |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.0.1, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 27/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -198,12 +198,12 @@ Diễn tập phục hồi thảm họa được tổ chức bắt buộc định
    - Nghiêm cấm tuyệt đối việc thử nghiệm khôi phục đè trực tiếp lên cơ sở dữ liệu đang vận hành thực tế.
 3. **Bước 3: Thực hiện thao tác khôi phục số liệu:**
    - Quản trị hệ thống lấy ngẫu nhiên 01 bản sao lưu dữ liệu kế toán và 01 bản sao lưu hồ sơ pháp lý từ thiết bị lưu trữ ngoại vi hoặc đám mây;
-   - Thực hiện lệnh khôi phục vào môi trường thử nghiệm;
+   - Quản trị hệ thống thực hiện lệnh khôi phục vào môi trường thử nghiệm;
    - Bấm giờ đo đạc chính xác thời gian hoàn thành phục hồi để đối chiếu chỉ số RTO.
 4. **Bước 4: Đối chiếu và kiểm tra tính toàn vẹn số liệu:**
    - Kế toán trưởng (`KTT`) trực tiếp đăng nhập môi trường thử nghiệm, kiểm tra bảng cân đối phát sinh, số lượng hóa đơn, số dư tiền gửi ngân hàng đến ngày sao lưu;
    - Xác định khoảng thời gian dữ liệu bị chênh lệch so với thực tế để đối chiếu chỉ số RPO;
-   - Đánh giá xem dữ liệu khôi phục có đạt độ chính xác 100% không.
+   - `KTT` đánh giá xem dữ liệu khôi phục có đạt độ chính xác 100% không.
 5. **Bước 5: Lập biên bản diễn tập và cải tiến hệ thống:**
    - Quản trị hệ thống và Kế toán trưởng hoàn thành Biên bản diễn tập khôi phục thảm họa theo mẫu tại Phiếu [[BC-01_Bang_kiem_tra_sao_luu_du_lieu_va_ung_pho_su_co_bcp|BC-01]];
    - Báo cáo kết quả và kiến nghị các biện pháp nâng cấp hạ tầng (nếu có) trình `CEO` phê duyệt trong vòng 03 ngày làm việc sau diễn tập.
@@ -272,4 +272,4 @@ Diễn tập phục hồi thảm họa được tổ chức bắt buộc định
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 07/10/2026 | R.1.0.1 | Bước thực hiện lệnh khôi phục vào môi trường thử nghiệm có chủ thể Quản trị hệ thống; bước đánh giá dữ liệu khôi phục đạt độ chính xác 100% có chủ thể KTT |

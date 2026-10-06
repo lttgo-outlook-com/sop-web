@@ -4,7 +4,7 @@ code: "OBK-SOP-PL-A"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Phụ lục"
-version: "R.1.0.0"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -29,7 +29,7 @@ tags:
 | Mã tài liệu | OBK-SOP-PL-A |
 | Tên phụ lục | Bộ bảng kiểm in ra dùng được |
 | Cấp tài liệu | Phụ lục của hướng dẫn cấp 3 |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -147,7 +147,7 @@ Quy tắc **MỘT LỚP SOÁT**: TL-KT vừa soát vừa chốt. CEO đã quyế
 - [ ] 4.1. Chạy sơ đồ quyết định chọn chế độ kế toán theo Chương 08; CV-KT đề xuất, lập Phiếu xác định chế độ kế toán, TL-KT soát rồi quyết định và ký; AM thông báo kết quả cho khách
 - [ ] 4.2. Xác định phương pháp tính thuế GTGT áp dụng theo Chương 09 mục 5.1
 - [ ] 4.3. Xác định thuế suất TNDN áp dụng, có kiểm tra điều kiện loại trừ về quan hệ liên kết
-- [ ] 4.4. Khai báo khách hàng mới trên `[PHẦN MỀM KẾ TOÁN]`; xem Phụ lục D
+- [ ] 4.4. Khai báo khách hàng mới trên `[PHẦN MỀM KẾ TOÁN]`
 - [ ] 4.5. Thiết lập hệ thống tài khoản phù hợp chế độ kế toán đã chọn
 - [ ] 4.6. Ghi nhận chính sách kế toán: tính giá xuất kho, khấu hao, phân bổ, ghi nhận doanh thu
 - [ ] 4.7. TL-KT ấn định ngưỡng trọng yếu cho khách hàng, COO xác nhận phần nguồn lực, ghi vào Hồ sơ khách hàng
@@ -1160,7 +1160,6 @@ Vì oBacker không đứng tên trên báo cáo tài chính của khách, hợp 
 | Bàn giao và kết thúc hợp đồng | Chương 20 |
 | Quy tắc xác minh và cập nhật văn bản | Chương 21 |
 | Biểu mẫu nội bộ dạng bảng để điền | Phụ lục B |
-| Hướng dẫn thao tác trên phần mềm | Phụ lục D |
 | Danh mục văn bản pháp luật | Phụ lục E |
 | Ký báo cáo tài chính, cả ba chữ ký là của khách;<br>tên dịch vụ trong hợp đồng | Chương 03 mục 5.12, Chương 07 |
 | Kiểm tra tiêu chuẩn kế toán trưởng của khách, Phiếu B15 | Chương 03 mục 5.13;<br>Phụ lục B biểu mẫu B15 |
@@ -1171,4 +1170,4 @@ Vì oBacker không đứng tên trên báo cáo tài chính của khách, hợp 
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 07/10/2026 | R.1.1.0 | Gỡ tham chiếu Phụ lục D (tệp đã xóa) khỏi mục 4.4 và bảng tra cuối phụ lục |

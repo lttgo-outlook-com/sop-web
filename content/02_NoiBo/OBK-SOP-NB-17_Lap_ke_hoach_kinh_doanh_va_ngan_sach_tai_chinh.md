@@ -4,7 +4,7 @@ code: "OBK-SOP-NB-17"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.1"
+version: "R.1.0.2"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -28,7 +28,7 @@ tags:
 | Mã tài liệu | OBK-SOP-NB-17 |
 | Tên tài liệu | Quy trình lập kế hoạch kinh doanh, kế hoạch tài chính và phân bổ hạn mức ngân sách hoạt động năm |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ. Thi hành Điều 22 [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Quy chế tài chính nội bộ |
-| Phiên bản | R.1.0.1, đang áp dụng |
+| Phiên bản | R.1.0.2, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 27/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -149,7 +149,7 @@ Theo dõi hằng tháng (Job NB-08) → Đo lường dung sai ±5% → Phê duy�
    - Dòng tiền ra dự kiến: tổng hợp toàn bộ các cam kết chi lương, chi thuê văn phòng, chi nhà cung cấp, chi thuế và chi đầu tư;
    - Bảo đảm dòng tiền thuần lũy kế cả năm dương, không để xảy ra thâm hụt tiền mặt tại bất kỳ tháng nào.
 2. **Xác định điểm hòa vốn (Break-even Point):**
-   - Phân loại chi phí cố định (định phí: thuê văn phòng, lương cố định, khấu hao, phần mềm) và chi phí biến đổi (biến phí: hoa hồng bán hàng, vật tư, thuế);
+   - `KTT` phân loại chi phí cố định (định phí: thuê văn phòng, lương cố định, khấu hao, phần mềm) và chi phí biến đổi (biến phí: hoa hồng bán hàng, vật tư, thuế);
    - Tính toán mức doanh thu tối thiểu cần đạt để trang trải toàn bộ chi phí hoạt động.
 3. **Kiểm soát thời gian dự phòng tiền mặt (Runway):**
    - Tính toán số dư tiền khả dụng bình quân cuối mỗi tháng chia cho mức chi phí hoạt động bình quân 01 tháng;
@@ -180,7 +180,7 @@ Theo dõi hằng tháng (Job NB-08) → Đo lường dung sai ±5% → Phê duy�
 
 1. **Theo dõi thực hiện định kỳ hằng tháng (Job `NB-08`):**
     - Trong 05 ngày làm việc đầu tháng sau, `KTV` nội bộ kết xuất số liệu chi tiêu thực tế từ sổ kế toán, đối chiếu với dự toán tháng theo biểu mẫu NS-09;
-   - Lập Báo cáo thực hiện ngân sách theo từng dòng chi phí của từng bộ phận gửi `TL`, `KTT` và `CEO`.
+   - `KTV` nội bộ lập Báo cáo thực hiện ngân sách theo từng dòng chi phí của từng bộ phận gửi `TL`, `KTT` và `CEO`.
 2. **Cơ chế kiểm soát phương sai ngân sách (Budget Variance Analysis):**
    - Phương sai được xác định theo tỷ lệ phần trăm chênh lệch:
      $$\% \text{Phương sai} = \frac{\text{Chi phí thực tế} - \text{Ngân sách dự toán}}{\text{Ngân sách dự toán}} \times 100\%$$
@@ -279,4 +279,4 @@ Theo dõi hằng tháng (Job NB-08) → Đo lường dung sai ±5% → Phê duy�
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 30/09/2026 | R.1.0.1 | Chia 5 câu dài ở mục đích, căn cứ pháp lý và ngưỡng dung sai phương sai ngân sách thành câu ngắn, không đổi nghĩa |
+| 07/10/2026 | R.1.0.2 | Bước phân loại chi phí cố định và biến đổi có chủ thể KTT; bước lập Báo cáo thực hiện ngân sách có chủ thể KTV nội bộ |

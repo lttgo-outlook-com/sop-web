@@ -4,7 +4,7 @@ code: "OBK-SOP-AM"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 2, quy trình bộ phận"
-version: "R.4.0.1"
+version: "R.4.1.0"
 status: "đang áp dụng"
 draft_date: "04/10/2026"
 author: "CEO"
@@ -27,7 +27,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-SOP-AM |
 | Cấp tài liệu | Cấp 2, SOP bộ phận |
-| Phiên bản | R.4.0.1, đang áp dụng |
+| Phiên bản | R.4.1.0, đang áp dụng |
 | Ngày biên soạn | 04/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -350,12 +350,10 @@ Tài liệu này là cấp 2. Hướng dẫn cấp 3 của bộ phận đặt t�
 | [[08_Ket_thuc_va_ban_giao\|OBK-HB-38]] | Trình tự kết thúc, bộ bàn giao, đối soát công nợ cuối, thu hồi quyền truy cập, khảo sát rời bỏ | AM-19 tới AM-21 | ĐÃ CÓ |
 | [[PL_A_Cau_chu_mau\|OBK-HB-31-PL-A]] | Toàn bộ câu chữ mẫu gom một chỗ, để sửa một lần dùng cho mọi hướng dẫn | Mọi Job có gửi khách | ĐÃ CÓ |
 
-Thao tác trên `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]` và `[HỆ THỐNG CHAT KHÁCH HÀNG]` để riêng một phụ lục, chưa dựng, vì bảng đăng ký công cụ tại `04_Handbook_KeToan/PL_D` Phần 2 còn trống.
-
 ---
 
 ## NHẬT KÝ SỬA
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 04/10/2026 | R.4.0.1 | Chuyển số đếm liệt kê thành quy định, bỏ lối tự sự ở quản lý khách. |
+| 07/10/2026 | R.4.1.0 | Gỡ câu ghi phụ lục thao tác công cụ chưa dựng vì Phụ lục D (tệp đã xóa) không còn |

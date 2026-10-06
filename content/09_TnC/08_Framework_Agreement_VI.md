@@ -2,7 +2,7 @@
 title: "HỢP ĐỒNG DỊCH VỤ (BẢN KHUNG; KÝ ĐIỆN TỬ)"
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.1.1"
+version: "R.1.1.2"
 status: "đang áp dụng"
 language: "vi"
 distribution: "Khách hàng"
@@ -14,7 +14,7 @@ tags:
 ### Hợp Đồng Dịch Vụ Khung oBacker; Giao Kết Điện Tử
 
 **Số Hợp Đồng:** [SỐ HĐ / theo Đơn Đặt Hàng] · **Ngày phát hành:** [__/__/____]
-**Phiên bản mẫu:** R.1.1.1 · **Cập nhật:** 01/10/2026
+**Phiên bản mẫu:** R.1.1.2 · **Cập nhật:** 07/10/2026
 
 > Bản Hợp đồng khung ngắn gọn này được giao kết dưới **hình thức điện tử** theo **Luật Giao dịch điện tử số 20/2023/QH15**. Hợp đồng dẫn chiếu và đính kèm bộ Điều Khoản & Điều Kiện Dịch Vụ của oBacker; **oBacker ký sẵn (ký tự động), Hợp đồng hoàn tất giao kết khi Quý Khách thanh toán** theo Đơn Đặt Hàng.
 
@@ -136,7 +136,7 @@ Người đại diện: Lê Trọng Tuấn, Tổng Giám đốc
 Chữ ký điện tử: `[chữ ký điện tử / con dấu điện tử oBacker]` · Thời điểm: [__/__/____]
 
 **BÊN B; QUÝ KHÁCH**
-Chấp nhận bằng **ký điện tử** hoặc bằng **thanh toán** Phí Dịch Vụ theo Đơn Đặt Hàng (Mục 4.3).
+Quý Khách chấp nhận bằng **ký điện tử** hoặc bằng **thanh toán** Phí Dịch Vụ theo Đơn Đặt Hàng (Mục 4.3).
 Người đại diện: [HỌ TÊN; CHỨC DANH]
 Chữ ký điện tử / Xác nhận thanh toán: `[chữ ký điện tử của Quý Khách hoặc mã giao dịch thanh toán]` · Thời điểm: [__/__/____]
 
@@ -156,4 +156,5 @@ Chữ ký điện tử / Xác nhận thanh toán: `[chữ ký điện tử của
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 07/10/2026 | R.1.1.2 | Bổ sung chủ ngữ Quý Khách cho câu chấp nhận hợp đồng bằng ký điện tử hoặc thanh toán tại khối ký kết Bên B |
 | 01/10/2026 | R.1.1.1 | Đổi từ ngữ: nhãn định mức trong mẫu Đơn Đặt Hàng (Điều 1) viết lại bằng 'Mức tối đa' |

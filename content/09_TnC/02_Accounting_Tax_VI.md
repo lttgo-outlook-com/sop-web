@@ -2,7 +2,7 @@
 title: "ĐIỀU KHOẢN DỊCH VỤ KẾ TOÁN & THUẾ (PL-KT)"
 type: "tnc"
 folder: "09_TnC"
-version: "R.2.3.0"
+version: "R.2.3.1"
 status: "đang áp dụng"
 language: "vi"
 distribution: "Khách hàng"
@@ -16,7 +16,7 @@ tags:
 *Điều Khoản Dịch Vụ Cụ Thể, bộ phận không tách rời của Bản Điều Khoản Chung; Công ty Cổ phần oBacker*
 MST: 0402298185 · Tầng 2, 06 Trần Phú, Phường Hải Châu, Thành phố Đà Nẵng · contact@obacker.com
 
-**Phiên bản:** R.2.3.0 (VI-EN) · **Cập nhật:** 02/10/2026
+**Phiên bản:** R.2.3.1 (VI-EN) · **Cập nhật:** 07/10/2026
 
 > Tài liệu này là Điều Khoản Dịch Vụ Cụ Thể cho Dịch Vụ Kế toán & Thuế ("**Dịch Vụ**"), gồm hai hợp phần: (A) Kế toán và (B) Thuế doanh nghiệp (GTGT, TNDN, thuế nhà thầu nước ngoài (FCT), hóa đơn điện tử). Tài liệu áp dụng khi Dịch Vụ được ghi tại Đơn Đặt Hàng. **Nếu tài liệu này khác với Bản Điều Khoản Chung, tài liệu này được ưu tiên áp dụng đối với Dịch Vụ.**
 >
@@ -49,10 +49,10 @@ Ngưỡng Giao Dịch/tháng theo gói được ghi tại Đơn Đặt Hàng. Kh
 **2.1. Phạm vi thực hiện:**
 
 - Tiếp nhận sao kê ngân hàng, hóa đơn và chứng từ; ghi nhận và phân loại từng Giao Dịch theo **Chế độ kế toán Việt Nam**: áp dụng Thông tư 58/2026/TT-BTC đối với doanh nghiệp Việt Nam siêu nhỏ; áp dụng Thông tư 99/2025/TT-BTC đối với 100% doanh nghiệp có vốn đầu tư nước ngoài (FDI) và doanh nghiệp Việt Nam quy mô tăng trưởng theo Đơn Đặt Hàng
-- Lập các loại sổ sách theo quy định của pháp luật
-- Chốt sổ hàng tháng; phát hành **báo cáo tài chính nội bộ hàng tháng**
-- Lập và nộp **Báo cáo tài chính năm** (Bảng cân đối kế toán, Kết quả hoạt động kinh doanh, Lưu chuyển tiền tệ, Thuyết minh BCTC) cho cơ quan thuế đúng hạn
-- Đối chiếu số liệu với chứng từ Quý Khách cung cấp và lưu bản sao điện tử trên nền tảng của oBacker.
+- oBacker lập các loại sổ sách theo quy định của pháp luật
+- oBacker chốt sổ hàng tháng; phát hành **báo cáo tài chính nội bộ hàng tháng**
+- oBacker lập và nộp **Báo cáo tài chính năm** (Bảng cân đối kế toán, Kết quả hoạt động kinh doanh, Lưu chuyển tiền tệ, Thuyết minh BCTC) cho cơ quan thuế đúng hạn
+- oBacker đối chiếu số liệu với chứng từ Quý Khách cung cấp và lưu bản sao điện tử trên nền tảng của oBacker.
 
 **2.2. Ngoài phạm vi:**
 
@@ -65,10 +65,10 @@ Ngưỡng Giao Dịch/tháng theo gói được ghi tại Đơn Đặt Hàng. Kh
 
 **3.1. Phạm vi thực hiện:**
 
-- Lập và nộp các tờ khai thuế theo kỳ hoặc theo thời điểm phát sinh: **thuế GTGT** và **thuế nhà thầu nước ngoài (FCT)**
+- oBacker lập và nộp các tờ khai thuế theo kỳ hoặc theo thời điểm phát sinh: **thuế GTGT** và **thuế nhà thầu nước ngoài (FCT)**
 - Tạm nộp và **quyết toán thuế TNDN**; lập hồ sơ quyết toán thuế năm phần TNDN
 - **Khấu trừ và kê khai thuế TNCN đối với thu nhập vãng lai chi cho cá nhân KHÔNG qua bảng lương**; cộng tác viên (CTV), freelancer theo hợp đồng dịch vụ, thuê tài sản cá nhân (nhà, xe…): khấu trừ 10% khi khoản chi từ 05 triệu đồng/lần trở lên (thu nhập vãng lai), hoặc theo tỷ lệ tương ứng đối với thuê tài sản. Nghiệp vụ này gắn với dòng chi phí do Kế toán ghi nhận, thuộc PL-KT
-- Theo dõi và thông báo nghĩa vụ thuế cùng thời hạn nộp cho Quý Khách
+- oBacker theo dõi và thông báo nghĩa vụ thuế cùng thời hạn nộp cho Quý Khách
 - Hỗ trợ giải trình số liệu đã xử lý khi cơ quan thuế kiểm tra, trong phạm vi ủy quyền hợp lệ.
 
 > **Phân định TNCN tiền lương:** TNCN **từ tiền lương** của người lao động có hợp đồng lao động (khấu trừ lũy tiến) tách thành hai đầu việc. **Khấu trừ và kê khai thuế TNCN theo kỳ** thuộc **Dịch Vụ Kế toán (PL-KT)**. **Quyết toán TNCN năm**, đăng ký người phụ thuộc và chứng từ khấu trừ cho người lao động thuộc **Dịch Vụ Nhân Sự (PL-NS)**. TNCN **vãng lai** chi cho cá nhân ngoài bảng lương (CTV, freelancer, thuê tài sản cá nhân) thuộc **PL-KT** (điểm trên).
@@ -225,5 +225,6 @@ Phí Dịch Vụ được xác định theo Đơn Đặt Hàng (theo gói đối
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 07/10/2026 | R.2.3.1 | Bổ sung chủ ngữ oBacker cho sáu nhóm việc thuộc phạm vi Dịch Vụ (lập sổ sách, chốt sổ, lập và nộp BCTC năm, đối chiếu số liệu, lập và nộp tờ khai thuế, theo dõi và thông báo nghĩa vụ thuế) |
 | 02/10/2026 | R.2.3.0 | Điều 8: bổ sung căn cứ xử phạt, ghi rõ Nghị định 125/2020/NĐ-CP đã được sửa đổi, bổ sung bởi Nghị định 291/2026/NĐ-CP; nội dung hiện hành theo văn bản hợp nhất 27/2026/VBHN-NĐ-BTC |
 

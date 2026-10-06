@@ -4,7 +4,7 @@ code: "OBK-SOP-NB-14"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.2"
+version: "R.1.0.3"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -28,7 +28,7 @@ tags:
 | Mã tài liệu | OBK-SOP-NB-14 |
 | Tên tài liệu | Quy trình tạm thời chuyển người lao động làm công việc khác nội bộ |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ. Thi hành Bộ tài liệu quản trị nhân sự [[00_Bo_tai_lieu_quan_tri_nhan_su\|OBK-QCNS-00]] và Nội quy lao động [[Noi_quy_lao_dong\|OBK-NQLD]] |
-| Phiên bản | R.1.0.2, đang áp dụng |
+| Phiên bản | R.1.0.3, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 27/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -141,7 +141,7 @@ Quy định chuẩn hóa toàn bộ trình tự, thủ tục xem xét nhu cầu,
 ### 5.2. Bước 2: Thẩm định điều kiện pháp lý và quỹ thời gian
 
 1. Trong thời hạn 01 ngày làm việc kể từ ngày nhận được đề xuất, `HR` thẩm định hồ sơ:
-   - Kiểm tra lý do đề xuất: bảo đảm lý do thuộc đúng các trường hợp luật định hoặc thuộc danh mục 7 trường hợp tại Điều 34.2 [[Noi_quy_lao_dong|OBK-NQLD]];
+   - `HR` kiểm tra lý do đề xuất: bảo đảm lý do thuộc đúng các trường hợp luật định hoặc thuộc danh mục 7 trường hợp tại Điều 34.2 [[Noi_quy_lao_dong|OBK-NQLD]];
    - Kiểm tra số ngày làm việc đã chuyển cộng dồn: tra cứu hồ sơ nhân sự trên hệ thống để xác định số ngày người lao động đã tạm thời làm công việc khác trong năm dương lịch hiện hành;
    - Tính toán thời gian dự kiến chuyển mới: nếu tổng số ngày cộng dồn từ đầu năm đến hết đợt chuyển mới không vượt quá 60 ngày làm việc thì đủ điều kiện thực hiện theo quyền của người sử dụng lao động;
    - Trường hợp tổng số ngày cộng dồn vượt quá 60 ngày làm việc: `HR` thông báo cho Trưởng bộ phận đề xuất biết để tổ chức trao đổi, lấy văn bản đồng ý tự nguyện của người lao động trước khi trình phê duyệt.
@@ -248,5 +248,4 @@ Quy định chuẩn hóa toàn bộ trình tự, thủ tục xem xét nhu cầu,
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 30/09/2026 | R.1.0.1 | Chia 4 câu dài ở mục đích, bước 3 và chế độ tiền lương khi tạm chuyển thành câu ngắn, không đổi nghĩa |
-| 04/10/2026 | R.1.0.2 | Chuẩn hóa tiêu đề callout và nội dung mở đầu, bỏ số đếm và chuyển sang văn phong hành chính |
+| 07/10/2026 | R.1.0.3 | Bước kiểm tra lý do đề xuất tạm chuyển người lao động theo danh mục bảy trường hợp tại Điều 34.2 Nội quy lao động có chủ thể HR |

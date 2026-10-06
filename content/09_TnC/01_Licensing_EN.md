@@ -2,7 +2,7 @@
 title: "LICENSING SERVICES; SPECIFIC TERMS (PL-GP)"
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.0.0"
+version: "R.1.1.1"
 status: "đang áp dụng"
 language: "en"
 distribution: "Khách hàng"
@@ -16,7 +16,7 @@ tags:
 *Service-Specific Terms forming an integral part of the Master Terms & Conditions of Service (Master T&C); oBacker Joint Stock Company*
 Tax code: 0402298185 · Floor 2, 06 Tran Phu Street, Hai Chau Ward, Da Nang, Vietnam · contact@obacker.com
 
-**Version:** R.1.0.0 (VI-EN) · **Updated:** 01/10/2026
+**Version:** R.1.1.1 (VI-EN) · **Updated:** 07/10/2026
 
 > These are the Service-Specific Terms for Licensing Services (the "**Services**") and apply when the Services are recorded in an Order Form. **If there is any conflict between the Master T&C and this document, this document prevails in respect of the Services.** Matters not specifically addressed here are governed by the Master T&C.
 
@@ -34,11 +34,11 @@ oBacker assists the Client with procedures relating to Licences/Permits: prepari
 
 ## Article 2. Scope of Services
 
-- Prepare a Document Checklist for each type of Licence/Permit, clearly identifying documents drafted by oBacker and documents prepared by the Client
-- Draft applications, declarations, and forms as required by law
+- oBacker prepares a Document Checklist for each type of Licence/Permit, clearly identifying documents drafted by oBacker and documents prepared by the Client
+- oBacker drafts applications, declarations, and forms as required by law
 - Guide the Client in preparing internal documents and in carrying out notarisation, authentication, or consular legalisation where needed
 - File the application with the competent authority and track its progress
-- Promptly notify the Client when the competent authority requests additional information, with instructions for compliance
+- oBacker promptly notifies the Client when the competent authority requests additional information, with instructions for compliance
 - Receive the result and hand it over to the Client.
 
 ## Article 3. Limits on the scope of Services
@@ -114,7 +114,8 @@ The Service Fees are set out in the Order Form approved by the Client. State fee
 
 ## REVISION LOG
 
-| Date | Version | R.1.0.0, currently applicable |
+| Date | Version | R.1.1.1, currently applicable |
 | --- | --- | --- |
+| 07/10/2026 | R.1.1.1 | Subject oBacker added to the three service-scope bullets (document checklist, applications and declarations, notification of authority requests) |
 | 27/09/2026 | R.1.1.0 | Added strict prohibition and exclusion of nominee arrangements in Article 3.6.<br>Standardized sole Da Nang head office address |
 | 21/09/2026 | R.1.0.0 | Initial release. |

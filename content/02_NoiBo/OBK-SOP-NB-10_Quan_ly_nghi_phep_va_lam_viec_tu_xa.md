@@ -4,7 +4,7 @@ code: "OBK-SOP-NB-10"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 2, quy trình bộ phận"
-version: "R.1.2.1"
+version: "R.1.2.2"
 status: "đang áp dụng"
 draft_date: "30/09/2026"
 author: "CEO"
@@ -28,7 +28,7 @@ tags:
 | Mã tài liệu | OBK-SOP-NB-10 |
 | Tên tài liệu | Quy trình quản lý nghỉ phép và làm việc từ xa |
 | Cấp tài liệu | Cấp 2, quy trình vận hành nội bộ. Thi hành [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo\|OBK-SOP-NB-00]] Chuẩn vận hành nội bộ và Nội quy lao động [[Noi_quy_lao_dong\|OBK-NQLD]] |
-| Phiên bản | R.1.2.1, đang áp dụng |
+| Phiên bản | R.1.2.2, đang áp dụng |
 | Ngày biên soạn | 30/09/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 27/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -281,13 +281,13 @@ Quy trình này trực tiếp thực hiện và phối hợp các Job nội bộ
 
 4. **Yêu cầu bảo mật và an toàn thông tin tuyệt đối:**
    - Không sử dụng mạng không dây công cộng không có mật khẩu an toàn để truy cập hệ thống công ty; bắt buộc sử dụng giải pháp mạng riêng ảo (VPN) do `IT` cung cấp;
-   - Tuyệt đối không để người khác (bao gồm cả người thân trong gia đình) sử dụng thiết bị làm việc hoặc tài khoản công ty cấp;
+   - Người lao động tuyệt đối không để người khác (bao gồm cả người thân trong gia đình) sử dụng thiết bị làm việc hoặc tài khoản công ty cấp;
    - Khóa màn hình hoặc đăng xuất khỏi hệ thống ngay khi rời khỏi thiết bị;
    - Không in ấn tài liệu nội bộ, tài liệu khách hàng ra bên ngoài trụ sở công ty;
    - Thông báo ngay cho `IT` và `HR` khi phát hiện sự cố an toàn thông tin, mất thiết bị hoặc nghi ngờ lộ mật khẩu truy cập.
 
 5. **Kỷ luật chấm công và chế độ tiền lương:**
-   - Thực hiện chấm công trên hệ thống tại thời điểm bắt đầu và kết thúc ca làm việc, bảo đảm dữ liệu ghi nhận trung thực;
+   - Người lao động thực hiện chấm công trên hệ thống tại thời điểm bắt đầu và kết thúc ca làm việc, bảo đảm dữ liệu ghi nhận trung thực;
    - Chế độ tiền lương và phụ cấp theo Hợp đồng lao động không thay đổi trong thời gian làm việc từ xa, trừ trường hợp hai bên có thỏa thuận khác bằng văn bản;
    - Công ty có quyền hủy bỏ quyền làm việc từ xa ngay lập tức nếu người lao động vi phạm tiến độ, không đạt chất lượng công việc hoặc vi phạm quy định bảo mật.
 
@@ -375,5 +375,4 @@ Nhân viên A xin nghỉ phép năm 04 ngày làm việc liên tiếp. Nhân vi�
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 30/09/2026 | R.1.2.0 | Them mot dong dan chieu quy tac uy quyen khi nguoi phe duyet van, muc 8.1 cua NB-00, vao muc phan cap thuyen quyen Luong A |
-| 04/10/2026 | R.1.2.1 | Chuẩn hóa tiêu đề mục 4, bỏ số đếm và chuẩn hóa văn phong hành chính |
+| 07/10/2026 | R.1.2.2 | Hai nghĩa vụ của người làm việc từ xa (không để người khác dùng thiết bị, chấm công đúng thời điểm bắt đầu và kết thúc ca) có chủ thể Người lao động |

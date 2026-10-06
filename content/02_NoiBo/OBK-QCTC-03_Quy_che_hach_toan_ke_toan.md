@@ -4,7 +4,7 @@ code: "OBK-QCTC-03"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 1, văn bản KHUNG toàn công ty"
-version: "R.2.0.0"
+version: "R.3.0.0"
 status: "đang áp dụng"
 draft_date: "04/10/2026"
 author: "CEO"
@@ -28,7 +28,7 @@ tags:
 | Mã tài liệu | OBK-QCTC-03 |
 | Tên tài liệu | Quy chế hạch toán kế toán của Công ty cổ phần oBacker |
 | Cấp tài liệu | Cấp 1, văn bản KHUNG về kỹ thuật kế toán. Đọc kèm [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Quy chế tài chính nội bộ |
-| Phiên bản | R.2.0.0, đang áp dụng |
+| Phiên bản | R.3.0.0, đang áp dụng |
 | Ngày biên soạn | 04/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -404,4 +404,4 @@ Quy trình tổng hợp, xác nhận và chốt bảng công theo [[OBK-SOP-NB-0
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 06/10/2026 | R.2.0.0 | Điểm 3a.5: gán chủ thể khấu trừ TNCN 10% là người thực hiện thanh toán (NTT theo OBK-QCTC-01 mục 35.1a) và mốc trước khi thực hiện lệnh chi trả |
+| 06/10/2026 | R.3.0.0 | Ký ban hành quy chế ngày 06/10/2026, độc lập, không chờ OBK-QCTC-01 |

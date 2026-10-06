@@ -4,7 +4,7 @@ code: "OBK-SOP-18"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.1"
+version: "R.1.0.2"
 status: "đang áp dụng"
 draft_date: "04/10/2026"
 author: "CEO"
@@ -30,7 +30,7 @@ tags:
 | Mã tài liệu | OBK-SOP-18 |
 | Tên chương | Kiểm soát chất lượng và quy trình soát xét |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.1.0.1, đang áp dụng |
+| Phiên bản | R.1.0.2, đang áp dụng |
 | Ngày biên soạn | 04/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -184,13 +184,13 @@ Ba việc trên không phải ba lần làm lại cùng một việc. Mỗi vi�
 
 **Tự kiểm LÀM:**
 
-1. Kiểm tra tính đầy đủ: đã nhận đủ chứng từ chưa, có chứng từ nào bị bỏ sót không.
-2. Kiểm tra tính đúng của từng bút toán so với chứng từ gốc.
+1. CV-KT kiểm tra tính đầy đủ: đã nhận đủ chứng từ chưa, có chứng từ nào bị bỏ sót không.
+2. CV-KT kiểm tra tính đúng của từng bút toán so với chứng từ gốc.
 3. Chạy các đối chiếu cơ học: tổng phát sinh nợ bằng tổng phát sinh có, số dư đầu kỳ bằng số dư cuối kỳ trước, tổng bảng kê bằng số trên tờ khai.
 4. Đọc lại toàn bộ hồ sơ một lượt sau khi đã nghỉ ít nhất 30 phút kể từ lúc làm xong. Quy định nội bộ oBacker: không được tự kiểm ngay lập tức sau khi vừa làm xong, vì mắt còn quen với số liệu vừa nhập.
-5. Đối chiếu với hồ sơ kỳ liền trước, giải thích được mọi biến động lớn.
-6. Lập danh sách các vấn đề chưa xử lý được và chuyển kèm hồ sơ.
-7. Ký Phiếu tự kiểm.
+5. CV-KT đối chiếu với hồ sơ kỳ liền trước, giải thích được mọi biến động lớn.
+6. CV-KT lập danh sách các vấn đề chưa xử lý được và chuyển kèm hồ sơ.
+7. CV-KT ký Phiếu tự kiểm.
 
 **Tự kiểm KHÔNG LÀM:**
 
@@ -208,15 +208,15 @@ Ba việc trên không phải ba lần làm lại cùng một việc. Mỗi vi�
 
 1. Soát theo bảng kiểm tại mục 6.3, đúng loại đầu ra.
 2. Soát mẫu chứng từ theo quy tắc lấy mẫu tại mục 6.5.
-3. Kiểm tra Phiếu tự kiểm của CV-KT có được làm thật hay không. Nếu không có Phiếu tự kiểm, trả lại hồ sơ và không bắt đầu soát.
-4. Đặt câu hỏi phân tích: biến động này có hợp lý với hoạt động thực tế của khách không, tỷ lệ này có bất thường không.
-5. Kiểm tra các điểm mà CV-KT hay sai theo lịch sử lỗi của chính CV-KT đó.
-6. Ghi nhận mọi lỗi phát hiện vào Sổ ghi nhận lỗi, kể cả lỗi nhỏ đã sửa xong ngay.
+3. TL-KT kiểm tra Phiếu tự kiểm của CV-KT có được làm thật hay không. Nếu không có Phiếu tự kiểm, trả lại hồ sơ và không bắt đầu soát.
+4. TL-KT đặt câu hỏi phân tích: biến động này có hợp lý với hoạt động thực tế của khách không, tỷ lệ này có bất thường không.
+5. TL-KT kiểm tra các điểm mà CV-KT hay sai theo lịch sử lỗi của chính CV-KT đó.
+6. TL-KT ghi nhận mọi lỗi phát hiện vào Sổ ghi nhận lỗi, kể cả lỗi nhỏ đã sửa xong ngay.
 7. Quyết định có mở rộng mẫu hay không.
 8. Khi phát hiện sai thì tùy khối lượng và mức độ mà TỰ SỬA hoặc trả về CV-KT sửa. Trả về là mặc định; tự sửa là ngoại lệ và phải ghi rõ trên Phiếu soát xét và chốt.
 9. Trả lời bảng kiểm chốt tại mục 6.4 và quyết định các việc thuộc thẩm quyền TL-KT tại mục 6.4.3.
-10. Đánh giá tổng thể mức rủi ro của hồ sơ và của khách hàng trong kỳ.
-11. Ký chốt để phát hành hoặc nộp, và ký Phiếu soát xét và chốt.
+10. TL-KT đánh giá tổng thể mức rủi ro của hồ sơ và của khách hàng trong kỳ.
+11. TL-KT ký chốt để phát hành hoặc nộp, và ký Phiếu soát xét và chốt.
 12. Chịu trách nhiệm cuối cùng về mặt kỹ thuật đối với đầu ra.
 
 **Lớp 1 KHÔNG LÀM:**
@@ -730,14 +730,14 @@ Quy định nội bộ oBacker.
 
 #### 6.7.4. Nội dung một cuộc soát xét độc lập
 
-1. Kiểm tra sự tồn tại của dấu vết: có Phiếu tự kiểm của CV-KT và Phiếu soát xét và chốt của TL-KT cho từng đầu ra trong kỳ soát không.
-2. Kiểm tra chất lượng dấu vết: bảng kiểm có được tick thật không, hay tick hàng loạt cho có.
+1. COO kiểm tra sự tồn tại của dấu vết: có Phiếu tự kiểm của CV-KT và Phiếu soát xét và chốt của TL-KT cho từng đầu ra trong kỳ soát không.
+2. COO kiểm tra chất lượng dấu vết: bảng kiểm có được tick thật không, hay tick hàng loạt cho có.
 3. Soát lại độc lập một mẫu nghiệp vụ để tìm lỗi mà lớp 1 đã bỏ sót.
 4. Rà riêng các phần việc do chính TL-KT vừa làm vừa soát, vì đây là chỗ không có hai người.
-5. Đối chiếu Sổ ghi nhận lỗi với thực tế: có lỗi nào đã xảy ra mà không được ghi nhận không.
-6. Kiểm tra tính đầy đủ của Hồ sơ khách hàng chuẩn theo Chương 20.
+5. COO đối chiếu Sổ ghi nhận lỗi với thực tế: có lỗi nào đã xảy ra mà không được ghi nhận không.
+6. COO kiểm tra tính đầy đủ của Hồ sơ khách hàng chuẩn theo Chương 20.
 7. Phỏng vấn CV-KT, TL-KT và AM phụ trách về những khó khăn trong việc tuân thủ quy trình.
-8. Đánh giá ba dấu hiệu tại mục 6.1.6 có bị chạm hay không.
+8. COO đánh giá ba dấu hiệu tại mục 6.1.6 có bị chạm hay không.
 9. Kết luận: hệ thống hoạt động tốt, hoạt động có khiếm khuyết, hoặc không hoạt động.
 
 #### 6.7.5. Báo cáo kết quả
@@ -973,4 +973,4 @@ Chỉ số của chính chương này, đo mức độ chương được thực 
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 04/10/2026 | R.1.0.1 | Sửa từ ngữ ở chương kiểm soát chất lượng. |
+| 07/10/2026 | R.1.0.2 | Mười sáu bước ba lớp kiểm soát chất lượng: tự kiểm có chủ thể CV-KT, soát xét có chủ thể TL-KT, hậu kiểm độc lập có chủ thể COO |

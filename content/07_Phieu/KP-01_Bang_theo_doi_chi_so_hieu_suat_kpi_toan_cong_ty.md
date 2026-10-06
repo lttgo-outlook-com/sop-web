@@ -4,7 +4,7 @@ code: "KP-01"
 type: "sop"
 folder: "07_Phieu"
 level: "Phiếu thao tác"
-version: "R.2.0.0"
+version: "R.2.0.1"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -25,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | KP-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.2.0.0, đang áp dụng |
+| Phiên bản | R.2.0.1, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -223,7 +223,7 @@ Khi một chỉ số rơi vào vùng cảnh báo Vàng hoặc vùng nguy hại �
 - **Tín hiệu Vàng (Cảnh báo lệch chuẩn):**
   - Trưởng bộ phận chủ quản phải lập Phiếu phân tích nguyên nhân gốc trong thời hạn tối đa 02 ngày làm việc.
   - Ban hành kế hoạch hành động khắc phục, phân công người chịu trách nhiệm và mốc thời gian hoàn thành cụ thể (không quá 10 ngày làm việc).
-  - Báo cáo kết quả rà soát cho `COO` tại buổi giao ban tuần kế tiếp.
+  - Trưởng bộ phận chủ quản báo cáo kết quả rà soát cho `COO` tại buổi giao ban tuần kế tiếp.
 - **Tín hiệu Đỏ (Báo động sự cố nghiêm trọng):**
   - Trưởng bộ phận phải gửi thông báo khẩn cấp cho `COO` và `CEO` trong thời hạn tối đa 04 giờ làm việc kể từ thời điểm phát hiện.
   - Tổ chức cuộc họp bất thường trong 24 giờ gồm Ban Điều hành và các bên liên quan để thiết lập phương án khoanh vùng xử lý.
@@ -236,4 +236,4 @@ Khi một chỉ số rơi vào vùng cảnh báo Vàng hoặc vùng nguy hại �
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 06/10/2026 | R.2.0.0 | Đổi nguồn dữ liệu chỉ số QC-07 từ bảng GP-01 sang trục thủ tục hành chính của sổ TH-02 |
+| 07/10/2026 | R.2.0.1 | Bước báo cáo kết quả rà soát cho COO tại giao ban tuần có chủ thể Trưởng bộ phận chủ quản |

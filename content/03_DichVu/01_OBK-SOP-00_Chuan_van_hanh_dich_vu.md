@@ -4,7 +4,7 @@ code: "OBK-SOP-00"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 1, văn bản KHUNG toàn công ty"
-version: "R.4.0.2"
+version: "R.4.0.3"
 status: "đang áp dụng"
 draft_date: "04/10/2026"
 author: "CEO"
@@ -27,7 +27,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-SOP-00 |
 | Cấp tài liệu | Cấp 1, văn bản KHUNG toàn công ty |
-| Phiên bản | R.4.0.2, đang áp dụng |
+| Phiên bản | R.4.0.3, đang áp dụng |
 | Ngày biên soạn | 04/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 02/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -207,8 +207,8 @@ Cả các lớp áp dụng cho Job phải để lại dấu vết trên Job.
 
 **Ngoại lệ duy nhất, `CEO` quyết ngày 26/08/2026.** Phần việc do chính Team Lead TRỰC TIẾP LÀM thì Team Lead tự soát và tự chốt phần đó, và không bắt buộc một Team Lead khác đọc lại. Ngoại lệ chỉ áp cho phần việc cần xét đoán nghiệp vụ do chính Team Lead làm; phần việc do người khác làm vẫn phải đủ số lớp theo Tier. Ba việc bù trừ là bắt buộc, thiếu một việc thì ngoại lệ không có hiệu lực:
 
-1. Ghi rõ trên phiếu soát xét và chốt phần nào do chính Team Lead làm.
-2. Ghi rõ trên chính phiếu đó rằng phần đó KHÔNG CÓ LỚP SOÁT THỨ HAI.
+1. Team Lead ghi rõ trên phiếu soát xét và chốt phần nào do chính Team Lead làm.
+2. Team Lead ghi rõ trên chính phiếu đó rằng phần đó KHÔNG CÓ LỚP SOÁT THỨ HAI.
 3. Lớp hậu kiểm phải ưu tiên lấy mẫu đúng vào các phần đó.
 
 **Phạm vi và hệ quả của ngoại lệ.** Ngoại lệ nêu trên là một mô hình một lớp soát do `CEO` quyết, không phải chuẩn của oBacker. Trong phạm vi ngoại lệ đó, không có người thứ hai xác nhận trước khi đầu ra rời bộ phận. Ba việc bù trừ nêu ngay trên là điểm kiểm soát bù cho lớp hai; ba dấu hiệu tại bảng dưới đây buộc phải thêm lớp soát thứ hai.
@@ -1033,4 +1033,4 @@ Mốc đếm từ ngày ghi nhận tại `RD-01`. Với văn bản mức ưu ti�
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 05/10/2026 | R.4.0.2 | Sửa lỗi lặp từ 'hành hành' ở hàng nhật ký bản R.4.0.1. |
+| 07/10/2026 | R.4.0.3 | Ngoại lệ NT-5: hai việc bù trừ (ghi rõ phần do chính Team Lead làm và phần không có lớp soát thứ hai) có chủ thể Team Lead |

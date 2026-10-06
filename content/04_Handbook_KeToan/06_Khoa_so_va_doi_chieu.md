@@ -4,7 +4,7 @@ code: "OBK-HB-06"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.1"
+version: "R.1.0.2"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -27,7 +27,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-HB-06 |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.1.0.1, đang áp dụng |
+| Phiên bản | R.1.0.2, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -246,13 +246,13 @@ Vòng 1, do CV-KT thực hiện:
 1. Xác định chênh lệch thuộc phần hành nào và thuộc khoảng thời gian nào.
 2. Chia đôi khoảng thời gian, so số dư giữa kỳ để thu hẹp phạm vi.
 3. Lọc các bút toán có giá trị bằng đúng số chênh lệch, bằng một nửa số chênh lệch (dấu hiệu ghi ngược chiều), hoặc bằng chín lần một số (dấu hiệu đảo chữ số).
-4. Đối chiếu từng bút toán trong phạm vi đã thu hẹp với chứng từ gốc.
+4. CV-KT đối chiếu từng bút toán trong phạm vi đã thu hẹp với chứng từ gốc.
 
 Vòng 2, do TL-KT thực hiện nếu vòng 1 không tìm ra:
 
-1. Kiểm tra bút toán tự động do `[PHẦN MỀM KẾ TOÁN]` sinh ra: kết chuyển, phân bổ, tính giá xuất kho.
-2. Kiểm tra bút toán được sửa sau khi đã đối chiếu, dựa vào nhật ký dấu vết sửa chữa của phần mềm `[TT99 Đ.28 k.1 đ.b]`.
-3. Kiểm tra số dư đầu kỳ, đặc biệt với kỳ đầu tiên sau khi chuyển đổi chế độ kế toán.
+1. TL-KT kiểm tra bút toán tự động do `[PHẦN MỀM KẾ TOÁN]` sinh ra: kết chuyển, phân bổ, tính giá xuất kho.
+2. TL-KT kiểm tra bút toán được sửa sau khi đã đối chiếu, dựa vào nhật ký dấu vết sửa chữa của phần mềm `[TT99 Đ.28 k.1 đ.b]`.
+3. TL-KT kiểm tra số dư đầu kỳ, đặc biệt với kỳ đầu tiên sau khi chuyển đổi chế độ kế toán.
 4. Nếu vẫn không tìm ra, chuyển nhóm E và báo TL-KT.
 
 ### 5.5. CHUYỂN ĐỔI SỐ DƯ TỪ CHẾ ĐỘ CŨ SANG THÔNG TƯ 99/2025/TT-BTC
@@ -485,4 +485,4 @@ Bảng kiểm năm gồm TOÀN BỘ 45 dòng của bảng kiểm tháng tại m�
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 04/10/2026 | R.1.0.1 | Chuan hoa van phong hanh chinh, sua loi bang kiem N01, bo so dem tieu de va chuyen callout sang can cu phap ly |
+| 07/10/2026 | R.1.0.2 | Bước ghi nhận tiền phạt vi phạm hành chính và tiền chậm nộp thuế vào Tài khoản 811 có chủ thể CV-KT |

@@ -4,7 +4,7 @@ code: "OBK-HB-12"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.1"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "04/10/2026"
 author: "CEO"
@@ -30,7 +30,7 @@ tags:
 | Mã tài liệu | OBK-HB-12 |
 | Tên chương | Hóa đơn điện tử |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.1.0.1, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 04/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -68,7 +68,7 @@ tags:
 - Xử lý hóa đơn điện tử đã lập có sai sót;
 - Đối chiếu hóa đơn với doanh thu ghi nhận và với tờ khai thuế giá trị gia tăng Mẫu 01/GTGT `[TT 89/2026 Phụ lục I]`.
 
-2.3. Không thuộc phạm vi: quy trình kỹ thuật thao tác trên từng phần mềm hóa đơn cụ thể, ghi tại Phụ lục D.
+2.3. Không thuộc phạm vi: quy trình kỹ thuật thao tác trên từng phần mềm hóa đơn cụ thể.
 
 ---
 
@@ -1132,6 +1132,4 @@ Mẫu tờ khai thuế liên quan tới nghiệp vụ đối chiếu hóa đơn 
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 06/10/2026 | R.1.0.2 | Đồng bộ chương 12: "khung mười mục" thành "khung chín mục" (mục "Căn cứ pháp lý" ra khỏi khuôn cấp 3 ngày 06/10/2026) |
-| 04/10/2026 | R.1.0.1 | Chuan hoa van phong hanh chinh, bo so dem tai cac tieu de muc, chuyen cac callout can xac minh sang quy dinh chuan muc va go phu luc chua xac minh khoi ban publish |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 07/10/2026 | R.1.1.0 | Gỡ tham chiếu Phụ lục D (tệp đã xóa) khỏi mục 2.3 về phạm vi áp dụng |

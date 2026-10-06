@@ -4,7 +4,7 @@ code: "OBK-HB-61"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.0"
+version: "R.1.0.1"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -27,7 +27,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-HB-61 |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.0.1, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 27/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -88,22 +88,22 @@ Quy trình rà soát hợp đồng kinh tế được thực hiện qua 6 bướ
 
 ### Bước 1: Tiếp nhận và phân loại độ phức tạp của hợp đồng
 - `CV-LS` tiếp nhận dự thảo và thông tin bối cảnh từ `AM` qua Hệ thống quản lý công việc và lưu trữ hồ sơ.
-- Phân loại độ phức tạp theo chuẩn quy định tại [[06_OBK-SOP-LS_Dich_vu_phap_ly|OBK-SOP-LS]] mục 2.1:
+- `CV-LS` phân loại độ phức tạp theo chuẩn quy định tại [[06_OBK-SOP-LS_Dich_vu_phap_ly|OBK-SOP-LS]] mục 2.1:
   * Mức độ 1 (Đơn giản): Hợp đồng mẫu chuẩn, mua bán hàng hóa tiêu chuẩn, giá trị ít hơn 500 triệu đồng.
   * Mức độ 2 (Trung bình): Hợp đồng dịch vụ chuyên môn, thuê văn phòng, giá trị từ 500 triệu đồng đến 05 tỷ đồng.
   * Mức độ 3 (Phức tạp): Hợp đồng hợp tác kinh doanh, thầu xây dựng, chuyển giao công nghệ, hợp đồng có yếu tố nước ngoài hoặc giá trị từ 05 tỷ đồng trở lên.
 
 ### Bước 2: Thẩm định tư cách pháp lý và thẩm quyền ký kết
-- Tra cứu mã số doanh nghiệp của đối tác trên Hệ thống thông tin đăng ký doanh nghiệp trực tuyến:
+- `CV-LS` tra cứu mã số doanh nghiệp của đối tác trên Hệ thống thông tin đăng ký doanh nghiệp trực tuyến:
   * Tình trạng hoạt động: Đang hoạt động, hay Đang làm thủ tục giải thể, Tạm ngừng kinh doanh, Không hoạt động tại địa chỉ đã đăng ký.
   * Người đại diện theo pháp luật: Đối chiếu họ tên, chức danh người đại diện với người đứng tên ký hợp đồng.
-- Kiểm tra Giấy ủy quyền:
+- `CV-LS` kiểm tra Giấy ủy quyền:
   * Người ủy quyền phải là người đại diện theo pháp luật có thẩm quyền theo Điều lệ;
   * Phạm vi ủy quyền phải bao gồm quyền đàm phán, ký kết loại hợp đồng cụ thể này;
   * Thời hạn ủy quyền phải còn hiệu lực tại ngày ký dự kiến;
-  * Kiểm tra điều khoản ủy quyền lại: Không chấp nhận người được ủy quyền lại ký hợp đồng trừ khi văn bản ủy quyền gốc cho phép rõ ràng.
-- Kiểm tra phê duyệt nội bộ:
-  * Đối chiếu giá trị hợp đồng với quy định tại Điều lệ và Điều 67, Điều 162 Luật Doanh nghiệp số 59/2020/QH14.
+  * `CV-LS` kiểm tra điều khoản ủy quyền lại: Không chấp nhận người được ủy quyền lại ký hợp đồng trừ khi văn bản ủy quyền gốc cho phép rõ ràng.
+- `CV-LS` kiểm tra phê duyệt nội bộ:
+  * `CV-LS` đối chiếu giá trị hợp đồng với quy định tại Điều lệ và Điều 67, Điều 162 Luật Doanh nghiệp số 59/2020/QH14.
   * Hợp đồng có giá trị từ $35\%$ trở lên (hoặc tỷ lệ khác quy định tại Điều lệ) tổng giá trị tài sản ghi trên báo cáo tài chính gần nhất, hoặc giao dịch với người có liên quan, bắt buộc phải có Nghị quyết chấp thuận của Hội đồng thành viên, Hội đồng quản trị hoặc Đại hội đồng cổ đông.
 
 ### Bước 3: Rà soát chi tiết theo Bảng kiểm các điểm rủi ro cốt lõi
@@ -151,15 +151,15 @@ Quy trình rà soát hợp đồng kinh tế được thực hiện qua 6 bướ
   2. Bảng tổng hợp các rủi ro phát hiện phân theo 3 mức độ (Nghiêm trọng, Đáng kể, Nhỏ);
   3. Bảng đối chiếu điều khoản: Cột 1 Điều khoản dự thảo gốc $\rightarrow$ Cột 2 Đánh giá rủi ro pháp lý $\rightarrow$ Cột 3 Đề xuất câu chữ sửa đổi cụ thể $\rightarrow$ Cột 4 Căn cứ pháp lý áp dụng;
   4. Đề xuất phương án đàm phán an toàn cho khách hàng.
-- Xuất bản dự thảo hợp đồng có kèm ghi vết sửa đổi.
+- `CV-LS` xuất bản dự thảo hợp đồng có kèm ghi vết sửa đổi.
 
 ### Bước 5: Soát xét chất lượng và phê duyệt nội bộ
 - `TL-LS` soát xét độc lập Bản ghi nhớ và bản dự thảo sửa đổi trong vòng 04 giờ làm việc.
-- Kiểm tra tính logic của lập luận, tính hợp lý của phương án đàm phán và việc viện dẫn chính xác các điều khoản luật.
+- `TL-LS` kiểm tra tính logic của lập luận, tính hợp lý của phương án đàm phán và việc viện dẫn chính xác các điều khoản luật.
 - Trường hợp có điều khoản độ lệch lớn (rủi ro pháp lý nhóm 3: miễn trừ trách nhiệm vô căn cứ, giá trị tranh chấp vượt thẩm quyền), `TL-LS` lập phiếu xin ý kiến `CEO` phê duyệt trước khi phát hành.
 
 ### Bước 6: Bàn giao kết quả và hỗ trợ đàm phán
-- Chuyển giao toàn bộ sản phẩm hoàn chỉnh cho `AM` để chuyển đến khách hàng.
+- `CV-LS` chuyển giao toàn bộ sản phẩm hoàn chỉnh cho `AM` để chuyển đến khách hàng.
 - Phối hợp `AM` tổ chức cuộc họp giải thích nội dung rà soát cho khách hàng (nếu có yêu cầu).
 
 ## 6. ĐIỂM KIỂM SOÁT BẮT BUỘC
@@ -244,4 +244,4 @@ Quy trình rà soát hợp đồng kinh tế được thực hiện qua 6 bướ
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 07/10/2026 | R.1.0.1 | Tám bước thẩm định, soạn thảo và bàn giao sản phẩm pháp lý (phân loại độ phức tạp, tra mã số doanh nghiệp, kiểm tra ủy quyền, kiểm tra phê duyệt nội bộ, xuất bản dự thảo, chuyển giao cho AM...) có chủ thể CV-LS; bước kiểm tra tính logic của lập luận và phương án đàm phán có chủ thể TL-LS |

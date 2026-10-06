@@ -4,7 +4,7 @@ code: "OBK-HB-05"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.1"
+version: "R.1.0.2"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -27,7 +27,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-HB-05 |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.1.0.1, đang áp dụng |
+| Phiên bản | R.1.0.2, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -149,7 +149,7 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 
 ### 5.2. Trình tự chung áp dụng cho mọi phần hành
 
-1. Đối chiếu chứng từ nhận được với danh mục chứng từ bắt buộc của phần hành. Tiêu chí hoàn thành: có bảng kê chứng từ nhận và bảng kê chứng từ thiếu.
+1. CV-KT đối chiếu chứng từ nhận được với danh mục chứng từ bắt buộc của phần hành. Tiêu chí hoàn thành: có bảng kê chứng từ nhận và bảng kê chứng từ thiếu.
 2. Kiểm tra tính hợp lệ hình thức của chứng từ: đủ nội dung theo Điều 16 Luật Kế toán, đúng người ký, chỉ lập một lần cho mỗi nghiệp vụ `[TT99 Đ.10 k.1]`. Tiêu chí hoàn thành: chứng từ không hợp lệ đã được tách riêng và ghi vào nhật ký chứng từ lỗi.
 3. Định khoản theo đúng số hiệu và tên tài khoản Phụ lục II Thông tư 99/2025/TT-BTC. Tiêu chí hoàn thành: không còn bút toán còn tồn trên tài khoản trung gian không giải thích được.
 4. Chạy sổ chi tiết của phần hành và đối chiếu với nguồn độc lập bên ngoài. Tiêu chí hoàn thành: chênh lệch bằng không, hoặc chênh lệch đã được phân loại theo bảng xử lý chênh lệch tại Chương 06.
@@ -425,7 +425,7 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 2. Xác định giá xuất kho theo phương pháp khách đã đăng ký và áp dụng nhất quán. Tiêu chí hoàn thành: phương pháp tính giá xuất kho được ghi trong hồ sơ khách và không đổi giữa các kỳ trong năm.
 3. Với doanh nghiệp sản xuất, tập hợp chi phí vào TK 621, 622, 627 hoặc TK 623 với hoạt động xây lắp, kết chuyển sang TK 154 và tính giá thành. Tiêu chí hoàn thành: bảng tính giá thành có đối chiếu với định mức tiêu hao.
 4. Kết chuyển giá vốn sang TK 632 tương ứng với doanh thu đã ghi nhận. Tiêu chí hoàn thành: tỷ lệ lãi gộp theo từng nhóm hàng nằm trong khoảng hợp lý, không có nhóm hàng lãi gộp âm không giải thích được.
-5. Đối chiếu số lượng và giá trị tồn kho trên sổ với thẻ kho và biên bản kiểm kê. Tiêu chí hoàn thành: chênh lệch bằng không hoặc đã lập biên bản.
+5. CV-KT đối chiếu số lượng và giá trị tồn kho trên sổ với thẻ kho và biên bản kiểm kê. Tiêu chí hoàn thành: chênh lệch bằng không hoặc đã lập biên bản.
 6. Rà hàng tồn kho chậm luân chuyển, hư hỏng, hết hạn để chuẩn bị hồ sơ dự phòng hoặc hồ sơ hủy hàng. Tiêu chí hoàn thành: danh sách đã lập và đã gửi khách.
 
 #### 5.6.4. Sổ kế toán sử dụng
@@ -501,7 +501,7 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 3. Tính khấu hao theo tháng, lập Bảng tính và phân bổ khấu hao TSCĐ mẫu 06 - TSCĐ, phân bổ vào TK 6274, 6414, 6424 hoặc TK 6234 theo bộ phận sử dụng. Tiêu chí hoàn thành: tổng khấu hao trên bảng khớp phát sinh có TK 214.
 4. Phân bổ công cụ dụng cụ và chi phí chờ phân bổ từ TK 242 vào chi phí kỳ. Tiêu chí hoàn thành: bảng phân bổ có ghi rõ giá trị ban đầu, số kỳ phân bổ, số đã phân bổ lũy kế, số còn lại.
 5. Ghi nhận thanh lý, nhượng bán tài sản: kết chuyển nguyên giá và hao mòn lũy kế, ghi nhận thu nhập khác TK 711 và chi phí khác TK 811. Tiêu chí hoàn thành: có Biên bản thanh lý TSCĐ và hóa đơn bán tài sản.
-6. Đối chiếu danh mục tài sản trên sổ với biên bản kiểm kê tài sản. Tiêu chí hoàn thành: khớp về số lượng và trạng thái sử dụng.
+6. CV-KT đối chiếu danh mục tài sản trên sổ với biên bản kiểm kê tài sản. Tiêu chí hoàn thành: khớp về số lượng và trạng thái sử dụng.
 
 #### 5.7.4. Sổ kế toán sử dụng
 
@@ -653,7 +653,7 @@ Lịch dưới đây áp dụng cho khách khai thuế GTGT theo tháng. Với k
 2. Tách các khoản chi phục vụ nhiều kỳ sang TK 242 và lập bảng phân bổ. Tiêu chí hoàn thành: bảng phân bổ đầy đủ ba mốc giá trị ban đầu, đã phân bổ, còn lại.
 3. Đánh dấu ngay tại thời điểm hạch toán các khoản thuộc danh mục không được trừ; hạch toán vào chi phí kế toán bình thường nhưng ghi mã theo dõi riêng để loại khi quyết toán. Tiêu chí hoàn thành: mỗi khoản đánh dấu có ghi căn cứ pháp lý tương ứng.
 4. Ghi nhận chi phí lãi vay vào TK 635; tách riêng phần lãi vay có rủi ro bị loại. Tiêu chí hoàn thành: có bảng theo dõi vốn điều lệ đã góp và tiến độ góp vốn theo điều lệ.
-5. Ghi nhận tiền phạt vi phạm hành chính và tiền chậm nộp thuế vào TK 811 và đánh dấu loại khi quyết toán. Tiêu chí hoàn thành: 100% khoản phạt được đánh dấu.
+5. CV-KT ghi nhận tiền phạt vi phạm hành chính và tiền chậm nộp thuế vào TK 811 và đánh dấu loại khi quyết toán. Tiêu chí hoàn thành: 100% khoản phạt được đánh dấu.
 
 #### 5.9.4. Điểm kiểm soát
 
@@ -866,4 +866,4 @@ Nếu còn thấy các số hiệu tại C.1, C.2, C.3 trên sổ của khách v
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 04/10/2026 | R.1.0.1 | Chuan hoa van phong hanh chinh va quy cach trinh bay callout thoi han theo phap luat va tai khoan hang ton kho |
+| 07/10/2026 | R.1.0.2 | Ba bước đối chiếu chứng từ nhận, đối chiếu tồn kho và đối chiếu danh mục tài sản trong quy trình kế toán tháng có chủ thể CV-KT |

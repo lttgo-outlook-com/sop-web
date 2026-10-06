@@ -4,7 +4,7 @@ code: "OBK-HB-33"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.3.0.1"
+version: "R.3.0.2"
 status: "đang áp dụng"
 draft_date: "04/10/2026"
 author: "CEO"
@@ -25,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-HB-33 |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.3.0.1, đang áp dụng |
+| Phiên bản | R.3.0.2, đang áp dụng |
 | Ngày biên soạn | 04/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 07/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -94,7 +94,7 @@ Ba lý do.
 
 ### 5.3. Bước 3. Soạn đề xuất, trong 24 giờ
 
-Đề xuất đủ bảy phần, theo thứ tự này:
+AM đề xuất đủ bảy phần, theo thứ tự này:
 
 | # | Phần | Nội dung |
 | --- | --- | --- |
@@ -140,7 +140,7 @@ Trong lúc chờ, `AM` nói với khách đúng một câu: yêu cầu đang đ�
 
 ### 5.7. Bước 7. Thu tiền lần đầu và chuyển bàn giao nội bộ
 
-Gửi hợp đồng trong ngày khách đồng ý. Nhắc thanh toán tại T+1, T+3 và T+7. Hóa đơn do `KTT` kế toán nội bộ phát hành, `AM` không tự phát hành.
+AM gửi hợp đồng trong ngày khách đồng ý. Nhắc thanh toán tại T+1, T+3 và T+7. Hóa đơn do `KTT` kế toán nội bộ phát hành, `AM` không tự phát hành.
 
 Có xác nhận thanh toán thì sang `AM-06` trong 01 ngày làm việc, và tiếp tục theo hướng dẫn 04.
 
@@ -201,4 +201,4 @@ Có xác nhận thanh toán thì sang `AM-06` trong 01 ngày làm việc, và ti
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 04/10/2026 | R.3.0.1 | Chuyển số đếm liệt kê ở phần lý do thành quy định. |
+| 07/10/2026 | R.3.0.2 | Bước đề xuất báo giá đủ bảy phần và bước gửi hợp đồng, nhắc thanh toán T+1, T+3, T+7 có chủ thể AM |

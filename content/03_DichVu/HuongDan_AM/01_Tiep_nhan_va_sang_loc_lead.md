@@ -4,7 +4,7 @@ code: "OBK-HB-31"
 type: "sop"
 folder: "03_DichVu"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.1"
+version: "R.1.0.2"
 status: "đang áp dụng"
 draft_date: "04/10/2026"
 author: "CEO"
@@ -25,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-HB-31 |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.1.0.1, đang áp dụng |
+| Phiên bản | R.1.0.2, đang áp dụng |
 | Ngày biên soạn | 04/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 07/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -83,7 +83,7 @@ Câu chữ mẫu tại `PL_A_Cau_chu_mau.md` mục 1. Nội dung xác nhận ch�
 
 Tạo ngay sau bước 1. Đồng hồ chỉ bắt đầu đếm từ khi yêu cầu được ghi nhận trên `[HỆ THỐNG QUẢN LÝ CÔNG VIỆC]`, nên lead chưa vào hệ thống là lead chưa có mốc.
 
-Đặt tên theo khuôn `TÊN KHÁCH_NỘI DUNG_KỲ` tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 3. Với lead thì phần kỳ ghi tháng vào lead.
+AM đặt tên theo khuôn `TÊN KHÁCH_NỘI DUNG_KỲ` tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 3. Với lead thì phần kỳ ghi tháng vào lead.
 
 Ghi nguồn khách vào bản ghi lead: kênh tự đến, đối tác giới thiệu kèm mã đăng ký giới thiệu, hoặc kênh khác. Lead từ kênh khác thì tra sổ đăng ký giới thiệu trước khi nhận; khách trùng sổ đăng ký thì chuyển thông tin cho `PM-02` theo OBK-SOP-PM. Lead nhận từ `PM-05` đã mang mã đăng ký giới thiệu, không phải tra lại.
 
@@ -170,4 +170,4 @@ Chỉ làm sau khi bước 5 kết luận NHẬN, hoặc sau khi `CEO` đã quy�
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 04/10/2026 | R.1.0.1 | Chuyển số đếm liệt kê ở phần mục đích của hướng dẫn tiếp nhận và sàng lọc lead thành quy định. |
+| 07/10/2026 | R.1.0.2 | Bước đặt tên hồ sơ theo khuôn tên khách, nội dung, kỳ có chủ thể AM |

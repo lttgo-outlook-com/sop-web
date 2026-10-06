@@ -2,7 +2,7 @@
 title: "ĐIỀU KHOẢN DỊCH VỤ NHÂN SỰ (PL-NS)"
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.0.0"
+version: "R.1.0.3"
 status: "đang áp dụng"
 language: "vi"
 distribution: "Khách hàng"
@@ -16,7 +16,7 @@ tags:
 *Điều Khoản Dịch Vụ Cụ Thể, bộ phận không tách rời của Bản Điều Khoản Chung; Công ty Cổ phần oBacker*
 MST: 0402298185 · Tầng 2, 06 Trần Phú, Phường Hải Châu, TP Đà Nẵng, Việt Nam · contact@obacker.com
 
-**Phiên bản:** R.1.0.0 (VI-EN) · **Cập nhật:** 01/10/2026
+**Phiên bản:** R.1.0.3 (VI-EN) · **Cập nhật:** 07/10/2026
 
 > Tài liệu này là Điều Khoản Dịch Vụ Cụ Thể cho Dịch Vụ Nhân Sự ("**Dịch Vụ**"): tiền lương, thuế TNCN từ tiền lương, bảo hiểm bắt buộc (BHXH-BHYT-BHTN), hợp đồng và báo cáo lao động. Tài liệu áp dụng khi Dịch Vụ được ghi tại Đơn Đặt Hàng. **Nếu tài liệu này khác với Bản Điều Khoản Chung, tài liệu này được ưu tiên áp dụng đối với Dịch Vụ.**
 
@@ -35,7 +35,7 @@ Cơ sở pháp lý chính: **Bộ luật Lao động 2019**; **Luật Bảo hi�
 - Thiết lập Khung tính lương phù hợp gói dịch vụ và thỏa thuận với Quý Khách
 - Chạy bảng tính lương hàng tháng dựa trên dữ liệu công, phép, làm thêm giờ, thưởng, phụ cấp và biến động do Quý Khách xác nhận, áp dụng theo Khung đã thống nhất
 - Tính các khoản khấu trừ theo lương (TNCN, phần BHXH-BHYT-BHTN của người lao động, công đoàn nếu có)
-- Phát hành phiếu lương cho từng người lao động qua kênh do Quý Khách chỉ định.
+- oBacker phát hành phiếu lương cho từng người lao động qua kênh do Quý Khách chỉ định.
 
 **Giới hạn tùy biến.** oBacker tính lương theo Khung đã thống nhất và các quy tắc tiêu chuẩn hoặc ít tùy biến. Nếu Quý Khách có **cơ chế tính lương/chấm công phức tạp hoặc tùy biến cao vượt Khung** (ví dụ: công thức chấm công đặc thù nhiều biến số, KPI/hoa hồng phức tạp, ca kíp không chuẩn…), hai Bên thống nhất một trong các phương án: (i) Quý Khách cung cấp sẵn số liệu đã xử lý phần phức tạp để oBacker đưa vào bảng lương; (ii) đơn giản hóa quy tắc để đưa vào Khung; hoặc (iii) thực hiện như dịch vụ bổ sung ngoài gói (tính phí riêng) nếu khả thi. **oBacker không can thiệp vào quy trình hoặc hệ thống nội bộ của Quý Khách.**
 
@@ -53,7 +53,7 @@ Cơ sở pháp lý chính: **Bộ luật Lao động 2019**; **Luật Bảo hi�
 
 - Đăng ký mã đơn vị BHXH (khi thiết lập); báo tăng, báo giảm, chốt sổ và điều chỉnh thông tin (khi có ủy quyền hợp lệ)
 - Đối soát số tiền phải đóng hàng kỳ và thông báo cho Quý Khách (xem Điều 5)
-- Xử lý hồ sơ quyền lợi ốm đau, thai sản trong phạm vi thủ tục BHXH.
+- oBacker xử lý hồ sơ quyền lợi ốm đau, thai sản trong phạm vi thủ tục BHXH.
 
 Tỷ lệ đóng tham chiếu (trên lương đã đăng ký):
 
@@ -66,7 +66,7 @@ Tỷ lệ đóng tham chiếu (trên lương đã đăng ký):
 
 **2.4. Hợp đồng và báo cáo lao động:**
 
-- Soạn hợp đồng lao động, phụ lục, thỏa thuận bảo mật (NDA) theo **biểu mẫu chuẩn** cho nhân sự nội bộ của Quý Khách
+- oBacker soạn hợp đồng lao động, phụ lục, thỏa thuận bảo mật (NDA) theo **biểu mẫu chuẩn** cho nhân sự nội bộ của Quý Khách
 - Báo cáo sử dụng lao động, báo cáo tình hình thay đổi lao động và các báo cáo bắt buộc tương tự
 - Hỗ trợ đăng ký nội quy lao động với cơ quan có thẩm quyền.
 
@@ -162,4 +162,5 @@ Phí Dịch Vụ được xác định theo Đơn Đặt Hàng (thường theo �
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 07/10/2026 | R.1.0.3 | Bổ sung chủ ngữ oBacker cho ba nhóm việc thuộc phạm vi Dịch Vụ (phiếu lương, hồ sơ ốm đau thai sản, soạn hợp đồng lao động và phụ lục); đồng bộ số bản với bản tiếng Anh |
 | 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |

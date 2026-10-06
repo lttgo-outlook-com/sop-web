@@ -2,7 +2,7 @@
 title: "ACCOUNTING & TAX SERVICE TERMS (PL-KT)"
 type: "tnc"
 folder: "09_TnC"
-version: "R.2.3.0"
+version: "R.2.3.1"
 status: "đang áp dụng"
 language: "en"
 distribution: "Khách hàng"
@@ -16,7 +16,7 @@ tags:
 *Service-Specific Terms, an integral part of the Master T&C; oBacker Joint Stock Company*
 Tax code: 0402298185 · Floor 2, 06 Tran Phu Street, Hai Chau Ward, Da Nang, Vietnam · contact@obacker.com
 
-**Version:** R.2.3.0 (VI-EN) · **Updated:** 02/10/2026
+**Version:** R.2.3.1 (VI-EN) · **Updated:** 07/10/2026
 
 > These are the Service-Specific Terms for the Accounting & Tax Services (the "**Services**"), covering two components: (A) Accounting and (B) Corporate Tax (VAT, CIT, Foreign Contractor Tax (FCT), and e-invoices). They apply where the Services are recorded in the Order Form. **If these Terms differ from the Master T&C, these Terms prevail for the Services.**
 >
@@ -49,10 +49,10 @@ The monthly Transaction threshold per package is stated in the Order Form. When 
 **2.1. Scope of work:**
 
 - Receive bank statements, invoices, and supporting documents; record and classify each Transaction under the **Vietnamese Accounting System**: applying Circular No. 58/2026/TT-BTC for Vietnamese micro enterprises; applying Circular No. 99/2025/TT-BTC for 100% of foreign-invested enterprises (FDI) and growing Vietnamese enterprises per the Order Form
-- Maintain the accounting books required by law
-- Close the books monthly; issue **monthly internal financial statements**
-- Prepare and file the **annual financial statements** (Balance Sheet, Income Statement, Cash Flow Statement, and Notes to the financial statements) with the tax authority on time
-- Reconcile figures against the documents provided by the Client and store electronic copies on oBacker's platform.
+- oBacker maintains the accounting books required by law
+- oBacker closes the books monthly; issues **monthly internal financial statements**
+- oBacker prepares and files the **annual financial statements** (Balance Sheet, Income Statement, Cash Flow Statement, and Notes to the financial statements) with the tax authority on time
+- oBacker reconciles figures against the documents provided by the Client and stores electronic copies on oBacker's platform.
 
 **2.2. Out of scope:**
 
@@ -65,10 +65,10 @@ The monthly Transaction threshold per package is stated in the Order Form. When 
 
 **3.1. Scope of work:**
 
-- Prepare and file tax returns periodically or as they arise: **VAT** and **Foreign Contractor Tax (FCT)**
+- oBacker prepares and files tax returns periodically or as they arise: **VAT** and **Foreign Contractor Tax (FCT)**
 - Provisional payment and **CIT finalisation**; prepare the annual CIT finalisation file
 - **Withhold and declare PIT on occasional income paid to individuals NOT on the payroll**; collaborators/contractors, freelancers under service contracts, and personal asset rentals (property, vehicles, etc.): withhold 10% where a single payment is VND 5 million or more (occasional income), or at the corresponding rate for asset rentals. This work is tied to an expense line recorded by Accounting and therefore falls under PL-KT
-- Track and notify the Client of tax obligations and payment deadlines
+- oBacker tracks and notifies the Client of tax obligations and payment deadlines
 - Support the explanation of processed figures during tax authority inspections, within the scope of a valid authorisation.
 
 > **PIT-on-salaries scope split:** PIT **on salaries** of employees under a labour contract (progressive withholding) is split into two workstreams. **Withholding and periodic PIT filing** fall under the **Accounting & Tax Services (PL-KT)**. The **annual PIT finalisation**, dependant registration, and withholding certificates for employees fall under the **HR, Payroll & Insurance Services (PL-NS)**. **Occasional** PIT paid to individuals off the payroll (collaborators, freelancers, personal asset rentals) falls under **PL-KT** (see above).
@@ -217,5 +217,6 @@ Service Fees are defined in the Order Form (by partner retainer package or actua
 
 | Date | Version | Description |
 | --- | --- | --- |
+| 07/10/2026 | R.2.3.1 | Subject oBacker added to the six service-scope bullets (accounting books, monthly close, annual financial statements, reconciliation, tax returns, tax obligation tracking) |
 | 02/10/2026 | R.2.3.0 | Article 8: penalty basis updated, noting that Decree No. 125/2020/ND-CP has been amended and supplemented by Decree No. 291/2026/ND-CP; current text per consolidated document 27/2026/VBHN-ND-BTC |
 

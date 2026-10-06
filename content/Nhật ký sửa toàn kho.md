@@ -36,46 +36,64 @@ tags:
 
 ## 1. Danh mục tài liệu
 
-Trang này ghi 273 lượt sửa thuộc các bản cũ của 137 tài liệu, tính tới 06/10/2026. Lượt sửa của bản hiện hành ghi tại mục NHẬT KÝ SỬA trong chính tài liệu đó.
+Trang này ghi 328 lượt sửa thuộc các bản cũ của 155 tài liệu, tính tới 06/10/2026. Lượt sửa của bản hiện hành ghi tại mục NHẬT KÝ SỬA trong chính tài liệu đó.
 
 | Tài liệu | Số lượt sửa | Ngày sửa gần nhất |
 | --- | --- | --- |
-| [[00_Muc_luc_va_cach_dung\|OBK-HB-00]] | 5 | 06/10/2026 |
+| [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] | 9 | 06/10/2026 |
+| [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] | 8 | 06/10/2026 |
+| [[00_Muc_luc_va_cach_dung\|OBK-HB-00]] | 6 | 06/10/2026 |
+| [[NH-01_Doi_chieu_ngan_hang\|NH-01]] | 4 | 06/10/2026 |
+| [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-QCTC-03]] | 4 | 06/10/2026 |
+| [[12_HD_Phuong_phap_tra_cuu_va_cap_nhat_phap_luat\|OBK-HB-71]] | 3 | 06/10/2026 |
 | [[BC-01_Bang_kiem_tra_sao_luu_du_lieu_va_ung_pho_su_co_bcp\|BC-01]] | 3 | 06/10/2026 |
-| [[NH-01_Doi_chieu_ngan_hang\|NH-01]] | 3 | 06/10/2026 |
+| [[KP-01_Bang_theo_doi_chi_so_hieu_suat_kpi_toan_cong_ty\|KP-01]] | 3 | 06/10/2026 |
+| [[OBK-SOP-NB-02_Thu_tien_va_cong_no_phai_thu\|OBK-SOP-NB-02]] | 3 | 06/10/2026 |
 | [[11_Thue_TNCN\|OBK-HB-11]] | 3 | 06/10/2026 |
+| [[12_Hoa_don_dien_tu\|OBK-HB-12]] | 3 | 06/10/2026 |
 | [[TH-02_So_theo_doi_han_tong_hop\|TH-02]] | 1 | 06/10/2026 |
-| [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] | 10 | 04/10/2026 |
-| [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] | 7 | 04/10/2026 |
+| [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] | 7 | 05/10/2026 |
+| [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo\|OBK-SOP-NB-00]] | 6 | 05/10/2026 |
+| [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] | 11 | 04/10/2026 |
 | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] | 7 | 04/10/2026 |
-| [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] | 6 | 04/10/2026 |
-| [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] | 6 | 04/10/2026 |
-| [[05_OBK-SOP-LD_Lao_dong_va_tien_luong\|OBK-SOP-LD]] | 6 | 04/10/2026 |
+| [[05_OBK-SOP-LD_Lao_dong_va_tien_luong\|OBK-SOP-LD]] | 7 | 04/10/2026 |
 | [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] | 6 | 04/10/2026 |
-| [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo\|OBK-SOP-NB-00]] | 5 | 04/10/2026 |
+| [[03_De_xuat_bao_gia_va_ky_hop_dong\|OBK-HB-33]] | 4 | 04/10/2026 |
 | [[07_OBK-SOP-RD_Nghien_cuu_phap_ly\|OBK-SOP-RD]] | 4 | 04/10/2026 |
 | [[PL_LIC_01_Quy_trinh_giay_phep_chuyen_nganh_va_so_huu_tri_tue\|OBK-SOP-LIC-PL-01]] | 4 | 04/10/2026 |
+| [[OBK-SOP-NB-06_Nghi_viec_va_offboarding_noi_bo\|OBK-SOP-NB-06]] | 4 | 04/10/2026 |
+| [[OBK-SOP-NB-10_Quan_ly_nghi_phep_va_lam_viec_tu_xa\|OBK-SOP-NB-10]] | 4 | 04/10/2026 |
+| [[08_Ket_thuc_va_ban_giao\|OBK-HB-38]] | 3 | 04/10/2026 |
 | [[04_Onboarding_khach_moi\|OBK-HB-34]] | 3 | 04/10/2026 |
 | [[LU-01_Bang_theo_doi_va_thanh_toan_tien_luong_chuan\|LU-01]] | 3 | 04/10/2026 |
 | [[08_OBK-SOP-PM_Chuong_trinh_doi_tac_gioi_thieu_khach_hang\|OBK-SOP-PM]] | 3 | 04/10/2026 |
 | [[17_Khung_xu_phat_va_phong_ngua\|OBK-SOP-17]] | 3 | 04/10/2026 |
-| [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-QCTC-03]] | 3 | 04/10/2026 |
 | [[02_Mo_hinh_dich_vu_va_phan_vai\|OBK-SOP-02]] | 2 | 04/10/2026 |
+| [[05_Quy_trinh_ke_toan_thang\|OBK-HB-05]] | 2 | 04/10/2026 |
+| [[06_Khoa_so_va_doi_chieu\|OBK-HB-06]] | 2 | 04/10/2026 |
 | [[07_Bao_cao_tai_chinh_nam\|OBK-HB-07]] | 2 | 04/10/2026 |
 | [[PL_3_Ban_do_lien_ket_va_chuyen_tang\|OBK-SOP-PL3]] | 2 | 04/10/2026 |
 | [[BH-01_Bang_theo_doi_bien_dong_bhxh_va_lao_dong_khach_hang\|BH-01]] | 2 | 04/10/2026 |
 | [[CN-01_So_theo_doi_cong_no_phai_thu_va_tuoi_no\|CN-01]] | 2 | 04/10/2026 |
+| [[GC-01_Bang_tinh_gia_thanh_dich_vu_va_bien_loi_nhuan_khach_hang\|GC-01]] | 2 | 04/10/2026 |
 | [[HH-02_Phieu_bao_cao_hoa_hong_thang\|HH-02]] | 2 | 04/10/2026 |
 | [[KH-01_So_quan_tri_khach_hang_va_dich_vu_crm\|KH-01]] | 2 | 04/10/2026 |
-| [[KP-01_Bang_theo_doi_chi_so_hieu_suat_kpi_toan_cong_ty\|KP-01]] | 2 | 04/10/2026 |
 | [[KT-01_Bang_kiem_tra_va_bao_cao_kiem_toan_noi_bo\|KT-01]] | 2 | 04/10/2026 |
 | [[TC-01_Bang_theo_doi_dong_tien_va_suc_khoe_tai_chinh\|TC-01]] | 2 | 04/10/2026 |
+| [[TS-02_Bang_theo_doi_gio_lam_viec_nang_suat_va_cong_suat_nhan_su\|TS-02]] | 2 | 04/10/2026 |
 | [[UE-01_Bang_theo_doi_va_tinh_toan_chi_so_kinh_te_cac_ltv_commission\|UE-01]] | 2 | 04/10/2026 |
 | [[VB-01_So_theo_doi_vu_viec_tu_van_va_hop_dong\|VB-01]] | 2 | 04/10/2026 |
 | [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen\|OBK-QCTC-02]] | 2 | 04/10/2026 |
+| [[PL_Anh_xa_nhan_su\|OBK-QCTC-02-PL-D]] | 2 | 04/10/2026 |
+| [[01_Tiep_nhan_va_sang_loc_lead\|OBK-HB-31]] | 2 | 04/10/2026 |
 | [[09_Thue_GTGT\|OBK-HB-09]] | 2 | 04/10/2026 |
+| [[18_Kiem_soat_chat_luong\|OBK-SOP-18]] | 2 | 04/10/2026 |
+| [[21_Cap_nhat_van_ban_phap_luat\|OBK-SOP-21]] | 2 | 04/10/2026 |
 | [[OBK-MSR_So_cai_quan_tri_dich_vu\|OBK-MSR]] | 2 | 04/10/2026 |
-| [[OBK-SOP-NB-02_Thu_tien_va_cong_no_phai_thu\|OBK-SOP-NB-02]] | 2 | 04/10/2026 |
+| [[OBK-SOP-NB-03_Quan_ly_tien\|OBK-SOP-NB-03]] | 2 | 04/10/2026 |
+| [[10_Thue_TNDN\|OBK-HB-10]] | 2 | 04/10/2026 |
+| [[OBK-SOP-NB-12_Xu_ly_ky_luat_lao_dong_va_trach_nhiem_vat_chat\|OBK-SOP-NB-12]] | 2 | 04/10/2026 |
+| [[OBK-SOP-NB-14_Tam_thoi_chuyen_nguoi_lao_dong_lam_viec_khac\|OBK-SOP-NB-14]] | 2 | 04/10/2026 |
 | [[PL_E_Bang_tra_nhanh_than_quyen\|OBK-QCTC-02-PL-E]] | 1 | 04/10/2026 |
 | `OBK-SOP-PL-T` | 1 | 04/10/2026 |
 | [[04_OBK-SOP-LIC_Giay_phep\|OBK-SOP-LIC]] | 6 | 03/10/2026 |
@@ -84,28 +102,23 @@ Trang này ghi 273 lượt sửa thuộc các bản cũ của 137 tài liệu, t
 | [[00_TnC_Master_VI\|00_TnC_Master_VI]] | 4 | 02/10/2026 |
 | [[00_TnC_Master_EN\|00_TnC_Master_EN]] | 4 | 02/10/2026 |
 | [[PL_Ma_tran_phan_quyen\|OBK-QCTC-02-PL-B]] | 3 | 02/10/2026 |
-| [[03_De_xuat_bao_gia_va_ky_hop_dong\|OBK-HB-33]] | 3 | 02/10/2026 |
+| [[09_HD_Nghiep_vu_giay_phep_va_thu_tuc_doanh_nghiep\|OBK-HB-41]] | 3 | 02/10/2026 |
 | [[PL_C_Lich_tuan_thu_nam\|OBK-SOP-PL-C]] | 2 | 02/10/2026 |
 | [[05_Van_hanh_hang_ngay_va_dieu_phoi\|OBK-HB-35]] | 2 | 02/10/2026 |
 | [[NS-06_Don_xin_nghi_phep_va_ban_giao\|NS-06]] | 2 | 02/10/2026 |
-| [[08_Ket_thuc_va_ban_giao\|OBK-HB-38]] | 2 | 02/10/2026 |
 | [[PL_2_Bang_tra_SLA\|OBK-SOP-PL2]] | 2 | 02/10/2026 |
 | [[NS-07_Phieu_dang_ky_lam_them_gio\|NS-07]] | 2 | 02/10/2026 |
-| [[12_HD_Phuong_phap_tra_cuu_va_cap_nhat_phap_luat\|OBK-HB-71]] | 2 | 02/10/2026 |
+| [[03_Mo_hinh_van_hanh_bon_muc_kiem_soat_va_ma_tran_RACI\|OBK-QCNS-03]] | 3 | 01/10/2026 |
 | [[05_Client_Guide_VI\|05_Client_Guide_VI]] | 3 | 01/10/2026 |
 | [[05_Client_Guide_EN\|05_Client_Guide_EN]] | 3 | 01/10/2026 |
-| [[03_Mo_hinh_van_hanh_bon_muc_kiem_soat_va_ma_tran_RACI\|OBK-QCNS-03]] | 2 | 01/10/2026 |
+| [[OBK-SOP-NB-05_Tuyen_dung_va_onboarding_noi_bo\|OBK-SOP-NB-05]] | 3 | 01/10/2026 |
 | [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] | 2 | 01/10/2026 |
 | [[NS-02_Phieu_danh_gia_cheo_hieu_suat\|NS-02]] | 2 | 01/10/2026 |
 | [[04_Legal_Services_VI\|04_Legal_Services_VI]] | 2 | 01/10/2026 |
 | [[04_Legal_Services_EN\|04_Legal_Services_EN]] | 2 | 01/10/2026 |
 | [[08_Framework_Agreement_VI\|08_Framework_Agreement_VI]] | 2 | 01/10/2026 |
 | [[08_Framework_Agreement_EN\|08_Framework_Agreement_EN]] | 2 | 01/10/2026 |
-| [[09_HD_Nghiep_vu_giay_phep_va_thu_tuc_doanh_nghiep\|OBK-HB-41]] | 2 | 01/10/2026 |
 | [[13_OBK-SOP-MK_Marketing_va_phat_trien_nguon_khach_hang\|OBK-SOP-MK]] | 2 | 01/10/2026 |
-| [[OBK-SOP-NB-05_Tuyen_dung_va_onboarding_noi_bo\|OBK-SOP-NB-05]] | 2 | 01/10/2026 |
-| [[OBK-SOP-NB-06_Nghi_viec_va_offboarding_noi_bo\|OBK-SOP-NB-06]] | 2 | 01/10/2026 |
-| [[OBK-SOP-NB-10_Quan_ly_nghi_phep_va_lam_viec_tu_xa\|OBK-SOP-NB-10]] | 2 | 01/10/2026 |
 | [[00_Danh_muc_dich_vu_va_bang_gia\|OBK-DM-00]] | 1 | 01/10/2026 |
 | [[01_Goi_dich_vu_va_hang_muc_kem_goi\|OBK-DM-GOI]] | 1 | 01/10/2026 |
 | [[02_Bang_gia_Giay_phep_va_doanh_nghiep\|OBK-DM-GP]] | 1 | 01/10/2026 |
@@ -124,8 +137,6 @@ Trang này ghi 273 lượt sửa thuộc các bản cũ của 137 tài liệu, t
 | [[01_Nguyen_tac_hanh_nghe\|OBK-SOP-01]] | 1 | 01/10/2026 |
 | [[03_Onboarding_khach_hang\|OBK-SOP-03]] | 1 | 01/10/2026 |
 | [[04_Quan_ly_chung_tu\|OBK-SOP-04]] | 1 | 01/10/2026 |
-| [[05_Quy_trinh_ke_toan_thang\|OBK-HB-05]] | 1 | 01/10/2026 |
-| [[06_Khoa_so_va_doi_chieu\|OBK-HB-06]] | 1 | 01/10/2026 |
 | [[08_Che_do_ke_toan_ap_dung\|OBK-HB-08]] | 1 | 01/10/2026 |
 | [[08_PL_C_Ky_nang_chuyen_mon\|OBK-QCNS-08-PL-C]] | 1 | 01/10/2026 |
 | [[08_PL_E_Phieu_vi_tri\|OBK-QCNS-08-PL-E]] | 1 | 01/10/2026 |
@@ -140,7 +151,6 @@ Trang này ghi 273 lượt sửa thuộc các bản cũ của 137 tài liệu, t
 | [[DT-01_Danh_ba_thong_tin_doi_tac_nha_cung_cap_va_co_quan\|DT-01]] | 1 | 01/10/2026 |
 | [[DT-02_So_theo_doi_doanh_thu_tra_truoc_va_phan_bo\|DT-02]] | 1 | 01/10/2026 |
 | `DV-02` | 1 | 01/10/2026 |
-| [[GC-01_Bang_tinh_gia_thanh_dich_vu_va_bien_loi_nhuan_khach_hang\|GC-01]] | 1 | 01/10/2026 |
 | `GP-01` | 1 | 01/10/2026 |
 | `HD-01` | 1 | 01/10/2026 |
 | [[HD-02_So_theo_doi_hoa_don_dien_tu_dau_ra_va_dau_vao\|HD-02]] | 1 | 01/10/2026 |
@@ -163,20 +173,28 @@ Trang này ghi 273 lượt sửa thuộc các bản cũ của 137 tài liệu, t
 | [[TL-01_So_giao_nhan_tai_lieu_va_buu_pham\|TL-01]] | 1 | 01/10/2026 |
 | [[TL-02_Phieu_yeu_cau_va_bien_ban_ban_giao_tai_lieu\|TL-02]] | 1 | 01/10/2026 |
 | [[TS-01_So_theo_doi_tai_san_va_cong_cu\|TS-01]] | 1 | 01/10/2026 |
-| [[TS-02_Bang_theo_doi_gio_lam_viec_nang_suat_va_cong_suat_nhan_su\|TS-02]] | 1 | 01/10/2026 |
 | [[TU-01_So_theo_doi_tam_ung_va_hoan_ung\|TU-01]] | 1 | 01/10/2026 |
-| [[PL_Anh_xa_nhan_su\|OBK-QCTC-02-PL-D]] | 1 | 01/10/2026 |
 | [[PL_Chuyen_len_cap_tren\|OBK-QCTC-02-PL-C]] | 1 | 01/10/2026 |
 | [[PL_Tu_dien_vai\|OBK-QCTC-02-PL-A]] | 1 | 01/10/2026 |
-| [[01_Tiep_nhan_va_sang_loc_lead\|OBK-HB-31]] | 1 | 01/10/2026 |
 | [[07_Giu_khach_va_mo_rong\|OBK-HB-37]] | 1 | 01/10/2026 |
-| [[18_Kiem_soat_chat_luong\|OBK-SOP-18]] | 1 | 01/10/2026 |
-| [[21_Cap_nhat_van_ban_phap_luat\|OBK-SOP-21]] | 1 | 01/10/2026 |
 | [[08_PL_B_Tieu_chi_cong_viec_dang_ho_so\|OBK-QCNS-08-PL-B]] | 1 | 01/10/2026 |
 | [[00_README_Cach_dung\|OBK-SOP-DV-00]] | 1 | 01/10/2026 |
+| [[01_Khung_nhan_su_tong_hop\|OBK-QCNS-01]] | 1 | 01/10/2026 |
+| [[PL_A_Bang_kiem\|OBK-SOP-PL-A]] | 1 | 01/10/2026 |
+| [[PL_B_Bieu_mau\|OBK-SOP-PL-B]] | 1 | 01/10/2026 |
+| [[06_Chinh_sach_thuong_khong_dinh_ky\|OBK-QCNS-06]] | 1 | 01/10/2026 |
+| [[10_HD_Nghiep_vu_tinh_luong_va_bao_hiem_xa_hoi\|OBK-HB-51]] | 1 | 01/10/2026 |
+| [[11_HD_Ky_thuat_ra_soat_hop_dong_kinh_te\|OBK-HB-61]] | 1 | 01/10/2026 |
+| [[02_Hop_lam_ro_nhu_cau\|OBK-HB-32]] | 1 | 01/10/2026 |
+| [[OBK-SOP-NB-07_Quan_ly_con_dau_va_chu_ky_so\|OBK-SOP-NB-07]] | 1 | 01/10/2026 |
+| [[OBK-SOP-NB-08_Quan_ly_tai_san_va_cong_cu_dung_cu\|OBK-SOP-NB-08]] | 1 | 01/10/2026 |
+| [[OBK-SOP-NB-15_Duy_tri_kinh_doanh_lien_tuc_va_sao_luu_du_lieu\|OBK-SOP-NB-15]] | 1 | 01/10/2026 |
+| [[OBK-SOP-NB-09_Xu_ly_su_co_du_lieu_ca_nhan_noi_bo\|OBK-SOP-NB-09]] | 1 | 01/10/2026 |
 | [[OBK-SOP-NB-04_Cong_va_tien_luong_noi_bo\|OBK-SOP-NB-04]] | 2 | 30/09/2026 |
 | [[OBK-SOP-NB-11_Dang_ky_va_quan_ly_lam_them_gio\|OBK-SOP-NB-11]] | 1 | 30/09/2026 |
 | [[OBK-SOP-NB-16_Kiem_toan_noi_bo_va_kiem_soat_tuan_thu\|OBK-SOP-NB-16]] | 1 | 30/09/2026 |
+| [[OBK-SOP-NB-17_Lap_ke_hoach_kinh_doanh_va_ngan_sach_tai_chinh\|OBK-SOP-NB-17]] | 1 | 30/09/2026 |
+| [[OBK-SOP-NB-18_Quan_ly_cong_tac_phi_va_thanh_toan_chi_phi_cong_tac\|OBK-SOP-NB-18]] | 1 | 30/09/2026 |
 
 ## 2. Chi tiết từng tài liệu
 
@@ -184,6 +202,7 @@ Trang này ghi 273 lượt sửa thuộc các bản cũ của 137 tài liệu, t
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 06/10/2026 | R.4.0.2 | Ghi thêm ngày 04/06/2026 cho trích dẫn Văn bản hợp nhất 18/VBHN-BTC mục 24 để phân biệt với bản hợp nhất cùng số hiệu đã hết hiệu lực |
 | 04/10/2026 | R.4.0.1 | Bỏ số đếm liệt kê, lối tự sự và ghi chú log ở quy chế tài chính. |
 | 04/10/2026 | R.4.0.0 | Xóa định mức ĐM-13 (bảo hiểm hưu trí, nhân thọ tự nguyện) và định mức ĐM-14 (ăn giữa ca, ăn trưa chi bằng tiền) cùng mục 27.6 và mục 27.7 vì oBacker chưa áp dụng hai khoản này<br>Chuyển mức nội bộ của ĐM-10 (2.500.000 đồng một người một năm) và ĐM-12 (90% mức lương bình quân) thành định mức chính thức của oBacker, mức tối đa luật định chuyển sang cột căn cứ<br>Sửa mục 21.1, 27.1, 50.3, callout Điều 50 và bảng căn cứ cho phù hợp |
 | 04/10/2026 | R.3.0.1 | Bo so dem tai tieu de Dieu 5; chuan hoa muc 5.1a phan dinh pham vi ap dung nguyen tac chung tu truoc; chuyen cac ghi chu dan do tu su, ghi nhan tra cuu va callout can xac minh tai cac Dieu 9, 12a, 16, 17, 21, 23, 24, 25, 29, 38, 45, 46, 49 thanh quy dinh va ghi chu hanh chinh chuan muc |
@@ -196,6 +215,9 @@ Trang này ghi 273 lượt sửa thuộc các bản cũ của 137 tài liệu, t
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 06/10/2026 | R.3.2.0 | Quyết định và phân bổ dòng ngân sách thuộc CEO, Team Lead nhận thông báo, không ký phê duyệt ngân sách; khoản ngoài ngân sách không dừng ở Team Lead mà chuyển thẳng lên người duyệt chi của bậc |
+| 06/10/2026 | R.3.1.0 | Bỏ phụ lục danh sách placeholder công cụ và câu hướng dẫn thay placeholder bằng tên công cụ thực tế; mô tả nghiệp vụ giữ nguyên |
+| 04/10/2026 | R.3.0.2 | Bỏ lối tự sự ở quy trình mua sắm và thanh toán. |
 | 04/10/2026 | R.3.0.1 | Chuan hoa tieu de muc 6.10.2 bo so dem; chuyen cac callout can xac minh va ghi chu dan do tai cac muc 6.0, 6.4, 6.10, 6.14 thanh ghi chu hanh chinh va can cu phap ly chuan muc |
 | 02/10/2026 | R.3.0.0 | Bậc B2 đổi người duyệt chi thành COO, CEO là dự phòng khi COO vắng mặt; KTT giữ vị trí chuyên môn không phải người duyệt. Bậc B3 nêu rõ mức tối đa 100.000.000 đồng, khoản từ 100.000.000 đồng trở lên do HĐQT phê duyệt, đồng bộ với mục 12.3 và 12.3a của OBK-QCTC-01 |
 | 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
@@ -215,6 +237,7 @@ Trang này ghi 273 lượt sửa thuộc các bản cũ của 137 tài liệu, t
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 05/10/2026 | R.4.0.2 | Sửa lỗi lặp từ 'hành hành' ở hàng nhật ký bản R.4.0.1. |
 | 04/10/2026 | R.4.0.1 | Bỏ lối tự sự và ghi chú log ở chuẩn hành dịch vụ, mục trình tự xung đột. |
 | 04/10/2026 | R.4.0.0 | Gộp mười bước B1 đến B10 thành năm bước B1 đến B5 tại mục 6, sửa NT-2, NT-5, chỉ số CS-07, chuẩn nhắc mục 6.2 và các dẫn chiếu bước |
 | 03/10/2026 | R.3.1.0 | Thêm mục 5.6 Nguyên tắc xử lý yêu cầu ngoài bảng Job gồm 6 nguyên tắc, là bản gốc cho các SOP bộ phận dẫn chiếu |
@@ -226,6 +249,7 @@ Trang này ghi 273 lượt sửa thuộc các bản cũ của 137 tài liệu, t
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 04/10/2026 | R.4.0.1 | Chuyển số đếm liệt kê thành quy định, bỏ lối tự sự ở quản lý khách. |
 | 04/10/2026 | R.4.0.0 | Gộp bảng RACI của OBK-SOP-AM từ mười bước thành năm bước B1 đến B5, cập nhật nguyên tắc hai lớp theo NT-5 phân mức và đổi dẫn chiếu bước |
 | 03/10/2026 | R.3.1.1 | Sau bảng Job: thêm dẫn chiếu về mục 5.6 OBK-SOP-00 cho yêu cầu không khớp Job nào |
 | 02/10/2026 | R.3.1.0 | thêm mục Q&A cho các Job AM ưu tiên; mở rộng AM-18 gồm phát hành phụ lục nâng/đổi gói |
@@ -241,6 +265,7 @@ Trang này ghi 273 lượt sửa thuộc các bản cũ của 137 tài liệu, t
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 04/10/2026 | R.3.0.1 | Chuyển số đếm liệt kê ở phần lý do thành quy định. |
 | 02/10/2026 | R.3.0.0 | Người ký hợp đồng dịch vụ chuẩn là đại diện theo pháp luật (NĐDPL: CEO hoặc Chủ tịch HĐQT); TP Thương mại chỉ đàm phán và duyệt trong phân quyền, không ký; cập nhật ma trận vai trò và bước 6 |
 | 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
 | 27/09/2026 | R.2.0.0 | Cập nhật thẩm quyền ký hợp đồng dịch vụ chuẩn do Trưởng phòng Thương mại phê duyệt, trường hợp ngoại lệ chuyển Tổng Giám đốc |
@@ -249,6 +274,7 @@ Trang này ghi 273 lượt sửa thuộc các bản cũ của 137 tài liệu, t
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 06/10/2026 | R.3.0.0 | Nghĩa vụ báo cáo điểm sai lệch giữa Handbook và tài liệu cấp trên có mốc ngay trong ngày phát hiện |
 | 06/10/2026 | R.2.1.2 | Đồng bộ khung chương: mục "Căn cứ pháp lý" ra khỏi khuôn cấp 3 (K4 đủ 9 mục), "khung 10 mục" thành "khung 9 mục", tra nhanh mục 5 và 6 |
 | 04/10/2026 | R.2.1.1 | Chuan hoa van phong hanh chinh, bo so dem tai tieu de muc 2 va 9, chuyen callout sang can cu phap luat |
 | 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
@@ -259,8 +285,9 @@ Trang này ghi 273 lượt sửa thuộc các bản cũ của 137 tài liệu, t
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 27/09/2026 | R.2.0.0 | Thu gọn mô hình kiểm soát từ 4 mức thành 2 cấp thực chất Maker làm và Checker Approver duyệt, COO thực hiện hậu kiểm xác suất |
 | 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 30/09/2026 | R.2.0.1 | Bỏ từ tiếng Anh kèm sau 'Bảng kiểm nghiệp vụ chuẩn' tại mục 3 Cấp 1 |
+| 27/09/2026 | R.2.0.0 | Thu gọn mô hình kiểm soát từ 4 mức thành 2 cấp thực chất Maker làm và Checker Approver duyệt, COO thực hiện hậu kiểm xác suất |
 
 ### `OBK-QCNS-08`
 
@@ -430,6 +457,7 @@ Trang này ghi 273 lượt sửa thuộc các bản cũ của 137 tài liệu, t
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 02/10/2026 | R.1.1.0 | Bước 2: thay mốc '01 ngày làm việc' bằng dẫn chiếu mốc soạn hồ sơ riêng theo loại tại bảng Job OBK-SOP-LIC (02 ngày trong nước, 05 ngày có vốn nước ngoài) |
 | 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
 | 30/09/2026 | R.1.0.1 | Thực hiện N12.4: biện pháp xử lý tại bảng kiểm cấp thẻ tạm trú viết rõ 'nhỏ hơn 03 tỷ đồng' theo Luật 51/2019/QH14 |
 
@@ -460,6 +488,7 @@ Trang này ghi 273 lượt sửa thuộc các bản cũ của 137 tài liệu, t
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 04/10/2026 | R.3.0.1 | Sửa câu hỏi tự sự ở thời hạn hợp đồng lao động nước ngoài. |
 | 04/10/2026 | R.3.0.0 | Gộp bảng RACI của OBK-SOP-LD từ mười bước thành năm bước B1 đến B5, cập nhật nguyên tắc hai lớp theo NT-5 phân mức và đổi dẫn chiếu bước |
 | 04/10/2026 | R.2.2.0 | thêm mục Câu hỏi thường gặp theo Job cho các Job LD ưu tiên |
 | 02/10/2026 | R.2.1.0 | Thêm quy ước custodial token chữ ký số vào mục 1.3: token của khách do bộ phận Kế toán giữ tập trung, bộ phận Lao Động xin token khi nộp tờ khai, báo cáo BHXH trên cổng điện tử, dùng xong trả lại ngay, không lưu giữ quá 24 giờ làm việc |
@@ -507,6 +536,7 @@ Trang này ghi 273 lượt sửa thuộc các bản cũ của 137 tài liệu, t
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 05/10/2026 | R.2.1.3 | Sửa lỗi lặp từ 'hành hành' ở hàng nhật ký bản R.2.1.2. |
 | 04/10/2026 | R.2.1.2 | Bỏ lối tự sự ở chuẩn hành nội bộ. |
 | 04/10/2026 | R.2.1.1 | Bo so dem tai tieu de muc 8 dan chieu cac nguyen tac tai chinh cua OBK-QCTC-01 Dieu 5 |
 | 04/10/2026 | R.2.1.0 | Them muc CAU HOI THUONG GAP THEO JOB sau bang Job, tra loi theo chot kiem soat, moc thoi han va buoc chuyen Job cua 12 Job noi bo trong yeu, gom mua sam, thanh toan, tam ung, hoan ung, phiem thu phiem chi, tam ung tien luong, cham cong, luong, nghi phep va gio lam them |
@@ -518,20 +548,25 @@ Trang này ghi 273 lượt sửa thuộc các bản cũ của 137 tài liệu, t
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
 | 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 30/09/2026 | R.1.2.0 | Them cau dan chieu quy tac uy quyen khi nguoi phe duyet tuyen dung vang, muc 8.1 cua NB-00, sau bang phan quyen muc 4 |
 | 30/09/2026 | R.1.1.0 | Thêm bảng Mốc thời gian tổng hợp trong mục 1, thêm mục VÍ DỤ và TRƯỜNG HỢP PHÁT SINH trước mục Liên kết, chia các câu dài hơn 250 ký tự thành câu ngắn hơn |
 
 ### `OBK-SOP-NB-06`
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 04/10/2026 | R.1.2.1 | Chuẩn hóa tiêu đề callout cảnh báo mở đầu, bỏ số đếm và chuyển sang văn phong hành chính |
 | 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 30/09/2026 | R.1.2.0 | Them cau dan chieu quy tac uy quyen khi nguoi phe duyet nghi viec vang, muc 8.1 cua NB-00, cuoi bang phan quyen muc 4 |
 | 30/09/2026 | R.1.1.0 | Thêm bảng Mốc thời gian tổng hợp trong mục 1, thêm mục VÍ DỤ và bảng TRƯỜNG HỢP PHÁT SINH dạng Nếu - Thì trước mục Liên kết, chia các câu dài hơn 250 ký tự thành câu ngắn hơn |
 
 ### `OBK-SOP-NB-10`
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 04/10/2026 | R.1.2.1 | Chuẩn hóa tiêu đề mục 4, bỏ số đếm và chuẩn hóa văn phong hành chính |
 | 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 30/09/2026 | R.1.2.0 | Them mot dong dan chieu quy tac uy quyen khi nguoi phe duyet van, muc 8.1 cua NB-00, vao muc phan cap thuyen quyen Luong A |
 | 30/09/2026 | R.1.1.0 | Thêm bảng MỐC THỜI GIAN TỔNG HỢP ngay sau cảnh báo mở đầu, thêm mục 9. VÍ DỤ và mục 10. TRƯỜNG HỢP PHÁT SINH trước nhật ký sửa; các câu trong tài liệu đều dưới 250 ký tự nên không chia câu |
 
 ### `OBK-SOP-NB-04`
@@ -566,6 +601,7 @@ Trang này ghi 273 lượt sửa thuộc các bản cũ của 137 tài liệu, t
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 04/10/2026 | R.1.1.1 | Chuyển số đếm liệt kê ở phần mục đích của hướng dẫn kết thúc và bàn giao thành quy định. |
 | 02/10/2026 | R.1.1.0 | Bước 5: tách mốc lưu trữ hồ sơ khỏi 30 ngày tải dữ liệu của khách (Điều 9 TnC); thêm dòng khoảng tải 30 ngày, lưu trữ/xóa chỉ sau khi hết hạn |
 | 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
 
@@ -615,6 +651,7 @@ Trang này ghi 273 lượt sửa thuộc các bản cũ của 137 tài liệu, t
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 06/10/2026 | R.3.0.0 | Bước 3: CV-RD hoàn thành rà soát và phân loại điều khoản chuyển tiếp trước khi soạn ý kiến tư vấn (chốt VQ-41 phương án A) |
 | 02/10/2026 | R.2.0.0 | Bước 4 và bảng KS-RD-05: sửa tiêu chí phân loại 4 mức ưu tiên theo LOẠI thay đổi của văn bản, khớp OBK-SOP-00 mục 12.3a; hiệu lực trong vòng 60 ngày là điều kiện phụ của Mức 1; bỏ dải 15/45 ngày và quy tắc tự động xếp Mức 1 theo chế tài |
 | 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
 
@@ -681,12 +718,14 @@ Trang này ghi 273 lượt sửa thuộc các bản cũ của 137 tài liệu, t
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 04/10/2026 | R.1.0.1 | Chuan hoa van phong hanh chinh va quy cach trinh bay callout thoi han theo phap luat va tai khoan hang ton kho |
 | 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
 
 ### `OBK-HB-06`
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 04/10/2026 | R.1.0.1 | Chuan hoa van phong hanh chinh, sua loi bang kiem N01, bo so dem tieu de va chuyen callout sang can cu phap ly |
 | 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
 
 ### `OBK-HB-07`
@@ -813,6 +852,7 @@ Trang này ghi 273 lượt sửa thuộc các bản cũ của 137 tài liệu, t
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu GC-01 về Sổ cái OBK-MSR |
 | 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
 
 ### `GP-01`
@@ -869,6 +909,7 @@ Trang này ghi 273 lượt sửa thuộc các bản cũ của 137 tài liệu, t
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 06/10/2026 | R.2.0.0 | Đổi nguồn dữ liệu chỉ số QC-07 từ bảng GP-01 sang trục thủ tục hành chính của sổ TH-02 |
 | 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu KP-01 về Sổ cái OBK-MSR |
 | 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
 
@@ -907,6 +948,7 @@ Trang này ghi 273 lượt sửa thuộc các bản cũ của 137 tài liệu, t
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 06/10/2026 | R.3.0.0 | Khôi phục dòng TGĐ duyệt trong mẫu: thân phiếu (bước 8, luân chuyển) vẫn bắt buộc trình TGĐ duyệt bảng đối chiếu ở cấp đối chiếu đầy đủ, mẫu R.2.0.0 không còn nơi ghi sự phê duyệt đó |
 | 06/10/2026 | R.2.0.0 | Rút dòng Tổng Giám đốc duyệt khỏi mẫu đối chiếu ngân hàng |
 | 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu NH-01 về Sổ cái OBK-MSR |
 | 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
@@ -994,6 +1036,7 @@ Trang này ghi 273 lượt sửa thuộc các bản cũ của 137 tài liệu, t
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 04/10/2026 | R.1.1.0 | Thêm dòng Dữ liệu chung dẫn nghiệp vụ của phiếu TS-02 về Sổ cái OBK-MSR |
 | 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
 
 ### `TU-01`
@@ -1027,6 +1070,7 @@ Trang này ghi 273 lượt sửa thuộc các bản cũ của 137 tài liệu, t
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 04/10/2026 | R.1.0.1 | Bỏ dòng ghi chú cập nhật và lối tự sự ở đầu phụ lục. |
 | 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
 
 ### `OBK-QCTC-02-PL-C`
@@ -1051,6 +1095,7 @@ Trang này ghi 273 lượt sửa thuộc các bản cũ của 137 tài liệu, t
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 06/10/2026 | R.2.0.0 | Điểm 3a.5: gán chủ thể khấu trừ TNCN 10% là người thực hiện thanh toán (NTT theo OBK-QCTC-01 mục 35.1a) và mốc trước khi thực hiện lệnh chi trả |
 | 04/10/2026 | R.1.0.2 | Bỏ lối tự sự ở quy chế hạch toán kế toán. |
 | 04/10/2026 | R.1.0.1 | Chuẩn hóa văn phong hành chính, bỏ số đếm ở tiêu đề và callout, cập nhật quy định chuẩn mực về chứng từ và thủ quỹ |
 | 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
@@ -1059,6 +1104,7 @@ Trang này ghi 273 lượt sửa thuộc các bản cũ của 137 tài liệu, t
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 04/10/2026 | R.1.0.1 | Chuyển số đếm liệt kê ở phần mục đích của hướng dẫn tiếp nhận và sàng lọc lead thành quy định. |
 | 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
 
 ### `OBK-HB-37`
@@ -1084,12 +1130,14 @@ Trang này ghi 273 lượt sửa thuộc các bản cũ của 137 tài liệu, t
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 04/10/2026 | R.1.0.1 | Sửa từ ngữ ở chương kiểm soát chất lượng. |
 | 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
 
 ### `OBK-SOP-21`
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 04/10/2026 | R.1.0.1 | Bỏ lối tự sự ở căn cứ và mục dẫn lại. |
 | 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
 
 ### `OBK-MSR`
@@ -1127,6 +1175,7 @@ Trang này ghi 273 lượt sửa thuộc các bản cũ của 137 tài liệu, t
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 06/10/2026 | R.2.0.0 | Mục 4: KTV mở và ghi nhận khoản phải thu theo từng vụ khi đủ đầu vào, KTT soát lại đầu vào tại thời điểm xuất hóa đơn (chốt VQ-40 phương án A) |
 | 04/10/2026 | R.1.0.1 | Chuẩn hóa văn phong hành chính, bỏ số đếm ở tiêu đề và callout, hoàn thiện các quy định về hợp đồng và công nợ |
 | 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
 
@@ -1137,3 +1186,117 @@ Trang này ghi 273 lượt sửa thuộc các bản cũ của 137 tài liệu, t
 | 06/10/2026 | R.1.0.2 | Đồng bộ chương 11: "khung mười mục" thành "khung chín mục" (mục "Căn cứ pháp lý" ra khỏi khuôn cấp 3 ngày 06/10/2026) |
 | 04/10/2026 | R.1.0.1 | Chuan hoa van phong hanh chinh, bo so dem tai cac tieu de muc, chuyen cac callout can xac minh sang quy dinh chuan muc va go phu luc chua xac minh khoi ban publish |
 | 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+
+### `OBK-QCNS-01`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+
+### `OBK-SOP-NB-03`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 04/10/2026 | R.1.0.2 | Chuẩn hóa văn phong hành chính, bỏ số đếm ở tiêu đề và callout, hoàn thiện các quy định kiểm soát quỹ và tài khoản |
+| 30/09/2026 | R.1.0.1 | Chia 3 câu dài ở mục đích, căn cứ nội bộ và mục 5.2.2 thành câu ngắn bằng dấu chấm phay, không đổi nghĩa |
+
+### `OBK-SOP-PL-A`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+
+### `OBK-HB-12`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 06/10/2026 | R.1.0.2 | Đồng bộ chương 12: "khung mười mục" thành "khung chín mục" (mục "Căn cứ pháp lý" ra khỏi khuôn cấp 3 ngày 06/10/2026) |
+| 04/10/2026 | R.1.0.1 | Chuan hoa van phong hanh chinh, bo so dem tai cac tieu de muc, chuyen cac callout can xac minh sang quy dinh chuan muc va go phu luc chua xac minh khoi ban publish |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+
+### `OBK-SOP-PL-B`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+
+### `OBK-QCNS-06`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+
+### `OBK-HB-51`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+
+### `OBK-HB-61`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+
+### `OBK-HB-32`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+
+### `OBK-HB-10`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 04/10/2026 | R.1.0.1 | Chuan hoa van phong hanh chinh, bo so dem tai cac tieu de muc, chuyen cac callout can xac minh sang quy dinh chuan muc va go phu luc chua xac minh khoi ban publish |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+
+### `OBK-SOP-NB-07`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+
+### `OBK-SOP-NB-08`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+
+### `OBK-SOP-NB-15`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+
+### `OBK-SOP-NB-17`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 30/09/2026 | R.1.0.1 | Chia 5 câu dài ở mục đích, căn cứ pháp lý và ngưỡng dung sai phương sai ngân sách thành câu ngắn, không đổi nghĩa |
+
+### `OBK-SOP-NB-18`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 30/09/2026 | R.1.0.1 | Chia 4 câu dài ở mục đích, phạm vi áp dụng và yêu cầu chứng từ thanh toán không dùng tiền mặt thành câu ngắn, không đổi nghĩa |
+
+### `OBK-SOP-NB-09`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+
+### `OBK-SOP-NB-12`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 04/10/2026 | R.1.0.2 | Chuẩn hóa tiêu đề callout và nội dung mở đầu, bỏ số đếm và chuyển sang văn phong hành chính |
+| 30/09/2026 | R.1.0.1 | Chia 5 câu dài ở căn cứ pháp lý, tạm đình chỉ, thời hạn ban hành, thu hồi tiền bồi thường và xét giảm thời hạn thành câu ngắn, không đổi nghĩa |
+
+### `OBK-SOP-NB-14`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 04/10/2026 | R.1.0.2 | Chuẩn hóa tiêu đề callout và nội dung mở đầu, bỏ số đếm và chuyển sang văn phong hành chính |
+| 30/09/2026 | R.1.0.1 | Chia 4 câu dài ở mục đích, bước 3 và chế độ tiền lương khi tạm chuyển thành câu ngắn, không đổi nghĩa |

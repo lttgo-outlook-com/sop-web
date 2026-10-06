@@ -4,7 +4,7 @@ code: "OBK-SOP-NB-07"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.0"
+version: "R.1.0.1"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -28,7 +28,7 @@ tags:
 | Mã tài liệu | OBK-SOP-NB-07 |
 | Tên tài liệu | Quy định tinh gọn về quản lý con dấu và chữ ký số nội bộ |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ. Thi hành [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen\|OBK-QCTC-02]] Quy chế tổ chức và phân quyền |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.0.1, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 27/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -117,26 +117,26 @@ Quy định thống nhất, chặt chẽ và tinh gọn về công tác quản l
 
 1. Nhân sự có nhu cầu gửi văn bản kèm bằng chứng lệnh phê duyệt cho `AD-KT`.
 2. `AD-KT` kiểm tra tính hợp lệ:
-   - Kiểm tra thẩm quyền của người ký trên văn bản;
-   - Đối chiếu lệnh phê duyệt trên hệ thống (hoặc email xác nhận từ `CEO`, `KTT`, `TL-KT`);
-   - Kiểm tra số lượng bản in cần đóng dấu và tính toàn vẹn của các trang phụ lục.
+   - `AD-KT` kiểm tra thẩm quyền của người ký trên văn bản;
+   - `AD-KT` đối chiếu lệnh phê duyệt trên hệ thống (hoặc email xác nhận từ `CEO`, `KTT`, `TL-KT`);
+   - `AD-KT` kiểm tra số lượng bản in cần đóng dấu và tính toàn vẹn của các trang phụ lục.
 3. Trường hợp văn bản chưa có chữ ký người có thẩm quyền, chữ ký giả mạo hoặc không có lệnh phê duyệt: `AD-KT` từ chối thực hiện và thông báo rõ lý do.
 
 ### Bước 2: Thực hiện đóng dấu hoặc ký số
 
 #### 2.1. Quy tắc đóng dấu vật lý trên văn bản giấy
 1. **Dấu tròn pháp nhân:**
-   - Đóng dấu trùm lên khoảng 1/3 chữ ký của người có thẩm quyền về phía bên trái;
+   - `AD-KT` đóng dấu trùm lên khoảng 1/3 chữ ký của người có thẩm quyền về phía bên trái;
    - Mực dấu phải rõ ràng, ngay ngắn, đúng chiều, không nhòe, không mất nét, sử dụng đúng mực dấu màu đỏ tiêu chuẩn;
    - Dấu đóng trên văn bản nhiều trang: đóng dấu giáp lai vào mép phải của tập văn bản, trùm lên một phần các tờ giấy; mỗi dấu giáp lai trùm tối đa không quá 05 tờ giấy.
 2. **Dấu chức danh, dấu tiêu đề:**
-   - Đóng dấu chức danh ngay ngắn phía dưới chữ ký;
+   - `AD-KT` đóng dấu chức danh ngay ngắn phía dưới chữ ký;
    - Không đóng dấu chức danh đè lên dấu tròn pháp nhân.
 
 #### 2.2. Quy tắc thực hiện ký số điện tử
 1. `AD-KT` cắm thiết bị USB Token vào máy tính chuyên dụng được phân công quản lý.
-2. Kiểm tra thông tin chứng thư số (tên tổ chức: CÔNG TY CỔ PHẦN OBACKER, mã số thuế 0402298185, thời hạn hiệu lực của chứng thư số).
-3. Thực hiện ký số vào vị trí quy định trên văn bản điện tử:
+2. `AD-KT` kiểm tra thông tin chứng thư số (tên tổ chức: CÔNG TY CỔ PHẦN OBACKER, mã số thuế 0402298185, thời hạn hiệu lực của chứng thư số).
+3. `AD-KT` thực hiện ký số vào vị trí quy định trên văn bản điện tử:
    - Hiển thị hình ảnh chữ ký số chuẩn: logo oBacker, tên công ty và dấu thời gian ký số (Timestamp);
    - Nhập mã PIN bảo mật để hoàn tất phiên ký.
 4. Rút ngay thiết bị USB Token khỏi máy tính sau khi hoàn thành thao tác ký số; tuyệt đối không cắm USB Token thường trực trên máy tính khi không sử dụng.
@@ -151,7 +151,7 @@ Quy định thống nhất, chặt chẽ và tinh gọn về công tác quản l
    - Người nhận văn bản (đối tác, cơ quan nhà nước, nội bộ);
    - Số lượng bản đóng dấu;
    - Chữ ký của người nhận văn bản sau khi đóng dấu.
-2. Lưu giữ lại 01 bản gốc văn bản (có dấu đỏ) tại tập lưu văn thư của phòng Hành chính để phục vụ đối chiếu, tra cứu.
+2. `AD-KT` lưu giữ lại 01 bản gốc văn bản (có dấu đỏ) tại tập lưu văn thư của phòng Hành chính để phục vụ đối chiếu, tra cứu.
 
 ### Bước 4: Bảo quản và kiểm kê an toàn
 
@@ -229,4 +229,4 @@ Quy định thống nhất, chặt chẽ và tinh gọn về công tác quản l
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 07/10/2026 | R.1.0.1 | Tám bước từ kiểm tra thẩm quyền người ký đến lưu bản gốc văn bản đã đóng dấu có chủ thể AD-KT |

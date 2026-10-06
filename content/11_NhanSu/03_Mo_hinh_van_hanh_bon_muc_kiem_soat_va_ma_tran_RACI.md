@@ -4,7 +4,7 @@ code: "OBK-QCNS-03"
 type: "sop"
 folder: "11_NhanSu"
 level: "Cấp 2, quy trình bộ phận"
-version: "R.2.0.1"
+version: "R.2.0.2"
 status: "đang áp dụng"
 draft_date: "30/09/2026"
 author: "CEO"
@@ -27,7 +27,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-QCNS-03 |
 | Cấp tài liệu | Cấp 2 |
-| Phiên bản | R.2.0.1, đang áp dụng |
+| Phiên bản | R.2.0.2, đang áp dụng |
 | Ngày biên soạn | 30/09/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 22/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -86,7 +86,7 @@ Người làm: `CV-LIC`, `CV-KT`, `CV-LD`, `CV-LS` ở mọi cấp bậc chuyên
 Người làm: `TL-LIC`, `TL-KT`, `TL-LD`, `TL-LS`.
 
 - Trưởng nhóm chuyên môn chịu trách nhiệm 100% về tính chính xác pháp lý, số liệu chuyên môn và kết quả bàn giao cho khách hàng hoặc nộp cơ quan nhà nước.
-- Ký duyệt phát hành kết quả trực tiếp cho `AM` gửi khách hàng hoặc gửi nộp cơ quan quản lý.
+- Trưởng nhóm chuyên môn ký duyệt phát hành kết quả trực tiếp cho `AM` gửi khách hàng hoặc gửi nộp cơ quan quản lý.
 - Hướng dẫn, đào tạo và giải quyết trực tiếp các vướng mắc nghiệp vụ phát sinh hằng ngày trong nhóm.
 
 ### Vai trò của Giám đốc vận hành (COO)
@@ -108,4 +108,4 @@ Người làm: `TL-LIC`, `TL-KT`, `TL-LD`, `TL-LS`.
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 30/09/2026 | R.2.0.1 | Bỏ từ tiếng Anh kèm sau 'Bảng kiểm nghiệp vụ chuẩn' tại mục 3 Cấp 1 |
+| 07/10/2026 | R.2.0.2 | Bổ sung chủ thể Trưởng nhóm chuyên môn cho câu ký duyệt phát hành kết quả (chốt VQ-22) |

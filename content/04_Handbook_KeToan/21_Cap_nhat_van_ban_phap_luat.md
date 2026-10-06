@@ -4,7 +4,7 @@ code: "OBK-SOP-21"
 type: "sop"
 folder: "04_Handbook_KeToan"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.0.1"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "04/10/2026"
 author: "CEO"
@@ -30,7 +30,7 @@ tags:
 | Mã tài liệu | OBK-SOP-21 |
 | Tên chương | Theo dõi và cập nhật văn bản pháp luật |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.1.0.1, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 04/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -633,7 +633,6 @@ Quy định nội bộ oBacker.
 | Bộ biểu mẫu, bảng kiểm | Hằng năm, trước 28/02 | Legal R&D | Bản cập nhật |
 | Mẫu thư gửi khách | Hằng năm | Legal R&D soạn, TL-KT duyệt nội dung nghiệp vụ, AM duyệt cách diễn đạt với khách | Bản cập nhật |
 | Tài liệu bán hàng và tư vấn thành lập | Hằng quý | Legal R&D soát nội dung pháp lý, phối hợp Bộ phận Marketing và `AM` | Bản cập nhật |
-| Phụ lục D, thao tác phần mềm | Khi phần mềm thay đổi giao diện;<br>tối thiểu hằng năm | Người quản trị công cụ tương ứng | Bản cập nhật |
 | **Chính sách giảm thuế GTGT: Nghị quyết 204/2025/QH15 và Nghị định 174/2025/NĐ-CP** | **MỘT LẦN, BẮT BUỘC HOÀN THÀNH TRƯỚC 01/12/2026** | Người theo dõi lĩnh vực thuế GTGT lập, TL-KT kết luận, COO duyệt và báo CEO | Kết luận về việc chính sách có được gia hạn, thay thế hay chấm dứt, kèm danh mục khách hàng và tài liệu phải sửa |
 
 > [!bug] LỖI THƯỜNG GẶP
@@ -823,10 +822,9 @@ Quy tắc ghi:
 | Mẫu thông báo thay đổi chính sách thuế cho khách hàng | Chương 19 Mẫu 09 |
 | Phân loại lỗi, soát xét độc lập, nguyên tắc dùng chỉ số | Chương 18 |
 | Biểu mẫu Phiếu đánh giá tác động văn bản pháp luật mới | Phụ lục B |
-| Khung điền thao tác phần mềm khi công cụ thay đổi | Phụ lục D |
 
 ## NHẬT KÝ SỬA
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 04/10/2026 | R.1.0.1 | Bỏ lối tự sự ở căn cứ và mục dẫn lại. |
+| 07/10/2026 | R.1.1.0 | Gỡ hai dòng tham chiếu Phụ lục D (tệp đã xóa) khỏi bảng lịch cập nhật và bảng tra |

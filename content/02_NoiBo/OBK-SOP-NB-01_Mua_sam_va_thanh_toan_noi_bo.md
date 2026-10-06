@@ -4,7 +4,7 @@ code: "OBK-SOP-NB-01"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.3.0.2"
+version: "R.3.2.1"
 status: "đang áp dụng"
 draft_date: "04/10/2026"
 author: "CEO"
@@ -28,7 +28,7 @@ tags:
 | Mã tài liệu | OBK-SOP-NB-01 |
 | Tên tài liệu | Quy trình mua sắm nội bộ và đề nghị thanh toán |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ. Thi hành Chương 4 và Chương 7 của [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Quy chế tài chính nội bộ |
-| Phiên bản | R.3.0.2, đang áp dụng |
+| Phiên bản | R.3.2.1, đang áp dụng |
 | Ngày biên soạn | 04/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -145,7 +145,7 @@ Bảng tổng hợp; khi bảng và phần chữ khác nhau thì lấy phần ch
 | Ký hiệu | Vai trò | Một câu định nghĩa |
 | --- | --- | --- |
 | **NĐN** | Người đề nghị | Người phát sinh nhu cầu. Bất kỳ nhân sự nào.<br>Chịu trách nhiệm về tính có thật của nhu cầu và tính đầy đủ của hồ sơ nộp lên. |
-| **TL** | Team Lead | Trưởng bộ phận quản lý dòng ngân sách chứa khoản chi.<br>Người xác nhận nhu cầu là cần thiết và nằm trong ngân sách đã duyệt. |
+| **TL** | Team Lead | Trưởng bộ phận quản lý dòng ngân sách chứa khoản chi.<br>Người xác nhận nhu cầu là cần thiết và nằm trong ngân sách do CEO phân bổ. |
 | **KTV** | Kế toán viên nội bộ | Người KIỂM. Kiểm tính hợp lệ của chứng từ, kiểm điều kiện thuế, kiểm khoản trùng, TẠO lệnh chi, hạch toán, lưu hồ sơ.<br>**không phê duyệt chi, không xác nhận lệnh trên hệ thống ngân hàng, không là người đối chiếu sao kê, không giữ quỹ tiền mặt.** Việc `KTV` được TẠO lệnh là ngoại lệ của quy tắc tách quyền, xem [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 47.3a. |
 | **KTT** | Người phụ trách kế toán của oBacker | Người CHỐT KỸ THUẬT. Ký chứng từ chi tiền theo `[Luật Kế toán 41/VBHN-VPQH Đ.19 k.3]`.<br>Quyết định cách xử lý khi hồ sơ có vấn đề về thuế hoặc kế toán.<br>Cũng là một trong hai người TẠO lệnh chi.<br>không xác nhận lệnh trên hệ thống ngân hàng và không phê duyệt chi ở bất kỳ bậc nào, xem [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 12.3. |
 | **NDC** | Người duyệt chi | Người có thẩm quyền **phê duyệt trong quy trình** theo ma trận tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 12.3.<br>Tùy bậc là `TL` ở B1; `COO` ở B2 (khi `COO` vắng mặt, `CEO` là người dự phòng duyệt); `TGĐ` ở B3 (ngoại lệ luật định từ 35% tổng tài sản do `HĐQT` và `ĐHĐCĐ` quyết định, hoặc theo Điều 12a đối với người có liên quan).<br>`KTT` là người phụ trách chuyên môn ở bậc B2, không phải người duyệt chi; **`KTT` không phải NDC khi tự mình lập đề nghị hoặc tạo lệnh chi**, và một người vừa duyệt chi vừa tạo lệnh là vi phạm [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 47.2.<br>Việc xác nhận lệnh trên hệ thống ngân hàng điện tử không phải một lần phê duyệt riêng; đó là thao tác thực hiện, xem mục 5.5.1 bước B6. |
@@ -156,7 +156,7 @@ Bảng tổng hợp; khi bảng và phần chữ khác nhau thì lấy phần ch
 >
 > **Ký hiệu `KTV` trong tài liệu này khác với `KTV` trong Handbook Kế toán dịch vụ.** Ở Handbook Kế toán, `KTV` là kế toán viên vận hành hồ sơ CỦA KHÁCH HÀNG. Ở tài liệu này, `KTV` là kế toán viên xử lý sổ sách CỦA CHÍNH oBacker. Có thể là cùng một người, có thể không. Khi trích dẫn chéo giữa hai bộ tài liệu, luôn ghi rõ nguồn: "KTV theo OBK-SOP-NB-01" hoặc "KTV theo Handbook Kế toán".
 >
-> **`TL` là Team Lead, đồng thời là chủ ngân sách của bộ phận mình.** Hai chức năng gộp làm một: xác nhận nhu cầu là thật và cần thiết về mặt chuyên môn, và xác nhận khoản chi nằm trong ngân sách đã duyệt. Nếu ở một bộ phận mà hai chức năng này thuộc hai người khác nhau thì phải ghi rõ trong Phụ lục 1 và cả hai cùng ký.
+> **`TL` là Team Lead, không là người quyết ngân sách.** Việc quyết định và phân bổ ngân sách thuộc CEO, `TL` nhận thông báo. Hai chức năng gộp làm một: xác nhận nhu cầu là thật và cần thiết về mặt chuyên môn, và xác nhận khoản chi nằm trong ngân sách do CEO phân bổ. Nếu ở một bộ phận mà hai chức năng này thuộc hai người khác nhau thì phải ghi rõ trong Phụ lục 1 và cả hai cùng ký.
 
 ### 3.2. Bảng RACI theo bước
 
@@ -220,7 +220,7 @@ R là người làm, A là người chịu trách nhiệm cuối, C là người
 
 Không tiếp nhận đề nghị nào thiếu các đầu vào sau.
 
-4.1. Với đề nghị mua sắm: mô tả nhu cầu, lý do phát sinh, dòng ngân sách, số tiền dự kiến, thời hạn cần có.
+4.1. Với đề nghị mua sắm: mô tả nhu cầu, lý do phát sinh, dòng ngân sách, số tiền dự kiến, thời hạn cần có. Việc quyết định và phân bổ từng dòng ngân sách thuộc CEO; Team Lead nhận thông báo, không ký phê duyệt ngân sách.
 
 4.2. Với đề nghị thanh toán: chứng từ chứng minh nghĩa vụ trả tiền, gồm tối thiểu hợp đồng hoặc đơn đặt hàng, bằng chứng nhận hàng hoặc nghiệm thu, và hóa đơn hợp pháp. Bộ ba này là nội dung của phép đối chiếu ba chiều tại mục 5.5.3.
 
@@ -507,7 +507,7 @@ Sau khi xác minh bằng cách gọi số gốc lấy từ hợp đồng đã k�
 | Đang dừng ở | Hỏi ai | Thường là thiếu |
 | --- | --- | --- |
 | Đang soạn | Chính người đề nghị | Chứng từ chưa đủ theo mục 5.5.2, hoặc chưa đủ số báo giá của bậc |
-| Chờ duyệt, lượt duyệt 1 | Team Lead | Khoản chi ngoài ngân sách nên Team Lead chưa dám ký, xem mục 5.2.2 |
+| Chờ duyệt, lượt duyệt 1 | Team Lead | Khoản chi ngoài ngân sách do CEO phân bổ; Team Lead không ký phê duyệt ngân sách, hồ sơ chuyển thẳng lên người duyệt chi của bậc, xem mục 5.2.1 |
 | Chờ duyệt, lượt duyệt 2 | Kế toán viên | Đối chiếu ba chiều lệch, hoặc nhà cung cấp mới chưa xác minh đủ sáu nội dung, hoặc một điều kiện thuế chưa đạt |
 | Chờ duyệt, lượt duyệt 3 | Kế toán trưởng | Kế toán trưởng vắng mặt mà chưa có văn bản ủy quyền |
 | Chờ duyệt, lượt duyệt 4 | Người duyệt chi của bậc đó | Bậc bị tính sai nên phiếu tới sai người, hoặc khoản chạm mốc 35% tổng tài sản phải trình Hội đồng quản trị / Đại hội đồng cổ đông |
@@ -616,7 +616,7 @@ Chưa ký thì Team Lead quyết, hồ sơ sang "Đã huỷ", không mất gì. 
 | Đang dừng ở | Hỏi ai | Thường là thiếu |
 | --- | --- | --- |
 | Đang soạn | Chính người đề nghị | Chưa phân loại nhóm, hoặc chưa ghi giá trị dự kiến nên không tính được bậc |
-| Chờ duyệt nhu cầu, lượt duyệt 1 | Team Lead | Nhu cầu ngoài ngân sách nên Team Lead chưa dám ký, xem mục 5.2.2 |
+| Chờ duyệt nhu cầu, lượt duyệt 1 | Team Lead | Nhu cầu ngoài ngân sách do CEO phân bổ; Team Lead không ký phê duyệt ngân sách, hồ sơ chuyển thẳng lên người duyệt chi của bậc, xem mục 5.2.1 |
 | Chờ duyệt nhu cầu, lượt duyệt 2 | Kế toán trưởng | Hồ sơ tới lượt duyệt 2 mà chưa ai nói cho Kế toán trưởng biết bậc đã lên B3 |
 | Đang lấy báo giá | Người đề nghị | Chưa đủ số báo giá của bậc, hoặc có bên không xuất được hóa đơn hợp pháp nên bị loại |
 | Chờ chọn nhà cung cấp | Team Lead | Chưa ghi lý do chọn trên `BM-01`;<br>không ghi thì không được đi tiếp |
@@ -701,8 +701,8 @@ Không chọn theo giá thấp nhất một cách máy móc. Ghi rõ trên BM-01
 #### 5.3.3. Ba việc phải làm trước khi ký bất kỳ hợp đồng nào
 
 - Đọc điều khoản thanh toán: mốc thanh toán, tỷ lệ trả trước, hình thức thanh toán. Hợp đồng ghi "thanh toán bằng tiền mặt" là điều khoản phải sửa nếu giá trị từ 05 triệu đồng trở lên.
-- Đọc điều khoản hóa đơn: bên bán cam kết xuất hóa đơn đúng thời điểm theo `[Nghị định 254/2026/NĐ-CP Đ.9]`, ghi đúng tên, địa chỉ, mã số thuế của oBacker.
-- Đọc điều khoản gia hạn tự động: hợp đồng tự động gia hạn phải được đưa vào sổ theo dõi tại mục 5.11.2.
+- NDC đọc điều khoản hóa đơn: bên bán cam kết xuất hóa đơn đúng thời điểm theo `[Nghị định 254/2026/NĐ-CP Đ.9]`, ghi đúng tên, địa chỉ, mã số thuế của oBacker.
+- NDC đọc điều khoản gia hạn tự động: hợp đồng tự động gia hạn phải được đưa vào sổ theo dõi tại mục 5.11.2.
 
 > [!bug] LỖI THƯỜNG GẶP
 > Đặt cọc và hóa đơn. Thời điểm lập hóa đơn với dịch vụ là thời điểm hoàn thành cung cấp dịch vụ; nếu bên bán thu tiền trước hoặc trong khi cung cấp thì thời điểm lập hóa đơn là thời điểm thu tiền, **không bao gồm trường hợp thu tiền đặt cọc theo quy định Bộ luật Dân sự để bảo đảm thực hiện hợp đồng** `[Nghị định 254/2026/NĐ-CP Đ.9 k.2]`. Hệ quả thực tế: nếu khoản trả trước được ghi trong hợp đồng là ĐẶT CỌC bảo đảm thực hiện hợp đồng thì không đòi hóa đơn ở thời điểm đó; nếu ghi là TẠM ỨNG hoặc THANH TOÁN ĐỢT 1 thì phải có hóa đơn. Cách viết hợp đồng quyết định thời điểm hóa đơn. Việc chọn cách viết thuộc thẩm quyền KTT.
@@ -1312,17 +1312,6 @@ KTV lập báo cáo hằng tháng, KTT soát, gửi TGĐ.
 | 8 | Số lần thay đổi số tài khoản nhà cung cấp trong tháng | Đếm | Trên 02 lần, mỗi lần phải có bằng chứng xác minh bằng gọi điện |
 | 9 | Số giao dịch trên sao kê không truy được về đề nghị thanh toán | Đếm | Bất kỳ số nào lớn hơn 0 |
 | 10 | Giá trị chi phí bị loại khi soát quyết toán | Cộng | Bất kỳ giá trị nào lớn hơn 0, kèm phân tích nguyên nhân |
-## Phụ lục 2. PLACEHOLDER CÔNG CỤ
-
-Tài liệu viết độc lập với phần mềm. Khi triển khai, thay các placeholder sau bằng tên công cụ thực tế và mô tả thao tác trong một phụ lục riêng, để sau này đổi công cụ thì chỉ sửa phụ lục đó.
-
-| Placeholder | Dùng ở đâu | Ứng viên |
-| --- | --- | --- |
-| `[HỆ THỐNG NỘP ĐỀ NGHỊ]` | 6.3, 6.5, 6.7 | Hệ thống quản lý công việc đang dùng, hoặc biểu mẫu điện tử.<br>**Đặc tả yêu cầu tối thiểu ở `PL_DT_Mo_hinh_trang_thai_chi_tien.md` mục 12** |
-| `[KHO LƯU TRỮ HỒ SƠ]` | 6.13.3 | Ổ đĩa dùng chung có phân quyền |
-| `[PHẦN MỀM KẾ TOÁN]` | 6.13.1 | Phần mềm kế toán nội bộ của oBacker |
-| `[NGÂN HÀNG ĐIỆN TỬ]` | 6.5.5, 4.3 | Tài khoản doanh nghiệp có tách quyền lập và duyệt |
-| `[DANH MỤC NHÀ CUNG CẤP]` | 6.4.3 | Bảng tính có kiểm soát phiên bản hoặc bảng trong phần mềm kế toán |
 
 ---
 
@@ -1342,4 +1331,4 @@ Tài liệu viết độc lập với phần mềm. Khi triển khai, thay các 
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 04/10/2026 | R.3.0.2 | Bỏ lối tự sự ở quy trình mua sắm và thanh toán. |
+| 07/10/2026 | R.3.2.1 | Hai việc đọc điều khoản hóa đơn và điều khoản gia hạn tự động tại giai đoạn ký kết có chủ thể NDC (người duyệt chi theo bậc) |

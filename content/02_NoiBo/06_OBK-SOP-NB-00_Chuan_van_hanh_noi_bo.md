@@ -4,7 +4,7 @@ code: "OBK-SOP-NB-00"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 1, văn bản KHUNG toàn công ty"
-version: "R.2.1.3"
+version: "R.3.0.0"
 status: "đang áp dụng"
 draft_date: "04/10/2026"
 author: "CEO"
@@ -27,7 +27,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-SOP-NB-00 |
 | Cấp tài liệu | Cấp 1 của mảng nội bộ |
-| Phiên bản | R.2.1.3, đang áp dụng |
+| Phiên bản | R.3.0.0, đang áp dụng |
 | Ngày biên soạn | 04/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -274,13 +274,17 @@ Yêu cầu không khớp Job nào: xem [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OB
 | T6 | Nhắc phí và nhắc nợ theo bảng mốc tại [[19_Giao_tiep_khach_hang\|OBK-SOP-19]] mục 6.8.2 (tám mốc). `KTV` lập nội dung và số liệu; `AM` là đầu mối gửi cho khách. Mốc 45 ngày là đánh giá nội bộ do `COO` trình `CEO`; mốc 60 và 75 ngày do `CEO` quyết. Lưu bằng chứng đã gửi | `KTV` | `KTT` | Bằng chứng đã nhắc |
 | T7 | Đối chiếu công nợ với khách theo quý | `KTV` | `KTT` | Biên bản đối chiếu có xác nhận |
 
-### 6.2. Ba điểm kiểm soát bắt buộc của chu trình THU
+### 6.2. Bảy điểm kiểm soát bắt buộc của chu trình THU
 
-| Mã | Chốt | Trước bước nào | Ai kiểm |
-| --- | --- | --- | --- |
-| KS-NB-T1 | Hợp đồng có đủ ba nội dung bắt buộc. Thiếu một trong ba thì `KTT` không ký xác nhận hồ sơ | Trước T1 | `KTT` |
-| KS-NB-T2 | Cách gọi tên khoản tiền khách chuyển trước đã do `KTT` quyết, không do bộ phận bán hàng tự đặt | Trước T1 | `KTT` |
-| KS-NB-T3 | Khách mới, ba kỳ dịch vụ đầu thu trước, không bán chịu | Trước T1 | `KTV` |
+| Mã | Chốt | Trước bước nào | Ai kiểm | Ai duyệt kết quả |
+| --- | --- | --- | --- | --- |
+| KS-NB-T1 | Hợp đồng có đủ ba nội dung bắt buộc. Thiếu một trong ba thì `KTT` không ký xác nhận hồ sơ | Trước T1 | `KTT` | `TGĐ` |
+| KS-NB-T2 | Cách gọi tên khoản tiền khách chuyển trước đã do `KTT` quyết, không do bộ phận bán hàng tự đặt | Trước T1 | `KTT` | `TGĐ` |
+| KS-NB-T3 | Khách mới, ba kỳ dịch vụ đầu thu trước, không bán chịu | Trước T1 | `KTV` | `KTT` |
+| KS-NB-T4 | Hóa đơn phát hành trong 01 ngày làm việc kể từ thời điểm xác định doanh thu, và chưa có hóa đơn nào cho cùng phần việc | I3 | `KTV` | `KTT` |
+| KS-NB-T5 | Mọi khoản tiền về tài khoản đều đã khớp với một hóa đơn hoặc đã được `KTT` gọi tên | Mỗi kỳ đối chiếu nhanh | `AD-KT` | `KTT` |
+| KS-NB-T6 | Không cung cấp thêm dịch vụ cho khách trả sau đã vượt hạn mức bán chịu, khi chưa có phê duyệt của `TGĐ` | Trước mỗi kỳ dịch vụ tiếp | `KTV` | `TGĐ` |
+| KS-NB-T7 | Mọi lần nhắc nợ có bằng chứng đã gửi trong hồ sơ khách | Sau mỗi mốc | `KTV` | `KTT` |
 
 > [!bug] LỖI THƯỜNG GẶP
 > Quyết định lớn nhất của chu trình THU nằm ở khâu viết hợp đồng. Khoản khách chuyển trước ghi là ĐẶT CỌC bảo đảm thực hiện hợp đồng thì chưa phải lập hóa đơn tại thời điểm đó; ghi là TẠM ỨNG hoặc THANH TOÁN ĐỢT 1 thì phải lập hóa đơn ngay. Thẩm quyền chọn cách viết thuộc `KTT`. Bộ phận bán hàng không tự đặt tên khoản tiền trong hợp đồng. Xem OBK-QCTC-01 Đ.14.4.
@@ -290,7 +294,7 @@ Yêu cầu không khớp Job nào: xem [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OB
 ## 7. KHUNG CHU TRÌNH TIỀN, cơ sở đã dùng để viết OBK-SOP-NB-03
 
 > [!note] [[OBK-SOP-NB-03_Quan_ly_tien|OBK-SOP-NB-03]] LÀ BẢN GỐC CỦA CHU TRÌNH TIỀN, MỤC NÀY LÀ KHUNG TRA NHANH
-> Bản gốc của chu trình TIỀN là [[OBK-SOP-NB-03_Quan_ly_tien|OBK-SOP-NB-03]]; bảng việc theo kỳ mười dòng ở mục 5.1 của tài liệu đó là bản gốc về thứ tự và tần suất. Khung ở đây chỉ giữ ba chốt `KS-NB-M1` tới `KS-NB-M3`; [[OBK-SOP-NB-03_Quan_ly_tien|OBK-SOP-NB-03]] bổ sung thêm `KS-NB-M4` tới `KS-NB-M6` phủ phiếu thu phiếu chi, việc đóng sự cố chênh lệch trước khi khóa sổ, và tách quyền trong khâu điều tra chênh lệch. Nếu lệch với [[OBK-SOP-NB-03_Quan_ly_tien|OBK-SOP-NB-03]] thì tài liệu đó đúng.
+> Bản gốc của chu trình TIỀN là [[OBK-SOP-NB-03_Quan_ly_tien|OBK-SOP-NB-03]]; bảng việc theo kỳ mười dòng ở mục 5.1 của tài liệu đó là bản gốc về thứ tự và tần suất. Khung ở đây giữ sáu chốt `KS-NB-M1` tới `KS-NB-M6`, gồm phiếu thu phiếu chi, việc đóng sự cố chênh lệch trước khi khóa sổ, và tách quyền trong khâu điều tra chênh lệch. Nếu lệch với [[OBK-SOP-NB-03_Quan_ly_tien|OBK-SOP-NB-03]] thì tài liệu đó đúng.
 >
 > Điểm cần nắm: lượt đối chiếu sao kê bắt cả khoản tiền về chưa khớp hóa đơn, vì với điều khoản chuẩn trả trước toàn bộ thì tiền về là sự kiện làm phát sinh nghĩa vụ lập hóa đơn; vai trò `TQ` có bốn chỗ theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 33.1, mỗi văn phòng một người giữ quỹ và một người dự phòng; và **sự cố chênh lệch** là thứ duy nhất của chu trình TIỀN có vòng đời, nên có bảng tra trạng thái riêng.
 
@@ -321,13 +325,16 @@ Bốn quyền dưới đây phải thuộc bốn người khác nhau ở mức t
 | M5 | Đối chiếu số dư từng tài khoản ngân hàng với sổ, hằng tuần đối chiếu nhanh và hằng tháng đối chiếu đầy đủ | `AD-KT` | TGĐ |
 | M6 | Rà soát phân quyền lập và duyệt trên ngân hàng điện tử, hằng quý và ngay trong ngày khi đổi nhân sự | TGĐ | HĐQT |
 
-### 7.3. Ba điểm kiểm soát bắt buộc của chu trình TIỀN
+### 7.3. Sáu điểm kiểm soát bắt buộc của chu trình TIỀN
 
-| Mã | Chốt | Ai kiểm |
-| --- | --- | --- |
-| KS-NB-M1 | Không chi tiền khi chưa có chứng từ chứng minh nghĩa vụ trả tiền, và chứng từ chi tiền đã có người có thẩm quyền duyệt chi cùng người phụ trách kế toán ký trước khi thực hiện | `KTT` |
-| KS-NB-M2 | Người tạo lệnh khác người xác nhận lệnh trên ngân hàng điện tử, kiểm lại mỗi quý và mỗi lần đổi nhân sự | TGĐ, HĐQT duyệt kết quả |
-| KS-NB-M3 | Mọi tài khoản ngân hàng trong danh sách đều được đối chiếu, không bỏ tài khoản nào, kể cả tài khoản ít giao dịch | `AD-KT` làm, TGĐ duyệt |
+| Mã | Chốt | Ai kiểm | Ai duyệt kết quả |
+| --- | --- | --- | --- |
+| KS-NB-M1 | Không chi tiền khi chưa có chứng từ chứng minh nghĩa vụ trả tiền, và chứng từ chi tiền đã có người có thẩm quyền duyệt chi cùng người phụ trách kế toán ký trước khi thực hiện | `KTT` | `TGĐ` |
+| KS-NB-M2 | Người tạo lệnh khác người xác nhận lệnh trên ngân hàng điện tử, kiểm lại mỗi quý và mỗi lần đổi nhân sự | TGĐ | HĐQT |
+| KS-NB-M3 | Mọi tài khoản ngân hàng trong danh sách đều được đối chiếu, không bỏ tài khoản nào, kể cả tài khoản ít giao dịch | `AD-KT` | TGĐ |
+| KS-NB-M4 | Mọi lần nhập quỹ và xuất quỹ đều có phiếu thu hoặc phiếu chi đủ chữ ký theo chức danh, lập ngay tại thời điểm đó, số liên tục trong kỳ | `KTT` | TGĐ |
+| KS-NB-M5 | Không có sự cố chênh lệch nào còn mở tại thời điểm khóa sổ | `KTT` | TGĐ |
+| KS-NB-M6 | Người tìm nguyên nhân chênh lệch không phải người tạo lệnh của khoản đang xét | TGĐ | HĐQT, với sự cố chuyển thành nghi gian lận |
 
 ---
 
@@ -395,4 +402,4 @@ Mốc của kỳ lương rơi vào ngày nghỉ hằng tuần hoặc ngày ngh�
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 05/10/2026 | R.2.1.3 | Sửa lỗi lặp từ 'hành hành' ở hàng nhật ký bản R.2.1.2. |
+| 06/10/2026 | R.3.0.0 | Bổ sung bốn điểm kiểm soát KS-NB-T4 tới T7 của OBK-SOP-NB-02 vào mục 6.2 và ba điểm KS-NB-M4 tới M6 của OBK-SOP-NB-03 vào mục 7.3 |
