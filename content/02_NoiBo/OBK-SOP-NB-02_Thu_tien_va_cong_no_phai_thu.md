@@ -4,7 +4,7 @@ code: "OBK-SOP-NB-02"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.2.1.0"
+version: "R.2.2.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -28,7 +28,7 @@ tags:
 | Mã tài liệu | OBK-SOP-NB-02 |
 | Tên tài liệu | Quy trình thu tiền và quản lý công nợ phải thu |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ. Thi hành Chương 4 của [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Quy chế tài chính nội bộ |
-| Phiên bản | R.2.1.0, đang áp dụng |
+| Phiên bản | R.2.2.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -377,7 +377,7 @@ Nguồn phát sinh: khách yêu cầu hoàn tiền hoặc hủy dịch vụ; ho�
 | 10 | Số dư dự phòng nợ phải thu khó đòi, và biến động so với kỳ trước | Sổ kế toán, tài khoản 2293 | Khi lập báo cáo tài chính | Biến động trên 20% so với kỳ trước là phải giải trình |
 
 **Sáu trong mười chỉ số lấy số trực tiếp từ hai bảng tra trạng thái ở mục 5.0.** Đếm hồ sơ theo trạng thái và đo thời gian nằm trong từng trạng thái là đủ, không cần thêm sổ theo dõi nào.
-Ngưỡng cảnh báo ở bảng trên là mức tạm đặt ngày 06/10/2026, rà lại sau 03 kỳ chạy thật.
+Ngưỡng cảnh báo ở bảng trên là mức tạm đặt ngày 06/10/2026.
 
 ## Liên kết với tài liệu khác
 
@@ -397,4 +397,4 @@ Ngưỡng cảnh báo ở bảng trên là mức tạm đặt ngày 06/10/2026, 
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 06/10/2026 | R.2.1.0 | Đặt ngưỡng cảnh báo tạm cho năm chỉ số mục 9 chưa có ngưỡng, mức tạm đặt 06/10/2026, rà lại sau 03 kỳ chạy thật |
+| 07/10/2026 | R.2.2.0 | Bỏ nhắc hẹn rà lại ngưỡng cảnh báo tạm sau 03 kỳ chạy thật theo chỉ thị của CEO ngày 07/10/2026, giữ nguyên các mức tạm đặt 06/10/2026 |

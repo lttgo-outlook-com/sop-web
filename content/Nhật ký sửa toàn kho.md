@@ -36,22 +36,22 @@ tags:
 
 ## 1. Danh mục tài liệu
 
-Trang này ghi 331 lượt sửa thuộc các bản cũ của 155 tài liệu, tính tới 06/10/2026. Lượt sửa của bản hiện hành ghi tại mục NHẬT KÝ SỬA trong chính tài liệu đó.
+Trang này ghi 333 lượt sửa thuộc các bản cũ của 155 tài liệu, tính tới 07/10/2026. Lượt sửa của bản hiện hành ghi tại mục NHẬT KÝ SỬA trong chính tài liệu đó.
 
 | Tài liệu | Số lượt sửa | Ngày sửa gần nhất |
 | --- | --- | --- |
+| [[OBK-SOP-NB-03_Quan_ly_tien\|OBK-SOP-NB-03]] | 4 | 07/10/2026 |
 | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] | 9 | 06/10/2026 |
 | [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] | 9 | 06/10/2026 |
 | [[00_Muc_luc_va_cach_dung\|OBK-HB-00]] | 6 | 06/10/2026 |
 | [[NH-01_Doi_chieu_ngan_hang\|NH-01]] | 4 | 06/10/2026 |
 | [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-QCTC-03]] | 4 | 06/10/2026 |
+| [[OBK-SOP-NB-02_Thu_tien_va_cong_no_phai_thu\|OBK-SOP-NB-02]] | 4 | 06/10/2026 |
 | [[12_HD_Phuong_phap_tra_cuu_va_cap_nhat_phap_luat\|OBK-HB-71]] | 3 | 06/10/2026 |
 | [[BC-01_Bang_kiem_tra_sao_luu_du_lieu_va_ung_pho_su_co_bcp\|BC-01]] | 3 | 06/10/2026 |
 | [[KP-01_Bang_theo_doi_chi_so_hieu_suat_kpi_toan_cong_ty\|KP-01]] | 3 | 06/10/2026 |
 | [[PL_Anh_xa_nhan_su\|OBK-QCTC-02-PL-D]] | 3 | 06/10/2026 |
-| [[OBK-SOP-NB-02_Thu_tien_va_cong_no_phai_thu\|OBK-SOP-NB-02]] | 3 | 06/10/2026 |
 | [[11_Thue_TNCN\|OBK-HB-11]] | 3 | 06/10/2026 |
-| [[OBK-SOP-NB-03_Quan_ly_tien\|OBK-SOP-NB-03]] | 3 | 06/10/2026 |
 | [[12_Hoa_don_dien_tu\|OBK-HB-12]] | 3 | 06/10/2026 |
 | [[TH-02_So_theo_doi_han_tong_hop\|TH-02]] | 1 | 06/10/2026 |
 | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] | 7 | 05/10/2026 |
@@ -1177,6 +1177,7 @@ Trang này ghi 331 lượt sửa thuộc các bản cũ của 155 tài liệu, t
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 06/10/2026 | R.2.1.0 | Đặt ngưỡng cảnh báo tạm cho năm chỉ số mục 9 chưa có ngưỡng, mức tạm đặt 06/10/2026, rà lại sau 03 kỳ chạy thật |
 | 06/10/2026 | R.2.0.0 | Mục 4: KTV mở và ghi nhận khoản phải thu theo từng vụ khi đủ đầu vào, KTT soát lại đầu vào tại thời điểm xuất hóa đơn (chốt VQ-40 phương án A) |
 | 04/10/2026 | R.1.0.1 | Chuẩn hóa văn phong hành chính, bỏ số đếm ở tiêu đề và callout, hoàn thiện các quy định về hợp đồng và công nợ |
 | 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
@@ -1199,6 +1200,7 @@ Trang này ghi 331 lượt sửa thuộc các bản cũ của 155 tài liệu, t
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 07/10/2026 | R.2.0.0 | Mục 5.2.2 bỏ người dự phòng thủ quỹ và ghi vai trò TQ do hai người của hai văn phòng giữ theo quyết định của CEO ngày 07/10/2026 |
 | 06/10/2026 | R.1.1.0 | Đặt ngưỡng cảnh báo tạm cho bốn chỉ số mục 9 chưa có ngưỡng, mức tạm đặt 06/10/2026, rà lại sau 03 kỳ chạy thật |
 | 04/10/2026 | R.1.0.2 | Chuẩn hóa văn phong hành chính, bỏ số đếm ở tiêu đề và callout, hoàn thiện các quy định kiểm soát quỹ và tài khoản |
 | 30/09/2026 | R.1.0.1 | Chia 3 câu dài ở mục đích, căn cứ nội bộ và mục 5.2.2 thành câu ngắn bằng dấu chấm phay, không đổi nghĩa |

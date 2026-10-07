@@ -4,7 +4,7 @@ code: "OBK-SOP-NB-03"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.2.0.0"
+version: "R.2.1.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -28,7 +28,7 @@ tags:
 | Mã tài liệu | OBK-SOP-NB-03 |
 | Tên tài liệu | Quy trình quản lý quỹ tiền mặt, tài khoản ngân hàng và dòng tiền |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ. Thi hành Chương 7 của [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Quy chế tài chính nội bộ |
-| Phiên bản | R.2.0.0, đang áp dụng |
+| Phiên bản | R.2.1.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -305,7 +305,7 @@ Một sự cố chênh lệch mở ra khi tiền thật không khớp sổ, từ
 | 10 | Chênh lệch giữa kế hoạch dòng tiền kỳ trước và thực tế | Dòng `M1` | Hằng tháng | Trên 10% giá trị kế hoạch là phải giải trình |
 
 **Bốn chỉ số đầu phải bằng 0 hoặc gần 0, và đó là bốn chỉ số đáng xem trước.** Bốn chỉ số đó đo ba điểm kiểm soát của chu trình này. Sáu chỉ số sau đo hiệu quả, và sáu chỉ số đó chỉ có nghĩa khi bốn chỉ số đầu đã đạt.
-Ngưỡng cảnh báo ở bảng trên là mức tạm đặt ngày 06/10/2026, rà lại sau 03 kỳ chạy thật.
+Ngưỡng cảnh báo ở bảng trên là mức tạm đặt ngày 06/10/2026.
 
 ## Liên kết với tài liệu khác
 
@@ -324,4 +324,4 @@ Ngưỡng cảnh báo ở bảng trên là mức tạm đặt ngày 06/10/2026, 
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 07/10/2026 | R.2.0.0 | Mục 5.2.2 bỏ người dự phòng thủ quỹ và ghi vai trò TQ do hai người của hai văn phòng giữ theo quyết định của CEO ngày 07/10/2026 |
+| 07/10/2026 | R.2.1.0 | Bỏ nhắc hẹn rà lại ngưỡng cảnh báo tạm sau 03 kỳ chạy thật theo chỉ thị của CEO ngày 07/10/2026, giữ nguyên các mức tạm đặt 06/10/2026 |
