@@ -94,6 +94,7 @@ Thư mục `02_NoiBo`. Nhóm này áp dụng cho sổ sách, tiền và tài s�
 | [[OBK-SOP-NB-17_Lap_ke_hoach_kinh_doanh_va_ngan_sach_tai_chinh\|OBK-SOP-NB-17]] | [[OBK-SOP-NB-17_Lap_ke_hoach_kinh_doanh_va_ngan_sach_tai_chinh]] | Lập kế hoạch kinh doanh và ngân sách tài chính | Cấp 3 |
 | [[OBK-SOP-NB-18_Quan_ly_cong_tac_phi_va_thanh_toan_chi_phi_cong_tac\|OBK-SOP-NB-18]] | [[OBK-SOP-NB-18_Quan_ly_cong_tac_phi_va_thanh_toan_chi_phi_cong_tac]] | Quản lý công tác phí và thanh toán chi phí công tác | Cấp 3 |
 | [[PL_BM_Bieu_mau_mua_sam_thanh_toan\|OBK-SOP-NB-PL-BM]] | [[PL_BM_Bieu_mau_mua_sam_thanh_toan]] | Phụ lục BM. Biểu mẫu mua sắm nội bộ và thanh toán | Phụ lục |
+| [[PL_DT_Mo_hinh_trang_thai_chi_tien\|OBK-SOP-NB-PL-DT]] | [[PL_DT_Mo_hinh_trang_thai_chi_tien]] | Phụ lục ĐT. Đặc tả mô hình trạng thái của hồ sơ chi tiền | Phụ lục |
 
 #### Dịch vụ cho khách
 

@@ -8,7 +8,7 @@ tags:
 # Trạng thái ban hành
 
 > [!info] TRANG NÀY LÀ GÌ
-> Trang này ghi trạng thái của 178 tài liệu trong kho. Trang này được sinh lại từ thông tin đầu tệp của từng tài liệu; nơi sửa một trạng thái là bảng Thông tin phiên bản của chính tài liệu đó.
+> Trang này ghi trạng thái của 179 tài liệu trong kho. Trang này được sinh lại từ thông tin đầu tệp của từng tài liệu; nơi sửa một trạng thái là bảng Thông tin phiên bản của chính tài liệu đó.
 
 Cập nhật ngày 07/10/2026.
 
@@ -27,7 +27,7 @@ Thư mục `01_ToChuc`, 6 tài liệu.
 
 ## Vận hành nội bộ
 
-Thư mục `02_NoiBo`, 22 tài liệu.
+Thư mục `02_NoiBo`, 23 tài liệu.
 
 | Mã | Tài liệu | Cấp | Bản | Trạng thái | Người soát | Người phê duyệt | Ngày biên soạn | Rà soát tiếp theo |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -53,6 +53,7 @@ Thư mục `02_NoiBo`, 22 tài liệu.
 | [[OBK-SOP-NB-17_Lap_ke_hoach_kinh_doanh_va_ngan_sach_tai_chinh\|OBK-SOP-NB-17]] | [[OBK-SOP-NB-17_Lap_ke_hoach_kinh_doanh_va_ngan_sach_tai_chinh]] | Cấp 3, hướng dẫn nghiệp vụ | R.1.0.2 | đang áp dụng | CEO | CEO | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[OBK-SOP-NB-18_Quan_ly_cong_tac_phi_va_thanh_toan_chi_phi_cong_tac\|OBK-SOP-NB-18]] | [[OBK-SOP-NB-18_Quan_ly_cong_tac_phi_va_thanh_toan_chi_phi_cong_tac]] | Cấp 3, hướng dẫn nghiệp vụ | R.1.0.2 | đang áp dụng | CEO | CEO | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[PL_BM_Bieu_mau_mua_sam_thanh_toan\|OBK-SOP-NB-PL-BM]] | [[PL_BM_Bieu_mau_mua_sam_thanh_toan]] | Phụ lục | R.1.1.1 | đang áp dụng | CEO | CEO | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
+| [[PL_DT_Mo_hinh_trang_thai_chi_tien\|OBK-SOP-NB-PL-DT]] | [[PL_DT_Mo_hinh_trang_thai_chi_tien]] | Phụ lục đặc tả của OBK-SOP-NB-01. KHÔNG phải quy trình, KHÔNG dùng để hướng dẫn người vận hành | R.1.0.0 | đang áp dụng | CEO | CEO | 07/09/2026 | Cùng lượt với OBK-SOP-NB-01 |
 
 ## Dịch vụ cho khách
 
