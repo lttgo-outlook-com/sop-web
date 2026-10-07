@@ -19,7 +19,7 @@ Thư mục `01_ToChuc`, 6 tài liệu.
 | Mã | Tài liệu | Cấp | Bản | Trạng thái | Người soát | Người phê duyệt | Ngày biên soạn | Rà soát tiếp theo |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen\|OBK-QCTC-02]] | [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen]] | Cấp 1, văn bản KHUNG toàn công ty | R.1.0.2 | đang áp dụng | CEO | CEO | 04/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
-| [[PL_Anh_xa_nhan_su\|OBK-QCTC-02-PL-D]] | [[PL_Anh_xa_nhan_su]] | Phụ lục | R.1.0.2 | đang áp dụng | CEO | CEO | 04/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
+| [[PL_Anh_xa_nhan_su\|OBK-QCTC-02-PL-D]] | [[PL_Anh_xa_nhan_su]] | Phụ lục | R.1.1.0 | đang áp dụng | CEO | CEO | 04/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[PL_Chuyen_len_cap_tren\|OBK-QCTC-02-PL-C]] | [[PL_Chuyen_len_cap_tren]] | Phụ lục | R.1.0.1 | đang áp dụng | CEO | CEO | 04/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[PL_E_Bang_tra_nhanh_than_quyen\|OBK-QCTC-02-PL-E]] | [[PL_E_Bang_tra_nhanh_than_quyen]] | Phụ lục | R.1.0.1 | đang áp dụng | CEO | CEO | 04/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[PL_Ma_tran_phan_quyen\|OBK-QCTC-02-PL-B]] | [[PL_Ma_tran_phan_quyen]] | Phụ lục | R.3.0.1 | đang áp dụng | CEO | CEO | 04/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
@@ -32,11 +32,11 @@ Thư mục `02_NoiBo`, 23 tài liệu.
 | Mã | Tài liệu | Cấp | Bản | Trạng thái | Người soát | Người phê duyệt | Ngày biên soạn | Rà soát tiếp theo |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo\|OBK-SOP-NB-00]] | [[06_OBK-SOP-NB-00_Chuan_van_hanh_noi_bo]] | Cấp 1, văn bản KHUNG toàn công ty | R.3.0.0 | đang áp dụng | CEO | CEO | 04/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
-| [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo]] | Cấp 1, văn bản KHUNG toàn công ty | R.5.0.0 | đang áp dụng | CEO | CEO | 04/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
+| [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo]] | Cấp 1, văn bản KHUNG toàn công ty | R.6.0.0 | đang áp dụng | CEO | CEO | 04/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-QCTC-03]] | [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan]] | Cấp 1, văn bản KHUNG toàn công ty | R.3.0.0 | đang áp dụng | CEO | CEO | 04/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] | [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo]] | Cấp 3, hướng dẫn nghiệp vụ | R.3.2.1 | đang áp dụng | CEO | CEO | 04/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[OBK-SOP-NB-02_Thu_tien_va_cong_no_phai_thu\|OBK-SOP-NB-02]] | [[OBK-SOP-NB-02_Thu_tien_va_cong_no_phai_thu]] | Cấp 3, hướng dẫn nghiệp vụ | R.2.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
-| [[OBK-SOP-NB-03_Quan_ly_tien\|OBK-SOP-NB-03]] | [[OBK-SOP-NB-03_Quan_ly_tien]] | Cấp 3, hướng dẫn nghiệp vụ | R.1.1.0 | đang áp dụng | CEO | CEO | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
+| [[OBK-SOP-NB-03_Quan_ly_tien\|OBK-SOP-NB-03]] | [[OBK-SOP-NB-03_Quan_ly_tien]] | Cấp 3, hướng dẫn nghiệp vụ | R.2.0.0 | đang áp dụng | CEO | CEO | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[OBK-SOP-NB-04_Cong_va_tien_luong_noi_bo\|OBK-SOP-NB-04]] | [[OBK-SOP-NB-04_Cong_va_tien_luong_noi_bo]] | Cấp 3, hướng dẫn nghiệp vụ | R.2.0.1 | đang áp dụng | CEO | CEO | 30/09/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[OBK-SOP-NB-05_Tuyen_dung_va_onboarding_noi_bo\|OBK-SOP-NB-05]] | [[OBK-SOP-NB-05_Tuyen_dung_va_onboarding_noi_bo]] | Cấp 3, hướng dẫn nghiệp vụ | R.1.2.1 | đang áp dụng | CEO | CEO | 30/09/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[OBK-SOP-NB-06_Nghi_viec_va_offboarding_noi_bo\|OBK-SOP-NB-06]] | [[OBK-SOP-NB-06_Nghi_viec_va_offboarding_noi_bo]] | Cấp 3, hướng dẫn nghiệp vụ | R.1.2.2 | đang áp dụng | CEO | CEO | 30/09/2026 | Không quá 12 tháng kể từ ngày ban hành |

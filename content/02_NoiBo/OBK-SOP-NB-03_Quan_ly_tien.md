@@ -4,7 +4,7 @@ code: "OBK-SOP-NB-03"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.1.1.0"
+version: "R.2.0.0"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -28,7 +28,7 @@ tags:
 | Mã tài liệu | OBK-SOP-NB-03 |
 | Tên tài liệu | Quy trình quản lý quỹ tiền mặt, tài khoản ngân hàng và dòng tiền |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ. Thi hành Chương 7 của [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Quy chế tài chính nội bộ |
-| Phiên bản | R.1.1.0, đang áp dụng |
+| Phiên bản | R.2.0.0, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -130,7 +130,7 @@ Nguyên tắc quản lý hạn mức tiền mặt:
 
 #### 5.2.2. Trách nhiệm của Thủ quỹ và điều kiện phân công
 
-OBK-QCTC-01 mục 33.1 đòi **mỗi văn phòng có một người giữ quỹ được chỉ định bằng văn bản, và một người dự phòng.** oBacker có hai văn phòng, Đà Nẵng và Thành phố Hồ Chí Minh; nên vai trò `TQ` cần **bốn người**: hai người giữ chính và hai người dự phòng.
+OBK-QCTC-01 mục 33.1 đòi **mỗi văn phòng có một người giữ quỹ được chỉ định bằng văn bản; không đặt người dự phòng** theo quyết định của CEO ngày 07/10/2026. oBacker có hai văn phòng, Đà Nẵng và Thành phố Hồ Chí Minh; nên vai trò `TQ` do **hai người** giữ, tên ghi tại bảng ánh xạ nhân sự OBK-QCTC-02-PL-D.
 
 Ba điều cấm khi chỉ định, và cả ba phải kiểm cho từng người:
 
@@ -324,4 +324,4 @@ Ngưỡng cảnh báo ở bảng trên là mức tạm đặt ngày 06/10/2026, 
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 06/10/2026 | R.1.1.0 | Đặt ngưỡng cảnh báo tạm cho bốn chỉ số mục 9 chưa có ngưỡng, mức tạm đặt 06/10/2026, rà lại sau 03 kỳ chạy thật |
+| 07/10/2026 | R.2.0.0 | Mục 5.2.2 bỏ người dự phòng thủ quỹ và ghi vai trò TQ do hai người của hai văn phòng giữ theo quyết định của CEO ngày 07/10/2026 |

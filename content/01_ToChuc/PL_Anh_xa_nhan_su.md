@@ -4,7 +4,7 @@ code: "OBK-QCTC-02-PL-D"
 type: "sop"
 folder: "01_ToChuc"
 level: "Phụ lục"
-version: "R.1.0.2"
+version: "R.1.1.0"
 status: "đang áp dụng"
 draft_date: "04/10/2026"
 author: "CEO"
@@ -25,7 +25,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-QCTC-02-PL-D |
 | Cấp tài liệu | Phụ lục |
-| Phiên bản | R.1.0.2, đang áp dụng |
+| Phiên bản | R.1.1.0, đang áp dụng |
 | Ngày biên soạn | 04/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -82,6 +82,8 @@ Kiêm nhiệm không phải một trạng thái. Một người giữ nhiều va
 | Kế toán viên nội bộ | `KTV` | ĐN | Giang Đặng<br>giang.dang@obacker.com | Đang giữ |
 | Kế toán viên | `KTV` | ĐN | Cao Thị Minh Hiếu<br>hieu.cao@obacker.com | Đang thử việc |
 | Người đối chiếu sao kê ngân hàng với sổ kế toán | `AD-KT` | HCM | Yến Dương<br>yen.duong@obacker.com | Đang giữ |
+| Thủ quỹ, người giữ quỹ tiền mặt | `TQ` | HCM | Đào Phương Linh<br>linh.dao@obacker.com | Đang giữ |
+| Thủ quỹ, người giữ quỹ tiền mặt | `TQ` | ĐN | Sinh Nguyen<br>sinh.nguyen@obacker.com | Đang giữ |
 
 > [!note] PHÂN QUYỀN THAO TÁC NGÂN HÀNG ĐIỆN TỬ
 > Thao tác **TẠO** lệnh chuyển tiền do `KTV` và `KTT` thực hiện, mỗi người một tài khoản người dùng riêng. Thao tác **XÁC NHẬN** lệnh do `TGĐ` và `Chủ tịch HĐQT` thực hiện, một trong hai là đủ, không chia theo bậc giá trị. Hai thao tác này không phải hai lần phê duyệt; việc phê duyệt khoản chi xảy ra đúng một lần theo ma trận tại `02_NoiBo/OBK-QCTC-01 mục 12.3`. `AD-KT` không có quyền nào trên ngân hàng điện tử và không hạch toán sổ nội bộ; đó là điều kiện để `AD-KT` làm được lớp đối chiếu độc lập. Xem `02_NoiBo/OBK-QCTC-01` mục 35.1a, mục 47.3a và Điều 48 chốt số 1.
@@ -204,7 +206,6 @@ Tổng: 41 dòng vai trò có người giữ, 24 người, 3 vị trí đang tuy
 
 | Vị trí | Ký hiệu | Văn phòng | Đơn vị | Trạng thái |
 | --- | --- | --- | --- | --- |
-| Thủ quỹ, người giữ quỹ tiền mặt | `TQ` | chưa xác định | Finance | Trống |
 | Office Admin |  | ĐN | HR | Đang tuyển |
 | Chuyên viên | `CV-KT` | TPHCM | Accounting & Tax Team | Đang tuyển |
 | Chuyên viên | `CV-LD` | Đà Nẵng | Labor & Payroll Team | Đang tuyển |
@@ -213,4 +214,4 @@ Tổng: 41 dòng vai trò có người giữ, 24 người, 3 vị trí đang tuy
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 06/10/2026 | R.1.0.2 | Điền tên 11 người chưa có tên vào cột Người của bảng ánh xạ vị trí và bảng kiêm nhiệm |
+| 07/10/2026 | R.1.1.0 | Chỉ định hai thủ quỹ: văn phòng Thành phố Hồ Chí Minh là Đào Phương Linh, văn phòng Đà Nẵng là Sinh Nguyen, không đặt người dự phòng |

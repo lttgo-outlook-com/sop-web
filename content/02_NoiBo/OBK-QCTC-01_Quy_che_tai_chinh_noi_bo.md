@@ -4,7 +4,7 @@ code: "OBK-QCTC-01"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 1, văn bản KHUNG toàn công ty"
-version: "R.5.0.0"
+version: "R.6.0.0"
 status: "đang áp dụng"
 draft_date: "04/10/2026"
 author: "CEO"
@@ -28,7 +28,7 @@ tags:
 | Mã tài liệu | OBK-QCTC-01 |
 | Tên tài liệu | Quy chế tài chính nội bộ của Công ty cổ phần oBacker |
 | Cấp tài liệu | Cấp 1, văn bản KHUNG. Các quy trình OBK-SOP-NB nằm dưới quy chế này |
-| Phiên bản | R.5.0.0, đang áp dụng |
+| Phiên bản | R.6.0.0, đang áp dụng |
 | Ngày biên soạn | 04/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -1021,7 +1021,7 @@ Quy định này áp dụng từ ngày 01 tháng 7 năm 2026 `[Nghị định 25
 
 ### Điều 33. Thủ quỹ và kiểm quỹ
 
-33.1. Mỗi văn phòng có một người giữ quỹ tiền mặt được chỉ định bằng văn bản, và một người dự phòng. Người giữ quỹ không được là người hạch toán.
+33.1. Mỗi văn phòng có một người giữ quỹ tiền mặt được chỉ định bằng văn bản; không đặt người dự phòng theo quyết định của CEO ngày 07/10/2026. Người giữ quỹ không được là người hạch toán.
 
 33.2. **Người giữ quỹ không được là người quản lý, điều hành** `[Luật Kế toán 41/VBHN-VPQH Đ.13 k.7]`, và **người làm kế toán không được đồng thời là thủ quỹ** `[Luật Kế toán 41/VBHN-VPQH Đ.52 k.4]`. Hai điều cấm này áp trực tiếp lên oBacker vì oBacker là công ty cổ phần.
 
@@ -1817,4 +1817,4 @@ Ba quy tắc, cũng ghi tại mục 3.4:
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 06/10/2026 | R.5.0.0 | Chốt cấp ban hành là Hội đồng quản trị theo Điều lệ Đ.25 k.2 đ.l; không quy định trợ cấp thôi việc cao hơn mức luật định; thêm nhóm nợ đang tranh chấp tại mục 15.4; AD-KT giữ Danh mục nhà cung cấp, TGĐ duyệt khi thêm nhà cung cấp mới; bổ sung hai dòng liên kết tài liệu tại Phụ lục 5 |
+| 07/10/2026 | R.6.0.0 | Điều 33.1 bỏ yêu cầu một người dự phòng thủ quỹ theo quyết định của CEO ngày 07/10/2026 |
