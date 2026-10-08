@@ -5,8 +5,8 @@ aliases:
   - TNC-06-EN
 type: "tnc"
 folder: "09_TnC"
-version: "V1.1.0"
-release: "R.26.10.08.1"
+version: "V1.2.0"
+release: "R.26.10.09.1"
 status: "đang áp dụng"
 author: "CEO"
 reviewer: "CEO"
@@ -21,7 +21,7 @@ tags:
 ### Including a dedicated section on Sensitive Personal Data
 
 **Applies to:** oBacker Joint Stock Company
-**Version:** V1.1.0 (VI-EN) · **Release:** R.26.10.08.1 · **Issue date:** 21 September 2026 · **Effective Date:** 21 September 2026
+**Version:** V1.2.0 (VI-EN) · **Release:** R.26.10.09.1 · **Issue date:** 21 September 2026 · **Effective Date:** 21 September 2026
 
 ---
 
@@ -75,7 +75,7 @@ This Policy is built on the basis of Vietnamese law, including but not limited t
 | Enterprise code / Tax code | 0402298185 |
 | Registered office | Floor 2, 06 Tran Phu Street, Hai Chau Ward, Da Nang, Vietnam |
 | Legal representative | Nguyen Thi Thu Trang, Chairwoman of the Board of Directors |
-| Personal data protection focal point (DPO) | Nguyen Thi Thu Trang |
+| Personal data protection officer (DPO) | Head of the Legal Research and Development Department of oBacker, reachable through the personal data email |
 | Personal data email | privacy@obacker.com |
 | Website | obacker.com |
 
@@ -206,7 +206,7 @@ oBacker may update this Policy from time to time; the updated version is publish
 
 | Contact channel | Information |
 |---|---|
-| Responsible unit / DPO | Legal and Personal Data Protection Department; oBacker |
+| Personal data protection officer (DPO) | Head of the Legal Research and Development Department of oBacker |
 | Email | privacy@obacker.com |
 | Address for requests | Floor 2, 06 Tran Phu Street, Hai Chau Ward, Da Nang, Vietnam |
 | Website | obacker.com |
@@ -285,7 +285,7 @@ Because oBacker uses Google Workspace, sensitive data may be stored/processed at
 
 **28.1.** Your rights over sensitive data apply as set out in Article 13, together with the enhanced protection measures in this Part.
 
-**28.2. Complaint mechanism.** You submit a request/complaint to the DPO focal point (Article 20); oBacker verifies your identity; it responds within the timeframe set by law (including the **72-hour** deadline for certain requests such as restriction of processing under Decree No. 356/2025); and where it refuses, it states the reasons in writing. If you remain dissatisfied, you may complain, denounce, or file a lawsuit with the competent authorities, including **A05; Ministry of Public Security** and the competent court.
+**28.2. Complaint mechanism.** You submit a request/complaint to the personal data protection officer (DPO) in Article 20; oBacker verifies your identity; it responds within the timeframe set by law (including the **72-hour** deadline for certain requests such as restriction of processing under Decree No. 356/2025); and where it refuses, it states the reasons in writing. If you remain dissatisfied, you may complain, denounce, or file a lawsuit with the competent authorities, including **A05; Ministry of Public Security** and the competent court.
 
 > **For a client's employees/shareholders:** for sensitive data processed by oBacker on the client's instructions, exercising your rights requires coordination with the client (the primary Data Controller). oBacker receives the request and coordinates with the client to assist you.
 
@@ -302,4 +302,4 @@ Da Nang, 21 September 2026
 
 | Date | Version | Description |
 | --- | --- | --- |
-| 08/10/2026 | V1.1.0 | Synced with the Vietnamese version: biometric signature line and log date. |
+| 09/10/2026 | V1.2.0 | Named the personal data protection officer by title, Head of the Legal Research and Development Department, in line with the internal personal data protection regulation. |

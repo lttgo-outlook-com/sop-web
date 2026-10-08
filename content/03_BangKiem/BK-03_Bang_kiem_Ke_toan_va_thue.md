@@ -4,8 +4,8 @@ code: "BK-03"
 type: "sop"
 folder: "03_BangKiem"
 level: "Bảng kiểm"
-version: "V3.0.0"
-release: "R.26.10.08.1"
+version: "V4.0.0"
+release: "R.26.10.09.1"
 status: "đang áp dụng"
 draft_date: "08/10/2026"
 author: "CEO"
@@ -24,8 +24,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | BK-03 |
 | Cấp tài liệu | Bảng kiểm |
-| Phiên bản | V3.0.0, đang áp dụng |
-| Phát hành | R.26.10.08.1 |
+| Phiên bản | V4.0.0, đang áp dụng |
+| Phát hành | R.26.10.09.1 |
 | Ngày biên soạn | 08/10/2026 |
 | Người biên soạn | CEO |
 | Người soát | CEO |
@@ -56,9 +56,9 @@ Chữ ký trên hồ sơ thuế của khách: tờ khai và văn bản giải tr
 | KT-11 | Quản lý hóa đơn điện tử | Liên tục | Dữ liệu hóa đơn | Bảng kê hóa đơn đã đối chiếu;<br>hồ sơ xử lý hóa đơn sai sót | Theo kỳ tháng;<br>hóa đơn sai sót xử lý trong 01 ngày làm việc kể từ khi phát hiện | Không có | Handbook Ch.12, [[PL_H_Quy_trinh_chu_ky_so_va_hoa_don_dien_tu\|PL_H]] | Không |
 | KT-12 | Bảng đối chiếu công nợ gửi khách xác nhận | Theo quý | Sổ công nợ | Bảng đối chiếu đã gửi và đã được khách xác nhận | Trong 05 ngày làm việc đầu tháng đầu quý sau | Không có | Không có | Không |
 | KT-13 | Báo cáo soát xét trước quyết toán, gói G3 | Theo năm | Sổ 6 tháng đầu năm | Báo cáo soát xét | 31/07 | Không có | Không có | Không |
-| KT-14 | Xin xác nhận số liệu quyết toán từ khách | Kỳ quyết toán thuế năm | Bộ số liệu năm đã khóa | Bộ hồ sơ xin xác nhận đã gửi khách | 24/03 | Không có | Không có | Không |
-| KT-15 | Lập và nộp báo cáo tài chính năm | Kỳ quyết toán thuế năm | Sổ năm đã khóa;<br>xác nhận của khách | Báo cáo tình hình tài chính và Báo cáo kết quả hoạt động đã nộp;<br>Thông báo tiếp nhận | Nộp 25/03 | **90 ngày kể từ ngày kết thúc kỳ kế toán năm** | CC-KT-03;<br>Handbook Ch.07 | Không |
-| KT-16 | Quyết toán thuế TNDN năm | Kỳ quyết toán thuế năm | Sổ năm đã khóa;<br>xác nhận của khách | Tờ khai quyết toán đã nộp;<br>Thông báo tiếp nhận;<br>giấy nộp tiền | Nộp 25/03 | Ngày cuối cùng của tháng thứ 03 kể từ ngày kết thúc kỳ quyết toán thuế, theo Nghị định 252/2026/NĐ-CP Đ.10 k.5 đ.a | Handbook Ch.14 | Không |
+| KT-14 | Xin xác nhận số liệu quyết toán từ khách | Kỳ quyết toán thuế năm | Bộ số liệu năm đã khóa | Bộ hồ sơ xin xác nhận đã gửi khách | Gửi khách đúng 05 ngày làm việc trước mốc nộp 25/03 | Không có | Không có | Không |
+| KT-15 | Lập và nộp báo cáo tài chính năm | Kỳ quyết toán thuế năm | Sổ năm đã khóa;<br>xác nhận của khách | Báo cáo tình hình tài chính và Báo cáo kết quả hoạt động đã nộp;<br>Thông báo tiếp nhận | Nộp 25/03;<br>gửi khách xin xác nhận đúng 05 ngày làm việc trước mốc nộp | **90 ngày kể từ ngày kết thúc kỳ kế toán năm** | CC-KT-03;<br>Handbook Ch.07 | Không |
+| KT-16 | Quyết toán thuế TNDN năm | Kỳ quyết toán thuế năm | Sổ năm đã khóa;<br>xác nhận của khách | Tờ khai quyết toán đã nộp;<br>Thông báo tiếp nhận;<br>giấy nộp tiền | Nộp 25/03;<br>gửi khách xin xác nhận đúng 05 ngày làm việc trước mốc nộp | Ngày cuối cùng của tháng thứ 03 kể từ ngày kết thúc kỳ quyết toán thuế, theo Nghị định 252/2026/NĐ-CP Đ.10 k.5 đ.a | Handbook Ch.14 | Không |
 | KT-18 | Bàn giao bộ hồ sơ báo cáo tài chính cho khách | Sau khi nộp | Bộ hồ sơ đã nộp | Bộ hồ sơ bàn giao | Trong 05 ngày làm việc sau khi nộp | Không có | Không có | Không |
 | KT-19 | Xử lý sai sót và khai bổ sung | Phát hiện sai sót | Hồ sơ kỳ có sai sót | Hồ sơ khai bổ sung đã nộp;<br>bản đánh giá tác động | TL-KT xác định phạm vi và đề xuất phương án trong 02 ngày;<br>COO quyết có khai bổ sung hay không trong 02 ngày tiếp theo; CEO quyết khi có tiền phạt hoặc rủi ro pháp lý | Theo bản chất sai sót | Handbook Ch.15;<br>[[OBK-QCTC-02_Bang_tham_quyen\|OBK-QCTC-02]] | Không |
 | KT-20 | Giải trình văn bản của cơ quan thuế | Cơ quan thuế gửi văn bản | Văn bản của cơ quan;<br>hồ sơ liên quan | Văn bản giải trình đã ký và đã gửi | TL-KT đọc và kết luận yêu cầu trong 01 ngày làm việc;<br>soạn văn bản và trình ký trong 03 ngày làm việc | **Theo thời hạn ghi trên chính văn bản của cơ quan** | Handbook Ch.16 | Không |
@@ -210,7 +210,7 @@ Hướng dẫn chi tiết: [[12_Hoa_don_dien_tu|Chương 12 Hóa đơn điện t
 
 1. CV-KT nhận bộ số liệu năm đã khóa và ghi sự kiện Nhận vào sổ cái.
 2. CV-KT chuẩn bị bộ hồ sơ xin xác nhận gồm 07 tài liệu.
-3. AM gửi bộ hồ sơ cho khách với hạn phản hồi tối thiểu 05 ngày làm việc trước mốc nội bộ, ghi sự kiện Gửi khách vào sổ cái và ghi sự kiện Chờ vào sổ cái.
+3. AM gửi bộ hồ sơ cho khách đúng 05 ngày làm việc trước mốc nộp 25/03 của KT-15 và KT-16, ghi sự kiện Gửi khách vào sổ cái và ghi sự kiện Chờ vào sổ cái.
 4. Khách ký văn bản xác nhận số liệu gồm 06 nội dung; AM nhận văn bản và ghi sự kiện Hết chờ vào sổ cái.
 5. TL-KT chỉ ký gửi hồ sơ quyết toán sau khi có văn bản xác nhận. Xác nhận bằng lời không thay được văn bản.
 6. AM ghi sự kiện Xong vào sổ cái.
@@ -222,7 +222,7 @@ Hướng dẫn chi tiết: [[14_Quyet_toan_thue_nam|Chương 14 Quyết toán th
 1. CV-KT nhận sổ năm đã khóa và ghi sự kiện Nhận vào sổ cái.
 2. CV-KT lập báo cáo tình hình tài chính, báo cáo kết quả hoạt động, báo cáo lưu chuyển tiền tệ và thuyết minh, để trống phần chữ ký.
 3. CV-KT lập phiếu kiểm tra tiêu chuẩn kế toán trưởng của người khách cử; TL-KT ghi kết luận theo Điều 54 Luật Kế toán 41/VBHN-VPQH.
-4. AM gửi khách bộ báo cáo cùng văn bản xác nhận số liệu, ghi sự kiện Gửi khách vào sổ cái và ghi sự kiện Chờ vào sổ cái.
+4. AM gửi khách bộ báo cáo cùng văn bản xác nhận số liệu đúng 05 ngày làm việc trước mốc nộp 25/03, ghi sự kiện Gửi khách vào sổ cái và ghi sự kiện Chờ vào sổ cái.
 5. Khách ký xác nhận số liệu, ký đủ ba chữ ký, đóng dấu và trả bộ báo cáo cho AM; AM ghi sự kiện Hết chờ vào sổ cái.
 6. TL-KT tra cứu nơi nhận báo cáo tài chính theo chế độ kế toán khách áp dụng.
 7. TL-KT ký gửi hồ sơ. CV-KT nộp, tải Thông báo tiếp nhận và ghi sự kiện Nộp cơ quan vào sổ cái.
@@ -239,7 +239,7 @@ Hướng dẫn chi tiết: [[07_Bao_cao_tai_chinh_nam|Chương 07 Báo cáo tài
 1. CV-KT nhận sổ năm đã khóa và báo cáo tài chính đã chốt, rồi ghi sự kiện Nhận vào sổ cái. Số liệu quyết toán lấy từ báo cáo tài chính đã chốt.
 2. CV-KT lập bảng điều chỉnh lợi nhuận kế toán sang thu nhập tính thuế và bảng kê chi phí bị loại trừ kèm lý do.
 3. CV-KT lập bảng so sánh tạm nộp bốn quý với tỷ lệ tối thiểu, bằng tệp bảng tính có công thức, rồi lập tờ khai quyết toán thuế TNDN, mẫu 03/TNDN hoặc 04/TNDN, kèm các phụ lục phát sinh.
-4. AM gửi khách hồ sơ để xác nhận, ghi sự kiện Gửi khách vào sổ cái, rồi ghi sự kiện Chờ vào sổ cái; khi có văn bản xác nhận số liệu của khách, AM ghi sự kiện Hết chờ vào sổ cái.
+4. AM gửi khách hồ sơ để xác nhận đúng 05 ngày làm việc trước mốc nộp 25/03, ghi sự kiện Gửi khách vào sổ cái, rồi ghi sự kiện Chờ vào sổ cái; khi có văn bản xác nhận số liệu của khách, AM ghi sự kiện Hết chờ vào sổ cái.
 5. TL-KT ký gửi tờ khai quyết toán. CV-KT nộp tờ khai, tải Thông báo tiếp nhận và ghi sự kiện Nộp cơ quan vào sổ cái. AM thông báo khách số thuế còn phải nộp.
 6. CV-KT lưu tờ khai, Thông báo tiếp nhận và giấy nộp tiền, rồi ghi sự kiện Xong vào sổ cái.
 
@@ -413,4 +413,4 @@ Hướng dẫn chi tiết: [[13_Lich_tuan_thu_va_quy_trinh_khai_nop|Chương 13 
 
 | Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | V3.0.0 | KT-19 do COO quyết; chuyển thuế TNCN từ tiền lương sang bộ phận Lao động và tiền lương; KT-23 lấy mốc RD-10 thay T3. |
+| 09/10/2026 | V4.0.0 | Dời mốc gửi khách xin xác nhận của KT-14, KT-15, KT-16 lên trước mốc nộp 25/03 đúng 05 ngày làm việc, bỏ mốc 24/03. |

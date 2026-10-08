@@ -5,8 +5,8 @@ aliases:
   - TNC-05-EN
 type: "tnc"
 folder: "09_TnC"
-version: "V3.0.0"
-release: "R.26.10.08.1"
+version: "V3.1.0"
+release: "R.26.10.09.1"
 status: "đang áp dụng"
 author: "CEO"
 reviewer: "CEO"
@@ -20,7 +20,7 @@ tags:
 # CLIENT WORKING GUIDE; WORKING WITH OBACKER
 ### A guide for the Client
 
-**Version:** V3.0.0 (VI-EN) · **Release:** R.26.10.08.1 · **Updated:** 08/10/2026 · Applies to the Partner Core, Partner Growth and Partner Prime packages
+**Version:** V3.1.0 (VI-EN) · **Release:** R.26.10.09.1 · **Updated:** 08/10/2026 · Applies to the Partner Core, Partner Growth and Partner Prime packages
 
 > This is a working guide. It is not a contract. If anything in this guide differs from the service Agreement (Master T&C, Order Form and the Service-Specific Terms), the Agreement prevails.
 
@@ -55,8 +55,8 @@ Working principles between oBacker and the Client: Article 2 of the Master T&C.
 | Monthly equivalent fee | 2,250,000đ | 7,000,000đ | From 15,000,000đ |
 | FDI entity fee | 40,500,000đ/year (10,125,000đ/qtr) | 113,400,000đ/year (28,350,000đ/qtr) | Custom by actual volume |
 | Billing cycle | Annual or Quarterly | Annual or Quarterly | Annual or Quarterly |
-| Monthly transaction quota | 50 (VN) / 100 (FDI) | 300 (maximum 1,500 via blocks) | From 1,500 to 7,000 vouchers; above 7,000 vouchers: VND 12,000/voucher |
-| Payroll & social insurance headcount | Up to 10 (VN) / 03 (FDI) | Up to 30 | Up to 50 |
+| Monthly transaction quota | 500 (VN) / 100 (FDI) | 300 (maximum 1,500 via blocks) | From 1,500 to 7,000 vouchers; above 7,000 vouchers: VND 12,000/voucher |
+| Payroll & social insurance headcount | Up to 10 (VN) / 03 (FDI) | Up to 30 | Up to 100 |
 | Accounting standard applied | Circular 58 (VN) / Circular 99 (FDI) | Circular 99/2025/TT-BTC | Circular 99/2025/TT-BTC |
 | Bookkeeping and Annual Financial Statements | Yes | Yes | Yes |
 | Periodic tax filing & FCT | Yes (FCT up to 01 contract/month) | Yes (FCT up to 03 contracts/month) | Yes (FCT up to 03 contracts/month) |
@@ -272,4 +272,4 @@ Definitions and abbreviations: Article 1 of the Master T&C.
 
 | Date | Version | Description |
 | --- | --- | --- |
-| 08/10/2026 | V3.0.0 | Synced with the Vietnamese version: package table, new surcharge codes, USB Token, PIT and Nominee. |
+| 09/10/2026 | V3.1.0 | Raised the Partner Core transaction quota to 500 and the Partner Prime payroll headcount to 100 to match the catalogue. |

@@ -4,8 +4,8 @@ code: "OBK-QCNS-02"
 type: "sop"
 folder: "11_NhanSu"
 level: "Cấp 1, văn bản khung toàn công ty"
-version: "V8.0.0"
-release: "R.26.10.08.1"
+version: "V9.0.0"
+release: "R.26.10.09.1"
 status: "đang áp dụng"
 draft_date: "08/10/2026"
 author: "CEO"
@@ -30,8 +30,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-QCNS-02 |
 | Cấp tài liệu | Cấp 1, văn bản khung toàn công ty |
-| Phiên bản | V8.0.0, đang áp dụng |
-| Phát hành | R.26.10.08.1 |
+| Phiên bản | V9.0.0, đang áp dụng |
+| Phát hành | R.26.10.09.1 |
 | Ngày biên soạn | 08/10/2026 |
 | Người biên soạn | `CEO` |
 | Người soát | `CEO` |
@@ -216,8 +216,8 @@ Người lao động chấm thiếu giờ vào hoặc giờ ra giữa ca vẫn �
 
 1. Đối tượng: nhân viên chính thức có hợp đồng lao động xác định thời hạn hoặc không xác định thời hạn.
 2. Điều kiện: làm việc ít nhất 02 tháng trong kỳ đánh giá được xét.
-3. Việc xét tăng lương thực hiện cuối mỗi kỳ đánh giá tại [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] mục 0b, căn cứ nhãn xếp loại cả kỳ của kỳ đó theo [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] mục 1.1. Kỳ đánh giá là 03 tháng liên tục, tính riêng cho từng người lao động từ ngày bắt đầu hợp đồng lao động chính thức.
-4. Mức tăng lương vị trí theo từng nhãn A, B, C, D do `CEO` quyết mỗi kỳ. Nhãn xếp loại cả kỳ là kết quả duy nhất của kỳ đánh giá dùng cho cả tăng lương tại mục này và thưởng hiệu quả công việc tại mục 9.
+3. Việc xét tăng lương thực hiện cuối mỗi kỳ đánh giá tại [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] mục 0b, căn cứ nhãn xếp loại cả kỳ của kỳ đó theo [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] mục 1.1. Kỳ đánh giá là 03 tháng liên tục, tính riêng cho từng người lao động từ ngày bắt đầu hợp đồng lao động chính thức. Thời gian thử việc không phải kỳ đánh giá và không dùng để xét tăng lương.
+4. Nhãn A và nhãn B: mức tăng lương vị trí do `CEO` quyết mỗi kỳ. Nhãn C và nhãn D: không tăng lương. Nhãn xếp loại cả kỳ là kết quả duy nhất của kỳ đánh giá dùng cho cả tăng lương tại mục này và thưởng hiệu quả công việc tại mục 9.
 5. Mức tăng là mức tăng vĩnh viễn vào lương vị trí. Mức lương mới là cơ sở tính tăng lương của kỳ đánh giá tiếp theo.
 
 ### 6.2. Tăng lương bù trượt giá, ngày 01/01 hằng năm
@@ -329,6 +329,8 @@ oBacker không áp dụng phạt tiền hoặc cắt lương thay cho kỷ luậ
 | D | Không đạt | Không hưởng thưởng của kỳ đó |
 
 2. `CEO` phê duyệt quỹ thưởng hiệu quả công việc của từng kỳ đánh giá dựa trên kết quả lợi nhuận hoạt động của toàn công ty.
+3. Thưởng hiệu quả công việc của từng người chi trong kỳ lương kế tiếp sau ngày chốt nhãn của kỳ đánh giá của người đó. Ngày chốt nhãn là ngày phê duyệt kết quả chính thức tại bước 5 mục 6 của [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]].
+4. Thời gian thử việc không phải kỳ đánh giá nên không có nhãn xếp loại và không dùng để tính thưởng hiệu quả công việc.
 
 ## 10. Thưởng doanh thu hằng tháng
 
@@ -389,7 +391,7 @@ Người lao động nhận thưởng doanh thu khi còn làm việc tại oBack
 1. Mục đích: ghi nhận thành tích xuất sắc ngay trong tháng phát sinh.
 2. Người được xét: người làm việc theo hợp đồng lao động với oBacker, kể cả người làm việc không trọn thời gian, là thành viên trong bộ phận của trưởng bộ phận lập đề xuất. Cộng tác viên không thuộc đối tượng xét; khoản trả cho cộng tác viên là thù lao theo hợp đồng dịch vụ.
 3. Trưởng bộ phận đề xuất thưởng bằng văn bản và ghi sự kiện Tạo vào sổ cái. Đề xuất ghi: người được đề xuất thưởng; căn cứ xét, tức thành tích hoặc đóng góp cụ thể và tháng phát sinh; tiêu chí đã đạt, tức thành tích hoặc đóng góp làm phát sinh khoản thưởng; kết quả kiểm ba trường hợp loại trừ tại điểm 5; mức được hưởng và hình thức thưởng, bằng tiền, bằng hiện vật, bằng điểm đánh giá hiệu suất hoặc bằng hình thức thưởng hợp lý khác. Đề xuất chỉ đủ điều kiện phê duyệt khi ghi đủ các nội dung trên.
-4. `BOM` phê duyệt hoặc điều chỉnh mức thưởng trên chính bản ghi đề xuất, và ghi sự kiện Duyệt vào sổ cái. Đề xuất đã phê duyệt là quyết định thưởng, ghi điều kiện được hưởng và mức được hưởng; khi `BOM` điều chỉnh mức thưởng thì mức được hưởng là mức đã điều chỉnh.
+4. Người quyết thưởng không định kỳ theo hàng "Nhân sự: thưởng không định kỳ" của [[OBK-QCTC-02_Bang_tham_quyen|OBK-QCTC-02]] mục 4. Người đó phê duyệt hoặc điều chỉnh mức thưởng trên chính bản ghi đề xuất, và ghi sự kiện Duyệt vào sổ cái. Đề xuất đã phê duyệt là quyết định thưởng, ghi điều kiện được hưởng và mức được hưởng; khi mức thưởng được điều chỉnh thì mức được hưởng là mức đã điều chỉnh.
 5. Đề xuất thuộc một trong ba trường hợp sau không đủ điều kiện phê duyệt:
    - người được đề xuất ngoài bộ phận của trưởng bộ phận lập đề xuất;
    - lý do trong đề xuất là lý do chung, thiếu thành tích hoặc đóng góp cụ thể;
@@ -435,4 +437,4 @@ Hành vi bị khiển trách bằng văn bản không làm mất toàn bộ ti�
 
 | Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | V8.0.0 | Tăng lương theo nhãn A, B, C, D do CEO quyết mỗi kỳ; lịch lương mục 7.3 theo BK-01. |
+| 09/10/2026 | V9.0.0 | Nhãn C và D không tăng lương; người quyết thưởng không định kỳ dẫn về bảng thẩm quyền; chi thưởng hiệu quả ở kỳ lương kế tiếp sau ngày chốt nhãn; thử việc không phải kỳ đánh giá. |

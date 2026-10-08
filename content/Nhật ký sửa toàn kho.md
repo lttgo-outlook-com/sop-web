@@ -36,7 +36,7 @@ tags:
 
 ## 1. Danh mục tài liệu
 
-Trang này ghi 879 lượt sửa thuộc các bản cũ, chia theo 191 mã tài liệu, tính tới 08/10/2026. 144 mã thuộc 113 tài liệu hiện có trong kho (mã chính hoặc mã cũ đã gộp vào tài liệu); 47 mã thuộc tài liệu đã gỡ khỏi kho, gồm 93 lượt sửa. Kho hiện có 113 tài liệu mang phiên bản; 0 tài liệu chưa có lượt sửa của bản cũ ghi tại trang này. Lượt sửa của bản hiện hành ghi tại mục NHẬT KÝ SỬA trong chính tài liệu đó.
+Trang này ghi 893 lượt sửa thuộc các bản cũ, chia theo 191 mã tài liệu, tính tới 08/10/2026. 144 mã thuộc 113 tài liệu hiện có trong kho (mã chính hoặc mã cũ đã gộp vào tài liệu); 47 mã thuộc tài liệu đã gỡ khỏi kho, gồm 93 lượt sửa. Kho hiện có 113 tài liệu mang phiên bản; 0 tài liệu chưa có lượt sửa của bản cũ ghi tại trang này. Lượt sửa của bản hiện hành ghi tại mục NHẬT KÝ SỬA trong chính tài liệu đó.
 
 | Mã | Tài liệu hiện có | Số lượt sửa | Ngày sửa gần nhất |
 | --- | --- | --- | --- |
@@ -45,18 +45,19 @@ Trang này ghi 879 lượt sửa thuộc các bản cũ, chia theo 191 mã tài 
 | `OBK-SOP-NB-01` | [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] | 15 | 08/10/2026 |
 | `OBK-QCTC-03` | [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-QCTC-03]] | 14 | 08/10/2026 |
 | `OBK-SOP-KT` | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] | 12 | 08/10/2026 |
+| `OBK-QCNS-02` | [[02_Quy_che_tien_luong_va_tien_thuong_noi_bo\|OBK-QCNS-02]] | 11 | 08/10/2026 |
+| `OBK-QCNS-08` | [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] | 11 | 08/10/2026 |
 | `OBK-SOP-LD` | [[05_OBK-SOP-LD_Lao_dong_va_tien_luong\|OBK-SOP-LD]] | 11 | 08/10/2026 |
 | `OBK-SOP-LIC` | [[04_OBK-SOP-LIC_Giay_phep\|OBK-SOP-LIC]] | 11 | 08/10/2026 |
 | `OBK-SOP-NB-06` | [[OBK-SOP-NB-06_Nghi_viec_va_offboarding_noi_bo\|OBK-SOP-NB-06]] | 11 | 08/10/2026 |
 | `OBK-HB-00` | [[00_Muc_luc_va_cach_dung\|OBK-HB-00]] | 10 | 08/10/2026 |
-| `OBK-QCNS-02` | [[02_Quy_che_tien_luong_va_tien_thuong_noi_bo\|OBK-QCNS-02]] | 10 | 08/10/2026 |
-| `OBK-QCNS-08` | [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] | 10 | 08/10/2026 |
+| `OBK-QCTC-02` | [[OBK-QCTC-02_Bang_tham_quyen\|OBK-QCTC-02]] | 10 | 08/10/2026 |
 | `OBK-SOP-LS` | [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] | 10 | 08/10/2026 |
 | `OBK-SOP-NB-05` | [[OBK-SOP-NB-05_Tuyen_dung_va_onboarding_noi_bo\|OBK-SOP-NB-05]] | 10 | 08/10/2026 |
+| `TNC-02-VI` | [[02_Accounting_Tax_VI\|TNC-02-VI]] | 10 | 08/10/2026 |
 | `NS-03` | [[NS-03_Phieu_tong_hop_diem_cuoi_ky\|NS-03]] | 9 | 08/10/2026 |
-| `OBK-QCTC-02` | [[OBK-QCTC-02_Bang_tham_quyen\|OBK-QCTC-02]] | 9 | 08/10/2026 |
 | `OBK-SOP-RD` | [[07_OBK-SOP-RD_Nghien_cuu_phap_ly\|OBK-SOP-RD]] | 9 | 08/10/2026 |
-| `TNC-02-VI` | [[02_Accounting_Tax_VI\|TNC-02-VI]] | 9 | 08/10/2026 |
+| `TNC-02-EN` | [[02_Accounting_Tax_EN\|TNC-02-EN]] | 9 | 08/10/2026 |
 | `BK-01` | [[BK-01_Bang_kiem_noi_bo\|BK-01]] | 8 | 08/10/2026 |
 | `NS-01` | [[NS-01_Phieu_tu_danh_gia_hieu_suat\|NS-01]] | 8 | 08/10/2026 |
 | `OBK-MSR` | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] | 8 | 08/10/2026 |
@@ -70,11 +71,15 @@ Trang này ghi 879 lượt sửa thuộc các bản cũ, chia theo 191 mã tài 
 | `OBK-HB-11` | [[11_Thue_TNCN\|OBK-HB-11]] | 7 | 08/10/2026 |
 | `OBK-HB-12` | [[12_Hoa_don_dien_tu\|OBK-HB-12]] | 7 | 08/10/2026 |
 | `OBK-HB-13` | [[13_Lich_tuan_thu_va_quy_trinh_khai_nop\|OBK-HB-13]] | 7 | 08/10/2026 |
+| `OBK-QCNS-08-PL-D` | [[08_PL_D_Van_hanh_viec_cham\|OBK-QCNS-08-PL-D]] | 7 | 08/10/2026 |
 | `OBK-QCNS-08-PL-E` | [[08_PL_E_Phieu_vi_tri\|OBK-QCNS-08-PL-E]] | 7 | 08/10/2026 |
 | `OBK-QCTC-02-PL-C` | [[PL_Chuyen_len_cap_tren\|OBK-QCTC-02-PL-C]] | 7 | 08/10/2026 |
 | `OBK-SOP-17` | [[17_Khung_xu_phat_va_phong_ngua\|OBK-SOP-17]] | 7 | 08/10/2026 |
 | `OBK-SOP-LIC-PL-01` | [[PL_LIC_01_Quy_trinh_giay_phep_chuyen_nganh_va_so_huu_tri_tue\|OBK-SOP-LIC-PL-01]] | 7 | 08/10/2026 |
 | `OBK-SOP-NB-09` | [[Quy_che_bao_ve_du_lieu_ca_nhan\|OBK-SOP-NB-09]] | 7 | 08/10/2026 |
+| `TNC-05-VI` | [[05_Client_Guide_VI\|TNC-05-VI]] | 7 | 08/10/2026 |
+| `BK-02` | [[BK-02_Bang_kiem_AM\|BK-02]] | 6 | 08/10/2026 |
+| `BK-03` | [[BK-03_Bang_kiem_Ke_toan_va_thue\|BK-03]] | 6 | 08/10/2026 |
 | `OBK-HB-07` | [[07_Bao_cao_tai_chinh_nam\|OBK-HB-07]] | 6 | 08/10/2026 |
 | `OBK-HB-09` | [[09_Thue_GTGT\|OBK-HB-09]] | 6 | 08/10/2026 |
 | `OBK-HB-10` | [[10_Thue_TNDN\|OBK-HB-10]] | 6 | 08/10/2026 |
@@ -82,14 +87,11 @@ Trang này ghi 879 lượt sửa thuộc các bản cũ, chia theo 191 mã tài 
 | `OBK-HB-71` | [[12_HD_Phuong_phap_tra_cuu_va_cap_nhat_phap_luat\|OBK-HB-71]] | 6 | 08/10/2026 |
 | `OBK-INDEX` | [[00_INDEX\|OBK-INDEX]] | 6 | 08/10/2026 |
 | `OBK-QCNS-08-PL-B` | [[08_PL_B_Tieu_chi_cong_viec_dang_ho_so\|OBK-QCNS-08-PL-B]] | 6 | 08/10/2026 |
-| `OBK-QCNS-08-PL-D` | [[08_PL_D_Van_hanh_viec_cham\|OBK-QCNS-08-PL-D]] | 6 | 08/10/2026 |
 | `OBK-SOP-02` | [[02_Mo_hinh_dich_vu_va_phan_vai\|OBK-SOP-02]] | 6 | 08/10/2026 |
 | `OBK-SOP-21` | [[21_Cap_nhat_van_ban_phap_luat\|OBK-SOP-21]] | 6 | 08/10/2026 |
-| `TNC-05-VI` | [[05_Client_Guide_VI\|TNC-05-VI]] | 6 | 08/10/2026 |
+| `TNC-05-EN` | [[05_Client_Guide_EN\|TNC-05-EN]] | 6 | 08/10/2026 |
 | `TNC-08-VI` | [[08_Framework_Agreement_VI\|TNC-08-VI]] | 6 | 08/10/2026 |
 | `UE-01` | [[UE-01_Bang_theo_doi_va_tinh_toan_chi_so_kinh_te_cac_ltv_commission\|UE-01]] | 6 | 08/10/2026 |
-| `BK-02` | [[BK-02_Bang_kiem_AM\|BK-02]] | 5 | 08/10/2026 |
-| `BK-03` | [[BK-03_Bang_kiem_Ke_toan_va_thue\|BK-03]] | 5 | 08/10/2026 |
 | `BK-06` | [[BK-06_Bang_kiem_Phap_ly\|BK-06]] | 5 | 08/10/2026 |
 | `BK-08` | [[BK-08_Bang_kiem_Marketing\|BK-08]] | 5 | 08/10/2026 |
 | `HH-02` | [[HH-02_Phieu_bao_cao_hoa_hong_thang\|HH-02]] | 5 | 08/10/2026 |
@@ -106,6 +108,7 @@ Trang này ghi 879 lượt sửa thuộc các bản cũ, chia theo 191 mã tài 
 | `OBK-SOP-18` | [[18_Kiem_soat_chat_luong\|OBK-SOP-18]] | 5 | 08/10/2026 |
 | `OBK-SOP-AM-PL2` | [[PL_HD_Mau_hop_dong_dich_vu_khung\|OBK-SOP-AM-PL2]] | 5 | 08/10/2026 |
 | `OBK-SOP-PL-C` | [[PL_C_Lich_tuan_thu_nam\|OBK-SOP-PL-C]] | 5 | 08/10/2026 |
+| `OBK-SOP-PL2` | [[PL_2_Bang_tra_SLA\|OBK-SOP-PL2]] | 5 | 08/10/2026 |
 | `TNC-04-VI` | [[04_Legal_Services_VI\|TNC-04-VI]] | 5 | 08/10/2026 |
 | `BK-04` | [[BK-04_Bang_kiem_Giay_phep\|BK-04]] | 4 | 08/10/2026 |
 | `BK-05` | [[BK-05_Bang_kiem_Lao_dong_va_tien_luong\|BK-05]] | 4 | 08/10/2026 |
@@ -114,6 +117,7 @@ Trang này ghi 879 lượt sửa thuộc các bản cũ, chia theo 191 mã tài 
 | `NS-08` | [[NS-08_Bien_ban_vi_pham_ky_luat_lao_dong\|NS-08]] | 4 | 08/10/2026 |
 | `OBK-DM-00` | [[00_Danh_muc_dich_vu_va_bang_gia\|OBK-DM-00]] | 4 | 08/10/2026 |
 | `OBK-DM-CKS` | [[06_Bang_gia_Chu_ky_so_va_hoa_don_dien_tu\|OBK-DM-CKS]] | 4 | 08/10/2026 |
+| `OBK-DM-GOI` | [[01_Goi_dich_vu_va_hang_muc_kem_goi\|OBK-DM-GOI]] | 4 | 08/10/2026 |
 | `OBK-DM-GP` | [[02_Bang_gia_Giay_phep_va_doanh_nghiep\|OBK-DM-GP]] | 4 | 08/10/2026 |
 | `OBK-DM-KT` | [[03_Bang_gia_Ke_toan_va_thue\|OBK-DM-KT]] | 4 | 08/10/2026 |
 | `OBK-DM-LD` | [[04_Bang_gia_Lao_dong_va_giay_to_nguoi_nuoc_ngoai\|OBK-DM-LD]] | 4 | 08/10/2026 |
@@ -136,14 +140,14 @@ Trang này ghi 879 lượt sửa thuộc các bản cũ, chia theo 191 mã tài 
 | `OBK-SOP-PL-G` | [[PL_G_Moc_cong_viec_va_dau_ra_dich_vu\|OBK-SOP-PL-G]] | 3 | 08/10/2026 |
 | `TNC-01-VI` | [[01_Licensing_VI\|TNC-01-VI]] | 3 | 08/10/2026 |
 | `TNC-03-VI` | [[03_HR_Payroll_VI\|TNC-03-VI]] | 3 | 08/10/2026 |
+| `TNC-06-VI` | [[06_Data_Protection_VI\|TNC-06-VI]] | 3 | 08/10/2026 |
 | `TNC-INDEX` | [[00_README_Index\|TNC-INDEX]] | 3 | 08/10/2026 |
 | `OBK-QCNS-09` | [[Quy_che_dan_chu_o_co_so_tai_noi_lam_viec\|OBK-QCNS-09]] | 2 | 08/10/2026 |
 | `OBK-SOP-PM-PL1` | [[PL_PM_Dieu_kien_thuong_mai_chuan\|OBK-SOP-PM-PL1]] | 2 | 08/10/2026 |
-| `TNC-06-VI` | [[06_Data_Protection_VI\|TNC-06-VI]] | 2 | 08/10/2026 |
+| `TNC-06-EN` | [[06_Data_Protection_EN\|TNC-06-EN]] | 2 | 08/10/2026 |
 | `TNC-07-VI` | [[07_Wallet_VI\|TNC-07-VI]] | 2 | 08/10/2026 |
 | `OBK-SOP-00` | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] | 9 | 07/10/2026 |
 | `OBK-SOP-NB-00` | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] | 9 | 07/10/2026 |
-| `TNC-02-EN` | [[02_Accounting_Tax_EN\|TNC-02-EN]] | 8 | 07/10/2026 |
 | `OBK-SOP-NB-03` | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] | 7 | 07/10/2026 |
 | `TNC-00-EN` | [[00_TnC_Master_EN\|TNC-00-EN]] | 7 | 07/10/2026 |
 | `LU-01` | [[02_Quy_che_tien_luong_va_tien_thuong_noi_bo\|OBK-QCNS-02]] | 5 | 07/10/2026 |
@@ -151,7 +155,6 @@ Trang này ghi 879 lượt sửa thuộc các bản cũ, chia theo 191 mã tài 
 | `OBK-QCTC-02-PL-B` | đã gỡ khỏi kho | 5 | 07/10/2026 |
 | `OBK-QCTC-02-PL-D` | đã gỡ khỏi kho | 5 | 07/10/2026 |
 | `OBK-SOP-NB-10` | đã gỡ khỏi kho | 5 | 07/10/2026 |
-| `TNC-05-EN` | [[05_Client_Guide_EN\|TNC-05-EN]] | 5 | 07/10/2026 |
 | `TNC-08-EN` | [[08_Framework_Agreement_EN\|TNC-08-EN]] | 5 | 07/10/2026 |
 | `CL-01` | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] | 4 | 07/10/2026 |
 | `CV-01` | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] | 4 | 07/10/2026 |
@@ -161,14 +164,12 @@ Trang này ghi 879 lượt sửa thuộc các bản cũ, chia theo 191 mã tài 
 | `OBK-SOP-NB-15` | [[Quy_che_bao_ve_du_lieu_ca_nhan\|OBK-SOP-NB-09]] | 4 | 07/10/2026 |
 | `OBK-SOP-NB-18` | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] | 4 | 07/10/2026 |
 | `OBK-SOP-NB-PL-BM` | [[PL_BM_Bieu_mau_chung_tu_noi_bo\|OBK-QCTC-03-PL-BM]] | 4 | 07/10/2026 |
-| `OBK-SOP-PL2` | [[PL_2_Bang_tra_SLA\|OBK-SOP-PL2]] | 4 | 07/10/2026 |
 | `TH-02` | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] | 4 | 07/10/2026 |
 | `TNC-04-EN` | [[04_Legal_Services_EN\|TNC-04-EN]] | 4 | 07/10/2026 |
 | `TS-02` | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] | 4 | 07/10/2026 |
 | `VB-01` | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] | 4 | 07/10/2026 |
 | `DT-01` | đã gỡ khỏi kho | 3 | 07/10/2026 |
 | `KN-01` | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] | 3 | 07/10/2026 |
-| `OBK-DM-GOI` | [[01_Goi_dich_vu_va_hang_muc_kem_goi\|OBK-DM-GOI]] | 3 | 07/10/2026 |
 | `OBK-DM-NG` | [[08_Hang_muc_ghi_nhan_rieng\|OBK-DM-NG]] | 3 | 07/10/2026 |
 | `OBK-QCNS-01` | [[02_Quy_che_tien_luong_va_tien_thuong_noi_bo\|OBK-QCNS-02]] | 3 | 07/10/2026 |
 | `OBK-QCTC-02-PL-E` | đã gỡ khỏi kho | 3 | 07/10/2026 |
@@ -230,7 +231,6 @@ Trang này ghi 879 lượt sửa thuộc các bản cũ, chia theo 191 mã tài 
 | `TL-02` | đã gỡ khỏi kho | 1 | 01/10/2026 |
 | `TU-01` | đã gỡ khỏi kho | 1 | 01/10/2026 |
 | `OBK-SOP-NB-17` | đã gỡ khỏi kho | 1 | 30/09/2026 |
-| `TNC-06-EN` | [[06_Data_Protection_EN\|TNC-06-EN]] | 1 | 21/09/2026 |
 
 ## 2. Chi tiết từng tài liệu
 
@@ -361,6 +361,7 @@ Trang này ghi 879 lượt sửa thuộc các bản cũ, chia theo 191 mã tài 
 
 | Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
+| 08/10/2026 | V7.0.0 | Thêm mục 11 định nghĩa NT, CS, mức lỗi, hành vi nghiêm cấm; người chấm là quản lý trực tiếp; nhãn B phủ kín dãy OTD. |
 | 08/10/2026 | V6.0.1 | Bỏ bảng mục lục, câu tự mô tả, bảng phân biệt quy tắc lặp ý, đoạn so sánh vai trò ở mục 0a.2, đoạn ví dụ ở mục 7 và các từ nhấn mạnh |
 | 08/10/2026 | V6.0.0 | Kỳ đánh giá là 03 tháng liên tục tính riêng từng người từ ngày bắt đầu hợp đồng chính thức, thay quý dương lịch; tổng kết năm mỗi 12 tháng của từng người |
 | 08/10/2026 | V5.0.0 | Kỳ đánh giá là quý dương lịch, chấm trong 10 ngày làm việc đầu quý kế tiếp; tổng kết năm cùng kỳ quý 4; thang cấp bậc dẫn tới quy chế tiền lương mục 5.2 |
@@ -392,6 +393,7 @@ Trang này ghi 879 lượt sửa thuộc các bản cũ, chia theo 191 mã tài 
 
 | Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
+| 08/10/2026 | V2.0.0 | Mã phụ thu mới 2026, Core 01 hợp đồng mỗi tháng, trần Prime 7.000, token phụ. |
 | 07/10/2026 | V1.1.1 | Đổi ngày bản kết xuất nguồn dữ liệu sang 04/10/2026; hạng mục OBG-MTH1 để trống danh sách gói chứa, chờ xác minh |
 | 01/10/2026 | V1.0.0 | Ban hành chính thức phiên bản chuẩn V1.0.0 toàn công ty |
 | 28/09/2026 | V1.1.0 | Hợp nhất kiến trúc ba gói đối tác Partner Core, Partner Growth, Partner Prime, bổ sung gói FUP Add-on và chính sách trần 1.500 chứng từ/tháng |
@@ -487,6 +489,7 @@ Trang này ghi 879 lượt sửa thuộc các bản cũ, chia theo 191 mã tài 
 
 | Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
+| 08/10/2026 | V3.0.0 | Bỏ thuế TNCN từ lương, dùng mã phụ thu mới năm 2026, token phụ, ngưỡng Prime 7.000, khung thanh toán Quý 4. |
 | 08/10/2026 | V2.3.2 | Bỏ vế mục đích ở Điều 1, câu dẫn để minh bạch, vế giải thích dòng chi phí và nhãn lưu ý ranh giới |
 | 07/10/2026 | V2.3.1 | Bổ sung chủ ngữ oBacker cho sáu nhóm việc thuộc phạm vi Dịch Vụ (lập sổ sách, chốt sổ, lập và nộp BCTC năm, đối chiếu số liệu, lập và nộp tờ khai thuế, theo dõi và thông báo nghĩa vụ thuế) |
 | 02/10/2026 | V2.3.0 | Điều 8: bổ sung căn cứ xử phạt, ghi rõ Nghị định 125/2020/NĐ-CP đã được sửa đổi, bổ sung bởi Nghị định 291/2026/NĐ-CP; nội dung hiện hành theo văn bản hợp nhất 27/2026/VBHN-NĐ-BTC |
@@ -501,6 +504,7 @@ Trang này ghi 879 lượt sửa thuộc các bản cũ, chia theo 191 mã tài 
 
 | Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
+| 08/10/2026 | V3.0.0 | Synced with the Vietnamese version: tax scope, new surcharge codes, USB Token and Prime threshold. |
 | 07/10/2026 | V2.3.1 | Subject oBacker added to the six service-scope bullets (accounting books, monthly close, annual financial statements, reconciliation, tax returns, tax obligation tracking) |
 | 02/10/2026 | V2.3.0 | Article 8: penalty basis updated, noting that Decree No. 125/2020/ND-CP has been amended and supplemented by Decree No. 291/2026/ND-CP; current text per consolidated document 27/2026/VBHN-ND-BTC |
 | 02/10/2026 | V2.2.0 | Split salary PIT into two workstreams: periodic withholding and filing under the Accounting & Tax Services (PL-KT); annual PIT finalisation, dependant registration and employee withholding certificates under the HR, Payroll & Insurance Services (PL-NS) |
@@ -533,6 +537,7 @@ Trang này ghi 879 lượt sửa thuộc các bản cũ, chia theo 191 mã tài 
 
 | Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
+| 08/10/2026 | V3.0.0 | Cập nhật bảng gói, mã phụ thu, ký điện tử, USB Token, thuế TNCN và Nominee. |
 | 08/10/2026 | V2.1.1 | Bỏ câu quảng bá, câu tự giới thiệu mục 5, câu nghĩa vụ hay bị bỏ sót, câu truy thu thực tế, vế tránh rủi ro và nhãn lưu ý |
 | 07/10/2026 | V2.1.0 | Mục 2, 10, 11, 12, 15 đổi thành trỏ Điều 2, 9, 20, 3, 21, 1 của Bản Điều Khoản Chung; nội dung pháp lý giữ ở Master |
 | 02/10/2026 | V2.0.0 | Bảng gói dịch vụ: định mức FCT theo gói, Partner Core 01 hợp đồng/tháng, Partner Growth và Prime 03 hợp đồng/tháng<br>Phạm vi rà soát hợp đồng: hợp đồng 11 đến 20 trang tính 02 lượt, hợp đồng trên 20 trang phụ thu 100.000đ/trang từ trang thứ 21<br>Cam kết phản hồi thư: xác nhận trong 01 giờ làm việc, nội dung trả lời trong 24 giờ làm việc<br>Trình tự khởi động: tuần 1 ký hợp đồng và thanh toán lần đầu, tuần 2 onboarding; thư chào mừng trong 24 giờ sau xác nhận thanh toán; mã phụ thu khối giao dịch cập nhật theo mã mới |
@@ -544,6 +549,7 @@ Trang này ghi 879 lượt sửa thuộc các bản cũ, chia theo 191 mã tài 
 
 | Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
+| 08/10/2026 | V3.0.0 | Synced with the Vietnamese version: package table, new surcharge codes, USB Token, PIT and Nominee. |
 | 07/10/2026 | V2.1.0 | Sections 2, 10, 11, 12, 15 replaced with pointers to Articles 2, 9, 20, 3, 21 and 1 of the Master T&C; legal content stays in the Master |
 | 02/10/2026 | V2.0.0 | Package table: FCT quota by package, Partner Core 01 contract/month, Partner Growth and Prime 03 contracts/month<br>Contract review scope: 11 to 20 pages count as two reviews; over 20 pages charged VND 100,000 per page from page 21<br>Email response commitment: acknowledgement within 01 business hour, substantive reply within 24 business hours<br>Onboarding sequence: week 1 contract and first payment, week 2 onboarding; welcome email within 24 hours after payment confirmation; block surcharge codes updated to the new codes |
 | 01/10/2026 | V1.1.1 | Wording: transaction 'hard ceiling' reworded to 'maximum' (Sections 3, 13); penalty wording fixed (Section 11); fix REVISION LOG header to Date/Version/Description |
@@ -809,6 +815,7 @@ Trang này ghi 879 lượt sửa thuộc các bản cũ, chia theo 191 mã tài 
 
 | Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
+| 08/10/2026 | V1.3.0 | Sinh lại từ bảng kiểm: cột Soát bắt buộc lấy từ bảng Job, bỏ NB-08, chuyển KT-09 thành LD-28, bỏ KT-17. |
 | 07/10/2026 | V1.2.0 | Sinh lai bang tra SLA tu NB-00 sau khi NB-19 do ngay trong ngay |
 | 04/10/2026 | V1.1.1 | Sinh lại bảng tra SLA, đổi dẫn chiếu bước của Job LIC-24 từ B10 thành B5 |
 | 02/10/2026 | V1.1.0 | Sinh lại bảng tra SLA: đồng bộ mốc KT-07 và AM-20 mới, thêm 6 Job LIC-25 tới LIC-30 từ các PR đã merge (203 lên 210 Job) |
@@ -826,6 +833,7 @@ Trang này ghi 879 lượt sửa thuộc các bản cũ, chia theo 191 mã tài 
 
 | Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
+| 08/10/2026 | V8.0.0 | Tăng lương theo nhãn A, B, C, D do CEO quyết mỗi kỳ; lịch lương mục 7.3 theo BK-01. |
 | 08/10/2026 | V7.0.1 | Bỏ hàng mô tả ở bảng đầu, câu kỳ lương kết thúc ngày 20, các vế giải thích ở mục 4.3, 6.3, 7.1 và câu không đặt lại ngưỡng ở mục 9 |
 | 08/10/2026 | V7.0.0 | Xét tăng lương cuối mỗi kỳ đánh giá 03 tháng liên tục của từng người, thay quý dương lịch; thăng cấp và thưởng hiệu quả căn cứ kỳ đánh giá |
 | 08/10/2026 | V6.0.0 | Xét tăng lương theo hiệu suất hằng quý dương lịch, cùng mốc kỳ đánh giá quý, thay chu kỳ 3 tháng tính riêng từng người; thăng cấp và thưởng hiệu quả căn cứ kết quả quý |
@@ -1411,6 +1419,7 @@ Trang này ghi 879 lượt sửa thuộc các bản cũ, chia theo 191 mã tài 
 
 | Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
+| 08/10/2026 | V5.0.0 | Thêm quy tắc ưu tiên của bảng, thẩm quyền cam kết với khách, sửa bảng kiểm và ký thông báo vi phạm dữ liệu cá nhân; bỏ hàng ngân sách năm. |
 | 08/10/2026 | V4.0.2 | Nguồn chuyển lên cấp trên dẫn về OBK-MSR mục 7.6. |
 | 08/10/2026 | V4.0.1 | Bỏ câu lặp nghĩa tên cột người quyết, các số đếm nghĩa vụ và sự kiện; cụm nơi duy nhất viết thành chỉ bảng này ghi |
 | 08/10/2026 | V4.0.0 | Bổ sung nguồn lực: Team Lead bộ phận đề xuất phương án và cung cấp số liệu, CEO quyết |
@@ -1893,6 +1902,7 @@ Trang này ghi 879 lượt sửa thuộc các bản cũ, chia theo 191 mã tài 
 
 | Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
+| 08/10/2026 | V4.1.0 | Thêm 03 đại diện do BCH công đoàn cử, bỏ đánh giá chéo, sửa dẫn hành vi nghiêm cấm. |
 | 08/10/2026 | V4.0.1 | Bỏ câu tự mô tả đầu phụ lục và câu thời gian lưu thuộc quy chế lưu trữ; viết lại câu phạm vi lộ trình ở mục 4.3 |
 | 08/10/2026 | V4.0.0 | Lộ trình mới: 02 kỳ liên tiếp không đạt thì cảnh báo bằng văn bản và mở kế hoạch hỗ trợ cải thiện trong 01 kỳ; vẫn không đạt thì CEO quyết cho thôi việc, giảm thu nhập hoặc giảm chức theo điều kiện của Bộ luật Lao động |
 | 08/10/2026 | V3.0.0 | Đổi phần chấm sang ba nhóm; điều kiện bắt đầu dùng mức Tốt của thang xếp loại |
@@ -1919,6 +1929,7 @@ Trang này ghi 879 lượt sửa thuộc các bản cũ, chia theo 191 mã tài 
 
 | Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
+| 08/10/2026 | V3.0.0 | KT-19 do COO quyết; chuyển thuế TNCN từ tiền lương sang bộ phận Lao động và tiền lương; KT-23 lấy mốc RD-10 thay T3. |
 | 08/10/2026 | V2.0.3 | Bỏ hàng mô tả ở bảng đầu, số đếm Job, chú thích điều khoản dịch vụ ở Job khai thuế giá trị gia tăng và giải thích mốc đếm tiến, đếm lùi |
 | 08/10/2026 | V2.0.2 | Mốc đánh giá tác động văn bản mới dẫn tới Quy tắc sổ cái mục 7.5a |
 | 08/10/2026 | V2.0.1 | Đổi dẫn chiếu chuẩn vận hành cũ sang Quy tắc sổ cái; hạ chữ in hoa nhấn mạnh; thống nhất cách gọi trường hợp kéo dài |
@@ -1979,6 +1990,7 @@ Trang này ghi 879 lượt sửa thuộc các bản cũ, chia theo 191 mã tài 
 
 | Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
+| 08/10/2026 | V4.0.0 | Người phát hành hóa đơn theo NB-09, mốc dừng dịch vụ 31 ngày, tuyến chuyển lên theo bảng thẩm quyền, mẫu hợp đồng khung TNC-08. |
 | 08/10/2026 | V3.0.1 | Bỏ số đếm Job, câu tự mô tả phần bảng kiểm, mệnh đề lý do ở các Job tiếp nhận, gia hạn và câu lặp về khách rủi ro |
 | 08/10/2026 | V3.0.0 | Khi chưa rõ bộ phận sở hữu đầu ra cuối, CEO chỉ định việc gốc trong mọi trường hợp |
 | 08/10/2026 | V2.0.1 | Đổi dẫn chiếu chuẩn vận hành cũ sang Quy tắc sổ cái, Bảng thẩm quyền và Bảng kiểm nội bộ; bỏ cụm Tier; thống nhất tên Job gia hạn hợp đồng |
@@ -2022,6 +2034,7 @@ Trang này ghi 879 lượt sửa thuộc các bản cũ, chia theo 191 mã tài 
 
 | Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
+| 08/10/2026 | V1.1.0 | Bỏ dòng điện thoại để trống, bỏ nội dung oBacker Law, làm rõ dòng sinh trắc. |
 | 08/10/2026 | V1.0.1 | Bỏ ba đoạn mở đầu về niềm tin, phần diễn giải đầu Phần II, câu không hệ thống nào an toàn tuyệt đối và các nhãn lưu ý |
 | 01/10/2026 | V1.0.0 | Ban hành chính thức phiên bản chuẩn V1.0.0 toàn công ty |
 
@@ -2060,6 +2073,7 @@ Trang này ghi 879 lượt sửa thuộc các bản cũ, chia theo 191 mã tài 
 
 | Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
+| 08/10/2026 | V1.1.0 | Synced with the Vietnamese version: biometric signature line and log date. |
 | 21/09/2026 | V1.0.0 | Formal release of the company-wide standard version V1.0.0 |
 
 ### `TNC-07-EN`

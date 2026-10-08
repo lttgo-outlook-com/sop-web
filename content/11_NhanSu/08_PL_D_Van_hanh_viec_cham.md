@@ -4,8 +4,8 @@ code: "OBK-QCNS-08-PL-D"
 type: "sop"
 folder: "11_NhanSu"
 level: "Phụ lục"
-version: "V4.1.0"
-release: "R.26.10.08.1"
+version: "V5.0.0"
+release: "R.26.10.09.1"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -28,8 +28,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-QCNS-08-PL-D |
 | Cấp tài liệu | Phụ lục |
-| Phiên bản | V4.1.0, đang áp dụng |
-| Phát hành | R.26.10.08.1 |
+| Phiên bản | V5.0.0, đang áp dụng |
+| Phát hành | R.26.10.09.1 |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 23/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -84,7 +84,7 @@ Việc được cộng điểm ở mọi vị trí:
 
 ### 4.1. Điều kiện bắt đầu
 
-Kỳ đánh giá không đạt là kỳ có nhãn xếp loại Cần cải thiện hoặc Không đạt theo [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] mục 1.1. Lộ trình khởi động khi người được chấm có 02 kỳ đánh giá liên tiếp không đạt. Một kỳ đạt nhãn từ Tốt trở lên thì việc đếm kỳ liên tiếp tính lại từ đầu.
+Kỳ đánh giá không đạt là kỳ có nhãn xếp loại Cần cải thiện hoặc Không đạt theo [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] mục 1.1. Lộ trình khởi động khi người được chấm có 02 kỳ đánh giá liên tiếp không đạt. Một kỳ đạt nhãn từ Tốt trở lên thì việc đếm kỳ liên tiếp tính lại từ đầu. Thời gian thử việc không phải kỳ đánh giá nên không tính vào số kỳ liên tiếp.
 
 Thường xuyên không hoàn thành công việc theo điểm a khoản 1 Điều 36 Bộ luật Lao động, áp tại oBacker, là trường hợp người lao động có 03 kỳ đánh giá liên tiếp không đạt, trong đó kỳ thứ ba là kỳ thực hiện kế hoạch hỗ trợ cải thiện.
 
@@ -103,7 +103,7 @@ Văn bản cảnh báo và kế hoạch hỗ trợ cải thiện không phải h
 | Biện pháp | Điều kiện và thủ tục bắt buộc | Căn cứ |
 | --- | --- | --- |
 | Cho thôi việc, bằng đơn phương chấm dứt hợp đồng lao động | Người lao động nằm ngoài các trường hợp tại Điều 37 Bộ luật Lao động. Người lao động là thành viên ban lãnh đạo công đoàn cơ sở hoặc cán bộ công đoàn không chuyên trách thì phải có thỏa thuận bằng văn bản theo khoản 3 Điều 177 Bộ luật Lao động hoặc khoản 2 Điều 28 Luật Công đoàn. Báo trước bằng văn bản theo mục 4.4 điều kiện 7. Trả trợ cấp thôi việc theo Điều 46 Bộ luật Lao động. Thanh toán đủ các khoản trong 14 ngày làm việc theo Điều 48 Bộ luật Lao động | Điểm a khoản 1, khoản 2 Điều 36 Bộ luật Lao động |
-| Giảm thu nhập | Kỳ không đạt có mức tăng lương theo nhãn xếp loại tại [[02_Quy_che_tien_luong_va_tien_thuong_noi_bo\|OBK-QCNS-02]] mục 6.1 và hưởng tỷ lệ thưởng hiệu quả của nhãn xếp loại tại mục 9 của quy chế đó. Mức lương ghi trong hợp đồng lao động chỉ giảm khi người lao động đồng ý và ký phụ lục hợp đồng; oBacker báo trước nội dung cần sửa ít nhất 03 ngày làm việc. Người lao động không đồng ý thì hợp đồng giữ nguyên | Điều 33, khoản 2 Điều 127 Bộ luật Lao động |
+| Giảm thu nhập | Kỳ không đạt hưởng tỷ lệ thưởng hiệu quả của nhãn xếp loại tại [[02_Quy_che_tien_luong_va_tien_thuong_noi_bo\|OBK-QCNS-02]] mục 9. Mức lương ghi trong hợp đồng lao động chỉ giảm khi người lao động đồng ý và ký phụ lục hợp đồng; oBacker báo trước nội dung cần sửa ít nhất 03 ngày làm việc. Người lao động không đồng ý thì hợp đồng giữ nguyên | Điều 33, khoản 2 Điều 127 Bộ luật Lao động |
 | Giảm chức | Chức vụ quản lý giao bằng quyết định bổ nhiệm: miễn nhiệm bằng quyết định nêu căn cứ là kết quả ba kỳ đánh giá; chấm dứt phụ cấp chức vụ; công việc chuyên môn và mức lương ghi trong hợp đồng giữ nguyên. Hạ cấp bậc làm thay đổi chức danh hoặc mức lương ghi trong hợp đồng: chỉ thực hiện khi người lao động đồng ý và ký phụ lục hợp đồng | Điều 21, Điều 33 Bộ luật Lao động |
 
 Biện pháp giảm chức không phải hình thức kỷ luật cách chức. Hình thức kỷ luật cách chức chỉ áp cho hành vi vi phạm kỷ luật lao động quy định trong nội quy lao động, theo Điều 124 và Điều 127 Bộ luật Lao động.
@@ -150,4 +150,4 @@ Hồ sơ đánh giá giữ đủ thời gian để dùng được làm căn cứ
 
 | Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | V4.1.0 | Thêm 03 đại diện do BCH công đoàn cử, bỏ đánh giá chéo, sửa dẫn hành vi nghiêm cấm. |
+| 09/10/2026 | V5.0.0 | Bỏ câu kỳ không đạt có mức tăng lương theo nhãn; ghi thời gian thử việc không tính vào số kỳ liên tiếp. |

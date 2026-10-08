@@ -4,8 +4,8 @@ code: "OBK-QCTC-02"
 type: "sop"
 folder: "01_ToChuc"
 level: "Cấp 1, văn bản khung toàn công ty"
-version: "V5.0.0"
-release: "R.26.10.08.1"
+version: "V6.0.0"
+release: "R.26.10.09.1"
 status: "đang áp dụng"
 draft_date: "08/10/2026"
 author: "CEO"
@@ -28,8 +28,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-QCTC-02 |
 | Cấp tài liệu | Cấp 1, văn bản khung toàn công ty |
-| Phiên bản | V5.0.0, đang áp dụng |
-| Phát hành | R.26.10.08.1 |
+| Phiên bản | V6.0.0, đang áp dụng |
+| Phát hành | R.26.10.09.1 |
 | Ngày biên soạn | 08/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -154,6 +154,7 @@ Người đề xuất khởi xướng và chịu trách nhiệm về chất lư�
 | Nhân sự: mức lương và thù lao của `TGĐ` và người quản lý do `HĐQT` bổ nhiệm | `HĐQT` | `HĐQT`, theo `Điều lệ Đ.25 k.2 đ.i` | Không quy định | Không quy định |
 | Nhân sự: tổng thù lao `HĐQT` | `HĐQT` | `ĐHĐCĐ`, theo `Điều lệ Đ.24 k.2 đ.k` | Không quy định | Không quy định |
 | Nhân sự: xử lý kỷ luật lao động của oBacker | `HR` tiếp nhận hồ sơ | `CEO`, là người có thẩm quyền giao kết hợp đồng lao động theo Nội quy lao động | `HR` | Không quy định |
+| Nhân sự: thưởng không định kỳ | `TL` bộ phận | `CEO` | Không quy định | Không quy định |
 | Nhân sự: mức bồi thường trách nhiệm vật chất | `HR` tiếp nhận hồ sơ | `CEO`, là người có thẩm quyền giao kết hợp đồng lao động theo Nội quy lao động | Không quy định | Không quy định |
 | Nhân sự: điều chuyển người giữa hai bộ phận trong Phòng Dịch vụ | `TP` hai bên | `COO` | `CEO` | Không quy định |
 | Nhân sự: điều chuyển người giữa hai nhánh khác nhau | `TP` hai bên | `CEO` | `HR` | Không quy định |
@@ -174,7 +175,7 @@ Người đề xuất khởi xướng và chịu trách nhiệm về chất lư�
 | Khách và giá: từ chối khách | `AM` hoặc `COO` | `CEO` | `TP Thương mại` | Không quy định |
 | Khách và giá: giá trong khung đã duyệt | `AM` | `TP Thương mại` | `CEO` | Không quy định |
 | Khách và giá: giá ngoài khung | `TP Thương mại` | `CEO` | `AM` | Không quy định |
-| Khách và giá: chiết khấu và giảm giá hướng khách, theo mức | Không quy định | `AM` quyết mức đến 10%, gồm đúng 10%; `CEO` quyết mức lớn hơn 10% | Không quy định | Không quy định |
+| Khách và giá: chiết khấu và giảm giá hướng khách, theo mức | Không quy định | `AM` quyết mức đến 10%, gồm đúng 10%; `CEO` quyết mức lớn hơn 10%, trừ mức chuyển tiếp 35% theo [[02_Accounting_Tax_VI\|TNC-02-VI]] mục 10.4 đến 31/03/2027, là mức `CEO` đã duyệt | Không quy định | Không quy định |
 | Khách và giá: phạm vi dịch vụ trong hợp đồng chuẩn | `AM` | `TP Thương mại` | `COO` | Không quy định |
 | Khách và giá: phạm vi dịch vụ đặc biệt hoặc ngoài chuẩn | `AM` | `CEO` | `TL` bộ phận liên quan | Không quy định |
 | Khách và giá: cam kết với khách, gồm cam kết mốc | `AM` | `AM` khi dịch vụ có trong danh mục dịch vụ, chỉ sau khi `TL` bộ phận xác nhận bằng văn bản trên việc; `CEO` khi yêu cầu ngoài danh mục dịch vụ hoặc giá ngoài khung | `COO` | `TL` bộ phận, xác nhận bằng văn bản trên việc |
@@ -271,4 +272,4 @@ Bảng này áp dụng từ ngày ban hành, theo thẩm quyền hiện hành, k
 
 | Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | V5.0.0 | Thêm quy tắc ưu tiên của bảng, thẩm quyền cam kết với khách, sửa bảng kiểm và ký thông báo vi phạm dữ liệu cá nhân; bỏ hàng ngân sách năm. |
+| 09/10/2026 | V6.0.0 | Thêm hàng người quyết thưởng không định kỳ là CEO; thêm ngoại lệ mức chiết khấu chuyển tiếp 35% đến 31/03/2027 vào hàng chiết khấu. |

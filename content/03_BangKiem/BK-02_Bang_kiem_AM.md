@@ -4,8 +4,8 @@ code: "BK-02"
 type: "sop"
 folder: "03_BangKiem"
 level: "Bảng kiểm"
-version: "V4.0.0"
-release: "R.26.10.08.1"
+version: "V4.1.0"
+release: "R.26.10.09.1"
 status: "đang áp dụng"
 draft_date: "08/10/2026"
 author: "CEO"
@@ -25,8 +25,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | BK-02 |
 | Cấp tài liệu | Bảng kiểm |
-| Phiên bản | V4.0.0, đang áp dụng |
-| Phát hành | R.26.10.08.1 |
+| Phiên bản | V4.1.0, đang áp dụng |
+| Phát hành | R.26.10.09.1 |
 | Ngày biên soạn | 08/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -48,7 +48,7 @@ Ký hiệu SLA: `NLV` là ngày làm việc; `g` là giờ; `gLV` là giờ làm
 | AM-01 | Tiếp nhận và đánh giá lead | Khách liên hệ qua kênh bất kỳ;<br>hoặc lead bàn giao nội bộ từ `MK-06` theo [[BK-08_Bang_kiem_Marketing\|BK-08]];<br>hoặc lead nhận từ `PM-05` theo [[BK-07_Bang_kiem_Doi_tac_gioi_thieu\|BK-07]], mang mã đăng ký giới thiệu | Thông tin liên hệ | Bản ghi lead trên hệ thống;<br>kết luận có phù hợp không;<br>nguồn khách đã ghi, gồm kênh tự đến, đối tác giới thiệu kèm mã đăng ký giới thiệu, hoặc kênh khác;<br>lead từ kênh khác đã tra sổ đăng ký giới thiệu trước khi nhận; khách trùng sổ đăng ký thì chuyển thông tin cho `PM-02` theo [[BK-07_Bang_kiem_Doi_tac_gioi_thieu\|BK-07]] | Xác nhận đã nhận theo T1;<br>đánh giá phù hợp trong 3 gLV;<br>hẹn lịch làm rõ trong 24 g | Không có | Nội bộ | Không |
 | AM-02 | Họp làm rõ nhu cầu | Lead đã được đánh giá phù hợp và có phiếu sàng lọc kết luận NHẬN tại `AM-22` | Lịch họp đã được khách xác nhận;<br>phiếu sàng lọc kết luận NHẬN | Biên bản họp trên hệ thống;<br>email tóm tắt gửi khách;<br>kết luận đi tiếp hay dừng | Họp 15 tới 30 phút;<br>ghi biên bản trong 15 phút sau họp;<br>email tóm tắt trong 30 phút sau họp;<br>quyết định trong ngày | Không có | Nội bộ | Không |
 | AM-03 | Lập và gửi đề xuất dịch vụ | Kết luận đi tiếp tại AM-02 | Biên bản làm rõ;<br>đầu vào phạm vi và tính khả thi từ `TL` bộ phận, tức `TL-KT` với mảng kế toán và thuế, bằng văn bản trên Job | Đề xuất dịch vụ dạng PDF;<br>email gửi khách | TL bộ phận cấp đầu vào trong 3 gLV;<br>soạn đề xuất trong 24 g, ca phức tạp tối đa 48 g;<br>gửi khách không quá 48 g sau họp làm rõ | Không có | Nội bộ | Không |
-| AM-04 | Theo đuổi đề xuất | Đã gửi đề xuất | Đề xuất đã gửi | Bản ghi phản hồi của khách;<br>kết luận chốt, thương lượng hay dừng | Theo đuổi tại T+1, T+3, T+5 (lần cuối).<br>Đề xuất đã hết thời hạn hiệu lực mà khách yêu cầu báo giá lại: báo giá mới theo biểu giá hiện hành, giảm 35%, theo mục 10.4 Bản Điều Khoản Dịch Vụ Kế toán & Thuế, áp dụng với yêu cầu báo giá lại từ ngày 05/10/2026 | Không có | Nội bộ | Không |
+| AM-04 | Theo đuổi đề xuất | Đã gửi đề xuất | Đề xuất đã gửi | Bản ghi phản hồi của khách;<br>kết luận chốt, thương lượng hay dừng | Theo đuổi tại T+1, T+3, T+5 (lần cuối).<br>Đề xuất đã hết thời hạn hiệu lực mà khách yêu cầu báo giá lại: báo giá mới theo biểu giá hiện hành, giảm 35%, theo mục 10.4 Bản Điều Khoản Dịch Vụ Kế toán & Thuế, áp dụng với yêu cầu báo giá lại từ ngày 05/10/2026 đến 31/03/2027. Mức giảm 35% là chính sách chuyển tiếp giá cũ do CEO đã duyệt | Không có | Nội bộ | Không |
 | AM-05 | Chốt hợp đồng và thu tiền lần đầu | Khách đồng ý | Đề xuất đã được khách chấp thuận;<br>phạm vi đã chốt | Hợp đồng đã ký;<br>hóa đơn do `KTV` nội bộ phát hành theo thời điểm `KTT` nội bộ chốt, yêu cầu xuất hóa đơn chuyển cho `NB-09` theo [[BK-01_Bang_kiem_noi_bo\|BK-01]];<br>xác nhận thanh toán;<br>hợp đồng đã ký, xác nhận thanh toán, danh sách dịch vụ chuyển cho `PM-06` theo [[BK-07_Bang_kiem_Doi_tac_gioi_thieu\|BK-07]] khi khách thuộc sổ đăng ký giới thiệu;<br>hàng 'Khách được giới thiệu bởi' trên Đơn Đặt Hàng ghi theo sổ đăng ký giới thiệu;<br>hàng 'Đồng ý cung cấp thông tin cho bên đã giới thiệu' do khách đánh dấu | Gửi hợp đồng trong ngày khách đồng ý;<br>nhắc thanh toán tại T+1, T+3, T+7 | Không có | Nội bộ | Không |
 | AM-06 | Mở hồ sơ khách và bàn giao nội bộ cho bộ phận nghiệp vụ | Đã có xác nhận thanh toán | Hợp đồng đã ký;<br>đề xuất;<br>biên bản làm rõ;<br>ghi chú đặc điểm khách | Hồ sơ khách hoàn chỉnh trên hệ thống;<br>TL bộ phận đã nhận bàn giao và xác nhận | Trong 1 NLV kể từ xác nhận thanh toán | Không có | Nội bộ | Không |
 | AM-07 | Gửi thư chào mừng và thiết lập kênh | Đã nhận bàn giao | Hồ sơ khách | Thư chào mừng nêu rõ AM là đầu mối duy nhất, kênh liên hệ, SLA phản hồi | Trong 24 g kể từ xác nhận thanh toán | Không có | Nội bộ | Không |
@@ -122,7 +122,7 @@ Thời hạn: TL cấp đầu vào trong 3 gLV; soạn trong 24 g, ca phức t�
 1. AM theo đuổi tại T+1 và T+3 bằng việc nhắc lại đề xuất. Ghi sổ cái: Gửi khách.
 2. AM gửi lượt cuối tại T+5, hỏi thẳng khách còn quan tâm hay không ([[PL_A_Cau_chu_mau|PL_A]] mục 8). Ghi sổ cái: Gửi khách.
 3. AM ghi phản hồi của khách và kết luận chốt, thương lượng hay dừng. Khách chốt thì AM phát sinh việc AM-05. Ghi sổ cái: Quyết định; Phát sinh việc.
-4. Đề xuất đã hết thời hạn hiệu lực mà khách yêu cầu báo giá lại: AM báo giá mới theo biểu giá hiện hành, giảm 35%, theo mục 10.4 Bản Điều Khoản Dịch Vụ Kế toán & Thuế, áp dụng với yêu cầu báo giá lại từ ngày 05/10/2026. Ghi sổ cái: Gửi khách.
+4. Đề xuất đã hết thời hạn hiệu lực mà khách yêu cầu báo giá lại: AM báo giá mới theo biểu giá hiện hành, giảm 35%, theo mục 10.4 Bản Điều Khoản Dịch Vụ Kế toán & Thuế, áp dụng với yêu cầu báo giá lại từ ngày 05/10/2026 đến 31/03/2027. Mức giảm 35% là chính sách chuyển tiếp giá cũ do CEO đã duyệt, không thuộc giới hạn mức chiết khấu 10% của AM tại [[OBK-QCTC-02_Bang_tham_quyen|OBK-QCTC-02]] mục 4. Ghi sổ cái: Gửi khách.
 5. Sau T+5 khách không phản hồi: AM đóng lead với lý do không phản hồi, đúng hạn. Ghi sổ cái: Hủy.
 
 Thời hạn: theo đuổi tại T+1, T+3, T+5 (lần cuối).
@@ -425,4 +425,4 @@ Thời hạn: mỗi 3 tháng, cùng kỳ với AM-27; việc ngoài phạm vi ch
 
 | Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | V4.0.0 | Người phát hành hóa đơn theo NB-09, mốc dừng dịch vụ 31 ngày, tuyến chuyển lên theo bảng thẩm quyền, mẫu hợp đồng khung TNC-08. |
+| 09/10/2026 | V4.1.0 | AM-04 ghi mức giảm 35% là chính sách chuyển tiếp giá cũ do CEO đã duyệt, áp dụng đến 31/03/2027. |

@@ -5,8 +5,8 @@ aliases:
   - TNC-02-EN
 type: "tnc"
 folder: "09_TnC"
-version: "V3.0.0"
-release: "R.26.10.08.1"
+version: "V3.1.0"
+release: "R.26.10.09.1"
 status: "đang áp dụng"
 author: "CEO"
 reviewer: "CEO"
@@ -23,7 +23,7 @@ tags:
 *Service-Specific Terms, an integral part of the Master T&C; oBacker Joint Stock Company*
 Tax code: 0402298185 · Floor 2, 06 Tran Phu Street, Hai Chau Ward, Da Nang, Vietnam · contact@obacker.com
 
-**Version:** V3.0.0 (VI-EN) · **Release:** R.26.10.08.1 · **Updated:** 08/10/2026
+**Version:** V3.1.0 (VI-EN) · **Release:** R.26.10.09.1 · **Updated:** 08/10/2026
 
 > These are the Service-Specific Terms for the Accounting & Tax Services (the "**Services**"), covering two components: (A) Accounting and (B) Corporate Tax (VAT, CIT, Foreign Contractor Tax (FCT), and e-invoices). They apply where the Services are recorded in the Order Form. **If these Terms differ from the Master T&C, these Terms prevail for the Services.**
 >
@@ -192,7 +192,7 @@ Either party may terminate the Services on at least **30 days'** prior notice (o
 Service Fees are defined in the Order Form (by partner retainer package or actual Transaction volume). The Service Fees are prepaid under Article 4 of the Master T&C. These Services have their own payment framework in two cases: (a) surcharges above quota are postpaid on monthly reconciliation (Section 10.1); (b) fees for annual financial statements and tax closing under a contract newly signed in Q4 are split into two instalments (Section 10.3). Detailed pricing mechanisms, quotas, and surcharges include:
 
 **10.1. Fair Use Policy (FUP) & Overage Schedule:**
-- Transaction Thresholds: Partner Core (50 Transactions/month; FDI enterprises 100 Transactions/month), Partner Growth (300 Transactions/month), Partner Prime (1,500 Transactions/month). Volume above 100 Transactions/month for Partner Core - FDI is billed via the block surcharge mechanism below.
+- Transaction Thresholds: Partner Core (500 Transactions/month; FDI enterprises 100 Transactions/month), Partner Growth (300 Transactions/month), Partner Prime (1,500 Transactions/month). Volume above 100 Transactions/month for Partner Core - FDI is billed via the block surcharge mechanism below.
 - Block Surcharges: Volume above the threshold is billed in blocks: 500-Transaction block (`ADD-TXN-BLOCK-500-2026`, VND 2,500,000/month), 1,000-Transaction block (`ADD-TXN-BLOCK-1000-2026`, VND 5,000,000/month), and 1,500-Transaction block (`ADD-TXN-BLOCK-1500-2026`, VND 7,500,000/month). Partner Growth applies a maximum of 1,500 Transactions/month; exceeding volume requires transition to Partner Prime.
 - Partner Prime Package: Standard baseline of 1,500 Transactions/month; volume above 1,500 and up to 7,000 Transactions/month is billed through the block surcharges above; volume above 7,000 Transactions/month is billed at VND 12,000/Transaction (`ADD-TXN-PRIME-OVER`).
 - Bank Accounts: Core (02 accounts), Growth (05 accounts). Surcharge from the 3rd account (Core) or 6th account (Growth) is VND 200,000/account/month (`ADD-BANK-ACC-2026`).
@@ -221,5 +221,5 @@ Service Fees are defined in the Order Form (by partner retainer package or actua
 
 | Date | Version | Description |
 | --- | --- | --- |
-| 08/10/2026 | V3.0.0 | Synced with the Vietnamese version: tax scope, new surcharge codes, USB Token and Prime threshold. |
+| 09/10/2026 | V3.1.0 | Raised the Partner Core transaction threshold from 50 to 500 per month to match the catalogue. |
 

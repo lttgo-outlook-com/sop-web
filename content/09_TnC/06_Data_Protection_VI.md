@@ -5,8 +5,8 @@ aliases:
   - TNC-06-VI
 type: "tnc"
 folder: "09_TnC"
-version: "V1.1.0"
-release: "R.26.10.08.1"
+version: "V1.2.0"
+release: "R.26.10.09.1"
 status: "đang áp dụng"
 author: "CEO"
 reviewer: "CEO"
@@ -21,7 +21,7 @@ tags:
 ### Bao gồm phần riêng cho Dữ liệu Nhạy cảm
 
 **Áp dụng cho:** Công ty cổ phần oBacker
-**Phiên bản:** V1.1.0 (VI-EN) · **Phát hành:** R.26.10.08.1 · **Ngày ban hành:** 21/09/2026 · **Ngày hiệu lực:** 21/09/2026
+**Phiên bản:** V1.2.0 (VI-EN) · **Phát hành:** R.26.10.09.1 · **Ngày ban hành:** 21/09/2026 · **Ngày hiệu lực:** 21/09/2026
 
 ---
 
@@ -75,7 +75,7 @@ Chính sách được xây dựng trên cơ sở pháp luật Việt Nam, bao g�
 | Mã số doanh nghiệp / MST | 0402298185 |
 | Địa chỉ trụ sở | Tầng 2, 06 Trần Phú, Phường Hải Châu, Thành phố Đà Nẵng |
 | Người đại diện theo pháp luật | Nguyễn Thị Thu Trang, Chủ tịch hội đồng quản trị |
-| Đầu mối phụ trách bảo vệ dữ liệu cá nhân (DPO) | Nguyễn Thị Thu Trang |
+| Người phụ trách bảo vệ dữ liệu cá nhân (DPO) | Trưởng bộ phận Nghiên cứu và Phát triển pháp lý của oBacker, liên hệ qua email phụ trách dữ liệu cá nhân |
 | Email phụ trách dữ liệu cá nhân | privacy@obacker.com |
 | Trang web | obacker.com |
 
@@ -206,7 +206,7 @@ oBacker có thể cập nhật Chính sách theo thời gian; phiên bản cập
 
 | Kênh liên hệ | Thông tin |
 |---|---|
-| Bộ phận phụ trách / DPO | Bộ phận pháp chế và bảo vệ dữ liệu cá nhân; oBacker |
+| Người phụ trách bảo vệ dữ liệu cá nhân (DPO) | Trưởng bộ phận Nghiên cứu và Phát triển pháp lý của oBacker |
 | Email | privacy@obacker.com |
 | Địa chỉ nhận yêu cầu | Tầng 2, 06 Trần Phú, Phường Hải Châu, Thành phố Đà Nẵng |
 | Trang web | obacker.com |
@@ -285,7 +285,7 @@ Vì oBacker sử dụng Google Workspace, dữ liệu nhạy cảm có thể đ�
 
 **28.1.** Quyền của Quý Khách đối với dữ liệu nhạy cảm áp dụng theo Điều 13, cùng các biện pháp bảo vệ tăng cường tại Phần này.
 
-**28.2. Cơ chế khiếu nại.** Quý Khách gửi yêu cầu/khiếu nại tới đầu mối DPO (Điều 20); oBacker xác minh danh tính; phản hồi trong thời hạn pháp luật quy định (bao gồm mốc **72 giờ** với một số yêu cầu như hạn chế xử lý theo NĐ 356/2025); trường hợp từ chối, nêu rõ lý do bằng văn bản. Nếu chưa hài lòng, Quý Khách có quyền khiếu nại, tố cáo, khởi kiện tới cơ quan có thẩm quyền, bao gồm **A05; Bộ Công an** và tòa án có thẩm quyền.
+**28.2. Cơ chế khiếu nại.** Quý Khách gửi yêu cầu/khiếu nại tới người phụ trách bảo vệ dữ liệu cá nhân (DPO) tại Điều 20; oBacker xác minh danh tính; phản hồi trong thời hạn pháp luật quy định (bao gồm mốc **72 giờ** với một số yêu cầu như hạn chế xử lý theo NĐ 356/2025); trường hợp từ chối, nêu rõ lý do bằng văn bản. Nếu chưa hài lòng, Quý Khách có quyền khiếu nại, tố cáo, khởi kiện tới cơ quan có thẩm quyền, bao gồm **A05; Bộ Công an** và tòa án có thẩm quyền.
 
 > **Đối với NLĐ/cổ đông của khách hàng:** với dữ liệu nhạy cảm oBacker xử lý theo chỉ dẫn của khách hàng, việc thực hiện quyền cần phối hợp với khách hàng (Bên Kiểm soát chính). oBacker tiếp nhận yêu cầu và phối hợp với khách hàng để hỗ trợ Quý Khách.
 
@@ -304,4 +304,4 @@ Chính sách có hiệu lực kể từ ngày 21/09/2026. Phiên bản V1.0.0 (h
 
 | Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | V1.1.0 | Bỏ dòng điện thoại để trống, bỏ nội dung oBacker Law, làm rõ dòng sinh trắc. |
+| 09/10/2026 | V1.2.0 | Ghi người phụ trách bảo vệ dữ liệu cá nhân theo chức danh Trưởng bộ phận Nghiên cứu và Phát triển pháp lý, theo Quy chế bảo vệ dữ liệu cá nhân nội bộ. |

@@ -10,7 +10,7 @@ tags:
 > [!info] TRANG NÀY LÀ GÌ
 > Trang này ghi trạng thái của 113 tài liệu trong kho. Trang này được sinh lại từ thông tin đầu tệp của từng tài liệu; nơi sửa một trạng thái là bảng Thông tin phiên bản của chính tài liệu đó. Mã phát hành của từng lần phát hành ghi tại [[Nhật ký phát hành]].
 
-Cập nhật ngày 08/10/2026.
+Cập nhật ngày 09/10/2026.
 
 ## Tổ chức và phân quyền
 
@@ -19,8 +19,8 @@ Thư mục `01_ToChuc`, 4 tài liệu.
 | Mã | Tài liệu | Cấp | Phiên bản | Phát hành | Trạng thái | Người soát | Người phê duyệt | Ngày biên soạn | Rà soát tiếp theo |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] | [[OBK-MSR_Quy_tac_so_cai]] | Cấp 1, văn bản khung toàn công ty | V4.0.0 | R.26.10.08.1 | đang áp dụng | CEO | CEO | 08/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
-| [[OBK-QCTC-02_Bang_tham_quyen\|OBK-QCTC-02]] | [[OBK-QCTC-02_Bang_tham_quyen]] | Cấp 1, văn bản khung toàn công ty | V5.0.0 | R.26.10.08.1 | đang áp dụng | CEO | CEO | 08/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
-| [[PL_2_Bang_tra_SLA\|OBK-SOP-PL2]] | [[PL_2_Bang_tra_SLA]] | Phụ lục | V1.3.0 | R.26.10.08.1 | đang áp dụng | CEO | CEO | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
+| [[OBK-QCTC-02_Bang_tham_quyen\|OBK-QCTC-02]] | [[OBK-QCTC-02_Bang_tham_quyen]] | Cấp 1, văn bản khung toàn công ty | V6.0.0 | R.26.10.09.1 | đang áp dụng | CEO | CEO | 08/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
+| [[PL_2_Bang_tra_SLA\|OBK-SOP-PL2]] | [[PL_2_Bang_tra_SLA]] | Phụ lục | V1.4.0 | R.26.10.09.1 | đang áp dụng | CEO | CEO | 01/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[PL_Chuyen_len_cap_tren\|OBK-QCTC-02-PL-C]] | [[PL_Chuyen_len_cap_tren]] | Phụ lục | V4.0.0 | R.26.10.08.1 | đang áp dụng | CEO | CEO | 04/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 
 ## Vận hành nội bộ
@@ -41,8 +41,8 @@ Thư mục `03_BangKiem`, 8 tài liệu.
 | Mã | Tài liệu | Cấp | Phiên bản | Phát hành | Trạng thái | Người soát | Người phê duyệt | Ngày biên soạn | Rà soát tiếp theo |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [[BK-01_Bang_kiem_noi_bo\|BK-01]] | [[BK-01_Bang_kiem_noi_bo]] | Bảng kiểm | V4.0.0 | R.26.10.08.1 | đang áp dụng | CEO | CEO | 08/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
-| [[BK-02_Bang_kiem_AM\|BK-02]] | [[BK-02_Bang_kiem_AM]] | Bảng kiểm | V4.0.0 | R.26.10.08.1 | đang áp dụng | CEO | CEO | 08/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
-| [[BK-03_Bang_kiem_Ke_toan_va_thue\|BK-03]] | [[BK-03_Bang_kiem_Ke_toan_va_thue]] | Bảng kiểm | V3.0.0 | R.26.10.08.1 | đang áp dụng | CEO | CEO | 08/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
+| [[BK-02_Bang_kiem_AM\|BK-02]] | [[BK-02_Bang_kiem_AM]] | Bảng kiểm | V4.1.0 | R.26.10.09.1 | đang áp dụng | CEO | CEO | 08/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
+| [[BK-03_Bang_kiem_Ke_toan_va_thue\|BK-03]] | [[BK-03_Bang_kiem_Ke_toan_va_thue]] | Bảng kiểm | V4.0.0 | R.26.10.09.1 | đang áp dụng | CEO | CEO | 08/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[BK-04_Bang_kiem_Giay_phep\|BK-04]] | [[BK-04_Bang_kiem_Giay_phep]] | Bảng kiểm | V2.0.0 | R.26.10.08.1 | đang áp dụng | CEO | CEO | 08/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[BK-05_Bang_kiem_Lao_dong_va_tien_luong\|BK-05]] | [[BK-05_Bang_kiem_Lao_dong_va_tien_luong]] | Bảng kiểm | V2.0.0 | R.26.10.08.1 | đang áp dụng | CEO | CEO | 08/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[BK-06_Bang_kiem_Phap_ly\|BK-06]] | [[BK-06_Bang_kiem_Phap_ly]] | Bảng kiểm | V2.0.0 | R.26.10.08.1 | đang áp dụng | CEO | CEO | 08/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
@@ -60,16 +60,16 @@ Thư mục `09_TnC`, 21 tài liệu.
 | [[00_TnC_Master_VI\|TNC-00-VI]] | [[00_TnC_Master_VI]] |  | V4.0.0 | R.26.10.08.1 | đang áp dụng | CEO | CEO |  |  |
 | [[01_Licensing_EN\|TNC-01-EN]] | [[01_Licensing_EN]] |  | V2.0.0 | R.26.10.08.1 | đang áp dụng | CEO | CEO |  |  |
 | [[01_Licensing_VI\|TNC-01-VI]] | [[01_Licensing_VI]] |  | V2.0.0 | R.26.10.08.1 | đang áp dụng | CEO | CEO |  |  |
-| [[02_Accounting_Tax_EN\|TNC-02-EN]] | [[02_Accounting_Tax_EN]] |  | V3.0.0 | R.26.10.08.1 | đang áp dụng | CEO | CEO |  |  |
-| [[02_Accounting_Tax_VI\|TNC-02-VI]] | [[02_Accounting_Tax_VI]] |  | V3.0.0 | R.26.10.08.1 | đang áp dụng | CEO | CEO |  |  |
+| [[02_Accounting_Tax_EN\|TNC-02-EN]] | [[02_Accounting_Tax_EN]] |  | V3.1.0 | R.26.10.09.1 | đang áp dụng | CEO | CEO |  |  |
+| [[02_Accounting_Tax_VI\|TNC-02-VI]] | [[02_Accounting_Tax_VI]] |  | V3.1.0 | R.26.10.09.1 | đang áp dụng | CEO | CEO |  |  |
 | [[03_HR_Payroll_EN\|TNC-03-EN]] | [[03_HR_Payroll_EN]] |  | V2.0.0 | R.26.10.08.1 | đang áp dụng | CEO | CEO |  |  |
 | [[03_HR_Payroll_VI\|TNC-03-VI]] | [[03_HR_Payroll_VI]] |  | V2.0.0 | R.26.10.08.1 | đang áp dụng | CEO | CEO |  |  |
 | [[04_Legal_Services_EN\|TNC-04-EN]] | [[04_Legal_Services_EN]] |  | V3.0.0 | R.26.10.08.1 | đang áp dụng | CEO | CEO |  |  |
 | [[04_Legal_Services_VI\|TNC-04-VI]] | [[04_Legal_Services_VI]] |  | V3.0.0 | R.26.10.08.1 | đang áp dụng | CEO | CEO |  |  |
-| [[05_Client_Guide_EN\|TNC-05-EN]] | [[05_Client_Guide_EN]] |  | V3.0.0 | R.26.10.08.1 | đang áp dụng | CEO | CEO |  |  |
-| [[05_Client_Guide_VI\|TNC-05-VI]] | [[05_Client_Guide_VI]] |  | V3.0.0 | R.26.10.08.1 | đang áp dụng | CEO | CEO |  |  |
-| [[06_Data_Protection_EN\|TNC-06-EN]] | [[06_Data_Protection_EN]] |  | V1.1.0 | R.26.10.08.1 | đang áp dụng | CEO | CEO |  |  |
-| [[06_Data_Protection_VI\|TNC-06-VI]] | [[06_Data_Protection_VI]] |  | V1.1.0 | R.26.10.08.1 | đang áp dụng | CEO | CEO |  |  |
+| [[05_Client_Guide_EN\|TNC-05-EN]] | [[05_Client_Guide_EN]] |  | V3.1.0 | R.26.10.09.1 | đang áp dụng | CEO | CEO |  |  |
+| [[05_Client_Guide_VI\|TNC-05-VI]] | [[05_Client_Guide_VI]] |  | V3.1.0 | R.26.10.09.1 | đang áp dụng | CEO | CEO |  |  |
+| [[06_Data_Protection_EN\|TNC-06-EN]] | [[06_Data_Protection_EN]] |  | V1.2.0 | R.26.10.09.1 | đang áp dụng | CEO | CEO |  |  |
+| [[06_Data_Protection_VI\|TNC-06-VI]] | [[06_Data_Protection_VI]] |  | V1.2.0 | R.26.10.09.1 | đang áp dụng | CEO | CEO |  |  |
 | [[07_Wallet_EN\|TNC-07-EN]] | [[07_Wallet_EN]] |  | V1.1.0 | R.26.10.08.1 | đang áp dụng | CEO | CEO |  |  |
 | [[07_Wallet_VI\|TNC-07-VI]] | [[07_Wallet_VI]] |  | V1.1.0 | R.26.10.08.1 | đang áp dụng | CEO | CEO |  |  |
 | [[08_Framework_Agreement_EN\|TNC-08-EN]] | [[08_Framework_Agreement_EN]] |  | V3.0.0 | R.26.10.08.1 | đang áp dụng | CEO | CEO |  |  |
@@ -84,7 +84,7 @@ Thư mục `10_DanhMuc`, 9 tài liệu.
 | Mã | Tài liệu | Cấp | Phiên bản | Phát hành | Trạng thái | Người soát | Người phê duyệt | Ngày biên soạn | Rà soát tiếp theo |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [[00_Danh_muc_dich_vu_va_bang_gia\|OBK-DM-00]] | [[00_Danh_muc_dich_vu_va_bang_gia]] | Danh mục | V2.0.0 | R.26.10.08.1 | đang áp dụng | CEO | CEO | 04/10/2026 |  |
-| [[01_Goi_dich_vu_va_hang_muc_kem_goi\|OBK-DM-GOI]] | [[01_Goi_dich_vu_va_hang_muc_kem_goi]] | Danh mục | V2.0.0 | R.26.10.08.1 | đang áp dụng | CEO | CEO | 04/10/2026 |  |
+| [[01_Goi_dich_vu_va_hang_muc_kem_goi\|OBK-DM-GOI]] | [[01_Goi_dich_vu_va_hang_muc_kem_goi]] | Danh mục | V2.1.0 | R.26.10.09.1 | đang áp dụng | CEO | CEO | 04/10/2026 |  |
 | [[02_Bang_gia_Giay_phep_va_doanh_nghiep\|OBK-DM-GP]] | [[02_Bang_gia_Giay_phep_va_doanh_nghiep]] | Danh mục | V1.1.3 | R.26.10.08.1 | đang áp dụng | CEO | CEO | 04/10/2026 |  |
 | [[03_Bang_gia_Ke_toan_va_thue\|OBK-DM-KT]] | [[03_Bang_gia_Ke_toan_va_thue]] | Danh mục | V1.1.3 | R.26.10.08.1 | đang áp dụng | CEO | CEO | 04/10/2026 |  |
 | [[04_Bang_gia_Lao_dong_va_giay_to_nguoi_nuoc_ngoai\|OBK-DM-LD]] | [[04_Bang_gia_Lao_dong_va_giay_to_nguoi_nuoc_ngoai]] | Danh mục | V1.2.0 | R.26.10.08.1 | đang áp dụng | CEO | CEO | 04/10/2026 |  |
@@ -99,12 +99,12 @@ Thư mục `11_NhanSu`, 12 tài liệu.
 
 | Mã | Tài liệu | Cấp | Phiên bản | Phát hành | Trạng thái | Người soát | Người phê duyệt | Ngày biên soạn | Rà soát tiếp theo |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[02_Quy_che_tien_luong_va_tien_thuong_noi_bo\|OBK-QCNS-02]] | [[02_Quy_che_tien_luong_va_tien_thuong_noi_bo]] | Cấp 1, văn bản khung toàn công ty | V8.0.0 | R.26.10.08.1 | đang áp dụng | CEO | CEO | 08/10/2026 | Không quá 06 tháng kể từ ngày ban hành |
-| [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] | [[08_Khung_danh_gia_hieu_suat]] | Cấp 2, quy trình bộ phận | V7.0.0 | R.26.10.08.1 | đang áp dụng | CEO | CEO | 01/10/2026 | Không quá 06 tháng kể từ ngày ban hành |
+| [[02_Quy_che_tien_luong_va_tien_thuong_noi_bo\|OBK-QCNS-02]] | [[02_Quy_che_tien_luong_va_tien_thuong_noi_bo]] | Cấp 1, văn bản khung toàn công ty | V9.0.0 | R.26.10.09.1 | đang áp dụng | CEO | CEO | 08/10/2026 | Không quá 06 tháng kể từ ngày ban hành |
+| [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] | [[08_Khung_danh_gia_hieu_suat]] | Cấp 2, quy trình bộ phận | V8.0.0 | R.26.10.09.1 | đang áp dụng | CEO | CEO | 01/10/2026 | Không quá 06 tháng kể từ ngày ban hành |
 | [[08_PL_A_Thang_cham_tieu_chi_chung\|OBK-QCNS-08-PL-A]] | [[08_PL_A_Thang_cham_tieu_chi_chung]] | Phụ lục | V2.0.2 | R.26.10.08.1 | đang áp dụng | CEO | CEO | 01/10/2026 | Không quá 06 tháng kể từ ngày ban hành |
 | [[08_PL_B_Tieu_chi_cong_viec_dang_ho_so\|OBK-QCNS-08-PL-B]] | [[08_PL_B_Tieu_chi_cong_viec_dang_ho_so]] | Phụ lục | V2.0.2 | R.26.10.08.1 | đang áp dụng | CEO | CEO | 04/10/2026 | Không quá 06 tháng kể từ ngày ban hành |
 | [[08_PL_C_Ky_nang_chuyen_mon\|OBK-QCNS-08-PL-C]] | [[08_PL_C_Ky_nang_chuyen_mon]] | Phụ lục | V2.1.0 | R.26.10.08.1 | đang áp dụng | CEO | CEO | 01/10/2026 | Không quá 06 tháng kể từ ngày ban hành |
-| [[08_PL_D_Van_hanh_viec_cham\|OBK-QCNS-08-PL-D]] | [[08_PL_D_Van_hanh_viec_cham]] | Phụ lục | V4.1.0 | R.26.10.08.1 | đang áp dụng | CEO | CEO | 01/10/2026 | Không quá 06 tháng kể từ ngày ban hành |
+| [[08_PL_D_Van_hanh_viec_cham\|OBK-QCNS-08-PL-D]] | [[08_PL_D_Van_hanh_viec_cham]] | Phụ lục | V5.0.0 | R.26.10.09.1 | đang áp dụng | CEO | CEO | 01/10/2026 | Không quá 06 tháng kể từ ngày ban hành |
 | [[08_PL_E_Phieu_vi_tri\|OBK-QCNS-08-PL-E]] | [[08_PL_E_Phieu_vi_tri]] | Phụ lục | V2.0.2 | R.26.10.08.1 | đang áp dụng | CEO | CEO | 01/10/2026 | Không quá 06 tháng kể từ ngày ban hành |
 | [[NS-01_Phieu_tu_danh_gia_hieu_suat\|NS-01]] | [[NS-01_Phieu_tu_danh_gia_hieu_suat]] | Phiếu thao tác | V5.0.2 | R.26.10.08.1 | đang áp dụng | CEO | CEO | 01/10/2026 |  |
 | [[NS-03_Phieu_tong_hop_diem_cuoi_ky\|NS-03]] | [[NS-03_Phieu_tong_hop_diem_cuoi_ky]] | Phiếu thao tác | V5.1.0 | R.26.10.08.1 | đang áp dụng | CEO | CEO | 01/10/2026 |  |

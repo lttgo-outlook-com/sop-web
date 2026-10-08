@@ -5,8 +5,8 @@ aliases:
   - TNC-05-VI
 type: "tnc"
 folder: "09_TnC"
-version: "V3.0.0"
-release: "R.26.10.08.1"
+version: "V3.1.0"
+release: "R.26.10.09.1"
 status: "đang áp dụng"
 author: "CEO"
 reviewer: "CEO"
@@ -20,7 +20,7 @@ tags:
 # CẨM NANG LÀM VIỆC VỚI OBACKER
 ### Hướng dẫn dành cho Quý Khách
 
-**Phiên bản:** V3.0.0 (VI-EN) · **Phát hành:** R.26.10.08.1 · **Cập nhật:** 08/10/2026 · Áp dụng cho gói Partner Core, Partner Growth và Partner Prime
+**Phiên bản:** V3.1.0 (VI-EN) · **Phát hành:** R.26.10.09.1 · **Cập nhật:** 08/10/2026 · Áp dụng cho gói Partner Core, Partner Growth và Partner Prime
 
 > Tài liệu này là cẩm nang hướng dẫn. Đây không phải là hợp đồng. Trường hợp có khác biệt giữa cẩm nang này và Hợp Đồng dịch vụ (Điều Khoản & Điều Kiện, Đơn Đặt Hàng và các Điều Khoản Dịch Vụ Cụ Thể), nội dung Hợp Đồng được áp dụng.
 
@@ -55,8 +55,8 @@ Nguyên tắc phối hợp giữa oBacker và Quý Khách: Điều 2, Bản Đi�
 | Đơn giá tháng tương đương | 2.250.000đ | 7.000.000đ | Từ 15.000.000đ |
 | Phí áp dụng doanh nghiệp FDI | 40.500.000đ/năm (10.125.000đ/quý) | 113.400.000đ/năm (28.350.000đ/quý) | Thỏa thuận theo quy mô thực tế |
 | Kỳ thanh toán | Theo năm hoặc theo quý | Theo năm hoặc theo quý | Theo năm hoặc theo quý |
-| Định mức giao dịch mỗi tháng | 50 (VN) / 100 (FDI) | 300 (mức tối đa 1.500 qua block) | Từ 1.500 đến 7.000 chứng từ; trên 7.000 chứng từ: 12.000đ/chứng từ |
-| Định mức nhân sự tính lương/BHXH | Tối đa 10 (VN) / 03 (FDI) | Tối đa 30 | Tối đa 50 |
+| Định mức giao dịch mỗi tháng | 500 (VN) / 100 (FDI) | 300 (mức tối đa 1.500 qua block) | Từ 1.500 đến 7.000 chứng từ; trên 7.000 chứng từ: 12.000đ/chứng từ |
+| Định mức nhân sự tính lương/BHXH | Tối đa 10 (VN) / 03 (FDI) | Tối đa 30 | Tối đa 100 |
 | Chế độ kế toán áp dụng | TT 58/2026 (VN) / TT 99/2025 (FDI) | TT 99/2025/TT-BTC | TT 99/2025/TT-BTC |
 | Ghi sổ kế toán và BCTC năm | Có | Có | Có |
 | Kê khai thuế định kỳ và FCT | Có (FCT tối đa 01 HĐ/tháng) | Có (FCT tối đa 03 HĐ/tháng) | Có (FCT tối đa 03 HĐ/tháng) |
@@ -280,4 +280,4 @@ Giải thích từ ngữ và chữ viết tắt: Điều 1, Bản Điều Khoả
 
 | Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | V3.0.0 | Cập nhật bảng gói, mã phụ thu, ký điện tử, USB Token, thuế TNCN và Nominee. |
+| 09/10/2026 | V3.1.0 | Sửa định mức giao dịch Partner Core thành 500 và định mức nhân sự tính lương Partner Prime thành 100 cho khớp danh mục. |

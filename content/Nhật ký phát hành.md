@@ -17,6 +17,27 @@ tags:
 > [!note] TRANG SINH TỰ ĐỘNG
 > Trang này được sinh lại từ dữ liệu phát hành mỗi lần phát hành. Sửa trực tiếp vào trang này không được giữ ở lần sinh sau.
 
+## R.26.10.09.1
+
+Ngày phát hành 09/10/2026. Lần phát hành này gồm 14 tài liệu.
+
+| Mã | Tài liệu | Phiên bản | Phiên bản trước | Mức |
+| --- | --- | --- | --- | --- |
+| [[01_Goi_dich_vu_va_hang_muc_kem_goi\|OBK-DM-GOI]] | GÓI DỊCH VỤ VÀ HẠNG MỤC KÈM GÓI | V2.1.0 | V2.0.0 | 2 |
+| [[02_Accounting_Tax_EN\|TNC-02-EN]] | ACCOUNTING & TAX SERVICE TERMS (PL-KT) | V3.1.0 | V3.0.0 | 2 |
+| [[02_Accounting_Tax_VI\|TNC-02-VI]] | ĐIỀU KHOẢN DỊCH VỤ KẾ TOÁN & THUẾ (PL-KT) | V3.1.0 | V3.0.0 | 2 |
+| [[02_Quy_che_tien_luong_va_tien_thuong_noi_bo\|OBK-QCNS-02]] | QUY CHẾ TIỀN LƯƠNG VÀ TIỀN THƯỞNG NỘI BỘ | V9.0.0 | V8.0.0 | 1 |
+| [[05_Client_Guide_EN\|TNC-05-EN]] | CLIENT WORKING GUIDE; WORKING WITH OBACKER | V3.1.0 | V3.0.0 | 2 |
+| [[05_Client_Guide_VI\|TNC-05-VI]] | CẨM NANG LÀM VIỆC VỚI OBACKER | V3.1.0 | V3.0.0 | 2 |
+| [[06_Data_Protection_EN\|TNC-06-EN]] | PERSONAL DATA PROTECTION POLICY | V1.2.0 | V1.1.0 | 2 |
+| [[06_Data_Protection_VI\|TNC-06-VI]] | CHÍNH SÁCH BẢO VỆ DỮ LIỆU CÁ NHÂN | V1.2.0 | V1.1.0 | 2 |
+| [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] | KHUNG ĐÁNH GIÁ HIỆU SUẤT | V8.0.0 | V7.0.0 | 1 |
+| [[08_PL_D_Van_hanh_viec_cham\|OBK-QCNS-08-PL-D]] | Vận hành việc chấm | V5.0.0 | V4.1.0 | 1 |
+| [[BK-02_Bang_kiem_AM\|BK-02]] | BẢNG KIỂM QUẢN LÝ KHÁCH HÀNG | V4.1.0 | V4.0.0 | 2 |
+| [[BK-03_Bang_kiem_Ke_toan_va_thue\|BK-03]] | BẢNG KIỂM KẾ TOÁN VÀ THUẾ | V4.0.0 | V3.0.0 | 1 |
+| [[OBK-QCTC-02_Bang_tham_quyen\|OBK-QCTC-02]] | BẢNG THẨM QUYỀN | V6.0.0 | V5.0.0 | 1 |
+| [[PL_2_Bang_tra_SLA\|OBK-SOP-PL2]] | PHỤ LỤC 2. DANH MỤC JOB | V1.4.0 | V1.3.0 | 2 |
+
 ## R.26.10.08.1
 
 Ngày phát hành 08/10/2026. Lần phát hành này gồm 113 tài liệu.

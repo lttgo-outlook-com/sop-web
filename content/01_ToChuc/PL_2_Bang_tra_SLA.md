@@ -4,8 +4,8 @@ code: "OBK-SOP-PL2"
 type: "sop"
 folder: "01_ToChuc"
 level: "Phụ lục"
-version: "V1.3.0"
-release: "R.26.10.08.1"
+version: "V1.4.0"
+release: "R.26.10.09.1"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -28,8 +28,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-SOP-PL2 |
 | Cấp tài liệu | Phụ lục |
-| Phiên bản | V1.3.0, đang áp dụng |
-| Phát hành | R.26.10.08.1 |
+| Phiên bản | V1.4.0, đang áp dụng |
+| Phát hành | R.26.10.09.1 |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | `CEO` |
 | Người soát | đã soát |
@@ -57,7 +57,7 @@ xem [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 6 và mục 7.5. Job có Soát bắ
 | AM-01 | Tiếp nhận và đánh giá lead | Xác nhận đã nhận theo T1;<br>đánh giá phù hợp trong 3 gLV;<br>hẹn lịch làm rõ trong 24 g | Không có | Không |
 | AM-02 | Họp làm rõ nhu cầu | Họp 15 tới 30 phút;<br>ghi biên bản trong 15 phút sau họp;<br>email tóm tắt trong 30 phút sau họp;<br>quyết định trong ngày | Không có | Không |
 | AM-03 | Lập và gửi đề xuất dịch vụ | TL bộ phận cấp đầu vào trong 3 gLV;<br>soạn đề xuất trong 24 g, ca phức tạp tối đa 48 g;<br>gửi khách không quá 48 g sau họp làm rõ | Không có | Không |
-| AM-04 | Theo đuổi đề xuất | Theo đuổi tại T+1, T+3, T+5 (lần cuối).<br>Đề xuất đã hết thời hạn hiệu lực mà khách yêu cầu báo giá lại: báo giá mới theo biểu giá hiện hành, giảm 35%, theo mục 10.4 Bản Điều Khoản Dịch Vụ Kế toán & Thuế, áp dụng với yêu cầu báo giá lại từ ngày 05/10/2026 | Không có | Không |
+| AM-04 | Theo đuổi đề xuất | Theo đuổi tại T+1, T+3, T+5 (lần cuối).<br>Đề xuất đã hết thời hạn hiệu lực mà khách yêu cầu báo giá lại: báo giá mới theo biểu giá hiện hành, giảm 35%, theo mục 10.4 Bản Điều Khoản Dịch Vụ Kế toán & Thuế, áp dụng với yêu cầu báo giá lại từ ngày 05/10/2026 đến 31/03/2027. Mức giảm 35% là chính sách chuyển tiếp giá cũ do CEO đã duyệt | Không có | Không |
 | AM-05 | Chốt hợp đồng và thu tiền lần đầu | Gửi hợp đồng trong ngày khách đồng ý;<br>nhắc thanh toán tại T+1, T+3, T+7 | Không có | Không |
 | AM-06 | Mở hồ sơ khách và bàn giao nội bộ cho bộ phận nghiệp vụ | Trong 1 NLV kể từ xác nhận thanh toán | Không có | Không |
 | AM-07 | Gửi thư chào mừng và thiết lập kênh | Trong 24 g kể từ xác nhận thanh toán | Không có | Không |
@@ -101,9 +101,9 @@ xem [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 6 và mục 7.5. Job có Soát bắ
 | KT-11 | Quản lý hóa đơn điện tử | Theo kỳ tháng;<br>hóa đơn sai sót xử lý trong 01 ngày làm việc kể từ khi phát hiện | Không có | Không |
 | KT-12 | Bảng đối chiếu công nợ gửi khách xác nhận | Trong 05 ngày làm việc đầu tháng đầu quý sau | Không có | Không |
 | KT-13 | Báo cáo soát xét trước quyết toán, gói G3 | 31/07 | Không có | Không |
-| KT-14 | Xin xác nhận số liệu quyết toán từ khách | 24/03 | Không có | Không |
-| KT-15 | Lập và nộp báo cáo tài chính năm | Nộp 25/03 | **90 ngày kể từ ngày kết thúc kỳ kế toán năm** | Không |
-| KT-16 | Quyết toán thuế TNDN năm | Nộp 25/03 | Ngày cuối cùng của tháng thứ 03 kể từ ngày kết thúc kỳ quyết toán thuế, theo Nghị định 252/2026/NĐ-CP Đ.10 k.5 đ.a | Không |
+| KT-14 | Xin xác nhận số liệu quyết toán từ khách | Gửi khách đúng 05 ngày làm việc trước mốc nộp 25/03 | Không có | Không |
+| KT-15 | Lập và nộp báo cáo tài chính năm | Nộp 25/03;<br>gửi khách xin xác nhận đúng 05 ngày làm việc trước mốc nộp | **90 ngày kể từ ngày kết thúc kỳ kế toán năm** | Không |
+| KT-16 | Quyết toán thuế TNDN năm | Nộp 25/03;<br>gửi khách xin xác nhận đúng 05 ngày làm việc trước mốc nộp | Ngày cuối cùng của tháng thứ 03 kể từ ngày kết thúc kỳ quyết toán thuế, theo Nghị định 252/2026/NĐ-CP Đ.10 k.5 đ.a | Không |
 | KT-18 | Bàn giao bộ hồ sơ báo cáo tài chính cho khách | Trong 05 ngày làm việc sau khi nộp | Không có | Không |
 | KT-19 | Xử lý sai sót và khai bổ sung | TL-KT xác định phạm vi và đề xuất phương án trong 02 ngày;<br>COO quyết có khai bổ sung hay không trong 02 ngày tiếp theo; CEO quyết khi có tiền phạt hoặc rủi ro pháp lý | Theo bản chất sai sót | Không |
 | KT-20 | Giải trình văn bản của cơ quan thuế | TL-KT đọc và kết luận yêu cầu trong 01 ngày làm việc;<br>soạn văn bản và trình ký trong 03 ngày làm việc | **Theo thời hạn ghi trên chính văn bản của cơ quan** | Không |
@@ -339,8 +339,8 @@ Mọi Job trong nhóm này đạt khoảng làm trước tối thiểu theo [[OB
 | AM-19 | Quản lý khách hàng | Kết thúc dịch vụ và bàn giao dữ liệu | Xác nhận và thông báo lộ trình trong 2 NLV;<br>bộ phận nghiệp vụ chuẩn bị bộ bàn giao trong 5 NLV;<br>gửi khách không muộn hơn ngày kết thúc hợp đồng | Ngày kết thúc hợp đồng | Nội bộ |
 | KT-07 | Kế toán | Khai thuế GTGT kỳ | Nháp tờ khai ngày 13; ký gửi ngày 19-20, sau khi KT-04 khóa sổ ngày 18 | Ngày thứ 20 của tháng tiếp theo với thuế khai theo tháng; ngày cuối cùng của tháng đầu của quý tiếp theo với thuế khai theo quý, theo Nghị định 252/2026/NĐ-CP Đ.10 k.2 và k.3 | Handbook Ch.09, Ch.13 |
 | KT-08 | Kế toán | Tạm nộp thuế TNDN quý | Nộp tiền ngày 20 của tháng đầu quý sau | Ngày cuối cùng của tháng đầu của quý tiếp theo quý phát sinh nghĩa vụ thuế, theo Nghị định 252/2026/NĐ-CP Đ.24 k.2 | Handbook Ch.10 |
-| KT-15 | Kế toán | Lập và nộp báo cáo tài chính năm | Nộp 25/03 | **90 ngày kể từ ngày kết thúc kỳ kế toán năm** | CC-KT-03;<br>Handbook Ch.07 |
-| KT-16 | Kế toán | Quyết toán thuế TNDN năm | Nộp 25/03 | Ngày cuối cùng của tháng thứ 03 kể từ ngày kết thúc kỳ quyết toán thuế, theo Nghị định 252/2026/NĐ-CP Đ.10 k.5 đ.a | Handbook Ch.14 |
+| KT-15 | Kế toán | Lập và nộp báo cáo tài chính năm | Nộp 25/03;<br>gửi khách xin xác nhận đúng 05 ngày làm việc trước mốc nộp | **90 ngày kể từ ngày kết thúc kỳ kế toán năm** | CC-KT-03;<br>Handbook Ch.07 |
+| KT-16 | Kế toán | Quyết toán thuế TNDN năm | Nộp 25/03;<br>gửi khách xin xác nhận đúng 05 ngày làm việc trước mốc nộp | Ngày cuối cùng của tháng thứ 03 kể từ ngày kết thúc kỳ quyết toán thuế, theo Nghị định 252/2026/NĐ-CP Đ.10 k.5 đ.a | Handbook Ch.14 |
 | KT-19 | Kế toán | Xử lý sai sót và khai bổ sung | TL-KT xác định phạm vi và đề xuất phương án trong 02 ngày;<br>COO quyết có khai bổ sung hay không trong 02 ngày tiếp theo; CEO quyết khi có tiền phạt hoặc rủi ro pháp lý | Theo bản chất sai sót | Handbook Ch.15;<br>[[OBK-QCTC-02_Bang_tham_quyen\|OBK-QCTC-02]] |
 | KT-20 | Kế toán | Giải trình văn bản của cơ quan thuế | TL-KT đọc và kết luận yêu cầu trong 01 ngày làm việc;<br>soạn văn bản và trình ký trong 03 ngày làm việc | **Theo thời hạn ghi trên chính văn bản của cơ quan** | Handbook Ch.16 |
 | KT-21 | Kế toán | Hỗ trợ kỳ kiểm tra hoặc thanh tra thuế | Phản hồi ngay trong ngày làm việc;<br>COO lập phương án tiếp đoàn trong 02 ngày làm việc;<br>khi đoàn yêu cầu hồ sơ tại trụ sở thì cung cấp trong 05 giờ làm việc | Theo quyết định về thời hạn kiểm tra.<br>Riêng việc cung cấp hồ sơ, tài liệu, hóa đơn, chứng từ, sổ kế toán khi đoàn yêu cầu tại trụ sở: **06 giờ làm việc** kể từ khi nhận yêu cầu, chậm hơn là hành vi bị xử phạt | CC-KT-40, CC-KT-41;<br>Handbook Ch.16 |
@@ -422,7 +422,7 @@ Tổng: 81 Job có thời hạn bên ngoài.
 
 | Ngày | Số Job | Ghi chú |
 | --- | --- | --- |
-| 08/10/2026 | 228 | Sinh tự động |
+| 09/10/2026 | 228 | Sinh tự động |
 
 ---
 
@@ -430,4 +430,4 @@ Tổng: 81 Job có thời hạn bên ngoài.
 
 | Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | V1.3.0 | Sinh lại từ bảng kiểm: cột Soát bắt buộc lấy từ bảng Job, bỏ NB-08, chuyển KT-09 thành LD-28, bỏ KT-17. |
+| 09/10/2026 | V1.4.0 | Sinh lại từ bảng kiểm: mốc gửi khách của KT-14, KT-15, KT-16 trước mốc nộp 05 ngày làm việc; ghi chính sách chuyển tiếp 35% của AM-04. |

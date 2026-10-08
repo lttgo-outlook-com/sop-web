@@ -4,8 +4,8 @@ code: "OBK-QCNS-08"
 type: "sop"
 folder: "11_NhanSu"
 level: "Cấp 2, quy trình bộ phận"
-version: "V7.0.0"
-release: "R.26.10.08.1"
+version: "V8.0.0"
+release: "R.26.10.09.1"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -28,8 +28,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-QCNS-08 |
 | Cấp tài liệu | Cấp 2 |
-| Phiên bản | V7.0.0, đang áp dụng |
-| Phát hành | R.26.10.08.1 |
+| Phiên bản | V8.0.0, đang áp dụng |
+| Phát hành | R.26.10.09.1 |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 23/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -159,9 +159,9 @@ Tổng kết năm thực hiện tại kỳ đánh giá thứ tư tính từ lầ
 
 Kết quả tổng kết năm là đầu vào của việc xét thăng cấp và điều chỉnh vai trò theo [[02_Quy_che_tien_luong_va_tien_thuong_noi_bo|OBK-QCNS-02]] mục 6.3.
 
-### 0b.3. Thử việc, tháng đầu tiên
+### 0b.3. Thời gian thử việc
 
-Tháng thử việc đầu tiên áp cùng phiếu [[NS-01_Phieu_tu_danh_gia_hieu_suat|NS-01]] như kỳ đánh giá. Điểm tổng tính theo ba nhóm tiêu chí và trọng số tại mục 3.1. Quản lý trực tiếp chấm, theo mục 6.1.
+Thời gian thử việc không phải kỳ đánh giá: không xếp nhãn xếp loại cả kỳ, không tính vào 02 kỳ đánh giá không đạt liên tiếp tại [[08_PL_D_Van_hanh_viec_cham|OBK-QCNS-08-PL-D]] mục 4.1, không dùng cho thưởng hiệu quả công việc và không dùng cho tăng lương. Kỳ đánh giá đầu tiên bắt đầu từ ngày bắt đầu hợp đồng lao động chính thức.
 
 ---
 
@@ -380,7 +380,7 @@ Cấp bậc là P1, P2, P3, P4 và M1 theo [[02_Quy_che_tien_luong_va_tien_thuon
 | Quy trình xét thăng cấp | [[02_Quy_che_tien_luong_va_tien_thuong_noi_bo\|OBK-QCNS-02]] mục 6.3 điểm 6 |
 | Khung lương và mức lương khởi điểm | [[02_Quy_che_tien_luong_va_tien_thuong_noi_bo\|OBK-QCNS-02]] mục 5 |
 
-Mức tăng lương theo nhãn xếp loại cả kỳ đặt tại [[02_Quy_che_tien_luong_va_tien_thuong_noi_bo|OBK-QCNS-02]] mục 6.1.
+Nhãn A và nhãn B có mức tăng lương theo [[02_Quy_che_tien_luong_va_tien_thuong_noi_bo|OBK-QCNS-02]] mục 6.1; nhãn C và nhãn D không tăng lương.
 
 ### 9.3. Quan hệ với bảng kỹ năng chuyên môn
 
@@ -396,7 +396,7 @@ Mức thành thạo theo [[08_PL_C_Ky_nang_chuyen_mon|OBK-QCNS-08-PL-C]] chỉ r
 | [[NS-03_Phieu_tong_hop_diem_cuoi_ky\|NS-03]] | Phiếu tổng hợp điểm cuối kỳ | `COO` với Phòng Dịch vụ, `CEO` với đơn vị ngoài Phòng Dịch vụ | Bước 5 |
 | Mục 11.8 của tài liệu này | Theo dõi giờ làm việc và năng suất | Toàn bộ nhân sự chuyên môn | Chấm hằng ngày, chốt số liệu cung cấp cho bước 1 |
 
-Các phiếu trên dùng chung cho mọi vị trí trong phạm vi tại mục 0a, gồm cả tháng thử việc đầu tiên tại mục 0b.3.
+Các phiếu trên dùng chung cho mọi vị trí trong phạm vi tại mục 0a, không gồm thời gian thử việc tại mục 0b.3.
 
 ---
 
@@ -557,4 +557,4 @@ $$\text{Tỷ lệ đúng hạn SLA (\%)} = \frac{\text{Số Job hoàn thành đ�
 
 | Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | V7.0.0 | Thêm mục 11 định nghĩa NT, CS, mức lỗi, hành vi nghiêm cấm; người chấm là quản lý trực tiếp; nhãn B phủ kín dãy OTD. |
+| 09/10/2026 | V8.0.0 | Thời gian thử việc không xếp nhãn, không tính kỳ không đạt liên tiếp, không dùng cho thưởng và tăng lương; kỳ đầu tính từ ngày bắt đầu hợp đồng chính thức; nhãn C và D không tăng lương. |

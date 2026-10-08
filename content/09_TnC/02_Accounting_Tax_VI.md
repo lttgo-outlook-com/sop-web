@@ -5,8 +5,8 @@ aliases:
   - TNC-02-VI
 type: "tnc"
 folder: "09_TnC"
-version: "V3.0.0"
-release: "R.26.10.08.1"
+version: "V3.1.0"
+release: "R.26.10.09.1"
 status: "đang áp dụng"
 author: "CEO"
 reviewer: "CEO"
@@ -23,7 +23,7 @@ tags:
 *Điều Khoản Dịch Vụ Cụ Thể, bộ phận không tách rời của Bản Điều Khoản Chung; Công ty Cổ phần oBacker*
 MST: 0402298185 · Tầng 2, 06 Trần Phú, Phường Hải Châu, Thành phố Đà Nẵng · contact@obacker.com
 
-**Phiên bản:** V3.0.0 (VI-EN) · **Phát hành:** R.26.10.08.1 · **Cập nhật:** 08/10/2026
+**Phiên bản:** V3.1.0 (VI-EN) · **Phát hành:** R.26.10.09.1 · **Cập nhật:** 08/10/2026
 
 > Tài liệu này là Điều Khoản Dịch Vụ Cụ Thể cho Dịch Vụ Kế toán & Thuế ("**Dịch Vụ**"), gồm hai hợp phần: (A) Kế toán và (B) Thuế doanh nghiệp (GTGT, TNDN, thuế nhà thầu nước ngoài (FCT), hóa đơn điện tử). Tài liệu áp dụng khi Dịch Vụ được ghi tại Đơn Đặt Hàng. **Nếu tài liệu này khác với Bản Điều Khoản Chung, tài liệu này được ưu tiên áp dụng đối với Dịch Vụ.**
 >
@@ -192,7 +192,7 @@ Mỗi Bên có thể chấm dứt Dịch Vụ bằng thông báo trước tối 
 Phí Dịch Vụ được xác định theo Đơn Đặt Hàng (theo gói đối tác hoặc theo số lượng Giao Dịch thực tế). Phí Dịch Vụ trả trước theo Điều 4 Bản Điều Khoản Chung. Khung thanh toán riêng của Dịch Vụ này gồm hai trường hợp: (a) phụ thu vượt định mức thanh toán sau theo đối soát hàng tháng (mục 10.1); (b) phí báo cáo tài chính và quyết toán năm của hợp đồng ký mới trong Quý 4, chia 02 đợt (mục 10.3). Chi tiết các cơ chế tính phí, định mức và phụ thu bao gồm:
 
 **10.1. Chính sách sử dụng hợp lý (FUP) và biểu phí vượt định mức:**
-- Hạn mức Giao Dịch: Partner Core (50 Giao Dịch/tháng; doanh nghiệp FDI là 100 Giao Dịch/tháng), Partner Growth (300 Giao Dịch/tháng), Partner Prime (1.500 Giao Dịch/tháng). Vượt 100 Giao Dịch/tháng của Partner Core - FDI áp dụng phụ thu theo khối theo cơ chế khối phụ trội bên dưới.
+- Hạn mức Giao Dịch: Partner Core (500 Giao Dịch/tháng; doanh nghiệp FDI là 100 Giao Dịch/tháng), Partner Growth (300 Giao Dịch/tháng), Partner Prime (1.500 Giao Dịch/tháng). Vượt 100 Giao Dịch/tháng của Partner Core - FDI áp dụng phụ thu theo khối theo cơ chế khối phụ trội bên dưới.
 - Cơ chế khối phụ trội: Vượt hạn mức áp dụng phụ thu theo khối: khối 500 Giao Dịch (mã `ADD-TXN-BLOCK-500-2026`, 2.500.000đ/tháng), khối 1.000 Giao Dịch (mã `ADD-TXN-BLOCK-1000-2026`, 5.000.000đ/tháng), khối 1.500 Giao Dịch (mã `ADD-TXN-BLOCK-1500-2026`, 7.500.000đ/tháng). Mức tối đa gói Growth là 1.500 Giao Dịch/tháng; vượt mức này bắt buộc chuyển đổi sang Partner Prime.
 - Gói Partner Prime: Hạn mức tiêu chuẩn 1.500 Giao Dịch/tháng; khối lượng từ trên 1.500 đến 7.000 Giao Dịch/tháng áp dụng phụ thu theo khối nêu trên; khối lượng trên 7.000 Giao Dịch/tháng áp dụng đơn giá 12.000đ/Giao Dịch (mã `ADD-TXN-PRIME-OVER`).
 - Tài khoản ngân hàng: Core (02 tài khoản), Growth (05 tài khoản). Phụ phí từ tài khoản thứ 3 (Core) hoặc thứ 6 (Growth) là 200.000đ/tài khoản/tháng (mã `ADD-BANK-ACC-2026`).
@@ -227,5 +227,5 @@ Phí Dịch Vụ được xác định theo Đơn Đặt Hàng (theo gói đối
 
 | Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | V3.0.0 | Bỏ thuế TNCN từ lương, dùng mã phụ thu mới năm 2026, token phụ, ngưỡng Prime 7.000, khung thanh toán Quý 4. |
+| 09/10/2026 | V3.1.0 | Sửa hạn mức Giao Dịch của Partner Core từ 50 lên 500 mỗi tháng cho khớp danh mục. |
 

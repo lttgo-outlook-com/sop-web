@@ -4,8 +4,8 @@ code: "OBK-DM-GOI"
 type: "danh-muc"
 folder: "10_DanhMuc"
 level: "Danh mục"
-version: "V2.0.0"
-release: "R.26.10.08.1"
+version: "V2.1.0"
+release: "R.26.10.09.1"
 status: "đang áp dụng"
 draft_date: "04/10/2026"
 author: "CEO"
@@ -31,8 +31,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-DM-GOI |
 | Cấp tài liệu | Danh mục |
-| Phiên bản | V2.0.0, đang áp dụng |
-| Phát hành | R.26.10.08.1 |
+| Phiên bản | V2.1.0, đang áp dụng |
+| Phát hành | R.26.10.09.1 |
 | Ngày biên soạn | 04/10/2026 |
 | Người biên soạn | `CEO` |
 | Người soát | CEO |
@@ -321,13 +321,13 @@ Chính sách sử dụng hợp lý áp dụng đối với mọi gói đối tá
 
 | Chỉ số vận hành | Gói Partner Core | Gói Partner Growth | Gói Partner Prime | Phụ phí vượt định mức |
 | --- | --- | --- | --- | --- |
-| Định mức chứng từ kế toán | 50 chứng từ/tháng | 300 chứng từ/tháng | 1.500 chứng từ/tháng | khối ADD-TXN-BLOCK-500-2026, ADD-TXN-BLOCK-1000-2026, ADD-TXN-BLOCK-1500-2026 |
+| Định mức chứng từ kế toán | 500 chứng từ/tháng | 300 chứng từ/tháng | 1.500 chứng từ/tháng | khối ADD-TXN-BLOCK-500-2026, ADD-TXN-BLOCK-1000-2026, ADD-TXN-BLOCK-1500-2026 |
 | Tài khoản ngân hàng đối soát | tối đa 02 tài khoản | tối đa 05 tài khoản | không giới hạn thông thường | 200.000 đồng/tài khoản/tháng từ tài khoản vượt, mã ADD-BANK-ACC-2026 |
-| Lao động tính lương và bảo hiểm | tối đa 10 lao động (doanh nghiệp FDI: 03) | tối đa 30 lao động | tối đa 50 lao động | 50.000 đồng/người/tháng vượt định mức |
-| Đợt tính lương phát sinh | 01 đợt/tháng | 01 đợt/tháng | 02 đợt/tháng | 500.000 đồng/đợt phát sinh thêm |
+| Lao động tính lương và bảo hiểm | tối đa 10 lao động (doanh nghiệp FDI: 03) | tối đa 30 lao động | tối đa 100 lao động | 100.000 đồng/người/tháng vượt định mức, mã ADD-PAYROLL-EMP |
+| Đợt tính lương phát sinh | 01 đợt/tháng | 02 đợt/tháng | 02 đợt/tháng | 500.000 đồng/đợt phát sinh thêm |
 | Hồ sơ thuế nhà thầu nước ngoài | 01 hợp đồng/tháng | 03 hợp đồng/tháng | 03 hợp đồng/tháng | 1.000.000 đồng/hồ sơ phát sinh thêm, mã ADD-FCT-RETURN-2026 |
 | Hỗ trợ thanh tra thuế tại trụ sở | không bao gồm | không bao gồm | 01 ngày/năm | 2.500.000 đồng/ngày làm việc trực tiếp, mã ADD-TAX-INSPECT-2026 |
-| Định mức Giao Dịch/tháng (đơn vị Giao Dịch theo TNC Điều 15) | 50 (doanh nghiệp FDI: 100) | 300; trần vận hành 1.500 qua block mở rộng | từ 1.500 đến trên 7.000, theo block trong Đơn Đặt Hàng | theo block khối 500/1.000/1.500 |
+| Định mức Giao Dịch/tháng (đơn vị Giao Dịch theo TNC Điều 15) | 500 (doanh nghiệp FDI: 100) | 300; trần vận hành 1.500 qua block mở rộng | từ 1.500 đến trên 7.000, theo block trong Đơn Đặt Hàng | theo block khối 500/1.000/1.500 |
 
 Quy định về khối chứng từ phụ trội và trần gói:
 
@@ -428,4 +428,4 @@ Mọi hoạt động cung cấp dịch vụ đối tác kế toán, thuế và p
 
 | Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | V2.0.0 | Mã phụ thu mới 2026, Core 01 hợp đồng mỗi tháng, trần Prime 7.000, token phụ. |
+| 09/10/2026 | V2.1.0 | Sinh lại từ nguồn danh mục: Core 500 chứng từ, Prime 100 lao động, ADD-PAYROLL-EMP 100.000 đồng, Growth 02 đợt tính lương. |
