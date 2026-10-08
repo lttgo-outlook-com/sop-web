@@ -4,7 +4,7 @@ code: "BK-01"
 type: "sop"
 folder: "03_BangKiem"
 level: "Bảng kiểm"
-version: "R.2.0.3"
+version: "R.2.1.0"
 status: "đang áp dụng"
 draft_date: "08/10/2026"
 author: "CEO"
@@ -24,7 +24,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | BK-01 |
 | Cấp tài liệu | Bảng kiểm |
-| Phiên bản | R.2.0.3, đang áp dụng |
+| Phiên bản | R.2.1.0, đang áp dụng |
 | Ngày biên soạn | 08/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -350,7 +350,7 @@ Thời hạn: theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] Điều 
 
 1. NĐN lập BM-08 Đề nghị tạm ứng tiền lương, ghi rõ thuộc trường hợp bắt buộc nào tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 26a.1 hay thuộc trường hợp theo thỏa thuận. Ghi sự kiện Tạo.
 2. KTV kiểm điều kiện của người đề nghị: đang làm việc theo hợp đồng lao động còn hiệu lực, không trong thời gian tạm hoãn thực hiện hợp đồng, không còn khoản tạm ứng tiền lương chưa trừ hết. Với trường hợp theo thỏa thuận, KTV kiểm thêm hai giới hạn: mức tối đa một lần 50% tiền lương theo hợp đồng lao động của tháng lập đề nghị (ĐM-21); số lần tối đa 02 lần một quý và 03 lần một nửa năm (ĐM-22). KTV ghi số lần đã dùng; chạm giới hạn thì từ chối và ghi rõ giới hạn đã chạm. Ghi sự kiện Soát.
-3. Duyệt theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 26a.3: TGĐ duyệt khi người đề nghị là người lao động hoặc người quản lý do TGĐ bổ nhiệm; HĐQT duyệt khi người đề nghị là TGĐ hoặc người quản lý khác do HĐQT bổ nhiệm. Ghi sự kiện Duyệt.
+3. KTT ký BM-08 trước người duyệt `[Luật Kế toán 41/VBHN-VPQH Đ.19 k.3]`. Duyệt theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 26a.3: TGĐ duyệt khi người đề nghị là người lao động hoặc người quản lý do TGĐ bổ nhiệm; HĐQT duyệt khi người đề nghị là TGĐ, Chủ tịch HĐQT hoặc người quản lý khác do HĐQT bổ nhiệm. Ghi sự kiện Duyệt.
 4. NTT tạo lệnh chuyển tiền vào tài khoản ngân hàng đứng tên chính người lao động, không chi bằng tiền mặt; TGĐ hoặc Chủ tịch HĐQT xác nhận lệnh. TGĐ là người đề nghị thì Chủ tịch HĐQT xác nhận lệnh; Chủ tịch HĐQT là người đề nghị thì TGĐ xác nhận lệnh. Ghi sự kiện Chuyển.
 5. KTV ghi số tiền đã chuyển vào trường Tạm ứng kỳ I của Bảng thanh toán tiền lương mẫu số 01-LĐTL của kỳ lương tương ứng, tách khỏi nhóm trường Các khoản phải khấu trừ vào lương. Ghi sự kiện Chuyển.
 6. KTV trừ khoản đã tạm ứng khi tính số tiền lương còn phải trả của kỳ; KTT soát. Ghi sự kiện Soát, rồi Xong.
@@ -511,4 +511,4 @@ Thời hạn: không áp.
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.2.0.3 | Bỏ số đếm Job và loại sự kiện, câu mô tả cấu trúc mục, mệnh đề lý do ở các Job mua sắm, tiền, lương và các câu lặp ý |
+| 08/10/2026 | R.2.1.0 | NB-32 bước 3: KTT ký BM-08 trước người duyệt; HĐQT duyệt khi Chủ tịch HĐQT đề nghị. |

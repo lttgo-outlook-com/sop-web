@@ -4,7 +4,7 @@ code: "OBK-QCTC-03-PL-BM"
 type: "sop"
 folder: "02_NoiBo"
 level: "Phụ lục"
-version: "R.3.0.0"
+version: "R.3.1.0"
 status: "đang áp dụng"
 draft_date: "08/10/2026"
 author: "CEO"
@@ -30,7 +30,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-QCTC-03-PL-BM |
 | Cấp tài liệu | Phụ lục của [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-QCTC-03]] |
-| Phiên bản | R.3.0.0, đang áp dụng |
+| Phiên bản | R.3.1.0, đang áp dụng |
 | Ngày biên soạn | 08/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -71,7 +71,6 @@ tags:
 | BM-08 | Đề nghị tạm ứng tiền lương | Khi người lao động đề nghị trả trước một phần tiền lương của kỳ theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 26a; không dùng BM-03 cho trường hợp này |
 | BM-09 | Bảng chấm công | Mỗi kỳ tính công, trước khi lập Bảng thanh toán tiền lương mẫu 01-LĐTL |
 | BM-K | Bảng kê chi tiền theo kỳ, theo mẫu 09-TT | Gộp nhiều khoản đã chi thành một chứng từ theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 40.2 |
-| BM-G | Phiếu chi gọn | Mẫu tham khảo theo OBK-QCTC-03 mục 6.8; không là bước bắt buộc |
 
 7. Phiếu thu (mẫu 01-TT), phiếu chi (mẫu 02-TT) và các mẫu khác của Phụ lục I Thông tư 99/2025/TT-BTC áp dụng nguyên bản theo OBK-QCTC-03 Điều 4; phụ lục này không chép lại các mẫu đó.
 
@@ -651,7 +650,8 @@ Câu 4 và câu 5 cùng cho kết quả cho phép thì đề nghị đi tiếp, 
 | --- | --- | --- | --- | --- |
 | Người đề nghị | | Lập đề nghị; cam kết hai nội dung tại phần cam kết dưới bảng | | |
 | KTV | | Đã kiểm 07 câu hỏi tại phần C | | |
-| Người duyệt theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 26a.3: TGĐ, hoặc HĐQT khi người đề nghị là TGĐ hoặc người quản lý khác do HĐQT bổ nhiệm | | Duyệt tạm ứng tiền lương | | |
+| KTT | | Ký chứng từ chi tiền trước người duyệt `[Luật Kế toán 41/VBHN-VPQH Đ.19 k.3]` | | |
+| Người duyệt theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 26a.3: TGĐ, hoặc HĐQT khi người đề nghị là TGĐ, Chủ tịch HĐQT hoặc người quản lý khác do HĐQT bổ nhiệm | | Duyệt tạm ứng tiền lương | | |
 | NTT | | Đã tạo lệnh chuyển tiền | | |
 | Người xác nhận lệnh: TGĐ hoặc Chủ tịch HĐQT | | Đã xác nhận lệnh. Số tham chiếu giao dịch: ______________ | | |
 
@@ -666,7 +666,7 @@ Câu 4 và câu 5 cùng cho kết quả cho phép thì đề nghị đi tiếp, 
 > BM-08 không chứa điều khoản đồng ý khấu trừ tiền lương. Bộ luật Lao động 18/VBHN-VPQH Đ.102 k.1 chỉ cho khấu trừ tiền lương để bồi thường thiệt hại theo Điều 129; oBacker không khấu trừ tiền lương để thu hồi tạm ứng, với mọi số tiền, theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 38.2a.
 
 > [!note] TÁCH QUYỀN
-> Người đề nghị không tự duyệt và không tự xác nhận lệnh cho khoản tạm ứng của mình. TGĐ là người đề nghị thì HĐQT duyệt và Chủ tịch HĐQT xác nhận lệnh. Chủ tịch HĐQT là người đề nghị thì TGĐ xác nhận lệnh. Theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] Điều 47 và [[BK-01_Bang_kiem_noi_bo|BK-01]] Job NB-32.
+> Người đề nghị không tự duyệt và không tự xác nhận lệnh cho khoản tạm ứng của mình. TGĐ là người đề nghị thì HĐQT duyệt và Chủ tịch HĐQT xác nhận lệnh. Chủ tịch HĐQT là người đề nghị thì HĐQT duyệt và TGĐ xác nhận lệnh. Theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] Điều 47 và [[BK-01_Bang_kiem_noi_bo|BK-01]] Job NB-32.
 
 ---
 
@@ -749,73 +749,7 @@ Chữ ký theo chức danh của mẫu 09-TT. Ký trong 05 ngày làm việc đ�
 
 ---
 
-## BM-G. PHIẾU CHI GỌN
-
-BM-G là mẫu tham khảo của oBacker theo [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]] Điều 5 và mục 6.8, không là bước bắt buộc. BM-G gộp BM-01, BM-02, BM-06 và BM-07.
-
-### Phần đầu. Thông tin định danh
-
-| Trường | Nội dung |
-| --- | --- |
-| Tên đơn vị | Công ty cổ phần oBacker |
-| Địa chỉ | Tầng 2, 06 Trần Phú, Phường Hải Châu, Thành phố Đà Nẵng |
-| Mã phiếu | `G-______-______` |
-| Ngày lập | ___/___/______ |
-| Người đề nghị | |
-| Bộ phận và văn phòng | |
-| Dòng ngân sách | |
-| Khoản chi nằm trong ngân sách đã duyệt | Có / Không |
-
-### Phần thân. Nội dung và số tiền
-
-| Trường | Nội dung |
-| --- | --- |
-| Nội dung chi, mô tả hàng hóa hoặc dịch vụ | |
-| Lý do phát sinh | |
-| Nhà cung cấp và mã số thuế | |
-| Số tiền đã gồm thuế giá trị gia tăng | ______________ đồng |
-| Số tiền bằng chữ | |
-| Bậc duyệt chi theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 12.3 | B1 / B3 / HĐQT |
-| Hình thức thanh toán | Chuyển khoản / Tiền mặt trong mức tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 32.2 |
-| Số tài khoản người nhận, và số BM-05 đã xác minh | |
-
-### Kiểm thay BM-07
-
-| # | Nội dung kiểm | Trả lời |
-| --- | --- | --- |
-| 1 | Đối tác có phải người có liên quan theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 12a không | Có / Không |
-| 2 | Giá trị khoản chi, hoặc tổng nhiều lần mua của cùng một người bán trong cùng một ngày, từ 05 triệu đồng trở lên mà trả bằng tiền mặt không, theo mục 32.3 | Có / Không |
-| 3 | Nhà cung cấp có nằm trong Danh mục nhà cung cấp theo mục 35.3 không | Có / Không |
-
-### Nghiệm thu, thay cho BM-06
-
-| Trường | Nội dung |
-| --- | --- |
-| Hàng hóa hoặc dịch vụ đã nhận đủ và đúng nội dung đặt chưa | Đã nhận đủ và đúng / Chưa nhận / Nhận thiếu, nêu rõ |
-| Ngày nhận | ___/___/______ |
-| Cách xử lý khi nhận thiếu hoặc không đúng | |
-
-### Chứng từ đính kèm
-
-| # | Loại chứng từ | Có / Không có | Ghi chú |
-| --- | --- | --- | --- |
-| 1 | Hóa đơn hợp pháp ghi đúng tên, địa chỉ và mã số thuế oBacker | | |
-| 2 | Hợp đồng hoặc đơn đặt hàng, hoặc điều khoản dịch vụ | | |
-| 3 | Bằng chứng nhận hàng hoặc hoàn thành dịch vụ | | |
-| 4 | Khác | | |
-
-### Phần ký xác nhận
-
-Chữ ký theo chức danh của mẫu 05-TT, thực hiện bằng hình thức xác nhận điện tử theo `[Luật Kế toán 41/VBHN-VPQH Đ.19 k.4]`. KTT ký trước người duyệt chi.
-
-| Thứ tự | Vai trò | Nội dung xác nhận | Ngày |
-| --- | --- | --- | --- |
-| 1 | Người đề nghị | Nhu cầu và nghiệp vụ có thật, chứng từ đính kèm là bản đúng | |
-| 2 | TL | Nhu cầu cần thiết và thuộc ngân sách đã duyệt | |
-| 3 | KTT | Đã kiểm chứng từ, điều kiện thuế và kiểm khoản trùng;<br>ký chứng từ chi tiền theo Luật Kế toán Đ.19 k.3 | |
-| 4 | Người duyệt chi theo bậc | Duyệt chi | |
-
-Lệnh chi thực hiện theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 35.1.
+h chi thực hiện theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 35.1.
 
 ---
 
@@ -823,4 +757,4 @@ Lệnh chi thực hiện theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.3.0.0 | Khôi phục phụ lục biểu mẫu thành phụ lục của OBK-QCTC-03; chữ ký theo chức danh và dẫn chiếu khớp OBK-QCTC-03 Điều 5, OBK-QCTC-01 và BK-01 hiện hành |
+| 08/10/2026 | R.3.1.0 | BM-08 thêm chữ ký KTT trước người duyệt; HĐQT duyệt khi Chủ tịch HĐQT đề nghị; bỏ BM-G. |

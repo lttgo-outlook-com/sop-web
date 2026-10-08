@@ -36,15 +36,15 @@ tags:
 
 ## 1. Danh mục tài liệu
 
-Trang này ghi 752 lượt sửa thuộc các bản cũ của 186 tài liệu, tính tới 08/10/2026. Lượt sửa của bản hiện hành ghi tại mục NHẬT KÝ SỬA trong chính tài liệu đó.
+Trang này ghi 756 lượt sửa thuộc các bản cũ của 187 tài liệu, tính tới 08/10/2026. Lượt sửa của bản hiện hành ghi tại mục NHẬT KÝ SỬA trong chính tài liệu đó.
 
 | Tài liệu | Số lượt sửa | Ngày sửa gần nhất |
 | --- | --- | --- |
-| [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] | 16 | 08/10/2026 |
+| [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] | 17 | 08/10/2026 |
 | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] | 15 | 08/10/2026 |
 | [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] | 14 | 08/10/2026 |
+| [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-QCTC-03]] | 12 | 08/10/2026 |
 | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] | 11 | 08/10/2026 |
-| [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-QCTC-03]] | 11 | 08/10/2026 |
 | [[04_OBK-SOP-LIC_Giay_phep\|OBK-SOP-LIC]] | 10 | 08/10/2026 |
 | [[05_OBK-SOP-LD_Lao_dong_va_tien_luong\|OBK-SOP-LD]] | 10 | 08/10/2026 |
 | [[OBK-SOP-NB-06_Nghi_viec_va_offboarding_noi_bo\|OBK-SOP-NB-06]] | 10 | 08/10/2026 |
@@ -72,6 +72,7 @@ Trang này ghi 752 lượt sửa thuộc các bản cũ của 186 tài liệu, t
 | [[11_Thue_TNCN\|OBK-HB-11]] | 6 | 08/10/2026 |
 | [[12_Hoa_don_dien_tu\|OBK-HB-12]] | 6 | 08/10/2026 |
 | [[Quy_che_bao_ve_du_lieu_ca_nhan\|OBK-SOP-NB-09]] | 6 | 08/10/2026 |
+| [[BK-01_Bang_kiem_noi_bo\|BK-01]] | 6 | 08/10/2026 |
 | [[00_INDEX\|OBK-INDEX]] | 5 | 08/10/2026 |
 | [[09_HD_Nghiep_vu_giay_phep_va_thu_tuc_doanh_nghiep\|OBK-HB-41]] | 5 | 08/10/2026 |
 | [[12_HD_Phuong_phap_tra_cuu_va_cap_nhat_phap_luat\|OBK-HB-71]] | 5 | 08/10/2026 |
@@ -83,7 +84,6 @@ Trang này ghi 752 lượt sửa thuộc các bản cũ của 186 tài liệu, t
 | [[08_PL_B_Tieu_chi_cong_viec_dang_ho_so\|OBK-QCNS-08-PL-B]] | 5 | 08/10/2026 |
 | [[10_Thue_TNDN\|OBK-HB-10]] | 5 | 08/10/2026 |
 | [[08_PL_D_Van_hanh_viec_cham\|OBK-QCNS-08-PL-D]] | 5 | 08/10/2026 |
-| [[BK-01_Bang_kiem_noi_bo\|BK-01]] | 5 | 08/10/2026 |
 | [[PL_C_Lich_tuan_thu_nam\|OBK-SOP-PL-C]] | 4 | 08/10/2026 |
 | [[02_Huong_dan_AM_Van_hanh\|OBK-HB-35]] | 4 | 08/10/2026 |
 | [[01_Nguyen_tac_hanh_nghe\|OBK-SOP-01]] | 4 | 08/10/2026 |
@@ -123,6 +123,7 @@ Trang này ghi 752 lượt sửa thuộc các bản cũ của 186 tài liệu, t
 | [[PL_A_Cau_chu_mau\|OBK-HB-31-PL-A]] | 2 | 08/10/2026 |
 | [[PL_PM_Dieu_kien_thuong_mai_chuan\|OBK-SOP-PM-PL1]] | 2 | 08/10/2026 |
 | [[Quy_che_dan_chu_o_co_so_tai_noi_lam_viec\|OBK-QCNS-09]] | 2 | 08/10/2026 |
+| [[PL_BM_Bieu_mau_chung_tu_noi_bo\|OBK-QCTC-03-PL-BM]] | 1 | 08/10/2026 |
 | [[OBK-MSR_Quy_tac_so_cai\|OBK-SOP-00]] | 9 | 07/10/2026 |
 | [[OBK-MSR_Quy_tac_so_cai\|OBK-SOP-NB-00]] | 9 | 07/10/2026 |
 | [[02_Accounting_Tax_VI\|TNC-02-VI]] | 8 | 07/10/2026 |
@@ -233,6 +234,7 @@ Trang này ghi 752 lượt sửa thuộc các bản cũ của 186 tài liệu, t
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 08/10/2026 | R.8.1.3 | Vai trò TQ dẫn về danh sách người giữ tại OBK-QCTC-02 mục 3; bỏ câu ghi vai trò chưa gán người. |
 | 08/10/2026 | R.8.1.2 | Bỏ cụm nhấn mạnh không có ngoại lệ ở mục 5.1a và các số đếm điều kiện, chế tài, nghĩa vụ; hai chỗ duy nhất viết thành chỉ |
 | 08/10/2026 | R.8.1.1 | Rà chính tả; bỏ đoạn lặp ở mục 5.1b; đổi dẫn chiếu phiếu công tác sang quy chế hạch toán kế toán |
 | 08/10/2026 | R.8.1.0 | Thêm mục 47.3a: kế toán trưởng được kiêm Team Lead bộ phận Kế toán vì Team Lead không phải người quản lý, điều hành |
@@ -1385,6 +1387,7 @@ Trang này ghi 752 lượt sửa thuộc các bản cũ của 186 tài liệu, t
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 08/10/2026 | R.6.0.2 | Mục 5.1 dẫn tới Phụ lục BM chứa bản mẫu để lập chứng từ. |
 | 08/10/2026 | R.6.0.1 | Bỏ câu quy chế đáp ứng cả bốn điều ở mục 1.2 và các số đếm nhóm trường, bước, điều kiện |
 | 08/10/2026 | R.6.0.0 | Khi chưa gán thủ quỹ chỉ dừng nhập quỹ và xuất quỹ tiền mặt, khớp quy chế tài chính nội bộ Điều 4.1; đổi dẫn chiếu sang Bảng kiểm nội bộ và Quy tắc sổ cái; bỏ số đếm và sửa ngữ pháp |
 | 08/10/2026 | R.5.0.0 | Thêm chữ ký kế toán trưởng trên đề nghị tạm ứng kiêm văn bản cử đi công tác, theo Luật Kế toán Điều 19 khoản 3 |
@@ -1846,6 +1849,7 @@ Trang này ghi 752 lượt sửa thuộc các bản cũ của 186 tài liệu, t
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 08/10/2026 | R.2.0.3 | Bỏ số đếm Job và loại sự kiện, câu mô tả cấu trúc mục, mệnh đề lý do ở các Job mua sắm, tiền, lương và các câu lặp ý |
 | 08/10/2026 | R.2.0.2 | Đổi dẫn chiếu quy chế tài chính nội bộ sang số khoản hiện hành |
 | 08/10/2026 | R.2.0.1 | Bỏ số đếm ở tên Job điểm kiểm soát định kỳ; bỏ ngôi thứ nhất; sửa dẫn chiếu lịch khóa sổ sang quy chế tài chính nội bộ |
 | 08/10/2026 | R.2.0.0 | Giao người làm sáu việc nội bộ: kê khai thuế và báo cáo tài chính của oBacker do kế toán viên lập; rà soát giao dịch với người có liên quan do kế toán trưởng lập, HĐQT thông qua; hoa hồng do kế toán viên; hoàn tiền cho khách do AM nhận, kế toán viên chi |
@@ -1910,3 +1914,9 @@ Trang này ghi 752 lượt sửa thuộc các bản cũ của 186 tài liệu, t
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
 | 02/10/2026 | R.1.0.1 | Thêm bí danh 'Điều Khoản Nạp Ví' vào frontmatter để trỏ được từ Bản Điều Khoản Chung |
+
+### `OBK-QCTC-03-PL-BM`
+
+| Ngày | Bản | Nội dung |
+| --- | --- | --- |
+| 08/10/2026 | R.3.0.0 | Khôi phục phụ lục biểu mẫu thành phụ lục của OBK-QCTC-03; chữ ký theo chức danh và dẫn chiếu khớp OBK-QCTC-03 Điều 5, OBK-QCTC-01 và BK-01 hiện hành |
