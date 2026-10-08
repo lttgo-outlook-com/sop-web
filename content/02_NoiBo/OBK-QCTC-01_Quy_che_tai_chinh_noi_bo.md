@@ -4,7 +4,7 @@ code: "OBK-QCTC-01"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 1, quy chế"
-version: "R.8.2.0"
+version: "R.9.0.0"
 status: "đang áp dụng"
 draft_date: "08/10/2026"
 author: "CEO"
@@ -28,7 +28,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-QCTC-01 |
 | Cấp tài liệu | Cấp 1, quy chế |
-| Phiên bản | R.8.2.0, đang áp dụng |
+| Phiên bản | R.9.0.0, đang áp dụng |
 | Ngày biên soạn | 08/10/2026 |
 | Người biên soạn | CEO |
 | Người soát | CEO |
@@ -295,7 +295,7 @@ Chương 5 quy định điều kiện thuế của khoản chi cho người lao 
 
 26a.2. Ngoài ba trường hợp trên, oBacker tạm ứng theo thỏa thuận, không tính lãi `[Đ.101 k.1]`, trong hai giới hạn ĐM-21 và ĐM-22. Quý và nửa năm tính theo năm dương lịch; lần tạm ứng tính vào kỳ chứa ngày chuyển tiền.
 
-26a.3. Người đề nghị có hợp đồng lao động còn hiệu lực, không trong thời gian tạm hoãn và không còn khoản tạm ứng tiền lương chưa trừ hết. oBacker chuyển tiền vào tài khoản đứng tên người lao động. Người duyệt theo mục 25.2; Chủ tịch HĐQT là người đề nghị thì HĐQT duyệt; ma trận mục 12.3 không áp dụng. Đề nghị lập theo BM-08; KTT ký BM-08 trước người duyệt `[Luật Kế toán 41/VBHN-VPQH Đ.19 k.3]`. KTV theo dõi số lần và số tiền theo quý và nửa năm, gửi người duyệt trước mỗi lần duyệt.
+26a.3. Người đề nghị có hợp đồng lao động còn hiệu lực, không trong thời gian tạm hoãn và không còn khoản tạm ứng tiền lương chưa trừ hết. oBacker chuyển tiền vào tài khoản đứng tên người lao động. Người duyệt theo mục 25.2; ma trận mục 12.3 không áp dụng. Đề nghị lập theo BM-08; KTT, hoặc người được KTT ủy quyền, và người duyệt ký BM-08 trước khi chi `[Luật Kế toán 41/VBHN-VPQH Đ.19 k.3]`. KTV theo dõi số lần và số tiền theo quý và nửa năm, gửi người duyệt trước mỗi lần duyệt.
 
 26a.4. oBacker ghi số đã ứng vào Bảng thanh toán tiền lương mẫu 01-LĐTL và trừ đúng một lần khi tính lương của kỳ đó. Phần ứng vượt lương thực tế thu hồi theo mục 38.2a, không trừ vào lương kỳ sau.
 
@@ -485,4 +485,4 @@ Chương 5 quy định điều kiện thuế của khoản chi cho người lao 
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.8.2.0 | Mục 26a.3: KTT ký BM-08 trước người duyệt; HĐQT duyệt khi Chủ tịch HĐQT là người đề nghị. |
+| 08/10/2026 | R.9.0.0 | Mục 26a.3: KTT hoặc người được ủy quyền và người duyệt ký BM-08 trước khi chi; bỏ quy tắc HĐQT duyệt khi Chủ tịch HĐQT đề nghị. |

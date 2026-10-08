@@ -29,9 +29,9 @@ Thư mục `02_NoiBo`, 4 tài liệu.
 
 | Mã | Tài liệu | Cấp | Bản | Trạng thái | Người soát | Người phê duyệt | Ngày biên soạn | Rà soát tiếp theo |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo]] | Cấp 1, quy chế | R.8.2.0 | đang áp dụng | CEO | CEO | 08/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
-| [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-QCTC-03]] | [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan]] | Cấp 1, quy chế | R.6.1.0 | đang áp dụng | CEO | CEO | 08/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
-| [[PL_BM_Bieu_mau_chung_tu_noi_bo\|OBK-QCTC-03-PL-BM]] | [[PL_BM_Bieu_mau_chung_tu_noi_bo]] | Phụ lục | R.3.1.0 | đang áp dụng | CEO | CEO | 08/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
+| [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo]] | Cấp 1, quy chế | R.9.0.0 | đang áp dụng | CEO | CEO | 08/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
+| [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-QCTC-03]] | [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan]] | Cấp 1, quy chế | R.7.0.0 | đang áp dụng | CEO | CEO | 08/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
+| [[PL_BM_Bieu_mau_chung_tu_noi_bo\|OBK-QCTC-03-PL-BM]] | [[PL_BM_Bieu_mau_chung_tu_noi_bo]] | Phụ lục | R.4.0.0 | đang áp dụng | CEO | CEO | 08/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[Quy_che_bao_ve_du_lieu_ca_nhan\|OBK-SOP-NB-09]] | [[Quy_che_bao_ve_du_lieu_ca_nhan]] | Cấp 1, văn bản khung toàn công ty | R.3.0.3 | đang áp dụng | CEO | CEO | 08/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 
 ## Bảng kiểm
@@ -40,7 +40,7 @@ Thư mục `03_BangKiem`, 8 tài liệu.
 
 | Mã | Tài liệu | Cấp | Bản | Trạng thái | Người soát | Người phê duyệt | Ngày biên soạn | Rà soát tiếp theo |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[BK-01_Bang_kiem_noi_bo\|BK-01]] | [[BK-01_Bang_kiem_noi_bo]] | Bảng kiểm | R.2.1.0 | đang áp dụng | CEO | CEO | 08/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
+| [[BK-01_Bang_kiem_noi_bo\|BK-01]] | [[BK-01_Bang_kiem_noi_bo]] | Bảng kiểm | R.3.0.0 | đang áp dụng | CEO | CEO | 08/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[BK-02_Bang_kiem_AM\|BK-02]] | [[BK-02_Bang_kiem_AM]] | Bảng kiểm | R.3.0.1 | đang áp dụng | CEO | CEO | 08/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[BK-03_Bang_kiem_Ke_toan_va_thue\|BK-03]] | [[BK-03_Bang_kiem_Ke_toan_va_thue]] | Bảng kiểm | R.2.0.3 | đang áp dụng | CEO | CEO | 08/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[BK-04_Bang_kiem_Giay_phep\|BK-04]] | [[BK-04_Bang_kiem_Giay_phep]] | Bảng kiểm | R.1.0.3 | đang áp dụng | CEO | CEO | 08/10/2026 | Không quá 12 tháng kể từ ngày ban hành |

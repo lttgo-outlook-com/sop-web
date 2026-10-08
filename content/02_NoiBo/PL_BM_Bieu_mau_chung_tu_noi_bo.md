@@ -4,7 +4,7 @@ code: "OBK-QCTC-03-PL-BM"
 type: "sop"
 folder: "02_NoiBo"
 level: "Phụ lục"
-version: "R.3.1.0"
+version: "R.4.0.0"
 status: "đang áp dụng"
 draft_date: "08/10/2026"
 author: "CEO"
@@ -30,7 +30,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-QCTC-03-PL-BM |
 | Cấp tài liệu | Phụ lục của [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-QCTC-03]] |
-| Phiên bản | R.3.1.0, đang áp dụng |
+| Phiên bản | R.4.0.0, đang áp dụng |
 | Ngày biên soạn | 08/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -187,7 +187,7 @@ Số báo giá tối thiểu theo bậc: bậc B1 không yêu cầu; bậc B3 t�
 | Người đề nghị | | Nghiệp vụ có thật, chứng từ đính kèm là bản đúng | | |
 | TL | | Xác nhận nghiệp vụ và ngân sách | | |
 | KTV | | Đã lập BM-07, hồ sơ đủ điều kiện chi | | |
-| KTT | | Chốt kỹ thuật kế toán và thuế; ký chứng từ chi tiền trước người duyệt chi `[Luật Kế toán 41/VBHN-VPQH Đ.19 k.3]` | | |
+| KTT | | Chốt kỹ thuật kế toán và thuế; ký trước người duyệt chi theo quy tắc nội bộ. Luật đòi KTT và người duyệt chi cùng ký trước khi chi `[Luật Kế toán 41/VBHN-VPQH Đ.19 k.3]` | | |
 | Người duyệt chi theo hạn mức | | Duyệt chi. Ghi rõ bậc: B1 / B3 / từ mức tối đa của bậc B3 trở lên | | |
 | NTT | | Đã tạo lệnh trên hệ thống ngân hàng. Số tham chiếu lệnh: ______________ | | |
 | Người xác nhận lệnh (TGĐ hoặc Chủ tịch HĐQT) | | Đã kiểm chữ ký của TL, KTV, KTT và người duyệt chi rồi xác nhận lệnh. Số tham chiếu giao dịch: ______________ | | |
@@ -254,7 +254,7 @@ Dự toán chi tiết:
 | Người đề nghị | | Cam kết hoàn ứng theo bảng cam kết dưới đây | | |
 | TL | | Xác nhận nhu cầu và cử đi công tác | | |
 | KTV | | Kiểm số khoản tạm ứng chưa tất toán, kiểm hình thức thanh toán dự kiến | | |
-| KTT | | Ký chứng từ chi tiền trước người duyệt chi | | |
+| KTT | | Ký trước người duyệt chi theo quy tắc nội bộ. Luật đòi KTT và người duyệt chi cùng ký trước khi chi `[Luật Kế toán 41/VBHN-VPQH Đ.19 k.3]` | | |
 | Người duyệt chi theo hạn mức | | Duyệt tạm ứng. Ghi rõ bậc theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 12.3 | | |
 | NTT | | Đã tạo lệnh chuyển tạm ứng | | |
 | Người xác nhận lệnh: TGĐ hoặc Chủ tịch HĐQT | | Đã xác nhận lệnh. Số tham chiếu giao dịch: ______________ | | |
@@ -650,8 +650,8 @@ Câu 4 và câu 5 cùng cho kết quả cho phép thì đề nghị đi tiếp, 
 | --- | --- | --- | --- | --- |
 | Người đề nghị | | Lập đề nghị; cam kết hai nội dung tại phần cam kết dưới bảng | | |
 | KTV | | Đã kiểm 07 câu hỏi tại phần C | | |
-| KTT | | Ký chứng từ chi tiền trước người duyệt `[Luật Kế toán 41/VBHN-VPQH Đ.19 k.3]` | | |
-| Người duyệt theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 26a.3: TGĐ, hoặc HĐQT khi người đề nghị là TGĐ, Chủ tịch HĐQT hoặc người quản lý khác do HĐQT bổ nhiệm | | Duyệt tạm ứng tiền lương | | |
+| KTT hoặc người được KTT ủy quyền | | Ký chứng từ chi tiền trước khi chi `[Luật Kế toán 41/VBHN-VPQH Đ.19 k.3]` | | |
+| Người duyệt theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 26a.3: TGĐ, hoặc HĐQT khi người đề nghị là TGĐ hoặc người quản lý khác do HĐQT bổ nhiệm | | Duyệt tạm ứng tiền lương | | |
 | NTT | | Đã tạo lệnh chuyển tiền | | |
 | Người xác nhận lệnh: TGĐ hoặc Chủ tịch HĐQT | | Đã xác nhận lệnh. Số tham chiếu giao dịch: ______________ | | |
 
@@ -666,7 +666,7 @@ Câu 4 và câu 5 cùng cho kết quả cho phép thì đề nghị đi tiếp, 
 > BM-08 không chứa điều khoản đồng ý khấu trừ tiền lương. Bộ luật Lao động 18/VBHN-VPQH Đ.102 k.1 chỉ cho khấu trừ tiền lương để bồi thường thiệt hại theo Điều 129; oBacker không khấu trừ tiền lương để thu hồi tạm ứng, với mọi số tiền, theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 38.2a.
 
 > [!note] TÁCH QUYỀN
-> Người đề nghị không tự duyệt và không tự xác nhận lệnh cho khoản tạm ứng của mình. TGĐ là người đề nghị thì HĐQT duyệt và Chủ tịch HĐQT xác nhận lệnh. Chủ tịch HĐQT là người đề nghị thì HĐQT duyệt và TGĐ xác nhận lệnh. Theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] Điều 47 và [[BK-01_Bang_kiem_noi_bo|BK-01]] Job NB-32.
+> Người đề nghị không tự duyệt và không tự xác nhận lệnh cho khoản tạm ứng của mình. TGĐ là người đề nghị thì HĐQT duyệt và Chủ tịch HĐQT xác nhận lệnh. Chủ tịch HĐQT là người đề nghị thì TGĐ xác nhận lệnh. Theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] Điều 47 và [[BK-01_Bang_kiem_noi_bo|BK-01]] Job NB-32.
 
 ---
 
@@ -757,4 +757,4 @@ h chi thực hiện theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] m�
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.3.1.0 | BM-08 thêm chữ ký KTT trước người duyệt; HĐQT duyệt khi Chủ tịch HĐQT đề nghị; bỏ BM-G. |
+| 08/10/2026 | R.4.0.0 | BM-08: KTT hoặc người được ủy quyền và người duyệt ký trước khi chi; Chủ tịch HĐQT là người lao động thì duyệt như người lao động; BM-02, BM-03 ghi thứ tự ký là quy tắc nội bộ. |

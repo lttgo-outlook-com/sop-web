@@ -4,7 +4,7 @@ code: "OBK-QCTC-03"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 1, quy chế"
-version: "R.6.1.0"
+version: "R.7.0.0"
 status: "đang áp dụng"
 draft_date: "08/10/2026"
 author: "CEO"
@@ -28,7 +28,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-QCTC-03 |
 | Cấp tài liệu | Cấp 1, quy chế |
-| Phiên bản | R.6.1.0, đang áp dụng |
+| Phiên bản | R.7.0.0, đang áp dụng |
 | Ngày biên soạn | 08/10/2026 |
 | Người biên soạn | CEO |
 | Người soát | CEO |
@@ -152,7 +152,7 @@ tags:
 
 6.5. BM-06: Phụ lục I không có mẫu tương ứng. oBacker mua nhiều dịch vụ không có vật thể để nhận, nên cần xác nhận bằng văn bản về việc dịch vụ hoàn thành để chứng minh khoản chi thực tế phát sinh.
 
-6.6. BM-08: tạm ứng tiền lương hạch toán bên Nợ Tài khoản 334 và thu hồi bằng việc trừ khi tính lương của kỳ, khác tạm ứng theo mẫu 03-TT hạch toán Tài khoản 141. BM-08 có các nhóm trường mà mẫu 03-TT không có: loại đề nghị (ba trường hợp bắt buộc hoặc theo thỏa thuận); số lần đã tạm ứng trong quý và nửa năm, để kiểm ĐM-22; kỳ lương sẽ trừ. Chữ ký theo chức danh của BM-08: người đề nghị, KTV, KTT, người duyệt theo OBK-QCTC-01 mục 26a.3, NTT, người xác nhận lệnh; KTT ký vì BM-08 là chứng từ chi tiền `[Luật Kế toán 41/VBHN-VPQH Đ.19 k.3]`.
+6.6. BM-08: tạm ứng tiền lương hạch toán bên Nợ Tài khoản 334 và thu hồi bằng việc trừ khi tính lương của kỳ, khác tạm ứng theo mẫu 03-TT hạch toán Tài khoản 141. BM-08 có các nhóm trường mà mẫu 03-TT không có: loại đề nghị (ba trường hợp bắt buộc hoặc theo thỏa thuận); số lần đã tạm ứng trong quý và nửa năm, để kiểm ĐM-22; kỳ lương sẽ trừ. Chữ ký theo chức danh của BM-08: người đề nghị, KTV, KTT hoặc người được KTT ủy quyền, người duyệt theo OBK-QCTC-01 mục 26a.3, NTT, người xác nhận lệnh; KTT ký vì BM-08 là chứng từ chi tiền `[Luật Kế toán 41/VBHN-VPQH Đ.19 k.3]`.
 
 6.7. BM-09: Phụ lục I không có mẫu Bảng chấm công; Thông tư chỉ nhắc Bảng chấm công là tài liệu làm cơ sở lập mẫu 01-LĐTL `[Thông tư 99/2025/TT-BTC, Phụ lục I, mẫu 01-LĐTL]`. Chữ ký theo `[Luật Kế toán Đ.16 k.1 đ.g]`: người lập và người duyệt; người lao động xác nhận làm bằng chứng khi có khiếu nại, không là chữ ký tạo hiệu lực. Kỳ tính công và quy tắc công theo OBK-QCNS-07.
 
@@ -255,4 +255,4 @@ Chứng từ thiếu nội dung bắt buộc không đủ điều kiện theo `[
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.6.1.0 | Bỏ BM-G khỏi mục 5.1 và Điều 6; mục 6.6 ghi chữ ký theo chức danh của BM-08 có KTT. |
+| 08/10/2026 | R.7.0.0 | Mục 6.6: chữ ký BM-08 ghi KTT hoặc người được KTT ủy quyền. |
