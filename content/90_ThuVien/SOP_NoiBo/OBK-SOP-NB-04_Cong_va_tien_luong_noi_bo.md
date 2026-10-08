@@ -4,8 +4,9 @@ code: "OBK-SOP-NB-04"
 type: "sop"
 folder: "90_ThuVien"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.3.0.1"
-status: "đang áp dụng"
+version: "V3.0.2"
+release: "R.26.10.08.1"
+status: "thư viện tham khảo"
 draft_date: "30/09/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -28,7 +29,8 @@ tags:
 | Mã tài liệu | OBK-SOP-NB-04 |
 | Tên tài liệu | Quy trình công và tiền lương nội bộ |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ. Thi hành Chương 5 của [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Quy chế tài chính nội bộ và [[02_Quy_che_tien_luong_va_tien_thuong_noi_bo\|OBK-QCNS-02]] Chính sách công chuẩn và chấm công |
-| Phiên bản | R.3.0.1, đang áp dụng |
+| Phiên bản | V3.0.2, thư viện tham khảo |
+| Phát hành | R.26.10.08.1 |
 | Ngày biên soạn | 30/09/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 23/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -88,19 +90,19 @@ Quy định trình tự tổng hợp, xác nhận, chốt và duyệt bảng cô
 
 ### 3.1. Vai trò
 
-Ký hiệu vai trò của mảng nội bộ lấy từ [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 3.1. Ký hiệu `CEO` và `BOM` thuộc miền điều hành, lấy từ [[OBK-QCTC-02_Bang_tham_quyen|OBK-QCTC-02]] mục 3.
+Ký hiệu vai trò của mảng nội bộ lấy từ [[OBK-QCTC-02_Bang_tham_quyen|OBK-QCTC-02]] mục 2. Ký hiệu `CEO` và `BOM` thuộc miền điều hành, lấy từ [[OBK-QCTC-02_Bang_tham_quyen|OBK-QCTC-02]] mục 3.
 
 | Ký hiệu | Vai trò | Nguồn ký hiệu | Việc trong chu trình này |
 | --- | --- | --- | --- |
-| `HR` | Nhân sự nội bộ | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 3.1 | Tổng hợp và gửi bảng công tạm;<br>cộng công từ ngày 16 đến ngày 20 và chốt bảng công;<br>lập bảng chấm công `BM-09`;<br>lập và nộp hồ sơ bảo hiểm xã hội của chính oBacker;<br>lập và cập nhật sổ quản lý lao động;<br>lập báo cáo tình hình sử dụng lao động;<br>rà soát giờ làm thêm và mức lương tối thiểu vùng |
-| `TL` | Team Lead, chủ dòng ngân sách | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 3.1 | Chốt phần bảng công của nhân viên bộ phận mình |
+| `HR` | Nhân sự nội bộ | [[OBK-QCTC-02_Bang_tham_quyen\|OBK-QCTC-02]] mục 2 | Tổng hợp và gửi bảng công tạm;<br>cộng công từ ngày 16 đến ngày 20 và chốt bảng công;<br>lập bảng chấm công `BM-09`;<br>lập và nộp hồ sơ bảo hiểm xã hội của chính oBacker;<br>lập và cập nhật sổ quản lý lao động;<br>lập báo cáo tình hình sử dụng lao động;<br>rà soát giờ làm thêm và mức lương tối thiểu vùng |
+| `TL` | Team Lead, chủ dòng ngân sách | [[OBK-QCTC-02_Bang_tham_quyen\|OBK-QCTC-02]] mục 2 | Chốt phần bảng công của nhân viên bộ phận mình |
 | `BOM` | Ban điều hành, gồm đúng ba thành viên `CEO`, `COO`, `CMO` | [[OBK-QCTC-02_Bang_tham_quyen\|OBK-QCTC-02]] mục 3 | Chốt phần bảng công của các `TL` |
 | `CEO` | Tổng giám đốc, dùng trong nội bộ | [[OBK-QCTC-02_Bang_tham_quyen\|OBK-QCTC-02]] mục 3 | Duyệt toàn bảng công;<br>người duyệt trên `BM-09` |
-| `TGĐ` | Tổng giám đốc, dùng trên văn bản pháp lý | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 3.1 | Duyệt bảng lương;<br>duyệt tạm ứng tiền lương theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 26a.5;<br>xác nhận lệnh theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 35.1a |
-| `KTV` | Kế toán viên nội bộ | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 3.1 | Tính lương và lập Bảng thanh toán tiền lương;<br>tính phần bù của kỳ trước;<br>kiểm, ghi và trừ khoản tạm ứng tiền lương |
-| `KTT` | Kế toán trưởng nội bộ | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 3.1 | Ký Bảng thanh toán tiền lương mẫu 01-LĐTL với chức danh Kế toán trưởng theo mục 5.4.2.<br>Soát bước H6 của Luồng H tại mục 5.6.2 |
-| `NTT` | Người thực hiện thanh toán | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 3.1 | Lập lệnh chuyển tiền lương;<br>tạo lệnh chuyển tiền tạm ứng tiền lương |
-| `NĐN` | Người đề nghị | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 3.1 | Lập đề nghị tạm ứng tiền lương `BM-08` |
+| `TGĐ` | Tổng giám đốc, dùng trên văn bản pháp lý | [[OBK-QCTC-02_Bang_tham_quyen\|OBK-QCTC-02]] mục 2 | Duyệt bảng lương;<br>duyệt tạm ứng tiền lương theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 26a.5;<br>xác nhận lệnh theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 35.1a |
+| `KTV` | Kế toán viên nội bộ | [[OBK-QCTC-02_Bang_tham_quyen\|OBK-QCTC-02]] mục 2 | Tính lương và lập Bảng thanh toán tiền lương;<br>tính phần bù của kỳ trước;<br>kiểm, ghi và trừ khoản tạm ứng tiền lương |
+| `KTT` | Kế toán trưởng nội bộ | [[OBK-QCTC-02_Bang_tham_quyen\|OBK-QCTC-02]] mục 2 | Ký Bảng thanh toán tiền lương mẫu 01-LĐTL với chức danh Kế toán trưởng theo mục 5.4.2.<br>Soát bước H6 của Luồng H tại mục 5.6.2 |
+| `NTT` | Người thực hiện thanh toán | [[OBK-QCTC-02_Bang_tham_quyen\|OBK-QCTC-02]] mục 2 | Lập lệnh chuyển tiền lương;<br>tạo lệnh chuyển tiền tạm ứng tiền lương |
+| `NĐN` | Người đề nghị | [[OBK-QCTC-02_Bang_tham_quyen\|OBK-QCTC-02]] mục 2 | Lập đề nghị tạm ứng tiền lương `BM-08` |
 | `HĐQT` | Hội đồng quản trị | [[OBK-QCTC-02_Bang_tham_quyen\|OBK-QCTC-02]] mục 2 | Duyệt tạm ứng tiền lương khi người đề nghị là `TGĐ` hoặc người quản lý khác do `HĐQT` bổ nhiệm |
 | `Chủ tịch HĐQT` | Chủ tịch Hội đồng quản trị | [[OBK-QCTC-02_Bang_tham_quyen\|OBK-QCTC-02]] mục 2, ký hiệu `CTHĐQT` | Xác nhận lệnh theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 35.1a |
 | Người lao động | Từng người có tên trong bảng công | Không có ký hiệu | Xác nhận bảng công tạm hoặc phản hồi lệch |
@@ -110,9 +112,9 @@ Ký hiệu vai trò của mảng nội bộ lấy từ [[OBK-MSR_Quy_tac_so_cai|
 >
 > **Ký hiệu vai trò `HR` khác nhãn đơn vị Nhân sự.** Quy tắc phân định tại [[OBK-QCTC-02_Bang_tham_quyen|OBK-QCTC-02]] mục 6. Người kiêm nhiệm Office Admin và HR Generalist làm các việc về bảo hiểm xã hội của chính oBacker với tư cách HR Generalist, theo [[OBK-QCTC-02_Bang_tham_quyen|OBK-QCTC-02]].
 >
-> **`KTV` và `KTT` mang nghĩa nội bộ** theo [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 3.2; `TL` theo mục 3.1 của văn bản đó. Khi trích chéo sang mảng dịch vụ thì ghi rõ nguồn của ký hiệu.
+> **`KTV`, `KTT` và `TL` mang nghĩa nội bộ** theo [[OBK-QCTC-02_Bang_tham_quyen|OBK-QCTC-02]] mục 2. Khi trích chéo sang mảng dịch vụ thì ghi rõ nguồn của ký hiệu.
 
-Khi người có thẩm quyền duyệt bảng công, duyệt bảng lương hoặc xét đơn vắng mặt, thẩm quyền chuyển theo quy tắc ủy quyền tại [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 8.1.
+Khi người có thẩm quyền duyệt bảng công, duyệt bảng lương hoặc xét đơn vắng mặt, thẩm quyền chuyển theo quy tắc ủy quyền.
 
 ### 3.2. Phân công theo Job
 
@@ -469,7 +471,7 @@ Biểu mẫu là view thao tác trên dữ liệu của sổ, không phải bư�
 | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Chương 5 | Điều kiện thuế của các khoản chi cho người lao động;<br>Điều 26a tạm ứng tiền lương |
 | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 35 và mục 38.2a | Lập lệnh và xác nhận lệnh;<br>bốn cách thu hồi khoản nợ |
 | [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-QCTC-03]] Điều 4, mục 4.3, Điều 5 và mục 6.6b | Mẫu 01-LĐTL;<br>`BM-09` Bảng chấm công |
-| [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 3.1 và mục 5 | Bộ vai trò nội bộ;<br>danh mục Job `NB-32` tới `NB-48` và thời hạn theo pháp luật |
+| [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 5, [[OBK-QCTC-02_Bang_tham_quyen\|OBK-QCTC-02]] mục 2 | Bộ vai trò nội bộ;<br>danh mục Job `NB-32` tới `NB-48` và thời hạn theo pháp luật |
 | [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] | Chu trình CHI, gồm khoản nộp tiền bảo hiểm xã hội của Job NB-42 theo nhóm N6 tại mục 5.1;<br>Luồng C tạm ứng và hoàn ứng tại mục 5.7 |
 | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] | Chu trình TIỀN: quỹ tiền mặt, tài khoản ngân hàng, lập lệnh và xác nhận lệnh |
 | [[05_OBK-SOP-LD_Lao_dong_va_tien_luong\|OBK-SOP-LD]] | Bảng Job LD-04 tới LD-20 làm nguồn nội dung nghiệp vụ của mục 5.7;<br>bảng tra quy tắc tính lương và bảo hiểm tại mục 7 |
@@ -480,6 +482,6 @@ Biểu mẫu là view thao tác trên dữ liệu của sổ, không phải bư�
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.3.0.1 | Xóa ghi chú phạm vi, ghi chú ranh giới với mảng dịch vụ, đoạn chu trình thứ tư và các khẩu hiệu |
+| 08/10/2026 | V3.0.2 | Đặt trạng thái thư viện tham khảo và sửa dẫn chiếu tới OBK-MSR trong OBK-SOP-NB-04_Cong_va_tien_luong_noi_bo. |

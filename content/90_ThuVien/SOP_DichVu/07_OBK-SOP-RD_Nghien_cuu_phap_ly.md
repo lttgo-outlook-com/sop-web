@@ -4,8 +4,9 @@ code: "OBK-SOP-RD"
 type: "sop"
 folder: "90_ThuVien"
 level: "Cấp 2, quy trình bộ phận"
-version: "R.3.0.1"
-status: "đang áp dụng"
+version: "V3.0.2"
+release: "R.26.10.08.1"
+status: "thư viện tham khảo"
 draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -27,7 +28,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-SOP-RD |
 | Cấp tài liệu | Cấp 2, SOP đơn vị |
-| Phiên bản | R.3.0.1, đang áp dụng |
+| Phiên bản | V3.0.2, thư viện tham khảo |
+| Phát hành | R.26.10.08.1 |
 | Ngày biên soạn | 04/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 07/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -35,7 +37,7 @@ tags:
 | Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] Chuẩn vận hành dịch vụ |
 | Người đọc | `TL-RD`, `CV-RD`, và `TL` của bốn bộ phận dịch vụ |
-| Đọc trước | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 5.5, mục 7.4a và mục 12.3;<br>`06_OBK-SOP-LS` |
+| Đọc trước | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 7.5a;<br>`06_OBK-SOP-LS` |
 
 ---
 
@@ -70,12 +72,12 @@ tags:
 | Tiếp xúc trực tiếp với khách dưới mọi hình thức | Bộ phận AM. Ngoại lệ và quy tắc bù xem mục 1.5 |
 | Cam kết mốc với khách | Bộ phận AM, sau khi có xác nhận của `TL` bộ phận |
 | Thực hiện nghiệp vụ của bộ phận khác | Bộ phận có nghiệp vụ đó |
-| Quyết bản nào được phát hành và quản lý phiên bản bộ tài liệu | `COO`, theo [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 12.1 |
+| Quyết bản nào được phát hành và quản lý phiên bản bộ tài liệu | `COO` |
 | Nhập và giữ kho văn bản của mảng nội bộ | Vẫn là đơn vị này. Kho văn bản chỉ có một bản, dùng chung hai mảng |
 
 ### 1.4. Ranh giới với Bộ phận Dịch vụ pháp lý, quy tắc phân lớp
 
-Bản gốc ĐẶT tại [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 5.5. Phần đơn vị này cần dùng hằng ngày:
+Phần đơn vị này cần dùng hằng ngày:
 
 | Việc cần cái gì | Ai chủ trì |
 | --- | --- |
@@ -95,7 +97,7 @@ Ngoại lệ duy nhất đã ghi ở [[PL_Chuyen_len_cap_tren|OBK-QCTC-02-PL-C]]
 
 ## 2. DANH MỤC JOB
 
-Ký hiệu SLA: `NLV` là ngày làm việc; `gLV` là giờ làm việc. Quy ước đếm thời gian theo [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 7.2. SLA nội bộ hai chiều giữa đơn vị này và bộ phận nghiệp vụ theo [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 7.4a.
+Ký hiệu SLA: `NLV` là ngày làm việc; `gLV` là giờ làm việc. Quy ước đếm thời gian theo [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 7.2a.
 
 Bốn mức ưu tiên của văn bản pháp luật mới, cùng ba mốc 05, 10 và 20 ngày làm việc, ĐẶT tại OBK-SOP-00 mục 12.3a. Bảng dưới đây chỉ dẫn chiếu, không đặt lại con số.
 
@@ -119,37 +121,35 @@ RD-04 phân mức chạy trước, trong 01 ngày làm việc. RD-02 và RD-03 c
 
 | Mã Job | Tên Job | Nguồn phát sinh | Đầu vào bắt buộc | Đầu ra | SLA nội bộ oBacker | Thời hạn bên ngoài | Căn cứ |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| RD-01 | Ghi nhận văn bản pháp luật mới | Bất kỳ ai phát hiện và báo | Số hiệu văn bản;<br>nguồn phát hiện | Dòng ghi nhận trên sổ theo dõi, kèm hạng nguồn và mức xác minh ban đầu | 02 NLV kể từ khi nhận tin báo. Ghi nhận cả khi chưa chắc chắn | Không có | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 12.3 |
-| RD-02 | Nhập bản gốc vào kho văn bản | Sau RD-01 | Bản gốc tải được từ nguồn chính thống | Tệp bản gốc trong kho `05_PhapLuat/`, kèm bảng thông tin đủ dòng | 03 NLV kể từ RD-01, và **01 NLV với văn bản mức ưu tiên 1**.<br>Không tải được thì lập phiếu theo dõi tại Sổ theo dõi yêu cầu nghiên cứu pháp lý [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] | Không có | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 12.3 |
+| RD-01 | Ghi nhận văn bản pháp luật mới | Bất kỳ ai phát hiện và báo | Số hiệu văn bản;<br>nguồn phát hiện | Dòng ghi nhận trên sổ theo dõi, kèm hạng nguồn và mức xác minh ban đầu | 02 NLV kể từ khi nhận tin báo. Ghi nhận cả khi chưa chắc chắn | Không có | Không có |
+| RD-02 | Nhập bản gốc vào kho văn bản | Sau RD-01 | Bản gốc tải được từ nguồn chính thống | Tệp bản gốc trong kho `05_PhapLuat/`, kèm bảng thông tin đủ dòng | 03 NLV kể từ RD-01, và **01 NLV với văn bản mức ưu tiên 1**.<br>Không tải được thì lập phiếu theo dõi tại Sổ theo dõi yêu cầu nghiên cứu pháp lý [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] | Không có | Không có |
 | RD-03 | Xác minh hiệu lực và phần bị bãi bỏ | Sau RD-02 | Bản gốc trong kho;<br>văn bản mới hơn cùng lĩnh vực | Kết luận hiệu lực, phần bị thay, phần bị bãi bỏ, và điều khoản chuyển tiếp nếu có | 03 NLV kể từ RD-02, và **01 NLV với văn bản mức ưu tiên 1**.<br>Đọc điều khoản thi hành của văn bản MỚI HƠN, cấm lấy từ trí nhớ và cấm lấy từ nguồn thứ cấp | Không có | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] NT-1, mục 12.3 |
-| RD-04 | Phân mức ưu tiên của văn bản mới | Sau RD-01 | Nội dung văn bản;<br>danh mục Job và danh mục khách hiện có | Mức ưu tiên đã phân, kèm lý do | **01 NLV kể từ RD-01.** Job này chạy TRƯỚC RD-02 và RD-03.<br>Bốn mức và tiêu chí theo [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 12.3a | Ngày hiệu lực của văn bản | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 12.3a |
-| RD-05 | Lập bản đánh giá tác động | Sau RD-03 và RD-04 | Bản gốc đã nhập kho;<br>kết luận hiệu lực tại RD-03;<br>mức ưu tiên tại RD-04 | Bản đánh giá tác động;<br>danh sách mã Job bị ảnh hưởng;<br>danh sách nhóm khách bị ảnh hưởng | Theo mốc của mức ưu tiên đã phân, đặt tại [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 12.3a, đếm từ ngày ghi nhận tại RD-01.<br>Job này không đặt lại con số.<br>Xem mục 2.1 về cách chuỗi bốn Job trước Job này vừa mốc đó | Ngày hiệu lực của văn bản | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 12.3a |
+| RD-04 | Phân mức ưu tiên của văn bản mới | Sau RD-01 | Nội dung văn bản;<br>danh mục Job và danh mục khách hiện có | Mức ưu tiên đã phân, kèm lý do | **01 NLV kể từ RD-01.** Job này chạy TRƯỚC RD-02 và RD-03.<br>Bốn mức và tiêu chí theo [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 7.5a | Ngày hiệu lực của văn bản | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 7.5a |
+| RD-05 | Lập bản đánh giá tác động | Sau RD-03 và RD-04 | Bản gốc đã nhập kho;<br>kết luận hiệu lực tại RD-03;<br>mức ưu tiên tại RD-04 | Bản đánh giá tác động;<br>danh sách mã Job bị ảnh hưởng;<br>danh sách nhóm khách bị ảnh hưởng | Theo mốc của mức ưu tiên đã phân, đặt tại [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 7.5a, đếm từ ngày ghi nhận tại RD-01.<br>Job này không đặt lại con số.<br>Xem mục 2.1 về cách chuỗi bốn Job trước Job này vừa mốc đó | Ngày hiệu lực của văn bản | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 7.5a |
 | RD-06 | Cập nhật sổ căn cứ và bảng tác động ngược | Sau RD-03 và RD-05 | Nguyên văn điều khoản;<br>mã văn bản đã có trong sổ | Mã căn cứ mới hoặc mã đã sửa trong dữ liệu nguồn của sổ;<br>bảng tác động ngược đã sinh lại | Cùng mốc với RD-05. Sửa dữ liệu nguồn rồi sinh lại sổ; cấm sửa thẳng vào tệp sổ | Không có | `07_KHUNG_VIET` mục 6 |
-| RD-07 | Bàn giao yêu cầu sửa cho `TL` bộ phận và theo dõi tới khi đóng | Sau RD-05 | Bản đánh giá tác động;<br>danh sách Job bị ảnh hưởng | Job sửa tài liệu đã mở cho từng bộ phận, liên kết về Job này;<br>bản ghi trạng thái từng Job | Giao trong 01 NLV kể từ khi xong RD-05.<br>Theo dõi tới khi `TL` bộ phận đóng Job sửa của mình, tức `KT-25`, `LD-24` hoặc `LS-21`; mốc sửa theo [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 12.3a cột cuối.<br>Bộ phận Giấy phép chưa có Job tương đương, nên với bộ phận đó thì mở một Job rời và ghi lý do trên Job này | Ngày hiệu lực của văn bản | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 12.3 |
-| RD-08 | Họp thống nhất cách hiểu và cách áp dụng | Sau RD-05, trước khi bộ phận sửa tài liệu | Bản đánh giá tác động;<br>câu hỏi của từng bộ phận | Biên bản chốt cách hiểu và cách áp dụng;<br>điểm chưa rõ đã đưa lên `CEO` | Họp trong 02 NLV kể từ khi xong RD-05. Bước bắt buộc | Không có | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 12.3 |
-| RD-09 | Cấp cơ sở pháp lý cho nghiệp vụ lạ | `TL` bộ phận mở Job phụ khi gặp nghiệp vụ chưa có chuẩn | Mô tả nghiệp vụ;<br>dữ kiện thực tế của khách;<br>kết luận sơ bộ của bộ phận về chỗ vướng | Bản cơ sở pháp lý đủ năm mục: điều kiện, trình tự, thời hạn, cơ quan có thẩm quyền, chi phí. Mỗi mục kèm mã căn cứ | Văn bản đã có trong kho: 03 NLV.<br>Văn bản chưa có trong kho: cấp mốc ước lượng cho `TL` bộ phận trong 01 NLV, mở RD-02, và không cam kết mốc kết luận cho tới khi có bản gốc | Không có | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 7.4a;<br>[[04_OBK-SOP-LIC_Giay_phep\|OBK-SOP-LIC]] LIC-01, `KS-LIC-01` |
-| RD-10 | Trả lời câu hỏi pháp lý mà bộ phận không tra được | `TL` bộ phận mở Job phụ sau khi đã tra và không kết luận được | Câu hỏi đã ghi trên Job;<br>danh mục nguồn bộ phận đã tra;<br>dữ kiện thực tế của khách | Câu trả lời kèm mã căn cứ đã đối chiếu bản gốc, hoặc kết luận không kết luận được kèm RD-12 | 05 NLV kể từ khi nhận đủ đầu vào.<br>Đây là mốc mà [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] KT-23, [[05_OBK-SOP-LD_Lao_dong_va_tien_luong\|OBK-SOP-LD]] LD-01 và [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] LS-07 dẫn chiếu để cộng vào `T3` của mình | Không có | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 7.4a, NT-1 |
-| RD-11 | Kết luận pháp lý dùng làm chuẩn nội bộ | Câu hỏi lặp lại từ hai bộ phận, hoặc từ hai khách trở lên | Bản trả lời tại RD-10;<br>các vụ việc đã gặp | Kết luận chuẩn, đưa vào sổ căn cứ hoặc vào chuẩn nghiệp vụ;<br>mã hóa để mọi bộ phận dẫn chiếu | 05 NLV kể từ khi nhận đủ đầu vào | Không có | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 5.5, mục 12.1 |
-| RD-12 | Mở mã cần xác minh và đặt hạn chót cho nội dung chưa xác minh được | Không kết luận được tại RD-09, RD-10, hoặc bộ phận báo gặp nội dung chưa xác minh được | Câu hỏi;<br>danh mục văn bản còn thiếu | Mở phiếu theo dõi tại Sổ nghiên cứu pháp lý [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] kèm rủi ro, nhánh thay thế và thời hạn hoàn thành | Mở trong 01 NLV. Hạn chót là bắt buộc với mã nào có hậu quả không tự lộ ra | Không có | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 10.2, mục 12.2 |
-| RD-13 | Nâng mức xác minh từ chưa đối chiếu bản gốc hoặc chưa xác minh được lên đã đối chiếu bản gốc | Bản gốc đã vào kho, hoặc theo hạn chót của mã | Bản gốc trong kho;<br>mã cần xác minh | Mã căn cứ đã nâng mức, kèm nguyên văn điều khoản và ngày kiểm | Theo thời hạn cam kết tại Sổ [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]]. Nội dung quá hai lần rà soát chưa hoàn thành thì báo cáo `CEO` | Không có | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 12.2 |
-| RD-14 | Rà soát hiệu lực toàn sổ căn cứ | Theo lịch | Sổ căn cứ;<br>kho văn bản | Danh mục mã có văn bản bị thay hoặc bị bãi bỏ;<br>Job sửa đã mở cho từng mã | Hằng quý, chậm nhất ngày cuối cùng của tháng đầu quý sau. Rà đột xuất ngay khi có văn bản mức ưu tiên 1 | Không có | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 12.2 |
-| RD-15 | Rà soát giả thiết và mã chưa kết luận | Theo lịch | Toàn bộ nội dung yêu cầu nghiên cứu pháp lý tại Sổ [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] | Mỗi giả thiết được ghi một trong ba trạng thái GIỮ, ĐÚNG, SAI;<br>mã ở trạng thái GIỮ quá hai lần liên tiếp đã báo `CEO` | Mỗi 06 tháng, hoặc ngay khi có văn bản mới ảnh hưởng một giả thiết | Hạn chót cứng của từng giả thiết | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 12.2 |
+| RD-07 | Bàn giao yêu cầu sửa cho `TL` bộ phận và theo dõi tới khi đóng | Sau RD-05 | Bản đánh giá tác động;<br>danh sách Job bị ảnh hưởng | Job sửa tài liệu đã mở cho từng bộ phận, liên kết về Job này;<br>bản ghi trạng thái từng Job | Giao trong 01 NLV kể từ khi xong RD-05.<br>Theo dõi tới khi `TL` bộ phận đóng Job sửa của mình, tức `KT-25`, `LD-24` hoặc `LS-21`; mốc sửa theo [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 7.5a cột cuối.<br>Bộ phận Giấy phép chưa có Job tương đương, nên với bộ phận đó thì mở một Job rời và ghi lý do trên Job này | Ngày hiệu lực của văn bản | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 7.5a |
+| RD-08 | Họp thống nhất cách hiểu và cách áp dụng | Sau RD-05, trước khi bộ phận sửa tài liệu | Bản đánh giá tác động;<br>câu hỏi của từng bộ phận | Biên bản chốt cách hiểu và cách áp dụng;<br>điểm chưa rõ đã đưa lên `CEO` | Họp trong 02 NLV kể từ khi xong RD-05. Bước bắt buộc | Không có | Không có |
+| RD-09 | Cấp cơ sở pháp lý cho nghiệp vụ lạ | `TL` bộ phận mở Job phụ khi gặp nghiệp vụ chưa có chuẩn | Mô tả nghiệp vụ;<br>dữ kiện thực tế của khách;<br>kết luận sơ bộ của bộ phận về chỗ vướng | Bản cơ sở pháp lý đủ năm mục: điều kiện, trình tự, thời hạn, cơ quan có thẩm quyền, chi phí. Mỗi mục kèm mã căn cứ | Văn bản đã có trong kho: 03 NLV.<br>Văn bản chưa có trong kho: cấp mốc ước lượng cho `TL` bộ phận trong 01 NLV, mở RD-02, và không cam kết mốc kết luận cho tới khi có bản gốc | Không có | [[04_OBK-SOP-LIC_Giay_phep\|OBK-SOP-LIC]] LIC-01, `KS-LIC-01` |
+| RD-10 | Trả lời câu hỏi pháp lý mà bộ phận không tra được | `TL` bộ phận mở Job phụ sau khi đã tra và không kết luận được | Câu hỏi đã ghi trên Job;<br>danh mục nguồn bộ phận đã tra;<br>dữ kiện thực tế của khách | Câu trả lời kèm mã căn cứ đã đối chiếu bản gốc, hoặc kết luận không kết luận được kèm RD-12 | 05 NLV kể từ khi nhận đủ đầu vào.<br>Đây là mốc mà [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] KT-23, [[05_OBK-SOP-LD_Lao_dong_va_tien_luong\|OBK-SOP-LD]] LD-01 và [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] LS-07 dẫn chiếu để cộng vào `T3` của mình | Không có | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] NT-1 |
+| RD-11 | Kết luận pháp lý dùng làm chuẩn nội bộ | Câu hỏi lặp lại từ hai bộ phận, hoặc từ hai khách trở lên | Bản trả lời tại RD-10;<br>các vụ việc đã gặp | Kết luận chuẩn, đưa vào sổ căn cứ hoặc vào chuẩn nghiệp vụ;<br>mã hóa để mọi bộ phận dẫn chiếu | 05 NLV kể từ khi nhận đủ đầu vào | Không có | Không có |
+| RD-12 | Mở mã cần xác minh và đặt hạn chót cho nội dung chưa xác minh được | Không kết luận được tại RD-09, RD-10, hoặc bộ phận báo gặp nội dung chưa xác minh được | Câu hỏi;<br>danh mục văn bản còn thiếu | Mở phiếu theo dõi tại Sổ nghiên cứu pháp lý [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] kèm rủi ro, nhánh thay thế và thời hạn hoàn thành | Mở trong 01 NLV. Hạn chót là bắt buộc với mã nào có hậu quả không tự lộ ra | Không có | Không có |
+| RD-13 | Nâng mức xác minh từ chưa đối chiếu bản gốc hoặc chưa xác minh được lên đã đối chiếu bản gốc | Bản gốc đã vào kho, hoặc theo hạn chót của mã | Bản gốc trong kho;<br>mã cần xác minh | Mã căn cứ đã nâng mức, kèm nguyên văn điều khoản và ngày kiểm | Theo thời hạn cam kết tại Sổ [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]]. Nội dung quá hai lần rà soát chưa hoàn thành thì báo cáo `CEO` | Không có | Không có |
+| RD-14 | Rà soát hiệu lực toàn sổ căn cứ | Theo lịch | Sổ căn cứ;<br>kho văn bản | Danh mục mã có văn bản bị thay hoặc bị bãi bỏ;<br>Job sửa đã mở cho từng mã | Hằng quý, chậm nhất ngày cuối cùng của tháng đầu quý sau. Rà đột xuất ngay khi có văn bản mức ưu tiên 1 | Không có | Không có |
+| RD-15 | Rà soát giả thiết và mã chưa kết luận | Theo lịch | Toàn bộ nội dung yêu cầu nghiên cứu pháp lý tại Sổ [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] | Mỗi giả thiết được ghi một trong ba trạng thái GIỮ, ĐÚNG, SAI;<br>mã ở trạng thái GIỮ quá hai lần liên tiếp đã báo `CEO` | Mỗi 06 tháng, hoặc ngay khi có văn bản mới ảnh hưởng một giả thiết | Hạn chót cứng của từng giả thiết | Không có |
 | RD-16 | Soạn và cập nhật chuẩn nghiệp vụ bàn giao cho Phòng Dịch vụ | Kết luận tại RD-11;<br>phiếu bài học của bộ phận;<br>kế hoạch quý | Kết luận chuẩn;<br>phiếu bài học LS-20 và các phiếu tương đương của ba bộ phận còn lại | Bản chuẩn nghiệp vụ hoặc bản sửa chuẩn, đã bàn giao và `TL` bộ phận đã xác nhận nhận | Theo kế hoạch quý. Phiếu bài học nhận được thì phản hồi trong 05 NLV là nhận, gộp vào bản quý, hoặc không cần sửa kèm lý do | Không có | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] NT-8, mục 12.1 |
-| RD-17 | Soát nội dung pháp lý của tài liệu trước khi phát hành | `COO` hoặc `TL` bộ phận gửi bản cần soát | Bản tài liệu cần soát;<br>danh mục chỗ có nội dung pháp lý | Kết luận đạt, hoặc danh mục chỗ phải sửa kèm mã căn cứ đúng | 03 NLV kể từ khi nhận bản. Đơn vị này soát NỘI DUNG pháp lý; `COO` quyết bản nào được phát hành | Không có | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 12.1 |
+| RD-17 | Soát nội dung pháp lý của tài liệu trước khi phát hành | `COO` hoặc `TL` bộ phận gửi bản cần soát | Bản tài liệu cần soát;<br>danh mục chỗ có nội dung pháp lý | Kết luận đạt, hoặc danh mục chỗ phải sửa kèm mã căn cứ đúng | 03 NLV kể từ khi nhận bản. Đơn vị này soát NỘI DUNG pháp lý; `COO` quyết bản nào được phát hành | Không có | Không có |
 | RD-18 | Soát bộ hợp đồng dịch vụ và bộ điều khoản của oBacker | `AM` hoặc `CEO` yêu cầu;<br>và theo lịch;<br>yêu cầu từ `AM-24` về điều khoản khách đồng ý chia sẻ thông tin với bên đã giới thiệu | Bản hợp đồng mẫu đang dùng;<br>danh mục dịch vụ đang bán và tên đầu ra tại bảng Job của từng bộ phận | Bản mẫu đã soát, kèm danh mục điều khoản phải sửa và lý do;<br>phạm vi ghi trong mẫu khớp tên đầu ra tại bảng Job;<br>kết luận về điều khoản khách đồng ý chia sẻ thông tin với bên đã giới thiệu, khi có yêu cầu từ `AM-24` | 05 NLV khi có yêu cầu. Rà lại theo lịch mỗi 06 tháng, và ngay khi một bộ phận thêm hoặc bỏ một Job có đầu ra ra khỏi oBacker | Không có | [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] mục 1.5;<br>[[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] AM-24 |
 | RD-19 | Soát nội dung pháp lý trước khi công bố ra ngoài | Marketing hoặc `AM` gửi bản cần soát | Bản nội dung sắp công bố | Kết luận đạt, hoặc danh mục chỗ phải sửa | 02 NLV kể từ khi nhận bản. Nội dung pháp lý chưa qua bước này thì không được công bố | Không có | `01_ToChuc/OBK-QCTC-02` Chương 3 khối Marketing |
 | RD-20 | Nghiên cứu phát triển dịch vụ pháp lý mới | Kế hoạch quý;<br>hoặc `CEO` yêu cầu | Đề bài;<br>nhu cầu quan sát được từ phiếu bài học và từ câu hỏi lặp lại | Bản thiết kế dịch vụ: phạm vi, đầu ra, đầu vào cần khách cấp, mốc đề xuất, điều kiện kinh doanh phải có | Theo kế hoạch quý. Đầu ra phải trả lời được điều kiện kinh doanh trước khi trả lời được giá | Không có | [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] mục 1.5 |
 | RD-21 | Chuẩn bị nội dung thông báo sự cố dữ liệu cá nhân | Tech Lead báo sự cố | Mô tả sự cố;<br>danh mục dữ liệu và danh mục khách bị ảnh hưởng | Bản dự thảo nội dung thông báo cho khách, và bản dự thảo cho cơ quan có thẩm quyền nếu `CEO` quyết gửi | Bản dự thảo trong 04 gLV kể từ khi Tech Lead báo.<br>Thời hạn thông báo theo pháp luật hiện chưa xác minh được, xem [[PL_Chuyen_len_cap_tren\|OBK-QCTC-02-PL-C]] mục 4 | Chưa xác minh được, chưa xác minh được | [[PL_Chuyen_len_cap_tren\|OBK-QCTC-02-PL-C]] mục 4 |
-| RD-22 | Kết luận về hành vi oBacker nghiêm cấm khi có yêu cầu đáng ngờ | Bất kỳ vai trò nào báo | Mô tả yêu cầu của khách;<br>bản ghi ai yêu cầu, khi nào, qua kênh nào | Kết luận yêu cầu đó có thuộc tám hành vi oBacker nghiêm cấm hay không, kèm mã căn cứ | Kết luận trong 04 gLV. Báo `CEO` trong ngày phát hiện, không đợi kết luận xong mới báo | Không có | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 9 |
+| RD-22 | Kết luận về hành vi oBacker nghiêm cấm khi có yêu cầu đáng ngờ | Bất kỳ vai trò nào báo | Mô tả yêu cầu của khách;<br>bản ghi ai yêu cầu, khi nào, qua kênh nào | Kết luận yêu cầu đó có thuộc tám hành vi oBacker nghiêm cấm hay không, kèm mã căn cứ | Kết luận trong 04 gLV. Báo `CEO` trong ngày phát hiện, không đợi kết luận xong mới báo | Không có | [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] |
 
-
-Yêu cầu không khớp Job nào: xem [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 5.6.
 
 ---
 
 ## 3. VAI TRÒ VÀ RACI
 
-Ký hiệu vai trò theo [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 5.1.
+Ký hiệu vai trò theo [[OBK-QCTC-02_Bang_tham_quyen|OBK-QCTC-02]] mục 2.
 
 ### 3.1. Cơ cấu vai trò của đơn vị và ký hiệu LEG
 
@@ -225,11 +225,11 @@ Trình tự chuyển lên cấp trên cho xung đột này tại [[PL_Chuyen_len
 
 ## 6. CHỈ SỐ ĐO LƯỜNG
 
-Tám chỉ số chung tại [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 11.1 áp cho bộ phận DELIVERY. Đơn vị này không thuộc Phòng Dịch vụ và không có khách, nên chỉ áp `CS-04` tỷ lệ đúng ngay lần đầu và `CS-05` số lỗi đầu ra mức Nghiêm trọng. Sáu chỉ số còn lại không áp; quy tắc ghi chỉ số không áp dụng tại [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 11.1a.
+Tám chỉ số chung tại [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] áp cho bộ phận DELIVERY. Đơn vị này không thuộc Phòng Dịch vụ và không có khách, nên chỉ áp `CS-04` tỷ lệ đúng ngay lần đầu và `CS-05` số lỗi đầu ra mức Nghiêm trọng. Sáu chỉ số còn lại không áp; quy tắc ghi chỉ số không áp dụng tại [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]].
 
 | Mã | Chỉ số | Công thức | Mục tiêu | Nguồn, tần suất |
 | --- | --- | --- | --- | --- |
-| `RD-M01` | Thời gian từ khi văn bản có hiệu lực tới khi tài liệu bị ảnh hưởng đã sửa xong | Trung vị số ngày làm việc, đo trên nhóm mức ưu tiên 1 và 2 | Bằng hoặc nhỏ hơn mốc của mức ưu tiên tại [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 12.3a | Hệ thống công việc, hằng quý |
+| `RD-M01` | Thời gian từ khi văn bản có hiệu lực tới khi tài liệu bị ảnh hưởng đã sửa xong | Trung vị số ngày làm việc, đo trên nhóm mức ưu tiên 1 và 2 | Bằng hoặc nhỏ hơn mốc của mức ưu tiên tại [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 7.5a | Hệ thống công việc, hằng quý |
 | `RD-M02` | Tỷ lệ đáp đúng hạn tuyến câu hỏi của bộ phận | Số Job RD-09 và RD-10 đáp đúng hạn chia tổng số | Từ 90% | Hệ thống công việc, hằng tháng |
 | `RD-M03` | Số mã căn cứ đang chưa đối chiếu bản gốc hoặc chưa xác minh được mà được dẫn chiếu trong tài liệu gửi khách | Đếm | 0 | Sổ căn cứ, hằng tháng |
 | `RD-M04` | Số giả thiết ở trạng thái GIỮ qua hai lần rà soát liên tiếp | Đếm | 0 | Sổ [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]], mỗi 06 tháng |
@@ -358,6 +358,6 @@ Trước khi trình `TL-RD`, người nghiên cứu tự kiểm tra theo hai nh�
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.3.0.1 | Bỏ đoạn vấn đề số học và lịch sử ở mục 2.1, đoạn khẩu hiệu ở mục 6 và câu hậu quả, lý do ở mục 3 |
+| 08/10/2026 | V3.0.2 | Đặt trạng thái thư viện tham khảo và sửa dẫn chiếu tới OBK-MSR trong 07_OBK-SOP-RD_Nghien_cuu_phap_ly. |

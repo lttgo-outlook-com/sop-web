@@ -4,8 +4,9 @@ code: "OBK-SOP-PL-H"
 type: "sop"
 folder: "90_ThuVien"
 level: "Phụ lục"
-version: "R.3.0.1"
-status: "đang áp dụng"
+version: "V3.0.2"
+release: "R.26.10.08.1"
+status: "thư viện tham khảo"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -29,7 +30,8 @@ tags:
 | Mã tài liệu | OBK-SOP-PL-H |
 | Tên phụ lục | Quy trình cung cấp chữ ký số và hóa đơn điện tử |
 | Cấp tài liệu | Phụ lục của hướng dẫn cấp 3 |
-| Phiên bản | R.3.0.1, đang áp dụng |
+| Phiên bản | V3.0.2, thư viện tham khảo |
+| Phát hành | R.26.10.08.1 |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 27/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -54,7 +56,7 @@ Trình tự cung cấp chữ ký số (chứng thư số điện tử) và đăn
 
 ## 2. PHÂN CÔNG VAI TRÒ VÀ MA TRẬN TRÁCH NHIỆM
 
-Ký hiệu vai trò tuân thủ theo [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 5.1:
+Ký hiệu vai trò tuân thủ theo [[OBK-QCTC-02_Bang_tham_quyen|OBK-QCTC-02]] mục 2:
 
 | Bước | Nội dung công việc | `AM` | `CV-KT` | `TL-KT` | Khách hàng |
 | --- | --- | --- | --- | --- | --- |
@@ -201,6 +203,6 @@ Ký hiệu vai trò tuân thủ theo [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 5.
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.3.0.1 | Bỏ sơ đồ luồng trùng tiêu đề bước, câu giải thích loại chữ ký số và câu lý do mua trước thiết bị |
+| 08/10/2026 | V3.0.2 | Đặt trạng thái thư viện tham khảo và sửa dẫn chiếu tới OBK-MSR trong PL_H_Quy_trinh_chu_ky_so_va_hoa_don_dien_tu. |

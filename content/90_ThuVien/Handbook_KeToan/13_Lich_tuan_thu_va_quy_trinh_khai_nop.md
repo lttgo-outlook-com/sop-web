@@ -4,8 +4,9 @@ code: "OBK-HB-13"
 type: "sop"
 folder: "90_ThuVien"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.2.0.1"
-status: "đang áp dụng"
+version: "V2.0.2"
+release: "R.26.10.08.1"
+status: "thư viện tham khảo"
 draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -30,7 +31,8 @@ tags:
 | Mã tài liệu | OBK-HB-13 |
 | Tên chương | Lịch tuân thủ và quy trình khai nộp thuế định kỳ |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.2.0.1, đang áp dụng |
+| Phiên bản | V2.0.2, thư viện tham khảo |
+| Phát hành | R.26.10.08.1 |
 | Ngày biên soạn | 04/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -1178,6 +1180,6 @@ Doanh nghiệp Việt Nam phải đăng ký để được cấp mã số thuế
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.2.0.1 | Bỏ mục đích về lỡ hạn hàng loạt, đoạn mô tả bảng A.1, các hộp cảnh báo kể chuyện, ghi chú trùng và câu hậu quả |
+| 08/10/2026 | V2.0.2 | Đặt trạng thái thư viện tham khảo và sửa dẫn chiếu tới OBK-MSR trong 13_Lich_tuan_thu_va_quy_trinh_khai_nop. |

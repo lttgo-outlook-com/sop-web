@@ -5,7 +5,8 @@ aliases:
   - TNC-02-VI
 type: "tnc"
 folder: "09_TnC"
-version: "R.2.3.2"
+version: "V3.0.0"
+release: "R.26.10.08.1"
 status: "đang áp dụng"
 author: "CEO"
 reviewer: "CEO"
@@ -22,11 +23,11 @@ tags:
 *Điều Khoản Dịch Vụ Cụ Thể, bộ phận không tách rời của Bản Điều Khoản Chung; Công ty Cổ phần oBacker*
 MST: 0402298185 · Tầng 2, 06 Trần Phú, Phường Hải Châu, Thành phố Đà Nẵng · contact@obacker.com
 
-**Phiên bản:** R.2.3.1 (VI-EN) · **Cập nhật:** 07/10/2026
+**Phiên bản:** V3.0.0 (VI-EN) · **Phát hành:** R.26.10.08.1 · **Cập nhật:** 08/10/2026
 
 > Tài liệu này là Điều Khoản Dịch Vụ Cụ Thể cho Dịch Vụ Kế toán & Thuế ("**Dịch Vụ**"), gồm hai hợp phần: (A) Kế toán và (B) Thuế doanh nghiệp (GTGT, TNDN, thuế nhà thầu nước ngoài (FCT), hóa đơn điện tử). Tài liệu áp dụng khi Dịch Vụ được ghi tại Đơn Đặt Hàng. **Nếu tài liệu này khác với Bản Điều Khoản Chung, tài liệu này được ưu tiên áp dụng đối với Dịch Vụ.**
 >
-> **Phân định:** Khấu trừ và kê khai **thuế TNCN từ tiền lương** theo kỳ thuộc **Dịch Vụ Kế toán (PL-KT)**; quyết toán TNCN năm, đăng ký người phụ thuộc và chứng từ khấu trừ TNCN cho người lao động thuộc **Dịch Vụ Nhân Sự (PL-NS)**. Tư vấn và tối ưu thuế thuộc **Dịch Vụ Pháp Lý (PL-PL)**.
+> **Phân định:** Khấu trừ, kê khai và quyết toán **thuế TNCN từ tiền lương**, đăng ký người phụ thuộc và chứng từ khấu trừ TNCN cho người lao động thuộc **Dịch Vụ Nhân Sự (PL-NS)**. Khấu trừ và kê khai thuế TNCN vãng lai chi cho cá nhân ngoài bảng lương thuộc **PL-KT**. Tư vấn và tối ưu thuế thuộc **Dịch Vụ Pháp Lý (PL-PL)**.
 
 ---
 
@@ -75,7 +76,7 @@ Ngưỡng Giao Dịch/tháng theo gói được ghi tại Đơn Đặt Hàng. Kh
 - oBacker theo dõi và thông báo nghĩa vụ thuế cùng thời hạn nộp cho Quý Khách
 - Hỗ trợ giải trình số liệu đã xử lý khi cơ quan thuế kiểm tra, trong phạm vi ủy quyền hợp lệ.
 
-> **Phân định TNCN tiền lương:** TNCN **từ tiền lương** của người lao động có hợp đồng lao động (khấu trừ lũy tiến) tách thành hai đầu việc. **Khấu trừ và kê khai thuế TNCN theo kỳ** thuộc **Dịch Vụ Kế toán (PL-KT)**. **Quyết toán TNCN năm**, đăng ký người phụ thuộc và chứng từ khấu trừ cho người lao động thuộc **Dịch Vụ Nhân Sự (PL-NS)**. TNCN **vãng lai** chi cho cá nhân ngoài bảng lương (CTV, freelancer, thuê tài sản cá nhân) thuộc **PL-KT** (điểm trên).
+> **Phân định TNCN tiền lương:** Toàn bộ TNCN **từ tiền lương** của người lao động có hợp đồng lao động (khấu trừ lũy tiến), gồm khấu trừ, kê khai theo kỳ, quyết toán năm, đăng ký người phụ thuộc và chứng từ khấu trừ, thuộc **Dịch Vụ Nhân Sự (PL-NS)**. TNCN **vãng lai** chi cho cá nhân ngoài bảng lương (CTV, freelancer, thuê tài sản cá nhân) thuộc **PL-KT** (điểm trên).
 >
 > CTV/freelancer làm việc thường xuyên từ đủ 01 tháng trở lên, đều đặn và có tính chất lao động có thể bị cơ quan BHXH xác định là quan hệ lao động và truy thu BHXH; khi đó chuyển sang nhân viên và các nghĩa vụ liên quan chuyển về PL-NS. oBacker khuyến nghị Quý Khách chuyển sang hợp đồng lao động chính thức trong trường hợp này.
 
@@ -93,9 +94,9 @@ Hai phương thức kê khai FCT (Quý Khách chọn):
 **3.3. Hóa đơn điện tử.** oBacker đăng ký, kích hoạt hệ thống hóa đơn điện tử theo **Nghị định 254/2026/NĐ-CP** và **Thông tư 91/2026/TT-BTC**; thiết lập ký hiệu mẫu hóa đơn, dải số hóa đơn; tư vấn quy định về hóa đơn điện tử. **oBacker không xuất hóa đơn bán ra thay Quý Khách** trong các gói tiêu chuẩn; Quý Khách tự xuất trên phần mềm đã được thiết lập. Nếu Quý Khách muốn oBacker xuất thay, đây là dịch vụ bổ sung ngoài gói (tính phí riêng).
 
 **3.4. Quản lý và sử dụng thiết bị chữ ký số (USB Token):**
-- Khi sử dụng Dịch Vụ, Quý Khách đăng ký mua thêm 01 thiết bị USB Token chuyên dụng từ oBacker (hoặc bàn giao 01 thiết bị USB Token riêng) và ký văn bản ủy quyền có giới hạn để oBacker quản lý, sử dụng riêng cho các nghiệp vụ ký số kê khai thuế, nộp bảo hiểm xã hội và phát hành hóa đơn điện tử trong phạm vi gói dịch vụ theo quy trình `CK-01`.
+- Khi sử dụng Dịch Vụ, Quý Khách cấp cho oBacker 01 USB Token phụ và ký văn bản ủy quyền có giới hạn để oBacker quản lý, sử dụng riêng cho các nghiệp vụ ký số kê khai thuế, nộp bảo hiểm xã hội và phát hành hóa đơn điện tử trong phạm vi gói dịch vụ.
 - Quý Khách giữ 01 USB Token chính để thực hiện các giao dịch ngân hàng, ký số hợp đồng thương mại và các quyết định tài chính quan trọng của người đại diện theo pháp luật.
-- oBacker bảo quản thiết bị USB Token trong môi trường kiểm soát an toàn, ghi nhận nhật ký mỗi lần thực hiện ký số và không được sử dụng thiết bị ngoài phạm vi công việc đã được ủy quyền.
+- oBacker chỉ bảo quản USB Token phụ do Quý Khách cấp, trong môi trường kiểm soát an toàn, và ghi nhận nhật ký mỗi lần thực hiện ký số. oBacker chỉ sử dụng thiết bị trong phạm vi công việc đã được ủy quyền.
 
 **3.5. Ngoài phạm vi:**
 
@@ -147,7 +148,7 @@ Hai phương thức kê khai FCT (Quý Khách chọn):
 | Tạm nộp TNDN | Năm | Đủ 80% trước ngày 30/01 năm sau |
 | Quyết toán TNDN, BCTC năm | Năm N | Ngày cuối tháng 3 năm N+1 |
 | FCT; kê khai theo tháng | Tháng | Ngày 20 tháng kế tiếp |
-| FCT; kê khai từng lần | Khi phát sinh | Trong 10 ngày kể từ ngày phát sinh nghĩa vụ |
+| FCT; kê khai từng lần | Khi phát sinh | Chậm nhất là ngày thứ 10 kể từ ngày tiếp theo ngày phát sinh nghĩa vụ |
 
 *Thời hạn pháp định theo Luật Quản lý thuế 108/2025/QH15 và văn bản hướng dẫn hiện hành; lịch cụ thể từng kỳ được oBacker xác nhận với Quý Khách.*
 
@@ -164,9 +165,9 @@ Hai phương thức kê khai FCT (Quý Khách chọn):
 
 ## Điều 7. Phối hợp khi cơ quan thuế thanh tra, kiểm tra và kiểm toán độc lập
 
-**7.1. Thanh tra, kiểm tra thuế:** Gói dịch vụ định kỳ bao gồm cung cấp bản sao sổ sách điện tử và hỗ trợ giải trình số liệu từ xa qua cổng thông tin điện tử. Quý Khách xuất trình chứng từ gốc, giấy tờ nội bộ đi kèm và giải trình bản chất nghiệp vụ kinh tế. Trường hợp cơ quan thuế kiểm tra trực tiếp tại trụ sở và Quý Khách yêu cầu chuyên viên oBacker trực tiếp tham gia làm việc với đoàn kiểm tra tại bàn, hai Bên ký phụ lục công việc riêng theo biểu phí quy định tại danh mục dịch vụ (mã ADD-TAX-INSPECT). oBacker không chịu trách nhiệm về tính hợp pháp của chứng từ hoặc quyết định xử phạt phát sinh từ thông tin Quý Khách cung cấp sai hoặc thiếu (xem Điều 8).
+**7.1. Thanh tra, kiểm tra thuế:** Gói dịch vụ định kỳ bao gồm cung cấp bản sao sổ sách điện tử và hỗ trợ giải trình số liệu từ xa qua cổng thông tin điện tử. Quý Khách xuất trình chứng từ gốc, giấy tờ nội bộ đi kèm và giải trình bản chất nghiệp vụ kinh tế. Trường hợp cơ quan thuế kiểm tra trực tiếp tại trụ sở và Quý Khách yêu cầu chuyên viên oBacker trực tiếp tham gia làm việc với đoàn kiểm tra tại bàn, hai Bên ký phụ lục công việc riêng theo biểu phí quy định tại danh mục dịch vụ (mã ADD-TAX-INSPECT-2026). oBacker không chịu trách nhiệm về tính hợp pháp của chứng từ hoặc quyết định xử phạt phát sinh từ thông tin Quý Khách cung cấp sai hoặc thiếu (xem Điều 8).
 
-**7.2. Kiểm toán độc lập (đối với doanh nghiệp FDI):** 100% doanh nghiệp có vốn đầu tư nước ngoài (FDI) bắt buộc phải kiểm toán BCTC hàng năm theo quy định tại Điều 15 Nghị định 17/2012/NĐ-CP và Thông tư 186/2010/TT-BTC. oBacker hoạt động độc lập với các đơn vị kiểm toán độc lập; Quý Khách ký hợp đồng và thanh toán phí trực tiếp cho công ty kiểm toán. oBacker chịu trách nhiệm chuẩn bị bộ hồ sơ số liệu kế toán hoàn chỉnh theo Thông tư 99/2025/TT-BTC, bàn giao tệp làm việc và phối hợp giải trình số liệu với kiểm toán viên độc lập.
+**7.2. Kiểm toán độc lập (đối với doanh nghiệp FDI):** 100% doanh nghiệp có vốn đầu tư nước ngoài (FDI) bắt buộc phải kiểm toán BCTC hàng năm theo Điều 37 khoản 1 điểm a Luật Kiểm toán độc lập số 67/2011/QH12 và Điều 15 khoản 1 điểm a Nghị định 17/2012/NĐ-CP. oBacker hoạt động độc lập với các đơn vị kiểm toán độc lập; oBacker không thu hộ phí kiểm toán; Quý Khách ký hợp đồng và thanh toán phí trực tiếp cho công ty kiểm toán. oBacker chịu trách nhiệm chuẩn bị bộ hồ sơ số liệu kế toán hoàn chỉnh theo Thông tư 99/2025/TT-BTC, bàn giao tệp làm việc và phối hợp giải trình số liệu với kiểm toán viên độc lập.
 
 ## Điều 8. Phân định trách nhiệm và cơ chế bồi thường
 
@@ -188,12 +189,12 @@ Mỗi Bên có thể chấm dứt Dịch Vụ bằng thông báo trước tối 
 
 ## Điều 10. Phí Dịch Vụ và Chính Sách Vận Hành Bổ Sung
 
-Phí Dịch Vụ được xác định theo Đơn Đặt Hàng (theo gói đối tác hoặc theo số lượng Giao Dịch thực tế). Chi tiết các cơ chế tính phí, định mức và phụ thu bao gồm:
+Phí Dịch Vụ được xác định theo Đơn Đặt Hàng (theo gói đối tác hoặc theo số lượng Giao Dịch thực tế). Phí Dịch Vụ trả trước theo Điều 4 Bản Điều Khoản Chung. Khung thanh toán riêng của Dịch Vụ này gồm hai trường hợp: (a) phụ thu vượt định mức thanh toán sau theo đối soát hàng tháng (mục 10.1); (b) phí báo cáo tài chính và quyết toán năm của hợp đồng ký mới trong Quý 4, chia 02 đợt (mục 10.3). Chi tiết các cơ chế tính phí, định mức và phụ thu bao gồm:
 
 **10.1. Chính sách sử dụng hợp lý (FUP) và biểu phí vượt định mức:**
 - Hạn mức Giao Dịch: Partner Core (50 Giao Dịch/tháng; doanh nghiệp FDI là 100 Giao Dịch/tháng), Partner Growth (300 Giao Dịch/tháng), Partner Prime (1.500 Giao Dịch/tháng). Vượt 100 Giao Dịch/tháng của Partner Core - FDI áp dụng phụ thu theo khối theo cơ chế khối phụ trội bên dưới.
 - Cơ chế khối phụ trội: Vượt hạn mức áp dụng phụ thu theo khối: khối 500 Giao Dịch (mã `ADD-TXN-BLOCK-500-2026`, 2.500.000đ/tháng), khối 1.000 Giao Dịch (mã `ADD-TXN-BLOCK-1000-2026`, 5.000.000đ/tháng), khối 1.500 Giao Dịch (mã `ADD-TXN-BLOCK-1500-2026`, 7.500.000đ/tháng). Mức tối đa gói Growth là 1.500 Giao Dịch/tháng; vượt mức này bắt buộc chuyển đổi sang Partner Prime.
-- Gói Partner Prime: Hạn mức tiêu chuẩn 1.500 Giao Dịch/tháng; khối lượng vượt trên 1.500 Giao Dịch áp dụng đơn giá 15.000đ/Giao Dịch (mã `ADD-TXN-PRIME-OVER`).
+- Gói Partner Prime: Hạn mức tiêu chuẩn 1.500 Giao Dịch/tháng; khối lượng từ trên 1.500 đến 7.000 Giao Dịch/tháng áp dụng phụ thu theo khối nêu trên; khối lượng trên 7.000 Giao Dịch/tháng áp dụng đơn giá 12.000đ/Giao Dịch (mã `ADD-TXN-PRIME-OVER`).
 - Tài khoản ngân hàng: Core (02 tài khoản), Growth (05 tài khoản). Phụ phí từ tài khoản thứ 3 (Core) hoặc thứ 6 (Growth) là 200.000đ/tài khoản/tháng (mã `ADD-BANK-ACC-2026`).
 - Kê khai FCT ngoài định mức: 1.000.000đ/hồ sơ (mã `ADD-FCT-RETURN-2026`).
 - Hỗ trợ thanh tra thuế tại trụ sở doanh nghiệp: 2.500.000đ/ngày làm việc (mã `ADD-TAX-INSPECT-2026`); Quý Khách thông báo và thanh toán trước theo ước lượng ít nhất 03 ngày, đối soát theo số ngày thực tế.
@@ -201,23 +202,20 @@ Phí Dịch Vụ được xác định theo Đơn Đặt Hàng (theo gói đối
 
 **10.2. Rà soát sức khỏe và khắc phục sổ sách kế toán quá khứ:**
 - Doanh nghiệp chuyển đổi từ đơn vị khác sang hoặc thành lập từ 01 năm trở lên bắt buộc thực hiện rà soát sức khỏe sổ sách ban đầu (mã `OBG-HEALTH-CHECK`).
-- Trường hợp sổ sách các năm trước có sai phạm cần làm lại, hai Bên ký phụ lục khắc phục sổ sách (mã `OBG-RESTATE-BASE`) tính theo công thức: Đơn giá tháng cơ sở x Số tháng x Hệ số ngành K x Hệ số chứng từ. oBacker được miễn trừ 100% trách nhiệm đối với số liệu trước thời điểm bàn giao.
+- Trường hợp sổ sách các năm trước có sai phạm cần làm lại, hai Bên ký phụ lục khắc phục sổ sách (mã `OBG-RESTATE-BASE`) tính theo công thức: Đơn giá tháng cơ sở x Số tháng x Hệ số ngành K x Hệ số chứng từ. oBacker được miễn trừ 100% trách nhiệm đối với mọi sai phạm, tiền truy thu thuế và tiền phạt vi phạm hành chính phát sinh từ số liệu quá khứ do Quý Khách hoặc đơn vị kế toán cũ thực hiện trước thời điểm bàn giao.
 
 **10.3. Cam kết thời hạn Quý 4 và hạn thanh toán đợt 2 trước 15/03:**
+- Hợp đồng Kế toán & Thuế không ký mới trong Quý 4 chấm dứt theo Điều 9.
 - Hợp đồng ký mới trong Quý 4 bắt buộc cam kết thời hạn tối thiểu 05 quý (đến hết 31/12 năm sau). Chấm dứt trước hạn bồi hoàn 03 tháng phí dịch vụ tương đương chi phí lập BCTC năm trước.
 - Phí BCTC và quyết toán năm chia 02 đợt (đợt 1 cùng Quý 4, đợt 2 trước 15/03 năm sau). Chậm thanh toán đợt 2 sau 15/03, oBacker tạm dừng nộp hồ sơ quyết toán; Quý Khách tự chịu phạt chậm nộp.
 
 **10.4. Áp dụng giá và mã phụ thu mới (chuyển tiếp từ 05/10/2026):**
-- Kể từ ngày 05/10/2026: phụ thu mở rộng định mức giao dịch dùng mã mới `ADD-TXN-BLOCK-500-2026`, `ADD-TXN-BLOCK-1000-2026`, `ADD-TXN-BLOCK-1500-2026` thay cho mã cũ `ADD-TXN-BLOCK-500`, `ADD-TXN-BLOCK-1000`, `ADD-TXN-BLOCK-1500` (giá không đổi); định mức giao dịch của Partner Core cho doanh nghiệp FDI là 100 Giao Dịch/tháng.
-- Kể từ ngày 05/10/2026: hỗ trợ thanh tra thuế tại trụ sở dùng mã mới `ADD-TAX-INSPECT-2026`, đơn giá 2.500.000đ/ngày làm việc, thay cho mã cũ `ADD-TAX-INSPECT` theo kỳ.
-- Kể từ ngày 05/10/2026: phụ phí tài khoản ngân hàng ngoài định mức dùng mã mới `ADD-BANK-ACC-2026` (200.000đ/tài khoản/tháng), thay cho mã cũ `ADD-BANK-ACC`; kê khai FCT ngoài định mức dùng mã mới `ADD-FCT-RETURN-2026` (1.000.000đ/hồ sơ), thay cho mã cũ `ADD-FCT-RETURN`.
-- Khách hiện tại (hợp đồng đang có hiệu lực trước ngày 05/10/2026): áp dụng giá và mã phụ thu đã ghi trong hợp đồng hoặc báo giá của khách đó đến hết ngày 31/03/2027; từ kỳ thu tiền bắt đầu từ ngày 01/04/2027, áp dụng giá và mã tại mục 10.1 và mục này.
-- Báo giá đã gửi: báo giá còn trong thời hạn hiệu lực giữ nguyên giá đã báo. Báo giá đã hết hạn hiệu lực mà Quý Khách yêu cầu báo giá lại từ ngày 05/10/2026: áp dụng giá tại mục 10.1 và mục này, giảm 35%.
+- Kể từ ngày 05/10/2026, các mã và giá phụ thu tại mục 10.1 áp dụng cho hợp đồng và báo giá mới.
+- Khách hiện tại (hợp đồng đang có hiệu lực trước ngày 05/10/2026): áp dụng giá và mã phụ thu đã ghi trong hợp đồng hoặc báo giá của khách đó đến hết ngày 31/03/2027; từ kỳ thu tiền bắt đầu từ ngày 01/04/2027, áp dụng giá và mã tại mục 10.1.
+- Báo giá đã gửi: báo giá còn trong thời hạn hiệu lực giữ nguyên giá đã báo. Báo giá đã hết hạn hiệu lực mà Quý Khách yêu cầu báo giá lại từ ngày 05/10/2026: áp dụng giá tại mục 10.1, giảm 35%.
 - Phụ thu thu theo kỳ tính theo kỳ phát sinh; phụ thu theo ngày tính theo số ngày làm việc thực tế chuyên viên tham gia.
 
 ---
-
-> **Bốn tiêu chí thông tin đầu vào (Điều 3 Bản Điều Khoản Chung):** Chính xác; Đầy đủ; Hợp pháp; Đúng hạn. Quý Khách tự lưu trữ chứng từ gốc theo Luật Kế toán; bản sao điện tử do oBacker lưu chỉ mang tính bổ sung, không thay thế nghĩa vụ này.
 
 **Công ty Cổ phần oBacker** · MST: 0402298185 · Tầng 2, 06 Trần Phú, Phường Hải Châu, TP Đà Nẵng, Việt Nam · contact@obacker.com · https://obacker.com
 
@@ -227,7 +225,7 @@ Phí Dịch Vụ được xác định theo Đơn Đặt Hàng (theo gói đối
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.2.3.2 | Bỏ vế mục đích ở Điều 1, câu dẫn để minh bạch, vế giải thích dòng chi phí và nhãn lưu ý ranh giới |
+| 08/10/2026 | V3.0.0 | Bỏ thuế TNCN từ lương, dùng mã phụ thu mới năm 2026, token phụ, ngưỡng Prime 7.000, khung thanh toán Quý 4. |
 

@@ -4,7 +4,8 @@ code: "OBK-QCNS-02"
 type: "sop"
 folder: "11_NhanSu"
 level: "Cấp 1, văn bản khung toàn công ty"
-version: "R.7.0.1"
+version: "V8.0.0"
+release: "R.26.10.08.1"
 status: "đang áp dụng"
 draft_date: "08/10/2026"
 author: "CEO"
@@ -29,7 +30,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-QCNS-02 |
 | Cấp tài liệu | Cấp 1, văn bản khung toàn công ty |
-| Phiên bản | R.7.0.1, đang áp dụng |
+| Phiên bản | V8.0.0, đang áp dụng |
+| Phát hành | R.26.10.08.1 |
 | Ngày biên soạn | 08/10/2026 |
 | Người biên soạn | `CEO` |
 | Người soát | `CEO` |
@@ -179,7 +181,7 @@ Người lao động chấm thiếu giờ vào hoặc giờ ra giữa ca vẫn �
 | P2 | Chuyên môn | Xử lý độc lập loại việc tiêu chuẩn và loại việc phức tạp thường gặp của vị trí; hỗ trợ người ở P1 |
 | P3 | Chuyên môn | Làm chủ toàn bộ nghiệp vụ của vị trí, gồm việc ngoại lệ và việc liên đơn vị; kèm cặp người ở P1 và P2 |
 | P4 | Chuyên môn | Đặt chuẩn chuyên môn cho đơn vị: xây dựng và chuẩn hóa quy trình, biểu mẫu, bảng kiểm cả đơn vị dùng; không chuyển sang quản lý |
-| M1 | Quản lý | Phụ trách một đơn vị theo [[OBK-QCTC-02_Bang_tham_quyen\|OBK-QCTC-02]] Điều 6 và có người báo cáo trực tiếp; chịu trách nhiệm cuối cho đầu ra của đơn vị |
+| M1 | Quản lý | Phụ trách một đơn vị theo [[OBK-QCTC-02_Bang_tham_quyen\|OBK-QCTC-02]] mục 3 và có người báo cáo trực tiếp; chịu trách nhiệm cuối cho đầu ra của đơn vị |
 
 1. Hướng chuyên môn gồm P1 đến P4; hướng quản lý gồm M1. Người ở P3 chọn hướng P4 hoặc hướng M1. Chỉ người ở P3 được xét lên M1.
 2. Cấp M1 là cấp năng lực và mức lương, không phải chức danh người quản lý, điều hành.
@@ -213,17 +215,10 @@ Người lao động chấm thiếu giờ vào hoặc giờ ra giữa ca vẫn �
 ### 6.1. Tăng lương theo hiệu suất, cuối mỗi kỳ đánh giá
 
 1. Đối tượng: nhân viên chính thức có hợp đồng lao động xác định thời hạn hoặc không xác định thời hạn.
-2. Điều kiện: làm việc ít nhất 02 tháng trong kỳ đánh giá được xét; kết quả đánh giá của kỳ từ 80% trở lên theo [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]].
-3. Việc xét tăng lương thực hiện cuối mỗi kỳ đánh giá tại [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] mục 0b, căn cứ kết quả đánh giá của kỳ đó. Kỳ đánh giá là 03 tháng liên tục, tính riêng cho từng người lao động từ ngày bắt đầu hợp đồng lao động chính thức.
-
-| Kết quả đánh giá của kỳ | Tỷ lệ tăng lương vị trí | Chế độ bổ sung |
-| --- | --- | --- |
-| Dưới 80% | 0% | Không xét tăng lương trong kỳ đánh giá |
-| Từ 80% đến dưới 90% | Tăng 1,5% | Không có |
-| Từ 90% đến dưới 100% | Tăng 2,5% | Không có |
-| Từ 100% trở lên | Tăng 3,5% | Thêm 01 ngày phép có hưởng lương |
-
-4. Mức tăng là mức tăng vĩnh viễn vào lương vị trí. Mức lương mới là cơ sở tính tăng lương của kỳ đánh giá tiếp theo.
+2. Điều kiện: làm việc ít nhất 02 tháng trong kỳ đánh giá được xét.
+3. Việc xét tăng lương thực hiện cuối mỗi kỳ đánh giá tại [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] mục 0b, căn cứ nhãn xếp loại cả kỳ của kỳ đó theo [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] mục 1.1. Kỳ đánh giá là 03 tháng liên tục, tính riêng cho từng người lao động từ ngày bắt đầu hợp đồng lao động chính thức.
+4. Mức tăng lương vị trí theo từng nhãn A, B, C, D do `CEO` quyết mỗi kỳ. Nhãn xếp loại cả kỳ là kết quả duy nhất của kỳ đánh giá dùng cho cả tăng lương tại mục này và thưởng hiệu quả công việc tại mục 9.
+5. Mức tăng là mức tăng vĩnh viễn vào lương vị trí. Mức lương mới là cơ sở tính tăng lương của kỳ đánh giá tiếp theo.
 
 ### 6.2. Tăng lương bù trượt giá, ngày 01/01 hằng năm
 
@@ -245,12 +240,12 @@ Người lao động được thăng cấp chuyển sang mức lương khởi đ
 
 | Chuyển cấp | Điều kiện bổ sung |
 | --- | --- |
-| P1 lên P2 | Tỷ lệ hồ sơ đạt chất lượng ngay lần đầu, cách đo RFT thuộc nhóm Chất lượng và Tiến độ công việc hoàn thành tại [[08_PL_A_Thang_cham_tieu_chi_chung\|OBK-QCNS-08-PL-A]] mục 3.2, từ 85% trở lên trong ít nhất 2 kỳ đánh giá liên tiếp; vị trí mà phiếu vị trí ghi không áp cách đo RFT thì không áp điều kiện này<br>Xử lý được loại việc của cấp P2 ở mức cơ bản, có giám sát<br>Trong 6 tháng gần nhất không có lỗi đầu ra mức Nghiêm trọng theo [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 11.2 |
+| P1 lên P2 | Tỷ lệ hồ sơ đạt chất lượng ngay lần đầu, cách đo RFT thuộc nhóm Chất lượng và Tiến độ công việc hoàn thành tại [[08_PL_A_Thang_cham_tieu_chi_chung\|OBK-QCNS-08-PL-A]] mục 3.2, từ 85% trở lên trong ít nhất 2 kỳ đánh giá liên tiếp; vị trí mà phiếu vị trí ghi không áp cách đo RFT thì không áp điều kiện này<br>Xử lý được loại việc của cấp P2 ở mức cơ bản, có giám sát<br>Trong 6 tháng gần nhất không có lỗi đầu ra mức Nghiêm trọng theo [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] mục 11.4 |
 | P2 lên P3 | Xử lý độc lập toàn bộ loại việc tiêu chuẩn của vị trí<br>Đã hỗ trợ hoặc kèm cặp ít nhất 1 người ở P1<br>Có ít nhất 1 đề xuất cải tiến quy trình được chấp thuận |
 | P3 lên P4 | Xử lý toàn bộ việc của vị trí, gồm việc ngoại lệ và việc liên đơn vị<br>Đã kèm cặp từ 2 người ở P1 hoặc P2 trở lên<br>Có từ 2 đề xuất cải tiến quy trình được chấp thuận trở lên<br>Đã chọn hướng chuyên môn tại cấp P3<br>Đã xây dựng hoặc chuẩn hóa từ 2 quy trình hoặc biểu mẫu quan trọng trở lên, cả đơn vị sử dụng<br>Kiến thức liên đơn vị được từ 2 người giữ cấp M1 của đơn vị khác xác nhận<br>Tại Phòng Dịch vụ, `CEO` và `COO` phê duyệt |
 | P3 lên M1 | Xử lý toàn bộ việc của vị trí, gồm việc ngoại lệ và việc liên đơn vị<br>Đã kèm cặp từ 2 người ở P1 hoặc P2 trở lên<br>Có từ 2 đề xuất cải tiến quy trình được chấp thuận trở lên<br>Phỏng vấn năng lực quản lý với `CEO`; người thuộc một bộ phận của Phòng Dịch vụ, hoặc thuộc Bộ phận Công nghệ và Sản phẩm, phỏng vấn với `COO` và `CEO` |
 
-4. Người thuộc một trong bốn trường hợp sau không được xét thăng cấp: đang trong kế hoạch hỗ trợ cải thiện; có vi phạm kỷ luật lao động chưa xóa kỷ luật theo [[Noi_quy_lao_dong|OBK-NQLD]] Điều 47; có kỳ kích hoạt quy tắc chặn điểm `CD-01` hoặc `CD-03` tại [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] mục 5 trong 2 kỳ gần nhất; vi phạm một trong bảy hành vi oBacker nghiêm cấm tại [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 9.
+4. Người thuộc một trong bốn trường hợp sau không được xét thăng cấp: đang trong kế hoạch hỗ trợ cải thiện; có vi phạm kỷ luật lao động chưa xóa kỷ luật theo [[Noi_quy_lao_dong|OBK-NQLD]] Điều 47; có kỳ kích hoạt quy tắc chặn điểm `CD-01` hoặc `CD-03` tại [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] mục 5 trong 2 kỳ gần nhất; vi phạm một trong các hành vi oBacker nghiêm cấm tại [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] mục 11.6.
 5. Một người chỉ được xét theo một hướng trong một kỳ đánh giá. Số năm kinh nghiệm không tự động dẫn tới thăng cấp.
 6. Quy trình xét thăng cấp:
 
@@ -270,7 +265,7 @@ Người lao động được thăng cấp chuyển sang mức lương khởi đ
 | --- | --- |
 | Tiền lương thời gian thực tế | (Lương vị trí chia cho số ngày làm việc bình thường của chu kỳ lương) nhân với (số ngày công làm việc thực tế cộng số ngày nghỉ hằng năm hưởng lương cộng số ngày nghỉ lễ, tết hưởng nguyên lương) |
 | Tiền làm thêm giờ | (Giờ làm thêm ngày thường nhân tiền lương giờ làm cơ sở tính làm thêm giờ nhân 150%) cộng (giờ làm thêm ngày nghỉ hằng tuần nhân tiền lương giờ làm cơ sở tính làm thêm giờ nhân 200%) cộng (giờ làm thêm ngày nghỉ lễ, tết nhân tiền lương giờ làm cơ sở tính làm thêm giờ nhân 300%) |
-| Tổng thu nhập trong kỳ | Tiền lương thời gian thực tế, cộng tiền làm thêm giờ, cộng phụ cấp trách nhiệm, cộng hỗ trợ ăn trưa và đi lại, cộng thưởng hiệu quả công việc của tháng, cộng thưởng doanh thu tháng đã chi ngày 15, cộng phần tiền trả bù của kỳ trước |
+| Tổng thu nhập trong kỳ | Tiền lương thời gian thực tế, cộng tiền làm thêm giờ, cộng phụ cấp trách nhiệm, cộng hỗ trợ ăn trưa và đi lại, cộng thưởng hiệu quả công việc chi trong kỳ, cộng thưởng doanh thu tháng đã chi ngày 15, cộng phần tiền trả bù của kỳ trước |
 | Trích nộp của người lao động | Bảo hiểm xã hội 8% (Luật Bảo hiểm xã hội 41/2024/QH15 Điều 33 khoản 1 điểm a); bảo hiểm y tế 1,5%, là một phần ba của mức đóng 4,5% (Nghị định 188/2025/NĐ-CP Điều 6 khoản 1 điểm a); bảo hiểm thất nghiệp 1% (Nghị định 374/2025/NĐ-CP Điều 4 khoản 1); tổng 10,5% tiền lương làm căn cứ đóng |
 | Tổng các khoản khấu trừ | Trích nộp bảo hiểm, cộng thuế thu nhập cá nhân tạm khấu trừ, cộng thưởng doanh thu đã chi ngày 15, cộng tạm ứng tiền lương đã chi trong kỳ, cộng khoản bồi thường theo mục 2 điểm 5 |
 | Tiền lương thực lĩnh | Tổng thu nhập trong kỳ trừ tổng các khoản khấu trừ |
@@ -293,11 +288,14 @@ Người lao động được thăng cấp chuyển sang mức lương khởi đ
 
 | Thời điểm | Việc | Người làm | Người kiểm tra hoặc duyệt |
 | --- | --- | --- | --- |
-| Ngày 21 đến ngày 23 | Đối chiếu bảng chấm công với đơn nghỉ phép và đăng ký làm thêm giờ đã duyệt trên sổ cái | `HR` | Quản lý trực tiếp |
-| Ngày 22 | Chuyển bảng chấm công đã có chữ ký phê duyệt của `CEO` cho `KTV`; mọi sửa đổi dữ liệu công sau ngày 22 cần văn bản phê duyệt bổ sung của `CEO` | `HR` | `CEO` |
+| Ngày 16 | Tổng hợp bảng công tạm và gửi từng người lao động xác nhận, theo Job NB-33 tại [[BK-01_Bang_kiem_noi_bo\|BK-01]]. Từ ngày 16 đến ngày 19, người lao động xác nhận; hết ngày 19 không phản hồi thì xác định là đã xác nhận | `HR` | Không áp dụng |
+| Ngày 16 đến ngày 20 | Đối chiếu bảng chấm công với đơn nghỉ phép và đăng ký làm thêm giờ đã duyệt trên sổ cái | `HR` | Quản lý trực tiếp |
+| Ngày 20 | Cộng công từ ngày 16 đến ngày 20 và chốt bảng công, theo Job NB-34; rà soát giới hạn giờ làm thêm, theo Job NB-47 tại [[BK-01_Bang_kiem_noi_bo\|BK-01]] | `HR` | Không áp dụng |
+| Ngày 21 | Duyệt toàn bảng công bằng một chữ ký trên bảng chấm công BM-09, theo Job NB-35 tại [[BK-01_Bang_kiem_noi_bo\|BK-01]]; người lập bảng là `HR` | `HR` | `CEO` |
+| Sau khi `CEO` duyệt bảng công | Chuyển bảng chấm công đã duyệt cho `KTV`; mọi sửa đổi dữ liệu công sau khi `CEO` duyệt cần văn bản phê duyệt bổ sung của `CEO` | `HR` | `CEO` |
 | Ngày 23 đến ngày 25 | Tính lương, lập bảng kê làm thêm giờ, trừ tạm ứng, lập bảng thanh toán tiền lương theo mẫu số 01-LĐTL của Thông tư 99/2025/TT-BTC | `KTV` | `KTT` |
 | Ngày 24 đến ngày 25 | Xác định danh sách người lao động bị xử lý kỷ luật lao động để áp dụng mức mất hoặc giảm trừ thưởng theo mục 12 | `HR` | `KTT` |
-| Ngày 25 | Kiểm soát công thức tính lương, tỷ lệ trích nộp bảo hiểm, thuế thu nhập cá nhân; đối chiếu quỹ lương với ngân sách năm đã duyệt; ký xác nhận chức danh Kế toán trưởng | `KTT` | Không áp dụng |
+| Ngày 25 | Kiểm soát công thức tính lương, tỷ lệ trích nộp bảo hiểm, thuế thu nhập cá nhân; ký xác nhận chức danh Kế toán trưởng | `KTT` | Không áp dụng |
 | Trước ngày 28 | Phê duyệt bảng thanh toán tiền lương và thưởng, kèm chứng từ giải trình biến động | `KTT` trình | `CEO` |
 | Ngày làm việc cuối cùng của tháng | Tạo lệnh chuyển khoản tiền lương; xác nhận lệnh theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 35; lưu chứng từ chuyển tiền | `NTT` (`KTV` hoặc `KTT`) | `CEO` hoặc Chủ tịch HĐQT |
 
@@ -330,7 +328,7 @@ oBacker không áp dụng phạt tiền hoặc cắt lương thay cho kỷ luậ
 | C | Cần cải thiện | 50% |
 | D | Không đạt | Không hưởng thưởng của kỳ đó |
 
-2. `CEO` phê duyệt quỹ thưởng hiệu quả công việc hằng quý dựa trên kết quả lợi nhuận hoạt động của toàn công ty.
+2. `CEO` phê duyệt quỹ thưởng hiệu quả công việc của từng kỳ đánh giá dựa trên kết quả lợi nhuận hoạt động của toàn công ty.
 
 ## 10. Thưởng doanh thu hằng tháng
 
@@ -389,16 +387,16 @@ Người lao động nhận thưởng doanh thu khi còn làm việc tại oBack
 ## 11. Thưởng không định kỳ
 
 1. Mục đích: ghi nhận thành tích xuất sắc ngay trong tháng phát sinh.
-2. Người được xét: người làm việc theo hợp đồng lao động với oBacker, kể cả người làm việc không trọn thời gian, là thành viên trong bộ phận của Team Lead bộ phận lập đề xuất. Cộng tác viên không thuộc đối tượng xét; khoản trả cho cộng tác viên là thù lao theo hợp đồng dịch vụ.
-3. Team Lead bộ phận đề xuất thưởng bằng văn bản và ghi sự kiện Tạo vào sổ cái. Đề xuất ghi: người được đề xuất thưởng; căn cứ xét, tức thành tích hoặc đóng góp cụ thể và tháng phát sinh; tiêu chí đã đạt, tức thành tích hoặc đóng góp làm phát sinh khoản thưởng; kết quả kiểm ba trường hợp loại trừ tại điểm 5; mức được hưởng và hình thức thưởng, bằng tiền, bằng hiện vật, bằng điểm đánh giá hiệu suất hoặc bằng hình thức thưởng hợp lý khác. Đề xuất chỉ đủ điều kiện phê duyệt khi ghi đủ các nội dung trên.
+2. Người được xét: người làm việc theo hợp đồng lao động với oBacker, kể cả người làm việc không trọn thời gian, là thành viên trong bộ phận của trưởng bộ phận lập đề xuất. Cộng tác viên không thuộc đối tượng xét; khoản trả cho cộng tác viên là thù lao theo hợp đồng dịch vụ.
+3. Trưởng bộ phận đề xuất thưởng bằng văn bản và ghi sự kiện Tạo vào sổ cái. Đề xuất ghi: người được đề xuất thưởng; căn cứ xét, tức thành tích hoặc đóng góp cụ thể và tháng phát sinh; tiêu chí đã đạt, tức thành tích hoặc đóng góp làm phát sinh khoản thưởng; kết quả kiểm ba trường hợp loại trừ tại điểm 5; mức được hưởng và hình thức thưởng, bằng tiền, bằng hiện vật, bằng điểm đánh giá hiệu suất hoặc bằng hình thức thưởng hợp lý khác. Đề xuất chỉ đủ điều kiện phê duyệt khi ghi đủ các nội dung trên.
 4. `BOM` phê duyệt hoặc điều chỉnh mức thưởng trên chính bản ghi đề xuất, và ghi sự kiện Duyệt vào sổ cái. Đề xuất đã phê duyệt là quyết định thưởng, ghi điều kiện được hưởng và mức được hưởng; khi `BOM` điều chỉnh mức thưởng thì mức được hưởng là mức đã điều chỉnh.
 5. Đề xuất thuộc một trong ba trường hợp sau không đủ điều kiện phê duyệt:
-   - người được đề xuất ngoài bộ phận của Team Lead bộ phận lập đề xuất;
+   - người được đề xuất ngoài bộ phận của trưởng bộ phận lập đề xuất;
    - lý do trong đề xuất là lý do chung, thiếu thành tích hoặc đóng góp cụ thể;
    - người được đề xuất bị xử lý kỷ luật lao động theo Chương IX [[Noi_quy_lao_dong|OBK-NQLD]] trong tháng phát sinh ở một trong ba hình thức: kéo dài thời hạn nâng lương, cách chức, sa thải.
 6. `KTV` chi thưởng vào ngày 15 của tháng liền sau tháng phê duyệt, cùng ngày chi thưởng doanh thu. Người được thưởng nghỉ việc trước ngày chi vẫn nhận khoản thưởng đã phê duyệt, trong khoản thanh toán khi nghỉ việc.
 7. Tổng tiền thưởng chi ngày 15 của tháng M+1 bằng thưởng doanh thu tháng M cộng tổng thưởng không định kỳ được phê duyệt trong tháng M. Thưởng không trừ vào lương vị trí.
-8. Team Lead bộ phận lưu đề xuất thưởng. Báo cáo tổng hợp hằng tháng gửi `BOM` và người lao động.
+8. Trưởng bộ phận lưu đề xuất thưởng. Báo cáo tổng hợp hằng tháng gửi `BOM` và người lao động.
 
 ## 12. Thưởng lương tháng 13 và mất quyền hưởng thưởng
 
@@ -411,7 +409,7 @@ Người lao động nhận thưởng doanh thu khi còn làm việc tại oBack
 
 ### 12.2. Mất toàn bộ quyền hưởng thưởng
 
-Người lao động mất toàn bộ quyền hưởng thưởng hiệu quả công việc, thưởng doanh thu tháng, quý và thưởng lương tháng 13 khi thuộc một trong các trường hợp sau:
+Người lao động mất toàn bộ quyền hưởng thưởng hiệu quả công việc, thưởng doanh thu tháng và thưởng lương tháng 13 khi thuộc một trong các trường hợp sau:
 
 1. Bị xử lý kỷ luật lao động bằng một trong ba hình thức theo BLLĐ Điều 124 và [[Noi_quy_lao_dong|OBK-NQLD]] Điều 36: kéo dài thời hạn nâng lương không quá 06 tháng; cách chức; sa thải.
 2. Phạm vi mất thưởng: với thưởng hiệu quả công việc và thưởng doanh thu, mất toàn bộ tiền thưởng của kỳ phát sinh hành vi vi phạm và kỳ ban hành quyết định kỷ luật; với thưởng lương tháng 13, mất toàn bộ tiền thưởng của năm tài chính mà người lao động bị áp dụng một trong ba hình thức kỷ luật trên.
@@ -426,7 +424,7 @@ Hành vi bị khiển trách bằng văn bản không làm mất toàn bộ ti�
 
 ## 13. Điều khoản thi hành
 
-1. Quy chế có hiệu lực kể từ ngày ban hành, thay thế OBK-QCNS-02 bản R.2.1.0, OBK-QCNS-01, OBK-QCNS-06, OBK-QCNS-07 và phiếu LU-01. Quy định trước đây trái với quy chế bị bãi bỏ.
+1. Quy chế có hiệu lực kể từ ngày ban hành. Quy định trước đây trái với quy chế bị bãi bỏ.
 2. Khi văn bản pháp luật được viện dẫn trong quy chế được sửa đổi, bổ sung hoặc thay thế, oBacker áp dụng văn bản mới.
 3. oBacker có quyền điều chỉnh chương trình tăng lương, thưởng khi tổ chức thay đổi hoặc khi pháp luật lao động thay đổi, và thông báo trước ít nhất 01 tháng.
 4. `CEO` quyết định sửa đổi, bổ sung quy chế bằng văn bản, sau khi tham khảo ý kiến của tổ chức đại diện người lao động tại cơ sở (nếu có).
@@ -435,6 +433,6 @@ Hành vi bị khiển trách bằng văn bản không làm mất toàn bộ ti�
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.7.0.1 | Bỏ hàng mô tả ở bảng đầu, câu kỳ lương kết thúc ngày 20, các vế giải thích ở mục 4.3, 6.3, 7.1 và câu không đặt lại ngưỡng ở mục 9 |
+| 08/10/2026 | V8.0.0 | Tăng lương theo nhãn A, B, C, D do CEO quyết mỗi kỳ; lịch lương mục 7.3 theo BK-01. |

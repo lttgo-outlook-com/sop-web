@@ -1,11 +1,12 @@
 ---
-title: "BỘ T&C oBacker R.1.0.0; SONG NGỮ (VI-EN) · INDEX"
+title: "BỘ ĐIỀU KHOẢN VÀ ĐIỀU KIỆN oBacker; SONG NGỮ (VI-EN) · INDEX"
 code: "TNC-INDEX"
 aliases:
   - TNC-INDEX
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.0.2"
+version: "V1.1.0"
+release: "R.26.10.08.1"
 status: "đang áp dụng"
 author: "CEO"
 reviewer: "CEO"
@@ -15,10 +16,10 @@ previous_version: ""
 tags:
   - loai/tnc
 ---
-# BỘ T&C oBacker R.1.0.0; SONG NGỮ (VI-EN) · INDEX
-### oBacker Terms & Conditions Set R.1.0.0; Bilingual (VI-EN) · Index
+# BỘ ĐIỀU KHOẢN VÀ ĐIỀU KIỆN oBacker; SONG NGỮ (VI-EN) · INDEX
+### oBacker Terms & Conditions Set; Bilingual (VI-EN) · Index
 
-**Cập nhật / Updated:** 21/09/2026
+**Phiên bản / Version:** V1.1.0 · **Phát hành / Release:** R.26.10.08.1 · **Cập nhật / Updated:** 08/10/2026
 
 > Mỗi tài liệu có **bản tiếng Việt** và **bản tiếng Anh độc lập**. Nội dung pháp lý, số liệu, citation và cấu trúc điều khoản đồng nhất giữa hai ngôn ngữ.
 >
@@ -43,7 +44,7 @@ tags:
 ## Ghi chú / Notes
 
 - **Thứ tự ưu tiên áp dụng / Order of precedence:** Đơn Đặt Hàng → Điều Khoản Dịch Vụ Cụ Thể (PL-*) → T&C Master → Chính sách Dữ liệu. / Order Form → Service-Specific Terms (PL-*) → Master T&C → Data Protection Policy.
-- **Bản gốc để đối chiếu / Source of truth:** bộ tiếng Việt v9. / Vietnamese v9 set.
+- **Bản gốc để đối chiếu / Source of truth:** bộ tiếng Việt. / The Vietnamese set.
 
 ---
 
@@ -51,6 +52,6 @@ tags:
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.1.0.2 | Bỏ câu tự đánh giá văn phong và hai danh sách việc tồn đọng |
+| 08/10/2026 | V1.1.0 | Tiêu đề bỏ nhãn bản, gọi tên bộ tiếng Việt nhất quán. |

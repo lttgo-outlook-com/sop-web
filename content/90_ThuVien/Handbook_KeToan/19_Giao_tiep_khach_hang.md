@@ -4,8 +4,9 @@ code: "OBK-SOP-19"
 type: "sop"
 folder: "90_ThuVien"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.2.0.1"
-status: "đang áp dụng"
+version: "V2.0.2"
+release: "R.26.10.08.1"
+status: "thư viện tham khảo"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -30,7 +31,8 @@ tags:
 | Mã tài liệu | OBK-SOP-19 |
 | Tên chương | Giao tiếp và quản trị kỳ vọng khách hàng |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.2.0.1, đang áp dụng |
+| Phiên bản | V2.0.2, thư viện tham khảo |
+| Phát hành | R.26.10.08.1 |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -163,11 +165,10 @@ Chương này không đặt con số mốc phản hồi. Mốc phản hồi khá
 
 | Đồng hồ | Nội dung | Nơi đặt con số |
 | --- | --- | --- |
-| **T1 Xác nhận đã nhận** | Khách biết yêu cầu đã tới đúng người | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 7.2.3 |
-| **T2 Cam kết mốc trả lời** | Khách biết BAO GIỜ có câu trả lời | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 7.2.4 |
+| **T1 Xác nhận đã nhận** | Khách biết yêu cầu đã tới đúng người | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 7.2a |
+| **T2 Cam kết mốc trả lời** | Khách biết BAO GIỜ có câu trả lời | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 7.2a |
 | **T3 Trả lời hoàn chỉnh** | Khách nhận được câu trả lời hoặc sản phẩm | Bảng Job của [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]], tra nhanh tại Phụ lục G mục 10.2 |
 
-Ba mức ưu tiên P1, P2, P3 và SLA xử lý theo mức: [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 7.3.
 
 Quy tắc: phản hồi lần đầu không cần có câu trả lời. T1 chỉ cần xác nhận đã nhận; T2 chỉ cần nêu mốc sẽ trả lời. Im lặng vì chưa có câu trả lời là lỗi quy trình mức 5 theo Chương 18.
 
@@ -521,7 +522,7 @@ Quy định nội bộ oBacker, phân thành ba mức.
 | --- | --- | --- | --- | --- |
 | 1, nhẹ | Chậm trễ, sai sót trình bày, thái độ phục vụ;<br>không ảnh hưởng nghĩa vụ thuế và không phát sinh thiệt hại tài chính | AM, báo cáo COO | Theo Phụ lục G mục 10.2 dòng S6 và [[PL_Chuyen_len_cap_tren\|OBK-QCTC-02-PL-C]] | 3 ngày làm việc |
 | 2, trung bình | Sai sót ảnh hưởng số liệu nhưng đã khắc phục kịp, không phát sinh nghĩa vụ tài chính cho khách;<br>hoặc khiếu nại lặp lại lần thứ hai về cùng nội dung | `COO` kết luận;<br>`AM` là người mời, người gửi và người ký với khách, `COO` dự cùng `AM` | Theo Phụ lục G mục 10.2 dòng S6 và [[PL_Chuyen_len_cap_tren\|OBK-QCTC-02-PL-C]] | 5 ngày làm việc |
-| 3, nghiêm trọng | Phát sinh nghĩa vụ tài chính cho khách;<br>khách nêu yêu cầu bồi thường;<br>khách nêu ý định chấm dứt hợp đồng;<br>khiếu nại liên quan tới đạo đức nghề nghiệp hoặc bảo mật | `CEO` kết luận;<br>`AM` là người mời, người gửi và người ký với khách, `CEO` và `COO` dự cùng `AM` | Theo Phụ lục G mục 10.2 dòng S6 và [[PL_Chuyen_len_cap_tren\|OBK-QCTC-02-PL-C]];<br>sự cố mức P1 theo [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 7.3 | 10 ngày làm việc, có thể gia hạn một lần kèm thông báo lý do |
+| 3, nghiêm trọng | Phát sinh nghĩa vụ tài chính cho khách;<br>khách nêu yêu cầu bồi thường;<br>khách nêu ý định chấm dứt hợp đồng;<br>khiếu nại liên quan tới đạo đức nghề nghiệp hoặc bảo mật | `CEO` kết luận;<br>`AM` là người mời, người gửi và người ký với khách, `CEO` và `COO` dự cùng `AM` | Theo Phụ lục G mục 10.2 dòng S6 và [[PL_Chuyen_len_cap_tren\|OBK-QCTC-02-PL-C]];<br>sự cố mức P1 | 10 ngày làm việc, có thể gia hạn một lần kèm thông báo lý do |
 
 Sáu bước xử lý một khiếu nại, áp cho mọi mức:
 
@@ -858,6 +859,6 @@ Mọi liên hệ tiếp theo sau cuộc họp đi qua `AM`. CV-KT KHÔNG có m�
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.2.0.1 | Bỏ câu hậu quả, câu thống kê khiếu nại, câu quảng bá mẫu, cảnh báo kể chuyện và các cột vì sao, hậu quả, biểu hiện |
+| 08/10/2026 | V2.0.2 | Đặt trạng thái thư viện tham khảo và sửa dẫn chiếu tới OBK-MSR trong 19_Giao_tiep_khach_hang. |

@@ -5,7 +5,8 @@ aliases:
   - TNC-06-VI
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.0.1"
+version: "V1.1.0"
+release: "R.26.10.08.1"
 status: "đang áp dụng"
 author: "CEO"
 reviewer: "CEO"
@@ -20,7 +21,7 @@ tags:
 ### Bao gồm phần riêng cho Dữ liệu Nhạy cảm
 
 **Áp dụng cho:** Công ty cổ phần oBacker
-**Phiên bản:** R.1.0.0 (VI-EN) · **Ngày ban hành:** 21/09/2026 · **Ngày hiệu lực:** 21/09/2026
+**Phiên bản:** V1.1.0 (VI-EN) · **Phát hành:** R.26.10.08.1 · **Ngày ban hành:** 21/09/2026 · **Ngày hiệu lực:** 21/09/2026
 
 ---
 
@@ -28,7 +29,7 @@ tags:
 
 ## Điều 1. Giới thiệu và phạm vi áp dụng
 
-**1.1. oBacker là ai.** **Công ty Cổ phần oBacker** (sau đây gọi là "oBacker" hoặc "chúng tôi") cung cấp dịch vụ vận hành doanh nghiệp cho doanh nghiệp vừa và nhỏ và doanh nghiệp FDI tại Việt Nam: kế toán, thuế, nhân sự, tiền lương, cấp phép và quản trị hồ sơ doanh nghiệp. Mảng **tư vấn/dịch vụ pháp lý** được cung cấp trong khuôn khổ hợp tác với **công ty luật đối tác độc lập** (dự kiến là Công ty Luật oBacker Law; sẽ thành lập). Việc xử lý dữ liệu cá nhân trong hồ sơ pháp lý do công ty luật đối tác lưu giữ còn chịu sự điều chỉnh của Luật Luật sư và đạo đức nghề nghiệp áp dụng cho tổ chức đó.
+**1.1. oBacker là ai.** **Công ty Cổ phần oBacker** (sau đây gọi là "oBacker" hoặc "chúng tôi") cung cấp dịch vụ vận hành doanh nghiệp cho doanh nghiệp vừa và nhỏ và doanh nghiệp FDI tại Việt Nam: kế toán, thuế, nhân sự, tiền lương, cấp phép và quản trị hồ sơ doanh nghiệp. Mảng **tư vấn/dịch vụ pháp lý** được cung cấp trong khuôn khổ hợp tác với **công ty luật đối tác độc lập**. Việc xử lý dữ liệu cá nhân trong hồ sơ pháp lý do công ty luật đối tác lưu giữ còn chịu sự điều chỉnh của Luật Luật sư và đạo đức nghề nghiệp áp dụng cho tổ chức đó.
 
 Trong Chính sách này, "Quý Khách" hoặc "Chủ thể dữ liệu" là cá nhân có dữ liệu cá nhân được oBacker xử lý, có thể là: người đại diện, người liên hệ của khách hàng doanh nghiệp; người lao động của khách hàng (khi oBacker xử lý hồ sơ nhân sự, tiền lương, thuế TNCN, BHXH thay khách hàng); cổ đông, thành viên góp vốn, người đại diện theo pháp luật của khách hàng; người dùng truy cập trang web obacker.com; ứng viên ứng tuyển vào oBacker; và các cá nhân liên quan khác.
 
@@ -76,7 +77,6 @@ Chính sách được xây dựng trên cơ sở pháp luật Việt Nam, bao g�
 | Người đại diện theo pháp luật | Nguyễn Thị Thu Trang, Chủ tịch hội đồng quản trị |
 | Đầu mối phụ trách bảo vệ dữ liệu cá nhân (DPO) | Nguyễn Thị Thu Trang |
 | Email phụ trách dữ liệu cá nhân | privacy@obacker.com |
-| Điện thoại | [___] |
 | Trang web | obacker.com |
 
 **4.2. Vai trò của oBacker.** Tùy tình huống, oBacker có thể đóng một trong các vai trò sau:
@@ -188,7 +188,7 @@ Dịch vụ của oBacker hướng tới doanh nghiệp và cá nhân thành ni�
 
 ## Điều 16. Cookie và công nghệ tương tự trên trang web obacker.com
 
-Trang web sử dụng cookie (tệp dữ liệu nhỏ lưu trên trình duyệt) để ghi nhớ tùy chọn, phân tích lưu lượng và cải thiện trải nghiệm. Quý Khách có thể quản lý hoặc từ chối cookie qua thiết lập trình duyệt; một số tính năng có thể không hoạt động đầy đủ nếu cookie thiết yếu bị vô hiệu hóa. Cookie thiết yếu không yêu cầu đồng ý. Cookie phân tích, quảng cáo, tiếp thị bám đuổi (Google Analytics, Meta Pixel, bản đồ nhiệt…) yêu cầu sự đồng ý riêng, thông qua Thông báo Cookie và Trung tâm tùy chọn cookie. Hiện tại oBacker [đang/không] sử dụng công cụ phân tích lưu lượng của bên thứ ba; chi tiết cập nhật tại obacker.com/cookies.
+Trang web sử dụng cookie (tệp dữ liệu nhỏ lưu trên trình duyệt) để ghi nhớ tùy chọn, phân tích lưu lượng và cải thiện trải nghiệm. Quý Khách có thể quản lý hoặc từ chối cookie qua thiết lập trình duyệt; một số tính năng có thể không hoạt động đầy đủ nếu cookie thiết yếu bị vô hiệu hóa. Cookie thiết yếu không yêu cầu đồng ý. Cookie phân tích, quảng cáo, tiếp thị bám đuổi (Google Analytics, Meta Pixel, bản đồ nhiệt…) yêu cầu sự đồng ý riêng, thông qua Thông báo Cookie và Trung tâm tùy chọn cookie. Chi tiết cập nhật tại obacker.com/cookies.
 
 ## Điều 17. Thông báo vi phạm dữ liệu cá nhân
 
@@ -208,7 +208,6 @@ oBacker có thể cập nhật Chính sách theo thời gian; phiên bản cập
 |---|---|
 | Bộ phận phụ trách / DPO | Bộ phận pháp chế và bảo vệ dữ liệu cá nhân; oBacker |
 | Email | privacy@obacker.com |
-| Điện thoại | [___] |
 | Địa chỉ nhận yêu cầu | Tầng 2, 06 Trần Phú, Phường Hải Châu, Thành phố Đà Nẵng |
 | Trang web | obacker.com |
 
@@ -231,7 +230,7 @@ Dữ liệu gắn liền với quyền riêng tư mà khi bị xâm phạm sẽ 
 | Tài khoản ngân hàng, lương, thưởng, phụ cấp, khấu trừ (TNCN, BHXH, BHYT, BHTN, công đoàn…) | Xử lý tiền lương, kê khai TNCN, đóng BHXH/BHYT/BHTN, chi lương cho NLĐ của khách hàng | Khách hàng cung cấp;<br>NLĐ khi cần xác minh |
 | Tỷ lệ sở hữu vốn, cổ phần, hồ sơ vay-chuyển đổi cổ phần, chuyển nhượng vốn | Tư vấn cấu trúc cổ đông, đăng ký doanh nghiệp, M&A, cấp phép đầu tư | Khách hàng cung cấp qua hồ sơ doanh nghiệp |
 | Tình trạng sức khỏe (giới hạn) trong hồ sơ ốm, thai sản, giám định BHXH | Xử lý quyền lợi BHXH, BHYT cho NLĐ của khách hàng | Khách hàng / NLĐ cung cấp |
-| Dữ liệu sinh trắc học (chữ ký điện tử, USB Token…) | Ký kết tài liệu pháp lý theo ủy quyền | Trực tiếp từ người ký |
+| Dữ liệu sinh trắc học (chữ ký điện tử có yếu tố sinh trắc) | Ký kết tài liệu pháp lý theo ủy quyền | Trực tiếp từ người ký |
 | Tiền sử pháp lý (nếu có) | Tư vấn pháp lý, đánh giá rủi ro FDI/cấp phép có điều kiện | Khách hàng;<br>cơ quan nhà nước |
 | Dữ liệu vị trí (giới hạn, khi áp dụng) | Cung cấp dịch vụ cụ thể mà Quý Khách đã đồng ý chia sẻ dữ liệu vị trí | Chỉ khi Quý Khách chủ động cấp quyền |
 
@@ -292,7 +291,7 @@ Vì oBacker sử dụng Google Workspace, dữ liệu nhạy cảm có thể đ�
 
 ## Điều 29. Hiệu lực thi hành
 
-Chính sách có hiệu lực kể từ ngày 21/09/2026. Phiên bản R.1.0.0 (hợp nhất) thay thế mọi phiên bản trước đó (nếu có), bao gồm các bản Chính sách bảo vệ dữ liệu cá nhân chung và Chính sách bảo vệ dữ liệu cá nhân nhạy cảm riêng lẻ.
+Chính sách có hiệu lực kể từ ngày 21/09/2026. Phiên bản V1.0.0 (hợp nhất) thay thế mọi phiên bản trước đó (nếu có), bao gồm các bản Chính sách bảo vệ dữ liệu cá nhân chung và Chính sách bảo vệ dữ liệu cá nhân nhạy cảm riêng lẻ.
 
 Đà Nẵng, ngày 21 tháng 09 năm 2026
 **ĐẠI DIỆN CÔNG TY CỔ PHẦN OBACKER** (Ký, ghi rõ họ tên, đóng dấu)
@@ -303,6 +302,6 @@ Chính sách có hiệu lực kể từ ngày 21/09/2026. Phiên bản R.1.0.0 (
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.1.0.1 | Bỏ ba đoạn mở đầu về niềm tin, phần diễn giải đầu Phần II, câu không hệ thống nào an toàn tuyệt đối và các nhãn lưu ý |
+| 08/10/2026 | V1.1.0 | Bỏ dòng điện thoại để trống, bỏ nội dung oBacker Law, làm rõ dòng sinh trắc. |

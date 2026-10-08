@@ -4,8 +4,9 @@ code: "OBK-HB-10"
 type: "sop"
 folder: "90_ThuVien"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.2.0.1"
-status: "đang áp dụng"
+version: "V2.0.2"
+release: "R.26.10.08.1"
+status: "thư viện tham khảo"
 draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -30,7 +31,8 @@ tags:
 | Mã tài liệu | OBK-HB-10 |
 | Tên chương | Thuế thu nhập doanh nghiệp |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.2.0.1, đang áp dụng |
+| Phiên bản | V2.0.2, thư viện tham khảo |
+| Phát hành | R.26.10.08.1 |
 | Ngày biên soạn | 04/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -1629,6 +1631,6 @@ Khi nhận chứng từ thanh toán cho bên nước ngoài, CV-KT kiểm tra h�
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.2.0.1 | Bỏ câu hậu quả, đoạn nhấn mạnh lỗi số một, câu lặp, lời nhắc cũ quanh bảng dự phòng và khấu hao, phần diễn giải mốc ngày |
+| 08/10/2026 | V2.0.2 | Đặt trạng thái thư viện tham khảo và sửa dẫn chiếu tới OBK-MSR trong 10_Thue_TNDN. |

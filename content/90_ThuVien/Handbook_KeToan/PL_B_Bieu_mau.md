@@ -4,8 +4,9 @@ code: "OBK-SOP-PL-B"
 type: "sop"
 folder: "90_ThuVien"
 level: "Phụ lục"
-version: "R.2.0.1"
-status: "đang áp dụng"
+version: "V2.0.2"
+release: "R.26.10.08.1"
+status: "thư viện tham khảo"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -29,7 +30,8 @@ tags:
 | Mã tài liệu | OBK-SOP-PL-B |
 | Tên phụ lục | Biểu mẫu nội bộ |
 | Cấp tài liệu | Phụ lục của hướng dẫn cấp 3 |
-| Phiên bản | R.2.0.1, đang áp dụng |
+| Phiên bản | V2.0.2, thư viện tham khảo |
+| Phát hành | R.26.10.08.1 |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -884,7 +886,7 @@ Cột nguyên nhân gốc không được ghi "bất cẩn" hoặc "sơ suất".
 
 ### Phần thân
 
-| # | Mã lỗi | Ngày phát hiện | Khách hàng | Kỳ | Đầu ra liên quan | Mô tả lỗi | Nhóm A/B/C | Mức 1 tới 7 | Mức công ty theo [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 11.2 | Ảnh hưởng số tiền | Lớp phát hiện, và biên đã vượt theo [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 11.2 | Người phát hiện | Người mắc lỗi | Nguyên nhân gốc | Biện pháp khắc phục | Biện pháp phòng ngừa tái diễn | Hạn khắc phục | Ngày khắc phục xong | Người đóng lỗi | Ngày đóng | Trạng thái |
+| # | Mã lỗi | Ngày phát hiện | Khách hàng | Kỳ | Đầu ra liên quan | Mô tả lỗi | Nhóm A/B/C | Mức 1 tới 7 | Mức công ty theo [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] | Ảnh hưởng số tiền | Lớp phát hiện, và biên đã vượt theo [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] | Người phát hiện | Người mắc lỗi | Nguyên nhân gốc | Biện pháp khắc phục | Biện pháp phòng ngừa tái diễn | Hạn khắc phục | Ngày khắc phục xong | Người đóng lỗi | Ngày đóng | Trạng thái |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | | | | | | | | | | | Tự kiểm, chưa vượt biên 1 / Lớp chặn, đã vượt biên 1 / Hậu kiểm, đã vượt biên 2 / Ngoài oBacker, đã vượt biên 2 | | | | | | | | | | Mở / Đang khắc phục / Chờ đóng / Đã đóng |
 | 2 | | | | | | | | | | | | | | | | | | | | | |
@@ -1601,6 +1603,6 @@ Mức phạt hành vi bố trí hoặc thuê người làm kế toán trưởng 
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.2.0.1 | Bỏ các dòng mục đích của biểu mẫu B1 đến B14, đoạn lý do tồn tại ở B15 và mục cách dùng mô tả cấu trúc |
+| 08/10/2026 | V2.0.2 | Đặt trạng thái thư viện tham khảo và sửa dẫn chiếu tới OBK-MSR trong PL_B_Bieu_mau. |

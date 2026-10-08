@@ -4,8 +4,9 @@ code: "UE-01"
 type: "sop"
 folder: "90_ThuVien"
 level: "Phiếu thao tác"
-version: "R.3.0.1"
-status: "đang áp dụng"
+version: "V3.0.2"
+release: "R.26.10.08.1"
+status: "thư viện tham khảo"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -25,7 +26,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | UE-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.3.0.1, đang áp dụng |
+| Phiên bản | V3.0.2, thư viện tham khảo |
+| Phát hành | R.26.10.08.1 |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -53,7 +55,7 @@ Bảng được lập và cập nhật theo các mốc thời gian:
 
 ## 1. BỘ CHỈ SỐ KINH TẾ ĐƠN VỊ (ĐÃ CẮT 07/10/2026)
 
-Bộ chỉ số kinh tế đơn vị (CAC, ARPU, biên lợi nhuận gộp, Churn Rate, LTV, LTV/CAC, Payback, NRR) đã cắt khỏi phiếu này. Công thức và ngưỡng của từng chỉ số khôi phục từ phiên bản R.2.0.0 của phiếu trên git.
+Bộ chỉ số kinh tế đơn vị (CAC, ARPU, biên lợi nhuận gộp, Churn Rate, LTV, LTV/CAC, Payback, NRR) đã cắt khỏi phiếu này. Công thức và ngưỡng của từng chỉ số khôi phục từ phiên bản V2.0.0 của phiếu trên git.
 
 ## 2. CƠ CHẾ ĐỐI SOÁT VÀ TÍNH TOÁN HOA HỒNG HAI CHIỀU
 
@@ -228,6 +230,6 @@ Chiều A thanh toán đúng hạn cho đối tác giới thiệu; Chiều B thu
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.3.0.1 | Gộp trường hợp áp dụng, bỏ mục bộ tham số, lý do ở mục 1 và từ nhấn mạnh |
+| 08/10/2026 | V3.0.2 | Đặt trạng thái thư viện tham khảo và sửa dẫn chiếu tới OBK-MSR trong UE-01_Bang_theo_doi_va_tinh_toan_chi_so_kinh_te_cac_ltv_commission. |

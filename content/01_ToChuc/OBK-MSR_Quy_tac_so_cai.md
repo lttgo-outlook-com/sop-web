@@ -4,7 +4,8 @@ code: "OBK-MSR"
 type: "sop"
 folder: "01_ToChuc"
 level: "Cấp 1, văn bản khung toàn công ty"
-version: "R.3.2.1"
+version: "V4.0.0"
+release: "R.26.10.08.1"
 status: "đang áp dụng"
 draft_date: "08/10/2026"
 author: "CEO"
@@ -22,11 +23,9 @@ aliases:
   - CL-01
   - KN-01
   - VB-01
-  - TL-01
   - BH-01
   - TS-02
   - GC-01
-  - CK-01
   - KH-01
 tags:
   - loai/sop
@@ -38,7 +37,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-MSR |
 | Cấp tài liệu | Cấp 1, văn bản khung toàn công ty |
-| Phiên bản | R.3.2.1, đang áp dụng |
+| Phiên bản | V4.0.0, đang áp dụng |
+| Phát hành | R.26.10.08.1 |
 | Ngày biên soạn | 08/10/2026 |
 | Người biên soạn | CEO |
 | Người soát | CEO |
@@ -52,7 +52,7 @@ Mọi việc của oBacker đều ghi vào sổ cái, kể cả việc một ng�
 
 Tin nhắn và điện thoại dùng để hỏi nhanh và để nhắc. Nội dung phát sinh trên tin nhắn hoặc điện thoại mà có nghĩa vụ, có mốc, có số liệu hoặc có kết luận nghiệp vụ thì người nhận ghi vào sổ cái trước khi làm.
 
-Quy tắc này áp dụng cho mọi bộ phận và mọi cấp, gồm `AM`, Team Lead, `COO` và `CEO`.
+Quy tắc này áp dụng cho mọi bộ phận và mọi cấp, gồm `AM`, `TL`, `COO` và `CEO`.
 
 ## 2. CẤU TRÚC SỔ
 
@@ -62,7 +62,7 @@ Quy tắc này áp dụng cho mọi bộ phận và mọi cấp, gồm `AM`, Tea
 | Nhật ký | Một sự kiện | Người làm sự kiện đó | Thời điểm, mã việc, người ghi, loại sự kiện, nội dung một câu, người nhận hoặc người được chờ, mã việc liên quan, hạn trả lời, giờ công, chi phí, kết quả soát hoặc duyệt, liên kết đầu ra |
 | Danh mục Job | Một Job | `CEO` | Mã Job, bộ phận, tên Job, SLA nội bộ, thời hạn bên ngoài, soát bắt buộc. Nguồn là bảng Job trong các bảng kiểm, sinh lại tại [[PL_2_Bang_tra_SLA\|OBK-SOP-PL2]] |
 | Khách | Một khách | `AM` | Tên khách, mã số thuế, hợp đồng đang hiệu lực, `AM` phụ trách |
-| Bảng chi tiết | Một lần dùng một biểu mẫu | Người mở việc | Các trường riêng của biểu mẫu, nối với bảng Việc bằng mã việc. Gồm nghỉ phép, làm thêm giờ, đề nghị thanh toán |
+| Bảng chi tiết | Một lần dùng một biểu mẫu | Người mở việc | Các trường riêng của biểu mẫu, nối với bảng Việc bằng mã việc. Ví dụ: nghỉ phép, làm thêm giờ, đề nghị thanh toán |
 
 Trạng thái, người chịu trách nhiệm, ngày nhận, ngày đóng, hạn nhận việc, tổng giờ công và tổng chi phí của một việc tính từ nhật ký. Không ai nhập tay các giá trị đó.
 
@@ -107,7 +107,9 @@ Việc B phát sinh từ việc A là một dòng riêng trong bảng Việc, c�
 | Việc gốc phải chờ | Việc A cần đầu ra của việc B để xong | Việc A ghi sự kiện Chờ với mã việc B. Việc A không ghi được Xong khi việc B chưa Xong hoặc chưa Hủy. Việc B Xong hoặc Hủy thì việc A ghi Hết chờ |
 | Phát sinh từ việc gốc | Việc B do việc A gây ra, việc A không cần việc B | Việc A ghi sự kiện Phát sinh việc với mã việc B và làm tiếp |
 
-Người phát hiện việc B là người tạo việc B. Việc nhiều bộ phận cùng làm có một việc gốc, là việc giữ đầu ra cuối gửi ra khỏi oBacker; Team Lead của bộ phận sở hữu đầu ra cuối chịu trách nhiệm việc gốc, và `AM` chỉ nhận bàn giao từ việc gốc. Khi chưa rõ bộ phận nào sở hữu đầu ra cuối, `CEO` chỉ định trước khi việc bắt đầu.
+Người phát hiện việc B là người tạo việc B. Việc nhiều bộ phận cùng làm có một việc gốc, là việc giữ đầu ra cuối gửi ra khỏi oBacker; `TL` của bộ phận sở hữu đầu ra cuối chịu trách nhiệm việc gốc, và `AM` chỉ nhận bàn giao từ việc gốc. Khi chưa rõ bộ phận nào sở hữu đầu ra cuối, `CEO` chỉ định trước khi việc bắt đầu.
+
+Bộ phận A cần bộ phận B làm một phần việc thì mở một việc cho bộ phận B, liên kết về việc gốc, kèm đầu vào, đầu ra mong đợi và hạn. Việc của bộ phận tham gia không gửi đầu ra ra ngoài oBacker. `AM` không nhận đầu ra trực tiếp từ việc của bộ phận tham gia và không tự ghép kết quả của từng việc.
 
 Lỗi phát hiện sau khi việc đã Xong là một việc sửa lỗi, quan hệ Phát sinh từ việc gốc. Sự kiện Tạo của việc sửa lỗi ghi nguyên nhân lỗi. Việc sửa lỗi của lỗi đầu ra mức Nghiêm trọng hoặc Đáng kể kết thúc bằng một trong các kết quả: sửa bảng kiểm, sửa tài liệu, hoặc kết luận không cần sửa kèm lý do.
 
@@ -131,14 +133,14 @@ Mọi kết luận về nghĩa vụ pháp lý, thời hạn, mức phạt, tỷ 
 
 ### 7.2. AM phụ trách quan hệ khách
 
-Chỉ `AM` cam kết với khách về phạm vi dịch vụ, SLA, giá, chiết khấu và văn bản có giá trị pháp lý. Chuyên viên trao đổi trực tiếp với khách về dữ liệu, phương pháp tính và tiến độ, trong kênh chung do `AM` quản trị. Yêu cầu thương mại đến chuyên viên thì chuyên viên chuyển cho `AM` trong 30 phút.
+Chỉ `AM` cam kết với khách về phạm vi dịch vụ, SLA, giá, chiết khấu và văn bản có giá trị pháp lý. Người quyết nội dung cam kết theo [[OBK-QCTC-02_Bang_tham_quyen|OBK-QCTC-02]] mục 4, các hàng "Khách và giá". Chuyên viên trao đổi trực tiếp với khách về dữ liệu, phương pháp tính và tiến độ, trong kênh chung do `AM` quản trị. Yêu cầu thương mại đến chuyên viên thì chuyên viên chuyển cho `AM` trong 30 phút.
 
 ### 7.2a. Mốc phản hồi
 
 | Mốc | Nội dung | Thời hạn |
 | --- | --- | --- |
 | `T1` | `AM` xác nhận với khách đã nhận yêu cầu | Tin nhắn: tối đa 15 phút. Thư điện tử: tối đa 01 giờ làm việc |
-| `T2` | `AM` gửi khách mốc trả lời cụ thể, với yêu cầu cần tra cứu hoặc xử lý nghiệp vụ | Tối đa 04 giờ làm việc |
+| `T2` | `AM` gửi khách mốc trả lời cụ thể, với yêu cầu cần tra cứu hoặc xử lý nghiệp vụ | Tối đa 04 giờ làm việc. Yêu cầu cần kết luận khả thi của `TL` bộ phận theo [[PL_Chuyen_len_cap_tren\|OBK-QCTC-02-PL-C]] mục 3: tối đa 04 giờ làm việc kể từ khi `TL` bộ phận ghi kết luận trên việc |
 | `T3` | Mốc hoàn thành gửi khách | SLA nội bộ của Job tại [[PL_2_Bang_tra_SLA\|Danh mục Job]] |
 | Đầu vào giữa các bộ phận | Bộ phận được yêu cầu cấp đầu vào cho một việc của bộ phận khác | Xác nhận đã nhận: tối đa 30 phút. Nội dung: tối đa 03 giờ làm việc |
 
@@ -148,11 +150,11 @@ Thiếu đầu vào thì người làm việc ghi sự kiện Chờ kèm yêu c�
 
 1. Chạy tiếp dẫn tới hành vi trái pháp luật.
 2. Chạy tiếp tạo ra hồ sơ nộp cơ quan nhà nước có nội dung sai mà việc sửa sau đó không khả thi hoặc phát sinh chế tài.
-3. Quyết định vượt thẩm quyền của người làm việc và của Team Lead.
+3. Quyết định vượt thẩm quyền của người làm việc và của `TL`.
 
 ### 7.4. Soát bắt buộc
 
-Việc có Job thuộc danh sách soát bắt buộc tại [[PL_2_Bang_tra_SLA\|OBK-SOP-PL2]] cần một sự kiện Soát kết quả Đạt, do người khác với người chịu trách nhiệm ghi, trước sự kiện Xong. Chứng từ kế toán có đủ chữ ký theo chức danh theo [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-QCTC-03]]. Các việc khác do người làm tự soát theo bảng kiểm của Job.
+Việc có Job thuộc danh sách soát bắt buộc tại [[PL_2_Bang_tra_SLA\|OBK-SOP-PL2]] cần một sự kiện Soát kết quả Đạt, do người khác với người chịu trách nhiệm ghi, trước sự kiện Xong. Chứng từ kế toán có đủ chữ ký theo chức danh theo [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-QCTC-03]]. Các việc khác do người làm tự soát theo bảng kiểm của Job. Duyệt đầu ra trước khi gửi khách là quyết định của `TL` bộ phận theo [[OBK-QCTC-02_Bang_tham_quyen|OBK-QCTC-02]] mục 4, ghi bằng sự kiện Duyệt; sự kiện Duyệt không thay sự kiện Soát.
 
 ### 7.5. Mốc làm trước thời hạn theo pháp luật
 
@@ -168,7 +170,7 @@ Trường Hạn của việc ghi mốc oBacker tự đặt; trường Thời h�
 
 ### 7.5a. Mức ưu tiên xử lý văn bản pháp luật mới
 
-Bảng dưới áp cho Legal R&D và mọi bộ phận dịch vụ. Mốc đếm từ ngày Legal R&D ghi nhận văn bản mới trên sổ cái. Văn bản mức Ưu tiên 1 có ngày hiệu lực đến trước mốc của bảng thì áp ngày hiệu lực và ghi lý do trên việc.
+Bảng dưới áp cho `LEG` và mọi bộ phận dịch vụ. Mốc đếm từ ngày `LEG` ghi nhận văn bản mới trên sổ cái. Văn bản mức Ưu tiên 1 có ngày hiệu lực đến trước mốc của bảng thì áp ngày hiệu lực và ghi lý do trên việc.
 
 | Mức | Tiêu chí | Mốc hoàn thành đánh giá tác động | Mốc cập nhật tài liệu của bộ phận |
 | --- | --- | --- | --- |
@@ -201,10 +203,10 @@ oBacker không mở sổ theo dõi riêng ngoài sổ cái, trừ sổ kế toá
 
 `CEO` là người quản trị sổ cái. Người quản trị sổ giữ quyền sửa vùng nhật ký, sửa cấu trúc sổ và cấp quyền nhập liệu. Dòng nhật ký nhập qua biểu mẫu nhập liệu; người dùng khác không có quyền sửa dòng đã ghi.
 
-Team Lead của bộ phận sở hữu một bảng kiểm tự sửa bảng kiểm đó; mỗi lần sửa ghi một sự kiện Xong của việc sửa bảng kiểm, kèm nội dung sửa.
+`TL` của bộ phận sở hữu một bảng kiểm tự sửa câu chữ và dẫn chiếu của bảng kiểm đó; mỗi lần sửa ghi một sự kiện Xong của việc sửa bảng kiểm, kèm nội dung sửa. Thay đổi người, hạn hoặc bước của bảng kiểm do `COO` quyết theo [[OBK-QCTC-02_Bang_tham_quyen|OBK-QCTC-02]] mục 4.
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.3.2.1 | Bỏ câu sổ cái là nơi duy nhất, câu đếm số bảng, câu lịch sử sổ theo dõi riêng; quyền cam kết với khách viết thành chỉ AM cam kết |
+| 08/10/2026 | V4.0.0 | Phân biệt Soát và Duyệt, thêm hạn 04 giờ làm việc cho bước T2, TL tự sửa câu chữ bảng kiểm còn COO quyết đổi người, hạn, bước. |

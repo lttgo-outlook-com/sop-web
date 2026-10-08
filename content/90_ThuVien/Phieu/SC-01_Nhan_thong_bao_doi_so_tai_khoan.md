@@ -4,8 +4,9 @@ code: "SC-01"
 type: "sop"
 folder: "90_ThuVien"
 level: "Phiếu thao tác"
-version: "R.2.0.1"
-status: "đang áp dụng"
+version: "V2.0.2"
+release: "R.26.10.08.1"
+status: "thư viện tham khảo"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -25,7 +26,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | SC-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.2.0.1, đang áp dụng |
+| Phiên bản | V2.0.2, thư viện tham khảo |
+| Phát hành | R.26.10.08.1 |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -87,6 +89,6 @@ Ngưỡng phải chuyển thử một khoản nhỏ trước là **từ 10.000.0
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.2.0.1 | Bỏ các câu khẩu hiệu về rủi ro chuyển tiền và gộp hai đoạn kịch bản |
+| 08/10/2026 | V2.0.2 | Đặt trạng thái thư viện tham khảo và sửa dẫn chiếu tới OBK-MSR trong SC-01_Nhan_thong_bao_doi_so_tai_khoan. |

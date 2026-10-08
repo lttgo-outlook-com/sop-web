@@ -4,8 +4,9 @@ code: "OBK-SOP-KT"
 type: "sop"
 folder: "90_ThuVien"
 level: "Cấp 2, quy trình bộ phận"
-version: "R.4.0.1"
-status: "đang áp dụng"
+version: "V4.0.2"
+release: "R.26.10.08.1"
+status: "thư viện tham khảo"
 draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -27,7 +28,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-SOP-KT |
 | Cấp tài liệu | Cấp 2, SOP bộ phận |
-| Phiên bản | R.4.0.1, đang áp dụng |
+| Phiên bản | V4.0.2, thư viện tham khảo |
+| Phát hành | R.26.10.08.1 |
 | Ngày biên soạn | 04/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -66,7 +68,7 @@ tags:
 | Giấy phép lao động, đăng ký doanh nghiệp, đăng ký đầu tư, thay đổi ĐKKD | Licensing |
 | Hợp đồng lao động, bảng chấm công, BHXH, báo cáo lao động, đăng ký nội quy | Lao Động |
 | Tranh chấp thuế phải lập luận pháp lý hoặc phải ra văn bản có ký cho khách | Bộ phận Dịch vụ pháp lý, xem [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]]. Việc khởi kiện tại tòa án thì chuyển đối tác thuê ngoài theo LS-18 |
-| Nghiệp vụ chưa có chuẩn;<br>kết luận sẽ dùng cho mọi khách về sau;<br>cấu trúc giao dịch chưa có tiền lệ | Legal R&D, xem [[07_OBK-SOP-RD_Nghien_cuu_phap_ly\|OBK-SOP-RD]]. Quy tắc phân ba lớp tại [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 5.5 |
+| Nghiệp vụ chưa có chuẩn;<br>kết luận sẽ dùng cho mọi khách về sau;<br>cấu trúc giao dịch chưa có tiền lệ | Legal R&D, xem [[07_OBK-SOP-RD_Nghien_cuu_phap_ly\|OBK-SOP-RD]] |
 | Đàm phán phạm vi, phí, gia hạn, khiếu nại | AM |
 | Kế toán NỘI BỘ của chính oBacker | Xem [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] |
 
@@ -106,9 +108,9 @@ Ký hiệu gói: G1 cơ bản, G2 tiêu chuẩn, G3 đầy đủ, G4 theo vụ v
 | KT-20 | Giải trình văn bản của cơ quan thuế | Cơ quan thuế gửi văn bản | Văn bản của cơ quan;<br>hồ sơ liên quan | Văn bản giải trình đã ký và đã gửi | TL-KT đọc và kết luận yêu cầu trong 01 ngày làm việc;<br>soạn và ký văn bản trong 03 ngày làm việc | **Theo thời hạn ghi trên chính văn bản của cơ quan** | `PL_G` S8;<br>Handbook Ch.16 |
 | KT-21 | Hỗ trợ kỳ kiểm tra hoặc thanh tra thuế | Có quyết định kiểm tra | Quyết định kiểm tra;<br>hồ sơ các kỳ liên quan | Phương án tiếp đoàn;<br>bộ hồ sơ xuất trình;<br>biên bản làm việc | Phản hồi NGAY trong ngày làm việc;<br>COO lập phương án tiếp đoàn trong 02 ngày làm việc;<br>khi đoàn yêu cầu hồ sơ tại trụ sở thì cung cấp trong 05 GIỜ LÀM VIỆC, mốc nội bộ đặt tại `PL_C` mục B dòng 11 | Theo quyết định về thời hạn kiểm tra.<br>Riêng việc cung cấp hồ sơ, tài liệu, hóa đơn, chứng từ, sổ kế toán khi đoàn yêu cầu tại trụ sở: **06 GIỜ LÀM VIỆC** kể từ khi nhận yêu cầu, chậm hơn là hành vi bị xử phạt | `PL_1` CC-KT-40, CC-KT-41;<br>`PL_G` S9;<br>Handbook Ch.16 |
 | KT-22 | Trả lời câu hỏi nghiệp vụ đã đối chiếu bản gốc | Khách hỏi qua AM | Câu hỏi đã ghi trên hệ thống | Câu trả lời có mã căn cứ | T3 là 01 ngày làm việc | Không có | `PL_G` S1 |
-| KT-23 | Trả lời câu hỏi nghiệp vụ chưa đối chiếu bản gốc | Khách hỏi qua AM | Câu hỏi đã ghi trên hệ thống | Câu trả lời sau khi đã nâng lên mức đã đối chiếu bản gốc | T3 là 03 ngày làm việc để TL-KT đối chiếu bản gốc.<br>NHÁNH KÉO DÀI, ba điều kiện đủ theo [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 7.4a: điều kiện vào nhánh là TL-KT đã tra mà không kết luận được; mốc của nhánh là mốc của Job RD-10; và AM PHẢI cam kết lại T2 với khách trong 04 giờ làm việc kể từ khi mở Job RD-10 | Không có | `PL_G` S2 |
-| KT-24 | Xử lý câu hỏi chạm nội dung chưa xác minh được | Khách hỏi qua AM | Câu hỏi đã ghi trên hệ thống | Không trả lời nội dung. Thư hẹn mốc gửi khách; Job RD-12 đã mở cho Legal R&D | AM gửi thư hẹn mốc trong 04 giờ làm việc, đúng hạn T2 cho nội dung chưa xác minh được tại [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 7.2.4;<br>TL-KT DỪNG và mở Job RD-12 trong cùng ngày làm việc, đồng thời thông tin COO | Không có | `PL_G` S3;<br>[[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] NT-1 |
-| KT-25 | Đánh giá tác động khi có văn bản pháp luật mới | Legal R&D thông báo | Văn bản mới đã nhập kho | Bản đánh giá tác động;<br>danh sách khách bị ảnh hưởng | Mốc theo BỐN MỨC ƯU TIÊN, bản gốc tại [[21_Cap_nhat_van_ban_phap_luat\|OBK-SOP-21]] mục 6.2.3: Legal R&D hoàn thành đánh giá tác động theo mốc của mức ưu tiên đã phân, `TL-KT` rà danh sách khách bị ảnh hưởng trong cùng mốc đó.<br>Job này không đặt lại con số, chỉ dẫn chiếu | Theo ngày hiệu lực của văn bản | `PL_G` S31;<br>[[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 12.3 |
+| KT-23 | Trả lời câu hỏi nghiệp vụ chưa đối chiếu bản gốc | Khách hỏi qua AM | Câu hỏi đã ghi trên hệ thống | Câu trả lời sau khi đã nâng lên mức đã đối chiếu bản gốc | T3 là 03 ngày làm việc để TL-KT đối chiếu bản gốc.<br>NHÁNH KÉO DÀI, ba điều kiện đủ: điều kiện vào nhánh là TL-KT đã tra mà không kết luận được; mốc của nhánh là mốc của Job RD-10; và AM PHẢI cam kết lại T2 với khách trong 04 giờ làm việc kể từ khi mở Job RD-10 | Không có | `PL_G` S2 |
+| KT-24 | Xử lý câu hỏi chạm nội dung chưa xác minh được | Khách hỏi qua AM | Câu hỏi đã ghi trên hệ thống | Không trả lời nội dung. Thư hẹn mốc gửi khách; Job RD-12 đã mở cho Legal R&D | AM gửi thư hẹn mốc trong 04 giờ làm việc, đúng hạn T2 cho nội dung chưa xác minh được tại [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 7.2a;<br>TL-KT DỪNG và mở Job RD-12 trong cùng ngày làm việc, đồng thời thông tin COO | Không có | `PL_G` S3;<br>[[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] NT-1 |
+| KT-25 | Đánh giá tác động khi có văn bản pháp luật mới | Legal R&D thông báo | Văn bản mới đã nhập kho | Bản đánh giá tác động;<br>danh sách khách bị ảnh hưởng | Mốc theo BỐN MỨC ƯU TIÊN, bản gốc tại [[21_Cap_nhat_van_ban_phap_luat\|OBK-SOP-21]] mục 6.2.3: Legal R&D hoàn thành đánh giá tác động theo mốc của mức ưu tiên đã phân, `TL-KT` rà danh sách khách bị ảnh hưởng trong cùng mốc đó.<br>Job này không đặt lại con số, chỉ dẫn chiếu | Theo ngày hiệu lực của văn bản | `PL_G` S31;<br>[[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 7.5a |
 | KT-26 | Rà soát đầu năm cho cả danh mục khách | Đầu năm | Danh mục khách | Kết luận phân loại kỳ khai thuế, thuế suất và ưu đãi, chế độ kế toán, danh mục hồ sơ cho từng khách | Theo `PL_C` phần D | Không có | `PL_C` phần D |
 | KT-27 | Chốt các khoản có mức khống chế trước 31/12 | Cuối năm | Sổ tới thời điểm rà | Bản rà soát các khoản chạm mức tối đa: trang phục, phúc lợi, bảo hiểm hưu trí bổ sung, ăn giữa ca, quỹ lương dự phòng, khấu hao xe từ 9 chỗ trở xuống | Trước 31/12 | Không có | `PL_1` CC-KT-11 tới CC-KT-16;<br>`PL_C` phần E.2 |
 | KT-28 | Bàn giao khi kết thúc dịch vụ | AM báo kết thúc | Toàn bộ hồ sơ khách | Bộ bàn giao đầy đủ;<br>biên bản bàn giao | Chuẩn bị trong 05 ngày làm việc kể từ khi AM báo.<br>Đây là mốc ĐẾM TIẾN từ ngày AM báo.<br>Handbook Chương 20 mục 6.3 có thêm một mốc ĐẾM LÙI, bộ hồ sơ bàn giao phải sẵn sàng chậm nhất 10 ngày làm việc trước ngày kết thúc.<br>Hai mốc không thay nhau; khi AM báo muộn thì hai mốc chồng nhau, áp mốc NÀO ĐẾN TRƯỚC và ghi lý do trên Job | Không có | Handbook Ch.20 |
@@ -116,14 +118,12 @@ Ký hiệu gói: G1 cơ bản, G2 tiêu chuẩn, G3 đầy đủ, G4 theo vụ v
 | KT-30 | Nộp tiền thuê đất và thuế sử dụng đất | Cơ quan thuế gửi thông báo nộp tiền thuê đất | Thông báo nộp tiền thuê đất của cơ quan thuế | Biên nộp tiền thuê đất, thuế sử dụng đất | Nộp trong thời hạn ghi trên thông báo của cơ quan thuế | Lần đầu: 30 ngày kể từ ngày ban hành thông báo của cơ quan thuế;<br>các năm tiếp theo: hạn nộp hằng năm theo lựa chọn nộp một lần hoặc hai lần trong năm | Handbook Ch.13;<br>NĐ 252/2026 Đ.21, TT 89/2026 Đ.25 |
 
 
-Yêu cầu không khớp Job nào: xem [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 5.6.
-
 
 ---
 
 ## 3. VAI TRÒ VÀ RACI
 
-Ký hiệu theo [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 5.1. Bảng chuyển đổi từ ký hiệu cũ của Handbook tại [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 5.2.
+Ký hiệu theo [[OBK-QCTC-02_Bang_tham_quyen|OBK-QCTC-02]] mục 2. Bảng chuyển đổi từ ký hiệu cũ của Handbook.
 
 ### 3.1. Cơ cấu vai trò của bộ phận
 
@@ -131,7 +131,7 @@ Ký hiệu theo [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 5.1. Bảng chuyển đ
 | --- | --- | --- | --- |
 | **CV-KT** | Chuyên viên kế toán dịch vụ | Người LÀM. Vận hành nghiệp vụ hằng ngày trên hồ sơ KHÁCH: nhập liệu, lưu chứng từ, hạch toán đơn giản, lập hồ sơ.<br>không tiếp xúc khách | KTV, ký hiệu cũ |
 | **TL-KT** | Team Lead bộ phận Kế toán dịch vụ | Chốt kỹ thuật; lớp kiểm soát chất lượng thứ hai; quyết định cách xử lý nghiệp vụ cần xét đoán; ký hồ sơ gửi cơ quan thuế thay khách khi được ủy quyền.<br>Tại 02/09/2026 do người giữ vai trò `KTT` kế toán trưởng NỘI BỘ kiêm nhiệm | KTT |
-| **COO** | Giám đốc vận hành, trực tiếp phụ trách Phòng Dịch vụ | Điều hành, định biên, phân bổ khách, trả lời câu hỏi khả thi khi AM và TL-KT xung đột theo [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 8.2.1 | TBP |
+| **COO** | Giám đốc vận hành, trực tiếp phụ trách Phòng Dịch vụ | Điều hành, định biên, phân bổ khách, trả lời câu hỏi khả thi khi AM và TL-KT xung đột theo [[PL_Chuyen_len_cap_tren\|OBK-QCTC-02-PL-C]] | TBP |
 
 > [!warning] THẨM QUYỀN ĐỨNG TÊN BÁO CÁO TÀI CHÍNH
 > Theo quy định mặc định, oBacker không đứng tên chức danh kế toán trưởng trên báo cáo tài chính của khách hàng. Các trường hợp ngoại lệ bắt buộc phải có văn bản phê duyệt riêng của CEO đối với từng khách hàng cụ thể.
@@ -272,6 +272,6 @@ Cho tới khi ba việc này xong, khi Handbook và tài liệu này khác nhau 
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.4.0.1 | Bỏ số đếm chương, đoạn giải thích phân cấp, câu hậu quả và đoạn giải thích mốc đếm tiến, đếm lùi |
+| 08/10/2026 | V4.0.2 | Đặt trạng thái thư viện tham khảo và sửa dẫn chiếu tới OBK-MSR trong 03_OBK-SOP-KT_Ke_toan_va_thue. |

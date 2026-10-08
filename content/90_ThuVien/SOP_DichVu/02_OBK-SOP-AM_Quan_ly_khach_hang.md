@@ -4,8 +4,9 @@ code: "OBK-SOP-AM"
 type: "sop"
 folder: "90_ThuVien"
 level: "Cấp 2, quy trình bộ phận"
-version: "R.5.0.1"
-status: "đang áp dụng"
+version: "V5.0.2"
+release: "R.26.10.08.1"
+status: "thư viện tham khảo"
 draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -27,7 +28,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-SOP-AM |
 | Cấp tài liệu | Cấp 2, SOP bộ phận |
-| Phiên bản | R.5.0.1, đang áp dụng |
+| Phiên bản | V5.0.2, thư viện tham khảo |
+| Phát hành | R.26.10.08.1 |
 | Ngày biên soạn | 04/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -67,7 +69,7 @@ oBacker không có vai trò Sales riêng. AM là đầu mối TOÀN TRÌNH: cùn
 | Nội dung chuyên môn giấy phép, đầu tư, đăng ký doanh nghiệp | Licensing |
 | Nội dung chuyên môn lao động, tiền lương, BHXH | Lao Động |
 | Soạn và rà hợp đồng cho khách, tư vấn theo yêu cầu, nghiên cứu theo yêu cầu, bộ tài liệu nội bộ cho khách | Bộ phận Dịch vụ pháp lý, xem [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] |
-| Nghiệp vụ chưa có chuẩn, kết luận dùng cho mọi khách về sau, văn bản pháp luật mới | Legal R&D, xem [[07_OBK-SOP-RD_Nghien_cuu_phap_ly\|OBK-SOP-RD]]. Quy tắc phân ba lớp tại [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 5.5 |
+| Nghiệp vụ chưa có chuẩn, kết luận dùng cho mọi khách về sau, văn bản pháp luật mới | Legal R&D, xem [[07_OBK-SOP-RD_Nghien_cuu_phap_ly\|OBK-SOP-RD]] |
 | Soát mẫu hợp đồng dịch vụ của oBacker và bộ điều khoản trong đó | Legal R&D, Job `RD-18` |
 | Xuất hóa đơn, đối soát công nợ, thu hồi nợ | Miền nội bộ, `KTT` nội bộ. Xem [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 6 |
 | Ký hợp đồng dịch vụ chuẩn và duyệt giá trong khung | TP Thương mại |
@@ -101,7 +103,7 @@ Ngoại lệ thứ nhất: `TL` của một bộ phận, hoặc `TL-RD`, tham gi
 
 ## 3. DANH MỤC JOB
 
-Ký hiệu SLA: `NLV` là ngày làm việc; `g` là giờ; `gLV` là giờ làm việc. Quy ước đếm thời gian và ba đồng hồ T1, T2, T3 theo [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 7.2.
+Ký hiệu SLA: `NLV` là ngày làm việc; `g` là giờ; `gLV` là giờ làm việc. Quy ước đếm thời gian và ba đồng hồ T1, T2, T3 theo [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 7.2a.
 
 
 | Mã Job | Tên Job | Nguồn phát sinh | Đầu vào bắt buộc | Đầu ra | SLA nội bộ oBacker | Thời hạn bên ngoài | Căn cứ |
@@ -113,13 +115,13 @@ Ký hiệu SLA: `NLV` là ngày làm việc; `g` là giờ; `gLV` là giờ làm
 | AM-05 | Chốt hợp đồng và thu tiền lần đầu | Khách đồng ý | Đề xuất đã được khách chấp thuận;<br>phạm vi đã chốt | Hợp đồng đã ký;<br>hóa đơn do `KTT` nội bộ phát hành, yêu cầu xuất hóa đơn chuyển cho `NB-09` theo [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]];<br>xác nhận thanh toán;<br>hợp đồng đã ký, xác nhận thanh toán, danh sách dịch vụ chuyển cho `PM-06` theo [[08_OBK-SOP-PM_Chuong_trinh_doi_tac_gioi_thieu_khach_hang\|OBK-SOP-PM]] khi khách thuộc sổ đăng ký giới thiệu;<br>hàng 'Khách được giới thiệu bởi' trên Đơn Đặt Hàng ghi theo sổ đăng ký giới thiệu;<br>hàng 'Đồng ý cung cấp thông tin cho bên đã giới thiệu' do khách đánh dấu | Gửi hợp đồng trong ngày khách đồng ý;<br>nhắc thanh toán tại T+1, T+3, T+7 | Không có | Nội bộ |
 | AM-06 | Mở hồ sơ khách và bàn giao nội bộ cho bộ phận nghiệp vụ | Đã có xác nhận thanh toán | Hợp đồng đã ký;<br>đề xuất;<br>biên bản làm rõ;<br>ghi chú đặc điểm khách | Hồ sơ khách hoàn chỉnh trên hệ thống;<br>TL bộ phận đã nhận bàn giao và xác nhận | Trong 1 NLV kể từ xác nhận thanh toán | Không có | Nội bộ |
 | AM-07 | Gửi thư chào mừng và thiết lập kênh | Đã nhận bàn giao | Hồ sơ khách | Thư chào mừng nêu rõ AM là đầu mối duy nhất, kênh liên hệ, SLA phản hồi | Trong 24 g kể từ xác nhận thanh toán | Không có | Nội bộ |
-| AM-08 | Thu thập hồ sơ đầu vào | Sau thư chào mừng | Danh mục hồ sơ theo loại dịch vụ, do TL bộ phận cấp | Bộ hồ sơ đầu vào đã đủ và đã được bộ phận nghiệp vụ xác nhận hợp lệ | Gửi danh mục trong 1 NLV;<br>nhắc tại T+1 và T+3;<br>chuyển lên cấp trên TP Thương mại tại T+5, theo thang dọc nhánh thương mại tại [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 8.2;<br>bộ phận nghiệp vụ xác nhận tính hợp lệ trong 2 gLV kể từ khi nhận | Không có | Nội bộ |
+| AM-08 | Thu thập hồ sơ đầu vào | Sau thư chào mừng | Danh mục hồ sơ theo loại dịch vụ, do TL bộ phận cấp | Bộ hồ sơ đầu vào đã đủ và đã được bộ phận nghiệp vụ xác nhận hợp lệ | Gửi danh mục trong 1 NLV;<br>nhắc tại T+1 và T+3;<br>chuyển lên cấp trên TP Thương mại tại T+5, theo thang dọc nhánh thương mại tại [[PL_Chuyen_len_cap_tren\|OBK-QCTC-02-PL-C]];<br>bộ phận nghiệp vụ xác nhận tính hợp lệ trong 2 gLV kể từ khi nhận | Không có | Nội bộ |
 | AM-09 | Hoàn tất onboarding | Hồ sơ đầu vào đã đủ | Hồ sơ đã xác nhận hợp lệ | Dịch vụ đã khởi động;<br>hồ sơ khách đầy đủ trên hệ thống | 07 NGÀY LÀM VIỆC, tối đa 10 ngày làm việc nếu chờ hồ sơ từ khách.<br>AM-09 chỉ đóng GIAI ĐOẠN 1 của onboarding; giai đoạn nghiệm thu 30 ngày làm việc thuộc KT-01, xem [[03_Onboarding_khach_hang\|OBK-SOP-03]] và `PL_G` mục 4 | Không có | Nội bộ |
 | AM-10 | Tiếp nhận và phân loại yêu cầu | Khách gửi yêu cầu | Nội dung yêu cầu | Job đã tạo, đã phân mức P1, P2 hoặc P3, đã chuyển đúng bộ phận | Xác nhận đã nhận theo T1;<br>cam kết mốc theo T2;<br>chuyển bộ phận ngay sau khi phân loại | Không có | Nội bộ |
-| AM-11 | Gửi đầu ra cho khách | Bộ phận nghiệp vụ đã bàn giao | Đầu ra đã qua kiểm soát chất lượng đủ lớp theo Tier của Job, theo NT-5 của [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] | Đầu ra đã gửi khách đúng kênh, kèm 5 phần nội dung bàn giao | Nhận từ bộ phận trước hạn gửi khách ≥ 0,5 NLV;<br>gửi khách đúng SLA của Job gốc | Theo Job gốc | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 6.1 |
-| AM-12 | Xác nhận khách đã nhận | Đã gửi đầu ra | Bản ghi đã gửi | Xác nhận của khách, hoặc bản ghi đã nhắc đủ số lần | Nhắc 1 lần sau 2 NLV;<br>sau đó coi như đã nhận | Không có | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 6.2 |
+| AM-11 | Gửi đầu ra cho khách | Bộ phận nghiệp vụ đã bàn giao | Đầu ra đã qua kiểm soát chất lượng đủ lớp theo Tier của Job, theo NT-5 của [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] | Đầu ra đã gửi khách đúng kênh, kèm 5 phần nội dung bàn giao | Nhận từ bộ phận trước hạn gửi khách ≥ 0,5 NLV;<br>gửi khách đúng SLA của Job gốc | Theo Job gốc | Không có |
+| AM-12 | Xác nhận khách đã nhận | Đã gửi đầu ra | Bản ghi đã gửi | Xác nhận của khách, hoặc bản ghi đã nhắc đủ số lần | Nhắc 1 lần sau 2 NLV;<br>sau đó coi như đã nhận | Không có | Không có |
 | AM-13 | Cập nhật định kỳ cho khách | Theo lịch | Trạng thái các Job đang chạy | Bản cập nhật gửi khách | Dự án đang chạy: mỗi thứ Sáu. Khách thường xuyên: tuần đầu mỗi tháng | Không có | Nội bộ |
-| AM-14 | Xử lý sự cố mức P1 | Phát hiện hoặc khách báo | Mô tả sự cố | Kế hoạch xử lý gửi khách;<br>cập nhật định kỳ;<br>xác nhận đã xử lý xong | AM gọi điện dưới 30 phút;<br>kế hoạch dưới 2 g;<br>cập nhật 2 lần mỗi ngày;<br>xong trong 1 NLV, tối đa 2 | Theo bản chất sự cố | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 7.3 |
+| AM-14 | Xử lý sự cố mức P1 | Phát hiện hoặc khách báo | Mô tả sự cố | Kế hoạch xử lý gửi khách;<br>cập nhật định kỳ;<br>xác nhận đã xử lý xong | AM gọi điện dưới 30 phút;<br>kế hoạch dưới 2 g;<br>cập nhật 2 lần mỗi ngày;<br>xong trong 1 NLV, tối đa 2 | Theo bản chất sự cố | Không có |
 | AM-15 | Cảnh báo trước rủi ro trễ hạn | Bộ phận nghiệp vụ báo nguy cơ trễ | Nguyên nhân và phương án khôi phục | Thông báo chủ động gửi khách kèm phương án | Trong 4 gLV kể từ khi bộ phận báo, và luôn trước thời hạn theo pháp luật | Trước thời hạn theo pháp luật | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] NT-6 |
 | AM-16 | Khảo sát mức độ hài lòng | Theo lịch | Danh sách khách đủ điều kiện | Kết quả khảo sát đã ghi nhận | Mốc 1 tháng, 3 tháng, 6 tháng sau onboarding;<br>sau đó hằng năm | Không có | Nội bộ |
 | AM-17 | Đánh giá sức khỏe tài khoản | Theo quý | Dữ liệu sử dụng dịch vụ, sự cố, khảo sát | Điểm sức khỏe và kết luận nhóm rủi ro | Mỗi 3 tháng | Không có | Nội bộ |
@@ -127,18 +129,16 @@ Ký hiệu SLA: `NLV` là ngày làm việc; `g` là giờ; `gLV` là giờ làm
 | AM-19 | Kết thúc dịch vụ và bàn giao dữ liệu | Khách không gia hạn hoặc chấm dứt trước hạn | Xác nhận chấm dứt bằng văn bản | Bộ bàn giao dữ liệu;<br>biên bản bàn giao;<br>hóa đơn cuối và đối soát công nợ do `KTT` nội bộ lập;<br>trường hợp có hoàn tiền chuyển cho `NB-51` theo [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] | Xác nhận và thông báo lộ trình trong 2 NLV;<br>bộ phận nghiệp vụ chuẩn bị bộ bàn giao trong 5 NLV;<br>gửi khách không muộn hơn ngày kết thúc hợp đồng | Ngày kết thúc hợp đồng | Nội bộ |
 | AM-20 | Thu hồi quyền truy cập và lưu trữ hồ sơ | Sau khi bàn giao xong | Biên bản bàn giao | Quyền truy cập đã thu hồi;<br>hồ sơ đã chuyển trạng thái lưu trữ | Ba mốc khác nhau. Thu hồi quyền truy cập của oBacker: TRONG 24 GIỜ sau bàn giao, mốc đặt tại KT-29 và `PL_G` S35, AM chỉ theo dõi chứ không tự thu hồi.<br>Khoảng tải dữ liệu của khách: 30 ngày kể từ ngày kết thúc, theo Điều 9 (Chấm dứt và bàn giao) của TnC; trong 30 ngày này oBacker không xóa dữ liệu.<br>Chuyển hồ sơ sang trạng thái lưu trữ hoặc xóa: chỉ sau khi hết 30 ngày tải của khách, là mốc riêng của AM-20 | Không có | Nội bộ |
 | AM-21 | Ghi nhận lý do rời bỏ và bài học | Sau AM-20 | Khảo sát rời bỏ | Bản ghi lý do và bài học trên hệ thống | 1 tuần sau ngày kết thúc | Không có | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] NT-8 |
-| AM-22 | Sàng lọc rủi ro khách trước khi nhận | Lead đã được đánh giá phù hợp tại AM-01 | Thông tin pháp lý cơ bản của khách;<br>ngành nghề thật đang hoạt động;<br>nội dung khách muốn oBacker làm | Phiếu sàng lọc rủi ro có kết luận NHẬN, NHẬN CÓ ĐIỀU KIỆN, hoặc TỪ CHỐI, kèm lý do theo từng dấu hiệu | Trong 1 NLV kể từ AM-01. Có bất kỳ dấu hiệu nào ở mục 8.1 thì chuyển CEO trong cùng ngày làm việc và không hẹn họp làm rõ trước khi CEO quyết | Không có | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 9;<br>[[PL_Chuyen_len_cap_tren\|OBK-QCTC-02-PL-C]] mục 5 |
-| AM-23 | Xin duyệt giá hoặc phạm vi ngoài khung | Khách yêu cầu mức hoặc phạm vi ngoài khung đã duyệt | Bản đề xuất;<br>mức khách yêu cầu;<br>xác nhận khả thi của TL bộ phận | Quyết định duyệt hoặc không duyệt, ghi trên Job, kèm mức và điều kiện kèm theo | AM lập tờ trình trong 4 gLV; TP Thương mại quyết trong 1 NLV nếu trong khung; CEO quyết trong 2 NLV nếu ngoài khung.<br>AM KHÔNG báo mức cho khách trước khi có quyết định trên Job | Không có | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 8.2, mục 8.3;<br>[[OBK-QCTC-02_Bang_tham_quyen\|OBK-QCTC-02]] |
+| AM-22 | Sàng lọc rủi ro khách trước khi nhận | Lead đã được đánh giá phù hợp tại AM-01 | Thông tin pháp lý cơ bản của khách;<br>ngành nghề thật đang hoạt động;<br>nội dung khách muốn oBacker làm | Phiếu sàng lọc rủi ro có kết luận NHẬN, NHẬN CÓ ĐIỀU KIỆN, hoặc TỪ CHỐI, kèm lý do theo từng dấu hiệu | Trong 1 NLV kể từ AM-01. Có bất kỳ dấu hiệu nào ở mục 8.1 thì chuyển CEO trong cùng ngày làm việc và không hẹn họp làm rõ trước khi CEO quyết | Không có | [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]];<br>[[PL_Chuyen_len_cap_tren\|OBK-QCTC-02-PL-C]] mục 5 |
+| AM-23 | Xin duyệt giá hoặc phạm vi ngoài khung | Khách yêu cầu mức hoặc phạm vi ngoài khung đã duyệt | Bản đề xuất;<br>mức khách yêu cầu;<br>xác nhận khả thi của TL bộ phận | Quyết định duyệt hoặc không duyệt, ghi trên Job, kèm mức và điều kiện kèm theo | AM lập tờ trình trong 4 gLV; TP Thương mại quyết trong 1 NLV nếu trong khung; CEO quyết trong 2 NLV nếu ngoài khung.<br>AM KHÔNG báo mức cho khách trước khi có quyết định trên Job | Không có | [[OBK-QCTC-02_Bang_tham_quyen\|OBK-QCTC-02]] |
 | AM-24 | Chốt hợp đồng dịch vụ và xử lý yêu cầu sửa điều khoản | Khách đồng ý về phạm vi và giá | Mẫu hợp đồng đang có hiệu lực theo [[PL_HD_Mau_hop_dong_dich_vu_khung\|OBK-SOP-AM-PL2]];<br>phạm vi đã chốt bằng tên đầu ra tại bảng Job của bộ phận | Hợp đồng đã ký, dùng đúng mẫu đang có hiệu lực theo [[PL_HD_Mau_hop_dong_dich_vu_khung\|OBK-SOP-AM-PL2]];<br>hoặc bản đã sửa điều khoản kèm dấu vết duyệt;<br>mẫu hợp đồng đang có hiệu lực gồm điều khoản khách đồng ý chia sẻ thông tin với bên đã giới thiệu khi khách thuộc sổ đăng ký giới thiệu, theo yêu cầu chuyển cho `RD-18` | AM dùng MẪU, không tự sửa điều khoản.<br>Khách đòi sửa thì AM mở Job phụ cho Legal R&D theo RD-18 và chờ kết luận; RD-18 trả kết luận trong 05 NLV.<br>Điều khoản về giá và phạm vi thì theo AM-23 | Không có | [[07_OBK-SOP-RD_Nghien_cuu_phap_ly\|OBK-SOP-RD]] RD-18;<br>[[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] mục 1.5 quy tắc 4 |
 | AM-25 | Điều phối vụ việc đi qua nhiều bộ phận | Một yêu cầu của khách cần từ hai bộ phận trở lên | Yêu cầu đã phân loại;<br>kết luận bộ phận nào sở hữu đầu ra cuối | Job chính đã xác định và các Job PHỤ đã liên kết về Job chính;<br>một mốc giao duy nhất với khách | AM xác định Job chính trong 4 gLV.<br>Không rõ bộ phận nào sở hữu đầu ra cuối thì chuyển lên COO, và COO chỉ định trước khi việc bắt đầu.<br>AM chỉ nhận bàn giao từ Job chính, không tự ghép kết quả từ các Job phụ | Không có | [[PL_Chuyen_len_cap_tren\|OBK-QCTC-02-PL-C]] mục 2a quy tắc 3 và quy tắc 4 |
-| AM-26 | Theo dõi và xử lý bộ phận trễ SLA nội bộ | Bộ phận không đáp đúng hạn của [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 7.4 hoặc mục 7.4a | Bản ghi thời điểm AM yêu cầu và thời điểm bộ phận đáp | Bản ghi đã nhắc và đã chuyển lên cấp trên;<br>khách đã được báo trước nếu mốc đã hứa bị đe dọa | Nhắc 1 lần ngay khi quá hạn;<br>vẫn trễ thì chuyển lên TL của bộ phận đó trong cùng ngày làm việc;<br>trễ lần thứ hai với cùng một bộ phận trong một tháng thì báo COO | Không có | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 6.2, mục 7.4, mục 7.4a |
+| AM-26 | Theo dõi và xử lý bộ phận trễ SLA nội bộ | Bộ phận không đáp đúng hạn của [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 7.2a | Bản ghi thời điểm AM yêu cầu và thời điểm bộ phận đáp | Bản ghi đã nhắc và đã chuyển lên cấp trên;<br>khách đã được báo trước nếu mốc đã hứa bị đe dọa | Nhắc 1 lần ngay khi quá hạn;<br>vẫn trễ thì chuyển lên TL của bộ phận đó trong cùng ngày làm việc;<br>trễ lần thứ hai với cùng một bộ phận trong một tháng thì báo COO | Không có | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 7.2a |
 | AM-27 | Rà soát định kỳ với khách | Theo quý | Điểm sức khỏe tài khoản tại AM-17;<br>danh mục Job đã làm trong kỳ;<br>danh mục việc còn tồn | Biên bản rà soát gửi khách qua kênh chính thống, gồm việc đã làm, việc còn tồn, và nghĩa vụ sắp tới của khách | Mỗi 3 tháng, trong 10 NLV đầu của quý sau. Khách nhóm rủi ro cao theo AM-17 thì rà mỗi tháng | Không có | Nội bộ |
 | AM-28 | Phát hiện sớm và xử lý dấu hiệu khách rời bỏ | Điểm sức khỏe tụt, hoặc có dấu hiệu tại mục 7 | Điểm sức khỏe hai kỳ liền kề;<br>lịch sử sự cố và khiếu nại;<br>lịch sử thanh toán | Kế hoạch giữ khách có người làm và mốc;<br>hoặc kết luận không giữ được kèm lý do | Lập kế hoạch trong 3 NLV kể từ khi phát hiện dấu hiệu. Nhóm rủi ro cao thì báo TP Thương mại cùng ngày | Không có | Nội bộ |
-| AM-29 | Bán thêm và bán chéo dịch vụ | Rà soát định kỳ tại AM-27, hoặc khách nêu nhu cầu | Nghĩa vụ hoặc nhu cầu chưa được phủ bởi hợp đồng hiện tại;<br>xác nhận năng lực phục vụ của TL bộ phận | Đề xuất mở rộng phạm vi kèm giá;<br>hoặc bản ghi khách không có nhu cầu;<br>dịch vụ bán thêm không tính hoa hồng, ghi nhận chuyển cho `NB-49` theo [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] khi khách thuộc sổ đăng ký giới thiệu | Đề xuất trong 5 NLV kể từ khi phát hiện nhu cầu. Cam kết mốc theo KS-AM-01, không cam kết trước khi TL bộ phận xác nhận | Không có | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 8.3 |
-| AM-30 | Rà soát khớp phạm vi hợp đồng với việc đang chạy | Theo quý, và ngay khi phát hiện lệch | Phạm vi ghi trong hợp đồng và phụ lục;<br>danh mục Job đang chạy thật cho khách đó | Danh mục việc đang làm mà ngoài phạm vi, và việc trong phạm vi mà chưa làm;<br>kết luận xử lý từng dòng | Mỗi 3 tháng, cùng kỳ với AM-27.<br>Phát hiện việc ngoài phạm vi thì dừng nhận thêm việc loại đó và chuyển AM-23 trong 2 NLV | Không có | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 8.3;<br>KS-AM-02 |
+| AM-29 | Bán thêm và bán chéo dịch vụ | Rà soát định kỳ tại AM-27, hoặc khách nêu nhu cầu | Nghĩa vụ hoặc nhu cầu chưa được phủ bởi hợp đồng hiện tại;<br>xác nhận năng lực phục vụ của TL bộ phận | Đề xuất mở rộng phạm vi kèm giá;<br>hoặc bản ghi khách không có nhu cầu;<br>dịch vụ bán thêm không tính hoa hồng, ghi nhận chuyển cho `NB-49` theo [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] khi khách thuộc sổ đăng ký giới thiệu | Đề xuất trong 5 NLV kể từ khi phát hiện nhu cầu. Cam kết mốc theo KS-AM-01, không cam kết trước khi TL bộ phận xác nhận | Không có | Không có |
+| AM-30 | Rà soát khớp phạm vi hợp đồng với việc đang chạy | Theo quý, và ngay khi phát hiện lệch | Phạm vi ghi trong hợp đồng và phụ lục;<br>danh mục Job đang chạy thật cho khách đó | Danh mục việc đang làm mà ngoài phạm vi, và việc trong phạm vi mà chưa làm;<br>kết luận xử lý từng dòng | Mỗi 3 tháng, cùng kỳ với AM-27.<br>Phát hiện việc ngoài phạm vi thì dừng nhận thêm việc loại đó và chuyển AM-23 trong 2 NLV | Không có | KS-AM-02 |
 
-
-Yêu cầu không khớp Job nào: xem [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 5.6.
 
 
 ---
@@ -155,7 +155,7 @@ Quy trình thực hiện tuân thủ quy trình chuẩn theo [[OBK-MSR_Quy_tac_s
 
 ## 5. VAI TRÒ VÀ RACI
 
-Ký hiệu theo [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 5.1.
+Ký hiệu theo [[OBK-QCTC-02_Bang_tham_quyen|OBK-QCTC-02]] mục 2.
 
 Hai bảng RACI theo người chịu trách nhiệm cuối:
 
@@ -194,7 +194,7 @@ Các chốt dưới đây không được đi qua nếu chưa đạt. Người b
 | KS-AM-01 | Mọi cam kết mốc thời gian với khách phải có xác nhận của TL bộ phận nghiệp vụ, bằng văn bản, trên Job.<br>TL nói không làm được thì AM KHÔNG cam kết, kể cả khi CEO là cấp trên trực tiếp của AM | Trước khi gửi đề xuất hoặc trả lời khách về timeline | AM tự kiểm, TL xác nhận | Không cam kết. Trả lời khách bằng "sẽ xác nhận lại trong 4 giờ" |
 | KS-AM-02 | Phạm vi khách yêu cầu nằm trong hợp đồng đã ký | Trước khi tạo Job cho bộ phận | AM | Chuyển CEO xem xét mở rộng phạm vi và phí;<br>COO xác nhận khả thi trước khi CEO quyết |
 | KS-AM-03 | Đầu ra đã có dấu vết kiểm soát chất lượng đủ lớp theo Tier của Job, theo NT-5 của [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] | Trước khi gửi khách | AM | Trả lại bộ phận. AM có quyền từ chối gửi |
-| KS-AM-04 | Nội dung bàn giao đủ 5 phần theo [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 6.1 | Trước khi gửi khách | AM | Yêu cầu bộ phận bổ sung. Không tự viết thay |
+| KS-AM-04 | Nội dung bàn giao đủ 5 phần | Trước khi gửi khách | AM | Yêu cầu bộ phận bổ sung. Không tự viết thay |
 | KS-AM-05 | Đầu ra nộp cơ quan nhà nước đã đạt khoảng làm trước tối thiểu theo NT-6 | Trước khi cam kết lịch với khách | AM và TL | Báo COO. Không cam kết lịch sát thời hạn |
 | KS-AM-06 | Bộ bàn giao khi kết thúc dịch vụ đã đủ và đã đối soát công nợ | Trước ngày kết thúc hợp đồng | AM và `KTT` nội bộ | Không chuyển trạng thái kết thúc. Chuyển lên cấp trên CEO |
 | KS-AM-07 | Phiếu sàng lọc rủi ro tại AM-22 đã có kết luận, và mọi dấu hiệu ở mục 8.1 đã được CEO quyết bằng văn bản trên Job | Trước khi hẹn họp làm rõ và trước khi báo giá | AM | Không hẹn họp, không báo giá. Chuyển CEO. Nhận khách có yếu tố rủi ro thuộc CEO |
@@ -235,7 +235,7 @@ Có bất kỳ một dấu hiệu nào dưới đây thì khách thuộc diện 
 
 | # | Dấu hiệu | Vì sao phải chặn ở đây |
 | --- | --- | --- |
-| 1 | Khách nói ngay từ đầu là muốn hồ sơ ghi khác thực tế, muốn hợp thức hóa chứng từ, hoặc hỏi về hóa đơn không có giao dịch thật | Chạm hành vi oBacker nghiêm cấm điểm 1 và điểm 2 tại [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 9 |
+| 1 | Khách nói ngay từ đầu là muốn hồ sơ ghi khác thực tế, muốn hợp thức hóa chứng từ, hoặc hỏi về hóa đơn không có giao dịch thật | Chạm hành vi oBacker nghiêm cấm điểm 1 và điểm 2 tại [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] |
 | 2 | Khách hỏi oBacker có quan hệ để đẩy nhanh hồ sơ hay không, hoặc đề nghị chi ngoài quy định | Chạm hành vi oBacker nghiêm cấm điểm 4 |
 | 3 | Khách yêu cầu oBacker cam kết KẾT QUẢ cấp phép, kết quả thanh tra, hoặc kết quả một tranh chấp | Chạm hành vi oBacker nghiêm cấm điểm 3 |
 | 4 | Khách đang có nghĩa vụ quá hạn chưa xử lý mà chưa nói rõ, phát hiện được khi hỏi về hiện trạng | Không phải lý do từ chối, nhưng phải định giá và định phạm vi lại |
@@ -264,7 +264,7 @@ Nhân sự AM có trách nhiệm nhận diện và chuyển giao ngay cho cấp 
 
 ## 9. CHỈ SỐ ĐO LƯỜNG
 
-Ngoài các chỉ số chung tại [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 11.1, bộ phận này đo thêm:
+Ngoài các chỉ số chung tại [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]], bộ phận này đo thêm:
 
 ### 9.1. Chỉ số bán hàng, giai đoạn 1 tới 4
 
@@ -301,7 +301,7 @@ Năm nhóm, mỗi nhóm 20 điểm, tổng 100. Trọng số và ba ngưỡng do
 | Nhóm | Đo cái gì | Trừ điểm khi |
 | --- | --- | --- |
 | Tuân thủ | Số Job đến hạn trong kỳ được giao đúng hạn | Có Job trễ hạn pháp định thì nhóm này về 0, không trừ dần |
-| Chất lượng | Số lỗi đầu ra trong kỳ theo mức, định nghĩa mức tại [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 11.2 | Mỗi lỗi đầu ra Nghiêm trọng trừ 20;<br>Đáng kể trừ 10;<br>Nhỏ trừ 3 |
+| Chất lượng | Số lỗi đầu ra trong kỳ theo mức, định nghĩa mức tại [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] | Mỗi lỗi đầu ra Nghiêm trọng trừ 20;<br>Đáng kể trừ 10;<br>Nhỏ trừ 3 |
 | Quan hệ | Điểm khảo sát gần nhất, và số lần khách phải nhắc oBacker | Khảo sát dưới ngưỡng `AM-M12` trừ 10;<br>mỗi lần khách nhắc trừ 3 |
 | Thanh toán | Số ngày chậm thanh toán trong kỳ | Chậm quá 15 ngày trừ 10;<br>quá 30 ngày trừ 20 |
 | Mức dùng | Khách có dùng hết phạm vi đã mua hay không | Dùng dưới một nửa phạm vi trừ 10 |
@@ -338,7 +338,7 @@ Biểu mẫu là view thao tác trên dữ liệu của sổ cái, không phải
 
 ## 10. NGHỈ PHÉP VÀ NGƯỜI THAY THẾ
 
-Quy định phân công người thay thế thực hiện theo vị trí công việc, không phụ thuộc vào nhân sự kiêm nhiệm tại từng thời điểm. Bản gốc của thang dọc nhánh thương mại tại [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 8.2.
+Quy định phân công người thay thế thực hiện theo vị trí công việc, không phụ thuộc vào nhân sự kiêm nhiệm tại từng thời điểm. Bản gốc của thang dọc nhánh thương mại tại [[PL_Chuyen_len_cap_tren|OBK-QCTC-02-PL-C]].
 
 | Tình huống | Xử lý |
 | --- | --- |
@@ -363,6 +363,6 @@ Hướng dẫn cấp 3 của bộ phận đặt tại `HuongDan_AM/`, do AM dự
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.5.0.1 | Rút khối lỗi thường gặp còn quy tắc, bỏ câu hậu quả ở mục 7, cột lý do ở mục 8.1 và câu giới thiệu mục 11 |
+| 08/10/2026 | V5.0.2 | Đặt trạng thái thư viện tham khảo và sửa dẫn chiếu tới OBK-MSR trong 02_OBK-SOP-AM_Quan_ly_khach_hang. |

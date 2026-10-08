@@ -4,8 +4,9 @@ code: "OBK-HB-31-PL-A"
 type: "sop"
 folder: "90_ThuVien"
 level: "Phụ lục"
-version: "R.2.0.1"
-status: "đang áp dụng"
+version: "V2.0.2"
+release: "R.26.10.08.1"
+status: "thư viện tham khảo"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -25,7 +26,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-HB-31-PL-A |
 | Cấp tài liệu | Phụ lục |
-| Phiên bản | R.2.0.1, đang áp dụng |
+| Phiên bản | V2.0.2, thư viện tham khảo |
+| Phát hành | R.26.10.08.1 |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -46,7 +48,7 @@ Quy tắc khi dùng:
 3. Không được thêm một con số ngày, một mức phí, hay một kết luận nghiệp vụ vào mẫu nếu chỗ cần điền không có sẵn ngoặc vuông. Ba thứ đó phải có xác nhận theo `KS-AM-01` và `AM-23`.
 4. Mẫu không chứa con số mốc viết cứng. Chỗ nào cần một mốc thì đó là một ngoặc vuông kèm địa chỉ để tra, ví dụ hạn theo bảng `T1`.
 
-Câu chữ mẫu không thay hai thứ: đồng hồ `T1`, `T2`, `T3` tại [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 7.2, và năm phần bàn giao tại mục 6.1.
+Câu chữ mẫu không thay đồng hồ `T1`, `T2`, `T3` tại [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 7.2a.
 
 ---
 
@@ -88,6 +90,6 @@ Cách sửa: sửa ở bảng mục 2, giữ nguyên SỐ MỤC. Bỏ một mụ
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.2.0.1 | Bỏ câu giải thích công dụng mẫu và đoạn lý do của quy tắc 4; bỏ số đếm ở tiêu đề quy tắc |
+| 08/10/2026 | V2.0.2 | Đặt trạng thái thư viện tham khảo và sửa dẫn chiếu tới OBK-MSR trong PL_A_Cau_chu_mau. |

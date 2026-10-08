@@ -4,7 +4,8 @@ code: "OBK-QCTC-03-PL-BM"
 type: "sop"
 folder: "02_NoiBo"
 level: "Phụ lục"
-version: "R.4.0.0"
+version: "V4.1.0"
+release: "R.26.10.08.1"
 status: "đang áp dụng"
 draft_date: "08/10/2026"
 author: "CEO"
@@ -30,7 +31,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-QCTC-03-PL-BM |
 | Cấp tài liệu | Phụ lục của [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-QCTC-03]] |
-| Phiên bản | R.4.0.0, đang áp dụng |
+| Phiên bản | V4.1.0, đang áp dụng |
+| Phát hành | R.26.10.08.1 |
 | Ngày biên soạn | 08/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -53,7 +55,7 @@ tags:
    - Ngày ghi dạng DD/MM/YYYY.
    - Chứng từ giấy không tẩy xóa; ghi sai thì hủy và lập lại `[Luật Kế toán 41/VBHN-VPQH Đ.18 k.3]`.
 
-4. Mã đề nghị theo dạng `<Loại>-<YY><MM>-<STT 3 chữ số>`, với MS là đề nghị mua sắm, TT là đề nghị thanh toán, TU là đề nghị tạm ứng, TUL là đề nghị tạm ứng tiền lương. Ví dụ: `TT-2610-014`.
+4. Mã đề nghị theo dạng `<Loại>-<YY><MM>-<STT 3 chữ số>`, với MS là đề nghị mua sắm, TT là đề nghị thanh toán, TU là đề nghị tạm ứng, TUL là đề nghị tạm ứng tiền lương. Mã bảng kê chi tiền của BM-K theo dạng `KC-<YY><MM>-<STT 3 chữ số>`. Ví dụ: `TT-2610-014`.
 
 5. Chứng từ điện tử ký bằng chữ ký điện tử hoặc hình thức xác nhận khác bằng phương tiện điện tử theo pháp luật về giao dịch điện tử `[Luật Kế toán 41/VBHN-VPQH Đ.19 k.4]`, theo OBK-QCTC-03 Điều 7. Nghiêm cấm ký chứng từ khi chưa ghi đủ nội dung thuộc trách nhiệm của người ký `[Luật Kế toán 41/VBHN-VPQH Đ.19 k.2]`.
 
@@ -72,7 +74,7 @@ tags:
 | BM-09 | Bảng chấm công | Mỗi kỳ tính công, trước khi lập Bảng thanh toán tiền lương mẫu 01-LĐTL |
 | BM-K | Bảng kê chi tiền theo kỳ, theo mẫu 09-TT | Gộp nhiều khoản đã chi thành một chứng từ theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 40.2 |
 
-7. Phiếu thu (mẫu 01-TT), phiếu chi (mẫu 02-TT) và các mẫu khác của Phụ lục I Thông tư 99/2025/TT-BTC áp dụng nguyên bản theo OBK-QCTC-03 Điều 4; phụ lục này không chép lại các mẫu đó.
+7. Phiếu thu (mẫu 01-TT), phiếu chi (mẫu 02-TT) và các mẫu khác của Phụ lục I Thông tư 99/2025/TT-BTC áp dụng nguyên bản theo OBK-QCTC-03 Điều 4; phụ lục này không chép lại các mẫu đó, trừ mẫu 09-TT: BM-K chép lại mẫu 09-TT kèm các mục kiểm của oBacker.
 
 ---
 
@@ -87,8 +89,6 @@ tags:
 | Người đề nghị | |
 | Bộ phận | |
 | Văn phòng | Đà Nẵng / Thành phố Hồ Chí Minh |
-| Dòng ngân sách | |
-| Khoản chi nằm trong ngân sách đã duyệt | Có / Không. Nếu Không thì TL chuyển hồ sơ lên người duyệt chi theo bậc, theo việc NB-01 trong [[BK-01_Bang_kiem_noi_bo\|BK-01]] |
 | Nhóm khoản chi | N1 / N2 / N3 / N4 / N5 / N6, theo việc NB-01 trong [[BK-01_Bang_kiem_noi_bo\|BK-01]] |
 | Bậc hạn mức | B1 / B3 / từ mức tối đa của bậc B3 trở lên. Ngưỡng giá trị từng bậc theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 12.3 và mục 12.3a |
 
@@ -130,7 +130,7 @@ Số báo giá tối thiểu theo bậc: bậc B1 không yêu cầu; bậc B3 t�
 | Vai trò | Họ và tên | Nội dung xác nhận | Ngày | Chữ ký |
 | --- | --- | --- | --- | --- |
 | Người đề nghị | | Nhu cầu có thật, thông tin trung thực | | |
-| TL | | Xác nhận nhu cầu và ngân sách | | |
+| TL | | Xác nhận nhu cầu | | |
 | KTV | | Đã kiểm điều kiện hồ sơ, bậc hạn mức đúng | | |
 | Người duyệt chi theo hạn mức | | Đồng ý triển khai mua sắm | | |
 
@@ -185,7 +185,7 @@ Số báo giá tối thiểu theo bậc: bậc B1 không yêu cầu; bậc B3 t�
 | Vai trò | Họ và tên | Nội dung xác nhận | Ngày | Chữ ký |
 | --- | --- | --- | --- | --- |
 | Người đề nghị | | Nghiệp vụ có thật, chứng từ đính kèm là bản đúng | | |
-| TL | | Xác nhận nghiệp vụ và ngân sách | | |
+| TL | | Xác nhận nghiệp vụ | | |
 | KTV | | Đã lập BM-07, hồ sơ đủ điều kiện chi | | |
 | KTT | | Chốt kỹ thuật kế toán và thuế; ký trước người duyệt chi theo quy tắc nội bộ. Luật đòi KTT và người duyệt chi cùng ký trước khi chi `[Luật Kế toán 41/VBHN-VPQH Đ.19 k.3]` | | |
 | Người duyệt chi theo hạn mức | | Duyệt chi. Ghi rõ bậc: B1 / B3 / từ mức tối đa của bậc B3 trở lên | | |
@@ -711,7 +711,7 @@ Theo cấu trúc Bảng kê chi tiền mẫu số 09-TT của chế độ kế t
 | --- | --- |
 | Tên đơn vị | Công ty cổ phần oBacker |
 | Địa chỉ | Tầng 2, 06 Trần Phú, Phường Hải Châu, Thành phố Đà Nẵng |
-| Mã bảng kê | `BK-______-______` |
+| Mã bảng kê | `KC-______-______` |
 | Ngày lập | ___/___/______ |
 | Kỳ của bảng kê | Từ ___/___/______ đến ___/___/______ |
 | Loại bảng kê | Gộp khoản đã chi / Khoản trừ tự động theo mục 40.2 |
@@ -749,12 +749,8 @@ Chữ ký theo chức danh của mẫu 09-TT. Ký trong 05 ngày làm việc đ�
 
 ---
 
-h chi thực hiện theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 35.1.
-
----
-
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.4.0.0 | BM-08: KTT hoặc người được ủy quyền và người duyệt ký trước khi chi; Chủ tịch HĐQT là người lao động thì duyệt như người lao động; BM-02, BM-03 ghi thứ tự ký là quy tắc nội bộ. |
+| 08/10/2026 | V4.1.0 | Bỏ trường ngân sách khỏi BM-01, đổi mã bảng kê BM-K sang KC, nêu ngoại lệ mẫu 09-TT. |

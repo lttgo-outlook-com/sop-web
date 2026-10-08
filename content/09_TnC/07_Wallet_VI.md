@@ -3,7 +3,8 @@ title: "VÍ OBACKER; GIẢI THÍCH, CÁCH HOẠT ĐỘNG & ĐIỀU KHOẢN"
 code: "TNC-07-VI"
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.0.2"
+version: "V1.1.0"
+release: "R.26.10.08.1"
 status: "đang áp dụng"
 author: "CEO"
 reviewer: "CEO"
@@ -22,7 +23,7 @@ tags:
 *Điều khoản chuyên biệt, bổ sung cho Điều Khoản & Điều Kiện Dịch Vụ (Bản Điều Khoản Chung); Công ty Cổ phần oBacker*
 MST: 0402298185 · contact@obacker.com · https://obacker.com
 
-**Phiên bản:** R.1.0.1 (VI-EN) · **Cập nhật:** 02/10/2026
+**Phiên bản:** V1.1.0 (VI-EN) · **Phát hành:** R.26.10.08.1 · **Cập nhật:** 08/10/2026
 
 ---
 
@@ -53,7 +54,7 @@ MST: 0402298185 · contact@obacker.com · https://obacker.com
 
 **6.** Số dư Ví **không được hoàn lại và không được chuyển nhượng**, trừ khi pháp luật Việt Nam có quy định khác hoặc có thỏa thuận bằng văn bản giữa Quý Khách và oBacker.
 
-**7.** Nếu số dư Ví không đủ để thanh toán một khoản phí đến hạn, oBacker thông báo cho Quý Khách qua thông tin liên hệ đã đăng ký. Dịch vụ có thể bị tạm ngừng cho đến khi số dư được nạp đầy đủ. oBacker không chịu trách nhiệm về tổn thất hoặc thiệt hại phát sinh do tạm ngừng dịch vụ vì số dư Ví không đủ.
+**7.** Nếu số dư Ví không đủ để thanh toán một khoản phí đến hạn, oBacker thông báo cho Quý Khách qua thông tin liên hệ đã đăng ký, trước tối thiểu 03 Ngày Làm Việc theo Điều 5.3 Bản Điều Khoản Chung. Dịch vụ có thể bị tạm ngừng cho đến khi số dư được nạp đầy đủ. oBacker không chịu trách nhiệm về tổn thất hoặc thiệt hại phát sinh do tạm ngừng dịch vụ vì số dư Ví không đủ.
 
 **8.** Số tiền nạp tối thiểu là **1.000.000 VNĐ** (một triệu đồng) mỗi giao dịch. oBacker bảo lưu quyền điều chỉnh hạn mức nạp tối thiểu và tối đa theo quyết định của mình, kèm thông báo cho Quý Khách trước khi áp dụng.
 
@@ -71,6 +72,6 @@ MST: 0402298185 · contact@obacker.com · https://obacker.com
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.1.0.2 | Bỏ khối ba điểm quan trọng và phần câu hỏi thường gặp, vì lặp điều khoản Phần 2 |
+| 08/10/2026 | V1.1.0 | Điều 7 báo trước tối thiểu 03 Ngày Làm Việc theo Điều 5.3. |

@@ -5,7 +5,8 @@ aliases:
   - TNC-08-VI
 type: "tnc"
 folder: "09_TnC"
-version: "R.2.0.1"
+version: "V3.0.0"
+release: "R.26.10.08.1"
 status: "đang áp dụng"
 author: "CEO"
 reviewer: "CEO"
@@ -20,7 +21,7 @@ tags:
 ### Hợp Đồng Dịch Vụ Khung oBacker; Giao Kết Điện Tử
 
 **Số Hợp Đồng:** [SỐ HĐ / theo Đơn Đặt Hàng] · **Ngày phát hành:** [__/__/____]
-**Phiên bản mẫu:** R.1.1.2 · **Cập nhật:** 07/10/2026
+**Phiên bản mẫu:** V3.0.0 · **Phát hành:** R.26.10.08.1 · **Cập nhật:** 08/10/2026
 
 > Bản Hợp đồng khung này được giao kết dưới **hình thức điện tử** theo **Luật Giao dịch điện tử số 20/2023/QH15**. Hợp đồng dẫn chiếu và đính kèm bộ Điều Khoản & Điều Kiện Dịch Vụ của oBacker; **oBacker ký sẵn (ký tự động), Hợp đồng hoàn tất giao kết khi Quý Khách thanh toán** theo Đơn Đặt Hàng.
 
@@ -57,9 +58,9 @@ Email: [___] · Điện thoại: [___]
 | Chế độ kế toán áp dụng | [Thông tư 58/2026/TT-BTC (VN siêu nhỏ) / Thông tư 99/2025/TT-BTC (FDI và tăng trưởng)] |
 | Phạm vi (hạng mục áp dụng) | [Kế toán & Thuế / Nhân sự / Giấy phép / Pháp lý / …] |
 | Ngưỡng định mức (FUP) | [Định mức: ___ chứng từ/tháng; Nhân sự: ___ người; Mức tối đa: 1.500 ct/tháng (với Growth)] |
-| Phí Dịch Vụ | [___ VNĐ / năm (hoặc quý/tháng); đã gồm/chưa gồm GTGT] |
+| Phí Dịch Vụ | [___ VNĐ / năm (hoặc quý/tháng); chưa gồm GTGT] |
 | Kỳ hạn & cam kết tối thiểu | [theo gói / hợp đồng ký Quý 4 cam kết tối thiểu đến 31/12 năm sau (5 quý)] |
-| **Mô hình thanh toán** | [**Trả trước** (mặc định) / Trả sau / Trả trước qua Ví] |
+| **Mô hình thanh toán** | [**Trả trước** (mặc định) / Trả sau (khi Điều Khoản Dịch Vụ Cụ Thể cho phép) / Trả trước qua Ví] |
 | Lịch thanh toán | [trả trước theo kỳ / đợt 1: ___ / đợt 2: trước ngày 15/03 (với hợp đồng năm)] |
 | Phương thức thanh toán | [chuyển khoản / cổng thanh toán / Ví oBacker] |
 | Khách được giới thiệu bởi | [không / tên bên giới thiệu theo chương trình đối tác của oBacker] |
@@ -87,7 +88,7 @@ Email: [___] · Điện thoại: [___]
 
 ## Điều 3. Phí Dịch Vụ và thanh toán
 
-Phí Dịch Vụ, lịch và phương thức thanh toán theo Đơn Đặt Hàng. **Mô hình thanh toán mặc định là trả trước.** Chế tài khi chậm thanh toán áp dụng theo Điều 4.2 Bản Điều Khoản Chung, phân biệt theo mô hình: **trả trước** → tạm ngừng Dịch Vụ, không tính lãi chậm; **trả sau** (chỉ khi Đơn Đặt Hàng ghi rõ) → lãi chậm trả 0,05%/ngày kể từ ngày đến hạn; **trả trước qua Ví** → tự động trừ, tạm ngừng khi số dư không đủ. Thành phần phí, hóa đơn GTGT và thu hộ; chi hộ áp dụng theo Điều 4 Bản Điều Khoản Chung.
+Phí Dịch Vụ, lịch và phương thức thanh toán theo Đơn Đặt Hàng. **Mô hình thanh toán mặc định là trả trước.** Chế tài khi chậm thanh toán áp dụng theo Điều 4.2 Bản Điều Khoản Chung, phân biệt theo mô hình: **trả trước** → tạm ngừng Dịch Vụ, không tính lãi chậm; **trả sau** (chỉ khi Điều Khoản Dịch Vụ Cụ Thể cho phép và Đơn Đặt Hàng ghi rõ) → lãi chậm trả 0,05%/ngày kể từ ngày đến hạn; **trả trước qua Ví** → tự động trừ, tạm ngừng khi số dư không đủ. Phí Dịch Vụ chưa gồm thuế GTGT, phí và lệ phí nhà nước. Thành phần phí, hóa đơn GTGT và thu hộ; chi hộ áp dụng theo Điều 4 Bản Điều Khoản Chung.
 
 ## Điều 4. Giao kết điện tử và hiệu lực Hợp Đồng (ký tự động)
 
@@ -112,7 +113,7 @@ Phí Dịch Vụ, lịch và phương thức thanh toán theo Đơn Đặt Hàng
 
 5.2. Trừ khi có thỏa thuận khác tại Đơn Đặt Hàng, Hợp Đồng tự động gia hạn theo từng kỳ khi Quý Khách tiếp tục thanh toán phí kỳ tiếp theo.
 
-5.3. Mỗi Bên có quyền chấm dứt dịch vụ định kỳ bằng thông báo trước tối thiểu **30 ngày**. Việc chấm dứt, bàn giao sổ sách/hồ sơ và thời hạn tải dữ liệu áp dụng theo Điều 21 Bản Điều Khoản Chung và điều khoản chấm dứt tại Điều Khoản Dịch Vụ Cụ Thể tương ứng.
+5.3. Mỗi Bên có quyền chấm dứt dịch vụ định kỳ bằng thông báo trước tối thiểu **30 ngày**. Việc chấm dứt, bàn giao sổ sách/hồ sơ và thời hạn tải dữ liệu áp dụng theo Điều 21 Bản Điều Khoản Chung và điều khoản chấm dứt tại Điều Khoản Dịch Vụ Cụ Thể tương ứng. Hợp đồng ký trong Quý 4 chịu cam kết thời hạn tối thiểu tại Mục 5.1; chấm dứt trước hạn cam kết thì áp dụng khoản bồi hoàn tại PL-KT mục 10.3.
 
 ## Điều 6. Cam kết và phân định trách nhiệm
 
@@ -148,7 +149,7 @@ Chữ ký điện tử / Xác nhận thanh toán: `[chữ ký điện tử của
 
 ---
 
-**Phụ lục đính kèm Hợp Đồng:** Đơn Đặt Hàng · Bản Điều Khoản Chung · PL-GP · PL-KT · PL-NS · PL-PL · Điều Khoản Nạp Ví · Chính sách Bảo vệ Dữ liệu Cá nhân.
+**Tài liệu đính kèm Hợp Đồng:** Đơn Đặt Hàng · Bản Điều Khoản Chung · PL-GP · PL-KT · PL-NS · PL-PL · Điều Khoản Nạp Ví · Chính sách Bảo vệ Dữ liệu Cá nhân.
 
 ---
 
@@ -160,6 +161,6 @@ Chữ ký điện tử / Xác nhận thanh toán: `[chữ ký điện tử của
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.2.0.1 | Bỏ từ ngắn gọn ở câu dẫn đầu |
+| 08/10/2026 | V3.0.0 | Giữ làm mẫu khung chuẩn: phí chưa gồm GTGT, trả sau chỉ khi điều khoản riêng cho phép, cam kết Quý 4. |

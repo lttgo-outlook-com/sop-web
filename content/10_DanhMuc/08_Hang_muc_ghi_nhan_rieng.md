@@ -4,7 +4,8 @@ code: "OBK-DM-NG"
 type: "danh-muc"
 folder: "10_DanhMuc"
 level: "Danh mục"
-version: "R.1.1.1"
+version: "V1.1.2"
+release: "R.26.10.08.1"
 status: "đang áp dụng"
 draft_date: "04/10/2026"
 author: "CEO"
@@ -28,15 +29,15 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-DM-NG |
 | Cấp tài liệu | Danh mục |
-| Phiên bản | R.1.1.1, đang áp dụng |
+| Phiên bản | V1.1.2, đang áp dụng |
+| Phát hành | R.26.10.08.1 |
 | Ngày biên soạn | 04/10/2026 |
 | Người biên soạn | `CEO` |
-| Người soát | đã soát |
-| Người phê duyệt | đã phê duyệt |
+| Người soát | CEO |
+| Người phê duyệt | CEO |
 | Văn bản cấp trên | [[00_Danh_muc_dich_vu_va_bang_gia\|OBK-DM-00]] Danh mục dịch vụ và bảng giá |
 | Số hạng mục | 103 |
 | Nguồn dữ liệu | `_du_lieu_danh_muc/danh_muc.tsv`, kết xuất ngày 04/10/2026 |
-| Nguồn dữ liệu | Bản kết xuất danh mục sản phẩm |
 
 > [!note] BẢN SINH TỰ ĐỘNG
 > Nội dung sinh lại từ bản kết xuất của hệ thống danh mục sản phẩm.
@@ -172,6 +173,6 @@ Bản ghi ngoài sáu trang bảng giá gồm ba nhóm sau đây, không nhóm n
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 07/10/2026 | R.1.1.1 | Đổi ngày bản kết xuất nguồn dữ liệu sang 04/10/2026; danh sách hạng mục ghi nhận riêng không đổi mức |
+| 08/10/2026 | V1.1.2 | Điều khoản chung dẫn về trang 00, bỏ dòng nguồn dữ liệu trùng ở trang 08. |

@@ -4,8 +4,9 @@ code: "OBK-SOP-NB-01"
 type: "sop"
 folder: "90_ThuVien"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.4.0.1"
-status: "đang áp dụng"
+version: "V4.0.2"
+release: "R.26.10.08.1"
+status: "thư viện tham khảo"
 draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -28,7 +29,8 @@ tags:
 | Mã tài liệu | OBK-SOP-NB-01 |
 | Tên tài liệu | Quy trình mua sắm nội bộ và đề nghị thanh toán |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ. Thi hành Chương 4 và Chương 7 của [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Quy chế tài chính nội bộ |
-| Phiên bản | R.4.0.1, đang áp dụng |
+| Phiên bản | V4.0.2, thư viện tham khảo |
+| Phát hành | R.26.10.08.1 |
 | Ngày biên soạn | 04/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -755,7 +757,7 @@ Sau khi chuyển tiền xong, KTV hạch toán và lưu hồ sơ theo mục 5.13
 > [!warning] KHÔNG ĐƯỢC TỰ QUYẾT
 > Bước B3 không được bỏ qua trong bất kỳ trường hợp nào. Nguyên văn: "Chứng từ kế toán chi tiền phải do người có thẩm quyền duyệt chi và kế toán trưởng hoặc người được ủy quyền ký trước khi thực hiện" `[Luật Kế toán 41/VBHN-VPQH Đ.19 k.3]`. Ký sau khi đã chuyển tiền là làm sai. Nếu KTT vắng mặt thì phải có văn bản ủy quyền có thời hạn, không phải nhắn tin đồng ý.
 
-Khi người có thẩm quyền phê duyệt ở bất kỳ bước nào của luồng vắng mặt, thẩm quyền chuyển theo quy tắc ủy quyền tại [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 8.1; chuỗi phê duyệt của tài liệu này là các bước B1, B3 và B4.
+Khi người có thẩm quyền phê duyệt ở bất kỳ bước nào của luồng vắng mặt, thẩm quyền chuyển theo quy tắc ủy quyền; chuỗi phê duyệt của tài liệu này là các bước B1, B3 và B4.
 
 #### 5.5.2. Hồ sơ tối thiểu theo từng nhóm
 
@@ -1246,6 +1248,6 @@ Biểu mẫu là view thao tác trên dữ liệu của hồ sơ và sổ cái n
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.4.0.1 | Xóa mục 1.5 và 1.6, các khẩu hiệu và ghi chú lặp; bỏ số đếm ở tiêu đề; sửa dẫn chiếu mục 6.x thành 5.x |
+| 08/10/2026 | V4.0.2 | Đặt trạng thái thư viện tham khảo và sửa dẫn chiếu tới OBK-MSR trong OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo. |

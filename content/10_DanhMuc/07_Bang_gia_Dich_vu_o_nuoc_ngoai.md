@@ -4,7 +4,8 @@ code: "OBK-DM-NN"
 type: "danh-muc"
 folder: "10_DanhMuc"
 level: "Danh mục"
-version: "R.1.1.2"
+version: "V1.1.3"
+release: "R.26.10.08.1"
 status: "đang áp dụng"
 draft_date: "04/10/2026"
 author: "CEO"
@@ -28,15 +29,15 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-DM-NN |
 | Cấp tài liệu | Danh mục |
-| Phiên bản | R.1.1.2, đang áp dụng |
+| Phiên bản | V1.1.3, đang áp dụng |
+| Phát hành | R.26.10.08.1 |
 | Ngày biên soạn | 04/10/2026 |
 | Người biên soạn | `CEO` |
-| Người soát | đã soát |
-| Người phê duyệt | đã phê duyệt |
+| Người soát | CEO |
+| Người phê duyệt | CEO |
 | Văn bản cấp trên | [[00_Danh_muc_dich_vu_va_bang_gia\|OBK-DM-00]] Danh mục dịch vụ và bảng giá |
 | Số mã dịch vụ | 6 |
 | Nguồn dữ liệu | `_du_lieu_danh_muc/danh_muc.tsv`, kết xuất ngày 04/10/2026 |
-| Nguồn dữ liệu | Bản kết xuất danh mục sản phẩm |
 
 > [!note] BẢN SINH TỰ ĐỘNG
 > Nội dung sinh lại từ bản kết xuất của hệ thống danh mục sản phẩm.
@@ -52,9 +53,7 @@ tags:
 | Quy trình của bộ phận thực hiện | [[04_OBK-SOP-LIC_Giay_phep\|OBK-SOP-LIC]] Giấy phép |
 | Bảng tra SLA | [[PL_2_Bang_tra_SLA\|OBK-SOP-PL2]] Bảng tra SLA |
 | Điều khoản dịch vụ cụ thể | Chưa có tài liệu điều khoản dịch vụ cụ thể cho dịch vụ thực hiện ở nước ngoài |
-| Bản điều khoản chung | [[00_TnC_Master_VI\|Bản Điều Khoản Chung]], bản tiếng Anh [[00_TnC_Master_EN\|Master T&C]] |
-| Điều khoản nạp ví | [[07_Wallet_VI\|Ví oBacker]], bản tiếng Anh [[07_Wallet_EN\|Wallet]] |
-| Thứ tự ưu tiên áp dụng | Đơn Đặt Hàng, Điều Khoản Dịch Vụ Cụ Thể, Bản Điều Khoản Chung, Chính sách Bảo vệ Dữ liệu Cá nhân |
+| Điều khoản áp dụng chung | [[00_Danh_muc_dich_vu_va_bang_gia\|Danh mục dịch vụ và bảng giá]] mục 1 |
 
 Quan hệ giữa gói và hạng mục bán kèm gói: xem [[01_Goi_dich_vu_va_hang_muc_kem_goi|Gói dịch vụ và hạng mục kèm gói]].
 
@@ -134,6 +133,6 @@ Phạm vi, thời gian và điều kiện áp dụng chép từ hệ thống dan
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.1.1.2 | Đổi liên kết chuẩn vận hành dịch vụ sang quy tắc sổ cái tại bảng giá dịch vụ ở nước ngoài |
+| 08/10/2026 | V1.1.3 | Điều khoản chung dẫn về trang 00, bỏ dòng nguồn dữ liệu trùng ở trang 07. |

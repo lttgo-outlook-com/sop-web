@@ -5,7 +5,8 @@ aliases:
   - TNC-03-VI
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.0.4"
+version: "V2.0.0"
+release: "R.26.10.08.1"
 status: "đang áp dụng"
 author: "CEO"
 reviewer: "CEO"
@@ -22,7 +23,7 @@ tags:
 *Điều Khoản Dịch Vụ Cụ Thể, bộ phận không tách rời của Bản Điều Khoản Chung; Công ty Cổ phần oBacker*
 MST: 0402298185 · Tầng 2, 06 Trần Phú, Phường Hải Châu, TP Đà Nẵng, Việt Nam · contact@obacker.com
 
-**Phiên bản:** R.1.0.3 (VI-EN) · **Cập nhật:** 07/10/2026
+**Phiên bản:** V2.0.0 (VI-EN) · **Phát hành:** R.26.10.08.1 · **Cập nhật:** 08/10/2026
 
 > Tài liệu này là Điều Khoản Dịch Vụ Cụ Thể cho Dịch Vụ Nhân Sự ("**Dịch Vụ**"): tiền lương, thuế TNCN từ tiền lương, bảo hiểm bắt buộc (BHXH-BHYT-BHTN), hợp đồng và báo cáo lao động. Tài liệu áp dụng khi Dịch Vụ được ghi tại Đơn Đặt Hàng. **Nếu tài liệu này khác với Bản Điều Khoản Chung, tài liệu này được ưu tiên áp dụng đối với Dịch Vụ.**
 
@@ -98,11 +99,12 @@ Khi phát sinh nhu cầu thuộc nhóm trên, oBacker thông báo trước và �
 
 ## Điều 5. Thời hạn và tiến độ
 
-**5.1. Chu kỳ tính lương** (D = ngày chốt công cố định do Quý Khách chọn):
+**5.1. Chu kỳ tính lương** (D = ngày chốt công cố định do Quý Khách chọn; mặc định là ngày 20 hằng tháng khi Quý Khách không chọn ngày khác):
 
 | Mốc | Công việc | Bên thực hiện |
 |---|---|---|
 | Ngày chốt công (D) | Gửi thông tin biến động: công, phép, làm thêm giờ, thưởng | Quý Khách |
+| D+1 | Hạn cuối gửi bảng chấm công và biến động nhân sự bổ sung | Quý Khách |
 | D+3 | Lên phiếu lương, gửi rà soát | oBacker |
 | D+4 | Rà soát và xác nhận phiếu lương | Quý Khách |
 | D+5 | Trả lương cho người lao động | Quý Khách |
@@ -118,7 +120,7 @@ Khi phát sinh nhu cầu thuộc nhóm trên, oBacker thông báo trước và �
 
 Đây là 2 lần đối soát cho **cùng một số tiền của cùng một kỳ**. Quý Khách đóng theo số tiền trong email, không đóng theo số trên C12 nếu hai số khác nhau.
 
-**5.4. Cam kết thời gian phản hồi:** trong 24 giờ làm việc đối với yêu cầu gửi qua email; nghĩa vụ có thời hạn với cơ quan nhà nước được ưu tiên xử lý trong ngày.
+**5.4. Cam kết thời gian phản hồi:** trong 24 giờ làm việc đối với yêu cầu vận hành gửi qua email; nghĩa vụ có thời hạn với cơ quan nhà nước được ưu tiên xử lý trong ngày. Yêu cầu tư vấn áp dụng mốc thời gian tại Điều 20.2(6) Bản Điều Khoản Chung.
 
 ## Điều 6. Sản phẩm bàn giao
 
@@ -166,6 +168,6 @@ Phí Dịch Vụ được xác định theo Đơn Đặt Hàng (thường theo �
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.1.0.4 | Bỏ lý do gắn dòng chi phí, vế mục đích chốt lương và vế giải thích độ trễ hệ thống bảo hiểm xã hội |
+| 08/10/2026 | V2.0.0 | Ngày chốt công D mặc định ngày 20, thêm dòng D+1, SLA chỉ áp cho yêu cầu vận hành. |

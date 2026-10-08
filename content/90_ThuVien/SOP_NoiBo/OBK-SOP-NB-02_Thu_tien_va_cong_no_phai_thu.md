@@ -4,8 +4,9 @@ code: "OBK-SOP-NB-02"
 type: "sop"
 folder: "90_ThuVien"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.3.0.1"
-status: "đang áp dụng"
+version: "V3.0.2"
+release: "R.26.10.08.1"
+status: "thư viện tham khảo"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -28,7 +29,8 @@ tags:
 | Mã tài liệu | OBK-SOP-NB-02 |
 | Tên tài liệu | Quy trình thu tiền và quản lý công nợ phải thu |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ. Thi hành Chương 4 của [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Quy chế tài chính nội bộ |
-| Phiên bản | R.3.0.1, đang áp dụng |
+| Phiên bản | V3.0.2, thư viện tham khảo |
+| Phát hành | R.26.10.08.1 |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -388,6 +390,6 @@ Ngưỡng cảnh báo ở bảng trên là mức tạm đặt ngày 06/10/2026.
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.3.0.1 | Xóa ghi chú phạm vi, đoạn chu trình mang tiền về, đoạn chỉ số và cột rủi ro đặc thù ở bảng 5.1 |
+| 08/10/2026 | V3.0.2 | Đặt trạng thái thư viện tham khảo và sửa dẫn chiếu tới OBK-MSR trong OBK-SOP-NB-02_Thu_tien_va_cong_no_phai_thu. |

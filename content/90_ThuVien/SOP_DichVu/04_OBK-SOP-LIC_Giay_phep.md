@@ -4,8 +4,9 @@ code: "OBK-SOP-LIC"
 type: "sop"
 folder: "90_ThuVien"
 level: "Cấp 2, quy trình bộ phận"
-version: "R.3.0.1"
-status: "đang áp dụng"
+version: "V3.0.2"
+release: "R.26.10.08.1"
+status: "thư viện tham khảo"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -27,7 +28,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-SOP-LIC |
 | Cấp tài liệu | Cấp 2, SOP bộ phận |
-| Phiên bản | R.3.0.1, đang áp dụng |
+| Phiên bản | V3.0.2, thư viện tham khảo |
+| Phát hành | R.26.10.08.1 |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -68,11 +70,11 @@ tags:
 | Đăng ký thuế lần đầu, thay đổi thông tin đăng ký thuế, chấm dứt hiệu lực mã số thuế | Kế toán, TL-KT chốt |
 | Hợp đồng lao động và BHXH cho người nước ngoài đã có giấy phép lao động | Lao Động |
 | Soạn hoặc rà hợp đồng cho khách;<br>ý kiến pháp lý về cấu trúc giao dịch;<br>tranh chấp phải lập luận pháp lý | Bộ phận Dịch vụ pháp lý, xem [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] |
-| Nghiệp vụ chưa có chuẩn;<br>điều kiện pháp lý của một thủ tục chưa có tiền lệ;<br>kết luận dùng cho mọi khách về sau | Legal R&D, xem [[07_OBK-SOP-RD_Nghien_cuu_phap_ly\|OBK-SOP-RD]]. Quy tắc phân ba lớp tại [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 5.5 |
+| Nghiệp vụ chưa có chuẩn;<br>điều kiện pháp lý của một thủ tục chưa có tiền lệ;<br>kết luận dùng cho mọi khách về sau | Legal R&D, xem [[07_OBK-SOP-RD_Nghien_cuu_phap_ly\|OBK-SOP-RD]] |
 | Đàm phán phạm vi, phí, khiếu nại | AM |
 | Xuất hóa đơn, thu phí và lệ phí thu hộ, đối soát công nợ | Miền nội bộ, `KTT` nội bộ. Xem [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] |
 
-**Ranh giới với hai đơn vị pháp lý.** Legal R&D cung cấp CƠ SỞ PHÁP LÝ của một thủ tục qua Job `RD-09`, còn Licensing THỰC THI trên cơ sở đó; Licensing không tự kết luận điều kiện pháp lý cho nghiệp vụ chưa có hướng dẫn. Bộ phận Dịch vụ pháp lý làm phần việc pháp lý CÓ THU cho một khách, ví dụ soạn hợp đồng gắn với giao dịch mà khách đang xin phép; hai bộ phận này không thay nhau. Quy tắc phân ba lớp tại [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 5.5.
+**Ranh giới với hai đơn vị pháp lý.** Legal R&D cung cấp CƠ SỞ PHÁP LÝ của một thủ tục qua Job `RD-09`, còn Licensing THỰC THI trên cơ sở đó; Licensing không tự kết luận điều kiện pháp lý cho nghiệp vụ chưa có hướng dẫn. Bộ phận Dịch vụ pháp lý làm phần việc pháp lý CÓ THU cho một khách, ví dụ soạn hợp đồng gắn với giao dịch mà khách đang xin phép; hai bộ phận này không thay nhau.
 
 **Ranh giới với Lao Động:** Licensing lo GIẤY PHÉP cho người nước ngoài; Lao Động lo QUAN HỆ LAO ĐỘNG sau khi đã có giấy phép. Điểm giao là thời hạn: thời hạn HĐLĐ không được vượt quá thời hạn giấy phép lao động.
 
@@ -108,7 +110,7 @@ tags:
 | LIC-20 | Cấp lại giấy phép lao động | Mất, hỏng, hoặc thay đổi thông tin | Hồ sơ 4 loại theo Đ.24 | Giấy phép cấp lại | Soạn hồ sơ 02 ngày làm việc | Cơ quan giải quyết trong **03 ngày làm việc**;<br>thời hạn giấy cấp lại bằng thời hạn giấy đã cấp trừ thời gian đã làm việc | `PL_1` CC-LIC-10 |
 | LIC-21 | Giấy xác nhận không thuộc diện cấp giấy phép lao động | Khách có người nước ngoài thuộc diện miễn | Hồ sơ chứng minh thuộc diện miễn | Giấy xác nhận, hoặc bản ghi đã thông báo với trường hợp chỉ phải thông báo | Soạn hồ sơ 02 ngày làm việc | Nộp **trong 60 ngày và không ít hơn 10 ngày** trước ngày dự kiến làm việc; cơ quan cấp trong **05 ngày làm việc**.<br>Trường hợp chỉ phải thông báo: **trước ít nhất 03 ngày làm việc** | `PL_1` CC-LIC-12 |
 | LIC-22 | Điều phối đối tác thuê ngoài | Nghiệp vụ oBacker không tự làm | Kết luận cần đối tác thuê ngoài tại LIC-01;<br>phạm vi, thời hạn và chi phí đã chốt với đối tác | Sản phẩm của đối tác ĐÃ ĐƯỢC SOÁT XÉT và ĐÃ CHUẨN HÓA theo biểu mẫu oBacker | Soát xét sản phẩm của đối tác trong 02 ngày làm việc kể từ khi nhận;<br>đối tác không được liên hệ trực tiếp khách | Theo nghiệp vụ | Nội bộ |
-| LIC-23 | Bàn giao kết quả và hướng dẫn sau cấp phép | Có kết quả | Giấy phép đã kiểm tra đúng thông tin | Bản mềm và bản cứng;<br>ghi chú nghĩa vụ sau cấp phép, thời hạn hiệu lực và mốc gia hạn, việc phải làm tiếp và bên chịu trách nhiệm | Bàn giao AM trong 01 ngày làm việc kể từ khi nhận kết quả | Không có | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 6.1 |
+| LIC-23 | Bàn giao kết quả và hướng dẫn sau cấp phép | Có kết quả | Giấy phép đã kiểm tra đúng thông tin | Bản mềm và bản cứng;<br>ghi chú nghĩa vụ sau cấp phép, thời hạn hiệu lực và mốc gia hạn, việc phải làm tiếp và bên chịu trách nhiệm | Bàn giao AM trong 01 ngày làm việc kể từ khi nhận kết quả | Không có | Không có |
 | LIC-24 | Đăng ký hạn gia hạn vào lịch theo dõi | Sau LIC-23 | Ngày hết hạn của giấy phép | Job gia hạn đã được tạo trước với ngày kích hoạt | Ngay tại B5 của Job gốc, trước khi đóng Job | Không có | Nội bộ |
 
 | LIC-25 | Cấp Giấy phép kinh doanh bán lẻ hàng hóa cho DN FDI | Khách yêu cầu | Báo cáo tài chính, xác nhận không nợ thuế, thông tin mặt hàng và phương thức bán lẻ | Giấy phép kinh doanh bán lẻ do Sở Công Thương cấp | Soạn hồ sơ 05 ngày làm việc;<br>nộp trong 01 ngày làm việc sau khi ký | Thẩm định và lấy ý kiến từ 21 ngày làm việc đến 28 ngày làm việc | Nghị định 09/2018/NĐ-CP Điều 5, Điều 9, Điều 12, Điều 13 (đến 17/10/2026); Nghị định 342/2026/NĐ-CP Điều 5, Điều 9, Điều 11, Điều 12 (từ 18/10/2026) |
@@ -119,8 +121,6 @@ tags:
 | LIC-30 | Đăng ký xác lập quyền nhãn hiệu | Khách yêu cầu | Mẫu nhãn hiệu, danh mục sản phẩm/dịch vụ dự kiến, thông tin chủ sở hữu | Giấy biên nhận nộp đơn (giữ ngày nộp đơn ưu tiên); Giấy chứng nhận đăng ký nhãn hiệu | Tra cứu sơ bộ 01 ngày làm việc;<br>soạn hồ sơ và nộp trong 24 giờ đến 48 giờ làm việc sau ký | Thẩm định hình thức 01 tháng; thẩm định nội dung 09 tháng (thực tế 12 - 16 tháng) | `PL_1` CC-LIC-30-MARKS-01 tới CC-LIC-30-MARKS-10 |
 | LIC-31 | Đăng ký quyền tác giả (phần mềm, tác phẩm viết, mỹ thuật) | Khách yêu cầu | Bản sao tác phẩm, mã nguồn (source code), tài liệu chứng minh quyền chủ sở hữu | Giấy chứng nhận đăng ký quyền tác giả do Cục Bản quyền tác giả cấp | Soạn hồ sơ và in đóng tập 03 ngày làm việc;<br>nộp trong 01 ngày làm việc sau khi ký | Cấp Giấy chứng nhận trong 15 ngày làm việc kể từ ngày nhận đủ hồ sơ | Luật Sở hữu trí tuệ 2005 (sửa đổi 2022); Nghị định 17/2023/NĐ-CP Điều 38;<br>hiện đang chặn, xem mục 9 |
 
-
-Yêu cầu không khớp Job nào: xem [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 5.6.
 
 
 ---
@@ -241,7 +241,7 @@ LIC-17 là một Job riêng có đầu ra riêng: bản tra phải ghi NGÀY TRA
 
 ## 10. CHỈ SỐ ĐO LƯỜNG
 
-Ngoài các chỉ số chung tại [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 11.1 và các chỉ số điểm phức tạp tại mục 6:
+Ngoài các chỉ số chung tại [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] và các chỉ số điểm phức tạp tại mục 6:
 
 | Mã | Chỉ số | Công thức | Mục tiêu | Nguồn |
 | --- | --- | --- | --- | --- |
@@ -277,6 +277,6 @@ TL-LIC dựng cấp 3 theo khuôn tại `PL_3` mục 4, bắt đầu ba hướng
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.3.0.1 | Bỏ dòng đọc trước mọi thứ, câu lịch sử bản v0.1, đoạn giải thích mốc cũ và vế hậu quả; đổi tiêu đề mục 9 |
+| 08/10/2026 | V3.0.2 | Đặt trạng thái thư viện tham khảo và sửa dẫn chiếu tới OBK-MSR trong 04_OBK-SOP-LIC_Giay_phep. |

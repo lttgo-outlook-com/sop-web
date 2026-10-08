@@ -4,8 +4,9 @@ code: "OBK-SOP-21"
 type: "sop"
 folder: "90_ThuVien"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.2.0.1"
-status: "đang áp dụng"
+version: "V2.0.2"
+release: "R.26.10.08.1"
+status: "thư viện tham khảo"
 draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -30,7 +31,8 @@ tags:
 | Mã tài liệu | OBK-SOP-21 |
 | Tên chương | Theo dõi và cập nhật văn bản pháp luật |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.2.0.1, đang áp dụng |
+| Phiên bản | V2.0.2, thư viện tham khảo |
+| Phát hành | R.26.10.08.1 |
 | Ngày biên soạn | 04/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -397,7 +399,7 @@ Quy định nội bộ oBacker. Biểu mẫu đầy đủ tại Phụ lục B.
 > [!note] BẢN GỐC ĐÃ CHUYỂN LÊN CẤP 1 ngày 07/09/2026
 > Bốn mức ưu tiên và ba mốc 05, 10, 20 ngày làm việc nay ĐẶT tại OBK-SOP-00 mục 12.3a. Chương này chỉ dẫn chiếu, không chép lại con số.
 
-Cách dùng ở chương này: mọi chỗ trong chương ghi "theo mức ưu tiên" thì mở [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 12.3a để lấy mốc. Job `RD-04` phân mức, Job `RD-05` lập bản đánh giá tác động theo mốc của mức đã phân, xem [[07_OBK-SOP-RD_Nghien_cuu_phap_ly|OBK-SOP-RD]].
+Cách dùng ở chương này: mọi chỗ trong chương ghi "theo mức ưu tiên" thì mở [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 7.5a để lấy mốc. Job `RD-04` phân mức, Job `RD-05` lập bản đánh giá tác động theo mốc của mức đã phân, xem [[07_OBK-SOP-RD_Nghien_cuu_phap_ly|OBK-SOP-RD]].
 
 ---
 
@@ -782,9 +784,9 @@ Quy tắc ghi:
 4. Không xóa dòng cũ. Nhật ký chỉ thêm, không sửa, không xóa.
 5. Dòng đầu tiên ghi phiên bản gốc.
 
-| Phiên bản | R.1.0.0, đang áp dụng | Chương thay đổi | Nội dung thay đổi | Lý do | Người thực hiện | Người duyệt |
+| Phiên bản | Ngày | Chương thay đổi | Nội dung thay đổi | Lý do | Người thực hiện | Người duyệt |
 | --- | --- | --- | --- | --- | --- | --- |
-| R.1.0.0 | 21/09/2026 | Toàn bộ | Ban hành toàn bộ Handbook ở bản R.1.0.0 | Ban hành mới | `CEO` | `CEO` |
+| V1.0.0 | 21/09/2026 | Toàn bộ | Ban hành toàn bộ Handbook ở bản V1.0.0 | Ban hành mới | `CEO` | `CEO` |
 
 ---
 
@@ -809,6 +811,6 @@ Quy tắc ghi:
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.2.0.1 | Bỏ cảnh báo mở đầu, mục bối cảnh 2025 đến 2026, cột hậu quả nếu bỏ qua và từ nhấn mạnh; câu duy nhất viết thành chỉ |
+| 08/10/2026 | V2.0.2 | Đặt trạng thái thư viện tham khảo và sửa dẫn chiếu tới OBK-MSR trong 21_Cap_nhat_van_ban_phap_luat. |

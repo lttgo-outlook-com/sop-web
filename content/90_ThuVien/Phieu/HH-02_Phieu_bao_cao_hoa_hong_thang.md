@@ -4,8 +4,9 @@ code: "HH-02"
 type: "sop"
 folder: "90_ThuVien"
 level: "Phiếu thao tác"
-version: "R.3.0.1"
-status: "đang áp dụng"
+version: "V3.0.2"
+release: "R.26.10.08.1"
+status: "thư viện tham khảo"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -25,7 +26,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | HH-02 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.3.0.1, đang áp dụng |
+| Phiên bản | V3.0.2, thư viện tham khảo |
+| Phát hành | R.26.10.08.1 |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -136,6 +138,6 @@ Tỷ lệ 10%, mốc từ ngày 05 đến ngày 10, mốc 07 ngày làm việc v
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.3.0.1 | Rút gọn mục đích, bỏ câu phiếu không tự đặt con số |
+| 08/10/2026 | V3.0.2 | Đặt trạng thái thư viện tham khảo và sửa dẫn chiếu tới OBK-MSR trong HH-02_Phieu_bao_cao_hoa_hong_thang. |

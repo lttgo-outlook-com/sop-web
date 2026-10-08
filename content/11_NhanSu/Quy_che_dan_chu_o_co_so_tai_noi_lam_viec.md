@@ -4,7 +4,8 @@ code: "OBK-QCNS-09"
 type: "sop"
 folder: "11_NhanSu"
 level: "Cấp 1, văn bản khung toàn công ty"
-version: "R.2.0.1"
+version: "V2.0.1"
+release: "R.26.10.08.1"
 status: "đang áp dụng"
 draft_date: "08/10/2026"
 author: "CEO"
@@ -25,7 +26,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-QCNS-09 |
 | Cấp tài liệu | Cấp 1, văn bản khung toàn công ty |
-| Phiên bản | R.2.0.1, đang áp dụng |
+| Phiên bản | V2.0.1, đang áp dụng |
+| Phát hành | R.26.10.08.1 |
 | Ngày biên soạn | 08/10/2026 |
 | Người biên soạn | CEO |
 | Người soát | CEO |
@@ -233,6 +235,6 @@ Căn cứ: khoản 2 và khoản 3 Điều 48 Nghị định 145/2020/NĐ-CP.
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.2.0.1 | Đổi nhãn mô tả và tên văn bản cấp trên sang Bảng thẩm quyền |
+| 08/10/2026 | V2.0.1 | Đổi nhãn mô tả và tên văn bản cấp trên sang Bảng thẩm quyền |

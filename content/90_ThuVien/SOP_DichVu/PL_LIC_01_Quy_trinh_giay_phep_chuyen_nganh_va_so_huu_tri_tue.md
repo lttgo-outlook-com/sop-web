@@ -4,8 +4,9 @@ code: "OBK-SOP-LIC-PL-01"
 type: "sop"
 folder: "90_ThuVien"
 level: "Phụ lục"
-version: "R.2.0.1"
-status: "đang áp dụng"
+version: "V2.0.2"
+release: "R.26.10.08.1"
+status: "thư viện tham khảo"
 draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -27,7 +28,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-SOP-LIC-PL-01 |
 | Cấp tài liệu | Phụ lục quy trình chi tiết |
-| Phiên bản | R.2.0.1, đang áp dụng |
+| Phiên bản | V2.0.2, thư viện tham khảo |
+| Phát hành | R.26.10.08.1 |
 | Ngày biên soạn | 04/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -393,6 +395,6 @@ Các Job LIC-28 tới LIC-31 đang chặn do thiếu văn bản hợp nhất, xe
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.2.0.1 | Bỏ mục tiêu đóng khoảng trống nghiệp vụ, câu thông báo hiện trạng tích hợp Job và từ nhấn mạnh |
+| 08/10/2026 | V2.0.2 | Đặt trạng thái thư viện tham khảo và sửa dẫn chiếu tới OBK-MSR trong PL_LIC_01_Quy_trinh_giay_phep_chuyen_nganh_va_so_huu_tri_tue. |

@@ -4,13 +4,14 @@ code: "OBK-QCTC-03"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 1, quy chế"
-version: "R.7.0.0"
+version: "V7.0.1"
+release: "R.26.10.08.1"
 status: "đang áp dụng"
 draft_date: "08/10/2026"
 author: "CEO"
 reviewer: "CEO"
 approver: "CEO"
-parent: "OBK-QCTC-02 Quy chế tổ chức và phân quyền"
+parent: "OBK-QCTC-02 Bảng thẩm quyền"
 next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
 aliases:
@@ -28,12 +29,13 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-QCTC-03 |
 | Cấp tài liệu | Cấp 1, quy chế |
-| Phiên bản | R.7.0.0, đang áp dụng |
+| Phiên bản | V7.0.1, đang áp dụng |
+| Phát hành | R.26.10.08.1 |
 | Ngày biên soạn | 08/10/2026 |
 | Người biên soạn | CEO |
 | Người soát | CEO |
 | Người phê duyệt | CEO |
-| Văn bản cấp trên | [[OBK-QCTC-02_Bang_tham_quyen\|OBK-QCTC-02]] Quy chế tổ chức và phân quyền |
+| Văn bản cấp trên | [[OBK-QCTC-02_Bang_tham_quyen\|OBK-QCTC-02]] Bảng thẩm quyền |
 
 ## CHƯƠNG 1. QUY ĐỊNH CHUNG
 
@@ -70,14 +72,14 @@ tags:
 
 3a.2. Điều kiện chi, đối tượng chi và tỷ lệ hoa hồng theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] Điều 23a. Quy chế này không đặt bút toán chi tiết khác.
 
-3a.3. Khi chi hoa hồng cho cá nhân từ 05 triệu đồng trở lên một lần, NTT khấu trừ thuế thu nhập cá nhân 10% trước khi thực hiện lệnh chi `[Nghị định 253/2026/NĐ-CP Đ.50 k.2]`, trừ trường hợp cá nhân đã lập cam kết theo mẫu OBK-BM-TNCN-08. Bút toán: Nợ TK 641 toàn bộ tiền hoa hồng; Có TK 3335 phần thuế khấu trừ; Có TK 112 phần chi thực tế.
+3a.3. Khi chi hoa hồng cho cá nhân từ 05 triệu đồng trở lên một lần, NTT khấu trừ thuế thu nhập cá nhân 10% trước khi thực hiện lệnh chi `[Nghị định 253/2026/NĐ-CP Đ.50 k.2]`, trừ trường hợp cá nhân đã lập cam kết theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 23.2. Bút toán: Nợ TK 641 toàn bộ tiền hoa hồng; Có TK 3335 phần thuế khấu trừ; Có TK 112 phần chi thực tế.
 
 ### Điều 3b. Hạch toán giá thành dịch vụ và thuế
 
 3b.1. oBacker tập hợp chi phí dịch vụ theo từng task gắn mã Job, từng kết quả bàn giao, từng gói dịch vụ và từng khách hàng, vào bên Nợ Tài khoản 154:
 
-- chi phí nhân công trực tiếp: tiền lương và các khoản trích theo lương thuộc trách nhiệm của người sử dụng lao động, tính bằng số giờ làm việc thực tế theo [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] nhân đơn giá giờ đầy đủ theo ngạch bậc tại LU-01; bút toán Nợ TK 154, Có TK 334, Có TK 338;
-- chi phí dịch vụ mua ngoài trực tiếp cho từng hồ sơ hoặc hợp đồng: thiết bị chữ ký số theo Điều 11, cước bưu chính theo TL-01, lệ phí và phí nộp ngân sách, thuê bao phần mềm dùng riêng cho khách hàng; bút toán Nợ TK 154, Nợ TK 133 nếu có, Có TK 112, Có TK 331;
+- chi phí nhân công trực tiếp: tiền lương và các khoản trích theo lương thuộc trách nhiệm của người sử dụng lao động, tính bằng số giờ làm việc thực tế theo [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] nhân đơn giá giờ đầy đủ theo cấp bậc tại [[02_Quy_che_tien_luong_va_tien_thuong_noi_bo|OBK-QCNS-02]] mục 4.3 và mục 5.3; bút toán Nợ TK 154, Có TK 334, Có TK 338;
+- chi phí dịch vụ mua ngoài trực tiếp cho từng hồ sơ hoặc hợp đồng: thiết bị chữ ký số theo Điều 11, cước bưu chính, lệ phí và phí nộp ngân sách, thuê bao phần mềm dùng riêng cho khách hàng; bút toán Nợ TK 154, Nợ TK 133 nếu có, Có TK 112, Có TK 331;
 - chi phí quản lý chung phân bổ: công cụ, dụng cụ, khấu hao thiết bị và hệ thống công nghệ thông tin phục vụ chung, phân bổ 15% trên tổng chi phí nhân công trực tiếp; bút toán Nợ TK 154, Có TK 242, Có TK 214, Có TK 112.
 
 3b.2. Khi hoàn thành bàn giao kết quả dịch vụ, hoặc vào ngày cuối tháng khi phân bổ doanh thu theo sổ chi tiết, KTV kết chuyển giá thành của khối lượng đã nghiệm thu: Nợ TK 632, Có TK 154. Chi phí dở dang cuối kỳ nằm ở số dư bên Nợ Tài khoản 154.
@@ -103,7 +105,7 @@ tags:
 | 09-TT | Bảng kê chi tiền (BM-K) | Gộp nhiều khoản đã chi thành một chứng từ | Người lập bảng kê, KTT, người duyệt |
 | 01-LĐTL | Bảng thanh toán tiền lương | Mỗi kỳ trả lương | Người lập bảng, KTT, TGĐ |
 
-4.2. Mẫu 01-TT và 02-TT do KTV lập, người duyệt chi theo bậc tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 12.3 ghi chức danh theo người ký thật `[Luật Kế toán 41/VBHN-VPQH Đ.19 k.1; Thông tư 99/2025/TT-BTC, Tài khoản 111, mục 1 điểm b, điểm d]`. TQ không là KTT, KTV hoặc AD-KT, và không là người quản lý, điều hành `[Luật Kế toán Đ.13 k.7, Đ.52 k.4]`. Khi chưa gán TQ, oBacker dừng nhập quỹ và xuất quỹ tiền mặt cho đến khi gán TQ.
+4.2. Mẫu 01-TT và 02-TT do KTV lập, người duyệt chi theo bậc tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 12.3 ghi chức danh theo người ký thật `[Luật Kế toán 41/VBHN-VPQH Đ.19 k.1; Thông tư 99/2025/TT-BTC, Tài khoản 111, mục 1 điểm b, điểm d]`. Điều kiện phân công TQ và việc dừng quỹ khi chưa có TQ theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 33.1.
 
 4.3. Chứng từ thuộc pháp luật khác theo pháp luật đó `[Thông tư 99/2025/TT-BTC Đ.9 k.3]`. Hóa đơn theo pháp luật về hóa đơn `[Luật Kế toán Đ.20]`; oBacker không tự thiết kế hóa đơn.
 
@@ -126,11 +128,11 @@ tags:
 
 5.2. BM-05 (phiếu xác minh nhà cung cấp) và BM-07 (bảng kiểm chứng từ trước khi chi) không ghi nghiệp vụ kinh tế, tài chính phát sinh và không làm căn cứ ghi sổ, nên không là chứng từ kế toán theo `[Thông tư 99/2025/TT-BTC Đ.10 k.1]`.
 
-5.3. Danh mục chứng từ BM-01 đến BM-07, nội dung chính và chữ ký theo chức danh, theo `[Luật Kế toán 41/VBHN-VPQH Đ.16 k.1, Đ.19 k.1]`:
+5.3. Danh mục biểu mẫu BM-01 đến BM-07, nội dung chính và chữ ký theo chức danh. BM-01 đến BM-04 và BM-06 là chứng từ kế toán theo `[Luật Kế toán 41/VBHN-VPQH Đ.16 k.1, Đ.19 k.1]`; BM-05 và BM-07 không là chứng từ kế toán, theo mục 5.2:
 
 | Mã | Nội dung chính | Chữ ký theo chức danh |
 | --- | --- | --- |
-| BM-01 | Mã đề nghị; ngày lập; người đề nghị; bộ phận; dòng ngân sách và việc nằm trong ngân sách; nhóm khoản chi; bậc hạn mức; mô tả, lý do, số lượng, giá trị dự kiến đã gồm thuế; dấu hiệu từ 05 triệu đồng trở lên và vượt mức tại OBK-QCTC-01 mục 32.2; đối tác có phải người có liên quan theo OBK-QCTC-01 Điều 12a; bảng so sánh báo giá và nhà cung cấp được chọn | Người đề nghị, TL, KTV, người duyệt chi theo hạn mức |
+| BM-01 | Mã đề nghị; ngày lập; người đề nghị; bộ phận; nhóm khoản chi; bậc hạn mức; mô tả, lý do, số lượng, giá trị dự kiến đã gồm thuế; dấu hiệu từ 05 triệu đồng trở lên và vượt mức tại OBK-QCTC-01 mục 32.2; đối tác có phải người có liên quan theo OBK-QCTC-01 Điều 12a; bảng so sánh báo giá và nhà cung cấp được chọn | Người đề nghị, TL, KTV, người duyệt chi theo hạn mức |
 | BM-02 | Mã đề nghị; ngày lập; mã BM-01 liên quan; nhóm khoản chi; bậc hạn mức; người có liên quan; chi khẩn; người thụ hưởng, mã số thuế, tài khoản và việc xác minh tài khoản; nội dung; số tiền bằng số và bằng chữ; thuế giá trị gia tăng; hình thức thanh toán; hạn thanh toán; bảng chứng từ đính kèm | Người đề nghị, TL, KTV, KTT, người duyệt chi theo hạn mức, NTT, người xác nhận lệnh (TGĐ hoặc Chủ tịch HĐQT) |
 | BM-03 | Mã đề nghị; ngày lập; số khoản tạm ứng chưa hoàn; mục đích, số tiền bằng số và bằng chữ, tài khoản nhận, ngày dự kiến hoàn ứng, dự toán chi tiết; nội dung cử đi công tác (người được cử, nơi đến, thời gian, mục đích, phương tiện, nơi lưu trú); cam kết hoàn ứng của người đề nghị | Người đề nghị, TL, KTV, KTT, người duyệt chi theo hạn mức, NTT, người xác nhận lệnh. KTT ký vì BM-03 là chứng từ chi tiền `[Luật Kế toán 41/VBHN-VPQH Đ.19 k.3]` |
 | BM-04 | Mã đề nghị tạm ứng gốc; ngày lập; số tiền và ngày nhận tạm ứng; bảng kê chi tiết có hình thức thanh toán; bảng tất toán (đã ứng, đã chi hợp lệ, chi không hợp lệ, chênh lệch thu lại hoặc chi bù); bảng kiểm nhanh của KTV | Người hoàn ứng, TL, KTV, KTT, NTT, người xác nhận lệnh |
@@ -154,7 +156,7 @@ tags:
 
 6.6. BM-08: tạm ứng tiền lương hạch toán bên Nợ Tài khoản 334 và thu hồi bằng việc trừ khi tính lương của kỳ, khác tạm ứng theo mẫu 03-TT hạch toán Tài khoản 141. BM-08 có các nhóm trường mà mẫu 03-TT không có: loại đề nghị (ba trường hợp bắt buộc hoặc theo thỏa thuận); số lần đã tạm ứng trong quý và nửa năm, để kiểm ĐM-22; kỳ lương sẽ trừ. Chữ ký theo chức danh của BM-08: người đề nghị, KTV, KTT hoặc người được KTT ủy quyền, người duyệt theo OBK-QCTC-01 mục 26a.3, NTT, người xác nhận lệnh; KTT ký vì BM-08 là chứng từ chi tiền `[Luật Kế toán 41/VBHN-VPQH Đ.19 k.3]`.
 
-6.7. BM-09: Phụ lục I không có mẫu Bảng chấm công; Thông tư chỉ nhắc Bảng chấm công là tài liệu làm cơ sở lập mẫu 01-LĐTL `[Thông tư 99/2025/TT-BTC, Phụ lục I, mẫu 01-LĐTL]`. Chữ ký theo `[Luật Kế toán Đ.16 k.1 đ.g]`: người lập và người duyệt; người lao động xác nhận làm bằng chứng khi có khiếu nại, không là chữ ký tạo hiệu lực. Kỳ tính công và quy tắc công theo OBK-QCNS-07.
+6.7. BM-09: Phụ lục I không có mẫu Bảng chấm công; Thông tư chỉ nhắc Bảng chấm công là tài liệu làm cơ sở lập mẫu 01-LĐTL `[Thông tư 99/2025/TT-BTC, Phụ lục I, mẫu 01-LĐTL]`. Chữ ký theo `[Luật Kế toán Đ.16 k.1 đ.g]`: người lập và người duyệt; người lao động xác nhận làm bằng chứng khi có khiếu nại, không là chữ ký tạo hiệu lực. Kỳ tính công và quy tắc công theo [[02_Quy_che_tien_luong_va_tien_thuong_noi_bo|OBK-QCNS-02]] mục 4.1 và mục 4.5.
 
 6.8. GC-01: Phụ lục I không có mẫu bảng tính giá thành dịch vụ; Thông tư 99/2025/TT-BTC để doanh nghiệp tự xác định phương pháp tập hợp và phân bổ chi phí cho Tài khoản 154 và 632. GC-01 là căn cứ định lượng cho bút toán tại Điều 3b.
 
@@ -188,7 +190,7 @@ tags:
 
 9.3. Chênh lệch báo KTT và TGĐ trong ngày. Quỹ thiếu chưa rõ nguyên nhân: Nợ TK 1381, Có TK 111. Quỹ thừa chưa rõ nguyên nhân: Nợ TK 111, Có TK 3381; sau khi TGĐ có quyết định xử lý, kết chuyển Nợ TK 3381, Có TK 711 `[Thông tư 99/2025/TT-BTC, Tài khoản 1381, Tài khoản 3381]`. Xử lý chênh lệch theo OBK-QCTC-01 mục 33.4 và Điều 49.
 
-9.4. Chữ ký theo chức danh trên biên bản: TQ, KTV, KTT.
+9.4. Chữ ký theo chức danh trên biên bản kiểm quỹ định kỳ: TQ, KTV, KTT. Chữ ký trên biên bản kiểm quỹ đột xuất theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 33.3.
 
 ### Điều 10. Giấy đi đường và quyết toán công tác phí (CT-01)
 
@@ -208,7 +210,7 @@ tags:
 
 11.1. KTV ghi nhận mỗi thiết bị chữ ký số chưa kích hoạt gồm các nội dung sau: số serial thiết bị; ngày nhập kho; số hóa đơn đầu vào; đơn giá nhập; ngày xuất kho kích hoạt; tên và mã số thuế khách hàng; số serial chứng thư số; thời hạn chứng thư số (01, 02 hoặc 03 năm); số hóa đơn đầu ra; nhân sự thực hiện.
 
-11.2. oBacker mua mỗi lần đúng 10 thiết bị. Khi tồn kho chưa kích hoạt còn 05 thiết bị, KTV lập đề xuất mua lô 10 thiết bị mới. Khi nhập kho, KTV đối chiếu số lượng với biên bản giao nhận và hóa đơn đầu vào trước khi chuyển KTT duyệt chi. Mỗi lần xuất kho, KTV căn cứ đơn hàng hoặc hợp đồng đã ký, ghi sổ, rồi lập hóa đơn cho khách hàng theo gói dịch vụ đã bán và ký biên bản bàn giao theo CK-01.
+11.2. oBacker mua mỗi lần đúng 10 thiết bị. Khi tồn kho chưa kích hoạt còn 05 thiết bị, KTV lập đề xuất mua lô 10 thiết bị mới. Khi nhập kho, KTV đối chiếu số lượng với biên bản giao nhận và hóa đơn đầu vào trước khi chuyển người duyệt chi theo bậc tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 12.3; KTT ký chứng từ chi tiền. Mỗi lần xuất kho, KTV căn cứ đơn hàng hoặc hợp đồng đã ký, ghi sổ, rồi lập hóa đơn cho khách hàng theo gói dịch vụ đã bán và ký biên bản bàn giao.
 
 11.3. Ngày 25 hằng tháng, AD-KT và KTV kiểm kê thực tế tại nơi cất giữ, đối chiếu tồn kho với sổ và gửi báo cáo cho KTT. Chữ ký theo chức danh: KTV, AD-KT, KTT.
 
@@ -253,6 +255,6 @@ Chứng từ thiếu nội dung bắt buộc không đủ điều kiện theo `[
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.7.0.0 | Mục 6.6: chữ ký BM-08 ghi KTT hoặc người được KTT ủy quyền. |
+| 08/10/2026 | V7.0.1 | Sửa dẫn chiếu hỏng, bỏ mã chứng từ đã xóa, tách chữ ký kiểm quỹ định kỳ và đột xuất. |

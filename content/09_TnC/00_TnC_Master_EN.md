@@ -5,7 +5,8 @@ aliases:
   - TNC-00-EN
 type: "tnc"
 folder: "09_TnC"
-version: "R.3.0.0"
+version: "V4.0.0"
+release: "R.26.10.08.1"
 status: "đang áp dụng"
 author: "CEO"
 reviewer: "CEO"
@@ -25,7 +26,7 @@ Head office: Floor 2, 06 Tran Phu Street, Hai Chau Ward, Da Nang, Vietnam
 HCMC office: 15 Hoang Ke Viem, Bay Hien Ward, Ho Chi Minh City, Vietnam
 Da Nang office: No. 54 Khue My Dong 7 Street, Ngu Hanh Son Ward, Da Nang, Vietnam
 
-**Version:** R.3.0.0 (VI-EN) · **Updated:** 07/10/2026
+**Version:** V4.0.0 (VI-EN) · **Release:** R.26.10.08.1 · **Updated:** 08/10/2026
 
 ---
 
@@ -99,19 +100,19 @@ If the Client finds an error in information already sent, the Client notifies oB
 
 ## Article 4. Payment of Service Fees
 
-**4.1. Timing and method.** The Client pays according to the schedule and method set out in the Order Form. **By default, oBacker's Services are prepaid.** If the Order Form records a different payment model, the Order Form applies. The Effective Date is the date oBacker receives the first payment (or the first fee instalment) under the Order Form.
+**4.1. Timing and method.** The Client pays according to the schedule and method set out in the Order Form. **By default, oBacker's Services are prepaid.** A Service that has its own payment framework is named in the Service-Specific Terms for that Service; that framework prevails. The Effective Date is the date oBacker receives the first payment (or the first fee instalment) under the Order Form.
 
 **4.2. Remedies for late payment; by payment model.** The payment model for each Service is set out in the Order Form. The remedy for late payment differs by model:
 
 | Model | How it works | Remedy for late payment |
 |---|---|---|
 | **(a) Prepaid** *(default)* | The Services begin/continue only after oBacker receives full payment for the corresponding period or order | **No late-payment interest** (as no debt arises).<br>The remedy is **not starting or suspending the Services** until full payment (Section 5.3).<br>For recurring packages, if the next period's fee is unpaid before that period begins → oBacker may suspend the Services for that period |
-| **(b) Postpaid** *(only if the Order Form states so)* | The Services are performed first;<br>oBacker issues an invoice with a due date;<br>the Client pays later | **Late-payment interest of 0.05%/day** on the overdue amount, from the due date to the actual payment date (both dates inclusive). oBacker may suspend the Services if payment is more than 07 days past the due date (Section 5.3) |
+| **(b) Postpaid** *(only if the Service-Specific Terms for that Service permit it and the Order Form states so)* | The Services are performed first;<br>oBacker issues an invoice with a due date;<br>the Client pays later | **Late-payment interest of 0.05%/day** on the overdue amount, from the due date to the actual payment date (both dates inclusive). oBacker may suspend the Services if payment is more than 07 days past the due date (Section 5.3) |
 | **(c) Prepaid via Wallet** | Fees are automatically deducted from the Wallet balance each period | **No late-payment interest.** If the balance is insufficient, oBacker notifies the Client and may suspend the Services until the Wallet is topped up (see Article 22 and the Wallet Top-Up Terms) |
 
 > **Distinguishing "penalties":** The 0.05%/day late-payment interest in Section 4.2(b) is the remedy for **the Client's late payment of Service Fees to oBacker** (postpaid services only). It is **different** from: (i) administrative penalties and late-payment surcharges on tax/social insurance caused by oBacker's fault; handled under the compensation mechanism in Article 9; (ii) tax late-payment surcharges arising because the Client sent documents/confirmations late; borne by the Client under Article 9 and the Service-Specific Terms. These three types are independent of one another.
 
-**4.3. Components of the Service Fees.** Unless the Order Form provides otherwise, the Service Fees include VAT (if any), state fees, and travel costs to submit filings, **but do not include** notarisation or translation fees. When costs arise outside the scope, oBacker gives prior notice and proceeds only after the Client confirms agreement to the additional fee.
+**4.3. Components of the Service Fees.** The Service Fees **do not include** VAT, state fees and charges, notarisation fees, or translation fees. VAT is added at the rate in force when the invoice is issued. The Client pays state fees and charges. The Service Fees include travel costs to submit filings. When costs arise outside the scope, oBacker gives prior notice and proceeds only after the Client confirms agreement to the additional fee.
 
 **4.4. VAT invoices and collection/payment on behalf.** oBacker issues VAT invoices in accordance with the law. Where oBacker purchases services/goods from a third party on the Client's behalf, the transaction is accounted for on a **collection/payment-on-behalf** basis, and the third party issues its invoice directly to the Client.
 
@@ -125,10 +126,10 @@ If the Client finds an error in information already sent, the Client notifies oB
 
 **5.4. Remedies when the Client is late in providing documents or confirmations:**
 The parties agree on the following mechanism when the Client delays in submitting documents, responding, or providing confirmations:
-- **(a) For matter-based and ad-hoc services (Licensing, Contract drafting & review, Intellectual Property, Research On Demand):** The total number of days the Client delays in providing documents, supplementing dossiers, or confirming drafts beyond the agreed schedule will be added directly to oBacker's deliverable completion deadline (1:1 equivalent calendar extension). The Client's delay period is excluded from oBacker's committed turnaround time.
+- **(a) For matter-based and ad-hoc services (Licensing, Contract drafting & review, Intellectual Property, Research On Demand):** The total number of Business Days the Client delays in providing documents, supplementing dossiers, or confirming drafts beyond the agreed schedule is added directly to oBacker's deliverable completion deadline (1:1 equivalent extension). The Client's delay period is excluded from oBacker's committed turnaround time.
 - **(b) For monthly recurring services (Accounting, Corporate Tax, Social Insurance, Payroll):**
   - If the Client submits documents after the Data Cut-off Date (the 5th of each month) or fails to confirm the draft tax return before the D-7 milestone (07 days prior to the statutory deadline): oBacker's delivery time commitment is temporarily suspended.
-  - oBacker is released from liability for any administrative penalties, late-payment surcharges, or interest arising from the Client's late submission or delayed confirmation.
+  - oBacker is released from liability for any administrative penalties for late filing or late-payment surcharges arising from the Client's late submission or delayed confirmation.
   - oBacker has the right to file the return provisionally based on available data or submit a nil return to secure the statutory filing deadline before state authorities; all subsequent procedures and costs for filing amended or supplementary returns shall be treated as an out-of-package add-on service (charged separately by agreement).
 
 ## Article 6. Notices and Communication
@@ -211,7 +212,7 @@ The Agreement is governed by Vietnamese law. When a dispute arises, the Parties 
 
 **Integrity, anti-bribery and anti-corruption:** oBacker conducts its business in compliance with anti-corruption law and does not engage in any conduct that constitutes bribery or corruption.
 
-**Prohibition and exclusion of nominee services:** Pursuant to Article 16, Clause 4 of the Law on Enterprises No. 59/2020/QH14 and the Law on Anti-Money Laundering No. 14/2022/QH15, oBacker does not provide, participate in, broker, or support nominee services in any form, including nominee shareholders, nominee owners, or nominee legal representatives for enterprises in Vietnam. All requests for nominee arrangements are rejected.
+**Prohibition of nominee services:** oBacker strictly prohibits providing, participating in, brokering, or supporting nominee services in any form, including acting as nominee owner, nominee capital-contributing member, nominee shareholder, or nominee legal representative of an enterprise in Vietnam. oBacker rejects every request to use a nominee, including where a separate agreement or Order Form is proposed.
 
 ## Article 13. Intellectual Property, Records & Third-Party Rights
 
@@ -234,7 +235,7 @@ The service relationship between oBacker and the Client is governed by the follo
 1. **The Order Form**; specifies the services, fees, and payment schedule for each specific order.
 2. **The Service-Specific Terms** (PL-KT, PL-NS, PL-GP, PL-PL) and the Wallet Top-Up Terms; apply to each group of services; they prevail over Part A for the corresponding service.
 3. **The Master T&C (Parts A + B)**; the general principles applying to the entire service relationship.
-4. **The Personal Data Protection Policy**; governs personal data processing specifically.
+4. **The Personal Data Protection Policy**; governs personal data processing specifically; its sensitive-data provisions prevail under Part C.
 
 Operational documents (the Client Working Guide, internal processes) are guidance in nature; **if the guidance conflicts with the Agreement, the Agreement applies.**
 
@@ -259,19 +260,9 @@ Accounting & Tax Services are governed in detail by **PL-KT**. In summary:
 - **Corporate tax:** filing and paying VAT, provisional payment and finalisation of CIT, **filing Foreign Contractor Tax (FCT) when it arises**; monitoring and notifying tax obligations.
 - **E-invoices:** setting up and activating the e-invoice system under Decree No. 254/2026/ND-CP and Circular No. 91/2026/TT-BTC.
 
-**Foreign Contractor Tax (FCT) filing:** FCT filing when the Client pays a foreign supplier (SaaS, advertising, hosting, royalties, etc.) is **included in all periodic partner retainer packages, with a quota by package as specified in [[01_Goi_dich_vu_va_hang_muc_kem_goi|Service Package and Package Add-on Catalog]] Section 9**. From the contract exceeding the package quota within the same month, an additional filing fee applies under the master service catalog (SKU `ADD-FCT-RETURN-2026`). The Client must notify oBacker immediately through the assigned Account Manager or via email at contact@obacker.com when such a transaction arises, attaching the invoice/receipt, payment documents, and a service description. Legal basis for FCT: **Circular No. 69/2025/TT-BTC** Article 9 (value-added tax) and **Circular No. 20/2026/TT-BTC** Article 7 (corporate income tax).
+The following matters are governed in detail by **PL-KT**: Foreign Contractor Tax (FCT) filing, the quota within each package and the surcharge (Section 3.2); on-site tax inspection and audit support (Sections 7.1 and 10.1); statutory audit of FDI enterprises (Section 7.2); the Q4 minimum-term commitment and the second-instalment deadline of 15 March (Section 10.3); the initial bookkeeping health check, restatement of historical books, and the liability release (Section 10.2); and payment of tax (Section 3.5).
 
-**Statutory Audit Independence and FDI Enterprises:** Pursuant to Article 15 of Decree No. 17/2012/ND-CP and Circular No. 186/2010/TT-BTC, 100% of foreign-invested enterprises (FDI) are legally required to undergo statutory annual audits of their Financial Statements. oBacker maintains bookkeeping under Circular 99/2025/TT-BTC for all FDI clients, operating independently from statutory audit firms and not collecting audit fees. The Client directly contracts and pays the independent audit firm; oBacker provides accounting working papers, trial balances, and audit liaison support.
-
-**On-site Tax Inspection Representation:** The standard retainer package covers remote audit defense via electronic tax portals. Where the tax authority issues a formal on-site audit decision at client premises and the Client requests senior oBacker staff to attend in person, the Parties execute an ad-hoc engagement under master catalog SKU `ADD-TAX-INSPECT`.
-
-**Q4 Contract Lock-in and March 15th Checkpoint:** Specified in detail in **PL-KT** Section 10.3: the minimum-term commitment, the second-installment deadline, and the handling when the second installment is late.
-
-**Historical Restatement & Liability Release:** Clients onboarding from previous service providers or with more than one year of operational history must undergo an Initial Bookkeeping Health Check. Where historical accounting records contain errors, omissions, or non-compliance requiring restatement, the Parties shall execute a specialized Restatement Addendum calculated based on monthly base fee, industry multiplier K, and adjusted voucher volume. oBacker is released and indemnified from all civil liability, tax arrears, administrative penalties, and late-payment interest arising from historical periods prior to the formal handover date.
-
-**oBacker does not pay tax on the Client's behalf**, unless the Client requests linking the e-tax account to the bank account and has confirmed the return.
-
-> Filing and finalising **PIT on salaries** falls under HR Services (PL-NS). Tax advisory/optimisation falls under Legal Services (PL-PL).
+> Withholding, filing, and finalising **PIT on salaries** fall under HR Services (PL-NS). Withholding and filing PIT on occasional income paid to individuals outside the payroll fall under PL-KT. Tax advisory/optimisation falls under Legal Services (PL-PL).
 
 ## Article 17. HR Services; PL-NS
 
@@ -282,7 +273,7 @@ HR Services are governed in detail by **PL-NS**. In summary:
 - **Insurance:** registering, filing additions/reductions, closing books, and adjusting SI-HI-UI; reconciling the amounts payable each period
 - **Contracts & labour reporting:** drafting labour contracts, addenda, and NDAs from standard templates; periodic labour reporting; supporting the registration of internal labour rules.
 
-**Out of scope:** oBacker does not provide dismissal, disciplinary handling, or labour-dispute mediation/litigation services; does not handle Work Permit/TRC/Visa procedures for foreign employees; and does not carry out recruitment/headhunting. These needs are handled as Add-on services or by referral to a partner.
+**Out of scope:** oBacker does not provide dismissal, disciplinary handling, or labour-dispute mediation/litigation services; does not handle Work Permit/TRC/Visa procedures for foreign employees within the standard packages; and does not carry out recruitment/headhunting. These needs are handled as Add-on services under a separate Order Form or by referral to a partner.
 
 ## Article 18. Licensing Services; PL-GP
 
@@ -303,7 +294,7 @@ After onboarding, coordination settles into a fixed monthly rhythm. Recurring no
 | Timing | oBacker proactively sends | What the Client does |
 |---|---|---|
 | Days 1 & 5 | Collecting the previous month's data (bank statements, new contracts, input/output invoices) | Respond with all files attached (Excel/PDF/XML) |
-| Day 20 | Preparing the payroll period: personnel changes | Confirm changes, or "no changes" |
+| Day 20 (or the cut-off date D chosen by the Client under Section 5.1 of PL-NS) | Preparing the payroll period: personnel changes | Confirm changes, or "no changes" |
 | Days 15 & 25 | Notifying the SI-HI-UI amount with form C12 | See Section 20.1 |
 
 **20.1. Social insurance reconciliation (days 15 and 25).** The day-15 email is the **notice of the amount payable**. The day-25 email is sent as a **reconciliation letter** (not a second payment reminder):
@@ -313,15 +304,15 @@ After onboarding, coordination settles into a fixed monthly rhythm. Recurring no
 
 These are two reconciliations for **the same amount for the same period**, not two separate payments. The Client pays the amount in the email, not the figure on form C12 if the two differ.
 
-**20.2. Operational Boundary Principles:** Both Parties observe the following operational boundaries: (1) No physical USB Token custody at oBacker offices exceeding 24 working hours; (2) No tax, insurance, or penalty payments via personal employee bank accounts; (3) Client bears 100% legal responsibility for the validity and actual occurrence of all input invoices; (4) oBacker maintains the right to refuse bookkeeping of undocumented, non-commercial, or high-tax-risk expenses; (5) No appointed legal Chief Accountant unless contracted under a separate statutory appointment engagement; (6) SLA: acknowledgement of an advisory inquiry within 04 business hours, with the substantive advisory reply within 24 to 48 business hours; (7) Financial and operational data confidentiality governed by standard Non-Disclosure Agreement (NDA).
+**20.2. Operational Boundary Principles:** Both Parties observe the following operational boundaries: (1) oBacker holds only the secondary USB Token that the Client gives to oBacker, and the Client keeps the primary USB Token; (2) No receipt of payments toward tax or social insurance obligations through the personal bank accounts of oBacker personnel; (3) The Client bears 100% responsibility for the legality and actual occurrence of all input invoices; (4) oBacker has the right to refuse to book expenses that lack lawful supporting documents or carry a serious risk of tax evasion; (5) No oBacker personnel are appointed as the legal Chief Accountant unless a separate service contract is signed; (6) SLA: acknowledgement of an advisory request within 04 business hours, with the substantive advisory reply within 24 to 48 business hours; (7) Financial and business data are kept confidential under the Non-Disclosure Agreement (NDA).
 
 ## Article 21. Termination and Handover
 
-Either Party may terminate a recurring Service (Accounting & Tax, HR) with at least **30 days'** prior notice (or another period stated in the Order Form); the Client pays the fee for the work already performed. oBacker hands over all books, records, and system login details (in Excel/PDF format) within **15 Business Days**; the Client has 30 days to download all data before oBacker archives or deletes it as prescribed.
+Either Party may terminate a recurring Service (Accounting & Tax, HR) with at least **30 days'** prior notice (or another period stated in the Order Form); the Client pays the fee for the work already performed. An Accounting & Tax contract newly signed in Q4 is subject to the minimum-term commitment in Section 10.3 of PL-KT; on termination before the commitment ends, the reimbursement in that Section applies. oBacker hands over all books, records, and system login details (in Excel/PDF format) within **15 Business Days**; the Client has 30 days to download all data before oBacker archives or deletes it as prescribed.
 
 ## Article 22. Wallet Top-Up Terms
 
-When the Client uses the wallet top-up function, the **Wallet Top-Up Terms** (a separate document) apply in addition. In summary: a top-up is recorded as a **prepaid service voucher** (not an advance/deposit), valid for **24 months**, usable only to pay for oBacker services, and **non-refundable and non-transferable** (unless the law provides otherwise or there is a written agreement). A VAT invoice is issued only when the service is performed, not at the time of top-up. The minimum top-up is VND 1,000,000 per transaction.
+When the Client uses the wallet top-up function, the **Wallet Top-Up Terms** (a separate document) apply in addition. In summary: a top-up is recorded as a **prepaid service voucher** (not an advance/deposit), valid for **24 months** (any balance remaining after that period is recognised as oBacker's service revenue), usable only to pay for oBacker services, and **non-refundable and non-transferable** (unless the law provides otherwise or there is a written agreement). A VAT invoice is issued only when the service is performed, not at the time of top-up. The minimum top-up is VND 1,000,000 per transaction.
 
 ---
 
@@ -345,6 +336,4 @@ When oBacker processes the data of the Client's employees/shareholders under the
 
 | Date | Version | Description |
 | --- | --- | --- |
-| 07/10/2026 | R.3.0.0 | Sync with Vietnamese version R.3.0.0: Section 9.3 liability cap takes the lower benchmark (fees actually received for the service giving rise to the claim); Article 15-19 commercial numbers now point to the service package catalog and PL-KT/PL-PL (VQ-44, VQ-45) |
-| 07/10/2026 | R.2.2.0 | Sync with Vietnamese version R.2.2.0: subject oBacker added to the basic legal-risk check bullet in the one-review scope (Article 19) |
-| 02/10/2026 | R.2.1.0 | Excess FCT filing surcharge code updated to `ADD-FCT-RETURN-2026` |
+| 08/10/2026 | V4.0.0 | Synced with the Vietnamese version: Nominee prohibition, prepayment, fees, USB Token and PIT on salaries. |

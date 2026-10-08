@@ -4,8 +4,9 @@ code: "OBK-SOP-NB-06"
 type: "sop"
 folder: "90_ThuVien"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.2.0.1"
-status: "đang áp dụng"
+version: "V2.0.2"
+release: "R.26.10.08.1"
+status: "thư viện tham khảo"
 draft_date: "30/09/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -28,7 +29,8 @@ tags:
 | Mã tài liệu | OBK-SOP-NB-06 |
 | Tên tài liệu | Quy trình nghỉ việc và offboarding nội bộ |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ. Thi hành Bộ tài liệu quản trị nhân sự [[00_INDEX\|OBK-INDEX]] và Nội quy lao động [[Noi_quy_lao_dong\|OBK-NQLD]] |
-| Phiên bản | R.2.0.1, đang áp dụng |
+| Phiên bản | V2.0.2, thư viện tham khảo |
+| Phát hành | R.26.10.08.1 |
 | Ngày biên soạn | 30/09/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 27/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -105,7 +107,7 @@ Bảng tổng hợp; khi bảng và phần chữ khác nhau thì lấy phần ch
 | `KTV` nội bộ | Đối chiếu toàn bộ các khoản tạm ứng, công nợ cá nhân theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]]; tính tiền lương ngày làm việc thực tế, tiền lương những ngày phép chưa nghỉ và trợ cấp thôi việc (nếu có) theo [[OBK-SOP-NB-04_Cong_va_tien_luong_noi_bo\|OBK-SOP-NB-04]]; lập Bảng thanh toán quyết toán nghỉ việc | Không thanh toán tiền lương quyết toán khi chưa có đầy đủ chữ ký xác nhận của các bộ phận trên Phiếu offboarding |
 | Người lao động nghỉ việc | Nộp đơn thông báo đúng thời hạn báo trước; hoàn thành toàn bộ bàn giao công việc và hồ sơ khách hàng; hoàn trả đầy đủ tài sản công ty; thanh toán dứt điểm công nợ tạm ứng cá nhân; ký biên bản quyết toán | Không được giữ lại bất kỳ bản chính tài liệu, hồ sơ khách hàng hoặc mật khẩu truy cập hệ thống |
 
-Khi người có thẩm quyền phê duyệt nghỉ việc vắng mặt, thẩm quyền chuyển theo quy tắc ủy quyền tại [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 8.1.
+Khi người có thẩm quyền phê duyệt nghỉ việc vắng mặt, thẩm quyền chuyển theo quy tắc ủy quyền.
 
 ---
 
@@ -329,6 +331,6 @@ Biểu mẫu là view thao tác trên dữ liệu của sổ, không phải bư�
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.2.0.1 | Xóa mục ví dụ, mục trường hợp phát sinh, các dòng hậu quả và từ nhấn mạnh; viết lại mục 1 |
+| 08/10/2026 | V2.0.2 | Đặt trạng thái thư viện tham khảo và sửa dẫn chiếu tới OBK-MSR trong OBK-SOP-NB-06_Nghi_viec_va_offboarding_noi_bo. |

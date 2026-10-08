@@ -5,7 +5,8 @@ aliases:
   - TNC-08-EN
 type: "tnc"
 folder: "09_TnC"
-version: "R.2.0.0"
+version: "V3.0.0"
+release: "R.26.10.08.1"
 status: "đang áp dụng"
 author: "CEO"
 reviewer: "CEO"
@@ -20,7 +21,7 @@ tags:
 ### oBacker Master Service Agreement; Electronic Execution
 
 **Agreement No.:** [AGREEMENT NO. / per the Order Form] · **Issue date:** [__/__/____]
-**Template version:** R.1.1.2 · **Updated:** 07/10/2026
+**Template version:** V3.0.0 · **Release:** R.26.10.08.1 · **Updated:** 08/10/2026
 
 > This Framework Agreement is entered into in **electronic form** under the **Law on E-Transactions No. 20/2023/QH15**. The Agreement incorporates and attaches oBacker's Terms & Conditions of Service; **oBacker signs it in advance (automatic signature), and the Agreement is concluded once the Client makes payment** under the Order Form.
 
@@ -33,7 +34,7 @@ oBacker Joint Stock Company · Tax code: 0402298185
 Head office: Floor 2, 06 Tran Phu Street, Hai Chau Ward, Da Nang, Vietnam
 HCMC office: 15 Hoang Ke Viem, Bay Hien Ward, Ho Chi Minh City, Vietnam (Tel: 0909682274)
 Da Nang office: No. 54 Khue My Dong 7 Street, Ngu Hanh Son Ward, Da Nang, Vietnam
-Representative: Le Trong Tuan, Chief Executive Officer · Email: contact@obacker.com · Website: https://obacker.com
+Representative: Le Trong Tuan, General Director · Email: contact@obacker.com · Website: https://obacker.com
 
 **SERVICE USER (Party B; "the Client"):**
 Company name: [___] · Tax code: [___]
@@ -57,9 +58,9 @@ Email: [___] · Phone: [___]
 | Accounting standard applied | [Circular 58/2026/TT-BTC (micro VN) / Circular 99/2025/TT-BTC (FDI & growing VN)] |
 | Scope (applicable module) | [Accounting & Tax / HR / Licensing / Legal / …] |
 | Quotas & FUP thresholds | [Monthly quota: ___ transactions/mo; Headcount: ___ employees; Maximum: 1,500 txn/mo (Growth)] |
-| Service Fees | [___ VND / year (or quarter/month); VAT included/excluded] |
+| Service Fees | [___ VND / year (or quarter/month); VAT excluded] |
 | Term & minimum commitment | [per package / Q4 contracts commit through Dec 31 of next year (5 quarters)] |
-| **Payment model** | [**Prepaid** (default) / Postpaid / Prepaid via Wallet] |
+| **Payment model** | [**Prepaid** (default) / Postpaid (where the Service-Specific Terms permit) / Prepaid via Wallet] |
 | Payment schedule | [prepaid per period / instalment 1: ___ / instalment 2: before March 15 (for annual contracts)] |
 | Payment method | [bank transfer / payment gateway / oBacker Wallet] |
 | Client referred by | [none / name of the referring party under oBacker's partner programme] |
@@ -87,7 +88,7 @@ Email: [___] · Phone: [___]
 
 ## Article 3. Service Fees and payment
 
-The Service Fees, payment schedule and payment method follow the Order Form. **The default payment model is prepaid.** Remedies for late payment apply under Article 4.2 of the Master T&C, differentiated by model: **prepaid** → suspension of the Services, no late interest; **postpaid** (only where the Order Form so states) → late-payment interest of 0.05%/day from the due date; **prepaid via Wallet** → automatic deduction, with suspension when the balance is insufficient. Fee components, VAT invoicing, and collect-on-behalf/pay-on-behalf apply under Article 4 of the Master T&C.
+The Service Fees, payment schedule and payment method follow the Order Form. **The default payment model is prepaid.** Remedies for late payment apply under Article 4.2 of the Master T&C, differentiated by model: **prepaid** → suspension of the Services, no late interest; **postpaid** (only where the Service-Specific Terms permit and the Order Form so states) → late-payment interest of 0.05%/day from the due date; **prepaid via Wallet** → automatic deduction, with suspension when the balance is insufficient. The Service Fees do not include VAT, state fees, or state charges. Fee components, VAT invoicing, and collect-on-behalf/pay-on-behalf apply under Article 4 of the Master T&C.
 
 ## Article 4. Electronic execution and effectiveness of the Agreement (automatic signature)
 
@@ -112,7 +113,7 @@ The Service Fees, payment schedule and payment method follow the Order Form. **T
 
 5.2. Unless the Order Form provides otherwise, the Agreement renews automatically for each successive period when the Client continues to pay the fees for the next period.
 
-5.3. Each Party may terminate a recurring service with at least **30 days'** prior notice. Termination, handover of books/records and the data-download period apply under Article 21 of the Master T&C and the termination clause in the corresponding Service-Specific Terms.
+5.3. Each Party may terminate a recurring service with at least **30 days'** prior notice. Termination, handover of books/records and the data-download period apply under Article 21 of the Master T&C and the termination clause in the corresponding Service-Specific Terms. A contract signed during Q4 is subject to the minimum-term commitment in Section 5.1; on termination before the commitment ends, the reimbursement in Section 10.3 of PL-KT applies.
 
 ## Article 6. Undertakings and allocation of responsibility
 
@@ -148,7 +149,7 @@ Electronic signature / Payment confirmation: `[Client e-signature or payment tra
 
 ---
 
-**Annexes to the Agreement:** the Order Form · Master T&C · PL-GP · PL-KT · PL-NS · PL-PL · Wallet Top-Up Terms · Personal Data Protection Policy.
+**Documents attached to the Agreement:** the Order Form · Master T&C · PL-GP · PL-KT · PL-NS · PL-PL · Wallet Top-Up Terms · Personal Data Protection Policy.
 
 ---
 
@@ -160,6 +161,4 @@ Electronic signature / Payment confirmation: `[Client e-signature or payment tra
 
 | Date | Version | Description |
 | --- | --- | --- |
-| 07/10/2026 | R.2.0.0 | Sync with Vietnamese version R.2.0.0: Article 6 now references the Section 9.3 liability limit of the Master T&C instead of restating the 03-month formula (VQ-44) |
-| 07/10/2026 | R.1.1.2 | Subject The Client added to the acceptance line in the Party B signature block |
-| 01/10/2026 | R.1.1.1 | Wording: 'Hard ceiling' reworded to 'Maximum' in the Order Form template (Article 1) |
+| 08/10/2026 | V3.0.0 | Synced with the Vietnamese standard framework agreement: fees, payment model and General Director title. |

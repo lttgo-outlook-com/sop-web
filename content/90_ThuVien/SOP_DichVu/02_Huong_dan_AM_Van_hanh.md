@@ -4,8 +4,9 @@ code: "OBK-HB-35"
 type: "sop"
 folder: "90_ThuVien"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.2.0.1"
-status: "đang áp dụng"
+version: "V2.0.2"
+release: "R.26.10.08.1"
+status: "thư viện tham khảo"
 draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -30,7 +31,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-HB-35 |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.2.0.1, đang áp dụng |
+| Phiên bản | V2.0.2, thư viện tham khảo |
+| Phát hành | R.26.10.08.1 |
 | Ngày biên soạn | 04/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 07/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -38,7 +40,7 @@ tags:
 | Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] Quản lý khách hàng |
 | Phạm vi | `AM`, từ lúc tiền về, trong vận hành hằng ngày, và khi một việc sẽ trễ hoặc đã sai |
-| Đọc trước | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] mục 3 Job AM-06 tới AM-11, AM-14 và AM-15;<br>[[03_Onboarding_khach_hang\|OBK-SOP-03]];<br>[[PL_Chuyen_len_cap_tren\|OBK-QCTC-02-PL-C]] mục 2a;<br>[[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 5.5, mục 7.3 và NT-6 |
+| Đọc trước | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] mục 3 Job AM-06 tới AM-11, AM-14 và AM-15;<br>[[03_Onboarding_khach_hang\|OBK-SOP-03]];<br>[[PL_Chuyen_len_cap_tren\|OBK-QCTC-02-PL-C]] mục 2a;<br>[[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 7.3 và NT-6 |
 
 ---
 
@@ -171,7 +173,7 @@ Mốc: 07 ngày làm việc, tối đa 10 ngày làm việc nếu đang chờ h�
 | Mã | Chỉ số | Ngưỡng | Đọc ở đâu |
 | --- | --- | --- | --- |
 | `AM-M11` | Tỷ lệ onboarding hoàn tất đúng hạn | Từ 80% | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] mục 9.2 |
-| `CS-06` | Tỷ lệ tuân thủ SLA nội bộ với `AM` | Từ 80% | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 11.1 |
+| `CS-06` | Tỷ lệ tuân thủ SLA nội bộ với `AM` | Từ 80% | [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] |
 | Chỉ số riêng của hướng dẫn này | Số lần phải gửi khách quá 02 lượt yêu cầu hồ sơ cho cùng một khách | 0 | Đếm trên Job `AM-08` |
 
 ---
@@ -211,7 +213,7 @@ Không áp cho yêu cầu của lead; lead đi theo hướng dẫn 01. Không á
 | Chuyển đúng bộ phận | R và A | I | C | I |
 | Cam kết mốc `T2` với khách | R | I | A và C | I |
 | Xác định Job chính, trường hợp ĐÃ RÕ bộ phận nào giữ đầu ra cuối | R và A | I | C | I |
-| Chỉ định Job chính, trường hợp KHÔNG RÕ bộ phận nào giữ đầu ra cuối | R, việc chuyển lên cấp trên | I | C | A và R, nếu cả hai bộ phận thuộc Phòng Dịch vụ. Một bên là Legal R&D thì `CEO` quyết, xem [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 5.5 |
+| Chỉ định Job chính, trường hợp KHÔNG RÕ bộ phận nào giữ đầu ra cuối | R, việc chuyển lên cấp trên | I | C | A và R, nếu cả hai bộ phận thuộc Phòng Dịch vụ. Một bên là Legal R&D thì `CEO` quyết |
 | Thực hiện nghiệp vụ | I | R | A | N/A |
 | Gửi đầu ra cho khách | R và A | I | C | I |
 | Xử lý bộ phận trễ SLA nội bộ | R | I | A | C từ lần trễ thứ hai |
@@ -229,7 +231,7 @@ Không áp cho yêu cầu của lead; lead đi theo hướng dẫn 01. Không á
 
 ### 5.1. Bước 1. Xác nhận đã nhận, trong hạn T1
 
-Giống bước 1 của hướng dẫn 01: mở bảng `T1` tại [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 7.2.3 và đọc theo kênh. Mục này không chép lại con số, theo `PL_3` mục 4.3.
+Giống bước 1 của hướng dẫn 01: mở bảng `T1` tại [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 7.2a và đọc theo kênh. Mục này không chép lại con số, theo `PL_3` mục 4.3.
 
 Yêu cầu đến qua kênh liên lạc thì phải đưa vào hệ thống trước khi xử lý.
 
@@ -239,11 +241,11 @@ Bốn câu hỏi, theo thứ tự:
 
 **Câu 1, trong hay ngoài phạm vi hợp đồng.** Ngoài phạm vi thì không tạo Job cho bộ phận; chuyển `AM-23` để xin duyệt mở rộng phạm vi và phí. Xem `KS-AM-02`.
 
-**Câu 2, mức ưu tiên nào.** Phân theo HẬU QUẢ, không theo giọng điệu của khách. Bảng phân mức tại [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 7.3. Khi phân vân giữa hai mức, chọn mức cao hơn.
+**Câu 2, mức ưu tiên nào.** Phân theo HẬU QUẢ, không theo giọng điệu của khách. Khi phân vân giữa hai mức, chọn mức cao hơn.
 
 Ba dấu hiệu bắt buộc phân P1: có nguy cơ trễ một hạn pháp định; cơ quan nhà nước đã ra văn bản có thời hạn; hoặc khách nói tới việc hủy hợp đồng.
 
-**Câu 3, bộ phận nào.** Bảng chiều ngang tại [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 8.1. Với việc pháp lý, áp quy tắc ba lớp tại mục 5.5, và câu hỏi để phân là hồ sơ đang ở tay ai, việc cần gì.
+**Câu 3, bộ phận nào.** Câu hỏi để phân là hồ sơ đang ở tay ai, việc cần gì.
 
 **Câu 4, một bộ phận hay nhiều bộ phận.** Nhiều bộ phận thì sang bước 3 trước khi cam kết bất cứ mốc nào.
 
@@ -289,7 +291,7 @@ Mốc đã hứa với khách bị đe dọa thì chạy `AM-15` và hướng d�
 
 ### 5.6. Bước 6. Gửi đầu ra cho khách
 
-Ba chốt trước khi gửi, làm theo thứ tự: có dấu vết kiểm soát chất lượng hai lớp; nội dung bàn giao đủ năm phần theo [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 6.1; và gửi qua KÊNH CHÍNH THỐNG.
+Ba chốt trước khi gửi, làm theo thứ tự: có dấu vết kiểm soát chất lượng hai lớp; nội dung bàn giao đủ năm phần; và gửi qua KÊNH CHÍNH THỐNG.
 
 Đồng hồ `T3` chỉ dừng khi kết quả đã gửi qua email công ty. Nhắn chat báo đã xong không làm dừng đồng hồ.
 
@@ -303,7 +305,7 @@ Thiếu chốt nào thì trả lại bộ phận. `AM` có quyền từ chối g
 | `KS-AM-09` | Vụ việc nhiều bộ phận đã có Job chính và người chịu trách nhiệm cuối ghi trên Job | Trước khi cam kết mốc với khách | Không cam kết mốc. Chuyển lên `COO` |
 | `KS-AM-01` | Mốc cam kết với khách có xác nhận của `TL` bộ phận trên Job | Trước bước 4 | Không cam kết. Trả lời bằng câu chuẩn tại `PL_A` mục 5 |
 | `KS-AM-03` | Đầu ra có dấu vết kiểm soát chất lượng hai lớp | Trước bước 6 | Trả lại bộ phận |
-| `KS-AM-04` | Nội dung bàn giao đủ năm phần theo [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 6.1 | Trước bước 6 | Yêu cầu bộ phận bổ sung. Không tự viết thay |
+| `KS-AM-04` | Nội dung bàn giao đủ năm phần | Trước bước 6 | Yêu cầu bộ phận bổ sung. Không tự viết thay |
 
 ## 7. LỖI THƯỜNG GẶP VÀ CÁCH XỬ LÝ
 
@@ -313,8 +315,8 @@ Thiếu chốt nào thì trả lại bộ phận. `AM` có quyền từ chối g
 | Tự ghép kết quả từ nhiều Job phụ | `AM` gửi khách một bản mà không Job nào giữ bản đó | `AM` chỉ nhận bàn giao từ Job chính |
 | Chỉ định Job chính sau khi việc đã chạy | Hai bộ phận đã làm một tuần rồi mới hỏi ai giữ đầu ra cuối | Bước 3 làm trong 04 giờ làm việc, trước khi cam kết mốc. Chỉ định muộn là chỉ số `AM-M18` |
 | Tự làm thay việc trễ của bộ phận thay vì chuyển lên cấp trên | `AM` xin lỗi khách và tự hẹn lại mốc, Job không có bản ghi nhắc và chuyển lên cấp trên | Chạy `AM-26` theo ba bậc |
-| Nhắn chat báo đã xong rồi coi là đã giao | `T3` tính là đúng hạn mà email gửi sau đó một ngày | `T3` chỉ dừng khi gửi qua kênh chính thống, theo [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 7.2.1a quy tắc 1 |
-| Trả lời khách bằng nội dung chưa đối chiếu bản gốc hoặc chưa xác minh được | Thư gửi khách có kết luận mà Job không có mã căn cứ đã đối chiếu bản gốc | Hành vi oBacker nghiêm cấm điểm 6 tại [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 9. Câu chuẩn tại `PL_A` mục 12 |
+| Nhắn chat báo đã xong rồi coi là đã giao | `T3` tính là đúng hạn mà email gửi sau đó một ngày | `T3` chỉ dừng khi gửi qua kênh chính thống |
+| Trả lời khách bằng nội dung chưa đối chiếu bản gốc hoặc chưa xác minh được | Thư gửi khách có kết luận mà Job không có mã căn cứ đã đối chiếu bản gốc | Hành vi oBacker nghiêm cấm điểm 6 tại [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]]. Câu chuẩn tại `PL_A` mục 12 |
 | Xử lý yêu cầu đến qua chat mà chưa vào hệ thống | Job được tạo sau khi việc đã làm xong | Đưa yêu cầu vào hệ thống trước khi xử lý, theo bước 1 |
 
 ## 8. ĐẦU RA VÀ NƠI LƯU
@@ -333,8 +335,8 @@ Thiếu chốt nào thì trả lại bộ phận. `AM` có quyền từ chối g
 | --- | --- | --- | --- |
 | `AM-M10` | Tỷ lệ xác nhận đã nhận đúng `T1` | Theo [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] mục 9.2 | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] mục 9.2 |
 | `AM-M18` | Số vụ việc nhiều bộ phận không xác định được Job chính trước khi bắt đầu | 0 | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] mục 9.2 |
-| `CS-06` | Tỷ lệ tuân thủ SLA nội bộ với `AM` | Theo [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 11.1 | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 11.1 |
-| `CS-07` | Tỷ lệ liên lạc với khách đi qua `AM` | 100% | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 11.1 |
+| `CS-06` | Tỷ lệ tuân thủ SLA nội bộ với `AM` | Theo [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] | [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] |
+| `CS-07` | Tỷ lệ liên lạc với khách đi qua `AM` | 100% | [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] |
 
 ---
 
@@ -357,7 +359,7 @@ Hướng dẫn này phục vụ hai Job: `AM-14` xử lý sự cố mức P1, v�
 
 ## 2. PHẠM VI ÁP DỤNG
 
-Áp cho ba tình huống: bộ phận báo nguy cơ trễ một mốc đã cam kết; một đầu ra đã gửi khách bị phát hiện sai; và sự cố dịch vụ mức P1 theo [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 7.3.
+Áp cho ba tình huống: bộ phận báo nguy cơ trễ một mốc đã cam kết; một đầu ra đã gửi khách bị phát hiện sai; và sự cố dịch vụ mức P1.
 
 Không áp cho việc trễ nội bộ chưa đe dọa mốc với khách; việc trễ nội bộ đi theo `AM-26` và hướng dẫn 05. Không áp cho sự cố hệ thống và sự cố dữ liệu cá nhân; hai loại đó có đường riêng tại OBK-QCTC-02-PL-C mục 4, và `AM` chỉ là người THÔNG BÁO KHÁCH chứ không phải người xử lý.
 
@@ -386,7 +388,7 @@ Không áp cho việc trễ nội bộ chưa đe dọa mốc với khách; việ
 
 ### 5.1. Bước 1. Nhận tin, và xác định loại
 
-Bộ phận có nghĩa vụ báo `AM` NGAY khi PHÁT HIỆN nguy cơ, không đợi tới lúc chắc chắn trễ. Đây là dòng cuối của [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 7.4.
+Bộ phận có nghĩa vụ báo `AM` NGAY khi PHÁT HIỆN nguy cơ, không đợi tới lúc chắc chắn trễ. Đây là dòng cuối của [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 7.2a.
 
 Ba loại, ba mốc khác nhau:
 
@@ -438,7 +440,7 @@ Mọi trường hợp đều phải có email công ty, vì đó là kênh chín
 | --- | --- | --- |
 | P1 | 02 lần mỗi ngày, đầu giờ sáng và cuối giờ chiều | 01 ngày làm việc, tối đa 02 |
 | P2 | 01 lần mỗi ngày | 02 ngày làm việc |
-| P3 | Khi có tiến triển | Theo [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 7.3 |
+| P3 | Khi có tiến triển | Không có |
 
 Báo cáo cập nhật tiến độ phải gửi theo định kỳ cam kết ngay cả khi chưa có kết quả mới. Khi chưa có tiến triển, nội dung nêu bước đang xử lý, đầu mối đang phối hợp và mốc phản hồi tiếp theo.
 
@@ -446,7 +448,7 @@ Báo cáo cập nhật tiến độ phải gửi theo định kỳ cam kết nga
 
 Ba việc phải xong mới đóng:
 
-1. Khách xác nhận đã xử lý xong, hoặc `AM` đã nhắc đủ số lần theo [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 6.2.
+1. Khách xác nhận đã xử lý xong, hoặc `AM` đã nhắc đủ số lần.
 2. Lỗi đầu ra đã được ghi vào Job kèm mức Nghiêm trọng, Đáng kể hoặc Nhỏ theo OBK-SOP-00 mục 11.2.
 3. Có một trong ba kết quả ghi trên Job: sửa hướng dẫn, thêm mục vào bảng kiểm, hoặc kết luận không cần sửa kèm lý do.
 
@@ -458,7 +460,7 @@ Ba việc phải xong mới đóng:
 | --- | --- | --- | --- |
 | Chốt 1 | Nội dung gửi khách có đủ bốn phần của bước 2, và phần phương án không trống | Trước bước 3 | Lấy phương án từ `TL` bộ phận trước |
 | Chốt 2 | Với nguy cơ trễ một hạn pháp định: khách được báo trước hạn đó | Trước hạn pháp định | Chuyển lên `COO` ngay |
-| Chốt 3 | Mọi trường hợp đều đã gửi email công ty | Trước khi đóng bước 4 | Gửi email. Chưa gửi thì coi như chưa báo, theo [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 7.2.1a |
+| Chốt 3 | Mọi trường hợp đều đã gửi email công ty | Trước khi đóng bước 4 | Gửi email. Chưa gửi thì coi như chưa báo |
 | Chốt 4 | Lỗi đầu ra đã ghi vào Job, và có một trong ba kết quả của NT-8 | Trước khi đóng Job | Chưa đóng Job |
 
 ## 7. LỖI THƯỜNG GẶP VÀ CÁCH XỬ LÝ
@@ -488,8 +490,8 @@ Ba việc phải xong mới đóng:
 | Mã | Chỉ số | Ngưỡng | Đọc ở đâu |
 | --- | --- | --- | --- |
 | `AM-M14` | Tỷ lệ cảnh báo trước rủi ro trễ hạn | 100% | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] mục 9.2 |
-| `CS-05` | Số lỗi đầu ra mức Nghiêm trọng lọt ra ngoài | 0 | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 11.1 |
-| `CS-03` | Tiền phạt phát sinh do lỗi chủ quan | 0 đồng | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 11.1 |
+| `CS-05` | Số lỗi đầu ra mức Nghiêm trọng lọt ra ngoài | 0 | [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] |
+| `CS-03` | Tiền phạt phát sinh do lỗi chủ quan | 0 đồng | [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] |
 | Chỉ số riêng của hướng dẫn này | Số Job có lỗi đầu ra mức Nghiêm trọng hoặc Đáng kể mà mục cập nhật hướng dẫn để trống | 0 | Đếm trên Job |
 
 ---
@@ -504,6 +506,6 @@ Ba việc phải xong mới đóng:
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.2.0.1 | Bỏ đoạn tự mô tả, các vế lợi ích và hậu quả, cột vì sao ở bảng chọn kênh và đoạn kết ở phần 3 |
+| 08/10/2026 | V2.0.2 | Đặt trạng thái thư viện tham khảo và sửa dẫn chiếu tới OBK-MSR trong 02_Huong_dan_AM_Van_hanh. |

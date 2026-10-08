@@ -4,8 +4,9 @@ code: "OBK-SOP-AM-PL2"
 type: "sop"
 folder: "09_TnC"
 level: "Phụ lục"
-version: "R.2.0.2"
-status: "đang áp dụng"
+version: "V2.1.0"
+release: "R.26.10.08.1"
+status: "đã thay thế"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -19,13 +20,16 @@ tags:
   - loai/sop
   - cap/phu-luc
 ---
+Tài liệu này đã được thay thế bởi mẫu hợp đồng khung chuẩn [[08_Framework_Agreement_VI|TNC-08-VI]].
+
 # Quy chuẩn và Bản mẫu Hợp đồng Dịch vụ Khung
 
 | Hạng mục | Nội dung |
 | --- | --- |
 | Mã tài liệu | OBK-SOP-AM-PL2 |
 | Cấp tài liệu | Phụ lục |
-| Phiên bản | R.2.0.2, đang áp dụng |
+| Phiên bản | V2.1.0, đang áp dụng |
+| Phát hành | R.26.10.08.1 |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -464,6 +468,6 @@ Hai bản mẫu hợp đồng chuẩn được ban hành theo quy định của 
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.2.0.2 | Bỏ câu đếm số phần, câu mô tả cách trình bày song ngữ, vế mục đích và các từ nhấn mạnh trong bản mẫu |
+| 08/10/2026 | V2.1.0 | Chuyển sang đã thay thế, dẫn về mẫu hợp đồng khung chuẩn TNC-08. |

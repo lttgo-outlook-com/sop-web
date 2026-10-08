@@ -5,7 +5,8 @@ aliases:
   - TNC-03-EN
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.0.3"
+version: "V2.0.0"
+release: "R.26.10.08.1"
 status: "đang áp dụng"
 author: "CEO"
 reviewer: "CEO"
@@ -22,7 +23,7 @@ tags:
 *Service-Specific Terms, an integral part of the Master T&C; oBacker Joint Stock Company*
 Tax code: 0402298185 · Floor 2, 06 Tran Phu Street, Hai Chau Ward, Da Nang, Vietnam · contact@obacker.com
 
-**Version:** R.1.0.3 (VI-EN) · **Updated:** 07/10/2026
+**Version:** V2.0.0 (VI-EN) · **Release:** R.26.10.08.1 · **Updated:** 08/10/2026
 
 > These are the Service-Specific Terms for the HR Services (the "**Services**"): payroll, PIT on salaries, mandatory insurance (social insurance (SI), health insurance (HI), and unemployment insurance (UI)), and labour contracts and reports. They apply where the Services are recorded in the Order Form. **If these Terms differ from the Master T&C, these Terms prevail for the Services.**
 
@@ -98,11 +99,12 @@ Where a need in the above categories arises, oBacker will notify the Client in a
 
 ## Article 5. Timelines and Schedule
 
-**5.1. Payroll cycle** (D = the fixed timekeeping cut-off date chosen by the Client):
+**5.1. Payroll cycle** (D = the fixed timekeeping cut-off date chosen by the Client; the default is the 20th of each month where the Client chooses no other date):
 
 | Milestone | Task | Responsible party |
 |---|---|---|
 | Timekeeping cut-off (D) | Send change data: attendance, leave, OT, bonus | Client |
+| D+1 | Final deadline to send supplementary timesheets and headcount changes | Client |
 | D+3 | Prepare payslips and send for review | oBacker |
 | D+4 | Review and confirm payslips | Client |
 | D+5 | Pay salaries to employees | Client |
@@ -118,7 +120,7 @@ Where a need in the above categories arises, oBacker will notify the Client in a
 
 These are two reconciliations for **the same amount for the same period**. The Client pays the amount in the email, not the amount on Form C12 if the two differ.
 
-**5.4. Response SLA:** within 24 working hours for routine requests; obligations with a deadline before State authorities are prioritised for same-day handling.
+**5.4. Response SLA:** within 24 working hours for operational requests sent by email; obligations with a deadline before State authorities are prioritised for same-day handling. Advisory requests follow the timelines in Article 20.2(6) of the Master T&C.
 
 ## Article 6. Deliverables
 
@@ -164,8 +166,6 @@ The Service Fees are set in the Order Form (usually per head/month or by package
 
 ## REVISION LOG
 
-| Date | Version | R.1.0.3, currently applicable |
+| Date | Version | Description |
 | --- | --- | --- |
-| 07/10/2026 | R.1.0.3 | Subject oBacker added to the three service-scope bullets (payslips, sickness/maternity files, labour contracts and appendices) |
-| 27/09/2026 | R.1.0.2 | Standardized sole Da Nang head office address |
-| 26/09/2026 | R.1.0.1 | Updated legal basis for labour/social insurance non-compliance penalties to Decree No. 283/2026/ND-CP |
+| 08/10/2026 | V2.0.0 | Synced with the Vietnamese version: timesheet cut-off day D and SLA scope. |

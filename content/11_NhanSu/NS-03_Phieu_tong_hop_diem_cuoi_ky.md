@@ -4,7 +4,8 @@ code: "NS-03"
 type: "sop"
 folder: "11_NhanSu"
 level: "Phiếu thao tác"
-version: "R.5.0.1"
+version: "V5.1.0"
+release: "R.26.10.08.1"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -25,7 +26,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | NS-03 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.5.0.1, đang áp dụng |
+| Phiên bản | V5.1.0, đang áp dụng |
+| Phát hành | R.26.10.08.1 |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -127,13 +129,13 @@ Trọng số của cách đo trong nhóm lấy từ [[08_PL_A_Thang_cham_tieu_ch
 
 | Mức | Điểm cách đo |
 | --- | --- |
-| Xuất sắc | 110% |
-| Vượt yêu cầu | 95% |
-| Đạt | 85% |
-| Cần cải thiện | 70% |
-| Không đạt | 50% |
+| Mức 5 | 110% |
+| Mức 4 | 95% |
+| Mức 3 | 85% |
+| Mức 2 | 70% |
+| Mức 1 | 50% |
 
-Mức Xuất sắc không được cấp khi thiếu bằng chứng được quản lý trực tiếp xác nhận.
+Điều kiện cấp Mức 5 theo [[08_PL_A_Thang_cham_tieu_chi_chung|OBK-QCNS-08-PL-A]] mục 5.4.
 
 ### 2.2. Trọng số người chấm cách đo trách nhiệm và phối hợp
 
@@ -193,8 +195,8 @@ Các quy tắc dưới đây áp cho mọi vị trí, theo [[08_Khung_danh_gia_h
 | --- | --- | --- | --- | --- |
 | CD-01 | Có ít nhất 01 Job trễ thời hạn theo pháp luật do nguyên nhân thuộc oBacker | | Điểm cách đo OTD bằng 0 trong kỳ đó; điểm tổng của kỳ không vượt quá 80%; không xét thăng cấp theo [[02_Quy_che_tien_luong_va_tien_thuong_noi_bo\|OBK-QCNS-02]] mục 6.3 điểm 4 | |
 | CD-02 | Có ít nhất 01 lần bị ghi nhận vi phạm quy trình hoặc bảng kiểm | | Điểm cách đo vi phạm quy trình và bảng kiểm bằng 0 trong kỳ đó | |
-| CD-03 | Có ít nhất 01 lỗi mức Nghiêm trọng lọt ra ngoài, tức `CS-05` lớn hơn 0 | | Điểm tổng của kỳ không vượt quá 80%; bắt buộc sinh một thay đổi hướng dẫn hoặc bảng kiểm theo NT-8; không xét thăng cấp theo [[02_Quy_che_tien_luong_va_tien_thuong_noi_bo\|OBK-QCNS-02]] mục 6.3 điểm 4 | |
-| CD-04 | Có ít nhất 01 lần vi phạm một trong bảy hành vi oBacker nghiêm cấm tại [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 9 | | Không xử lý bằng bảng điểm. Chuyển sang xử lý theo [[Noi_quy_lao_dong\|OBK-NQLD]]. Kết quả đánh giá kỳ đó không dùng làm căn cứ xét tăng lương hay thăng cấp | |
+| CD-03 | Có ít nhất 01 lỗi mức Nghiêm trọng lọt ra ngoài, tức `CS-05` lớn hơn 0 | | Điểm tổng của kỳ không vượt quá 80%; bắt buộc sinh một thay đổi hướng dẫn hoặc bảng kiểm theo NT-8 tại [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] mục 11.1; không xét thăng cấp theo [[02_Quy_che_tien_luong_va_tien_thuong_noi_bo\|OBK-QCNS-02]] mục 6.3 điểm 4 | |
+| CD-04 | Có ít nhất 01 lần vi phạm một trong các hành vi oBacker nghiêm cấm tại [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] mục 11.6 | | Không xử lý bằng bảng điểm. Chuyển sang xử lý theo [[Noi_quy_lao_dong\|OBK-NQLD]]. Kết quả đánh giá kỳ đó không dùng làm căn cứ xét tăng lương hay thăng cấp | |
 | CD-05 | Có ít nhất 01 mã căn cứ pháp luật chưa đối chiếu bản gốc hoặc chưa xác minh được mà đã dẫn trong tài liệu gửi khách | | Nhãn xếp loại của kỳ không vượt quá Cần cải thiện | |
 | Quy tắc chặn điểm riêng theo phiếu vị trí | | | | |
 
@@ -202,7 +204,7 @@ Quy tắc đọc:
 
 1. Bốn quy tắc CD-01, CD-02, CD-03, CD-05 kích hoạt tại lần thứ nhất, không có ngưỡng đếm.
 2. Một kỳ kích hoạt nhiều quy tắc thì áp hệ quả nghiêm nhất, không cộng dồn hệ quả.
-3. Trễ thời hạn do nguyên nhân thuộc khách hàng, đã có bằng chứng nhắc đủ số lần chuẩn theo OBK-SOP-00 mục 6.2, không kích hoạt CD-01.
+3. Trễ thời hạn do nguyên nhân thuộc khách hàng, đã có bằng chứng nhắc đủ số lần chuẩn theo [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] mục 11.7, không kích hoạt CD-01.
 
 | Trường | Giá trị |
 | --- | --- |
@@ -216,9 +218,11 @@ Nhãn xếp loại theo [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] mục 1.1. C
 | Mức xếp loại | Tên gọi | Tiêu chí công việc (OTD và chất lượng) | Chọn |
 | --- | --- | --- | --- |
 | **A** | Xuất sắc (Vượt kỳ vọng) | OTD $\ge 98\%$, vượt định mức khối lượng công việc, không có lỗi chuyên môn nặng | |
-| **B** | Tốt (Đạt yêu cầu) | OTD từ $90\%$ đến dưới $98\%$, hoàn thành đúng định mức, xử lý tốt công việc hằng ngày | |
+| **B** | Tốt (Đạt yêu cầu) | OTD từ $90\%$ trở lên mà không đủ điều kiện nhãn A, hoàn thành đúng định mức, xử lý tốt công việc hằng ngày | |
 | **C** | Cần cải thiện | OTD từ $80\%$ đến dưới $90\%$, phát sinh sai sót phải chỉnh sửa hoặc chậm tiến độ không có lý do chính đáng | |
 | **D** | Không đạt | OTD $< 80\%$ hoặc để xảy ra sự cố nghiêm trọng gây thiệt hại tài chính/pháp lý cho khách hàng hoặc công ty | |
+
+Nhãn xếp loại xác định theo điều kiện trong bảng trên. Điểm tổng dùng cho điều kiện thăng cấp theo [[02_Quy_che_tien_luong_va_tien_thuong_noi_bo|OBK-QCNS-02]] mục 6.3.
 
 Quy tắc CD-05 đã kích hoạt thì nhãn xếp loại không vượt quá Cần cải thiện, bất kể điểm tổng.
 
@@ -263,6 +267,6 @@ Người phê duyệt theo [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] mục 6 b
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.5.0.1 | Bỏ lý do bãi bỏ đánh giá chéo ở mục 2.2 và các từ đếm ở mục 5 |
+| 08/10/2026 | V5.1.0 | Ghi điều kiện nhãn B mới, nhãn xếp theo bảng, điểm tổng dùng cho thăng cấp. |

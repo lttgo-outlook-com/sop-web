@@ -5,7 +5,8 @@ aliases:
   - TNC-01-EN
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.1.1"
+version: "V2.0.0"
+release: "R.26.10.08.1"
 status: "đang áp dụng"
 author: "CEO"
 reviewer: "CEO"
@@ -22,7 +23,7 @@ tags:
 *Service-Specific Terms forming an integral part of the Master Terms & Conditions of Service (Master T&C); oBacker Joint Stock Company*
 Tax code: 0402298185 · Floor 2, 06 Tran Phu Street, Hai Chau Ward, Da Nang, Vietnam · contact@obacker.com
 
-**Version:** R.1.1.1 (VI-EN) · **Updated:** 07/10/2026
+**Version:** V2.0.0 (VI-EN) · **Release:** R.26.10.08.1 · **Updated:** 08/10/2026
 
 > These are the Service-Specific Terms for Licensing Services (the "**Services**") and apply when the Services are recorded in an Order Form. **If there is any conflict between the Master T&C and this document, this document prevails in respect of the Services.** Matters not specifically addressed here are governed by the Master T&C.
 
@@ -42,10 +43,10 @@ oBacker assists the Client with procedures relating to Licences/Permits: prepari
 
 - oBacker prepares a Document Checklist for each type of Licence/Permit, clearly identifying documents drafted by oBacker and documents prepared by the Client
 - oBacker drafts applications, declarations, and forms as required by law
-- Guide the Client in preparing internal documents and in carrying out notarisation, authentication, or consular legalisation where needed
-- File the application with the competent authority and track its progress
+- oBacker guides the Client in preparing internal documents and in carrying out notarisation, authentication, or consular legalisation where needed
+- oBacker files the application with the competent authority and tracks its progress
 - oBacker promptly notifies the Client when the competent authority requests additional information, with instructions for compliance
-- Receive the result and hand it over to the Client.
+- oBacker receives the result and hands it over to the Client.
 
 ## Article 3. Limits on the scope of Services
 
@@ -55,14 +56,14 @@ oBacker assists the Client with procedures relating to Licences/Permits: prepari
 
 **3.3. Notarisation, authentication, and consular legalisation.** The Client carries out notarisation, authentication, certified copying, or consular legalisation (for foreign documents) itself and provides valid copies to oBacker. oBacker advises on the requirements and where to have them done.
 
-**3.4. The result is within the state authority's discretion.** The granting of a licence, approval, processing time, and requests for additional information are within the **discretion of the state authority**. oBacker prepares a complete file that complies with the law but does not guarantee that the licence will be granted.
+**3.4. The result is within the state authority's competence.** The granting of a licence, approval, processing time, and requests for additional information are within the **competence of the state authority**. oBacker prepares a complete file that complies with the law but does not guarantee that the licence will be granted.
 
 **3.5. The Services do not include advisory work.** The Services are limited to carrying out administrative procedures and **do not include corporate advisory or in-depth tax or financial advice**. Specifically:
 
 - **(a) Company incorporation and adding business lines:** does not include advice on business conditions, business models, or whether a business line is legally suitable.
 - **(b) Recognition as an innovative start-up enterprise:** does not include advice on tax-exempt revenue, cash-flow structuring, cost optimisation, tax-and-finance matters, or related intellectual property and technology issues.
 
-**3.6. Prohibition and exclusion of nominee arrangements:** oBacker does not provide, participate in, or support nominee arrangements for shareholders, capital-contributing members, enterprise owners, or legal representatives in any form, in compliance with Article 16 of the Law on Enterprises No. 59/2020/QH14 and anti-money laundering regulations.
+**3.6. Prohibition of nominee arrangements:** oBacker strictly prohibits providing, participating in, or supporting nominee arrangements for shareholders, capital-contributing members, enterprise owners, or legal representatives in any form. Article 12 of the Master T&C applies to this matter.
 
 Where the Client needs in-depth advice, **Legal Services (PL-PL)** apply under a separate quotation.
 
@@ -71,7 +72,7 @@ Where the Client needs in-depth advice, **Legal Services (PL-PL)** apply under a
 - **Correct-and-complete file principle:** oBacker files the application only after the Client has provided all documents on the Document Checklist
 - **Reliance-on-information principle:** oBacker acts on the basis that the documents the Client provides are truthful and lawful, and has no obligation to investigate or verify their authenticity (Article 3 of the Master T&C)
 - **Cooperation principle:** where the competent authority requests additional information, the Client provides the documents within the time limit set. If the file is returned or delayed because documents from the Client are missing, incorrect, or late, oBacker is not responsible.
-- **Deadline extension for Client delays:** If the Client delays in submitting documents, signing files, or responding beyond agreed timeframes, the entire duration of such delay will be added directly to oBacker's deliverable completion deadline (1:1 calendar day extension per Article 5.4(a) of the Master T&C). The Client's delay period is excluded from oBacker's committed turnaround time.
+- **Deadline extension for Client delays:** If the Client delays in submitting documents, signing files, or responding beyond agreed timeframes, the entire number of Business Days of such delay is added directly to oBacker's deliverable completion deadline (1:1 equivalent extension per Article 5.4(a) of the Master T&C). The Client's delay period is excluded from oBacker's committed turnaround time.
 
 ## Article 5. Process
 
@@ -93,7 +94,7 @@ Where the Client needs in-depth advice, **Legal Services (PL-PL)** apply under a
 
 ## Article 7. Timelines and progress
 
-The milestones below are oBacker's internal processing timelines (in Business Days) and may be adjusted in the Order Form. **The state authority's appraisal and issuance times fall outside these milestones and outside oBacker's control.**
+The milestones below are oBacker's processing timelines (in Business Days) and may be adjusted in the Order Form. **The state authority's appraisal and issuance times fall outside these milestones and outside oBacker's control.**
 
 | Task | Timeline (oBacker) |
 |---|---|
@@ -110,7 +111,7 @@ Files, forms, and documents prepared by oBacker are dedicated to the Client and 
 
 ## Article 9. Service Fees and payment
 
-The Service Fees are set out in the Order Form approved by the Client. State fees and charges, notarisation fees, and translation fees apply under Article 4 of the Master T&C. Any cost arising beyond the original scope is notified in advance by oBacker and carried out only after the Client approves it. Unless the Order Form provides otherwise, **the Service Fees are payable 100% in advance** before oBacker begins the Services.
+The Service Fees are set out in the Order Form approved by the Client. State fees and charges, notarisation fees, and translation fees apply under Article 4 of the Master T&C. Any cost arising beyond the original scope is notified in advance by oBacker and carried out only after the Client approves it. **The Service Fees are payable 100% in advance** before oBacker begins the Services, except for the Services with their own payment framework set out below. The following Services are paid in milestones stated in the Order Form: (a) the file for the income and residence incentive policy for experts and scientists in Da Nang City (Resolution 21); (b) company incorporation at the Da Nang High-Tech Park; (c) incorporation of a company in a complex industry.
 
 ---
 
@@ -120,8 +121,6 @@ The Service Fees are set out in the Order Form approved by the Client. State fee
 
 ## REVISION LOG
 
-| Date | Version | R.1.1.1, currently applicable |
+| Date | Version | Description |
 | --- | --- | --- |
-| 07/10/2026 | R.1.1.1 | Subject oBacker added to the three service-scope bullets (document checklist, applications and declarations, notification of authority requests) |
-| 27/09/2026 | R.1.1.0 | Added strict prohibition and exclusion of nominee arrangements in Article 3.6.<br>Standardized sole Da Nang head office address |
-| 21/09/2026 | R.1.0.0 | Initial release. |
+| 08/10/2026 | V2.0.0 | Synced with the Vietnamese version: Nominee prohibition and milestone payment schedule. |

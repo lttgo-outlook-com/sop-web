@@ -5,7 +5,8 @@ aliases:
   - TNC-01-VI
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.1.2"
+version: "V2.0.0"
+release: "R.26.10.08.1"
 status: "đang áp dụng"
 author: "CEO"
 reviewer: "CEO"
@@ -22,7 +23,7 @@ tags:
 *Điều Khoản Dịch Vụ Cụ Thể, bộ phận không tách rời của Bản Điều Khoản Chung; Công ty Cổ phần oBacker*
 MST: 0402298185 · Tầng 2, 06 Trần Phú, Phường Hải Châu, Thành phố Đà Nẵng · contact@obacker.com
 
-**Phiên bản:** R.1.1.1 (VI-EN) · **Cập nhật:** 07/10/2026
+**Phiên bản:** V2.0.0 (VI-EN) · **Phát hành:** R.26.10.08.1 · **Cập nhật:** 08/10/2026
 
 > Tài liệu này là Điều Khoản Dịch Vụ Cụ Thể cho Dịch Vụ Xin Giấy Phép ("**Dịch Vụ**"), áp dụng khi Dịch Vụ được ghi nhận tại Đơn Đặt Hàng. **Nếu có khác biệt giữa Bản Điều Khoản Chung và tài liệu này, tài liệu này được ưu tiên áp dụng cho Dịch Vụ.** Những nội dung không quy định riêng tại đây áp dụng theo Bản Điều Khoản Chung.
 
@@ -42,10 +43,10 @@ oBacker hỗ trợ Quý Khách thực hiện các thủ tục liên quan đến 
 
 - oBacker lập Danh Mục Hồ Sơ cho từng loại Giấy Phép, xác định rõ tài liệu do oBacker soạn thảo và tài liệu do Quý Khách chuẩn bị
 - oBacker soạn thảo đơn, tờ khai và biểu mẫu theo quy định pháp luật
-- Hướng dẫn Quý Khách chuẩn bị tài liệu nội bộ, thực hiện công chứng, chứng thực hoặc hợp pháp hóa lãnh sự khi cần
-- Nộp hồ sơ tại cơ quan có thẩm quyền và theo dõi tiến trình xử lý
+- oBacker hướng dẫn Quý Khách chuẩn bị tài liệu nội bộ, thực hiện công chứng, chứng thực hoặc hợp pháp hóa lãnh sự khi cần
+- oBacker nộp hồ sơ tại cơ quan có thẩm quyền và theo dõi tiến trình xử lý
 - oBacker thông báo ngay khi cơ quan có thẩm quyền yêu cầu bổ sung, kèm hướng dẫn thực hiện
-- Tiếp nhận kết quả và bàn giao cho Quý Khách.
+- oBacker tiếp nhận kết quả và bàn giao cho Quý Khách.
 
 ## Điều 3. Giới hạn phạm vi Dịch Vụ
 
@@ -62,7 +63,7 @@ oBacker hỗ trợ Quý Khách thực hiện các thủ tục liên quan đến 
 - **(a) Thành lập công ty, bổ sung ngành nghề kinh doanh:** không bao gồm tư vấn về điều kiện kinh doanh, mô hình kinh doanh hoặc sự phù hợp của ngành nghề theo quy định pháp luật.
 - **(b) Công nhận doanh nghiệp khởi nghiệp sáng tạo:** không bao gồm tư vấn về các khoản doanh thu được miễn thuế, cấu trúc dòng tiền, tối ưu hóa chi phí, các vấn đề tài chính; thuế, sở hữu trí tuệ, công nghệ liên quan.
 
-**3.6. Nghiêm cấm và loại trừ dịch vụ người đứng tên hộ (Nominee):** oBacker không cung cấp, không tham gia hoặc hỗ trợ dịch vụ người đứng tên hộ cổ đông, thành viên góp vốn, chủ sở hữu hoặc người đại diện theo pháp luật dưới mọi hình thức, tuân thủ Điều 16 Luật Doanh nghiệp số 59/2020/QH14 và pháp luật về phòng, chống rửa tiền.
+**3.6. Nghiêm cấm dịch vụ người đứng tên hộ (Nominee):** oBacker nghiêm cấm cung cấp, tham gia hoặc hỗ trợ dịch vụ người đứng tên hộ cổ đông, thành viên góp vốn, chủ sở hữu hoặc người đại diện theo pháp luật dưới mọi hình thức. Điều 12 Bản Điều Khoản Chung áp dụng cho nội dung này.
 
 Khi Quý Khách có nhu cầu tư vấn chuyên sâu, áp dụng **Dịch Vụ Pháp Lý (PL-PL)** theo báo giá riêng.
 
@@ -71,7 +72,7 @@ Khi Quý Khách có nhu cầu tư vấn chuyên sâu, áp dụng **Dịch Vụ P
 - **Nguyên tắc Đúng; Đủ hồ sơ:** oBacker nộp hồ sơ sau khi Quý Khách đã cung cấp đầy đủ tài liệu theo Danh Mục Hồ Sơ
 - **Nguyên tắc tin cậy thông tin:** oBacker thực hiện trên cơ sở tin tưởng tài liệu Quý Khách cung cấp là trung thực và hợp pháp, và không có nghĩa vụ điều tra, xác minh tính xác thực của tài liệu (Điều 3 Bản Điều Khoản Chung)
 - **Nguyên tắc phối hợp:** khi cơ quan có thẩm quyền yêu cầu bổ sung, Quý Khách cung cấp tài liệu trong thời hạn được ấn định. Nếu hồ sơ bị trả lại hoặc kéo dài do tài liệu thiếu, sai hoặc chậm từ phía Quý Khách, oBacker không chịu trách nhiệm.
-- **Nguyên tắc cộng dồn tiến độ khi chậm hồ sơ:** Nếu Quý Khách chậm cung cấp tài liệu, chậm ký hồ sơ hoặc chậm phản hồi so với thời hạn đã thỏa thuận, toàn bộ số ngày chậm trễ được cộng dồn trực tiếp vào ngày hẹn bàn giao kết quả của oBacker (cộng bù tương ứng 1:1 theo Điều 5.4(a) Bản Điều Khoản Chung). Khoảng thời gian chậm trễ của Quý Khách không tính vào thời gian cam kết tiến độ của oBacker.
+- **Nguyên tắc cộng dồn tiến độ khi chậm hồ sơ:** Nếu Quý Khách chậm cung cấp tài liệu, chậm ký hồ sơ hoặc chậm phản hồi so với thời hạn đã thỏa thuận, toàn bộ số Ngày Làm Việc chậm trễ được cộng dồn trực tiếp vào ngày hẹn bàn giao kết quả của oBacker (cộng bù tương ứng 1:1 theo Điều 5.4(a) Bản Điều Khoản Chung). Khoảng thời gian chậm trễ của Quý Khách không tính vào thời gian cam kết tiến độ của oBacker.
 
 ## Điều 5. Quy trình thực hiện
 
@@ -110,7 +111,7 @@ Hồ sơ, biểu mẫu và tài liệu do oBacker chuẩn bị được dành ri
 
 ## Điều 9. Phí Dịch Vụ và thanh toán
 
-Phí Dịch Vụ được xác định theo Đơn Đặt Hàng đã được Quý Khách chấp thuận. Phí, lệ phí nhà nước, phí công chứng và dịch thuật áp dụng theo Điều 4 Bản Điều Khoản Chung. Mọi chi phí phát sinh ngoài phạm vi ban đầu được oBacker thông báo trước và chỉ thực hiện sau khi Quý Khách chấp thuận. Trừ khi Đơn Đặt Hàng quy định khác, **Phí Dịch Vụ được thanh toán trước 100%** trước khi oBacker bắt đầu thực hiện Dịch Vụ.
+Phí Dịch Vụ được xác định theo Đơn Đặt Hàng đã được Quý Khách chấp thuận. Phí, lệ phí nhà nước, phí công chứng và dịch thuật áp dụng theo Điều 4 Bản Điều Khoản Chung. Mọi chi phí phát sinh ngoài phạm vi ban đầu được oBacker thông báo trước và chỉ thực hiện sau khi Quý Khách chấp thuận. **Phí Dịch Vụ được thanh toán trước 100%** trước khi oBacker bắt đầu thực hiện Dịch Vụ, trừ các Dịch Vụ có khung thanh toán riêng nêu dưới đây. Các Dịch Vụ sau thanh toán theo các mốc công việc ghi tại Đơn Đặt Hàng: (a) hồ sơ hưởng chính sách về thu nhập, lưu trú cho chuyên gia, nhà khoa học trên địa bàn TP Đà Nẵng (NQ 21); (b) đăng ký thành lập công ty tại Khu công nghệ cao Đà Nẵng; (c) thành lập công ty thuộc ngành nghề phức tạp.
 
 ---
 
@@ -122,6 +123,6 @@ Phí Dịch Vụ được xác định theo Đơn Đặt Hàng đã được Qu�
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.1.1.2 | Bỏ vế nội dung phản ánh hiểu biết của khách, vế mục đích hạn chế hồ sơ bị trả lại và từ tuyệt đối, nghiêm ngặt |
+| 08/10/2026 | V2.0.0 | Nghiêm cấm Nominee, thanh toán trước 100% trừ ba dịch vụ theo mốc. |

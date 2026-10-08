@@ -4,8 +4,9 @@ code: "OBK-HB-00"
 type: "sop"
 folder: "90_ThuVien"
 level: "Mục lục"
-version: "R.4.0.1"
-status: "đang áp dụng"
+version: "V4.0.2"
+release: "R.26.10.08.1"
+status: "thư viện tham khảo"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -45,7 +46,8 @@ tags:
 | Hạng mục | Nội dung |
 | --- | --- |
 | Mã tài liệu | OBK-HB-00 |
-| Phiên bản | R.4.0.1, đang áp dụng |
+| Phiên bản | V4.0.2, thư viện tham khảo |
+| Phát hành | R.26.10.08.1 |
 | Cấp tài liệu | Mục lục của Handbook cấp 3 |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
@@ -262,14 +264,14 @@ Nguyên tắc bắt buộc: **không tư vấn hoặc trả lời khách hàng k
 
 ## 10. Nhật ký phiên bản Handbook
 
-| Phiên bản | R.1.0.0, đang áp dụng | Chương thay đổi | Nội dung thay đổi | Lý do | Người thực hiện | Người duyệt |
+| Phiên bản | Ngày | Chương thay đổi | Nội dung thay đổi | Lý do | Người thực hiện | Người duyệt |
 | --- | --- | --- | --- | --- | --- | --- |
-| R.1.0.0 | 21/09/2026 | Toàn bộ | Ban hành toàn bộ Handbook ở bản R.1.0.0 | Ban hành mới | `CEO` | `CEO` |
+| V1.0.0 | 21/09/2026 | Toàn bộ | Ban hành toàn bộ Handbook ở bản V1.0.0 | Ban hành mới | `CEO` | `CEO` |
 
 Quy tắc đánh phiên bản và quy trình cập nhật: xem Chương 21.
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.4.0.1 | Bỏ câu tự mô tả, đoạn giả định người đọc, đoạn mở mục 3 và từ nhấn mạnh; sửa dẫn chiếu Phụ lục 02-C sang mục 6.3 và 6.10 của chương 02 |
+| 08/10/2026 | V4.0.2 | Đặt trạng thái thư viện tham khảo và sửa dẫn chiếu tới OBK-MSR trong 00_Muc_luc_va_cach_dung. |

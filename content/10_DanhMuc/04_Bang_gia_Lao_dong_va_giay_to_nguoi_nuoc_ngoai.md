@@ -4,7 +4,8 @@ code: "OBK-DM-LD"
 type: "danh-muc"
 folder: "10_DanhMuc"
 level: "Danh mục"
-version: "R.1.1.2"
+version: "V1.2.0"
+release: "R.26.10.08.1"
 status: "đang áp dụng"
 draft_date: "04/10/2026"
 author: "CEO"
@@ -28,15 +29,15 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-DM-LD |
 | Cấp tài liệu | Danh mục |
-| Phiên bản | R.1.1.2, đang áp dụng |
+| Phiên bản | V1.2.0, đang áp dụng |
+| Phát hành | R.26.10.08.1 |
 | Ngày biên soạn | 04/10/2026 |
 | Người biên soạn | `CEO` |
-| Người soát | đã soát |
-| Người phê duyệt | đã phê duyệt |
+| Người soát | CEO |
+| Người phê duyệt | CEO |
 | Văn bản cấp trên | [[00_Danh_muc_dich_vu_va_bang_gia\|OBK-DM-00]] Danh mục dịch vụ và bảng giá |
 | Số mã dịch vụ | 15 |
 | Nguồn dữ liệu | `_du_lieu_danh_muc/danh_muc.tsv`, kết xuất ngày 04/10/2026 |
-| Nguồn dữ liệu | Bản kết xuất danh mục sản phẩm |
 
 > [!note] BẢN SINH TỰ ĐỘNG
 > Nội dung sinh lại từ bản kết xuất của hệ thống danh mục sản phẩm.
@@ -51,10 +52,8 @@ tags:
 | Quy tắc sổ cái | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] Quy tắc sổ cái |
 | Quy trình của bộ phận thực hiện | [[05_OBK-SOP-LD_Lao_dong_va_tien_luong\|OBK-SOP-LD]] Lao động và tiền lương |
 | Bảng tra SLA | [[PL_2_Bang_tra_SLA\|OBK-SOP-PL2]] Bảng tra SLA |
-| Điều khoản dịch vụ cụ thể | [[03_HR_Payroll_VI\|Điều khoản dịch vụ nhân sự]], [[03_HR_Payroll_EN\|bản tiếng Anh]] |
-| Bản điều khoản chung | [[00_TnC_Master_VI\|Bản Điều Khoản Chung]], bản tiếng Anh [[00_TnC_Master_EN\|Master T&C]] |
-| Điều khoản nạp ví | [[07_Wallet_VI\|Ví oBacker]], bản tiếng Anh [[07_Wallet_EN\|Wallet]] |
-| Thứ tự ưu tiên áp dụng | Đơn Đặt Hàng, Điều Khoản Dịch Vụ Cụ Thể, Bản Điều Khoản Chung, Chính sách Bảo vệ Dữ liệu Cá nhân |
+| Điều khoản dịch vụ cụ thể | [[03_HR_Payroll_VI\|Điều khoản dịch vụ nhân sự]], [[03_HR_Payroll_EN\|bản tiếng Anh]]. Thủ tục giấy phép lao động, thẻ tạm trú và thị thực nằm ngoài phạm vi điều khoản nhân sự (Điều 3) và thực hiện theo Đơn Đặt Hàng riêng |
+| Điều khoản áp dụng chung | [[00_Danh_muc_dich_vu_va_bang_gia\|Danh mục dịch vụ và bảng giá]] mục 1 |
 
 Quan hệ giữa gói và hạng mục bán kèm gói: xem [[01_Goi_dich_vu_va_hang_muc_kem_goi|Gói dịch vụ và hạng mục kèm gói]].
 
@@ -224,6 +223,6 @@ Phạm vi, thời gian và điều kiện áp dụng chép từ hệ thống dan
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.1.1.2 | Đổi liên kết chuẩn vận hành dịch vụ sang quy tắc sổ cái tại bảng giá lao động |
+| 08/10/2026 | V1.2.0 | Ghi thủ tục giấy tờ người nước ngoài nằm ngoài PL-NS. |

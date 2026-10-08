@@ -4,7 +4,8 @@ code: "BK-01"
 type: "sop"
 folder: "03_BangKiem"
 level: "Bảng kiểm"
-version: "R.3.0.0"
+version: "V4.0.0"
+release: "R.26.10.08.1"
 status: "đang áp dụng"
 draft_date: "08/10/2026"
 author: "CEO"
@@ -18,19 +19,19 @@ aliases:
 tags:
   - loai/sop
 ---
-# BK-01. BẢNG KIỂM NỘI BỘ
+# BẢNG KIỂM NỘI BỘ
 
 | Hạng mục | Nội dung |
 | --- | --- |
 | Mã tài liệu | BK-01 |
 | Cấp tài liệu | Bảng kiểm |
-| Phiên bản | R.3.0.0, đang áp dụng |
+| Phiên bản | V4.0.0, đang áp dụng |
+| Phát hành | R.26.10.08.1 |
 | Ngày biên soạn | 08/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
 | Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] Quy tắc sổ cái |
-| Đây là gì | Bảng kiểm các bước của Job nội bộ |
 
 ## 1. PHẠM VI
 
@@ -40,59 +41,58 @@ Bảng kiểm áp dụng cho Job của miền nội bộ trong các chu trình C
 
 %%JOBTABLE:NB%%
 
-| Mã Job | Tên Job | Nguồn phát sinh | Đầu vào bắt buộc | Đầu ra | SLA nội bộ oBacker | Định mức và thẩm quyền | Chu trình |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| NB-01 | Đề nghị mua sắm | Bộ phận phát sinh nhu cầu | Nhu cầu có căn cứ;<br>ngân sách còn hạn | Phiếu đề nghị BM-01 đã duyệt | Theo [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.12, Đ.21, Đ.22 | CHI |
-| NB-02 | Lựa chọn nhà cung cấp và ký hợp đồng | Đề nghị đã duyệt | Phiếu đề nghị đã duyệt;<br>báo giá | Hợp đồng hoặc đơn hàng đã ký | Theo [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.12, Đ.12a | CHI |
-| NB-03 | Đề nghị thanh toán | Có nghĩa vụ trả tiền;<br>báo cáo hoa hồng đã chấp thuận từ Job `PM-08` | Chứng từ chứng minh nghĩa vụ;<br>nghiệm thu nếu có | Phiếu đề nghị thanh toán đã duyệt;<br>lệnh chuyển tiền;<br>số thuế thu nhập cá nhân đã khấu trừ của đối tác là cá nhân, chuyển NB-24 | Theo [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.5.1, Đ.18, Đ.19, Đ.23, Đ.24 | CHI |
-| NB-04 | Tạm ứng | Nhu cầu chi trước | Phiếu đề nghị tạm ứng đã duyệt | Tiền đã chuyển;<br>theo dõi công nợ tạm ứng | Theo [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.36 | CHI |
-| NB-05 | Hoàn ứng | Đã chi xong khoản tạm ứng | Chứng từ chi thực tế | Phiếu hoàn ứng;<br>số dư tạm ứng về 0 hoặc còn dư có lý do | Theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.37 | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.37, Đ.38 chế tài quá hạn | CHI |
-| NB-06 | Chi hộ bằng tiền cá nhân, không qua tạm ứng | Người lao động chi hộ | Chứng từ thanh toán KHÔNG DÙNG TIỀN MẶT của người lao động | Hoàn lại bằng chuyển khoản | Theo [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.19, Đ.39;<br>`PL_1` CC-KT-30, CC-KT-31 | CHI |
-| NB-07 | Thanh toán định kỳ và thanh toán tự động | Theo lịch;<br>báo cáo hoa hồng đã chấp thuận từ Job `PM-08` | Danh mục khoản định kỳ đã duyệt | Bản ghi đã thanh toán | Theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.40 | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.40 | CHI |
-| NB-08 | Rà soát ngân sách bộ phận | Theo tháng | Số liệu chi thực tế trên sổ | Bảng so sánh thực tế và ngân sách theo bộ phận | Trong 05 ngày làm việc đầu tháng sau | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.22 | CHI |
-| NB-09 | Xuất hóa đơn dịch vụ cho khách | Hoàn thành cung ứng dịch vụ hoặc từng phần;<br>hoặc thu tiền trước;<br>yêu cầu xuất hóa đơn từ Job `AM-05` | Hợp đồng dịch vụ nêu rõ mốc hoàn thành và cách lập hóa đơn;<br>xác nhận hoàn thành | Hóa đơn điện tử đã phát hành | Trong 01 ngày làm việc kể từ thời điểm xác định doanh thu | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.14;<br>`PL_1` `CC-DN` không áp dụng, dùng `254/2026/NĐ-CP` Đ.9 k.2 | THU |
-| NB-10 | Duyệt điều khoản thanh toán ngoài chuẩn | Ký hợp đồng với điều khoản khác chuẩn | Đề xuất kèm lý do | Phê duyệt bằng văn bản | Trong 02 ngày làm việc | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.15.1, Đ.15.2, Đ.14.2 | THU |
-| NB-11 | Lập bảng tuổi nợ phải thu | Theo tuần | Sổ công nợ phải thu | Bảng tuổi nợ theo 4 nhóm: trong hạn;<br>quá hạn tới 30 ngày;<br>quá hạn 31 tới 90 ngày;<br>quá hạn từ 91 ngày trở lên | Hằng tuần | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.15.3 | THU |
-| NB-12 | Nhắc phí và nhắc nợ theo bảng mốc | Đến hạn hoặc quá hạn | Bảng tuổi nợ | Bằng chứng đã nhắc, lưu trên hệ thống và trong hồ sơ khách | Theo bảng mốc tại [[19_Giao_tiep_khach_hang\|OBK-SOP-19]] mục 6.8.2, là bản gốc.<br>Phân vai trò: `KTV` lập nội dung và số liệu, `AM` gửi cho khách, theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.16.1 | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.16.1 | THU |
-| NB-13 | Đề xuất dừng dịch vụ với khách quá hạn | Quá hạn vượt mốc | Bảng tuổi nợ;<br>lịch sử nhắc nợ | Đề xuất trình TGĐ;<br>thông báo bằng văn bản cho khách nếu được chấp thuận | Trong 02 ngày làm việc kể từ khi chạm mốc | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.16.2. **TGĐ quyết**, không cấp nào khác | THU |
-| NB-14 | Đối chiếu công nợ phải thu với khách | Theo quý | Sổ công nợ | Biên bản đối chiếu có xác nhận của khách | Trong 05 ngày làm việc đầu tháng đầu quý sau | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.15.3 | THU |
-| NB-15 | Đề xuất xóa nợ phải thu khó đòi | Nợ không thu được | Hồ sơ chứng minh đã dùng hết biện pháp thu hồi | Nghị quyết HĐQT | Không có SLA cố định | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.16.3. **HĐQT quyết**. TGĐ và `KTT` không có quyền xóa nợ | THU |
-| NB-16 | Theo dõi tuổi nợ phục vụ dự phòng | Liên tục | Sổ công nợ | Dữ liệu tuổi nợ đủ để trích dự phòng khi có văn bản | Cùng kỳ NB-11 | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.17.1, bốn mức trích lập | THU |
-| NB-17 | Kiểm quỹ tiền mặt | Theo lịch và đột xuất | Sổ quỹ;<br>tiền mặt thực tế | Biên bản kiểm quỹ có chữ ký | Theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.33 | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.32, Đ.33 | TIỀN |
-| NB-18 | Đối chiếu sao kê ngân hàng với sổ kế toán | Theo kỳ hai tuần và theo tháng | Sao kê tất cả tài khoản;<br>sổ kế toán | Bảng đối chiếu từng tài khoản kèm sao kê | Đối chiếu nhanh mỗi 02 tuần; đối chiếu đầy đủ trong 05 ngày làm việc đầu tháng sau.<br>Hai con số ĐẶT tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.34.2, chốt ngày 07/09/2026 | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.34, Đ.48 chốt số 1. Người làm là `AD-KT`, không phải `KTV` | TIỀN |
-| NB-31 | Lập phiếu thu và phiếu chi cho mọi lần nhập, xuất quỹ tiền mặt | Mỗi lần tiền mặt vào quỹ hoặc ra quỹ | Chứng từ gốc của khoản thu hoặc khoản chi;<br>với khoản chi thì kèm `BM-02` đã duyệt | Phiếu thu `BM-PT` hoặc phiếu chi `BM-PC`, đủ chữ ký theo chức danh, đánh số liên tục trong kỳ kế toán; chờ phân công `TQ`, mẫu tại `07_ViecChoChot/BM-PT_PC_Phiu_thu_chi_quy.md` | Ngay tại thời điểm nhập quỹ hoặc xuất quỹ, không lập sau | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.32; [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-QCTC-03]] Điều 4; `Thông tư 99/2025/TT-BTC` Tài khoản 111 mục 1 điểm b.<br>**`BM-02` không thay phiếu chi**: `BM-02` là đề nghị trước khi chi, phiếu chi là chứng từ xuất quỹ | TIỀN |
-| NB-19 | Rà soát phân quyền lập và duyệt trên ngân hàng điện tử | Khi có thay đổi nhân sự | Danh sách người dùng và quyền hiện hành trên hệ thống ngân hàng | Bảng rà soát;<br>đề xuất điều chỉnh nếu lệch | Ngay trong ngày khi có nhân sự nghỉ việc hoặc thay đổi vai trò, theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.35.2 | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.35, Đ.47. Người làm là TGĐ, KHÔNG phải `KTT` | TIỀN |
-| NB-20 | Mở, đóng, thay đổi tài khoản ngân hàng | Nhu cầu phát sinh | Đề xuất kèm lý do | Quyết định và hồ sơ ngân hàng | Trong 03 ngày làm việc kể từ khi được duyệt | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.34 | TIỀN |
-| NB-21 | Lập kế hoạch dòng tiền | Theo tháng | Công nợ phải thu;<br>công nợ phải trả;<br>ngân sách | Bảng kế hoạch dòng tiền 03 tháng tới | Trong 05 ngày làm việc đầu tháng | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.22 | TIỀN |
-| NB-22 | Ghi sổ kế toán kỳ của oBacker | Theo tháng | Chứng từ kỳ đã đủ | Sổ kế toán kỳ | Theo lịch của [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.42, Đ.43 | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.42, Đ.43 | SỔ |
-| NB-23 | Khóa sổ và đối chiếu kỳ của oBacker | Sau NB-22 | Sổ kỳ;<br>sao kê;<br>biên bản kiểm quỹ;<br>số hoa hồng đã phát sinh chưa có hóa đơn từ Job NB-49, để trích trước | Bảng cân đối số phát sinh;<br>bảng chênh lệch | Theo lịch của [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.43 | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.43 | SỔ |
-| NB-24 | Kê khai và nộp thuế của chính oBacker | Theo lịch pháp định | Sổ kỳ đã khóa;<br>số thuế thu nhập cá nhân đã khấu trừ khi chi cho đối tác là cá nhân, từ Job NB-03 | Tờ khai đã nộp;<br>Thông báo tiếp nhận;<br>giấy nộp tiền | Làm trước 03 ngày làm việc trước thời hạn theo pháp luật | Theo `PL_1` mục 5 | SỔ |
-| NB-25 | Lập và nộp báo cáo tài chính năm của oBacker | Theo năm | Sổ năm đã khóa;<br>biên bản kiểm kê | Báo cáo tình hình tài chính;<br>Báo cáo kết quả hoạt động;<br>đã có đủ chữ ký gồm chữ ký NĐDPL | Nộp trước hạn pháp định ít nhất 05 ngày làm việc | **90 ngày** kể từ ngày kết thúc kỳ kế toán năm. `PL_1` CC-KT-03 | SỔ |
-| NB-26 | Kiểm kê tài sản và công nợ | Theo năm và khi có sự kiện bắt buộc | Danh mục tài sản;<br>sổ công nợ | Biên bản kiểm kê | Theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.44 | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.44 | SỔ |
-| NB-27 | Đưa tài liệu kế toán vào lưu trữ | Theo năm | Bộ tài liệu kế toán của kỳ | Bản ghi đã đưa vào lưu trữ | **Trong 12 tháng** kể từ ngày kết thúc kỳ kế toán năm | `PL_1` CC-KT-04;<br>[[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.45 | SỔ |
-| NB-28 | Rà soát các khoản chạm mức tối đa trước 31/12 | Cuối năm | Sổ tới thời điểm rà | Bảng rà soát trang phục, phúc lợi, bảo hiểm hưu trí bổ sung, ăn giữa ca, quỹ lương dự phòng, khấu hao xe từ 9 chỗ trở xuống | Trước 15/12 | `PL_1` CC-KT-11 tới CC-KT-16;<br>[[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.21, Đ.26, Đ.27 | SỔ |
-| NB-29 | Rà soát giao dịch với người có liên quan | Theo quý và trước mỗi giao dịch thuộc diện;<br>danh sách đối tác mới từ Job `PM-01` | Danh sách người có liên quan;<br>danh mục giao dịch trong kỳ | Bảng rà soát;<br>hồ sơ phê duyệt của cấp có thẩm quyền | Hằng quý;<br>và trước khi ký từng giao dịch thuộc diện | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.12a | SỔ |
-| NB-30 | Điểm kiểm soát định kỳ | Theo lịch | Theo từng điểm kiểm soát | Bản ghi kết quả từng điểm kiểm soát | Theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.48 | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.47, Đ.48 | SỔ |
-| NB-32 | Tạm ứng tiền lương | Người lao động đề nghị, hoặc phát sinh một trong ba sự kiện bắt buộc tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.26a.1 | `BM-08` đã lập;<br>số lần đã tạm ứng tiền lương trong quý và trong nửa năm | Tiền đã chuyển vào tài khoản đứng tên người lao động;<br>khoản đã ghi vào trường Tạm ứng kỳ I của Bảng thanh toán tiền lương kỳ đó | Theo [[OBK-SOP-NB-04_Cong_va_tien_luong_noi_bo\|OBK-SOP-NB-04]] mục 5.6 | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.26a;<br>`PL_1` CC-LD-196, CC-LD-197 | LƯƠNG |
-| NB-33 | Tổng hợp bảng công tạm và gửi xác nhận | Theo tháng, ngày 16 | Dữ liệu ghi nhận thời điểm vào ca và ra ca từ ngày 21 tháng trước đến ngày 15;<br>đơn đã được chấp thuận trong kỳ | Bảng công tạm đã gửi từng người lao động;<br>bản ghi thời điểm gửi và thời hạn xác nhận, lưu trên hệ thống | Ngày 16 hằng tháng, theo [[OBK-SOP-NB-04_Cong_va_tien_luong_noi_bo\|OBK-SOP-NB-04]] mục 5.1 | [[02_Quy_che_tien_luong_va_tien_thuong_noi_bo\|OBK-QCNS-02]] mục 1.2.<br>Người làm là `HR` | LƯƠNG |
-| NB-34 | Chốt bảng công của kỳ | Hết thời hạn xác nhận bảng công tạm | Bảng công tạm đã qua thời hạn xác nhận;<br>phản hồi lệch của người lao động, nếu có;<br>dữ liệu hệ thống từ ngày 16 đến ngày 20 | Bảng công của kỳ đã chốt | Ngày 20: `HR` chốt bảng công.<br>Theo [[OBK-SOP-NB-04_Cong_va_tien_luong_noi_bo\|OBK-SOP-NB-04]] mục 5.2 | [[02_Quy_che_tien_luong_va_tien_thuong_noi_bo\|OBK-QCNS-02]] mục 1.2.<br>Người làm: `HR` cộng công từ ngày 16 đến ngày 20 theo dữ liệu hệ thống và chốt bảng công | LƯƠNG |
-| NB-35 | Duyệt toàn bảng công | Sau NB-34 | Bảng công của kỳ đã chốt | Bảng chấm công `BM-09` của kỳ đã duyệt, là đầu vào bắt buộc của NB-36 | Ngày 21 hằng tháng, một chữ ký, theo [[OBK-SOP-NB-04_Cong_va_tien_luong_noi_bo\|OBK-SOP-NB-04]] mục 5.2 | [[02_Quy_che_tien_luong_va_tien_thuong_noi_bo\|OBK-QCNS-02]] mục 1.2.<br>Người làm là `CEO` theo [[OBK-QCTC-02_Bang_tham_quyen\|OBK-QCTC-02]] mục 3 | LƯƠNG |
-| NB-36 | Tính lương, lập Bảng thanh toán tiền lương, và tính phần bù của kỳ trước | Sau NB-35 | Bảng chấm công `BM-09` của kỳ đã duyệt;<br>khoản tạm ứng tiền lương của kỳ đã ghi theo NB-32;<br>phần chênh của kỳ trước, nếu có;<br>khoản thưởng đã chi ngày 15 của tháng | Bảng thanh toán tiền lương mẫu số 01-LĐTL của kỳ, gồm phần bù của kỳ trước và khoản thưởng đã chi để tính thuế thu nhập cá nhân | Từ ngày 23 hằng tháng, theo [[OBK-SOP-NB-04_Cong_va_tien_luong_noi_bo\|OBK-SOP-NB-04]] mục 5.4 | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Chương 5;<br>[[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-QCTC-03]] mục 4.3;<br>[[02_Quy_che_tien_luong_va_tien_thuong_noi_bo\|OBK-QCNS-02]].<br>Người làm là `KTV` | LƯƠNG |
-| NB-37 | Duyệt bảng lương, lập lệnh, xác nhận lệnh và chi lương | Sau NB-36 | Bảng thanh toán tiền lương đã lập | Bảng thanh toán tiền lương đã duyệt;<br>lệnh chuyển tiền lương đã xác nhận;<br>tiền lương của kỳ đã chi | Chi xong trong ngày làm việc cuối cùng của tháng, theo [[OBK-SOP-NB-04_Cong_va_tien_luong_noi_bo\|OBK-SOP-NB-04]] mục 5.4 | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.35.<br>Người làm: `TGĐ` duyệt bảng lương;<br>`NTT` lập lệnh;<br>xác nhận lệnh theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 35 | LƯƠNG |
-| NB-38 | Xét đơn nghỉ phép, đơn cập nhật công, đơn làm việc từ xa, đăng ký làm thêm giờ | Người lao động gửi đơn, nhiều lần trong kỳ | Đơn đã được ghi nhận trên hệ thống | Đơn đã được chấp thuận hoặc bị từ chối, ghi nhận trên hệ thống | Theo [[OBK-SOP-NB-04_Cong_va_tien_luong_noi_bo\|OBK-SOP-NB-04]] mục 5.3 | [[02_Quy_che_tien_luong_va_tien_thuong_noi_bo\|OBK-QCNS-02]] mục 7.<br>Người xét đơn nghỉ phép: quản lý trực tiếp, theo [[Noi_quy_lao_dong\|OBK-NQLD]] Điều 7.5.2;<br>người xét đơn làm việc từ xa: Tổng giám đốc hoặc người được ủy quyền, theo [[Noi_quy_lao_dong\|OBK-NQLD]] Điều 11.2;<br>người xét đơn cập nhật công: quản lý trực tiếp | LƯƠNG |
-| NB-39 | Đăng ký mã bảo hiểm xã hội lần đầu cho người lao động của oBacker | oBacker ký hợp đồng lao động với người lao động thuộc đối tượng tham gia | Hợp đồng lao động đã ký giữa oBacker và người lao động | Hồ sơ đã nộp;<br>xác nhận của cơ quan BHXH | Thời hạn theo pháp luật: Kê khai và nộp hồ sơ tham gia BHXH bắt buộc trong **30 ngày** kể từ ngày người lao động thuộc đối tượng tham gia | `PL_1` CC-LD-140.<br>Người làm là `HR` | LƯƠNG |
-| NB-40 | Báo tăng lao động | Có người lao động mới | Hợp đồng lao động đã ký;<br>thông tin cá nhân | Hồ sơ báo tăng đã nộp | Thời hạn theo pháp luật: Theo CC-LD-140, mốc 30 ngày | `PL_1` CC-LD-140.<br>Người làm là `HR` | LƯƠNG |
-| NB-41 | Báo giảm lao động | Có người lao động nghỉ việc | Quyết định hoặc thỏa thuận chấm dứt hợp đồng lao động | Hồ sơ báo giảm đã nộp | Thời hạn theo pháp luật: **KHÔNG TÌM THẤY mốc số ngày trong kho.** Xem cảnh báo [[05_OBK-SOP-LD_Lao_dong_va_tien_luong\|OBK-SOP-LD]] mục 9.2 | `PL_1` mục 2.7 cảnh báo.<br>Người làm là `HR` | LƯƠNG |
-| NB-42 | Tổng hợp và nộp tiền bảo hiểm xã hội | Theo tháng | Bảng thanh toán tiền lương đã duyệt;<br>thông báo C12 của cơ quan BHXH | Hồ sơ nộp tiền BHXH đã lập theo từng mã BHXH;<br>khoản nộp tiền đã chuyển sang chu trình CHI, nhóm N6 tại [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] mục 5.1 | Thời hạn theo pháp luật: oBacker phải nộp tiền chậm nhất **ngày cuối cùng của tháng tiếp theo** | `PL_1` CC-LD-143.<br>Người làm: `HR` lập hồ sơ;<br>khoản nộp tiền thực hiện theo chu trình CHI, nhóm N6 | LƯƠNG |
-| NB-43 | Chốt sổ bảo hiểm xã hội khi người lao động nghỉ việc | Người lao động nghỉ việc | Quyết định chấm dứt hợp đồng lao động;<br>đã báo giảm theo NB-41 | Xác nhận thời gian đóng BHXH;<br>sổ đã trả người lao động | Thời hạn theo pháp luật: **KHÔNG TÌM THẤY mốc số ngày trong kho.** Nghĩa vụ có tại CC-LD-30, không kèm số ngày | `PL_1` CC-LD-30, CC-LD-158, CC-LD-159.<br>Người làm là `HR` | LƯƠNG |
-| NB-44 | Lập và cập nhật sổ quản lý lao động | Người lao động bắt đầu làm việc, và khi có biến động | Danh sách lao động;<br>20 nhóm thông tin bắt buộc | Sổ quản lý lao động của oBacker | Thời hạn theo pháp luật: Lập trong **30 ngày** kể từ ngày bắt đầu hoạt động;<br>cập nhật kể từ ngày người lao động bắt đầu làm việc | `PL_1` CC-LD-123 tới CC-LD-125.<br>Người làm là `HR` | LƯƠNG |
-| NB-45 | Báo cáo tình hình sử dụng lao động 06 tháng đầu năm | Theo lịch năm | Sổ quản lý lao động;<br>biến động trong kỳ | Mẫu số 01/PLI đã nộp qua Cổng Dịch vụ công Quốc gia;<br>thông báo tới cơ quan BHXH cấp huyện | Thời hạn theo pháp luật: **Trước ngày 05 tháng 6** | `PL_1` CC-LD-121.<br>Người làm là `HR` | LƯƠNG |
-| NB-46 | Báo cáo tình hình sử dụng lao động cả năm | Theo lịch năm | Như NB-45 | Như NB-45 | Thời hạn theo pháp luật: **Trước ngày 05 tháng 12** | `PL_1` CC-LD-121.<br>Người làm là `HR` | LƯƠNG |
-| NB-47 | Rà soát giới hạn giờ làm thêm | Ngày 20 hằng tháng, cùng ngày chốt bảng công | Bảng công của kỳ đã chốt | Bảng rà soát số giờ làm thêm của từng người lao động so với mức tối đa tháng và mức tối đa năm | Mức tối đa theo pháp luật: **40 giờ mỗi tháng;<br>200 giờ mỗi năm**, hoặc **300 giờ mỗi năm** với 5 nhóm ngành nghề | `PL_1` CC-LD-69 tới CC-LD-71.<br>Người làm là `HR` | LƯƠNG |
-| NB-48 | Rà soát mức lương tối thiểu vùng | Khi có nghị định mới, và khi oBacker đổi địa bàn | Danh sách lao động và mức lương;<br>địa bàn | Danh sách người lao động dưới mức tối thiểu;<br>đề xuất điều chỉnh | Mức hiện hành theo `293/2025/NĐ-CP` hiệu lực 01/01/2026.<br>Doanh nghiệp phải rà soát hợp đồng, thỏa ước và quy chế để điều chỉnh | `PL_1` CC-LD-60 tới CC-LD-63.<br>Người làm là `HR` | LƯƠNG |
-| NB-49 | Chốt doanh thu tính hoa hồng theo khách | Kết thúc tháng;<br>phần gia hạn từ Job `AM-18`;<br>dịch vụ bán thêm từ Job `AM-29` để loại khỏi doanh thu tính hoa hồng | Khoản thu của khách thuộc sổ đăng ký giới thiệu, đã phân loại theo nhóm khoản thu;<br>danh sách dịch vụ ghi trong hợp đồng dịch vụ đầu tiên và phần gia hạn của chính dịch vụ đó | Bảng doanh thu thực thu theo khách thuộc sổ đăng ký giới thiệu, đã loại thuế GTGT, thu hộ, chi hộ, lệ phí;<br>số hoa hồng tính bằng công cụ;<br>chuyển cho Job `PM-07` và cho NB-23 | Xong trước mốc gửi báo cáo hoa hồng tại Job `PM-07`; SLA nội bộ do `CEO` chốt khi ban hành | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều về chi hoa hồng giới thiệu khách hàng | THU |
-| NB-50 | Thu hồi hoặc khấu trừ hoa hồng | Thông báo Job `PM-09` đã gửi | Thông báo hoàn trả hoa hồng đã gửi đối tác | Chứng từ điều chỉnh của đối tác;<br>khoản phải thu hoặc khoản khấu trừ kỳ sau | Đối tác hoàn trả trong 15 ngày kể từ ngày nhận thông báo, theo Điều 5.5 bản mẫu;<br>nghĩa vụ hoàn trả chỉ áp cho khoản oBacker hoàn tiền trong 12 tháng kể từ ngày oBacker chi hoa hồng tương ứng | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều về chi hoa hồng giới thiệu khách hàng | CHI |
-| NB-51 | Hoàn tiền cho khách hoặc xử lý hủy dịch vụ | Khách yêu cầu hoàn tiền hoặc hủy dịch vụ;<br>hoặc Job `AM-19` | Yêu cầu hoàn tiền hoặc hủy dịch vụ, căn cứ hợp đồng với khách;<br>số tiền hoàn, phần dịch vụ đã thực hiện | Chứng từ điều chỉnh;<br>khoản chi hoàn;<br>thông báo cho Job `PM-09` khi khách có trong sổ đăng ký giới thiệu | Không áp | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 12.3 | THU |
+| Mã Job | Tên Job | Nguồn phát sinh | Đầu vào bắt buộc | Đầu ra | SLA nội bộ oBacker | Định mức và thẩm quyền | Chu trình | Soát bắt buộc |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| NB-01 | Đề nghị mua sắm | Bộ phận phát sinh nhu cầu | Nhu cầu có căn cứ | Phiếu đề nghị BM-01 đã duyệt | Bước 2 trong 02 ngày làm việc | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.12, Đ.21 | CHI | Không |
+| NB-02 | Lựa chọn nhà cung cấp và ký hợp đồng | Đề nghị đã duyệt | Phiếu đề nghị đã duyệt;<br>báo giá | Hợp đồng hoặc đơn hàng đã ký | Bước 1 trong 05 ngày làm việc;<br>bước 3 trong 01 ngày làm việc với tra cứu, trong 03 ngày làm việc với BM-05 | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.12, Đ.12a | CHI | Không |
+| NB-03 | Đề nghị thanh toán | Có nghĩa vụ trả tiền;<br>báo cáo hoa hồng đã chấp thuận từ Job `PM-08` | Chứng từ chứng minh nghĩa vụ;<br>nghiệm thu nếu có | Phiếu đề nghị thanh toán đã duyệt;<br>lệnh chuyển tiền;<br>số thuế thu nhập cá nhân đã khấu trừ của đối tác là cá nhân, chuyển NB-24 | Chu kỳ chi thường xuyên vào thứ Ba và thứ Sáu, hồ sơ nộp trước 16h00 ngày làm việc liền trước;<br>chi khẩn ngoài chu kỳ cần NDC bậc cao hơn một cấp phê duyệt, lý do ghi trên BM-02 | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.5.1, Đ.18, Đ.19, Đ.23, Đ.24 | CHI | Không |
+| NB-04 | Tạm ứng | Nhu cầu chi trước | Phiếu đề nghị tạm ứng đã duyệt | Tiền đã chuyển;<br>theo dõi công nợ tạm ứng | Không có SLA cố định | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.36 | CHI | Không |
+| NB-05 | Hoàn ứng | Đã chi xong khoản tạm ứng | Chứng từ chi thực tế | Phiếu hoàn ứng;<br>số dư tạm ứng về 0 hoặc còn dư có lý do | Theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.37 | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.37, Đ.38 chế tài quá hạn | CHI | Không |
+| NB-06 | Chi hộ bằng tiền cá nhân, không qua tạm ứng | Người lao động chi hộ | Chứng từ thanh toán KHÔNG DÙNG TIỀN MẶT của người lao động | Hoàn lại bằng chuyển khoản | Không có SLA cố định | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.19, Đ.39;<br>CC-KT-30, CC-KT-31 | CHI | Không |
+| NB-07 | Thanh toán định kỳ và thanh toán tự động | Theo lịch;<br>báo cáo hoa hồng đã chấp thuận từ Job `PM-08` | Danh mục khoản định kỳ đã duyệt | Bản ghi đã thanh toán | Hóa đơn về trước ngày thanh toán 03 ngày làm việc;<br>hạn nội bộ nhận hóa đơn là ngày 10 của tháng sau;<br>rà soát danh mục mỗi quý | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.40 | CHI | Không |
+| NB-09 | Xuất hóa đơn dịch vụ cho khách | Hoàn thành cung ứng dịch vụ hoặc từng phần;<br>hoặc thu tiền trước;<br>yêu cầu xuất hóa đơn từ Job `AM-05` | Hợp đồng dịch vụ nêu rõ mốc hoàn thành và cách lập hóa đơn;<br>xác nhận hoàn thành | Hóa đơn điện tử đã phát hành | Trong 01 ngày làm việc kể từ thời điểm xác định doanh thu | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.14;<br>`254/2026/NĐ-CP` Đ.9 k.2 | THU | Không |
+| NB-10 | Duyệt điều khoản thanh toán ngoài chuẩn | Ký hợp đồng với điều khoản khác chuẩn | Đề xuất kèm lý do | Phê duyệt bằng văn bản | Trong 02 ngày làm việc | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.15.1, Đ.15.2, Đ.14.2 | THU | Không |
+| NB-11 | Lập bảng tuổi nợ phải thu | Theo tuần | Sổ công nợ phải thu | Bảng tuổi nợ theo 4 nhóm: trong hạn;<br>quá hạn tới 30 ngày;<br>quá hạn 31 tới 90 ngày;<br>quá hạn từ 91 ngày trở lên | Hằng tuần | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.15.3 | THU | Không |
+| NB-12 | Nhắc phí và nhắc nợ theo bảng mốc | Đến hạn hoặc quá hạn | Bảng tuổi nợ | Bằng chứng đã nhắc, lưu trên hệ thống và trong hồ sơ khách | AM nhắc trước hạn 05 ngày làm việc, quá hạn 03 ngày, quá hạn 10 ngày bằng thư điện tử; AM gọi điện ở mốc quá hạn 20 ngày; mốc quá hạn 30 ngày KTT báo TGĐ.<br>Phân vai trò: `KTV` lập nội dung và số liệu, `AM` gửi cho khách, theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.16.1 | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.16.1 | THU | Không |
+| NB-13 | Đề xuất dừng dịch vụ với khách quá hạn | Quá hạn vượt mốc | Bảng tuổi nợ;<br>lịch sử nhắc nợ | Đề xuất trình TGĐ;<br>thông báo bằng văn bản cho khách nếu được chấp thuận | Trong 02 ngày làm việc kể từ khi chạm mốc | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.16.2. **TGĐ quyết**, không cấp nào khác | THU | Không |
+| NB-14 | Đối chiếu công nợ phải thu với khách | Theo quý | Sổ công nợ | Biên bản đối chiếu có xác nhận của khách | Trong 05 ngày làm việc đầu tháng đầu quý sau | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.15.3 | THU | Không |
+| NB-15 | Đề xuất xóa nợ phải thu khó đòi | Nợ không thu được | Hồ sơ chứng minh đã dùng hết biện pháp thu hồi | Nghị quyết HĐQT | Không có SLA cố định | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.16.3. **HĐQT quyết**. TGĐ và `KTT` không có quyền xóa nợ | THU | Không |
+| NB-16 | Theo dõi tuổi nợ phục vụ dự phòng | Liên tục | Sổ công nợ | Dữ liệu tuổi nợ đủ để trích dự phòng khi có văn bản | Cùng kỳ NB-11 | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.17.1, bốn mức trích lập | THU | Không |
+| NB-17 | Kiểm quỹ tiền mặt | Theo lịch và đột xuất | Sổ quỹ;<br>tiền mặt thực tế | Biên bản kiểm quỹ có chữ ký | Theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.33 | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.32, Đ.33 | TIỀN | Không |
+| NB-18 | Đối chiếu sao kê ngân hàng với sổ kế toán | Theo kỳ hai tuần và theo tháng | Sao kê tất cả tài khoản;<br>sổ kế toán | Bảng đối chiếu từng tài khoản kèm sao kê | Đối chiếu nhanh mỗi 02 tuần; đối chiếu đầy đủ trong 05 ngày làm việc đầu tháng sau.<br>Hai con số ĐẶT tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.34.2, chốt ngày 07/09/2026 | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.34, Đ.48 chốt số 1. Người làm là `AD-KT`, không phải `KTV` | TIỀN | Không |
+| NB-31 | Lập phiếu thu và phiếu chi cho mọi lần nhập, xuất quỹ tiền mặt | Mỗi lần tiền mặt vào quỹ hoặc ra quỹ | Chứng từ gốc của khoản thu hoặc khoản chi;<br>với khoản chi thì kèm `BM-02` đã duyệt | Phiếu thu mẫu 01-TT hoặc phiếu chi mẫu 02-TT, đủ chữ ký theo chức danh của mẫu, đánh số liên tục trong kỳ kế toán | Ngay tại thời điểm nhập quỹ hoặc xuất quỹ, không lập sau | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.32; [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-QCTC-03]] Điều 4; `Thông tư 99/2025/TT-BTC` Tài khoản 111 mục 1 điểm b.<br>**`BM-02` không thay phiếu chi**: `BM-02` là đề nghị trước khi chi, phiếu chi là chứng từ xuất quỹ | TIỀN | Không |
+| NB-19 | Rà soát phân quyền lập và duyệt trên ngân hàng điện tử | Khi có thay đổi nhân sự | Danh sách người dùng và quyền hiện hành trên hệ thống ngân hàng | Bảng rà soát;<br>đề xuất điều chỉnh nếu lệch | Ngay trong ngày khi có nhân sự nghỉ việc hoặc thay đổi vai trò, theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.35.2 | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.35, Đ.47. Người làm là TGĐ, KHÔNG phải `KTT` | TIỀN | Không |
+| NB-20 | Mở, đóng, thay đổi tài khoản ngân hàng | Nhu cầu phát sinh | Đề xuất kèm lý do | Quyết định và hồ sơ ngân hàng | Trong 03 ngày làm việc kể từ khi được duyệt | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.34 | TIỀN | Không |
+| NB-21 | Lập kế hoạch dòng tiền | Theo tháng | Công nợ phải thu;<br>công nợ phải trả | Bảng kế hoạch dòng tiền 03 tháng tới | Trong 05 ngày làm việc đầu tháng | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.34.4 | TIỀN | Không |
+| NB-22 | Ghi sổ kế toán kỳ của oBacker | Theo tháng | Chứng từ kỳ đã đủ | Sổ kế toán kỳ | Theo lịch của [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.42, Đ.43 | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.42, Đ.43 | SỔ | Không |
+| NB-23 | Khóa sổ và đối chiếu kỳ của oBacker | Sau NB-22 | Sổ kỳ;<br>sao kê;<br>biên bản kiểm quỹ;<br>số hoa hồng đã phát sinh chưa có hóa đơn từ Job NB-49, để trích trước | Bảng cân đối số phát sinh;<br>bảng chênh lệch | Theo lịch của [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.43 | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.43 | SỔ | Không |
+| NB-24 | Kê khai và nộp thuế của chính oBacker | Theo lịch pháp định | Sổ kỳ đã khóa;<br>số thuế thu nhập cá nhân đã khấu trừ khi chi cho đối tác là cá nhân, từ Job NB-03 | Tờ khai đã nộp;<br>Thông báo tiếp nhận;<br>giấy nộp tiền | Làm trước 03 ngày làm việc trước thời hạn theo pháp luật | Thời hạn khai và nộp theo pháp luật thuế của từng loại tờ khai | SỔ | Không |
+| NB-25 | Lập và nộp báo cáo tài chính năm của oBacker | Theo năm | Sổ năm đã khóa;<br>biên bản kiểm kê | Báo cáo tình hình tài chính;<br>Báo cáo kết quả hoạt động;<br>đã có đủ chữ ký gồm chữ ký NĐDPL | Nộp trước hạn pháp định ít nhất 03 ngày làm việc | **90 ngày** kể từ ngày kết thúc kỳ kế toán năm. CC-KT-03 | SỔ | Không |
+| NB-26 | Kiểm kê tài sản và công nợ | Theo năm và khi có sự kiện bắt buộc | Danh mục tài sản;<br>sổ công nợ | Biên bản kiểm kê | Theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.44 | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.44 | SỔ | Không |
+| NB-27 | Đưa tài liệu kế toán vào lưu trữ | Theo năm | Bộ tài liệu kế toán của kỳ | Bản ghi đã đưa vào lưu trữ | **Trong 12 tháng** kể từ ngày kết thúc kỳ kế toán năm | CC-KT-04;<br>[[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.45 | SỔ | Không |
+| NB-28 | Rà soát các khoản chạm mức tối đa trước 31/12 | Cuối năm | Sổ của oBacker tới thời điểm rà | Bảng rà soát trang phục, phúc lợi, bảo hiểm hưu trí bổ sung, ăn giữa ca, quỹ lương dự phòng, khấu hao xe từ 9 chỗ trở xuống | Trước 15/12 | CC-KT-11 tới CC-KT-16;<br>[[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.21, Đ.26, Đ.27 | SỔ | Không |
+| NB-29 | Rà soát giao dịch với người có liên quan | Theo quý và trước mỗi giao dịch thuộc diện;<br>danh sách đối tác mới từ Job `PM-01` | Danh sách người có liên quan;<br>danh mục giao dịch trong kỳ | Bảng rà soát;<br>hồ sơ phê duyệt của cấp có thẩm quyền | Hằng quý;<br>và trước khi ký từng giao dịch thuộc diện | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.12a | SỔ | Không |
+| NB-30 | Điểm kiểm soát định kỳ | Theo lịch | Theo từng điểm kiểm soát | Bản ghi kết quả từng điểm kiểm soát | Theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.48 | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.47, Đ.48 | SỔ | Không |
+| NB-32 | Tạm ứng tiền lương | Người lao động đề nghị, hoặc phát sinh một trong ba sự kiện bắt buộc tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.26a.1 | `BM-08` đã lập;<br>số lần đã tạm ứng tiền lương trong quý và trong nửa năm | Tiền đã chuyển vào tài khoản đứng tên người lao động;<br>khoản đã ghi vào trường Tạm ứng kỳ I của Bảng thanh toán tiền lương kỳ đó | Bước 4 và bước 6 theo kỳ lương tương ứng | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.26a;<br>CC-LD-196, CC-LD-197 | LƯƠNG | Có |
+| NB-33 | Tổng hợp bảng công tạm và gửi xác nhận | Theo tháng, ngày 16 | Dữ liệu ghi nhận thời điểm vào ca và ra ca từ ngày 21 tháng trước đến ngày 15;<br>đơn đã được chấp thuận trong kỳ | Bảng công tạm đã gửi từng người lao động;<br>bản ghi thời điểm gửi và thời hạn xác nhận, lưu trên hệ thống | Ngày 16 hằng tháng gửi;<br>từ ngày 16 đến ngày 19 xác nhận | [[02_Quy_che_tien_luong_va_tien_thuong_noi_bo\|OBK-QCNS-02]] mục 1.2.<br>Người làm là `HR` | LƯƠNG | Không |
+| NB-34 | Chốt bảng công của kỳ | Hết thời hạn xác nhận bảng công tạm | Bảng công tạm đã qua thời hạn xác nhận;<br>phản hồi lệch của người lao động, nếu có;<br>dữ liệu hệ thống từ ngày 16 đến ngày 20 | Bảng công của kỳ đã chốt | Ngày 20 hằng tháng: `HR` chốt bảng công | [[02_Quy_che_tien_luong_va_tien_thuong_noi_bo\|OBK-QCNS-02]] mục 1.2.<br>Người làm: `HR` cộng công từ ngày 16 đến ngày 20 theo dữ liệu hệ thống và chốt bảng công | LƯƠNG | Không |
+| NB-35 | Duyệt toàn bảng công | Sau NB-34 | Bảng công của kỳ đã chốt | Bảng chấm công `BM-09` của kỳ đã duyệt, là đầu vào bắt buộc của NB-36 | Ngày 21 hằng tháng, một chữ ký | [[02_Quy_che_tien_luong_va_tien_thuong_noi_bo\|OBK-QCNS-02]] mục 1.2.<br>Người làm là `CEO` theo [[OBK-QCTC-02_Bang_tham_quyen\|OBK-QCTC-02]] mục 3 | LƯƠNG | Không |
+| NB-36 | Tính lương, lập Bảng thanh toán tiền lương, và tính phần bù của kỳ trước | Sau NB-35 | Bảng chấm công `BM-09` của kỳ đã duyệt;<br>khoản tạm ứng tiền lương của kỳ đã ghi theo NB-32;<br>phần chênh của kỳ trước, nếu có;<br>khoản thưởng đã chi ngày 15 của tháng | Bảng thanh toán tiền lương mẫu số 01-LĐTL của kỳ, gồm phần bù của kỳ trước và khoản thưởng đã chi để tính thuế thu nhập cá nhân | Từ ngày 23 hằng tháng | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Chương 5;<br>[[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-QCTC-03]] mục 4.3;<br>[[02_Quy_che_tien_luong_va_tien_thuong_noi_bo\|OBK-QCNS-02]].<br>Người làm là `KTV` | LƯƠNG | Không |
+| NB-37 | Duyệt bảng lương, lập lệnh, xác nhận lệnh và chi lương | Sau NB-36 | Bảng thanh toán tiền lương đã lập | Bảng thanh toán tiền lương đã duyệt;<br>lệnh chuyển tiền lương đã xác nhận;<br>tiền lương của kỳ đã chi | Chi xong trong ngày làm việc cuối cùng của tháng | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Đ.35.<br>Người làm: `TGĐ` duyệt bảng lương;<br>`NTT` lập lệnh;<br>xác nhận lệnh theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 35 | LƯƠNG | Không |
+| NB-38 | Xét đơn nghỉ phép, đơn cập nhật công, đơn làm việc từ xa, đăng ký làm thêm giờ | Người lao động gửi đơn, nhiều lần trong kỳ | Đơn đã được ghi nhận trên hệ thống | Đơn đã được chấp thuận hoặc bị từ chối, ghi nhận trên hệ thống | Không có SLA cố định | [[02_Quy_che_tien_luong_va_tien_thuong_noi_bo\|OBK-QCNS-02]] mục 7.<br>Người xét đơn nghỉ phép: quản lý trực tiếp, theo [[Noi_quy_lao_dong\|OBK-NQLD]] Điều 7.5.2;<br>người xét đơn làm việc từ xa: Tổng giám đốc hoặc người được ủy quyền, theo [[Noi_quy_lao_dong\|OBK-NQLD]] Điều 11.2;<br>người xét đơn cập nhật công: quản lý trực tiếp | LƯƠNG | Không |
+| NB-39 | Đăng ký mã bảo hiểm xã hội lần đầu cho người lao động của oBacker | oBacker ký hợp đồng lao động với người lao động thuộc đối tượng tham gia | Hợp đồng lao động đã ký giữa oBacker và người lao động | Hồ sơ đã nộp;<br>xác nhận của cơ quan BHXH | Thời hạn theo pháp luật: Kê khai và nộp hồ sơ tham gia BHXH bắt buộc trong **30 ngày** kể từ ngày người lao động thuộc đối tượng tham gia | CC-LD-140.<br>Người làm là `HR` | LƯƠNG | Không |
+| NB-40 | Báo tăng lao động | Có người lao động mới | Hợp đồng lao động đã ký;<br>thông tin cá nhân | Hồ sơ báo tăng đã nộp;<br>hồ sơ đăng ký thuế lần đầu đã nộp, nếu người lao động chưa có mã số thuế | Thời hạn theo pháp luật: Theo CC-LD-140, mốc 30 ngày;<br>đăng ký thuế lần đầu: 10 ngày làm việc kể từ ngày phát sinh quan hệ chi trả thu nhập | CC-LD-140.<br>Người làm là `HR` | LƯƠNG | Không |
+| NB-41 | Báo giảm lao động | Có người lao động nghỉ việc | Quyết định hoặc thỏa thuận chấm dứt hợp đồng lao động | Hồ sơ báo giảm đã nộp | Thời hạn theo pháp luật: Mốc số ngày chưa xác minh được trong kho văn bản | Mốc số ngày chưa xác minh được.<br>Người làm là `HR` | LƯƠNG | Không |
+| NB-42 | Tổng hợp và nộp tiền bảo hiểm xã hội | Theo tháng | Bảng thanh toán tiền lương đã duyệt;<br>thông báo C12 của cơ quan BHXH | Hồ sơ nộp tiền BHXH đã lập theo từng mã BHXH;<br>khoản nộp tiền đã chuyển sang chu trình CHI, nhóm N6 của Job NB-03 | Thời hạn theo pháp luật: oBacker phải nộp tiền chậm nhất **ngày cuối cùng của tháng tiếp theo** | CC-LD-143.<br>Người làm: `HR` lập hồ sơ;<br>khoản nộp tiền thực hiện theo chu trình CHI, nhóm N6 | LƯƠNG | Không |
+| NB-43 | Chốt sổ bảo hiểm xã hội khi người lao động nghỉ việc | Người lao động nghỉ việc | Quyết định chấm dứt hợp đồng lao động;<br>đã báo giảm theo NB-41 | Xác nhận thời gian đóng BHXH;<br>sổ đã trả người lao động | Thời hạn theo pháp luật: Mốc số ngày chưa xác minh được trong kho văn bản. Nghĩa vụ có tại CC-LD-30, không kèm số ngày | CC-LD-30, CC-LD-158, CC-LD-159.<br>Người làm là `HR` | LƯƠNG | Không |
+| NB-44 | Lập và cập nhật sổ quản lý lao động | Người lao động bắt đầu làm việc, và khi có biến động | Danh sách lao động;<br>20 nhóm thông tin bắt buộc | Sổ quản lý lao động của oBacker | Thời hạn theo pháp luật: Lập trong **30 ngày** kể từ ngày bắt đầu hoạt động;<br>cập nhật kể từ ngày người lao động bắt đầu làm việc | CC-LD-123 tới CC-LD-125.<br>Người làm là `HR` | LƯƠNG | Không |
+| NB-45 | Báo cáo tình hình sử dụng lao động 06 tháng đầu năm | Theo lịch năm | Sổ quản lý lao động;<br>biến động trong kỳ | Mẫu số 01/PLI đã nộp qua Cổng Dịch vụ công Quốc gia;<br>thông báo tới cơ quan BHXH cấp huyện | Thời hạn theo pháp luật: **Trước ngày 05 tháng 6** | CC-LD-121.<br>Người làm là `HR` | LƯƠNG | Không |
+| NB-46 | Báo cáo tình hình sử dụng lao động cả năm | Theo lịch năm | Như NB-45 | Như NB-45 | Thời hạn theo pháp luật: **Trước ngày 05 tháng 12** | CC-LD-121.<br>Người làm là `HR` | LƯƠNG | Không |
+| NB-47 | Rà soát giới hạn giờ làm thêm | Ngày 20 hằng tháng, cùng ngày chốt bảng công | Bảng công của kỳ đã chốt | Bảng rà soát số giờ làm thêm của từng người lao động so với mức tối đa tháng và mức tối đa năm | Mức tối đa theo pháp luật: **40 giờ mỗi tháng;<br>200 giờ mỗi năm**, hoặc **300 giờ mỗi năm** với 5 nhóm ngành nghề | CC-LD-69 tới CC-LD-71.<br>Người làm là `HR` | LƯƠNG | Không |
+| NB-48 | Rà soát mức lương tối thiểu vùng | Khi có nghị định mới, và khi oBacker đổi địa bàn | Danh sách lao động và mức lương;<br>địa bàn | Danh sách người lao động dưới mức tối thiểu;<br>đề xuất điều chỉnh | Mức hiện hành theo `293/2025/NĐ-CP` hiệu lực 01/01/2026.<br>Doanh nghiệp phải rà soát hợp đồng, thỏa ước và quy chế để điều chỉnh | CC-LD-60 tới CC-LD-63.<br>Người làm là `HR` | LƯƠNG | Không |
+| NB-49 | Chốt doanh thu tính hoa hồng theo khách | Kết thúc tháng;<br>phần gia hạn từ Job `AM-18`;<br>dịch vụ bán thêm từ Job `AM-29` để loại khỏi doanh thu tính hoa hồng | Khoản thu của khách thuộc sổ đăng ký giới thiệu, đã phân loại theo nhóm khoản thu;<br>danh sách dịch vụ ghi trong hợp đồng dịch vụ đầu tiên và phần gia hạn của chính dịch vụ đó | Bảng doanh thu thực thu theo khách thuộc sổ đăng ký giới thiệu, đã loại thuế GTGT, thu hộ, chi hộ, lệ phí;<br>số hoa hồng tính bằng công cụ;<br>chuyển cho Job `PM-07` và cho NB-23 | Xong trước mốc gửi báo cáo hoa hồng tại Job `PM-07`; SLA nội bộ do `CEO` chốt khi ban hành | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 23a | THU | Không |
+| NB-50 | Thu hồi hoặc khấu trừ hoa hồng | Thông báo Job `PM-09` đã gửi | Thông báo hoàn trả hoa hồng đã gửi đối tác | Chứng từ điều chỉnh của đối tác;<br>khoản phải thu hoặc khoản khấu trừ kỳ sau | Đối tác hoàn trả trong 15 ngày kể từ ngày nhận thông báo, theo [[PL_PM_Dieu_kien_thuong_mai_chuan\|OBK-SOP-PM-PL1]] dòng 22;<br>nghĩa vụ hoàn trả chỉ áp cho khoản oBacker hoàn tiền trong 12 tháng kể từ ngày oBacker chi hoa hồng tương ứng | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 23a;<br>[[PL_PM_Dieu_kien_thuong_mai_chuan\|OBK-SOP-PM-PL1]] dòng 22 | CHI | Không |
+| NB-51 | Hoàn tiền cho khách hoặc xử lý hủy dịch vụ | Khách yêu cầu hoàn tiền hoặc hủy dịch vụ;<br>hoặc Job `AM-19` | Yêu cầu hoàn tiền hoặc hủy dịch vụ, căn cứ hợp đồng với khách;<br>số tiền hoàn, phần dịch vụ đã thực hiện | Chứng từ điều chỉnh;<br>khoản chi hoàn;<br>thông báo cho Job `PM-09` khi khách có trong sổ đăng ký giới thiệu | Không áp | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 12.3 | THU | Không |
 
 %%/JOBTABLE:NB%%
 
@@ -102,9 +102,8 @@ Mốc ngày của chu trình LƯƠNG rơi vào ngày nghỉ hằng tuần hoặc
 
 ### NB-01. Đề nghị mua sắm
 
-1. NĐN phân loại khoản chi vào một trong sáu nhóm (N1 nhà cung cấp trong nước có hóa đơn; N2 nhà cung cấp nước ngoài; N3 cá nhân và hộ kinh doanh; N4 thanh toán định kỳ; N5 hoàn ứng cho người lao động; N6 khoản nộp bắt buộc), rồi lập BM-01 Đề nghị mua sắm, nêu nhu cầu, lý do, dòng ngân sách, số tiền dự kiến, thời hạn cần có. Kết quả: BM-01. Ghi sự kiện Tạo.
-2. TL xác nhận nhu cầu và ngân sách, ký duyệt trên BM-01. Kết quả: BM-01 đã duyệt. Ghi sự kiện Duyệt.
-3. Khoản ngoài ngân sách do CEO phân bổ thì TL chuyển hồ sơ lên NDC theo bậc. Ghi sự kiện Chuyển.
+1. NĐN phân loại khoản chi vào một trong sáu nhóm (N1 nhà cung cấp trong nước có hóa đơn; N2 nhà cung cấp nước ngoài; N3 cá nhân và hộ kinh doanh; N4 thanh toán định kỳ; N5 hoàn ứng cho người lao động; N6 khoản nộp bắt buộc), rồi lập BM-01 Đề nghị mua sắm, nêu nhu cầu, lý do, số tiền dự kiến, thời hạn cần có. Kết quả: BM-01. Ghi sự kiện Tạo.
+2. TL xác nhận nhu cầu, ký duyệt trên BM-01. Kết quả: BM-01 đã duyệt. Ghi sự kiện Duyệt.
 
 Điểm kiểm soát: BM-01 có chữ ký của TL trước khi oBacker cam kết với nhà cung cấp. Người duyệt chi theo bậc tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 12.3: TL ở bậc B1; TGĐ ở bậc B3 sau khi TL duyệt nhu cầu; cấp cao hơn theo luật định.
 Thời hạn: bước 2 trong 02 ngày làm việc.
@@ -122,7 +121,7 @@ Thời hạn: bước 1 trong 05 ngày làm việc; bước 3 trong 01 ngày (tr
 
 ### NB-03. Đề nghị thanh toán
 
-1. NĐN lập BM-02 Đề nghị thanh toán kèm hồ sơ tối thiểu theo nhóm khoản chi: hợp đồng hoặc đơn đặt hàng, bằng chứng nhận hàng hoặc BM-06, hóa đơn hợp pháp; nhóm N2 thêm kết luận nghĩa vụ khấu trừ do KTT ký; nhóm N3 thêm chứng từ khấu trừ thuế TNCN hoặc bảng kê thu mua Mẫu 02/TNDN. TL xác nhận nghiệp vụ có thật và đúng ngân sách, ký trên BM-02. Ghi sự kiện Tạo, rồi Duyệt.
+1. NĐN lập BM-02 Đề nghị thanh toán kèm hồ sơ tối thiểu theo nhóm khoản chi: hợp đồng hoặc đơn đặt hàng, bằng chứng nhận hàng hoặc BM-06, hóa đơn hợp pháp; nhóm N2 thêm kết luận nghĩa vụ khấu trừ do KTT ký; nhóm N3 thêm chứng từ khấu trừ thuế TNCN hoặc bảng kê thu mua Mẫu 02/TNDN. TL xác nhận nghiệp vụ có thật, ký trên BM-02. Ghi sự kiện Tạo, rồi Duyệt.
 2. KTV kiểm hồ sơ: đối chiếu ba chiều (cam kết, thực nhận, hóa đơn) về số lượng, đơn giá, tổng tiền, tên hàng hóa dịch vụ; kiểm hóa đơn ghi nhận hai lần theo bộ ba mã số thuế bên bán, số hóa đơn, số tiền; kiểm các điều kiện thuế ở phần Điểm kiểm soát. Kết quả: BM-07. Lệch thì KTV dừng và chuyển KTT, không tự điều chỉnh. Ghi sự kiện Soát.
 3. Với cá nhân thuộc diện khấu trừ, KTV xác định cư trú hay không cư trú và tình trạng hợp đồng lao động, tính 10% trên thu nhập trước khi trả, lập chứng từ khấu trừ thuế, chuyển số thuế đã khấu trừ sang Job NB-24. Ghi sự kiện Chuyển.
 4. KTT chốt kỹ thuật kế toán và thuế, ký chứng từ chi tiền trước khi chuyển tiền. Ghi sự kiện Duyệt.
@@ -146,6 +145,7 @@ Thời hạn: chu kỳ chi thường xuyên vào thứ Ba và thứ Sáu, hồ s
 2. KTV kiểm BM-04 theo năm câu hỏi: có khoản từ 05 triệu đồng trở lên mà người lao động thanh toán bằng tiền mặt hay không; có nhiều lần mua của cùng người bán trong một ngày với tổng từ 05 triệu đồng trở lên hay không; hóa đơn ghi đúng tên, địa chỉ, mã số thuế của oBacker hay chưa; công tác phí có văn bản cử đi công tác hay không; việc hoàn lại cho người lao động có bằng chuyển khoản hay không. Kết quả: BM-04 đã kiểm. Ghi sự kiện Soát.
 3. KTT ký kết luận xử lý khoản không đủ điều kiện trên BM-04. Ghi sự kiện Duyệt.
 4. NTT tạo lệnh, TGĐ hoặc Chủ tịch HĐQT xác nhận lệnh để tất toán chênh lệch bằng chuyển khoản: thu lại phần thừa hoặc chi bù phần thiếu. Kết quả: số dư tạm ứng về 0 hoặc còn dư có lý do. Ghi sự kiện Xong.
+5. Quá hạn hoàn ứng từ 01 đến 15 ngày: KTV nhắc bằng văn bản, gửi kèm TL, và tạm dừng quyền tạm ứng mới của người đề nghị. Quá hạn từ 16 ngày trở lên: KTT báo TGĐ ([[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 38.1). Ghi sự kiện Chuyển.
 
 Điểm kiểm soát: hoàn lại cho người lao động chỉ bằng chuyển khoản. Quá hạn hoàn ứng thì khóa quyền tạm ứng mới cho tới khi hoàn xong ([[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 38.2a); khoản chưa hoàn là một khoản nợ, không trừ vào tiền lương, vì Bộ luật Lao động 18/VBHN-VPQH Đ.102 k.1 chỉ cho khấu trừ tiền lương để bồi thường thiệt hại theo Điều 129 và Đ.127 k.2 cấm phạt tiền, cắt lương thay xử lý kỷ luật lao động.
 Thời hạn: tạm ứng công tác 05 ngày làm việc kể từ ngày kết thúc chuyến; tạm ứng mua sắm 10 ngày làm việc kể từ ngày chi khoản cuối cùng; tạm ứng khác 15 ngày làm việc kể từ ngày hoàn thành nhiệm vụ.
@@ -163,15 +163,10 @@ Thời hạn: tạm ứng công tác 05 ngày làm việc kể từ ngày kết 
 1. KTV ghi mỗi khoản định kỳ vào sổ theo dõi thanh toán định kỳ: tên dịch vụ, nhà cung cấp, trong nước hay nước ngoài, số tiền mỗi kỳ, chu kỳ, ngày thanh toán, hình thức thanh toán, ngày hết hạn hợp đồng, có tự động gia hạn hay không, người sở hữu nghiệp vụ, trạng thái nghĩa vụ khấu trừ. Khoản định kỳ duyệt một lần cho cả chu kỳ hợp đồng tại thời điểm ký. Ghi sự kiện Tạo.
 2. Mỗi kỳ KTV kiểm ba việc: số tiền đúng hợp đồng, hóa đơn kỳ này đã về, hợp đồng còn hiệu lực. Lệch một việc thì quay lại Job NB-03 đầy đủ. Khoản hoa hồng giới thiệu đối chiếu với báo cáo hoa hồng đã chấp thuận theo Job PM-08. Ghi sự kiện Soát.
 3. Thanh toán theo Job NB-03 và ghi bản ghi đã thanh toán. Ghi sự kiện Xong.
-4. Mỗi quý KTV rà soát sổ để phát hiện dịch vụ không còn dùng mà vẫn bị trừ tiền, hợp đồng sắp tự động gia hạn, thuê bao đang thanh toán bằng phương tiện thanh toán cá nhân.
+4. Mỗi quý AD-KT rà soát danh mục để phát hiện dịch vụ không còn dùng mà vẫn bị trừ tiền, hợp đồng sắp tự động gia hạn, thuê bao đang thanh toán bằng phương tiện thanh toán cá nhân; TGĐ duyệt kết quả ([[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 40.1). Ghi sự kiện Soát, rồi Duyệt.
 
 Điểm kiểm soát: thời điểm lập hóa đơn dịch vụ là thời điểm hoàn thành cung cấp dịch vụ; thu tiền trước hoặc trong khi cung cấp thì là thời điểm thu tiền (Nghị định 254/2026/NĐ-CP Đ.9 k.2). Danh mục khoản chi ngay không qua chu kỳ do TGĐ phê duyệt, tối đa 05 dòng, rà soát mỗi 06 tháng.
-Thời hạn: hóa đơn về trước ngày thanh toán 03 ngày làm việc; quá 07 ngày kể từ mốc mà hóa đơn chưa về thì KTV nhắc bằng văn bản; quá 15 ngày thì tạm dừng thanh toán kỳ tiếp theo và chuyển KTT.
-
-### NB-08. Rà soát ngân sách bộ phận
-
-Đầu vào: số liệu chi thực tế trên sổ. Đầu ra: bảng so sánh thực tế và ngân sách theo bộ phận ([[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] Điều 22). Ghi sự kiện Xong.
-Thời hạn: trong 05 ngày làm việc đầu tháng sau.
+Thời hạn: hóa đơn về trước ngày thanh toán 03 ngày làm việc; hạn nội bộ nhận hóa đơn của nhà cung cấp trong nước thuộc nhóm tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 40.3 là ngày 10 của tháng sau, quá hạn thì KTV gửi văn bản đòi hóa đơn.
 
 ### NB-09. Xuất hóa đơn dịch vụ cho khách
 
@@ -187,7 +182,7 @@ Thời hạn: bước 1 trong 02 ngày làm việc kể từ khi hoàn thành; b
 ### NB-10. Duyệt điều khoản thanh toán ngoài chuẩn
 
 1. KTV soát điều khoản thanh toán, hạn mức bán chịu và tên khoản tiền khách chuyển trước; KTT quyết. Điều khoản chuẩn là khách trả trước toàn bộ theo từng đơn hàng; khách mới trả trước ba kỳ dịch vụ đầu, không bán chịu. Ghi sự kiện Soát, rồi Quyết định.
-2. TGĐ phê duyệt bằng văn bản, riêng từng hợp đồng: điều khoản trả sau; vượt hạn mức bán chịu; ký dưới bảng giá quá 15%. Đề xuất kèm lý do. Kết quả: phê duyệt bằng văn bản. Ghi sự kiện Duyệt.
+2. TGĐ phê duyệt bằng văn bản, riêng từng hợp đồng: điều khoản trả sau; vượt hạn mức bán chịu; chiết khấu lớn hơn 10% so với bảng giá. Đề xuất kèm lý do. Kết quả: phê duyệt bằng văn bản. Ghi sự kiện Duyệt.
 3. KTT ký xác nhận hồ sơ hợp đồng; TGĐ ký hợp đồng. Kết quả: hợp đồng có số. Ghi sự kiện Xong.
 
 Điểm kiểm soát: khách là người có liên quan thì chuyển sang [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] Điều 12a ngay ở bước 1 (Luật Doanh nghiệp 67/VBHN-VPQH Đ.167 k.5). KTT không ký xác nhận hồ sơ khi hợp đồng thiếu một trong ba nội dung bắt buộc nêu ở Job NB-09.
@@ -203,11 +198,11 @@ Thời hạn: hằng tuần.
 ### NB-12. Nhắc phí và nhắc nợ theo bảng mốc
 
 1. KTV lập nội dung và số liệu nhắc nợ từ bảng tuổi nợ. Ghi sự kiện Chuyển.
-2. AM gửi cho khách theo bảng mốc tại [[19_Giao_tiep_khach_hang|OBK-SOP-19]] mục 6.8.2 (bản gốc) và lưu bằng chứng đã gửi trong hồ sơ khách. KTV, KTT, TL không liên hệ trực tiếp khách về công nợ. Ghi sự kiện Gửi khách.
-3. Mốc quá hạn 30 ngày: KTT báo TGĐ và đề xuất phương án; COO duyệt thư nhắc chính thức. Mốc 45 ngày: COO lập bảng đánh giá nội bộ trình CEO. Mốc 60 ngày và 75 ngày: CEO quyết. Ghi sự kiện Quyết định.
+2. AM gửi cho khách theo các mốc nêu ở mục Thời hạn và lưu bằng chứng đã gửi trong hồ sơ khách. KTV, KTT, TL không liên hệ trực tiếp khách về công nợ. Ghi sự kiện Gửi khách.
+3. Mốc quá hạn 30 ngày: KTT báo TGĐ và đề xuất phương án ([[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 16.1). Việc dừng cung cấp dịch vụ từ 31 ngày xử lý tại Job NB-13. Ghi sự kiện Chuyển.
 4. Khách đang khiếu nại thì KTV chuyển khoản đó sang nhóm đang tranh chấp và chuyển sang quy trình khiếu nại. Ghi sự kiện Phát sinh việc.
 
-Thời hạn: theo bảng mốc tại [[19_Giao_tiep_khach_hang|OBK-SOP-19]] mục 6.8.2; AM gọi điện ở mốc quá hạn 20 ngày.
+Thời hạn: AM nhắc trước hạn 05 ngày làm việc, quá hạn 03 ngày và quá hạn 10 ngày bằng thư điện tử; AM gọi điện ở mốc quá hạn 20 ngày; mốc quá hạn 30 ngày KTT báo TGĐ.
 
 ### NB-13. Đề xuất dừng dịch vụ với khách quá hạn
 
@@ -244,10 +239,11 @@ Thời hạn: cùng kỳ với Job NB-11.
 
 ### NB-17. Kiểm quỹ tiền mặt
 
-1. TQ, KTV và KTT cùng kiểm quỹ tiền mặt định kỳ hằng tháng, đối chiếu sổ quỹ với tiền mặt thực tế. Kết quả: biên bản kiểm quỹ có chữ ký của TQ, KTV và KTT. Ghi sự kiện Xong.
-2. KTT hoặc người TGĐ chỉ định kiểm quỹ đột xuất, không báo trước, tối thiểu 02 lần một năm. Kết quả: biên bản kiểm quỹ có chữ ký. Ghi sự kiện Xong.
+1. TQ, KTV và KTT cùng kiểm quỹ tiền mặt định kỳ hằng tháng, đối chiếu sổ quỹ với tiền mặt thực tế. Kết quả: biên bản kiểm quỹ có chữ ký của TQ, KTV và KTT. Ghi sự kiện Chuyển.
+2. KTT hoặc người TGĐ chỉ định kiểm quỹ đột xuất, không báo trước, tối thiểu 02 lần một năm. Kết quả: biên bản kiểm quỹ có chữ ký của người kiểm và TQ. Ghi sự kiện Chuyển.
+3. TGĐ duyệt kết quả kiểm quỹ ([[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 33.3). Ghi sự kiện Duyệt, rồi Xong.
 
-Điểm kiểm soát: biên bản kiểm quỹ có chữ ký theo chức danh ([[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] Điều 32, Điều 33). Vai trò TQ chưa có người giữ; khi chưa có thì oBacker chưa xuất quỹ tiền mặt.
+Điểm kiểm soát: biên bản kiểm quỹ có chữ ký theo chức danh ([[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] Điều 32, Điều 33). Mỗi văn phòng có một TQ theo [[OBK-QCTC-02_Bang_tham_quyen|OBK-QCTC-02]] mục 3 và [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 33.1.
 Thời hạn: theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] Điều 33.
 
 ### NB-18. Đối chiếu sao kê ngân hàng với sổ kế toán
@@ -258,15 +254,15 @@ Thời hạn: theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] Điều 
 4. AD-KT truy nguyên từng giao dịch đó trong 24 giờ: ngày, số tiền, người nhận, người lập lệnh. Ghi sự kiện Soát.
 5. AD-KT báo TGĐ, ngay trong ngày phát hiện, mọi giao dịch chưa truy nguyên được sau 24 giờ và mọi chênh lệch chưa giải thích được; giao dịch chi không có đề nghị thanh toán với số tiền lớn thì báo ngay, không chờ hết 24 giờ. AD-KT không báo qua KTV hoặc KTT; KTT nhận bản sao để xử lý phần kế toán. Ghi sự kiện Phát sinh việc.
 6. AD-KT lập bảng đối chiếu từng tài khoản kèm sao kê, ký và lưu vào hồ sơ kỳ. Ghi sự kiện Xong.
-7. Cấp đối chiếu đầy đủ: AD-KT trình TGĐ duyệt bảng đối chiếu. Ghi sự kiện Duyệt.
+7. AD-KT trình TGĐ duyệt bảng đối chiếu của cả hai cấp. Ghi sự kiện Duyệt.
 
-Điểm kiểm soát: bảng đối chiếu có chữ ký của AD-KT; cấp đối chiếu đầy đủ có TGĐ duyệt. Người đối chiếu là AD-KT, không phải KTV ([[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] Điều 34, Điều 48 chốt số 1). Tiền khách về chưa khớp hóa đơn thì AD-KT báo KTT ngay trong ngày.
+Điểm kiểm soát: bảng đối chiếu có chữ ký của AD-KT; bảng đối chiếu của cả hai cấp có TGĐ duyệt. Người đối chiếu là AD-KT, không phải KTV ([[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] Điều 34, Điều 48 chốt số 1). Tiền khách về chưa khớp hóa đơn thì AD-KT báo KTT ngay trong ngày.
 Thời hạn: đối chiếu nhanh mỗi 02 tuần; đối chiếu đầy đủ trong 05 ngày làm việc đầu tháng sau; truy nguyên giao dịch trong 24 giờ.
 
 ### NB-31. Lập phiếu thu và phiếu chi cho mọi lần nhập, xuất quỹ tiền mặt
 
-1. KTV lập phiếu thu BM-PT hoặc phiếu chi BM-PC ngay tại thời điểm nhập quỹ hoặc xuất quỹ, từ chứng từ gốc của khoản thu hoặc khoản chi; khoản chi kèm BM-02 đã duyệt. Số phiếu đánh liên tục trong kỳ kế toán. Kết quả: phiếu thu hoặc phiếu chi. Ghi sự kiện Tạo.
-2. Phiếu chi đủ chữ ký của người có thẩm quyền duyệt chi và KTT trước khi xuất quỹ; TQ ký phiếu theo chức danh. Kết quả: phiếu đủ chữ ký theo chức danh. Ghi sự kiện Duyệt, rồi Xong.
+1. KTV lập phiếu thu mẫu 01-TT hoặc phiếu chi mẫu 02-TT ngay tại thời điểm nhập quỹ hoặc xuất quỹ, từ chứng từ gốc của khoản thu hoặc khoản chi; khoản chi kèm BM-02 đã duyệt. Số phiếu đánh liên tục trong kỳ kế toán. Kết quả: phiếu thu hoặc phiếu chi. Ghi sự kiện Tạo.
+2. Phiếu đủ chữ ký theo chức danh của mẫu ([[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]] mục 4.1): người duyệt chi, KTT, TQ, người lập phiếu, và người nộp tiền với phiếu thu hoặc người nhận tiền với phiếu chi; phiếu chi có chữ ký của người duyệt chi và KTT trước khi xuất quỹ. Kết quả: phiếu đủ chữ ký theo chức danh. Ghi sự kiện Duyệt, rồi Xong.
 3. Khách trả tiền mặt mà chưa lập được phiếu thu thì người nhận nộp ngay vào tài khoản ngân hàng của oBacker trong ngày, không nhập quỹ. Ghi sự kiện Chuyển.
 
 Điểm kiểm soát: BM-02 không thay phiếu chi. Chứng từ chi tiền do người có thẩm quyền duyệt chi và KTT ký trước khi thực hiện (Luật Kế toán 41/VBHN-VPQH Đ.19 k.3); ký chứng từ khi chưa ghi đủ nội dung thuộc trách nhiệm của người ký là hành vi bị nghiêm cấm (Đ.19 k.2), nên phiếu chi trống đã ký phải hủy; mỗi nghiệp vụ chỉ lập chứng từ một lần (Đ.18 k.1). Chứng từ thu, chi tiền ghi tổng số tiền bằng số và bằng chữ (Đ.16 k.1). Căn cứ: [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] Điều 32; [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]] Điều 4; Thông tư 99/2025/TT-BTC, Tài khoản 111, mục 1 điểm b.
@@ -277,18 +273,22 @@ Thời hạn: ngay tại thời điểm nhập quỹ hoặc xuất quỹ, không
 1. TGĐ đối chiếu danh sách người dùng và quyền hiện hành trên hệ thống ngân hàng với danh sách nhân sự và vai trò hiện tại, ngay trong ngày khi có nhân sự nghỉ việc hoặc thay đổi vai trò. Ghi sự kiện Soát.
 2. TGĐ xóa hoặc hủy kích hoạt quyền của nhân sự nghỉ việc, dù người đó tạo lệnh hay xác nhận lệnh, ngay trong ngày làm việc cuối cùng. HR báo TGĐ trước 24 giờ để thu hồi kịp ngày đó. Ghi sự kiện Xong.
 3. TGĐ lập bảng rà soát và đề xuất điều chỉnh nếu quyền lệch với vai trò. Ghi sự kiện Quyết định.
+4. TGĐ báo HĐQT bằng văn bản; HĐQT duyệt kết quả rà soát ([[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 35.2). Ghi sự kiện Duyệt.
 
 Điểm kiểm soát: người tạo lệnh khác người xác nhận lệnh, kiểm lại mỗi lần đổi nhân sự. Luật Kế toán 41/VBHN-VPQH Đ.13 k.7 nghiêm cấm "Người có trách nhiệm quản lý, điều hành đơn vị kế toán kiêm làm kế toán, thủ kho, thủ quỹ, trừ doanh nghiệp tư nhân và công ty trách nhiệm hữu hạn do một cá nhân làm chủ sở hữu"; oBacker là công ty cổ phần nên không thuộc trường hợp loại trừ. Đ.52 k.3 và k.4 quy định thêm hai điều cấm với người làm kế toán. Căn cứ: [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] Điều 35, Điều 47.
 Thời hạn: ngay trong ngày khi có nhân sự nghỉ việc hoặc thay đổi vai trò ([[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 35.2).
 
 ### NB-20. Mở, đóng, thay đổi tài khoản ngân hàng
 
-Đầu vào: đề xuất kèm lý do. Đầu ra: quyết định và hồ sơ ngân hàng ([[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] Điều 34). oBacker không dùng tài khoản cá nhân của nhân sự để thu tiền của khách ([[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 34.3). Ghi sự kiện Quyết định, rồi Xong.
+1. KTV đề xuất mở, đóng hoặc thay đổi tài khoản ngân hàng kèm lý do; KTT soát. Ghi sự kiện Soát.
+2. TGĐ quyết sau khi đối chiếu Điều lệ ([[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 34.1; [[OBK-QCTC-02_Bang_tham_quyen|OBK-QCTC-02]] mục 4). Kết quả: quyết định và hồ sơ ngân hàng. Ghi sự kiện Quyết định, rồi Xong.
+
+Điểm kiểm soát: oBacker không dùng tài khoản cá nhân của nhân sự để thu tiền của khách ([[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 34.3).
 Thời hạn: trong 03 ngày làm việc kể từ khi đã duyệt.
 
 ### NB-21. Lập kế hoạch dòng tiền
 
-KTV lập bảng kế hoạch dòng tiền 03 tháng tới từ công nợ phải thu, công nợ phải trả và ngân sách, cập nhật hằng tháng ([[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] Điều 22). Ghi sự kiện Xong.
+KTV lập bảng kế hoạch dòng tiền 03 tháng tới từ công nợ phải thu và công nợ phải trả, cập nhật hằng tháng; KTT soát ([[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 34.4). Ghi sự kiện Soát, rồi Xong.
 Thời hạn: trong 05 ngày làm việc đầu tháng.
 
 ### NB-22. Ghi sổ kế toán kỳ của oBacker
@@ -309,9 +309,9 @@ Thời hạn: làm trước 03 ngày làm việc so với thời hạn theo phá
 
 ### NB-25. Lập và nộp báo cáo tài chính năm của oBacker
 
-KTV lập báo cáo tình hình tài chính và báo cáo kết quả hoạt động từ sổ năm đã khóa và biên bản kiểm kê, rồi nộp. Ghi sự kiện Nộp cơ quan, rồi Xong.
+KTV lập báo cáo tình hình tài chính và báo cáo kết quả hoạt động từ sổ năm đã khóa và biên bản kiểm kê. Trước mỗi lần ký báo cáo năm, KTV đính bản tra Giấy chứng nhận đăng ký doanh nghiệp có ghi ngày tra ([[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 43.2). Sau khi ký, KTV nộp báo cáo. Ghi sự kiện Nộp cơ quan, rồi Xong.
 Điểm kiểm soát: báo cáo đủ ba chữ ký theo chức danh: người lập là KTV, KTT, NĐDPL (Luật Kế toán 41/VBHN-VPQH Đ.29 k.2 đ.d).
-Thời hạn: 90 ngày kể từ ngày kết thúc kỳ kế toán năm (CC-KT-03); nộp trước hạn pháp định ít nhất 05 ngày làm việc.
+Thời hạn: 90 ngày kể từ ngày kết thúc kỳ kế toán năm (CC-KT-03); nộp trước hạn pháp định ít nhất 03 ngày làm việc.
 
 ### NB-26. Kiểm kê tài sản và công nợ
 
@@ -329,14 +329,14 @@ Thời hạn: trong 12 tháng kể từ ngày kết thúc kỳ kế toán năm (
 
 ### NB-28. Rà soát các khoản chạm mức tối đa trước 31/12
 
-Đầu vào: sổ tới thời điểm rà. Đầu ra: bảng rà soát các khoản trang phục, phúc lợi, bảo hiểm hưu trí bổ sung, ăn giữa ca, quỹ lương dự phòng, khấu hao xe từ 9 chỗ trở xuống (CC-KT-11 tới CC-KT-16; [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] Điều 21, Điều 26, Điều 27). Ghi sự kiện Xong.
+Đầu vào: sổ của oBacker tới thời điểm rà. Đầu ra: bảng rà soát các khoản trang phục, phúc lợi, bảo hiểm hưu trí bổ sung, ăn giữa ca, quỹ lương dự phòng, khấu hao xe từ 9 chỗ trở xuống (CC-KT-11 tới CC-KT-16; [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] Điều 21, Điều 26, Điều 27). Ghi sự kiện Xong.
 Thời hạn: trước 15/12.
 
 ### NB-29. Rà soát giao dịch với người có liên quan
 
 1. Mọi nhân sự khai báo khi nhà cung cấp có quan hệ với người khai báo: người thân; doanh nghiệp mà người khai báo hoặc người thân có phần vốn góp; nơi người khai báo làm thêm. Người khai báo không tham gia bước chọn nhà cung cấp. Ghi sự kiện Tạo.
 2. KTT lập bảng rà soát từ danh sách người có liên quan, danh mục giao dịch trong kỳ và danh sách đối tác mới từ Job PM-01. Ghi sự kiện Soát.
-3. HĐQT thông qua giao dịch thuộc diện theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] Điều 12a; hồ sơ phê duyệt đi kèm bảng rà soát. Ghi sự kiện Duyệt, rồi Xong.
+3. Người quyết hỏi ý kiến LEG trước khi quyết ([[OBK-QCTC-02_Bang_tham_quyen|OBK-QCTC-02]] mục 4). Giao dịch dưới 35% tổng giá trị tài sản: HĐQT chấp thuận; từ 35% trở lên: ĐHĐCĐ chấp thuận ([[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 12a.2). Hồ sơ phê duyệt đi kèm bảng rà soát. Ghi sự kiện Duyệt, rồi Xong.
 
 Điểm kiểm soát: giao dịch với người có liên quan phải qua cấp có thẩm quyền, làm sai thì giao dịch bị xử lý kèm bồi thường (Luật Doanh nghiệp 67/VBHN-VPQH Đ.167 k.5).
 Thời hạn: hằng quý và trước khi ký từng giao dịch thuộc diện.
@@ -384,6 +384,7 @@ Thời hạn: ngày 21 hằng tháng.
 
 1. KTV tính lương từ BM-09 của kỳ đã duyệt. Ghi sự kiện Nhận.
 2. KTV lập Bảng thanh toán tiền lương mẫu số 01-LĐTL: đưa khoản thưởng đã chi ngày 15 của tháng vào bảng để tính thuế TNCN; trừ khoản tạm ứng tiền lương đã ghi theo Job NB-32; tính phần bù của kỳ trước nếu có. Kết quả: Bảng thanh toán tiền lương của kỳ. Ghi sự kiện Chuyển.
+3. KTT ký Bảng thanh toán tiền lương theo chức danh Kế toán trưởng. Ghi sự kiện Soát.
 
 Điểm kiểm soát: Bảng thanh toán tiền lương giữ ba chữ ký theo chức danh của mẫu 01-LĐTL: người lập bảng KTV, Kế toán trưởng KTT, Giám đốc TGĐ ([[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]] Điều 4). Thuế TNCN khấu trừ đúng một lần khi tính tiền lương của tháng, trên tổng thu nhập tính thuế gồm tiền lương và khoản thưởng đã chi ngày 15; người không ký hợp đồng hoặc ký hợp đồng lao động dưới 03 tháng khấu trừ theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 26a.5. Thu nhập từ tiền lương, tiền công thuộc diện miễn thuế TNCN trong 05 năm kể từ ngày có văn bản xác nhận của Sở Khoa học và Công nghệ (văn bản ngày 29/12/2025) thì mức thuế khấu trừ là 0 đồng, căn cứ Nghị quyết 136/2024/QH15 Đ.14 k.1 đ.c; Nghị quyết 53/2024/NQ-HĐND Đ.6 k.4, Đ.7 k.3; Nghị quyết 24/2026/NQ-HĐND Đ.15 k.2 (CC-KT-91). Trường Tạm ứng kỳ I đứng tách khỏi nhóm trường Các khoản phải khấu trừ vào lương ([[OBK-QCTC-03_Quy_che_hach_toan_ke_toan|OBK-QCTC-03]] mục 4.3).
 Thời hạn: từ ngày 23 hằng tháng.
@@ -424,7 +425,7 @@ Thời hạn: hồ sơ báo tăng theo mốc 30 ngày của CC-LD-140; đăng k�
 1. HR lập hồ sơ báo giảm lao động từ quyết định hoặc thỏa thuận chấm dứt hợp đồng lao động, ngay khi có quyết định chấm dứt hoặc trong kỳ kê khai của tháng chấm dứt, và nộp trước ngày cuối cùng của tháng người lao động chấm dứt hợp đồng. Kết quả: hồ sơ báo giảm đã nộp. Ghi sự kiện Nộp cơ quan, rồi Xong.
 
 Điểm kiểm soát: Luật Bảo hiểm xã hội 41/2024/QH15 Đ.39 k.1 đ.c xếp việc đăng ký tiền lương làm căn cứ đóng bảo hiểm xã hội bắt buộc thấp hơn mức quy định tại Điều 31 khoản 1 vào trốn đóng.
-Thời hạn: mốc số ngày theo pháp luật chưa xác minh được trong kho văn bản (PL_1 mục 2.7).
+Thời hạn: mốc số ngày theo pháp luật chưa xác minh được trong kho văn bản.
 
 ### NB-42. Tổng hợp và nộp tiền bảo hiểm xã hội
 
@@ -480,7 +481,7 @@ Thời hạn: xong trước mốc gửi báo cáo hoa hồng tại Job PM-07; SL
 1. KTV theo dõi đối tác hoàn trả sau khi Job PM-09 gửi thông báo hoàn trả hoa hồng. Nghĩa vụ hoàn trả chỉ áp cho khoản oBacker hoàn tiền trong 12 tháng kể từ ngày oBacker chi hoa hồng tương ứng. Ghi sự kiện Chờ.
 2. KTV lập chứng từ điều chỉnh của đối tác; khoản phải thu hoặc khoản khấu trừ kỳ sau ghi theo chứng từ đó; thu hồi hoa hồng ghi giảm chi phí khi có chứng từ điều chỉnh. Ghi sự kiện Hết chờ, rồi Xong.
 
-Thời hạn: đối tác hoàn trả trong 15 ngày kể từ ngày nhận thông báo, theo Điều 5.5 bản mẫu.
+Thời hạn: đối tác hoàn trả trong 15 ngày kể từ ngày nhận thông báo, theo [[PL_PM_Dieu_kien_thuong_mai_chuan|OBK-SOP-PM-PL1]] dòng 22.
 
 ### NB-51. Hoàn tiền cho khách hoặc xử lý hủy dịch vụ
 
@@ -488,7 +489,7 @@ Thời hạn: đối tác hoàn trả trong 15 ngày kể từ ngày nhận thô
 2. AM xác định phần dịch vụ đã thực hiện, KTV tính số tiền hoàn. Ghi sự kiện Soát.
 3. NDC duyệt theo bậc duyệt chi tại [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo|OBK-QCTC-01]] mục 12.3. Ghi sự kiện Duyệt.
 4. KTV lập chứng từ điều chỉnh và chi hoàn. Kết quả: chứng từ điều chỉnh; khoản chi hoàn. Ghi sự kiện Chuyển.
-5. KTV tra sổ đăng ký giới thiệu; khách có trong sổ thì thông báo cho người giữ Job PM-09. Ghi sự kiện Phát sinh việc, rồi Xong.
+5. KTV tra sổ đăng ký giới thiệu; khách có trong sổ thì thông báo cho PM tại Job PM-09. Ghi sự kiện Phát sinh việc, rồi Xong.
 
 Thời hạn: không áp.
 
@@ -497,7 +498,7 @@ Thời hạn: không áp.
 | Lỗi | Hậu quả | Cách làm đúng |
 | --- | --- | --- |
 | Chia nhỏ hóa đơn hoặc thù lao trong cùng ngày để khoản chi thấp hơn mức 05 triệu đồng | Cộng các lần của cùng một người bán trong cùng ngày, tổng từ 05 triệu đồng trở lên mà trả tiền mặt thì mất chi phí được trừ (Văn bản hợp nhất 19/VBHN-BTC Đ.9 k.1 đ.c1) | KTV cộng các lần của cùng một bên trong cùng ngày; chuyển khoản không dùng tiền mặt |
-| Chuyển tiền theo email báo đổi số tài khoản | Chi nhầm tài khoản, mất tiền | KTV dừng lệnh chi, gọi số điện thoại gốc, không dùng số trong email, báo KTT. Bên kia không gửi thì giữ số cũ, giữ email, ghi sổ sự cố, KTT báo TGĐ. Bên kia có gửi thì lập BM-05, KTV sửa, KTT duyệt, mọi chữ ký trước đó hết giá trị. Chưa gọi được thì giữ lệnh dừng (SC-01) |
+| Chuyển tiền theo email báo đổi số tài khoản | Chi nhầm tài khoản, mất tiền | KTV dừng lệnh chi, gọi số điện thoại gốc, không dùng số trong email, báo KTT. Bên kia không gửi thì giữ số cũ, giữ email, ghi sổ sự cố, KTT báo TGĐ. Bên kia có gửi thì lập BM-05, KTV sửa, KTT duyệt, mọi chữ ký trước đó hết giá trị. Chưa gọi được thì giữ lệnh dừng |
 | Ký sẵn phiếu chi trống | Vi phạm Luật Kế toán 41/VBHN-VPQH Đ.19 k.2; phiếu phải hủy | Ký khi phiếu đã đủ nội dung; phiếu ký trước thì hủy |
 | Chi hộ hoặc hoàn ứng bằng tiền mặt | Người lao động trả tiền mặt cho nhà cung cấp thì mất chi phí được trừ và khấu trừ GTGT; oBacker hoàn tiền mặt cho người lao động thì mất khấu trừ GTGT ([[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 19.2) | Người lao động trả bằng chuyển khoản; oBacker hoàn bằng chuyển khoản |
 | Trừ nợ tạm ứng hoặc khoản trả thừa vào lương | Trái Bộ luật Lao động 18/VBHN-VPQH Đ.102 k.1 và Đ.127 k.2 | Ghi thành khoản nợ, xử lý theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 26a.4 và mục 38.2a |
@@ -509,6 +510,6 @@ Thời hạn: không áp.
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.3.0.0 | NB-32 bước 3: KTT hoặc người được ủy quyền và người duyệt ký BM-08 trước khi chi; Chủ tịch HĐQT đề nghị thì duyệt như người lao động. |
+| 08/10/2026 | V4.0.0 | Xóa Job NB-08 và kiểm ngân sách, Soát bắt buộc Không cho 11 Job lương, chiết khấu AM đến 10% và CEO lớn hơn 10%, thủ quỹ và mẫu 01-TT, 02-TT. |

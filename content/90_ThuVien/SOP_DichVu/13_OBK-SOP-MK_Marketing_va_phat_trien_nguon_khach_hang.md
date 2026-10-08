@@ -4,8 +4,9 @@ code: "OBK-SOP-MK"
 type: "sop"
 folder: "90_ThuVien"
 level: "Cấp 2, quy trình bộ phận"
-version: "R.2.0.1"
-status: "đang áp dụng"
+version: "V2.0.2"
+release: "R.26.10.08.1"
+status: "thư viện tham khảo"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -27,7 +28,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-SOP-MK |
 | Cấp tài liệu | Cấp 2, SOP bộ phận |
-| Phiên bản | R.2.0.1, đang áp dụng |
+| Phiên bản | V2.0.2, thư viện tham khảo |
+| Phát hành | R.26.10.08.1 |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Văn bản pháp luật có hiệu lực tại ngày 27/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -83,7 +85,7 @@ Kết quả phải đạt:
 
 ### 1.4. Quy trình sản xuất và kiểm duyệt nội dung chuyên môn
 
-Mọi ấn phẩm, bài viết chuyên môn, bản tin điện tử, cẩm nang hướng dẫn và tài liệu hội thảo trước khi công bố ra công chúng bắt buộc phải qua một lượt soát trước khi phát hành: Chuyên viên Marketing soạn thảo từ văn bản quy phạm pháp luật chính thức trong kho văn bản của công ty hoặc cơ sở dữ liệu quốc gia, trích dẫn đúng số hiệu văn bản, điều, khoản và ngày hiệu lực; một người soát duy nhất phê duyệt trước khi phát hành, theo thời hạn tại mục 3.2. Nội dung về đăng ký doanh nghiệp, đầu tư, giấy phép, lao động và pháp lý chung do `CV-RD` hoặc `TL-RD` soát; nội dung về chính sách thuế, hóa đơn điện tử, chuẩn mực và chế độ kế toán do `KTT nội bộ` soát. Trong cùng một lượt, người soát kiểm tra đủ ba nhóm: tính chính xác của căn cứ pháp lý và hiệu lực văn bản; các điều cấm về quảng cáo, gồm cấm cam kết kết quả cấp phép hoặc kết quả thanh tra, cấm hướng dẫn lách thuế theo Điều 8 Luật Quảng cáo 2012 và Luật Quản lý thuế 2019, và danh mục hành vi oBacker nghiêm cấm tại [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 9; điều khoản bảo vệ dữ liệu cá nhân theo Nghị định 13/2023/NĐ-CP. Bản thảo chỉ được đăng tải công khai khi người soát để dấu vết phê duyệt trên hệ thống quản lý công việc.
+Mọi ấn phẩm, bài viết chuyên môn, bản tin điện tử, cẩm nang hướng dẫn và tài liệu hội thảo trước khi công bố ra công chúng bắt buộc phải qua một lượt soát trước khi phát hành: Chuyên viên Marketing soạn thảo từ văn bản quy phạm pháp luật chính thức trong kho văn bản của công ty hoặc cơ sở dữ liệu quốc gia, trích dẫn đúng số hiệu văn bản, điều, khoản và ngày hiệu lực; một người soát duy nhất phê duyệt trước khi phát hành, theo thời hạn tại mục 3.2. Nội dung về đăng ký doanh nghiệp, đầu tư, giấy phép, lao động và pháp lý chung do `CV-RD` hoặc `TL-RD` soát; nội dung về chính sách thuế, hóa đơn điện tử, chuẩn mực và chế độ kế toán do `KTT nội bộ` soát. Trong cùng một lượt, người soát kiểm tra đủ ba nhóm: tính chính xác của căn cứ pháp lý và hiệu lực văn bản; các điều cấm về quảng cáo, gồm cấm cam kết kết quả cấp phép hoặc kết quả thanh tra, cấm hướng dẫn lách thuế theo Điều 8 Luật Quảng cáo 2012 và Luật Quản lý thuế 2019, và danh mục hành vi oBacker nghiêm cấm tại [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]]; điều khoản bảo vệ dữ liệu cá nhân theo Nghị định 13/2023/NĐ-CP. Bản thảo chỉ được đăng tải công khai khi người soát để dấu vết phê duyệt trên hệ thống quản lý công việc.
 
 ### 1.5. Vận hành phễu thu hút khách hàng
 
@@ -242,6 +244,6 @@ Biểu mẫu dưới đây là view thao tác trên dữ liệu của sổ cái 
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.2.0.1 | Bỏ từ nhấn mạnh, câu định vị ở mục 1.1, câu đếm mã Job và câu tự mô tả ở mục 6 |
+| 08/10/2026 | V2.0.2 | Đặt trạng thái thư viện tham khảo và sửa dẫn chiếu tới OBK-MSR trong 13_OBK-SOP-MK_Marketing_va_phat_trien_nguon_khach_hang. |

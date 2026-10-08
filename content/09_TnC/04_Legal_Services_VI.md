@@ -5,7 +5,8 @@ aliases:
   - TNC-04-VI
 type: "tnc"
 folder: "09_TnC"
-version: "R.2.1.2"
+version: "V3.0.0"
+release: "R.26.10.08.1"
 status: "đang áp dụng"
 author: "CEO"
 reviewer: "CEO"
@@ -22,7 +23,7 @@ tags:
 *Điều Khoản Dịch Vụ Cụ Thể, là bộ phận không tách rời của Bản Điều Khoản Chung; Công ty Cổ phần oBacker*
 MST: 0402298185 · Tầng 2, 06 Trần Phú, Phường Hải Châu, Thành phố Đà Nẵng · contact@obacker.com
 
-**Phiên bản:** R.2.1.1 (VI-EN) · **Cập nhật:** 07/10/2026
+**Phiên bản:** V3.0.0 (VI-EN) · **Phát hành:** R.26.10.08.1 · **Cập nhật:** 08/10/2026
 
 > Đây là Điều Khoản Dịch Vụ Cụ Thể áp dụng cho Dịch Vụ Pháp Lý ("**Dịch Vụ**"), gồm bốn nhóm: (A) Tư vấn pháp lý và tư vấn thuế; (B) Rà soát và soạn thảo hợp đồng/văn bản; (C) Nghiên cứu theo yêu cầu; (D) Đăng ký quyền sở hữu trí tuệ (nhãn hiệu, bản quyền tác giả). Tài liệu áp dụng khi Dịch Vụ được ghi nhận tại Đơn Đặt Hàng; theo vụ việc, theo giờ, hoặc theo số lượt rà soát trong gói. **Nếu có khác biệt giữa Bản Điều Khoản Chung và tài liệu này, tài liệu này được ưu tiên áp dụng cho Dịch Vụ.**
 
@@ -30,7 +31,7 @@ MST: 0402298185 · Tầng 2, 06 Trần Phú, Phường Hải Châu, Thành phố
 
 ## Điều 1. Định nghĩa và phạm vi áp dụng
 
-Dịch Vụ Pháp Lý do Công ty Cổ phần oBacker cung cấp, phối hợp với **công ty luật đối tác độc lập** (dự kiến là Công ty Luật oBacker Law; sẽ thành lập; cho đến khi thành lập, Dịch Vụ được thực hiện qua (các) công ty luật đối tác độc lập). Nội dung gồm ý kiến tư vấn pháp lý và tư vấn thuế, rà soát và soạn thảo văn bản, nghiên cứu pháp lý theo yêu cầu, và dịch vụ đăng ký quyền sở hữu trí tuệ. Hình thức cung cấp theo Đơn Đặt Hàng; theo số giờ tư vấn mỗi kỳ, số lượt rà soát hợp đồng mỗi kỳ, hoặc theo từng vụ việc.
+Dịch Vụ Pháp Lý do Công ty Cổ phần oBacker cung cấp, phối hợp với **công ty luật đối tác độc lập**. Nội dung gồm ý kiến tư vấn pháp lý và tư vấn thuế, rà soát và soạn thảo văn bản, nghiên cứu pháp lý theo yêu cầu, và dịch vụ đăng ký quyền sở hữu trí tuệ. Hình thức cung cấp theo Đơn Đặt Hàng; theo số giờ tư vấn mỗi kỳ, số lượt rà soát hợp đồng mỗi kỳ, hoặc theo từng vụ việc.
 
 oBacker chỉ thực hiện Dịch Vụ trong phạm vi các lĩnh vực và ngành mà oBacker phục vụ.
 
@@ -59,9 +60,9 @@ oBacker chỉ thực hiện Dịch Vụ trong phạm vi các lĩnh vực và ng�
 
 **2.5. Đăng ký quyền sở hữu trí tuệ (nhãn hiệu, bản quyền tác giả):**
 
-- **Đăng ký nhãn hiệu:** Tra cứu sơ bộ khả năng bảo hộ; lập danh mục sản phẩm/dịch vụ theo Bảng phân loại Ni-xơ; soạn thảo tờ khai và hoàn thiện hồ sơ đăng ký nhãn hiệu; đại diện nộp đơn tại Cục Sở hữu trí tuệ; theo dõi tiến trình đơn và thông báo kết quả thẩm định hình thức, công bố đơn, thẩm định nội dung và nhận Giấy chứng nhận đăng ký nhãn hiệu theo quy trình `LIC-30`.
-- **Đăng ký bản quyền tác giả:** Tư vấn hồ sơ quyền tác giả (phần mềm máy tính, tác phẩm mỹ thuật ứng dụng, tác phẩm viết); soạn thảo tờ khai, bản mô tả tác phẩm, giấy cam đoan và giấy ủy quyền; đại diện nộp hồ sơ tại Cục Bản quyền tác giả và nhận Giấy chứng nhận đăng ký quyền tác giả theo quy trình `LIC-31`.
-- **Gia hạn và cấp đổi:** Soạn hồ sơ và nộp yêu cầu gia hạn hiệu lực văn bằng bảo hộ nhãn hiệu theo quy định.
+- **Đăng ký nhãn hiệu:** Tra cứu sơ bộ khả năng bảo hộ; lập danh mục sản phẩm/dịch vụ theo Bảng phân loại Ni-xơ; soạn thảo tờ khai và hoàn thiện hồ sơ đăng ký nhãn hiệu; đại diện nộp đơn tại Cục Sở hữu trí tuệ; theo dõi tiến trình đơn và thông báo kết quả thẩm định hình thức, công bố đơn, thẩm định nội dung và nhận Giấy chứng nhận đăng ký nhãn hiệu.
+- **Đăng ký bản quyền tác giả:** Tư vấn hồ sơ quyền tác giả (phần mềm máy tính, tác phẩm mỹ thuật ứng dụng, tác phẩm viết); soạn thảo tờ khai, bản mô tả tác phẩm, giấy cam đoan và giấy ủy quyền; đại diện nộp hồ sơ tại Cục Bản quyền tác giả và nhận Giấy chứng nhận đăng ký quyền tác giả.
+- **Gia hạn:** Soạn hồ sơ và nộp yêu cầu gia hạn hiệu lực văn bằng bảo hộ nhãn hiệu theo quy định.
 
 ## Điều 3. Giới hạn phạm vi Dịch Vụ
 
@@ -69,13 +70,14 @@ oBacker chỉ thực hiện Dịch Vụ trong phạm vi các lĩnh vực và ng�
 - Tư vấn là ý kiến chuyên môn, **không phải bảo đảm kết quả** tại cơ quan nhà nước hoặc tòa án; quyết định cuối cùng thuộc thẩm quyền của các cơ quan đó
 - Ý kiến tư vấn dành riêng cho Quý Khách và cho mục đích đã nêu. Bên thứ ba không được sử dụng hoặc dựa vào ý kiến này nếu không có đồng ý của oBacker; oBacker không chịu trách nhiệm với tổn thất phát sinh từ việc bên thứ ba tự ý sử dụng
 - Phạm vi giới hạn ở pháp luật Việt Nam, trừ khi có thỏa thuận khác
-- **Không bao gồm:** đại diện tranh tụng, tố tụng tại tòa án hoặc trọng tài; xử lý các tranh chấp hoặc khiếu kiện xâm phạm quyền sở hữu trí tuệ tại tòa án; mua bán, sáp nhập doanh nghiệp và gọi vốn (thẩm định pháp lý chuyên sâu, đàm phán hợp đồng mua bán cổ phần và thỏa thuận cổ đông); tái cấu trúc doanh nghiệp; dịch vụ người đứng tên hộ (Nominee) dưới mọi hình thức; trừ khi có thỏa thuận và Đơn Đặt Hàng riêng. Khi có nhu cầu tranh tụng, oBacker giới thiệu sang công ty luật đối tác độc lập phù hợp.
+- **Không bao gồm:** đại diện tranh tụng, tố tụng tại tòa án hoặc trọng tài; xử lý các tranh chấp hoặc khiếu kiện xâm phạm quyền sở hữu trí tuệ tại tòa án; mua bán, sáp nhập doanh nghiệp và gọi vốn (thẩm định pháp lý chuyên sâu, đàm phán hợp đồng mua bán cổ phần và thỏa thuận cổ đông); tái cấu trúc doanh nghiệp; trừ khi có thỏa thuận và Đơn Đặt Hàng riêng. Khi có nhu cầu tranh tụng, oBacker giới thiệu sang công ty luật đối tác độc lập phù hợp
+- **Nghiêm cấm:** dịch vụ người đứng tên hộ (Nominee) dưới mọi hình thức. Điều 12 Bản Điều Khoản Chung áp dụng cho nội dung này.
 
 ## Điều 4. Phạm vi 01 lượt soát xét hợp đồng
 
 Một (01) lượt soát xét hợp đồng bao gồm:
 
-- **01 hợp đồng độ dài tối đa 10 trang** (tương đương khoảng 3.000; 4.000 chữ)
+- **01 hợp đồng độ dài tối đa 10 trang** (tương đương khoảng 3.000 đến 4.000 chữ)
 - oBacker kiểm tra rủi ro pháp lý cơ bản, chỉ ra và cảnh báo điều khoản bất lợi
 - 01 vòng rà soát và 01 vòng góp ý
 - Thời gian xử lý: 03 ngày làm việc/lượt.
@@ -109,7 +111,7 @@ Một (01) lượt soát xét hợp đồng bao gồm:
 | Tư vấn theo giờ trong gói | Theo lịch hẹn trong kỳ (thư điện tử, gặp mặt hoặc gọi video trực tuyến) |
 | Nghiên cứu theo yêu cầu | Theo phạm vi thỏa thuận tại Đơn Đặt Hàng |
 
-> **Nguyên tắc cộng dồn tiến độ khi chậm hồ sơ:** Nếu Quý Khách chậm cung cấp tài liệu nền tảng, chậm ký duyệt hồ sơ hoặc chậm làm rõ thông tin so với lịch hẹn, toàn bộ số ngày chậm trễ của Quý Khách được cộng dồn trực tiếp vào ngày hẹn bàn giao kết quả của oBacker (cộng bù tương ứng 1:1 theo Điều 5.4(a) Bản Điều Khoản Chung). Khoảng thời gian chậm trễ này không tính vào thời gian cam kết tiến độ của oBacker.
+> **Nguyên tắc cộng dồn tiến độ khi chậm hồ sơ:** Nếu Quý Khách chậm cung cấp tài liệu nền tảng, chậm ký duyệt hồ sơ hoặc chậm làm rõ thông tin so với lịch hẹn, toàn bộ số Ngày Làm Việc chậm trễ của Quý Khách được cộng dồn trực tiếp vào ngày hẹn bàn giao kết quả của oBacker (cộng bù tương ứng 1:1 theo Điều 5.4(a) Bản Điều Khoản Chung). Khoảng thời gian chậm trễ này không tính vào thời gian cam kết tiến độ của oBacker.
 
 Số giờ và số lượt tư vấn trong gói áp dụng theo từng kỳ và **không tích lũy** sang kỳ sau, trừ khi Đơn Đặt Hàng quy định khác.
 
@@ -126,7 +128,7 @@ oBacker giữ bản quyền và các quyền sở hữu trí tuệ đối với 
 
 ## Điều 9. Phí Dịch Vụ
 
-Phí Dịch Vụ được xác định theo Đơn Đặt Hàng; theo giờ, theo lượt rà soát, theo vụ việc hoặc theo phạm vi nghiên cứu. Đối với khách hàng đăng ký các gói đối tác định kỳ: gói Partner Growth được tích hợp miễn phí rà soát 02 hợp đồng thương mại/tháng (< 10 trang), 02 lần thay đổi nội dung ĐKKD/năm, soạn thảo 06 văn bản nội bộ/năm; gói Partner Prime được tích hợp rà soát 05 hợp đồng thương mại/tháng (< 10 trang), 04 lần thay đổi nội dung ĐKKD/năm, soạn thảo 12 văn bản nội bộ/năm. Khi nhu cầu vượt hạn mức trong gói (thêm giờ, thêm lượt, hợp đồng vượt 10 trang, soạn thảo mới, nghiên cứu theo yêu cầu, hoặc công việc ngoài phạm vi), oBacker thông báo trước và thực hiện theo Biểu giá chuẩn hóa Master SKU Catalog sau khi Quý Khách chấp thuận.
+Phí Dịch Vụ được xác định theo Đơn Đặt Hàng; theo giờ, theo lượt rà soát, theo vụ việc hoặc theo phạm vi nghiên cứu. Đối với khách hàng đăng ký các gói đối tác định kỳ: gói Partner Growth được tích hợp miễn phí rà soát 02 hợp đồng thương mại/tháng (tối đa 10 trang), 02 lần thay đổi nội dung ĐKKD/năm, soạn thảo 06 văn bản nội bộ/năm; gói Partner Prime được tích hợp rà soát 05 hợp đồng thương mại/tháng (tối đa 10 trang), 04 lần thay đổi nội dung ĐKKD/năm, soạn thảo 12 văn bản nội bộ/năm. Khi nhu cầu vượt hạn mức trong gói (thêm giờ, thêm lượt, hợp đồng vượt 10 trang, soạn thảo mới, nghiên cứu theo yêu cầu, hoặc công việc ngoài phạm vi), oBacker thông báo trước và thực hiện theo biểu giá trong danh mục dịch vụ chuẩn hóa sau khi Quý Khách chấp thuận.
 
 ---
 
@@ -138,6 +140,6 @@ Phí Dịch Vụ được xác định theo Đơn Đặt Hàng; theo giờ, theo
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.2.1.2 | Bỏ vế chất lượng tư vấn gắn với chất lượng đầu vào ở Điều 8 |
+| 08/10/2026 | V3.0.0 | Cấm Nominee, bỏ nội dung oBacker Law và mã LIC-30, LIC-31. |

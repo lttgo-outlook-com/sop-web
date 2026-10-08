@@ -3,7 +3,8 @@ title: "OBACKER WALLET; EXPLANATION, HOW IT WORKS & TOP-UP TERMS"
 code: "TNC-07-EN"
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.0.1"
+version: "V1.1.0"
+release: "R.26.10.08.1"
 status: "đang áp dụng"
 author: "CEO"
 reviewer: "CEO"
@@ -22,7 +23,7 @@ tags:
 *Specific terms supplementing the Master Terms & Conditions of Service (Master T&C); oBacker Joint Stock Company*
 Tax code: 0402298185 · contact@obacker.com · https://obacker.com
 
-**Version:** R.1.0.1 (VI-EN) · **Updated:** 02/10/2026
+**Version:** V1.1.0 (VI-EN) · **Release:** R.26.10.08.1 · **Updated:** 08/10/2026
 
 ---
 
@@ -53,7 +54,7 @@ Tax code: 0402298185 · contact@obacker.com · https://obacker.com
 
 **6.** The Wallet balance is **non-refundable and non-transferable**, unless Vietnamese law provides otherwise or the Client and oBacker agree in writing.
 
-**7.** If the Wallet balance is insufficient to pay a fee that has fallen due, oBacker notifies the Client via the registered contact details. The Services may be suspended until the balance is topped up in full. oBacker is not responsible for any loss or damage arising from suspension of the Services due to an insufficient Wallet balance.
+**7.** If the Wallet balance is insufficient to pay a fee that has fallen due, oBacker notifies the Client via the registered contact details at least 03 Business Days in advance under Article 5.3 of the Master T&C. The Services may be suspended until the balance is topped up in full. oBacker is not responsible for any loss or damage arising from suspension of the Services due to an insufficient Wallet balance.
 
 **8.** The minimum top-up amount is **VND 1,000,000** (one million Vietnamese dong) per transaction. oBacker reserves the right to adjust the minimum and maximum top-up limits at its discretion, with notice to the Client before application.
 
@@ -71,4 +72,4 @@ Tax code: 0402298185 · contact@obacker.com · https://obacker.com
 
 | Date | Version | Description |
 | --- | --- | --- |
-| 02/10/2026 | R.1.0.1 | Added 'Wallet Top-up Terms' alias to the frontmatter so the Master T&C can link to it |
+| 08/10/2026 | V1.1.0 | Notice period set to at least 03 Business Days under Article 5.3. |

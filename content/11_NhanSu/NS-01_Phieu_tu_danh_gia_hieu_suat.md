@@ -4,7 +4,8 @@ code: "NS-01"
 type: "sop"
 folder: "11_NhanSu"
 level: "Phiếu thao tác"
-version: "R.5.0.1"
+version: "V5.0.2"
+release: "R.26.10.08.1"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -25,7 +26,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | NS-01 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.5.0.1, đang áp dụng |
+| Phiên bản | V5.0.2, đang áp dụng |
+| Phát hành | R.26.10.08.1 |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -76,9 +78,9 @@ Khi kết quả tự đánh giá khác số liệu đã duyệt, kết quả t�
 
 ## 2. Tự chấm cách đo trách nhiệm và phối hợp
 
-Cách đo trách nhiệm và phối hợp thuộc nhóm Kỷ luật tuân thủ và Tinh thần phối hợp. Mức chấm và mô tả hành vi của từng mức theo [[08_PL_A_Thang_cham_tieu_chi_chung|OBK-QCNS-08-PL-A]] mục 5.4. Năm mức: Xuất sắc; Vượt yêu cầu; Đạt; Cần cải thiện; Không đạt.
+Cách đo trách nhiệm và phối hợp thuộc nhóm Kỷ luật tuân thủ và Tinh thần phối hợp. Mức chấm và mô tả hành vi của từng mức theo [[08_PL_A_Thang_cham_tieu_chi_chung|OBK-QCNS-08-PL-A]] mục 5.4. Năm mức: Mức 1 đến Mức 5.
 
-Mức từ Vượt yêu cầu trở lên ghi ít nhất một bằng chứng cụ thể. Mức Xuất sắc chỉ được cấp khi có bằng chứng được quản lý trực tiếp xác nhận.
+Mức từ Mức 4 trở lên ghi ít nhất một bằng chứng cụ thể. Điều kiện cấp Mức 5 theo [[08_PL_A_Thang_cham_tieu_chi_chung|OBK-QCNS-08-PL-A]] mục 5.4.
 
 | Nhóm tiêu chí | Cách đo | Mức tự chấm | Diễn giải và bằng chứng trong kỳ |
 | --- | --- | --- | --- |
@@ -103,6 +105,6 @@ Mức từ Vượt yêu cầu trở lên ghi ít nhất một bằng chứng c�
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.5.0.1 | Bỏ câu mô tả số phần của phiếu và câu số liệu đã duyệt là căn cứ duy nhất |
+| 08/10/2026 | V5.0.2 | Tên mức tự chấm đổi thành Mức 1 đến Mức 5. |

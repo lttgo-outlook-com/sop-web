@@ -4,8 +4,9 @@ code: "OBK-SOP-PM"
 type: "sop"
 folder: "90_ThuVien"
 level: "Cấp 2, quy trình bộ phận"
-version: "R.2.0.1"
-status: "đang áp dụng"
+version: "V2.0.2"
+release: "R.26.10.08.1"
+status: "thư viện tham khảo"
 draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -27,7 +28,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-SOP-PM |
 | Cấp tài liệu | Cấp 2, SOP bộ phận |
-| Phiên bản | R.2.0.1, đang áp dụng |
+| Phiên bản | V2.0.2, thư viện tham khảo |
+| Phát hành | R.26.10.08.1 |
 | Ngày biên soạn | 04/10/2026 |
 | Mốc pháp luật áp dụng | Văn bản pháp luật có hiệu lực tại ngày 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -109,8 +111,6 @@ Cột SLA nội bộ oBacker ghi mốc theo hợp đồng giới thiệu khách 
 | PM-11 | Lưu trữ và xóa dữ liệu sau khi kết thúc | Hết thời gian hưởng hoa hồng của khách cuối cùng của đối tác | Sổ đăng ký giới thiệu của đối tác;<br>danh sách chứng từ phải lưu | Biên bản xóa, hủy dữ liệu không còn cần cho đối soát, trả hoa hồng sau chấm dứt, lưu trữ chứng từ kế toán và giải quyết tranh chấp | Theo Điều 12.6 bản mẫu | Không có | [[PL_PM_Dieu_kien_thuong_mai_chuan\|OBK-SOP-PM-PL1]] dòng 28 |
 
 
-Yêu cầu không khớp Job nào: xem [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 5.6.
-
 ### 2.2. Liên kết Job với bộ phận khác
 
 | Job gửi | Job nhận | Nội dung chuyển | Tài liệu chứa Job của bộ phận khác |
@@ -148,7 +148,7 @@ Sổ đăng ký giới thiệu được ghi nhận trên hệ thống. `PM` gi�
 
 ## 3. VAI TRÒ VÀ RACI
 
-Ký hiệu vai trò theo [[OBK-QCTC-02_Bang_tham_quyen|OBK-QCTC-02]]. `KTV` và `KTT` là vai trò nội bộ theo [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 3.1. `LEG` chỉ đơn vị Legal R&D và chỉ mang giá trị C hoặc I, theo [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 5.1.3.
+Ký hiệu vai trò theo [[OBK-QCTC-02_Bang_tham_quyen|OBK-QCTC-02]]. `KTV` và `KTT` là vai trò nội bộ theo [[OBK-QCTC-02_Bang_tham_quyen|OBK-QCTC-02]] mục 2. `LEG` chỉ đơn vị Legal R&D và chỉ mang giá trị C hoặc I, theo [[OBK-QCTC-02_Bang_tham_quyen|OBK-QCTC-02]] mục 2.
 
 | Job | `PM` | TP Thương mại | `CEO` | `TGĐ` | `AM` | `KTV`, `KTT` nội bộ | `LEG` |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -185,7 +185,7 @@ Ký hiệu vai trò theo [[OBK-QCTC-02_Bang_tham_quyen|OBK-QCTC-02]]. `KTV` và 
 | KS-PM-02 | Mỗi đăng ký có bằng chứng đồng ý của người liên hệ cho việc đối tác chuyển giao dữ liệu cá nhân của người đó cho oBacker, theo Điều 3.2.5 và Điều 12.4 bản mẫu CC-DN-76 CC-DN-79 | Trước khi xác nhận tại PM-03 | `PM` | Thư thiếu bằng chứng đồng ý chưa xác lập Ngày Được Giới Thiệu, theo [[PL_PM_Dieu_kien_thuong_mai_chuan\|OBK-SOP-PM-PL1]] dòng 6. Bản ghi giữ trạng thái chờ đủ nội dung |
 | KS-PM-03 | Thư từ chối, và thư chứng minh tiếp xúc trước sau Ghi Nhận Mặc Nhiên, nêu lý do và kèm bằng chứng có ghi ngày. Với lý do tiếp xúc trước, ngày của bằng chứng thuộc 24 tháng liền trước Ngày Được Giới Thiệu | Trước khi gửi thư tại PM-03 | `PM` | Lý do tiếp xúc trước chỉ được dùng khi có bằng chứng có ghi ngày thuộc 24 tháng đó, theo Điều 3.3.2, Điều 3.3.4 và Điều 3.5 bản mẫu |
 | KS-PM-04 | Kết quả rà soát giao dịch với người có liên quan tại `NB-29` đã có | Trước khi trình `TGĐ` ký tại PM-01 | `PM`;<br>`KTV` lập phiếu xác định người có liên quan và `KTT` ký, theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 12a.3 | Dừng trình ký. Đối tác thuộc diện người có liên quan thì đi theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] Điều 12a |
-| KS-PM-05 | Đối tác và mọi người nhận một phần hoa hồng từ đối tác ngoài nhóm người lao động, người quản lý hoặc người làm kế toán của khách được giới thiệu, theo Điều 7.1.1 bản mẫu CC-DN-74 | Trước khi trình ký tại PM-01 | `PM` | Tại PM-01: dừng trình ký.<br>Đối tác thuộc nhóm đó thì báo `CEO` trong ngày, theo [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 9 điểm 8; `CEO` có quyền chấm dứt ngay theo Điều 7.4 và Điều 11.4.1 bản mẫu |
+| KS-PM-05 | Đối tác và mọi người nhận một phần hoa hồng từ đối tác ngoài nhóm người lao động, người quản lý hoặc người làm kế toán của khách được giới thiệu, theo Điều 7.1.1 bản mẫu CC-DN-74 | Trước khi trình ký tại PM-01 | `PM` | Tại PM-01: dừng trình ký.<br>Đối tác thuộc nhóm đó thì báo `CEO` trong ngày, theo [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] điểm 8; `CEO` có quyền chấm dứt ngay theo Điều 7.4 và Điều 11.4.1 bản mẫu |
 | KS-PM-06 | Đối tác ngoài nhóm người lao động oBacker và người thân của người lao động oBacker, theo Điều 7.1.2 và Điều 7.1.3 bản mẫu | Trước khi trình ký tại PM-01 | `PM` | Dừng trình ký, theo [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] mục 23a.4 |
 | KS-PM-07 | Hợp đồng trình ký dùng đúng bản mẫu theo loại đối tác, ban hành kèm theo [[PL_PM_Dieu_kien_thuong_mai_chuan\|OBK-SOP-PM-PL1]] | Trước khi trình ký tại PM-01 và PM-10 | `PM` | Dừng trình ký. Điều khoản khác mẫu đi theo mục 1.5 |
 | KS-PM-08 | Báo cáo hoa hồng ghi đủ số hóa đơn, số tiền thực thu và ngày thu chỉ cho khách đã đồng ý cho oBacker gửi thông tin giao dịch cho bên đã giới thiệu, theo điều khoản đồng ý tại Điều 7.2 hợp đồng khung và Điều 6.1.2 bản mẫu | Trước khi gửi báo cáo tại PM-07 | `PM` | Với khách chưa đồng ý, dòng của khách đó chỉ ghi mã đăng ký và số Hoa Hồng tương ứng, theo Điều 6.1.2 bản mẫu, cho tới khi khách đồng ý |
@@ -272,6 +272,6 @@ Biểu mẫu dưới đây là view thao tác trên dữ liệu của sổ cái 
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.2.0.1 | Bỏ câu trùng điều kiện khác mẫu, câu lý do ở quy tắc đọc bảng và câu tự mô tả ở mục 2.2 |
+| 08/10/2026 | V2.0.2 | Đặt trạng thái thư viện tham khảo và sửa dẫn chiếu tới OBK-MSR trong 08_OBK-SOP-PM_Chuong_trinh_doi_tac_gioi_thieu_khach_hang. |

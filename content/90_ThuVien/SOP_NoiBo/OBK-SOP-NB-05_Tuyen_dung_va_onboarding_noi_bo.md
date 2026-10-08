@@ -4,8 +4,9 @@ code: "OBK-SOP-NB-05"
 type: "sop"
 folder: "90_ThuVien"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.2.0.1"
-status: "đang áp dụng"
+version: "V2.0.2"
+release: "R.26.10.08.1"
+status: "thư viện tham khảo"
 draft_date: "30/09/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -28,7 +29,8 @@ tags:
 | Mã tài liệu | OBK-SOP-NB-05 |
 | Tên tài liệu | Quy trình tuyển dụng và onboarding nội bộ |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ. Thi hành Bộ tài liệu quản trị nhân sự [[00_INDEX\|OBK-INDEX]] và Nội quy lao động [[Noi_quy_lao_dong\|OBK-NQLD]] |
-| Phiên bản | R.2.0.1, đang áp dụng |
+| Phiên bản | V2.0.2, thư viện tham khảo |
+| Phát hành | R.26.10.08.1 |
 | Ngày biên soạn | 30/09/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 27/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -105,7 +107,7 @@ Bảng tổng hợp; khi bảng và phần chữ khác nhau thì lấy phần ch
 | `KTV` nội bộ | Đăng ký mã số thuế thu nhập cá nhân mới (nếu người lao động chưa có); tiếp nhận thông tin số tài khoản ngân hàng chính chủ của người lao động để chi lương | Không chi lương vào tài khoản của người thứ ba |
 | Người lao động mới | Cung cấp đầy đủ, trung thực hồ sơ nhân thân; ký Thỏa thuận bảo mật thông tin và Bản cam kết tuân thủ Nội quy lao động ngay trong Ngày 1; tham gia đào tạo hội nhập; chấp hành quy chế công ty | Không được truy cập hệ thống khi chưa hoàn tất thủ tục cam kết |
 
-Khi người có thẩm quyền phê duyệt tuyển dụng vắng mặt, thẩm quyền chuyển theo quy tắc ủy quyền tại [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 8.1.
+Khi người có thẩm quyền phê duyệt tuyển dụng vắng mặt, thẩm quyền chuyển theo quy tắc ủy quyền.
 
 ---
 
@@ -342,6 +344,6 @@ Biểu mẫu là view thao tác trên dữ liệu của sổ, không phải bư�
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.2.0.1 | Xóa mục ví dụ, mục trường hợp phát sinh, các dòng hậu quả và khẩu hiệu bảo mật; viết lại mục 1 |
+| 08/10/2026 | V2.0.2 | Đặt trạng thái thư viện tham khảo và sửa dẫn chiếu tới OBK-MSR trong OBK-SOP-NB-05_Tuyen_dung_va_onboarding_noi_bo. |

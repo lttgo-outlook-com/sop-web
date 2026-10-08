@@ -4,8 +4,9 @@ code: "OBK-SOP-02"
 type: "sop"
 folder: "90_ThuVien"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.2.0.1"
-status: "đang áp dụng"
+version: "V2.0.2"
+release: "R.26.10.08.1"
+status: "thư viện tham khảo"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -30,7 +31,8 @@ tags:
 | Mã tài liệu | OBK-SOP-02 |
 | Tên chương | Mô hình dịch vụ, phân vai trò và cam kết chất lượng |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.2.0.1, đang áp dụng |
+| Phiên bản | V2.0.2, thư viện tham khảo |
+| Phát hành | R.26.10.08.1 |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -469,7 +471,7 @@ Mọi mốc có nội dung nói với khách thuộc AM.
 | 11 | Nộp hồ sơ khai thuế sau khi khách xác nhận | TL-KT | Trong 01 ngày làm việc, và luôn trước mốc nội bộ ngày cứng tại mục 6.7 | Giấy xác nhận nộp trên `[CỔNG THUẾ ĐIỆN TỬ]` | Báo cáo COO ngay trong ngày |
 | 12 | Gửi thông báo số tiền thuế phải nộp và hạn nộp cho khách | AM | Trong 01 ngày làm việc kể từ khi nộp tờ khai thành công | Dấu thời gian thông báo | Ghi nhận |
 | 13 | Trả lời câu hỏi nghiệp vụ đơn giản, có căn cứ đã đối chiếu bản gốc sẵn trong handbook | TL-KT trả lời, AM truyền đạt | Không đặt ở đây. Theo Job KT-22, tra nhanh tại Phụ lục G mục 10.2 dòng S1 | Dấu thời gian trả lời | Ghi nhận |
-| 14 | Trả lời câu hỏi nghiệp vụ phức tạp, cần tra cứu | TL-KT trả lời, AM hẹn mốc với khách | Không đặt ở đây. Theo Phụ lục G mục 10.2 dòng S2 cho T3, và [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 7.2.4 cho T2 | Dấu thời gian | Ghi nhận vào chỉ số cụm |
+| 14 | Trả lời câu hỏi nghiệp vụ phức tạp, cần tra cứu | TL-KT trả lời, AM hẹn mốc với khách | Không đặt ở đây. Theo Phụ lục G mục 10.2 dòng S2 cho T3, và [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 7.2a cho T2 | Dấu thời gian | Ghi nhận vào chỉ số cụm |
 | 15 | Trả lời câu hỏi cần đối chiếu bản gốc văn bản, gắn chưa đối chiếu bản gốc hoặc chưa xác minh được | TL-KT, sau khi đối chiếu bản gốc | Không đặt ở đây. Theo Phụ lục G mục 10.2 dòng S2 và S3 | Dấu thời gian | Báo cáo COO |
 | 16 | Gửi bảng lương cho khách xác nhận | AM gửi, TL-KT đã chốt | Chậm nhất ngày làm việc thứ 05 của tháng sau, sau khi nhận đủ dữ liệu chấm công | Dấu thời gian | Ghi nhận |
 | 17 | Gửi bảng đối chiếu công nợ, áp dụng G2 và G3 | AM | Trong 10 ngày làm việc đầu của tháng sau | Dấu thời gian | Ghi nhận |
@@ -897,6 +899,6 @@ Khi chạm bất kỳ dấu hiệu nào, COO đưa vấn đề lên CEO trong k�
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.2.0.1 | Bỏ mục ánh xạ vai trò cũ, mục giải thích làm trước hạn, phần Phụ lục 02-C trùng phần thân, mục liên kết chương và câu kể lợi ích |
+| 08/10/2026 | V2.0.2 | Đặt trạng thái thư viện tham khảo và sửa dẫn chiếu tới OBK-MSR trong 02_Mo_hinh_dich_vu_va_phan_vai. |

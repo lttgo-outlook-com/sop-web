@@ -4,7 +4,8 @@ code: "NS-08"
 type: "sop"
 folder: "11_NhanSu"
 level: "Phiếu thao tác"
-version: "R.1.1.3"
+version: "V1.1.3"
+release: "R.26.10.08.1"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -27,7 +28,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | NS-08 |
 | Cấp tài liệu | Phiếu thao tác |
-| Phiên bản | R.1.1.3, đang áp dụng |
+| Phiên bản | V1.1.3, đang áp dụng |
+| Phát hành | R.26.10.08.1 |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -152,6 +154,6 @@ Biên bản vi phạm kỷ luật lao động là văn bản khởi đầu bắt
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.1.1.3 | Bỏ đoạn mục đích ở trường hợp áp dụng và các ý lợi ích ở mục đích sử dụng |
+| 08/10/2026 | V1.1.3 | Bỏ đoạn mục đích ở trường hợp áp dụng và các ý lợi ích ở mục đích sử dụng |

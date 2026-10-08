@@ -4,7 +4,8 @@ code: "OBK-NQLD"
 type: "sop"
 folder: "11_NhanSu"
 level: "Cấp 1, văn bản KHUNG toàn công ty"
-version: "R.1.0.3"
+version: "V1.0.3"
+release: "R.26.10.08.1"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -29,7 +30,8 @@ tags:
 | Mã tài liệu | OBK-NQLD |
 | Tên tài liệu | Nội quy lao động của Công ty cổ phần oBacker |
 | Cấp tài liệu | Cấp 1, văn bản KHUNG toàn công ty |
-| Phiên bản | R.1.0.3, đang áp dụng |
+| Phiên bản | V1.0.3, đang áp dụng |
+| Phát hành | R.26.10.08.1 |
 | Văn bản ban hành | Quyết định số 01/2026/QĐ-NQLĐ ngày 03/09/2026 của Tổng giám đốc |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 03/09/2026 |
@@ -881,6 +883,6 @@ Tổng giám đốc CÔNG TY CỔ PHẦN OBACKER ban hành Nội Quy Lao Động
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.1.0.3 | Bỏ dòng chỉ chỗ đặt căn cứ pháp luật trong cảnh báo đầu tài liệu; nguyên văn nội quy giữ nguyên |
+| 08/10/2026 | V1.0.3 | Bỏ dòng chỉ chỗ đặt căn cứ pháp luật trong cảnh báo đầu tài liệu; nguyên văn nội quy giữ nguyên |

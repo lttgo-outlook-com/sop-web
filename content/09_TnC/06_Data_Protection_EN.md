@@ -5,7 +5,8 @@ aliases:
   - TNC-06-EN
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.0.0"
+version: "V1.1.0"
+release: "R.26.10.08.1"
 status: "đang áp dụng"
 author: "CEO"
 reviewer: "CEO"
@@ -20,7 +21,7 @@ tags:
 ### Including a dedicated section on Sensitive Personal Data
 
 **Applies to:** oBacker Joint Stock Company
-**Version:** R.1.0.0 (VI-EN) · **Issue date:** 21 September 2026 · **Effective Date:** 21 September 2026
+**Version:** V1.1.0 (VI-EN) · **Release:** R.26.10.08.1 · **Issue date:** 21 September 2026 · **Effective Date:** 21 September 2026
 
 ---
 
@@ -28,7 +29,7 @@ tags:
 
 ## Article 1. Introduction and scope
 
-**1.1. Who oBacker is.** **oBacker Joint Stock Company** (hereafter "oBacker" or "we") provides back-office services to SMEs and FDI enterprises in Vietnam: accounting, tax, HR, payroll, licensing, and corporate records administration. **Legal advisory/legal services** are provided within the framework of a partnership with an **independent partner law firm** (expected to be oBacker Law; to be established). The processing of personal data in legal files held by the partner law firm is additionally governed by the Law on Lawyers and the professional ethics applicable to that organisation.
+**1.1. Who oBacker is.** **oBacker Joint Stock Company** (hereafter "oBacker" or "we") provides back-office services to SMEs and FDI enterprises in Vietnam: accounting, tax, HR, payroll, licensing, and corporate records administration. **Legal advisory/legal services** are provided within the framework of a partnership with an **independent partner law firm**. The processing of personal data in legal files held by the partner law firm is additionally governed by the Law on Lawyers and the professional ethics applicable to that organisation.
 
 In this Policy, "you" or "the Data Subject" means an individual whose personal data is processed by oBacker, which may include: representatives and contact persons of corporate clients; employees of clients (where oBacker processes HR, payroll, PIT, or social insurance records on the client's behalf); shareholders, capital-contributing members, and legal representatives of clients; users visiting obacker.com; applicants for positions at oBacker; and other related individuals.
 
@@ -76,7 +77,6 @@ This Policy is built on the basis of Vietnamese law, including but not limited t
 | Legal representative | Nguyen Thi Thu Trang, Chairwoman of the Board of Directors |
 | Personal data protection focal point (DPO) | Nguyen Thi Thu Trang |
 | Personal data email | privacy@obacker.com |
-| Telephone | [___] |
 | Website | obacker.com |
 
 **4.2. oBacker's role.** Depending on the situation, oBacker may act in one of the following roles:
@@ -188,7 +188,7 @@ oBacker's services are aimed at enterprises and adult individuals, and are not d
 
 ## Article 16. Cookies and similar technologies on obacker.com
 
-The website uses cookies to remember preferences, analyse traffic, and improve the experience. You can manage or refuse cookies through your browser settings; some features may not work fully if essential cookies are disabled. Essential cookies do not require consent. Analytics, advertising, and retargeting cookies (Google Analytics, Meta Pixel, heatmaps, etc.) require separate consent, obtained through the Cookie Notice and the Cookie Preference Center. oBacker currently [does/does not] use third-party web analytics tools; details are updated at obacker.com/cookies.
+The website uses cookies to remember preferences, analyse traffic, and improve the experience. You can manage or refuse cookies through your browser settings; some features may not work fully if essential cookies are disabled. Essential cookies do not require consent. Analytics, advertising, and retargeting cookies (Google Analytics, Meta Pixel, heatmaps, etc.) require separate consent, obtained through the Cookie Notice and the Cookie Preference Center. Details are updated at obacker.com/cookies.
 
 ## Article 17. Personal data breach notification
 
@@ -208,7 +208,6 @@ oBacker may update this Policy from time to time; the updated version is publish
 |---|---|
 | Responsible unit / DPO | Legal and Personal Data Protection Department; oBacker |
 | Email | privacy@obacker.com |
-| Telephone | [___] |
 | Address for requests | Floor 2, 06 Tran Phu Street, Hai Chau Ward, Da Nang, Vietnam |
 | Website | obacker.com |
 
@@ -231,7 +230,7 @@ Data linked to privacy which, if violated, directly affects an individual's lawf
 | Bank accounts, salary, bonuses, allowances, deductions (PIT, social insurance, health insurance, unemployment insurance, trade union, etc.) | Payroll processing, PIT declaration, social insurance/health insurance/unemployment insurance contributions, salary payment for clients' employees | Provided by the client;<br>by the employee where verification is needed |
 | Capital and share ownership ratios, loan-to-share conversion files, capital transfers | Shareholder structure advisory, enterprise registration, M&A, investment licensing | Provided by the client through corporate records |
 | Health status (limited) in sick-leave, maternity, and social insurance assessment files | Handling social insurance and health insurance benefits for clients' employees | Provided by the client / employee |
-| Biometric data (electronic signatures, USB Token, etc.) | Signing legal documents under authorisation | Directly from the signatory |
+| Biometric data (electronic signatures with a biometric element) | Signing legal documents under authorisation | Directly from the signatory |
 | Legal history (if any) | Legal advisory, FDI/conditional-licensing risk assessment | Client;<br>state authorities |
 | Location data (limited, where applicable) | Where necessary for a specific service you have consented to | Only where you actively grant permission |
 
@@ -292,7 +291,7 @@ Because oBacker uses Google Workspace, sensitive data may be stored/processed at
 
 ## Article 29. Effect
 
-This Policy takes effect from 21 September 2026. Version R.1.0.0 (consolidated) supersedes all previous versions (if any), including the separate general and sensitive personal-data-protection policies.
+This Policy takes effect from 21 September 2026. Version V1.0.0 (consolidated) supersedes all previous versions (if any), including the separate general and sensitive personal-data-protection policies.
 
 Da Nang, 21 September 2026
 **FOR AND ON BEHALF OF OBACKER JOINT STOCK COMPANY** (Signature, full name, and seal)
@@ -303,4 +302,4 @@ Da Nang, 21 September 2026
 
 | Date | Version | Description |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Formal release of the company-wide standard version R.1.0.0 |
+| 08/10/2026 | V1.1.0 | Synced with the Vietnamese version: biometric signature line and log date. |

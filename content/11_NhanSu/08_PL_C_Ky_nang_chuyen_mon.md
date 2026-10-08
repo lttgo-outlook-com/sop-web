@@ -4,7 +4,8 @@ code: "OBK-QCNS-08-PL-C"
 type: "sop"
 folder: "11_NhanSu"
 level: "Phụ lục"
-version: "R.2.0.3"
+version: "V2.1.0"
+release: "R.26.10.08.1"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -28,7 +29,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-QCNS-08-PL-C |
 | Cấp tài liệu | Phụ lục |
-| Phiên bản | R.2.0.3, đang áp dụng |
+| Phiên bản | V2.1.0, đang áp dụng |
+| Phát hành | R.26.10.08.1 |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 23/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -64,11 +66,11 @@ tags:
 
 ---
 
-## 3. QUY TẮC QUY ĐỔI RA NHÃN XẾP LOẠI
+## 3. ĐIỂM KỸ NĂNG CHUYÊN MÔN
 
 Điểm kỹ năng chuyên môn bằng tổng của bậc đạt được nhân trọng số kỹ năng, chia tổng của bậc yêu cầu tại cấp đang xét nhân trọng số kỹ năng, nhân 100%.
 
-Kết quả đọc theo thang nhãn xếp loại bốn mức tại [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] mục 1.1.
+Điểm kỹ năng chuyên môn là thang độc lập, không quy đổi ra nhãn xếp loại cả kỳ tại [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] mục 1.1.
 
 Quy tắc đi kèm:
 
@@ -83,12 +85,11 @@ Quy tắc đi kèm:
 | Nội dung | Loại | Nơi đánh giá |
 | --- | --- | --- |
 | Tỷ lệ đầu ra được duyệt ngay lần đầu | Chỉ số đo được | Cách đo RFT, nhóm Chất lượng và Tiến độ công việc hoàn thành tại [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] mục 2.1 |
-| Tiền phạt phát sinh do lỗi chủ quan, chỉ số `CS-03` | Chỉ số đo được | Tiêu chí TC-KT-04 tại bảng 4 [[08_PL_E_Phieu_vi_tri\|OBK-QCNS-08-PL-E]], vị trí B;<br>tiêu chí TC-LD-02 tại bảng 4 OBK-QCNS-08-PL-E, vị trí H |
+| Tiền phạt phát sinh do lỗi chủ quan, chỉ số `CS-03` tại [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] mục 11.2 | Chỉ số đo được | Tiêu chí TC-KT-04 tại bảng 4 [[08_PL_E_Phieu_vi_tri\|OBK-QCNS-08-PL-E]], vị trí B;<br>tiêu chí TC-LD-02 tại bảng 4 OBK-QCNS-08-PL-E, vị trí H |
 | Tỷ lệ nộp hồ sơ đúng thời hạn | Chỉ số đo được | Cách đo OTD, nhóm Chất lượng và Tiến độ công việc hoàn thành tại [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] mục 2.1 |
 | Tỷ lệ đạt khi kiểm tra việc tuân thủ quy trình | Chỉ số đo được | Cách đo vi phạm quy trình và bảng kiểm, nhóm Kỷ luật tuân thủ và Tinh thần phối hợp tại [[08_PL_A_Thang_cham_tieu_chi_chung\|OBK-QCNS-08-PL-A]] mục 5.3 |
 | Số lần vi phạm quy trình trong một kỳ đánh giá | Chỉ số đo được | Cách đo vi phạm quy trình và bảng kiểm, nhóm Kỷ luật tuân thủ và Tinh thần phối hợp tại [[08_PL_A_Thang_cham_tieu_chi_chung\|OBK-QCNS-08-PL-A]] mục 5.3 |
 | Điểm hài lòng của khách hàng | Chỉ số đo được, do khách hàng trả lời | Tiêu chí TC-LD-01 tại bảng 4 OBK-QCNS-08-PL-E, vị trí H |
-| Điểm đánh giá chéo trung bình | Cơ chế chấm | Không dùng. Đánh giá chéo đã bãi bỏ theo [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] mục 3.2 |
 | Số lỗi cùng loại lặp lại | Chỉ số đo được | Không dùng |
 | Số đề xuất cải tiến được chấp thuận | Chỉ số đo được | Không dùng |
 | Số khách đang phụ trách | Định mức khối lượng | Nhóm Khối lượng công việc đảm nhiệm tại [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] mục 2.2 |
@@ -99,7 +100,8 @@ Quy tắc đi kèm:
 
 ## 5. BẢNG KỸ NĂNG THEO MẢNG
 
-Bậc yêu cầu tại mọi bảng dưới đây ghi theo thang bảy bậc tại mục 2.
+Bậc yêu cầu tại mọi bảng dưới đây ghi theo thang bảy bậc tại mục 2. Tài liệu OBK-SOP ở cột Căn cứ thuộc thư viện tham khảo, dùng để tham khảo.
+
 ### 5.1. Mảng Lao động và Tiền lương
 
 Bậc yêu cầu của cấp P1 và P2 áp cho chuyên viên `CV-LD`. Bậc yêu cầu của cấp M1 áp cho `TL-LD`.
@@ -119,7 +121,7 @@ Trọng số và bậc yêu cầu là con số oBacker tự đặt. Bảng chưa
 
 ### 5.2. Mảng Công nghệ và Sản phẩm, vị trí Product Owner
 
-Bảng dưới đây áp cho Product Owner `CV-CN`, vị trí chuyên môn duy nhất của Bộ phận Công nghệ và Sản phẩm theo [[OBK-QCTC-02_Bang_tham_quyen|OBK-QCTC-02]] Điều 6, ở cấp P1 đến P4. Bậc yêu cầu của cấp M1 ghi cho Tech Lead `TL-CN`.
+Bảng dưới đây áp cho Product Owner `CV-CN`, vị trí chuyên môn duy nhất của Bộ phận Công nghệ và Sản phẩm theo [[OBK-QCTC-02_Bang_tham_quyen|OBK-QCTC-02]] mục 2, ở cấp P1 đến P4. Bậc yêu cầu của cấp M1 ghi cho Tech Lead `TL-CN`.
 
 | Kỹ năng | Trọng số | P1 | P2 | P4 | M1 | Bắt buộc |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -167,8 +169,8 @@ Căn cứ: [[03_OBK-SOP-KT_Ke_toan_va_thue|OBK-SOP-KT]] và Handbook Kế toán.
 | Hạch toán nghiệp vụ kế toán | 0,0714 | 2 | 3 | 4 | 6 | 5 | Có | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] mục 2 Job KT-03; Handbook Kế toán [[05_Quy_trinh_ke_toan_thang\|OBK-HB-05]]; mục 4 `KS-KT-09` |
 | Khóa sổ và đối chiếu kỳ | 0,0714 | 2 | 3 | 4 | 6 | 5 | Có | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] mục 2 Job KT-04, KT-06, KT-12; Handbook Kế toán [[06_Khoa_so_va_doi_chieu\|OBK-HB-06]]; mục 4 `KS-KT-02`, `KS-KT-03` |
 | Lập báo cáo tài chính năm | 0,0714 | 2 | 3 | 4 | 6 | 5 | Có | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] mục 2 Job KT-15; Handbook Kế toán [[07_Bao_cao_tai_chinh_nam\|OBK-HB-07]] |
-| Kê khai nghĩa vụ thuế định kỳ, gồm GTGT, tạm nộp TNDN, khấu trừ TNCN và hóa đơn điện tử | 0,0714 | 2 | 3 | 4 | 6 | 5 | Có | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] mục 2 Job KT-07 tới KT-11; Handbook Kế toán [[09_Thue_GTGT\|OBK-HB-09]], [[10_Thue_TNDN\|OBK-HB-10]], [[11_Thue_TNCN\|OBK-HB-11]], [[12_Hoa_don_dien_tu\|OBK-HB-12]], [[13_Lich_tuan_thu_va_quy_trinh_khai_nop\|OBK-HB-13]]; mục 4 `KS-KT-05` |
-| Quyết toán thuế năm | 0,0714 | 2 | 3 | 4 | 6 | 5 | Có | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] mục 2 Job KT-13, KT-14, KT-16, KT-17; Handbook Kế toán [[14_Quyet_toan_thue_nam\|OBK-SOP-14]] |
+| Kê khai nghĩa vụ thuế định kỳ, gồm GTGT, tạm nộp TNDN và hóa đơn điện tử | 0,0714 | 2 | 3 | 4 | 6 | 5 | Có | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] mục 2 Job KT-07, KT-08, KT-10, KT-11; Handbook Kế toán [[09_Thue_GTGT\|OBK-HB-09]], [[10_Thue_TNDN\|OBK-HB-10]], [[12_Hoa_don_dien_tu\|OBK-HB-12]], [[13_Lich_tuan_thu_va_quy_trinh_khai_nop\|OBK-HB-13]]; mục 4 `KS-KT-05` |
+| Quyết toán thuế năm | 0,0714 | 2 | 3 | 4 | 6 | 5 | Có | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] mục 2 Job KT-13, KT-14, KT-16; Handbook Kế toán [[14_Quyet_toan_thue_nam\|OBK-SOP-14]] |
 | Xử lý sai sót và khai bổ sung | 0,0714 | 2 | 3 | 4 | 6 | 5 | Có | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] mục 2 Job KT-19; Handbook Kế toán [[15_Xu_ly_sai_sot_va_khai_bo_sung\|OBK-SOP-15]] |
 | Giải trình và làm việc với cơ quan thuế | 0,0714 | 2 | 3 | 4 | 6 | 5 | Có | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] mục 2 Job KT-20, KT-21; Handbook Kế toán [[16_Thanh_tra_kiem_tra_thue\|OBK-SOP-16]], [[17_Khung_xu_phat_va_phong_ngua\|OBK-SOP-17]] |
 | Kiểm soát chất lượng sổ sách và hồ sơ thuế | 0,0714 | 2 | 3 | 4 | 6 | 5 | Có | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] mục 4 `KS-KT-01` tới `KS-KT-08`, `KS-KT-10`; Handbook Kế toán [[01_Nguyen_tac_hanh_nghe\|OBK-SOP-01]], [[18_Kiem_soat_chat_luong\|OBK-SOP-18]] |
@@ -184,18 +186,18 @@ Căn cứ: [[06_OBK-SOP-LS_Dich_vu_phap_ly|OBK-SOP-LS]]. Bậc yêu cầu của 
 | Kỹ năng | Trọng số | P1 | P2 | P3 | P4 | M1 | Bắt buộc | Căn cứ |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Soạn thảo và rà soát hợp đồng, phụ lục, biên bản sửa đổi và chấm dứt hợp đồng cho khách | 0,1112 | 1 | 2 | 4 | 6 | 5 | Có | [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] Job LS-03, LS-04, LS-05, LS-16 |
-| Lập thư tư vấn, bản ghi nhớ pháp lý và trả lời câu hỏi tư vấn cho khách | 0,1111 | 1 | 2 | 4 | 6 | 5 | Có | [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] Job LS-06 tới LS-09; [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] NT-1 |
+| Lập thư tư vấn, bản ghi nhớ pháp lý và trả lời câu hỏi tư vấn cho khách | 0,1111 | 1 | 2 | 4 | 6 | 5 | Có | [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] Job LS-06 tới LS-09; NT-1 tại [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] mục 11.1 |
 | Nghiên cứu chuyên đề, rà soát tuân thủ doanh nghiệp và rà soát pháp lý phục vụ giao dịch | 0,1111 | 1 | 2 | 4 | 6 | 5 | Có | [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] Job LS-10, LS-11, LS-12 |
 | Soạn điều lệ, nội quy lao động, quy chế tài chính và bộ tài liệu quản trị nội bộ cho khách | 0,1111 | 1 | 2 | 4 | 6 | 5 | Có | [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] Job LS-13, LS-14, LS-15 |
 | Phân loại yêu cầu theo ranh giới nghiệp vụ ba lớp và chọn mức độ phức tạp của vụ việc | 0,1111 | 2 | 3 | 4 | 5 | 5 | Có | [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] mục 1.4, mục 2.1, Job LS-01, `KS-LS-01` |
-| Tra cứu và đối chiếu căn cứ pháp luật với bản gốc trước khi kết luận | 0,1111 | 2 | 3 | 4 | 6 | 5 | Có | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] NT-1; [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] `KS-LS-03` |
+| Tra cứu và đối chiếu căn cứ pháp luật với bản gốc trước khi kết luận | 0,1111 | 2 | 3 | 4 | 6 | 5 | Có | NT-1 tại [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] mục 11.1; [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] `KS-LS-03` |
 | Kiểm soát chất lượng đầu ra pháp lý theo hai lớp soát | 0,1111 | 1 | 2 | 4 | 6 | 5 | Có | [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] mục 3.1, `KS-LS-07` |
 | Điều phối và soát xét sản phẩm của luật sư hoặc đối tác thuê ngoài | 0,1111 | 1 | 2 | 3 | 5 | 4 | Không | [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] Job LS-18 |
 | Hỗ trợ khách làm việc với cơ quan nhà nước trong một vụ việc pháp lý | 0,1111 | 1 | 2 | 3 | 5 | 4 | Không | [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] Job LS-17 |
 
 ### 5.6. Mảng Nghiên cứu pháp lý
 
-Căn cứ: [[07_OBK-SOP-RD_Nghien_cuu_phap_ly|OBK-SOP-RD]]. Bộ phận Nghiên cứu và Phát triển pháp lý thuộc nhánh `CEO` theo [[OBK-QCTC-02_Bang_tham_quyen|OBK-QCTC-02]] Điều 6. Bậc yêu cầu của cấp P1 tới P4 áp cho Paralegal `CV-RD`. Bậc yêu cầu của cấp M1 áp cho `TL-RD`. Cấp áp dụng của hai vai trò ghi tại [[02_Quy_che_tien_luong_va_tien_thuong_noi_bo|OBK-QCNS-02]].
+Căn cứ: [[07_OBK-SOP-RD_Nghien_cuu_phap_ly|OBK-SOP-RD]]. Bộ phận Nghiên cứu và Phát triển pháp lý thuộc nhánh `CEO` theo [[OBK-QCTC-02_Bang_tham_quyen|OBK-QCTC-02]] mục 2. Bậc yêu cầu của cấp P1 tới P4 áp cho Paralegal `CV-RD`. Bậc yêu cầu của cấp M1 áp cho `TL-RD`. Cấp áp dụng của hai vai trò ghi tại [[02_Quy_che_tien_luong_va_tien_thuong_noi_bo|OBK-QCNS-02]].
 
 | Kỹ năng | Trọng số | P1 | P2 | P3 | P4 | M1 | Bắt buộc | Căn cứ |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -204,7 +206,7 @@ Căn cứ: [[07_OBK-SOP-RD_Nghien_cuu_phap_ly|OBK-SOP-RD]]. Bộ phận Nghiên 
 | Họp thống nhất cách hiểu với bộ phận nghiệp vụ, bàn giao yêu cầu sửa và theo dõi tới khi đóng | 0,1000 | 2 | chưa có | chưa có | chưa có | 5 | Có | [[07_OBK-SOP-RD_Nghien_cuu_phap_ly\|OBK-SOP-RD]] Job RD-07, RD-08 |
 | Cập nhật sổ căn cứ và bảng tác động ngược | 0,1000 | 2 | chưa có | chưa có | chưa có | 5 | Có | [[07_OBK-SOP-RD_Nghien_cuu_phap_ly\|OBK-SOP-RD]] Job RD-06, RD-13; `KS-RD-02` |
 | Cấp cơ sở pháp lý cho nghiệp vụ chưa có chuẩn và trả lời câu hỏi bộ phận không tra được | 0,1000 | 2 | chưa có | chưa có | chưa có | 6 | Có | [[07_OBK-SOP-RD_Nghien_cuu_phap_ly\|OBK-SOP-RD]] Job RD-09, RD-10, RD-12; `KS-RD-05` |
-| Đặt kết luận pháp lý dùng làm chuẩn nội bộ oBacker | 0,1000 | 1 | chưa có | chưa có | chưa có | 7 | Có | [[07_OBK-SOP-RD_Nghien_cuu_phap_ly\|OBK-SOP-RD]] Job RD-11; [[OBK-QCTC-02_Bang_tham_quyen\|OBK-QCTC-02]] mục 5, ký hiệu `TL-RD` |
+| Đặt kết luận pháp lý dùng làm chuẩn nội bộ oBacker | 0,1000 | 1 | chưa có | chưa có | chưa có | 7 | Có | [[07_OBK-SOP-RD_Nghien_cuu_phap_ly\|OBK-SOP-RD]] Job RD-11; [[OBK-QCTC-02_Bang_tham_quyen\|OBK-QCTC-02]] mục 2, ký hiệu `TL-RD` |
 | Rà soát định kỳ hiệu lực sổ căn cứ và giả thiết pháp lý | 0,1000 | 2 | chưa có | chưa có | chưa có | 6 | Có | [[07_OBK-SOP-RD_Nghien_cuu_phap_ly\|OBK-SOP-RD]] Job RD-14, RD-15 |
 | Soạn, cập nhật chuẩn nghiệp vụ và soát nội dung pháp lý trước khi phát hành hoặc công bố | 0,1000 | 1 | chưa có | chưa có | chưa có | 6 | Có | [[07_OBK-SOP-RD_Nghien_cuu_phap_ly\|OBK-SOP-RD]] Job RD-16, RD-17, RD-19 |
 | Soát bộ hợp đồng dịch vụ và bộ điều khoản của oBacker | 0,1000 | 1 | chưa có | chưa có | chưa có | 5 | Không | [[07_OBK-SOP-RD_Nghien_cuu_phap_ly\|OBK-SOP-RD]] Job RD-18 |
@@ -216,6 +218,6 @@ Bảng chưa có bậc yêu cầu của cấp P2, P3 và P4.
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.2.0.3 | Bỏ câu tự mô tả, đoạn giải thích khái niệm ở mục 1, câu về nhãn thang bảy bậc và câu tổng trọng số |
+| 08/10/2026 | V2.1.0 | Bỏ quy đổi điểm kỹ năng ra nhãn, bỏ đánh giá chéo, bỏ kỹ năng thuế TNCN khỏi mảng Kế toán. |

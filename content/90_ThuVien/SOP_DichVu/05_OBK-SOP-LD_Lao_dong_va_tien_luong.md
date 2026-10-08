@@ -4,8 +4,9 @@ code: "OBK-SOP-LD"
 type: "sop"
 folder: "90_ThuVien"
 level: "Cấp 2, quy trình bộ phận"
-version: "R.4.0.1"
-status: "đang áp dụng"
+version: "V4.0.2"
+release: "R.26.10.08.1"
+status: "thư viện tham khảo"
 draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -27,7 +28,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-SOP-LD |
 | Cấp tài liệu | Cấp 2, SOP bộ phận |
-| Phiên bản | R.4.0.1, đang áp dụng |
+| Phiên bản | V4.0.2, thư viện tham khảo |
+| Phát hành | R.26.10.08.1 |
 | Ngày biên soạn | 04/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -65,8 +67,8 @@ tags:
 | Giấy phép lao động, thị thực, thẻ tạm trú cho người nước ngoài | Licensing |
 | Hạch toán chi phí lương vào sổ sách;<br>khấu trừ và kê khai thuế TNCN theo kỳ | Kế toán, TL-KT chốt |
 | Tranh chấp lao động của khách phải lập luận pháp lý hoặc phải ra văn bản có ký;<br>soạn hoặc rà hợp đồng lao động bán theo vụ việc | Bộ phận Dịch vụ pháp lý, xem [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] |
-| Nghiệp vụ chưa có chuẩn;<br>kết luận dùng cho mọi khách về sau;<br>văn bản pháp luật mới | Legal R&D, xem [[07_OBK-SOP-RD_Nghien_cuu_phap_ly\|OBK-SOP-RD]]. Quy tắc phân ba lớp tại [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 5.5 |
-| Thanh tra lao động của khách | VẪN THUỘC bộ phận này. `TL-LD` chủ trì vì hồ sơ nằm ở đây, Bộ phận Dịch vụ pháp lý tham vấn về thủ tục và thời hiệu.<br>Quy tắc phân ba lớp tại [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 5.5 |
+| Nghiệp vụ chưa có chuẩn;<br>kết luận dùng cho mọi khách về sau;<br>văn bản pháp luật mới | Legal R&D, xem [[07_OBK-SOP-RD_Nghien_cuu_phap_ly\|OBK-SOP-RD]] |
+| Thanh tra lao động của khách | VẪN THUỘC bộ phận này. `TL-LD` chủ trì vì hồ sơ nằm ở đây, Bộ phận Dịch vụ pháp lý tham vấn về thủ tục và thời hiệu. |
 | Đàm phán phạm vi, phí, gia hạn, khiếu nại | AM |
 | Sự cố hệ thống và công cụ tính lương | Tech |
 
@@ -83,14 +85,14 @@ tags:
 
 | Mã Job | Tên Job | Nguồn phát sinh | Đầu vào bắt buộc | Đầu ra | SLA nội bộ oBacker | Thời hạn theo pháp luật | Căn cứ |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| LD-01 | Trả lời câu hỏi về quy định lao động | Khách hỏi qua AM | Câu hỏi đã ghi trên hệ thống | Câu trả lời có mã căn cứ đã đối chiếu bản gốc | LD-01 không đi qua chuỗi T2.<br>Câu hỏi đã có căn cứ sẵn đã đối chiếu bản gốc trong `PL_1` thì bộ phận trả lời thẳng AM trong 02 giờ làm việc, không cấp mốc ước lượng.<br>Câu hỏi phải tra bản gốc thì đi đúng chuỗi: bộ phận cấp mốc ước lượng cho AM trong 02 giờ làm việc theo [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 7.4, AM cam kết T2 với khách trong 04 giờ làm việc, và T3 là 02 ngày làm việc.<br>NHÁNH KÉO DÀI, ba điều kiện đủ theo [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 7.4a: điều kiện vào nhánh là bộ phận đã tra mà không kết luận được; mốc của nhánh là mốc của Job RD-10; và AM PHẢI cam kết lại T2 với khách trong 04 giờ làm việc kể từ khi mở Job RD-10.<br>Chạm nội dung chưa xác minh được thì mở Job RD-12, AM gửi thư hẹn mốc trong 04 giờ làm việc, và không trả lời nội dung | Không có | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] NT-1 |
+| LD-01 | Trả lời câu hỏi về quy định lao động | Khách hỏi qua AM | Câu hỏi đã ghi trên hệ thống | Câu trả lời có mã căn cứ đã đối chiếu bản gốc | LD-01 không đi qua chuỗi T2.<br>Câu hỏi đã có căn cứ sẵn đã đối chiếu bản gốc trong `PL_1` thì bộ phận trả lời thẳng AM trong 02 giờ làm việc, không cấp mốc ước lượng.<br>Câu hỏi phải tra bản gốc thì đi đúng chuỗi: bộ phận cấp mốc ước lượng cho AM trong 02 giờ làm việc, AM cam kết T2 với khách trong 04 giờ làm việc, và T3 là 02 ngày làm việc.<br>NHÁNH KÉO DÀI, ba điều kiện đủ: điều kiện vào nhánh là bộ phận đã tra mà không kết luận được; mốc của nhánh là mốc của Job RD-10; và AM PHẢI cam kết lại T2 với khách trong 04 giờ làm việc kể từ khi mở Job RD-10.<br>Chạm nội dung chưa xác minh được thì mở Job RD-12, AM gửi thư hẹn mốc trong 04 giờ làm việc, và không trả lời nội dung | Không có | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] NT-1 |
 | LD-02 | Soạn hợp đồng lao động, phụ lục, thỏa thuận | Khách yêu cầu | Thông tin đầy đủ về vị trí, mức lương, thời hạn, địa điểm;<br>với người nước ngoài thêm ngày hết hạn giấy phép lao động do Licensing cấp | Bản dự thảo đã qua kiểm soát chất lượng hai lớp theo phân mức NT-5 | 02 ngày làm việc kể từ khi nhận đủ thông tin | Không có | `PL_1` CC-LD-01 tới CC-LD-12 |
 | LD-03 | Rà soát thời hạn hợp đồng xác định thời hạn | Theo lịch tháng | Danh sách hợp đồng sắp hết hạn | Cảnh báo gửi khách qua AM kèm phương án | Rà hằng tháng;<br>cảnh báo khách 45 ngày trước ngày hết hạn | Hết hạn mà vẫn làm việc thì phải ký hợp đồng mới trong **30 ngày**;<br>quá 30 ngày thì tự động thành hợp đồng không xác định thời hạn;<br>chỉ được ký thêm hợp đồng xác định thời hạn **01 lần** | `PL_1` CC-LD-02, CC-LD-03 |
 | LD-04 | Đăng ký mã BHXH lần đầu cho người lao động | Khách gửi hợp đồng đã ký | Bản scan hợp đồng đã ký giữa khách và người lao động | Hồ sơ đã nộp;<br>xác nhận của cơ quan BHXH | 02 ngày làm việc kể từ khi nhận bản scan hợp đồng đã ký | Kê khai và nộp hồ sơ tham gia BHXH bắt buộc trong **30 ngày** kể từ ngày người lao động thuộc đối tượng tham gia | `PL_1` CC-LD-140 |
 | LD-05 | Báo tăng lao động | Có người lao động mới | Hợp đồng đã ký;<br>thông tin cá nhân | Hồ sơ báo tăng đã nộp | Đợt 1: ngày 29 tới 30. Đợt 2: ngày 09 tới 10 | Theo CC-LD-140, mốc 30 ngày | `PL_1` CC-LD-140 |
 | LD-06 | Báo giảm lao động | Có người lao động nghỉ | Quyết định hoặc thỏa thuận chấm dứt | Hồ sơ báo giảm đã nộp | Đợt 1: ngày 29 tới 30. Đợt 2: ngày 09 tới 10 | **KHÔNG TÌM THẤY mốc số ngày trong kho.** Xem cảnh báo mục 9.2 | `PL_1` mục 2.7 cảnh báo |
 | LD-07 | Tính lương và lập bảng lương | Theo lịch tháng | Dữ liệu chấm công của khách;<br>hợp đồng và phụ lục hiện hành;<br>quyết định điều chỉnh nếu có | Bảng lương đã chốt;<br>phiếu lương | Khách trả lương cuối tháng: tính ngày 25 tới 28, gửi ngày 29 tới 30.<br>Khách trả lương ngày 05: tính ngày 01 tới 03, gửi ngày 04 tới 05.<br>Khách trả lương ngày 10: tính ngày 06 tới 08, gửi ngày 09 tới 10.<br>Phiếu lương gửi trước ngày trả lương ít nhất 01 ngày | Không có mốc luật cho việc lập;<br>kỳ hạn trả lương theo thỏa thuận và `PL_1` CC-LD-66 | Nội bộ;<br>`PL_1` CC-LD-60 tới CC-LD-80 |
-| LD-08 | Nhắc khách gửi dữ liệu chấm công | Theo lịch tháng | Danh sách khách | Bản ghi đã nhắc | Ngày 20 tới 25 | Không có | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 6.2 |
+| LD-08 | Nhắc khách gửi dữ liệu chấm công | Theo lịch tháng | Danh sách khách | Bản ghi đã nhắc | Ngày 20 tới 25 | Không có | Không có |
 | LD-09 | Tổng hợp và thông báo số tiền BHXH phải đóng | Theo lịch tháng | Bảng lương;<br>thông báo C12 của cơ quan BHXH | Thông báo số phải đóng gửi khách qua AM, theo từng mã BHXH | Tổng hợp ngày 11 tới 14;<br>thông báo ngày 15 | Khách phải nộp tiền chậm nhất **ngày cuối cùng của tháng tiếp theo** | `PL_1` CC-LD-143 |
 | LD-10 | Thông báo kinh phí công đoàn | Theo lịch tháng | Quỹ tiền lương làm căn cứ đóng BHXH | Thông báo gửi khách qua AM | Ngày 15 | **CHƯA XÁC MINH ĐƯỢC từ kho.** Xem cảnh báo mục 9.3 | `PL_1` mục 1.2 |
 | LD-11 | Chốt sổ BHXH khi người lao động nghỉ việc | Người lao động nghỉ | Quyết định chấm dứt;<br>đã báo giảm | Xác nhận thời gian đóng BHXH;<br>sổ đã trả | 10 ngày làm việc kể từ ngày chính thức nghỉ việc | **KHÔNG TÌM THẤY mốc số ngày trong kho.** Nghĩa vụ có tại CC-LD-30, không kèm số ngày | `PL_1` CC-LD-30, CC-LD-158, CC-LD-159 |
@@ -106,13 +108,11 @@ tags:
 | LD-21 | Hỗ trợ trình tự xử lý kỷ luật lao động | Khách yêu cầu | Biên bản vi phạm;<br>nội quy lao động đã đăng ký;<br>hồ sơ nhân sự | Bộ hồ sơ trình tự: thông báo họp, biên bản họp, quyết định | Gửi khách bộ hồ sơ trước ngày họp ít nhất 10 NGÀY LÀM VIỆC.<br>Đây là mốc làm trước thứ hai của [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] NT-6, đầu ra cần khách ký trước khi gửi ra, tức 05 ngày làm việc làm trước cộng thêm mốc pháp định 05 ngày làm việc thông báo họp. | Thông báo họp **ít nhất 05 ngày làm việc** trước ngày họp.<br>Thời hiệu **06 tháng** kể từ ngày xảy ra hành vi, **12 tháng** nếu liên quan tài chính, tài sản, bí mật công nghệ, bí mật kinh doanh | `PL_1` CC-LD-99 tới CC-LD-108 |
 | LD-22 | Rà soát khấu trừ lương | Khi khách yêu cầu khấu trừ | Căn cứ khấu trừ;<br>bảng lương | Kết luận được phép hay không, và mức tối đa | 01 ngày làm việc | Chỉ được khấu trừ để bồi thường thiệt hại do làm hư hỏng dụng cụ, thiết bị, tài sản.<br>**Mức tối đa 30%** tiền lương thực trả hằng tháng sau khi trích nộp BHXH bắt buộc, BHYT, BHTN và thuế TNCN | `PL_1` CC-LD-64, CC-LD-65 |
 | LD-23 | Giải trình hồ sơ với cơ quan BHXH | Cơ quan BHXH yêu cầu | Văn bản yêu cầu;<br>hồ sơ liên quan | Văn bản giải trình đã gửi | Thông báo khách kèm danh mục hồ sơ cần trong 01 ngày làm việc;<br>gửi giải trình trong 02 ngày làm việc kể từ khi nhận đủ hồ sơ từ khách | **Theo thời hạn ghi trên chính văn bản của cơ quan** | Nội bộ |
-| LD-24 | Cập nhật công thức và chính sách mới vào bảng tính lương | Có văn bản mới, hoặc theo lịch | Bản đánh giá tác động của LEG | Bảng tính đã cập nhật và đã kiểm thử | Ngày 16 tới 19 hằng tháng | Theo ngày hiệu lực văn bản | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 12.3 |
+| LD-24 | Cập nhật công thức và chính sách mới vào bảng tính lương | Có văn bản mới, hoặc theo lịch | Bản đánh giá tác động của LEG | Bảng tính đã cập nhật và đã kiểm thử | Ngày 16 tới 19 hằng tháng | Theo ngày hiệu lực văn bản | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 7.5a |
 | LD-25 | Rà soát tuân thủ lao động định kỳ | Theo lịch tháng | Hồ sơ khách | Bảng rà soát tuân thủ gửi khách qua AM | Hằng tháng, trước ngày 10 | Không có | Nội bộ |
 | LD-26 | Bàn giao khi kết thúc dịch vụ | AM báo kết thúc | Toàn bộ hồ sơ lao động và BHXH của khách | Bộ bàn giao;<br>biên bản bàn giao | Chuẩn bị trong 05 ngày làm việc kể từ khi AM báo | Không có | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] |
 | LD-27 | Quyết toán thuế TNCN năm và đăng ký người phụ thuộc | Theo lịch năm | Bảng lương các kỳ trong năm;<br>bảng khấu trừ TNCN của Kế toán theo Job [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] KT-09;<br>danh sách người phụ thuộc của khách | Tờ khai quyết toán TNCN năm đã nộp kèm xác nhận của hệ thống thuế điện tử;<br>người phụ thuộc đã đăng ký | Hoàn tất nội bộ và NỘP chậm nhất 03 NGÀY LÀM VIỆC TRƯỚC 31/03 năm sau, theo mốc làm trước hồ sơ nộp cơ quan nhà nước tại [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] NT-6.<br>không cam kết mốc 31/03, vì đó là ngày hợp pháp cuối cùng | Chậm nhất ngày 31 tháng 3 của năm dương lịch tiếp theo, theo Luật Quản lý thuế 108/2025/QH15 | Nội bộ; Job KT-09 của [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]]; Điều Khoản Dịch Vụ Kế toán & Thuế (PL-KT) mục 3.1 |
 
-
-Yêu cầu không khớp Job nào: xem [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 5.6.
 
 ---
 
@@ -176,9 +176,9 @@ Cơ chế chuyển lên cấp trên chung ĐẶT tại [[OBK-MSR_Quy_tac_so_cai|
 | Vướng mắc nghiệp vụ trong bộ phận, duyệt đầu ra | `TL-LD` xử ở cấp 1 như thường | Không |
 | Việc vượt thẩm quyền `TL-LD`, việc liên bộ phận, điều chuyển nguồn lực | Chuyển **TRỰC TIẾP lên `CEO`**, bỏ qua cấp 2 vì hai cấp trùng người | Ghi lý do trên Job là cấp 1 và cấp 2 do cùng một người giữ, và thông tin `COO` cùng lúc |
 | Rủi ro pháp lý, nguy cơ phát sinh tiền phạt cho khách, ảnh hưởng uy tín, hành vi oBacker nghiêm cấm | `CEO` | Báo trong ngày phát hiện |
-| Nghiệp vụ chưa có chuẩn, văn bản pháp luật mới, kết luận dùng cho mọi khách về sau | Legal R&D chủ trì, bộ phận cấp dữ kiện thực tế | Xem [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 5.5 |
-| Tranh chấp lao động của khách phải lập luận pháp lý | Bộ phận Dịch vụ pháp lý chủ trì, bộ phận này cấp hồ sơ | Xem [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 5.5 |
-| Thanh tra lao động của khách | `TL-LD` chủ trì, Bộ phận Dịch vụ pháp lý tham vấn | Xem [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 5.5 |
+| Nghiệp vụ chưa có chuẩn, văn bản pháp luật mới, kết luận dùng cho mọi khách về sau | Legal R&D chủ trì, bộ phận cấp dữ kiện thực tế | Không có |
+| Tranh chấp lao động của khách phải lập luận pháp lý | Bộ phận Dịch vụ pháp lý chủ trì, bộ phận này cấp hồ sơ | Không có |
+| Thanh tra lao động của khách | `TL-LD` chủ trì, Bộ phận Dịch vụ pháp lý tham vấn | Không có |
 
 **Ngoại lệ này TỰ MẤT khi tách vai trò.** Khi `TL-LD` có người giữ riêng, bộ phận quay về thang ba cấp `TL-LD`, `COO`, `CEO` và mục này hết hiệu lực; người rà soát định kỳ kiểm điểm mỗi lần OBK-QCTC-02-PL-D đổi người.
 
@@ -192,7 +192,7 @@ Cơ chế chuyển lên cấp trên chung ĐẶT tại [[OBK-MSR_Quy_tac_so_cai|
 | KS-LD-02 | Mọi mâu thuẫn dữ liệu giữa các nguồn đã ghi đủ 4 trường: thông tin mâu thuẫn, giá trị theo từng nguồn, người cần làm rõ, quyết định kèm lý do | Trước B2 | CV-LD ghi, TL-LD kiểm | Quay lại B2 |
 | KS-LD-03 | Đã tra hết nguồn nội bộ trước khi hỏi khách thêm thông tin | Trước khi gửi yêu cầu bổ sung | CV-LD | Tra lại. Hỏi khách cái mình đã có là lỗi chất lượng |
 | KS-LD-04 | Yêu cầu bổ sung có đủ: danh sách đầy đủ phần thiếu, thời hạn cụ thể, giả thiết sẽ dùng nếu không nhận đủ, hậu quả của việc dùng giả thiết | Trước khi gửi khách | TL-LD | Không gửi. |
-| KS-LD-05 | Giả thiết đã dùng được nêu lại trong nội dung bàn giao | Trước B4 | TL-LD | Trả lại. Xem [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 6.1 phần 3 |
+| KS-LD-05 | Giả thiết đã dùng được nêu lại trong nội dung bàn giao | Trước B4 | TL-LD | Trả lại. |
 | KS-LD-06 | Với hợp đồng cho người nước ngoài: thời hạn hợp đồng không vượt quá thời hạn giấy phép lao động, và ngày hết hạn giấy phép lấy từ Licensing | Trước khi gửi dự thảo | TL-LD | Lấy lại ngày từ Licensing. Không tự điền |
 | KS-LD-07 | Với khách từ 10 người lao động trở lên: đã kiểm tra nội quy lao động đã đăng ký và còn hiệu lực | Khi tiếp nhận khách, và trước LD-21 | TL-LD | Mở Job LD-13. Không hỗ trợ kỷ luật lao động khi nội quy chưa đăng ký |
 | KS-LD-08 | Mọi con số luật trong đầu ra truy được về một mã `[CC-LD-...]` mức đã đối chiếu bản gốc trong `PL_1` | Trước khi gửi khách | TL-LD | Trả lại. Chuyển sang nhánh chưa xác minh được của LD-01 |
@@ -368,7 +368,7 @@ Tỷ lệ đóng bảo hiểm tai nạn lao động, bệnh nghề nghiệp: m�
 
 ## 10. CHỈ SỐ ĐO LƯỜNG
 
-Ngoài tám chỉ số chung tại [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 11.1:
+Ngoài tám chỉ số chung tại [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]]:
 
 | Mã | Chỉ số | Công thức | Mục tiêu | Nguồn |
 | --- | --- | --- | --- | --- |
@@ -417,6 +417,6 @@ TL-LD dựng cấp 3 theo khuôn tại `PL_3` mục 4, thứ tự ưu tiên: (1)
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.4.0.1 | Bỏ mục tiêu kể lợi ích, câu mốc cũ ở báo cáo lao động, câu hậu quả và câu lý do ở mục 9 |
+| 08/10/2026 | V4.0.2 | Đặt trạng thái thư viện tham khảo và sửa dẫn chiếu tới OBK-MSR trong 05_OBK-SOP-LD_Lao_dong_va_tien_luong. |

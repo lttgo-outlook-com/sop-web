@@ -5,7 +5,8 @@ aliases:
   - TNC-05-VI
 type: "tnc"
 folder: "09_TnC"
-version: "R.2.1.1"
+version: "V3.0.0"
+release: "R.26.10.08.1"
 status: "đang áp dụng"
 author: "CEO"
 reviewer: "CEO"
@@ -19,7 +20,7 @@ tags:
 # CẨM NANG LÀM VIỆC VỚI OBACKER
 ### Hướng dẫn dành cho Quý Khách
 
-**Phiên bản:** R.2.1.0 (VI-EN) · **Cập nhật:** 07/10/2026 · Áp dụng cho gói Partner Core, Partner Growth và Partner Prime
+**Phiên bản:** V3.0.0 (VI-EN) · **Phát hành:** R.26.10.08.1 · **Cập nhật:** 08/10/2026 · Áp dụng cho gói Partner Core, Partner Growth và Partner Prime
 
 > Tài liệu này là cẩm nang hướng dẫn. Đây không phải là hợp đồng. Trường hợp có khác biệt giữa cẩm nang này và Hợp Đồng dịch vụ (Điều Khoản & Điều Kiện, Đơn Đặt Hàng và các Điều Khoản Dịch Vụ Cụ Thể), nội dung Hợp Đồng được áp dụng.
 
@@ -54,37 +55,37 @@ Nguyên tắc phối hợp giữa oBacker và Quý Khách: Điều 2, Bản Đi�
 | Đơn giá tháng tương đương | 2.250.000đ | 7.000.000đ | Từ 15.000.000đ |
 | Phí áp dụng doanh nghiệp FDI | 40.500.000đ/năm (10.125.000đ/quý) | 113.400.000đ/năm (28.350.000đ/quý) | Thỏa thuận theo quy mô thực tế |
 | Kỳ thanh toán | Theo năm hoặc theo quý | Theo năm hoặc theo quý | Theo năm hoặc theo quý |
-| Định mức giao dịch mỗi tháng | 50 (VN) / 100 (FDI) | 300 (mức tối đa 1.500 qua block) | Từ 1.500 đến 7.000+ chứng từ |
-| Định mức nhân sự tính lương/BHXH | Dưới 10 (VN) / 3 (FDI) | Dưới 30 | Dưới 50 |
+| Định mức giao dịch mỗi tháng | 50 (VN) / 100 (FDI) | 300 (mức tối đa 1.500 qua block) | Từ 1.500 đến 7.000 chứng từ; trên 7.000 chứng từ: 12.000đ/chứng từ |
+| Định mức nhân sự tính lương/BHXH | Tối đa 10 (VN) / 03 (FDI) | Tối đa 30 | Tối đa 50 |
 | Chế độ kế toán áp dụng | TT 58/2026 (VN) / TT 99/2025 (FDI) | TT 99/2025/TT-BTC | TT 99/2025/TT-BTC |
 | Ghi sổ kế toán và BCTC năm | Có | Có | Có |
 | Kê khai thuế định kỳ và FCT | Có (FCT tối đa 01 HĐ/tháng) | Có (FCT tối đa 03 HĐ/tháng) | Có (FCT tối đa 03 HĐ/tháng) |
 | Bảng lương và bảo hiểm xã hội | Có | Có | Có |
 | Thiết lập hóa đơn điện tử | Có | Có | Có |
-| Hạn mức rà soát hợp đồng thương mại | Không | 2 hợp đồng/tháng (< 10 trang) | 5 hợp đồng/tháng (< 10 trang) |
+| Hạn mức rà soát hợp đồng thương mại | Không | 2 hợp đồng/tháng (tối đa 10 trang) | 5 hợp đồng/tháng (tối đa 10 trang) |
 | Hạn mức thay đổi ĐKKD và văn bản nội bộ | Không | 2 lần ĐKKD/năm; 6 VB/năm | 4 lần ĐKKD/năm; 12 VB/năm |
-| Cán bộ phụ trách chuyên biệt | Chung | Chung | Dedicated Account Manager |
+| Người phụ trách tài khoản chuyên biệt | Chung | Chung | Có |
 
-Khi doanh nghiệp phát sinh vượt mức tối đa giao dịch hoặc vượt định mức, oBacker áp dụng cơ chế FUP (Fair Use Policy) và các gói mở rộng Block giao dịch (ADD-TXN-BLOCK-500-2026, ADD-TXN-BLOCK-1000-2026, ADD-TXN-BLOCK-1500-2026, ADD-TXN-PRIME-OVER). Doanh nghiệp vượt 1.500 giao dịch/tháng bắt buộc nâng lên gói Partner Prime hoặc hợp đồng may đo riêng.
+Khi doanh nghiệp phát sinh vượt mức tối đa giao dịch hoặc vượt định mức, oBacker áp dụng cơ chế FUP (Fair Use Policy) và các gói mở rộng Block giao dịch (ADD-TXN-BLOCK-500-2026, ADD-TXN-BLOCK-1000-2026, ADD-TXN-BLOCK-1500-2026, ADD-TXN-PRIME-OVER). Doanh nghiệp ở gói Partner Growth vượt 1.500 giao dịch/tháng bắt buộc nâng lên gói Partner Prime hoặc hợp đồng may đo riêng. Gói Partner Prime vượt 7.000 giao dịch/tháng áp dụng mã ADD-TXN-PRIME-OVER.
 
 ## 4. Lộ trình năm tuần đầu tiên
 
 **Tuần 1 (Ngày 1-7): Hợp đồng và thanh toán lần đầu**
 
-- *oBacker thực hiện:* ký Hợp Đồng dịch vụ; thu và xác nhận thanh toán lần đầu; sắp xếp buổi họp khởi động (45-60 phút) với người phụ trách tài khoản.
-- *Quý Khách thực hiện:* ký Hợp Đồng dịch vụ và gửi bản cứng về văn phòng oBacker; thanh toán lần đầu theo hợp đồng; xác nhận một đầu mối chính và một người dự phòng (bắt buộc); ký giấy ủy quyền làm việc với cơ quan thuế và bảo hiểm xã hội.
+- *oBacker thực hiện:* phát hành Hợp Đồng dịch vụ đã ký điện tử sẵn; thu và xác nhận thanh toán lần đầu; sắp xếp buổi họp khởi động (45-60 phút) với người phụ trách tài khoản.
+- *Quý Khách thực hiện:* ký điện tử Hợp Đồng dịch vụ; thanh toán lần đầu theo hợp đồng; xác nhận một đầu mối chính và một người dự phòng (bắt buộc); ký giấy ủy quyền làm việc với cơ quan thuế và bảo hiểm xã hội.
 
 **Tuần 2 (Ngày 8-14): Onboarding và thiết lập hệ thống**
 
 - *oBacker thực hiện:* gửi thư chào mừng kèm danh mục hồ sơ yêu cầu trong 24 giờ kể từ xác nhận thanh toán; tạo thư mục chia sẻ trên Google Drive; cấp tài khoản truy cập nền tảng biểu mẫu; tiếp nhận bàn giao từ đơn vị kế toán cũ (nếu có); thiết lập hệ thống kế toán.
 - *Quý Khách thực hiện:* cung cấp thông tin công ty (ERC/IRC, MST, địa chỉ, ngành nghề, người đại diện theo pháp luật); cung cấp hồ sơ theo danh mục; cấp quyền xem hóa đơn điện tử; cung cấp tài khoản đăng nhập các hệ thống dịch vụ công, thuế điện tử, hóa đơn điện tử và bảo hiểm xã hội theo yêu cầu; giới thiệu oBacker với đơn vị kế toán cũ (nếu có).
 
-**Tuần 3-4 (Ngày 15-30): Vận hành**
+**Tuần 3-4 (Ngày 15-28): Vận hành**
 
 - *oBacker thực hiện:* bắt đầu ghi sổ kế toán; chạy bảng lương đầu tiên nếu đến kỳ; xử lý biến động bảo hiểm xã hội (nếu có).
 - *Quý Khách thực hiện:* gửi hóa đơn đầu vào và sao kê ngân hàng trong năm ngày đầu của tháng kế tiếp; thông báo biến động nhân sự ngay khi phát sinh.
 
-**Tuần 5 (Ngày 31-37): Báo cáo và rà soát**
+**Tuần 5 (Ngày 29-35): Báo cáo và rà soát**
 
 - *oBacker thực hiện:* phát hành báo cáo tài chính nội bộ tháng đầu; phát hành phiếu lương tháng đầu; sắp xếp buổi họp rà soát cuối tháng.
 - *Quý Khách thực hiện:* xem lại báo cáo trong ba ngày làm việc; góp ý về quy trình phối hợp.
@@ -119,7 +120,7 @@ Nếu chi cho cá nhân mà không có hợp đồng hoặc không khấu trừ 
 
 *Hậu quả khi không đăng ký, không đóng bảo hiểm cho người đủ điều kiện:* truy thu toàn bộ số tiền chưa đóng kèm tiền lãi 0,03%/ngày theo Luật Bảo hiểm xã hội 2024; xử phạt vi phạm hành chính đối với doanh nghiệp từ 10.000.000đ đến 150.000.000đ tính theo số lượng lao động vi phạm (phạt 12% đến 20% nếu vi phạm về số tiền đóng) theo Nghị định 283/2026/NĐ-CP; bồi thường cho người lao động khi phát sinh ốm đau, thai sản, tai nạn lao động; và nguy cơ bị xử lý hình sự về tội trốn đóng bảo hiểm xã hội (Điều 216 Bộ luật Hình sự).
 
-*Khuyến nghị:* nếu doanh nghiệp sử dụng cộng tác viên cùng một người liên tục trên một tháng với khối lượng công việc đều đặn, chuyển sang hợp đồng lao động chính thức.
+*Khuyến nghị:* nếu doanh nghiệp sử dụng cộng tác viên cùng một người liên tục từ đủ một tháng với khối lượng công việc đều đặn, chuyển sang hợp đồng lao động chính thức.
 
 **5.5. Khi nào doanh nghiệp phải xuất hóa đơn.** Theo Nghị định 254/2026/NĐ-CP và Thông tư 91/2026/TT-BTC, doanh nghiệp bắt buộc xuất hóa đơn điện tử khi: bán hàng hoặc cung cấp dịch vụ (xuất ngay tại thời điểm chuyển giao hoặc hoàn thành, không phụ thuộc đã thu tiền hay chưa); nhận tiền ứng trước hoặc đặt cọc cho dịch vụ; cho, biếu, tặng, trao đổi hoặc trả thay lương; cho vay, mượn, hoàn trả; và tiêu dùng nội bộ.
 
@@ -151,9 +152,9 @@ Các giao dịch điển hình phải kê khai: phần mềm thuê bao (ví dụ
 
 **Kế toán (áp dụng cả ba gói).** Ghi sổ theo chứng từ Quý Khách cung cấp; chốt sổ hàng tháng; phát hành báo cáo tài chính nội bộ hàng tháng; lập báo cáo tài chính năm (bảng cân đối kế toán, kết quả hoạt động kinh doanh, lưu chuyển tiền tệ, thuyết minh); nộp báo cáo tài chính đúng hạn. *Hồ sơ cần cung cấp trong tháng đầu:* ERC; IRC (nếu là doanh nghiệp có vốn đầu tư nước ngoài); điều lệ; báo cáo tài chính năm gần nhất; bảng cân đối số phát sinh; sổ nhật ký chung; danh sách tài sản cố định kèm khấu hao; các hợp đồng đang hiệu lực; sao kê 12 tháng gần nhất của tất cả tài khoản (kèm mật khẩu mở tệp); thông tin đăng nhập hoặc quyền truy cập hệ thống hóa đơn điện tử.
 
-**Thuế (áp dụng cả ba gói).** Kê khai và nộp thuế giá trị gia tăng (tháng hoặc quý); tạm nộp và quyết toán thuế thu nhập doanh nghiệp; khấu trừ và quyết toán thuế thu nhập cá nhân; kê khai thuế nhà thầu nước ngoài khi phát sinh (định mức theo gói: Partner Core 01 hợp đồng nhà thầu/tháng, Partner Growth và Partner Prime 03 hợp đồng/tháng); tư vấn tuân thủ thuế chuyên sâu (áp dụng gói Partner Growth và Partner Prime). *Quy trình phối hợp trước thời hạn nộp (D là ngày đến hạn):* D-10, oBacker gửi bản nháp tờ khai; D-7, Quý Khách xác nhận; D-5, oBacker nộp qua hệ thống thuế điện tử; D-3, Quý Khách nộp tiền thuế (nếu có). Quá thời hạn mốc D-7 mà Quý Khách không xác nhận thì cam kết tiến độ của oBacker tạm thời đình chỉ theo Điều 5.4(b) Bản Điều Khoản Chung. oBacker có quyền tạm nộp tờ khai theo số liệu hiện có hoặc nộp tờ khai trống để bảo đảm thời hạn chót với cơ quan thuế; mọi chi phí khai điều chỉnh và tiền chậm nộp phát sinh do xác nhận muộn do Quý Khách chịu 100%. *Cam kết của Quý Khách:* gửi đủ chứng từ trước ngày 5 hàng tháng; nộp tiền thuế đúng hạn (oBacker chỉ kê khai, không nộp thay tiền, trừ khi có thỏa thuận liên kết tài khoản); không tự ý điều chỉnh tờ khai trên hệ thống thuế mà không thông báo oBacker.
+**Thuế (áp dụng cả ba gói).** Kê khai và nộp thuế giá trị gia tăng (tháng hoặc quý); tạm nộp và quyết toán thuế thu nhập doanh nghiệp; khấu trừ và kê khai thuế thu nhập cá nhân vãng lai chi cho cá nhân ngoài bảng lương; kê khai thuế nhà thầu nước ngoài khi phát sinh (định mức theo gói: Partner Core 01 hợp đồng nhà thầu/tháng, Partner Growth và Partner Prime 03 hợp đồng/tháng). *Quy trình phối hợp trước thời hạn nộp (D là ngày đến hạn):* D-10, oBacker gửi bản nháp tờ khai; D-7, Quý Khách xác nhận; D-5, oBacker nộp qua hệ thống thuế điện tử; D-3, Quý Khách nộp tiền thuế (nếu có). Quá thời hạn mốc D-7 mà Quý Khách không xác nhận thì cam kết tiến độ của oBacker tạm thời đình chỉ theo Điều 5.4(b) Bản Điều Khoản Chung. oBacker có quyền tạm nộp tờ khai theo số liệu hiện có hoặc nộp tờ khai trống để bảo đảm thời hạn chót với cơ quan thuế; mọi chi phí khai điều chỉnh và tiền chậm nộp phát sinh do xác nhận muộn do Quý Khách chịu 100%. *Cam kết của Quý Khách:* gửi đủ chứng từ trước ngày 5 hàng tháng; nộp tiền thuế đúng hạn (oBacker chỉ kê khai, không nộp thay tiền, trừ khi có thỏa thuận liên kết tài khoản); không tự ý điều chỉnh tờ khai trên hệ thống thuế mà không thông báo oBacker.
 
-**Nhân sự và bảng lương (áp dụng cả ba gói).** Soạn hợp đồng lao động, phụ lục và thỏa thuận bảo mật theo mẫu chuẩn; đăng ký mã số thuế cá nhân và người phụ thuộc; chạy bảng lương hàng tháng và phát hành phiếu lương; đăng ký và điều chỉnh bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp; xuất chứng từ khấu trừ thuế thu nhập cá nhân; tư vấn nhanh về quy định lương và bảo hiểm.
+**Nhân sự và bảng lương (áp dụng cả ba gói).** Soạn hợp đồng lao động, phụ lục và thỏa thuận bảo mật theo mẫu chuẩn; đăng ký mã số thuế cá nhân và người phụ thuộc; chạy bảng lương hàng tháng và phát hành phiếu lương; khấu trừ, kê khai và quyết toán thuế thu nhập cá nhân từ tiền lương; đăng ký và điều chỉnh bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp; xuất chứng từ khấu trừ thuế thu nhập cá nhân; tư vấn nhanh về quy định lương và bảo hiểm.
 
 *Quy trình khi tuyển nhân viên mới:* Quý Khách gửi thông tin (họ tên và số căn cước công dân, vị trí, ngày bắt đầu, lương thử việc và lương chính thức, thời gian thử việc, loại hợp đồng, phụ cấp và thưởng); Quý Khách gửi biểu mẫu thông tin cho nhân viên điền; oBacker soạn hợp đồng lao động và thỏa thuận bảo mật; Quý Khách ký với nhân viên; oBacker đăng ký bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp trong vòng 30 ngày kể từ ngày ký hợp đồng lao động.
 
@@ -167,23 +168,23 @@ Các giao dịch điển hình phải kê khai: phần mềm thuê bao (ví dụ
 
 **Hóa đơn điện tử và chữ ký số (áp dụng cả ba gói).** Đăng ký và kích hoạt hệ thống hóa đơn điện tử theo Nghị định 254/2026/NĐ-CP và Thông tư 91/2026/TT-BTC; thiết lập ký hiệu mẫu và dải số hóa đơn; tư vấn quy định về hóa đơn điện tử. oBacker không xuất hóa đơn bán ra thay Quý Khách; Quý Khách tự xuất trên phần mềm đã được thiết lập. Nếu muốn oBacker xuất thay, đây là dịch vụ bổ sung ngoài gói, tính phí riêng.
 
-*Về thiết bị chữ ký số (USB Token):* Khi Quý Khách sử dụng dịch vụ vận hành back-office của oBacker, Quý Khách đăng ký mua thêm 01 thiết bị USB Token chuyên dụng từ oBacker (hoặc bàn giao 01 thiết bị USB Token riêng) và ủy quyền bằng văn bản có giới hạn để oBacker quản lý, sử dụng cho các nghiệp vụ ký số kê khai thuế, nộp bảo hiểm xã hội và phát hành hóa đơn điện tử trong phạm vi gói dịch vụ. Quý Khách giữ 01 USB Token chính để thực hiện các giao dịch ngân hàng và ký kết thương mại mang tính quyết định của người đại diện theo pháp luật.
+*Về thiết bị chữ ký số (USB Token):* Khi Quý Khách sử dụng dịch vụ vận hành back-office của oBacker, Quý Khách cấp cho oBacker 01 USB Token phụ và ủy quyền bằng văn bản có giới hạn để oBacker quản lý, sử dụng cho các nghiệp vụ ký số kê khai thuế, nộp bảo hiểm xã hội và phát hành hóa đơn điện tử trong phạm vi gói dịch vụ. Quý Khách giữ 01 USB Token chính để thực hiện các giao dịch ngân hàng và ký kết thương mại mang tính quyết định của người đại diện theo pháp luật. oBacker chỉ bảo quản USB Token phụ do Quý Khách cấp.
 
 **Hỗ trợ pháp lý (phân cấp theo gói).**
 
 - *Partner Core:* truy cập nền tảng biểu mẫu để sử dụng toàn bộ mẫu văn bản và hợp đồng chuẩn hóa; lưu trữ tài liệu điện tử. Không bao gồm rà soát hợp đồng và tư vấn pháp lý (thực hiện theo danh mục dịch vụ bổ sung ngoài gói).
-- *Partner Growth:* như Partner Core, cộng thêm 2 hợp đồng thương mại được rà soát mỗi tháng (< 10 trang), 2 lần thay đổi ĐKKD/năm, soạn thảo 6 văn bản nội bộ/năm.
-- *Partner Prime:* như Partner Growth, cộng thêm 5 hợp đồng thương mại được rà soát mỗi tháng (< 10 trang), 4 lần thay đổi ĐKKD/năm, soạn thảo 12 văn bản nội bộ/năm, và cán bộ phụ trách chuyên biệt (Dedicated Account Manager).
+- *Partner Growth:* như Partner Core, cộng thêm 2 hợp đồng thương mại được rà soát mỗi tháng (tối đa 10 trang), 2 lần thay đổi ĐKKD/năm, soạn thảo 6 văn bản nội bộ/năm.
+- *Partner Prime:* như Partner Growth, cộng thêm 5 hợp đồng thương mại được rà soát mỗi tháng (tối đa 10 trang), 4 lần thay đổi ĐKKD/năm, soạn thảo 12 văn bản nội bộ/năm, và người phụ trách tài khoản chuyên biệt.
 
-*Phạm vi một lượt rà soát hợp đồng:* một hợp đồng độ dài tối đa 10 trang (khoảng 3.000-4.000 chữ); kiểm tra rủi ro pháp lý cơ bản và chỉ ra điều khoản bất lợi; một vòng rà soát và một vòng phản hồi; thời gian xử lý ba ngày làm việc. Hợp đồng từ 11 đến 20 trang được tính là hai lượt; hợp đồng trên 20 trang, từ trang thứ 21 áp dụng phụ thu 100.000đ/trang, hoặc chuyển sang dịch vụ bổ sung. *Quý Khách cần cung cấp:* bản hợp đồng (tệp Word hoặc PDF có thể sao chép nội dung), bối cảnh giao dịch, vị thế của Quý Khách và các điều khoản đặc biệt quan tâm.
+*Phạm vi một lượt rà soát hợp đồng:* một hợp đồng độ dài tối đa 10 trang (khoảng 3.000 đến 4.000 chữ); kiểm tra rủi ro pháp lý cơ bản và chỉ ra điều khoản bất lợi; một vòng rà soát và một vòng phản hồi; thời gian xử lý ba ngày làm việc. Hợp đồng từ 11 đến 20 trang được tính là hai lượt; hợp đồng trên 20 trang, từ trang thứ 21 áp dụng phụ thu 100.000đ/trang, hoặc chuyển sang dịch vụ bổ sung. *Quý Khách cần cung cấp:* bản hợp đồng (tệp Word hoặc PDF có thể sao chép nội dung), bối cảnh giao dịch, vị thế của Quý Khách và các điều khoản đặc biệt quan tâm.
 
 ## 7. Dịch vụ bổ sung ngoài gói (tính phí riêng)
 
-Xuất hóa đơn bán ra thay Quý Khách; rà soát hợp đồng vượt hạn mức của gói (Partner Growth, Partner Prime); tư vấn pháp lý và thuế chuyên sâu ngoài phạm vi gói; đăng ký quyền sở hữu trí tuệ (nhãn hiệu, bản quyền tác giả); xin giấy phép con và thủ tục chuyên ngành; soạn hợp đồng mới; soạn thảo các văn bản pháp lý khác (công văn, quyết định, quy chế nội bộ). Toàn bộ dịch vụ ngoài gói áp dụng theo Biểu giá chuẩn hóa Master SKU Catalog. Quý Khách liên hệ người phụ trách tài khoản hoặc contact@obacker.com để nhận báo giá và phạm vi cụ thể.
+Xuất hóa đơn bán ra thay Quý Khách; rà soát hợp đồng vượt hạn mức của gói (Partner Growth, Partner Prime); tư vấn pháp lý và thuế chuyên sâu ngoài phạm vi gói; đăng ký quyền sở hữu trí tuệ (nhãn hiệu, bản quyền tác giả); xin giấy phép con và thủ tục chuyên ngành; soạn hợp đồng mới; soạn thảo các văn bản pháp lý khác (công văn, quyết định, quy chế nội bộ). Toàn bộ dịch vụ ngoài gói áp dụng theo biểu giá trong danh mục dịch vụ chuẩn hóa. Quý Khách liên hệ người phụ trách tài khoản hoặc contact@obacker.com để nhận báo giá và phạm vi cụ thể.
 
 ## 8. Ngoài phạm vi dịch vụ của oBacker
 
-oBacker không cung cấp trong cả ba gói: tranh tụng và giải quyết tranh chấp tại tòa án hoặc trọng tài; dịch vụ người đứng tên hộ (Nominee) dưới mọi hình thức; mua bán và sáp nhập doanh nghiệp, gọi vốn; tái cấu trúc doanh nghiệp (chia, tách, sáp nhập, chuyển đổi loại hình); tìm kiếm và tuyển dụng nhân sự; chấm dứt, kỷ luật và giải quyết tranh chấp lao động; tiếp thị và truyền thông; xuất hóa đơn bán ra thay Quý Khách (trừ khi đặt dịch vụ bổ sung).
+oBacker không cung cấp trong cả ba gói: tranh tụng và giải quyết tranh chấp tại tòa án hoặc trọng tài; mua bán và sáp nhập doanh nghiệp, gọi vốn; tái cấu trúc doanh nghiệp (chia, tách, sáp nhập, chuyển đổi loại hình); tìm kiếm và tuyển dụng nhân sự; chấm dứt, kỷ luật và giải quyết tranh chấp lao động; tiếp thị và truyền thông; xuất hóa đơn bán ra thay Quý Khách (trừ khi đặt dịch vụ bổ sung). Dịch vụ người đứng tên hộ (Nominee) bị nghiêm cấm dưới mọi hình thức (Điều 12 Bản Điều Khoản Chung).
 
 Các thủ tục xin giấy phép con, thủ tục cho người lao động nước ngoài (giấy phép lao động, thẻ tạm trú, thị thực) và đăng ký sở hữu trí tuệ (nhãn hiệu, bản quyền tác giả) không nằm trong phạm vi các gói dịch vụ định kỳ chuẩn, nhưng được oBacker cung cấp theo Đơn Đặt Hàng riêng. Khi phát sinh nhu cầu, oBacker chủ động thông báo trước và gửi báo giá chi tiết. Các vấn đề tranh tụng tại tòa án hoặc trọng tài được oBacker giới thiệu sang công ty luật đối tác độc lập phù hợp.
 
@@ -194,7 +195,7 @@ Các thủ tục xin giấy phép con, thủ tục cho người lao động nư�
 | Yêu cầu nghiệp vụ, cung cấp số liệu định kỳ | Thư điện tử tới người phụ trách tài khoản (hoặc contact@obacker.com) | Người phụ trách tài khoản |
 | Câu hỏi trong hạn mức pháp lý (Partner Growth, Partner Prime) | Thư điện tử tới người phụ trách tài khoản (hoặc contact@obacker.com) | Người phụ trách tài khoản |
 | Vấn đề khẩn cấp | Thư điện tử kèm gọi đường dây nóng 02-888-999-789 | Người phụ trách tài khoản |
-| Khiếu nại, đánh giá chất lượng | Thư điện tử tới ban điều hành oBacker (trang@obacker.com, tuan@obacker.com) | Ban điều hành |
+| Khiếu nại, đánh giá chất lượng | Thư điện tử tới contact@obacker.com, ghi rõ nội dung khiếu nại hoặc đánh giá | Ban điều hành |
 
 *Giờ làm việc:* Thứ Hai đến Thứ Sáu, 9h00-18h00. Thứ Bảy chỉ xử lý các nghĩa vụ có thời hạn cấp bách với cơ quan nhà nước. Chủ nhật và ngày lễ không vận hành.
 
@@ -222,13 +223,13 @@ Cần hợp đồng dịch vụ, chứng từ thanh toán và khấu trừ thu�
 Không đúng. Vẫn phải xuất hóa đơn, ghi tên và địa chỉ người mua (xem Mục 5.5).
 
 **Tôi thanh toán quảng cáo trực tuyến và phần mềm nước ngoài bằng thẻ công ty, có cần báo oBacker không?**
-Bắt buộc báo ngay khi vừa thực hiện giao dịch. oBacker sẽ xác định giao dịch có thuộc diện phải kê khai thuế nhà thầu hay không. Nếu không báo ngay, hoặc không kê khai trong 10 ngày, doanh nghiệp sẽ bị phạt và truy thu (xem Mục 5.6).
+Bắt buộc báo ngay khi vừa thực hiện giao dịch. oBacker sẽ xác định giao dịch có thuộc diện phải kê khai thuế nhà thầu hay không. Nếu không báo ngay, hoặc không kê khai đúng thời hạn, doanh nghiệp sẽ bị phạt và truy thu (xem Mục 5.6).
 
 **Gói Partner Core có bao gồm soạn hợp đồng lao động cho nhân viên mới không?**
 Có. Soạn hợp đồng lao động và thỏa thuận bảo mật chuẩn cho nhân viên nội bộ áp dụng cho cả ba gói. Không bao gồm soạn hợp đồng thương mại với bên thứ ba.
 
 **Gói Partner Growth có 2 lượt rà soát hợp đồng mỗi tháng; tháng này không dùng thì tháng sau có 4 lượt không?**
-Không. Hạn mức không tích lũy sang tháng sau. Nếu cần thêm, Quý Khách yêu cầu thêm lượt theo biểu giá Master SKU Catalog.
+Không. Hạn mức không tích lũy sang tháng sau. Nếu cần thêm, Quý Khách yêu cầu thêm lượt theo biểu giá trong danh mục dịch vụ chuẩn hóa.
 
 **Tôi có thể liên hệ trực tiếp nhân viên oBacker qua tin nhắn cá nhân không?**
 Không khuyến khích. Mọi trao đổi chính thức đi qua người phụ trách tài khoản bằng thư điện tử để được lưu vết và ghi nhận vào hệ thống. Tin nhắn cá nhân chỉ dùng để trao đổi nhanh, không liên quan đến sản phẩm bàn giao và không được ghi nhận chính thức.
@@ -240,7 +241,7 @@ Phản hồi ngay trên thư điện tử chứa báo cáo đó, nêu rõ sai s�
 Gửi thư điện tử tới người phụ trách tài khoản hoặc contact@obacker.com. oBacker gửi phụ lục hợp đồng trong ba ngày làm việc; việc nâng gói có hiệu lực từ kỳ báo cáo tiếp theo. Phí tháng đầu sau khi nâng gói tính theo gói mới, không hoàn trả phí gói cũ đã thanh toán.
 
 **Doanh nghiệp vượt ngưỡng giao dịch hoặc nhân sự của gói đang dùng thì sao?**
-oBacker áp dụng chính sách sử dụng hợp lý (FUP). Khi chạm hoặc vượt ngưỡng định mức tháng, oBacker thông báo và đối soát xuất hóa đơn phụ phí các gói bổ sung chứng từ (ADD-TXN-100, ADD-TXN-500, ADD-TXN-1K). Doanh nghiệp vượt mức tối đa 1.500 giao dịch/tháng bắt buộc phải nâng lên gói Partner Prime hoặc thỏa thuận hợp đồng dịch vụ riêng.
+oBacker áp dụng chính sách sử dụng hợp lý (FUP). Khi chạm hoặc vượt ngưỡng định mức tháng, oBacker thông báo và đối soát xuất hóa đơn phụ phí các gói bổ sung chứng từ (ADD-TXN-BLOCK-500-2026, ADD-TXN-BLOCK-1000-2026, ADD-TXN-BLOCK-1500-2026). Doanh nghiệp vượt mức tối đa 1.500 giao dịch/tháng bắt buộc phải nâng lên gói Partner Prime hoặc thỏa thuận hợp đồng dịch vụ riêng.
 
 **Tôi cần xử lý tranh chấp với một nhân viên cũ, oBacker có hỗ trợ không?**
 Không. Tranh chấp lao động thuộc nhóm ngoài phạm vi dịch vụ (Mục 8). oBacker có thể giới thiệu luật sư chuyên về lao động nếu Quý Khách yêu cầu.
@@ -253,7 +254,7 @@ oBacker bàn giao toàn bộ sổ sách, hồ sơ và thông tin đăng nhập h
 
 ## 14. Danh mục kiểm tra nhanh cho năm tuần đầu
 
-**Tuần 1:** đã ký Hợp Đồng dịch vụ và gửi bản cứng về oBacker; đã thanh toán lần đầu; đã xác định đầu mối chính và người dự phòng; đã ký giấy ủy quyền với cơ quan thuế và bảo hiểm xã hội; đã sắp xếp buổi họp khởi động với người phụ trách tài khoản.
+**Tuần 1:** đã ký điện tử Hợp Đồng dịch vụ; đã thanh toán lần đầu; đã xác định đầu mối chính và người dự phòng; đã ký giấy ủy quyền với cơ quan thuế và bảo hiểm xã hội; đã sắp xếp buổi họp khởi động với người phụ trách tài khoản.
 
 **Tuần 2:** đã nhận thư chào mừng kèm danh mục hồ sơ yêu cầu; đã truy cập thư mục chia sẻ trên Google Drive; đã nhận tài khoản nền tảng biểu mẫu; đã cung cấp đủ hồ sơ theo danh mục yêu cầu; đã cấp quyền truy cập hóa đơn điện tử và sao kê ngân hàng; đã giới thiệu oBacker với đơn vị kế toán cũ (nếu có); đã đọc Mục 5, Mục 8 và Mục 10.
 
@@ -277,6 +278,6 @@ Giải thích từ ngữ và chữ viết tắt: Điều 1, Bản Điều Khoả
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.2.1.1 | Bỏ câu quảng bá, câu tự giới thiệu mục 5, câu nghĩa vụ hay bị bỏ sót, câu truy thu thực tế, vế tránh rủi ro và nhãn lưu ý |
+| 08/10/2026 | V3.0.0 | Cập nhật bảng gói, mã phụ thu, ký điện tử, USB Token, thuế TNCN và Nominee. |

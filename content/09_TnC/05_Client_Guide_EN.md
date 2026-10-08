@@ -5,7 +5,8 @@ aliases:
   - TNC-05-EN
 type: "tnc"
 folder: "09_TnC"
-version: "R.2.1.0"
+version: "V3.0.0"
+release: "R.26.10.08.1"
 status: "đang áp dụng"
 author: "CEO"
 reviewer: "CEO"
@@ -19,7 +20,7 @@ tags:
 # CLIENT WORKING GUIDE; WORKING WITH OBACKER
 ### A guide for the Client
 
-**Version:** R.2.1.0 (VI-EN) · **Updated:** 07/10/2026 · Applies to the Partner Core, Partner Growth and Partner Prime packages
+**Version:** V3.0.0 (VI-EN) · **Release:** R.26.10.08.1 · **Updated:** 08/10/2026 · Applies to the Partner Core, Partner Growth and Partner Prime packages
 
 > This is a working guide. It is not a contract. If anything in this guide differs from the service Agreement (Master T&C, Order Form and the Service-Specific Terms), the Agreement prevails.
 
@@ -42,7 +43,7 @@ oBacker Joint Stock Company provides business-operations services to SMEs, start
 | Website | https://obacker.com |
 | Document template platform | formtify.obacker.com |
 
-## 2. Five core working principles
+## 2. Working principles
 
 Working principles between oBacker and the Client: Article 2 of the Master T&C.
 
@@ -54,37 +55,37 @@ Working principles between oBacker and the Client: Article 2 of the Master T&C.
 | Monthly equivalent fee | 2,250,000đ | 7,000,000đ | From 15,000,000đ |
 | FDI entity fee | 40,500,000đ/year (10,125,000đ/qtr) | 113,400,000đ/year (28,350,000đ/qtr) | Custom by actual volume |
 | Billing cycle | Annual or Quarterly | Annual or Quarterly | Annual or Quarterly |
-| Monthly transaction quota | 50 (VN) / 100 (FDI) | 300 (maximum 1,500 via blocks) | From 1,500 to 7,000+ vouchers |
-| Payroll & social insurance headcount | Under 10 (VN) / 3 (FDI) | Under 30 | Under 50 |
+| Monthly transaction quota | 50 (VN) / 100 (FDI) | 300 (maximum 1,500 via blocks) | From 1,500 to 7,000 vouchers; above 7,000 vouchers: VND 12,000/voucher |
+| Payroll & social insurance headcount | Up to 10 (VN) / 03 (FDI) | Up to 30 | Up to 50 |
 | Accounting standard applied | Circular 58 (VN) / Circular 99 (FDI) | Circular 99/2025/TT-BTC | Circular 99/2025/TT-BTC |
 | Bookkeeping and Annual Financial Statements | Yes | Yes | Yes |
-| Periodic tax filing & FCT | Yes (FCT up to 3 contracts/month) | Yes (FCT up to 3 contracts/month) | Yes (FCT up to 3 contracts/month) |
+| Periodic tax filing & FCT | Yes (FCT up to 01 contract/month) | Yes (FCT up to 03 contracts/month) | Yes (FCT up to 03 contracts/month) |
 | Payroll and social insurance | Yes | Yes | Yes |
 | E-invoice set-up | Yes | Yes | Yes |
-| Commercial contract reviews quota | None | 2 contracts/month (< 10 pages) | 5 contracts/month (< 10 pages) |
+| Commercial contract reviews quota | None | 2 contracts/month (up to 10 pages) | 5 contracts/month (up to 10 pages) |
 | ERC amendment & internal corporate documents | None | 2 ERC changes/year; 6 docs/year | 4 ERC changes/year; 12 docs/year |
-| Dedicated personnel | Shared | Shared | Dedicated Account Manager |
+| Dedicated Account Manager | Shared | Shared | Yes |
 
-When transaction volumes exceed quotas or thresholds, oBacker applies its Fair Use Policy (FUP) and monthly post-billing add-on transaction blocks (ADD-TXN-BLOCK-500-2026, ADD-TXN-BLOCK-1000-2026, ADD-TXN-BLOCK-1500-2026, ADD-TXN-PRIME-OVER). Businesses exceeding 1,500 transactions/month must upgrade to Partner Prime or bespoke custom contracts.
+When transaction volumes exceed quotas or thresholds, oBacker applies its Fair Use Policy (FUP) and monthly post-billing add-on transaction blocks (ADD-TXN-BLOCK-500-2026, ADD-TXN-BLOCK-1000-2026, ADD-TXN-BLOCK-1500-2026, ADD-TXN-PRIME-OVER). Partner Growth businesses exceeding 1,500 transactions/month must upgrade to Partner Prime or bespoke custom contracts. Partner Prime businesses exceeding 7,000 transactions/month are charged under code ADD-TXN-PRIME-OVER.
 
 ## 4. Timeline for the first five weeks
 
 **Week 1 (Days 1-7): Contract and first payment**
 
-- *oBacker does:* signs the service Agreement; collects and confirms the first payment; schedules the kick-off meeting (45-60 minutes) with the AM.
-- *The Client does:* signs the service Agreement and sends the hard copy to oBacker's office; makes the first payment per the Agreement; confirms one primary contact and one back-up (mandatory); signs the authorisation to work with the tax and social insurance authorities.
+- *oBacker does:* issues the service Agreement already signed electronically; collects and confirms the first payment; schedules the kick-off meeting (45-60 minutes) with the AM.
+- *The Client does:* signs the service Agreement electronically; makes the first payment per the Agreement; confirms one primary contact and one back-up (mandatory); signs the authorisation to work with the tax and social insurance authorities.
 
 **Week 2 (Days 8-14): Onboarding and system set-up**
 
 - *oBacker does:* sends the welcome email with the document request list within 24 hours of confirming payment; creates a shared Google Drive folder; provisions an account on the document template platform; receives the handover from the previous accounting provider (if any); sets up the accounting system.
 - *The Client does:* provides company information (ERC/IRC, tax code, address, business lines, legal representative); provides documents per the request list; grants e-invoice viewing access; provides login accounts for the public-service, e-tax, e-invoice and social insurance systems as requested; introduces oBacker to the previous accounting provider (if any).
 
-**Weeks 3-4 (Days 15-30): Operations**
+**Weeks 3-4 (Days 15-28): Operations**
 
 - *oBacker does:* begins book-keeping; runs the first payroll if the cycle is due; handles social insurance changes (if any).
 - *The Client does:* sends input invoices and bank statements within the first five days of the following month; reports HR changes as soon as they arise.
 
-**Week 5 (Days 31-37): Reporting and review**
+**Week 5 (Days 29-35): Reporting and review**
 
 - *oBacker does:* issues the internal financial statements for the first month; issues the first-month payslips; schedules the month-end review meeting.
 - *The Client does:* reviews the reports within three business days; gives feedback on the collaboration process.
@@ -119,7 +120,7 @@ If you pay an individual without a contract or without withholding PIT, the expe
 
 *Consequences of not registering or paying insurance for eligible persons:* back-assessment of the entire unpaid amount plus late-payment interest of 0.03% per day under the 2024 Law on Social Insurance; administrative fines on the enterprise ranging from VND 10,000,000 to VND 150,000,000 based on the number of undeclared employees (or 12% to 20% for payment violations) under Decree No. 283/2026/ND-CP; compensation to employees for statutory benefits in the event of illness, accident or maternity; and potential criminal liability for insurance evasion under Article 216 of the Penal Code.
 
-*Recommendation:* if the business uses the same collaborator continuously for more than one month with a steady workload, convert them to a formal labour contract.
+*Recommendation:* if the business uses the same collaborator continuously for at least one month with a steady workload, convert them to a formal labour contract.
 
 **5.5. When a business must issue an invoice.** Under Decree No. 254/2026/ND-CP and Circular No. 91/2026/TT-BTC, a business must issue an e-invoice when: selling goods or providing services (issued at the moment of delivery or completion, regardless of whether payment has been received); receiving an advance or deposit for services; giving, gifting, exchanging or paying salary in kind; lending, borrowing or repaying; and internal consumption.
 
@@ -151,9 +152,9 @@ Typical transactions requiring declaration: subscription software (for example, 
 
 **Accounting (all three packages).** Book-keeping based on the documents the Client provides; monthly closing; monthly internal financial statements; annual financial statements (balance sheet, income statement, cash-flow statement, notes); on-time filing of the financial statements. *Documents needed in the first month:* ERC; IRC (if a foreign-invested enterprise); the charter; the most recent annual financial statements; the trial balance; the general journal; the list of fixed assets with depreciation; contracts in effect; the last 12 months of statements for all accounts (with file passwords); and login information or access to the e-invoice system.
 
-**Tax (all three packages).** VAT declaration and payment (monthly or quarterly); CIT provisional payment and finalisation; PIT withholding and finalisation; FCT declaration when it arises (quota by package: Partner Core 01 contract/month, Partner Growth and Partner Prime 03 contracts/month); in-depth tax compliance advisory (Partner Growth and Partner Prime). *Pre-deadline coordination (D is the due date):* at D-10, oBacker sends the draft return; at D-7, the Client confirms; at D-5, oBacker files through the e-tax system; at D-3, the Client pays the tax (if any). If the D-7 milestone passes without the Client's confirmation, oBacker's delivery timeline is temporarily suspended pursuant to Article 5.4(b) of the Master T&C. oBacker has the right to file provisionally based on available data or submit a nil return to secure statutory deadlines; the Client bears 100% of all subsequent amendment costs and late-payment penalties arising from delayed confirmation. *The Client undertakes to:* send all documents before the 5th of each month; pay tax on time (oBacker only files and does not pay on the Client's behalf unless there is a linked-account arrangement); and not adjust returns on the tax system without informing oBacker.
+**Tax (all three packages).** VAT declaration and payment (monthly or quarterly); CIT provisional payment and finalisation; PIT withholding and filing on occasional income paid to individuals outside the payroll; FCT declaration when it arises (quota by package: Partner Core 01 contract/month, Partner Growth and Partner Prime 03 contracts/month). *Pre-deadline coordination (D is the due date):* at D-10, oBacker sends the draft return; at D-7, the Client confirms; at D-5, oBacker files through the e-tax system; at D-3, the Client pays the tax (if any). If the D-7 milestone passes without the Client's confirmation, oBacker's delivery timeline is temporarily suspended pursuant to Article 5.4(b) of the Master T&C. oBacker has the right to file provisionally based on available data or submit a nil return to secure statutory deadlines; the Client bears 100% of all subsequent amendment costs and late-payment penalties arising from delayed confirmation. *The Client undertakes to:* send all documents before the 5th of each month; pay tax on time (oBacker only files and does not pay on the Client's behalf unless there is a linked-account arrangement); and not adjust returns on the tax system without informing oBacker.
 
-**HR and payroll (all three packages).** Drafting labour contracts, addenda and non-disclosure agreements (NDAs) from standard templates; registering individual tax codes and dependants; running monthly payroll and issuing payslips; registering and adjusting social insurance, health insurance and unemployment insurance; issuing PIT withholding certificates; and quick advice on payroll and insurance rules.
+**HR and payroll (all three packages).** Drafting labour contracts, addenda and non-disclosure agreements (NDAs) from standard templates; registering individual tax codes and dependants; running monthly payroll and issuing payslips; withholding, filing and finalising PIT on salaries; registering and adjusting social insurance, health insurance and unemployment insurance; issuing PIT withholding certificates; and quick advice on payroll and insurance rules.
 
 *New-hire process:* the Client sends the information (full name and citizen ID number, position, start date, probation and official salary, probation period, contract type, allowances and bonuses); the Client sends the information form for the employee to complete; oBacker drafts the labour contract and NDA; the Client signs with the employee; oBacker registers social insurance, health insurance and unemployment insurance within 30 days of the labour-contract signing date.
 
@@ -167,15 +168,15 @@ Typical transactions requiring declaration: subscription software (for example, 
 
 **E-invoice and digital signature (all three packages).** Registration and activation of the e-invoice system under Decree No. 254/2026/ND-CP and Circular No. 91/2026/TT-BTC; set-up of invoice symbols and number ranges; advice on e-invoice rules. oBacker does not issue output invoices on the Client's behalf; the Client issues them on the software that has been set up. If the Client wants oBacker to issue them, this is an out-of-package add-on service, charged separately.
 
-*Digital Signature USB Token policy:* When the Client uses oBacker's back-office operations services, the Client registers/purchases 01 dedicated USB Token hardware from oBacker (or entrusts 01 dedicated USB Token to oBacker) with a limited written authorization for operations within the contracted service scope (tax filing, e-invoicing, social insurance reporting). The Client retains the primary USB Token for executive banking and commercial transactions. oBacker manages the dedicated token in a secure environment and logs each use.
+*Digital Signature USB Token policy:* When the Client uses oBacker's back-office operations services, the Client gives oBacker 01 secondary USB Token with a limited written authorisation for operations within the contracted service scope (tax filing, e-invoicing, social insurance reporting). The Client retains the primary USB Token for executive banking and commercial transactions. oBacker holds only the secondary USB Token that the Client gives, in a secure environment, and logs each use.
 
 **Legal support (tiered by package).**
 
-- *Partner Core:* access to the document template platform to use all standardised document and contract templates; electronic document storage. Does not include contract review or legal advisory (available under the Master SKU Catalog).
-- *Partner Growth:* as Partner Core, plus 2 commercial contracts reviewed per month (< 10 pages), 2 ERC changes/year, and drafting of 6 internal documents/year.
-- *Partner Prime:* as Partner Growth, plus 5 commercial contracts reviewed per month (< 10 pages), 4 ERC changes/year, drafting of 12 internal documents/year, and a Dedicated Account Manager.
+- *Partner Core:* access to the document template platform to use all standardised document and contract templates; electronic document storage. Does not include contract review or legal advisory (available under the master service catalog).
+- *Partner Growth:* as Partner Core, plus 2 commercial contracts reviewed per month (up to 10 pages), 2 ERC changes/year, and drafting of 6 internal documents/year.
+- *Partner Prime:* as Partner Growth, plus 5 commercial contracts reviewed per month (up to 10 pages), 4 ERC changes/year, drafting of 12 internal documents/year, and a Dedicated Account Manager.
 
-*Scope of one contract review:* one contract of up to 10 pages (roughly 3,000-4,000 words); a check of basic legal risk and flagging of unfavourable clauses; one review round and one feedback round; turnaround of three business days. A contract running from 11 to 20 pages counts as two reviews; a contract over 20 pages is charged VND 100,000 per page from page 21, or moves to an add-on service. *The Client should provide:* the contract (a Word or PDF file with selectable text), the transaction context, the Client's position, and any clauses of particular concern.
+*Scope of one contract review:* one contract of up to 10 pages (roughly 3,000 to 4,000 words); a check of basic legal risk and flagging of unfavourable clauses; one review round and one feedback round; turnaround of three business days. A contract running from 11 to 20 pages counts as two reviews; a contract over 20 pages is charged VND 100,000 per page from page 21, or moves to an add-on service. *The Client should provide:* the contract (a Word or PDF file with selectable text), the transaction context, the Client's position, and any clauses of particular concern.
 
 ## 7. Add-on services (out of package, charged separately)
 
@@ -183,7 +184,7 @@ Issuing output invoices on the Client's behalf; contract reviews beyond the pack
 
 ## 8. Outside oBacker's service scope
 
-oBacker does not provide the following in any of the three packages: litigation and dispute resolution at court or arbitration; nominee services in any form; mergers and acquisitions and fundraising; corporate restructuring (division, separation, merger, conversion of legal form); talent search and recruitment; employment termination, discipline and labour disputes; marketing and communications; and issuing output invoices on the Client's behalf (unless purchased as an add-on service).
+oBacker does not provide the following in any of the three packages: litigation and dispute resolution at court or arbitration; mergers and acquisitions and fundraising; corporate restructuring (division, separation, merger, conversion of legal form); talent search and recruitment; employment termination, discipline and labour disputes; marketing and communications; and issuing output invoices on the Client's behalf (unless purchased as an add-on service). Nominee services are strictly prohibited in any form (Article 12 of the Master T&C).
 
 Procedures for specialized sub-licences, foreign-worker documentation (work permits, temporary residence cards, visas), and intellectual-property registration (trademarks, copyrights) are outside the standard monthly recurring packages, but are provided by oBacker under separate Order Forms. When a need arises, oBacker proactively advises and provides a detailed quotation. Court and arbitration litigation matters are referred to suitable independent partner law firms.
 
@@ -194,7 +195,7 @@ Procedures for specialized sub-licences, foreign-worker documentation (work perm
 | Operational requests, periodic data submission | Email to the assigned Account Manager (or contact@obacker.com) | Account Manager |
 | Questions within the legal quota (Partner Growth, Partner Prime) | Email to the assigned Account Manager (or contact@obacker.com) | Account Manager |
 | Urgent matters | Email plus a call to the Hotline 02-888-999-789 | Account Manager |
-| Complaints, quality feedback | Email oBacker's management (trang@obacker.com, tuan@obacker.com) | Management |
+| Complaints, quality feedback | Email contact@obacker.com, stating the complaint or quality feedback | Management |
 
 *Working hours:* Monday to Friday, 9:00-18:00. On Saturday, only urgent obligations with government deadlines are handled. No operations on Sunday and public holidays.
 
@@ -222,13 +223,13 @@ You need a service contract, payment evidence and 10% PIT withholding (if the pa
 Not correct. You must still issue the invoice, recording the buyer's name and address (see Section 5.5).
 
 **I paid for online advertising and foreign software by company card; do I need to notify oBacker?**
-You must notify us immediately after the transaction. oBacker will determine whether the transaction is subject to FCT declaration. If you do not notify us and it is not declared within 10 days, the business will face penalties and a back-assessment (see Section 5.6).
+You must notify us immediately after the transaction. oBacker will determine whether the transaction is subject to FCT declaration. If you do not notify us and it is not declared by the statutory deadline, the business will face penalties and a back-assessment (see Section 5.6).
 
 **Does the Partner Core package include drafting labour contracts for new employees?**
 Yes. Drafting standard labour contracts and NDAs for internal employees applies to all three packages. It does not include drafting commercial contracts with third parties.
 
 **The Partner Growth package has 2 contract reviews per month; if I do not use them this month, do I get 4 next month?**
-No. The quota does not carry over to the next month. If you need more, you can order additional reviews under the Master SKU Catalog.
+No. The quota does not carry over to the next month. If you need more, you can order additional reviews under the master service catalog prices.
 
 **Can I contact oBacker staff directly through personal messaging?**
 Not recommended. All official exchanges go through the Account Manager by email so they are traceable and logged in the system. Personal messaging is for quick exchanges only, is not related to deliverables, and is not officially recorded.
@@ -240,7 +241,7 @@ Reply immediately on the email that contains that report, stating the error clea
 Email the assigned Account Manager or contact@obacker.com. oBacker sends a contract addendum within three business days; the upgrade takes effect from the next reporting cycle. The first month's fee after the upgrade is charged at the new package rate, and no refund is given for the previously paid fee of the old package.
 
 **What happens if the business exceeds the transaction or employee threshold of its current package?**
-oBacker applies its Fair Use Policy (FUP). Upon reaching or exceeding the monthly quota, oBacker reconciles and invoices monthly post-billing add-on transaction blocks (ADD-TXN-100, ADD-TXN-500, ADD-TXN-1K). Businesses exceeding the 1,500 transactions/month hard ceiling must upgrade to Partner Prime or bespoke custom contracts.
+oBacker applies its Fair Use Policy (FUP). Upon reaching or exceeding the monthly quota, oBacker reconciles and invoices monthly post-billing add-on transaction blocks (ADD-TXN-BLOCK-500-2026, ADD-TXN-BLOCK-1000-2026, ADD-TXN-BLOCK-1500-2026). Businesses exceeding the 1,500 transactions/month hard ceiling must upgrade to Partner Prime or bespoke custom contracts.
 
 **I need to handle a dispute with a former employee; does oBacker help?**
 No. Labour disputes fall under the out-of-scope group (Section 8). oBacker can refer you to a lawyer specialising in labour matters if you request it.
@@ -253,7 +254,7 @@ oBacker hands over all books, records and system login details to the Client or 
 
 ## 14. Quick checklist for the first five weeks
 
-**Week 1:** signed the service Agreement and sent the hard copy to oBacker; made the first payment; designated the primary contact and the back-up; signed the authorisation for the tax and social insurance authorities; scheduled the kick-off meeting with the Account Manager.
+**Week 1:** signed the service Agreement electronically; made the first payment; designated the primary contact and the back-up; signed the authorisation for the tax and social insurance authorities; scheduled the kick-off meeting with the Account Manager.
 
 **Week 2:** received the welcome email with the document request list; accessed the shared Google Drive folder; received the document template platform account; provided all documents per the request list; granted e-invoice and bank-statement access; introduced oBacker to the previous accounting provider (if any); read Sections 5, 8 and 10.
 
@@ -271,4 +272,4 @@ Definitions and abbreviations: Article 1 of the Master T&C.
 
 | Date | Version | Description |
 | --- | --- | --- |
-| 07/10/2026 | R.2.1.0 | Sections 2, 10, 11, 12, 15 replaced with pointers to Articles 2, 9, 20, 3, 21 and 1 of the Master T&C; legal content stays in the Master |
+| 08/10/2026 | V3.0.0 | Synced with the Vietnamese version: package table, new surcharge codes, USB Token, PIT and Nominee. |

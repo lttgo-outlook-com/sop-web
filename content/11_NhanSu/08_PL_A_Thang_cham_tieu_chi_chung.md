@@ -4,7 +4,8 @@ code: "OBK-QCNS-08-PL-A"
 type: "sop"
 folder: "11_NhanSu"
 level: "Phụ lục"
-version: "R.2.0.1"
+version: "V2.0.2"
+release: "R.26.10.08.1"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -27,7 +28,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-QCNS-08-PL-A |
 | Cấp tài liệu | Phụ lục |
-| Phiên bản | R.2.0.1, đang áp dụng |
+| Phiên bản | V2.0.2, đang áp dụng |
+| Phát hành | R.26.10.08.1 |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 23/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -41,7 +43,7 @@ Phụ lục này quy định thang chấm của ba nhóm tiêu chí chung tại 
 
 Cách đo tại mục 3, mục 4 và mục 5 của phụ lục này là cách đo chung. Cách đo chung áp cho mọi vị trí, trừ cách đo mà phiếu vị trí tại [[08_PL_E_Phieu_vi_tri|OBK-QCNS-08-PL-E]] ghi là không áp.
 
-Mã `NT-1` tới `NT-8` trong phụ lục này là nguyên tắc tại [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 4. Mã `CS-01` tới `CS-06` là chỉ số tại [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 11.1. Mã `CD-01` tới `CD-03` là quy tắc chặn điểm tại [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] mục 5.
+Mã `NT-2` và `NT-7` trong phụ lục này là nguyên tắc tại [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] mục 11.1. Mã `CS-01` tới `CS-06` là chỉ số tại [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] mục 11.2. Mã `CD-01` tới `CD-03` là quy tắc chặn điểm tại [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] mục 5.
 
 ---
 
@@ -112,11 +114,11 @@ Trọng số của nhóm: 70% điểm tổng. Nội dung đo theo [[08_Khung_dan
 
 `Công thức: số Job hoàn thành đúng hoặc trước hạn cam kết chia tổng số Job đến hạn trong kỳ, nhân 100%.`
 
-Job trễ do nguyên nhân thuộc khách hàng, đã có bằng chứng nhắc đủ số lần chuẩn theo [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 6.2, không tính là trễ, theo cách tính của chỉ số `CS-01`.
+Job trễ do nguyên nhân thuộc khách hàng, đã có bằng chứng nhắc đủ số lần chuẩn theo [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] mục 11.7, không tính là trễ, theo cách tính của chỉ số `CS-01`.
 
 | Hạng mục | Nội dung |
 | --- | --- |
-| Nguồn dữ liệu | Bảng số liệu hiệu suất tại [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] mục 6 bước 1, trích từ hệ thống quản lý công việc; cách tính của chỉ số `CS-01` tại [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 11.1 |
+| Nguồn dữ liệu | Bảng số liệu hiệu suất tại [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] mục 6 bước 1, trích từ sổ cái công việc; cách tính của chỉ số `CS-01` tại [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] mục 11.2 |
 | Định mức | 95% ở mọi bậc |
 | Căn cứ của định mức | [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] mục 2.1: OTD đạt từ 95% trở lên là điểm tối đa |
 | Quy đổi | Dạng thuận tại mục 2.1, điểm tối đa 100% |
@@ -129,13 +131,13 @@ Trễ thời hạn theo pháp luật do nguyên nhân thuộc oBacker không x�
 
 | Điều kiện | Nội dung | Nguồn dữ liệu |
 | --- | --- | --- |
-| 1 | Đầu ra được duyệt ngay lần đầu tại biên 1: đầu ra rời tay người làm sang lớp kiểm soát thứ hai theo NT-5 | Biên 1 tại [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 11.2; cách tính của chỉ số `CS-04` tại [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 11.1 |
-| 2 | Đầu ra không bị cơ quan nhà nước từ chối do lỗi chủ quan của người được chấm | Lỗi ghi nhận tại biên 2 theo OBK-SOP-00 mục 11.2: đầu ra đã gửi khách hoặc đã nộp cơ quan nhà nước |
+| 1 | Đầu ra được duyệt ngay lần đầu tại biên 1: đầu ra rời tay người làm sang người soát độc lập, tức người ghi sự kiện Soát theo [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 7.4 | Biên 1 tại [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] mục 11.4; cách tính của chỉ số `CS-04` tại [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] mục 11.2 |
+| 2 | Đầu ra không bị cơ quan nhà nước từ chối do lỗi chủ quan của người được chấm | Lỗi ghi nhận tại biên 2 theo [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] mục 11.4: đầu ra đã gửi khách hoặc đã nộp cơ quan nhà nước |
 | 3 | Đầu ra không phát sinh khiếu nại của khách hàng do lỗi chủ quan của người được chấm | Khiếu nại của khách hàng ghi nhận trong kỳ |
 
 | Bậc | Định mức, dạng thuận | Căn cứ |
 | --- | --- | --- |
-| `P1` | 80% | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 11.1, mục tiêu của `CS-04` |
+| `P1` | 80% | [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] mục 11.2, mục tiêu của `CS-04` |
 | `P2` | 90% | Con số oBacker tự đặt |
 | `P3` | 90% | Con số oBacker tự đặt |
 | `P4` | 90% | Con số oBacker tự đặt |
@@ -157,7 +159,7 @@ Khối lượng là số lượng hồ sơ, hợp đồng, hoặc số lượng 
 
 | Hạng mục | Nội dung |
 | --- | --- |
-| Nguồn dữ liệu | Bảng số liệu hiệu suất tại [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] mục 6 bước 1; Bảng theo dõi giờ làm việc, năng suất và công suất nhân sự tại [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 3 |
+| Nguồn dữ liệu | Bảng số liệu hiệu suất tại [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] mục 6 bước 1; số liệu theo dõi giờ làm việc và năng suất tại [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] mục 11.8 |
 | Đơn vị đo khối lượng của từng vị trí | Chưa quy định |
 | Định mức khối lượng tiêu chuẩn của từng vị trí | Chưa quy định |
 | Quy đổi | Dạng thuận tại mục 2.1 |
@@ -190,7 +192,7 @@ Trọng số của nhóm: 10% điểm tổng. Nội dung đo theo [[08_Khung_dan
 
 `Công thức: đếm số lần bị ghi nhận vi phạm quy trình hoặc bảng kiểm trong kỳ.`
 
-Nguồn dữ liệu: bảng số liệu hiệu suất tại [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] mục 6 bước 1, phần vi phạm quy trình trích từ hệ thống.
+Nguồn dữ liệu: bảng số liệu hiệu suất tại [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] mục 6 bước 1, phần vi phạm quy trình trích từ sổ cái công việc.
 
 | Bậc | Mức tối đa, dạng nghịch | Căn cứ |
 | --- | --- | --- |
@@ -202,22 +204,22 @@ Mức tối đa bằng 0 nên áp quy tắc tại mục 2.2. Một lần vi ph�
 
 Cách đo trách nhiệm và phối hợp chấm bằng ý kiến người. Người được chấm tự chấm theo [[NS-01_Phieu_tu_danh_gia_hieu_suat|NS-01]] mục 2; quản lý trực tiếp chấm. Trọng số người chấm đặt tại [[NS-03_Phieu_tong_hop_diem_cuoi_ky|NS-03]] mục 2.2.
 
-Các mức tại bảng dưới đây là mức chấm của cách đo trách nhiệm và phối hợp, khác với nhãn xếp loại cả kỳ tại [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] mục 1.1.
+Mức 1 đến Mức 5 tại bảng dưới đây là mức chấm của cách đo trách nhiệm và phối hợp, khác với nhãn xếp loại cả kỳ A đến D tại [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] mục 1.1.
 
-Người chấm phải ghi ít nhất một bằng chứng cụ thể cho mỗi mức từ Vượt yêu cầu trở lên. Mức Xuất sắc chỉ được cấp khi có bằng chứng được quản lý trực tiếp xác nhận.
+Người chấm phải ghi ít nhất một bằng chứng cụ thể cho mỗi mức từ Mức 4 trở lên. Mức 5 chỉ được cấp khi có bằng chứng được quản lý trực tiếp xác nhận.
 
 | Mức | Điểm | Mô tả hành vi trong kỳ |
 | --- | --- | --- |
-| Xuất sắc | 110% | Chủ động phát hiện và xử lý sự ách tắc công việc giữa hai bộ phận trước khi sự ách tắc đó ảnh hưởng khách hàng.<br>Nội dung chuyển lên cấp trên luôn đủ bốn phần theo NT-7 |
-| Vượt yêu cầu | 95% | Báo trước rủi ro trễ ngay khi phát hiện, không đợi tới hạn.<br>Đáp ứng đúng thời hạn nội bộ với `AM` và với bộ phận khác trong mọi lần |
-| Đạt | 85% | Hỏi khi vướng thay vì tự đoán.<br>Đáp ứng thời hạn nội bộ với `AM` theo chỉ số `CS-06`.<br>Khi có lỗi thì ghi nhận đủ bốn trường bắt buộc, không ghi nguyên nhân là bất cẩn hay sơ suất |
-| Cần cải thiện | 70% | Có lần để `AM` phải nhắc mới trả lời.<br>Chuyển lên cấp trên không kèm phương án đề xuất.<br>Ghi nhận lỗi thiếu trường nguyên nhân gốc hoặc thiếu biện pháp phòng ngừa |
-| Không đạt | 50% | Có lần liên hệ thẳng khách hàng không qua `AM`, trái NT-2.<br>Hoặc chuyển lên cấp trên rồi rời khỏi vụ việc |
+| Mức 5 | 110% | Chủ động phát hiện và xử lý sự ách tắc công việc giữa hai bộ phận trước khi sự ách tắc đó ảnh hưởng khách hàng.<br>Nội dung chuyển lên cấp trên luôn đủ bốn phần theo NT-7 tại [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] mục 11.1 |
+| Mức 4 | 95% | Báo trước rủi ro trễ ngay khi phát hiện, không đợi tới hạn.<br>Đáp ứng đúng thời hạn nội bộ với `AM` và với bộ phận khác trong mọi lần |
+| Mức 3 | 85% | Hỏi khi vướng thay vì tự đoán.<br>Đáp ứng thời hạn nội bộ với `AM` theo chỉ số `CS-06`.<br>Khi có lỗi thì ghi nhận đủ bốn trường bắt buộc, không ghi nguyên nhân là bất cẩn hay sơ suất |
+| Mức 2 | 70% | Có lần để `AM` phải nhắc mới trả lời.<br>Chuyển lên cấp trên không kèm phương án đề xuất.<br>Ghi nhận lỗi thiếu trường nguyên nhân gốc hoặc thiếu biện pháp phòng ngừa |
+| Mức 1 | 50% | Có lần liên hệ thẳng khách hàng không qua `AM`, trái NT-2 tại [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] mục 11.1.<br>Hoặc chuyển lên cấp trên rồi rời khỏi vụ việc |
 
 ---
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.2.0.1 | Bỏ câu tự mô tả đầu phụ lục, câu tổng trọng số, câu kiểm dãy bậc và câu mở đầu mục 2 |
+| 08/10/2026 | V2.0.2 | Dẫn chiếu NT, CS, mức lỗi về Khung mục 11; thang trách nhiệm đánh số Mức 1 đến Mức 5. |

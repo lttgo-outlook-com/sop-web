@@ -4,8 +4,9 @@ code: "OBK-SOP-PL-E"
 type: "sop"
 folder: "90_ThuVien"
 level: "Phụ lục"
-version: "R.2.0.1"
-status: "đang áp dụng"
+version: "V2.0.2"
+release: "R.26.10.08.1"
+status: "thư viện tham khảo"
 draft_date: "01/10/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -29,7 +30,8 @@ tags:
 | Mã tài liệu | OBK-SOP-PL-E |
 | Tên phụ lục | Danh mục văn bản pháp luật áp dụng |
 | Cấp tài liệu | Phụ lục của hướng dẫn cấp 3 |
-| Phiên bản | R.2.0.1, đang áp dụng |
+| Phiên bản | V2.0.2, thư viện tham khảo |
+| Phát hành | R.26.10.08.1 |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -375,6 +377,6 @@ Quy tắc vận hành Bảng C:
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.2.0.1 | Bỏ mục mô tả kho đã bỏ, câu đếm tệp, câu lịch sử nhập kho, đoạn lặp phạm vi ngoại lệ và ghi chú lịch sử bản 1.0 |
+| 08/10/2026 | V2.0.2 | Đặt trạng thái thư viện tham khảo và sửa dẫn chiếu tới OBK-MSR trong PL_E_Danh_muc_van_ban. |

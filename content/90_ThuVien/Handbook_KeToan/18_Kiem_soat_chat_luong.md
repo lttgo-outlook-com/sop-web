@@ -4,8 +4,9 @@ code: "OBK-SOP-18"
 type: "sop"
 folder: "90_ThuVien"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.2.0.1"
-status: "đang áp dụng"
+version: "V2.0.2"
+release: "R.26.10.08.1"
+status: "thư viện tham khảo"
 draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -30,7 +31,8 @@ tags:
 | Mã tài liệu | OBK-SOP-18 |
 | Tên chương | Kiểm soát chất lượng và quy trình soát xét |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.2.0.1, đang áp dụng |
+| Phiên bản | V2.0.2, thư viện tham khảo |
+| Phát hành | R.26.10.08.1 |
 | Ngày biên soạn | 04/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 25/08/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -660,7 +662,7 @@ Ba mức chính thức của công ty là Nghiêm trọng, Đáng kể, Nhỏ, �
 
 #### 6.6.2. Bảng phân loại lỗi theo mức độ
 
-| Mức | Nhóm | Mức theo [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 11.2 | Mô tả | Ví dụ điển hình | Thời hạn khắc phục | Ai được đóng lỗi |
+| Mức | Nhóm | Mức theo [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] | Mô tả | Ví dụ điển hình | Thời hạn khắc phục | Ai được đóng lỗi |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | A | Nghiêm trọng, đã lọt ra ngoài | Lỗi nhóm A đã ra ngoài oBacker.<br>Tính là mức 1 kể cả khi chưa phát sinh chế tài, vì hồ sơ đã tới khách hoặc đã tới cơ quan nhà nước | Nộp tờ khai sai số thuế;<br>nộp chậm quá hạn;<br>phát hành báo cáo tài chính sai chỉ tiêu trọng yếu;<br>bỏ sót một nghĩa vụ khai của khách | Phương án khắc phục trong 24 giờ;<br>hoàn thành khắc phục theo mốc trong phương án | COO, sau khi có xác nhận đã khắc phục xong và đã báo cáo CEO |
 | 2 | A | Nghiêm trọng, chưa lọt ra ngoài | Lỗi trọng yếu nhưng phát hiện trước khi ra ngoài | TL-KT soát ở lớp 1 và phát hiện sai thuế suất trên tờ khai trước khi nộp;<br>TL-KT phát hiện chỉ tiêu sai trước khi ký chốt báo cáo | Trước khi phát hành, không được để sang kỳ sau | TL-KT;<br>COO nếu người mắc lỗi là chính TL-KT đó |
@@ -670,7 +672,7 @@ Ba mức chính thức của công ty là Nghiêm trọng, Đáng kể, Nhỏ, �
 | 6 | C | Đáng kể | Lỗi trình bày trên tài liệu đã gửi khách | Sai tên khách trên báo cáo;<br>sai đơn vị tính;<br>lỗi định dạng bảng | AM gửi bản đính chính trong 1 ngày làm việc | TL-KT |
 | 7 | C | Nhỏ, và không phải lỗi đầu ra vì chưa vượt biên 1 | Lỗi trình bày trên tài liệu nội bộ | Lỗi chính tả trong ghi chú nội bộ | Tối đa 10 ngày | TL-KT hoặc chính CV-KT |
 
-Cột thứ ba là bảng ánh xạ bắt buộc theo [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 11.2c. Số liệu báo cáo lên công ty ghi theo cột thứ ba, không ghi theo số mức ở cột thứ nhất.
+Cột thứ ba là bảng ánh xạ bắt buộc theo [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]]. Số liệu báo cáo lên công ty ghi theo cột thứ ba, không ghi theo số mức ở cột thứ nhất.
 
 Hai chỗ thang bảy mức NGHIÊM HƠN bảng cấp 1, và mục 11.2b quy tắc 5 cho phép nghiêm hơn: mức 4 đòi `COO` đóng dù mức đó ánh xạ về Đáng kể, và mức 5 đòi khắc phục trong 5 ngày làm việc dù mức đó ánh xạ về Nhỏ.
 
@@ -967,6 +969,6 @@ Chỉ số của chính chương này, đo mức độ chương được thực 
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.2.0.1 | Bỏ đoạn hệ quả ở cảnh báo mở đầu, đoạn giải thích ỷ lại, đoạn văn hóa báo lỗi, các cột hệ quả, lý do, biểu hiện; giảm chữ duy nhất |
+| 08/10/2026 | V2.0.2 | Đặt trạng thái thư viện tham khảo và sửa dẫn chiếu tới OBK-MSR trong 18_Kiem_soat_chat_luong. |

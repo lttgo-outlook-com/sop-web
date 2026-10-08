@@ -4,8 +4,9 @@ code: "OBK-HB-31"
 type: "sop"
 folder: "90_ThuVien"
 level: "Cấp 3, hướng dẫn nghiệp vụ"
-version: "R.2.0.1"
-status: "đang áp dụng"
+version: "V2.0.2"
+release: "R.26.10.08.1"
+status: "thư viện tham khảo"
 draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
@@ -30,7 +31,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-HB-31 |
 | Cấp tài liệu | Cấp 3, hướng dẫn nghiệp vụ |
-| Phiên bản | R.2.0.1, đang áp dụng |
+| Phiên bản | V2.0.2, thư viện tham khảo |
+| Phát hành | R.26.10.08.1 |
 | Ngày biên soạn | 04/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 07/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -38,7 +40,7 @@ tags:
 | Người phê duyệt | CEO (Lê Trọng Tuấn) |
 | Văn bản cấp trên | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] Quản lý khách hàng |
 | Phạm vi | `AM`, chặng bán hàng từ lúc lead vào đến lúc hợp đồng được ký và tiền về |
-| Đọc trước | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] mục 3 Job AM-01 tới AM-05, AM-22 tới AM-24;<br>[[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 7.2.3, mục 8.2.1 và mục 9 |
+| Đọc trước | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] mục 3 Job AM-01 tới AM-05, AM-22 tới AM-24;<br>[[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 7.2a, mục 9, [[PL_Chuyen_len_cap_tren\|OBK-QCTC-02-PL-C]] |
 
 ---
 
@@ -238,14 +240,14 @@ Biên bản đủ năm phần: kết quả khách muốn đạt; hiện trạng,
 
 ### 5.6. Bước 6. Gửi thư tóm tắt, trong 30 phút sau họp
 
-Gửi bằng email công ty, vì đó là kênh chính thống theo [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 7.2.1a. Nội dung là bản rút gọn của biên bản, cộng một câu về bước tiếp theo và mốc gửi đề xuất. Câu chữ mẫu tại `PL_A` mục 6.
+Gửi bằng email công ty, vì đó là kênh chính thống. Nội dung là bản rút gọn của biên bản, cộng một câu về bước tiếp theo và mốc gửi đề xuất. Câu chữ mẫu tại `PL_A` mục 6.
 
 ## 6. ĐIỂM KIỂM SOÁT BẮT BUỘC
 
 | Mã | Chốt | Trước bước nào | Không đạt thì làm gì |
 | --- | --- | --- | --- |
 | Chốt 1 | Bốn nhóm câu hỏi đều có câu trả lời ghi trong biên bản, hoặc ghi rõ là chưa hỏi được | Trước bước 6 | Hẹn khách một lượt trao đổi ngắn để hỏi phần thiếu. Không đoán |
-| Chốt 2 | Thư tóm tắt đã gửi bằng email công ty trong cùng ngày làm việc | Trước khi sang `AM-03` | Chưa được xác định là đã chốt nội dung với khách, theo [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 7.2.1a quy tắc 2 |
+| Chốt 2 | Thư tóm tắt đã gửi bằng email công ty trong cùng ngày làm việc | Trước khi sang `AM-03` | Chưa được xác định là đã chốt nội dung với khách |
 | Chốt 3 | Không có mức giá, mốc giao, hay cam kết phạm vi nào trong biên bản và trong thư tóm tắt | Trước bước 6 | Xóa và thay bằng câu chuẩn tại `PL_A` mục 5. Cam kết mốc chưa có xác nhận của `TL` vi phạm `KS-AM-01` |
 
 ## 7. LỖI THƯỜNG GẶP VÀ CÁCH XỬ LÝ
@@ -315,7 +317,7 @@ Không áp cho việc gia hạn hợp đồng cũ không đổi phạm vi; việ
 | Đầu vào | Thiếu thì sao |
 | --- | --- |
 | Biên bản họp làm rõ đủ năm phần | Không soạn đề xuất. Quay lại `AM-02` |
-| Đầu vào phạm vi và tính khả thi của `TL` bộ phận, BẰNG VĂN BẢN trên Job | Không soạn đề xuất. Hạn `TL` cấp đầu vào là 03 giờ làm việc theo [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 7.4 |
+| Đầu vào phạm vi và tính khả thi của `TL` bộ phận, BẰNG VĂN BẢN trên Job | Không soạn đề xuất. Hạn `TL` cấp đầu vào là 03 giờ làm việc theo [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 7.2a |
 | Khung giá và khung điều kiện đang có hiệu lực | Không báo giá. Chuyển `AM-23` |
 | Mẫu hợp đồng đang có hiệu lực | Dùng mẫu theo [[PL_HD_Mau_hop_dong_dich_vu_khung\|OBK-SOP-AM-PL2]]. Không gửi hợp đồng khác mẫu. Mở Job cho `RD-18` |
 | Văn bản nhận việc của `CEO`, nếu phạm vi thuộc nhóm A hoặc B của [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] mục 1.2 | Không báo giá. Xem `KS-AM-07` và [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] mục 1.5 |
@@ -441,6 +443,6 @@ Có xác nhận thanh toán thì sang `AM-06` trong 01 ngày làm việc, và ti
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.2.0.1 | Bỏ câu hai mục đích, đoạn tự mô tả, đoạn mục đích của phần 3, đoạn ba lý do và các vế hậu quả |
+| 08/10/2026 | V2.0.2 | Đặt trạng thái thư viện tham khảo và sửa dẫn chiếu tới OBK-MSR trong 01_Huong_dan_AM_Ban_hang. |

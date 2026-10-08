@@ -5,7 +5,8 @@ aliases:
   - TNC-04-EN
 type: "tnc"
 folder: "09_TnC"
-version: "R.2.1.1"
+version: "V3.0.0"
+release: "R.26.10.08.1"
 status: "đang áp dụng"
 author: "CEO"
 reviewer: "CEO"
@@ -22,7 +23,7 @@ tags:
 *Service-Specific Terms forming an integral part of the Master T&C; oBacker Joint Stock Company*
 Tax code: 0402298185 · Floor 2, 06 Tran Phu Street, Hai Chau Ward, Da Nang, Vietnam · contact@obacker.com
 
-**Version:** R.2.1.1 (VI-EN) · **Updated:** 07/10/2026
+**Version:** V3.0.0 (VI-EN) · **Release:** R.26.10.08.1 · **Updated:** 08/10/2026
 
 > These are the Service-Specific Terms for Legal Services (the "**Services**"), covering four areas: (A) legal and tax advisory; (B) contract/document review and drafting; (C) Research On Demand; and (D) Intellectual Property registration (trademarks, copyrights). They apply where the Services are recorded in an Order Form; per matter, per hour, or per number of review rounds within a package. **If there is any discrepancy between the Master T&C and this document, this document prevails for the Services.**
 
@@ -30,9 +31,9 @@ Tax code: 0402298185 · Floor 2, 06 Tran Phu Street, Hai Chau Ward, Da Nang, Vie
 
 ## Article 1. Definitions and scope
 
-The Legal Services are provided by oBacker Joint Stock Company in cooperation with an **independent partner law firm** (expected to be oBacker Law; to be established; until then, the Services are delivered through independent partner law firm(s)). They cover legal and tax advice, document review and drafting, legal research on demand, and intellectual property registration services. Delivery follows the Order Form; by advisory hours per period, contract review rounds per period, or per matter.
+The Legal Services are provided by oBacker Joint Stock Company in cooperation with an **independent partner law firm**. They cover legal and tax advice, document review and drafting, legal research on demand, and intellectual property registration services. Delivery follows the Order Form; by advisory hours per period, contract review rounds per period, or per matter.
 
-oBacker performs the Services only within the domains and industries it serves. oBacker's Legal team allocates resources under internal approval and coordinates through the AM; **it does not deal directly with the Client**.
+oBacker performs the Services only within the domains and industries it serves.
 
 ## Article 2. Scope of Services
 
@@ -59,9 +60,9 @@ oBacker performs the Services only within the domains and industries it serves. 
 
 **2.5. Intellectual Property registration (Trademarks, Copyrights):**
 
-- **Trademark registration:** Preliminary search on registrability; classification of goods and services under the Nice Classification; drafting trademark applications and compiling dossier; representation in filing at the National Office of Intellectual Property (NOIP); tracking application status, notifying formal examination, publication, substantive examination results, and receiving the Trademark Registration Certificate under procedure `LIC-30`.
-- **Copyright registration:** Advisory on copyright dossiers (computer programs, applied art, literary works); drafting application forms, descriptions of works, warranties, and powers of attorney; representation in filing at the Copyright Office of Vietnam (COV) and receiving the Copyright Registration Certificate under procedure `LIC-31`.
-- **Renewal and modification:** Preparing and filing requests for renewal of trademark protection titles under applicable regulations.
+- **Trademark registration:** Preliminary search on registrability; classification of goods and services under the Nice Classification; drafting trademark applications and compiling dossier; representation in filing at the National Office of Intellectual Property (NOIP); tracking application status, notifying formal examination, publication, substantive examination results, and receiving the Trademark Registration Certificate.
+- **Copyright registration:** Advisory on copyright dossiers (computer programs, applied art, literary works); drafting application forms, descriptions of works, warranties, and powers of attorney; representation in filing at the Copyright Office of Vietnam (COV) and receiving the Copyright Registration Certificate.
+- **Renewal:** Preparing and filing requests for renewal of trademark protection titles under applicable regulations.
 
 ## Article 3. Limits on the scope of Services
 
@@ -69,13 +70,14 @@ oBacker performs the Services only within the domains and industries it serves. 
 - Advice is a professional opinion and is **not a guarantee of outcome** before any state authority or court; the final decision rests with those authorities
 - Advice is prepared solely for the Client and for the stated purpose. No third party may use or rely on it without oBacker's consent; oBacker is not liable for any loss arising from a third party's unauthorised use
 - The scope is limited to Vietnamese law unless otherwise agreed
-- It **does not include:** litigation representation or proceedings before courts or arbitration; handling intellectual property infringement disputes or lawsuits at court; in-depth M&A and fundraising (due diligence, SPA/SHA negotiation); corporate restructuring; nominee services in any form; unless separately agreed under a separate Order Form. Litigation matters are referred to suitable independent partner law firms.
+- It **does not include:** litigation representation or proceedings before courts or arbitration; handling intellectual property infringement disputes or lawsuits at court; in-depth M&A and fundraising (due diligence, SPA/SHA negotiation); corporate restructuring; unless separately agreed under a separate Order Form. Litigation matters are referred to suitable independent partner law firms
+- **Prohibited:** nominee services in any form. Article 12 of the Master T&C applies to this matter.
 
 ## Article 4. Scope of one contract review round
 
 One (01) contract review round covers:
 
-- **One contract of up to 10 pages** (roughly 3,000-4,000 words)
+- **One contract of up to 10 pages** (roughly 3,000 to 4,000 words)
 - oBacker performs a basic legal-risk check, flagging unfavourable clauses
 - 01 review round + 01 feedback round
 - Turnaround: 03 business days per round.
@@ -105,11 +107,11 @@ One (01) contract review round covers:
 | Response to a new advisory inquiry | Acknowledgement within 04 business hours; substantive reply within 24 to 48 business hours of receiving complete information |
 | Copyright registration | Complete application dossier within 05 business days; statutory certificate issuance by COV is 15 business days from receipt of a complete dossier |
 | Trademark registration (filing phase) | Preliminary search and dossier preparation within 05 business days; filing and securing filing receipt within 02 business days of receiving signed documents |
-| Trademark registration (examination phase) | Formal examination 01 month; publication 02 months; substantive examination at NOIP realistically spans 12 to 16 months (statutory guideline is 09 months, but due to actual administrative backlogs at NOIP, real-world processing extends to 12-16 months). oBacker secures filing priority (first-to-file principle) but is not liable for administrative examination delays at state agencies |
+| Trademark registration (examination phase) | Formal examination 01 month; publication 02 months; substantive examination at NOIP realistically spans 12 to 16 months (statutory guideline is 09 months, but due to actual administrative backlogs at NOIP, real-world processing extends to 12-16 months). oBacker is not liable for administrative examination delays at state agencies |
 | Hourly advisory within a package | By appointment within the period (email, in person or video call) |
 | Research On Demand | Per the scope agreed in the Order Form |
 
-> **Deadline extension for Client delays:** If the Client delays in providing background documents, signing application files, or clarifying necessary information beyond the agreed schedule, the entire duration of such delay will be added directly to oBacker's deliverable completion deadline (1:1 calendar day extension per Article 5.4(a) of the Master T&C). Such delay period is excluded from oBacker's committed turnaround time.
+> **Deadline extension for Client delays:** If the Client delays in providing background documents, signing application files, or clarifying necessary information beyond the agreed schedule, the entire number of Business Days of such delay is added directly to oBacker's deliverable completion deadline (1:1 equivalent extension per Article 5.4(a) of the Master T&C). Such delay period is excluded from oBacker's committed turnaround time.
 
 Advisory hours and review rounds within a package apply per period and **do not carry over** to the next period, unless the Order Form provides otherwise.
 
@@ -126,7 +128,7 @@ oBacker retains copyright and all intellectual property rights in its work produ
 
 ## Article 9. Service Fees
 
-The Service Fees are set in the Order Form; by hour, by review round, by matter, or by research scope. For clients subscribed to periodic partner retainer packages: Partner Growth includes complimentary review of 02 commercial contracts/month (< 10 pages), 02 ERC amendment filings/year, and drafting of 06 internal documents/year; Partner Prime includes complimentary review of 05 commercial contracts/month (< 10 pages), 04 ERC amendment filings/year, and drafting of 12 internal documents/year. Where demand exceeds the package limits (extra hours, extra rounds, contracts over 10 pages, new drafting, Research On Demand, or out-of-scope work), oBacker gives advance notice and applies the Master SKU Catalog upon the Client's approval.
+The Service Fees are set in the Order Form; by hour, by review round, by matter, or by research scope. For clients subscribed to periodic partner retainer packages: Partner Growth includes complimentary review of 02 commercial contracts/month (up to 10 pages), 02 ERC amendment filings/year, and drafting of 06 internal documents/year; Partner Prime includes complimentary review of 05 commercial contracts/month (up to 10 pages), 04 ERC amendment filings/year, and drafting of 12 internal documents/year. Where demand exceeds the package limits (extra hours, extra rounds, contracts over 10 pages, new drafting, Research On Demand, or out-of-scope work), oBacker gives advance notice and applies the prices in the master service catalog upon the Client's approval.
 
 ---
 
@@ -136,7 +138,6 @@ The Service Fees are set in the Order Form; by hour, by review round, by matter,
 
 ## REVISION LOG
 
-| Date | Version | R.2.1.1, currently applicable |
+| Date | Version | Description |
 | --- | --- | --- |
-| 07/10/2026 | R.2.1.1 | Subject oBacker added to the three service-scope bullets (tax impact assessment, contract and legal document drafting, basic legal-risk check) |
-| 02/10/2026 | R.2.1.0 | Copyright registration and trademark filing: complete the application dossier within 05 business days<br>Trademark substantive examination: drop the GT-07 reference, keep the fact of the NOIP dossier backlog |
+| 08/10/2026 | V3.0.0 | Synced with the Vietnamese version: Nominee prohibition; first-to-file commitment removed. |

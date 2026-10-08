@@ -4,7 +4,8 @@ code: "OBK-SOP-PM-PL1"
 type: "sop"
 folder: "09_TnC"
 level: "Phụ lục"
-version: "R.1.0.2"
+version: "V1.0.2"
+release: "R.26.10.08.1"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -25,7 +26,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-SOP-PM-PL1 |
 | Cấp tài liệu | Phụ lục |
-| Phiên bản | R.1.0.2, đang áp dụng |
+| Phiên bản | V1.0.2, đang áp dụng |
+| Phát hành | R.26.10.08.1 |
 | Ngày biên soạn | 01/10/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
@@ -96,6 +98,6 @@ Bảng lập tay từ hai bản mẫu song ngữ và từ các quyết định v
 
 ## NHẬT KÝ SỬA
 
-| Ngày | Bản | Nội dung |
+| Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.1.0.2 | Bỏ câu hướng dẫn cách tra cột ở mục 1 |
+| 08/10/2026 | V1.0.2 | Bỏ câu hướng dẫn cách tra cột ở mục 1 |
