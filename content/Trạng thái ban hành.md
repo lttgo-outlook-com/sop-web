@@ -10,7 +10,7 @@ tags:
 > [!info] TRANG NÀY LÀ GÌ
 > Trang này ghi trạng thái của 113 tài liệu trong kho. Trang này được sinh lại từ thông tin đầu tệp của từng tài liệu; nơi sửa một trạng thái là bảng Thông tin phiên bản của chính tài liệu đó. Mã phát hành của từng lần phát hành ghi tại [[Nhật ký phát hành]].
 
-Cập nhật ngày 09/10/2026.
+Cập nhật ngày 08/10/2026.
 
 ## Tổ chức và phân quyền
 
@@ -60,8 +60,8 @@ Thư mục `09_TnC`, 21 tài liệu.
 | [[00_TnC_Master_VI\|TNC-00-VI]] | [[00_TnC_Master_VI]] |  | V4.0.0 | R.26.10.08.1 | đang áp dụng | CEO | CEO |  |  |
 | [[01_Licensing_EN\|TNC-01-EN]] | [[01_Licensing_EN]] |  | V2.0.0 | R.26.10.08.1 | đang áp dụng | CEO | CEO |  |  |
 | [[01_Licensing_VI\|TNC-01-VI]] | [[01_Licensing_VI]] |  | V2.0.0 | R.26.10.08.1 | đang áp dụng | CEO | CEO |  |  |
-| [[02_Accounting_Tax_EN\|TNC-02-EN]] | [[02_Accounting_Tax_EN]] |  | V3.1.0 | R.26.10.09.1 | đang áp dụng | CEO | CEO |  |  |
-| [[02_Accounting_Tax_VI\|TNC-02-VI]] | [[02_Accounting_Tax_VI]] |  | V3.1.0 | R.26.10.09.1 | đang áp dụng | CEO | CEO |  |  |
+| [[02_Accounting_Tax_EN\|TNC-02-EN]] | [[02_Accounting_Tax_EN]] |  | V3.2.0 | R.26.10.09.2 | đang áp dụng | CEO | CEO |  |  |
+| [[02_Accounting_Tax_VI\|TNC-02-VI]] | [[02_Accounting_Tax_VI]] |  | V3.2.0 | R.26.10.09.2 | đang áp dụng | CEO | CEO |  |  |
 | [[03_HR_Payroll_EN\|TNC-03-EN]] | [[03_HR_Payroll_EN]] |  | V2.0.0 | R.26.10.08.1 | đang áp dụng | CEO | CEO |  |  |
 | [[03_HR_Payroll_VI\|TNC-03-VI]] | [[03_HR_Payroll_VI]] |  | V2.0.0 | R.26.10.08.1 | đang áp dụng | CEO | CEO |  |  |
 | [[04_Legal_Services_EN\|TNC-04-EN]] | [[04_Legal_Services_EN]] |  | V3.0.0 | R.26.10.08.1 | đang áp dụng | CEO | CEO |  |  |
@@ -84,8 +84,8 @@ Thư mục `10_DanhMuc`, 9 tài liệu.
 | Mã | Tài liệu | Cấp | Phiên bản | Phát hành | Trạng thái | Người soát | Người phê duyệt | Ngày biên soạn | Rà soát tiếp theo |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [[00_Danh_muc_dich_vu_va_bang_gia\|OBK-DM-00]] | [[00_Danh_muc_dich_vu_va_bang_gia]] | Danh mục | V2.0.0 | R.26.10.08.1 | đang áp dụng | CEO | CEO | 04/10/2026 |  |
-| [[01_Goi_dich_vu_va_hang_muc_kem_goi\|OBK-DM-GOI]] | [[01_Goi_dich_vu_va_hang_muc_kem_goi]] | Danh mục | V2.1.0 | R.26.10.09.1 | đang áp dụng | CEO | CEO | 04/10/2026 |  |
-| [[02_Bang_gia_Giay_phep_va_doanh_nghiep\|OBK-DM-GP]] | [[02_Bang_gia_Giay_phep_va_doanh_nghiep]] | Danh mục | V1.1.3 | R.26.10.08.1 | đang áp dụng | CEO | CEO | 04/10/2026 |  |
+| [[01_Goi_dich_vu_va_hang_muc_kem_goi\|OBK-DM-GOI]] | [[01_Goi_dich_vu_va_hang_muc_kem_goi]] | Danh mục | V2.2.0 | R.26.10.09.2 | đang áp dụng | CEO | CEO | 04/10/2026 |  |
+| [[02_Bang_gia_Giay_phep_va_doanh_nghiep\|OBK-DM-GP]] | [[02_Bang_gia_Giay_phep_va_doanh_nghiep]] | Danh mục | V1.2.0 | R.26.10.09.2 | đang áp dụng | CEO | CEO | 04/10/2026 |  |
 | [[03_Bang_gia_Ke_toan_va_thue\|OBK-DM-KT]] | [[03_Bang_gia_Ke_toan_va_thue]] | Danh mục | V1.1.3 | R.26.10.08.1 | đang áp dụng | CEO | CEO | 04/10/2026 |  |
 | [[04_Bang_gia_Lao_dong_va_giay_to_nguoi_nuoc_ngoai\|OBK-DM-LD]] | [[04_Bang_gia_Lao_dong_va_giay_to_nguoi_nuoc_ngoai]] | Danh mục | V1.2.0 | R.26.10.08.1 | đang áp dụng | CEO | CEO | 04/10/2026 |  |
 | [[05_Bang_gia_Dich_vu_phap_ly_va_so_huu_tri_tue\|OBK-DM-LS]] | [[05_Bang_gia_Dich_vu_phap_ly_va_so_huu_tri_tue]] | Danh mục | V1.1.3 | R.26.10.08.1 | đang áp dụng | CEO | CEO | 04/10/2026 |  |

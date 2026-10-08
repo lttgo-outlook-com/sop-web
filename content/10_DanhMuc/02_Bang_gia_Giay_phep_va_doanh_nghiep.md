@@ -4,8 +4,8 @@ code: "OBK-DM-GP"
 type: "danh-muc"
 folder: "10_DanhMuc"
 level: "Danh mục"
-version: "V1.1.3"
-release: "R.26.10.08.1"
+version: "V1.2.0"
+release: "R.26.10.09.2"
 status: "đang áp dụng"
 draft_date: "04/10/2026"
 author: "CEO"
@@ -29,8 +29,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-DM-GP |
 | Cấp tài liệu | Danh mục |
-| Phiên bản | V1.1.3, đang áp dụng |
-| Phát hành | R.26.10.08.1 |
+| Phiên bản | V1.2.0, đang áp dụng |
+| Phát hành | R.26.10.09.2 |
 | Ngày biên soạn | 04/10/2026 |
 | Người biên soạn | `CEO` |
 | Người soát | CEO |
@@ -72,7 +72,7 @@ Giá ghi bằng đồng Việt Nam, tính cho một đơn vị tính.
 | `DN-DVNQ-21` | HỒ SƠ HƯỞNG CHÍNH SÁCH VỀ THU NHẬP, LƯU TRÚ CHO CHUYÊN GIA, NHÀ KHOA HỌC TRÊN ĐỊA BÀN TP ĐÀ NẴNG (NQ 21) | gói | 10.000.000 | tính khi xuất hóa đơn | 8% | không | chưa ghi | oBacker |
 | `DN-DVNQ-23` | HỒ SƠ ĐỀ NGHỊ HỖ TRỢ SỬ DỤNG TÀI SẢN HẠ TẦNG TẠI KHU ICT1 (NQ 23) | gói | 15.000.000 | tính khi xuất hóa đơn | 8% | không | chưa ghi | oBacker |
 | `F-FDI-MA` | Dịch Vụ Đăng Ký Góp Vốn / Mua Cổ Phần Doanh Nghiệp FDI (Lộ Trình M&A) | gói | 25.000.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
-| `F-FDI-NEW` | Dịch Vụ Thành Lập Doanh Nghiệp FDI Mới Hoàn Toàn (Lộ Trình Đầu Tư Trực Tiếp: IRC + ERC) | gói | 35.000.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
+| `F-FDI-NEW` | Dịch Vụ Thành Lập Doanh Nghiệp FDI Mới Hoàn Toàn (Lộ Trình Đầu Tư Trực Tiếp: IRC + ERC) | gói | 45.000.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
 | `F-VN-ERC` | Dịch Vụ Thành Lập Công Ty Việt Nam Cơ Bản (ERC + Con Dấu) | gói | 1.850.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
 | `LCS-RETAIL` | Dịch Vụ Xin Cấp Giấy Phép Kinh Doanh Hoạt Động Bán Lẻ Cho Doanh Nghiệp FDI | gói | 34.000.000 | tính khi xuất hóa đơn | 10% | không | oBacker tự thực hiện | oBacker |
 | `LICE-CLOSE-RO` | Dịch vụ Đóng văn phòng đại diện | gói | 4.000.000 | tính khi xuất hóa đơn | 8% | không | oBacker tự thực hiện | oBacker |
@@ -674,4 +674,4 @@ Phạm vi, thời gian và điều kiện áp dụng chép từ hệ thống dan
 
 | Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | V1.1.3 | Điều khoản chung dẫn về trang 00, bỏ dòng nguồn dữ liệu trùng ở trang 02. |
+| 09/10/2026 | V1.2.0 | Giá F-FDI-NEW là 45.000.000 đồng, khớp quy chế gói. |

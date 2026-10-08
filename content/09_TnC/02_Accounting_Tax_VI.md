@@ -5,8 +5,8 @@ aliases:
   - TNC-02-VI
 type: "tnc"
 folder: "09_TnC"
-version: "V3.1.0"
-release: "R.26.10.09.1"
+version: "V3.2.0"
+release: "R.26.10.09.2"
 status: "đang áp dụng"
 author: "CEO"
 reviewer: "CEO"
@@ -23,7 +23,7 @@ tags:
 *Điều Khoản Dịch Vụ Cụ Thể, bộ phận không tách rời của Bản Điều Khoản Chung; Công ty Cổ phần oBacker*
 MST: 0402298185 · Tầng 2, 06 Trần Phú, Phường Hải Châu, Thành phố Đà Nẵng · contact@obacker.com
 
-**Phiên bản:** V3.1.0 (VI-EN) · **Phát hành:** R.26.10.09.1 · **Cập nhật:** 08/10/2026
+**Phiên bản:** V3.2.0 (VI-EN) · **Phát hành:** R.26.10.09.2 · **Cập nhật:** 09/10/2026
 
 > Tài liệu này là Điều Khoản Dịch Vụ Cụ Thể cho Dịch Vụ Kế toán & Thuế ("**Dịch Vụ**"), gồm hai hợp phần: (A) Kế toán và (B) Thuế doanh nghiệp (GTGT, TNDN, thuế nhà thầu nước ngoài (FCT), hóa đơn điện tử). Tài liệu áp dụng khi Dịch Vụ được ghi tại Đơn Đặt Hàng. **Nếu tài liệu này khác với Bản Điều Khoản Chung, tài liệu này được ưu tiên áp dụng đối với Dịch Vụ.**
 >
@@ -212,7 +212,7 @@ Phí Dịch Vụ được xác định theo Đơn Đặt Hàng (theo gói đối
 **10.4. Áp dụng giá và mã phụ thu mới (chuyển tiếp từ 05/10/2026):**
 - Kể từ ngày 05/10/2026, các mã và giá phụ thu tại mục 10.1 áp dụng cho hợp đồng và báo giá mới.
 - Khách hiện tại (hợp đồng đang có hiệu lực trước ngày 05/10/2026): áp dụng giá và mã phụ thu đã ghi trong hợp đồng hoặc báo giá của khách đó đến hết ngày 31/03/2027; từ kỳ thu tiền bắt đầu từ ngày 01/04/2027, áp dụng giá và mã tại mục 10.1.
-- Báo giá đã gửi: báo giá còn trong thời hạn hiệu lực giữ nguyên giá đã báo. Báo giá đã hết hạn hiệu lực mà Quý Khách yêu cầu báo giá lại từ ngày 05/10/2026: áp dụng giá tại mục 10.1, giảm 35%.
+- Báo giá đã gửi: báo giá còn trong thời hạn hiệu lực giữ nguyên giá đã báo. Báo giá đã hết hạn hiệu lực mà Quý Khách yêu cầu báo giá lại từ ngày 05/10/2026: áp dụng giá tại mục 10.1, giảm 35%, đến hết ngày 31/03/2027; từ ngày 01/04/2027, áp dụng giá tại mục 10.1.
 - Phụ thu thu theo kỳ tính theo kỳ phát sinh; phụ thu theo ngày tính theo số ngày làm việc thực tế chuyên viên tham gia.
 
 ---
@@ -227,5 +227,5 @@ Phí Dịch Vụ được xác định theo Đơn Đặt Hàng (theo gói đối
 
 | Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
-| 09/10/2026 | V3.1.0 | Sửa hạn mức Giao Dịch của Partner Core từ 50 lên 500 mỗi tháng cho khớp danh mục. |
+| 09/10/2026 | V3.2.0 | Mục 10.4 ghi hạn 31/03/2027 cho mức giảm 35% khi báo giá lại. |
 

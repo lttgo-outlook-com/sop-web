@@ -20,7 +20,7 @@ tags:
 # CLIENT WORKING GUIDE; WORKING WITH OBACKER
 ### A guide for the Client
 
-**Version:** V3.1.0 (VI-EN) · **Release:** R.26.10.09.1 · **Updated:** 08/10/2026 · Applies to the Partner Core, Partner Growth and Partner Prime packages
+**Version:** V3.1.0 (VI-EN) · **Release:** R.26.10.09.1 · **Updated:** 09/10/2026 · Applies to the Partner Core, Partner Growth and Partner Prime packages
 
 > This is a working guide. It is not a contract. If anything in this guide differs from the service Agreement (Master T&C, Order Form and the Service-Specific Terms), the Agreement prevails.
 

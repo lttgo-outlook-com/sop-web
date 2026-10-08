@@ -17,6 +17,17 @@ tags:
 > [!note] TRANG SINH TỰ ĐỘNG
 > Trang này được sinh lại từ dữ liệu phát hành mỗi lần phát hành. Sửa trực tiếp vào trang này không được giữ ở lần sinh sau.
 
+## R.26.10.09.2
+
+Ngày phát hành 09/10/2026. Lần phát hành này gồm 4 tài liệu.
+
+| Mã | Tài liệu | Phiên bản | Phiên bản trước | Mức |
+| --- | --- | --- | --- | --- |
+| [[01_Goi_dich_vu_va_hang_muc_kem_goi\|OBK-DM-GOI]] | GÓI DỊCH VỤ VÀ HẠNG MỤC KÈM GÓI | V2.2.0 | V2.1.0 | 2 |
+| [[02_Accounting_Tax_EN\|TNC-02-EN]] | ACCOUNTING & TAX SERVICE TERMS (PL-KT) | V3.2.0 | V3.1.0 | 2 |
+| [[02_Accounting_Tax_VI\|TNC-02-VI]] | ĐIỀU KHOẢN DỊCH VỤ KẾ TOÁN & THUẾ (PL-KT) | V3.2.0 | V3.1.0 | 2 |
+| [[02_Bang_gia_Giay_phep_va_doanh_nghiep\|OBK-DM-GP]] | BẢNG GIÁ DỊCH VỤ GIẤY PHÉP VÀ DOANH NGHIỆP | V1.2.0 | V1.1.3 | 2 |
+
 ## R.26.10.09.1
 
 Ngày phát hành 09/10/2026. Lần phát hành này gồm 14 tài liệu.

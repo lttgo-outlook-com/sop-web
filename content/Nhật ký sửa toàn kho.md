@@ -36,10 +36,13 @@ tags:
 
 ## 1. Danh mục tài liệu
 
-Trang này ghi 893 lượt sửa thuộc các bản cũ, chia theo 191 mã tài liệu, tính tới 08/10/2026. 144 mã thuộc 113 tài liệu hiện có trong kho (mã chính hoặc mã cũ đã gộp vào tài liệu); 47 mã thuộc tài liệu đã gỡ khỏi kho, gồm 93 lượt sửa. Kho hiện có 113 tài liệu mang phiên bản; 0 tài liệu chưa có lượt sửa của bản cũ ghi tại trang này. Lượt sửa của bản hiện hành ghi tại mục NHẬT KÝ SỬA trong chính tài liệu đó.
+Trang này ghi 897 lượt sửa thuộc các bản cũ, chia theo 191 mã tài liệu, tính tới 09/10/2026. 144 mã thuộc 113 tài liệu hiện có trong kho (mã chính hoặc mã cũ đã gộp vào tài liệu); 47 mã thuộc tài liệu đã gỡ khỏi kho, gồm 93 lượt sửa. Kho hiện có 113 tài liệu mang phiên bản; 0 tài liệu chưa có lượt sửa của bản cũ ghi tại trang này. Lượt sửa của bản hiện hành ghi tại mục NHẬT KÝ SỬA trong chính tài liệu đó.
 
 | Mã | Tài liệu hiện có | Số lượt sửa | Ngày sửa gần nhất |
 | --- | --- | --- | --- |
+| `TNC-02-VI` | [[02_Accounting_Tax_VI\|TNC-02-VI]] | 11 | 09/10/2026 |
+| `TNC-02-EN` | [[02_Accounting_Tax_EN\|TNC-02-EN]] | 10 | 09/10/2026 |
+| `OBK-DM-GOI` | [[01_Goi_dich_vu_va_hang_muc_kem_goi\|OBK-DM-GOI]] | 5 | 09/10/2026 |
 | `OBK-QCTC-01` | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] | 19 | 08/10/2026 |
 | `OBK-SOP-AM` | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] | 16 | 08/10/2026 |
 | `OBK-SOP-NB-01` | [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] | 15 | 08/10/2026 |
@@ -54,10 +57,8 @@ Trang này ghi 893 lượt sửa thuộc các bản cũ, chia theo 191 mã tài 
 | `OBK-QCTC-02` | [[OBK-QCTC-02_Bang_tham_quyen\|OBK-QCTC-02]] | 10 | 08/10/2026 |
 | `OBK-SOP-LS` | [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] | 10 | 08/10/2026 |
 | `OBK-SOP-NB-05` | [[OBK-SOP-NB-05_Tuyen_dung_va_onboarding_noi_bo\|OBK-SOP-NB-05]] | 10 | 08/10/2026 |
-| `TNC-02-VI` | [[02_Accounting_Tax_VI\|TNC-02-VI]] | 10 | 08/10/2026 |
 | `NS-03` | [[NS-03_Phieu_tong_hop_diem_cuoi_ky\|NS-03]] | 9 | 08/10/2026 |
 | `OBK-SOP-RD` | [[07_OBK-SOP-RD_Nghien_cuu_phap_ly\|OBK-SOP-RD]] | 9 | 08/10/2026 |
-| `TNC-02-EN` | [[02_Accounting_Tax_EN\|TNC-02-EN]] | 9 | 08/10/2026 |
 | `BK-01` | [[BK-01_Bang_kiem_noi_bo\|BK-01]] | 8 | 08/10/2026 |
 | `NS-01` | [[NS-01_Phieu_tu_danh_gia_hieu_suat\|NS-01]] | 8 | 08/10/2026 |
 | `OBK-MSR` | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] | 8 | 08/10/2026 |
@@ -95,6 +96,7 @@ Trang này ghi 893 lượt sửa thuộc các bản cũ, chia theo 191 mã tài 
 | `BK-06` | [[BK-06_Bang_kiem_Phap_ly\|BK-06]] | 5 | 08/10/2026 |
 | `BK-08` | [[BK-08_Bang_kiem_Marketing\|BK-08]] | 5 | 08/10/2026 |
 | `HH-02` | [[HH-02_Phieu_bao_cao_hoa_hong_thang\|HH-02]] | 5 | 08/10/2026 |
+| `OBK-DM-GP` | [[02_Bang_gia_Giay_phep_va_doanh_nghiep\|OBK-DM-GP]] | 5 | 08/10/2026 |
 | `OBK-HB-05` | [[05_Quy_trinh_ke_toan_thang\|OBK-HB-05]] | 5 | 08/10/2026 |
 | `OBK-HB-06` | [[06_Khoa_so_va_doi_chieu\|OBK-HB-06]] | 5 | 08/10/2026 |
 | `OBK-HB-08` | [[08_Che_do_ke_toan_ap_dung\|OBK-HB-08]] | 5 | 08/10/2026 |
@@ -117,8 +119,6 @@ Trang này ghi 893 lượt sửa thuộc các bản cũ, chia theo 191 mã tài 
 | `NS-08` | [[NS-08_Bien_ban_vi_pham_ky_luat_lao_dong\|NS-08]] | 4 | 08/10/2026 |
 | `OBK-DM-00` | [[00_Danh_muc_dich_vu_va_bang_gia\|OBK-DM-00]] | 4 | 08/10/2026 |
 | `OBK-DM-CKS` | [[06_Bang_gia_Chu_ky_so_va_hoa_don_dien_tu\|OBK-DM-CKS]] | 4 | 08/10/2026 |
-| `OBK-DM-GOI` | [[01_Goi_dich_vu_va_hang_muc_kem_goi\|OBK-DM-GOI]] | 4 | 08/10/2026 |
-| `OBK-DM-GP` | [[02_Bang_gia_Giay_phep_va_doanh_nghiep\|OBK-DM-GP]] | 4 | 08/10/2026 |
 | `OBK-DM-KT` | [[03_Bang_gia_Ke_toan_va_thue\|OBK-DM-KT]] | 4 | 08/10/2026 |
 | `OBK-DM-LD` | [[04_Bang_gia_Lao_dong_va_giay_to_nguoi_nuoc_ngoai\|OBK-DM-LD]] | 4 | 08/10/2026 |
 | `OBK-DM-LS` | [[05_Bang_gia_Dich_vu_phap_ly_va_so_huu_tri_tue\|OBK-DM-LS]] | 4 | 08/10/2026 |
@@ -393,6 +393,7 @@ Trang này ghi 893 lượt sửa thuộc các bản cũ, chia theo 191 mã tài 
 
 | Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
+| 09/10/2026 | V2.1.0 | Sinh lại từ nguồn danh mục: Core 500 chứng từ, Prime 100 lao động, ADD-PAYROLL-EMP 100.000 đồng, Growth 02 đợt tính lương. |
 | 08/10/2026 | V2.0.0 | Mã phụ thu mới 2026, Core 01 hợp đồng mỗi tháng, trần Prime 7.000, token phụ. |
 | 07/10/2026 | V1.1.1 | Đổi ngày bản kết xuất nguồn dữ liệu sang 04/10/2026; hạng mục OBG-MTH1 để trống danh sách gói chứa, chờ xác minh |
 | 01/10/2026 | V1.0.0 | Ban hành chính thức phiên bản chuẩn V1.0.0 toàn công ty |
@@ -402,6 +403,7 @@ Trang này ghi 893 lượt sửa thuộc các bản cũ, chia theo 191 mã tài 
 
 | Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
+| 08/10/2026 | V1.1.3 | Điều khoản chung dẫn về trang 00, bỏ dòng nguồn dữ liệu trùng ở trang 02. |
 | 08/10/2026 | V1.1.2 | Đổi liên kết chuẩn vận hành dịch vụ sang quy tắc sổ cái tại bảng giá giấy phép và doanh nghiệp |
 | 07/10/2026 | V1.1.1 | Đổi ngày bản kết xuất nguồn dữ liệu sang 04/10/2026; bảng giá giấy phép và doanh nghiệp không đổi mức |
 | 01/10/2026 | V1.0.0 | Ban hành chính thức phiên bản chuẩn V1.0.0 toàn công ty |
@@ -489,6 +491,7 @@ Trang này ghi 893 lượt sửa thuộc các bản cũ, chia theo 191 mã tài 
 
 | Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
+| 09/10/2026 | V3.1.0 | Sửa hạn mức Giao Dịch của Partner Core từ 50 lên 500 mỗi tháng cho khớp danh mục. |
 | 08/10/2026 | V3.0.0 | Bỏ thuế TNCN từ lương, dùng mã phụ thu mới năm 2026, token phụ, ngưỡng Prime 7.000, khung thanh toán Quý 4. |
 | 08/10/2026 | V2.3.2 | Bỏ vế mục đích ở Điều 1, câu dẫn để minh bạch, vế giải thích dòng chi phí và nhãn lưu ý ranh giới |
 | 07/10/2026 | V2.3.1 | Bổ sung chủ ngữ oBacker cho sáu nhóm việc thuộc phạm vi Dịch Vụ (lập sổ sách, chốt sổ, lập và nộp BCTC năm, đối chiếu số liệu, lập và nộp tờ khai thuế, theo dõi và thông báo nghĩa vụ thuế) |
@@ -504,6 +507,7 @@ Trang này ghi 893 lượt sửa thuộc các bản cũ, chia theo 191 mã tài 
 
 | Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
+| 09/10/2026 | V3.1.0 | Raised the Partner Core transaction threshold from 50 to 500 per month to match the catalogue. |
 | 08/10/2026 | V3.0.0 | Synced with the Vietnamese version: tax scope, new surcharge codes, USB Token and Prime threshold. |
 | 07/10/2026 | V2.3.1 | Subject oBacker added to the six service-scope bullets (accounting books, monthly close, annual financial statements, reconciliation, tax returns, tax obligation tracking) |
 | 02/10/2026 | V2.3.0 | Article 8: penalty basis updated, noting that Decree No. 125/2020/ND-CP has been amended and supplemented by Decree No. 291/2026/ND-CP; current text per consolidated document 27/2026/VBHN-ND-BTC |

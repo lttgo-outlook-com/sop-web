@@ -20,7 +20,7 @@ tags:
 # CẨM NANG LÀM VIỆC VỚI OBACKER
 ### Hướng dẫn dành cho Quý Khách
 
-**Phiên bản:** V3.1.0 (VI-EN) · **Phát hành:** R.26.10.09.1 · **Cập nhật:** 08/10/2026 · Áp dụng cho gói Partner Core, Partner Growth và Partner Prime
+**Phiên bản:** V3.1.0 (VI-EN) · **Phát hành:** R.26.10.09.1 · **Cập nhật:** 09/10/2026 · Áp dụng cho gói Partner Core, Partner Growth và Partner Prime
 
 > Tài liệu này là cẩm nang hướng dẫn. Đây không phải là hợp đồng. Trường hợp có khác biệt giữa cẩm nang này và Hợp Đồng dịch vụ (Điều Khoản & Điều Kiện, Đơn Đặt Hàng và các Điều Khoản Dịch Vụ Cụ Thể), nội dung Hợp Đồng được áp dụng.
 

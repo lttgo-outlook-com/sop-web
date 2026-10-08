@@ -5,8 +5,8 @@ aliases:
   - TNC-02-EN
 type: "tnc"
 folder: "09_TnC"
-version: "V3.1.0"
-release: "R.26.10.09.1"
+version: "V3.2.0"
+release: "R.26.10.09.2"
 status: "đang áp dụng"
 author: "CEO"
 reviewer: "CEO"
@@ -23,7 +23,7 @@ tags:
 *Service-Specific Terms, an integral part of the Master T&C; oBacker Joint Stock Company*
 Tax code: 0402298185 · Floor 2, 06 Tran Phu Street, Hai Chau Ward, Da Nang, Vietnam · contact@obacker.com
 
-**Version:** V3.1.0 (VI-EN) · **Release:** R.26.10.09.1 · **Updated:** 08/10/2026
+**Version:** V3.2.0 (VI-EN) · **Release:** R.26.10.09.2 · **Updated:** 09/10/2026
 
 > These are the Service-Specific Terms for the Accounting & Tax Services (the "**Services**"), covering two components: (A) Accounting and (B) Corporate Tax (VAT, CIT, Foreign Contractor Tax (FCT), and e-invoices). They apply where the Services are recorded in the Order Form. **If these Terms differ from the Master T&C, these Terms prevail for the Services.**
 >
@@ -212,7 +212,7 @@ Service Fees are defined in the Order Form (by partner retainer package or actua
 **10.4. Application of New Surcharge Codes and Prices (transition from October 5, 2026):**
 - From October 5, 2026: the surcharge codes and prices in Section 10.1 apply to new contracts and quotations.
 - Existing clients (contracts in force before October 5, 2026): the surcharge codes and prices stated in their contract or quotation apply through March 31, 2027; billing cycles starting on or after April 1, 2027 apply the codes and prices in Section 10.1.
-- Quotations already sent: quotations within their validity period keep the quoted prices. For quotations past their validity period where the Client requests a new quotation on or after October 5, 2026: Section 10.1 prices apply with a 35% discount.
+- Quotations already sent: quotations within their validity period keep the quoted prices. For quotations past their validity period where the Client requests a new quotation on or after October 5, 2026: Section 10.1 prices apply with a 35% discount through March 31, 2027; from April 1, 2027, Section 10.1 prices apply.
 - Period-billed surcharges are billed per cycle in which they occur; day-billed surcharges are billed per actual working day of specialist participation.
 
 ---
@@ -221,5 +221,5 @@ Service Fees are defined in the Order Form (by partner retainer package or actua
 
 | Date | Version | Description |
 | --- | --- | --- |
-| 09/10/2026 | V3.1.0 | Raised the Partner Core transaction threshold from 50 to 500 per month to match the catalogue. |
+| 09/10/2026 | V3.2.0 | Section 10.4 sets March 31, 2027 as the end date of the 35% discount on re-quotations. |
 
