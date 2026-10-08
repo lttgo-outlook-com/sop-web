@@ -1,9 +1,15 @@
 ---
 title: "BỘ T&C oBacker R.1.0.0; SONG NGỮ (VI-EN) · INDEX"
+code: "TNC-INDEX"
+aliases:
+  - TNC-INDEX
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.0.0"
+version: "R.1.0.2"
 status: "đang áp dụng"
+author: "CEO"
+reviewer: "CEO"
+approver: "CEO"
 distribution: "Khách hàng"
 previous_version: ""
 tags:
@@ -14,9 +20,9 @@ tags:
 
 **Cập nhật / Updated:** 21/09/2026
 
-> Bộ này viết văn phong chuẩn, chuyên nghiệp nhưng dễ đọc (bớt legalese). Mỗi tài liệu có **bản tiếng Việt** và **bản tiếng Anh độc lập**. Nội dung pháp lý, số liệu, citation và cấu trúc điều khoản đồng nhất giữa hai ngôn ngữ.
+> Mỗi tài liệu có **bản tiếng Việt** và **bản tiếng Anh độc lập**. Nội dung pháp lý, số liệu, citation và cấu trúc điều khoản đồng nhất giữa hai ngôn ngữ.
 >
-> This set is written in a clear, professional tone (light on legalese). Each document has a **Vietnamese** and a **standalone English** version. Legal substance, figures, citations, and clause structure are identical across both languages.
+> Each document has a **Vietnamese** and a **standalone English** version. Legal substance, figures, citations, and clause structure are identical across both languages.
 
 ---
 
@@ -33,14 +39,11 @@ tags:
 | 06 | Chính sách Bảo vệ Dữ liệu Cá nhân / Personal Data Protection Policy | [[06_Data_Protection_VI]] | [[06_Data_Protection_EN]] |
 | 07 | Điều khoản Ví / Wallet Top-Up Terms | [[07_Wallet_VI]] | [[07_Wallet_EN]] |
 | 08 | Hợp đồng khung ký điện tử / Framework Agreement (e-signature) | [[08_Framework_Agreement_VI]] | [[08_Framework_Agreement_EN]] |
-| - | Glossary & Style Guide (nội bộ / internal) | [[GLOSSARY]] | [[GLOSSARY]] |
 
 ## Ghi chú / Notes
 
 - **Thứ tự ưu tiên áp dụng / Order of precedence:** Đơn Đặt Hàng → Điều Khoản Dịch Vụ Cụ Thể (PL-*) → T&C Master → Chính sách Dữ liệu. / Order Form → Service-Specific Terms (PL-*) → Master T&C → Data Protection Policy.
 - **Bản gốc để đối chiếu / Source of truth:** bộ tiếng Việt v9. / Vietnamese v9 set.
-- **Còn cần xử lý trước khi phát hành / To finalise before publishing:** điền các trường `[...]` trong Chính sách Dữ liệu; xóa các ghi chú biên tập ⚠️ (mô hình pháp lý, triển khai e-sign); cập nhật khi Công ty Luật oBacker Law được thành lập. / fill `[...]` fields in the Data Protection Policy; remove ⚠️ editorial notes; update once oBacker Law is established.
-- **Bước tiếp theo đề xuất / Suggested next step:** convert sang `.docx` client-ready (letterhead, mục lục, số trang). / convert to client-ready `.docx` (letterhead, table of contents, page numbers).
 
 ---
 
@@ -50,4 +53,4 @@ tags:
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 08/10/2026 | R.1.0.2 | Bỏ câu tự đánh giá văn phong và hai danh sách việc tồn đọng |

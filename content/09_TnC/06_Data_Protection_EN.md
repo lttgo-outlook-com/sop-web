@@ -1,9 +1,15 @@
 ---
 title: "PERSONAL DATA PROTECTION POLICY"
+code: "TNC-06-EN"
+aliases:
+  - TNC-06-EN
 type: "tnc"
 folder: "09_TnC"
 version: "R.1.0.0"
 status: "đang áp dụng"
+author: "CEO"
+reviewer: "CEO"
+approver: "CEO"
 language: "en"
 distribution: "Khách hàng"
 previous_version: ""
@@ -15,14 +21,6 @@ tags:
 
 **Applies to:** oBacker Joint Stock Company
 **Version:** R.1.0.0 (VI-EN) · **Issue date:** 21 September 2026 · **Effective Date:** 21 September 2026
-
----
-
-When you choose to work with oBacker; whether as a corporate client, a client's employee, a shareholder, a partner, or a website user; you place a great deal of private and sensitive information in our hands. We understand the value of that trust and do not take it lightly.
-
-oBacker publishes this Policy so you can check, at any time: what we collect, why, what we do with the data, who can access it, and how you can intervene. In short: the data is yours; oBacker is simply the party you have entrusted to process it.
-
-The Policy has two parts. **Part I; General Provisions** applies to all personal data. **Part II; Sensitive Personal Data** sets out enhanced measures. Where there is any difference concerning sensitive data, **Part II prevails**.
 
 ---
 
@@ -86,13 +84,13 @@ This Policy is built on the basis of Vietnamese law, including but not limited t
 - **(a) Data Controller**; where oBacker processes the data of clients themselves, contact persons, website users, or applicants, or where it independently decides the purpose and means of processing
 - **(b) Data Controller-and-Processor or Data Processor**; where oBacker processes the data of employees, shareholders, or persons authorised by the client, on the client's instructions and within the scope of the service agreement.
 
-**Note for a client's employees and shareholders:** where your data is processed by oBacker on the client's instructions (PIT declaration, social insurance contributions, shareholder filings), **the client is the primary Data Controller**. oBacker acts as Data Processor or Data Controller-and-Processor under the contract, and coordinates with the client to help you exercise your rights as a Data Subject.
+**For a client's employees and shareholders:** where your data is processed by oBacker on the client's instructions (PIT declaration, social insurance contributions, shareholder filings), **the client is the primary Data Controller**. oBacker acts as Data Processor or Data Controller-and-Processor under the contract, and coordinates with the client to help you exercise your rights as a Data Subject.
 
 ## Article 5. Types of personal data processed
 
 **5.1. Basic personal data:** full name, date of birth, gender, nationality; ID card/citizen ID/passport number and accompanying photo (where needed for legal or licensing procedures); telephone number and email; personal tax code; position and place of work; login credentials for oBacker's internal tools (passwords stored in encrypted form); online activity data (IP, device, cookies, access history); dependant information (for PIT family-circumstance deductions); and application records (CV, cover letter, education, experience).
 
-**5.2. Sensitive personal data.** Given the nature of back-office services, oBacker regularly processes sensitive data. The types, purposes, and enhanced protection measures are detailed in **Part II**.
+**5.2. Sensitive personal data.** The types, purposes, and enhanced protection measures are detailed in **Part II**.
 
 > oBacker processes sensitive data **ONLY** where genuinely necessary, on a proper legal basis, and after clear notice. oBacker does **NOT** actively collect data on political or religious views, race, or sexual life/orientation.
 
@@ -112,7 +110,7 @@ oBacker processes personal data to: handle accounting records, tax declarations,
 
 oBacker collects data: directly from you (signing a contract, making contact, completing forms, submitting applications); from oBacker's clients (providing data on employees, shareholders, and dependants for services performed on their behalf); automatically via the website (cookies, system logs); and from lawful third parties (state authorities during verification, professional partners authorised by the client, and lawful public sources).
 
-> **Note:** The client (your employer or the company in which you are a shareholder) is responsible for notifying you and obtaining consent as required before providing your data to oBacker. oBacker requires clients to commit to this in the service agreement.
+> The client (your employer or the company in which you are a shareholder) is responsible for notifying you and obtaining consent as required before providing your data to oBacker. oBacker requires clients to commit to this in the service agreement.
 
 ## Article 9. Sharing and disclosure of personal data
 
@@ -168,13 +166,13 @@ oBacker retains data only for as long as needed for the processing purpose or as
 
 **12.4.** oBacker periodically reviews, assesses, and updates these measures to keep pace with technology and the law.
 
-> **Your responsibility:** no system is completely secure. You are responsible for keeping your login credentials and personal devices secure, and for notifying oBacker immediately upon detecting any risk or sign of a breach.
+> **Your responsibility:** you are responsible for keeping your login credentials and personal devices secure, and for notifying oBacker immediately upon detecting any risk or sign of a breach.
 
 ## Article 13. Rights and obligations of the Data Subject
 
 **13.1. Your rights:** to be informed; to consent/refuse and to withdraw consent; to access and correct; to request provision of data; to request deletion or restriction of processing; to object to processing for advertising and marketing purposes; to complain, denounce, or file a lawsuit; to claim compensation for damage in the event of a violation; and to protect yourself and request competent authorities to apply protective measures.
 
-> **Note for a client's employees and shareholders:** where data is processed by oBacker on the client's instructions (as Data Processor), exercising your rights requires coordination with the client (the primary Data Controller). oBacker receives the request and coordinates with the client to assist you within the timeframe required by law.
+> **For a client's employees and shareholders:** where data is processed by oBacker on the client's instructions (as Data Processor), exercising your rights requires coordination with the client (the primary Data Controller). oBacker receives the request and coordinates with the client to assist you within the timeframe required by law.
 
 **13.2. Your obligations:** to provide accurate and complete data; to keep your account information secure; to respect the data of others; and to comply with personal-data-protection law.
 
@@ -182,7 +180,7 @@ oBacker retains data only for as long as needed for the processing purpose or as
 
 **14.1. Request-handling process.** oBacker may ask you to provide information to verify your identity; it receives, verifies, and responds within the timeframes set by law; certain requests (restriction of processing and certain rights under Decree No. 356/2025) are handled within **72 hours** of receiving a valid request; and where it refuses, oBacker states the reasons in writing.
 
-**14.2. Coordination with the client where necessary.** For data processed by oBacker on the client's instructions, oBacker receives the request and coordinates with the client to fulfil it. You may contact the client directly for faster assistance.
+**14.2. Coordination with the client where necessary.** For data processed by oBacker on the client's instructions, oBacker receives the request and coordinates with the client to fulfil it. You may contact the client directly.
 
 ## Article 15. Processing personal data of children and persons under guardianship
 
@@ -220,7 +218,7 @@ If you are not satisfied with how oBacker handles your matter, you may complain,
 
 # PART II; SENSITIVE PERSONAL DATA
 
-Much of the data oBacker processes day to day is sensitive personal data; bank account details, salary levels, capital ownership ratios, social insurance contributions, health status related to maternity/sick leave, and biometric data used when signing documents. This is information that, if violated, can directly affect your rights, assets, and private life. For that reason, oBacker applies a higher level of protection. Part II applies alongside Part I; where there is any difference concerning sensitive data, **Part II prevails**.
+Part II applies alongside Part I; where there is any difference concerning sensitive data, **Part II prevails**.
 
 ## Article 21. What sensitive personal data is
 
@@ -256,7 +254,7 @@ Data linked to privacy which, if violated, directly affects an individual's lawf
 | Business registration authorities / People's Committees | Shareholders, ownership ratios, capital contributions, shareholders' legal documents | Law on Enterprises, Law on Investment |
 | Police, courts, procuracies | Upon a lawful written request | As required by law |
 | Banks and payment institutions | Accounts, salary payment transactions, tax/social insurance remittance | Client authorisation + law |
-| Professional partners requested by the client | Within the scope of the specific task | Contract with strict confidentiality clauses |
+| Professional partners requested by the client | Within the scope of the specific task | Contract with confidentiality clauses |
 
 > **Commitment:** oBacker does **NOT sell** sensitive data and requires every recipient to apply commensurate protection measures.
 
@@ -282,7 +280,7 @@ Data linked to privacy which, if violated, directly affects an individual's lawf
 
 ## Article 27. Cross-border transfer of sensitive data
 
-Because oBacker uses Google Workspace, sensitive data may be stored/processed at Google data centres outside Vietnam. oBacker: prepares and retains a **dedicated DTIA for sensitive data**, ready for submission to the competent authority within **60 days** of the transfer, in accordance with Decree No. 356/2025/ND-CP; self-assesses Google's protection capabilities (ISO 27001, SOC 2, DPA); applies enhanced measures (encryption, strict access controls, MFA, log monitoring); and completes legal procedures with the competent authority. For transfers to any other third party (besides Google), oBacker conducts a separate DTIA, notifies you where necessary, and ensures the transfer conditions are lawful.
+Because oBacker uses Google Workspace, sensitive data may be stored/processed at Google data centres outside Vietnam. oBacker: prepares and retains a **dedicated DTIA for sensitive data**, ready for submission to the competent authority within **60 days** of the transfer, in accordance with Decree No. 356/2025/ND-CP; self-assesses Google's protection capabilities (ISO 27001, SOC 2, DPA); applies enhanced measures (encryption, access controls, MFA, log monitoring); and completes legal procedures with the competent authority. For transfers to any other third party (besides Google), oBacker conducts a separate DTIA, notifies you where necessary, and ensures the transfer conditions are lawful.
 
 ## Article 28. Data Subject rights over sensitive data
 
@@ -290,7 +288,7 @@ Because oBacker uses Google Workspace, sensitive data may be stored/processed at
 
 **28.2. Complaint mechanism.** You submit a request/complaint to the DPO focal point (Article 20); oBacker verifies your identity; it responds within the timeframe set by law (including the **72-hour** deadline for certain requests such as restriction of processing under Decree No. 356/2025); and where it refuses, it states the reasons in writing. If you remain dissatisfied, you may complain, denounce, or file a lawsuit with the competent authorities, including **A05; Ministry of Public Security** and the competent court.
 
-> **Note for a client's employees/shareholders:** for sensitive data processed by oBacker on the client's instructions, exercising your rights requires coordination with the client (the primary Data Controller). oBacker receives the request and coordinates with the client to assist you.
+> **For a client's employees/shareholders:** for sensitive data processed by oBacker on the client's instructions, exercising your rights requires coordination with the client (the primary Data Controller). oBacker receives the request and coordinates with the client to assist you.
 
 ## Article 29. Effect
 

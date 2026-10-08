@@ -4,7 +4,7 @@ code: "OBK-QCNS-08-PL-D"
 type: "sop"
 folder: "11_NhanSu"
 level: "Phụ lục"
-version: "R.1.0.0"
+version: "R.4.0.1"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -27,7 +27,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-QCNS-08-PL-D |
 | Cấp tài liệu | Phụ lục |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.4.0.1, đang áp dụng |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 23/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -40,34 +40,9 @@ tags:
 
 ---
 
-Phụ lục này của [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] quy định cách chạy việc chấm, không quy định chấm cái gì.
+## 1. BÃI BỎ ĐÁNH GIÁ CHÉO
 
----
-
-## 1. ĐÁNH GIÁ CHÉO
-
-### 1.1. Chọn người
-
-| Quy tắc | Nội dung |
-| --- | --- |
-| Số người | Tối đa 02 người mỗi kỳ, chọn trong số đồng nghiệp đủ điều kiện theo [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] mục 3.2 |
-| Điều kiện | Đã làm việc chung với người được chấm trong kỳ đang chấm. Không bắt buộc cùng vị trí hoặc cùng đơn vị với người được chấm. Với vị trí thuộc Phòng Dịch vụ, người đánh giá chéo thuộc Phòng Dịch vụ |
-| Không đủ người | Suất đánh giá chéo không có người thì quản lý trực tiếp đánh giá thay, và trọng số của suất đó cộng vào trọng số của quản lý trực tiếp, theo [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] mục 3.2 |
-| Cách chọn | Xoay vòng giữa các kỳ. Ưu tiên người không cùng nhóm trực tiếp |
-| Quyền thay | Quản lý trực tiếp có quyền thay người được đề xuất, và phải ghi lý do thay |
-| Không được chọn | Người đang trong cùng một tranh chấp công việc với người được chấm trong kỳ đó |
-
-### 1.2. Giữ kín
-
-Phiếu đánh giá chéo giữ kín danh tính người chấm. Người được chấm chỉ xem điểm tổng hợp của phần B, không xem từng phiếu.
-
-Quản lý trực tiếp xem mọi phiếu đánh giá chéo của kỳ, vì quản lý trực tiếp là người phải làm rõ chỗ lệch từ 2 bậc trở lên.
-
-Kỳ chỉ có đúng 01 phiếu đánh giá chéo thì quản lý trực tiếp giữ kín điểm riêng của phiếu đánh giá chéo và điểm riêng của chính quản lý trực tiếp.
-
-### 1.3. Đánh giá chéo tính vào điểm
-
-Điểm đánh giá chéo tính vào điểm phần B, với trọng số 20% cho mỗi suất đánh giá chéo có người, theo [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] mục 3.2. Điểm đánh giá chéo không chỉ dùng để tham khảo.
+Đánh giá chéo ngang hàng và phiếu đánh giá chéo `NS-02` đã bãi bỏ theo [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] mục 3.2. Cách đo trách nhiệm và phối hợp thuộc nhóm Kỷ luật tuân thủ và Tinh thần phối hợp do người được chấm tự đánh giá và quản lý trực tiếp chấm, theo trọng số người chấm tại [[NS-03_Phieu_tong_hop_diem_cuoi_ky|NS-03]] mục 2.2.
 
 ---
 
@@ -75,15 +50,15 @@ Kỳ chỉ có đúng 01 phiếu đánh giá chéo thì quản lý trực tiếp
 
 ### 2.1. Quy tắc cân chỉnh điểm
 
-1. Không cấp mức Xuất sắc cho một tiêu chí phần B khi không có bằng chứng cụ thể được quản lý trực tiếp xác nhận.
-2. Điểm tự đánh giá lệch với điểm đánh giá chéo từ 2 bậc trở lên thì quản lý trực tiếp làm rõ với người được chấm trong buổi gặp riêng, trước khi chốt.
-3. Số liệu phần A không cân chỉnh. Số liệu sai thì sửa số liệu và ghi lý do sửa, không cân chỉnh điểm.
+1. Không cấp mức Xuất sắc cho cách đo trách nhiệm và phối hợp khi không có bằng chứng cụ thể được quản lý trực tiếp xác nhận.
+2. Điểm tự đánh giá lệch với điểm của quản lý trực tiếp từ 2 mức trở lên thì quản lý trực tiếp làm rõ với người được chấm trong buổi gặp riêng, trước khi chốt.
+3. Số liệu của cách đo tính từ số liệu không cân chỉnh. Số liệu sai thì sửa số liệu và ghi lý do sửa, không cân chỉnh điểm.
 
 ### 2.2. Không dùng phân bố bắt buộc
 
 Việc chấm không áp phân bố bắt buộc theo tỷ lệ số người ở từng nhãn xếp loại. Nhãn xếp loại xác định theo ngưỡng tuyệt đối tại [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] mục 1.1.
 
-Khi có từ ba người trong cùng một bộ phận đạt nhãn Xuất sắc trong cùng một kỳ, oBacker tổ chức một buổi cân chỉnh có từ hai người quản lý trở lên. Buổi cân chỉnh đọc bằng chứng, không đặt hạn mức.
+Khi có từ ba người trong cùng một bộ phận đạt nhãn Xuất sắc trong cùng một kỳ, oBacker tổ chức một buổi cân chỉnh có từ hai người quản lý trở lên. Buổi cân chỉnh xem xét bằng chứng, không đặt hạn mức.
 
 ---
 
@@ -95,37 +70,47 @@ Khi có từ ba người trong cùng một bộ phận đạt nhãn Xuất sắc
 
 Điểm cộng chỉ cấp khi có bằng chứng cụ thể được quản lý trực tiếp xác nhận. Phiếu vị trí tại OBK-QCNS-08-PL-E chưa đặt việc được cộng điểm riêng của vị trí.
 
-Ba việc được cộng điểm ở mọi vị trí:
+Việc được cộng điểm ở mọi vị trí:
 
 1. Nhận và hoàn thành một việc ngoài phạm vi vị trí, do quản lý trực tiếp giao bằng văn bản.
 2. Tự phát hiện và tự ghi nhận một lỗi của chính mình trước khi lỗi đó vượt biên 1, là trường hợp được ghi nhận tích cực theo OBK-SOP-00 mục 11.2a quy tắc 3.
-3. Đưa một nội dung dùng lại được vào hướng dẫn chung, ngoài số đề xuất đã tính ở tiêu chí A-09 tại OBK-QCNS-08-PL-A.
+3. Đưa một nội dung dùng lại được vào hướng dẫn chung.
 
 ---
 
 ## 4. XỬ LÝ KHI KHÔNG ĐẠT
 
-### 4.1. Khi nào bắt đầu
+### 4.1. Điều kiện bắt đầu
 
-Lộ trình khởi động khi người được chấm ở nhãn Cần cải thiện hoặc thấp hơn trong 03 kỳ liên tiếp mà điểm tổng không cải thiện. Một kỳ có cải thiện, hoặc một kỳ đạt nhãn từ Đạt trở lên, thì chuỗi ngắt và tính lại từ đầu.
+Kỳ đánh giá không đạt là kỳ có nhãn xếp loại Cần cải thiện hoặc Không đạt theo [[08_Khung_danh_gia_hieu_suat|OBK-QCNS-08]] mục 1.1. Lộ trình khởi động khi người được chấm có 02 kỳ đánh giá liên tiếp không đạt. Một kỳ đạt nhãn từ Tốt trở lên thì việc đếm kỳ liên tiếp tính lại từ đầu.
+
+Thường xuyên không hoàn thành công việc theo điểm a khoản 1 Điều 36 Bộ luật Lao động, áp tại oBacker, là trường hợp người lao động có 03 kỳ đánh giá liên tiếp không đạt, trong đó kỳ thứ ba là kỳ thực hiện kế hoạch hỗ trợ cải thiện.
 
 ### 4.2. Các bước
 
-| Mốc | Tình huống | Công ty làm gì | Người thực hiện |
+| Mốc | Tình huống | Việc của công ty | Người thực hiện |
 | --- | --- | --- | --- |
-| Kỳ 1 và kỳ 2 | Chưa cải thiện | Trao đổi trong buổi phản hồi định kỳ, tìm nguyên nhân, điều chỉnh cách giao việc. Chưa nhắc nhở chính thức | Quản lý trực tiếp |
-| Kỳ 3 | Đủ 03 kỳ liên tiếp chưa cải thiện | Nhắc nhở lần 1 bằng văn bản. Xác định rõ 02 đến 03 điểm cần cải thiện, kèm mục tiêu định lượng cho kỳ sau và cam kết hỗ trợ cụ thể của công ty | Quản lý trực tiếp |
-| Kỳ 4 | Vẫn chưa cải thiện | Nhắc nhở lần 2. Mở kế hoạch hỗ trợ cải thiện bằng văn bản, gồm mục tiêu, người kèm cặp, tần suất soát, thời hạn | `COO` với Phòng Dịch vụ, `CEO` với mọi đơn vị ngoài Phòng Dịch vụ |
-| Kỳ 5 | Vẫn chưa cải thiện sau kế hoạch hỗ trợ | Nhắc nhở lần 3. Lập biên bản, có chữ ký của người lao động hoặc ghi nhận việc từ chối ký | `CEO` và nhân sự |
-| Sau kỳ 5 | Đã hỗ trợ 03 lần không hiệu quả | Xem xét phương án: điều chuyển sang công việc phù hợp hơn, thỏa thuận chấm dứt, hoặc đơn phương chấm dứt hợp đồng lao động | `CEO` |
+| Cuối kỳ không đạt thứ hai liên tiếp | Có 02 kỳ đánh giá liên tiếp không đạt | Gửi cảnh báo bằng văn bản và mở kế hoạch hỗ trợ cải thiện cho kỳ đánh giá kế tiếp. Kế hoạch ghi điểm cần cải thiện, mục tiêu định lượng của kỳ, người kèm cặp, tần suất soát và cam kết hỗ trợ của công ty; người lao động ký nhận | Quản lý trực tiếp lập; `COO` với Phòng Dịch vụ, `CEO` với mọi đơn vị ngoài Phòng Dịch vụ phê duyệt kế hoạch |
+| Cuối kỳ thực hiện kế hoạch hỗ trợ cải thiện | Kỳ đó đạt nhãn từ Tốt trở lên | Đóng kế hoạch; việc đếm kỳ không đạt tính lại từ đầu | Quản lý trực tiếp |
+| Cuối kỳ thực hiện kế hoạch hỗ trợ cải thiện | Kỳ đó vẫn không đạt | Lập biên bản kết quả, có chữ ký người lao động hoặc ghi nhận việc từ chối ký. `CEO` quyết một trong ba biện pháp tại mục 4.2a | `CEO` và nhân sự |
 
-Tổng thời gian tối thiểu trước khi xét đến phương án chấm dứt: 05 kỳ, với 03 lần nhắc nhở bằng văn bản và ít nhất 01 kế hoạch hỗ trợ cải thiện đã triển khai.
+Văn bản cảnh báo và kế hoạch hỗ trợ cải thiện không phải hình thức xử lý kỷ luật lao động theo Điều 124 Bộ luật Lao động.
+
+### 4.2a. Biện pháp sau kỳ thực hiện kế hoạch hỗ trợ cải thiện
+
+| Biện pháp | Điều kiện và thủ tục bắt buộc | Căn cứ |
+| --- | --- | --- |
+| Cho thôi việc, bằng đơn phương chấm dứt hợp đồng lao động | Người lao động nằm ngoài các trường hợp tại Điều 37 Bộ luật Lao động. Người lao động là thành viên ban lãnh đạo công đoàn cơ sở hoặc cán bộ công đoàn không chuyên trách thì phải có thỏa thuận bằng văn bản theo khoản 3 Điều 177 Bộ luật Lao động hoặc khoản 2 Điều 28 Luật Công đoàn. Báo trước bằng văn bản theo mục 4.4 điều kiện 7. Trả trợ cấp thôi việc theo Điều 46 Bộ luật Lao động. Thanh toán đủ các khoản trong 14 ngày làm việc theo Điều 48 Bộ luật Lao động | Điểm a khoản 1, khoản 2 Điều 36 Bộ luật Lao động |
+| Giảm thu nhập | Kỳ không đạt không được xét tăng lương theo [[02_Quy_che_tien_luong_va_tien_thuong_noi_bo\|OBK-QCNS-02]] mục 6.1 và hưởng tỷ lệ thưởng hiệu quả của nhãn xếp loại tại mục 9 của quy chế đó. Mức lương ghi trong hợp đồng lao động chỉ giảm khi người lao động đồng ý và ký phụ lục hợp đồng; oBacker báo trước nội dung cần sửa ít nhất 03 ngày làm việc. Người lao động không đồng ý thì hợp đồng giữ nguyên | Điều 33, khoản 2 Điều 127 Bộ luật Lao động |
+| Giảm chức | Chức vụ quản lý giao bằng quyết định bổ nhiệm: miễn nhiệm bằng quyết định nêu căn cứ là kết quả ba kỳ đánh giá; chấm dứt phụ cấp chức vụ; công việc chuyên môn và mức lương ghi trong hợp đồng giữ nguyên. Hạ cấp bậc làm thay đổi chức danh hoặc mức lương ghi trong hợp đồng: chỉ thực hiện khi người lao động đồng ý và ký phụ lục hợp đồng | Điều 21, Điều 33 Bộ luật Lao động |
+
+Biện pháp giảm chức không phải hình thức kỷ luật cách chức. Hình thức kỷ luật cách chức chỉ áp cho hành vi vi phạm kỷ luật lao động quy định trong nội quy lao động, theo Điều 124 và Điều 127 Bộ luật Lao động.
 
 ### 4.3. Trường hợp nghiêm trọng xử lý riêng
 
-Lộ trình 05 kỳ ở trên dành cho tình huống làm được việc nhưng không tiến lên. Lỗi mức Nghiêm trọng gây thiệt hại thực tế cho khách hàng là bản chất khác, được xem xét riêng ngay từ lần đầu phát sinh theo mức độ thiệt hại, không chờ đủ 05 kỳ.
+oBacker xem xét riêng lỗi mức Nghiêm trọng gây thiệt hại thực tế cho khách hàng ngay từ lần đầu phát sinh theo mức độ thiệt hại, không chờ hết lộ trình tại mục 4.2.
 
-Vi phạm một trong bảy hành vi oBacker nghiêm cấm tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 9 không xử lý bằng lộ trình này và không xử lý bằng bảng điểm.
+Lộ trình này và bảng điểm không áp dụng cho vi phạm một trong bảy hành vi oBacker nghiêm cấm tại [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 9.
 
 ### 4.4. Căn cứ pháp luật và điều kiện áp dụng
 
@@ -147,16 +132,15 @@ Mục 4.4 dẫn văn bản pháp luật còn hiệu lực tại ngày 23/09/2026
 
 ## 5. LƯU HỒ SƠ
 
-| Hồ sơ | Ai lưu | Lưu ở đâu |
+| Hồ sơ | Người lưu | Nơi lưu |
 | --- | --- | --- |
-| Bảng số liệu phần A đã duyệt | Quản lý trực tiếp | Hệ thống quản lý công việc |
+| Bảng số liệu hiệu suất đã duyệt | Quản lý trực tiếp | Hệ thống quản lý công việc |
 | Phiếu tự đánh giá | Quản lý trực tiếp | Hệ thống quản lý công việc |
-| Phiếu đánh giá chéo | Quản lý trực tiếp | Nơi lưu có kiểm soát quyền xem |
 | Biên bản phản hồi | Quản lý trực tiếp | Hệ thống quản lý công việc |
 | Phiếu tổng hợp điểm cuối kỳ | `COO` với Phòng Dịch vụ, `CEO` với mọi đơn vị ngoài Phòng Dịch vụ | Hồ sơ nhân sự |
 | Văn bản nhắc nhở và kế hoạch hỗ trợ cải thiện | Nhân sự | Hồ sơ nhân sự |
 
-Hồ sơ đánh giá giữ đủ thời gian để dùng được làm căn cứ theo mục 4.4 điều kiện 5. Thời gian lưu cụ thể là nội dung của quy chế lưu trữ, không đặt ở tài liệu này.
+Hồ sơ đánh giá giữ đủ thời gian để dùng được làm căn cứ theo mục 4.4 điều kiện 5.
 
 ---
 
@@ -164,4 +148,4 @@ Hồ sơ đánh giá giữ đủ thời gian để dùng được làm căn cứ
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 08/10/2026 | R.4.0.1 | Bỏ câu tự mô tả đầu phụ lục và câu thời gian lưu thuộc quy chế lưu trữ; viết lại câu phạm vi lộ trình ở mục 4.3 |

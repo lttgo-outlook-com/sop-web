@@ -4,13 +4,13 @@ code: "OBK-DM-00"
 type: "danh-muc"
 folder: "10_DanhMuc"
 level: "Danh mục"
-version: "R.1.1.0"
+version: "R.1.1.2"
 status: "đang áp dụng"
-draft_date: "15/09/2026"
+draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
 approver: "CEO"
-parent: "OBK-SOP-00 Chuẩn vận hành dịch vụ"
+parent: "OBK-MSR Quy tắc sổ cái"
 next_review: ""
 distribution: "nội bộ"
 aliases:
@@ -29,16 +29,16 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-DM-00 |
 | Cấp tài liệu | Danh mục |
-| Phiên bản | R.1.1.0, đang áp dụng |
-| Ngày biên soạn | 15/09/2026 |
+| Phiên bản | R.1.1.2, đang áp dụng |
+| Ngày biên soạn | 04/10/2026 |
 | Người biên soạn | `CEO` |
 | Người soát | đã soát |
 | Người phê duyệt | đã phê duyệt |
-| Văn bản cấp trên | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] Chuẩn vận hành dịch vụ |
+| Văn bản cấp trên | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] Quy tắc sổ cái |
 | Tổng số bản ghi | 378 |
 | Số mã dịch vụ trong danh mục | 275 |
 | Số hạng mục ghi nhận riêng | 103 |
-| Nguồn dữ liệu | `_du_lieu_danh_muc/danh_muc.tsv`, kết xuất ngày 15/09/2026 |
+| Nguồn dữ liệu | `_du_lieu_danh_muc/danh_muc.tsv`, kết xuất ngày 04/10/2026 |
 | Nguồn dữ liệu | Bản kết xuất danh mục sản phẩm |
 
 > [!note] BẢN SINH TỰ ĐỘNG
@@ -49,9 +49,7 @@ tags:
 
 ## 1. DANH MỤC TRANG
 
-Mỗi mã dịch vụ có ba dữ kiện: mức giá, quy trình của bộ phận thực hiện, và điều khoản ràng buộc oBacker với khách. Mức giá lấy nguyên từ hệ thống danh mục sản phẩm.
-
-Trang đầu xếp theo quan hệ gói. Sáu trang tiếp theo xếp theo mảng dịch vụ.
+Mỗi mã dịch vụ có ba dữ kiện: mức giá, quy trình của bộ phận thực hiện, và điều khoản ràng buộc oBacker với khách.
 
 | Trang | Nội dung | Số mã | Quy trình | Điều khoản dịch vụ cụ thể |
 | --- | --- | --- | --- | --- |
@@ -66,7 +64,7 @@ Trang đầu xếp theo quan hệ gói. Sáu trang tiếp theo xếp theo mảng
 
 ---
 
-## 2. BA CỘT GIÁ TRONG BẢNG
+## 2. CỘT GIÁ TRONG BẢNG
 
 | Cột | Nghĩa |
 | --- | --- |
@@ -74,7 +72,7 @@ Trang đầu xếp theo quan hệ gói. Sáu trang tiếp theo xếp theo mảng
 | Giá đã có thuế GTGT | mức khách trả, đã gồm thuế giá trị gia tăng |
 | Thuế suất GTGT | thuế suất ghi cho chính mã đó trong hệ thống danh mục sản phẩm |
 
-Hai cột giá lấy nguyên giá trị của hệ thống danh mục sản phẩm. Không có phép tính nào áp lên hai cột đó.
+Hai cột giá lấy nguyên giá trị của hệ thống danh mục sản phẩm.
 
 ---
 
@@ -83,8 +81,7 @@ Hai cột giá lấy nguyên giá trị của hệ thống danh mục sản ph�
 | Nội dung còn thiếu | Số lượng | Hệ quả |
 | --- | --- | --- |
 | Mã không có giá | 21 | bảng ghi `chưa có giá` |
-| Trường Gói chứa hạng mục này bị cắt giữa chừng trong bản kết xuất | 2 | `OBG-ADD-INV-FIX` và `OBG-MTH1` ghi thiếu mã cuối danh sách |
-| Tên hạng mục trong nguồn dùng gạch dài | 16 | bảng in bằng gạch nối; nguồn chưa sửa |
+| Danh sách gói chứa chưa xác minh trong bản kết xuất | 2 | `OBG-ADD-INV-FIX` và `OBG-MTH1` để trống, bảng ghi `chưa ghi` |
 | Chưa có tài liệu điều khoản dịch vụ cụ thể cho chữ ký số và hợp đồng điện tử | 1 nhóm | áp dụng Bản Điều Khoản Chung cho tới khi có tài liệu riêng |
 | Chưa có tài liệu điều khoản dịch vụ cụ thể cho dịch vụ thực hiện ở nước ngoài | 1 nhóm | áp dụng Bản Điều Khoản Chung cho tới khi có tài liệu riêng |
 
@@ -93,11 +90,9 @@ Hai cột giá lấy nguyên giá trị của hệ thống danh mục sản ph�
 
 ## 4. NGUYÊN TẮC ĐỊNH GIÁ, THUẾ SUẤT VÀ CHU KỲ THANH TOÁN
 
-Toàn bộ danh mục dịch vụ của oBacker tuân thủ các nguyên tắc định giá và thanh toán sau:
-
 | Nguyên tắc | Nội dung quy chuẩn |
 | --- | --- |
-| Giá chưa thuế GTGT (VAT Exclusive) | Toàn bộ đơn giá dịch vụ niêm yết trong danh mục là mức giá chưa bao gồm thuế giá trị gia tăng. Thuế GTGT được tính theo thuế suất thực tế tại thời điểm lập hóa đơn theo quy định của pháp luật thuế. |
+| Giá chưa thuế GTGT (VAT Exclusive) | Đơn giá dịch vụ niêm yết trong danh mục là mức giá chưa bao gồm thuế giá trị gia tăng. Thuế GTGT được tính theo thuế suất thực tế tại thời điểm lập hóa đơn theo quy định của pháp luật thuế. |
 | Chu kỳ thanh toán chuẩn | Dịch vụ định kỳ thanh toán theo năm (trả trước 100% khi ký kết hoặc gia hạn hợp đồng) hoặc thanh toán theo quý (trả trước vào đầu mỗi quý). Dịch vụ vụ việc thanh toán làm hai đợt (tạm ứng khi ký kết và thanh toán phần còn lại khi bàn giao kết quả). |
 | Cơ chế tính Pro-rata khi bắt đầu giữa kỳ | Trường hợp hợp đồng bắt đầu thực hiện vào giữa tháng hoặc giữa quý, phí dịch vụ của kỳ đầu tiên được tính theo số ngày làm việc thực tế còn lại của kỳ đó trên cơ sở đơn giá tháng quy đổi. |
 | Phụ phí vượt định mức (FUP) | Các khoản phụ phí vượt định mức giao dịch, tài khoản ngân hàng, nhân sự tính lương được chốt số liệu đối soát vào ngày 05 hàng tháng và xuất hóa đơn gộp vào kỳ tiếp theo hoặc thanh toán trong 07 ngày làm việc. |
@@ -108,4 +103,4 @@ Toàn bộ danh mục dịch vụ của oBacker tuân thủ các nguyên tắc �
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 28/09/2026 | R.1.1.0 | Cập nhật tổng phổ 372 mã SKU, đồng bộ 63 mã SKU chuẩn hóa mới và bộ gói đối tác Partner Core, Growth, Prime |
+| 08/10/2026 | R.1.1.2 | Đổi liên kết chuẩn vận hành dịch vụ sang quy tắc sổ cái |

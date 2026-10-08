@@ -1,9 +1,15 @@
 ---
 title: "LEGAL SERVICES; SPECIFIC TERMS (PL-PL)"
+code: "TNC-04-EN"
+aliases:
+  - TNC-04-EN
 type: "tnc"
 folder: "09_TnC"
 version: "R.2.1.1"
 status: "đang áp dụng"
+author: "CEO"
+reviewer: "CEO"
+approver: "CEO"
 language: "en"
 distribution: "Khách hàng"
 previous_version: ""
@@ -113,10 +119,10 @@ oBacker retains copyright and all intellectual property rights in its work produ
 
 ## Article 8. Cooperation principles
 
-- The Client sets out the background and objectives clearly and provides the relevant documents fully and honestly; **the quality of advice is directly tied to the quality of the input** (Article 3 of the Master T&C)
+- The Client sets out the background and objectives clearly and provides the relevant documents fully and honestly (Article 3 of the Master T&C)
 - For a contract review request, the Client provides the contract, the transaction background, its position and any clauses of particular concern
 - **Confidentiality:** advice is prepared solely for the Client and kept confidential under Article 7 of the Master T&C
-- To respond promptly, oBacker may contact directly any member of the Client's team or advisers whom oBacker believes to be relevant to the work.
+- oBacker may contact directly any member of the Client's team or advisers whom oBacker believes to be relevant to the work.
 
 ## Article 9. Service Fees
 

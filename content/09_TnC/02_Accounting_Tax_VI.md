@@ -1,9 +1,15 @@
 ---
 title: "ĐIỀU KHOẢN DỊCH VỤ KẾ TOÁN & THUẾ (PL-KT)"
+code: "TNC-02-VI"
+aliases:
+  - TNC-02-VI
 type: "tnc"
 folder: "09_TnC"
-version: "R.2.3.1"
+version: "R.2.3.2"
 status: "đang áp dụng"
+author: "CEO"
+reviewer: "CEO"
+approver: "CEO"
 language: "vi"
 distribution: "Khách hàng"
 previous_version: ""
@@ -26,7 +32,7 @@ MST: 0402298185 · Tầng 2, 06 Trần Phú, Phường Hải Châu, Thành phố
 
 ## Điều 1. Tổng quan và nguyên tắc áp dụng
 
-oBacker vận hành công tác kế toán và thuế doanh nghiệp để hỗ trợ Quý Khách tuân thủ đầy đủ nghĩa vụ. Chỉ những hợp phần được ghi tại Đơn Đặt Hàng mới có hiệu lực ràng buộc. **Quý Khách là chủ thể chịu trách nhiệm cuối cùng trước cơ quan nhà nước** về tính trung thực, đầy đủ và hợp pháp của hồ sơ, chứng từ cung cấp cho oBacker.
+oBacker vận hành công tác kế toán và thuế doanh nghiệp. Chỉ những hợp phần được ghi tại Đơn Đặt Hàng mới có hiệu lực ràng buộc. **Quý Khách là chủ thể chịu trách nhiệm cuối cùng trước cơ quan nhà nước** về tính trung thực, đầy đủ và hợp pháp của hồ sơ, chứng từ cung cấp cho oBacker.
 
 ### Định nghĩa "01 Giao Dịch"
 
@@ -34,8 +40,6 @@ oBacker vận hành công tác kế toán và thuế doanh nghiệp để hỗ t
 |---|---|
 | **Giao Dịch** | Một nghiệp vụ kinh tế làm thay đổi tài sản, nguồn vốn, công nợ hoặc nghĩa vụ thuế của Quý Khách;<br>là cơ sở xác định khối lượng và phí của hợp phần Kế toán. |
 | **Ngày Chốt Số Liệu** | Thời hạn Quý Khách gửi chứng từ mỗi kỳ, quy định tại Đơn Đặt Hàng hoặc quy trình vận hành;<br>là căn cứ xác định các mốc thời gian. |
-
-Để minh bạch và tránh tính trùng:
 
 - **01 Giao Dịch là 01 bút toán ghi nhận trên sổ kế toán**, tương ứng với 01 hóa đơn mua vào/bán ra hợp lệ, **HOẶC** 01 dòng phát sinh độc lập trên sao kê ngân hàng.
 - **Chính sách hỗ trợ (gộp một đợt chi trả lương):** Với các bút toán chi trả lương hàng tháng, nếu thanh toán trong **cùng một đợt chi trả**, oBacker gộp và chỉ tính **01 Giao Dịch**, không đếm theo số lượng nhân sự nhận lương.
@@ -67,13 +71,13 @@ Ngưỡng Giao Dịch/tháng theo gói được ghi tại Đơn Đặt Hàng. Kh
 
 - oBacker lập và nộp các tờ khai thuế theo kỳ hoặc theo thời điểm phát sinh: **thuế GTGT** và **thuế nhà thầu nước ngoài (FCT)**
 - Tạm nộp và **quyết toán thuế TNDN**; lập hồ sơ quyết toán thuế năm phần TNDN
-- **Khấu trừ và kê khai thuế TNCN đối với thu nhập vãng lai chi cho cá nhân KHÔNG qua bảng lương**; cộng tác viên (CTV), freelancer theo hợp đồng dịch vụ, thuê tài sản cá nhân (nhà, xe…): khấu trừ 10% khi khoản chi từ 05 triệu đồng/lần trở lên (thu nhập vãng lai), hoặc theo tỷ lệ tương ứng đối với thuê tài sản. Nghiệp vụ này gắn với dòng chi phí do Kế toán ghi nhận, thuộc PL-KT
+- **Khấu trừ và kê khai thuế TNCN đối với thu nhập vãng lai chi cho cá nhân KHÔNG qua bảng lương**; cộng tác viên (CTV), freelancer theo hợp đồng dịch vụ, thuê tài sản cá nhân (nhà, xe…): khấu trừ 10% khi khoản chi từ 05 triệu đồng/lần trở lên (thu nhập vãng lai), hoặc theo tỷ lệ tương ứng đối với thuê tài sản. Nghiệp vụ này thuộc PL-KT
 - oBacker theo dõi và thông báo nghĩa vụ thuế cùng thời hạn nộp cho Quý Khách
 - Hỗ trợ giải trình số liệu đã xử lý khi cơ quan thuế kiểm tra, trong phạm vi ủy quyền hợp lệ.
 
 > **Phân định TNCN tiền lương:** TNCN **từ tiền lương** của người lao động có hợp đồng lao động (khấu trừ lũy tiến) tách thành hai đầu việc. **Khấu trừ và kê khai thuế TNCN theo kỳ** thuộc **Dịch Vụ Kế toán (PL-KT)**. **Quyết toán TNCN năm**, đăng ký người phụ thuộc và chứng từ khấu trừ cho người lao động thuộc **Dịch Vụ Nhân Sự (PL-NS)**. TNCN **vãng lai** chi cho cá nhân ngoài bảng lương (CTV, freelancer, thuê tài sản cá nhân) thuộc **PL-KT** (điểm trên).
 >
-> **Lưu ý ranh giới:** CTV/freelancer làm việc thường xuyên từ đủ 01 tháng trở lên, đều đặn và có tính chất lao động có thể bị cơ quan BHXH xác định là quan hệ lao động và truy thu BHXH; khi đó chuyển sang nhân viên và các nghĩa vụ liên quan chuyển về PL-NS. oBacker khuyến nghị Quý Khách chuyển sang hợp đồng lao động chính thức trong trường hợp này.
+> CTV/freelancer làm việc thường xuyên từ đủ 01 tháng trở lên, đều đặn và có tính chất lao động có thể bị cơ quan BHXH xác định là quan hệ lao động và truy thu BHXH; khi đó chuyển sang nhân viên và các nghĩa vụ liên quan chuyển về PL-NS. oBacker khuyến nghị Quý Khách chuyển sang hợp đồng lao động chính thức trong trường hợp này.
 
 **3.2. Kê khai thuế nhà thầu (FCT); định mức tích hợp trong gói.** Việc kê khai FCT khi Quý Khách thanh toán cho nhà cung cấp nước ngoài (phần mềm dịch vụ SaaS, quảng cáo trực tuyến, lưu trữ web, tên miền, mạng phân phối nội dung, bản quyền, freelancer hoặc đơn vị dịch vụ nước ngoài…) được **tích hợp trong tất cả các gói đối tác định kỳ, với định mức theo gói: Partner Core tối đa 01 hợp đồng nhà thầu nước ngoài phát sinh mỗi tháng; Partner Growth và Partner Prime tối đa 03 hợp đồng mỗi tháng**. Từ hợp đồng vượt định mức của gói trong cùng một tháng, oBacker áp dụng phụ thu kê khai theo danh mục dịch vụ chuẩn hóa (mã ADD-FCT-RETURN-2026). Cơ sở pháp lý: **Thông tư 69/2025/TT-BTC** Điều 9 (thuế giá trị gia tăng) và **Thông tư 20/2026/TT-BTC** Điều 7 (thuế thu nhập doanh nghiệp).
 
@@ -225,6 +229,5 @@ Phí Dịch Vụ được xác định theo Đơn Đặt Hàng (theo gói đối
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 07/10/2026 | R.2.3.1 | Bổ sung chủ ngữ oBacker cho sáu nhóm việc thuộc phạm vi Dịch Vụ (lập sổ sách, chốt sổ, lập và nộp BCTC năm, đối chiếu số liệu, lập và nộp tờ khai thuế, theo dõi và thông báo nghĩa vụ thuế) |
-| 02/10/2026 | R.2.3.0 | Điều 8: bổ sung căn cứ xử phạt, ghi rõ Nghị định 125/2020/NĐ-CP đã được sửa đổi, bổ sung bởi Nghị định 291/2026/NĐ-CP; nội dung hiện hành theo văn bản hợp nhất 27/2026/VBHN-NĐ-BTC |
+| 08/10/2026 | R.2.3.2 | Bỏ vế mục đích ở Điều 1, câu dẫn để minh bạch, vế giải thích dòng chi phí và nhãn lưu ý ranh giới |
 

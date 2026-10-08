@@ -1,9 +1,13 @@
 ---
 title: "OBACKER WALLET; EXPLANATION, HOW IT WORKS & TOP-UP TERMS"
+code: "TNC-07-EN"
 type: "tnc"
 folder: "09_TnC"
 version: "R.1.0.1"
 status: "đang áp dụng"
+author: "CEO"
+reviewer: "CEO"
+approver: "CEO"
 language: "en"
 distribution: "Khách hàng"
 previous_version: ""
@@ -24,7 +28,7 @@ Tax code: 0402298185 · contact@obacker.com · https://obacker.com
 
 ## Part 1; What the oBacker Wallet is and how it works
 
-**The oBacker Wallet is a prepaid balance** tied to the Client's account on the oBacker platform. The Client tops up the Wallet, and the system **automatically deducts** service fees from this balance at each billing cycle; no manual transfer is needed each cycle.
+**The oBacker Wallet is a prepaid balance** tied to the Client's account on the oBacker platform. The Client tops up the Wallet, and the system **automatically deducts** service fees from this balance at each billing cycle.
 
 **How it works:**
 
@@ -32,12 +36,6 @@ Tax code: 0402298185 · contact@obacker.com · https://obacker.com
 2. **Pay** by bank transfer or payment gateway.
 3. **The balance is credited to the Wallet** once oBacker confirms receipt of the funds.
 4. **The system automatically deducts** the corresponding service fee when the cycle falls due.
-
-**Three key points to understand correctly:**
-
-- A Wallet top-up is a **prepaid service voucher**, **not** an advance or a deposit. It may only be used to pay for oBacker services.
-- **A VAT e-invoice is issued only when the service is performed** (when the fee is deducted from the Wallet), **not at the time of top-up**.
-- Each top-up is **valid for 24 months**; it is **non-refundable and non-transferable** (unless the law provides otherwise or the parties agree in writing).
 
 ---
 
@@ -60,22 +58,6 @@ Tax code: 0402298185 · contact@obacker.com · https://obacker.com
 **8.** The minimum top-up amount is **VND 1,000,000** (one million Vietnamese dong) per transaction. oBacker reserves the right to adjust the minimum and maximum top-up limits at its discretion, with notice to the Client before application.
 
 **9.** A VAT e-invoice is issued only when the specific service is performed, matching the actual value of the service deducted from the Wallet. **No VAT e-invoice is issued at the time of top-up.**
-
----
-
-## Part 3; Frequently asked questions
-
-**Is an invoice issued immediately when I top up?**
-No. A VAT e-invoice is issued only when the service is performed and the fee is deducted from the Wallet, matching the actual value of the service.
-
-**If I don't use up the balance, is it refundable?**
-No. The balance is non-refundable and non-transferable (unless the law provides otherwise or the parties agree in writing). Any balance remaining after 24 months is recognised as oBacker's revenue; oBacker gives at least 30 days' notice before expiry.
-
-**What happens when my balance is about to expire?**
-oBacker proactively gives at least 30 days' notice. The Client should use the balance or speak with their AM before the deadline.
-
-**What happens to the Services if the Wallet runs out mid-cycle?**
-oBacker notifies the Client to top up; the Services may be suspended until the balance is sufficient. To avoid interruption, keep enough balance to cover at least one billing cycle.
 
 ---
 

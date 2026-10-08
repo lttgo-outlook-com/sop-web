@@ -4,9 +4,9 @@ code: "OBK-DM-GOI"
 type: "danh-muc"
 folder: "10_DanhMuc"
 level: "Danh mục"
-version: "R.1.1.0"
+version: "R.1.1.1"
 status: "đang áp dụng"
-draft_date: "15/09/2026"
+draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
 approver: "CEO"
@@ -30,8 +30,8 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-DM-GOI |
 | Cấp tài liệu | Danh mục |
-| Phiên bản | R.1.1.0, đang áp dụng |
-| Ngày biên soạn | 15/09/2026 |
+| Phiên bản | R.1.1.1, đang áp dụng |
+| Ngày biên soạn | 04/10/2026 |
 | Người biên soạn | `CEO` |
 | Người soát | đã soát |
 | Người phê duyệt | đã phê duyệt |
@@ -40,7 +40,7 @@ tags:
 | Số phụ phí FUP và vận hành | 17 |
 | Số gói back office obacker Grow (chuyển tiếp) | 1 |
 | Số hạng mục kèm gói chuyển tiếp | 12 |
-| Nguồn dữ liệu | `_du_lieu_danh_muc/danh_muc.tsv`, kết xuất ngày 15/09/2026 |
+| Nguồn dữ liệu | `_du_lieu_danh_muc/danh_muc.tsv`, kết xuất ngày 04/10/2026 |
 | Nguồn dữ liệu | Bản kết xuất danh mục sản phẩm |
 
 > [!note] BẢN SINH TỰ ĐỘNG
@@ -51,7 +51,7 @@ tags:
 
 ## 1. CÁC QUAN HỆ GIỮA CÁC MÃ GÓI VÀ HẠNG MỤC
 
-Sáu trang bảng giá xếp mã theo mảng dịch vụ và theo thứ tự chữ cái. Trang này tổng hợp các mã theo kiến trúc gói dịch vụ của oBacker. Dữ liệu đầy đủ của một mã nằm ở trang bảng giá của mảng tương ứng.
+Trang này tổng hợp các mã theo kiến trúc gói dịch vụ của oBacker.
 
 | Loại | Nghĩa | Mục |
 | --- | --- | --- |
@@ -162,8 +162,6 @@ Dịch vụ thiết lập ban đầu, di trú dữ liệu và xử lý tồn đ�
 ---
 
 ## 6. DÒNG THUÊ BAO KHÁC
-
-Mỗi dòng thuê bao gồm nhiều mã khác nhau ở thời hạn.
 
 
 
@@ -284,7 +282,7 @@ Gói Enterprise không có mức giá niêm yết. Mức giá của gói đó x�
 | `OBG-ADD-ACC-TRANS` | Chuyển đổi dữ liệu kế toán | lần | chưa có giá | tính khi xuất hóa đơn | chưa ghi |
 | `OBG-ADD-FLR` | Báo cáo vay/trả nợ nước ngoài | báo cáo/tháng | 500.000 | tính khi xuất hóa đơn | chưa ghi |
 | `OBG-ADD-HR5` | Add-on: Thêm 5 nhân sự tính lương | tháng | 675.000 | tính khi xuất hóa đơn | OBG-ENT |
-| `OBG-ADD-INV-FIX` | Xử lý hóa đơn sai sót | hóa đơn | 500.000 | tính khi xuất hóa đơn | OBG-MTH1, OBG-ENT |
+| `OBG-ADD-INV-FIX` | Xử lý hóa đơn sai sót | hóa đơn | 500.000 | tính khi xuất hóa đơn | chưa ghi |
 | `OBG-ADD-INV1` | Add-on: Xuất 01 hóa đơn lẻ | hóa đơn | 150.000 | tính khi xuất hóa đơn | chưa ghi |
 | `OBG-ADD-INV5` | Add-on: Dịch vụ xuất hóa đơn - Gói 5 hóa đơn/tháng | tháng | 400.000 | tính khi xuất hóa đơn | chưa ghi |
 | `OBG-ADD-LEG2C` | Add-on: Tư vấn pháp lý, thuế - 2 giờ/tháng | gói | 1.700.000 | tính khi xuất hóa đơn | chưa ghi |
@@ -292,15 +290,13 @@ Gói Enterprise không có mức giá niêm yết. Mức giá của gói đó x�
 | `OBG-ADD-PRF` | Thông báo chuyển lợi nhuận ra nước ngoài | báo cáo | 500.000 | tính khi xuất hóa đơn | chưa ghi |
 | `OBG-ADD-TPR` | Kê khai giao dịch & hồ sơ giá giao dịch liên kết | báo cáo | 500.000 | tính khi xuất hóa đơn | chưa ghi |
 | `OBG-ADD-TRX100` | Add-on: Thêm 100 giao dịch kế toán/tháng | tháng | 900.000 | tính khi xuất hóa đơn | OBG-ENT |
-| `OBG-MTH1` | Add-on: obacker Grow - Tháng đầu tiên thành lập công ty | tháng | 0 | tính khi xuất hóa đơn | OBG-ENT |
+| `OBG-MTH1` | Add-on: obacker Grow - Tháng đầu tiên thành lập công ty | tháng | 0 | tính khi xuất hóa đơn | chưa ghi |
 
 
 
 ---
 
 ## 8. HẠNG MỤC CÓ GHI THÀNH PHẦN
-
-Danh sách mọi mã có ghi hạng mục thành phần trong hệ thống danh mục sản phẩm.
 
 
 
@@ -320,7 +316,7 @@ Danh sách mọi mã có ghi hạng mục thành phần trong hệ thống danh 
 
 ## 9. QUY CHẾ SỬ DỤNG HỢP LÝ VÀ ĐỐI SOÁT PHỤ PHÍ HÀNG THÁNG
 
-Chính sách sử dụng hợp lý áp dụng đối với mọi gói đối tác định kỳ nhằm bảo đảm công bằng tài nguyên vận hành.
+Chính sách sử dụng hợp lý áp dụng đối với mọi gói đối tác định kỳ.
 
 | Chỉ số vận hành | Gói Partner Core | Gói Partner Growth | Gói Partner Prime | Phụ phí vượt định mức |
 | --- | --- | --- | --- | --- |
@@ -330,6 +326,7 @@ Chính sách sử dụng hợp lý áp dụng đối với mọi gói đối tá
 | Đợt tính lương phát sinh | 01 đợt/tháng | 01 đợt/tháng | 02 đợt/tháng | 500.000 đồng/đợt phát sinh thêm |
 | Hồ sơ thuế nhà thầu nước ngoài | 01 hợp đồng/tháng | 03 hợp đồng/tháng | 03 hợp đồng/tháng | 1.000.000 đồng/hồ sơ phát sinh thêm |
 | Hỗ trợ thanh tra thuế tại trụ sở | không bao gồm | không bao gồm | 01 ngày/năm | 2.500.000 đồng/ngày làm việc trực tiếp |
+| Định mức Giao Dịch/tháng (đơn vị Giao Dịch theo TNC Điều 15) | 50 (doanh nghiệp FDI: 100) | 300; trần vận hành 1.500 qua block mở rộng | từ 1.500 đến trên 7.000, theo block trong Đơn Đặt Hàng | theo block khối 500/1.000/1.500 |
 
 Quy định về khối chứng từ phụ trội và trần gói:
 
@@ -346,8 +343,6 @@ Quy trình đối soát phụ phí hàng tháng:
 ---
 
 ## 10. CƠ CHẾ CHUYỂN ĐỔI VÀ NÂNG GÓI TỰ ĐỘNG
-
-Cơ chế nâng gói bảo đảm dịch vụ kế toán thuế tương thích với quy mô thực tế của doanh nghiệp.
 
 - Nâng gói giữa năm tài chính: Khách hàng tự động chuyển đổi lên gói dịch vụ cấp cao hơn từ tháng tiếp theo khi thỏa mãn một trong hai điều kiện: (1) Khối lượng chứng từ thực tế vượt định mức gói hiện tại liên tục 03 tháng dương lịch; hoặc (2) Doanh thu lũy kế phát sinh trong năm tài chính vượt ngưỡng quy mô của gói hiện tại (doanh thu năm vượt 3.000.000.000 đồng đối với gói Partner Core). Chi phí các tháng còn lại được tính bù trừ theo chênh lệch đơn giá của gói mới.
 - Đánh giá định kỳ cuối năm tài chính: Vào ngày 31 tháng 12 hàng năm, oBacker đánh giá lại tổng doanh thu, số lao động bình quân và tổng lượng chứng từ phát sinh cả năm để xác định phân hạng gói áp dụng cho hợp đồng năm tài chính tiếp theo.
@@ -373,7 +368,7 @@ Hệ số phức tạp ngành nghề:
 | Xuất nhập khẩu, Vận tải, Logistics, Thương mại điện tử xuyên biên giới | 1,3 | Tờ khai hải quan, thuế xuất nhập khẩu, thuế nhà thầu nước ngoài và chứng từ thanh toán quốc tế |
 | Sản xuất, Gia công, Xây dựng, Thi công hoàn thiện | 1,5 | Bắt buộc lập định mức tiêu hao nguyên vật liệu, tính giá thành sản phẩm và theo dõi công trình dở dang |
 
-Danh mục ngành nghề loại trừ tuyệt đối (không tiếp nhận cung cấp dịch vụ):
+Danh mục ngành nghề loại trừ (không tiếp nhận cung cấp dịch vụ):
 
 - Kinh doanh tiền mã hóa, tài sản ảo không được pháp luật công nhận;
 - Dịch vụ tín dụng đen, cầm đồ trái phép;
@@ -387,14 +382,14 @@ Danh mục ngành nghề loại trừ tuyệt đối (không tiếp nhận cung 
 
 Cam kết thời hạn đối với hợp đồng ký kết trong Quý 4:
 
-- Hợp đồng dịch vụ ký mới trong Quý 4 của năm tài chính bắt buộc có thời hạn tối thiểu là 05 quý (kéo dài đến hết ngày 31 tháng 12 của năm tài chính tiếp theo). Quy định này bảo đảm bù đắp chi phí vận hành khi oBacker thực hiện toàn bộ công tác tổng hợp số liệu, lập báo cáo tài chính và quyết toán thuế của năm trước.
+- Hợp đồng dịch vụ ký mới trong Quý 4 của năm tài chính bắt buộc có thời hạn tối thiểu là 05 quý (kéo dài đến hết ngày 31 tháng 12 của năm tài chính tiếp theo).
 - Trường hợp khách hàng đơn phương chấm dứt hợp đồng trước thời hạn 05 quý, khách hàng có nghĩa vụ bồi hoàn chi phí lập báo cáo tài chính năm trước với số tiền tương đương 03 tháng phí dịch vụ theo hợp đồng.
 
 Thời hạn thanh toán đợt 2 phí báo cáo tài chính trước ngày 15/03:
 
 - Chi phí lập báo cáo tài chính và hồ sơ quyết toán năm được phân bổ thành 02 đợt thanh toán: Đợt 1 (50%) thanh toán cùng kỳ phí Quý 4; Đợt 2 (50%) thanh toán trước ngày 15 tháng 03 của năm tài chính tiếp theo.
 - Thanh toán đợt 2 là điều kiện bắt buộc để oBacker ký số và chính thức nộp hồ sơ quyết toán thuế, báo cáo tài chính lên cổng thông tin của cơ quan thuế.
-- Trường hợp khách hàng chậm thanh toán đợt 2 sau ngày 15 tháng 03, oBacker giữ quyền tạm dừng nộp hồ sơ quyết toán. Khách hàng tự chịu hoàn toàn trách nhiệm pháp lý và các khoản tiền phạt chậm nộp hồ sơ khai thuế phát sinh.
+- Trường hợp khách hàng chậm thanh toán đợt 2 sau ngày 15 tháng 03, oBacker giữ quyền tạm dừng nộp hồ sơ quyết toán. Khách hàng tự chịu trách nhiệm pháp lý và các khoản tiền phạt chậm nộp hồ sơ khai thuế phát sinh.
 
 ---
 
@@ -409,25 +404,25 @@ Dịch vụ khắc phục và lập lại sổ sách kế toán (`OBG-RESTATE-BA
 
 - Áp dụng khi kết quả rà soát phát hiện sổ sách cũ bị sai lệch, thiếu chứng từ hoặc vi phạm quy định kế toán thuế.
 - Phí dịch vụ xác định theo công thức: Đơn giá cơ sở theo tháng nhân với số tháng cần khắc phục, nhân với hệ số ngành nghề K và hệ số điều chỉnh theo khối lượng chứng từ sai lệch.
-- Ranh giới pháp lý: oBacker chỉ chịu trách nhiệm đối với số liệu do oBacker trực tiếp hạch toán và nộp trong thời gian thực hiện hợp đồng. oBacker được miễn trừ toàn bộ trách nhiệm đối với sai phạm, tiền truy thu thuế và tiền phạt phát sinh từ số liệu quá khứ do khách hàng hoặc đơn vị cũ lập trước thời điểm bàn giao.
+- Ranh giới pháp lý: oBacker chỉ chịu trách nhiệm đối với số liệu do oBacker trực tiếp hạch toán và nộp trong thời gian thực hiện hợp đồng. oBacker được miễn trừ trách nhiệm đối với sai phạm, tiền truy thu thuế và tiền phạt phát sinh từ số liệu quá khứ do khách hàng hoặc đơn vị cũ lập trước thời điểm bàn giao.
 
 ---
 
-## 14. BẢY NGUYÊN TẮC RANH GIỚI VẬN HÀNH
+## 14. NGUYÊN TẮC RANH GIỚI VẬN HÀNH
 
-Mọi hoạt động cung cấp dịch vụ đối tác kế toán, thuế và pháp lý tuân thủ bảy nguyên tắc ranh giới vận hành sau đây:
+Mọi hoạt động cung cấp dịch vụ đối tác kế toán, thuế và pháp lý tuân thủ các nguyên tắc ranh giới vận hành sau đây:
 
 1. Quản trị chữ ký số an toàn: Không lưu giữ thiết bị chữ ký số vật lý (Token USB) tại văn phòng oBacker quá 24 giờ làm việc. Khuyến nghị khách hàng sử dụng chữ ký số từ xa (HSM Cloud) có phân quyền kiểm soát.
-2. Phân định dòng tiền minh bạch: Tuyệt đối không nhận tiền thanh toán hộ nghĩa vụ thuế, bảo hiểm xã hội hoặc tiền phạt qua tài khoản cá nhân của nhân sự oBacker. Khách hàng thực hiện nộp thuế trực tiếp từ tài khoản doanh nghiệp.
-3. Tính hợp pháp của hóa đơn chứng từ: Khách hàng chịu trách nhiệm toàn bộ trước pháp luật về tính hợp pháp, hợp lệ và thực tế phát sinh của mọi hóa đơn, chứng từ đầu vào cung cấp cho oBacker.
+2. Phân định dòng tiền minh bạch: Không nhận tiền thanh toán hộ nghĩa vụ thuế, bảo hiểm xã hội hoặc tiền phạt qua tài khoản cá nhân của nhân sự oBacker. Khách hàng thực hiện nộp thuế trực tiếp từ tài khoản doanh nghiệp.
+3. Tính hợp pháp của hóa đơn chứng từ: Khách hàng chịu trách nhiệm trước pháp luật về tính hợp pháp, hợp lệ và thực tế phát sinh của mọi hóa đơn, chứng từ đầu vào cung cấp cho oBacker.
 4. Quyền từ chối hạch toán: oBacker có quyền từ chối hạch toán các khoản chi phí không có căn cứ chứng từ hợp pháp, không phục vụ hoạt động sản xuất kinh doanh hoặc có dấu hiệu rủi ro vi phạm pháp luật thuế.
 5. Độc lập chức danh Kế toán trưởng: oBacker không cử nhân sự đứng tên chức danh Kế toán trưởng pháp lý của khách hàng trên đăng ký kinh doanh, trừ trường hợp hai bên ký hợp đồng dịch vụ Kế toán trưởng riêng biệt.
 6. Chuẩn mực thời gian phản hồi: Thời gian phản hồi yêu cầu tư vấn chuẩn trong vòng 04 giờ làm việc. Chứng từ kế toán được phân loại và xử lý định kỳ hàng tuần.
-7. Bảo mật thông tin tuyệt đối: Dữ liệu tài chính, doanh thu, nhân sự và thông tin kinh doanh của khách hàng được bảo mật theo Thỏa thuận bảo mật thông tin (NDA) và chỉ phục vụ mục đích thực hiện hợp đồng dịch vụ.
+7. Bảo mật thông tin: Dữ liệu tài chính, doanh thu, nhân sự và thông tin kinh doanh của khách hàng được bảo mật theo Thỏa thuận bảo mật thông tin (NDA) và chỉ phục vụ mục đích thực hiện hợp đồng dịch vụ.
 ---
 
 ## NHẬT KÝ SỬA
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 28/09/2026 | R.1.1.0 | Hợp nhất kiến trúc ba gói đối tác Partner Core, Partner Growth, Partner Prime, bổ sung gói FUP Add-on và chính sách trần 1.500 chứng từ/tháng |
+| 07/10/2026 | R.1.1.1 | Đổi ngày bản kết xuất nguồn dữ liệu sang 04/10/2026; hạng mục OBG-MTH1 để trống danh sách gói chứa, chờ xác minh |

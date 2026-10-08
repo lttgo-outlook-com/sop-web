@@ -4,7 +4,7 @@ code: "OBK-NQLD"
 type: "sop"
 folder: "11_NhanSu"
 level: "Cấp 1, văn bản KHUNG toàn công ty"
-version: "R.1.0.0"
+version: "R.1.0.3"
 status: "đang áp dụng"
 draft_date: "01/10/2026"
 author: "CEO"
@@ -29,14 +29,14 @@ tags:
 | Mã tài liệu | OBK-NQLD |
 | Tên tài liệu | Nội quy lao động của Công ty cổ phần oBacker |
 | Cấp tài liệu | Cấp 1, văn bản KHUNG toàn công ty |
-| Phiên bản | R.1.0.0, đang áp dụng |
+| Phiên bản | R.1.0.3, đang áp dụng |
 | Văn bản ban hành | Quyết định số 01/2026/QĐ-NQLĐ ngày 03/09/2026 của Tổng giám đốc |
 | Ngày biên soạn | 01/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 03/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
 | Người soát | CEO (Lê Trọng Tuấn) |
 | Người phê duyệt | CEO (Lê Trọng Tuấn) |
-| Văn bản cấp trên | [[OBK-QCTC-02_Quy_che_to_chuc_va_phan_quyen\|OBK-QCTC-02]] Quy chế tổ chức và phân quyền |
+| Văn bản cấp trên | [[OBK-QCTC-02_Bang_tham_quyen\|OBK-QCTC-02]] Quy chế tổ chức và phân quyền |
 | Bộ tài liệu | Nhân sự nội bộ oBacker |
 | Lần rà soát tiếp theo | Không quá 12 tháng kể từ ngày ban hành;<br>rà soát đột xuất khi pháp luật lao động thay đổi |
 | Phạm vi phát hành | Toàn thể người lao động của oBacker. Niêm yết nội dung chính tại nơi làm việc |
@@ -46,9 +46,7 @@ tags:
 > [!note] NGUYÊN TẮC ÁP DỤNG VÀ THẨM QUYỀN PHÁP LÝ
 > Tài liệu này là bản chép nguyên văn Nội quy lao động đã ký ban hành. Không sửa một chữ nào của phần từ Điều 1 tới Điều 50.
 >
-> Căn cứ pháp luật của từng chương đặt tại mục CĂN CỨ PHÁP LÝ ở cuối tài liệu, không chèn vào thân điều khoản.
->
-> Khi Nội quy lao động và một tài liệu nội bộ khác quy định khác nhau về cùng một vấn đề thì áp dụng Nội quy lao động. Quy tắc này ghi tại [[00_Bo_tai_lieu_quan_tri_nhan_su|OBK-QCNS-00]] mục 4.
+> Khi Nội quy lao động và một tài liệu nội bộ khác quy định khác nhau về cùng một vấn đề thì áp dụng Nội quy lao động. Quy tắc này ghi tại [[00_INDEX|OBK-INDEX]] mục 4.
 
 > [!note] ĐIỀU KIỆN HIỆU LỰC VÀ THỦ TỤC ĐĂNG KÝ
 > Căn cứ Điều 3.1 Nội quy lao động và quy định pháp luật lao động hiện hành, trường hợp công ty sử dụng từ 10 người lao động trở lên, Nội quy lao động có hiệu lực sau 15 ngày kể từ ngày cơ quan chuyên môn về lao động tiếp nhận đầy đủ hồ sơ đăng ký hợp lệ. Hồ sơ đăng ký được nộp trong thời hạn 10 ngày kể từ ngày ban hành theo CC-LD-93.
@@ -885,4 +883,4 @@ Tổng giám đốc CÔNG TY CỔ PHẦN OBACKER ban hành Nội Quy Lao Động
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 08/10/2026 | R.1.0.3 | Bỏ dòng chỉ chỗ đặt căn cứ pháp luật trong cảnh báo đầu tài liệu; nguyên văn nội quy giữ nguyên |

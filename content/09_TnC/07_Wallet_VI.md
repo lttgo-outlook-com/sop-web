@@ -1,9 +1,13 @@
 ---
 title: "VÍ OBACKER; GIẢI THÍCH, CÁCH HOẠT ĐỘNG & ĐIỀU KHOẢN"
+code: "TNC-07-VI"
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.0.1"
+version: "R.1.0.2"
 status: "đang áp dụng"
+author: "CEO"
+reviewer: "CEO"
+approver: "CEO"
 language: "vi"
 distribution: "Khách hàng"
 previous_version: ""
@@ -24,7 +28,7 @@ MST: 0402298185 · contact@obacker.com · https://obacker.com
 
 ## Phần 1; Ví oBacker là gì và hoạt động thế nào
 
-**Ví oBacker là số dư trả trước** gắn với tài khoản Quý Khách trên nền tảng oBacker. Quý Khách nạp tiền vào Ví, và hệ thống **tự động trừ** phí dịch vụ từ số dư này mỗi kỳ thanh toán; không cần chuyển khoản thủ công từng kỳ.
+**Ví oBacker là số dư trả trước** gắn với tài khoản Quý Khách trên nền tảng oBacker. Quý Khách nạp tiền vào Ví, và hệ thống **tự động trừ** phí dịch vụ từ số dư này mỗi kỳ thanh toán.
 
 **Luồng hoạt động:**
 
@@ -32,12 +36,6 @@ MST: 0402298185 · contact@obacker.com · https://obacker.com
 2. **Thanh toán** qua chuyển khoản hoặc cổng thanh toán.
 3. **Số dư cộng vào Ví** sau khi oBacker xác nhận nhận được tiền.
 4. **Hệ thống tự trừ** phí dịch vụ tương ứng khi đến kỳ.
-
-**Ba điểm quan trọng cần hiểu đúng:**
-
-- Khoản nạp Ví là **phiếu mua hàng trả trước**, **không phải** tạm ứng hay đặt cọc. Khoản này chỉ dùng để thanh toán dịch vụ oBacker.
-- **Hóa đơn GTGT chỉ xuất khi dịch vụ được thực hiện** (khi phí được trừ khỏi Ví), **không xuất tại thời điểm nạp tiền**.
-- Mỗi khoản nạp có **hiệu lực 24 tháng**; **không hoàn lại, không chuyển nhượng** (trừ khi pháp luật quy định khác hoặc có thỏa thuận bằng văn bản).
 
 ---
 
@@ -63,22 +61,6 @@ MST: 0402298185 · contact@obacker.com · https://obacker.com
 
 ---
 
-## Phần 3; Câu hỏi thường gặp
-
-**Nạp Ví có được xuất hóa đơn ngay không?**
-Không. Hóa đơn GTGT chỉ xuất khi dịch vụ được thực hiện và phí được trừ khỏi Ví, tương ứng giá trị dịch vụ thực tế.
-
-**Không dùng hết số dư có được hoàn lại không?**
-Không. Số dư không hoàn lại và không chuyển nhượng (trừ khi pháp luật quy định khác hoặc có thỏa thuận bằng văn bản). Số dư còn lại sau 24 tháng chuyển thành doanh thu của oBacker; oBacker thông báo trước ít nhất 30 ngày trước khi hết hạn.
-
-**Số dư sắp hết hạn thì sao?**
-oBacker chủ động thông báo trước ít nhất 30 ngày. Quý Khách có thể chủ động sử dụng hoặc trao đổi với người phụ trách tài khoản (AM) trước thời hạn.
-
-**Ví hết tiền giữa kỳ thì dịch vụ ra sao?**
-oBacker thông báo để Quý Khách nạp thêm; dịch vụ có thể tạm ngừng đến khi số dư đủ. Để tránh gián đoạn, giữ số dư đủ cho ít nhất một kỳ phí.
-
----
-
 > Bằng cách tiến hành giao dịch nạp tiền, Quý Khách xác nhận đã đọc, hiểu và đồng ý toàn bộ các Điều khoản & Điều kiện này. Những nội dung không quy định riêng tại đây áp dụng theo Bản Điều Khoản Chung của oBacker.
 
 **Công ty Cổ phần oBacker** · MST: 0402298185 · contact@obacker.com · https://obacker.com
@@ -91,4 +73,4 @@ oBacker thông báo để Quý Khách nạp thêm; dịch vụ có thể tạm n
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 02/10/2026 | R.1.0.1 | Thêm bí danh 'Điều Khoản Nạp Ví' vào frontmatter để trỏ được từ Bản Điều Khoản Chung |
+| 08/10/2026 | R.1.0.2 | Bỏ khối ba điểm quan trọng và phần câu hỏi thường gặp, vì lặp điều khoản Phần 2 |

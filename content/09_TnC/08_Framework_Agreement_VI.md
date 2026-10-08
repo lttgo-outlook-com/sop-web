@@ -1,9 +1,15 @@
 ---
 title: "HỢP ĐỒNG DỊCH VỤ (BẢN KHUNG; KÝ ĐIỆN TỬ)"
+code: "TNC-08-VI"
+aliases:
+  - TNC-08-VI
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.1.2"
+version: "R.2.0.1"
 status: "đang áp dụng"
+author: "CEO"
+reviewer: "CEO"
+approver: "CEO"
 language: "vi"
 distribution: "Khách hàng"
 previous_version: ""
@@ -16,7 +22,7 @@ tags:
 **Số Hợp Đồng:** [SỐ HĐ / theo Đơn Đặt Hàng] · **Ngày phát hành:** [__/__/____]
 **Phiên bản mẫu:** R.1.1.2 · **Cập nhật:** 07/10/2026
 
-> Bản Hợp đồng khung ngắn gọn này được giao kết dưới **hình thức điện tử** theo **Luật Giao dịch điện tử số 20/2023/QH15**. Hợp đồng dẫn chiếu và đính kèm bộ Điều Khoản & Điều Kiện Dịch Vụ của oBacker; **oBacker ký sẵn (ký tự động), Hợp đồng hoàn tất giao kết khi Quý Khách thanh toán** theo Đơn Đặt Hàng.
+> Bản Hợp đồng khung này được giao kết dưới **hình thức điện tử** theo **Luật Giao dịch điện tử số 20/2023/QH15**. Hợp đồng dẫn chiếu và đính kèm bộ Điều Khoản & Điều Kiện Dịch Vụ của oBacker; **oBacker ký sẵn (ký tự động), Hợp đồng hoàn tất giao kết khi Quý Khách thanh toán** theo Đơn Đặt Hàng.
 
 ---
 
@@ -110,7 +116,7 @@ Phí Dịch Vụ, lịch và phương thức thanh toán theo Đơn Đặt Hàng
 
 ## Điều 6. Cam kết và phân định trách nhiệm
 
-Quý Khách cam kết cung cấp thông tin theo 4 tiêu chí Chính xác; Đầy đủ; Hợp pháp; Đúng hạn và chịu trách nhiệm pháp lý cuối cùng đối với hoạt động của doanh nghiệp (Điều 3 Bản Điều Khoản Chung). Cơ chế phân định trách nhiệm và bồi thường theo bản chất lỗi áp dụng theo Điều 9 Bản Điều Khoản Chung và điều khoản trách nhiệm tại Điều Khoản Dịch Vụ Cụ Thể tương ứng. Ngoài các khoản tiền phạt vi phạm hành chính và tiền chậm nộp trực tiếp do lỗi của oBacker, tổng mức bồi thường của oBacker cho mọi thiệt hại khác không vượt quá tổng Phí Dịch Vụ Quý Khách đã thực trả cho oBacker trong 03 tháng gần nhất theo Điều 9.3 Bản Điều Khoản Chung.
+Quý Khách cam kết cung cấp thông tin theo 4 tiêu chí Chính xác; Đầy đủ; Hợp pháp; Đúng hạn và chịu trách nhiệm pháp lý cuối cùng đối với hoạt động của doanh nghiệp (Điều 3 Bản Điều Khoản Chung). Cơ chế phân định trách nhiệm và bồi thường theo bản chất lỗi áp dụng theo Điều 9 Bản Điều Khoản Chung và điều khoản trách nhiệm tại Điều Khoản Dịch Vụ Cụ Thể tương ứng. Ngoài các khoản tiền phạt vi phạm hành chính và tiền chậm nộp trực tiếp do lỗi của oBacker, tổng mức bồi thường của oBacker cho mọi thiệt hại khác không vượt quá mức giới hạn tại Điều 9.3 Bản Điều Khoản Chung.
 
 ## Điều 7. Bảo mật và bảo vệ dữ liệu cá nhân
 
@@ -156,5 +162,4 @@ Chữ ký điện tử / Xác nhận thanh toán: `[chữ ký điện tử của
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 07/10/2026 | R.1.1.2 | Bổ sung chủ ngữ Quý Khách cho câu chấp nhận hợp đồng bằng ký điện tử hoặc thanh toán tại khối ký kết Bên B |
-| 01/10/2026 | R.1.1.1 | Đổi từ ngữ: nhãn định mức trong mẫu Đơn Đặt Hàng (Điều 1) viết lại bằng 'Mức tối đa' |
+| 08/10/2026 | R.2.0.1 | Bỏ từ ngắn gọn ở câu dẫn đầu |

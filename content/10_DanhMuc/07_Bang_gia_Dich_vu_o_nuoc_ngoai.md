@@ -4,9 +4,9 @@ code: "OBK-DM-NN"
 type: "danh-muc"
 folder: "10_DanhMuc"
 level: "Danh mục"
-version: "R.1.1.0"
+version: "R.1.1.2"
 status: "đang áp dụng"
-draft_date: "15/09/2026"
+draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
 approver: "CEO"
@@ -28,14 +28,14 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-DM-NN |
 | Cấp tài liệu | Danh mục |
-| Phiên bản | R.1.1.0, đang áp dụng |
-| Ngày biên soạn | 15/09/2026 |
+| Phiên bản | R.1.1.2, đang áp dụng |
+| Ngày biên soạn | 04/10/2026 |
 | Người biên soạn | `CEO` |
 | Người soát | đã soát |
 | Người phê duyệt | đã phê duyệt |
 | Văn bản cấp trên | [[00_Danh_muc_dich_vu_va_bang_gia\|OBK-DM-00]] Danh mục dịch vụ và bảng giá |
 | Số mã dịch vụ | 6 |
-| Nguồn dữ liệu | `_du_lieu_danh_muc/danh_muc.tsv`, kết xuất ngày 15/09/2026 |
+| Nguồn dữ liệu | `_du_lieu_danh_muc/danh_muc.tsv`, kết xuất ngày 04/10/2026 |
 | Nguồn dữ liệu | Bản kết xuất danh mục sản phẩm |
 
 > [!note] BẢN SINH TỰ ĐỘNG
@@ -48,7 +48,7 @@ tags:
 
 | Hạng mục | Tài liệu |
 | --- | --- |
-| Chuẩn vận hành dịch vụ | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] Chuẩn vận hành dịch vụ |
+| Quy tắc sổ cái | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] Quy tắc sổ cái |
 | Quy trình của bộ phận thực hiện | [[04_OBK-SOP-LIC_Giay_phep\|OBK-SOP-LIC]] Giấy phép |
 | Bảng tra SLA | [[PL_2_Bang_tra_SLA\|OBK-SOP-PL2]] Bảng tra SLA |
 | Điều khoản dịch vụ cụ thể | Chưa có tài liệu điều khoản dịch vụ cụ thể cho dịch vụ thực hiện ở nước ngoài |
@@ -62,7 +62,7 @@ Quan hệ giữa gói và hạng mục bán kèm gói: xem [[01_Goi_dich_vu_va_h
 
 ## 2. BẢNG GIÁ
 
-Giá ghi bằng đồng Việt Nam, tính cho một đơn vị tính. Mã trong bảng là mã của hệ thống danh mục sản phẩm.
+Giá ghi bằng đồng Việt Nam, tính cho một đơn vị tính.
 
 
 
@@ -81,7 +81,7 @@ Giá ghi bằng đồng Việt Nam, tính cho một đơn vị tính. Mã trong 
 
 ## 3. PHẠM VI CÔNG VIỆC THEO MÃ
 
-Phạm vi, thời gian và điều kiện áp dụng chép từ hệ thống danh mục sản phẩm. Mã không có dữ liệu ở sáu hạng mục sau đây thì không có mục riêng.
+Phạm vi, thời gian và điều kiện áp dụng chép từ hệ thống danh mục sản phẩm.
 
 
 
@@ -136,4 +136,4 @@ Phạm vi, thời gian và điều kiện áp dụng chép từ hệ thống dan
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 28/09/2026 | R.1.1.0 | Cập nhật biểu phí dịch vụ ở nước ngoài và hỗ trợ nhà đầu tư |
+| 08/10/2026 | R.1.1.2 | Đổi liên kết chuẩn vận hành dịch vụ sang quy tắc sổ cái tại bảng giá dịch vụ ở nước ngoài |

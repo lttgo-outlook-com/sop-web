@@ -1,9 +1,15 @@
 ---
 title: "ĐIỀU KHOẢN DỊCH VỤ NHÂN SỰ (PL-NS)"
+code: "TNC-03-VI"
+aliases:
+  - TNC-03-VI
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.0.3"
+version: "R.1.0.4"
 status: "đang áp dụng"
+author: "CEO"
+reviewer: "CEO"
+approver: "CEO"
 language: "vi"
 distribution: "Khách hàng"
 previous_version: ""
@@ -47,7 +53,7 @@ Cơ sở pháp lý chính: **Bộ luật Lao động 2019**; **Luật Bảo hi�
 - Khấu trừ, kê khai TNCN theo kỳ và **quyết toán TNCN năm** đối với **thu nhập từ tiền lương, tiền công của người lao động có hợp đồng lao động** (khấu trừ theo biểu lũy tiến từng phần)
 - Cấp chứng từ khấu trừ thuế TNCN cho người lao động vào cuối năm.
 
-> **Phân định:** Dịch Vụ Nhân Sự chỉ xử lý TNCN **từ tiền lương** của người lao động có hợp đồng lao động. TNCN **vãng lai** chi cho cá nhân KHÔNG qua bảng lương (cộng tác viên/freelancer theo hợp đồng dịch vụ, thuê tài sản cá nhân) thuộc **Dịch Vụ Kế toán & Thuế (PL-KT)** vì gắn với dòng chi phí do Kế toán ghi nhận. Nếu CTV làm thường xuyên có tính chất lao động và được chuyển sang hợp đồng lao động, các nghĩa vụ liên quan chuyển về PL-NS.
+> **Phân định:** Dịch Vụ Nhân Sự chỉ xử lý TNCN **từ tiền lương** của người lao động có hợp đồng lao động. TNCN **vãng lai** chi cho cá nhân KHÔNG qua bảng lương (cộng tác viên/freelancer theo hợp đồng dịch vụ, thuê tài sản cá nhân) thuộc **Dịch Vụ Kế toán & Thuế (PL-KT)**. Nếu CTV làm thường xuyên có tính chất lao động và được chuyển sang hợp đồng lao động, các nghĩa vụ liên quan chuyển về PL-NS.
 
 **2.3. Bảo hiểm bắt buộc (BHXH-BHYT-BHTN):**
 
@@ -103,14 +109,14 @@ Khi phát sinh nhu cầu thuộc nhóm trên, oBacker thông báo trước và �
 
 > **Nguyên tắc khi chậm gửi bảng chấm công hoặc chậm xác nhận:** Nếu Quý Khách gửi bảng chấm công hoặc biến động nhân sự sau mốc D+1, hoặc chậm xác nhận phiếu lương sau mốc D+4, cam kết tiến độ của oBacker tạm thời đình chỉ theo Điều 5.4(b) Bản Điều Khoản Chung. Ngày trả lương cho người lao động sẽ dịch chuyển lùi lại tương ứng với số ngày Quý Khách chậm trễ.
 
-**5.2. Biến động nhân sự:** Quý Khách thông báo trước tối thiểu **05 Ngày Làm Việc** đối với: tuyển mới, nghỉ việc, tăng/giảm lương, chuyển vị trí/thay đổi hợp đồng, thai sản, nghỉ ốm dài ngày. Nếu trong tháng không có biến động, Quý Khách vẫn xác nhận "không có biến động" để oBacker chốt lương đúng tiến độ.
+**5.2. Biến động nhân sự:** Quý Khách thông báo trước tối thiểu **05 Ngày Làm Việc** đối với: tuyển mới, nghỉ việc, tăng/giảm lương, chuyển vị trí/thay đổi hợp đồng, thai sản, nghỉ ốm dài ngày. Nếu trong tháng không có biến động, Quý Khách vẫn xác nhận "không có biến động".
 
 **5.3. Đối soát BHXH (ngày 15 và ngày 25 hàng tháng).** Email ngày 15 là thông báo số tiền phải đóng của kỳ tháng liền trước, kèm C12. Email ngày 25 là **Thư đối soát** (không phải nhắc nợ lần hai):
 
 - Nếu Quý Khách **đã nộp**: phản hồi kèm Ủy nhiệm chi (UNC) để oBacker đối soát với cơ quan BHXH
 - Nếu **chưa nộp**: nộp đúng số tiền và đúng mã đơn vị oBacker nêu trong email, trước hạn cơ quan BHXH (thường là ngày cuối tháng).
 
-Đây là 2 lần đối soát cho **cùng một số tiền của cùng một kỳ**. Quý Khách đóng theo số tiền trong email, không đóng theo số trên C12 nếu hai số khác nhau (do độ trễ cập nhật của hệ thống BHXH).
+Đây là 2 lần đối soát cho **cùng một số tiền của cùng một kỳ**. Quý Khách đóng theo số tiền trong email, không đóng theo số trên C12 nếu hai số khác nhau.
 
 **5.4. Cam kết thời gian phản hồi:** trong 24 giờ làm việc đối với yêu cầu gửi qua email; nghĩa vụ có thời hạn với cơ quan nhà nước được ưu tiên xử lý trong ngày.
 
@@ -162,5 +168,4 @@ Phí Dịch Vụ được xác định theo Đơn Đặt Hàng (thường theo �
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 07/10/2026 | R.1.0.3 | Bổ sung chủ ngữ oBacker cho ba nhóm việc thuộc phạm vi Dịch Vụ (phiếu lương, hồ sơ ốm đau thai sản, soạn hợp đồng lao động và phụ lục); đồng bộ số bản với bản tiếng Anh |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 08/10/2026 | R.1.0.4 | Bỏ lý do gắn dòng chi phí, vế mục đích chốt lương và vế giải thích độ trễ hệ thống bảo hiểm xã hội |

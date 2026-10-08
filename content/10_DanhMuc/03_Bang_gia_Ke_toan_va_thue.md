@@ -4,9 +4,9 @@ code: "OBK-DM-KT"
 type: "danh-muc"
 folder: "10_DanhMuc"
 level: "Danh mục"
-version: "R.1.1.0"
+version: "R.1.1.2"
 status: "đang áp dụng"
-draft_date: "15/09/2026"
+draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
 approver: "CEO"
@@ -28,14 +28,14 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-DM-KT |
 | Cấp tài liệu | Danh mục |
-| Phiên bản | R.1.1.0, đang áp dụng |
-| Ngày biên soạn | 15/09/2026 |
+| Phiên bản | R.1.1.2, đang áp dụng |
+| Ngày biên soạn | 04/10/2026 |
 | Người biên soạn | `CEO` |
 | Người soát | đã soát |
 | Người phê duyệt | đã phê duyệt |
 | Văn bản cấp trên | [[00_Danh_muc_dich_vu_va_bang_gia\|OBK-DM-00]] Danh mục dịch vụ và bảng giá |
 | Số mã dịch vụ | 50 |
-| Nguồn dữ liệu | `_du_lieu_danh_muc/danh_muc.tsv`, kết xuất ngày 15/09/2026 |
+| Nguồn dữ liệu | `_du_lieu_danh_muc/danh_muc.tsv`, kết xuất ngày 04/10/2026 |
 | Nguồn dữ liệu | Bản kết xuất danh mục sản phẩm |
 
 > [!note] BẢN SINH TỰ ĐỘNG
@@ -48,7 +48,7 @@ tags:
 
 | Hạng mục | Tài liệu |
 | --- | --- |
-| Chuẩn vận hành dịch vụ | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] Chuẩn vận hành dịch vụ |
+| Quy tắc sổ cái | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] Quy tắc sổ cái |
 | Quy trình của bộ phận thực hiện | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] Kế toán và thuế |
 | Bảng tra SLA | [[PL_2_Bang_tra_SLA\|OBK-SOP-PL2]] Bảng tra SLA |
 | Điều khoản dịch vụ cụ thể | [[02_Accounting_Tax_VI\|Điều khoản dịch vụ kế toán và thuế]], [[02_Accounting_Tax_EN\|bản tiếng Anh]] |
@@ -62,7 +62,7 @@ Quan hệ giữa gói và hạng mục bán kèm gói: xem [[01_Goi_dich_vu_va_h
 
 ## 2. BẢNG GIÁ
 
-Giá ghi bằng đồng Việt Nam, tính cho một đơn vị tính. Mã trong bảng là mã của hệ thống danh mục sản phẩm.
+Giá ghi bằng đồng Việt Nam, tính cho một đơn vị tính.
 
 
 
@@ -125,7 +125,7 @@ Giá ghi bằng đồng Việt Nam, tính cho một đơn vị tính. Mã trong 
 
 ## 3. PHẠM VI CÔNG VIỆC THEO MÃ
 
-Phạm vi, thời gian và điều kiện áp dụng chép từ hệ thống danh mục sản phẩm. Mã không có dữ liệu ở sáu hạng mục sau đây thì không có mục riêng.
+Phạm vi, thời gian và điều kiện áp dụng chép từ hệ thống danh mục sản phẩm.
 
 
 
@@ -354,7 +354,7 @@ Phạm vi, thời gian và điều kiện áp dụng chép từ hệ thống dan
 | --- | --- |
 | Phạm vi công việc | Bao gồm xử lý sai sót hóa đơn mua vào và bán ra (lập biên bản điều chỉnh/hủy, phối hợp với bên mua/bán để xử lý, xuất hóa đơn điều chỉnh hoặc thay thế, báo cáo cơ quan thuế). |
 | Điều kiện áp dụng | Tinh theo so hoa don can xu ly. Add-on cho khach co gói OBG-* dang hoat dong. |
-| Gói chứa hạng mục này | OBG-MTH1, OBG-ENT |
+| Ghi chú | Đợi xác minh danh sách gói chứa |
 
 ### OBG-ADD-INV5. Add-on: Dịch vụ xuất hóa đơn - Gói 5 hóa đơn/tháng
 
@@ -431,7 +431,7 @@ Phạm vi, thời gian và điều kiện áp dụng chép từ hệ thống dan
 | Dòng thuê bao | obacker Grow |
 | Hạn dùng | 1 tháng |
 | Kỳ thu tiền | thu trước |
-| Gói chứa hạng mục này | OBG-ENT |
+| Ghi chú | Đợi xác minh danh sách gói chứa |
 
 ### OBG-ONB-CORE. Phí Thiết Lập Ban Đầu & Di Trú Dữ Liệu Kế Toán - Gói Core
 
@@ -581,4 +581,4 @@ Phạm vi, thời gian và điều kiện áp dụng chép từ hệ thống dan
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 28/09/2026 | R.1.1.0 | Cập nhật biểu phí kế toán và thuế, bổ sung các gói Partner Core/Growth/Prime, add-on chứng từ (ADD-TXN-*), onboarding di trú và rà soát sức khỏe sổ sách |
+| 08/10/2026 | R.1.1.2 | Đổi liên kết chuẩn vận hành dịch vụ sang quy tắc sổ cái tại bảng giá kế toán và thuế |

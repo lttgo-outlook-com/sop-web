@@ -1,9 +1,15 @@
 ---
 title: "ĐIỀU KHOẢN DỊCH VỤ PHÁP LÝ (PL-PL)"
+code: "TNC-04-VI"
+aliases:
+  - TNC-04-VI
 type: "tnc"
 folder: "09_TnC"
-version: "R.2.1.1"
+version: "R.2.1.2"
 status: "đang áp dụng"
+author: "CEO"
+reviewer: "CEO"
+approver: "CEO"
 language: "vi"
 distribution: "Khách hàng"
 previous_version: ""
@@ -113,7 +119,7 @@ oBacker giữ bản quyền và các quyền sở hữu trí tuệ đối với 
 
 ## Điều 8. Nguyên tắc phối hợp
 
-- Quý Khách nêu rõ bối cảnh, mục tiêu và cung cấp tài liệu liên quan một cách đầy đủ, trung thực; **chất lượng tư vấn gắn trực tiếp với chất lượng thông tin đầu vào** (Điều 3 Bản Điều Khoản Chung)
+- Quý Khách nêu rõ bối cảnh, mục tiêu và cung cấp tài liệu liên quan một cách đầy đủ, trung thực (Điều 3 Bản Điều Khoản Chung)
 - Với yêu cầu soát xét hợp đồng, Quý Khách cung cấp bản hợp đồng, bối cảnh giao dịch, vị thế và các điều khoản đặc biệt quan tâm
 - **Bảo mật:** ý kiến tư vấn được chuẩn bị riêng cho Quý Khách và được bảo mật theo Điều 7 Bản Điều Khoản Chung
 - oBacker có thể liên lạc trực tiếp với thành viên trong đội ngũ hoặc cố vấn của Quý Khách mà oBacker tin là có liên quan đến công việc.
@@ -134,5 +140,4 @@ Phí Dịch Vụ được xác định theo Đơn Đặt Hàng; theo giờ, theo
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 07/10/2026 | R.2.1.1 | Bổ sung chủ ngữ oBacker cho ba nhóm việc thuộc phạm vi Dịch Vụ (đánh giá ảnh hưởng thuế, soạn thảo hợp đồng và văn bản pháp lý, kiểm tra rủi ro pháp lý cơ bản) |
-| 02/10/2026 | R.2.1.0 | Đăng ký bản quyền tác giả và đăng ký nhãn hiệu (nộp đơn): hoàn thiện hồ sơ trong 05 ngày làm việc<br>Giai đoạn thẩm định nội dung nhãn hiệu: bỏ tham chiếu mã GT-07, giữ dữ kiện tồn đọng hồ sơ tại Cục SHTT |
+| 08/10/2026 | R.2.1.2 | Bỏ vế chất lượng tư vấn gắn với chất lượng đầu vào ở Điều 8 |

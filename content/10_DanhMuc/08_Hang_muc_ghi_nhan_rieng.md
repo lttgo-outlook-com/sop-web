@@ -4,9 +4,9 @@ code: "OBK-DM-NG"
 type: "danh-muc"
 folder: "10_DanhMuc"
 level: "Danh mục"
-version: "R.1.1.0"
+version: "R.1.1.1"
 status: "đang áp dụng"
-draft_date: "15/09/2026"
+draft_date: "04/10/2026"
 author: "CEO"
 reviewer: "CEO"
 approver: "CEO"
@@ -28,14 +28,14 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-DM-NG |
 | Cấp tài liệu | Danh mục |
-| Phiên bản | R.1.1.0, đang áp dụng |
-| Ngày biên soạn | 15/09/2026 |
+| Phiên bản | R.1.1.1, đang áp dụng |
+| Ngày biên soạn | 04/10/2026 |
 | Người biên soạn | `CEO` |
 | Người soát | đã soát |
 | Người phê duyệt | đã phê duyệt |
 | Văn bản cấp trên | [[00_Danh_muc_dich_vu_va_bang_gia\|OBK-DM-00]] Danh mục dịch vụ và bảng giá |
 | Số hạng mục | 103 |
-| Nguồn dữ liệu | `_du_lieu_danh_muc/danh_muc.tsv`, kết xuất ngày 15/09/2026 |
+| Nguồn dữ liệu | `_du_lieu_danh_muc/danh_muc.tsv`, kết xuất ngày 04/10/2026 |
 | Nguồn dữ liệu | Bản kết xuất danh mục sản phẩm |
 
 > [!note] BẢN SINH TỰ ĐỘNG
@@ -44,9 +44,9 @@ tags:
 
 ---
 
-## 1. HAI LOẠI BẢN GHI
+## 1. LOẠI BẢN GHI
 
-Hệ thống danh mục sản phẩm chứa hai loại bản ghi. Loại thứ nhất là dịch vụ có mã theo khuôn chữ hoa kèm dấu phân cách, xếp ở sáu trang bảng giá. Loại thứ hai gồm ba nhóm sau đây, không nhóm nào có mã theo khuôn đó.
+Bản ghi ngoài sáu trang bảng giá gồm ba nhóm sau đây, không nhóm nào có mã theo khuôn chữ hoa kèm dấu phân cách.
 
 | Nhóm | Dấu hiệu nhận biết |
 | --- | --- |
@@ -174,4 +174,4 @@ Hệ thống danh mục sản phẩm chứa hai loại bản ghi. Loại thứ n
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 28/09/2026 | R.1.1.0 | Cập nhật 103 hạng mục ghi nhận riêng và điều kiện chuyển đổi gói dịch vụ |
+| 07/10/2026 | R.1.1.1 | Đổi ngày bản kết xuất nguồn dữ liệu sang 04/10/2026; danh sách hạng mục ghi nhận riêng không đổi mức |

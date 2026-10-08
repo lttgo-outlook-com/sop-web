@@ -4,7 +4,7 @@ code: "OBK-QCNS-08-PL-B"
 type: "sop"
 folder: "11_NhanSu"
 level: "Phụ lục"
-version: "R.1.0.1"
+version: "R.2.0.1"
 status: "đang áp dụng"
 draft_date: "04/10/2026"
 author: "CEO"
@@ -27,7 +27,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-QCNS-08-PL-B |
 | Cấp tài liệu | Phụ lục |
-| Phiên bản | R.1.0.1, đang áp dụng |
+| Phiên bản | R.2.0.1, đang áp dụng |
 | Ngày biên soạn | 04/10/2026 |
 | Mốc pháp luật áp dụng | Pháp luật có hiệu lực tại ngày 23/09/2026 |
 | Người biên soạn | CEO (Lê Trọng Tuấn) |
@@ -40,7 +40,7 @@ tags:
 
 ---
 
-Phụ lục này của OBK-QCNS-08 quy định bốn tiêu chí riêng áp cho vị trí có đầu ra là hồ sơ nộp cơ quan nhà nước hoặc văn bản pháp lý giao khách hàng.
+Phụ lục này quy định tiêu chí riêng áp cho vị trí có đầu ra là hồ sơ nộp cơ quan nhà nước hoặc văn bản pháp lý giao khách hàng.
 
 ---
 
@@ -58,14 +58,14 @@ Phụ lục này của OBK-QCNS-08 quy định bốn tiêu chí riêng áp cho v
 
 ## 2. TIÊU CHÍ RIÊNG CỦA CÔNG VIỆC DẠNG HỒ SƠ
 
-Bốn tiêu chí dưới đây cộng vào phần A. Trọng số phần A chia lại theo mục 3.
+Bốn tiêu chí dưới đây cộng vào nhóm Chất lượng và Tiến độ công việc hoàn thành. Trọng số trong nhóm đó chia lại theo mục 3.
 
 | Mã | Tiêu chí | Công thức | Nguồn bằng chứng |
 | --- | --- | --- | --- |
 | HS-01 | Hồ sơ bị cơ quan nhà nước yêu cầu sửa đổi bổ sung do lỗi oBacker | Tổng số hồ sơ trừ số hồ sơ bị yêu cầu sửa đổi bổ sung do oBacker, chia tổng số hồ sơ | Bình luận trên hệ thống quản lý công việc, văn bản của cơ quan nhà nước |
 | HS-02 | Tỷ lệ trình ký lại | Số lần trình ký lại chia tổng số lần trình ký | Sổ ghi nhận lỗi, thư điện tử |
-| HS-03 | Khoảng làm trước thời hạn theo pháp luật | Số Job hoàn tất đủ khoảng làm trước chia tổng số Job nộp cơ quan nhà nước | Hệ thống quản lý công việc. Đây là chỉ số `CS-08` tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 11.1 |
-| HS-04 | Khiếu nại chuyển lên cấp trên | Đếm số khiếu nại bị đẩy lên cấp trên trong kỳ | Sổ ghi nhận khiếu nại của Team Lead |
+| HS-03 | Khoảng làm trước thời hạn theo pháp luật | Số Job hoàn tất đủ khoảng làm trước chia tổng số Job nộp cơ quan nhà nước | Hệ thống quản lý công việc. Đây là chỉ số `CS-08` tại [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 11.1 |
+| HS-04 | Khiếu nại chuyển lên cấp trên | Đếm số khiếu nại bị chuyển lên cấp trên trong kỳ | Sổ ghi nhận khiếu nại của Team Lead |
 
 ### 2.1. Định mức
 
@@ -73,10 +73,8 @@ Bốn tiêu chí dưới đây cộng vào phần A. Trọng số phần A chia 
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | HS-01 | Thuận | 90% | 95% | 97% | 97% | 97% | Con số oBacker tự đặt |
 | HS-02 | Nghịch | 8% | 3% | 2% | 2% | 2% | Con số oBacker tự đặt |
-| HS-03 | Thuận | 95% | 95% | 95% | 95% | 95% | [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu\|OBK-SOP-00]] mục 11.1, mục tiêu của `CS-08` |
+| HS-03 | Thuận | 95% | 95% | 95% | 95% | 95% | [[OBK-MSR_Quy_tac_so_cai\|OBK-MSR]] mục 11.1, mục tiêu của `CS-08` |
 | HS-04 | Nghịch | 0 lần | 0 lần | 0 lần | 0 lần | 0 lần | Con số oBacker tự đặt |
-
-Định mức của HS-03 lấy từ mục tiêu của `CS-08` tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 11.1. Mục tiêu đó là mục tiêu chung của bộ phận, không phân theo bậc.
 
 Khoảng làm trước tối thiểu theo NT-6 tại OBK-SOP-00, dùng để tính HS-03:
 
@@ -88,18 +86,18 @@ Khoảng làm trước tối thiểu theo NT-6 tại OBK-SOP-00, dùng để tí
 
 ---
 
-## 3. TRỌNG SỐ PHẦN A KHI ÁP TIÊU CHÍ RIÊNG CỦA CÔNG VIỆC DẠNG HỒ SƠ
+## 3. TRỌNG SỐ TRONG NHÓM CHẤT LƯỢNG VÀ TIẾN ĐỘ CÔNG VIỆC HOÀN THÀNH KHI ÁP TIÊU CHÍ RIÊNG CỦA CÔNG VIỆC DẠNG HỒ SƠ
 
-Bốn tiêu chí HS-01 tới HS-04 chiếm 25% của phần A. Chín tiêu chí lõi giữ nguyên tỷ lệ tương đối với nhau trong 75% còn lại của phần A. Trọng số của từng tiêu chí lõi trong phần A đặt tại OBK-QCNS-08-PL-A mục 1.
+Bốn tiêu chí HS-01 tới HS-04 chiếm 25% của nhóm Chất lượng và Tiến độ công việc hoàn thành. Hai cách đo chung của nhóm, OTD và RFT, giữ nguyên tỷ lệ tương đối với nhau trong 75% còn lại của nhóm. Trọng số của từng cách đo chung trong nhóm đặt tại OBK-QCNS-08-PL-A mục 1.
 
-| Nhóm | Trọng số trong phần A |
+| Thành phần | Trọng số trong nhóm Chất lượng và Tiến độ công việc hoàn thành |
 | --- | --- |
-| Chín tiêu chí lõi của phần A: A-01, A-02, A-03, A-04, A-05, A-06, A-07, A-08, A-09 | 75% |
+| Hai cách đo chung của nhóm: OTD và RFT, theo OBK-QCNS-08-PL-A mục 3 | 75% |
 | Bốn tiêu chí HS-01 tới HS-04 | 25% |
 
 Trọng số bốn tiêu chí HS-01 tới HS-04 trong 25% đó:
 
-| Mã | Trọng số trong nhóm bốn tiêu chí HS | Trọng số trong phần A |
+| Mã | Trọng số trong bốn tiêu chí HS | Trọng số trong nhóm Chất lượng và Tiến độ công việc hoàn thành |
 | --- | --- | --- |
 | HS-01 | 40% | 10% |
 | HS-02 | 20% | 5% |
@@ -113,7 +111,7 @@ Căn cứ của mọi trọng số trong mục này: con số oBacker tự đặ
 ## 4. CÁC TRƯỜNG HỢP RIÊNG
 
 1. Bộ phận Dịch vụ pháp lý không có Job nào mang thời hạn theo pháp luật, trừ Job `LS-17`, là loại Job duy nhất có hạn do cơ quan nhà nước ghi trên văn bản. HS-03 chỉ áp cho Job `LS-17`, và HS-01 không áp. Cách áp này theo quy tắc tại OBK-SOP-00 mục 11.1a.
-2. Bộ phận Nghiên cứu và Phát triển pháp lý không có khách và không có thời hạn theo pháp luật. Cả bốn tiêu chí HS-01 tới HS-04 không áp cho bộ phận này. Trong tám chỉ số chung tại OBK-SOP-00 mục 11.1, bộ phận này chỉ áp `CS-04` và `CS-05`, ứng với tiêu chí A-01 và A-02 của phần lõi, theo OBK-SOP-00 mục 11.1a.
+2. Bộ phận Nghiên cứu và Phát triển pháp lý không có khách và không có thời hạn theo pháp luật. Cả bốn tiêu chí HS-01 tới HS-04 không áp cho bộ phận này. Trong tám chỉ số chung tại OBK-SOP-00 mục 11.1, bộ phận này chỉ áp `CS-04` và `CS-05`, ứng với cách đo RFT tại OBK-QCNS-08-PL-A mục 3.2 và quy tắc chặn điểm `CD-03`, theo OBK-SOP-00 mục 11.1a.
 
 Vị trí không áp một tiêu chí thì phiếu vị trí tại [[08_PL_E_Phieu_vi_tri|OBK-QCNS-08-PL-E]] ghi rõ tiêu chí đó là không áp, kèm lý do bằng một câu. Lý do là lý do về bản chất của công việc. Tiêu chí để trống trên phiếu vị trí vẫn áp.
 
@@ -121,7 +119,7 @@ Vị trí không áp một tiêu chí thì phiếu vị trí tại [[08_PL_E_Phi
 
 ## 5. LỖI NỘI DUNG PHÁP LÝ
 
-Lỗi nội dung pháp lý không có tiêu chí riêng. Loại lỗi đó ánh xạ về ba mức tại [[01_OBK-SOP-00_Chuan_van_hanh_dich_vu|OBK-SOP-00]] mục 11.2 và tính vào tiêu chí A-02.
+Lỗi nội dung pháp lý không có tiêu chí riêng. Loại lỗi đó quy về ba mức tại [[OBK-MSR_Quy_tac_so_cai|OBK-MSR]] mục 11.2 và tính vào cách đo RFT tại [[08_PL_A_Thang_cham_tieu_chi_chung|OBK-QCNS-08-PL-A]] mục 3.2.
 
 Sai căn cứ pháp luật, sai thông tin pháp lý, sai chủ thể, nộp sai cơ quan đều thuộc mức Nghiêm trọng. Một lỗi mức Nghiêm trọng lọt ra ngoài kích hoạt quy tắc chặn điểm `CD-03` tại OBK-QCNS-08 mục 5.
 
@@ -133,4 +131,4 @@ Dẫn một mã căn cứ chưa đối chiếu bản gốc hoặc chưa xác min
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 04/10/2026 | R.1.0.1 | Sửa lối tự sự ở tiêu chí công việc đăng hồ sơ. |
+| 08/10/2026 | R.2.0.1 | Bỏ đoạn lặp căn cứ định mức ở mục 2.1 và số đếm ở câu mở đầu |

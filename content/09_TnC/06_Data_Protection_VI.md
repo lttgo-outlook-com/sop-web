@@ -1,9 +1,15 @@
 ---
 title: "CHÍNH SÁCH BẢO VỆ DỮ LIỆU CÁ NHÂN"
+code: "TNC-06-VI"
+aliases:
+  - TNC-06-VI
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.0.0"
+version: "R.1.0.1"
 status: "đang áp dụng"
+author: "CEO"
+reviewer: "CEO"
+approver: "CEO"
 language: "vi"
 distribution: "Khách hàng"
 previous_version: ""
@@ -15,14 +21,6 @@ tags:
 
 **Áp dụng cho:** Công ty cổ phần oBacker
 **Phiên bản:** R.1.0.0 (VI-EN) · **Ngày ban hành:** 21/09/2026 · **Ngày hiệu lực:** 21/09/2026
-
----
-
-Khi Quý Khách chọn làm việc với oBacker; dù là khách hàng doanh nghiệp, người lao động của khách hàng, cổ đông, đối tác hay người dùng trang web; Quý Khách trao cho chúng tôi nhiều thông tin riêng tư và nhạy cảm. Chúng tôi hiểu rõ giá trị của niềm tin đó và không xem nhẹ.
-
-oBacker công khai Chính sách này để Quý Khách có thể kiểm tra bất cứ lúc nào: chúng tôi thu thập gì, vì sao, làm gì với dữ liệu, ai được tiếp cận, và Quý Khách can thiệp bằng cách nào. Nói ngắn gọn: dữ liệu là của Quý Khách; oBacker chỉ là bên được Quý Khách tin tưởng giao xử lý.
-
-Chính sách gồm hai phần. **Phần I; Quy định chung** áp dụng cho mọi dữ liệu cá nhân. **Phần II; Dữ liệu cá nhân nhạy cảm** quy định các biện pháp tăng cường. Khi có khác biệt liên quan đến dữ liệu nhạy cảm, **Phần II được ưu tiên áp dụng**.
 
 ---
 
@@ -86,13 +84,13 @@ Chính sách được xây dựng trên cơ sở pháp luật Việt Nam, bao g�
 - **(a) Bên Kiểm soát dữ liệu**; khi oBacker xử lý dữ liệu của chính khách hàng, người liên hệ, người dùng trang web, ứng viên, hoặc khi tự quyết định mục đích và phương tiện xử lý
 - **(b) Bên Kiểm soát-Xử lý hoặc Bên Xử lý**; khi oBacker xử lý dữ liệu của người lao động, cổ đông, người được khách hàng ủy quyền, theo chỉ dẫn của khách hàng và trong phạm vi hợp đồng dịch vụ.
 
-**Lưu ý đối với người lao động và cổ đông của khách hàng:** khi dữ liệu của Quý Khách được oBacker xử lý theo chỉ dẫn của khách hàng (kê khai TNCN, đóng BHXH, kê khai cổ đông), **khách hàng là Bên Kiểm soát dữ liệu chính**. oBacker đóng vai trò Bên Xử lý hoặc Bên Kiểm soát-Xử lý theo hợp đồng, và phối hợp với khách hàng để hỗ trợ Quý Khách thực hiện quyền của Chủ thể dữ liệu.
+**Đối với người lao động và cổ đông của khách hàng:** khi dữ liệu của Quý Khách được oBacker xử lý theo chỉ dẫn của khách hàng (kê khai TNCN, đóng BHXH, kê khai cổ đông), **khách hàng là Bên Kiểm soát dữ liệu chính**. oBacker đóng vai trò Bên Xử lý hoặc Bên Kiểm soát-Xử lý theo hợp đồng, và phối hợp với khách hàng để hỗ trợ Quý Khách thực hiện quyền của Chủ thể dữ liệu.
 
 ## Điều 5. Các loại dữ liệu cá nhân được xử lý
 
 **5.1. Dữ liệu cá nhân cơ bản:** họ tên, ngày sinh, giới tính, quốc tịch; số CCCD/CMND/Hộ chiếu và ảnh kèm theo (khi cần cho thủ tục pháp lý/cấp phép); số điện thoại, email; mã số thuế cá nhân; chức vụ, đơn vị công tác; thông tin tài khoản đăng nhập công cụ, hệ thống của oBacker (mật khẩu ở dạng mã hóa); dữ liệu hoạt động trên không gian mạng (địa chỉ IP, thiết bị, cookie, lịch sử truy cập); thông tin người phụ thuộc (cho giảm trừ gia cảnh TNCN); hồ sơ ứng tuyển (sơ yếu lý lịch, thư xin việc, trình độ học vấn, kinh nghiệm).
 
-**5.2. Dữ liệu cá nhân nhạy cảm.** Do đặc thù dịch vụ vận hành doanh nghiệp, việc xử lý dữ liệu nhạy cảm diễn ra liên tục trong quá trình cung cấp Dịch Vụ. Chi tiết về loại, mục đích và biện pháp bảo vệ tăng cường được nêu tại **Phần II**.
+**5.2. Dữ liệu cá nhân nhạy cảm.** Chi tiết về loại, mục đích và biện pháp bảo vệ tăng cường được nêu tại **Phần II**.
 
 > oBacker **CHỈ** xử lý dữ liệu nhạy cảm khi thực sự cần thiết, có cơ sở pháp lý phù hợp và sau khi đã thông báo rõ. oBacker **KHÔNG** chủ động thu thập dữ liệu về quan điểm chính trị, tôn giáo, chủng tộc, đời sống/xu hướng tình dục.
 
@@ -112,7 +110,7 @@ oBacker xử lý dữ liệu cá nhân để: xử lý hồ sơ kế toán, kê 
 
 oBacker thu thập dữ liệu: trực tiếp từ Quý Khách (ký hợp đồng, liên hệ, điền biểu mẫu, gửi hồ sơ ứng tuyển); từ khách hàng của oBacker (cung cấp dữ liệu NLĐ, cổ đông, người phụ thuộc để xử lý dịch vụ thay); tự động qua trang web (cookie, nhật ký hệ thống); và từ bên thứ ba hợp pháp (cơ quan nhà nước khi xác minh, đối tác chuyên môn được khách hàng ủy quyền, nguồn công khai hợp pháp).
 
-> **Lưu ý:** Khách hàng (đơn vị sử dụng lao động hoặc công ty mà Quý Khách là cổ đông) có trách nhiệm thông báo cho Quý Khách và thu thập sự đồng ý theo quy định trước khi cung cấp dữ liệu cho oBacker. oBacker yêu cầu khách hàng cam kết trách nhiệm này trong hợp đồng dịch vụ.
+> Khách hàng (đơn vị sử dụng lao động hoặc công ty mà Quý Khách là cổ đông) có trách nhiệm thông báo cho Quý Khách và thu thập sự đồng ý theo quy định trước khi cung cấp dữ liệu cho oBacker. oBacker yêu cầu khách hàng cam kết trách nhiệm này trong hợp đồng dịch vụ.
 
 ## Điều 9. Chia sẻ và tiết lộ dữ liệu cá nhân
 
@@ -168,13 +166,13 @@ oBacker chỉ lưu trữ dữ liệu trong thời gian cần thiết cho mục �
 
 **12.4.** oBacker rà soát, đánh giá và cập nhật định kỳ các biện pháp để phù hợp với công nghệ và pháp luật.
 
-> **Trách nhiệm của Quý Khách:** không hệ thống nào an toàn tuyệt đối. Quý Khách có trách nhiệm bảo mật thông tin đăng nhập, thiết bị cá nhân, và thông báo cho oBacker ngay khi phát hiện nguy cơ hoặc dấu hiệu bị xâm phạm.
+> **Trách nhiệm của Quý Khách:** Quý Khách có trách nhiệm bảo mật thông tin đăng nhập, thiết bị cá nhân, và thông báo cho oBacker ngay khi phát hiện nguy cơ hoặc dấu hiệu bị xâm phạm.
 
 ## Điều 13. Quyền và nghĩa vụ của Chủ thể dữ liệu
 
 **13.1. Quyền của Quý Khách:** được biết; đồng ý/không đồng ý và rút lại đồng ý; truy cập, chỉnh sửa; yêu cầu cung cấp dữ liệu; yêu cầu xóa hoặc hạn chế xử lý; phản đối xử lý cho mục đích quảng cáo, tiếp thị; khiếu nại, tố cáo, khởi kiện; yêu cầu bồi thường thiệt hại khi có vi phạm; tự bảo vệ và yêu cầu cơ quan có thẩm quyền áp dụng biện pháp bảo vệ.
 
-> **Lưu ý đối với NLĐ và cổ đông của khách hàng:** khi dữ liệu được oBacker xử lý theo chỉ dẫn của khách hàng (vai trò Bên Xử lý), việc thực hiện quyền cần phối hợp với khách hàng (Bên Kiểm soát chính). oBacker tiếp nhận yêu cầu và phối hợp với khách hàng để hỗ trợ Quý Khách trong thời hạn pháp luật quy định.
+> **Đối với NLĐ và cổ đông của khách hàng:** khi dữ liệu được oBacker xử lý theo chỉ dẫn của khách hàng (vai trò Bên Xử lý), việc thực hiện quyền cần phối hợp với khách hàng (Bên Kiểm soát chính). oBacker tiếp nhận yêu cầu và phối hợp với khách hàng để hỗ trợ Quý Khách trong thời hạn pháp luật quy định.
 
 **13.2. Nghĩa vụ của Quý Khách:** cung cấp dữ liệu chính xác, đầy đủ; bảo mật thông tin tài khoản; tôn trọng dữ liệu của người khác; tuân thủ pháp luật về bảo vệ dữ liệu cá nhân.
 
@@ -182,7 +180,7 @@ oBacker chỉ lưu trữ dữ liệu trong thời gian cần thiết cho mục �
 
 **14.1. Quy trình xử lý yêu cầu.** oBacker có thể yêu cầu Quý Khách cung cấp thông tin xác minh danh tính; tiếp nhận, xác minh và phản hồi theo thời hạn pháp luật; một số yêu cầu (hạn chế xử lý, một số quyền theo NĐ 356/2025) được thực hiện trong **72 giờ** kể từ khi nhận yêu cầu hợp lệ; trường hợp từ chối, oBacker nêu rõ lý do bằng văn bản.
 
-**14.2. Phối hợp với khách hàng đối với dữ liệu xử lý theo chỉ dẫn của khách hàng.** Đối với dữ liệu oBacker xử lý theo chỉ dẫn của khách hàng, oBacker tiếp nhận yêu cầu và phối hợp với khách hàng để đáp ứng. Quý Khách có thể liên hệ trực tiếp với khách hàng để được hỗ trợ nhanh hơn.
+**14.2. Phối hợp với khách hàng đối với dữ liệu xử lý theo chỉ dẫn của khách hàng.** Đối với dữ liệu oBacker xử lý theo chỉ dẫn của khách hàng, oBacker tiếp nhận yêu cầu và phối hợp với khách hàng để đáp ứng. Quý Khách có thể liên hệ trực tiếp với khách hàng.
 
 ## Điều 15. Xử lý dữ liệu cá nhân của trẻ em và người được giám hộ
 
@@ -220,7 +218,7 @@ Nếu chưa hài lòng với cách xử lý của oBacker, Quý Khách có quy�
 
 # PHẦN II; DỮ LIỆU CÁ NHÂN NHẠY CẢM
 
-Phần lớn dữ liệu oBacker xử lý hằng ngày là dữ liệu cá nhân nhạy cảm; thông tin tài khoản ngân hàng, mức lương, tỷ lệ sở hữu vốn, các khoản đóng BHXH, tình trạng sức khỏe khi liên quan chế độ thai sản/ốm đau, dữ liệu sinh trắc học khi ký kết tài liệu. Đây là những thông tin mà nếu bị xâm phạm có thể tác động trực tiếp đến quyền lợi, tài sản và đời tư của Quý Khách. Vì vậy, oBacker áp dụng các biện pháp bảo vệ ở mức cao hơn. Phần II áp dụng đồng thời với Phần I; khi có khác biệt liên quan đến dữ liệu nhạy cảm, **Phần II được ưu tiên áp dụng**.
+Phần II áp dụng đồng thời với Phần I; khi có khác biệt liên quan đến dữ liệu nhạy cảm, **Phần II được ưu tiên áp dụng**.
 
 ## Điều 21. Dữ liệu cá nhân nhạy cảm là gì
 
@@ -290,7 +288,7 @@ Vì oBacker sử dụng Google Workspace, dữ liệu nhạy cảm có thể đ�
 
 **28.2. Cơ chế khiếu nại.** Quý Khách gửi yêu cầu/khiếu nại tới đầu mối DPO (Điều 20); oBacker xác minh danh tính; phản hồi trong thời hạn pháp luật quy định (bao gồm mốc **72 giờ** với một số yêu cầu như hạn chế xử lý theo NĐ 356/2025); trường hợp từ chối, nêu rõ lý do bằng văn bản. Nếu chưa hài lòng, Quý Khách có quyền khiếu nại, tố cáo, khởi kiện tới cơ quan có thẩm quyền, bao gồm **A05; Bộ Công an** và tòa án có thẩm quyền.
 
-> **Lưu ý đối với NLĐ/cổ đông của khách hàng:** với dữ liệu nhạy cảm oBacker xử lý theo chỉ dẫn của khách hàng, việc thực hiện quyền cần phối hợp với khách hàng (Bên Kiểm soát chính). oBacker tiếp nhận yêu cầu và phối hợp với khách hàng để hỗ trợ Quý Khách.
+> **Đối với NLĐ/cổ đông của khách hàng:** với dữ liệu nhạy cảm oBacker xử lý theo chỉ dẫn của khách hàng, việc thực hiện quyền cần phối hợp với khách hàng (Bên Kiểm soát chính). oBacker tiếp nhận yêu cầu và phối hợp với khách hàng để hỗ trợ Quý Khách.
 
 ## Điều 29. Hiệu lực thi hành
 
@@ -307,4 +305,4 @@ Chính sách có hiệu lực kể từ ngày 21/09/2026. Phiên bản R.1.0.0 (
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 08/10/2026 | R.1.0.1 | Bỏ ba đoạn mở đầu về niềm tin, phần diễn giải đầu Phần II, câu không hệ thống nào an toàn tuyệt đối và các nhãn lưu ý |

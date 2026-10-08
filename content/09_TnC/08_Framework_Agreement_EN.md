@@ -1,9 +1,15 @@
 ---
 title: "SERVICE AGREEMENT (FRAMEWORK; ELECTRONIC EXECUTION)"
+code: "TNC-08-EN"
+aliases:
+  - TNC-08-EN
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.1.2"
+version: "R.2.0.0"
 status: "đang áp dụng"
+author: "CEO"
+reviewer: "CEO"
+approver: "CEO"
 language: "en"
 distribution: "Khách hàng"
 previous_version: ""
@@ -16,7 +22,7 @@ tags:
 **Agreement No.:** [AGREEMENT NO. / per the Order Form] · **Issue date:** [__/__/____]
 **Template version:** R.1.1.2 · **Updated:** 07/10/2026
 
-> This short Framework Agreement is entered into in **electronic form** under the **Law on E-Transactions No. 20/2023/QH15**. The Agreement incorporates and attaches oBacker's Terms & Conditions of Service; **oBacker signs it in advance (automatic signature), and the Agreement is concluded once the Client makes payment** under the Order Form.
+> This Framework Agreement is entered into in **electronic form** under the **Law on E-Transactions No. 20/2023/QH15**. The Agreement incorporates and attaches oBacker's Terms & Conditions of Service; **oBacker signs it in advance (automatic signature), and the Agreement is concluded once the Client makes payment** under the Order Form.
 
 ---
 
@@ -96,7 +102,7 @@ The Service Fees, payment schedule and payment method follow the Order Form. **T
 
 **The Client's payment is deemed to mean that the Client has carefully read, understood and agreed to the entire Agreement, the Master T&C and the applicable Service-Specific Terms, and the Personal Data Protection Policy.**
 
-4.4. **Effective Date.** The Agreement takes effect and is deemed fully concluded between the Parties from the **date oBacker receives the first payment** from the Client under the Order Form (or the date the Client electronically signs, if earlier). At that point, oBacker's pre-applied electronic signature (Section 4.2) and the Client's acceptance (Section 4.3) together complete the execution.
+4.4. **Effective Date.** The Agreement takes effect and is deemed concluded between the Parties from the **date oBacker receives the first payment** from the Client under the Order Form (or the date the Client electronically signs, if earlier). At that point, oBacker's pre-applied electronic signature (Section 4.2) and the Client's acceptance (Section 4.3) together complete the execution.
 
 4.5. **Audit trail.** Evidence of execution includes: the issued Agreement/Order Form, the electronic signing log (if any), payment records (timestamp, transaction reference number) and related email correspondence. oBacker retains this data as the basis for establishing the time and content of execution.
 
@@ -110,7 +116,7 @@ The Service Fees, payment schedule and payment method follow the Order Form. **T
 
 ## Article 6. Undertakings and allocation of responsibility
 
-The Client undertakes to provide information meeting the four criteria; Accurate, Complete, Lawful and On time; and bears ultimate legal responsibility for its business operations (Article 3 of the Master T&C). The mechanism for allocating responsibility and compensation according to the nature of the fault applies under Article 9 of the Master T&C and the liability clause in the corresponding Service-Specific Terms. Apart from direct administrative penalties and late-payment surcharges resulting from oBacker's fault, oBacker's total aggregate liability for all other damages does not exceed the total Service Fees actually paid by the Client in the last 03 months pursuant to Section 9.3 of the Master T&C.
+The Client undertakes to provide information meeting the four criteria; Accurate, Complete, Lawful and On time; and bears ultimate legal responsibility for its business operations (Article 3 of the Master T&C). The mechanism for allocating responsibility and compensation according to the nature of the fault applies under Article 9 of the Master T&C and the liability clause in the corresponding Service-Specific Terms. Apart from direct administrative penalties and late-payment surcharges resulting from oBacker's fault, oBacker's total aggregate liability for all other damages does not exceed the limit set out in Section 9.3 of the Master T&C.
 
 ## Article 7. Confidentiality and personal data protection
 
@@ -154,5 +160,6 @@ Electronic signature / Payment confirmation: `[Client e-signature or payment tra
 
 | Date | Version | Description |
 | --- | --- | --- |
+| 07/10/2026 | R.2.0.0 | Sync with Vietnamese version R.2.0.0: Article 6 now references the Section 9.3 liability limit of the Master T&C instead of restating the 03-month formula (VQ-44) |
 | 07/10/2026 | R.1.1.2 | Subject The Client added to the acceptance line in the Party B signature block |
 | 01/10/2026 | R.1.1.1 | Wording: 'Hard ceiling' reworded to 'Maximum' in the Order Form template (Article 1) |

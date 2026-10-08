@@ -1,9 +1,15 @@
 ---
 title: "HR SERVICE TERMS (PL-NS)"
+code: "TNC-03-EN"
+aliases:
+  - TNC-03-EN
 type: "tnc"
 folder: "09_TnC"
 version: "R.1.0.3"
 status: "đang áp dụng"
+author: "CEO"
+reviewer: "CEO"
+approver: "CEO"
 language: "en"
 distribution: "Khách hàng"
 previous_version: ""
@@ -39,7 +45,7 @@ Primary legal bases: the **2019 Labour Code**; the **Law on Social Insurance No.
 
 **Customisation limit.** oBacker calculates payroll under the agreed Payroll Framework using standard or lightly customised rules. Where the Client has a **complex or highly customised payroll/timekeeping mechanism beyond the Payroll Framework** (e.g. bespoke timekeeping formulas with many variables, complex KPI/commission schemes, non-standard shift patterns, etc.), the parties agree on one of the following: (i) the Client provides the complex portion pre-processed for oBacker to enter into the payroll; (ii) the rules are simplified to fit the Payroll Framework; or (iii) it is delivered as a separately charged Add-on service where feasible. **oBacker does not interfere with the Client's internal processes or systems.**
 
-> oBacker calculates payroll strictly under the **agreed Payroll Framework** and the data the Client provides/confirms; it does not infer or change the salary policy on its own. **Paying salaries** to employees is done by the Client.
+> oBacker calculates payroll under the **agreed Payroll Framework** and the data the Client provides/confirms; it does not infer or change the salary policy on its own. **Paying salaries** to employees is done by the Client.
 
 **2.2. PIT on salaries:**
 
@@ -47,7 +53,7 @@ Primary legal bases: the **2019 Labour Code**; the **Law on Social Insurance No.
 - Withhold and declare PIT periodically and perform the **annual PIT finalisation** for **salary and wage income of employees under a labour contract** (progressive withholding)
 - Issue PIT withholding certificates to employees at year-end.
 
-> **Scope split:** The HR Services handle only PIT **on salaries** of employees under a labour contract. **Occasional** PIT paid to individuals NOT on the payroll (collaborators/freelancers under service contracts, personal asset rentals) falls under the Accounting & Tax Services (PL-KT), because it is tied to an expense line recorded by Accounting. Where a collaborator works regularly with the character of employment and is moved to a labour contract, the related obligations transfer to PL-NS.
+> **Scope split:** The HR Services handle only PIT **on salaries** of employees under a labour contract. **Occasional** PIT paid to individuals NOT on the payroll (collaborators/freelancers under service contracts, personal asset rentals) falls under the Accounting & Tax Services (PL-KT). Where a collaborator works regularly with the character of employment and is moved to a labour contract, the related obligations transfer to PL-NS.
 
 **2.3. Mandatory insurance (SI/HI/UI):**
 
@@ -103,14 +109,14 @@ Where a need in the above categories arises, oBacker will notify the Client in a
 
 > **Principles for late submission of attendance data or delayed confirmation:** If the Client submits timesheets or headcount changes after the D+1 milestone, or delays confirming payslips past the D+4 milestone, oBacker's delivery timeline is temporarily suspended pursuant to Article 5.4(b) of the Master T&C. The salary payout date to employees shall be shifted backwards corresponding to the number of delay days by the Client.
 
-**5.2. HR changes:** The Client gives at least **5 Business Days'** prior notice for: new hires, resignations, salary increases/decreases, position/contract changes, maternity, and extended sick leave. If there are no changes in a month, the Client still confirms "no changes" so oBacker can close payroll on schedule.
+**5.2. HR changes:** The Client gives at least **5 Business Days'** prior notice for: new hires, resignations, salary increases/decreases, position/contract changes, maternity, and extended sick leave. If there are no changes in a month, the Client still confirms "no changes".
 
 **5.3. Social insurance reconciliation (the 15th and 25th of each month).** The email on the 15th notifies the amount payable for the prior month, with Form C12. The email on the 25th is a **reconciliation letter** (not a second dunning notice):
 
 - If the Client **has paid**: reply with the payment order (UNC) so oBacker can reconcile with the social insurance authority
 - If the Client **has not paid**: pay the exact amount to the exact unit code stated in oBacker's email, before the social insurance authority's deadline (usually the last day of the month).
 
-These are two reconciliations for **the same amount for the same period**. The Client pays the amount in the email, not the amount on Form C12 if the two differ (due to the social insurance system's update lag).
+These are two reconciliations for **the same amount for the same period**. The Client pays the amount in the email, not the amount on Form C12 if the two differ.
 
 **5.4. Response SLA:** within 24 working hours for routine requests; obligations with a deadline before State authorities are prioritised for same-day handling.
 

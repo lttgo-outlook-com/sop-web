@@ -1,9 +1,15 @@
 ---
 title: "LICENSING SERVICES; SPECIFIC TERMS (PL-GP)"
+code: "TNC-01-EN"
+aliases:
+  - TNC-01-EN
 type: "tnc"
 folder: "09_TnC"
 version: "R.1.1.1"
 status: "đang áp dụng"
+author: "CEO"
+reviewer: "CEO"
+approver: "CEO"
 language: "en"
 distribution: "Khách hàng"
 previous_version: ""
@@ -45,24 +51,24 @@ oBacker assists the Client with procedures relating to Licences/Permits: prepari
 
 **3.1. Documents the Client prepares itself.** The Client is responsible for preparing and providing documents that are internal or specific in nature, including but not limited to: financial statements, capability profiles, technical documents, HR records, and personal identification papers. oBacker provides specific guidance on the requirements for each document.
 
-**3.2. Content and strategy documents.** For documents that reflect the business's own content and strategy (business plans, project descriptions, capability profiles, technical explanations), oBacker guides, reviews, and comments based on the information the Client provides; however, **the Client bears primary responsibility for the accuracy and completeness of the final version**. oBacker's comments and edits are for reference only. The Service Fees cover the preparation of the procedural file and process guidance; the substantive content reflects the Client's own understanding and direction.
+**3.2. Content and strategy documents.** For documents that reflect the business's own content and strategy (business plans, project descriptions, capability profiles, technical explanations), oBacker guides, reviews, and comments based on the information the Client provides; however, **the Client bears primary responsibility for the accuracy and completeness of the final version**. oBacker's comments and edits are for reference only. The Service Fees cover the preparation of the procedural file and process guidance.
 
 **3.3. Notarisation, authentication, and consular legalisation.** The Client carries out notarisation, authentication, certified copying, or consular legalisation (for foreign documents) itself and provides valid copies to oBacker. oBacker advises on the requirements and where to have them done.
 
-**3.4. The result is within the state authority's discretion.** The granting of a licence, approval, processing time, and requests for additional information are within the **absolute discretion of the state authority**. oBacker prepares a complete file that complies with the law but does not guarantee that the licence will be granted.
+**3.4. The result is within the state authority's discretion.** The granting of a licence, approval, processing time, and requests for additional information are within the **discretion of the state authority**. oBacker prepares a complete file that complies with the law but does not guarantee that the licence will be granted.
 
 **3.5. The Services do not include advisory work.** The Services are limited to carrying out administrative procedures and **do not include corporate advisory or in-depth tax or financial advice**. Specifically:
 
 - **(a) Company incorporation and adding business lines:** does not include advice on business conditions, business models, or whether a business line is legally suitable.
 - **(b) Recognition as an innovative start-up enterprise:** does not include advice on tax-exempt revenue, cash-flow structuring, cost optimisation, tax-and-finance matters, or related intellectual property and technology issues.
 
-**3.6. Prohibition and exclusion of nominee arrangements:** oBacker strictly prohibits and does not provide, participate in, or support nominee arrangements for shareholders, capital-contributing members, enterprise owners, or legal representatives in any form, in strict compliance with Article 16 of the Law on Enterprises No. 59/2020/QH14 and anti-money laundering regulations.
+**3.6. Prohibition and exclusion of nominee arrangements:** oBacker does not provide, participate in, or support nominee arrangements for shareholders, capital-contributing members, enterprise owners, or legal representatives in any form, in compliance with Article 16 of the Law on Enterprises No. 59/2020/QH14 and anti-money laundering regulations.
 
 Where the Client needs in-depth advice, **Legal Services (PL-PL)** apply under a separate quotation.
 
 ## Article 4. Principles of performance and cooperation
 
-- **Correct-and-complete file principle:** oBacker files the application only after the Client has provided all documents on the Document Checklist, to reduce the risk of the file being returned
+- **Correct-and-complete file principle:** oBacker files the application only after the Client has provided all documents on the Document Checklist
 - **Reliance-on-information principle:** oBacker acts on the basis that the documents the Client provides are truthful and lawful, and has no obligation to investigate or verify their authenticity (Article 3 of the Master T&C)
 - **Cooperation principle:** where the competent authority requests additional information, the Client provides the documents within the time limit set. If the file is returned or delayed because documents from the Client are missing, incorrect, or late, oBacker is not responsible.
 - **Deadline extension for Client delays:** If the Client delays in submitting documents, signing files, or responding beyond agreed timeframes, the entire duration of such delay will be added directly to oBacker's deliverable completion deadline (1:1 calendar day extension per Article 5.4(a) of the Master T&C). The Client's delay period is excluded from oBacker's committed turnaround time.

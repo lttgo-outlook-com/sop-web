@@ -1,9 +1,15 @@
 ---
 title: "ĐIỀU KHOẢN DỊCH VỤ XIN GIẤY PHÉP (PL-GP)"
+code: "TNC-01-VI"
+aliases:
+  - TNC-01-VI
 type: "tnc"
 folder: "09_TnC"
-version: "R.1.1.1"
+version: "R.1.1.2"
 status: "đang áp dụng"
+author: "CEO"
+reviewer: "CEO"
+approver: "CEO"
 language: "vi"
 distribution: "Khách hàng"
 previous_version: ""
@@ -45,24 +51,24 @@ oBacker hỗ trợ Quý Khách thực hiện các thủ tục liên quan đến 
 
 **3.1. Tài liệu do Quý Khách tự chuẩn bị.** Quý Khách chịu trách nhiệm chuẩn bị và cung cấp các tài liệu mang tính nội bộ hoặc đặc thù, bao gồm nhưng không giới hạn: báo cáo tài chính, hồ sơ năng lực, tài liệu kỹ thuật, hồ sơ nhân sự và giấy tờ cá nhân. oBacker hướng dẫn cụ thể yêu cầu đối với từng tài liệu.
 
-**3.2. Tài liệu nội dung và chiến lược.** Với các tài liệu mang tính nội dung và chiến lược của doanh nghiệp (kế hoạch kinh doanh, bản thuyết minh dự án, hồ sơ năng lực, thuyết minh kỹ thuật), oBacker hướng dẫn, rà soát và góp ý dựa trên thông tin Quý Khách cung cấp; tuy nhiên **Quý Khách chịu trách nhiệm chính về tính chính xác và đầy đủ của phiên bản cuối cùng**. Các góp ý, sửa đổi của oBacker chỉ mang tính tham khảo. Phí Dịch Vụ chi trả cho việc chuẩn bị hồ sơ thủ tục và hướng dẫn quy trình; phần nội dung phản ánh hiểu biết và định hướng của chính Quý Khách.
+**3.2. Tài liệu nội dung và chiến lược.** Với các tài liệu mang tính nội dung và chiến lược của doanh nghiệp (kế hoạch kinh doanh, bản thuyết minh dự án, hồ sơ năng lực, thuyết minh kỹ thuật), oBacker hướng dẫn, rà soát và góp ý dựa trên thông tin Quý Khách cung cấp; tuy nhiên **Quý Khách chịu trách nhiệm chính về tính chính xác và đầy đủ của phiên bản cuối cùng**. Các góp ý, sửa đổi của oBacker chỉ mang tính tham khảo. Phí Dịch Vụ chi trả cho việc chuẩn bị hồ sơ thủ tục và hướng dẫn quy trình.
 
 **3.3. Công chứng, chứng thực và hợp pháp hóa lãnh sự.** Quý Khách tự thực hiện công chứng, chứng thực, sao y bản chính hoặc hợp pháp hóa lãnh sự (đối với tài liệu nước ngoài) và cung cấp bản hợp lệ cho oBacker. oBacker hướng dẫn yêu cầu và địa điểm thực hiện.
 
-**3.4. Kết quả thuộc thẩm quyền cơ quan nhà nước.** Việc cấp phép, phê duyệt, thời hạn xử lý và yêu cầu bổ sung thuộc **thẩm quyền tuyệt đối của cơ quan nhà nước**. oBacker chuẩn bị hồ sơ đầy đủ và phù hợp quy định pháp luật, nhưng không bảo đảm kết quả cấp phép.
+**3.4. Kết quả thuộc thẩm quyền cơ quan nhà nước.** Việc cấp phép, phê duyệt, thời hạn xử lý và yêu cầu bổ sung thuộc **thẩm quyền của cơ quan nhà nước**. oBacker chuẩn bị hồ sơ đầy đủ và phù hợp quy định pháp luật, nhưng không bảo đảm kết quả cấp phép.
 
 **3.5. Phạm vi dịch vụ không bao gồm tư vấn.** Dịch Vụ giới hạn trong phạm vi thực hiện thủ tục hành chính và **không bao gồm tư vấn doanh nghiệp hoặc tư vấn chuyên sâu về thuế, tài chính**. Cụ thể:
 
 - **(a) Thành lập công ty, bổ sung ngành nghề kinh doanh:** không bao gồm tư vấn về điều kiện kinh doanh, mô hình kinh doanh hoặc sự phù hợp của ngành nghề theo quy định pháp luật.
 - **(b) Công nhận doanh nghiệp khởi nghiệp sáng tạo:** không bao gồm tư vấn về các khoản doanh thu được miễn thuế, cấu trúc dòng tiền, tối ưu hóa chi phí, các vấn đề tài chính; thuế, sở hữu trí tuệ, công nghệ liên quan.
 
-**3.6. Nghiêm cấm và loại trừ dịch vụ người đứng tên hộ (Nominee):** oBacker tuyệt đối không cung cấp, không tham gia hoặc hỗ trợ dịch vụ người đứng tên hộ cổ đông, thành viên góp vốn, chủ sở hữu hoặc người đại diện theo pháp luật dưới mọi hình thức, tuân thủ nghiêm ngặt Điều 16 Luật Doanh nghiệp số 59/2020/QH14 và pháp luật về phòng, chống rửa tiền.
+**3.6. Nghiêm cấm và loại trừ dịch vụ người đứng tên hộ (Nominee):** oBacker không cung cấp, không tham gia hoặc hỗ trợ dịch vụ người đứng tên hộ cổ đông, thành viên góp vốn, chủ sở hữu hoặc người đại diện theo pháp luật dưới mọi hình thức, tuân thủ Điều 16 Luật Doanh nghiệp số 59/2020/QH14 và pháp luật về phòng, chống rửa tiền.
 
 Khi Quý Khách có nhu cầu tư vấn chuyên sâu, áp dụng **Dịch Vụ Pháp Lý (PL-PL)** theo báo giá riêng.
 
 ## Điều 4. Nguyên tắc thực hiện và phối hợp
 
-- **Nguyên tắc Đúng; Đủ hồ sơ:** oBacker nộp hồ sơ sau khi Quý Khách đã cung cấp đầy đủ tài liệu theo Danh Mục Hồ Sơ, nhằm hạn chế việc hồ sơ bị trả lại
+- **Nguyên tắc Đúng; Đủ hồ sơ:** oBacker nộp hồ sơ sau khi Quý Khách đã cung cấp đầy đủ tài liệu theo Danh Mục Hồ Sơ
 - **Nguyên tắc tin cậy thông tin:** oBacker thực hiện trên cơ sở tin tưởng tài liệu Quý Khách cung cấp là trung thực và hợp pháp, và không có nghĩa vụ điều tra, xác minh tính xác thực của tài liệu (Điều 3 Bản Điều Khoản Chung)
 - **Nguyên tắc phối hợp:** khi cơ quan có thẩm quyền yêu cầu bổ sung, Quý Khách cung cấp tài liệu trong thời hạn được ấn định. Nếu hồ sơ bị trả lại hoặc kéo dài do tài liệu thiếu, sai hoặc chậm từ phía Quý Khách, oBacker không chịu trách nhiệm.
 - **Nguyên tắc cộng dồn tiến độ khi chậm hồ sơ:** Nếu Quý Khách chậm cung cấp tài liệu, chậm ký hồ sơ hoặc chậm phản hồi so với thời hạn đã thỏa thuận, toàn bộ số ngày chậm trễ được cộng dồn trực tiếp vào ngày hẹn bàn giao kết quả của oBacker (cộng bù tương ứng 1:1 theo Điều 5.4(a) Bản Điều Khoản Chung). Khoảng thời gian chậm trễ của Quý Khách không tính vào thời gian cam kết tiến độ của oBacker.
@@ -118,5 +124,4 @@ Phí Dịch Vụ được xác định theo Đơn Đặt Hàng đã được Qu�
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 07/10/2026 | R.1.1.1 | Bổ sung chủ ngữ oBacker cho ba nhóm việc thuộc phạm vi Dịch Vụ (lập Danh Mục Hồ Sơ, soạn thảo đơn và tờ khai, thông báo khi cơ quan yêu cầu bổ sung); đồng bộ số bản với bản tiếng Anh |
-| 01/10/2026 | R.1.0.0 | Ban hành chính thức phiên bản chuẩn R.1.0.0 toàn công ty |
+| 08/10/2026 | R.1.1.2 | Bỏ vế nội dung phản ánh hiểu biết của khách, vế mục đích hạn chế hồ sơ bị trả lại và từ tuyệt đối, nghiêm ngặt |

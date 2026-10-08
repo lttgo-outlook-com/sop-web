@@ -1,9 +1,15 @@
 ---
 title: "CLIENT WORKING GUIDE; WORKING WITH OBACKER"
+code: "TNC-05-EN"
+aliases:
+  - TNC-05-EN
 type: "tnc"
 folder: "09_TnC"
-version: "R.2.0.0"
+version: "R.2.1.0"
 status: "đang áp dụng"
+author: "CEO"
+reviewer: "CEO"
+approver: "CEO"
 language: "en"
 distribution: "Khách hàng"
 previous_version: ""
@@ -13,15 +19,15 @@ tags:
 # CLIENT WORKING GUIDE; WORKING WITH OBACKER
 ### A guide for the Client
 
-**Version:** R.2.0.0 (VI-EN) · **Updated:** 02/10/2026 · Applies to the Partner Core, Partner Growth and Partner Prime packages
+**Version:** R.2.1.0 (VI-EN) · **Updated:** 07/10/2026 · Applies to the Partner Core, Partner Growth and Partner Prime packages
 
-> This guide is intended to help the Client work smoothly with oBacker. It is not a contract. If anything in this guide differs from the service Agreement (Master T&C, Order Form and the Service-Specific Terms), the Agreement prevails.
+> This is a working guide. It is not a contract. If anything in this guide differs from the service Agreement (Master T&C, Order Form and the Service-Specific Terms), the Agreement prevails.
 
 ---
 
 ## 1. About oBacker
 
-oBacker Joint Stock Company provides business-operations services to SMEs, startups and foreign-invested enterprises in Vietnam, covering accounting, tax, HR and payroll, legal and licensing. This lets a business meet all its obligations without having to build an in-house operations function.
+oBacker Joint Stock Company provides business-operations services to SMEs, startups and foreign-invested enterprises in Vietnam, covering accounting, tax, HR and payroll, legal and licensing.
 
 **Contact information**
 
@@ -38,11 +44,7 @@ oBacker Joint Stock Company provides business-operations services to SMEs, start
 
 ## 2. Five core working principles
 
-1. **A single point of contact.** oBacker assigns each Client a dedicated Account Manager (AM) as the point of contact for all matters. Send every request, question and approval through this contact.
-2. **Every fee is stated clearly in writing.** Before any out-of-package cost arises, oBacker sends a quote and proceeds only after the Client approves.
-3. **The Client is responsible for input data.** oBacker records and processes entries based on the records and documents the Client provides. The Client undertakes to supply them fully, accurately and on time.
-4. **Response-time commitment.** oBacker acknowledges receipt of an email request within 01 business hour; the full reply content is delivered within 24 business hours. Obligations with government deadlines are prioritised and handled the same day.
-5. **Email is the official record.** Only information confirmed and responded to by email (on the correct thread) is logged into oBacker's system. Exchanges by phone or messaging are for quick support only and must be re-confirmed by email.
+Working principles between oBacker and the Client: Article 2 of the Master T&C.
 
 ## 3. Comparing the three service packages
 
@@ -89,7 +91,7 @@ When transaction volumes exceed quotas or thresholds, oBacker applies its Fair U
 
 ## 5. Basic tax and accounting principles the Client should know
 
-This section summarises the basic compliance principles that every business operating lawfully in Vietnam must follow, whether or not it uses oBacker's services.
+Every business operating lawfully in Vietnam must follow the basic compliance principles below, whether or not it uses oBacker's services.
 
 **5.1. Having a company means filing reports, even before any activity begins.** Filing obligations start the moment an ERC is issued:
 
@@ -117,7 +119,7 @@ If you pay an individual without a contract or without withholding PIT, the expe
 
 *Consequences of not registering or paying insurance for eligible persons:* back-assessment of the entire unpaid amount plus late-payment interest of 0.03% per day under the 2024 Law on Social Insurance; administrative fines on the enterprise ranging from VND 10,000,000 to VND 150,000,000 based on the number of undeclared employees (or 12% to 20% for payment violations) under Decree No. 283/2026/ND-CP; compensation to employees for statutory benefits in the event of illness, accident or maternity; and potential criminal liability for insurance evasion under Article 216 of the Penal Code.
 
-*Recommendation:* if the business uses the same collaborator continuously for more than one month with a steady workload, convert them to a formal labour contract to avoid risk.
+*Recommendation:* if the business uses the same collaborator continuously for more than one month with a steady workload, convert them to a formal labour contract.
 
 **5.5. When a business must issue an invoice.** Under Decree No. 254/2026/ND-CP and Circular No. 91/2026/TT-BTC, a business must issue an e-invoice when: selling goods or providing services (issued at the moment of delivery or completion, regardless of whether payment has been received); receiving an advance or deposit for services; giving, gifting, exchanging or paying salary in kind; lending, borrowing or repaying; and internal consumption.
 
@@ -130,7 +132,7 @@ If you pay an individual without a contract or without withholding PIT, the expe
 
 *Consequences of not issuing or issuing at the wrong time:* administrative penalties for invoicing under Decree No. 125/2020/ND-CP (the amount depends on the act and circumstances and is determined by the specific provision); a VAT and CIT clawback on the unreported revenue; and possible aggravation if it is deemed tax evasion.
 
-**5.6. Paying for foreign software or services requires Foreign Contractor Tax declaration.** This is the most commonly overlooked obligation among SMEs and startups. When a Vietnamese business pays a foreign supplier (with no legal presence in Vietnam) for software, services, licences, hosting or advertising, it is obliged to withhold and pay Foreign Contractor Tax (FCT) on the supplier's behalf. Legal basis: Circular No. 69/2025/TT-BTC Article 9 (value-added tax) and Circular No. 20/2026/TT-BTC Article 7 (corporate income tax). This applies to every payment method: credit or debit card, international transfer, payment intermediaries, or direct deduction from a balance on a foreign platform.
+**5.6. Paying for foreign software or services requires Foreign Contractor Tax declaration.** When a Vietnamese business pays a foreign supplier (with no legal presence in Vietnam) for software, services, licences, hosting or advertising, it is obliged to withhold and pay Foreign Contractor Tax (FCT) on the supplier's behalf. Legal basis: Circular No. 69/2025/TT-BTC Article 9 (value-added tax) and Circular No. 20/2026/TT-BTC Article 7 (corporate income tax). This applies to every payment method: credit or debit card, international transfer, payment intermediaries, or direct deduction from a balance on a foreign platform.
 
 Typical transactions requiring declaration: subscription software (for example, design tools, source-code hosting, cloud office suites); online advertising; foreign hosting, domain and content-delivery-network services; purchase of content, image or font licences; hiring foreign individuals or firms; and brokerage commissions paid to foreign partners.
 
@@ -143,7 +145,7 @@ Typical transactions requiring declaration: subscription software (for example, 
 | Per instance (default) | Applies to each payment made to the foreign contractor where the enterprise has not registered for monthly filing | No later than the 10th day from the day following the date payment arises, per Circular No. 89/2026/TT-BTC Article 30 clause 2 point a and Decree No. 252/2026/ND-CP Article 10 clause 1 |
 | Monthly (registered option) | Applies where the enterprise makes multiple payments in a month and has registered for monthly filing with the tax authority | No later than the 20th day of the following month, per Circular No. 89/2026/TT-BTC Article 30 clause 2 point a and Decree No. 252/2026/ND-CP Article 10 clause 2 (no return required for months with no withholding) |
 
-*Consequences of not declaring or declaring late:* a back-assessment of all unpaid tax; a penalty of 20% of the tax; a late-payment surcharge of 0.03% per day; and possible disallowance of the foreign-service expense as a deductible cost. In practice, many businesses face large back-assessments after 3-5 years when the tax authority reviews bank and card statements.
+*Consequences of not declaring or declaring late:* a back-assessment of all unpaid tax; a penalty of 20% of the tax; a late-payment surcharge of 0.03% per day; and possible disallowance of the foreign-service expense as a deductible cost.
 
 ## 6. Services included in the packages
 
@@ -161,11 +163,11 @@ Typical transactions requiring declaration: subscription software (for example, 
 
 > **On payroll calculation:** oBacker calculates payroll using a standard Payroll Framework agreed by both parties in advance. If the business has complex, highly customised payroll or timekeeping (bespoke multi-variable formulas, complex target-based or commission bonus schemes, non-standard shifts), the parties agree on one of three options: the Client provides figures with the complex parts pre-processed; or the rules are simplified so they fit within the Framework; or it is handled as an out-of-package add-on service.
 
-> **Note:** oBacker does not provide employment-termination, disciplinary or labour-dispute services in any of the three packages (see Section 8).
+> oBacker does not provide employment-termination, disciplinary or labour-dispute services in any of the three packages (see Section 8).
 
 **E-invoice and digital signature (all three packages).** Registration and activation of the e-invoice system under Decree No. 254/2026/ND-CP and Circular No. 91/2026/TT-BTC; set-up of invoice symbols and number ranges; advice on e-invoice rules. oBacker does not issue output invoices on the Client's behalf; the Client issues them on the software that has been set up. If the Client wants oBacker to issue them, this is an out-of-package add-on service, charged separately.
 
-*Digital Signature USB Token policy:* When the Client uses oBacker's back-office operations services, the Client registers/purchases 01 dedicated USB Token hardware from oBacker (or entrusts 01 dedicated USB Token to oBacker) with a limited written authorization strictly for operations within the contracted service scope (tax filing, e-invoicing, social insurance reporting). The Client retains the primary USB Token for executive banking and commercial transactions. oBacker manages the dedicated token in a secure environment and logs each use.
+*Digital Signature USB Token policy:* When the Client uses oBacker's back-office operations services, the Client registers/purchases 01 dedicated USB Token hardware from oBacker (or entrusts 01 dedicated USB Token to oBacker) with a limited written authorization for operations within the contracted service scope (tax filing, e-invoicing, social insurance reporting). The Client retains the primary USB Token for executive banking and commercial transactions. oBacker manages the dedicated token in a secure environment and logs each use.
 
 **Legal support (tiered by package).**
 
@@ -183,7 +185,7 @@ Issuing output invoices on the Client's behalf; contract reviews beyond the pack
 
 oBacker does not provide the following in any of the three packages: litigation and dispute resolution at court or arbitration; nominee services in any form; mergers and acquisitions and fundraising; corporate restructuring (division, separation, merger, conversion of legal form); talent search and recruitment; employment termination, discipline and labour disputes; marketing and communications; and issuing output invoices on the Client's behalf (unless purchased as an add-on service).
 
-*Note on sub-licences, intellectual property and foreign workers:* Procedures for specialized sub-licences, foreign-worker documentation (work permits, temporary residence cards, visas), and intellectual-property registration (trademarks, copyrights) are outside the standard monthly recurring packages, but are provided by oBacker under separate Order Forms. When a need arises, oBacker proactively advises and provides a detailed quotation. Court and arbitration litigation matters are referred to suitable independent partner law firms.
+Procedures for specialized sub-licences, foreign-worker documentation (work permits, temporary residence cards, visas), and intellectual-property registration (trademarks, copyrights) are outside the standard monthly recurring packages, but are provided by oBacker under separate Order Forms. When a need arises, oBacker proactively advises and provides a detailed quotation. Court and arbitration litigation matters are referred to suitable independent partner law firms.
 
 ## 9. Communication channels
 
@@ -198,33 +200,15 @@ oBacker does not provide the following in any of the three packages: litigation 
 
 ## 10. Allocation of responsibility and the penalty mechanism
 
-**The Client's responsibilities.** The legal representative is ultimately accountable to the authorities for: the truthfulness and completeness of the records and documents provided to oBacker; the legality of transactions; paying tax on time (oBacker does not pay on the Client's behalf unless there is a linked-account arrangement); and confirming returns within the seven-day window before the due date.
-
-**oBacker's responsibilities.** Accurate recording and declaration based on the data the Client provides; on-time filing of returns per the process; and advice consistent with the law in force at the time of advising.
-
-**The penalty mechanism.**
-
-- If an error is oBacker's fault (misdeclaring data the Client provided correctly, filing a return late when the Client confirmed properly per the process, or giving incorrect advice): oBacker bears all penalties and late-payment surcharges arising from that fault.
-- If an error is the Client's fault (providing incorrect or incomplete documents, not confirming returns on time, not paying tax on time): the Client bears all penalty costs.
-- In the case of mixed fault: the parties jointly clarify the matter and apportion responsibility by degree of fault.
+Allocation of responsibility and the compensation mechanism: Article 9 of the Master T&C.
 
 ## 11. Monthly recurring coordination
 
-After the initial set-up phase, the collaboration settles into a fixed monthly rhythm. Recurring notification emails are sent from ops@obacker.com (an automated system address, send-only, no incoming messages monitored). The Client submits data, documents and replies directly to the assigned Account Manager or via contact@obacker.com.
-
-| Timing | oBacker sends | The Client does |
-|---|---|---|
-| Days 1 and 5 | Collection of the previous month's data: statements for all accounts, new contracts, input and output invoices | Reply with all files attached.<br>If submitted after the 5th, oBacker's delivery timeline is temporarily suspended under Article 5.4(b) of the Master T&C; oBacker files provisionally based on available data or submits a nil return to secure statutory deadlines, and the Client bears all late-payment penalty risks and subsequent amendment fees |
-| Day 20 | Payroll cycle preparation: asks about HR changes | Reply with the changes;<br>if there are none, still confirm "no changes" |
-| Days 15 and 25 | Notification of the social insurance, health insurance and unemployment insurance amount due for the previous month, with form C12 | Pay the exact amount to the exact unit code oBacker states, before the social insurance authority's deadline (usually the last day of the month); pay the amount in the email, not the figure on form C12 if the two differ |
-
-The two social insurance reminders on the 15th and 25th are two reminders for the same amount of the same period, not two separate charges. If payment was made after the email on the 15th, the Client disregards the email on the 25th.
+Monthly recurring coordination rhythm: Article 20 of the Master T&C.
 
 ## 12. The Client's rights and obligations
 
-**The Client has the right to:** request progress reports from oBacker at any time; review and respond to documents before oBacker issues them; access the document template platform; and terminate the services with 30 days' prior notice as per the contract.
-
-**The Client is obliged to:** provide documents fully, accurately and on time; pay the service fees on time; not require oBacker to perform any unlawful act; cooperate in providing information when the authorities request it through oBacker; keep oBacker's information, processes and tools confidential; and take responsibility for its own transactions, contracts and business decisions.
+The Client's rights and obligations: Article 3 (Client Commitments) and Article 21 (Termination and Handover) of the Master T&C.
 
 ## 13. Frequently asked questions
 
@@ -232,7 +216,7 @@ The two social insurance reminders on the 15th and 25th are two reminders for th
 Yes. Filing obligations arise the moment the ERC is issued. A nil return must still be filed on time (see Section 5.1).
 
 **I pay a collaborator for a three-month project with no labour contract; what do I need to do?**
-You need a service contract, payment evidence and 10% PIT withholding (if the payment is VND 5 million or more per instance). If this person works continuously and regularly, convert to a labour contract to avoid the risk of a social insurance back-assessment (see Sections 5.3 and 5.4).
+You need a service contract, payment evidence and 10% PIT withholding (if the payment is VND 5 million or more per instance). If this person works continuously and regularly, convert to a labour contract (see Sections 5.3 and 5.4).
 
 **A retail customer does not want an invoice; so I can skip issuing one, right?**
 Not correct. You must still issue the invoice, recording the buyer's name and address (see Section 5.5).
@@ -247,7 +231,7 @@ Yes. Drafting standard labour contracts and NDAs for internal employees applies 
 No. The quota does not carry over to the next month. If you need more, you can order additional reviews under the Master SKU Catalog.
 
 **Can I contact oBacker staff directly through personal messaging?**
-Not recommended. All official exchanges go through the Account Manager by email (on the correct thread) so they are traceable and logged in the system. Personal messaging is for quick exchanges only, is not related to deliverables, and is not officially recorded.
+Not recommended. All official exchanges go through the Account Manager by email so they are traceable and logged in the system. Personal messaging is for quick exchanges only, is not related to deliverables, and is not officially recorded.
 
 **What do I do if I find an error in a report oBacker sent?**
 Reply immediately on the email that contains that report, stating the error clearly and attaching supporting documents. oBacker responds and resolves it within 24 business hours. If the error results in a penalty, the responsibility-allocation mechanism in Section 10 applies.
@@ -279,13 +263,7 @@ oBacker hands over all books, records and system login details to the Client or 
 
 ## 15. Glossary and abbreviations
 
-**Legal and corporate:** ERC is the Enterprise Registration Certificate; IRC is the Investment Registration Certificate (required for foreign-invested enterprises); FDI is foreign direct investment (an enterprise with a foreign investor holding 1% or more of the capital); an NDA (non-disclosure agreement) is a contract requiring the parties not to disclose each other's confidential information.
-
-**Tax and accounting:** BCTC is the financial statements (filing deadline: the end of March of the following year); GTGT is Value Added Tax (VAT; common rates of 10% and 5%); TNCN is Personal Income Tax (PIT); TNDN is Corporate Income Tax (CIT; standard rate 20%); Foreign Contractor Tax (FCT) is the tax on the revenue of foreign organisations and individuals when they supply goods or services to a Vietnamese business, which the Vietnamese business withholds and pays on their behalf (legal basis: Circular No. 69/2025/TT-BTC Article 9 and Circular No. 20/2026/TT-BTC Article 7).
-
-**HR:** BHXH is social insurance (employer 17.5%, employee 8%); BHYT is health insurance (3% and 1.5%); BHTN is unemployment insurance (1% and 1%); MST is the tax code; under the 2019 Labour Code, overtime may not exceed 40 hours per month and 200 hours per year (up to 300 hours per year in special cases).
-
-**Operations and services:** the Payroll Framework is the set of standard payroll-calculation rules agreed by both parties in advance; an add-on service is an out-of-package service charged separately when needed; the kick-off meeting is a 45-60 minute working session in Week 1 to introduce the process and set the plan; oBacker's response-time commitment: acknowledgement within 01 business hour and the substantive reply within 24 business hours for emails.
+Definitions and abbreviations: Article 1 of the Master T&C.
 
 ---
 
@@ -293,4 +271,4 @@ oBacker hands over all books, records and system login details to the Client or 
 
 | Date | Version | Description |
 | --- | --- | --- |
-| 02/10/2026 | R.2.0.0 | Package table: FCT quota by package, Partner Core 01 contract/month, Partner Growth and Prime 03 contracts/month<br>Contract review scope: 11 to 20 pages count as two reviews; over 20 pages charged VND 100,000 per page from page 21<br>Email response commitment: acknowledgement within 01 business hour, substantive reply within 24 business hours<br>Onboarding sequence: week 1 contract and first payment, week 2 onboarding; welcome email within 24 hours after payment confirmation; block surcharge codes updated to the new codes |
+| 07/10/2026 | R.2.1.0 | Sections 2, 10, 11, 12, 15 replaced with pointers to Articles 2, 9, 20, 3, 21 and 1 of the Master T&C; legal content stays in the Master |

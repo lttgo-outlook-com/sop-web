@@ -1,9 +1,15 @@
 ---
 title: "CẨM NANG LÀM VIỆC VỚI OBACKER"
+code: "TNC-05-VI"
+aliases:
+  - TNC-05-VI
 type: "tnc"
 folder: "09_TnC"
-version: "R.2.0.0"
+version: "R.2.1.1"
 status: "đang áp dụng"
+author: "CEO"
+reviewer: "CEO"
+approver: "CEO"
 language: "vi"
 distribution: "Khách hàng"
 previous_version: ""
@@ -13,15 +19,15 @@ tags:
 # CẨM NANG LÀM VIỆC VỚI OBACKER
 ### Hướng dẫn dành cho Quý Khách
 
-**Phiên bản:** R.2.0.0 (VI-EN) · **Cập nhật:** 02/10/2026 · Áp dụng cho gói Partner Core, Partner Growth và Partner Prime
+**Phiên bản:** R.2.1.0 (VI-EN) · **Cập nhật:** 07/10/2026 · Áp dụng cho gói Partner Core, Partner Growth và Partner Prime
 
-> Tài liệu này là cẩm nang hướng dẫn nhằm giúp Quý Khách phối hợp với oBacker thuận lợi. Đây không phải là hợp đồng. Trường hợp có khác biệt giữa cẩm nang này và Hợp Đồng dịch vụ (Điều Khoản & Điều Kiện, Đơn Đặt Hàng và các Điều Khoản Dịch Vụ Cụ Thể), nội dung Hợp Đồng được áp dụng.
+> Tài liệu này là cẩm nang hướng dẫn. Đây không phải là hợp đồng. Trường hợp có khác biệt giữa cẩm nang này và Hợp Đồng dịch vụ (Điều Khoản & Điều Kiện, Đơn Đặt Hàng và các Điều Khoản Dịch Vụ Cụ Thể), nội dung Hợp Đồng được áp dụng.
 
 ---
 
 ## 1. Về oBacker
 
-Công ty Cổ phần oBacker cung cấp dịch vụ vận hành doanh nghiệp cho doanh nghiệp vừa và nhỏ, doanh nghiệp khởi nghiệp và doanh nghiệp có vốn đầu tư nước ngoài tại Việt Nam, gồm: kế toán, thuế, nhân sự và tiền lương, pháp lý và cấp phép. Nhờ đó, doanh nghiệp bảo đảm tuân thủ đầy đủ nghĩa vụ mà không cần tự xây dựng bộ máy vận hành nội bộ.
+Công ty Cổ phần oBacker cung cấp dịch vụ vận hành doanh nghiệp cho doanh nghiệp vừa và nhỏ, doanh nghiệp khởi nghiệp và doanh nghiệp có vốn đầu tư nước ngoài tại Việt Nam, gồm: kế toán, thuế, nhân sự và tiền lương, pháp lý và cấp phép.
 
 **Thông tin liên hệ**
 
@@ -38,11 +44,7 @@ Công ty Cổ phần oBacker cung cấp dịch vụ vận hành doanh nghiệp c
 
 ## 2. Nguyên tắc phối hợp
 
-1. **Một đầu mối duy nhất.** Mỗi Quý Khách được oBacker chỉ định một người phụ trách tài khoản làm đầu mối liên hệ cho mọi nghiệp vụ. Quý Khách gửi mọi yêu cầu, câu hỏi và phê duyệt qua đầu mối này.
-2. **Mọi khoản phí đều rõ ràng bằng văn bản.** Trước khi phát sinh bất kỳ chi phí ngoài gói nào, oBacker gửi báo giá và chỉ thực hiện sau khi Quý Khách chấp thuận.
-3. **Quý Khách chịu trách nhiệm về dữ liệu đầu vào.** oBacker hạch toán và xử lý dựa trên hồ sơ, chứng từ do Quý Khách cung cấp. Quý Khách cam kết cung cấp đầy đủ, chính xác và đúng hạn.
-4. **Cam kết thời gian phản hồi.** oBacker xác nhận đã nhận yêu cầu gửi qua email trong vòng 01 giờ làm việc; nội dung trả lời đầy đủ trong vòng 24 giờ làm việc. Các nghĩa vụ có thời hạn với cơ quan nhà nước được ưu tiên xử lý trong ngày.
-5. **Thư điện tử là hồ sơ chính thức.** Chỉ những thông tin được xác nhận và phản hồi qua thư điện tử (đúng luồng) mới được oBacker ghi nhận vào hệ thống. Trao đổi qua điện thoại hoặc tin nhắn chỉ mang tính hỗ trợ nhanh và cần được xác nhận lại bằng thư điện tử.
+Nguyên tắc phối hợp giữa oBacker và Quý Khách: Điều 2, Bản Điều Khoản Chung.
 
 ## 3. So sánh ba gói dịch vụ
 
@@ -89,7 +91,7 @@ Khi doanh nghiệp phát sinh vượt mức tối đa giao dịch hoặc vượt
 
 ## 5. Những nguyên tắc thuế; kế toán cơ bản Quý Khách cần biết
 
-Phần này tổng hợp các nguyên tắc tuân thủ cơ bản mà mọi doanh nghiệp hoạt động hợp pháp tại Việt Nam đều phải thực hiện, không phụ thuộc vào việc có sử dụng dịch vụ của oBacker hay không.
+Mọi doanh nghiệp hoạt động hợp pháp tại Việt Nam phải thực hiện các nguyên tắc tuân thủ cơ bản dưới đây, không phụ thuộc việc có sử dụng dịch vụ của oBacker hay không.
 
 **5.1. Có doanh nghiệp là phải nộp báo cáo, kể cả khi chưa phát sinh hoạt động.** Ngay khi được cấp ERC, nghĩa vụ kê khai đã bắt đầu:
 
@@ -117,7 +119,7 @@ Nếu chi cho cá nhân mà không có hợp đồng hoặc không khấu trừ 
 
 *Hậu quả khi không đăng ký, không đóng bảo hiểm cho người đủ điều kiện:* truy thu toàn bộ số tiền chưa đóng kèm tiền lãi 0,03%/ngày theo Luật Bảo hiểm xã hội 2024; xử phạt vi phạm hành chính đối với doanh nghiệp từ 10.000.000đ đến 150.000.000đ tính theo số lượng lao động vi phạm (phạt 12% đến 20% nếu vi phạm về số tiền đóng) theo Nghị định 283/2026/NĐ-CP; bồi thường cho người lao động khi phát sinh ốm đau, thai sản, tai nạn lao động; và nguy cơ bị xử lý hình sự về tội trốn đóng bảo hiểm xã hội (Điều 216 Bộ luật Hình sự).
 
-*Khuyến nghị:* nếu doanh nghiệp sử dụng cộng tác viên cùng một người liên tục trên một tháng với khối lượng công việc đều đặn, chuyển sang hợp đồng lao động chính thức giúp tránh rủi ro.
+*Khuyến nghị:* nếu doanh nghiệp sử dụng cộng tác viên cùng một người liên tục trên một tháng với khối lượng công việc đều đặn, chuyển sang hợp đồng lao động chính thức.
 
 **5.5. Khi nào doanh nghiệp phải xuất hóa đơn.** Theo Nghị định 254/2026/NĐ-CP và Thông tư 91/2026/TT-BTC, doanh nghiệp bắt buộc xuất hóa đơn điện tử khi: bán hàng hoặc cung cấp dịch vụ (xuất ngay tại thời điểm chuyển giao hoặc hoàn thành, không phụ thuộc đã thu tiền hay chưa); nhận tiền ứng trước hoặc đặt cọc cho dịch vụ; cho, biếu, tặng, trao đổi hoặc trả thay lương; cho vay, mượn, hoàn trả; và tiêu dùng nội bộ.
 
@@ -130,7 +132,7 @@ Nếu chi cho cá nhân mà không có hợp đồng hoặc không khấu trừ 
 
 *Hậu quả khi không xuất hoặc xuất sai thời điểm:* xử phạt hành chính về hóa đơn theo Nghị định 125/2020/NĐ-CP (mức phạt tùy hành vi và tình tiết, xác định theo điều khoản cụ thể); truy thu thuế giá trị gia tăng và thuế thu nhập doanh nghiệp cho phần doanh thu không xuất hóa đơn; có thể tăng nặng nếu bị xác định là trốn thuế.
 
-**5.6. Thanh toán phần mềm, dịch vụ nước ngoài phải kê khai thuế nhà thầu.** Đây là nghĩa vụ thường bị bỏ sót nhất ở doanh nghiệp vừa và nhỏ. Khi doanh nghiệp Việt Nam thanh toán cho nhà cung cấp nước ngoài (không có hiện diện pháp lý tại Việt Nam) để mua phần mềm, dịch vụ, bản quyền, lưu trữ hoặc quảng cáo, doanh nghiệp có nghĩa vụ khấu trừ và nộp thay **thuế nhà thầu nước ngoài (FCT)**. Cơ sở pháp lý: Thông tư 69/2025/TT-BTC Điều 9 (thuế giá trị gia tăng) và Thông tư 20/2026/TT-BTC Điều 7 (thuế thu nhập doanh nghiệp). Áp dụng với mọi hình thức thanh toán: thẻ tín dụng hoặc thẻ ghi nợ, chuyển khoản quốc tế, cổng thanh toán trung gian, hoặc trừ trực tiếp từ số dư trên nền tảng nước ngoài.
+**5.6. Thanh toán phần mềm, dịch vụ nước ngoài phải kê khai thuế nhà thầu.** Khi doanh nghiệp Việt Nam thanh toán cho nhà cung cấp nước ngoài (không có hiện diện pháp lý tại Việt Nam) để mua phần mềm, dịch vụ, bản quyền, lưu trữ hoặc quảng cáo, doanh nghiệp có nghĩa vụ khấu trừ và nộp thay **thuế nhà thầu nước ngoài (FCT)**. Cơ sở pháp lý: Thông tư 69/2025/TT-BTC Điều 9 (thuế giá trị gia tăng) và Thông tư 20/2026/TT-BTC Điều 7 (thuế thu nhập doanh nghiệp). Áp dụng với mọi hình thức thanh toán: thẻ tín dụng hoặc thẻ ghi nợ, chuyển khoản quốc tế, cổng thanh toán trung gian, hoặc trừ trực tiếp từ số dư trên nền tảng nước ngoài.
 
 Các giao dịch điển hình phải kê khai: phần mềm thuê bao (ví dụ công cụ thiết kế, lưu trữ mã nguồn, bộ ứng dụng văn phòng đám mây); quảng cáo trực tuyến; dịch vụ lưu trữ, tên miền, mạng phân phối nội dung nước ngoài; mua bản quyền nội dung, hình ảnh, phông chữ; thuê cá nhân hoặc đơn vị nước ngoài; hoa hồng môi giới trả cho đối tác nước ngoài.
 
@@ -143,7 +145,7 @@ Các giao dịch điển hình phải kê khai: phần mềm thuê bao (ví dụ
 | Khai theo từng lần phát sinh (mặc định) | Áp dụng cho từng lần thanh toán cho nhà thầu nước ngoài khi chưa đăng ký khai theo tháng | Chậm nhất là ngày thứ 10 kể từ ngày tiếp theo ngày phát sinh thanh toán theo Thông tư 89/2026/TT-BTC Điều 30 khoản 2 điểm a và Nghị định 252/2026/NĐ-CP Điều 10 khoản 1 |
 | Khai theo tháng (phương thức đăng ký) | Áp dụng khi doanh nghiệp thanh toán nhiều lần trong tháng và đã đăng ký khai theo tháng với cơ quan thuế | Chậm nhất là ngày thứ 20 của tháng tiếp theo tháng phát sinh nghĩa vụ theo Thông tư 89/2026/TT-BTC Điều 30 khoản 2 điểm a và Nghị định 252/2026/NĐ-CP Điều 10 khoản 2 (tháng không phát sinh thì không phải nộp) |
 
-*Hậu quả khi không kê khai hoặc kê khai chậm:* truy thu toàn bộ số thuế chưa nộp; phạt 20% số thuế; tiền chậm nộp 0,03% mỗi ngày; khoản chi mua dịch vụ nước ngoài có thể bị loại khỏi chi phí được trừ. Trên thực tế, nhiều doanh nghiệp bị truy thu khoản lớn sau 3-5 năm khi cơ quan thuế rà soát sao kê ngân hàng và sao kê thẻ.
+*Hậu quả khi không kê khai hoặc kê khai chậm:* truy thu toàn bộ số thuế chưa nộp; phạt 20% số thuế; tiền chậm nộp 0,03% mỗi ngày; khoản chi mua dịch vụ nước ngoài có thể bị loại khỏi chi phí được trừ.
 
 ## 6. Dịch vụ trong gói
 
@@ -161,7 +163,7 @@ Các giao dịch điển hình phải kê khai: phần mềm thuê bao (ví dụ
 
 > **Về việc tính lương:** oBacker tính lương theo Khung tính lương chuẩn được hai bên thống nhất trước. Nếu doanh nghiệp có cách tính lương hoặc chấm công phức tạp, tùy biến cao (công thức đặc thù nhiều biến số, cơ chế thưởng theo chỉ tiêu hoặc hoa hồng phức tạp, ca kíp không theo chuẩn), hai bên thống nhất một trong ba phương án: Quý Khách cung cấp sẵn số liệu đã xử lý phần phức tạp; hoặc đơn giản hóa quy tắc để đưa vào Khung; hoặc thực hiện như dịch vụ bổ sung ngoài gói.
 
-> **Lưu ý:** oBacker không cung cấp dịch vụ chấm dứt lao động, xử lý kỷ luật hoặc giải quyết tranh chấp lao động trong cả ba gói (xem Mục 8).
+> oBacker không cung cấp dịch vụ chấm dứt lao động, xử lý kỷ luật hoặc giải quyết tranh chấp lao động trong cả ba gói (xem Mục 8).
 
 **Hóa đơn điện tử và chữ ký số (áp dụng cả ba gói).** Đăng ký và kích hoạt hệ thống hóa đơn điện tử theo Nghị định 254/2026/NĐ-CP và Thông tư 91/2026/TT-BTC; thiết lập ký hiệu mẫu và dải số hóa đơn; tư vấn quy định về hóa đơn điện tử. oBacker không xuất hóa đơn bán ra thay Quý Khách; Quý Khách tự xuất trên phần mềm đã được thiết lập. Nếu muốn oBacker xuất thay, đây là dịch vụ bổ sung ngoài gói, tính phí riêng.
 
@@ -183,7 +185,7 @@ Xuất hóa đơn bán ra thay Quý Khách; rà soát hợp đồng vượt hạ
 
 oBacker không cung cấp trong cả ba gói: tranh tụng và giải quyết tranh chấp tại tòa án hoặc trọng tài; dịch vụ người đứng tên hộ (Nominee) dưới mọi hình thức; mua bán và sáp nhập doanh nghiệp, gọi vốn; tái cấu trúc doanh nghiệp (chia, tách, sáp nhập, chuyển đổi loại hình); tìm kiếm và tuyển dụng nhân sự; chấm dứt, kỷ luật và giải quyết tranh chấp lao động; tiếp thị và truyền thông; xuất hóa đơn bán ra thay Quý Khách (trừ khi đặt dịch vụ bổ sung).
 
-*Lưu ý về thủ tục giấy phép, sở hữu trí tuệ và người nước ngoài:* Các thủ tục xin giấy phép con, thủ tục cho người lao động nước ngoài (giấy phép lao động, thẻ tạm trú, thị thực) và đăng ký sở hữu trí tuệ (nhãn hiệu, bản quyền tác giả) không nằm trong phạm vi các gói dịch vụ định kỳ chuẩn, nhưng được oBacker cung cấp theo Đơn Đặt Hàng riêng. Khi phát sinh nhu cầu, oBacker chủ động thông báo trước và gửi báo giá chi tiết. Các vấn đề tranh tụng tại tòa án hoặc trọng tài được oBacker giới thiệu sang công ty luật đối tác độc lập phù hợp.
+Các thủ tục xin giấy phép con, thủ tục cho người lao động nước ngoài (giấy phép lao động, thẻ tạm trú, thị thực) và đăng ký sở hữu trí tuệ (nhãn hiệu, bản quyền tác giả) không nằm trong phạm vi các gói dịch vụ định kỳ chuẩn, nhưng được oBacker cung cấp theo Đơn Đặt Hàng riêng. Khi phát sinh nhu cầu, oBacker chủ động thông báo trước và gửi báo giá chi tiết. Các vấn đề tranh tụng tại tòa án hoặc trọng tài được oBacker giới thiệu sang công ty luật đối tác độc lập phù hợp.
 
 ## 9. Kênh liên lạc
 
@@ -198,33 +200,15 @@ oBacker không cung cấp trong cả ba gói: tranh tụng và giải quyết tr
 
 ## 10. Phân chia trách nhiệm và cơ chế chịu phạt
 
-**Trách nhiệm của Quý Khách.** Người đại diện theo pháp luật chịu trách nhiệm cuối cùng trước cơ quan nhà nước về: tính trung thực và đầy đủ của hồ sơ, chứng từ cung cấp cho oBacker; tính hợp pháp của các giao dịch; việc nộp tiền thuế đúng hạn (oBacker không nộp thay, trừ khi có thỏa thuận liên kết tài khoản); và việc xác nhận tờ khai trong thời hạn bảy ngày trước ngày đến hạn.
-
-**Trách nhiệm của oBacker.** Hạch toán và kê khai chính xác theo dữ liệu Quý Khách cung cấp; nộp tờ khai đúng hạn theo quy trình; tư vấn đúng quy định pháp luật hiện hành tại thời điểm tư vấn.
-
-**Cơ chế chịu phạt.**
-
-- Nếu sai sót do lỗi của oBacker (kê khai sai số liệu Quý Khách đã cung cấp đúng, nộp tờ khai trễ khi Quý Khách đã xác nhận đúng quy trình, tư vấn sai quy định): oBacker chịu toàn bộ tiền phạt và tiền chậm nộp phát sinh từ lỗi đó.
-- Nếu sai sót do lỗi của Quý Khách (cung cấp chứng từ sai hoặc thiếu, không xác nhận tờ khai đúng hạn, không nộp tiền thuế đúng hạn): Quý Khách chịu toàn bộ chi phí phạt.
-- Trường hợp lỗi hỗn hợp: hai bên cùng làm rõ và phân chia trách nhiệm theo tỷ lệ lỗi.
+Phân định trách nhiệm và cơ chế bồi thường: Điều 9, Bản Điều Khoản Chung.
 
 ## 11. Lịch phối hợp định kỳ hàng tháng
 
-Sau giai đoạn thiết lập ban đầu, việc phối hợp đi vào lịch cố định hàng tháng. Thư điện tử thông báo định kỳ được gửi từ ops@obacker.com (hệ thống tự động, chỉ gửi, không tiếp nhận phản hồi). Quý Khách gửi số liệu, hồ sơ và phản hồi trực tiếp tới người phụ trách tài khoản hoặc contact@obacker.com.
-
-| Thời điểm | oBacker gửi | Quý Khách thực hiện |
-|---|---|---|
-| Ngày 1 và ngày 5 | Thu thập số liệu tháng trước: sao kê tất cả tài khoản, hợp đồng mới, hóa đơn đầu vào và đầu ra | Phản hồi kèm đầy đủ tệp. Nếu gửi sau ngày 05, cam kết thời hạn của oBacker tạm thời đình chỉ theo Điều 5.4(b) Bản Điều Khoản Chung; oBacker tạm kê khai theo số liệu hiện có hoặc nộp tờ khai trống để bảo đảm hạn nộp của nhà nước, Quý Khách chịu mọi rủi ro bị xử phạt nộp chậm và chi phí kê khai điều chỉnh bổ sung sau đó |
-| Ngày 20 | Chuẩn bị kỳ lương: hỏi thông tin biến động nhân sự | Phản hồi thông tin biến động;<br>nếu không có biến động vẫn xác nhận "không có biến động" |
-| Ngày 15 và ngày 25 | Thông báo số tiền bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp phải đóng của kỳ tháng trước, kèm mẫu C12 | Đóng đúng số tiền và đúng mã đơn vị oBacker nêu, trước thời hạn của cơ quan bảo hiểm xã hội (thường là ngày cuối tháng);<br>đóng theo số tiền trong thư, không đóng theo số trên mẫu C12 nếu hai số khác nhau |
-
-Hai thư nhắc bảo hiểm ngày 15 và ngày 25 là hai lần nhắc cho cùng một số tiền của cùng một kỳ, không phải hai khoản riêng biệt. Nếu đã đóng sau thư ngày 15, Quý Khách bỏ qua thư ngày 25.
+Lịch phối hợp định kỳ: Điều 20, Bản Điều Khoản Chung.
 
 ## 12. Quyền và nghĩa vụ của Quý Khách
 
-**Quý Khách có quyền:** yêu cầu oBacker báo cáo tiến độ bất kỳ lúc nào; xem lại và phản hồi tài liệu trước khi oBacker phát hành; truy cập nền tảng biểu mẫu; chấm dứt dịch vụ với thông báo trước 30 ngày theo hợp đồng.
-
-**Quý Khách có nghĩa vụ:** cung cấp tài liệu đầy đủ, chính xác, đúng hạn; thanh toán phí dịch vụ đúng hạn; không yêu cầu oBacker thực hiện hành vi trái pháp luật; hợp tác cung cấp thông tin khi cơ quan nhà nước yêu cầu thông qua oBacker; bảo mật thông tin, quy trình và công cụ của oBacker; tự chịu trách nhiệm về các giao dịch, hợp đồng và quyết định kinh doanh của mình.
+Quyền và nghĩa vụ của Quý Khách: Điều 3 (Cam Kết Của Quý Khách) và Điều 21 (Chấm Dứt và Bàn Giao), Bản Điều Khoản Chung.
 
 ## 13. Câu hỏi thường gặp
 
@@ -232,7 +216,7 @@ Hai thư nhắc bảo hiểm ngày 15 và ngày 25 là hai lần nhắc cho cùn
 Có. Ngay khi được cấp ERC, doanh nghiệp đã phát sinh nghĩa vụ kê khai. Tờ khai trống vẫn phải nộp đúng hạn (xem Mục 5.1).
 
 **Tôi trả tiền cho một cộng tác viên làm dự án ba tháng, không có hợp đồng lao động, cần làm gì?**
-Cần hợp đồng dịch vụ, chứng từ thanh toán và khấu trừ thuế thu nhập cá nhân 10% (nếu khoản chi từ 05 triệu đồng mỗi lần). Nếu người này làm liên tục và đều đặn, chuyển sang hợp đồng lao động giúp tránh rủi ro bị truy thu bảo hiểm xã hội (xem Mục 5.3 và 5.4).
+Cần hợp đồng dịch vụ, chứng từ thanh toán và khấu trừ thuế thu nhập cá nhân 10% (nếu khoản chi từ 05 triệu đồng mỗi lần). Nếu người này làm liên tục và đều đặn, chuyển sang hợp đồng lao động (xem Mục 5.3 và 5.4).
 
 **Khách mua lẻ không lấy hóa đơn thì tôi khỏi xuất phải không?**
 Không đúng. Vẫn phải xuất hóa đơn, ghi tên và địa chỉ người mua (xem Mục 5.5).
@@ -247,7 +231,7 @@ Có. Soạn hợp đồng lao động và thỏa thuận bảo mật chuẩn cho
 Không. Hạn mức không tích lũy sang tháng sau. Nếu cần thêm, Quý Khách yêu cầu thêm lượt theo biểu giá Master SKU Catalog.
 
 **Tôi có thể liên hệ trực tiếp nhân viên oBacker qua tin nhắn cá nhân không?**
-Không khuyến khích. Mọi trao đổi chính thức đi qua người phụ trách tài khoản bằng thư điện tử (đúng luồng) để được lưu vết và ghi nhận vào hệ thống. Tin nhắn cá nhân chỉ dùng để trao đổi nhanh, không liên quan đến sản phẩm bàn giao và không được ghi nhận chính thức.
+Không khuyến khích. Mọi trao đổi chính thức đi qua người phụ trách tài khoản bằng thư điện tử để được lưu vết và ghi nhận vào hệ thống. Tin nhắn cá nhân chỉ dùng để trao đổi nhanh, không liên quan đến sản phẩm bàn giao và không được ghi nhận chính thức.
 
 **Nếu phát hiện sai sót trong báo cáo oBacker gửi thì xử lý thế nào?**
 Phản hồi ngay trên thư điện tử chứa báo cáo đó, nêu rõ sai sót kèm tài liệu chứng minh. oBacker phản hồi và xử lý trong vòng 24 giờ làm việc. Nếu sai sót dẫn đến tiền phạt, áp dụng cơ chế phân chia trách nhiệm tại Mục 10.
@@ -279,17 +263,11 @@ oBacker bàn giao toàn bộ sổ sách, hồ sơ và thông tin đăng nhập h
 
 ## 15. Giải thích thuật ngữ và chữ viết tắt
 
-**Pháp lý và doanh nghiệp:** ERC là Giấy chứng nhận đăng ký doanh nghiệp; IRC là Giấy chứng nhận đăng ký đầu tư (cần cho doanh nghiệp có vốn đầu tư nước ngoài); FDI là đầu tư trực tiếp nước ngoài (doanh nghiệp có nhà đầu tư nước ngoài sở hữu từ 1% vốn); thỏa thuận bảo mật (NDA) là hợp đồng yêu cầu các bên không tiết lộ thông tin mật của nhau.
-
-**Thuế và kế toán:** BCTC là báo cáo tài chính (hạn nộp cuối tháng 3 năm sau); GTGT là thuế giá trị gia tăng (mức phổ biến 10% và 5%); TNCN là thuế thu nhập cá nhân; TNDN là thuế thu nhập doanh nghiệp (thuế suất phổ thông 20%); thuế nhà thầu nước ngoài (FCT) là thuế đánh trên doanh thu của tổ chức, cá nhân nước ngoài khi cung cấp hàng hóa, dịch vụ cho doanh nghiệp Việt Nam, do doanh nghiệp Việt Nam khấu trừ và nộp thay (cơ sở pháp lý: Thông tư 69/2025/TT-BTC Điều 9 và Thông tư 20/2026/TT-BTC Điều 7).
-
-**Nhân sự:** BHXH là bảo hiểm xã hội (doanh nghiệp đóng 17,5%, người lao động đóng 8%); BHYT là bảo hiểm y tế (3% và 1,5%); BHTN là bảo hiểm thất nghiệp (1% và 1%); MST là mã số thuế; làm thêm giờ theo Bộ luật Lao động 2019 không quá 40 giờ mỗi tháng và 200 giờ mỗi năm (trường hợp đặc biệt tối đa 300 giờ mỗi năm).
-
-**Vận hành và dịch vụ:** Khung tính lương là bộ quy tắc tính lương chuẩn được hai bên thống nhất trước; dịch vụ bổ sung ngoài gói là dịch vụ tính phí riêng khi có nhu cầu; buổi họp khởi động là buổi làm việc 45-60 phút trong Tuần 1 để giới thiệu quy trình và lập kế hoạch; cam kết thời gian phản hồi tại oBacker: xác nhận trong 01 giờ làm việc, nội dung trả lời trong 24 giờ làm việc cho thư điện tử.
+Giải thích từ ngữ và chữ viết tắt: Điều 1, Bản Điều Khoản Chung.
 
 ---
 
-*Tài liệu được cập nhật định kỳ. Phiên bản mới nhất luôn có tại liên kết do oBacker cung cấp. Mọi thắc mắc xin gửi về contact@obacker.com.*
+*Phiên bản mới nhất có tại liên kết do oBacker cung cấp. Mọi thắc mắc xin gửi về contact@obacker.com.*
 
 **Công ty Cổ phần oBacker · MST: 0402298185 · contact@obacker.com · https://obacker.com**
 
@@ -301,4 +279,4 @@ oBacker bàn giao toàn bộ sổ sách, hồ sơ và thông tin đăng nhập h
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 02/10/2026 | R.2.0.0 | Bảng gói dịch vụ: định mức FCT theo gói, Partner Core 01 hợp đồng/tháng, Partner Growth và Prime 03 hợp đồng/tháng<br>Phạm vi rà soát hợp đồng: hợp đồng 11 đến 20 trang tính 02 lượt, hợp đồng trên 20 trang phụ thu 100.000đ/trang từ trang thứ 21<br>Cam kết phản hồi thư: xác nhận trong 01 giờ làm việc, nội dung trả lời trong 24 giờ làm việc<br>Trình tự khởi động: tuần 1 ký hợp đồng và thanh toán lần đầu, tuần 2 onboarding; thư chào mừng trong 24 giờ sau xác nhận thanh toán; mã phụ thu khối giao dịch cập nhật theo mã mới |
+| 08/10/2026 | R.2.1.1 | Bỏ câu quảng bá, câu tự giới thiệu mục 5, câu nghĩa vụ hay bị bỏ sót, câu truy thu thực tế, vế tránh rủi ro và nhãn lưu ý |

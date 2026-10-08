@@ -1,9 +1,15 @@
 ---
 title: "ACCOUNTING & TAX SERVICE TERMS (PL-KT)"
+code: "TNC-02-EN"
+aliases:
+  - TNC-02-EN
 type: "tnc"
 folder: "09_TnC"
 version: "R.2.3.1"
 status: "đang áp dụng"
+author: "CEO"
+reviewer: "CEO"
+approver: "CEO"
 language: "en"
 distribution: "Khách hàng"
 previous_version: ""
@@ -26,7 +32,7 @@ Tax code: 0402298185 · Floor 2, 06 Tran Phu Street, Hai Chau Ward, Da Nang, Vie
 
 ## Article 1. Overview and Governing Principles
 
-oBacker runs the Client's accounting and corporate tax operations to support full compliance. Only the components recorded in the Order Form are binding. **The Client is the party ultimately responsible before the State authorities** for the accuracy, completeness, and legality of the records and supporting documents it provides to oBacker.
+oBacker runs the Client's accounting and corporate tax operations. Only the components recorded in the Order Form are binding. **The Client is the party ultimately responsible before the State authorities** for the accuracy, completeness, and legality of the records and supporting documents it provides to oBacker.
 
 ### Definition of "one Transaction"
 
@@ -34,8 +40,6 @@ oBacker runs the Client's accounting and corporate tax operations to support ful
 |---|---|
 | **Transaction** | An economic activity that changes the Client's assets, capital, liabilities, or tax obligations;<br>it is the basis for measuring the volume and fee of the Accounting component. |
 | **Data Cut-off Date** | The deadline by which the Client submits documents each period, as set in the Order Form or the operating process;<br>it is the reference point for all timelines. |
-
-For transparency and to avoid double-counting:
 
 - **One Transaction equals one accounting entry recorded in the books**, corresponding to one valid purchase/sales invoice, **OR** one standalone line item on a bank statement.
 - **Support policy (payroll batch grouping):** For monthly salary payment entries, where payment is made in **a single batch payment**, oBacker groups them and counts only **one Transaction**, rather than counting per employee paid.
@@ -59,7 +63,7 @@ The monthly Transaction threshold per package is stated in the Order Form. When 
 - Drafting internal documents (resolutions, inventory/liquidation minutes, contracts, goods receipt notes, handover minutes, advance requests, cash receipts, cash payment vouchers, and the like)
 - Verifying the accuracy or legality of documents; conducting physical inventory counts or actual cash receipts/payments; storing original documents.
 
-**2.3. Working principle; "record as documented; trusted; not verified":** oBacker records the books strictly according to the documents the Client provides, on the basis that the data is accurate and legal, and has no obligation to investigate the authenticity of a Transaction. Where oBacker finds missing documents or unusual figures, it will notify the Client for clarification; this is good-faith support, not an audit obligation.
+**2.3. Working principle; "record as documented; trusted; not verified":** oBacker records the books according to the documents the Client provides, on the basis that the data is accurate and legal, and has no obligation to investigate the authenticity of a Transaction. Where oBacker finds missing documents or unusual figures, it will notify the Client for clarification; this is good-faith support, not an audit obligation.
 
 ## Article 3. Component B; Corporate Tax
 
@@ -67,13 +71,13 @@ The monthly Transaction threshold per package is stated in the Order Form. When 
 
 - oBacker prepares and files tax returns periodically or as they arise: **VAT** and **Foreign Contractor Tax (FCT)**
 - Provisional payment and **CIT finalisation**; prepare the annual CIT finalisation file
-- **Withhold and declare PIT on occasional income paid to individuals NOT on the payroll**; collaborators/contractors, freelancers under service contracts, and personal asset rentals (property, vehicles, etc.): withhold 10% where a single payment is VND 5 million or more (occasional income), or at the corresponding rate for asset rentals. This work is tied to an expense line recorded by Accounting and therefore falls under PL-KT
+- **Withhold and declare PIT on occasional income paid to individuals NOT on the payroll**; collaborators/contractors, freelancers under service contracts, and personal asset rentals (property, vehicles, etc.): withhold 10% where a single payment is VND 5 million or more (occasional income), or at the corresponding rate for asset rentals. This work falls under PL-KT
 - oBacker tracks and notifies the Client of tax obligations and payment deadlines
 - Support the explanation of processed figures during tax authority inspections, within the scope of a valid authorisation.
 
 > **PIT-on-salaries scope split:** PIT **on salaries** of employees under a labour contract (progressive withholding) is split into two workstreams. **Withholding and periodic PIT filing** fall under the **Accounting & Tax Services (PL-KT)**. The **annual PIT finalisation**, dependant registration, and withholding certificates for employees fall under the **HR, Payroll & Insurance Services (PL-NS)**. **Occasional** PIT paid to individuals off the payroll (collaborators, freelancers, personal asset rentals) falls under **PL-KT** (see above).
 >
-> **Boundary note:** A collaborator/freelancer working regularly for more than one month, steadily and with the character of employment, may be reclassified by the social insurance authority as an employment relationship and subject to a back-tax/clawback assessment for social insurance; in which case the person is moved to employee status and the related obligations transfer to PL-NS. oBacker recommends that the Client move to a formal labour contract in such cases.
+> A collaborator/freelancer working regularly for more than one month, steadily and with the character of employment, may be reclassified by the social insurance authority as an employment relationship and subject to a back-tax/clawback assessment for social insurance; in which case the person is moved to employee status and the related obligations transfer to PL-NS. oBacker recommends that the Client move to a formal labour contract in such cases.
 >
 **3.2. FCT filing; included in all partner packages.** FCT filing when the Client pays foreign suppliers (SaaS, online advertising, hosting, domains, CDN, licences, foreign freelancers/agencies, etc.) is **included in all periodic partner retainer packages, with a quota by package: Partner Core up to 01 cross-border contract per month; Partner Growth and Partner Prime up to 03 contracts per month**. From the contract exceeding the package quota within the same month, an additional filing fee applies under the master service catalog (SKU `ADD-FCT-RETURN-2026`). Legal basis: **Circular No. 69/2025/TT-BTC** Article 9 (value-added tax) and **Circular No. 20/2026/TT-BTC** Article 7 (corporate income tax).
 
@@ -122,7 +126,7 @@ Two FCT filing methods (the Client chooses):
 | Days 13-15 | Send monthly report | oBacker |
 | Days 16-25 | Review, confirm figures, and close the books | Client & oBacker |
 
-> **Principles for late submission of data:** If the Client submits documents after the Data Cut-off Date (the 5th of each month), oBacker's delivery time commitment is temporarily suspended pursuant to Article 5.4(b) of the Master T&C. oBacker is fully released from liability for any late-filing fines or late-payment interest incurred; furthermore, oBacker has the right to record entries or file tax returns provisionally based on available data on the system to meet statutory filing deadlines. All subsequent amendment procedures and costs are the Client's responsibility and are treated as out-of-package add-on services.
+> **Principles for late submission of data:** If the Client submits documents after the Data Cut-off Date (the 5th of each month), oBacker's delivery time commitment is temporarily suspended pursuant to Article 5.4(b) of the Master T&C. oBacker is released from liability for any late-filing fines or late-payment interest incurred; furthermore, oBacker has the right to record entries or file tax returns provisionally based on available data on the system to meet statutory filing deadlines. All subsequent amendment procedures and costs are the Client's responsibility and are treated as out-of-package add-on services.
 
 **5.2. Tax filing process (D = the statutory filing deadline):**
 
@@ -197,7 +201,7 @@ Service Fees are defined in the Order Form (by partner retainer package or actua
 
 **10.2. Health Check & Historical Restatement:**
 - Clients transitioning from previous providers or operating over 1 year must undergo an Initial Health Check (`OBG-HEALTH-CHECK`).
-- Where prior financial records require reconstruction, the Parties execute a Restatement Addendum (`OBG-RESTATE-BASE`) based on: Base Monthly Rate x Number of Months x Industry Multiplier K x Voucher Volume. oBacker is fully released from liability regarding pre-handover records.
+- Where prior financial records require reconstruction, the Parties execute a Restatement Addendum (`OBG-RESTATE-BASE`) based on: Base Monthly Rate x Number of Months x Industry Multiplier K x Voucher Volume. oBacker is released from liability regarding pre-handover records.
 
 **10.3. Q4 Commitment & March 15 Settlement Deadline:**
 - New engagements entered in Q4 require a minimum 5-quarter service commitment (through December 31 of the following year). Premature termination triggers a 3-month fee reimbursement for prior-year closing.

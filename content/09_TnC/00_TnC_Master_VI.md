@@ -1,9 +1,15 @@
 ---
 title: "ĐIỀU KHOẢN VÀ ĐIỀU KIỆN DỊCH VỤ (BẢN ĐIỀU KHOẢN CHUNG)"
+code: "TNC-00-VI"
+aliases:
+  - TNC-00-VI
 type: "tnc"
 folder: "09_TnC"
-version: "R.2.2.0"
+version: "R.3.0.1"
 status: "đang áp dụng"
+author: "CEO"
+reviewer: "CEO"
+approver: "CEO"
 language: "vi"
 distribution: "Khách hàng"
 previous_version: ""
@@ -78,7 +84,7 @@ oBacker thực hiện Dịch Vụ trên cơ sở:
 
 ## Điều 3. Cam Kết Của Quý Khách
 
-**3.1. Cam kết về thông tin cung cấp.** Để oBacker phục vụ tốt nhất, thông tin Quý Khách cung cấp cần đạt 4 tiêu chí; **Chính xác; Đầy đủ; Hợp pháp; Đúng hạn**. Cụ thể, Quý Khách cam kết:
+**3.1. Cam kết về thông tin cung cấp.** Thông tin Quý Khách cung cấp cần đạt 4 tiêu chí; **Chính xác; Đầy đủ; Hợp pháp; Đúng hạn**. Cụ thể, Quý Khách cam kết:
 
 - **Chính xác và trọn vẹn**; không sai sót, không giả mạo, không thiếu sót có chủ ý
 - **Đầy đủ**; gồm tất cả chứng từ, hóa đơn phát sinh; không bỏ sót giao dịch nào
@@ -89,7 +95,7 @@ Nếu phát hiện sai sót trong thông tin đã gửi, Quý Khách báo ngay �
 
 **3.2. Lưu trữ chứng từ gốc.** Khi cơ quan nhà nước thanh tra, kiểm tra, oBacker hỗ trợ Quý Khách bằng cách cung cấp bản sao sổ sách điện tử và giải trình về số liệu đã xử lý. Song song, Quý Khách lưu trữ toàn bộ chứng từ gốc (bản giấy hoặc bản điện tử hợp lệ) và trực tiếp xuất trình, giải trình nghiệp vụ kinh tế với cơ quan nhà nước theo quy định pháp luật. oBacker lưu bản sao điện tử để phục vụ Dịch Vụ; việc lưu bản sao điện tử này **bổ sung, không thay thế** nghĩa vụ lưu trữ chứng từ gốc theo luật định của Quý Khách (Luật Kế toán số 88/2015/QH13).
 
-**3.3. Trách nhiệm pháp lý.** Quý Khách là chủ thể kinh doanh, chịu trách nhiệm pháp lý cuối cùng đối với mọi nghĩa vụ thuế, bảo hiểm, lao động và tuân thủ pháp luật phát sinh từ hoạt động của doanh nghiệp. oBacker thực hiện đúng theo thông tin Quý Khách cung cấp; kết quả dịch vụ gắn trực tiếp với độ chính xác của thông tin đầu vào.
+**3.3. Trách nhiệm pháp lý.** Quý Khách là chủ thể kinh doanh, chịu trách nhiệm pháp lý cuối cùng đối với mọi nghĩa vụ thuế, bảo hiểm, lao động và tuân thủ pháp luật phát sinh từ hoạt động của doanh nghiệp. oBacker thực hiện đúng theo thông tin Quý Khách cung cấp.
 
 ## Điều 4. Thanh Toán Phí Dịch Vụ
 
@@ -103,7 +109,7 @@ Nếu phát hiện sai sót trong thông tin đã gửi, Quý Khách báo ngay �
 | **(b) Trả sau** *(chỉ khi Đơn Đặt Hàng ghi rõ)* | Dịch Vụ được thực hiện trước, oBacker xuất hóa đơn có ngày đến hạn, Quý Khách thanh toán sau | **Lãi chậm trả 0,05%/ngày** tính trên số tiền chậm, từ ngày đến hạn đến ngày trả thực tế (gồm cả hai ngày). oBacker có quyền tạm ngừng Dịch Vụ nếu chậm quá 07 ngày so với ngày đến hạn (Mục 5.3) |
 | **(c) Trả trước qua Ví** | Phí được tự động trừ từ số dư Ví theo từng kỳ | **Không tính lãi chậm trả.** Nếu số dư không đủ, oBacker thông báo và có quyền tạm ngừng Dịch Vụ cho đến khi Ví được nạp đủ (xem Điều 22 và Điều Khoản Nạp Ví) |
 
-> **Lưu ý phân biệt "phạt tiền":** Lãi chậm trả 0,05%/ngày tại Mục 4.2(b) là chế tài cho việc **Quý Khách chậm trả Phí Dịch Vụ cho oBacker** (chỉ áp dụng dịch vụ trả sau). Khoản này **khác** với: (i) tiền phạt vi phạm hành chính và tiền chậm nộp thuế/BHXH do lỗi của oBacker; thuộc cơ chế bồi thường tại Điều 9; (ii) tiền chậm nộp thuế phát sinh do Quý Khách gửi chứng từ/xác nhận trễ; do Quý Khách chịu theo Điều 9 và các Điều Khoản Dịch Vụ Cụ Thể. Ba loại này độc lập với nhau.
+> **Phân biệt "phạt tiền":** Lãi chậm trả 0,05%/ngày tại Mục 4.2(b) là chế tài cho việc **Quý Khách chậm trả Phí Dịch Vụ cho oBacker** (chỉ áp dụng dịch vụ trả sau). Khoản này **khác** với: (i) tiền phạt vi phạm hành chính và tiền chậm nộp thuế/BHXH do lỗi của oBacker; thuộc cơ chế bồi thường tại Điều 9; (ii) tiền chậm nộp thuế phát sinh do Quý Khách gửi chứng từ/xác nhận trễ; do Quý Khách chịu theo Điều 9 và các Điều Khoản Dịch Vụ Cụ Thể. Ba loại này độc lập với nhau.
 
 **4.3. Thành phần của Phí Dịch Vụ.** Trừ khi Đơn Đặt Hàng quy định khác, Phí Dịch Vụ đã bao gồm thuế GTGT (nếu có), phí nhà nước và phí đi lại để nộp hồ sơ, **nhưng chưa bao gồm** phí công chứng, dịch thuật. Khi phát sinh chi phí ngoài phạm vi, oBacker thông báo trước và chỉ thực hiện sau khi Quý Khách xác nhận đồng ý với phí phát sinh.
 
@@ -118,7 +124,7 @@ Nếu phát hiện sai sót trong thông tin đã gửi, Quý Khách báo ngay �
 **5.3. Tạm ngừng dịch vụ.** oBacker có thể tạm ngừng Dịch Vụ khi: (i) **với dịch vụ trả trước**; Quý Khách chưa thanh toán phí đến hạn của kỳ/đơn hàng; **với dịch vụ trả sau**; Quý Khách chậm thanh toán quá 07 ngày so với ngày đến hạn; **với thanh toán qua Ví**; số dư Ví không đủ; (ii) Quý Khách chưa cung cấp thông tin, chứng từ cần thiết trong thời hạn oBacker đã thông báo bằng văn bản; (iii) có sự kiện bất khả kháng. oBacker thông báo trước tối thiểu **03 Ngày Làm Việc** (trừ trường hợp bất khả kháng).
 
 **5.4. Xử lý khi Quý Khách chậm cung cấp tài liệu hoặc chậm xác nhận:**
-Để bảo đảm tính khả thi của tiến độ công việc và tuân thủ các mốc thời hạn theo quy định pháp luật, hai Bên thống nhất cơ chế xử lý khi Quý Khách chậm cung cấp tài liệu, chậm phản hồi hoặc chậm xác nhận:
+Hai Bên thống nhất cơ chế xử lý khi Quý Khách chậm cung cấp tài liệu, chậm phản hồi hoặc chậm xác nhận:
 - **(a) Đối với dịch vụ theo vụ việc (Giấy phép, Soạn thảo và rà soát hợp đồng, Sở hữu trí tuệ, Nghiên cứu theo yêu cầu):** Toàn bộ số ngày Quý Khách chậm cung cấp hồ sơ, chậm bổ sung tài liệu hoặc chậm xác nhận so với lịch hẹn được cộng dồn trực tiếp vào ngày hẹn bàn giao kết quả của oBacker (cộng bù tương ứng 1:1). Thời gian chậm trễ của Quý Khách không tính vào thời gian cam kết tiến độ của oBacker.
 - **(b) Đối với dịch vụ định kỳ (Kế toán, Thuế doanh nghiệp, Bảo hiểm xã hội, Tiền lương):**
   - Nếu Quý Khách gửi chứng từ sau Ngày Chốt Số Liệu (ngày 05 hằng tháng) hoặc không xác nhận dự thảo tờ khai trước mốc D-7 (07 ngày trước thời hạn nộp theo luật định): Cam kết thời hạn hoàn thành của oBacker tạm thời đình chỉ.
@@ -131,7 +137,7 @@ Thông báo chính thức có thể gửi qua: (1) thư điện tử; (2) tin nh
 
 Thông báo được coi là đã nhận khi: (i) với thư điện tử/tin nhắn; khi có trạng thái "Đã nhận"/"Đã xem", hoặc khi Bên gửi không nhận được thông báo lỗi trong vòng 24 giờ; (ii) với thư tay/chuyển phát; vào ngày giao theo xác nhận của đơn vị chuyển phát. Thông báo gửi sau 17:30 của một Ngày Làm Việc, hoặc vào ngày không phải Ngày Làm Việc, được coi là gửi lúc 09:00 của Ngày Làm Việc tiếp theo.
 
-> **Lưu ý vận hành:** Chỉ những thông tin được xác nhận và phản hồi qua email (đúng luồng) mới được oBacker ghi nhận chính thức vào hệ thống. Trao đổi qua điện thoại, chat hay tin nhắn cá nhân chỉ mang tính hỗ trợ nhanh và cần được chốt lại bằng email.
+> Chỉ những thông tin được xác nhận và phản hồi qua email mới được oBacker ghi nhận chính thức vào hệ thống. Trao đổi qua điện thoại, chat hay tin nhắn cá nhân chỉ mang tính hỗ trợ nhanh và cần được chốt lại bằng email.
 
 ## Điều 7. Bảo Mật Thông Tin
 
@@ -170,7 +176,7 @@ Chi tiết về cách oBacker thu thập, sử dụng, chia sẻ và bảo vệ 
 
 **(c) Lỗi hỗn hợp.** Nếu lỗi có nguyên nhân từ cả hai Bên, hai Bên cùng làm rõ và phân chia trách nhiệm theo tỷ lệ lỗi.
 
-**9.3. Giới hạn trách nhiệm tổng hợp.** Ngoài các khoản tiền phạt vi phạm hành chính và tiền chậm nộp trực tiếp mà oBacker chịu theo Mục 9.2(a) và 9.2(b)(i), tổng mức bồi thường của oBacker cho mọi thiệt hại khác phát sinh theo Hợp Đồng **không vượt quá tổng Phí Dịch Vụ** Quý Khách đã thực trả cho oBacker trong 03 tháng gần nhất theo Đơn Đặt Hàng tương ứng.
+**9.3. Giới hạn trách nhiệm tổng hợp.** Ngoài các khoản tiền phạt vi phạm hành chính và tiền chậm nộp trực tiếp mà oBacker chịu theo Mục 9.2(a) và 9.2(b)(i), tổng mức bồi thường của oBacker cho mọi thiệt hại khác phát sinh theo Hợp Đồng **không vượt quá tổng Phí Dịch Vụ** mà oBacker thực tế đã nhận từ Quý Khách cho dịch vụ phát sinh khiếu nại đó theo Đơn Đặt Hàng tương ứng.
 
 **9.4. oBacker không chịu trách nhiệm đối với:**
 
@@ -179,7 +185,7 @@ Chi tiết về cách oBacker thu thập, sử dụng, chia sẻ và bảo vệ 
 - Kết quả từ cơ quan nhà nước (phê duyệt giấy phép, kết luận thanh tra, phán quyết tố tụng) nằm ngoài tầm kiểm soát của oBacker
 - Thiệt hại gián tiếp, thiệt hại về cơ hội kinh doanh, hoặc thiệt hại do chậm trễ có nguyên nhân từ phía Quý Khách.
 
-**9.5. Cách xác định lỗi.** Khi phát sinh khoản phạt, hai Bên cùng rà soát email và tài liệu trao đổi liên quan, tiến trình xử lý hồ sơ, đối chiếu với quy trình chuẩn. oBacker cam kết minh bạch trong việc xác định lỗi và sẵn sàng nhận trách nhiệm khi sai sót do oBacker gây ra.
+**9.5. Cách xác định lỗi.** Khi phát sinh khoản phạt, hai Bên cùng rà soát email và tài liệu trao đổi liên quan, tiến trình xử lý hồ sơ, đối chiếu với quy trình chuẩn.
 
 ## Điều 10. Giải Quyết Tranh Chấp
 
@@ -203,9 +209,9 @@ Hợp Đồng được điều chỉnh bởi pháp luật Việt Nam. Khi phát 
 
 **Phòng chống rửa tiền và tài trợ khủng bố (KYC):** oBacker tuân thủ pháp luật Việt Nam về phòng, chống rửa tiền (Luật Phòng, chống rửa tiền số 14/2022/QH15). oBacker có thể yêu cầu Quý Khách cung cấp thông tin xác minh danh tính của Quý Khách và, khi liên quan, của đối tác, nhân sự hoặc tổ chức liên quan, kể cả bằng chứng về nguồn gốc và quyền sở hữu khoản tiền; khi bắt đầu và trong suốt quá trình hợp tác.
 
-**Liêm chính, phòng chống hối lộ và tham nhũng:** oBacker thực hiện hoạt động kinh doanh tuân thủ đầy đủ quy định pháp luật về phòng, chống tham nhũng, và không tham gia bất kỳ hành vi nào cấu thành hối lộ hoặc tham nhũng.
+**Liêm chính, phòng chống hối lộ và tham nhũng:** oBacker thực hiện hoạt động kinh doanh tuân thủ quy định pháp luật về phòng, chống tham nhũng, và không tham gia bất kỳ hành vi nào cấu thành hối lộ hoặc tham nhũng.
 
-**Nghiêm cấm và loại trừ dịch vụ người đứng tên hộ (Nominee):** Căn cứ quy định tại Điều 16 khoản 4 Luật Doanh nghiệp số 59/2020/QH14 và Luật Phòng, chống rửa tiền số 14/2022/QH15, oBacker tuyệt đối không cung cấp, không tham gia, không môi giới hoặc hỗ trợ dịch vụ người đứng tên hộ (Nominee) dưới bất kỳ hình thức nào, bao gồm đứng tên hộ chủ sở hữu, thành viên góp vốn, cổ đông, hoặc người đại diện theo pháp luật của doanh nghiệp tại Việt Nam. Mọi yêu cầu sử dụng người đứng tên hộ đều bị từ chối tiếp nhận.
+**Nghiêm cấm và loại trừ dịch vụ người đứng tên hộ (Nominee):** Căn cứ quy định tại Điều 16 khoản 4 Luật Doanh nghiệp số 59/2020/QH14 và Luật Phòng, chống rửa tiền số 14/2022/QH15, oBacker không cung cấp, không tham gia, không môi giới hoặc hỗ trợ dịch vụ người đứng tên hộ (Nominee) dưới bất kỳ hình thức nào, bao gồm đứng tên hộ chủ sở hữu, thành viên góp vốn, cổ đông, hoặc người đại diện theo pháp luật của doanh nghiệp tại Việt Nam. Mọi yêu cầu sử dụng người đứng tên hộ đều bị từ chối tiếp nhận.
 
 ## Điều 13. Sở Hữu Trí Tuệ, Hồ Sơ & Quyền Của Bên Thứ Ba
 
@@ -234,16 +240,16 @@ Các tài liệu vận hành (Cẩm nang / Hướng dẫn Làm việc với oBac
 
 ## Điều 15. Định Nghĩa "01 Giao Dịch"
 
-Khối lượng và phí của dịch vụ Kế toán được xác định theo số Giao Dịch. Để minh bạch và tránh tính trùng:
+Khối lượng và phí của dịch vụ Kế toán được xác định theo số Giao Dịch:
 
 - **01 Giao Dịch được tính bằng 01 bút toán ghi nhận trên sổ kế toán**, tương ứng với 01 hóa đơn mua vào/bán ra hợp lệ, **HOẶC** 01 dòng phát sinh độc lập trên sao kê ngân hàng.
 - **Chính sách hỗ trợ (gộp một đợt chi trả lương):** Riêng các bút toán chi trả lương hàng tháng cho nhân viên, nếu thanh toán trong **cùng một đợt chi trả**, oBacker gộp lại và chỉ tính chung là **01 Giao Dịch**, không đếm theo số lượng nhân sự được nhận lương.
 
-Ngưỡng Giao Dịch/tháng của từng gói được ghi tại Đơn Đặt Hàng. Các gói đối tác kế toán và quản trị định kỳ (Partner Core, Partner Growth, Partner Prime) áp dụng định mức giao dịch và chính sách sử dụng hợp lý (FUP). Gói Partner Growth áp dụng mức tối đa 1.500 giao dịch/tháng; gói Partner Prime áp dụng các block giao dịch thỏa thuận (từ 1.500 đến trên 7.000 giao dịch/tháng). Toàn bộ phụ phí phát sinh vượt định mức hoặc block volume mở rộng được đối soát thực tế và xuất hóa đơn phụ phí định kỳ hàng tháng dương lịch (Monthly Post-billing).
+Ngưỡng Giao Dịch/tháng của từng gói được ghi tại Đơn Đặt Hàng. Định mức giao dịch theo gói và chính sách sử dụng hợp lý (FUP) quy định tại [[01_Goi_dich_vu_va_hang_muc_kem_goi|Danh mục gói dịch vụ và hạng mục kèm gói]] mục 9. Toàn bộ phụ phí phát sinh vượt định mức hoặc block volume mở rộng được đối soát thực tế và xuất hóa đơn phụ phí định kỳ hàng tháng dương lịch (Monthly Post-billing).
 
-**Hệ số phức tạp ngành nghề & danh mục loại trừ:** Đơn giá niêm yết chuẩn áp dụng cho nhóm ngành tiêu chuẩn (Dịch vụ, Thương mại, IT, Tư vấn, hệ số K = 1,0). Nhóm ngành F&B, chuỗi bán lẻ áp dụng hệ số K = 1,2; ngành xuất nhập khẩu, logistics áp dụng K = 1,3; ngành sản xuất, gia công, xây dựng áp dụng K = 1,5. oBacker từ chối tuyệt đối cung cấp dịch vụ cho các ngành nghề loại trừ gồm: kinh doanh tiền mã hóa, tài sản ảo; tín dụng đen, cầm đồ; cờ bạc, cá cược; đòi nợ thuê; vũ khí, vật liệu nổ và hóa chất độc hại.
+**Hệ số phức tạp ngành nghề & danh mục loại trừ:** Quy định tại [[01_Goi_dich_vu_va_hang_muc_kem_goi|Danh mục gói dịch vụ và hạng mục kèm gói]] mục 11: bảng hệ số phức tạp ngành nghề và danh mục ngành nghề loại trừ tuyệt đối.
 
-**Cơ chế nâng gói tự động:** Quý Khách tự động chuyển đổi lên gói cấp cao hơn từ tháng tiếp theo khi: (1) Số lượng chứng từ vượt định mức gói liên tục 03 tháng dương lịch; HOẶC (2) Doanh thu lũy kế trong năm vượt ngưỡng quy mô của gói (vượt 3 tỷ đồng đối với Partner Core). Vào ngày 31/12 hàng năm, oBacker đánh giá lại toàn bộ chỉ số cả năm để áp dụng phân hạng gói chính thức cho hợp đồng năm tiếp theo.
+**Cơ chế nâng gói tự động:** Quy định tại [[01_Goi_dich_vu_va_hang_muc_kem_goi|Danh mục gói dịch vụ và hạng mục kèm gói]] mục 10: điều kiện nâng gói, thời điểm áp dụng và chu kỳ đánh giá cuối năm.
 
 ## Điều 16. Dịch Vụ Kế Toán & Thuế; PL-KT
 
@@ -253,13 +259,13 @@ Dịch Vụ Kế toán & Thuế được điều chỉnh chi tiết tại **PL-K
 - **Thuế doanh nghiệp:** kê khai và nộp GTGT, tạm nộp & quyết toán TNDN, **kê khai thuế nhà thầu nước ngoài (FCT) khi phát sinh**; theo dõi và thông báo nghĩa vụ thuế.
 - **Hóa đơn điện tử:** thiết lập, kích hoạt hệ thống hóa đơn điện tử theo NĐ 254/2026/NĐ-CP và TT 91/2026/TT-BTC.
 
-**Kê khai thuế nhà thầu nước ngoài (FCT):** Việc kê khai FCT khi Quý Khách thanh toán cho nhà cung cấp nước ngoài (phần mềm dạng dịch vụ, quảng cáo trực tuyến, lưu trữ máy chủ, bản quyền…) được **bao gồm trong tất cả các gói đối tác định kỳ, với định mức theo gói: Partner Core tối đa 01 hợp đồng nhà thầu nước ngoài mỗi tháng; Partner Growth và Partner Prime tối đa 03 hợp đồng mỗi tháng**. Từ hợp đồng vượt định mức của gói trong cùng một tháng, oBacker áp dụng phụ thu kê khai theo danh mục dịch vụ chuẩn hóa (mã ADD-FCT-RETURN-2026). Quý Khách có nghĩa vụ báo ngay cho oBacker qua người phụ trách tài khoản hoặc email contact@obacker.com khi phát sinh giao dịch, kèm hóa đơn, chứng từ thanh toán và mô tả dịch vụ. Cơ sở pháp lý FCT: **Thông tư 69/2025/TT-BTC** Điều 9 (thuế giá trị gia tăng) và **Thông tư 20/2026/TT-BTC** Điều 7 (thuế thu nhập doanh nghiệp).
+**Kê khai thuế nhà thầu nước ngoài (FCT):** Việc kê khai FCT khi Quý Khách thanh toán cho nhà cung cấp nước ngoài (phần mềm dạng dịch vụ, quảng cáo trực tuyến, lưu trữ máy chủ, bản quyền…) được **bao gồm trong tất cả các gói đối tác định kỳ, với định mức theo gói quy định tại [[01_Goi_dich_vu_va_hang_muc_kem_goi|Danh mục gói dịch vụ và hạng mục kèm gói]] mục 9**. Từ hợp đồng vượt định mức của gói trong cùng một tháng, oBacker áp dụng phụ thu kê khai theo danh mục dịch vụ chuẩn hóa (mã ADD-FCT-RETURN-2026). Quý Khách có nghĩa vụ báo ngay cho oBacker qua người phụ trách tài khoản hoặc email contact@obacker.com khi phát sinh giao dịch, kèm hóa đơn, chứng từ thanh toán và mô tả dịch vụ. Cơ sở pháp lý FCT: **Thông tư 69/2025/TT-BTC** Điều 9 (thuế giá trị gia tăng) và **Thông tư 20/2026/TT-BTC** Điều 7 (thuế thu nhập doanh nghiệp).
 
-**Chính sách kiểm toán độc lập và doanh nghiệp FDI:** Căn cứ Điều 15 Nghị định số 17/2012/NĐ-CP và Thông tư số 186/2010/TT-BTC, 100% doanh nghiệp có vốn đầu tư nước ngoài (FDI) bắt buộc phải kiểm toán Báo cáo tài chính hàng năm để đủ điều kiện chuyển lợi nhuận ra nước ngoài. oBacker thực hiện ghi sổ và lập BCTC theo Thông tư 99/2025/TT-BTC cho toàn bộ khách hàng FDI; độc lập với hoạt động kiểm toán và không thu hộ phí kiểm toán. Quý Khách trực tiếp ký hợp đồng và chi trả phí cho công ty kiểm toán độc lập; oBacker chịu trách nhiệm cung cấp số liệu, hồ sơ kế toán và giải trình với kiểm toán viên.
+**Chính sách kiểm toán độc lập và doanh nghiệp FDI:** Căn cứ Điều 15 Nghị định số 17/2012/NĐ-CP và Thông tư số 186/2010/TT-BTC, 100% doanh nghiệp có vốn đầu tư nước ngoài (FDI) bắt buộc phải kiểm toán Báo cáo tài chính hàng năm. oBacker thực hiện ghi sổ và lập BCTC theo Thông tư 99/2025/TT-BTC cho toàn bộ khách hàng FDI; độc lập với hoạt động kiểm toán và không thu hộ phí kiểm toán. Quý Khách trực tiếp ký hợp đồng và chi trả phí cho công ty kiểm toán độc lập; oBacker chịu trách nhiệm cung cấp số liệu, hồ sơ kế toán và giải trình với kiểm toán viên.
 
 **Thanh tra, kiểm tra thuế tại trụ sở:** Gói dịch vụ định kỳ bao gồm hỗ trợ giải trình số liệu từ xa qua cổng điện tử. Trường hợp cơ quan thuế ban hành quyết định thanh tra, kiểm tra tại bàn tại trụ sở doanh nghiệp và Quý Khách yêu cầu chuyên viên oBacker trực tiếp tham gia làm việc với đoàn kiểm tra, hai Bên ký phụ lục công việc theo vụ việc riêng theo danh mục dịch vụ chuẩn hóa (mã ADD-TAX-INSPECT).
 
-**Cơ chế chốt hợp đồng Quý 4 và ngày 15/03:** Khách hàng ký hợp đồng trong Quý 4 cam kết thời hạn dịch vụ kéo dài tối thiểu đến hết ngày 31/12 của năm tiếp theo (tối thiểu 05 quý). Trường hợp thanh toán chia đợt, đợt 2 phải được hoàn tất chậm nhất vào ngày 15/03 của năm tiếp theo. Đến ngày 15/03 nếu Quý Khách chưa thanh toán đợt 2, oBacker tiến hành nộp BCTC và Quyết toán thuế tạm thời căn cứ trên số liệu hiện có trước ngày 31/03 để bảo vệ Quý Khách khỏi bị xử phạt chậm nộp; sau khi hoàn tất thanh toán, oBacker mới thực hiện rà soát hoàn chỉnh và nộp hồ sơ khai bổ sung.
+**Cơ chế chốt hợp đồng Quý 4 và ngày 15/03:** Quy định chi tiết tại **PL-KT** mục 10.3: cam kết thời hạn tối thiểu, thời hạn thanh toán đợt 2, và cơ chế xử lý khi Quý Khách chậm thanh toán đợt 2.
 
 **Khắc phục sổ sách quá khứ và miễn trừ trách nhiệm:** Doanh nghiệp chuyển đổi từ đơn vị khác sang hoặc đã hoạt động từ 01 năm trở lên bắt buộc thực hiện rà soát sức khỏe sổ sách ban đầu (Health Check). Trường hợp phát hiện sai sót cần lập lại sổ sách kế toán các năm trước, hai Bên ký phụ lục công việc khắc phục sổ sách (Restatement) theo công thức đơn giá tháng nhân hệ số ngành và khối lượng chứng từ sai lệch. oBacker được miễn trừ 100% trách nhiệm đối với mọi sai phạm, tiền truy thu thuế và tiền phạt vi phạm hành chính phát sinh từ số liệu quá khứ do Quý Khách hoặc đơn vị kế toán cũ thực hiện trước thời điểm bàn giao.
 
@@ -280,25 +286,19 @@ Dịch Vụ Nhân sự được điều chỉnh chi tiết tại **PL-NS**. Tóm
 
 ## Điều 18. Dịch Vụ Xin Giấy Phép; PL-GP
 
-Dịch Vụ Xin Giấy Phép được điều chỉnh chi tiết tại **PL-GP**. oBacker hỗ trợ chuẩn bị hồ sơ, nộp tại cơ quan nhà nước, theo dõi tiến trình và tiếp nhận kết quả (cấp mới, gia hạn, điều chỉnh). Dịch Vụ **giới hạn trong thực hiện thủ tục hành chính**, không bao gồm tư vấn chuyên sâu về điều kiện kinh doanh, thuế, tài chính hay sở hữu trí tuệ. Việc cấp phép, phê duyệt và thời hạn xử lý thuộc thẩm quyền tuyệt đối của cơ quan nhà nước.
+Dịch Vụ Xin Giấy Phép được điều chỉnh chi tiết tại **PL-GP**. oBacker hỗ trợ chuẩn bị hồ sơ, nộp tại cơ quan nhà nước, theo dõi tiến trình và tiếp nhận kết quả (cấp mới, gia hạn, điều chỉnh). Dịch Vụ **giới hạn trong thực hiện thủ tục hành chính**, không bao gồm tư vấn chuyên sâu về điều kiện kinh doanh, thuế, tài chính hay sở hữu trí tuệ. Việc cấp phép, phê duyệt và thời hạn xử lý thuộc thẩm quyền của cơ quan nhà nước.
 
 ## Điều 19. Dịch Vụ Pháp Lý; PL-PL
 
 Dịch Vụ Pháp Lý được điều chỉnh chi tiết tại **PL-PL**, cung cấp theo số giờ tư vấn/kỳ, số lượt rà soát hợp đồng/kỳ, hoặc theo vụ việc; bao gồm tư vấn pháp lý & thuế, rà soát/soạn thảo hợp đồng, nghiên cứu theo yêu cầu, và dịch vụ đăng ký quyền sở hữu trí tuệ (nhãn hiệu, bản quyền tác giả).
 
-**Phạm vi 01 lượt soát xét hợp đồng:**
-
-- **01 hợp đồng độ dài tối đa 10 trang** (tương đương khoảng 3.000; 4.000 chữ)
-- oBacker kiểm tra rủi ro pháp lý cơ bản, chỉ ra điều khoản bất lợi
-- 01 vòng rà soát + 01 vòng phản hồi; thời gian xử lý 03 Ngày Làm Việc.
-- **Nếu hợp đồng từ 11 đến 20 trang**, hệ thống tính là **02 lượt soát xét**.
-- **Nếu hợp đồng trên 20 trang**, từ trang thứ 21 áp dụng phụ thu 100.000đ/trang, hoặc chuyển sang tư vấn dạng dịch vụ bổ sung ngoài gói tùy độ phức tạp (báo giá trước khi thực hiện).
+**Phạm vi 01 lượt soát xét hợp đồng:** Quy định tại **PL-PL** Điều 4: độ dài hợp đồng theo lượt, thời gian xử lý, và phụ thu khi hợp đồng vượt độ dài theo lượt.
 
 Sản phẩm soát xét là **báo cáo rà soát**, không bao gồm bản hợp đồng đã chỉnh sửa (việc chỉnh sửa/soạn lại là dịch vụ riêng). Hạn mức tư vấn/soát xét theo gói **không tích lũy** sang kỳ sau.
 
 ## Điều 20. Lịch Phối Hợp Định Kỳ Hàng Tháng
 
-Sau giai đoạn thiết lập ban đầu, việc phối hợp đi vào lịch cố định hàng tháng. Email thông báo định kỳ được gửi từ ops@obacker.com (hệ thống thông báo tự động, chỉ gửi, không tiếp nhận thư đến); đầu mối tiếp nhận yêu cầu và phản hồi chính thức của Quý Khách là người phụ trách tài khoản hoặc contact@obacker.com. Quý Khách phản hồi theo đúng luồng email; chỉ thông tin được xác nhận qua email mới được ghi nhận vào hệ thống.
+Sau giai đoạn thiết lập ban đầu, việc phối hợp đi vào lịch cố định hàng tháng. Email thông báo định kỳ được gửi từ ops@obacker.com (hệ thống thông báo tự động, chỉ gửi, không tiếp nhận thư đến); đầu mối tiếp nhận yêu cầu và phản hồi chính thức của Quý Khách là người phụ trách tài khoản hoặc contact@obacker.com. Quý Khách phản hồi qua email; chỉ thông tin được xác nhận qua email mới được ghi nhận vào hệ thống.
 
 | Thời điểm | oBacker chủ động gửi | Quý Khách cần làm |
 |---|---|---|
@@ -308,12 +308,12 @@ Sau giai đoạn thiết lập ban đầu, việc phối hợp đi vào lịch c
 
 **20.1. Đối soát BHXH (ngày 15 và ngày 25).** Email ngày 15 là **thông báo số tiền phải đóng**. Email ngày 25 được gửi dưới hình thức **Thư đối soát** (không phải nhắc nợ lần hai):
 
-- Nếu Quý Khách **đã nộp** sau ngày 15: phản hồi kèm **Ủy nhiệm chi (UNC)** để oBacker chủ động đối soát với cơ quan BHXH (do hệ thống BHXH thường có độ trễ cập nhật tính đến ngày 25).
-- Nếu Quý Khách **chưa nộp**: nộp đúng số tiền và đúng mã đơn vị mà oBacker nêu trong email, trước hạn của cơ quan BHXH (thường là ngày cuối tháng), để tránh phát sinh lãi chậm nộp.
+- Nếu Quý Khách **đã nộp** sau ngày 15: phản hồi kèm **Ủy nhiệm chi (UNC)** để oBacker chủ động đối soát với cơ quan BHXH.
+- Nếu Quý Khách **chưa nộp**: nộp đúng số tiền và đúng mã đơn vị mà oBacker nêu trong email, trước hạn của cơ quan BHXH (thường là ngày cuối tháng).
 
-Đây là 2 lần đối soát cho **cùng một số tiền của cùng một kỳ**, không phải hai khoản phải đóng riêng biệt. Quý Khách đóng theo số tiền trong email, không đóng theo số trên C12 nếu hai số khác nhau (do độ trễ cập nhật của hệ thống BHXH).
+Đây là 2 lần đối soát cho **cùng một số tiền của cùng một kỳ**, không phải hai khoản phải đóng riêng biệt. Quý Khách đóng theo số tiền trong email, không đóng theo số trên C12 nếu hai số khác nhau.
 
-**20.2. Bảy nguyên tắc ranh giới vận hành:** Nhằm bảo đảm an toàn pháp lý và kiểm soát rủi ro, hai Bên tuân thủ bảy nguyên tắc ranh giới sau: (1) Không lưu giữ USB Token tại văn phòng oBacker quá 24 giờ làm việc; (2) Tuyệt đối không nhận tiền thanh toán hộ nghĩa vụ thuế/BHXH qua tài khoản cá nhân nhân sự oBacker; (3) Quý Khách chịu trách nhiệm 100% về tính hợp pháp và thực tế phát sinh của hóa đơn đầu vào; (4) oBacker có quyền từ chối hạch toán chi phí không có căn cứ chứng từ hợp pháp hoặc có rủi ro trốn thuế nghiêm trọng; (5) Không cử nhân sự đứng tên Kế toán trưởng pháp lý trừ khi ký hợp đồng dịch vụ riêng biệt; (6) SLA: xác nhận đã nhận yêu cầu tư vấn trong vòng 04 giờ làm việc, nội dung trả lời trong 24 đến 48 giờ làm việc; (7) Bảo mật thông tin tài chính và dữ liệu kinh doanh tuyệt đối theo Thỏa thuận bảo mật thông tin (NDA).
+**20.2. Nguyên tắc ranh giới vận hành:** Hai Bên tuân thủ các nguyên tắc ranh giới sau: (1) Không lưu giữ USB Token tại văn phòng oBacker quá 24 giờ làm việc; (2) Không nhận tiền thanh toán hộ nghĩa vụ thuế/BHXH qua tài khoản cá nhân nhân sự oBacker; (3) Quý Khách chịu trách nhiệm 100% về tính hợp pháp và thực tế phát sinh của hóa đơn đầu vào; (4) oBacker có quyền từ chối hạch toán chi phí không có căn cứ chứng từ hợp pháp hoặc có rủi ro trốn thuế nghiêm trọng; (5) Không cử nhân sự đứng tên Kế toán trưởng pháp lý trừ khi ký hợp đồng dịch vụ riêng biệt; (6) SLA: xác nhận đã nhận yêu cầu tư vấn trong vòng 04 giờ làm việc, nội dung trả lời trong 24 đến 48 giờ làm việc; (7) Bảo mật thông tin tài chính và dữ liệu kinh doanh theo Thỏa thuận bảo mật thông tin (NDA).
 
 ## Điều 21. Chấm Dứt và Bàn Giao
 
@@ -347,5 +347,4 @@ Khi oBacker xử lý dữ liệu của người lao động/cổ đông của Qu
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 07/10/2026 | R.2.2.0 | Bổ sung chủ ngữ oBacker cho câu kiểm tra rủi ro pháp lý cơ bản trong phạm vi 01 lượt soát xét hợp đồng (Điều 19) |
-| 02/10/2026 | R.2.1.0 | Mã phụ thu kê khai FCT ngoài định mức cập nhật thành `ADD-FCT-RETURN-2026` |
+| 08/10/2026 | R.3.0.1 | Bỏ vế mục đích, câu cam kết minh bạch, nhãn lưu ý và từ nhấn mạnh; bỏ số đếm ở tiêu đề nguyên tắc ranh giới vận hành |
