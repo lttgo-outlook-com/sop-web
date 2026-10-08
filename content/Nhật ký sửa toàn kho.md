@@ -36,7 +36,7 @@ tags:
 
 ## 1. Danh mục tài liệu
 
-Trang này ghi 751 lượt sửa thuộc các bản cũ của 186 tài liệu, tính tới 08/10/2026. Lượt sửa của bản hiện hành ghi tại mục NHẬT KÝ SỬA trong chính tài liệu đó.
+Trang này ghi 752 lượt sửa thuộc các bản cũ của 186 tài liệu, tính tới 08/10/2026. Lượt sửa của bản hiện hành ghi tại mục NHẬT KÝ SỬA trong chính tài liệu đó.
 
 | Tài liệu | Số lượt sửa | Ngày sửa gần nhất |
 | --- | --- | --- |
@@ -44,10 +44,10 @@ Trang này ghi 751 lượt sửa thuộc các bản cũ của 186 tài liệu, t
 | [[02_OBK-SOP-AM_Quan_ly_khach_hang\|OBK-SOP-AM]] | 15 | 08/10/2026 |
 | [[OBK-SOP-NB-01_Mua_sam_va_thanh_toan_noi_bo\|OBK-SOP-NB-01]] | 14 | 08/10/2026 |
 | [[03_OBK-SOP-KT_Ke_toan_va_thue\|OBK-SOP-KT]] | 11 | 08/10/2026 |
+| [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-QCTC-03]] | 11 | 08/10/2026 |
 | [[04_OBK-SOP-LIC_Giay_phep\|OBK-SOP-LIC]] | 10 | 08/10/2026 |
 | [[05_OBK-SOP-LD_Lao_dong_va_tien_luong\|OBK-SOP-LD]] | 10 | 08/10/2026 |
 | [[OBK-SOP-NB-06_Nghi_viec_va_offboarding_noi_bo\|OBK-SOP-NB-06]] | 10 | 08/10/2026 |
-| [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-QCTC-03]] | 10 | 08/10/2026 |
 | [[00_Muc_luc_va_cach_dung\|OBK-HB-00]] | 9 | 08/10/2026 |
 | [[08_Khung_danh_gia_hieu_suat\|OBK-QCNS-08]] | 9 | 08/10/2026 |
 | [[06_OBK-SOP-LS_Dich_vu_phap_ly\|OBK-SOP-LS]] | 9 | 08/10/2026 |
@@ -146,7 +146,7 @@ Trang này ghi 751 lượt sửa thuộc các bản cũ của 186 tài liệu, t
 | [[OBK-MSR_Quy_tac_so_cai\|TH-02]] | 4 | 07/10/2026 |
 | [[Quy_che_bao_ve_du_lieu_ca_nhan\|OBK-SOP-NB-15]] | 4 | 07/10/2026 |
 | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-SOP-NB-18]] | 4 | 07/10/2026 |
-| [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-SOP-NB-PL-BM]] | 4 | 07/10/2026 |
+| [[PL_BM_Bieu_mau_chung_tu_noi_bo\|OBK-SOP-NB-PL-BM]] | 4 | 07/10/2026 |
 | [[00_Danh_muc_dich_vu_va_bang_gia\|OBK-DM-00]] | 3 | 07/10/2026 |
 | [[02_Bang_gia_Giay_phep_va_doanh_nghiep\|OBK-DM-GP]] | 3 | 07/10/2026 |
 | [[03_Bang_gia_Ke_toan_va_thue\|OBK-DM-KT]] | 3 | 07/10/2026 |
@@ -1385,6 +1385,7 @@ Trang này ghi 751 lượt sửa thuộc các bản cũ của 186 tài liệu, t
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
+| 08/10/2026 | R.6.0.1 | Bỏ câu quy chế đáp ứng cả bốn điều ở mục 1.2 và các số đếm nhóm trường, bước, điều kiện |
 | 08/10/2026 | R.6.0.0 | Khi chưa gán thủ quỹ chỉ dừng nhập quỹ và xuất quỹ tiền mặt, khớp quy chế tài chính nội bộ Điều 4.1; đổi dẫn chiếu sang Bảng kiểm nội bộ và Quy tắc sổ cái; bỏ số đếm và sửa ngữ pháp |
 | 08/10/2026 | R.5.0.0 | Thêm chữ ký kế toán trưởng trên đề nghị tạm ứng kiêm văn bản cử đi công tác, theo Luật Kế toán Điều 19 khoản 3 |
 | 08/10/2026 | R.4.0.0 | Gộp danh mục chứng từ BM-01 đến BM-07, KQ-01, CT-01, CK-02 và quy định sổ chi tiết vào quy chế, bỏ phần giải thích và cảnh báo. |

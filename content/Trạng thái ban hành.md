@@ -8,7 +8,7 @@ tags:
 # Trạng thái ban hành
 
 > [!info] TRANG NÀY LÀ GÌ
-> Trang này ghi trạng thái của 112 tài liệu trong kho. Trang này được sinh lại từ thông tin đầu tệp của từng tài liệu; nơi sửa một trạng thái là bảng Thông tin phiên bản của chính tài liệu đó.
+> Trang này ghi trạng thái của 113 tài liệu trong kho. Trang này được sinh lại từ thông tin đầu tệp của từng tài liệu; nơi sửa một trạng thái là bảng Thông tin phiên bản của chính tài liệu đó.
 
 Cập nhật ngày 08/10/2026.
 
@@ -25,12 +25,13 @@ Thư mục `01_ToChuc`, 4 tài liệu.
 
 ## Vận hành nội bộ
 
-Thư mục `02_NoiBo`, 3 tài liệu.
+Thư mục `02_NoiBo`, 4 tài liệu.
 
 | Mã | Tài liệu | Cấp | Bản | Trạng thái | Người soát | Người phê duyệt | Ngày biên soạn | Rà soát tiếp theo |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo\|OBK-QCTC-01]] | [[OBK-QCTC-01_Quy_che_tai_chinh_noi_bo]] | Cấp 1, quy chế | R.8.1.3 | đang áp dụng | CEO | CEO | 08/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
-| [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-QCTC-03]] | [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan]] | Cấp 1, quy chế | R.6.0.1 | đang áp dụng | CEO | CEO | 08/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
+| [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan\|OBK-QCTC-03]] | [[OBK-QCTC-03_Quy_che_hach_toan_ke_toan]] | Cấp 1, quy chế | R.6.0.2 | đang áp dụng | CEO | CEO | 08/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
+| [[PL_BM_Bieu_mau_chung_tu_noi_bo\|OBK-QCTC-03-PL-BM]] | [[PL_BM_Bieu_mau_chung_tu_noi_bo]] | Phụ lục | R.3.0.0 | đang áp dụng | CEO | CEO | 08/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 | [[Quy_che_bao_ve_du_lieu_ca_nhan\|OBK-SOP-NB-09]] | [[Quy_che_bao_ve_du_lieu_ca_nhan]] | Cấp 1, văn bản khung toàn công ty | R.3.0.3 | đang áp dụng | CEO | CEO | 08/10/2026 | Không quá 12 tháng kể từ ngày ban hành |
 
 ## Bảng kiểm

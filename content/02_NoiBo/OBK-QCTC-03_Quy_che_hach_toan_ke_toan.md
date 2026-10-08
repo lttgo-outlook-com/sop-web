@@ -4,7 +4,7 @@ code: "OBK-QCTC-03"
 type: "sop"
 folder: "02_NoiBo"
 level: "Cấp 1, quy chế"
-version: "R.6.0.1"
+version: "R.6.0.2"
 status: "đang áp dụng"
 draft_date: "08/10/2026"
 author: "CEO"
@@ -15,7 +15,6 @@ next_review: "Không quá 12 tháng kể từ ngày ban hành"
 distribution: "Nội bộ oBacker"
 aliases:
   - OBK-QCTC-03
-  - OBK-SOP-NB-PL-BM
   - KQ-01
   - CT-01
   - CK-02
@@ -29,7 +28,7 @@ tags:
 | --- | --- |
 | Mã tài liệu | OBK-QCTC-03 |
 | Cấp tài liệu | Cấp 1, quy chế |
-| Phiên bản | R.6.0.1, đang áp dụng |
+| Phiên bản | R.6.0.2, đang áp dụng |
 | Ngày biên soạn | 08/10/2026 |
 | Người biên soạn | CEO |
 | Người soát | CEO |
@@ -112,7 +111,7 @@ tags:
 
 ### Điều 5. Biểu mẫu tự thiết kế
 
-5.1. Danh mục biểu mẫu oBacker tự thiết kế hoặc sửa đổi, theo `[Thông tư 99/2025/TT-BTC Đ.9 k.2]`:
+5.1. Danh mục biểu mẫu oBacker tự thiết kế hoặc sửa đổi, theo `[Thông tư 99/2025/TT-BTC Đ.9 k.2]`. Bản mẫu để lập chứng từ tại [[PL_BM_Bieu_mau_chung_tu_noi_bo|Phụ lục BM]]:
 
 | Mã | Tên | Quan hệ với Phụ lục I |
 | --- | --- | --- |
@@ -259,4 +258,4 @@ Chứng từ thiếu nội dung bắt buộc không đủ điều kiện theo `[
 
 | Ngày | Bản | Nội dung |
 | --- | --- | --- |
-| 08/10/2026 | R.6.0.1 | Bỏ câu quy chế đáp ứng cả bốn điều ở mục 1.2 và các số đếm nhóm trường, bước, điều kiện |
+| 08/10/2026 | R.6.0.2 | Mục 5.1 dẫn tới Phụ lục BM chứa bản mẫu để lập chứng từ. |
