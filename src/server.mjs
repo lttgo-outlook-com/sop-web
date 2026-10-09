@@ -95,6 +95,7 @@ export function createMcpServer(engine) {
                 type: doc.type,
                 status: doc.status,
                 version: doc.version,
+                release: doc.release,
                 aliases: doc.aliases,
                 headings: doc.headings,
                 content: doc.raw,
@@ -113,7 +114,7 @@ export function createMcpServer(engine) {
     {
       title: "List SOP documents",
       description:
-        "List documents in the oBacker SOP vault, optionally filtered by folder, type, status. Returns code, title, folder, status, version, type.",
+        "List documents in the oBacker SOP vault, optionally filtered by folder, type, status. Returns code, title, folder, status, version, release, type.",
       inputSchema: {
         folder: z.string().optional().describe("Exact folder, e.g. 02_NoiBo"),
         type: z.string().optional().describe("Exact type, e.g. sop"),
@@ -278,6 +279,7 @@ export function createApp(engine, oauth = null) {
       type: doc.type,
       status: doc.status,
       version: doc.version,
+      release: doc.release,
       aliases: doc.aliases,
       headings: doc.headings,
       content: doc.raw,

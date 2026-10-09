@@ -113,6 +113,7 @@ function publicResult(doc, excerpt, matchType, score) {
     folder: doc.folder,
     status: doc.status,
     version: doc.version,
+    release: doc.release,
     type: doc.type,
     id: doc.id,
     path: doc.id,
@@ -256,6 +257,7 @@ export function createSearchEngine(indexJson) {
         folder: d.folder,
         status: d.status,
         version: d.version,
+        release: d.release,
         type: d.type,
       }))
   }

@@ -252,6 +252,7 @@ test("listDocuments filters + shape", () => {
   assert.deepEqual(Object.keys(all[0]).sort(), [
     "code",
     "folder",
+    "release",
     "status",
     "title",
     "type",
@@ -274,6 +275,7 @@ test("result shape: all required fields present", () => {
     "id",
     "match_type",
     "path",
+    "release",
     "score",
     "status",
     "title",

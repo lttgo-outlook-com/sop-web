@@ -13,10 +13,16 @@ export function statusTone(status: string | undefined): StatusTone {
   return "neutral"
 }
 
-/** Trích version dạng chuỗi ("R.1.0.0"); trả về undefined nếu không có hoặc không phải string. */
+/** Trích version dạng chuỗi ("V1.0.0"); trả về undefined nếu không có hoặc không phải string. */
 export function docVersion(frontmatter: Record<string, unknown> | undefined): string | undefined {
   const v = frontmatter?.version
   return typeof v === "string" ? v : undefined
+}
+
+/** Trích mã phát hành dạng chuỗi ("R.26.10.08.1"); rỗng thì trả về undefined. */
+export function docRelease(frontmatter: Record<string, unknown> | undefined): string | undefined {
+  const r = frontmatter?.release
+  return typeof r === "string" && r.trim() !== "" ? r : undefined
 }
 
 /** Trích status dạng chuỗi; trả về undefined nếu không có hoặc không phải string. */
@@ -29,6 +35,7 @@ const StatusBadge: QuartzComponent = ({ fileData, displayClass }: QuartzComponen
   const frontmatter = fileData.frontmatter as Record<string, unknown> | undefined
   const version = docVersion(frontmatter)
   const status = docStatus(frontmatter)
+  const release = docRelease(frontmatter)
 
   if (!version && !status) {
     return null
@@ -37,6 +44,16 @@ const StatusBadge: QuartzComponent = ({ fileData, displayClass }: QuartzComponen
   return (
     <span class={classNames(displayClass, "status-badge", `tone-${statusTone(status)}`)}>
       {version && <span class="status-badge-version">{version}</span>}
+      {release && (
+        <span class="status-badge-sep" aria-hidden="true">
+          ·
+        </span>
+      )}
+      {release && (
+        <span class="status-badge-version" title="Mã phát hành">
+          {release}
+        </span>
+      )}
       {version && status && (
         <span class="status-badge-sep" aria-hidden="true">
           ·

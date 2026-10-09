@@ -24,7 +24,8 @@ Cloud Run), no database — the build-time index is the only data source.
       "folder": "02_NoiBo",
       "type": "sop",                            // may be "", "can-cu", "van-ban", ...
       "status": "đang áp dụng",                  // may be ""
-      "version": "R.1.0.0",                     // may be ""
+      "version": "V1.0.0",                      // may be ""
+      "release": "R.26.10.08.1",                // may be ""
       "aliases": ["OBK-SOP-NB-05"],
       "headings": ["1. MỤC ĐÍCH", ...],         // H2/H3 titles, plain text
       "plainText": "... markdown body stripped of wikilinks/hidden notes/tables ...",
@@ -89,7 +90,7 @@ apply to both tiers. Empty query returns empty results.
 | `code` | string, required | Document code or index id (`folder/file.md`) |
 
 Output: full document — frontmatter fields (`id`, `code`, `codeField`,
-`title`, `folder`, `type`, `status`, `version`, `aliases`, `headings`) plus
+`title`, `folder`, `type`, `status`, `version`, `release`, `aliases`, `headings`) plus
 `content` = raw markdown. Unknown code → MCP tool error `document not found`.
 
 ### `list_documents`

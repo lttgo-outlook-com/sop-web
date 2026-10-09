@@ -170,6 +170,7 @@ for (const file of walk(CONTENT)) {
       type: typeof fm.type === 'string' ? fm.type : '',
       status: typeof fm.status === 'string' ? fm.status : '',
       version: typeof fm.version === 'string' ? fm.version : '',
+      release: typeof fm.release === 'string' ? fm.release : '',
       aliases: Array.isArray(fm.aliases) ? fm.aliases : [],
       headings,
       plainText: plain,
